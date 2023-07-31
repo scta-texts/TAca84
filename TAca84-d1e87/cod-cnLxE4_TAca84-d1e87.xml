@@ -1,215 +1,592 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Quaestio 8</title><!-- ST I, q. 8 -->
-        <author ref="#Aquinas">Thomas Aquinas</author>
-        <respStmt>
-          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-          <resp>Transcription Editor</resp>
-          <resp>Tei Encoder</resp>
-        </respStmt>
-      </titleStmt>
-      <editionStmt>
-        <edition n="0.0.0">
-          <title>Quaestio 8</title>
-          <date when="2021-04-19">April 19, 2021</date>
-        </edition>
-      </editionStmt>
-      <publicationStmt>
-        <authority>SCTA</authority>
-        <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <listWit>
-          <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
-          <!-- https://archive.org/details/operaomniaiussui04thom/ -->
-        </listWit>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-      <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
-          guidelines for a diplomatic edition.
-        </p>
-      </editorialDecl>
-    </encodingDesc>
-    <revisionDesc status="draft">
-      <listChange>
-        <change when="2021-04-19" status="draft" n="0.0.0">
-        </change>
-      </listChange>
-    </revisionDesc>
-  </teiHeader>
-  <text xml:lang="la">
-    <front>
-      <div xml:id="starts-on">
-        <pb ed="#L" n="82"/>
-        <!-- 5th of 6 columns -->
-        <cb ed="#L" n="a"/>   
-      </div>
-    </front>
-    <body>
-      <div xml:id="TAca84-d1e87">
-        <head xml:id="TAca84-d1e87-Hd1e110">Quaestio 8</head><!-- ST I, q. 8 -->
-        <div xml:id="TAca84-d1e87-Dd1e113">
-          <head xml:id="TAca84-d1e87-Hd1e115">Prooemium</head>
-          <p xml:id="TAca84-d1e87-d1e118">
-            <cb ed="#L" n="b"/>
-            <lb ed="#L" n="1"/>QUAESTIO OCTAVA
-            <lb ed="#L" n="2"/>DE EXISTENTIA DEI IN REBUS
-            <lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
-          </p>
-          <p xml:id="TAca84-d1e87-d1e129">
-            <cb ed="#L" n="b"/>
-            <lb ed="#L" n="1"/>Quia vero infinito convenire videtur quod ubique et in omnibus sit, considerandum est utrum hoc Deo conveniat. Et circa hoc quaeruntur quatuor. Primo, utrum Deus sit in omnibus rebus. Secundo, utrum Deus sit ubique. Tertio, utrum Deus sit ubique per essentiam et potentiam et praesentiam. Quarto, utrum esse ubique sit proprium Dei.</p>
-        </div>
-        <div xml:id="TAca84-d1e87-Dd1e137" type="articulus">
-          <head xml:id="TAca84-d1e87-Hd1e139">Articulus 1</head>
-          <head xml:id="TAca84-d1e87-Hd1e141" type="question-title">Utrum deus sit in omnibus rebus</head>
-          <p xml:id="TAca84-d1e87-d1e144">
-            <cb ed="#L" n="e"/>
-            <lb ed="#L" n="1"/>ARTICULUS PRIMUS
-            <lb ed="#L" n="2"/>UTRUM DEUS SIT IN OMNIBUS REBUS
-          </p>
-          <p xml:id="TAca84-d1e87-d1e142"> 
-            <cb ed="#L" n="e"/>
-            <lb ed="#L" n="1"/>Ad primum sic proceditur. Videtur quod Deus non sit in omnibus rebus. Quod enim est supra omnia, non est in omnibus rebus. Sed Deus est supra omnia, secundum illud Psalmi, excelsus super omnes gentes dominus, et cetera. Ergo Deus non est in omnibus rebus.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e149">Praeterea, quod est in aliquo, continetur ab eo. Sed Deus non continetur a rebus, sed magis continet res. Ergo Deus non est in rebus, sed magis res sunt in eo. Unde Augustinus, in libro octoginta trium quaest., dicit quod in ipso potius sunt omnia, quam ipse alicubi.</p>
-          <p xml:id="TAca84-d1e87-d1e152">Praeterea, quanto aliquod agens est virtuosius, tanto ad magis distans eius actio procedit. Sed Deus est virtuosissimum agens. Ergo eius actio pertingere potest ad ea etiam quae ab ipso distant, nec oportet quod sit in omnibus.</p>
-          <p xml:id="TAca84-d1e87-d1e155">Praeterea, Daemones res aliquae sunt. Nec tamen Deus est in Daemonibus, non enim est conventio lucis ad tenebras, ut dicitur II ad Cor. VI. Ergo Deus non est in omnibus rebus.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e159">Sed contra, ubicumque operatur aliquid, ibi est. Sed Deus operatur in omnibus, secundum illud Isaiae XXVI, omnia opera nostra operatus es in nobis, domine. Ergo Deus est in omnibus rebus.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e162">Respondeo dicendum quod Deus est in omnibus rebus, non quidem sicut pars essentiae, vel sicut accidens, sed sicut agens adest ei in quod agit. Oportet enim omne agens coniungi ei in quod immediate agit, et sua virtute illud contingere, unde in <ref xml:id="TAca84-d1e87-Rd1e164">VII Physic.</ref> probatur quod <quote xml:id="TAca84-d1e87-Qd1e167" source="http://scta.info/resource/aristdp-d1e97-d1e520" synch="72-78"><!--synch manifestation: cod-qwzw4v-->motum et movens oportet esse simul</quote>. Cum autem Deus sit ipsum esse per suam essentiam, oportet quod esse creatum sit proprius effectus eius; sicut ignire est proprius effectus ignis. Hunc autem effectum causat Deus in rebus, non solum quando primo esse incipiunt, sed quandiu in esse conservantur; sicut lumen causatur in aere a sole quandiu aer illuminatus manet. Quandiu igitur res habet esse, tandiu oportet quod Deus adsit ei, secundum modum quo esse habet. Esse autem est illud quod est magis intimum cuilibet, et quod profundius omnibus inest, cum sit formale respectu omnium quae in re sunt, ut ex supra dictis patet. Unde oportet quod Deus sit in omnibus rebus, et intime.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e172">Ad primum ergo dicendum quod Deus est supra omnia per excellentiam suae naturae, et tamen est in omnibus rebus, ut causans omnium esse, ut supra dictum est.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e175">Ad secundum dicendum quod, licet corporalia dicantur esse in aliquo sicut in continente, tamen spiritualia continent ea in quibus sunt, sicut anima continet corpus. Unde et Deus est in rebus sicut continens res. Tamen, per quandam similitudinem corporalium, dicuntur omnia esse in Deo, inquantum continentur ab ipso.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e178">Ad tertium dicendum quod nullius agentis, quantumcumque virtuosi, actio procedit ad aliquid distans, nisi inquantum in illud per media agit. Hoc autem ad maximam virtutem Dei pertinet, quod immediate in omnibus agit. Unde nihil est distans ab eo, quasi in se illud Deum non habeat. Dicuntur tamen res distare a Deo per dissimilitudinem naturae vel gratiae, sicut et ipse est super omnia per excellentiam suae naturae.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e181">Ad quartum dicendum quod in Daemonibus intelligitur et natura, quae est a Deo, et deformitas culpae, quae non est ab ipso. Et ideo non est absolute concedendum quod Deus sit in Daemonibus, sed cum hac additione, inquantum sunt res quaedam. In rebus autem quae nominant naturam non deformatam, absolute dicendum est Deum esse.</p>
-        </div>
-        <div xml:id="TAca84-d1e87-Dd1e185" type="et-000002">
-          <head xml:id="TAca84-d1e87-Hd1e187">Articulus 2</head>
-          <head xml:id="TAca84-d1e87-Hd1e202" type="questiont-title">Utrum Deus sit ubique</head>
-          <p xml:id="TAca84-d1e87-d1e205">
-            <cb ed="#L" n="c"/>
-            <lb ed="#L" type="fixed=85/120"/><!-- 120 is incorrect; just a place holder estimate -->
-            ARTICULUS SECUNDUS
-            UTRUM DEUS SIT UBIQUE
-          </p>
-          <p xml:id="TAca84-d1e87-d1e190">Ad secundum sic proceditur. Videtur quod Deus non sit ubique. Esse enim ubique significat esse in omni loco. Sed esse in omni loco non convenit Deo, cui non convenit esse in loco, nam incorporalia, ut dicit Boetius, in libro de Hebdomad., non sunt in loco. Ergo Deus non est ubique.</p>
-          
-          <p xml:id="TAca84-d1e87-d1e193">Praeterea, sicut se habet tempus ad successiva, ita se habet locus ad permanentia. Sed unum indivisibile actionis vel motus, non potest esse in diversis temporibus. Ergo nec unum indivisibile in genere rerum permanentium, potest esse in omnibus locis. Esse autem divinum non est successivum, sed permanens. Ergo Deus non est in pluribus locis. Et ita non est ubique.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e196">Praeterea, quod est totum alicubi, nihil eius est extra locum illum. Sed Deus, si est in aliquo loco, totus est ibi, non enim habet partes. Ergo nihil eius est extra locum illum. Ergo Deus non est ubique.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e199">Sed contra est quod dicitur Ierem. XXIII, caelum et terram ego impleo.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e203">Respondeo dicendum quod, cum locus sit res quaedam, esse aliquid in loco potest intelligi dupliciter, vel per modum aliarum rerum, idest sicut dicitur aliquid esse in aliis rebus quocumque modo, sicut accidentia loci sunt in loco; vel per modum proprium loci, sicut locata sunt in loco. Utroque autem modo, secundum aliquid, Deus est in omni loco, quod est esse ubique. Primo quidem, sicut est in omnibus rebus, ut dans eis esse et virtutem et operationem, sic enim est in omni loco, ut dans ei esse et virtutem locativam. Item, locata sunt in loco inquantum replent 
-            <pb ed="#L" n="86"/>
-            locum, et Deus omnem locum replet. Non sicut corpus, corpus enim dicitur replere locum, inquantum non compatitur secum aliud corpus; sed per hoc quod Deus est in aliquo loco, non excluditur quin alia sint ibi, imo per hoc replet omnia loca, quod dat esse omnibus locatis, quae replent omnia loca.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e206">Ad primum ergo dicendum quod incorporalia non sunt in loco per contactum quantitatis dimensivae, sicut corpora, sed per contactum virtutis.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e209">Ad secundum dicendum quod indivisibile est duplex. Unum quod est terminus continui, ut punctus in permanentibus, et momentum in successivis. Et huiusmodi indivisibile, in permanentibus, quia habet determinatum situm, non potest esse in pluribus partibus loci, vel in pluribus locis, et similiter indivisibile actionis vel motus, quia habet determinatum ordinem in motu vel actione, non potest esse in pluribus partibus temporis. Aliud autem indivisibile est, quod est extra totum genus continui, et hoc modo substantiae incorporeae, ut Deus, Angelus et anima, dicuntur esse indivisibiles. Tale igitur indivisibile non applicatur ad continuum sicut aliquid eius, sed inquantum contingit illud sua virtute. Unde secundum quod virtus sua se potest extendere ad unum vel multa, ad parvum vel magnum, secundum hoc est in uno vel pluribus locis, et in loco parvo vel magno.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e212">Ad tertium dicendum quod totum dicitur respectu partium. Est autem duplex pars, scilicet pars essentiae, ut forma et materia dicuntur partes compositi, et genus et differentia partes speciei; et etiam pars quantitatis, in quam scilicet dividitur aliqua quantitas. Quod ergo est totum in aliquo loco totalitate quantitatis, non potest esse extra locum illum, quia quantitas locati commensuratur quantitati loci, unde non est totalitas quantitatis, si non sit totalitas loci. Sed totalitas essentiae non commensuratur totalitati loci. Unde non oportet quod illud quod est totum totalitate essentiae in aliquo, nullo modo sit extra illud. Sicut apparet etiam in formis accidentalibus, quae secundum accidens quantitatem habent, albedo enim est tota in qualibet parte superficiei, si accipiatur totalitas essentiae, quia secundum perfectam rationem suae speciei invenitur in qualibet parte superficiei, si autem accipiatur totalitas secundum quantitatem, quam habet per accidens, sic non est tota in qualibet parte superficiei. In substantiis autem incorporeis non est totalitas, nec per se nec per accidens, nisi secundum perfectam rationem essentiae. Et ideo, sicut anima est tota in qualibet parte corporis, ita Deus totus est in omnibus et singulis.</p>
-        </div>
-        <div xml:id="TAca84-d1e87-Dd1e216" type="articulus">
-          <head xml:id="TAca84-d1e87-Hd1e218">Articulus 3</head>
-          
-          <p xml:id="TAca84-d1e87-d1e221">Ad tertium sic proceditur. Videtur quod male assignentur modi existendi Deum in rebus, cum dicitur quod Deus est in omnibus rebus per essentiam, potentiam et praesentiam. Id enim per essentiam est in aliquo, quod essentialiter est in eo. Deus autem non est essentialiter in rebus, non enim est de essentia alicuius rei. Ergo non debet dici quod Deus sit in rebus per essentiam, praesentiam et potentiam.</p>
-          <p xml:id="TAca84-d1e87-d1e224">Praeterea, hoc est esse praesentem alicui rei, scilicet non deesse illi. Sed hoc est Deum esse per essentiam in rebus, scilicet non deesse alicui rei. Ergo idem est esse Deum in omnibus per essentiam et praesentiam. Superfluum ergo fuit dicere quod Deus sit in rebus per essentiam, praesentiam et potentiam.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e227">Praeterea, sicut Deus est principium omnium rerum per suam potentiam, ita per scientiam et voluntatem. Sed non dicitur Deus esse in rebus per scientiam et voluntatem. Ergo nec per potentiam.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e230">Praeterea, sicut gratia est quaedam perfectio superaddita substantiae rei, ita multae sunt aliae perfectiones superadditae. Si ergo Deus dicitur esse speciali modo in quibusdam per gratiam, videtur quod secundum quamlibet perfectionem debeat accipi specialis modus essendi Deum in rebus.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e234">Sed contra est quod <name xml:id="TAca84-d1e87-Nd1e236">Gregorius</name> dicit, super Cant. Cantic., quod Deus communi modo est in omnibus rebus praesentia, potentia et substantia, tamen familiari modo dicitur esse in aliquibus per gratiam.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e240">Respondeo dicendum quod Deus dicitur esse in re aliqua dupliciter. Uno modo, per modum causae agentis, et sic est in omnibus rebus creatis ab ipso. Alio modo, sicut obiectum operationis est in operante, quod proprium est in operationibus animae, secundum quod cognitum est in cognoscente, et desideratum in desiderante. Hoc igitur secundo modo, Deus specialiter est in rationali creatura, quae cognoscit et diligit illum actu vel habitu. Et quia hoc habet rationalis creatura per gratiam, ut infra patebit, dicitur esse hoc modo in sanctis per gratiam. In rebus vero aliis ab ipso creatis quomodo sit, considerandum est ex his quae in rebus humanis esse dicuntur. Rex enim dicitur esse in toto regno suo per suam potentiam, licet non sit ubique praesens. Per praesentiam vero suam, dicitur aliquid esse in omnibus quae in prospectu ipsius sunt; sicut omnia quae sunt in aliqua domo, dicuntur esse praesentia alicui, qui tamen non est secundum substantiam suam in qualibet parte domus. Secundum vero substantiam vel essentiam, dicitur aliquid esse in loco in quo eius substantia habetur. Fuerunt ergo aliqui, scilicet Manichaei, qui dixerunt divinae potestati subiecta spiritualia esse et incorporalia, visibilia vero et corporalia subiecta esse dicebant potestati principii contrarii. Contra hos ergo oportet dicere quod Deus sit in omnibus per potentiam suam. Fuerunt vero alii, qui licet crederent omnia esse subiecta divinae potentiae, tamen providentiam divinam usque ad haec inferiora corpora non extendebant, ex quorum persona dicitur Iob XXII, circa cardines caeli perambulat, nec nostra considerat. Et contra hos oportuit dicere quod sit in omnibus per suam praesentiam. Fuerunt vero alii, qui licet dicerent omnia ad Dei providentiam pertinere, tamen posuerunt omnia non immediate esse a Deo creata, sed quod immediate creavit primas creaturas, et illae creaverunt alias. Et contra hos oportet dicere quod sit in omnibus per essentiam. Sic ergo est in omnibus per potentiam, inquantum omnia eius potestati subduntur. Est per praesentiam in omnibus, inquantum omnia nuda sunt et aperta oculis eius. Est in omnibus per essentiam, inquantum adest omnibus ut causa essendi, sicut dictum est.</p>
-          
-          <p xml:id="TAca84-d1e87-d1e243">
-            Ad primum ergo dicendum quod Deus dicitur esse in omnibus per essentiam, non quidem rerum, quasi sit de essentia earum, sed per essentiam suam, quia substantia sua adest omnibus ut causa essendi, sicut dictum est.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e246">Ad secundum dicendum quod aliquid potest dici praesens alicui, inquantum subiacet eius conspectui, quod tamen distat ab eo secundum suam substantiam, ut dictum est. Et ideo oportuit duos modos poni, scilicet per essentiam, et praesentiam.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e249">Ad tertium dicendum quod de ratione scientiae et voluntatis est, quod scitum sit in sciente, et volitum in volente, unde secundum scientiam et voluntatem, magis res sunt in Deo, quam Deus in rebus. Sed de ratione potentiae est, quod sit principium agendi in aliud, unde secundum potentiam agens comparatur et applicatur rei exteriori. Et sic per potentiam potest dici agens esse in altero.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e252">Ad quartum dicendum quod nulla alia perfectio superaddita substantiae, facit Deum esse in aliquo sicut obiectum cognitum et amatum, nisi gratia, et ideo sola gratia facit singularem modum essendi Deum in rebus. Est autem alius singularis modus essendi Deum in homine per unionem, de quo modo suo loco agetur.</p>
-        </div>
-        <div xml:id="TAca84-d1e87-Dd1e257" type="articulus">
-          <head xml:id="TAca84-d1e87-Hd1e259">Articulus 4</head>
-          
-          <p xml:id="TAca84-d1e87-d1e262">Ad quartum sic proceditur. Videtur quod esse ubique non sit proprium Dei. Universale enim, secundum philosophum, est ubique et semper, materia etiam prima, cum sit in omnibus corporibus, est ubique. Neutrum autem horum est Deus, ut ex praemissis patet. Ergo esse ubique non est proprium Dei.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e265">Praeterea, numerus est in numeratis. Sed totum universum est constitutum in numero, ut patet Sap. XI. Ergo aliquis numerus est, qui est in toto universo, et ita ubique.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e268">Praeterea, totum universum est quoddam totum corpus perfectum, ut dicitur in I caeli et mundi. Sed totum universum est ubique, quia extra ipsum nullus locus est. Non ergo solus Deus est ubique.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e271">Praeterea, si aliquod corpus esset infinitum, nullus locus esset extra ipsum. Ergo esset ubique. Et sic, esse ubique non videtur proprium Dei.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e275">Praeterea, anima, ut dicit <ref xml:id="TAca84-d1e87-Rd1e277">Augustinus, in VI de Trin.</ref>, est <quote xml:id="TAca84-d1e87-Qd1e280">tota in toto corpore, et tota in qualibet eius parte</quote>. Si ergo non esset in mundo nisi unum solum animal, anima eius esset ubique. Et sic, esse ubique non est proprium Dei.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e284">Praeterea, ut Augustinus dicit in epistola ad Volusianum, anima ubi videt, ibi sentit; et ubi sentit, ibi vivit; et ubi vivit, ibi est. Sed anima videt quasi ubique, quia successive videt etiam totum caelum. Ergo anima est ubique.</p>
-          
-          <p xml:id="TAca84-d1e87-d1e287">Sed contra est quod Ambrosius dicit, in libro de spiritu sancto, quis audeat creaturam dicere spiritum sanctum, qui in omnibus et ubique et semper est; quod utique divinitatis est proprium?</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e290">Respondeo dicendum quod esse ubique primo et per se, est proprium Dei. Dico autem esse ubique primo, quod secundum se totum est ubique. Si quid enim esset ubique, secundum diversas partes in diversis locis existens, non esset primo ubique, quia quod convenit alicui ratione partis suae, non convenit ei primo; sicut si homo est albus dente, albedo non convenit primo homini, sed denti. Esse autem ubique per se dico id cui non convenit esse ubique per accidens, propter aliquam suppositionem factam, quia sic granum milii esset ubique, supposito quod nullum aliud corpus esset. Per se igitur convenit esse ubique alicui, quando tale est quod, qualibet positione facta, sequitur illud esse ubique. Et hoc proprie convenit Deo. Quia quotcumque loca ponantur, etiam si ponerentur infinita praeter ista quae sunt, oporteret in omnibus esse Deum, quia nihil potest esse nisi per ipsum. Sic igitur esse ubique primo et per se convenit Deo, et est proprium eius, quia quotcumque loca ponantur, oportet quod in quolibet sit Deus, non secundum partem, sed secundum seipsum.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e293">Ad primum ergo dicendum quod universale et materia prima sunt quidem ubique, sed non secundum idem esse.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e296">Ad secundum dicendum quod numerus, cum sit accidens, non est per se sed per accidens, in loco. Nec est totus in quolibet numeratorum, sed secundum partem. Et sic non sequitur quod sit primo et per se ubique.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e300">Ad tertium dicendum quod totum corpus universi est ubique, sed non primo, quia non totum est in quolibet loco, sed secundum suas partes. Nec iterum per se, quia si ponerentur aliqua alia loca, non esset in eis.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e303">Ad quartum dicendum quod, si esset corpus infinitum, esset ubique; sed secundum suas partes.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e306">Ad quintum dicendum quod, si esset unum solum animal, anima eius esset ubique primo quidem, sed per accidens.</p>
-          
-          
-          <p xml:id="TAca84-d1e87-d1e309">Ad sextum dicendum quod, cum dicitur anima alicubi videre, potest intelligi dupliciter. Uno modo, secundum quod hoc adverbium alicubi determinat actum videndi ex parte obiecti. Et sic verum est quod, dum caelum videt, in caelo videt, et eadem ratione in caelo sentit. Non tamen sequitur quod in caelo vivat vel sit, quia vivere et esse non important actum transeuntem in exterius obiectum. Alio modo potest intelligi secundum quod adverbium determinat actum videntis, secundum quod exit a vidente. Et sic verum est quod anima ubi sentit et videt, ibi est et vivit, secundum istum modum loquendi. Et ita non sequitur quod sit ubique.</p>
-          
-        </div>
-      </div>
-    </body>
-  </text>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="82"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e87"><!-- p1-q8 -->
+            <head xml:id="TAca84-d1e87-Hd1e99">Quaestio 8</head>
+            <head xml:id="TAca84-d1e87-Hd1e101" type="question-title">de existentia dei in rebus</head>
+            <p xml:id="TAca84-d1e87-d1e104">
+               <pb ed="#L" n="82"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO OCTAVA
+<lb ed="#L" n="2"/>DE EXISTENTIA DEI IN REBUS
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e87-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>QUIA vero infinito convenire videtur quod
+<lb ed="#L" n="5"/>ubique et in omnibus sit, considerandum
+<lb ed="#L" n="6"/>est utrum hoc Deo conveniat ^.
+<lb ed="#L" n="7"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="8"/>Primo: utrum Deus sit in omnibus rebus.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="9"/>Secundo: utrum Deus sit ubique.
+<lb ed="#L" n="10"/>Tertio: utrum Deus sit ubique per essentiam
+<lb ed="#L" n="11"/>et potentiam et praesentiam.
+<lb ed="#L" n="12"/>Quarto: utrum esse ubique sit proprium Dei.
+</p>
+            <div xml:id="TAca84-d1e87-Dd1e143"><!-- p1-q8-a1 -->
+               <head xml:id="TAca84-d1e87-Hd1e146">Articulus 1</head>
+               <head xml:id="TAca84-d1e87-Hd1e148" type="question-title">utrum deus sit in omnibus rebus</head>
+               <p xml:id="TAca84-d1e87-d1e151">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="13"/>ARTICULUS PRIMUS
+<lb ed="#L" n="14"/>UTRUM DEUS SIT IN OMNIBUS REBUS
+</p>
+               <p xml:id="TAca84-d1e87-d1e160">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="15"/>AD PRIMUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="16"/>Deus non sit in omnibus rebus ?. Quod
+<lb ed="#L" n="17"/>^enim est supra omnia, non est in 
+omni<lb break="no" ed="#L" n="18"/>bus rebus. Sed Deus est supra omnia,
+<lb ed="#L" n="19"/>sectindiss illud Psalmi: Excelsus super omnes
+<lb ed="#L" n="20"/>gentes Dominus, etc. Ergo Deus non est in 
+omni<lb break="no" ed="#L" n="21"/>bus rebus.
+</p>
+               <p xml:id="TAca84-d1e87-d1e180">
+                  <lb ed="#L" n="22"/>2. PRAETEREA, quod est in aliquo, continetur
+<lb ed="#L" n="23"/>ab eo. Sed Deus non continetur a rebus, sed
+<lb ed="#L" n="24"/>magis continet res. Ergo Deus non est in rebus,
+<lb ed="#L" n="25"/>sed magis res sunt in eo. Unde Augustinus, in
+<lb ed="#L" n="26"/>libro. Octoginta trium Quaest., dicit quod in
+<lb ed="#L" n="27"/>ipso polius sunt omnia, quam ipse alicubi.
+</p>
+               <p xml:id="TAca84-d1e87-d1e197">
+                  <lb ed="#L" n="28"/>3. PRAETEREA, quanto aliquod agens est 
+virtuo<lb break="no" ed="#L" n="29"/>sius, tanto ad magis distans eius actio procedit.
+<lb ed="#L" n="30"/>Sed Deus est virtuosissimum agens. Ergo eius
+<lb ed="#L" n="31"/>actio pertingere potest ad ea etiam " quae ab ipso
+<lb ed="#L" n="32"/>distant: nec oportet quod sit in omnibus.
+</p>
+               <p xml:id="TAca84-d1e87-d1e210">
+                  <lb ed="#L" n="33"/>4. PRAETEREA, daemones res aliquae sunt. Nec
+<lb ed="#L" n="34"/>tamen Deus est in daemonibus: non enim est
+<lb ed="#L" n="35"/>conventio lucis ad tenebras, ut dicitur II ad Cor.vi.
+<lb ed="#L" n="36"/>Ergo Deus non est in omnibus rebus.
+</p>
+               <p xml:id="TAca84-d1e87-d1e221">
+                  <lb ed="#L" n="37"/>SED CONTRA, ubicumque operatur aliquid, ibi
+<lb ed="#L" n="38"/>est. Sed Deus operatur in omnibus, secundum
+<lb ed="#L" n="39"/>illud Isaiae xxvt: omnia opera nostra operatus
+<lb ed="#L" n="40"/>es in nobis, Domine. Ergo Deus est in omnibus
+<lb ed="#L" n="41"/>rebus.
+</p>
+               <p xml:id="TAca84-d1e87-d1e234">
+                  <lb ed="#L" n="42"/>RESPONDEO DICENDUM quod Deus est in omnibus
+<lb ed="#L" n="43"/>rebus, non quidem sicut pars essentiae, vel sicut
+<lb ed="#L" n="44"/>accidens, sed sicut agens adest ei in quod agit.
+<lb ed="#L" n="45"/>Oportet enim omne agens coniungi ei in quod
+<lb ed="#L" n="46"/>immediate agit, et sua virtute illud contingere:
+                 <lb ed="#L" n="47"/>unde in VII Physic. probatur quod <quote xml:id="TAca84-d1e87-Qd1e249" source="http://scta.info/resource/aristdp-d1e97-d1e520@72-78">motum et
+<lb ed="#L" n="48"/>movens oportet esse simul</quote>. Cum autem Deus sit
+<lb ed="#L" n="49"/>ipsum esse per suam essentiam, oportet quod esse
+<lb ed="#L" n="50"/>creatum sit proprius effectus eius; sicut ignire '
+<lb ed="#L" n="51"/>est proprius effectus ignis. Hunc autem effectum
+<lb ed="#L" n="52"/>causat Deus in rebus, non solum quando primo
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="53"/>esse incipiunt, sed quandiu in esse conservantur;
+<lb ed="#L" n="54"/>sicut lumen causatur in aere a sole quandiu aer
+<lb ed="#L" n="55"/>illuminatus manet. Quandiu igitur res habet esse,
+<lb ed="#L" n="56"/>tandiu oportet quod Deus adsit ei, secundum
+<lb ed="#L" n="57"/>modum quo esse habet. Esse autem est illud
+<lb ed="#L" n="58"/>quod est magis intimum cuilibet, et quod 
+pro<lb break="no" ed="#L" n="59"/>fundius omnibus inest: cum sit formale respectu
+<lb ed="#L" n="60"/>omnium quae in re sunt, ut ex supra dictis ;
+<lb ed="#L" n="61"/>patet. Unde oportet quod Deus sit in omnibus '
+<lb ed="#L" n="62"/>rebus, et intime.
+</p>
+               <p xml:id="TAca84-d1e87-d1e287">
+                  <lb ed="#L" n="63"/>AD PRIMUM ERGO DICENDUM quod Deus est supra
+<lb ed="#L" n="64"/>omnia per excellentiam suae naturae: et tamen
+<lb ed="#L" n="65"/>est in omnibus rebus, ut causans omnium esse,
+<lb ed="#L" n="66"/>ut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e87-d1e298">
+                  <lb ed="#L" n="67"/>Ap SECUNDUM DICENDUM quod, licet corporalia
+<lb ed="#L" n="68"/>dicantur esse in aliquo sicut in continente, tamen
+<lb ed="#L" n="69"/>spiritualia continent ea in quibus sunt, sicut anima
+<lb ed="#L" n="70"/>continet corpus. Unde et Deus est in rebus sicut
+<lb ed="#L" n="71"/>continens res. Tamen, per quandam 
+similitudi<lb break="no" ed="#L" n="72"/>nem corporalium, dicuntur omnia esse in Deo,
+<lb ed="#L" n="73"/>inquantum continentur ab ipso.
+</p>
+               <p xml:id="TAca84-d1e87-d1e317">
+                  <lb ed="#L" n="74"/>AD TERTIUM DICENDUM quod nullius agentis, 
+quan<lb break="no" ed="#L" n="75"/>tumcumque virtuosi, actio. procedit ad aliquid
+<lb ed="#L" n="76"/>distans, nisi inquantum in illud per media agit.
+<lb ed="#L" n="77"/>Hoc autem ad maximam virtutem Dei aper
+<lb ed="#L" n="78"/>quod immediate in omnibus agit. Unde?
+<lb ed="#L" n="79"/>est distans ab eo, quasi in se illud Deum pie
+<lb ed="#L" n="80"/>habeat. Dicuntur tamen res distare a Deo per 
+dis<lb break="no" ed="#L" n="81"/>similitudinem naturae vel gratiae ^: sicut et ipse
+<lb ed="#L" n="82"/>est super omnia per excellentiam suae naturae.
+</p>
+               <p xml:id="TAca84-d1e87-d1e339">
+                  <lb ed="#L" n="83"/>AD QUARTUM DICENDUM quod in daemonibus 
+in<lb break="no" ed="#L" n="84"/>telligitur et natura, quae est a Deo, et deformitas
+<lb ed="#L" n="85"/>culpae, quae non est ab ipso. Et ideo non est
+<lb ed="#L" n="86"/>absolute concedendum quod Deus sit in 
+daemo<lb break="no" ed="#L" n="87"/>nibus, sed cum hac additione, nquantum sunt
+<lb ed="#L" n="88"/>res quaedam. In rebus autem quae nominant
+<lb ed="#L" n="89"/>naturam non deformatam, absolute dicendum est
+<lb ed="#L" n="90"/>Deum esse.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e87-Dd1e361"><!-- p1-q8-a2 -->
+               <head xml:id="TAca84-d1e87-Hd1e364">Articulus 2</head>
+               <head xml:id="TAca84-d1e87-Hd1e366" type="question-title">utrum deus sit ubique</head>
+               <p xml:id="TAca84-d1e87-d1e369">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="77"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="78"/>UTRUM DEUS SIT UBIQUE
+</p>
+               <p xml:id="TAca84-d1e87-d1e378">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="79"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="80"/>Deus non sit ubique. Esse enim ubique
+<lb ed="#L" n="81"/>significat esse in omni loco. Sed esse
+<lb ed="#L" n="82"/>in omni loco non convenit Deo, cui
+<lb ed="#L" n="83"/>non convenit esse in loco: nam incorporalia, ut
+<lb ed="#L" n="84"/>dicit Boetius, in libro de Hebdomad., non sunt
+<lb ed="#L" n="85"/>in loco. Ergo Deus non est ubique. |
+</p>
+               <p xml:id="TAca84-d1e87-d1e398">
+                  <lb ed="#L" n="86"/>2. PRAETEREA, sicut se habet tempus ad 
+suc<lb break="no" ed="#L" n="87"/>cessiva, ita se habet locus ad permanentia. Sed
+<lb ed="#L" n="88"/>unum indivisibile actionis vel motus, non potest
+<lb ed="#L" n="89"/>esse in diversis temporibus. Ergo nec unum 
+in<lb break="no" ed="#L" n="90"/>divisibile in genere rerum permanentium, potest
+<lb ed="#L" n="91"/>esse in omnibus locis. Esse autem divinum non
+<lb ed="#L" n="92"/>est successivum, sed permanens. Ergo Deus non
+<lb ed="#L" n="93"/>est in pluribus locis . Et ita non est ubique.
+</p>
+               <p xml:id="TAca84-d1e87-d1e419">
+                  <lb ed="#L" n="94"/>3. PRaETEREA, quod est totum alicubi, nihil
+<lb ed="#L" n="95"/>eius? est extra locum illum. Sed Deus, si est in
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="96"/>aliquo loco, totus est ibi: non enim habet partes.
+<lb ed="#L" n="97"/>Ergo nihil eius est extra locum illum. Ergo Deus
+<lb ed="#L" n="98"/>non est ubique.
+</p>
+               <p xml:id="TAca84-d1e87-d1e435">
+                  <lb ed="#L" n="99"/>SED coNTRA EsT quod dicitur lerem. xxu:
+<lb ed="#L" n="100"/>caelum et terram ego impleo.
+</p>
+               <p xml:id="TAca84-d1e87-d1e442">
+                  <lb ed="#L" n="101"/>RESPONDEO DICENDUM quod, cum locus sit res
+<lb ed="#L" n="102"/>quaedam, esse aliquid in loco potest intelligi 
+du<lb break="no" ed="#L" n="103"/>pliciter: vel per modum aliarum rerum, idest
+<lb ed="#L" n="104"/>sicut dicitur aliquid esse in aliis rebus quocumque
+<lb ed="#L" n="105"/>modo, sicut accidentia loci sunt in loco; vel per
+<lb ed="#L" n="106"/>modum proprium loci, sicut locata sunt in loco.
+<lb ed="#L" n="107"/>Utroque autem modo, secundum aliquid, Deus
+<lb ed="#L" n="108"/>est in omni loco, quod est esse ubique. Primo
+<lb ed="#L" n="109"/>quidem, sicut est in omnibus rebus, ut dans eis
+<lb ed="#L" n="110"/>esse et virtutem et operationem: sic enim est in
+<lb ed="#L" n="111"/>omni loco, ut dans ei" esse et virtutem 
+locati<lb break="no" ed="#L" n="112"/>vam. Item, locata sunt in loco inquantum replent
+<pb ed="#L" n="86"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>locum: et Deus omnem locum replet. Non sicut
+<lb ed="#L" n="2"/>corpus ^: corpus enim dicitur replere locum, 
+in<lb break="no" ed="#L" n="3"/>quantum non compatitur secum. aliud corpus;
+<lb ed="#L" n="4"/>sed per hoc quod Deus est in aliquo loco, non
+<lb ed="#L" n="5"/>excluditur quin alia sint ibi: imo per hoc replet
+<lb ed="#L" n="6"/>omnia loca, quod dat esse omnibus locatis, quae
+<lb ed="#L" n="7"/>replent omnia loca. ;
+</p>
+               <p xml:id="TAca84-d1e87-d1e490">
+                  <lb ed="#L" n="8"/>AD PRIMUM ERGO DICENDUM quod incorporalia
+<lb ed="#L" n="9"/>non sunt in loco per contactum quantitatis 
+di<lb break="no" ed="#L" n="10"/>mensivae, sicut corpora: sed per contactum 
+vir<lb break="no" ed="#L" n="11"/>tutis.
+</p>
+               <p xml:id="TAca84-d1e87-d1e501">
+                  <lb ed="#L" n="12"/>AD SECUNDUM DICENDUM quod indivisibile est 
+du<lb break="no" ed="#L" n="13"/>plex. Unum? quod est terminus continui, ut 
+pun<lb break="no" ed="#L" n="14"/>ctus in permanentibus, et momentum in 
+successi<lb break="no" ed="#L" n="15"/>vis. Et huiusmodi indivisibile, in permanentibus,
+<lb ed="#L" n="16"/>quia habet determinatum situm, non potest esse
+<lb ed="#L" n="17"/>in pluribus partibus loci, vel in pluribus locis:
+<lb ed="#L" n="18"/>et similiter indivisibile actionis vel motus, quia
+<lb ed="#L" n="19"/>habet determinatum ordinem in motu vel actione,
+<lb ed="#L" n="20"/>non potest esse in pluribus partibus temporis.
+<lb ed="#L" n="21"/>Aliud autem indivisibile est, quod est extra totum
+<lb ed="#L" n="22"/>genus continui: et hoc modo substantiae 
+incor<lb break="no" ed="#L" n="23"/>poreae, ut Deus, angelus et anima, dicuntur
+<lb ed="#L" n="24"/>esse indivisibiles. Tale igitur indivisibile non 
+ap<lb break="no" ed="#L" n="25"/>plicatur ad continuum sicut aliquid eius, sed 
+in<lb break="no" ed="#L" n="26"/>quantum contingit illud sua virtute. Unde 
+secun<lb break="no" ed="#L" n="27"/>dum quod virtus sua se potest extendere ad unum
+<lb ed="#L" n="28"/>vel multa, ad parvum vel magnum, secundum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="29"/>hoc est in uno vel pluribus locis, et in loco parvo
+<lb ed="#L" n="30"/>vel magno.
+</p>
+               <p xml:id="TAca84-d1e87-d1e547">
+                  <lb ed="#L" n="31"/>AD TERTIUM DICENDUM quod totum dicitur 
+respe<lb break="no" ed="#L" n="32"/>ctu partium. Est autem duplex pars: scilicet
+<lb ed="#L" n="33"/>pars essentiae, ut forma et materia dicuntur partes
+<lb ed="#L" n="34"/>compositi, et genus et differentia partes speciei; et
+<lb ed="#L" n="35"/>etiam" pars quantitatis, in quam scilicet dividitur
+<lb ed="#L" n="36"/>aliqua quantitas. Quod ergo est totum in aliquo
+<lb ed="#L" n="37"/>loco totalitate quantitatis, non potest esse extra 
+lo<lb break="no" ed="#L" n="38"/>cum illum: quia quantitas locati commensuratur
+<lb ed="#L" n="39"/>quantitati loci, unde non est totalitas quantitatis,
+<lb ed="#L" n="40"/>si non sit totalitas loci. Sed totalitas essentiae non
+<lb ed="#L" n="41"/>commensuratur totalitati loci. Unde non oportet
+<lb ed="#L" n="42"/>quod illud quod est totum totalitate essentiae in
+<lb ed="#L" n="43"/>aliquo, nullo modo sit extra illud. Sicut apparet
+<lb ed="#L" n="44"/>etiam in formis accidentalibus, quae secundum
+<lb ed="#L" n="45"/>accidens quantitatem habent: albedo enim est
+<lb ed="#L" n="46"/>tota in qualibet parte superficiei, si accipiatur
+<lb ed="#L" n="47"/>totalitas essentiae, quia secundum perfectam 
+ra<lb break="no" ed="#L" n="48"/>tionem suae speciei invenitur in qualibet parte
+<lb ed="#L" n="49"/>superficiei "; si autem accipiatur totalitas 
+secun<lb break="no" ed="#L" n="50"/>dum quantitatem, quam habet per accidens, sic
+<lb ed="#L" n="51"/>non est tota in qualibet parte superficiei. In 
+sub<lb break="no" ed="#L" n="52"/>stantis autem incorporeis non est totalitas, nec
+<lb ed="#L" n="53"/>per se nec per accidens, nisi secundum perfectam
+<lb ed="#L" n="54"/>rationem essentiae. Et ideo, sicut anima est tota
+<lb ed="#L" n="55"/>in qualibet parte corporis, ita Deus totus est in
+<lb ed="#L" n="56"/>omnibus et singulis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e87-Dd1e607"><!-- p1-q8-a3 -->
+               <head xml:id="TAca84-d1e87-Hd1e610">Articulus 3</head>
+               <head xml:id="TAca84-d1e87-Hd1e612" type="question-title">utrum deus sit ubique per essentiam, praesentiam et potentiam</head>
+               <p xml:id="TAca84-d1e87-d1e615">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="78"/>ARTICULUS TERTIUS
+<lb ed="#L" n="79"/>UTRUM DEUS SIT UBIQUE PER ESSENTIAM, PRAESENTIAM ET POTENTIAM
+</p>
+               <p xml:id="TAca84-d1e87-d1e624">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="80"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="81"/>male assignentur modi existendi Deum 
+<lb ed="#L" n="82"/>in rebus, cum dicitur quod Deus est
+<lb ed="#L" n="83"/>n omnibus rebus per essentiam, 
+po<lb break="no" ed="#L" n="84"/>tentiam et praesentiam. Id enim per essentiam
+<lb ed="#L" n="85"/>est in aliquo, quod essentialiter est in eo. Deus
+<lb ed="#L" n="86"/>autem non est essentialiter in rebus: non enim
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="87"/>est de essentia alicuius rei. Ergo non debet dici
+<lb ed="#L" n="88"/>quod Deus sit in rebus per essentiam, 
+praesen<lb break="no" ed="#L" n="89"/>tiam et potentiam.
+</p>
+               <p xml:id="TAca84-d1e87-d1e653">
+                  <lb ed="#L" n="90"/>2. PRAETEREA, hoc est esse praesentem alicui
+<lb ed="#L" n="91"/>rei, scilicet non deesse illi. Sed hoc est Deum
+<lb ed="#L" n="92"/>esse per essentiam in rebus ?, scilicet non deesse
+<lb ed="#L" n="93"/>alicui rei. Ergo idem est esse Deum in omnibus
+<pb ed="#L" n="87"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>per essentiam et praesentiam. Superfluum ergo
+<lb ed="#L" n="2"/>fuit dicere quod Deus sit in rebus per 
+essen<lb break="no" ed="#L" n="3"/>tiam, praesentiam et potentiam.
+</p>
+               <p xml:id="TAca84-d1e87-d1e676">
+                  <lb ed="#L" n="4"/>3. PRAETEREA, sicut Deus est principium 
+om<lb break="no" ed="#L" n="5"/>nium rerum per suam potentiam, ita per 
+scien<lb break="no" ed="#L" n="6"/>tiam et voluntatem. Sed non dicitur Deus esse
+<lb ed="#L" n="7"/>in rebus per scientiam et voluntatem. Ergo nec
+<lb ed="#L" n="8"/>per potentiam.
+</p>
+               <p xml:id="TAca84-d1e87-d1e689">
+                  <lb ed="#L" n="9"/>4. PRAETEREA, sicut gratia est quaedam 
+perfe<lb break="no" ed="#L" n="10"/>ctio superaddita substantiae rei, ita multae sunt
+<lb ed="#L" n="11"/>aliae perfectiones superadditae. Si ergo Deus 
+di<lb break="no" ed="#L" n="12"/>citur esse speciali modo in quibusdam per 
+gra<lb break="no" ed="#L" n="13"/>tiam, videtur quod secundum quamlibet 
+perfe<lb break="no" ed="#L" n="14"/>ctionem debeat accipi specialis modus essendi
+<lb ed="#L" n="15"/>Deum in rebus.
+</p>
+               <p xml:id="TAca84-d1e87-d1e707">
+                  <lb ed="#L" n="16"/>SED cowNTRA EsT quod Gregorius dicit, super
+<lb ed="#L" n="17"/>Cant. Cantic., <quote xml:id="TAca84-d1e87-Qd1e713">quod Deus communi modo est
+<lb ed="#L" n="18"/>in omnibus rebus praesentia, potentia et 
+substan<lb break="no" ed="#L" n="19"/>lia: tamen familiari modo dicitur esse in aliquibus
+<lb ed="#L" n="20"/>per gratiam</quote>.
+</p>
+               <p xml:id="TAca84-d1e87-d1e723">
+                  <lb ed="#L" n="21"/>REsPONDEO DbicENDUM quod Deus dicitur esse in
+<lb ed="#L" n="22"/>re aliqua dupliciter. Uno modo, per modum 
+cau<lb break="no" ed="#L" n="23"/>sae agentis: et sic est in omnibus rebus creatis
+<lb ed="#L" n="24"/>ab ipso. Alio modo, sicut obiectum operationis
+<lb ed="#L" n="25"/>est in operante: quod proprium est in 
+operatio<lb break="no" ed="#L" n="26"/>nibus animae, secundum quod cognitum est in
+<lb ed="#L" n="27"/>cognoscente, et desideratum in desiderante. Hoc
+<lb ed="#L" n="28"/>igitur secundo modo, Deus specialiter est in 
+ra<lb break="no" ed="#L" n="29"/>tionali creatura, quae cognoscit et diligit illum ?
+<lb ed="#L" n="30"/>actu vel habitu. Et quia hoc habet rationalis
+<lb ed="#L" n="31"/>creatura per gratiam, ut infra patebit, dicitur
+<lb ed="#L" n="32"/>esse hoc modo in sanctis per gratiam.
+</p>
+               <p xml:id="TAca84-d1e87-d1e752">
+                  <lb ed="#L" n="33"/>In rebus vero aliis ab ipso creatis quomodo sit,
+<lb ed="#L" n="34"/>considerandum est ex his quae in rebus humanis
+<lb ed="#L" n="35"/>esse dicuntur. Rex enim dicitur esse in toto
+<lb ed="#L" n="36"/>regno suo per suam potentiam, licet non sit 
+ubi<lb break="no" ed="#L" n="37"/>que praesens. Per praesentiam vero suam, dicitur
+<lb ed="#L" n="38"/>aliquid esse in omnibus quae in prospectu ipsius
+<lb ed="#L" n="39"/>sunt; sicut omnia quae sunt in aliqua. domo, 
+di<lb break="no" ed="#L" n="40"/>cuntur esse.^ praesentia alicui, qui tamen non est
+<lb ed="#L" n="41"/>secundum substantiam suam in qualibet parte 
+do<lb break="no" ed="#L" n="42"/>mus. Secundum vero substantiam vel essentiam,
+<lb ed="#L" n="43"/>dicitur aliquid esse in loco in quo eius substantia
+<lb ed="#L" n="44"/>habetur.
+</p>
+               <p xml:id="TAca84-d1e87-d1e781">
+                  <lb ed="#L" n="45"/>Fuerunt ergo aliqui, scilicet Manichaei, qui 
+di<lb break="no" ed="#L" n="46"/>xerunt divinae potestati subiecta spiritualia esse
+<lb ed="#L" n="47"/>et incorporalia: visibilia vero et corporalia 
+sub<lb break="no" ed="#L" n="48"/>iecta esse dicebant potestati principii contrarii.
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="49"/>Contra hos ergo oportet dicere quod Deus sit in
+<lb ed="#L" n="50"/>omnibus per potentiam suam. - Fuerunt vero
+<lb ed="#L" n="51"/>alii, qui licet crederent omnia esse subiecta 
+di<lb break="no" ed="#L" n="52"/>vinae potentiae ^, tamen providentiam divinam
+<lb ed="#L" n="53"/>usque ad haec inferiora corpora non 
+extende<lb break="no" ed="#L" n="54"/>bant: ex quorum persona dicitur ob xxu: circa
+<lb ed="#L" n="55"/>cardines caeli perambulat, nec nostra considerat.
+<lb ed="#L" n="56"/>Et " contra hos oportuit dicere quod' sit in 
+omni<lb break="no" ed="#L" n="57"/>bus per suam praesentiam. - Fuerunt vero alii,
+<lb ed="#L" n="58"/>qui licet dicerent omnia ad Dei providentiam 
+per<lb break="no" ed="#L" n="59"/>tinere^, tamen posuerunt omnia non immediate
+<lb ed="#L" n="60"/>esse a Deo creata: sed quod immediate creavit
+<lb ed="#L" n="61"/>primas creaturas, et illae creaverunt alias. Et
+<lb ed="#L" n="62"/>contra hos oportet dicere quod sit in omnibus
+<lb ed="#L" n="63"/>per essentiam.
+</p>
+               <p xml:id="TAca84-d1e87-d1e828">
+                  <lb ed="#L" n="64"/>Sic ergo est in omnibus per potentiam , 
+in<lb break="no" ed="#L" n="65"/>quantum omnia eius potestati subduntur. Est per
+<lb ed="#L" n="66"/>praesentiam in omnibus, inquantum omnia nuda
+<lb ed="#L" n="67"/>sunt et aperta oculis eius. Est in omnibus per
+<lb ed="#L" n="68"/>essentiam , inquantum adest omnibus ut causa
+<lb ed="#L" n="69"/>essendi, sicut dictum est.
+</p>
+               <p xml:id="TAca84-d1e87-d1e844">
+                  <lb ed="#L" n="70"/>AD PRIMUM ERGO DICENDUM quod Deus dicitur
+<lb ed="#L" n="71"/>esse in omnibus per essentiam, non quidem 
+re<lb break="no" ed="#L" n="72"/>rum, quasi sit de essentia earum: sed per 
+essen<lb break="no" ed="#L" n="73"/>tiam suam, quia substantia sua adest omnibus
+<lb ed="#L" n="74"/>ut causa essendi, sicut dictum est.
+</p>
+               <p xml:id="TAca84-d1e87-d1e857">
+                  <lb ed="#L" n="75"/>AD SECUNDUM DICENDUM quod aliquid potest dici
+<lb ed="#L" n="76"/>praesens alicui, inquantum subiacet eius 
+conspe<lb break="no" ed="#L" n="77"/>ctui, quod tamen distat ab eo secundum suam ^
+<lb ed="#L" n="78"/>substantiam, ut dictum est. Et ideo oportuit
+<lb ed="#L" n="79"/>duos modos poni: scilicet per essentiam, et 
+prae<lb break="no" ed="#L" n="80"/>sentiam.
+</p>
+               <p xml:id="TAca84-d1e87-d1e873">
+                  <lb ed="#L" n="81"/>AD TERTIUM DICENDUM quod de ratione scientiae
+<lb ed="#L" n="82"/>et voluntatis est, quod scitum sit in sciente, et
+<lb ed="#L" n="83"/>volitum in volente: unde secundum scientiam et
+<lb ed="#L" n="84"/>voluntatem, magis res sunt in Deo, quam Deus
+<lb ed="#L" n="85"/>in rebus. Sed de ratione potentiae est, quod sit
+<lb ed="#L" n="86"/>principium agendi in aliud: unde secundum 
+po<lb break="no" ed="#L" n="87"/>tentiam agens comparatur et applicatur rei 
+exte<lb break="no" ed="#L" n="88"/>riori. Et sic per potentiam potest dici agens esse
+<lb ed="#L" n="89"/>in altero.,
+</p>
+               <p xml:id="TAca84-d1e87-d1e895">
+                  <lb ed="#L" n="90"/>AD QUARTUM DICENDUM quod nulla alia perfectio
+<lb ed="#L" n="91"/>superaddita substantiae, facit Deum esse in aliquo
+<lb ed="#L" n="92"/>sicut obiectum cognitum et amatum, nisi gratia:
+<lb ed="#L" n="93"/>et ideo sola gratia facit singularem modum 
+essen<lb break="no" ed="#L" n="94"/>di Deum. in rebus. Est autem alius ?' singularis
+<lb ed="#L" n="95"/>modus essendi Deum in homine per unionem:
+<lb ed="#L" n="96"/>de quo modo suo loco agetur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e87-Dd1e914"><!-- p1-q8-a4 -->
+               <head xml:id="TAca84-d1e87-Hd1e917">Articulus 4</head>
+               <head xml:id="TAca84-d1e87-Hd1e919" type="question-title">utrum esse ubique sit proprium dei</head>
+               <p xml:id="TAca84-d1e87-d1e922">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="92"/>ARTICULUS QUARTUS
+<lb ed="#L" n="93"/>UTRUM ESSE UBIQUE SIT PROPRIUM DEI
+</p>
+               <p xml:id="TAca84-d1e87-d1e931">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="94"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="95"/>esse ubique non sit proprium Dei. 
+Uni<lb break="no" ed="#L" n="96"/>melee enim, secundum Philosophum,
+<lb ed="#L" n="97"/>à Nsest ubique et semper: materia etiam
+<lb ed="#L" n="98"/>prima, cum sit in omnibus corporibus, est 
+ubi<lb break="no" ed="#L" n="99"/>que. Neutrum autem horum est Deus, ut ex
+<lb ed="#L" n="100"/>praemissis patet. Ergo esse ubique non est 
+pro<lb break="no" ed="#L" n="101"/>prium Dei.
+</p>
+               <p xml:id="TAca84-d1e87-d1e953">
+                  <lb ed="#L" n="102"/>2. PRAETEREA, numerus est in numeratis. Sed
+<lb ed="#L" n="103"/>totum universum est constitutum in numero ^, ut
+<lb ed="#L" n="104"/>patet Sap. xi. Ergo aliquis numerus est, qui est
+<lb ed="#L" n="105"/>in toto universo: et ita ubique.
+</p>
+               <p xml:id="TAca84-d1e87-d1e965">
+                  <lb ed="#L" n="106"/>3. PRAETEREA, totum universum est quoddam
+<lb ed="#L" n="107"/>totum corpus perfectum, ut dicitur in I Caeli et
+<lb ed="#L" n="108"/>Mundi. Sed totum universum est ubique : quia
+<lb ed="#L" n="109"/>extra ipsum nullus locus est. Non ergo solus.
+<lb ed="#L" n="110"/>Deus est ubique.
+</p>
+               <p xml:id="TAca84-d1e87-d1e978">
+                  <lb ed="#L" n="111"/>4. PRAETEREA, si aliquod corpus esset 
+infini<lb break="no" ed="#L" n="112"/>tum, nullus locus esset extra ipsum ?. Ergo esset
+<lb ed="#L" n="113"/>ubique. Et sic, esse ubique non videtur 
+pro<lb break="no" ed="#L" n="114"/>prium Dei.
+</p>
+               <p xml:id="TAca84-d1e87-d1e989">
+                  <lb ed="#L" n="115"/>5. PRAETEREA, anima, ut dicit Augustinus, in VI
+<lb ed="#L" n="116"/>de Trin., est tota. in. toto corpore, et tota in
+<lb ed="#L" n="117"/>qualibet eius parte. Si ergo non esset in mundo
+<pb ed="#L" n="89"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nisi unum solum ? animal, anima eius esset 
+ubi<lb break="no" ed="#L" n="2"/>que. Et sic, esse ubique non est proprium Dei.
+</p>
+               <p xml:id="TAca84-d1e87-d1e1007">
+                  <lb ed="#L" n="3"/>6. PRAETEREA, ut Augustinus dicit in epistola
+<lb ed="#L" n="4"/>ad Volusianum, anima ubi videt, ibi sentit ^; et
+<lb ed="#L" n="5"/>ubi sentit, ibi vivit; et ubi vivit, ibi est. Sed anima
+<lb ed="#L" n="6"/>videt quasi ubique: quia successive videt etiam "
+<lb ed="#L" n="7"/>totum caelum. Ergo anima est ubique.
+</p>
+               <p xml:id="TAca84-d1e87-d1e1020">
+                  <lb ed="#L" n="8"/>SEp coNTRA EsT quod Ambrosius dicit, in libro
+<lb ed="#L" n="9"/>de Spiritu Sancto: Quis audeat creaturam 
+di<lb break="no" ed="#L" n="10"/>cere Spiritum Sanctum, qui in omnibus et ubique
+<lb ed="#L" n="11"/>et semper est; quod utique divinitatis est 
+pro<lb break="no" ed="#L" n="12"/>prium?
+</p>
+               <p xml:id="TAca84-d1e87-d1e1033">
+                  <lb ed="#L" n="13"/>RESPONDEO DICENDUM quod esse ubique primo
+<lb ed="#L" n="14"/>et per se, est proprium Dei. Dico autem esse
+<lb ed="#L" n="15"/>ubique primo, quod secundum se totum est 
+ubi<lb break="no" ed="#L" n="16"/>que. Si quid enim esset ubique, secundum 
+di<lb break="no" ed="#L" n="17"/>versas partes in diversis locis existens, non esset
+<lb ed="#L" n="18"/>primo ubique: quia quod convenit alicui ratione
+<lb ed="#L" n="19"/>partis suae, non convenit ei primo; sicut si 
+ho<lb break="no" ed="#L" n="20"/>mo est albus dente, albedo non convenit primo
+<lb ed="#L" n="21"/>homini, sed denti. Esse autem ubique per se
+<lb ed="#L" n="22"/>dico id cui non convenit esse ubique per 
+acci<lb break="no" ed="#L" n="23"/>dens, propter aliquam suppositionem ' factam :
+<lb ed="#L" n="24"/>quia sic granum milii esset ubique, supposito
+<lb ed="#L" n="25"/>quod nullum aliud corpus esset. Per se igitur
+<lb ed="#L" n="26"/>convenit esse ubique alicui, quando tale est
+<lb ed="#L" n="27"/>quod, qualibet positione facta, sequitur illud esse
+<lb ed="#L" n="28"/>ubique.
+</p>
+               <p xml:id="TAca84-d1e87-d1e1071">
+                  <lb ed="#L" n="29"/>Et hoc proprie convenit Deo. Quia 
+quotcum<lb break="no" ed="#L" n="30"/>que loca ponantur, etiam si ponerentur infinita
+<lb ed="#L" n="31"/>raeter ista quae sunt, oporteret in omnibus esse
+<lb ed="#L" n="32"/>Bum: quia nihil potest esse nisi per ipsum.
+<lb ed="#L" n="33"/>Sic igitur esse ubique primo et per se convenit
+<lb ed="#L" n="34"/>Deo, et est proprium eius: quia quotcumque ?
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="35"/>loca ponantur, oportet quod in quolibet sit Deus,
+<lb ed="#L" n="36"/>non secundum partem, sed secundum seipsum.
+</p>
+               <p xml:id="TAca84-d1e87-d1e1093">
+                  <lb ed="#L" n="37"/>AÀD PRIMUM ERGO DICENDUM quod universale et
+<lb ed="#L" n="38"/>materia prima sunt quidem ubique, sed non 
+se<lb break="no" ed="#L" n="39"/>cundum idem esse.
+</p>
+               <p xml:id="TAca84-d1e87-d1e1102">
+                  <lb ed="#L" n="40"/>AD SECUNDUM DICENDUM quod numerus; cum sit
+<lb ed="#L" n="41"/>accidens, non est per se, sed per accidens, in
+<lb ed="#L" n="42"/>loco. Neé est totus in quolibet numeratorum,
+<lb ed="#L" n="43"/>sed secundum partem. Et sic non sequitur quod
+<lb ed="#L" n="44"/>sit primo et per se ubique.
+</p>
+               <p xml:id="TAca84-d1e87-d1e1115">
+                  <lb ed="#L" n="45"/>AD TERTIUM DICENDUM quod totum corpus 
+uni<lb break="no" ed="#L" n="46"/>versi est ubique, sed non primo: quia non totum
+<lb ed="#L" n="47"/>est in quolibet loco, sed secundum suas partes.
+<lb ed="#L" n="48"/>Nec iterum per se: quia si ponerentur aliqua
+<lb ed="#L" n="49"/>alia loca, non esset in eis.
+</p>
+               <p xml:id="TAca84-d1e87-d1e1128">
+                  <lb ed="#L" n="50"/>AD QUARTUM DICENDUM quod, si esset corpus 
+in<lb break="no" ed="#L" n="51"/>finitum, esset ubique; sed secundum suas partes.
+</p>
+               <p xml:id="TAca84-d1e87-d1e1135">
+                  <lb ed="#L" n="52"/>AD QUINTUM DICENDUM quod, si esset unum 
+so<lb break="no" ed="#L" n="53"/>lum animal, anima eius esset ubique primo "'
+<lb ed="#L" n="54"/>quidem, sed per accidens.
+</p>
+               <p xml:id="TAca84-d1e87-d1e1145">
+                  <lb ed="#L" n="55"/>AD SEXTUM DICENDUM quod, cum dicitur anima
+<lb ed="#L" n="56"/>alicubi videre, potest intelligi dupliciter. Uno modo,
+<lb ed="#L" n="57"/>secundum quod hoc adverbium alicubi 
+determi<lb break="no" ed="#L" n="58"/>nat actum videndi ex parte obiecti. Et sic verum
+<lb ed="#L" n="59"/>est quod, dum caelum videt, in caelo videt: et
+<lb ed="#L" n="60"/>eadem ratione in Caelo sentit. Non tamen sequitur
+<lb ed="#L" n="61"/>quod in caelo vivat vel sit: quia vivere et esse
+<lb ed="#L" n="62"/>non important actum transeuntem in exterius 
+obie<lb break="no" ed="#L" n="63"/>ctum. Alio modo potest intelligi secundum quod
+<lb ed="#L" n="64"/>adverbium determinat actum videntis, secundum
+<lb ed="#L" n="65"/>quod: exit a vidente. Et sic verum est quod
+<lb ed="#L" n="66"/>anima ubi sentit et videt, ibi est et vivit 5, 
+secun<lb break="no" ed="#L" n="67"/>dum istum modum loquendi. Et ita non sequitur
+<lb ed="#L" n="68"/>quod sit ubique.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
 </TEI>

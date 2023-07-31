@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prologus</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prologus</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="5"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e41"><!-- prooem -->
+            <head xml:id="TAca84-d1e41-Hd1e99">Prologus</head>
+            <p xml:id="TAca84-d1e41-d1e101">
+               <pb ed="#L" n="5"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>PRIMA PARS
+<lb ed="#L" n="2"/>SUMMAE THEOLOGIAE
+<lb ed="#L" n="3"/>ANGELICI DOCTORIS
+<lb ed="#L" n="4"/>SANCTI THOMAE AQUINATIS
+<lb ed="#L" n="5"/>ORDINIS PRAEDICATORUM
+<lb ed="#L" n="6"/>CUM COMMENTARIIS
+<lb ed="#L" n="7"/>THOMAE DE VIO CAIETANI
+<lb ed="#L" n="8"/>EIUSDEM ORDINIS
+<lb ed="#L" n="9"/>S. R. E. CARDINALIS
+</p>
+            <p xml:id="TAca84-d1e41-d1e127">
+               <lb ed="#L" n="10"/>PROLOGUS
+</p>
+            <p xml:id="TAca84-d1e41-d1e132">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="11"/>QUIA catholicae veritatis doctor non
+<lb ed="#L" n="12"/>solum provectos debet instruere, sed
+<lb ed="#L" n="13"/>ad eum pertinet etiam incipientes
+<lb ed="#L" n="14"/>erudire, secundum illud Apostoli
+<lb ed="#L" n="15"/>I ad Corinth. III: tamquam parvulis
+<lb ed="#L" n="16"/>in Christo, lac vobis potum dedi, non
+<lb ed="#L" n="17"/>escam; propositum nostrae intentionis in hoc
+<lb ed="#L" n="18"/>opere est, ea quae ad Christianam religionem
+<lb ed="#L" n="19"/>pertinent, eo modo tradere, secundum quod 
+con<lb break="no" ed="#L" n="20"/>gruit ad eruditionem incipientium.
+</p>
+            <p xml:id="TAca84-d1e41-d1e158">
+               <lb ed="#L" n="21"/>Consideravimus namque huius doctrinae 
+no<lb break="no" ed="#L" n="22"/>vitios, in his quae a diversis conscripta sunt,
+<lb ed="#L" n="23"/>plurimum impediri: partim quidem propter mul-
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="24"/>tiplicationem ? inutilium quaestionum, articulorum
+<lb ed="#L" n="25"/>et argumentorum; partim etiam quia ea quae
+<lb ed="#L" n="26"/>sunt necessaria talibus ad sciendum, non 
+tradun<lb break="no" ed="#L" n="27"/>tur secundum ordinem disciplinae, sed secundum
+<lb ed="#L" n="28"/>quod requirebat librorum expositio, vel secundum
+<lb ed="#L" n="29"/>quod se praebebat occasio disputandi; partim
+<lb ed="#L" n="30"/>quidem quia eorundem írequens ? repetitio et
+<lb ed="#L" n="31"/>fastidium et confusionem generabat in animis
+<lb ed="#L" n="32"/>auditorum.
+</p>
+            <p xml:id="TAca84-d1e41-d1e190">
+               <lb ed="#L" n="33"/>Haec igitur et alia huiusmodi evitare studentes,
+<lb ed="#L" n="34"/>tentabimus, cum confidentia divini auxilii, ea quae
+<lb ed="#L" n="35"/>ad sacram doctrinam pertinent, breviter ac 
+dilu<lb break="no" ed="#L" n="36"/>cide prosequi, secundum quod materia patietur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

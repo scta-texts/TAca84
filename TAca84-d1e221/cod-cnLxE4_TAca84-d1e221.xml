@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 34</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 34</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="365"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e221"><!-- p1-q34 -->
+            <head xml:id="TAca84-d1e221-Hd1e99">Quaestio 34</head>
+            <head xml:id="TAca84-d1e221-Hd1e101" type="question-title">de persona filii</head>
+            <p xml:id="TAca84-d1e221-d1e104">
+               <pb ed="#L" n="365"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO TRIGESIMAQUARTA
+<lb ed="#L" n="2"/>DE PERSONA FILII
+<lb ed="#L" n="3"/>IN TRES ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e221-d1e117">
+               <lb ed="#L" n="4"/>DEINDE considerandum est de persona Filii.
+<lb ed="#L" n="5"/>Attribuuntur autem tria nomina Filio, 
+sci<lb break="no" ed="#L" n="6"/>licet Filius, Verbum et Imago. Sed ratio Filii ex
+<lb ed="#L" n="7"/>ratione Patris consideratur. Unde restat 
+conside<lb break="no" ed="#L" n="8"/>randum de Verbo et Imagine.
+<lb ed="#L" n="9"/>Circa Verbum quaeruntur tria.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="10"/>Primo: utrum Verbum dicatur essentialiter in
+<lb ed="#L" n="11"/>divinis, vel personaliter.
+<lb ed="#L" n="12"/>Secundo: utrum sit proprium nomen Filii.
+<lb ed="#L" n="13"/>Tertio: utrum in nomine Verbi importetur 
+re<lb break="no" ed="#L" n="14"/>spectus ad creaturas.
+</p>
+            <div xml:id="TAca84-d1e221-Dd1e146"><!-- p1-q34-a1 -->
+               <head xml:id="TAca84-d1e221-Hd1e149">Articulus 1</head>
+               <head xml:id="TAca84-d1e221-Hd1e151" type="question-title">
+  utrum verbum in divinis sit nomen personale
+</head>
+               <p xml:id="TAca84-d1e221-d1e154">
+                  <lb ed="#L" n="15"/>ARTICULUS PRIMUS
+<lb ed="#L" n="16"/>UTRUM VERBUM IN DIVINIS SIT NOMEN PERSONALE
+</p>
+               <p xml:id="TAca84-d1e221-d1e161">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="18"/>Verbum in divinis non sit nomen 
+per<lb break="no" ed="#L" n="19"/>sonale. Nomina enim personalia proprie
+<lb ed="#L" n="20"/>Sed di metaphorice dicitur in divinis , ut
+<lb ed="#L" n="21"/>Eaneenes dicit, super Joannem. Ergo verbum
+<lb ed="#L" n="22"/>non est personale in divinis.
+</p>
+               <p xml:id="TAca84-d1e221-d1e179">
+                  <lb ed="#L" n="23"/>2. PRAETEREA, secundum Augustinum, in libro
+<lb ed="#L" n="24"/>de Trin., <quote xml:id="TAca84-d1e221-Qd1e185">verbum est notitia cum amore</quote>. Et 
+se<lb break="no" ed="#L" n="25"/>cundum Anselmum, in Monol., <quote xml:id="TAca84-d1e221-Qd1e189">dicere summo
+<lb ed="#L" n="26"/>spiritui nihil aliud est quam cogitando intueri</quote>. Sed
+<lb ed="#L" n="27"/>notitia et cogitatio et intuitus in divinis 
+essentia<lb break="no" ed="#L" n="28"/>liter dicuntur. Ergo verbum non dicitur 
+persona<lb break="no" ed="#L" n="29"/>liter in divinis.
+</p>
+               <p xml:id="TAca84-d1e221-d1e203">
+                  <lb ed="#L" n="30"/>3. PRAETEREA, de ratione verbi est quod -
+dica<lb break="no" ed="#L" n="31"/>tur. Sed, secundum Anselmum, sicut Pater est
+<lb ed="#L" n="32"/>intelligens, et Filius est intelligens, et Spiritus
+<lb ed="#L" n="33"/>Sanctus est intelligens ; ita Pater est dicens, Filius
+<lb ed="#L" n="34"/>est dicens, et Spiritus Sanctus est dicens. Et 
+si<lb break="no" ed="#L" n="35"/>militer quilibet eorum dicitur. Ergo nomen verbi
+<lb ed="#L" n="36"/>essentialiter dicitur in divinis, et non personaliter.
+</p>
+               <p xml:id="TAca84-d1e221-d1e221">
+                  <lb ed="#L" n="37"/>4. PRAETEREA, nulla persona divina est facta.
+<lb ed="#L" n="38"/>Sed verbum Dei est aliquid factum: dicitur enim
+<lb ed="#L" n="39"/>in Psalmo cxLvm: <quote xml:id="TAca84-d1e221-Qd1e229">Ignis, grando, nix, glacies,
+<lb ed="#L" n="40"/>spiritus procellarum , quae faciunt verbum eius</quote>.
+<lb ed="#L" n="41"/>Ergo verbum non est nomen personale in divinis.
+</p>
+               <p xml:id="TAca84-d1e221-d1e237">
+                  <lb ed="#L" n="42"/>SED coNTRA EsT quod dicit Augustinus, in VII
+<lb ed="#L" n="43"/>de Trin.: <quote xml:id="TAca84-d1e221-Qd1e243">Sicut Filius refertur ad Patrem, ita
+<lb ed="#L" n="44"/>et Verbum ad id cuius est Verbum</quote>. Sed Filius
+<lb ed="#L" n="45"/>est nomen personale: quia relative dicitur. Ergo
+<lb ed="#L" n="46"/>et Verbum.
+</p>
+               <p xml:id="TAca84-d1e221-d1e253">
+                  <lb ed="#L" n="47"/>RESPONDEO DICENDUM quod nomen Verbi in 
+di<lb break="no" ed="#L" n="48"/>vinis, si proprie sumatur, est nomen personale,
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="49"/>et nullo modo essentiale. Ad cuius evidentiam,
+<lb ed="#L" n="50"/>sciendum est quod verbum tripliciter quidem in
+<lb ed="#L" n="51"/>nobis proprie dicitur: quarto autem modo, dicitur
+<lb ed="#L" n="52"/>improprie sive figurative. Manifestius autem et
+<lb ed="#L" n="53"/>communius in nobis dicitur verbum quod voce
+<lb ed="#L" n="54"/>profertur. Quod quidem ab interiori procedit 
+quan<lb break="no" ed="#L" n="55"/>tum ad duo quae in verbo exteriori inveniuntur,
+<lb ed="#L" n="56"/>scilicet vox ipsa, et significatio vocis ?. Vox enim
+<lb ed="#L" n="57"/>significat intellectus conceptum, secundum 
+Philo<lb break="no" ed="#L" n="58"/>sophum, in libro I Periherm.: et iterum vox ex
+<lb ed="#L" n="59"/>imaginatione procedit, ut in libro de Anima
+<lb ed="#L" n="60"/>dicitur. Vox autem quae non est significativa,
+<lb ed="#L" n="61"/>verbum dici non potest. Ex hoc ergo dicitur
+<lb ed="#L" n="62"/>verbum vox exterior, quia significat interiorem
+<lb ed="#L" n="63"/>mentis conceptum. Sic igitur primo et 
+principa<lb break="no" ed="#L" n="64"/>liter interior mentis conceptus verbum dicitur:
+<lb ed="#L" n="65"/>secundario vero ", ipsa vox interioris conceptus
+<lb ed="#L" n="66"/>significativa: tertio vero, ipsa imaginatio vocis
+<lb ed="#L" n="67"/>verbum dicitur. Et hos tres modos verbi ponit
+<lb ed="#L" n="68"/>Damascenus, in I libro, cap. xin dicens quod
+<lb ed="#L" n="69"/>verbum dicitur naturalis intellectus motus, 
+secun<lb break="no" ed="#L" n="70"/>dum quem ' movetur et intelligit et cogitat, velut
+<lb ed="#L" n="71"/>lux et splendor, quantum ad primum: rursus
+<lb ed="#L" n="72"/>verbum est quod non verbo profertur, sed in
+<lb ed="#L" n="73"/>corde pronuniiatur, quantum ad tertium: rursus
+<lb ed="#L" n="74"/>eliam verbum est angelus, idest nuntius, 
+intelli<lb break="no" ed="#L" n="75"/>gentiae, quantum ad secundum. - Dicitur autem
+<lb ed="#L" n="76"/>figurative? quarto modo verbum, id quod verbo
+<lb ed="#L" n="77"/>significatur vel efficitur: sicut consuevimus 
+di<lb break="no" ed="#L" n="78"/>cere, hoc est verbum quod dixi tibi, vel quod
+<lb ed="#L" n="79"/>mandavit rex, demonstrato aliquo facto quod
+<lb ed="#L" n="80"/>verbo significatum est vel simpliciter enuntiantis,
+<lb ed="#L" n="81"/>vel etiam imperantis.
+</p>
+               <p xml:id="TAca84-d1e221-d1e334">
+                  <pb ed="#L" n="366"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Dicitur autem proprie verbum in Deo, 
+secun<lb break="no" ed="#L" n="2"/>dum quod verbum significat conceptum 
+intelle<lb break="no" ed="#L" n="3"/>ctus. Unde Augustinus dicit, in XV de Trin.:
+<quote xml:id="TAca84-d1e221-Qd1e347">Quisquis potest intelligere verbum, non solum 
+an<lb break="no" ed="#L" n="4"/>lequam sonet, verum etiam antequam sonorum
+<lb ed="#L" n="5"/>eius imagines cogitatione involvantur, iam potest
+<lb ed="#L" n="6"/>videre aliquam Verbi illius similitudinem, de quo
+<lb ed="#L" n="7"/>dictum est: In principio erat Verbum</quote>. Ipse autem
+<lb ed="#L" n="8"/>conceptus cordis de ratione sua habet quod ab
+<lb ed="#L" n="9"/>alio procedat, scilicet a notitia concipientis. Unde
+<lb ed="#L" n="10"/>verbum, secundum quod proprie dicitur in 
+di<lb break="no" ed="#L" n="11"/>vinis, significat aliquid ab alio procedens: quod
+<lb ed="#L" n="12"/>pertinet ad rationem nominum personalium in
+<lb ed="#L" n="13"/>divinis, eo quod personae divinae distinguuntur
+<lb ed="#L" n="14"/>secundum originem, ut dictum est. Unde 
+opor<lb break="no" ed="#L" n="15"/>tet quod nomen Verbi, secundum quod proprie
+<lb ed="#L" n="16"/>in divinis accipitur, non sumatur essentialiter, sed
+<lb ed="#L" n="17"/>personaliter tantum.
+</p>
+               <p xml:id="TAca84-d1e221-d1e380">
+                  <lb ed="#L" n="18"/>AD PRIMUM ERGO DICENDUM quod Ariani, 
+quo<lb break="no" ed="#L" n="19"/>rum fons Origenes invenitur, posuerunt Filium
+<lb ed="#L" n="20"/>alium a Patre esse in diversitate substantiae.
+<lb ed="#L" n="21"/>Unde conati sunt, cum Filius Dei Verbum dicitur,
+<lb ed="#L" n="22"/>astruere non esse proprie dictum; ne, sub ratione
+<lb ed="#L" n="23"/>verbi procedentis, cogerentur fateri Filium Dei
+<lb ed="#L" n="24"/>non esse extra substantiam Patris; nam verbum
+<lb ed="#L" n="25"/>interius sic a dicente procedit, quod in ipso 
+ma<lb break="no" ed="#L" n="26"/>net. - Sed necesse est, si ponitur verbum Dei
+<lb ed="#L" n="27"/>metaphorice dictum, quod ponatur verbum Dei
+<lb ed="#L" n="28"/>proprie dictum. Non enim potest aliquid 
+meta<lb break="no" ed="#L" n="29"/>phorice verbum dici, nisi ratione 
+manifestatio<lb break="no" ed="#L" n="30"/>nis: quia vel manifestat sicut verbum, vel est
+<lb ed="#L" n="31"/>verbo manifestatum. Si autem est manifestatum
+<lb ed="#L" n="32"/>verbo, oportet ponere verbum quo manifestetur.
+<lb ed="#L" n="33"/>Si autem dicitur verbum quia ? exterius 
+manife<lb break="no" ed="#L" n="34"/>stat, ea quae exterius manifestant, non dicuntur
+<lb ed="#L" n="35"/>verba nisi inquantum significant interiorem mentis
+<lb ed="#L" n="36"/>conceptum, quem aliquis etiam per exteriora signa
+<lb ed="#L" n="37"/>manifestat. Etsi ergo verbum aliquando ? dicatur
+<lb ed="#L" n="38"/>metaphorice in divinis, tamen oportet ponere 
+Ver<lb break="no" ed="#L" n="39"/>bum proprie dictum, quod personaliter dicatur.
+</p>
+               <p xml:id="TAca84-d1e221-d1e431">
+                  <lb ed="#L" n="40"/>AD SECUNDUM DICENDUM quod nihil eorum quae
+<lb ed="#L" n="41"/>ad intellectum pertinent, personaliter dicitur in
+<lb ed="#L" n="42"/>divinis, nisi solum Verbum: solum enim verbum
+<lb ed="#L" n="43"/>significat aliquid ab alio emanans. Id enim quod
+<lb ed="#L" n="44"/>intellectus in concipiendo format, est verbum.
+<lb ed="#L" n="45"/>Intellectus autem ipse, secundum quod est per
+<lb ed="#L" n="46"/>speciem intelligibilem in actu, consideratur 
+abso<lb break="no" ed="#L" n="47"/>lute. Et similiter intelligere, quod ita se habet ad
+<lb ed="#L" n="48"/>intellectum in actu, sicut esse ad ens in actu:
+<lb ed="#L" n="49"/>non enim intelligere significat actionem ab 
+intel<lb break="no" ed="#L" n="50"/>ligente exeuntem, sed in intelligente manentem. -
+<lb ed="#L" n="51"/>Cum ergo dicitur quod verbum est notitia, non
+<lb ed="#L" n="52"/>accipitur ztitia pro actu intellectus cognoscentis,
+<lb ed="#L" n="53"/>vel pro aliquo eius habitu: sed pro eo quod intel-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="54"/>lectus concipit cognoscendo. Unde et Augustinus
+<lb ed="#L" n="55"/>dicit quod Verbum est sapientia genita: quod
+<lb ed="#L" n="56"/>nihil aliud est quam ipsa conceptio sapientis: quae
+<lb ed="#L" n="57"/>etiam pari modo 7oftitia genita dici potest. - Et
+<lb ed="#L" n="58"/>per eundem modum potest intelligi quod dicere
+<lb ed="#L" n="59"/>Deo sit cogitando intueri, inquantum scilicet 
+in<lb break="no" ed="#L" n="60"/>tuitu cogitationis divinae concipitur Verbum Dei.
+<lb ed="#L" n="61"/>Cogitationis tamen nomen Dei Verbo proprie non
+<lb ed="#L" n="62"/>convenit: dicit enim Augustinus, XV de Trin.:
+<quote xml:id="TAca84-d1e221-Qd1e485">Ita dicitur illud Verbum Dei, ut cogitatio non
+<lb ed="#L" n="63"/>dicatur; ne aliquid esse quasi volubile credatur in
+<lb ed="#L" n="64"/>Deo, quod nunc accipiat formam ut verbum sit,
+<lb ed="#L" n="65"/>eamque dimittere possit, atque informiter 
+quodam<lb break="no" ed="#L" n="66"/>modo volutari</quote>. Cogitatio enim proprie in 
+inqui<lb break="no" ed="#L" n="67"/>sitione veritatis consistit, quae in Deo locum non
+<lb ed="#L" n="68"/>habet. Cum vero intellectus iam ad formam 
+veri<lb break="no" ed="#L" n="69"/>tatis pertingit, non cogitat, sed perfecte veritatem
+<lb ed="#L" n="70"/>contemplatur. Unde Anselmus improprie accipit
+<lb ed="#L" n="71"/>cogitationem 'pro contemplatione.
+</p>
+               <p xml:id="TAca84-d1e221-d1e508">
+                  <lb ed="#L" n="72"/>AD TERTIUM DICENDUM quod, sicut, proprie 
+lo<lb break="no" ed="#L" n="73"/>quendo, Verbum dicitur personaliter in divinis et
+<lb ed="#L" n="74"/>non essentialiter, ita et dicere. Unde, sicut Verbum
+<lb ed="#L" n="75"/>non est commune Patri et Filio et Spiritui 
+San<lb break="no" ed="#L" n="76"/>cto, ita non est verum quod Pater et Filius et
+<lb ed="#L" n="77"/>Spiritus Sanctus sint unus dicens. Unde 
+Augusti<lb break="no" ed="#L" n="78"/>nus dicit, VII de Trin.: <quote xml:id="TAca84-d1e221-Qd1e525">Dicens illo coaeterno
+<lb ed="#L" n="79"/>Verbo non singulus intelligitur in divinis</quote>. Sed dici
+<lb ed="#L" n="80"/>convenit cuilibet personae: dicitur enim non 
+so<lb break="no" ed="#L" n="81"/>lum verbum, sed res quae verbo intelligitur vel
+<lb ed="#L" n="82"/>significatur. Sic ergo uni soli personae in divinis
+<lb ed="#L" n="83"/>convenit dici eo modo quo dicitur verbum: eo
+<lb ed="#L" n="84"/>vero modo quo dicitur res in verbo intellecta,
+<lb ed="#L" n="85"/>cuilibet personae convenit dici. Pater enim, 
+in<lb break="no" ed="#L" n="86"/>telligendo se et Filium et Spiritum Sanctum, et
+<lb ed="#L" n="87"/>omnia alia quae eius scientia continentur, 
+con<lb break="no" ed="#L" n="88"/>cipit Verbum: ut sic tota Trinitas Verbo dicatur,
+<lb ed="#L" n="89"/>et etiam omnis creatura; sicut intellectus hominis
+<lb ed="#L" n="90"/>verbo quod concipit intelligendo lapidem, 
+lapi<lb break="no" ed="#L" n="91"/>dem dicit. - Anselmus vero improprie accepit
+<lb ed="#L" n="92"/>dicere pro intelligere. Quae tamen differunt. Nam
+<lb ed="#L" n="93"/>intelligere importat solam habitudinem intelligentis
+<lb ed="#L" n="94"/>ad rem intellectam; in qua nulla ratio originis
+<lb ed="#L" n="95"/>importatur, sed solum informatio quaedam in 
+in<lb break="no" ed="#L" n="96"/>tellectu nostro, prout intellectus noster fit in actu
+<lb ed="#L" n="97"/>per formam rei intellectae. In Deo autem importat
+<lb ed="#L" n="98"/>omnimodam identitatem: quia in Deo est omnino
+<lb ed="#L" n="99"/>idem intellectus et intellectum, ut supra 
+osten<lb break="no" ed="#L" n="100"/>sum est ^, Sed dicere importat principaliter 
+ha<lb break="no" ed="#L" n="101"/>bitudinem ad verbum conceptum: nihil enim
+<lb ed="#L" n="102"/>est aliud dicere quam proferre verbum. Sed fé
+<lb ed="#L" n="103"/>mediante verbo importat habitudinem ad rem
+<lb ed="#L" n="104"/>intellectam, quae in verbo prolato manifestatur
+<lb ed="#L" n="105"/>intelligenti. Et sic sola persona quae profert 
+Ver<lb break="no" ed="#L" n="106"/>bum, est dicens in divinis: cum tamen singula
+<pb ed="#L" n="367"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>personarum sit intelligens et intellecta , et per
+<lb ed="#L" n="2"/>consequens Verbo dicta.
+</p>
+               <p xml:id="TAca84-d1e221-d1e598">
+                  <lb ed="#L" n="3"/>AD QUARTUM DICENDUM quod verbum sumitur
+<lb ed="#L" n="4"/>ibi figurative ?', prout significatum vel effectus
+<lb ed="#L" n="5"/>verbi dicitur verbum. Sic enim creaturae dicun-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="6"/>tur facere verbum Dei, inquantum exequuntur
+<lb ed="#L" n="7"/>effectum aliquem, ad quem ordinantur ex Verbo
+<lb ed="#L" n="8"/>concepto divinae sapientiae: sicut aliquis dicitur
+<lb ed="#L" n="9"/>facere verbum regis, dum facit opus ad quod ex
+<lb ed="#L" n="10"/>verbo regis instigatur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e221-Dd1e622"><!-- p1-q34-a2 -->
+               <head xml:id="TAca84-d1e221-Hd1e625">Articulus 2</head>
+               <head xml:id="TAca84-d1e221-Hd1e627" type="question-title">
+  utrum verbum sit proprium nomen filii
+</head>
+               <p xml:id="TAca84-d1e221-d1e630">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="77"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="78"/>UTRUM VERBUM SIT PROPRIUM NOMEN FILII
+</p>
+               <p xml:id="TAca84-d1e221-d1e639">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="79"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="80"/>Verbum non sit proprium nomen Filii.
+<lb ed="#L" n="81"/>Filius enim est persona subsistens in
+<lb ed="#L" n="82"/>divinis. Sed verbum non significat rem
+<lb ed="#L" n="83"/>subsistentem; ut in nobis patet. Ergo Verbum non
+<lb ed="#L" n="84"/>potest esse proprium nomen personae Filii.
+</p>
+               <p xml:id="TAca84-d1e221-d1e657">
+                  <lb ed="#L" n="85"/>2. PRAETEREA, verbum prolatione quadam 
+pro<lb break="no" ed="#L" n="86"/>cedit a dicente. Si ergo Filius est proprie 
+Ver<lb break="no" ed="#L" n="87"/>bum, non procedit a Patre nisi per modum 
+pro<lb break="no" ed="#L" n="88"/>lationis. Quod est haeresis Valentini, ut patet per
+<lb ed="#L" n="89"/>Augustinum, in libro de Haeresibus. .
+</p>
+               <p xml:id="TAca84-d1e221-d1e671">
+                  <lb ed="#L" n="90"/>3. PRAETEREA, Omne nomen proprium alicuius
+<lb ed="#L" n="91"/>personae significat proprietatem aliquam eius. Si
+<lb ed="#L" n="92"/>igitur Verbum sit proprium nomen Filii, 
+signifi<lb break="no" ed="#L" n="93"/>cabit aliquam proprietatem eius. Et sic erunt
+<lb ed="#L" n="94"/>plures proprietates in divinis quam supra 
+enu<lb break="no" ed="#L" n="95"/>meratae sunt.
+</p>
+               <p xml:id="TAca84-d1e221-d1e687">
+                  <lb ed="#L" n="96"/>4. PRAETEREA, quicumque intelligit, intelligendo
+<lb ed="#L" n="97"/>concipit verbum. Sed Filius intelligit. Ergo Filii
+<lb ed="#L" n="98"/>est aliquod verbum. Et sic non est proprium Filii
+<lb ed="#L" n="99"/>esse Verbum.
+</p>
+               <p xml:id="TAca84-d1e221-d1e698">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="100"/>5. PRAETEREA, JHebr.: dicitur de Filio, 
+por<lb break="no" ed="#L" n="101"/>lans omnia verbo virtutis suae: ex quo Basilius
+<lb ed="#L" n="102"/>accipit quod Spiritus Sanctus sit verbum Filii.
+<lb ed="#L" n="103"/>Non est ergo proprium Filii esse Verbum.
+</p>
+               <p xml:id="TAca84-d1e221-d1e711">
+                  <lb ed="#L" n="104"/>SED coNTRA EST quod Augustinus dicit, VI de
+<lb ed="#L" n="105"/>Trin.: <ref xml:id="TAca84-d1e221-Rd1e717">Verbum solus Filius accipitur</ref>.
+</p>
+               <p xml:id="TAca84-d1e221-d1e720">
+                  <lb ed="#L" n="106"/>REsPONDEO DicENDUM quod Verbum proprie 
+di<lb break="no" ed="#L" n="107"/>ctum in divinis personaliter accipitur, et est 
+pro<lb break="no" ed="#L" n="108"/>prium nomen personae Filii. Significat enim 
+quan<lb break="no" ed="#L" n="109"/>dam emanationem intellectus: persona autem quae
+<lb ed="#L" n="110"/>procedit in divinis secundum emanationem 
+intel<lb break="no" ed="#L" n="111"/>lectus, dicitur Filius, et huiusmodi processio 
+di<lb break="no" ed="#L" n="112"/>citur generatio, ut supra ostensum est. Unde
+<lb ed="#L" n="113"/>relinquitur quod solus Filius proprie dicatur 
+Ver<lb break="no" ed="#L" n="114"/>bum in divinis.
+</p>
+               <p xml:id="TAca84-d1e221-d1e742">
+                  <lb ed="#L" n="115"/>AD PRIMUM ERGO DICENDUM quod in nobis non
+<lb ed="#L" n="116"/>est idem esse et intelligere: unde illud quod 
+ha<lb break="no" ed="#L" n="117"/>bet in nobis esse intelligibile, non pertinet ad
+<lb ed="#L" n="118"/>naturam nostram. Sed esse Dei est ipsum eius
+<lb ed="#L" n="119"/>intelligere: unde Verbum Dei non est aliquod
+<lb ed="#L" n="120"/>accidens in ipso, vel aliquis effectus eius; sed
+<pb ed="#L" n="369"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>pertinet ad ipsam naturam eius. Et ideo oportet
+<lb ed="#L" n="2"/>quod sit aliquid subsistens: quia quidquid est in
+<lb ed="#L" n="3"/>natura Dei, subsistit. Et ideo Damascenus dicit
+<lb ed="#L" n="4"/>quod Verbum Dei <quote xml:id="TAca84-d1e221-Qd1e770">est substantiale, et in 
+hypo<lb break="no" ed="#L" n="5"/>stasi ens: reliqua vero verba, scilicet nostra, 
+vir<lb break="no" ed="#L" n="6"/>tutes sunt animae</quote>.
+</p>
+               <p xml:id="TAca84-d1e221-d1e779">
+                  <lb ed="#L" n="7"/>AD SECUNDUM DICENDUM quod non ? propter
+<lb ed="#L" n="8"/>hoc error Valentini est damnatus, quia Filium
+<lb ed="#L" n="9"/>dixit prolatione natum, ut Ariani 
+calumniaban<lb break="no" ed="#L" n="10"/>tur, sicut Hilarius refert, VI de 7rin.: sed 
+pro<lb break="no" ed="#L" n="11"/>pter varium. modum prolationis quem posuit,
+<lb ed="#L" n="12"/>sicut "TE per — in libro de 
+Haere<lb break="no" ed="#L" n="13"/>sibus.
+</p>
+               <p xml:id="TAca84-d1e221-d1e797">
+                  <lb ed="#L" n="14"/>An TERTIUM DICENDUM quod in nomine Verbi
+<lb ed="#L" n="15"/>eadem proprietas importatur quae in nomine Filii:
+<lb ed="#L" n="16"/>unde dicit Augustinus: eo dicitur Verbum, quo
+<lb ed="#L" n="17"/>Filius. Ipsa enim nativitas Filii, quae est 
+pro<lb break="no" ed="#L" n="18"/>prietas personalis eius, diversis nominibus 
+signi<lb break="no" ed="#L" n="19"/>ficatur, quae Filio attribuuntur ad exprimendum
+<lb ed="#L" n="20"/>diversimode perfectionem eius. Nam ut 
+osten<lb break="no" ed="#L" n="21"/>datur cónnaturalis Patri, dicitur Filius; ut 
+osten<lb break="no" ed="#L" n="22"/>datur coaeternus, dicitur splendor; ut ostendatur
+<lb ed="#L" n="23"/>omnino similis, dicitur mago; ut ostendatur 
+im<lb break="no" ed="#L" n="24"/>materialiter genitus, dicitur Verbum. Non autem
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="25"/>potuit unum nomen inveniri, per quod omnia
+<lb ed="#L" n="26"/>ista designarentur.
+</p>
+               <p xml:id="TAca84-d1e221-d1e830">
+                  <lb ed="#L" n="27"/>AD QUARTUM DICENDUM quod eo modo 
+conve<lb break="no" ed="#L" n="28"/>nit Filio esse intelligentem, quo convenit ei esse
+<lb ed="#L" n="29"/>Deum: cum intelligere essentialiter dicatur in 
+di<lb break="no" ed="#L" n="30"/>vinis, ut dictum est. Est autem Filius Deus
+<lb ed="#L" n="31"/>genitus, non autem generans Deus. Unde est
+<lb ed="#L" n="32"/>quidem intelligens, non ut producens verbum,
+<lb ed="#L" n="33"/>sed ut Verbum procedens; prout scilicet in Deo
+<lb ed="#L" n="34"/>Verbum procedens secundum rem non differt ab
+<lb ed="#L" n="35"/>intellectu divino, sed relatione sola distinguitur
+<lb ed="#L" n="36"/>a principio Verbi.
+</p>
+               <p xml:id="TAca84-d1e221-d1e854">
+                  <lb ed="#L" n="37"/>AD QUINTUM DICENDUM quod, cum de Filio 
+dici<lb break="no" ed="#L" n="38"/>tur, portans omnia verbo virtutis suae, verbum 
+fi<lb break="no" ed="#L" n="39"/>gurate accipitur pro effectu verbi. Unde Glossa
+<lb ed="#L" n="40"/>ibi dicit quod verbum sumitur pro imperio; 
+in<lb break="no" ed="#L" n="41"/>quantum scilicet ex effectu virtutis Verbi est quod
+<lb ed="#L" n="42"/>res conserventur in esse, sicut ex effectu virtutis
+<lb ed="#L" n="43"/>Verbi est quod res producantur in esse. Quod vero
+<lb ed="#L" n="44"/>Basilius interpretatur verbum pro Spiritu Sancto,
+<lb ed="#L" n="45"/>improprie et figurate locutus est, prout verbum
+<lb ed="#L" n="46"/>alicuius dici potest omne illud quod est 
+manife<lb break="no" ed="#L" n="47"/>stativum eius: ut sic ea ratione dicatur Spiritus
+<lb ed="#L" n="48"/>Sanctus verbum Filii, quia manifestat Filium.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e221-Dd1e884"><!-- p1-q34-a3 -->
+               <head xml:id="TAca84-d1e221-Hd1e887">Articulus 3</head>
+               <head xml:id="TAca84-d1e221-Hd1e889" type="question-title">
+  utrum in nomine verbi importetur réspectus ad creaturam
+</head>
+               <p xml:id="TAca84-d1e221-d1e892">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="72"/>ARTICULUS TERTIUS
+<lb ed="#L" n="73"/>UTRUM IN NOMINE VERBI IMPORTETUR RÉSPECTUS AD CREATURAM
+</p>
+               <p xml:id="TAca84-d1e221-d1e901">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="74"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="75"/>in nomine Verbi non importetur 
+respe<lb break="no" ed="#L" n="76"/>ctus ad creaturam. Omne enim nomen
+<lb ed="#L" n="77"/>connotans effectum in creatura, 
+essen<lb break="no" ed="#L" n="78"/>tialiter i in divinis dicitur. Sed Verbum non dicitur
+<lb ed="#L" n="79"/>essentialiter, sed personaliter, ut dictum est.
+<lb ed="#L" n="80"/>Ergo Verbum non importat respectum ad 
+crea<lb break="no" ed="#L" n="81"/>turam.
+</p>
+               <p xml:id="TAca84-d1e221-d1e923">
+                  <lb ed="#L" n="82"/>2. PRAETEREA, quae important ddspéetban, ad
+<lb ed="#L" n="83"/>creaturas, dicuntur de Deo ex tempore, ut 
+Do<lb break="no" ed="#L" n="84"/>minus et Creator. Sed Verbum dicitur de Deo ab
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="85"/>aeterno. Ergo non importat respectum ad 
+crea<lb break="no" ed="#L" n="86"/>turam.
+</p>
+               <p xml:id="TAca84-d1e221-d1e940">
+                  <lb ed="#L" n="87"/>3. PRAETEREA, Verbum importat respectum ad
+<lb ed="#L" n="88"/>id a quo procedit. Si ergo importat respectum ad
+<lb ed="#L" n="89"/>creaturam, sequitur quod procedat a creatura.
+</p>
+               <p xml:id="TAca84-d1e221-d1e949">
+                  <lb ed="#L" n="90"/>4. PRAETEREA, ideae sunt plures secundum 
+di<lb break="no" ed="#L" n="91"/>versos respectus ad creaturas. Si igitur Verbum
+<lb ed="#L" n="92"/>importat respectum ad creaturas, sequitur quod
+<lb ed="#L" n="93"/>in Deo non sit unum Verbum tantum, sed plura.
+</p>
+               <p xml:id="TAca84-d1e221-d1e960">
+                  <lb ed="#L" n="94"/>5. PRAETEREA, si Verbum importat respectum
+<lb ed="#L" n="95"/>ad creaturam ?, hoc non est nisi inquantum crea-
+<pb ed="#L" n="370"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>turae cognoscuntur a Deo. Sed Deus non solum
+<lb ed="#L" n="2"/>cognoscit entia, sed etiam non entia. Ergo in
+<lb ed="#L" n="3"/>Verbo importabitur ? respectus ad non entia:
+<lb ed="#L" n="4"/>quod videtur falsum.
+</p>
+               <p xml:id="TAca84-d1e221-d1e980">
+                  <lb ed="#L" n="5"/>SEp coNTRA EST quod dicit Augustinus, in libro
+<lb ed="#L" n="6"/>Octoginta trium Quaest., quod in nomine Verbi
+<quote xml:id="TAca84-d1e221-Qd1e986">significatur non solum respectus ad Patrem, sed
+<lb ed="#L" n="7"/>etiam ad illa quae per Verbum facta sunt 
+ope<lb break="no" ed="#L" n="8"/>raliva potentia</quote>.
+</p>
+               <p xml:id="TAca84-d1e221-d1e994">
+                  <lb ed="#L" n="9"/>RESPONDEO DICENDUM quod in Verbo importatur
+<lb ed="#L" n="10"/>respectus ad creaturam. Deus enim, cognoscendo
+<lb ed="#L" n="11"/>se, cognoscit omnem creaturam. Verbum autem 5
+<lb ed="#L" n="12"/>in mente conceptum, est repraesentativum omnis
+<lb ed="#L" n="13"/>eius quod actu intelligitur. Unde in nobis sunt
+<lb ed="#L" n="14"/>diversa verba, secundum diversa quae 
+intelligi<lb break="no" ed="#L" n="15"/>mus. Sed quia Deus uno actu et se et omnia ^
+<lb ed="#L" n="16"/>intelligit, unicum Verbum eius est expressivum
+<lb ed="#L" n="17"/>non solum Patris, sed etiam creaturarum. Et sicut
+<lb ed="#L" n="18"/>Dei scientia Dei quidem est cognoscitiva tantum,
+<lb ed="#L" n="19"/>creaturarum autem cognoscitiva et factiva; ita
+<lb ed="#L" n="20"/>Verbum Dei eius quod in Deo Patre est, est 
+ex<lb break="no" ed="#L" n="21"/>pressivum tantum, creaturarum vero est 
+expres<lb break="no" ed="#L" n="22"/>sivum et operativum. Et propter hoc dicitur in
+<lb ed="#L" n="23"/>Psalmo xxxi: Dixit, et facta sunt; quia in Verbo
+<lb ed="#L" n="24"/>importatur ratio factiva eorum quae Deus facit.
+</p>
+               <p xml:id="TAca84-d1e221-d1e1031">
+                  <lb ed="#L" n="25"/>AD PRIMUM ERGO DICENDUM quod in nomine 
+per<lb break="no" ed="#L" n="26"/>sonae includitur etiam natura oblique: nam 
+per<lb break="no" ed="#L" n="27"/>sona est rationalis naturae individua substantia.
+<lb ed="#L" n="28"/>In nomine igitur personae divinae, quantum ad
+<lb ed="#L" n="29"/>relationem personalem, non importatur respectus
+<lb ed="#L" n="30"/>ad creaturam : sed importatur in eo quod pertinet
+<lb ed="#L" n="31"/>ad naturam. Nihil tamen prohibet, inquantum
+<lb ed="#L" n="32"/>includitur in significatione eius essentia, quod 
+im<lb break="no" ed="#L" n="33"/>portetur respectus ad creaturam ?: sicut enim
+<lb ed="#L" n="34"/>proprium est Filio quod sit Filius, ita proprium
+<lb ed="#L" n="35"/>est ei quod sit genitus Deus, vel genitus Creator.
+<lb ed="#L" n="36"/>Et per hunc modum importatur relatio ad 
+crea<lb break="no" ed="#L" n="37"/>turam in nomine Verbi.
+</p>
+               <p xml:id="TAca84-d1e221-d1e1063">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="38"/>AD SECUNDUM DICENDUM quod, cum relationes
+<lb ed="#L" n="39"/>consequantur actiones, quaedam nomina 
+impor<lb break="no" ed="#L" n="40"/>tant relationem Dei ad creaturam, quae 
+con<lb break="no" ed="#L" n="41"/>sequitur actionem Dei in exteriorem effectum
+<lb ed="#L" n="42"/>transeuntem, sicut creare et gubernare: et talia
+<lb ed="#L" n="43"/>dicuntur de Deo ex tempore. Quaedam vero 
+re<lb break="no" ed="#L" n="44"/>lationem quae consequitur " actionem non 
+trans<lb break="no" ed="#L" n="45"/>euntem in exteriorem effectum, sed manentem
+<lb ed="#L" n="46"/>in agente, ut scire et velle: et talia non dicuntur
+<lb ed="#L" n="47"/>de Deo ex tempore. Et huiusmodi relatio ad
+<lb ed="#L" n="48"/>creaturam importatur in nomine Verbi. Nec est
+<lb ed="#L" n="49"/>verum quod nomina importantia relationem Dei
+<lb ed="#L" n="50"/>ad creaturas, omnia dicantur ex tempore: sed
+<lb ed="#L" n="51"/>sola illa nomina quae important relationem 
+con<lb break="no" ed="#L" n="52"/>sequentem actionem Dei in exteriorem effectum
+<lb ed="#L" n="53"/>transeuntem, ex tempore dicuntur.
+</p>
+               <p xml:id="TAca84-d1e221-d1e1102">
+                  <lb ed="#L" n="54"/>AD TERTIUM DICENDUM quod creaturae non 
+co<lb break="no" ed="#L" n="55"/>gnoscuhtur a Deo per scientiam a creaturis 
+acce<lb break="no" ed="#L" n="56"/>ptam, sed per essentiam suam. Unde non oportet
+<lb ed="#L" n="57"/>quod a creaturis procedat Verbum, licet Verbum
+<lb ed="#L" n="58"/>sit expressivum creaturarum.
+</p>
+               <p xml:id="TAca84-d1e221-d1e1115">
+                  <lb ed="#L" n="59"/>AD QUARTUM DICENDUM quod nomen ideae 
+prin<lb break="no" ed="#L" n="60"/>cipaliter est impositum ad significandum 
+respe<lb break="no" ed="#L" n="61"/>ctum ad creaturam: et ideo pluraliter dicitur in
+<lb ed="#L" n="62"/>divinis, neque est personale. Sed nomen Verbi
+<lb ed="#L" n="63"/>principaliter impositum est ad significandam 
+re<lb break="no" ed="#L" n="64"/>lationem ad dicentem: et ex consequenti ad 
+crea<lb break="no" ed="#L" n="65"/>turas, inquantum Deus, intelligendo se, intelligit
+<lb ed="#L" n="66"/>omnem creaturam. Et propter hoc in divinis
+<lb ed="#L" n="67"/>est unicum. tantum Verbum, et personaliter 
+di<lb break="no" ed="#L" n="68"/>ctum.
+</p>
+               <p xml:id="TAca84-d1e221-d1e1139">
+                  <lb ed="#L" n="69"/>AD QUINTUM DICENDUM quod eo modo quo 
+scien<lb break="no" ed="#L" n="70"/>tia Dei est non entium, et Verbum Dei est non
+<lb ed="#L" n="71"/>entium : quia non est aliquid minus in Verbo Dei
+<lb ed="#L" n="72"/>quam in scientia Dei, ut Augustinus dicit. Sed
+<lb ed="#L" n="73"/>tamen Verbum est entium ut expressivum et 
+fa<lb break="no" ed="#L" n="74"/>ctivum: non entium autem, ut expressivum et
+<lb ed="#L" n="75"/>manifestativum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

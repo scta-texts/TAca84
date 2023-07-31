@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 40</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 40</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="411"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e252"><!-- p1-q40 -->
+            <head xml:id="TAca84-d1e252-Hd1e99">Quaestio 40</head>
+            <head xml:id="TAca84-d1e252-Hd1e101" type="question-title">de personis in comparatione ad relationes sive proprietates</head>
+            <p xml:id="TAca84-d1e252-d1e104">
+               <pb ed="#L" n="411"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO QUADRAGESIMA
+<lb ed="#L" n="2"/>DE PERSONIS IN COMPARATIONE AD RELATIONES SIVE PROPRIETATES
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e252-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE quaeritur de Personis in comparatione
+<lb ed="#L" n="5"/>ad relationes sive proprietates.
+<lb ed="#L" n="6"/>Et quaeruntur quatuor.
+<lb ed="#L" n="7"/>Primo: utrum relatio sit idem quod persona.
+<lb ed="#L" n="8"/>Secundo: utrum relationes distinguant et 
+con<lb break="no" ed="#L" n="9"/>stituant personas.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="10"/>Tertio: utrum, abstractis per intellectum 
+rela<lb break="no" ed="#L" n="11"/>tionibus a personis, remaneant " hypostases
+<lb ed="#L" n="12"/>distinctae.
+<lb ed="#L" n="13"/>Quarto: utrum relationes, secundum 
+intelle<lb break="no" ed="#L" n="14"/>ctum, praesupponant actus personarum,
+<lb ed="#L" n="15"/>vel e converso.
+</p>
+            <div xml:id="TAca84-d1e252-Dd1e150"><!-- p1-q40-a1 -->
+               <head xml:id="TAca84-d1e252-Hd1e153">Articulus 1</head>
+               <head xml:id="TAca84-d1e252-Hd1e155" type="question-title">
+  utrum relatio sit idem quod persona
+</head>
+               <p xml:id="TAca84-d1e252-d1e158">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>ARTICULUS PRIMUS
+<lb ed="#L" n="17"/>UTRUM RELATIO SIT IDEM QUOD PERSONA
+</p>
+               <p xml:id="TAca84-d1e252-d1e167">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="18"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="19"/>in divinis non sit idem relatio quod 
+per<lb break="no" ed="#L" n="20"/>sona. Quaecumque enim sunt idem,
+<lb ed="#L" n="21"/>multiplicato uno eorum, multiplicatur
+<lb ed="#L" n="22"/>et aliud. Sed contingit in una persona esse plures
+<lb ed="#L" n="23"/>relationes, sicut in persona Patris est paternitas
+<lb ed="#L" n="24"/>et communis spiratio: et iterum unam relationem
+<lb ed="#L" n="25"/>in duabus personis esse, sicut communis 
+spi<lb break="no" ed="#L" n="26"/>ratio est in Patre et Filio. Ergo relatio non est
+<lb ed="#L" n="27"/>idem quod persona.
+</p>
+               <p xml:id="TAca84-d1e252-d1e193">
+                  <lb ed="#L" n="28"/>2. PRAETEREA, nihil est in seipso, secundum
+<lb ed="#L" n="29"/>Philosophum, in IV Physic. Sed relatio est in
+<lb ed="#L" n="30"/>persona. Nec potest dici quod ratione identitatis:
+<lb ed="#L" n="31"/>quia sic esset etiam in essentia. Ergo relatio sive
+<lb ed="#L" n="32"/>proprietas et persona non sunt idem in divinis.
+</p>
+               <p xml:id="TAca84-d1e252-d1e207">
+                  <lb ed="#L" n="33"/>3. PRAETEREA, quaecumque sunt idem, ita se
+<lb ed="#L" n="34"/>habent, quod quidquid praedicatur de uno, 
+prae<lb break="no" ed="#L" n="35"/>dicatur et de alio. Non autem quidquid 
+prae<lb break="no" ed="#L" n="36"/>dicatur de persona, praedicatur de proprietate.
+<lb ed="#L" n="37"/>Dicimus enim quod Pater generat, sed non 
+di<lb break="no" ed="#L" n="38"/>cimus quod paternitas sit generans. Ergo 
+pro<lb break="no" ed="#L" n="39"/>prietas non est idem quod persona in divinis.
+</p>
+               <p xml:id="TAca84-d1e252-d1e225">
+                  <lb ed="#L" n="40"/>SED cowTRa, in divinis non differt " quod est
+<lb ed="#L" n="41"/>et quo est, ut habetur a Boetio in libro de Hebd.
+<lb ed="#L" n="42"/>Sed Pater paternitate est Pater. Ergo Pater idem
+<lb ed="#L" n="43"/>est quod paternitas. Et eadem ratione aliae 
+pro<lb break="no" ed="#L" n="44"/>prietates idem sunt cum personis.
+</p>
+               <p xml:id="TAca84-d1e252-d1e238">
+                  <lb ed="#L" n="45"/>REsPONDEO DICENDUM quod circa hoc aliqui 
+di<lb break="no" ed="#L" n="46"/>versimode opinati sunt. Quidam enim dixerunt
+<lb ed="#L" n="47"/>proprietates neque esse personas, neque in 
+per<lb break="no" ed="#L" n="48"/>sonis. Qui fuerunt moti ex modo significandi 
+re<lb break="no" ed="#L" n="49"/>lationum, quae quidem non significant ut n 
+ali<lb break="no" ed="#L" n="50"/>quo, sed magis ut ad aliquid. Unde dixerunt
+<lb ed="#L" n="51"/>relationes esse assistentes, sicut supra 
+exposi<lb break="no" ed="#L" n="52"/>tum est. - Sed quia relatio, secundum quod est
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="53"/>quaedam res in divinis, est ipsa essentia ?; essentia
+<lb ed="#L" n="54"/>autem idem est quod persona, ut ex dictis patet;
+<lb ed="#L" n="55"/>oportet quod relatio sit idem quod persona.
+</p>
+               <p xml:id="TAca84-d1e252-d1e267">
+                  <lb ed="#L" n="56"/>Hanc igitur identitatem alii considerantes, 
+di<lb break="no" ed="#L" n="57"/>xerunt proprietates quidem esse personas, non
+<lb ed="#L" n="58"/>autem :n personis: quia non ponebant 
+proprie<lb break="no" ed="#L" n="59"/>tates in divinis nisi secundum modum loquendi,
+<lb ed="#L" n="60"/>ut supra dictum est. - Necesse est autem ponere
+<lb ed="#L" n="61"/>proprietates in divinis, ut supra ostendimus.
+<lb ed="#L" n="62"/>Quae quidem significantur in abstracto, ut 
+quae<lb break="no" ed="#L" n="63"/>dam formae personarum. Unde, cum de ratione
+<lb ed="#L" n="64"/>formae sit, quod sit in eo cuius est forma, oportet
+<lb ed="#L" n="65"/>dicere proprietates esse imn personis, et eas tamen
+<lb ed="#L" n="66"/>esse personas; sicut essentiam esse in Deo 
+dici<lb break="no" ed="#L" n="67"/>mus, quae tamen est Deus.
+</p>
+               <p xml:id="TAca84-d1e252-d1e296">
+                  <lb ed="#L" n="68"/>AD PRIMUM ERGO DICENDUM quod persona et 
+pro<lb break="no" ed="#L" n="69"/>prietas sunt idem re, differunt tamen secundum
+<lb ed="#L" n="70"/>rationem. Unde non oportet quod, multiplicato
+<lb ed="#L" n="71"/>uno, multiplicetur reliquum. - Considerandum 
+ta<lb break="no" ed="#L" n="72"/>men est quod, propter divinam simplicitatem, 
+con<lb break="no" ed="#L" n="73"/>sideratur duplex realis identitas in divinis eorum
+<lb ed="#L" n="74"/>quae differunt in rebus creatis. Quia enim divina
+<lb ed="#L" n="75"/>simplicitas excludit compositionem formae et 
+ma<lb break="no" ed="#L" n="76"/>teriae, sequitur quod in divinis idem est 
+abstra<lb break="no" ed="#L" n="77"/>ctum et concretum, ut deitas et Deus. Quia vero
+<lb ed="#L" n="78"/>divina simplicitas excludit compositionem subiecti
+<lb ed="#L" n="79"/>et accidentis, sequitur quod quidquid attribuitur
+<lb ed="#L" n="80"/>Deo, est eius essentia: et propter hoc sapientia
+<lb ed="#L" n="81"/>et virtus idem sunt in Deo, quia ambo sunt in
+<lb ed="#L" n="82"/>divina essentia. Et secundum hanc duplicem 
+ra<lb break="no" ed="#L" n="83"/>tionem identitatis, proprietas in divinis est idem
+<lb ed="#L" n="84"/>cum persona. Nam proprietates personales sunt
+<lb ed="#L" n="85"/>idem cum personis, ea ratione qua abstractum
+<lb ed="#L" n="86"/>est idem cum concreto. Sunt enim ipsae 
+per<lb break="no" ed="#L" n="87"/>sonae subsistentes; ut paternitas est ipse Pater,
+<pb ed="#L" n="412"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>et filiatio Filius, et processio Spiritus Sanctus.
+<lb ed="#L" n="2"/>Proprietates autem non personales sunt idem cum
+<lb ed="#L" n="3"/>personis secundum aliam rationem identitatis, qua
+<lb ed="#L" n="4"/>omne illud quod attribuitur Deo, est eius 
+essen<lb break="no" ed="#L" n="5"/>tia. Sic igitur communis spiratio est idem cum
+<lb ed="#L" n="6"/>persona Patris et cum persona Filii, non quod
+<lb ed="#L" n="7"/>sit una persona per se subsistens; sed, sicut una
+<lb ed="#L" n="8"/>essentia est in duabus personis, ita et una 
+pro<lb break="no" ed="#L" n="9"/>prietas, ut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e252-d1e366">
+                  <lb ed="#L" n="10"/>AD SECUNDUM DICENDUM quod proprietates 
+di<lb break="no" ed="#L" n="11"/>cuntur esse in essentia, per modum identitatis
+<lb ed="#L" n="12"/>tantum. In personis autem dicuntur esse per mo-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="13"/>dum identitatis, non quidem secundum rem
+<lb ed="#L" n="14"/>tantum, sed quantum ad modum significandi,
+<lb ed="#L" n="15"/>sicut forma in supposito. Et ideo proprietates 
+de<lb break="no" ed="#L" n="16"/>terminant et distinguunt personas, non autem 
+es<lb break="no" ed="#L" n="17"/>sentiam.
+</p>
+               <p xml:id="TAca84-d1e252-d1e389">
+                  <lb ed="#L" n="18"/>AD TERTIUM DICENDUM quod participia et verba
+<lb ed="#L" n="19"/>notionalia significant actus notionales. Actus 
+au<lb break="no" ed="#L" n="20"/>tem suppositorum sunt. Proprietates autem non
+<lb ed="#L" n="21"/>significantur ut supposita, sed ut formae 
+suppo<lb break="no" ed="#L" n="22"/>sitorum. Et ideo modus significandi repugnat,
+<lb ed="#L" n="23"/>ut participia et verba notionalia de proprietatibus
+<lb ed="#L" n="24"/>praedicentur,
+</p>
+            </div>
+            <div xml:id="TAca84-d1e252-Dd1e409"><!-- p1-q40-a2 -->
+               <head xml:id="TAca84-d1e252-Hd1e412">Articulus 2</head>
+               <head xml:id="TAca84-d1e252-Hd1e414" type="question-title">utrum personae distinguantur per relationes</head>
+               <p xml:id="TAca84-d1e252-d1e417">
+                  <pb ed="#L" n="413"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM PERSONAE DISTINGUANTUR PER RELATIONES
+</p>
+               <p xml:id="TAca84-d1e252-d1e428">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>personae non distinguantur per 
+relatio<lb break="no" ed="#L" n="5"/>nes, Simplicia enim seipsis 
+distinguun<lb break="no" ed="#L" n="6"/>Nur. Sed personae divinae sunt 
+ma<lb break="no" ed="#L" n="7"/>xime simplices. Ergo distinguuntur seipsis, et non
+<lb ed="#L" n="8"/>relationibus.
+</p>
+               <p xml:id="TAca84-d1e252-d1e446">
+                  <lb ed="#L" n="9"/>2. PRAETEREA, nulla forma distinguitur ? nisi
+<lb ed="#L" n="10"/>secundum suum genus: non enim album a nigro
+<lb ed="#L" n="11"/>distinguitur nisi secundum qualitatem. Sed 
+hy<lb break="no" ed="#L" n="12"/>postasis significat individuum in genere 
+substan<lb break="no" ed="#L" n="13"/>tiae. Non ergo relationibus hypostases distingui
+<lb ed="#L" n="14"/>possint.
+</p>
+               <p xml:id="TAca84-d1e252-d1e463">
+                  <lb ed="#L" n="15"/>3. PRAETEREA, absolutum est prius quam 
+rela<lb break="no" ed="#L" n="16"/>tivum ?. Sed prima distinctio est distinctio 
+divi<lb break="no" ed="#L" n="17"/>narum personarum. Ergo divinae personae non
+<lb ed="#L" n="18"/>distinguuntur relationibus.
+</p>
+               <p xml:id="TAca84-d1e252-d1e474">
+                  <lb ed="#L" n="19"/>4. PRAETEREA, id quod praesupponit 
+distinctio<lb break="no" ed="#L" n="20"/>nem, non potest esse primum distinctionis 
+princi<lb break="no" ed="#L" n="21"/>pium. Sed relatio praesupponit distinctionem, cum
+<lb ed="#L" n="22"/>in eius definitione ponatur: esse enim relativi est
+<lb ed="#L" n="23"/>ad aliud se habere. Ergo primum principium
+<lb ed="#L" n="24"/>distinctivum in divinis non potest esse relatio.
+</p>
+               <p xml:id="TAca84-d1e252-d1e490">
+                  <lb ed="#L" n="25"/>SED CONTRA EST quod Boetius dicit, in libro de
+<lb ed="#L" n="26"/>Trin., quod sola relatio multiplicat Trinitatem
+<lb ed="#L" n="27"/>divinarum Personarum.
+</p>
+               <p xml:id="TAca84-d1e252-d1e499">
+                  <lb ed="#L" n="28"/>REsPONDEO DICENDUM quod in quibuscumque
+<lb ed="#L" n="29"/>pluribus invenitur aliquid commune, oportet 
+quae<lb break="no" ed="#L" n="30"/>rere aliquid distinctivum. Unde, cum tres 
+perso<lb break="no" ed="#L" n="31"/>nae conveniant secundum essentiae unitatem,
+<lb ed="#L" n="32"/>necesse est quaerere aliquid quo distinguantur,
+<lb ed="#L" n="33"/>ad hoc quod plures sint. Inveniuntur autem in
+<lb ed="#L" n="34"/>divinis personis duo secundum quae differunt:
+<lb ed="#L" n="35"/>scilicet origo, et relatio. Quae quidem quamvis
+<lb ed="#L" n="36"/>re non differant, differunt tamen secundum 
+mo<lb break="no" ed="#L" n="37"/>dum significandi: nam origo significatur per 
+mo<lb break="no" ed="#L" n="38"/>dum actus, ut generatio; relatio vero per modum
+<lb ed="#L" n="39"/>formae, ut paternitas.
+</p>
+               <p xml:id="TAca84-d1e252-d1e528">
+                  <lb ed="#L" n="40"/>Quidam igitur, attendentes quod relatio 
+conse<lb break="no" ed="#L" n="41"/>quitur actum, dixerunt quod hypostases in 
+di<lb break="no" ed="#L" n="42"/>vinis distinguuntur " per originem; ut dicamus
+<lb ed="#L" n="43"/>quod Pater distinguitur a Filio, inquantum ille
+<lb ed="#L" n="44"/>generat, et hic est genitus. Relationes autem
+<lb ed="#L" n="45"/>sive proprietates manifestant consequenter 
+hypo<lb break="no" ed="#L" n="46"/>stasum sive personarum distinctiones ?: sicut et
+<lb ed="#L" n="47"/>in creaturis proprietates manifestant distinctiones
+<lb ed="#L" n="48"/>individuorum, quae fiunt per materialia principia. -
+</p>
+               <p xml:id="TAca84-d1e252-d1e550">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49"/>Sed hoc non potest stare, propter duo. Primo
+<lb ed="#L" n="50"/>quidem, quia ad hoc quod aliqua duo distincta
+<lb ed="#L" n="51"/>intelligantur, necesse est eorum distinctionem 
+in<lb break="no" ed="#L" n="52"/>telligi per aliquid intrinsecum utrique; sicut in
+<lb ed="#L" n="53"/>rebus creatis vel per materiam, vel per formam.
+<lb ed="#L" n="54"/>Origo autem alicuius rei non significatur ut 
+ali<lb break="no" ed="#L" n="55"/>quid intrinsecum, sed ut via quaedam a re vel
+<lb ed="#L" n="56"/>ad rem: sicut generatio significatur ut via 
+quae<lb break="no" ed="#L" n="57"/>dam ad rem genitam, et ut progrediens a 
+gene<lb break="no" ed="#L" n="58"/>rante. Unde non potest esse quod res genita et 
+ge<lb break="no" ed="#L" n="59"/>nerans distinguantur sola generatione: sed oportet.
+<lb ed="#L" n="60"/>intelligere tam in generante quam in genito ea
+<lb ed="#L" n="61"/>quibus ab invicem distinguuntur. In persona 
+au<lb break="no" ed="#L" n="62"/>tem divina non est aliud intelligere nisi essentiam
+<lb ed="#L" n="63"/>et relationem sive proprietatem. Unde, cum in
+<lb ed="#L" n="64"/>essentia conveniant, relinquitur quod per 
+relatio<lb break="no" ed="#L" n="65"/>nes personae ab invicem distinguantur. - Secundo,
+<lb ed="#L" n="66"/>quia distinctio in divinis personis non est sic 
+in<lb break="no" ed="#L" n="67"/>telligenda, quasi aliquid commune dividatur, quia
+<lb ed="#L" n="68"/>essentia communis remanet indivisa: sed oportet
+<lb ed="#L" n="69"/>quod ipsa distinguentia constituant res distinctas.
+<lb ed="#L" n="70"/>Sic autem relationes vel proprietates distinguunt
+<lb ed="#L" n="71"/>vel constituunt hypostases vel personas, 
+inquan<lb break="no" ed="#L" n="72"/>tum sunt ipsae personae subsistentes, sicut 
+pater<lb break="no" ed="#L" n="73"/>nitas est Pater, et filiatio est Filius, eo quod in
+<lb ed="#L" n="74"/>divinis non differt ? abstractum et concretum. Sed
+<lb ed="#L" n="75"/>contra rationem originis est, quod constituat 
+hy<lb break="no" ed="#L" n="76"/>postasim vel personam. Quia origo active 
+signi<lb break="no" ed="#L" n="77"/>ficata, significatur ut progrediens a persona 
+sub<lb break="no" ed="#L" n="78"/>sistente: unde praesupponit eam. Origo autem
+<lb ed="#L" n="79"/>passive significata, ut nativitas, significatur ut via
+<lb ed="#L" n="80"/>ad personam subsistentem ; et nondum ut eam
+<lb ed="#L" n="81"/>constituens.
+</p>
+               <p xml:id="TAca84-d1e252-d1e627">
+                  <lb ed="#L" n="82"/>Unde melius dicitur " quod personae seu 
+hy<lb break="no" ed="#L" n="83"/>postases distinguantur relationibus, quam per 
+ori<lb break="no" ed="#L" n="84"/>ginem. Licet enim distinguantur utroque modo 5,
+<lb ed="#L" n="85"/>tamen prius et principalius per relationes, 
+secun<lb break="no" ed="#L" n="86"/>dum modum intelligendi. - Unde hoc nomen 
+Pa<lb break="no" ed="#L" n="87"/>ter non solum significat proprietatem, sed etiam
+<lb ed="#L" n="88"/>hypostasim: sed hoc nomen Genitor, vel 
+Gene<lb break="no" ed="#L" n="89"/>rans, significat tantum proprietatem. Quia hoc
+<lb ed="#L" n="90"/>nomen Pafer significat relationem, quae est 
+dis<lb break="no" ed="#L" n="91"/>tinctiva et constitutiva hypostasis: hoc autem 
+no<lb break="no" ed="#L" n="92"/>men Generans, vel Genitus, significat originem,
+<lb ed="#L" n="93"/>quae non est distinctiva et constitutiva hypostasis.
+</p>
+               <p xml:id="TAca84-d1e252-d1e656">
+                  <lb ed="#L" n="94"/>AD PRIMUM ERGO DICENDUM quod personae sunt
+<pb ed="#L" n="414"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ipsae relationes subsistentes. Unde non repugnat
+<lb ed="#L" n="2"/>simplicitati divinarum personarum, quod 
+relatio<lb break="no" ed="#L" n="3"/>nibus distinguantur.
+</p>
+               <p xml:id="TAca84-d1e252-d1e672">
+                  <lb ed="#L" n="4"/>AD SECUNDUM DICENDUM quod personae divinae
+<lb ed="#L" n="5"/>non distinguuntur in esse in quo subsistunt, 
+ne<lb break="no" ed="#L" n="6"/>que in aliquo absoluto: sed solum secundum id
+<lb ed="#L" n="7"/>quod ad aliquid dicuntur. Unde ad earum 
+distin<lb break="no" ed="#L" n="8"/>ctionem sufficit relatio.
+</p>
+               <p xml:id="TAca84-d1e252-d1e685">
+                  <lb ed="#L" n="9"/>AD TERTIUM DICENDUM quod quanto distinctio
+<lb ed="#L" n="10"/>prior est, tanto propinquior est unitati. Et ideo
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="11"/>debet esse minima. Et ideo distinctio personarum
+<lb ed="#L" n="12"/>non debet esse nisi per id quod minimum 
+dis<lb break="no" ed="#L" n="13"/>tinguit, scilicet per relationem.
+</p>
+               <p xml:id="TAca84-d1e252-d1e701">
+                  <lb ed="#L" n="14"/>AD QUARTUM DICENDUM quod relatio praesupponit
+<lb ed="#L" n="15"/>distinctionem suppositorum, quando est accidens:
+<lb ed="#L" n="16"/>sed si relatio sit subsistens, non praesupponit, sed
+<lb ed="#L" n="17"/>secum fert distinctionem. Cum enim dicitur quod
+<lb ed="#L" n="18"/>relativi esse est ad aliud se habere, per ly aliud
+<lb ed="#L" n="19"/>intelligitur correlativum, quod non est prius, sed
+<lb ed="#L" n="20"/>simul natura.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e252-Dd1e720"><!-- p1-q40-a3 -->
+               <head xml:id="TAca84-d1e252-Hd1e723">Articulus 3</head>
+               <head xml:id="TAca84-d1e252-Hd1e725" type="question-title">
+  utrum abstractis per intellectum relationibus a personis,
+  adhuc remaneant hypostases
+</head>
+               <p xml:id="TAca84-d1e252-d1e728">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>ARTICULUS TERTIUS
+<lb ed="#L" n="18"/>UTRUM ABSTRACTIS PER INTELLECTUM RELATIONIBUS A PERSONIS,
+<lb ed="#L" n="19"/>ADHUC REMANEANT HYPOSTASES
+</p>
+               <p xml:id="TAca84-d1e252-d1e739">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>AD TERTIUM SIC PROCEDITUR. Videtur quod,
+<lb ed="#L" n="21"/>abstractis per intellectum proprietatibus
+<lb ed="#L" n="22"/>seu relationibus a personis, adhuc 
+re<lb break="no" ed="#L" n="23"/>maneant hypostases. Id enim ad quod
+<lb ed="#L" n="24"/>aliquid se habet ex additione, potest intelligi 
+re<lb break="no" ed="#L" n="25"/>moto eo quod sibi additur: sicut omo se habet
+<lb ed="#L" n="26"/>ad animal ex additione, et potest intelligi animal
+<lb ed="#L" n="27"/>remoto rationali. Sed persona se habet ex 
+addi<lb break="no" ed="#L" n="28"/>tione ad hypostasim: est enim persona 
+Ayposta<lb break="no" ed="#L" n="29"/>sis proprietate distincta ad dignitatem pertinente.
+<lb ed="#L" n="30"/>Ergo, remota proprietate personali a persona, 
+in<lb break="no" ed="#L" n="31"/>telligitur hypostasis.
+</p>
+               <p xml:id="TAca84-d1e252-d1e770">
+                  <lb ed="#L" n="32"/>2. PRAETEREA, Pater non ab eodem habet quod
+<lb ed="#L" n="33"/>sit Pater, et quod sit aliquis. Cum enim 
+pater<lb break="no" ed="#L" n="34"/>nitate sit Pater, si paternitate esset aliquis, 
+se<lb break="no" ed="#L" n="35"/>queretur quod Filius, in quo non est paternitas,
+<lb ed="#L" n="36"/>non esset aliquis. Remota ergo per intellectum
+<lb ed="#L" n="37"/>paternitate a Patre, adhuc remanet quod sit 
+ali<lb break="no" ed="#L" n="38"/>quis; quod est esse hypostasim 7. Ergo, remota
+<lb ed="#L" n="39"/>proprietate a persona, remanet hypostasis.
+</p>
+               <p xml:id="TAca84-d1e252-d1e791">
+                  <lb ed="#L" n="40"/>3. PRAETEREA, Augustinus dicit; V de Trin.:
+<quote xml:id="TAca84-d1e252-Qd1e795">Non hoc est dicere ingenitum, quod est dicere 
+Pa<lb break="no" ed="#L" n="41"/>irem: quia etsi Filium non genuisset, nihil 
+pro<lb break="no" ed="#L" n="42"/>hiberet eum dicere ingenitum</quote>. Sed si Filium non
+<lb ed="#L" n="43"/>genuisset, non inesset ei paternitas. Ergo, remota
+<lb ed="#L" n="44"/>paternitate, adhuc remanet hypostasis Patris ut
+<lb ed="#L" n="45"/>ingenita.
+</p>
+               <p xml:id="TAca84-d1e252-d1e809">
+                  <lb ed="#L" n="46"/>SEp coNTRA EsT quod Hilarius dicit, IV de
+<lb ed="#L" n="47"/>Trin.: <quote xml:id="TAca84-d1e252-Qd1e815">Nihil habet Filius nisi natum</quote>. Nativitate
+<lb ed="#L" n="48"/>autem est Filius. Ergo, remota filiatione, non 
+re<lb break="no" ed="#L" n="49"/>manet hypostasis Filii. Et eadem ratio est de
+<lb ed="#L" n="50"/>aliis personis.
+</p>
+               <p xml:id="TAca84-d1e252-d1e825">
+                  <lb ed="#L" n="51"/>RESPONDEO DICENDUM quod duplex fit abstractio
+<lb ed="#L" n="52"/>per intellectum. Una quidem, secundum quod
+<lb ed="#L" n="53"/>universale abstrahitur a particulari, ut animal ab
+<lb ed="#L" n="54"/>homine. Alia vero, secundum quod forma 
+abstra<lb break="no" ed="#L" n="55"/>hitur a materia; sicut forma circuli abstrahitur
+<lb ed="#L" n="56"/>per intellectum ab omni materia sensibili. Inter
+<lb ed="#L" n="57"/>has autem abstractiones haec est differentia, quod
+<lb ed="#L" n="58"/>in abstractione quae fit secundum universale et
+<lb ed="#L" n="59"/>particulare, non remanet id a quo fit abstractio :
+<lb ed="#L" n="60"/>remota enim ab homine differentia rationali, non
+<lb ed="#L" n="61"/>remanet in intellectu omo, sed solum animal.
+<lb ed="#L" n="62"/>In abstractione vero quae attenditur secundum
+<lb ed="#L" n="63"/>formam et materiam ?, utrumque manet in intel-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="64"/>lectu: abstrahendo enim formam circuli ab aere,
+<lb ed="#L" n="65"/>remanet seorsum in intellectu nostro et intellectus
+<lb ed="#L" n="66"/>circuli et intellectus aeris.
+</p>
+               <p xml:id="TAca84-d1e252-d1e864">
+                  <lb ed="#L" n="67"/>Quamvis autem in divinis non sit universale
+<lb ed="#L" n="68"/>neque particulare, nec forma et materia, 
+secun<lb break="no" ed="#L" n="69"/>dum rem; tamen, secundum modum significandi,
+<lb ed="#L" n="70"/>invenitur aliqua similitudo horum in divinis; 
+se<lb break="no" ed="#L" n="71"/>cundum quem modum Damascenus dicit quod
+<lb ed="#L" n="72"/>commune est substantia, particulare vero 
+hypo<lb break="no" ed="#L" n="73"/>stasis. Si igitur loquamur de abstractione quae fit
+<lb ed="#L" n="74"/>secundum universale et particulare, remotis 
+pro<lb break="no" ed="#L" n="75"/>prietatibus, remanet in intellectu essentia 
+com<lb break="no" ed="#L" n="76"/>munis, non autem hypostasis Patris, quae est quasi
+<lb ed="#L" n="77"/>particulare. Si vero loquamur secundum modum
+<lb ed="#L" n="78"/>abstractionis formae a materia, remotis 
+proprie<lb break="no" ed="#L" n="79"/>tatibus non personalibus, remanet intellectus 
+hy<lb break="no" ed="#L" n="80"/>postasum et personarum: sicut, remoto per 
+intel<lb break="no" ed="#L" n="81"/>lectum a Patre quod sit ingenitus vel spirans,
+<lb ed="#L" n="82"/>remanet hypostasis vel persona Patris. Sed 
+re<lb break="no" ed="#L" n="83"/>mota proprietate personali per intellectum, tollitur
+<lb ed="#L" n="84"/>intellectus hypostasis. Non enim proprietates 
+per<lb break="no" ed="#L" n="85"/>sonales sic intelliguntur advenire hypostasibus 
+di<lb break="no" ed="#L" n="86"/>vinis, sicut forma subiecto praeexistenti: sed 
+fe<lb break="no" ed="#L" n="87"/>runt secum sua supposita, inquantum sunt ipsae
+<lb ed="#L" n="88"/>personae subsistentes, sicut paternitas est ipse
+<lb ed="#L" n="89"/>Pater: hypostasis enim significat aliquid 
+distin<lb break="no" ed="#L" n="90"/>ctum in divinis, cum hypostasis sit substantia
+<lb ed="#L" n="91"/>individua. Cum igitur relatio sit quae distinguit
+<lb ed="#L" n="92"/>hypostases et constituit eas 5, ut dictum est, 
+re<lb break="no" ed="#L" n="93"/>linquitur quod, relationibus personalibus remotis
+<lb ed="#L" n="94"/>per intellectum, non remaneant hypostases.
+</p>
+               <p xml:id="TAca84-d1e252-d1e927">
+                  <lb ed="#L" n="95"/>Sed, sicut dictum est, aliqui dicunt quod 
+hy<lb break="no" ed="#L" n="96"/>postases in divinis non distinguuntur per 
+relatio<lb break="no" ed="#L" n="97"/>nes, sed per solam originem; ut intelligatur Pater
+<lb ed="#L" n="98"/>esse hypostasis quaedam per hoc, quod non est ab
+<lb ed="#L" n="99"/>alio; Filius autem per hoc, quod est ab alio per
+<lb ed="#L" n="100"/>generationem. Sed relationes advenientes quasi
+<lb ed="#L" n="101"/>proprietates ad dignitatem pertinentes, constituunt
+<lb ed="#L" n="102"/>rationem personae: unde et personalitates " 
+di<lb break="no" ed="#L" n="103"/>cuntur. Unde, remotis huiusmodi relationibus per
+<lb ed="#L" n="104"/>intellectum, remanent quidem hypostases, sed non
+<lb ed="#L" n="105"/>personae.
+</p>
+               <p xml:id="TAca84-d1e252-d1e953">
+                  <lb ed="#L" n="106"/>Sed hoc non potest esse, propter duo. Primo,
+<lb ed="#L" n="107"/>quia relationes distinguunt et constituunt 
+hypo<lb break="no" ed="#L" n="108"/>stases, ut ostensum est. - Secundo, quia omnis
+<pb ed="#L" n="417"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>hypostasis naturae rationalis est penam, ut 
+pa<lb break="no" ed="#L" n="2"/>tet per definitionem Boetii, dicentis quod 
+per<lb break="no" ed="#L" n="3"/>sona est rationalis naturae individua substantia.
+<lb ed="#L" n="4"/>Unde, ad hoc quod esset hypostasis et non 
+per<lb break="no" ed="#L" n="5"/>sona, oporteret abstrahi ex parte naturae 
+ratio<lb break="no" ed="#L" n="6"/>nalitatem ; non autem ex parte personae 
+proprie<lb break="no" ed="#L" n="7"/>tatem.
+</p>
+               <p xml:id="TAca84-d1e252-d1e983">
+                  <lb ed="#L" n="8"/>AD PRIMUM ERGO DICENDUM quod persona non
+<lb ed="#L" n="9"/>addit supra hypostasim proprietatem 
+distinguen<lb break="no" ed="#L" n="10"/>tem absolute, sed proprietatem distinguentem ad
+<lb ed="#L" n="11"/>dignitatem pertinentem: totum enim hoc est 
+ac<lb break="no" ed="#L" n="12"/>cipiendum loco unius differentiae. Ad dignitatem
+<lb ed="#L" n="13"/>autem pertinet proprietas distinguens, secundum
+<lb ed="#L" n="14"/>quod intelligitur subsistens in natura rationali.
+<lb ed="#L" n="15"/>Unde, remota proprietate distinguente a persona,
+<lb ed="#L" n="16"/>non remanet hypostasis: sed remaneret, si 
+tolle<lb break="no" ed="#L" n="17"/>retur rationalitas naturae. Tam enim persona
+<lb ed="#L" n="18"/>quam hypostasis est substantia individua: unde
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="19"/>in divinis de ratione utriusque est relatio 
+distin<lb break="no" ed="#L" n="20"/>guens.
+</p>
+               <p xml:id="TAca84-d1e252-d1e1016">
+                  <lb ed="#L" n="21"/>AD SECUNDUM DICENDUM quod paternitate Pater ^
+<lb ed="#L" n="22"/>non solum est Pater, sed est persona, et est quis
+<lb ed="#L" n="23"/>sive hypostasis. Nec tamen sequitur quod Filius
+<lb ed="#L" n="24"/>non sit quis sive hypostasis; sicut non sequitur
+<lb ed="#L" n="25"/>quod non sit persona.
+</p>
+               <p xml:id="TAca84-d1e252-d1e1029">
+                  <lb ed="#L" n="26"/>AD TERTIUM DICENDUM quod intentio Augustini
+<lb ed="#L" n="27"/>non fuit dicere quod hypostasis Patris remaneat
+<lb ed="#L" n="28"/>ingenita, remota paternitate, quasi innascibilitas
+<lb ed="#L" n="29"/>constituat et distinguat hypostasim Patris: hoc
+<lb ed="#L" n="30"/>enim esse non potest, cum zngenitum nihil ponat,
+<lb ed="#L" n="31"/>sed negative dicatur, ut ipsemet dicit. Sed 
+lo<lb break="no" ed="#L" n="32"/>quitur in communi, quia non omne ingenitum est
+<lb ed="#L" n="33"/>Pater '. Remota ergo paternitate, non remanet in
+<lb ed="#L" n="34"/>divinis hypostasis Patris, ut distinguitur ab aliis
+<lb ed="#L" n="35"/>personis; sed ut distinguitur a creaturis, sicut 
+Tu<lb break="no" ed="#L" n="36"/>daei intelligunt.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e252-Dd1e1056"><!-- p1-q40-a4 -->
+               <head xml:id="TAca84-d1e252-Hd1e1059">Articulus 4</head>
+               <head xml:id="TAca84-d1e252-Hd1e1061" type="question-title">
+  utrum actus notionales praeintelligantur proprietatibus
+</head>
+               <p xml:id="TAca84-d1e252-d1e1064">
+                  <lb ed="#L" n="23"/>ARTICULUS QUARTUS
+<lb ed="#L" n="24"/>UTRUM ACTUS NOTIONALES PRAEINTELLIGANTUR PROPRIETATIBUS
+</p>
+               <p xml:id="TAca84-d1e252-d1e1071">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="25"/>AD QUARTUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="26"/>actus notionales praeintelligantur 
+pro<lb break="no" ed="#L" n="27"/>prietatibus. Dicit enim Magister, xxvi
+<lb ed="#L" n="28"/>dist. I Sent., quod semper Pater est,
+<lb ed="#L" n="29"/>quia genuit semper Filium. Et ita videtur quod
+<lb ed="#L" n="30"/>generatio, secundum intellectum, praecedat 
+pa<lb break="no" ed="#L" n="31"/>ternitatem.
+</p>
+               <p xml:id="TAca84-d1e252-d1e1091">
+                  <lb ed="#L" n="32"/>2. PRAETEREA, Omnis relatio praesupponit, in
+<lb ed="#L" n="33"/>intellectu, id supra quod fundatur; sicut aequalitas
+<lb ed="#L" n="34"/>quantitatem. Sed paternitas est relatio fundata
+<lb ed="#L" n="35"/>super actione quae est generatio. Ergo paternitas
+<lb ed="#L" n="36"/>praesupponit generationem.
+</p>
+               <p xml:id="TAca84-d1e252-d1e1105">
+                  <lb ed="#L" n="37"/>3. PRAETEREA, sicut se habet generatio activa
+<lb ed="#L" n="38"/>ad paternitatem, ita se- habet nativitas ad 
+filiatio<lb break="no" ed="#L" n="39"/>nem. Sed filiatio praesupponit nativitatem: ideo
+<lb ed="#L" n="40"/>enim Filius est, quia natus est. Ergo et 
+pater<lb break="no" ed="#L" n="41"/>nitas praesupponit generationem. 
+</p>
+               <p xml:id="TAca84-d1e252-d1e1118">
+                  <lb ed="#L" n="42"/>SED CONTRA, generatio est operatio personae 
+<lb ed="#L" n="43"/>Patris. Sed paternitas constituit personam Patris. 
+<lb ed="#L" n="44"/>Ergo prius est, secundum intellectum, paternitas 
+<lb ed="#L" n="45"/>quam generatio. 
+</p>
+               <p xml:id="TAca84-d1e252-d1e1129">
+                  <lb ed="#L" n="46"/>RESPONDEO DICENDUM quod, secundum illos qui
+<lb ed="#L" n="47"/>dicunt quod proprietates non distinguunt et 
+con<lb break="no" ed="#L" n="48"/>stituunt hypostases, sed manifestant hypostases 
+<lb ed="#L" n="49"/>distinctas et constitutas, absolute dicendum est 
+<lb ed="#L" n="50"/>quod relationes, secundum modum intelligendi, 
+<lb ed="#L" n="51"/>consequuntur actus notionales; ut dici possit 
+sim<lb break="no" ed="#L" n="52"/>pliciter quod quia generat, est Pater. 
+</p>
+               <p xml:id="TAca84-d1e252-d1e1147">
+                  <lb ed="#L" n="53"/>Sed supponendo quod relationes distinguant et 
+<lb ed="#L" n="54"/>constituant hypostases in divinis, oportet 
+distin<lb break="no" ed="#L" n="55"/>ctione uti. Quia origo significatur in divinis active  
+<lb ed="#L" n="56"/>et passive: active quidem, sicut generatio 
+attri<lb break="no" ed="#L" n="57"/>buitur Patri, et spiratio, sumpta pro actu notionali, 
+<lb ed="#L" n="58"/>attribuitur Patri et Filio; passive autem, sicut na-
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="59"/>tivitas attribuitur ? Filio, et processio Spiritui 
+San<lb break="no" ed="#L" n="60"/>cto. Origines enim passive significatae, simpliciter
+<lb ed="#L" n="61"/>praecedunt, secundum intellectum, proprietates
+<lb ed="#L" n="62"/>personarum procedentium, etiam personales: quia
+<lb ed="#L" n="63"/>origo passive significata, significatur ut via ad
+<lb ed="#L" n="64"/>personam proprietate constitutam. — Similiter et
+<lb ed="#L" n="65"/>origo active significata, prior est, secundum 
+in<lb break="no" ed="#L" n="66"/>tellectum, quam relatio personae originantis quae
+<lb ed="#L" n="67"/>non est personalis: sicut actus notionalis 
+spira<lb break="no" ed="#L" n="68"/>tionis, secundum intellectum, praecedit 
+proprieta<lb break="no" ed="#L" n="69"/>tem relativam innominatam communem Patri et
+<lb ed="#L" n="70"/>Filio. - Sed proprietas personalis Patris potest
+<lb ed="#L" n="71"/>considerari dupliciter. Uno modo, ut est relatio:
+<lb ed="#L" n="72"/>et sic iterum, secundum intellectum, praesupponit
+<lb ed="#L" n="73"/>actum notionalem; quia relatio, inquantum 
+huius<lb break="no" ed="#L" n="74"/>modi, fundatur super actum. Alio modo, 
+secun<lb break="no" ed="#L" n="75"/>dum quod est constitutiva personae: et sic 
+opor<lb break="no" ed="#L" n="76"/>tet quod praeintelligatur relatio actui notionali,
+<lb ed="#L" n="77"/>sicut persona agens praeintelligitur actioni.
+</p>
+               <p xml:id="TAca84-d1e252-d1e1206">
+                  <lb ed="#L" n="78"/>AD PRIMUM ERGO DICENDUM quod, cum Magister
+<lb ed="#L" n="79"/>dicit quod quia generat, est Pater, accipit 
+no<lb break="no" ed="#L" n="80"/>men Patris secundum quod designat relationem
+<lb ed="#L" n="81"/>tantum: non autem secundum quod significat
+<lb ed="#L" n="82"/>personam subsistentem. Sic enim oporteret e 
+con<lb break="no" ed="#L" n="83"/>verso dicere quod quia Pater est, generat.
+</p>
+               <p xml:id="TAca84-d1e252-d1e1222">
+                  <lb ed="#L" n="84"/>AD SECUNDUM DICENDUM quod obiectio illa 
+pro<lb break="no" ed="#L" n="85"/>cedit de paternitate, secundum quod est relatio:
+<lb ed="#L" n="86"/>et non secundum quod est constitutiva personae.
+</p>
+               <p xml:id="TAca84-d1e252-d1e1232">
+                  <lb ed="#L" n="87"/>Ap TERTIUM DICENDUM quod nativitas est via ad
+<lb ed="#L" n="88"/>personam Filii: et ideo, secundum intellectum,
+<lb ed="#L" n="89"/>praecedit filiationem, etiam secundum quod. est
+<lb ed="#L" n="90"/>constitutiva personae Filii Sed generatio activa
+<lb ed="#L" n="91"/>significatur ut progrediens a persona Patris: et ideo
+<lb ed="#L" n="92"/>praesupponit proprietatem personalem Patris.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

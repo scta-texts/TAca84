@@ -1,0 +1,1828 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="142"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e113"><!-- p1-q13 -->
+            <head xml:id="TAca84-d1e113-Hd1e99">Quaestio 13</head>
+            <head xml:id="TAca84-d1e113-Hd1e101" type="question-title">de nominibus dei</head>
+            <p xml:id="TAca84-d1e113-d1e104">
+               <pb ed="#L" n="142"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO DECIMATERTIA
+<lb ed="#L" n="2"/>DE NOMINIBUS DEI
+<lb ed="#L" n="3"/>IN DUODECIM ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e113-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>CONSIDERATIS his quae ad divinam 
+cognitio<lb break="no" ed="#L" n="5"/>ps pertinent, procedendum est ad 
+con<lb break="no" ed="#L" n="6"/>iGtswm qum, siderationem divinorum nominum: 
+unumquod<lb break="no" ed="#L" n="7"/>que enim nominatur a nobis, secundum quod
+<lb ed="#L" n="8"/>ipsum cognoscimus.
+<lb ed="#L" n="9"/>Circa hoc ergo quaeruntur duodecim.
+<lb ed="#L" n="10"/>Primo: utrum Deus sit nominabilis a nobis.
+<lb ed="#L" n="11"/>Secundo: utrum aliqua nomina dicta de Deo,
+<lb ed="#L" n="12"/>praedicentur de ipso substantialiter.
+<lb ed="#L" n="13"/>Tertio: utrum aliqua nomina dicta de Deo,
+<lb ed="#L" n="14"/>proprie dicantur de ipso; an omnia 
+attri<lb break="no" ed="#L" n="15"/>buantur ei metaphorice.
+<lb ed="#L" n="16"/>Quarto: utrum multa nomina dicta de Deo,
+<lb ed="#L" n="17"/>sint synonyma.
+<lb ed="#L" n="18"/>Quinto: utrum nomina aliqua dicantur de Deo
+<lb ed="#L" n="19"/>et creaturis univoce, vel aequivoce. |
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="20"/>Sexto: supposito quod dicantur analogice, utrum
+<lb ed="#L" n="21"/>dicantur de Deo per prius, vel de creaturis.
+<lb ed="#L" n="22"/>Septimo : utrum aliqua nomina dicantur de Deo
+<lb ed="#L" n="23"/>ex tempore.
+<lb ed="#L" n="24"/>Octavo: utrum hoc nomen Deus sit nomen
+<lb ed="#L" n="25"/>naturae, vel operationis.
+<lb ed="#L" n="26"/>Nono: utrum hoc nomen JDeus" sit. nomen
+<lb ed="#L" n="27"/>communicabile.
+<lb ed="#L" n="28"/>Decimo: utrum accipiatur univoce vel 
+aequi<lb break="no" ed="#L" n="29"/>voce, secundum quod significat Deum. per
+<lb ed="#L" n="30"/>naturam, et per participationem, et 
+secun<lb break="no" ed="#L" n="31"/>dum opinionem ?.
+<lb ed="#L" n="32"/>Undecimo: utrum hoc nomen Qui est sit 
+ma<lb break="no" ed="#L" n="33"/>xime proprium nomen Dei.
+<lb ed="#L" n="34"/>Duodecimo: utrum propositiones affirmativae
+<lb ed="#L" n="35"/>possint formari de Deo.
+</p>
+            <div xml:id="TAca84-d1e113-Dd1e193"><!-- p1-q13-a1 -->
+               <head xml:id="TAca84-d1e113-Hd1e196">Articulus 1</head>
+               <head xml:id="TAca84-d1e113-Hd1e198" type="question-title">utrum aliquod nomen deo conveniat</head>
+               <p xml:id="TAca84-d1e113-d1e201">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36"/>ARTICULUS PRIMUS
+<lb ed="#L" n="37"/>UTRUM ALIQUOD NOMEN DEO CONVENIAT
+</p>
+               <p xml:id="TAca84-d1e113-d1e210">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="38"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="39"/>e nullum nomen Deo conveniat. Dicit
+<lb ed="#L" n="40"/>(à enim Dionysius, : cap. de Div. Nom.,
+<lb ed="#L" n="41"/>)NQquod neque nomen eius est, neque 
+opi<lb break="no" ed="#L" n="42"/>nio. Et Prov. xxx dicitur: Quod nomen eius, et
+<lb ed="#L" n="43"/>quod nomen filii eius, si nosti?
+</p>
+               <p xml:id="TAca84-d1e113-d1e228">
+                  <lb ed="#L" n="44"/>2. PRAETEREA, omne nomen aut dicitur in 
+abs<lb break="no" ed="#L" n="45"/>tracto, aut in concreto. Sed nomina significantia
+<lb ed="#L" n="46"/>in concreto, non competunt Deo, cum simplex
+<lb ed="#L" n="47"/>sit: neque nomina significantia in abstracto, quia
+<lb ed="#L" n="48"/>non significant aliquid perfectum subsistens. Ergo
+<lb ed="#L" n="49"/>nullum nomen potest dici de Deo.
+</p>
+               <p xml:id="TAca84-d1e113-d1e245">
+                  <lb ed="#L" n="50"/>3. PRAETEREA, nomina significant substantiam
+<lb ed="#L" n="51"/>f cum qualitate; verba autem et participia 
+signi<lb break="no" ed="#L" n="52"/>ficant cum tempore; pronomina autem cum 
+de<lb break="no" ed="#L" n="53"/>monstratione vel relatione. Quorum nihil 
+com<lb break="no" ed="#L" n="54"/>petit Deo: quia sine qualitate est et sine omni
+<lb ed="#L" n="55"/>accidente, et sine tempore; et sentiri non potest,
+<lb ed="#L" n="56"/>ut demonstrari possit; nec relative significari, cum
+<lb ed="#L" n="57"/>relativa sint aliquorum antedictorum recordativa,
+<lb ed="#L" n="58"/>vel nominum, vel participiorum, vel pronominum
+<lb ed="#L" n="59"/>demonstrativorum. Ergo Deus nullo modo potest
+<lb ed="#L" n="60"/>nominari a nobis.
+</p>
+               <p xml:id="TAca84-d1e113-d1e271">
+                  <lb ed="#L" n="61"/>SED CONTRA EsT quod dicitur Exod. xv: 
+Domi<lb break="no" ed="#L" n="62"/>nus quasi vir pugnator, Omnipotens nomen eius.
+</p>
+               <p xml:id="TAca84-d1e113-d1e278">
+                  <lb ed="#L" n="63"/>RESPONDEO DICENDUM quod, secundum 
+Philoso<lb break="no" ed="#L" n="64"/>phum, voces sunt signa intellectuum, et intelle-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="65"/>ctus sunt rerum similitudines. Et sic patet quod
+<lb ed="#L" n="66"/>voces referuntur ad res significandas, mediante
+<lb ed="#L" n="67"/>conceptione intellectus. Secundum igitur quod
+<lb ed="#L" n="68"/>aliquid a nobis intellectu cognosci potest, sic a 
+no<lb break="no" ed="#L" n="69"/>bis potest nominari. Ostensum est autem supra
+<lb ed="#L" n="70"/>quod Deus in hac vita non potest a nobis videri
+<lb ed="#L" n="71"/>per suam essentiam; sed cognoscitur a nobis ex
+<lb ed="#L" n="72"/>creaturis, secundum habitudinem principii, et per
+<lb ed="#L" n="73"/>modum excellentiae et remotionis. Sic igitur potest
+<lb ed="#L" n="74"/>nominari a nobis ex creaturis: non tamen " ita
+<lb ed="#L" n="75"/>quod nomen significans ipsum, exprimat divinam
+<lb ed="#L" n="76"/>essentiam secundum quod est, sicut hoc nomen
+<lb ed="#L" n="77"/>homo exprimit sua significatione essentiam 
+ho<lb break="no" ed="#L" n="78"/>minis secundum quod est: significat enim eius
+<lb ed="#L" n="79"/>definitionem , declarantem eius essentiam; ratio
+<lb ed="#L" n="80"/>enim quam significat nomen, est definitio ^.
+<lb ed="#L" n="81"/>Ap PRIMUM ERGO DICENDUM quod ea ratione 
+di<lb break="no" ed="#L" n="82"/>citur Deus non habere nomen, vel esse supra
+<lb ed="#L" n="83"/>nominationem, quia essentia eius est supra id
+<lb ed="#L" n="84"/>quod de Deo intelligimus et voce significamus.
+<lb ed="#L" n="85"/>». AD SECUNDUM DICENDUM quod, quia ex creaturis
+<lb ed="#L" n="86"/>in Dei cognitionem venimus, et ex ipsis eum
+<lb ed="#L" n="87"/>nominamus, nomina quae Deo attribuimus, hoc
+<lb ed="#L" n="88"/>modo significant, secundum quod competit 
+crea<lb break="no" ed="#L" n="89"/>turis materialibus, quarum ' cognitio est nobis
+<lb ed="#L" n="90"/>connaturalis, ut supra dictum est. Et quia in
+<lb ed="#L" n="91"/>huiusmodi creaturis, ea quae sunt perfecta et sub-
+<pb ed="#L" n="143"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sistentia, sunt composita; forma autem in eis non
+<lb ed="#L" n="2"/>est aliquid completum subsistens, sed magis quo
+<lb ed="#L" n="3"/>aliquid est: inde est quod omnia nomina a nobis
+<lb ed="#L" n="4"/>imposita ad significandum aliquid completum 
+sub<lb break="no" ed="#L" n="5"/>sistens, significant in concretione, prout competit
+<lb ed="#L" n="6"/>compositis; quae autem imponuntur ad 
+signifi<lb break="no" ed="#L" n="7"/>candas formas simplices, significant aliquid non
+<lb ed="#L" n="8"/>ut subsistens, sed ut quo aliquid est, sicut albedo
+<lb ed="#L" n="9"/>significat ut quo aliquid est album. Quia igitur
+<lb ed="#L" n="10"/>et Deus simplex est, et subsistens est, attribuimus
+<lb ed="#L" n="11"/>ei et nomina abstracta, ad significandam 
+sim<lb break="no" ed="#L" n="12"/>plicitatem eius; et nomina concreta, ad 
+signi<lb break="no" ed="#L" n="13"/>ficandum subsistentiam et perfectionem ipsius:
+<lb ed="#L" n="14"/>quamvis utraque nomina deficiant a modo ipsius,
+<lb ed="#L" n="15"/>sicut ? intellectus noster non Wm eum ut
+<lb ed="#L" n="16"/>est, secundum hanc vitam.
+</p>
+               <p xml:id="TAca84-d1e113-d1e385">
+                  <lb ed="#L" n="17"/>AD TERTIUM DICENDUM quod significare 
+substan<lb break="no" ed="#L" n="18"/>tiam cum qualitate, est-significare suppositum cum
+<lb ed="#L" n="19"/>natura vel forma determinata in qua subsistit.
+<lb ed="#L" n="20"/>Unde, sicut de Deo dicuntur aliqua in concretione,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="21"/>ad significandum subsistentiam et perfectionem
+<lb ed="#L" n="22"/>ipsius, sicut iam dictum est, ita dicuntur de
+<lb ed="#L" n="23"/>Deo nomina significantia substantiam cum 
+qua<lb break="no" ed="#L" n="24"/>litate. Verba vero et participia consignificantia "
+<lb ed="#L" n="25"/>tempus dicuntur de ipso, ex eo quod aeternitas
+<lb ed="#L" n="26"/>includit omne tempus: sicut enim simplicia 
+sub<lb break="no" ed="#L" n="27"/>sistentia non possumus apprehendere et significare
+<lb ed="#L" n="28"/>nisi per modum compositorum, ita simplicem 
+ae<lb break="no" ed="#L" n="29"/>ternitatem non possumus intelligere vel voce 
+ex<lb break="no" ed="#L" n="30"/>primere, nisi per modum temporalium rerum; et
+<lb ed="#L" n="31"/>hoc propter connaturalitatem intellectus nostri ad
+<lb ed="#L" n="32"/>res compositas et temporales. Pronomina vero
+<lb ed="#L" n="33"/>demonstrativa dicuntur de Deo, secundum quod
+<lb ed="#L" n="34"/>faciunt demonstrationem ad id 'quod intelligitur,
+<lb ed="#L" n="35"/>non ad id quod sentitur: secundum enim quod
+<lb ed="#L" n="36"/>a nobis intelligitur, secundum hoc sub 
+demonstra<lb break="no" ed="#L" n="37"/>tione cadit. Et sic, secundum illum modum quo
+<lb ed="#L" n="38"/>nomina et participia et pronomina demonstrativa
+<lb ed="#L" n="39"/>de Deo dicuntur, secundum hoc et pronominibus
+<lb ed="#L" n="40"/>relativis significari potest.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e113-Dd1e444"><!-- p1-q13-a2 -->
+               <head xml:id="TAca84-d1e113-Hd1e447">Articulus 2</head>
+               <head xml:id="TAca84-d1e113-Hd1e449" type="question-title">utrum aliquod nomen dicatur de deo substantialiter</head>
+               <p xml:id="TAca84-d1e113-d1e452">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="36"/>UTRUM ALIQUOD NOMEN DICATUR DE DEO SUBSTANTIALITER
+</p>
+               <p xml:id="TAca84-d1e113-d1e461">
+                  <lb ed="#L" n="37"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="38"/>nullum nomen dicatur de Deo 
+substan<lb break="no" ed="#L" n="39"/>tialiter. Dicit enim Damascenus: Opor-
+</p>
+               <p xml:id="TAca84-d1e113-d1e470">
+                  <lb ed="#L" n="40"/>Met singulum eorum quae de Deo 
+dicun<lb break="no" ed="#L" n="41"/>y non quid est secundum substantiam significare,
+<lb ed="#L" n="42"/>sed quid non est ostendere, aut habitudinem 
+quan<lb break="no" ed="#L" n="43"/>dam, aut aliquid eorum quae assequuntur. 
+natu<lb break="no" ed="#L" n="44"/>ram vel operationem.
+</p>
+               <p xml:id="TAca84-d1e113-d1e484">
+                  <lb ed="#L" n="45"/>2. PRAETEREA, dicit Dionysius, 1 cap. de Div.
+<lb ed="#L" n="46"/>Nom.: Omnem sanctorum theologorum hymnum
+<lb ed="#L" n="47"/>invenies, ad bonos thearchiae processus, 
+manifesta<lb break="no" ed="#L" n="48"/>tive et laudative Dei nominationes dividentem: et
+<lb ed="#L" n="49"/>est sensus, quod nomina quae in divinam laudem
+<lb ed="#L" n="50"/>sancti doctores assumunt, secundum processus
+<lb ed="#L" n="51"/>ipsius Dei distinguuntur. Sed quod significat 
+pro<lb break="no" ed="#L" n="52"/>cessum alicuius rei, nihil significat ad eius 
+es<lb break="no" ed="#L" n="53"/>sentiam pertinens. Ergo: nomina dicta de Deo,
+<lb ed="#L" n="54"/>non dicuntur de ipso substantialiter.
+</p>
+               <p xml:id="TAca84-d1e113-d1e508">
+                  <lb ed="#L" n="55"/>3. PRAETEREA, secundum hoc nominatur aliquid
+<lb ed="#L" n="56"/>a nobis, secundum quod intelligitur. Sed non 
+in<lb break="no" ed="#L" n="57"/>telligitur Deus a nobis in hac vita secundum
+<lb ed="#L" n="58"/>suam substantiam. Ergo nec aliquod nomen 
+im<lb break="no" ed="#L" n="59"/>positum a nobis, dicitur de Deo secundum suam
+<lb ed="#L" n="60"/>substantiam.
+</p>
+               <p xml:id="TAca84-d1e113-d1e524">
+                  <lb ed="#L" n="61"/>SEp coNTRA EsT quod dicit Augustinus, VI de
+<lb ed="#L" n="62"/>Trin.: Deo hoc est esse, quod fortem esse vel
+<lb ed="#L" n="63"/>sapientem esse, et si quid de illa simplicitate
+<lb ed="#L" n="64"/>dixeris, quo eius substantia significatur. Ergo
+<lb ed="#L" n="65"/>omnia nomina huiusmodi significant divinam
+<lb ed="#L" n="66"/>substantiam.
+</p>
+               <p xml:id="TAca84-d1e113-d1e540">
+                  <lb ed="#L" n="67"/>RzsPONDEO DICENDUM quod de nominibus quae
+<lb ed="#L" n="68"/>de Deo dicuntur negative, vel quae relationem
+<lb ed="#L" n="69"/>ipsius ad creaturam significant, manifestum est
+<lb ed="#L" n="70"/>quod substantiam eius nullo modo significant ;
+<lb ed="#L" n="71"/>sed remotionem alicuius ab ipso, vel relationem
+<lb ed="#L" n="72"/>eius ad alium, vel potius alicuius ad ipsum. Sed
+<lb ed="#L" n="73"/>de nominibus quae absolute et affirmative de
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="74"/>Deo dicuntur, sicut bonus, sapiens, et huiusmodi,
+<lb ed="#L" n="75"/>multipliciter aliqui sunt opinati.
+<lb ed="#L" n="76"/>
+                  <lb ed="#L" n="77"/>Quidam enim dixerunt quod haec omnia 
+no<lb break="no" ed="#L" n="78"/>mina, licet affirmative de Deo dicantur, tamen
+<lb ed="#L" n="79"/>magis inventa sunt ad aliquid removendum a
+<lb ed="#L" n="80"/>Deo, quam ad aliquid ponendum in ipso. Unde
+<lb ed="#L" n="81"/>dicunt quod, cum dicimus Deum esse viventem,
+<lb ed="#L" n="82"/>significamus quod Deus non hoc modo est, sicut
+<lb ed="#L" n="83"/>res inanimatae: et similiter accipiendum est in
+<lb ed="#L" n="84"/>aliis. Et hoc posuit Rabbi Moyses. - Alii vero
+<lb ed="#L" n="85"/>dicunt quod haec nomina imposita sunt ad 
+signi<lb break="no" ed="#L" n="86"/>ficandum habitudinem eius ad creata: ut, cum
+<lb ed="#L" n="87"/>dicimus Deus est bonus, sit sensus, Deus est causa
+<lb ed="#L" n="88"/>bonitatis in rebus. Et eadem ratio est in aliis.
+</p>
+               <p xml:id="TAca84-d1e113-d1e592">
+                  <lb ed="#L" n="89"/>Sed utrumque istorum videtur esse 
+inconve<lb break="no" ed="#L" n="90"/>niens, propter tria. Primo quidem, quia 
+secun<lb break="no" ed="#L" n="91"/>dum neutram harum positionum posset assignari
+<lb ed="#L" n="92"/>ratio quare quaedam nomina magis de Deo 
+di<lb break="no" ed="#L" n="93"/>cerentur quam alia. Sic enim est causa 
+corpo<lb break="no" ed="#L" n="94"/>rum, sicut est causa bonorum: unde, si nihil aliud
+<lb ed="#L" n="95"/>significatur, cum dicitur Deus est bonus, nisi Deus
+<lb ed="#L" n="96"/>est causa bonorum, poterit similiter dici quod
+<lb ed="#L" n="97"/>Deus est corpus, quia est causa corporum. Item,
+<lb ed="#L" n="98"/>per hoc quod dicitur quod est corpus, 
+remove<lb break="no" ed="#L" n="99"/>tur quod non sit ens in potentia tantum, sicut
+<lb ed="#L" n="100"/>materia prima. — Secundo, quia sequeretur quod
+<lb ed="#L" n="101"/>omnia nomina dicta de Deo, per posterius 
+dice<lb break="no" ed="#L" n="102"/>rentur de ipso: sicut sanum per posterius dicitur
+<lb ed="#L" n="103"/>de medicina, eo quod significat hoc tantum quod
+<lb ed="#L" n="104"/>Sit causa sanitatis in animali, quod per prius 
+di<lb break="no" ed="#L" n="105"/>citur sanum. - Tertio, quia hoc est contra 
+inten<lb break="no" ed="#L" n="106"/>tionem loquentium de Deo. Aliud enim intendunt
+<lb ed="#L" n="107"/>dicere, cum dicunt Deum viventem, quam quod
+<lb ed="#L" n="108"/>sit causa vitae nostrae, vel quod differat a 
+corpo<lb break="no" ed="#L" n="109"/>ribus inanimatis.
+</p>
+               <p xml:id="TAca84-d1e113-d1e640">
+                  <lb ed="#L" n="110"/>Et ideo aliter dicendum est, quod huiusmodi
+<lb ed="#L" n="111"/>quidem " nomina significant substantiam divinam,
+<pb ed="#L" n="145"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>et praedicantur de Deo substantialiter, sed 
+de<lb break="no" ed="#L" n="2"/>ficiunt a repraesentatione ipsius. Quod sic patet.
+<lb ed="#L" n="3"/>Significant enim sic nomina Deum, secundum
+<lb ed="#L" n="4"/>quod intellectus noster cognoscit ipsum. 
+Intel<lb break="no" ed="#L" n="5"/>lectus autem noster, cum cognoscat Deum ex
+<lb ed="#L" n="6"/>creaturis, sic cognoscit ipsum, secundum quod
+<lb ed="#L" n="7"/>creaturae ipsum repraesentant. Ostensum est 
+au<lb break="no" ed="#L" n="8"/>tem supra quod Deus in se praehabet " omnes
+<lb ed="#L" n="9"/>perfectiones creaturarum, quasi simpliciter et 
+uni<lb break="no" ed="#L" n="10"/>versaliter perfectus. Unde quaelibet creatura 
+in<lb break="no" ed="#L" n="11"/>tantum eum repraesentat, et est ei similis, 
+inquan<lb break="no" ed="#L" n="12"/>tum perfectionem aliquam habet: non tamen ita
+<lb ed="#L" n="13"/>quod repraesentet eum sicut aliquid eiusdem 
+spe<lb break="no" ed="#L" n="14"/>ciei vel generis, sed sicut excellens principium,
+<lb ed="#L" n="15"/>a cuius forma effectus deficiunt, cuius tamen
+<lb ed="#L" n="16"/>aliqualem similitudinem | effectus consequuntur ;
+<lb ed="#L" n="17"/>sicut formae corporum inferiorum repraesentant
+<lb ed="#L" n="18"/>virtutem solarem. Et hoc supra expositum est,
+<lb ed="#L" n="19"/>cum de Perfectione divina agebatur. Sic igitur
+<lb ed="#L" n="20"/>praedicta nomina divinam substantiam significant: -
+<lb ed="#L" n="21"/>imperfecte tamen, sicut et creaturae imperfecte
+<lb ed="#L" n="22"/>eam repraesentant.
+</p>
+               <p xml:id="TAca84-d1e113-d1e700">
+                  <lb ed="#L" n="23"/>Cum igitur dicitur Deus est bonus, non est
+<lb ed="#L" n="24"/>sensus, Deus est causa bonitatis, vel Deus non
+<lb ed="#L" n="25"/>est malus: sed est sensus, id quod bonitatem 
+di<lb break="no" ed="#L" n="26"/>cimus in creaturis, praeexistit in Deo, et hoc
+<lb ed="#L" n="27"/>quidem secundum modum altiorem. Unde.ex hoc
+<lb ed="#L" n="28"/>non sequitur quod Deo competat esse bonum
+<lb ed="#L" n="29"/>inquantum causat bonitatem: sed potius e 
+con<lb break="no" ed="#L" n="30"/>verso, quia est bonus, bonitatem rebus diffundit ',
+<lb ed="#L" n="31"/>secundum illud Augustini, de Doct. Christ.: 
+in<lb break="no" ed="#L" n="32"/>quantum bonus est, sumus. i
+</p>
+               <p xml:id="TAca84-d1e113-d1e724">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="33"/>AD PRIMUM ERGO DICENDUM quod Damascenus
+<lb ed="#L" n="34"/>ideo dicit quod haec nomina non significant quid
+<lb ed="#L" n="35"/>est Deus, quia a nullo istorum nominum 
+expri<lb break="no" ed="#L" n="36"/>mitur quid est Deus perfecte: sed unumquodque
+<lb ed="#L" n="37"/>imperfecte eum significat, sicut et creaturae 
+im<lb break="no" ed="#L" n="38"/>perfecte eum repraesentant.
+</p>
+               <p xml:id="TAca84-d1e113-d1e742">
+                  <lb ed="#L" n="39"/>AD SECUNDUM DICENDUM quod in significatione
+<lb ed="#L" n="40"/>nominum, aliud est quandoque a quo imponitur
+<lb ed="#L" n="41"/>nomen ad significandum, et id ad quod 
+signifi<lb break="no" ed="#L" n="42"/>candum nomen imponitur: sicut hoc nomen /apis
+<lb ed="#L" n="43"/>imponitur ab eo quod laedit pedem, non tamen
+<lb ed="#L" n="44"/>imponitur ad hoc significandum quod significet
+<lb ed="#L" n="45"/>laedens pedem, sed ad significandam quandam
+<lb ed="#L" n="46"/>speciem corporum; alioquin omne laedens pedem
+<lb ed="#L" n="47"/>esset lapis. Sic igitur dicendum est quod 
+huius<lb break="no" ed="#L" n="48"/>modi divina nomina imponuntur quidem a 
+pro<lb break="no" ed="#L" n="49"/>cessibus deitatis: sicut enim secundum diversos
+<lb ed="#L" n="50"/>processus perfectionum, creaturae Deum 
+reprae<lb break="no" ed="#L" n="51"/>sentant, licet imperfecte; ita intellectus noster,
+<lb ed="#L" n="52"/>secundum unumquemque processum, Deum 
+co<lb break="no" ed="#L" n="53"/>gnoscit et nominat. Sed tamen haec nomina non.
+<lb ed="#L" n="54"/>imponit ad significandum ipsos processus, ut, cum
+<lb ed="#L" n="55"/>dicitur Deus est vivens, sit sensus, ab eo? 
+pro<lb break="no" ed="#L" n="56"/>cedit vita: sed ad significandum ipsum rerum
+<lb ed="#L" n="57"/>principium, prout in eo praeexistit vita, licet 
+emi<lb break="no" ed="#L" n="58"/>nentiori modo quam intelligatur vel significetur.
+</p>
+               <p xml:id="TAca84-d1e113-d1e788">
+                  <lb ed="#L" n="59"/>Ab TERTIUM DICENDUM quod essentiam Dei in
+<lb ed="#L" n="60"/>hac vita cognoscere non possumus secundum
+<lb ed="#L" n="61"/>quod in se est: sed cognoscimus eam secundum
+<lb ed="#L" n="62"/>quod repraesentatur in perfectionibus 
+creatura<lb break="no" ed="#L" n="63"/>rum. Et sic nomina a nobis imposita eam 
+si<lb break="no" ed="#L" n="64"/>gnificant.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e113-Dd1e805"><!-- p1-q13-a3 -->
+               <head xml:id="TAca84-d1e113-Hd1e808">Articulus 3</head>
+               <head xml:id="TAca84-d1e113-Hd1e810" type="question-title">utrum aliquod nomen dicatur de deo proprie</head>
+               <p xml:id="TAca84-d1e113-d1e813">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>ARTICULUS TERTIUS
+<lb ed="#L" n="20"/>UTRUM ALIQUOD NOMEN DICATUR DE DEO PROPRIE
+</p>
+               <p xml:id="TAca84-d1e113-d1e822">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="21"/>AD TERTIUM SIC PROCEDITUR. . Videtur quod
+<lb ed="#L" n="22"/>nullum. nomen dicatur de Deo proprie.
+<lb ed="#L" n="23"/>Omnia enim nomina quae de Deo 
+dici<lb break="no" ed="#L" n="24"/>mus, sunt a creaturis accepta, ut dictum
+<lb ed="#L" n="25"/>est. Sed nomina creaturarum metaphorice 
+di<lb break="no" ed="#L" n="26"/>cuntur de Deo, sicut cum dicitur Deus est lapis,
+<lb ed="#L" n="27"/>vel /eo, vel aliquid huiusmodi. Ergo omnia 
+no<lb break="no" ed="#L" n="28"/>mina dicta de Deo, dicuntur metaphorice.
+</p>
+               <p xml:id="TAca84-d1e113-d1e844">
+                  <lb ed="#L" n="29"/>2. PRAETEREA, nullum nomen proprie dicitur
+<lb ed="#L" n="30"/>de aliquo, a quo verius rerhovetur quam de eo
+<lb ed="#L" n="31"/>praedicetur. Sed omnia huiusmodi nomina, bonus,
+<lb ed="#L" n="32"/>sapiens, et similia, verius removentur a Deo quam
+<lb ed="#L" n="33"/>de eo praedicentur, ut patet per Dionysium, ii cap.
+<lb ed="#L" n="34"/>Cael. Hier. Ergo nullum istorum nominum 
+pro<lb break="no" ed="#L" n="35"/>prie dicitur de Deo.
+</p>
+               <p xml:id="TAca84-d1e113-d1e863">
+                  <lb ed="#L" n="36"/>3. PRAETEREA, nomina corporum non dicuntur
+<lb ed="#L" n="37"/>de Deo nisi metaphorice, cum sit incorporeus.
+<lb ed="#L" n="38"/>Sed omnia huiusmodi nomina implicant quasdam
+<lb ed="#L" n="39"/>corporales conditiones: significant enim cum 
+tem<lb break="no" ed="#L" n="40"/>pore, et cum compositione, et cum aliis 
+huius<lb break="no" ed="#L" n="41"/>modi, quae sunt conditiones corporum. Ergo
+<lb ed="#L" n="42"/>omnia huiusmodi nomina dicuntur de Deo 
+me<lb break="no" ed="#L" n="43"/>taphorice.
+</p>
+               <p xml:id="TAca84-d1e113-d1e883">
+                  <lb ed="#L" n="44"/>SEp coNTRA EsT quod dicit Ambrosius, in lib. II
+<lb ed="#L" n="45"/>de Fide?: Sunt quaedam nomina, quae 
+eviden<lb break="no" ed="#L" n="46"/>ler proprietatem divinitatis ostendunt; et quaedam
+<lb ed="#L" n="47"/>quae perspicuam divinae maiestatis exprimunt 
+ve<lb break="no" ed="#L" n="48"/>ritatem; alia vero sunt, quae translative per 
+simili<lb break="no" ed="#L" n="49"/>tudinem de Deo dicuntur. Non igitur omnia 
+no<lb break="no" ed="#L" n="50"/>mina dicuntur de Deo metaphorice, sed aliqua
+<lb ed="#L" n="51"/>dicuntur proprie.
+</p>
+               <p xml:id="TAca84-d1e113-d1e903">
+                  <lb ed="#L" n="52"/>REsPONDEO DICENDUM quod, sicut dictum est
+<lb ed="#L" n="53"/>Deum cognoscimus ex perfectionibus 
+procedenti<lb break="no" ed="#L" n="54"/>bus in creaturas ab ipso; quae quidem 
+perfectio<lb break="no" ed="#L" n="55"/>nes in Deo sunt secundum eminentiorem modum
+<lb ed="#L" n="56"/>quam in creaturis. Intellectus autem noster eo
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="57"/>modo apprehendit eas, secundum quod sunt in
+<lb ed="#L" n="58"/>creaturis: et secundum quod apprehendit, ita 
+si<lb break="no" ed="#L" n="59"/>gnificat per nomina. In nominibus igitur quae
+<lb ed="#L" n="60"/>Deo attribuimus, est duo considerare: scilicet, 
+per<lb break="no" ed="#L" n="61"/>fectiones ipsas significatas, ut bonitatem, vitam,
+<lb ed="#L" n="62"/>et huiusmodi; et modum significandi. Quantum
+<lb ed="#L" n="63"/>igitur ad id quod significant huiusmodi nomina,
+<lb ed="#L" n="64"/>proprie competunt Deo, et magis proprie quam
+<lb ed="#L" n="65"/>ipsis creaturis, et per prius dicuntur de eo. 
+Quan<lb break="no" ed="#L" n="66"/>tum vero ad modum significandi, non proprie
+<lb ed="#L" n="67"/>dicuntur de Deo: habent enim modum 
+signifi<lb break="no" ed="#L" n="68"/>candi qui ? creaturis competit.
+</p>
+               <p xml:id="TAca84-d1e113-d1e945">
+                  <lb ed="#L" n="69"/>AD PRIMUM ERGO DICENDUM quod quaedam 
+no<lb break="no" ed="#L" n="70"/>mina significant huiusmodi perfectiones a Deo
+<lb ed="#L" n="71"/>procedentes in res creatas, hoc modo quod i ipse
+<lb ed="#L" n="72"/>modus imperfectus quo a creatura participatur
+<lb ed="#L" n="73"/>divina perfectio, in ipso nominis significato 
+in<lb break="no" ed="#L" n="74"/>cluditur, sicut /apis significat aliquid materialiter
+<lb ed="#L" n="75"/>ens: et huiusmodi nomina non possunt attribui
+<lb ed="#L" n="76"/>Deo nisi metaphorice. Quaedam vero nomina
+<lb ed="#L" n="77"/>significant ipsas perfectiones absolute, absque hoc
+<lb ed="#L" n="78"/>quod aliquis modus participandi claudatur in
+<lb ed="#L" n="79"/>eorum significatione, ut ens, bonum, vivens, et
+<lb ed="#L" n="80"/>huiusmodi: et talia proprie dicuntur de Deo.
+</p>
+               <p xml:id="TAca84-d1e113-d1e974">
+                  <lb ed="#L" n="81"/>AD SECUNDUM DICENDUM quod ideo huiusmodi
+<lb ed="#L" n="82"/>nomina dicit Dionysius negari a Deo, quia id
+<lb ed="#L" n="83"/>quod significatur per nomen, non convenit eo
+<lb ed="#L" n="84"/>modo ei, quo nomen significat, sed excellentiori
+<lb ed="#L" n="85"/>modo. Unde ibidem dicit Dionysius quod Deus
+<lb ed="#L" n="86"/>est super omnem substantiam et vitam.
+</p>
+               <p xml:id="TAca84-d1e113-d1e990">
+                  <lb ed="#L" n="87"/>Ap TERTIUM DICENDUM quod ista nomina quae
+<lb ed="#L" n="88"/>proprie dicuntur de Deo, important conditiones
+<lb ed="#L" n="89"/>corporales, non in ipso significato nominis, sed
+<lb ed="#L" n="90"/>quantum ad modum significandi. Ea vero quae
+<lb ed="#L" n="91"/>metaphorice de Deo dicuntur, important 
+condi<lb break="no" ed="#L" n="92"/>tionem corporalem in ipso suo significato.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e113-Dd1e1007"><!-- p1-q13-a4 -->
+               <head xml:id="TAca84-d1e113-Hd1e1010">Articulus 4</head>
+               <head xml:id="TAca84-d1e113-Hd1e1012" type="question-title">utrum nomina dicta de deo sint nomina synonyma</head>
+               <p xml:id="TAca84-d1e113-d1e1015">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="65"/>ARTICULUS QUARTUS
+<lb ed="#L" n="66"/>UTRUM NOMINA DICTA DE DEO SINT NOMINA SYNONYMA
+</p>
+               <p xml:id="TAca84-d1e113-d1e1024">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="67"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="68"/>ista nomina dicta de Deo, sint nomina
+<lb ed="#L" n="69"/>synonyma. Synonyma enim nomina 
+di<lb break="no" ed="#L" n="70"/>cuntur, quae omnino idem significant.
+<lb ed="#L" n="71"/>Sed i ista nomina dicta de Deo, omnino idem  
+si<lb break="no" ed="#L" n="72"/>gnificant in Deo: quia bonitas Dei est eius 
+essen<lb break="no" ed="#L" n="73"/>tia; et similiter sapientia. Ergo ista nomina sunt
+<lb ed="#L" n="74"/>omnino synonyma.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1046">
+                  <lb ed="#L" n="75"/>2. Si dicatur quod ista nomina significant idem
+<lb ed="#L" n="76"/>secundum rem ^, sed secundum rationes diversas,
+<lb ed="#L" n="77"/>contra: Ratio cui non respondet aliquid in re, est
+<lb ed="#L" n="78"/>vana; si ergo istae rationes sunt multae, et res est
+<lb ed="#L" n="79"/>una, videtur quod rationes istae sint vanae.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1060">
+                  <lb ed="#L" n="80"/>3. PRAETEREA, magis est unum quod est unum
+<lb ed="#L" n="81"/>re et ratione, quam quod est unum re et multiplex
+<lb ed="#L" n="82"/>ratione. Sed Deus est maxime unus. Ergo videtur
+<lb ed="#L" n="83"/>quod non sit unus re et multiplex ratione. Et sic
+<lb ed="#L" n="84"/>nomina dicta de Deo non significant rationes
+<lb ed="#L" n="85"/>diversas: et ita sunt synonyma.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1076">
+                  <lb ed="#L" n="86"/>SED coNTRA, omnia synonyma, sibi invicem
+<lb ed="#L" n="87"/>adiuncta, nugationem adducunt, sicut si dicatur
+<lb ed="#L" n="88"/>vestis indumentum. Si igitur omnia nomina dicta
+<lb ed="#L" n="89"/>de Deo sunt synonyma, non posset convenienter
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="90"/>dici Deus bonus, vel aliquid huiusmodi; cum 
+ta<lb break="no" ed="#L" n="91"/>men scriptum sit lerem. xxxi: Fortissime, 
+ma<lb break="no" ed="#L" n="92"/>gne, potens, Dominus exercituum nomen tibi.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1096">
+                  <lb ed="#L" n="93"/>RESPONDEO DICENDUM quod huiusmodi nomina
+<lb ed="#L" n="94"/>dicta de Deo, non sunt synonyma. Quod quidem
+<lb ed="#L" n="95"/>facile esset videre, si diceremus quod huiusmodi
+<lb ed="#L" n="96"/>nomina sunt inducta ad removendum, vel ad 
+de<lb break="no" ed="#L" n="97"/>signandum ? habitudinem causae respectu 
+creatu<lb break="no" ed="#L" n="98"/>rarum: sic enim essent diversae rationes horum
+<lb ed="#L" n="99"/>nominum secundum diversa negata, vel secundum
+<lb ed="#L" n="100"/>diversos effectus connotatos. Sed secundum quod
+<lb ed="#L" n="101"/>dictum est huiusmodi nomina substantiam 
+di<lb break="no" ed="#L" n="102"/>vinam significare, licet imperfecte, etiam plane
+<lb ed="#L" n="103"/>apparet, secundum praemissa, quod habent 
+ra<lb break="no" ed="#L" n="104"/>tiones diversas. Ratio enim quam significat nomen,
+<lb ed="#L" n="105"/>est conceptio intellectus de re significata per 
+no<lb break="no" ed="#L" n="106"/>men. Intellectus autem noster, cum cognoscat
+<lb ed="#L" n="107"/>Deum ex creaturis, format ad intelligendum
+<lb ed="#L" n="108"/>Deum conceptiones proportionatas perfectionibus
+<lb ed="#L" n="109"/>procedentibus a Deo in creaturas. Quae quidem
+<lb ed="#L" n="110"/>perfectiones in Deo praeexistunt unite et 
+simpli<lb break="no" ed="#L" n="111"/>citer: in creaturis vero recipiuntur divise et 
+mul<lb break="no" ed="#L" n="112"/>tipliciter. Sicut igitur diversis perfectionibus crea-
+</p>
+               <p xml:id="TAca84-d1e113-d1e1142">
+                  <pb ed="#L" n="148"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>turarum respondet unum simplex principium,
+<lb ed="#L" n="2"/>repraesentatum per diversas perfectiones 
+creatu<lb break="no" ed="#L" n="3"/>rarum varie et multipliciter; ita variis et 
+multi<lb break="no" ed="#L" n="4"/>plicibus conceptibus intellectus nostri respondet
+<lb ed="#L" n="5"/>unum omnino simplex, secundum huiusmodi 
+con<lb break="no" ed="#L" n="6"/>ceptiones imperfecte intellectum. Et ideo nomina
+<lb ed="#L" n="7"/>Deo attributa, licet significent unam rem, tamen,
+<lb ed="#L" n="8"/>quia significant eam sub rationibus multis et
+<lb ed="#L" n="9"/>diversis, non sunt synonyma.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1168">
+                  <lb ed="#L" n="10"/>Et sic PATET SOLUTIO AD PRIMUM: quia nomina
+<lb ed="#L" n="11"/>synonyma dicuntur, quae significant unum 
+secun<lb break="no" ed="#L" n="12"/>dum unam rationem. Quae enim " significant 
+ra<lb break="no" ed="#L" n="13"/>tiones diversas unius rei, non primo et per se
+<lb ed="#L" n="14"/>unum significant: quia nomen non significat rem,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="15"/>nisi mediante conceptione intellectus, ut dictum
+<lb ed="#L" n="16"/>est.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1188">
+                  <lb ed="#L" n="17"/>AD SECUNDUM DICENDUM quod Fatiofes plures
+<lb ed="#L" n="18"/>horum nominum non sunt cassae et vanae: quia
+<lb ed="#L" n="19"/>omnibus eis respondet unum quid simplex, per
+<lb ed="#L" n="20"/>omnia huiusmodi multipliciter et imperfecte 
+re<lb break="no" ed="#L" n="21"/>praesentatum.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1202">
+                  <lb ed="#L" n="22"/>AD TERTIUM DICENDUM quod hoc ipsum ad 
+per<lb break="no" ed="#L" n="23"/>fectam Dei unitatem pertinet, quod ea quae sunt
+<lb ed="#L" n="24"/>multipliciter et divisim in aliis, in ipso sunt 
+sim<lb break="no" ed="#L" n="25"/>pliciter et unite. Et ex hoc contingit quod est
+<lb ed="#L" n="26"/>unus re et plures secundum rationem ': quia 
+in<lb break="no" ed="#L" n="27"/>tellectus noster ita multipliciter apprehendit eum,
+<lb ed="#L" n="28"/>sicut res multipliciter ipsum repraesentant.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e113-Dd1e1221"><!-- p1-q13-a5 -->
+               <head xml:id="TAca84-d1e113-Hd1e1224">Articulus 5</head>
+               <head xml:id="TAca84-d1e113-Hd1e1226" type="question-title">
+  utrum ea quae de deo dicuntur et creaturis, univoce dicantur de ipsis
+</head>
+               <p xml:id="TAca84-d1e113-d1e1229">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="9"/>ARTICULUS QUINTUS
+<lb ed="#L" n="10"/>UTRUM EA QUAE DE DEO DICUNTUR ET CREATURIS, UNIVOCE DICANTUR DE IPSIS
+</p>
+               <p xml:id="TAca84-d1e113-d1e1238">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11"/>AD QUINTUM sic proceditur. Videtur quod
+<lb ed="#L" n="12"/>ea quae dicuntur de Deo et creaturis,
+<lb ed="#L" n="13"/>univoce de ipsis dicantur. Omne enim
+<lb ed="#L" n="14"/>aequivocum reducitur ad univocum,
+<lb ed="#L" n="15"/>sicut multa ad unum. Nam si hoc nomen canis
+<lb ed="#L" n="16"/>aequivoce dicitur de latrabili et marino, oportet
+<lb ed="#L" n="17"/>quod de aliquibus univoce dicatur, scilicet de
+<lb ed="#L" n="18"/>omnibus latrabilibus: aliter enim esset procedere
+<lb ed="#L" n="19"/>in infinitum. Inveniuntur autem quaedam agentia
+<lb ed="#L" n="20"/>univoca, quae conveniunt cum suis effectibus in
+<lb ed="#L" n="21"/>nomine et definitione, ut homo generat hominem;
+<lb ed="#L" n="22"/>quaedam vero agentia aequivoca, sicut sol causat
+<lb ed="#L" n="23"/>calidum, cum tamen ipse non sit calidus nisi
+<lb ed="#L" n="24"/>aequivoce. Videtur igitur quod primum agens, ad
+<lb ed="#L" n="25"/>quod omnia agentia reducuntur, sit agens 
+univo<lb break="no" ed="#L" n="26"/>cum. Et ita, quae de Deo et creaturis dicuntur,
+<lb ed="#L" n="27"/>univoce praedicantur.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1280">
+                  <lb ed="#L" n="28"/>2. PRAETEREA, secundum aequivoca non 
+atten<lb break="no" ed="#L" n="29"/>ditur aliqua similitudo. Cum igitur creaturae ad
+<lb ed="#L" n="30"/>Deum sit aliqua similitudo, secundum illud. 
+Ge<lb break="no" ed="#L" n="31"/>nes. 1: Faciamus hominem ad imaginem et 
+simi<lb break="no" ed="#L" n="32"/>litudinem nostram, videtur quod aliquid univoce
+<lb ed="#L" n="33"/>de Deo et creaturis dicatur.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1297">
+                  <lb ed="#L" n="34"/>3. PRAETEREA, mensura est homogenea 
+mensu<lb break="no" ed="#L" n="35"/>rato, ut dicitur in X Metaphys. Sed Deus est
+<lb ed="#L" n="36"/>prima mensura omnium entium, ut ibidem dicitur.
+<lb ed="#L" n="37"/>Ergo Deus est homogeneus creaturis. Et ita 
+ali<lb break="no" ed="#L" n="38"/>quid univoce de Deo et creaturis dici potest ^.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1310">
+                  <lb ed="#L" n="39"/>SED. coNTRA, quidquid praedicatur de aliquibus
+<lb ed="#L" n="40"/>secundum idem nomen et non secundum eandem
+<lb ed="#L" n="41"/>rationem, praedicatur de eis aequivoce. Sed 
+nul<lb break="no" ed="#L" n="42"/>lum nomen convenit Deo secundum illam 
+ratio<lb break="no" ed="#L" n="43"/>nem, secundum quam dicitur de creatura: nam
+<lb ed="#L" n="44"/>sapientia in creaturis est qualitas, non autem in
+<lb ed="#L" n="45"/>Deo; genus autem variatum mutat rationem, cum
+<lb ed="#L" n="46"/>sit pars definitionis. Et eadem ratio est in aliis.
+<lb ed="#L" n="47"/>Quidquid ergo de Deo et creaturis dicitur, 
+aequi<lb break="no" ed="#L" n="48"/>voce dicitur.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1334">
+                  <lb ed="#L" n="49"/>PnaETEREA, Deus plus distat a creaturis, quam
+<lb ed="#L" n="50"/>quaecumque creaturae ab invicem. Sed propter 
+di<lb break="no" ed="#L" n="51"/>stantiam quarundam creaturarum, contingit quod
+<lb ed="#L" n="52"/>nihil univoce de eis praedicari potest; sicut de
+<lb ed="#L" n="53"/>his quae non conveniunt in aliquo genere. Ergo
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="54"/>multo minus de Deo et creaturis aliquid univoce
+<lb ed="#L" n="55"/>praedicatur: sed omnia praedicantur aequivoce.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1354">
+                  <lb ed="#L" n="56"/>RrEsPONDEO DICENDUM quod impossibile est 
+ali<lb break="no" ed="#L" n="57"/>quid praedicari de Deo et creaturis univoce. Quia
+<lb ed="#L" n="58"/>omnis effectus non adaequans virtutem causae
+<lb ed="#L" n="59"/>agentis, recipit similitudinem agentis non 
+secun<lb break="no" ed="#L" n="60"/>dum eandem rationem, sed deficienter: ita ut ?
+<lb ed="#L" n="61"/>quod divisim et multipliciter est in effectibus, in
+<lb ed="#L" n="62"/>causa est simpliciter et eodem modo; sicut sol
+<lb ed="#L" n="63"/>secundum unam virtutem, multiformes et varias
+<lb ed="#L" n="64"/>formas in istis inferioribus producit. Eodem modo,
+<lb ed="#L" n="65"/>ut supra dictum est, omnes rerum perfectiones,
+<lb ed="#L" n="66"/>quae sunt in rebus creatis divisim et multipliciter,
+<lb ed="#L" n="67"/>in Deo praeexistunt unite. Sic igitur, cum aliquod
+<lb ed="#L" n="68"/>nomen ad perfectionem pertinens de creatura 
+di<lb break="no" ed="#L" n="69"/>citur, significat illam perfectionem ut distinctam ?
+<lb ed="#L" n="70"/>secundum rationem definitionis ab aliis: puta
+<lb ed="#L" n="71"/>cum hoc nomen sapiens de homine dicitur, 
+signi<lb break="no" ed="#L" n="72"/>ficamus aliquam perfectionem distinctam ab. 
+es<lb break="no" ed="#L" n="73"/>sentia hominis, et a potentia et ab esse ipsius, et
+<lb ed="#L" n="74"/>ab omnibus huiusmodi. Sed cum hoc nomen de
+<lb ed="#L" n="75"/>Deo dicimus, non intendimus significare aliquid
+<lb ed="#L" n="76"/>distinctum ab essentia vel potentia vel esse ipsius.
+<lb ed="#L" n="77"/>Et sic, cum hoc nomen sapiens de homine dicitur,
+<lb ed="#L" n="78"/>quodammodo circumscribit et comprehendit rem
+<lb ed="#L" n="79"/>significatam: non autem cum dicitur de Deo, sed
+<lb ed="#L" n="80"/>relinquit rem significatam ut incomprehensam, et
+<lb ed="#L" n="81"/>excedentem nominis significationem. Unde patet
+<lb ed="#L" n="82"/>quod non secundum eandem rationem hoc 
+no<lb break="no" ed="#L" n="83"/>men sapiens de Deo et de homine dicitur. Et
+<lb ed="#L" n="84"/>eadem ratio est de aliis: Unde nullum nomen
+<lb ed="#L" n="85"/>univoce de Deo et creaturis praedicatur.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1422">
+                  <lb ed="#L" n="86"/>Sed nec etiam pure aequivoce, ut aliqui 
+dixe<lb break="no" ed="#L" n="87"/>runt. Quia secundum hoc, ex creaturis nihil 
+pos<lb break="no" ed="#L" n="88"/>set cognosci de Deo, nec demonstrari; sed semper
+<lb ed="#L" n="89"/>incideret fallacia Aequivocationis. Et hoc est tam
+<lb ed="#L" n="90"/>contra philosophos, qui multa demonstrative de
+<lb ed="#L" n="91"/>Deo probant ", quam etiam. contra Apostolum
+<lb ed="#L" n="92"/>dicentem, : .Rom. 1: <quote xml:id="TAca84-d1e113-Qd1e1439">invisibilia Dei per ea quae
+<lb ed="#L" n="93"/>facta sunt, intellecta, conspiciuntur</quote>.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1445">
+                  <lb ed="#L" n="94"/>Dicendum est igitur quod huiusmodi nomina
+<lb ed="#L" n="95"/>dicuntur de Deo et creaturis secundum 
+analo<lb break="no" ed="#L" n="96"/>giam, idest proportionem. Quod quidem dupli-
+<pb ed="#L" n="150"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>citer contingit in nominibus: vel quia multa 
+ha<lb break="no" ed="#L" n="2"/>bent proportionem ad unum, sicut sanum dicitur
+<lb ed="#L" n="3"/>de medicina et urina, inquantum utrumque habet
+<lb ed="#L" n="4"/>ordinem et proportionem ad sanitatem animalis,
+<lb ed="#L" n="5"/>cuius hoc quidem signum est, illud vero causa;
+<lb ed="#L" n="6"/>vel ex eo quod unum habet proportionem ad 
+alte<lb break="no" ed="#L" n="7"/>rum, sicut sanum dicitur de medicina et animali,
+<lb ed="#L" n="8"/>inquantum medicina est causa sanitatis quae est in
+<lb ed="#L" n="9"/>animali. Et hoc modo aliqua dicuntur de Deo et
+<lb ed="#L" n="10"/>creaturis analogice, et non aequivoce pure, neque
+<lb ed="#L" n="11"/>univoce. Non enim possumus nominare Deum
+<lb ed="#L" n="12"/>nisi ex creaturis, ut supra dictum est. Et sic,
+<lb ed="#L" n="13"/>quidquid dicitur de Deo et creaturis, dicitur 
+se<lb break="no" ed="#L" n="14"/>cundum quod est aliquis ordo creaturae ad Deum,
+<lb ed="#L" n="15"/>ut ad principium et causam, in qua praeexistunt
+<lb ed="#L" n="16"/>excellenter omnes rerum perfectiones.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1494">
+                  <lb ed="#L" n="17"/>Et iste modus communitatis medius est inter
+<lb ed="#L" n="18"/>puram aequivocationem et simplicem 
+univocatio<lb break="no" ed="#L" n="19"/>nem. Neque enim in his quae analogice dicuntur,
+<lb ed="#L" n="20"/>est una ratio, sicut est in univocis; nec totaliter
+<lb ed="#L" n="21"/>diversa, sicut in aequivocis; sed nomen quod sic
+<lb ed="#L" n="22"/>multipliciter dicitur, significat diversas 
+proportio<lb break="no" ed="#L" n="23"/>nes ad aliquid unum ; sicut sanum, de urina
+<lb ed="#L" n="24"/>dictum, significat signum sanitatis animalis ^, de
+<lb ed="#L" n="25"/>medicina vero dictüm, significat causam eiusdem
+<lb ed="#L" n="26"/>sanitatis.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1518">
+                  <lb ed="#L" n="27"/>AD PRIMUM ERGO DICENDUM quod, licet in 
+praedi<lb break="no" ed="#L" n="28"/>cationibus oporteat aequivoca ad univoca ' reduci,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="29"/>tamen in actionibus agens non univocum ex 
+neces<lb break="no" ed="#L" n="30"/>sitate praecedit agens univocum. Agens enim non
+<lb ed="#L" n="31"/>univocum est causa universalis totius speciei, ut sol
+<lb ed="#L" n="32"/>est causa generationis omnium hominum. Agens
+<lb ed="#L" n="33"/>vero univocum non est causa agens universalis
+<lb ed="#L" n="34"/>totius speciei (alioquin esset causa sui ipsius, cum
+<lb ed="#L" n="35"/>sub specie contineatur): sed est causa particularis
+<lb ed="#L" n="36"/>respectu huius individui, quod in participatione
+<lb ed="#L" n="37"/>speciei constituit ^. Causa igitur universalis totius
+<lb ed="#L" n="38"/>speciei non est agens univocum 7. Causa autem
+<lb ed="#L" n="39"/>universalis est prior particulari.- Hoc autem agens
+<lb ed="#L" n="40"/>universale, licet non sit univocum, non tamen est
+<lb ed="#L" n="41"/>omnino aequivocum, quia sic non faceret sibi
+<lb ed="#L" n="42"/>simile; sed potest dici agens analogicum ^: sicut
+<lb ed="#L" n="43"/>in praedicationibus omnia univoca reducuntur ad
+<lb ed="#L" n="44"/>unum primum, non univocum, sed analogicum,
+<lb ed="#L" n="45"/>quod est ens.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1564">
+                  <lb ed="#L" n="46"/>AD SECUNDUM DICENDUM quod similitudo. 
+creatu<lb break="no" ed="#L" n="47"/>rae ad Deum ' est imperfecta: quia etiam nec idem
+<lb ed="#L" n="48"/>secundum genus repraesentat, ut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1573">
+                  <lb ed="#L" n="49"/>An TERTIUM DICENDUM quod Deus non est 
+men<lb break="no" ed="#L" n="50"/>sura proportionata mensuratis. Unde non oportet
+<lb ed="#L" n="51"/>quod Deus et creaturae sub uno genere 
+conti<lb break="no" ed="#L" n="52"/>neantur.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1584">
+                  <lb ed="#L" n="53"/>Ea vero quae sunt in contrarium, concludunt
+<lb ed="#L" n="54"/>quod non univoce huiusmodi nomina de Deo et
+<lb ed="#L" n="55"/>creaturis praedicentur: non autem quod 
+aequi<lb break="no" ed="#L" n="56"/>voce.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e113-Dd1e1596"><!-- p1-q13-a6 -->
+               <head xml:id="TAca84-d1e113-Hd1e1599">Articulus 6</head>
+               <head xml:id="TAca84-d1e113-Hd1e1601" type="question-title">utrum nomina per prius dicantur de creaturis quam de deo</head>
+               <p xml:id="TAca84-d1e113-d1e1604">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>ARTICULUS SEXTUS
+<lb ed="#L" n="8"/>UTRUM NOMINA PER PRIUS DICANTUR DE CREATURIS QUAM DE DEO
+</p>
+               <p xml:id="TAca84-d1e113-d1e1613">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="9"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="10"/>nomina per prius dicantur de creaturis
+<lb ed="#L" n="11"/>AULA quam de Deo. Secundum enim quod
+<lb ed="#L" n="12"/>BN cognoscimus aliquid, secundum hoc 
+il<lb break="no" ed="#L" n="13"/>lud nominamus; cum nomina, secundum 
+Philo<lb break="no" ed="#L" n="14"/>sophum, sint signa intellectuum.. Sed per prius
+<lb ed="#L" n="15"/>cognoscimus creaturam quam Deum. Ergo 
+no<lb break="no" ed="#L" n="16"/>mina a nobis imposita, per prius conveniunt 
+crea<lb break="no" ed="#L" n="17"/>turis quam Deo.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1637">
+                  <lb ed="#L" n="18"/>2. PRAETEREA, secundum Dionysium, in libro
+<lb ed="#L" n="19"/>de Div. Nom., Deum ex creaturis nominamus.
+<lb ed="#L" n="20"/>Sed nomina a creaturis translata in Deum, per
+<lb ed="#L" n="21"/>prius dicuntur de creaturis quam de Deo; sicut
+<lb ed="#L" n="22"/>leo, lapis, et huiusmodi. Ergo omnia nomina quae
+<lb ed="#L" n="23"/>de Deo et de creaturis dicuntur ^, per prius de
+<lb ed="#L" n="24"/>creaturis quam de Deo dicuntur.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1656">
+                  <lb ed="#L" n="25"/>3. PRAETEREA, omnia nomina quae communiter
+<lb ed="#L" n="26"/>de Deo et creaturis dicuntur, dicuntur de Deo
+<lb ed="#L" n="27"/>sicut de causa omnium, ut dicit Dionysius. Sed
+<lb ed="#L" n="28"/>quod dicitur de aliquo per causam, per posterius
+<lb ed="#L" n="29"/>de illo dicitur: per prius enim dicitur animal 
+sa<lb break="no" ed="#L" n="30"/>num quam medicina, quae est causa sanitatis.
+<lb ed="#L" n="31"/>Ergo huiusmodi nomina per prius dicuntur de
+<lb ed="#L" n="32"/>creaturis quam de Deo.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1676">
+                  <lb ed="#L" n="33"/>SED CONTRA EST quod dicitur Ephes. m: Flecto
+<lb ed="#L" n="34"/>genua mea ad Patrem Domini nostri Iesu, ex quo
+<lb ed="#L" n="35"/>omnis paternitas in caelo et in terra nominatur.
+<lb ed="#L" n="36"/>Et eadem ratio videtur de nominibus aliis quae
+<lb ed="#L" n="37"/>de Deo et creaturis dicuntur. Ergo huiusmodi 
+no<lb break="no" ed="#L" n="38"/>mina per prius de Deo quam de creaturis dicuntur.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1692">
+                  <lb ed="#L" n="39"/>RESPONDEO DICENDUM quod in omnibus 
+nomini<lb break="no" ed="#L" n="40"/>bus quae de pluribus analogice dicuntur, necesse
+<lb ed="#L" n="41"/>est quod omnia dicantur per respectum ad unum:
+<lb ed="#L" n="42"/>et ideo illud unum oportet quod ponatur in 
+defi<lb break="no" ed="#L" n="43"/>nitione omnium. Et quia ratio quam significat
+<lb ed="#L" n="44"/>nomen, est definitio, ut dicitur in IV Metaphys.,
+<lb ed="#L" n="45"/>necesse est quod illud nomen per prius ? dicatur
+<lb ed="#L" n="46"/>de eo quod ponitur in definitione aliorum, et
+<lb ed="#L" n="47"/>per posterius de aliis, secundum ordinem quo 
+ap<lb break="no" ed="#L" n="48"/>propinquant ad illud primum vel magis vel minus:
+<lb ed="#L" n="49"/>sicut sanum quod dicitur de animali, cadit in 
+defi<lb break="no" ed="#L" n="50"/>nitione sani quod dicitur de medicina, quae dicitur
+<lb ed="#L" n="51"/>sana inquantum causat sanitatem in animali; et in
+<lb ed="#L" n="52"/>definitione sani quod dicitur de urina, quae dicitur
+<lb ed="#L" n="53"/>sana inquantum est signum sanitatis animalis 5.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1727">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="54"/>Sic ergo omnia nomina quae metaphorice de
+<lb ed="#L" n="55"/>Deo dicuntur, per prius de creaturis dicuntur
+<lb ed="#L" n="56"/>quam de Deo: quia dicta de Deo, nihil aliud
+<lb ed="#L" n="57"/>significant quam similitudines " ad tales 
+creatu<lb break="no" ed="#L" n="58"/>ras. Sicut enim ridere, dictum de prato, nihil aliud
+<lb ed="#L" n="59"/>significat quam quod pratum similiter se habet
+<lb ed="#L" n="60"/>in decore cum floret, sicut homo cum ridet, 
+se<lb break="no" ed="#L" n="61"/>cundum similitudinem proportionis; sic nomen
+<lb ed="#L" n="62"/>leonis, dictum de Deo, nihil aliud significat quam
+<lb ed="#L" n="63"/>quod Deus similiter se habet ut fortiter operetur
+<lb ed="#L" n="64"/>in suis operibus, sicut leo in suis. Et sic patet
+<lb ed="#L" n="65"/>quod, secundum quod dicuntur de Deo, eorum
+<lb ed="#L" n="66"/>significatio definiri non potest, nisi per illud quod
+<lb ed="#L" n="67"/>de creaturis dicitur ^
+</p>
+               <p xml:id="TAca84-d1e113-d1e1762">
+                  <lb ed="#L" n="68"/>De aliis autem nominibus, quae non 
+metapho<lb break="no" ed="#L" n="69"/>rice dicuntur de Deo, esset etiam ' eadem ratio, si
+<lb ed="#L" n="70"/>dicerentur de Deo causaliter tantum, ut quidam
+<lb ed="#L" n="71"/>posuerunt. Sic enim, cum dicitur Deus est bonus,
+<lb ed="#L" n="72"/>nihil aliud esset quam JDeus est causa bonitatis
+<lb ed="#L" n="73"/>creaturae: et sic hoc nomen bonum, dictum de
+<lb ed="#L" n="74"/>Deo, clauderet in suo intellectu bonitatem 
+crea<lb break="no" ed="#L" n="75"/>turae. Unde bonum per prius diceretur de 
+crea<lb break="no" ed="#L" n="76"/>tura quam de Deo. Sed supra ostensum est quod
+<lb ed="#L" n="77"/>huiusmodi nomina non solum dicuntur de Deo
+<lb ed="#L" n="78"/>causalitér, sed etiam essentialiter. Cum enim 
+dici<lb break="no" ed="#L" n="79"/>tur Deus ? est bonus, vel sapiens, non solum 
+signi<lb break="no" ed="#L" n="80"/>ficatur quod ipse sit causa sapientiae vel 
+bonita<lb break="no" ed="#L" n="81"/>tis, sed quod haec in eo eminentius praeexistunt ^,
+<lb ed="#L" n="82"/>Unde, secundum hoc, dicendum est quod, 
+quan<lb break="no" ed="#L" n="83"/>tum ad rem significatam per nomen, per prius
+<lb ed="#L" n="84"/>dicuntur de Deo quam de creaturis: quia a Deo
+<lb ed="#L" n="85"/>huiusmodi perfectiones in creaturas manant. Sed
+<lb ed="#L" n="86"/>quantum ad impositionem nominis, per prius a
+<lb ed="#L" n="87"/>nobis imponuntur creaturis, quas prius 
+cognosci<lb break="no" ed="#L" n="88"/>mus, Unde et modum significandi habent qui
+<lb ed="#L" n="89"/>competit creaturis, ut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1812">
+                  <lb ed="#L" n="90"/>AD PRIMUM ERGO DICENDUM quod obiectio illa
+<lb ed="#L" n="91"/>procedit quantum ad impositionem nominis.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1820">
+                  <lb ed="#L" n="92"/>AD SECUNDUM DICENDUM quod non est eadem
+<lb ed="#L" n="93"/>ratio de nominibus quae metaphorice de Deo
+<lb ed="#L" n="94"/>dicuntur, et de aliis, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1829">
+                  <lb ed="#L" n="95"/>Ap TERTIUM DICENDUM quod obiectio illa 
+proce<lb break="no" ed="#L" n="96"/>deret, si huiusmodi nomina solum de Deo 
+cau<lb break="no" ed="#L" n="97"/>saliter dicerentur " et non essentialiter, sicut 
+sa<lb break="no" ed="#L" n="98"/>num de medicina.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e113-Dd1e1841"><!-- p1-q13-a7 -->
+               <head xml:id="TAca84-d1e113-Hd1e1844">Articulus 7</head>
+               <head xml:id="TAca84-d1e113-Hd1e1846" type="question-title">
+  utrum nomina quae important relationem ad creaturas,
+  dicantur de deo ex tempore
+</head>
+               <p xml:id="TAca84-d1e113-d1e1849">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="37"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="38"/>UTRUM NOMINA QUAE IMPORTANT RELATIONEM AD CREATURAS,
+<lb ed="#L" n="39"/>DICANTUR DE DEO EX TEMPORE
+</p>
+               <p xml:id="TAca84-d1e113-d1e1860">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="40"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="41"/>nomina quae important relationem ad
+<lb ed="#L" n="42"/>creaturas, non dicantur de Deo ex 
+tem<lb break="no" ed="#L" n="43"/>pore. Omnia enim huiusmodi nomina
+<lb ed="#L" n="44"/>significant divinam substantiam , ut communiter
+<lb ed="#L" n="45"/>dicitur. Unde et Ambrosius dicit quod hoc 
+no<lb break="no" ed="#L" n="46"/>men Dominus est nomen potestatis, quae est 
+di<lb break="no" ed="#L" n="47"/>vina substantia: et Creator significat Dei 
+actio<lb break="no" ed="#L" n="48"/>nem, quae est eius essentia. Sed divina substantia
+<lb ed="#L" n="49"/>non est temporalis, sed aeterna. Ergo huiusmodi
+<lb ed="#L" n="50"/>nomina non dicuntur de Deo ex tempore, sed
+<lb ed="#L" n="51"/>ab aeterno.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1891">
+                  <lb ed="#L" n="52"/>2. PRAETEREA, cuicumque convenit aliquid ex
+<lb ed="#L" n="53"/>tempore, potest dici factum: quod enim ex 
+tem<lb break="no" ed="#L" n="54"/>pore est album, fit album. Sed Deo non convenit
+<lb ed="#L" n="55"/>esse factum. Ergo de Deo nihil praedicatur ex
+<lb ed="#L" n="56"/>tempore.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1905">
+                  <lb ed="#L" n="57"/>3. PRAETEREA, si aliqua nomina dicuntur de Deo
+<lb ed="#L" n="58"/>ex tempore propter hoc quod important 
+relatio<lb break="no" ed="#L" n="59"/>nem ad creaturas, eadem ratio videtur de 
+omni<lb break="no" ed="#L" n="60"/>bus quae relationem ad creaturas important. Sed
+<lb ed="#L" n="61"/>quaedam nomina importantia relationem ad 
+crea<lb break="no" ed="#L" n="62"/>turas, dicuntur de Deo ? ab aeterno: ab aeterno
+<lb ed="#L" n="63"/>enim scivit creaturam et dilexit, secundum illud
+<lb ed="#L" n="64"/>lerem. xxxi, in caritate perpetua dilexi te. Ergo
+<lb ed="#L" n="65"/>et alia nomina quae important relationem ad 
+crea<lb break="no" ed="#L" n="66"/>turas, ut Dominus et Creator, dicuntur de Deo
+<lb ed="#L" n="67"/>ab aeterno.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1931">
+                  <lb ed="#L" n="68"/>4. PRAETEREA, huiusmodi nomina relationem
+<lb ed="#L" n="69"/>significant. Oportet igitur quod relatio illa vel sit
+<lb ed="#L" n="70"/>aliquid in Deo, vel in creatura tantum. Sed non
+<lb ed="#L" n="71"/>potest esse quod sit in creatura tantum: quia sic
+<lb ed="#L" n="72"/>Deus denominaretur Dominus a relatione 
+oppo<lb break="no" ed="#L" n="73"/>sita, quae est in creaturis; nihil autem 
+denomina<lb break="no" ed="#L" n="74"/>tur a suo opposito. Relinquitur ergo quod relatio
+<lb ed="#L" n="75"/>est etiam ? aliquid in Deo. Sed in Deo nihil potest
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="76"/>esse ex tempore, cum ipse sit supra tempus. Ergo
+<lb ed="#L" n="77"/>videtur quod huiusmodi nomina non dicantur de
+<lb ed="#L" n="78"/>Deo ex tempore.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1960">
+                  <lb ed="#L" n="79"/>5. PRAETEREA, secundum relationem dicitur 
+ali<lb break="no" ed="#L" n="80"/>quid relative: puta secundum dominium 
+domi<lb break="no" ed="#L" n="81"/>nus, sicut secundum albedinem albus. Si igitur
+<lb ed="#L" n="82"/>relatio dominii non est in Deo secundum rem,
+<lb ed="#L" n="83"/>sed solum secundum rationem, sequitur quod
+<lb ed="#L" n="84"/>Deus non sit realiter Dominus: quod patet esse
+<lb ed="#L" n="85"/>falsum.
+</p>
+               <p xml:id="TAca84-d1e113-d1e1978">
+                  <lb ed="#L" n="86"/>6. PRAETEREA, in relativis quae non sunt simul -
+<lb ed="#L" n="87"/>natura, unum potest esse, altero non existente:
+<lb ed="#L" n="88"/>sicut scibile existit, non existente scientia, ut 
+di<lb break="no" ed="#L" n="89"/>citur in Praedicamentis. Sed relativa quae 
+dicun<lb break="no" ed="#L" n="90"/>tur de Deo et creaturis, non sunt simul natura.
+<lb ed="#L" n="91"/>Ergo potest aliquid dici relative de Deo ad 
+crea<lb break="no" ed="#L" n="92"/>turam, etiam creatura non existente. Et sic 
+huius<lb break="no" ed="#L" n="93"/>modi nomina, Dominus et Creator, dicuntur de
+<lb ed="#L" n="94"/>Deo ab aeterno, et non ex tempore.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2000">
+                  <lb ed="#L" n="95"/>SED coNTRA EsT quod dicit Augustinus, V de
+<lb ed="#L" n="96"/>Trin., quod haec relativa appellatio Dominus
+<lb ed="#L" n="97"/>Deo convenit ex tempore. :
+</p>
+               <p xml:id="TAca84-d1e113-d1e2009">
+                  <lb ed="#L" n="98"/>RESPONDEO DICENDUM quod quaedam nomina
+<lb ed="#L" n="99"/>importantia relationem ad creaturam, ex tempore
+<lb ed="#L" n="100"/>de Deo dicuntur, et non ab aeterno.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2019">
+                  <lb ed="#L" n="101"/>Ad cuius evidentiam, sciendum est quod 
+qui<lb break="no" ed="#L" n="102"/>dam posuerunt relationem non esse rem naturae,
+<lb ed="#L" n="103"/>sed rationis tantum. Quod quidem apparet esse
+<lb ed="#L" n="104"/>falsum, ex hoc quod ipsae res naturalem 
+or<lb break="no" ed="#L" n="105"/>dinem et habitudinem habent ad invicem. 
+Ve<lb break="no" ed="#L" n="106"/>runtamen sciendum est quod, cum relatio 
+requi<lb break="no" ed="#L" n="107"/>rat duo extrema, tripliciter se habere potest ad
+<lb ed="#L" n="108"/>hoc quod sit res naturae et rationis. Quandoque
+<lb ed="#L" n="109"/>enim ex utraque parte est res rationis tantum ":
+<lb ed="#L" n="110"/>quando scilicet ordo vel habitudo non potest
+<lb ed="#L" n="111"/>esse inter aliqua, nisi secundum apprehensionem
+<pb ed="#L" n="156"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>rationis tantum, utpote cum dicimus idem eidem
+<lb ed="#L" n="2"/>idem. Nam secundum quod ratio apprehendit bis
+<lb ed="#L" n="3"/>aliquod unum, statuit illud ut duo; et sic 
+appre<lb break="no" ed="#L" n="4"/>hendit quandam habitudinem ipsius ad seipsum.
+<lb ed="#L" n="5"/>Et similiter est de omnibus relationibus quae
+<lb ed="#L" n="6"/>sunt inter ens et non ens; quas format ratio,
+<lb ed="#L" n="7"/>inquantum apprehendit non ens ut quoddam 
+ex<lb break="no" ed="#L" n="8"/>tremum. Et idem est de omnibus relationibus
+<lb ed="#L" n="9"/>quae consequuntur actum rationis, ut genus et
+<lb ed="#L" n="10"/>species, et huiusmodi.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2071">
+                  <lb ed="#L" n="11"/>Quaedam vero relationes sunt, quantum ad
+<lb ed="#L" n="12"/>utrumque extremum, res naturae: quando scilicet
+<lb ed="#L" n="13"/>est habitudo inter aliqua duo secundum aliquid
+<lb ed="#L" n="14"/>realiter conveniens utrique. Sicut patet de 
+omni<lb break="no" ed="#L" n="15"/>bus relationibus quae consequuntur quantitatem,
+<lb ed="#L" n="16"/>ut magnum et parvum, duplum et dimidium, et
+<lb ed="#L" n="17"/>huiusmodi: nam quantitas est in utroque 
+extre<lb break="no" ed="#L" n="18"/>morum. Et simile est de relationibus quae 
+con<lb break="no" ed="#L" n="19"/>sequuntur actionem et passionem, ut motivum et
+<lb ed="#L" n="20"/>mobile, pater et filius, et similia.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2095">
+                  <lb ed="#L" n="21"/>Quandoque vero relatio in uno extremorum
+<lb ed="#L" n="22"/>est res naturae, et in altero est res rationis 
+tan<lb break="no" ed="#L" n="23"/>tum. Et hoc contingit quandocumque duo extrema
+<lb ed="#L" n="24"/>non sunt unius ordinis. Sicut sensus et scientia
+<lb ed="#L" n="25"/>referuntur ad sensibile et scibile, quae quidem,
+<lb ed="#L" n="26"/>inquantum sunt res quaedam in esse naturali 
+exi<lb break="no" ed="#L" n="27"/>stentes, sunt extra ordinem esse sensibilis et 
+in<lb break="no" ed="#L" n="28"/>telligibilis: et ideo in scientia quidem et sensu
+<lb ed="#L" n="29"/>est relatio realis, secundum quod ordinantur ad
+<lb ed="#L" n="30"/>sciendum vel sentiendum res; sed res ipsae in
+<lb ed="#L" n="31"/>se consideratae, sunt extra ordinem huiusmodi.
+<lb ed="#L" n="32"/>Unde in eis non est aliqua relatio realiter ad 
+scien<lb break="no" ed="#L" n="33"/>tiam et sensum; sed secundum rationem tantum,
+<lb ed="#L" n="34"/>inquantum intellectus apprehendit ea ut terminos
+<lb ed="#L" n="35"/>relationum scientiae et sensus. Unde Philosophus
+<lb ed="#L" n="36"/>dicit, in V Metaphys., quod non dicuntur 
+rela<lb break="no" ed="#L" n="37"/>tive eo quod ipsa referantur ad alia, sed quia
+<lb ed="#L" n="38"/>alia referuntur ad ipsa. Et similiter dextrum non
+<lb ed="#L" n="39"/>dicitur de columna, nisi inquantum ponitur 
+ani<lb break="no" ed="#L" n="40"/>mali ad dextram: unde huiusmodi relatio non
+<lb ed="#L" n="41"/>est realiter in columna, sed in animali.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2143">
+                  <lb ed="#L" n="42"/>Cum igitur Deus sit extra totum ordinem 
+crea<lb break="no" ed="#L" n="43"/>turae, et omnes creaturae ordinentur ad ipsum,
+<lb ed="#L" n="44"/>et non e converso, manifestum est quod creaturae
+<lb ed="#L" n="45"/>realiter referuntur ad ipsum Deum ; sed in Deo
+<lb ed="#L" n="46"/>non est aliqua realis relatio eius ad creaturas,
+<lb ed="#L" n="47"/>sed secundum rationem tantum, inquantum 
+crea<lb break="no" ed="#L" n="48"/>turae referuntur ad ipsum. Et sic nihil 
+prohi<lb break="no" ed="#L" n="49"/>bet huiusmodi nomina importantia relationem ad
+<lb ed="#L" n="50"/>creaturam, praedicari de Deo ex tempore: non
+<lb ed="#L" n="51"/>propter aliquam mutationem ipsius, sed propter
+<lb ed="#L" n="52"/>creaturae mutationem; sicut columna fit dextera
+<lb ed="#L" n="53"/>animali, nulla mutatione circa ipsam existente,
+<lb ed="#L" n="54"/>sed animali translato.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2174">
+                  <lb ed="#L" n="55"/>ÀD PRIMUM ERGO DICENDUM quod relativa 
+quae<lb break="no" ed="#L" n="56"/>dam sunt imposita ad significandum ipsas 
+habi<lb break="no" ed="#L" n="57"/>tudines relativas, ut dominus, servus, pater et
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="58"/>filius, et huiusmodi: et " haec dicuntur relativa
+<lb ed="#L" n="59"/>secundum esse. Quaedam vero sunt imposita ad
+<lb ed="#L" n="60"/>significandas res quas consequuntur quaedam 
+ha<lb break="no" ed="#L" n="61"/>bitudines, sicut movens et motum, caput et 
+ca<lb break="no" ed="#L" n="62"/>pitatum, et alia huiusmodi: quae dicuntur relativa
+<lb ed="#L" n="63"/>secundum dici. Sic igitur et circa nomina divina
+<lb ed="#L" n="64"/>haec differentia est consideranda. Nam 
+quae<lb break="no" ed="#L" n="65"/>dam significant ipsam habitudinem ad creaturam,
+<lb ed="#L" n="66"/>ut Dominus. Et huiusmodi non significant 
+sub<lb break="no" ed="#L" n="67"/>stantiam divinam directe, sed indirecte, 
+inquan<lb break="no" ed="#L" n="68"/>tum praesupponunt ipsam: sicut dominium 
+prae<lb break="no" ed="#L" n="69"/>supponit potestatem, quae est divina substantia.
+<lb ed="#L" n="70"/>Quaedam vero significant directe essentiam 
+di<lb break="no" ed="#L" n="71"/>vinam, et ex consequenti important habitudinem;
+<lb ed="#L" n="72"/>sicut Salvator, Creator, et huiusmodi, significant
+<lb ed="#L" n="73"/>actionem Dei, quae est eius essentia. Utraque
+<lb ed="#L" n="74"/>tamen nomina ex tempore de Deo dicuntur 
+quan<lb break="no" ed="#L" n="75"/>tum ad habitudinem quam important, vel 
+prin<lb break="no" ed="#L" n="76"/>cipaliter vel consequenter: non autem quantum
+<lb ed="#L" n="77"/>ad hoc quod significant essentiam, vel directe vel
+<lb ed="#L" n="78"/>indirecte.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2231">
+                  <lb ed="#L" n="79"/>AD SECUNDUM DICENDUM quod, sicut relationes
+<lb ed="#L" n="80"/>quae de Deo dicuntur ex tempore, non sunt in
+<lb ed="#L" n="81"/>Deo nisi secundum rationem, ita nec fieri nec
+<lb ed="#L" n="82"/>factum esse dicitur de Deo, nisi secundum 
+ratio<lb break="no" ed="#L" n="83"/>nem, nulla mutatione circa ipsum existente: sicut
+<lb ed="#L" n="84"/>est id, Domine refugium factus es nobis.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2248">
+                  <lb ed="#L" n="85"/>AD TERTIUM DICENDUM quod operatio intellectus
+<lb ed="#L" n="86"/>et voluntatis est in operante: et ideo nomina
+<lb ed="#L" n="87"/>quae significant relationes consequentes actionem
+<lb ed="#L" n="88"/>intellectus vel voluntatis, dicuntur de Deo ab 
+ae<lb break="no" ed="#L" n="89"/>terno. Quae vero consequuntur actiones 
+proce<lb break="no" ed="#L" n="90"/>dentes, secundum modum intelligendi, ad 
+exte<lb break="no" ed="#L" n="91"/>riores effectus, dicuntur de Deo ex tempore, ut
+<lb ed="#L" n="92"/>Salvator, Creator, et huiusmodi.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2268">
+                  <lb ed="#L" n="93"/>AD QUARTUM DICENDUM quod relationes 
+signifi<lb break="no" ed="#L" n="94"/>catae per huiusmodi nomina quae dicuntur de
+<lb ed="#L" n="95"/>Deo ex tempore, sunt in Deo secundum rationem
+<lb ed="#L" n="96"/>tantum: oppositae autem relationes in creaturis
+<lb ed="#L" n="97"/>sunt secundum rem. Nec est inconveniens quod
+<lb ed="#L" n="98"/>a relationibus realiter existentibus in re, Deus
+<lb ed="#L" n="99"/>denominetur: tamen secundum quod 
+cointelli<lb break="no" ed="#L" n="100"/>guntur per intellectum nostrum oppositae 
+relatio<lb break="no" ed="#L" n="101"/>nes in Deo. Ut sic Deus dicatur relative ad 
+crea<lb break="no" ed="#L" n="102"/>turam, quia creatura refertur ad ipsum: sicut
+<lb ed="#L" n="103"/>Philosophus dicit, in V Metaphys., quod scibile
+<lb ed="#L" n="104"/>dicitur relative, quia scientia refertur ad ipsum.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2297">
+                  <lb ed="#L" n="105"/>AD QUINTUM DICENDUM quod, cum ea ratione 
+re<lb break="no" ed="#L" n="106"/>feratur Deus ad creaturam, qua creatura refertur
+<lb ed="#L" n="107"/>ad ipsum; cum relatio subiectionis realiter sit in
+<lb ed="#L" n="108"/>creatura, sequitur quod Deus non secundum 
+ratio<lb break="no" ed="#L" n="109"/>nem tantum, sed realiter sit Dominus. Eo enim
+<lb ed="#L" n="110"/>modo dicitur Dominus, quo creatura ei subiecta est.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2313">
+                  <lb ed="#L" n="111"/>AD SEXTUM DICENDUM quod, ad cognoscendum
+<lb ed="#L" n="112"/>utrum relativa sint simul natura vel non, non
+<lb ed="#L" n="113"/>oportet considerare ordinem rerum de quibus
+<lb ed="#L" n="114"/>relativa dicuntur, sed significationes ipsorum re-
+<pb ed="#L" n="157"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>lativorum. Si enim unum in sui intellectu claudat
+<lb ed="#L" n="2"/>aliud et e converso, tunc sunt simul natura: sicut
+<lb ed="#L" n="3"/>duplum et dimidium, pater et filius, et similia.
+<lb ed="#L" n="4"/>Si autem unum in sui intellectu claudat aliud,
+<lb ed="#L" n="5"/>et non e converso, tunc non sunt simul natura.
+<lb ed="#L" n="6"/>Et hoc modo se habent scientia et scibile. Nam
+<lb ed="#L" n="7"/>scibile dicitur secundum potentiam: scientia autem
+<lb ed="#L" n="8"/>secundum habitum, vel secundum actum. Unde
+<lb ed="#L" n="9"/>scibile, secundum modum suae significationis ,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>praeexistit scientiae. Sed si accipiatur scibile 
+se<lb break="no" ed="#L" n="11"/>cundum actum, tunc est simul cum scientia 
+se<lb break="no" ed="#L" n="12"/>cundum actum: nam scitum non est aliquid nisi
+<lb ed="#L" n="13"/>sit eius scientia. Licet igitur Deus sit prior 
+crea<lb break="no" ed="#L" n="14"/>turis, quia tamen in significatione Domini 
+claudi<lb break="no" ed="#L" n="15"/>tur quod habeat servum, et e converso, ista ? duo
+<lb ed="#L" n="16"/>relativa, Dominus et servus, sunt simul natura.
+<lb ed="#L" n="17"/>Unde Deus non fuit Dominus, antequam haberet
+<lb ed="#L" n="18"/>creaturam sibi subiectam.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e113-Dd1e2372"><!-- p1-q13-a8 -->
+               <head xml:id="TAca84-d1e113-Hd1e2375">Articulus 8</head>
+               <head xml:id="TAca84-d1e113-Hd1e2377" type="question-title">utrum hoc nomen deus sit nomen naturae</head>
+               <p xml:id="TAca84-d1e113-d1e2380">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="52"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="53"/>UTRUM HOC NOMEN DEUS SIT NOMEN NATURAE
+</p>
+               <p xml:id="TAca84-d1e113-d1e2389">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="54"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="55"/>hoc nomen Deus non sit nomen 
+natu<lb break="no" ed="#L" n="56"/>rae. Dicit enim Damascenus, in I libro,
+<lb ed="#L" n="57"/>Nwquod Deus dicitur a theein, quod est
+<lb ed="#L" n="58"/>currere, et fovere universa; vel ab aethein, idest
+<lb ed="#L" n="59"/>ardere (Deus enim noster ignis consumens est
+<lb ed="#L" n="60"/>omnem malitiam); vel a theasthai, quod est 
+con<lb break="no" ed="#L" n="61"/>siderare, omnia. Haec autem omnia ad 
+operatio<lb break="no" ed="#L" n="62"/>nem pertinent. Ergo hoc nomen Deus 
+operatio<lb break="no" ed="#L" n="63"/>nem significat, et non naturam.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2415">
+                  <lb ed="#L" n="64"/>2. PRAETEREA, secundum hoc aliquid 
+nomina<lb break="no" ed="#L" n="65"/>tur a nobis, secundum quod cognoscitur. Sed 
+di<lb break="no" ed="#L" n="66"/>vina natura est nobis ignota. Ergo hoc nomen
+<lb ed="#L" n="67"/>Deus non significat naturam divinam.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2427">
+                  <lb ed="#L" n="68"/>SED coNTRA EsT quod dicit <ref xml:id="TAca84-d1e113-Rd1e2431">Ambrosius, in libro I
+<lb ed="#L" n="69"/>de Fide</ref>, quod Deus est nomen naturae.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2437">
+                  <lb ed="#L" n="70"/>RESPONDEO DICENDUM quod non est semper idem
+<lb ed="#L" n="71"/>id a quo imponitur nomen ad significandum, et
+<lb ed="#L" n="72"/>id ad quod significandum nomen imponitur. Sicut
+<lb ed="#L" n="73"/>enim substantiam rei ex proprietatibus vel 
+ope<lb break="no" ed="#L" n="74"/>rationibus eius cognoscimus, ita substantiam rei
+<lb ed="#L" n="75"/>denominamus quandoque ab aliqua eius 
+opera<lb break="no" ed="#L" n="76"/>tione vel proprietate: sicut substantiam lapidis
+<lb ed="#L" n="77"/>denominamus ab aliqua actione eius, quia laedit.
+<lb ed="#L" n="78"/>pedem; non tamen hoc nomen impositum est
+<lb ed="#L" n="79"/>ad significandum hanc actionem, sed substantiam
+<lb ed="#L" n="80"/>lapidis. Si qua vero sunt quae secundum se sunt
+<lb ed="#L" n="81"/>nota nobis, ut calor, frigus, albedo, et huiusmodi,
+<lb ed="#L" n="82"/>non ab aliis denominantur. Unde in talibus idem
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="83"/>est quod nomen significat, et id a quo imponitur
+<lb ed="#L" n="84"/>nomen ad significandum.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2474">
+                  <lb ed="#L" n="85"/>Quia igitur Deus non est notus nobis in sui 
+na<lb break="no" ed="#L" n="86"/>tura, sed innotescit nobis ex operationibus vel
+<lb ed="#L" n="87"/>effectibus eius, ex his possumus eum nominare,
+<lb ed="#L" n="88"/>ut supra dictum est. Unde hoc nomen Deus est
+<lb ed="#L" n="89"/>nomen operationis, quantum ad id a quo 
+impo<lb break="no" ed="#L" n="90"/>nitur ad significandum. Imponitur enim hoc 
+no<lb break="no" ed="#L" n="91"/>men ab universali rerum providentia: omnes
+<lb ed="#L" n="92"/>enim loquentes de Deo, hoc intendunt nominare
+<lb ed="#L" n="93"/>Deum, quod habet providentiam universalem
+<lb ed="#L" n="94"/>de rebus. Unde dicit Dionysius, xu! cap. de Div.
+<lb ed="#L" n="95"/>Nom., quod deitas est quae omnia videt 
+provi<lb break="no" ed="#L" n="96"/>dentia et bonitate perfecta. Ex hac autem 
+opera<lb break="no" ed="#L" n="97"/>tione hoc nomen Deus assumptum, impositum
+<lb ed="#L" n="98"/>est ad significandum divinam naturam.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2507">
+                  <lb ed="#L" n="99"/>AD PRIMUM ERGO DICENDUM quod omnia quae
+<lb ed="#L" n="100"/>posuit Damascenus, pertinent ad providentiam, a
+<lb ed="#L" n="101"/>qua imponitur hoc nomen Deus ad significandum.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2516">
+                  <lb ed="#L" n="102"/>AD SECUNDUM DICENDUM quod, secundum quod
+<lb ed="#L" n="103"/>naturam alicuius rei ex eius proprietatibus et 
+effe<lb break="no" ed="#L" n="104"/>ctibus cognoscere possumus, sic eam nomine 
+pos<lb break="no" ed="#L" n="105"/>sumus significare. Unde, quia substantiam lapidis
+<lb ed="#L" n="106"/>ex eius proprietate possumus cognoscere 
+secun<lb break="no" ed="#L" n="107"/>dum seipsam, sciendo quid est lapis, hoc nomen
+<lb ed="#L" n="108"/>lapis ipsam lapidis naturam, secundum quod in
+<lb ed="#L" n="109"/>se est, significat: significat enim definitionem 
+la<lb break="no" ed="#L" n="110"/>pidis, per quam scimus quid est lapis. Ratio
+<lb ed="#L" n="111"/>enim quam significat nomen, est definitio, ut di-
+<pb ed="#L" n="161"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>citur in IV Metaphys. Sed ex effectibus divinis
+<lb ed="#L" n="2"/>divinam naturam non possumus cognoscere 
+se<lb break="no" ed="#L" n="3"/>cundum quod in se est, ut sciamus de ea quid
+<lb ed="#L" n="4"/>est; sed per modum eminentiae et causalitatis et
+<lb ed="#L" n="5"/>negationis, ut supra dictum est. Et sic hoc no-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="6"/>men eus significat naturam divinam. Impositum
+<lb ed="#L" n="7"/>est enim nomen hoc" ad aliquid significandum
+<lb ed="#L" n="8"/>supra omnia existens, quod est principium 
+om<lb break="no" ed="#L" n="9"/>nium, et remotum ab omnibus. Hoc enim 
+inten<lb break="no" ed="#L" n="10"/>dunt significare nominantes Deum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e113-Dd1e2569"><!-- p1-q13-a9 -->
+               <head xml:id="TAca84-d1e113-Hd1e2572">Articulus 9</head>
+               <head xml:id="TAca84-d1e113-Hd1e2574" type="question-title">utrum hoc nomen deus sit communicabile</head>
+               <p xml:id="TAca84-d1e113-d1e2577">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="38"/>ARTICULUS NONUS
+<lb ed="#L" n="39"/>UTRUM HOC NOMEN DEUS SIT COMMUNICABILE
+</p>
+               <p xml:id="TAca84-d1e113-d1e2586">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="40"/>AD NONUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="41"/>| VW)hoc nomen Deus sit communicabile.
+<lb ed="#L" n="42"/>à Cuicumque enim communicatur res 
+si<lb break="no" ed="#L" n="43"/>gnificata per nomen, communicatur et
+<lb ed="#L" n="44"/>nomen ipsum. Sed hoc nomen Deus, ut dictum
+<lb ed="#L" n="45"/>est, significat divinam naturam, quae est 
+com<lb break="no" ed="#L" n="46"/>municabilis aliis, secundum illud II Pet. 1: magna
+<lb ed="#L" n="47"/>et pretiosa promissa ?^ nobis donavit, ut per hoc
+<lb ed="#L" n="48"/>efficiamur divinae consortes naturae. Ergo hoc
+<lb ed="#L" n="49"/>nomen JDeus est communicabile.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2612">
+                  <lb ed="#L" n="50"/>2. PRAETEREA, sola nomina propria non sunt
+<lb ed="#L" n="51"/>communicabilia. Sed hoc nomen JDeus non est
+<lb ed="#L" n="52"/>nomen proprium, sed appellativum: quod patet ex
+<lb ed="#L" n="53"/>hoc quod habet plurale, secundum illud Psalmi
+<lb ed="#L" n="54"/>Lxxxi: Ego dixi, dii estis. Ergo hoc nomen
+<lb ed="#L" n="55"/>Deus est? communicabile.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2629">
+                  <lb ed="#L" n="56"/>3. PRAETEREA, hoc nomen Jeus imponitur ab
+<lb ed="#L" n="57"/>operatione, ut dictum est. Sed alia nomina quae
+<lb ed="#L" n="58"/>imponuntur Deo ab operationibus, sive ab 
+effe<lb break="no" ed="#L" n="59"/>ctibus, sunt communicabilia, ut bonus, sapiens et
+<lb ed="#L" n="60"/>huiusmodi. Ergo et hoc ? nomen Deus est 
+com<lb break="no" ed="#L" n="61"/>municabile.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2645">
+                  <lb ed="#L" n="62"/>SED coNTRA EST quod dicitur Sap. xiv: 
+incom<lb break="no" ed="#L" n="63"/>municabile nomen lignis et lapidibus imposuerunt ;
+<lb ed="#L" n="64"/>et loquitur de nomine deitatis. Ergo hoc nomen
+<lb ed="#L" n="65"/>Deus est nomen incommunicabile.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2656">
+                  <lb ed="#L" n="66"/>RESPONDEO DICENDUM quod aliquod nomen potest
+<lb ed="#L" n="67"/>esse communicabile dupliciter: uno modo, 
+pro<lb break="no" ed="#L" n="68"/>prie; alio modo, per similitudinem. Proprie 
+qui<lb break="no" ed="#L" n="69"/>dem communicabile est, quod secundum totam 
+si<lb break="no" ed="#L" n="70"/>gnificationem nominis, est communicabile multis.
+<lb ed="#L" n="71"/>Per similitudinem autem communicabile est, quod
+<lb ed="#L" n="72"/>est communicabile secundum aliquid eorum quae
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="73"/>includuntur in nominis significatione. Hoc enim
+<lb ed="#L" n="74"/>nomen /eo proprie communicatur omnibus illis
+<lb ed="#L" n="75"/>in. quibus invenitur natura quam significat hoc
+<lb ed="#L" n="76"/>nomen eo: per similitudinem vero 
+communica<lb break="no" ed="#L" n="77"/>bile est illis qui participant aliquid leoninum, ut
+<lb ed="#L" n="78"/>puta audaciam vel fortitudinem, qui metaphorice
+<lb ed="#L" n="79"/>leones dicuntur.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2691">
+                  <lb ed="#L" n="80"/>Ad sciendum autem quae nomina proprie sunt 
+<lb ed="#L" n="81"/>communicabilia, considerandum est quod omnis.
+<lb ed="#L" n="82"/>forma in supposito singulari existens, per quod
+<lb ed="#L" n="83"/>individuatur, communis est multis, vel secundum
+<lb ed="#L" n="84"/>rem vel secundum rationem saltem: sicut natura
+<lb ed="#L" n="85"/>humana communis est multis secundum rem et
+<lb ed="#L" n="86"/>rationem, natura autem solis non est communis
+<lb ed="#L" n="87"/>multis secundum rem, sed secundum rationem
+<lb ed="#L" n="88"/>tantum; potest enim natura solis intelligi ut in
+<lb ed="#L" n="89"/>pluribus suppositis existens. Et hoc ideo, quia
+<lb ed="#L" n="90"/>intellectus intelligit naturam cuiuslibet speciei per
+<lb ed="#L" n="91"/>abstractionem a singulari ^: unde esse in uno 
+sup<lb break="no" ed="#L" n="92"/>posito singulari vel in pluribus, est praeter 
+intel<lb break="no" ed="#L" n="93"/>lectum naturae speciei: unde, servato intellectu
+<lb ed="#L" n="94"/>naturae speciei, potest intelligi ut in pluribus
+<lb ed="#L" n="95"/>existens. Sed singulare, ex hoc ipso quod est 
+sin<lb break="no" ed="#L" n="96"/>gulare, est divisum ab omnibus aliis. Unde omne
+<lb ed="#L" n="97"/>nomen impositum ad significandum aliquod 
+sin<lb break="no" ed="#L" n="98"/>gulare, est incommunicabile et re et ratione: non
+<lb ed="#L" n="99"/>enim potest nec in apprehensione cadere 
+plura<lb break="no" ed="#L" n="100"/>litas huius individui. Unde nullum nomen 
+signifi<lb break="no" ed="#L" n="101"/>cans aliquod individuum, est communicabile 
+mul<lb break="no" ed="#L" n="102"/>tis proprie, sed solum secundum similitudinem ;
+<lb ed="#L" n="103"/>sicut aliquis metaphorice potest dici Achilles, 
+in<lb break="no" ed="#L" n="104"/>quantum habet aliquid de proprietatibus Achillis,
+<lb ed="#L" n="105"/>scilicet fortitudinem.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2750">
+                  <pb ed="#L" n="162"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Formae vero quae non individuantur per 
+ali<lb break="no" ed="#L" n="2"/>quod' suppositum, sed per seipsas (quia scilicet
+<lb ed="#L" n="3"/>sunt formae subsistentes), si intelligerentur 
+secun<lb break="no" ed="#L" n="4"/>dum quod sunt in seipsis, non possent 
+commu<lb break="no" ed="#L" n="5"/>nicari nec re neque ratione; sed forte per 
+simili<lb break="no" ed="#L" n="6"/>tudinem, sicut dictum est de individuis. Sed quia
+<lb ed="#L" n="7"/>formas simplices per se subsistentes non possumus
+<lb ed="#L" n="8"/>intelligere secundum quod sunt, sed intelligimus
+<lb ed="#L" n="9"/>eas ad modum rerum compositarum habentium
+<lb ed="#L" n="10"/>formas in materia ^; ideo, ut dictum est, 
+impo<lb break="no" ed="#L" n="11"/>nimus eis nomina concreta significantia naturam
+<lb ed="#L" n="12"/>in aliquo supposito. Unde, quantum pertinet ad
+<lb ed="#L" n="13"/>rationem nominum, eadem ratio est de 
+nomini<lb break="no" ed="#L" n="14"/>bus quae a nobis imponuntur ad significandum
+<lb ed="#L" n="15"/>naturas rerum compositarum, et de nominibus
+<lb ed="#L" n="16"/>quae a nobis imponuntur ad significandum 
+natu<lb break="no" ed="#L" n="17"/>ras simplices subsistentes.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2794">
+                  <lb ed="#L" n="18"/>Unde, cum hoc nomen Deus impositum sit
+<lb ed="#L" n="19"/>ad significandum naturam divinam, ut dictum
+<lb ed="#L" n="20"/>est; natura autem divina multiplicabilis non est,
+<lb ed="#L" n="21"/>ut supra ostensum est: sequitur quod hoc 
+no<lb break="no" ed="#L" n="22"/>men Deus incommunicabile quidem sit 
+secun<lb break="no" ed="#L" n="23"/>dum rem, sed communicabile sit secundum
+<lb ed="#L" n="24"/>opinionem, quemadmodum hoc nomen sol esset
+<lb ed="#L" n="25"/>communicabile secundum opinionem ponentium
+<lb ed="#L" n="26"/>multos soles. Et secundum hoc dicitur Gal. iv:
+<lb ed="#L" n="27"/>his qui natura non sunt dii, serviebatis; glossa:
+<lb ed="#L" n="28"/>non sunt dii natura, sed opinione hominum. - Est
+<lb ed="#L" n="29"/>nihilominus communicabile hoc nomen Deus, non
+<lb ed="#L" n="30"/>secundum suam totam significationem, sed 
+se<lb break="no" ed="#L" n="31"/>cundum aliquid eius, per quandam similitudinem:
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="32"/>ut dii dicantur, qui participant aliquid divinum per
+<lb ed="#L" n="33"/>similitudinem, secundum illud: Ego dixi, dii estis.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2834">
+                  <lb ed="#L" n="34"/>Si vero esset aliquod nomen impositum ad
+<lb ed="#L" n="35"/>significandum Deum non ex parte naturae, sed
+<lb ed="#L" n="36"/>ex parte suppositi, secundum quod consideratur
+<lb ed="#L" n="37"/>ut hoc aliquid, illud nomen esset omnibus modis
+<lb ed="#L" n="38"/>incommunicabile: sicut forte est nomen 
+Tetra<lb break="no" ed="#L" n="39"/>grammaton apud Hebraeos. Et est simile si quis
+<lb ed="#L" n="40"/>imponeret nomen Soli designans hoc individuum.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2852">
+                  <lb ed="#L" n="41"/>AD PRIMUM ERGO DICENDUM quod natura divina
+<lb ed="#L" n="42"/>non est communicabilis, nisi secundum 
+similitu<lb break="no" ed="#L" n="43"/>dinis participationem.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2861">
+                  <lb ed="#L" n="44"/>AD SECUNDUM DICENDUM quod hoc nomen Deus
+<lb ed="#L" n="45"/>est nomen appellativum, et non proprium, quia
+<lb ed="#L" n="46"/>significat naturam divinam ut in habente; licet ipse
+<lb ed="#L" n="47"/>Deus, secundum rem, non sit nec universalis nec
+<lb ed="#L" n="48"/>particularis. Nomina enim non sequuntur modum
+<lb ed="#L" n="49"/>essendi qui est in rebus, sed modum essendi
+<lb ed="#L" n="50"/>secundum quod in cognitione nostra est. Et tamen,
+<lb ed="#L" n="51"/>secundum rei veritatem, est incommunicabile, 
+se<lb break="no" ed="#L" n="52"/>cundum quod dictum est de hoc nomine so/.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2883">
+                  <lb ed="#L" n="53"/>AD TERTIUM DICENDUM quod haec nomina bonus,
+<lb ed="#L" n="54"/>sapiens, et similia ?, imposita quidem sunt a 
+per<lb break="no" ed="#L" n="55"/>fectionibus procedentibus a Deo in creaturas: non
+<lb ed="#L" n="56"/>tamen sunt imposita ad significandum divinam
+<lb ed="#L" n="57"/>naturam, sed ad significandum ipsas perfectiones
+<lb ed="#L" n="58"/>absolute. Et ideo etiam secundum rei veritatem
+<lb ed="#L" n="59"/>sunt communicabilia multis. Sed hoc nomen Deus
+<lb ed="#L" n="60"/>impositum est ab operatione propria Deo, quam ?
+<lb ed="#L" n="61"/>experimur continue, ad significandum divinam
+<lb ed="#L" n="62"/>naturam.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e113-Dd1e2908"><!-- p1-q13-a10 -->
+               <head xml:id="TAca84-d1e113-Hd1e2911">Articulus 10</head>
+               <head xml:id="TAca84-d1e113-Hd1e2913" type="question-title">
+  utrum hoc nomen deus univoce dicatur de deo per participationem,
+  secundum naturam, et secundum opinionem
+</head>
+               <p xml:id="TAca84-d1e113-d1e2916">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="67"/>ARTICULUS DECIMUS
+<lb ed="#L" n="68"/>UTRUM HOC NOMEN DEUS UNIVOCE DICATUR DE DEO PER PARTICIPATIONEM,
+<lb ed="#L" n="69"/>SECUNDUM NATURAM, ET SECUNDUM OPINIONEM
+</p>
+               <p xml:id="TAca84-d1e113-d1e2927">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="70"/>AD DECIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="71"/>hoc nomen Deus univoce dicatur de
+<lb ed="#L" n="72"/>Deo per naturam, et per 
+participatio<lb break="no" ed="#L" n="73"/>nem, et secundum opinionem. Ubi
+<lb ed="#L" n="74"/>enim est diversa significatio, non est contradictio
+<lb ed="#L" n="75"/>affirmantis et negantis ^: aequivocatio enim 
+im<lb break="no" ed="#L" n="76"/>pedit contradictionem. Sed catholicus dicens 
+ido<lb break="no" ed="#L" n="77"/>lum non est Deus, contradicit pagano dicenti
+<lb ed="#L" n="78"/>idolum est Deus. Ergo Deus utrobique sumptum
+<lb ed="#L" n="79"/>univoce dicitur.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2953">
+                  <lb ed="#L" n="80"/>2. PRAETEREA, sicut idolum est Deus 
+secun<lb break="no" ed="#L" n="81"/>dum opinionem et non secundum veritatem, ita
+<lb ed="#L" n="82"/>fruitio carnalium delectationum dicitur felicitas 
+se<lb break="no" ed="#L" n="83"/>cundum opinionem, et non secundum veritatem.
+<lb ed="#L" n="84"/>Sed hoc nomen beatitudo univoce dicitur de hac
+<lb ed="#L" n="85"/>beatitudine opinata, et de hac beatitudine vera.
+<lb ed="#L" n="86"/>Ergo et hoc nomen Deus univoce dicitur de Deo
+<lb ed="#L" n="87"/>secundum veritatem, et de Deo secundum 
+opi<lb break="no" ed="#L" n="88"/>nionem.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2976">
+                  <lb ed="#L" n="89"/>3. PRAETEREA, univoca dicuntur quorum est
+<lb ed="#L" n="90"/>ratio una. Sed catholicus, cum dicit unum esse
+<lb ed="#L" n="91"/>Deum, intelligit nomine Dei rem omnipotentem,
+<lb ed="#L" n="92"/>et super omnia venerandam: et hoc idem intel-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="93"/>ligit gentilis, cum dicit idolum esse Deum. Ergo
+<lb ed="#L" n="94"/>hoc nomen Deus" univoce dicitur utrobique.
+</p>
+               <p xml:id="TAca84-d1e113-d1e2994">
+                  <lb ed="#L" n="95"/>SED cowTRA, illud quod est in intellectu, est
+<lb ed="#L" n="96"/>similitudo eius quod est in re, ut dicitur in I 
+Pe<lb break="no" ed="#L" n="97"/>riherm.. Sed animal, dictum de animali vero et
+<lb ed="#L" n="98"/>de animali picto, aequivoce dicitur. Ergo hoc
+<lb ed="#L" n="99"/>nomen Deus, dictum ? de Deo vero et de Deo
+<lb ed="#L" n="100"/>secundum opinionem, aequivoce dicitur.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3010">
+                  <lb ed="#L" n="101"/>PRAETEREA, nullus potest significare id quod non
+<lb ed="#L" n="102"/>cognoscit: sed gentilis non cognoscit naturam
+<lb ed="#L" n="103"/>divinam: ergo, cum dicit idolum est Deus, non
+<lb ed="#L" n="104"/>significat veram deitatem. Hanc autem 
+signifi<lb break="no" ed="#L" n="105"/>cat catholicus dicens unum esse Deum. . Ergo
+<lb ed="#L" n="106"/>hoc nomen Jeus non dicitur univoce, sed 
+ae<lb break="no" ed="#L" n="107"/>quivoce, de Deo vero, et de Deo secundum 
+opi<lb break="no" ed="#L" n="108"/>nionem.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3030">
+                  <lb ed="#L" n="109"/>RESPONDEO DICENDUM quod hoc nomen Deus, in
+<lb ed="#L" n="110"/>praemissis tribus significationibus, non accipitur
+<lb ed="#L" n="111"/>neque univoce neque aequivoce, sed analogice.
+<lb ed="#L" n="112"/>Quod ex hoc patet. Quia univocorum est omnino
+<lb ed="#L" n="113"/>eadem ratio: aequivocorum est omnino ratio 
+di<lb break="no" ed="#L" n="114"/>versa: in analogicis vero, oportet quod nomen
+<lb ed="#L" n="115"/>secundum unam significationem " acceptum, po-
+<pb ed="#L" n="164"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>natur in definitione eiusdem nominis secundum
+<lb ed="#L" n="2"/>alias significationes accepti. Sicut ens de 
+substan<lb break="no" ed="#L" n="3"/>tia dictum, ponitur in definitione entis secundum
+<lb ed="#L" n="4"/>quod de accidente dicitur; et sanum dictum de
+<lb ed="#L" n="5"/>animali, ponitur in definitione sani secundum quod
+<lb ed="#L" n="6"/>dicitur de urina et de medicina; huius enim sani
+<lb ed="#L" n="7"/>quod est in animali, urina est significativa, et 
+me<lb break="no" ed="#L" n="8"/>dicina factiva.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3069">
+                  <lb ed="#L" n="9"/>Sic accidit in proposito. Nam hoc nomen
+<lb ed="#L" n="10"/>Deus, secundum quod pro Deo vero sumitur,
+<lb ed="#L" n="11"/>in ratione Dei sumitur secundum quod dicitur
+<lb ed="#L" n="12"/>Deus secundum opinionem vel participationem.
+<lb ed="#L" n="13"/>Cum enim aliquem nominamus Deum 
+secun<lb break="no" ed="#L" n="14"/>dum participationem, intelligimus nomine Dei
+<lb ed="#L" n="15"/>aliquid habens similitudinem veri Dei. Similiter
+<lb ed="#L" n="16"/>cum idolum nominamus Deum, hoc nomine Deus
+<lb ed="#L" n="17"/>intelligimus significari aliquid, de quo homines
+<lb ed="#L" n="18"/>opinantur quod sit Deus. Et sic manifestum est
+<lb ed="#L" n="19"/>quod alia et alia est significatio nominis, sed una
+<lb ed="#L" n="20"/>illarum significationum clauditur in 
+significationi<lb break="no" ed="#L" n="21"/>bus aliis. Unde manifestum est quod amalogice
+<lb ed="#L" n="22"/>dicitur.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3102">
+                  <lb ed="#L" n="23"/>AD PRIMUM ERGO DICENDUM quod nominum 
+mul<lb break="no" ed="#L" n="24"/>tiplicitas non attenditur secundum nominis 
+prae<lb break="no" ed="#L" n="25"/>dicationem , sed" secundum significationem: hoc
+<lb ed="#L" n="26"/>enim nomen Aomo, de quocumque praedicetur,
+<lb ed="#L" n="27"/>sive vere sive false, dicitur uno modo. Sed tunc
+<lb ed="#L" n="28"/>multipliciter diceretur, si per hoc nomen /10mo
+<lb ed="#L" n="29"/>intenderemus significare diversa: puta, si unus
+<lb ed="#L" n="30"/>intenderet significare per hoc nomen ZAomo id
+<lb ed="#L" n="31"/>quod vere est homo, et alius intenderet 
+signifi<lb break="no" ed="#L" n="32"/>care eodem nomine lapidem, vel aliquid aliud.
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="33"/>Unde patet quod catholicus dicens idolum non
+<lb ed="#L" n="34"/>esse Deum, contradicit pagano hoc asserenti:
+<lb ed="#L" n="35"/>quia uterque utitur hoc nomine Deus ad 
+signifi<lb break="no" ed="#L" n="36"/>candum verum Deum. Cum enim? paganus dicit
+<lb ed="#L" n="37"/>idolum esse Deum, non utitur hoc nomine 
+se<lb break="no" ed="#L" n="38"/>cundum quod significat Deum opinabilem: sic
+<lb ed="#L" n="39"/>enim verum diceret, cum etiam catholici 
+inter<lb break="no" ed="#L" n="40"/>dum in tali significatione hoc nomine utantur,
+<lb ed="#L" n="41"/>ut cum dicitur, omnes dii gentium daemonia.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3149">
+                  <lb ed="#L" n="42"/>Et similiter dicendum ad secundum et tertium.
+<lb ed="#L" n="43"/>Nam illae rationes procedunt secundum 
+diversi<lb break="no" ed="#L" n="44"/>tatem praedicationis nominis, et non secundum
+<lb ed="#L" n="45"/>diversam significationem.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3160">
+                  <lb ed="#L" n="46"/>AD QUARTUM DICENDUM quod animal dictum de
+<lb ed="#L" n="47"/>animali vero et de picto ^, non dicitur pure 
+ae<lb break="no" ed="#L" n="48"/>quivoce; sed Philosophus largo modo accipit
+<lb ed="#L" n="49"/>aequivoca, secundum quod includunt in se 
+ana<lb break="no" ed="#L" n="50"/>loga. Quia et ens, quod analogice dicitur, 
+ali<lb break="no" ed="#L" n="51"/>quando dicitur aequivoce praedicari de diversis
+<lb ed="#L" n="52"/>praedicamentis. 4.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3178">
+                  <lb ed="#L" n="53"/>AD QUINTUM DICENDUM quod ipsam naturam Dei
+<lb ed="#L" n="54"/>prout in se est, neque catholicus neque paganus
+<lb ed="#L" n="55"/>cognoscit: sed uterque cognoscit eam secundum
+<lb ed="#L" n="56"/>aliquam rationem causalitatis vel excellentiae vel
+<lb ed="#L" n="57"/>remotionis, ut supra dictum est. Et secundum
+<lb ed="#L" n="58"/>hoc, in eadem significatione accipere potest 
+gen<lb break="no" ed="#L" n="59"/>tilis hoc nomen Deus, cum dicit idolum est Deus,
+<lb ed="#L" n="60"/>in qua accipit ipsum catholicus dicens idolum
+<lb ed="#L" n="61"/>non est Deus. Si vero aliquis esset qui secundum
+<lb ed="#L" n="62"/>nullam rationem Deum cognosceret, nec ipsum
+<lb ed="#L" n="63"/>nominaret, nisi forte sicut proferimus nomina 
+quo<lb break="no" ed="#L" n="64"/>rum significationem " ignoramus.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e113-Dd1e3208"><!-- p1-q13-a11 -->
+               <head xml:id="TAca84-d1e113-Hd1e3211">Articulus 11</head>
+               <head xml:id="TAca84-d1e113-Hd1e3213" type="question-title">
+  utrum hoc nomen qui est sit maxime nomen dei proprium
+</head>
+               <p xml:id="TAca84-d1e113-d1e3216">
+                  <pb ed="#L" n="165"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS UNDECIMUS
+<lb ed="#L" n="2"/>UTRUM HOC NOMEN QUI EST SIT MAXIME NOMEN DEI PROPRIUM
+</p>
+               <p xml:id="TAca84-d1e113-d1e3227">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD UNDECIMUM SIC PROCEDITUR. Videtur
+<lb ed="#L" n="4"/>quod hoc nomen Qui est non sit 
+ma<lb break="no" ed="#L" n="5"/>xime proprium nomen Dei. Hoc enim
+<lb ed="#L" n="6"/>nomen Deus est nomen 
+incommunica<lb break="no" ed="#L" n="7"/>bile, ut dictum est. Sed hoc nomen Qui est non
+<lb ed="#L" n="8"/>est nomen incommunicabile. Ergo hoc nomen Qui
+<lb ed="#L" n="9"/>est non est maxime proprium nomen Dei.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3247">
+                  <lb ed="#L" n="10"/>2. PRaETEREA, Dionysius dicit, m cap. de Div.
+<lb ed="#L" n="11"/>Nom., quod boni nominatio est manifestativa
+<lb ed="#L" n="12"/>omnium Dei processionum. Sed hoc maxime Deo
+<lb ed="#L" n="13"/>convenit, quod sit universale rerum principium.
+<lb ed="#L" n="14"/>Ergo hoc nomen bonum est maxime proprium
+<lb ed="#L" n="15"/>Dei, et non hoc nomen Qui est.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3264">
+                  <lb ed="#L" n="16"/>3. PRAETEREA, omne nomen divinum videtur
+<lb ed="#L" n="17"/>importare relationem ad creaturas, cum Deus
+<lb ed="#L" n="18"/>non cognoscatur a nobis nisi per creaturas. Sed
+<lb ed="#L" n="19"/>hoc nomen Qui est nullam importat habitudinem
+<lb ed="#L" n="20"/>ad creaturas. Ergo hoc nomen Qui est non est
+<lb ed="#L" n="21"/>maxime proprium nomen Dei.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3280">
+                  <lb ed="#L" n="22"/>SED coNTRA EsT quod dicitur Exod. m, quod
+<lb ed="#L" n="23"/>Moysi quaerenti, si dixerint mihi: Quod est 
+no<lb break="no" ed="#L" n="24"/>men eius? quid dicam eis? et respondit ei 
+Do<lb break="no" ed="#L" n="25"/>minus: Sic dices eis: Qui EST misil me ad vos.
+<lb ed="#L" n="26"/>Ergo hoc nomen Qui est est maxime proprium
+<lb ed="#L" n="27"/>nomen Dei.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3296">
+                  <lb ed="#L" n="28"/>RESPONDEO DICENDUM quod hoc nomen Qui est
+<lb ed="#L" n="29"/>triplici ratione est ? maxime proprium nomen
+<lb ed="#L" n="30"/>Dei. Primo quidem, propter sui significationem.
+<lb ed="#L" n="31"/>Non enim significat formam aliquam, sed ipsum
+<lb ed="#L" n="32"/>esse. Unde, cum esse Dei sit ipsa eius essentia,
+<lb ed="#L" n="33"/>et hoc nulli alii conveniat, ut supra ostensum
+<lb ed="#L" n="34"/>est, manifestum est quod inter alia nomina hoc
+<lb ed="#L" n="35"/>maxime proprie nominat Deum: unumquodque
+<lb ed="#L" n="36"/>enim denominatur a sua forma.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3318">
+                  <lb ed="#L" n="37"/>Secundo, propter eius universalitatem. Omnia
+<lb ed="#L" n="38"/>enim alia nomina vel sunt minus communia;
+<lb ed="#L" n="39"/>vel, si convertantur cum ipso ?, tamen addunt
+<lb ed="#L" n="40"/>aliqua supra ipsum secundum rationem; unde
+<lb ed="#L" n="41"/>quodammodo informant et determinant ipsum.
+<lb ed="#L" n="42"/>Intellectus autem noster non potest ipsam Dei
+<lb ed="#L" n="43"/>essentiam cognoscere in statu viae, secundum
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="44"/>quod in se est: sed quemcumque modum 
+deter<lb break="no" ed="#L" n="45"/>minet circa id quod de Deo intelligit, deficit a
+<lb ed="#L" n="46"/>modo quo Deus in se est. Et ideo, quanto aliqua
+<lb ed="#L" n="47"/>nomina sunt minus determinata, et magis 
+com<lb break="no" ed="#L" n="48"/>munia et absoluta, tanto magis proprie dicuntur
+<lb ed="#L" n="49"/>de Deo a nobis. Unde et Damascenus dicit
+<lb ed="#L" n="50"/>quod principalius omnibus quae de Deo dicuntur
+<lb ed="#L" n="51"/>nominibus, est Qui EsT: fofum enim in seipso
+<lb ed="#L" n="52"/>comprehendens, habet ipsum esse velut quoddam
+<lb ed="#L" n="53"/>pelagus substantiae infinitum et indeterminatum.
+<lb ed="#L" n="54"/>Quolibet enim alio nomine determinatur aliquis
+<lb ed="#L" n="55"/>modus substantiae rei: sed hoc nomen Qui est
+<lb ed="#L" n="56"/>nullum modum essendi determinat, sed " se habet
+<lb ed="#L" n="57"/>indeterminate ad omnes; et ideo nominat ipsum
+<lb ed="#L" n="58"/>pelagus substantiae infinitum.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3370">
+                  <lb ed="#L" n="59"/>Tertio vero, ex eius consignificatione ^. 
+Signifi<lb break="no" ed="#L" n="60"/>cat enim esse in praesenti: et hoc maxime proprie
+<lb ed="#L" n="61"/>de Deo dicitur, cuius esse non riovit praeteritum
+<lb ed="#L" n="62"/>vel futurum, ut dicit Augustinus in V de 7rTin..
+</p>
+               <p xml:id="TAca84-d1e113-d1e3381">
+                  <lb ed="#L" n="63"/>AD PRIMUM ERGO DICENDUM quod hoc nomen Qui
+<lb ed="#L" n="64"/>est est magis proprium nomen Dei quam hoc
+<lb ed="#L" n="65"/>nomen Deus, quantum ad id a quo imponitur,
+<lb ed="#L" n="66"/>scilicet ab esse, et quantum ad modum 
+signifi<lb break="no" ed="#L" n="67"/>candi et consignificandi, ut dictum est. Sed
+<lb ed="#L" n="68"/>quantum ad. id ad quod imponitur nomen ad
+<lb ed="#L" n="69"/>significandum, est magis proprium hoc nomen
+<lb ed="#L" n="70"/>Deus, quod imponitur ad significandum naturam
+<lb ed="#L" n="71"/>divinam. Et adhuc magis proprium nomen est '
+<lb ed="#L" n="72"/>Tetragrammaton, quod est impositum ad 
+signifi<lb break="no" ed="#L" n="73"/>candam ipsam Dei substantiam 
+incommunicabi<lb break="no" ed="#L" n="74"/>lem, et, ut sic liceat loqui, singularem.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3411">
+                  <lb ed="#L" n="75"/>Ap SECUNDUM DICENDUM quod hoc nomen 
+bo<lb break="no" ed="#L" n="76"/>num est principale nomen Dei inquantum est
+<lb ed="#L" n="77"/>causa, non tamen simpliciter: nam esse absolute
+<lb ed="#L" n="78"/>praeintelligitur causae.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3422">
+                  <lb ed="#L" n="79"/>AD TERTIUM DICENDUM quod non est necessarium
+<lb ed="#L" n="80"/>quod omnia nomina divina importent 
+habitudi<lb break="no" ed="#L" n="81"/>nem ad creaturas; sed sufficit quod imponantur
+<lb ed="#L" n="82"/>ab aliquibus perfectionibus procedentibus a Deo
+<lb ed="#L" n="83"/>in creaturas. Inter quas prima est ipsum esse, à
+<lb ed="#L" n="84"/>qua sumitur hoc nomen Qui est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e113-Dd1e3439"><!-- p1-q13-a12 -->
+               <head xml:id="TAca84-d1e113-Hd1e3442">Articulus 12</head>
+               <head xml:id="TAca84-d1e113-Hd1e3444" type="question-title">
+  utrum propositiones affirmativae possint formari de deo
+</head>
+               <p xml:id="TAca84-d1e113-d1e3447">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>ARTICULUS DUODECIMUS
+<lb ed="#L" n="36"/>UTRUM PROPOSITIONES AFFIRMATIVAE POSSINT FORMARI DE DEO
+</p>
+               <p xml:id="TAca84-d1e113-d1e3456">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="37"/>AD DUODECIMUM SIC PROCEDITUR. Videtur
+<lb ed="#L" n="38"/>quod propositiones affirmativae non
+<lb ed="#L" n="39"/>possunt formari de Deo. Dicit enim
+<lb ed="#L" n="40"/>Dionysius, 1t cap. Cael. Hier., quod 
+ne<lb break="no" ed="#L" n="41"/>gationes de Deo sunt verae, affirmationes autem
+<lb ed="#L" n="42"/>incompactae.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3474">
+                  <lb ed="#L" n="43"/>2. PRAETEREA, Boetius dicit, in libro de 7rin.,
+<lb ed="#L" n="44"/>quod forma simplex subiectum esse non potest,
+<lb ed="#L" n="45"/>Sed Deus maxime est forma simplex, ut supra
+<lb ed="#L" n="46"/>ostensum est. Ergo non potest esse subiectum.
+<lb ed="#L" n="47"/>Sed omne illud de quo propositio affirmativa 
+for<lb break="no" ed="#L" n="48"/>matur, accipitur ut subiectum. Ergo de Deo 
+pro<lb break="no" ed="#L" n="49"/>positio affirmativa formari non potest.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3493">
+                  <lb ed="#L" n="50"/>3. PnaETEREA, omnis intellectus intelligens rem
+<lb ed="#L" n="51"/>aliter quam sit, est falsus. Sed Deus habet esse
+<lb ed="#L" n="52"/>absque omni compositione, ut supra probatum
+<lb ed="#L" n="53"/>est. Cum igitur omnis intellectus affirmativus
+<lb ed="#L" n="54"/>intelligat aliquid cum compositione, videtur quod
+<lb ed="#L" n="55"/>propositio affirmativa vere de Deo formari non
+<lb ed="#L" n="56"/>possit.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3511">
+                  <lb ed="#L" n="57"/>SED cowTRA EsT quod fidei non subest falsum.
+<lb ed="#L" n="58"/>Sed propositiones quaedam affirmativae 
+subdun<lb break="no" ed="#L" n="59"/>tur fidei, utpote quod Deus est trinus et unus,
+<lb ed="#L" n="60"/>et quod est omnipotens. Ergo propositiones 
+affir<lb break="no" ed="#L" n="61"/>mativae possunt vere formari de Deo.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3524">
+                  <lb ed="#L" n="62"/>RESPONDEO DICENDUM quod propositiones 
+affir<lb break="no" ed="#L" n="63"/>mativae possunt vere formari de Deo. Ad cuius
+<lb ed="#L" n="64"/>evidentiam, sciendum est quod in qualibet 
+pro<lb break="no" ed="#L" n="65"/>positione affirmativa vera, oportet quod 
+praedi<lb break="no" ed="#L" n="66"/>catum et subiectum significent idem secundum
+<lb ed="#L" n="67"/>rem aliquo modo, et diversum secundum 
+ratio<lb break="no" ed="#L" n="68"/>nem. Et hoc patet tam in propositionibus quae
+<lb ed="#L" n="69"/>sunt de praedicato accidentali, quam in illis quae
+<lb ed="#L" n="70"/>sunt de praedicato substantiali. Manifestum est
+<lb ed="#L" n="71"/>enim quod homo et albus sunt idem subiecto ,
+<lb ed="#L" n="72"/>et differunt ratione: alia enim est ratio hominis,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="73"/>et alia ratio albi. Et similiter cum dico homo
+<lb ed="#L" n="74"/>est animal: illud enim ipsum quod est homo,
+<lb ed="#L" n="75"/>vere animal est; in eodem enim supposito est
+<lb ed="#L" n="76"/>et natura sensibilis, a qua dicitur animal, et 
+ra<lb break="no" ed="#L" n="77"/>tionalis, a qua dicitur homo. Unde hic etiam
+<lb ed="#L" n="78"/>praedicatum et subiectum sunt idem supposito,
+<lb ed="#L" n="79"/>sed diversa ratione. Sed et ? in propositionibus
+<lb ed="#L" n="80"/>in quibus idem praedicatur de seipso, hoc aliquo
+<lb ed="#L" n="81"/>modo invenitur; inquantum intellectus id quod
+<lb ed="#L" n="82"/>ponit ex parte subiecti, trahit ad partem 
+suppo<lb break="no" ed="#L" n="83"/>siti, quod vero ponit ex parte praedicati, trahit
+<lb ed="#L" n="84"/>ad naturam formae in supposito existentis, 
+se<lb break="no" ed="#L" n="85"/>cundum quod dicitur quod praedicata tenentur
+<lb ed="#L" n="86"/>formaliter, et subiecta materialiter. Huic vero
+<lb ed="#L" n="87"/>diversitati quae est secundum rationem, respondet
+<lb ed="#L" n="88"/>pluralitas praedicati et subiecti: identitatem vero
+<lb ed="#L" n="89"/>rei significat intellectus per ipsam compositionem.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3589">
+                  <lb ed="#L" n="90"/>Deus autem, in se consideratus, est omnino unus
+<lb ed="#L" n="91"/>et simplex: sed tamen intellectus noster 
+secun<lb break="no" ed="#L" n="92"/>dum diversas conceptiones ipsum cognoscit, eo
+<lb ed="#L" n="93"/>quod non potest ipsum ut in seipso est, videre.
+<lb ed="#L" n="94"/>Sed tamen, quamvis intelligat ipsum sub diversis
+<lb ed="#L" n="95"/>conceptionibus, cognoscit tamen quod omnibus
+<lb ed="#L" n="96"/>suis conceptionibus respondet una et eadem res
+<lb ed="#L" n="97"/>simpliciter 5. Hanc ergo pluralitatem quae est 
+se<lb break="no" ed="#L" n="98"/>cundum rationem, repraesentat per pluralitatem "
+<lb ed="#L" n="99"/>praedicati et subiecti: unitatem vero repraesentat
+<lb ed="#L" n="100"/>intellectus per compositionem. -
+</p>
+               <p xml:id="TAca84-d1e113-d1e3615">
+                  <lb ed="#L" n="101"/>AD PRIMUM ERGO DICENDUM quod Dionysius dicit
+<lb ed="#L" n="102"/>affirmationes de Deo esse incompactas, vel 
+in<lb break="no" ed="#L" n="103"/>convenientes secundum aliam translationem, 
+in<lb break="no" ed="#L" n="104"/>quantum nullum nomen Deo competit secundum
+<lb ed="#L" n="105"/>modum significandi, ut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e113-d1e3628">
+                  <lb ed="#L" n="106"/>Ap SECUNDUM DICENDUM quod intellectus noster
+<lb ed="#L" n="107"/>non potest formas simplices subsistentes 
+secun<lb break="no" ed="#L" n="108"/>dum quod in seipsis sunt, apprehendere ^: sed
+<pb ed="#L" n="168"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>apprehendit eas secundum modum compositorum,
+<lb ed="#L" n="2"/>in quibus est aliquid quod subiicitur, et est ' 
+ali<lb break="no" ed="#L" n="3"/>quid quod inest. Et ideo apprehendit formam 
+sim<lb break="no" ed="#L" n="4"/>plicem in ratione subiecti, et attribuit ei aliquid.
+<lb ed="#L" n="5"/>AD TERTIUM DICENDUM quod haec propositio, 
+n<lb break="no" ed="#L" n="6"/>trellectus intelligens rem aliter quam sit, est falsus,
+<lb ed="#L" n="7"/>estduplex; ex eo quod hoc adverbium aliter potest
+<lb ed="#L" n="8"/>determinare hoc verbum intelligit ex parte 
+intel<lb break="no" ed="#L" n="9"/>lecti, vel ex parte intelligentis. Si ex parte intellecti,
+<lb ed="#L" n="10"/>sic propositio vera est, et est sensus: quicumque
+<lb ed="#L" n="11"/>intellectus intelligit rem esse aliter quam sit, falsus
+<lb ed="#L" n="12"/>est. Sed hoc? non habet locum in proposito: quia
+<lb ed="#L" n="13"/>intellectus noster, formans propositionem de Deo,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="14"/>non dicit eum esse compositum, sed simplicem.
+<lb ed="#L" n="15"/>Si vero ex parte intelligentis ^, sic propositio falsa
+<lb ed="#L" n="16"/>est. Alius est enim. modus intellectus in 
+intelli<lb break="no" ed="#L" n="17"/>gendo, quam rei in essendo. Manifestum est enim
+<lb ed="#L" n="18"/>quod intellectus noster res materiales infra se
+<lb ed="#L" n="19"/>existentes intelligit immaterialiter; non quod 
+in<lb break="no" ed="#L" n="20"/>teligat eas esse immateriales, sed habet modum
+<lb ed="#L" n="21"/>immaterialem in intelligendo. Et similiter, cum
+<lb ed="#L" n="22"/>intelligit simplicia quae sunt supra se, intelligit
+<lb ed="#L" n="23"/>ea secundum modum suum, scilicet " composite:
+<lb ed="#L" n="24"/>non tamen ita quod intelligat ea esse composita.
+<lb ed="#L" n="25"/>Et sic intellectus noster non est falsus, formans
+<lb ed="#L" n="26"/>compositionem de Deo.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

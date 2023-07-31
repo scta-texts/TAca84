@@ -1,0 +1,1555 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 19</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 19</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="234"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e144"><!-- p1-q19 -->
+            <head xml:id="TAca84-d1e144-Hd1e99">Quaestio 19</head>
+            <head xml:id="TAca84-d1e144-Hd1e101" type="question-title">de voluntate dei</head>
+            <p xml:id="TAca84-d1e144-d1e104">
+               <pb ed="#L" n="234"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO DECIMANONA
+<lb ed="#L" n="2"/>DE VOLUNTATE DEI
+<lb ed="#L" n="3"/>IN DUODECIM ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e144-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>Post considerationem eorum quae ad divinam
+<lb ed="#L" n="5"/>scientiam pertinent, considerandum est de
+<lb ed="#L" n="6"/>his quae pertinent ad voluntatem divinam: ut
+<lb ed="#L" n="7"/>sit prima consideratio de ipsa Dei voluntate; 
+se<lb break="no" ed="#L" n="8"/>cunda, de his quae ad.voluntatem absolute 
+per<lb break="no" ed="#L" n="9"/>tinent; tertia, de his quae ad intellectum in 
+or<lb break="no" ed="#L" n="10"/>dine ad voluntatem pertinent ^, volitis imponat.
+</p>
+            <p xml:id="TAca84-d1e144-d1e137">
+               <lb ed="#L" n="11"/>Circa ipsam autem voluntatem quaeruntur 
+duo<lb break="no" ed="#L" n="12"/>decim.
+<lb ed="#L" n="13"/>Primo: utrum in Deo sit voluntas.
+<lb ed="#L" n="14"/>Secundo: utrum Deus velit alia a se. 
+<lb ed="#L" n="15"/>Tertio: utrum quidquid Deus vult, ex 
+neces<lb break="no" ed="#L" n="16"/>sitate velit.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="17"/>Quarto: utrum voluntas Dei sit causa rerum.
+<lb ed="#L" n="18"/>Quinto: utrum voluntatis divinae sit assignare
+<lb ed="#L" n="19"/>aliquam causam.
+<lb ed="#L" n="20"/>Sexto: utrum voluntas divina semper impleatur.
+<lb ed="#L" n="21"/>Septimo: utrum voluntas Dei sit mutabilis.
+<lb ed="#L" n="22"/>Octavo: utrum voluntas Dei necessitatem rebus
+<lb ed="#L" n="23"/>Nono: utrum in Deo sit voluntas malorum.
+<lb ed="#L" n="24"/>Decimo: utrum Deus habeat liberum arbitrium.
+<lb ed="#L" n="25"/>Undecimo: utrum sit distinguenda in Deo 
+vo<lb break="no" ed="#L" n="26"/>luntas signi.
+<lb ed="#L" n="27"/>Duodecimo: utrum convenienter circa divinam
+<lb ed="#L" n="28"/>voluntatem ponantur quinque signa.
+</p>
+            <div xml:id="TAca84-d1e144-Dd1e182"><!-- p1-q19-a1 -->
+               <head xml:id="TAca84-d1e144-Hd1e185">Articulus 1</head>
+               <head xml:id="TAca84-d1e144-Hd1e187" type="question-title">
+  utrum in deo sit voluntas
+</head>
+               <p xml:id="TAca84-d1e144-d1e190">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="29"/>ARTICULUS PRIMUS
+<lb ed="#L" n="30"/>UTRUM IN DEO SIT VOLUNTAS
+</p>
+               <p xml:id="TAca84-d1e144-d1e199">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="31"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="32"/>in Deo non sit voluntas. Obiectum enim 
+<lb ed="#L" n="33"/>voluntatis est finis et bonum. Sed Dei
+<lb ed="#L" n="34"/>non est assignare aliquem finem. Ergo 
+<lb ed="#L" n="35"/>voluntas non est in Deo.
+</p>
+               <p xml:id="TAca84-d1e144-d1e215">
+                  <lb ed="#L" n="36"/>2. PnaETEREA, voluntas est appetitus quidam
+<lb ed="#L" n="37"/>Appetitus autem, cum sit rei non habitae, 
+im<lb break="no" ed="#L" n="38"/>perfectionem designat, quae Deo non competit
+<lb ed="#L" n="39"/>Ergo voluntas non est in Deo.
+</p>
+               <p xml:id="TAca84-d1e144-d1e227">
+                  <lb ed="#L" n="40"/>3. PRAETEREA, secundum Philosophum, in Il] 
+<lb ed="#L" n="41"/>de Anima, voluntas est movens motum. Sed 
+<lb ed="#L" n="42"/>Deus est primum movens immobile ?, ut 
+proba<lb break="no" ed="#L" n="43"/>tur VIII Physic. Ergo in Deo non est voluntas.
+</p>
+               <p xml:id="TAca84-d1e144-d1e238">
+                  <lb ed="#L" n="44"/>SED CONTRA EST quod dicit Apostolus, Rom.xu:
+<lb ed="#L" n="45"/>ut probetis quae sit voluntas Dei.
+</p>
+               <p xml:id="TAca84-d1e144-d1e245">
+                  <lb ed="#L" n="46"/>RrsPoNpEO picENDUM in Deo voluntatem esse,
+<lb ed="#L" n="47"/>sicut et in eo est intellectus: voluntas enim 
+intel<lb break="no" ed="#L" n="48"/>lectum consequitur. Sicut enim res naturalis habet
+<lb ed="#L" n="49"/>esse in actu per suam formam, ita intellectus 
+in<lb break="no" ed="#L" n="50"/>telligens actu ? per suam formam intelligibilem.
+<lb ed="#L" n="51"/>Quaelibet autem res ad suam formam naturalem
+<lb ed="#L" n="52"/>hanc habet habitudinem, ut quando non habet
+<lb ed="#L" n="53"/>ipsam, tendat in eam; et quando habet ipsam,
+<lb ed="#L" n="54"/>quiescat in ea. Et idem est de qualibet perfectione
+<lb ed="#L" n="55"/>naturali, quod est bonum naturae. Et haec 
+ha<lb break="no" ed="#L" n="56"/>bitudo ad bonum, in rebus carentibus cognitione,
+<lb ed="#L" n="57"/>vocatur appetitus naturalis. Unde et natura 
+intel<lb break="no" ed="#L" n="58"/>lectualis ad bonum apprehensum per formam 
+in<lb break="no" ed="#L" n="59"/>telligibilem, similem habitudinem habet: ut scilicet,
+<lb ed="#L" n="60"/>cum habet ipsum, quiescat in illo; cum vero non
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="61"/>habet, quaerat ipsum. Et utrumque pertinet ad
+<lb ed="#L" n="62"/>voluntatem. Unde in quolibet habente intellectum,
+<lb ed="#L" n="63"/>est voluntas; sicut in quolibet habente sensum,
+<lb ed="#L" n="64"/>est appetitus animalis. Et sic oportet in Deo esse
+<lb ed="#L" n="65"/>voluntatem, cum sit in eo intellectus. Et sicut
+<lb ed="#L" n="66"/>suum intelligere est suum esse, ita suum velle.
+</p>
+               <p xml:id="TAca84-d1e144-d1e295">
+                  <lb ed="#L" n="67"/>AD PRIMUM ERGO DICENDUM quod, licet nihil aliud
+<lb ed="#L" n="68"/>a Deo sit finis Dei, tamen ipsemet est finis 
+re<lb break="no" ed="#L" n="69"/>spectu omnium quae ab eo fiunt. Et hoc per
+<lb ed="#L" n="70"/>suam essentiam, cum per suam essentiam sit 
+bo<lb break="no" ed="#L" n="71"/>nus, ut supra ostensum est: finis enim habet 
+<lb ed="#L" n="72"/>rationem boni.
+</p>
+               <p xml:id="TAca84-d1e144-d1e311">
+                  <lb ed="#L" n="73"/>Ab SECUNDUM DICENDUM quod voluntas in nobis
+<lb ed="#L" n="74"/>pertinet ad appetitivam partem: quae. licet ab
+<lb ed="#L" n="75"/>appetendo nominetur, non tamen hunc solum
+<lb ed="#L" n="76"/>habet actum, ut appetat quae non habet; sed
+<lb ed="#L" n="77"/>etiam ut amet quod habet, et delectetur in illo.
+<lb ed="#L" n="78"/>Et quantum ad hoc voluntas in Deo ponitur;
+<lb ed="#L" n="79"/>quae semper habet bonum quod est eius 
+obie<lb break="no" ed="#L" n="80"/>ctum, cum sit indifferens ab eo secundum 
+essen<lb break="no" ed="#L" n="81"/>tiam, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e144-d1e333">
+                  <lb ed="#L" n="82"/>Ap TERTIUM DICENDUM quod voluntas cuius 
+obie<lb break="no" ed="#L" n="83"/>ctum principale est bonum quod est extra 
+vo<lb break="no" ed="#L" n="84"/>luntatem 5, oportet quod sit mota ab aliquo. Sed
+<lb ed="#L" n="85"/>obiectum divinae voluntatis est bonitas sua, quae
+<lb ed="#L" n="86"/>est eius essentia. Unde, cum voluntas Dei sit eius
+<lb ed="#L" n="87"/>essentia ', non movetur ab alio a se, sed a se
+<lb ed="#L" n="88"/>tantum, eo modo loquendi quo intelligere et velle
+<lb ed="#L" n="89"/>dicitur motus. Et secundum hoc Plato dixit
+<lb ed="#L" n="90"/>quod primum movens movet seipsum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e144-Dd1e356"><!-- p1-q19-a2 -->
+               <head xml:id="TAca84-d1e144-Hd1e359">Articulus 2</head>
+               <head xml:id="TAca84-d1e144-Hd1e361" type="question-title">
+  utrum deus velit alia a se
+</head>
+               <p xml:id="TAca84-d1e144-d1e364">
+                  <pb ed="#L" n="236"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM DEUS VELIT ALIA A SE
+</p>
+               <p xml:id="TAca84-d1e144-d1e375">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>Deus non velit alia a se. Velle enim 
+di<lb break="no" ed="#L" n="5"/>vinum est eius esse. Sed Deus non est
+<lb ed="#L" n="6"/>aliud a se. Ergo non vult aliud a se.
+</p>
+               <p xml:id="TAca84-d1e144-d1e388">
+                  <lb ed="#L" n="7"/>2. PRAETEREA, volitum movet voluntatem, sicut
+<lb ed="#L" n="8"/>appetibile appetitum, ut dicitur in III de Anzma.
+<lb ed="#L" n="9"/>Si igitur Deus velit aliquid aliud a se, 
+movebi<lb break="no" ed="#L" n="10"/>tur eius voluntas ab aliquo alio: quod est 
+im<lb break="no" ed="#L" n="11"/>possibile.
+</p>
+               <p xml:id="TAca84-d1e144-d1e402">
+                  <lb ed="#L" n="12"/>3. PRAETEREA, cuicumque voluntati ? sufficit 
+ali<lb break="no" ed="#L" n="13"/>quod volitum, nihil quaerit extra illud. Sed Deo
+<lb ed="#L" n="14"/>Sufficit sua bonitas, et voluntas eius ex ea 
+satia<lb break="no" ed="#L" n="15"/>tur. Ergo Deus non vult aliquid aliud a se.
+</p>
+               <p xml:id="TAca84-d1e144-d1e413">
+                  <lb ed="#L" n="16"/>4. PRAETEREA, actus voluntatis multiplicatur 
+se<lb break="no" ed="#L" n="17"/>cundum volita. Si igitur Deus velit se et alia ?
+<lb ed="#L" n="18"/>a se, sequitur quod actus voluntatis eius sit 
+mul<lb break="no" ed="#L" n="19"/>tiplex: et per consequens eius esse, quod est eius
+<lb ed="#L" n="20"/>velle. Hoc autem est impossibile. Non ergo vult
+<lb ed="#L" n="21"/>alia a se.
+</p>
+               <p xml:id="TAca84-d1e144-d1e429">
+                  <lb ed="#L" n="22"/>SED CONTRA EsT quod Apostolus dicit, I 77ess.1v:
+<lb ed="#L" n="23"/>haec est voluntas Dei, sanctificatio vestra.
+</p>
+               <p xml:id="TAca84-d1e144-d1e436">
+                  <lb ed="#L" n="24"/>REsPoNpEO picENDUM quod Deus non solum se
+<lb ed="#L" n="25"/>vult, sed etiam alia a se. Quod apparet a ? simili
+<lb ed="#L" n="26"/>prius introducto. Res enim naturalis non solum
+<lb ed="#L" n="27"/>habet naturalem inclinationem respectu proprii
+<lb ed="#L" n="28"/>boni, ut acquirat ipsum cum non habet, vel ut
+<lb ed="#L" n="29"/>quiescat in illo cum habet; sed etiam ut proprium
+<lb ed="#L" n="30"/>bonum in alia diffundat, secundum quod 
+possi<lb break="no" ed="#L" n="31"/>bile est. Unde videmus quod omne agens, 
+inquan<lb break="no" ed="#L" n="32"/>tum est actu et perfectum, facit sibi simile. Unde
+<lb ed="#L" n="33"/>et hoc pertinet ad rationem voluntatis, ut 
+bo<lb break="no" ed="#L" n="34"/>num quod quis habet, aliis communicet, secundum
+<lb ed="#L" n="35"/>quod possibile est. Et hoc praecipue pertinet ad
+<lb ed="#L" n="36"/>voluntatem divinam, a qua, per quandam 
+simili<lb break="no" ed="#L" n="37"/>tudinem, derivatur omnis perfectio. Unde, si res
+<lb ed="#L" n="38"/>naturales, inquantum perfectae sunt, suum bonum
+<lb ed="#L" n="39"/>alis communicant, multo magis pertinet ad 
+vo<lb break="no" ed="#L" n="40"/>luntatem divinam, ut bonum suum aliis per 
+si<lb break="no" ed="#L" n="41"/>militudinem communicet, secundum quod possi-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="42"/>bile est. Sic igitur vult et se esse, et alia. Sed
+<lb ed="#L" n="43"/>se ut finem, alia vero ut ad finem, inquantum
+<lb ed="#L" n="44"/>condecet divinam bonitatem etiam alia ipsam
+<lb ed="#L" n="45"/>participare.
+</p>
+               <p xml:id="TAca84-d1e144-d1e488">
+                  <lb ed="#L" n="46"/>AD PRIMUM ERGO DICENDUM quod, licet divinum
+<lb ed="#L" n="47"/>velle sit eius esse secundum rem, tamen differt
+<lb ed="#L" n="48"/>ratione, secundum diversum modum intelligendi
+<lb ed="#L" n="49"/>et significandi, ut ex superioribus patet. In hoc
+<lb ed="#L" n="50"/>enim quod dico Deum esse, non importatur 
+ha<lb break="no" ed="#L" n="51"/>bitudo ad aliquid, sicut in hoc quod dico Deum
+<lb ed="#L" n="52"/>velle. Et ideo, licet non sit aliquid aliud a se,
+<lb ed="#L" n="53"/>vult tamen aliquid aliud a se.
+</p>
+               <p xml:id="TAca84-d1e144-d1e508">
+                  <lb ed="#L" n="54"/>AD SECUNDUM DICENDUM quod in his quae 
+vo<lb break="no" ed="#L" n="55"/>lumus propter finem, tota ratio movendi est finis:
+<lb ed="#L" n="56"/>et hoc est quod movet voluntatem. Et hoc 
+ma<lb break="no" ed="#L" n="57"/>xime apparet in his quae volumus tantum 
+pro<lb break="no" ed="#L" n="58"/>pter finem. Qui enim vult sumere potionem ^
+<lb ed="#L" n="59"/>amaram, nihil in ea vult nisi sanitatem: et hoc
+<lb ed="#L" n="60"/>solum est quod movet eius voluntatem. Secus
+<lb ed="#L" n="61"/>autem est in eo qui sumit potionem dulcem,
+<lb ed="#L" n="62"/>quam non solum propter sanitatem, sed etiam
+<lb ed="#L" n="63"/>propter se aliquis velle potest. Unde, cum Deus
+<lb ed="#L" n="64"/>alia a se non velit nisi propter finem qui est sua
+<lb ed="#L" n="65"/>bonitas, ut dictum est, non sequitur quod 
+ali<lb break="no" ed="#L" n="66"/>quid aliud moveat voluntatem eius nisi bonitas
+<lb ed="#L" n="67"/>sua. Et sic, sicut alia a se intelligit intelligendo
+<lb ed="#L" n="68"/>essentiam suam, ita alia a se vult, volendo 
+bo<lb break="no" ed="#L" n="69"/>nitatem suam.
+</p>
+               <p xml:id="TAca84-d1e144-d1e546">
+                  <lb ed="#L" n="70"/>AD TERTIUM DICENDUM quod ex hoc quod 
+vo<lb break="no" ed="#L" n="71"/>luntati divinae sufficit sua bonitas, non sequitur
+<lb ed="#L" n="72"/>quod nihil aliud velit: sed quod nihil aliud vult
+<lb ed="#L" n="73"/>nisi ratione suae bonitatis. Sicut etiam intellectus
+<lb ed="#L" n="74"/>divinus, licet sit perfectus ex hoc ipso quod 
+es<lb break="no" ed="#L" n="75"/>sentiam divinam cognoscit, tamen in ea 
+cogno<lb break="no" ed="#L" n="76"/>scit alia.
+</p>
+               <p xml:id="TAca84-d1e144-d1e564">
+                  <lb ed="#L" n="77"/>AD QUARTUM DICENDUM quod, sicut intelligere 
+di<lb break="no" ed="#L" n="78"/>vinum est unum, quia multa non videt nisi in uno;
+<lb ed="#L" n="79"/>ita velle divinum est unum et simplex, quia multa
+<lb ed="#L" n="80"/>non vult nisi per unum, quod est bonitas sua.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e144-Dd1e576"><!-- p1-q19-a3 -->
+               <head xml:id="TAca84-d1e144-Hd1e579">Articulus 3</head>
+               <head xml:id="TAca84-d1e144-Hd1e581" type="question-title">
+  utrum quidquid deus vult, ex necessitate velit.
+</head>
+               <p xml:id="TAca84-d1e144-d1e584">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="107"/>ARTICULUS TERTIUS
+<lb ed="#L" n="108"/>UTRUM QUIDQUID DEUS VULT, EX NECESSITATE VELIT.
+</p>
+               <p xml:id="TAca84-d1e144-d1e593">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="109"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="110"/>quidquid Deus vult, ex necessitate velit.
+<lb ed="#L" n="111"/>Omne enim aeternum est necessarium.
+<lb ed="#L" n="112"/>Sed quidquid Deus, vult, ab aeterno
+<lb ed="#L" n="113"/>vult: alias, voluntas eius esset mutabilis. Ergo
+<lb ed="#L" n="114"/>quidquid vult, ex necessitate vult.
+</p>
+               <p xml:id="TAca84-d1e144-d1e611">
+                  <lb ed="#L" n="115"/>2. PnaETEREA, Deus vult alia a se, inquantum
+<lb ed="#L" n="116"/>vult bonitatem suam. Sed Deus bonitatem suam ex
+<lb ed="#L" n="117"/>necessitate vult. Ergo alia a se ex necessitate vult.
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="118"/>3. PRAETEREA, quidquid est Deo naturale, est
+<lb ed="#L" n="119"/>necessarium: quia Deus est per se necesse esse,
+<lb ed="#L" n="120"/>et principium omnis necessitatis, ut supra 
+osten<lb break="no" ed="#L" n="121"/>sum est. Sed naturale est ei velle quidquid vult:
+<lb ed="#L" n="122"/>quia in Deo nihil potest esse praeter naturam,
+<lb ed="#L" n="123"/>ut dicitur in V Metaphys. Ergo quidquid vult,
+<lb ed="#L" n="124"/>ex necessitate vult.
+</p>
+               <p xml:id="TAca84-d1e144-d1e638">
+                  <lb ed="#L" n="125"/>4. PRAETEREA, non necesse esse, et possibile
+<lb ed="#L" n="126"/>non esse, aequipollent. Si igitur non necesse est
+<pb ed="#L" n="238"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Deum velle aliquid eorum quae vult, possibile
+<lb ed="#L" n="2"/>est eum non velle illud; et possibile est eum
+<lb ed="#L" n="3"/>velle illud quod non vult. Ergo voluntas 
+di<lb break="no" ed="#L" n="4"/>vina est contingens ad utrumlibet. Et sic 
+imper<lb break="no" ed="#L" n="5"/>fecta: quia omne contingens est imperfectum et
+<lb ed="#L" n="6"/>mutabile ?.
+</p>
+               <p xml:id="TAca84-d1e144-d1e662">
+                  <lb ed="#L" n="7"/>5. PRAETEREA, ab eo quod est ad utrumlibet,
+<lb ed="#L" n="8"/>non sequitur aliqua actio, nisi ab aliquo alio 
+in<lb break="no" ed="#L" n="9"/>clinetur ad unum, ut dicit Commentator, in II
+<lb ed="#L" n="10"/>Physic. Si ergo voluntas Dei in aliquibus se
+<lb ed="#L" n="11"/>habet ad utrumlibet, sequitur quod ab aliquo alio
+<lb ed="#L" n="12"/>determinetur ad effectum. Et sic habet aliquam
+<lb ed="#L" n="13"/>causam priorem.
+</p>
+               <p xml:id="TAca84-d1e144-d1e680">
+                  <lb ed="#L" n="14"/>6. PRAETEREA, quidquid Deus scit, ex necessitate
+<lb ed="#L" n="15"/>scit. Sed sicut scientia divina est eius essentia,
+<lb ed="#L" n="16"/>ita voluntas divina. Ergo quidquid Deus vult, ex
+<lb ed="#L" n="17"/>necessitate vult.
+</p>
+               <p xml:id="TAca84-d1e144-d1e691">
+                  <lb ed="#L" n="18"/>SED.CONTRA EsT quod dicit Apostolus, Ephes. 1:
+<quote xml:id="TAca84-d1e144-Qd1e695">Qui operatur omnia secundum consilium 
+volun<lb break="no" ed="#L" n="19"/>tatis suae</quote>. Quod autem operamur ex consilio
+<lb ed="#L" n="20"/>voluntatis, non ex necessitate volumus. Non ergo
+<lb ed="#L" n="21"/>quidquid Deus vult, ex necessitate vult.
+</p>
+               <p xml:id="TAca84-d1e144-d1e705">
+                  <lb ed="#L" n="22"/>RESPONDEO DICENDUM quod necessarium dicitur
+<lb ed="#L" n="23"/>aliquid dupliciter: scilicet absolute, et ex 
+suppo<lb break="no" ed="#L" n="24"/>sitione. Necessarium absolute iudicatur aliquid ex
+<lb ed="#L" n="25"/>habitudine terminorum: utpote quia praedicatum
+<lb ed="#L" n="26"/>est in definitione subiecti, sicut necessarium est
+<lb ed="#L" n="27"/>hominem esse animal; vel quia subiectum est de
+<lb ed="#L" n="28"/>ratione praedicati, sicut hoc est necessarium, 
+nu<lb break="no" ed="#L" n="29"/>merum esse parem vel imparem. Sic autem non
+<lb ed="#L" n="30"/>est necessarium Socratem sedere. Unde non est
+<lb ed="#L" n="31"/>necessarium absolute, sed potest dici necessarium
+<lb ed="#L" n="32"/>ex suppositione: supposito enim quod sedeat,
+<lb ed="#L" n="33"/>necesse est eum sedere dum sedet.
+</p>
+               <p xml:id="TAca84-d1e144-d1e734">
+                  <lb ed="#L" n="34"/>Circa divina igitur volita hoc. considerandum
+<lb ed="#L" n="35"/>est, quod aliquid Deum velle est necessarium
+<lb ed="#L" n="36"/>absolute: non tamen hoc est verum de omnibus
+<lb ed="#L" n="37"/>quae vult. Voluntas enim divina necessariam 
+ha<lb break="no" ed="#L" n="38"/>bitudinem habet ad bonitatem suam, quae est
+<lb ed="#L" n="39"/>proprium eius obiectum. Unde bonitatem suam
+<lb ed="#L" n="40"/>esse Deus ex necessitate vult; sicut et voluntas
+<lb ed="#L" n="41"/>nostra ex necessitate vult beatitudinem. Sicut et
+<lb ed="#L" n="42"/>quaelibet alia potentia necessariam habitudinem
+<lb ed="#L" n="43"/>habet ad proprium et principale obiectum, ut 
+vi<lb break="no" ed="#L" n="44"/>sus ad colorem; quia de sui ratione est, ut in
+<lb ed="#L" n="45"/>illud tendat. Alia autem a se Deus vult, 
+inquan<lb break="no" ed="#L" n="46"/>tum ordinantur ad suam bonitatem ut in finem.
+</p>
+               <p xml:id="TAca84-d1e144-d1e766">
+                  <lb ed="#L" n="47"/>Ea autem quae sunt ad finem, non ex 
+necessi<lb break="no" ed="#L" n="48"/>tate volumus volentes finem, nisi sint talia, sine
+<lb ed="#L" n="49"/>quibus finis esse non potest: sicut volumus 
+ci<lb break="no" ed="#L" n="50"/>bum, volentes conservationem vitae; et navem,
+<lb ed="#L" n="51"/>volentes transfretare. Non sic autem ex 
+necessi<lb break="no" ed="#L" n="52"/>tate volumus ea sine quibus finis esse potest,
+<lb ed="#L" n="53"/>sicut equum ad ambulandum: quia sine hoc pos-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="54"/>sumus ire; et eadem ratio est in aliis. Unde, cum
+<lb ed="#L" n="55"/>bonitas Dei sit perfecta, et " esse possit sine aliis,
+<lb ed="#L" n="56"/>cum nihil ei perfectionis ex aliis accrescat; 
+se<lb break="no" ed="#L" n="57"/>quitur quod alia a se eum velle, non sit 
+ne<lb break="no" ed="#L" n="58"/>cessarium absolute. Et tamen necessarium est ex
+<lb ed="#L" n="59"/>suppositione: supposito enim quod velit, non
+<lb ed="#L" n="60"/>potest non velle, quia non potest voluntas eius
+<lb ed="#L" n="61"/>mutari.
+</p>
+               <p xml:id="TAca84-d1e144-d1e803">
+                  <lb ed="#L" n="62"/>AD PRIMUM ERGO DICENDUM quod ex hoc quod
+<lb ed="#L" n="63"/>Deus ab aeterno vult aliquid ^, non sequitur quod
+<lb ed="#L" n="64"/>necesse est eum illud velle, nisi ex suppositione.
+</p>
+               <p xml:id="TAca84-d1e144-d1e812">
+                  <lb ed="#L" n="65"/>AD SECUNDUM DICENDUM quod, licet Deus ex 
+ne<lb break="no" ed="#L" n="66"/>cessitate velit bonitatem suam, non tamen ex
+<lb ed="#L" n="67"/>necessitate vult ea quae vult propter bonitatem
+<lb ed="#L" n="68"/>suam: quia bonitas eius potest esse sine aliis.
+</p>
+               <p xml:id="TAca84-d1e144-d1e823">
+                  <lb ed="#L" n="69"/>AD TERTIUM DICENDUM quod non est naturale
+<lb ed="#L" n="70"/>Deo velle aliquid aliorum, quae non ex 
+neces<lb break="no" ed="#L" n="71"/>sitate vult. Neque tamen innaturale, aut contra
+<lb ed="#L" n="72"/>naturam: sed est voluntarium.
+</p>
+               <p xml:id="TAca84-d1e144-d1e834">
+                  <lb ed="#L" n="73"/>ÀD QUARTUM DICENDUM quod aliquando aliqua
+<lb ed="#L" n="74"/>causa necessaria habet non necessariam 
+habitu<lb break="no" ed="#L" n="75"/>dinem ad aliquem effectum: quod est propter
+<lb ed="#L" n="76"/>defectum effectus, et non propter defectum 
+cau<lb break="no" ed="#L" n="77"/>sae. Sicut virtus solis habet non necessariam 
+ha<lb break="no" ed="#L" n="78"/>bitudinem ad aliquid eorum quae contingenter hic
+<lb ed="#L" n="79"/>eveniunt, non propter defectum virtutis solaris,
+<lb ed="#L" n="80"/>sed propter defectum effectus non necessario ex
+<lb ed="#L" n="81"/>causa provenientis. Et similiter, quod Deus non
+<lb ed="#L" n="82"/>ex necessitate velit aliquid eorum quae vult, non
+<lb ed="#L" n="83"/>accidit ex defectu voluntatis divinae, sed ex 
+de<lb break="no" ed="#L" n="84"/>fectu qui competit volito secundum suam 
+ratio<lb break="no" ed="#L" n="85"/>nem: quia scilicet est tale, ut sine eo esse possit
+<lb ed="#L" n="86"/>perfecta bonitas Dei. Qui quidem defectus 
+con<lb break="no" ed="#L" n="87"/>sequitur omne bonum creatum.
+</p>
+               <p xml:id="TAca84-d1e144-d1e869">
+                  <lb ed="#L" n="88"/>ÀD QUINTUM ERGO ? DICENDUM quod causa quae
+<lb ed="#L" n="89"/>est ex se contingens, oportet quod determinetur
+<lb ed="#L" n="90"/>ab aliquo exteriori ad effectum. Sed voluntas 
+di<lb break="no" ed="#L" n="91"/>vina, quae ex se necessitatem habet, determinat
+<lb ed="#L" n="92"/>seipsam ad volitum, ad quod habet habitudinem
+<lb ed="#L" n="93"/>non necessariam.
+</p>
+               <p xml:id="TAca84-d1e144-d1e886">
+                  <lb ed="#L" n="94"/>AD SEXTUM DICENDUM quod, sicut divinum esse
+<lb ed="#L" n="95"/>in se est necessarium, ita et divinum velle et
+<lb ed="#L" n="96"/>divinum scire: sed divinum scire habet 
+necessa<lb break="no" ed="#L" n="97"/>riam habitudinem ad scita, non autem divinum
+<lb ed="#L" n="98"/>velle ad volita. Quod ideo est, quia scientia 
+ha<lb break="no" ed="#L" n="99"/>betur de rebus, secundum quod sunt in sciente:
+<lb ed="#L" n="100"/>voluntas autem comparatur ad res, secundum
+<lb ed="#L" n="101"/>quod sunt in seipsis. Quia igitur omnia alia
+<lb ed="#L" n="102"/>habent necessarium esse secundum quod sunt in
+<lb ed="#L" n="103"/>Deo; non autem secundum quod sunt in seipsis,
+<lb ed="#L" n="104"/>habent necessitatem absolutam, ita quod sint per
+<lb ed="#L" n="105"/>seipsa necessaria; propter hoc Deus quaecumque
+<lb ed="#L" n="106"/>scit, ex necessitate scit, non autem. quaecumque
+<lb ed="#L" n="107"/>vult, ex necessitate vult.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e144-Dd1e920"><!-- p1-q19-a4 -->
+               <head xml:id="TAca84-d1e144-Hd1e923">Articulus 4</head>
+               <head xml:id="TAca84-d1e144-Hd1e925" type="question-title">
+  utrum voluntas dei sit causa rerum
+</head>
+               <p xml:id="TAca84-d1e144-d1e928">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="25"/>ARTICULUS QUARTUS
+<lb ed="#L" n="26"/>UTRUM VOLUNTAS DEI SIT CAUSA RERUM
+</p>
+               <p xml:id="TAca84-d1e144-d1e937">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="27"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="28"/>voluntas Dei non sit causa rerum. Dicit
+<lb ed="#L" n="29"/>»enim Dionysius, cap. iv de Div. Nom.:
+<lb ed="#L" n="30"/>R55 N.Sicut noster sol, non ratiocinans aut
+<lb ed="#L" n="31"/>praeeligens, sed per ipsum esse illuminat omnia
+<lb ed="#L" n="32"/>participare lumen ipsius valentia; ita et bonum
+<lb ed="#L" n="33"/>divinum per ipsam essentiam omnibus 
+existenti<lb break="no" ed="#L" n="34"/>bus immittit bonitatis suae radios. Sed omne quod
+<lb ed="#L" n="35"/>agit per voluntatem, agit ut ratiocinans et 
+prae<lb break="no" ed="#L" n="36"/>eligens ^. Ergo Deus non agit per voluntatem.
+<lb ed="#L" n="37"/>Ergo voluntas Dei non est causa rerum.
+</p>
+               <p xml:id="TAca84-d1e144-d1e966">
+                  <lb ed="#L" n="38"/>2. PRAETEREA, id quod est per essentiam, est
+<lb ed="#L" n="39"/>primum in quolibet ordine: sicut in ordine 
+igni<lb break="no" ed="#L" n="40"/>torum est primum, quod est ignis per essentiam.
+<lb ed="#L" n="41"/>Sed Deus est primum agens. Ergo est agens per
+<lb ed="#L" n="42"/>essentiam suam, quae est natura eius. Agit igitur
+<lb ed="#L" n="43"/>per naturam, et non per voluntatem. Voluntas
+<lb ed="#L" n="44"/>igitur divina non est causa rerum.
+</p>
+               <p xml:id="TAca84-d1e144-d1e985">
+                  <lb ed="#L" n="45"/>3. PRAETEREA, quidquid est causa alicuius per
+<lb ed="#L" n="46"/>hoc quod est tale, est causa per naturam, et non
+<lb ed="#L" n="47"/>per voluntatem: ignis enim causa est 
+calefactio<lb break="no" ed="#L" n="48"/>nis, quia est calidus; sed artifex est causa domus,
+<lb ed="#L" n="49"/>quia vult eam facere. Sed Augustinus dicit, in I
+<lb ed="#L" n="50"/>de Doct. Christ., quod quia Deus bonus est,
+<lb ed="#L" n="51"/>sumus. Ergo Deus per suam naturam est causa
+<lb ed="#L" n="52"/>rerum, et non per voluntatem.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1005">
+                  <lb ed="#L" n="53"/>4. PRAETEREA, unius rei una est causa. Sed 
+re<lb break="no" ed="#L" n="54"/>rum creatarum est causa scientia Dei, ut supra
+<lb ed="#L" n="55"/>dictum est. Ergo voluntas Dei non debet poni
+<lb ed="#L" n="56"/>causa rerum.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1016">
+                  <lb ed="#L" n="57"/>SED coNTRA EsT quod dicitur Sap. x1: Quomodo
+<lb ed="#L" n="58"/>posset aliquid permanere, nisi tu. voluisses?
+</p>
+               <p xml:id="TAca84-d1e144-d1e1023">
+                  <lb ed="#L" n="59"/>RESPONDEO DICENDUM quod necesse est dicere
+<lb ed="#L" n="60"/>voluntatem Dei esse causam rerum, et Deum agere
+<lb ed="#L" n="61"/>per voluntatem, non per necessitatem naturae, ut
+<lb ed="#L" n="62"/>quidam existimaverunt. Quod quidem apparere
+<lb ed="#L" n="63"/>potest tripliciter. Primo quidem, ex ipso ordine
+<lb ed="#L" n="64"/>causarum agentium. Cum enim propter finem agat
+<lb ed="#L" n="65"/>et intellectus ? et natura, ut probatur in II Physic.,
+<lb ed="#L" n="66"/>necesse est ut agenti per naturam 
+praedetermi<lb break="no" ed="#L" n="67"/>netur finis, et media necessaria ad finem, ab ali-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="68"/>quo superiori intellectu; sicut sagittae 
+praedeter<lb break="no" ed="#L" n="69"/>minatur finis et certus modus a sagittante. Unde
+<lb ed="#L" n="70"/>necesse est quod agens per intellectum et 
+volun<lb break="no" ed="#L" n="71"/>tatem, sit prius agente per naturam. Unde, cum
+<lb ed="#L" n="72"/>primum in ordine agentium sit Deus, necesse
+<lb ed="#L" n="73"/>est quod per intellectum et voluntatem agat.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1060">
+                  <lb ed="#L" n="74"/>Secundo, ex ratione naturalis agentis, ad quod
+<lb ed="#L" n="75"/>pertinet ut unum effectum producat: quia natura
+<lb ed="#L" n="76"/>uno et eodem modo operatur, nisi impediatur.
+<lb ed="#L" n="77"/>Et hoc ideo, quia secundum quod est tale, agit:
+<lb ed="#L" n="78"/>unde, quandiu est tale, non facit nisi tale. Omne
+<lb ed="#L" n="79"/>enim agens per naturam, habet esse determinatum.
+<lb ed="#L" n="80"/>Cum igitur esse divinum non sit determinatum,
+<lb ed="#L" n="81"/>sed contineat in se totam perfectionem essendi,
+<lb ed="#L" n="82"/>non potest esse quod agat per necessitatem 
+na<lb break="no" ed="#L" n="83"/>turae: nisi forte causaret aliquid indeterminatum
+<lb ed="#L" n="84"/>et infinitum in essendo; quod est impossibile, ut
+<lb ed="#L" n="85"/>ex superioribus patet. Non igitur agit per 
+ne<lb break="no" ed="#L" n="86"/>cessitatem naturae; sed effectus determinati ab
+<lb ed="#L" n="87"/>infinita ipsius perfectione procedunt, secundum
+<lb ed="#L" n="88"/>determinationem voluntatis et intellectus ipsius.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1095">
+                  <lb ed="#L" n="89"/>Tertio, ex habitudine effectuum ad causam.
+<lb ed="#L" n="90"/>Secundum hoc enim effectus procedunt a causa
+<lb ed="#L" n="91"/>agente, secundum quod praeexistunt in ea: quia
+<lb ed="#L" n="92"/>omne agens agit sibi simile. Praeexistunt autem
+<lb ed="#L" n="93"/>effectus in causa secundum modum causae. Unde,
+<lb ed="#L" n="94"/>cum esse divinum sit ipsum eius intelligere, 
+prae<lb break="no" ed="#L" n="95"/>existunt in eo effectus eius secundum modum
+<lb ed="#L" n="96"/>intelligibilem. Unde et per modum intelligibilem
+<lb ed="#L" n="97"/>procedunt ab eo. Et sic, per consequens, per 
+mo<lb break="no" ed="#L" n="98"/>dum voluntatis: nam inclinatio eius ad agendum
+<lb ed="#L" n="99"/>quod intellectu conceptum est, pertinet ad 
+vo<lb break="no" ed="#L" n="100"/>luntatem. Voluntas igitur Dei est causa rerum.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1125">
+                  <lb ed="#L" n="101"/>Ad PRIMUM ERGO DICENDUM quod Dionysius per
+<lb ed="#L" n="102"/>verba illa non intendit excludere electionem a
+<lb ed="#L" n="103"/>Deo. simpliciter, sed secundum quid: inquantum
+<lb ed="#L" n="104"/>scilicet, non. quibusdam solum bonitatem suam
+<lb ed="#L" n="105"/>communicat, sed omnibus: prout scilicet electio
+<lb ed="#L" n="106"/>discretionem quandam importat.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1141">
+                  <lb ed="#L" n="107"/>AD SECUNDUM DICENDUM quod, quia essentia Dei
+<lb ed="#L" n="108"/>est eius intelligere et velle, ex hoc ipso quod
+<pb ed="#L" n="241"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>per essentiam suam agit, sequitur quod agat per
+<lb ed="#L" n="2"/>modum intellectus et voluntatis.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1157">
+                  <lb ed="#L" n="3"/>AD TERTIUM DICENDUM quod bonum est 
+obie<lb break="no" ed="#L" n="4"/>ctum voluntatis. Pro tanto ergo dicitur, quia Deus
+<lb ed="#L" n="5"/>bonus est, sumus, inquantum sua bonitas est ei
+<lb ed="#L" n="6"/>ratio volendi omnia alia, ut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1168">
+                  <lb ed="#L" n="7"/>AD QUARTUM DICENDUM quod unius et eiusdem
+<lb ed="#L" n="8"/>effectus, etiam in nobis, est causa scientia ut di-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="9"/>rigens, qua concipitur forma operis, et voluntas
+<lb ed="#L" n="10"/>ut imperans: quia forma, ut est in intellectu 
+tan<lb break="no" ed="#L" n="11"/>tum, non determinatur ad hoc quod sit vel non
+<lb ed="#L" n="12"/>sit in effectu, nisi per voluntatem. Unde 
+intelle<lb break="no" ed="#L" n="13"/>ctus speculativus nihil dicit de operando. Sed
+<lb ed="#L" n="14"/>potentia est causa ut exequens, quia nominat 
+im<lb break="no" ed="#L" n="15"/>mediatum principium operationis. Sed haec omnia
+<lb ed="#L" n="16"/>in Deo unum sunt.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e144-Dd1e1195"><!-- p1-q19-a5 -->
+               <head xml:id="TAca84-d1e144-Hd1e1198">Articulus 5</head>
+               <head xml:id="TAca84-d1e144-Hd1e1200" type="question-title">
+  utrum voluntatis divinae sit assignare aliquam causam
+</head>
+               <p xml:id="TAca84-d1e144-d1e1203">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="39"/>ARTICULUS QUINTUS
+<lb ed="#L" n="40"/>UTRUM VOLUNTATIS DIVINAE SIT ASSIGNARE ALIQUAM CAUSAM
+</p>
+               <p xml:id="TAca84-d1e144-d1e1212">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="41"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="42"/>voluntatis divinae sit assignare aliquam
+<lb ed="#L" n="43"/>causam. Dicit enim Augustinus, libro
+<lb ed="#L" n="44"/>Octoginta trium Quaest.: <quote xml:id="TAca84-d1e144-Qd1e1225">Quis audeat
+<lb ed="#L" n="45"/>dicere Deum irrationabiliter omnia condidisse?</quote>
+                  <lb ed="#L" n="46"/>Sed agenti voluntario, quod est ratio operandi,
+<lb ed="#L" n="47"/>est etiam causa volendi. Ergo voluntas Dei habet
+<lb ed="#L" n="48"/>aliquam. causam.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1237">
+                  <lb ed="#L" n="49"/>2. PRAETEREA, in his quae fiunt a volente qui
+<lb ed="#L" n="50"/>propter nullam causam aliquid vult, non oportet
+<lb ed="#L" n="51"/>aliam causam assignare nisi voluntatem 
+volen<lb break="no" ed="#L" n="52"/>tis. Sed voluntas Dei est causa omnium rerum,
+<lb ed="#L" n="53"/>ut ostensum est. Si igitur voluntatis eius non
+<lb ed="#L" n="54"/>sit aliqua causa, non oportebit in omnibus rebus
+<lb ed="#L" n="55"/>naturalibus aliam causam quaerere, nisi solam 
+vo<lb break="no" ed="#L" n="56"/>luntatem divinam. Et sic omnes scientiae essent
+<lb ed="#L" n="57"/>supervacuae, quae causas aliquorum effectuum
+<lb ed="#L" n="58"/>assignare nituntur: quod videtur inconveniens.
+<lb ed="#L" n="59"/>Est igitur assignare aliquam causam voluntatis
+<lb ed="#L" n="60"/>divinae.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1267">
+                  <lb ed="#L" n="61"/>3. PRAETEREA, quod fit a volente non propter
+<lb ed="#L" n="62"/>aliquam causam, dependet ex simplici voluntate
+<lb ed="#L" n="63"/>eius. Si igitur voluntas Dei non habeat aliquam
+<lb ed="#L" n="64"/>causam, sequitur quod omnia quae fiunt, 
+depen<lb break="no" ed="#L" n="65"/>deant ex simplici eius voluntate, et non habeant
+<lb ed="#L" n="66"/>aliquam aliam causam. Quod est inconveniens.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1283">
+                  <lb ed="#L" n="67"/>SED CONTRA EsT quod dicit Augustinus, in libro
+<lb ed="#L" n="68"/>Octoginta trium Quaest.: <quote xml:id="TAca84-d1e144-Qd1e1289">Omnis causa efficiens
+<lb ed="#L" n="69"/>maior est eo quod efficitur; nihil tamen maius est
+<lb ed="#L" n="70"/>voluntate Dei; non ergo causa eius quaerenda est.</quote>
+               </p>
+               <p xml:id="TAca84-d1e144-d1e1297">
+                  <lb ed="#L" n="71"/>REsPONDEO DicENDUM quod nullo modo 
+volun<lb break="no" ed="#L" n="72"/>tas Dei causam habet. Ad cuius evidentiam, 
+con<lb break="no" ed="#L" n="73"/>siderandum est quod, cum voluntas sequatur
+<lb ed="#L" n="74"/>intellectum, eodem modo contingit esse causam
+<lb ed="#L" n="75"/>alicuius volentis ut velit, et alicuius intelligentis
+<lb ed="#L" n="76"/>ut intelligat. In intellectu autem sic est quod, si
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="77"/>seorsum intelligat principium, et seorsum 
+conclu<lb break="no" ed="#L" n="78"/>sionem, intelligentia principii est causa scientiae
+<lb ed="#L" n="79"/>conclusionis. Sed si intellectus in ipso principio
+<lb ed="#L" n="80"/>inspiceret conclusionem, uno intuitu 
+apprehen<lb break="no" ed="#L" n="81"/>dens utrumque, in eo scientia conclusionis non
+<lb ed="#L" n="82"/>causaretur ab intellectu principiorum: quia idem
+<lb ed="#L" n="83"/>non est causa sui ipsius. Sed tamen intelligeret
+<lb ed="#L" n="84"/>principia esse causas conclusionis. Similiter est
+<lb ed="#L" n="85"/>ex parte voluntatis, circa quam sic se habet finis
+<lb ed="#L" n="86"/>ad ea quae sunt ad finem, sicut in intellectu 
+prin<lb break="no" ed="#L" n="87"/>cipia ad conclusiones ?. Unde, si aliquis uno actu
+<lb ed="#L" n="88"/>velit finem, et alio actu ea quae sunt ad finem,
+<lb ed="#L" n="89"/>velle finem erit ei causa volendi ea quae sunt
+<lb ed="#L" n="90"/>ad finem. Sed si uno actu velit finem et ea quae
+<lb ed="#L" n="91"/>sunt ad finem, hoc esse non poterit: quia idem
+<lb ed="#L" n="92"/>non est causa sui ipsius. Et tamen erit verum 
+di<lb break="no" ed="#L" n="93"/>cere quod velit ordinare ea quae sunt ad finem,
+<lb ed="#L" n="94"/>in finem.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1354">
+                  <lb ed="#L" n="95"/>Deus autem, sicut uno actu omnia in essentia
+<lb ed="#L" n="96"/>sua intelligit, ita uno actu vult omnia in sua 
+bo<lb break="no" ed="#L" n="97"/>nitate. Unde, sicut in Deo intelligere causam non
+<lb ed="#L" n="98"/>est causa intelligendi effectus, sed ipse intelligit
+<lb ed="#L" n="99"/>effectus in causa ; ita velle finem non est ei causa
+<lb ed="#L" n="100"/>volendi ea quae sunt ad finem, sed tamen vult
+<lb ed="#L" n="101"/>ea quae sunt ad finem, ordinari in finem. Vult
+<lb ed="#L" n="102"/>ergo hoc esse propter hoc: sed non propter
+<lb ed="#L" n="103"/>hoc vult hoc.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1376">
+                  <lb ed="#L" n="104"/>AD PRIMUM ERGO DICENDUM quod voluntas Dei
+<lb ed="#L" n="105"/>rationabilis est, non quod aliquid sit Deo causa
+<lb ed="#L" n="106"/>volendi, sed inquantum vult unum esse propter
+<lb ed="#L" n="107"/>aliud.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1387">
+                  <lb ed="#L" n="108"/>Ap SECUNDUM DICENDUM quod, cum velit Deus
+<lb ed="#L" n="109"/>effectus sic esse, ut ex causis certis proveniant,
+<lb ed="#L" n="110"/>ad hoc quod servetur ordo in rebus; non est 
+su<lb break="no" ed="#L" n="111"/>pervacuum, etiam cum voluntate Dei, alias causas
+<lb ed="#L" n="112"/>quaerere. Esset tamen supervacuum, si aliae cau-
+<pb ed="#L" n="243"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sae quaererentur ut primae, et non dependentes a
+<lb ed="#L" n="2"/>divina voluntate. Et sic loquitur Augustinus in III
+<lb ed="#L" n="3"/>de Trin.: Placuit vanitati philosophorum etiam
+<lb ed="#L" n="4"/>aliis causis effectus contingentes tribuere, cum
+<lb ed="#L" n="5"/>omnino videre non possent superiorem ceteris
+<lb ed="#L" n="6"/>omnibus causam, idest voluntatem Dei.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1419">
+                  <lb ed="#L" n="7"/>Ap TERTIUM DICENDUM quod, cum Deus velit
+<lb ed="#L" n="8"/>effectus esse propter causas, quicumque effectus
+<lb ed="#L" n="9"/>praesupponunt aliquem alium effectum, non 
+de<lb break="no" ed="#L" n="10"/>pendent ex sola Dei voluntate, sed ex " aliquo
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="11"/>alio. Sed primi effectus ex sola divina voluntate
+<lb ed="#L" n="12"/>dependent. Utpote si dicamus quod Deus voluit
+<lb ed="#L" n="13"/>hominem habere manus, ut deservirent 
+intelle<lb break="no" ed="#L" n="14"/>ctui, operando diversa opera: et voluit eum 
+ha<lb break="no" ed="#L" n="15"/>bere intellectum , ad hoc quod esset homo: et
+<lb ed="#L" n="16"/>voluit eum esse hominem, ut frueretur ipso, vel
+<lb ed="#L" n="17"/>ad complementum universi. Quae quidem non
+<lb ed="#L" n="18"/>est reducere ad alios fines creatos. ulteriores. Unde
+<lb ed="#L" n="19"/>huiusmodi dependent ex simplici voluntate Dei:
+<lb ed="#L" n="20"/>alia vero ex ordine etiam aliarum causarum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e144-Dd1e1455"><!-- p1-q19-a6 -->
+               <head xml:id="TAca84-d1e144-Hd1e1458">Articulus 6</head>
+               <head xml:id="TAca84-d1e144-Hd1e1460" type="question-title">
+  utrum voluntas dei semper impleatur
+</head>
+               <p xml:id="TAca84-d1e144-d1e1463">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="110"/>ARTICULUS SEXTUS
+<lb ed="#L" n="111"/>UTRUM VOLUNTAS DEI SEMPER IMPLEATUR
+</p>
+               <p xml:id="TAca84-d1e144-d1e1472">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="112"/>SD GeOD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="113"/>JAN voluntas Dei non semper impleatur.
+<lb ed="#L" n="114"/>Dicit enim Apostolus, I ad Tim.u,
+<lb ed="#L" n="115"/>quod Deus vult omnes homines salvos
+<lb ed="#L" n="116"/>fieri, et ad agnitionem veritatis venire. Sed hoc
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="117"/>non ita evenit. Ergo voluntas Dei non semper
+<lb ed="#L" n="118"/>impletur. 
+</p>
+               <p xml:id="TAca84-d1e144-d1e1494">
+                  <lb ed="#L" n="119"/>2. PRAETEREA, sicut se habet scientia ad verum,
+<lb ed="#L" n="120"/>ita voluntas ad bonum. Sed Deus scit omne 
+ve<lb break="no" ed="#L" n="121"/>rum. Ergo vult omne bonum. Sed non omne
+<pb ed="#L" n="244"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>bonum fit: multa enim bona possunt fieri, quae
+<lb ed="#L" n="2"/>non fiunt. Non ergo voluntas Dei semper 
+im<lb break="no" ed="#L" n="3"/>pletur.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1515">
+                  <lb ed="#L" n="4"/>3. PnRaETEREA, voluntas Dei, cum sit causa 
+pri<lb break="no" ed="#L" n="5"/>ma, non excludit causas medias, ut dictum est.
+<lb ed="#L" n="6"/>Sed effectus causae primae potest impediri per
+<lb ed="#L" n="7"/>defectum causae secundae: sicut effectus virtutis
+<lb ed="#L" n="8"/>motivae impeditur propter debilitatem tibiae. Ergo
+<lb ed="#L" n="9"/>et effectus divinae voluntatis potest impediri 
+pro<lb break="no" ed="#L" n="10"/>pter defectum secundarum causarum. Non ergo
+<lb ed="#L" n="11"/>voluntas Dei semper impletur.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1535">
+                  <lb ed="#L" n="12"/>SED CONTRA EsT quod dicitur in Psalmo cxi:
+<lb ed="#L" n="13"/>omnia quaecumque voluit Deus, fecit.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1542">
+                  <lb ed="#L" n="14"/>RESPONDEO DICENDUM quod necesse est 
+volun<lb break="no" ed="#L" n="15"/>tatem Dei semper impleri. Ad cuius evidentiam,
+<lb ed="#L" n="16"/>considerandum est quod, cum effectus 
+conforme<lb break="no" ed="#L" n="17"/>tur agenti secundum suam formam, eadem ratio
+<lb ed="#L" n="18"/>est in causis agentibus, quae est in causis 
+forma<lb break="no" ed="#L" n="19"/>libus. In formis autem sic est quod, licet aliquid
+<lb ed="#L" n="20"/>possit deficere ab aliqua forma particulari, tamen
+<lb ed="#L" n="21"/>a forma universali nihil deficere potest: potest
+<lb ed="#L" n="22"/>enim esse aliquid quod non est homo vel vivum,
+<lb ed="#L" n="23"/>non autem potest esse aliquid quod non sit ens.
+<lb ed="#L" n="24"/>Unde et ? hoc idem in causis agentibus contingere
+<lb ed="#L" n="25"/>oportet. Potest enim aliquid fieri extra ordinem
+<lb ed="#L" n="26"/>alicuius causae particularis agentis: non autem
+<lb ed="#L" n="27"/>extra ordinem alicuius ? causae universalis, sub
+<lb ed="#L" n="28"/>qua omnes causae particulares comprehenduntur.
+<lb ed="#L" n="29"/>Quia, si aliqua causa particularis deficiat a suo
+<lb ed="#L" n="30"/>effectu, hoc est propter aliquam aliam causam
+<lb ed="#L" n="31"/>particularem impedientem, quae continetur sub
+<lb ed="#L" n="32"/>ordine causae universalis: unde effectus ordinem
+<lb ed="#L" n="33"/>causae universalis nullo modo potest exire. Et
+<lb ed="#L" n="34"/>hoc etiam patet in corporalibus. Potest enim 
+im<lb break="no" ed="#L" n="35"/>pediri quod aliqua stella non inducat suum 
+effe<lb break="no" ed="#L" n="36"/>ctum: sed tamen quicumque effectus ex causa
+<lb ed="#L" n="37"/>corporea impediente in rebus corporalibus 
+conse<lb break="no" ed="#L" n="38"/>quatur, oportet quod reducatur per aliquas causas
+<lb ed="#L" n="39"/>medias in universalem virtutem primi caeli.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1601">
+                  <lb ed="#L" n="40"/>Cum igitur voluntas Dei sit universalis: causa
+<lb ed="#L" n="41"/>omnium rerum, impossibile est quod divina 
+vo<lb break="no" ed="#L" n="42"/>luntas suum effectum non consequatur. Unde
+<lb ed="#L" n="43"/>quod recedere videtur a divina voluntate 
+secun<lb break="no" ed="#L" n="44"/>dum unum ordinem, relabitur in ipsam 
+secun<lb break="no" ed="#L" n="45"/>dum alium: sicut peccator, qui, quantum est in
+<lb ed="#L" n="46"/>se, recedit a divina voluntate peccando, incidit in
+<lb ed="#L" n="47"/>ordinem divinae voluntatis, dum per eius 
+iusti<lb break="no" ed="#L" n="48"/>tiam punitur.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1623">
+                  <lb ed="#L" n="49"/>AD PRIMUM ERGO DICENDUM quod illud verbum
+<lb ed="#L" n="50"/>Apostoli, quod Deus vult omnes homines salvos
+<lb ed="#L" n="51"/>fieri etc., potest tripliciter intelligi. Uno modo, ut
+<lb ed="#L" n="52"/>sit accomoda " distributio, secundum hunc 
+sen<lb break="no" ed="#L" n="53"/>sum, <quote xml:id="TAca84-d1e144-Qd1e1636">Deus vult salvos fieri omnes homines qui 
+sal<lb break="no" ed="#L" n="54"/>vantur</quote>: « non quia nullus homo sit quem salvum
+<lb ed="#L" n="55"/>fieri non velit, sed quia nullus salvus fit, quem.
+<lb ed="#L" n="56"/>non velit salvum fieri, » ut dicit Augustinus.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1646">
+                  <lb ed="#L" n="57"/>Secundo potest intelligi, ut fiat distributio pro
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="58"/>generibus singulorum, et non pro singulis 
+gene<lb break="no" ed="#L" n="59"/>rum, secundum hunc sensum: Deus vult de 
+quo<lb break="no" ed="#L" n="60"/>libet statu hominum salvos fieri, mares et feminas,
+<lb ed="#L" n="61"/>ludaeos et Gentiles, parvos et magnos; non tamen
+<lb ed="#L" n="62"/>omnes de singulis statibus.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1665">
+                  <lb ed="#L" n="63"/>Tertio secundum Damascenum, intelligitur
+<lb ed="#L" n="64"/>de voluntate antecedente, non de voluntate 
+con<lb break="no" ed="#L" n="65"/>sequente. Quae quidem distinctio non accipitur
+<lb ed="#L" n="66"/>ex parte ipsius voluntatis divinae, in qua nihil
+<lb ed="#L" n="67"/>est prius vel posterius; sed ex parte volitorum.
+<lb ed="#L" n="68"/>Ad cuius intellectum , considerandum ' est quod
+<lb ed="#L" n="69"/>unumquodque, secundum quod bonum est, sic
+<lb ed="#L" n="70"/>est volitum a Deo. Aliquid autem potest esse in
+<lb ed="#L" n="71"/>prima sui consideratione, secundum quod 
+abso<lb break="no" ed="#L" n="72"/>lute consideratur, bonum vel malum, quod tamen,
+<lb ed="#L" n="73"/>prout cum aliquo adiuncto consideratur, quae
+<lb ed="#L" n="74"/>est consequens consideratio eius, e contrario se
+<lb ed="#L" n="75"/>habet. Sicut hominem vivere est bonum, et 
+ho<lb break="no" ed="#L" n="76"/>minem occidi est malum, secundum absolutam
+<lb ed="#L" n="77"/>considerationem: sed si addatur circa aliquem 
+ho<lb break="no" ed="#L" n="78"/>minem, quod sit homicida, vel vivens in 
+peri<lb break="no" ed="#L" n="79"/>culum multitudinis, sic bonum est eum occidi,
+<lb ed="#L" n="80"/>et malum est eum vivere. Unde potest dici quod
+<lb ed="#L" n="81"/>iudex iustus antecedenter vult omnem hominem
+<lb ed="#L" n="82"/>vivere; sed consequenter vult homicidam  
+su<lb break="no" ed="#L" n="83"/>spendi. Similiter Deus antecedenter vult omnem
+<lb ed="#L" n="84"/>hominem salvari; sed consequenter vult quosdam
+<lb ed="#L" n="85"/>damnari, secundum exigentiam suae iustitiae. —
+<lb ed="#L" n="86"/>Neque tamen id quod antecedenter volumus, 
+sim<lb break="no" ed="#L" n="87"/>pliciter volumus, sed secundum quid. Quia 
+vo<lb break="no" ed="#L" n="88"/>luntas comparatur ad res, secundum quod in
+<lb ed="#L" n="89"/>seipsis sunt: in seipsis autem sunt in particulari :
+<lb ed="#L" n="90"/>unde simpliciter volumus aliquid, secundum quod
+<lb ed="#L" n="91"/>volumus illud consideratis omnibus circumstantiis
+<lb ed="#L" n="92"/>particularibus: quod est consequenter velle. Unde
+<lb ed="#L" n="93"/>potest dici quod iudex iustus simpliciter vult 
+ho<lb break="no" ed="#L" n="94"/>micidam suspendi: sed secundum quid vellet eum
+<lb ed="#L" n="95"/>vivere, scilicet inquantum est homo. Unde magis
+<lb ed="#L" n="96"/>potest dici velleitas, quam absoluta voluntas. -
+<lb ed="#L" n="97"/>Et sic patet quod quidquid Deus simpliciter vult,
+<lb ed="#L" n="98"/>fit; licet illud quod antecedenter vult, non fiat.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1746">
+                  <lb ed="#L" n="99"/>AD SECUNDUM DICENDUM quod actus 
+cognosciti<lb break="no" ed="#L" n="100"/>vae virtutis est secundum quod cognitum est in
+<lb ed="#L" n="101"/>cognoscente: actus autem virtutis appetitivae est
+<lb ed="#L" n="102"/>ordinatus ad res, secundum quod in seipsis sunt.
+<lb ed="#L" n="103"/>Quidquid autem potest habere rationem entis et
+<lb ed="#L" n="104"/>veri, totum est virtualiter in Deo; sed non totum
+<lb ed="#L" n="105"/>existit in rebus creatis. Et ideo Deus cognoscit
+<lb ed="#L" n="106"/>omne verum: non tamen vult omne bonum, nisi
+<lb ed="#L" n="107"/>inquantum vult se, in quo virtualiter omne 
+bo<lb break="no" ed="#L" n="108"/>num existit.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1770">
+                  <lb ed="#L" n="109"/>AD TERTIUM DICENDUM quod causa prima tunc
+<lb ed="#L" n="110"/>potest impediri a suo effectu per defectum causae
+<lb ed="#L" n="111"/>secundae, quando non est universaliter prima,
+<lb ed="#L" n="112"/>sub se omnes causas comprehendens ?: quia sic
+<lb ed="#L" n="113"/>effectus nullo modo posset suum ordinem 
+eva<lb break="no" ed="#L" n="114"/>dere. Et sic est de voluntate Dei, ut dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e144-Dd1e1788"><!-- p1-q19-a7 -->
+               <head xml:id="TAca84-d1e144-Hd1e1791">Articulus 7</head>
+               <head xml:id="TAca84-d1e144-Hd1e1793" type="question-title">
+  utrum voluntas dei sit mutabilis
+</head>
+               <p xml:id="TAca84-d1e144-d1e1796">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="66"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="67"/>UTRUM VOLUNTAS DEI SIT MUTABILIS
+</p>
+               <p xml:id="TAca84-d1e144-d1e1805">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="68"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="69"/>voluntas Dei sit mutabilis. Dicit enim
+<lb ed="#L" n="70"/>Dominus, Genes. VI: poenitet me fecisse
+<lb ed="#L" n="71"/>hominem. Sed quemcumque poenitet 
+<lb ed="#L" n="72"/>de eo quod fecit, habet mutabilem voluntatem.
+<lb ed="#L" n="73"/>Ergo Deus habet mutabilem voluntatem.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1823">
+                  <lb ed="#L" n="74"/>2. PRAETEREA, lerem. xvii, ex persona Domini
+<lb ed="#L" n="75"/>dicitur: <quote xml:id="TAca84-d1e144-Qd1e1829">Loquar adversus gentem et adversus 
+re<lb break="no" ed="#L" n="76"/>gnum, ut eradicem et destruam et disperdam illud;
+<lb ed="#L" n="77"/>sed si poenitentiam egerit gens illa a malo suo,
+<lb ed="#L" n="78"/>agam et ego poenilentiam super malo quod 
+co<lb break="no" ed="#L" n="79"/>gitavi ut facerem ei</quote>. Ergo Deus habet 
+mutabi<lb break="no" ed="#L" n="80"/>lem voluntatem.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1844">
+                  <lb ed="#L" n="81"/>3. PRAETEREA, quidquid Deus facit, voluntarie
+<lb ed="#L" n="82"/>facit. Sed Deus non semper eadem facit: nam
+<lb ed="#L" n="83"/>quandoque praecepit legalia observari, quandoque
+<lb ed="#L" n="84"/>prohibuit. Ergo habet mutabilem voluntatem.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1855">
+                  <lb ed="#L" n="85"/>4. PRAETEREA, Deus non ex necessitate vult
+<lb ed="#L" n="86"/>quod vult, ut supra dictum est. Ergo potest
+<lb ed="#L" n="87"/>velle et non velle idem. Sed omne quod habet
+<lb ed="#L" n="88"/>potentiam ad opposita, est mutabile: sicut quod
+<lb ed="#L" n="89"/>potest esse et non esse, est mutabile secundum
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="90"/>substantiam ; et quod potest esse hic et non esse
+<lb ed="#L" n="91"/>hic ?, est mutabile secundum locum. Ergo Deus
+<lb ed="#L" n="92"/>est mutabilis secundum voluntatem.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1877">
+                  <lb ed="#L" n="93"/>SED CONTRA EST quod dicitur Num. xxiii: <quote xml:id="TAca84-d1e144-Qd1e1881">non
+<lb ed="#L" n="94"/>est'Deus quasi homo, ut mentiatur; neque ut. 
+fi<lb break="no" ed="#L" n="95"/>lius hominis, ut mutetur</quote>.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1889">
+                  <lb ed="#L" n="96"/>RESPONDEO DICENDUM quod voluntas Dei est
+<lb ed="#L" n="97"/>omnino immutabilis. Sed circa hoc 
+consideran<lb break="no" ed="#L" n="98"/>dum est, quod aliud est mutare voluntatem; et
+<lb ed="#L" n="99"/>aliud est velle aliquarum ? rerum mutationem.
+<lb ed="#L" n="100"/>Potest enim aliquis, eadem voluntate immobiliter
+<lb ed="#L" n="101"/>permanente, velle quod nunc fiat hoc, et postea
+<lb ed="#L" n="102"/>fiat contrarium. Sed tunc voluntas mutaretur, si
+<lb ed="#L" n="103"/>aliquis inciperet velle quod prius non voluit,
+<lb ed="#L" n="104"/>vel desineret velle quod voluit. Quod quidem 
+ac<lb break="no" ed="#L" n="105"/>cidere non potest, nisi praesupposita mutatione
+<lb ed="#L" n="106"/>vel ex parte cognitionis, vel circa dispositionem
+<lb ed="#L" n="107"/>substantiae ipsius volentis. Cum enim voluntas
+<lb ed="#L" n="108"/>sit boni, aliquis de novo dupliciter potest 
+inci<lb break="no" ed="#L" n="109"/>pere aliquid velle. Uno modo sic, quod de novo
+<lb ed="#L" n="110"/>incipiat sibi illud esse bonum. Quod non est
+<lb ed="#L" n="111"/>absque mutatione eius: sicut adveniente frigore,
+<pb ed="#L" n="246"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>incipit esse bonum sedere ad ignem, quod prius
+<lb ed="#L" n="2"/>non erat. Alio modo sic, quod de novo 
+cogno<lb break="no" ed="#L" n="3"/>scat illud esse sibi bonum, cum prius hoc 
+igno<lb break="no" ed="#L" n="4"/>rasset: ad hoc enim consiliamur, ut sciamus quid
+<lb ed="#L" n="5"/>nobis sit bonum. Ostensum est autem supra
+<lb ed="#L" n="6"/>quod tam substantia Dei quam eius scientia est
+<lb ed="#L" n="7"/>omnino immutabilis. Unde oportet voluntatem
+<lb ed="#L" n="8"/>eius omnino esse immutabilem.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1948">
+                  <lb ed="#L" n="9"/>AD PRIMUM ERGO DICENDUM quod illud verbum
+<lb ed="#L" n="10"/>Domini metaphorice intelligendum est, secundum
+<lb ed="#L" n="11"/>similitudinem nostram: cum enim nos poenitet ^,
+<lb ed="#L" n="12"/>destruimus quod fecimus. Quamvis hoc esse possit
+<lb ed="#L" n="13"/>absque mutatione voluntatis: cum etiam aliquis
+<lb ed="#L" n="14"/>homo, absque mutatione voluntatis, interdum velit
+<lb ed="#L" n="15"/>aliquid facere, simul intendens postea illud 
+de<lb break="no" ed="#L" n="16"/>struere. Sic igitur Deus poenituisse dicitur, 
+se<lb break="no" ed="#L" n="17"/>cundum similitudinem operationis ', inquantum
+<lb ed="#L" n="18"/>hominem quem fecerat, per diluvium a facie
+<lb ed="#L" n="19"/>terrae delevit.
+</p>
+               <p xml:id="TAca84-d1e144-d1e1974">
+                  <lb ed="#L" n="20"/>AD SECUNDUM DICENDUM quod voluntas Dei, cum
+<lb ed="#L" n="21"/>sit causa prima et universalis, non excludit causas
+<lb ed="#L" n="22"/>medias, in quarum virtute est ut aliqui effectus
+<lb ed="#L" n="23"/>producantur. Sed quia omnes causae mediae non
+<lb ed="#L" n="24"/>adaequant virtutem causae primae, multa sunt
+<lb ed="#L" n="25"/>in virtute et scientia et voluntate divina, quae
+<lb ed="#L" n="26"/>non continentur sub ordine causarum inferiorum;
+<lb ed="#L" n="27"/>sicut resuscitatio Lazari. Unde aliquis respiciens
+<lb ed="#L" n="28"/>ad causas inferiores, dicere poterat, Lazarus non |
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="29"/>resurget: respiciens vero ad causam primam 
+divi<lb break="no" ed="#L" n="30"/>nam, poterat dicere, Lazarus resurget. Et 
+utrum<lb break="no" ed="#L" n="31"/>que horum Deus vult: scilicet quod aliquid 
+quan<lb break="no" ed="#L" n="32"/>doque sit futurum secundum causam inferiorem,
+<lb ed="#L" n="33"/>quod tamen futurum non sit secundum causam
+<lb ed="#L" n="34"/>superiorem; vel e converso. Sic ergo dicendum
+<lb ed="#L" n="35"/>est quod Deus aliquando pronuntiat ? aliquid 
+fu<lb break="no" ed="#L" n="36"/>turum, secundum quod continetur in ordine 
+cau<lb break="no" ed="#L" n="37"/>sarum inferiorum, ut puta secundum 
+dispositio<lb break="no" ed="#L" n="38"/>nem naturae vel meritorum; quod tamen non
+<lb ed="#L" n="39"/>fit, quia aliter est in causa superiori divina. Sicut
+<lb ed="#L" n="40"/>cum praedixit Ezechiae, dispone domui tuae, quia
+<lb ed="#L" n="41"/>morieris et non vives, ut habetur Isaiae xxxvii;
+<lb ed="#L" n="42"/>neque tamen ita evenit, quia ab aeterno aliter
+<lb ed="#L" n="43"/>fuit in scientia et voluntate divina, quae 
+immu<lb break="no" ed="#L" n="44"/>tabilis est. Propter quod dicit Gregorius, quod :
+<quote xml:id="TAca84-d1e144-Qd1e2032">Deus immutat sententiam , non tamen mutat
+<lb ed="#L" n="45"/>consilium</quote> , scilicet voluntatis suae, - Quod ergo
+<lb ed="#L" n="46"/>dicit, poenitentiam agam ego, intelligitur 
+metapho<lb break="no" ed="#L" n="47"/>rice dictum: nam homines, quando non implent
+<lb ed="#L" n="48"/>quod comminati sunt, poenitere videntur.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2046">
+                  <lb ed="#L" n="49"/>AD TERTIUM DICENDUM quod ex ratione illa non
+<lb ed="#L" n="50"/>potest concludi quod Deus habeat mutabilem 
+vo<lb break="no" ed="#L" n="51"/>luntatem; sed quod mutationem velit.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2055">
+                  <lb ed="#L" n="52"/>AD QUARTUM DICENDUM quod, licet Deum velle
+<lb ed="#L" n="53"/>aliquid non sit necessarium absolute, tamen 
+ne<lb break="no" ed="#L" n="54"/>cessarium est ex suppositione, propter 
+immutabi<lb break="no" ed="#L" n="55"/>litatem divinae voluntatis, ut supra dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e144-Dd1e2067"><!-- p1-q19-a8 -->
+               <head xml:id="TAca84-d1e144-Hd1e2070">Articulus 8</head>
+               <head xml:id="TAca84-d1e144-Hd1e2072" type="question-title">
+  utrum voluntas dei necessitatem rebus volitis imponat
+</head>
+               <p xml:id="TAca84-d1e144-d1e2075">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="18"/>UTRUM VOLUNTAS DEI NECESSITATEM REBUS VOLITIS IMPONAT
+</p>
+               <p xml:id="TAca84-d1e144-d1e2084">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="19"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="20"/>voluntas Dei rebus volitis 
+necessita<lb break="no" ed="#L" n="21"/>tem imponat. Dicit enim Augustinus, in
+<lb ed="#L" n="22"/>Enchirid.: <quote xml:id="TAca84-d1e144-Qd1e2097">Nullus fit salvus, nisi quem
+<lb ed="#L" n="23"/>Deus voluerit salvari. Et ideo rogandus est ut velit,
+<lb ed="#L" n="24"/>quia necesse est fieri, si voluerit.</quote>
+               </p>
+               <p xml:id="TAca84-d1e144-d1e2105">
+                  <lb ed="#L" n="25"/>2. PRAETEREA, omnis causa quae non potest
+<lb ed="#L" n="26"/>impediri, ex necessitate suum effectum producit:
+<lb ed="#L" n="27"/>quia et natura semper idem operatur, nisi aliquid
+<lb ed="#L" n="28"/>impediat, ut dicitur in II Physic. Sed voluntas
+<lb ed="#L" n="29"/>Dei non potest impediri: dicit enim Apostolus, ad
+<lb ed="#L" n="30"/>Rom. ix: voluntati enim eius quis resistit? Ergo
+<lb ed="#L" n="31"/>voluntas Dei imponit rebus volitis necessitatem.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2124">
+                  <lb ed="#L" n="32"/>3. PnarrEREA, illud quod habet necessitatem
+<lb ed="#L" n="33"/>ex priori, est necessarium absolute: sicut animal
+<lb ed="#L" n="34"/>mori est necessarium, quia est ex contrariis 
+com<lb break="no" ed="#L" n="35"/>positum. Sed res creatae a Deo, comparantur ad
+<lb ed="#L" n="36"/>voluntatem divinam sicut ad aliquid prius, a quo
+<lb ed="#L" n="37"/>habent necessitatem : cum haec conditionalis sit
+<lb ed="#L" n="38"/>vera, si aliquid Deus vult, illud est; omnis autem
+<lb ed="#L" n="39"/>conditionalis vera est necessaria. Sequitur ergo
+<lb ed="#L" n="40"/>quod omne quod Deus vult, sit necessarium 
+ab<lb break="no" ed="#L" n="41"/>solute. i
+</p>
+               <p xml:id="TAca84-d1e144-d1e2148">
+                  <lb ed="#L" n="42"/>SEp coNTRA, omnia bona quae fiunt, Deus vult
+<lb ed="#L" n="43"/>fieri. Si igitur eius voluntas imponat rebus 
+voli<lb break="no" ed="#L" n="44"/>tis necessitatem, sequitur quod omnia bona ex
+<lb ed="#L" n="45"/>necessitate eveniunt. Et sic perit liberum 
+arbi<lb break="no" ed="#L" n="46"/>trium, et consilium, et omnia huiusmodi.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2161">
+                  <lb ed="#L" n="47"/>RESPONDEO DICENDUM quod divina voluntas 
+qui<lb break="no" ed="#L" n="48"/>busdam volitis necessitatem imponit, non autem
+<lb ed="#L" n="49"/>omnibus. Cuius quidem rationem aliqui assignare
+<lb ed="#L" n="50"/>voluerunt ex causis mediis: quia ea quae 
+pro<lb break="no" ed="#L" n="51"/>ducit per causas necessarias, sunt necessaria; ea
+<lb ed="#L" n="52"/>vero quae producit per causas contingentes, sunt
+<lb ed="#L" n="53"/>contingentia. - Sed hoc non videtur sufficienter
+<lb ed="#L" n="54"/>dictum, propter duo. Primo quidem, quia effectus
+<lb ed="#L" n="55"/>alicuius primae causae est contingens propter
+<lb ed="#L" n="56"/>causam secundam, ex eo quod impeditur effectus
+<lb ed="#L" n="57"/>causae primae per defectum causae secundae;
+<lb ed="#L" n="58"/>sicut virtus solis per defectum plantae 
+impedi<lb break="no" ed="#L" n="59"/>tur. Nullus autem defectus causae secundae 
+im<lb break="no" ed="#L" n="60"/>pedire potest quin voluntas Dei effectum suum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="61"/>producat. - Secundo, quia, si distinctio 
+contingen<lb break="no" ed="#L" n="62"/>tium a necessariis referatur solum in causas 
+se<lb break="no" ed="#L" n="63"/>cundas, sequitur hoc esse praeter intentionem et
+<lb ed="#L" n="64"/>voluntatem divinam: quod est inconveniens.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2205">
+                  <lb ed="#L" n="65"/>Et ideo melius dicendum est, quod hoc 
+con<lb break="no" ed="#L" n="66"/>tingit propter efficaciam divinae voluntatis. Cum
+<lb ed="#L" n="67"/>enim aliqua causa efficax fuerit ad agendum, 
+effe<lb break="no" ed="#L" n="68"/>ctus consequitur causam non tantum secundum
+<lb ed="#L" n="69"/>id quod fit, sed etiam secundum modum fiendi
+<lb ed="#L" n="70"/>vel essendi: ex debilitate enim virtutis activae in
+<lb ed="#L" n="71"/>semine, contingit quod filius nascitur dissimilis
+<lb ed="#L" n="72"/>patri in accidentibus, quae pertinent ad modum
+<lb ed="#L" n="73"/>essendi. Cum igitur voluntas divina sit 
+efficacis<lb break="no" ed="#L" n="74"/>sima, non solum sequitur quod fiant ea ? quae
+<lb ed="#L" n="75"/>Deus vult fieri; sed quod eo modo fiant, quo
+<lb ed="#L" n="76"/>Deus ea fieri vult. Vult autem quaedam fieri Deus
+<lb ed="#L" n="77"/>necessario, et quaedam contingenter, ut sit ordo
+<lb ed="#L" n="78"/>in rebus, ad complementum universi. Et ideo
+<lb ed="#L" n="79"/>quibusdam effectibus aptavit causas necessarias,
+<lb ed="#L" n="80"/>quae deficere non possunt, ex quibus effectus de
+<lb ed="#L" n="81"/>necessitate proveniunt: quibusdam autem aptavit
+<lb ed="#L" n="82"/>causas contingentes defectibiles, ex quibus effectus
+<lb ed="#L" n="83"/>contingenter eveniunt. Non igitur propterea 
+effe<lb break="no" ed="#L" n="84"/>ctus voliti a Deo, eveniunt contingenter, quia
+<lb ed="#L" n="85"/>causae proximae sunt contingentes: sed propterea
+<lb ed="#L" n="86"/>quia Deus voluit eos contingenter evenire, 
+con<lb break="no" ed="#L" n="87"/>tingentes causas ad eos praeparavit.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2257">
+                  <lb ed="#L" n="88"/>AD PRIMUM ERGO DICENDUM quod per illud 
+ver<lb break="no" ed="#L" n="89"/>bum Augustini intelligenda est necessitas in rebus
+<lb ed="#L" n="90"/>volitis a Deo, non absoluta, sed conditionalis: 
+ne<lb break="no" ed="#L" n="91"/>cesse est enim hanc conditionalem veram esse,
+<lb ed="#L" n="92"/>si Deus hoc vult, necesse est hoc esse.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2270">
+                  <lb ed="#L" n="93"/>AD SECUNDUM DICENDUM quod, ex hoc ipso. quod
+<lb ed="#L" n="94"/>nihil voluntati divinae resistit, sequitur quod non
+<lb ed="#L" n="95"/>solum fiant ea quae Deus vult fieri; sed quod
+<lb ed="#L" n="96"/>fiant contingenter vel necessario, quae sic fieri vult.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2282">
+                  <lb ed="#L" n="97"/>Ap TERTIUM DICENDUM quod posteriora habent
+<lb ed="#L" n="98"/>necessitatem a prióribus, secundum modum 
+prio<lb break="no" ed="#L" n="99"/>rum. Unde et ea quae fiunt a voluntate divina,
+<lb ed="#L" n="100"/>talem necessitatem habent, qualem Deus vult ea
+<lb ed="#L" n="101"/>habere: scilicet, vel absolutam, vel conditionalem
+<lb ed="#L" n="102"/>tantum. Et sic, non omnia sunt necessaria absolute.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e144-Dd1e2299"><!-- p1-q19-a9 -->
+               <head xml:id="TAca84-d1e144-Hd1e2302">Articulus 9</head>
+               <head xml:id="TAca84-d1e144-Hd1e2304" type="question-title">
+  utrum voluntas dei sit malorum
+</head>
+               <p xml:id="TAca84-d1e144-d1e2307">
+                  <pb ed="#L" n="250"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS NONUS
+<lb ed="#L" n="2"/>UTRUM VOLUNTAS DEI SIT MALORUM
+</p>
+               <p xml:id="TAca84-d1e144-d1e2318">
+                  <lb ed="#L" n="3"/>AD NONUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>voluntas Dei sit malorum. Omne enim
+<lb ed="#L" n="5"/>bonum quod fit, Deus vult. Sed mala
+</p>
+               <p xml:id="TAca84-d1e144-d1e2327">
+                  <lb ed="#L" n="6"/>fieri bonum est: dicit enim Augustinus,
+<lb ed="#L" n="7"/>in Enchirid.: <quote xml:id="TAca84-d1e144-Qd1e2333">Quamvis ea quae mala sunt, 
+in<lb break="no" ed="#L" n="8"/>quantum mala sunt, non sint bona; tamen, ut non
+<lb ed="#L" n="9"/>solum bona, sed etiam ut sint mala, bonum est.
+<lb ed="#L" n="10"/>Ergo Deus vult mala.</quote>
+               </p>
+               <p xml:id="TAca84-d1e144-d1e2344">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, dicit Dionysius, iv cap. de. Div.
+<lb ed="#L" n="12"/>Nom.: Erit malum ad omnis (idest universi)
+<lb ed="#L" n="13"/>perfectionem conferens. Et Augustinus dicit, in
+<lb ed="#L" n="14"/>Enchirid.: <quote xml:id="TAca84-d1e144-Qd1e2354">Ex omnibus consistit universitatis 
+ad<lb break="no" ed="#L" n="15"/>mirabilis. pulchritudo; in qua etiam illud quod
+<lb ed="#L" n="16"/>malum dicitur, bene ordinatum, et loco suo 
+po<lb break="no" ed="#L" n="17"/>situm, eminentius commendat bona; ut magis 
+pla<lb break="no" ed="#L" n="18"/>ceant, et laudabiliora sint, dum comparantur malis</quote>.
+<lb ed="#L" n="19"/>Sed Deus vult omne illud quod pertinet ad 
+per<lb break="no" ed="#L" n="20"/>fectionem et decorem universi: quia hoc est quod
+<lb ed="#L" n="21"/>Deus maxime vult in creaturis. Ergo Deus vult
+<lb ed="#L" n="22"/>mala.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2375">
+                  <lb ed="#L" n="23"/>3. PRAETEREA, mala fieri, et non fieri, sunt 
+con<lb break="no" ed="#L" n="24"/>tradictorie opposita. Sed Deus non vult mala non
+<lb ed="#L" n="25"/>fieri: quia, cum mala quaedam fiant, non semper
+<lb ed="#L" n="26"/>voluntas Dei impleretur. Ergo Deus vult mala fieri.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2386">
+                  <lb ed="#L" n="27"/>SED coNTRA EsT quod dicit Augustinus, in libro
+<lb ed="#L" n="28"/>Octoginta trium Quaest.: Nullo sapiente homine
+<lb ed="#L" n="29"/>auctore, fit homo deterior; est autem Deus omni
+<lb ed="#L" n="30"/>sapiente homine praestantior; multo igitur minus,
+<lb ed="#L" n="31"/>Deo auctore, fit aliquis deterior. Illo autem 
+au<lb break="no" ed="#L" n="32"/>ctore ? cum dicitur, illo volente dicitur. Non ergo
+<lb ed="#L" n="33"/>volente Deo, fit homo deterior. Constat autem
+<lb ed="#L" n="34"/>quod quolibet malo fit aliquid deterius. Ergo
+<lb ed="#L" n="35"/>Deus non vult mala. i
+</p>
+               <p xml:id="TAca84-d1e144-d1e2408">
+                  <lb ed="#L" n="36"/>RESPONDEO DICENDUM quod, cum ratio boni sit
+<lb ed="#L" n="37"/>ratio appetibilis, ut supra dictum est, malum
+<lb ed="#L" n="38"/>autem opponatur bono; impossibile est quod 
+ali<lb break="no" ed="#L" n="39"/>quod malum, inquantum huiusmodi, appetatur,
+<lb ed="#L" n="40"/>neque appetitu naturali, neque animali, neque
+<lb ed="#L" n="41"/>intellectuali, qui est voluntas. Sed aliquod 
+ma<lb break="no" ed="#L" n="42"/>lum appetitur per accidens, inquantum 
+consequi<lb break="no" ed="#L" n="43"/>tur ad aliquod bonum. Et hoc apparet in quolibet
+<lb ed="#L" n="44"/>appetitu. Non enim agens naturale intendit 
+pri<lb break="no" ed="#L" n="45"/>vationem vel corruptionem; sed formam, cui
+<lb ed="#L" n="46"/>coniungitur privatio alterius formae; et 
+genera<lb break="no" ed="#L" n="47"/>tionem unius, quae est corruptio alterius. Leo
+<lb ed="#L" n="48"/>etiam ^, occidens cervum, intendit cibum, cui 
+con<lb break="no" ed="#L" n="49"/>iungitur occisio animalis. Similiter fornicator in-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="50"/>tendit delectationem, cui coniungitur deformitas
+<lb ed="#L" n="51"/>culpae.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2447">
+                  <lb ed="#L" n="52"/>Malum autem quod coniungitur alicui bono,
+<lb ed="#L" n="53"/>est privatio alterius boni. Nunquam igitur 
+appe<lb break="no" ed="#L" n="54"/>teretur malum, nec per accidens, nisi bonum
+<lb ed="#L" n="55"/>cui coniungitur malum, magis appeteretur quam
+<lb ed="#L" n="56"/>bonum quod privatur per malum. Nullum autem
+<lb ed="#L" n="57"/>bonum Deus magis vult quam suam bonitatem:
+<lb ed="#L" n="58"/>vult tamen aliquod bonum magis quam aliud
+<lb ed="#L" n="59"/>quoddam bonum. Unde malum culpae, quod 
+pri<lb break="no" ed="#L" n="60"/>vat ordinem ad bonum divinum, Deus nullo modo
+<lb ed="#L" n="61"/>vult. Sed malum naturalis defectus, vel malum
+<lb ed="#L" n="62"/>poenae vult, volendo aliquod bonum, cui 
+coniun<lb break="no" ed="#L" n="63"/>gitur tale malum: sicut, volendo iustitiam, vult
+<lb ed="#L" n="64"/>poenam; et volendo ordinem naturae servari,
+<lb ed="#L" n="65"/>vult quaedam naturaliter corrumpi.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2480">
+                  <lb ed="#L" n="66"/>AD PRIMUM ERGO DICENDUM quod quidam 
+dixe<lb break="no" ed="#L" n="67"/>runt quod, licet Deus non velit mala, vult tamen
+<lb ed="#L" n="68"/>mala esse vel fieri: quia, licet mala non sint bona,
+<lb ed="#L" n="69"/>bonum tamen est mala esse vel fieri. Quod ideo
+<lb ed="#L" n="70"/>dicebant, quia ea quae in se mala sunt, 
+ordinan<lb break="no" ed="#L" n="71"/>tur ad aliquod bonum: quem quidem ordinem
+<lb ed="#L" n="72"/>importari credebant in hoc quod dicitur, mala
+<lb ed="#L" n="73"/>esse vel fieri. Sed hoc non recte dicitur. Quia
+<lb ed="#L" n="74"/>malum non ordinatur ad bonum per se, sed per
+<lb ed="#L" n="75"/>accidens. Praeter intentionem enim peccantis est,
+<lb ed="#L" n="76"/>quod ex hoc sequatur aliquod bonum; sicut 
+prae<lb break="no" ed="#L" n="77"/>ter intentionem tyrannorum fuit, quod ex eorum
+<lb ed="#L" n="78"/>persecutionibus claresceret patientia martyrum.
+<lb ed="#L" n="79"/>Et ideo non potest dici quod talis ordo ab 
+bo<lb break="no" ed="#L" n="80"/>num importetur per hoc quod dicitur, quod 
+ma<lb break="no" ed="#L" n="81"/>lum esse vel fieri sit bonum: quia nihil iudicatur
+<lb ed="#L" n="82"/>secundum illud quod competit ei per accidens,
+<lb ed="#L" n="83"/>sed secundum illud quod competit ei per se.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2523">
+                  <lb ed="#L" n="84"/>AD SECUNDUM DICENDUM quod malum non 
+ope<lb break="no" ed="#L" n="85"/>ratur ad perfectionem et decorem universi nisi
+<lb ed="#L" n="86"/>per accidens, ut dictum est. Unde et hoc quod
+<lb ed="#L" n="87"/>dicit Dionysius, quod malum est ad universi 
+per<lb break="no" ed="#L" n="88"/>fectionem conferens, concludit inducendo quasi
+<lb ed="#L" n="89"/>ad inconveniens.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2539">
+                  <lb ed="#L" n="90"/>AD TERTIUM DICENDUM quod, licet mala fieri, et
+<lb ed="#L" n="91"/>mala non fieri, contradictorie opponantur; 
+ta<lb break="no" ed="#L" n="92"/>men velle mala fieri, et velle mala non fieri, non
+<lb ed="#L" n="93"/>opponuntur contradictorie, cum utrumque sit 
+af<lb break="no" ed="#L" n="94"/>firmativum. Deus igitur " neque vult mala fieri,
+<lb ed="#L" n="95"/>neque vult mala non fieri: sed vult permittere
+<lb ed="#L" n="96"/>mala fieri. Et hoc est bonum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e144-Dd1e2558"><!-- p1-q19-a10 -->
+               <head xml:id="TAca84-d1e144-Hd1e2561">Articulus 10</head>
+               <head xml:id="TAca84-d1e144-Hd1e2563" type="question-title">
+  utrum deus habeat liberum arbitrium
+</head>
+               <p xml:id="TAca84-d1e144-d1e2566">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="80"/>ARTICULUS DECIMUS
+<lb ed="#L" n="81"/>UTRUM DEUS HABEAT LIBERUM ARBITRIUM
+</p>
+               <p xml:id="TAca84-d1e144-d1e2575">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="82"/>AD DECIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="83"/>Deus non habeat liberum arbitrium.
+<lb ed="#L" n="84"/>Dicit enim Hieronymus, in homilia de
+<lb ed="#L" n="85"/>Filio Prodigo: <quote xml:id="TAca84-d1e144-Qd1e2588">Solus Deus est, in quem
+<lb ed="#L" n="86"/>peccatum non cadit, nec cadere potest; cetera,
+<lb ed="#L" n="87"/>cum sint liberi arbitrii, in utramque partem flecti
+<lb ed="#L" n="88"/>possunt</quote>.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2598">
+                  <lb ed="#L" n="89"/>2. PRAETEREA, liberum arbitrium est facultas
+<lb ed="#L" n="90"/>rationis et voluntatis, qua bonum et malum 
+eli<lb break="no" ed="#L" n="91"/>gitur. Sed Deus non vult malum, ut dictum est.
+<lb ed="#L" n="92"/>Ergo liberum arbitrium non est in Deo.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2610">
+                  <lb ed="#L" n="93"/>SEP CoNTRA EST quod dicit Ambrosius, in libro
+<lb ed="#L" n="94"/>de Fide: <quote xml:id="TAca84-d1e144-Qd1e2616">Spiritus Sanctus dividit singulis prout
+<lb ed="#L" n="95"/>vult, idest pro liberae voluntatis arbitrio, non
+<lb ed="#L" n="96"/>necessitatis obsequio.</quote>
+               </p>
+               <p xml:id="TAca84-d1e144-d1e2624">
+                  <lb ed="#L" n="97"/>REsPONDEO DICENDUM quod liberum arbitrium
+<lb ed="#L" n="98"/>habemus respectu eorum quae non hecessario
+<lb ed="#L" n="99"/>volumus, vel naturali instinctu. Non enim ad 
+li<lb break="no" ed="#L" n="100"/>berum arbitrium pertinet quod volumus esse fe-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="101"/>lices, sed ad naturalem instinctum. Unde et alia ?
+<lb ed="#L" n="102"/>animalia, quae naturali instinctu moventur ad 
+ali<lb break="no" ed="#L" n="103"/>quid, non dicuntur libero arbitrio moveri. Cum
+<lb ed="#L" n="104"/>igitur Deus ex necessitate suam bonitatem velit,
+<lb ed="#L" n="105"/>alia vero non ex necessitate, ut supra ostensum
+<lb ed="#L" n="106"/>est; respectu illorum quae non ex necessitate vult,
+<lb ed="#L" n="107"/>liberum arbitrium habet.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2653">
+                  <lb ed="#L" n="108"/>Àp PRIMUM ERGO DICENDUM quod Hieronymus
+<lb ed="#L" n="109"/>videtur excludere a Deo liberum arbitrium, non
+<lb ed="#L" n="110"/>simpliciter, sed solum quantum ad hoc quod est
+<lb ed="#L" n="111"/>deflecti in peccatum.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2664">
+                  <lb ed="#L" n="112"/>Ap SECUNDUM DICENDUM quod, cum malum 
+cul<lb break="no" ed="#L" n="113"/>pae dicatur per aversionem a bonitate divina,
+<lb ed="#L" n="114"/>per quam Deus omnia vult, ut supra ostensum
+<lb ed="#L" n="115"/>est, manifestum est quod impossibile est eum
+<lb ed="#L" n="116"/>malum culpae velle. Et tamen ad opposita se
+<lb ed="#L" n="117"/>habet, inquantum velle potest hoc esse vel non
+<lb ed="#L" n="118"/>esse. Sicut et nos, non peccando, possumus velle
+<lb ed="#L" n="119"/>sedere, et non velle sedere.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e144-Dd1e2685"><!-- p1-q19-a11 -->
+               <head xml:id="TAca84-d1e144-Hd1e2688">Articulus 11</head>
+               <head xml:id="TAca84-d1e144-Hd1e2690" type="question-title">
+  utrum sit distinguenda in deo voluntas signi
+</head>
+               <p xml:id="TAca84-d1e144-d1e2693">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>ARTICULUS UNDECIMUS
+<lb ed="#L" n="13"/>UTRUM SIT DISTINGUENDA IN DEO VOLUNTAS SIGNI
+</p>
+               <p xml:id="TAca84-d1e144-d1e2702">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="14"/>AD UNDECIMUM SIC PROCEDITUR. Videtur
+<lb ed="#L" n="15"/>quod non sit distinguenda in Deo »
+o<lb break="no" ed="#L" n="16"/>VP luntas signi. Sicut enim voluntas Dei
+<lb ed="#L" n="17"/>est causa rerum, ita et scientia. Sed
+<lb ed="#L" n="18"/>non assignantur aliqua signa ex parte divinae
+<lb ed="#L" n="19"/>scientiae. Ergo neque debent assignari aliqua 
+si<lb break="no" ed="#L" n="20"/>gna ex parte divinae voluntatis.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2722">
+                  <lb ed="#L" n="21"/>2. PRAETEREA, omne signum quod non 
+con<lb break="no" ed="#L" n="22"/>cordat ei cuius est signum, est falsum. Si igitur
+<lb ed="#L" n="23"/>signa quae assignantur circa voluntatem divinam,
+<lb ed="#L" n="24"/>non concordant divinae voluntati, sunt falsa: si
+<lb ed="#L" n="25"/>autem concordant, superflue assignantur. Non
+<lb ed="#L" n="26"/>igitur sunt aliqua digna circa voluntatem divinam
+<lb ed="#L" n="27"/>assignanda.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2741">
+                  <lb ed="#L" n="28"/>SED coNTRA EsT quod voluntas Dei est una,
+<lb ed="#L" n="29"/>cum ipsa sit Dei essentia. Quandoque autem 
+plu<lb break="no" ed="#L" n="30"/>raliter significatur, ut cum dicitur: magna opera
+<lb ed="#L" n="31"/>Domini, exquisita in omnes voluntates eius. Ergo
+<lb ed="#L" n="32"/>oportet quod aliquando signum voluntatis pro 
+vo<lb break="no" ed="#L" n="33"/>luntate accipiatur.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2757">
+                  <lb ed="#L" n="34"/>RESPONDEO DICENDUM quod in Deo quaedam
+<lb ed="#L" n="35"/>dicuntur proprie, et quae secundum 
+metapho<lb break="no" ed="#L" n="36"/>ram, ut ex supradictis patet. Cum autem 
+ali<lb break="no" ed="#L" n="37"/>quae passiones humanae in divinam 
+praedicatio<lb break="no" ed="#L" n="38"/>nem metaphorice assumuntur, hoc fit secundum
+<lb ed="#L" n="39"/>similitudinem effectus: unde illud quod est 
+si<lb break="no" ed="#L" n="40"/>gnum talis passionis in nobis, in Deo nomine illius
+<lb ed="#L" n="41"/>passionis metaphorice significatur. Sicut, apud
+<lb ed="#L" n="42"/>nos, irati punire consueverunt, unde ipsa punitio
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="43"/>est signum irae: et propter hoc, ipsa punitio 
+no<lb break="no" ed="#L" n="44"/>mine irae significatur, cum Deo attribuitur. 
+Simi<lb break="no" ed="#L" n="45"/>liter id quod solet esse in nobis signum voluntatis,
+<lb ed="#L" n="46"/>quandoque metaphorice in Deo voluntas dicitur.
+<lb ed="#L" n="47"/>Sicut, cum aliquis praecipit aliquid, signum est
+<lb ed="#L" n="48"/>quod velit illud fieri: unde praeceptum divinum
+<lb ed="#L" n="49"/>quandoque metaphorice voluntas Dei dicitur, 
+se<lb break="no" ed="#L" n="50"/>cundum illud Matth. vi: fiat voluntas tua, sicut
+<lb ed="#L" n="51"/>in caelo et in terra. Sed hoc distat inter 
+volun<lb break="no" ed="#L" n="52"/>tatem et iram, quia ira de Deo nunquam proprie
+<lb ed="#L" n="53"/>dicitur, cum in suo principali intellectu includat
+<lb ed="#L" n="54"/>passionem: voluntas autem proprie de Deo 
+di<lb break="no" ed="#L" n="55"/>citur. Et ideo in Deo distinguitur voluntas 
+pro<lb break="no" ed="#L" n="56"/>prie, et metaphorice dicta. Voluntas enim 
+pro<lb break="no" ed="#L" n="57"/>prie dicta, vocatur voluntas beneplaciti: voluntas
+<lb ed="#L" n="58"/>autem metaphorice dicta, est? voluntas signi, eo
+<lb ed="#L" n="59"/>quod ipsum signum voluntatis voluntas dicitur.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2818">
+                  <lb ed="#L" n="60"/>AD PRIMUM ERGO DICENDUM quod scientia non
+<lb ed="#L" n="61"/>est causa eorum quae fiunt, nisi per voluntatem:
+<lb ed="#L" n="62"/>non enim quae scimus facimus, nisi velimus. Et
+<lb ed="#L" n="63"/>ideo signum non attribuitur scientiae, sicut 
+attri<lb break="no" ed="#L" n="64"/>buitur voluntati.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2831">
+                  <lb ed="#L" n="65"/>AD SECUNDUM DICENDUM quod signa voluntatis
+<lb ed="#L" n="66"/>dicuntur voluntates divinae, non quia sint signa
+<lb ed="#L" n="67"/>quod Deus velit: sed quia ea quae in nobis 
+so<lb break="no" ed="#L" n="68"/>lent esse signa volendi, in Deo divinae 
+volun<lb break="no" ed="#L" n="69"/>tates dicuntur. Sicut punitio non est signum quod
+<lb ed="#L" n="70"/>in Deo sit ira: sed punitio, ex eo ipso quod in
+<lb ed="#L" n="71"/>nobis est signum irae, in Deo dicitur ira.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e144-Dd1e2850"><!-- p1-q19-a12 -->
+               <head xml:id="TAca84-d1e144-Hd1e2853">Articulus 12</head>
+               <head xml:id="TAca84-d1e144-Hd1e2855" type="question-title">
+  utrum convenienter circa divinam voluntatem ponantur quinque signa
+</head>
+               <p xml:id="TAca84-d1e144-d1e2858">
+                  <pb ed="#L" n="253"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS DUODECIMUS
+<lb ed="#L" n="2"/>UTRUM CONVENIENTER CIRCA DIVINAM VOLUNTATEM PONANTUR QUINQUE SIGNA
+</p>
+               <p xml:id="TAca84-d1e144-d1e2869">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD DUODECIMUM SIC PROCEDITUR. Videtur
+<lb ed="#L" n="4"/>quod inconvenienter circa divinam 
+vo<lb break="no" ed="#L" n="5"/>luntatem ponantur quinque signa: 
+sci<lb break="no" ed="#L" n="6"/>Nilicet, prohibitio, praeceptum, consilium,
+<lb ed="#L" n="7"/>operalio et permissio. Nam eadem quae nobis
+<lb ed="#L" n="8"/>praecipit Deus vel consulit, in nobis quandoque
+<lb ed="#L" n="9"/>operatur: et eadem quae prohibet, quandoque
+<lb ed="#L" n="10"/>permittit. Ergo non. debent ex opposito dividi.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2891">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, nihil Deus operatur, nisi volens,
+<lb ed="#L" n="12"/>ut dicitur Sap. xi. Sed voluntas signi distinguitur
+<lb ed="#L" n="13"/>a voluntate beneplaciti. Ergo operatio sub 
+volun<lb break="no" ed="#L" n="14"/>tate signi comprehendi non debet.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2903">
+                  <lb ed="#L" n="15"/>3. PRAETEREA, operdlio et permissio 
+commu<lb break="no" ed="#L" n="16"/>niter ad omnes creaturas pertinent: quia in 
+omni<lb break="no" ed="#L" n="17"/>bus Deus operatur, et in omnibus aliquid fieri
+<lb ed="#L" n="18"/>permittit. Sed praeceptum, consilium et prohibitio
+<lb ed="#L" n="19"/>pertinent ad solam rationalem creaturam. Ergo
+<lb ed="#L" n="20"/>non veniunt convenienter in unam divisionem,
+<lb ed="#L" n="21"/>cum non sint unius ordinis.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2921">
+                  <lb ed="#L" n="22"/>4. PRaETEREA, malum pluribus modis contingit
+<lb ed="#L" n="23"/>quam bonum: quia bonum contingit uno modo,
+<lb ed="#L" n="24"/>sed malum omnifariam, ut patet per Philosophum
+<lb ed="#L" n="25"/>in II Ezhic., et per Dionysium in iv cap. de Div.
+<lb ed="#L" n="26"/>Nom.. Inconvenienter igitur respectu mali 
+assi<lb break="no" ed="#L" n="27"/>gnatur unum signum tantum, scilicet prohibitio;
+<lb ed="#L" n="28"/>respectu vero boni, duo signa, scilicet consilium
+<lb ed="#L" n="29"/>et praeceptum.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2941">
+                  <lb ed="#L" n="30"/>RESPONDEO DICENDUM quod huiusmodi signa 
+vo<lb break="no" ed="#L" n="31"/>luntatis dicuntur ea, quibus consuevimus. 
+de<lb break="no" ed="#L" n="32"/>monstrare nos aliquid velle. Potest autem aliquis
+<lb ed="#L" n="33"/>declarare se velle aliquid, vel per seipsum, vel
+<lb ed="#L" n="34"/>per alium. Per seipsum quidem, inquantum facit
+<lb ed="#L" n="35"/>aliquid, vel directe, vel indirecte et per accidens.
+<lb ed="#L" n="36"/>Directe quidem, cum per se aliquid operatur: et
+<lb ed="#L" n="37"/>quantum ad hoc, dicitur esse signum operatio.
+<lb ed="#L" n="38"/>Indirecte autem, inquantum non impedit 
+operatio<lb break="no" ed="#L" n="39"/>nem ?: nam removens prohibens dicitur movens
+<lb ed="#L" n="40"/>per accidens, ut dicitur in VIII Physic. Et 
+quan<lb break="no" ed="#L" n="41"/>tum ad hoc, dicitur signum. permissio. Per alium
+<lb ed="#L" n="42"/>autem declarat se aliquid velle, inquantum 
+or<lb break="no" ed="#L" n="43"/>dinat alium ad aliquid faciendum; vel necessaria
+<lb ed="#L" n="44"/>inductione, quod fit praecipiendo quod quis vult,
+<lb ed="#L" n="45"/>et prohibendo contrarium; vel aliqua persuasoria
+<lb ed="#L" n="46"/>inductione, quod pertinet ad consilium.
+</p>
+               <p xml:id="TAca84-d1e144-d1e2980">
+                  <lb ed="#L" n="47"/>Quia igitur his modis declaratur aliquem velle
+<lb ed="#L" n="48"/>aliquid, propter hoc ista. quinque nominantur 
+in<lb break="no" ed="#L" n="49"/>terdum nomine voluntatis divinae, tanquam signa
+<lb ed="#L" n="50"/>voluntatis. Quod enim praeceptum, consilium et
+<lb ed="#L" n="51"/>prohibitio dicantur Dei voluntas, patet per id quod
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="52"/>dicitur Matth. VI: <quote xml:id="TAca84-d1e144-Qd1e2997">fiat voluntas tua, sicut in caelo
+<lb ed="#L" n="53"/>et in terra</quote>. Quod autem permissio vel operatio
+<lb ed="#L" n="54"/>dicantur Dei voluntas, patet per Augustinum, qui
+<lb ed="#L" n="55"/>dicit in Enchirid: <quote xml:id="TAca84-d1e144-Qd1e3006">Nihil fit, nisi Omnipotens
+<lb ed="#L" n="56"/>fieri velit, vel sinendo ut fiat, vel faciendo.</quote>
+               </p>
+               <p xml:id="TAca84-d1e144-d1e3012">
+                  <lb ed="#L" n="57"/>Vel potest dici quod permüissio et operatio 
+re<lb break="no" ed="#L" n="58"/>feruntur ad praesens: permissio quidem ad 
+ma<lb break="no" ed="#L" n="59"/>lum, operatio vero ad bonum. Ad futurum vero,
+<lb ed="#L" n="60"/>prohibitio, respectu mali; respectu vero boni 
+ne<lb break="no" ed="#L" n="61"/>cessarii, praeceptum; respectu vero 
+superabun<lb break="no" ed="#L" n="62"/>dantis boni, consilium.
+</p>
+               <p xml:id="TAca84-d1e144-d1e3028">
+                  <lb ed="#L" n="63"/>AD PRIMUM ERGO DICENDUM quod nihil prohibet,
+<lb ed="#L" n="64"/>circa eandem rem, aliquem diversimode 
+decla<lb break="no" ed="#L" n="65"/>rare se aliquid velle: sicut inveniuntur multa 
+no<lb break="no" ed="#L" n="66"/>mina idem significantia. Unde nihil prohibet idem
+<lb ed="#L" n="67"/>subiacere praecepto et consilio et operationi, et
+<lb ed="#L" n="68"/>prohibitioni . vel. permissioni.
+</p>
+               <p xml:id="TAca84-d1e144-d1e3045">
+                  <lb ed="#L" n="69"/>AD SECUNDUM DICENDUM quod, sicut Deus potest
+<lb ed="#L" n="70"/>significari metaphorice velle id quod non vult
+<lb ed="#L" n="71"/>voluntate proprie accepta, ita potest metaphorice
+<lb ed="#L" n="72"/>significari velle id quod proprie vult. Unde nihil
+<lb ed="#L" n="73"/>prohibet de eodem esse voluntatem beneplaciti,
+<lb ed="#L" n="74"/>et voluntatem signi. Sed operatio semper est
+<lb ed="#L" n="75"/>eadem cum voluntate beneplaciti, non autem
+<lb ed="#L" n="76"/>praeceptum vel consilium: tum quia haec est de
+<lb ed="#L" n="77"/>praesenti, illud de futuro; tum quia haec per se
+<lb ed="#L" n="78"/>est effectus voluntatis, illud autem per alium, ut
+<lb ed="#L" n="79"/>dictum est.
+</p>
+               <p xml:id="TAca84-d1e144-d1e3071">
+                  <lb ed="#L" n="80"/>AD TERTIUM DICENDUM quod creatura rationalis
+<lb ed="#L" n="81"/>est domina sui actus: et ideo circa ipsam specialia
+<lb ed="#L" n="82"/>quaedam signa divinae voluntatis assignantur,
+<lb ed="#L" n="83"/>inquantum rationalem creaturam Deus ordinat ad
+<lb ed="#L" n="84"/>agendum voluntarie et per se. Sed aliae creaturae
+<lb ed="#L" n="85"/>non agunt nisi motae ' ex operatione divina: et
+<lb ed="#L" n="86"/>ideo circa alias non habent locum nisi operatio
+<lb ed="#L" n="87"/>et permissio.
+</p>
+               <p xml:id="TAca84-d1e144-d1e3091">
+                  <lb ed="#L" n="88"/>AD QUARTUM DICENDUM quod omne malum 
+cul<lb break="no" ed="#L" n="89"/>pae, licet multipliciter contingat, tamen in hoc
+<lb ed="#L" n="90"/>convenit, quod discordat a voluntate divina: et
+<lb ed="#L" n="91"/>ideo unum signum respectu malorum assignatur,
+<lb ed="#L" n="92"/>scilicet prohibitio. Sed diversimode bona se 
+ha<lb break="no" ed="#L" n="93"/>bent ad bonitatem divinam. Quia quaedam sunt,
+<lb ed="#L" n="94"/>sine quibus fruitionem divinae bonitatis consequi
+<lb ed="#L" n="95"/>non possumus: et respectu horum est 
+praece<lb break="no" ed="#L" n="96"/>pium. Quaedam vero sunt, quibus perfectius 
+con<lb break="no" ed="#L" n="97"/>sequimur: et respectu horum est consilium. - Vel
+<lb ed="#L" n="98"/>dicendum quod consilium est non solum de 
+me<lb break="no" ed="#L" n="99"/>lioribus bonis assequendis, sed etiam de 
+mino<lb break="no" ed="#L" n="100"/>ribus malis vitandis.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

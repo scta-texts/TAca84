@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 37</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 37</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="387"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e237"><!-- p1-q37 -->
+            <head xml:id="TAca84-d1e237-Hd1e99">Quaestio 37</head>
+            <head xml:id="TAca84-d1e237-Hd1e101" type="question-title">de nomine spiritus sancti quod est amor</head>
+            <p xml:id="TAca84-d1e237-d1e104">
+               <pb ed="#L" n="387"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO TRIGESIMASEPTIMA
+<lb ed="#L" n="2"/>DE NOMINE SPIRITUS SANCTI QUOD EST AMOR
+<lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e237-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE quaeritur de nomine Amoris.
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur duo.
+<lb ed="#L" n="6"/>Primo: utrum sit proprium nomen Spiritus
+<lb ed="#L" n="7"/>Sancti.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="8"/>Secundo: utrum Pater et Filius diligant se
+<lb ed="#L" n="9"/>Spiritu Sancto.
+</p>
+            <div xml:id="TAca84-d1e237-Dd1e137"><!-- p1-q37-a1 -->
+               <head xml:id="TAca84-d1e237-Hd1e140">Articulus 1</head>
+               <head xml:id="TAca84-d1e237-Hd1e142" type="question-title">
+  utrum amor sit proprium nomen spiritus sancti
+</head>
+               <p xml:id="TAca84-d1e237-d1e145">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>ARTICULUS PRIMUS
+<lb ed="#L" n="11"/>UTRUM AMOR SIT PROPRIUM NOMEN SPIRITUS SANCTI
+</p>
+               <p xml:id="TAca84-d1e237-d1e154">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="12"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="13"/>Amor non sit proprium nomen Spiritus
+<lb ed="#L" n="14"/>Sancti. Dicit enim Augustinus, XV de
+<lb ed="#L" n="15"/>in.: Nescio cur, sicut sapientia 
+di<lb break="no" ed="#L" n="16"/>citur et Pater et Filius et Spiritus Sanctus, et simul
+<lb ed="#L" n="17"/>omnes non íres sed una sapientia, non ita et
+<lb ed="#L" n="18"/>caritas dicatur Pater et Filius et Spiritus Sanctus,
+<lb ed="#L" n="19"/>et simul omnes una caritas. Sed nullum nomen
+<lb ed="#L" n="20"/>quod de singulis personis praedicatur et de 
+omni<lb break="no" ed="#L" n="21"/>bus in communi singulariter, est nomen proprium
+<lb ed="#L" n="22"/>alicuius personae. Ergo hoc nomen amor non
+<lb ed="#L" n="23"/>est proprium Spiritus Sancti.
+</p>
+               <p xml:id="TAca84-d1e237-d1e185">
+                  <lb ed="#L" n="24"/>2. PRAETEREA, Spiritus Sanctus est persona 
+sub<lb break="no" ed="#L" n="25"/>sistens. Sed amor non significatur ut persona 
+sub<lb break="no" ed="#L" n="26"/>sistens: sed ut actio quaedam ab amante transiens
+<lb ed="#L" n="27"/>in amatum. Ergo amor non est proprium nomen
+<lb ed="#L" n="28"/>Spiritus Sancti.
+</p>
+               <p xml:id="TAca84-d1e237-d1e199">
+                  <lb ed="#L" n="29"/>3. PRAETEREA, amor est nexus amantium: quia
+<lb ed="#L" n="30"/>secundum Dionysium, iv cap. de Div. Nom., est?
+<lb ed="#L" n="31"/>quaedam vis unitiva. Sed nexus est medium inter
+<lb ed="#L" n="32"/>ea quae connectit: non autem aliquid ab eis 
+pro<lb break="no" ed="#L" n="33"/>cedens. Cum igitur Spiritus Sanctus procedat a
+<lb ed="#L" n="34"/>Patre et Filio, sicut ostensum est, videtur quod
+<lb ed="#L" n="35"/>non sit amor aut nexus Patris et Filii.
+</p>
+               <p xml:id="TAca84-d1e237-d1e217">
+                  <lb ed="#L" n="36"/>4. PRAETEREA, cuiuslibet amantis est aliquis
+<lb ed="#L" n="37"/>amor. Sed Spiritus Sanctus est amans. Ergo
+<lb ed="#L" n="38"/>eius est aliquis amor. Si igitur Spiritus Sanctus
+<lb ed="#L" n="39"/>est amor, erit amor amoris, et spiritus a spiritu.
+<lb ed="#L" n="40"/>Quod est inconveniens.
+</p>
+               <p xml:id="TAca84-d1e237-d1e230">
+                  <lb ed="#L" n="41"/>SED CONTRA EST quod Gregorius dicit, in Homilia
+<lb ed="#L" n="42"/>Pentecostes: Zpse Spiritus Sanctus est Amor.
+</p>
+               <p xml:id="TAca84-d1e237-d1e237">
+                  <lb ed="#L" n="43"/>RESPONDEO DICENDUM quod nomen arnoris in 
+di<lb break="no" ed="#L" n="44"/>vinis sumi potest et essentialiter et personaliter.
+<lb ed="#L" n="45"/>Et secundum quod personaliter sumitur, est 
+pro<lb break="no" ed="#L" n="46"/>prium nomen Spiritus Sancti; sicut Verbum est
+<lb ed="#L" n="47"/>proprium nomen Fili. Ad cuius evidentiam ,
+<lb ed="#L" n="48"/>sciendum est quod, cum in divinis, ut supra
+<lb ed="#L" n="49"/>ostensum est, sint duae processiones, una per
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="50"/>modum intellectus, quae est processio verbi; alia
+<lb ed="#L" n="51"/>per modum voluntatis, quae est processio 
+amo<lb break="no" ed="#L" n="52"/>ris: quia prima est nobis magis nota, ad singula
+<lb ed="#L" n="53"/>significanda quae in ea considerari possunt, sunt
+<lb ed="#L" n="54"/>magis propria nomina adinventa; non autem in
+<lb ed="#L" n="55"/>processione voluntatis. Unde et quibusdam 
+cir<lb break="no" ed="#L" n="56"/>cumlocutionibus utimur ad significandam 
+perso<lb break="no" ed="#L" n="57"/>nam procedentem: et relationes etiam quae 
+ac<lb break="no" ed="#L" n="58"/>cipiuntur secundum hanc processionem, et 
+pro<lb break="no" ed="#L" n="59"/>cessionis et spirationis nominibus nominantur, ut
+<lb ed="#L" n="60"/>supra dictum est; quae tamen sunt magis 
+no<lb break="no" ed="#L" n="61"/>mina originis quam relationis, secundum 
+proprie<lb break="no" ed="#L" n="62"/>tatem vocabuli.
+</p>
+               <p xml:id="TAca84-d1e237-d1e285">
+                  <lb ed="#L" n="63"/>Et tamen similiter utramque processionem
+<lb ed="#L" n="64"/>considerari oportet. Sicut enim ex hoc quod 
+ali<lb break="no" ed="#L" n="65"/>quis rem aliquam intelligit, provenit quaedam 
+in<lb break="no" ed="#L" n="66"/>tellectualis conceptio rei intellectae in intelligente,
+<lb ed="#L" n="67"/>quae dicitur verbum ; ita ex hoc quod aliquis rem
+<lb ed="#L" n="68"/>aliquam amat, provenit quaedam impressio, ut ita
+<lb ed="#L" n="69"/>loquar, rei amatae in affectu amantis, secundum " p. zo.
+<lb ed="#L" n="70"/>quam amatum dicitur esse in amante, sicut et 
+in<lb break="no" ed="#L" n="71"/>tellectum in intelligente. Ita quod, cum aliquis
+<lb ed="#L" n="72"/>seipsum intelligit et amat, est in seipso non solum
+<lb ed="#L" n="73"/>per identitatem rei, sed etiam ut intellectum in
+<lb ed="#L" n="74"/>inteligente, et amatum in amante.
+</p>
+               <p xml:id="TAca84-d1e237-d1e314">
+                  <lb ed="#L" n="75"/>Sed ex parte intellectus, sunt vocabula 
+adin<lb break="no" ed="#L" n="76"/>venta ad significandum respectum intelligentis ad
+<lb ed="#L" n="77"/>rem intellectam, ut patet in hoc quod dico :
+ntel<lb break="no" ed="#L" n="78"/>ligere: et sunt etiam alia vocabula adinventa ad
+<lb ed="#L" n="79"/>significandum processum intellectualis 
+conceptio<lb break="no" ed="#L" n="80"/>nis, scilicet ipsum dicere, et verbum. Unde in 
+di<lb break="no" ed="#L" n="81"/>vinis intelligere solum essentialiter dicitur, quia
+<lb ed="#L" n="82"/>non importat habitudinem ad verbum procedens ':
+<lb ed="#L" n="83"/>sed Verbum personaliter dicitur, quia significat
+<lb ed="#L" n="84"/>id quod procedit: ipsum vero dicere dicitur 
+no<lb break="no" ed="#L" n="85"/>tionaliter, quia importat habitudinem principii
+<lb ed="#L" n="86"/>Verbi ad Verbum ipsum. - Ex parte autem 
+vo<lb break="no" ed="#L" n="87"/>luntatis, praeter diligere et amare, quae important
+<pb ed="#L" n="388"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>habitudinem amantis ad rem amatam, non sunt
+<lb ed="#L" n="2"/>aliqua vocabula imposita ?, quae importent 
+ha<lb break="no" ed="#L" n="3"/>bitudinem ipsius impressionis vel affectionis rei
+<lb ed="#L" n="4"/>amatae, quae provenit in amante ex hoc quod
+<lb ed="#L" n="5"/>amat, ad suum principium, aut e converso. Et
+<lb ed="#L" n="6"/>ideo, propter vocabulorum inopiam, huiusmodi
+<lb ed="#L" n="7"/>habitudines significamus vocabulis amoris et 
+di<lb break="no" ed="#L" n="8"/>lectionis; sicut si Verbum nominaremus 
+ntelligen<lb break="no" ed="#L" n="9"/>liam conceptam, vel sapientiam genitam.
+</p>
+               <p xml:id="TAca84-d1e237-d1e370">
+                  <lb ed="#L" n="10"/>Sic igitur, inquantum in amore vel dilectione
+<lb ed="#L" n="11"/>non importatur nisi habitudo amantis ad rem
+<lb ed="#L" n="12"/>amatam, amor et diligere essentialiter dicuntur,
+<lb ed="#L" n="13"/>sicut intelligentia et intelligere. Inquantum vero
+<lb ed="#L" n="14"/>his vocabulis utimur ad exprimendam  
+habitudi<lb break="no" ed="#L" n="15"/>nem eius rei quae procedit per modum amoris,
+<lb ed="#L" n="16"/>ad suum principium, et e converso; ita quod per
+<lb ed="#L" n="17"/>amorem intelligatur amor procedens, et per 
+di<lb break="no" ed="#L" n="18"/>ligere intelligatur spirare amorem  procedentem :
+<lb ed="#L" n="19"/>sic Amor est nomen personae, et diligere vel
+<lb ed="#L" n="20"/>amare est verbum notionale, sicut dicere vel 
+ge<lb break="no" ed="#L" n="21"/>nerare.
+</p>
+               <p xml:id="TAca84-d1e237-d1e399">
+                  <lb ed="#L" n="22"/>AD PRIMUM ERGO DICENDUM quod Augustinus 
+lo<lb break="no" ed="#L" n="23"/>quitur de caritate, secundum quod essentialiter
+<lb ed="#L" n="24"/>sumitur in divinis, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e237-d1e408">
+                  <lb ed="#L" n="25"/>AD SECUNDUM DICENDUM quod intelligere et velle
+<lb ed="#L" n="26"/>et amare, licet significentur per modum actionum
+<lb ed="#L" n="27"/>transeuntium in obiecta, sunt tamen actiones 
+ma<lb break="no" ed="#L" n="28"/>nentes in agentibus, ut supra dictum est; ita
+<lb ed="#L" n="29"/>tamen quod in ipso agente important 
+habitu<lb break="no" ed="#L" n="30"/>dinem quandam ad obiectum. Unde amor, etiam
+<lb ed="#L" n="31"/>in nobis, est aliquid manens in amante, et ver-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="32"/>bum cordis manens in dicente; tamen cum 
+ha<lb break="no" ed="#L" n="33"/>bitudine ad rem verbo expressam, vel amatam.
+<lb ed="#L" n="34"/>Sed in Deo, in quo nullum est accidens, plus
+<lb ed="#L" n="35"/>habet: quia tam Verbum quam Amor est 
+sub<lb break="no" ed="#L" n="36"/>sistens. Cum ergo dicitur quod Spiritus Sanctus
+<lb ed="#L" n="37"/>est amor Patris in Filium, vel in quidquam
+<lb ed="#L" n="38"/>aliud, non significatur aliquid transiens in alium;
+<lb ed="#L" n="39"/>sed solum habitudo amoris ad rem amatam; sicut
+<lb ed="#L" n="40"/>et in Verbo importatur habitudo Verbi ad rem
+<lb ed="#L" n="41"/>Verbo expressam.
+</p>
+               <p xml:id="TAca84-d1e237-d1e450">
+                  <lb ed="#L" n="42"/>AD TERTIUM DICENDUM quod Spiritus Sanctus 
+di<lb break="no" ed="#L" n="43"/>citur esse nexus Patris et Filii, inquantum est
+<lb ed="#L" n="44"/>Amor: quia, cum Pater amet unica dilectione se
+<lb ed="#L" n="45"/>et Filium, et e converso, importatur in Spiritu
+<lb ed="#L" n="46"/>Sancto, prout est Amor, habitudo Patris ad 
+Fi<lb break="no" ed="#L" n="47"/>lium, et e converso, ut amantis ad amatum. Sed
+<lb ed="#L" n="48"/>ex hoc ipso quod Pater et Filius se mutuo amant,
+<lb ed="#L" n="49"/>oportet quod mutuus Amor, qui est Spiritus 
+San<lb break="no" ed="#L" n="50"/>ctus, ab utroque ? procedat. Secundum igitur 
+ori<lb break="no" ed="#L" n="51"/>ginem, Spiritus Sanctus non est medius, sed tertia
+<lb ed="#L" n="52"/>in Trinitate persona. Secundum vero praedictam
+<lb ed="#L" n="53"/>habitudinem, est medius nexus duorum, ab 
+utro<lb break="no" ed="#L" n="54"/>que. procedens.
+</p>
+               <p xml:id="TAca84-d1e237-d1e481">
+                  <lb ed="#L" n="55"/>AD QUARTUM DICENDUM quod, sicut Filio, licet 
+in<lb break="no" ed="#L" n="56"/>telligat, non tamen sibi competit producere 
+ver<lb break="no" ed="#L" n="57"/>bum, quia intelligere convenit ei ut Verbo 
+proce<lb break="no" ed="#L" n="58"/>denti; ita, licet Spiritus Sanctus amet, essentialiter
+<lb ed="#L" n="59"/>accipiendo ^, non tamen convenit ei quod spiret
+<lb ed="#L" n="60"/>amorem, quod est diligere notionaliter sumptum ;
+<lb ed="#L" n="61"/>quia sic diligit essentialiter ut Amor procedens,
+<lb ed="#L" n="62"/>non ut a quo procedit amor.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e237-Dd1e503"><!-- p1-q37-a2 -->
+               <head xml:id="TAca84-d1e237-Hd1e506">Articulus 2</head>
+               <head xml:id="TAca84-d1e237-Hd1e508" type="question-title">
+  utrum pater et filius diligant se spiritu sancto
+</head>
+               <p xml:id="TAca84-d1e237-d1e511">
+                  <pb ed="#L" n="389"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM PATER ET FILIUS DILIGANT SE SPIRITU SANCTO
+</p>
+               <p xml:id="TAca84-d1e237-d1e522">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>Pater et Filius non diligant se Spiritu
+<lb ed="#L" n="5"/>Sancto. Augustinus enim, in VII de
+<lb ed="#L" n="6"/>Trin., probat quod Pater non est 
+sa<lb break="no" ed="#L" n="7"/>piens sapientia genita. Sed sicut Filius est 
+sa<lb break="no" ed="#L" n="8"/>pientia genita, ita Spiritus Sanctus est Amor
+<lb ed="#L" n="9"/>procedens, ut dictum est. Ergo Pater et Filius
+<lb ed="#L" n="10"/>non diligunt se Amore procedente, qui est 
+Spi<lb break="no" ed="#L" n="11"/>ritus Sanctus.
+</p>
+               <p xml:id="TAca84-d1e237-d1e546">
+                  <lb ed="#L" n="12"/>2. PRAETEREA, cum dicitur, Pafer ei Filius 
+di<lb break="no" ed="#L" n="13"/>ligunt se Spiritu Sancto, hoc verbum diligere aut
+<lb ed="#L" n="14"/>sumitur essentialiter, aut notionaliter. Sed non
+<lb ed="#L" n="15"/>potest esse vera secundum quod sumitur 
+essen<lb break="no" ed="#L" n="16"/>tialiter: quia pari ratione posset dici quod Pater
+<lb ed="#L" n="17"/>intelligit Filio. Neque etiam secundum quod 
+su<lb break="no" ed="#L" n="18"/>mitur notionaliter: quia pari ratione posset dici
+<lb ed="#L" n="19"/>quod Pater et Filius spirant Spiritu Sancto, vel
+<lb ed="#L" n="20"/>quod Pater generat Filio. Ergo nullo modo haec
+<lb ed="#L" n="21"/>est vera, Pater et Filius diligunt se Spiritu Sancto.
+</p>
+               <p xml:id="TAca84-d1e237-d1e571">
+                  <lb ed="#L" n="22"/>3. PRAETEREA, eodem amore Pater diligit 
+Fi<lb break="no" ed="#L" n="23"/>lium, et se, et nos. Sed Pater non diligit se 
+Spi<lb break="no" ed="#L" n="24"/>ritu Sancto. Quia nullus actus notionalis 
+reflecti<lb break="no" ed="#L" n="25"/>tur super principium actus: non enim potest dici
+<lb ed="#L" n="26"/>quod Pater generat se, vel spirat se. Ergo etiam
+<lb ed="#L" n="27"/>non potest dici quod di/igat se Spiritu Sancto, 
+se<lb break="no" ed="#L" n="28"/>cundum quod diligere sumitur notionaliter. Item,
+<lb ed="#L" n="29"/>amor quo diligit nos, non videtur esse Spiritus
+<lb ed="#L" n="30"/>Sanctus: quia importatur respectus ad creaturam,
+<lb ed="#L" n="31"/>et ita ad essentiam pertinet. Ergo et haec est falsa,
+<lb ed="#L" n="32"/>Pater diligit Filium Spiritu Sancto.
+</p>
+               <p xml:id="TAca84-d1e237-d1e597">
+                  <lb ed="#L" n="33"/>SEp cowTRA EsT quod Augustinus dicit, VI de
+<lb ed="#L" n="34"/>Trin., quod Spiritus Sanctus est quo Genitus a
+<lb ed="#L" n="35"/>Generante diligitur, Genitoremque suum. diligit.
+</p>
+               <p xml:id="TAca84-d1e237-d1e606">
+                  <lb ed="#L" n="36"/>RESPONDEO DICENDUM quod circa hanc 
+quaestio<lb break="no" ed="#L" n="37"/>nem difficultatem affert quod, cum dicitur, Pater
+<lb ed="#L" n="38"/>diligit Filium Spiritu Sancto, cum ablativus 
+con<lb break="no" ed="#L" n="39"/>struatur in habitudine alicuius causae, videtur
+<lb ed="#L" n="40"/>quod Spiritus Sanctus sit principium diligendi
+<lb ed="#L" n="41"/>Patri ? et Filio; quod est omnino impossibile. Et
+<lb ed="#L" n="42"/>ideo quidam dixerunt hanc esse falsam, Pater et
+<lb ed="#L" n="43"/>Filius diligunt se Spiritu Sancto. Et dicunt hanc
+<lb ed="#L" n="44"/>esse retractatam ab Augustino in suo simili, cum
+<lb ed="#L" n="45"/>scilicet retractavit istam , Pater est sapiens 
+sa<lb break="no" ed="#L" n="46"/>pientia genita. - Quidam vero dicunt quod est
+<lb ed="#L" n="47"/>propositio impropria; et est sic exponenda:
+<lb ed="#L" n="48"/>Pater diligit Filium Spiritu Sancto, idest amore
+<lb ed="#L" n="49"/>essentiali, qui appropriatur Spiritui Sancto. - 
+Qui<lb break="no" ed="#L" n="50"/>dam vero dixerunt quod ablativus iste construitur
+<lb ed="#L" n="51"/>in habitudine signi: ut sit sensus, Spiritus Sanctus
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="52"/>est signum quod Pater diligat Filium, inquantum
+<lb ed="#L" n="53"/>Scilicet procedit ab eis ut amor. - Quidam vero
+<lb ed="#L" n="54"/>dixerunt quod ablativus iste construitur in 
+habi<lb break="no" ed="#L" n="55"/>tudine causae formalis: quia Spiritus Sanctus est
+<lb ed="#L" n="56"/>Amor, quo formaliter Pater et Filius se invicem
+<lb ed="#L" n="57"/>diligunt. - Quidam vero dixerunt quod 
+construi<lb break="no" ed="#L" n="58"/>tur in habitudine effectus formalis. Et isti 
+propin<lb break="no" ed="#L" n="59"/>quius ad veritatem accesserunt.
+</p>
+               <p xml:id="TAca84-d1e237-d1e663">
+                  <lb ed="#L" n="60"/>Unde ad huius evidentiam, sciendum est quod,
+<lb ed="#L" n="61"/>cum res communiter denominentur a suis formis, .
+<lb ed="#L" n="62"/>sicut album ab albedine, et homo ab humanitate ;
+<lb ed="#L" n="63"/>omne illud a quo aliquid denominatur, quantum
+<lb ed="#L" n="64"/>ad hoc habet habitudinem formae. Ut si dicam,
+<lb ed="#L" n="65"/>iste est indutus. vestimento, iste ablativus 
+con<lb break="no" ed="#L" n="66"/>struitur in habitudine causae formalis, quamvis
+<lb ed="#L" n="67"/>non sit forma. Contingit autem aliquid 
+denomi<lb break="no" ed="#L" n="68"/>nari per id quod ab ipso procedit, non solum
+<lb ed="#L" n="69"/>sicut agens actione ^; sed etiam sicut ipso termino
+<lb ed="#L" n="70"/>actionis, qui est effectus, quando ipse effectus in
+<lb ed="#L" n="71"/>intellectu actionis includitur. Dicimus enim quod
+<lb ed="#L" n="72"/>ignis est calefaciens calefactione, quamvis 
+calefa<lb break="no" ed="#L" n="73"/>ctio non sit calor, qui est forma ignis, sed actio
+<lb ed="#L" n="74"/>ab igne procedens: et dicimus. quod arbor est
+<lb ed="#L" n="75"/>florens floribus, quamvis flores non sint. forma
+<lb ed="#L" n="76"/>arboris, sed quidam effectus ab ipsa procedentes.
+</p>
+               <p xml:id="TAca84-d1e237-d1e702">
+                  <lb ed="#L" n="77"/>Secundum hoc ergo dicendum quod, cum dili
+<lb ed="#L" n="78"/>gere in divinis dupliciter sumatur, essentialiter 
+sci<lb break="no" ed="#L" n="79"/>licet et notionaliter; secundum quod essentialiter
+<lb ed="#L" n="80"/>sumitur, sic Pater et Filius non diligunt se Spiritu
+<lb ed="#L" n="81"/>Sancto, sed essentia sua. Unde Augustinus dicit ^,
+<lb ed="#L" n="82"/>in XV de Trin.: Quis audet dicere Patrem nec
+<lb ed="#L" n="83"/>se nec Filium nec Spiritum Sanctum diligere nisi
+<lb ed="#L" n="84"/>per Spiritum Sanctum? Et secundum hoc 
+proce<lb break="no" ed="#L" n="85"/>dunt primae opiniones. - Secundum vero quod
+<lb ed="#L" n="86"/>notionaliter sumitur, sic diligere nihil est aliud
+<lb ed="#L" n="87"/>quam spirare amorem; sicut dicere est producere
+<lb ed="#L" n="88"/>verbum, et florere est producere flores ". Sicut
+<lb ed="#L" n="89"/>ergo dicitur arbor florens floribus, ita dicitur 
+Pa<lb break="no" ed="#L" n="90"/>ter dicens Verbo vel Filio, se et creaturam: et
+<lb ed="#L" n="91"/>Pater et Filius dicuntur diligentes Spiritu Sancto,
+<lb ed="#L" n="92"/>vel Amore procedente, et se et nos.
+</p>
+               <p xml:id="TAca84-d1e237-d1e739">
+                  <lb ed="#L" n="93"/>AD PRIMUM ERGO DICENDUM quod esse sapientem
+<lb ed="#L" n="94"/>vel intelligentem in divinis non sumitur nisi 
+es<lb break="no" ed="#L" n="95"/>sentialiter: et ideo non potest dici quod Pafer
+<lb ed="#L" n="96"/>sit sapiens vel intelligens Filio. Sed diligere 
+su<lb break="no" ed="#L" n="97"/>mitur non solum essentialiter, sed etiam 
+notio<lb break="no" ed="#L" n="98"/>naliter. Et secundum hoc, possumus dicere quod
+<lb ed="#L" n="99"/>Pater et Filius diligunt se Spiritu Sancto, ut 
+di<lb break="no" ed="#L" n="100"/>ctum est.
+</p>
+               <p xml:id="TAca84-d1e237-d1e760">
+                  <pb ed="#L" n="390"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD SECUNDUM DICENDUM quod, quando in 
+intelle<lb break="no" ed="#L" n="2"/>ctu alicuius actionis importatur determinatus 
+effe<lb break="no" ed="#L" n="3"/>ctus, potest denominari principium actionis et ab
+<lb ed="#L" n="4"/>actione et ab effectu; sicut possumus dicere quod
+<lb ed="#L" n="5"/>arbor est florens floritione, et floribus. Sed quando
+<lb ed="#L" n="6"/>in actione non includitur determinatus effectus,
+<lb ed="#L" n="7"/>tunc non potest principium actionis denominari
+<lb ed="#L" n="8"/>ab effectu, sed solum ab actione: non enim 
+di<lb break="no" ed="#L" n="9"/>cimus quod arbor producit florem flore, sed
+<lb ed="#L" n="10"/>productione floris. - In hoc igitur quod dico spirat
+<lb ed="#L" n="11"/>vel generat, importatur actus notionalis tantum.
+<lb ed="#L" n="12"/>Unde non possumus dicere quod Pater spiret
+<lb ed="#L" n="13"/>Spiritu Sancto, vel generet Filio. Possumus autem
+<lb ed="#L" n="14"/>dicere quod Pater dicit Verbo, tanquam persona
+<lb ed="#L" n="15"/>procedente, et dicit dictione, tanquam actu 
+no<lb break="no" ed="#L" n="16"/>tionali: quia dicere importat determinatam 
+per<lb break="no" ed="#L" n="17"/>sonam procedentem, cum dicere sit producere
+<lb ed="#L" n="18"/>verbum. Et similiter diligere, prout notionaliter
+<lb ed="#L" n="19"/>sumitur, est producere amorem. Et ideo potest
+<lb ed="#L" n="20"/>dici quod Pater diligit Filium Spiritu Sancto, 
+tan<cb ed="#L" n="b"/>
+                  <lb break="no" ed="#L" n="21"/>quam persona procedente, et ipsa dilectione, 
+tan<lb break="no" ed="#L" n="22"/>quam actu notionali.
+</p>
+               <p xml:id="TAca84-d1e237-d1e817">
+                  <lb ed="#L" n="23"/>AD TERTIUM DICENDUM quod Pater non solum
+<lb ed="#L" n="24"/>Filium, sed etiam se et nos diligit Spiritu Sancto.
+<lb ed="#L" n="25"/>Quia, ut dictum est, diligere, prout notionaliter
+<lb ed="#L" n="26"/>sumitur, non solum importat productionem 
+di<lb break="no" ed="#L" n="27"/>vinae personae, sed etiam personam productam
+<lb ed="#L" n="28"/>per modum amoris, qui habet habitudinem ad
+<lb ed="#L" n="29"/>rem dilectam. Unde, sicut Pater dicit se et omnem
+<lb ed="#L" n="30"/>creaturam Verbo quod genuit, inquantum 
+Ver<lb break="no" ed="#L" n="31"/>bum genitum sufficienter repraesentat Patrem et
+<lb ed="#L" n="32"/>omnem creaturam; ita diligit se et omnem 
+crea<lb break="no" ed="#L" n="33"/>turam Spiritu Sancto, inquantum Spiritus Sanctus
+<lb ed="#L" n="34"/>procedit ut amor bonitatis primae, secundum
+<lb ed="#L" n="35"/>quam Pater amat se et omnem creaturam. Et
+<lb ed="#L" n="36"/>sic etiam patet quod respectus importatur ad
+<lb ed="#L" n="37"/>creaturam et in Verbo et in Amore procedente,
+<lb ed="#L" n="38"/>quasi secundario; inquantum scilicet veritas et 
+bo<lb break="no" ed="#L" n="39"/>nitas divina est principium intelligendi et amandi
+<lb ed="#L" n="40"/>omnem creaturam.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

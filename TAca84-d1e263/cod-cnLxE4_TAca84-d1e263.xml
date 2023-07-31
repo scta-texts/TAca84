@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 42</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 42</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="435"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e263"><!-- p1-q42 -->
+            <head xml:id="TAca84-d1e263-Hd1e99">Quaestio 42</head>
+            <head xml:id="TAca84-d1e263-Hd1e101" type="question-title">de aequalitate et similitudine divinarum personarum
+    ad invicem</head>
+            <p xml:id="TAca84-d1e263-d1e104">
+               <pb ed="#L" n="435"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO QUADRAGESIMASECUNDA
+<lb ed="#L" n="2"/>DE AEQUALITATE ET SIMILITUDINE DIVINARUM PERSONARUM
+<lb ed="#L" n="3"/>AD INVICEM
+<lb ed="#L" n="4"/>IN SEX ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e263-d1e120">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="5"/>DEINDE considerandum est de comparatione
+<lb ed="#L" n="6"/>Personarum ad invicem. Et primo, 
+quan<lb break="no" ed="#L" n="7"/>tum ad aequalitatem et similitudinem; secundo,
+<lb ed="#L" n="8"/>quantum ad missionem.
+<lb ed="#L" n="9"/>Circa primum quaeruntur sex.
+<lb ed="#L" n="10"/>Primo: utrum aequalitas locum habeat in 
+di<lb break="no" ed="#L" n="11"/>vinis personis.
+<lb ed="#L" n="12"/>Secundo: utrum persona procedens sit aequa-
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="13"/>lis ei a qua procedit, secundum aeterni- E
+<lb ed="#L" n="14"/>tatem. !
+<lb ed="#L" n="15"/>Tertio: utrum sit aliquis ordo in divinis 
+per<lb break="no" ed="#L" n="16"/>sonis.
+<lb ed="#L" n="17"/>Quarto: utrum personae divinae sint aequales
+<lb ed="#L" n="18"/>secundum magnitudinem.
+<lb ed="#L" n="19"/>Quinto: utrum una earum sit in alia.
+<lb ed="#L" n="20"/>Sexto: utrum sint aequales secundum potentiam.
+</p>
+            <div xml:id="TAca84-d1e263-Dd1e162"><!-- p1-q42-a1 -->
+               <head xml:id="TAca84-d1e263-Hd1e165">Articulus 1</head>
+               <head xml:id="TAca84-d1e263-Hd1e167" type="question-title">
+  utrum aequalitas locum habeat in divinis
+</head>
+               <p xml:id="TAca84-d1e263-d1e170">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="21"/>ARTICULUS PRIMUS
+<lb ed="#L" n="22"/>UTRUM AEQUALITAS LOCUM HABEAT IN DIVINIS
+</p>
+               <p xml:id="TAca84-d1e263-d1e179">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="23"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="24"/>aequalitas non competat divinis 
+perso<lb break="no" ed="#L" n="25"/>(nis. Aequalitas enim attenditur 
+secun<lb break="no" ed="#L" n="26"/>X Nydum unum in quantitate, ut patet per
+<lb ed="#L" n="27"/>.lectxwn. Philosophum, V Metaphys. In divinis autem 
+per<lb break="no" ed="#L" n="28"/>sonis non invenitur neque quantitas continua
+<lb ed="#L" n="29"/>intrinseca, quae dicitur magnitudo; neque 
+quan<lb break="no" ed="#L" n="30"/>titas continua extrinseca, quae dicitur locus et
+<lb ed="#L" n="31"/>tempus; neque secundum quantitatem discretam
+<lb ed="#L" n="32"/>invenitur in eis aequalitas, quia duae personae
+<lb ed="#L" n="33"/>sunt plures quam una. Ergo divinis personis non
+<lb ed="#L" n="34"/>convenit aequalitas.
+</p>
+               <p xml:id="TAca84-d1e263-d1e210">
+                  <lb ed="#L" n="35"/>2. PRAETEREA, divinae personae sunt unius 
+es<lb break="no" ed="#L" n="36"/>foem, at. Ssentiae, ut supra dictum est. Essentia áutem
+<lb ed="#L" n="37"/>significatur per modum formae. Convenientia 
+au<lb break="no" ed="#L" n="38"/>tem in forma non facit aequalitatem, sed 
+simili<lb break="no" ed="#L" n="39"/>tudinem. Ergo in divinis personis est dicenda
+<lb ed="#L" n="40"/>Y similitudo, et" non aequalitas.
+</p>
+               <p xml:id="TAca84-d1e263-d1e227">
+                  <lb ed="#L" n="41"/>3. PnRaETEREA, in quibuscumque invenitur 
+ae<lb break="no" ed="#L" n="42"/>à qualitas, illa ? sunt sibi invicem aequalia: quia
+<lb ed="#L" n="43"/>aequale dicitur aequali aequale. Sed divinae 
+per<lb break="no" ed="#L" n="44"/>sonae non possunt sibi invicem dici aequales.
+<lb ed="#L" n="45"/>Quia, ut <ref xml:id="TAca84-d1e263-Rd1e240">Augustinus dicit, VI de Trin.</ref>, imago,
+<lb ed="#L" n="46"/>si perfecte implet illud cuius est imago, ipsa 
+coae<lb break="no" ed="#L" n="47"/>quatur ei, non illud imagini suae. Imago autem
+<lb ed="#L" n="48"/>Patris est Filius: et sic Pater non est aequalis Filio.
+<lb ed="#L" n="49"/>Non ergo in divinis personis invenitur aequalitas.
+</p>
+               <p xml:id="TAca84-d1e263-d1e251">
+                  <lb ed="#L" n="50"/>4. PRAETEREA, aequalitas relatio quaedam est.
+<lb ed="#L" n="51"/>Sed nulla relatio est communis omnibus 
+perso<lb break="no" ed="#L" n="52"/>nis: cum secundum relationes personae ab 
+invi<lb break="no" ed="#L" n="53"/>cem distinguantur. Non ergo aequalitas divinis
+<lb ed="#L" n="54"/>personis convenit.
+</p>
+               <p xml:id="TAca84-d1e263-d1e264">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="55"/>SED CONTRA EST quod <ref xml:id="TAca84-d1e263-Rd1e270">
+                     <name xml:id="TAca84-d1e263-Nd1e272">Athanasius</name> dicit, quod symbolo</ref>.
+<lb ed="#L" n="56"/>
+                  <quote xml:id="TAca84-d1e263-Qd1e277" source="http://scta.info/resource/acnkop-c1c1c1-d1e326@3-9">tres personae coaeternae sibi sunt et coaequales</quote>.
+</p>
+               <p xml:id="TAca84-d1e263-d1e281">
+                  <lb ed="#L" n="57"/>RESPONDEO DICENDUM quod necesse est ponere
+<lb ed="#L" n="58"/>aequalitatem in divinis personis. Quia secundum
+<lb ed="#L" n="59"/>
+                  <ref xml:id="TAca84-d1e263-Rd1e289">Philosophum, in X Metaphys.</ref>, aequale dicitur
+<lb ed="#L" n="60"/>quasi per negationem minoris et maioris. Non e» '
+<lb ed="#L" n="61"/>autem possumus in divinis personis ponere 
+ali<lb break="no" ed="#L" n="62"/>quid maius et minus: quia, ut Boetius dicit, in
+<lb ed="#L" n="63"/>libro de Trin., eos differentia, scilicet deitatis 
+<lb ed="#L" n="64"/>comitatur, qui vel augent vel minuunt, ut Ariani,
+<lb ed="#L" n="65"/>qui gradibus meritorum Trinitatem variarites 
+dis<lb break="no" ed="#L" n="66"/>trahunt, atque in pluralitatem deducunt.
+</p>
+               <p xml:id="TAca84-d1e263-d1e307">
+                  <lb ed="#L" n="67"/>Cuius ratio est, quia inaequalium non potest
+<lb ed="#L" n="68"/>esse una quantitas numero. Quantitas autem in
+<lb ed="#L" n="69"/>divinis " non est aliud quam eius essentia. Unde "
+<lb ed="#L" n="70"/>relinquitur quod, si esset aliqua inaequalitas in
+<lb ed="#L" n="71"/>divinis personis, quod non esset in eis una 
+es<lb break="no" ed="#L" n="72"/>sentia: et sic non essent tres personae unus Deus,
+<lb ed="#L" n="73"/>quod est impossibile. Oportet igitur aequalitatem
+<lb ed="#L" n="74"/>ponere in divinis personis.
+</p>
+               <p xml:id="TAca84-d1e263-d1e327">
+                  <lb ed="#L" n="75"/>Ab PRIMUM ERGO DICENDUM quod duplex est
+<lb ed="#L" n="76"/>quantitas. Una scilicet quae dicitur quantitas 9
+<lb ed="#L" n="77"/>molis, vel quantitas dimensiva, quae in solis rebus
+<lb ed="#L" n="78"/>corporalibus est: unde in divinis personis locum
+<lb ed="#L" n="79"/>non habet. Sed ' alia est quantitas virtutis 
+<lb ed="#L" n="80"/>quae attenditur secundum perfectionem alicuius
+<lb ed="#L" n="81"/>naturae vel formae: quae quidem quantitas 
+desi<lb break="no" ed="#L" n="82"/>gnatur secundum quod dicitur aliquid magis vel
+<lb ed="#L" n="83"/>minus calidum, inquantum est perfectius vel 
+mi<lb break="no" ed="#L" n="84"/>nus perfectum in caliditate. Huiusmodi autem x
+<lb ed="#L" n="85"/>quantitas virtualis attenditur primo quidem in
+<lb ed="#L" n="86"/>radice, idest in ipsa perfectione formae vel na-
+<pb ed="#L" n="436"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>turae: et sic dicitur magnitudo spiritualis, sicut
+<lb ed="#L" n="2"/>dicitur magnus calor propter suam intensionem
+<lb ed="#L" n="3"/>et perfectionem. Et ideo dicit Augustinus, VI de
+<lb ed="#L" n="4"/>Trin., <quote xml:id="TAca84-d1e263-Qd1e368">quod in his quae non mole magna sunt,
+<lb ed="#L" n="5"/>hoc est maius esse, quod est melius esse</quote>: nam
+<lb ed="#L" n="6"/>melius dicitur quod perfectius est. Secundo 
+au<lb break="no" ed="#L" n="7"/>tem attenditur quantitas virtualis in effectibus 
+for<lb break="no" ed="#L" n="8"/>mae. Primus autem effectus formae est esse:
+<lb ed="#L" n="9"/>nam omnis res habet esse secundum suam 
+for<lb break="no" ed="#L" n="10"/>mam. Secundus autem effectus est operatio: nam
+<lb ed="#L" n="11"/>omne agens agit per suam formam. Attenditur
+<lb ed="#L" n="12"/>igitur quantitas virtualis et secundum esse, et
+<lb ed="#L" n="13"/>secundum operationem: secundum esse quidem,
+<lb ed="#L" n="14"/>inquantum ea quae sunt perfectioris naturae, sunt
+<lb ed="#L" n="15"/>maioris durationis; secundum operationem vero,
+<lb ed="#L" n="16"/>inquantum ea quae sunt perfectioris naturae, sunt
+<lb ed="#L" n="17"/>magis potentia ad agendum. Sic igitur, ut 
+Augu<lb break="no" ed="#L" n="18"/>stinus dicit, in libro de Fide ad Petrum, 
+aequa<lb break="no" ed="#L" n="19"/>litas intelligitur in Patre et Filio et Spiritu Sancto,
+<lb ed="#L" n="20"/>inquantum nullus horum aut praecedit aeternitate,
+<lb ed="#L" n="21"/>aut excedit magnitudine, aut superat potestate.
+</p>
+               <p xml:id="TAca84-d1e263-d1e409">
+                  <lb ed="#L" n="22"/>AD SECUNDUM DICENDUM quod ubi attenditur 
+ae<lb break="no" ed="#L" n="23"/>qualitas secundum quantitatem virtualem, 
+aequa<lb break="no" ed="#L" n="24"/>litas includit in se? similitudinem, et aliquid plus:
+<lb ed="#L" n="25"/>quia excludit excessum. Quaecumque enim 
+com<lb break="no" ed="#L" n="26"/>municant in una forma, possunt dici similia,
+<lb ed="#L" n="27"/>etiamsi inaequaliter illam formam participant ,
+<lb ed="#L" n="28"/>sicut si dicatur aer esse similis igni in calore:
+<lb ed="#L" n="29"/>sed non possunt dici aequaliá, si unum altero
+<lb ed="#L" n="30"/>perfectius formam illam participet. Et quia non
+<lb ed="#L" n="31"/>solum una est natura Patris et Filii, sed etiam
+<lb ed="#L" n="32"/>aeque perfecte " est in utroque, ideo non solum
+<lb ed="#L" n="33"/>dicimus Filium esse similem Patri, ut excludatur
+<lb ed="#L" n="34"/>error Eunomii; sed etiam dicimus aequalem, ut
+<lb ed="#L" n="35"/>excludatur error Arii.
+</p>
+               <p xml:id="TAca84-d1e263-d1e442">
+                  <lb ed="#L" n="36"/>AD TERTIUM DICENDUM quod aequalitas vel 
+simi<lb break="no" ed="#L" n="37"/>litudo dupliciter potest significari in divinis, 
+sci<lb break="no" ed="#L" n="38"/>licet per nomina et per verba. Secundum quidem
+<lb ed="#L" n="39"/>quod significatur per nomina, mutua aequalitas
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="40"/>dicitur in divinis petsonis et similitudo: Filius
+<lb ed="#L" n="41"/>enim est aequalis et similis Patri, et e converso.
+<lb ed="#L" n="42"/>Et hoc. ideo, quia essentia divina non magis est
+<lb ed="#L" n="43"/>Patris quam Filii: unde, sicut Filius habet 
+ma<lb break="no" ed="#L" n="44"/>gnitudinem Patris, quod est esse eum aequalem
+<lb ed="#L" n="45"/>Patri, ita Pater habet magnitudinem Filii, quod
+<lb ed="#L" n="46"/>est esse eum aequalem Filio. Sed quantum ad
+<lb ed="#L" n="47"/>creaturas, ut Dionysius dicit, ix cap. de Div. Nom.,
+<lb ed="#L" n="48"/>non recipitur conversio aequalitatis et similitudinis.
+<lb ed="#L" n="49"/>Dicuntur enim causata similia causis, inquantum
+<lb ed="#L" n="50"/>habent formam causarum: sed non e converso,
+<lb ed="#L" n="51"/>quia forma principaliter est in causa, et 
+secun<lb break="no" ed="#L" n="52"/>dario in causato. - Sed verba significant 
+aequalita<lb break="no" ed="#L" n="53"/>tem cum motu. Et licet motus non sit in divinis,
+<lb ed="#L" n="54"/>est tamen ibi accipere. Quia igitur Filius accipit
+<lb ed="#L" n="55"/>a Patre unde est aequalis ei, et non e converso,
+<lb ed="#L" n="56"/>propter hoc dicimus quod Filius coaequatur Patri,
+<lb ed="#L" n="57"/>et non e converso.
+</p>
+               <p xml:id="TAca84-d1e263-d1e494">
+                  <lb ed="#L" n="58"/>AD QUARTUM DICENDUM quod in divinis personis
+<lb ed="#L" n="59"/>nihil est considerare nisi essentiam, in qua 
+com<lb break="no" ed="#L" n="60"/>municant, et relationes, in quibus distinguuntur.
+<lb ed="#L" n="61"/>Aequalitas autem utrumque importat: scilicet
+<lb ed="#L" n="62"/>distinctionem personarum, quia nihil sibi ipsi 
+di<lb break="no" ed="#L" n="63"/>citur aequale; et unitatem essentiae, quia ex hoc
+<lb ed="#L" n="64"/>personae sunt sibi invicem aequales, quod ? sunt
+<lb ed="#L" n="65"/>unius magnitudinis et essentiae. Manifestum est
+<lb ed="#L" n="66"/>autem quod idem ad seipsum non refertur aliqua
+<lb ed="#L" n="67"/>relatione reali. Nec iterum una relatio refertur
+<lb ed="#L" n="68"/>ad aliam per aliquam aliam relationem: cum
+<lb ed="#L" n="69"/>enim dicimus quod paternitas opponitur filiationi,
+<lb ed="#L" n="70"/>oppositio non est relatio media inter 
+paternita<lb break="no" ed="#L" n="71"/>tem et filiationem. Quia utroque modo relatio
+<lb ed="#L" n="72"/>multiplicaretur in infinitum. Et ideo aequalitas
+<lb ed="#L" n="73"/>et similitudo in divinis personis non est aliqua
+<lb ed="#L" n="74"/>realis relatio distincta a relationibus 
+personali<lb break="no" ed="#L" n="75"/>bus: sed in suo intellectu includit et relationes
+<lb ed="#L" n="76"/>distinguentes personas, et essentiae unitatem. Et
+<lb ed="#L" n="77"/>propterea " Magister dicit, in xxxi dist. I Semt.,
+<lb ed="#L" n="78"/>quod in his appellatio tantum est relativa.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e263-Dd1e544"><!-- p1-q42-a2 -->
+               <head xml:id="TAca84-d1e263-Hd1e547">Articulus 2</head>
+               <head xml:id="TAca84-d1e263-Hd1e549" type="question-title">
+  utrum persona procedens sit coaeterna suo principio, ut filius patri
+</head>
+               <p xml:id="TAca84-d1e263-d1e552">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="12"/>UTRUM PERSONA PROCEDENS SIT COAETERNA SUO PRINCIPIO, UT FILIUS PATRI
+</p>
+               <p xml:id="TAca84-d1e263-d1e561">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="13"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="14"/>persona procedens non sit coaeterna
+<lb ed="#L" n="15"/>suo principio, ut Filius Patri. Arius
+<lb ed="#L" n="16"/>enim duodecim modos generationis 
+as<lb break="no" ed="#L" n="17"/>signat. Primus modus est iuxta fluxum lineae
+<lb ed="#L" n="18"/>a puncto: ubi deest aequalitas simplicitatis. 
+Se<lb break="no" ed="#L" n="19"/>cundus modus est iuxta emissionem radiorum a
+<lb ed="#L" n="20"/>sole: ubi deest aequalitas naturae. Tertius modus
+<lb ed="#L" n="21"/>est iuxta characterem, seu impressionem a sigillo:
+<lb ed="#L" n="22"/>ubi deest consubstantialitas et potentiae 
+efficien<lb break="no" ed="#L" n="23"/>tia. Quartus modus est iuxta immissionem bonae
+<lb ed="#L" n="24"/>voluntatis a Deo: ubi etiam deest 
+consubstantia<lb break="no" ed="#L" n="25"/>litas. Quintus modus est iuxta exitum accidentis a
+<lb ed="#L" n="26"/>substantia: sed accidenti deest subsistentia. Sextus
+<lb ed="#L" n="27"/>modus est iuxta abstractionem speciei a materia,
+<lb ed="#L" n="28"/>sicut sensus accipit speciem a re sensibili: ubi
+<lb ed="#L" n="29"/>deest aequalitas ? simplicitatis spiritualis. Septimus
+<lb ed="#L" n="30"/>modus est iuxta excitationem ? voluntatis a 
+co<lb break="no" ed="#L" n="31"/>gitatione: quae quidem excitatio temporalis est.
+<lb ed="#L" n="32"/>Octavus modus est iuxta transfigurationem, ut
+<lb ed="#L" n="33"/>ex aere fit imago: quae materialis est, Nonus
+<lb ed="#L" n="34"/>modus est motus a movente: et hic etiam 
+po<lb break="no" ed="#L" n="35"/>nitur effectus et causa. Decimus modus est iuxta
+<lb ed="#L" n="36"/>eductionem specierum a genere: qui non 
+com<lb break="no" ed="#L" n="37"/>petit in divinis, quia Pater non praedicatur de
+<lb ed="#L" n="38"/>Filio sicut genus de specie. Undecimus modus "
+<lb ed="#L" n="39"/>est iuxta ideationem, ut arca exterior ab ea quae
+<lb ed="#L" n="40"/>est in mente. Duodecimus modus est iuxta 
+na<lb break="no" ed="#L" n="41"/>scentiam , ut homo est a patre: ubi est prius
+<lb ed="#L" n="42"/>et posterius secundum tempus. Patet ergo quod
+<lb ed="#L" n="43"/>in omni modo ' quo aliquid est ex altero, aut
+<lb ed="#L" n="44"/>deest aequalitas naturae, aut aequalitas durationis.
+<lb ed="#L" n="45"/>Si igitur Filius est a Patre, oportet dicere vel
+<lb ed="#L" n="46"/>eum esse minorem Patre, aut posteriorem, aut
+<lb ed="#L" n="47"/>utrumque.
+</p>
+               <p xml:id="TAca84-d1e263-d1e642">
+                  <lb ed="#L" n="48"/>2. PRAETEREA, omne quod est ex altero, habet
+<lb ed="#L" n="49"/>principium. Sed nullum aeternum habet 
+princi<lb break="no" ed="#L" n="50"/>pium. Ergo Filius non est aeternus, neque 
+Spi<lb break="no" ed="#L" n="51"/>ritus Sanctus.
+</p>
+               <p xml:id="TAca84-d1e263-d1e654">
+                  <lb ed="#L" n="52"/>3. PRAETEREA, omne quod corrumpitur, desinit
+<lb ed="#L" n="53"/>esse. Ergo omne quod generatur, incipit esse:
+<lb ed="#L" n="54"/>ad hoc enim generatur, ut sit. Sed Filius est ge-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="55"/>nitus a Patre. Ergo incipit esse, et non est 
+co<lb break="no" ed="#L" n="56"/>aeternus Patri.
+</p>
+               <p xml:id="TAca84-d1e263-d1e670">
+                  <lb ed="#L" n="57"/>4. PRAETEREA, si Filius genitus est a Patre, aut
+<lb ed="#L" n="58"/>semper generatur, aut est dare aliquod instans
+<lb ed="#L" n="59"/>suae generationis. Si semper generatur; dum 
+au<lb break="no" ed="#L" n="60"/>tem aliquid est in generari, est imperfectum, sicut
+<lb ed="#L" n="61"/>patet in successivis, quae sunt semper in fieri,
+<lb ed="#L" n="62"/>ut tempus et motus: sequitur quod Filius semper
+<lb ed="#L" n="63"/>sit imperfectus; quod est inconveniens. Est ergo
+<lb ed="#L" n="64"/>dare aliquod instans generationis Filii. Ante illud
+<lb ed="#L" n="65"/>ergo instans Filius non erat.
+</p>
+               <p xml:id="TAca84-d1e263-d1e692">
+                  <lb ed="#L" n="66"/>SEp coNTRA EsT quod Athanasius dicit, quod
+<lb ed="#L" n="67"/>lotae tres personae coaelernae sibi sunt.
+</p>
+               <p xml:id="TAca84-d1e263-d1e699">
+                  <lb ed="#L" n="68"/>RESPONDEO DICENDUM quod necesse est dicere
+<lb ed="#L" n="69"/>Filium esse coaeternum Patri. Ad cuius 
+eviden<lb break="no" ed="#L" n="70"/>tiam, considerandum est quod aliquid ex 
+prin<lb break="no" ed="#L" n="71"/>cipio existens posterius esse suo principio, potest
+<lb ed="#L" n="72"/>contingere ex duobus: uno modo, ex parte 
+agen<lb break="no" ed="#L" n="73"/>tis; alio modo, ex parte actionis. Ex parte agentis
+<lb ed="#L" n="74"/>quidem, aliter in agentibus voluntarii, aliter in
+<lb ed="#L" n="75"/>agentibus naturalibus. In agentibus quidem 
+volun<lb break="no" ed="#L" n="76"/>taris, propter electionem temporis: sicut enim
+<lb ed="#L" n="77"/>in agentis voluntarii potestate est eligere formam
+<lb ed="#L" n="78"/>quam effectui conferat, ut supra dictum est,
+<lb ed="#L" n="79"/>ita in eius potestate est eligere tempus in quo
+<lb ed="#L" n="80"/>effectum producat. In agentibus autem naturalibus
+<lb ed="#L" n="81"/>hoc contingit, quia agens aliquod non a principio
+<lb ed="#L" n="82"/>habet perfectionem virtutis ? naturaliter ad 
+agen<lb break="no" ed="#L" n="83"/>dum, sed ei advenit post aliquod tempus; sicut
+<lb ed="#L" n="84"/>homo non a principio generare potest. - Ex parte
+<lb ed="#L" n="85"/>autem actionis, impeditur ne id quod est a 
+prin<lb break="no" ed="#L" n="86"/>cipio simul sit cum suo principio, propter hoc
+<lb ed="#L" n="87"/>quod actio est successiva. Unde, dato quod 
+ali<lb break="no" ed="#L" n="88"/>quod agens tali actione agere inciperet statim
+<lb ed="#L" n="89"/>cum est, non statim eodem instanti esset effectus,
+<lb ed="#L" n="90"/>sed in instanti ad quod terminatur actio.
+</p>
+               <p xml:id="TAca84-d1e263-d1e751">
+                  <lb ed="#L" n="91"/>Manifestum est autem secundum praemissa,
+<lb ed="#L" n="92"/>quod Pater non generat Filium voluntate, sed
+<lb ed="#L" n="93"/>natura. Et iterum, quod natura Patris ab aeterno
+<lb ed="#L" n="94"/>perfecta fuit. Et iterum, quod actio qua Pater
+<lb ed="#L" n="95"/>producit Filium, non est successiva: quia sic 
+Fi<lb break="no" ed="#L" n="96"/>lius Dei successive generaretur, et esset" eius
+<pb ed="#L" n="439"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>generatio materialis et cum motu, quod est 
+im<lb break="no" ed="#L" n="2"/>possibile. Relinquitur ergo quod Filius fuit, 
+quan<lb break="no" ed="#L" n="3"/>documque fuit Pater. Et sic Filius est coaeternus
+<lb ed="#L" n="4"/>Patri: et similiter Spiritus Sanctus utrique.
+</p>
+               <p xml:id="TAca84-d1e263-d1e780">
+                  <lb ed="#L" n="5"/>AD PRIMUM ERGO DICENDUM quod, sicut 
+Augusti<lb break="no" ed="#L" n="6"/>nus dicit, in libro de Verbis Domini, nullus 
+mo<lb break="no" ed="#L" n="7"/>dus processionis alicuius creaturae perfecte 
+re<lb break="no" ed="#L" n="8"/>praesentat divinam generationem: unde oportet
+<lb ed="#L" n="9"/>ex multis modis colligere similitudinem, ut quod
+<lb ed="#L" n="10"/>deest ex uno, aliqualiter suppleatur ex altero. Et
+<lb ed="#L" n="11"/>propter hoc dicitur in Synodo Ephesina: 
+Coexi<lb break="no" ed="#L" n="12"/>stere semper coaeternum Patri Filium, Splendor
+<lb ed="#L" n="13"/>tibi denuntiet; impassibilitatem nativitatis ostendat
+<lb ed="#L" n="14"/>Verbum ; consubstantialitatem Filii nomen 
+insi<lb break="no" ed="#L" n="15"/>nuet. Inter omnia tamen expressius repraesentat
+<lb ed="#L" n="16"/>processio verbi ab intellectu: quod quidem non
+<lb ed="#L" n="17"/>est posterius eo a quo procedit, nisi sit talis 
+intel<lb break="no" ed="#L" n="18"/>lectus qui exeat de potentia in actum: quod in
+<lb ed="#L" n="19"/>Deo dici non potest.
+</p>
+               <p xml:id="TAca84-d1e263-d1e816">
+                  <lb ed="#L" n="20"/>AD SECUNDUM DICENDUM quod aeternitas excludit
+<lb ed="#L" n="21"/>principium durationis,sed non principium originis.
+</p>
+               <p xml:id="TAca84-d1e263-d1e823">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="22"/>AD TERTIUM DICENDUM quod omnis corruptio est
+<lb ed="#L" n="23"/>mutatio quaedam: et ideo omne quod 
+corrum<lb break="no" ed="#L" n="24"/>pitur, incipit non esse, et desinit esse. Sed 
+ge<lb break="no" ed="#L" n="25"/>neratio divina non est transmutatio, ut dictum
+<lb ed="#L" n="26"/>est supra. Unde Filius semper generatur, et
+<lb ed="#L" n="27"/>Pater semper generat.
+</p>
+               <p xml:id="TAca84-d1e263-d1e841">
+                  <lb ed="#L" n="28"/>AD QUARTUM DICENDUM quod in tempore aliud
+<lb ed="#L" n="29"/>est quod est indivisibile, scilicet instans; et aliud
+<lb ed="#L" n="30"/>est quod est durans, scilicet tempus. Sed in 
+ae<lb break="no" ed="#L" n="31"/>ternitate ipsum nunc indivisibile est semper stans,
+<lb ed="#L" n="32"/>ut supra dictum est. Generatio vero " Filii non
+<lb ed="#L" n="33"/>est in nunc temporis, aut in tempore, sed in
+<lb ed="#L" n="34"/>aeternitate. Et ideo, ad significandum 
+praesentia<lb break="no" ed="#L" n="35"/>litatem et permanentiam aeternitatis, potest dici
+<lb ed="#L" n="36"/>quod semper nascitur, ut Origenes dixit. Sed,
+<lb ed="#L" n="37"/>ut Gregorius et Augustinus dicunt, melius
+<lb ed="#L" n="38"/>est quod dicatur semper natus: utly semper 
+de<lb break="no" ed="#L" n="39"/>signet permanentiam aeternitatis, et ly nafus 
+per<lb break="no" ed="#L" n="40"/>fectionem geniti. Sic ergo Filius nec 
+imperfe<lb break="no" ed="#L" n="41"/>ctus est, neque erat quando non erat, ut Arius
+<lb ed="#L" n="42"/>dixit.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e263-Dd1e877"><!-- p1-q42-a3 -->
+               <head xml:id="TAca84-d1e263-Hd1e880">Articulus 3</head>
+               <head xml:id="TAca84-d1e263-Hd1e882" type="question-title">
+  utrum in divinis personis sit ordo naturae
+</head>
+               <p xml:id="TAca84-d1e263-d1e885">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="60"/>ARTICULUS TERTIUS
+<lb ed="#L" n="61"/>UTRUM IN DIVINIS PERSONIS SIT ORDO NATURAE
+</p>
+               <p xml:id="TAca84-d1e263-d1e894">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="62"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="63"/>in divinis personis non sit ordo 
+natu<lb break="no" ed="#L" n="64"/>ordo naturae non significh essentiam, neque est
+<lb ed="#L" n="65"/>aliqua personarum aut notionum. Ergo ordo 
+na<lb break="no" ed="#L" n="66"/>turae non est in divinis.
+</p>
+               <p xml:id="TAca84-d1e263-d1e910">
+                  <lb ed="#L" n="67"/>2. PRAETEREA, in quibuscumque est ordo 
+na<lb break="no" ed="#L" n="68"/>turae, unum est prius altero, saltem secundum
+<lb ed="#L" n="69"/>naturam et intellectum. Sed in divinis personis
+<lb ed="#L" n="70"/>nihil est prius et posterius, ut Athanasius 
+di<lb break="no" ed="#L" n="71"/>cit. Ergo in divinis personis non est ordo 
+na<lb break="no" ed="#L" n="72"/>turae.
+</p>
+               <p xml:id="TAca84-d1e263-d1e927">
+                  <lb ed="#L" n="73"/>3. PRAETEREA, quidquid ordinatur, distinguitur.
+<lb ed="#L" n="74"/>Sed natura in divinis non distinguitur. Ergo non
+<lb ed="#L" n="75"/>ordinatur. Ergo non est ibi ordo naturae.
+</p>
+               <p xml:id="TAca84-d1e263-d1e936">
+                  <lb ed="#L" n="76"/>4. PRAETEREA, natura divina est eius essentia.
+<lb ed="#L" n="77"/>Sed non dicitur in divinis ordo essentiae. Ergo
+<lb ed="#L" n="78"/>neque ordo naturae.
+</p>
+               <p xml:id="TAca84-d1e263-d1e945">
+                  <lb ed="#L" n="79"/>SED coNTRA, ubicumque est pluralitas sine or-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="80"/>dine, ibi est confusio. Sed in divinis personis non
+<lb ed="#L" n="81"/>est confusio, ut Athanasius dicit. Ergo est ibi
+<lb ed="#L" n="82"/>ordo.
+</p>
+               <p xml:id="TAca84-d1e263-d1e958">
+                  <lb ed="#L" n="83"/>RESPONDEO DICENDUM quod ordo semper dicitur
+<lb ed="#L" n="84"/>per comparationem ad aliquod principium. Unde
+<lb ed="#L" n="85"/>sicut dicitur principium multipliciter, scilicet 
+se<lb break="no" ed="#L" n="86"/>cundum situm, ut punctus, secundum intellectum,
+<lb ed="#L" n="87"/>ut principium demonstrationis, et secundum 
+cau<lb break="no" ed="#L" n="88"/>sas singulas; ita etiam dicitur ordo. In divinis
+<lb ed="#L" n="89"/>autem dicitur principium secundum originem ,
+<lb ed="#L" n="90"/>absque prioritate, ut supra dictum est. Unde
+<lb ed="#L" n="91"/>oportet ibi esse ordinem secundum originem ^,
+<lb ed="#L" n="92"/>absque prioritate. Et hic vocatur ordo naturae,
+<lb ed="#L" n="93"/>secundum Augustinum, non quo alter sit prius
+<lb ed="#L" n="94"/>altero, sed quo alter est ex altero.
+</p>
+               <p xml:id="TAca84-d1e263-d1e987">
+                  <lb ed="#L" n="95"/>AD PRIMUM ERGO DICENDUM quod ordo naturae
+<lb ed="#L" n="96"/>significat notionem originis in communi, non 
+au<lb break="no" ed="#L" n="97"/>tem ? in speciali.
+</p>
+               <p xml:id="TAca84-d1e263-d1e996">
+                  <lb ed="#L" n="98"/>AD SECUNDUM DICENDUM quod in rebus creatis,
+<lb ed="#L" n="99"/>etiam cum id quod est a principio sit suo prin-
+<pb ed="#L" n="440"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>cipio coaevum secundum durationem, tamen 
+prin<lb break="no" ed="#L" n="2"/>cipium est prius secundum naturam et 
+intelle<lb break="no" ed="#L" n="3"/>ctum, si consideretur id quod est principium, Sed
+<lb ed="#L" n="4"/>si considerentur ipsae relationes causae et causati,
+<lb ed="#L" n="5"/>et principii et principiati, manifestum est quod
+<lb ed="#L" n="6"/>relativa sunt simul natura et intellectu, 
+inquan<lb break="no" ed="#L" n="7"/>tum unum est in definitione alterius, Sed in 
+di<lb break="no" ed="#L" n="8"/>vinis ipsae relationes sunt subsistentes personae
+<lb ed="#L" n="9"/>in una natura. Unde neque ex parte naturae,
+<lb ed="#L" n="10"/>neque ex parte relationum, una persona potest
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="11"/>esse prior alia, neque etiam secundum naturam
+<lb ed="#L" n="12"/>et intellectum.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1036">
+                  <lb ed="#L" n="13"/>AD TERTIUM DICENDUM quod ordo naturae 
+di<lb break="no" ed="#L" n="14"/>citur, non quod ipsa natura ordinetur: sed quod
+<lb ed="#L" n="15"/>ordo in divinis personis attenditur secundum 
+na<lb break="no" ed="#L" n="16"/>turalem originem.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1047">
+                  <lb ed="#L" n="17"/>AD QUARTUM DICENDUM quod zatura 
+quodam<lb break="no" ed="#L" n="18"/>modo importat rationem principii, non autem
+<lb ed="#L" n="19"/>essentia, Et ideo ordo originis melius nominatur
+<lb ed="#L" n="20"/>ordo naturae, quam ordo essentiae.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e263-Dd1e1059"><!-- p1-q42-a4 -->
+               <head xml:id="TAca84-d1e263-Hd1e1062">Articulus 4</head>
+               <head xml:id="TAca84-d1e263-Hd1e1064" type="question-title">utrum filius sit aequalis patri secundum magnitudinem</head>
+               <p xml:id="TAca84-d1e263-d1e1067">
+                  <pb ed="#L" n="441"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUARTUS
+<lb ed="#L" n="2"/>UTRUM FILIUS SIT AEQUALIS PATRI SECUNDUM MAGNITUDINEM
+</p>
+               <p xml:id="TAca84-d1e263-d1e1078">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>Filius non sit aequalis Patri in 
+magnitu<lb break="no" ed="#L" n="5"/>dine. Dicit enim ipse, Ioan. xiv: <quote xml:id="TAca84-d1e263-Qd1e1088">Pater
+<lb ed="#L" n="6"/>maior me est</quote>; et Apostolus, I Cor. xv »:
+<quote xml:id="TAca84-d1e263-Qd1e1094">Ipse Filius subiectus erit illi qui sibi subiecit omnia</quote>.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1097">
+                  <lb ed="#L" n="7"/>2. PRAETEREA, paternitas pertinet ad dignitatem
+<lb ed="#L" n="8"/>Patris. Sed paternitas non convenit Filio. Ergo
+<lb ed="#L" n="9"/>non quidquid dignitatis habet Pater, habet Filius.
+<lb ed="#L" n="10"/>Ergo non est aequalis Patri in magnitudine.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1109">
+                  <lb ed="#L" n="11"/>3. Praeterea, ubicumque est totum et pars,
+<lb ed="#L" n="12"/>plures partes sunt aliquid maius quam una 
+tan<lb break="no" ed="#L" n="13"/>tum vel pauciores; sicut tres homines sunt aliquid
+<lb ed="#L" n="14"/>maius quam duo vel unus. Sed in divinis videtur
+<lb ed="#L" n="15"/>esse totum universale et pars: nam sub relatione
+<lb ed="#L" n="16"/>vel notione plures notiones continentur. Cum 
+igi<lb break="no" ed="#L" n="17"/>tur in Patre sint tres notiones, in Filio autem
+<lb ed="#L" n="18"/>tantum duae, videtur quod Filius non sit aequalis
+<lb ed="#L" n="19"/>Patri.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1131">
+                  <lb ed="#L" n="20"/>SED coNTRA EsT quod dicitur Philip. u: Non
+<lb ed="#L" n="21"/>rapinam arbitratus est esse se aequalem Deo.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1138">
+                  <lb ed="#L" n="22"/>RESPONDEO DICENDUM quod necesse est dicere
+<lb ed="#L" n="23"/>Filium esse aequalem Patri in magnitudine. 
+Ma<lb break="no" ed="#L" n="24"/>gnitudo enim Dei non est aliud quam perfectio
+<lb ed="#L" n="25"/>naturae ipsius. Hoc autem est de ratione 
+pater<lb break="no" ed="#L" n="26"/>nitatis et filiationis, quod filius per generationem
+<lb ed="#L" n="27"/>pertingat ad habendam perfectionem naturae quae
+<lb ed="#L" n="28"/>est in patre, sicut et pater. Sed quia in 
+homini<lb break="no" ed="#L" n="29"/>bus generatio est transmutatio quaedam exeuntis ^
+<lb ed="#L" n="30"/>de potentia in actum, non statim a principio homo
+<lb ed="#L" n="31"/>filius est aequalis patri generanti; sed per 
+debi<lb break="no" ed="#L" n="32"/>tum incrementum ad aequalitatem perducitur, nisi
+<lb ed="#L" n="33"/>aliter eveniat propter defectum principii 
+genera<lb break="no" ed="#L" n="34"/>tionis. Manifestum est autem ex dictis quod in
+<lb ed="#L" n="35"/>divinis est proprie et vere paternitas et filiatio.
+<lb ed="#L" n="36"/>Nec potest dici quod virtus Dei Patris fuerit 
+de<lb break="no" ed="#L" n="37"/>fectiva in generando; neque quod Dei Filius 
+suc<lb break="no" ed="#L" n="38"/>cessive et per transmutationem ad perfectionem
+<lb ed="#L" n="39"/>pervenerit. Unde necesse est dicere quod ab 
+ae<lb break="no" ed="#L" n="40"/>terno fuerit Patri aequalis in magnitudine. Unde
+<lb ed="#L" n="41"/>et Hilarius dicit, in libro de Synod.: Tolle 
+cor<lb break="no" ed="#L" n="42"/>porum infirmitates , tolle conceptus initium, tolle
+<lb ed="#L" n="43"/>dolores et omnem humanam necessitatem, omnis
+<lb ed="#L" n="44"/>filius secundum naturalem nativitatem aequalitas
+<lb ed="#L" n="45"/>patris est, quia est et similitudo naturae.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1193">
+                  <lb ed="#L" n="46"/>AD PRIMUM ERGO DICENDUM quod verba illa ? in-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="47"/>telliguntur dicta de Christo secundum humanam
+<lb ed="#L" n="48"/>naturam, in qua minor est Patre, et ei subiectus.
+<lb ed="#L" n="49"/>Sed secundum naturam divinam, aequalis est
+<lb ed="#L" n="50"/>Patri. Et hoc est quod Athanasius dicit: 
+4e<lb break="no" ed="#L" n="51"/>qualis Patri secundum divinitatem , minor Patre
+<lb ed="#L" n="52"/>secundum humanitatem. Vel, secundum Hilarium,
+<lb ed="#L" n="53"/>in IX libro de 7rin.: <quote xml:id="TAca84-d1e263-Qd1e1214">Donantis auctoritate Pater
+<lb ed="#L" n="54"/>maior est, sed minor non est cui unum esse 
+do<lb break="no" ed="#L" n="55"/>natur</quote>. Et in libro de Synod. dicit quod <quote xml:id="TAca84-d1e263-Qd1e1221">
+subie<lb break="no" ed="#L" n="56"/>clio Filii naturae pietas est</quote>, idest recognitio 
+au<lb break="no" ed="#L" n="57"/>ctoritatis. paternae, <quote xml:id="TAca84-d1e263-Qd1e1229">subiectio autem ceterorum ,
+<lb ed="#L" n="58"/>creationis infirmitas</quote>.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1235">
+                  <lb ed="#L" n="59"/>AD SECUNDUM DICENDUM quod aequalitas 
+atten<lb break="no" ed="#L" n="60"/>ditur secundum magnitudinem. Magnitudo autem
+<lb ed="#L" n="61"/>in divinis significat perfectionem naturae, ut 
+di<lb break="no" ed="#L" n="62"/>ctum est, et ad essentiam pertinet. Et ideo 
+ae<lb break="no" ed="#L" n="63"/>qualitas in divinis, et similitudo, secundum 
+es<lb break="no" ed="#L" n="64"/>sentialia attenditur: nec potest secundum 
+distin<lb break="no" ed="#L" n="65"/>ctionem relationum inaequalitas vel dissimilitudo
+<lb ed="#L" n="66"/>dici. Unde Augustinus dicit, Contra Maximinum:
+<lb ed="#L" n="67"/>Originis quaestio est quid de quo sit; aequalitatis
+<lb ed="#L" n="68"/>autem, qualis aut quantus sit. Paternitas igitur est
+<lb ed="#L" n="69"/>dignitas Patris, sicut et essentia Patris: nam 
+di<lb break="no" ed="#L" n="70"/>gnitas absolutum est, et? ad essentiam pertinet.
+<lb ed="#L" n="71"/>Sicut igitur eadem essentia quae in Patre est
+<lb ed="#L" n="72"/>paternitas, in Filio est filiatio; ita eadem dignitas
+<lb ed="#L" n="73"/>quae in Patre est paternitas, in Filio est filiatio.
+<lb ed="#L" n="74"/>Vere ergo dicitur quod quidquid dignitatis habet
+<lb ed="#L" n="75"/>Pater, habet Filius. Nec sequitur: paternitatem
+<lb ed="#L" n="76"/>habet Pater, ergo paternitatem habet Filius. 
+Mu<lb break="no" ed="#L" n="77"/>tatur enim quid in ad aliquid: eadem enim est
+<lb ed="#L" n="78"/>essentia et dignitas Patris et Filii, sed in Patre
+<lb ed="#L" n="79"/>est secundum relationem dantis, in Filio 
+secun<lb break="no" ed="#L" n="80"/>dum relationem accipientis.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1285">
+                  <lb ed="#L" n="81"/>AD TERTIUM DICENDUM quod relatio in divinis
+<lb ed="#L" n="82"/>non est totum universale, quamvis de pluribus '
+<lb ed="#L" n="83"/>relationibus praedicetur: quia omnes relationes
+<lb ed="#L" n="84"/>sunt unum secundum essentiam et esse, quod
+<lb ed="#L" n="85"/>repugnat rationi universalis, cuius partes 
+secun<lb break="no" ed="#L" n="86"/>dum esse distinguuntur. Et similiter persona, ut
+<lb ed="#L" n="87"/>supra dictum est, non est universale in divinis.
+<lb ed="#L" n="88"/>Unde neque omnes relationes sunt maius aliquid
+<lb ed="#L" n="89"/>quam una tantum; nec omnes personae maius
+<lb ed="#L" n="90"/>aliquid quam una tantum; quia tota perfectio
+<lb ed="#L" n="91"/>divinae naturae est in qualibet personarum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e263-Dd1e1312"><!-- p1-q42-a5 -->
+               <head xml:id="TAca84-d1e263-Hd1e1315">Articulus 5</head>
+               <head xml:id="TAca84-d1e263-Hd1e1317" type="question-title">
+  utrum filius sit in patre, et e converso
+</head>
+               <p xml:id="TAca84-d1e263-d1e1320">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>ARTICULUS QUINTUS
+<lb ed="#L" n="14"/>UTRUM FILIUS SIT IN PATRE, ET E CONVERSO
+</p>
+               <p xml:id="TAca84-d1e263-d1e1329">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="15"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="16"/>Filius non sit in Patre, et e converso.
+<lb ed="#L" n="17"/>Philosophus enim, in IV Physic., ponit
+<lb ed="#L" n="18"/>octo modos essendi aliquid in aliquo ;
+<lb ed="#L" n="19"/>et secundum nullum horum Filius est in Patre,
+<lb ed="#L" n="20"/>aut e converso, ut patet discurrenti per singulos
+<lb ed="#L" n="21"/>modos. Ergo Filius non est in Patre, nec e 
+con<lb break="no" ed="#L" n="22"/>verso.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1351">
+                  <lb ed="#L" n="23"/>2. PRAETEREA, nihil quod exivit ab aliquo, est
+<lb ed="#L" n="24"/>in eo. Sed Filius ab aeterno exivit a Patre, 
+secun<lb break="no" ed="#L" n="25"/>dum illud Micheae v: Egressus eius ab initio,
+<lb ed="#L" n="26"/>a diebus aeternitatis. Ergo Filius non est in Patre.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1363">
+                  <lb ed="#L" n="27"/>3. PRAETEREA, unum oppositorum non est in
+<lb ed="#L" n="28"/>altero. Sed Filius et Pater opponuntur relative.
+<lb ed="#L" n="29"/>Ergo unus non potest esse in alio.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1372">
+                  <lb ed="#L" n="30"/>SED coNTRA EsT quod dicitur loan. xiv: Ego
+<lb ed="#L" n="31"/>in Patre, et Pater in me est.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1379">
+                  <lb ed="#L" n="32"/>RESPONDEO DICENDUM quod in Patre et Filio tria
+<lb ed="#L" n="33"/>est considerare, scilicet essentiam, relationem
+<lb ed="#L" n="34"/>et originem; et secundum quodlibet istorum 
+Fi<lb break="no" ed="#L" n="35"/>lius est in Patre, et e converso. Secundum 
+es<lb break="no" ed="#L" n="36"/>sentiam enim Pater est in Filio, quia Pater est
+<lb ed="#L" n="37"/>sua essentia, et communicat suam essentiam 
+Fi<lb break="no" ed="#L" n="38"/>lio, non per aliquam suam transmutationem: unde
+<lb ed="#L" n="39"/>sequitur quod, cum essentia Patris sit in Filio,
+<lb ed="#L" n="40"/>quod in Filio sit Pater. Et similiter, cum Filius
+<lb ed="#L" n="41"/>sit sua essentia, sequitur quod sit in Patre, in
+<lb ed="#L" n="42"/>quo est eius essentia. Et hoc est quod Hilarius
+<lb ed="#L" n="43"/>dicit, V de Zrin.: Naturam suam, ut ita dicam,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="44"/>sequitur immutabilis Deus, immutabilem gignens
+<lb ed="#L" n="45"/>Deum. Subsistentem ergo in eo Dei naturam 
+in<lb break="no" ed="#L" n="46"/>tlelligimus, cum in Deo Deus insit. - Secundum
+<lb ed="#L" n="47"/>etiam relationes, manifestum est quod unum 
+op<lb break="no" ed="#L" n="48"/>positorum relative est in altero secundum 
+intel<lb break="no" ed="#L" n="49"/>lectum. - Secundum originem etiam, manifestum
+<lb ed="#L" n="50"/>est quod processio verbi intelligibilis non est ad
+<lb ed="#L" n="51"/>extra ^, sed manet in dicente. Id etiam quod
+<lb ed="#L" n="52"/>verbo dicitur, in verbo continetur. - Et eadem
+<lb ed="#L" n="53"/>ratio est de Spiritu Sancto.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1431">
+                  <lb ed="#L" n="54"/>AD PRIMUM ERGO DICENDUM quod ea quae in
+<lb ed="#L" n="55"/>creaturis sunt, non sufficienter repraesentant ea
+<lb ed="#L" n="56"/>quae Dei sunt. Et ideo secundum nullum ? 
+eo<lb break="no" ed="#L" n="57"/>rum modorum quos Philosophus enumerat, Filius
+<lb ed="#L" n="58"/>est in Patre, aut e converso. Accedit tamen magis
+<lb ed="#L" n="59"/>ad hoc modus ille; secundum quem aliquid 
+di<lb break="no" ed="#L" n="60"/>citur esse in principio originante: nisi quod deest
+<lb ed="#L" n="61"/>unitas essentiae, in rebus creatis, inter principium
+<lb ed="#L" n="62"/>et id quod est a principio.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1453">
+                  <lb ed="#L" n="63"/>Ap SECUNDUM DICENDUM quod exitus Filii a Patre
+<lb ed="#L" n="64"/>est secundum modum processionis interioris, prout
+<lb ed="#L" n="65"/>verbum exit a corde, et manet in eo. Unde exitus
+<lb ed="#L" n="66"/>iste in divinis est secundum solam distinctionem
+<lb ed="#L" n="67"/>relationum ; non secundum essentialem aliquaiq
+<lb ed="#L" n="68"/>distantiam.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1469">
+                  <lb ed="#L" n="69"/>AD TERTIUM DICENDUM quod Pater et Filius 
+op<lb break="no" ed="#L" n="70"/>ponuntur secundum relationes, non autem 
+secun<lb break="no" ed="#L" n="71"/>dum essentiam. Et tamen oppositorum relative
+<lb ed="#L" n="72"/>unum est in altero, ut dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e263-Dd1e1481"><!-- p1-q42-a6 -->
+               <head xml:id="TAca84-d1e263-Hd1e1484">Articulus 6</head>
+               <head xml:id="TAca84-d1e263-Hd1e1486" type="question-title">
+  utrum filius sit aequalis patri secundum potentiam
+</head>
+               <p xml:id="TAca84-d1e263-d1e1489">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="107"/>ARTICULUS SEXTUS
+<lb ed="#L" n="108"/>UTRUM FILIUS SIT AEQUALIS PATRI SECUNDUM POTENTIAM
+</p>
+               <p xml:id="TAca84-d1e263-d1e1498">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="109"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="110"/>CAN e) Filius non sit aequalis Patri secundum
+<lb ed="#L" n="111"/>P/ 2 e | potentiam. Dicitur enim Ioan. v: <quote xml:id="TAca84-d1e263-Qd1e1508">Non
+<lb ed="#L" n="112"/>)Nspotest Filius a se facere quidquam, nisi
+<lb ed="#L" n="113"/>quod. viderit Patrem facientem</quote>. Pater autem a se
+<lb ed="#L" n="114"/>potest facere. Ergo Pater maior est Filio 
+secun<lb break="no" ed="#L" n="115"/>dum potentiam.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1521">
+                  <lb ed="#L" n="116"/>2. PRAETEREA, maior est potentia e eius qui 
+prae<lb break="no" ed="#L" n="117"/>cipit et docet, quam eius qui obedit et audit.
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="118"/>Sed Pater mandat Filio, secundum illud Ioan. xiv:
+<lb ed="#L" n="119"/>Sicut mandatum dedit mihi Pater, sic facio. Pater
+<lb ed="#L" n="120"/>etiam docet Filium, secundum illud Ioan. v:
+<lb ed="#L" n="121"/>Pater. diligit Filium, et omnia demonstrat ei quae
+<lb ed="#L" n="122"/>ipse facit. Similiter et Filius audit, secundum illud
+<lb ed="#L" n="123"/>Ioan. v ^: Sicut audio, iudico. Ergo Pater est
+<lb ed="#L" n="124"/>maioris potentiae quam Filius.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1546">
+                  <lb ed="#L" n="125"/>3. PRAETEREA, ad omnipotentiam Patris 
+per<lb break="no" ed="#L" n="126"/>tinet quod possit Filium generare sibi aequalem:
+<pb ed="#L" n="444"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>dicit enim Augustinus, in libro Contra Maximin.:
+<lb ed="#L" n="2"/>Si non potuit generare sibi aequalem, ubi est 
+omni<lb break="no" ed="#L" n="3"/>potentia Dei Patris? Sed Filius non potest 
+gene<lb break="no" ed="#L" n="4"/>rare Filium, ut supra ostensum est. Non ergo
+<lb ed="#L" n="5"/>quidquid pertinet ad omnipotentiam Patris, potest
+<lb ed="#L" n="6"/>Filius. Et ita non est ei in potestate aequalis.
+<lb ed="#L" n="7"/>SED coNTRA EsT quod dicitur Ioan. v: 
+Quae<lb break="no" ed="#L" n="8"/>cumque Pater facit, haec et Filius similiter facit.
+<lb ed="#L" n="9"/>RESPONDEO DICENDUM quod necesse est dicere
+<lb ed="#L" n="10"/>quod Filius est aequalis ? Patri in potestate. 
+Po<lb break="no" ed="#L" n="11"/>tentia enim agendi consequitur perfectionem 
+na<lb break="no" ed="#L" n="12"/>turae: videmus enim in creaturis quod quanto
+<lb ed="#L" n="13"/>aliquid habet perfectiorem naturam, tanto est
+<lb ed="#L" n="14"/>maioris virtutis in agendo. Ostensum est autem
+<lb ed="#L" n="15"/>supra quod ipsa ratio divinae paternitatis et 
+fi<lb break="no" ed="#L" n="16"/>liationis exigit quod Filius sit aequalis Patri in
+<lb ed="#L" n="17"/>magnitudine, idest in perfectione naturae. Unde
+<lb ed="#L" n="18"/>relinquitur quod Filius sit aequalis Patri in 
+po<lb break="no" ed="#L" n="19"/>testate. - Et eadem ratio est de Spiritu Sancto 
+re<lb break="no" ed="#L" n="20"/>spectu utriusque.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1601">
+                  <lb ed="#L" n="21"/>Ap PRIMUM ERGO DICENDUM quod in hoc quod
+<lb ed="#L" n="22"/>dicitur quod 7Zilius non potest a se facere 
+quid<lb break="no" ed="#L" n="23"/>quam, non subtrahitur Filio aliqua potestas quam
+<lb ed="#L" n="24"/>habeat Pater; cum statim subdatur quod 
+quaecum<lb break="no" ed="#L" n="25"/>que Pater facit, Filius similiter facit. Sed osten-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="26"/>ditur quod Filius habet potestatem a Patre, a quo
+<lb ed="#L" n="27"/>habet naturam. Unde dicit Hilarius, IX de 7rin.:
+<lb ed="#L" n="28"/>Naturae divinae haec unitas est, ut ila per se agat
+<lb ed="#L" n="29"/>Filius, quod non a se agat. i!
+</p>
+               <p xml:id="TAca84-d1e263-d1e1625">
+                  <lb ed="#L" n="30"/>AD SECUNDUM DICENDUM quod in demonstratione
+<lb ed="#L" n="31"/>Patris et auditione Filii, non intelligitur nisi quod
+<lb ed="#L" n="32"/>Pater communicat scientiam Filio, sicut et 
+essen<lb break="no" ed="#L" n="33"/>tiam. Et ad idem potest referri mandatum Patris,
+<lb ed="#L" n="34"/>per hoc quod ab aeterno dedit ei scientiam et
+<lb ed="#L" n="35"/>voluntatem agendorum, eum generando. - Vel 
+po<lb break="no" ed="#L" n="36"/>tius referendum est ad Christum secundum 
+hu<lb break="no" ed="#L" n="37"/>manam naturam.
+</p>
+               <p xml:id="TAca84-d1e263-d1e1645">
+                  <lb ed="#L" n="38"/>AD TERTIUM DICENDUM quod, sicut eadem 
+essen<lb break="no" ed="#L" n="39"/>tia quae in Patre est paternitas, in Filio est 
+fi<lb break="no" ed="#L" n="40"/>liatio; ita eadem est potentia qua Pater generat, et
+<lb ed="#L" n="41"/>qua Filius generatur. Unde manifestum est quod
+<lb ed="#L" n="42"/>quidquid potest Pater, potest Filius. Non tamen
+<lb ed="#L" n="43"/>sequitur quod possit generare: sed mutatur quid
+<lb ed="#L" n="44"/>in ad aliquid, nam generatio significat relationem
+<lb ed="#L" n="45"/>in divinis. Habet ergo Filius eandem 
+omnipo<lb break="no" ed="#L" n="46"/>tentiam quam Pater, sed cum alia relatione. Quia
+<lb ed="#L" n="47"/>Pater habet eam ut dans: et hoc significatur, cum
+<lb ed="#L" n="48"/>dicitur quod potest generare. Filius autem habet
+<lb ed="#L" n="49"/>eam ut accipiens: et hoc significatur, cum dicitur
+<lb ed="#L" n="50"/>quod potest generari.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

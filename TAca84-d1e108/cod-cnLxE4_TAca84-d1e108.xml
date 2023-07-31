@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="114"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e108"><!-- p1-q12 -->
+            <head xml:id="TAca84-d1e108-Hd1e99">Quaestio 12</head>
+            <head xml:id="TAca84-d1e108-Hd1e101" type="question-title">quomodo deus a nobis cognoscatur</head>
+            <p xml:id="TAca84-d1e108-d1e104">
+               <pb ed="#L" n="114"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO DUODECIMA
+<lb ed="#L" n="2"/>QUOMODO DEUS A NOBIS COGNOSCATUR
+<lb ed="#L" n="3"/>IN TREDECIM ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e108-d1e117">
+               <lb ed="#L" n="4"/>QUIA in superioribus consideravimus qualiter
+<lb ed="#L" n="5"/>Deus sit secundum seipsum, restat 
+conside<lb break="no" ed="#L" n="6"/>randum qualiter sit in cognitione nostra, idest
+<lb ed="#L" n="7"/>quomodo cognoscatur a creaturis.
+<lb ed="#L" n="8"/>Et circa hoc quaeruntur tredecim.
+<lb ed="#L" n="9"/>Primo: utrum aliquis intellectus creatus possit
+<lb ed="#L" n="10"/>videre essentiam Dei.
+<lb ed="#L" n="11"/>Secundo: utrum Dei essentia videatur ab 
+in<lb break="no" ed="#L" n="12"/>tellectu per aliquam speciem creatam.
+<lb ed="#L" n="13"/>Tertio: utrum oculo corporeo Dei essentia
+<lb ed="#L" n="14"/>possit videri.
+<lb ed="#L" n="15"/>Quarto: utrum aliqua substantia intellectualis
+<lb ed="#L" n="16"/>creata ex suis naturalibus sufficiens sit 
+vi<lb break="no" ed="#L" n="17"/>dere Dei essentiam.
+<lb ed="#L" n="18"/>Quinto: utrum intellectus creatus ad 
+viden<lb break="no" ed="#L" n="19"/>ri dam Dei essentiam indigeat aliquo lumine
+<lb ed="#L" n="20"/>creato.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="21"/>Sexto: utrum videntium essentiam Dei unus
+<lb ed="#L" n="22"/>alio perfectius videat.
+<lb ed="#L" n="23"/>Septimo: utrum aliquis intellectus creatus 
+pos<lb break="no" ed="#L" n="24"/>sit comprehendere Dei essentiam.
+<lb ed="#L" n="25"/>Octavo: utrum intellectus creatus videns Dei
+<lb ed="#L" n="26"/>essentiam, omnia in ipsa cognoscat.
+<lb ed="#L" n="27"/>Nono: utrum ea quae ibi cognoscit, per 
+ali<lb break="no" ed="#L" n="28"/>quas similitudines cognoscat ^.
+<lb ed="#L" n="29"/>Decimo: utrum simul cognoscat omnia quae
+<lb ed="#L" n="30"/>in Deo videt.
+<lb ed="#L" n="31"/>Undecimo: utrum in statu huius vitae ? possit
+<lb ed="#L" n="32"/>aliquis homo essentiam Dei videre.
+<lb ed="#L" n="33"/>Duodecimo: utrum per rationem naturalem.
+<lb ed="#L" n="34"/>Deum in hac vita possimus cognoscere.
+<lb ed="#L" n="35"/>Tertiodecimo: utrum, supra cognitionem 
+na<lb break="no" ed="#L" n="36"/>turalis ? rationis, sit in praesenti vita aliqua
+<lb ed="#L" n="37"/>cognitio Dei per gratiam.
+</p>
+            <div xml:id="TAca84-d1e108-Dd1e195"><!-- p1-q12-a1 -->
+               <head xml:id="TAca84-d1e108-Hd1e198">Articulus 1</head>
+               <head xml:id="TAca84-d1e108-Hd1e200" type="question-title">utrum aliquis intellectus creatus possit deum videre per essentiam</head>
+               <p xml:id="TAca84-d1e108-d1e203">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="38"/>ARTICULUS PRIMUS
+<lb ed="#L" n="39"/>UTRUM ALIQUIS INTELLECTUS CREATUS POSSIT DEUM VIDERE PER ESSENTIAM
+</p>
+               <p xml:id="TAca84-d1e108-d1e212">
+                  <lb ed="#L" n="40"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="41"/>nullus intellectus creatus possit Deum per
+<lb ed="#L" n="42"/>essentiam videre. Chrysostomus enim,
+<lb ed="#L" n="43"/>super Joannem, exponens illud quod
+<lb ed="#L" n="44"/>dicitur Ioan. 1, Deum nemo vidit unquam, sic
+<lb ed="#L" n="45"/>dicit: Ipsum quod est Deus, non solum prophetae,
+<lb ed="#L" n="46"/>sed nec angeli viderunt nec archangeli: quod
+<lb ed="#L" n="47"/>enim creabilis est naturae, qualiter videre poterit
+<lb ed="#L" n="48"/>quod increabile est? Dionysius etiam, 1 cap. de
+<lb ed="#L" n="49"/>Div. Nom. loquens de Deo, dicit: neque sensus
+<lb ed="#L" n="50"/>est eius, neque phantasia, neque opinio, nec ratio,
+<lb ed="#L" n="51"/>nec scientia.
+</p>
+               <p xml:id="TAca84-d1e108-d1e241">
+                  <lb ed="#L" n="52"/>2. PRAETEREA, omne infinitum, inquantum 
+hu<lb break="no" ed="#L" n="53"/>iusmodi, est ignotum. Sed Deus est infinitus,
+<lb ed="#L" n="54"/>ut supra ostensum est. Ergo secundum se est
+<lb ed="#L" n="55"/>ignotus.
+</p>
+               <p xml:id="TAca84-d1e108-d1e253">
+                  <lb ed="#L" n="56"/>3. PnmaETEREA, intellectus creatus non est 
+co<lb break="no" ed="#L" n="57"/>gnoscitivus nisi existentium: primum enim quod
+<lb ed="#L" n="58"/>cadit in apprehensione intellectus, est ens. Sed
+<lb ed="#L" n="59"/>Deus non est existens, sed supra existentia, ut
+<lb ed="#L" n="60"/>dicit Dionysius. Ergo non est intelligibilis; sed
+<lb ed="#L" n="61"/>est supra omnem intellectum.
+</p>
+               <p xml:id="TAca84-d1e108-d1e269">
+                  <lb ed="#L" n="62"/>4. PRAETEREA, cognoscentis ad cognitum 
+opor<lb break="no" ed="#L" n="63"/>tet esse aliquam proportionem, cum cognitum
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="64"/>sit perfectio cognoscentis. Sed nulla est proportio
+<lb ed="#L" n="65"/>intellectus creati ad Deum: quia in infinitum 
+di<lb break="no" ed="#L" n="66"/>stant. Ergo intellectus creatus non potest videre
+<lb ed="#L" n="67"/>essentiam Dei.
+</p>
+               <p xml:id="TAca84-d1e108-d1e287">
+                  <lb ed="#L" n="68"/>SED CONTRA EST quod dicitur I Ioan. ur: »
+i<lb break="no" ed="#L" n="69"/>debimus eum sicuti est.
+</p>
+               <p xml:id="TAca84-d1e108-d1e294">
+                  <lb ed="#L" n="70"/>REsPONDEO DICENDUM quod, cum unumquodque
+<lb ed="#L" n="71"/>sit cognoscibile secundum quod est in actu,
+<lb ed="#L" n="72"/>Deus, qui est actus purus absque omni 
+per<lb break="no" ed="#L" n="73"/>mixtione potentiae, quantum in se est, maxime
+<lb ed="#L" n="74"/>cognoscibilis est. Sed quod est maxime 
+cogno<lb break="no" ed="#L" n="75"/>scibile in se, alicui intellectui cognoscibile non
+<lb ed="#L" n="76"/>est, propter excessum intelligibilis supra 
+intelle<lb break="no" ed="#L" n="77"/>ctum: sicut sol, qui est maxime visibilis, videri
+<lb ed="#L" n="78"/>non potest a vespertilione, propter excessum 
+lu<lb break="no" ed="#L" n="79"/>minis. Hoc igitur attendentes, quidam posuerunt
+<lb ed="#L" n="80"/>quod nullus intellectus creatus essentiam Dei 
+vi<lb break="no" ed="#L" n="81"/>dere potest.
+</p>
+               <p xml:id="TAca84-d1e108-d1e323">
+                  <lb ed="#L" n="82"/>Sed hoc inconvenienter dicitur. Cum enim 
+ul<lb break="no" ed="#L" n="83"/>tima hominis beatitudo in altissima eius 
+opera<lb break="no" ed="#L" n="84"/>tione consistat, quae est operatio intellectus, si
+<lb ed="#L" n="85"/>nunquam essentiam Dei videre potest intellectus
+<lb ed="#L" n="86"/>creatus, vel nunquam beatitudinem obtinebit, vel
+<lb ed="#L" n="87"/>in alio eius beatitudo consistet quam in Deo.
+<pb ed="#L" n="115"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Quod est alienum a fide. In ipso enim est ultima
+<lb ed="#L" n="2"/>perfectio rationalis creaturae, quod^ est ei 
+prin<lb break="no" ed="#L" n="3"/>cipium essendi: intantum enim unumquodque
+<lb ed="#L" n="4"/>perfectum est, inquantum ad suum principium
+<lb ed="#L" n="5"/>attingit. - Similiter etiam est praeter rationem.
+<lb ed="#L" n="6"/>Inest enim homini naturale desiderium cognoscendi
+<lb ed="#L" n="7"/>causam, cum intuetur effectum; et ex hoc 
+admi<lb break="no" ed="#L" n="8"/>ratio in hominibus consurgit. Si igitur intellectus
+<lb ed="#L" n="9"/>rationalis creaturae pertingere nón possit ad 
+pri<lb break="no" ed="#L" n="10"/>mam causam rerum, remanebit inane desiderium
+<lb ed="#L" n="11"/>naturae. Unde simpliciter concedendum est quod
+<lb ed="#L" n="12"/>beati Dei essentiam videant.
+</p>
+               <p xml:id="TAca84-d1e108-d1e369">
+                  <lb ed="#L" n="13"/>ÁD PRIMUM ERGO DICENDUM quod utraque 
+aucto<lb break="no" ed="#L" n="14"/>ritas loquitur de visione comprehensionis. Unde
+<lb ed="#L" n="15"/>praemittit Dionysius immediate ante verba 
+pro<lb break="no" ed="#L" n="16"/>posita, dicens: omnibus ipse est universaliter. 
+in<lb break="no" ed="#L" n="17"/>comprehensibilis, et nec sensus est?, etc. Et 
+Chry<lb break="no" ed="#L" n="18"/>sostomus parum post verba praedicta subdit: 
+<quote xml:id="TAca84-d1e108-Qd1e384">visionem hic dicit certissimam Patris 
+consideratio<lb break="no" ed="#L" n="19"/>nem et comprehensionem, tantam quantam Pater
+<lb ed="#L" n="20"/>habet de Filio.</quote>
+               </p>
+               <p xml:id="TAca84-d1e108-d1e393">
+                  <lb ed="#L" n="21"/>AD SECUNDUM DICENDUM quod infinitum quod se
+<lb ed="#L" n="22"/>tenet ex parte materiae non perfectae per for-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="23"/>mam, ignotum est secundum se: quia omnis 
+co<lb break="no" ed="#L" n="24"/>gnitio est per formam. Sed infinitum quod se tenet
+<lb ed="#L" n="25"/>ex parte formae non limitatae per materiam,
+<lb ed="#L" n="26"/>est secundum se maxime notum. Sic autem Deus
+<lb ed="#L" n="27"/>est infinitus, et non primo modo, ut ex 
+supe<lb break="no" ed="#L" n="28"/>rioribus patet.
+</p>
+               <p xml:id="TAca84-d1e108-d1e415">
+                  <lb ed="#L" n="29"/>Ap TERTIUM DICENDUM quod Deus non sic 
+di<lb break="no" ed="#L" n="30"/>citur non existens, quasi nullo modo sit existens:
+<lb ed="#L" n="31"/>sed quia est supra omne existens, inquantum
+<lb ed="#L" n="32"/>est suum esse. Unde ex hoc non sequitur quod
+<lb ed="#L" n="33"/>nullo modo possit cognosci, sed quod omnem
+<lb ed="#L" n="34"/>cognitionem excedat: quod est ipsum non 
+com<lb break="no" ed="#L" n="35"/>prehendi.
+</p>
+               <p xml:id="TAca84-d1e108-d1e433">
+                  <lb ed="#L" n="36"/>AD QUARTUM DICENDUM quod proportio dicitur
+<lb ed="#L" n="37"/>dupliciter. Uno modo, certa habitudo unius 
+quan<lb break="no" ed="#L" n="38"/>titatis ad alteram; secundum quod duplum, 
+tri<lb break="no" ed="#L" n="39"/>plum et aequale sunt species proportionis. Alio
+<lb ed="#L" n="40"/>modo, quaelibet habitudo unius ad alterum 
+pro<lb break="no" ed="#L" n="41"/>portio dicitur. Et sic potest esse proportio 
+crea<lb break="no" ed="#L" n="42"/>turae ad Deum, inquantum se habet ad ipsum ut
+<lb ed="#L" n="43"/>effectus ad causam, et ut potentia ad actum. Et
+<lb ed="#L" n="44"/>secundum hoc, intellectus creatus proportionatus
+<lb ed="#L" n="45"/>esse potest ad cognoscendum Deum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e108-Dd1e459"><!-- p1-q12-a2 -->
+               <head xml:id="TAca84-d1e108-Hd1e462">Articulus 2</head>
+               <head xml:id="TAca84-d1e108-Hd1e464" type="question-title">utrum essentia dei ab intellectu creato per aliquam similitudinem videatur .</head>
+               <p xml:id="TAca84-d1e108-d1e467">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="67"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="68"/>UTRUM ESSENTIA DEI AB INTELLECTU CREATO PER ALIQUAM SIMILITUDINEM VIDEATUR .
+</p>
+               <p xml:id="TAca84-d1e108-d1e476">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="69"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="70"/>essentia Dei ab intellectu creato per
+<lb ed="#L" n="71"/>aliquam similitudinem videatur. Dicitur
+<lb ed="#L" n="72"/>enim I Ioan. iii: <quote xml:id="TAca84-d1e108-Qd1e489">scimus quoniam, cum
+<lb ed="#L" n="73"/>apparuerit, similes ei erimus , et videbimus eum
+<lb ed="#L" n="74"/>sicuti est.</quote>
+               </p>
+               <p xml:id="TAca84-d1e108-d1e497">
+                  <lb ed="#L" n="75"/>2. PnaETEREA, <ref xml:id="TAca84-d1e108-Rd1e501">Augustinus dicit, IX de Trin.</ref> :
+<quote xml:id="TAca84-d1e108-Qd1e503">cum Deum novimus, fit aliqua Dei similitudo in
+<lb ed="#L" n="76"/>nobis</quote>.
+</p>
+               <p xml:id="TAca84-d1e108-d1e510">
+                  <lb ed="#L" n="77"/>3. PRAETEREA, intellectus in actu est intelligibile 
+<lb ed="#L" n="78"/>in actu, sicut sensus in actu est sensibile in actu.
+<lb ed="#L" n="79"/>Hoc autem non est nisi inquantum informatur .
+<lb ed="#L" n="80"/>sensus similitudine rei sensibilis, et. intellectus
+<lb ed="#L" n="81"/>similitudine rei intellectae. Ergo, si Deus ab 
+in<lb break="no" ed="#L" n="82"/>tellectu creato videtur in actu, oportet quod per
+<lb ed="#L" n="83"/>aliquam similitudinem videatur.
+</p>
+               <p xml:id="TAca84-d1e108-d1e528">
+                  <lb ed="#L" n="84"/>SED coNTRA EST quod dicit <ref xml:id="TAca84-d1e108-Rd1e532">Augustinus, XV de
+<lb ed="#L" n="85"/>Trin.</ref>, quod cum Apostolus dicit « videmus nunc
+<lb ed="#L" n="86"/>per speculum et in aenigmate », <quote xml:id="TAca84-d1e108-Qd1e539">speculi et 
+aeni<lb break="no" ed="#L" n="87"/>gmatis nomine, quaecumque similitudines ab ipso
+<lb ed="#L" n="88"/>significatae intelligi possunt, quae accommodatae
+<lb ed="#L" n="89"/>sunt ad intelligendum Deum</quote>. Sed videre Deum
+<lb ed="#L" n="90"/>per essentiam non est visio aenigmatica vel 
+spe<lb break="no" ed="#L" n="91"/>cularis, sed contra eam dividitur. Ergo divina
+<lb ed="#L" n="92"/>essentia non videtur per similitudines.
+</p>
+               <p xml:id="TAca84-d1e108-d1e556">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="93"/>RESPONDEO DICENDUM quod ad visionem, tam
+<lb ed="#L" n="94"/>sensibilem quam intellectualem, duo requiruntur, -
+<lb ed="#L" n="95"/>scilicet virtus visiva, et unio rei visae cum visu:
+<lb ed="#L" n="96"/>non enim fit visio in actu, nisi per hoc quod
+<lb ed="#L" n="97"/>res visa quodammodo est in vidente. Et in rebus
+<lb ed="#L" n="98"/>quidem corporalibus, apparet quod res visa non
+<lb ed="#L" n="99"/>potest esse in vidente per suam essentiam, sed
+<lb ed="#L" n="100"/>solum per suam similitudinem: sicut similitudo
+<lb ed="#L" n="101"/>lapidis est in oculo, per quam fit visio in actu,
+<lb ed="#L" n="102"/>non autem ipsa substantia lapidis. Si autem esset
+<lb ed="#L" n="103"/>una et eadem res, quae esset principium visivae
+<lb ed="#L" n="104"/>virtutis, et quae esset res visa, oporteret 
+viden<lb break="no" ed="#L" n="105"/>tem ab illa re et virtutem visivam habere, et lore
+<lb ed="#L" n="106"/>mam per quam videret.
+</p>
+               <p xml:id="TAca84-d1e108-d1e591">
+                  <lb ed="#L" n="107"/>Manifestum est autem quod Deus et est auctor
+<lb ed="#L" n="108"/>intellectivae virtutis, et ab intellectu videri potest.
+<lb ed="#L" n="109"/>Et cum ipsa intellectiva virtus creaturae non sit
+<lb ed="#L" n="110"/>Dei essentia, relinquitur quod sit aliqua 
+partici<lb break="no" ed="#L" n="111"/>pata similitudo ipsius, qui est primus intellectus.
+<lb ed="#L" n="112"/>Unde et virtus intellectualis creaturae lumen 
+quod<lb break="no" ed="#L" n="113"/>dam intelligibile ? dicitur, quasi a prima luce 
+de<lb break="no" ed="#L" n="114"/>rivatum: sive hoc intelligatur de virtute 
+natu<lb break="no" ed="#L" n="115"/>rali, sive de aliqua perfectione superaddita gratiae
+<lb ed="#L" n="116"/>vel gloriae. Requiritur ergo ad videndum Deum
+<lb ed="#L" n="117"/>aliqua Dei similitudo ex parte visivae potentiae,
+</p>
+               <p xml:id="TAca84-d1e108-d1e617">
+                  <pb ed="#L" n="117"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>qua scilicet intellectus sit efficax ad videndum
+<lb ed="#L" n="2"/>Deum.
+</p>
+               <p xml:id="TAca84-d1e108-d1e628">
+                  <lb ed="#L" n="3"/>X. Sed ex parte visae rei, quam necesse est 
+ali<lb break="no" ed="#L" n="4"/>quo modo uniri videnti, per nullam 
+similitudi<lb break="no" ed="#L" n="5"/>nem. creatam Dei essentia videri potest. Primo
+<lb ed="#L" n="6"/>quidem, quia, sicut dicit Dionysius, 1 cap. de Div.
+<lb ed="#L" n="7"/>Nom., per similitudines inferioris ordinis rerum
+<lb ed="#L" n="8"/>nullo modo superiora possunt cognosci: sicut per
+<lb ed="#L" n="9"/>speciem corporis non potest cognosci essentia rei
+<lb ed="#L" n="10"/>incorporeae. Multo igitur minus per speciem 
+crea<lb break="no" ed="#L" n="11"/>tam quamcumque potest essentia Dei videri. -
+<lb ed="#L" n="12"/>baci e quia essentia Dei est ipsum esse eius,
+<lb ed="#L" n="13"/>- ut supra ostensum est: quod nulli formae 
+crea<lb break="no" ed="#L" n="14"/>tae competere potest. Non potest igitur aliqua
+<lb ed="#L" n="15"/>forma creata esse similitudo repraesentans videnti
+<lb ed="#L" n="16"/>Dei essentiam. - Tertio, quia divina essentia est
+<lb ed="#L" n="17"/>aliquod incircumscriptum, continens in se 
+super<lb break="no" ed="#L" n="18"/>eminenter quidquid potest significari vel intelligi
+<lb ed="#L" n="19"/>ab intellectu creato. Et hoc nullo modo per 
+ali<lb break="no" ed="#L" n="20"/>quam. speciem creatam repraesentari potest: quia
+<lb ed="#L" n="21"/>omnis forma creata est determinata secundum
+<lb ed="#L" n="22"/>aliquam rationem vel sapientiae, vel virtutis, vel
+<lb ed="#L" n="23"/>ipsius esse, vel alicuius huiusmodi. Unde dicere
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24"/>Deum per similitudinem videri, est dicere 
+di<lb break="no" ed="#L" n="25"/>vinam essentiam non videri: quod est 
+erro<lb break="no" ed="#L" n="26"/>neum.
+</p>
+               <p xml:id="TAca84-d1e108-d1e686">
+                  <lb ed="#L" n="27"/>Dicendum ergo quod ad videndum Dei 
+es<lb break="no" ed="#L" n="28"/>sentiam requiritur aliqua similitudo ex parte 
+visi<lb break="no" ed="#L" n="29"/>vae potentiae, scilicet lumen gloriae 5, confortans
+<lb ed="#L" n="30"/>intellectum ad videndum Deum: de quo dicitur
+<lb ed="#L" n="31"/>in Psalmo: <quote xml:id="TAca84-d1e108-Qd1e699">in lumine tuo videbimus lumen</quote>. Non
+<lb ed="#L" n="32"/>autem per aliquam similitudinem creatam Dei
+<lb ed="#L" n="33"/>essentia videri potest, quae ipsam divinam 
+es<lb break="no" ed="#L" n="34"/>sentiam repraesentet ut in se est.
+</p>
+               <p xml:id="TAca84-d1e108-d1e708">
+                  <lb ed="#L" n="35"/>AD PRIMUM ERGO DICENDUM quod auctoritas illa
+<lb ed="#L" n="36"/>loquitur de similitudine quae est per 
+participa<lb break="no" ed="#L" n="37"/>tionem luminis gloriae.
+</p>
+               <p xml:id="TAca84-d1e108-d1e717">
+                  <lb ed="#L" n="38"/>AD SECUNDUM DICENDUM quod Augustinus ibi 
+lo<lb break="no" ed="#L" n="39"/>quitur de cognitione Dei quae habetur in via.
+</p>
+               <p xml:id="TAca84-d1e108-d1e724">
+                  <lb ed="#L" n="40"/>AD TERTIUM DICENDUM quod divina essentia est
+<lb ed="#L" n="41"/>ipsum esse. Unde, sicut aliae formae intelligibiles.
+<lb ed="#L" n="42"/>quae non sunt suum esse, uniuntur intellectui
+<lb ed="#L" n="43"/>secundum aliquod esse quo informant. ipsum
+<lb ed="#L" n="44"/>intellectum et faciunt ipsum in actu; ita divina
+<lb ed="#L" n="45"/>essentia unitur intellectui creato ut intellectum in
+<lb ed="#L" n="46"/>actu, per seipsam faciens intellectum in actu.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e108-Dd1e743"><!-- p1-q12-a3 -->
+               <head xml:id="TAca84-d1e108-Hd1e746">Articulus 3</head>
+               <head xml:id="TAca84-d1e108-Hd1e748" type="question-title">utrum essentia dei videri possit oculis corporalibus</head>
+               <p xml:id="TAca84-d1e108-d1e751">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="55"/>ARTICULUS TERTIUS
+<lb ed="#L" n="56"/>UTRUM ESSENTIA DEI VIDERI POSSIT OCULIS CORPORALIBUS
+</p>
+               <p xml:id="TAca84-d1e108-d1e760">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="57"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="58"/>essentia Dei videri possit oculo 
+corpo<lb break="no" ed="#L" n="59"/>rali. Dicitur enim <ref xml:id="TAca84-d1e108-Rd1e770">Iob xix</ref>: <quote xml:id="TAca84-d1e108-Qd1e773">in carne
+<lb ed="#L" n="60"/>ma videbo Deum</quote>, etc; et XLII: <quote xml:id="TAca84-d1e108-Qd1e778">auditu
+<lb ed="#L" n="61"/>auris audivi te, nunc autem oculus meus videt te</quote>.
+</p>
+               <p xml:id="TAca84-d1e108-d1e784">
+                  <lb ed="#L" n="62"/>2. PnRaETEREA, Augustinus dicit, ultimo de 
+Ci<lb break="no" ed="#L" n="63"/>vitate Dei, cap. xxix: <quote xml:id="TAca84-d1e108-Qd1e790">Vis itaque praepollentior
+<lb ed="#L" n="64"/>oculorum erit illorum (scilicet glorificatorum), non
+<lb ed="#L" n="65"/>ut acutius videant quam quidam perhibentur 
+vi<lb break="no" ed="#L" n="66"/>dere serpentes vel aquilae (quantalibet enim 
+acri<lb break="no" ed="#L" n="67"/>monia cernendi eadem animalia vigeant, nihil
+<lb ed="#L" n="68"/>aliud possunt videre quam corpora), sed ut videant
+<lb ed="#L" n="69"/>et incorporalia</quote>. Quicumque autem potest videre
+<lb ed="#L" n="70"/>incorporalia, potest elevari ad videndum Deum.
+<lb ed="#L" n="71"/>Ergo oculus glorificatus potest videre Deum.
+</p>
+               <p xml:id="TAca84-d1e108-d1e812">
+                  <lb ed="#L" n="72"/>3. PnaETEREA, Deus potest videri ab homine
+<lb ed="#L" n="73"/>visione imaginaria: dicitur enim Isaiae vi: vidi
+<lb ed="#L" n="74"/>Dominum sedentem super solium, etc. Sed visio
+<lb ed="#L" n="75"/>imaginaria a sensu originem habet: phantasia
+<lb ed="#L" n="76"/>enim est motus factus a sensu secundum actum,
+<lb ed="#L" n="77"/>ut dicitur in <ref xml:id="TAca84-d1e108-Rd1e827">III de Anima</ref>. Ergo Deus sensibili
+<lb ed="#L" n="78"/>visione videri potest.
+</p>
+               <p xml:id="TAca84-d1e108-d1e832">
+                  <lb ed="#L" n="79"/>SED coNTRA EsT quod dicit Augustinus, in libro
+<lb ed="#L" n="80"/>de Videndo Deum ad Paulinam: Deum nemo
+<lb ed="#L" n="81"/>vidit unquam, vel in hac vita, sicut ipse est; vel
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="82"/>in angelorum vita, sicut visibilia ista quae 
+cor<lb break="no" ed="#L" n="83"/>porali visione cernuntur.
+</p>
+               <p xml:id="TAca84-d1e108-d1e848">
+                  <lb ed="#L" n="84"/>REsPONDEO DICENDUM quod impossibile est Deum
+<lb ed="#L" n="85"/>videri? sensu visus, vel quocumque alio sensu aut
+<lb ed="#L" n="86"/>potentia sensitivae partis. Omnis enim potentia
+<lb ed="#L" n="87"/>huiusmodi est actus corporalis organi, ut infra
+<lb ed="#L" n="88"/>dicetur. Actus autem proportionatur ei cuius est
+<lb ed="#L" n="89"/>actus. Unde nulla huiusmodi potentia potest se
+<lb ed="#L" n="90"/>extendere ultra corporalia. Deus autem 
+incor<lb break="no" ed="#L" n="91"/>poreus est, ut supra ostensum est. Unde nec
+<lb ed="#L" n="92"/>sensu nec imaginatione videri potest, sed solo
+<lb ed="#L" n="93"/>intellectu.
+</p>
+               <p xml:id="TAca84-d1e108-d1e872">
+                  <lb ed="#L" n="94"/>AD PRIMUM ERGO DICENDUM quod, cum dicitur
+<lb ed="#L" n="95"/>in carne mea videbo Deum, Salvatorem meum 5,
+<lb ed="#L" n="96"/>non intelligitur quod oculo carnis sit Deum 
+visu<lb break="no" ed="#L" n="97"/>rus: sed quod in carne existens, post 
+resurrectio<lb break="no" ed="#L" n="98"/>nem, visurus sit Deum. - Similiter quod dicitur,
+<lb ed="#L" n="99"/>nunc oculus meus videt ie, intelligitur de oculo
+<lb ed="#L" n="100"/>mentis: sicut Ephes. 1 dicit Apostolus: det vobis
+<lb ed="#L" n="101"/>spiritum sapientiae in agnitione eius, illuminatos
+<lb ed="#L" n="102"/>oculos cordis vestri.
+</p>
+               <p xml:id="TAca84-d1e108-d1e894">
+                  <lb ed="#L" n="103"/>AD SECUNDUM DICENDUM quod Augustinus 
+lo<lb break="no" ed="#L" n="104"/>quitur inquirendo in verbis illis, et sub 
+con<lb break="no" ed="#L" n="105"/>ditione. Quod patet ex hoc quod praemittitur:
+<lb ed="#L" n="106"/>Longe itaque potentiae alterius erunt. (scilicet
+<pb ed="#L" n="120"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>oculi glorificati), si per eos videbitur incorporea
+<lb ed="#L" n="2"/>illa natura. Sed postmodum hoc determinat,
+<lb ed="#L" n="3"/>dicens: Valde credibile est sic nos visuros 
+mun<lb break="no" ed="#L" n="4"/>dana tunc corpora caeli novi et terrae novae, ut
+<lb ed="#L" n="5"/>Deum ubique praesentem, et universa etiam 
+cor<lb break="no" ed="#L" n="6"/>poralia gubernantem, clarissima perspicuitate 
+vi<lb break="no" ed="#L" n="7"/>deamus; non sicut nunc invisibilia Dei per ea
+<lb ed="#L" n="8"/>quae facta sunt intellecta conspiciuntur; sed sicut
+<lb ed="#L" n="9"/>homines, inter quos viventes motusque vitales 
+exe<lb break="no" ed="#L" n="10"/>rentes. vivimus, mox ut aspicimus, non credimus
+<lb ed="#L" n="11"/>vivere, sed videmus. Ex quopatet quod hoc
+<lb ed="#L" n="12"/>modo intelligit oculos glorificatos Deum visuros,
+<lb ed="#L" n="13"/>sicut nunc oculi nostri vident alicuius vitam. Vita
+<lb ed="#L" n="14"/>autem non videtur oculo corporali, sicut per se
+</p>
+               <p xml:id="TAca84-d1e108-d1e940">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="15"/>visibile, sed sicut sensibile per accidens: quod
+<lb ed="#L" n="16"/>quidem a sensu non cognoscitur, sed statim cum
+<lb ed="#L" n="17"/>sensu ab aliqua alia virtute cognoscitiva. Quod
+<lb ed="#L" n="18"/>autem statim, visis corporibus, divina praesentia
+<lb ed="#L" n="19"/>ex eis cognoscatur per intellectum, ex. duobus
+<lb ed="#L" n="20"/>contingit: scilicet ex perspicacitate intellectus ;
+<lb ed="#L" n="21"/>et ex refulgentia divinae claritatis in corporibus
+<lb ed="#L" n="22"/>innovatis,
+</p>
+               <p xml:id="TAca84-d1e108-d1e963">
+                  <lb ed="#L" n="23"/>Ad TERTIUM DICENDUM quod in visione 
+imagi<lb break="no" ed="#L" n="24"/>naria non videtur Dei essentia: sed aliqua forma
+<lb ed="#L" n="25"/>in imaginatione formatur, repraesentans Deum
+<lb ed="#L" n="26"/>secundum aliquem modum similitudinis, prout in
+<lb ed="#L" n="27"/>Scripturis divinis divina per res? sensibiles 
+me<lb break="no" ed="#L" n="28"/>taphorice describuntur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e108-Dd1e980"><!-- p1-q12-a4 -->
+               <head xml:id="TAca84-d1e108-Hd1e983">Articulus 4</head>
+               <head xml:id="TAca84-d1e108-Hd1e985" type="question-title">utrum aliquis intellectus creatus per sua. naturalia
+    divinam essentiam videre possit</head>
+               <p xml:id="TAca84-d1e108-d1e988">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="39"/>ARTICULUS QUARTUS
+<lb ed="#L" n="40"/>UTRUM ALIQUIS INTELLECTUS CREATUS PER SUA. NATURALIA
+<lb ed="#L" n="41"/>DIVINAM ESSENTIAM VIDERE POSSIT
+</p>
+               <p xml:id="TAca84-d1e108-d1e999">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="42"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+</p>
+               <p xml:id="TAca84-d1e108-d1e1006">
+                  <lb ed="#L" n="43"/>aliquis intellectus creatus per sua 
+natu<lb break="no" ed="#L" n="44"/>ralia divinam essentiam videre possit.
+<lb ed="#L" n="45"/>Dicit enim Dionysius, cap. iv de Div.
+<lb ed="#L" n="46"/>Nom., quod angelus est speculum purum, 
+cla<lb break="no" ed="#L" n="47"/>rissimum, suscipiens totam, si fas est dicere, 
+pul<lb break="no" ed="#L" n="48"/>chritudinem Dei. Sed unumquodque videtur dum
+<lb ed="#L" n="49"/>videtur eius speculum. Cum igitur angelus per
+<lb ed="#L" n="50"/>sua naturalia intelligat seipsum , videtur quod
+<lb ed="#L" n="51"/>etiam per sua naturalia intelligat divinam  
+es<lb break="no" ed="#L" n="52"/>sentiam.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1031">
+                  <lb ed="#L" n="53"/>2. PRAETEREA, illud quod est maxime visibile,
+<lb ed="#L" n="54"/>fit minus visibile nobis propter defectum. nostri
+<lb ed="#L" n="55"/>visus, vel corporalis vel intellectualis. Sed. 
+intel<lb break="no" ed="#L" n="56"/>lectus angeli non patitur aliquem defectum. Cum
+<lb ed="#L" n="57"/>ergo Deus secundum se sit maxime: intelligibilis,
+<lb ed="#L" n="58"/>videtur quod ab angelo sit maxime intelligibilis.
+<lb ed="#L" n="59"/>Si igitur alia intelligibilia per sua naturalia '
+intel<lb break="no" ed="#L" n="60"/>ligere potest, multo magis Deum.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1051">
+                  <lb ed="#L" n="61"/>3. PRAETEREA, sensus corporeus non potest 
+ele<lb break="no" ed="#L" n="62"/>vari ad intelligendam substantiam incorpoream,
+<lb ed="#L" n="63"/>quia est supra eius naturam. Si igitur videre Deum
+<lb ed="#L" n="64"/>per essentiam sit supra naturam cuiuslibet 
+intel<lb break="no" ed="#L" n="65"/>lectus creati, videtur quod nullus intellectus creatus
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="66"/>ad videndum Dei essentiam pertingere possit:
+<lb ed="#L" n="67"/>quod est erroneum, ut ex supradictis patet. 
+Vi<lb break="no" ed="#L" n="68"/>detur ergo quod intellectui creato sit natural
+<lb ed="#L" n="69"/>divinam essentiam videre. 
+</p>
+               <p xml:id="TAca84-d1e108-d1e1075">
+                  <lb ed="#L" n="70"/>SED. CONTRA EST quod dicitur Rom. vi: <quote xml:id="TAca84-d1e108-Qd1e1079">gratia
+<lb ed="#L" n="71"/>Dei vita aeterna</quote>. Sed vita aeterna consistit in 
+vi<lb break="no" ed="#L" n="72"/>sione divinae essentiae, secundum illud Ioan. xvi:
+<lb ed="#L" n="73"/>haec est vita aeterna, ut cognoscant te solum 
+ve<lb break="no" ed="#L" n="74"/>rum Deum, etc. Ergo videre Dei essentiam 
+con<lb break="no" ed="#L" n="75"/>venit intellectui creato per gratiam, et non per
+<lb ed="#L" n="76"/>naturam.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1096">
+                  <lb ed="#L" n="77"/>RESPONDEO DICENDUM quod impossibile est quod
+<lb ed="#L" n="78"/>aliquis intellectus creatus per sua naturalia. 
+es<lb break="no" ed="#L" n="79"/>sentiam Dei videat. Cognitio enim contingit 
+se<lb break="no" ed="#L" n="80"/>cundum quod cognitum est in cognoscente. 
+Co<lb break="no" ed="#L" n="81"/>gnitum autem est in cognoscente secundum 
+mo<lb break="no" ed="#L" n="82"/>dum cognoscentis. Unde cuiuslibet cognoscentis
+<lb ed="#L" n="83"/>cognitio est secundum modum suae naturae. Si
+<lb ed="#L" n="84"/>igitur modus essendi alicuius. rei cognitae excedat
+<lb ed="#L" n="85"/>modum naturae cognoscentis, oportet quod 
+co<lb break="no" ed="#L" n="86"/>gnitio illius rei ? sit supra naturam illius 
+cogno<lb break="no" ed="#L" n="87"/>scentis.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1122">
+                  <lb ed="#L" n="88"/>Est autem multiplex modus essendi rerum.
+<lb ed="#L" n="89"/>Quaedam enim sunt, quorum natura non habet
+<pb ed="#L" n="121"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>esse nisi in hac materia individuali: et huiusmodi
+<lb ed="#L" n="2"/>sunt omnia corporalia. Quaedam vero sunt, 
+quo<lb break="no" ed="#L" n="3"/>rum naturae sunt per se subsistentes, non in 
+ma<lb break="no" ed="#L" n="4"/>teria aliqua, quae tamen non sunt suum esse,
+<lb ed="#L" n="5"/>sed sunt esse habentes: et huiusmodi ? sunt 
+sub<lb break="no" ed="#L" n="6"/>stantiae incorporeae, quas angelos dicimus. Solius
+<lb ed="#L" n="7"/>autem Dei proprius modus essendi est, ut sit
+<lb ed="#L" n="8"/>suum esse subsistens.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1151">
+                  <lb ed="#L" n="9"/>Ea igitur quae non habent esse nisi in materia
+<lb ed="#L" n="10"/>individuali, cognoscere est nobis connaturale ": eo
+<lb ed="#L" n="11"/>quod anima nostra, per quam cognoscimus, est
+<lb ed="#L" n="12"/>forma alicuius materiae. Quae tamen habet duas
+<lb ed="#L" n="13"/>virtutes cognoscitivas. Unam, quae est actus 
+ali<lb break="no" ed="#L" n="14"/>cuius corporei organi ^. Et huic connaturale est
+<lb ed="#L" n="15"/>cognoscere res secundum quod sunt in materia
+<lb ed="#L" n="16"/>individuali: unde sensus non cognoscit nisi 
+singu<lb break="no" ed="#L" n="17"/>laria. Alia vero virtus cognoscitiva eius est 
+intel<lb break="no" ed="#L" n="18"/>lectus, qui non est actus alicuius organi corporalis.
+<lb ed="#L" n="19"/>Unde per intellectum connaturale est nobis 
+co<lb break="no" ed="#L" n="20"/>gnoscere naturas, quae quidem non habent esse
+<lb ed="#L" n="21"/>nisi in materia individuali; non tamen secundum
+<lb ed="#L" n="22"/>quod sunt in materia individuali, sed secundum
+<lb ed="#L" n="23"/>quod abstrahuntur ab ea per considerationem 
+in<lb break="no" ed="#L" n="24"/>tellectus- Unde secundum intellectum possumus
+<lb ed="#L" n="25"/>cognoscere huiusmodi res in universali: quod est
+<lb ed="#L" n="26"/>supra facultatem sensus. - Intellectui autem 
+an<lb break="no" ed="#L" n="27"/>gelico connaturale est cognoscere naturas non in
+<lb ed="#L" n="28"/>materia existentes. Quod est supra naturalem 
+fa<lb break="no" ed="#L" n="29"/>cultatem intellectus animae humanae, secundum
+<lb ed="#L" n="30"/>statum praesentis vitae, quo corpori unitur.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1202">
+                  <lb ed="#L" n="31"/>Relinquitur ergo quod cognoscere ipsum esse
+<lb ed="#L" n="32"/>subsistens, sit connaturale soli intellectui divino,
+<lb ed="#L" n="33"/>et quod sit supra facultatem naturalem  
+cuius<lb break="no" ed="#L" n="34"/>libet intellectus creati: quia nulla creatura est
+<lb ed="#L" n="35"/>suum esse, sed habet esse participatum. Non
+<lb ed="#L" n="36"/>igitur potest intellectus creatus Deum per 
+es<lb break="no" ed="#L" n="37"/>sentiam videre, nisi inquantum Deus per suam
+<lb ed="#L" n="38"/>atiam se intellectui creato coniungit, ut 
+intel<lb break="no" ed="#L" n="39"/>ligibile ab ipso.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1224">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="40"/>AD PRIMUM ERGO DICENDUM quod iste modus
+<lb ed="#L" n="41"/>cognoscendi Deum, est angelo connaturalis, ut
+<lb ed="#L" n="42"/>scilicet cognoscat eum per similitudinem eius in
+<lb ed="#L" n="43"/>ipso angelo refulgentem. Sed cognoscere Deum
+<lb ed="#L" n="44"/>per aliquam similitudinem creatam, non est 
+co<lb break="no" ed="#L" n="45"/>gnoscere essentiam Dei, ut supra ostensum est.
+<lb ed="#L" n="46"/>Unde non sequitur quod angelus per sua 
+natu<lb break="no" ed="#L" n="47"/>ralia possit cognoscere essentiam Dei.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1246">
+                  <lb ed="#L" n="48"/>AD SECUNDUM DICENDUM quod intellectus angeli
+<lb ed="#L" n="49"/>non habet defectum, si defectus accipiatur 
+priva<lb break="no" ed="#L" n="50"/>tive, ut scilicet careat eo quod habere debet. Si
+<lb ed="#L" n="51"/>vero accipiatur negative, sic quaelibet creatura
+<lb ed="#L" n="52"/>invenitur deficiens, Deo comparata, dum ? non
+<lb ed="#L" n="53"/>habet illam excellentiam quae invenitur in Deo.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1262">
+                  <lb ed="#L" n="54"/>AD TERTIUM DICENDUM quod sensus visus ^, quia
+<lb ed="#L" n="55"/>omnino materialis est, nullo modo elevari potest
+<lb ed="#L" n="56"/>ad aliquid immateriale. Sed intellectus noster vel
+<lb ed="#L" n="57"/>angelicus, quia secundum naturam a materia 
+ali<lb break="no" ed="#L" n="58"/>qualiter elevatus est, potest ultra suam naturam
+<lb ed="#L" n="59"/>per gratiam ad aliquid altius elevari. Et huius
+<lb ed="#L" n="60"/>signum est, quia visus nullo modo potest in 
+ab<lb break="no" ed="#L" n="61"/>stractione cognoscere id quod in concretione 
+co<lb break="no" ed="#L" n="62"/>gnoscit: nullo enim modo potest percipere 
+natu<lb break="no" ed="#L" n="63"/>ram, nisi ut hanc. Sed intellectus noster potest
+<lb ed="#L" n="64"/>in abstractione considerare quod in concretione
+<lb ed="#L" n="65"/>cognoscit. Etsi enim cognoscat res habentes 
+for<lb break="no" ed="#L" n="66"/>mam in materia, tamen resolvit compositum in
+<lb ed="#L" n="67"/>utrumque, et considerat ipsam formam per se.
+<lb ed="#L" n="68"/>Et similiter intellectus angeli, licet connaturale sit
+<lb ed="#L" n="69"/>ei cognoscere esse concretum in aliqua natura,
+<lb ed="#L" n="70"/>tamen potest ipsum esse secernere per 
+intelle<lb break="no" ed="#L" n="71"/>ctum, dum cognoscit quod aliud est ipse, et aliud
+<lb ed="#L" n="72"/>est suum esse. Et ideo, cum intellectus creatus
+<lb ed="#L" n="73"/>per suam naturam natus sit apprehendere 
+for<lb break="no" ed="#L" n="74"/>mam concretam et esse concretum in abstra-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="75"/>ctione, per-modum resolutionis cuiusdam, potest'
+<lb ed="#L" n="76"/>per gratiam elevari ut cognoscat substantiam 
+se<lb break="no" ed="#L" n="77"/>paratam subsistentem, et esse separatum 
+sub<lb break="no" ed="#L" n="78"/>sistens.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e108-Dd1e1322"><!-- p1-q12-a5 -->
+               <head xml:id="TAca84-d1e108-Hd1e1325">Articulus 5</head>
+               <head xml:id="TAca84-d1e108-Hd1e1327" type="question-title">utrum intellectüs creatus ad videndum dei essentiam
+    aliquo creato lumine indigeat</head>
+               <p xml:id="TAca84-d1e108-d1e1330">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="21"/>ARTICULUS QUINTUS
+<lb ed="#L" n="22"/>UTRUM INTELLECTÜS CREATUS AD VIDENDUM DEI ESSENTIAM
+<lb ed="#L" n="23"/>ALIQUO CREATO LUMINE INDIGEAT
+</p>
+               <p xml:id="TAca84-d1e108-d1e1341">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="25"/>Sal intellectus creatus ad videndum 
+essen<lb break="no" ed="#L" n="26"/>ratam Dei aliquo lumine creato non 
+in<lb break="no" ed="#L" n="27"/>digeat. Illud enim quod est per se 
+lu<lb break="no" ed="#L" n="28"/>cidum in rebus sensibilibus, alio lumine non 
+in<lb break="no" ed="#L" n="29"/>diget ut videatur: ergo nec in intelligibilibus. Sed
+<lb ed="#L" n="30"/>Deus est lux intelligibilis. Ergo non videtur per
+<lb ed="#L" n="31"/>aliquod lumen creatum.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1363">
+                  <lb ed="#L" n="32"/>2. PRAETEREA, cum Deus videtur per medium,
+<lb ed="#L" n="33"/>non videtur per suam essentiam. Sed cum 
+vide<lb break="no" ed="#L" n="34"/>tur per aliquod lumen creatum, videtur per 
+me<lb break="no" ed="#L" n="35"/>dium. Ergo non videtur per suam essentiam.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1375">
+                  <lb ed="#L" n="36"/>3. PRAETEREA, illud quod est creatum, nihil 
+pro<lb break="no" ed="#L" n="37"/>hibet alicui creaturae esse naturale. Si ergo per
+<lb ed="#L" n="38"/>aliquod lumen creatum Dei essentia videtur, 
+po<lb break="no" ed="#L" n="39"/>terit illud lumen esse naturale alicui creaturae.
+<lb ed="#L" n="40"/>Et ita illa creatura non indigebit aliquo alio 
+lu<lb break="no" ed="#L" n="41"/>mine ad videndum Deum: quod est impossibile.
+<lb ed="#L" n="42"/>Non est ergo necessarium quod omnis creatura
+<lb ed="#L" n="43"/>ad videndum Dei essentiam lumen superadditum
+<lb ed="#L" n="44"/>requirat.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1397">
+                  <lb ed="#L" n="45"/>SED coNTRA est quod dicitur in Psalmo: in
+<lb ed="#L" n="46"/>lumine tuo videbimus lumen.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1404">
+                  <lb ed="#L" n="47"/>RESPONDEO DICENDUM quod omne quod elevatur
+<lb ed="#L" n="48"/>ad aliquid quod excedit suam naturam, 
+opor<lb break="no" ed="#L" n="49"/>tet quod disponatur aliqua dispositione quae
+<lb ed="#L" n="50"/>sit supra suam naturam: sicut, si aer debeat
+<lb ed="#L" n="51"/>accipere formam ignis, oportet quod disponatur
+<lb ed="#L" n="52"/>aliqua dispositione ad talem formam. Cum autem
+<lb ed="#L" n="53"/>aliquis intellectus creatus videt Deum per 
+essen<lb break="no" ed="#L" n="54"/>tiam, ipsa essentia Dei fit forma intelligibilis 
+in<lb break="no" ed="#L" n="55"/>tellectus. Unde oportet quod aliqua dispositio
+<lb ed="#L" n="56"/>supernaturalis ei superaddatur, ad hoc quod 
+ele<lb break="no" ed="#L" n="57"/>vetur in tantam sublimitatem ?. Cum igitur 
+vir<lb break="no" ed="#L" n="58"/>tus naturalis intellectus creati non sufficiat ad Dei
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="59"/>essentiam. videndam, ut ostensum est, oportet
+<lb ed="#L" n="60"/>quod ex divina gratia superaccrescat ei virtus
+<lb ed="#L" n="61"/>intelligendi. Et hoc augmentum virtutis 
+intellecti<lb break="no" ed="#L" n="62"/>vae illuminationem intellectus vocamus; sicut et
+<lb ed="#L" n="63"/>ipsum intelligibile vocatur lumen? vel lux. Et istud
+<lb ed="#L" n="64"/>est lumen de quo dicitur Apoc. xxi, quod claritas
+<lb ed="#L" n="65"/>Dei illuminabit eam, scilicet societatem beatorum
+<lb ed="#L" n="66"/>Deum videntium. Et secundum hoc lumen 
+effi<lb break="no" ed="#L" n="67"/>ciuntur deiformes, idest Deo similes; secundum
+<lb ed="#L" n="68"/>illud I Ioan. iii: <quote xml:id="TAca84-d1e108-Qd1e1456">cum apparuerit, similes ei 
+eri<lb break="no" ed="#L" n="69"/>mus, et videbimus eum sicuti est</quote>.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1462">
+                  <lb ed="#L" n="70"/>AD PRIMUM ERGO DICENDUM quod lumen creatum
+<lb ed="#L" n="71"/>est necessarium ad videndum Dei essentiam, non
+<lb ed="#L" n="72"/>quod per hoc lumen Dei essentia intelligibilis
+<lb ed="#L" n="73"/>fiat, quae secundum se intelligibilis est: sed ad
+<lb ed="#L" n="74"/>hoc quod intellectus fiat potens ad intelligendum,
+<lb ed="#L" n="75"/>per modum quo potentia fit potentior ad 
+ope<lb break="no" ed="#L" n="76"/>randum per habitum: sicut » etiam et lumen 
+cor<lb break="no" ed="#L" n="77"/>porale necessarium estin visu exteriori, 
+inquan<lb break="no" ed="#L" n="78"/>tum facit medium transparens in actu, ut possit
+<lb ed="#L" n="79"/>moveri a colore.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1486">
+                  <lb ed="#L" n="80"/>AD SECUNDUM DICENDUM quod lumen istud non
+<lb ed="#L" n="81"/>requiritur ad videndum Dei essentiam quasi 
+si<lb break="no" ed="#L" n="82"/>militudo in qua Deus videatur: sed quasi 
+per<lb break="no" ed="#L" n="83"/>fectio quaedam intellectus, confortans ipsum ad
+<lb ed="#L" n="84"/>videndum Deum. Et ideo potest dici quod non
+<lb ed="#L" n="85"/>est medium in quo Deus videatur: sed sub quo
+<lb ed="#L" n="86"/>videtur. Et hoc non tollit immediatam visionem
+<lb ed="#L" n="87"/>Dei.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1506">
+                  <lb ed="#L" n="88"/>AD TERTIUM DICENDUM quod dispositio ad 
+for<lb break="no" ed="#L" n="89"/>mam ignis non potest esse naturalis nisi habenti
+<lb ed="#L" n="90"/>formam ignis. Unde lumen gloriae non potest esse
+<lb ed="#L" n="91"/>naturale creaturae, nisi creatura esset naturae 
+di<lb break="no" ed="#L" n="92"/>vinae: quod est impossibile. Per hoc enim lumen
+<lb ed="#L" n="93"/>fit creatura rationalis deiformis, ut dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e108-Dd1e1523"><!-- p1-q12-a6 -->
+               <head xml:id="TAca84-d1e108-Hd1e1526">Articulus 6</head>
+               <head xml:id="TAca84-d1e108-Hd1e1528" type="question-title">
+  utrum videntium essentiam dei unus alio perfectius videat
+</head>
+               <p xml:id="TAca84-d1e108-d1e1531">
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="61"/>ARTICULUS SEXTUS
+<lb ed="#L" n="62"/>UTRUM VIDENTIUM ESSENTIAM DEI UNUS ALIO PERFECTIUS VIDEAT
+</p>
+               <p xml:id="TAca84-d1e108-d1e1540">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="63"/>AD SEXTUM SIC. PROCEDITUR. Videtur quod
+<lb ed="#L" n="64"/>videntium essentiam Dei unus alio 
+per<lb break="no" ed="#L" n="65"/>fectius non videat. Dicitur enim I Ioan.
+<lb ed="#L" n="66"/>III: <quote xml:id="TAca84-d1e108-Qd1e1553">videbimus eum sicuti est</quote>. Sed ipse
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="67"/>uno modo est. Ergo uno modo videbitur ab
+<lb ed="#L" n="68"/>omnibus. Non ergo perfectius et minus perfecte.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1562">
+                  <lb ed="#L" n="69"/>2. PRAETEREA, Augustinus dicit, in libro Octoginta
+<lb ed="#L" n="70"/>trium Qq., quod unam rem non potest unus alio
+<pb ed="#L" n="127"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>plus intelligere. Sed omnes videntes Deum per
+<lb ed="#L" n="2"/>essentiam, intelligunt Dei essentiam: intellectu
+<lb ed="#L" n="3"/>enim videtur Deus, non sensu ^, ut supra 
+habi<lb break="no" ed="#L" n="4"/>tum est. Ergo videntium divinam essentiam unus
+<lb ed="#L" n="5"/>alio non clarius videt.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1585">
+                  <lb ed="#L" n="6"/>3. PnRaETEREA, quod aliquid altero perfectius
+<lb ed="#L" n="7"/>videatur, ex duobus contingere potest: vel ex parte
+<lb ed="#L" n="8"/>obiecti visibilis; vel ex parte potentiae visivae
+<lb ed="#L" n="9"/>videntis. Ex parte autem obiecti, per hoc quod
+<lb ed="#L" n="10"/>obiectum perfectius in vidente recipitur, scilicet
+<lb ed="#L" n="11"/>secundum perfectiorem similitudinem. Quod in
+<lb ed="#L" n="12"/>proposito locum non habet: Deus enim non per
+<lb ed="#L" n="13"/>aliquam similitudinem, sed per eius essentiam
+<lb ed="#L" n="14"/>praesens est intellectui essentiam eius videnti.
+<lb ed="#L" n="15"/>Relinquitur ergo quod ?, si unus alio perfectius
+<lb ed="#L" n="16"/>eum videat, quod hoc sit secundum differentiam
+<lb ed="#L" n="17"/>potentiae intellectivae. Et ita sequitur quod cuius
+<lb ed="#L" n="18"/>potentia intellectiva naturaliter est sublimior, 
+cla<lb break="no" ed="#L" n="19"/>rius eum videat. Quod est inconveniens, cum
+<lb ed="#L" n="20"/>hominibus promittatur in beatitudine aequalitas
+<lb ed="#L" n="21"/>angelorum.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1622">
+                  <lb ed="#L" n="22"/>SED coNTRA EST quod vita aeterna in visione
+<lb ed="#L" n="23"/>Dei consistit, secundum illud Ioan. xvi: haec
+<lb ed="#L" n="24"/>est vita aeterna, etc. Ergo, si omnes aequaliter
+<lb ed="#L" n="25"/>Dei essentiam vident, in vita aeterna omnes
+<lb ed="#L" n="26"/>erunt aequales. Cuius contrarium dicit Apostolus,
+<lb ed="#L" n="27"/>I Cor. xv: <quote xml:id="TAca84-d1e108-Qd1e1637">stella differt a stella in claritate</quote>.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1640">
+                  <lb ed="#L" n="28"/>RESPONDEO DICENDUM quod videntium Deum per
+<lb ed="#L" n="29"/>essentiam unus alio perfectius eum videbit. Quod
+<lb ed="#L" n="30"/>quidem non erit per aliquam Dei similitudinem
+<lb ed="#L" n="31"/>perfectiorem in uno quam in alio: cum illa visio
+<lb ed="#L" n="32"/>non sit futura per aliquam similitudinem, ut 
+osten<lb break="no" ed="#L" n="33"/>sum est, Sed hoc erit'per hoc, quod intellectus
+<lb ed="#L" n="34"/>unius habebit maiorem virtutem seu facultatem
+<lb ed="#L" n="35"/>ad videndum Deum, quam alterius. Facultas
+<lb ed="#L" n="36"/>autem videndi Deum non competit intellectui
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="37"/>creato secundum suam naturam, sed per lumen
+<lb ed="#L" n="38"/>gloriae, quod intellectum in quadam deiformitate
+<lb ed="#L" n="39"/>constituit, ut ex superioribus patet. Unde 
+intel<lb break="no" ed="#L" n="40"/>lectus plus participans de lumine gloriae, 
+perfe<lb break="no" ed="#L" n="41"/>ctius Deum videbit. Plus autem participabit de
+<lb ed="#L" n="42"/>lumine gloriae, qui plus habet de caritate: quia
+<lb ed="#L" n="43"/>ubi est maior caritas, ibi? est maius desiderium;
+<lb ed="#L" n="44"/>et desiderium quodammodo facit desiderantem
+<lb ed="#L" n="45"/>aptum et paratum ad susceptionem desiderati.
+<lb ed="#L" n="46"/>Unde qui plus habebit de caritate, perfectius
+<lb ed="#L" n="47"/>Deum videbit, et beatior erit.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1688">
+                  <lb ed="#L" n="48"/>AD PRIMUM ERGO DICENDUM quod, cum dicitur
+<lb ed="#L" n="49"/>videbimus eum sicuti est, hoc adverbium sicuti
+<lb ed="#L" n="50"/>determinat modum visionis ex parte rei visae;
+<lb ed="#L" n="51"/>ut sit sensus, videbimus eum ita esse siculi est,
+<lb ed="#L" n="52"/>quia ipsum esse eius videbimus. quod est eius
+<lb ed="#L" n="53"/>essentia. Non autem determinat modum visionis
+<lb ed="#L" n="54"/>ex parte videntis, ut sit sensus, quod ita erit 
+per<lb break="no" ed="#L" n="55"/>fectus modus videndi, sicut est in Deo perfectus
+<lb ed="#L" n="56"/>modus essendi.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1710">
+                  <lb ed="#L" n="57"/>Et per hoc etiam? patet solutio ad secundum.
+<lb ed="#L" n="58"/>Cum enim dicitur quod rem unam unus alio
+<lb ed="#L" n="59"/>melius non intelligit, hoc habet veritatem si re- -
+<lb ed="#L" n="60"/>feratur ad modum rei intellectae: quia 
+quicum<lb break="no" ed="#L" n="61"/>que intelligit rem esse aliter quam sit, non vere
+<lb ed="#L" n="62"/>intelligit. Non autem si referatur ad modum 
+intel<lb break="no" ed="#L" n="63"/>ligendi: quia intelligere unius est perfectius quam
+<lb ed="#L" n="64"/>intelligere alterius.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1730">
+                  <lb ed="#L" n="65"/>AD TERTIUM DICENDUM quod diversitas videndi 
+<lb ed="#L" n="66"/>non erit ex parte obiecti, quia idem obiectum
+<lb ed="#L" n="67"/>omnibus praesentabitur, scilicet Dei essentia: nec
+<lb ed="#L" n="68"/>ex diversa participatione obiecti per differentes
+<lb ed="#L" n="69"/>similitudines: sed erit per diversam facultatem
+<lb ed="#L" n="70"/>intellectus, non quidem naturalem, sed gloriosam,
+<lb ed="#L" n="71"/>ut dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e108-Dd1e1749"><!-- p1-q12-a7 -->
+               <head xml:id="TAca84-d1e108-Hd1e1752">Articulus 7</head>
+               <head xml:id="TAca84-d1e108-Hd1e1754" type="question-title">
+  utrum videntes deum per essentiam ipsum comprehendant
+</head>
+               <p xml:id="TAca84-d1e108-d1e1757">
+                  <pb ed="#L" n="128"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="2"/>UTRUM VIDENTES DEUM PER ESSENTIAM IPSUM COMPREHENDANT
+</p>
+               <p xml:id="TAca84-d1e108-d1e1768">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>videntes Deum per essentiam ipsum
+<lb ed="#L" n="5"/>comprehendant. Dicit enim Apostolus,
+<lb ed="#L" n="6"/>Philip. III: <quote xml:id="TAca84-d1e108-Qd1e1781">sequor autem si quo modo
+<lb ed="#L" n="7"/>comprehendam</quote>. Non autem frustra sequebatur:
+<lb ed="#L" n="8"/>dicit enim ipse, I Cor. ix: <quote xml:id="TAca84-d1e108-Qd1e1788">sic curro, non quasi
+<lb ed="#L" n="9"/>in incertum</quote>. Ergo ipse comprehendit: et eadem
+<lb ed="#L" n="10"/>ratione alii, quos ad hoc invitat, dicens: sic 
+cur<lb break="no" ed="#L" n="11"/>rite, ut comprehendatis.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1798">
+                  <lb ed="#L" n="12"/>2. PRAETEREA, ut dicit Augustinus in libro de
+<lb ed="#L" n="13"/>Videndo Deum ad Paulinam, illud 
+comprehendi<lb break="no" ed="#L" n="14"/>tur, quod ita totum videtur, ut nihil eius lateat
+<lb ed="#L" n="15"/>videntem. Sed si Deus per essentiam videtur, totus
+<lb ed="#L" n="16"/>videtur, et nihil eius latet videntem; cum Deus
+<lb ed="#L" n="17"/>sit simplex. Ergo a quocumque videtur per
+<lb ed="#L" n="18"/>essentiam, comprehenditur.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1817">
+                  <lb ed="#L" n="19"/>3. Si dicatur quod videtur totus, sed non 
+tota<lb break="no" ed="#L" n="20"/>liter, contra: totaliter vel dicit modum videntis,
+<lb ed="#L" n="21"/>vel modum rei visae. Sed ille qui videt Deum
+<lb ed="#L" n="22"/>per essentiam, videt eum totaliter, si significetur
+<lb ed="#L" n="23"/>modus rei visae: quia videt eum sicuti est, ut
+<lb ed="#L" n="24"/>dictum est. Similiter videt eum totaliter, si 
+signi<lb break="no" ed="#L" n="25"/>ficetur modus videntis: quia tota virtute sua ^
+<lb ed="#L" n="26"/>intellectus Dei essentiam videbit. Quilibet ergo 
+vi<lb break="no" ed="#L" n="27"/>dens Deum per essentiam, totaliter eum videbit 7.
+<lb ed="#L" n="28"/>Ergo eum comprehendet.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1841">
+                  <lb ed="#L" n="29"/>SED coNTRA EsT quod dicitur lerem. xxxi:
+<lb ed="#L" n="30"/>Fortissime, magne, potens, Dominus exercituum
+<lb ed="#L" n="31"/>nomen tibi; magnus consilio, et incomprehensibilis
+<lb ed="#L" n="32"/>cogitatu. Ergo comprehendi non potest.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1852">
+                  <lb ed="#L" n="33"/>RESPONDEO DICENDUM quod comprehendere Deum
+<lb ed="#L" n="34"/>impossibile est cuicumque intellectui creato: <quote xml:id="TAca84-d1e108-Qd1e1858">
+attin<lb break="no" ed="#L" n="35"/>gere vero mente Deum qualitercumque , magna
+<lb ed="#L" n="36"/>est beatitudo</quote>, ut dicit Augustinus.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1866">
+                  <lb ed="#L" n="37"/>Ad cuius evidentiam, sciendum est quod illud
+<lb ed="#L" n="38"/>comprehenditur ?, quod perfecte cognoscitur. 
+Per<lb break="no" ed="#L" n="39"/>fecte autem cognoscitur, quod tantum 
+cognosci<lb break="no" ed="#L" n="40"/>tur, quantum est cognoscibile. Unde si id quod
+<lb ed="#L" n="41"/>est cognoscibile per scientiam demonstrativam ,
+<lb ed="#L" n="42"/>opinione teneatur ex aliqua ratione probabili 
+con<lb break="no" ed="#L" n="43"/>cepta, non comprehenditur. Puta, si hoc quod est
+<lb ed="#L" n="44"/>triangulum habere tres angulos aequales 
+duo<lb break="no" ed="#L" n="45"/>bus rectis, aliquis sciat per demonstrationem,
+<lb ed="#L" n="46"/>comprehendit illud: si vero aliquis eius opinionem
+<lb ed="#L" n="47"/>accipiat probabiliter, per hoc quod a sapientibus
+<lb ed="#L" n="48"/>vel pluribus ita dicitur, non comprehendet ipsum,
+<pb ed="#L" n="129"/>
+                  <lb ed="#L" n="1"/>quia non pertingit ad illum perfectum modum
+<lb ed="#L" n="2"/>cognitionis, quo cognoscibilis est.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1901">
+                  <lb ed="#L" n="3"/>Nullus autem intellectus creatus pertingere 
+po<lb break="no" ed="#L" n="4"/>test ad illum perfectum modum cognitionis divinae
+<lb ed="#L" n="5"/>essentiae, quo cognoscibilis est. Quod sic patet.
+<lb ed="#L" n="6"/>Unumquodque enim sic cognoscibile est, 
+secun<lb break="no" ed="#L" n="7"/>dum quod est ens actu. Deus igitur, cuius esse
+<lb ed="#L" n="8"/>est infinitum, ut supra ostensum est, infinite
+<lb ed="#L" n="9"/>cognoscibilis est. Nullus autem intellectus creatus
+<lb ed="#L" n="10"/>potest Deum infinite cognoscere. Intantum enim
+<lb ed="#L" n="11"/>intellectus creatus divinam essentiam perfectius
+<lb ed="#L" n="12"/>vel minus perfecte cognoscit, inquantum maiori
+<lb ed="#L" n="13"/>vel minori lumine gloriae perfunditur. Cum igitur
+<lb ed="#L" n="14"/>lumen gloriae creatum, in quocumque intellectu
+<lb ed="#L" n="15"/>creato receptum, non possit esse infinitum, 
+im<lb break="no" ed="#L" n="16"/>possibile est quod aliquis intellectus creatus Deum
+<lb ed="#L" n="17"/>infinite cognoscat. Unde impossibile est quod Deum
+<lb ed="#L" n="18"/>comprehendat.
+</p>
+               <p xml:id="TAca84-d1e108-d1e1938">
+                  <lb ed="#L" n="19"/>AD PRIMUM ERGO DICENDUM quod comprehensio
+<lb ed="#L" n="20"/>dicitur dupliciter. Uno modo, stricte et proprie,
+<lb ed="#L" n="21"/>secundum quod aliquid includitur in 
+comprehen<lb break="no" ed="#L" n="22"/>dente. Et sic nullo modo Deus comprehenditur,
+<lb ed="#L" n="23"/>nec intellectu nec aliquo alio: quia, cum sit 
+in<lb break="no" ed="#L" n="24"/>finitus, nullo finito includi potest, ut aliquid 
+fini<lb break="no" ed="#L" n="25"/>tum eum infinite capiat, sicut ipse infinite ' est.
+<lb ed="#L" n="26"/>Et sic de comprehensione nunc quaeritur. - Alio
+<lb ed="#L" n="27"/>modo comprehensio largius sumitur, secundum
+<lb ed="#L" n="28"/>quod comprehensio insecutioni opponitur. Qui
+<lb ed="#L" n="29"/>enim attingit aliquem, quando iam tenet ipsum,
+<lb ed="#L" n="30"/>comprehendere eum dicitur. Et sic Deus 
+compre<lb break="no" ed="#L" n="31"/>henditur a beatis, secundum illud Cant. m: tenui
+<lb ed="#L" n="32"/>eum,.nec dimittam. Et sic intelliguntur 
+auctori<lb break="no" ed="#L" n="33"/>tates? Apostoli de comprehensione. - Et hoc modo
+<lb ed="#L" n="34"/>comprehensio est una de tribus dotibus animae,
+<lb ed="#L" n="35"/>quae respondet spei; sicut visio fidei, et fruitio
+<lb ed="#L" n="36"/>caritati. Non enim, apud nos, omne quod videtur,
+<lb ed="#L" n="37"/>iam tenetur vel habetur: quia videntur interdum
+<lb ed="#L" n="38"/>distantia, vel quae non sunt in potestate nostra.
+<lb ed="#L" n="39"/>Neque iterum omnibus quae habemus, fruimur:
+<lb ed="#L" n="40"/>vel quia non delectamur in eis; vel quia non
+<lb ed="#L" n="41"/>sunt ultimus finis desiderii nostri, ut desiderium
+<lb ed="#L" n="42"/>nostrum impleant et quietent. Sed haec tria 
+ha<lb break="no" ed="#L" n="43"/>bent beati in Deo: quia et vident ipsum; et 
+vi<lb break="no" ed="#L" n="44"/>dendo, tenent sibi praesentem, in potestate 
+haben<lb break="no" ed="#L" n="45"/>tes semper eum videre; et tenentes ^, fruuntur
+<lb ed="#L" n="46"/>sicut ultimo fine desiderium implente. .
+</p>
+               <p xml:id="TAca84-d1e108-d1e2002">
+                  <pb ed="#L" n="130"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD SECUNDUM DICENDUM quod non propter hoc
+<lb ed="#L" n="2"/>Deus incomprehensibilis dicitur, quasi aliquid
+<lb ed="#L" n="3"/>eius sit quod non videatur ": sed quia non ita
+<lb ed="#L" n="4"/>perfecte videtur, sicut visibilis est. Sicut cum 
+ali<lb break="no" ed="#L" n="5"/>qua demonstrabilis propositio per aliquam 
+proba<lb break="no" ed="#L" n="6"/>bilem rationem cognoscitur, non est aliquid eius
+<lb ed="#L" n="7"/>quod non cognoscatur, nec subiectum, nec 
+prae<lb break="no" ed="#L" n="8"/>dicatum, nec compositio: sed tota non ita 
+per<lb break="no" ed="#L" n="9"/>fecte cognoscitur, sicut cognoscibilis est. Unde
+<lb ed="#L" n="10"/>Augustinus, definiendo comprehensionem, dicit
+<lb ed="#L" n="11"/>quod :otum comprehenditur videndo, quod ita
+<lb ed="#L" n="12"/>videtur, ut nihil eius lateat videntem; aut cuius
+<lb ed="#L" n="13"/>fines circumspici possunt: tunc enim fines ali-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="14"/>cuius circumspiciuntur, quando ad finem in 
+mo<lb break="no" ed="#L" n="15"/>do cognoscendi illam rem pervenitur.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2044">
+                  <lb ed="#L" n="16"/>AD TERTIUM DICENDUM quod totaliter dicit 
+mo<lb break="no" ed="#L" n="17"/>dum- obiecti: non quidem ita quod totus modus
+<lb ed="#L" n="18"/>obiecti non cadat sub cognitione; sed quia 
+mo<lb break="no" ed="#L" n="19"/>dus obiecti non est modus cognoscentis. Qui igitur
+<lb ed="#L" n="20"/>videt Deum per essentiam, videt hoc in eo, quod
+<lb ed="#L" n="21"/>infinite existit, et infinite cognoscibilis est: sed
+<lb ed="#L" n="22"/>hic infinitus modus non competit ei, ut scilicet
+<lb ed="#L" n="23"/>ipse infinite cognoscat: sicut aliquis probabiliter
+<lb ed="#L" n="24"/>scire potest aliquam propositionem esse 
+demon<lb break="no" ed="#L" n="25"/>strabilem, licet ipse eam demonstrative non 
+co<lb break="no" ed="#L" n="26"/>gnoscat.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e108-Dd1e2072"><!-- p1-q12-a8 -->
+               <head xml:id="TAca84-d1e108-Hd1e2075">Articulus 8</head>
+               <head xml:id="TAca84-d1e108-Hd1e2077" type="question-title">
+  utrum videntes deum per essentiam omnia in deo videant
+</head>
+               <p xml:id="TAca84-d1e108-d1e2080">
+                  <lb ed="#L" n="46"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="47"/>UTRUM VIDENTES DEUM PER ESSENTIAM OMNIA IN DEO VIDEANT
+</p>
+               <p xml:id="TAca84-d1e108-d1e2087">
+                  <lb ed="#L" n="48"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="49"/>videntes Deum per essentiam omnia in
+<lb ed="#L" n="50"/>Deo videant. Dicit enim Gregorius, in
+<lb ed="#L" n="51"/>IV Dialog.: Quid est quod non videant,
+<lb ed="#L" n="52"/>qui videntem omnia vident? Sed Deus est videns
+<lb ed="#L" n="53"/>omnia. Ergo qui vident Deum, omnia vident.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2103">
+                  <lb ed="#L" n="54"/>2. ITEM, quicumque videt speculum, videt
+<lb ed="#L" n="55"/>ea quae in speculo resplendent. Sed omnia 
+quae<lb break="no" ed="#L" n="56"/>cumque fiunt vel fieri possunt, in Deo 
+resplen<lb break="no" ed="#L" n="57"/>dent sicut in quodam speculo: ipse enim omnia in
+<lb ed="#L" n="58"/>seipso cognoscit. Ergo quicumque videt Deum,
+<lb ed="#L" n="59"/>videt omnia quae sunt et quae fieri possunt.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2120">
+                  <lb ed="#L" n="60"/>3. PRAETEREA, qui intelligit id quod est maius,
+<lb ed="#L" n="61"/>potest intelligere minima, ut dicitur III de Anima.
+<lb ed="#L" n="62"/>Sed omnia quae Deus facit vel facere potest,
+<lb ed="#L" n="63"/>sunt minus quam eius essentia. Ergo quicumque
+<lb ed="#L" n="64"/>intelligit Deum, potest intelligere omnia quae Deus
+<lb ed="#L" n="65"/>facit vel facere potest.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2136">
+                  <lb ed="#L" n="66"/>4. PRAETEREA, rationalis creatura omnia ? 
+na<lb break="no" ed="#L" n="67"/>turaliter scire desiderat. Si igitur videndo Deum
+<lb ed="#L" n="68"/>non omnia sciat, non quietatur eius naturale 
+de<lb break="no" ed="#L" n="69"/>siderium: et ita, videndo, Deum non erit beata.
+<lb ed="#L" n="70"/>Quod est inconveniens. Videndo igitur Deum,
+<lb ed="#L" n="71"/>omnia scit.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2152">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="72"/>SED cowTRA rsT quod angeli vident Deum per
+<lb ed="#L" n="73"/>éssentiam, et tamen non omnia sciunt. Inferiores
+<lb ed="#L" n="74"/>enim angeli purgantur a superioribus a nescientia,
+<lb ed="#L" n="75"/>ut dicit Dionysius, vit cap. Cael. Hier. Ipsi etiam
+<lb ed="#L" n="76"/>nesciunt futura contingentia et cogitationes 
+cor<lb break="no" ed="#L" n="77"/>dium: hoc enim solius Dei est. Non ergo 
+qui<lb break="no" ed="#L" n="78"/>cumque vident Dei essentiam, vident omnia.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2172">
+                  <lb ed="#L" n="79"/>RESPONDEO DICENDUM quod intellectus creatus ,
+<lb ed="#L" n="80"/>videndo divinam essentiam, non videt in ipsa
+<lb ed="#L" n="81"/>omnia quae facit Deus vel facere potest 
+Mani<lb break="no" ed="#L" n="82"/>festum est enim quod sic aliqua videntur in Deo,
+<lb ed="#L" n="83"/>secundum quod sunt in ipso. Omnia autem alia
+<lb ed="#L" n="84"/>sunt in Deo, sicut effectus sunt virtute in sua
+<lb ed="#L" n="85"/>causa. Sic igitur videntur alia ? in Deo, sicut
+<lb ed="#L" n="86"/>effectus in sua causa. Sed manifestum est quod
+<lb ed="#L" n="87"/>quanto aliqua causa perfectius videtur, tanto 
+plu<lb break="no" ed="#L" n="88"/>res eius effectus in ipsa videri possunt. Qui enim
+<lb ed="#L" n="89"/>habet intellectum elevatum, statim, uno principio
+<lb ed="#L" n="90"/>demonstrativo proposito, ex ipso multarum 
+con<lb break="no" ed="#L" n="91"/>clusionum cognitionem accipit: quod non 
+con<lb break="no" ed="#L" n="92"/>venit ei qui debilioris intellectus est, sed oportet
+<lb ed="#L" n="93"/>quod ei singula explanentur. Ille igitur intellectus
+<lb ed="#L" n="94"/>potest in causa cognoscere omnes causae effectus,
+<lb ed="#L" n="95"/>et omnes " rationes effectuum, qui causam totaliter
+<pb ed="#L" n="131"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>comprehendit. Nullus autem intellectus creatus
+<lb ed="#L" n="2"/>totaliter Deum comprehendere potest, ut 
+osten<lb break="no" ed="#L" n="3"/>sum est. Nullus igitur intellectus creatus, videndo
+<lb ed="#L" n="4"/>Deum, potest cognoscere omnia quae Deus facit
+<lb ed="#L" n="5"/>vel potest facere: hoc enim esset comprehendere
+<lb ed="#L" n="6"/>eius virtutem. Sed horum quae Deus facit vel
+<lb ed="#L" n="7"/>facere potest, tanto aliquis intellectus plura 
+co<lb break="no" ed="#L" n="8"/>gnoscit, quanto perfectius Deum videt.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2233">
+                  <lb ed="#L" n="9"/>AD PRIMUM ERGO DICENDUM quod Gregorius 
+lo<lb break="no" ed="#L" n="10"/>quitur quantum ad sufficientiam obiecti, scilicet
+<lb ed="#L" n="11"/>Dei, quod ^, quantum in se est, sufficienter continet
+<lb ed="#L" n="12"/>omnia et demonstrat. Non tamen sequitur quod
+<lb ed="#L" n="13"/>unusquisque videns Deum omnia cognoscat: quia
+<lb ed="#L" n="14"/>non perfecte comprehendit ipsum.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2249">
+                  <lb ed="#L" n="15"/>AD SECUNDUM DICENDUM quod videns speculum,
+<lb ed="#L" n="16"/>non est necessarium quod omnia in speculo
+<lb ed="#L" n="17"/>videat, nisi speculum visu suo comprehendat.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2259">
+                  <lb ed="#L" n="18"/>Ap TERTIUM DICENDUM quod, licet maius sit 
+vi<lb break="no" ed="#L" n="19"/>dere Deum quam omnia alia, tamen maius est
+<lb ed="#L" n="20"/>videre sic Deum quod omnia in eo cognoscantur,
+<lb ed="#L" n="21"/>quam videre sic ipsum quod non omnia, sed
+<lb ed="#L" n="22"/>pauciora vel plura cognóscantur in eo. Iam enim
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="23"/>ostensum est quod multitudo cognitorum in Deo,
+<lb ed="#L" n="24"/>consequitur modum videndi ipsum vel magis 
+per<lb break="no" ed="#L" n="25"/>fectum vel minus perfectum.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2281">
+                  <lb ed="#L" n="26"/>AD QUARTUM DICENDUM quod naturale 
+deside<lb break="no" ed="#L" n="27"/>rium rationalis creaturae est ad sciendum omnia
+<lb ed="#L" n="28"/>illa quae pertinent ad perfectionem intellectus; et
+<lb ed="#L" n="29"/>haec sunt species et genera rerum, et rationes
+<lb ed="#L" n="30"/>earum, quae in Deo videbit quilibet videns 
+es<lb break="no" ed="#L" n="31"/>sentiam divinam. Cognoscere autem ? alia 
+sin<lb break="no" ed="#L" n="32"/>gularia, et cogitata et facta eorum, non est de
+<lb ed="#L" n="33"/>perfectione intellectus creati, nec ad hoc eius 
+na<lb break="no" ed="#L" n="34"/>turale desiderium tendit: nec iterum cognoscere
+<lb ed="#L" n="35"/>illa quae nondum sunt, sed fieri a Deo possunt.
+<lb ed="#L" n="36"/>Si tamen solus Deus videretur, qui est fons et
+<lb ed="#L" n="37"/>principium totius esse et veritatis, ita repleret
+<lb ed="#L" n="38"/>naturale desiderium sciendi, quod nihil aliud 
+quae<lb break="no" ed="#L" n="39"/>reretur, et beatus esset. Unde dicit Augustinus, V
+<lb ed="#L" n="40"/>Confess.: <quote xml:id="TAca84-d1e108-Qd1e2315">Infelix homo qui scit omnia illa (
+sci<lb break="no" ed="#L" n="41"/>licet creaturas), fe autem nescit: beatus autem qui
+<lb ed="#L" n="42"/>te scit, etiam si illa nesciat. Qui vero te et illa
+<lb ed="#L" n="43"/>novit, non propter illa beatior est, sed propter te
+<lb ed="#L" n="44"/>solum beatus.</quote>
+               </p>
+            </div>
+            <div xml:id="TAca84-d1e108-Dd1e2328"><!-- p1-q12-a9 -->
+               <head xml:id="TAca84-d1e108-Hd1e2331">Articulus 9</head>
+               <head xml:id="TAca84-d1e108-Hd1e2333" type="question-title">utrum ea quae videntur in deo a videntibus divinam essentiam
+    per aliquas similitudines videantur</head>
+               <p xml:id="TAca84-d1e108-d1e2336">
+                  <pb ed="#L" n="135"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS NONUS
+<lb ed="#L" n="2"/>UTRUM EA QUAE VIDENTUR IN DEO A VIDENTIBUS DIVINAM ESSENTIAM
+<lb ed="#L" n="3"/>PER ALIQUAS SIMILITUDINES VIDEANTUR
+</p>
+               <p xml:id="TAca84-d1e108-d1e2349">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="4"/>AD NONUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="5"/>F)ea quae videntur in Deo, a videntibus
+<lb ed="#L" n="6"/>à divinam essentiam per aliquas 
+similitu<lb break="no" ed="#L" n="7"/>Wines videantur. Omnis enim cognitio
+<lb ed="#L" n="8"/>est per assimilationem cognoscentis ad cognitum:
+<lb ed="#L" n="9"/>sic enim intellectus in actu fit intellectum in actu,
+<lb ed="#L" n="10"/>et sensus in actu sensibile in actu, inquantum
+<lb ed="#L" n="11"/>eius similitudine informatur, ut pupilla similitudine
+<lb ed="#L" n="12"/>coloris. Si igitur intellectus videntis Deum per 
+es<lb break="no" ed="#L" n="13"/>sentiam intelligat in Deo aliquas creaturas, 
+opor<lb break="no" ed="#L" n="14"/>tet quod earum similitudinibus informetur.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2378">
+                  <lb ed="#L" n="15"/>2. PRAETEREA, ea quae prius vidimus, 
+memo<lb break="no" ed="#L" n="16"/>riter tenemus ^. Sed Paulus, videns in raptu 
+essen<lb break="no" ed="#L" n="17"/>tiam Dei, ut dicit Augustinus XII super Gen. ad
+<lb ed="#L" n="18"/>litteram, postquam desiit essentiam Dei videre,
+<lb ed="#L" n="19"/>recordatus est multorum quae in illo raptu 
+vi<lb break="no" ed="#L" n="20"/>derat: unde ipse dicit quod audivit arcana verba,
+<lb ed="#L" n="21"/>quae non licet homini loqui, ll Cor.. xu. Ergo
+<lb ed="#L" n="22"/>oportet dicere quod aliquae similitudines eorum
+<lb ed="#L" n="23"/>quae recordatus est, in eius intellectu 
+remanse<lb break="no" ed="#L" n="24"/>rint . Et eadem ratione, quando praesentialiter
+<lb ed="#L" n="25"/>videbat Dei essentiam, eorum quae in ipsa 
+vi<lb break="no" ed="#L" n="26"/>debat, aliquas similitudines vel species habebat.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2408">
+                  <lb ed="#L" n="27"/>SED coNTRA EST quod per unam speciem 
+vi<lb break="no" ed="#L" n="28"/>detur speculum, et ea quae in speculo apparent.
+<lb ed="#L" n="29"/>Sed omnia sic videntur in Deo sicut in quodam
+<lb ed="#L" n="30"/>speculo intelligibili. Ergo, si ipse Deus non 
+vide<lb break="no" ed="#L" n="31"/>tur per aliquam similitudinem, sed per suam 
+es<lb break="no" ed="#L" n="32"/>sentiam; nec ea quae in ipso videntur, per 
+ali<lb break="no" ed="#L" n="33"/>quas similitudines sive species videntur.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2426">
+                  <lb ed="#L" n="34"/>RrEsPONDEO DICENDUM quod videntes Deum per
+<lb ed="#L" n="35"/>essentiam ?, ea quae in ipsa essentia Dei vident,
+<lb ed="#L" n="36"/>non vident per aliquas species, sed per ipsam
+<lb ed="#L" n="37"/>essentiam divinam intellectui eorum unitam. Sic
+<lb ed="#L" n="38"/>enim cognoscitur unumquodque, secundum quod
+<lb ed="#L" n="39"/>similitudo eius est in cognoscente. Sed hoc 
+con<lb break="no" ed="#L" n="40"/>tingit dupliciter. Cum enim quaecumque uni et
+<lb ed="#L" n="41"/>eidem sunt similia, sibi invicem sint similia 5,
+<lb ed="#L" n="42"/>virtus cognoscitiva dupliciter assimilari potest ali-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43"/>cui cognoscibili. Uno modo, secundum se, quando
+<lb ed="#L" n="44"/>directe eius similitudine informatur: et tunc 
+co<lb break="no" ed="#L" n="45"/>gnoscitur illud secundum se. Alio modo, 
+secun<lb break="no" ed="#L" n="46"/>dum quod informatur specie alicuius quod est
+<lb ed="#L" n="47"/>ei simile: et tunc non dicitur res cognosci in
+<lb ed="#L" n="48"/>seipsa, sed in suo simili. Alia enim est cognitio
+<lb ed="#L" n="49"/>qua cognoscitur aliquis homo in seipso, et alia
+<lb ed="#L" n="50"/>qua cognoscitur in sua imagine. Sic ergo, 
+co<lb break="no" ed="#L" n="51"/>gnoscere res per earum similitudines in 
+cogno<lb break="no" ed="#L" n="52"/>Scente existentes, est cognoscere eas in seipsis,
+<lb ed="#L" n="53"/>seu in propriis naturis: sed cognoscere eas prout D. .
+<lb ed="#L" n="54"/>earum similitudines praeexistunt in Deo, est 
+vi<lb break="no" ed="#L" n="55"/>dere eas in Deo. Et hae duae cognitiones 
+diffe<lb break="no" ed="#L" n="56"/>runt. Unde secundum illam cognitionem qua res
+<lb ed="#L" n="57"/>cognoscuntur" a videntibus Deum per essentiam a
+<lb ed="#L" n="58"/>in ipso Deo, non videntur per aliquas 
+similitu<lb break="no" ed="#L" n="59"/>dines alias; sed per solam essentiam divinam
+<lb ed="#L" n="60"/>intellectui praesentem , ea quam et Deus 
+vi<lb break="no" ed="#L" n="61"/>detur.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2491">
+                  <lb ed="#L" n="62"/>AD PRIMUM ERGO DICENDUM quod intellectus ?' vi- :
+<lb ed="#L" n="63"/>dentis Deum assimilatur rebus quae videntur in
+<lb ed="#L" n="64"/>Deo, inquantum unitur essentiae divinae, in qua
+<lb ed="#L" n="65"/>rerum omnium similitudines praeexistunt.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2502">
+                  <lb ed="#L" n="66"/>AD SECUNDUM DICENDUM quod aliquae potentiae
+<lb ed="#L" n="67"/>cognoscitivae sunt, quae ex speciebus primo 
+con<lb break="no" ed="#L" n="68"/>ceptis alias formare possunt. Sicut imaginatio ex
+<lb ed="#L" n="69"/>praeconceptis speciebus montis et auri, format
+<lb ed="#L" n="70"/>speciem montis aurei: et intellectus ex praecon- :
+<lb ed="#L" n="71"/>ceptis speciebus generis et differentiae, format (N^
+<lb ed="#L" n="72"/>rationem speciei. Et similiter ex similitudine i 
+ima<lb break="no" ed="#L" n="73"/>ginis formare possumus in nobis similitudinem
+<lb ed="#L" n="74"/>eius cuius est imago. Et sic Paulus, vel 
+quicum<lb break="no" ed="#L" n="75"/>que alius videns Deum, ex ipsa visione essentiae
+<lb ed="#L" n="76"/>divinae potest formare in se similitudines rerum
+<lb ed="#L" n="77"/>quae in essentia divina videntur: quae 
+reman<lb break="no" ed="#L" n="78"/>serunt in Paulo etiam postquam desiit Dei 
+es<lb break="no" ed="#L" n="79"/>sentiam videre. Ista tamen visio, qua videntur
+<lb ed="#L" n="80"/>res per huiusmodi species sic conceptas, est alia
+<lb ed="#L" n="81"/>a visione qua videntur res in Deo.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e108-Dd1e2540"><!-- p1-q12-a10 -->
+               <head xml:id="TAca84-d1e108-Hd1e2543">Articulus 10</head>
+               <head xml:id="TAca84-d1e108-Hd1e2545" type="question-title">
+  utrum videntes deum per essentiam simul videant omnia
+  quae in ipso vident
+</head>
+               <p xml:id="TAca84-d1e108-d1e2548">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="22"/>ARTICULUS DECIMUS ^
+<lb ed="#L" n="23"/>UTRUM VIDENTES DEUM PER ESSENTIAM SIMUL VIDEANT OMNIA
+<lb ed="#L" n="24"/>QUAE IN IPSO VIDENT
+</p>
+               <p xml:id="TAca84-d1e108-d1e2559">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="25"/>AD DECIMUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="26"/>videntes Deum per essentiam non 
+si<lb break="no" ed="#L" n="27"/>mul videant omnia quae in ipso 
+vi<lb break="no" ed="#L" n="28"/>dent. Quia, secundum Philosophum,
+<lb ed="#L" n="29"/>contingit multa scire, intelligere vero unum. Sed
+<lb ed="#L" n="30"/>ea quae videntur in Deo; intelliguntur: intellectu
+<lb ed="#L" n="31"/>enim videtur Deus. Ergo non contingit a 
+viden<lb break="no" ed="#L" n="32"/>tibus Deum simul multa videri in Deo.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2581">
+                  <lb ed="#L" n="33"/>2. PRAETEREA, Augustinus dicit, VIII super Gen.
+<lb ed="#L" n="34"/>ad litteram, quod Deus movet creaturam 
+spiri<lb break="no" ed="#L" n="35"/>tualem per tempus, hoc est per intelligentiam et
+<lb ed="#L" n="36"/>affectionem. Sed creatura spiritualis est angelus,
+<lb ed="#L" n="37"/>qui Deum videt. Ergo videntes Deum, successive
+<lb ed="#L" n="38"/>intelligunt et afficiuntur: tempus enim 
+succes<lb break="no" ed="#L" n="39"/>sionem importat.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2600">
+                  <lb ed="#L" n="40"/>SEp coNTRA EsT quod Augustinus dicit, ultimo
+<lb ed="#L" n="41"/>de Trin.: non erunt volubiles nostrae 
+cogitatio<lb break="no" ed="#L" n="42"/>nes, ab aliis in alia euntes atque redeuntes; sed
+<lb ed="#L" n="43"/>omnem scientiam nostram uno simul conspectu
+<lb ed="#L" n="44"/>videbimus.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2613">
+                  <lb ed="#L" n="45"/>RESPONDEO DICENDUM quod ea quae videntur in
+<lb ed="#L" n="46"/>Verbo, non successive, sed simul videntur. Ad
+<lb ed="#L" n="47"/>cuius evidentiam considerandum est, quod ideo
+<lb ed="#L" n="48"/>nos simul non possumus multa intelligere, quia
+<lb ed="#L" n="49"/>multa per diversas species ? intelligimus; diversis
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="50"/>autem speciebus non potest intellectus unus ?
+<lb ed="#L" n="51"/>simul actu informari ad intelligendum per eas,
+<lb ed="#L" n="52"/>sicut nec unum corpus potest simul diversis 
+fi<lb break="no" ed="#L" n="53"/>guris figurari. Unde contingit quod, quando
+<lb ed="#L" n="54"/>aliqua. multa una specie intelligi possunt, simul
+<lb ed="#L" n="55"/>intelliguntur: sicut diversae partes alicuius totius,
+<lb ed="#L" n="56"/>si singulae propriis speciebus intelligantur, 
+succes<lb break="no" ed="#L" n="57"/>sive intelliguntur, et non simul; si autem omnes
+<lb ed="#L" n="58"/>intelligantur una specie totius, simul intelliguntur.
+<lb ed="#L" n="59"/>Ostensum est autem quod ea quae videntur in
+<lb ed="#L" n="60"/>Deo, non videntur singula per suas 
+similitudi<lb break="no" ed="#L" n="61"/>nes, sed omnia per unam essentiam Dei. Unde
+<lb ed="#L" n="62"/>simul, et non successive videntur.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2657">
+                  <lb ed="#L" n="63"/>AD PRIMUM ERGO DICENDUM quod sic unum 
+tan<lb break="no" ed="#L" n="64"/>tum intelligimus , inquantum una specie 
+intelli<lb break="no" ed="#L" n="65"/>gimus. Sed multa una specie intellecta, simul 
+in<lb break="no" ed="#L" n="66"/>teliguntur: sicut in specie hominis intelligimus
+<lb ed="#L" n="67"/>animal et rationale, et in specie domus parietem
+<lb ed="#L" n="68"/>et tectum.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2673">
+                  <lb ed="#L" n="69"/>AD SECUNDUM DICENDUM quod angeli, quantum
+<lb ed="#L" n="70"/>ad cognitionem naturalem , qua cognoscunt res
+<lb ed="#L" n="71"/>per species diversas eis inditas, non simul omnia
+<lb ed="#L" n="72"/>cognoscunt: et sic moventur, secundum 
+intelli<lb break="no" ed="#L" n="73"/>gentiam, per tempus. Sed secundum quod 
+vi<lb break="no" ed="#L" n="74"/>dent res in Deo, simul eas vident.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e108-Dd1e2690"><!-- p1-q12-a11 -->
+               <head xml:id="TAca84-d1e108-Hd1e2693">Articulus 11</head>
+               <head xml:id="TAca84-d1e108-Hd1e2695" type="question-title">utrum aliquis in hac vita possit videre deum per essentiam</head>
+               <p xml:id="TAca84-d1e108-d1e2698">
+                  <lb ed="#L" n="73"/>ARTICULUS UNDECIMUS
+<lb ed="#L" n="74"/>UTRUM ALIQUIS IN HAC VITA POSSIT VIDERE DEUM PER ESSENTIAM
+</p>
+               <p xml:id="TAca84-d1e108-d1e2705">
+                  <lb ed="#L" n="75"/>AD UNDECIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="76"/>aliquis in hac vita possit Deum a 
+es<lb break="no" ed="#L" n="77"/>videre facie ad —— est videre per essentiam,
+<lb ed="#L" n="78"/>ut patet per illud quod dicitur I Cor. xui: 
+vi<lb break="no" ed="#L" n="79"/>demus nunc per speculum et in aenigmate, tunc
+<lb ed="#L" n="80"/>aulem facie ad faciem. Ergo Deus in hac vita
+<lb ed="#L" n="81"/>per essentiam videri potest.  —
+</p>
+               <p xml:id="TAca84-d1e108-d1e2723">
+                  <lb ed="#L" n="82"/>2. PRaETEREA, Num. xi dicit Dominus de
+<lb ed="#L" n="83"/>Moyse: ore ad os loquor ei, et palam, et non
+<lb ed="#L" n="84"/>per aenigmata et figuras, videt Deum. Sed hoc
+<lb ed="#L" n="85"/>est videre Deum per essentiam ^. Ergo aliquis
+<lb ed="#L" n="86"/>in statu huius vitae potest Deum per essentiam
+<lb ed="#L" n="87"/>videre.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2740">
+                  <lb ed="#L" n="88"/>3. PRAETEREA, illud in quo alia omnia 
+cognosci<lb break="no" ed="#L" n="89"/>mus, et per quod de aliis iudicamus, est nobis
+<lb ed="#L" n="90"/>secundum se notum. Sed omnia etiam ? nunc
+<lb ed="#L" n="91"/>in Deo cognoscimus. Dicit enim Augustinus, XII
+<lb ed="#L" n="92"/>Conf.: <quote xml:id="TAca84-d1e108-Qd1e2753">Si ambo videmus verum esse quod dicis, et
+<cb ed="#L" n="c"/>
+                     <lb ed="#L" n="93"/>ambo videmus verum esse quod dico, ubi quaeso
+<lb ed="#L" n="94"/>illud videmus? Nec ego in te, nec tu in me: sed
+<lb ed="#L" n="95"/>ambo in ipsa quae supra mentes nostras est, 
+in<lb break="no" ed="#L" n="96"/>commultabili veritate</quote>. Idem etiam, in libro de
+<lb ed="#L" n="97"/>Vera Religione, dicit quod secundum veritatem
+<lb ed="#L" n="98"/>divinam de omnibus iudicamus. Et XII de 7rin.
+<lb ed="#L" n="99"/>dicit quod rationis est iudicare de istis 
+corpora<lb break="no" ed="#L" n="100"/>libus secundum rationes incorporales et 
+sempiter<lb break="no" ed="#L" n="101"/>nas: quae nisi supra mentem essent, 
+incommu<lb break="no" ed="#L" n="102"/>labiles profecto non essent. Ergo et in hac vita
+<lb ed="#L" n="103"/>ipsum Deum videmus.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2782">
+                  <lb ed="#L" n="104"/>4. PRAETEREA, secundum Augustinum, XII super
+<lb ed="#L" n="105"/>Gen. ad litt., visione intellectuali videntur ea
+<lb ed="#L" n="106"/>quae sunt in anima per suam essentiam. Sed
+<lb ed="#L" n="107"/>visio intellectualis est de rebus intelligibilibus ,
+<lb ed="#L" n="108"/>non per aliquas similitudines, sed per suas 
+essen<lb break="no" ed="#L" n="109"/>tias, ut ipse ibidem dicit. Ergo, cum Deus sit per
+<lb ed="#L" n="110"/>essentiam suam in anima nostra, per essentiam
+<lb ed="#L" n="111"/>suam videtur a nobis.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2802">
+                  <lb ed="#L" n="112"/>SEp cowrRA EsT quod dicitur Exod. xxxii: non
+<pb ed="#L" n="138"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>videbit me homo et vivet. Glossa: Quandiu hic
+<lb ed="#L" n="2"/>mortaliter vivitur , videri per quasdam imagines
+<lb ed="#L" n="3"/>Deus potest; sed per ipsam naturae suae speciem
+<lb ed="#L" n="4"/>non potest. i
+</p>
+               <p xml:id="TAca84-d1e108-d1e2820">
+                  <lb ed="#L" n="5"/>RESPONDEO DICENDUM quod ab homine puro
+<lb ed="#L" n="6"/>Deus videri per essentiam non potest, nisi ab hac
+<lb ed="#L" n="7"/>vita mortali separetur. Cuius ratio est quia, sicut
+<lb ed="#L" n="8"/>supra dictum est, modus cognitionis sequitur "
+<lb ed="#L" n="9"/>modum naturae rei cognoscentis. Anima autem
+<lb ed="#L" n="10"/>nostra, quandiu in hac vita vivimus, habet esse
+<lb ed="#L" n="11"/>in materia corporali: unde naturaliter non 
+cogno<lb break="no" ed="#L" n="12"/>scit aliqua nisi quae habent formam in materia,
+<lb ed="#L" n="13"/>vel quae per huiusmodi cognosci possunt. 
+Ma<lb break="no" ed="#L" n="14"/>nifestum est autem quod per naturas rerum 
+ma<lb break="no" ed="#L" n="15"/>teriaiium divina essentia cognosci non potest:
+<lb ed="#L" n="16"/>ostensum est enim supra quod cognitio Dei
+<lb ed="#L" n="17"/>per quamcumque similitudinem creatam, non
+<lb ed="#L" n="18"/>est visio essentiae ipsius. Unde impossibile est
+<lb ed="#L" n="19"/>animae hominis secundum hanc vitam viventis,
+<lb ed="#L" n="20"/>essentiam Dei videre. - Et huius signum est,
+<lb ed="#L" n="21"/>quod anima nostra, quanto magis a corporalibus
+<lb ed="#L" n="22"/>abstrahitur, tanto intelligibilium abstractorum fit
+<lb ed="#L" n="23"/>capacior. Unde in somniis et ' alienationibus a 
+sen<lb break="no" ed="#L" n="24"/>sibus corporis, magis divinae revelationes 
+perci<lb break="no" ed="#L" n="25"/>piuntur, et praevisiones futurorum. Quod ergo
+<lb ed="#L" n="26"/>anima elevetur usque ad supremum intelligibilium,
+<lb ed="#L" n="27"/>quod est essentia divina, esse non potest quandiu
+<lb ed="#L" n="28"/>hac mortali vita utitur.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2875">
+                  <lb ed="#L" n="29"/>Ap PRIMUM ERGO DICENDUM quod, secundum 
+Dio<lb break="no" ed="#L" n="30"/>nysium, iv cap. Cael. Hier., sic in Scripturis 
+di<lb break="no" ed="#L" n="31"/>citur aliquis? Deum vidisse, inquantum formatae
+<lb ed="#L" n="32"/>sunt aliquae figurae, vel sensibiles vel 
+imagina<lb break="no" ed="#L" n="33"/>riae, secundum aliquam similitudinem aliquod 
+di<lb break="no" ed="#L" n="34"/>vinum repraesentantes. Quod ergo dicit Iacob,
+<lb ed="#L" n="35"/>vidi Deum facie ad faciem, referendum est, non
+<lb ed="#L" n="36"/>ad ipsam divinam essentiam, sed ad figuram
+<lb ed="#L" n="37"/>in qua repraesentabatur Deus. Et hoc ipsum ad
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="38"/>quandam prophetiae eminentiam pertinet, ut 
+vi<lb break="no" ed="#L" n="39"/>deatur persona Dei loquentis ^, licet imaginaria
+<lb ed="#L" n="40"/>visione; ut infra patebit, cum de gradibus 
+Pro<lb break="no" ed="#L" n="41"/>phetiae loquemur. - Vel hoc dicit Iacob ad 
+de<lb break="no" ed="#L" n="42"/>signandam quandam eminentiam intelligibilis
+<lb ed="#L" n="43"/>contemplationis, supra communem statum.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2912">
+                  <lb ed="#L" n="44"/>AD SECUNDUM DICENDUM quod 5, sicut Deus 
+mira<lb break="no" ed="#L" n="45"/>culose aliquid supernaturaliter in rebus 
+corpo<lb break="no" ed="#L" n="46"/>reis operatur, ita etiam et supernaturaliter, et 
+prae<lb break="no" ed="#L" n="47"/>ter communem ordinem, mentes aliquorum in hac
+<lb ed="#L" n="48"/>carne viventium, sed non sensibus carnis 
+uten<lb break="no" ed="#L" n="49"/>tium, usque ad visionem suae essentiae elevavit;
+<lb ed="#L" n="50"/>ut dicit Augustinus, XII super Genes. ad lit.,
+<lb ed="#L" n="51"/>et in libro de Videndo Deum de Moyse, qui
+<lb ed="#L" n="52"/>fuit magister Iudaeorum, et Paulo, qui fuit 
+ma<lb break="no" ed="#L" n="53"/>gister Gentium. Et de hoc plenius tractabitur,
+<lb ed="#L" n="54"/>cum de Raptu agemus.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2939">
+                  <lb ed="#L" n="55"/>Ap TERTIUM DICENDUM quod omnia dicimur in
+<lb ed="#L" n="56"/>Deo videre, et secundum ipsum de omnibus
+<lb ed="#L" n="57"/>iudicare, inquantum per participationem sui 
+lu<lb break="no" ed="#L" n="58"/>minis omnia cognoscimus et diiudicamus: nam et
+<lb ed="#L" n="59"/>ipsum lumen naturale rationis participatio 
+quae<lb break="no" ed="#L" n="60"/>dam est divini luminis; sicut etiam omnia 
+sen<lb break="no" ed="#L" n="61"/>sibilia dicimus videre et iudicare in sole, idest per
+<lb ed="#L" n="62"/>lumen solis. Unde dicit Augustinus, I 
+Soliloquio<lb break="no" ed="#L" n="63"/>rum: Disciplinarum spectamina videri non 
+pos<lb break="no" ed="#L" n="64"/>sunt, nisi aliquo velut suo sole illustrentur, 
+vide<lb break="no" ed="#L" n="65"/>licet Deo. Sicut ergo ad videndum aliquid 
+sensi<lb break="no" ed="#L" n="66"/>biliter, non est necesse quod videatur substantia
+<lb ed="#L" n="67"/>solis, ita ad videndum aliquid intelligibiliter, non
+<lb ed="#L" n="68"/>est necessarium quod videatur essentia Dei.
+</p>
+               <p xml:id="TAca84-d1e108-d1e2972">
+                  <lb ed="#L" n="69"/>Ap QUARTUM DICENDUM quod visio intellectualis
+<lb ed="#L" n="70"/>est eorum quae sunt in anima per suam 
+essen<lb break="no" ed="#L" n="71"/>tiam sicut intelligibilia in intellectu. Sic autem
+<lb ed="#L" n="72"/>Deus est in anima beatorum, non autem in
+<lb ed="#L" n="73"/>anima nostra; sed per praesentiam, essentiam,
+<lb ed="#L" n="74"/>et potentiam.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e108-Dd1e2989"><!-- p1-q12-a12 -->
+               <head xml:id="TAca84-d1e108-Hd1e2992">Articulus 12</head>
+               <head xml:id="TAca84-d1e108-Hd1e2994" type="question-title">utrum per rationem naturalem deum in hac vita cognoscere possimus</head>
+               <p xml:id="TAca84-d1e108-d1e2997">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="57"/>ARTICULUS DUODECIMUS
+<lb ed="#L" n="58"/>UTRUM PER RATIONEM NATURALEM DEUM IN HAC VITA COGNOSCERE POSSIMUS
+</p>
+               <p xml:id="TAca84-d1e108-d1e3006">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="59"/>AD DUODECIMUM SIC PROCEDITUR. Videtur
+<lb ed="#L" n="60"/>quod per naturalem rationem Deum in
+<lb ed="#L" n="61"/>àhac vita cognoscere non possimus.
+<lb ed="#L" n="62"/>NDicit enim Boetius, in libro de Consol.,
+<lb ed="#L" n="63"/>quod ratio non capit simplicem formam. Deus
+<lb ed="#L" n="64"/>autem maxime est simplex forma, ut supra
+<lb ed="#L" n="65"/>ostensum est. Ergo ad eius cognitionem ratio 
+na<lb break="no" ed="#L" n="66"/>turalis pervenire non potest.
+</p>
+               <p xml:id="TAca84-d1e108-d1e3028">
+                  <lb ed="#L" n="67"/>2. PRAETEREA, ratione naturali sine phantasmate
+<lb ed="#L" n="68"/>nihil intelligit anima, ut dicitur in III de Anima.
+<lb ed="#L" n="69"/>Sed Dei, cum sit incorporeus, phantasma in nobis
+<lb ed="#L" n="70"/>esse non potest. Ergo cognosci non potest a nobis
+<lb ed="#L" n="71"/>cognitione naturali. —— i
+</p>
+               <p xml:id="TAca84-d1e108-d1e3042">
+                  <lb ed="#L" n="72"/>3. PRAETEREA, cognitio quae est per rationem
+<lb ed="#L" n="73"/>naturalem, communis est bonis et malis, sicut 
+na<lb break="no" ed="#L" n="74"/>tura eis communis est. Sed cognitio Dei 
+com<lb break="no" ed="#L" n="75"/>petit tantum bonis: dicit enim Augustinus, I de
+<lb ed="#L" n="76"/>Trin., quod mentis humanae acies in tam 
+ex<lb break="no" ed="#L" n="77"/>cellenti luce non figitur, nisi per iustitiam fidei
+<lb ed="#L" n="78"/>emundetur. Ergo Deus per rationem naturaleíin
+<lb ed="#L" n="79"/>cognosci non potest.
+</p>
+               <p xml:id="TAca84-d1e108-d1e3062">
+                  <lb ed="#L" n="80"/>SEp cowTRA EsT quod dicitur Rom. 1: quod
+<lb ed="#L" n="81"/>nolum est Dei, manifestum est in illis, idest,
+<lb ed="#L" n="82"/>quod cognoscibile est de Deo per rationem 
+na<lb break="no" ed="#L" n="83"/>turalem.
+</p>
+               <p xml:id="TAca84-d1e108-d1e3073">
+                  <lb ed="#L" n="84"/>RESPONDEO DICENDUM quod naturalis nostra 
+co<lb break="no" ed="#L" n="85"/>gnitio a sensu principium sumit: unde tantum se
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="86"/>nostra naturalis cognitio extendere potest, 
+inquan<lb break="no" ed="#L" n="87"/>tum manuduci potest per sensibilia. Ex 
+sensibi<lb break="no" ed="#L" n="88"/>libus autem non potest usque ad hoc intellectus
+<lb ed="#L" n="89"/>noster pertingere, quod divinam essentiam videat:
+<lb ed="#L" n="90"/>quia creaturae sensibiles sunt effectus Dei 
+virtu<lb break="no" ed="#L" n="91"/>temi causae non adaequantes. Unde ex 
+sensibi<lb break="no" ed="#L" n="92"/>lium cognitione non potest tota Dei virtus 
+cogno<lb break="no" ed="#L" n="93"/>sci: et per consequens nec eius essentia videri ?.
+<lb ed="#L" n="94"/>Sed quia sunt eius effectus a causa dependentes,
+<lb ed="#L" n="95"/>ex eis in hoc perduci possumus, ut cognoscamus
+<lb ed="#L" n="96"/>de Deo an est; et ut cognoscamus de ipso ea
+<lb ed="#L" n="97"/>quae necesse est ei convenire secundum quod
+<lb ed="#L" n="98"/>est prima omnium causa, excedens omnia sua
+<lb ed="#L" n="99"/>causata. Unde cognoscimus de ipso 
+habitudi<lb break="no" ed="#L" n="100"/>nem ipsius ad creaturas, quod scilicet omnium
+<lb ed="#L" n="101"/>est causa; et differentiam creaturarum ab ipso,
+<lb ed="#L" n="102"/>quod scilicet ipse non est aliquid eorum quae
+<lb ed="#L" n="103"/>ab eo causantur "; et quod haec non removentur
+<lb ed="#L" n="104"/>ab eo propter eius defectum, sed quia 
+superex<lb break="no" ed="#L" n="105"/>cedit.
+</p>
+               <p xml:id="TAca84-d1e108-d1e3125">
+                  <lb ed="#L" n="106"/>AD PRIMUM ERGO DICENDUM quod ratio ad formam
+<lb ed="#L" n="107"/>simplicem pertingere non potest, ut sciat de ea
+<lb ed="#L" n="108"/>quid est: potest tamen de ea cognoscere, ut sciat ^
+<lb ed="#L" n="109"/>an est.
+</p>
+               <p xml:id="TAca84-d1e108-d1e3136">
+                  <lb ed="#L" n="110"/>AD SECUNDUM DICENDUM quod Deus naturali 
+co<lb break="no" ed="#L" n="111"/>gnitione cognoscitur per phantasmata ' effectus sui.
+</p>
+               <p xml:id="TAca84-d1e108-d1e3143">
+                  <lb ed="#L" n="112"/>AD TERTIUM DICENDUM quod cognitio Dei per es-
+<pb ed="#L" n="140"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sentiam, cum sit per gratiam, non competit nisi
+<lb ed="#L" n="2"/>bonis: sed cognitio eius quae est per rationem
+<lb ed="#L" n="3"/>naturalem, potest competere bonis et malis. Unde
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="4"/>approbo quod in oratione dixi, « Deus, qui non
+<lb ed="#L" n="5"/>nisi mundos verum scire voluisti »: responderi enim
+<lb ed="#L" n="6"/>potest, multos etiam non mundos multa scire vera,
+<lb ed="#L" n="7"/>Scilicet per rationem naturalem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e108-Dd1e3170"><!-- p1-q12-a13 -->
+               <head xml:id="TAca84-d1e108-Hd1e3173">Articulus 13</head>
+               <head xml:id="TAca84-d1e108-Hd1e3175" type="question-title">utrum per gratiam habeatur altior cognitio dei quam ea
+    quae habetur per rationem naturalem</head>
+               <p xml:id="TAca84-d1e108-d1e3178">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="43"/>ARTICULUS DECIMUSTERTIUS
+<lb ed="#L" n="44"/>UTRUM PER GRATIAM HABEATUR ALTIOR COGNITIO DEI QUAM EA
+<lb ed="#L" n="45"/>QUAE HABETUR PER RATIONEM NATURALEM
+</p>
+               <p xml:id="TAca84-d1e108-d1e3189">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="46"/>AD DECIMUMTERTIUM SIC PROCEDITUR. 
+Vide<lb break="no" ed="#L" n="47"/>tur quod per gratiam non habeatur 
+al<lb break="no" ed="#L" n="48"/>tior cognitio Dei, quam ea quae 
+habe<lb break="no" ed="#L" n="49"/>tur per naturalem rationem. Dicit enim
+<lb ed="#L" n="50"/>Dionysius, i in libro de Mystica Theologia, quod
+<lb ed="#L" n="51"/>ille qui melius unitur Deo in hac vita, unitur ei
+<lb ed="#L" n="52"/>sicut omnino ignoto: quod etiam de Moyse dicit,
+<lb ed="#L" n="53"/>qui tamen excellentiam quandam obtinuit in 
+gra<lb break="no" ed="#L" n="54"/>tiae cognitione. Sed coniungi Deo ignorando de
+<lb ed="#L" n="55"/>eo quid est, hoc contingit etiam per rationem
+<lb ed="#L" n="56"/>naturalem. Ergo per gratiam non plenius 
+cogno<lb break="no" ed="#L" n="57"/>scitur a nobis Deus, quam per rationem 
+natu<lb break="no" ed="#L" n="58"/>ralem.
+</p>
+               <p xml:id="TAca84-d1e108-d1e3222">
+                  <lb ed="#L" n="59"/>2. PRAETEREA, per rationem naturalem in 
+co<lb break="no" ed="#L" n="60"/>gnitionem divinorum pervenire? non possumus,
+<lb ed="#L" n="61"/>nisi per phantasmata: sic etiam nec secundum 
+co<lb break="no" ed="#L" n="62"/>gnitionem gratiae. Dicit enim Dionysius, 1 cap. de
+<lb ed="#L" n="63"/>Cael. Hier., quod impossibile est nobis aliter 
+lu<lb break="no" ed="#L" n="64"/>cere divinum radium, nisi varietate ? sacrorum 
+ve<lb break="no" ed="#L" n="65"/>laminum circumvelatum. Ergo per gratiam non
+<lb ed="#L" n="66"/>plenius cognoscimus Deum, quam per rationem
+<lb ed="#L" n="67"/>naturalem.
+</p>
+               <p xml:id="TAca84-d1e108-d1e3245">
+                  <lb ed="#L" n="68"/>3. PRaETEREA, intellectus noster per gratiam
+<lb ed="#L" n="69"/>fidei Deo adhaeret. Fides autem non videtur esse
+<lb ed="#L" n="70"/>cognitio: dicit enim Gregorius, in Homil., quod
+<lb ed="#L" n="71"/>ea quae non videntur fidem habent, et non 
+agni<lb break="no" ed="#L" n="72"/>tionem. Ergo per gratiam non additur nobis
+<lb ed="#L" n="73"/>aliqua excellentior cognitio de Deo.
+</p>
+               <p xml:id="TAca84-d1e108-d1e3261">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="74"/>SED coNTRA EsT quod dicit Apostolus, I Cor. u:
+<lb ed="#L" n="75"/>nobis revelavit Deus per Spiritum suum, illa. 
+sci<lb break="no" ed="#L" n="76"/>licet quae nemo principum huius saeculi novit,
+<lb ed="#L" n="77"/>idest philosophorum, ut exponit Glossa.
+</p>
+               <p xml:id="TAca84-d1e108-d1e3274">
+                  <lb ed="#L" n="78"/>RESPONDEO DICENDUM quod per gratiam 
+perfe<lb break="no" ed="#L" n="79"/>ctior cognitio de Deo habetur a nobis, quam per
+<lb ed="#L" n="80"/>rationem naturalem. Quod sic patet. Cognitio
+<lb ed="#L" n="81"/>enim quam per naturalem rationem habemus,
+<lb ed="#L" n="82"/>duo requirit: scilicet, phantasmata ex sensibilibus
+<lb ed="#L" n="83"/>accepta, et lumen naturale intelligibile, cuius 
+vir<lb break="no" ed="#L" n="84"/>tute intelligibiles conceptiones ab eis abstrahimus.
+<lb ed="#L" n="85"/>Et quantum ad utrumque, iuvatur humana 
+co<lb break="no" ed="#L" n="86"/>gnitio per revelationem gratiae. Nam et lumen
+<lb ed="#L" n="87"/>naturale intellectus confortatur per infusionem 
+lu<lb break="no" ed="#L" n="88"/>minis gratuiti. Et interdum etiam phantasmata in
+<lb ed="#L" n="89"/>imaginatione hominis formantur divinitus, magis
+<lb ed="#L" n="90"/>exprimentia res divinas, quam: ea quae 
+natura<lb break="no" ed="#L" n="91"/>liter a sensibilibus accipimus; sicut apparet in
+<lb ed="#L" n="92"/>visionibus prophetalibus. Et interdum etiam 
+ali<lb break="no" ed="#L" n="93"/>quae res sensibiles formantur divinitus, aut etiam
+<lb ed="#L" n="94"/>voces, ad aliquid divinum exprimendum; sicut
+<lb ed="#L" n="95"/>in baptismo " visus est Spiritus Sanctus in specie
+<lb ed="#L" n="96"/>columbae, et vox Patris audita est, Hic est Filius
+<lb ed="#L" n="97"/>meus dilectus.
+</p>
+               <p xml:id="TAca84-d1e108-d1e3320">
+                  <lb ed="#L" n="98"/>AD PRIMUM ERGO DICENDUM quod, licet per 
+re<lb break="no" ed="#L" n="99"/>velationem gratiae in hac vita non cognoscamus
+<lb ed="#L" n="100"/>de Deo quid est, et sic ei quasi ignoto 
+coniun<lb break="no" ed="#L" n="101"/>gamur; tamen plenius ipsum cognoscimus, in-
+<pb ed="#L" n="141"/>
+                  <cb ed="#L" n="a"/>
+                  <lb break="no" ed="#L" n="1"/>quantum plures et excellentiores effectus eius 
+no<lb break="no" ed="#L" n="2"/>bis demonstrantur; et inquantum ei aliqua 
+at<lb break="no" ed="#L" n="3"/>tribuimus ex revelatione divina, ad quae ratio
+<lb ed="#L" n="4"/>naturalis non pertingit, ut Deum esse trinum et
+<lb ed="#L" n="5"/>unum.
+</p>
+               <p xml:id="TAca84-d1e108-d1e3346">
+                  <lb ed="#L" n="6"/>Ap SECUNDUM DICENDUM quod ex 
+phantasmati<lb break="no" ed="#L" n="7"/>bus, vel a sensu acceptis secundum naturalem
+<lb ed="#L" n="8"/>ordinem, vel divinitus in imaginatione formatis,
+<lb ed="#L" n="9"/>tanto excellentior cognitio intellectualis habetur,
+<lb ed="#L" n="10"/>quanto lumen intelligibile in homine fortius 
+fu<lb break="no" ed="#L" n="11"/>erit. Et sic per revelationem ex phantasmatibus
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="12"/>plenior cognitio accipitur, ex infusione divini 
+lu<lb break="no" ed="#L" n="13"/>minis.
+</p>
+               <p xml:id="TAca84-d1e108-d1e3368">
+                  <lb ed="#L" n="14"/>AD TERTIUM DICENDUM quod fides cognitio 
+quae<lb break="no" ed="#L" n="15"/>dam est, inquantum intellectus determinatur per
+<lb ed="#L" n="16"/>fidem ad aliquod cognoscibile. Sed haec 
+deter<lb break="no" ed="#L" n="17"/>minatio ad unum non procedit ex visione ' 
+cre<lb break="no" ed="#L" n="18"/>dentis, sed a visione eius cui creditur. Et sic,
+<lb ed="#L" n="19"/>inquantum deest visio, deficit a ratione cognitionis
+<lb ed="#L" n="20"/>quae est in scientia: nam scientia determinat 
+in<lb break="no" ed="#L" n="21"/>telleetum ad unum per visionem et intellectum
+<lb ed="#L" n="22"/>primorum principiorum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

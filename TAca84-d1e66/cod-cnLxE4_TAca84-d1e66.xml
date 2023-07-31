@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="50"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e66"><!-- p1-q4 -->
+            <head xml:id="TAca84-d1e66-Hd1e99">Quaestio 4</head>
+            <head xml:id="TAca84-d1e66-Hd1e101" type="question-title">de dei pfererciione</head>
+            <p xml:id="TAca84-d1e66-d1e104">
+               <pb ed="#L" n="50"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO QUARTA
+<lb ed="#L" n="2"/>DE DEI PFERERCIIONE
+<lb ed="#L" n="3"/>IN TRES ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e66-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>POST, considerationem divinae simplicitatis, de
+<lb ed="#L" n="5"/>Posta ipsius Dei dicendum est. Et quia
+<lb ed="#L" n="6"/>unumquodque, secundum quod perfectum est, sic
+<lb ed="#L" n="7"/>dicitur bonum, primo agendum est de perfectione
+<lb ed="#L" n="8"/>divina; secundo de eius bonitate.
+</p>
+            <p xml:id="TAca84-d1e66-d1e133">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="9"/>Circa primum quaeruntur tria.
+<lb ed="#L" n="10"/>Primo: utrum Deus sit perfectus.
+<lb ed="#L" n="11"/>Secundo: utrum Deus ? sit universaliter 
+perfe<lb break="no" ed="#L" n="12"/>ctus, omnium in se perfectiones habens.
+<lb ed="#L" n="13"/>Tertio: utrum creaturae similes Deo dici possint".
+</p>
+            <div xml:id="TAca84-d1e66-Dd1e150"><!-- p1-q4-a1 -->
+               <head xml:id="TAca84-d1e66-Hd1e153">Articulus 1</head>
+               <head xml:id="TAca84-d1e66-Hd1e155" type="question-title">utrum deus sit perfectus</head>
+               <p xml:id="TAca84-d1e66-d1e158">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>ARTICULUS PRIMUS
+<lb ed="#L" n="15"/>UTRUM DEUS SIT PERFECTUS
+</p>
+               <p xml:id="TAca84-d1e66-d1e167">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="16"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="17"/>esse perfectum non conveniat Deo. 
+Per<lb break="no" ed="#L" n="18"/>fectum enim dicitur quasi totaliter 
+fa<lb break="no" ed="#L" n="19"/>ctum. Sed Deo non convenit esse 
+fa<lb break="no" ed="#L" n="20"/>ctum. Ergo nec esse perfectum.
+</p>
+               <p xml:id="TAca84-d1e66-d1e183">
+                  <lb ed="#L" n="21"/>2. PRAETEREA, Deus est primum rerum 
+prin<lb break="no" ed="#L" n="22"/>cipium. Sed principia rerum videntur esse 
+imper<lb break="no" ed="#L" n="23"/>fecta: semen enim est principium animalium et
+<lb ed="#L" n="24"/>plantarum. Ergo Deus est imperfectus.
+</p>
+               <p xml:id="TAca84-d1e66-d1e195">
+                  <lb ed="#L" n="25"/>3. PRAETEREA, ostensum est supra quod 
+es<lb break="no" ed="#L" n="26"/>sentia ? Dei est ipsum esse. Sed ipsum esse 
+vide<lb break="no" ed="#L" n="27"/>tur esse imperfectissimum: cum sit 
+communissi<lb break="no" ed="#L" n="28"/>mum, et recipiens omnium additiones. Ergo Deus
+<lb ed="#L" n="29"/>est imperfectus.
+</p>
+               <p xml:id="TAca84-d1e66-d1e208">
+                  <lb ed="#L" n="30"/>SED cowTRA EsT quod dicitur Matt. v: estote
+<lb ed="#L" n="31"/>perfecti, sicut et Pater vester caelestis perfectus est.
+</p>
+               <p xml:id="TAca84-d1e66-d1e215">
+                  <lb ed="#L" n="32"/>RESPONDEO DICENDUM quod, sicut Philosophus
+<lb ed="#L" n="33"/>narrat in XII Metaphys., quidam antiqui 
+phi<lb break="no" ed="#L" n="34"/>losophi, scilicet Pythagorici et Speusippus, non
+<lb ed="#L" n="35"/>attribuerunt optimum et perfectissimum primo
+<lb ed="#L" n="36"/>principio. Cuius ratio est, quia philosophi antiqui
+<lb ed="#L" n="37"/>consideraverunt principium materiale tantum: 
+pri<lb break="no" ed="#L" n="38"/>mum autem principium materiale 
+imperfectissi<lb break="no" ed="#L" n="39"/>mum est. Cum enim materia, inquantum 
+huius<lb break="no" ed="#L" n="40"/>modi, sit in potentia, oportet quod primum 
+prin<lb break="no" ed="#L" n="41"/>cipium materiale sit maxime in potentia; et ita
+<lb ed="#L" n="42"/>maxime imperfectum.
+</p>
+               <p xml:id="TAca84-d1e66-d1e241">
+                  <lb ed="#L" n="43"/>Deus autem ponitur primum principium, non
+<lb ed="#L" n="44"/>materiale, sed in genere causae efficientis: et hoc"
+<lb ed="#L" n="45"/>oportet esse perfectissimum. Sicut enim materia,
+<lb ed="#L" n="46"/>inquantum huiusmodi, est in potentia; ita agens,
+<lb ed="#L" n="47"/>inquantum huiusmodi, est in actu. Unde primum
+<lb ed="#L" n="48"/>principium activum oportet maxime esse in actu:
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="49"/>et per consequens maxime esse perfectum. 
+Se<lb break="no" ed="#L" n="50"/>cundum hoc enim dicitur aliquid esse perfectum,
+<lb ed="#L" n="51"/>secundum quod est actu: nam perfectum dicitur,
+<lb ed="#L" n="52"/>cui nihil deest secundum modum suae perfectionis.
+</p>
+               <p xml:id="TAca84-d1e66-d1e267">
+                  <lb ed="#L" n="53"/>AD PRIMUM ERGO DICENDUM quod, sicut dicit 
+Gre<lb break="no" ed="#L" n="54"/>gorius, <quote xml:id="TAca84-d1e66-Qd1e273">balbutiendo ut possumus, excelsa Dei
+<lb ed="#L" n="55"/>resonamus: quod enim factum mon est, 
+perfe<lb break="no" ed="#L" n="56"/>ctum proprie dici non potest</quote>. Sed quia in his
+<lb ed="#L" n="57"/>quae fiunt, tunc dicitur esse aliquid perfectum,
+<lb ed="#L" n="58"/>cum de potentia educitur in actum; transumitur
+<lb ed="#L" n="59"/>hoc nomen perfectum, ad significandum omne
+<lb ed="#L" n="60"/>illad cui non deest esse in actu, sive hoc habeat ?
+<lb ed="#L" n="61"/>per modum factionis, sive non.
+</p>
+               <p xml:id="TAca84-d1e66-d1e292">
+                  <lb ed="#L" n="62"/>AD SECUNDUM DICENDUM quod principium 
+ma<lb break="no" ed="#L" n="63"/>teriale, quod apud nos imperfectum invenitur,
+<lb ed="#L" n="64"/>non potest esse simpliciter primum, sed 
+praece<lb break="no" ed="#L" n="65"/>ditur ab alio perfecto. Nam semen, licet sit 
+prin<lb break="no" ed="#L" n="66"/>cipium animalis generati ex semine, tamen 
+ha<lb break="no" ed="#L" n="67"/>bet ante se animal vel plantam unde deciditur.
+<lb ed="#L" n="68"/>Oportet enim ante id quod est in potentia, esse
+<lb ed="#L" n="69"/>aliquid actu: cum ens in potentia non reducatur
+<lb ed="#L" n="70"/>in actum, nisi per aliquod ens in actu.
+</p>
+               <p xml:id="TAca84-d1e66-d1e315">
+                  <lb ed="#L" n="71"/>AD TERTIUM DICENDUM quod ipsum esse est
+<lb ed="#L" n="72"/>perfectissimum omnium: comparatur enim ad
+<lb ed="#L" n="73"/>omnia ut actus. Nihil enim habet actualitatem, nisi
+<lb ed="#L" n="74"/>inquantum est: unde ipsum esse est actualitas
+<lb ed="#L" n="75"/>omnium rerum, et etiam ipsarum formarum. Unde
+<lb ed="#L" n="76"/>non comparatur ad alia sicut recipiens ad 
+rece<lb break="no" ed="#L" n="77"/>ptum: sed magis sicut receptum ad recipiens.
+<lb ed="#L" n="78"/>Cum enim dico esse hominis, vel equi ", vel 
+cuius<lb break="no" ed="#L" n="79"/>cumque alterius, ipsum esse consideratur ut 
+for<lb break="no" ed="#L" n="80"/>male et receptum: non autem ut illud cui 
+com<lb break="no" ed="#L" n="81"/>petit esse.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e66-Dd1e342"><!-- p1-q4-a2 -->
+               <head xml:id="TAca84-d1e66-Hd1e345">Articulus 2</head>
+               <head xml:id="TAca84-d1e66-Hd1e347" type="question-title">utrum in deo sint perfectiones omnium rerum</head>
+               <p xml:id="TAca84-d1e66-d1e350">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="78"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="79"/>UTRUM IN DEO SINT PERFECTIONES OMNIUM RERUM
+</p>
+               <p xml:id="TAca84-d1e66-d1e359">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="80"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="81"/>in Deo non sint perfectiones omnium
+<lb ed="#L" n="82"/>rerum. Deus enim simplex est, ut 
+osten<lb break="no" ed="#L" n="83"/>Nasum est, Sed perfectiones rerum sunt
+<lb ed="#L" n="84"/>multae et diversae. Ergo in Deo non sunt omnes
+<lb ed="#L" n="85"/>perfectiones rerum.
+</p>
+               <p xml:id="TAca84-d1e66-d1e377">
+                  <lb ed="#L" n="86"/>2. PRAETEREA, opposita non possunt esse in
+<lb ed="#L" n="87"/>eodem. Sed perfectiones rerum sunt oppositae:
+<lb ed="#L" n="88"/>unaquaeque enim species perficitur per suam 
+dif<lb break="no" ed="#L" n="89"/>ferentiam specificam; differentiae autem quibus
+<lb ed="#L" n="90"/>dividitur genus et constituuntur species, sunt 
+op<lb break="no" ed="#L" n="91"/>positae. Cum ergo opposita non possint simul
+<lb ed="#L" n="92"/>esse in eodem, videtur quod non omnes rerum
+<lb ed="#L" n="93"/>perfectiones sint in Deo.
+</p>
+               <p xml:id="TAca84-d1e66-d1e398">
+                  <lb ed="#L" n="94"/>3. PRAETEREA, vivens est perfectius quam ens,
+<lb ed="#L" n="95"/>et sapiens quam vivens: ergo et vivere est 
+per<lb break="no" ed="#L" n="96"/>fectius quam esse, et sapere quam vivere. Sed
+<lb ed="#L" n="97"/>essentia Dei est ipsum esse. Ergo non habet in
+<lb ed="#L" n="98"/>se perfectionem vitae et sapientiae, et alias 
+huius<lb break="no" ed="#L" n="99"/>modi perfectiones.
+</p>
+               <p xml:id="TAca84-d1e66-d1e414">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="100"/>SEp coNTRA EST quod dicit Dionysius, cap. v de
+<lb ed="#L" n="101"/>Div. Nom., quod Deus in uno existentia omnia
+<lb ed="#L" n="102"/>praehabet.
+</p>
+               <p xml:id="TAca84-d1e66-d1e425">
+                  <lb ed="#L" n="103"/>REsPONDEO DICENDUM quod in Deo sunt 
+perfe<lb break="no" ed="#L" n="104"/>ctiones omnium rerum. Unde et dicitur 
+univer<lb break="no" ed="#L" n="105"/>saliter perfectus: quia non deest ei aliqua 
+nobi<lb break="no" ed="#L" n="106"/>litas quae inveniatur in aliquo genere, ut dicit
+<lb ed="#L" n="107"/>Commentator in V Metaphys.. Et hoc quidem
+<lb ed="#L" n="108"/>ex duobus considerari potest.
+</p>
+               <p xml:id="TAca84-d1e66-d1e441">
+                  <lb ed="#L" n="109"/>Primo quidem, per ? hoc quod quidquid 
+per<lb break="no" ed="#L" n="110"/>fectionis est in effectu, oportet inveniri in causa
+<lb ed="#L" n="111"/>effectiva: vel secundum eandem rationem, si sit
+<lb ed="#L" n="112"/>agens univocum, ut homo generat hominem; vel
+<lb ed="#L" n="113"/>eminentiori modo, si sit, agens aequivocum, sicut
+<lb ed="#L" n="114"/>in sole est similitudo eorum quae generantur
+<lb ed="#L" n="115"/>per virtutem solis. Manifestum est enim quod
+<lb ed="#L" n="116"/>effectus praeexistit virtute in causa agente: 
+prae<lb break="no" ed="#L" n="117"/>existere autem in virtute causae agentis, non est
+<lb ed="#L" n="118"/>praeexistere imperfectiori modo, sed perfectiori;
+<lb ed="#L" n="119"/>licet praeexistere in potentia causae materialis, sit
+<pb ed="#L" n="52"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>praeexistere imperfectiori modo: eo quod 
+mate<lb break="no" ed="#L" n="2"/>ria, inquantum huiusmodi, est imperfecta; agens
+<lb ed="#L" n="3"/>vero, inquantum huiusmodi, est perfectum. Cum
+<lb ed="#L" n="4"/>ergo Deus sit prima causa effectiva rerum, 
+opor<lb break="no" ed="#L" n="5"/>tet omnium rerum perfectiones praeexistere in
+<lb ed="#L" n="6"/>Deo secundum eminentiorem modum. Et hanc
+<lb ed="#L" n="7"/>rationem tangit Dionysius, cap. v de Div. Nom.,
+<lb ed="#L" n="8"/>dicens de Deo quod non hoc quidem ? est, hoc
+<lb ed="#L" n="9"/>aulem non est: sed omnia est, ut omnium causa.
+</p>
+               <p xml:id="TAca84-d1e66-d1e491">
+                  <lb ed="#L" n="10"/>Secundo vero, ex hoc quod supra 
+osten<lb break="no" ed="#L" n="11"/>sum est, quod Deus est ipsum esse per se 
+sub<lb break="no" ed="#L" n="12"/>sistens: ex quo oportet quod totam perfectionem
+<lb ed="#L" n="13"/>essendi in se contineat. Manifestum est enim
+<lb ed="#L" n="14"/>quod, si aliquod calidum non habeat totam 
+per<lb break="no" ed="#L" n="15"/>fectionem calidi, hoc ideo est, quia calor non
+<lb ed="#L" n="16"/>participatur secundum perfectam rationem: sed
+<lb ed="#L" n="17"/>si calor esset per se subsistens, non posset ei
+<lb ed="#L" n="18"/>aliquid deesse de virtute caloris. Unde, cum Deus
+<lb ed="#L" n="19"/>sit ipsum esse subsistens, nihil de perfectione
+<lb ed="#L" n="20"/>essendi potest ei deesse. Omnium autem 
+perfectio<lb break="no" ed="#L" n="21"/>nes pertinent ad perfectionem essendi: 
+secun<lb break="no" ed="#L" n="22"/>dum hoc enim aliqua perfecta sunt, quod aliquo
+<lb ed="#L" n="23"/>modo esse habent. Unde sequitur quod nullius
+<lb ed="#L" n="24"/>rei perfectio Deo desit. Et hanc etiam " rationem
+<lb ed="#L" n="25"/>tangit Dionysius, cap. v de Div. Nom., dicens
+<quote xml:id="TAca84-d1e66-Qd1e527">quod Deus non quodammodo est existens, sed
+<cb ed="#L" n="b"/>
+                     <lb ed="#L" n="26"/>simpliciter et incircumscripte totum in seipso 
+uni<lb break="no" ed="#L" n="27"/>formiter esse praeaccipit</quote>: et postea subdit quod
+<lb ed="#L" n="28"/>ipse est esse subsistentibus.
+</p>
+               <p xml:id="TAca84-d1e66-d1e540">
+                  <lb ed="#L" n="29"/>AD PRIMUM ERGO DICENDUM quod, sicut sol, ut
+<lb ed="#L" n="30"/>dicit Dionysius, cap. v de Div. Nom., <quote xml:id="TAca84-d1e66-Qd1e546">sensibilium
+<lb ed="#L" n="31"/>substantias et qualitates multas et differentes, ipse
+<lb ed="#L" n="32"/>unus existens et uniformiter lucendo, in seipso
+<lb ed="#L" n="33"/>uniformiter praeaccipit; ita multo magis in causa
+<lb ed="#L" n="34"/>omnium necesse est praeexistere omnia 
+secun<lb break="no" ed="#L" n="35"/>dum naturalem unionem</quote>. Et sic, quae sunt 
+di<lb break="no" ed="#L" n="36"/>versa et opposita in seipsis, in Deo praeexistunt
+<lb ed="#L" n="37"/>ut unum, absque detrimento simplicitatis ipsius.
+</p>
+               <p xml:id="TAca84-d1e66-d1e565">
+                  <lb ed="#L" n="38"/>Et per hoc patet? solutio ad secundum.
+</p>
+               <p xml:id="TAca84-d1e66-d1e570">
+                  <lb ed="#L" n="39"/>Ad TERTIUM DICENDUM quod, sicut in eodem
+<lb ed="#L" n="40"/>capite idem Dionysius dicit, licet ipsum esse
+<lb ed="#L" n="41"/>sit perfectius quam vita, et ipsa vita quam ipsa
+<lb ed="#L" n="42"/>sapientia, si considerentur secundum quod 
+dis<lb break="no" ed="#L" n="43"/>tinguuntur ratione: tamen vivens est perfectius
+<lb ed="#L" n="44"/>quam ens tantum, quia vivens etiam est ens; et
+<lb ed="#L" n="45"/>sapiens est ens et vivens. Licet igitur ens non
+<lb ed="#L" n="46"/>includat in se vivens et sapiens, quia non oportet
+<lb ed="#L" n="47"/>quod illud quod participat esse, participet ipsum
+<lb ed="#L" n="48"/>secundum omnem modum essendi: tamen ipsum
+<lb ed="#L" n="49"/>esse Dei includit in se vitam et sapientiam; quia
+<lb ed="#L" n="50"/>nulla de perfectionibus essendi potest deesse ei
+<lb ed="#L" n="51"/>quod est ipsum esse subsistens. :
+</p>
+            </div>
+            <div xml:id="TAca84-d1e66-Dd1e602"><!-- p1-q4-a3 -->
+               <head xml:id="TAca84-d1e66-Hd1e605">Articulus 3</head>
+               <head xml:id="TAca84-d1e66-Hd1e607" type="question-title">utrum aliqua,creatura possit esse similis deo</head>
+               <p xml:id="TAca84-d1e66-d1e610">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="67"/>ARTICULUS TERTIUS
+<lb ed="#L" n="68"/>UTRUM ALIQUA,CREATURA POSSIT ESSE SIMILIS DEO
+</p>
+               <p xml:id="TAca84-d1e66-d1e619">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="69"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="70"/>nulla creatura possit esse similis Deo.
+<lb ed="#L" n="71"/>Dicitur enim in Psalmo: non est 
+simi<lb break="no" ed="#L" n="72"/>lis tui in diis, Domine. Sed inter omnes 
+<lb ed="#L" n="73"/>creaturas, excellentiores sunt quae dicuntur di
+<lb ed="#L" n="74"/>participative. Multo ergo minus aliae creaturae
+<lb ed="#L" n="75"/>possunt dici Deo similes.
+</p>
+               <p xml:id="TAca84-d1e66-d1e639">
+                  <lb ed="#L" n="76"/>2. PRAETEREA, similitudo est comparatio 
+quae<lb break="no" ed="#L" n="77"/>dam. Non est autem comparatio eorum quae
+<lb ed="#L" n="78"/>sunt diversorum generum; ergo nec similitudo:
+<lb ed="#L" n="79"/>non enim dicimus quod dulcedo sit similis 
+albe<lb break="no" ed="#L" n="80"/>dini. Sed nulla creatura est eiusdem generis cum
+<lb ed="#L" n="81"/>Deo, cum Deus non sit in genere, ut supra
+<lb ed="#L" n="82"/>ostensum est. Ergo nulla creatura est similis Deo.
+</p>
+               <p xml:id="TAca84-d1e66-d1e658">
+                  <lb ed="#L" n="83"/>3. PRAETEREA, similia dicuntur quae conveniunt
+<lb ed="#L" n="84"/>in forma. Sed nihil convenit cum Deo in forma:
+<lb ed="#L" n="85"/>nullius.enim rei essentia est ipsum esse, nisi
+<lb ed="#L" n="86"/>solius Dei. Ergo nulla creatura potest esse 
+simi<lb break="no" ed="#L" n="87"/>lis Deo.
+</p>
+               <p xml:id="TAca84-d1e66-d1e671">
+                  <lb ed="#L" n="88"/>4. PRAETEREA, in similibus est mutua 
+simili<lb break="no" ed="#L" n="89"/>tudo: nam simile est simili simile. Si igitur aliqua
+<lb ed="#L" n="90"/>». creatura est? similis Deo, et Deus erit similis ali-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="91"/>cui creaturae. Quod est contra id quod dicitur
+<lb ed="#L" n="92"/>Isaiae x.: cui similem fecistis Deum?
+</p>
+               <p xml:id="TAca84-d1e66-d1e687">
+                  <lb ed="#L" n="93"/>SED coNTRA EsT quod dicitur Gen. 1: 
+Facia<lb break="no" ed="#L" n="94"/>mus hominem ad imaginem et similitudinem 
+no<lb break="no" ed="#L" n="95"/>stram; et I Ioann. iu: cum apparuerit, similes
+<lb ed="#L" n="96"/>ei erimus.
+</p>
+               <p xml:id="TAca84-d1e66-d1e698">
+                  <lb ed="#L" n="97"/>RESPONDEO DICENDUM quod, cum similitudo 
+at<lb break="no" ed="#L" n="98"/>tendatur secundum convenientiam vel 
+communi<lb break="no" ed="#L" n="99"/>cationem ? in forma, multiplex est similitudo, 
+se<lb break="no" ed="#L" n="100"/>cundum multos modos communicandi in forma.
+<lb ed="#L" n="101"/>Quaedam enim dicuntur similia, quae 
+communi<lb break="no" ed="#L" n="102"/>cant in eadem forma secundum eandem rationem,
+<lb ed="#L" n="103"/>et secundum eundem modum: et haec non solum
+<lb ed="#L" n="104"/>dicuntur similia, sed aequalia in sua similitudine;
+<lb ed="#L" n="105"/>sicut duo aequaliter alba, dicuntur similia in 
+albe<lb break="no" ed="#L" n="106"/>dine. Et haec est perfectissima similitudo. - Alio
+<lb ed="#L" n="107"/>modo dicuntur similia, quae communicant " in
+<lb ed="#L" n="108"/>forma secundum eandem rationem, et non 
+se<lb break="no" ed="#L" n="109"/>cundum eundem modum, sed secundum magis
+<lb ed="#L" n="110"/>et minus; ut minus album dicitur simile magis
+<lb ed="#L" n="111"/>albo. Et haec est similitudo imperfecta. - Tertio
+<lb ed="#L" n="112"/>modo dicuntur aliqua similia, quae communicant
+<pb ed="#L" n="54"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>in eadem forma, sed non secundum eandem 
+ra<lb break="no" ed="#L" n="2"/>tionem; ut patet in agentibus non univocis. Cum
+<lb ed="#L" n="3"/>enim omne agens agat sibi simile inquantum est
+<lb ed="#L" n="4"/>agens, agit autem unumquodque secundum suam
+<lb ed="#L" n="5"/>formam, necesse est quod in effectu sit 
+simili<lb break="no" ed="#L" n="6"/>tudo formae agentis. Si ergo agens sit contentum
+<lb ed="#L" n="7"/>in eadem specie cum suo effectu ', erit similitudo
+<lb ed="#L" n="8"/>inter faciens et factum in forma, secundum 
+ean<lb break="no" ed="#L" n="9"/>dem rationem speciei; sicut homo generat 
+ho<lb break="no" ed="#L" n="10"/>minem. Si autem agens non sit contentum in
+<lb ed="#L" n="11"/>eadem specie, erit similitudo, sed non secundum
+<lb ed="#L" n="12"/>eandem rationem speciei: sicut ea quae 
+generan<lb break="no" ed="#L" n="13"/>tur ex virtute solis, accedunt quidem ad aliquam
+<lb ed="#L" n="14"/>similitudinem solis, non tamen ut recipiant 
+for<lb break="no" ed="#L" n="15"/>mam solis secundum similitudinem speciei, sed
+<lb ed="#L" n="16"/>secundum similitudinem generis ?.
+</p>
+               <p xml:id="TAca84-d1e66-d1e774">
+                  <lb ed="#L" n="17"/>Si igitur sit aliquod agens, quod non in genere
+<lb ed="#L" n="18"/>contineatur, effectus eius adhuc magis accedent
+<lb ed="#L" n="19"/>remote ad similitudinem formae agentis: non
+<lb ed="#L" n="20"/>tamen ita quod participent similitudinem formae
+<lb ed="#L" n="21"/>agentis secundum eandem rationem speciei aut
+<lb ed="#L" n="22"/>generis, sed secundum aliqualem analogiam, sicut
+<lb ed="#L" n="23"/>ipsum esse est commune omnibus. Et hoc modo
+<lb ed="#L" n="24"/>illa quae sunt a Deo, assimilantur ei inquantum
+<lb ed="#L" n="25"/>sunt entia, ut primo et universali principio 
+to<lb break="no" ed="#L" n="26"/>tius esse.
+</p>
+               <p xml:id="TAca84-d1e66-d1e798">
+                  <lb ed="#L" n="27"/>AD PRIMUM ERGO DICENDUM mas sicut dicit 
+Dio<lb break="no" ed="#L" n="28"/>nysius cap. ix de Div. Nom., cum sacra 
+Scri<lb break="no" ed="#L" n="29"/>ptura dicit aliquid non esse simile Deo, <quote xml:id="TAca84-d1e66-Qd1e806">non est
+<cb ed="#L" n="b"/>
+                     <lb ed="#L" n="30"/>contrarium assimilationi ad ipsum. Eadem enim
+<lb ed="#L" n="31"/>sunt similia Deo, et dissimilia: similia quidem 
+se<lb break="no" ed="#L" n="32"/>cundum quod imitantur ipsum, prout contingit
+<lb ed="#L" n="33"/>eum imitari qui non perfecte imitabilis est; 
+dissi<lb break="no" ed="#L" n="34"/>milia vero, secundum quod deficiunt a sua causa</quote>;
+<lb ed="#L" n="35"/>non solum secundum intensionem et 
+remissio<lb break="no" ed="#L" n="36"/>nem, sicut minus album deficit a magis albo;
+<lb ed="#L" n="37"/>sed quia non est convenientia nec secundum
+<lb ed="#L" n="38"/>speciem nec secundum genus.
+</p>
+               <p xml:id="TAca84-d1e66-d1e833">
+                  <lb ed="#L" n="39"/>AD SECUNDUM DICENDUM quod Deus non se 
+ha<lb break="no" ed="#L" n="40"/>bet ad creaturas sicut res diversorum generum 7:
+<lb ed="#L" n="41"/>sed sicut id quod est extra omne genus, et 
+prin<lb break="no" ed="#L" n="42"/>cipium omnium generum.
+</p>
+               <p xml:id="TAca84-d1e66-d1e844">
+                  <lb ed="#L" n="43"/>AD TERTIUM DICENDUM. quod non raa esse
+<lb ed="#L" n="44"/>similitudo. creaturae ad Deum propter 
+communi<lb break="no" ed="#L" n="45"/>cantiam in forma secundum eandem rationem
+<lb ed="#L" n="46"/>generis et speciei: sed secundum analogiam 
+tan<lb break="no" ed="#L" n="47"/>tum; prout scilicet Deus est ens per essentiam,
+<lb ed="#L" n="48"/>et alia per participationem.
+</p>
+               <p xml:id="TAca84-d1e66-d1e860">
+                  <lb ed="#L" n="49"/>AD QUARTUM DICENDUM quod, licet aliquo modo
+<lb ed="#L" n="50"/>concedatur quod creatura sit similis Deo, nullo
+<lb ed="#L" n="51"/>tamen modo concedendum est quod Deus sit
+<lb ed="#L" n="52"/>similis creaturae: quia, ut dicit Dionysius cap. 1x
+<lb ed="#L" n="53"/>de Div. Nom., <quote xml:id="TAca84-d1e66-Qd1e873">in his quae unius ordinis sunt,
+<lb ed="#L" n="54"/>recipitur mutua similitudo, non autem in causa
+<lb ed="#L" n="55"/>et causato</quote>: dicimus enim quod imago sit similis
+<lb ed="#L" n="56"/>homini, et non e converso. Et similiter dici
+<lb ed="#L" n="57"/>potest aliquo modo quod creatura sit similis Deo:
+<lb ed="#L" n="58"/>non tamen quod Deus sit similis creaturae.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

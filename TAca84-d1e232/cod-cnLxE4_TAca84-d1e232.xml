@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 36</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 36</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="375"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e232"><!-- p1-q36 -->
+            <head xml:id="TAca84-d1e232-Hd1e99">Quaestio 36</head>
+            <head xml:id="TAca84-d1e232-Hd1e101" type="question-title">de persona spiritus sancti</head>
+            <p xml:id="TAca84-d1e232-d1e104">
+               <pb ed="#L" n="375"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO TRIGESIMASEXTA
+<lb ed="#L" n="2"/>DE PERSONA SPIRITUS SANCTI
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e232-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>Post haec considerandum est de his quae
+<lb ed="#L" n="5"/>pertinent ad personam Spiritus Sancti. Qui
+<lb ed="#L" n="6"/>quidem non solum dicitur Spiritus Sanctus, sed
+<lb ed="#L" n="7"/>etiam. Amor et Donum Dei.
+<lb ed="#L" n="8"/>Circa nomen ergo Spiritus Sancti ? quaeruntur
+<lb ed="#L" n="9"/>quatuor.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="10"/>Primo: utrum hoc nomen Spiritus Sanctus sit
+<lb ed="#L" n="11"/>proprium alicuius ? divinae personae.
+<lb ed="#L" n="12"/>Secundo: utrum illa persona divina quae 
+Spi<lb break="no" ed="#L" n="13"/>ritas Sanctus dicitur, procedat a Patre et Filio.
+<lb ed="#L" n="14"/>Tertio: utrum procedat a Patre per Filium.
+<lb ed="#L" n="15"/>- Quarto: utrum Pater et Filius sint unum 
+prin<lb break="no" ed="#L" n="16"/>cipium Spiritus Sancti.
+</p>
+            <div xml:id="TAca84-d1e232-Dd1e152"><!-- p1-q36-a1 -->
+               <head xml:id="TAca84-d1e232-Hd1e155">Articulus 1</head>
+               <head xml:id="TAca84-d1e232-Hd1e157" type="question-title">
+  utrum hoc nomen spiritus sanctus sit proprium nomen
+  alicuius divinae personae
+</head>
+               <p xml:id="TAca84-d1e232-d1e160">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="17"/>ARTICULUS PRIMUS
+<lb ed="#L" n="18"/>UTRUM HOC NOMEN SPIRITUS SANCTUS SIT PROPRIUM NOMEN
+<lb ed="#L" n="19"/>ALICUIUS DIVINAE PERSONAE
+</p>
+               <p xml:id="TAca84-d1e232-d1e171">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="20"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="21"/>hoc nomen Spiritus Sanctus non sit 
+pro<lb break="no" ed="#L" n="22"/>primum nomen alicuius divinae personae.
+<lb ed="#L" n="23"/>Nullum enim nomen commune tribus
+<lb ed="#L" n="24"/>personis, est proprium alicuius personae. Sed hoc
+<lb ed="#L" n="25"/>nomen Spiritus Sanctus est commune tribus "-—
+<lb ed="#L" n="26"/>sonis. Ostendit enim Hilarius, VIII de 7rin.
+<lb ed="#L" n="27"/>in Spiritu Dei aliquando significari Patrem, ut
+<lb ed="#L" n="28"/>cum dicitur, Spiritus Domini super me; aliquando
+<lb ed="#L" n="29"/>significari Filium, ut cum dicit Filius, in Spiritu
+<lb ed="#L" n="30"/>Dei eiicio daemonia, « naturae suae potestate 
+eii<lb break="no" ed="#L" n="31"/>cere se daemonia demonstrans »; aliquando 
+Spi<lb break="no" ed="#L" n="32"/>ritum Sanctum ", ut ibi, Effundam de Spiritu
+<lb ed="#L" n="33"/>meo super omnem carnem. Ergo hoc nomen 
+Spi<lb break="no" ed="#L" n="34"/>ritus Sanctus non est proprium alicuius divinae
+<lb ed="#L" n="35"/>personae. E
+</p>
+               <p xml:id="TAca84-d1e232-d1e210">
+                  <lb ed="#L" n="36"/>2. PRAETEREA, nomina divinarum personarum
+<lb ed="#L" n="37"/>ad Miiquid dicuntur, ut Boetius dicit, in libro de
+<lb ed="#L" n="38"/>Trin. Sed hoc nomen Spiritus Sanctus non 
+di<lb break="no" ed="#L" n="39"/>citur ad aliquid. Ergo hoc nomen non est 
+pro<lb break="no" ed="#L" n="40"/>prium divinae personae ^.
+</p>
+               <p xml:id="TAca84-d1e232-d1e224">
+                  <lb ed="#L" n="41"/>3. PRAETEREA, quia Filius est nomen alicaius
+<lb ed="#L" n="42"/>divinae personae, non potest dici Filius huius
+<lb ed="#L" n="43"/>vel illius. Dicitur autem spiritus huius vel illius
+<lb ed="#L" n="44"/>hominis. Ut enim habetur Num. xi: Dixit 
+Do<lb break="no" ed="#L" n="45"/>minus ad Moysen: Auferam de spiritu tuo, 
+tra<lb break="no" ed="#L" n="46"/>damque eis; et IV Reg. u: Requievit spiritus
+<lb ed="#L" n="47"/>Eliae super Elisaeum. Ergo Spiritus Sanctus non
+<lb ed="#L" n="48"/>videtur esse proprium nomen alicuius divinae
+<lb ed="#L" n="49"/>personae.
+</p>
+               <p xml:id="TAca84-d1e232-d1e246">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="50"/>SED CONTRA EST quod dicitur I Ioan. ult.: Tres
+<lb ed="#L" n="51"/>sunt qui testimonium dant in caelo, Pater, 
+Ver<lb break="no" ed="#L" n="52"/>bum et Spiritus Sanctus. Ut autem Augustinus
+<lb ed="#L" n="53"/>dicit, VII de 7rin., cum quaeritur, Quid tres? .
+<lb ed="#L" n="54"/>dicimus, Zres personae. Ergo Spiritus Sanctus est
+<lb ed="#L" n="55"/>nomen divinae personae.
+</p>
+               <p xml:id="TAca84-d1e232-d1e264">
+                  <lb ed="#L" n="56"/>RESPONDEO DICENDUM quod, cum sint duae 
+pro<lb break="no" ed="#L" n="57"/>cessiones in divinis, altera earum, quae est per
+<lb ed="#L" n="58"/>modum amoris, non habet proprium nomen, ut
+<lb ed="#L" n="59"/>supra dictum est. Unde et relationes quae 
+se<lb break="no" ed="#L" n="60"/>cundum huiusmodi processionem ? accipiuntur,
+<lb ed="#L" n="61"/>innominatae sunt, ut etiam supra dictum est.
+<lb ed="#L" n="62"/>Propter quod et nomen personae hoc modo 
+pro<lb break="no" ed="#L" n="63"/>cedentis, eadem ratione, non habet proprium
+<lb ed="#L" n="64"/>nomen. Sed sicut sunt accommodata aliqua 
+no<lb break="no" ed="#L" n="65"/>mina, ex usu loquentium, ad significandum 
+prae<lb break="no" ed="#L" n="66"/>dictas relationes, cum nominamus eas nomine
+<lb ed="#L" n="67"/>processionis et spirationis, quae, secundum 
+pro<lb break="no" ed="#L" n="68"/>prietatem significationis, magis videntur significare
+<lb ed="#L" n="69"/>actus notionales quam relationes; ita ad 
+signifi<lb break="no" ed="#L" n="70"/>candum divinam personam quae procedit per
+<lb ed="#L" n="71"/>modum amoris, accommodatum est, ex usu 
+Scri<lb break="no" ed="#L" n="72"/>pturae, hoc nomen Spiritus Sanctus.
+</p>
+               <p xml:id="TAca84-d1e232-d1e303">
+                  <lb ed="#L" n="73"/>Et huius quidem convenientiae ratio sumi
+<lb ed="#L" n="74"/>potest ex duobus. Primo quidem, ex ipsa 
+com<lb break="no" ed="#L" n="75"/>munitate eius quod dicitur Spiritus Sanctus. Ut
+<lb ed="#L" n="76"/>enim Augustinus dicit, XV de 7rin.: <quote xml:id="TAca84-d1e232-Qd1e313">quia 
+Spi<lb break="no" ed="#L" n="77"/>ritus Sanctus communis est ambobus, id vocatur
+<lb ed="#L" n="78"/>ipse proprie quod ambo communiter: nam et Pater
+<lb ed="#L" n="79"/>est. Spiritus, et Filius est Spiritus; et Pater est
+<pb ed="#L" n="376"/>
+                     <cb ed="#L" n="a"/>
+                     <lb ed="#L" n="1"/>sanctus, et Filius est sanctus</quote>. - Secundo vero, ex
+<lb ed="#L" n="2"/>propria significatione. Nam nomen spiritus, in 
+re<lb break="no" ed="#L" n="3"/>bus corporeis, impulsionem quandam? et 
+motio<lb break="no" ed="#L" n="4"/>nem sgnificare videtur: nam flatum et ventum
+<lb ed="#L" n="5"/>spiritum nominamus. Est autem proprium amoris,
+<lb ed="#L" n="6"/>quod moveat et impellat voluntatem amantis in
+<lb ed="#L" n="7"/>amatum. Sanctilas vero ilis rebus attribuitur,
+<lb ed="#L" n="8"/>quae in Deum ordinantur. Quia igitur persona
+<lb ed="#L" n="9"/>divina procedit per modum amoris quo Deus
+<lb ed="#L" n="10"/>amatur, convenienter Spiritus Sanctus nominatur.
+</p>
+               <p xml:id="TAca84-d1e232-d1e350">
+                  <lb ed="#L" n="11"/>AD PRIMUM ERGO DICENDUM quod hoc quod dico
+<lb ed="#L" n="12"/>spiritus sanctus, prout sumitur in virtute duarum
+<lb ed="#L" n="13"/>dictionum, commune est toti Trinitati. Quia 
+no<lb break="no" ed="#L" n="14"/>mine spiritus significatur immaterialitas divinae
+<lb ed="#L" n="15"/>substantiae: spiritus enim corporeus invisibilis est,
+<lb ed="#L" n="16"/>et parum habet de materia; unde omnibus 
+sub<lb break="no" ed="#L" n="17"/>stantis immaterialibus et invisibilibus hoc nomen
+<lb ed="#L" n="18"/>attribuimus. Per hoc vero quod dicitur sanctus,
+<lb ed="#L" n="19"/>significatur puritas divinae bonitatis. - Si autem
+<lb ed="#L" n="20"/>accipiatur hoc quod dico Spiritus Sanctus, in vi
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="21"/>unius dictionis, sic ex usu Ecclesiae est 
+accom<lb break="no" ed="#L" n="22"/>modatum ad significandam unam trium 
+perso<lb break="no" ed="#L" n="23"/>narum, scilicet quae procedit per modum 
+amo<lb break="no" ed="#L" n="24"/>ris, ratione iam dicta.
+</p>
+               <p xml:id="TAca84-d1e232-d1e385">
+                  <lb ed="#L" n="25"/>AD SECUNDUM DICENDUM quod, licet hoc quod
+<lb ed="#L" n="26"/>dico Spiritus Sanctus, relative non dicatur, tamen
+<lb ed="#L" n="27"/>pro relativo ponitur, inquantum est 
+accomoda<lb break="no" ed="#L" n="28"/>tum ad significandam personam sola relatione
+<lb ed="#L" n="29"/>ab aliis distinctam. - Potest tamen intelligi etiam
+<lb ed="#L" n="30"/>in nomine aliqua relatio, si Spiritus intelligatur
+<lb ed="#L" n="31"/>quasi spiratus.
+</p>
+               <p xml:id="TAca84-d1e232-d1e404">
+                  <lb ed="#L" n="32"/>AD TERTIUM DICENDUM quod in nomine Filii 
+in<lb break="no" ed="#L" n="33"/>telligitur sola relatio eius qui est a principio, ad
+<lb ed="#L" n="34"/>principium: sed in nomine Patris intelligitur 
+rela<lb break="no" ed="#L" n="35"/>tio principii; et similiter in nomine Spiritus, prout
+<lb ed="#L" n="36"/>importat quandam vim motivam. Nulli autem
+<lb ed="#L" n="37"/>creaturae competit esse principium respectu " 
+ali<lb break="no" ed="#L" n="38"/>cuius divinae personae, sed e converso. Et ideo
+<lb ed="#L" n="39"/>potest dici Pater noster, et Spiritus noster: non
+<lb ed="#L" n="40"/>tamen potest dici Filius noster.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e232-Dd1e428"><!-- p1-q36-a2 -->
+               <head xml:id="TAca84-d1e232-Hd1e431">Articulus 2</head>
+               <head xml:id="TAca84-d1e232-Hd1e433" type="question-title">
+  utrum spiritus sanctus procedat a filio
+</head>
+               <p xml:id="TAca84-d1e232-d1e436">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="64"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="65"/>UTRUM SPIRITUS SANCTUS PROCEDAT A FILIO
+</p>
+               <p xml:id="TAca84-d1e232-d1e445">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="66"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="67"/>Spiritus Sanctus non procedat a Filio.
+<lb ed="#L" n="68"/>Quia secundum Dionysium, <quote xml:id="TAca84-d1e232-Qd1e455">non est
+<lb ed="#L" n="69"/>audendum dicere aliquid de substantiali
+<lb ed="#L" n="70"/>divinitate, praeter ea quae divinitus nobis ex 
+sa<lb break="no" ed="#L" n="71"/>cris eloquiis sunt expressa</quote>. Sed in Scriptura sacra
+<lb ed="#L" n="72"/>non exprimitur quod Spiritus Sanctus a Filio 
+pro<lb break="no" ed="#L" n="73"/>cedat, sed solum quod procedat a Patre; ut patet
+<lb ed="#L" n="74"/>Ioann. xv: Spiritum veritatis, qui a Patre 
+pro<lb break="no" ed="#L" n="75"/>cedit. Ergo Spiritus Sanctus non procedit a Filio.
+</p>
+               <p xml:id="TAca84-d1e232-d1e474">
+                  <lb ed="#L" n="76"/>2. PRAETEREA, in symbolo Constantinopolitanae
+<lb ed="#L" n="77"/>Synodi sic legitur: Credimus in Spiritum 
+San<lb break="no" ed="#L" n="78"/>clum, Dominum et vivificantem, ex Patre 
+proce<lb break="no" ed="#L" n="79"/>dentem, cum Patre et Filio adorandum et 
+glori<lb break="no" ed="#L" n="80"/>ficandum. Nullo igitur modo debuit addi in sym-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="81"/>bolo nostro quod Spiritus Sanctus procedat a
+<lb ed="#L" n="82"/>Filio: sed videntur esse anathematis rei, qui hoc
+<lb ed="#L" n="83"/>addiderunt. |
+</p>
+               <p xml:id="TAca84-d1e232-d1e497">
+                  <lb ed="#L" n="84"/>3. PRakTEREA, Damascenus dicit: Spiritum
+<lb ed="#L" n="85"/>Sanctum ex Patre dicimus, et Spiritum | Patris
+<lb ed="#L" n="86"/>nominamus: ex Filio autem Spiritum Sanctum
+<lb ed="#L" n="87"/>non dicimus, Spiritum vero Filii nominamus. Ergo
+<lb ed="#L" n="88"/>Spiritus Sanctus non procedit a Filio.
+</p>
+               <p xml:id="TAca84-d1e232-d1e510">
+                  <lb ed="#L" n="89"/>4. PRAETEREA, nihil procedit ab eo in quo 
+quie<lb break="no" ed="#L" n="90"/>scit. Sed Spiritus Sanctus quiescit in Filio. Dicitur
+<lb ed="#L" n="91"/>enim in legenda beati Andreae: <quote xml:id="TAca84-d1e232-Qd1e518">Pax vobis, et
+<lb ed="#L" n="92"/>universis qui credunt in unum Deum Patrem,
+<lb ed="#L" n="93"/>et in unum ?. Filium eius, unicum Dominum 
+no<lb break="no" ed="#L" n="94"/>strum. Iesum. Christum, et in unum Spiritum 
+San<lb break="no" ed="#L" n="95"/>ctum , procedentem ex Patre, et? in Filio 
+per<pb ed="#L" n="377"/>
+                     <cb ed="#L" n="a"/>
+                     <lb break="no" ed="#L" n="1"/>manentem</quote>. Ergo Spiritus Sanctus non procedit
+<lb ed="#L" n="2"/>a Filio.
+</p>
+               <p xml:id="TAca84-d1e232-d1e539">
+                  <lb ed="#L" n="3"/>5. PRAETEREA, Filius procedit ut verbum. Sed
+<lb ed="#L" n="4"/>spiritus noster in nobis non videtur procedere a
+<lb ed="#L" n="5"/>verbo nostro. Ergo nec Spiritus Sanctus 
+pro<lb break="no" ed="#L" n="6"/>cedit a Filio.
+</p>
+               <p xml:id="TAca84-d1e232-d1e550">
+                  <lb ed="#L" n="7"/>6. PRAETEREA, Spiritus Sanctus perfecte 
+pro<lb break="no" ed="#L" n="8"/>cedit a Patre. Ergo superfluum est dicere quod
+<lb ed="#L" n="9"/>procedit a Filio.
+</p>
+               <p xml:id="TAca84-d1e232-d1e559">
+                  <lb ed="#L" n="10"/>7. PRAETEREA, in perpetuis non differt" esse et
+<lb ed="#L" n="11"/>posse, ut dicitur in III Physic.: et multo minus
+<lb ed="#L" n="12"/>in divinis. Sed Spiritus Sanctus potest distingui
+<lb ed="#L" n="13"/>a Filio, etiam.si ab eo non procedat. Dicit enim
+<lb ed="#L" n="14"/>Anselmus, in libro de Processione Spiritus Sancti:
+<lb ed="#L" n="15"/>Habent utique a Patre esse Filius et Spiritus 
+San<lb break="no" ed="#L" n="16"/>ctus, sed diverso modo: quia alter nascendo, et
+<lb ed="#L" n="17"/>alter procedendo, ut alii sint per hoc ab invicem.
+<lb ed="#L" n="18"/>Et postea subdit: Nam si per aliud non essent
+<lb ed="#L" n="19"/>plures? Filius et Spiritus Sanctus, per hoc solum
+<lb ed="#L" n="20"/>essent diversi. Ergo Spiritus Sanctus distinguitur
+<lb ed="#L" n="21"/>a Filio, ab eo non existens.
+</p>
+               <p xml:id="TAca84-d1e232-d1e588">
+                  <lb ed="#L" n="22"/>SED coNTRA EsT quod dicit Athanasius: 
+Spi<lb break="no" ed="#L" n="23"/>ritus Sanctus a Patre et Filio, non factus, nec
+<lb ed="#L" n="24"/>creatus, nec genitus, sed procedens.
+</p>
+               <p xml:id="TAca84-d1e232-d1e598">
+                  <lb ed="#L" n="25"/>RESPONDEO DICENDUM quod necesse est dicere
+<lb ed="#L" n="26"/>Spiritum Sanctum a Filio esse. Si enim non esset
+<lb ed="#L" n="27"/>ab eo, nullo modo posset ab eo personaliter 
+dis<lb break="no" ed="#L" n="28"/>tingui. Quod ex supra dictis patet '. Non enim
+<lb ed="#L" n="29"/>est possibile dicere quod secundum aliquid 
+abso<lb break="no" ed="#L" n="30"/>lutum divinae personae ab invicem distinguantur:
+<lb ed="#L" n="31"/>quia sequeretur quod non esset trium una 
+es<lb break="no" ed="#L" n="32"/>sentia; quidquid enim in divinis absolute dicitur,
+<lb ed="#L" n="33"/>ad unitatem essentiae pertinet. Relinquitur ergo
+<lb ed="#L" n="34"/>quod solum relationibus divinae personae ab 
+in<lb break="no" ed="#L" n="35"/>vicem distinguantur. - Relationes autem personas
+<lb ed="#L" n="36"/>distinguere non possunt, nisi secundum quod sunt
+<lb ed="#L" n="37"/>oppositae." Quod ex hoc patet, quia Pater habet
+<lb ed="#L" n="38"/>duas relationes, quarum una refertur ad Filium,
+<lb ed="#L" n="39"/>et alia ad Spiritum Sanctum; quae tamen, quia
+<lb ed="#L" n="40"/>non sunt oppositae, non constituunt duas 
+per<lb break="no" ed="#L" n="41"/>sonas, sed ad unam personam Patris tantum 
+per<lb break="no" ed="#L" n="42"/>tinent. Si ergo in Filio et in Spiritu Sancto non
+<lb ed="#L" n="43"/>esset invenire nisi duas relationes quibus uterque
+<lb ed="#L" n="44"/>refertur ad Patrem, illae relationes non essent ad
+<lb ed="#L" n="45"/>invicem oppositae; sicut neque duae relationes
+<lb ed="#L" n="46"/>quibus Pater refertur ad illos. Unde, sicut persona
+<lb ed="#L" n="47"/>Patris est una, ita sequeretur quod persona Filii
+<lb ed="#L" n="48"/>et Spiritus Sancti esset una, habens duas 
+rela<lb break="no" ed="#L" n="49"/>tiones oppositas duabus relationibus Patris. Hoc
+<lb ed="#L" n="50"/>autem est haereticum, cum tollat fidem Trinitatis.
+<lb ed="#L" n="51"/>Oportet ergo quod Filius et Spiritus Sanctus ad
+<lb ed="#L" n="52"/>invicem referantur oppositis relationibus. - Non
+<lb ed="#L" n="53"/>autem possunt esse in divinis aliae relationes 
+op<lb break="no" ed="#L" n="54"/>positae nisi relationes originis, ut supra 
+pro<lb break="no" ed="#L" n="55"/>batum est. Oppositae autem relationes originis
+<lb ed="#L" n="56"/>accipiuntur secundum " principium, et secundum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="57"/>quod est a principio. Relinquitur ergo quod 
+ne<lb break="no" ed="#L" n="58"/>cesse est dicere vel Filium esse a Spiritu Sancto,
+<lb ed="#L" n="59"/>quod nullus dicit: vel Spiritum Sanctum esse a
+<lb ed="#L" n="60"/>Filio, quod nos confitemur.
+</p>
+               <p xml:id="TAca84-d1e232-d1e681">
+                  <lb ed="#L" n="61"/>Et huic quidem consonat ratio processionis
+<lb ed="#L" n="62"/>utriusque. Dictum enim est supra quod Filius
+<lb ed="#L" n="63"/>procedit per modum intellectus, ut verbum ; 
+Spi<lb break="no" ed="#L" n="64"/>ritus Sanctus autem per modum voluntatis, ut
+<lb ed="#L" n="65"/>amor. Necesse est autem quod amor a verbo
+<lb ed="#L" n="66"/>procedat: non enim aliquid amamus, nisi 
+secun<lb break="no" ed="#L" n="67"/>dum quod conceptione mentis apprehendimus.
+<lb ed="#L" n="68"/>Unde et secundum hoc manifestum est quod
+<lb ed="#L" n="69"/>Spiritus Sanctus procedit a Filio.
+</p>
+               <p xml:id="TAca84-d1e232-d1e703">
+                  <lb ed="#L" n="70"/>Ipse etiam ordo rerum hoc docet. Nusquam
+<lb ed="#L" n="71"/>enim hoc invenimus ^, quod ab uno procedant
+<lb ed="#L" n="72"/>plura absque ordine, nisi in illis solum quae 
+mate<lb break="no" ed="#L" n="73"/>rialiter differunt; sicut unus faber producit multos
+<lb ed="#L" n="74"/>cultellos materialiter ab invicem distinctos, nullum
+<lb ed="#L" n="75"/>ordinem habentes ad invicem. Sed in rebus in
+<lb ed="#L" n="76"/>quibus non est sola materialis distinctio, semper
+<lb ed="#L" n="77"/>invenitur in multitudine productorum aliquis ordo.
+<lb ed="#L" n="78"/>Unde etiam in ordine creaturarum productarum,
+<lb ed="#L" n="79"/>decor divinae sapientiae manifestatur. Si ergo ab
+<lb ed="#L" n="80"/>una persona Patris procedunt duae personae, 
+sci<lb break="no" ed="#L" n="81"/>licet Filius et Spiritus Sanctus, oportet esse 
+ali<lb break="no" ed="#L" n="82"/>quem ordinem eorum ad invicem. Nec potest 
+ali<lb break="no" ed="#L" n="83"/>quis ordo alius assignari, nisi ordo naturae, quo
+<lb ed="#L" n="84"/>alius est ex alio. Non est igitur possibile dicere
+<lb ed="#L" n="85"/>quod Filius et Spiritus Sanctus sic procedant a
+<lb ed="#L" n="86"/>Patre, quod neuter eorum procedat ab alio, nisi
+<lb ed="#L" n="87"/>quis poneret in eis materialem distinctionem :
+<lb ed="#L" n="88"/>quod est impossibile.
+</p>
+               <p xml:id="TAca84-d1e232-d1e747">
+                  <lb ed="#L" n="89"/>Unde etiam ipsi Graeci processionem Spiritus
+<lb ed="#L" n="90"/>Sancti aliquem ordinem habere ad Filium 
+intel<lb break="no" ed="#L" n="91"/>ligunt. Concedunt enim Spiritum Sanctum esse
+<lb ed="#L" n="92"/>Spiritum Fili, et esse a Patre per Filium. Et
+<lb ed="#L" n="93"/>quidam eorum dicuntur concedere quod sit a
+<lb ed="#L" n="94"/>Filio, vel profluat ab eo: non tamen quod 
+pro<lb break="no" ed="#L" n="95"/>cedat. Quod videtur vel ex ignorantia, vel ex
+<lb ed="#L" n="96"/>protervia esse. Quia si quis recte consideret, 
+in<lb break="no" ed="#L" n="97"/>veniet processionis verbum inter omnia quae ad
+<lb ed="#L" n="98"/>originem qualemcumque pertinent, 
+communissi<lb break="no" ed="#L" n="99"/>mum esse. Utimur enim eo ad designandum
+<lb ed="#L" n="100"/>qualemcumque originem; sicut quod 7 linea 
+pro<lb break="no" ed="#L" n="101"/>cedit a puncto, radius a sole, rivus a fonte; et
+<lb ed="#L" n="102"/>similiter in quibuscumque aliis. Unde ex 
+quo<lb break="no" ed="#L" n="103"/>cumque alio ad originem pertinente, potest 
+con<lb break="no" ed="#L" n="104"/>cludi quod Spiritus Sanctus procedit a Filio.
+</p>
+               <p xml:id="TAca84-d1e232-d1e784">
+                  <lb ed="#L" n="105"/>AD PRIMUM ERGO DICENDUM quod de Deo dicere
+<lb ed="#L" n="106"/>non debemus quod in sacra Scriptura non 
+inve<lb break="no" ed="#L" n="107"/>nitur vel per verba, vel per sensum. Licet autem
+<lb ed="#L" n="108"/>per verba non inveniatur in sacra Scriptura
+<lb ed="#L" n="109"/>quod Spiritus Sanctus procedit a Filio, invenitur
+<lb ed="#L" n="110"/>tamen quantum ad sensum; et praecipue ubi
+<lb ed="#L" n="111"/>dicit Filius, Ioan. xvi, de Spiritu Sancto loquens:
+<lb ed="#L" n="112"/>ille me clarificabit, quia de meo accipiet. - Re-
+<pb ed="#L" n="378"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>gulariter etiam in sacra Scriptura tenendum est,
+<lb ed="#L" n="2"/>quod id quod de Patre dicitur, oportet de Filio
+<lb ed="#L" n="3"/>intelligi, etiam si dictio exclusiva addatur, nisi
+<lb ed="#L" n="4"/>solum in illis in quibus Pater et Filius secundum
+<lb ed="#L" n="5"/>oppositas relationes distinguuntur. Cum enim 
+Do<lb break="no" ed="#L" n="6"/>minus, Matth. xi, dicit, Nemo novit Filium nisi
+<lb ed="#L" n="7"/>Pater, non excluditur quin Filius seipsum 
+co<lb break="no" ed="#L" n="8"/>gnoscat. Sic igitur cum dicitur quod Spiritus 
+San<lb break="no" ed="#L" n="9"/>ctus a Patre procedit, etiam si adderetur quod
+<lb ed="#L" n="10"/>a solo Patre procedit, non excluderetur inde
+<lb ed="#L" n="11"/>Filius: quia quantum ad hoc quod est esse 
+prin<lb break="no" ed="#L" n="12"/>cipium Spiritus Sancti, non opponuntur Pater et
+<lb ed="#L" n="13"/>Filius; sed solum quantum ad hoc, quod hic est
+<lb ed="#L" n="14"/>Pater et ille Filius.
+</p>
+               <p xml:id="TAca84-d1e232-d1e839">
+                  <lb ed="#L" n="15"/>AD SECUNDUM DICENDUM quod in quolibet 
+con<lb break="no" ed="#L" n="16"/>cilio institutum fuit symbolum aliquod, propter
+<lb ed="#L" n="17"/>errorem aliquem qui in concilio damnabatur.
+<lb ed="#L" n="18"/>Unde sequens concilium non faciebat aliud 
+sym<lb break="no" ed="#L" n="19"/>bolum quam primum: sed id quod implicite 
+con<lb break="no" ed="#L" n="20"/>tinebatur in primo symbolo, per aliqua addita
+<lb ed="#L" n="21"/>explanabatur contra haereses insurgentes. Unde
+<lb ed="#L" n="22"/>in determinatione Chalcedonensis Synodi 
+dici<lb break="no" ed="#L" n="23"/>tur, quod illi qui fuerunt congregati in Concilio
+<lb ed="#L" n="24"/>Constantinopolitano, doctrinam de Spiritu Sancto
+<lb ed="#L" n="25"/>tradiderunt, non quod minus esset in 
+praeceden<lb break="no" ed="#L" n="26"/>libus (qui apud Nicaeam congregati sunt), 
+zrjfe<lb break="no" ed="#L" n="27"/>rentes; sed intellectum. eorum adversus haereticos
+<lb ed="#L" n="28"/>declarantes. Quia igitur in tempore antiquorum
+<lb ed="#L" n="29"/>conciliorum nondum exortus fuerat error 
+dicen<lb break="no" ed="#L" n="30"/>tium Spiritum Sanctum non procedere a Filio;
+<lb ed="#L" n="31"/>non fuit necessarium quod hoc explicite 
+ponere<lb break="no" ed="#L" n="32"/>tur. Sed postea, insurgente errore quorundam, in
+<lb ed="#L" n="33"/>quodam concilio in  Occidentalibus partibus 
+con<lb break="no" ed="#L" n="34"/>gregato, expressum fuit auctoritate Romani 
+Pon<lb break="no" ed="#L" n="35"/>tificis; cuius auctoritate etiam antiqua concilia
+<lb ed="#L" n="36"/>congregabantur et confirmabantur ". - 
+Contineba<lb break="no" ed="#L" n="37"/>tur tamen implicite in hoc ipso quod dicebatur
+<lb ed="#L" n="38"/>Spiritus Sanctus a Patre procedere.
+</p>
+               <p xml:id="TAca84-d1e232-d1e895">
+                  <lb ed="#L" n="39"/>AD TERTIUM DICENDUM quod Spiritum Sanctum
+<lb ed="#L" n="40"/>non procedere a Filio, primo fuit a Nestorianis
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="41"/>introductum; ut patet in quodam symbolo 
+Ne<lb break="no" ed="#L" n="42"/>storianorum damnato in Ephesina Synodo. Et
+<lb ed="#L" n="43"/>hunc errorem secutus fuit Theodoretus 
+Nestoria<lb break="no" ed="#L" n="44"/>nus, et plures post ipsum ; inter quos fuit etiam
+<lb ed="#L" n="45"/>Damascenus. Unde in hoc eius sententiae non est
+<lb ed="#L" n="46"/>standum. - Quamvis a quibusdam dicatur quod
+<lb ed="#L" n="47"/>Damascenus, sicut non confitetur Spiritum 
+San<lb break="no" ed="#L" n="48"/>ctum esse a Filio, ita etiam non negat, ex vi
+<lb ed="#L" n="49"/>illorum verborum.
+</p>
+               <p xml:id="TAca84-d1e232-d1e924">
+                  <lb ed="#L" n="50"/>AD QUARTUM DICENDUM quod per hoc quod 
+Spi<lb break="no" ed="#L" n="51"/>ritus Sanctus dicitur quiescere vel manere in Filio,
+<lb ed="#L" n="52"/>non excluditur quin ab eo procedat: quia et 
+Fi<lb break="no" ed="#L" n="53"/>lius in Patre manere dicitur, cum tamen a Patre X
+<lb ed="#L" n="54"/>procedat. — Dicitur etiam Spiritus Sanctus in Filio
+<lb ed="#L" n="55"/>quiescere, vel sicut amor amantis quiescit in
+<lb ed="#L" n="56"/>amato; vel quantum ad humanam naturam 
+Chri<lb break="no" ed="#L" n="57"/>sti, propter id quod scriptum est, Ioan. 1: Super
+<lb ed="#L" n="58"/>quem videris Spiritum descendentem, et manentem
+<lb ed="#L" n="59"/>super eum, hic est qui baptizat.
+</p>
+               <p xml:id="TAca84-d1e232-d1e948">
+                  <lb ed="#L" n="60"/>AD QUINTUM DICENDUM quod Verbum in 
+divi<lb break="no" ed="#L" n="61"/>nis non accipitur secundum similitudinem verbi
+<lb ed="#L" n="62"/>vocalis, a quo non procedit spiritus, quia sic
+<lb ed="#L" n="63"/>tantum metaphorice diceretur:.sed secundum
+<lb ed="#L" n="64"/>similitudinem verbi mentalis, a quo amor 
+pro<lb break="no" ed="#L" n="65"/>cedit.
+</p>
+               <p xml:id="TAca84-d1e232-d1e964">
+                  <lb ed="#L" n="66"/>Ap SEXTUM DICENDUM quod per hoc quod 
+Spi<lb break="no" ed="#L" n="67"/>ritus Sanctus perfecte ^5 procedit a Patre, non
+<lb ed="#L" n="68"/>solum non superfluum est dicere quod Spiritus
+<lb ed="#L" n="69"/>Sanctus procedat a Filio; sed omnino 
+necessa<lb break="no" ed="#L" n="70"/>rium. Quia una virtus est Patris et Filii; et 
+quid<lb break="no" ed="#L" n="71"/>quid est a Patre, necesse est esse a Filio, nisi
+<lb ed="#L" n="72"/>proprietati filiationis repugnet. Non enim Filius
+<lb ed="#L" n="73"/>est a seipso, licet sit a Patre.
+</p>
+               <p xml:id="TAca84-d1e232-d1e984">
+                  <lb ed="#L" n="74"/>AD SEPTIMUM DICENDUM quod Spiritus Sanctus
+<lb ed="#L" n="75"/>distinguitur personaliter a Filio in hoc, quod origo
+<lb ed="#L" n="76"/>unius distinguitur ab origine alterius. Sed ipsa
+<lb ed="#L" n="77"/>differentia originis est per hoc, quod Filius est
+<lb ed="#L" n="78"/>solum a Patre, Spiritus Sanctus vero a Patre et
+<lb ed="#L" n="79"/>Filio. Non enim aliter processiones 
+distingueren<lb break="no" ed="#L" n="80"/>tur, sicut supra ostensum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e232-Dd1e1003"><!-- p1-q36-a3 -->
+               <head xml:id="TAca84-d1e232-Hd1e1006">Articulus 3</head>
+               <head xml:id="TAca84-d1e232-Hd1e1008" type="question-title">
+  utrum spiritus sanctus procedat a patre per filium
+</head>
+               <p xml:id="TAca84-d1e232-d1e1011">
+                  <pb ed="#L" n="382"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM SPIRITUS SANCTUS PROCEDAT A PATRE PER FILIUM
+</p>
+               <p xml:id="TAca84-d1e232-d1e1022">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>Spiritus Sanctus non procedat a Patre
+<lb ed="#L" n="5"/>per Filium. Quod enim procedit ab
+<lb ed="#L" n="6"/>aliquo per aliquem, non procedit ab
+<lb ed="#L" n="7"/>eo immediate. Si igitur Spiritus Sanctus procedit
+<lb ed="#L" n="8"/>a Patre per Filium, non procedit a Patre 
+imme<lb break="no" ed="#L" n="9"/>diate. Quod videtur inconveniens.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1042">
+                  <lb ed="#L" n="10"/>2. PRAETEREA, si Spiritus Sanctus procedit a
+<lb ed="#L" n="11"/>Patre per Filium, non procedit a Filio nisi 
+pro<lb break="no" ed="#L" n="12"/>pter Patrem. Sed propter quod unumquodque,
+<lb ed="#L" n="13"/>et illud magis. Ergo magis procedit a Patre
+<lb ed="#L" n="14"/>quam a Filio.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1056">
+                  <lb ed="#L" n="15"/>3. PRAETEREA, Filius habet esse per 
+generatio<lb break="no" ed="#L" n="16"/>nem. Si igitur Spiritus Sanctus est a Patre per
+<lb ed="#L" n="17"/>Filium, sequitur quod prius generetur Filius, et
+<lb ed="#L" n="18"/>postea procedat Spiritus Sanctus. Et sic processio
+<lb ed="#L" n="19"/>Spiritus Sancti non est aeterna. Quod est 
+haere<lb break="no" ed="#L" n="20"/>ticum.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1072">
+                  <lb ed="#L" n="21"/>4. PRAETEREA, cum aliquis dicitur per aliquem
+<lb ed="#L" n="22"/>operari, potest e converso dici: sicut enim 
+di<lb break="no" ed="#L" n="23"/>cimus quod rex operatur per ballivum, ita potest
+<lb ed="#L" n="24"/>dici quod ballivus operatur per regem. Sed nullo
+<lb ed="#L" n="25"/>modo dicimus quod Filius spiret Spiritum 
+San<lb break="no" ed="#L" n="26"/>ctum per Patrem. Ergo nullo modo potest dici
+<lb ed="#L" n="27"/>quod Pater spiret Spiritum Sanctum ? per Filium.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1090">
+                  <lb ed="#L" n="28"/>SED cowTRA EsT quod Hilarius dicit, in libro
+<lb ed="#L" n="29"/>gionem, ut semper obtineam Patrem, scilicet te;
+<lb ed="#L" n="30"/>et Filium tuum una tecum adorem; et Spiritum
+<lb ed="#L" n="31"/>Sanctum tuum, qui est per. Unigenitum tuum,
+<lb ed="#L" n="32"/>promerear.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1103">
+                  <lb ed="#L" n="33"/>RESPONDEO DICENDUM quod in omnibus 
+locutio<lb break="no" ed="#L" n="34"/>nibus in quibus dicitur aliquis per aliquem 
+ope<lb break="no" ed="#L" n="35"/>rari, haec ? praepositio per designat in causali
+<lb ed="#L" n="36"/>aliquam causam seu principium illius actus. Sed
+<lb ed="#L" n="37"/>cum actio sit media inter faciens et factum, 
+quan<lb break="no" ed="#L" n="38"/>doque illud causale cui adiungitur haec 
+praepo<lb break="no" ed="#L" n="39"/>sitio per, est causa actionis secundum quod exit
+<lb ed="#L" n="40"/>ab agente. Et tunc est causa agenti quod agat;
+<lb ed="#L" n="41"/>sive sit causa finalis, sive formalis, sive effectiva
+<lb ed="#L" n="42"/>vel motiva: finalis quidem, ut si dicamus quod
+<lb ed="#L" n="43"/>artifex operatur per cupiditatem lucri; formalis
+<lb ed="#L" n="44"/>vero, ut si dicamus quod operatur per artem
+<lb ed="#L" n="45"/>suam; motiva vero, si dicamus quod operatur
+<lb ed="#L" n="46"/>per imperium alterius. Quandoque vero dictio
+<lb ed="#L" n="47"/>causalis cui adiungitur haec praepositio per, est
+<lb ed="#L" n="48"/>causa actionis secundum quod terminatur " ad
+<lb ed="#L" n="49"/>factum; ut cum dicimus, artifex operatur per 
+mar<lb break="no" ed="#L" n="50"/>tellum. Non enim significatur quod martellus sit
+<lb ed="#L" n="51"/>causa artifici quod agat: sed quod sit causa 
+arti<lb break="no" ed="#L" n="52"/>ficiato ut ab artifice procedat; et quod hoc ipsum
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>habeat ab artifice. - Et hoc est quod quidam
+<lb ed="#L" n="54"/>dicunt, quod haec praepositio per quandoque
+<lb ed="#L" n="55"/>notat auctoritatem in recto, ut cum dicitur, rex
+<lb ed="#L" n="56"/>operatur per ballivum: quandoque autem in 
+obli<lb break="no" ed="#L" n="57"/>quo, ut cum dicitur, Pallivus operatur per regem.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1162">
+                  <lb ed="#L" n="58"/>Quia igitur Filius habet a Patre quod ab eo
+<lb ed="#L" n="59"/>procedat Spiritus Sanctus, potest dici quod Pater
+<lb ed="#L" n="60"/>per Filium spirat Spiritum Sanctum; vel quod
+<lb ed="#L" n="61"/>Spiritus Sanctus procedat a Patre per Filium,
+<lb ed="#L" n="62"/>quod idem est.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1175">
+                  <lb ed="#L" n="63"/>AD PRIMUM ERGO DICENDUM quod in qualibet
+<lb ed="#L" n="64"/>actione est duo considerare: scilicet suppositum
+<lb ed="#L" n="65"/>agens, et virtutem qua agit; sicut ignis calefacit
+<lb ed="#L" n="66"/>calore. Si igitur in Patre et Filio consideretur
+<lb ed="#L" n="67"/>virtus qua spirant Spiritum Sanctum, non cadit
+<lb ed="#L" n="68"/>ibi aliquod medium: quia haec virtus est una et
+<lb ed="#L" n="69"/>eadem. Si autem considerentur ipsae personae
+<lb ed="#L" n="70"/>spirantes, sic, cum Spiritus Sanctus communiter
+<lb ed="#L" n="71"/>procedat a Patre et Filio, invenitur Spiritus 
+San<lb break="no" ed="#L" n="72"/>ctus immediate a Patre procedere, inquantum
+<lb ed="#L" n="73"/>est ab eo; et mediate, inquantum est a Filio. Et
+<lb ed="#L" n="74"/>sic dicitur procedere a Patre per Filium. Sicut
+<lb ed="#L" n="75"/>etiam Abel processit immediate ab Adam, 
+in<lb break="no" ed="#L" n="76"/>quantum Adam fuit pater eius; et mediate, 
+in<lb break="no" ed="#L" n="77"/>quantum Eva fuit mater eius, quae processit ab
+<lb ed="#L" n="78"/>Adam; licet hoc exemplum materialis 
+proces<lb break="no" ed="#L" n="79"/>sionis ineptum videatur ad significandam 
+imma<lb break="no" ed="#L" n="80"/>terialem processionem divinarum personarum.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1218">
+                  <lb ed="#L" n="81"/>Ap SECUNDUM DICENDUM quod, si Filius acciperet
+<lb ed="#L" n="82"/>a Patre aliam virtutem numero ad spirandum
+<lb ed="#L" n="83"/>Spiritum Sanctum, sequeretur quod esset sicut
+<lb ed="#L" n="84"/>causa secunda et instrumentalis: et sic magis 
+pro<lb break="no" ed="#L" n="85"/>cederet a Patre quam a Filio. Sed una et 
+ea<lb break="no" ed="#L" n="86"/>dem numero virtus spirativa est in Patre et Filio:
+<lb ed="#L" n="87"/>et ideo aequaliter procedit ab utroque. Licet 
+ali<lb break="no" ed="#L" n="88"/>quando dicatur principaliter vel proprie procedere
+<lb ed="#L" n="89"/>de Patre, propter hoc quod Filius habet hanc
+<lb ed="#L" n="90"/>virtutem a Patre.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1242">
+                  <lb ed="#L" n="91"/>AD TERTIUM DICENDUM quod, sicut generatio Filii
+<lb ed="#L" n="92"/>est coaeterna generanti, unde non prius fuit 
+Pa<lb break="no" ed="#L" n="93"/>ter quam gigneret Filium; ita processio Spiritus
+<lb ed="#L" n="94"/>Sancti est coaeterna suo principio. Unde non fuit
+<lb ed="#L" n="95"/>prius Filius genitus, quam Spiritus Sanctus 
+pro<lb break="no" ed="#L" n="96"/>cederet: sed utrumque aeternum est.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1258">
+                  <lb ed="#L" n="97"/>Ap QUARTUM DICENDUM quod, cum aliquis dicitur
+<lb ed="#L" n="98"/>per aliquid operari, non semper recipitur. 
+con<lb break="no" ed="#L" n="99"/>versio: non enim dicimus quod martellus 
+ope<lb break="no" ed="#L" n="100"/>retur per fabrum. Dicimus autem quod ballivus
+<lb ed="#L" n="101"/>operatur per regem: quia ballivi est agere, cum
+<lb ed="#L" n="102"/>sit dominus sui actus. Martelli autem non est
+<lb ed="#L" n="103"/>agere, sed solum agi: unde non designatur nisi
+<pb ed="#L" n="383"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ut instrumentum. Dicitur autem ballivus operari
+<lb ed="#L" n="2"/>per regem, quamvis haec praepositio per 
+deno<lb break="no" ed="#L" n="3"/>tet medium, quia quanto suppositum est prius
+<lb ed="#L" n="4"/>in agendo, tanto virtus eius est immediatior 
+effe<lb break="no" ed="#L" n="5"/>ctui: quia virtus causae primae coniungit causam
+<lb ed="#L" n="6"/>secundam suo effectui: unde et prima principia
+<lb ed="#L" n="7"/>dicuntur immediata in demonstrativis scientiis.
+<lb ed="#L" n="8"/>Sic igitur, inquantum ballivus est medius secun-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="9"/>dum ordinem suppositorum agentium, dicitur
+<lb ed="#L" n="10"/>rex operari per ballivum: secundum ordinem
+<lb ed="#L" n="11"/>vero virtutum, dicitur ballivus operari per 
+re<lb break="no" ed="#L" n="12"/>gem, quia virtus regis facit quod actio ballivi
+<lb ed="#L" n="13"/>consequatur effectum. - Ordo autem non 
+attendi<lb break="no" ed="#L" n="14"/>tur inter Patrem et Filium quantum ad virtutem ;
+<lb ed="#L" n="15"/>sed solum quantum ad supposita. Et ideo dicitur
+<lb ed="#L" n="16"/>quod Pater spirat per Filium, et non e converso.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e232-Dd1e1318"><!-- p1-q36-a4 -->
+               <head xml:id="TAca84-d1e232-Hd1e1321">Articulus 4</head>
+               <head xml:id="TAca84-d1e232-Hd1e1323" type="question-title">
+  utrum pater et filius sint unum principium spiritus sancti
+</head>
+               <p xml:id="TAca84-d1e232-d1e1326">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="50"/>ARTICULUS QUARTUS
+<lb ed="#L" n="51"/>UTRUM PATER ET FILIUS SINT UNUM PRINCIPIUM SPIRITUS SANCTI
+</p>
+               <p xml:id="TAca84-d1e232-d1e1335">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="52"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="53"/>Pater et Filius non sint unum 
+princi<lb break="no" ed="#L" n="54"/>pium Spiritus Sancti. Quia Spiritus 
+San<lb break="no" ed="#L" n="55"/>ctus non videtur a Patre et Filio 
+pro<lb break="no" ed="#L" n="56"/>cedere inquantum sunt unum: neque in natura,
+<lb ed="#L" n="57"/>quia Spiritus Sanctus sic etiam procederet a 
+se<lb break="no" ed="#L" n="58"/>ipso, qui est unum cum eis in natura; neque
+<lb ed="#L" n="59"/>etiam inquantum sunt unum in aliqua 
+proprie<lb break="no" ed="#L" n="60"/>tate, quia una proprietas non potest esse duorum
+<lb ed="#L" n="61"/>suppositorum, ut videtur. Ergo Spiritus Sanctus
+<lb ed="#L" n="62"/>procedit a Patre et Filio ut sunt plures. Non
+<lb ed="#L" n="63"/>ergo Pater et Filius sunt unum principium 
+Spi<lb break="no" ed="#L" n="64"/>ritus Sancti.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1368">
+                  <lb ed="#L" n="65"/>2. PRAETEREA, cum dicitur, Pater et Filius sunt
+<lb ed="#L" n="66"/>unum principium Spiritus Sancti, non potest ibi
+<lb ed="#L" n="67"/>designari unitas personalis: quia sic Pater et 
+Fi<lb break="no" ed="#L" n="68"/>lius essent una persona. Neque etiam unitas 
+pro<lb break="no" ed="#L" n="69"/>prietatis : quia si propter unam proprietatem Pater
+<lb ed="#L" n="70"/>et Filius sunt unum principium Spiritus Sancti,
+<lb ed="#L" n="71"/>pari ratione, propter duas proprietates Pater 
+vi<lb break="no" ed="#L" n="72"/>detur esse duo principia Filii et Spiritus Sancti ;
+<lb ed="#L" n="73"/>quod est inconveniens. Non ergo Pater et Filius
+<lb ed="#L" n="74"/>sunt unum principium Spiritus Sancti.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1393">
+                  <lb ed="#L" n="75"/>3. PRAETEREA, Filius non magis convenit cum
+<lb ed="#L" n="76"/>Patre quam Spiritus Sanctus. Sed Spiritus Sanctus
+<lb ed="#L" n="77"/>et Pater non sunt unum principium respectu 
+ali<lb break="no" ed="#L" n="78"/>cuius divinae personae. Ergo neque Pater et Filius.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1404">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="79"/>4. PRAETEREA, si Pater et Filius sunt unum
+<lb ed="#L" n="80"/>principium Spiritus Sancti, aut unum quod est
+<lb ed="#L" n="81"/>Pater; aut unum quod non est Pater. Sed 
+neu<lb break="no" ed="#L" n="82"/>trum est dare: quia si unum quod est Pater,
+<lb ed="#L" n="83"/>sequitur quod Filius sit Pater; si unum quod non
+<lb ed="#L" n="84"/>est Pater, sequitur quod Pater non est Pater.
+<lb ed="#L" n="85"/>Non ergo dicendum est quod Pater et Filius sint
+<lb ed="#L" n="86"/>unum principium Spiritus Sancti.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1426">
+                  <lb ed="#L" n="87"/>5. PRAETEREA, si Pater et Filius sunt unum
+<lb ed="#L" n="88"/>principium Spiritus Sancti, videtur e converso 
+di<lb break="no" ed="#L" n="89"/>cendum quod unum principium Spiritus Sancti
+<lb ed="#L" n="90"/>sit Pater et Filius. Sed haec videtur esse falsa:
+<lb ed="#L" n="91"/>quia hoc quod dico principium, oportet quod
+<lb ed="#L" n="92"/>supponat vel pro persona Patris, vel pro persona
+<lb ed="#L" n="93"/>Filii; et utroque modo est falsa. Ergo etiam ^
+<lb ed="#L" n="94"/>haec est falsa, Pater et Filius sunt unum 
+princi<lb break="no" ed="#L" n="95"/>pium Spiritus Sancti.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1448">
+                  <lb ed="#L" n="96"/>6. PRAETEREA, unum in substantia facit idem.
+<lb ed="#L" n="97"/>Si igitur Pater et Filius sunt unum principium
+<lb ed="#L" n="98"/>Spiritus Sancti, sequitur quod sint idem 
+princi<lb break="no" ed="#L" n="99"/>pium. Sed hoc a multis negatur. Ergo non est
+<lb ed="#L" n="100"/>concedendum quod Pater et Filius sint unum
+<lb ed="#L" n="101"/>principium Spiritus Sancti.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1464">
+                  <lb ed="#L" n="102"/>7. PRAETEREA, Pater et Filius et Spiritus 
+San<lb break="no" ed="#L" n="103"/>ctus, quia sunt unum principium creaturae, 
+di<lb break="no" ed="#L" n="104"/>cuntur esse unus Creator. Sed Pater et Filius non
+<lb ed="#L" n="105"/>sunt unus spirator, sed duo spiratores, ut a multis
+<pb ed="#L" n="384"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>dicitur. Quod etiam consonat dictis Hilarii, qui
+<lb ed="#L" n="2"/>dicit, in II de Trin., quod Spiritus Sanctus a
+<lb ed="#L" n="3"/>Patre et Filio auctoribus confitendus est. Ergo
+<lb ed="#L" n="4"/>Pater et Filius non sunt unum principium 
+Spi<lb break="no" ed="#L" n="5"/>ritus Sancti.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1490">
+                  <lb ed="#L" n="6"/>SED coNTRA EsT quod Augustinus dicit, in V
+<lb ed="#L" n="7"/>de Jrin., quod Pater et Filius non sunt duo
+<lb ed="#L" n="8"/>principia, sed unum principium Spiritus Sancti.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1500">
+                  <lb ed="#L" n="9"/>RrEsPONDEO DICENDUM quod Pater et Filius in
+<lb ed="#L" n="10"/>omnibus unum sunt, in quibus non distinguit
+<lb ed="#L" n="11"/>inter eos relationis oppositio. Unde, cum in hoc
+<lb ed="#L" n="12"/>quod est esse principium Spiritus Sancti, non 
+op<lb break="no" ed="#L" n="13"/>ponantur relative, sequitur quod Pater et Filius
+<lb ed="#L" n="14"/>sunt unum principium Spiritus Sancti.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1516">
+                  <lb ed="#L" n="15"/>Quidam tamen dicunt hanc esse impropriam,
+<lb ed="#L" n="16"/>Pater et Filius sunt unum principium. Spiritus
+<lb ed="#L" n="17"/>Sancti. Quia cum hoc nomen principium, 
+singu<lb break="no" ed="#L" n="18"/>lariter acceptum, non significet personam, sed
+<lb ed="#L" n="19"/>proprietatem, dicunt quod sumitur adiective: et
+<lb ed="#L" n="20"/>quia adiectivum non determinatur per 
+adiecti<lb break="no" ed="#L" n="21"/>vum, non potest convenienter dici quod Pater
+<lb ed="#L" n="22"/>et Filius sint unum principium Spiritus Sancti: nisi
+<lb ed="#L" n="23"/>unum intelligatur quasi adverbialiter positum, ut
+<lb ed="#L" n="24"/>sit sensus, sunt unum principium, idest uno modo.
+<lb ed="#L" n="25"/>- Sed simili ratione posset dici Pater duo 
+prin<lb break="no" ed="#L" n="26"/>cipia Filii et Spiritus Sancti, idest duobus modis.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1545">
+                  <lb ed="#L" n="27"/>Dicendum est ergo quod, licet hoc nomen 
+prin<lb break="no" ed="#L" n="28"/>cipium significet proprietatem, tamen significat
+<lb ed="#L" n="29"/>eam per modum substantivi: sicut hoc nomen
+<lb ed="#L" n="30"/>pater vel filius etiam in rebus creatis. Unde
+<lb ed="#L" n="31"/>numerum accipit a forma significata, sicut et alia
+<lb ed="#L" n="32"/>substantiva. Sicut igitur Pater et Filius sunt unus
+<lb ed="#L" n="33"/>Deus, propter unitatem formae significatae per hoc
+<lb ed="#L" n="34"/>nomen Jeus; ita sunt unum principium Spiritus
+<lb ed="#L" n="35"/>Sancti, propter unitatem proprietatis significatae
+<lb ed="#L" n="36"/>in hoc nomine principium.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1569">
+                  <lb ed="#L" n="37"/>AD PRIMUM ERGO DICENDUM quod, si attendatur
+<lb ed="#L" n="38"/>virtus spirativa, Spiritus Sanctus procedit a Patre
+<lb ed="#L" n="39"/>et Filio inquantum sunt unum in virtute 
+spira<lb break="no" ed="#L" n="40"/>tiva, quae quodammodo significat naturam cum
+<lb ed="#L" n="41"/>proprietate, ut infra dicetur. Neque est 
+incon<lb break="no" ed="#L" n="42"/>veniens unam proprietatem esse in duobus 
+sup<lb break="no" ed="#L" n="43"/>positis, quorum est una natura. Si vero 
+conside<lb break="no" ed="#L" n="44"/>rentur supposita spirationis, sic Spiritus Sanctus
+<lb ed="#L" n="45"/>procedit a Patre et Filio ut sunt plures: procedit
+<lb ed="#L" n="46"/>enim ab eis ut amor unitivus " duorum.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1593">
+                  <lb ed="#L" n="47"/>AD SECUNDUM DICENDUM quod, cum dicitur ?
+<lb ed="#L" n="48"/>Paler et Filius sunt unum principium Spiritus
+<lb ed="#L" n="49"/>Sancli, designatur una proprietas, quae est forma
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="50"/>significata per nomen. Non tamen sequitur quod
+<lb ed="#L" n="51"/>propter plures proprietates possit dici Pater plura
+<lb ed="#L" n="52"/>principia: quia implicaretur pluralitas 
+supposi<lb break="no" ed="#L" n="53"/>torum.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1613">
+                  <lb ed="#L" n="54"/>AD TERTIUM DICENDUM quod secundum relativas
+<lb ed="#L" n="55"/>proprietates non attenditur in divinis similitudo
+<lb ed="#L" n="56"/>vel dissimilitudo, sed secundum essentiam. Unde,
+<lb ed="#L" n="57"/>sicut Pater non est similior sibi quam Filio, ita
+<lb ed="#L" n="58"/>nec Filius similior Patri quam Spiritus Sanctus.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1627">
+                  <lb ed="#L" n="59"/>AD QUARTUM DICENDUM quod haec duo, scilicet,
+<lb ed="#L" n="60"/>Pater et Filius. sunt 'unum principium quod est
+<lb ed="#L" n="61"/>Pater, aut, unum principium quod non est Pater,
+<lb ed="#L" n="62"/>non sunt contradictorie opposita. Unde non est
+<lb ed="#L" n="63"/>necesse alterum eorum dare. Cum enim dicimus,
+<lb ed="#L" n="64"/>Pater et Filius sunt unum principium, hoc quod
+<lb ed="#L" n="65"/>dico principium , non habet determinatam 
+sup<lb break="no" ed="#L" n="66"/>positionem: imo confusam pro duabus personis
+<lb ed="#L" n="67"/>simul. Unde in processu est fallacia Figurae 
+Di<lb break="no" ed="#L" n="68"/>ctionis, a confusa suppositione ad determinatam.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1651">
+                  <lb ed="#L" n="69"/>AD QUINTUM DICENDUM quod haec etiam est vera,
+<lb ed="#L" n="70"/>unum principium Spiritus Sancti est. Pater et 
+Fi<lb break="no" ed="#L" n="71"/>lius. Quia hoc quod dico principium, non 
+sup<lb break="no" ed="#L" n="72"/>ponit pro una persona tantum, sed indistincte pro
+<lb ed="#L" n="73"/>duabus, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e232-d1e1664">
+                  <lb ed="#L" n="74"/>AD SEXTUM DICENDUM quod convenienter potest
+<lb ed="#L" n="75"/>dici quod Pater et Filius sunt idem principium,
+<lb ed="#L" n="76"/>secundum quod ly principium supponit confuse
+<lb ed="#L" n="77"/>et indistincte pro duabus personis simul ?,
+</p>
+               <p xml:id="TAca84-d1e232-d1e1675">
+                  <lb ed="#L" n="78"/>AD SEPTIMUM DICENDUM quod quidam dicunt
+<lb ed="#L" n="79"/>quod Pater et Filius, licet sint unum principium
+<lb ed="#L" n="80"/>Spiritus Sancti, sunt tamen duo spiratores, 
+pro<lb break="no" ed="#L" n="81"/>pter distinctionem suppositorum, sicut etiam duo
+<lb ed="#L" n="82"/>spirantes: quia actus referuntur ad supposita. Nec
+<lb ed="#L" n="83"/>est eadem ratio de hoc nomine Creator. Quia
+<lb ed="#L" n="84"/>Spiritus Sanctus procedit a Patre et Filio ut sunt
+<lb ed="#L" n="85"/>duae personae distinctae, ut dictum est: non
+<lb ed="#L" n="86"/>autem creatura procedit a tribus personis ut sunt
+<lb ed="#L" n="87"/>personae distinctae, sed ut sunt unum.in 
+essen<lb break="no" ed="#L" n="88"/>tia. - Sed videtur melius dicendum quod, quia
+<lb ed="#L" n="89"/>spirans adiectivum est, spirator vero 
+substanti<lb break="no" ed="#L" n="90"/>vum: possumus dicere quod Pater et Filius sunt
+<lb ed="#L" n="91"/>duo spirantes, propter pluralitatem suppositorum ;
+<lb ed="#L" n="92"/>non autem duo spiratores, propter unam 
+spira<lb break="no" ed="#L" n="93"/>tionem. Nam adiectiva nomina habent numerum
+<lb ed="#L" n="94"/>secundum supposita: substantiva vero a seipsis,
+<lb ed="#L" n="95"/>secundum formam significatam. - Quod vero
+<lb ed="#L" n="96"/>Hilarius dicit, quod Spiritus Sanctus est a Patre
+<lb ed="#L" n="97"/>et Filio auctoribus, exponendum est quod 
+po<lb break="no" ed="#L" n="98"/>nitur substantivum pro adiectivo.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 24</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 24</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="287"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e170"><!-- p1-q24 -->
+            <head xml:id="TAca84-d1e170-Hd1e99">Quaestio 24</head>
+            <head xml:id="TAca84-d1e170-Hd1e101" type="question-title">de libro vitae</head>
+            <p xml:id="TAca84-d1e170-d1e104">
+               <pb ed="#L" n="287"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO VIGESIMAQUARTA
+<lb ed="#L" n="2"/>DE LIBRO VITAE
+<lb ed="#L" n="3"/>IN TRES ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e170-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>Deinde: considerandum est de libro vitae.
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur tria.
+<lb ed="#L" n="6"/>Primo: quid sit liber vitae.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="7"/>Secundo: cuius vitae sit liber.
+<lb ed="#L" n="8"/>Tertio: utrum aliquis possit deleri de libro
+<lb ed="#L" n="9"/>vitae.
+</p>
+            <div xml:id="TAca84-d1e170-Dd1e137"><!-- p1-q24-a1 -->
+               <head xml:id="TAca84-d1e170-Hd1e140">Articulus 1</head>
+               <head xml:id="TAca84-d1e170-Hd1e142" type="question-title">
+  utrum liber vitae sit idem quod praedestinatio
+</head>
+               <p xml:id="TAca84-d1e170-d1e145">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>ARTICULUS PRIMUS
+<lb ed="#L" n="11"/>UTRUM LIBER VITAE SIT IDEM QUOD PRAEDESTINATIO
+</p>
+               <p xml:id="TAca84-d1e170-d1e154">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="12"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="13"/>liber vitae non sit idem quod 
+praedesti<lb break="no" ed="#L" n="14"/>Niber Dicitur enim Eccli. xxiv: <quote xml:id="TAca84-d1e170-Qd1e164">Haec
+<lb ed="#L" n="15"/>Nsyomnia liber vitae</quote>; Glossa: idest novum
+<lb ed="#L" n="16"/>et vetus Testamentum. Hoc autem non est 
+prae<lb break="no" ed="#L" n="17"/>destinatio. Ergo liber vitae non est idem quod ^
+<lb ed="#L" n="18"/>praedestinatio.
+</p>
+               <p xml:id="TAca84-d1e170-d1e177">
+                  <lb ed="#L" n="19"/>2. PRAETEREA, <ref xml:id="TAca84-d1e170-Rd1e181">Augustinus, in libro XX de Civ.
+<lb ed="#L" n="20"/>Dei</ref>, ait quod liber vitae est <quote xml:id="TAca84-d1e170-Qd1e186">quaedam vis 
+di<lb break="no" ed="#L" n="21"/>vina, qua fiet ut cuique opera sua bona vel mala
+<lb ed="#L" n="22"/>in memoriam reducantur</quote>. Sed vis divina non 
+vi<lb break="no" ed="#L" n="23"/>detur pertinere ad praedestinationem, sed magis
+<lb ed="#L" n="24"/>ad attributum ? potentiae. Ergo liber vitae non
+<lb ed="#L" n="25"/>est idem quod praedestinatio.
+</p>
+               <p xml:id="TAca84-d1e170-d1e202">
+                  <lb ed="#L" n="26"/>3. PRAETEREA, praedestinationi opponitur 
+repro<lb break="no" ed="#L" n="27"/>batio. Si igitur liber vitae esset praedestinatio ,
+<lb ed="#L" n="28"/>inveniretur liber mortis, sicut liber vitae.
+</p>
+               <p xml:id="TAca84-d1e170-d1e211">
+                  <lb ed="#L" n="29"/>SED coNTRA EsT quod dicitur in Glossa ?, super
+<lb ed="#L" n="30"/>illud Psalmi rxvir, <quote xml:id="TAca84-d1e170-Qd1e217">deleantur de libro viventium:
+<lb ed="#L" n="31"/>Liber iste est notitia Dei, qua Lerner Dod ad
+<lb ed="#L" n="32"/>vitam, quos praescivit</quote>.
+</p>
+               <p xml:id="TAca84-d1e170-d1e225">
+                  <lb ed="#L" n="33"/>RESPONDEO DICENDUM quod liber vitae in Deo
+<lb ed="#L" n="34"/>dicitur metaphorice, secundum similitudinem a
+<lb ed="#L" n="35"/>rebus humanis acceptam. Est enim consuetum
+<lb ed="#L" n="36"/>apud homines, quod illi qui ad aliquid eliguntur,
+<lb ed="#L" n="37"/>conscribuntur in libro; utpote milites vel 
+consi<lb break="no" ed="#L" n="38"/>liarii, qui olim dicebantur Patres conscripti. Patet
+<lb ed="#L" n="39"/>autem ex praemissis quod omnes praedestinati
+<lb ed="#L" n="40"/>eliguntur a Deo ad habendum vitam aeternam.
+<lb ed="#L" n="41"/>Ipsa ergo praedestinatorum conscriptio dicitur
+<lb ed="#L" n="42"/>liber vitae.
+</p>
+               <p xml:id="TAca84-d1e170-d1e249">
+                  <lb ed="#L" n="43"/>Dicitur autem metaphorice aliquid conscriptum
+<lb ed="#L" n="44"/>in intellectu alicuius, quod firmiter in memoria
+<lb ed="#L" n="45"/>tenet, secundum illud Prov. i: <quote xml:id="TAca84-d1e170-Qd1e257">Ne obliviscaris
+<cb ed="#L" n="f"/>
+                     <lb ed="#L" n="46"/>legis meae, et praecepta mea cor tuum custodiat</quote> ;
+<lb ed="#L" n="47"/>et post pauca sequitur: <quote xml:id="TAca84-d1e170-Qd1e267">describe illa in tabulis
+<lb ed="#L" n="48"/>cordis tui</quote>. Nam et in libris materialibus aliquid
+<lb ed="#L" n="49"/>conscribitur ad succurrendum memoriae, Unde
+<lb ed="#L" n="50"/>ipsa Dei notitia, qua firmiter retinet se aliquos
+<lb ed="#L" n="51"/>praedestinasse ad vitam aeternam, dicitur liber
+<lb ed="#L" n="52"/>vitae. Nam sicut scriptura libri est signum eorum
+<lb ed="#L" n="53"/>quae fienda sunt, ita Dei notitia est quoddam 
+si<lb break="no" ed="#L" n="54"/>gnum apud ipsum, eorum qui sunt perducendi
+<lb ed="#L" n="55"/>ad vitam aeternam; secundum illud II 7zm. n:
+<lb ed="#L" n="56"/>firmum fundamentum Dei stat, habens signaculum
+<lb ed="#L" n="57"/>hoc: novit Dominus qui sunt eius.
+</p>
+               <p xml:id="TAca84-d1e170-d1e292">
+                  <lb ed="#L" n="58"/>AD PRIMUM ERGO DICENDUM quod /iber vitae potest
+<lb ed="#L" n="59"/>dici dupliciter. Uno modo, conscriptio eorum qui
+<lb ed="#L" n="60"/>sunt electi ad vitam: et sic loquimur nunc de
+<lb ed="#L" n="61"/>libro vitae. Alio modo potest dici liber vitae, 
+con<lb break="no" ed="#L" n="62"/>scriptio " eorum quae ducunt in vitam. Et hoc
+<lb ed="#L" n="63"/>dupliciter. Vel sicut agendorum: et sic novum
+<lb ed="#L" n="64"/>et vetus Testamentum dicitur liber vitae. Vel sicut
+<lb ed="#L" n="65"/>iam factorum: et sic illa vis divina, qua fiet ut
+<lb ed="#L" n="66"/>cuilibet in memoriam reducantur facta sua, 
+di<lb break="no" ed="#L" n="67"/>citur liber vitae. Sicut etiam /iber militiae potest
+<lb ed="#L" n="68"/>dici, vel in quo scribuntur electi ad militiam, vel
+<lb ed="#L" n="69"/>in quo traditur ars militaris, vel in quo recitantur
+<lb ed="#L" n="70"/>facta militum.
+</p>
+               <p xml:id="TAca84-d1e170-d1e323">
+                  <lb ed="#L" n="71"/>Unde patet solutio ad secundum.
+</p>
+               <p xml:id="TAca84-d1e170-d1e329">
+                  <lb ed="#L" n="72"/>AD TERTIUM DICENDUM quod non est consuetum
+<lb ed="#L" n="73"/>conscribi eos qui repudiantur, sed eos qui 
+eli<lb break="no" ed="#L" n="74"/>guntur. Unde reprobationi non respondet liber
+<lb ed="#L" n="75"/>mortis, sicut praedestinationi liber vitae.
+</p>
+               <p xml:id="TAca84-d1e170-d1e340">
+                  <lb ed="#L" n="76"/>AD QUARTUM DICENDUM quod secundum rationem
+<lb ed="#L" n="77"/>differt liber vitae a praedestinatione. Importat
+<lb ed="#L" n="78"/>enim notitiam praedestinationis, sicut etiam ex
+<lb ed="#L" n="79"/>Glossa inducta apparet.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e170-Dd1e353"><!-- p1-q24-a2 -->
+               <head xml:id="TAca84-d1e170-Hd1e356">Articulus 2</head>
+               <head xml:id="TAca84-d1e170-Hd1e358" type="question-title">
+  utrum liber vitae sit solum respectu vitae gloriae praedestinatorum
+</head>
+               <p xml:id="TAca84-d1e170-d1e361">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="20"/>UTRUM LIBER VITAE SIT SOLUM RESPECTU VITAE GLORIAE PRAEDESTINATORUM
+</p>
+               <p xml:id="TAca84-d1e170-d1e370">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="21"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="22"/>liber vitae non sit solum respectu vitae
+<lb ed="#L" n="23"/>gloriae praedestinatorum. Liber enim
+<lb ed="#L" n="24"/>Svitae est notitia vitae. Sed Deus per
+<lb ed="#L" n="25"/>vitam suam cognoscit omnem aliam vitam. Ergo
+<lb ed="#L" n="26"/>liber vitae praecipue dicitur respectu vitae 
+divi<lb break="no" ed="#L" n="27"/>nae; et non solum respectu vitae 
+praedestina<lb break="no" ed="#L" n="28"/>torum.
+</p>
+               <p xml:id="TAca84-d1e170-d1e392">
+                  <lb ed="#L" n="29"/>2. PRAETEREA, sicut vita gloriae est a Deo, ita
+<lb ed="#L" n="30"/>vita naturae. Si igitur notitia vitae gloriae dicitur
+<lb ed="#L" n="31"/>liber vitae, etiam notitia vitae naturae dicetur
+<lb ed="#L" n="32"/>liber vitae.
+</p>
+               <p xml:id="TAca84-d1e170-d1e404">
+                  <lb ed="#L" n="33"/>3. PRAETEREA, aliqui eliguntur ad gratiam, qui
+<lb ed="#L" n="34"/>non eliguntur ad vitam gloriae; ut patet per id
+<lb ed="#L" n="35"/>quod dicitur Ioan. vi: Nonne duodecim vos elegi,
+<lb ed="#L" n="36"/>et unus ex vobis diabolus est? Sed liber vitae est
+<lb ed="#L" n="37"/>conscriptio electionis divinae, ut dictum est.
+<lb ed="#L" n="38"/>Ergo etiam est respectu vitae gratiae.
+</p>
+               <p xml:id="TAca84-d1e170-d1e420">
+                  <lb ed="#L" n="39"/>SED cowTRA EsT quod liber vitae est notitia
+<lb ed="#L" n="40"/>praedestinationis, ut dictum est. Sed 
+praedesti<lb break="no" ed="#L" n="41"/>natio non respicit vitam gratiae, nisi secundum
+<lb ed="#L" n="42"/>quod ordinatur ad gloriam: non enim sunt 
+prae<lb break="no" ed="#L" n="43"/>destinati, qui habent gratiam et deficiunt a 
+glo<lb break="no" ed="#L" n="44"/>ria. Liber igitur vitae non dicitur nisi respectu
+<lb ed="#L" n="45"/>gloriae.
+</p>
+               <p xml:id="TAca84-d1e170-d1e438">
+                  <lb ed="#L" n="46"/>RrEsPONDEO DICENDUM quod liber vitae, ut 
+di<lb break="no" ed="#L" n="47"/>ctum est, importat conscriptionem quandam ?
+<lb ed="#L" n="48"/>sive notitiam electorum ad vitam. Eligitur autem
+<lb ed="#L" n="49"/>aliquis ad id quod non competit sibi secundum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="50"/>suam naturam. Et iterum, id ad quod eligitur 
+ali<lb break="no" ed="#L" n="51"/>quis, habet rationem finis: non enim miles 
+eligi<lb break="no" ed="#L" n="52"/>tur aut conscribitur ad hoc quod armetur, sed
+<lb ed="#L" n="53"/>ad hoc quod pugnet; hoc enim ? est proprium
+<lb ed="#L" n="54"/>officium ad quod militia ordinatur. Finis autem
+<lb ed="#L" n="55"/>supra naturam existens, est vita gloriae, ut supra
+<lb ed="#L" n="56"/>dictum est. Unde proprie liber vitae respicit vi-.
+<lb ed="#L" n="57"/>tam gloriae.
+</p>
+               <p xml:id="TAca84-d1e170-d1e469">
+                  <lb ed="#L" n="58"/>AD PRIMUM ERGO DICENDUM quod vita divina,
+<lb ed="#L" n="59"/>etiam prout est vita gloriosa, est Deo naturalis.
+<lb ed="#L" n="60"/>Unde respectu eius non est electio, et per 
+con<lb break="no" ed="#L" n="61"/>sequens neque liber vitae. Non enim dicimus quod
+<lb ed="#L" n="62"/>aliquis homo eligatur ad habendum sensum, vel
+<lb ed="#L" n="63"/>aliquid eorum quae consequuntur naturam.
+</p>
+               <p xml:id="TAca84-d1e170-d1e485">
+                  <lb ed="#L" n="64"/>Unde per hoc etiam patet solutio ad 
+secun<lb break="no" ed="#L" n="65"/>dum. Respectu enim vitae naturalis non est 
+ele<lb break="no" ed="#L" n="66"/>ctio, neque liber vitae.
+</p>
+               <p xml:id="TAca84-d1e170-d1e494">
+                  <lb ed="#L" n="67"/>AD TERTIUM DICENDUM quod vita gratiae non
+<lb ed="#L" n="68"/>habet rationem finis, sed rationem eius quod est
+<lb ed="#L" n="69"/>ad finem. Unde ad vitam gratiae non dicitur 
+ali<lb break="no" ed="#L" n="70"/>quis eligi, nisi inquantum vita gratiae ordinatur
+<lb ed="#L" n="71"/>ad gloriam. Et propter hoc, illi qui habent 
+gra<lb break="no" ed="#L" n="72"/>tiam et excidunt " a gloria, non dicuntur esse
+<lb ed="#L" n="73"/>electi simpliciter, sed secundum quid. Et similiter
+<lb ed="#L" n="74"/>non dicuntur esse scripti simpliciter in libro vitae,
+<lb ed="#L" n="75"/>sed secundum quid; prout scilicet de eis in 
+or<lb break="no" ed="#L" n="76"/>dinatione et notitia divina existit, quod sint 
+ha<lb break="no" ed="#L" n="77"/>bituri aliquem ordinem ad vitam aeternam, 
+se<lb break="no" ed="#L" n="78"/>cundum participationem gratiae.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e170-Dd1e524"><!-- p1-q24-a3 -->
+               <head xml:id="TAca84-d1e170-Hd1e527">Articulus 3</head>
+               <head xml:id="TAca84-d1e170-Hd1e529" type="question-title">
+  utrum aliquis deleatur de libro vitae
+</head>
+               <p xml:id="TAca84-d1e170-d1e532">
+                  <pb ed="#L" n="289"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM ALIQUIS DELEATUR DE LIBRO VITAE
+</p>
+               <p xml:id="TAca84-d1e170-d1e543">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>nullus deleatur de libro vitae. Dicit enim
+<lb ed="#L" n="5"/>Augustinus, in XX de Civ. Dei. quod
+<lb ed="#L" n="6"/>praescientia Dei, quae non potest falli,
+<lb ed="#L" n="7"/>liber vitae est. Sed a praescientia Dei non potest
+<lb ed="#L" n="8"/>aliquid subtrahi: similiter neque a 
+praedestina<lb break="no" ed="#L" n="9"/>tione. Ergo nec de libro vitae potest aliquis deleri.
+</p>
+               <p xml:id="TAca84-d1e170-d1e563">
+                  <lb ed="#L" n="10"/>2. PRAETEREA, quidquid est in aliquo, est in eo
+<lb ed="#L" n="11"/>per modum eius in quo est. Sed liber vitae est
+<lb ed="#L" n="12"/>quid aeternum et immutabile. Ergo quidquid est
+<lb ed="#L" n="13"/>in eo, est ibi non temporaliter, sed immobiliter
+<lb ed="#L" n="14"/>et indelebiliter.
+</p>
+               <p xml:id="TAca84-d1e170-d1e577">
+                  <lb ed="#L" n="15"/>3. PRAETEREA, deletio scripturae opponitur. Sed
+<lb ed="#L" n="16"/>aliquis non potest de novo scribi in libro vitae.
+<lb ed="#L" n="17"/>Ergo neque inde deleri potest.
+</p>
+               <p xml:id="TAca84-d1e170-d1e586">
+                  <lb ed="#L" n="18"/>SED CoNTRA EsT quod dicitur in Psalmo rxvur:
+<lb ed="#L" n="19"/>deleantur de libro viventium.
+</p>
+               <p xml:id="TAca84-d1e170-d1e593">
+                  <lb ed="#L" n="20"/>RESPONDEO DICENDUM quod quidam dicunt quod
+<lb ed="#L" n="21"/>de libro vitae nullus potest deleri secundum rei
+<lb ed="#L" n="22"/>veritatem: potest tamen aliquis deleri secundum
+<lb ed="#L" n="23"/>opinionem hominum. Est enim consuetum in 
+Scri<lb break="no" ed="#L" n="24"/>pturis ut aliquid dicatur fieri, quando innotescit.
+<lb ed="#L" n="25"/>Et secundum hoc, aliqui dicuntur esse scripti
+<lb ed="#L" n="26"/>in libro vitae, inquantum homines opinantur eos
+<lb ed="#L" n="27"/>ibi scriptos, propter praesentem iustitiam quam
+<lb ed="#L" n="28"/>in eis vident. Sed quando apparet, vel in hoc 
+se<lb break="no" ed="#L" n="29"/>culo vel in futuro, quod ab hac iustitia 
+excide<lb break="no" ed="#L" n="30"/>runt, dicuntur inde deleri. Et sic etiam exponitur
+<lb ed="#L" n="31"/>in Glossa deletio talis, super illud Psalmi rxvir:
+<lb ed="#L" n="32"/>deleantur de libro viventium.
+</p>
+               <p xml:id="TAca84-d1e170-d1e624">
+                  <lb ed="#L" n="33"/>Sed quia non deleri de libro vitae ponitur 
+in<lb break="no" ed="#L" n="34"/>ter praemia iustorum, secundum illud Apoc. ui,
+<lb ed="#L" n="35"/>qui vicerit, sic vestietur vestimentis albis, et non
+<lb ed="#L" n="36"/>delebo nomen eius de libro. vitae; quod autem
+<lb ed="#L" n="37"/>sanctis repromittitur, non est solum in hominum
+<lb ed="#L" n="38"/>opinione; potest dici quod deleri vel non deleri
+<lb ed="#L" n="39"/>de libro vitae, non solum ad opinionem 
+homi<lb break="no" ed="#L" n="40"/>num referendum est, sed etiam quantum " ad
+<lb ed="#L" n="41"/>rem. Est enim liber vitae conscriptio ordinato-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="42"/>rum in vitam aeternam. Ad quam ordinatur 
+ali<lb break="no" ed="#L" n="43"/>quis ex duobus: scilicet ex praedestinatione 
+di<lb break="no" ed="#L" n="44"/>vina, et haec ordinatio nunquam deficit; et ex
+<lb ed="#L" n="45"/>gratia. Quicumque enim gratiam habet, ex hoc
+<lb ed="#L" n="46"/>ipso est dignus ? vita aeterna. Et haec ordinatio
+<lb ed="#L" n="47"/>deficit interdum: quia aliqui ordinati sunt ex 
+gra<lb break="no" ed="#L" n="48"/>tia habita ad habendum vitam aeternam, a qua
+<lb ed="#L" n="49"/>tamen deficiunt per peccatum mortale. Illi igitur
+<lb ed="#L" n="50"/>qui sunt ordinati ad habendum vitam aeternam
+<lb ed="#L" n="51"/>ex praedestinatione divina, sunt simpliciter 
+scri<lb break="no" ed="#L" n="52"/>pti in libro vitae: quia sunt ibi scripti ut habituri
+<lb ed="#L" n="53"/>vitam aeternam in seipsa. Et isti nunquam 
+de<lb break="no" ed="#L" n="54"/>lentur de libro vitae. Sed illi qui sunt ordinati
+<lb ed="#L" n="55"/>ad habendum vitam aeternam, non ex 
+praede<lb break="no" ed="#L" n="56"/>stinatione divina, sed solum ex gratia, dicuntur
+<lb ed="#L" n="57"/>esse scripti in libro vitae, non simpliciter, sed
+<lb ed="#L" n="58"/>secundum quid: quia sunt ibi scripti ut habituri
+<lb ed="#L" n="59"/>vitam aeternam, non in seipsa, sed in sua causa.
+<lb ed="#L" n="60"/>Et tales possunt deleri de libro vitae: ut deletio
+<lb ed="#L" n="61"/>non referatur ad notitiam Dei, quasi Deus 
+ali<lb break="no" ed="#L" n="62"/>quid praesciat, et postea nesciat; sed ad rem 
+sci<lb break="no" ed="#L" n="63"/>tam, quia scilicet Deus scit aliquem prius 
+ordi<lb break="no" ed="#L" n="64"/>nari in vitam aeternam, et postea non ordinari,
+<lb ed="#L" n="65"/>cum deficit a gratia.
+</p>
+               <p xml:id="TAca84-d1e170-d1e700">
+                  <lb ed="#L" n="66"/>Ap PRIMUM ERGO DICENDUM quod deletio, ut 
+di<lb break="no" ed="#L" n="67"/>ctum est, non refertur ad librum vitae ex parte
+<lb ed="#L" n="68"/>praescientiae, quasi in Deo sit aliqua 
+mutabili<lb break="no" ed="#L" n="69"/>tas: sed ex parte praescitorum, quae sunt 
+mu<lb break="no" ed="#L" n="70"/>tabilia.
+</p>
+               <p xml:id="TAca84-d1e170-d1e713">
+                  <lb ed="#L" n="71"/>AD SECUNDUM DICENDUM quod, licet res in Deo
+<lb ed="#L" n="72"/>sint immutabiliter ", tamen in seipsis mutabiles
+<lb ed="#L" n="73"/>sunt. Et ad hoc pertinet deletio libri vitae.
+</p>
+               <p xml:id="TAca84-d1e170-d1e723">
+                  <lb ed="#L" n="74"/>ÀD TERTIUM DICENDUM quod eo modo quo 
+ali<lb break="no" ed="#L" n="75"/>quis dicitur deleri de libro vitae, potest dici quod
+<lb ed="#L" n="76"/>ibi scribatur de novo; vel secundum opinionem
+<lb ed="#L" n="77"/>hominum, vel secundum quod de novo incipit
+<lb ed="#L" n="78"/>habere ordinem ad vitam aeternam per gratiam.
+<lb ed="#L" n="79"/>Quod etiam sub divina notitia comprehenditur ,
+<lb ed="#L" n="80"/>licet non de novo.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

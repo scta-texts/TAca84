@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="56"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e72"><!-- p1-q5 -->
+            <head xml:id="TAca84-d1e72-Hd1e99">Quaestio 5</head>
+            <head xml:id="TAca84-d1e72-Hd1e101" type="question-title">de bono in communi</head>
+            <p xml:id="TAca84-d1e72-d1e104">
+               <pb ed="#L" n="56"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO QUINTA
+<lb ed="#L" n="2"/>DE BONO IN COMMUNI
+<lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e72-d1e117">
+               <lb ed="#L" n="4"/>DEINDE quaeritur de bono: et primo de bono
+<lb ed="#L" n="5"/>Da communi; secundo de bonitate Dei.
+<lb ed="#L" n="6"/>Circa primum quaeruntur sex.
+<lb ed="#L" n="7"/>Primo: utrum bonum et ens sint idem 
+secun<lb break="no" ed="#L" n="8"/>dum rem.
+<lb ed="#L" n="9"/>Secundo: supposito quod differant ratione 
+tan<lb break="no" ed="#L" n="10"/>tum, quid sit prius secundum rationem, utrum
+<lb ed="#L" n="11"/>bonum vel ens.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="12"/>Tertio: supposito quod ens sit prius, utrum
+<lb ed="#L" n="13"/>omne ens sit bonum.
+<lb ed="#L" n="14"/>Quarto: ad quam causam ratio boni 
+redu<lb break="no" ed="#L" n="15"/>catur.
+<lb ed="#L" n="16"/>Quinto: utrum ratio boni consistat in modo,
+<lb ed="#L" n="17"/>specie et ordine.
+<lb ed="#L" n="18"/>Sexto: quomodo dividatur bonum in 
+hone<lb break="no" ed="#L" n="19"/>stum, utile et delectabile.
+</p>
+            <div xml:id="TAca84-d1e72-Dd1e156"><!-- p1-q5-a1 -->
+               <head xml:id="TAca84-d1e72-Hd1e159">Articulus 1</head>
+               <head xml:id="TAca84-d1e72-Hd1e161" type="question-title">trum bonum differat secundum rem ab ente</head>
+               <p xml:id="TAca84-d1e72-d1e164">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="20"/>ARTICULUS PRIMUS
+<lb ed="#L" n="21"/>UTRUM BONUM DIFFERAT SECUNDUM REM AB ENTE
+</p>
+               <p xml:id="TAca84-d1e72-d1e173">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="22"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="23"/>bonum differat secundum rem ab ente.
+<lb ed="#L" n="24"/>Dicit enim Boetius, in libro de Hebdom.:
+<lb ed="#L" n="25"/>intueor in rebus aliud esse quod sunt
+<lb ed="#L" n="26"/>bona, et aliud esse quod sunt. Ergo bonum et
+<lb ed="#L" n="27"/>ens differunt secundum rem.
+</p>
+               <p xml:id="TAca84-d1e72-d1e191">
+                  <lb ed="#L" n="28"/>2. PRAETEREA, nihil informatur seipso. Sed 
+bo<lb break="no" ed="#L" n="29"/>num dicitur per informationem entis, ut habetur
+<lb ed="#L" n="30"/>in Commento libri de Causis. Ergo bonum 
+dif<lb break="no" ed="#L" n="31"/>fert secundum rem ab ente.
+</p>
+               <p xml:id="TAca84-d1e72-d1e203">
+                  <lb ed="#L" n="32"/>3. PRAETEREA, bonum suscipit magis et minus.
+<lb ed="#L" n="33"/>Esse autem non suscipit magis et minus. Ergo
+<lb ed="#L" n="34"/>bonum differt secundum rem ab ente.
+</p>
+               <p xml:id="TAca84-d1e72-d1e212">
+                  <lb ed="#L" n="35"/>SED coNTRA EST quod Augustinus dicit, in libro
+<lb ed="#L" n="36"/>de Doctrina Christiana, quod inquantum sumus,
+<lb ed="#L" n="37"/>boni sumus. ;
+</p>
+               <p xml:id="TAca84-d1e72-d1e221">
+                  <lb ed="#L" n="38"/>REsPONDEO DICENDUM quod bonum et ens sunt
+<lb ed="#L" n="39"/>idem secundum rem: sed differunt secundum
+<lb ed="#L" n="40"/>rationem tantum. Quod sic patet. Ratio enim
+<lb ed="#L" n="41"/>boni in hoc consistit, quod aliquid sit 
+appeti<lb break="no" ed="#L" n="42"/>bile: unde Philosophus, in I Efhic., dicit quod
+<lb ed="#L" n="43"/>bonum est quod omnia appetunt. Manifestum est
+<lb ed="#L" n="44"/>autem quod unumquodque est appetibile 
+secun<lb break="no" ed="#L" n="45"/>dum quod est perfectum: nam omnia appetunt
+<lb ed="#L" n="46"/>suam perfectionem. Intantum est autem 
+perfe<lb break="no" ed="#L" n="47"/>ctum unumquodque, inquantum est actu: unde
+<lb ed="#L" n="48"/>manifestum est quod intantum est aliquid bonum,
+<lb ed="#L" n="49"/>inquantum est ens: esse enim est actualitas omnis
+<lb ed="#L" n="50"/>rei, ut ex superioribus patet. Unde manifestum
+<lb ed="#L" n="51"/>est quod bonum et ens sunt idem secundum rem:
+<lb ed="#L" n="52"/>sed bonum dicit rationem appetibilis ^, quam non
+<lb ed="#L" n="53"/>dicit ens.
+</p>
+               <p xml:id="TAca84-d1e72-d1e258">
+                  <lb ed="#L" n="54"/>Ap PRIMUM ERGO DICENDUM quod, licet bonum
+<lb ed="#L" n="55"/>et ens sint idem secundum rem, quia tamen
+<lb ed="#L" n="56"/>differunt secundum rationem, non eodem modo
+<lb ed="#L" n="57"/>dicitur aliquid ens simpliciter, et bonum  
+simpli<lb break="no" ed="#L" n="58"/>citer. Nam cum ens dicat aliquid " proprie esse
+<lb ed="#L" n="59"/>in actu; actus autem proprie ordinem habeat ad
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="60"/>potentiam ; secundum hoc simpliciter aliquid 
+di<lb break="no" ed="#L" n="61"/>citur ens, secundum quod primo discernitur ab
+<lb ed="#L" n="62"/>eo quod est in potentia tantum. Hoc autem est
+<lb ed="#L" n="63"/>esse substantiale rei uniuscuiusque; unde per
+<lb ed="#L" n="64"/>suum esse substantiale dicitur unumquodque ens
+<lb ed="#L" n="65"/>simpliciter. Per actus autem superadditos, dicitur
+<lb ed="#L" n="66"/>aliquid esse secundum quid, sicut esse album
+<lb ed="#L" n="67"/>significat esse secundum quid: non enim esse
+<lb ed="#L" n="68"/>album aufert esse in potentia simpliciter, cum
+<lb ed="#L" n="69"/>adveniat rei iam praeexistenti in actu. Sed 
+bo<lb break="no" ed="#L" n="70"/>num dicit rationem perfecti, quod est appetibile:
+<lb ed="#L" n="71"/>et per consequens dicit rationem ultimi. . Unde
+<lb ed="#L" n="72"/>id quod est ultimo perfectum, dicitur bonum
+<lb ed="#L" n="73"/>simpliciter. Quod autem non habet ultimam 
+per<lb break="no" ed="#L" n="74"/>fectionem quam debet habere, quamvis habeat
+<lb ed="#L" n="75"/>aliquam perfectionem inquantum est actu, non
+<lb ed="#L" n="76"/>tamen dicitur perfectum simpliciter, nec bonum
+<lb ed="#L" n="77"/>simpliciter, sed secundum quid. - Sic ergo 
+secun<lb break="no" ed="#L" n="78"/>dum primum esse, quod est substantiale, dicitur
+<lb ed="#L" n="79"/>aliquid ens simpliciter et bonum secundum quid,
+<lb ed="#L" n="80"/>idest inquantum est ens: secundum vero 
+ulti<lb break="no" ed="#L" n="81"/>mum actum, dicitur aliquid ens secundum quid,
+<lb ed="#L" n="82"/>et bonum simpliciter. Sic ergo quod dicit 
+Boe<lb break="no" ed="#L" n="83"/>tius, quod zn rebus aliud est quod sunt bona,
+<lb ed="#L" n="84"/>et aliud quod sunt, referendum est ad esse 
+bo<lb break="no" ed="#L" n="85"/>num ? et ad esse simpliciter: quia secundum 
+pri<lb break="no" ed="#L" n="86"/>mum actum est aliquid ens simpliciter; et 
+se<lb break="no" ed="#L" n="87"/>cundum ultimum, bonum simpliciter. Et tamen
+<lb ed="#L" n="88"/>secundum primum: actum est quodammodo 
+bo<lb break="no" ed="#L" n="89"/>num: et secundum ultimum actum est 
+quodam<lb break="no" ed="#L" n="90"/>modo ens.
+</p>
+               <p xml:id="TAca84-d1e72-d1e343">
+                  <lb ed="#L" n="91"/>AD SECUNDUM DICENDUM quod bonum dicitur
+<lb ed="#L" n="92"/>per informationem, prout accipitur bonum 
+sim<lb break="no" ed="#L" n="93"/>pliciter, secundum ultimum actum.
+</p>
+               <p xml:id="TAca84-d1e72-d1e352">
+                  <lb ed="#L" n="94"/>Et similiter dicendum ad tertium, quod 
+bo<lb break="no" ed="#L" n="95"/>num dicitur secundum magis et minus, secundum
+<lb ed="#L" n="96"/>actum supervenientem; puta secundum scientiam
+<lb ed="#L" n="97"/>vel virtutem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e72-Dd1e365"><!-- p1-q5-a2 -->
+               <head xml:id="TAca84-d1e72-Hd1e368">Articulus 2</head>
+               <head xml:id="TAca84-d1e72-Hd1e370" type="question-title">utrum bonum secundum rationem sit prius quam ens</head>
+               <p xml:id="TAca84-d1e72-d1e373">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="102"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="103"/>UTRUM BONUM SECUNDUM RATIONEM SIT PRIUS QUAM ENS
+</p>
+               <p xml:id="TAca84-d1e72-d1e382">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="104"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="105"/>bonum secundum rationem sit prius
+<lb ed="#L" n="106"/>quam ens. Ordo enim nominum est 
+se<lb break="no" ed="#L" n="107"/>cundum ordinem rerum significatarum
+<lb ed="#L" n="108"/>per nomina. Sed Dionysius, inter alia nomina
+<lb ed="#L" n="109"/>Dei, prius ponit bonum quam ens, ut patet in
+<lb ed="#L" n="110"/>ut cap. de Div. Nom. Ergo bonum secundum
+<lb ed="#L" n="111"/>rationem est prius quam ens.
+</p>
+               <p xml:id="TAca84-d1e72-d1e404">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="112"/>2. PRAETEREA, illud est prius secundum 
+ratio<lb break="no" ed="#L" n="113"/>nem, quod ad plura se extendit. Sed bonum ad
+<lb ed="#L" n="114"/>plura se extendit quam ens: quia, ut dicit 
+Dio<lb break="no" ed="#L" n="115"/>nysius, v cap. de Div. Nom., bonum se extendit
+<lb ed="#L" n="116"/>ad existentia et non existentia, ens vero ad 
+exi<lb break="no" ed="#L" n="117"/>stentia tantum. Ergo bonum est prius secundum
+<lb ed="#L" n="118"/>rationem quam ens.
+</p>
+               <p xml:id="TAca84-d1e72-d1e425">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="119"/>3. PRAETEREA, quod est universalius, est prius
+</p>
+               <p xml:id="TAca84-d1e72-d1e432">
+                  <pb ed="#L" n="58"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>secundum rationem. Sed bonum videtur 
+univer<lb break="no" ed="#L" n="2"/>salius esse quam ens: quia bonum habet 
+ratio<lb break="no" ed="#L" n="3"/>nem appetibilis; quibusdam ? autem appetibile est
+<lb ed="#L" n="4"/>ipsum non esse; dicitur enim, Matth. xxvi, de
+<lb ed="#L" n="5"/>Iuda: bonum erat ei, si natus non fuisset etc.
+<lb ed="#L" n="6"/>Ergo bonum est prius quam ens, secundum 
+ra<lb break="no" ed="#L" n="7"/>tionem. :
+</p>
+               <p xml:id="TAca84-d1e72-d1e454">
+                  <lb ed="#L" n="8"/>4. PRAETEREA, non solum esse est appetibile,
+<lb ed="#L" n="9"/>sed et vita et sapientia, et multa huiusmodi: et
+<lb ed="#L" n="10"/>sic videtur quod esse sit quoddam particulare
+<lb ed="#L" n="11"/>appetibile, et bonum, universale. Bonum ergo ^
+<lb ed="#L" n="12"/>simpliciter est prius secundum rationem quam ens.
+</p>
+               <p xml:id="TAca84-d1e72-d1e467">
+                  <lb ed="#L" n="13"/>SED CONTRA EsT quod dicitur in libro de Causis,
+<lb ed="#L" n="14"/>quod prima rerum creatarum est esse.
+</p>
+               <p xml:id="TAca84-d1e72-d1e474">
+                  <lb ed="#L" n="15"/>RESPONDEO DICENDUM quod ens secundum 
+ratio<lb break="no" ed="#L" n="16"/>nem est prius quam bonum. Ratio enim 
+signi<lb break="no" ed="#L" n="17"/>ficata per nomen, est id quod concipit intellectus
+<lb ed="#L" n="18"/>de re ^, et significat illud per vocem: illud ergo
+<lb ed="#L" n="19"/>est prius secundum rationem, quod prius cadit
+<lb ed="#L" n="20"/>in conceptione intellectus. Primo autem in 
+con<lb break="no" ed="#L" n="21"/>ceptione intellectus cadit ens: quia secundum
+<lb ed="#L" n="22"/>hoc unumquodque cognoscibile est, inquantum
+<lb ed="#L" n="23"/>est actu, ut dicitur in IX Metaphys. Unde ens
+<lb ed="#L" n="24"/>est proprium obiectum intellectus: et sic est 
+pri<lb break="no" ed="#L" n="25"/>mum intelligibile, sicut sonus est primum 
+audi<lb break="no" ed="#L" n="26"/>bile. Ita ergo secundum rationem prius est ens
+<lb ed="#L" n="27"/>quam bonum.
+</p>
+               <p xml:id="TAca84-d1e72-d1e505">
+                  <lb ed="#L" n="28"/>Ap PRIMUM ERGO DICENDUM quod Dionysius 
+de<lb break="no" ed="#L" n="29"/>terminat de divinis nominibus secundum quod
+<lb ed="#L" n="30"/>important circa Deum habitudinem causae: 
+no<lb break="no" ed="#L" n="31"/>minamus enim Deum, ut ipse dicit, ex creaturis,
+<lb ed="#L" n="32"/>sicut causam ? ex effectibus. Bonum autem, cum
+<lb ed="#L" n="33"/>habeat rationem appetibilis, importat habitudinem
+<lb ed="#L" n="34"/>causae finalis: cuius causalitas prima est, quia
+<lb ed="#L" n="35"/>agens non agit nisi propter finem, et ab agente
+<lb ed="#L" n="36"/>materia movetur ad formam: unde dicitur quod
+<lb ed="#L" n="37"/>finis est causa causarum. Et sic, in causando, 
+bo<lb break="no" ed="#L" n="38"/>num est prius quam ens, sicut finis quam forma:
+<lb ed="#L" n="39"/>et hac ratione, inter nomina significantia causali-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="40"/>tatem divinam, prius ponitur bonum quam ens. -
+<lb ed="#L" n="41"/>Et iterum quia, secundum Platonicos, qui, 
+ma<lb break="no" ed="#L" n="42"/>teriam a privatione non distinguentes, dicebant
+<lb ed="#L" n="43"/>materiam esse non ens, ad plura se extendit
+<lb ed="#L" n="44"/>participatio boni quam participatio entis. Nam
+<lb ed="#L" n="45"/>materia prima participat bonum, cum appetat
+<lb ed="#L" n="46"/>ipsum (nihil autem appetit nisi simile sibi 5): non
+<lb ed="#L" n="47"/>autem participat ens, cum ponatur non ens. Et
+<lb ed="#L" n="48"/>ideo dicit Dionysius quod bonum extenditur ad
+<lb ed="#L" n="49"/>non existentia.
+</p>
+               <p xml:id="TAca84-d1e72-d1e558">
+                  <lb ed="#L" n="50"/>Unde patet solutio ad secundum. - Vel 
+dicen<lb break="no" ed="#L" n="51"/>dum quod bonum extenditur ad existentia et non
+<lb ed="#L" n="52"/>existentia, non secundum praedicationem, sed
+<lb ed="#L" n="53"/>secundum causalitatem : ut per non existentia
+<lb ed="#L" n="54"/>intelligamus, non ea simpliciter quae penitus non
+<lb ed="#L" n="55"/>sunt, sed ea quae sunt in potentia et non in
+<lb ed="#L" n="56"/>actu: quia bonum habet rationem finis, in quo
+<lb ed="#L" n="57"/>non solum quiescunt quae sunt in actu, sed ad
+<lb ed="#L" n="58"/>ipsum etiam ea moventur quae in actu non
+<lb ed="#L" n="59"/>sunt, sed in potentia tantum. Ens autem non 
+im<lb break="no" ed="#L" n="60"/>portat habitudinem causae nisi formalis tantum,
+<lb ed="#L" n="61"/>vel inhaerentis vel exemplaris: cuius causalitas
+<lb ed="#L" n="62"/>non se extendit nisi ad ea quae sunt in actu.
+</p>
+               <p xml:id="TAca84-d1e72-d1e589">
+                  <lb ed="#L" n="63"/>AD TERTIUM DICENDUM quod non esse secundum
+<lb ed="#L" n="64"/>se non est appetibile, sed per accidens: 
+inquan<lb break="no" ed="#L" n="65"/>tum scilicet ablatio alicuius mali est appetibilis ,
+<lb ed="#L" n="66"/>quod malum quidem aufertur per non esse. 
+Ab<lb break="no" ed="#L" n="67"/>latio vero mali non est appetibilis, nisi 
+inquan<lb break="no" ed="#L" n="68"/>tum per malum privatur quodam " esse. Illud
+<lb ed="#L" n="69"/>igitur quod per se est appetibile, est esse: non
+<lb ed="#L" n="70"/>esse vero per accidens tantum, inquantum 
+sci<lb break="no" ed="#L" n="71"/>licet quoddam esse appetitur, quo homo non
+<lb ed="#L" n="72"/>sustinet privari. Et sic etiam per accidens non
+<lb ed="#L" n="73"/>esse dicitur bonum.
+</p>
+               <p xml:id="TAca84-d1e72-d1e615">
+                  <lb ed="#L" n="74"/>AD QUARTUM DICENDUM quod vita et scientia, et
+<lb ed="#L" n="75"/>alia huiusmodi, sic appetuntur ut sunt in actu:
+<lb ed="#L" n="76"/>unde in omnibus appetitur quoddam esse. Et sic
+<lb ed="#L" n="77"/>nihil est appetibile nisi ens: et per consequens
+<lb ed="#L" n="78"/>nihil est bonum nisi ens.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e72-Dd1e629"><!-- p1-q5-a3 -->
+               <head xml:id="TAca84-d1e72-Hd1e632">Articulus 3</head>
+               <head xml:id="TAca84-d1e72-Hd1e634" type="question-title">utrum omne ens sit bonum</head>
+               <p xml:id="TAca84-d1e72-d1e637">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49"/>ARTICULUS TERTIUS
+<lb ed="#L" n="50"/>UTRUM OMNE ENS SIT BONUM
+</p>
+               <p xml:id="TAca84-d1e72-d1e646">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="51"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="52"/>addit supra ens, ut ex dictis patet
+<lb ed="#L" n="53"/>Ea vero quae addunt aliquid supra .
+<lb ed="#L" n="54"/>ens, contrahunt ipsum: sicut substantia, 
+quanti<lb break="no" ed="#L" n="55"/>tas, qualitas, et alia huiusmodi. Ergo bonum 
+con<lb break="no" ed="#L" n="56"/>trahit ens. Non igitur omne ens est bonum.
+</p>
+               <p xml:id="TAca84-d1e72-d1e664">
+                  <lb ed="#L" n="57"/>2. PmaETEREA, nullum malum est bonum:
+<lb ed="#L" n="58"/>Isaiae v, Vae qui dicitis malum bonum, et 
+bo<lb break="no" ed="#L" n="59"/>num malum. Sed aliquod ens dicitur malum.
+<lb ed="#L" n="60"/>Ergo non omne ens est bonum.
+</p>
+               <p xml:id="TAca84-d1e72-d1e676">
+                  <lb ed="#L" n="61"/>3. PRAETEREA, bonum habet rationem 
+appeti<lb break="no" ed="#L" n="62"/>bilis. Sed materia prima non habet rationem 
+ap<lb break="no" ed="#L" n="63"/>petibilis, sed appetentis tantum. Ergo materia
+<lb ed="#L" n="64"/>prima non habet rationem boni. Non tine omne
+<lb ed="#L" n="65"/>ens est bonum.
+</p>
+               <p xml:id="TAca84-d1e72-d1e689">
+                  <lb ed="#L" n="66"/>4. PRAETEREA, Philosophus dicit, in III 
+7Meta<lb break="no" ed="#L" n="67"/>phys., quod in mathematicis non est bonum.
+<lb ed="#L" n="68"/>Sed mathematica sunt quaedam entia: alioquin
+<lb ed="#L" n="69"/>de eis non esset scientia. Ergo non omne ens
+<lb ed="#L" n="70"/>est bonum.
+</p>
+               <p xml:id="TAca84-d1e72-d1e702">
+                  <lb ed="#L" n="71"/>SED coNTRA, omne ens quod non est Deus, est
+<lb ed="#L" n="72"/>Dei creatura. Sed omnis creatura Dei est bona,
+<lb ed="#L" n="73"/>ut dicitur 1 ad. 77m., iv cap.: Deus vero est
+<lb ed="#L" n="74"/>maxime bonus. Ergo omne ens est bonum.
+</p>
+               <p xml:id="TAca84-d1e72-d1e713">
+                  <lb ed="#L" n="75"/>RESPONDEO DICENDUM quod omne ens, 
+inquan<lb break="no" ed="#L" n="76"/>tum est ens, est bonum. Omne enim ens, 
+in<lb break="no" ed="#L" n="77"/>quantum est ens, est in actu, et quodammodo
+<lb ed="#L" n="78"/>perfectum: quia omnis actus perfectio quaedam
+<lb ed="#L" n="79"/>est. Perfectum vero habet rationem appetibilis et
+<lb ed="#L" n="80"/>boni, ut ex dictis patet. Unde sequitur omne
+<lb ed="#L" n="81"/>ens, inquantum huiusmodi, bonum esse.
+</p>
+               <p xml:id="TAca84-d1e72-d1e731">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="82"/>AD PRIMUM ERGO DICENDUM quod substantia,
+<lb ed="#L" n="83"/>quantitas et qualitas, et ea quae sub eis 
+conti<lb break="no" ed="#L" n="84"/>nentur, contrahunt ens applicando ens ad 
+ali<lb break="no" ed="#L" n="85"/>quam quidditatem seu naturam. Sic ? autem non
+<lb ed="#L" n="86"/>addit aliquid bonum super ens: sed rationem
+<lb ed="#L" n="87"/>tantum appetibilis et perfectionis, quod convenit
+<lb ed="#L" n="88"/>ipsi esse in quacumque natura sit. Unde bonum
+<lb ed="#L" n="89"/>non contrahit ens.
+</p>
+               <p xml:id="TAca84-d1e72-d1e753">
+                  <lb ed="#L" n="90"/>AD SECUNDUM DICENDUM quod nullum ens 
+dici<lb break="no" ed="#L" n="91"/>tur malum inquantum est ens, sed inquantum
+<lb ed="#L" n="92"/>caret quodam esse: sicut homo dicitur malus 
+in<lb break="no" ed="#L" n="93"/>quantum caret esse virtutis, et oculus dicitur
+<lb ed="#L" n="94"/>malus inquantum caret acumine ? visus.
+</p>
+               <p xml:id="TAca84-d1e72-d1e767">
+                  <lb ed="#L" n="95"/>AD TERTIUM DICENDUM quod materia prima, sicut
+<lb ed="#L" n="96"/>non est ens nisi in potentia, ita nec bonum nisi
+<lb ed="#L" n="97"/>in potentia. Licet, secundum Platonicos, dici
+<lb ed="#L" n="98"/>possit quod materia prima est non ens, propter
+<lb ed="#L" n="99"/>privationem adiunctam. Sed tamen participat 
+ali<lb break="no" ed="#L" n="100"/>quid de bono, scilicet ipsum ordinem vel 
+aptitu<lb break="no" ed="#L" n="101"/>dinem ad bonum. Et ideo non convenit sibi
+<lb ed="#L" n="102"/>quod sit appetibile, sed quod appetat.
+</p>
+               <p xml:id="TAca84-d1e72-d1e787">
+                  <lb ed="#L" n="103"/>AD.QUARTUM DICENDUM quod mathematica non
+<lb ed="#L" n="104"/>subsistunt separata secundum esse: quia si 
+sub<lb break="no" ed="#L" n="105"/>sisterent, esset in eis bonum, scilicet ipsum esse
+<lb ed="#L" n="106"/>ipsorum. Sunt autem mathematica separata 
+se<lb break="no" ed="#L" n="107"/>cundum rationem tantum, prout abstrahuntur
+<lb ed="#L" n="108"/>a motu et a materia: et sic abstrahuntur a 
+ra<lb break="no" ed="#L" n="109"/>tione finis, qui " habet rationem moventis. Non
+<lb ed="#L" n="110"/>est autem inconveniens quod in aliquo ente 
+se<lb break="no" ed="#L" n="111"/>cundum rationem non sit bonum vel ratio boni:
+<lb ed="#L" n="112"/>cum ratio entis sit prior quam ratio boni, sicut
+<lb ed="#L" n="113"/>supra dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e72-Dd1e814"><!-- p1-q5-a4 -->
+               <head xml:id="TAca84-d1e72-Hd1e817">Articulus 4</head>
+               <head xml:id="TAca84-d1e72-Hd1e819" type="question-title">utrum bonum habeat rationem causae finalis</head>
+               <p xml:id="TAca84-d1e72-d1e822">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>ARTICULUS QUARTUS
+<lb ed="#L" n="14"/>UTRUM BONUM HABEAT RATIONEM CAUSAE FINALIS
+</p>
+               <p xml:id="TAca84-d1e72-d1e831">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="15"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="16"/>bonum non habeat rationem causae 
+fi<lb break="no" ed="#L" n="17"/>nalis, sed magis aliarum. Ut enim dicit
+<lb ed="#L" n="18"/>Dionysius, iv cap. de Div. Nom.: 
+bo<lb break="no" ed="#L" n="19"/>num laudatur ut pulchrum. Sed pulchrum 
+impor<lb break="no" ed="#L" n="20"/>tat rationem causae formalis. Ergo bonum habet
+<lb ed="#L" n="21"/>rationem causae formalis.
+</p>
+               <p xml:id="TAca84-d1e72-d1e851">
+                  <lb ed="#L" n="22"/>2. PRAETEREA, bonum est diffusivum sui esse,
+<lb ed="#L" n="23"/>ut ex verbis Dionysii accipitur, quibus dicit quod
+<lb ed="#L" n="24"/>bonum est ex quo omnia subsistunt et sunt. Sed
+<lb ed="#L" n="25"/>esse diffusivum importat rationem causae 
+effi<lb break="no" ed="#L" n="26"/>cientis. Ergo bonum habet rationem causae 
+effi<lb break="no" ed="#L" n="27"/>cientis.
+</p>
+               <p xml:id="TAca84-d1e72-d1e868">
+                  <lb ed="#L" n="28"/>3. PRAETEREA, dicit Augustinus in I de Doctr.
+<lb ed="#L" n="29"/>Christ., quod quia Deus bonus est, nos sumus.
+<lb ed="#L" n="30"/>Sed ex Deo sumus sicut ex causa efficiente. Ergo
+<lb ed="#L" n="31"/>bonum importat rationem causae efficientis.
+</p>
+               <p xml:id="TAca84-d1e72-d1e879">
+                  <lb ed="#L" n="32"/>SED cowTRA EsT quod Philosophus dicit, in II
+<lb ed="#L" n="33"/>Physic., quod illud cuius causa est, est sicut finis
+<lb ed="#L" n="34"/>et bonum aliorum. Bonum ergo habet rationem
+<lb ed="#L" n="35"/>causae finalis.
+</p>
+               <p xml:id="TAca84-d1e72-d1e890">
+                  <lb ed="#L" n="36"/>RxsPoNDEO DicENDUM quod, cum bonum sit quod
+<lb ed="#L" n="37"/>omnia appetunt, hoc autem habet rationem finis;
+<lb ed="#L" n="38"/>manifestum est quod bonum rationem finis 
+im<lb break="no" ed="#L" n="39"/>portat. Sed tamen ratio boni praesupponit 
+ratio<lb break="no" ed="#L" n="40"/>nem causae efficientis, et rationem causae 
+for<lb break="no" ed="#L" n="41"/>malis. Videmus enim quod id quod est primum
+<lb ed="#L" n="42"/>in causando, ultimum est in causato: ignis enim
+<lb ed="#L" n="43"/>primo calefacit quam formam ignis inducat, cum
+<lb ed="#L" n="44"/>tamen calor in igne consequatur formam 
+sub<lb break="no" ed="#L" n="45"/>stantialem. In causando autem, primum invenitur
+<lb ed="#L" n="46"/>bonum et finis, qui movet efficientem ; secundo,
+<lb ed="#L" n="47"/>actio efficientis, movens ad formam; tertio 
+ad<lb break="no" ed="#L" n="48"/>venit forma. Unde e converso esse oportet in
+<lb ed="#L" n="49"/>causato: quod primum sit ipsa forma, per quam
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="50"/>est ens; secundo consideratur in ea virtus 
+effe<lb break="no" ed="#L" n="51"/>ctiva, secundum quod est perfectum in esse (quia
+<lb ed="#L" n="52"/>unumquodque tunc perfectum est, quando potest
+<lb ed="#L" n="53"/>sibi simile facere, ut dicit Philosophus in IV
+<lb ed="#L" n="54"/>Meteor.); tertio consequitur ratio boni, per
+<lb ed="#L" n="55"/>quam in ente perfectio fundatur.
+</p>
+               <p xml:id="TAca84-d1e72-d1e938">
+                  <lb ed="#L" n="56"/>AD PRIMUM ERGO DICENDUM quod pulchrum et 
+bo<lb break="no" ed="#L" n="57"/>num in subiecto quidem sunt idem, quia super
+<lb ed="#L" n="58"/>eandem rem fundantur, scilicet super formam:
+<lb ed="#L" n="59"/>et propter hoc, bonum laudatur ut pulchrum. Sed
+<lb ed="#L" n="60"/>ratione differunt. Nam bonum proprie respicit
+<lb ed="#L" n="61"/>appetitum: est enim bonum quod omnia 
+appe<lb break="no" ed="#L" n="62"/>tunt. Et ideo habet rationem finis: nam 
+appeti<lb break="no" ed="#L" n="63"/>tus est quasi quidam motus ad rem. Pulchrum
+<lb ed="#L" n="64"/>autem respicit vim cognoscitivam: pulchra enim
+<lb ed="#L" n="65"/>dicuntur quae visa placent. Unde pulchrum in
+<lb ed="#L" n="66"/>debita proportione consistit: quia sensus 
+dele<lb break="no" ed="#L" n="67"/>ctatur " in rebus debite proportionatis, sicut in
+<lb ed="#L" n="68"/>sibi similibus; nam et sensus ratio quaedam est,
+<lb ed="#L" n="69"/>et omnis virtus cognoscitiva. Et quia cognitio fit
+<lb ed="#L" n="70"/>per assimilationem, similitudo autem respicit 
+for<lb break="no" ed="#L" n="71"/>mam, pulchrum proprie pertinet ad rationem
+<lb ed="#L" n="72"/>causae formalis.
+</p>
+               <p xml:id="TAca84-d1e72-d1e977">
+                  <lb ed="#L" n="73"/>AD SECUNDUM DICENDUM quod bonum dicitur 
+dif<lb break="no" ed="#L" n="74"/>fusivum sui esse, eo modo quo finis dicitur
+<lb ed="#L" n="75"/>movere.
+</p>
+               <p xml:id="TAca84-d1e72-d1e986">
+                  <lb ed="#L" n="76"/>AD TERTIUM DICENDUM quod quilibet habens 
+vo<lb break="no" ed="#L" n="77"/>luntatem, dicitur bonus inquantum habet bonam
+<lb ed="#L" n="78"/>voluntatem: quia per voluntatem utimur 
+omni<lb break="no" ed="#L" n="79"/>bus quae in nobis sunt. Unde non dicitur bonus
+<lb ed="#L" n="80"/>homo, qui habet bonum intellectum: sed qui
+<lb ed="#L" n="81"/>habet bonam voluntatem. Voluntas autem 
+respi<lb break="no" ed="#L" n="82"/>cit finem ut obiectum proprium: et sic, quod 
+di<lb break="no" ed="#L" n="83"/>citur, quia Deus est bonus, sumus, refertur ad
+<lb ed="#L" n="84"/>causam finalem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e72-Dd1e1009"><!-- p1-q5-a5 -->
+               <head xml:id="TAca84-d1e72-Hd1e1012">Articulus 5</head>
+               <head xml:id="TAca84-d1e72-Hd1e1014" type="question-title">utrum ratio boni consistat in modo, specie et ordine</head>
+               <p xml:id="TAca84-d1e72-d1e1017">
+                  <pb ed="#L" n="63"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUINTUS
+<lb ed="#L" n="2"/>UTRUM RATIO BONI CONSISTAT IN MODO, SPECIE ET ORDINE
+</p>
+               <p xml:id="TAca84-d1e72-d1e1028">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>ratio boni non consistat in modo, specie
+<lb ed="#L" n="5"/>et ordine. Bonum enim et ens ratione
+<lb ed="#L" n="6"/>differunt, ut supra dictum est. Sed
+<lb ed="#L" n="7"/>modus, species et ordo pertinere ad rationem
+<lb ed="#L" n="8"/>entis videntur: quia, sicut dicitur Sap. x1, omnia
+<lb ed="#L" n="9"/>in numero, pondere et mensura disposuisti, ad
+<lb ed="#L" n="10"/>quae tria reducuntur species, modus et ordo:
+<lb ed="#L" n="11"/>quia, ut dicit Augustinus, IV super Gen. ad 
+litte<lb break="no" ed="#L" n="12"/>ram: <quote xml:id="TAca84-d1e72-Qd1e1054" source="http://scta.info/resource/wN2gEA-LKGjO2-d1e135@181-200">mensura omni rei modum praefigit, et
+<lb ed="#L" n="13"/>numerus omni rei speciem praebet et pondus
+<lb ed="#L" n="14"/>omnem rem ad quietem et stabilitatem trahit</quote>. Ergo
+<lb ed="#L" n="15"/>ratio boni non consistit in modo, specie et ordine.
+</p>
+               <p xml:id="TAca84-d1e72-d1e1064">
+                  <lb ed="#L" n="16"/>2. PRAETEREA, ipse modus, species et ordo
+<lb ed="#L" n="17"/>bona quaedam sunt. Si ergo ratio boni consistit
+<lb ed="#L" n="18"/>in modo, specie et ordine, oportet etiam quod
+<lb ed="#L" n="19"/>modus habeat modum, speciem et ordinem: et
+<lb ed="#L" n="20"/>similiter species et ordo. Ergo procederetur in
+<lb ed="#L" n="21"/>infinitum.
+</p>
+               <p xml:id="TAca84-d1e72-d1e1081">
+                  <lb ed="#L" n="22"/>3. PRAETEREA, malum est privatio modi et 
+spe<lb break="no" ed="#L" n="23"/>ciei et. ordinis. Sed malum non tollit totaliter
+<lb ed="#L" n="24"/>bonum. Ergo ratio boni non consistit in modo,
+<lb ed="#L" n="25"/>specie et ordine.
+</p>
+               <p xml:id="TAca84-d1e72-d1e1092">
+                  <lb ed="#L" n="26"/>4. PRAETEREA, illud in quo consistit ratio boni,
+<lb ed="#L" n="27"/>non potest dici malum. Sed dicitur malus modus,
+<lb ed="#L" n="28"/>mala species, malus ordo. Ergo ratio boni non
+<lb ed="#L" n="29"/>consistit in modo, specie et ordine.
+</p>
+               <p xml:id="TAca84-d1e72-d1e1103">
+                  <lb ed="#L" n="30"/>5. PRAETEREA, modus, species et ordo ex 
+pon<lb break="no" ed="#L" n="31"/>dere, numero et mensura causantur, ut ex 
+au<lb break="no" ed="#L" n="32"/>ctoritate Augustini inducta patet. Non autem
+<lb ed="#L" n="33"/>omnia bona habent pondus, numerum et 
+men<lb break="no" ed="#L" n="34"/>suram: dicit enim Ambrosius, in Zexaemeron,
+<lb ed="#L" n="35"/>quod lucis natura est, ut non in numero, non in
+<lb ed="#L" n="36"/>pondere, non in mensura creata sit. Non ergo
+<lb ed="#L" n="37"/>ratio boni consistit in modo, specie et ordine.
+</p>
+               <p xml:id="TAca84-d1e72-d1e1123">
+                  <lb ed="#L" n="38"/>SED CONTRA EST quod dicit Augustinus, in libro
+<lb ed="#L" n="39"/>de Natura Boni: <quote xml:id="TAca84-d1e72-Qd1e1129">Haec tria, modus, species et
+<lb ed="#L" n="40"/>ordo, tanquam generalia bona sunt in rebus a
+<lb ed="#L" n="41"/>Deo factis: et ita, haec tria ubi magna sunt, 
+ma<lb break="no" ed="#L" n="42"/>gna bona sunt; ubi parva, parva bona sunt; ubi
+<lb ed="#L" n="43"/>nulla, nullum bonum est</quote>. Quod non esset, nisi
+<lb ed="#L" n="44"/>ratio boni in eis consisteret. Ergo ratio boni 
+con<lb break="no" ed="#L" n="45"/>sistit in modo, specie et ordine.
+</p>
+               <p xml:id="TAca84-d1e72-d1e1145">
+                  <lb ed="#L" n="46"/>RESPONDEO DICENDUM quod unumquodque 
+di<lb break="no" ed="#L" n="47"/>citur bonum, inquantum est perfectum: sic enim
+<lb ed="#L" n="48"/>est appetibile, ut supra dictum est. Perfectum
+<lb ed="#L" n="49"/>autem dicitur, cui nihil. deest secundum modum
+<lb ed="#L" n="50"/>suae perfectionis. Cum autem unumquodque sit
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="51"/>id quod est, per suam formam; forma autem
+<lb ed="#L" n="52"/>praesupponit quaedam, et quaedam ad ipsam ex
+<lb ed="#L" n="53"/>necessitate consequuntur; ad hoc quod aliquid
+<lb ed="#L" n="54"/>sit perfectum et bonum, necesse est quod 
+for<lb break="no" ed="#L" n="55"/>mam habeat, et ea quae praeexiguntur ad eam,
+<lb ed="#L" n="56"/>et ea quae consequuntur ad ipsam. Praeexigitur
+<lb ed="#L" n="57"/>autem ad formam determinatio sive 
+commensu<lb break="no" ed="#L" n="58"/>ratio principiorum, seu materialium, seu 
+efficien<lb break="no" ed="#L" n="59"/>tium ipsam: et hoc significatur per modum: unde
+<lb ed="#L" n="60"/>dicitur quod mensura modum praefigit. lpsa
+<lb ed="#L" n="61"/>autem forma significatur per speciem: quia per
+<lb ed="#L" n="62"/>formam unumquodque in specie constituitur. Et
+<lb ed="#L" n="63"/>propter hoc dicitur quod numerus speciem 
+prae<lb break="no" ed="#L" n="64"/>bet: quia definitiones significantes speciem sunt
+<lb ed="#L" n="65"/>sicut numeri, secundum Philosophum in VIII 
+AMe<lb break="no" ed="#L" n="66"/>taphys.; sicut enim unitas addita vel subtracta
+<lb ed="#L" n="67"/>variat speciem numeri, ita in definitionibus 
+diffe<lb break="no" ed="#L" n="68"/>rentia apposita vel subtracta. Ad formam autem
+<lb ed="#L" n="69"/>consequitur inclinatio ad finem, aut ad actionem,
+<lb ed="#L" n="70"/>aut ad aliquid huiusmodi: quia unumquodque,
+<lb ed="#L" n="71"/>inquantum est actu, agit, et tendit in id quod sibi
+<lb ed="#L" n="72"/>convenit secundum suam formam. Et hoc pertinet
+<lb ed="#L" n="73"/>ad pondus et ordinem. Unde ratio boni, secundum
+<lb ed="#L" n="74"/>quod consistit in perfectione, consistit etiam " in
+<lb ed="#L" n="75"/>modo, specie et ordine.
+</p>
+               <p xml:id="TAca84-d1e72-d1e1215">
+                  <lb ed="#L" n="76"/>AD PRIMUM ERGO DICENDUM quod ista tria non
+<lb ed="#L" n="77"/>consequuntur ens, nisi inquantum est perfectum :
+<lb ed="#L" n="78"/>et secundum hoc est bonum.
+</p>
+               <p xml:id="TAca84-d1e72-d1e1225">
+                  <lb ed="#L" n="79"/>AD SECUNDUM DICENDUM quod modus, species et
+<lb ed="#L" n="80"/>ordo eo modo dicuntur bona, sicut et entia:
+<lb ed="#L" n="81"/>non quia ipsa sint quasi subsistentia, sed quia
+<lb ed="#L" n="82"/>eis alia sunt et entia et bona. Unde non oportet
+<lb ed="#L" n="83"/>quod ipsa habeant aliqua alia, quibus sint bona.
+<lb ed="#L" n="84"/>Non enim sic dicuntur bona, quasi formaliter aliis '
+<lb ed="#L" n="85"/>sint bona; sed quia ipsis formaliter aliqua sunt
+<lb ed="#L" n="86"/>bona; sicut albedo non dicitur ens quia ipsa aliquo
+<lb ed="#L" n="87"/>sit, sed quia ipsa aliquid est secundum quid,
+<lb ed="#L" n="88"/>scilicet album.
+</p>
+               <p xml:id="TAca84-d1e72-d1e1249">
+                  <lb ed="#L" n="89"/>AD TERTIUM DICENDUM quod quodlibet esse est 
+se<lb break="no" ed="#L" n="90"/>cundum formam aliquam: unde secundum 
+quod<lb break="no" ed="#L" n="91"/>libet esse rei, consequuntur? ipsam modus, species
+<lb ed="#L" n="92"/>et ordo: sicut homo habet speciem, modum et
+<lb ed="#L" n="93"/>ordinem, inquantum est homo; et similiter 
+in<lb break="no" ed="#L" n="94"/>quantum est albus ^, habet similiter modum, 
+spe<lb break="no" ed="#L" n="95"/>ciem et ordinem; et inquantum est virtuosus, et
+<lb ed="#L" n="96"/>inquantum est sciens, et secundum omnia quae
+<lb ed="#L" n="97"/>de ipso dicuntur. Malum autem privat quodam
+<lb ed="#L" n="98"/>esse, sicut caecitas privat esse visus: unde non
+</p>
+               <p xml:id="TAca84-d1e72-d1e1273">
+                  <pb ed="#L" n="64"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tollit omnem modum, speciem et ordinem; sed  
+<lb ed="#L" n="2"/>solum modum, speciem et ordinem quae 
+con<lb break="no" ed="#L" n="3"/>sequuntur esse visus. 
+</p>
+               <p xml:id="TAca84-d1e72-d1e1286">
+                  <lb ed="#L" n="4"/>AD QUARTUM DICENDUM quod, sicut dicit 
+Augu<lb break="no" ed="#L" n="5"/>stinus in libro de Natura Boni, <quote xml:id="TAca84-d1e72-Qd1e1292">omnis modus, 
+<lb ed="#L" n="6"/>inquantum modus, bonus est (et sic potest dici
+<lb ed="#L" n="7"/>de specie et ordine): sed malus modus, vel mala
+<lb ed="#L" n="8"/>species, vel malus ordo, aut ideo dicuntur quia
+<lb ed="#L" n="9"/>minora sunt quam esse debuerunt; aut quia non
+<cb ed="#L" n="b"/>
+                     <lb ed="#L" n="10"/>his rebus accommodantur, quibus accommodanda
+<lb ed="#L" n="11"/>sunt; ut ideo dicantur  mala, quia sunt aliena
+<lb ed="#L" n="12"/>et incongrua.</quote>
+               </p>
+               <p xml:id="TAca84-d1e72-d1e1313">
+                  <lb ed="#L" n="13"/>AD QUINTUM DICENDUM quod natura lucis dicitur
+<lb ed="#L" n="14"/>esse sine numero et pondere et mensura; non
+<lb ed="#L" n="15"/>simpliciter, sed per comparationem ad 
+corpora<lb break="no" ed="#L" n="16"/>lia: quia virtus lucis ad omnia corporalia se 
+ex<lb break="no" ed="#L" n="17"/>tendit, inquantum est qualitas activa primi 
+cor<lb break="no" ed="#L" n="18"/>poris alterantis, scilicet caeli.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e72-Dd1e1330"><!-- p1-q5-a6 -->
+               <head xml:id="TAca84-d1e72-Hd1e1333">Articulus 6</head>
+               <head xml:id="TAca84-d1e72-Hd1e1335" type="question-title">utrum convenienter dividatur bonum per honestum, utile et delectabile</head>
+               <p xml:id="TAca84-d1e72-d1e1338">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="88"/>ARTICULUS SEXTUS
+<lb ed="#L" n="89"/>UTRUM CONVENIENTER DIVIDATUR BONUM PER HONESTUM, UTILE ET DELECTABILE
+</p>
+               <p xml:id="TAca84-d1e72-d1e1347">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="90"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="91"/>non convenienter dividatur bonum per
+<lb ed="#L" n="92"/>honestum, utile et delectabile. Bonum
+<lb ed="#L" n="93"/>enim, sicut dicit Philosophus in I Ethic.
+<lb ed="#L" n="94"/>dividitur per decem praedicamenta. Honestum
+<lb ed="#L" n="95"/>autem, utile et delectabile inveniri possunt in
+<lb ed="#L" n="96"/>uno praedicamento. Ergo non convenienter per
+<lb ed="#L" n="97"/>haec dividitur bonum.
+</p>
+               <p xml:id="TAca84-d1e72-d1e1369">
+                  <lb ed="#L" n="98"/>2. PRAETEREA, omnis divisio fit per opposita.
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="99"/>Sed haec tria non videntur esse opposita: nam
+<lb ed="#L" n="100"/>honesta sunt delectabilia, nullumque inhonestum
+<lb ed="#L" n="101"/>est utile (quod tamen oportet, si divisio fieret
+<lb ed="#L" n="102"/>per opposita, ut opponerentur honestum et utile 8,
+<lb ed="#L" n="103"/>ut etiam dicit Tullius, in libro de Officiis. Ergo
+<lb ed="#L" n="104"/>praedicta divisio non est conveniens.
+<lb ed="#L" n="105"/>
+                  <lb ed="#L" n="106"/>3. PRAETEREA, ubi unum propter alterum, ibi
+<lb ed="#L" n="107"/>unum tantum est ?. Sed utile non est bonum
+<lb ed="#L" n="108"/>nisi propter delectabile vel honestum. Ergo non
+<pb ed="#L" n="65"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>debet utile dividi ? contra delectabile et 
+hone<lb break="no" ed="#L" n="2"/>stum.
+</p>
+               <p xml:id="TAca84-d1e72-d1e1407">
+                  <lb ed="#L" n="3"/>SED coNTRA EsT quod Ambrosius, in libro de
+<lb ed="#L" n="4"/>Officiis, utitur ista divisione boni.
+</p>
+               <p xml:id="TAca84-d1e72-d1e1414">
+                  <lb ed="#L" n="5"/>RESPONDEO DICENDUM quod haec divisio proprie
+<lb ed="#L" n="6"/>videtur esse boni humani. Si tamen altius et
+<lb ed="#L" n="7"/>communius rationem boni consideremus, 
+inve<lb break="no" ed="#L" n="8"/>nitur haec divisio proprie competere bono, 
+se<lb break="no" ed="#L" n="9"/>cundum quod bonum est. Nam bonum est 
+ali<lb break="no" ed="#L" n="10"/>quid, inquantum est appetibile, et terminus motus
+<lb ed="#L" n="11"/>appetitus, Cuius quidem motus terminatio 
+con<lb break="no" ed="#L" n="12"/>siderari potest ex consideratione motus corporis
+<lb ed="#L" n="13"/>naturalis. Terminatur autem motus corporis 
+na<lb break="no" ed="#L" n="14"/>turalis, simpliciter quidem ad ultimum; secundum
+<lb ed="#L" n="15"/>quid autem etiam ad medium, per quod itur ad
+<lb ed="#L" n="16"/>x ultimum quod terminat motum, et dicitur aliquis
+<lb ed="#L" n="17"/>terminus motus, inquantum aliquam partem 
+mo<lb break="no" ed="#L" n="18"/>tus terminat. Id autem quod est ultimus terminus
+<lb ed="#L" n="19"/>motus, potest accipi dupliciter: vel ipsa res in
+<lb ed="#L" n="20"/>quam tenditur, utpote locus vel forma; vel quies
+<lb ed="#L" n="21"/>in re illa. Sic ergo in motu appetitus, id quod
+<lb ed="#L" n="22"/>est appetibile terminans motum appetitus 
+secun<lb break="no" ed="#L" n="23"/>dum quid, ut medium per quod tenditur in aliud,
+<lb ed="#L" n="24"/>vocatur u£ile. Id autem quod appetitur ut 
+ulti<lb break="no" ed="#L" n="25"/>mum, terminans totaliter motum appetitus, sicut
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="26"/>quaedam res in quam per se appetitus tendit,
+<lb ed="#L" n="27"/>vocatur honestum: quia honestum dicitur quod
+<lb ed="#L" n="28"/>per se desideratur. Id autem quod terminat 
+mo<lb break="no" ed="#L" n="29"/>tum appetitus ut quies in re desiderata, est 
+de<lb break="no" ed="#L" n="30"/>lectatio.
+</p>
+               <p xml:id="TAca84-d1e72-d1e1475">
+                  <lb ed="#L" n="31"/>AD PRIMUM ERGO DICENDUM quod bonum, 
+in<lb break="no" ed="#L" n="32"/>quantum est idem subiecto cum ente, dividitur
+<lb ed="#L" n="33"/>per decem praedicamenta: sed secundum 
+pro<lb break="no" ed="#L" n="34"/>priam rationem, competit sibi ista divisio.
+</p>
+               <p xml:id="TAca84-d1e72-d1e1486">
+                  <lb ed="#L" n="35"/>AD SECUNDUM DICENDUM quod haec 5 divisio non
+<lb ed="#L" n="36"/>est per oppositas res, sed per oppositas rationes.
+<lb ed="#L" n="37"/>Dicuntur tamen illa proprie delectabilia, quae
+<lb ed="#L" n="38"/>nullam habent aliam rationem appetibilitatis nisi
+<lb ed="#L" n="39"/>delectationem, cum aliquando sint et noxia et
+<lb ed="#L" n="40"/>inhonesta. Utilia vero dicuntur, quae non habent
+<lb ed="#L" n="41"/>in se unde desiderentur; sed desiderantur solum
+<lb ed="#L" n="42"/>ut sunt ducentia in alterum, sicut sumptio 
+medici<lb break="no" ed="#L" n="43"/>nae amarae. Honesta vero dicuntur, quae in 
+se<lb break="no" ed="#L" n="44"/>ipsis habent unde desiderentur.
+</p>
+               <p xml:id="TAca84-d1e72-d1e1510">
+                  <lb ed="#L" n="45"/>Ab TERTIUM DICENDUM quod bonum non 
+divi<lb break="no" ed="#L" n="46"/>ditur in ista tria sicut univocum aequaliter de
+<lb ed="#L" n="47"/>his praedicatum: sed sicut analogum, quod 
+prae<lb break="no" ed="#L" n="48"/>dicatur secundum prius et posterius. Per prius
+<lb ed="#L" n="49"/>enim praedicatur de honesto; et secundario ' de
+<lb ed="#L" n="50"/>delectabili; tertio de utili.
+<lb ed="#L" n="51"/>
+                  <lb ed="#L" n="52"/>
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>Titulus clarus. - In corpore duae conclusiones: 'altera 
+se<lb break="no" ed="#L" n="54"/>s reato communem opinionem; altera propria. Prima
+<lb ed="#L" n="55"/>est: Haec divisio dicitur proprie esse boni humani. Secunda
+<lb ed="#L" n="56"/>est: Haec divisio proprie est boni in eo quod bonum. 
+</p>
+               <p xml:id="TAca84-d1e72-d1e1541">
+                  <lb ed="#L" n="57"/>Probatur utraque sic, Terminus corporalis motus 
+con<lb break="no" ed="#L" n="58"/>venienter dividitur per ea quae sunt proportionalia 
+hone<lb break="no" ed="#L" n="59"/>sto, utili et delectabili. Ergo terminus motus appetitivi bene
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="60"/>dividitur in honestum, utile et delectabile. Ergo et bonum. —
+<lb ed="#L" n="61"/>Antecedens declaratur ex divisione termini motus in 
+se<lb break="no" ed="#L" n="62"/>cundum quid et simpliciter: et rursus termini simpliciter,
+<lb ed="#L" n="63"/>in ipsam rem terminantem, et quietem in ea. 
+Consequen<lb break="no" ed="#L" n="64"/>tia vero prima probatur: quia terminus motus appetitivi
+<lb ed="#L" n="65"/>ex terminatione motus corporalis innotescit. Secunda vero:
+<lb ed="#L" n="66"/>quia bonum est id quod appetitur. - Omnia sunt clara.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

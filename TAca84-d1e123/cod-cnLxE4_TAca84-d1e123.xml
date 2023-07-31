@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="202"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e123"><!-- p1-q15 -->
+            <head xml:id="TAca84-d1e123-Hd1e99">Quaestio 15</head>
+            <head xml:id="TAca84-d1e123-Hd1e101" type="question-title">de ideis</head>
+            <p xml:id="TAca84-d1e123-d1e104">
+               <pb ed="#L" n="202"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO DECIMAQUINTA
+<lb ed="#L" n="2"/>DE IDEIS
+<lb ed="#L" n="3"/>IN TRES ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e123-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>POST considerationem de scientia Dei, restat
+<lb ed="#L" n="5"/>ej considerare de ideis.
+<lb ed="#L" n="6"/>Et circa hoc quaeruntur tria.
+</p>
+            <p xml:id="TAca84-d1e123-d1e128">
+               <lb ed="#L" n="7"/>Primo: an sint ideae.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="8"/>Secundo: utrum sint plures, vel una tantum.
+<lb ed="#L" n="9"/>Tertio: utrum sint omnium quae 
+cognoscun<lb break="no" ed="#L" n="10"/>tur a Deo.
+</p>
+            <div xml:id="TAca84-d1e123-Dd1e142"><!-- p1-q15-a1 -->
+               <head xml:id="TAca84-d1e123-Hd1e145">Articulus 1</head>
+               <head xml:id="TAca84-d1e123-Hd1e147" type="question-title">utrum ideae sint</head>
+               <p xml:id="TAca84-d1e123-d1e150">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="11"/>ARTICULUS PRIMUS
+<lb ed="#L" n="12"/>UTRUM IDEAE SINT
+</p>
+               <p xml:id="TAca84-d1e123-d1e159">
+                  <lb ed="#L" n="13"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="14"/>ideae non sint^. Dicit enim Dionysius,
+<lb ed="#L" n="15"/>VII cap. de Div. Nom., quod Deus non
+<lb ed="#L" n="16"/>cognoscit res secundum ideam. Sed
+<lb ed="#L" n="17"/>ideae non ponuntur ad aliud, nisi ut per eas 
+co<lb break="no" ed="#L" n="18"/>gnoscantur res. Ergo ideae non sunt.
+</p>
+               <p xml:id="TAca84-d1e123-d1e175">
+                  <lb ed="#L" n="19"/>2. PRAETEREA, Deus in seipso cognoscit omnia,
+<lb ed="#L" n="20"/>ut supra dictum est. Sed seipsum non 
+cogno<lb break="no" ed="#L" n="21"/>scit per ideam. Ergo nec alia.
+</p>
+               <p xml:id="TAca84-d1e123-d1e185">
+                  <lb ed="#L" n="22"/>3. PRAETEREA, idea ponitur ut principium 
+co<lb break="no" ed="#L" n="23"/>gnoscendi et operandi. Sed essentia divina est 
+suf<lb break="no" ed="#L" n="24"/>ficiens principium cognoscendi et operandi omnia.
+<lb ed="#L" n="25"/>Non ergo necesse est ponere ideas.
+</p>
+               <p xml:id="TAca84-d1e123-d1e196">
+                  <lb ed="#L" n="26"/>SED CONTRA EST quod dicit Augustinus, in libro
+<lb ed="#L" n="27"/>Octoginta trium Quaest.: <quote xml:id="TAca84-d1e123-Qd1e202">Tanta vis in ideis 
+con<lb break="no" ed="#L" n="28"/>stituitur, ut, nisi his intellectis, sapiens esse nemo
+<lb ed="#L" n="29"/>possit</quote>.
+</p>
+               <p xml:id="TAca84-d1e123-d1e210">
+                  <lb ed="#L" n="30"/>RESPONDEO DICENDUM quod necesse est ponere
+<lb ed="#L" n="31"/>in mente divina ideas. /dea enim graece, latine
+<lb ed="#L" n="32"/>forma dicitur: unde per ideas intelliguntur 
+for<lb break="no" ed="#L" n="33"/>mae aliarum rerum, praeter ipsas res ? existentes.
+<lb ed="#L" n="34"/>Forma autem alicuius rei praeter ipsam existens,
+<lb ed="#L" n="35"/>ad duo esse potest: vel ut sit exemplar eius cuius
+<lb ed="#L" n="36"/>dicitur forma; vel ut sit principium cognitionis
+<lb ed="#L" n="37"/>ipsius, secundum quod formae cognoscibilium
+<lb ed="#L" n="38"/>dicuntur esse in cognoscente. Et quantum ad
+<lb ed="#L" n="39"/>utrumque est necesse ponere ideas.
+</p>
+               <p xml:id="TAca84-d1e123-d1e234">
+                  <lb ed="#L" n="40"/>Quod sic patet. In omnibus enim quae non a
+<lb ed="#L" n="41"/>casu generantur, necesse est formam esse finem
+<lb ed="#L" n="42"/>generationis cuiuscumque. Agens autem non
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="43"/>ageret propter formam, nisi inquantum similitudo
+<lb ed="#L" n="44"/>formae est in ipso. Quod quidem contingit 
+dupli<lb break="no" ed="#L" n="45"/>citer. In quibusdam enim agentibus praeexistit 
+for<lb break="no" ed="#L" n="46"/>ma rei fiendae'secundum esse naturale, sicut in
+<lb ed="#L" n="47"/>his quae agunt per naturam; sicut homo generat
+<lb ed="#L" n="48"/>hominem, et ignis ignem. In quibusdam vero
+<lb ed="#L" n="49"/>secundum esse intelligibile, ut in his quae agunt
+<lb ed="#L" n="50"/>per intellectum; sicut similitudo domus 
+praeexi<lb break="no" ed="#L" n="51"/>stit in mente aedificatoris. Et haec potest dici idea
+<lb ed="#L" n="52"/>domus: quia artifex intendit domum assimilare
+<lb ed="#L" n="53"/>formae quam mente concepit. .
+</p>
+               <p xml:id="TAca84-d1e123-d1e269">
+                  <lb ed="#L" n="54"/>Quia igitur mundus non est casu factus, sed est
+<lb ed="#L" n="55"/>factus a Deo per intellectum agente, ut infra 
+pa<lb break="no" ed="#L" n="56"/>tebit, necesse est quod in mente divina sit forma,
+<lb ed="#L" n="57"/>ad similitudinem cuius mundus est factus. Et in
+<lb ed="#L" n="58"/>hoc consistit ratio ideae.
+</p>
+               <p xml:id="TAca84-d1e123-d1e282">
+                  <lb ed="#L" n="59"/>AD PRIMUM ERGO DICENDUM quod Deus non 
+in<lb break="no" ed="#L" n="60"/>telligit res secundum ideam extra se existentem.
+<lb ed="#L" n="61"/>Et sic etiam Aristoteles improbat opinionem 
+Pla<lb break="no" ed="#L" n="62"/>tonis de ideis, secundum quod ponebat eas per
+<lb ed="#L" n="63"/>se existentes, non in intellectu.
+</p>
+               <p xml:id="TAca84-d1e123-d1e296">
+                  <lb ed="#L" n="64"/>AD SECUNDUM DICENDUM quod, licet Deus per
+<lb ed="#L" n="65"/>essentiam suam se et alia cognoscat, tamen 
+es<lb break="no" ed="#L" n="66"/>sentia sua est principium operativum aliorum, non
+<lb ed="#L" n="67"/>autem sui ipsius: et ideo habet rationem ideae
+<lb ed="#L" n="68"/>secundum quod ad alia comparatur, non autem
+<lb ed="#L" n="69"/>secundum quod comparatur ad ipsum Deum.
+</p>
+               <p xml:id="TAca84-d1e123-d1e312">
+                  <lb ed="#L" n="70"/>AD TERTIUM DICENDUM quod Deus secundum 
+es<lb break="no" ed="#L" n="71"/>sentiam suam est similitudo omnium rerum. Unde
+<lb ed="#L" n="72"/>idea in Deo nihil est aliud quam Dei essentia
+</p>
+            </div>
+            <div xml:id="TAca84-d1e123-Dd1e322"><!-- p1-q15-a2 -->
+               <head xml:id="TAca84-d1e123-Hd1e325">Articulus 2</head>
+               <head xml:id="TAca84-d1e123-Hd1e327" type="question-title">
+  utrum sint plures ideae
+</head>
+               <p xml:id="TAca84-d1e123-d1e330">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="57"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="58"/>UTRUM SINT PLURES IDEAE
+</p>
+               <p xml:id="TAca84-d1e123-d1e339">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="59"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="60"/>non sint plures ideae. Idea enim in Deo
+<lb ed="#L" n="61"/>a est eius essentia. Sed essentia Dei est
+<lb ed="#L" n="62"/>una tantum. Ergo et idea est una.
+</p>
+               <p xml:id="TAca84-d1e123-d1e352">
+                  <lb ed="#L" n="63"/>2. PRAETEREA, sicut idea est principium 
+cogno<lb break="no" ed="#L" n="64"/>scendi et operandi, ita ars et sapientia. Sed in
+<lb ed="#L" n="65"/>Deo non sunt plures artes et sapientiae. Ergo
+<lb ed="#L" n="66"/>nec plures ideae.
+</p>
+               <p xml:id="TAca84-d1e123-d1e364">
+                  <lb ed="#L" n="67"/>3. Si dicatur quod ideae multiplicantur 
+secun<lb break="no" ed="#L" n="68"/>dum respectus ad diversas creaturas, contra: 
+Plu<lb break="no" ed="#L" n="69"/>ralitas idearum est ab aeterno. Si ergo ideae
+<lb ed="#L" n="70"/>sunt plures, creaturae autem sunt temporales,
+<lb ed="#L" n="71"/>ergo temporale erit causa aeterni.
+</p>
+               <p xml:id="TAca84-d1e123-d1e377">
+                  <lb ed="#L" n="72"/>4. PRAETEREA, respectus isti aut sunt secundum
+<lb ed="#L" n="73"/>rem in creaturis tantum, aut etiam in Deo. Si in
+<lb ed="#L" n="74"/>creaturis tantum, cum creaturae non sint ab 
+ae<lb break="no" ed="#L" n="75"/>terno, pluralitas idearum non erit ab aeterno, si
+<lb ed="#L" n="76"/>multiplicentur solum secundum huiusmodi ? 
+re<lb break="no" ed="#L" n="77"/>spectus. Si autem realiter sunt in Deo, sequitur
+<lb ed="#L" n="78"/>quod alia pluralitas realis sit in Deo quam 
+plu<lb break="no" ed="#L" n="79"/>ralitas Personarum: quod est contra 
+Damasce<lb break="no" ed="#L" n="80"/>num, dicentem quod in divinis omnia unum
+<lb ed="#L" n="81"/>sunt, praeter <quote xml:id="TAca84-d1e123-Qd1e400">in generationem, generationem et.
+<lb ed="#L" n="82"/>processionem</quote>. Sic igitur non sunt plures ideae.
+</p>
+               <p xml:id="TAca84-d1e123-d1e406">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="83"/>SED cONTRA EsT quod dicit Augustinus, in 
+li<lb break="no" ed="#L" n="84"/>bro Octoginta trium Quaest.: <quote xml:id="TAca84-d1e123-Qd1e414">Ideae sunt 
+yprin<lb break="no" ed="#L" n="85"/>cipales quaedam formae vel rationes rerum sta-
+<cb ed="#L" n="f"/>
+                     <lb ed="#L" n="86"/>biles atque incommutabiles, quia ipsae formatae
+<lb ed="#L" n="87"/>non sunt, ac per hoc aelernae ac semper eodem
+<lb ed="#L" n="88"/>modo se habentes, quae divina intelligentia 
+con<lb break="no" ed="#L" n="89"/>linentur. Sed cum ipsae neque oriantur neque
+<lb ed="#L" n="90"/>intereant, secundum eas tamen formari dicitur
+<lb ed="#L" n="91"/>omne quod oriri et interire potest, et omne quod
+<lb ed="#L" n="92"/>oritur et interit</quote>.
+</p>
+               <p xml:id="TAca84-d1e123-d1e437">
+                  <lb ed="#L" n="93"/>RESPONDEO DICENDUM quod necesse est ponere
+<lb ed="#L" n="94"/>plures ideas. Ad cuius evidentiam , 
+consideran<lb break="no" ed="#L" n="95"/>dum est quod in quolibet effectu illud quod est
+<lb ed="#L" n="96"/>ultimus finis, proprie est intentum a principali
+<lb ed="#L" n="97"/>agente; sicut ordo exercitus a duce. Illud autem
+<lb ed="#L" n="98"/>quod est optimum in rebus existens, est bonum
+<lb ed="#L" n="99"/>ordinis universi, ut patet per Philosophum in XII
+<lb ed="#L" n="100"/>AMetaphys. Ordo igitur universi est proprie a
+<lb ed="#L" n="101"/>Deo intentus, et non per accidens proveniens 
+se<lb break="no" ed="#L" n="102"/>cundum successionem agentium: prout quidam
+<lb ed="#L" n="103"/>dixerunt quod Deus creavit primum creatum 
+tan<lb break="no" ed="#L" n="104"/>tum, quod creatum creavit secundum creatum,
+<lb ed="#L" n="105"/>et sic inde quousque producta est tanta rerum
+<lb ed="#L" n="106"/>multitudo: secundum quam opinionem, Deus non
+<lb ed="#L" n="107"/>haberet nisi ideam primi creati. Sed si ipse ordo
+<lb ed="#L" n="108"/>universi est per se creatus ab eo, et intentus ab
+<lb ed="#L" n="109"/>ipso, necesse est quod habeat ideam ordinis 
+uni<lb break="no" ed="#L" n="110"/>versi. Ratio autem alicuius totius haberi non
+<lb ed="#L" n="111"/>potest, nisi habeantur propriae rationes eorum ex
+<lb ed="#L" n="112"/>quibus totum constituitur: sicut aedificator spe-
+<pb ed="#L" n="205"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ciem domus concipere non posset, nisi apud
+<lb ed="#L" n="2"/>ipsum esset propria ratio cuiuslibet partium eius.
+<lb ed="#L" n="3"/>Sic igitur oportet quod in mente divina sint 
+pro<lb break="no" ed="#L" n="4"/>priae rationes omnium rerum. Unde dicit 
+Augu<lb break="no" ed="#L" n="5"/>stinus, in libro Octoginta trium Quaest., quod
+<quote xml:id="TAca84-d1e123-Qd1e497">singula propriis rationibus a Deo creata sunt</quote>. Unde
+<lb ed="#L" n="6"/>sequitur quod in mente divina sint plures ideae.
+</p>
+               <p xml:id="TAca84-d1e123-d1e502">
+                  <lb ed="#L" n="7"/>Hoc autem quomodo divinae simplicitati non
+<lb ed="#L" n="8"/>repugnet, facile est videre, si quis consideret
+<lb ed="#L" n="9"/>ideam operati esse in mente operantis sicut quod
+<lb ed="#L" n="10"/>intelligitur; non autem sicut species qua 
+intelli<lb break="no" ed="#L" n="11"/>gitur, quae est forma faciens intellectum in actu.
+<lb ed="#L" n="12"/>Forma enim domus in mente aedificatoris est
+<lb ed="#L" n="13"/>aliquid ab eo intellectum, ad cuius similitudinem
+<lb ed="#L" n="14"/>domum in materia format. Non est autem contra
+<lb ed="#L" n="15"/>simplicitatem divini intellectus, quod multa 
+intel<lb break="no" ed="#L" n="16"/>ligat: sed contra simplicitatem eius esset, si per
+<lb ed="#L" n="17"/>plures species eius intellectus formaretur. Unde
+<lb ed="#L" n="18"/>plures ideae sunt in mente divina ut intellectae
+<lb ed="#L" n="19"/>ab ipso.
+</p>
+               <p xml:id="TAca84-d1e123-d1e533">
+                  <lb ed="#L" n="20"/>Quod hoc modo potest videri. Ipse enim 
+es<lb break="no" ed="#L" n="21"/>sentiam suam perfecte cognoscit: unde cognoscit
+<lb ed="#L" n="22"/>eam secundum omnem modum quo 
+cognosci<lb break="no" ed="#L" n="23"/>bilis est. Potest autem cognosci non solum 
+se<lb break="no" ed="#L" n="24"/>cundum quod in se est, sed secundum quod est
+<lb ed="#L" n="25"/>participabilis secundum aliquem modum 
+simili<lb break="no" ed="#L" n="26"/>tudinis a creaturis. Unaquaeque autem creatura
+<lb ed="#L" n="27"/>habet propriam speciem, secundum quod aliquo
+<lb ed="#L" n="28"/>modo participat divinae essentiae similitudinem.
+<lb ed="#L" n="29"/>Sic igitur inquantum Deus cognoscit suam 
+essen<lb break="no" ed="#L" n="30"/>tiam ut sic imitabilem a tali creatura, cognoscit
+<lb ed="#L" n="31"/>eam ut propriam rationem et ideam huius 
+crea<lb break="no" ed="#L" n="32"/>turae. Et similiter de aliis. Et sic patet quod
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="33"/>Deus intelligit plures rationes proprias plurium
+<lb ed="#L" n="34"/>rerum; quae sunt plures ideae.
+</p>
+               <p xml:id="TAca84-d1e123-d1e571">
+                  <lb ed="#L" n="35"/>AD PRIMUM ERGO. DICENDUM quod idea non 
+no<lb break="no" ed="#L" n="36"/>minat divinam essentiam inquantum est essentia,
+<lb ed="#L" n="37"/>sed inquantum ' est similitudo vel ratio huius
+<lb ed="#L" n="38"/>vel illius rei. Unde secundum quod sunt plures
+<lb ed="#L" n="39"/>rationes intellectae ex una essentia, secundum hoc
+<lb ed="#L" n="40"/>dicuntur plures ideae.
+</p>
+               <p xml:id="TAca84-d1e123-d1e587">
+                  <lb ed="#L" n="41"/>AD SECUNDUM DICENDUM quod sapientia et ars
+<lb ed="#L" n="42"/>significantur ut quo Deus intelligit, sed idea ut
+<lb ed="#L" n="43"/>quod Deus intelligit. Deus autem uno intelligit
+<lb ed="#L" n="44"/>multa; et non solum secundum quod ! in seipsis
+<lb ed="#L" n="45"/>sunt, sed etiam secundum quod intellecta sunt ^;
+<lb ed="#L" n="46"/>quod est intelligere plures rationes rerum. Sicut
+<lb ed="#L" n="47"/>artifex, dum intelligit formam domus in materia,
+<lb ed="#L" n="48"/>dicitur intelligere domum: dum autem intelligit
+<lb ed="#L" n="49"/>formam domus ut " a se speculatam, ex eo quod
+<lb ed="#L" n="50"/>intelligit se intelligere eam, intelligit ideam vel
+<lb ed="#L" n="51"/>rationem domus. Deus. autem non solum 
+intel<lb break="no" ed="#L" n="52"/>ligit multas res per essentiam suam, sed etiam
+<lb ed="#L" n="53"/>intelligit se intelligere multa per essentiam suam.
+<lb ed="#L" n="54"/>Sed hoc est intelligere plures rationes rerum;
+<lb ed="#L" n="55"/>vel, plures ideas esse in intellectu eius ut 
+intel<lb break="no" ed="#L" n="56"/>lectas.
+</p>
+               <p xml:id="TAca84-d1e123-d1e624">
+                  <lb ed="#L" n="57"/>AD TERTIUM DICENDUM quod huiusmodi 
+respe<lb break="no" ed="#L" n="58"/>ctus, quibus multiplicantur ideae, non causantur
+<lb ed="#L" n="59"/>a rebus, sed ab intellectu divino, comparante 
+es<lb break="no" ed="#L" n="60"/>sentiam suam ad res.
+</p>
+               <p xml:id="TAca84-d1e123-d1e635">
+                  <lb ed="#L" n="61"/>AD QUARTUM DICENDUM quod respectus 
+multipli<lb break="no" ed="#L" n="62"/>cantes ideas, non sunt in rebus creatis, sed in
+<lb ed="#L" n="63"/>Deo. Non tamen sunt reales respectus, sicut illi
+<lb ed="#L" n="64"/>quibus distinguuntur Personae, sed respectus 
+in<lb break="no" ed="#L" n="65"/>tellecti a Deo.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e123-Dd1e649"><!-- p1-q15-a3 -->
+               <head xml:id="TAca84-d1e123-Hd1e652">Articulus 3</head>
+               <head xml:id="TAca84-d1e123-Hd1e654" type="question-title">utrum omnium quae cognoscit deus, sint ideae</head>
+               <p xml:id="TAca84-d1e123-d1e657">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>ARTICULUS TERTIUS
+<lb ed="#L" n="18"/>UTRUM OMNIUM QUAE COGNOSCIT DEUS, SINT IDEAE
+</p>
+               <p xml:id="TAca84-d1e123-d1e666">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="19"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="20"/>non omnium quae cognoscit Deus, sint
+<lb ed="#L" n="21"/>ideae in ipso. Mali enim idea non est
+<lb ed="#L" n="22"/>in Deo: quia sequeretur malum esse in
+<lb ed="#L" n="23"/>Deo. Sed mala cognoscuntur a Deo. Ergo non
+<lb ed="#L" n="24"/>omnium quae cognoscuntur a Deo, sunt ideae.
+</p>
+               <p xml:id="TAca84-d1e123-d1e684">
+                  <lb ed="#L" n="25"/>2. PRAETEREA, Deus cognoscit ea quae nec
+<lb ed="#L" n="26"/>sunt nec erunt nec fuerunt, ut supra dictum
+<lb ed="#L" n="27"/>est. Sed horum non sunt ideae: quia dicit 
+Dio<lb break="no" ed="#L" n="28"/>nysius, v cap. de Div. Nom., quod exemplaria
+<lb ed="#L" n="29"/>sunt divinae voluntates, determinativae et 
+effecti<lb break="no" ed="#L" n="30"/>vae rerum. Ergo non omnium quae a Deo 
+co<lb break="no" ed="#L" n="31"/>gnoscuntur, sunt ideae in ipso.
+</p>
+               <p xml:id="TAca84-d1e123-d1e703">
+                  <lb ed="#L" n="32"/>3. PnaETEREA, Deus cognoscit materiam 
+pri<lb break="no" ed="#L" n="33"/>mam: quae non potest habere ideam, cum 
+nul<lb break="no" ed="#L" n="34"/>lam habeat formam. Ergo idem quod prius.
+</p>
+               <p xml:id="TAca84-d1e123-d1e712">
+                  <lb ed="#L" n="35"/>4. PRaETEREA, constat quod Deus scit non 
+so<lb break="no" ed="#L" n="36"/>lum species, sed etiam genera et singularia et
+<lb ed="#L" n="37"/>accidentia. Sed horum non sunt ideae, secundum
+<lb ed="#L" n="38"/>positionem Platonis, qui primus ideas introduxit,
+<lb ed="#L" n="39"/>ut dicit Augustinus. Non ergo omnium 
+cogni<lb break="no" ed="#L" n="40"/>torum a Deo sunt ideae in ipso. |
+</p>
+               <p xml:id="TAca84-d1e123-d1e728">
+                  <lb ed="#L" n="41"/>SED cowTRA, ideae sunt rationes in mente 
+di<lb break="no" ed="#L" n="42"/>vina existentes, ut per Augustinum patet. Sed
+<lb ed="#L" n="43"/>omnium quae cognoscit, Deus habet proprias
+<lb ed="#L" n="44"/>rationes. Ergo omnium quae cognoscit, habet
+<lb ed="#L" n="45"/>ideam.
+</p>
+               <p xml:id="TAca84-d1e123-d1e741">
+                  <lb ed="#L" n="46"/>RESPONDEO DICENDUM quod, cum ideae a 
+Pla<lb break="no" ed="#L" n="47"/>tone ponerentur principia cognitionis rerum et
+<lb ed="#L" n="48"/>generationis ipsarum, ad utrumque se habet idea,
+<lb ed="#L" n="49"/>prout in mente divina ponitur. Et secundum
+<lb ed="#L" n="50"/>quod est principium factionis rerum, exemplar
+<lb ed="#L" n="51"/>dici potest; et ad practicam cognitionem pertinet.
+<lb ed="#L" n="52"/>Secundum autem quod principium cognoscitivum
+<lb ed="#L" n="53"/>est, proprie dicitur ratio; et potest etiam ad 
+scien<lb break="no" ed="#L" n="54"/>tiam speculativam pertinere. Secundum ergo quod
+<lb ed="#L" n="55"/>exemplar est, secundum hoc se habet ad omnia
+<lb ed="#L" n="56"/>quae a Deo fiunt secundum aliquod tempus. 
+Se<lb break="no" ed="#L" n="57"/>cundum vero quod principium cognoscitivum est,
+<lb ed="#L" n="58"/>se habet ad omnia quae cognoscuntur a Deo,
+<lb ed="#L" n="59"/>etiam si nullo tempore fiant; et ad omnia quae
+<lb ed="#L" n="60"/>a Deo cognoscuntur secundum propriam ratio-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="61"/>nem, et secundum quod cognoscuntur ab ipso
+<lb ed="#L" n="62"/>per modum speculationis.
+</p>
+               <p xml:id="TAca84-d1e123-d1e783">
+                  <lb ed="#L" n="63"/>AD PRIMUM ERGO DICENDUM quod malum 
+cogno<lb break="no" ed="#L" n="64"/>scitur a Deo non per propriam rationem, sed
+<lb ed="#L" n="65"/>per rationem boni. Et ideo malum non habet
+<lb ed="#L" n="66"/>in Deo ideam, neque secundum quod idea est
+<lb ed="#L" n="67"/>exemplar, neque secundum quod est ratio.
+</p>
+               <p xml:id="TAca84-d1e123-d1e796">
+                  <lb ed="#L" n="68"/>Ap SECUNDÜM DICENDUM quod eorum quae neque
+<lb ed="#L" n="69"/>sunt neque erunt neque fuerunt, Deus non habet
+<lb ed="#L" n="70"/>practicam cognitionem, nisi virtute tantum. Unde
+<lb ed="#L" n="71"/>respectu eorum non est idea in Deo, secundum
+<lb ed="#L" n="72"/>quod idea significat exemplar, sed solum 
+secun<lb break="no" ed="#L" n="73"/>dum quod significat rationem. |
+</p>
+               <p xml:id="TAca84-d1e123-d1e813">
+                  <lb ed="#L" n="74"/>Ap TERTIUM DICENDUM quod Plato, secundum
+<lb ed="#L" n="75"/>quosdam, posuit materiam non creatam: et ideo
+<lb ed="#L" n="76"/>non posuit ideam esse materiae, sed materiae
+<lb ed="#L" n="77"/>concausam. Sed quia nos ponimus materiam
+<lb ed="#L" n="78"/>creatam a Deo, non tamen sine forma, habet
+<lb ed="#L" n="79"/>quidem materia ideam in Deo, non tamen aliam
+<lb ed="#L" n="80"/>ab idea compositi. Nam materia secundum se
+<lb ed="#L" n="81"/>neque esse habet, neque cognoscibilis est.
+</p>
+               <p xml:id="TAca84-d1e123-d1e833">
+                  <lb ed="#L" n="82"/>AD QUARTUM DICENDUM quod genera non possunt
+<lb ed="#L" n="83"/>habere ideam aliam ab idea speciei, secundum
+<lb ed="#L" n="84"/>quod idea significat exemplar: quia nunquam
+<lb ed="#L" n="85"/>genus fit nisi in aliqua specie. Similiter etiam
+<lb ed="#L" n="86"/>est de accidentibus quae inseparabiliter 
+conco<lb break="no" ed="#L" n="87"/>mitantur subiectum: quia haec simul fiunt cum
+<lb ed="#L" n="88"/>subiecto. Accidentia autem quae superveniunt
+<lb ed="#L" n="89"/>subiecto, specialem ideam habent. Artifex enim
+<lb ed="#L" n="90"/>per formam domus facit omnia accidentia quae
+<lb ed="#L" n="91"/>a principio concomitantur domum: sed ea quae
+<lb ed="#L" n="92"/>superveniunt domui iam factae, ut picturae vel
+<lb ed="#L" n="93"/>aliquid aliud ?, facit per aliquam aliam formam.
+<lb ed="#L" n="94"/>Individua vero, secundum Platonem, non 
+ha<lb break="no" ed="#L" n="95"/>bebant aliam ideam quam ideam speciei: tum
+<lb ed="#L" n="96"/>quia singularia individuantur per materiam, quam
+<lb ed="#L" n="97"/>ponebat esse increatam, ut quidam dicunt, et
+<lb ed="#L" n="98"/>concausam ideae; tum quia intentio naturae 
+con<lb break="no" ed="#L" n="99"/>sistit in speciebus, nec particularia producit, nisi
+<lb ed="#L" n="100"/>ut in eis species salventur. Sed providentia 
+di<lb break="no" ed="#L" n="101"/>vina non solum se extendit ad species, sed ad
+<lb ed="#L" n="102"/>singularia, ut infra dicetur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

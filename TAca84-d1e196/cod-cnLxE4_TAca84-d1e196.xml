@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 29</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 29</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="327"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e196"><!-- p1-q29 -->
+            <head xml:id="TAca84-d1e196-Hd1e99">Quaestio 29</head>
+            <head xml:id="TAca84-d1e196-Hd1e101" type="question-title">de personis divinis</head>
+            <p xml:id="TAca84-d1e196-d1e104">
+               <pb ed="#L" n="327"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO VIGESIMANONA
+<lb ed="#L" n="2"/>DE PERSONIS DIVINIS
+<lb ed="#L" n="3"/>In QUTUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e196-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>PRAEMISSIS autem his quae de processionibus
+<lb ed="#L" n="5"/>et relationibus praecognoscenda videbantur
+<lb ed="#L" n="6"/>secundum considerationem absolutam ; et 
+de<lb break="no" ed="#L" n="7"/>inde secundum comparativam considerationem.
+<lb ed="#L" n="8"/>Oportet autem absolute de Personis, primo 
+qui<lb break="no" ed="#L" n="9"/>dem in communi considerare; deinde de singulis
+<lb ed="#L" n="10"/>Personis. Ad communem autem 
+consideratio<lb break="no" ed="#L" n="11"/>nem Personarum quatuor pertinere videntur:
+<lb ed="#L" n="12"/>primo quidem , significatio huius nominis 
+per<lb break="no" ed="#L" n="13"/>sona; secundo vero, numerus Personarum;
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="14"/>tertio, ea quae consequuntur numerum 
+Perso<lb break="no" ed="#L" n="15"/>narum, vel ei opponuntur, ut diversitas et 
+simi<lb break="no" ed="#L" n="16"/>litudo, et huiusmodi; quarto vero, ea quae
+<lb ed="#L" n="17"/>pertinent ad notitiam Personarum.
+<lb ed="#L" n="18"/>Circa primum quaeruntur quatuor.
+<lb ed="#L" n="19"/>Primo: de definitione personae.
+<lb ed="#L" n="20"/>Secundo: de comparatione personae ad 
+essen<lb break="no" ed="#L" n="21"/>tiam, subsistentiam et hypostasim.
+<lb ed="#L" n="22"/>Tertio: utrum nomen personae competat in
+<lb ed="#L" n="23"/>divinis.
+<lb ed="#L" n="24"/>Quarto: quid ibi significet.
+</p>
+            <div xml:id="TAca84-d1e196-Dd1e169"><!-- p1-q29-a1 -->
+               <head xml:id="TAca84-d1e196-Hd1e172">Articulus 1</head>
+               <head xml:id="TAca84-d1e196-Hd1e174" type="question-title">
+  de definitione personae
+</head>
+               <p xml:id="TAca84-d1e196-d1e177">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="25"/>ARTICULUS PRIMUS
+<lb ed="#L" n="26"/>DE DEFINITIONE PERSONAE
+</p>
+               <p xml:id="TAca84-d1e196-d1e186">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="27"/>AD PRIMUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="28"/>incompetens sit definitio personae quam
+<lb ed="#L" n="29"/>Boetius assignat in libro de Duabus
+<lb ed="#L" n="30"/>NNaturis, quae talis est: Persona est
+<lb ed="#L" n="31"/>rationalis naturae individua substantia. Nullum
+<lb ed="#L" n="32"/>enim singulare definitur. Sed persona significat
+<lb ed="#L" n="33"/>quoddam singulare. Ergo persona inconvenienter
+<lb ed="#L" n="34"/>definitur.
+</p>
+               <p xml:id="TAca84-d1e196-d1e208">
+                  <lb ed="#L" n="35"/>2. PRAETEREA, substantia, prout ponitur in 
+de<lb break="no" ed="#L" n="36"/>finitione personae, aut sumitur pro substantia
+<lb ed="#L" n="37"/>prima, aut pro substantia secunda. Si pro 
+sub<lb break="no" ed="#L" n="38"/>stantia prima, superflue additur individua: quia
+<lb ed="#L" n="39"/>substantia prima est substantia individua. Si vero
+<lb ed="#L" n="40"/>stat pro substantia secunda, falso additur, et est
+<lb ed="#L" n="41"/>oppositio in adiecto ?: nam secundae substantiae
+<lb ed="#L" n="42"/>dicuntur genera vel species. Ergo definitio est
+<lb ed="#L" n="43"/>male assignata.
+</p>
+               <p xml:id="TAca84-d1e196-d1e231">
+                  <lb ed="#L" n="44"/>3. PRAETEREA, nomen intentionis non debet
+<lb ed="#L" n="45"/>poni in definitione rei. Non enim 'esset bona 
+as<lb break="no" ed="#L" n="46"/>signatio, si quis diceret, homo est species 
+ani<lb break="no" ed="#L" n="47"/>malis: homo. enim est nomen rei, et species est
+<lb ed="#L" n="48"/>nomen intentionis. Cum igitur persona sit nomen
+<lb ed="#L" n="49"/>rei (significat enim substantiam quandam 
+ratio<lb break="no" ed="#L" n="50"/>nalis naturae 5), inconvenienter individuum, quod
+<lb ed="#L" n="51"/>est nomen intentionis, in eius definitione ponitur.
+</p>
+               <p xml:id="TAca84-d1e196-d1e251">
+                  <lb ed="#L" n="52"/>4. PRAETEREA, natura est principium motus et
+<lb ed="#L" n="53"/>quietis in eo in quo est per se et non per 
+ac<lb break="no" ed="#L" n="54"/>cidens, ut dicitur in II Physic. Sed persona est
+<lb ed="#L" n="55"/>in rebus immobilibus; sicut in Deo et in angelis.
+<lb ed="#L" n="56"/>Non ergo in definitione personae debuit poni ^
+<lb ed="#L" n="57"/>natura, sed magis essentia.
+</p>
+               <p xml:id="TAca84-d1e196-d1e267">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="58"/>5. PRAETEREA, anima separata est rationalis 
+na<lb break="no" ed="#L" n="59"/>turae individua substantia. Non autem est 
+per<lb break="no" ed="#L" n="60"/>sona. Inconvenienter ergo persona sic definitur.
+</p>
+               <p xml:id="TAca84-d1e196-d1e278">
+                  <lb ed="#L" n="61"/>RESPONDEO DICENDUM quod, licet universale et
+<lb ed="#L" n="62"/>particulare inveniantur in omnibus generibus ,
+<lb ed="#L" n="63"/>tamen speciali quodam modo individuum 
+inve<lb break="no" ed="#L" n="64"/>nitur in genere substantiae. Substantia enim 
+in<lb break="no" ed="#L" n="65"/>dividuatur per seipsam, sed accidentia 
+individuan<lb break="no" ed="#L" n="66"/>tur per subiectum, quod est substantia: dicitur
+<lb ed="#L" n="67"/>enim haec albedo, inquantum est in hoc subiecto.
+<lb ed="#L" n="68"/>Unde etiam convenienter individua substantiae
+<lb ed="#L" n="69"/>habent aliquod. speciale nomen prae aliis: 
+dicun<lb break="no" ed="#L" n="70"/>tur enim Aypostases, vel primae substantiae.
+</p>
+               <p xml:id="TAca84-d1e196-d1e302">
+                  <lb ed="#L" n="71"/>Sed adhuc quodam specialiori et perfectiori
+<lb ed="#L" n="72"/>modo invenitur particulare et individuum in sub;
+<lb ed="#L" n="73"/>stantiis rationalibus, quae habent dominium sui
+<lb ed="#L" n="74"/>actus, et non solum aguntur, sicut alia, sed per se
+<lb ed="#L" n="75"/>agunt: actiones autem in singularibus sunt. Et ideo
+<lb ed="#L" n="76"/>etiam inter ceteras substantias quoddam ? speciale
+<lb ed="#L" n="77"/>nomen habent singularia rationalis naturae. Et
+<lb ed="#L" n="78"/>hoc nomen est persona. Et ideo in praedicta 
+de<lb break="no" ed="#L" n="79"/>finitione personae ponitur subsiantia individua ,
+<lb ed="#L" n="80"/>inquantum significat singulare in genere 
+substan<lb break="no" ed="#L" n="81"/>tiae: additur autem rationalis naturae, inquantum
+<lb ed="#L" n="82"/>significat singulare in rationalibus substantiis.
+</p>
+               <p xml:id="TAca84-d1e196-d1e331">
+                  <lb ed="#L" n="83"/>AD PRIMUM ERGO DICENDUM quod, licet hoc 
+sin<lb break="no" ed="#L" n="84"/>gulare vel illud definiri non possit, tamen id quod
+<lb ed="#L" n="85"/>pertinet ad communem rationem singularitatis ,
+<lb ed="#L" n="86"/>definiri potest: et sic Philosophus definit 
+sub<lb break="no" ed="#L" n="87"/>stantiam primam. Et hoc modo definit Boetius
+<lb ed="#L" n="88"/>personam.
+</p>
+               <p xml:id="TAca84-d1e196-d1e348">
+                  <pb ed="#L" n="328"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD SECUNDUM DICENDUM quod, secundum 
+quos<lb break="no" ed="#L" n="2"/>dam, substantia in definitione personae ponitur
+<lb ed="#L" n="3"/>pro substantia prima, quae est hypostasis. Neque
+<lb ed="#L" n="4"/>tamen superflue additur individua. Quia nomine
+<lb ed="#L" n="5"/>hypostasis vel substantiae primae, excluditur ratio
+<lb ed="#L" n="6"/>universalis et partis (non enim dicimus quod
+<lb ed="#L" n="7"/>homo communis sit hypostasis, neque etiam 
+ma<lb break="no" ed="#L" n="8"/>nus, cum sit pars): sed per hoc quod additur
+<lb ed="#L" n="9"/>individuum , excluditur a persona ratio 
+assum<lb break="no" ed="#L" n="10"/>ptibilis; humana enim natura in Christo non est
+<lb ed="#L" n="11"/>persona, quia est assumpta a digniori, scilicet a
+<lb ed="#L" n="12"/>Verbo Dei. - Sed melius dicendum est quod 
+sub<lb break="no" ed="#L" n="13"/>stantia accipitur communiter, prout dividitur per
+<lb ed="#L" n="14"/>primam et secundam: et per hoc quod additur
+<lb ed="#L" n="15"/>individua ^, trahitur ad standum pro substantia
+<lb ed="#L" n="16"/>prima.
+</p>
+               <p xml:id="TAca84-d1e196-d1e390">
+                  <lb ed="#L" n="17"/>Ap TERTIUM DICENDUM quod, quia substantiales
+<lb ed="#L" n="18"/>differentiae non sunt nobis notae, vel etiam 
+no<lb break="no" ed="#L" n="19"/>minatae non sunt ", oportet interdum uti 
+diffe<lb break="no" ed="#L" n="20"/>rentiis accidentalibus loco substantialium, puta si
+<lb ed="#L" n="21"/>quis diceret: ignis est corpus simplex, calidum
+<lb ed="#L" n="22"/>et siccum: accidentia enim propria sunt effectus
+<lb ed="#L" n="23"/>formarum substantialium, et manifestant eas. Et
+<lb ed="#L" n="24"/>similiter nomina intentionum possunt accipi ad
+<lb ed="#L" n="25"/>definiendum res, secundum quod accipiuntur pro
+<lb ed="#L" n="26"/>aliquibus nominibus rerum 5 quae non sunt posita.
+<lb ed="#L" n="27"/>Et sic hoc nomen :ndividuum ponitur in 
+defini<lb break="no" ed="#L" n="28"/>tione personae, ad designandum modum 
+subsi<lb break="no" ed="#L" n="29"/>stendi qui competit substantiis particularibus.
+</p>
+               <p xml:id="TAca84-d1e196-d1e421">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="30"/>AD QUARTUM DICENDUM quod, secundum 
+Philo<lb break="no" ed="#L" n="31"/>sophum, in V Metaphys., nomen naturae primo
+<lb ed="#L" n="32"/>impositum est ad significandam generationem 
+vi<lb break="no" ed="#L" n="33"/>ventium, quae dicitur nativitas. Et quia 
+huius<lb break="no" ed="#L" n="34"/>modi generatio est a principio intrinseco, 
+exten<lb break="no" ed="#L" n="35"/>sum est hoc nomen ad significandum principium
+<lb ed="#L" n="36"/>intrinsecum cuiuscumque motus. Et sic definitur
+<lb ed="#L" n="37"/>natura in II Physic. Et quia huiusmodi 
+prin<lb break="no" ed="#L" n="38"/>cipium est formale vel materiale, communiter
+<lb ed="#L" n="39"/>tam materia quam forma dicitur natura. Et quia
+<lb ed="#L" n="40"/>per formam completur essentia uniuscuiusque rei,
+<lb ed="#L" n="41"/>communiter essentia uniuscuiusque rei, quam 
+si<lb break="no" ed="#L" n="42"/>gnificat eius definitio, vocatur natura. Et sic 
+acci<lb break="no" ed="#L" n="43"/>pitur hic natura. Unde Boetius in eodem libro
+<lb ed="#L" n="44"/>dicit quod natura est unumquodque informans
+<lb ed="#L" n="45"/>specifica differentia: specifica enim differentia est
+<lb ed="#L" n="46"/>quae complet definitionem, et sumitur a propria
+<lb ed="#L" n="47"/>forma rei, Et ideo convenientius fuit quod in
+<lb ed="#L" n="48"/>definitione personae, quae est singulare alicuius
+<lb ed="#L" n="49"/>generis determinati, uteretur nomine naturae,
+<lb ed="#L" n="50"/>quam essentiae, quae sumitur ab esse, quod est
+<lb ed="#L" n="51"/>communissimum.
+</p>
+               <p xml:id="TAca84-d1e196-d1e473">
+                  <lb ed="#L" n="52"/>AD QUINTUM DICENDUM quod anima est pars
+<lb ed="#L" n="53"/>humanae speciei: et ideo, licet sit separata, quia
+<lb ed="#L" n="54"/>tamen retinet naturam unibilitatis, non potest
+<lb ed="#L" n="55"/>dici substantia individua quae est hypostasis vel
+<lb ed="#L" n="56"/>substantia prima; sicut nec manus, nec 
+quaecum<lb break="no" ed="#L" n="57"/>que alia partium hominis. Et sic non competit ei
+<lb ed="#L" n="58"/>neque definitio personae, neque nomen. :
+</p>
+            </div>
+            <div xml:id="TAca84-d1e196-Dd1e493"><!-- p1-q29-a2 -->
+               <head xml:id="TAca84-d1e196-Hd1e496">Articulus 2</head>
+               <head xml:id="TAca84-d1e196-Hd1e498" type="question-title">
+  utrum persona sit idem quod hypostasis, subsistentia et essentia
+</head>
+               <p xml:id="TAca84-d1e196-d1e501">
+                  <pb ed="#L" n="330"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM PERSONA SIT IDEM QUOD HYPOSTASIS, SUBSISTENTIA ET ESSENTIA
+</p>
+               <p xml:id="TAca84-d1e196-d1e512">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>persona sit idem quod Aypostasis, 
+sub<lb break="no" ed="#L" n="5"/>in libro de Duab. Natur., quod Graeci
+<lb ed="#L" n="6"/>naturae rationalis individuam substantiam 
+hypo<lb break="no" ed="#L" n="7"/>staseos nomine vocaverunt. Sed hoc etiam, apud
+<lb ed="#L" n="8"/>nos, significat nomen personae. Ergo persona
+<lb ed="#L" n="9"/>omnino idem est quod hypostasis.
+</p>
+               <p xml:id="TAca84-d1e196-d1e532">
+                  <lb ed="#L" n="10"/>2. PRAETEREA, sicut in divinis dicimus tres 
+per<lb break="no" ed="#L" n="11"/>sonas, ita in divinis dicimus tres subsistentias :
+<lb ed="#L" n="12"/>quod non esset, nisi persona et subsistentia idem ?
+<lb ed="#L" n="13"/>significarent. Ergo idem significant persona et
+<lb ed="#L" n="14"/>subsistentia.
+</p>
+               <p xml:id="TAca84-d1e196-d1e546">
+                  <lb ed="#L" n="15"/>3. PRAETEREA, Boetius dicit, in Commento 
+Zrae<lb break="no" ed="#L" n="16"/>dicamentorum, quod usia, quod est idem quod ?
+<lb ed="#L" n="17"/>essentia, significat compositum ex materia et 
+for<lb break="no" ed="#L" n="18"/>ma. Id autem quod est compositum ex materia
+<lb ed="#L" n="19"/>et forma, est individuum substantiae, quod et ?
+<lb ed="#L" n="20"/>hypostasis et persona dicitur. Ergo omnia 
+prae<lb break="no" ed="#L" n="21"/>dicta nomina idem significare videntur.
+</p>
+               <p xml:id="TAca84-d1e196-d1e564">
+                  <lb ed="#L" n="22"/>SEp cowrRA EST quod Boetius dicit, in libro de
+<lb ed="#L" n="23"/>Duab. Natur., quod genera et species subsistunt
+<lb ed="#L" n="24"/>tantum; individua vero non modo subsistunt, 
+ve<lb break="no" ed="#L" n="25"/>rum etiam substant. Sed a subsistendo dicuntur
+<lb ed="#L" n="26"/>subsistentiae, sicut a substando substantiae vel
+<lb ed="#L" n="27"/>hypostases. Cum igitur esse hypostases vel 
+per<lb break="no" ed="#L" n="28"/>sonas non conveniat generibus vel speciebus,
+<lb ed="#L" n="29"/>hypostases vel personae non sunt idem quod
+<lb ed="#L" n="30"/>subsistentiae.
+</p>
+               <p xml:id="TAca84-d1e196-d1e586">
+                  <lb ed="#L" n="31"/>PnaETEREA, Boetius dicit, in Commento 
+Prae<lb break="no" ed="#L" n="32"/>dicamentorum , quod hypostasis dicitur materia,
+<lb ed="#L" n="33"/>usiosis autem, idest subsistentia, dicitur forma.
+<lb ed="#L" n="34"/>Sed neque forma neque materia potest dici 
+per<lb break="no" ed="#L" n="35"/>sona. Ergo persona differt a praedictis.
+</p>
+               <p xml:id="TAca84-d1e196-d1e599">
+                  <lb ed="#L" n="36"/>RESPONDEO DICENDUM quod, secundum 
+Philoso<lb break="no" ed="#L" n="37"/>phum, in V Metaphys., substantia dicitur 
+dupli<lb break="no" ed="#L" n="38"/>citer. Uno modo dicitur substantia quidditas rei,
+<lb ed="#L" n="39"/>quam significat definitio, secundum quod 
+dici<lb break="no" ed="#L" n="40"/>mus quod definitio significat substantiam rei:
+<lb ed="#L" n="41"/>quam quidem substantiam Graeci usiam vocant,
+<lb ed="#L" n="42"/>quod nos essentiam dicere possumus. - Alio modo
+<lb ed="#L" n="43"/>dicitur substantia subiectum vel suppositum quod
+<lb ed="#L" n="44"/>subsistit in genere substantiae. Et hoc quidem,
+<lb ed="#L" n="45"/>communiter accipiendo, nominari potest et 
+no<lb break="no" ed="#L" n="46"/>mine significante intentionem: et sic dicitur 
+sup<lb break="no" ed="#L" n="47"/>positum. Nominatur etiam tribus nominibus 
+si<lb break="no" ed="#L" n="48"/>gnificantibus rem, quae quidem sunt res naturae,
+<lb ed="#L" n="49"/>subsistentia et hypostasis, secundum triplicem 
+con<lb break="no" ed="#L" n="50"/>siderationem substantiae sic dictae. Secundum
+<lb ed="#L" n="51"/>enim quod per se existit et non im alio, vocatur
+<lb ed="#L" n="52"/>subsistentia: ila enim subsistere dicimus, quae
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>non in alio, sed in se ? existunt. Secundum vero
+<lb ed="#L" n="54"/>quod supponitur alicui naturae communi, sic 
+di<lb break="no" ed="#L" n="55"/>citur res naturae; sicut hic homo est res naturae
+<lb ed="#L" n="56"/>humanae. Secundum vero quod supponitur 
+acci<lb break="no" ed="#L" n="57"/>dentibus, dicitur hypostasis vel substantia. - Quod
+<lb ed="#L" n="58"/>autem haec tria nomina significant communiter
+<lb ed="#L" n="59"/>in toto genere substantiarum, hoc nomen 
+per<lb break="no" ed="#L" n="60"/>sona significat in genere rationalium 
+substan<lb break="no" ed="#L" n="61"/>tiarum.
+</p>
+               <p xml:id="TAca84-d1e196-d1e660">
+                  <lb ed="#L" n="62"/>AD PRIMUM ERGO DICENDUM quod Aypostasis, apud
+<lb ed="#L" n="63"/>Graecos, ex propria significatione nominis habet
+<lb ed="#L" n="64"/>quod significet quodcumque individuum 
+substan<lb break="no" ed="#L" n="65"/>tiae: sed ex usu loquendi habet quod sumatur
+<lb ed="#L" n="66"/>pro individuo rationalis naturae, ratione suae
+<lb ed="#L" n="67"/>excellentiae.
+</p>
+               <p xml:id="TAca84-d1e196-d1e676">
+                  <lb ed="#L" n="68"/>AD SECUNDUM DICENDUM quod, sicut nos dicimus
+<lb ed="#L" n="69"/>in divinis pluraliter tres personas et tres 
+subsi<lb break="no" ed="#L" n="70"/>stentias, ita Graeci dicunt tres hypostases. Sed
+<lb ed="#L" n="71"/>quia nomen substantiae, quod secundum 
+proprie<lb break="no" ed="#L" n="72"/>tatem significationis respondet Ahyposíasi, 
+aequi<lb break="no" ed="#L" n="73"/>vocatur apud nos, cum quandoque significet 
+es<lb break="no" ed="#L" n="74"/>sentiam , quandoque hypostasim; ne possit esse
+<lb ed="#L" n="75"/>erroris occasio , maluerunt pro Aypostasi 
+trans<lb break="no" ed="#L" n="76"/>ferre subsistentiam, quam substantiam.
+</p>
+               <p xml:id="TAca84-d1e196-d1e699">
+                  <lb ed="#L" n="77"/>AD TERTIUM DICENDUM quod essentia proprie est
+<lb ed="#L" n="78"/>id quod significatur per definitionem. Definitio
+<lb ed="#L" n="79"/>autem complectitur principia speciei, non autem
+<lb ed="#L" n="80"/>principia individualia. Unde in rebus compositis
+<lb ed="#L" n="81"/>ex materia et forma, essentia significat non 
+so<lb break="no" ed="#L" n="82"/>lum formam, nec solum materiam, sed 
+compo<lb break="no" ed="#L" n="83"/>situm ex materia et forma communi, prout sunt -
+<lb ed="#L" n="84"/>principia speciei. Sed compositum ex ac 
+ma<lb break="no" ed="#L" n="85"/>teria et ex hac forma, habet rationem hypostasis
+<lb ed="#L" n="86"/>et personae: anima enim et caro et os sunt de
+<lb ed="#L" n="87"/>ratione hominis, sed haec anima et haec caro
+<lb ed="#L" n="88"/>et hoc os sunt de ratione Auius hominis. Et ideo
+<lb ed="#L" n="89"/>hypostasis et persona addunt supra rationem 
+es<lb break="no" ed="#L" n="90"/>sentiae principia individualia; neque sunt idem
+<lb ed="#L" n="91"/>cum essentia in compositis ex materia et forma »,
+<lb ed="#L" n="92"/>ut supra dictum est, cum de simplicitate divina
+<lb ed="#L" n="93"/>ageretur.
+</p>
+               <p xml:id="TAca84-d1e196-d1e738">
+                  <lb ed="#L" n="94"/>Ad QUARTUM DICENDUM quod Boetius dicit 
+ge<lb break="no" ed="#L" n="95"/>nera et species subsistere, inquantum | individuis
+<lb ed="#L" n="96"/>aliquibus competit subsistere, ex eo quod sunt
+<lb ed="#L" n="97"/>sub generibus et speciebus in praedicamento 
+Sub<lb break="no" ed="#L" n="98"/>stantiae comprehensis: non quod ipsae species
+<lb ed="#L" n="99"/>vel genera subsistant, nisi secundum opinionem
+<lb ed="#L" n="100"/>Platonis, qui posuit species rerum separatim
+<lb ed="#L" n="101"/>subsistere a singularibus. Substare vero competit
+<lb ed="#L" n="102"/>eisdem ? individuis in ordine ad accidentia, quae
+<lb ed="#L" n="103"/>sunt praeter rationem generum et specierum.
+</p>
+               <p xml:id="TAca84-d1e196-d1e762">
+                  <pb ed="#L" n="331"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD QUINTUM DICENDUM quod individuum 
+com<lb break="no" ed="#L" n="2"/>positum ex materia et forma, habet quod substet
+<lb ed="#L" n="3"/>accidenti, ex proprietate materiae. Unde et Boetius
+<lb ed="#L" n="4"/>dicit, in libro de 7rin.: forma simplex 
+subie<lb break="no" ed="#L" n="5"/>ctum. esse non potest. Sed quod per se subsistat,
+<lb ed="#L" n="6"/>habet ex proprietate suae formae, quae non ad-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="7"/>venit rei subsistenti, sed dat esse áctuale materiae,
+<lb ed="#L" n="8"/>ut sic individuum subsistere possit. Propter hoc
+<lb ed="#L" n="9"/>ergo hypostasim attribuit materiae, et usiosim,
+<lb ed="#L" n="10"/>sive subsistentiam, formae, quia materia est 
+prin<lb break="no" ed="#L" n="11"/>cipium substandi, et forma est principium 
+sub<lb break="no" ed="#L" n="12"/>sistendi.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e196-Dd1e798"><!-- p1-q29-a3 -->
+               <head xml:id="TAca84-d1e196-Hd1e801">Articulus 3</head>
+               <head xml:id="TAca84-d1e196-Hd1e803" type="question-title">
+  utrum nomen personae sit ponendum in divinis
+</head>
+               <p xml:id="TAca84-d1e196-d1e806">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="26"/>ARTICULUS TERTIUS
+<lb ed="#L" n="27"/>UTRUM NOMEN PERSONAE SIT PONENDUM IN DIVINIS
+</p>
+               <p xml:id="TAca84-d1e196-d1e815">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="28"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="29"/>nomen personae non sit ponendum in
+<lb ed="#L" n="30"/>divinis. Dicit enim Dionysius, in 
+prin<lb break="no" ed="#L" n="31"/>cipio de Div. Nom.: Universaliter non
+<lb ed="#L" n="32"/>est audendum aliquid dicere nec cogitare de 
+su<lb break="no" ed="#L" n="33"/>persubstantiali occulta divinitate, praeter ea quae
+<lb ed="#L" n="34"/>divinitus nobis ex sanctis eloquiis sunt expressa.
+<lb ed="#L" n="35"/>Sed nomen personae non exprimitur nobis in
+<lb ed="#L" n="36"/>sacra Scriptura novi vel veteris Testamenti. Ergo
+<lb ed="#L" n="37"/>non est nomine personae utendum in divinis.
+</p>
+               <p xml:id="TAca84-d1e196-d1e841">
+                  <lb ed="#L" n="38"/>2. PRAETEREA, Boetius dicit, in libro de Duab.
+<lb ed="#L" n="39"/>Natur.: Nomen personae videtur traductum ex
+<lb ed="#L" n="40"/>his personis quae in comoediis tragoediisque 
+ho<lb break="no" ed="#L" n="41"/>mines repraesentabant; persona enim dicta est a
+<lb ed="#L" n="42"/>personando, quia concavitate ipsa maior necesse
+<lb ed="#L" n="43"/>est ut volvatur sonus. Graeci vero has personas
+<lb ed="#L" n="44"/>prosopa vocant, ab eo quod ponantur in facie,
+<lb ed="#L" n="45"/>atque ante oculos obtegant vultum. Sed hoc non
+<lb ed="#L" n="46"/>potest competere in divinis, nisi forte secundum
+<lb ed="#L" n="47"/>metaphoram. Ergo nomen personae non dicitur
+<lb ed="#L" n="48"/>de Deo nisi metaphorice.
+</p>
+               <p xml:id="TAca84-d1e196-d1e868">
+                  <lb ed="#L" n="49"/>3. PRAETEREA, omnis persona est hypostasis.
+<lb ed="#L" n="50"/>Sed nomen Aypostasis non videtur Deo 
+compe<lb break="no" ed="#L" n="51"/>tere: cum, secundum Boetium, significet id quod
+<lb ed="#L" n="52"/>subiicitur accidentibus, quae in Deo non sunt.
+<lb ed="#L" n="53"/>Hieronymus etiam dicit quod in hoc. nomine
+<lb ed="#L" n="54"/>hypostasis, venenum latet sub melle. Ergo hoc 
+<lb ed="#L" n="55"/>nomen persona non est dicendum de Deo.
+</p>
+               <p xml:id="TAca84-d1e196-d1e886">
+                  <lb ed="#L" n="56"/>4. PRAETEREA, a quocumque removetur 
+defi<lb break="no" ed="#L" n="57"/>nitio, et definitum. Sed definitio personae supra
+<lb ed="#L" n="58"/>posita non videtur Deo competere. Tum quia
+<lb ed="#L" n="59"/>ratio importat discursivam cognitionem, quae non
+<lb ed="#L" n="60"/>competit Deo, ut supra ostensum est: et sic
+<lb ed="#L" n="61"/>Deus non potest dici rationalis naturae. Tum
+<lb ed="#L" n="62"/>etiam quia Deus dici non potest individua 
+sub<lb break="no" ed="#L" n="63"/>stantia: cum principium individuationis sit 
+ma<lb break="no" ed="#L" n="64"/>teria, Deus autem immaterialis est; neque etiam
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="65"/>accidentibus substat, ut substantia dici possit. 
+No<lb break="no" ed="#L" n="66"/>men ergo personae Deo attribui non debet. .
+</p>
+               <p xml:id="TAca84-d1e196-d1e915">
+                  <lb ed="#L" n="67"/>SED CONTRA EST quod dicitur in symbolo 
+Atha<lb break="no" ed="#L" n="68"/>nasii: <quote xml:id="TAca84-d1e196-Qd1e921">Alia est persona Patris, alia Filii, alia 
+Spi<lb break="no" ed="#L" n="69"/>ritus Sancti.</quote>
+               </p>
+               <p xml:id="TAca84-d1e196-d1e927">
+                  <lb ed="#L" n="70"/>RESPONDEO DICENDUM quod persona significat id
+<lb ed="#L" n="71"/>quod est perfectissimum in tota natura, scilicet
+<lb ed="#L" n="72"/>subsistens in rationali natura. Unde, cum omne
+<lb ed="#L" n="73"/>illud quod est perfectionis, Deo sit attribuendum,
+<lb ed="#L" n="74"/>eo quod eius essentia continet in se omnem 
+per<lb break="no" ed="#L" n="75"/>fectionem ; conveniens est ut hoc nomen persona
+<lb ed="#L" n="76"/>de Deo dicatur. Non tamen eodem ? modo quo
+<lb ed="#L" n="77"/>dicitur de creaturis,-sed excellentiori modo ; sicut
+<lb ed="#L" n="78"/>et alia nomina quae, creaturis a nobis imposita,
+<lb ed="#L" n="79"/>Deo attribuuntur; sicut supra ostensum est,
+<lb ed="#L" n="80"/>cum de divinis nominibus ageretur.
+</p>
+               <p xml:id="TAca84-d1e196-d1e953">
+                  <lb ed="#L" n="81"/>AD PRIMUM ERGO DICENDUM quod, licet nomen
+<lb ed="#L" n="82"/>personae in Scriptura veteris vel novi 
+Testa<lb break="no" ed="#L" n="83"/>menti non inveniatur dictum de Deo, tamen id
+<lb ed="#L" n="84"/>quod nomen significat, multipliciter in sacra 
+Scri<lb break="no" ed="#L" n="85"/>ptura invenitur assertum de Deo; scilicet quod
+<lb ed="#L" n="86"/>est maxime per se ens, et perfectissime 
+intelli<lb break="no" ed="#L" n="87"/>gens. Si autem oporteret de Deo dici solum illa,
+<lb ed="#L" n="88"/>secundum vocem, quae sacra Scriptura de Deo
+<lb ed="#L" n="89"/>tradit, sequeretur quod nunquam in alia lingua
+<lb ed="#L" n="90"/>posset aliquis loqui de Deo, nisi in illa in qua
+<lb ed="#L" n="91"/>primo tradita est Scriptura veteris vel novi 
+Te<lb break="no" ed="#L" n="92"/>stamenti. Ad inveniendum autem nova nomina,
+<lb ed="#L" n="93"/>antiquam fidem de Deo significantia, coegit 
+ne<lb break="no" ed="#L" n="94"/>cessitas disputandi cum. haereticis. Nec haec 
+no<lb break="no" ed="#L" n="95"/>vitas vitanda est, cum non sit profana, utpote
+<lb ed="#L" n="96"/>a Scripturarum sensu non discordans: docet 
+au<lb break="no" ed="#L" n="97"/>tem Apostolus profanas vocum novitates " vitare,
+<lb ed="#L" n="98"/>I ad Tim. ult.
+</p>
+               <p xml:id="TAca84-d1e196-d1e995">
+                  <lb ed="#L" n="99"/>AD SECUNDUM DICENDUM quod, quamvis hoc 
+no<lb break="no" ed="#L" n="100"/>men persona non conveniat Deo quantum ad id
+<lb ed="#L" n="101"/>a quo impositum est nomen, tamen quantum
+<pb ed="#L" n="332"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ad id ad quod significandum imponitur, maxime
+<lb ed="#L" n="2"/>Deo convenit. Quia enim in comoediis et 
+tra<lb break="no" ed="#L" n="3"/>goediis repraesentabantur aliqui homines famosi,
+<lb ed="#L" n="4"/>impositum est hoc nomen persona ad 
+significan<lb break="no" ed="#L" n="5"/>dum aliquos dignitatem habentes. Unde 
+consue<lb break="no" ed="#L" n="6"/>verunt dici personae in ecclesiis, quae habent 
+ali<lb break="no" ed="#L" n="7"/>quam dignitatem. Propter quod quidam definiunt
+<lb ed="#L" n="8"/>personam, dicentes quod persona est hypostasis
+<lb ed="#L" n="9"/>proprietate distincta ad. dignitatem pertinente. Et
+<lb ed="#L" n="10"/>quia magnae dignitatis est in rationali natura 
+sub<lb break="no" ed="#L" n="11"/>sistere, ideo omne individuum rationalis naturae
+<lb ed="#L" n="12"/>dicitur persona, ut dictum est. Sed dignitas 
+divi<lb break="no" ed="#L" n="13"/>nae naturae excedit omnem dignitatem: et 
+secun<lb break="no" ed="#L" n="14"/>dum hoc maxime competit Deo nomen personae.
+</p>
+               <p xml:id="TAca84-d1e196-d1e1040">
+                  <lb ed="#L" n="15"/>AD TERTIUM DICENDUM quod nomen Aypostasis
+<lb ed="#L" n="16"/>non competit Deo quantum ad id a quo est 
+im<lb break="no" ed="#L" n="17"/>positum nomen, cum non substet accidentibus:
+<lb ed="#L" n="18"/>competit autem ei ? quantum ad id, quod est
+<lb ed="#L" n="19"/>impositum ad significandum rem subsistentem. —
+<lb ed="#L" n="20"/>Hieronymus autem dicit sub hoc nomine 
+vene<lb break="no" ed="#L" n="21"/>num latere, quia antequam significatio huius no-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="22"/>minis esset plene nota apud Latinos, haeretici
+<lb ed="#L" n="23"/>per hoc nomen simplices decipiebant, ut 
+confi<lb break="no" ed="#L" n="24"/>terentur plures essentias, sicut confitentur plures
+<lb ed="#L" n="25"/>hypostases; propter hoc quod nomen substantiae,
+<lb ed="#L" n="26"/>cui respondet in graeco nomen Aypostasis, 
+com<lb break="no" ed="#L" n="27"/>muniter accipitur apud nos pro essentia.
+</p>
+               <p xml:id="TAca84-d1e196-d1e1073">
+                  <lb ed="#L" n="28"/>AD QUARTUM DICENDUM quod Deus potest dici
+<lb ed="#L" n="29"/>rationalis naturae, secundum quod ratio non 
+im<lb break="no" ed="#L" n="30"/>portat discursum, sed communiter intellectualem
+<lb ed="#L" n="31"/>naturam. Zndividuum autem Deo competere non
+<lb ed="#L" n="32"/>potest quantum ad hoc quod individuationis 
+prin<lb break="no" ed="#L" n="33"/>cipium est materia: sed solum secundum quod
+<lb ed="#L" n="34"/>importat incommunicabilitatem. Substantia vero
+<lb ed="#L" n="35"/>convenit Deo, secundum quod significat existere
+<lb ed="#L" n="36"/>per se. - Quidam tamen dicunt quod definitio 
+su<lb break="no" ed="#L" n="37"/>perius a Boetio data, non est definitio personae
+<lb ed="#L" n="38"/>secundum quod personas in Deo dicimus. 
+Pro<lb break="no" ed="#L" n="39"/>pter quod Ricardus de Sancto Victore, corrigere
+<lb ed="#L" n="40"/>volens hanc definitionem, dixit quod persona,
+<lb ed="#L" n="41"/>secundum quod de Deo dicitur, est divinae 
+na<lb break="no" ed="#L" n="42"/>turae incommunicabilis existentia.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e196-Dd1e1109"><!-- p1-q29-a4 -->
+               <head xml:id="TAca84-d1e196-Hd1e1112">Articulus 4</head>
+               <head xml:id="TAca84-d1e196-Hd1e1114" type="question-title">
+  utrum hoc nomen persona significet relationem
+</head>
+               <p xml:id="TAca84-d1e196-d1e1117">
+                  <pb ed="#L" n="333"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUARTUS
+<lb ed="#L" n="2"/>UTRUM HOC NOMEN PERSONA SIGNIFICET RELATIONEM
+</p>
+               <p xml:id="TAca84-d1e196-d1e1128">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>hoc nomen persona non significet 
+re<lb break="no" ed="#L" n="5"/>lationem, sed substantiam, in divinis.
+<lb ed="#L" n="6"/>Dicit enim Augustinus, in VII de Trin.:
+<quote xml:id="TAca84-d1e196-Qd1e1141">Cum dicimus. personam Patris, non aliud dicimus
+<lb ed="#L" n="7"/>quam substantiam Patris; ad se quippe dicitur
+<lb ed="#L" n="8"/>persona, non ad Filium.</quote>
+               </p>
+               <p xml:id="TAca84-d1e196-d1e1149">
+                  <lb ed="#L" n="9"/>2. PRAETEREA, quid quaerit de essentia. Sed,
+<lb ed="#L" n="10"/>sicut dicit Augustinus in eodem loco ^, cum
+<lb ed="#L" n="11"/>dicitur, <quote xml:id="TAca84-d1e196-Qd1e1157">Tres sunt qui testimonium dant in caelo,
+<lb ed="#L" n="12"/>Pater, Verbum et Spiritus Sanctus; et quaeritur,
+<lb ed="#L" n="13"/>Quid tres? respondetur, Tres Personae</quote>. Ergo hoc
+<lb ed="#L" n="14"/>nomen persona significat essentiam.
+</p>
+               <p xml:id="TAca84-d1e196-d1e1168">
+                  <lb ed="#L" n="15"/>3. PRAETERBA, secundum Philosophum, IV 
+Me<lb break="no" ed="#L" n="16"/>taphys., id quod significatur per nomen, est
+<lb ed="#L" n="17"/>eius definitio. Sed definitio personae est 
+ratio<lb break="no" ed="#L" n="18"/>nalis naturae individua substantia, ut dictum est.
+<lb ed="#L" n="19"/>Ergo hoc nomen persona significat substantiam.
+</p>
+               <p xml:id="TAca84-d1e196-d1e1181">
+                  <lb ed="#L" n="20"/>4. PRAETEREA, persona in hominibus et angelis
+<lb ed="#L" n="21"/>non significat relationem, sed aliquid absolutum.
+<lb ed="#L" n="22"/>Si igitur in Deo significaret relationem, diceretur
+<lb ed="#L" n="23"/>aequivoce de Deo et hominibus et angelis.
+</p>
+               <p xml:id="TAca84-d1e196-d1e1192">
+                  <lb ed="#L" n="24"/>SED CONTRA EsT quod dicit Boetius, in libro de
+<lb ed="#L" n="25"/>Trin., quod omne nomen ad personas 
+perti<lb break="no" ed="#L" n="26"/>nens, relationem significat. Sed nullum nomen
+<lb ed="#L" n="27"/>magis pertinet ad personas " quam hoc nomen
+<lb ed="#L" n="28"/>persona. Ergo hoc nomen persona relationem
+<lb ed="#L" n="29"/>significat.
+</p>
+               <p xml:id="TAca84-d1e196-d1e1208">
+                  <lb ed="#L" n="30"/>RESPONDEO DICENDUM quod circa significationem
+<lb ed="#L" n="31"/>huius nominis persona ? in divinis, difficultatem
+<lb ed="#L" n="32"/>ingerit quod pluraliter de tribus praedicatur ,
+<lb ed="#L" n="33"/>praeter naturam essentialium nominum ; neque
+<lb ed="#L" n="34"/>etiam ad aliquid dicitur, sicut nomina quae 
+re<lb break="no" ed="#L" n="35"/>lationem significant. Unde quibusdam visum est
+<lb ed="#L" n="36"/>quod hoc nomen persona simpliciter, ex virtute
+<lb ed="#L" n="37"/>vocabuli, essentiam significet in divinis, sicut hoc
+<lb ed="#L" n="38"/>nomen Deus, et hoc nomen sapiens: sed propter
+<lb ed="#L" n="39"/>instantiam haereticorum,:est accommodatum, ex
+<lb ed="#L" n="40"/>ordinatione Concilii, ut possit poni pro relativis ;
+<lb ed="#L" n="41"/>et praecipue in plurali, vel cum nomine 
+parti<lb break="no" ed="#L" n="42"/>tivo, ut cum dicimus £res personas, vel alia est
+<lb ed="#L" n="43"/>persona Patris, alia Filii. In singulari vero potest
+<lb ed="#L" n="44"/>sumi pro absoluto, et pro relativo. - Sed haec non
+<lb ed="#L" n="45"/>videtur sufficiens ratio. Quia si hoc nomen 
+per<lb break="no" ed="#L" n="46"/>sonda, ex vi suae significationis, non habet quod
+<lb ed="#L" n="47"/>significet nisi essentiam in divinis; ex hoc quod
+<lb ed="#L" n="48"/>dictum est res personas, non fuisset haereticorum
+<lb ed="#L" n="49"/>quietata calumnia, sed maioris calumniae data
+<lb ed="#L" n="50"/>esset eis occasio.
+</p>
+               <p xml:id="TAca84-d1e196-d1e1256">
+                  <lb ed="#L" n="51"/>Et ideo alii dixerunt quod hoc nomen persona
+<lb ed="#L" n="52"/>in divinis significat simul essentiam et relationem.
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>Quorum quidam dixerunt quod significat 
+essen<lb break="no" ed="#L" n="54"/>tiam in recto, et relationem in obliquo. Quia 
+per<lb break="no" ed="#L" n="55"/>sona dicitur quasi per se una: unitas autem 
+per<lb break="no" ed="#L" n="56"/>tinet ad essentiam. Quod autem dicitur per se,
+<lb ed="#L" n="57"/>implicat relationem oblique: intelligitur enim 
+Pa<lb break="no" ed="#L" n="58"/>ter per se esse, quasi relatione distinctus a Filio.
+<lb ed="#L" n="59"/>- Quidam vero dixerunt e converso, quod 
+signi<lb break="no" ed="#L" n="60"/>ficat relationem in recto, et essentiam in obliquo:
+<lb ed="#L" n="61"/>quia in definitione personae, natura ponitur in
+<lb ed="#L" n="62"/>obliquo. Et isti propinquius ad veritatem 
+acces<lb break="no" ed="#L" n="63"/>serunt.
+</p>
+               <p xml:id="TAca84-d1e196-d1e1289">
+                  <lb ed="#L" n="64"/>Ad evidentiam igitur huius quaestionis, 
+consi<lb break="no" ed="#L" n="65"/>derandum est quod aliquid est de significatione
+<lb ed="#L" n="66"/>minus communis, quod tamen non est de 
+signi<lb break="no" ed="#L" n="67"/>ficatione magis communis: rationale enim 
+inclu<lb break="no" ed="#L" n="68"/>ditur in significatione Aominis, quod tamen non
+<lb ed="#L" n="69"/>est de significatione animalis. Unde aliud est
+<lb ed="#L" n="70"/>quaerere de significatione animalis, et aliud est
+<lb ed="#L" n="71"/>quaerere de significatione anzmalis quod est homo.
+<lb ed="#L" n="72"/>Similiter aliud est quaerere de significatione
+<lb ed="#L" n="73"/>huius nominis persona in communi, et aliud de
+<lb ed="#L" n="74"/>significatione personae divinae. Persona enim in
+<lb ed="#L" n="75"/>communi significat substantiam individuam 
+ra<lb break="no" ed="#L" n="76"/>tionalis naturae, ut dictum est. Individuum 
+au<lb break="no" ed="#L" n="77"/>tem est quod est in se indistinctum, ab aliis vero
+<lb ed="#L" n="78"/>distinctum. Persona igitur, in quacumque natura,
+<lb ed="#L" n="79"/>significat id quod est distinctum in natura illa:
+<lb ed="#L" n="80"/>sicut in humana natura significat has carnes et
+<lb ed="#L" n="81"/>haec ossa et hanc animam, quae sunt principia
+<lb ed="#L" n="82"/>individuantia hominem ; quae quidem, licet non
+<lb ed="#L" n="83"/>sint de significatione personae, sunt tamen de
+<lb ed="#L" n="84"/>significatione personae humanae. Distinctio autem
+<lb ed="#L" n="85"/>in. divinis non fit " nisi per relationes originis, ut
+<lb ed="#L" n="86"/>dictum est supra. Relatio autem in divinis non.
+<lb ed="#L" n="87"/>est sicut accidens inhaerens subiecto ^, sed est
+<lb ed="#L" n="88"/>ipsa divina essentia: unde est subsistens, sicut '
+<lb ed="#L" n="89"/>essentia divina subsistit. Sicut ergo deitas est
+<lb ed="#L" n="90"/>Deus, ita paternitas divina est Deus Pater, qui
+<lb ed="#L" n="91"/>est persona divina. Persona igitur divina 
+signi<lb break="no" ed="#L" n="92"/>ficat relationem u£ subsistentem. Et hoc est 
+signi<lb break="no" ed="#L" n="93"/>ficare relationem per modum substantiae quae
+<lb ed="#L" n="94"/>est hypostasis subsistens in natura divina; licet
+<lb ed="#L" n="95"/>subsistens in natura divina non sit aliud quam
+<lb ed="#L" n="96"/>natura divina.
+</p>
+               <p xml:id="TAca84-d1e196-d1e1364">
+                  <lb ed="#L" n="97"/>Et secundum hoc, verum est quod hoc nomen
+<lb ed="#L" n="98"/>persona significat relationem in recto, et 
+essen<lb break="no" ed="#L" n="99"/>tiam in obliquo: non tamen relationem 
+inquan<lb break="no" ed="#L" n="100"/>tum est relatio, sed inquantum significatur per
+<lb ed="#L" n="101"/>modum hypostasis. - Similiter etiam significat
+<lb ed="#L" n="102"/>essentiam in recto, et relationem in obliquo:
+<lb ed="#L" n="103"/>inquantum essentia idem est quod hypostasis;
+<pb ed="#L" n="334"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>hypostasis autem significatur in divinis ut 
+rela<lb break="no" ed="#L" n="2"/>tione distincta; et sic ? relatio, per modum 
+re<lb break="no" ed="#L" n="3"/>lationis significata, cádit in ratione personae in
+<lb ed="#L" n="4"/>obliquo.
+</p>
+               <p xml:id="TAca84-d1e196-d1e1395">
+                  <lb ed="#L" n="5"/>Et secundum hoc etiam dici potest, quod haec
+<lb ed="#L" n="6"/>significatio huius nominis persona non erat 
+per<lb break="no" ed="#L" n="7"/>cepta ante haereticorum calumniam: unde non
+<lb ed="#L" n="8"/>erat in usu hoc nomen persona, nisi sicut unum
+<lb ed="#L" n="9"/>aliorum absolutorum. Sed postmodum 
+accom<lb break="no" ed="#L" n="10"/>modatum est hoc nomen persona ad standum
+<lb ed="#L" n="11"/>pro relativo, ex congruentia suae significationis :
+<lb ed="#L" n="12"/>ut scilicet hoc quod stat pro relativo, non solum
+<lb ed="#L" n="13"/>habeat ex usu, ut prima opinio dicebat, sed etiam
+<lb ed="#L" n="14"/>ex significatione " sua.
+</p>
+               <p xml:id="TAca84-d1e196-d1e1419">
+                  <lb ed="#L" n="15"/>AD PRIMUM ERGO DICENDUM quod hoc nomen
+<lb ed="#L" n="16"/>persona dicitur ad se, non ad alterum, quia 
+si<lb break="no" ed="#L" n="17"/>gnificat relationem, non per modum relationis ,
+<lb ed="#L" n="18"/>sed per modum substantiae quae est hypostasis.
+<lb ed="#L" n="19"/>Et secundum hoc Augustinus dicit quod 
+signifi<lb break="no" ed="#L" n="20"/>cat essentiam, prout in Deo essentia est idem
+<lb ed="#L" n="21"/>cum hypostasi: quia in Deo non differt quod est
+<lb ed="#L" n="22"/>et quo est.
+</p>
+               <p xml:id="TAca84-d1e196-d1e1439">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="23"/>AD SECUNDUM DICENDUM quod quid quandoque
+<lb ed="#L" n="24"/>quaerit de natura quam significat definitio; ut
+<lb ed="#L" n="25"/>cum quaeritur, Quid est homo? et respondetur,
+<lb ed="#L" n="26"/>Animal rationale mortale. Quandoque vero 
+quae<lb break="no" ed="#L" n="27"/>rit suppositum; ut cum quaeritur, Quid natat in
+<lb ed="#L" n="28"/>mari? et respondetur, Piscis. Et sic quaerentibus
+<lb ed="#L" n="29"/>Quid tres? responsum est, 7res Personae.
+</p>
+               <p xml:id="TAca84-d1e196-d1e1459">
+                  <lb ed="#L" n="30"/>AD TERTIUM DICENDUM quod in intellectu 
+substan<lb break="no" ed="#L" n="31"/>tiae individuae, idest distinctae vel 
+incommunica<lb break="no" ed="#L" n="32"/>bilis, intelligitur in divinis relatio, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e196-d1e1468">
+                  <lb ed="#L" n="33"/>AD QUARTUM DICENDUM quod diversa ratio minus
+<lb ed="#L" n="34"/>communium non facit aequivocationem in magis
+<lb ed="#L" n="35"/>communi. Licet enim sit alia propria definitio
+<lb ed="#L" n="36"/>equi et asini, tamen univocantur in nomine
+<lb ed="#L" n="37"/>animalis: quia communis definitio animalis 
+con<lb break="no" ed="#L" n="38"/>venit utrique. Unde non sequitur quod, licet in
+<lb ed="#L" n="39"/>significatione personae divinae contineatur relatio,
+<lb ed="#L" n="40"/>non autem in significatione angelicae personae
+<lb ed="#L" n="41"/>vel humanae, quod nomen personae aequivoce
+<lb ed="#L" n="42"/>dicatur. Licet nec etiam dicatur univoce: cum
+<lb ed="#L" n="43"/>nihil univoce de Deo dici possit et de creaturis,
+<lb ed="#L" n="44"/>ut supra ostensum est.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

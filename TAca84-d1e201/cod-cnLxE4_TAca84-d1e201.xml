@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 30</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 30</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="336"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e201"><!-- p1-q30 -->
+            <head xml:id="TAca84-d1e201-Hd1e99">Quaestio 30</head>
+            <head xml:id="TAca84-d1e201-Hd1e101" type="question-title">de pluralitate personarum in divinis</head>
+            <p xml:id="TAca84-d1e201-d1e104">
+               <pb ed="#L" n="336"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO TRIGESIMA
+<lb ed="#L" n="2"/>DE PLURALITATE PERSONARUM IN DIVINIS
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e201-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE quaeritur de pluralitate Personarum.
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="6"/>Primo: utrum sint plures personae in divinis.
+<lb ed="#L" n="7"/>Secundo: quot sunt.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="8"/>Tertio: quid significent termini numerales in
+<lb ed="#L" n="9"/>divinis.
+<lb ed="#L" n="10"/>Quarto: de communitate huius nominis 
+per<lb break="no" ed="#L" n="11"/>sona.
+</p>
+            <div xml:id="TAca84-d1e201-Dd1e141"><!-- p1-q30-a1 -->
+               <head xml:id="TAca84-d1e201-Hd1e144">Articulus 1</head>
+               <head xml:id="TAca84-d1e201-Hd1e146" type="question-title">
+  utrum sit ponere plures personas in divinis
+</head>
+               <p xml:id="TAca84-d1e201-d1e149">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>ARTICULUS PRIMUS
+<lb ed="#L" n="13"/>UTRUM SIT PONERE PLURES PERSONAS IN DIVINIS
+</p>
+               <p xml:id="TAca84-d1e201-d1e158">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="14"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="15"/>non sit ponere plures personas in 
+di<lb break="no" ed="#L" n="16"/>Ve Vo inis. Persona enim est rationalis 
+natu<lb break="no" ed="#L" n="17"/>DNSrae individua substantia. Si ergo sunt
+<lb ed="#L" n="18"/>plures personae in divinis, sequitur quod sint
+<lb ed="#L" n="19"/>plures substantiae: quod videtur haereticum.
+</p>
+               <p xml:id="TAca84-d1e201-d1e176">
+                  <lb ed="#L" n="20"/>2. PRAETEREA, pluralitas proprietatum 
+absoluta<lb break="no" ed="#L" n="21"/>rum non facit distinctionem personarum, neque
+<lb ed="#L" n="22"/>in Deo neque in nobis: multo igitur minus 
+plu<lb break="no" ed="#L" n="23"/>ralitas relationum. Sed in Deo non est alia 
+plu<lb break="no" ed="#L" n="24"/>ralitas nisi relationum, ut supra dictum est. Ergo
+<lb ed="#L" n="25"/>non potest dici quod in Deo sint plures personae.
+</p>
+               <p xml:id="TAca84-d1e201-d1e193">
+                  <lb ed="#L" n="26"/>3. PnaETEREA, Boetius dicit, de Deo loquens,
+<lb ed="#L" n="27"/>quod hoc vere unum est, in quo nullus est 
+nu<lb break="no" ed="#L" n="28"/>merus. Sed pluralitas importat numerum. Ergo
+<lb ed="#L" n="29"/>non sunt plures personae in divinis.
+</p>
+               <p xml:id="TAca84-d1e201-d1e204">
+                  <lb ed="#L" n="30"/>4. PRAETEREA, ubicumque est numerus, ibi est
+<lb ed="#L" n="31"/>totum et pars. Si igitur in Deo sit numerus 
+per<lb break="no" ed="#L" n="32"/>sonarum, erit in Deo ponere totum et partem:
+<lb ed="#L" n="33"/>quod simplicitati divinae repugnat.
+</p>
+               <p xml:id="TAca84-d1e201-d1e215">
+                  <lb ed="#L" n="34"/>SEp coNTRA EST quod dicit Athanasius: 4/ia est
+<lb ed="#L" n="35"/>persona Patris, alia Filii, alia Spiritus Sancti. Ergo
+<lb ed="#L" n="36"/>Pater et Filius et Spiritus Sanctus sunt plures
+<lb ed="#L" n="37"/>personae.
+</p>
+               <p xml:id="TAca84-d1e201-d1e226">
+                  <lb ed="#L" n="38"/>RESPONDEO DICENDUM quod plures esse 
+perso<lb break="no" ed="#L" n="39"/>nas in divinis, sequitur ex praemissis. Ostensum
+<lb ed="#L" n="40"/>est enim supra quod hoc nomen persona 
+si<lb break="no" ed="#L" n="41"/>gnificat in divinis relationem, ut rem 
+subsisten<lb break="no" ed="#L" n="42"/>tem in natura divina. Supra autem habitum est
+<lb ed="#L" n="43"/>quod sunt plures relationes reales in divinis. Unde
+<lb ed="#L" n="44"/>sequitur quod sint plures res subsistentes in 
+di<lb break="no" ed="#L" n="45"/>vina natura. Et hoc est esse plures personas in
+<lb ed="#L" n="46"/>divinis.
+</p>
+               <p xml:id="TAca84-d1e201-d1e248">
+                  <lb ed="#L" n="47"/>AD PRIMUM ERGO DICENDUM quod substantia non
+<lb ed="#L" n="48"/>ponitur in definitione personae secundum quod
+<lb ed="#L" n="49"/>significat essentiam, sed secundum quod 
+signifi<lb break="no" ed="#L" n="50"/>cat suppositum: quod patet ex hoc quod additur
+<lb ed="#L" n="51"/>individua. Ad significandum autem substantiam
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="52"/>sic dictam, habent Graeci nomen hypostasis: unde
+<lb ed="#L" n="53"/>sicut nos dicimus tres personas, ita ipsi dicunt
+<lb ed="#L" n="54"/>tres hypostases. Nos autem non consuevimus 
+di<lb break="no" ed="#L" n="55"/>cere tres substantias, ne intelligerentur tres 
+essen<lb break="no" ed="#L" n="56"/>tiae, propter nominis aequivocationem.
+</p>
+               <p xml:id="TAca84-d1e201-d1e274">
+                  <lb ed="#L" n="57"/>AD SECUNDUM DICENDUM quod proprietates 
+abso<lb break="no" ed="#L" n="58"/>lutae in divinis, ut bonitas et sapientia, non 
+op<lb break="no" ed="#L" n="59"/>ponuntur ad invicem: unde neque realiter 
+distin<lb break="no" ed="#L" n="60"/>guuntur. Quamvis ergo eis conveniat subsistere,
+<lb ed="#L" n="61"/>non tamen sunt plures res subsistentes, quod est
+<lb ed="#L" n="62"/>esse plures personas. Proprietates autem 
+absolu<lb break="no" ed="#L" n="63"/>tae in rebus creatis non subsistunt, licet realiter
+<lb ed="#L" n="64"/>ab invicem " distinguantur, ut albedo et dulcédo.
+<lb ed="#L" n="65"/>Sed proprietates relativae in Deo et subsisuin,
+<lb ed="#L" n="66"/>et realiter ab invicem distinguuntur, ut supra
+<lb ed="#L" n="67"/>dictum est. Unde pluralitas talium proprietatam
+<lb ed="#L" n="68"/>sufficit ad pluralitatem ? personarum in divinis.
+</p>
+               <p xml:id="TAca84-d1e201-d1e304">
+                  <lb ed="#L" n="69"/>AD TERTIUM DICENDUM quod a Deo, propter 
+sum<lb break="no" ed="#L" n="70"/>mam unitatem et simplicitatem, excluditur omnis
+<lb ed="#L" n="71"/>pluralitas absolute dictorum; non autem 
+plura<lb break="no" ed="#L" n="72"/>litas relationum. Quia 5 relationes praedicantur de
+<lb ed="#L" n="73"/>aliquo ut ad alterum; et sic compositionem in
+<lb ed="#L" n="74"/>ipso de quo dicuntur, non important, ut Boetius
+<lb ed="#L" n="75"/>in eodem libro docet. e!
+</p>
+               <p xml:id="TAca84-d1e201-d1e322">
+                  <lb ed="#L" n="76"/>AD QUARTUM DICENDUM quod numerus est 
+du<lb break="no" ed="#L" n="77"/>plex: scilicet numerus simplex vel absolutus, ut
+<lb ed="#L" n="78"/>duo et tria et quatuor; et " numerus qui est in
+<lb ed="#L" n="79"/>rebus numeratis, ut duo homines et duo equi.
+<lb ed="#L" n="80"/>Si igitur in divinis accipiatur numerus absolute
+<lb ed="#L" n="81"/>sive abstracte, nihil prohibet in eo esse totum
+<lb ed="#L" n="82"/>et partem: et sic non est nisi in acceptione
+<lb ed="#L" n="83"/>intellectus nostri; non enim numerus absolutus
+<lb ed="#L" n="84"/>a rebus numeratis est nisi in intellectu. Si autem
+<lb ed="#L" n="85"/>accipiamus numerum prout est in rebus 
+nume<lb break="no" ed="#L" n="86"/>ratis, sic in rebus quidem creatis, unum est pars
+<lb ed="#L" n="87"/>duorum, et duo trium, ut unus homo duorum,
+<lb ed="#L" n="88"/>et duo trium: sed non est sic in Deo, quia tan- ,
+<lb ed="#L" n="89"/>tus est Pater quanta tota Trinitas, ut infra patebit.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e201-Dd1e357"><!-- p1-q30-a2 -->
+               <head xml:id="TAca84-d1e201-Hd1e360">Articulus 2</head>
+               <head xml:id="TAca84-d1e201-Hd1e362" type="question-title">
+  utrum in deo sint plures personae quam tres
+</head>
+               <p xml:id="TAca84-d1e201-d1e365">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="18"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="19"/>UTRUM IN DEO SINT PLURES PERSONAE QUAM TRES
+</p>
+               <p xml:id="TAca84-d1e201-d1e374">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="20"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="21"/>in Deo sint plures personae quam tres.
+<lb ed="#L" n="22"/>Pluralitas enim personarum in divinis
+<lb ed="#L" n="23"/>est secundum pluralitatem proprietatum
+<lb ed="#L" n="24"/>relativarum, ut dictum est. Sed quatuor sunt
+<lb ed="#L" n="25"/>relationes in divinis, ut supra dictum est: 
+sci<lb break="no" ed="#L" n="26"/>licet paternitas, filiatio, communis spiratio et 
+pro<lb break="no" ed="#L" n="27"/>cessio. Ergo quatuor personae sunt in divinis.
+</p>
+               <p xml:id="TAca84-d1e201-d1e396">
+                  <lb ed="#L" n="28"/>2. PRAETEREA, non plus differt natura a 
+volun<lb break="no" ed="#L" n="29"/>tate in Deo ^, quam natura ab intellectu. Sed in
+<lb ed="#L" n="30"/>divinis est alia persona quae procedit per 
+mo<lb break="no" ed="#L" n="31"/>dum voluntatis, ut amor; et alia quae procedit
+<lb ed="#L" n="32"/>per modum naturae, ut filius. Ergo est etiam
+<lb ed="#L" n="33"/>alia quae procedit per modum intellectus, ut 
+ver<lb break="no" ed="#L" n="34"/>bum; et alia quae procedit per modum naturae,
+<lb ed="#L" n="35"/>ut filius. Et sic iterum sequitur quod non sunt
+<lb ed="#L" n="36"/>tantum tres personae in divinis.
+</p>
+               <p xml:id="TAca84-d1e201-d1e419">
+                  <lb ed="#L" n="37"/>3. PRAETEREA, in rebus creatis quod 
+excellen<lb break="no" ed="#L" n="38"/>tius est, plures habet operationes intrinsecas: sicut
+<lb ed="#L" n="39"/>homo supra alia animalia habet intelligere et
+<lb ed="#L" n="40"/>velle. Sed Deus in infinitum excedit omnem 
+crea<lb break="no" ed="#L" n="41"/>turam. Ergo non solum est ibi persona procedens
+<lb ed="#L" n="42"/>per modum voluntatis et per modum intellectus,
+<lb ed="#L" n="43"/>sed infinitis aliis modis. Ergo sunt infinitae 
+per<lb break="no" ed="#L" n="44"/>sonae in divinis.
+</p>
+               <p xml:id="TAca84-d1e201-d1e439">
+                  <lb ed="#L" n="45"/>4. PRAETEREA, ex infinita bonitate Patris est ; quod
+<lb ed="#L" n="46"/>infinite seipsum communicet, producendo 
+perso<lb break="no" ed="#L" n="47"/>nam divinam. Sed etiam in Spiritu Sancto est 
+in<lb break="no" ed="#L" n="48"/>finita bonitas. Ergo Spiritus Sanctus producit 
+di<lb break="no" ed="#L" n="49"/>vinam personam, et illa aliam, et sic in infinitum.
+</p>
+               <p xml:id="TAca84-d1e201-d1e452">
+                  <lb ed="#L" n="50"/>5. PRAETEREA, omne quod continetur sub 
+deter<lb break="no" ed="#L" n="51"/>minato numero, est mensuratum: numerus enim
+<lb ed="#L" n="52"/>mensura quaedam est. Sed personae divinae sunt
+<lb ed="#L" n="53"/>immensae, ut patet per Athanasium: Zmmensus
+<lb ed="#L" n="54"/>Pater, immensus Filius, immensus Spiritus Sanctus.
+<lb ed="#L" n="55"/>Non ergo sub numero ternario continentur.
+</p>
+               <p xml:id="TAca84-d1e201-d1e468">
+                  <lb ed="#L" n="56"/>SED cONTRA EsT quod dicitur I Ioan. ult.:
+<lb ed="#L" n="57"/>Tres sunt qui testimonium dant in caelo, Pater ,
+<lb ed="#L" n="58"/>Verbum et Spiritus Sanctus. Quaerentibus autem,
+<lb ed="#L" n="59"/>Quid tres? respondetur, 7res personae, ut 
+Augu<lb break="no" ed="#L" n="60"/>stinus dicit, in VII de 7Tin. Sunt igitur tres
+<lb ed="#L" n="61"/>personae tantum in divinis.
+</p>
+               <p xml:id="TAca84-d1e201-d1e484">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="62"/>RESPONDEO DICENDUM quod, secundum 
+praemis<lb break="no" ed="#L" n="63"/>Sa, necesse est ponere tantum tres personas in
+<lb ed="#L" n="64"/>divinis. Ostensum est enim quod plures 
+perso<lb break="no" ed="#L" n="65"/>nae sunt plures relationes subsistentes, ab invicem
+<lb ed="#L" n="66"/>realiter distinctae. Realis autem distinctio inter
+<lb ed="#L" n="67"/>relationes divinas non est nisi in ratione 
+oppo<lb break="no" ed="#L" n="68"/>sitionis relativae. Ergo oportet duas relationes
+<lb ed="#L" n="69"/>oppositas ad duas personas pertinere: si quae
+<lb ed="#L" n="70"/>autem relationes oppositae non sunt, ad eandem
+<lb ed="#L" n="71"/>personam necesse est' eas pertinere. Paternitas
+<lb ed="#L" n="72"/>ergo et filiatio, cum sint oppositae relationes, ad
+<lb ed="#L" n="73"/>duas personas ex necessitate pertinent. Paternitas
+<lb ed="#L" n="74"/>igitur subsistens est persona Patris, et filiatio 
+sub<lb break="no" ed="#L" n="75"/>sistens est persona Fili. Aliae autem duae 
+rela<lb break="no" ed="#L" n="76"/>tiones ad neutram harum oppositionem habent,
+<lb ed="#L" n="77"/>sed sibi invicem opponuntur. Impossibile est igitur
+<lb ed="#L" n="78"/>quod ambae uni personae conveniant. Oportet
+<lb ed="#L" n="79"/>ergo quod vel una earum conveniat utrique 
+di<lb break="no" ed="#L" n="80"/>ctarum personarum: aut quod una uni, et alia
+<lb ed="#L" n="81"/>ali. Non autem potest esse quod processio 
+con<lb break="no" ed="#L" n="82"/>veniat Patri et Filio, vel alteri eorum: quia sic
+<lb ed="#L" n="83"/>sequeretur quod processio intellectus, quae est
+<lb ed="#L" n="84"/>generatio in divinis, secundum. quam accipitur
+<lb ed="#L" n="85"/>paternitas et filiatio, prodiret ex processione 
+amo<lb break="no" ed="#L" n="86"/>ris, secundum quam accipitur spiratio et 
+proces<lb break="no" ed="#L" n="87"/>Sio, si persona generans et genita procederent a
+<lb ed="#L" n="88"/>spirante: quod est contra praemissa. 
+Relinqui<lb break="no" ed="#L" n="89"/>tur ergo quod spiratio conveniat et personae
+<lb ed="#L" n="90"/>Patris et personae Fili, utpote nullam habens
+<lb ed="#L" n="91"/>oppositionem relativam nec ad paternitatem nec
+<lb ed="#L" n="92"/>ad filiationem. Et per consequens oportet quod
+<lb ed="#L" n="93"/>conveniat processio alteri personae, quae dicitur
+<lb ed="#L" n="94"/>persona Spiritus Sancti, quae per modum amoris
+<lb ed="#L" n="95"/>procedit, ut supra habitum est. Relinquitur ergo
+<lb ed="#L" n="96"/>tantum tres personas esse in divinis, scilicet 
+Pa<lb break="no" ed="#L" n="97"/>trem et Filium et Spiritum Sanctum.
+</p>
+               <p xml:id="TAca84-d1e201-d1e567">
+                  <lb ed="#L" n="98"/>AD PRIMUM ERGO DICENDUM quod, licet sint 
+qua<lb break="no" ed="#L" n="99"/>tuor relationes in divinis, tamen una earum, 
+sci<lb break="no" ed="#L" n="100"/>licet spiratio, non separatur a persona Patris et
+<lb ed="#L" n="101"/>Filii, sed convenit utrique. Et sic, licet sit relatio,
+<lb ed="#L" n="102"/>non tamen ? dicitur proprietas, quia non convenit
+<lb ed="#L" n="103"/>uni tantum personae: neque est ? relatio 
+perso<pb ed="#L" n="338"/>
+                  <cb ed="#L" n="a"/>
+                  <lb break="no" ed="#L" n="1"/>nalis, idest constituens personam. Sed hae tres
+<lb ed="#L" n="2"/>relationes, paternitas, filiatio et processio, dicuntur
+<lb ed="#L" n="3"/>proprietates personales, quasi personas 
+consti<lb break="no" ed="#L" n="4"/>tuentes: nam paternitas est persona Patris, filiatio
+<lb ed="#L" n="5"/>persona Fili, processio persona Spiritus Sancti
+<lb ed="#L" n="6"/>procedentis.
+</p>
+               <p xml:id="TAca84-d1e201-d1e601">
+                  <lb ed="#L" n="7"/>AD SECUNDUM DICENDUM quod id quod procedit
+<lb ed="#L" n="8"/>per modum intellectus, ut verbum, procedit 
+se<lb break="no" ed="#L" n="9"/>cundum rationem similitudinis, sicut etiam id
+<lb ed="#L" n="10"/>quod procedit per modum naturae: et ideo 
+su<lb break="no" ed="#L" n="11"/>pra dictum. est quod processio verbi divini est
+<lb ed="#L" n="12"/>ipsa generatio per modum naturae. Amor autem,
+<lb ed="#L" n="13"/>inquantum huiusmodi, non procedit ut sirnilitudo
+<lb ed="#L" n="14"/>ilius a quo procedit (licet in divinis amor sit
+<lb ed="#L" n="15"/>coessentialis inquantum est divinus): et ideo 
+pro<lb break="no" ed="#L" n="16"/>cessio amoris non dicitur generatio in divinis.
+</p>
+               <p xml:id="TAca84-d1e201-d1e625">
+                  <lb ed="#L" n="17"/>AD TERTIUM DICENDUM quod homo, cum sit 
+per<lb break="no" ed="#L" n="18"/>fectior aliis animalibus, habet plures operationes
+<lb ed="#L" n="19"/>intrinsecas quam alia animalia, quia eius 
+perfe<lb break="no" ed="#L" n="20"/>ctio est per modum compositionis. Unde in 
+an<lb break="no" ed="#L" n="21"/>gelis, qui sunt perfectiores et simpliciores, sunt
+<lb ed="#L" n="22"/>pauciores operationes intrinsecae quam in 
+ho<lb break="no" ed="#L" n="23"/>mine: quia in eis non est imaginari, sentire, et
+<lb ed="#L" n="24"/>huiusmodi. Sed in Deo, secundum rem, non est
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="25"/>nisi una operatio, quae est sua essentia. Sed
+<lb ed="#L" n="26"/>quomodo sunt duae processiones, supra 
+osten<lb break="no" ed="#L" n="27"/>sum est.
+</p>
+               <p xml:id="TAca84-d1e201-d1e654">
+                  <lb ed="#L" n="28"/>AD QUARTUM DICENDUM quod ratio illa 
+proce<lb break="no" ed="#L" n="29"/>deret, si Spiritus Sanctus haberet aliam. numero
+<lb ed="#L" n="30"/>bonitatem a bonitate Patris: oporteret enim quod,
+<lb ed="#L" n="31"/>sicut Pater per suam bonitatem producit 
+perso<lb break="no" ed="#L" n="32"/>nam divinam, ita et Spiritus Sanctus. Sed una
+<lb ed="#L" n="33"/>et eadem bonitas Patris " est et Spiritus Sancti.
+<lb ed="#L" n="34"/>Neque etiam est distinctio nisi per relationes 
+per<lb break="no" ed="#L" n="35"/>sonarum. Unde bonitas convenit Spiritui Sancto
+<lb ed="#L" n="36"/>quasi habita ab alio: Patri autem, sicut a quo
+<lb ed="#L" n="37"/>communicatur alteri. Oppositio autem relationis
+<lb ed="#L" n="38"/>non permittit ut cum relatione Spiritus Sancti
+<lb ed="#L" n="39"/>sit relatio principii respectu divinae personae :
+<lb ed="#L" n="40"/>quia pes procedit ab aliis personis quae in 
+di<lb break="no" ed="#L" n="41"/>vinis ' esse possunt.
+</p>
+               <p xml:id="TAca84-d1e201-d1e687">
+                  <lb ed="#L" n="42"/>AD QUINTUM DICENDUM quod numerus 
+determina<lb break="no" ed="#L" n="43"/>tus, si accipiatur numerus simplex, qui est tantum
+<lb ed="#L" n="44"/>in acceptione intellectus, per unum mensuratur.
+<lb ed="#L" n="45"/>Si vero accipiatur numerus rerum in divinis 
+per<lb break="no" ed="#L" n="46"/>sonis, sic non competit ibi ratio mensurati: quia
+<lb ed="#L" n="47"/>eadem est magnitudo trium personarum, ut infra
+<lb ed="#L" n="48"/>patebit; idem autem non mensuratur per idem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e201-Dd1e706"><!-- p1-q30-a3 -->
+               <head xml:id="TAca84-d1e201-Hd1e709">Articulus 3</head>
+               <head xml:id="TAca84-d1e201-Hd1e711" type="question-title">
+  utrum termini numerales ponant aliquid in divinis
+</head>
+               <p xml:id="TAca84-d1e201-d1e714">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="39"/>ARTICULUS TERTIUS
+<lb ed="#L" n="40"/>UTRUM TERMINI NUMERALES PONANT ALIQUID IN DIVINIS
+</p>
+               <p xml:id="TAca84-d1e201-d1e723">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="41"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="42"/>termini numerales ponant aliquid in 
+di<lb break="no" ed="#L" n="43"/>vinis. Unitas enim divina est eius 
+essen<lb break="no" ed="#L" n="44"/>tia. Sed omnis numerus est unitas 
+re<lb break="no" ed="#L" n="45"/>petita. Ergo omnis terminus numeralis in divinis
+<lb ed="#L" n="46"/>significat essentiam. Ergo ponit aliquid in Deo.
+</p>
+               <p xml:id="TAca84-d1e201-d1e741">
+                  <lb ed="#L" n="47"/>2. PRAETEREA, quidquid dicitur de Deo et 
+crea<lb break="no" ed="#L" n="48"/>turis, eminentius convenit Deo quam creaturis.
+<lb ed="#L" n="49"/>Sed termini numerales in creaturis aliquid 
+po<lb break="no" ed="#L" n="50"/>nunt. Ergo multo magis in Deo.
+</p>
+               <p xml:id="TAca84-d1e201-d1e753">
+                  <lb ed="#L" n="51"/>3. PRAETEREA, si termini numerales non ponunt
+<lb ed="#L" n="52"/>aliquid in divinis, sed inducuntur ad 
+removen<lb break="no" ed="#L" n="53"/>dum tantum, ut per pluralitatem removeatur 
+uni<lb break="no" ed="#L" n="54"/>tas, et per unitatem pluralitas; sequitur quod sit
+<lb ed="#L" n="55"/>circulatio in ratione, confundens intellectum et
+<lb ed="#L" n="56"/>nihil certificans; quod est inconveniens. 
+Relin<lb break="no" ed="#L" n="57"/>quitur ergo quod termini numerales aliquid 
+po<lb break="no" ed="#L" n="58"/>nunt in divinis.
+</p>
+               <p xml:id="TAca84-d1e201-d1e773">
+                  <lb ed="#L" n="59"/>SEp coNTRA EsT quod Hilarius dicit, in IV de
+<lb ed="#L" n="60"/>Trin.: <quote xml:id="TAca84-d1e201-Qd1e779">Sustulit singularitatis ac solitudinis 
+intel<lb break="no" ed="#L" n="61"/>ligentiam professio consortii</quote>, quod est professio
+<lb ed="#L" n="62"/>pluralitatis. Et Ambrosius dicit, in libro de Fide:
+<quote xml:id="TAca84-d1e201-Qd1e786">Cum unum Deum dicimus, unitas pluralitatem
+<lb ed="#L" n="63"/>excludit deorum, non quantitatem in Deo 
+poni<lb break="no" ed="#L" n="64"/>mus</quote>. Ex quibus videtur quod huiusmodi nomina
+<lb ed="#L" n="65"/>sunt inducta in divinis ad removendum, non ad
+<lb ed="#L" n="66"/>ponendum aliquid.
+</p>
+               <p xml:id="TAca84-d1e201-d1e799">
+                  <lb ed="#L" n="67"/>REsPONDEO DICENDUM quod Magister, in Sen
+<lb ed="#L" n="68"/>lentis, ponit quod termini numerales non 
+po<lb break="no" ed="#L" n="69"/>nunt aliquid in divinis, sed removent tantum.
+<lb ed="#L" n="70"/>Alii vero dicunt contrarium.
+</p>
+               <p xml:id="TAca84-d1e201-d1e810">
+                  <lb ed="#L" n="71"/>Ad evidentiam igitur huius, considerandum est.
+<lb ed="#L" n="72"/>quod omnis pluralitas consequitur aliquam 
+divi<lb break="no" ed="#L" n="73"/>sionem. Est autem duplex divisio. Una materialis,
+<lb ed="#L" n="74"/>quae fit secundum divisionem continui: et hanc
+<lb ed="#L" n="75"/>consequitur ? numerus qui est species quantitatis.
+<lb ed="#L" n="76"/>Unde talis numerus non est nisi in rebus mate-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="77"/>rialibus habentibus quantitatem. Alia est divisio
+<lb ed="#L" n="78"/>formalis, quae fit per oppositas vel diversas 
+for<lb break="no" ed="#L" n="79"/>mas: et hanc divisionem sequitur multitudo quae
+<lb ed="#L" n="80"/>non est in aliquo genere, sed est de 
+transcen<lb break="no" ed="#L" n="81"/>dentibus, secundum quod ens dividitur per unum
+<lb ed="#L" n="82"/>et multa. Et talem multitudinem solam contingit
+<lb ed="#L" n="83"/>esse in rebus immaterialibus.
+</p>
+               <p xml:id="TAca84-d1e201-d1e843">
+                  <lb ed="#L" n="84"/>Quidam igitur, non considerantes nisi 
+multitu<lb break="no" ed="#L" n="85"/>dinem ? quae est species quantitatis discretae, quia
+<lb ed="#L" n="86"/>videbant quod quantitas discreta non habet locum
+<lb ed="#L" n="87"/>in divinis, posuerunt quod termini numerales non
+<lb ed="#L" n="88"/>ponunt aliquid in Deo, sed removent tantum. -
+<lb ed="#L" n="89"/>Ali vero, eandem multitudinem considerantes ,
+<lb ed="#L" n="90"/>dixerunt quod, sicut scientia ponitur in Deo 
+se<lb break="no" ed="#L" n="91"/>cundum rationem propriam scientiae, non autem
+<lb ed="#L" n="92"/>secundum rationem sui generis, quia in Deo nulla
+<lb ed="#L" n="93"/>est qualitas; ita numerus in Deo ponitur 
+secun<lb break="no" ed="#L" n="94"/>dum propriam rationem numeri, non autem 
+se<lb break="no" ed="#L" n="95"/>cundum rationem sui generis, quod est quantitas.
+</p>
+               <p xml:id="TAca84-d1e201-d1e872">
+                  <lb ed="#L" n="96"/>Nos autem dicimus quod termini numerales,
+<lb ed="#L" n="97"/>secundum quod veniunt in praedicationem 
+di<lb break="no" ed="#L" n="98"/>vinam, non sumuntur a numero qui est species
+<lb ed="#L" n="99"/>quantitatis; quia sic de Deo non dicerentur nisi
+<lb ed="#L" n="100"/>metaphorice, sicut et aliae proprietates 
+corpora<lb break="no" ed="#L" n="101"/>lium, sicut latitudo, longitudo, et similia: sed 
+su<lb break="no" ed="#L" n="102"/>muntur a multitudine secundum quod est 
+trans<lb break="no" ed="#L" n="103"/>cendens. Multitudo autem sic accepta hoc modo
+<lb ed="#L" n="104"/>se habet ad multa de quibus praedicatur, sicut
+<lb ed="#L" n="105"/>unum quod convertitur cum ente ad ens. 
+Huius<lb break="no" ed="#L" n="106"/>modi autem unum, sicut supra dictum est, cum
+<lb ed="#L" n="107"/>de Dei unitate ageretur, non addit aliquid supra
+<lb ed="#L" n="108"/>ens nisi negationem divisionis tantum : unum
+<lb ed="#L" n="109"/>enim significat ens indivisum. Et ideo de 
+quo<lb break="no" ed="#L" n="110"/>cumque dicatur unum, significatur illa res 
+indi<lb break="no" ed="#L" n="111"/>visa: sicut unum dictum de homine, significat
+<lb ed="#L" n="112"/>naturam vel substantiam hominis non divisam.
+<lb ed="#L" n="113"/>Et eadem ratione, cum dicuntur res multae,
+<pb ed="#L" n="340"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>multitudo sic accepta significat res illas cum 
+indi<lb break="no" ed="#L" n="2"/>visione circa unamquamque earum. - Numerus
+<lb ed="#L" n="3"/>autem qui est species quantitatis, ponit quoddam
+<lb ed="#L" n="4"/>accidens additum supra ens ": et similiter unum
+<lb ed="#L" n="5"/>quod est principium numeri.
+</p>
+               <p xml:id="TAca84-d1e201-d1e930">
+                  <lb ed="#L" n="6"/>Termini ergo humerales significant in divinis
+<lb ed="#L" n="7"/>illa de quibus dicuntur, et super hoc nihil addunt
+<lb ed="#L" n="8"/>nisi negationem, ut dictum est: et quantum ad
+<lb ed="#L" n="9"/>hoc, veritatem dixit Magister in Sententiis. Ut ^,
+<lb ed="#L" n="10"/>cum dicimus, essentia est una, unum significat
+<lb ed="#L" n="11"/>essentiam indivisam: cum dicimus, persona est
+<lb ed="#L" n="12"/>una, significat personam indivisam: cum dicimus,
+<lb ed="#L" n="13"/>personae sunt plures, significantur illae. 
+perso<lb break="no" ed="#L" n="14"/>nae, et indivisio circa unamquamque earum; quia
+<lb ed="#L" n="15"/>de ratione multitudinis est, quod ex unitatibus
+<lb ed="#L" n="16"/>constet.
+</p>
+               <p xml:id="TAca84-d1e201-d1e956">
+                  <lb ed="#L" n="17"/>AD PRIMUM ERGO DICENDUM quod unum, cum sit
+<lb ed="#L" n="18"/>de transcendentibus, est communius quam 
+sub<lb break="no" ed="#L" n="19"/>stantia et quam relatio: et similiter multitudo.
+<lb ed="#L" n="20"/>Unde potest stare in divinis et pro substantia
+<lb ed="#L" n="21"/>et pro relatione, secundum quod competit his
+<lb ed="#L" n="22"/>quibus adiungitur. Et tamen per huiusmodi 
+no<lb break="no" ed="#L" n="23"/>mina, supra essentiam vel relationem, additur,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24"/>ex eorum significatione propria, negatio quaedam
+<lb ed="#L" n="25"/>divisionis, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e201-d1e980">
+                  <lb ed="#L" n="26"/>AD SECUNDUM DICENDUM quod multitudo | quae
+<lb ed="#L" n="27"/>ponit aliquid in rebus creatis, est species 
+quan<lb break="no" ed="#L" n="28"/>titatis; quae non transumitur in divinam 
+prae<lb break="no" ed="#L" n="29"/>dicationem; sed tantum multitudo transcendens,
+<lb ed="#L" n="30"/>quae non addit supra ea de quibus dicitur, nisi
+<lb ed="#L" n="31"/>indivisionem circa singula. Et talis multitudo 
+di<lb break="no" ed="#L" n="32"/>citur de Deo.
+</p>
+               <p xml:id="TAca84-d1e201-d1e998">
+                  <lb ed="#L" n="33"/>AD TERTIUM DICENDUM quod unum non est 
+re<lb break="no" ed="#L" n="34"/>motivum multitudinis, sed divisionis, quae est
+<lb ed="#L" n="35"/>prior, secundum rationem, quam unum vel 
+mul<lb break="no" ed="#L" n="36"/>titudo. Multitudo autem non removet unitatem:
+<lb ed="#L" n="37"/>sed removet divisionem circa unumquodque 
+eo<lb break="no" ed="#L" n="38"/>rum ex quibus constat multitudo. Et haec supra
+<lb ed="#L" n="39"/>exposita sunt, cum de divina unitate ageretur.
+</p>
+               <p xml:id="TAca84-d1e201-d1e1016">
+                  <lb ed="#L" n="40"/>Sciendum tamen est? quod auctoritates in 
+oppo<lb break="no" ed="#L" n="41"/>situm inductae, non probant sufficienter 
+proposi<lb break="no" ed="#L" n="42"/>tum. Licet enim pluralitate excludatur solitudo ^,
+<lb ed="#L" n="43"/>et unitate deorum pluralitas, non tamen sequitur
+<lb ed="#L" n="44"/>quod his nominibus hoc solum significetur. 
+Albe<lb break="no" ed="#L" n="45"/>dine enim excluditur nigredo: non tamen nomine
+<lb ed="#L" n="46"/>albedinis significatur sola nigredinis exclusio.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e201-Dd1e1035"><!-- p1-q30-a4 -->
+               <head xml:id="TAca84-d1e201-Hd1e1038">Articulus 4</head>
+               <head xml:id="TAca84-d1e201-Hd1e1040" type="question-title">
+  utrum hoc nomen persona possit esse commune tribus personis
+</head>
+               <p xml:id="TAca84-d1e201-d1e1043">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>ARTICULUS QUARTUS
+<lb ed="#L" n="14"/>UTRUM HOC NOMEN PERSONA POSSIT ESSE COMMUNE TRIBUS PERSONIS
+</p>
+               <p xml:id="TAca84-d1e201-d1e1052">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="15"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="16"/>hoc nomen persona non possit esse
+<lb ed="#L" n="17"/>commune tribus personis. Nihil enim
+<lb ed="#L" n="18"/>commune tribus personis nisi 
+es<lb break="no" ed="#L" n="19"/>sentia. Sed hoc nomen persona non significat
+<lb ed="#L" n="20"/>essentiam —in recto. Ergo non est commune
+<lb ed="#L" n="21"/>tribus.
+</p>
+               <p xml:id="TAca84-d1e201-d1e1072">
+                  <lb ed="#L" n="22"/>2. PRAETEREA, commune opponitur 
+incommu<lb break="no" ed="#L" n="23"/>nicabili. Sed de ratione personae est quod sit
+<lb ed="#L" n="24"/>incommunicabilis, ut patet ex definitione Ricardi
+<lb ed="#L" n="25"/>de s. Victore supra posita. Ergo hoc nomen
+<lb ed="#L" n="26"/>persona non est commune tribus.
+</p>
+               <p xml:id="TAca84-d1e201-d1e1086">
+                  <lb ed="#L" n="27"/>3. PRAETEREA, si est commune tribus, aut ista
+<lb ed="#L" n="28"/>communitas attenditur secundum rem, aut 
+secun<lb break="no" ed="#L" n="29"/>dum rationem. Sed non secundum rem: quia sic
+<lb ed="#L" n="30"/>tres personae essent una persona. Nec iterum 
+se<lb break="no" ed="#L" n="31"/>cundum rationem tantum: quia sic persona esset
+<lb ed="#L" n="32"/>universale, in divinis autem non est universale
+<lb ed="#L" n="33"/>et particulare, neque genus neque species, ut
+<lb ed="#L" n="34"/>supra ostensum est. Non ergo hoc nomen 
+per<lb break="no" ed="#L" n="35"/>sona est commune tribus.
+</p>
+               <p xml:id="TAca84-d1e201-d1e1108">
+                  <lb ed="#L" n="36"/>SED coNTRA EsT quod dicit <ref xml:id="TAca84-d1e201-Rd1e1112">Augustinus, VII de
+<lb ed="#L" n="37"/>Trin.</ref>, quod cum quaereretur, Quid tres? 
+respon<lb break="no" ed="#L" n="38"/>sum est, tres Personae; quia commune est eis
+<lb ed="#L" n="39"/>id quod. est persona.
+</p>
+               <p xml:id="TAca84-d1e201-d1e1122">
+                  <lb ed="#L" n="40"/>RESPONDEO DICENDUM quod ipse modus loquendi
+<lb ed="#L" n="41"/>ostendit hoc nomen persona tribus esse ? 
+com<lb break="no" ed="#L" n="42"/>mune, cum dicimus /res personas: sicut cum 
+di<lb break="no" ed="#L" n="43"/>cimus /res homines, ostendimus hominem esse
+<lb ed="#L" n="44"/>commune tribus. Manifestum est autem quod
+<lb ed="#L" n="45"/>non est communitas rei, sicut una essentia 
+com<lb break="no" ed="#L" n="46"/>munis est tribus: quia sic sequeretur unam
+<lb ed="#L" n="47"/>esse personam trium, sicut essentia est una.
+</p>
+               <p xml:id="TAca84-d1e201-d1e1142">
+                  <lb ed="#L" n="48"/>Qualis autem sit communitas, investigantes 
+di<lb break="no" ed="#L" n="49"/>versimode locuti sunt. Quidam enim dixerunt
+<lb ed="#L" n="50"/>quod est communitas negationis; propter hoc,
+<lb ed="#L" n="51"/>quod in definitione personae ponitur 
+incommuni<lb break="no" ed="#L" n="52"/>cabile. Quidam autem dixerunt quod est 
+com<lb break="no" ed="#L" n="53"/>munitas intentionis, eo quod" in definitione 
+per<lb break="no" ed="#L" n="54"/>sonae ponitur individuum; sicut si dicatur quod
+<lb ed="#L" n="55"/>esse speciem est commune equo et bovi. - Sed
+<lb ed="#L" n="56"/>utrumque horum excluditur per hoc, quod hoc
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="57"/>nomen persona non est nomen negationis neque
+<lb ed="#L" n="58"/>intentionis, sed est nomen rei.
+</p>
+               <p xml:id="TAca84-d1e201-d1e1171">
+                  <lb ed="#L" n="59"/>Et ideo dicendum est quod etiam in rebus
+<lb ed="#L" n="60"/>humanis hoc nomen persona est commune 
+com<lb break="no" ed="#L" n="61"/>munitate rationis, non sicut genus vel species,
+<lb ed="#L" n="62"/>sed sicut individuum vagum. Nomina enim 
+ge<lb break="no" ed="#L" n="63"/>nerum vel specierum, ut /omo vel animal, sunt
+<lb ed="#L" n="64"/>imposita ad significandum ipsas naturas 
+commu<lb break="no" ed="#L" n="65"/>nes; non autem intentiones naturarum 
+commu<lb break="no" ed="#L" n="66"/>nium, quae significantur his nominibus genus vel
+<lb ed="#L" n="67"/>species. Sed individuum vagum, ut aliquis homo,
+<lb ed="#L" n="68"/>significat naturam communem cum determinato
+<lb ed="#L" n="69"/>modo existendi qui competit singularibus, ut 
+sci<lb break="no" ed="#L" n="70"/>licet sit per se subsistens distinctum ab aliis. Sed
+<lb ed="#L" n="71"/>in nomine singularis designati, significatur 
+deter<lb break="no" ed="#L" n="72"/>minatum distinguens: sicut in nomine Socratis
+<lb ed="#L" n="73"/>haec caro et hoc os. Hoc tamen interest, quod
+<lb ed="#L" n="74"/>aliquis homo significat naturam, vel ? individuum
+<lb ed="#L" n="75"/>ex parte naturae, cum modo existendi qui 
+com<lb break="no" ed="#L" n="76"/>petit singularibus: hoc autem nomen persona non
+<lb ed="#L" n="77"/>est impositum ad significandum individuum ex
+<lb ed="#L" n="78"/>parte naturae, sed ad significandum rem 
+subsi<lb break="no" ed="#L" n="79"/>stentem in tali natura.
+</p>
+               <p xml:id="TAca84-d1e201-d1e1219">
+                  <lb ed="#L" n="80"/>Hoc autem est commune secundum rationem
+<lb ed="#L" n="81"/>omnibus personis divinis, ut unaquaeque earum
+<lb ed="#L" n="82"/>subsistat in natura divina distincta ab aliis. Et sic
+<lb ed="#L" n="83"/>hoc nomen persona, secundum rationem, est 
+com<lb break="no" ed="#L" n="84"/>mune tribus " personis divinis.
+</p>
+               <p xml:id="TAca84-d1e201-d1e1233">
+                  <lb ed="#L" n="85"/>AD PRIMUM ERGO DICENDUM quod ratio illa 
+pro<lb break="no" ed="#L" n="86"/>cedit de communitate rei.
+</p>
+               <p xml:id="TAca84-d1e201-d1e1240">
+                  <lb ed="#L" n="87"/>AD SECUNDUM DICENDUM quod, licet persona sit
+<lb ed="#L" n="88"/>incommunicabilis, tamen ipse modus existendi 
+in<lb break="no" ed="#L" n="89"/>communicabiliter, potest esse pluribus communis.
+</p>
+               <p xml:id="TAca84-d1e201-d1e1249">
+                  <lb ed="#L" n="90"/>AD TERTIUM DICENDUM quod, licet sit 
+communi<lb break="no" ed="#L" n="91"/>tas rationis et non rei, tamen non sequitur quod
+<lb ed="#L" n="92"/>in divinis sit universale et particulare, vel genus
+<lb ed="#L" n="93"/>vel species. Tum quia neque in rebus humanis
+<lb ed="#L" n="94"/>communitas personae est communitas generis vel
+<lb ed="#L" n="95"/>speciei. Tum quia personae divinae habent unum
+<lb ed="#L" n="96"/>esse: genus autem et species, et quodlibet 
+uni<lb break="no" ed="#L" n="97"/>versale, praedicatur de pluribus secundum esse ^
+<lb ed="#L" n="98"/>differentibus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

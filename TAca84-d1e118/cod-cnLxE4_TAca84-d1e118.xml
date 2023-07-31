@@ -1,0 +1,2076 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 14</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 14</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="169"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e118"><!-- p1-q14 -->
+            <head xml:id="TAca84-d1e118-Hd1e99">Quaestio 14</head>
+            <head xml:id="TAca84-d1e118-Hd1e101" type="question-title">de scientia dei</head>
+            <p xml:id="TAca84-d1e118-d1e104">
+               <pb ed="#L" n="169"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO DECIMAQUARTA
+<lb ed="#L" n="2"/>DE SCIENTIA DEI
+<lb ed="#L" n="3"/>IN SEXDECIM ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e118-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>POST considerationem eorum quae ad divinam
+<lb ed="#L" n="5"/>Ponts pertinent, restat considerandum
+<lb ed="#L" n="6"/>de his quae pertinent ad operationem ipsius. Et
+<lb ed="#L" n="7"/>quia operatio quaedam est quae manet in 
+ope<lb break="no" ed="#L" n="8"/>rante ^, quaedam vero quae procedit in 
+exterio<lb break="no" ed="#L" n="9"/>rem effectum, primo agemus de scientia et 
+vo<lb break="no" ed="#L" n="10"/>luntate (nam intelligere in intelligente est, et velle
+<lb ed="#L" n="11"/>in volente); et postmodum de potentia Dei, quae
+<lb ed="#L" n="12"/>consideratur ut principium operationis divinae in
+<lb ed="#L" n="13"/>effectum exteriorem procedentis. Quia vero 
+intel<lb break="no" ed="#L" n="14"/>ligere quoddam vivere est, post considerationem
+<lb ed="#L" n="15"/>divinae scientiae, considerandum erit de vita
+<lb ed="#L" n="16"/>divina, Et quia scientia verorum est, erit etiam
+<lb ed="#L" n="17"/>considerandum de veritate et falsitate. Rursum,
+<lb ed="#L" n="18"/>quia omne cognitum in cognoscente est, rationes
+<lb ed="#L" n="19"/>autem rerum secundum quod sunt in Deo 
+cogno<lb break="no" ed="#L" n="20"/>scente, ideae vocantur, cum consideratione 
+scien<lb break="no" ed="#L" n="21"/>tiae erit etiam ? adiungenda consideratio de ideis.
+<lb ed="#L" n="22"/>Circa scientiam vero quaeruntur sexdecim.
+</p>
+            <p xml:id="TAca84-d1e118-d1e163">
+               <lb ed="#L" n="23"/>Primo: utrum in Deo sit scientia.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="24"/>Secundo: utrum Deus intelligat seipsum.
+<lb ed="#L" n="25"/>Tertio: utrum comprehendat se.
+<lb ed="#L" n="26"/>Quarto: utrum suum intelligere sit sua sub- /
+<lb ed="#L" n="27"/>stantia.
+<lb ed="#L" n="28"/>Quinto: utrum intelligat alia a se.
+<lb ed="#L" n="29"/>Sexto: utrum habeat de eis propriam 
+cogni<lb break="no" ed="#L" n="30"/>tionem.
+<lb ed="#L" n="31"/>Septimo: utrum scientia Dei sit discursiva.
+<lb ed="#L" n="32"/>Octavo: utrum scientia Dei sit causa rerum.
+<lb ed="#L" n="33"/>Nono: utrum scientia Dei sit eorum quae non
+<lb ed="#L" n="34"/>sunt.
+<lb ed="#L" n="35"/>Decimo: utrum sit malorum.
+<lb ed="#L" n="36"/>Undecimo: utrum sit singularium.
+<lb ed="#L" n="37"/>Duodecimo: utrum sit infinitorum.
+<lb ed="#L" n="38"/>Decimotertio: utrum sit contingentium 
+futu<lb break="no" ed="#L" n="39"/>rorum.
+<lb ed="#L" n="40"/>Decimoquarto: utrum sit enuntiabilium.
+<lb ed="#L" n="41"/>Decimoquinto: utrum scientia Dei sit variabilis.
+<lb ed="#L" n="42"/>Decimosexto: utrum Deus de rebus habeat
+<lb ed="#L" n="43"/>speculativam scientiam vel practicam.
+</p>
+            <div xml:id="TAca84-d1e118-Dd1e214"><!-- p1-q14-a1 -->
+               <head xml:id="TAca84-d1e118-Hd1e217">Articulus 1</head>
+               <head xml:id="TAca84-d1e118-Hd1e219" type="question-title">
+  utrum in deo sit scientia
+</head>
+               <p xml:id="TAca84-d1e118-d1e222">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="44"/>ARTICULUS PRIMUS
+<lb ed="#L" n="45"/>UTRUM IN DEO SIT SCIENTIA
+</p>
+               <p xml:id="TAca84-d1e118-d1e231">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="46"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="47"/>in Deo non sit scientia. Scientia enim
+<lb ed="#L" n="48"/>(à habitus est: qui Deo non competit, cum
+<lb ed="#L" n="49"/>Nsit medius inter potentiam et actum.
+<lb ed="#L" n="50"/>Ergo scientia non est in Deo.
+</p>
+               <p xml:id="TAca84-d1e118-d1e247">
+                  <lb ed="#L" n="51"/>2. PRAETEREA, scientia, cum sit conclusionum,
+<lb ed="#L" n="52"/>est quaedam cognitio ab alio causata, scilicet ex
+<lb ed="#L" n="53"/>cognitione principiorum. Sed nihil causatum est
+<lb ed="#L" n="54"/>in Deo. Ergo scientia non est in Deo.
+</p>
+               <p xml:id="TAca84-d1e118-d1e259">
+                  <lb ed="#L" n="55"/>3. PRAETEREA, omnis scientia vel universalis
+<lb ed="#L" n="56"/>vel particularis est. Sed in Deo non est 
+univer<lb break="no" ed="#L" n="57"/>sale et particulare, ut ex superioribus patet.
+<lb ed="#L" n="58"/>Ergo in Deo non est scientia.
+</p>
+               <p xml:id="TAca84-d1e118-d1e270">
+                  <lb ed="#L" n="59"/>SED coNTRA EsT quod Apostolus dicit <ref xml:id="TAca84-d1e118-Rd1e274">Rom. xi</ref>:
+<quote xml:id="TAca84-d1e118-Qd1e276">O altitudo divitiarum sapientiae et scientiae Dei</quote>.
+</p>
+               <p xml:id="TAca84-d1e118-d1e279">
+                  <lb ed="#L" n="60"/>RxsPoNpEO picENDUM quod in Deo perfectissime
+<lb ed="#L" n="61"/>est scientia. Ad cuius evidentiam, considerandum
+<lb ed="#L" n="62"/>est quod cognoscentia a non cognoscentibus in
+<lb ed="#L" n="63"/>hoc. distinguuntur, quia non cognoscentia nihil
+<lb ed="#L" n="64"/>habent? nisi formam suam tantum; sed 
+cogno<lb break="no" ed="#L" n="65"/>scens natum est habere formam etiam rei 
+alte<lb break="no" ed="#L" n="66"/>rius, nam species cogniti est in cognoscente.
+<lb ed="#L" n="67"/>Unde manifestum est quod natura rei non co-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="68"/>gnoscentis est magis coarctata et limitata: natura
+<lb ed="#L" n="69"/>autem rerum cognoscentium habet maiorem 
+am<lb break="no" ed="#L" n="70"/>plitudinem et extensionem. Propter quod dicit.
+<lb ed="#L" n="71"/>Philosophus, III de Anima, quod anima est quo- t Cap vm nr
+<lb ed="#L" n="72"/>dammodo omnia. Coarctatio autem formae est
+<lb ed="#L" n="73"/>per materiam. Unde et supra diximus quod for-Quvn, arts.
+<lb ed="#L" n="74"/>mae, Secundum quod sunt magis immateriales,
+<lb ed="#L" n="75"/>secundum hoc magis accedunt ad quandam infi- |
+<lb ed="#L" n="76"/>nitatem. Patet igitur quod immaterialitas alicuius
+<lb ed="#L" n="77"/>rei est ratio quod sit cognoscitiva; et secundum
+<lb ed="#L" n="78"/>modum immaterialitais est modus cognitionis.
+<lb ed="#L" n="79"/>Unde in II de Anima dicitur quod plantae non
+<lb ed="#L" n="80"/>cognoscunt, propter suam materialitatem. Sensus
+<lb ed="#L" n="81"/>autem cognoscitivus est, quja receptivus est 
+spe<lb break="no" ed="#L" n="82"/>cierum sine materia: et intellectus adhuc magis d
+<lb ed="#L" n="83"/>cognoscitivus, quia magis separatus est a materia
+<lb ed="#L" n="84"/>et immixtus, ut dicitur in <ref xml:id="TAca84-d1e118-Rd1e337">III de Anima</ref>. Unde, 
+<lb ed="#L" n="85"/>cum Deus sit in summo immaterialitatis , ut ex vi.
+<lb ed="#L" n="86"/>superioribus patet, sequitur quod ipse sit in 
+<lb ed="#L" n="87"/>summo cognitionis.
+</p>
+               <p xml:id="TAca84-d1e118-d1e347">
+                  <lb ed="#L" n="88"/>AD PRIMUM ERGO DICENDUM quod, quia 
+perfectio<lb break="no" ed="#L" n="89"/>nes procedentes a Deo in creaturas, altiori modo 
+<lb ed="#L" n="90"/>sunt in Deo, ut supra dictum est, oporte quod,
+<pb ed="#L" n="170"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quandocumque aliquod nomen sumptum a 
+qua<lb break="no" ed="#L" n="2"/>cumque perfectione creaturae Deo attribuitur, 
+se<lb break="no" ed="#L" n="3"/>cludatur ab eius significatione omne illud quod
+<lb ed="#L" n="4"/>pertinet ad imperfectum modum qui competit
+<lb ed="#L" n="5"/>creaturae. Unde scientia non est qualitas in Deo
+<lb ed="#L" n="6"/>vel habitus, sed substantia et actus purus.
+</p>
+               <p xml:id="TAca84-d1e118-d1e373">
+                  <lb ed="#L" n="7"/>AD SECUNDUM DICENDUM quod ea quae sunt 
+di<lb break="no" ed="#L" n="8"/>visim et multipliciter in creaturis, in Deo sunt
+<lb ed="#L" n="9"/>simpliciter et unite, ut supra dictum est. Homo
+<lb ed="#L" n="10"/>autem, secundum diversa cognita, habet diversas
+<lb ed="#L" n="11"/>cognitiones: nam secundum quod cognoscit 
+prin<lb break="no" ed="#L" n="12"/>cipia, dicitur habere intelligentiam; scientiam vero,
+<lb ed="#L" n="13"/>secundum quod cognoscit conclusiones; 
+sapien<lb break="no" ed="#L" n="14"/>liam, secundum quod cognoscit causam 
+altissi<lb break="no" ed="#L" n="15"/>mam; consilium vel prudentiam, secundum quod
+<lb ed="#L" n="16"/>cognoscit agibilia. Sed haec omnia Deus una et "
+<lb ed="#L" n="17"/>simplici cognitione cognoscit, ut infra patebit.
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="18"/>Unde simplex Dei cognitio omnibus istis 
+nomini<lb break="no" ed="#L" n="19"/>bus nominari potest: ita tamen quod ab 
+unoquo<lb break="no" ed="#L" n="20"/>que eorum, secundum quod in divinam 
+praedica<lb break="no" ed="#L" n="21"/>tionem venit, secludatur quidquid imperfectionis
+<lb ed="#L" n="22"/>est, et retineatur quidquid perfectionis est. Et
+<lb ed="#L" n="23"/>secundum hoc dicitur Job xu: <quote xml:id="TAca84-d1e118-Qd1e414">apud ipsum est
+<lb ed="#L" n="24"/>sapientia et fortitudo; ipse habet consilium et 
+in<lb break="no" ed="#L" n="25"/>telligentiam</quote>.
+</p>
+               <p xml:id="TAca84-d1e118-d1e422">
+                  <lb ed="#L" n="26"/>AD TERTIUM DICENDUM quod scientia est 
+secun<lb break="no" ed="#L" n="27"/>dum modum cognoscentis: scitum enim est in
+<lb ed="#L" n="28"/>sciente secundum modum scientis. Et ideo, cum
+<lb ed="#L" n="29"/>modus divinae essentiae sit altior quam modus
+<lb ed="#L" n="30"/>quo creaturae sunt, scientia divina non habet
+<lb ed="#L" n="31"/>modum creatae scientiae, ut scilicet sit 
+univer<lb break="no" ed="#L" n="32"/>salis vel particularis, vel in habitu vel in 
+po<lb break="no" ed="#L" n="33"/>tentia, vel secundum aliquem talem modum 
+dis<lb break="no" ed="#L" n="34"/>posita.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e118-Dd1e445"><!-- p1-q14-a2 -->
+               <head xml:id="TAca84-d1e118-Hd1e448">Articulus 2</head>
+               <head xml:id="TAca84-d1e118-Hd1e450" type="question-title">
+  utrum deus intelligat se
+</head>
+               <p xml:id="TAca84-d1e118-d1e453">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="59"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="60"/>UTRUM DEUS INTELLIGAT SE
+</p>
+               <p xml:id="TAca84-d1e118-d1e462">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="61"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="62"/>V) Deus non intelligat se. Dicitur enim in
+<lb ed="#L" n="63"/>AXA libro de Causis, quod omnis sciens qui
+<lb ed="#L" n="64"/>hc Nascit suam essentiam, est rediens ad 
+essen<lb break="no" ed="#L" n="65"/>tiam suam reditione completa. Sed Deus non exit
+<lb ed="#L" n="66"/>extra essentiam suam, nec aliquo modo movetur:
+<lb ed="#L" n="67"/>et sic non competit sibi redire ad essentiam suam.
+<lb ed="#L" n="68"/>Ergo ipse non est sciens essentiam suam.
+</p>
+               <p xml:id="TAca84-d1e118-d1e484">
+                  <lb ed="#L" n="69"/>2. PRAETEREA, intelligere est quoddam pati et
+<lb ed="#L" n="70"/>moveri, ut dicitur in III de Anima: scientia etiam
+<lb ed="#L" n="71"/>est assimilatio ad. rem scitam: et scitum etiam
+<lb ed="#L" n="72"/>est perfectio scientis. Sed nihil movetur, vel 
+pa<lb break="no" ed="#L" n="73"/>titur, vel perficitur a seipso; neque similitudo sibi?
+<lb ed="#L" n="74"/>est, ut Hilarius dicit. Ergo Deus non est sciens
+<lb ed="#L" n="75"/>seipsum. /
+</p>
+               <p xml:id="TAca84-d1e118-d1e503">
+                  <lb ed="#L" n="76"/>3. PnaETEREA, praecipue Deo sumus similes
+<lb ed="#L" n="77"/>secundum intellectum: quia secundum mentem
+<lb ed="#L" n="78"/>sumus ad imaginem Dei, ut dicit Augustinus.
+<lb ed="#L" n="79"/>Sed intellectus noster non intelligit se, nisi sicut
+<lb ed="#L" n="80"/>intelligit alia, ut dicitur in III- de Anima. Ergo
+<lb ed="#L" n="81"/>nec Deus ? intelligit se, nisi forte intelligendo alia.
+</p>
+               <p xml:id="TAca84-d1e118-d1e519">
+                  <lb ed="#L" n="82"/>SED cowTRA EsT quod dicitur I ad Cor. m:
+<lb ed="#L" n="83"/>quae sunt Dei, nemo novit ? nisi Spiritus Dei.
+</p>
+               <p xml:id="TAca84-d1e118-d1e526">
+                  <lb ed="#L" n="84"/>RESPONDEO DICENDUM quod Deus se per seipsum
+<lb ed="#L" n="85"/>intelligit. Ad. cuius evidentiam, sciendum est
+<lb ed="#L" n="86"/>quod, licet in operationibus quae transeunt in
+<lb ed="#L" n="87"/>exteriorem effectum, obiectum operationis, quod
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="88"/>significatur ut terminus, sit aliquid extra 
+operan<lb break="no" ed="#L" n="89"/>tem; tamen in operationibus quae sunt in 
+ope<lb break="no" ed="#L" n="90"/>rante, obiectum quod significatur ut terminus 
+ope<lb break="no" ed="#L" n="91"/>rationis, est in ipso operante; et secundum quod
+<lb ed="#L" n="92"/>est in eo, sic est operatio in actu. Unde dicitur
+<lb ed="#L" n="93"/>in libro de Anima, quod sensibile in actu est
+<lb ed="#L" n="94"/>sensus in actu, et intelligibile in actu est 
+intelle<lb break="no" ed="#L" n="95"/>ctus in actu. Ex hoc enim aliquid in actu sentimus
+<lb ed="#L" n="96"/>vel intelligimus, quod intellectus noster vel 
+sen<lb break="no" ed="#L" n="97"/>sus informatur in actu per speciem sensibilis
+<lb ed="#L" n="98"/>vel intelligibilis. Et secundum hoc tantum sensus
+<lb ed="#L" n="99"/>vel intellectus aliud est a sensibili vel intelligibili,
+<lb ed="#L" n="100"/>quia utrumque est in potentia. |
+</p>
+               <p xml:id="TAca84-d1e118-d1e568">
+                  <lb ed="#L" n="101"/>Cum igitur Deus nihil potentialitatis habeat,
+<lb ed="#L" n="102"/>sed sit actus purus, oportet quod in eo 
+intelle<lb break="no" ed="#L" n="103"/>ctus'et intellectum sint " idem omnibus modis: ita
+<lb ed="#L" n="104"/>scilicet, ut neque careat specie intelligibili, sicut
+<lb ed="#L" n="105"/>intellectus noster cum intelligit in potentia; neque
+<lb ed="#L" n="106"/>species intelligibilis sit aliud a substantia 
+intelle<lb break="no" ed="#L" n="107"/>ctus divini, sicut accidit in intellectu nostro, cum
+<lb ed="#L" n="108"/>est actu intelligens; sed ipsa species intelligibilis
+<lb ed="#L" n="109"/>est ipse intellectus divinus. Et sic seipsum per
+<lb ed="#L" n="110"/>seipsum intelligit.
+</p>
+               <p xml:id="TAca84-d1e118-d1e592">
+                  <lb ed="#L" n="111"/>AD PRIMUM ERGO DICENDUM quod redire ad 
+es<lb break="no" ed="#L" n="112"/>sentiam suam nihil aliud est quam rem  
+subsi<lb break="no" ed="#L" n="113"/>stere in seipsa. Forma enim, inquantum perficit
+<lb ed="#L" n="114"/>materiam dando ei esse, quodammodo supra
+<pb ed="#L" n="172"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ipsam effunditur: inquantum vero in seipsa  
+ha<lb break="no" ed="#L" n="2"/>bet esse, in seipsam redit. Virtutes igitur 
+cogno<lb break="no" ed="#L" n="3"/>scitivae quae non sunt subsistentes, sed actus
+<lb ed="#L" n="4"/>aliquorum organorum, non cognoscunt seipsas;
+<lb ed="#L" n="5"/>sicut patet in singulis sensibus. Sed virtutes 
+co<lb break="no" ed="#L" n="6"/>gnoscitivae per se subsistentes, cognoscunt 
+se<lb break="no" ed="#L" n="7"/>ipsas. Et propter hoc dicitur in libro de Causis,
+<lb ed="#L" n="8"/>quod sciens essentiam suam, redit ad essentiam
+<lb ed="#L" n="9"/>suam. Per se autem subsistere maxime convenit
+<lb ed="#L" n="10"/>Deo. Unde secundum hunc modum loquendi,
+<lb ed="#L" n="11"/>ipse est maxime rediens ad essentiam suam, et '
+<lb ed="#L" n="12"/>cognoscens seipsum.
+</p>
+               <p xml:id="TAca84-d1e118-d1e634">
+                  <lb ed="#L" n="13"/>AD SECUNDUM DICENDUM quod moveri et pati
+<lb ed="#L" n="14"/>sumuntur aequivoce secundum quod intelligere
+<lb ed="#L" n="15"/>dicitur esse quoddam moveri vel pati, ut dicitur
+<lb ed="#L" n="16"/>in III de Anima. Non enim intelligere est motus
+<lb ed="#L" n="17"/>qui est actus imperfecti, qui est ab alio in aliud:
+<lb ed="#L" n="18"/>sed actus perfecti, existens in ipso agente. 
+Simi<lb break="no" ed="#L" n="19"/>liter. etiam quod intellectus perficiatur ab 
+intelli<lb break="no" ed="#L" n="20"/>gibili vel assimiletur ei, hoc convenit intellectui
+<lb ed="#L" n="21"/>qui quandoque est in potentia: quia per hoc
+<lb ed="#L" n="22"/>quod est in potentia, differt ab intelligibili, et 
+as<lb break="no" ed="#L" n="23"/>similatur ei per speciem intelligibilem, quae est
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24"/>similitudo rei intellectae; et perficitur per ipsam ?,
+<lb ed="#L" n="25"/>sicut potentia per actum. Sed intellectus divinus,
+<lb ed="#L" n="26"/>qui nullo. modo est in potentia, non perficitur
+<lb ed="#L" n="27"/>per intelligibile, neque assimilatur ei: sed est sua
+<lb ed="#L" n="28"/>perfectio et suum intelligibile ^.
+</p>
+               <p xml:id="TAca84-d1e118-d1e674">
+                  <lb ed="#L" n="29"/>AD TERTIUM DICENDUM quod esse naturale non
+<lb ed="#L" n="30"/>est materiae primae, quae est in potentia ", nisi
+<lb ed="#L" n="31"/>secundum quod est reducta in actum per 
+for<lb break="no" ed="#L" n="32"/>mam. Intellectus autem noster possibilis se habet
+<lb ed="#L" n="33"/>in ordine intelligibilium 5, sicut materia prima in
+<lb ed="#L" n="34"/>ordine rerum naturalium: eo quod est in 
+poten<lb break="no" ed="#L" n="35"/>tia ad intelligibilia, sicut materia prima ad 
+natu<lb break="no" ed="#L" n="36"/>ralia. Unde intellectus noster possibilis non potest
+<lb ed="#L" n="37"/>habere intelligibilem operationem, nisi 
+inquan<lb break="no" ed="#L" n="38"/>tum perficitur per speciem intelligibilem alicuius.
+<lb ed="#L" n="39"/>Et sic intelligit seipsum per speciem 
+intelligibi<lb break="no" ed="#L" n="40"/>lem, sicut et alia: manifestum est enim " quod
+<lb ed="#L" n="41"/>ex eo quod cognoscit intelligibile, intelligit ipsum
+<lb ed="#L" n="42"/>suum intelligere, et per actum cognoscit 
+poten<lb break="no" ed="#L" n="43"/>tiam intellectivam. Deus autem est sicut actus
+<lb ed="#L" n="44"/>purus tam in ordine existentium, quam in ordine
+<lb ed="#L" n="45"/>intelligibilium: ét ideo per seipsum, seipsum. 
+in<lb break="no" ed="#L" n="46"/>telligit.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e118-Dd1e717"><!-- p1-q14-a3 -->
+               <head xml:id="TAca84-d1e118-Hd1e720">Articulus 3</head>
+               <head xml:id="TAca84-d1e118-Hd1e722" type="question-title">
+  utrum deus comprehendat seipsum
+</head>
+               <p xml:id="TAca84-d1e118-d1e725">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29"/>ARTICULUS TERTIUS
+<lb ed="#L" n="30"/>UTRUM DEUS COMPREHENDAT SEIPSUM
+</p>
+               <p xml:id="TAca84-d1e118-d1e734">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="31"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="32"/>Deus non comprehendat. seipsum. Dicit
+<lb ed="#L" n="33"/>enim Augustinus, in libro Octoginta
+<lb ed="#L" n="34"/>trium Quaest., quod id quod 
+compre<lb break="no" ed="#L" n="35"/>hendit se, finitum est sibi. Sed Deus est omnibus
+<lb ed="#L" n="36"/>modis infinitus. Ergo non comprehendit se.
+</p>
+               <p xml:id="TAca84-d1e118-d1e752">
+                  <lb ed="#L" n="37"/>2. Si dicatur quod Deus infinitus est nobis,
+<lb ed="#L" n="38"/>sed sibi finitus, contra: verius est unumquodque
+<lb ed="#L" n="39"/>secundum quod est apud Deum, quam secundum
+<lb ed="#L" n="40"/>quod est apud nos. Si igitur Deus sibi ipsi est
+<lb ed="#L" n="41"/>finitus, nobis autem infinitus, verius est Deum
+<lb ed="#L" n="42"/>esse finitum, quam infinitum. Quod est contra
+<lb ed="#L" n="43"/>prius determinata . Non ergo Deus 
+compre<lb break="no" ed="#L" n="44"/>hendit seipsum.
+</p>
+               <p xml:id="TAca84-d1e118-d1e773">
+                  <lb ed="#L" n="45"/>SED cONTRA EsT quod Augustinus dicit ibidem:
+<lb ed="#L" n="46"/>omne quod intelligit se, comprehendit se. Sed
+<lb ed="#L" n="47"/>Deus intelligit se. Ergo comprehendit se.
+</p>
+               <p xml:id="TAca84-d1e118-d1e782">
+                  <lb ed="#L" n="48"/>REsPONDEO DICENDUM quod Deus perfecte 
+com<lb break="no" ed="#L" n="49"/>prehendit seipsum. Quod sic patet. Tunc enim
+<lb ed="#L" n="50"/>dicitur aliquid comprehendi, quando pervenitur
+<lb ed="#L" n="51"/>ad finem cognitionis ipsius: et hoc est quando
+<lb ed="#L" n="52"/>res cognoscitur ita perfecte, sicut cognoscibilis
+<lb ed="#L" n="53"/>est. Sicut propositio demonstrabilis 
+comprehen<lb break="no" ed="#L" n="54"/>ditur, quando scitur per demonstrationem: non
+<lb ed="#L" n="55"/>autem quando cognoscitur per aliquam rationem
+<lb ed="#L" n="56"/>probabilem. Manifestum est autem quod Deus
+<lb ed="#L" n="57"/>ita perfecte cognoscit seipsum, sicut perfecte 
+co<lb break="no" ed="#L" n="58"/>gnoscibilis est. Est enim unumquodque 
+cogno<lb break="no" ed="#L" n="59"/>scibile secundum modum sui actus: non enim
+<lb ed="#L" n="60"/>cognoscitur aliquid secundum quod in potentia
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="61"/>est, sed secundum quod est in actu, ut dicitur
+<lb ed="#L" n="62"/>in IX Metaphys. Tanta est autem virtus Dei
+<lb ed="#L" n="63"/>in cognoscendo, quanta est actualitas eius in 
+exi<lb break="no" ed="#L" n="64"/>stendo: quia per hoc quod actu est, et ab omni
+<lb ed="#L" n="65"/>materia et potentia separatus, Deus cognoscitivus
+<lb ed="#L" n="66"/>est, ut ostensum est. Unde manifestum est quod
+<lb ed="#L" n="67"/>tantum seipsum cognoscit, quantum cognoscibilis
+<lb ed="#L" n="68"/>est. Et propter hoc seipsum perfecte 
+compre<lb break="no" ed="#L" n="69"/>hendit.
+</p>
+               <p xml:id="TAca84-d1e118-d1e834">
+                  <lb ed="#L" n="70"/>AD PRIMUM ERGO DICENDUM quod comprehendere,
+<lb ed="#L" n="71"/>si proprie accipiatur, significat aliquid habens et
+<lb ed="#L" n="72"/>includens. alterum. Et sic oportet quod omne
+<lb ed="#L" n="73"/>comprehensum sit finitum, sicut omne inclusum.
+<lb ed="#L" n="74"/>Non sic autem comprehendi dicitur Deus a 
+se<lb break="no" ed="#L" n="75"/>ipso, ut intellectus suus sit aliud quam ipse,
+<lb ed="#L" n="76"/>et capiat ipsum et includat. Sed huiusmodi 
+lo<lb break="no" ed="#L" n="77"/>cutiones per negationem sunt exponendae. Sicut
+<lb ed="#L" n="78"/>enim Deus dicitur esse in seipso, quia a nullo
+<lb ed="#L" n="79"/>exteriori continetur; ita dicitur comprehendi a
+<lb ed="#L" n="80"/>seipso, quia nihil est sui quod lateat ipsum. Dicit
+<lb ed="#L" n="81"/>enim Augustinus, in libro de Videndo Deum,
+<lb ed="#L" n="82"/>quod £otum comprehenditur videndo, quod ita 
+vi<lb break="no" ed="#L" n="83"/>detur, ut nihil eius lateat videntem.
+</p>
+               <p xml:id="TAca84-d1e118-d1e867">
+                  <lb ed="#L" n="84"/>AD SECUNDUM DICENDUM quod, cum dicitur Deus
+<lb ed="#L" n="85"/>finitus est. sibi, intelligendum est secundum 
+quan<lb break="no" ed="#L" n="86"/>dam similitudinem proportionis; quia sic se habet
+<lb ed="#L" n="87"/>in non excedendo intellectum suum, sicut se habet
+<lb ed="#L" n="88"/>aliquod " finitum in non excedendo intellectum
+<lb ed="#L" n="89"/>finitum. Non autem sic dicitur Deus sibi finitus,
+<lb ed="#L" n="90"/>quod ipse intelligat se esse aliquid finitum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e118-Dd1e886"><!-- p1-q14-a4 -->
+               <head xml:id="TAca84-d1e118-Hd1e889">Articulus 4</head>
+               <head xml:id="TAca84-d1e118-Hd1e891" type="question-title">
+  utrum ipsum intelligere dei sit eius substantia
+</head>
+               <p xml:id="TAca84-d1e118-d1e894">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11"/>ARTICULUS QUARTUS
+<lb ed="#L" n="12"/>UTRUM IPSUM INTELLIGERE DEI SIT EIUS SUBSTANTIA
+</p>
+               <p xml:id="TAca84-d1e118-d1e903">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="13"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="14"/>ipsum intelligere Dei non sit eius 
+sub<lb break="no" ed="#L" n="15"/>stantia. Intelligere enim est quaedam
+<lb ed="#L" n="16"/>operatio. Operatio autem aliquid 
+signi<lb break="no" ed="#L" n="17"/>ficat procedens ab operante. Ergo ipsum 
+intelli<lb break="no" ed="#L" n="18"/>gere Dei non est ipsa Dei substantia.
+</p>
+               <p xml:id="TAca84-d1e118-d1e921">
+                  <lb ed="#L" n="19"/>2. PRAETEREA, cum aliquis intelligit se 
+intelli<lb break="no" ed="#L" n="20"/>gere, hoc non est intelligere aliquid magnum vel
+<lb ed="#L" n="21"/>principale intellectum , sed intelligere quoddam
+<lb ed="#L" n="22"/>secundarium et accessorium. Si igitur Deus sit
+<lb ed="#L" n="23"/>ipsum intelligere, intelligere Deum erit sicut cum
+<lb ed="#L" n="24"/>intelligimus intelligere. Et sic non erit aliquid
+<lb ed="#L" n="25"/>magnum intelligere Deum.
+</p>
+               <p xml:id="TAca84-d1e118-d1e940">
+                  <lb ed="#L" n="26"/>3. PRAETEREA, omne intelligere est aliquid 
+in<lb break="no" ed="#L" n="27"/>telligere. Cum ergo Deus intelligit se, si ipsemet
+<lb ed="#L" n="28"/>non est aliud quam suum intelligere, intelligit se
+<lb ed="#L" n="29"/>intelligere, et intelligere se intelligere se ?, et sic
+<lb ed="#L" n="30"/>in infinitum. Non ergo ipsum intelligere Dei est
+<lb ed="#L" n="31"/>eius substantia.
+</p>
+               <p xml:id="TAca84-d1e118-d1e956">
+                  <lb ed="#L" n="32"/>SED coNTRA EST quod dicit Augustinus, lib. VII
+<lb ed="#L" n="33"/>de Trin.: <quote xml:id="TAca84-d1e118-Qd1e962">Deo hoc est esse, quod sapientem esse</quote>.
+<lb ed="#L" n="34"/>Hoc autem est sapientem esse, quod intelligere.
+<lb ed="#L" n="35"/>Ergo Deo hoc est esse, quod intelligere. Sed esse
+<lb ed="#L" n="36"/>Dei est eius substantia, ut supra ostensum est.
+<lb ed="#L" n="37"/>Ergo intelligere Dei est eius substantia.
+</p>
+               <p xml:id="TAca84-d1e118-d1e974">
+                  <lb ed="#L" n="38"/>RESPONDEO DICENDUM quod est necesse dicere
+<lb ed="#L" n="39"/>quod intelligere Dei est eius substantia. Nam si
+<lb ed="#L" n="40"/>intelligere Dei sit aliud quam eius substantia,
+<lb ed="#L" n="41"/>oporteret, ut dicit Philosophus in XII Metaphys.,
+<lb ed="#L" n="42"/>quod aliquid aliud esset actus et perfectio 
+sub<lb break="no" ed="#L" n="43"/>stantiae divinae, ad quod se haberet substantia
+<lb ed="#L" n="44"/>divina sicut potentia ad actum (quod est omnino
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="45"/>impossibile): nam intelligere est perfectio et actus
+<lb ed="#L" n="46"/>intelligentis.
+</p>
+               <p xml:id="TAca84-d1e118-d1e998">
+                  <lb ed="#L" n="47"/>Hoc autem qualiter sit, considerandum ? est.
+<lb ed="#L" n="48"/>Sicut enim supra dictum est, intelligere non est
+<lb ed="#L" n="49"/>actio progrediens ad aliquid extrinsecum, sed
+<lb ed="#L" n="50"/>manet in operante sicut actus et perfectio eius,
+<lb ed="#L" n="51"/>prout esse est perfectio existentis: sicut enim esse
+<lb ed="#L" n="52"/>consequitur formam, ita intelligere sequitur 
+spe<lb break="no" ed="#L" n="53"/>ciem intelligibilem. In Deo autem non est forma
+<lb ed="#L" n="54"/>quae sit aliud quam suum esse, ut supra 
+osten<lb break="no" ed="#L" n="55"/>sum est. Unde, cum ipsa sua essentia sit etiam
+<lb ed="#L" n="56"/>species intelligibilis, ut dictum est, ex necessitate
+<lb ed="#L" n="57"/>sequitur quod ipsum eius intelligere sit eius 
+es<lb break="no" ed="#L" n="58"/>sentia et eius esse.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1027">
+                  <lb ed="#L" n="59"/>Et sic patet ex omnibus praemissis quod in
+<lb ed="#L" n="60"/>Deo intellectus 5, et id quod intelligitur, et 
+spe<lb break="no" ed="#L" n="61"/>cies intelligibilis, et ipsum intelligere, sunt omnino
+<lb ed="#L" n="62"/>unum et idem. Unde patet quod per hoc quod "
+<lb ed="#L" n="63"/>Deus dicitur intelligens, nulla multiplicitas ponitur
+<lb ed="#L" n="64"/>in eius substantia.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1043">
+                  <lb ed="#L" n="65"/>AD PRIMUM ERGO DICENDUM quod intelligere non
+<lb ed="#L" n="66"/>est operatio exiens ab ipso operante, sed manens
+<lb ed="#L" n="67"/>in ipso.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1053">
+                  <lb ed="#L" n="68"/>ÀD SECUNDUM DICENDUM quod, cum intelligitur
+<lb ed="#L" n="69"/>illud intelligere quod non est subsistens, non 
+in<lb break="no" ed="#L" n="70"/>telligitur aliquid magnum; sicut cum intelligimus
+<lb ed="#L" n="71"/>intelligere nostrum. Et ideo non est simile de
+<lb ed="#L" n="72"/>ipso intelligere divino, quod est subsistens.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1066">
+                  <lb ed="#L" n="73"/>Et per hoc patet responsio ad tertium. Nam
+<lb ed="#L" n="74"/>intelligere divinum, quod est in seipso subsistens,
+<lb ed="#L" n="75"/>est sui ipsius; et non alicuius alterius, ut sic
+<lb ed="#L" n="76"/>oporteat procedere in infinitum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e118-Dd1e1078"><!-- p1-q14-a5 -->
+               <head xml:id="TAca84-d1e118-Hd1e1081">Articulus 5</head>
+               <head xml:id="TAca84-d1e118-Hd1e1083" type="question-title">
+  utrum deus cognoscat alia a se
+</head>
+               <p xml:id="TAca84-d1e118-d1e1086">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>ARTICULUS QUINTUS
+<lb ed="#L" n="54"/>UTRUM DEUS COGNOSCAT ALIA A SE
+</p>
+               <p xml:id="TAca84-d1e118-d1e1095">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="55"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="56"/>Deus non cognoscat alia a se. 
+Quaecum<lb break="no" ed="#L" n="57"/>que enim sunt alia a Deo, sunt extra
+<lb ed="#L" n="58"/>ÓNypsum. Sed Augustinus dicit, in libro
+<lb ed="#L" n="59"/>Octoginta trium Qu., quod neque quidquam Deus
+<lb ed="#L" n="60"/>extra seipsum intuetur. Ergo non cognoscit alia a se.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1113">
+                  <lb ed="#L" n="61"/>2. PRAETEREA, intellectum est perfectio 
+intelli<lb break="no" ed="#L" n="62"/>gentis. Si ergo Deus intelligat alia a se, aliquid
+<lb ed="#L" n="63"/>aliud erit perfectio Dei, et nobilius ipso. Quod
+<lb ed="#L" n="64"/>est impossibile.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1125">
+                  <lb ed="#L" n="65"/>3. PRAETEREA, ipsum intelligere speciem habet
+<lb ed="#L" n="66"/>ab intelligibili, sicut et omnis alius actus a suo
+<lb ed="#L" n="67"/>obiecto: unde et ipsum intelligere tanto est 
+no<lb break="no" ed="#L" n="68"/>bilius, quanto etiam nobilius est ipsum quod 
+in<lb break="no" ed="#L" n="69"/>telligitur. Sed Deus est ipsum suum intelligere, ut
+<lb ed="#L" n="70"/>ex dictis patet. Si igitur Deus intelligit aliquid
+<lb ed="#L" n="71"/>aliud a se, ipse Deus specificatur per aliquid
+<lb ed="#L" n="72"/>aliud a se: quod est impossibile. Non igitur 
+in<lb break="no" ed="#L" n="73"/>telligit alia a se.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1147">
+                  <lb ed="#L" n="74"/>SED cONTRA EsT quod dicitur Hebr. iv: omnia
+<lb ed="#L" n="75"/>nuda et aperta sunt oculis eius.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1154">
+                  <lb ed="#L" n="76"/>RESPONDEO DICENDUM quod necesse est Deum
+<lb ed="#L" n="77"/>cognoscere alia a se. Manifestum est enim quod
+<lb ed="#L" n="78"/>seipsum perfecte intelligit: alioquin suum esse
+<lb ed="#L" n="79"/>non esset perfectum, cum suum esse sit suum
+<lb ed="#L" n="80"/>intelligere ^. Si autem perfecte aliquid 
+cognosci<lb break="no" ed="#L" n="81"/>tur, necesse est quod virtus eius perfecte 
+cogno<lb break="no" ed="#L" n="82"/>scatur. Virtus autem alicuius rei perfecte cognosci
+<lb ed="#L" n="83"/>non potest, nisi cognoscantur ea ad quae virtus
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="84"/>se extendit. Unde, cum virtus divina se extendat
+<lb ed="#L" n="85"/>ad alia, eo quod ipsa est prima causa effectiva
+<lb ed="#L" n="86"/>omnium entium, ut ex supradictis patet; 
+ne<lb break="no" ed="#L" n="87"/>cesse est quod Deus alia a se cognoscat. - Et hoc
+<lb ed="#L" n="88"/>etiam evidentius fit, si adiungatur quod ipsum
+<lb ed="#L" n="89"/>esse causae agentis primae, scilicet Dei, est eius
+<lb ed="#L" n="90"/>intelligere. Unde quicumque effectus praeexistunt
+<lb ed="#L" n="91"/>in Deo sicut in causa prima, necesse est quod
+<lb ed="#L" n="92"/>sint in ipso eius intelligere ?; et quod omnia in
+<lb ed="#L" n="93"/>eo sint secundum modum intelligibilem: nam
+<lb ed="#L" n="94"/>omne quod est in altero, est in eo secundum
+<lb ed="#L" n="95"/>modum eius in quo est.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1202">
+                  <lb ed="#L" n="96"/>Ad sciendum autem qualiter alia a se 
+cogno<lb break="no" ed="#L" n="97"/>scat, considerandum est quod dupliciter aliquid
+<lb ed="#L" n="98"/>cognoscitur: uno modo, in seipso; alio modo,
+<lb ed="#L" n="99"/>in altero. In seipso quidem cognoscitur aliquid,
+<lb ed="#L" n="100"/>quando cognoscitur per speciem propriam 
+adae<lb break="no" ed="#L" n="101"/>quatam ipsi cognoscibili: sicut cum oculus videt
+<lb ed="#L" n="102"/>hominem per speciem hominis. In alio autem
+<lb ed="#L" n="103"/>videtur id quod videtur per speciem continentis :
+<lb ed="#L" n="104"/>sicut cum pars videtur in toto per speciem 
+to<lb break="no" ed="#L" n="105"/>tius, vel cum homo videtur in speculo per 
+spe<lb break="no" ed="#L" n="106"/>ciem speculi, vel quocumque alio modo contingat
+<lb ed="#L" n="107"/>aliquid in alio videri. i
+</p>
+               <p xml:id="TAca84-d1e118-d1e1231">
+                  <lb ed="#L" n="108"/>Sic igitur dicendum est quod Deus seipsum
+<lb ed="#L" n="109"/>videt in seipso, quia seipsum videt per essentiam
+<lb ed="#L" n="110"/>suam. Alia autem a se videt non in ipsis, sed in
+<lb ed="#L" n="111"/>seipso, inquantum essentia sua continet 
+similitu<lb break="no" ed="#L" n="112"/>dinem aliorum ab ipso.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1244">
+                  <pb ed="#L" n="176"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD PRIMUM ERGO DICENDUM quod verbum 
+Augu<lb break="no" ed="#L" n="2"/>stini dicentis quod Deus nihil extra se intuetur,
+<lb ed="#L" n="3"/>non est sic intelligendum, quasi nihil quod sit
+<lb ed="#L" n="4"/>extra se intueatur: sed quia id quod est extra 
+se<lb break="no" ed="#L" n="5"/>ipsum, non intuetur nisi in seipso, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1263">
+                  <lb ed="#L" n="6"/>AD SECUNDUM DICENDUM quod intellectum est
+<lb ed="#L" n="7"/>perfectio intelligentis, non quidem 5 secundum
+<lb ed="#L" n="8"/>suam substantiam, sed secundum suam speciem,
+<lb ed="#L" n="9"/>secundum quam est in intellectu, ut forma et
+<lb ed="#L" n="10"/>perfectio eius: lapis enim non est in anima, sed
+<lb ed="#L" n="11"/>species eius, ut dicitur in III de Anima. Ea vero
+<lb ed="#L" n="12"/>quae sunt alia a Deo, intelliguntur a Deo 
+inquan<lb break="no" ed="#L" n="13"/>tum essentia Dei continet species eorum, ut 
+di<lb break="no" ed="#L" n="14"/>ctum est, Unde non sequitur quod aliquid aliud
+<lb ed="#L" n="15"/>sit perfectio divini intellectus, quam ipsa 
+essen<lb break="no" ed="#L" n="16"/>tia Dei.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1289">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="17"/>AD TERTIUM DICENDUM quod ipsum intelligere
+<lb ed="#L" n="18"/>non specificatur per id quod in alio intelligitur,
+<lb ed="#L" n="19"/>sed per principale intellectum, in quo alia 
+intel<lb break="no" ed="#L" n="20"/>liguntur. Intantum enim ipsum intelligere 
+speci<lb break="no" ed="#L" n="21"/>ficatur per obiectum suum, inquantum forma 
+in<lb break="no" ed="#L" n="22"/>telligibilis est principium intellectualis operationis:
+<lb ed="#L" n="23"/>nam omnis operatio specificatur per formam quae
+<lb ed="#L" n="24"/>est principium operationis, sicut calefactio per
+<lb ed="#L" n="25"/>calorem. Unde per illam formam intelligibilem
+<lb ed="#L" n="26"/>specificatur intellectualis operatio, quae facit 
+in<lb break="no" ed="#L" n="27"/>tellectum in actu. Et haec est species principalis
+<lb ed="#L" n="28"/>intellecti: quae in Deo nihil est aliud quam 
+es<lb break="no" ed="#L" n="29"/>sentia sua, in qua omnes species rerum 
+com<lb break="no" ed="#L" n="30"/>prehenduntur. Unde non oportet quod ipsum 
+in<lb break="no" ed="#L" n="31"/>telliggere divinum, vel potius ipse Deus, 
+specifi<lb break="no" ed="#L" n="32"/>cetur per aliud quam per essentiam divinam.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e118-Dd1e1329"><!-- p1-q14-a6 -->
+               <head xml:id="TAca84-d1e118-Hd1e1332">Articulus 6</head>
+               <head xml:id="TAca84-d1e118-Hd1e1334" type="question-title">
+  utrum deus cognoscat alia a se propria cognitione
+</head>
+               <p xml:id="TAca84-d1e118-d1e1337">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="81"/>ARTICULUS SEXTUS
+<lb ed="#L" n="82"/>UTRUM DEUS COGNOSCAT ALIA A SE PROPRIA COGNITIONE
+</p>
+               <p xml:id="TAca84-d1e118-d1e1346">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="83"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="84"/>Deus non cognoscat alia a se propria
+<lb ed="#L" n="85"/>cognitione. Sic enim cognoscit alia a
+<lb ed="#L" n="86"/>se, ut dictum est, secundum quod alia
+<lb ed="#L" n="87"/>ab ipso in eo sunt. Sed alia ab eo sunt in ipso
+<lb ed="#L" n="88"/>Sicut in prima causa communi et universali.
+<lb ed="#L" n="89"/>Ergo et alia cognoscuntur a Deo, sicut in causa
+<lb ed="#L" n="90"/>prima et universali. Hoc autem est cognoscere
+<lb ed="#L" n="91"/>in universali, et non secundum propriam 
+cogni<lb break="no" ed="#L" n="92"/>tionem. Ergo Deus cognoscit alia a se in 
+univer<lb break="no" ed="#L" n="93"/>sali, et non secundum propriam cognitionem.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1375">
+                  <lb ed="#L" n="94"/>2. PRAETEREA, quantum distat essentia 
+creatu<lb break="no" ed="#L" n="95"/>rae ab essentia divina, tantum distat essentia 
+di<lb break="no" ed="#L" n="96"/>vina ab essentia creaturae. Sed per essentiam
+<lb ed="#L" n="97"/>creaturae non potest cognosci essentia divina, ut
+<lb ed="#L" n="98"/>supra dictum est. Ergo nec per essentiam 
+di<lb break="no" ed="#L" n="99"/>vinam potest cognosci essentia creaturae. Et sic,
+<lb ed="#L" n="100"/>cum Deus nihil cognoscat nisi per essentiam
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="101"/>suam, sequitur quod non cognoscat creaturam
+<lb ed="#L" n="102"/>secundum eius essentiam, ut cognoscat de ea
+<lb ed="#L" n="103"/>quid est, quod est propriam cognitionem de re
+<lb ed="#L" n="104"/>habere.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1405">
+                  <lb ed="#L" n="105"/>3. PRAETEREA, propria cognitio non habetur de
+<lb ed="#L" n="106"/>re, nisi per propriam eius rationem. Sed cum Deus
+<lb ed="#L" n="107"/>cognoscat omnia per essentiam suam, non 
+vide<lb break="no" ed="#L" n="108"/>tur ? quod unumquodque per propriam 
+ratio<lb break="no" ed="#L" n="109"/>nem cognoscat: idem enim non potest esse 
+pro<lb break="no" ed="#L" n="110"/>pria ratio multorum et diversorum. Non ergo
+<lb ed="#L" n="111"/>habet propriam cognitionem Deus de rebus, sed
+<lb ed="#L" n="112"/>communem: nàm cognoscere res non secundum
+<lb ed="#L" n="113"/>propriam rationem, est cognoscere res solum in
+<lb ed="#L" n="114"/>communi ?.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1429">
+                  <lb ed="#L" n="115"/>SED coNTRA, habere propriam cognitionem de
+<lb ed="#L" n="116"/>rebus, est cognoscere res non solum in communi,
+<lb ed="#L" n="117"/>sed secundum quod sunt ab invicem distinctae.
+<lb ed="#L" n="118"/>Sic autem Deus cognoscit res. Unde dicitur Heb.
+<pb ed="#L" n="179"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>iv, quod pertingit usque ad divisionem spiritus
+<lb ed="#L" n="2"/>et animae, compagum quoque et medullarum; et
+<lb ed="#L" n="3"/>discretor cogitationum et intentionum | cordis; et
+<lb ed="#L" n="4"/>non est ulla creatura invisibilis in conspectu eius.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1453">
+                  <lb ed="#L" n="5"/>RESPONDEO DICENDUM quod circa hoc quidam
+<lb ed="#L" n="6"/>erraverunt, dicentes quod Deus alia a se non
+<lb ed="#L" n="7"/>cognoscit nisi in communi, scilicet inquantum sunt
+<lb ed="#L" n="8"/>entia. Sicut enim ignis, si cognosceret seipsum
+<lb ed="#L" n="9"/>ut est principium caloris, cognosceret naturam
+<lb ed="#L" n="10"/>caloris, et omnia alia inquantum sunt calida; ita
+<lb ed="#L" n="11"/>Deus, inquantum cognoscit se ut principium 
+es<lb break="no" ed="#L" n="12"/>sendi, cognoscit naturam entis, et omnia alia
+<lb ed="#L" n="13"/>inquantum sunt entia.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1475">
+                  <lb ed="#L" n="14"/>Sed hoc.non potest esse. Nam intelligere 
+ali<lb break="no" ed="#L" n="15"/>quid in communi, et non in speciali, est 
+imper<lb break="no" ed="#L" n="16"/>fecte aliquid cognoscere. Unde intellectus noster,
+<lb ed="#L" n="17"/>dum de potentia in actum reducitur, pertingit
+<lb ed="#L" n="18"/>prius ad cognitionem universalem et confusam
+<lb ed="#L" n="19"/>de rebus, quam ad propriam rerum cognitionem,
+<lb ed="#L" n="20"/>sicut de imperfecto ad perfectum procedens, ut
+<lb ed="#L" n="21"/>patet in I Physic. Si igitur cognitio Dei de rebus
+<lb ed="#L" n="22"/>alis a se, esset in universali tantum, et non in
+<lb ed="#L" n="23"/>speciali, sequeretur quod eius intelligere non esset
+<lb ed="#L" n="24"/>omnibus modis perfectum, et per consequens nec
+<lb ed="#L" n="25"/>eius esse: quod est contra ea quae superius
+<lb ed="#L" n="26"/>ostensa sunt. Oportet igitur dicere quod alia a se
+<lb ed="#L" n="27"/>cognoscat propria cognitione; non solum 
+secun<lb break="no" ed="#L" n="28"/>dum quod communicant in ratione entis, sed 
+se<lb break="no" ed="#L" n="29"/>cundum quod unum ab alio distinguitur.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1512">
+                  <lb ed="#L" n="30"/>Et ad huius evidentiam, considerandum est
+<lb ed="#L" n="31"/>quod quidam, volentes ostendere quod Deus per
+<lb ed="#L" n="32"/>unum ' cognoscit multa, utuntur quibusdam 
+exem<lb break="no" ed="#L" n="33"/>plis: ut puta quod, si centrum cognosceret 
+se<lb break="no" ed="#L" n="34"/>ipsum, cognosceret omnes lineas progredientes a
+<lb ed="#L" n="35"/>centro; vel lux, si cognosceret seipsam, 
+cogno<lb break="no" ed="#L" n="36"/>sceret omnes colores. - Sed haec exempla, licet
+<lb ed="#L" n="37"/>quantum ad aliquid similia sint, scilicet quantum
+<lb ed="#L" n="38"/>ad universalem causalitatem ; tamen deficiunt
+<lb ed="#L" n="39"/>quantum ad hoc, quod multitudo et diversitas
+<lb ed="#L" n="40"/>non causantur ab illo uno principio universali,
+<lb ed="#L" n="41"/>quantum ad id quod principium distinctionis est,
+<lb ed="#L" n="42"/>sed solum quantum ad id in quo communicant.
+<lb ed="#L" n="43"/>Non enim diversitas colorum causatur ex luce
+<lb ed="#L" n="44"/>solum, sed ex diversa dispositione diaphani 
+re<lb break="no" ed="#L" n="45"/>cipientis: et similiter diversitas linearum ex ? 
+di<lb break="no" ed="#L" n="46"/>verso situ. Et inde est quod huiusmodi diversitas
+<lb ed="#L" n="47"/>et multitudo non potest cognosci in suo principio
+<lb ed="#L" n="48"/>secundum propriam cognitionem, sed solum in
+<lb ed="#L" n="49"/>communi. Sed in Deo non sic est. Supra enim
+<lb ed="#L" n="50"/>ostensum est quod quidquid perfectionis est in
+<lb ed="#L" n="51"/>quacumque creatura, totum praeexistit et 
+conti<lb break="no" ed="#L" n="52"/>netur in Deo secundum modum excellentem ^.
+<lb ed="#L" n="53"/>Non solum autem id in quo creaturae 
+communi<lb break="no" ed="#L" n="54"/>cant, scilicet ipsum esse, ad perfectionem 
+perti<lb break="no" ed="#L" n="55"/>net; sed etiam ea per quae creaturae ad. 
+invi<lb break="no" ed="#L" n="56"/>cem distinguuntur, sicut vivere, et " intelligere, et
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="57"/>huiusmodi, quibus viventia a non viventibus, et
+<lb ed="#L" n="58"/>intelligentia a non intelligentibus distinguuntur. Et
+<lb ed="#L" n="59"/>omnis forma, per quam quaelibet res in propria
+<lb ed="#L" n="60"/>specie constituitur, perfectio quaedam est. Et sic
+<lb ed="#L" n="61"/>omnia in Deo praeexistunt, non solum quantum
+<lb ed="#L" n="62"/>ad id quod commune est omnibus, sed etiam
+<lb ed="#L" n="63"/>quantum ad ea secundum quae res distinguuntur.
+<lb ed="#L" n="64"/>Et sic, cum Deus in se omnes perfectiones 
+con<lb break="no" ed="#L" n="65"/>tineat, comparatur Dei essentia ad omnes rerum
+<lb ed="#L" n="66"/>essentias, non sicut commune ad propria, ut unitas
+<lb ed="#L" n="67"/>ad numeros, vel centrum ad lineas; sed sicut 
+per<lb break="no" ed="#L" n="68"/>fectus actus ad imperfectos, ut si dicerem, homo
+<lb ed="#L" n="69"/>ad animal, vel senarius, qui est numerus 
+per<lb break="no" ed="#L" n="70"/>fectus, ad numeros imperfectos sub ipso 
+con<lb break="no" ed="#L" n="71"/>tentos. Manifestum est autem quod per actum
+<lb ed="#L" n="72"/>perfectum cognosci possunt actus imperfecti, non
+<lb ed="#L" n="73"/>solum in communi, sed etiam propria cognitione.
+<lb ed="#L" n="74"/>Sicut qui cognoscit hominem, cognoscit animal
+<lb ed="#L" n="75"/>propria cognitione: et qui cognoscit senarium,
+<lb ed="#L" n="76"/>cognoscit trinarium propria cognitione.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1619">
+                  <lb ed="#L" n="77"/>Sic igitur, cum essentia Dei habeat in se
+<lb ed="#L" n="78"/>quidquid perfectionis habet essentia cuiuscumque
+<lb ed="#L" n="79"/>rei alterius, et adhuc amplius, Deus in seipso
+<lb ed="#L" n="80"/>potest omnia propria cognitione cognoscere, 
+Pro<lb break="no" ed="#L" n="81"/>pria enim natura uniuscuiusque consistit, 
+secun<lb break="no" ed="#L" n="82"/>dum quod per aliquem modum divinam 
+per<lb break="no" ed="#L" n="83"/>fectionem participat. Non autem Deus perfecte
+<lb ed="#L" n="84"/>seipsum cognosceret, nisi cognosceret 
+quomodo<lb break="no" ed="#L" n="85"/>cumque participabilis est ab aliis sua perfectio:
+<lb ed="#L" n="86"/>nec etiam ipsam naturam essendi perfecte sciret,
+<lb ed="#L" n="87"/>nisi cognosceret omnes modos essendi. Unde 
+ma<lb break="no" ed="#L" n="88"/>nifestum est quod Deus cognoscit omnes res 
+pro<lb break="no" ed="#L" n="89"/>pria cognitione, secundum quod ab aliis 
+distin<lb break="no" ed="#L" n="90"/>guuntur.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1653">
+                  <lb ed="#L" n="91"/>AD PRIMUM ERGO DICENDUM quod sic cognoscere
+<lb ed="#L" n="92"/>aliquid sicut in cognoscente est, potest dupliciter
+<lb ed="#L" n="93"/>intelligi. Uno modo, secundum quod hoc 
+adver<lb break="no" ed="#L" n="94"/>bium sic importat modum cognitionis ex parte
+<lb ed="#L" n="95"/>rei cognitae. Et sic falsum est. Non enim semper
+<lb ed="#L" n="96"/>cognoscens cognoscit cognitum secundum illud
+<lb ed="#L" n="97"/>esse quod habet in cognoscente: oculus enim non
+<lb ed="#L" n="98"/>cognoscit lapidem secundum esse quod habet
+<lb ed="#L" n="99"/>in oculo; sed per speciem lapidis quam habet
+<lb ed="#L" n="100"/>in se, cognoscit lapidem secundum esse quod
+<lb ed="#L" n="101"/>habet extra oculum. Et si aliquis cognoscens 
+co<lb break="no" ed="#L" n="102"/>gnoscat cognitum secundum esse quod habet in
+<lb ed="#L" n="103"/>cognoscente, nihilominus cognoscit ipsum 
+secun<lb break="no" ed="#L" n="104"/>dum esse quod habet extra cognoscentem: sicut
+<lb ed="#L" n="105"/>intellectus cognoscit lapidem secundum esse 
+in<lb break="no" ed="#L" n="106"/>telligibile quod habet in intellectu, inquantum
+<lb ed="#L" n="107"/>cognoscit se intelligere; sed nihilominus cognoscit
+<lb ed="#L" n="108"/>esse lapidis in propria natura. — Si vero 
+intel<lb break="no" ed="#L" n="109"/>ligatur secundum quod hoc adverbium sic 
+im<lb break="no" ed="#L" n="110"/>portat modum ex parte " cognoscentis ,. verum
+<lb ed="#L" n="111"/>est quod sic solum cognoscens cognoscit 
+cogni<lb break="no" ed="#L" n="112"/>tum, secundum quod est in cognoscente: quia
+<pb ed="#L" n="180"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quanto perfectius est cognitum in cognoscente,
+<lb ed="#L" n="2"/>tanto perfectior est modus cognitionis. - Sic igitur
+<lb ed="#L" n="3"/>dicendum est quod Deus non solum cognoscit
+<lb ed="#L" n="4"/>res esse in seipso; sed per id quod in seipso
+<lb ed="#L" n="5"/>continet res, cognoscit eas in propria natura; et
+<lb ed="#L" n="6"/>tanto perfectius, quanto perfectius est 
+unumquod<lb break="no" ed="#L" n="7"/>que in ipso.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1723">
+                  <lb ed="#L" n="8"/>AD SECUNDUM DICENDUM quod essentia creaturae
+<lb ed="#L" n="9"/>comparatur ad essentiam Dei, ut actus imperfe-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>ctus ad perfectum. Et ideo essentia ? creaturae
+<lb ed="#L" n="11"/>non sufficienter ducit in cognitionem essentiae
+<lb ed="#L" n="12"/>divinae, sed e converso.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1739">
+                  <lb ed="#L" n="13"/>AD TERTIUM. DICENDUM quod. idem non potest
+<lb ed="#L" n="14"/>accipi ut ratio diversorum per modum 
+adaequa<lb break="no" ed="#L" n="15"/>tionis. Sed divina essentia est aliquid excedens
+<lb ed="#L" n="16"/>omnes creaturas. Unde potest accipi ut propria
+<lb ed="#L" n="17"/>ratio uniuscuiusque, secundum quod diversimode
+<lb ed="#L" n="18"/>est participabilis vel: imitabilis a diversis creaturis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e118-Dd1e1757"><!-- p1-q14-a7 -->
+               <head xml:id="TAca84-d1e118-Hd1e1760">Articulus 7</head>
+               <head xml:id="TAca84-d1e118-Hd1e1762" type="question-title">
+  utrum scientia dei sit discursiva
+</head>
+               <p xml:id="TAca84-d1e118-d1e1765">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="99"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="100"/>UTRUM SCIENTIA DEI SIT DISCURSIVA
+</p>
+               <p xml:id="TAca84-d1e118-d1e1774">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="101"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="102"/>scientia Dei sit discursiva. Scientia enim
+<lb ed="#L" n="103"/>Dei non est secundum scire in habitu,
+<lb ed="#L" n="104"/>sed secundum intelligere in actu. Sed
+<lb ed="#L" n="105"/>secundum Philosophum, in Il Zopic., scire in 
+ha<lb break="no" ed="#L" n="106"/>bitu contingit multa simul, sed intelligere actu unum
+<lb ed="#L" n="107"/>tantum. Cum ergo Deus multa cognoscat, quia et
+<lb ed="#L" n="108"/>se et alia, ut ostensum est, videtur quod non 
+si<lb break="no" ed="#L" n="109"/>mul omnia intelligat, sed de uno in aliud discurrat.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1798">
+                  <lb ed="#L" n="110"/>2. PRAETEREA, cognoscere effectum per causam
+<lb ed="#L" n="111"/>est scire discurrentis. Sed Deus cognoscit alia
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="112"/>per seipsum, sicut effectum per causam. Ergo
+<lb ed="#L" n="113"/>cognitio sua est discursiva.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1812">
+                  <lb ed="#L" n="114"/>3. PRAETEREA, perfectius Deus scit 
+unamquam<lb break="no" ed="#L" n="115"/>que creaturam quam nos sciamus. Sed nos in
+<lb ed="#L" n="116"/>causis creatis cognoscimus earum effectus, et sic
+<lb ed="#L" n="117"/>de causis ad causata discurrimus. Ergo ? videtur
+<lb ed="#L" n="118"/>similiter esse in Deo.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1825">
+                  <lb ed="#L" n="119"/>SED cowTRA EsT quod Augustinus dicit, in XV
+<lb ed="#L" n="120"/>de Trin., quod Deus non particulatim vel 
+sin<lb break="no" ed="#L" n="121"/>gillatim omnia videt, velut alternante conspectu ?
+<lb ed="#L" n="122"/>hinc illuc, et inde huc; sed omnia videt simul.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1836">
+                  <pb ed="#L" n="182"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>RESPONDEO DICENDUM quod in scientia divina
+<lb ed="#L" n="2"/>nullus est discursus. Quod sic patet. In scientia
+<lb ed="#L" n="3"/>enim nostra duplex est discursus. Unus 
+secun<lb break="no" ed="#L" n="4"/>dum successionem tantum: sicut cum, postquam
+<lb ed="#L" n="5"/>intelligimus aliquid in actu, convertimus nos ad
+<lb ed="#L" n="6"/>intelligendum aliud. Alius discursus est secundum
+<lb ed="#L" n="7"/>causalitatem: sicut cum per principia pervenimus
+<lb ed="#L" n="8"/>in cognitionem conclusionum. Primus autem 
+di<lb break="no" ed="#L" n="9"/>scursus Deo convenire non potest. Multa enim,
+<lb ed="#L" n="10"/>quae successive intelligimus si unumquodque 
+eo<lb break="no" ed="#L" n="11"/>rum in seipso consideretur, omnia simul 
+intelli<lb break="no" ed="#L" n="12"/>gimus si in aliquo uno ea intelligamus: puta si
+<lb ed="#L" n="13"/>partes intelligamus in toto, vel si diversas res 
+vi<lb break="no" ed="#L" n="14"/>deamus in speculo. Deus autem omnia videt in
+<lb ed="#L" n="15"/>uno, quod est ipse, ut habitum est. Unde simul,
+<lb ed="#L" n="16"/>et non successive omnia videt. — Similiter etiam
+<lb ed="#L" n="17"/>et secundus discursus Deo competere non 
+po<lb break="no" ed="#L" n="18"/>test. Primo quidem, quia secundus discursus 
+prae<lb break="no" ed="#L" n="19"/>supponit primum: procedentes enim a principiis
+<lb ed="#L" n="20"/>ad conclusiones, non simul utrumque considerant.
+<lb ed="#L" n="21"/>Deinde, quia discursus talis est procedentis de
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="22"/>noto ad ignotum. Unde manifestum est quod,
+<lb ed="#L" n="23"/>quando cognoscitur primum, adhuc ignoratur 
+se<lb break="no" ed="#L" n="24"/>'cundum. Et sic secundum non cognoscitur in
+<lb ed="#L" n="25"/>primo, sed ex primo. Terminus 5 vero discursus
+<lb ed="#L" n="26"/>est, quando secundum videtur in primo, resolutis
+<lb ed="#L" n="27"/>effectibus in causas: et tunc cessat discursus. Unde,
+<lb ed="#L" n="28"/>cum Deus effectus suos in seipso videat sicut in
+<lb ed="#L" n="29"/>causa, eius cognitio non est discursiva.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1908">
+                  <lb ed="#L" n="30"/>AD PRIMUM ERGO DICENDUM quod, licet sit unum
+<lb ed="#L" n="31"/>tantum intelligere in seipso, tamen contingit multa
+<lb ed="#L" n="32"/>intelligere in aliquo uno, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1917">
+                  <lb ed="#L" n="33"/>AD SECUNDUM DICENDUM quod Deus non 
+cogno<lb break="no" ed="#L" n="34"/>scit per causam quasi prius cognitam, effectus
+<lb ed="#L" n="35"/>incognitos : sed eos cognoscit in causa. Unde eius
+<lb ed="#L" n="36"/>cognitio est sine discursu, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1928">
+                  <lb ed="#L" n="37"/>AD TERTIUM DICENDUM quod effectus causarum
+<lb ed="#L" n="38"/>creatarum videt quidem Deus in ipsis causis,
+<lb ed="#L" n="39"/>multo melius quam nos: non tamen ita quod
+<lb ed="#L" n="40"/>cognitio effectuum causetur in ipso ex cognitione
+<lb ed="#L" n="41"/>causarum creatarum, sicut in nobis. Unde eius
+<lb ed="#L" n="42"/>scientia non est discursiva.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e118-Dd1e1945"><!-- p1-q14-a8 -->
+               <head xml:id="TAca84-d1e118-Hd1e1948">Articulus 8</head>
+               <head xml:id="TAca84-d1e118-Hd1e1950" type="question-title">
+  utrum scientia dei sit causa rerum
+</head>
+               <p xml:id="TAca84-d1e118-d1e1953">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="66"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="67"/>UTRUM SCIENTIA DEI SIT CAUSA RERUM
+</p>
+               <p xml:id="TAca84-d1e118-d1e1962">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="68"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="69"/>scientia Dei non sit causa rerum. 
+Di<lb break="no" ed="#L" n="70"/>za cit enim Origenes, super Epistolam ad
+<lb ed="#L" n="71"/>Rom.: <quote xml:id="TAca84-d1e118-Qd1e1975">non propterea aliquid erit, quia
+<lb ed="#L" n="72"/>id scit. Deus futurum; sed quia futurum est, ideo
+<lb ed="#L" n="73"/>scitur a Deo antequam fiat</quote>.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1983">
+                  <lb ed="#L" n="74"/>2. PRAETEREA, posita causa ponitur effectus.
+<lb ed="#L" n="75"/>Sed scientia Dei est aeterna. Si ergo scientia Dei
+<lb ed="#L" n="76"/>est causa rerum creatarum, videtur quod 
+creatu<lb break="no" ed="#L" n="77"/>rae sint ab aeterno.
+</p>
+               <p xml:id="TAca84-d1e118-d1e1995">
+                  <lb ed="#L" n="78"/>3. PRAETEREA, scibile est prius scientia, et 
+men<lb break="no" ed="#L" n="79"/>sura eius, ut dicitur in X Metaphys. Sed id
+<lb ed="#L" n="80"/>quod est posterius et mensuratum, non potest esse
+<lb ed="#L" n="81"/>causa. Ergo scientia Dei non est causa rerum.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2006">
+                  <lb ed="#L" n="82"/>SEp coNTRA EsT quod dicit Augustinus, XV de
+<lb ed="#L" n="83"/>Trin.: universas creaturas, et spirituales et 
+cor<lb break="no" ed="#L" n="84"/>porales, non quia sunt, ideo novit Deus; sed ideo
+<lb ed="#L" n="85"/>sunt, quia novit.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2017">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="86"/>RESPONDEO DICENDUM quod scientia Dei est causa
+<lb ed="#L" n="87"/>rerum. Sic enim scientia Dei se habet ad omnes
+<lb ed="#L" n="88"/>res creatas, sicut scientia artificis se habet ad
+<lb ed="#L" n="89"/>artificiata. Scientia autem artificis est causa 
+arti<lb break="no" ed="#L" n="90"/>ficiatorum: eo quod artifex operatur per suum
+<lb ed="#L" n="91"/>intellectum, unde oportet quod forma intellectus
+<lb ed="#L" n="92"/>sit principium operationis, sicut calor est 
+princi<lb break="no" ed="#L" n="93"/>pium calefactionis. Sed. considerandum est quod
+<lb ed="#L" n="94"/>forma naturalis, inquantum est forma manens in
+<lb ed="#L" n="95"/>eo cui dat esse, non nominat principium 
+actio<lb break="no" ed="#L" n="96"/>nis; sed secundum quod habet inclinationem ad
+<lb ed="#L" n="97"/>effectum. Et similiter forma intelligibilis non 
+no<lb break="no" ed="#L" n="98"/>minat principium actionis secundum quod. est
+<lb ed="#L" n="99"/>tantum in intelligente, nisi adiungatur ei inclinatio
+<lb ed="#L" n="100"/>ad effectum, quae est per voluntatem. Cum enim
+<lb ed="#L" n="101"/>forma intelligibilis ad opposita se habeat (cum sit
+<lb ed="#L" n="102"/>eadem scientia oppositorum), non produceret 7
+<lb ed="#L" n="103"/>determinatum effectum, nisi determinaretur ad
+<pb ed="#L" n="183"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>unum per appetitum, ut dicitur in <ref xml:id="TAca84-d1e118-Rd1e2066">IX Metaphys</ref>.
+<lb ed="#L" n="2"/>Manifestum est autem quod Deus per intellectum
+<lb ed="#L" n="3"/>suum causat res, cum suum esse sit suum 
+intelli<lb break="no" ed="#L" n="4"/>gere. Unde necesse est quod sua scientia sit causa
+<lb ed="#L" n="5"/>rerum, secundum quod habet voluntatem 
+coniun<lb break="no" ed="#L" n="6"/>ctam. Unde scientia Dei, secundum quod est causa
+<lb ed="#L" n="7"/>rerum, consuevit nominari scientia approbationis.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2082">
+                  <lb ed="#L" n="8"/>AD PRIMUM ERGO DICENDUM quod Origenes 
+locu<lb break="no" ed="#L" n="9"/>tus est attendens rationem scientiae ", cui non
+<lb ed="#L" n="10"/>competit ratio causalitatis, nisi adiuncta voluntate,
+<lb ed="#L" n="11"/>ut dictum est. - Sed quod dicit ideo praescire
+<lb ed="#L" n="12"/>Deum aliqua, quia sunt futura: intelligendum est
+<lb ed="#L" n="13"/>secundum causam consequentiae, non ? 
+secun<lb break="no" ed="#L" n="14"/>dum causam essendi. Sequitur enim, si aliqua
+<lb ed="#L" n="15"/>sunt futura, quod Deus ea praescierit: non tamen
+<lb ed="#L" n="16"/>res futurae sunt causa quod Deus sciat.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2104">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="17"/>AD SECUNDUM DICENDUM quod scientia Dei est
+<lb ed="#L" n="18"/>causa rerum, secundum quod res sunt in scientia.
+<lb ed="#L" n="19"/>Non fuit autem in scientia Dei, quod res essent
+<lb ed="#L" n="20"/>ab aeterno. Unde, quamvis scientia Dei sit 
+ae<lb break="no" ed="#L" n="21"/>terna, non sequitur tamen quod creaturae sint
+<lb ed="#L" n="22"/>ab aeterno.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2122">
+                  <lb ed="#L" n="23"/>AD TERTIUM DICENDUM quod res naturales sunt
+<lb ed="#L" n="24"/>mediae inter scientiam Dei et scientiam nostram:
+<lb ed="#L" n="25"/>nos enim scientiam accipimus a rebus 
+naturali<lb break="no" ed="#L" n="26"/>bus, quarum Deus per suam scientiam causa est.
+<lb ed="#L" n="27"/>Unde, sicut scibilia naturalia sunt priora quam
+<lb ed="#L" n="28"/>scientia nostra, et mensura eius, ita scientia Dei
+<lb ed="#L" n="29"/>est prior quam res naturales, et mensura ipsarum.
+<lb ed="#L" n="30"/>Sicut aliqua domus est media inter scientiam
+<lb ed="#L" n="31"/>artificis qui eam fecit, et scientiam illius qui eius
+<lb ed="#L" n="32"/>cognitionem ex ipsa iam facta capit.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e118-Dd1e2147"><!-- p1-q14-a9 -->
+               <head xml:id="TAca84-d1e118-Hd1e2150">Articulus 9</head>
+               <head xml:id="TAca84-d1e118-Hd1e2152" type="question-title">
+  utrum deus habeat scientiam non entium
+</head>
+               <p xml:id="TAca84-d1e118-d1e2155">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="21"/>ARTICULUS NONUS
+<lb ed="#L" n="22"/>UTRUM DEUS HABEAT SCIENTIAM NON ENTIUM
+</p>
+               <p xml:id="TAca84-d1e118-d1e2164">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="23"/>AD NONUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="24"/>Deus non habeat scientiam non 
+en<lb break="no" ed="#L" n="25"/>tium. Scientia enim Dei non est nisi
+<lb ed="#L" n="26"/>verorum. Sed verum et ens 
+convertun<lb break="no" ed="#L" n="27"/>tur. Ergo scientia Dei non est non entium.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2180">
+                  <lb ed="#L" n="28"/>2. PRAETEREA, scientia requirit similitudinem
+<lb ed="#L" n="29"/>inter scientem et scitum. Sed ea quae non sunt,
+<lb ed="#L" n="30"/>non possunt habere aliquam similitudinem ad
+<lb ed="#L" n="31"/>Deum, qui est ipsum esse. Ergo ea quae non
+<lb ed="#L" n="32"/>sunt, non possunt sciri a Deo.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2194">
+                  <lb ed="#L" n="33"/>3. PRAETEREA, scientia Dei est causa scitorum
+<lb ed="#L" n="34"/>ab ipso. Scd non est causa non entium, quia non
+<lb ed="#L" n="35"/>ens non habet causam. Ergo Deus non habet
+<lb ed="#L" n="36"/>scientiam de non entibus.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2205">
+                  <lb ed="#L" n="37"/>SED coNTRA EST quod dicit Apostolus ad Rom.
+<lb ed="#L" n="38"/>iv: Qui vocat ea quae non sunt, tanquam ea
+<lb ed="#L" n="39"/>quae sunt.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2214">
+                  <lb ed="#L" n="40"/>REsPoNbEO picENDUM quod Deus scit omnia
+<lb ed="#L" n="41"/>quaecumque sunt quocumque modo. Nihil autem
+<lb ed="#L" n="42"/>prohibet ea quae non sunt simpliciter, aliquo modo
+<lb ed="#L" n="43"/>esse. Simpliciter enim sunt ^, quae actu sunt. Ea
+<lb ed="#L" n="44"/>vero quae non sunt actu, sunt in potentia vel
+<lb ed="#L" n="45"/>ipsius Dei, vel creaturae; sive in potentia activa,
+<lb ed="#L" n="46"/>sive in" passiva, sive in potentia opinandi, vel
+<lb ed="#L" n="47"/>imaginandi, vel quocumque modo significandi.
+<lb ed="#L" n="48"/>Quaecumque igitur possunt per creaturam fieri
+<lb ed="#L" n="49"/>vel cogitari vel dici, et etiam quaecumque ipse
+<lb ed="#L" n="50"/>facere potest, omnia cognoscit Deus, etiam si
+<lb ed="#L" n="51"/>actu non sint. Et pro tanto dici potest quod
+<lb ed="#L" n="52"/>habet etiam non entium scientiam.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2245">
+                  <lb ed="#L" n="53"/>Sed horum quae actu non sunt, est attendenda
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="54"/>quaedam diversitas. Quaedam enim, licet non sint
+<lb ed="#L" n="55"/>nunc in actu, tamen vel fuerunt vel erunt: et
+<lb ed="#L" n="56"/>omnia ista dicitur Deus scire scientia visionis.
+<lb ed="#L" n="57"/>Quia, cum intelligere Dei, quod est eius esse, 
+ae<lb break="no" ed="#L" n="58"/>ternitate mensuretur, quae sine successione 
+exi<lb break="no" ed="#L" n="59"/>stens totum tempus comprehendit, praesens 
+in<lb break="no" ed="#L" n="60"/>tuitus Dei fertur in totum tempus, et in omnia
+<lb ed="#L" n="61"/>quae sunt in quocumque tempore, sicut in 
+subie<lb break="no" ed="#L" n="62"/>cta sibi praesentialiter. - Quaedam vero sunt,
+<lb ed="#L" n="63"/>quae sunt ? in potentia Dei vel creaturae, quae
+<lb ed="#L" n="64"/>tamen nec sunt nec erunt neque fuerunt. Et 
+re<lb break="no" ed="#L" n="65"/>spectu horum non dicitur habere scientiam 
+vi<lb break="no" ed="#L" n="66"/>sionis, sed simplicis intelligentiae. Quod ideo 
+di<lb break="no" ed="#L" n="67"/>citur, quia ea quae videntur apud nos, habent
+<lb ed="#L" n="68"/>esse distinctum extra videntem.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2284">
+                  <lb ed="#L" n="69"/>AD PRIMUM ERGO DICENDUM quod, secundum quod
+<lb ed="#L" n="70"/>sunt in potentia, sic habent veritatem ea quae
+<lb ed="#L" n="71"/>non sunt actu: verum est enim ea esse in 
+po<lb break="no" ed="#L" n="72"/>tentia. Et sic sciuntur a Deo.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2295">
+                  <lb ed="#L" n="73"/>AD SECUNDUM DICENDUM quod, cum Deus sit
+<lb ed="#L" n="74"/>ipsum esse, intantum unumquodque est, 
+inquan<lb break="no" ed="#L" n="75"/>tum participat de Dei similitudine: sicut 
+unum<lb break="no" ed="#L" n="76"/>quodque intantum est calidum, inquantum 
+parti<lb break="no" ed="#L" n="77"/>cipat calorem. Sic et ea quae sunt in potentia,
+<lb ed="#L" n="78"/>etiam si non sunt in actu, cognoscuntur a Deo.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2312">
+                  <lb ed="#L" n="79"/>Ap TERTIUM DICENDUM quod Dei " scientia est
+<lb ed="#L" n="80"/>causa rerum, voluntate adiuncta. Unde non 
+opor<lb break="no" ed="#L" n="81"/>tet quod quaecumque scit Deus, sint vel fuerint
+<lb ed="#L" n="82"/>vel futura sint: sed solum ea quae vult esse,
+<lb ed="#L" n="83"/>vel permittit esse. - Et iterum, non est in scientia
+<lb ed="#L" n="84"/>Dei ut illa sint, sed quod esse possint.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e118-Dd1e2329"><!-- p1-q14-a10 -->
+               <head xml:id="TAca84-d1e118-Hd1e2332">Articulus 10</head>
+               <head xml:id="TAca84-d1e118-Hd1e2334" type="question-title">utrum deus cognoscat mala</head>
+               <p xml:id="TAca84-d1e118-d1e2337">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29"/>ARTICULUS DECIMUS
+<lb ed="#L" n="30"/>UTRUM DEUS COGNOSCAT MALA
+</p>
+               <p xml:id="TAca84-d1e118-d1e2346">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="31"/>AD DECIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="32"/>Deus non cognoscat mala. Dicit enim
+<lb ed="#L" n="33"/>a Philosophus, in III de Anima, quod
+<lb ed="#L" n="34"/>intellectus qui non est in potentia, non
+<lb ed="#L" n="35"/>cognoscit privationem. Sed malum est privatio
+<lb ed="#L" n="36"/>boni, ut dicit Augustinus. Igitur, cum intellectus
+<lb ed="#L" n="37"/>Dei nunquam sit in potentia, sed semper actu,
+<lb ed="#L" n="38"/>ut ex dictis patet, videtur quod Deus non 
+co<lb break="no" ed="#L" n="39"/>gnoscat mala.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2370">
+                  <lb ed="#L" n="40"/>2. PRAETEREA, omnis scientia vel est causa
+<lb ed="#L" n="41"/>sciti, vel causatur ab eo. Sed scientia Dei non
+<lb ed="#L" n="42"/>est causa mali, nec causatur a malo. Ergo scientia
+<lb ed="#L" n="43"/>Dei non est malorum.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2382">
+                  <lb ed="#L" n="44"/>3. PRAETEREA, omne quod cognoscitur, 
+cogno<lb break="no" ed="#L" n="45"/>scitur per suam similitudinem, vel per suum 
+op<lb break="no" ed="#L" n="46"/>positum. Quidquid autem cognoscit Deus, 
+co<lb break="no" ed="#L" n="47"/>gnoscit per suam essentiam, ut ex dictis patet.
+<lb ed="#L" n="48"/>Divina autem essentia neque est similitudo mali,
+<lb ed="#L" n="49"/>neque ei malum opponitur : divinae enim 
+essen<lb break="no" ed="#L" n="50"/>tiae nihil est contrarium, ut dicit Augustinus, XII
+<lb ed="#L" n="51"/>de Civ. Dei. Ergo Deus non cognoscit mala.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2402">
+                  <lb ed="#L" n="52"/>4. PRAETEREA, quod cognoscitur non per 
+se<lb break="no" ed="#L" n="53"/>ipsum, sed per aliud, imperfecte cognoscitur.
+<lb ed="#L" n="54"/>Sed malum non cognoscitur a Deo per seipsum:
+<lb ed="#L" n="55"/>quia sic oporteret quod malum esset in Deo;
+<lb ed="#L" n="56"/>oportet enim cognitum esse in cognoscente. Si
+<lb ed="#L" n="57"/>ergo cognoscitur per aliud, scilicet per bonum,
+<lb ed="#L" n="58"/>imperfecte cognoscetur ab ipso ^: quod est 
+impos<lb break="no" ed="#L" n="59"/>sibile, quia nulla cognitio Dei est imperfecta.
+<lb ed="#L" n="60"/>Ergo scientia Dei non est malorum.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2424">
+                  <lb ed="#L" n="61"/>SED coNTRA EsT quod dicitur Proverb. xv:
+<quote xml:id="TAca84-d1e118-Qd1e2428">infernus et perditio coram Deo</quote>.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2431">
+                  <lb ed="#L" n="62"/>RESPONDEO -DICENDUM quod quicumque perfecte
+<lb ed="#L" n="63"/>cognoscit aliquid, oportet quod cognoscat omnia
+<lb ed="#L" n="64"/>quae possunt illi accidere. Sunt autem quaedam
+<lb ed="#L" n="65"/>bona, quibus accidere potest ut per mala 
+cor<lb break="no" ed="#L" n="66"/>rumpantur. Unde Deus non perfecte cognosceret
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="67"/>bona, nisi etiam cognosceret mala. Sic autem est
+<lb ed="#L" n="68"/>cognoscibile unumquodque, secundum quod est.
+<lb ed="#L" n="69"/>Unde, cum hoc sit esse mali, quod est privatio
+<lb ed="#L" n="70"/>boni, per hoc ipsum quod ? Deus cognoscit bona,
+<lb ed="#L" n="71"/>cognoscit etiam mala; sicut per lucem 
+cognoscun<lb break="no" ed="#L" n="72"/>tur tenebrae. Unde dicit Dionysius, vil cap. de
+<lb ed="#L" n="73"/>Div. Nom., quod Deus per semetipsum 
+tenebra<lb break="no" ed="#L" n="74"/>rum accipit visionem, non aliunde videns tenebras
+<lb ed="#L" n="75"/>quam a lumine.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2466">
+                  <lb ed="#L" n="76"/>AD PRIMUM ERGO DICENDUM quod verbum 
+Phi<lb break="no" ed="#L" n="77"/>losophi est sic intelligendum, quod intellectus
+<lb ed="#L" n="78"/>qui non est in potentia, non cognoscit 
+privatio<lb break="no" ed="#L" n="79"/>nem per privationem in ipso existentem. Et hoc.
+<lb ed="#L" n="80"/>congruit cum eo quod supra dixerat, quod 
+pun<lb break="no" ed="#L" n="81"/>ctum et omne indivisibile per privationem 
+divi<lb break="no" ed="#L" n="82"/>sionis cognoscitur. Quod contingit ex hoc, quia
+<lb ed="#L" n="83"/>formae simplices et indivisibiles non sunt actu
+<lb ed="#L" n="84"/>in intellectu nostro, sed in potentia tantum: nam
+<lb ed="#L" n="85"/>si essent actu in intellectu nostro, non per 
+priva<lb break="no" ed="#L" n="86"/>tionem cognoscerentur. Et sic cognoscuntur 
+sim<lb break="no" ed="#L" n="87"/>plicia a. substantiis separatis. Deus igitur non 
+co<lb break="no" ed="#L" n="88"/>gnoscit malum per privationem in se ? existentem,
+<lb ed="#L" n="89"/>sed per bonum oppositum.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2499">
+                  <lb ed="#L" n="90"/>AD SECUNDUM DICENDUM quod scientia Dei non
+<lb ed="#L" n="91"/>est causa mali: sed est causa boni, per quod
+<lb ed="#L" n="92"/>cognoscitur malum.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2509">
+                  <lb ed="#L" n="93"/>AD TERTIUM DICENDUM quod, licet malum non
+<lb ed="#L" n="94"/>opponatur essentiae divinae, quae non est 
+cor<lb break="no" ed="#L" n="95"/>ruptibilis per malum, opponitur tamen effectibus
+<lb ed="#L" n="96"/>Dei; quos per essentiam suam cognoscit, et eos.
+<lb ed="#L" n="97"/>cognoscens, mala opposita cognoscit.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2522">
+                  <lb ed="#L" n="98"/>AD QUARTUM DICENDUM quod cognoscere aliquid
+<lb ed="#L" n="99"/>per aliud tantum, est imperfectae cognitionis, si
+<lb ed="#L" n="100"/>illud sit cognoscibile per se. Sed malum non est
+<lb ed="#L" n="101"/>per se cognoscibile: quia de ratione mali est,
+<lb ed="#L" n="102"/>quod sit privatio boni. Et sic neque definiri, 
+ne<lb break="no" ed="#L" n="103"/>que cognosci potest, nisi per bonum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e118-Dd1e2539"><!-- p1-q14-a11 -->
+               <head xml:id="TAca84-d1e118-Hd1e2542">Articulus 11</head>
+               <head xml:id="TAca84-d1e118-Hd1e2544" type="question-title">utrum deus cognoscat singularia</head>
+               <p xml:id="TAca84-d1e118-d1e2547">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>ARTICULUS UNDECIMUS
+<lb ed="#L" n="16"/>UTRUM DEUS COGNOSCAT SINGULARIA
+</p>
+               <p xml:id="TAca84-d1e118-d1e2556">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="17"/>AD UNDECIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="18"/>F)Deus non cognoscat singularia. 
+Intel<lb break="no" ed="#L" n="19"/>V lectus enim divinus immaterialior est
+<lb ed="#L" n="20"/>Nyquam intellectus humanus. Sed 
+intelle<lb break="no" ed="#L" n="21"/>ctus- humanus, propter suam immaterialitatem,
+<lb ed="#L" n="22"/>non cognoscit singularia, sed, sicut dicitur in II
+<lb ed="#L" n="23"/>de Anima ?, ratio est ünmiversalium: sensus vero
+<lb ed="#L" n="24"/>singularium. "Ergo Deus non cognoscit singularia.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2578">
+                  <lb ed="#L" n="25"/>2. PRAETEREA, illae solae virtutes in nobis sunt
+<lb ed="#L" n="26"/>singularium cognoscitivae, quae recipiunt species
+<lb ed="#L" n="27"/>non abstractas a materialibus conditionibus. Sed
+<lb ed="#L" n="28"/>res in Deo sunt maxime abstractae ab omni 
+ma<lb break="no" ed="#L" n="29"/>terialitate. Ergo Deus non cognoscit singularia.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2592">
+                  <lb ed="#L" n="30"/>3. PRAETEREA, omnis cognitio est per aliquam
+<lb ed="#L" n="31"/>similitudinem. Sed similitudo singularium, 
+inquan<lb break="no" ed="#L" n="32"/>tum sunt singularia, non videtur esse in Deo:
+<lb ed="#L" n="33"/>quia principium singularitatis est materia, quae,
+<lb ed="#L" n="34"/>cum sit ens in potentia tantum, omnino est 
+dis<lb break="no" ed="#L" n="35"/>similis Deo, qui est actus purus. Non ergo Deus
+<lb ed="#L" n="36"/>potest cognoscere singularia.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2610">
+                  <lb ed="#L" n="37"/>SEp cowNTRA EsT quod dicitur Proverb. xvi:
+<lb ed="#L" n="38"/>omnes viae hominum patent oculis eius.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2617">
+                  <lb ed="#L" n="39"/>RzsPONDEO DICENDUM quod Deus cognoscit 
+sin<lb break="no" ed="#L" n="40"/>gularia. Omnes enim perfectiones in creaturis 
+in<lb break="no" ed="#L" n="41"/>ventae, in Deo praeexistunt secundum altiorem
+<lb ed="#L" n="42"/>modum, ut ex dictis patet. Cognoscere autem
+<lb ed="#L" n="43"/>singularia pertinet ad perfectionem nostram. Unde
+<lb ed="#L" n="44"/>necesse est quod Deus singularia cognoscat. Nam
+<lb ed="#L" n="45"/>et Philosophus pro inconvenienti habet, quod 
+ali<lb break="no" ed="#L" n="46"/>quid cognoscatur a nobis, quod non cognoscatur
+<lb ed="#L" n="47"/>a Deo. Unde contra Empedoclem arguit, in 1 de
+<lb ed="#L" n="48"/>Anima et in III Metaphys., quod accideret
+<lb ed="#L" n="49"/>Deum esse insipientissimum , si discordiam 
+igno<lb break="no" ed="#L" n="50"/>raret. Sed perfectiones quae in inferioribus 
+di<lb break="no" ed="#L" n="51"/>viduntur, in Deo simpliciter et unite existunt.
+<lb ed="#L" n="52"/>Unde, licet nos per aliam potentiam cognoscamus
+<lb ed="#L" n="53"/>universalia et immaterialia, et per aliam singularia
+<lb ed="#L" n="54"/>et? materialia; Deus tamen per suum simplicem
+<lb ed="#L" n="55"/>intellectum utraque cognoscit.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2656">
+                  <lb ed="#L" n="56"/>Sed qualiter hoc esse possit, quidam 
+manife<lb break="no" ed="#L" n="57"/>stare volentes, dixerunt quod Deus cognoscit 
+sin<lb break="no" ed="#L" n="58"/>gularia per causas universales: nam nihil est in
+<lb ed="#L" n="59"/>aliquo singularium, quod non ex aliqua causa
+<lb ed="#L" n="60"/>oriatur universali. Et ponunt exemplum: sicut si
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="61"/>aliquis astrologus cognosceret omnes motus 
+uni<lb break="no" ed="#L" n="62"/>versales caeli, posset praenuntiare omnes eclipses
+<lb ed="#L" n="63"/>futuras. - Sed istud non sufficit. Quia singularia
+<lb ed="#L" n="64"/>ex causis universalibus sortiuntur quasdam formas
+<lb ed="#L" n="65"/>et virtutes, quae, quantumcumque ad invicem 
+con<lb break="no" ed="#L" n="66"/>iungantur, non individuantur nisi per materiam
+<lb ed="#L" n="67"/>individualem. Unde qui cognosceret Socratem
+<lb ed="#L" n="68"/>per hoc quod est albus, vel Sophronisci filius,
+<lb ed="#L" n="69"/>vel quidquid aliud sic dicatur, non cognosceret
+<lb ed="#L" n="70"/>ipsum inquantum est hic homo. Unde secandum
+<lb ed="#L" n="71"/>modum praedictum, Deus non cognosceret 
+sin<lb break="no" ed="#L" n="72"/>gularia in sua singularitate.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2698">
+                  <lb ed="#L" n="73"/>Alii vero dixerunt quod Deus cognoscit 
+sin<lb break="no" ed="#L" n="74"/>gularia, applicando causas universales ad 
+parti<lb break="no" ed="#L" n="75"/>culares effectus. - Sed hoc nihil est. Quia nullus
+<lb ed="#L" n="76"/>potest applicare aliquid ad alterum, nisi illud
+<lb ed="#L" n="77"/>praecognoscat: unde dicta applicatio non potest
+<lb ed="#L" n="78"/>esse ratio cognoscendi particularia, sed 
+cognitio<lb break="no" ed="#L" n="79"/>nem singularium praesupponit.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2716">
+                  <lb ed="#L" n="80"/>Et ideo aliter dicendum est, quod, cum Deus
+<lb ed="#L" n="81"/>sit causa rerum per suam scientiam, ut dictum
+<lb ed="#L" n="82"/>est, intantum se extendit scientia Dei, 
+inquan<lb break="no" ed="#L" n="83"/>tum se extendit eius causalitas. Unde, cum virtus
+<lb ed="#L" n="84"/>activa Dei se extendat non solum ad formas, a
+<lb ed="#L" n="85"/>quibus accipitur ratio universalis, sed etiam usque
+<lb ed="#L" n="86"/>ad materiam, ut infra ostendetur; necesse est
+<lb ed="#L" n="87"/>quod scientia Dei usque ad singularia se 
+exten<lb break="no" ed="#L" n="88"/>dat, quae per materiam individuantur. Cum enim
+<lb ed="#L" n="89"/>sciat alia a se per essentiam suam, inquantum
+<lb ed="#L" n="90"/>est similitudo rerum velut principium activum
+<lb ed="#L" n="91"/>earum, necesse est quod essentia sua sit 
+prin<lb break="no" ed="#L" n="92"/>cipium sufficiens cognoscendi omnia quae per
+<lb ed="#L" n="93"/>ipsum fiunt, non solum in universali, sed etiam
+<lb ed="#L" n="94"/>in singulari. Et esset simile de scientia artificis, si
+<lb ed="#L" n="95"/>esset productiva totius rei, et non formae tantum.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2754">
+                  <lb ed="#L" n="96"/>AD PRIMUM ERGO DICENDUM quod intellectus 
+no<lb break="no" ed="#L" n="97"/>ster speciem intelligibilem abstrahit a principiis
+<lb ed="#L" n="98"/>individuantibus: unde species intelligibilis nostri
+<lb ed="#L" n="99"/>intellectus non potest esse similitudo 
+principio<lb break="no" ed="#L" n="100"/>rum individualium. Et propter hoc, intellectus
+<lb ed="#L" n="101"/>noster singularia non cognoscit. Sed species in- -
+<lb ed="#L" n="102"/>telligibilis divini intellectus, quae est Dei essentia,
+<lb ed="#L" n="103"/>non est immaterialis per abstractionem, sed per
+<lb ed="#L" n="104"/>seipsam, principium existens omnium principio-
+<pb ed="#L" n="187"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>rum quae intrant rei compositionem, sive sint
+<lb ed="#L" n="2"/>principia speciei, sive principia individui. Unde
+<lb ed="#L" n="3"/>per eam Deus cognoscit non solum universalia,
+<lb ed="#L" n="4"/>sed etiam singularia.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2789">
+                  <lb ed="#L" n="5"/>AD SECUNDUM DICENDUM quod, quamvis species
+<lb ed="#L" n="6"/>intellectus divini secundum esse suum non 
+ha<lb break="no" ed="#L" n="7"/>beat conditiones materiales, sicut species receptae
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>in imaginatione et sensu; tamen virtute se 
+ex<lb break="no" ed="#L" n="9"/>tendit ad immaterialia et materialia, ut dictum
+<lb ed="#L" n="10"/>est.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2807">
+                  <lb ed="#L" n="11"/>AD TERTIUM DICENDUM quod materia, licet 
+rece<lb break="no" ed="#L" n="12"/>dat a Dei similitudine secundum suam 
+potentia<lb break="no" ed="#L" n="13"/>litatem, tamen inquantum vel sic esse habet,
+<lb ed="#L" n="14"/>similitudinem quandam retinet divini esse.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e118-Dd1e2819"><!-- p1-q14-a12 -->
+               <head xml:id="TAca84-d1e118-Hd1e2822">Articulus 12</head>
+               <head xml:id="TAca84-d1e118-Hd1e2824" type="question-title">
+  utrum deus possit cognoscere infinita
+</head>
+               <p xml:id="TAca84-d1e118-d1e2827">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="90"/>ARTICULUS DUODECIMUS
+<lb ed="#L" n="91"/>UTRUM DEUS POSSIT COGNOSCERE INFINITA
+</p>
+               <p xml:id="TAca84-d1e118-d1e2836">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="92"/>AD DUODECIMUM SIC PROCEDITUR. Videtur
+<lb ed="#L" n="93"/>quod Deus non possit cognoscere 
+infi<lb break="no" ed="#L" n="94"/>nita. Infinitum enim, secundum quod
+<lb ed="#L" n="95"/>est infinitum, est ignotum: quia 
+infini<lb break="no" ed="#L" n="96"/>tum est cuius quantitatem accipientibus semper
+<lb ed="#L" n="97"/>est aliquid extra assumere, ut dicitur in III Physic.
+<lb ed="#L" n="98"/>Augustinus etiam dicit, XII de Civ. Dei, quod
+<quote xml:id="TAca84-d1e118-Qd1e2855">quidquid scientia comprehenditur, scientis 
+compre<lb break="no" ed="#L" n="99"/>hensione finitur</quote>. Sed infinita non possunt finiri.
+<lb ed="#L" n="100"/>Ergo non possunt scientia Dei comprehendi.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2863">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="101"/>2. Si dicatur quod ea quae in se sunt. infinita,
+<lb ed="#L" n="102"/>scientiae Dei finita sunt, contra: ratio infiniti est
+<lb ed="#L" n="103"/>quod sit impertransibile; et finiti, quod sit 
+per<lb break="no" ed="#L" n="104"/>transibile ^, ut. dicitur in III Physic.. Sed 
+infi<lb break="no" ed="#L" n="105"/>nitum non potest transiri nec a finito, nec ab 
+in<lb break="no" ed="#L" n="106"/>finito, ut probatur in VI Physic.. Ergo infinitum ;
+<lb ed="#L" n="107"/>non potest esse finitum finito ", neque etiam
+<lb ed="#L" n="108"/>infinito. Et ita infinita non sunt finita scientiae
+<lb ed="#L" n="109"/>Dei, quae est infinita.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2888">
+                  <lb ed="#L" n="110"/>3. PRAETEREA, scientia Dei est mensura sci-
+<pb ed="#L" n="188"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>torum. Sed contra rationem infiniti est, quod sit
+<lb ed="#L" n="2"/>mensuratum. Ergo infinita non possunt sciri a Deo.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2901">
+                  <lb ed="#L" n="3"/>SED coNTRA EsT quod dicit Augustinus, XII de
+<lb ed="#L" n="4"/>Civ. Dei: <quote xml:id="TAca84-d1e118-Qd1e2907">Quamvis infinitorum numerorum 
+nul<lb break="no" ed="#L" n="5"/>lus sit numerus, non est ? tamen 
+incomprehensi<lb break="no" ed="#L" n="6"/>bilis ei, cuius scientiae non est numerus</quote>.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2915">
+                  <lb ed="#L" n="7"/>RESPONDEO DICENDUM quod, cum Deus sciat non
+<lb ed="#L" n="8"/>solum ea quae sunt actu, sed etiam ea quae sunt
+<lb ed="#L" n="9"/>in potentia vel sua vel creaturae, ut ostensum
+<lb ed="#L" n="10"/>est; haec autem constat esse infinita; necesse
+<lb ed="#L" n="11"/>est dicere quod Deus sciat infinita. Et licet
+<lb ed="#L" n="12"/>Scientia visionis, quae est tantum eorum quae
+<lb ed="#L" n="13"/>sunt vel erunt vel fuerunt, non sit infinitorum,
+<lb ed="#L" n="14"/>ut quidam dicunt, cum non ponamus mundum
+<lb ed="#L" n="15"/>ab aeterno fuisse, nec generationem et motum
+<lb ed="#L" n="16"/>in aeternum mansura, ut individua in infinitum
+<lb ed="#L" n="17"/>multiplicentur: tamen, si diligentius consideretur,
+<lb ed="#L" n="18"/>necesse est dicere quod Deus etiam scientia 
+vi<lb break="no" ed="#L" n="19"/>sionis sciat infinita. Quia Deus scit etiam 
+cogi<lb break="no" ed="#L" n="20"/>tationes et affectiones cordium, quae in infinitum
+<lb ed="#L" n="21"/>multiplicabuntur, creaturis rationalibus 
+permanen<lb break="no" ed="#L" n="22"/>tibus absque fine.
+</p>
+               <p xml:id="TAca84-d1e118-d1e2952">
+                  <lb ed="#L" n="23"/>Hoc autem ideo est, quia cognitio cuiuslibet
+<lb ed="#L" n="24"/>cognoscentis se extendit secundum modum 
+for<lb break="no" ed="#L" n="25"/>mae quae est principium cognitionis. Species enim
+<lb ed="#L" n="26"/>sensibilis, quae est in sensu, est similitudo solum
+<lb ed="#L" n="27"/>unius individui: unde per eam solum unum 
+in<lb break="no" ed="#L" n="28"/>dividuum cognosci potest. Species autem 
+intelli<lb break="no" ed="#L" n="29"/>gibilis intellectus nostri est similitudo rei quantum
+<lb ed="#L" n="30"/>ad naturam speciei, quae est participabilis a 
+parti<lb break="no" ed="#L" n="31"/>cularibus infinitis: unde intellectus noster per 
+spe<lb break="no" ed="#L" n="32"/>ciem intelligibilem hominis, cognoscit 
+quodammo<lb break="no" ed="#L" n="33"/>do homines infinitos ". Sed tamen non inquantum
+<lb ed="#L" n="34"/>distinguuntur ab invicem, sed secundum quod
+<lb ed="#L" n="35"/>communicant in natura speciei; propter hoc quod
+<lb ed="#L" n="36"/>species intelligibilis intellectus nostri non est 
+simi<lb break="no" ed="#L" n="37"/>litudo hominum quantum ad principia 
+individua<lb break="no" ed="#L" n="38"/>lia, sed solum quantum ad principia speciei. 
+Es<lb break="no" ed="#L" n="39"/>sentia autem divina, per quam intellectus divinus
+<lb ed="#L" n="40"/>intelligit, est similitudo sufficiens omnium quae
+<lb ed="#L" n="41"/>sunt vel esse possunt, non solum quantum ad prin-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="42"/>cipia communia, sed etiam quantum ad principia
+<lb ed="#L" n="43"/>propria uniuscuiusque, ut ostensum est. Unde
+<lb ed="#L" n="44"/>sequitur quod scientia Dei se extendat ad infinita,
+<lb ed="#L" n="45"/>etiam secundum quod sunt ab invicem distincta.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3007">
+                  <lb ed="#L" n="46"/>AD PRIMUM ERGO DICENDUM quod infiniti ratio
+<lb ed="#L" n="47"/>congruit quantitati, secundum: Philosophum in I
+<lb ed="#L" n="48"/>Physic. De ratione autem quantitatis est ordo
+<lb ed="#L" n="49"/>partium. Cognoscere ergo infinitum secundum
+<lb ed="#L" n="50"/>modum infiniti, est cognoscere partem post 
+par<lb break="no" ed="#L" n="51"/>tem. Et sic nullo modo contingit cognosci 
+in<lb break="no" ed="#L" n="52"/>finitum: quia quantacumque quantitas partium
+<lb ed="#L" n="53"/>accipiatur, semper remanet' aliquid extra 
+acci<lb break="no" ed="#L" n="54"/>pientem. Deus autem non sic cognoscit infinitum
+<lb ed="#L" n="55"/>vel infinita, quasi enumerando partem post 
+par<lb break="no" ed="#L" n="56"/>tem; cum cognoscat omnia simul, non 
+succes<lb break="no" ed="#L" n="57"/>sive, ut supra dictum est. Unde nihil prohibet
+<lb ed="#L" n="58"/>ipsum cognoscere infinita.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3038">
+                  <lb ed="#L" n="59"/>AD SECUNDUM DICENDUM quod transitio importat
+<lb ed="#L" n="60"/>quandam successionem in partibus: et inde est
+<lb ed="#L" n="61"/>quod infinitum transiri non potest, neque a finito
+<lb ed="#L" n="62"/>neque ab infinito. Sed ad rationem 
+comprehen<lb break="no" ed="#L" n="63"/>sionis sufficit adaequatio: quia id comprehendi
+<lb ed="#L" n="64"/>dicitur, cuius nihil est extra comprehendentem.
+<lb ed="#L" n="65"/>Unde non est contra rationem infiniti, quod 
+com<lb break="no" ed="#L" n="66"/>prehendatur ab infinito. Et sic, quod in se est 
+infi<lb break="no" ed="#L" n="67"/>nitum, potest dici finitum scientiae Dei, tanquam
+<lb ed="#L" n="68"/>comprehensum: non tamen tanquam pertransibile.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3063">
+                  <lb ed="#L" n="69"/>AD TERTIUM DICENDUM quod scientia Dei est
+<lb ed="#L" n="70"/>mensura rerum, non quantitativa, qua quidem
+<lb ed="#L" n="71"/>mensura carent infinita; sed quia ? mensurat 
+es<lb break="no" ed="#L" n="72"/>sentiam et veritatem rei. Unumquodque enim
+<lb ed="#L" n="73"/>intantum habet de veritate suae naturae, 
+inquan<lb break="no" ed="#L" n="74"/>tum imitatur Dei scientiam; sicut artificiatum 
+in<lb break="no" ed="#L" n="75"/>quantum concordat arti. Dato autem quod essent
+<lb ed="#L" n="76"/>aliqua infinita actu secundum numerum, puta
+<lb ed="#L" n="77"/>infiniti homines; vel secundum quantitatem 
+conti<lb break="no" ed="#L" n="78"/>nuam, ut si esset aer infinitus, ut quidam antiqui
+<lb ed="#L" n="79"/>dixerunt: tamen manifestum est quod haberent
+<lb ed="#L" n="80"/>esse determinatum et finitum, quia esse eorum
+<lb ed="#L" n="81"/>esset limitatum ad aliquas determinatas naturas.
+<lb ed="#L" n="82"/>Unde mensurabilia essent secundum scientiam Dei.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e118-Dd1e3098"><!-- p1-q14-a13 -->
+               <head xml:id="TAca84-d1e118-Hd1e3101">Articulus 13</head>
+               <head xml:id="TAca84-d1e118-Hd1e3103" type="question-title">
+  utrum scientia dei sit futurorum contingentium
+</head>
+               <p xml:id="TAca84-d1e118-d1e3106">
+                  <pb ed="#L" n="189"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS DECIMUSTERTIUS
+<lb ed="#L" n="2"/>UTRUM SCIENTIA DEI SIT FUTURORUM CONTINGENTIUM
+</p>
+               <p xml:id="TAca84-d1e118-d1e3117">
+                  <lb ed="#L" n="3"/>AD DECIMUMTERTIUM SIC PROCEDITUR. 
+Vide<lb break="no" ed="#L" n="4"/>tur quod scientia Dei non sit futurorum
+<lb ed="#L" n="5"/>contingentium. A causa enim necessaria
+<lb ed="#L" n="6"/>procedit effectus necessarius. Sed 
+scien<lb break="no" ed="#L" n="7"/>tia Dei est causa scitorum, ut supra dictum
+<lb ed="#L" n="8"/>est. Cum ergo ipsa sit necessaria, sequitur scita
+<lb ed="#L" n="9"/>eius esse necessaria. Non ergo scientia Dei est
+<lb ed="#L" n="10"/>contingentium.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3137">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, omnis conditionalis cuius 
+ante<lb break="no" ed="#L" n="12"/>cedens est necessarium absolute, consequens est
+<lb ed="#L" n="13"/>necessarium absolute. Sic enim se habet 
+antece<lb break="no" ed="#L" n="14"/>dens ad consequens, sicut principia ad 
+conclu<lb break="no" ed="#L" n="15"/>sionem: ex principis autem necessariis non 
+se<lb break="no" ed="#L" n="16"/>quitur conclusio nisi necessaria, ut in I Poster.
+<lb ed="#L" n="17"/>probatur. Sed haec est quaedam conditionalis
+<lb ed="#L" n="18"/>vera, si Deus scivit hoc futurum esse, hoc erit:
+<lb ed="#L" n="19"/>quia scientia Dei non est nisi verorum. Huius
+<lb ed="#L" n="20"/>autem conditionalis antecedens est necessarium
+<lb ed="#L" n="21"/>absolute: tum quia est aeternum ; tum quia 
+si<lb break="no" ed="#L" n="22"/>gnificatur ut praeteritum. Ergo et consequens est
+<lb ed="#L" n="23"/>necessarium absolute. Igitur quidquid scitur a
+<lb ed="#L" n="24"/>Deo, est necessarium. Et sic scientia Dei non est
+<lb ed="#L" n="25"/>contingentium.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3173">
+                  <lb ed="#L" n="26"/>3. PRAETEREA, omne scitum a Deo necesse est
+<lb ed="#L" n="27"/>esse: quia etiam omne scitum a nobis necesse
+<lb ed="#L" n="28"/>est esse, cum tamen scientia Dei certior sit quam
+<lb ed="#L" n="29"/>scientia nostra. Sed nullum contingens futurum
+<lb ed="#L" n="30"/>necesse est esse. Ergo nullum contingens 
+futu<lb break="no" ed="#L" n="31"/>rum est scitum a Deo.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3189">
+                  <lb ed="#L" n="32"/>SED CONTRA EST quod dicitur in Psalmo xxxi?:
+<lb ed="#L" n="33"/>Qui finxit singillatim corda eorum, qui intelligit
+<lb ed="#L" n="34"/>omnia opera eorum, scilicet hominum. Sed opera
+<lb ed="#L" n="35"/>hominum sunt contingentia, utpote libero arbitrio
+<lb ed="#L" n="36"/>subiecta. Ergo Deus scit futura contingentia.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3202">
+                  <lb ed="#L" n="37"/>RESPONDEO DICENDUM quod, cum supra 
+osten<lb break="no" ed="#L" n="38"/>sum sit quod Deus sciat omnia non solum quae
+<lb ed="#L" n="39"/>actu sunt, sed etiam quae sunt in potentia sua
+<lb ed="#L" n="40"/>vel creaturae; horum autem quaedam sunt 
+con<lb break="no" ed="#L" n="41"/>tingentia nobis futura; sequitur quod Deus 
+con<lb break="no" ed="#L" n="42"/>tingentia futura cognoscat.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3218">
+                  <lb ed="#L" n="43"/>Ad cuius evidentiam, considerandum est quod
+<lb ed="#L" n="44"/>contingens aliquod dupliciter potest considerari.
+<lb ed="#L" n="45"/>Uno modo, in seipso, secundum quod iam actu
+<lb ed="#L" n="46"/>est. Et sic non consideratur ut futurum, sed ut
+<lb ed="#L" n="47"/>praesens: neque ut ad utrumlibet ? contingens,
+<lb ed="#L" n="48"/>sed ut determinatum ad unum. Et propter hoc,
+<lb ed="#L" n="49"/>sic infallibiliter subdi potest certae cognitioni,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="50"/>utpote sensui visus, sicut cum video Socratem
+<lb ed="#L" n="51"/>sedere. Alio modo potest considerari contingens,
+<lb ed="#L" n="52"/>ut est in sua causa. Et sic consideratur ut 
+fu<lb break="no" ed="#L" n="53"/>turum, et ut contingens nondum determinatum
+<lb ed="#L" n="54"/>ad unum: quia causa contingens se habet ad
+<lb ed="#L" n="55"/>opposita. Et sic contingens non subditur per
+<lb ed="#L" n="56"/>certitudinem alicui cognitioni. Unde quicumque
+<lb ed="#L" n="57"/>cognoscit effectum contingentem in causa sua
+<lb ed="#L" n="58"/>tantum, non habet de eo nisi coniecturalem 
+co<lb break="no" ed="#L" n="59"/>gnitionem. Deus autem cognoscit omnia 
+contin<lb break="no" ed="#L" n="60"/>gentia, non solum prout sunt in suis causis, sed
+<lb ed="#L" n="61"/>etiam prout unumquodque eorum est actu in
+<lb ed="#L" n="62"/>seipso.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3266">
+                  <lb ed="#L" n="63"/>Et licet contingentia fiant in actu successive,
+<lb ed="#L" n="64"/>non tamen Deus successive cognoscit 
+contingen<lb break="no" ed="#L" n="65"/>tia, prout sunt in suo esse, sicut nos, sed simul.
+<lb ed="#L" n="66"/>Quia sua cognitio mensuratur aeternitate, sicut
+<lb ed="#L" n="67"/>etiam " suum esse: aeternitas autem, tota un -
+<lb ed="#L" n="68"/>existens, ambit totum tempus, ut supra dictum
+<lb ed="#L" n="69"/>est. Unde omnia quae sunt in tempore, sunt
+<lb ed="#L" n="70"/>Deo ab aeterno praesentia, non solum ea ratione
+<lb ed="#L" n="71"/>qua habet rationes rerum apud se praesentes,
+<lb ed="#L" n="72"/>ut quidam dicunt: sed quia eius intuitus fertur -
+<lb ed="#L" n="73"/>ab aeterno super omnia, prout sunt in sua 
+prae<lb break="no" ed="#L" n="74"/>sentialitate.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3295">
+                  <lb ed="#L" n="75"/>Unde manifestum est quod contingentia et
+<lb ed="#L" n="76"/>infallibiliter a Deo cognoscuntur, inquantum 
+sub<lb break="no" ed="#L" n="77"/>duntur divino conspectus secundum suam 
+prae<lb break="no" ed="#L" n="78"/>sentialitatem: et tamen ? sunt fatura contingentia,
+<lb ed="#L" n="79"/>suis causis comparata.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3309">
+                  <lb ed="#L" n="80"/>Ap PRIMUM ERGO DICENDUM quod, licet causa 
+su<lb break="no" ed="#L" n="81"/>prema sit necessaria, tamen effectus potest esse
+<lb ed="#L" n="82"/>contingens, propter causam proximam 
+contingen<lb break="no" ed="#L" n="83"/>tem: sieut germinatio plantae est contingens
+<lb ed="#L" n="84"/>propter causam proximam contingentem ^, licet
+<lb ed="#L" n="85"/>motus solis, qui est causa prima, sit necessarius.
+<lb ed="#L" n="86"/>Et similiter scita a Deo sunt contingentia propter
+<lb ed="#L" n="87"/>causas proximas, licet scientia Dei, quae est causa
+<lb ed="#L" n="88"/>prima, sit necessaria.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3331">
+                  <lb ed="#L" n="89"/>AD SECUNDUM DICENDUM quod quidam dicunt
+<lb ed="#L" n="90"/>quod hoc antecedens, Deus scivit hoc contingens
+<lb ed="#L" n="91"/>futurum ", non est necessarium, sed contingens:
+<lb ed="#L" n="92"/>quia, licet sit praeteritum, tamen importat 
+respe<lb break="no" ed="#L" n="93"/>ctum ad futurum. - Sed hoc non tollit ei 
+necessi<lb break="no" ed="#L" n="94"/>tatem: quia id quod habuit respectum ad 
+futu<lb break="no" ed="#L" n="95"/>rum, necesse est habuisse, licet etiam futurum
+<lb ed="#L" n="96"/>non sequatur quandoque.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3351">
+                  <pb ed="#L" n="190"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Alii vero dicunt hoc antecedens esse 
+contin<lb break="no" ed="#L" n="2"/>gens, quia est compositum ex necessario et 
+con<lb break="no" ed="#L" n="3"/>tingenti; sicut istud dictum est contingens, 
+So<lb break="no" ed="#L" n="4"/>cratem esse hominem album. - Sed hoc etiam
+<lb ed="#L" n="5"/>nihil est. Quia cum dicitur, Deus scivit esse 
+fu<lb break="no" ed="#L" n="6"/>turum hoc contingens ^, contingens non ponitur
+<lb ed="#L" n="7"/>ibi nisi ut materia verbi, et non sicut principalis
+<lb ed="#L" n="8"/>pars propositionis: unde contingentia eius vel
+<lb ed="#L" n="9"/>necessitas nihil refert ad hoc quod propositio sit
+<lb ed="#L" n="10"/>necessaria vel contingens, vera vel falsa. Ita enim
+<lb ed="#L" n="11"/>potest esse verum me dixisse hominem esse 
+asi<lb break="no" ed="#L" n="12"/>num, sicut me dixisse Socratem currere, vel
+<lb ed="#L" n="13"/>Deum esse: et eadem ratio est de necessario et
+<lb ed="#L" n="14"/>contingenti.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3388">
+                  <lb ed="#L" n="15"/>Unde dicendum est quod hoc antecedens 7 est
+<lb ed="#L" n="16"/>necessarium absolute. Nec tamen sequitur, ut
+<lb ed="#L" n="17"/>quidam dicunt, quod consequens sit necessarium
+<lb ed="#L" n="18"/>absolute: quia antecedens est causa remota 
+con<lb break="no" ed="#L" n="19"/>sequentis, quod propter causam proximam 
+con<lb break="no" ed="#L" n="20"/>tingens est. - Sed hoc nihil est. Esset enim 
+condi<lb break="no" ed="#L" n="21"/>tionalis falsa, cuius antecedens esset causa remota
+<lb ed="#L" n="22"/>necessaria, et consequens effectus contingens: ut
+<lb ed="#L" n="23"/>puta si dicerem, s? so/ movetur, herba germinabit.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3410">
+                  <lb ed="#L" n="24"/>Et ideo aliter dicendum est, quod quando in
+<lb ed="#L" n="25"/>antecedente ponitur aliquid pertinens ad actum
+<lb ed="#L" n="26"/>animae, consequens est accipiendum non 
+secun<lb break="no" ed="#L" n="27"/>dum quod " in se est, sed secundum quod est in
+<lb ed="#L" n="28"/>anima: aliud enim est esse rei in seipsa, et esse
+<lb ed="#L" n="29"/>rei in anima. Ut puta, si dicam, si anima intelligit
+<lb ed="#L" n="30"/>aliquid, illud est immateriale, intelligendum est
+<lb ed="#L" n="31"/>quod illud est immateriale secundum quod est in
+<lb ed="#L" n="32"/>intellectu, non secundum quod est in seipso. Et
+<lb ed="#L" n="33"/>similiter si-dicam, s? Deus scivit aliquid, illud erit,
+<lb ed="#L" n="34"/>consequens intelligendum est prout subest divinae
+<lb ed="#L" n="35"/>scientiae, scilicet prout ? est in sua 
+praesentiali<lb break="no" ed="#L" n="36"/>tate. Et sic necessarium est, sicut et antecedens:
+<lb ed="#L" n="37"/>quia omne quod est, dum est, necesse est esse,
+<lb ed="#L" n="38"/>ut dicitur in I Perzherm.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3445">
+                  <lb ed="#L" n="39"/>Ap TERTIUM DICENDUM quod ea quae 
+tempora<lb break="no" ed="#L" n="40"/>liter in actum reducuntur, a nobis successive 
+co<lb break="no" ed="#L" n="41"/>gnoscuntur in tempore, sed a Deo in aeternitate,
+<lb ed="#L" n="42"/>quae est supra tempus. Unde nobis, quia cogno-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="43"/>scimus futura contingentia inquantum talia sunt,
+<lb ed="#L" n="44"/>certa esse non possunt: sed soli Deo, cuius 
+in<lb break="no" ed="#L" n="45"/>telligere est in aeternitate supra tempus. Sicut
+<lb ed="#L" n="46"/>ille qui vadit per viam, non videt illos qui post
+<lb ed="#L" n="47"/>eum veniunt: sed ille qui ab aliqua altitudine
+<lb ed="#L" n="48"/>totam viam intuetur, simul videt omnes 
+transeun<lb break="no" ed="#L" n="49"/>tes per viam. Et ideo illud quod scitur a nobis,
+<lb ed="#L" n="50"/>oportet esse necessarium etiam secundum quod
+<lb ed="#L" n="51"/>in se est: quia ea quae in se sunt contingentia 
+fu<lb break="no" ed="#L" n="52"/>tura, a nobis sciri non possunt. Sed ea quae sunt
+<lb ed="#L" n="53"/>scita a Deo, oportet esse necessaria secundum
+<lb ed="#L" n="54"/>modum quo subsunt divinae scientiae, ut dictum
+<lb ed="#L" n="55"/>est: non autem absolute, secundum quod in
+<lb ed="#L" n="56"/>propriis causis considerantur. - Unde et haec 
+pro<lb break="no" ed="#L" n="57"/>positio, omne scitum a Deo necessarium " est
+<lb ed="#L" n="58"/>esse, consuevit distingui. Quia potest esse de re,
+<lb ed="#L" n="59"/>vel de dicto. Si intelligatur de re, est divisa et
+<lb ed="#L" n="60"/>falsa: et est sensus, omnis res quam Deus scit,
+<lb ed="#L" n="61"/>est necessaria. Vel potest intelligi de dicto 5^: et
+<lb ed="#L" n="62"/>sic est composita et vera; et est sensus, [oc 
+di<lb break="no" ed="#L" n="63"/>ctum, scitum a Deo esse, est necessarium.
+<lb ed="#L" n="64"/>Sed obstant quidam, dicentes quod ista 
+distin<lb break="no" ed="#L" n="65"/>ctio habet locum in formis separabilibus a 
+subie<lb break="no" ed="#L" n="66"/>cto; ut si dicam, album possibile est esse nigrum.
+<lb ed="#L" n="67"/>Quae quidem de dicto est falsa, et de re est vera:
+<lb ed="#L" n="68"/>res enim quae est alba, potest esse nigra; sed
+<lb ed="#L" n="69"/>hoc dictum, album esse nigrum, nunquam potest
+<lb ed="#L" n="70"/>esse verum. In formis autem inseparabilibus a
+<lb ed="#L" n="71"/>subiecto, non habet locum praedicta distinctio ;
+<lb ed="#L" n="72"/>ut si dicam, corvum nigrum possibile est esse
+<lb ed="#L" n="73"/>album: quia in utroque sensu est falsa. Esse
+<lb ed="#L" n="74"/>autem scitum a Deo, est inseparabile a re: quia
+<lb ed="#L" n="75"/>quod est scitum a Deo, non potest esse non 
+sci<lb break="no" ed="#L" n="76"/>turh. - Haec autem instantia locum haberet, si
+<lb ed="#L" n="77"/>hoc quod dico scitum, importaret aliquam 
+dispo<lb break="no" ed="#L" n="78"/>sitionem subiecto ? inhaerentem. Sed cum 
+im<lb break="no" ed="#L" n="79"/>portet actum scientis, ipsi rei scitae, licet semper
+<lb ed="#L" n="80"/>sciatur, potest aliquid attribui secundum se, quod
+<lb ed="#L" n="81"/>non attribuitur ei inquantum stat sub actu sciendi:
+<lb ed="#L" n="82"/>sicut esse materiale attribuitur lapidi secundum
+<lb ed="#L" n="83"/>se, quod non attribuitur ei ? secundum quod est
+<lb ed="#L" n="84"/>intelligibile.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e118-Dd1e3550"><!-- p1-q14-a14 -->
+               <head xml:id="TAca84-d1e118-Hd1e3553">Articulus 14</head>
+               <head xml:id="TAca84-d1e118-Hd1e3555" type="question-title">
+  utrum deus cognoscat enuntiabilia
+</head>
+               <p xml:id="TAca84-d1e118-d1e3558">
+                  <pb ed="#L" n="197"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS DECIMUSQUARTUS
+<lb ed="#L" n="2"/>UTRUM DEUS COGNOSCAT ENUNTIABILIA
+</p>
+               <p xml:id="TAca84-d1e118-d1e3569">
+                  <lb ed="#L" n="3"/>AD DECIMUMQUARTUM SIC PROCEDITUR. 
+Vide<lb break="no" ed="#L" n="4"/>tur quod Deus non cognoscat 
+enuntia<lb break="no" ed="#L" n="5"/>bilia. Cognoscere enim enuntiabilia 
+con<lb break="no" ed="#L" n="6"/>venit intellectui nostro, secundum quod
+<lb ed="#L" n="7"/>componit et dividit. Sed in intellectu divino nulla
+<lb ed="#L" n="8"/>est compositio. Ergo Deus non cognoscit 
+enun<lb break="no" ed="#L" n="9"/>tiabilia.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3587">
+                  <lb ed="#L" n="10"/>2. PRAETEREA, omnis cognitio fit per aliquam
+<lb ed="#L" n="11"/>similitudinem. Sed in Deo nulla est^ similitudo
+<lb ed="#L" n="12"/>enuntiabilium, cum sit omnino simplex. Ergo
+<lb ed="#L" n="13"/>Deus non cognoscit enuntiabilia.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3599">
+                  <lb ed="#L" n="14"/>SED coNTRA EST quod dicitur in Psalmo xcii:
+<lb ed="#L" n="15"/>Dominus scit cogitationes hominum. Sed 
+enuntia<lb break="no" ed="#L" n="16"/>bilia continentur in cogitationibus hominum. Ergo
+<lb ed="#L" n="17"/>Deus cognoscit enuntiabilia.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3610">
+                  <lb ed="#L" n="18"/>RESPONDEO DICENDUM quod, cum formare 
+enun<lb break="no" ed="#L" n="19"/>tiabilia sit in potestate intellectus nostri; Deus
+<lb ed="#L" n="20"/>autem scit quidquid est in potentia sua vel 
+crea<lb break="no" ed="#L" n="21"/>turae, ut supra dictum est; necesse est quod
+<lb ed="#L" n="22"/>Deus sciat omnia enuntiabilia quae formari 
+pos<lb break="no" ed="#L" n="23"/>sunt. Sed, sicut scit materialia immaterialiter, et
+<lb ed="#L" n="24"/>composita simpliciter, ita scit enuntiabilia non per
+<lb ed="#L" n="25"/>modum enuntiabilium, quasi scilicet in intellectu
+<lb ed="#L" n="26"/>eius sit compositio vel divisio enuntiabilium; sed
+<lb ed="#L" n="27"/>unumquodque cognoscit per simplicem intelligen-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="28"/>tiam, intelligendo essentiam uniuscuiusque. Sicut
+<lb ed="#L" n="29"/>si nos in hoc ipso quod intelligimus quid est
+<lb ed="#L" n="30"/>homo, intelligeremus omnia quae de homine
+<lb ed="#L" n="31"/>praedicari possunt. Quod quidem in intellectu ?
+<lb ed="#L" n="32"/>nostro non contingit, qui de uno in aliud 
+discur<lb break="no" ed="#L" n="33"/>rit, propter hoc quod species intelligibilis sic 
+re<lb break="no" ed="#L" n="34"/>praesentat unum, quod non repraesentat aliud.
+<lb ed="#L" n="35"/>Unde, intelligendo quid est homo, non ex hoc
+<lb ed="#L" n="36"/>ipso ' alia quae ei insunt, intelligimus ; sed 
+di<lb break="no" ed="#L" n="37"/>visim, secundum quandam successionem. Et
+<lb ed="#L" n="38"/>propter hoc, ea quae seorsum " intelligimus, 
+opor<lb break="no" ed="#L" n="39"/>tet nos in unum redigere per modum 
+compositio<lb break="no" ed="#L" n="40"/>nis vel divisionis, enuntiationem formando. Sed
+<lb ed="#L" n="41"/>species intellectus divini, scilicet eius essentia,
+<lb ed="#L" n="42"/>sufficit ad demonstrandum omnia. Unde, 
+intelli<lb break="no" ed="#L" n="43"/>gendo essentiam suam, cognoscit essentias 
+om<lb break="no" ed="#L" n="44"/>nium, et quaecumque eis accidere possunt.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3673">
+                  <lb ed="#L" n="45"/>AD PRIMUM ERGO DICENDUM quod ratio illa 
+pro<lb break="no" ed="#L" n="46"/>cederet, si Deus cognosceret enuntiabilia per 
+mo<lb break="no" ed="#L" n="47"/>dum enuntiabilium.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3682">
+                  <lb ed="#L" n="48"/>AD SECUNDUM DICENDUM quod compositio 
+enun<lb break="no" ed="#L" n="49"/>tiabilis significat aliquod esse rei: et sic Deus per
+<lb ed="#L" n="50"/>suum esse, quod est eius essentia, est 
+similitu<lb break="no" ed="#L" n="51"/>do omnium eorum quae per enuntiabilia 
+signi<lb break="no" ed="#L" n="52"/>ficantur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e118-Dd1e3696"><!-- p1-q14-a15 -->
+               <head xml:id="TAca84-d1e118-Hd1e3699">Articulus 15</head>
+               <head xml:id="TAca84-d1e118-Hd1e3701" type="question-title">
+  utrum scientia dei sit variabilis
+</head>
+               <p xml:id="TAca84-d1e118-d1e3704">
+                  <pb ed="#L" n="198"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS DECIMUSQUINTUS
+<lb ed="#L" n="2"/>UTRUM SCIENTIA DEI SIT VARIABILIS
+</p>
+               <p xml:id="TAca84-d1e118-d1e3715">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD DECIMUMQUINTUM SIC PROCEDITUR. 
+Vi<lb break="no" ed="#L" n="4"/>detur quod scientia Dei sit variabilis.
+<lb ed="#L" n="5"/>Scientia enim relative dicitur ad 
+sci<lb break="no" ed="#L" n="6"/>bile. Sed ea quae important relationem
+<lb ed="#L" n="7"/>ad creaturam , dicuntur de Deo ex tempore, et
+<lb ed="#L" n="8"/>variantür secundum variationem creaturarum.
+<lb ed="#L" n="9"/>Ergo scientia Dei est variabilis, secundum 
+varia<lb break="no" ed="#L" n="10"/>tionem creaturarum.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3737">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, quidquid potest Deus facere,
+<lb ed="#L" n="12"/>potest scire. Sed Deus potest plura facere quam
+<lb ed="#L" n="13"/>faciat ^. Ergo potest plura scire quam sciat. Et
+<lb ed="#L" n="14"/>sic scientia sua potest variari secundum 
+augmen<lb break="no" ed="#L" n="15"/>tum et diminutionem.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3751">
+                  <lb ed="#L" n="16"/>3. PnaETEREA, Deus scivit Christum 
+nascitu<lb break="no" ed="#L" n="17"/>rum. Nunc autem nescit Christum nasciturum:
+<lb ed="#L" n="18"/>quia Christus nasciturus non est. Ergo non 
+quid<lb break="no" ed="#L" n="19"/>quid Deus scivit, scit. Et ita scientia Dei videtur
+<lb ed="#L" n="20"/>esse variabilis.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3764">
+                  <lb ed="#L" n="21"/>SED coNTRA EST quod dicitur Iac. 1, quod apud
+<lb ed="#L" n="22"/>Deum non est transmutatio , ares vicissitudinis
+<lb ed="#L" n="23"/>obumbratio.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3773">
+                  <lb ed="#L" n="24"/>RrsPoNpEO picENDUM quod, cum scientia Dei sit
+<lb ed="#L" n="25"/>eius substantia, ut ex dictis patet; sicut substantia
+<lb ed="#L" n="26"/>eius est omnino immutabilis, ut supra ostensum
+<lb ed="#L" n="27"/>est, ita oportet scientiam eius omnino 
+invaria<lb break="no" ed="#L" n="28"/>bilem esse.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3786">
+                  <lb ed="#L" n="29"/>Ap PRIMUM ERGO DICENDUM quod Dominus? et
+<lb ed="#L" n="30"/>Creator, et huiusmodi, important relationes ad
+<lb ed="#L" n="31"/>creaturas secundum quod in seipsis sunt. Sed
+<lb ed="#L" n="32"/>scientia Dei importat relationem ad creaturas 
+se<lb break="no" ed="#L" n="33"/>cundum quod sunt in Deo: quia secundum hoc
+<lb ed="#L" n="34"/>est unumquodque intellectum in actu, quod est
+<lb ed="#L" n="35"/>in intelligente. Res autem creatae sunt in Deo
+<lb ed="#L" n="36"/>invariabiliter, in seipsis autem variabiliter. - Vel
+<lb ed="#L" n="37"/>aliter dicendum est, quod Dominus et Creator, et
+<lb ed="#L" n="38"/>huiusmodi, important relationes quae 
+consequun<lb break="no" ed="#L" n="39"/>tur actus qui intelliguntur terminari ad ipsas 
+crea<lb break="no" ed="#L" n="40"/>turas secundum quod in seipsis sunt: et ideo
+<lb ed="#L" n="41"/>huiusmodi relationes varie de Deo dicuntur, 
+se<lb break="no" ed="#L" n="42"/>cundum variationem creaturarum. Sed scientia et
+<lb ed="#L" n="43"/>amor, et huiusmodi, important relationes quae
+<lb ed="#L" n="44"/>consequuntur actus qui intelliguntur " in Deo esse:
+<lb ed="#L" n="45"/>et ideo invariabiliter praedicantur de Deo.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3825">
+                  <lb ed="#L" n="46"/>AD SECUNDUM DICENDUM quod Deus scit etiam
+<lb ed="#L" n="47"/>ea quae potest facere et non facit. Unde ex hoc
+<lb ed="#L" n="48"/>quod potest plura facere quam facit, non sequitur
+<lb ed="#L" n="49"/>quod possit plura scire quam sciat, nisi hoc re--
+<lb ed="#L" n="50"/>feratur ad scientiam visionis, secundum quam
+<lb ed="#L" n="51"/>dicitur scire ea quae sunt in actu secundum 
+ali<lb break="no" ed="#L" n="52"/>quod tempus. Ex hoc tamen quod scit quod 
+ali<lb break="no" ed="#L" n="53"/>qua possunt esse quae non sunt, vel non esse ?
+<lb ed="#L" n="54"/>quae sunt, non sequitur quod scientia sua sit 
+va<lb break="no" ed="#L" n="55"/>riabilis: sed quod cognoscat rerum variabilitatem.
+<lb ed="#L" n="56"/>Si tamen aliquid esset quod ' prius Deus 
+nesci<lb break="no" ed="#L" n="57"/>visset et postea sciret, esset eius scientia variabilis.
+<lb ed="#L" n="58"/>Sed hoc esse non potest: quia quidquid est vel
+<lb ed="#L" n="59"/>potest esse secundum aliquod tempus, Deus in
+<lb ed="#L" n="60"/>aeterno suo scit. Et ideo ex hoc ipso quod 
+po<lb break="no" ed="#L" n="61"/>nitur aliquid esse secundum quodcumque tempus,
+<lb ed="#L" n="62"/>oportet poni quod ab aeterno sit scitum a Deo.
+<lb ed="#L" n="63"/>Et ideo non debet concedi quod Deus possit
+<lb ed="#L" n="64"/>plura scire quam sciat: quia haec propositio 
+im<lb break="no" ed="#L" n="65"/>plicat quod ante ? nesciverit et postea sciat.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3871">
+                  <lb ed="#L" n="66"/>AD TERTIUM DICENDUM quod antiqui Nominales ^
+<lb ed="#L" n="67"/>dixerunt idem esse enuntiabile, Christum nasci,
+<lb ed="#L" n="68"/>et esse nasciturum, et esse natum: quia eadem res
+<lb ed="#L" n="69"/>significatur per haec tria, scilicet nativitas Christi.
+<lb ed="#L" n="70"/>Et secundum hoc sequitur quod Deus quidquid
+<lb ed="#L" n="71"/>scivit, sciat: quia modo scit Christum natum, quod
+<lb ed="#L" n="72"/>significat idem ei quod est Christum esse 
+nasci<lb break="no" ed="#L" n="73"/>turum. - Sed haec opinio falsa est. Tum quia 
+di<lb break="no" ed="#L" n="74"/>versitas partium orationis diversitatem 
+enuntiabi<lb break="no" ed="#L" n="75"/>lium causat. Tum etiam quia sequeretur quod
+<lb ed="#L" n="76"/>propositio quae semel est vera, esset semper vera:
+<lb ed="#L" n="77"/>quod est contra Philosophum, qui dicit quod
+<lb ed="#L" n="78"/>haec oratio, Socrates sedet, vera est eo sedente,
+<lb ed="#L" n="79"/>et eadem falsa est, eo surgente. - Et ideo 
+conce<lb break="no" ed="#L" n="80"/>dendum est quod haec non est vera, quidquid Deus
+<lb ed="#L" n="81"/>scivit, scit, si ad enuntiabilia referatur. Sed ex
+<lb ed="#L" n="82"/>hoc non sequitur quod scientia Dei sit variabilis.
+<lb ed="#L" n="83"/>Sicut enim absque variatione divinae scientiae est,
+<lb ed="#L" n="84"/>quod sciat unam et eandem rem quandoque esse
+<lb ed="#L" n="85"/>et quandoque non esse; ita absque variatione 
+di<lb break="no" ed="#L" n="86"/>vinae scientiae est, quod scit aliquod enuntiabile
+<lb ed="#L" n="87"/>quandoque esse verum, et quandoque esse 
+fal<lb break="no" ed="#L" n="88"/>sum. Esset autem ex hoc scientia Dei variabilis,
+<lb ed="#L" n="89"/>si enuntiabilia cognosceret per modum 
+enuntiabi<lb break="no" ed="#L" n="90"/>lium, componendo et dividendo, sicut accidit in
+<lb ed="#L" n="91"/>intellectu nostro. Unde cognitio nostra variatur,
+<lb ed="#L" n="92"/>vel secundum veritatem et falsitatem, puta si, 
+mu<lb break="no" ed="#L" n="93"/>tata re, eandem opinionem de re illa retineamus:
+<lb ed="#L" n="94"/>vel secundum diversas opiniones, ut si primo 
+opi<lb break="no" ed="#L" n="95"/>nemur aliquem sedere, et postea opinemur eum
+<lb ed="#L" n="96"/>non sedere. Quorum neutrum potest esse in Deo.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e118-Dd1e3942"><!-- p1-q14-a16 -->
+               <head xml:id="TAca84-d1e118-Hd1e3945">Articulus 16</head>
+               <head xml:id="TAca84-d1e118-Hd1e3947" type="question-title">
+  utrum deus de rebus habeat scientiam speculativam
+</head>
+               <p xml:id="TAca84-d1e118-d1e3950">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="86"/>ARTICULUS DECIMUS SEXTUS
+<lb ed="#L" n="87"/>UTRUM DEUS DE REBUS HABEAT SCIENTIAM SPECULATIVAM
+</p>
+               <p xml:id="TAca84-d1e118-d1e3959">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="88"/>AD DECIMUMSEXTUM SIC PROCEDITUR. Videtur
+<lb ed="#L" n="89"/>quod Deus de rebus non habeat 
+scien<lb break="no" ed="#L" n="90"/>tiam speculativam. Scientia enim Dei
+<lb ed="#L" n="91"/>est causa rerum ^, ut supra ostensum
+<lb ed="#L" n="92"/>est. Sed scientia speculativa non est causa rerum
+<lb ed="#L" n="93"/>scitarum. Ergo scientia Dei non est speculativa.
+<lb ed="#L" n="94"/>2. PRAETEREA. Scientia speculativa est per 
+abs<lb break="no" ed="#L" n="95"/>tractionem a rebus: quod divinae scientiae non
+<lb ed="#L" n="96"/>competit. Ergo scientia Dei non est speculativa.
+<lb ed="#L" n="97"/>SED coNTRA, omne quod est nobilius, Deo est
+<lb ed="#L" n="98"/>attribuendum. Sed scientia speculativa est 
+nobi<lb break="no" ed="#L" n="99"/>lior quam practica, ut patet per Philosophum in
+<lb ed="#L" n="100"/>principio Metaphys. Ergo Deus habet de rebus
+<lb ed="#L" n="101"/>scientiam speculativam.
+</p>
+               <p xml:id="TAca84-d1e118-d1e3994">
+                  <lb ed="#L" n="102"/>RESPONDEO DICENDUM quod aliqua scientia est
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="103"/>speculativa tantum, aliqua practica tantum, 
+ali<lb break="no" ed="#L" n="104"/>qua vero secundum aliquid speculativa et 
+secun<lb break="no" ed="#L" n="105"/>dum aliquid practica. Ad cuius evidentiam, 
+scien<lb break="no" ed="#L" n="106"/>dum est quod aliqua scientia potest dici 
+specu<lb break="no" ed="#L" n="107"/>lativa tripliciter. Primo, ex parte rerum scitarum,
+<lb ed="#L" n="108"/>quae non sunt operabiles a sciente: sicut est "
+<lb ed="#L" n="109"/>scientia hominis de rebus naturalibus vel 
+divi<lb break="no" ed="#L" n="110"/>nis. Secundo, quantum ad modum sciendi: ut
+<lb ed="#L" n="111"/>puta si aedificator consideret domum definiendo
+<lb ed="#L" n="112"/>et dividendo et considerando .universalia 
+praedi<lb break="no" ed="#L" n="113"/>cata ipsius. Hoc siquidem est operabilia modo
+<lb ed="#L" n="114"/>speculativo considerare, et non secundum quod
+<lb ed="#L" n="115"/>operabilia sunt: operabile enim est aliquid per
+<lb ed="#L" n="116"/>applicationem formae ad materiam, non per 
+re<lb break="no" ed="#L" n="117"/>solutionem compositi in principia universalia for-
+<pb ed="#L" n="200"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>malia. Tertio, quantum ad finem: nam 
+ntelle<lb break="no" ed="#L" n="2"/>ctus practicus differt fine a. speculativo, sicut
+<lb ed="#L" n="3"/>dicitur in III de Anzma. Intellectus enim 
+practi<lb break="no" ed="#L" n="4"/>cus ordinatur ad finem operationis: finis autem
+<lb ed="#L" n="5"/>intellectus speculativi est consideratio veritatis.
+<lb ed="#L" n="6"/>Unde, si quis" aedificator consideret qualiter 
+pos<lb break="no" ed="#L" n="7"/>set fieri aliqua domus, non ordinans ad finem
+<lb ed="#L" n="8"/>operationis, sed ad cognoscendum tantum, erit,
+<lb ed="#L" n="9"/>quantum ad finem, speculativa consideratio, 
+ta<lb break="no" ed="#L" n="10"/>men de re operabili. — Scientia igitur quae est
+<lb ed="#L" n="11"/>speculativa ratione ipsius rei scitae, est 
+specu<lb break="no" ed="#L" n="12"/>lativa tantum. Quae vero speculativa est vel 
+se<lb break="no" ed="#L" n="13"/>cundum modum vel secundum finem ^, est 
+se<lb break="no" ed="#L" n="14"/>cundum quid speculativa et secundum quid 
+pra<lb break="no" ed="#L" n="15"/>ctica. Cum vero ordinatur ad finem operationis,
+<lb ed="#L" n="16"/>est simpliciter practica.
+</p>
+               <p xml:id="TAca84-d1e118-d1e4073">
+                  <lb ed="#L" n="17"/>Secundum hoc ergo, dicendum est quod Deus
+<lb ed="#L" n="18"/>de seipso habet scientiam speculativam tantum:
+<lb ed="#L" n="19"/>ipse enim operabilis non est. De omnibus vero
+<lb ed="#L" n="20"/>aliis habet scientiam et speculativam et practicam.
+<lb ed="#L" n="21"/>Speculativam quidem, quantum ad modum: 
+quid<lb break="no" ed="#L" n="22"/>quid enim in rebus nos speculative cognoscimus
+<lb ed="#L" n="23"/>definiendo et dividendo, hoc totum Deus multo
+<lb ed="#L" n="24"/>perfectius novit. Sed de his quae potest quidem
+<lb ed="#L" n="25"/>facere, sed secundum nullum tempus facit, non
+<lb ed="#L" n="26"/>habet practicam scientiam, secundum quod 
+pra<lb break="no" ed="#L" n="27"/>ctica scientia dicitur a fine. Sic autem habet 
+pra<lb break="no" ed="#L" n="28"/>cticam scientiam de his quae secundum aliquod
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="29"/>tempus facit. Mala vero, licet ab eo non sint
+<lb ed="#L" n="30"/>operabilia, tamen sub cognitione practica ipsius
+<lb ed="#L" n="31"/>cadunt, sicut et bona, inquantum permittit vel
+<lb ed="#L" n="32"/>impedit vel ordinat ea: sicut et aegritudines 
+ca<lb break="no" ed="#L" n="33"/>dunt sub practica scientia medici, inquantum per
+<lb ed="#L" n="34"/>artem suam curat eas.
+</p>
+               <p xml:id="TAca84-d1e118-d1e4117">
+                  <lb ed="#L" n="35"/>AD PRIMUM ERGO DICENDUM quod scientia Dei
+<lb ed="#L" n="36"/>est causa, non quidem sui ipsius, sed aliorum:
+<lb ed="#L" n="37"/>quorundam quidem actu, scilicet eorum quae 
+se<lb break="no" ed="#L" n="38"/>cundum aliquod tempus fiunt; quorundam vero
+<lb ed="#L" n="39"/>virtute, scilicet eorum quae potest facere, et 
+ta<lb break="no" ed="#L" n="40"/>men nunquam fiunt.
+</p>
+               <p xml:id="TAca84-d1e118-d1e4133">
+                  <lb ed="#L" n="41"/>ÀD SECUNDUM DICENDUM quod scientiam esse 
+ac<lb break="no" ed="#L" n="42"/>ceptam a rebus scitis, non per se convenit 
+scien<lb break="no" ed="#L" n="43"/>tiae speculativae, sed per accidens, inquantum est
+<lb ed="#L" n="44"/>humana.
+</p>
+               <p xml:id="TAca84-d1e118-d1e4144">
+                  <lb ed="#L" n="45"/>Ad id vero quod in contrarium obiicitur, 
+di<lb break="no" ed="#L" n="46"/>cendum quod de operabilibus perfecta scientia
+<lb ed="#L" n="47"/>non habetur, nisi sciantur inquantum operabilia
+<lb ed="#L" n="48"/>sunt. Et ideo, cum scientia Dei sit omnibus modis
+<lb ed="#L" n="49"/>perfecta, oportet quod sciat ea quae sunt a se
+<lb ed="#L" n="50"/>operabilia, inquantum huiusmodi, et non solum
+<lb ed="#L" n="51"/>secundum quod sunt speculabilia. Sed tamen
+<lb ed="#L" n="52"/>non receditur a nobilitate speculativae scientiae:
+<lb ed="#L" n="53"/>quia omnia alia a se videt in seipso, seipsum
+<lb ed="#L" n="54"/>autem speculative cognoscit; et sic in speculativa
+<lb ed="#L" n="55"/>sui ipsius scientia, habet cognitionem et 
+specula<lb break="no" ed="#L" n="56"/>tivam et practicam omnium aliorum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

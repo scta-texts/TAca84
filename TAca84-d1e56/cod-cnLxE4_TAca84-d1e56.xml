@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="27"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e56"><!-- p1-q2 -->
+            <head xml:id="TAca84-d1e56-Hd1e99">Quaestio 2</head>
+            <head xml:id="TAca84-d1e56-Hd1e101" type="question-title">de deo, an deus sit</head>
+            <p xml:id="TAca84-d1e56-d1e104">
+               <pb ed="#L" n="27"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO SECUNDA
+<lb ed="#L" n="2"/>DE DEO, AN DEUS SIT
+<lb ed="#L" n="3"/>IN TRES ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e56-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>QUIA igitur principalis intentio huius sacrae
+<lb ed="#L" n="5"/>doctrinae est Dei cognitionem tradere, et
+<lb ed="#L" n="6"/>non solum secundum quod in se est, sed etiam
+<lb ed="#L" n="7"/>secundum quod est principium rerum et finis 
+ea<lb break="no" ed="#L" n="8"/>rum, et specialiter rationalis creaturae, ut ex dictis
+<lb ed="#L" n="9"/>est manifestum; ad huius doctrinae 
+expositio<lb break="no" ed="#L" n="10"/>nem intendentes, primo tractabimus de Deo; 
+se<lb break="no" ed="#L" n="11"/>cundo, de motu rationalis creaturae in Deum;
+<lb ed="#L" n="12"/>tertio, de Christo, qui, secundum quod homo ",
+<lb ed="#L" n="13"/>via est nobis tendendi in Deum.
+</p>
+            <p xml:id="TAca84-d1e56-d1e143">
+               <lb ed="#L" n="14"/>Consideratio autem de Deo tripartita erit. 
+Pri<lb break="no" ed="#L" n="15"/>mo namque considerabimus ea quae ad 
+essen<lb break="no" ed="#L" n="16"/>tiam divinam pertinent ?; secundo, ea quae per-
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="17"/>tinent ad distinctionem Personarum; tertio, ea
+<lb ed="#L" n="18"/>quae pertinent ad processum creaturarum ab
+<lb ed="#L" n="19"/>ipso.
+</p>
+            <p xml:id="TAca84-d1e56-d1e162">
+               <lb ed="#L" n="20"/>Circa essentiam vero divinam, primo 
+conside<lb break="no" ed="#L" n="21"/>randum est an Deus sit; secundo, quomodo sit,
+<lb ed="#L" n="22"/>vel potius quomodo non sit; tertio 
+consideran<lb break="no" ed="#L" n="23"/>dum erit de his quae ad operationem ipsius
+<lb ed="#L" n="24"/>pertinent, scilicet de scientia et de voluntate et
+<lb ed="#L" n="25"/>potentia.
+</p>
+            <p xml:id="TAca84-d1e56-d1e178">
+               <lb ed="#L" n="26"/>Circa primum quaeruntur tria.
+<lb ed="#L" n="27"/>Primo: utrum Deum esse sit per se notum.
+<lb ed="#L" n="28"/>Secundo: utrum sit demonstrabile.
+<lb ed="#L" n="29"/>Tertio: an Deus sit. 
+</p>
+            <div xml:id="TAca84-d1e56-Dd1e189"><!-- p1-q2-a1 -->
+               <head xml:id="TAca84-d1e56-Hd1e192">Articulus 1</head>
+               <head xml:id="TAca84-d1e56-Hd1e194" type="question-title">utrum deum esse sit per se notum</head>
+               <p xml:id="TAca84-d1e56-d1e197">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="30"/>ARTICULUS Primus
+<lb ed="#L" n="31"/>UTRUM DEUM ESSE SIT PER SE NOTUM
+</p>
+               <p xml:id="TAca84-d1e56-d1e206">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="32"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="33"/>Deum esse sit per se notum. Illa enim
+<lb ed="#L" n="34"/>à nobis dicuntur per se nota, quorum
+<lb ed="#L" n="35"/>xcognitio nobis naturaliter inest, sicut 
+pa<lb break="no" ed="#L" n="36"/>tet de primis principiis. Sed, sicut dicit 
+Damasce<lb break="no" ed="#L" n="37"/>nus in principio libri sui, omnibus cognitio 
+exi<lb break="no" ed="#L" n="38"/>stendi Deum naturaliter est inserta. Ergo Deum
+<lb ed="#L" n="39"/>esse est per se notum.
+</p>
+               <p xml:id="TAca84-d1e56-d1e228">
+                  <lb ed="#L" n="40"/>2. PRAETEREA, illa dicuntur esse per se " nota,
+<lb ed="#L" n="41"/>quae statim, cognitis terminis, cognoscuntur: quod
+<lb ed="#L" n="42"/>Philosophus attribuit primis demonstrationis " 
+prin<lb break="no" ed="#L" n="43"/>cipiis, in I Poster.: scito enim quid est totum
+<lb ed="#L" n="44"/>et quid pars', statim scitur quod omne totum
+<lb ed="#L" n="45"/>maius est sua parte. Sed intellecto quid 
+signi<lb break="no" ed="#L" n="46"/>ficet hoc nomen Deus, statim habetur quod
+<lb ed="#L" n="47"/>Deus est. Significatur enim hoc nomine id quo ?
+<lb ed="#L" n="48"/>maius significari non potest: maius autem est
+<lb ed="#L" n="49"/>quod est in re et intellectu, quam quod est in 
+in<lb break="no" ed="#L" n="50"/>tellectu tantum: unde cum, intellecto hoc nomine
+<lb ed="#L" n="51"/>Deus, statim sit in intellectu, sequitur etiam quod
+<lb ed="#L" n="52"/>sit in re. Ergo Deum esse est per se notum.
+</p>
+               <p xml:id="TAca84-d1e56-d1e260">
+                  <lb ed="#L" n="53"/>3. PRAETEREA, veritatem esse est per se 
+no<lb break="no" ed="#L" n="54"/>tum: quia qui negat veritatem esse, concedit 
+ve<lb break="no" ed="#L" n="55"/>ritatem esse : si enim veritas non est, verum est.
+<lb ed="#L" n="56"/>veritatem non esse. Si autem est aliquid verum,
+<lb ed="#L" n="57"/>oportet quod veritas sit. Deus autem est ipsa
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="58"/>veritas, Ioann. xiv : Ego sum via, veritas et vita.
+<lb ed="#L" n="59"/>Ergo Deum esse est per se notum.
+</p>
+               <p xml:id="TAca84-d1e56-d1e280">
+                  <lb ed="#L" n="60"/>SED CONTRA, nullus potest cogitare " oppositum
+<lb ed="#L" n="61"/>eius quod est per se notum, ut patet per 
+Phi<lb break="no" ed="#L" n="62"/>losophum, in IV Metaphys. et I Poster., circa
+<lb ed="#L" n="63"/>prima demonstrationis principia. Cogitari autem
+<lb ed="#L" n="64"/>potest oppositum eius quod est Deum esse, 
+se<lb break="no" ed="#L" n="65"/>cundum illud Psalmi ti: Dixit insipiens in corde
+<lb ed="#L" n="66"/>suo, non est Deus. Ergo Deum esse non est per
+<lb ed="#L" n="67"/>se notum.
+</p>
+               <p xml:id="TAca84-d1e56-d1e300">
+                  <lb ed="#L" n="68"/>RESPONDEO DICENDUM quod contingit aliquid esse
+<lb ed="#L" n="69"/>per se notum dupliciter: uno modo, secundum
+<lb ed="#L" n="70"/>se et non quoad nos; alio modo, secundum se
+<lb ed="#L" n="71"/>et quoad nos. Ex hoc enim aliqua propositio est
+<lb ed="#L" n="72"/>per se nota, quod praedicatum includitur in 
+ra<lb break="no" ed="#L" n="73"/>tione subiecti, ut Aomo est animal: nam animal
+<lb ed="#L" n="74"/>est de ratione hominis. Si igitur notum sit 
+omni<lb break="no" ed="#L" n="75"/>bus de" praedicato et de subiecto quid sit, 
+pro<lb break="no" ed="#L" n="76"/>positio illa erit omnibus per se nota: sicut patet
+<lb ed="#L" n="77"/>in primis demonstrationum principiis, quorum
+<lb ed="#L" n="78"/>termini sunt quaedam communia quae nullus
+<lb ed="#L" n="79"/>ignorat, ut ens et non ens, totum et pars, et 
+si<lb break="no" ed="#L" n="80"/>milia. Si autem apud aliquos notum non sit de
+<lb ed="#L" n="81"/>praedicato et subiecto quid sit, propositio quidem
+<lb ed="#L" n="82"/>quantum in se est, erit per se nota: non tamen
+<lb ed="#L" n="83"/>apud illos qui praedicatum et subiectum propo-
+</p>
+               <p xml:id="TAca84-d1e56-d1e337">
+                  <pb ed="#L" n="28"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sitionis ignorant. Et ideo contingit, ut dicit 
+Boe<lb break="no" ed="#L" n="2"/>tius in libro de Hebdomadibus, quod quaedam
+<lb ed="#L" n="3"/>sunt communes animi conceptiones et per se
+<lb ed="#L" n="4"/>notae, apud sapientes tantum, ut incorporalia in
+<lb ed="#L" n="5"/>loco non esse.
+</p>
+               <p xml:id="TAca84-d1e56-d1e355">
+                  <lb ed="#L" n="6"/>Dico ergo quod haec propositio, Deus est, 
+quan<lb break="no" ed="#L" n="7"/>tum im se est, per se nota est: quia praedicatum
+<lb ed="#L" n="8"/>est idem cum subiecto; Deus enim est suum
+<lb ed="#L" n="9"/>esse, ut infra patebit. Sed quia nos non scimus
+<lb ed="#L" n="10"/>de Deo quid est, non est nobis per se nota: sed
+<lb ed="#L" n="11"/>indiget demonstrari per ea quae sunt magis nota
+<lb ed="#L" n="12"/>quoad nos, et minus nota quoad naturam ", 
+sci<lb break="no" ed="#L" n="13"/>licet per effectus.
+</p>
+               <p xml:id="TAca84-d1e56-d1e375">
+                  <lb ed="#L" n="14"/>AD PRIMUM ERGO DICENDUM quod cognoscere
+<lb ed="#L" n="15"/>Deum esse in aliquo communi, sub quadam 
+con<lb break="no" ed="#L" n="16"/>fusione, est nobis naturaliter insertum, inquantum
+<lb ed="#L" n="17"/>scilicet Deus est hominis beatitudo: homo enim
+<lb ed="#L" n="18"/>naturaliter desiderat beatitudinem, et quod 
+na<lb break="no" ed="#L" n="19"/>turaliter desideratur ab homine, naturaliter 
+co<lb break="no" ed="#L" n="20"/>gnoscitur ab eodem. Sed hoc non est simpliciter
+<lb ed="#L" n="21"/>cognoscere Deum esse; sicut cognoscere venien-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="22"/>tem, non est cognoscere Petrüm, quamvis sit
+<lb ed="#L" n="23"/>Petrus veniens: multi enim perfectum hominis
+<lb ed="#L" n="24"/>bonum, quod est beatitudo, existimant divitias ;
+<lb ed="#L" n="25"/>quidam vero voluptates; quidam autem aliquid
+<lb ed="#L" n="26"/>aliud.
+</p>
+               <p xml:id="TAca84-d1e56-d1e409">
+                  <lb ed="#L" n="27"/>AD SECUNDUM DICENDUM quod forte ille qui audit
+<lb ed="#L" n="28"/>hoc nomen Deus, non intelligit significari aliquid
+<lb ed="#L" n="29"/>quo maius cogitari non possit, cum quidam
+<lb ed="#L" n="30"/>erediderint Deum esse corpus. Dato etiam ^^ quod
+<lb ed="#L" n="31"/>quilibet intelligat hoc nomine Deus significari hoc
+<lb ed="#L" n="32"/>quod dicitur, scilicet illud quo maius cogitari non
+<lb ed="#L" n="33"/>potest; non tamen propter hoc sequitur quod
+<lb ed="#L" n="34"/>intelligat id quod significatur per nomen, esse ??
+<lb ed="#L" n="35"/>in rerum natura; sed in apprehensione intellectus
+<lb ed="#L" n="36"/>tantum. Nec potest argui quod sit ? in re, nisi
+<lb ed="#L" n="37"/>daretur quod sit in re aliquid quo maius cogitari
+<lb ed="#L" n="38"/>non potest: quod non est datum a ponentibus
+<lb ed="#L" n="39"/>Deum non esse.
+</p>
+               <p xml:id="TAca84-d1e56-d1e440">
+                  <lb ed="#L" n="40"/>AD TERTIUM DICENDUM quod veritatem esse in
+<lb ed="#L" n="41"/>communi, est per se notum: sed primam 
+verita<lb break="no" ed="#L" n="42"/>tem esse, hoc' non est per se notum quoad nos.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e56-Dd1e450"><!-- p1-q2-a2 -->
+               <head xml:id="TAca84-d1e56-Hd1e453">Articulus 2</head>
+               <head xml:id="TAca84-d1e56-Hd1e455" type="question-title">utrum deum esse sit demonstrabile</head>
+               <p xml:id="TAca84-d1e56-d1e458">
+                  <pb ed="#L" n="30"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM DEUM ESSE SIT DEMONSTRABILE
+</p>
+               <p xml:id="TAca84-d1e56-d1e469">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>Deum esse non sit demonstrabile. Deum
+<lb ed="#L" n="5"/>enim esse est articulus fidei. Sed ea
+<lb ed="#L" n="6"/>quae sunt fidei, non sunt 
+demonstra<lb break="no" ed="#L" n="7"/>bilia: quia demonstratio facit scire, fides autem
+<lb ed="#L" n="8"/>de non apparentibus est, ut patet per Apostolum,
+<lb ed="#L" n="9"/>ad Hebr. xi. Ergo Deum esse non est 
+demon<lb break="no" ed="#L" n="10"/>strabile.
+</p>
+               <p xml:id="TAca84-d1e56-d1e491">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, medium demonstrationis est quod
+<lb ed="#L" n="12"/>quid est. Sed de Deo non possumus scire quid
+<lb ed="#L" n="13"/>est, sed solum quid non est, ut dicit Damascenus.
+<lb ed="#L" n="14"/>Ergo non possumus demonstrare Deum esse.
+</p>
+               <p xml:id="TAca84-d1e56-d1e503">
+                  <lb ed="#L" n="15"/>3. PRAETEREA, si demonstraretur Deum esse, hoc
+<lb ed="#L" n="16"/>non esset nisi ex effectibus eius. Sed effectus eius
+<lb ed="#L" n="17"/>non sunt proportionati ei: cum ipse sit infinitus,
+<lb ed="#L" n="18"/>et effectus finiti; finiti autem ad infinitum non
+<lb ed="#L" n="19"/>est proportio. Cum ergo causa non possit 
+demon<lb break="no" ed="#L" n="20"/>strari per effectum sibi non proportionatum, 
+vi<lb break="no" ed="#L" n="21"/>detur quod Deum esse non possit demonstrari.
+</p>
+               <p xml:id="TAca84-d1e56-d1e521">
+                  <lb ed="#L" n="22"/>SEp coNTRA EsT quod Apostolus dicit, ad Rom.
+<lb ed="#L" n="23"/>I: invisibilia Dei per ea quae facta sunt, 
+intel<lb break="no" ed="#L" n="24"/>lecta, conspiciuntur. Sed hoc non esset, nisi per
+<lb ed="#L" n="25"/>ea quae facta sunt, posset demonstrari Deum
+<lb ed="#L" n="26"/>esse: primum enim quod oportet intelligi de 
+ali<lb break="no" ed="#L" n="27"/>quo, est an sit.
+</p>
+               <p xml:id="TAca84-d1e56-d1e537">
+                  <lb ed="#L" n="28"/>RESPONDEO DICENDUM quod duplex est 
+demon<lb break="no" ed="#L" n="29"/>stratio. Una quae est per causam, et dicitur 
+pro<lb break="no" ed="#L" n="30"/>pler quid: et haec est per priora ? simpliciter. Alia
+<lb ed="#L" n="31"/>est per effectum, et dicitur demonstratio quia: et
+<lb ed="#L" n="32"/>haec est.per ea quae sunt priora quoad nos:
+<lb ed="#L" n="33"/>cum enim effectus aliquis nobis est manifestior
+<lb ed="#L" n="34"/>quam sua causa, per effectum procedimus ad
+<lb ed="#L" n="35"/>cognitionem causae ?. Ex quolibet autem effectu
+<lb ed="#L" n="36"/>potest demonstrari propriam causam eius ? esse
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="37"/>(si tamen eius effectus sint magis noti quoad nos):
+<lb ed="#L" n="38"/>quia, cum effectus dependeant a causa, posito
+<lb ed="#L" n="39"/>effectu necesse est causam praeexistere. Unde
+<lb ed="#L" n="40"/>Deum esse, secundum quod non est per 'se 
+no<lb break="no" ed="#L" n="41"/>tum quoad nos, demonstrabile est per effectus
+<lb ed="#L" n="42"/>nobis notos.
+</p>
+               <p xml:id="TAca84-d1e56-d1e574">
+                  <lb ed="#L" n="43"/>AD PRIMUM ERGO DICENDUM quod Deum esse, et
+<lb ed="#L" n="44"/>alia huiusmodi quae per rationem naturalem nota
+<lb ed="#L" n="45"/>possunt esse de Deo, ut dicitur Rom. 1, non sunt
+<lb ed="#L" n="46"/>articuli fidei, sed praeambula ad articulos: sic
+<lb ed="#L" n="47"/>enim fides praesupponit cognitionem naturalem,
+<lb ed="#L" n="48"/>sicut gratia naturam, et ut perfectio perfectibile.
+<lb ed="#L" n="49"/>Nihil tamen prohibet illud quod secundum se
+<lb ed="#L" n="50"/>demonstrabile est et scibile, ab aliquo accipi ut
+<lb ed="#L" n="51"/>credibile, qui demonstrationem non capit.
+</p>
+               <p xml:id="TAca84-d1e56-d1e596">
+                  <lb ed="#L" n="52"/>AD SECUNDUM DICENDUM quod cum demonstratur
+<lb ed="#L" n="53"/>causa per effectum, necesse est uti effectu loco
+<lb ed="#L" n="54"/>definitionis causae, ad probandum causam esse:
+<lb ed="#L" n="55"/>et hoc maxime contingit in Deo. Quia ad 
+proban<lb break="no" ed="#L" n="56"/>dum aliquid esse, necesse est accipere pro medio
+<lb ed="#L" n="57"/>quid significet nomen, non autem quod quid est:
+<lb ed="#L" n="58"/>quia quaestio quid est, sequitur ad quaestionem
+<lb ed="#L" n="59"/>an est, Nomina autem Dei imponuntur ab
+<lb ed="#L" n="60"/>effectibus, ut postea ostendetur: unde, 
+demon<lb break="no" ed="#L" n="61"/>strando Deum esse per effectum, accipere 
+possu<lb break="no" ed="#L" n="62"/>mus pro medio quid significet hoc nomen Deus.
+</p>
+               <p xml:id="TAca84-d1e56-d1e622">
+                  <lb ed="#L" n="63"/>AD TERTIUM DICENDUM quod per effectus non
+<lb ed="#L" n="64"/>proportionatos causae, non potest perfecta 
+co<lb break="no" ed="#L" n="65"/>gnitio de causa haberi: sed tamen ex 
+quocum<lb break="no" ed="#L" n="66"/>que effectu potest manifeste nobis " demonstrari
+<lb ed="#L" n="67"/>causam esse, ut dictum est,. Et sic ex effectibus
+<lb ed="#L" n="68"/>Dei potest demonstrari Deum esse: licet per eos
+<lb ed="#L" n="69"/>non perfecte possimus eum cognoscere 
+secun<lb break="no" ed="#L" n="70"/>dum suam essentiam.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e56-Dd1e643"><!-- p1-q2-a3 -->
+               <head xml:id="TAca84-d1e56-Hd1e646">Articulus 3</head>
+               <head xml:id="TAca84-d1e56-Hd1e648" type="question-title">utrum deus sit</head>
+               <p xml:id="TAca84-d1e56-d1e651">
+                  <pb ed="#L" n="31"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM DEUS SIT
+</p>
+               <p xml:id="TAca84-d1e56-d1e662">
+                  <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>Deus non sit. Quia si unum 
+contrario<lb break="no" ed="#L" n="5"/>rum fuerit infinitum, totaliter destruetur
+<lb ed="#L" n="6"/>aliud. Sed hoc intelligitur in hoc 
+no<lb break="no" ed="#L" n="7"/>mine Deus, scilicet quod sit quoddam bonum
+<lb ed="#L" n="8"/>infinitum. Si ergo Deus esset, nullum malum 
+in<lb break="no" ed="#L" n="9"/>veniretur. Invenitur autem malum in mundo.
+<lb ed="#L" n="10"/>Ergo Deus non est.
+</p>
+               <p xml:id="TAca84-d1e56-d1e682">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, quod potest compleri per 
+pau<lb break="no" ed="#L" n="12"/>ciora principia, non fit per plura. Sed videtur
+<lb ed="#L" n="13"/>quod omnia quae apparent in mundo, possunt
+<lb ed="#L" n="14"/>compleri per alia principia, supposito quod Deus
+<lb ed="#L" n="15"/>non sit: quia ea quae sunt naturalia, reducuntur
+<lb ed="#L" n="16"/>in principium quod est natura; ea vero quae
+<lb ed="#L" n="17"/>sunt a proposito, reducuntur in principium quod
+<lb ed="#L" n="18"/>est ratio humana vel voluntas. Nulla igitur 
+ne<lb break="no" ed="#L" n="19"/>cessitas est ponere Deum esse.
+</p>
+               <p xml:id="TAca84-d1e56-d1e705">
+                  <lb ed="#L" n="20"/>SED coNTRA EsT quod dicitur Exodi i1, ex 
+per<lb break="no" ed="#L" n="21"/>sona Dei: Ego sum qui sum.
+</p>
+               <p xml:id="TAca84-d1e56-d1e712">
+                  <lb ed="#L" n="22"/>ResPONDEO DicENDUM quod Deum esse quinque
+<lb ed="#L" n="23"/>viis probari potest. Prima autem " et manifestior
+<lb ed="#L" n="24"/>. via est, quae sumitur ex parte motus. Certum est
+<lb ed="#L" n="25"/>enim, et sensu constat, aliqua moveri in hoc
+<lb ed="#L" n="26"/>mundo. Omne autem quod movetur, ab alio 
+mo<lb break="no" ed="#L" n="27"/>vetur. Nihil enim movetur, nisi secundum quod
+<lb ed="#L" n="28"/>est in potentia ad illud ad quod movetur: movet
+<lb ed="#L" n="29"/>autem aliquid secundum quod est actu. Movere
+<lb ed="#L" n="30"/>enim nihil aliud est quam educere aliquid de 
+po<lb break="no" ed="#L" n="31"/>tentia in actum: de potentia autem non potest
+<lb ed="#L" n="32"/>aliquid reduci in actum, nisi per aliquod ens in
+<lb ed="#L" n="33"/>actu ?: sicut calidum in actu, ut ignis, facit lignum,
+<lb ed="#L" n="34"/>quod est calidum in potentia, esse actu calidum,
+<lb ed="#L" n="35"/>et per hoc movet et alterat ipsum. Non autem
+<lb ed="#L" n="36"/>est possibile ut idem sit simul in actu et potentia
+<lb ed="#L" n="37"/>secundum idem, sed solum secundum diversa:
+<lb ed="#L" n="38"/>quod enim est calidum in actu, non potest simul
+<lb ed="#L" n="39"/>esse calidum in potentia, sed est simul frigidum
+<lb ed="#L" n="40"/>in potentia. Impossibile est ergo quod, secundum "
+<lb ed="#L" n="41"/>idem et eodem modo, aliquid sit movens et 
+mo<lb break="no" ed="#L" n="42"/>tum, vel quod moveat seipsum. Omne ergo quod
+<lb ed="#L" n="43"/>movetur, oportet ab alio moveri. Si ergo id a quo
+<lb ed="#L" n="44"/>movetur, moveatur, oportet et ipsum ab alio 
+mo<lb break="no" ed="#L" n="45"/>veri^; et illud ab alio. Hic autem non est 
+proce<lb break="no" ed="#L" n="46"/>dere in infinitum: quia sic non esset aliquod
+<lb ed="#L" n="47"/>primum movens; et per consequens nec aliquod
+<lb ed="#L" n="48"/>aliud. movens, quia moventia secunda non 
+mo<lb break="no" ed="#L" n="49"/>vent nisi per hoc quod sunt mota a primo mo-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="50"/>vente, sicut baculus non movet nisi per hoc quod
+<lb ed="#L" n="51"/>est motus a manu. Ergo necesse est devenire ad
+<lb ed="#L" n="52"/>aliquod primum movens, quod a nullo 
+move<lb break="no" ed="#L" n="53"/>tur: et hoc omnes intelligunt Deum.
+</p>
+               <p xml:id="TAca84-d1e56-d1e786">
+                  <lb ed="#L" n="54"/>Secunda via est ex ratione causae efficientis.
+<lb ed="#L" n="55"/>Invenimus enim in istis sensibilibus esse 
+ordi<lb break="no" ed="#L" n="56"/>nem causarum efficientium: nec tamen invenitur,
+<lb ed="#L" n="57"/>nec est possibile, quod aliquid sit causa efficiens
+<lb ed="#L" n="58"/>sui ipsius; quia sic esset prius seipso, quod est
+<lb ed="#L" n="59"/>impossibile. Non autem est possibile quod in
+<lb ed="#L" n="60"/>causis efficientibus procedatur in infinitum. Quia
+<lb ed="#L" n="61"/>in omnibus causis efficientibus ordinatis, primum
+<lb ed="#L" n="62"/>est causa medii, et medium est causa ultimi, sive
+<lb ed="#L" n="63"/>media sint plura sive unum tantum: remota
+<lb ed="#L" n="64"/>autem causa, removetur effectus: ergo, si non
+<lb ed="#L" n="65"/>fuerit primum in causis efficientibus, non erit
+<lb ed="#L" n="66"/>ultimum nec medium. Sed si procedatur in 
+infi<lb break="no" ed="#L" n="67"/>nitum in causis efficientibus, non erit prima causa
+<lb ed="#L" n="68"/>efficiens: et sic non erit nec effectus ultimus,
+<lb ed="#L" n="69"/>nec causae efficientes mediae: quod patet esse
+<lb ed="#L" n="70"/>falsum. Ergo est necesse? ponere aliquam 
+cau<lb break="no" ed="#L" n="71"/>sam efficientem primam: quam omnes Deum
+<lb ed="#L" n="72"/>nominant.
+</p>
+               <p xml:id="TAca84-d1e56-d1e830">
+                  <lb ed="#L" n="73"/>Tertia via est sumpta ex possibili et 
+necessa<lb break="no" ed="#L" n="74"/>rio: quae talis est. Invenimus enim in rebus 
+quae<lb break="no" ed="#L" n="75"/>dam quae sunt possibilia esse et non esse: cum
+<lb ed="#L" n="76"/>quaedam inveniantur generari et corrumpi, et
+<lb ed="#L" n="77"/>per consequens possibilia esse et non esse. 
+Im<lb break="no" ed="#L" n="78"/>possibile est autem omnia quae sunt talia, 
+sem<lb break="no" ed="#L" n="79"/>per ' esse: quia quod possibile est non esse, 
+quan<lb break="no" ed="#L" n="80"/>doque non est. Si igitur omnia sunt possibilia
+<lb ed="#L" n="81"/>non esse, aliquando nihil fuit in rebus. Sed si
+<lb ed="#L" n="82"/>hoc est verum, etiam nunc nihil esset: quia quod
+<lb ed="#L" n="83"/>non est, non incipit esse nisi per aliquid quod
+<lb ed="#L" n="84"/>est; si igitur nihil fuit ens, impossibile fuit quod
+<lb ed="#L" n="85"/>aliquid inciperet esse, et sic modo nihil esset: quod
+<lb ed="#L" n="86"/>patet esse falsum. Non ergo omnia entia sunt
+<lb ed="#L" n="87"/>possibilia: sed oportet aliquid esse necessarium
+<lb ed="#L" n="88"/>in rebus. Omne autem necessarium vel habet
+<lb ed="#L" n="89"/>causam suae necessitatis aliunde, vel non habet.
+<lb ed="#L" n="90"/>Non est autem possibile quod procedatur in 
+in<lb break="no" ed="#L" n="91"/>finitum in necessarüs quae habent causam suae
+<lb ed="#L" n="92"/>necessitatis sicut nec in causis efficientibus, ut
+<lb ed="#L" n="93"/>probatum est. Ergo necesse est ponere aliquid
+<lb ed="#L" n="94"/>quod sit per se necessarium, non habens causam
+<lb ed="#L" n="95"/>necessitatis aliunde, sed quod est causa 
+necessi<lb break="no" ed="#L" n="96"/>tatis aliis: quod omnes dicunt Deum.
+</p>
+               <p xml:id="TAca84-d1e56-d1e885">
+                  <pb ed="#L" n="32"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Quarta via sumitur ex gradibus qui in rebus
+<lb ed="#L" n="2"/>inveniuntur. Invenitur enim in rebus aliquid magis
+<lb ed="#L" n="3"/>et minus bonum, et verum, et nobile: et sic de
+<lb ed="#L" n="4"/>aliis huiusmodi. - Sed magis et minus dicuntur de
+<lb ed="#L" n="5"/>diversis secundum quod appropinquant 
+diversi<lb break="no" ed="#L" n="6"/>mode ad aliquid quod maxime est: sicut magis
+<lb ed="#L" n="7"/>calidum est, quod magis appropinquat maxime
+<lb ed="#L" n="8"/>calido. Est igitur aliquid quod est verissimum,
+<lb ed="#L" n="9"/>et optimum, et nobilissimum, et per consequens
+<lb ed="#L" n="10"/>maxime ens: nam quae sunt maxime vera, sunt
+<lb ed="#L" n="11"/>maxime entia, ut dicitur II Metaphys. Quod
+<lb ed="#L" n="12"/>autem dicitur maxime tale in aliquo genere, est
+<lb ed="#L" n="13"/>causa omnium quae sunt illius generis: sicut
+<lb ed="#L" n="14"/>ignis, qui est maxime calidus, est causa omnium
+<lb ed="#L" n="15"/>calidorum, ut in eodem libro dicitur. Ergo est
+<lb ed="#L" n="16"/>aliquid quod omnibus entibus " est causa esse,
+<lb ed="#L" n="17"/>et bonitatis, et cuiuslibet perfectionis: et hoc 
+di<lb break="no" ed="#L" n="18"/>cimus Deum.
+</p>
+               <p xml:id="TAca84-d1e56-d1e931">
+                  <lb ed="#L" n="19"/>Quinta via sumitur ex gubernatione rerum.
+<lb ed="#L" n="20"/>Videmus enim quod aliqua quae cognitione 
+ca<lb break="no" ed="#L" n="21"/>rent, scilicet corpora naturalia, operantur propter
+<lb ed="#L" n="22"/>finem: quod apparet ex hoc quod semper aut
+<lb ed="#L" n="23"/>frequentius eodem modo operantur, ut 
+conse<lb break="no" ed="#L" n="24"/>quantur id quod est optimum ; unde patet quod
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="25"/>non a casu, sed ex intentione perveniunt ad finem.
+<lb ed="#L" n="26"/>Ea autem quae non habent cognitionem, non 
+ten<lb break="no" ed="#L" n="27"/>dunt in finem nisi directa ab aliquo cognoscente
+<lb ed="#L" n="28"/>et intelligente, sicut sagitta a sagittante. Ergo
+<lb ed="#L" n="29"/>est aliquid intelligens, a quo omnes res naturales
+<lb ed="#L" n="30"/>ordinantur ad finem: et hoc dicimus Deum.
+</p>
+               <p xml:id="TAca84-d1e56-d1e963">
+                  <lb ed="#L" n="31"/>AD PRIMUM ERGO DICENDUM quod, sicut dicit <ref xml:id="TAca84-d1e56-Rd1e967">
+Au<lb break="no" ed="#L" n="32"/>gustinus in Enchiridio</ref>: <quote xml:id="TAca84-d1e56-Qd1e972" source="http://scta.info/resource/augen-d1e64-d1e129@38-63">Deus, cum sit summe
+<lb ed="#L" n="33"/>bonus, nullo modo sineret aliquid mali esse in
+<lb ed="#L" n="34"/>operibus suis, nisi esset adeo omnipotens et bonus,
+<lb ed="#L" n="35"/>ut bene faceret etiam de malo</quote>. Hoc ergo ad 
+in<lb break="no" ed="#L" n="36"/>finitam Dei bonitatem pertinet, ut esse permittat
+<lb ed="#L" n="37"/>mala, et ex eis eliciat bona.
+</p>
+               <p xml:id="TAca84-d1e56-d1e986">
+                  <lb ed="#L" n="38"/>AD SECUNDUM DICENDUM quod, cum natura 
+pro<lb break="no" ed="#L" n="39"/>pter determinatum finem operetur ex directione
+<lb ed="#L" n="40"/>alicuius superioris agentis, necesse est ea quae
+<lb ed="#L" n="41"/>a natura fiunt, etiam in Deum reducere, sicut in
+<lb ed="#L" n="42"/>primam causam. Similiter etiam quae ex 
+propo<lb break="no" ed="#L" n="43"/>sito fiunt, oportet reducere in aliquam altiorem
+<lb ed="#L" n="44"/>causam, quae non sit ratio et voluntas humana:
+<lb ed="#L" n="45"/>quia haec mutabilia sunt et defectibilia; oportet
+<lb ed="#L" n="46"/>autem omnia mobilia et deficere possibilia 
+re<lb break="no" ed="#L" n="47"/>duci in aliquod primum principium immobile et
+<lb ed="#L" n="48"/>per se necessarium, sicut ostensum est.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

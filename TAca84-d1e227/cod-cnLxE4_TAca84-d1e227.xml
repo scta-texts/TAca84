@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 35</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 35</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="372"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e227"><!-- p1-q35 -->
+            <head xml:id="TAca84-d1e227-Hd1e99">Quaestio 35</head>
+            <head xml:id="TAca84-d1e227-Hd1e101" type="question-title">de imagine</head>
+            <p xml:id="TAca84-d1e227-d1e104">
+               <pb ed="#L" n="372"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO TRIGESIMAQUINTA
+<lb ed="#L" n="2"/>DE IMAGINE
+<lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e227-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE quaeritur de Imagine.
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur duo.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="6"/>Primo: utrum Imago in divinis dicatur 
+perso<lb break="no" ed="#L" n="7"/>naliter.
+<lb ed="#L" n="8"/>Secundo: utrum sit proprium Filii.
+</p>
+            <div xml:id="TAca84-d1e227-Dd1e135"><!-- p1-q35-a1 -->
+               <head xml:id="TAca84-d1e227-Hd1e138">Articulus 1</head>
+               <head xml:id="TAca84-d1e227-Hd1e140" type="question-title">
+  utrum imago in divinis dicatur personaliter
+</head>
+               <p xml:id="TAca84-d1e227-d1e143">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="9"/>ARTICULUS PRIMUS
+<lb ed="#L" n="10"/>UTRUM IMAGO IN DIVINIS DICATUR PERSONALITER
+</p>
+               <p xml:id="TAca84-d1e227-d1e152">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="11"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="12"/>Imago non dicatur personaliter in divinis.
+<lb ed="#L" n="13"/>Dicit enim Augustinus, in libro de Fide
+<lb ed="#L" n="14"/>ad Petrum: Una est sanctae Trinitatis
+<lb ed="#L" n="15"/>divinitas et imago, ad quam factus est homo. Igitur
+<lb ed="#L" n="16"/>imago dicitur essentialiter, et non possipuuen
+</p>
+               <p xml:id="TAca84-d1e227-d1e170">
+                  <lb ed="#L" n="17"/>2. PRAETEREA, Hilarius dicit, in libro de Synod.,
+<lb ed="#L" n="18"/>quod F imago 'est eius rei ad quam imaginatur ,
+<lb ed="#L" n="19"/>species indifferens. Sed species, sive forma, in
+<lb ed="#L" n="20"/>divinis dicitur essentialiter. Ergo et imago.
+</p>
+               <p xml:id="TAca84-d1e227-d1e182">
+                  <lb ed="#L" n="21"/>3. PRarETEREA, imago ab imitando ? dicitur, in
+<lb ed="#L" n="22"/>quo importatur prius et posterius. Sed in divinis
+<lb ed="#L" n="23"/>personis nihil est prius et posterius. Ergo imago
+<lb ed="#L" n="24"/>non potest esse nomen personale in divinis.
+</p>
+               <p xml:id="TAca84-d1e227-d1e193">
+                  <lb ed="#L" n="25"/>SED CONTRA EsT quod dicit Augustinus, Quid
+<lb ed="#L" n="26"/>est absurdius quam imaginem ad se dici? Ergo
+<lb ed="#L" n="27"/>Imago in divinis relative dicitur. Et sic est 
+no<lb break="no" ed="#L" n="28"/>men personale.
+</p>
+               <p xml:id="TAca84-d1e227-d1e204">
+                  <lb ed="#L" n="29"/>REsPONDEO DICENDUM quod de ratione imaginis
+<lb ed="#L" n="30"/>est similitudo. Non tamen quaecumque similitudo
+<lb ed="#L" n="31"/>sufficit ad rationem imaginis; sed similitudo quae
+<lb ed="#L" n="32"/>est in ? specie rei, vel saltem in aliquo signo
+<lb ed="#L" n="33"/>speciei. Signum autem speciei in rebus corporeis
+<lb ed="#L" n="34"/>maxime videtur esse figura: videmus enim quod
+<lb ed="#L" n="35"/>diversorum animalium secundum speciem, sunt
+<lb ed="#L" n="36"/>diversae figurae, non autem diversi colores. Unde,
+<lb ed="#L" n="37"/>si depingatur color alicuius rei in pariete, non
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="38"/>dicitur esse imago, nisi depingatur figura. - Sed
+<lb ed="#L" n="39"/>neque ipsa similitudo speciei sufficit vel figurae;
+<lb ed="#L" n="40"/>sed requiritur ad rationem imaginis origo: quia, ut
+<lb ed="#L" n="41"/>Augustinus dicit in libro Octoginta trium Quaest.,
+<lb ed="#L" n="42"/>unum ovum non est imago alterius, quia non
+<lb ed="#L" n="43"/>est de illo expressum. Ad hoc ergo quod vere
+<lb ed="#L" n="44"/>aliquid sit imago, requiritur quod ex alio 
+pro<lb break="no" ed="#L" n="45"/>cedat simile ei in specie, vel saltem in signo 
+spe<lb break="no" ed="#L" n="46"/>ciei. - Ea vero quae processionem sive originem
+<lb ed="#L" n="47"/>important in divinis, sunt personalia. Unde hoc
+<lb ed="#L" n="48"/>nomen Imago est nomen personale.
+</p>
+               <p xml:id="TAca84-d1e227-d1e252">
+                  <lb ed="#L" n="49"/>AD PRIMUM ERGO DICENDUM quod imago proprie
+<lb ed="#L" n="50"/>dicitur quod procedit ad similitudinem alterius.
+<lb ed="#L" n="51"/>Illud autem ad cuius similitudinem aliquid 
+pro<lb break="no" ed="#L" n="52"/>cedit, proprie dicitur exemplar, improprie vero
+<lb ed="#L" n="53"/>imago. Sic tamen Augustinus utitur nomine
+<lb ed="#L" n="54"/>imaginis, cum dicit divinitatem sanctae Trinitatis
+<lb ed="#L" n="55"/>esse imaginem ad quam factus est homo.
+</p>
+               <p xml:id="TAca84-d1e227-d1e270">
+                  <lb ed="#L" n="56"/>AD SECUNDUM DICENDUM quod species, prout 
+po<lb break="no" ed="#L" n="57"/>nitur ab Hilario in definitione imaginis, importat
+<lb ed="#L" n="58"/>formam deductam in aliquo ab alio. Hoc enim
+<lb ed="#L" n="59"/>modo imago dicitur esse species alicuius, sicuti
+<lb ed="#L" n="60"/>id quod assimilatur alicui, dicitur forma eius, 
+in<lb break="no" ed="#L" n="61"/>quantum habet formam illi similem.
+</p>
+               <p xml:id="TAca84-d1e227-d1e286">
+                  <lb ed="#L" n="62"/>AD TERTIUM DICENDUM quod imitatio in divinis
+<lb ed="#L" n="63"/>personis non significat posterioritatem ", sed so- .
+<lb ed="#L" n="64"/>lam assimilationem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e227-Dd1e297"><!-- p1-q35-a2 -->
+               <head xml:id="TAca84-d1e227-Hd1e300">Articulus 2</head>
+               <head xml:id="TAca84-d1e227-Hd1e302" type="question-title">
+  utrum nomen imaginis sit proprium filii
+</head>
+               <p xml:id="TAca84-d1e227-d1e305">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="10"/>UTRUM NOMEN IMAGINIS SIT PROPRIUM FILII
+</p>
+               <p xml:id="TAca84-d1e227-d1e314">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="11"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="12"/>nomen Imaginis non sit proprium 
+Fi<lb break="no" ed="#L" n="13"/>lio. Quia, ut dicit Damascenus, 
+Spi<lb break="no" ed="#L" n="14"/>Nyritus Sanctus est imago Filii. Non est
+<lb ed="#L" n="15"/>ergo proprium Filii.
+</p>
+               <p xml:id="TAca84-d1e227-d1e330">
+                  <lb ed="#L" n="16"/>2. PRAETEREA, de ratione imaginis est similitudo
+<lb ed="#L" n="17"/>cum expressione, ut Augustinus dicit, in libro
+<lb ed="#L" n="18"/>Octoginta trium. Quaest. Sed hoc convenit 
+Spi<lb break="no" ed="#L" n="19"/>ritui Sancto: procedit enim ab alio secundum
+<lb ed="#L" n="20"/>modum similitudinis ^. Ergo Spiritus Sanctus est
+<lb ed="#L" n="21"/>imago. Et ita non est proprium Filii quod sit
+<lb ed="#L" n="22"/>Imago.
+</p>
+               <p xml:id="TAca84-d1e227-d1e349">
+                  <lb ed="#L" n="23"/>9. PRAETEREA, homo etiam dicitur imago Dei,
+<lb ed="#L" n="24"/>secundum illud I ad Cor. xi: Vir non debet 
+ve<lb break="no" ed="#L" n="25"/>lare caput suum, quoniam imago et gloria Dei
+<lb ed="#L" n="26"/>est. Ergo non est proprium Filio.
+</p>
+               <p xml:id="TAca84-d1e227-d1e360">
+                  <lb ed="#L" n="27"/>SEp coNTRA EsT quod Augustinus dicit, VI de
+<lb ed="#L" n="28"/>Trin., quod solus Filius est Imago Patris.
+</p>
+               <p xml:id="TAca84-d1e227-d1e367">
+                  <lb ed="#L" n="29"/>ResPoNbpEO picENDUM quod doctores 
+Graeco<lb break="no" ed="#L" n="30"/>rum communiter dicunt Spiritum Sanctum esse
+<lb ed="#L" n="31"/>imaginem Patris et Filii. Sed doctores latini soli
+<lb ed="#L" n="32"/>Filio attribuunt nomen Imaginis: non enim 
+in<lb break="no" ed="#L" n="33"/>venitur in canonica Scriptura nisi de Filio. 
+Di<lb break="no" ed="#L" n="34"/>citur enim Coloss. 1: <quote xml:id="TAca84-d1e227-Qd1e382">Qui est imago Dei 
+invi<lb break="no" ed="#L" n="35"/>sibilis, primogenitus creaturae ; et ad Hebr. 1:
+<lb ed="#L" n="36"/>Qui cum sit splendor gloriae, et figura 
+substan<lb break="no" ed="#L" n="37"/>liae eius</quote>.
+</p>
+               <p xml:id="TAca84-d1e227-d1e392">
+                  <lb ed="#L" n="38"/>Huius autem ? rationem assignant quidam ex
+<lb ed="#L" n="39"/>hoc, quod Filius convenit cum Patre non solum
+<lb ed="#L" n="40"/>in natura, sed etiam in notione principii: Spiritus
+<lb ed="#L" n="41"/>autem Sanctus non convenit cum Filio nec cum
+<lb ed="#L" n="42"/>Patre in aliqua notione. - Sed hoc non videtur
+<lb ed="#L" n="43"/>sufficere. Quia sicut secundum relationes non
+<lb ed="#L" n="44"/>attenditur in divinis neque aequalitas neque 
+in<lb break="no" ed="#L" n="45"/>aequalitas, ut Augustinus dicit; ita neque 
+simi<lb break="no" ed="#L" n="46"/>litudo, quae requiritur ad. rationem imaginis.
+</p>
+               <p xml:id="TAca84-d1e227-d1e414">
+                  <lb ed="#L" n="47"/>Unde alii dicunt quod Spiritus Sanctus non
+<lb ed="#L" n="48"/>potest dici imago Filii, quia imaginis non est
+<lb ed="#L" n="49"/>imago. Neque etiam imago Patris: quia etiam
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="50"/>imago refertur immediate ad id cuius est imago ;
+<lb ed="#L" n="51"/>Spiritus Sanctus autem refertur ad Patrem per
+<lb ed="#L" n="52"/>Filium. Neque etiam est imago Patris et Filii:
+<lb ed="#L" n="53"/>quia sic esset una imago duorum, quod videtur
+<lb ed="#L" n="54"/>impossibile. Unde relinquitur quod Spiritus 
+San<lb break="no" ed="#L" n="55"/>ctus nullo modo sit imago. - Sed hoc nihil est.
+<lb ed="#L" n="56"/>Quia Pater et Filius sunt unum principium 
+Spi<lb break="no" ed="#L" n="57"/>ritus Sancti, ut infra dicetur: unde nihil 
+pro<lb break="no" ed="#L" n="58"/>hibet sic Patris et Filii, inquantum sunt unum,
+<lb ed="#L" n="59"/>esse unam imaginem; cum etiam homo totius
+<lb ed="#L" n="60"/>Trinitatis sit una imago.
+</p>
+               <p xml:id="TAca84-d1e227-d1e449">
+                  <lb ed="#L" n="61"/>Et ideo aliter dicendum est quod, sicut 
+Spi<lb break="no" ed="#L" n="62"/>ritus Sanctus, quamvis sua processione accipiat
+<lb ed="#L" n="63"/>naturam Patris, sicut et Filius, non tamen dicitur
+<lb ed="#L" n="64"/>natus; ita, licet accipiat speciem similem Patris,
+<lb ed="#L" n="65"/>non " dicitur imago. Quia Filius procedit ut 
+Ver<lb break="no" ed="#L" n="66"/>bum, de cuius ratione est similitudo speciei ad id
+<lb ed="#L" n="67"/>a quo procedit; non autem de ratione amoris;
+<lb ed="#L" n="68"/>quamvis hoc conveniat amori qui est Spiritus
+<lb ed="#L" n="69"/>Sanctus, inquantum est amor divinus.
+</p>
+               <p xml:id="TAca84-d1e227-d1e472">
+                  <lb ed="#L" n="70"/>AD PRIMUM ERGO DICENDUM quod Damascenus
+<lb ed="#L" n="71"/>et alii doctores Graecorum communiter utuntur
+<lb ed="#L" n="72"/>nomine imaginis pro perfecta similitudine.
+</p>
+               <p xml:id="TAca84-d1e227-d1e481">
+                  <lb ed="#L" n="73"/>AD SECUNDUM DICENDUM quod, licet Spiritus 
+San<lb break="no" ed="#L" n="74"/>ctus sit similis Patri et Filio, non tamen sequitur
+<lb ed="#L" n="75"/>quod sit imago, ratione iam dicta
+</p>
+               <p xml:id="TAca84-d1e227-d1e490">
+                  <lb ed="#L" n="76"/>AD TERTIUM DICENDUM quod imago : alicuius 
+du<lb break="no" ed="#L" n="77"/>pliciter in aliquo invenitur. Uno modo, in re
+<lb ed="#L" n="78"/>eiusdem naturae secundum speciem: ut imago
+<lb ed="#L" n="79"/>regis invenitur in filio suo. Alio modo, in re
+<lb ed="#L" n="80"/>alterius naturae: sicut imago regis invenitur in
+<lb ed="#L" n="81"/>denario. Primo autem modo, Filius est imago
+<lb ed="#L" n="82"/>Patris: secundo autem modo dicitur homo imago
+<lb ed="#L" n="83"/>Dei. Et ideo ad designandam in homine 
+imper<lb break="no" ed="#L" n="84"/>fectionem imaginis, homo non solum dicitur
+<lb ed="#L" n="85"/>imago, sed ad imaginem, per quod motus 
+qui<lb break="no" ed="#L" n="86"/>dam tendentis in perfectionem ? designatur. Sed
+<lb ed="#L" n="87"/>de Filio Dei non potest dici quod sit ad 
+ima<lb break="no" ed="#L" n="88"/>ginem, quia est perfecta Patris imago.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

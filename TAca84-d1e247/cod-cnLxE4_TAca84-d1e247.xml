@@ -1,0 +1,1417 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 39</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 39</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="396"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e247"><!-- p1-q39 -->
+            <head xml:id="TAca84-d1e247-Hd1e99">Quaestio 39</head>
+            <head xml:id="TAca84-d1e247-Hd1e101" type="question-title">de personis ad essentiam relatis</head>
+            <p xml:id="TAca84-d1e247-d1e104">
+               <pb ed="#L" n="396"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO TRIGESIMANONA
+<lb ed="#L" n="2"/>DE PERSONIS AD ESSENTIAM RELATIS
+<lb ed="#L" n="3"/>IN OCTO ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e247-d1e117">
+               <lb ed="#L" n="4"/>Post ea quae de Personis divinis absolute 
+<lb ed="#L" n="5"/>tractata sunt, considerandum restat de 
+Perso<lb break="no" ed="#L" n="6"/>nis in comparatione ad essentiam, et ad 
+proprie<lb break="no" ed="#L" n="7"/>tates, et ad actus notionales; et de 
+compa<lb break="no" ed="#L" n="8"/>ratione ipsarum ad invicem.
+<lb ed="#L" n="9"/>Quantum igitur ad primum horum, octo 
+quae<lb break="no" ed="#L" n="10"/>runtur.
+<lb ed="#L" n="11"/>Primo: utrum essentia in divinis sit idem quod
+<lb ed="#L" n="12"/>persona.
+<lb ed="#L" n="13"/>Secundo: utrum dicendum sit quod tres 
+Per<lb break="no" ed="#L" n="14"/>sonae sunt unius essentiae.
+<lb ed="#L" n="15"/>Tertio: utrum nomina essentialia prasdicandi
+<lb ed="#L" n="16"/>sint de Personis in plurali vel in singulari.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="17"/>Quarto: utrum adiectiva notionalia, aut verba
+<lb ed="#L" n="18"/>vel participia, praedicari possint de 
+nomini<lb break="no" ed="#L" n="19"/>bus essentialibus concretive acceptis.
+<lb ed="#L" n="20"/>Quinto: utrum praedicari possint de nominibus
+<lb ed="#L" n="21"/>essentialibus in abstracto acceptis.
+<lb ed="#L" n="22"/>Sexto: utrum nomina Personarum praedicari
+<lb ed="#L" n="23"/>possint de nominibus essentialibus 
+concre<lb break="no" ed="#L" n="24"/>tis.
+<lb ed="#L" n="25"/>Septimo: utrum essentialia attributa sint 
+ap<lb break="no" ed="#L" n="26"/>proprianda ? Personis.
+<lb ed="#L" n="27"/>Octavo: quod attributum cuique ? Personae 
+de<lb break="no" ed="#L" n="28"/>beat appropriari.
+</p>
+            <div xml:id="TAca84-d1e247-Dd1e176"><!-- p1-q39-a1 -->
+               <head xml:id="TAca84-d1e247-Hd1e179">Articulus 1</head>
+               <head xml:id="TAca84-d1e247-Hd1e181" type="question-title">
+  utrum in divinis essentia sit idem quod persona
+</head>
+               <p xml:id="TAca84-d1e247-d1e184">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29"/>ARTICULUS PRIMUS
+<lb ed="#L" n="30"/>UTRUM IN DIVINIS ESSENTIA SIT IDEM QUOD PERSONA
+</p>
+               <p xml:id="TAca84-d1e247-d1e193">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="31"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="32"/>in divinis essentia non sit idem quod
+<lb ed="#L" n="33"/>persona. In quibuscumque enim essentia
+<lb ed="#L" n="34"/>est idem quod persona seu suppositum,
+<lb ed="#L" n="35"/>oportet quod sit tantum unum suppositum unius
+<lb ed="#L" n="36"/>naturae, ut patet in omnibus substantiis separatis
+<lb ed="#L" n="37"/>eorum enim quae sunt idem re, unum 
+multipli<lb break="no" ed="#L" n="38"/>cari non potest, quin multiplicetur et reliquum.
+<lb ed="#L" n="39"/>Sed in divinis est una essentia et tres Personae,
+<lb ed="#L" n="40"/>ut ex supra dictis patet. Ergo essentia non est
+<lb ed="#L" n="41"/>idem quod persona.
+</p>
+               <p xml:id="TAca84-d1e247-d1e222">
+                  <lb ed="#L" n="42"/>2. PRAETEREA, affirmatio et negatio simul et 
+se<lb break="no" ed="#L" n="43"/>mel non verificantur de eodem. Sed affirmatio
+<lb ed="#L" n="44"/>et negatio verificantur de essentia et persona: nam
+<lb ed="#L" n="45"/>persona est distincta, essentia vero non est 
+dis<lb break="no" ed="#L" n="46"/>tincta. Ergo persona et essentia non sunt idem.
+</p>
+               <p xml:id="TAca84-d1e247-d1e236">
+                  <lb ed="#L" n="47"/>3. PRAETEREA, nihil subiicitur sibi ipsi. Sed 
+per<lb break="no" ed="#L" n="48"/>sona subiicitur essentiae: unde suppositum vel
+<lb ed="#L" n="49"/>hypostasis nominatur. Ergo persona non est idem
+<lb ed="#L" n="50"/>quod essentia.
+</p>
+               <p xml:id="TAca84-d1e247-d1e247">
+                  <lb ed="#L" n="51"/>SED coNTRA EsT quod Augustinus dicit, VII de
+<lb ed="#L" n="52"/>Trin.: <quote xml:id="TAca84-d1e247-Qd1e253">Cum dicimus personam Patris, non aliud
+<lb ed="#L" n="53"/>dicimus quam substantiam Patris</quote>.
+</p>
+               <p xml:id="TAca84-d1e247-d1e259">
+                  <lb ed="#L" n="54"/>RESPONDEO DICENDUM quod considerantibus 
+di<lb break="no" ed="#L" n="55"/>vinam simplicitatem, quaestio ista in manifesto
+<lb ed="#L" n="56"/>habet veritatem. Ostensum est enim supra quod
+<lb ed="#L" n="57"/>divina simplicitas hoc requirit, quod in Deo sit
+<lb ed="#L" n="58"/>idem essentia et suppositum ; quod in substantiis
+<lb ed="#L" n="59"/>intellectualibus nihil est aliud quam persona.
+</p>
+               <p xml:id="TAca84-d1e247-d1e275">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="60"/>Sed difficultatem videtur ingerere quod, 
+mul<lb break="no" ed="#L" n="61"/>tiplicatis personis divinis, essentia retinet 
+unita<lb break="no" ed="#L" n="62"/>tem. Et quia, ut Boetius dicit; relatio multiplicat
+<lb ed="#L" n="63"/>Personarum trinitatem, posuerunt aliqui hoc modo
+<lb ed="#L" n="64"/>in divinis differre essentiam et personam, quo et
+<lb ed="#L" n="65"/>relationes " dicebant esse assistentes, considerantes
+<lb ed="#L" n="66"/>in relationibus solum quod ad alterum sunt, et
+<lb ed="#L" n="67"/>non quod res sunt.
+</p>
+               <p xml:id="TAca84-d1e247-d1e297">
+                  <lb ed="#L" n="68"/>Sed, sicut supra ostensum est, sicut relationes
+<lb ed="#L" n="69"/>in rebus creatis accidentaliter insunt, ita in Deo
+<lb ed="#L" n="70"/>sunt ipsa essentia divina. Ex quo sequitur quod
+<lb ed="#L" n="71"/>in Deo non sit aliud essentia quam persona 
+se<lb break="no" ed="#L" n="72"/>cundum rem; et tamen quod personae realiter
+<lb ed="#L" n="73"/>ab invicem distinguantur. Persona enim, ut 
+di<lb break="no" ed="#L" n="74"/>ctum est supra, significat relationem, prout est
+<lb ed="#L" n="75"/>subsistens in natura divina. Relatio autem, ad 
+es<lb break="no" ed="#L" n="76"/>sentiam comparata, non differt re, sed ratione
+<lb ed="#L" n="77"/>tantum: comparata autem ad oppositam 
+relatio<lb break="no" ed="#L" n="78"/>nem, habet, virtute oppositionis ^, realem 
+distin<lb break="no" ed="#L" n="79"/>ctionem. Et sic remanet una essentia, et tres
+<lb ed="#L" n="80"/>Personae.
+</p>
+               <p xml:id="TAca84-d1e247-d1e328">
+                  <lb ed="#L" n="81"/>Ap PRIMUM: ergo. dicendum quod in creaturis
+<lb ed="#L" n="82"/>non potest esse distinctio suppositorum per 
+rela<lb break="no" ed="#L" n="83"/>tiones, sed oportet quod sit per essentialia 
+prin<lb break="no" ed="#L" n="84"/>cipia: quia relationes non sunt subsistentes in
+<lb ed="#L" n="85"/>creaturis. In divinis autem relationes sunt 
+subsi<lb break="no" ed="#L" n="86"/>stentes: et ideo ', secundum quod habent 
+opposi<lb break="no" ed="#L" n="87"/>tionem ad invicem, possunt distinguere supposita.
+<lb ed="#L" n="88"/>Neque tamen distinguitur essentia: quia relationes
+<pb ed="#L" n="397"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ipsae non distinguuntur ab invicem secundum
+<lb ed="#L" n="2"/>quod sunt realiter idem cum essentia.
+</p>
+               <p xml:id="TAca84-d1e247-d1e358">
+                  <lb ed="#L" n="3"/>AD SECUNDUM DICENDUM quod, inquantum essentia
+<lb ed="#L" n="4"/>et persona in divinis differunt secundum 
+intel<lb break="no" ed="#L" n="5"/>ligentiae rationem, sequitur quod aliquid possit
+<lb ed="#L" n="6"/>affirmari de uno, quod negatur de altero: et per
+<lb ed="#L" n="7"/>consequens quod, supposito uno, non supponatur
+<lb ed="#L" n="8"/>alterum.
+</p>
+               <p xml:id="TAca84-d1e247-d1e374">
+                  <lb ed="#L" n="9"/>AD TERTIUM DICENDUM quod rebus divinis no-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>mina imponimus secundum modum rerum 
+crea<lb break="no" ed="#L" n="11"/>tarum, ut supra dictum est. Et quia naturae
+<lb ed="#L" n="12"/>rerum créatarum individuantur per materiam,
+<lb ed="#L" n="13"/>quae subiicitur naturae speciei, inde est quod
+<lb ed="#L" n="14"/>individua dicuntur subiecta, vel supposita, vel
+<lb ed="#L" n="15"/>hypostases. Et propter hoc etiam divinae 
+perso<lb break="no" ed="#L" n="16"/>nae supposita vel hypostases nominantur: non
+<lb ed="#L" n="17"/>quod ibi sit aliqua suppositio vel subiectio 
+secun<lb break="no" ed="#L" n="18"/>dum rem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e247-Dd1e402"><!-- p1-q39-a2 -->
+               <head xml:id="TAca84-d1e247-Hd1e405">Articulus 2</head>
+               <head xml:id="TAca84-d1e247-Hd1e407" type="question-title">
+  utrum sit dicendum tres personas esse unius essentiae
+</head>
+               <p xml:id="TAca84-d1e247-d1e410">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="51"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="52"/>UTRUM SIT DICENDUM TRES PERSONAS ESSE UNIUS ESSENTIAE
+</p>
+               <p xml:id="TAca84-d1e247-d1e419">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="53"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="54"/>non sit dicendum tres Personas esse
+<lb ed="#L" n="55"/>unius essentiae. Dicit enim Hilarius, in
+<lb ed="#L" n="56"/>libro de Synod., quod Pater et Filius
+<lb ed="#L" n="57"/>et Spiritus Sanctus sunt quidem per substantiam
+<lb ed="#L" n="58"/>tria, per consonantiam vero unum. Sed 
+substan<lb break="no" ed="#L" n="59"/>tia Dei est eius essentia, Ergo tres Personae non
+<lb ed="#L" n="60"/>sunt unius essentiae.
+</p>
+               <p xml:id="TAca84-d1e247-d1e441">
+                  <lb ed="#L" n="61"/>2. PRAETEREA, non est affirmandum aliquid de
+<lb ed="#L" n="62"/>divinis, quod auctoritate Scripturae sacrae non
+<lb ed="#L" n="63"/>est expressum, ut patet per Dionysium, 1 cap. de
+<lb ed="#L" n="64"/>Div. Nom. Sed nunquam in Scriptura sacra
+<lb ed="#L" n="65"/>exprimitur quod Pater et Filius et Spiritus 
+San<lb break="no" ed="#L" n="66"/>ctus sunt unius essentiae, Ergo hoc non est 
+asse<lb break="no" ed="#L" n="67"/>rendum.
+</p>
+               <p xml:id="TAca84-d1e247-d1e460">
+                  <lb ed="#L" n="68"/>3. PRAETEREA, natura divina est idem quod
+<lb ed="#L" n="69"/>essentia, Sufficeret ergo dicere quod tres 
+Per<lb break="no" ed="#L" n="70"/>sonae sunt unius naturae.
+</p>
+               <p xml:id="TAca84-d1e247-d1e469">
+                  <lb ed="#L" n="71"/>4. PRAETEREA, non consuevit dici quod persona
+<lb ed="#L" n="72"/>sit essentiae ?; sed magis quod essentia sit 
+per<lb break="no" ed="#L" n="73"/>sonae. Ergo neque convenienter videtur dici quod
+<lb ed="#L" n="74"/>tres Personae sunt unius essentiae,
+</p>
+               <p xml:id="TAca84-d1e247-d1e480">
+                  <lb ed="#L" n="75"/>5. PRAETEREA, Augustinus dicit quod non 
+di<lb break="no" ed="#L" n="76"/>cimus tres Personas esse ex una essentia, ne 
+in<lb break="no" ed="#L" n="77"/>telligatur in divinis aliud esse essentia et persona.
+<lb ed="#L" n="78"/>Sed sicut praepositiones sunt transitivae, ita et
+<lb ed="#L" n="79"/>obliqui. Ergo, pari ratione, non'est dicendum
+<lb ed="#L" n="80"/>quod tres Personae sunt unius essenliae.
+</p>
+               <p xml:id="TAca84-d1e247-d1e496">
+                  <lb ed="#L" n="81"/>6. PRAETEREA, id quod potest esse erroris 
+oc<lb break="no" ed="#L" n="82"/>casio, non est in divinis dicendum. Sed cum di-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="83"/>cuntur tres Personae unius essentiae vel 
+substan<lb break="no" ed="#L" n="84"/>tiae, datur erroris occasio. Quia, ut Hilarius
+<lb ed="#L" n="85"/>dicit, in libro de Synod.: Una substantia Patris
+<lb ed="#L" n="86"/>et Filii praedicata, aut unum qui duas 
+nuncupa<lb break="no" ed="#L" n="87"/>tiones habeat, subsistentem significat; aut divisam
+<lb ed="#L" n="88"/>unam substantiam | duas imperfectas fecisse 
+sub<lb break="no" ed="#L" n="89"/>stantias; aut tertiam priorem substantiam, quae a
+<lb ed="#L" n="90"/>duobus et usurpata sit et assumpta. Non est ergo
+<lb ed="#L" n="91"/>dicendum tres Personas esse unius substantiae,
+</p>
+               <p xml:id="TAca84-d1e247-d1e525">
+                  <lb ed="#L" n="92"/>SED CONTRA EST quod ABBUSUBUS dicit, in li
+<lb ed="#L" n="93"/>bro Il. Contra Maximinum, quod. hoc: nomen
+<lb ed="#L" n="94"/>homousion, quod in Concilio Nicaeno adversus
+<lb ed="#L" n="95"/>Arianos firmatum est, idem significat quod tres
+<lb ed="#L" n="96"/>Personas esse unius essentiae.
+</p>
+               <p xml:id="TAca84-d1e247-d1e538">
+                  <lb ed="#L" n="97"/>RrsPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="98"/>est, intellectus noster res divinas nominat, non
+<lb ed="#L" n="99"/>secundum modum earum, quia sic eas 
+cogno<lb break="no" ed="#L" n="100"/>scere non potest; sed secundum modum in rebus
+<lb ed="#L" n="101"/>creatis inventum. Et quia in rebus sensibilibus,
+<lb ed="#L" n="102"/>a quibus intellectus noster scientiam capit, 
+na<lb break="no" ed="#L" n="103"/>tura alicuius speciei per materiam individuatur;
+<lb ed="#L" n="104"/>et sic natura se habet ut forma, individuum autem
+<lb ed="#L" n="105"/>ut suppositum formae: propter hoc etiam in 
+di<lb break="no" ed="#L" n="106"/>vinis, quantum ad modum significandi, essentia
+<lb ed="#L" n="107"/>significatur ut forma trium Personarum, Dicimus
+<lb ed="#L" n="108"/>autem in rebus creatis formam quamcumque esse
+<lb ed="#L" n="109"/>eius cuius est forma; sicut sanitatem vel 
+pulchri<lb break="no" ed="#L" n="110"/>tudinem hominis alicuius. Rem autem habentem
+<lb ed="#L" n="111"/>formam non dicimus esse formae, nisi cum 
+adie<lb break="no" ed="#L" n="112"/>ctione ? alicuius adiectivi, quod designat illam 
+for<pb ed="#L" n="399"/>
+                  <cb ed="#L" n="a"/>
+                  <lb break="no" ed="#L" n="1"/>mam ut cum dicimus, ista mulier est egregiae
+<lb ed="#L" n="2"/>formae, iste homo est perfectae virtutis. Et 
+simi<lb break="no" ed="#L" n="3"/>liter, quia in divinis, multiplicatis personis, non
+<lb ed="#L" n="4"/>multiplicatur essentia, dicimus unam essentiam
+<lb ed="#L" n="5"/>esse trium  Personarum; et tres Personas unius
+<lb ed="#L" n="6"/>essentiae, ut intelligantur isti genitivi construi in
+<lb ed="#L" n="7"/>designatione formae.
+</p>
+               <p xml:id="TAca84-d1e247-d1e596">
+                  <lb ed="#L" n="8"/>AD PRIMUM ERGO DICENDUM quod substantia 
+su<lb break="no" ed="#L" n="9"/>mitur pro Aypostasi; et non pro essentia.
+</p>
+               <p xml:id="TAca84-d1e247-d1e603">
+                  <lb ed="#L" n="10"/>AD SECUNDUM DICENDUM quod, licet tres Personas
+<lb ed="#L" n="11"/>essé unius essentiae non inveniatur in sacra 
+Scri<lb break="no" ed="#L" n="12"/>ptura per haec verba, invenitur tamen quantum
+<lb ed="#L" n="13"/>ad hunc sensum: sicut ibi:. Ego et Pater unum
+<lb ed="#L" n="14"/>sumus; et, Ego in Patre, et Pater. in me est.
+<lb ed="#L" n="15"/>Et per. multa alia- haberi potest idem.
+</p>
+               <p xml:id="TAca84-d1e247-d1e619">
+                  <lb ed="#L" n="16"/>Ab TERTIUM DICENDUM quod, quia natura 
+desi<lb break="no" ed="#L" n="17"/>gnat principium actus, essentia vero ab essendo
+<lb ed="#L" n="18"/>dicitur, possunt dici aliqua unius naturae, quae
+<lb ed="#L" n="19"/>conveniunt in aliquo actu, sicut omnia 
+calefa<lb break="no" ed="#L" n="20"/>Cientia: sed unius essentiae dici non possunt,
+<lb ed="#L" n="21"/>nisi quorum est unum esse. Et ideo magis 
+ex<lb break="no" ed="#L" n="22"/>primitur unitas divina per hoc quod dicitur quod
+<lb ed="#L" n="23"/>tres Personae sunt unius essentiae, quam si 
+di<lb break="no" ed="#L" n="24"/>ceretur quod sunt unius naturae.
+</p>
+               <p xml:id="TAca84-d1e247-d1e641">
+                  <lb ed="#L" n="25"/>AD QUARTUM DICENDUM quod forma, absolute
+<lb ed="#L" n="26"/>accepta, consuevit significari ut eius cuius est
+<lb ed="#L" n="27"/>forma, ut virtus Petri. E converso autem, res
+<lb ed="#L" n="28"/>habens formam aliquam non consuevit 
+signifi<lb break="no" ed="#L" n="29"/>cari ut eius, nisi cum volumus determinare sive
+<lb ed="#L" n="30"/>designare formam. Et tunc requiruntur duo 
+ge<lb break="no" ed="#L" n="31"/>nitivi; quorum- unus significet formam, et alius
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="32"/>determinationem formae, ut si dicatur, Petrus est
+<lb ed="#L" n="33"/>magnae- virtutis: vel etiam requiritur unus 
+geni<lb break="no" ed="#L" n="34"/>tivus habens vim. duorum genitivorum, ut cum
+<lb ed="#L" n="35"/>dicitur, vir sanguinum est iste, idest effusor multi
+<lb ed="#L" n="36"/>sanguinis. Quia igitur essentia divina significatur
+<lb ed="#L" n="37"/>ut forma respectu personae, convenienter essentia
+<lb ed="#L" n="38"/>personae dicitur. Non autem e converso, nisi 
+ali<lb break="no" ed="#L" n="39"/>quid addatur ad designationem essentiae; ut si
+<lb ed="#L" n="40"/>dicatur quod Pater est persona divínae essentiae,
+<lb ed="#L" n="41"/>vel quod tres Personae sunt unius essentiae.
+</p>
+               <p xml:id="TAca84-d1e247-d1e683">
+                  <lb ed="#L" n="42"/>AD QUINTUM DICENDUM quod haec praepositio ex
+<lb ed="#L" n="43"/>vel de: non. designat habitudinem causae 
+for<lb break="no" ed="#L" n="44"/>malis; sed magis habitudinem causae efficientis
+<lb ed="#L" n="45"/>vel materialis. Quae quidem causae in omnibus
+<lb ed="#L" n="46"/>distinguuntur ab his quorum sunt causae: nihil
+<lb ed="#L" n="47"/>enim est sua materia, neque aliquid est suum
+<lb ed="#L" n="48"/>principium activum. Aliquid tamen est sua forma,
+<lb ed="#L" n="49"/>ut patet in omnibus rebus immaterialibus. Et
+<lb ed="#L" n="50"/>ideo per hoc quod dicimus tres Personas unius
+<lb ed="#L" n="51"/>essentiae , significando essentiam in habitudine
+<lb ed="#L" n="52"/>formae, non ostenditur aliud esse essentia quam
+<lb ed="#L" n="53"/>persona: quod ostenderetur ?, si diceremus tres
+<lb ed="#L" n="54"/>Personas ex eadem essentia.
+</p>
+               <p xml:id="TAca84-d1e247-d1e714">
+                  <lb ed="#L" n="55"/>ADp SEXTUM DICENDUM quod, sicut Hilarius dicit,
+<lb ed="#L" n="56"/>in libro de Synod.: Male sanctis rebus 
+praeiu<lb break="no" ed="#L" n="57"/>dicatur, si, quia non sanctae a quibusdam 
+haben<lb break="no" ed="#L" n="58"/>lur, esse non debeant. Sic, si male intelligitur
+<lb ed="#L" n="59"/>homousion, quid ad me bene intelligentem? —
+<lb ed="#L" n="60"/>ergo" una substantia ex naturae genitae 
+proprie<lb break="no" ed="#L" n="61"/>late: non sit aulem. ex portione, aut ex unione,
+<lb ed="#L" n="62"/>aut ex communione.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e247-Dd1e735"><!-- p1-q39-a3 -->
+               <head xml:id="TAca84-d1e247-Hd1e738">Articulus 3</head>
+               <head xml:id="TAca84-d1e247-Hd1e740" type="question-title">
+  utrum nomina essentialia praedicentur singulariter de tribus personis
+</head>
+               <p xml:id="TAca84-d1e247-d1e743">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="80"/>ARTICULUS TERTIUS
+<lb ed="#L" n="81"/>UTRUM NOMINA ESSENTIALIA PRAEDICENTUR SINGULARITER DE TRIBUS PERSONIS
+</p>
+               <p xml:id="TAca84-d1e247-d1e752">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="82"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="83"/>nomina essentialia, ut hoc nomen Deus;
+<lb ed="#L" n="84"/>non praedicentur singulariter de tribus
+<lb ed="#L" n="85"/>Personis, sed pluraliter. Sicut enim homo
+<lb ed="#L" n="86"/>significatur ut habens humanitatem, ita. Deus 
+si<lb break="no" ed="#L" n="87"/>gnificatur ut habens deitatem. Sed tres Personae
+<lb ed="#L" n="88"/>sunt tres habentes deitatem. Ergo tres Personae
+<lb ed="#L" n="89"/>sunt tres dii.
+</p>
+               <p xml:id="TAca84-d1e247-d1e774">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="90"/>2. PRAETEREA, Gen. 1, ubi dicitur: In principio
+<lb ed="#L" n="91"/>creavit Deus caelum et terram, hebraica veritas
+<lb ed="#L" n="92"/>habet Elohim, quod potest interpretari di, sive
+<lb ed="#L" n="93"/>iudices. Et hoc dicitur propter pluralitatem 
+Per<lb break="no" ed="#L" n="94"/>sonarum. Ergo tres Personae sunt plures dii, et
+<lb ed="#L" n="95"/>non unus Deus.
+</p>
+               <p xml:id="TAca84-d1e247-d1e793">
+                  <lb ed="#L" n="96"/>3. PRAETEREA, hoc nomen res, cum. absolute
+<lb ed="#L" n="97"/>dicatur, videtur ad substantiam pertinere. Sed
+<pb ed="#L" n="400"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>hoc nomen pluraliter praedicatur de tribus 
+Per<lb break="no" ed="#L" n="2"/>sonis: dicit enim Augustinus, in libro de Doctr.
+<lb ed="#L" n="3"/>Christ.: Res quibus fruendum est, sunt Pater
+<lb ed="#L" n="4"/>et Filius et Spiritus Sanctus. Ergo et alia nomina
+<lb ed="#L" n="5"/>essentialia pluraliter praedicari possunt de tribus
+<lb ed="#L" n="6"/>Personis.
+</p>
+               <p xml:id="TAca84-d1e247-d1e817">
+                  <lb ed="#L" n="7"/>4. PRAETEREA, sicut hoc nomen JDeus significat
+<lb ed="#L" n="8"/>habentem deitatem, ita hoc nomen persona 
+si<lb break="no" ed="#L" n="9"/>gnificat subsistentem in natura aliqua intellectuali.
+<lb ed="#L" n="10"/>Sed dicimus tres Personas. Ergo, eadem ratione,
+<lb ed="#L" n="11"/>dicere possumus /res deos.
+</p>
+               <p xml:id="TAca84-d1e247-d1e830">
+                  <lb ed="#L" n="12"/>SED coNTRA esT quod dicitur Deut. vi: Audi,
+<lb ed="#L" n="13"/>Israel, Dominus Deus tuus, Deus unus est.
+</p>
+               <p xml:id="TAca84-d1e247-d1e837">
+                  <lb ed="#L" n="14"/>RESPONDEO DICENDUM quod nominum 
+essentia<lb break="no" ed="#L" n="15"/>lium quaedam significant essentiam substantive ,
+<lb ed="#L" n="16"/>quaedam vero adiective. Ea quidem quae 
+sub<lb break="no" ed="#L" n="17"/>stantive essentiam. significant, praedicantur de 
+tri<lb break="no" ed="#L" n="18"/>bus Personis singulariter tantum, et non 
+plura<lb break="no" ed="#L" n="19"/>liter: quae vero adiective essentiam significant,
+<lb ed="#L" n="20"/>praedicantur de tribus Personis in plurali ^. Cuius
+<lb ed="#L" n="21"/>ratio est, quia nomina substantiva significant 
+ali<lb break="no" ed="#L" n="22"/>quid per modum substantiae: nomina vero 
+adie<lb break="no" ed="#L" n="23"/>ctiva significant aliquid per modum accidentis,
+<lb ed="#L" n="24"/>quod inhaeret subiecto. Substantia aütem, sicut
+<lb ed="#L" n="25"/>per se habet esse, ita per se habet unitatem vel
+<lb ed="#L" n="26"/>multitudinem : unde et singularitas vel pluralitas ?
+<lb ed="#L" n="27"/>nominis substantivi attenditur secundum formam
+<lb ed="#L" n="28"/>significatam per nomen. Accidentia autem, sicut
+<lb ed="#L" n="29"/>esse habent in subiecto, ita ex subiecto suscipiunt
+<lb ed="#L" n="30"/>unitatem et multitudinem: et ideo in adiectivis
+<lb ed="#L" n="31"/>attenditur singularitas et pluralitas secundum 
+sup<lb break="no" ed="#L" n="32"/>posita.
+</p>
+               <p xml:id="TAca84-d1e247-d1e881">
+                  <lb ed="#L" n="33"/>In creaturis autem non invenitur una forma in
+<lb ed="#L" n="34"/>pluribus suppositis nisi unitate ordinis, ut forma
+<lb ed="#L" n="35"/>multitudinis. ordinatae. Unde nomina significantia
+<lb ed="#L" n="36"/>talem formam, si sint substantiva, praedicantur
+<lb ed="#L" n="37"/>de pluribus in singulari: non autem si sint 
+adie<lb break="no" ed="#L" n="38"/>ctiva. Dicimus enim quod multi homines sunt 
+col<lb break="no" ed="#L" n="39"/>legium vel exercitus aut populus: dicimus tamen
+<lb ed="#L" n="40"/>quod plures homines sunt co/legiati. In. divinis
+<lb ed="#L" n="41"/>autem essentia divina significatur per modum 
+for<lb break="no" ed="#L" n="42"/>mae, ut dictum est. Quae quidem simplex est
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="43"/>et maxime una, ut supra ostensum est. Unde
+<lb ed="#L" n="44"/>nomina significantia divinam essentiam 
+substan<lb break="no" ed="#L" n="45"/>tive, singulariter, et non pluraliter, de tribus 
+Per<lb break="no" ed="#L" n="46"/>sonis praedicantur. Haec igitur est ratio quare
+<lb ed="#L" n="47"/>Socratem et Platonem et Ciceronem dicimus tres
+<lb ed="#L" n="48"/>homines; Patrem autem et Filium et Spiritum
+<lb ed="#L" n="49"/>Sanctum non dicimus tres deos, sed unum Deum:
+<lb ed="#L" n="50"/>quia in tribus suppositis humanae naturae sunt
+<lb ed="#L" n="51"/>tres humanitates; in tribus autem Personis est
+<lb ed="#L" n="52"/>una divina essentia.
+</p>
+               <p xml:id="TAca84-d1e247-d1e929">
+                  <lb ed="#L" n="53"/>Ea vero quae significant essentiam adiective,
+<lb ed="#L" n="54"/>praedicantur pluraliter de tribus, propter 
+plurali<lb break="no" ed="#L" n="55"/>tatem suppositorum. Dicimus enim res existentes
+<lb ed="#L" n="56"/>vel tres sapientes, aut tres aeternos et increatos
+<lb ed="#L" n="57"/>et immensos, si adiective sumantur. Si vero 
+sub<lb break="no" ed="#L" n="58"/>stantive sumantur ^, dicimus unum increatum ,
+<lb ed="#L" n="59"/>immensum. et aeternum, ut Athanasius dicit.
+</p>
+               <p xml:id="TAca84-d1e247-d1e948">
+                  <lb ed="#L" n="60"/>AD PRIMUM ERGO DICENDUM quod, licet Deus 
+si<lb break="no" ed="#L" n="61"/>gnificet habentem deitatem, est tamen alius modus
+<lb ed="#L" n="62"/>significandi: nam Jeus dicitur substantive, sed
+<lb ed="#L" n="63"/>habens deitatem dicitur adiective. Unde, licet sint
+<lb ed="#L" n="64"/>ires habentes deitatem, non tamen sequitur quod
+<lb ed="#L" n="65"/>sint £res dii.
+</p>
+               <p xml:id="TAca84-d1e247-d1e964">
+                  <lb ed="#L" n="66"/>AD SECUNDUM DICENDUM quod diversae linguae
+<lb ed="#L" n="67"/>habent diversum modum loquendi. Unde, sicut
+<lb ed="#L" n="68"/>propter pluralitatem suppositorum Graeci dicunt
+<lb ed="#L" n="69"/>ires hypostases, ita et in Hebraeo dicitur 
+plura<lb break="no" ed="#L" n="70"/>liter Elohim. Nos autem non dicimus pluraliter
+<lb ed="#L" n="71"/>neque Deos neque substantias, ne pluralitas ad
+<lb ed="#L" n="72"/>substantiam referatur.
+</p>
+               <p xml:id="TAca84-d1e247-d1e982">
+                  <lb ed="#L" n="73"/>AD TERTIUM DICENDUM quod hoc nomen res est
+<lb ed="#L" n="74"/>de transcendentibus. Unde, secundum quod 
+per<lb break="no" ed="#L" n="75"/>tinet ad relationem, pluraliter praedicatur in 
+divi<lb break="no" ed="#L" n="76"/>nis: secundum vero quod pertinet ad substantiam,
+<lb ed="#L" n="77"/>singulariter praedicatur. Unde Augustinus dicit 
+ibi<lb break="no" ed="#L" n="78"/>dem quod eadem Trinitas quaedam summa res est.
+</p>
+               <p xml:id="TAca84-d1e247-d1e998">
+                  <lb ed="#L" n="79"/>Ap QUARTUM DICENDUM quod forma significata
+<lb ed="#L" n="80"/>per hoc nomen persona, non est essentia vel 
+na<lb break="no" ed="#L" n="81"/>tura, sed personalitas. Unde, cum sint tres 
+per<lb break="no" ed="#L" n="82"/>sonalitates, idest tres personales proprietates, in
+<lb ed="#L" n="83"/>Patre et Filio et Spiritu Sancto, non singulariter,
+<lb ed="#L" n="84"/>sed pluraliter praedicatur de tribus.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e247-Dd1e1015"><!-- p1-q39-a4 -->
+               <head xml:id="TAca84-d1e247-Hd1e1018">Articulus 4</head>
+               <head xml:id="TAca84-d1e247-Hd1e1020" type="question-title">
+  utrum nomina essentialia concreta possint supponere pro persona
+</head>
+               <p xml:id="TAca84-d1e247-d1e1023">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="64"/>ARTICULUS QUARTUS
+<lb ed="#L" n="65"/>UTRUM NOMINA ESSENTIALIA CONCRETA POSSINT SUPPONERE PRO PERSONA
+</p>
+               <p xml:id="TAca84-d1e247-d1e1032">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="66"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="67"/>nomina essentialia concretiva non. 
+pos<lb break="no" ed="#L" n="68"/>sunt supponere pro persona, ita quod
+<lb ed="#L" n="69"/>haec sit vera, Deus genuit Deum. Quia,
+<lb ed="#L" n="70"/>ut sophistae dicunt, terminus singularis idem 
+si<lb break="no" ed="#L" n="71"/>gnificat et supponit. Sed hoc nomen Deus 
+vi<lb break="no" ed="#L" n="72"/>detur esse terminus singularis, cum pluraliter
+<lb ed="#L" n="73"/>praedicari non possit, ut dictum est. Ergo, cum
+<lb ed="#L" n="74"/>significet essentiam, videtur quod supponat pro
+<lb ed="#L" n="75"/>essentia, et non pro persona.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1058">
+                  <lb ed="#L" n="76"/>2. PRAETEREA, terminus in subiecto positus non
+<lb ed="#L" n="77"/>restringitur per terminum positum in praedicato,
+<lb ed="#L" n="78"/>ratione significationis ; sed solum ratione temporis
+<lb ed="#L" n="79"/>consignificati. Sed cum dico, Deus creat, hoc 
+no<lb break="no" ed="#L" n="80"/>men Deus supponit pro essentia. Ergo cum 
+di<lb break="no" ed="#L" n="81"/>citur, Deus genuit, non potest iste terminus Deus,
+<lb ed="#L" n="82"/>ratione praedicati notionalis, supponere pro. 
+per<lb break="no" ed="#L" n="83"/>sona.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1079">
+                  <lb ed="#L" n="84"/>3. PRAETEREA, si haec est vera, Deus genuit,
+<lb ed="#L" n="85"/>quia Pater generat; pari ratione haec erit vera, .
+<lb ed="#L" n="86"/>Deus non generat, quia Filius non generat. Ergo
+<lb ed="#L" n="87"/>est Deus generans, et Deus non generans. Et ita
+<lb ed="#L" n="88"/>videtur sequi quod sint duo dif.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1092">
+                  <lb ed="#L" n="89"/>4. PRAETEREA, si Deus genuit Deum, aut se
+<lb ed="#L" n="90"/>Deum, aut alium. Deum. Sed non se Deum:
+<lb ed="#L" n="91"/>quia, ut Augustinus dicit, in 1 de 7rTin., nulla
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="92"/>res generat seipsam. Neque alium. Deum: quia
+<lb ed="#L" n="93"/>non est nisi unus Deus. Ergo haec est falsa, Deus
+<lb ed="#L" n="94"/>genuit Deum.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1110">
+                  <lb ed="#L" n="95"/>5. PRAETEREA, si Deus genuit Deum, aut Deum
+<lb ed="#L" n="96"/>qui est Deus Pater, aut Deum qui non est Deus
+<lb ed="#L" n="97"/>Pater. Si Deum qui est Deus Pater, ergo Deus
+<lb ed="#L" n="98"/>Pater est genitus. Si Deum qui non est Deus
+<lb ed="#L" n="99"/>Pater, ergo Deus est qui non est Deus Pater:
+<lb ed="#L" n="100"/>quod est falsum. Non ergo potest dici quod Deus
+<lb ed="#L" n="101"/>genuit. Deum.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1128">
+                  <lb ed="#L" n="102"/>SED coNTRA EsT quod in Symbolo dicitur
+<lb ed="#L" n="103"/>Deum de Deo.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1135">
+                  <lb ed="#L" n="104"/>REsPONDEO DICENDUM quod quidam dixerunt
+<lb ed="#L" n="105"/>quod hoc nomen Deus, et similia, proprie 
+secun<lb break="no" ed="#L" n="106"/>dum suam naturam supponunt pro essentia:
+<lb ed="#L" n="107"/>sed ex adiuncto notionali trahuntur ad 
+supponen<lb break="no" ed="#L" n="108"/>dum pro persona. Et haec opinio processisse 
+vi<lb break="no" ed="#L" n="109"/>detur ex consideratione divinae simplicitatis, quae
+<lb ed="#L" n="110"/>requirit quod in Deo idem sit habens et quod
+<lb ed="#L" n="111"/>habetur: et sic habens deitatem, quod significat
+<lb ed="#L" n="112"/>hoc nomen Deus, est idem quod deitas.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1157">
+                  <lb ed="#L" n="113"/>Sed in proprietatibus locutionum, non tantum
+<lb ed="#L" n="114"/>attendenda est res significata; sed etiam modus
+<lb ed="#L" n="115"/>significandi. Et ideo, quia hoc nomen. Deus 
+i<lb break="no" ed="#L" n="116"/>gnificat divinam essentiam ut in habente ipsam,
+<lb ed="#L" n="117"/>sicut hoc nomen Aomo humanitatem significat in
+<pb ed="#L" n="402"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>supposito; alii melius dixerunt quod hoc nomen
+<lb ed="#L" n="2"/>Deus ex modo significandi habet ut proprie possit
+<lb ed="#L" n="3"/>supponere pro persona, sicut et hoc nomen 070.
+<lb ed="#L" n="4"/>Quandoque ergo hoc nomen Deus supponit pro
+<lb ed="#L" n="5"/>essentia, ut cum dicitur, Deus creat: quia hoc
+<lb ed="#L" n="6"/>praedicatum competit subiecto ratione fomae 
+si<lb break="no" ed="#L" n="7"/>gnificatae, quae est deitas. Quandoque vero 
+sup<lb break="no" ed="#L" n="8"/>ponit personam: vel unam tantum, ut cum 
+dici<lb break="no" ed="#L" n="9"/>tur, Deus generat; vel duas, ut cum dicitur Deus
+<lb ed="#L" n="10"/>spirat; vel tres, ut cum dicitur, <quote xml:id="TAca84-d1e247-Qd1e1196">Regi saeculorum
+<lb ed="#L" n="11"/>immortali, invisibili, soli Deo</quote> etc., I Tim. 1.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1203">
+                  <lb ed="#L" n="12"/>AD PRIMUM ERGO DICENDUM quod hoc nomen ?
+<lb ed="#L" n="13"/>Deus, licet conveniat cum terminis singularibus
+<lb ed="#L" n="14"/>in hoc, quod forma significata non multiplicatur;
+<lb ed="#L" n="15"/>convenit tamen cum terminis communibus in
+<lb ed="#L" n="16"/>hoc, quod forma significata invenitur in pluribus
+<lb ed="#L" n="17"/>suppositis. Unde non oportet quod semper 
+sup<lb break="no" ed="#L" n="18"/>ponat pro essentia quam. significat.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1221">
+                  <lb ed="#L" n="19"/>AD SECUNDUM DICENDUM «quod obiectio illa 
+pro<lb break="no" ed="#L" n="20"/>cedit contra illos qui dicebant quod hoc nomen
+<lb ed="#L" n="21"/>Deus non habet naturalem suppositionem pro
+<lb ed="#L" n="22"/>persona.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1232">
+                  <lb ed="#L" n="23"/>Ap TERTIUM DICENDUM quod aliter se habet hoc
+<lb ed="#L" n="24"/>nomen Jeus ad supponendum pro persona, et
+<lb ed="#L" n="25"/>hoc nomen A070. Quia enim forma significata
+<lb ed="#L" n="26"/>per hoc nomen A0mo, idest humanitas, realiter
+<lb ed="#L" n="27"/>dividitur in diversis suppositis, per se supponit
+<lb ed="#L" n="28"/>pro persona; etiamsi nihil addatur quod 
+deter<lb break="no" ed="#L" n="29"/>minet ipsum ad personam, quae est suppositum
+<lb ed="#L" n="30"/>distinctum. Unitas autem sive communitas 
+huma<lb break="no" ed="#L" n="31"/>nae naturae non est secundum rem, sed solum
+<lb ed="#L" n="32"/>secundum considerationem: unde iste terminus
+<lb ed="#L" n="33"/>homo non supponit pro natura communi, nisi
+<lb ed="#L" n="34"/>propter exigentiam alicuius additi, ut cum dicitur,
+<lb ed="#L" n="35"/>homo est species. - Sed forma significata per hoc
+<lb ed="#L" n="36"/>nomen Jeus, scilicet essentia divina, est una et
+<lb ed="#L" n="37"/>communis secundum rem. Unde per se supponit
+<lb ed="#L" n="38"/>pro natura communi: sed ex adiuncto 
+determi<lb break="no" ed="#L" n="39"/>natur " eius suppositio ad personam. Unde cum
+<lb ed="#L" n="40"/>dicitur, Deus generat, ratione actus notionalis
+<lb ed="#L" n="41"/>supponit hoc nomen JDeus pro persona Patris.
+<lb ed="#L" n="42"/>Sed cum dicitur ^, Deus non generat, nihil 
+ad<lb break="no" ed="#L" n="43"/>ditur quod determinet hoc nomen ad personam
+<lb ed="#L" n="44"/>Filii: unde datur intelligi quod generatio 
+repu<lb break="no" ed="#L" n="45"/>gnet divinae naturae. Sed si addatur aliquid 
+per<lb break="no" ed="#L" n="46"/>tinens ad personam Filii, vera erit locutio; ut si
+<lb ed="#L" n="47"/>dicatur, Deus genitus non generat. Unde etiam
+<lb ed="#L" n="48"/>non sequitur, es? Deus generans et est Deus non
+<lb ed="#L" n="49"/>generans, nisi ponatur aliquid pertinens ad per-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="50"/>sonas; ut puta si dicamus, Pater est Deus 
+ge<lb break="no" ed="#L" n="51"/>nerans, et Filius est Deus non generans. Et ita
+<lb ed="#L" n="52"/>non sequitur quod sint píures dii: quia Pater et
+<lb ed="#L" n="53"/>Filius sunt unus Deus, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1304">
+                  <lb ed="#L" n="54"/>AD QUARTUM DICENDUM quod haec est falsa, Pater
+<lb ed="#L" n="55"/>genuit se Deum: quia ly se, cum sit reciprocum,
+<lb ed="#L" n="56"/>refert idem suppositum. Neque est contrarium
+<lb ed="#L" n="57"/>quod Augustinus dicit, ad Maximum, quod
+<lb ed="#L" n="58"/>Deus Pater genuit alterum se. Quia ly se vel est
+<lb ed="#L" n="59"/>casus ablativi ^; ut sit sensus, genuit alterum a
+<lb ed="#L" n="60"/>se. Vel facit relationem simplicem, et sic refert
+<lb ed="#L" n="61"/>identitatem naturae: sed est impropria vel 
+em<lb break="no" ed="#L" n="62"/>phatica locutio, ut sit sensus, genuit alterum 
+si<lb break="no" ed="#L" n="63"/>millimum sibi. - Similiter et haec est falsa, genuit
+<lb ed="#L" n="64"/>alium Deum. Quia licet Filius sit alius a Patre,
+<lb ed="#L" n="65"/>ut supra dictum est, non tamen est dicendum
+<lb ed="#L" n="66"/>quod sit alus Deus: quia intelligeretur quod hoc
+<lb ed="#L" n="67"/>adiectivum alius poneret rem suam circa 
+substan<lb break="no" ed="#L" n="68"/>tivum quod est Deus; et sic significaretur 
+dis<lb break="no" ed="#L" n="69"/>tinctio deitatis. - Quidam tamen concedunt istam,
+<lb ed="#L" n="70"/>genuit alium Deum: ita quod ly alius sit 
+sub<lb break="no" ed="#L" n="71"/>stantivum, et ly Deus appositive construatur cum
+<lb ed="#L" n="72"/>eo. Sed hic est improprius modus loquendi, et
+<lb ed="#L" n="73"/>evitandus ^, ne detur occasio erroris.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1350">
+                  <lb ed="#L" n="74"/>AD QUINTUM DICENDUM quod haec est falsa, Deus
+<lb ed="#L" n="75"/>genuit Deum qui est Deus Pater: quia, cum ly
+<lb ed="#L" n="76"/>Pater appositive construatur cum ly Deus, 
+re<lb break="no" ed="#L" n="77"/>stringit ipsum ad standum pro persona Patris ;
+<lb ed="#L" n="78"/>ut sit sensus, genuit Deum qui est ipse Pater:
+<lb ed="#L" n="79"/>et sic Pater esset genitus, quod est falsum. Unde
+<lb ed="#L" n="80"/>negativa est vera, genuit Deum qui non est Deus
+<lb ed="#L" n="81"/>Pater. - Si tamen intelligeretur constructio non
+<lb ed="#L" n="82"/>esse appositiva, sed aliquid esse interponendum ;
+<lb ed="#L" n="83"/>tunc e converso affirmativa esset vera, et 
+nega<lb break="no" ed="#L" n="84"/>tiva falsa; ut sit sensus, genuit Deum qui est
+<lb ed="#L" n="85"/>Deus qui est Pater. Sed haec est extorta 
+expo<lb break="no" ed="#L" n="86"/>sitio. Unde melius est quod simpliciter 
+affirma<lb break="no" ed="#L" n="87"/>tiva negetur, et negativa concedatur.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1383">
+                  <lb ed="#L" n="88"/>Praepositivus tamen dixit quod tam negativa
+<lb ed="#L" n="89"/>quam affirmativa est falsa. Quia hoc relativum
+<lb ed="#L" n="90"/>qui in affirmativa potest referre suppositum:
+<lb ed="#L" n="91"/>sed in negativa refert et significatum et 
+suppo<lb break="no" ed="#L" n="92"/>situm. Unde sensus affirmativae est, quod esse
+<lb ed="#L" n="93"/>Deum Patrem conveniat personae Filii. 
+Nega<lb break="no" ed="#L" n="94"/>tivae vero sensus est, quod esse Deum Patrem
+<lb ed="#L" n="95"/>non tantum removeatur a persona Filii, sed
+<lb ed="#L" n="96"/>etiam a divinitate eius. - Sed hoc irrationabile 
+vi<lb break="no" ed="#L" n="97"/>detur: cum, secundum Philosophunr, de eodem
+</p>
+            </div>
+            <div xml:id="TAca84-d1e247-Dd1e1408"><!-- p1-q39-a5 -->
+               <head xml:id="TAca84-d1e247-Hd1e1411">Articulus 5</head>
+               <head xml:id="TAca84-d1e247-Hd1e1413" type="question-title">
+  utrum nomina essentialia in abstracto significata
+  possint supponere pro persona
+</head>
+               <p xml:id="TAca84-d1e247-d1e1416">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="91"/>ARTICULUS QUINTUS
+<lb ed="#L" n="92"/>UTRUM NOMINA ESSENTIALIA IN ABSTRACTO SIGNIFICATA
+<lb ed="#L" n="93"/>POSSINT SUPPONERE PRO PERSONA
+</p>
+               <p xml:id="TAca84-d1e247-d1e1427">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="94"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="95"/>nomina essentialia in abstracto 
+signifi<lb break="no" ed="#L" n="96"/>cata possint supponere pro persona, ita
+<lb ed="#L" n="97"/>quod haec sit vera, essentia generat 
+es<lb break="no" ed="#L" n="98"/>sentiam. Dicit enim <ref xml:id="TAca84-d1e247-Rd1e1442">Augustinus, VII de Trin.</ref>:
+<lb ed="#L" n="99"/>Pater et Filius sunt una sapientia, quia una 
+es<lb break="no" ed="#L" n="100"/>sentia; et singillatim sapientia de sapientia, sicut
+<lb ed="#L" n="101"/>essentia de essentia.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1451">
+                  <lb ed="#L" n="102"/>2. PRAETEREA, generatis nobis vel corruptis, 
+ge<lb break="no" ed="#L" n="103"/>nerantur vel corrumpuntur ea quae in nobis sunt.
+<lb ed="#L" n="104"/>Sed Filius generatur. Ergo, cum essentia divina
+<lb ed="#L" n="105"/>sit in Filio, videtur quod essentia divina generetur.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1463">
+                  <lb ed="#L" n="106"/>3. PRAETEREA, idem est Deus et essentia 
+di<lb break="no" ed="#L" n="107"/>vina, ut ex supra dictis patet. Sed haec est vera,
+<lb ed="#L" n="108"/>Deus generat Deum, sicut dictum est. Ergo
+<lb ed="#L" n="109"/>haec est vera; essentia generat essentiam.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1474">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="110"/>4. PRAETEREA, de quocumque praedicatur 
+ali<lb break="no" ed="#L" n="111"/>quid, potest supponere pro illo. Sed essentia 
+di<lb break="no" ed="#L" n="112"/>vina est Pater. Ergo essentia potest supponere
+<lb ed="#L" n="113"/>pro persona Patris. Et sic essentia generat.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1487">
+                  <lb ed="#L" n="114"/>5. PRAETEREA, essentia est res generans: quia
+<lb ed="#L" n="115"/>est Pater, qui est generans. Si igitur essentia non
+<lb ed="#L" n="116"/>sit generans, erit essentia res generans et non
+<lb ed="#L" n="117"/>generans: quod est impossibile.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1498">
+                  <lb ed="#L" n="118"/>6. PRAETEREA, Augustinus dicit, in IV de Trin.:
+<lb ed="#L" n="119"/>Pater est principium totius deitatis. Sed non est
+<lb ed="#L" n="120"/>principium nisi generando vel spirando. Ergo 
+Pa<lb break="no" ed="#L" n="121"/>ter generat vel spirat deitatem.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1509">
+                  <lb ed="#L" n="122"/>SEp coNTRA EsT quod Augustinus dicit, in I de
+<lb ed="#L" n="123"/>Trin., quod <quote xml:id="TAca84-d1e247-Qd1e1515">nulla res generat seipsam</quote>. Sed si
+<lb ed="#L" n="124"/>essentia generat essentiam, non generat " nisi 
+se<lb break="no" ed="#L" n="125"/>ipsam: cum nihil sit in Deo, quod distinguatur
+<pb ed="#L" n="405"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>a divina essentia. Ergo essentia non generat 
+es<lb break="no" ed="#L" n="2"/>sentiam.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1531">
+                  <lb ed="#L" n="3"/>RresPONDEO DicENDUM quod circa hoc erravit
+<lb ed="#L" n="4"/>Abbas Ioachim, asserens quod, sicut dicitur, Deus
+<lb ed="#L" n="5"/>genuit Deum, ita potest dici quod essentia 
+ge<lb break="no" ed="#L" n="6"/>nuit essentiam; considerans quod, proptér divinam
+<lb ed="#L" n="7"/>simplicitatem, non est aliud Deus quam divina
+<lb ed="#L" n="8"/>essentia. - Sed in hoc deceptus fuit: quia ad 
+veri<lb break="no" ed="#L" n="9"/>tatem locutionum, non solum oportet considerare
+<lb ed="#L" n="10"/>res significatas, sed etiam modum significandi,
+<lb ed="#L" n="11"/>ut dictum est. Licet autem, secundum rem, sit
+<lb ed="#L" n="12"/>idem Deus quod deitas, non tamen est idem
+<lb ed="#L" n="13"/>modus significandi utrobique. Nam hoc nomen
+<lb ed="#L" n="14"/>Deus, quia significat divinam essentiam ut in 
+ha<lb break="no" ed="#L" n="15"/>bente, ex modo suae significationis naturaliter
+<lb ed="#L" n="16"/>habet quod possit supponere pro persona: et
+<lb ed="#L" n="17"/>sic ea quae sunt propria personarum, possunt
+<lb ed="#L" n="18"/>praedicari de hoc nomine Deus, ut dicatur quod
+<lb ed="#L" n="19"/>Deus est genitus vel generans, sicut dictum est.
+<lb ed="#L" n="20"/>Sed hoc nomen essentia non habet ex modo
+<lb ed="#L" n="21"/>suae significationis quod supponat pro persona:
+<lb ed="#L" n="22"/>quia significat essentiam ut formam abstractam.
+<lb ed="#L" n="23"/>Etideo ea quae sunt propria personarum, quibus
+<lb ed="#L" n="24"/>ab invicem distinguuntur, non possunt essentiae
+<lb ed="#L" n="25"/>attribui: significaretur enim quod esset distinctio
+<lb ed="#L" n="26"/>in essentia divina, sicut est distinctio in suppositis.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1587">
+                  <lb ed="#L" n="27"/>AD PRIMUM ERGO DICENDUM quod, ad 
+exprimen<lb break="no" ed="#L" n="28"/>dam unitatem essentiae et personae, sancti 
+Do<lb break="no" ed="#L" n="29"/>ctores aliquando expressius locuti sunt quam 
+pro<lb break="no" ed="#L" n="30"/>prietas locutionis patiatur. Unde huiusmodi 
+locu<lb break="no" ed="#L" n="31"/>tiones non sunt extendendae, sed exponendae:
+<lb ed="#L" n="32"/>ut scilicet nomina abstracta exponantur per 
+con<lb break="no" ed="#L" n="33"/>creta, vel etiam ? per nomina personalia: ut,
+<lb ed="#L" n="34"/>cum dicitur, essentia de essentia, vel sapientia
+<lb ed="#L" n="35"/>de sapientia, sit ? sensus, Filius, qui est essentia
+<lb ed="#L" n="36"/>et sapientia , est de Patre, qui est essentia et 
+sa<lb break="no" ed="#L" n="37"/>pientia. - In his tamen nominibus abstractis est
+<lb ed="#L" n="38"/>quidam ordo attendendus: quia ea quae pertinent
+<lb ed="#L" n="39"/>ad actum, magis propinque se habent ad 
+perso<lb break="no" ed="#L" n="40"/>nas, quia actus sunt suppositorum. Unde minus
+<lb ed="#L" n="41"/>impropria est ista, natura de natura, vel sapientia
+<lb ed="#L" n="42"/>de sapientia, quam essentia de essentia.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1624">
+                  <lb ed="#L" n="43"/>AD SECUNDUM DICENDUM quod in creaturis 
+ge<lb break="no" ed="#L" n="44"/>neratum non accipit naturam eandem numero
+<lb ed="#L" n="45"/>quam generans habet, sed aliam numero, quae
+<lb ed="#L" n="46"/>incipit in eo esse per generationem de novo, et
+<lb ed="#L" n="47"/>desinit esse per corruptionem: et ideo generatur
+<lb ed="#L" n="48"/>et corrumpitur per accidens. Sed Deus genitus
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="49"/>eandem naturam numero accipit quam generans
+<lb ed="#L" n="50"/>habet. Et ideo natura divina in Filio non 
+ge<lb break="no" ed="#L" n="51"/>neratur, neque per se neque per accidens.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1648">
+                  <lb ed="#L" n="52"/>AD TERTIUM DICENDUM quod, licet Deus et 
+di<lb break="no" ed="#L" n="53"/>vina essentia sint idem secundum rem, tamen,
+<lb ed="#L" n="54"/>ratione alterius modi significandi, oportet loqui
+<lb ed="#L" n="55"/>diversimode de utroque.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1659">
+                  <lb ed="#L" n="56"/>ÀD QUARTUM DICENDUM quod essentia divina 
+prae<lb break="no" ed="#L" n="57"/>dicatur de Patre per modum identitatis, propter
+<lb ed="#L" n="58"/>divinam simplicitatem: nec tamen sequitur quod
+<lb ed="#L" n="59"/>possit supponere pro Patre, propter diversum
+<lb ed="#L" n="60"/>modum significandi. Ratio autem procederet in
+<lb ed="#L" n="61"/>ills, quorum unum praedicatur de altero sicut
+<lb ed="#L" n="62"/>universale de particulari.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1677">
+                  <lb ed="#L" n="63"/>AD QUINTUM DICENDUM quod haec est differentia
+<lb ed="#L" n="64"/>inter nomina substantiva et adiectiva, quia 
+no<lb break="no" ed="#L" n="65"/>mina substantiva ferunt suum suppositum: 
+adie<lb break="no" ed="#L" n="66"/>ctiva vero non, sed rem significatam ponunt circa
+<lb ed="#L" n="67"/>substantivum. "Unde sophistae dicunt quod 
+no<lb break="no" ed="#L" n="68"/>mina substantiva supponunt; adiectiva vero non
+<lb ed="#L" n="69"/>supponunt, sed copulant. Nomina igitur 
+persona<lb break="no" ed="#L" n="70"/>lia substantiva possunt de essentia praedicari, 
+pro<lb break="no" ed="#L" n="71"/>pter identitatem rei: neque sequitur quod 
+proprie<lb break="no" ed="#L" n="72"/>tas personalis distinctam determinet essentiam ;
+<lb ed="#L" n="73"/>sed ponitur circa suppositum importatum per
+<lb ed="#L" n="74"/>nomen substantivum. Sed notionalia et 
+persona<lb break="no" ed="#L" n="75"/>lia adiectiva non possunt praedicari de essentia,
+<lb ed="#L" n="76"/>nisi aliquo substantivo adiuncto. Unde non 
+pos<lb break="no" ed="#L" n="77"/>sumus dicere quod essentia est. generans. 
+Possu<lb break="no" ed="#L" n="78"/>mus tamen dicere quod essentia est res generans,
+<lb ed="#L" n="79"/>vel Deus generans, si res et Deus supponant
+<lb ed="#L" n="80"/>pro persona: non autem si supponant pro 
+essen<lb break="no" ed="#L" n="81"/>tia. Unde non est contradictio, si dicatur quod
+<lb ed="#L" n="82"/>essentia est res. generans, et res non generans:
+<lb ed="#L" n="83"/>quia primo res tenetur pro persona, secundo pro
+<lb ed="#L" n="84"/>essentia.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1727">
+                  <lb ed="#L" n="85"/>AD SEXTUM DICENDUM quod deitas, inquantum est
+<lb ed="#L" n="86"/>una in pluribus suppositis ", habet quandam 
+con<lb break="no" ed="#L" n="87"/>venientiam cum forma nominis collectivi. Unde
+<lb ed="#L" n="88"/>cum dicitur, Pater est principium totius deitatis ,
+<lb ed="#L" n="89"/>potest sumi pro universitate Personarum; 
+inquan<lb break="no" ed="#L" n="90"/>tum scilicet, in omnibus Personis divinis, ipse est
+<lb ed="#L" n="91"/>principium. Nec oportet quod sit principium sui
+<lb ed="#L" n="92"/>ipsius: sicut aliquis de populo dicitur rector /
+o<lb break="no" ed="#L" n="93"/>tius populi, non tamen sui ipsius. - Vel potest dici
+<lb ed="#L" n="94"/>quod est principium totius deitatis, non quia eam
+<lb ed="#L" n="95"/>generet et spiret: sed quia eam, generando et
+<lb ed="#L" n="96"/>spirando, communicat.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e247-Dd1e1757"><!-- p1-q39-a6 -->
+               <head xml:id="TAca84-d1e247-Hd1e1760">Articulus 6</head>
+               <head xml:id="TAca84-d1e247-Hd1e1762" type="question-title">
+  utrum personae possint praedicari de nominibus essentialibus
+</head>
+               <p xml:id="TAca84-d1e247-d1e1765">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11"/>ARTICULUS SEXTUS
+<lb ed="#L" n="12"/>UTRUM PERSONAE POSSINT PRAEDICARI DE NOMINIBUS ESSENTIALIBUS
+</p>
+               <p xml:id="TAca84-d1e247-d1e1774">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="13"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="14"/>personae non possint praedicari de 
+no<lb break="no" ed="#L" n="15"/>minibus essentialibus concretis, ut 
+di<lb break="no" ed="#L" n="16"/>scatur, Deus est tres Personae, vel est
+<lb ed="#L" n="17"/>Tirinitas. Haec enim est falsa, homo est omnis
+<lb ed="#L" n="18"/>homo; quia pro nullo suppositorum verificari
+<lb ed="#L" n="19"/>potest: neque enim Socrates est omnis homo,
+<lb ed="#L" n="20"/>neque Plato, neque aliquis alius. Sed similiter
+<lb ed="#L" n="21"/>ista, Deus est Trinitas , pro nullo suppositorum
+<lb ed="#L" n="22"/>naturae divinae verificari potest: neque enim 
+Pa<lb break="no" ed="#L" n="23"/>ter est Trinitas, neque Filius, neque Spiritus 
+San<lb break="no" ed="#L" n="24"/>ctus. Ergo haec est falsa, Deus est Trinitas.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1805">
+                  <lb ed="#L" n="25"/>2. PRAETEREA, inferiora non praedicantur de
+<lb ed="#L" n="26"/>suis superioribus nisi accidentali praedicatione,
+<lb ed="#L" n="27"/>ut cum dico, animal est homo: accidit enim 
+ani<lb break="no" ed="#L" n="28"/>mali esse hominem. Sed hoc nomen JDeus se
+<lb ed="#L" n="29"/>habet ad tres personas sicut commune ad 
+infe<lb break="no" ed="#L" n="30"/>riora, ut Damascenus dicit. Ergo videtur quod
+<lb ed="#L" n="31"/>nomina personarum non possint praedicari de
+<lb ed="#L" n="32"/>hoc nomine Zeus, nisi accidentaliter.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1826">
+                  <lb ed="#L" n="33"/>SED coNTRA EsT quod Augustinus dicit, in 
+Ser<lb break="no" ed="#L" n="34"/>mone de Fide?: Credimus unum Deum unam
+<lb ed="#L" n="35"/>esse divini nominis Trinitatem.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1835">
+                  <lb ed="#L" n="36"/>REsPONDEO DICENDUM quod, sicut iam dictum
+<lb ed="#L" n="37"/>est, licet nomina personalia vel notionalia 
+adie<lb break="no" ed="#L" n="38"/>ctiva non possint praedicari de essentidá; tamen
+<lb ed="#L" n="39"/>substantiva possunt, propter realem identitatem
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="40"/>essentiae et personae. Essentia autem divina non
+<lb ed="#L" n="41"/>solum idem est realiter cum una persona, sed
+<lb ed="#L" n="42"/>cum tribus. Unde et una persona, et duae, et
+<lb ed="#L" n="43"/>tres possunt de essentia praedicari; ut si 
+dica<lb break="no" ed="#L" n="44"/>mus, essentia est Pater et Filius et Spiritus Sanctus.
+<lb ed="#L" n="45"/>Et quia hoc nomen Deus per se habet quod 
+sup<lb break="no" ed="#L" n="46"/>ponat pro essentia, ut dictum est, ideo, sicut
+<lb ed="#L" n="47"/>haec est vera, essentia est tres Personae, ita haec
+<lb ed="#L" n="48"/>est vera, Deus est tres Personae.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1868">
+                  <lb ed="#L" n="49"/>Ap PRIMUM ERGO DICENDUM quod, sicut supra
+<lb ed="#L" n="50"/>dictum est, hoc nomen /Aormo per se habet 
+sup<lb break="no" ed="#L" n="51"/>ponere pro persona; sed ex adiuncto habet quod
+<lb ed="#L" n="52"/>stet pro natura communi. Et ideo haec est
+<lb ed="#L" n="53"/>falsa, homo est omnis homo: quia pro nullo 
+sup<lb break="no" ed="#L" n="54"/>posito verificari potest. Sed hoc nomen Deus
+<lb ed="#L" n="55"/>per se habet quod stet pró essentia. Unde, licet
+<lb ed="#L" n="56"/>pro nullo suppositorum divinae naturae haec sit
+<lb ed="#L" n="57"/>vera, Deus est Trinitas, est tamen vera pro 
+es<lb break="no" ed="#L" n="58"/>sentia. - Quod non attendens, Porretanus eam
+<lb ed="#L" n="59"/>negavit.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1894">
+                  <lb ed="#L" n="60"/>AD SECUNDUM DICENDUM quod, cum dicitur,
+<lb ed="#L" n="61"/>vel divina essentia est Pater, est praedicatio per
+<lb ed="#L" n="62"/>identitatem, non autem sicut inférioris de 
+supe<lb break="no" ed="#L" n="63"/>riori: quia in divinis non est universale et 
+sin<lb break="no" ed="#L" n="64"/>gulare. Unde, sicut est per se ista ?, Pater est
+<lb ed="#L" n="65"/>Deus, ita et ista, Deus est Pater; et nullo modo
+<lb ed="#L" n="66"/>per accidens.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e247-Dd1e1913"><!-- p1-q39-a7 -->
+               <head xml:id="TAca84-d1e247-Hd1e1916">Articulus 7</head>
+               <head xml:id="TAca84-d1e247-Hd1e1918" type="question-title">
+  utrum nomina essentialia sint approprianda personis
+</head>
+               <p xml:id="TAca84-d1e247-d1e1921">
+                  <pb ed="#L" n="407"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="2"/>UTRUM NOMINA ESSENTIALIA SINT APPROPRIANDA PERSONIS
+</p>
+               <p xml:id="TAca84-d1e247-d1e1932">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>nomina essentialia non sint 
+approprian<lb break="no" ed="#L" n="5"/>da Personis. Quod enim potest vergere
+<lb ed="#L" n="6"/>in errorem fidei, vitandum est in 
+di<lb break="no" ed="#L" n="7"/>quia, ut Hieronymus dicit, ex verbis 
+in<lb break="no" ed="#L" n="8"/>ordinate prolatis incurritur haeresis. Sed ea quae
+<lb ed="#L" n="9"/>sunt communia tribus Personis appropriare alicui,
+<lb ed="#L" n="10"/>potest vergere in errorem fidei: quia potest 
+in<lb break="no" ed="#L" n="11"/>telligi quod vel illi tantum Personae conveniant
+<lb ed="#L" n="12"/>cui appropriantur; vel quod magis conveniant
+<lb ed="#L" n="13"/>ei quam aliis. Ergo essentialia attributa non sunt
+<lb ed="#L" n="14"/>approprianda Personis.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1963">
+                  <lb ed="#L" n="15"/>2. PRAETEREA, essentialia attributa, in abstracto
+<lb ed="#L" n="16"/>significata, significant per modum formae. Sed
+<lb ed="#L" n="17"/>una persona non se habet ad aliam ut forma:
+<lb ed="#L" n="18"/>cum forma ab eo cuius est forma, supposito non
+<lb ed="#L" n="19"/>distinguatur. Ergo essentialia attributa, maxime
+<lb ed="#L" n="20"/>in abstracto significata, non debent appropriari
+<lb ed="#L" n="21"/>Personis.
+</p>
+               <p xml:id="TAca84-d1e247-d1e1982">
+                  <lb ed="#L" n="22"/>3. PnaETEREA, proprium prius est appropriato:
+<lb ed="#L" n="23"/>proprium enim est de ratione appropriati. Sed
+<lb ed="#L" n="24"/>essentialia attributa, secundum modum 
+intelli<lb break="no" ed="#L" n="25"/>gendi, sunt priora personis, sicut commune est
+<lb ed="#L" n="26"/>prius proprio. Ergo essentialia attributa non 
+de<lb break="no" ed="#L" n="27"/>bent esse appropriata ?
+</p>
+               <p xml:id="TAca84-d1e247-d1e1998">
+                  <lb ed="#L" n="28"/>SED CONTRA EST quod Apostolus dicit, I Cor. 1:
+<lb ed="#L" n="29"/>Christum, Dei virtutem et Dei sapientiam.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2005">
+                  <lb ed="#L" n="30"/>RESPONDEO DICENDUM quod, ad manifestationem
+<lb ed="#L" n="31"/>fidei, conveniens fuit essentialia attributa Personis
+<lb ed="#L" n="32"/>appropriari. Licet enim Trinitas Personarum 
+de<lb break="no" ed="#L" n="33"/>monstratione probari non possit, ut supra 
+di<lb break="no" ed="#L" n="34"/>ctum est, convenit tamen ut per aliqua magis
+<lb ed="#L" n="35"/>manifesta declaretur. Essentialia vero attributa
+<lb ed="#L" n="36"/>sunt nobis magis manifesta secundum rationem,
+<lb ed="#L" n="37"/>quam propria Personarum: quia ex creaturis, ex
+<lb ed="#L" n="38"/>quibus cognitionem accipimus, possumus per 
+cer<lb break="no" ed="#L" n="39"/>titudinem devenire in cognitionem essentialium
+<lb ed="#L" n="40"/>attributorum; non autem in cognitionem 
+persona<lb break="no" ed="#L" n="41"/>lium proprietatum, ut supra dictum est. Sicut
+<lb ed="#L" n="42"/>igitur similitudine vestigii vel imaginis in creaturis
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43"/>inventa utimur ad manifestationem divinarum
+<lb ed="#L" n="44"/>Personarum, ita et essentialibus attributis. Et haec
+<lb ed="#L" n="45"/>manifestatio Personarum per essentialia attributa,
+<lb ed="#L" n="46"/>appropriatio nominatur.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2047">
+                  <lb ed="#L" n="47"/>Possunt autem manifestari Personae divinae
+<lb ed="#L" n="48"/>per essentialia attributa dupliciter. Uno modo,
+<lb ed="#L" n="49"/>per viam similitudinis: sicut ea quae pertinent ad
+<lb ed="#L" n="50"/>intellectum, appropriantur Filio, qui procedit per
+<lb ed="#L" n="51"/>modum intellectus ut Verbum. Alio modo, per
+<lb ed="#L" n="52"/>modum dissimilitudinis: sicut potentia 
+appropria<lb break="no" ed="#L" n="53"/>tur Patri, ut Augustinus dicit, quia apud nos
+<lb ed="#L" n="54"/>patres solent esse propter senectutem infirmi; ne
+<lb ed="#L" n="55"/>tale aliquid suspicemur in Deo.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2069">
+                  <lb ed="#L" n="56"/>AD PRIMUM ERGO DICENDUM quod essentialia 
+at<lb break="no" ed="#L" n="57"/>tributa non sic appropriantur Personis ut eis esse
+<lb ed="#L" n="58"/>propria asserantur: sed ad .manifestandum 
+Per<lb break="no" ed="#L" n="59"/>sonas per viam similitudinis vel dissimilitudinis,
+<lb ed="#L" n="60"/>ut dictum est. Unde nullus error fidei sequitur,
+<lb ed="#L" n="61"/>sed magis manifestatio veritatis.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2085">
+                  <lb ed="#L" n="62"/>ÀD SECUNDUM DICENDUM quod, si sic 
+appropria<lb break="no" ed="#L" n="63"/>rentur essentialia attributa Personis, quod essent
+<lb ed="#L" n="64"/>eis propria, sequeretur quod una persona se 
+ha<lb break="no" ed="#L" n="65"/>beret ad aliam in habitudine formae. Quod 
+ex<lb break="no" ed="#L" n="66"/>cludit Augustinus, in VII de Zrin., ostendens
+<lb ed="#L" n="67"/>quod Pater non est sapiens sapientia quam 
+ge<lb break="no" ed="#L" n="68"/>nuit, quasi solus Filius sit sapientia; ut sic Pater
+<lb ed="#L" n="69"/>et Filius simul tantum possint dici sapiens, non
+<lb ed="#L" n="70"/>autem Pater sine Filio. Sed Filius dicitur sapientia
+<lb ed="#L" n="71"/>Patris, quia est sapientia de Patre sapientia ": 
+uter<lb break="no" ed="#L" n="72"/>que enim per se est sapientia, et simul ambo una
+<lb ed="#L" n="73"/>sapientia. Unde Pater non est sapiens sapientia
+<lb ed="#L" n="74"/>quam genuit, sed sapientia quae est sua essentia.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2117">
+                  <lb ed="#L" n="75"/>AD TERTIUM DICENDUM quod, licet essentiale 
+at<lb break="no" ed="#L" n="76"/>tributum, secundum rationem propriam, sit prius
+<lb ed="#L" n="77"/>quam Persona, secundum modum intelligendi;
+<lb ed="#L" n="78"/>tamen, inquantum habet rationem appropriati ,
+<lb ed="#L" n="79"/>nihil prohibet proprium Personae esse prius quam
+<lb ed="#L" n="80"/>appropriatum. Sicut color posterior est corpore,
+<lb ed="#L" n="81"/>inquantum est corpus: prius tamen est " 
+natura<lb break="no" ed="#L" n="82"/>liter corpore albo, inquantum est album.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e247-Dd1e2139"><!-- p1-q39-a8 -->
+               <head xml:id="TAca84-d1e247-Hd1e2142">Articulus 8</head>
+               <head xml:id="TAca84-d1e247-Hd1e2144" type="question-title">
+  utrum convenienter a sacris doctoribus sint essentialia personis attributa
+</head>
+               <p xml:id="TAca84-d1e247-d1e2147">
+                  <pb ed="#L" n="408"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="2"/>UTRUM CONVENIENTER A SACRIS DOCTORIBUS SINT ESSENTIALIA PERSONIS ATTRIBUTA
+</p>
+               <p xml:id="TAca84-d1e247-d1e2158">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>CEAWP) inconvenienter a sacris Doctoribus sint
+<lb ed="#L" n="5"/>MEN o essentialia Personis attributa ^. Dicit enim
+<lb ed="#L" n="6"/>5 Ny Hilarius, in II de 7rin.: Aeternitas est
+<lb ed="#L" n="7"/>in Patre, species in Imagine, usus in Munere. In
+<lb ed="#L" n="8"/>quibus verbis ponit tria nomina propria 
+Persona<lb break="no" ed="#L" n="9"/>8 rum: scilicet nomen Patris ^; et nomen Imaginis,
+<lb ed="#L" n="10"/>"Qu.xxxs,artz. quod est proprium Filio, ut supra dictum est;
+<lb ed="#L" n="11"/>et nomen Muneris, sive Doni, quod est proprium
+<lb ed="#L" n="12"/>;QQP xw, Spiritus. Sancti, ut supra habitum est. Ponit
+<lb ed="#L" n="13"/>etiam tria appropriata: nam aeternitatem 
+appro<lb break="no" ed="#L" n="14"/>priat Patri, speciem Filio, usum Spiritui Sancto.
+<lb ed="#L" n="15"/>Et videtur quod irrationabiliter. Nam aeternitas
+<lb ed="#L" n="16"/>importat durationem essendi, species vero est 
+es<lb break="no" ed="#L" n="17"/>sendi principium, usus vero ad operationem 
+per<lb break="no" ed="#L" n="18"/>tinere videtur. Sed essentia et operatio nulli 
+Per<lb break="no" ed="#L" n="19"/>sonae appropriari inveniuntur. Ergo 
+inconvenien<lb break="no" ed="#L" n="20"/>ter videntur ista appropriata Personis.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2202">
+                  <lb ed="#L" n="21"/>2. PRAETEREA ?, Augustinus, in I de Doctr.
+<lb ed="#L" n="22"/>Christ., sic dicit: Zn Patre est unitas, in Filio
+<lb ed="#L" n="23"/>aequalitas, in Spiritu Sancto unitatis aequalitatisque
+<lb ed="#L" n="24"/>concordia. Et videtur quod inconvenienter. Quia
+<lb ed="#L" n="25"/>una Persona non denominatur formaliter per id
+<lb ed="#L" n="26"/>quod appropriatur alteri: non enim est sapiens
+<lb ed="#L" n="27"/>Pater sapientia genita, ut dictum est. Sed, sicut
+<lb ed="#L" n="28"/>ibidem subditur, tria haec unum omnia sunt 
+pro<lb break="no" ed="#L" n="29"/>pter Patrem, aequalia omnia propter Filium, 
+con<lb break="no" ed="#L" n="30"/>nexa omnia propter Spiritum Sanctum. Non ergo
+<lb ed="#L" n="31"/>convenienter appropriantur Personis.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2229">
+                  <lb ed="#L" n="32"/>3. Item, secundum Augustinum, Patri 
+attribui<lb break="no" ed="#L" n="33"/>tur potentia, Filio sapientia, Spiritui Sancto 
+boni<lb break="no" ed="#L" n="34"/>tas. Et videtur hoc esse inconveniens. Nam virtus
+<lb ed="#L" n="35"/>ad potentiam pertinet. Virtus autem invenitur 
+ap<lb break="no" ed="#L" n="36"/>propriari Filio, secundum illud I ad Cor. 1
+<lb ed="#L" n="37"/>Christum, Dei virtutem ; et etiam Spiritui Sancto,
+<lb ed="#L" n="38"/>secundum illud Luc. vi: Virtus de illo exibat,
+<lb ed="#L" n="39"/>et sanabat omnes. Non ergo potentia Patri est 
+ap<lb break="no" ed="#L" n="40"/>proprianda.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2251">
+                  <lb ed="#L" n="41"/>4. Item, Augustinus, in libro de 7rin., dicit:
+<lb ed="#L" n="42"/>Non confuse accipiendum est quod vd "Apostolus,
+<lb ed="#L" n="43"/>« ex ipso, et per ipsum, et in ipso» — « ex ipso »
+<lb ed="#L" n="44"/>dicens propter Patrem; « per ipsum » propler 
+Fi<lb break="no" ed="#L" n="45"/>lium; « in ipso » propter Spiritum Sanctum. Sed
+<lb ed="#L" n="46"/>videtur quod inconvenienter. Quia per hoc quod
+<lb ed="#L" n="47"/>dicit in ipso, videtur importari habitudo causae
+<lb ed="#L" n="48"/>finalis, quae est prima causarum. Ergo ista 
+habi<lb break="no" ed="#L" n="49"/>tudo causae deberet appropriari Patri, qui est 
+prin<lb break="no" ed="#L" n="50"/>cipium non de principio.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2275">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="51"/>5. Item, invenitur veritas appropriari Filio, 
+se<lb break="no" ed="#L" n="52"/>cundum illud Ioan. xiv: Ego sum via, veritas
+<lb ed="#L" n="53"/>et vita. Et similiter //ber vitae, secundum illud
+<lb ed="#L" n="54"/>Psalmi xxxix: Zn capite libri scriptum est de me:
+<lb ed="#L" n="55"/>Glossa, idest apud Patrem, qui est caput meum.
+<lb ed="#L" n="56"/>Et similiter hoc quod dico Qui est: quia super
+<lb ed="#L" n="57"/>illud Isa. .xv, Ecce ego, ad gentes, dicit Glossa:
+<lb ed="#L" n="58"/>Filius loquitur, qui dixit Moysi, Ego sum qui sum.
+<lb ed="#L" n="59"/>- Sed videtur quod propria sint Filii, et non 
+ap<lb break="no" ed="#L" n="60"/>propriata. Nam veritas, secundum Augustinum,
+<lb ed="#L" n="61"/>in libro de Vera Religione, est summa similitudo
+<lb ed="#L" n="62"/>principii, absque omni dissimilitudine: et sic 
+vide<lb break="no" ed="#L" n="63"/>tur quod proprie conveniat Filio, qui habet 
+prin<lb break="no" ed="#L" n="64"/>cipium. - Ziber etiam vitae videtur proprium 
+ali<lb break="no" ed="#L" n="65"/>quid esse, quia significat ens ab alio: omnis enim
+<lb ed="#L" n="66"/>liber ab aliquo scribitur. - Hoc etiam ipsum Qui
+<lb ed="#L" n="67"/>est videtur esse proprium Filio. Quia si, cum "
+<lb ed="#L" n="68"/>Moysi dicitur, Ego sum qui sum, loquitur 
+Trini<lb break="no" ed="#L" n="69"/>tas, ergo Moyses poterat dicere: Zlle qui est Pater
+<lb ed="#L" n="70"/>et Filius et Spiritus Sanctus, misit me ad vos.
+<lb ed="#L" n="71"/>Ergo et ulterius dicere poterat: Z/le qui est Pater
+<lb ed="#L" n="72"/>et Filius et Spiritus Sanctus, misit me ad vos,
+<lb ed="#L" n="73"/>demonstrando certam Personam. Hoc autem est
+<lb ed="#L" n="74"/>falsum : quia nulla persona est Pater et Filius et
+<lb ed="#L" n="75"/>Spiritus Sanctus. Non ergo potest esse commune
+<lb ed="#L" n="76"/>Trinitati: sed est proprium Filii.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2336">
+                  <lb ed="#L" n="77"/>RESPONDEO DICENDUM quod intellectus noster, qui
+<lb ed="#L" n="78"/>ex creaturis in Dei cognitionem manuducitur ,
+<lb ed="#L" n="79"/>oportet quod Deum consideret secundum 
+mo<lb break="no" ed="#L" n="80"/>dum quem ex creaturis assumit. In consideratione
+<lb ed="#L" n="81"/>autem alicuius creaturae, quatuor per ordinem
+<lb ed="#L" n="82"/>nobis occurrunt, Nam primo, consideratur res
+<lb ed="#L" n="83"/>ipsa absolute, inquantum est ens quoddam. 
+Se<lb break="no" ed="#L" n="84"/>cunda autem consideratio rei est, inquantum est
+<lb ed="#L" n="85"/>una. Zeriia consideratio rei est, secundum quod
+<lb ed="#L" n="86"/>inest ei virtus ad operandum et ad causandum.
+<lb ed="#L" n="87"/>Quarta autem consideratio rei est, secundum 
+ha<lb break="no" ed="#L" n="88"/>bitudinem quam habet ad causata. Unde haec
+<lb ed="#L" n="89"/>etiam quadruplex consideratio circa Deum nobis
+<lb ed="#L" n="90"/>occurrit.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2369">
+                  <lb ed="#L" n="91"/>Secundum igitur primam considerationem, qua
+<lb ed="#L" n="92"/>consideratur absolute Deus secundum esse suum,
+<lb ed="#L" n="93"/>sic sumitur appropriatio Hilarii, secundum quam
+<lb ed="#L" n="94"/>aelernitas appropriatur Patri, species Filio, usus
+<lb ed="#L" n="95"/>Spiritui Sancto, - eternitas enim, inquantum
+<lb ed="#L" n="96"/>significat esse non principiatum, similitudinem
+<lb ed="#L" n="97"/>habet cum proprio Patris, qui est principium non
+<lb ed="#L" n="98"/>de principio.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2389">
+                  <pb ed="#L" n="409"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Species autem, sive pulchritudo, habet 
+similitu<lb break="no" ed="#L" n="2"/>dinem cum propriis Filii. Nam ad 
+pulchritudi<lb break="no" ed="#L" n="3"/>nem tria requiruntur. Primo quidem, integritas
+<lb ed="#L" n="4"/>sive perfectio: quae enim diminuta sunt, hoc ipso
+<lb ed="#L" n="5"/>turpia sunt. Et debita proportio sive consonantia.
+<lb ed="#L" n="6"/>Et iterum claritas: unde quae habent colorem
+<lb ed="#L" n="7"/>nitidum ^, pulchra esse dicuntur. - Quantum igitur
+<lb ed="#L" n="8"/>ad primum, similitudinem habet cum proprio
+<lb ed="#L" n="9"/>Filii, inquantum est Filius habens in se vere et
+<lb ed="#L" n="10"/>perfecte naturam Patris. Unde, ad hoc 
+innuen<lb break="no" ed="#L" n="11"/>- dum, Augustinus in sua expositione dicit: ubi,
+<lb ed="#L" n="12"/>scilicet in Filio, summa et prima " vita est, etc.
+<lb ed="#L" n="13"/>Quantum vero ad secundum, convenit cum 
+pro<lb break="no" ed="#L" n="14"/>prio Filii, inquantum est imago expressa Patris.
+<lb ed="#L" n="15"/>Unde videmus quod aliqua imago dicitur esse
+<lb ed="#L" n="16"/>pulchra, si perfecte repraesentat rem, quamvis
+<lb ed="#L" n="17"/>turpem. Et hoc tetigit Augustinus cum dicit:
+<lb ed="#L" n="18"/>ubi est tanta convenientia 5, et prima aequalitas, etc.
+<lb ed="#L" n="19"/>Quantum vero ad tertium, convenit cum proprio
+<lb ed="#L" n="20"/>Filii, inquantum est Verbum, quod quidem /ux
+<lb ed="#L" n="21"/>» est, ef splendor intellectus, ut Damascenus dicit.
+<lb ed="#L" n="22"/>: Et hoc tangit Augustinus cum dicit: tanquam
+<lb ed="#L" n="23"/>Verbum perfectum cui non desit aliquid, et ars
+<lb ed="#L" n="24"/>quaedam omnipotenlis Dei, etc.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2449">
+                  <lb ed="#L" n="25"/>Usus autem habet similitudinem cum propriis
+<lb ed="#L" n="26"/>Spiritus Sancti, largo modo accipiendo usum, 
+se<lb break="no" ed="#L" n="27"/>cundum quod ufi comprehendit sub se etiam
+<lb ed="#L" n="28"/>frui; prout uti est assumere aliquid in facultatem
+<lb ed="#L" n="29"/>voluntatis, et frui est cum gaudio uti, ut 
+Augusti<lb break="no" ed="#L" n="30"/>nus, X de JTrin., dicit. Usus ergo quo Pater et
+<lb ed="#L" n="31"/>Filius se invicem fruuntur, convenit cum proprio
+<lb ed="#L" n="32"/>Spiritus Sancti, inquantum est Amor. Et hoc est
+<lb ed="#L" n="33"/>quod Augustinus dicit: <quote xml:id="TAca84-d1e247-Qd1e2470">Illa dilectio, delectatio ,
+<lb ed="#L" n="34"/>felicitas vel beatitudo, usus ab illo appellatus est</quote>.
+<lb ed="#L" n="35"/>Usus vero quo nos fruimur Deo ?, similitudinem
+<lb ed="#L" n="36"/>habet cum proprio Spiritus Sancti, inquantum est
+<lb ed="#L" n="37"/>Donum. Et hoc ostendit Augustinus cum dicit:
+<lb ed="#L" n="38"/>Est in Trinitate Spiritus Sanctus, Genitoris 
+Ge<lb break="no" ed="#L" n="39"/>nilique suavitas, ingenti largitate atque ubertate
+<lb ed="#L" n="40"/>nos ? perfundens.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2489">
+                  <lb ed="#L" n="41"/>Et sic patet quare aeternitas, species et usus
+<lb ed="#L" n="42"/>Personis attribuantur vel approprientur ^, non 
+au<lb break="no" ed="#L" n="43"/>tem essentia vel operatio. Quia in ratione horum,
+<lb ed="#L" n="44"/>propter sui communitatem, non invenitur aliquid
+<lb ed="#L" n="45"/>similitudinem habens cum propriis Personarum.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2502">
+                  <lb ed="#L" n="46"/>Secunda vero consideratio Dei est, inquantum
+<lb ed="#L" n="47"/>consideratur ut unus. Et sic Augustinus Patri 
+ap<lb break="no" ed="#L" n="48"/>propriat unitatem, Filio aequalitas, Spiritui 
+San<lb break="no" ed="#L" n="49"/>cto concordiam sive connexionem. Quae quidem
+<lb ed="#L" n="50"/>tria unitatem impoftare manifestum est: sed 
+diffe<lb break="no" ed="#L" n="51"/>renter Nam unifas dicitur absolute, non 
+praesup<lb break="no" ed="#L" n="52"/>ponens aliquid aliud. Et ideo Sppropriatur 
+Pa<lb break="no" ed="#L" n="53"/>tri; qui non praesupponit aliquam personam,
+<lb ed="#L" n="54"/>cum sit principium non de principio. - Aequalitas
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="55"/>autem importat unitatem in respectu ad alterum:
+<lb ed="#L" n="56"/>nam aequale est quod habet unam quantitatem
+<lb ed="#L" n="57"/>cum alio. Et ideo aequalitas appropriatur Filio,
+<lb ed="#L" n="58"/>qui est principium de principio. - Connexio 
+au<lb break="no" ed="#L" n="59"/>tem importat unitatem aliquorum duorum. Unde
+<lb ed="#L" n="60"/>appropriatur Spiritui Sancto, inquantum est a
+<lb ed="#L" n="61"/>duobus.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2541">
+                  <lb ed="#L" n="62"/>Ex quo etiam intelligi potest quod dicit 
+Au<lb break="no" ed="#L" n="63"/>gustinus, fria esse unum propter Patrem, aequalia
+<lb ed="#L" n="64"/>propler Filium, connexa propter Spiritum | 
+San<lb break="no" ed="#L" n="65"/>cium. Manifestum est enim quod illi attribuitur
+<lb ed="#L" n="66"/>unumquodque, in quo primo invenitur: sicut
+<lb ed="#L" n="67"/>omnia inferiora dicuntur vivere propter animam
+<lb ed="#L" n="68"/>vegetabilem, in qua primo invenitur ratio vitae
+<lb ed="#L" n="69"/>in istis inferioribus. Unitas autem statim 
+inveni<lb break="no" ed="#L" n="70"/>tur in persona Patris, etiam, per impossibile, 
+re<lb break="no" ed="#L" n="71"/>motis aliis Personis. Et ideo aliae Personae a
+<lb ed="#L" n="72"/>Patre habent unitatem. — Sed remotis aliis 
+Perso<lb break="no" ed="#L" n="73"/>nis, non invenitur aequalitas in Patre: sed 
+sta<lb break="no" ed="#L" n="74"/>tim, posito Filio, invenitur aequalitas. Et ideo 
+di<lb break="no" ed="#L" n="75"/>cuntur omnia aequalia propter Filium: non quod
+<lb ed="#L" n="76"/>Filius sit principium aequalitatis Patri; sed quia,
+<lb ed="#L" n="77"/>nisi esset Patri aequalis Filius, Pater aequalis
+<lb ed="#L" n="78"/>non posset dici. Aequalitas enim eius primo 
+con<lb break="no" ed="#L" n="79"/>sideratur ad Filium: hoc enim ipsum quod 
+Spi<lb break="no" ed="#L" n="80"/>ritus Sanctus Patri aequalis est, a Filio habet. —
+<lb ed="#L" n="81"/>Similiter, excluso Spiritu Sancto, qui est duorum
+<lb ed="#L" n="82"/>nexus, non posset intelligi unitas connexionis 
+in<lb break="no" ed="#L" n="83"/>ter Patrem et Filium. Et ideo dicuntur omnia esse
+<lb ed="#L" n="84"/>connexa propter Spiritum Sanctum : quia, posito
+<lb ed="#L" n="85"/>Spiritu Sancto, invenitur unde Pater et Filius 
+pos<lb break="no" ed="#L" n="86"/>sint dici connexi.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2598">
+                  <lb ed="#L" n="87"/>Secundum vero tertiam considerationem , qua
+<lb ed="#L" n="88"/>in Deo sufficiens virtus consideratur ad 
+causan<lb break="no" ed="#L" n="89"/>dum, sumitur tertia appropriatio, scilicet 
+poten<lb break="no" ed="#L" n="90"/>liae, sapientiae et bonitatis. Quae quidem 
+ap<lb break="no" ed="#L" n="91"/>propriatio fit et secundum rationem ' similitudinis,
+<lb ed="#L" n="92"/>si consideretur quod" in divinis Personis est: et
+<lb ed="#L" n="93"/>secundum rationem dissimilitudinis, si 
+considere<lb break="no" ed="#L" n="94"/>tur quod in creaturis est. Potentia enim habet
+<lb ed="#L" n="95"/>rationem principii. Unde habet similitudinem cum
+<lb ed="#L" n="96"/>Patre caelesti, qui est principium totius 
+divinita<lb break="no" ed="#L" n="97"/>tis ^, Deficit autem interdum patri terreno, 
+pro<lb break="no" ed="#L" n="98"/>pter senectutem. - Sapientia vero similitudinem
+<lb ed="#L" n="99"/>habet cum Filio caelesti, inquantum est Verbum,
+<lb ed="#L" n="100"/>quod nihil aliud est quam conceptus sapientiae.
+<lb ed="#L" n="101"/>Deficit autem interdum filio terreno, propter 
+tem<lb break="no" ed="#L" n="102"/>poris paucitatem. - Bonitas autem, cum sit ratio
+<lb ed="#L" n="103"/>et obiectum amoris, habet similitudinem cum
+<lb ed="#L" n="104"/>Spiritu divino, qui est Amor. Sed repugnantiam
+<lb ed="#L" n="105"/>habere videtur ad spiritum terrenum, secundum
+<lb ed="#L" n="106"/>quod importat violentam quandam ^? 
+impulsio<lb break="no" ed="#L" n="107"/>nem; prout dicitur Isa. xxv: spiritus robustorum
+<lb ed="#L" n="108"/>quasi turbo impellens parietem.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2648">
+                  <pb ed="#L" n="410"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Virtus autem appropriatur Filio et Spiritui 
+San<lb break="no" ed="#L" n="2"/>cto, non secundum quod virtus dicitur ipsa 
+po<lb break="no" ed="#L" n="3"/>tentia rei: sed secundum quod interdum virtus
+<lb ed="#L" n="4"/>dicitur id quod a potentia rei procedit, prout 
+di<lb break="no" ed="#L" n="5"/>cimus aliquod virtuosum factum esse »virtutem
+<lb ed="#L" n="6"/>alicuius agentis.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2669">
+                  <lb ed="#L" n="7"/>Secundum vero quartam considerationem, prout
+<lb ed="#L" n="8"/>consideratur Deus in habitudine ad suos effectus,
+<lb ed="#L" n="9"/>sumitur illa appropriatio ex quo, per quem, et in
+<lb ed="#L" n="10"/>quo. Haec enim praepositio ex importat 
+quando<lb break="no" ed="#L" n="11"/>que quidem habitudinem ?' causae materialis, quae
+<lb ed="#L" n="12"/>locum non habet in divinis: aliquando vero 
+habi<lb break="no" ed="#L" n="13"/>tudinem causae efficientis. Quae quidem competit
+<lb ed="#L" n="14"/>Deo ratione suae potentiae activae: unde et ?
+<lb ed="#L" n="15"/>appropriatur Patri, sicut et potentia. - Haec vero
+<lb ed="#L" n="16"/>praepositio per designat quidem quandoque 
+cau<lb break="no" ed="#L" n="17"/>sam mediam; sicut dicimus quod faber operatur
+<lb ed="#L" n="18"/>per martellum. Et sic ly per quandoque non est
+<lb ed="#L" n="19"/>appropriatum, sed proprium Filii, secundum illud
+<lb ed="#L" n="20"/>Ioan. 1: Omnia per ipsum facta sunt; non quia
+<lb ed="#L" n="21"/>Filius sit instrumentum, sed quia ipse est 
+prin<lb break="no" ed="#L" n="22"/>cipium de principio. Quandoque vero designat
+<lb ed="#L" n="23"/>habitudinem formae per quam agens operatur ;
+<lb ed="#L" n="24"/>sicut dicimus quod artifex operatur per artem.
+<lb ed="#L" n="25"/>Unde, sicut sapientia et ars appropriantur Filio,
+<lb ed="#L" n="26"/>ita et ly per quem. - Haec vero praepositio Zn
+<lb ed="#L" n="27"/>denotat proprie habitudinem continentis. Continet
+<lb ed="#L" n="28"/>autem Deus res dupliciter. Uno modo, secundum
+<lb ed="#L" n="29"/>suas similitudines; prout scilicet res dicuntur esse
+<lb ed="#L" n="30"/>in Deo, inquantum sunt in eius scientia. Et sic hoc
+<lb ed="#L" n="31"/>quod dico zm ipso, esset appropriandum Filio.
+<lb ed="#L" n="32"/>Alio vero modo continentur res a Deo, inquantum
+<lb ed="#L" n="33"/>Deus sua bonitate" eas conservat et gubernat,
+<lb ed="#L" n="34"/>ad finem convenientem adducendo. Et sic ly in
+<lb ed="#L" n="35"/>quo appropriatur Spiritui Sancto, sicut et bonitas.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2734">
+                  <lb ed="#L" n="36"/>Nec oportet quod habitudo causae finalis, 
+quam<lb break="no" ed="#L" n="37"/>vis sit prima causarum, approprietur Patri, qui
+<lb ed="#L" n="38"/>est principium non de principio: quia Personae
+<lb ed="#L" n="39"/>divinae, quarum Pater est principium, non 
+proce<lb break="no" ed="#L" n="40"/>dunt ut ad finem, cum quaelibet illarum sit 
+ulti<lb break="no" ed="#L" n="41"/>mus finis; sed naturali processione, quae magis
+<lb ed="#L" n="42"/>ad rationem naturalis potentiae pertinere videtur.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2752">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="43"/>Ad illud vero quod de aliis quaeritur, 
+dicen<lb break="no" ed="#L" n="44"/>dum quod veritas, cum pertineat ad intellectum,
+<lb ed="#L" n="45"/>ut supra dictum est, appropriatur Filio: non
+<lb ed="#L" n="46"/>tamen est proprium eius. Quia veritas, ut 
+su<lb break="no" ed="#L" n="47"/>pra dictum est, considerari " potest prout est in
+<lb ed="#L" n="48"/>intellectu, vel prout est in re. Sicut igitur 
+intelle<lb break="no" ed="#L" n="49"/>ctus et res essentialiter sumpta sunt essentialia
+<lb ed="#L" n="50"/>et non personalia, ita et veritas. - Definitio 
+au<lb break="no" ed="#L" n="51"/>tem Augustini inducta ?, datur de veritate 
+secun<lb break="no" ed="#L" n="52"/>dum quod appropriatur Filio.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2778">
+                  <lb ed="#L" n="53"/>Liber autem vitae in recto quidem importat
+<lb ed="#L" n="54"/>notitiam, sed in obliquo vitam: est enim, ut 
+su<lb break="no" ed="#L" n="55"/>pra dictum est, notitia Dei de his qui habituri
+<lb ed="#L" n="56"/>sunt vitam aeternam. Unde appropriatur Filio:
+<lb ed="#L" n="57"/>licet vita approprietur Spiritui Sancto, inquantum
+<lb ed="#L" n="58"/>importat quendam ^^ interiorem motum, et sic
+<lb ed="#L" n="59"/>convenit cum proprio Spiritus Sancti, inquantum
+<lb ed="#L" n="60"/>est Amor. — Esse autem scriptum ab alio, non est
+<lb ed="#L" n="61"/>de ratione libri inquantum est liber "; sed 
+inquan<lb break="no" ed="#L" n="62"/>tum est quoddam artificiatum. Unde non 
+impor<lb break="no" ed="#L" n="63"/>tat originem, neque est personale, sed 
+appropria<lb break="no" ed="#L" n="64"/>tum Personae.
+</p>
+               <p xml:id="TAca84-d1e247-d1e2807">
+                  <lb ed="#L" n="65"/>Ipsum autem Qui est appropriatur personae
+<lb ed="#L" n="66"/>Filii non secundum propriam rationem, sed 
+ra<lb break="no" ed="#L" n="67"/>tione adiuncti : inquantum scilicet in locutione
+<lb ed="#L" n="68"/>Dei ad Moysen, praefigurabatur liberatio humani
+<lb ed="#L" n="69"/>generis, quae facta est per Filium. Sed tamen,
+<lb ed="#L" n="70"/>secundum quod ly Qui sumitur relative, posset
+<lb ed="#L" n="71"/>referre, interdum ? personam Filii: et sic 
+sume<lb break="no" ed="#L" n="72"/>retur personaliter, ut puta si dicatur, Filius est
+<lb ed="#L" n="73"/>genitus Qui est; sicut et Deus genitus personale
+<lb ed="#L" n="74"/>est. Sed infinite sumptum est essentiale. — Et licet
+<lb ed="#L" n="75"/>hoc pronomen ^^ sie, grammatice loquendo, ad
+<lb ed="#L" n="76"/>aliquam certam personam videatur pertinere; 
+ta<lb break="no" ed="#L" n="77"/>men quaelibet res demonstrabilis, grammatice 
+lo<lb break="no" ed="#L" n="78"/>quendo, persona dici potest, licet secundum rei
+<lb ed="#L" n="79"/>naturam non sit persona; dicimus enim zse lapis,
+<lb ed="#L" n="80"/>et isle asinus. Unde et, grammatice loquendo, 
+es<lb break="no" ed="#L" n="81"/>sentia divina, secundum quod significatur et 
+sup<lb break="no" ed="#L" n="82"/>ponitur per hoc nomen Deus, potest demonstrari
+<lb ed="#L" n="83"/>hoc pronomine 7s7e; secundum illud Exod. xv:
+<lb ed="#L" n="84"/>Iste Deus meus, et glorificabo eum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 44</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 44</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="455"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e273"><!-- p1-q44 -->
+            <head xml:id="TAca84-d1e273-Hd1e99">Quaestio 44</head>
+            <head xml:id="TAca84-d1e273-Hd1e101" type="question-title">
+  de processione creaturarum a deo, et de omnium entium
+  prima causa
+</head>
+            <p xml:id="TAca84-d1e273-d1e104">
+               <pb ed="#L" n="455"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO QUADRAGESIMAQUARTA
+<lb ed="#L" n="2"/>DE PROCESSIONE CREATURARUM A DEO, ET DE OMNIUM ENTIUM
+<lb ed="#L" n="3"/>PRIMA CAUSA
+<lb ed="#L" n="4"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e273-d1e120">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="5"/>Post considerationem divinarum Personarum,
+<lb ed="#L" n="6"/>considerandum restat de processione 
+creatu<lb break="no" ed="#L" n="7"/>rarum a Deo. Erit autem haec consideratio 
+tri<lb break="no" ed="#L" n="8"/>partita: ut primo consideretur de productione
+<lb ed="#L" n="9"/>creaturarum ; secundo, de earum distinctione;
+<lb ed="#L" n="10"/>tertio, de conservatione et gubernatione. Circa
+<lb ed="#L" n="11"/>primum tria sunt consideranda: primo quidem,
+<lb ed="#L" n="12"/>quae sit prima causa entium; secundo, de modo
+<lb ed="#L" n="13"/>procedendi creaturarum a prima causa; tertio
+<lb ed="#L" n="14"/>vero, de principio durationis rerum.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="15"/>Circa primum quaeruntur quatuor.
+<lb ed="#L" n="16"/>Primo: utrum Deus sit causa efficiens omnium
+<lb ed="#L" n="17"/>entium.
+<lb ed="#L" n="18"/>Secundo: utrum materia prima sit creata ? a
+<lb ed="#L" n="19"/>Deo, vel sit principiüm ex aequo 
+coordina<lb break="no" ed="#L" n="20"/>tum ei.
+<lb ed="#L" n="21"/>Tertio: utrum Deus sit causa exemplaris rerum,
+<lb ed="#L" n="22"/>vel sint alia ? exemplaria praeter ipsum.
+<lb ed="#L" n="23"/>Quarto: utrum ipse sit causa finalis rerum.
+</p>
+            <div xml:id="TAca84-d1e273-Dd1e168"><!-- p1-q44-a1 -->
+               <head xml:id="TAca84-d1e273-Hd1e171">Articulus 1</head>
+               <head xml:id="TAca84-d1e273-Hd1e173" type="question-title">
+  utrum sit necessarium omne ens esse creatum a deo
+</head>
+               <p xml:id="TAca84-d1e273-d1e176">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>ARTICULUS PRIMUS
+<lb ed="#L" n="25"/>UTRUM SIT NECESSARIUM OMNE ENS ESSE CREATUM A DEO
+</p>
+               <p xml:id="TAca84-d1e273-d1e185">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="26"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="27"/>non sit necessarium omne ens esse 
+crea<lb break="no" ed="#L" n="28"/>tum a Deo. Nihil enim prohibet 
+inve<lb break="no" ed="#L" n="29"/>niri rem sine eo quod non est de ratione
+<lb ed="#L" n="30"/>rei, sicut hominem sine albedine. Sed habitudo
+<lb ed="#L" n="31"/>causati ad causam non videtur esse de ratione
+<lb ed="#L" n="32"/>entium: quia sine hac possunt aliqua entia 
+intel<lb break="no" ed="#L" n="33"/>ligi. Ergo sine hac possunt esse. Ergo nihil 
+pro<lb break="no" ed="#L" n="34"/>hibet,esse aliqua entia non creata a Deo.
+</p>
+               <p xml:id="TAca84-d1e273-d1e209">
+                  <lb ed="#L" n="35"/>2. PRAETEREA, ad hoc aliquid indiget causa 
+effi<lb break="no" ed="#L" n="36"/>ciente, ut sit. Ergo quod non potest non esse, non
+<lb ed="#L" n="37"/>indiget causa efficiente. Sed nullum necessarium
+<lb ed="#L" n="38"/>potest non esse: quia quod necesse est esse, non
+<lb ed="#L" n="39"/>potest non esse. Cum igitur multa sint necessaria in
+<lb ed="#L" n="40"/>rebus, videtur quod non omnia entia sint a Deo.
+</p>
+               <p xml:id="TAca84-d1e273-d1e226">
+                  <lb ed="#L" n="41"/>3. PRAETEREA, quorumcumque " est aliqua causa,
+<lb ed="#L" n="42"/>in his potest fieri demonstratio per causam illam.
+<lb ed="#L" n="43"/>Sed in mathematicis non fit demonstratio per 
+cau<lb break="no" ed="#L" n="44"/>sam agentem, ut per Philosophum patet, in III
+<lb ed="#L" n="45"/>Metaphys. Non igitur omnia entia sunt a Deo
+<lb ed="#L" n="46"/>sicut a causa agente.
+</p>
+               <p xml:id="TAca84-d1e273-d1e242">
+                  <lb ed="#L" n="47"/>SEp cowTRA EsT quod dicitur Rom. xi. .Ex
+<lb ed="#L" n="48"/>ipso, et per- ipsum, et in ipso sunt omnia. .
+</p>
+               <p xml:id="TAca84-d1e273-d1e249">
+                  <lb ed="#L" n="49"/>RESPONDEO DICENDUM quod necesse est dicere
+<lb ed="#L" n="50"/>omne quod quocumque modo est, a Deo esse.
+<lb ed="#L" n="51"/>Si enim aliquid invenitur in aliquo per 
+participa<lb break="no" ed="#L" n="52"/>tionem, necesse est quod causetur in ipso ab eo
+<lb ed="#L" n="53"/>cui essentialiter convenit; sicut ferrum fit ignitum
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="54"/>ab igne. Ostensum est autem supra, cum de
+<lb ed="#L" n="55"/>divina simplicitate ageretur, quod Deus est ipsum
+<lb ed="#L" n="56"/>esse per se subsistens. Et iterum ostensum est
+<lb ed="#L" n="57"/>quod esse subsistens non potest esse nisi unum:
+<lb ed="#L" n="58"/>sicut si albedo esset subsistens, non posset esse
+<lb ed="#L" n="59"/>nisi una, cum albedines multiplicentur secundum
+<lb ed="#L" n="60"/>recipientia. Relinquitur ergo quod omnia alia a
+<lb ed="#L" n="61"/>Deo non sint suum esse, sed participant esse.
+<lb ed="#L" n="62"/>Necesse est igitur omnia quae diversificantur 
+se<lb break="no" ed="#L" n="63"/>cundum diversam participationem essendi, ut sint
+<lb ed="#L" n="64"/>perfectius vel minus perfecte, causari ab uno
+<lb ed="#L" n="65"/>primo ente, quod perfectissime est. - Unde et
+<lb ed="#L" n="66"/>Plato dixit quod necesse est ante omnem 
+multi<lb break="no" ed="#L" n="67"/>tudinem ponere unitatem. Et Aristoteles dicit, in
+<lb ed="#L" n="68"/>II Metaphys., quod id quod est maxime ens et
+<lb ed="#L" n="69"/>maxime verum, est causa omnis entis et omnis
+<lb ed="#L" n="70"/>veri: sicut id quod maxime calidum est, est causa
+<lb ed="#L" n="71"/>omnis caliditatis.
+</p>
+               <p xml:id="TAca84-d1e273-d1e304">
+                  <lb ed="#L" n="72"/>AD PRIMUM ERGO DICENDUM quod, licet habitudo
+<lb ed="#L" n="73"/>ad causam non intret definitionem ? entis quod
+<lb ed="#L" n="74"/>est causatum, tamen sequitur ad ea qua sunt de
+<lb ed="#L" n="75"/>eius ratione: quia ex hoc quod aliquid per 
+parti<lb break="no" ed="#L" n="76"/>cipationem est ens ^, sequitur quod sit causatum
+<lb ed="#L" n="77"/>ab alio. Unde huiusmodi ens non potest esse,
+<lb ed="#L" n="78"/>quin sit causatum ; sicut nec homo, quin sit 
+risi<lb break="no" ed="#L" n="79"/>bile. Sed quia esse causatum non est de ratione
+<lb ed="#L" n="80"/>entis simpliciter, propter hoc invenitur aliquod
+<lb ed="#L" n="81"/>ens non causatum.
+</p>
+               <p xml:id="TAca84-d1e273-d1e328">
+                  <pb ed="#L" n="456"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD SECUNDUM DICENDUM quod ex hac ratione 
+qui<lb break="no" ed="#L" n="2"/>dam moti fuerunt ad ponendum quod id quod
+<lb ed="#L" n="3"/>est necessarium non habeat causam, ut dicitur in
+<lb ed="#L" n="4"/>VIII Physic. Sed hoc manifeste falsum apparet
+<lb ed="#L" n="5"/>in scientiis demonstrativis, in quibus principia 
+ne<lb break="no" ed="#L" n="6"/>cessaria sunt causae conclusionum necessariarum.
+<lb ed="#L" n="7"/>Et ideo dicit Aristoteles, in V Metaphys., quod
+<lb ed="#L" n="8"/>sunt quaedam necessaria quae habent causam
+<lb ed="#L" n="9"/>suae necessitatis. Non ergo propter hoc solum
+<lb ed="#L" n="10"/>requiritur causa agens, quia effectus potest non
+<lb ed="#L" n="11"/>esse: sed quia effectus non esset, si causa non
+<lb ed="#L" n="12"/>esset. Haec enim conditionalis est vera, sive an-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="13"/>tecedens et consequens sint possibilia, sive 
+im<lb break="no" ed="#L" n="14"/>possibilia.
+</p>
+               <p xml:id="TAca84-d1e273-d1e367">
+                  <lb ed="#L" n="15"/>AD TERTIUM DICENDUM quod mathematica 
+acci<lb break="no" ed="#L" n="16"/>piuntur ut abstracta secundum rationem, cum
+<lb ed="#L" n="17"/>tamen non sint abstracta secundum esse. 
+Unicui<lb break="no" ed="#L" n="18"/>que autem competit habere causam agentem, 
+se<lb break="no" ed="#L" n="19"/>cundum quod habet esse. Licet igitur ea quae
+<lb ed="#L" n="20"/>sunt mathematica habeant causam agentem, non
+<lb ed="#L" n="21"/>tamen secundum habitudinem quam habent ad
+<lb ed="#L" n="22"/>causam agentem, cadunt sub consideratione 
+ma<lb break="no" ed="#L" n="23"/>thematici. Et ideo in scientiis mathematicis non
+<lb ed="#L" n="24"/>demonstratur aliquid per causam agentem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e273-Dd1e393"><!-- p1-q44-a2 -->
+               <head xml:id="TAca84-d1e273-Hd1e396">Articulus 2</head>
+               <head xml:id="TAca84-d1e273-Hd1e398" type="question-title">
+  articulus secundus
+  utrum materia prima sit creata a deo
+</head>
+               <p xml:id="TAca84-d1e273-d1e401">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="79"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="80"/>UTRUM MATERIA PRIMA SIT CREATA A DEO
+</p>
+               <p xml:id="TAca84-d1e273-d1e410">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="81"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="82"/>materia prima non sit creata a Deo. Omne
+<lb ed="#L" n="83"/>enim quod fit, componitur ex subiecto
+<lb ed="#L" n="84"/>et ex aliquo alio, ut dicitur in 1 
+Phy<lb break="no" ed="#L" n="85"/>sic.. Sed materiae primae non est aliquod 
+subie<lb break="no" ed="#L" n="86"/>ctum. Ergo materia prima non potest esse facta
+<lb ed="#L" n="87"/>a Deo.
+</p>
+               <p xml:id="TAca84-d1e273-d1e430">
+                  <lb ed="#L" n="88"/>2. PRAETEREA, actio et passio dividuntur contra
+<lb ed="#L" n="89"/>se^ invicem. Sed sicut primum principium 
+acti<lb break="no" ed="#L" n="90"/>vum est Deus, ita primum principium passivum
+<lb ed="#L" n="91"/>est materia. Ergo Deus et materia prima sunt duo
+<lb ed="#L" n="92"/>principia contra se invicem divisa, quorum 
+neu<lb break="no" ed="#L" n="93"/>trum est ab alio.
+</p>
+               <p xml:id="TAca84-d1e273-d1e447">
+                  <lb ed="#L" n="94"/>3. PRAETEREA, omne agens agit sibi simile: et
+<lb ed="#L" n="95"/>Sic, cum omne agens agat inquantum est actu,
+<lb ed="#L" n="96"/>sequitur quod omne factum aliquo modo sit in
+<lb ed="#L" n="97"/>actu. Sed materia prima est tantum in potentia,
+<lb ed="#L" n="98"/>inquantum huiusmodi. Ergo contra rationem 
+ma<lb break="no" ed="#L" n="99"/>teriae primae est, quod sit facta.
+</p>
+               <p xml:id="TAca84-d1e273-d1e463">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="100"/>SED coNTRA EST quod dicit Augustinus, XII 
+Con<lb break="no" ed="#L" n="101"/>fess.: Duo fecisti, Domine, unum prope te, 
+sci<lb break="no" ed="#L" n="102"/>licet angelum, alzud prope nihil, scilicet materiam
+<lb ed="#L" n="103"/>primam ?.
+</p>
+               <p xml:id="TAca84-d1e273-d1e476">
+                  <lb ed="#L" n="104"/>REsPONDEO DICENDUM quod antiqui philosophi
+<lb ed="#L" n="105"/>paulatim, et quasi pedetentim, intraverunt in 
+co<lb break="no" ed="#L" n="106"/>gnitionem veritatis. A principio enim, quasi 
+gros<lb break="no" ed="#L" n="107"/>siores existentes, non existimabant esse entia nisi
+<lb ed="#L" n="108"/>corpora sensibilia. Quorum qui ponebant in eis
+<lb ed="#L" n="109"/>motum, non considerabant motum nisi secundum
+<lb ed="#L" n="110"/>aliqua accidentia, ut puta gosadesa raritatem et
+<lb ed="#L" n="111"/>densitatem, congregationem ? et segregationem. Et
+<lb ed="#L" n="112"/>supponentes ipsam substantiam corporum 
+increa<lb break="no" ed="#L" n="113"/>tam, assignabant aliquas causas huiusmodi 
+ac<lb break="no" ed="#L" n="114"/>cidentalium transmutationum, ut puta amicitiam,
+<lb ed="#L" n="115"/>litem, intellectum, aut aliquid huiusmodi.
+</p>
+               <p xml:id="TAca84-d1e273-d1e505">
+                  <lb ed="#L" n="116"/>Ulterius vero procedentes, distinxerunt per 
+in<lb break="no" ed="#L" n="117"/>tellectum inter formam substantialem et materiam,
+<lb ed="#L" n="118"/>quam ponebant increatam; et perceperunt trans-
+<pb ed="#L" n="458"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>mutationem fieri in corporibus secundum 
+for<lb break="no" ed="#L" n="2"/>mas essentiales. Quarum transmutationum 
+quas<lb break="no" ed="#L" n="3"/>dam causas universaliores ponebant, ut obliquum
+<lb ed="#L" n="4"/>circulum, secundum Aristotelem, vel ideas, 
+se<lb break="no" ed="#L" n="5"/>cundum Platonem.
+</p>
+               <p xml:id="TAca84-d1e273-d1e529">
+                  <lb ed="#L" n="6"/>Sed. considerandum est quod materia per 
+for<lb break="no" ed="#L" n="7"/>mam contrahitur ad determinatam speciem; sicut
+<lb ed="#L" n="8"/>substantia alicuius speciei per accidens ei " 
+adve<lb break="no" ed="#L" n="9"/>niens contrahitur ad determinatum modum 
+es<lb break="no" ed="#L" n="10"/>sendi, ut Aomo contrahitur per album. Utrique
+<lb ed="#L" n="11"/>igitur consideraverunt ens particulari quadam
+<lb ed="#L" n="12"/>consideratione, vel inquantum est hoc ens, vel
+<lb ed="#L" n="13"/>inquantum est /ale ens. Et sic rebus ' causas 
+agen<lb break="no" ed="#L" n="14"/>tes particulares assignaverunt.
+</p>
+               <p xml:id="TAca84-d1e273-d1e551">
+                  <lb ed="#L" n="15"/>Et ulterius aliqui erexerunt se ad 
+consideran<lb break="no" ed="#L" n="16"/>dum ens inquantum est ens: et consideraverunt
+<lb ed="#L" n="17"/>causam rerum, non solum secundum quod sunt
+<lb ed="#L" n="18"/>haec vel talia, sed secundum quod sunt entia.
+<lb ed="#L" n="19"/>Hoc igitur quod est causa rerum inquantum sunt
+<lb ed="#L" n="20"/>entia, oportet esse causam rerum, non solum
+<lb ed="#L" n="21"/>secundum quod sunt £a/ia per formas accidentales,
+<lb ed="#L" n="22"/>nec secundum quod sunt haec per formas 
+sub<lb break="no" ed="#L" n="23"/>stantiales, sed etiam secundum omne illud quod
+<lb ed="#L" n="24"/>pertinet ad esse illorum quocumque modo. Et
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="25"/>sic oportet ponere etiam materiam primam 
+crea<lb break="no" ed="#L" n="26"/>tam ab universali causa entium.
+</p>
+               <p xml:id="TAca84-d1e273-d1e583">
+                  <lb ed="#L" n="27"/>AD PRIMUM ERGO DICENDUM quod Philosophus in
+<lb ed="#L" n="28"/>I Physic. loquitur de fieri particulari, quod est
+<lb ed="#L" n="29"/>de forma in formam, sive accidentalem sive 
+sub<lb break="no" ed="#L" n="30"/>stantialem: nunc autem loquimur de rebus 
+se<lb break="no" ed="#L" n="31"/>cundum emanationem earum ab universali 
+prin<lb break="no" ed="#L" n="32"/>cipio essendi. A qua quidem emanatione nec
+<lb ed="#L" n="33"/>materia excluditur, licet a primo modo factionis
+<lb ed="#L" n="34"/>excludatur.
+</p>
+               <p xml:id="TAca84-d1e273-d1e603">
+                  <lb ed="#L" n="35"/>AD SECUNDUM DICENDUM quod passio est effectus
+<lb ed="#L" n="36"/>actionis. Unde ? et rationabile est quod primum
+<lb ed="#L" n="37"/>principium passivum sit effectus primi principii
+<lb ed="#L" n="38"/>activi: nam omne imperfectum causatur a 
+per<lb break="no" ed="#L" n="39"/>fecto. Oportet enim primum principium esse 
+per<lb break="no" ed="#L" n="40"/>fectissimum , ut dicit Aristoteles, in XII 
+Meta<lb break="no" ed="#L" n="41"/>phys..
+</p>
+               <p xml:id="TAca84-d1e273-d1e621">
+                  <lb ed="#L" n="42"/>AD TERTIUM DICENDUM quod ratio illa non 
+osten<lb break="no" ed="#L" n="43"/>dit quod materia non sit creata, sed quod non
+<lb ed="#L" n="44"/>sit creata sine forma. Licet enim omne creatum
+<lb ed="#L" n="45"/>sit in actu, non tamen est actus purus. Unde
+<lb ed="#L" n="46"/>oportet quod etiam illud quod se habet ex parte
+<lb ed="#L" n="47"/>potentiae, sit creatum, si totum quod ad esse
+<lb ed="#L" n="48"/>ipsius pertinet, creatum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e273-Dd1e640"><!-- p1-q44-a3 -->
+               <head xml:id="TAca84-d1e273-Hd1e643">Articulus 3</head>
+               <head xml:id="TAca84-d1e273-Hd1e645" type="question-title">
+  utrum causa exemplaris sit aliquid praeter deum
+</head>
+               <p xml:id="TAca84-d1e273-d1e648">
+                  <pb ed="#L" n="460"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM CAUSA EXEMPLARIS SIT ALIQUID PRAETER DEUM
+</p>
+               <p xml:id="TAca84-d1e273-d1e659">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>causa exemplaris sit aliquid praeter
+<lb ed="#L" n="5"/>Exemplatum enim habet 
+simili<lb break="no" ed="#L" n="6"/>tudinem exemplaris. Sed creaturae longe
+<lb ed="#L" n="7"/>sunt a divina similitudine. Non ergo Deus est
+<lb ed="#L" n="8"/>causa exemplaris earum.
+</p>
+               <p xml:id="TAca84-d1e273-d1e677">
+                  <lb ed="#L" n="9"/>2. PRAETEREA, omne quod est per 
+participatio<lb break="no" ed="#L" n="10"/>nem, reducitur ad aliquid per se existens, ut 
+igni<lb break="no" ed="#L" n="11"/>tum ad ignem, sicut iam dictum est. Sed 
+quae<lb break="no" ed="#L" n="12"/>cumque sunt in sensibilibus rebus, sunt solum
+<lb ed="#L" n="13"/>per participationem alicuius speciei: quod ex hoc
+<lb ed="#L" n="14"/>patet, quod in nullo sensibilium invenitur solum
+<lb ed="#L" n="15"/>id quod ad rationem speciei pertinet, sed 
+adiun<lb break="no" ed="#L" n="16"/>guntur principiis speciei principia individuantia ^.
+<lb ed="#L" n="17"/>Oportet ergo ponere ipsas species per se 
+existen<lb break="no" ed="#L" n="18"/>tes, ut per se hominem, et per se equum, et 
+huius<lb break="no" ed="#L" n="19"/>modi. Et haec dicuntur exemplaria. Sunt igitur
+<lb ed="#L" n="20"/>exemplaria res quaedam extra Deum.
+</p>
+               <p xml:id="TAca84-d1e273-d1e707">
+                  <lb ed="#L" n="21"/>3. PRAETEREA, scientiae et definitiones sunt de
+<lb ed="#L" n="22"/>ipsis speciebus, non secundum quod sunt in 
+par<lb break="no" ed="#L" n="23"/>ticularibus: quia particularium non est scientia
+<lb ed="#L" n="24"/>nec definitio. Ergo sunt quaedam entia, quae
+<lb ed="#L" n="25"/>sunt entia vel species " non in singularibus. Et
+<lb ed="#L" n="26"/>haec dicuntur exemplaria. Ergo idem quod prius.
+</p>
+               <p xml:id="TAca84-d1e273-d1e723">
+                  <lb ed="#L" n="27"/>4. PRAETEREA, hoc idem videtur per Dionysium,
+<lb ed="#L" n="28"/>qui dicit, v cap. de Div. Nom., quod ipsum 
+se<lb break="no" ed="#L" n="29"/>cundum se esse, prius est eo quod est per se 
+vi<lb break="no" ed="#L" n="30"/>lam esse, et eo quod est per se sapientiam esse.
+</p>
+               <p xml:id="TAca84-d1e273-d1e734">
+                  <lb ed="#L" n="31"/>SED coNTRA EsT quod exemplar est idem quod
+<lb ed="#L" n="32"/>idea. Sed ideae, secundum quod Augustinus 
+li<lb break="no" ed="#L" n="33"/>bro Octoginta trium Quaest. dicit, sunt 
+for<lb break="no" ed="#L" n="34"/>mae principales, quae divina intelligentia 
+conti<lb break="no" ed="#L" n="35"/>nentur. Ergo exemplaria rerum non sunt extra
+<lb ed="#L" n="36"/>Deum.
+</p>
+               <p xml:id="TAca84-d1e273-d1e750">
+                  <lb ed="#L" n="37"/>REsPONDEO DICENDUM quod Deus est prima causa
+<lb ed="#L" n="38"/>exemplaris omnium rerum. Ad cuius evidentiam,
+<lb ed="#L" n="39"/>considerandum est quod ad productionem 
+ali<lb break="no" ed="#L" n="40"/>cuius rei ideo necessarium est exemplar, ut 
+effe<lb break="no" ed="#L" n="41"/>ctus determinatam formam consequatur: artifex
+<lb ed="#L" n="42"/>enim producit determinatam formam in materia,
+<lb ed="#L" n="43"/>propter exemplar ad quod inspicit, siye illud sit
+<lb ed="#L" n="44"/>exemplar ad quod extra intuetur, sive sit 
+exem<lb break="no" ed="#L" n="45"/>plar interius mente conceptum. Manifestum est
+<lb ed="#L" n="46"/>autem quod ea quae naturaliter fiunt, 
+determi<lb break="no" ed="#L" n="47"/>natas formas consequuntur. Haec autem forma-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="48"/>rum determinatio oportet quod reducatur, sicut
+<lb ed="#L" n="49"/>in primum principium, in divinam sapientiam,
+<lb ed="#L" n="50"/>quae ordinem universi excogitavit, qui in rerum
+<lb ed="#L" n="51"/>distinctione consistit. Et ideo oportet dicere quod
+<lb ed="#L" n="52"/>in divina sapientia sunt rationes omnium rerum:
+<lb ed="#L" n="53"/>quas supra diximus ideas, id est formas 
+exem<lb break="no" ed="#L" n="54"/>plares in mente divina existentes. Quae quidem
+<lb ed="#L" n="55"/>licet multiplicentur secundum respectum ad res,
+<lb ed="#L" n="56"/>tamen non sunt realiter aliud a divina essentia,
+<lb ed="#L" n="57"/>prout eius similitudo a diversis participari potest
+<lb ed="#L" n="58"/>diversimode. Sic igitur ipse Deus est primum
+<lb ed="#L" n="59"/>exemplar omnium. - Possunt etiam in rebus 
+crea<lb break="no" ed="#L" n="60"/>tis quaedam aliorum exemplaria dici, secundum
+<lb ed="#L" n="61"/>quod quaedam sunt ad similitudinem aliorum,
+<lb ed="#L" n="62"/>vel secundum eandem speciem, vel secundum
+<lb ed="#L" n="63"/>analogiam alicuius imitationis.
+</p>
+               <p xml:id="TAca84-d1e273-d1e813">
+                  <lb ed="#L" n="64"/>AD PRIMUM ERGO DICENDUM quod, licet creaturae
+<lb ed="#L" n="65"/>non pertingant ad hoc quod sint similes Deo 
+se<lb break="no" ed="#L" n="66"/>cundum suam naturam, similitudine speciei, ut
+<lb ed="#L" n="67"/>homo genitus homini generanti; attingunt tamen
+<lb ed="#L" n="68"/>ad eius similitudinem |. secundum . 
+repraesentatio<lb break="no" ed="#L" n="69"/>nem rationis intellectae a Deo, ut domus quae
+<lb ed="#L" n="70"/>est in materia, domui quae est in mente artificis.
+</p>
+               <p xml:id="TAca84-d1e273-d1e831">
+                  <lb ed="#L" n="71"/>Ap SECUNDUM DICENDUM quod de ratione 
+homi<lb break="no" ed="#L" n="72"/>nis est quod sit in materia: et sic non. potest
+<lb ed="#L" n="73"/>inveniri homo sine materia. Licet igitur hic homo
+<lb ed="#L" n="74"/>sit per participationem speciei, non tamen potest
+<lb ed="#L" n="75"/>reduci ad aliquid existens per se in eadem 
+spe<lb break="no" ed="#L" n="76"/>cie; sed ad speciem superexcedentem, sicut sunt
+<lb ed="#L" n="77"/>substantiae separatae. Et eadem ratio est de aliis "
+<lb ed="#L" n="78"/>sensibilibus.
+</p>
+               <p xml:id="TAca84-d1e273-d1e852">
+                  <lb ed="#L" n="79"/>Ap TERTIUM DICENDUM quod,
+<lb ed="#L" n="80"/>scientia et definitio sit solum entium, non tamen
+<lb ed="#L" n="81"/>oportet quod res eundem modum habeant in
+<lb ed="#L" n="82"/>essendo, quem intellectus habet in intelligendo.
+<lb ed="#L" n="83"/>Nos enim, per virtutem intellectus agentis, 
+abstra<lb break="no" ed="#L" n="84"/>himus species universales a particularibus 
+condi<lb break="no" ed="#L" n="85"/>tionibus: non tamen oportet quod universalia
+<lb ed="#L" n="86"/>praeter particularia subsistant, ut particularium
+<lb ed="#L" n="87"/>exemplaria.
+</p>
+               <p xml:id="TAca84-d1e273-d1e874">
+                  <lb ed="#L" n="88"/>AD QUARTUM DICENDUM quod, sicut dicit 
+Diony<lb break="no" ed="#L" n="89"/>sius, xi cap. de Div. Nom.,
+<lb ed="#L" n="90"/>se sapientiam quandoque ,nominat ipsum Deum,
+<lb ed="#L" n="91"/>quandoque virtutes ipsis rebus datas: non autem
+<lb ed="#L" n="92"/>quasdam subsistentes res, sicut antiqui posuerunt.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e273-Dd1e888"><!-- p1-q44-a4 -->
+               <head xml:id="TAca84-d1e273-Hd1e891">Articulus 4</head>
+               <head xml:id="TAca84-d1e273-Hd1e893" type="question-title">
+  utrum deus sit causa finalis omnium
+</head>
+               <p xml:id="TAca84-d1e273-d1e896">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="71"/>ARTICULUS QUARTUS
+<lb ed="#L" n="72"/>UTRUM DEUS SIT CAUSA FINALIS OMNIUM
+</p>
+               <p xml:id="TAca84-d1e273-d1e905">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="73"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="74"/>Deus non sit causa finalis omnium.
+<lb ed="#L" n="75"/>Agere enim propter finem videtur esse
+<lb ed="#L" n="76"/>alicuius indigentis fine. Sed Deus nullo
+<lb ed="#L" n="77"/>est indigens. Ergo non competit sibi agere 
+pro<lb break="no" ed="#L" n="78"/>pter finem.
+</p>
+               <p xml:id="TAca84-d1e273-d1e923">
+                  <lb ed="#L" n="79"/>2. PRAETEREA, finis generationis et forma 
+ge<lb break="no" ed="#L" n="80"/>nerati et agens non incidunt in idem numero,
+<lb ed="#L" n="81"/>ut dicitur in II Physic.: quia finis generationis
+<lb ed="#L" n="82"/>est forma generati. Sed Deus est primum agens
+<lb ed="#L" n="83"/>omnium. Non ergo est causa finalis omnium.
+</p>
+               <p xml:id="TAca84-d1e273-d1e937">
+                  <lb ed="#L" n="84"/>3. PRAETEREA, finem omnia appetunt. Sed Deum
+<lb ed="#L" n="85"/>non omnia appetunt: quia neque omnia ipsum
+<lb ed="#L" n="86"/>cognoscunt. Deus ergo non est omnium finis.
+</p>
+               <p xml:id="TAca84-d1e273-d1e946">
+                  <lb ed="#L" n="87"/>4. PRAETEREA, finalis causa ? est prima 
+causa<lb break="no" ed="#L" n="88"/>rum. Si igitur Deus sit causa agens et causa 
+fi<lb break="no" ed="#L" n="89"/>nalis, sequitur quod in eo sit prius et posterius.
+<lb ed="#L" n="90"/>Quod est impossibile.
+</p>
+               <p xml:id="TAca84-d1e273-d1e957">
+                  <lb ed="#L" n="91"/>SED CONTRA EST quod dicitur Prov. xvi: 
+Uni<lb break="no" ed="#L" n="92"/>versa propler semetipsum operatus est Dominus.
+</p>
+               <p xml:id="TAca84-d1e273-d1e964">
+                  <lb ed="#L" n="93"/>REsPONDEO DICENDUM quod omne agens agit
+<lb ed="#L" n="94"/>propter finem: alioquin ex actione agentis non
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>magis sequeretur hoc quam ? illud, nisi a casu.
+<lb ed="#L" n="96"/>Est autem idem finis agentis et patientis, 
+inquan<lb break="no" ed="#L" n="97"/>tum huiusmodi, sed aliter et aliter: unum enim
+<lb ed="#L" n="98"/>et idem est quod agens intendit imprimere, et
+<lb ed="#L" n="99"/>quod patiens intendit recipere. Sunt autem 
+quae<lb break="no" ed="#L" n="100"/>dam quae simul agunt et patiuntur, quae. sunt
+<lb ed="#L" n="101"/>agentia imperfecta: et his convenit quod. etiam
+<lb ed="#L" n="102"/>in agendo intendant aliquid acquirere. Sed primo
+<lb ed="#L" n="103"/>agenti, qui est agens tantum, non convenit agere
+<lb ed="#L" n="104"/>propter acquisitionem alicuius finis; sed intendit
+<lb ed="#L" n="105"/>solum communicare suam perfectionem, quae est
+<lb ed="#L" n="106"/>eius bonitas. Et unaquaeque creatura intendit
+<lb ed="#L" n="107"/>consequi suam perfectionem, quae est similitudo
+<lb ed="#L" n="108"/>perfectionis et bonitatis divinae. Sic ergo divina
+<lb ed="#L" n="109"/>bonitas est finis rerum omnium.
+</p>
+               <p xml:id="TAca84-d1e273-d1e1006">
+                  <lb ed="#L" n="110"/>AD PRIMUM ERGO DICENDUM quod agere propter
+<lb ed="#L" n="111"/>indigentiam non est nisi agentis imperfecti, quod
+<lb ed="#L" n="112"/>natum est agere et pati. Sed hoc Deo non 
+com<lb break="no" ed="#L" n="113"/>petit. Et ideo ipse solus est maxime liberalis:
+<lb ed="#L" n="114"/>quia non agit propter suam utilitatem, sed solum
+<lb ed="#L" n="115"/>propter suam bonitatem.
+</p>
+               <p xml:id="TAca84-d1e273-d1e1022">
+                  <lb ed="#L" n="116"/>AD SECUNDUM DICENDUM quod forma generati non
+<pb ed="#L" n="462"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>est finis generationis nisi inquantum est 
+simili<lb break="no" ed="#L" n="2"/>tudo formae generantis, quod suam similitudinem
+<lb ed="#L" n="3"/>communicare intendit. Alioquin forma generati
+<lb ed="#L" n="4"/>esset nobilior generante, cum finis sit nobilior
+<lb ed="#L" n="5"/>his quae sunt ad finem.
+</p>
+               <p xml:id="TAca84-d1e273-d1e1043">
+                  <lb ed="#L" n="6"/>Ap TERTIUM DICENDUM quod omnia appetunt
+<lb ed="#L" n="7"/>Deum ut finem, appetendo quodcumque bonum,
+<lb ed="#L" n="8"/>sive appetitu intelligibili ", sive sensibili, sive 
+na<lb break="no" ed="#L" n="9"/>turali, qui est sine cognitione: quia nihil habet
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>rationem boni et appetibilis, nisi secundum quod
+<lb ed="#L" n="11"/>participat Dei similitudinem.
+</p>
+               <p xml:id="TAca84-d1e273-d1e1061">
+                  <lb ed="#L" n="12"/>AD QUARTUM DICENDUM quod, cum Deus sit causa
+<lb ed="#L" n="13"/>efficiens, exemplaris et finalis omnium rerum, et
+<lb ed="#L" n="14"/>materia prima sit ab ipso, sequitur quod primum
+<lb ed="#L" n="15"/>principium omnium rerum sit unum tantum 
+se<lb break="no" ed="#L" n="16"/>cundum rem. Nihil tamen prohibet in eo 
+conside<lb break="no" ed="#L" n="17"/>rari multa secundum rationem, quorum quaedam
+<lb ed="#L" n="18"/>prius cadunt in intellectu nostro quam alia.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

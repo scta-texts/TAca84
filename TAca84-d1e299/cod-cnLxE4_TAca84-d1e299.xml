@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 49</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 49</title>
+               <date when="2023-07-31">July 31, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE4">Rome, 1888, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-07-31" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="499"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e299"><!-- p1-q49 -->
+            <head xml:id="TAca84-d1e299-Hd1e99">Quaestio 49</head>
+            <head xml:id="TAca84-d1e299-Hd1e101" type="question-title">de causa mali</head>
+            <p xml:id="TAca84-d1e299-d1e104">
+               <pb ed="#L" n="499"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO QUADRAGESIMANONA
+<lb ed="#L" n="2"/>DE CAUSA MALI
+<lb ed="#L" n="3"/>INTRES ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e299-d1e117">
+               <lb ed="#L" n="4"/>CONSEQUENTER quaeritur de causa mali.
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur tria.
+<lb ed="#L" n="6"/>Primo: utrum bonum possit esse causa
+<lb ed="#L" n="7"/>mali.
+<lb ed="#L" n="8"/>Secundo: utrum summum bonum, quod est
+<lb ed="#L" n="9"/>Deus, sit causa mali.
+<lb ed="#L" n="10"/>Tertio: utrum sit aliquod summum malum ,
+<lb ed="#L" n="11"/>quod sit prima causa omnium malorum.
+</p>
+            <div xml:id="TAca84-d1e299-Dd1e137"><!-- p1-q49-a1 -->
+               <head xml:id="TAca84-d1e299-Hd1e140">Articulus 1</head>
+               <head xml:id="TAca84-d1e299-Hd1e142" type="question-title">utrum bonum possit esse causa mali</head>
+               <p xml:id="TAca84-d1e299-d1e145">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="12"/>ARTICULUS PRIMUS
+<lb ed="#L" n="13"/>UTRUM BONUM POSSIT ESSE CAUSA MALI
+</p>
+               <p xml:id="TAca84-d1e299-d1e154">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="14"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="15"/>bonum non possit esse causa mali. 
+Di<lb break="no" ed="#L" n="16"/>JUANA citur enim Matth. vri: Non potest arbor
+<lb ed="#L" n="17"/>A Nbona malos fructus facere.
+</p>
+               <p xml:id="TAca84-d1e299-d1e167">
+                  <lb ed="#L" n="18"/>2. PRAETEREA, unum contrariorum non potest
+<lb ed="#L" n="19"/>esse causa alterius. Malum autem est contrarium
+<lb ed="#L" n="20"/>bono. Ergo bonum non potest esse causa mali.
+</p>
+               <p xml:id="TAca84-d1e299-d1e177">
+                  <lb ed="#L" n="21"/>3. PRaETEREA, effectus deficiens non procedit
+<lb ed="#L" n="22"/>nisi a causa deficiente. Sed malum, si causam
+<lb ed="#L" n="23"/>habeat, est effectus deficiens. Ergo habet causam
+<lb ed="#L" n="24"/>deficientem. Sed omne deficiens malum est. Ergo
+<lb ed="#L" n="25"/>causa mali non est nisi malum.
+</p>
+               <p xml:id="TAca84-d1e299-d1e190">
+                  <lb ed="#L" n="26"/>4. PRAETEREA, Dionysius dicit, iv cap. de Div.
+<lb ed="#L" n="27"/>Nom., quod malum non habet causam. Ergo
+<lb ed="#L" n="28"/>bonum non est causa mali.
+</p>
+               <p xml:id="TAca84-d1e299-d1e199">
+                  <lb ed="#L" n="29"/>SED coNrRA EST quod Augustinus dicit, Contra
+<lb ed="#L" n="30"/>Julianum: Non fuit omnino unde oriri posset
+<lb ed="#L" n="31"/>malum , nisi ex, bono.
+</p>
+               <p xml:id="TAca84-d1e299-d1e208">
+                  <lb ed="#L" n="32"/>RESPONDEO DICENDUM quod necesse est dicere
+<lb ed="#L" n="33"/>quod omne malum aliqualiter causam habeat.
+<lb ed="#L" n="34"/>Malum enim est defectus boni quod natum est
+<lb ed="#L" n="35"/>et debet haberi. Quod autem aliquid deficiat a
+<lb ed="#L" n="36"/>sua naturali et debita dispositione, non potest
+<lb ed="#L" n="37"/>provenire nisi ex aliqua causa trahente rem extra
+<lb ed="#L" n="38"/>suam dispositionem: non enim grave movetur
+<lb ed="#L" n="39"/>sursum nisi ab aliquo impellente, nec agens 
+de<lb break="no" ed="#L" n="40"/>ficit in sua actione nisi propter aliquod 
+impedi<lb break="no" ed="#L" n="41"/>mentum. Esse autem causam non potest 
+conve<lb break="no" ed="#L" n="42"/>nire nisi bono: quia nihil potest esse causa nisi
+<lb ed="#L" n="43"/>inquantum est ens; omne autem ens, inquantum
+<lb ed="#L" n="44"/>huiusmodi, bonum est. Et si consideremus 
+spe<lb break="no" ed="#L" n="45"/>ciales rationes causarum, agens et forma et finis
+<lb ed="#L" n="46"/>perfectionem quandam important, quae pertinet
+<lb ed="#L" n="47"/>ad rationem boni: sed et materia, inquantum est
+<lb ed="#L" n="48"/>potentia ad bonum, habet rationem boni.
+</p>
+               <p xml:id="TAca84-d1e299-d1e247">
+                  <lb ed="#L" n="49"/>Et quidem quod bonum sit causa mali per
+<lb ed="#L" n="50"/>modum causae materialis, iam ex praemissis 
+pa<lb break="no" ed="#L" n="51"/>tet: ostensum est. enim quod bonum est subie-
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="52"/>ctum mali. Causam autem formalem malum
+<lb ed="#L" n="53"/>non habet: sed est magis privatio formae. Et 
+si<lb break="no" ed="#L" n="54"/>militer nec causam finalem: sed magis est 
+pri<lb break="no" ed="#L" n="55"/>vatio ordinis ad finem debitum; non solum enim
+<lb ed="#L" n="56"/>finis habet rationem boni, sed etiam utile, quod
+<lb ed="#L" n="57"/>ordinatur ad finem. Causam autem per modum
+<lb ed="#L" n="58"/>agentis habet malum: non autem per se, sed ?
+<lb ed="#L" n="59"/>per accidens.
+</p>
+               <p xml:id="TAca84-d1e299-d1e276">
+                  <lb ed="#L" n="60"/>Ad cuius evidentiam, sciendum est quod aliter
+<lb ed="#L" n="61"/>causatur malum in actione, et aliter in effectu.
+<lb ed="#L" n="62"/>In actione quidem causatur malum propter 
+de<lb break="no" ed="#L" n="63"/>fectum alicuius principiorum actionis, vel 
+prin<lb break="no" ed="#L" n="64"/>cipalis agentis, vel instrumentalis: sicut defectus
+<lb ed="#L" n="65"/>in motu animalis potest contingere vel propter
+<lb ed="#L" n="66"/>debilitatem virtutis motivae, ut in pueris; vel
+<lb ed="#L" n="67"/>propter solam ineptitudinem instrumenti, ut in
+<lb ed="#L" n="68"/>claudis. - Malum autem 5 in re aliqua, non tamen
+<lb ed="#L" n="69"/>in proprio effectu agentis, causatur quandoque
+<lb ed="#L" n="70"/>ex virtute agentis; quandoque autem ex defectu
+<lb ed="#L" n="71"/>ipsius, vel materiae. Ex virtute quidem vel 
+per<lb break="no" ed="#L" n="72"/>fectione agentis, quando ad formam intentam ab
+<lb ed="#L" n="73"/>agente sequitur ex necessitate alterius formae 
+pri<lb break="no" ed="#L" n="74"/>vatio; sicut ad formam ignis sequitur privatio
+<lb ed="#L" n="75"/>formae aeris vel aquae. Sicut ergo, quanto ignis
+<lb ed="#L" n="76"/>fuerit perfectior in virtute, tanto perfectius 
+im<lb break="no" ed="#L" n="77"/>primit formam suam, ita etiam tanto perfectius
+<lb ed="#L" n="78"/>corrumpit contrarium: unde malum et corruptio
+<lb ed="#L" n="79"/>aeris et aquae, est ex perfectione ignis. Sed hoc
+<lb ed="#L" n="80"/>est per accidens: quia ignis non intendit privare
+<lb ed="#L" n="81"/>formam aquae, sed inducere formam propriam;
+<lb ed="#L" n="82"/>sed hoc faciendo, causat et illud per accidens. -
+<lb ed="#L" n="83"/>Sed si sit defectus in effectu proprio ignis, puta
+<lb ed="#L" n="84"/>quod deficiat a calefaciendo, hoc est vel 
+pro<lb break="no" ed="#L" n="85"/>pter defectum actionis, qui redundat in defectum
+<lb ed="#L" n="86"/>alicuius principii, ut dictum est; vel" ex indispo-.
+<lb ed="#L" n="87"/>sitione materiae, quae non recipit actionem ignis
+<lb ed="#L" n="88"/>agentis. Sed et hoc ipsum quod est esse 
+defi<lb break="no" ed="#L" n="89"/>ciens, accidit bono, cui per se competit agere.
+<pb ed="#L" n="500"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Unde verum est quod malum secundum nullum
+<lb ed="#L" n="2"/>modum habet causam nisi per accidens. Sic 
+au<lb break="no" ed="#L" n="3"/>tem bonum est causa mali.
+</p>
+               <p xml:id="TAca84-d1e299-d1e355">
+                  <lb ed="#L" n="4"/>AD PRIMUM ERGO DICENDUM quod, sicut 
+Augu<lb break="no" ed="#L" n="5"/>stinus dicit, Contra lulian.: arborem malam
+<lb ed="#L" n="6"/>appellat Dominus voluntatem malam, et arborem
+<lb ed="#L" n="7"/>bonam, voluntatem bonam. Ex voluntate autem
+<lb ed="#L" n="8"/>bona non producitur actus moralis malus: cum
+<lb ed="#L" n="9"/>ex ipsa voluntate bona iudicetur actus moralis
+<lb ed="#L" n="10"/>bonus '. Sed tamen ipse motus malae voluntatis
+<lb ed="#L" n="11"/>causatur a creatura rationali, quae bona est. Et
+<lb ed="#L" n="12"/>sic est causa mali.
+</p>
+               <p xml:id="TAca84-d1e299-d1e377">
+                  <lb ed="#L" n="13"/>AD SECUNDUM DICENDUM quod bonum non causat
+<lb ed="#L" n="14"/>illud malum quod est sibi contrarium, sed 
+quod<lb break="no" ed="#L" n="15"/>dam aliud: sicut bonitas ignis causat malum
+<lb ed="#L" n="16"/>aquae; et homo bonus secundum suam naturam,
+<lb ed="#L" n="17"/>causat malum actum secundum morem. Et hoc
+<lb ed="#L" n="18"/>ipsum per accidens est, ut dictum est. — 
+Inveni<lb break="no" ed="#L" n="19"/>tur autem quod etiam unum contrariorum causat
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="20"/>aliud per accidens: sicut frigidum exterius 
+am<lb break="no" ed="#L" n="21"/>biens calefacit, inquantum calor retrahitur ad 
+in<lb break="no" ed="#L" n="22"/>teriora.
+</p>
+               <p xml:id="TAca84-d1e299-d1e403">
+                  <lb ed="#L" n="23"/>AD TERTIUM DICENDUM quod malum habet 
+cau<lb break="no" ed="#L" n="24"/>sam ? deficientem aliter in rebus voluntariis, et
+<lb ed="#L" n="25"/>naturalibus. Agens enim naturale producit 
+effe<lb break="no" ed="#L" n="26"/>ctum suum talem quale ipsum est, nisi 
+impe<lb break="no" ed="#L" n="27"/>diatur ab aliquo extrinseco: et hoc ipsum est
+<lb ed="#L" n="28"/>quidam defectus eius. Unde nunquam sequitur
+<lb ed="#L" n="29"/>malum in effectu, nisi praeexistat aliquod aliud
+<lb ed="#L" n="30"/>malum in agente vel materia, sicut dictum est.
+<lb ed="#L" n="31"/>Sed in rebus voluntariis, defectus actionis a 
+vo<lb break="no" ed="#L" n="32"/>luntate actu deficiente procedit, inquantum non
+<lb ed="#L" n="33"/>subiicit se actu suae regulae. Qui tamen defectus
+<lb ed="#L" n="34"/>non est culpa: sed sequitur culpa ex hoc quod
+<lb ed="#L" n="35"/>cum tali defectu operatur.
+</p>
+               <p xml:id="TAca84-d1e299-d1e434">
+                  <lb ed="#L" n="36"/>AD QUARTUM DICENDUM quod malum non habet
+<lb ed="#L" n="37"/>causam pér se, sed per accidens tantum, ut 
+di<lb break="no" ed="#L" n="38"/>ctum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e299-Dd1e445"><!-- p1-q49-a2 -->
+               <head xml:id="TAca84-d1e299-Hd1e448">Articulus 2</head>
+               <head xml:id="TAca84-d1e299-Hd1e450" type="question-title">utrum summum bonum, quod est deus, sit causa mali</head>
+               <p xml:id="TAca84-d1e299-d1e453">
+                  <pb ed="#L" n="501"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM SUMMUM BONUM, QUOD EST DEUS, SIT CAUSA MALI
+</p>
+               <p xml:id="TAca84-d1e299-d1e464">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>summum bonum, quod est Deus, sit
+<lb ed="#L" n="5"/>causa mali. Dicitur enim Isai. xiv:
+<lb ed="#L" n="6"/>Ego Dominus, et non est alter Deus,
+<lb ed="#L" n="7"/>formans lucem et creans tenebras, faciens pacem
+<lb ed="#L" n="8"/>et creans malum. Et Amos um: Si erit malum
+<lb ed="#L" n="9"/>in civitate, quod Dominus non fecerit.
+</p>
+               <p xml:id="TAca84-d1e299-d1e484">
+                  <lb ed="#L" n="10"/>2. PRAETEREA, effectus causae secundae 
+reduci<lb break="no" ed="#L" n="11"/>tur in causam primam. Bonum autem est causa
+<lb ed="#L" n="12"/>mali, ut dictum est. Cum igitur omnis boni causa
+<lb ed="#L" n="13"/>sit Deus, ut supra ostensum est, sequitur quod
+<lb ed="#L" n="14"/>etiam omne malum sit a Deo.
+</p>
+               <p xml:id="TAca84-d1e299-d1e498">
+                  <lb ed="#L" n="15"/>3. PRAETEREA, sicut dicitur in II Physic., idem
+<lb ed="#L" n="16"/>est causa salutis navis, et periculi. Sed Deus est
+<lb ed="#L" n="17"/>causa salutis omnium rerum. Ergo est ipse causa
+<lb ed="#L" n="18"/>omnis perditionis et mali.
+</p>
+               <p xml:id="TAca84-d1e299-d1e509">
+                  <lb ed="#L" n="19"/>SED cowTRA EsT quod dicit Augustinus, in libro
+<lb ed="#L" n="20"/>Octoginta trium Quaest., quod Deus non est
+<lb ed="#L" n="21"/>auctor mali, quia non est causa tendendi ad non
+<lb ed="#L" n="22"/>esse.
+</p>
+               <p xml:id="TAca84-d1e299-d1e520">
+                  <lb ed="#L" n="23"/>RESPONDEO DICENDUM quod, sicut ex dictis patet,
+<lb ed="#L" n="24"/>malum quod in defectu actionis consistit, semper
+<lb ed="#L" n="25"/>causatur ex defectu agentis. In Deo autem nullus
+<lb ed="#L" n="26"/>defectus est, sed summa perfectio, ut supra
+<lb ed="#L" n="27"/>ostensum est. Unde malum quod in defectu 
+actio<lb break="no" ed="#L" n="28"/>nis consistit, vel quod ex defectu agentis 
+causa<lb break="no" ed="#L" n="29"/>tur, non reducitur in Deum sicut in causam.
+</p>
+               <p xml:id="TAca84-d1e299-d1e538">
+                  <lb ed="#L" n="30"/>Sed malum quod in corruptione rerum 
+aliqua<lb break="no" ed="#L" n="31"/>rum consistit, reducitur in Deum sicut in causam.
+<lb ed="#L" n="32"/>Et hoc patet tam in naturalibus quam in 
+volun<lb break="no" ed="#L" n="33"/>tariis. Dictum est enim quod aliquod agens, 
+in<lb break="no" ed="#L" n="34"/>quantum sua virtute producit aliquam formam
+<lb ed="#L" n="35"/>ad quam sequitur corruptio et defectus, causat
+<lb ed="#L" n="36"/>sua virtute illam corruptionem et defectum. 
+Ma<lb break="no" ed="#L" n="37"/>nifestum est autem quod forma quam principa-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="38"/>liter Deus intendit in rebus creatis, est bonum
+<lb ed="#L" n="39"/>ordinis universi. Ordo autem universi requirit, ut
+<lb ed="#L" n="40"/>supra dictum est, quod quaedam sint quae 
+defi<lb break="no" ed="#L" n="41"/>cere possint, et interdum deficiant. Et sic Deus,
+<lb ed="#L" n="42"/>in rebus causando bonum ordinis universi ?, ex
+<lb ed="#L" n="43"/>consequenti, et quasi per accidens, causat 
+corru<lb break="no" ed="#L" n="44"/>ptiones rerum ; secundum illud quod dicitur I
+<lb ed="#L" n="45"/>Reg.u: <quote xml:id="TAca84-d1e299-Qd1e577">Dominus mortificat et vivificat</quote>. Sed
+<lb ed="#L" n="46"/>quod dicitur Sap.:, quod Deus mortem non
+<lb ed="#L" n="47"/>fecit, intelligitur quasi per se intentam. - Ad 
+or<lb break="no" ed="#L" n="48"/>dinem autem universi pertinet etiam ? ordo 
+iusti<lb break="no" ed="#L" n="49"/>tiae, qui requirit ut peccatoribus poena inferatur.
+<lb ed="#L" n="50"/>Et secundum hoc, Deus est auctor mali quod est
+<lb ed="#L" n="51"/>poena: non autem mali quod est culpa, ratione
+<lb ed="#L" n="52"/>supra dicta. -
+</p>
+               <p xml:id="TAca84-d1e299-d1e595">
+                  <lb ed="#L" n="53"/>AD PRIMUM ERGO DICENDUM quod auctoritates
+<lb ed="#L" n="54"/>illae loquuntur de malo poenae, non autem de
+<lb ed="#L" n="55"/>malo culpae.
+</p>
+               <p xml:id="TAca84-d1e299-d1e604">
+                  <lb ed="#L" n="56"/>AD SECUNDUM DICENDUM quod effectus causae
+<lb ed="#L" n="57"/>secundae deficientis reducitur in causam primam
+<lb ed="#L" n="58"/>non deficientem, quantum ad id quod habet 
+enti<lb break="no" ed="#L" n="59"/>tatis et perfectionis: non autem quantum ad id
+<lb ed="#L" n="60"/>quod habet de defectu. Sicut quidquid est motus
+<lb ed="#L" n="61"/>in claudicatione, causatur a virtute motiva; sed
+<lb ed="#L" n="62"/>quod est obliquitatis in ea, non est ex virtute
+<lb ed="#L" n="63"/>motiva, sed ex curvitate cruris. Et similiter 
+quid<lb break="no" ed="#L" n="64"/>quid est entitatis et actionis in actione mala, 
+re<lb break="no" ed="#L" n="65"/>ducitur in Deum sicut in causam: sed quod est
+<lb ed="#L" n="66"/>ibi defectus, non causatur a Deo, sed ex causa
+<lb ed="#L" n="67"/>secunda deficiente.
+</p>
+               <p xml:id="TAca84-d1e299-d1e634">
+                  <lb ed="#L" n="68"/>AD TERTIUM DICENDUM quod submersio navis
+<lb ed="#L" n="69"/>attribuitur nautae ut causae, ex eo quod non agit
+<lb ed="#L" n="70"/>quod requiritur ad salutem navis. Sed Deus non
+<lb ed="#L" n="71"/>deficit ab agendo quod est necessarium ad 
+sa<lb break="no" ed="#L" n="72"/>lutem. Unde non est simile.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e299-Dd1e648"><!-- p1-q49-a3 -->
+               <head xml:id="TAca84-d1e299-Hd1e651">Articulus 3</head>
+               <head xml:id="TAca84-d1e299-Hd1e653" type="question-title">utrum sit unum summum malum, quod'sit causa omnis mali</head>
+               <p xml:id="TAca84-d1e299-d1e656">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="23"/>ARTICULUS TERTIUS
+<lb ed="#L" n="24"/>UTRUM SIT UNUM SUMMUM MALUM, QUOD'SIT CAUSA OMNIS MALI
+</p>
+               <p xml:id="TAca84-d1e299-d1e665">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="25"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="26"/>sit unum summum malum, quod sit
+</p>
+               <p xml:id="TAca84-d1e299-d1e674">
+                  <lb ed="#L" n="27"/>in rebus invenitur ME. secundum. illud
+<lb ed="#L" n="28"/>Eccli. xxxiu: Contra malum bonum est, et contra
+<lb ed="#L" n="29"/>vitam mors; sic et contra virum iustum peccator.
+<lb ed="#L" n="30"/>Ergo sunt contraria principa, unum boni, et
+<lb ed="#L" n="31"/>aliud mali.
+</p>
+               <p xml:id="TAca84-d1e299-d1e688">
+                  <lb ed="#L" n="32"/>2. PRAETEREA, S] unum contrariorum est in
+<lb ed="#L" n="33"/>rerum natura, et reliquum , ut dicitur in II de
+<lb ed="#L" n="34"/>Caelo et Mundo. Sed summum bonum est in
+<lb ed="#L" n="35"/>rerum natura, quod est causa omnis boni, ut
+<lb ed="#L" n="36"/>supra ostensum est. Ergo est et summum 
+ma<lb break="no" ed="#L" n="37"/>lum ei oppositum, causa omnis mali.
+</p>
+               <p xml:id="TAca84-d1e299-d1e704">
+                  <lb ed="#L" n="38"/>3. PRAETEREA, sicut in rebus invenitur bonum
+<lb ed="#L" n="39"/>et melius, ita malum et peius. Sed bonum et 
+me<lb break="no" ed="#L" n="40"/>lius dicuntur per respectum ad optimum. Ergo
+<lb ed="#L" n="41"/>malum et peius dicuntur per respectum ad 
+ali<lb break="no" ed="#L" n="42"/>quod summum malum.
+</p>
+               <p xml:id="TAca84-d1e299-d1e717">
+                  <lb ed="#L" n="43"/>4. PRAETEREA, omne quod est per 
+participatio<lb break="no" ed="#L" n="44"/>nem, reducitur ad illud quod est per essentiam.
+<lb ed="#L" n="45"/>Sed res quae sunt malae apud nos, non sunt
+<lb ed="#L" n="46"/>malae per essentiam, sed per participationem.
+<lb ed="#L" n="47"/>Ergo est invenire aliquod summum malum per
+<lb ed="#L" n="48"/>essentiam ?, quod est causa omnis mali.
+</p>
+               <p xml:id="TAca84-d1e299-d1e733">
+                  <lb ed="#L" n="49"/>5. PRAETEREA, omne quod est per accidens, 
+re<lb break="no" ed="#L" n="50"/>ducitur ad illud quod est per se. Sed bonum est
+<lb ed="#L" n="51"/>causa mali per accidens. Ergo oportet ponere 
+ali<lb break="no" ed="#L" n="52"/>quod summum malum, quod sit causa malorum
+<lb ed="#L" n="53"/>per se. - Neque potest dici quod malum non 
+ha<lb break="no" ed="#L" n="54"/>beat causam per se, sed per accidens tantum:
+<lb ed="#L" n="55"/>quia sequeretur quod malum non esset ut in 
+plu<lb break="no" ed="#L" n="56"/>ribus, sed ut in paucioribus.
+</p>
+               <p xml:id="TAca84-d1e299-d1e753">
+                  <lb ed="#L" n="57"/>6. PRAETEREA, malum effectus reducitur ad 
+ma<lb break="no" ed="#L" n="58"/>lum causae: quia effectus deficiens est a causa
+<lb ed="#L" n="59"/>deficiente, sicut supra dictum est. Sed hoc? non
+<lb ed="#L" n="60"/>est procedere in infinitum. Ergo oportet ponere
+<lb ed="#L" n="61"/>unum primum malum, quod sit causa omnis mali.
+</p>
+               <p xml:id="TAca84-d1e299-d1e766">
+                  <lb ed="#L" n="62"/>SEb covrRA EsT quod summum bonum est
+<lb ed="#L" n="63"/>causa omnis entis, ut supra ostensum est. Ergo
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="64"/>non potest esse aliquod principium ei oppositum,
+<lb ed="#L" n="65"/>quod sit causa malorum.
+</p>
+               <p xml:id="TAca84-d1e299-d1e780">
+                  <lb ed="#L" n="66"/>RESPONDEO DICENDUM quod ex praedictis patet
+<lb ed="#L" n="67"/>non esse unum pnmum principium malorum,
+<lb ed="#L" n="68"/>sicut est unum primum principium. bonorum.
+<lb ed="#L" n="69"/>Primo quidem, quia primum principium bonorum
+<lb ed="#L" n="70"/>est per essentiam bonum, ut supra ostensum
+<lb ed="#L" n="71"/>est. Nihil autem potest esse per suam essentiam
+<lb ed="#L" n="72"/>malum: ostensum est enim quod omne ens,
+<lb ed="#L" n="73"/>inquantum est ens, bonum est; et quod malum
+<lb ed="#L" n="74"/>non est nisi in bono ut in subiecto.
+</p>
+               <p xml:id="TAca84-d1e299-d1e802">
+                  <lb ed="#L" n="75"/>Secundo, quia primum bonorum principium est
+<lb ed="#L" n="76"/>summum et perfectum bonum, quod praehabet
+<lb ed="#L" n="77"/>in se omnem bonitatem, ut supra ostensum est.
+<lb ed="#L" n="78"/>Summum autem malum esse non potest: quia,
+<lb ed="#L" n="79"/>sicut ostensum est, etsi malum semper diminuat 
+<lb ed="#L" n="80"/>bonum, nunquam tamen illud potest totaliter 
+con<lb break="no" ed="#L" n="81"/>sumere; et sic, semper remanente bono, non
+<lb ed="#L" n="82"/>potest esse aliquid integre et perfecte malum.
+<lb ed="#L" n="83"/>Propter quod Philosophus dicit, in IV Ethic.
+<lb ed="#L" n="84"/>quod si malum integrum sit, seipsum destruet:
+<lb ed="#L" n="85"/>quia destructo omni bono (quod requiritur ad 
+in<lb break="no" ed="#L" n="86"/>tegritatem mali), subtrahitur etiam ipsum malum,
+<lb ed="#L" n="87"/>cuius subiectum est bonum.
+</p>
+               <p xml:id="TAca84-d1e299-d1e833">
+                  <lb ed="#L" n="88"/>Tertio, quia ratio mali repugnat rationi primi
+<lb ed="#L" n="89"/>principii. Tum quia omne malum causatur ex
+<lb ed="#L" n="90"/>bono, ut supra ostensum est. Tum quia malum
+<lb ed="#L" n="91"/>non potest esse causa nisi per accidens: et sic
+<lb ed="#L" n="92"/>non potest esse prima causa ^, quia causa per
+<lb ed="#L" n="93"/>accidens est posterior ea quae est per se, ut patet
+<lb ed="#L" n="94"/>in II. Physic.
+</p>
+               <p xml:id="TAca84-d1e299-d1e851">
+                  <lb ed="#L" n="95"/>Qui autem posuerunt duo prima principia, unum
+<lb ed="#L" n="96"/>bonum et alterum malum, ex eadem radice in
+<lb ed="#L" n="97"/>hunc errorem inciderunt, ex qua et aliae 
+extra<lb break="no" ed="#L" n="98"/>neae positiones antiquorum ortum habuerunt:
+<lb ed="#L" n="99"/>quia scilicet non consideraverunt causam 
+univer<lb break="no" ed="#L" n="100"/>salem totius entis, sed particulares tantum causas
+<lb ed="#L" n="101"/>particularium-effectuum. Propter hoc enim, si 
+ali<lb break="no" ed="#L" n="102"/>quid invenerunt esse nocivum alicui rei per 
+vir<lb break="no" ed="#L" n="103"/>tutem suae naturae, aestimaverunt naturam illius
+<lb ed="#L" n="104"/>rei esse malam: puta si quis dicat naturam ignis
+<pb ed="#L" n="503"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>esse malam, quia combussit domum alicuius 
+pau<lb break="no" ed="#L" n="2"/>peris. - Iudicium autem de bonitate alicuius rei
+<lb ed="#L" n="3"/>non est accipiendum secundum ordinem ad 
+ali<lb break="no" ed="#L" n="4"/>quid particulare; sed secundum seipsum, et 
+se<lb break="no" ed="#L" n="5"/>cundum ordinem ad totum universum, in quo
+<lb ed="#L" n="6"/>quaelibet res suum locum ordinatissime tenet, ut
+<lb ed="#L" n="7"/>ex dictis patet.
+</p>
+               <p xml:id="TAca84-d1e299-d1e895">
+                  <lb ed="#L" n="8"/>Similiter etiam, quia invenerunt duorum 
+par<lb break="no" ed="#L" n="9"/>ticularium effectuum contrariorum duas causas
+<lb ed="#L" n="10"/>particulares contrarias, nesciverunt reducere 
+cau<lb break="no" ed="#L" n="11"/>sas particulares contrarias in causam universalem
+<lb ed="#L" n="12"/>communem. Et ideo usque ad prima principia '
+<lb ed="#L" n="13"/>contrarietatem in causis esse iudicaverunt. - Sed
+<lb ed="#L" n="14"/>cum omnia contraria conveniant in uno communi,
+<lb ed="#L" n="15"/>necesse est in eis, supra causas contrarias proprias,
+<lb ed="#L" n="16"/>inveniri unam causam communem: sicut supra
+<lb ed="#L" n="17"/>qualitates contrarias elementorum invenitur virtus
+<lb ed="#L" n="18"/>corporis caelestis. Et similiter supra omnia quae
+<lb ed="#L" n="19"/>gquoeumque modo sunt, invenitur unum primum
+<lb ed="#L" n="20"/>principium essendi, ut supra ostensum est.
+</p>
+               <p xml:id="TAca84-d1e299-d1e926">
+                  <lb ed="#L" n="21"/>AD PRIMUM ERGO DICENDUM quod contraria 
+con<lb break="no" ed="#L" n="22"/>veniunt in genere uno, et etiam conveniunt in
+<lb ed="#L" n="23"/>ratione essendi. Et ideo, licet habeant causas 
+par<lb break="no" ed="#L" n="24"/>ticulares contrarias, tamen oportet devenire ad
+<lb ed="#L" n="25"/>unam primam causam communem.
+</p>
+               <p xml:id="TAca84-d1e299-d1e940">
+                  <lb ed="#L" n="26"/>AD SECUNDUM DICENDUM quod privatio et 
+habi<lb break="no" ed="#L" n="27"/>tus nata sunt fieri circa idem ?. Subiectum autem
+<lb ed="#L" n="28"/>privationis est ens in potentia, ut dictum est 
+<lb ed="#L" n="29"/>Unde, cum malum sit privatio boni", ut ex dictis
+<lb ed="#L" n="30"/>patet, illi bono opponitur cui adiungitur potentia:
+<lb ed="#L" n="31"/>non autem summo bono, quod est actus purus.
+</p>
+               <p xml:id="TAca84-d1e299-d1e956">
+                  <lb ed="#L" n="32"/>AD TERTIUM DICENDUM quod unumquodque in-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="33"/>tenditur secundum propriam rationem. Sicut
+<lb ed="#L" n="34"/>autem forma est perfectio quaedam, ita privatio
+<lb ed="#L" n="35"/>est quaedam remotio. Unde omnis forma et 
+per<lb break="no" ed="#L" n="36"/>fectio et bonum per accessum ad terminum 
+per<lb break="no" ed="#L" n="37"/>fectum intenditur: privatio autem et malum per
+<lb ed="#L" n="38"/>recessum a termino. Unde. non dicitur malum et
+<lb ed="#L" n="39"/>peius per accessum ad summum malum, sicut
+<lb ed="#L" n="40"/>dicitur bonum et melius per accessum ad 
+sum<lb break="no" ed="#L" n="41"/>mum bonum.
+</p>
+               <p xml:id="TAca84-d1e299-d1e982">
+                  <lb ed="#L" n="42"/>AD QUARTUM DICENDUM quod nullum ens dicitur
+<lb ed="#L" n="43"/>malum per participationem, sed per privationem
+<lb ed="#L" n="44"/>participationis. Unde non oportet fieri 
+reductio<lb break="no" ed="#L" n="45"/>nem ad aliquid quod sit per essentiam malum.
+</p>
+               <p xml:id="TAca84-d1e299-d1e993">
+                  <lb ed="#L" n="46"/>AD QUINTUM DICENDUM quod malum non potest
+<lb ed="#L" n="47"/>habere causam nisi per accidens, ut supra 
+osten<lb break="no" ed="#L" n="48"/>sum est. Unde impossibile est fieri reductionem
+<lb ed="#L" n="49"/>ad aliquid quod sit per se causa mali. - Quod
+<lb ed="#L" n="50"/>autem dicitur, quod malum est ut in pluribus,
+<lb ed="#L" n="51"/>simpliciter falsum est. Nam generabilia et 
+cor<lb break="no" ed="#L" n="52"/>ruptibilia, in quibus solum contingit esse malum
+<lb ed="#L" n="53"/>naturae, sunt modica pars totius .universi. Et
+<lb ed="#L" n="54"/>iterum in unaquaque specie defectus naturae 
+ac<lb break="no" ed="#L" n="55"/>cidit ut in paucioribus. In solis autem 
+homi<lb break="no" ed="#L" n="56"/>nibus malum videtur esse ut in pluribus: quia
+<lb ed="#L" n="57"/>bonum hominis secundum sensum ? non est 
+ho<lb break="no" ed="#L" n="58"/>minis inquantum homo, idest secundum 
+ratio<lb break="no" ed="#L" n="59"/>nem; plures autem sequuntur sensum quam 
+ra<lb break="no" ed="#L" n="60"/>tionem. s
+</p>
+               <p xml:id="TAca84-d1e299-d1e1028">
+                  <lb ed="#L" n="61"/>AD SEXTUM DICENDUM quod in causis mali non
+<lb ed="#L" n="62"/>est procedere in infinitum: sed est reducere omnia
+<lb ed="#L" n="63"/>mala in aliquam causam bonam, ex qua sequitur
+<lb ed="#L" n="64"/>malum per accidens.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
