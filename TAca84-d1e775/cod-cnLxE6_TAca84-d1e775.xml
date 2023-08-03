@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 20</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 20</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="153"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e775"><!-- p2p1-q20 -->
+            <head xml:id="TAca84-d1e775-Hd1e99">Quaestio 20</head>
+            <head xml:id="TAca84-d1e775-Hd1e101" type="question-title">de bonitate et malitia exteriorum actuum humanorum</head>
+            <p xml:id="TAca84-d1e775-d1e104">
+               <pb ed="#L" n="153"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO VIGESIMA
+<lb ed="#L" n="2"/>DE BONITATE ET MALITIA EXTERIORUM ACTUUM HUMANORUM
+<lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e775-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de bonitate et 
+ma<lb break="no" ed="#L" n="5"/>uii rm Duis quantum ad exteriores actus. 
+<lb ed="#L" n="6"/>Et circa hoc quaeruntur sex. 
+<lb ed="#L" n="7"/>Primo: utrum bonitas et malitia per prius sit 
+<lb ed="#L" n="8"/>in actu voluntatis, vel in actu exteriori. 
+<lb ed="#L" n="9"/>Secundo: utrum tota bonitas vel malitia 
+a<lb break="no" ed="#L" n="10"/>ctus exterioris dependeat ex bonitate 
+volun<lb break="no" ed="#L" n="11"/>tatis. bonus et malus.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="12"/>Tertio: utrum sit eadem bonitas et malitia 
+in<lb break="no" ed="#L" n="13"/>terioris et exterioris actus.
+<lb ed="#L" n="14"/>Quarto: utrum actus exterior aliquid addat de
+<lb ed="#L" n="15"/>bonitate vel malitia supra actum interiorem.
+<lb ed="#L" n="16"/>Quinto: utrum eventus sequens aliquid addat
+<lb ed="#L" n="17"/>de bonitate vel malitia ad actum exteriorem.
+<lb ed="#L" n="18"/>Sexto: utrum idem actus exterior possit esse
+</p>
+            <div xml:id="TAca84-d1e775-Dd1e156"><!-- p2p1-q20-a1 -->
+               <head xml:id="TAca84-d1e775-Hd1e159">Articulus 1</head>
+               <head xml:id="TAca84-d1e775-Hd1e161" type="question-title">utrum bonitas vel malitia per prius sit in actu voluntatis,
+          vel in actu exteriori</head>
+               <p xml:id="TAca84-d1e775-d1e164">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="19"/>ARTICULUS PRIMUS
+<lb ed="#L" n="20"/>UTRUM BONITAS VEL MALITIA PER PRIUS SIT IN ACTU VOLUNTATIS,
+<lb ed="#L" n="21"/>VEL IN ACTU EXTERIORI
+</p>
+               <p xml:id="TAca84-d1e775-d1e175">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="22"/>AD PRIMUM SIC PROCEDITUR. Videtur quod | 
+<lb ed="#L" n="23"/>bonum et malum per prius consistat in | 
+<lb ed="#L" n="24"/>actu exteriori quam in actu voluntatis. | 
+<lb ed="#L" n="25"/>2c NS, Voluntas enim habet bonitatem ex obie- | 
+<lb ed="#L" n="26"/>cto, ut supra dictum est. Sed actus exterior est | 
+<lb ed="#L" n="27"/>obiectum interioris actus voluntatis: dicimur enim | 
+<lb ed="#L" n="28"/>velle furtum, vel velle dare eleemosynam. Ergo | 
+<lb ed="#L" n="29"/>malum et bonum per prius est in actu exteriori, | 
+<lb ed="#L" n="30"/>quam in actu voluntatis. 
+</p>
+               <p xml:id="TAca84-d1e775-d1e199">
+                  <lb ed="#L" n="31"/>2. PRAETEREA, bonum per prius convenit fini: | 
+<lb ed="#L" n="32"/>quia ea quae sunt ad finem, habent rationem | 
+<lb ed="#L" n="33"/>boni ex ordine ad finem. Actus autem voluntatis | 
+<lb ed="#L" n="34"/>non potest esse finis, ut supra dictum est: actus | 
+<lb ed="#L" n="35"/>alicuius alterius ^ potentiae potest esse finis. Ergo | 
+<lb ed="#L" n="36"/>per prius consistit bonum in actu potentiae alte- | 
+<lb ed="#L" n="37"/>rius, quam in actu voluntatis.
+</p>
+               <p xml:id="TAca84-d1e775-d1e218">
+                  <lb ed="#L" n="38"/>3. PRAETEREA, actus voluntatis formaliter se ha- | 
+<lb ed="#L" n="39"/>bet ad actum exteriorem, ut supra dictum est. | 
+<lb ed="#L" n="40"/>Sed id quod est formale, est posterius: nam forma | 
+<lb ed="#L" n="41"/>advenit materiae. Ergo per prius est bonum et | 
+<lb ed="#L" n="42"/>malum in actu exteriori quam in actu voluntatis. |
+</p>
+               <p xml:id="TAca84-d1e775-d1e231">
+                  <lb ed="#L" n="43"/>SED CONTRA EST quod Augustinus dicit, in libro | 
+<lb ed="#L" n="44"/>Retract., quod voluntas est qua peccatur, et recte 
+<lb ed="#L" n="45"/>vivitur. Ergo bonum et malum morale per prius | 
+<lb ed="#L" n="46"/>consistit in voluntate. 
+</p>
+               <p xml:id="TAca84-d1e775-d1e242">
+                  <lb ed="#L" n="47"/>RESPONDEO DICENDUM quod aliqui actus exterio- | 
+<lb ed="#L" n="48"/>res possunt dici boni vel mali dupliciter. Uno | 
+<lb ed="#L" n="49"/>modo, secundum genus suum, et secundum cir- | 
+<lb ed="#L" n="50"/>cumstantias in ipsis consideratas: sicut dare elee- | 
+<lb ed="#L" n="51"/>mosynam, servatis debitis circumstantiis, dicitur | 
+<lb ed="#L" n="52"/>esse bonum. Alio modo dicitur aliquid esse bo- | 
+<lb ed="#L" n="53"/>num vel malum ex ordine ad finem: sicut dare |
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="54"/>eleemosynam propter inanem gloriam, dicitur esse
+<lb ed="#L" n="55"/>malum. Cum autem finis sit proprium obiectum
+<lb ed="#L" n="56"/>voluntatis, manifestum est quod ista ratio boni
+<lb ed="#L" n="57"/>vel mali quam habet actus exterior ex ordine
+<lb ed="#L" n="58"/>ad finem, per prius invenitur in actu voluntatis,
+<lb ed="#L" n="59"/>et ex eo derivatur ad actum exteriorem. Bonitas
+<lb ed="#L" n="60"/>autem vel malitia quam habet actus exterior 
+se<lb break="no" ed="#L" n="61"/>cundum se, propter debitam materiam et debitas
+<lb ed="#L" n="62"/>circumstantias, non derivatur a voluntate, sed
+<lb ed="#L" n="63"/>magis a ratione. Unde si consideretur bonitas 
+ex<lb break="no" ed="#L" n="64"/>terioris actus secundum quod est in ordinatione
+<lb ed="#L" n="65"/>et apprehensione rationis, prior est quam bonitas
+<lb ed="#L" n="66"/>actus voluntatis: sed si consideretur secundum
+<lb ed="#L" n="67"/>quod est in executione operis, sequitur bonitatem
+<lb ed="#L" n="68"/>voluntatis, quae est principium eius.
+</p>
+               <p xml:id="TAca84-d1e775-d1e294">
+                  <lb ed="#L" n="69"/>AD PRIMUM ERGO DICENDUM quod actus exterior
+<lb ed="#L" n="70"/>est. obiectum voluntatis, inquantum proponitur
+<lb ed="#L" n="71"/>voluntati a ratione ut quoddam bonum 
+apprehen<lb break="no" ed="#L" n="72"/>sum et ordinatum per rationem: et sic est prius
+<lb ed="#L" n="73"/>quam bonum actus voluntags. inquantum vero
+<lb ed="#L" n="74"/>consistit in executione operis, est effectus 
+volun<lb break="no" ed="#L" n="75"/>tatis, et sequitur voluntatem.
+</p>
+               <p xml:id="TAca84-d1e775-d1e312">
+                  <lb ed="#L" n="76"/>AD SECUNDUM DICENDUM quod finis est prior in
+<lb ed="#L" n="77"/>intentione, sed est posterior in executione.
+</p>
+               <p xml:id="TAca84-d1e775-d1e319">
+                  <lb ed="#L" n="78"/>AD TERTIUM DICENDUM quod forma, secundum
+<lb ed="#L" n="79"/>quod est recepta in materia, est posterior in via
+<lb ed="#L" n="80"/>generationis quam materia, licet sit prior natura:
+<lb ed="#L" n="81"/>sed secundum quod est in causa agente, est 
+omni<lb break="no" ed="#L" n="82"/>bus modis prior. Voluntas autem comparatur ad
+<lb ed="#L" n="83"/>actum exteriorem sicut causa efficiens. Unde 
+bo<lb break="no" ed="#L" n="84"/>nitas actus voluntatis est forma exterioris actus,
+<lb ed="#L" n="85"/>sicut in causa agente existens,
+</p>
+            </div>
+            <div xml:id="TAca84-d1e775-Dd1e341"><!-- p2p1-q20-a2 -->
+               <head xml:id="TAca84-d1e775-Hd1e344">Articulus 2</head>
+               <head xml:id="TAca84-d1e775-Hd1e346" type="question-title">utrum tota bonitas et malitia- exterioris actus
+       dependeat ex bonitate voluntatis</head>
+               <p xml:id="TAca84-d1e775-d1e349">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="79"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="80"/>UTRUM TOTA BONITAS ET MALITIA- EXTERIORIS ACTUS
+<lb ed="#L" n="81"/>DEPENDEAT EX BONITATE VOLUNTATIS
+</p>
+               <p xml:id="TAca84-d1e775-d1e360">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="82"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="83"/>tota. bonitas et malitia. actus exterioris
+<lb ed="#L" n="84"/>dependeat ex voluntate. Dicitur enim
+<lb ed="#L" n="85"/>Matth. VII: <quote xml:id="TAca84-d1e775-Qd1e373">Non potest arbor bona 
+ma<lb break="no" ed="#L" n="86"/>los fructus facere, nec arbor mala facere fructus
+<lb ed="#L" n="87"/>bonos</quote>. Per arborem autem intelligitur . voluntas,
+<lb ed="#L" n="88"/>et per fructum opus, secundum Glossam. Ergo
+<lb ed="#L" n="89"/>non. potest esse quod voluntas interior sit bona,
+<lb ed="#L" n="90"/>et actus exterior sit malus; aut e converso.
+</p>
+               <p xml:id="TAca84-d1e775-d1e387">
+                  <lb ed="#L" n="91"/>2. PRAETEREA, Augustinus dicit, in libro .
+Re<lb break="no" ed="#L" n="92"/>tract,, quod non nisi voluntate peccatur. Si ergo
+<lb ed="#L" n="93"/>non sit peccatum in. voluntate, non erit 
+pecca<lb break="no" ed="#L" n="94"/>tum in exteriori actu. Et ita. tota bonitas vel
+<lb ed="#L" n="95"/>malitia exterioris actus ex. voluntate dependet.
+</p>
+               <p xml:id="TAca84-d1e775-d1e401">
+                  <lb ed="#L" n="96"/>3. PRAETEREA, bonum. et malum de quo. nunc
+<lb ed="#L" n="97"/>loquimur, sunt differentiae moralis actus. 
+Diffe<lb break="no" ed="#L" n="98"/>rentiae autem per se dividunt genus, secundum
+<lb ed="#L" n="99"/>Philosophum, in VII Metaphys. Cum igitur actus
+<lb ed="#L" n="100"/>sit moralis ex eo quod est voluntarius, videtur
+<lb ed="#L" n="101"/>quod bonum et malum accipitur in actu solum
+<lb ed="#L" n="102"/>ex parte voluntatis.
+</p>
+               <p xml:id="TAca84-d1e775-d1e419">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="103"/>SED CONTRA EST quod Augustinus dicit, in libro
+<lb ed="#L" n="104"/>Contra Mendacium, quod quaedam sunt quae
+<lb ed="#L" n="105"/>nullo quasi bono fine, aut bona voluntate, possunt
+<lb ed="#L" n="106"/>bene fieri.
+</p>
+               <p xml:id="TAca84-d1e775-d1e432">
+                  <lb ed="#L" n="107"/>REsPONDEO DICENDUM quod, sicut iam dictum
+<lb ed="#L" n="108"/>est, in actu exteriori potest considerari duplex
+<lb ed="#L" n="109"/>bonitas vel malitia: una secundum debitam 
+ma<lb break="no" ed="#L" n="110"/>teriam et circumstantias; alia secundum ordinem
+<lb ed="#L" n="111"/>ad finem. Et illa quidem quae est secundum 
+or<lb break="no" ed="#L" n="112"/>dinem ad finem, tota dependet ex voluntate. Illa
+<lb ed="#L" n="113"/>autem quae est ex debita materia vel 
+circum<lb break="no" ed="#L" n="114"/>stantiis, dependet ex ratione: et ex hac dependet
+<lb ed="#L" n="115"/>bonitas voluntatis, secundum quod in ipsam fertur.
+</p>
+               <p xml:id="TAca84-d1e775-d1e454">
+                  <lb ed="#L" n="116"/>Est autem considerandum quod, sicut supra
+<lb ed="#L" n="117"/>dictum est, ad hoc quod aliquid sit malum, 
+suf<lb break="no" ed="#L" n="118"/>ficit unus singularis defectus: ad hoc autem quod
+<lb ed="#L" n="119"/>sit simpliciter bonum, non sufficit unum 
+singu<lb break="no" ed="#L" n="120"/>lare bonum, sed requiritur integritas bonitatis. Si
+<lb ed="#L" n="121"/>igitur voluntas sit bona et ex obiecto proprio, et
+<lb ed="#L" n="122"/>ex fine, consequens est actum exteriorem esse
+<lb ed="#L" n="123"/>bonum. Sed non sufficit ad hoc. quod actus ex-
+<pb ed="#L" n="155"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>terior sit bonus, bonitas ? voluntatis quae est ex
+<lb ed="#L" n="2"/>intentione finis: sed si voluntas sit mala sive ex
+<lb ed="#L" n="3"/>intentione finis, sive ex actu volito, consequens
+<lb ed="#L" n="4"/>est actum exteriorem esse malum.
+</p>
+               <p xml:id="TAca84-d1e775-d1e487">
+                  <lb ed="#L" n="5"/>AD PRIMUM ERGO DICENDUM quod voluntas bona,
+<lb ed="#L" n="6"/>prout significatur per arborem bonam, est 
+acci<lb break="no" ed="#L" n="7"/>pienda secundum quod habet bonitatem ex actu
+<lb ed="#L" n="8"/>volito, et ex fine intento.
+</p>
+               <p xml:id="TAca84-d1e775-d1e498">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="9"/>AD SECUNDUM DICENDUM quod non solum aliquis
+<lb ed="#L" n="10"/>voluntate peccat, quando vult malum finem; sed
+<lb ed="#L" n="11"/>etiam quando vult malum actum.
+</p>
+               <p xml:id="TAca84-d1e775-d1e510">
+                  <lb ed="#L" n="12"/>AD TERTIUM DICENDUM quod voluntarium dicitur
+<lb ed="#L" n="13"/>non solum actus interior ! voluntatis, sed etiam
+<lb ed="#L" n="14"/>actus exteriores, prout a voluntate procedunt et
+<lb ed="#L" n="15"/>ratione. Et ideo circa utrosque actus potest esse
+<lb ed="#L" n="16"/>differentia boni et mali.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e775-Dd1e524"><!-- p2p1-q20-a3 -->
+               <head xml:id="TAca84-d1e775-Hd1e527">Articulus 3</head>
+               <head xml:id="TAca84-d1e775-Hd1e529" type="question-title">utrum bonitas et malitia sit eadem exterioris et interioris actus</head>
+               <p xml:id="TAca84-d1e775-d1e532">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="55"/>ARTICULUS TERTIUS
+<lb ed="#L" n="56"/>UTRUM BONITAS ET MALITIA SIT EADEM EXTERIORIS ET INTERIORIS ACTUS
+</p>
+               <p xml:id="TAca84-d1e775-d1e541">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="57"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="58"/>non eadem sit bonitas vel malitia actus
+<lb ed="#L" n="59"/>interioris voluntatis, et exterioris actus.
+<lb ed="#L" n="60"/>Actus enim interioris principium est vis
+<lb ed="#L" n="61"/>animae interior apprehensiva vel appetitiva: actus
+<lb ed="#L" n="62"/>autem exterioris principium est potentia exequens
+<lb ed="#L" n="63"/>motum. Ubi autem sunt diversa principia 
+actio<lb break="no" ed="#L" n="64"/>nis, ibi sunt diversi actus. Actus autem est 
+subie<lb break="no" ed="#L" n="65"/>ctum bonitatis vel malitiae. Non potest autem
+<lb ed="#L" n="66"/>esse idem accidens in diversis subiectis. Ergo
+<lb ed="#L" n="67"/>non potest esse eadem bonitas interioris et 
+exte<lb break="no" ed="#L" n="68"/>rioris actus. :
+</p>
+               <p xml:id="TAca84-d1e775-d1e572">
+                  <lb ed="#L" n="69"/>2. PRAETEREA, virtus est quae bonum facit 
+ha<lb break="no" ed="#L" n="70"/>bentem, et opus eius bonum reddit, ut dicitur in
+<lb ed="#L" n="71"/>II Ethic. Sed alia est virtus intellectualis in 
+po<lb break="no" ed="#L" n="72"/>tentia imperante, et alia virtus moralis in potentia
+<lb ed="#L" n="73"/>imperata, ut patet ex I Ethic. Ergo alia est 
+bo<lb break="no" ed="#L" n="74"/>nitas actus interioris, qui est? potentiae 
+imperan<lb break="no" ed="#L" n="75"/>tis: et alia est bonitas actus exterioris, qui est
+<lb ed="#L" n="76"/>potentiae imperatae.
+</p>
+               <p xml:id="TAca84-d1e775-d1e593">
+                  <lb ed="#L" n="77"/>3. PRAETEREA, causa et effectus idem esse non
+<lb ed="#L" n="78"/>possunt: nihil enim est causa sui ipsius. Sed 
+bo<lb break="no" ed="#L" n="79"/>nitas actus interioris est causa bonitatis actus 
+ex<lb break="no" ed="#L" n="80"/>terioris, aut e converso, ut dictum est. Ergo
+<lb ed="#L" n="81"/>non potest esse eadem bonitas utriusque.
+</p>
+               <p xml:id="TAca84-d1e775-d1e606">
+                  <lb ed="#L" n="82"/>SED CONTRA EST quod supra ostensum est
+<lb ed="#L" n="83"/>quod actus voluntatis se habet ut formale Y ad
+<lb ed="#L" n="84"/>actum exteriorem. Ex formali autem et materiali
+<lb ed="#L" n="85"/>fit unum. Ergo est una bonitas actus interioris
+<lb ed="#L" n="86"/>et exterioris.
+</p>
+               <p xml:id="TAca84-d1e775-d1e619">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="87"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="88"/>est, actus interior voluntatis et actus exterior,
+<lb ed="#L" n="89"/>prout considerantur in genere moris, sunt unus
+<lb ed="#L" n="90"/>actus. Contingit autem quandoque actum qui est
+<lb ed="#L" n="91"/>unus subiecto, habere plures rationes bonitatis vel
+<lb ed="#L" n="92"/>malitiae; et quandoque unam tantum. Sic ergo
+<lb ed="#L" n="93"/>dicendum quod quandoque est eadem bonitas
+<lb ed="#L" n="94"/>vel malitia interioris et exterioris actus; 
+quan<lb break="no" ed="#L" n="95"/>doque alia et alia. Sicut enim iam ? dictum est,
+<lb ed="#L" n="96"/>praedictae duae bonitates vel malitiae, scilicet
+<lb ed="#L" n="97"/>interioris et exterioris actus, ad invicem 
+ordinan<lb break="no" ed="#L" n="98"/>tur. Contingit autem in his quae ad aliud 
+ordi<lb break="no" ed="#L" n="99"/>nantur, quod aliquid est bonum ex hoc solum
+<lb ed="#L" n="100"/>quod ad aliud ordinatur: sicut potio amara ex
+<lb ed="#L" n="101"/>hoc solo est bona, quod est sanativa. Unde non
+<lb ed="#L" n="102"/>est alia bonitas sanitatis et potionis, sed una et
+<lb ed="#L" n="103"/>eadem. Quandoque vero illud quod ad aliud 
+or<lb break="no" ed="#L" n="104"/>dinatur, habet in se aliquam rationem boni, etiam
+<lb ed="#L" n="105"/>praeter ordinem ad aliud bonum: sicut medicina
+<lb ed="#L" n="106"/>saporosa habet rationem boni delectabilis, praeter
+<lb ed="#L" n="107"/>hoc quod est sanativa.
+</p>
+               <p xml:id="TAca84-d1e775-d1e669">
+                  <lb ed="#L" n="108"/>Sic ergo dicendum quod, quando actus exterior
+<lb ed="#L" n="109"/>est bonus vel malus solum ex ordine ad finem,
+<lb ed="#L" n="110"/>tunc est omnino eadem bonitas vel malitia actus
+<lb ed="#L" n="111"/>voluntatis, qui per se respicit finem, et actus
+<lb ed="#L" n="112"/>exterioris, qui respicit finem mediante actu 
+vo<lb break="no" ed="#L" n="113"/>luntatis. Quando ^ autem actus exterior habet 
+bo<lb break="no" ed="#L" n="114"/>nitatem vel malitiam secundum se, scilicet 
+secun<lb break="no" ed="#L" n="115"/>dum materiam vel circumstantias, tunc bonitas
+<lb ed="#L" n="116"/>exterioris actus est una, et bonitas voluntatis quae
+<pb ed="#L" n="158"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>est ex fine, est alia: ita tamen quod et bonitas
+<lb ed="#L" n="2"/>finis ex voluntate redundat in actum exteriorem ,
+<lb ed="#L" n="3"/>et bonitas materiae et circumstantiarum redundat
+<lb ed="#L" n="4"/>in actum. voluntatis, sicut iam dictum est.
+<lb ed="#L" n="5"/>"AD PRIMUM ERGO DICENDUM quod ratio illa 
+pro<lb break="no" ed="#L" n="6"/>bat quod actus interior et exterior sunt diversi
+<lb ed="#L" n="7"/>secundum genus naturae. Sed tamen ex eis sic
+<lb ed="#L" n="8"/>diversis constituitur unum in genere moris, ut
+<lb ed="#L" n="9"/>supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e775-d1e715">
+                  <lb ed="#L" n="10"/>AD SECUNDUM DICENDUM quod, sicut dicitur in VI
+<lb ed="#L" n="11"/>Ethic., virtutes morales ordinantur ad ipsos actus
+<lb ed="#L" n="12"/>virtutum, qui sunt quasi fines; prudentia autem,
+<lb ed="#L" n="13"/>quae est in ratione, ad ea quae sunt ad finem.
+<lb ed="#L" n="14"/>Et propter hoc requiruntur diversae virtutes. Sed
+<lb ed="#L" n="15"/>ratio recta de ipso fine virtutum non habet aliam
+<lb ed="#L" n="16"/>bonitatem quam, bonitatem virtutis, secundum .
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="17"/>quod bonitas rationis participatur in qualibet 
+vir<lb break="no" ed="#L" n="18"/>tute.
+</p>
+               <p xml:id="TAca84-d1e775-d1e739">
+                  <lb ed="#L" n="19"/>AD TERTIUM DICENDUM quod, quando aliquid ex
+<lb ed="#L" n="20"/>uno derivatur in alterum sicut ex causa agente
+<lb ed="#L" n="21"/>univoca, tunc aliud est quod est in utroque: sicut
+<lb ed="#L" n="22"/>cum calidum calefacit, alius numero est calor 
+ca<lb break="no" ed="#L" n="23"/>lefacientis, et calor calefacti, licet idem specie.
+<lb ed="#L" n="24"/>Sed quando aliquid derivatur ab uno in alterum
+<lb ed="#L" n="25"/>secundum analogiam vel proportionem, tunc est
+<lb ed="#L" n="26"/>tantum unum numero: sicut a sano quod est in
+<lb ed="#L" n="27"/>corpore animalis, derivatur sanum ad medicinam
+<lb ed="#L" n="28"/>et urinam; nec alia sanitas est medicinae et urinae,
+<lb ed="#L" n="29"/>quam sanitas animalis, quam medicina facit, et
+<lb ed="#L" n="30"/>urina significat. Et hoc modo a bonitate voluntatis
+<lb ed="#L" n="31"/>derivatur bonitas actus exterioris, et e converso,
+<lb ed="#L" n="32"/>scilicet secundum ordinem unius ad alterum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e775-Dd1e773"><!-- p2p1-q20-a4 -->
+               <head xml:id="TAca84-d1e775-Hd1e776">Articulus 4</head>
+               <head xml:id="TAca84-d1e775-Hd1e778" type="question-title">utrum actus exterior aliquid addat de bonitate et malitia
+       supra actum interiorem</head>
+               <p xml:id="TAca84-d1e775-d1e781">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="81"/>ARTICULUS QUARTUS
+<lb ed="#L" n="82"/>UTRUM ACTUS EXTERIOR ALIQUID ADDAT DE BONITATE ET MALITIA
+<lb ed="#L" n="83"/>SUPRA ACTUM INTERIOREM
+</p>
+               <p xml:id="TAca84-d1e775-d1e792">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="84"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="85"/>exterior actus non addat in bonitate vel
+<lb ed="#L" n="86"/>malitia supra actum interiorem. Dicit
+<lb ed="#L" n="87"/>enim Chrysostomus, super Matth.: 
+Vo<lb break="no" ed="#L" n="88"/>luntas est quae aut remuneratur pro bono, aut
+<lb ed="#L" n="89"/>condemnatur pro malo. Opera autem testimonia
+<lb ed="#L" n="90"/>sunt voluntatis. Non ergo quaerit Deus opera
+<lb ed="#L" n="91"/>propter se, ut sciat quomodo iudicet; sed 
+pro<lb break="no" ed="#L" n="92"/>pter alios, ut omnes intelligant quia iustus est
+<lb ed="#L" n="93"/>Deus. Sed malum vel bonum magis est 
+aesti<lb break="no" ed="#L" n="94"/>mandum secundum iudicium Dei, quam 
+secun<lb break="no" ed="#L" n="95"/>dum iudicium hominum. Ergo actus exterior nihil
+<lb ed="#L" n="96"/>addit ad bonitatem vel malitiam super actum 
+in<lb break="no" ed="#L" n="97"/>teriorem.
+</p>
+               <p xml:id="TAca84-d1e775-d1e827">
+                  <lb ed="#L" n="98"/>2. PRAETEREA, una et eadem est bonitas 
+inte<lb break="no" ed="#L" n="99"/>rioris et exterioris actus, ut dictum est. Sed
+<lb ed="#L" n="100"/>augmentum fit per additionem unius ad alterum.
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="101"/>Ergo actus exterior non additjn bonitate vel 
+ma<lb break="no" ed="#L" n="102"/>litia super actum interiorem.
+</p>
+               <p xml:id="TAca84-d1e775-d1e844">
+                  <lb ed="#L" n="103"/>3. PRAETEREA, tota bonitas creaturae nihil addit
+<lb ed="#L" n="104"/>supra bonitatem divinam, quia tota derivatur a
+<lb ed="#L" n="105"/>bonitate divina. Sed bonitas actus exterioris
+<lb ed="#L" n="106"/>quandoque tota derivatur ex bonitate actus 
+inte<lb break="no" ed="#L" n="107"/>rioris, quandoque autem e converso, ut dictum
+<lb ed="#L" n="108"/>est. Non ergo unum eorum addit in bonitate
+<lb ed="#L" n="109"/>vel malitia super alterum.
+</p>
+               <p xml:id="TAca84-d1e775-d1e862">
+                  <lb ed="#L" n="110"/>SED coNTRA, omne? agens intendit consequi 
+bo<lb break="no" ed="#L" n="111"/>num et vitare malum. Si ergo per actum 
+exte<lb break="no" ed="#L" n="112"/>riorem nihil additur de bonitate vel malitia, 
+fru<lb break="no" ed="#L" n="113"/>stra qui habet bonam voluntatem vel malam,
+<lb ed="#L" n="114"/>facit opus bonum, aut desistit a malo opere. Quod
+<lb ed="#L" n="115"/>est inconveniens.
+</p>
+               <p xml:id="TAca84-d1e775-d1e878">
+                  <lb ed="#L" n="116"/>RESPONDEO DICENDUM quod, si loquamur de 
+bo<lb break="no" ed="#L" n="117"/>nitate exterioris actus quam habet ex voluntate
+<pb ed="#L" n="160"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>finis, tunc actus exterior ? nihil addit ad 
+bonita<lb break="no" ed="#L" n="2"/>tem, nisi contingat ipsam voluntatem secundum
+<lb ed="#L" n="3"/>se fieri meliorem in bonis, vel peiorem in malis.
+<lb ed="#L" n="4"/>Quod quidem videtur posse contingere tripliciter.
+<lb ed="#L" n="5"/>Uno modo, secundum numerum. Puta, cum 
+ali<lb break="no" ed="#L" n="6"/>quis vult aliquid facere bono fine vel malo, et
+<lb ed="#L" n="7"/>tunc quidem non facit, postmodum autem vult
+<lb ed="#L" n="8"/>et facit; duplicatur actus voluntatis, et sic fit 
+du<lb break="no" ed="#L" n="9"/>plex bonum vel duplex malum. - Alio modo, 
+quan<lb break="no" ed="#L" n="10"/>tum ad extensionem. Puta, cum aliquis vult 
+fa<lb break="no" ed="#L" n="11"/>cere aliquid bono fine vel malo, et propter aliquod
+<lb ed="#L" n="12"/>impedimentum desistit; alius autem continuat
+<lb ed="#L" n="13"/>motum voluntatis quousque opere perficiat; 
+ma<lb break="no" ed="#L" n="14"/>nifestum est quod huiusmodi voluntas est. 
+diu<lb break="no" ed="#L" n="15"/>turnior in bono vel malo, et secundum hoc est
+<lb ed="#L" n="16"/>peior vel melior. - Tertio, secundum intensionem.
+<lb ed="#L" n="17"/>Sunt enim quidam actus exteriores qui, 
+inquan<lb break="no" ed="#L" n="18"/>tum sunt delectabiles vel poenosi, nati sunt 
+in<lb break="no" ed="#L" n="19"/>tendere voluntatem vel remittere. Constat autem
+<lb ed="#L" n="20"/>quod quanto voluntas intensius. tendit in bonum
+<lb ed="#L" n="21"/>vel malum, tanto est melior vel peior.
+</p>
+               <p xml:id="TAca84-d1e775-d1e935">
+                  <lb ed="#L" n="22"/>Si autem loquamur de bonitate actus 
+exterio<lb break="no" ed="#L" n="23"/>ris quam habet secundum materiam et debitas
+<lb ed="#L" n="24"/>circumstantias, sic comparatur ad voluntatem ut
+<lb ed="#L" n="25"/>terminus et finis. Et hoc modo addit ad bonita-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="26"/>tem vel malitiam voluntatis: quia omnis 
+incli<lb break="no" ed="#L" n="27"/>natio vel motus perficitur in hoc quod 
+conse<lb break="no" ed="#L" n="28"/>quitur finem, vel attingit terminum. Unde non est -
+<lb ed="#L" n="29"/>perfecta voluntas, nisi sit talis quae, opportunitate
+<lb ed="#L" n="30"/>data, operetur. Si vero possibilitas desit, voluntate
+<lb ed="#L" n="31"/>existente perfecta, ut operaretur si posset; defectus
+<lb ed="#L" n="32"/>perfectionis quae est ex actu exteriori, est 
+simpli<lb break="no" ed="#L" n="33"/>citer involuntarium. Involuntarium autem, sicut
+<lb ed="#L" n="34"/>non meretur poenam vel praemium in operando
+<lb ed="#L" n="35"/>bonum aut malum, ita non tollit aliquid de 
+prae<lb break="no" ed="#L" n="36"/>mio vel de poena, si homo involuntarie 
+simpli<lb break="no" ed="#L" n="37"/>citer deficiat ad faciendum bonum vel malum.
+</p>
+               <p xml:id="TAca84-d1e775-d1e974">
+                  <lb ed="#L" n="38"/>AD PRIMUM ERGO DICENDUM quod Chrysostomus
+<lb ed="#L" n="39"/>loquitur, quando voluntas hominis est 
+consum<lb break="no" ed="#L" n="40"/>mata, et non cessatur ab actu nisi propter 
+im<lb break="no" ed="#L" n="41"/>potentiam faciendi.
+</p>
+               <p xml:id="TAca84-d1e775-d1e985">
+                  <lb ed="#L" n="42"/>AD SECUNDUM DICENDUM quod ratio illa procedit
+<lb ed="#L" n="43"/>de bonitate actus exterioris quam habet a 
+volun<lb break="no" ed="#L" n="44"/>tate finis, Sed bonitas actus exterioris quam
+<lb ed="#L" n="45"/>habet ex materia et circumstantiis, est alia a 
+bo<lb break="no" ed="#L" n="46"/>nitate voluntatis quae est ex fine: non autem
+<lb ed="#L" n="47"/>alia a bonitate voluntatis quam habet ex ipso
+<lb ed="#L" n="48"/>actu volito, sed comparatur ad ipsam ut ratio
+<lb ed="#L" n="49"/>et causa eius, sicut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1006">
+                  <lb ed="#L" n="50"/>Et per hoc etiam patet solutio ad tertium.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e775-Dd1e1012"><!-- p2p1-q20-a5 -->
+               <head xml:id="TAca84-d1e775-Hd1e1015">Articulus 5</head>
+               <head xml:id="TAca84-d1e775-Hd1e1017" type="question-title">utrum eventus sequens aliquid addat de bonitate vel malitia
+       ad exteriorem actum</head>
+               <p xml:id="TAca84-d1e775-d1e1020">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="34"/>ARTICULUS QUINTUS
+<lb ed="#L" n="35"/>UTRUM EVENTUS SEQUENS ALIQUID ADDAT DE BONITATE VEL MALITIA
+<lb ed="#L" n="36"/>AD EXTERIOREM ACTUM
+</p>
+               <p xml:id="TAca84-d1e775-d1e1031">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="37"/>Ad QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="38"/>eventus sequens addat ad. bonitatem
+<lb ed="#L" n="39"/>vel malitiam actus. Effectus enim 
+vir<lb break="no" ed="#L" n="40"/>tute praeexistit in causa. Sed eventus
+<lb ed="#L" n="41"/>consequuntur actus sicut effectus causas. Ergo
+<lb ed="#L" n="42"/>virtute praeexistunt in actibus. Sed unumquodque
+<lb ed="#L" n="43"/>secundum suam virtutem iudicatur bonum vel
+<lb ed="#L" n="44"/>malum: nam virius est quae bonum facit 
+haben<lb break="no" ed="#L" n="45"/>tem, ut dicitur in II Ethic. Ergo eventus addunt
+<lb ed="#L" n="46"/>ad bonitatem vel malitiam actus.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1057">
+                  <lb ed="#L" n="47"/>2. PRAETEREA, bona quae faciunt auditores, sunt
+<lb ed="#L" n="48"/>effectus quidam consequentes. ex praedicatione
+<lb ed="#L" n="49"/>doctoris. Sed huiusmodi bona redundant ad 
+me<lb break="no" ed="#L" n="50"/>ritum praedicatoris: ut patet per id quod dicitur
+<lb ed="#L" n="51"/>Philipp. 1v: Fratres mei carissimi et 
+desideratissi<lb break="no" ed="#L" n="52"/>mi, gaudium meum et corona mea. Ergo eventus
+<lb ed="#L" n="53"/>sequens addit ad bonitatem vel malitiam actus.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1076">
+                  <lb ed="#L" n="54"/>3. PRAETEREA, poena non additur nisi crescente
+<lb ed="#L" n="55"/>culpa: unde dicitur Deut. xxv: Pro mensura
+<lb ed="#L" n="56"/>peccati, erit et plagarum modus. Sed ex eventu
+<lb ed="#L" n="57"/>sequente additur ad poenam: dicitur enim Exod.
+<lb ed="#L" n="58"/>Xx: Quod si bos fuerit cornupeta ab heri et 
+nu<lb break="no" ed="#L" n="59"/>dius iertius, et contestati sunt dominum eius, nec
+<lb ed="#L" n="60"/>recluserit 5 eum, occideritque virum aut mulierem;
+<lb ed="#L" n="61"/>et bos lapidibus obruetur, et dominum | eius 
+oc<lb break="no" ed="#L" n="62"/>cident. Non autem occideretur, si bos non 
+occidis<lb break="no" ed="#L" n="63"/>set hominem, etiam non reclusus. Ergo eventus
+<lb ed="#L" n="64"/>sequens addit ad bonitatem vel malitiam actus.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1102">
+                  <lb ed="#L" n="65"/>4. PRAETEREA, si aliquis ingerat causam mortis
+<lb ed="#L" n="66"/>percutiendo vel sententiam dando, et mors non
+<lb ed="#L" n="67"/>sequatur , non contrahitur irregularitas. 
+Contrahe<lb break="no" ed="#L" n="68"/>retur autem si- mors sequeretur. Ergo eventus 
+se<lb break="no" ed="#L" n="69"/>quens addit ad- bonitatem vel malitiam actus.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1115">
+                  <lb ed="#L" n="70"/>SED coNTRA, eventus sequens non facit actum
+<lb ed="#L" n="71"/>malum. qui erat bonus, nec bonum qui erat 
+ma<lb break="no" ed="#L" n="72"/>lus. Puta si aliquis det eleemosynam pauperi,
+<lb ed="#L" n="73"/>qua ille: abutatur ad peccatum, nihil deperit ei
+<lb ed="#L" n="74"/>qui eleemosynam fecit: et similiter si aliquis 
+pa<cb ed="#L" n="e"/>
+                  <lb break="no" ed="#L" n="75"/>tenter ferat iniuriam sibi factam, non. propter
+<lb ed="#L" n="76"/>hoc excusatur ille qui fecit. Ergo eventus sequens
+<lb ed="#L" n="77"/>non addit ad bonitatem vel malitiam actus.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1137">
+                  <lb ed="#L" n="78"/>RESPONDEO DICENDUM quod eventus sequens aut
+<lb ed="#L" n="79"/>est praecogitatus, aut non. Si est praecogitatus
+<lb ed="#L" n="80"/>manifestum est quod addit ad bonitatem vel 
+ma<lb break="no" ed="#L" n="81"/>litiam.: Cum enim aliquis cogitans quod ex opere
+<lb ed="#L" n="82"/>suo. multa. mala possunt sequi, nec propter hoc
+<lb ed="#L" n="83"/>dimittit, ex hoc apparet voluntas eius esse magis
+<lb ed="#L" n="84"/>inordinata.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1155">
+                  <lb ed="#L" n="85"/>Si autem eventus sequens non sit. 
+praecogita<lb break="no" ed="#L" n="86"/>tus, tunc distinguendum est. Quia si per se 
+se<lb break="no" ed="#L" n="87"/>quitur ex tali actu, et ut in pluribus, secundum
+<lb ed="#L" n="88"/>hoc eventus sequens addit ad bonitatem vel 
+ma<lb break="no" ed="#L" n="89"/>litiam actus: manifestum est enim meliorem actüm
+<lb ed="#L" n="90"/>esse ex suo genere, ex quo possunt plura bona
+<lb ed="#L" n="91"/>sequi; et peiorem, ex quo nata sunt plura mala
+<lb ed="#L" n="92"/>sequi. — Si vero per accidens, et ut in paucioribus,
+<lb ed="#L" n="93"/>tunc eventus sequens non addit ad bonitatem vel
+<lb ed="#L" n="94"/>ad malitiam actus: non enim datur iudicium de
+<lb ed="#L" n="95"/>re aliqua secundum illud quod est per accidens,
+<lb ed="#L" n="96"/>sed solum secundum illud quod est per se.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1184">
+                  <lb ed="#L" n="97"/>AD PRIMUM ERGO DICENDUM quod virtus: causae
+<lb ed="#L" n="98"/>existimatur secundum effectus per se: non Autem
+<lb ed="#L" n="99"/>secunduni effectus per accidens.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1194">
+                  <lb ed="#L" n="100"/>AD SECUNDUM DICENDUM quod bona "^ indi?
+<lb ed="#L" n="101"/>tores faciunt, consequuntur ex práedicatione- 
+do<lb break="no" ed="#L" n="102"/>ctoris. sicut effectus per se. Unde redundant ad
+<lb ed="#L" n="103"/>praemium praedicatoris: et praecipue quando
+<lb ed="#L" n="104"/>sunt praeintenta.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1207">
+                  <lb ed="#L" n="105"/>AD TERTIUM DICENDUM died eventus ille pro
+<lb ed="#L" n="106"/>quo illi poena infligenda mandatur, et per se 
+se<lb break="no" ed="#L" n="107"/>quitur ex tali causa, et iterum ponitur ut 
+prae<lb break="no" ed="#L" n="108"/>cogitatus. Et ideo imputatür ad poenam.:
+</p>
+               <p xml:id="TAca84-d1e775-d1e1218">
+                  <lb ed="#L" n="109"/>Ab QUARTUM DICENDUM quod ratio illa 
+procede<lb break="no" ed="#L" n="110"/>ret, si irregularitas sequeretur culpam. Non autem:
+<lb ed="#L" n="111"/>sequitur culpam, sed factum, propter aliquem de:
+<lb ed="#L" n="112"/>fectum sacramenti.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e775-Dd1e1230"><!-- p2p1-q20-a6 -->
+               <head xml:id="TAca84-d1e775-Hd1e1233">Articulus 6</head>
+               <head xml:id="TAca84-d1e775-Hd1e1235" type="question-title">utrum idem actus exterior possit esse bonus et malus</head>
+               <p xml:id="TAca84-d1e775-d1e1238">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="82"/>ARTICULUS SEXTUS
+<lb ed="#L" n="83"/>UTRUM IDEM ACTUS EXTERIOR POSSIT ESSE BONUS ET MALUS
+</p>
+               <p xml:id="TAca84-d1e775-d1e1247">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="84"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="85"/>unus actus possit esse bonus et malus.
+<lb ed="#L" n="86"/>Motus enim est unus qui est continuus,
+<lb ed="#L" n="87"/>ut dicitur in V Physic..Sed unus 
+mo<lb break="no" ed="#L" n="88"/>tus continuus potest esse bonus et malus: puta
+<lb ed="#L" n="89"/>si aliquis, continue ad ecclesiam. vadens, primo
+<lb ed="#L" n="90"/>quidem. intendat inanem gloriam, postea intendat
+<lb ed="#L" n="91"/>Deo servire. Ergo unus actus potest esse bonus
+<lb ed="#L" n="92"/>et malus.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1271">
+                  <lb ed="#L" n="93"/>2. PRAETEREA, secundum Philosophum, in 1II
+<lb ed="#L" n="94"/>Physic., actio et passio sunt unus actus. Sed
+<lb ed="#L" n="95"/>potest esse passio bona, sicut Christi; et actio
+<lb ed="#L" n="96"/>mala, sicut ludaeorum. Ergo unus actus potest
+<lb ed="#L" n="97"/>esse: bonus: et malus.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1285">
+                  <lb ed="#L" n="98"/>3. PRAETEREA, cum servus sit quasi 
+instrumen<lb break="no" ed="#L" n="99"/>tum domini, actio servi est actio domini, sicut
+<lb ed="#L" n="100"/>actio instrumenti est actio artificis. Sed potest
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="101"/>contingere quod actio servi procedat ex bona 
+vo<lb break="no" ed="#L" n="102"/>luntate domini, et sic sit bona: et ex mala 
+yo<lb break="no" ed="#L" n="103"/>luntate servi, etsic sit mala. Ergo idem actus
+<lb ed="#L" n="104"/>potest esse bonus et malus.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1305">
+                  <lb ed="#L" n="105"/>SED coNTRA, contraria non possunt esse in 
+eo<lb break="no" ed="#L" n="106"/>dem. Sed bonum et malum sunt contraria. Ergo
+<lb ed="#L" n="107"/>unus actus non potest esse bonus et malus.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1314">
+                  <lb ed="#L" n="108"/>REsPONDEO DICENDUM quod nihil prohibet aliquid
+<lb ed="#L" n="109"/>esse unum, secundum quod est in uno genere;
+<lb ed="#L" n="110"/>et esse multiplex, secundum quod refertur ad
+<lb ed="#L" n="111"/>aliud genus. Sicut superficies continua est una,
+<lb ed="#L" n="112"/>secundum quod consideratur in genere 
+quanti<lb break="no" ed="#L" n="113"/>tatis: tamen est multiplex, secundum quod 
+re<lb break="no" ed="#L" n="114"/>fertur ad genus coloris, si partim sit alba, et
+<lb ed="#L" n="115"/>partim nigra. Et secundum hoc, nihil prohibet
+<lb ed="#L" n="116"/>aliquem actum esse unum secundum quod 
+re<lb break="no" ed="#L" n="117"/>fertur ad genus naturae, qui tamen non est unus
+<pb ed="#L" n="163"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>secundum quod refertur ad genus moris, sicut
+<lb ed="#L" n="2"/>et e converso, ut dictum est. Ambulatio enim
+<lb ed="#L" n="3"/>continua est unus actus secundum genus 
+natu<lb break="no" ed="#L" n="4"/>rae: potest tamen contingere quod sint plures
+<lb ed="#L" n="5"/>secundum genus moris, si mutetur ambulantis
+<lb ed="#L" n="6"/>voluntas, quae est principium actuum moralium.-
+<lb ed="#L" n="7"/>Si ergo accipiatur unus actus prout est in genere
+<lb ed="#L" n="8"/>moris, impossibile est quod sit bonus et malus
+<lb ed="#L" n="9"/>bonitate et malitia morali. Si tamen sit unus 
+uni<lb break="no" ed="#L" n="10"/>tate naturae, et non unitate moris, potest esse
+<lb ed="#L" n="11"/>bonus et malus.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1366">
+                  <lb ed="#L" n="12"/>AD PRIMUM ERGO DICENDUM quod ille motus 
+con<lb break="no" ed="#L" n="13"/>tinuus qui procedit ex diversa intentione, licet
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="14"/>sit unus unitate naturae, non est tamen unus
+<lb ed="#L" n="15"/>unitate moris.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1379">
+                  <lb ed="#L" n="16"/>AD SECUNDUM DICENDUM quod actio et passio
+<lb ed="#L" n="17"/>pertinent ad genus moris, inquantum habent 
+ra<lb break="no" ed="#L" n="18"/>tionem voluntarii. Et ideo secundum quod 
+di<lb break="no" ed="#L" n="19"/>versa voluntate dicuntur voluntaria, secundum
+<lb ed="#L" n="20"/>hoc sunt duo moraliter, et potest ex una parte
+<lb ed="#L" n="21"/>inesse bonum, et ex alia malum.
+</p>
+               <p xml:id="TAca84-d1e775-d1e1395">
+                  <lb ed="#L" n="22"/>AD TERTIUM DICENDUM quod actus servi, 
+inquan<lb break="no" ed="#L" n="23"/>tum procedit ex voluntate servi, non est actus
+<lb ed="#L" n="24"/>domini: sed solum inquantum procedit ex 
+man<lb break="no" ed="#L" n="25"/>dato domini. Unde sic non facit ipsum malum
+<lb ed="#L" n="26"/>mala voluntas servi.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

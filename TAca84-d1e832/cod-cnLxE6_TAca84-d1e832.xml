@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 31</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 31</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="215"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e832"><!-- p2p1-q31 -->
+            <head xml:id="TAca84-d1e832-Hd1e99">Quaestio 31</head>
+            <head xml:id="TAca84-d1e832-Hd1e101" type="question-title">de delectatione secundum se</head>
+            <p xml:id="TAca84-d1e832-d1e104">
+               <pb ed="#L" n="215"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO TRIGESIMAPRIMA
+<lb ed="#L" n="2"/>DE DELECTATIONE SECUNDUM SE
+<lb ed="#L" n="3"/>IN OCTO ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e832-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de delectatione et
+<lb ed="#L" n="5"/>tristitia. Circa delectationem vero 
+conside<lb break="no" ed="#L" n="6"/>randa sunt quatuor: primo, de ipsa delectatione
+<lb ed="#L" n="7"/>secundum se; secundo, de causis delectationis;
+<lb ed="#L" n="8"/>tertio, de effectibus eius; quarto, de bonitate
+<lb ed="#L" n="9"/>et malitia ipsius.
+<lb ed="#L" n="10"/>Circa primum quaeruntur octo.
+<lb ed="#L" n="11"/>Primo: utrum delectatio sit passio.
+<lb ed="#L" n="12"/>Secundo: utrum sit in tempore.
+<lb ed="#L" n="13"/>Tertio: utrum differat a gaudio.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="14"/>Quarto: utrum sit in appetitu intellectivo.
+<lb ed="#L" n="15"/>Quinto: de comparatione delectationum 
+supe<lb break="no" ed="#L" n="16"/>rioris appetitus, ad delectationem inferioris.
+<lb ed="#L" n="17"/>Sexto: de comparatione delectationum 
+sensiti<lb break="no" ed="#L" n="18"/>varum ad invicem.
+<lb ed="#L" n="19"/>Septimo: utrum sit aliqua delectatio non 
+na<lb break="no" ed="#L" n="20"/>turalis.
+<lb ed="#L" n="21"/>Octavo: utrum delectatio possit esse contraria
+<lb ed="#L" n="22"/>delectationi.
+</p>
+            <div xml:id="TAca84-d1e832-Dd1e165"><!-- p2p1-q31-a1 -->
+               <head xml:id="TAca84-d1e832-Hd1e168">Articulus 1</head>
+               <head xml:id="TAca84-d1e832-Hd1e170" type="question-title">utrum delectatio sit passio</head>
+               <p xml:id="TAca84-d1e832-d1e173">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="23"/>ARTICULUS PRIMUS
+<lb ed="#L" n="24"/>UTRUM DELECTATIO SIT PASSIO
+</p>
+               <p xml:id="TAca84-d1e832-d1e182">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="25"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="26"/>delectatio non sit passio. Damascenus
+<lb ed="#L" n="27"/>enim, in II libro, distinguit operationem
+<lb ed="#L" n="28"/>a passione, dicens quod <quote xml:id="TAca84-d1e832-Qd1e195">operatio est
+<lb ed="#L" n="29"/>molus qui est secundum naturam, passio vero
+<lb ed="#L" n="30"/>est motus contra naturam</quote>. Sed delectatio est 
+ope<lb break="no" ed="#L" n="31"/>ratio, ut Philosophus dicit, in VII et X Ethic.
+<lb ed="#L" n="32"/>» Ergo delectatio non est passio.
+</p>
+               <p xml:id="TAca84-d1e832-d1e207">
+                  <lb ed="#L" n="33"/>2. PRAETEREA, pali est moveri, ut dicitur in.llI
+<lb ed="#L" n="34"/>Physic.. Sed delectatio non consistit in moveri,
+<lb ed="#L" n="35"/>sed in motum. esse: causatur enim delectatio ex
+<lb ed="#L" n="36"/>bono iam adepto. Ergo delectatio non est passio.
+</p>
+               <p xml:id="TAca84-d1e832-d1e219">
+                  <lb ed="#L" n="37"/>3. PRAETEREA, delectatio consistit in quadam
+<lb ed="#L" n="38"/>perfectione delectati: perficit. enim operationem ,
+<lb ed="#L" n="39"/>ut dicitur in X Ethic. Sed. perfici non est pati
+<lb ed="#L" n="40"/>vel alterari, ut dicitur in VII Physic. et in II
+<lb ed="#L" n="41"/>de Anima. Ergo delectatio non est passio.
+</p>
+               <p xml:id="TAca84-d1e832-d1e232">
+                  <lb ed="#L" n="42"/>SED CONTRA EST quod Augustinus, in IX et
+<lb ed="#L" n="43"/>XIV de Civ. Dei, ponit delectationem, sive 
+gau<lb break="no" ed="#L" n="44"/>dium vel laetitiam, inter alias passiones animae.
+</p>
+               <p xml:id="TAca84-d1e832-d1e241">
+                  <lb ed="#L" n="45"/>RESPONDEO DICENDUM quod motus appetitus 
+sen<lb break="no" ed="#L" n="46"/>sitivi proprie passio nominatur, sicut supra 
+di<lb break="no" ed="#L" n="47"/>ctum est. Affectio autem quaecumque ex 
+appre<lb break="no" ed="#L" n="48"/>hensione sensitiva procedens, est motus appetitus
+<lb ed="#L" n="49"/>sensitivi. Hoc autem necesse est competere 
+dele<lb break="no" ed="#L" n="50"/>ctationi. Nam, sicut Philosophus dicit in I R/
+eto<lb break="no" ed="#L" n="51"/>ric., delectatio esi quidam motus animae, et 
+consti<lb break="no" ed="#L" n="52"/>lutio simul tota et sensibilis in naturam existentem.
+<lb ed="#L" n="53"/>Ad cuius intellectum, considerandum est quod,
+<lb ed="#L" n="54"/>sicut contingit in rebus naturalibus aliqua 
+con<lb break="no" ed="#L" n="55"/>sequi suas perfectiones naturales, ita hoc 
+con<lb break="no" ed="#L" n="56"/>tingit in animalibus. Et quamvis moveri ad 
+per<lb break="no" ed="#L" n="57"/>fectionem non. sit totum simul, tamen consequi
+<lb ed="#L" n="58"/>naturalem perfectionem est totum simul. Haec
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="59"/>autem est differentia inter animalia et alias res
+<lb ed="#L" n="60"/>naturales, quod aliae res naturales, quando 
+con<lb break="no" ed="#L" n="61"/>stituuntur in id quod convenit eis secundum 
+na<lb break="no" ed="#L" n="62"/>turam, hoc non sentiunt: sed animalia hoc 
+sen<lb break="no" ed="#L" n="63"/>tiunt. Et ex isto sensu causatur quidam motus
+<lb ed="#L" n="64"/>animae in appetitu sensitivo: et iste motus est
+<lb ed="#L" n="65"/>delectatio. Per hoc ergo quod dicitur quod 
+de<lb break="no" ed="#L" n="66"/>lectatio est motus animae, ponitur in genere. Per
+<lb ed="#L" n="67"/>hoc autem quod dicitur constitutio in existentem.
+<lb ed="#L" n="68"/>naturam, idest in id quod existit in natura ? rei,
+<lb ed="#L" n="69"/>ponitur causa delectationis, scilicet praesentia 
+con<lb break="no" ed="#L" n="70"/>naturalis boni. Per hoc autem quod dicitur s;-
+<lb ed="#L" n="71"/>mul tola, ostendit quod constitutio non debet
+<lb ed="#L" n="72"/>accipi prout est in constitui, sed prout est in
+<lb ed="#L" n="73"/>constitutum esse, quasi in termino motus: non
+<lb ed="#L" n="74"/>enim delectatio est generatio, ut Plato posuit,
+<lb ed="#L" n="75"/>sed magis consistit in factum esse, ut dicitur in
+<lb ed="#L" n="76"/>VII Ethic. Per hoc autem quod dicitur 
+sensi<lb break="no" ed="#L" n="77"/>bilis, excluduntur perfectiones rerum. 
+insensibi<lb break="no" ed="#L" n="78"/>lium, in quibus non est delectatio. - Sic ergo patet
+<lb ed="#L" n="79"/>quod, cum delectatio sit motus in appetitu 
+ani<lb break="no" ed="#L" n="80"/>mali consequens apprehensionem sensus, 
+dele<lb break="no" ed="#L" n="81"/>ctatio est passio animae.
+</p>
+               <p xml:id="TAca84-d1e832-d1e326">
+                  <lb ed="#L" n="82"/>AD PRIMUM ERGO DICENDUM quod operatio 
+con<lb break="no" ed="#L" n="83"/>naturalis ? non impedita, est perfectio secunda, ut
+<lb ed="#L" n="84"/>habetur in Il de Anima. Et ideo, quando 
+con<lb break="no" ed="#L" n="85"/>stituitur res in propria operatione connaturali et
+<lb ed="#L" n="86"/>non impedita, sequitur delectatio, quae. consistit
+<lb ed="#L" n="87"/>in. perfectum esse, ut dictum est. Sic ergo cum
+<lb ed="#L" n="88"/>dicitur quod delectatio est operatio, non est 
+prae<lb break="no" ed="#L" n="89"/>dicatio per essentiam, sed per causam.
+</p>
+               <p xml:id="TAca84-d1e832-d1e346">
+                  <lb ed="#L" n="90"/>AD SECUNDUM DICENDUM quod in animali duplex
+<lb ed="#L" n="91"/>motus considerari potest: unus secundum 
+inten<lb break="no" ed="#L" n="92"/>tionem finis, qui pertinet ad appetitum; alius se-
+<pb ed="#L" n="216"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>cundum executionem, qui pertinet ad exteriorem
+<lb ed="#L" n="2"/>operationem. Licet ergo in eo qui iam 
+conse<lb break="no" ed="#L" n="3"/>cutus est bonum in quo delectatur, cesset motus 
+<lb ed="#L" n="4"/>executionis, quo tenditur ad finem; non tamen 
+<lb ed="#L" n="5"/>cessat motus appetitivae partis, quae, sicut prius 
+<lb ed="#L" n="6"/>desiderabat non habitum, ita postea delectatur in 
+<lb ed="#L" n="7"/>habito. Licet enim delectatio sit quies quaedam
+<lb ed="#L" n="8"/>appetitus, considerata praesentia boni delectantis, 
+<lb ed="#L" n="9"/>quod appetitui satisfacit; tamen adhuc remanet
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>immutatio appetitus ab appetibili, ratione cuius
+<lb ed="#L" n="11"/>delectatio motus quidam est.
+</p>
+               <p xml:id="TAca84-d1e832-d1e385">
+                  <lb ed="#L" n="12"/>AD TERTIUM DICENDUM quod, quamvis nomen 
+pas<lb break="no" ed="#L" n="13"/>sionis magis proprie conveniat passionibus 
+cor<lb break="no" ed="#L" n="14"/>ruptivis et in malum tendentibus, sicut sunt 
+ae<lb break="no" ed="#L" n="15"/>gritudines corporales, et tristitia et timor in anima;
+<lb ed="#L" n="16"/>tamen etiam in bonum ordinantur aliquae 
+pas<lb break="no" ed="#L" n="17"/>siones, ut supra dictum est. Et secundum hoc :
+<lb ed="#L" n="18"/>delectatio dicitur passio.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e832-Dd1e405"><!-- p2p1-q31-a2 -->
+               <head xml:id="TAca84-d1e832-Hd1e408">Articulus 2</head>
+               <head xml:id="TAca84-d1e832-Hd1e410" type="question-title">utrum delectatio sit in tempore</head>
+               <p xml:id="TAca84-d1e832-d1e413">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="48"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="49"/>UTRUM DELECTATIO SIT IN TEMPORE
+</p>
+               <p xml:id="TAca84-d1e832-d1e422">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="50"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="51"/>delectatio sit in tempore. Delectatio enim 
+<lb ed="#L" n="52"/>est motus quidam, ut in I Rhetoric. 
+<lb ed="#L" n="53"/>Philosophus dicit. Sed motus omnis est 
+<lb ed="#L" n="54"/>in tempore. Ergo delectatio est in tempore. 
+</p>
+               <p xml:id="TAca84-d1e832-d1e438">
+                  <lb ed="#L" n="55"/>2. PRAETEREA, diuturnum, vel morosum, dicitur  
+<lb ed="#L" n="56"/>aliquid secundum tempus. Sed aliquae delectáà-  
+<lb ed="#L" n="57"/>tiones dicuntur morosae. Ergo delectatio est in 
+<lb ed="#L" n="58"/>tempore. in tempore. Si autem sit ómnino intransmutabile,
+</p>
+               <p xml:id="TAca84-d1e832-d1e450">
+                  <lb ed="#L" n="59"/>3. PnaETEREA, passiones animae sünt unius 
+ge<lb break="no" ed="#L" n="60"/>neris. Sed aliquae passiones animae sunt in 
+tem<lb break="no" ed="#L" n="61"/>pore. Ergo et delectatio. 
+</p>
+               <p xml:id="TAca84-d1e832-d1e459">
+                  <lb ed="#L" n="62"/>SED cowTRA &amp;sT quod Philosophus dieit, in X  
+<lb ed="#L" n="63"/>Ethic., quod secundum nullum tempus accipiet 
+<lb ed="#L" n="64"/>quis delectationem. 
+</p>
+               <p xml:id="TAca84-d1e832-d1e468">
+                  <lb ed="#L" n="65"/>RESPONDEO DICENDUM quod aliquid contingit esse 
+<lb ed="#L" n="66"/>in tempore dupliciter: uno modo, secundum se;  
+<lb ed="#L" n="67"/>alio modo, per aliud, et quasi per accidens. Quia 
+<lb ed="#L" n="68"/>enim tempus est numerus successivorum, illa 
+se<lb break="no" ed="#L" n="69"/>cundum se dicuntur esse in tempore, de quorum 
+<lb ed="#L" n="70"/>ratione est successio, vel aliquid ad successionem 
+<lb ed="#L" n="71"/>pertinens: sicut motus, quies, locutio, et alia 
+hu<lb break="no" ed="#L" n="72"/>iusmodi. Secundum aliud vero, et non per se, 
+di<lb break="no" ed="#L" n="73"/>cuntur esse in tempore illa de quorum ratione 
+<lb ed="#L" n="74"/>non est aliqua successio, sed tamen alicui 
+suc<lb break="no" ed="#L" n="75"/>cessivo subiacent. Sicut esse hominem de sui 
+<lb ed="#L" n="76"/>ratione non habet successionem, non enim est  
+<lb ed="#L" n="77"/>motus, sed terminus motus vel mutationis, scili- 
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="78"/>cet generationis ipsius: sed quia humanum esse
+<lb ed="#L" n="79"/>subiacet causis transmutabilibus, secundum bus:
+<lb ed="#L" n="80"/>esse hominem est in tempore
+</p>
+               <p xml:id="TAca84-d1e832-d1e507">
+                  <lb ed="#L" n="81"/>Sic igitur dicendum 'est quod delectatio 
+secun<lb break="no" ed="#L" n="82"/>dum se quidem non est in tempore: est enim -
+<lb ed="#L" n="83"/>delectatio in bono iam adepto, quod est quasi ter- ^ ^
+<lb ed="#L" n="84"/>minus motus. Sed si illud bonum adeptum 
+trans<lb break="no" ed="#L" n="85"/>mutationi subiaceat, erit delectatio per accidens
+<lb ed="#L" n="86"/>delectatio non erit in tempore nec per se, nec -
+<lb ed="#L" n="87"/>per accidens.
+</p>
+               <p xml:id="TAca84-d1e832-d1e525">
+                  <lb ed="#L" n="88"/>AD PRIMUM ERGO DICENDUM quod, sicut dicitur in
+<lb ed="#L" n="89"/>III. de Anima, motus dupliciter. dicitur. Uno ;
+<lb ed="#L" n="90"/>modo, qui est actus imperfecti, scilicet 8 existentis
+<lb ed="#L" n="91"/>in potentia, inquantum huiusmodi: et talis motus
+<lb ed="#L" n="92"/>est successivus, et in tempore. Alius autem motus
+<lb ed="#L" n="93"/>est actus perfecti, idest existentis in actu; 'sicut
+<lb ed="#L" n="94"/>intelligere, sentire et velle et huiusmodi, et etiam
+<lb ed="#L" n="95"/>delectari. Et huiusmodi motus non est 
+successi<lb break="no" ed="#L" n="96"/>vus, nec per se in tempore.
+</p>
+               <p xml:id="TAca84-d1e832-d1e547">
+                  <lb ed="#L" n="97"/>AD SECUNDUM DICENDUM quod delectatio dicitur
+<lb ed="#L" n="98"/>diuturna. vel morosa, secundum quod per 
+acci<lb break="no" ed="#L" n="99"/>dens est in tempore.
+</p>
+               <p xml:id="TAca84-d1e832-d1e557">
+                  <lb ed="#L" n="100"/>AD TERTIUM DICENDUM quod aliae passiones non
+<lb ed="#L" n="101"/>fecti, quam delectatio. Et per consequens magis
+<lb ed="#L" n="102"/>delectationi- convenit' non esse in tempore.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e832-Dd1e567"><!-- p2p1-q31-a3 -->
+               <head xml:id="TAca84-d1e832-Hd1e570">Articulus 3</head>
+               <head xml:id="TAca84-d1e832-Hd1e572" type="question-title">utrum delectatio differat a gaudio</head>
+               <p xml:id="TAca84-d1e832-d1e575">
+                  <pb ed="#L" n="217"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM DELECTATIO DIFFERAT A GAUDIO
+</p>
+               <p xml:id="TAca84-d1e832-d1e586">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>gaudium sit omnino idem quod 
+dele<lb break="no" ed="#L" n="5"/>ctatio. Passiones enim animae differunt
+<lb ed="#L" n="6"/>secundum obiecta, Sed idem. est 
+obie<lb break="no" ed="#L" n="7"/>ctum gaudii et delectationis, scilicet bonum 
+ade<lb break="no" ed="#L" n="8"/>ptum. Ergo gaudium est omnino idem quod 
+de<lb break="no" ed="#L" n="9"/>lectatio.
+</p>
+               <p xml:id="TAca84-d1e832-d1e606">
+                  <lb ed="#L" n="10"/>2. PRAETEREA, unus motus non terminatur ad
+<lb ed="#L" n="11"/>duos terminos. Sed idem est motus qui 
+termi<lb break="no" ed="#L" n="12"/>natur ad gaudium et delectationem, scilicet 
+con<lb break="no" ed="#L" n="13"/>cupiscentia. Ergo delectatio et gaudium sunt 
+om<lb break="no" ed="#L" n="14"/>nino idem.
+</p>
+               <p xml:id="TAca84-d1e832-d1e620">
+                  <lb ed="#L" n="15"/>3. PRAETEREA, si gaudium est aliud a 
+delecta<lb break="no" ed="#L" n="16"/>tione, videtur quod, pari ratione, et laetitia et
+<lb ed="#L" n="17"/>exultatio et iucunditas significent aliquid aliud a
+<lb ed="#L" n="18"/>delectatione: etsic erunt omnes diversae 
+passio<lb break="no" ed="#L" n="19"/>nes. Quod videtur esse falsum. Non ergo gaudium
+<lb ed="#L" n="20"/>differt a delectatione.
+</p>
+               <p xml:id="TAca84-d1e832-d1e636">
+                  <lb ed="#L" n="21"/>SED cowTRA rsT quod in brutis animalibus non
+<lb ed="#L" n="22"/>dicimus gaudium. Sed in eis dicimus 
+delectatio<lb break="no" ed="#L" n="23"/>nem. Non ergo est idem gaudium et delectatio.
+</p>
+               <p xml:id="TAca84-d1e832-d1e645">
+                  <lb ed="#L" n="24"/>RESPONDEO DICENDUM quod gaudium, ut 
+Avi<lb break="no" ed="#L" n="25"/>cenna dicit in libro suo de Anima, est quaedam
+<lb ed="#L" n="26"/>species delectationis. Est enim considerandum
+<lb ed="#L" n="27"/>quod, sicut sunt quaedam concupiscentiae 
+natu<lb break="no" ed="#L" n="28"/>rales, quaedam autem non naturales, sed 
+conse<lb break="no" ed="#L" n="29"/>quuntur rationem, ut supra dictum est; ita etiam
+<lb ed="#L" n="30"/>delectationum quaedam sunt naturales, et 
+quae<lb break="no" ed="#L" n="31"/>dam non naturales, quae sunt cum ratione. Vel,
+<lb ed="#L" n="32"/>sicut Damascenus et Gregorius Nyssenus 
+di<lb break="no" ed="#L" n="33"/>cunt, quaedam sunt corporales, quaedam animales:
+<lb ed="#L" n="34"/>quod in idem redit. Delectamur enim et in his
+<lb ed="#L" n="35"/>quae naturaliter concupiscimus, ea adipiscentes;
+<lb ed="#L" n="36"/>et in his quae concupiscimus secundum rationem.
+<lb ed="#L" n="37"/>Sed nomen gaudii non habet locum nisi in 
+delecta<lb break="no" ed="#L" n="38"/>tione quae consequitur rationem: unde gaudium
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="39"/>non attribuimus brutis animalibus, sed solum 
+no<lb break="no" ed="#L" n="40"/>men delectationis. - Omne autem quod 
+concupi<lb break="no" ed="#L" n="41"/>scimus secundum naturam, possumus etiam cum
+<lb ed="#L" n="42"/>delectatione rationis concupiscere: sed non e 
+con<lb break="no" ed="#L" n="43"/>verso. Unde de omnibus de quibus est delectatio,
+<lb ed="#L" n="44"/>potest etiam esse gaudium in habentibus 
+ratio<lb break="no" ed="#L" n="45"/>nem. Quamvis non semper de omnibus sit 
+gau<lb break="no" ed="#L" n="46"/>dium: quandoque enim aliquis sentit aliquam 
+de<lb break="no" ed="#L" n="47"/>lectationem secundum corpus, de qua tamen non
+<lb ed="#L" n="48"/>gaudet secundum rationem. Et secundum hoc,
+<lb ed="#L" n="49"/>patet quod delectatio est in plus ? quam gaudium.
+</p>
+               <p xml:id="TAca84-d1e832-d1e706">
+                  <lb ed="#L" n="50"/>AD PRIMUM ERGO DICENDUM quod, cum obiectum
+<lb ed="#L" n="51"/>appetitus animalis sit bonum apprehensum, 
+diver<lb break="no" ed="#L" n="52"/>sitas apprehensionis pertinet quodammodo ad 
+di<lb break="no" ed="#L" n="53"/>versitatem obiecti. Et sic delectationes animales,
+<lb ed="#L" n="54"/>quae dicuntur etiam gaudia, distinguuntur a 
+de<lb break="no" ed="#L" n="55"/>lectationibus corporalibus, quae dicuntur solum
+<lb ed="#L" n="56"/>delectationes: sicut et de concupiscentiis supra
+<lb ed="#L" n="57"/>dictum est.
+</p>
+               <p xml:id="TAca84-d1e832-d1e726">
+                  <lb ed="#L" n="58"/>AD SECUNDUM DICENDUM quod similis differentia
+<lb ed="#L" n="59"/>invenitur etiam in concupiscentiis: ita quod 
+de<lb break="no" ed="#L" n="60"/>lectatio respondeat concupiscentiae, et gaudium
+<lb ed="#L" n="61"/>respondeat desiderio, quod magis videtur pertinere
+<lb ed="#L" n="62"/>ad concupiscentiam animalem. Et sic secundum
+<lb ed="#L" n="63"/>differentiam motus, est etiam differentia quietis.
+</p>
+               <p xml:id="TAca84-d1e832-d1e742">
+                  <lb ed="#L" n="64"/>AD TERTIUM DICENDUM quod alia nomina ad 
+de<lb break="no" ed="#L" n="65"/>lectationem pertinentia, sunt imposita ab effectibus
+<lb ed="#L" n="66"/>delectationis: nam /aetitia imponitur a dilatatione
+<lb ed="#L" n="67"/>cordis, ac si diceretur /atitia; exultatio vero 
+di<lb break="no" ed="#L" n="68"/>citur ab exterioribus signis delectationis interioris,
+<lb ed="#L" n="69"/>quae apparent exterius, inquantum scilicet interius
+<lb ed="#L" n="70"/>gaudium prosilit ad exteriora; iucunditas vero
+<lb ed="#L" n="71"/>dicitur a quibusdam specialibus laetitiae signis vel
+<lb ed="#L" n="72"/>effectibus. Et tamen omnia ista nomina videntur
+<lb ed="#L" n="73"/>pertinere ad gaudium: non enim utimur eis nisi
+<lb ed="#L" n="74"/>in naturis rationalibus.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e832-Dd1e769"><!-- p2p1-q31-a4 -->
+               <head xml:id="TAca84-d1e832-Hd1e772">Articulus 4</head>
+               <head xml:id="TAca84-d1e832-Hd1e774" type="question-title">utrum delectatio sit in appetitu intellectivo</head>
+               <p xml:id="TAca84-d1e832-d1e777">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="75"/>ARTICULUS QUARTUS
+<lb ed="#L" n="76"/>UTRUM DELECTATIO SIT IN APPETITU INTELLECTIVO
+</p>
+               <p xml:id="TAca84-d1e832-d1e786">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="77"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="78"/>delectatio non sit in appetitu 
+intellecti<lb break="no" ed="#L" n="79"/>vo. Dicit enim Philosophus, in I. 
+Rhe<lb break="no" ed="#L" n="80"/>toric., quod <quote xml:id="TAca84-d1e832-Qd1e799">delectatio est motus quidam
+<lb ed="#L" n="81"/>sensibilis</quote>. Sed motus sensibilis non est in parte
+<lb ed="#L" n="82"/>intellectiva. Ergo delectatio non est in parte 
+in<lb break="no" ed="#L" n="83"/>tellectiva.
+</p>
+               <p xml:id="TAca84-d1e832-d1e809">
+                  <lb ed="#L" n="84"/>2. PRAETEREA, delectatio est passio quaedam.
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="85"/>Sed omnis passio est in appetitu sensitivo. Ergo
+<lb ed="#L" n="86"/>delectatio non est nisi in appetitu sensitivo.
+</p>
+               <p xml:id="TAca84-d1e832-d1e821">
+                  <lb ed="#L" n="87"/>3. PRAETEREA, delectatio est communis nobis
+<lb ed="#L" n="88"/>et brutis. Ergo non est nisi in parte quae nobis
+<lb ed="#L" n="89"/>et brutis communis est.
+</p>
+               <p xml:id="TAca84-d1e832-d1e830">
+                  <lb ed="#L" n="90"/>SED CONTRA EST quod in Psalmo xxxvi dicitur:
+<lb ed="#L" n="91"/>Delectare in Domino. Sed ad Deum non potest
+<lb ed="#L" n="92"/>extendi appetitus sensitivus, sed solum intellecti-
+<pb ed="#L" n="218"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>vus. Ergo delectatio potest esse in appetitu 
+in<lb break="no" ed="#L" n="2"/>tellectivo.
+</p>
+               <p xml:id="TAca84-d1e832-d1e848">
+                  <lb ed="#L" n="3"/>REsPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="4"/>delectatio quaedam sequitur apprehensionem 
+ra<lb break="no" ed="#L" n="5"/>tionis. Ad apprehensionem autem rationis, non
+<lb ed="#L" n="6"/>solum commovetur appetitus sensitivus, per 
+appli<lb break="no" ed="#L" n="7"/>cationem ad aliquid particulare; sed etiam 
+appe<lb break="no" ed="#L" n="8"/>titus intellectivus, qui dicitur voluntas. Et 
+secun<lb break="no" ed="#L" n="9"/>dum hoc, in appetitu intellectivo, sive in voluntate,
+<lb ed="#L" n="10"/>est delectatio quae dicitur gaudium, non autem
+<lb ed="#L" n="11"/>delectatio corporalis.
+</p>
+               <p xml:id="TAca84-d1e832-d1e870">
+                  <lb ed="#L" n="12"/>Hoc tamen interest inter delectationem ' 
+utrius<lb break="no" ed="#L" n="13"/>que appetitus, quod delectatio appetitus sensibilis
+<lb ed="#L" n="14"/>est cum aliqua transmutatione corporali: 
+delecta<lb break="no" ed="#L" n="15"/>tio autem appetitus intellectivi nihil aliud est quam
+<lb ed="#L" n="16"/>simplex motus voluntatis. Et secundum hoc 
+Au<lb break="no" ed="#L" n="17"/>gustinus dicit, in XIV de Civ. Dei, quod cupiditas
+<lb ed="#L" n="18"/>et laetitia non 9 est aliud quam voluntas in eorum
+<lb ed="#L" n="19"/>consensione quae volumus.
+</p>
+               <p xml:id="TAca84-d1e832-d1e890">
+                  <lb ed="#L" n="20"/>AD PRIMUM ERGO DICENDUM quod in illa 
+defini<lb break="no" ed="#L" n="21"/>tione Philosophi, sensibile ponitur communiter
+<lb ed="#L" n="22"/>pro quacumque apprehensione. Dicit enim 
+Phi<lb break="no" ed="#L" n="23"/>losophus in X Ethic., quod <quote xml:id="TAca84-d1e832-Qd1e900">secundum omnem
+<cb ed="#L" n="b"/>
+                     <lb ed="#L" n="24"/>sensum est delectatio; similiter autem et 
+secun<lb break="no" ed="#L" n="25"/>dum intellectum et speculationem</quote>. - Vel potest dici
+<lb ed="#L" n="26"/>quod ipse definit delectationem appetitus sensitivi.
+</p>
+               <p xml:id="TAca84-d1e832-d1e913">
+                  <lb ed="#L" n="27"/>AD SECUNDUM DICENDUM quod delectatio habet
+<lb ed="#L" n="28"/>rationem passionis, proprie loquendo, inquantum
+<lb ed="#L" n="29"/>est cum aliqua transmutatione corporali. Et sic
+<lb ed="#L" n="30"/>non est in appetitu intellectivo, sed secundum
+<lb ed="#L" n="31"/>simplicem motum: sic enim etiam est in Deo et
+<lb ed="#L" n="32"/>in angelis. Unde dicit Philosophus, in VII Ethic.
+<lb ed="#L" n="33"/>quod Deus una simplici operatione gaudet. Et
+<lb ed="#L" n="34"/>Dionysius dicit, in fine Cael. Hier., quod angeli
+<lb ed="#L" n="35"/>non sunt susceptibiles nostrae passibilis 
+delectatio<lb break="no" ed="#L" n="36"/>nis, sed congaudent Deo secundum incorruptionis
+<lb ed="#L" n="37"/>laetitiam.
+</p>
+               <p xml:id="TAca84-d1e832-d1e940">
+                  <lb ed="#L" n="38"/>AD TERTIUM DICENDUM quod in nobis non solum
+<lb ed="#L" n="39"/>est delectatio in qua communicamus cum brutis,
+<lb ed="#L" n="40"/>sed etiam in qua communicamus cum angelis.
+<lb ed="#L" n="41"/>Unde ibidem Dionysius dicit quod sancti 
+homi<lb break="no" ed="#L" n="42"/>nes multoties fiunt in participatione delectationum
+<lb ed="#L" n="43"/>angelicarum. Et ita in nobis est delectatio non
+<lb ed="#L" n="44"/>solum in appetitu sensitivo, in quo 
+communica<lb break="no" ed="#L" n="45"/>mus cum brutis; sed etiam in appetitu intellectivo,
+<lb ed="#L" n="46"/>in quo communicamus cum angelis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e832-Dd1e963"><!-- p2p1-q31-a5 -->
+               <head xml:id="TAca84-d1e832-Hd1e966">Articulus 5</head>
+               <head xml:id="TAca84-d1e832-Hd1e968" type="question-title">utrum delectationes corporales et sensibiles sint maiores
+       delectationibus spiritualibus et intelligibilibus</head>
+               <p xml:id="TAca84-d1e832-d1e971">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="16"/>ARTICULUS QUINTUS
+<lb ed="#L" n="17"/>UTRUM DELECTATIONES CORPORALES ET SENSIBILES SINT MAIORES
+<lb ed="#L" n="18"/>DELECTATIONIBUS SPIRITUALIBUS ET INTELLIGIBILIBUS
+</p>
+               <p xml:id="TAca84-d1e832-d1e982">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="19"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="20"/>delectationes corporales et sensibiles sint
+<lb ed="#L" n="21"/>maiores delectationibus spiritualibus 
+in<lb break="no" ed="#L" n="22"/>intelligibilibus. Omnes enim aliquam 
+de<lb break="no" ed="#L" n="23"/>lectationem sequuntur, secundum Philosophum,
+<lb ed="#L" n="24"/>in X Ethic. Sed plures sequuntur delectationes
+<lb ed="#L" n="25"/>sensibiles, quam delectationes spirituales 
+intelli<lb break="no" ed="#L" n="26"/>gibiles. Ergo delectationes corporales sunt 
+ma<lb break="no" ed="#L" n="27"/>iores.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1006">
+                  <lb ed="#L" n="28"/>2. PRAETEREA, magnitudo causae ex effectu
+<lb ed="#L" n="29"/>cognoscitur. Sed delectationes corporales habent
+<lb ed="#L" n="30"/>fortiores effectus: transmutant enim corpus, et
+<lb ed="#L" n="31"/>quibusdam insanias faciunt, ut dicitur in VILEZAic.
+<lb ed="#L" n="32"/>Ergo delectationes corporales sunt fortiores.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1020">
+                  <lb ed="#L" n="33"/>3. PRAETEREA, delectationes corporales oportet
+<lb ed="#L" n="34"/>temperare et refraenare, propter earum 
+vehemen<lb break="no" ed="#L" n="35"/>tiam. Sed delectationes spirituales non oportet 
+re<lb break="no" ed="#L" n="36"/>fraenare. Ergo delectationes corporales sunt
+<lb ed="#L" n="37"/>maiores.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1033">
+                  <lb ed="#L" n="38"/>SED CONTRA EST quod dicitur in Psalmo cxvui:
+<lb ed="#L" n="39"/>Quam. dulcia faucibus meis eloquia tua, super mel
+<lb ed="#L" n="40"/>ori meo. Et Philosophus dicit, in X Ethic., quod
+<lb ed="#L" n="41"/>maxima delectatio est quae est secundum 
+opera<lb break="no" ed="#L" n="42"/>lionem sapientiae.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1046">
+                  <lb ed="#L" n="43"/>RESPONDEO DICENDUM quod, sicut iam dictum
+<lb ed="#L" n="44"/>est, delectatio provenit ex coniunctione 
+conve<lb break="no" ed="#L" n="45"/>nientis quae sentitur vel ? cognoscitur. In operibus
+<lb ed="#L" n="46"/>autem animae, praecipue sensitivae et 
+intellecti<lb break="no" ed="#L" n="47"/>vae, est hoc considerandum, quod, cum non 
+trans<lb break="no" ed="#L" n="48"/>eant in materiam exteriorem, sunt actus vel 
+per<lb break="no" ed="#L" n="49"/>fectiones operantis, scilicet intelligere, sentire,
+<lb ed="#L" n="50"/>velle, et huiusmodi: nam actiones quae transeunt
+<lb ed="#L" n="51"/>in exteriorem materiam, magis sunt actiones et
+<lb ed="#L" n="52"/>perfectiones materiae transmutatae; motus enim
+<lb ed="#L" n="53"/>est actus mobilis a. movente. Sic igitur 
+praedi<lb break="no" ed="#L" n="54"/>ctae actiones animae sensitivae et intellectivae,
+<lb ed="#L" n="55"/>et ipsae sunt quoddam bonum operantis, et sunt
+<lb ed="#L" n="56"/>etiam cognitae per sensum vel intellectum. Unde
+<lb ed="#L" n="57"/>etiam ex ipsis consurgit delectatio, et non solum
+<lb ed="#L" n="58"/>ex eorum obiectis.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1083">
+                  <lb ed="#L" n="59"/>Si igitur comparentur delectationes intelligibiles
+<lb ed="#L" n="60"/>delectationibus sensibilibus, secundum quod 
+dele<lb break="no" ed="#L" n="61"/>ctamur in ipsis actionibus, puta in cognitione 
+sen<lb break="no" ed="#L" n="62"/>sus et in cognitione intellectus; non est dubium
+<lb ed="#L" n="63"/>quod multo sunt maiores delectationes 
+intelligi<lb break="no" ed="#L" n="64"/>biles quam sensibiles. Multo enim magis dele-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="65"/>ctatur homo de hoc quod cognoscit aliquid 
+intel<lb break="no" ed="#L" n="66"/>ligendo, quam de hoc quod cognoscit aliquid
+<lb ed="#L" n="67"/>sentiendo. Quia intellectualis cognitio et 
+perfe<lb break="no" ed="#L" n="68"/>ctior est: et etiam magis cognoscitur, quia 
+intel<lb break="no" ed="#L" n="69"/>lectus magis reflectitur supra actum suum quam
+<lb ed="#L" n="70"/>sensus. Est etiam cognitio intellectiva magis 
+di<lb break="no" ed="#L" n="71"/>lecta: nullus enim est qui non magis vellet carere
+<lb ed="#L" n="72"/>visu corporali quam visu intellectuali, eo modo
+<lb ed="#L" n="73"/>quo bestiae vel stulti carent, sicut Augustinus
+<lb ed="#L" n="74"/>dicit, in libro de Civ. Dei.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1122">
+                  <lb ed="#L" n="75"/>Sed si comparentur delectationes intelligibiles
+<lb ed="#L" n="76"/>spirituales delectationibus sensibilibus 
+corporali<lb break="no" ed="#L" n="77"/>bus, sic, secundum se et simpliciter loquendo, 
+de<lb break="no" ed="#L" n="78"/>lectationes spirituales sunt maiores. Et hoc apparet
+<lb ed="#L" n="79"/>secundum tria quae requiruntur ad 
+delectatio<lb break="no" ed="#L" n="80"/>nem: scilicet bonum coniunctum, et id cui 
+con<lb break="no" ed="#L" n="81"/>iungitur, et ipsa coniunctio. Nam ipsum bonum
+<lb ed="#L" n="82"/>spirituale et est maius quam corporale bonum;
+<lb ed="#L" n="83"/>et est magis dilectum. Cuius signum est quod
+<lb ed="#L" n="84"/>homines etiam a maximis corporalibus 
+volupta<lb break="no" ed="#L" n="85"/>tibus abstinent, ut non perdant honorem, qui est
+<lb ed="#L" n="86"/>bonum intelligibile. - Similiter etiam ipsa pars 
+in<lb break="no" ed="#L" n="87"/>tellectiva est multo nobilior, et magis cognoscitiva,
+<lb ed="#L" n="88"/>quam pars sensitiva. - Coniunctio etiam utriusque
+<lb ed="#L" n="89"/>est magis intima, et magis perfecta, et magis 
+fir<lb break="no" ed="#L" n="90"/>ma. [ntimior quidem est, quia sensus sistit circa
+<lb ed="#L" n="91"/>exteriora accidentia rei: intellectus vero penetrat
+<lb ed="#L" n="92"/>usque ad rei essentiam ; obiectum enim 
+intelle<lb break="no" ed="#L" n="93"/>ctus est quod quid est. Perfectior autem est, quia
+<lb ed="#L" n="94"/>coniunctioni sensibilis ad sensum adiungitur 
+mo<lb break="no" ed="#L" n="95"/>tus, qui est actus imperfectus: unde et 
+delecta<lb break="no" ed="#L" n="96"/>tiones sensibiles non-sunt totae simul, sed in eis
+<lb ed="#L" n="97"/>aliquid pertransit, et aliquid expectatur 
+consum<lb break="no" ed="#L" n="98"/>mandum, ut patet in delectatione ciborum et 
+ve<lb break="no" ed="#L" n="99"/>nereorum. Sed intelligibilia sunt absque motu:
+<lb ed="#L" n="100"/>unde delectationes tales sunt totae simul. Est
+<lb ed="#L" n="101"/>etiam firmior: quia delectabilia corporalia sunt
+<lb ed="#L" n="102"/>corruptibilia, et cito deficiunt; bona vero 
+spiri<lb break="no" ed="#L" n="103"/>tualia sunt incorruptibilia. ;
+</p>
+               <p xml:id="TAca84-d1e832-d1e1187">
+                  <lb ed="#L" n="104"/>Sed quoad nos, delectationes corporales sunt
+<lb ed="#L" n="105"/>magis vehementes, propter tria. Primo, quia 
+sen<lb break="no" ed="#L" n="106"/>sibilia sunt magis nota, quoad nos, quam 
+intelli<lb break="no" ed="#L" n="107"/>gibilia. - Secundo etiam, quia delectationes 
+sen<lb break="no" ed="#L" n="108"/>sibiles, cum sint passiones sensitivi appetitus, sunt
+<lb ed="#L" n="109"/>cum aliqua transmutatione corporali. Quod non
+<lb ed="#L" n="110"/>contingit in delectationibus spiritualibus, nisi per
+<pb ed="#L" n="220"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quandam redundantiam a superiori appetitu in | 
+<lb ed="#L" n="2"/>inferiorem. - Tertio, quia delectationes corporales | 
+<lb ed="#L" n="3"/>appetuntur ut medicinae quaedam contra corpo- | 
+<lb ed="#L" n="4"/>rales defectus vel molestias, ex quibus tristitiae | 
+<lb ed="#L" n="5"/>quaedam consequuntur. Unde delectationes. 
+cor<lb break="no" ed="#L" n="6"/>porales, tristitiis huiusmodi supervenientes, magis | 
+<lb ed="#L" n="7"/>sentiuntur, et per consequens magis acceptantur, | 
+<lb ed="#L" n="8"/>quam delectationes spirituales, quae non habent 
+<lb ed="#L" n="9"/>tristitias contrarias, ut infra dicetur. 
+</p>
+               <p xml:id="TAca84-d1e832-d1e1230">
+                  <lb ed="#L" n="10"/>AD PRIMUM ERGO DICENDUM quod ideo plures 
+se<lb break="no" ed="#L" n="11"/>quuntur delectationes corporales, quia bona 
+sen<lb break="no" ed="#L" n="12"/>sibilia sunt magis et pluribus nota. Et etiam quia 
+<lb ed="#L" n="13"/>homines indigent delectationibus ut medicinis 
+<lb ed="#L" n="14"/>contra multiplices dolores et tristitias: et cum
+</p>
+               <p xml:id="TAca84-d1e832-d1e1243">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="15"/>plures hominum non possint attingere ad 
+dele<lb break="no" ed="#L" n="16"/>ctationes spirituales, quae sunt propriae 
+virtuo<lb break="no" ed="#L" n="17"/>sorum, consequens est quod declinent ad 
+corpo<lb break="no" ed="#L" n="18"/>rales.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1256">
+                  <lb ed="#L" n="19"/>AD SECUNDUM DICENDUM quod transmutatio 
+cor<lb break="no" ed="#L" n="20"/>poris magis contingit. ex delectationibus 
+corpora<lb break="no" ed="#L" n="21"/>libus, inquantum sunt passiones appetitus sensitivi.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1265">
+                  <lb ed="#L" n="22"/>AD TERTIUM DICENDUM quod delectationes 
+cor<lb break="no" ed="#L" n="23"/>porales sunt secundum partem sensitivam, quae
+<lb ed="#L" n="24"/>regulatur ratione: et ideo indigent temperari et
+<lb ed="#L" n="25"/>refraenari per rationem. Sed delectationes 
+spiri<lb break="no" ed="#L" n="26"/>tuales sunt secundum mentem, quae est ipsa 
+<lb ed="#L" n="27"/>regula : unde sunt secundum seipsas sobriae et
+<lb ed="#L" n="28"/>moderatae.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e832-Dd1e1284"><!-- p2p1-q31-a6 -->
+               <head xml:id="TAca84-d1e832-Hd1e1287">Articulus 6</head>
+               <head xml:id="TAca84-d1e832-Hd1e1289" type="question-title">utrum delectationes tactus sint maiores delectationibus.
+       quae sunt secundum alios sensus</head>
+               <p xml:id="TAca84-d1e832-d1e1292">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="41"/>ARTICULUS SEXTUS
+<lb ed="#L" n="42"/>UTRUM DELECTATIONES TACTUS SINT MAIORES DELECTATIONIBUS.
+<lb ed="#L" n="43"/>QUAE SUNT SECUNDUM ALIOS SENSUS
+</p>
+               <p xml:id="TAca84-d1e832-d1e1303">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="44"/>AD SEXTUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="45"/>delectationes quae sunt secundum 
+ta<lb break="no" ed="#L" n="46"/>boom, non sint maiores delectationibus 
+<lb ed="#L" n="47"/>quae sunt secundum alios sensus. Illa 
+<lb ed="#L" n="48"/>enim delectatio videtur esse maxima, qua exclusa, 
+<lb ed="#L" n="49"/>omne gaudium cessat. Sed talis est delectatio quae 
+<lb ed="#L" n="50"/>est secundum visum: dicitur enim 7obíae v: 
+<lb ed="#L" n="51"/>Quale gaudium erit mihi, qui in tenebris sedeo, | 
+<lb ed="#L" n="52"/>et lumen caeli non video? Ergo delectatio quae | 
+<lb ed="#L" n="53"/>est per visum, est maxima inter sensibiles 
+dele<lb break="no" ed="#L" n="54"/>ctationes. de delectatione sensus quae est ratione utilitatis,
+</p>
+               <p xml:id="TAca84-d1e832-d1e1332">
+                  <lb ed="#L" n="55"/>2. PRaETEREA, unicuique fit delectabile illud quod 
+<lb ed="#L" n="56"/>amat, ut Philosophus dicit, in I Rhetoric. Sed | 
+<lb ed="#L" n="57"/>inter alios sensus maxime diligitur visus. Ergo | 
+<lb ed="#L" n="58"/>delectatio quae est secundum visum, est maxima. | 
+</p>
+               <p xml:id="TAca84-d1e832-d1e1344">
+                  <lb ed="#L" n="59"/>3. PRAETEREA, principium amicitiae delectabilis | 
+<lb ed="#L" n="60"/>maxime est visio. Sed causa talis amicitiae est | 
+<lb ed="#L" n="61"/>delectatio. Ergo secundum visum videtur esse | 
+<lb ed="#L" n="62"/>maxime delectatio.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1355">
+                  <lb ed="#L" n="63"/>SED cowNTRA EsT quod Philosophus dicit, in III 
+<lb ed="#L" n="64"/>Ethic., quod maximae delectationes sunt 
+secun<lb break="no" ed="#L" n="65"/>dum tactum.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1364">
+                  <lb ed="#L" n="66"/>RESPONDEO DICENDUM quod, sicut iam dictum | 
+<lb ed="#L" n="67"/>est, unumquodque, inquantum amatur, efficitur | 
+<lb ed="#L" n="68"/>delectabile. Sensus autem, ut dicitur in principio | 
+<lb ed="#L" n="69"/>Lb Metaphys., propter duo diliguntur: scilicet pro- | 
+<lb ed="#L" n="70"/>pter cognitionem, et propter utilitatem. Unde et 
+<lb ed="#L" n="71"/>utroque modo contingit esse delectationem secun- | 
+<lb ed="#L" n="72"/>dum sensum. Sed quia apprehendere ipsam co-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="73"/>gnitionem tanquam bonum quoddam, proprium
+<lb ed="#L" n="74"/>est hominis; ideo primae delectationes sensuum,
+<lb ed="#L" n="75"/>quae scilicet sunt secundum cognitionem, sunt
+<lb ed="#L" n="76"/>propriae hominum: delectationes autém sensuum
+<lb ed="#L" n="77"/>inquantum diliguntur propter utilitatem, sunt 
+com<lb break="no" ed="#L" n="78"/>munes omnibus animalibus.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1397">
+                  <lb ed="#L" n="79"/>Si igitur loquamur de delectatione sensus quae
+<lb ed="#L" n="80"/>est ratione cognitionis, manifestum est quod 
+se<lb break="no" ed="#L" n="81"/>cundum visum est maior delectatio quam 
+secun<lb break="no" ed="#L" n="82"/>dum aliquem alium sensum. - Si autem loquamur
+<lb ed="#L" n="83"/>sic maxima delectatio est secundum tactum. 
+Utili<lb break="no" ed="#L" n="84"/>tas enim sensibilium attenditur secundum ordinem
+<lb ed="#L" n="85"/>ad conservationem naturae animalis. Ad hanc
+<lb ed="#L" n="86"/>autem utilitatem propinquius se habent sensibilia
+<lb ed="#L" n="87"/>tactus: est enim tactus cognoscitivus eorum ex
+<lb ed="#L" n="88"/>quibus consistit animal, scilicet calidi et frigidi,
+<lb ed="#L" n="89"/>et huiusmodi. Unde secundum hoc, delectationes
+<lb ed="#L" n="90"/>quae sunt secundum tactum, sunt maiores, quasi
+<lb ed="#L" n="91"/>fini propinquiores. Et propter hoc etiam, alia 
+ani<lb break="no" ed="#L" n="92"/>malia, quae non habent delectationem secundum
+<lb ed="#L" n="93"/>sensum nisi ratione utilitatis, non delectantur 
+se<lb break="no" ed="#L" n="94"/>cundum alios sensus, nisi in ordine ad sensibilia
+<lb ed="#L" n="95"/>tactus: neque enim odoribus leporum canes 
+gau<lb break="no" ed="#L" n="96"/>dent, sed cibatione; neque leo voce bovis, sed 
+co<lb break="no" ed="#L" n="97"/>mestione, ut dicitur in HII Ethic.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1441">
+                  <lb ed="#L" n="98"/>Cum igitur delectatio tactus sit maxima ratione
+<lb ed="#L" n="99"/>utilitatis, delectatio autem visus ratione 
+cognitio<lb break="no" ed="#L" n="100"/>nis; si quis utramque ? comparare velit, inveniet
+<pb ed="#L" n="221"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>simpliciter. delectationem tactus esse maiorem | 
+<lb ed="#L" n="2"/>delectatione visus, secundum quod sistit infra | 
+<lb ed="#L" n="3"/>limites sensibilis delectationis. Quia manifestum 
+<lb ed="#L" n="4"/>est quod id quod est naturale in unoquoque, est | 
+<lb ed="#L" n="5"/>potentissimum. Huiusmodi autem delectationes ta- | 
+<lb ed="#L" n="6"/>ctus sunt ad quas ordinantur concupiscentiae 
+na<lb break="no" ed="#L" n="7"/>turales, sicut cibi; et'venerea, et huiusmodi. - 
+<lb ed="#L" n="8"/>si consideremus: delectationes visus, secundum | 
+<lb ed="#L" n="9"/>quod visus deservit intellectui; sic delectationes | 
+<lb ed="#L" n="10"/>visus erunt potiores, ea ratione qua et intelligi- | 
+<lb ed="#L" n="11"/>biles delectationes sunt potiores sensibilibus. 
+</p>
+               <p xml:id="TAca84-d1e832-d1e1478">
+                  <lb ed="#L" n="12"/>AD PRIMUM ERGO DICENDUM quod gaudium, sicut 
+<lb ed="#L" n="13"/>supra dictum est, significat animalem delecta- 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="14"/>tionem: et haec maxime pertinet ad visum. Sed
+<lb ed="#L" n="15"/>delectatio naturalis maxime ? pertinet ad tactum.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1492">
+                  <lb ed="#L" n="16"/>AD SECUNDUM DICENDUM quod visus maxime 
+di<lb break="no" ed="#L" n="17"/>ligitur propter cognitionem, eo quod multas rerum
+<lb ed="#L" n="18"/>differentias nobis ostendit, ut ibidem dicitur.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1501">
+                  <lb ed="#L" n="19"/>AD TERTIUM DICENDUM quod alio modo delectatio
+<lb ed="#L" n="20"/>Sed est causa amoris carnalis, et alio modo visio.
+<lb ed="#L" n="21"/>Nam delectatio, et maxime quae est secundum
+<lb ed="#L" n="22"/>tactum, est causa amicitiae delectabilis per 
+mo<lb break="no" ed="#L" n="23"/>dum finis: visio autem est causa sicut unde est
+<lb ed="#L" n="24"/>principium motus, inquantum per visum amabilis
+<lb ed="#L" n="25"/>imprimitur species rei, quae allicit ad amandum
+<lb ed="#L" n="26"/>et ad concupiscendum eius delectationem:
+</p>
+            </div>
+            <div xml:id="TAca84-d1e832-Dd1e1522"><!-- p2p1-q31-a7 -->
+               <head xml:id="TAca84-d1e832-Hd1e1525">Articulus 7</head>
+               <head xml:id="TAca84-d1e832-Hd1e1527" type="question-title">utrum aliqua delectatio sit non naturalis</head>
+               <p xml:id="TAca84-d1e832-d1e1530">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="62"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="63"/>UTRUM ALIQUA DELECTATIO SIT NON NATURALIS
+</p>
+               <p xml:id="TAca84-d1e832-d1e1539">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="64"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="65"/>nulla delectatio sit innaturalis. Delectatio
+<lb ed="#L" n="66"/>enim in affectibus animae 
+proportiona<lb break="no" ed="#L" n="67"/>tur quieti in corporibus. Sed appetitus  
+<lb ed="#L" n="68"/>corporis naturalis non quiescit nisi in loco 
+con<lb break="no" ed="#L" n="69"/>naturali. Ergo nec quies appetitus animalis, quae  
+<lb ed="#L" n="70"/>est delectatio, potest esse nisi in aliquo 
+conna<lb break="no" ed="#L" n="71"/>turali. Nulla ergo delectatio est non naturalis.  
+</p>
+               <p xml:id="TAca84-d1e832-d1e1561">
+                  <lb ed="#L" n="72"/>2. PRAETEREA, illud quod est contra naturam, 
+<lb ed="#L" n="73"/>est violentum. Sed <quote xml:id="TAca84-d1e832-Qd1e1567">omne violentum est contristans</quote>,  
+<lb ed="#L" n="74"/>ut dicitur in V Metaphys. Ergo nihil quod est 
+<lb ed="#L" n="75"/>contra naturam, potest esse delectabile.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1575">
+                  <lb ed="#L" n="76"/>3. PRAETEREA, constitui in propriam naturam.  
+<lb ed="#L" n="77"/>cum sentitur, causat delectationem ; ut patet ex  
+<lb ed="#L" n="78"/>definitione Philosophi supra posita. Sed 
+con<lb break="no" ed="#L" n="79"/>stitui in naturam, unicuique est naturale: quia  
+<lb ed="#L" n="80"/>motus naturalis est qui est ad terminum 
+natu<lb break="no" ed="#L" n="81"/>ralem. Ergo omnis delectatio est naturalis. 
+</p>
+               <p xml:id="TAca84-d1e832-d1e1591">
+                  <lb ed="#L" n="82"/>Sed cowTRA EsT quod Philosophus dicit, in VII 
+<lb ed="#L" n="83"/>Ethic., quod quaedam delectationes sunt 
+aegri<lb break="no" ed="#L" n="84"/>tudinales et contra naturam.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1600">
+                  <lb ed="#L" n="85"/>RESPONDEO DICENDUM quod naturale dicitur quod
+<lb ed="#L" n="86"/>est secundum naturam, ut dicitur in I1 Physic. 
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="87"/>Natura autem in homine dupliciter sumi potest.
+<lb ed="#L" n="88"/>Uno modo, prout intellectus et ratio est potissime -
+<lb ed="#L" n="89"/>hominis natura, quia secundum eam homo in
+<lb ed="#L" n="90"/>specie constituitur. Et secundum hoc, naturales
+<lb ed="#L" n="91"/>delectationes hominum dici possunt quae sunt
+<lb ed="#L" n="92"/>in eo quod convenit homini secundum rationem:
+<lb ed="#L" n="93"/>sicut delectari in contemplatione veritatis, et in
+<lb ed="#L" n="94"/>actibus virtutum, est naturale homini. — Alio
+<lb ed="#L" n="95"/>modo potest sumi natura in homine secundum
+<lb ed="#L" n="96"/>quod condividitur rationi: id scilicet ? quod est
+<lb ed="#L" n="97"/>commune homini et aliis, praecipue quod rationi
+<lb ed="#L" n="98"/>non obedit. Et secundum hoc, ea quae pertinent
+<lb ed="#L" n="99"/>ad conservationem corporis, vel secundum 
+indi<lb break="no" ed="#L" n="100"/>viduum, ut cibus, potus, lectus, et huiusmodi, vel
+<lb ed="#L" n="101"/>secundum speciem, sicut venereorum usus, 
+di<lb break="no" ed="#L" n="102"/>cuntur homini delectabilia naturaliter.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1644">
+                  <lb ed="#L" n="103"/>Secundum utrasque autem delectationes, 
+con<lb break="no" ed="#L" n="104"/>tingit aliquas esse innaturales, simpliciter 
+loquen<lb break="no" ed="#L" n="105"/>do, sed connaturales secundum quid. Contingit
+<lb ed="#L" n="106"/>enim in aliquo individuo corrumpi aliquod 
+prin<lb break="no" ed="#L" n="107"/>cipiorum naturalium speciei; et sic id quod est
+<lb ed="#L" n="108"/>contra naturam speciei, fieri per accidens 
+natu<lb break="no" ed="#L" n="109"/>rale huic individuo; sicut huic aquae calefactae
+<pb ed="#L" n="222"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>est naturale quod. calefaciat. lta. igitur contingit
+<lb ed="#L" n="2"/>quod id quod est contra naturam hominis, vel
+<lb ed="#L" n="3"/>quantum ad rationem, vel quantum ad corporis
+<lb ed="#L" n="4"/>conservationem, fiat huic homini connaturale, 
+pro<lb break="no" ed="#L" n="5"/>pter aliquam corruptionem naturae in eo 
+existen<lb break="no" ed="#L" n="6"/>tem. Quae quidem corruptio potest esse vel ex
+<lb ed="#L" n="7"/>párte corporis, sive ex aegritudine, sicut 
+febri<lb break="no" ed="#L" n="8"/>citantibus dulcia videntur amara et e converso;
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="9"/>sive propter malam complexionem, sicut aliqui
+<lb ed="#L" n="10"/>delectantur in comestione terrae. vel carbonum,
+<lb ed="#L" n="11"/>vel aliquorum huiusmodi: vel etiam ex parte -
+ani<lb break="no" ed="#L" n="12"/>mae, sicut propter consuetudinem aliqui 
+delectan<lb break="no" ed="#L" n="13"/>tur in comedendo homines, vel in coitu bestiarum
+<lb ed="#L" n="14"/>aut masculorum, aut aliorum huiusmodi, . quae
+<lb ed="#L" n="15"/>non sunt secundum naturam humanam.
+<lb ed="#L" n="16"/>Et. per hoc. patet responsio ad obiecta. .
+</p>
+            </div>
+            <div xml:id="TAca84-d1e832-Dd1e1705"><!-- p2p1-q31-a8 -->
+               <head xml:id="TAca84-d1e832-Hd1e1708">Articulus 8</head>
+               <head xml:id="TAca84-d1e832-Hd1e1710" type="question-title">utrum delectatio possit esse delectationi contraria</head>
+               <p xml:id="TAca84-d1e832-d1e1713">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="18"/>UTRUM DELECTATIO POSSIT ESSE DELECTATIONI CONTRARIA
+</p>
+               <p xml:id="TAca84-d1e832-d1e1722">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="19"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="20"/>delectationi non sit delectatio contraria.
+<lb ed="#L" n="21"/>Passiones enim animae speciem et 
+con<lb break="no" ed="#L" n="22"/>trarietatem recipiunt secundum  
+obie<lb break="no" ed="#L" n="23"/>cta. Obiectum autem delectationis est bonum.
+<lb ed="#L" n="24"/>Cum igitur bonum non sit contrarium bono, sed
+<lb ed="#L" n="25"/>
+                  <quote xml:id="TAca84-d1e832-Qd1e1741">bonum malo contrarietur, et malum malo</quote>, ut 
+di<lb break="no" ed="#L" n="26"/>citur in Praedicamentis; videtur quod delectatio
+<lb ed="#L" n="27"/>non sit contraria delectationi.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1748">
+                  <lb ed="#L" n="28"/>2. PRAETEREA, uni unum est contrarium, ut
+<lb ed="#L" n="29"/>probatur in X .Metaphys. Sed delectationi 
+con<lb break="no" ed="#L" n="30"/>traria est tristitia. Non ergo delectationi contraria
+<lb ed="#L" n="31"/>est delectatio.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1760">
+                  <lb ed="#L" n="32"/>3. PRAETEREA, si delectationi contraria est 
+de<lb break="no" ed="#L" n="33"/>lectatio, hoc non est nisi propter contrarietatem
+<lb ed="#L" n="34"/>eorum in quibus aliquis delectatur. Sed haec 
+diffe<lb break="no" ed="#L" n="35"/>rentia est materialis: contrarietas autem est 
+diffe<lb break="no" ed="#L" n="36"/>rentia secundum formam, ut dicitur in X 
+Meta<lb break="no" ed="#L" n="37"/>phys. Ergo contrarietas non est delectationis ad
+<lb ed="#L" n="38"/>delectationem.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1778">
+                  <lb ed="#L" n="39"/>SED cONTRA, ea quae se impediunt, in eodem
+<lb ed="#L" n="40"/>genere existentia, secundum Philosophum, sunt
+<lb ed="#L" n="41"/>contraria. Sed quaedam delectationes se invicem
+<lb ed="#L" n="42"/>impediunt, ut dicitur in X Erhic. Ergo aliquae
+<lb ed="#L" n="43"/>delectationes sunt contrariae.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1791">
+                  <lb ed="#L" n="44"/>RESPONDEO DICENDUM quod delectatio in 
+affectio<lb break="no" ed="#L" n="45"/>nibus animae, sicut dictum est, proportionatur
+<lb ed="#L" n="46"/>quieti in corporibus naturalibus. Dicuntur autem
+<lb ed="#L" n="47"/>duae quietes esse contrariae, quae sunt in 
+con<lb break="no" ed="#L" n="48"/>trarüs terminis; sicut quies quae es( sursum, ei
+<lb ed="#L" n="49"/>quae est deorsum, ut dicitur V Physic. Unde et
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="50"/>contingit in affectibus animae duas delectationes
+<lb ed="#L" n="51"/>esse contrarias.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1813">
+                  <lb ed="#L" n="52"/>AD PRIMUM ERGO DICENDUM quod verbum illud
+<lb ed="#L" n="53"/>Philosophi est intelligendum secundum quod 
+bo<lb break="no" ed="#L" n="54"/>num et malum accipitur in virtutibus et vitiis ;
+<lb ed="#L" n="55"/>nam inveniuntur duo contraria vitia, non autem
+<lb ed="#L" n="56"/>invenitur virtus. contraria virtuti. In aliis autem
+<lb ed="#L" n="57"/>nil prohibet duo bona esse ad invicem contraria:
+<lb ed="#L" n="58"/>sicut calidum et frigidum, quorum unum est 
+bo<lb break="no" ed="#L" n="59"/>num igni, alterum aquae. Et per hunc modum
+<lb ed="#L" n="60"/>delectatio potest esse delectationi contraria. Sed
+<lb ed="#L" n="61"/>hoc in bono virtutis esse non potest: quia bonum
+<lb ed="#L" n="62"/>virtutis non accipitur nisi per convenientiam ad
+<lb ed="#L" n="63"/>aliquid unum, 'scilicet rationem.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1842">
+                  <lb ed="#L" n="64"/>AD SECUNDUM DICENDUM quod delectatio se habet
+<lb ed="#L" n="65"/>in affectibus animae, sicut quies naturalis in 
+cor<lb break="no" ed="#L" n="66"/>poribus: est enim in aliquo convenienti et quasi
+<lb ed="#L" n="67"/>connaturali. Tristitia autem se habet sicut quies
+<lb ed="#L" n="68"/>violenta: tristabile enim repugnat appetitui 
+ani<lb break="no" ed="#L" n="69"/>mali, sicut locus quietis violentae appetitui 
+natu<lb break="no" ed="#L" n="70"/>rali. Quieti autem naturali opponitur et quies 
+vio<lb break="no" ed="#L" n="71"/>lenta eiusdem corporis, et quies naturalis alterius,
+<lb ed="#L" n="72"/>ut dicitur in V Physic. Unde delectationi 
+oppo<lb break="no" ed="#L" n="73"/>nitur et delectatio et tristitia.
+</p>
+               <p xml:id="TAca84-d1e832-d1e1866">
+                  <lb ed="#L" n="74"/>AD TERTIUM DICENDUM quod ea in quibus 
+dele<lb break="no" ed="#L" n="75"/>ctamur, cum sint obiecta delectationis, non solum
+<lb ed="#L" n="76"/>faciunt differentiam materialem , sed etiam 
+for<lb break="no" ed="#L" n="77"/>malem, si sit diversa ratio delectabilitatis. Diversa
+<lb ed="#L" n="78"/>enim ratio obiecti diversificat speciem actus vel
+<lb ed="#L" n="79"/>passionis, ut ex supradictis patet.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

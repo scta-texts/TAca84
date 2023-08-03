@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 18</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 18</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="127"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e765"><!-- p2p1-q18 -->
+            <head xml:id="TAca84-d1e765-Hd1e99">Quaestio 18</head>
+            <head xml:id="TAca84-d1e765-Hd1e101" type="question-title">de bonitate et malitia humanorum actuum in generali</head>
+            <p xml:id="TAca84-d1e765-d1e104">
+               <pb ed="#L" n="127"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO DECIMAOCTAVA
+<lb ed="#L" n="2"/>DE BONITATE ET MALITIA HUMANORUM ACTUUM IN GENERALI
+<lb ed="#L" n="3"/>IN UNDECIM ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e765-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>Post hoc considerandum est de bonitate et
+<lb ed="#L" n="5"/>malitia humanorum actuum. Et primo,
+<lb ed="#L" n="6"/>quomodo actio humana sit bona vel mala; 
+se<lb break="no" ed="#L" n="7"/>cundo, de his quae consequuntur ad bonitatem
+<lb ed="#L" n="8"/>vel malitiam humanorum actuum, puta meritum
+<lb ed="#L" n="9"/>vel demeritum, peccatum et culpa.
+</p>
+            <p xml:id="TAca84-d1e765-d1e135">
+               <lb ed="#L" n="10"/>Circa primum occurrit triplex consideratio: 
+pri<lb break="no" ed="#L" n="11"/>ma est de bonitate et malitia humanorum actuum
+<lb ed="#L" n="12"/>in generali; secunda, de bonitate et malitia 
+inte<lb break="no" ed="#L" n="13"/>riorum actuum; tertia, de bonitate et malitia
+<lb ed="#L" n="14"/>exteriorum actuum.
+</p>
+            <p xml:id="TAca84-d1e765-d1e149">
+               <lb ed="#L" n="15"/>Circa primum quaeruntur undecim.
+<lb ed="#L" n="16"/>Primo: utrum omnis actio sit bona P, vel 
+ali<lb break="no" ed="#L" n="17"/>qua sit mala.
+<lb ed="#L" n="18"/>Secundo: utrum actio hominis habeat quod sit
+<lb ed="#L" n="19"/>bona vel mala, ex obiecto.
+<lb ed="#L" n="20"/>Tertio: utrum hoc habeat ex circumstantia.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="21"/>Quarto: utrum hoc habeat ex fine.
+<lb ed="#L" n="22"/>Quinto: utrum aliqua actio hominis sit bona
+<lb ed="#L" n="23"/>vel mala in sua specie.
+<lb ed="#L" n="24"/>Sexto: utrum actus habeat speciem boni vel
+<lb ed="#L" n="25"/>mali ex fine.
+<lb ed="#L" n="26"/>Septimo: utrum species quae est ex fine, 
+con<lb break="no" ed="#L" n="27"/>tineatur sub specie quae est ex obiecto, sicut
+<lb ed="#L" n="28"/>sub genere, aut e converso.
+<lb ed="#L" n="29"/>Octavo: utrum sit aliquis actus indifferens 
+se<lb break="no" ed="#L" n="30"/>cundum suam speciem.
+<lb ed="#L" n="31"/>Nono: utrum aliquis actus sit indifferens 
+se<lb break="no" ed="#L" n="32"/>cundum individuum.
+<lb ed="#L" n="33"/>Decimo: utrum aliqua circumstantia constituat
+<lb ed="#L" n="34"/>actum moralem in specie boni vel mali.
+<lb ed="#L" n="35"/>Undecimo: utrum omnis circumstantia augens
+<lb ed="#L" n="36"/>bonitatem vel malitiam, constituat actum 
+mo<lb break="no" ed="#L" n="37"/>ralem in specie boni vel mali.
+</p>
+            <div xml:id="TAca84-d1e765-Dd1e204"><!-- p2p1-q18-a1 -->
+               <head xml:id="TAca84-d1e765-Hd1e207">Articulus 1</head>
+               <head xml:id="TAca84-d1e765-Hd1e209" type="question-title">utrum omnis humana actio sit bona, vel aliqua mala</head>
+               <p xml:id="TAca84-d1e765-d1e212">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="38"/>ARTICULUS PRIMUS
+<lb ed="#L" n="39"/>UTRUM OMNIS HUMANA ACTIO SIT BONA, VEL ALIQUA MALA
+</p>
+               <p xml:id="TAca84-d1e765-d1e221">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="40"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="41"/>Uomnis actio hominis sit bona, et nulla
+<lb ed="#L" n="42"/>sit mala. Dicit enim Dionysius, iv cap.
+<lb ed="#L" n="43"/>de Div. Nom., quod. malum non agit
+<lb ed="#L" n="44"/>nisi virtute boni. Sed virtute boni non fit malum.
+<lb ed="#L" n="45"/>Ergo nulla actio est mala.
+</p>
+               <p xml:id="TAca84-d1e765-d1e239">
+                  <lb ed="#L" n="46"/>2. PRAETEREA, nihil agit nisi secundum quod
+<lb ed="#L" n="47"/>est actu. Non est autem aliquid malum secundum
+<lb ed="#L" n="48"/>quod est actu, sed secundum quod potentia 
+pri<lb break="no" ed="#L" n="49"/>vatur actu: inquantum autem potentia perficitur
+<lb ed="#L" n="50"/>per actum, est bonum, ut dicitur in IX Metaphys.
+<lb ed="#L" n="51"/>Nihil ergo agit inquantum est malum, sed solum
+<lb ed="#L" n="52"/>inquantum est bonum. Omnis ergo actio est bona,
+<lb ed="#L" n="53"/>et nulla mala.
+</p>
+               <p xml:id="TAca84-d1e765-d1e260">
+                  <lb ed="#L" n="54"/>3. PRAETEREA, malum non potest esse causa
+<lb ed="#L" n="55"/>nisi per accidens, ut patet per Dionysium, iv cap.
+<lb ed="#L" n="56"/>de Div. Nom. Sed. omnis actionis est aliquis per
+<lb ed="#L" n="57"/>se effectus. Nulla ergo actio est mala, sed omnis
+<lb ed="#L" n="58"/>actio est bona.
+</p>
+               <p xml:id="TAca84-d1e765-d1e273">
+                  <lb ed="#L" n="59"/>SED CONTRA EST quod Dominus dicit, Ioan. i1:
+<lb ed="#L" n="60"/>
+                  <quote xml:id="TAca84-d1e765-Qd1e279">Omnis qui male agit, odit lucem</quote>. Est ergo aliqua
+<lb ed="#L" n="61"/>actio hominis mala.
+</p>
+               <p xml:id="TAca84-d1e765-d1e284">
+                  <lb ed="#L" n="62"/>RresPONDEO DICENDUM quod de bono et malo in
+<lb ed="#L" n="63"/>actionibus oportet loqui sicut de bono et malo
+<lb ed="#L" n="64"/>in rebus: eo quod unaquaeque res talem 
+actio<lb break="no" ed="#L" n="65"/>nem producit, qualis est ipsa. In rebus autem
+<lb ed="#L" n="66"/>unumquodque tantum habet de bono, quantum
+<lb ed="#L" n="67"/>habet de esse: bonum enim et ens convertuntur,
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="68"/>ut in Primo dictum est. Solus autem Deus habet
+<lb ed="#L" n="69"/>totam plenitudinem sui esse secundum aliquid unum
+<lb ed="#L" n="70"/>et simplex: unaquaeque vero res alia habet
+<lb ed="#L" n="71"/>plenitudinem essendi sibi convenientem secundum
+<lb ed="#L" n="72"/>diversa. Unde in aliquibus contingit quod 
+quan<lb break="no" ed="#L" n="73"/>tum ad aliquid habent esse, et tamen eis aliquid
+<lb ed="#L" n="74"/>deficit ad plenitudinem essendi eis debitam. Sicut
+<lb ed="#L" n="75"/>ad plenitudinem esse humani requiritur quod sit
+<lb ed="#L" n="76"/>quoddam compositum ex anima et corpore, 
+ha<lb break="no" ed="#L" n="77"/>bens omnes potentias et instrumenta cognitionis
+<lb ed="#L" n="78"/>et motus: unde si aliquid horum deficiat alicui
+<lb ed="#L" n="79"/>homini, deficit ei aliquid de plénitudine sui esse.
+<lb ed="#L" n="80"/>Quantum igitur habet de esse, tantum habet de
+<lb ed="#L" n="81"/>bonitate: inquantum vero aliquid ei deficit de
+<lb ed="#L" n="82"/>plenitudine essendi, intantum deficit a. bonitate,
+<lb ed="#L" n="83"/>et dicitur malum: sicut homo caecus habet de
+<lb ed="#L" n="84"/>bonitate quod vivit, et malum est ei quod caret
+<lb ed="#L" n="85"/>visu. Si vero nihil haberet de entitate vel 
+boni<lb break="no" ed="#L" n="86"/>tate, neque malum neque bonum dici posset. Sed
+<lb ed="#L" n="87"/>quia de ratione boni est ipsa plenitudo essendi,
+<lb ed="#L" n="88"/>si quidem alicui aliquid ? defuerit de debita essendi
+<lb ed="#L" n="89"/>plenitudine, non dicetur simpliciter bonum, sed
+<lb ed="#L" n="90"/>secundum quid, inquantum est ens: poterit tamen
+<lb ed="#L" n="91"/>dici simpliciter ens et secundum quid non ens,
+<lb ed="#L" n="92"/>ut in Primo dictum est.
+</p>
+               <p xml:id="TAca84-d1e765-d1e356">
+                  <lb ed="#L" n="93"/>Sic igitur dicendum est quod omnis actio, 
+in<lb break="no" ed="#L" n="94"/>quantum habet aliquid de esse, intantum habet
+<lb ed="#L" n="95"/>de bonitate: inquantum vero. deficit ei aliquid de
+<pb ed="#L" n="128"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>plenitudine essendi quae debetur actioni 
+huma<lb break="no" ed="#L" n="2"/>nae, intantum deficit a bonitate, et sic dicitur
+<lb ed="#L" n="3"/>mala: puta si deficiat ei vel determinata quantitas
+<lb ed="#L" n="4"/>secundum rationem, vel debitus locus, vel aliquid
+<lb ed="#L" n="5"/>huiusmodi.
+</p>
+               <p xml:id="TAca84-d1e765-d1e380">
+                  <lb ed="#L" n="6"/>AD PRIMUM ERGO DICENDUM quod malum agit in
+<lb ed="#L" n="7"/>virtute boni deficientis. Si enim nihil esset ibi
+<lb ed="#L" n="8"/>de bono, neque esset ens, neque agere posset.
+<lb ed="#L" n="9"/>Si autem non esset deficiens, non esset malum.
+<lb ed="#L" n="10"/>Unde et actio causata est quoddam bonum 
+de<lb break="no" ed="#L" n="11"/>ficiens, quod secundum quid est bonum, 
+sim<lb break="no" ed="#L" n="12"/>pliciter autem malum.
+</p>
+               <p xml:id="TAca84-d1e765-d1e398">
+                  <lb ed="#L" n="13"/>AD SECUNDUM DICENDUM quod nihil prohibet ali-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="14"/>quid esse secundum quid in actu, unde agere
+<lb ed="#L" n="15"/>possit; et secundum aliud privari actu, unde 
+cau<lb break="no" ed="#L" n="16"/>set deficientem actionem. Sicut homo caecus actu
+<lb ed="#L" n="17"/>habet virtutem gressivam, per quam ambulare
+<lb ed="#L" n="18"/>potest: sed inquantum caret visu, qui dirigit in
+<lb ed="#L" n="19"/>ambulando, patitur defectum in ambulando, dum
+<lb ed="#L" n="20"/>ambulat cespitando.
+</p>
+               <p xml:id="TAca84-d1e765-d1e421">
+                  <lb ed="#L" n="21"/>AD TERTIUM DICENDUM quod actio mala potest
+<lb ed="#L" n="22"/>habere aliquem effectum per se, secundum id
+<lb ed="#L" n="23"/>quod habet de bonitate et entitate. Sicut 
+adulte<lb break="no" ed="#L" n="24"/>rium est causa generationis humanae, inquantum
+<lb ed="#L" n="25"/>habet commixtionem maris et feminae, non 
+au<lb break="no" ed="#L" n="26"/>tem inquantum caret ordine rationis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e765-Dd1e438"><!-- p2p1-q18-a2 -->
+               <head xml:id="TAca84-d1e765-Hd1e441">Articulus 2</head>
+               <head xml:id="TAca84-d1e765-Hd1e443" type="question-title">utrum actio hominis habeat bonitatem vel malitiam ex obiecto</head>
+               <p xml:id="TAca84-d1e765-d1e446">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="32"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="33"/>UTRUM ACTIO HOMINIS HABEAT BONITATEM VEL MALITIAM EX OBIECTO
+</p>
+               <p xml:id="TAca84-d1e765-d1e455">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="34"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="35"/>actio non habeat bonitatem vel 
+mali<lb break="no" ed="#L" n="36"/>tiam ex obiecto. Obiectum enim actionis
+<lb ed="#L" n="37"/>est res. In rebus autem non est malum,
+<lb ed="#L" n="38"/>sed in usu peccantium, ut Augustinus dicit in 
+li<lb break="no" ed="#L" n="39"/>bro Ill de Doct. Christ. Ergo actio humana non
+<lb ed="#L" n="40"/>habet bonitatem vel malitiam ex obiecto.
+</p>
+               <p xml:id="TAca84-d1e765-d1e475">
+                  <lb ed="#L" n="41"/>2. PRAETEREA, obiectum comparatur ad 
+actio<lb break="no" ed="#L" n="42"/>nem ut materia. Bonitas autem rei non est ex
+<lb ed="#L" n="43"/>materia, sed magis ex forma, quae est actus. Ergo
+<lb ed="#L" n="44"/>bonum et malum non est in actibus ex obiecto.
+</p>
+               <p xml:id="TAca84-d1e765-d1e487">
+                  <lb ed="#L" n="45"/>3. PRAETEREA, obiectum potentiae activae 
+com<lb break="no" ed="#L" n="46"/>paratur ad actionem sicut effectus ad causam.
+<lb ed="#L" n="47"/>Sed bonitas causae non dependet ex effectu, sed
+<lb ed="#L" n="48"/>magis e converso. Ergo actio humana non habet
+<lb ed="#L" n="49"/>bonitatem vel malitiam ex obiecto.
+</p>
+               <p xml:id="TAca84-d1e765-d1e500">
+                  <lb ed="#L" n="50"/>SED cowTRA EST quod dicitur Osee ix: Facti
+<lb ed="#L" n="51"/>sunt abominabiles, sicut ea quae dilexerunt. Fit
+<lb ed="#L" n="52"/>autem homo Deo abominabilis propter malitiam
+<lb ed="#L" n="53"/>suae operationis. Ergo malitia operationis est 
+se<lb break="no" ed="#L" n="54"/>cundum obiecta mala quae homo diligit. Et eadem
+<lb ed="#L" n="55"/>ratio est de bonitate actionis.
+</p>
+               <p xml:id="TAca84-d1e765-d1e516">
+                  <lb ed="#L" n="56"/>REsPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="57"/>bonum et malum actionis, sicut et ceterarum
+<lb ed="#L" n="58"/>rerum, attenditur ex plenitudine essendi vel 
+de<lb break="no" ed="#L" n="59"/>fectu ipsius. Primum autem quod ad plenitudinem
+<lb ed="#L" n="60"/>essendi pertinere videtur, est id quod dat rei 
+spe<lb break="no" ed="#L" n="61"/>ciem. Sicut autem res naturalis habet speciem ex
+<lb ed="#L" n="62"/>sua forma, ita actio habet speciem ex obiecto;
+<lb ed="#L" n="63"/>sicut et motus ex termino. Et ideo sicut prima
+<lb ed="#L" n="64"/>bonitas rei naturalis attenditur ex sua forma, quae
+<lb ed="#L" n="65"/>dat speciem ei, ita et prima bonitas actus moralis
+<lb ed="#L" n="66"/>attenditur ex obiecto convenienti ; unde et a 
+qui<lb break="no" ed="#L" n="67"/>busdam vocatur bonum ex genere; puta, uti re
+<lb ed="#L" n="68"/>sua. Et sicut in rebus naturalibus primum malum
+<lb ed="#L" n="69"/>est, si res generata non consequitur formam 
+spe<cb ed="#L" n="h"/>
+                  <lb break="no" ed="#L" n="70"/>cificam, puta si non generetur homo, sed aliquid
+<lb ed="#L" n="71"/>loco hominis; ita primum malum in actionibus .
+<lb ed="#L" n="72"/>moralibus est quod est ex obiecto, sicut accipere
+<lb ed="#L" n="73"/>aliena. Et dicitur malum ex genere, genere pro
+<lb ed="#L" n="74"/>specie accepto, eo modo loquendi quo dicimus
+<lb ed="#L" n="75"/>humanum genus totam humanam speciem.
+</p>
+               <p xml:id="TAca84-d1e765-d1e564">
+                  <lb ed="#L" n="76"/>AD PRIMUM ERGO DICENDUM quod, licet res 
+exte<lb break="no" ed="#L" n="77"/>riores sint in seipsis bonae, tamen non semper
+<lb ed="#L" n="78"/>habent debitam proportionem ad hanc vel illam
+<lb ed="#L" n="79"/>actionem. Et ideo inquantum considerantur ut
+<lb ed="#L" n="80"/>obiecta talium actionum , non habent rationem
+<lb ed="#L" n="81"/>boni.
+</p>
+               <p xml:id="TAca84-d1e765-d1e580">
+                  <lb ed="#L" n="82"/>AD SECUNDUM DICENDUM quod obiectum non est
+<lb ed="#L" n="83"/>materia ex qua, sed materia circa quam: et habet
+<lb ed="#L" n="84"/>quodammodo rationem formae, inquantum dat:
+<lb ed="#L" n="85"/>speciem.
+</p>
+               <p xml:id="TAca84-d1e765-d1e591">
+                  <lb ed="#L" n="86"/>AD TERTIUM DICENDUM quod non semper 
+obie<lb break="no" ed="#L" n="87"/>ctum actionis humanae est obiectum activae po--
+<lb ed="#L" n="88"/>tentiae. Nam appetitiva potentia est quodammodo:
+<lb ed="#L" n="89"/>passiva, inquantum movetur ab appetibili: et 
+ta<lb break="no" ed="#L" n="90"/>men est principium humanorum actuum. - Neque
+<lb ed="#L" n="91"/>etiam potentiarum activarum obiecta semper 
+ha<lb break="no" ed="#L" n="92"/>bent rationem effectus, sed quando iam sunt 
+trans<lb break="no" ed="#L" n="93"/>mutata: sicut alimentum transmutatum est effectus
+<lb ed="#L" n="94"/>nutritivae potentiae, sed alimentum nondum 
+trans<lb break="no" ed="#L" n="95"/>mutatum comparatur ad potentiam nutritivam
+<lb ed="#L" n="96"/>sicut materia circa quam operatur. Ex hoc aute
+<lb ed="#L" n="97"/>quod obiectum est aliquo modo effectus potentiae
+<lb ed="#L" n="98"/>activae, sequitur quod sit terminus actionis eius,.
+<lb ed="#L" n="99"/>et per consequens quod det ei formam et speciem ::
+<lb ed="#L" n="100"/>motus enim habet speciem a terminis. - Et quam-.
+<lb ed="#L" n="101"/>vis etiam bonitas actionis non causetur ex boni-.
+<lb ed="#L" n="102"/>tate effectus, tamen ex hoc dicitur actio bona, quod
+<lb ed="#L" n="103"/>bonum effectum inducere potest. Et ita ipsa 
+pro<lb break="no" ed="#L" n="104"/>portio actionis ad effectum, est ratio bonitatis
+<lb ed="#L" n="105"/>ipsius.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e765-Dd1e638"><!-- p2p1-q18-a3 -->
+               <head xml:id="TAca84-d1e765-Hd1e641">Articulus 3</head>
+               <head xml:id="TAca84-d1e765-Hd1e643" type="question-title">utrum actio hominis sit bona vel mala ex circumstantia</head>
+               <p xml:id="TAca84-d1e765-d1e646">
+                  <cb ed="#L" n=""/>
+                  <lb ed="#L" n="129"/>ARTICULUS TERTIUS
+<lb ed="#L" n="130"/>UTRUM ACTIO HOMINIS SIT BONA VEL MALA EX CIRCUMSTANTIA
+</p>
+               <p xml:id="TAca84-d1e765-d1e655">
+                  <cb ed="#L" n=""/>
+                  <lb ed="#L" n="131"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="132"/>actio non sit bona vel mala ex 
+circum<lb break="no" ed="#L" n="133"/>stantia. Circumstantiae enim circumstant
+<lb ed="#L" n="134"/>actum sicut extra ipsum existentes, ut
+<lb ed="#L" n="135"/>dictum est. Sed bonum et malum sunt in ipsis
+<lb ed="#L" n="136"/>rebus, ut dicitur in VI Metaphys. Ergo actio
+<lb ed="#L" n="137"/>non habet bonitatem vel malitiam ex 
+circum<lb break="no" ed="#L" n="138"/>stantia.
+</p>
+               <p xml:id="TAca84-d1e765-d1e677">
+                  <lb ed="#L" n="139"/>2. PRAETEREA, bonitas vel malitia actus maxime
+<lb ed="#L" n="140"/>consideratur in doctrina morum. Sed 
+circumstan<lb break="no" ed="#L" n="141"/>tiae, cum sint quaedam accidentia actuum, 
+vi<lb break="no" ed="#L" n="142"/>dentur esse praeter considerationem artis: quia
+<lb ed="#L" n="143"/>nulla ars considerat id quod est per accidens, ut
+<lb ed="#L" n="144"/>dicitur in VI Metaphys. Ergo bonitas vel 
+ma<lb break="no" ed="#L" n="145"/>litia actionis non est ex circumstantia.
+</p>
+               <p xml:id="TAca84-d1e765-d1e696">
+                  <lb ed="#L" n="146"/>3. PRAETEREA, id quod convenit alicui 
+secun<lb break="no" ed="#L" n="147"/>dum suam substantiam, non attribuitur ei per
+<lb ed="#L" n="148"/>aliquod accidens. Sed bonum et malum convenit
+<lb ed="#L" n="149"/>actioni secundum suam substantiam: quia actio
+<lb ed="#L" n="150"/>ex suo genere potest esse bona vel mala, ut 
+di<lb break="no" ed="#L" n="151"/>ctum est. Ergo non convenit actioni ex 
+circum<lb break="no" ed="#L" n="152"/>stantia quod sit bona vel mala.
+</p>
+               <p xml:id="TAca84-d1e765-d1e714">
+                  <lb ed="#L" n="153"/>SED CONTRA EST quod Philosophus dicit, in. 
+li<lb break="no" ed="#L" n="154"/>bro Ethic., quod virtuosus operatur secundum
+<lb ed="#L" n="155"/>quod oportet, et quando oportet, et secundum alias
+<lb ed="#L" n="156"/>circumstantias. Ergo ex contrario vitiosus, 
+secun<lb break="no" ed="#L" n="157"/>dum unumquodque vitium, operatur quando non
+<lb ed="#L" n="158"/>oportet, ubi non oportet, et sic de aliis 
+circum<lb break="no" ed="#L" n="159"/>stantiis. Ergo actiones humanae secundum 
+circum<lb break="no" ed="#L" n="160"/>stantias sunt bonae vel malae.
+</p>
+               <p xml:id="TAca84-d1e765-d1e734">
+                  <lb ed="#L" n="161"/>REsPONDEO DICENDUM quod in rebus naturalibus
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="162"/>non invenitur tota plenitudo perfectionis quae
+<lb ed="#L" n="163"/>debetur rei, ex forma substantiali, quae dat
+<lb ed="#L" n="164"/>speciem; sed multum superadditur ex 
+superve<lb break="no" ed="#L" n="165"/>nientibus ? accidentibus, sicut in homine ex 
+fi<lb break="no" ed="#L" n="166"/>gura, ex colore, et huiusmodi ; quorum si aliquod
+<lb ed="#L" n="167"/>desit ad decentem habitudinem, consequitur 
+ma<lb break="no" ed="#L" n="168"/>lum. Ita etiam est in actione. Nam plenitudo
+<lb ed="#L" n="169"/>bonitatis eius non tota consistit in sua specie,
+<lb ed="#L" n="170"/>sed aliquid additur ex his quae adveniunt 
+tan<lb break="no" ed="#L" n="171"/>quam accidentia quaedam. Et huiusmodi sunt
+<lb ed="#L" n="172"/>circumstantiae debitae. Unde si aliquid desit quod
+<lb ed="#L" n="173"/>requiratur ad debitas. circumstantias, erit actio
+<lb ed="#L" n="174"/>mala.
+</p>
+               <p xml:id="TAca84-d1e765-d1e769">
+                  <lb ed="#L" n="175"/>AD PRIMUM ERGO DICENDUM quod circumstantiae
+<lb ed="#L" n="176"/>sunt extra actionem, inquantum non sunt de 
+es<lb break="no" ed="#L" n="177"/>sentia actionis: sunt tamen in ipsa actione velut
+<lb ed="#L" n="178"/>quaedam accidentia eius. Sicut et accidentia quae
+<lb ed="#L" n="179"/>sunt in substantiis naturalibus, sunt extra 
+essen<lb break="no" ed="#L" n="180"/>tias earum.
+</p>
+               <p xml:id="TAca84-d1e765-d1e785">
+                  <lb ed="#L" n="181"/>AD SECUNDUM DICENDUM quod non omnia 
+acci<lb break="no" ed="#L" n="182"/>dentia per accidens se habent ad sua subiecta,
+<lb ed="#L" n="183"/>sed quaedam sunt per se accidentia; quae in
+<lb ed="#L" n="184"/>unaquaque. arte considerantur. Et per hunc 
+mo<lb break="no" ed="#L" n="185"/>dum considerantur circumstantiae actuum in 
+do<lb break="no" ed="#L" n="186"/>ctrina morali.
+</p>
+               <p xml:id="TAca84-d1e765-d1e801">
+                  <lb ed="#L" n="187"/>AD TERTIUM. DICENDUM quod, cum bonum . 
+con<lb break="no" ed="#L" n="188"/>vertatur cum ente ?, sicut ens dicitur secundum
+<lb ed="#L" n="189"/>substantiam et secundum accidens, ita et bonum
+<lb ed="#L" n="190"/>attribuitur alicui et secundum esse suum 
+essen<lb break="no" ed="#L" n="191"/>tiale, et secundum esse accidentale, tam in rebus
+<lb ed="#L" n="192"/>naturalibus, quam in actionibus moralibus.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e765-Dd1e818"><!-- p2p1-q18-a4 -->
+               <head xml:id="TAca84-d1e765-Hd1e821">Articulus 4</head>
+               <head xml:id="TAca84-d1e765-Hd1e823" type="question-title">utrum actio humana sit bona vel mala ex fine</head>
+               <p xml:id="TAca84-d1e765-d1e826">
+                  <pb ed="#L" n="129"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUARTUS
+<lb ed="#L" n="2"/>UTRUM ACTIO HUMANA SIT BONA VEL MALA EX FINE
+</p>
+               <p xml:id="TAca84-d1e765-d1e837">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>bonum et malum in actibus humanis
+<lb ed="#L" n="5"/>non sint ex fine. Dicit enim Dionysius,
+<lb ed="#L" n="6"/>iv cap. de Div. Nom., quod nihil. 
+re<lb break="no" ed="#L" n="7"/>spiciens ad. malum operatur. Si igitur ex fine 
+de<lb break="no" ed="#L" n="8"/>rivaretur operatio bona vel mala, nulla actio
+<lb ed="#L" n="9"/>esset mala. Quod patet esse falsum.
+</p>
+               <p xml:id="TAca84-d1e765-d1e857">
+                  <lb ed="#L" n="10"/>2. PRAETEREA, bonitas actus est aliquid in ipso
+<lb ed="#L" n="11"/>existens. Finis autem est causa extrinseca. Non
+<lb ed="#L" n="12"/>ergo secundum finem dicitur actio bona vel mala.
+</p>
+               <p xml:id="TAca84-d1e765-d1e867">
+                  <lb ed="#L" n="13"/>3. PRAETEREA, contingit aliquam bonam 
+opera<lb break="no" ed="#L" n="14"/>tionem ad malum finem ordinari, sicut cum 
+ali<lb break="no" ed="#L" n="15"/>quis dat eleemosynam propter inanem gloriam:
+<lb ed="#L" n="16"/>et e converso aliquam malam operationem 
+or<lb break="no" ed="#L" n="17"/>dinari ad bonum finem, sicut cum quis furatur
+<lb ed="#L" n="18"/>ut det pauperi. Non ergo est ex fine actio bona
+<lb ed="#L" n="19"/>vel mala.
+</p>
+               <p xml:id="TAca84-d1e765-d1e885">
+                  <lb ed="#L" n="20"/>SED cowTRA EsT quod Boetius dicit, in 7Zopíic.,
+<lb ed="#L" n="21"/>quod <quote xml:id="TAca84-d1e765-Qd1e891">cuius finis bonus est, ipsum. quoque 9 bonum
+<lb ed="#L" n="22"/>est: et cuius finis malus. est, ipsum. quoque 
+ma<lb break="no" ed="#L" n="23"/>lum est.</quote>
+               </p>
+               <p xml:id="TAca84-d1e765-d1e899">
+                  <lb ed="#L" n="24"/>RESPONDEO DICENDUM quod eadem est dispositio
+<lb ed="#L" n="25"/>rerum in bonitate, et in esse. Sunt enim 
+quae<lb break="no" ed="#L" n="26"/>dam quorum esse ex alio non dependet: et in
+<lb ed="#L" n="27"/>his sufficit considerare ipsum eorum esse 
+abso<lb break="no" ed="#L" n="28"/>lute. Quaedam vero sunt quorum esse dependet
+<lb ed="#L" n="29"/>ab alio: unde oportet quod. consideretur per
+<lb ed="#L" n="30"/>considerationem ad causam a qua dependet. Sicut
+<lb ed="#L" n="31"/>autem esse rei dependet ab agente et forma, ita
+<lb ed="#L" n="32"/>bonitas rei dependet a fine. Unde in. Personis
+<lb ed="#L" n="33"/>divinis, quae non habent bonitatem dependentem
+<lb ed="#L" n="34"/>ab alio, non consideratur aliqua ratio bonitatis
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>ex fine. Actiones autem humanae, et alia 
+quo<lb break="no" ed="#L" n="36"/>rum bonitas dependet ab alio, habent rationem
+<lb ed="#L" n="37"/>bonitatis ex fine a quo dependent, praeter 
+boni<lb break="no" ed="#L" n="38"/>tatem absolutam quae in eis existit.
+</p>
+               <p xml:id="TAca84-d1e765-d1e936">
+                  <lb ed="#L" n="39"/>Sic igitur in actione humana bonitas 
+quadru<lb break="no" ed="#L" n="40"/>plex considerari potest. Una quidem secundum
+<lb ed="#L" n="41"/>genus, prout scilicet est actio: quia quantum
+<lb ed="#L" n="42"/>habet de actione et entitate, tantum habet de
+<lb ed="#L" n="43"/>bonitate, ut dictum est. Alia vero secundum
+<lb ed="#L" n="44"/>speciem: quae accipitur secundum obiectum 
+con<lb break="no" ed="#L" n="45"/>veniens. "Tertia secundum circumstantias, quasi
+<lb ed="#L" n="46"/>secundum accidentia quaedam. Quarta autem 
+se<lb break="no" ed="#L" n="47"/>cundum finem, quasi secundum habitudinem ad
+<lb ed="#L" n="48"/>causam bonitatis.
+</p>
+               <p xml:id="TAca84-d1e765-d1e960">
+                  <lb ed="#L" n="49"/>AD PRIMUM ERGO DICENDUM quod bonum ad quod
+<lb ed="#L" n="50"/>aliquis respiciens operatur, non semper est verum
+<lb ed="#L" n="51"/>bonum; sed quandoque verum bonum, et 
+quan<lb break="no" ed="#L" n="52"/>doque apparens. Et secundum hoc, ex fine 
+se<lb break="no" ed="#L" n="53"/>quitur actio mala.
+</p>
+               <p xml:id="TAca84-d1e765-d1e973">
+                  <lb ed="#L" n="54"/>AD SECUNDUM DICENDUM quod, quamvis finis sit
+<lb ed="#L" n="55"/>causa extrinseca, tamen debita proportio ad finem,
+<lb ed="#L" n="56"/>et relatio in ipsum, inhaeret actioni.
+</p>
+               <p xml:id="TAca84-d1e765-d1e983">
+                  <lb ed="#L" n="57"/>AD TERTIUM DICENDUM quod nihil prohibet actioni.
+<lb ed="#L" n="58"/>habenti unam praedictarum bonitatum, deesse:
+<lb ed="#L" n="59"/>aliam. Et secundum hoc, contingit actionem quae.
+<lb ed="#L" n="60"/>est bona. secundum speciem suam vel secundum:
+<lb ed="#L" n="61"/>circumstantias, ordinari ad finem malum, et e.
+<lb ed="#L" n="62"/>converso. Non tamen est actio bona simpliciter,
+<lb ed="#L" n="63"/>nisi omnes bonitates .concurrant: quia quilibet
+<lb ed="#L" n="64"/>singularis. defectus causat. malum; bonum autem.
+<lb ed="#L" n="65"/>causatur. ex integna. causa, ut Dionysius dicit, AV.
+<lb ed="#L" n="66"/>cap. de. Div. Nom.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e765-Dd1e1008"><!-- p2p1-q18-a5 -->
+               <head xml:id="TAca84-d1e765-Hd1e1011">Articulus 5</head>
+               <head xml:id="TAca84-d1e765-Hd1e1013" type="question-title">utrum aliqua actio humana sit bona vel mala in sua specie</head>
+               <p xml:id="TAca84-d1e765-d1e1016">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33"/>ARTICULUS QUINTUS
+<lb ed="#L" n="34"/>UTRUM ALIQUA ACTIO HUMANA SIT BONA VEL MALA IN SUA SPECIE
+</p>
+               <p xml:id="TAca84-d1e765-d1e1025">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="35"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="36"/>actus morales non differant specie 
+se<lb break="no" ed="#L" n="37"/>cundum bonum et malum. Bonum enim
+<lb ed="#L" n="38"/>et malum in actibus invenitur 
+confor<lb break="no" ed="#L" n="39"/>miter rebus, ut dictum est. Sed in rebus 
+bo<lb break="no" ed="#L" n="40"/>num et malum non diversificant speciem: idem
+<lb ed="#L" n="41"/>enim specie est homo bonus et malus. Ergo 
+ne<lb break="no" ed="#L" n="42"/>que etiam bonum et malum in actibus 
+diversi<lb break="no" ed="#L" n="43"/>ficant speciem.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1049">
+                  <lb ed="#L" n="44"/>2. PRAETEREA, malum, cum sit privatio, est 
+quod<lb break="no" ed="#L" n="45"/>dam non ens. Sed non ens non potest esse 
+dif<lb break="no" ed="#L" n="46"/>ferentia, secundum Philosophum, in III Metaphys.
+<lb ed="#L" n="47"/>Cum ergo differentia constituat speciem, videtur
+<lb ed="#L" n="48"/>quod aliquis actus, ex hoc quod est malus, non
+<lb ed="#L" n="49"/>constituatur in aliqua specie. Et ita bonum et
+<lb ed="#L" n="50"/>malum non diversificant speciem humanorum
+<lb ed="#L" n="51"/>actuum.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1070">
+                  <lb ed="#L" n="52"/>3. PRAETEREA, diversorum actuum secundum
+<lb ed="#L" n="53"/>speciem, diversi sunt effectus. Sed idem specie
+<lb ed="#L" n="54"/>effectus potest consequi ex actu bono et malo:
+<lb ed="#L" n="55"/>sicut homo generatur ex adulterio, et ex 
+matri<lb break="no" ed="#L" n="56"/>moniali concubitu. Ergo actus bonus et malus
+<lb ed="#L" n="57"/>non differunt specie.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1086">
+                  <lb ed="#L" n="58"/>4. PRAETEREA, bonum et malum dicitur in 
+acti<lb break="no" ed="#L" n="59"/>bus quandoque secundum circumstantiam, ut 
+di<lb break="no" ed="#L" n="60"/>ctum est. Sed circumstantia, cum sit accidens,
+<lb ed="#L" n="61"/>non dat speciem actui. Ergo actus humani non
+<lb ed="#L" n="62"/>differunt specie propter bonitatem et malitiam.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1099">
+                  <lb ed="#L" n="63"/>SED coNTRA, secundum Philosophum, in II
+<lb ed="#L" n="64"/>Ethic., <quote xml:id="TAca84-d1e765-Qd1e1105">similes habitus similes actus reddunt</quote>. Sed
+<lb ed="#L" n="65"/>habitus bonus et malus differunt specie, ut 
+libe<lb break="no" ed="#L" n="66"/>ralitas et prodigalitas. Ergo et actus bonus et 
+ma<lb break="no" ed="#L" n="67"/>lus differunt specie.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1115">
+                  <lb ed="#L" n="68"/>RESPONDEO DICENDUM quod omnis actus speciem
+<lb ed="#L" n="69"/>habet ex suo obiecto, sicut supra dictum est.
+<lb ed="#L" n="70"/>Unde oportet quod aliqua differentia obiecti 
+fa<lb break="no" ed="#L" n="71"/>ciat diversitatem speciei in actibus. Est autem
+<lb ed="#L" n="72"/>considerandum quod aliqua differentia obiecti
+<lb ed="#L" n="73"/>facit differentiam speciei in actibus, secundum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="74"/>quod referuntur ad unum principium activum,
+<lb ed="#L" n="75"/>quod non facit differentiam in actibus, secundum
+<lb ed="#L" n="76"/>quod referuntur ad aliud principium activum.
+<lb ed="#L" n="77"/>Quia nihil quod est per accidens, constituit 
+spe<lb break="no" ed="#L" n="78"/>ciem, sed solum quod est per se: potest autem
+<lb ed="#L" n="79"/>aliqua differentia obiecti esse per se in 
+compa<lb break="no" ed="#L" n="80"/>ratione ad unum activum principium, et per 
+ac<lb break="no" ed="#L" n="81"/>cidens in comparatione ad aliud; sicut cognoscere
+<lb ed="#L" n="82"/>colorem et sonum, per se differunt per 
+compara<lb break="no" ed="#L" n="83"/>tionem. ad sensum, non autem per 
+comparatio<lb break="no" ed="#L" n="84"/>nem ad intellectum.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1157">
+                  <lb ed="#L" n="85"/>In actibus autem humanis ? bonum et malum
+<lb ed="#L" n="86"/>dicitur per comparationem ad rationem : quia,
+<lb ed="#L" n="87"/>ut Dionysius dicit, iv cap. de Div. Nom., bonum
+<lb ed="#L" n="88"/>hominis est secundum rationem esse, malum 
+au<lb break="no" ed="#L" n="89"/>tem quod est praeter rationem. Unicuique enim
+<lb ed="#L" n="90"/>rei est bonum quod convenit ei secundum suam
+<lb ed="#L" n="91"/>formam; et malum quod est ei praeter ordinem
+<lb ed="#L" n="92"/>suae formae. Patet ergo quod differentia boni et
+<lb ed="#L" n="93"/>mali circa obiectum considerata, comparatur per
+<lb ed="#L" n="94"/>se ad rationem: scilicet secundum quod obiectum
+<lb ed="#L" n="95"/>est ei conveniens vel non conveniens. Dicuntur
+<lb ed="#L" n="96"/>autem aliqui actus humani, Vel morales,. 
+secun<lb break="no" ed="#L" n="97"/>dum quod sunt a ratione. Unde manifestum est
+<lb ed="#L" n="98"/>quod bonum et malum diversificant speciem in
+<lb ed="#L" n="99"/>actibus moralibus: differentiae enim per se 
+diver<lb break="no" ed="#L" n="100"/>sificant speciem.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1194">
+                  <lb ed="#L" n="101"/>AD PRIMUM ERGO DICENDUM quod etiam in rebus
+<lb ed="#L" n="102"/>naturalibus bonum et malum, quod est 
+secun<lb break="no" ed="#L" n="103"/>dum naturam et contra naturam, diversificant
+<lb ed="#L" n="104"/>speciem naturae: corpus enim mortuum et 
+cor<lb break="no" ed="#L" n="105"/>pus vivum non sunt eiusdem speciei. Et 
+simi<lb break="no" ed="#L" n="106"/>liter bonum, inquantum est secundum rationem,
+<lb ed="#L" n="107"/>et malum, inquantum est praeter rationem, 
+di<lb break="no" ed="#L" n="108"/>versificant speciem moris. '
+</p>
+               <p xml:id="TAca84-d1e765-d1e1215">
+                  <lb ed="#L" n="109"/>AD SECUNDUM DICENDUM quod malum importat
+<lb ed="#L" n="110"/>privationem non absolutam, sed consequentem
+<lb ed="#L" n="111"/>talem potentiam. Dicitur enim malus actus 
+se<lb break="no" ed="#L" n="112"/>cundum suam speciem, non ex eo quod nullum
+<pb ed="#L" n="131"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>habeat obiectum; sed quia habet obiectum non
+<lb ed="#L" n="2"/>conveniens rationi, sicut tollere aliena. Unde 
+in<lb break="no" ed="#L" n="3"/>quantum obiectum est aliquid positive, potest
+<lb ed="#L" n="4"/>constituere speciem mali actus.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1239">
+                  <lb ed="#L" n="5"/>AD TERTIUM DICENDUM quod actus coniugalis et
+<lb ed="#L" n="6"/>adulterium, secundum quod comparantur ad 
+ra<lb break="no" ed="#L" n="7"/>tionem, differunt specie, et habent effectus specie
+<lb ed="#L" n="8"/>differentes: quia unum eorum meretur laudem
+<lb ed="#L" n="9"/>et praemium, aliud vituperium et poenam. Sed
+<lb ed="#L" n="10"/>secundum. quod comparantur ad. potentiam ge-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="11"/>nerativam , non differunt specie. Et sic habent
+<lb ed="#L" n="12"/>unum effectum secundum speciem.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1261">
+                  <lb ed="#L" n="13"/>AD QUARTUM DICENDUM quod circumstantia 
+quan<lb break="no" ed="#L" n="14"/>doque sumitur ut differentia essentialis obiecti ,
+<lb ed="#L" n="15"/>secundum quod ad rationem comparatur: et.tunc
+<lb ed="#L" n="16"/>potest dare speciem actui morali. Et hoc oportet
+<lb ed="#L" n="17"/>esse, quandocumque circumstantia transmutat
+<lb ed="#L" n="18"/>actum de bonitate in malitiam: non enim 
+cir<lb break="no" ed="#L" n="19"/>cumstantia faceret actum malum, nisi per hoc
+<lb ed="#L" n="20"/>quod rationi repugnat.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e765-Dd1e1283"><!-- p2p1-q18-a6 -->
+               <head xml:id="TAca84-d1e765-Hd1e1286">Articulus 6</head>
+               <head xml:id="TAca84-d1e765-Hd1e1288" type="question-title">utrum actus habeat speciem boni vel mali ex fine</head>
+               <p xml:id="TAca84-d1e765-d1e1291">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="84"/>ARTICULUS SEXTUS
+<lb ed="#L" n="85"/>UTRUM ACTUS HABEAT SPECIEM BONI VEL MALI EX FINE
+</p>
+               <p xml:id="TAca84-d1e765-d1e1300">
+                  <lb ed="#L" n="86"/>AD SEXTUM SIG PROCEDITUR. Videtur quod
+<lb ed="#L" n="87"/>bonum et malum quod est ex fine,
+<lb ed="#L" n="88"/>non diversificent speciem in actibus.
+<lb ed="#L" n="89"/>Actus enim habent speciem ex obiecto.
+<lb ed="#L" n="90"/>Sed finis est praeter rationem obiecti. Ergo 
+bo<lb break="no" ed="#L" n="91"/>num et malum quod est ex fine, non 
+diversifi<lb break="no" ed="#L" n="92"/>cant speciem actus.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1318">
+                  <lb ed="#L" n="93"/>2. PRAETEREA, id quod est per accidens, non
+<lb ed="#L" n="94"/>constituit speciem, ut dictum est. Sed accidit
+<lb ed="#L" n="95"/>alicui actui quod ordinetur. ad aliquem finem;
+<lb ed="#L" n="96"/>sicut quod aliquis det eleemosynam propter 
+ina<lb break="no" ed="#L" n="97"/>nem gloriam. Ergo secundum. bonum et malum
+<lb ed="#L" n="98"/>quod est ex fine, non diversificantur actus 
+secun<lb break="no" ed="#L" n="99"/>dum speciem.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1337">
+                  <lb ed="#L" n="100"/>3. PRAETEREA, diversi actus MURIS speciem,
+<lb ed="#L" n="101"/>ad unum finem ordinari possunt: sicut ad finem
+<lb ed="#L" n="102"/>inanis gloriae ordinari possunt actus diversarum
+<lb ed="#L" n="103"/>virtutum, et diversorum vitiorum. Non ergo bo-
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="104"/>num et malum quod accipitur secundum finem,
+<lb ed="#L" n="105"/>diversificat speciem actuum.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1355">
+                  <lb ed="#L" n="106"/>SED CONTRA EST quod. supra ostensum est,
+<lb ed="#L" n="107"/>quod actus humani habent speciem a fine. Ergo
+<lb ed="#L" n="108"/>bonum et malum quod accipitur secundum 
+fi<lb break="no" ed="#L" n="109"/>nem, diversificat speciem actuum.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1366">
+                  <lb ed="#L" n="110"/>RrsPONDEO DICENDUM quod aliqui actus dicuntur
+<lb ed="#L" n="111"/>humani, inquantum sunt voluntarii, sicut supra
+<lb ed="#L" n="112"/>dictum est. In actu autem voluntario invenitur
+<lb ed="#L" n="113"/>duplex actus, scilicet actus interior voluntatis, et
+<lb ed="#L" n="114"/>actus exterior: et uterque horum actuum habet
+<lb ed="#L" n="115"/>suum obiectum. Finis autem proprie est 
+obie<lb break="no" ed="#L" n="116"/>ctum interioris actus voluntarii: id autem circa
+<lb ed="#L" n="117"/>quod est actio exterior, est obiectum eius. Sicut
+<lb ed="#L" n="118"/>igitur actus exterior accipit speciem ab obiecto
+<lb ed="#L" n="119"/>circa quod est; ita actus interior voluntatis 
+ac<lb break="no" ed="#L" n="120"/>cipit: speciem a fine, sicut a proprio obiecto.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1392">
+                  <lb ed="#L" n="121"/>Id autem quod est ex parte voluntatis, se habet
+<pb ed="#L" n="132"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ut formale ad id quod est ex parte exterioris
+<lb ed="#L" n="2"/>actus: quia voluntas utitur membris ad agendum,
+<lb ed="#L" n="3"/>sicut instrumentis; neque actus exteriores habent
+<lb ed="#L" n="4"/>rationem moralitatis, nisi inquantum sunt 
+volun<lb break="no" ed="#L" n="5"/>tarii. Et ideo actus humani species formaliter 
+con<lb break="no" ed="#L" n="6"/>sideratur secundum finem, materialiter autem 
+se<lb break="no" ed="#L" n="7"/>cundum obiectum exterioris actus. Unde 
+Philo<lb break="no" ed="#L" n="8"/>sophus dicit, in V Ethic., quod <quote xml:id="TAca84-d1e765-Qd1e1418">ille qui furatur
+<lb ed="#L" n="9"/>ut committat adulterium, est, per se loquendo,
+<lb ed="#L" n="10"/>magis adulter quam fur.</quote>
+               </p>
+               <p xml:id="TAca84-d1e765-d1e1426">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="11"/>AD PRIMUM ERGO DICENDUM quod etiam finis
+<lb ed="#L" n="12"/>habet rationem obiecti, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1435">
+                  <lb ed="#L" n="13"/>AD SECUNDUM DICENDUM quod ordinari ad talem
+<lb ed="#L" n="14"/>finem, etsi accidat exteriori actui, non tamen 
+ac<lb break="no" ed="#L" n="15"/>cidit actui interiori voluntatis, qui comparatur
+<lb ed="#L" n="16"/>ad exteriorem sicut formale ad materiale.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1447">
+                  <lb ed="#L" n="17"/>AD TERTIUM DICENDUM quod quando multi actus
+<lb ed="#L" n="18"/>specie differentes ordinantur ad unum finem, est
+<lb ed="#L" n="19"/>quidem diversitas speciei ex parte exteriorum 
+a<lb break="no" ed="#L" n="20"/>ctuum; sed unitas speciei ex parte actus interioris.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e765-Dd1e1459"><!-- p2p1-q18-a7 -->
+               <head xml:id="TAca84-d1e765-Hd1e1462">Articulus 7</head>
+               <head xml:id="TAca84-d1e765-Hd1e1464" type="question-title">utrum species quae est ex fine, contineatur sub specie quae est ex obiecto,
+       sicut sub genere, vel e converso</head>
+               <p xml:id="TAca84-d1e765-d1e1467">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="54"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="55"/>UTRUM SPECIES QUAE EST EX FINE, CONTINEATUR SUB SPECIE QUAE EST EX OBIECTO,
+<lb ed="#L" n="56"/>SICUT SUB GENERE, VEL E CONVERSO
+</p>
+               <p xml:id="TAca84-d1e765-d1e1478">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="57"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="58"/>species bonitatis quae est ex fine, 
+con<lb break="no" ed="#L" n="59"/>tineatur sub specie bonitatis quae est
+<lb ed="#L" n="60"/>ex obiecto, sicut species sub genere:
+<lb ed="#L" n="61"/>puta cum aliquis vult furari ut det eleemosynam.
+<lb ed="#L" n="62"/>Actus enim habet speciem ex obiecto, ut dictum
+<lb ed="#L" n="63"/>est. Sed impossibile est quod aliquid contineatur
+<lb ed="#L" n="64"/>in aliqua. alia specie, quae sub propria specie
+<lb ed="#L" n="65"/>non continetur: quia idem non potest esse in
+<lb ed="#L" n="66"/>diversis speciebus non subalternis. Ergo species
+<lb ed="#L" n="67"/>quae est ex fine, continetur sub specie quae est
+<lb ed="#L" n="68"/>ex obiecto.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1509">
+                  <lb ed="#L" n="69"/>2. PRAETEREA , semper ultima differentia 
+con<lb break="no" ed="#L" n="70"/>stituit. speciem 'specialissimam. Sed differentia
+<lb ed="#L" n="71"/>quae est ex fine, videtur esse posterior quam
+<lb ed="#L" n="72"/>differentia quae est ex obiecto: quia finis habet
+<lb ed="#L" n="73"/>rationem ultimi. Ergo species quae est ex fine,
+<lb ed="#L" n="74"/>continetur sub specie quae est ex obiecto, sicut
+<lb ed="#L" n="75"/>species specialissima.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1528">
+                  <lb ed="#L" n="76"/>3. PRAETEREA, quanto aliqua differentia est 
+ma<lb break="no" ed="#L" n="77"/>gis formalis, tanto magis est specialis: quia 
+diffe<lb break="no" ed="#L" n="78"/>rentia comparatur ad genus ut forma ad 
+mate<lb break="no" ed="#L" n="79"/>riam. Sed species quae est ex fine, est formalior
+<lb ed="#L" n="80"/>ea quae est ex obiecto, ut dictum est. Ergo
+<lb ed="#L" n="81"/>species quae est ex fine, continetur sub specie
+<lb ed="#L" n="82"/>quae est ex obiecto, sicut species specialissima
+<lb ed="#L" n="83"/>sub genere subalterno.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1548">
+                  <lb ed="#L" n="84"/>SED coNTRA, cuiuslibet generis sunt determina-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="85"/>tae differentiae. Sed actus eiusdem speciei ex
+<lb ed="#L" n="86"/>parte obiecti, potest ad infinitos fines ordinari:
+<lb ed="#L" n="87"/>puta furtum ad infinita bona vel mala. Ergo 
+spe<lb break="no" ed="#L" n="88"/>cies quae est ex fine, non continetur sub specie
+<lb ed="#L" n="89"/>quae est ex obiecto, sicut sub genere.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1566">
+                  <lb ed="#L" n="90"/>RESPONDEO DICENDUM quod obiectum exterioris
+<lb ed="#L" n="91"/>actus dupliciter potest se habere ad finem 
+volun<lb break="no" ed="#L" n="92"/>tatis: uno modo, sicut per se ordinatum ad ipsum,
+<lb ed="#L" n="93"/>sicut bene pugnare per se ordinatur ad 
+victo<lb break="no" ed="#L" n="94"/>riam; alio modo, per accidens, sicut accipere rem
+<lb ed="#L" n="95"/>alienam per accidens ordinatur ad dandum 
+elee<lb break="no" ed="#L" n="96"/>mosynam. Oportet autem, ut Philosophus dicit
+<lb ed="#L" n="97"/>in VII Metaphys., quod differentiae dividentes
+<lb ed="#L" n="98"/>aliquod genus, et constituentes speciem illius 
+ge<lb break="no" ed="#L" n="99"/>neris, per se dividant illud. Si autem per 
+acci<lb break="no" ed="#L" n="100"/>dens, non recte procedit divisio: puta si quis
+<lb ed="#L" n="101"/>dicat, Animalium aliud rationale, aliud 
+irratio<lb break="no" ed="#L" n="102"/>ndle; et animalium irrationalium aliud alatum ,
+<lb ed="#L" n="103"/>aliud non' alatum: alatum enim et non alatum
+<lb ed="#L" n="104"/>non sunt per se determinativa eius quod est 
+zr<lb break="no" ed="#L" n="105"/>rationale. Oportet autem sic dividere: Animalium
+<lb ed="#L" n="106"/>aliud habens pedes, aliud non habens pedes; et:
+<lb ed="#L" n="107"/>habentium pedes, aliud habet duos, aliud quatuor,
+<lb ed="#L" n="108"/>aliud multos: haec enim per se determinant 
+prio<lb break="no" ed="#L" n="109"/>rem differentiam.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1612">
+                  <lb ed="#L" n="110"/>Sic igitur quando obiectum non est per se 
+or<lb break="no" ed="#L" n="111"/>dinatum ad finem, differentia specifica quae est
+<lb ed="#L" n="112"/>ex obiecto, non est per se determinativa eius
+<pb ed="#L" n="133"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quae est ex fine, nec e converso. Unde una 
+ista<lb break="no" ed="#L" n="2"/>rum specierum non est sub alia: sed tunc actus
+<lb ed="#L" n="3"/>moralis est sub duabus speciebus quasi disparatis.
+<lb ed="#L" n="4"/>Unde dicimus quod ille qui furatur ut 
+moeche<lb break="no" ed="#L" n="5"/>tur, committit duas malitias in uno actu. - Si
+<lb ed="#L" n="6"/>vero obiectum. per se ordinetur ad finem , una
+<lb ed="#L" n="7"/>dictarum differentiarum est per se determinativa
+<lb ed="#L" n="8"/>alterius. Unde una istarum specierum continebitur
+<lb ed="#L" n="9"/>sub altera.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1645">
+                  <lb ed="#L" n="10"/>Considerandum autem restat quae sub qua.
+<lb ed="#L" n="11"/>Ad cuius evidenfíam, primo considerandum est
+<lb ed="#L" n="12"/>quod quanto aliqua differentia sumitur a forma
+<lb ed="#L" n="13"/>magis particulari, tanto magis est specifica. 
+Se<lb break="no" ed="#L" n="14"/>cundo, quod quanto agens est magis universale,
+<lb ed="#L" n="15"/>tanto ex eo est forma magis universalis. Tertio,
+<lb ed="#L" n="16"/>quod quanto aliquis finis est posterior, tanto 
+re<lb break="no" ed="#L" n="17"/>spondet agenti universaliori: sicut victoria, quae
+<lb ed="#L" n="18"/>est ultimus finis exercitus, est finis intentus a
+<lb ed="#L" n="19"/>summo duce; ordinatio autem huius aciei vel
+<lb ed="#L" n="20"/>ilius, est finis intentus ab aliquo inferiorum 
+du<lb break="no" ed="#L" n="21"/>cum.- Et ex istis sequitur quod differentia 
+spe<lb break="no" ed="#L" n="22"/>cifica quae est ex fine, est magis generalis; et
+<lb ed="#L" n="23"/>differentia quae est ex obiecto per se ad talem
+<lb ed="#L" n="24"/>finem ordinato, est specifica respectu eius. 
+Vo<lb break="no" ed="#L" n="25"/>luntas enim, cuius proprium obiectum est finis,
+<lb ed="#L" n="26"/>est universale motivum respectu omnium poten-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="27"/>tiarum animae, quarum propria obiecta sunt 
+obie<lb break="no" ed="#L" n="28"/>cta particularium actuum.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1691">
+                  <lb ed="#L" n="29"/>AD PRIMUM ERGO DICENDUM quod secundum 
+sub<lb break="no" ed="#L" n="30"/>stantiam suam non potest aliquid esse in duabus
+<lb ed="#L" n="31"/>speciebus, quarum una sub altera non ordinetur.
+<lb ed="#L" n="32"/>Sed secundum ea quae rei adveniunt, potest 
+ali<lb break="no" ed="#L" n="33"/>quid.;sub diversis speciebus contineri. Sicut hoc
+<lb ed="#L" n="34"/>pomum, secundum colorem, continetur sub hac
+<lb ed="#L" n="35"/>specie, scilicet albi: et secundum odorem, sub
+<lb ed="#L" n="36"/>specie bene redolentis. Et similiter actus qui 
+secun<lb break="no" ed="#L" n="37"/>dum substantiam suam est in una specie naturae,
+<lb ed="#L" n="38"/>secundum conditiones morales supervenientes, ad
+<lb ed="#L" n="39"/>duas species referri potest, ut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1718">
+                  <lb ed="#L" n="40"/>AD SECUNDUM DICENDUM quod finis est 
+postre<lb break="no" ed="#L" n="41"/>mum in executione; sed est primum in intentione
+<lb ed="#L" n="42"/>rationis, secundum quam accipiuntur moralium
+<lb ed="#L" n="43"/>actuum species.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1729">
+                  <lb ed="#L" n="44"/>AD TERTIUM DICENDUM quod differentia 
+compa<lb break="no" ed="#L" n="45"/>ratur ad genus ut forma ad materiam, 
+inquan<lb break="no" ed="#L" n="46"/>tum facit esse genus in actu. Sed etiam genus
+<lb ed="#L" n="47"/>consideratur ut formalius specie, secundum quod
+<lb ed="#L" n="48"/>est absolutius, et minus contractum. Unde et 
+par<lb break="no" ed="#L" n="49"/>tes definitionis reducuntur ad. genus causae 
+for<lb break="no" ed="#L" n="50"/>malis, ut dicitur in libro Physic. Et secundum
+<lb ed="#L" n="51"/>hoc, genus est causa formalis speciei: et tanto
+<lb ed="#L" n="52"/>erit formalius, quanto communius.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e765-Dd1e1752"><!-- p2p1-q18-a8 -->
+               <head xml:id="TAca84-d1e765-Hd1e1755">Articulus 8</head>
+               <head xml:id="TAca84-d1e765-Hd1e1757" type="question-title">utrum aliquis actus sit indifferens secundum suam speciem</head>
+               <p xml:id="TAca84-d1e765-d1e1760">
+                  <pb ed="#L" n="134"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="2"/>UTRUM ALIQUIS ACTUS SIT INDIFFERENS SECUNDUM SUAM SPECIEM
+</p>
+               <p xml:id="TAca84-d1e765-d1e1771">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>non sit aliquis actus indifferens 
+secun<lb break="no" ed="#L" n="5"/>dum suam. speciem. Malum enim est
+<lb ed="#L" n="6"/>privatio boni, secundum Augustinum.
+<lb ed="#L" n="7"/>Sed privatio et habitus sunt opposita immediata,
+<lb ed="#L" n="8"/>secundum . Philosophum. Ergo non est aliquis
+<lb ed="#L" n="9"/>actus qui secundum speciem. suam sit indifferens,
+<lb ed="#L" n="10"/>quasi medium existens inter bonum et malum.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1793">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, actus humani habent speciem a
+<lb ed="#L" n="12"/>fine vel obiecto, ut dictum est. Sed omne 
+obie<lb break="no" ed="#L" n="13"/>ctum, et omnis finis habet rationem boni vel mali.
+<lb ed="#L" n="14"/>Ergo omnis actus humanus secundum suam 
+spe<lb break="no" ed="#L" n="15"/>ciem est bonus vel malus. Nullus ergo est 
+in<lb break="no" ed="#L" n="16"/>differens secundum speciem.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1810">
+                  <lb ed="#L" n="17"/>3. PRAETEREA, sicut dictum est., actus dicitur
+<lb ed="#L" n="18"/>bonus, qui habet debitam perfectionem bonitatis;
+<lb ed="#L" n="19"/>malus, cui aliquid de hoc deficit. Sed necesse est
+<lb ed="#L" n="20"/>quod omnis actus vel habeat totam plenitudinem
+<lb ed="#L" n="21"/>suae bonitatis, vel aliquid ei deficiat. Ergo necesse
+<lb ed="#L" n="22"/>est quod omnis actus secundum speciem suam
+<lb ed="#L" n="23"/>sit bonus vel malus, et nullus indifferens.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1828">
+                  <lb ed="#L" n="24"/>SED CONTRA EST quod Augustinus dicit, in libro
+<lb ed="#L" n="25"/>de Serm. Dom. in Mont., quod sunt quaedam
+<lb ed="#L" n="26"/>facta media, quae possunt bono vel malo animo
+<lb ed="#L" n="27"/>fieri, de quibus est temerarium iudicare. Sunt
+<lb ed="#L" n="28"/>ergo aliqui actus. secundum speciem suam 
+indif<lb break="no" ed="#L" n="29"/>ferentes.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1844">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="30"/>REsPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="31"/>actus omnis habet speciem ab obiecto; et actus
+<lb ed="#L" n="32"/>humanus, qui dicitur moralis, habet speciem ab
+<lb ed="#L" n="33"/>obiecto relato ad principium actuum humanorum,
+<lb ed="#L" n="34"/>quod est ratio. Unde si obiectum actus includat
+<lb ed="#L" n="35"/>aliquid quod conveniat ordini rationis, erit actus
+<lb ed="#L" n="36"/>bonus secundum suam speciem, sicut dare 
+elee<lb break="no" ed="#L" n="37"/>mosynam indigenti. Si autem includat aliquid quod
+<lb ed="#L" n="38"/>repugnet ordini rationis, erit malus actus secundum
+<lb ed="#L" n="39"/>speciem, sicut furari, quod est tollere aliena. 
+Con<lb break="no" ed="#L" n="40"/>tingit autem quod obiectum actus non includit
+<lb ed="#L" n="41"/>aliquid pertinens ad ordinem rationis, sicut levare
+<lb ed="#L" n="42"/>festucam de terra, ire ad campum, et huiusmodi:
+<lb ed="#L" n="43"/>et tales actus secundum speciem suam sunt 
+in<lb break="no" ed="#L" n="44"/>differentes. j
+</p>
+               <p xml:id="TAca84-d1e765-d1e1881">
+                  <lb ed="#L" n="45"/>AD PRIMUM ERGO DICENDUM. quod duplex est 
+pri<lb break="no" ed="#L" n="46"/>vatio. Quaedam quae consistit in. privatum esse:
+<lb ed="#L" n="47"/>et haec nihil relinquit, sed totum aufert; ut 
+cae<lb break="no" ed="#L" n="48"/>citas totaliter aufert visum, et tenebrae lucem, et
+<lb ed="#L" n="49"/>mors vitam. Et inter hanc privationem et habitum
+<lb ed="#L" n="50"/>oppositum, non potest esse aliquod medium circa
+<lb ed="#L" n="51"/>proprium susceptibile. - Est autem alia privatio
+<lb ed="#L" n="52"/>quae consistit in privari: sicut aegritudo est 
+pri<lb break="no" ed="#L" n="53"/>vatio sanitatis, non quod tota sanitas sit sublata,
+<lb ed="#L" n="54"/>sed quod est quasi quaedam via ad totalem 
+abla<lb break="no" ed="#L" n="55"/>tionem sanitatis, quae fit per mortem. Et ideo talis.
+<lb ed="#L" n="56"/>privatio, cum aliquid relinquat, non semper est
+<pb ed="#L" n="135"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>immediata cum opposito habitu. Et hoc modo 
+ma<lb break="no" ed="#L" n="2"/>lum est privatio boni, ut Simplicius dicit in 
+Corn<lb break="no" ed="#L" n="3"/>mento super librum Praedic.: quia non totum
+<lb ed="#L" n="4"/>bonum. aufert, sed aliquid relinquit. Unde potest
+<lb ed="#L" n="5"/>esse aliquod medium inter bonum et malum.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1925">
+                  <lb ed="#L" n="6"/>Ab SECUNDUM DICENDUM quod omne obiectum
+<lb ed="#L" n="7"/>vel finis habet aliquam bonitatem vel malitiam,
+<lb ed="#L" n="8"/>saltem naturalem: non tamen semper importat
+<lb ed="#L" n="9"/>bonitatem vel malitiam moralem, quae conside-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>ratur per comparationem ad rationem, ut dictum
+<lb ed="#L" n="11"/>est, Et de hac nunc agitur.
+</p>
+               <p xml:id="TAca84-d1e765-d1e1943">
+                  <lb ed="#L" n="12"/>AD TERTIUM DICENDUM quod non quidquid habet
+<lb ed="#L" n="13"/>actus, pertinet ad speciem eius. Unde etsi in 
+ra<lb break="no" ed="#L" n="14"/>tione suae speciei non contineatur quidquid 
+per<lb break="no" ed="#L" n="15"/>tinet ad plenitudinem bonitatis ipsius, non propter
+<lb ed="#L" n="16"/>hoc est ex specie sua malus, nec etiam bonus: 
+si<lb break="no" ed="#L" n="17"/>cut homo secundum suam speciem neque 
+virtuo<lb break="no" ed="#L" n="18"/>sus, neque vitiosus est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e765-Dd1e1962"><!-- p2p1-q18-a9 -->
+               <head xml:id="TAca84-d1e765-Hd1e1965">Articulus 9</head>
+               <head xml:id="TAca84-d1e765-Hd1e1967" type="question-title">utrum aliquis actus sit indifferens secundum individuum</head>
+               <p xml:id="TAca84-d1e765-d1e1970">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>ARTICULUS NONUS
+<lb ed="#L" n="54"/>UTRUM ALIQUIS ACTUS SIT INDIFFERENS SECUNDUM INDIVIDUUM
+</p>
+               <p xml:id="TAca84-d1e765-d1e1979">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="55"/>AD NONUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="56"/>aliquis actus secundum individuum sit
+<lb ed="#L" n="57"/>a indifferens. Nulla enim species est quae
+<lb ed="#L" n="58"/>sub se non contineat, vel continere 
+pos<lb break="no" ed="#L" n="59"/>sit aliquod individuum. Sed aliquis actus est 
+in<lb break="no" ed="#L" n="60"/>differens secundum suam speciem, ut dictum est.
+<lb ed="#L" n="61"/>Ergo aliquis actus individualis potest esse 
+indif<lb break="no" ed="#L" n="62"/>ferens.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2001">
+                  <lb ed="#L" n="63"/>2. PRAETEREA, ex individualibus actibus 
+causan<lb break="no" ed="#L" n="64"/>tur habitus conformes ipsis, ut dicitur in II Ezhic.
+<lb ed="#L" n="65"/>Sed aliquis habitus est indifferens. Dicit enim 
+Phi<lb break="no" ed="#L" n="66"/>losophus, in IV Ethic., de quibusdam, sicut de
+<lb ed="#L" n="67"/>placidis et prodigis, quod non sunt mali: et tamen
+<lb ed="#L" n="68"/>constat quod non sunt boni, cum recedant a 
+vir<lb break="no" ed="#L" n="69"/>tute: et sic sunt indifferentes secundum habitum.
+<lb ed="#L" n="70"/>Ergo aliqui actus individuales ? sunt indifferentes.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2022">
+                  <lb ed="#L" n="71"/>3. PRAETEREA, bonum morale pertinet ad 
+vir<lb break="no" ed="#L" n="72"/>tutem, malum autem morale pertinet ad vitium.
+<lb ed="#L" n="73"/>Sed contingit quandoque quod homo actum qui
+<lb ed="#L" n="74"/>ex specie sua est indifferens, non ordinat ad
+<lb ed="#L" n="75"/>aliquem finem vel vitii vel virtutis. Ergo contingit
+<lb ed="#L" n="76"/>aliquem actum individualem esse indifferentem.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2038">
+                  <lb ed="#L" n="77"/>SED CONTRA EST quod Gregorius dicit in quadam
+<lb ed="#L" n="78"/>Homilia: Otiosum verbum est quod utilitate 
+re<lb break="no" ed="#L" n="79"/>ctitudinis, aut ratione iustae necessitatis aut piae
+<lb ed="#L" n="80"/>utilitatis, caret. Sed verbum otiosum est malum:
+<lb ed="#L" n="81"/>quia de eo reddent homines rationem in die 
+iu<lb break="no" ed="#L" n="82"/>dici, ut dicitur Matth. xi. Si autem non caret
+<lb ed="#L" n="83"/>ratione iustae necessitatis aut piae utilitatis, est
+<lb ed="#L" n="84"/>bonum. Ergo omne verbum aut est bonum aut
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="85"/>malum. Pari ergo ratione, et quilibet alius actus
+<lb ed="#L" n="86"/>vel est bonus vel malus. Nullus ergo individualis
+<lb ed="#L" n="87"/>actus est indifferens.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2067">
+                  <lb ed="#L" n="88"/>RESPONDEO DICENDUM quod contingit quandoque
+<lb ed="#L" n="89"/>aliquem actum esse indifferentem secundum 
+spe<lb break="no" ed="#L" n="90"/>ciem, qui tamen est bonus vel malus in individuo
+<lb ed="#L" n="91"/>consideratus, Et hoc ideo, quia actus moralis, sicut
+<lb ed="#L" n="92"/>dictum est, non solum habet bonitatem ex 
+obie<lb break="no" ed="#L" n="93"/>cto, a quo habet speciem; sed etiam ex 
+circum<lb break="no" ed="#L" n="94"/>stantiis, quae sunt quasi quaedam accidentia; sicut
+<lb ed="#L" n="95"/>aliquid convenit individuo hominis secundum 
+ac<lb break="no" ed="#L" n="96"/>cidentia individualia, quod non convenit homini
+<lb ed="#L" n="97"/>secundum rationem speciei. Et oportet quod 
+quili<lb break="no" ed="#L" n="98"/>bet individualis actus habeat aliquam 
+circumstan<lb break="no" ed="#L" n="99"/>tiam per quam trahatur ad bonum vel malum, ad
+<lb ed="#L" n="100"/>minus ex parte intentionis finis. Cum enim 
+ratio<lb break="no" ed="#L" n="101"/>nis sit ordinare, actus a ratione deliberativa 
+pro<lb break="no" ed="#L" n="102"/>cedens, si non sit ad debitum finem ordinatus,
+<lb ed="#L" n="103"/>ex.hoc ipso repugnat rationi, et habet rationem
+<lb ed="#L" n="104"/>mali. Si vero ordinetur ad debitum finem, 
+con<lb break="no" ed="#L" n="105"/>venit cum ordine rationis: unde habet rationem
+<lb ed="#L" n="106"/>boni. Necesse est autem quod vel ordinetur, vel
+<lb ed="#L" n="107"/>non ordinetur ad debitum finem. Unde necesse
+<lb ed="#L" n="108"/>est omnem actum hominis a deliberativa ratione
+<lb ed="#L" n="109"/>procedentem, in individuo consideratum, bonum
+<lb ed="#L" n="110"/>esse vel malum.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2119">
+                  <lb ed="#L" n="111"/>Si autem non procedit a ratione deliberativa,
+<lb ed="#L" n="112"/>sed ex quadam imaginatione, sicut cum aliquis
+<lb ed="#L" n="113"/>fricat barbam, vel movet manum aut pedem ?;
+<lb ed="#L" n="114"/>talis actus non est, proprie loquendo, moralis vel
+<pb ed="#L" n="138"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>humanus; cum hoc habeat actus a ratione. Et sic
+<lb ed="#L" n="2"/>erit indifferens, quasi extra genus moralium actuum
+<lb ed="#L" n="3"/>existens.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2141">
+                  <lb ed="#L" n="4"/>AD PRIMUM ERGO DICENDUM quod aliquem actum
+<lb ed="#L" n="5"/>esse indifferentem secundum suam speciem, potest
+<lb ed="#L" n="6"/>esse multipliciter. Uno modo, sic. quod. ex sua
+<lb ed="#L" n="7"/>specie debeatur ei quod sit indifferens. Ef sic 
+pro<lb break="no" ed="#L" n="8"/>cedit ratio. Sed tamen isto modo nullus actus ex
+<lb ed="#L" n="9"/>sua specie est indifferens: non enim est. aliquod
+<lb ed="#L" n="10"/>obiectum humani actus, quod. non possit ordinari
+<lb ed="#L" n="11"/>vel ad bonum vel ad malum, per finem vel 
+cir<lb break="no" ed="#L" n="12"/>cumstantiam. - Alio modo potest dici indifferens
+<lb ed="#L" n="13"/>ex sua specie, quia non habet ex sua. specie
+<lb ed="#L" n="14"/>quod sit bonus vel malus. Unde per aliquid aliud
+<lb ed="#L" n="15"/>potest fieri. bonus. vel malus. Sicut homo. non
+<lb ed="#L" n="16"/>habet ex sua specie quod sit albus vel niger,
+<lb ed="#L" n="17"/>nec tamen habet ex sua specie quod non sit
+<lb ed="#L" n="18"/>albus aut niger: potest enim albedo vel nigredo
+</p>
+               <p xml:id="TAca84-d1e765-d1e2176">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="19"/>Ad SECUNDUM DICENDUM quod Philosophus dicit
+<lb ed="#L" n="20"/>illum esse malum proprie, qui est aliis 
+homini<lb break="no" ed="#L" n="21"/>bus nocivus. Et secundum. hoc, dicit. prodigam
+<lb ed="#L" n="22"/>non esse malum, quia nulli alteri nocet nisi sibi
+<lb ed="#L" n="23"/>ipsi. Et similiter de omnibus aliis qui non sunt
+<lb ed="#L" n="24"/>proximis nocivi. Nos autem hic dicimus malum
+<lb ed="#L" n="25"/>communiter omne quod est rationi rectae 
+repu<lb break="no" ed="#L" n="26"/>gnans. Et secundum hoc, omnis individualis actus
+<lb ed="#L" n="27"/>est bonus vel malus, ut dictum est. ;
+</p>
+               <p xml:id="TAca84-d1e765-d1e2201">
+                  <lb ed="#L" n="28"/>AD TERTIUM DICENDUM quod omnis fiis a ratione
+<lb ed="#L" n="29"/>deliberativa ^ intentus, pertinet ad bonum alicuius
+<lb ed="#L" n="30"/>virtutis, vel ad malum. alicuius vitii. Nam hoc
+<lb ed="#L" n="31"/>ipsum quod aliquis agit ordinate. ad  
+sustentatio<lb break="no" ed="#L" n="32"/>nem vel quietem sui corporis, ad bonum virtutis
+<lb ed="#L" n="33"/>ordinatur in eo qui corpus suum ordinat ad
+<lb ed="#L" n="34"/>bonum virtutis. Et idem patet in aliis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e765-Dd1e2220"><!-- p2p1-q18-a10 -->
+               <head xml:id="TAca84-d1e765-Hd1e2223">Articulus 10</head>
+               <head xml:id="TAca84-d1e765-Hd1e2225" type="question-title">utrum aliqua circumstantia constituat actum moralem
+       in specie boni vel mali</head>
+               <p xml:id="TAca84-d1e765-d1e2228">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>ARTICULUS DECIMUS
+<lb ed="#L" n="36"/>UTRUM ALIQUA CIRCUMSTANTIA CONSTITUAT ACTUM MORALEM
+<lb ed="#L" n="37"/>IN SPECIE BONI VEL MALI
+</p>
+               <p xml:id="TAca84-d1e765-d1e2239">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="38"/>D DECIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="39"/>circumstantia non possit constituere 
+ali<lb break="no" ed="#L" n="40"/>quam speciem boni vel mali actus. 
+Spe<lb break="no" ed="#L" n="41"/>circumstantiae differunt ab obiecto. Ergo. 
+circum<lb break="no" ed="#L" n="42"/>stantiae non dant speciem actus.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2255">
+                  <lb ed="#L" n="43"/>2. PRAETEREA, circumstantiae comparantur ad
+<lb ed="#L" n="44"/>ctum moralem sicut accidentia eius, ut dictum
+<lb ed="#L" n="45"/>est. Sed accidens non constituit speciem. Ergo
+<lb ed="#L" n="46"/>circumstantia non constituit aliquam speciem boni
+<lb ed="#L" n="47"/>vel mali..
+</p>
+               <p xml:id="TAca84-d1e765-d1e2269">
+                  <lb ed="#L" n="48"/>3. PRAETEREA, ünius.rei non sunt plures 
+spe<lb break="no" ed="#L" n="49"/>cies. Unius autem actus sunt plures 
+circumstan<lb break="no" ed="#L" n="50"/>tiae. Ergo circumstantia non constituit actum 
+mo<lb break="no" ed="#L" n="51"/>ralem in aliqua specie boni vel mali.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2280">
+                  <lb ed="#L" n="52"/>SED CóNTRA, locus est circumstantia quaedam.
+<lb ed="#L" n="53"/>Sed locus constituit actum moralem in quadam
+<lb ed="#L" n="54"/>specie mali: furari enim aliquid de loco sacro est
+<lb ed="#L" n="55"/>sacrilegium. Ergo circumstantia constituit actum
+<lb ed="#L" n="56"/>moralem in aliqua specie boni vel mali.
+<lb ed="#L" n="57"/>RESPÓNDEO DICENDUM. quod, sicut species rerum
+<lb ed="#L" n="58"/>naturalium constituuntur ex naturalibus formis,
+<lb ed="#L" n="59"/>itá species moralium actuum constituuntur ex
+<lb ed="#L" n="60"/>formis prout sunt a ratione conceptae, sicut ex
+<lb ed="#L" n="61"/>supradictis patet. Quia vero natura determinata
+<lb ed="#L" n="62"/>est ad unum, nec potest. esse processus naturae
+<lb ed="#L" n="63"/>in infinitum, necesse est pervenire ad aliquam
+<lb ed="#L" n="64"/>ultimam formam, ex qua sumatur differentia 
+spe<lb break="no" ed="#L" n="65"/>cifica , post quam. alia differentia specifica esse
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="66"/>non possit. Et inde. est quod in rebus 
+naturali<lb break="no" ed="#L" n="67"/>bus, id quod est accidens alicui rei, non potest
+<lb ed="#L" n="68"/>accipi ut differentia constituens speciem. Sed 
+pro<lb break="no" ed="#L" n="69"/>cessus rationis non est determinatus ad aliquid
+<lb ed="#L" n="70"/>unum: sed quolibet dato, potest ulterius 
+proce<lb break="no" ed="#L" n="71"/>dere. Et ideo quod in uno actu accipitur ut cir-.
+<lb ed="#L" n="72"/>cumstantia superaddita obiecto quod determinat
+<lb ed="#L" n="73"/>speciem actus, potest iterum accipi a ratione 
+or<lb break="no" ed="#L" n="74"/>dinante ut principalis conditio obiecti 
+determi<lb break="no" ed="#L" n="75"/>nantis speciem actus. Sicut tollere alienum habet
+<lb ed="#L" n="76"/>speciem ex ratione alieni , ex hoc. enim consti- .
+<lb ed="#L" n="77"/>tuitur in specie furti: et si consideretur super hoc
+<lb ed="#L" n="78"/>ratio loci vel temporis, se habebit in ratione cir--
+<lb ed="#L" n="79"/>cumstantiae. Sed quia ratio etiam de loco vel.
+<lb ed="#L" n="80"/>de tempore, et aliis huiusmodi, ordinare potest;
+<lb ed="#L" n="81"/>contingit conditionem loci circa obiectum accipi
+<lb ed="#L" n="82"/>ut contrariam ordini rationis; puta quod ratio.
+<lb ed="#L" n="83"/>ordinat non esse iniuriam faciendam loco sacro. .
+<lb ed="#L" n="84"/>Unde tollere aliquid alienum de loco sacro, addit.
+<lb ed="#L" n="85"/>specialem repugnantiam ad ordinem rationis. Et
+<lb ed="#L" n="86"/>ideo locus, qui prius considerabatur ut 
+circum<lb break="no" ed="#L" n="87"/>stantia, nunc consideratur ut principalis conditio
+<lb ed="#L" n="88"/>obiecti rationi repugnans. Et per hunc modum,
+<lb ed="#L" n="89"/>quandocumque aliqua circumstantia respicit 
+spe<lb break="no" ed="#L" n="90"/>cialem ordinem rationis vel pro vel contra, opor-.
+<lb ed="#L" n="91"/>tet quod circumstantia det speciem actui morali
+<lb ed="#L" n="92"/>vel bono vel malo.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2374">
+                  <lb ed="#L" n="93"/>AD PRIMUM ERGO DICENDUM quod circumstantia,
+<lb ed="#L" n="94"/>secundum quod dat speciem actui, consideratur
+<pb ed="#L" n="139"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ut quaedam conditio obiecti, sicut dictum est
+<lb ed="#L" n="2"/>et quasi quaedam specifica differentia eius.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2390">
+                  <lb ed="#L" n="3"/>AD SECUNDUM DICENDUM quod circumstantia 
+ma<lb break="no" ed="#L" n="4"/>nens in ratione circumstantiae, cum habeat 
+ra<lb break="no" ed="#L" n="5"/>tionem accidentis, non dat speciem : sed 
+inquan<lb break="no" ed="#L" n="6"/>tum mutatur in principalem conditionem obiecti,
+<lb ed="#L" n="7"/>secundum hoc dat speciem.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2403">
+                  <lb ed="#L" n="8"/>AD TERTIUM DICENDUM quod non omnis 
+circum<lb break="no" ed="#L" n="9"/>stantia constituit actum moralem in aliqua specie
+<lb ed="#L" n="10"/>boni vel mali: cum non quaelibet circumstantia
+<lb ed="#L" n="11"/>importet aliquam consonantiam. vel dissonantiam
+<lb ed="#L" n="12"/>ad rationem. Unde non oportet, licet sint multae
+<lb ed="#L" n="13"/>circumstantiae unius actus, quod unus actus sit
+<lb ed="#L" n="14"/>in pluribus speciebus. Licet etiam non sit 
+incon<lb break="no" ed="#L" n="15"/>veniens quod unus actus moralis sit in pluribus
+<lb ed="#L" n="16"/>speciebus moris etiam disparatis, ut dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e765-Dd1e2426"><!-- p2p1-q18-a11 -->
+               <head xml:id="TAca84-d1e765-Hd1e2429">Articulus 11</head>
+               <head xml:id="TAca84-d1e765-Hd1e2431" type="question-title">utrum omnis circumstantia. augens: bonitatem vel malitiam,
+       constituat actum moralem in specie boni vel mali</head>
+               <p xml:id="TAca84-d1e765-d1e2434">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="17"/>ARTICULUS UNDECIMUS
+<lb ed="#L" n="18"/>UTRUM OMNIS CIRCUMSTANTIA. AUGENS: BONITATEM VEL MALITIAM,
+<lb ed="#L" n="19"/>CONSTITUAT ACTUM MORALEM IN SPECIE BONI VEL MALI.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2445">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="20"/>AD UNDECIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="21"/>omnis circumstantia pertinens ad 
+boni<lb break="no" ed="#L" n="22"/>(d tatem vel malitiam, det speciem actui,
+<lb ed="#L" n="23"/>WMBonum enim et malum sunt 
+differen<lb break="no" ed="#L" n="24"/>dm specificae moralium actuum. Quod ergo 
+fa<lb break="no" ed="#L" n="25"/>cit differentiam in bonitate vel malitia moralis
+<lb ed="#L" n="26"/>actus, facit differre secundum differentiam 
+spe<lb break="no" ed="#L" n="27"/>cificam, quod est differre secundum speciem.
+<lb ed="#L" n="28"/>Sed id quod addit in bonitate vel malitia actus,
+<lb ed="#L" n="29"/>facit differre secundum bonitatem et malitiam.
+<lb ed="#L" n="30"/>Ergo facit differre secundum speciem. Ergo omnis
+<lb ed="#L" n="31"/>circumstantia addens in bonitate vel malitia actus,
+<lb ed="#L" n="32"/>constituit speciem.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2478">
+                  <lb ed="#L" n="33"/>2. PRAETEREA, aut circumstantia adveniens habet
+<lb ed="#L" n="34"/>in se aliquam rationem bonitatis vel malitiae, aut
+<lb ed="#L" n="35"/>non. Si non, non potest addere in bonitate vel
+<lb ed="#L" n="36"/>malitia actus: quia quod non est bonum, non
+<lb ed="#L" n="37"/>potest facere maius bonum; et quod non est
+<lb ed="#L" n="38"/>malum, non potest facere maius malum. Si 
+au<lb break="no" ed="#L" n="39"/>tem habet in se rationem bonitatis vel malitiae,
+<lb ed="#L" n="40"/>ex hoc ipso habet quandam speciem boni vel
+<lb ed="#L" n="41"/>mali. Ergo omnis circumstantia augens 
+bonita<lb break="no" ed="#L" n="42"/>tem vel malitiam, constituit novam speciem boni
+<lb ed="#L" n="43"/>vel mali.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2505">
+                  <lb ed="#L" n="44"/>3. PRAETEREA, secundum Dibéyslu IV cap.
+<lb ed="#L" n="45"/>de Div. Nom., malum causatur ex singularibus
+<lb ed="#L" n="46"/>defectibus. Quaelibet autem circumstantia 
+aggra<lb break="no" ed="#L" n="47"/>vans malitiam, habet specialem defectum. Ergo
+<lb ed="#L" n="48"/>quaelibet circumstantia addit novam speciem
+<lb ed="#L" n="49"/>peccati. Et eadem ratione, quaelibet augens 
+bo<lb break="no" ed="#L" n="50"/>nitatem, videtur addere novam speciem boni:
+<lb ed="#L" n="51"/>sicut quaelibet unitas addita numero, facit novam
+<lb ed="#L" n="52"/>speciem numeri; bonum enim consistit in 
+nu<lb break="no" ed="#L" n="53"/>mero, pondere et mensura.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2529">
+                  <lb ed="#L" n="54"/>SED cONTRA, magis et minus non diversificant
+<lb ed="#L" n="55"/>speciem. Sed magis et minus est circumstantia
+<lb ed="#L" n="56"/>addens in bonitate vel malitia. Ergo non omnis
+<lb ed="#L" n="57"/>circumstantia addens in bonitate vel malitia, 
+con<lb break="no" ed="#L" n="58"/>stituit actum moralem in specie boni vel mali.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2542">
+                  <lb ed="#L" n="59"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="60"/>circumstantia dat speciem boni vel mali actui
+<lb ed="#L" n="61"/>morali, inquantum réspicit specialem "ordinem
+<lb ed="#L" n="62"/>rationis, Contingit autem. quandoque quod 
+cir<lb break="no" ed="#L" n="63"/>cumstantia non respicit ordinem rationis in bono
+<lb ed="#L" n="64"/>vel malo, nisi praesupposita -alia.?- circumstantia,
+<lb ed="#L" n="65"/>a qua actus moralis habet speciem boni vel mali.
+<lb ed="#L" n="66"/>Sicut tollere aliquid in magna quantitate vel parva,
+<lb ed="#L" n="67"/>non respicit ordinem rationis in bono vel malo,
+<lb ed="#L" n="68"/>nisi praesupposita aliqua alia conditione, per quam
+<lb ed="#L" n="69"/>actus habeat malitiam vel bonitatem: puta hoc
+<lb ed="#L" n="70"/>quod est esse alienum, quod. repugnat rationi.
+<lb ed="#L" n="71"/>Unde tollere alienum in magna vel parva 
+quan<lb break="no" ed="#L" n="72"/>titate, non diversificat speciem peccati. Tamen 
+po<lb break="no" ed="#L" n="73"/>test aggravare vel diminuere peccatum. Et 
+simi<lb break="no" ed="#L" n="74"/>liter est in aliis malis vel bonis. Unde non omnis
+<lb ed="#L" n="75"/>circumstantia addens in bonitate vel malitia, 
+va<lb break="no" ed="#L" n="76"/>riat speciem moralis actus.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2586">
+                  <lb ed="#L" n="77"/>AD PRIMUM ERGO DICENDUM quod in his quae
+<lb ed="#L" n="78"/>intenduntur et remittuntur, differentia intensionis
+<lb ed="#L" n="79"/>et remissionis non diversificat speciem: sicut
+<lb ed="#L" n="80"/>quod differt in albedine secundum magis et 
+mi<lb break="no" ed="#L" n="81"/>nus, non differt secundum speciem coloris. Et
+<lb ed="#L" n="82"/>similiter quod facit diversitatem in bono vel malo
+<lb ed="#L" n="83"/>secundum intensionem et remissionem, non facit
+<lb ed="#L" n="84"/>differentiam moralis actus secundum speciem.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2606">
+                  <lb ed="#L" n="85"/>AD SECUNDUM DICENDUM quod circumstantia 
+ag<lb break="no" ed="#L" n="86"/>gravans peccatum, vel augems bonitatem actus,
+<lb ed="#L" n="87"/>quandoque .non habet bonitatem vel malitiam
+<lb ed="#L" n="88"/>secundum se, sed per ordinem ad aliam 
+condi<lb break="no" ed="#L" n="89"/>tionem actus, ut dictum est. Et ideo non dat
+<lb ed="#L" n="90"/>novam speciem, sed auget bonitatem vel 
+mali<lb break="no" ed="#L" n="91"/>tiam quae est ex alia conditione actus.
+</p>
+               <p xml:id="TAca84-d1e765-d1e2624">
+                  <lb ed="#L" n="92"/>AD TERTIUM DICENDUM quod non quaelibet 
+cir<lb break="no" ed="#L" n="93"/>cumstantia inducit singularem defectum secundum
+<lb ed="#L" n="94"/>seipsam, sed solum secundum ordinem ad aliquid
+<lb ed="#L" n="95"/>aliud. Et similiter non semper addit " novam
+<lb ed="#L" n="96"/>perfectionem, nisi per comparationem ad aliquid
+<lb ed="#L" n="97"/>aliud. Et pro tanto, licet augeat bonitatem vel
+<lb ed="#L" n="98"/>malitiam, non ? semper variat speciem boni vel
+<lb ed="#L" n="99"/>mali.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

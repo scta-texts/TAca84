@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 49</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 49</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="309"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e925"><!-- p2p1-q49 -->
+            <head xml:id="TAca84-d1e925-Hd1e99">Quaestio 49</head>
+            <head xml:id="TAca84-d1e925-Hd1e101" type="question-title">de habitibus in generali, quoad eorum substantiam</head>
+            <p xml:id="TAca84-d1e925-d1e104">
+               <pb ed="#L" n="309"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO QUADRAGESIMANONA
+<lb ed="#L" n="2"/>DE HABITIBUS IN GENERALI, QUOAD EORUM SUBSTANTIAM
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e925-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>POST actus et passiones, considerandum est de
+<lb ed="#L" n="5"/>principiis humanorum actuum. Et primo, de
+<lb ed="#L" n="6"/>principiis intrinsecis; secundo, de principiis 
+extrin<lb break="no" ed="#L" n="7"/>secis , Principium autem intrinsecum est potentia
+<lb ed="#L" n="8"/>et habitus; sed quia de potentiis in Prima Parte
+<lb ed="#L" n="9"/>dictum est, nunc restat de habitibus 
+consideran<lb break="no" ed="#L" n="10"/>dum. Et primo quidem, in generali; secundo vero,
+<lb ed="#L" n="11"/>de virtutibus et vitiis, et aliis huiusmodi habitibus,
+<lb ed="#L" n="12"/>qui sunt humanorum actuum principia.
+</p>
+            <p xml:id="TAca84-d1e925-d1e141">
+               <lb ed="#L" n="13"/>Circa ipsos autem habitus in generali, quatuor
+<lb ed="#L" n="14"/>consideranda sunt: primo quidem, de ipsa 
+sub<cb ed="#L" n="c"/>
+               <lb break="no" ed="#L" n="15"/>stantia habituum: secundo, de subiecto eorum;
+<lb ed="#L" n="16"/>tertio, de causa generationis, augmenti et 
+corru<lb break="no" ed="#L" n="17"/>ptionis ipsorum; quarto, de distinctione 
+ipso<lb break="no" ed="#L" n="18"/>rum.
+<lb ed="#L" n="19"/>Circa primum quaeruntur quatuor.
+<lb ed="#L" n="20"/>Primo: utrum habitus sit qualitas.
+<lb ed="#L" n="21"/>Secundo: utrum sit determinata species 
+qua<lb break="no" ed="#L" n="22"/>litatis.
+<lb ed="#L" n="23"/>Tertio: utrum habitus importet ordinem ad
+<lb ed="#L" n="24"/>actum.
+<lb ed="#L" n="25"/>Quarto: de necessitate habitus.
+</p>
+            <div xml:id="TAca84-d1e925-Dd1e175"><!-- p2p1-q49-a1 -->
+               <head xml:id="TAca84-d1e925-Hd1e178">Articulus 1</head>
+               <head xml:id="TAca84-d1e925-Hd1e180" type="question-title">utrum habitus sit qualitas</head>
+               <p xml:id="TAca84-d1e925-d1e183">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="26"/>ARTICULUS PRIMUS
+<lb ed="#L" n="27"/>UTRUM HABITUS SIT QUALITAS
+</p>
+               <p xml:id="TAca84-d1e925-d1e192">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="28"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="29"/>habitus non sit qualitas. Dicitenim 
+Augu<lb break="no" ed="#L" n="30"/>stinus, in libro Octoginta trium Quaest.,
+<lb ed="#L" n="31"/>quod Aoc nomen habitus dictum est ab
+<lb ed="#L" n="32"/>hoc verbo quod est habere. Sed habere non 
+so<lb break="no" ed="#L" n="33"/>lum pertinet ad qualitatem, sed ad alia genera:
+<lb ed="#L" n="34"/>dicimur enim habere etiam ? quantitatem, et 
+pe<lb break="no" ed="#L" n="35"/>cuniam, et alia huiusmodi. Ergo habitus non est
+<lb ed="#L" n="36"/>qualitas.
+</p>
+               <p xml:id="TAca84-d1e925-d1e216">
+                  <lb ed="#L" n="37"/>2. PRAETEREA, Habitus ponitur unum 
+praedi<lb break="no" ed="#L" n="38"/>camentum; ut patet in libro Praedicamentorum.
+<lb ed="#L" n="39"/>Sed unum praedicamentum non continetur sub
+<lb ed="#L" n="40"/>alio. Ergo habitus non est qualitas.
+</p>
+               <p xml:id="TAca84-d1e925-d1e228">
+                  <lb ed="#L" n="41"/>3. PRAETEREA, omnis habitus est dispositio, ut
+<lb ed="#L" n="42"/>dicitur in Praedicamentis. Sed dispositio est ordo
+<lb ed="#L" n="43"/>habentis partes, ut dicitur in V Metaphys. Hoc
+<lb ed="#L" n="44"/>autem pertinet ad praedicamentum Situs. Ergo
+<lb ed="#L" n="45"/>habitus non est qualitas.
+</p>
+               <p xml:id="TAca84-d1e925-d1e241">
+                  <lb ed="#L" n="46"/>SED CONTRA EsT quod Philosophus dicit, in 
+Prae<lb break="no" ed="#L" n="47"/>dicamentis, quod habitus est qualitas de di ifficili
+<lb ed="#L" n="48"/>mobilis.
+</p>
+               <p xml:id="TAca84-d1e925-d1e250">
+                  <lb ed="#L" n="49"/>RrzsPoNpEO DICENDUM quod hoc nomen abitus
+<lb ed="#L" n="50"/>ab habendo est sumptum. A quo quidem nomen
+<lb ed="#L" n="51"/>habitus dupliciter derivatur: uno quidem modo,
+<lb ed="#L" n="52"/>secundum quod homo, vel quaecumque alia res,
+<lb ed="#L" n="53"/>dicitur aliquid habere; alio modo, secundum quod
+<lb ed="#L" n="54"/>aliqua res aliquo modo se habet in seipsa vel ad
+<lb ed="#L" n="55"/>aliquid aliud.
+</p>
+               <p xml:id="TAca84-d1e925-d1e268">
+                  <lb ed="#L" n="56"/>Circa primum autem, considerandum est quod
+<lb ed="#L" n="57"/>habere, secundum quod dicitur respectu 
+cuius<lb break="no" ed="#L" n="58"/>cumque quod habetur, commune est ad diversa
+<lb ed="#L" n="59"/>genera. Unde Philosophus inter 
+postpraedica<lb break="no" ed="#L" n="60"/>menta habere ponit, quae scilicet diversa rerum
+<lb ed="#L" n="61"/>genera consequuntur; sicut sunt opposita, et prius
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="62"/>et posterius, et alia huiusmodi. - Sed inter ea quae
+<lb ed="#L" n="63"/>habentur, talis videtur esse distinctio, quod 
+quae<lb break="no" ed="#L" n="64"/>dam sunt in quibus nihil est medium inter 
+ha<lb break="no" ed="#L" n="65"/>bens et id quod habetur: sicut inter subiectum
+<lb ed="#L" n="66"/>et qualitatem vel quantitatem nihil est medium.
+<lb ed="#L" n="67"/>Quaedam vero ' sunt in quibus est aliquid 
+me<lb break="no" ed="#L" n="68"/>dium inter utrumque, sed sola relatio: sicut 
+di<lb break="no" ed="#L" n="69"/>citur aliquis habere socium vel amicum. 
+Quae<lb break="no" ed="#L" n="70"/>dam vero sunt inter quae est aliquid medium,
+<lb ed="#L" n="71"/>non quidem actio vel passio, sed aliquid per 
+mo<lb break="no" ed="#L" n="72"/>dum actionis vel passionis, prout scilicet unum
+<lb ed="#L" n="73"/>est ornans vel tegens, et aliud ornatum aut 
+te<lb break="no" ed="#L" n="74"/>ctum ?: unde Philosophus dicit, in V Metaphys.,
+<lb ed="#L" n="75"/>quod Aabitus dicitur tanquam actio quaedam 
+ha<lb break="no" ed="#L" n="76"/>bentis et habiti, sicut est in iliis quae circa nos
+<lb ed="#L" n="77"/>habemus. Et ideo in his constituitur unum 
+spe<lb break="no" ed="#L" n="78"/>ciale genus rerum, quod dicitur praedicamentum
+<lb ed="#L" n="79"/>Habitus: de quo dicit Philosophus, in V Metaphys.,
+<lb ed="#L" n="80"/>quod infer habentem indumentum, et 
+indumen<lb break="no" ed="#L" n="81"/>tum quod habetur, est habilus medius.
+</p>
+               <p xml:id="TAca84-d1e925-d1e329">
+                  <lb ed="#L" n="82"/>Si autem sumatur habere prout res aliqua di- :
+<lb ed="#L" n="83"/>citur quodam modo se habere in seipsa vel ad
+<lb ed="#L" n="84"/>aliud; cum iste modus se habendi sit secundum
+<lb ed="#L" n="85"/>aliquam qualitatem, hoc modo habitus quaedam
+<lb ed="#L" n="86"/>qualitas est: de quo ^ Philosophus, in V 
+Meta<lb break="no" ed="#L" n="87"/>phys., dicit quod habitus 'dicitur dispositio 
+se<lb break="no" ed="#L" n="88"/>cundum quam bene vel male disponitur 
+disposi<lb break="no" ed="#L" n="89"/>tum, et aut secundum se aut ad. aliud, ut sanitas
+<lb ed="#L" n="90"/>habitus, quidam est. Et sic loquimur nunc de
+<lb ed="#L" n="91"/>habitu. Unde dicendum est quod habitus est 
+qua<lb break="no" ed="#L" n="92"/>litas.
+</p>
+               <p xml:id="TAca84-d1e925-d1e355">
+                  <lb ed="#L" n="93"/>AD PRIMUM ERGO DICENDUM quod obiectio illa 
+pro<lb break="no" ed="#L" n="94"/>cedit de habere communiter sumpto: sic enim est
+<lb ed="#L" n="95"/>commune ad multa genera, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e925-d1e365">
+                  <pb ed="#L" n="310"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD SECUNDUM DICENDUM quod ratio illa procedit
+<lb ed="#L" n="2"/>de habitu secundum quod intelligitur aliquid 
+me<lb break="no" ed="#L" n="3"/>dium inter habens et id quod habetur: sic enim
+<lb ed="#L" n="4"/>est quoddam praedicamentum, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e925-d1e381">
+                  <lb ed="#L" n="5"/>AD TERTIUM DICENDUM quod dispositio quidem
+<lb ed="#L" n="6"/>semper importat ordinem alicuius habentis 
+par<lb break="no" ed="#L" n="7"/>tes: sed hoc contingit tripliciter, ut statim ibidem
+<lb ed="#L" n="8"/>Philosophus subdit, scilicet au? secundum locum,
+<lb ed="#L" n="9"/>aut secundum polentiam, aut secundum speciem.
+<lb ed="#L" n="10"/>In quo, ut Simplicius dicit in Commento. Praedi-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="11"/>camentorum, comprehendit omnes dispositiones.
+<lb ed="#L" n="12"/>Corporales quidem, in eo quod dicit « secundum
+<lb ed="#L" n="13"/>locum »: et hoc pertinet ad praedicamentum Situs,
+<lb ed="#L" n="14"/>qui est ordo partium in loco. Quod autem. dicit
+<lb ed="#L" n="15"/>«secundum potentiam », includit illas dispositiones
+<lb ed="#L" n="16"/>quae sunt in praeparatione et idoneitate nondum
+<lb ed="#L" n="17"/>perfecte, sicut scientia et virtus inchoata. Quod
+<lb ed="#L" n="18"/>autem dicit « secundum speciem », includit perfectas
+<lb ed="#L" n="19"/>dispositiones, quae dicuntur habitus, sicut scientia
+<lb ed="#L" n="20"/>et virtus complete '.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e925-Dd1e421"><!-- p2p1-q49-a2 -->
+               <head xml:id="TAca84-d1e925-Hd1e424">Articulus 2</head>
+               <head xml:id="TAca84-d1e925-Hd1e426" type="question-title">utrum habitus sit determinata species qualitatis</head>
+               <p xml:id="TAca84-d1e925-d1e429">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="54"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="55"/>UTRUM HABITUS SIT DETERMINATA SPECIES QUALITATIS
+</p>
+               <p xml:id="TAca84-d1e925-d1e438">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="56"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="57"/>habitus non sit determinata seque 
+qua<lb break="no" ed="#L" n="58"/>litatis: Quia, ut dictum est, habitus,
+<lb ed="#L" n="59"/>secundum quod est qualitas, dicitur 
+dis<lb break="no" ed="#L" n="60"/>positio secundum quam bene aut male disponitur
+<lb ed="#L" n="61"/>dispositum. Sed hoc contingit secundum 
+quam<lb break="no" ed="#L" n="62"/>libet qualitatem: nam et secundum figuram 
+con<lb break="no" ed="#L" n="63"/>tingit aliquid bene vel male esse dispositum, et
+<lb ed="#L" n="64"/>similiter secundum calorem et frigus, et secundum
+<lb ed="#L" n="65"/>omnia huiusmodi. Ergo habitus non est 
+determi<lb break="no" ed="#L" n="66"/>nata species qualitatis.
+</p>
+               <p xml:id="TAca84-d1e925-d1e467">
+                  <lb ed="#L" n="67"/>2. PRAETEREA, Philosophus, in Praedicamentis,
+<lb ed="#L" n="68"/>caliditatem et frigiditatem dicit esse dispositiones
+<lb ed="#L" n="69"/>vel habitus, sicut aegritudinem et sanitatem. Sed
+<lb ed="#L" n="70"/>calor et frigus sunt in tertia specie qualitatis. Ergo
+<lb ed="#L" n="71"/>habitus vel dispositio non distinguuntur ab aliis
+<lb ed="#L" n="72"/>speciebus qualitatis.
+</p>
+               <p xml:id="TAca84-d1e925-d1e484">
+                  <lb ed="#L" n="73"/>3. PRAETEREA, difficile mobile non est differentia
+<lb ed="#L" n="74"/>pertinens ad genus qualitatis, sed magis pertinet
+<lb ed="#L" n="75"/>ad motum vel passionem. Nullum autem genus
+<lb ed="#L" n="76"/>determinatur ad speciem per differentiam alterius
+<lb ed="#L" n="77"/>generis; sed oportet differentias per se advenire 
+ge<lb break="no" ed="#L" n="78"/>neri, ut Philosophus dicit, in VII Metaphys. Ergo,
+<lb ed="#L" n="79"/>cum habitus dicatur esse qualitas difficile mobilis,
+<lb ed="#L" n="80"/>videtur quod non sit determinata species qualitatis.
+</p>
+               <p xml:id="TAca84-d1e925-d1e504">
+                  <lb ed="#L" n="81"/>SED CONTRA EST quod Philosophus dicit, in 
+Prae<lb break="no" ed="#L" n="82"/>dicamentis, quod una species qualitatis est habitus
+<lb ed="#L" n="83"/>et. dispositio.
+</p>
+               <p xml:id="TAca84-d1e925-d1e513">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="84"/>RESPONDEO DICENDUM quod Philosophus, in 
+Prae<lb break="no" ed="#L" n="85"/>dicamentis, ponit inter quatuor species qualitatis
+<lb ed="#L" n="86"/>primam, dispositionem et habitum. Quarum 
+qui<lb break="no" ed="#L" n="87"/>dem specierum differentias sic assignat Simplicius,
+<lb ed="#L" n="88"/>in Commento Praedicamentorum dicens quod
+<lb ed="#L" n="89"/>qualitatum quaedam sunt naturales, quae 
+secun<lb break="no" ed="#L" n="90"/>dum naturam insunt, et semper: quaedam autem
+<lb ed="#L" n="91"/>sunt adventitiae, quae ab extrinseco efficiuntur, et
+<lb ed="#L" n="92"/>possunt amitti. Et hae quidem, quae sunt 
+adven<lb break="no" ed="#L" n="93"/>titiae, sunt habitus et dispositiones, secundum facile
+<lb ed="#L" n="94"/>et difficile amissibile differentes. Naturalium 
+au<lb break="no" ed="#L" n="95"/>tem. qualitatum quaedam sunt secundum id 9 quod
+<lb ed="#L" n="96"/>aliquid est in potentia: et sic est secunda. species
+<lb ed="#L" n="97"/>qualitatis. Quaedam vero secundum quod aliquid
+<lb ed="#L" n="98"/>est in actu: et hoc vel in profundum, vel 
+secun<lb break="no" ed="#L" n="99"/>dum superficiem. Si in profundum quidem, sic est
+<lb ed="#L" n="100"/>tertia species qualitatis: secundum vero superficiem,
+<lb ed="#L" n="101"/>est quarta species qualitatis, sicut figura et forma,
+<lb ed="#L" n="102"/>quae est figura animati. — Sed ista distinctio 
+spe<lb break="no" ed="#L" n="103"/>cierum qualitatis inconveniens videtur. Sunt enim
+<lb ed="#L" n="104"/>multae figurae et qualitates passibiles non 
+natu<lb break="no" ed="#L" n="105"/>rales, sed adventitiae: et multae dispositiones non
+<lb ed="#L" n="106"/>adventitiae, sed naturales, sicut sanitas et 
+pulchri<lb break="no" ed="#L" n="107"/>tudo et huiusmodi. Et praeterea hoc non convenit
+<lb ed="#L" n="108"/>ordini specierum: semper enim quod naturalius
+<lb ed="#L" n="109"/>est, prius est.
+</p>
+               <p xml:id="TAca84-d1e925-d1e574">
+                  <lb ed="#L" n="110"/>Et ideo aliter accipienda est distinctio 
+dispo<lb break="no" ed="#L" n="111"/>sitionum et habituum ab aliis qualitatibus. Pro-
+<pb ed="#L" n="311"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>prie enim qualitas importat quendam modum
+<lb ed="#L" n="2"/>substantiae. Modus autem est, ut dicit 
+Augusti<lb break="no" ed="#L" n="3"/>nus, super Gen. ad litteram, <quote xml:id="TAca84-d1e925-Qd1e591">quem mensura 
+prae<lb break="no" ed="#L" n="4"/>figit</quote>: unde importat quandam determinationem
+<lb ed="#L" n="5"/>secundum aliquam mensuram. Et ideo sicut id
+<lb ed="#L" n="6"/>secundum quod determinatur potentia materiae
+<lb ed="#L" n="7"/>secundum esse substantiale, dicitur qualitas quae
+<lb ed="#L" n="8"/>est ? differentia substantiae; ita id secundum quod
+<lb ed="#L" n="9"/>determinatur potentia subiecti secundum esse 
+ac<lb break="no" ed="#L" n="10"/>cidentale, dicitur qualitas accidentalis, quae est
+<lb ed="#L" n="11"/>etiam -quaedam differentia, ut patet per 
+Philoso<lb break="no" ed="#L" n="12"/>phum in V Metaphys.
+</p>
+               <p xml:id="TAca84-d1e925-d1e614">
+                  <lb ed="#L" n="13"/>Modus autem sive determinatio subiecti 
+se<lb break="no" ed="#L" n="14"/>cundum esse accidentale, potest accipi vel in 
+or<lb break="no" ed="#L" n="15"/>dine ad ipsam naturam subiecti; vel secundum
+<lb ed="#L" n="16"/>actionem et passionem quae consequuntur 
+prin<lb break="no" ed="#L" n="17"/>cipia naturae, quae sunt materia et forma; vel
+<lb ed="#L" n="18"/>secundum quantitatem. Si autem accipiatur 
+mo<lb break="no" ed="#L" n="19"/>dus vel determinatio subiecti secundum 
+quanti<lb break="no" ed="#L" n="20"/>tatem, sic est quarta species qualitatis. Et quia
+<lb ed="#L" n="21"/>quantitas, secundum sui rationem, est sine motu,
+<lb ed="#L" n="22"/>et sine ratione boni et mali; ideo ad quartam
+<lb ed="#L" n="23"/>speciem qualitatis non pertinet quod aliquid sit
+<lb ed="#L" n="24"/>bene vel male, cito vel tarde transiens. - Modus
+<lb ed="#L" n="25"/>autem sive determinatio subiecti secundum 
+actio<lb break="no" ed="#L" n="26"/>nem et passionem, attenditur in secunda et tertia
+<lb ed="#L" n="27"/>specie qualitatis. Et ideo in utraque consideratur
+<lb ed="#L" n="28"/>quod aliquid facile vel difficile fiat, vel quod sit ^
+<lb ed="#L" n="29"/>cito transiens aut diuturnum. Non autem 
+consi<lb break="no" ed="#L" n="30"/>deratur in his aliquid pertinens ad rationem boni
+<lb ed="#L" n="31"/>vel mali: quia motus et passiones non habent
+<lb ed="#L" n="32"/>rationem finis, bonum autem et malum dicitur
+<lb ed="#L" n="33"/>per respectum ad finem. - Sed modus et 
+deter<lb break="no" ed="#L" n="34"/>minatio subiecti in ordine ad naturam rei, 
+per<lb break="no" ed="#L" n="35"/>tinet ad primam speciem qualitatis, quae est 
+ha<lb break="no" ed="#L" n="36"/>bitus et dispositio: dicit enim Philosophus, in VII
+<lb ed="#L" n="37"/>Physic., loquens de habitibus animae et corporis,
+<lb ed="#L" n="38"/>quod sunt dispositiones quaedam perfecti ad 
+opti<lb break="no" ed="#L" n="39"/>mum; dico autem perfecti, quod est dispositum
+<lb ed="#L" n="40"/>secundum naturam. Et quia ipsa forma et natura
+<lb ed="#L" n="41"/>rei est finis el cuius causa fit aliquid, ut dicitur
+<lb ed="#L" n="42"/>in II Physic.; ideo in prima specie ' consideratur
+<lb ed="#L" n="43"/>et bonum et malum ; et etiam facile et difficile
+<lb ed="#L" n="44"/>mobile, secundum quod aliqua natura est finis
+<lb ed="#L" n="45"/>generationis et motus. Unde in V Metaphys.
+<lb ed="#L" n="46"/>Philosophus definit habitum, quod est dispositio
+<lb ed="#L" n="47"/>secundum quam. aliquis. disponitur bene vel male.
+<lb ed="#L" n="48"/>Et in II Ethic. dicit quod habitus sunt secundum
+<lb ed="#L" n="49"/>quos ad passiones nos habemus bene vel male.
+<lb ed="#L" n="50"/>Quando enim est modus conveniens naturae rei,
+<lb ed="#L" n="51"/>tunc habet rationem boni: quando autem non
+<lb ed="#L" n="52"/>convenit, tunc habet rationem mali. Et quia 
+na<lb break="no" ed="#L" n="53"/>tura est id quod primum consideratur in re, ideo
+<lb ed="#L" n="54"/>habitus ponitur prima species qualitatis.
+</p>
+               <p xml:id="TAca84-d1e925-d1e708">
+                  <lb ed="#L" n="55"/>AD PRIMUM ERGO DICENDUM quod dispositio 
+or<lb break="no" ed="#L" n="56"/>dinem quendam importat, ut dictum est. Unde
+<lb ed="#L" n="57"/>non dicitur aliquis disponi per qualitatem, nisi
+<lb ed="#L" n="58"/>in ordine ad aliquid. Et si addatur bene vel male,
+<lb ed="#L" n="59"/>quod pertinet ad rationem habitus, oportet quod
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="60"/>attendatur ordo ad naturam, quae est finis. Unde
+<lb ed="#L" n="61"/>secundum figuram, vel secundum calorem vel 
+fri<lb break="no" ed="#L" n="62"/>gus, non dicitur aliquis disponi bene vel male,
+<lb ed="#L" n="63"/>nisi secundum ordinem ad naturam rei, 
+secun<lb break="no" ed="#L" n="64"/>dum quod est conveniens vel non conveniens.
+<lb ed="#L" n="65"/>Unde et ipsae figurae et passibiles qualitates, 
+se<lb break="no" ed="#L" n="66"/>cundum quod considerantur ut convenientes vel
+<lb ed="#L" n="67"/>non convenientes naturae rei, pertinent ad 
+ha<lb break="no" ed="#L" n="68"/>bitus vel dispositiones: nam figura, prout 
+conve<lb break="no" ed="#L" n="69"/>nit naturae rei, et color, pertinent ad 
+pulchritudi<lb break="no" ed="#L" n="70"/>nem; calor autem et frigus, secundum quod 
+con<lb break="no" ed="#L" n="71"/>veniunt naturae rei, pertinent ad sanitatem. Et
+<lb ed="#L" n="72"/>hoc modo caliditas et frigiditas ponuntur a 
+Phi<lb break="no" ed="#L" n="73"/>losopho in prima specie qualitatis.
+</p>
+               <p xml:id="TAca84-d1e925-d1e755">
+                  <lb ed="#L" n="74"/>Unde patet solutio ad secundum. Licet a 
+qui<lb break="no" ed="#L" n="75"/>busdam aliter solvatur, ut Simplicius dicit, in 
+Corn<lb break="no" ed="#L" n="76"/>mento Praedicamentorum.
+</p>
+               <p xml:id="TAca84-d1e925-d1e764">
+                  <lb ed="#L" n="77"/>AD TERTIUM DICENDUM quod ista differentia, 
+dif<lb break="no" ed="#L" n="78"/>ficile mobile, non diversificat habitum ab. aliis
+<lb ed="#L" n="79"/>speciebus qualitatis, sed a dispositione. Dispositio
+<lb ed="#L" n="80"/>autem dupliciter accipitur: uno modo, secundum
+<lb ed="#L" n="81"/>quod est genus habitus, nam. in V Metaphys.
+<lb ed="#L" n="82"/>dispositio ponitur in definitione habitus; alio 
+mo<lb break="no" ed="#L" n="83"/>do, secundum quod est aliquid contra habitum
+<lb ed="#L" n="84"/>divisum. Et potest intelligi dispositio proprie 
+di<lb break="no" ed="#L" n="85"/>cta condividi contra habitum, dupliciter. Uno 
+mo<lb break="no" ed="#L" n="86"/>do, sicut perfectum et imperfectum in eadem 
+spe<lb break="no" ed="#L" n="87"/>cie: ut scilicet dispositio dicatur, retinens nomen
+<lb ed="#L" n="88"/>commune, quando imperfecte inest, ita quod de
+<lb ed="#L" n="89"/>facile amittitur; habitus autem, quando perfecte
+<lb ed="#L" n="90"/>inest, ut non de facili amittatur. Et sic 
+dispo<lb break="no" ed="#L" n="91"/>sitio fit habitus, sicut puer fit vir. - Alio modo
+<lb ed="#L" n="92"/>possunt distingui sicut diversae species unius 
+ge<lb break="no" ed="#L" n="93"/>neris subalterni: ut dicantur dispositiones illae
+<lb ed="#L" n="94"/>qualitates primae speciei, quibus convenit 
+secun<lb break="no" ed="#L" n="95"/>dum propriam rationem ut de facili amittantur,
+<lb ed="#L" n="96"/>quia habent causas transmutabiles, ut aegritudo
+<lb ed="#L" n="97"/>et sanitas; habitus vero dicuntur illae qualitates
+<lb ed="#L" n="98"/>quae secundum suam rationem habent quod non
+<lb ed="#L" n="99"/>de facili transmutentur, quia habent causas 
+immo<lb break="no" ed="#L" n="100"/>biles, sicut scientiae et virtutes. Et secundum hoc
+<lb ed="#L" n="101"/>dispositio non fit habitus. Et hoc videtur magis
+<lb ed="#L" n="102"/>consonum intentioni Aristotélis. Unde ad huius
+<lb ed="#L" n="103"/>distinctionis probationem inducit communem 
+lo<lb break="no" ed="#L" n="104"/>quendi consuetudinem, secundum quam qualitates
+<lb ed="#L" n="105"/>quae secundum rationem suam sunt facile mobiles,
+<lb ed="#L" n="106"/>si ex aliquo accidenti difficile mobiles reddantur,
+<lb ed="#L" n="107"/>habitus dicuntur: et e converso est de qualitatibus
+<lb ed="#L" n="108"/>quáe secundum suam rationem sunt difficile 
+mo<lb break="no" ed="#L" n="109"/>biles; nam si aliquis imperfecte habeat scientiam,
+<lb ed="#L" n="110"/>ut de facili possit ipsam amittere, magis dicitur
+<lb ed="#L" n="111"/>disponi ad scientiam quam scientiam habere.
+<lb ed="#L" n="112"/>Ex quo patet quod nomen habitus diuturnitatem
+<lb ed="#L" n="113"/>quandam importat; non autem nomen 
+disposi<lb break="no" ed="#L" n="114"/>tionis.
+</p>
+               <p xml:id="TAca84-d1e925-d1e849">
+                  <lb ed="#L" n="115"/>Nec impeditur quin secundum hoc facile et 
+dif<lb break="no" ed="#L" n="116"/>ficile mobile sint specificae differentiae, propter
+<lb ed="#L" n="117"/>hoc quod ista pertinent ad passionem et motum,
+<lb ed="#L" n="118"/>et non ad genus qualitatis. Nam istae differen-
+<pb ed="#L" n="312"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tiae, quamvis per accidens.videantur se habere | 
+<lb ed="#L" n="2"/>ad qualitatem, designant tamen proprias et per se
+<lb ed="#L" n="3"/>differentias qualitatum. Sicut etiam in genere 
+sub<lb break="no" ed="#L" n="4"/>
+                  <lb ed="#L" n="5"/>stantiae frequenter accipiuntur differentiae 
+acci<lb break="no" ed="#L" n="6"/>dentales loco substantialium, inquantum per eas
+<lb ed="#L" n="7"/>designantur principia essentialia.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e925-Dd1e881"><!-- p2p1-q49-a3 -->
+               <head xml:id="TAca84-d1e925-Hd1e884">Articulus 3</head>
+               <head xml:id="TAca84-d1e925-Hd1e886" type="question-title">utrum habitus importet ordinem ad actum</head>
+               <p xml:id="TAca84-d1e925-d1e889">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="27"/>ARTICULUS TERTIUS
+<lb ed="#L" n="28"/>UTRUM HABITUS IMPORTET ORDINEM AD ACTUM
+</p>
+               <p xml:id="TAca84-d1e925-d1e898">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="29"/>AD TERTIUM SIC. PROCEDITUR. Videtur quod
+<lb ed="#L" n="30"/>habitus non importet ordinem ad actum.
+<lb ed="#L" n="31"/>Unumquodque enim agit secundum
+<lb ed="#L" n="32"/>quod est actu. Sed Philosophus dicit,
+<lb ed="#L" n="33"/>in III de Anima, quod <quote xml:id="TAca84-d1e925-Qd1e913">cum aliquis fit sciens
+<lb ed="#L" n="34"/>secundum habitum , est etiam tunc in potentia,
+<lb ed="#L" n="35"/>aliter tamen quam ante addiscere</quote>. Ergo 
+habi<lb break="no" ed="#L" n="36"/>tus non importat habitudinem principii ad actum.
+</p>
+               <p xml:id="TAca84-d1e925-d1e923">
+                  <lb ed="#L" n="37"/>2. PRAETEREA, illud quod ponitur in definitione
+<lb ed="#L" n="38"/>alicuius, per se convenit illi. Sed esse principium
+<lb ed="#L" n="39"/>actionis ponitur in definitione potentiae; ut patet
+<lb ed="#L" n="40"/>in V Metaphys. Ergo esse principium actus per
+<lb ed="#L" n="41"/>se convenit potentiae. Quod autem est per se,
+<lb ed="#L" n="42"/>est primum in unoquoque genere. Si ergo etiam
+<lb ed="#L" n="43"/>habitus sit principium actus, sequitur quod sit
+<lb ed="#L" n="44"/>posterior quam potentia. Et sic non erit prima
+<lb ed="#L" n="45"/>species qualitatis habitus vel dispositio.
+</p>
+               <p xml:id="TAca84-d1e925-d1e946">
+                  <lb ed="#L" n="46"/>3. PRAETEREA, sanitas quandoque est habitus,
+<lb ed="#L" n="47"/>et similiter macies et pulchritudo. Sed ista non
+<lb ed="#L" n="48"/>dicuntur per ordinem ad actum. Non ergo est
+<lb ed="#L" n="49"/>de. ratione habitus quod sit principium actus.
+</p>
+               <p xml:id="TAca84-d1e925-d1e957">
+                  <lb ed="#L" n="50"/>SED CONTRA EST quod Augustinus dicit, in libro
+<lb ed="#L" n="51"/>de Bono Coniugali, quod habitus est quo. 
+ali<lb break="no" ed="#L" n="52"/>quid agitur cum opus est. Et Commentator dicit,
+<lb ed="#L" n="53"/>in IIl. de Anima, quod habitus est quo quis
+<lb ed="#L" n="54"/>agit cum. voluerit.
+</p>
+               <p xml:id="TAca84-d1e925-d1e970">
+                  <lb ed="#L" n="55"/>REsPONDEO DICENDUM quod habere ordinem ad
+<lb ed="#L" n="56"/>actum potest competere habitui et secundum 
+ra<lb break="no" ed="#L" n="57"/>tionem habitus; et secundum rationem subiecti
+<lb ed="#L" n="58"/>in quo est habitus. Secundum quidem rationem
+<lb ed="#L" n="59"/>habitus, convenit omni habitui aliquo modo 
+ha<lb break="no" ed="#L" n="60"/>bere ordinem ad actum. Est enim de ratione
+<lb ed="#L" n="61"/>habitus ut importet habitudinem quandam in 
+or<lb break="no" ed="#L" n="62"/>dine ad naturam rei, secundum quod convenit
+<lb ed="#L" n="63"/>vel non convenit. Sed Y natura rei, quae est finis
+<lb ed="#L" n="64"/>generationis, ulterius etiam ordinatur ad alium
+<lb ed="#L" n="65"/>finem, qui vel est operatio, vel aliquod operatum,
+<lb ed="#L" n="66"/>ad quod quis pervenit per operationem. Unde
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="67"/>habitus non solum importat ordinem ad ipsam
+<lb ed="#L" n="68"/>naturam rei, sed etiam consequenter ad 
+opera<lb break="no" ed="#L" n="69"/>tionem, inquantum est finis naturae, vel 
+perdu<lb break="no" ed="#L" n="70"/>cens ad finem. Unde et in V Metaphys. dicitur
+<lb ed="#L" n="71"/>in definitione habitus, quod est dispositio 
+secun<lb break="no" ed="#L" n="72"/>dum quam bene vel male disponitur 'dispositum
+<lb ed="#L" n="73"/>aut secundum se, idest secundum suam naturam,
+<lb ed="#L" n="74"/>aut ad aliud, idest in ordine ad finem.
+</p>
+               <p xml:id="TAca84-d1e925-d1e1018">
+                  <lb ed="#L" n="75"/>Sed sunt quidam habitus qui etiam ex parte
+<lb ed="#L" n="76"/>subiecti in quo sunt, primo et principaliter 
+im<lb break="no" ed="#L" n="77"/>portant ordinem ad actum. Quia, ut dictum est ,
+<lb ed="#L" n="78"/>habitus primo et per se importat habitudinem
+<lb ed="#L" n="79"/>ad naturam rei. Si igitur natura rei in qua est
+<lb ed="#L" n="80"/>habitus, consistat in ipso ordine ad actum, 
+sequi<lb break="no" ed="#L" n="81"/>tur quod habitus principaliter importet ordinem
+<lb ed="#L" n="82"/>ad actum. Manifestum est autem quod natura
+<lb ed="#L" n="83"/>et ratio potentiae est ut sit principium actus.
+<lb ed="#L" n="84"/>Unde omnis habitus qui est alicuius potentiae ut
+<lb ed="#L" n="85"/>subiecti, principaliter importat ordinem ad actum.
+</p>
+               <p xml:id="TAca84-d1e925-d1e1044">
+                  <lb ed="#L" n="86"/>AD PRIMUM ERGO DICENDUM quod habitus est
+<lb ed="#L" n="87"/>actus quidam, inquantum est qualitas: et 
+secun<lb break="no" ed="#L" n="88"/>dum hoc potest esse principium operationis. Sed
+<lb ed="#L" n="89"/>est in potentia per respectum ad operationem.
+<lb ed="#L" n="90"/>Unde habitus dicitur actus primus, et operatio
+<lb ed="#L" n="91"/>actus secundus; ut patet in II de Anima.
+</p>
+               <p xml:id="TAca84-d1e925-d1e1060">
+                  <lb ed="#L" n="92"/>AD SECUNDUM DICENDUM quod non est de ratione
+<lb ed="#L" n="93"/>habitus quod respiciat potentiam, sed quod 
+re<lb break="no" ed="#L" n="94"/>spiciat naturam. Et quia natura praecedit 
+actio<lb break="no" ed="#L" n="95"/>nem, quam respicit potentia; ideo prior species
+<lb ed="#L" n="96"/>qualitatis ponitur habitus quam potentia.
+</p>
+               <p xml:id="TAca84-d1e925-d1e1074">
+                  <lb ed="#L" n="97"/>AD TERTIUM DICENDUM quod sanitas dicitur 
+ha<lb break="no" ed="#L" n="98"/>bitus, vel habitualis dispositio, in ordine ad 
+natu<lb break="no" ed="#L" n="99"/>ram, sicut dictum est. Inquantum tamen 
+na<lb break="no" ed="#L" n="100"/>tura est principium actus, ex consequenti 
+impor<lb break="no" ed="#L" n="101"/>tat ordinem ad actum. Unde Philosophus dicit,
+<lb ed="#L" n="102"/>in X de Historia Animal., quod homo dicitur
+<lb ed="#L" n="103"/>sanus ?, vel membrum aliquod, quando potest 
+fa<lb break="no" ed="#L" n="104"/>cere operationem sani. Et est simile in aliis. ^. —
+</p>
+            </div>
+            <div xml:id="TAca84-d1e925-Dd1e1095"><!-- p2p1-q49-a4 -->
+               <head xml:id="TAca84-d1e925-Hd1e1098">Articulus 4</head>
+               <head xml:id="TAca84-d1e925-Hd1e1100" type="question-title">utrum sit necessarium esse habitum</head>
+               <p xml:id="TAca84-d1e925-d1e1103">
+                  <pb ed="#L" n="315"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUARTUS
+<lb ed="#L" n="2"/>UTRUM SIT NECESSARIUM ESSE HABITUM
+</p>
+               <p xml:id="TAca84-d1e925-d1e1114">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>non sit necessarium esse habitus. 
+Ha<lb break="no" ed="#L" n="5"/>bitus enim sunt quibus aliquid 
+dispo<lb break="no" ed="#L" n="6"/>nitur bene vel male ad aliquid, sicut
+<lb ed="#L" n="7"/>dictum est. Sed per suam formam aliquid bene
+<lb ed="#L" n="8"/>vel male disponitur: nam secundum formam 
+ali<lb break="no" ed="#L" n="9"/>quid est bonum, sicut et ens. Ergo nulla 
+neces<lb break="no" ed="#L" n="10"/>sitas est habituum.
+</p>
+               <p xml:id="TAca84-d1e925-d1e1136">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, habitus importat ordinem ad
+<lb ed="#L" n="12"/>actum. Sed potentia importat principium actus
+<lb ed="#L" n="13"/>sufficienter: nam et potentiae naturales absque
+<lb ed="#L" n="14"/>habitibus sunt principia actuum. Ergo non fuit
+<lb ed="#L" n="15"/>necessarium habitus esse.
+</p>
+               <p xml:id="TAca84-d1e925-d1e1150">
+                  <lb ed="#L" n="16"/>3. PRAETEREA, sicut potentia se habet ad 
+bo<lb break="no" ed="#L" n="17"/>num et malum, ita et habitus: et sicut potentia
+<lb ed="#L" n="18"/>non semper agit, ita nec habitus. Existentibus 
+igi<lb break="no" ed="#L" n="19"/>tur potentiis, superfluum fuit habitum esse.
+</p>
+               <p xml:id="TAca84-d1e925-d1e1161">
+                  <lb ed="#L" n="20"/>SED cONTRA EsT quod habitus sunt 
+perfectio<lb break="no" ed="#L" n="21"/>nes quaedam, ut dicitur in VII. Physic. Sed
+<lb ed="#L" n="22"/>perfectio est maxime necessaria rei: cum habeat
+<lb ed="#L" n="23"/>rationem finis. Ergo necessarium fuit habitus esse.
+</p>
+               <p xml:id="TAca84-d1e925-d1e1172">
+                  <lb ed="#L" n="24"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="25"/>est, habitus importat dispositionem quandam in
+<lb ed="#L" n="26"/>ordine ad naturam rei, et ad operationem vel
+<lb ed="#L" n="27"/>finem eius, secundum quam ? bene vel male 
+ali<lb break="no" ed="#L" n="28"/>quid ad hoc disponitur. Ad hoc autem quod 
+ali<lb break="no" ed="#L" n="29"/>quid indigeat disponi ad alterum, tria 
+requirun<lb break="no" ed="#L" n="30"/>tur. Primo quidem, ut id quod disponitur, sit
+<lb ed="#L" n="31"/>alterum ab eo ad quod disponitur; et sic se
+<lb ed="#L" n="32"/>habeat ad ipsum ut potentia ad actum. Unde
+<lb ed="#L" n="33"/>si aliquid sit cuius natura non sit composita ex
+<lb ed="#L" n="34"/>potentia et actu, et cuius substantia sit sua 
+ope<lb break="no" ed="#L" n="35"/>ratio, et ipsum sit propter seipsum; ibi habitus
+<lb ed="#L" n="36"/>vel dispositio locum non habet, sicut patet in
+<lb ed="#L" n="37"/>Deo.
+</p>
+               <p xml:id="TAca84-d1e925-d1e1205">
+                  <lb ed="#L" n="38"/>Secundo requiritur quod id quod est in 
+po<lb break="no" ed="#L" n="39"/>tentia ad alterum, possit pluribus modis 
+deter<lb break="no" ed="#L" n="40"/>minari, et ad diversa. Unde si aliquid sit in 
+po<lb break="no" ed="#L" n="41"/>tentia ad alterum, ita tamen quod non sit in 
+po<lb break="no" ed="#L" n="42"/>tentia nisi ad ipsum, ibi dispositio et habitus
+<lb ed="#L" n="43"/>locum non habet: quia tale subiectum ex sua
+<lb ed="#L" n="44"/>natura habet debitam habitudinem ad talem actum.
+<lb ed="#L" n="45"/>Unde si ? corpus caeleste sit compositum ex
+<lb ed="#L" n="46"/>materia et forma, cum illa materia non sit in
+<lb ed="#L" n="47"/>potentia ad aliam formam, ut in Primo dictum
+<lb ed="#L" n="48"/>est, non habet ibi locum dispositio vel habitus
+<lb ed="#L" n="49"/>ad formam; aut etiam ad operationem, quia na-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="50"/>tura caelestis corporis non est in potentia nisi
+<lb ed="#L" n="51"/>ad unum motum determinatum.
+</p>
+               <p xml:id="TAca84-d1e925-d1e1240">
+                  <lb ed="#L" n="52"/>Tertio requiritur quod plura concurrant ad 
+dis<lb break="no" ed="#L" n="53"/>ponendum subiectum ad unum eorum ad quae
+<lb ed="#L" n="54"/>est in potentia, quae diversis modis 
+commensu<lb break="no" ed="#L" n="55"/>rari possunt, ut sic disponatur bene vel male ad
+<lb ed="#L" n="56"/>formam vel ad operationem. Unde qualitates
+<lb ed="#L" n="57"/>simplices elementorum, quae secundum unum
+<lb ed="#L" n="58"/>modum determinatum naturis elementorum 
+con<lb break="no" ed="#L" n="59"/>veniunt, non dicimus dispositiones vel habitus, :
+<lb ed="#L" n="60"/>sed simplices qualitates: dicimus autem 
+disposi<lb break="no" ed="#L" n="61"/>tiones vel habitus sanitatem, pulchritudinem et
+<lb ed="#L" n="62"/>alia huiusmodi, quae important quandam 
+com<lb break="no" ed="#L" n="63"/>mensurationem plurium quae diversis modis 
+com<lb break="no" ed="#L" n="64"/>mensurari possunt. Propter quod Philosophus 
+di<lb break="no" ed="#L" n="65"/>cit, in V Metaphys., quod habitus est dispositio,
+<lb ed="#L" n="66"/>et dispositio est ordo habentis partes vel secundum
+<lb ed="#L" n="67"/>locum, vel secundum potentiam, vel secundum 
+spe<lb break="no" ed="#L" n="68"/>ciem; ut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e925-d1e1279">
+                  <lb ed="#L" n="69"/>Quia igitur multa sunt entium ad quorum 
+na<lb break="no" ed="#L" n="70"/>turas et operationes necesse est plura concurrere
+<lb ed="#L" n="71"/>quae diversis modis commensurari possunt, ideo
+<lb ed="#L" n="72"/>necesse est habitus esse.
+</p>
+               <p xml:id="TAca84-d1e925-d1e1291">
+                  <lb ed="#L" n="73"/>AD PRIMUM ERGO DICENDUM quod per formam
+<lb ed="#L" n="74"/>perficitur natura rei: sed oportet quod in ordine
+<lb ed="#L" n="75"/>ad ipsam formam disponatur subiectum aliqua 
+dis<lb break="no" ed="#L" n="76"/>positione. - Ipsa tamen forma ordinatur ulterius ad
+<lb ed="#L" n="77"/>operationem, quae vel est finis, vel via in finem.
+<lb ed="#L" n="78"/>Et si quidem habeat forma determinate unam
+<lb ed="#L" n="79"/>tantum operationem determinatam, nulla alia 
+dis<lb break="no" ed="#L" n="80"/>positio requiritur ad operationem praeter ipsam
+<lb ed="#L" n="81"/>formam. Si autem sit talis forma quae possit 
+di<lb break="no" ed="#L" n="82"/>versimode operari, sicut est anima; oportet quod
+<lb ed="#L" n="83"/>disponatur ad suas operationes per aliquos habitus.
+</p>
+               <p xml:id="TAca84-d1e925-d1e1317">
+                  <lb ed="#L" n="84"/>AD SECUNDUM DICENDUM quod potentia 
+quan<lb break="no" ed="#L" n="85"/>doque se habet ad multa: et ideo oportet quod
+<lb ed="#L" n="86"/>aliquo alio determinetur. Si vero sit aliqua 
+po<lb break="no" ed="#L" n="87"/>tentia quae non se habeat ad multa, non indiget
+<lb ed="#L" n="88"/>habitu determinante, ut dictum est. Et propter
+<lb ed="#L" n="89"/>hoc vires naturales non agunt operationes suas .
+<lb ed="#L" n="90"/>mediantibus aliquibus habitibus: quia secundum
+<lb ed="#L" n="91"/>seipsas sunt determinatae ad unum.
+</p>
+               <p xml:id="TAca84-d1e925-d1e1337">
+                  <lb ed="#L" n="92"/>AD TERTIUM DICENDUM quod non idem habitus
+<lb ed="#L" n="93"/>se habet ad bonum et malum, sicut infra 
+pa<lb break="no" ed="#L" n="94"/>tebit. Eadem autem potentia se habet ad bonum
+<lb ed="#L" n="95"/>et malum. Et ideo necessarii sunt habitus ut
+<lb ed="#L" n="96"/>potentiae determinentur ad bonum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

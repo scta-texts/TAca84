@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 16</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 16</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="114"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e755"><!-- p2p1-q16 -->
+            <head xml:id="TAca84-d1e755-Hd1e99">Quaestio 16</head>
+            <head xml:id="TAca84-d1e755-Hd1e101" type="question-title">de usu, qui est actus voluntatis in comparatione
+      ad ea quae sunt ad finem</head>
+            <p xml:id="TAca84-d1e755-d1e104">
+               <pb ed="#L" n="114"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO DECIMASEXTA
+<lb ed="#L" n="2"/>DE USU, QUI EST ACTUS VOLUNTATIS IN COMPARATIONE
+<lb ed="#L" n="3"/>AD EA QUAE SUNT AD FINEM
+<lb ed="#L" n="4"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e755-d1e120">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="5"/>DEINDE considerandum est de usu
+</p>
+            <p xml:id="TAca84-d1e755-d1e127">
+               <lb ed="#L" n="6"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="7"/>Primo: utrum uti sit actus voluntatis.
+<lb ed="#L" n="8"/>Secundo: utrum conveniat brutis animalibus.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="9"/>Tertio: utrum sit tantum eorum quae sunt ad
+<lb ed="#L" n="10"/>finem, vel etiam finis.
+<lb ed="#L" n="11"/>Quarto: de ordine usus ad electionem.
+</p>
+            <div xml:id="TAca84-d1e755-Dd1e146"><!-- p2p1-q16-a1 -->
+               <head xml:id="TAca84-d1e755-Hd1e149">Articulus 1</head>
+               <head xml:id="TAca84-d1e755-Hd1e151" type="question-title">utrum uti sit actus voluntatis</head>
+               <p xml:id="TAca84-d1e755-d1e154">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>ARTICULUS PRIMUS
+<lb ed="#L" n="13"/>UTRUM UTI SIT ACTUS VOLUNTATIS
+</p>
+               <p xml:id="TAca84-d1e755-d1e163">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="14"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="15"/>uti non sit actus voluntatis. Dicit enim
+<lb ed="#L" n="16"/>Augustinus, in I de Doctr. Christ., quod
+<lb ed="#L" n="17"/>
+                  <quote xml:id="TAca84-d1e755-Qd1e176">uti est id quod in usum venerit, ad aliud
+<lb ed="#L" n="18"/>obtinendum referre</quote>. Sed referre aliquid ad aliud
+<lb ed="#L" n="19"/>est rationis, cuius est conferre et ordinare. Ergo
+<lb ed="#L" n="20"/>uti est actus rationis. Non ergo voluntatis.
+</p>
+               <p xml:id="TAca84-d1e755-d1e186">
+                  <lb ed="#L" n="21"/>2. PRAETEREA, Damascenus dicit quod homo
+<lb ed="#L" n="22"/>impetum facit ad operationem, et dicitur impetus :
+<lb ed="#L" n="23"/>deinde utitur, et dicitur usus. Sed operatio pertinet
+<lb ed="#L" n="24"/>ad potentiam executivam. Actus autem voluntatis
+<lb ed="#L" n="25"/>non sequitur actum executivae potentiae, sed 
+exe<lb break="no" ed="#L" n="26"/>cutio est ultimum. Ergo usus non est actus 
+vo<lb break="no" ed="#L" n="27"/>luntatis.
+</p>
+               <p xml:id="TAca84-d1e755-d1e205">
+                  <lb ed="#L" n="28"/>3. PRAETEREA, Augustinus dicit, in libro 
+Octo<lb break="no" ed="#L" n="29"/>ginta trium Quaest.: <quote xml:id="TAca84-d1e755-Qd1e211">Omnia quae facla sunt, in
+<lb ed="#L" n="30"/>usum hominis facta sunt: quia omnibus utitur
+<lb ed="#L" n="31"/>iudicando ratio, quae hominibus data est</quote>. Sed
+<lb ed="#L" n="32"/>iudicare de rebus a Deo creatis pertinet ad 
+ra<lb break="no" ed="#L" n="33"/>tionem speculativam; quae omnino separata 
+vi<lb break="no" ed="#L" n="34"/>detur a voluntate, quae est principium 
+humano<lb break="no" ed="#L" n="35"/>rum actuum. Ergo uti non est actus voluntatis.
+</p>
+               <p xml:id="TAca84-d1e755-d1e228">
+                  <lb ed="#L" n="36"/>SED CONTRA EST quod Augustinus dicit, in X de
+<lb ed="#L" n="37"/>Trin.: <quote xml:id="TAca84-d1e755-Qd1e234">Uti est assumere aliquid in facultatem
+<lb ed="#L" n="38"/>voluntatis.</quote>
+               </p>
+               <p xml:id="TAca84-d1e755-d1e240">
+                  <lb ed="#L" n="39"/>RESPONDEO DICENDUM quod usus rei alicuius 
+im<lb break="no" ed="#L" n="40"/>portat applicationem rei illius ad aliquam 
+opera<lb break="no" ed="#L" n="41"/>tionem: unde et operatio ad quam applicamus
+<lb ed="#L" n="42"/>rem aliquam, dicitur usus eius; sicut equitare
+<lb ed="#L" n="43"/>est usus equi, et percutere est usus baculi. Ad
+<lb ed="#L" n="44"/>operationem autem applicamus et principia 
+inte<lb break="no" ed="#L" n="45"/>riora agendi, scilicet ipsas potentias animae vel
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="46"/>membra corporis, ut intellectum ad intelligendum,
+<lb ed="#L" n="47"/>et oculum ad videndum; et etiam ? res exteriores,
+<lb ed="#L" n="48"/>sicut baculum ad percutiendum. Sed manifestum
+<lb ed="#L" n="49"/>est quod res exteriores non applicamus ad aliquam
+<lb ed="#L" n="50"/>operationem nisi per principia intrinseca, quae sunt
+<lb ed="#L" n="51"/>potentiae animae, aut habitus potentiarum, aut
+<lb ed="#L" n="52"/>organa, quae sunt corporis membra. Ostensum
+<lb ed="#L" n="53"/>est autem supra quod voluntas est quae movet
+<lb ed="#L" n="54"/>potentias animae ad suos actus; et hoc est 
+ap<lb break="no" ed="#L" n="55"/>plicare eas ad operationem. Unde manifestum est
+<lb ed="#L" n="56"/>quod uti primo et principaliter est voluntatis, 
+tan<lb break="no" ed="#L" n="57"/>quam primi ? moventis; rationis autem tanquam
+<lb ed="#L" n="58"/>dirigentis; sed aliarum potentiarum tanquam 
+exe<lb break="no" ed="#L" n="59"/>quentium, quae comparantur ad voluntatem, a
+<lb ed="#L" n="60"/>qua applicantur ad agendum, sicut instrumenta
+<lb ed="#L" n="61"/>ad principale agens. Actio autem proprie non
+<lb ed="#L" n="62"/>attribuitur instrumento, sed principali agenti: sicut
+<lb ed="#L" n="63"/>aedificatio aedificatori, non autem instrumentis.
+<lb ed="#L" n="64"/>Unde manifestum est quod uti proprie est actus
+<lb ed="#L" n="65"/>voluntatis.
+</p>
+               <p xml:id="TAca84-d1e755-d1e303">
+                  <lb ed="#L" n="66"/>AD PRIMUM ERGO DICENDUM quod ratio quidem
+<lb ed="#L" n="67"/>in aliud refert: sed voluntas tendit in id quod
+<lb ed="#L" n="68"/>est in aliud relatum per rationem. Et secundum
+<lb ed="#L" n="69"/>hoc dicitur quod uti est referre aliquid in alterum.
+</p>
+               <p xml:id="TAca84-d1e755-d1e314">
+                  <lb ed="#L" n="70"/>AD SECUNDUM DICENDUM quod Damascenus 
+lo<lb break="no" ed="#L" n="71"/>quitur de usu, secundum quod pertinet ad 
+exe<lb break="no" ed="#L" n="72"/>cutivas potentias.
+</p>
+               <p xml:id="TAca84-d1e755-d1e323">
+                  <lb ed="#L" n="73"/>AD TERTIUM DICENDUM quod etiam ipsa ratio 
+spe<lb break="no" ed="#L" n="74"/>culativa applicatur ad opus intelligendi vel 
+iudi<lb break="no" ed="#L" n="75"/>candi, a voluntate. Et ideo intellectus speculativus
+<lb ed="#L" n="76"/>uti dicitur tanquam a voluntate motus, sicut aliae
+<lb ed="#L" n="77"/>executivae potentiae.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e755-Dd1e337"><!-- p2p1-q16-a2 -->
+               <head xml:id="TAca84-d1e755-Hd1e340">Articulus 2</head>
+               <head xml:id="TAca84-d1e755-Hd1e342" type="question-title">utrum uti conveniat brutis animalibus</head>
+               <p xml:id="TAca84-d1e755-d1e345">
+                  <pb ed="#L" n="115"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM UTI CONVENIAT BRUTIS ANIMALIBUS
+</p>
+               <p xml:id="TAca84-d1e755-d1e356">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="4"/>uti conveniat brutis animalibus. Frui 
+<lb ed="#L" n="5"/>enim est nobilius quam uti: quia, ut  
+<lb ed="#L" n="6"/>Augustinus dicit in X de Trin., <quote xml:id="TAca84-d1e755-Qd1e369">
+uti<lb break="no" ed="#L" n="7"/>mur eis quae ad aliud referimus, quo 
+fruen<lb break="no" ed="#L" n="8"/>dum est.</quote> Sed frui convenit brutis animalibus, ut.  
+<lb ed="#L" n="9"/>Supra dictum est. Ergo multo magis convenit 
+<lb ed="#L" n="10"/>eis uti. 
+</p>
+               <p xml:id="TAca84-d1e755-d1e381">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, applicare membra ad agendum 
+<lb ed="#L" n="12"/>est uti membris. Sed bruta animalia applicant  
+<lb ed="#L" n="13"/>membra ad aliquid agendum; sicut pedes ad 
+am<lb break="no" ed="#L" n="14"/>bulandum, cornua ad percutiendum. Ergo brutis  
+<lb ed="#L" n="15"/>animalibus convenit uti. 
+</p>
+               <p xml:id="TAca84-d1e755-d1e395">
+                  <lb ed="#L" n="16"/>SED CONTRA EST quod Augustinus dicit, in libro  
+<lb ed="#L" n="17"/>Octoginta trium Quaest.: <quote xml:id="TAca84-d1e755-Qd1e401">Uti aliqua re non potest  
+<lb ed="#L" n="18"/>nisi animal quod rationis est particeps.</quote>
+               </p>
+               <p xml:id="TAca84-d1e755-d1e407">
+                  <lb ed="#L" n="19"/>RESPONDEO DICENDUM quod, sicut dictum est, 
+<lb ed="#L" n="20"/>uti est applicare aliquod principium actionis ad 
+<lb ed="#L" n="21"/>actionem : sicut consentire est applicare motum 
+<lb ed="#L" n="22"/>appetitivum ad aliquid appetendum, ut dictum 
+<lb ed="#L" n="23"/>est. Applicare autem aliquid ad alterum non  
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="24"/>est nisi eius quod habet arbitrium super illud:
+<lb ed="#L" n="25"/>quod non est nisi eius qui scit referre aliquid in
+<lb ed="#L" n="26"/>alterum, quod ad rationem pertinet. Et ideo 
+so<lb break="no" ed="#L" n="27"/>lum animal rationale et consentit, et utitur.
+</p>
+               <p xml:id="TAca84-d1e755-d1e431">
+                  <lb ed="#L" n="28"/>AD PRIMUM ERGO DICENDUM quod frui importat
+<lb ed="#L" n="29"/>absolutum motum appetitus in appetibile: sed uti
+<lb ed="#L" n="30"/>importat motum appetitus ad aliquid in ordine
+<lb ed="#L" n="31"/>ad alterum. Si ergo comparentur uti et frui 
+quan<lb break="no" ed="#L" n="32"/>tum ad obiecta, sic frui est nobilius quam uti:
+<lb ed="#L" n="33"/>quia id quod est absolute appetibile, est melius
+<lb ed="#L" n="34"/>quam id quod est appetibile solum in ordine ad
+<lb ed="#L" n="35"/>aliud. Sed si comparentur quantum ad vim 
+appre<lb break="no" ed="#L" n="36"/>hensivam praecedentem, maior nobilitas requiritur
+<lb ed="#L" n="37"/>ex parte usus: quia ordinare aliquid in alterum
+<lb ed="#L" n="38"/>est rationis; absolute autem aliquid apprehendere
+<lb ed="#L" n="39"/>potest etiam sensus. s
+</p>
+               <p xml:id="TAca84-d1e755-d1e460">
+                  <lb ed="#L" n="40"/>AD SECUNDUM DICENDUM quod animalia per sua
+<lb ed="#L" n="41"/>membra aliquid agunt instinctu naturae: non per
+<lb ed="#L" n="42"/>hoc quod cognoscant ordinem membrorum ad
+<lb ed="#L" n="43"/>illas operationes. Unde non dicuntur proprie 
+ap<lb break="no" ed="#L" n="44"/>plicare membra ad agendum, nec uti membris.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e755-Dd1e474"><!-- p2p1-q16-a3 -->
+               <head xml:id="TAca84-d1e755-Hd1e477">Articulus 3</head>
+               <head xml:id="TAca84-d1e755-Hd1e479" type="question-title">utrum usus possit esse etiam ultimi finis</head>
+               <p xml:id="TAca84-d1e755-d1e482">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="45"/>ARTICULUS TERTIUS
+<lb ed="#L" n="46"/>UTRUM USUS POSSIT ESSE ETIAM ULTIMI FINIS
+</p>
+               <p xml:id="TAca84-d1e755-d1e491">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="47"/>AD TERTIUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="48"/>usus possit esse etiam ultimi finis. Dicit | 
+<lb ed="#L" n="49"/>enim Augustinus, in X de 7rin.: Omnis | 
+<lb ed="#L" n="50"/>nui fruitur, utitur. Sed ultimo fine frui- | 
+<lb ed="#L" n="51"/>tur aliquis. Ergo ultimo fine aliquis utitur. 
+</p>
+               <p xml:id="TAca84-d1e755-d1e507">
+                  <lb ed="#L" n="52"/>2. PnaETEREA, uii est assumere aliquid in fa- | 
+<lb ed="#L" n="53"/>cultatem voluntatis, ut ibidem dicitur. Sed nihil | 
+<lb ed="#L" n="54"/>magis assumitur a voluntate quam ultimus finis. | 
+<lb ed="#L" n="55"/>Ergo usus potest esse ultimi finis. 
+</p>
+               <p xml:id="TAca84-d1e755-d1e519">
+                  <lb ed="#L" n="56"/>3. PRAETEREA, Hilarius dicit, in II de Zrin., | 
+<lb ed="#L" n="57"/>quod aeternitas est in Patre, species in Imagine, | 
+<lb ed="#L" n="58"/>idest in Filio, usus in Munere, idest in Spiritu | 
+<lb ed="#L" n="59"/>Sancto. Sed. Spiritus Sanctus, cum sit Deus, est | 
+<lb ed="#L" n="60"/>ultimus finis. Ergo ultimo fine contingit uti. | 
+</p>
+               <p xml:id="TAca84-d1e755-d1e532">
+                  <lb ed="#L" n="61"/>SED CONTRA EST quod dicit Augustinus, in libro | 
+<lb ed="#L" n="62"/>Octoginta trium Quaest.: Deo nullus recte utitur, 
+<lb ed="#L" n="63"/>2 sed fruitur. Sed solus Deus est ultimus finis. Ergo | 
+<lb ed="#L" n="64"/>ultimo fine non est utendum. 
+</p>
+               <p xml:id="TAca84-d1e755-d1e543">
+                  <lb ed="#L" n="65"/>RESPONDEO DICENDUM quod uti, sicut dictum est, | 
+<lb ed="#L" n="66"/>importat applicationem alicuius ad aliquid. Quod 
+<lb ed="#L" n="67"/>autem applicatur ad aliud, se habet in ratione | 
+<lb ed="#L" n="68"/>eius quod est ad finem. Et ideo uti semper est | 
+<lb ed="#L" n="69"/>eius quod est ad finem. Propter quod et ea quae | 
+<lb ed="#L" n="70"/>sunt ad finem accommoda, utilia dicuntur; et ipsa | 
+<lb ed="#L" n="71"/>utilitas interdum usus nominatur.
+</p>
+               <p xml:id="TAca84-d1e755-d1e561">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="72"/>Sed considerandum est quod ultimus finis 
+dici<lb break="no" ed="#L" n="73"/>tur dupliciter: uno modo, simpliciter; et alio modo,
+<lb ed="#L" n="74"/>quoad aliquem. Cum enim finis, ut supra dictum ? 9» t sr 5:
+<lb ed="#L" n="75"/>est, dicatur quandoque quidem res, quandoque '
+<lb ed="#L" n="76"/>autem adeptio rei vel possessio eius, sicut avaro
+<lb ed="#L" n="77"/>finis est vel pecunia vel possessio pecuniae; 
+ma<lb break="no" ed="#L" n="78"/>nifestum est quod, simpliciter loquendo, ultimus
+<lb ed="#L" n="79"/>finis est ipsa res: non enim possessio pecuniae
+<lb ed="#L" n="80"/>est bona, nisi propter bonum pecuniae. Sed quoad
+<lb ed="#L" n="81"/>hunc, adeptio pecuniae est finis ultimus: non». 5.
+<lb ed="#L" n="82"/>enim quaereret pecuniam avarus, nisi ut haberet
+<lb ed="#L" n="83"/>eam. Ergo, simpliciter loquendo et proprie, 
+pe<lb break="no" ed="#L" n="84"/>cunia homo aliquis fruitur, quia ' in ea ultimum Y
+<lb ed="#L" n="85"/>finem constituit: sed inquantum refert eam ad
+<lb ed="#L" n="86"/>possessionem, dicitur uti ea.
+</p>
+               <p xml:id="TAca84-d1e755-d1e598">
+                  <lb ed="#L" n="87"/>AD PRIMUM ERGO DICENDUM quod Augustinus 
+lo<lb break="no" ed="#L" n="88"/>quitur de usu communiter, secundum quod 
+im<lb break="no" ed="#L" n="89"/>portat ordinem finis ad ipsam finis ? fruitionem, ;
+<lb ed="#L" n="90"/>quam aliquis quaerit de fine.
+</p>
+               <p xml:id="TAca84-d1e755-d1e609">
+                  <lb ed="#L" n="91"/>AD SECUNDUM DICENDUM quod finis assumitur
+<lb ed="#L" n="92"/>in facultatem voluntatis, ut voluntas in illo 
+quie<lb break="no" ed="#L" n="93"/>scat. Unde ipsa requies in fine, quae fruitio est,
+<lb ed="#L" n="94"/>dicitur hoc modo usus finis. Sed id quod est ad
+<lb ed="#L" n="95"/>finem, assumitur in facultatem voluntatis non so-
+<lb ed="#L" n="96"/>lum in ordine ad usum eius quod est ad finem,
+<pb ed="#L" n="116"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sed in ordine ad aliam rem, in qua voluntas |
+<lb ed="#L" n="2"/>quiescit.
+</p>
+               <p xml:id="TAca84-d1e755-d1e634">
+                  <lb ed="#L" n="3"/>AD TERTIUM DICENDUM quod usus accipitur in 
+ver<lb break="no" ed="#L" n="4"/>bis Hilarii pro quiete in ultimo fine: eo modo quo
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="5"/>aliquis, communiter loquendo, dicitur uti fine ad
+<lb ed="#L" n="6"/>obtinendum ipsum, sicut dictum est. Unde 
+Augu<lb break="no" ed="#L" n="7"/>stinus, in VI de Trin., dicit quod illa dilectio, 
+dele<lb break="no" ed="#L" n="8"/>catio, felicitas vel beatitudo usus ab eo appellatur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e755-Dd1e653"><!-- p2p1-q16-a4 -->
+               <head xml:id="TAca84-d1e755-Hd1e656">Articulus 4</head>
+               <head xml:id="TAca84-d1e755-Hd1e658" type="question-title">utrum usus praecedat electionem</head>
+               <p xml:id="TAca84-d1e755-d1e661">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>ARTICULUS QUARTUS
+<lb ed="#L" n="10"/>UTRUM USUS PRAECEDAT ELECTIONEM
+</p>
+               <p xml:id="TAca84-d1e755-d1e670">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="11"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="12"/>usus praecedat electionem. Post 
+electio<lb break="no" ed="#L" n="13"/>nem enim nihil sequitur nisi executio.
+</p>
+               <p xml:id="TAca84-d1e755-d1e681">
+                  <lb ed="#L" n="14"/>Ww NySed usus, cum pertineat ad voluntatem,
+<lb ed="#L" n="15"/>praecedit executionem. Ergo praecedit etiam 
+ele<lb break="no" ed="#L" n="16"/>ctionem.
+</p>
+               <p xml:id="TAca84-d1e755-d1e691">
+                  <lb ed="#L" n="17"/>2. PRAETEREA, absolutum est ante relatum. Ergo
+<lb ed="#L" n="18"/>minus relatum est ante magis relatum. Sed electio
+<lb ed="#L" n="19"/>importat duas relationes, unam eius quod eligitur
+<lb ed="#L" n="20"/>ad finem, aliam vero ad id cui praeeligitur: usus
+<lb ed="#L" n="21"/>autem importat solam relationem ad finem. Ergo
+<lb ed="#L" n="22"/>usus est prior electione.
+</p>
+               <p xml:id="TAca84-d1e755-d1e707">
+                  <lb ed="#L" n="23"/>3. PnaETEREA, voluntas utitur aliis potentiis 
+in<lb break="no" ed="#L" n="24"/>quantum movet eas. Sed voluntas movet etiam
+<lb ed="#L" n="25"/>seipsam, ut dictum est. Ergo etiam utitur 
+se<lb break="no" ed="#L" n="26"/>ipsa, applicando se àd agendum. Sed hoc facit
+<lb ed="#L" n="27"/>cum consentit. Ergo in ipso consensu est usus.
+<lb ed="#L" n="28"/>Sed consensus praecedit electionem, ut dictum
+<lb ed="#L" n="29"/>est. Ergo et usus.
+</p>
+               <p xml:id="TAca84-d1e755-d1e725">
+                  <lb ed="#L" n="30"/>SED CONTRA EST quod Damascenus dicit, quod
+<lb ed="#L" n="31"/>voluntas post electionem impetum facit ad 
+ope<lb break="no" ed="#L" n="32"/>ralionem, ei postea utitur. Ergo usus sequitur 
+ele<lb break="no" ed="#L" n="33"/>ctionem. 1
+</p>
+               <p xml:id="TAca84-d1e755-d1e736">
+                  <lb ed="#L" n="34"/>RrsPONDEO DICENDUM quod voluntas duplicem
+<lb ed="#L" n="35"/>habitudinem habet ad volitum. Unam quidem, 
+se<lb break="no" ed="#L" n="36"/>cundum quod volitum ? est quodammodo in 
+vo<lb break="no" ed="#L" n="37"/>lente, per quandam proportionem vel ordinem ad
+<lb ed="#L" n="38"/>volitum. Unde et res quae naturaliter sunt 
+propor<lb break="no" ed="#L" n="39"/>tionatae ad aliquem finem, dicuntur appetere illum
+<lb ed="#L" n="40"/>naturaliter. - Sed sic habere finem, est imperfecte
+<lb ed="#L" n="41"/>habere ipsum. Omne autem imperfectum tendit
+<lb ed="#L" n="42"/>in perfectionem. Et ideo tam appetitus naturalis,
+<lb ed="#L" n="43"/>quam voluntarius, tendit ut habeat ipsum finem
+<lb ed="#L" n="44"/>realiter, quod est perfecte habere ipsum. Et haec
+<lb ed="#L" n="45"/>est secunda habitudo voluntatis ad volitum.
+</p>
+               <p xml:id="TAca84-d1e755-d1e765">
+                  <lb ed="#L" n="46"/>Volitum autem non solum est finis, sed id quod
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="47"/>est ad finem. Ultimum autem quod pertinet ad
+<lb ed="#L" n="48"/>primam habitudinem voluntatis, respectu eius
+<lb ed="#L" n="49"/>quod est ad finem, est electio: ibi enim completur
+<lb ed="#L" n="50"/>proportio voluntatis, ut complete velit id quod
+<lb ed="#L" n="51"/>est ad finem. Sed usus iam pertinet ad 
+secun<lb break="no" ed="#L" n="52"/>dam habitudinem voluntatis, qua tendit ad 
+con<lb break="no" ed="#L" n="53"/>sequendum rem volitam. Unde manifestum est
+<lb ed="#L" n="54"/>quod usus sequitur electionem: si tamen 
+accipia<lb break="no" ed="#L" n="55"/>tur usus, secundum quod voluntas utitur 
+execu<lb break="no" ed="#L" n="56"/>tiva potentia movendo ipsam. Sed quia voluntas
+<lb ed="#L" n="57"/>etiam quodammodo rationem movet, et utitur ea,
+<lb ed="#L" n="58"/>potest intelligi usus eius quod est ad finem, 
+se<lb break="no" ed="#L" n="59"/>cundum quod est in consideratione rationis 
+refe<lb break="no" ed="#L" n="60"/>rentis ipsum in finem. Et hoc modo usus 
+prae<lb break="no" ed="#L" n="61"/>cedit electionem.
+</p>
+               <p xml:id="TAca84-d1e755-d1e804">
+                  <lb ed="#L" n="62"/>AD PRIMUM ERGO DICENDUM quod ipsam 
+execu<lb break="no" ed="#L" n="63"/>tionem operis praecedit motio qua voluntas 
+mo<lb break="no" ed="#L" n="64"/>vet ad exequendum, sequitur autem electionem.
+<lb ed="#L" n="65"/>Et sic, cum usus pertineat ad praedictam 
+motio<lb break="no" ed="#L" n="66"/>nem voluntatis, medium est inter electionem et
+<lb ed="#L" n="67"/>executionem. -
+</p>
+               <p xml:id="TAca84-d1e755-d1e821">
+                  <lb ed="#L" n="68"/>AD SECUNDUM DICENDUM quod id quod est per
+<lb ed="#L" n="69"/>essentiam suam relatum, posterius est absoluto:
+<lb ed="#L" n="70"/>sed id cui' attribuuntur relationes, non oportet
+<lb ed="#L" n="71"/>quod sit posterius. Immo quanto causa est prior,
+<lb ed="#L" n="72"/>tanto habet relationem ad plures effectus.
+</p>
+               <p xml:id="TAca84-d1e755-d1e834">
+                  <lb ed="#L" n="73"/>AD TERTIUM DICENDUM quod electio praecedit
+<lb ed="#L" n="74"/>usum, si referantur ad idem. Nihil autem 
+pro<lb break="no" ed="#L" n="75"/>hibet quod usus unius praecedat electionem 
+al<lb break="no" ed="#L" n="76"/>terius. Et quia actus voluntatis reflectuntur supra
+<lb ed="#L" n="77"/>seipsos, in quolibet actu voluntatis potest accipi
+<lb ed="#L" n="78"/>et consensus, et electio, et usus: ut si dicatur
+<lb ed="#L" n="79"/>quod voluntas consentit se eligere, et consentit
+<lb ed="#L" n="80"/>se consentire, et utitur se ad consentiendum et
+<lb ed="#L" n="81"/>eligendum. Et semper isti actus ordinati ad id
+<lb ed="#L" n="82"/>quod est prius, sunt priores.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

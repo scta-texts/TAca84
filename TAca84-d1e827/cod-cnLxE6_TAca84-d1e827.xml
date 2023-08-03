@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 30</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 30</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="209"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e827"><!-- p2p1-q30 -->
+            <head xml:id="TAca84-d1e827-Hd1e99">Quaestio 30</head>
+            <head xml:id="TAca84-d1e827-Hd1e101" type="question-title">de concupiscentia</head>
+            <p xml:id="TAca84-d1e827-d1e104">
+               <pb ed="#L" n="209"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO TRIGESIMA
+<lb ed="#L" n="2"/>DE CONCUPISCENTIA
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e827-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de 
+concupiscen<lb break="no" ed="#L" n="5"/>tia.
+<lb ed="#L" n="6"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="7"/>Primo: utrum concupiscentia sit in appetitu
+<lb ed="#L" n="8"/>sensitivo tantum.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="9"/>Secundo: utrum concupiscentia sit passio 
+spe<lb break="no" ed="#L" n="10"/>cialis. ;
+<lb ed="#L" n="11"/>Tertio: utrum sint aliquae concupiscentiae 
+na<lb break="no" ed="#L" n="12"/>turales, et aliquae non naturales.
+<lb ed="#L" n="13"/>Quarto: utrum concupiscentia sit infinita.
+</p>
+            <div xml:id="TAca84-d1e827-Dd1e146"><!-- p2p1-q30-a1 -->
+               <head xml:id="TAca84-d1e827-Hd1e149">Articulus 1</head>
+               <head xml:id="TAca84-d1e827-Hd1e151" type="question-title">utrum concupiscentia sit tantum in appetitu sensitivo</head>
+               <p xml:id="TAca84-d1e827-d1e154">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>ARTICULUS PRIMUS
+<lb ed="#L" n="15"/>UTRUM CONCUPISCENTIA SIT TANTUM IN APPETITU SENSITIVO
+</p>
+               <p xml:id="TAca84-d1e827-d1e163">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="16"/>AD PRIMUM sic PROCEDITUR. Videtur quod
+<lb ed="#L" n="17"/>concupiscentia non solum sit in 
+appe<lb break="no" ed="#L" n="18"/>titu sensitivo. Est enim quaedam 
+concu<lb break="no" ed="#L" n="19"/>piscentia sapientiae, ut dicitur Sap. vi:
+<lb ed="#L" n="20"/>Concupiscentia sapientiae deducit ad regnum 
+per<lb break="no" ed="#L" n="21"/>petuum. Sed appetitus sensitivus non potest ferri
+<lb ed="#L" n="22"/>in sapientiam. Ergo concupiscentia non est in
+<lb ed="#L" n="23"/>solo appetitu sensitivo.
+</p>
+               <p xml:id="TAca84-d1e827-d1e185">
+                  <lb ed="#L" n="24"/>2. PRAETEREA, desiderium mandatorum Dei non
+<lb ed="#L" n="25"/>est in appetitu sensitivo: immo Apostolus dicit,
+<lb ed="#L" n="26"/>Rom. vi: Non habitat in me, hoc est in carne
+<lb ed="#L" n="27"/>mea, bonum. Sed desiderium mandatorum Dei
+<lb ed="#L" n="28"/>sub concupiscentia cadit: secundum illud 
+Psal<lb break="no" ed="#L" n="29"/>mi cxvnr: Concupivit anima mea desiderare 
+iu<lb break="no" ed="#L" n="30"/>stificationes tuas. Ergo concupiscentia non est 
+so<lb break="no" ed="#L" n="31"/>lum in appetitu sensitivo. :
+</p>
+               <p xml:id="TAca84-d1e827-d1e206">
+                  <lb ed="#L" n="32"/>3. PRAETEREA, cuilibet potentiae est 
+concupisci<lb break="no" ed="#L" n="33"/>bile proprium bonum. Ergo concupiscentia est in
+<lb ed="#L" n="34"/>qualibet potentia animae, et non solum in 
+appe<lb break="no" ed="#L" n="35"/>titu sensitivo.
+</p>
+               <p xml:id="TAca84-d1e827-d1e217">
+                  <lb ed="#L" n="36"/>SED CONTRA EST quod Damascenus dicit, quod
+<lb ed="#L" n="37"/>irrationale obediens et persuasibile rationi, 
+dividi<lb break="no" ed="#L" n="38"/>tur in concupiscentiam et iram. Haec autem est 
+ir<lb break="no" ed="#L" n="39"/>rationalis pars animae, passiva et appetitiva. Ergo
+<lb ed="#L" n="40"/>concupiscentia est in appetitu sensitivo.
+</p>
+               <p xml:id="TAca84-d1e827-d1e230">
+                  <lb ed="#L" n="41"/>REsPONDEO DICENDUM quod, sicut Philosophus
+<lb ed="#L" n="42"/>dicit in I hetoric., concupiscentia esi appetitus
+<lb ed="#L" n="43"/>delectabilis. Est autem duplex delectatio, ut infra
+<lb ed="#L" n="44"/>dicetur: una quae est in bono intelligibili, quod
+<lb ed="#L" n="45"/>est bonum rationis; alia quae est in bono 
+se<lb break="no" ed="#L" n="46"/>cundum sensum. Prima quidem delectatio 
+vide<lb break="no" ed="#L" n="47"/>tur esse animae tantum. Secunda autem est 
+ani<lb break="no" ed="#L" n="48"/>mae et corporis: quia sensus est virtus in organo
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="49"/>corporeo; unde et bonum secundum sensum est
+<lb ed="#L" n="50"/>bonum totius coniuncti. Talis autem delectationis
+<lb ed="#L" n="51"/>appetitus videtur esse concupiscentia, quae simul
+<lb ed="#L" n="52"/>pertineat et ad animam et ad corpus: ut ipsum
+<lb ed="#L" n="53"/>nomen concupiscentiae sonat. Unde 
+concupiscen<lb break="no" ed="#L" n="54"/>tia, proprie loquendo, est in appetitu sensitivo ;
+<lb ed="#L" n="55"/>et in vi concupiscibili; quae ab ea denominatur.
+</p>
+               <p xml:id="TAca84-d1e827-d1e267">
+                  <lb ed="#L" n="56"/>AD PRIMUM ERGO DICENDUM quod appetitus 
+sa<lb break="no" ed="#L" n="57"/>pientiae, vel aliorum spiritualium bonorum, 
+inter<lb break="no" ed="#L" n="58"/>dum concupiscentia nominatur, vel propter 
+simi<lb break="no" ed="#L" n="59"/>litudinem quandam: vel propter intensionem 
+ap<lb break="no" ed="#L" n="60"/>petitus superioris partis, ex quo fit redundantia in
+<lb ed="#L" n="61"/>inferiorem appetitum, ut simul etiam ipse inferior
+<lb ed="#L" n="62"/>appetitus suo modo tendat in spirituale bonum
+<lb ed="#L" n="63"/>consequens appetitum superiorem, et etiam ipsum
+<lb ed="#L" n="64"/>corpus spiritualibus deserviat; sicut in Psalmo
+<lb ed="#L" n="65"/>Lxxxir dicitur: Cor meum et caro mea 
+exulta<lb break="no" ed="#L" n="66"/>verunt in Deum vivum.
+</p>
+               <p xml:id="TAca84-d1e827-d1e293">
+                  <lb ed="#L" n="67"/>AD SECUNDUM DICENDUM quod desiderium magis
+<lb ed="#L" n="68"/>pertinere potest, proprie loquendo, non solum ad
+<lb ed="#L" n="69"/>inferiorem appetitum, sed etiam ad superiorem.
+<lb ed="#L" n="70"/>Non enim importat aliquam consociationem in
+<lb ed="#L" n="71"/>cupiendo, sicut concupiscentia; sed simplicem
+<lb ed="#L" n="72"/>motum in rem desideratam. ,
+</p>
+               <p xml:id="TAca84-d1e827-d1e309">
+                  <lb ed="#L" n="73"/>AD TERTIUM DICENDUM quod unicuique 
+poten<lb break="no" ed="#L" n="74"/>tiae animae competit appetere proprium bonum
+<lb ed="#L" n="75"/>appetitu naturali, qui non sequitur 
+apprehensio<lb break="no" ed="#L" n="76"/>nem. Sed appetere bonum appetitu animali, qui
+<lb ed="#L" n="77"/>sequitur apprehensionem, pertinet solum ad vim
+<lb ed="#L" n="78"/>appetitivam. Appetere autem aliquid sub ratione
+<lb ed="#L" n="79"/>boni delectabilis secundum sensum, quod pro-
+</p>
+            </div>
+            <div xml:id="TAca84-d1e827-Dd1e329"><!-- p2p1-q30-a2 -->
+               <head xml:id="TAca84-d1e827-Hd1e332">Articulus 2</head>
+               <head xml:id="TAca84-d1e827-Hd1e334" type="question-title">utrum concupiscentia sit passio specialis</head>
+               <p xml:id="TAca84-d1e827-d1e337">
+                  <pb ed="#L" n="210"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM CONCUPISCENTIA SIT PASSIO SPECIALIS
+</p>
+               <p xml:id="TAca84-d1e827-d1e348">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>concupiscentia non sit passio specialis
+<lb ed="#L" n="5"/>potentiae concupiscibilis. Passiones enim
+<lb ed="#L" n="6"/>distinguuntur secundum obiecta. Sed
+<lb ed="#L" n="7"/>obiectum concupiscibilis est delectabile secundum
+<lb ed="#L" n="8"/>sensum; quod etiam est obiectum 
+concupiscen<lb break="no" ed="#L" n="9"/>tiae, secundum Philosophum, in I Ahetoric.
+<lb ed="#L" n="10"/>Ergo concupiscentia non est passio specialis in
+<lb ed="#L" n="11"/>concupiscibili.
+</p>
+               <p xml:id="TAca84-d1e827-d1e372">
+                  <lb ed="#L" n="12"/>2. PRAETEREA, Augustinus dicit, in libro 
+Octo<lb break="no" ed="#L" n="13"/>ginta trium Quaest., quod <quote xml:id="TAca84-d1e827-Qd1e378">cupiditas est amor
+<lb ed="#L" n="14"/>rerum transeuntium</quote>: et sic ab amore non 
+distin<lb break="no" ed="#L" n="15"/>guitur. Omnes autem passiones speciales ab 
+in<lb break="no" ed="#L" n="16"/>vicem distinguuntur. Ergo concupiscentia non est
+<lb ed="#L" n="17"/>passio specialis in concupiscibili.
+</p>
+               <p xml:id="TAca84-d1e827-d1e392">
+                  <lb ed="#L" n="18"/>3. PRAETEREA, cuilibet passioni concupiscibilis
+<lb ed="#L" n="19"/>opponitur aliqua passio specialis in 
+concupisci<lb break="no" ed="#L" n="20"/>bili, ut supra dictum est. Sed concupiscentiae
+<lb ed="#L" n="21"/>non opponitur aliqua passio specialis in 
+concupi<lb break="no" ed="#L" n="22"/>scibili. Dicit enim Damascenus quod expectatum
+<lb ed="#L" n="23"/>bonum concupiscentiam constituit, praesens vero
+<lb ed="#L" n="24"/>laetitiam: similiter expectatum malum timorem ,
+<lb ed="#L" n="25"/>praesens vero tristitiam: ex quo videtur quod,
+<lb ed="#L" n="26"/>sicut tristitia contrariatur laetitiae, ita timor 
+con<lb break="no" ed="#L" n="27"/>trariatur concupiscentiae. Timor autem non est in
+<lb ed="#L" n="28"/>concupiscibili, sed in irascibili. Non ergo 
+concu<lb break="no" ed="#L" n="29"/>piscentia est specialis passio in concupiscibili.
+</p>
+               <p xml:id="TAca84-d1e827-d1e421">
+                  <lb ed="#L" n="30"/>SED cONTRA EST quod concupiscentia causatur
+<lb ed="#L" n="31"/>ab amore, et tendit in delectationem, quae sunt
+<lb ed="#L" n="32"/>passiones concupiscibilis. Et sic distinguitur ab
+<lb ed="#L" n="33"/>aliis passionibus concupiscibilis, tanquam passio
+<lb ed="#L" n="34"/>specialis.
+</p>
+               <p xml:id="TAca84-d1e827-d1e434">
+                  <lb ed="#L" n="35"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="36"/>bonum delectabile secundum sensum est 
+com<lb break="no" ed="#L" n="37"/>muniter obiectum concupiscibilis. Unde secundum
+<lb ed="#L" n="38"/>eius differentias ^, diversae passiones 
+concupisci<lb break="no" ed="#L" n="39"/>bilis distinguuntur. Diversitas autem obiecti potest
+<lb ed="#L" n="40"/>attendi vel secundum naturam ipsius obiecti, vel
+<lb ed="#L" n="41"/>secundum diversitatem in virtute agendi. 
+Diver<lb break="no" ed="#L" n="42"/>sitas quidem obiecti activi quae est secundum
+<lb ed="#L" n="43"/>rei naturam, facit materialem differentiam passio-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="44"/>num. Sed diversitas quae est secundum virtutem
+<lb ed="#L" n="45"/>activam, facit formalem differentiam passionum,
+<lb ed="#L" n="46"/>secundum quam passiones specie differunt.
+</p>
+               <p xml:id="TAca84-d1e827-d1e465">
+                  <lb ed="#L" n="47"/>Est autem alia ratio virtutis motivae ipsius finis
+<lb ed="#L" n="48"/>vel boni, secundum quod est realiter praesens, et
+<lb ed="#L" n="49"/>secundum quod est absens: nam secundum quod
+<lb ed="#L" n="50"/>est praesens, facit in seipso quiescere; secundum
+<lb ed="#L" n="51"/>autem quod est absens, facit ad seipsum moveri.
+<lb ed="#L" n="52"/>Unde ipsum delectabile secundum sensum, 
+in<lb break="no" ed="#L" n="53"/>quantum appetitum sibi adaptat quodammodo et
+<lb ed="#L" n="54"/>conformat, causat amorem ; inquantum vero 
+ab<lb break="no" ed="#L" n="55"/>sens attrahit ad seipsum, causat concupiscentiam;
+<lb ed="#L" n="56"/>inquantum vero praesens quietat in seipso, causat
+<lb ed="#L" n="57"/>delectationem. Sic ergo concupiscentia est passio
+<lb ed="#L" n="58"/>differens specie et ab amore et a delectatione. -
+<lb ed="#L" n="59"/>Sed concupiscere hoc delectabile vel illud, facit
+<lb ed="#L" n="60"/>concupiscentias diversas numero.
+</p>
+               <p xml:id="TAca84-d1e827-d1e498">
+                  <lb ed="#L" n="61"/>AD PRIMUM ERGO DICENDUM quod bonum 
+dele<lb break="no" ed="#L" n="62"/>ctabile non est absolute obiectum 
+concupiscen<lb break="no" ed="#L" n="63"/>tiae, sed sub ratione absentis: sicut et sensibile
+<lb ed="#L" n="64"/>sub ratione praeteriti, est obiectum memoriae.
+<lb ed="#L" n="65"/>Huiusmodi enim particulares conditiones 
+diversi<lb break="no" ed="#L" n="66"/>ficant speciem passionum, vel etiam potentiarum
+<lb ed="#L" n="67"/>sensitivae partis, quae respicit particularia.
+</p>
+               <p xml:id="TAca84-d1e827-d1e516">
+                  <lb ed="#L" n="68"/>AD SECUNDUM DICENDUM quod illa praedicatio est
+<lb ed="#L" n="69"/>per causam, non per essentiam: non enim 
+cu<lb break="no" ed="#L" n="70"/>piditas est per se amor, sed amoris effectus. — Vel
+<lb ed="#L" n="71"/>aliter dicendum, quod Augustinus accipit 
+cupidi<lb break="no" ed="#L" n="72"/>tatem large pro quolibet motu. appetitus qui 
+po<lb break="no" ed="#L" n="73"/>test esse respectu boni futuri. Unde comprehendit
+<lb ed="#L" n="74"/>sub se et amorem et spem.
+</p>
+               <p xml:id="TAca84-d1e827-d1e535">
+                  <lb ed="#L" n="75"/>AD TERTIUM DICENDUM quod passio quae directe
+<lb ed="#L" n="76"/>opponitur concupiscentiae, innominata est: quae
+<lb ed="#L" n="77"/>ita se habet ad malum, sicut concupiscentia ad ud
+<lb ed="#L" n="78"/>bonum. Sed quia est mali absentis sicut et timor,
+<lb ed="#L" n="79"/>quandoque loco eius ponitur timor: sicut et 
+quan<lb break="no" ed="#L" n="80"/>doque cupiditas loco spei. Quod enim est 
+par<lb break="no" ed="#L" n="81"/>vum bonum vel malum, quasi fon reputatur: et
+<lb ed="#L" n="82"/>ideo pro omni motu appetitus in bonum vel in
+<lb ed="#L" n="83"/>malum futurum ?, ponitur spes et timor, quae
+<lb ed="#L" n="84"/>respiciunt bonum vel malum arduum !.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e827-Dd1e560"><!-- p2p1-q30-a3 -->
+               <head xml:id="TAca84-d1e827-Hd1e563">Articulus 3</head>
+               <head xml:id="TAca84-d1e827-Hd1e565" type="question-title">utrum sint aliquae concupiscentiae naturales, et aliquae non naturales</head>
+               <p xml:id="TAca84-d1e827-d1e568">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>ARTICULUS TERTIUS
+<lb ed="#L" n="20"/>UTRUM SINT ALIQUAE CONCUPISCENTIAE NATURALES, ET ALIQUAE NON NATURALES
+</p>
+               <p xml:id="TAca84-d1e827-d1e577">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="21"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="22"/>concupiscentiarum non sint quaedam
+<lb ed="#L" n="23"/>naturales, et quaedam non naturales.
+<lb ed="#L" n="24"/>Concupiscentia enim pertinet ad 
+appe<lb break="no" ed="#L" n="25"/>titum animalem, ut dictum est. Sed appetitus
+<lb ed="#L" n="26"/>naturalis dividitur contra animalem. Ergo nulla
+<lb ed="#L" n="27"/>concupiscentia est naturalis.
+</p>
+               <p xml:id="TAca84-d1e827-d1e597">
+                  <lb ed="#L" n="28"/>2. PRAETEREA, diversitas materialis non facit
+<lb ed="#L" n="29"/>diversitatem secundum speciem, sed solum 
+se<lb break="no" ed="#L" n="30"/>cundum numerum: quae quidem diversitas sub
+<lb ed="#L" n="31"/>arte non cadit. Sed si quae sint concupiscentiae
+<lb ed="#L" n="32"/>naturales et non naturales, non differunt nisi 
+se<lb break="no" ed="#L" n="33"/>cundum diversa concupiscibilia 5: quod facit 
+ma<lb break="no" ed="#L" n="34"/>terialem differentiam, et secundum numerum 
+tan<lb break="no" ed="#L" n="35"/>tum. Non ergo dividendae sunt concupiscentiae
+<lb ed="#L" n="36"/>per naturales et non naturales.
+</p>
+               <p xml:id="TAca84-d1e827-d1e620">
+                  <lb ed="#L" n="37"/>3. PRAETEREA, ratio contra naturam dividitur,
+<lb ed="#L" n="38"/>ut patet in II Physic. Si igitur in homine est
+<lb ed="#L" n="39"/>aliqua concupiscentia non naturalis, oportet quod
+<lb ed="#L" n="40"/>sit rationalis. Sed hoc esse non potest: quia 
+con<lb break="no" ed="#L" n="41"/>cupiscentia, cum sit passio quaedam, pertinet ad
+<lb ed="#L" n="42"/>appetitum sensitivum, non autem ad 
+volunta<lb break="no" ed="#L" n="43"/>tem, quae est appetitus rationis. Non ergo sunt
+<lb ed="#L" n="44"/>concupiscentiae aliquae non naturales.
+</p>
+               <p xml:id="TAca84-d1e827-d1e640">
+                  <lb ed="#L" n="45"/>SED CONTRA EST quod Philosophus, in III Ethic.
+<lb ed="#L" n="46"/>et in I Rhetoric., ponit quasdam 
+concupiscen<lb break="no" ed="#L" n="47"/>tias naturales, et quasdam non naturales.
+</p>
+               <p xml:id="TAca84-d1e827-d1e649">
+                  <lb ed="#L" n="48"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="49"/>concupiscentia est appetitus boni delectabilis. 
+Du<lb break="no" ed="#L" n="50"/>pliciter autem aliquid est delectabile, Uno modo,
+<lb ed="#L" n="51"/>quia est conveniens naturae animalis: sicut cibus,
+<lb ed="#L" n="52"/>potus, et alia huiusmodi. Et huiusmodi 
+concupi<lb break="no" ed="#L" n="53"/>scentia delectabilis dicitur naturalis. - Alio modo
+<lb ed="#L" n="54"/>aliquid est ? delectabile, quia est conveniens 
+ani<lb break="no" ed="#L" n="55"/>mali secundum apprehensionem: sicut cum 
+ali<lb break="no" ed="#L" n="56"/>quis apprehendit aliquid ut bonum et conveniens,
+<lb ed="#L" n="57"/>et per consequens delectatur in ipso. Et 
+huius<lb break="no" ed="#L" n="58"/>modi delectabilis concupiscentia dicitur non 
+na<lb break="no" ed="#L" n="59"/>turalis, et solet magis dici cupiditas.
+</p>
+               <p xml:id="TAca84-d1e827-d1e678">
+                  <lb ed="#L" n="60"/>Primae ergo concupiscentiae, naturales, 
+com<lb break="no" ed="#L" n="61"/>munes sunt et hominibus et aliis animalibus: quia
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="62"/>utrisque est aliquid conveniens et delectabile 
+se<lb break="no" ed="#L" n="63"/>cundum naturam. Et in his etiam omnes homines
+<lb ed="#L" n="64"/>conveniunt: unde et Philosophus, in III Ethic.,
+<lb ed="#L" n="65"/>vocat eas communes et necessarias. - Sed 
+secun<lb break="no" ed="#L" n="66"/>dae concupiscentiae sunt propriae hominum, 
+quo<lb break="no" ed="#L" n="67"/>rum proprium est excogitare aliquid ut bonum
+<lb ed="#L" n="68"/>et conveniens, praeter id quod natura requirit.
+<lb ed="#L" n="69"/>Unde et in I Rhetoric., Philosophus dicit 
+pri<lb break="no" ed="#L" n="70"/>mas concupiscentias esse irrationales, secundas
+<lb ed="#L" n="71"/>vero cum ratione. Et quia diversi diversimode
+<lb ed="#L" n="72"/>ratiocinantur, ideo etiam secundae dicuntur, in III
+<lb ed="#L" n="73"/>Ethic., propriae et appositae, scilicet supra 
+na<lb break="no" ed="#L" n="74"/>turales.
+</p>
+               <p xml:id="TAca84-d1e827-d1e715">
+                  <lb ed="#L" n="75"/>AD PRIMUM ERGO DICENDUM quod illud idem quod
+<lb ed="#L" n="76"/>appetitur appetitu naturali, potest appeti appetitu
+<lb ed="#L" n="77"/>animali, cum fuerit apprehensum. Et secundum
+<lb ed="#L" n="78"/>hoc, cibi et potus et huiusmodi, quae appetuntur
+<lb ed="#L" n="79"/>naturaliter, potest esse concupiscentia naturalis.
+</p>
+               <p xml:id="TAca84-d1e827-d1e728">
+                  <lb ed="#L" n="80"/>AD SECUNDUM DICENDUM quod diversitas 
+concu<lb break="no" ed="#L" n="81"/>piscentiarum naturalium a non naturalibus, non
+<lb ed="#L" n="82"/>est materialis tantum; sed etiam quodammodo
+<lb ed="#L" n="83"/>formalis, inquantum procedit ex diversitate obiecti
+<lb ed="#L" n="84"/>activi. Obiectum autem appetitus est bonum 
+ap<lb break="no" ed="#L" n="85"/>prehensum. Unde ad diversitatem activi pertinet
+<lb ed="#L" n="86"/>diversitas apprehensionis: prout scilicet 
+apprehen<lb break="no" ed="#L" n="87"/>ditur. aliquid ut conveniens absoluta 
+apprehen<lb break="no" ed="#L" n="88"/>sione, ex qua causantur concupiscentiae naturales,
+<lb ed="#L" n="89"/>quas Philosophus in Rhetoric. vocat írrationales;
+<lb ed="#L" n="90"/>et prout apprehenditur aliquid cum deliberatione,
+<lb ed="#L" n="91"/>ex quo causantur concupiscentiae non naturales,
+<lb ed="#L" n="92"/>quae propter hoc in Rhetoric. dicuntur cum
+<lb ed="#L" n="93"/>ratione.
+</p>
+               <p xml:id="TAca84-d1e827-d1e762">
+                  <lb ed="#L" n="94"/>AD TERTIUM DICENDUM quod in homine non 
+so<lb break="no" ed="#L" n="95"/>lum est ratio universalis, quae pertinet ad partem
+<lb ed="#L" n="96"/>intellectivam ; sed etiam ratio particularis, quae
+<lb ed="#L" n="97"/>pertinet ad partem sensitivam, ut in primo libro
+<lb ed="#L" n="98"/>dictum est. Et secundum hoc, etiam concupiscen- 3
+<lb ed="#L" n="99"/>tia quae est cum ratione, potest ad appetitum
+<lb ed="#L" n="100"/>sensitivum pertinere. - Et praeterea ' appetitus
+<lb ed="#L" n="101"/>sensitivus potest etiam a ratione universali moveri,
+<lb ed="#L" n="102"/>mediante imaginatione particulari.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e827-Dd1e785"><!-- p2p1-q30-a4 -->
+               <head xml:id="TAca84-d1e827-Hd1e788">Articulus 4</head>
+               <head xml:id="TAca84-d1e827-Hd1e790" type="question-title">utrum concupiscentia sit infinita</head>
+               <p xml:id="TAca84-d1e827-d1e793">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="96"/>ARTICULUS QUARTUS
+<lb ed="#L" n="97"/>UTRUM CONCUPISCENTIA SIT INFINITA
+</p>
+               <p xml:id="TAca84-d1e827-d1e802">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="98"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="99"/>concupiscentia non sit infinita. 
+Obie<lb break="no" ed="#L" n="100"/>ctum enim concupiscentiae est bonum;
+<lb ed="#L" n="101"/>quod habet rationem finis. Qui autem
+<lb ed="#L" n="102"/>ponit infinitum, excludit finem, ut dicitur in II
+<lb ed="#L" n="103"/>Metaphys. Concupiscentia ergo non potest esse
+<lb ed="#L" n="104"/>infinita.
+</p>
+               <p xml:id="TAca84-d1e827-d1e822">
+                  <lb ed="#L" n="105"/>2. PRAETEREA, concupiscentia est boni 
+conve<lb break="no" ed="#L" n="106"/>nientis: cum procedat ex amore. Sed infinitum,
+<lb ed="#L" n="107"/>cum sit improportionatum, non potest esse 
+con<lb break="no" ed="#L" n="108"/>veniens. Ergo concupiscentia non potest esse 
+in<lb break="no" ed="#L" n="109"/>finita.
+</p>
+               <p xml:id="TAca84-d1e827-d1e836">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="110"/>3. PRAETEREA, infinita non est transire: et sic
+<lb ed="#L" n="111"/>in eis non est pervenire ad ultimum. Sed 
+con<lb break="no" ed="#L" n="112"/>cupiscenti fit delectatio per hoc quod attingit ad
+<lb ed="#L" n="113"/>ultimum 8. Ergo si concupiscentia esset infinita,
+<lb ed="#L" n="114"/>sequeretur quod nunquam fieret delectatio.
+</p>
+               <p xml:id="TAca84-d1e827-d1e852">
+                  <lb ed="#L" n="115"/>SED cowTRA EsT quod Philosophus dicit, in I
+<lb ed="#L" n="116"/>Polit., quod, in infinitum concupiscentia 
+exi<lb break="no" ed="#L" n="117"/>stente, homines infinita desiderant.
+</p>
+               <p xml:id="TAca84-d1e827-d1e861">
+                  <lb ed="#L" n="118"/>REsPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="119"/>duplex est concupiscentia: una naturalis, et alia
+<lb ed="#L" n="120"/>non naturalis. Naturalis quidem igitur 
+concupi<lb break="no" ed="#L" n="121"/>scentia non potest esse infinita in actu. Est enim
+<pb ed="#L" n="213"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>eius quod natura requirit: natura vero semper
+<lb ed="#L" n="2"/>intendit in aliquid finitum et certum. Unde 
+nun<lb break="no" ed="#L" n="3"/>quam homo concupiscit infinitum cibum, vel 
+in<lb break="no" ed="#L" n="4"/>finitum potum. - Sed sicut in natura contingit esse
+<lb ed="#L" n="5"/>infinitum in potentia per successionem, ita 
+hu<lb break="no" ed="#L" n="6"/>iusmodi concupiscentiam contingit infinitam ? esse
+<lb ed="#L" n="7"/>per successionem ; ut scilicet, post adeptum cibum,
+<lb ed="#L" n="8"/>iterum alia vice desideret cibum, vel quodcumque
+<lb ed="#L" n="9"/>aliud quod natura requirit: quia huiusmodi 
+cor<lb break="no" ed="#L" n="10"/>poralia bona, cum adveniunt, non perpetuo 
+ma<lb break="no" ed="#L" n="11"/>nent, sed deficiunt. Unde dixit Dominus 
+Sama<lb break="no" ed="#L" n="12"/>ritanae, Ioan. iv: Qui biberit ex hac aqua, sitiet
+<lb ed="#L" n="13"/>iterum.
+</p>
+               <p xml:id="TAca84-d1e827-d1e905">
+                  <lb ed="#L" n="14"/>Sed concupiscentia non naturalis omnino. est
+<lb ed="#L" n="15"/>infinita. Sequitur enim rationem, ut dictum est:
+<lb ed="#L" n="16"/>rationi autem. competit in infinitum procedere.
+<lb ed="#L" n="17"/>Unde qui concupiscit divitias, potest eas 
+concupi<lb break="no" ed="#L" n="18"/>scere, non ad aliquem certum terminum, sed 
+sim<lb break="no" ed="#L" n="19"/>pliciter se divitem esse, quantumcumque potest.
+</p>
+               <p xml:id="TAca84-d1e827-d1e921">
+                  <lb ed="#L" n="20"/>Potest et alia ratio assignari, secundum 
+Philoso<lb break="no" ed="#L" n="21"/>phum in I Polit., quare quaedam 
+concupiscen<lb break="no" ed="#L" n="22"/>tia sit finita, et quaedam infinita. Semper enim
+<lb ed="#L" n="23"/>concupiscentia finis est infinita: finis enim per
+<lb ed="#L" n="24"/>se concupiscitur, ut sanitas; unde maior sanitas
+<lb ed="#L" n="25"/>magis concupiscitur, et sic in infinitum ; sicut,
+<lb ed="#L" n="26"/>si album per se disgregat, magis album magis 
+dis<lb break="no" ed="#L" n="27"/>gregat. Concupiscentia vero eius quod est ad 
+fi<lb break="no" ed="#L" n="28"/>nem, non est infinita, sed ^ secundum illam men-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="29"/>suram appetitur qua convenit fini. Unde qui finem
+<lb ed="#L" n="30"/>ponunt in divitiis, habent concupiscentiam 
+divi<lb break="no" ed="#L" n="31"/>tiarum in infinitum: qui autem divitias appetunt
+<lb ed="#L" n="32"/>propter necessitatem vitae, concupiscunt divitias
+<lb ed="#L" n="33"/>finitas, sufficientes ad necessitatem vitae, ut 
+Phi<lb break="no" ed="#L" n="34"/>losophus dicit ibidem. Et eadem est ratio de 
+con<lb break="no" ed="#L" n="35"/>cupiscentia quarumcumque aliarum rerum.
+</p>
+               <p xml:id="TAca84-d1e827-d1e960">
+                  <lb ed="#L" n="36"/>AD PRIMUM ERGO DICENDUM quod omne quod
+<lb ed="#L" n="37"/>concupiscitur, accipitur ut quoddam finitum: vel
+<lb ed="#L" n="38"/>quia est finitum secundum rem, prout semel
+<lb ed="#L" n="39"/>concupiscitur in. actu; vel quia est finitum 
+se<lb break="no" ed="#L" n="40"/>cundum quod cadit sub apprehensione. Non
+<lb ed="#L" n="41"/>enim potest sub ratione infiniti apprehendi: quia
+<lb ed="#L" n="42"/>infinitum est, cuius quantitatem accipientibus, 
+sem<lb break="no" ed="#L" n="43"/>per est aliquid. extra sumere, ut dicitur in III
+<lb ed="#L" n="44"/>Physic.
+</p>
+               <p xml:id="TAca84-d1e827-d1e983">
+                  <lb ed="#L" n="45"/>AD SECUNDUM DICENDUM quod ratio quodammodo
+<lb ed="#L" n="46"/>est virtutis infinitae, inquantum potest in 
+infini<lb break="no" ed="#L" n="47"/>tum aliquid considerare, ut apparet in additione
+<lb ed="#L" n="48"/>numerorum et linearum. Unde infinitum aliquo
+<lb ed="#L" n="49"/>modo sumptum, est proportionatum rationi. Nam
+<lb ed="#L" n="50"/>et universale, quod ratio apprehendit, est 
+quo<lb break="no" ed="#L" n="51"/>dammodo infinitum, inquantum in potentia 
+con<lb break="no" ed="#L" n="52"/>tinet infinita singularia.
+</p>
+               <p xml:id="TAca84-d1e827-d1e1003">
+                  <lb ed="#L" n="53"/>AD TERTIUM DICENDUM quod ad hoc quod aliquis
+<lb ed="#L" n="54"/>delectetur, non requiritur quod omnia 
+consequa<lb break="no" ed="#L" n="55"/>tur quae concupiscit: sed in quolibet concupito
+<lb ed="#L" n="56"/>quod consequitur, delectatur '.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

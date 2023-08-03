@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 52</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 52</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="330"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e941"><!-- p2p1-q52 -->
+            <head xml:id="TAca84-d1e941-Hd1e99">Quaestio 52</head>
+            <head xml:id="TAca84-d1e941-Hd1e101" type="question-title">de augmento habituum</head>
+            <p xml:id="TAca84-d1e941-d1e104">
+               <pb ed="#L" n="330"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO QUINQUAGESIMASECUNDA
+<lb ed="#L" n="2"/>DE AUGMENTO HABITUUM
+<lb ed="#L" n="3"/>IN TRES ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e941-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de augmento 
+ha<lb break="no" ed="#L" n="5"/>bituum.
+<lb ed="#L" n="6"/>Et circa hoc quaeruntur tria.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="7"/>Primo: utrum habitus augeantur.
+<lb ed="#L" n="8"/>Secundo: utrum augeantur per additionem.
+<lb ed="#L" n="9"/>Tertio: utrum quilibet actus augeat habitum.
+</p>
+            <div xml:id="TAca84-d1e941-Dd1e137"><!-- p2p1-q52-a1 -->
+               <head xml:id="TAca84-d1e941-Hd1e140">Articulus 1</head>
+               <head xml:id="TAca84-d1e941-Hd1e142" type="question-title">utrum habitus augeantur</head>
+               <p xml:id="TAca84-d1e941-d1e145">
+                  <lb ed="#L" n="10"/>ARTICULUS PRIMUS
+<lb ed="#L" n="11"/>UTRUM HABITUS AUGEANTUR
+</p>
+               <p xml:id="TAca84-d1e941-d1e152">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="13"/>habitus augeri non possint. Augmentum
+<lb ed="#L" n="14"/>enim est circa quantitatem , ut dicitur
+<lb ed="#L" n="15"/>in V Physic. Sed habitus non sunt
+<lb ed="#L" n="16"/>in genere quantitatis, sed in genere qualitatis.
+<lb ed="#L" n="17"/>Ergo circa eos augmentum esse non potest.
+</p>
+               <p xml:id="TAca84-d1e941-d1e170">
+                  <lb ed="#L" n="18"/>2. PRAETEREA, habitus est perfectio quaedam,
+<lb ed="#L" n="19"/>ut dicitur in VII Physic. Sed perfectio, cum 
+im<lb break="no" ed="#L" n="20"/>portet finem et terminum, non videtur posse
+<lb ed="#L" n="21"/>recipere magis et minus. Ergo habitus augeri
+<lb ed="#L" n="22"/>non potest.
+</p>
+               <p xml:id="TAca84-d1e941-d1e184">
+                  <lb ed="#L" n="23"/>3. PRAETEREA, in his quae recipiunt magis et
+<lb ed="#L" n="24"/>minus, contingit esse alterationem: alterari enim
+<lb ed="#L" n="25"/>dicitur quod de minus calido fit magis calidum.
+<lb ed="#L" n="26"/>Sed in habitibus non est alteratio, ut probatur
+<lb ed="#L" n="27"/>in VII Physic. Ergo habitus augeri non possunt.
+</p>
+               <p xml:id="TAca84-d1e941-d1e197">
+                  <lb ed="#L" n="28"/>SED CONTRA EST quod fides est quidam 
+habi<lb break="no" ed="#L" n="29"/>tus, et tamen augetur: unde discipuli Domino ?
+<lb ed="#L" n="30"/>dicunt: Domine, adauge nobis fidem, ut habetur
+<lb ed="#L" n="31"/>Luc. xvii. Ergo habitus augentur.
+</p>
+               <p xml:id="TAca84-d1e941-d1e208">
+                  <lb ed="#L" n="32"/>REsPONDEO DICENDUM quod augmentum, sicut
+<lb ed="#L" n="33"/>et alia ad quantitatem pertinentia, a 
+quantitati<lb break="no" ed="#L" n="34"/>bus corporalibus ad res spirituales intelligibiles Y
+<lb ed="#L" n="35"/>transfertur; propter connaturalitatem intellectus
+<lb ed="#L" n="36"/>nostro ad res corporeas, quae sub imaginatione
+<lb ed="#L" n="37"/>cadunt. Dicitur autem in quantitatibus corporeis
+<lb ed="#L" n="38"/>aliquid magnum, secundum quod ad. debitam
+<lb ed="#L" n="39"/>perfectionem quantitatis perducitur: unde aliqua
+<lb ed="#L" n="40"/>quantitas reputatur magna in homine, quae non
+<lb ed="#L" n="41"/>reputatur magna in elephante. Unde et in 
+for<lb break="no" ed="#L" n="42"/>mis dicimus aliquid magnum, ex hoc quod est
+<lb ed="#L" n="43"/>perfectum. Et quia. bonum habet rationem 
+per<lb break="no" ed="#L" n="44"/>fecti, propter hoc <quote xml:id="TAca84-d1e941-Qd1e238">in his quae non mole magna
+<lb ed="#L" n="45"/>sunt, idem est esse maius quod melius</quote>, ut 
+Au<lb break="no" ed="#L" n="46"/>gustinus dicit, in VI de Zrin.
+</p>
+               <p xml:id="TAca84-d1e941-d1e246">
+                  <lb ed="#L" n="47"/>Perfectio autem formae dupliciter potest 
+con<lb break="no" ed="#L" n="48"/>siderari: uno modo, secundum ipsam formam;
+<lb ed="#L" n="49"/>alio modo, secundum quod subiectum participat
+<lb ed="#L" n="50"/>formam. Inquantum igitur attenditur perfectio 
+for<lb break="no" ed="#L" n="51"/>mae secundum ipsam formam, sic ? dicitur ipsa
+<lb ed="#L" n="52"/>esse parva vel magna; puta magna vel parva
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="53"/>sanitas vel scientia. Inquantum vero attenditur
+<lb ed="#L" n="54"/>perfectio formae secundum. participationem 
+sub<lb break="no" ed="#L" n="55"/>lecti, dicitur magis et minus; puta magis vel 
+mi<lb break="no" ed="#L" n="56"/>nus album vel sanum. Non autem ista distinctio
+<lb ed="#L" n="57"/>procedit secundum hoc, quod forma habeat esse
+<lb ed="#L" n="58"/>praeter materiam aut subiectum: sed quia alia
+<lb ed="#L" n="59"/>est consideratio eius secundum rationem speciei
+<lb ed="#L" n="60"/>suae, et alia secundum quod participatur in 
+sub<lb break="no" ed="#L" n="61"/>lecto.
+</p>
+               <p xml:id="TAca84-d1e941-d1e283">
+                  <lb ed="#L" n="62"/>Secundum hoc igitur, circa intensionem et 
+re<lb break="no" ed="#L" n="63"/>missionem habituum et formarum, fuerunt 
+qua<lb break="no" ed="#L" n="64"/>tuor opiniones apud philosophos, ut Simplicius
+<lb ed="#L" n="65"/>narrat in. Commento Praedicamentorum. 
+Ploti<lb break="no" ed="#L" n="66"/>nus enim et alii Platonici ponebant ipsas 
+qualita<lb break="no" ed="#L" n="67"/>tes et habitus suscipere magis et minus, propter
+<lb ed="#L" n="68"/>hoc quod materiales erant, et ex hoc habebant
+<lb ed="#L" n="69"/>indeterminationem quandam, propter materiae
+<lb ed="#L" n="70"/>infinitatem. — Alii vero in contrarium ponebant
+<lb ed="#L" n="71"/>quod ipsae qualitates et habitus secundum se
+<lb ed="#L" n="72"/>non recipiebant magis et minus; sed qualia 
+di<lb break="no" ed="#L" n="73"/>cuntur magis et minus, secundum diversam 
+par<lb break="no" ed="#L" n="74"/>ticipationem ; puta quod iustitia non dicatur magis
+<lb ed="#L" n="75"/>et minus, sed iustum. Et hanc opinionem tangit
+<lb ed="#L" n="76"/>Aristoteles in Praedicamentis. — Tertia fuit 
+opi<lb break="no" ed="#L" n="77"/>nio Stoicorum, media inter has; Posuerunt enim
+<lb ed="#L" n="78"/>quod aliqui habitus secundum se recipiunt 
+ma<lb break="no" ed="#L" n="79"/>gis et minus, sicuti artes; quidam autem non,
+<lb ed="#L" n="80"/>sicut virtutes. - Quarta opinio fuit quorundam
+<lb ed="#L" n="81"/>dicentium quod qualitates et formae immateriales
+<lb ed="#L" n="82"/>non recipiunt magis et minus, materiales autem
+<lb ed="#L" n="83"/>recipiunt.
+</p>
+               <p xml:id="TAca84-d1e941-d1e333">
+                  <lb ed="#L" n="84"/>Ut igitur huius rei veritas manifestetur, 
+consi<lb break="no" ed="#L" n="85"/>derandum est quod illud secundum quod 
+sor<lb break="no" ed="#L" n="86"/>titur aliquid speciem, oportet esse fixum et stans,
+<lb ed="#L" n="87"/>et quasi indivisibile: quaecumque enim ad illud
+<lb ed="#L" n="88"/>attingunt, sub specie continentur; quaecumque
+<lb ed="#L" n="89"/>autem recedunt ab illo, vel in plus vel in minus;
+<lb ed="#L" n="90"/>pertinent ad aliam speciem, vel perfectiorem vel
+<lb ed="#L" n="91"/>imperfectiorem. Unde Philosophus dicit, in VIII
+<lb ed="#L" n="92"/>Metaphys., quod species rerum sunt sicut nu- :
+<lb ed="#L" n="93"/>meri, in quibus additio vel diminutio variat spe-
+<pb ed="#L" n="331"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ciem. Si igitur aliqua forma, vel quaecumque res,
+<lb ed="#L" n="2"/>secundum seipsam vel secundum aliquid sui, 
+sor<lb break="no" ed="#L" n="3"/>tiatur rationem speciei; necesse est quod, 
+secun<lb break="no" ed="#L" n="4"/>dum se considerata, habeat determinatam 
+ratio<lb break="no" ed="#L" n="5"/>nem, quae neque in plus excedere, neque in
+<lb ed="#L" n="6"/>minus deficere possit. Et huiusmodi sunt calor
+<lb ed="#L" n="7"/>et albedo, et aliae huiusmodi qualitates quae non
+<lb ed="#L" n="8"/>dicuntur in ordine ad aliud: et multo magis 
+sub<lb break="no" ed="#L" n="9"/>stantia, quae est per se ens. —- Illa vero quae 
+re<lb break="no" ed="#L" n="10"/>cipiunt speciem ex aliquo ad quod ordinantur,
+<lb ed="#L" n="11"/>possunt secundum seipsa diversificari in plus vel
+<lb ed="#L" n="12"/>in minus, et nihilominus sunt eadem specie, 
+pro<lb break="no" ed="#L" n="13"/>pter unitatem eius ad quod ordinantur, ex quo
+<lb ed="#L" n="14"/>recipiunt speciem. Sicut motus secundum se est
+<lb ed="#L" n="15"/>intensior et remissior: et tamen remanet eadem
+<lb ed="#L" n="16"/>species, propter unitatem termini, ex quo 
+speci<lb break="no" ed="#L" n="17"/>ficatar. Et idem potest considerari in sanitate:
+<lb ed="#L" n="18"/>nam corpus pertingit ad rationem sanitatis , 
+se<lb break="no" ed="#L" n="19"/>cundum. quod habet dispositionem convenientem
+<lb ed="#L" n="20"/>naturae animalis, cui possunt dispositiones 
+diver<lb break="no" ed="#L" n="21"/>sae convenientes esse; unde potest variari 
+dispo<lb break="no" ed="#L" n="22"/>sitio in plus vel in minus, et tamen semper 
+re<lb break="no" ed="#L" n="23"/>manet ratio sanitatis. Unde Philosophus dicit, in
+<lb ed="#L" n="24"/>X Ethic., quod sanitas ipsa recipit magis etl
+<lb ed="#L" n="25"/>minus: non enim eadem est commensuralio in
+<lb ed="#L" n="26"/>omnibus, neque in uno et eodem semper; sed 
+re<lb break="no" ed="#L" n="27"/>missa permanet sanitas usque ad aliquid. 
+Huius<lb break="no" ed="#L" n="28"/>modi autem diversae. dispositiones vel 
+commen<lb break="no" ed="#L" n="29"/>surationes sanitatis se habent secundum excedens
+<lb ed="#L" n="30"/>et excessum: unde si nomen sanitatis esset 
+impo<lb break="no" ed="#L" n="31"/>situm soli perfectissimae commensurationi , tunc
+<lb ed="#L" n="32"/>sa sanitas non diceretur maior vel minor. -
+<lb ed="#L" n="33"/>AP igitur patet qualiter aliqua qualitas vel forma
+<lb ed="#L" n="34"/>possit secundum seipsam augeri vel minui, et
+<lb ed="#L" n="35"/>quatiios. non.
+</p>
+               <p xml:id="TAca84-d1e941-d1e438">
+                  <lb ed="#L" n="36"/>Si vero consideremus qualitatem vel torüáa
+<lb ed="#L" n="37"/>secundum participationem subiecti, sic etiam 
+in<lb break="no" ed="#L" n="38"/>veniuntur quaedam qualitates et formae recipere
+<lb ed="#L" n="39"/>magis et. minus, et quaedam non. Huiusmodi
+<lb ed="#L" n="40"/>autem diversitatis causam Simplicius assignat
+<lb ed="#L" n="41"/>ex hoc, quod substantia secundum seipsam non
+<lb ed="#L" n="42"/>potest recipere magis et minus, quia est ens per
+<lb ed="#L" n="43"/>se. Et ideo omnis forma quae. substantialiter
+<lb ed="#L" n="44"/>participatur in subiecto, caret intensione et 
+re<lb break="no" ed="#L" n="45"/>missione: unde in genere substantiae nihil dicitur
+<lb ed="#L" n="46"/>secundum magis et minus. Et quia quantitas 
+pro<lb break="no" ed="#L" n="47"/>pinqua est substantiae, et figura etiam consequitur
+<lb ed="#L" n="48"/>quantitatem; inde est quod neque etiam in istis
+<lb ed="#L" n="49"/>dicitur aliquid secundum magis aut minus. Unde
+<lb ed="#L" n="50"/>Philosophus dicit, in VII Physic., quod cum
+<lb ed="#L" n="51"/>aliquid accipit formam et figuram, non dicitur
+<lb ed="#L" n="52"/>alterari, sed magis fieri. - Aliae vero qualitates,
+<lb ed="#L" n="53"/>quae sunt magis distantes a substantia; et 
+con<lb break="no" ed="#L" n="54"/>iunguntur passionibus et actionibus, recipiunt 
+ma<lb break="no" ed="#L" n="55"/>gis et minus secundum participationem subiecti.
+</p>
+               <p xml:id="TAca84-d1e941-d1e484">
+                  <lb ed="#L" n="56"/>Potest autem et magis explicari huiusmodi 
+di<lb break="no" ed="#L" n="57"/>versitatis ratio. Ut enim dictum est, id a quo
+<lb ed="#L" n="58"/>aliquid habet speciem, oportet manere fixum et
+<lb ed="#L" n="59"/>stans in indivisibili. Duobus igitur modis potest
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="60"/>contingere quod forma non participatur 
+secun<lb break="no" ed="#L" n="61"/>dum magis et minus. Uno modo, quia participans
+<lb ed="#L" n="62"/>habet speciem secundum ipsam. Et inde est quod
+<lb ed="#L" n="63"/>nulla forma substantialis participatur secundum
+<lb ed="#L" n="64"/>magis et minus. Et propter hoc Philosophus dicit,
+<lb ed="#L" n="65"/>in VIII Metaphys., quod, sicut numerus non habet :
+<lb ed="#L" n="66"/>magis neque minus, sic neque substantia quae est
+<lb ed="#L" n="67"/>secundum speciem , idest quantum ad 
+participa<lb break="no" ed="#L" n="68"/>tionem formae specificae; sed si quidem quae cum
+<lb ed="#L" n="69"/>maleria, idest, secundum materiales dispositiones
+<lb ed="#L" n="70"/>invenitur magis et minus in substantia.- Alio modo
+<lb ed="#L" n="71"/>potest contingere ex hoc quod ipsa indivisibilitas
+<lb ed="#L" n="72"/>est de ratione formae: unde oportet quod, si 
+ali<lb break="no" ed="#L" n="73"/>quid participet formam illam, quod participet illam
+<lb ed="#L" n="74"/>secundum rationem indivisibilitatis. Et inde est
+<lb ed="#L" n="75"/>quod species numeri non dicuntur secundum 
+ma<lb break="no" ed="#L" n="76"/>gis et minus: quia unaquaeque species in eis
+<lb ed="#L" n="77"/>constituitur per indivisibilem unitatem. Et eadem
+<lb ed="#L" n="78"/>ratio est de speciebus quantitatis continuae quae
+<lb ed="#L" n="79"/>secundum numeros accipiuntur, ut bicubitum et
+<lb ed="#L" n="80"/>tricubitum; et de relationibus, ut duplum et 
+tri<lb break="no" ed="#L" n="81"/>plum; et de figuris, ut trigonum et tetragonum.
+<lb ed="#L" n="82"/>Et hanc rationem ponit Aristoteles in 
+Praedica<lb break="no" ed="#L" n="83"/>mentis, ubi, assignans rationem quare. figurae
+<lb ed="#L" n="84"/>non recipiunt magis et minus, dicit: Quae 
+qui<lb break="no" ed="#L" n="85"/>dem enim recipiunt trigoni rationem et circuli, 
+si<lb break="no" ed="#L" n="86"/>militer trigona vel circuli sunt: quia scilicet 
+indi<lb break="no" ed="#L" n="87"/>visibilitas est de ipsa eorum ratione, unde 
+quae<lb break="no" ed="#L" n="88"/>cumque participant rationeri eorum, oportet quod
+<lb ed="#L" n="89"/>indivisibiliter. participent.
+</p>
+               <p xml:id="TAca84-d1e941-d1e562">
+                  <lb ed="#L" n="90"/>Sic igitur patet quod, cum habitus et 
+disposi<lb break="no" ed="#L" n="91"/>tiones dicantur secundum ordinem ad aliquid, ut
+<lb ed="#L" n="92"/>dicitur in VII Physic.; dupliciter potest intensio
+<lb ed="#L" n="93"/>et remissio in habitibus et dispositionibus 
+consi<lb break="no" ed="#L" n="94"/>derari. Uno modo, secundum se: prout dicitur
+<lb ed="#L" n="95"/>maior vel minor Sánitas ; vel maior vel minor
+<lb ed="#L" n="96"/>scientia, quae ad plura vel pauciora se extendit.
+<lb ed="#L" n="97"/>Alio modo, secundum participationem subiecti :
+<lb ed="#L" n="98"/>prout scilicet aequalis scientia vel sanitas magis
+<lb ed="#L" n="99"/>recipitur in uno quam in alio, secundum 
+diver<lb break="no" ed="#L" n="100"/>sam aptitudinem vel ex natura vel ex 
+consuetu<lb break="no" ed="#L" n="101"/>dine. Non enim habitus et dispositio dat speciem
+<lb ed="#L" n="102"/>subiecto: neque iterum in.;sui ratione includit ^
+<lb ed="#L" n="103"/>indivisibilitatem.
+</p>
+               <p xml:id="TAca84-d1e941-d1e595">
+                  <lb ed="#L" n="104"/>Quomodo autem circa virtutes se habeat,
+<lb ed="#L" n="105"/>infra dicetur.
+</p>
+               <p xml:id="TAca84-d1e941-d1e602">
+                  <lb ed="#L" n="106"/>AD PRIMUM ERGO DICENDUM quod, sicut nomen
+<lb ed="#L" n="107"/>magnitudinis derivatur a quantitatibus 
+corporali<lb break="no" ed="#L" n="108"/>bus ad intelligibiles perfectiones formarum; ita
+<lb ed="#L" n="109"/>etiam et nomen augmenti, cuius terminus est 
+ma<lb break="no" ed="#L" n="110"/>gnum.
+</p>
+               <p xml:id="TAca84-d1e941-d1e615">
+                  <lb ed="#L" n="111"/>AD SECUNDUM DICENDUM quod habitus quidem
+<lb ed="#L" n="112"/>perfectto est: non tamen talis perfectio quae sit
+<lb ed="#L" n="113"/>terminus sui subiecti, puta dans ei esse 
+specifi<lb break="no" ed="#L" n="114"/>cum. Neque etiam in sui ratione terminum 
+in<lb break="no" ed="#L" n="115"/>cludit, sicut species numerorum. Unde nihil 
+pro<lb break="no" ed="#L" n="116"/>hibet quin recipiat magis et minus.
+</p>
+               <p xml:id="TAca84-d1e941-d1e632">
+                  <lb ed="#L" n="117"/>AD TERTIUM. DICENDUM quod alteratio primo 
+qui<lb break="no" ed="#L" n="118"/>dem est in qualitatibus tertiae speciei. In quali-
+<pb ed="#L" n="332"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tatibus vero primae speciei potest esse alteratio
+<lb ed="#L" n="2"/>per posteriüs: facta enim alteratione secundum
+<lb ed="#L" n="3"/>calidum et frigidum, sequitur animal alterari 
+se<lb break="no" ed="#L" n="4"/>cundum sanum et aegrum. Et similiter, facta al-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="5"/>teratione secundum passiones appetitus sensitivi,
+<lb ed="#L" n="6"/>vel secundum vires sensitivas apprehensivas, 
+se<lb break="no" ed="#L" n="7"/>quitur alteratio secundum scientias et virtutes,
+<lb ed="#L" n="8"/>ut dicitur in VII Physic.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e941-Dd1e665"><!-- p2p1-q52-a2 -->
+               <head xml:id="TAca84-d1e941-Hd1e668">Articulus 2</head>
+               <head xml:id="TAca84-d1e941-Hd1e670" type="question-title">utrum habitus augeatur per additionem</head>
+               <p xml:id="TAca84-d1e941-d1e673">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="103"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="104"/>UTRUM HABITUS AUGEATUR PER ADDITIONEM
+</p>
+               <p xml:id="TAca84-d1e941-d1e682">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="105"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="106"/>augmentum habituum fiat per 
+additio<lb break="no" ed="#L" n="107"/>nem. Nomen enim augmenti, ut dictum
+<lb ed="#L" n="108"/>est, a quantitatibus corporalibus 
+trans<lb break="no" ed="#L" n="109"/>fertur ad formas. Sed in quantitatibus 
+corporali<lb break="no" ed="#L" n="110"/>bus non fit augmentum sine additione: unde in
+<lb ed="#L" n="111"/>I de Generat. dicitur quod augmentum est 
+prae<lb break="no" ed="#L" n="112"/>existenti magnitudini additamentum. Ergo et
+<lb ed="#L" n="113"/>in habitibus non fit augmentum nisi per 
+addi<lb break="no" ed="#L" n="114"/>tionem.
+</p>
+               <p xml:id="TAca84-d1e941-d1e708">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="115"/>2. PRAETEREA, habitus non augetur nisi aliquo
+<lb ed="#L" n="116"/>agente. Sed omne agens aliquid facit in subiecto
+<lb ed="#L" n="117"/>patiente:.sicut calefaciens facit calorem in ipso
+<lb ed="#L" n="118"/>calefacto 9. Ergo non potest esse augmentum
+<lb ed="#L" n="119"/>nisi aliqua fiat additio.
+</p>
+               <p xml:id="TAca84-d1e941-d1e725">
+                  <lb ed="#L" n="120"/>3. PRAETEREA, sicut id quod non est album,
+<lb ed="#L" n="121"/>est in potentia ad album; ita id quod est minus
+<lb ed="#L" n="122"/>album, est in potentia ad magis album. Sed id
+<lb ed="#L" n="123"/>quod non est album, non fit album nisi per
+<lb ed="#L" n="124"/>adventum albedinis. Ergo id quod est minus 
+  al<pb ed="#L" n="334"/>
+                  <cb ed="#L" n="a"/>
+                  <lb break="no" ed="#L" n="1"/>bum, non fit magis album nisi per aliquam aliam
+<lb ed="#L" n="2"/>albedinem supervenientem.
+</p>
+               <p xml:id="TAca84-d1e941-d1e747">
+                  <lb ed="#L" n="3"/>SED CONTRA EST quod <ref xml:id="TAca84-d1e941-Rd1e751">Philosophus dicit, in IV
+<lb ed="#L" n="4"/>Physic.</ref>: <quote xml:id="TAca84-d1e941-Qd1e756">Ex calido. fit magis calidum, nullo 
+fa<lb break="no" ed="#L" n="5"/>cio in materia calido, quod non esset calidum
+<lb ed="#L" n="6"/>quando erat minus: calidum</quote>. Ergo, pari ratione,
+<lb ed="#L" n="7"/>nec in aliis formis quae augentur, 'est cus 
+ad<lb break="no" ed="#L" n="8"/>ditio.
+</p>
+               <p xml:id="TAca84-d1e941-d1e768">
+                  <lb ed="#L" n="9"/>RESPONDEO DICENDUM quod huius quaestionis 
+so<lb break="no" ed="#L" n="10"/>lutio dependet ex praemissa. Dictum est enim
+<lb ed="#L" n="11"/>supra quod augmentum et diminutio in. formis
+<lb ed="#L" n="12"/>quae intenduntur et remittuntur, accidit uno modo
+<lb ed="#L" n="13"/>non ' ex parte ipsius formae secundum se 
+con<lb break="no" ed="#L" n="14"/>sideratae, sed. ex diversa participatione subiecti.
+<lb ed="#L" n="15"/>Et ideo huiusmodi augmentum habituum et 
+alia<lb break="no" ed="#L" n="16"/>rum formarum, non fit per additionem formàe ad
+<lb ed="#L" n="17"/>formam; sed fit per hoc quod subiectum magis
+<lb ed="#L" n="18"/>vel minus perfecte participat unam et eandem
+<lb ed="#L" n="19"/>formam. Et sicut per agens quod est actu, fit
+<lb ed="#L" n="20"/>aliquid. actu. calidum, quasi. de novo incipiens
+<lb ed="#L" n="21"/>participare formam, non quod fiat ipsa forma, ut
+<lb ed="#L" n="22"/>probatur VII Metaphys.; ita per actionem ' 
+in<lb break="no" ed="#L" n="23"/>tensam ipsius agentis efficitur magis calidum, 
+tan<lb break="no" ed="#L" n="24"/>quam perfectius participans formam, non tanquam
+<lb ed="#L" n="25"/>formae aliquid. addatur.
+</p>
+               <p xml:id="TAca84-d1e941-d1e807">
+                  <lb ed="#L" n="26"/>Si enim per additionem intelligeretur 
+huius<lb break="no" ed="#L" n="27"/>modi augmentum in formis, hoc non posset esse
+<lb ed="#L" n="28"/>nisi vel ex parte ipsius formae, vel ex parte
+<lb ed="#L" n="29"/>subiecti. Si autem ex parte ipsius formae, iam
+<lb ed="#L" n="30"/>dictum est quod talis additio vel subtractio 
+spe<lb break="no" ed="#L" n="31"/>ciem variaret; sicut variatur species coloris, 
+quan<lb break="no" ed="#L" n="32"/>do de pallido fit album. —- Si vero huiusmodi
+<lb ed="#L" n="33"/>additio intelligatur ex parte subiecti, hoc non 
+pos<lb break="no" ed="#L" n="34"/>set ? esse nisi vel quia aliqua pars subiecti recipit
+<lb ed="#L" n="35"/>formam: quam prius non habebat, ut si dicatur
+<lb ed="#L" n="36"/>frigus crescere in homine qui prius. frigebat in
+<lb ed="#L" n="37"/>una parte, quando iam in pluribus partibus friget:
+<lb ed="#L" n="38"/>vel quia aliquod aliud subiectum additur 
+partici<lb break="no" ed="#L" n="39"/>pans eandem formam, sicut si calidum adiungatur
+<lb ed="#L" n="40"/>calido, vel album albo. Sed secundum utrumque
+<lb ed="#L" n="41"/>istorum duorum modorum, non dicitur aliquid 
+ma<lb break="no" ed="#L" n="42"/>gis album vel calidum, sed maius.
+</p>
+               <p xml:id="TAca84-d1e941-d1e846">
+                  <lb ed="#L" n="43"/>Sed quia quaedam accidentia augentur 
+secun<lb break="no" ed="#L" n="44"/>dum seipsa, ut supra dictum est, in quibusdam
+<lb ed="#L" n="45"/>eorum fieri potest augmentum per additionem.
+<lb ed="#L" n="46"/>Augetur enim motus per hoc quod ei aliquids
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="47"/>additur vel secundum tempus in quo est, vel 
+se<lb break="no" ed="#L" n="48"/>cundum viam per quam est: et tamen manet
+<lb ed="#L" n="49"/>eadem species, propter unitatem termini. Augetur -
+<lb ed="#L" n="50"/>etiam nihilominus motus per intensionem, 
+secun<lb break="no" ed="#L" n="51"/>dum participationem. subiecti: inquantum scilicet
+<lb ed="#L" n="52"/>idem . motus potest vel. magis vel minus 
+expe<lb break="no" ed="#L" n="53"/>dite aut prompte fieri. - Similiter etiam et scientia
+<lb ed="#L" n="54"/>potest augeri secundum seipsam per additionem:
+<lb ed="#L" n="55"/>sicut cum aliquis plures conclusiones. geometriae
+<lb ed="#L" n="56"/>addiscit, augetur in eo habitus eiusdem scientiae
+<lb ed="#L" n="57"/>secundum speciem. Augetur nihilominus scientia
+<lb ed="#L" n="58"/>in aliquo, secundum participationem subiecti, per
+<lb ed="#L" n="59"/>intensionem: prout scilicet expeditius et clarius
+<lb ed="#L" n="60"/>unus homo se habet alio in eisdem. jFüneiasto;
+<lb ed="#L" n="61"/>nibus considerandis.
+</p>
+               <p xml:id="TAca84-d1e941-d1e892">
+                  <lb ed="#L" n="62"/>In habitibus autem: conoialibüs: non multum
+<lb ed="#L" n="63"/>videtur fieri augmentum per additionem. Quia
+<lb ed="#L" n="64"/>non dicitur animal sanum simpliciter, aut 
+pul<lb break="no" ed="#L" n="65"/>chrum, nisi secundum omnes partes suas sit tale.
+<lb ed="#L" n="66"/>Quod: autem ad perfectiorem commensurationem
+<lb ed="#L" n="67"/>perducatur, hoc contingit secundum transmü
+tatio<lb break="no" ed="#L" n="68"/>nem simplicium qualitatum ; quae non augentur
+<lb ed="#L" n="69"/>nisi secundum intensionem, ex parte subiecti JE
+<lb ed="#L" n="70"/>ticipantis.:
+</p>
+               <p xml:id="TAca84-d1e941-d1e915">
+                  <lb ed="#L" n="71"/>Quomodo autem se habeat circa virtutes, infra
+<lb ed="#L" n="72"/>dicetur. tort
+</p>
+               <p xml:id="TAca84-d1e941-d1e922">
+                  <lb ed="#L" n="73"/>AD PRIMUM ERGO DICENDUM quod etiam in  
+magni<lb break="no" ed="#L" n="74"/>tudine corporali contingit , dupliciter esse 
+aug<lb break="no" ed="#L" n="75"/>mentum. Uno modo, per additionem subiecti. .ad
+<lb ed="#L" n="76"/>subiectum ; sicut est in augmento viventium. Alio
+<lb ed="#L" n="77"/>modo, per solam intensionem, absque. omni 
+ad<lb break="no" ed="#L" n="78"/>ditione; sicut est in his quae petu ut dicitur
+<lb ed="#L" n="79"/>in IV Physic. ipa x
+</p>
+               <p xml:id="TAca84-d1e941-d1e940">
+                  <lb ed="#L" n="80"/>AD SECUNDUM DICENDUM. quod. causa  augens. .a- 8
+<lb ed="#L" n="81"/>bitum, facit. quidem semper. aliquid in subiecto,
+<lb ed="#L" n="82"/>non autem novam formam. Sed facit quod subie- .
+<lb ed="#L" n="83"/>ctum perfectius participet formam  praeexistentem,
+<lb ed="#L" n="84"/>aut quod amplius se extendat. pipere
+</p>
+               <p xml:id="TAca84-d1e941-d1e953">
+                  <lb ed="#L" n="85"/>AD TERTIUM. DICENDUM. quod.. id quod. nondum 1
+<lb ed="#L" n="86"/>est. album, est in potentia ad. formam i ipsam, 
+tan<lb break="no" ed="#L" n="87"/>quam nondum habens formam: et ideo agens
+<lb ed="#L" n="88"/>causat novam formam in subiecto. Sed id quod .
+<lb ed="#L" n="89"/>est minus calidum aut album, non est in potentia
+<lb ed="#L" n="90"/>ad formam, cum iam actu formam habeat: sed
+<lb ed="#L" n="91"/>est in potentia ad perfectum participationis 
+mo<lb break="no" ed="#L" n="92"/>dum. Et hoc consequitur per actionem agentis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e941-Dd1e974"><!-- p2p1-q52-a3 -->
+               <head xml:id="TAca84-d1e941-Hd1e977">Articulus 3</head>
+               <head xml:id="TAca84-d1e941-Hd1e979" type="question-title">utrum quilibet actus augeat habitum</head>
+               <p xml:id="TAca84-d1e941-d1e982">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="57"/>ARTICULUS TERTIUS
+<lb ed="#L" n="58"/>UTRUM QUILIBET ACTUS AUGEAT HABITUM
+</p>
+               <p xml:id="TAca84-d1e941-d1e991">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="59"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="60"/>quilibet actus augeat habitum. 
+Multipli<lb break="no" ed="#L" n="61"/>cata enim causa, multiplicatur effectus.
+<lb ed="#L" n="62"/>Ac N.Sed actus sunt causa habituum 
+aliquo<lb break="no" ed="#L" n="63"/>rum, ut supra dictum est. Ergo habitus augetur,
+<lb ed="#L" n="64"/>multiplicatis actibus.
+</p>
+               <p xml:id="TAca84-d1e941-d1e1009">
+                  <lb ed="#L" n="65"/>2. PRAETEREA, de similibus idem est iudicium.
+<lb ed="#L" n="66"/>Sed omnes actus ab eodem habitu procedentes sunt
+<lb ed="#L" n="67"/>similes, ut dieitur in II Ezhic. Ergo, si aliqui actus
+<lb ed="#L" n="68"/>augeant habitum, quilibet actus augebit ipsum.
+</p>
+               <p xml:id="TAca84-d1e941-d1e1021">
+                  <lb ed="#L" n="69"/>3. PRAETEREA, simile augetur suo simili. Sed
+<lb ed="#L" n="70"/>quilibet actus est similis habitui a quo procedit.
+<lb ed="#L" n="71"/>Ergo quilibet actus auget habitum.
+</p>
+               <p xml:id="TAca84-d1e941-d1e1030">
+                  <lb ed="#L" n="72"/>SED coNTRA, idem non est contrariorum causa.
+<lb ed="#L" n="73"/>Sed, sicut dicitur in II Ethic., aliqui actus ab
+<lb ed="#L" n="74"/>habitu procedentes diminuunt ipsum ; utpote cum
+<lb ed="#L" n="75"/>negligenter fiunt. Ergo non omnis actus habitum
+<lb ed="#L" n="76"/>auget.
+</p>
+               <p xml:id="TAca84-d1e941-d1e1043">
+                  <lb ed="#L" n="77"/>REsPONDEO DICENDUM quod. similes actus similes
+<lb ed="#L" n="78"/>habitus causant, ut dicitur in II Ethic. 
+Simili<lb break="no" ed="#L" n="79"/>tudo autem et dissimilitudo non solum attenditur
+<lb ed="#L" n="80"/>secundum qualitatem eandem vel diversam; sed
+<lb ed="#L" n="81"/>etiam secundum eundem vel diversum 
+participa<lb break="no" ed="#L" n="82"/>tionis modum. Est enim dissimile non solum ni-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="83"/>grum albo, sed etiam minus album magis albo:
+<lb ed="#L" n="84"/>nam etiam motus fit a minus albo in magis album,
+<lb ed="#L" n="85"/>tanquam ex opposito in oppositum, ut dicitur in
+<lb ed="#L" n="86"/>V Physic. ;
+</p>
+               <p xml:id="TAca84-d1e941-d1e1069">
+                  <lb ed="#L" n="87"/>Quia vero usus habituum in voluntate 
+homi<lb break="no" ed="#L" n="88"/>nis consistit, ut ex supradictis patet; sicut 
+con<lb break="no" ed="#L" n="89"/>tingit quod aliquis habens habitum non utitur
+<lb ed="#L" n="90"/>illo, vel etiam agit actum contrarium; ita etiam
+<lb ed="#L" n="91"/>potest contingere quod utitur habitu secundum
+<lb ed="#L" n="92"/>actum non respondentem proportionaliter 
+inten<lb break="no" ed="#L" n="93"/>sioni habitus. Si igitur intensio actus 
+proportio<lb break="no" ed="#L" n="94"/>naliter aequetur intensioni habitus, vel etiam 
+su<lb break="no" ed="#L" n="95"/>perexcedat; quilibet actus vel auget habitum, vel
+<lb ed="#L" n="96"/>disponit ad augmentum ipsius; ut loquamur de
+<lb ed="#L" n="97"/>augmento habituum ad similitudinem augmenti
+<lb ed="#L" n="98"/>animalis. Non enim quodlibet alimentum 
+assum<lb break="no" ed="#L" n="99"/>ptum actu auget animal, sicut nec quaelibet gutta
+<lb ed="#L" n="100"/>cavat lapidem: sed, multiplicato alimento, tandem
+<lb ed="#L" n="101"/>fit augmentum. Ita etiam, multiplicatis actibus,
+<lb ed="#L" n="102"/>crescit habitus. - Si vero intensio actus 
+propor<lb break="no" ed="#L" n="103"/>tionaliter deficiat ab intensione habitus, talis actus
+<lb ed="#L" n="104"/>non disponit ad augmentum habitus, sed magis
+<lb ed="#L" n="105"/>ad diminutionem ipsius.
+</p>
+               <p xml:id="TAca84-d1e941-d1e1113">
+                  <lb ed="#L" n="106"/>Et per hoc patet responsio ad obiecta.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

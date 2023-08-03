@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 34</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 34</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="235"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e848"><!-- p2p1-q34 -->
+            <head xml:id="TAca84-d1e848-Hd1e99">Quaestio 34</head>
+            <head xml:id="TAca84-d1e848-Hd1e101" type="question-title">de bonitate et malitia delectationum</head>
+            <p xml:id="TAca84-d1e848-d1e104">
+               <pb ed="#L" n="235"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO TRIGESIMAQUARTA
+<lb ed="#L" n="2"/>DE BONITATE ET MALITIA DELECTATIONUM
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e848-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de bonitate et 
+ma<lb break="no" ed="#L" n="5"/>litia delectationum.
+<lb ed="#L" n="6"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="7"/>Primo: utrum omnis delectatio sit mala.
+<lb ed="#L" n="8"/>Secundo: dato quód non, utrum omnis 
+dele<lb break="no" ed="#L" n="9"/>ctatio sit bona.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="10"/>Tertio: utrum aliqua delectatio sit optimum. ^
+<lb ed="#L" n="11"/>Quarto: utrum delectatio sit mensura vel 
+re<lb break="no" ed="#L" n="12"/>gula secundum quam iudicetur bonum vel
+<lb ed="#L" n="13"/>malum in moralibus.
+</p>
+            <div xml:id="TAca84-d1e848-Dd1e146"><!-- p2p1-q34-a1 -->
+               <head xml:id="TAca84-d1e848-Hd1e149">Articulus 1</head>
+               <head xml:id="TAca84-d1e848-Hd1e151" type="question-title">utrum omnis delectatio sit mala</head>
+               <p xml:id="TAca84-d1e848-d1e154">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>ARTICULUS PRIMUS
+<lb ed="#L" n="15"/>UTRUM OMNIS DELECTATIO SIT MALA
+</p>
+               <p xml:id="TAca84-d1e848-d1e163">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="16"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="17"/>omnis delectatio sit mala. lllud enim
+<lb ed="#L" n="18"/>quod corrumpit prudentiam, et impedit
+<lb ed="#L" n="19"/>rationis usum, videtur esse secundum
+<lb ed="#L" n="20"/>se malum: quia bonum hominis est secundum
+<lb ed="#L" n="21"/>rationem esse, ut Dionysius dicit, in iv cap. de
+<lb ed="#L" n="22"/>Div. Nom. Sed delectatio corrumpit 
+pruden<lb break="no" ed="#L" n="23"/>tiam, et impedit rationis usum: et tanto magis,
+<lb ed="#L" n="24"/>quanto delectationes sunt maiores. Unde in 
+de<lb break="no" ed="#L" n="25"/>lectationibus venereis, quae sunt maximae, 
+zmpos<lb break="no" ed="#L" n="26"/>sibile est aliquid intelligere, ut dicitur in VII Ethic.
+<lb ed="#L" n="27"/>Et Hieronymus etiam dicit, super Matth., quod
+<lb ed="#L" n="28"/>
+                  <quote xml:id="TAca84-d1e848-Qd1e195">illo tempore quo coniugales actus geruntur, 
+prae<lb break="no" ed="#L" n="29"/>sentia Sancti Spiritus non dabitur, etiam si 
+pro<lb break="no" ed="#L" n="30"/>pheta esse videatur qui officio generationis 
+obse<lb break="no" ed="#L" n="31"/>quitur</quote>. Ergo delectatio est secundum se malum.
+<lb ed="#L" n="32"/>Ergo omnis delectatio mala.
+</p>
+               <p xml:id="TAca84-d1e848-d1e207">
+                  <lb ed="#L" n="33"/>2. PRAETEREA , illud quod fugit virtuosus, et
+<lb ed="#L" n="34"/>prosequitur deficiens ? a. virtute, videtur esse 
+se<lb break="no" ed="#L" n="35"/>cundum se malum, et fugiendum: quia, ut 
+di<lb break="no" ed="#L" n="36"/>citur in X Elfhic., virtuosus est quasi mensura
+<lb ed="#L" n="37"/>et regula humanorum actuum; et Apostolus dicit,
+<lb ed="#L" n="38"/>ad Cor. u: Spiritualis iudicat omnia. Sed pueri
+<lb ed="#L" n="39"/>et bestiae, in quibus non est virtus, prosequuntur
+<lb ed="#L" n="40"/>delectationes: fugit autem eas temperatus. Ergo
+<lb ed="#L" n="41"/>delectationes secundum se sunt malae, et fugiendae.
+</p>
+               <p xml:id="TAca84-d1e848-d1e230">
+                  <lb ed="#L" n="42"/>3. PRAETEREA, virtus et ars sunt circa difficile
+<lb ed="#L" n="43"/>et bonum, ut dicitur in II. Ethic. Sed nulla ars
+<lb ed="#L" n="44"/>ordinata est ad delectationem. Ergo delectatio non
+<lb ed="#L" n="45"/>est aliquid. bonum..
+</p>
+               <p xml:id="TAca84-d1e848-d1e241">
+                  <lb ed="#L" n="46"/>SED CONTRA EST quod in Psalmo xxxvi 
+dici<lb break="no" ed="#L" n="47"/>tur: Delectare in. Domino. Cum igitur ad nihil
+<lb ed="#L" n="48"/>mali auctoritas divina inducat, videtur quod
+<lb ed="#L" n="49"/>non omnis delectatio sit mala.
+</p>
+               <p xml:id="TAca84-d1e848-d1e252">
+                  <lb ed="#L" n="50"/>RESPONDEO DICENDUM quod, sicut dicitur in X
+<lb ed="#L" n="51"/>Ethic., aliqui posuerunt omnes delectationes esse
+<lb ed="#L" n="52"/>malas. Cuius ratio videtur fuisse, quia 
+intentio<lb break="no" ed="#L" n="53"/>ar pem suam referebant ad solas delectationes sen-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="54"/>sibiles et corporales, quae sunt magis manifestae :
+<lb ed="#L" n="55"/>nam et in ceteris intelligibilia a sensibilibus 
+an<lb break="no" ed="#L" n="56"/>tiqui philosophi non distinguebant, nec intellectum
+<lb ed="#L" n="57"/>a sensu, ut dicitur in libro de Anima. Delecta- dei ier Xs
+<lb ed="#L" n="58"/>ctiones autem corporales arbitrabantur dicendum lect. mv.
+<lb ed="#L" n="59"/>omnes esse malas, ut sic homines, qui ad 
+delecta<lb break="no" ed="#L" n="60"/>tiones immoderatas sunt proni, a delectationibus
+<lb ed="#L" n="61"/>se retrahentes, ad medium virtutis perveniant. -
+<lb ed="#L" n="62"/>Sed haec existimatio non fuit conveniens. Cum
+<lb ed="#L" n="63"/>enim nullus possit vivere sine aliqua sensibili et
+<lb ed="#L" n="64"/>corporali delectatione, si illi qui docent omnes
+<lb ed="#L" n="65"/>delectationes esse malas, deprehendantur aliquas
+<lb ed="#L" n="66"/>delectationes suscipere; magis homines ad 
+dele<lb break="no" ed="#L" n="67"/>ctationes erunt proclives exemplo operum, 
+verbo<lb break="no" ed="#L" n="68"/>rum doctrina praetermissa. In operationibus enim
+<lb ed="#L" n="69"/>et passionibus humanis, in quibus experientia 
+plu<lb break="no" ed="#L" n="70"/>rimum valet, magis movent exempla quam verba.
+</p>
+               <p xml:id="TAca84-d1e848-d1e302">
+                  <lb ed="#L" n="71"/>Dicendum est ergo aliquas delectationes esse
+<lb ed="#L" n="72"/>bonas, et aliquas esse ? malas. Est enim delecta- à
+<lb ed="#L" n="73"/>ctio quies appetitivae virtutis in aliquo bono
+<lb ed="#L" n="74"/>amato, et consequens aliquam operationem. Unde
+<lb ed="#L" n="75"/>huius ratio duplex accipi potest. Una quidem ex
+<lb ed="#L" n="76"/>parte boni in quo aliquis quiescens delectatur.
+<lb ed="#L" n="77"/>Bonum enim et malum in moralibus dicitur 
+se<lb break="no" ed="#L" n="78"/>cundum quod convenit rationi vel discordat ab
+<lb ed="#L" n="79"/>ea, ut supra dictum est: sicut in rebus 
+natu<lb break="no" ed="#L" n="80"/>ralibus aliquid dicitur naturale ex eo quod 
+na<lb break="no" ed="#L" n="81"/>turáe convenit, innaturale vero ex eo quod est
+<lb ed="#L" n="82"/>a natura discordans. Sicut igitur in naturalibus €
+<lb ed="#L" n="83"/>est quaedam quies naturalis, quae scilicet est in
+<lb ed="#L" n="84"/>eo quod convenit naturae, ut cum grave 
+quie<lb break="no" ed="#L" n="85"/>scit deorsum; et quaedam innaturalis, quae est
+<lb ed="#L" n="86"/>in eo quod repugnat naturae, sicut cum grave
+<lb ed="#L" n="87"/>quiescit sursum: ita et in moralibus est quaedam
+<lb ed="#L" n="88"/>delectatio bona, secundum quod appetitus 
+supe<lb break="no" ed="#L" n="89"/>rior aut inferior requiescit in eo quod convenit
+<lb ed="#L" n="90"/>rationi; et quaedam mala, ex eo quod quiescit in
+<lb ed="#L" n="91"/>eo quod a ratione discordat, et a lege Dei.
+</p>
+               <p xml:id="TAca84-d1e848-d1e350">
+                  <pb ed="#L" n="236"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Alia ratio accipi potest ex parte operationum,
+<lb ed="#L" n="2"/>quarum quaedam sunt bonae, et quaedam malae ^.
+<lb ed="#L" n="3"/>Operationibus autem magis sunt affines 
+delecta<lb break="no" ed="#L" n="4"/>ctationes, quae sunt eis coniunctae, quam 
+concu<lb break="no" ed="#L" n="5"/>piscentiae, quae tempore eas praecedunt. Unde,
+<lb ed="#L" n="6"/>cum concupiscentiae bonarum operationum sint
+<lb ed="#L" n="7"/>bonae, malarum vero malae; multo magis 
+dele<lb break="no" ed="#L" n="8"/>ctationes bonarum operationum sunt bonae, 
+ma<lb break="no" ed="#L" n="9"/>larum vero malae.
+</p>
+               <p xml:id="TAca84-d1e848-d1e376">
+                  <lb ed="#L" n="10"/>AD PRIMUM ERGO DICENDUM quod, sicut supra
+<lb ed="#L" n="11"/>dictum est, delectationes quae sunt de actu 
+ra<lb break="no" ed="#L" n="12"/>tionis, non impediunt rationem, neque 
+corrum<lb break="no" ed="#L" n="13"/>punt prudentiam; sed delectationes extraneae,
+<lb ed="#L" n="14"/>cuiusmodi sunt delectationes corporales. Quae
+<lb ed="#L" n="15"/>quidem rationis usum impediunt, sicut supra
+<lb ed="#L" n="16"/>dictum est, et per contrarietatem appetitus, qui
+<lb ed="#L" n="17"/>quiescit in eo quod repugnat rationi, et ex hoc
+<lb ed="#L" n="18"/>habet delectatio quod sit moraliter mala: vel
+<lb ed="#L" n="19"/>secundum quandam ligationem rationis, sicut ' in
+<lb ed="#L" n="20"/>concubitu coniugali delectatio, quamvis sit in eo
+<lb ed="#L" n="21"/>quod convenit rationi, tamen impedit rationis
+<lb ed="#L" n="22"/>usum, propter corporalem transmutationem 
+ad<lb break="no" ed="#L" n="23"/>iunctam. Sed ex hoc non consequitur malitiam
+<lb ed="#L" n="24"/>moralem, sicut nec somnus quo ligatur usus ra-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="25"/>tionis, moraliter est malus, si sit secundum Jak
+<lb ed="#L" n="26"/>nem receptus: nam et ipsa ratio hoc habet,
+<lb ed="#L" n="27"/>quandoque rationis usus intercipiatur. Dicis
+<lb ed="#L" n="28"/>tamen quod huiusmodi. ligamentum rationis ex
+<lb ed="#L" n="29"/>delectatione in actu coniugali, etsi non habeat
+<lb ed="#L" n="30"/>malitiam moralem, quia non est peccatum 
+mor<lb break="no" ed="#L" n="31"/>tale nec veniale. provenit tamen ex quadam
+<lb ed="#L" n="32"/>morali malitia, scilicet ex peccato primi parentis :
+<lb ed="#L" n="33"/>nam hoc in statu innocentiae non erat, ut patet
+<lb ed="#L" n="34"/>ex his quae in Primo dicta sunt.
+</p>
+               <p xml:id="TAca84-d1e848-d1e436">
+                  <lb ed="#L" n="35"/>AD SECUNDUM DICENDUM quod temperatus non
+<lb ed="#L" n="36"/>fugit omnes delectationes, sed immoderatas , et
+<lb ed="#L" n="37"/>rationi non convenientes. " Quod autem pueri et
+<lb ed="#L" n="38"/>bestiae delectationes prosequantur, non. ostendit
+<lb ed="#L" n="39"/>eas universaliter esse malas: quia in eis est 
+na<lb break="no" ed="#L" n="40"/>turalis appetitus a Deo, qui movetur in id quod
+<lb ed="#L" n="41"/>est eis conveniens.
+</p>
+               <p xml:id="TAca84-d1e848-d1e454">
+                  <lb ed="#L" n="42"/>Ad TERTIUM biCENDUM quod non omnis boni
+<lb ed="#L" n="43"/>est ars, sed exteriorum factibilium, ut infra 
+di<lb break="no" ed="#L" n="44"/>cetur. Circa operationes autem et passiones quae
+<lb ed="#L" n="45"/>sunt in nobis, magis est prudentia et virtus quam
+<lb ed="#L" n="46"/>ars. Et tamen aliqua ars est factiva delectationis ;
+<lb ed="#L" n="47"/>scilicet pulmentaria et pigmentaria, ut dicitur in
+<lb ed="#L" n="48"/>VII Ethic.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e848-Dd1e474"><!-- p2p1-q34-a2 -->
+               <head xml:id="TAca84-d1e848-Hd1e477">Articulus 2</head>
+               <head xml:id="TAca84-d1e848-Hd1e479" type="question-title">utrum omnis delectatio sit bona</head>
+               <p xml:id="TAca84-d1e848-d1e482">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="58"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="59"/>UTRUM OMNIS DELECTATIO SIT BONA
+</p>
+               <p xml:id="TAca84-d1e848-d1e491">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="60"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="61"/>omnis delectatio sit bona. Sicut enim
+<lb ed="#L" n="62"/>in Primo dictum est, bonum in tria
+<lb ed="#L" n="63"/>dividitur, scilicet honestum, utile et 
+de<lb break="no" ed="#L" n="64"/>lectabile. Sed honestum omne est bonum; et 
+si<lb break="no" ed="#L" n="65"/>militer omne utile. Ergo et omnis delectatio est
+<lb ed="#L" n="66"/>bona.
+</p>
+               <p xml:id="TAca84-d1e848-d1e511">
+                  <lb ed="#L" n="67"/>2. PRAETEREA, illud est per se bonum, quod
+<lb ed="#L" n="68"/>non quaeritur propter aliud, ut dicitur in 1 Erhic.
+<lb ed="#L" n="69"/>Sed delectatio non quaeritur propter aliud: 
+ridi<lb break="no" ed="#L" n="70"/>culum enim videtur ab aliquo quaerere quare vult
+<lb ed="#L" n="71"/>delectari. Ergo delectatio est per se bonum £. Sed
+<lb ed="#L" n="72"/>quod per se praedicatur de aliquo, universaliter
+<lb ed="#L" n="73"/>praedicatur de eo. Ergo ominis delectatio est bona.
+</p>
+               <p xml:id="TAca84-d1e848-d1e530">
+                  <lb ed="#L" n="74"/>3. PnRaETEREA, id quod ab omnibus desideratur,
+<lb ed="#L" n="75"/>videtur esse per se bonum: nam bonum est quod
+<lb ed="#L" n="76"/>omnia appetunt, ut dicitur in I Ethic. Sed omnes
+<lb ed="#L" n="77"/>appetunt aliquam delectationem, etiam pueri et
+<lb ed="#L" n="78"/>bestiae. Ergo delectatio est secundum se bonum.
+<lb ed="#L" n="79"/>Omnis ergo delectatio est bona.
+</p>
+               <p xml:id="TAca84-d1e848-d1e546">
+                  <lb ed="#L" n="80"/>SED CONTRA EST quod dicitur Prov». u:<quote xml:id="TAca84-d1e848-Qd1e550">Qui
+<cb ed="#L" n="h"/>
+                     <lb ed="#L" n="81"/>laetantur cum malefecerint , et exultant in—
+<lb ed="#L" n="82"/>pessimis</quote>. 
+</p>
+               <p xml:id="TAca84-d1e848-d1e560">
+                  <lb ed="#L" n="83"/>RESPONDEO DICENDUM quod, sicut aliqui Stoico- —.-
+<lb ed="#L" n="84"/>rum posuerunt omnes delectationes esse malas, -
+<lb ed="#L" n="85"/>ita Epicurei posuerunt delectationem secundum 3
+</p>
+               <p xml:id="TAca84-d1e848-d1e569">
+                  <lb ed="#L" n="86"/>se esse bonum, et per consequens delectationes
+<lb ed="#L" n="87"/>omnes esse bonas. Qui ex hoc decepti esse "
+vwi<lb break="no" ed="#L" n="88"/>dentur, quod non distinguebant- inter id quod
+<lb ed="#L" n="89"/>est. bonum simpliciter, et id ? quod est bonum
+<lb ed="#L" n="90"/>quoad hunc. Simpliciter quidem bonum est quod
+<lb ed="#L" n="91"/>secundum se bonum est. Contingit autem quod
+<lb ed="#L" n="92"/>non est secundum se bonum, esse huic bonum;
+<lb ed="#L" n="93"/>dupliciter. Uno modo, quia est ei conveniens 
+se<lb break="no" ed="#L" n="94"/>cundum dispositionem. in qua nunc est, quae 
+ta<lb break="no" ed="#L" n="95"/>men non est naturalis: sicut leproso bonum est
+<lb ed="#L" n="96"/>quandoque comedere aliqua venenosa, quae non
+<lb ed="#L" n="97"/>sunt simpliciter" convenientia complexioni 
+huma<lb break="no" ed="#L" n="98"/>nae. Alio modo, quia id quod non est conveniens,
+<lb ed="#L" n="99"/>aestimatur ut conveniens. Et quia delectatio est
+<lb ed="#L" n="100"/>quies appetitus in bono, si sit bonum 
+simplici<lb break="no" ed="#L" n="101"/>ter illud in quo quiescit appetitus, erit simpliciter
+<pb ed="#L" n="237"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>delectatio, et simpliciter bona. Si autem non sit
+<lb ed="#L" n="2"/>bonum simpliciter, sed quoad hunc, tunc nec 
+de<lb break="no" ed="#L" n="3"/>lectatio est simpliciter, sed huic: nec simpliciter
+<lb ed="#L" n="4"/>est bona, sed bona secundum quid, vel 
+appa<lb break="no" ed="#L" n="5"/>rens bona.
+</p>
+               <p xml:id="TAca84-d1e848-d1e621">
+                  <lb ed="#L" n="6"/>AD PRIMUM ERGO DICENDUM quod honestum et utile
+<lb ed="#L" n="7"/>dicuntur secundum rationem: et ideo nihil est 
+ho<lb break="no" ed="#L" n="8"/>nestum vel utile, quod non sit bonum. Delectabile
+<lb ed="#L" n="9"/>autem dicitur secundum appetitum, qui 
+quando<lb break="no" ed="#L" n="10"/>que in illud tendit quod non est conveniens rationi.
+<lb ed="#L" n="11"/>Et ideo non omne delectabile est bonum bonitate
+<lb ed="#L" n="12"/>morali, quae attenditur secundum rationem.
+</p>
+               <p xml:id="TAca84-d1e848-d1e639">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="13"/>AD SECUNDUM DICENDUM quod ideo delectatio
+<lb ed="#L" n="14"/>non quaeritur propter aliud, quia est quies in
+<lb ed="#L" n="15"/>fine. Finem autem contingit esse bonum et 
+ma<lb break="no" ed="#L" n="16"/>lum: quamvis nunquam sit finis nisi secundum
+<lb ed="#L" n="17"/>quod est bonum quoad hunc. Ita etiam est de
+<lb ed="#L" n="18"/>delectatione.
+</p>
+               <p xml:id="TAca84-d1e848-d1e658">
+                  <lb ed="#L" n="19"/>AD TERTIUM DICENDUM quod hoc modo omnia
+<lb ed="#L" n="20"/>appetunt delectationem, sicut et bonum: cum 
+de<lb break="no" ed="#L" n="21"/>lectatio sit quies appetitus in bono. Sed sicut
+<lb ed="#L" n="22"/>contingit non omne bonum quod appetitur, esse
+<lb ed="#L" n="23"/>per se et vere bonum; ita non omnis delectatio
+<lb ed="#L" n="24"/>est per se et vere bona.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e848-Dd1e675"><!-- p2p1-q34-a3 -->
+               <head xml:id="TAca84-d1e848-Hd1e678">Articulus 3</head>
+               <head xml:id="TAca84-d1e848-Hd1e680" type="question-title">utrum aliqua delectatio sit optimum</head>
+               <p xml:id="TAca84-d1e848-d1e683">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="50"/>ARTICULUS TERTIUS
+<lb ed="#L" n="51"/>UTRUM ALIQUA DELECTATIO SIT OPTIMUM
+</p>
+               <p xml:id="TAca84-d1e848-d1e692">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="52"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="53"/>nulla delectatio sit optimum. Nulla enim
+<lb ed="#L" n="54"/>generatio est optimum: nam generatio
+<lb ed="#L" n="55"/>non potest esse ultimus finis. Sed 
+de<lb break="no" ed="#L" n="56"/>lectatio consequitur generationem: nam ex eo
+<lb ed="#L" n="57"/>quod aliquid constituitur in suam naturam, 
+dele<lb break="no" ed="#L" n="58"/>ctatur, ut supra dictum est. Ergo nulla 
+dele<lb break="no" ed="#L" n="59"/>ctatio potest essé optimum.
+</p>
+               <p xml:id="TAca84-d1e848-d1e714">
+                  <lb ed="#L" n="60"/>2. PRAETEREA, illud quod est optimum, nullo
+<lb ed="#L" n="61"/>addito potest fieri melius. Sed delectatio aliquo
+<lb ed="#L" n="62"/>addito fit melior: est enim melior delectatio cum
+<lb ed="#L" n="63"/>virtute. quam sine. virtute. Ergo delectatio non
+<lb ed="#L" n="64"/>est optimum. |
+</p>
+               <p xml:id="TAca84-d1e848-d1e728">
+                  <lb ed="#L" n="65"/>3. PnRaETEREA, id quod est optimum, est 
+uni<lb break="no" ed="#L" n="66"/>versaliter bonum , sicut per se bonum existens:
+<lb ed="#L" n="67"/>nam quod. est per se, est prius et potius eo quod
+<lb ed="#L" n="68"/>est per accidens. Sed delectatio non est 
+univer<lb break="no" ed="#L" n="69"/>saliter bonum, ut dictum est. Ergo delectatio
+<lb ed="#L" n="70"/>non est optimum.
+</p>
+               <p xml:id="TAca84-d1e848-d1e744">
+                  <lb ed="#L" n="71"/>SED coNTRA, beatitudo est optimum: cum sit
+<lb ed="#L" n="72"/>finis humanae vitae. Sed beatitudo. non est sine
+<lb ed="#L" n="73"/>delectatione: dicitur enim in Psalmo xv: 
+Adim<lb break="no" ed="#L" n="74"/>plebis me laetitia cum vultu tuo; delectationes in
+<lb ed="#L" n="75"/>dextera tua usque in finem.
+</p>
+               <p xml:id="TAca84-d1e848-d1e757">
+                  <lb ed="#L" n="76"/>REsPoNDEO DICENDUM quod Plato non posuit
+<lb ed="#L" n="77"/>omnes delectationes esse malas, sicut Stoici; 
+ne<lb break="no" ed="#L" n="78"/>que -omnes esse bonas, sicut Epicurei; sed quas-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="79"/>dam esse bonas, et quasdam esse malas; ita
+<lb ed="#L" n="80"/>tamen quod nulla sit summum. bonum, vel 
+opti<lb break="no" ed="#L" n="81"/>mum, Sed quantum ex eius rationibus datur
+<lb ed="#L" n="82"/>intelligi, in duobus deficit. In uno quidem quia,
+<lb ed="#L" n="83"/>cum videret delectationes sensibiles et corporales
+<lb ed="#L" n="84"/>in quodam motu et generatione consistere, sicut
+<lb ed="#L" n="85"/>patet in répletione ciborum et huiusmodi; 
+aesti<lb break="no" ed="#L" n="86"/>mavit omnes delectationes consequi generationem
+<lb ed="#L" n="87"/>et motum. Unde, cum generatio et motus sint
+<lb ed="#L" n="88"/>actus imperfecti, sequeretur ? quod delectatio non
+<lb ed="#L" n="89"/>haberet rationem ultimae perfectionis. - Sed hoc
+<lb ed="#L" n="90"/>manifeste apparet falsum in delectationibus 
+intel<lb break="no" ed="#L" n="91"/>lectualibus. Aliquis enim non solum delectatur in
+<lb ed="#L" n="92"/>generatione scientiae, puta cum addiscit aut 
+mi<lb break="no" ed="#L" n="93"/>ratur, sicut supra dictum est; sed etiam in 
+con<lb break="no" ed="#L" n="94"/>templando secundum. scientiam. iam acquisitam.
+</p>
+               <p xml:id="TAca84-d1e848-d1e803">
+                  <lb ed="#L" n="95"/>Alio. vero modo, quia dicebat optimum illud
+<lb ed="#L" n="96"/>quod est simpliciter summum bonum, quod 
+scili<lb break="no" ed="#L" n="97"/>cet est ipsum bonum quasi abstractum et non 
+par<lb break="no" ed="#L" n="98"/>ticipatum, sicut ipse Deus est summum bonum.
+<lb ed="#L" n="99"/>Nos autem loquimur de optimo in rebus 
+huma<lb break="no" ed="#L" n="100"/>nis. Optimum autem in unaquaque re est ultimus
+<lb ed="#L" n="101"/>finis. Finis autem, ut supra dictum est, 
+dupli<lb break="no" ed="#L" n="102"/>citer dicitur: scilicet ipsa res, et usus rei; sicut
+<lb ed="#L" n="103"/>finis avari est vel pecunia, vel possessio pecuniae.
+<lb ed="#L" n="104"/>Et secundum hoc, ultimus finis hominis dici 
+po<lb break="no" ed="#L" n="105"/>test vel ipse Deus, qui est summum bonum sim-
+<pb ed="#L" n="238"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>pliciter; vel fruitio ipsius, quae importat 
+delecta<lb break="no" ed="#L" n="2"/>tionem quandam in ultimo fine. Et per hunc
+<lb ed="#L" n="3"/>modum aliqua delectatio hominis potest dici 
+opti<lb break="no" ed="#L" n="4"/>mum inter bona humana.
+</p>
+               <p xml:id="TAca84-d1e848-d1e842">
+                  <lb ed="#L" n="5"/>AD PRIMUM ERGO DICENDUM quod non omnis 
+de<lb break="no" ed="#L" n="6"/>lectatio consequitur generationem ; sed aliquae
+<lb ed="#L" n="7"/>delectationes consequuntur operationes perfectas,
+<lb ed="#L" n="8"/>ut dictum est. Et ideo nihil prohibet aliquam
+<lb ed="#L" n="9"/>delectationem esse optimum, etsi non omnis sit
+<lb ed="#L" n="10"/>talis.
+</p>
+               <p xml:id="TAca84-d1e848-d1e858">
+                  <lb ed="#L" n="11"/>AD SECUNDUM DICENDUM quod ratio illa procedit
+<lb ed="#L" n="12"/>de optimo simpliciter, per cuius participationem
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="13"/>omnia sunt bona: unde ex nullius additione fit
+<lb ed="#L" n="14"/>melius. Sed in aliis bonis universaliter verum est
+<lb ed="#L" n="15"/>quod quodlibet bonum ex additione alterius fit
+<lb ed="#L" n="16"/>melius. - Quamvis posset dici quod delectatio non
+<lb ed="#L" n="17"/>est aliquid extraneum ab operatione virtutis, sed
+<lb ed="#L" n="18"/>concomitans ipsam, ut in l1 Ethic. dicitur.
+</p>
+               <p xml:id="TAca84-d1e848-d1e881">
+                  <lb ed="#L" n="19"/>AD TERTIUM DICENDUM quod delectatio non habet
+<lb ed="#L" n="20"/>quod sit optimum ex hoc quod est delectatio, sed
+<lb ed="#L" n="21"/>ex hoc quod est perfecta quies in optimo. Unde
+<lb ed="#L" n="22"/>non oportet quod omnis delectatio sit optima,
+<lb ed="#L" n="23"/>aut etiam bona. Sicut aliqua scientia est optima,
+<lb ed="#L" n="24"/>non tamen omnis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e848-Dd1e898"><!-- p2p1-q34-a4 -->
+               <head xml:id="TAca84-d1e848-Hd1e901">Articulus 4</head>
+               <head xml:id="TAca84-d1e848-Hd1e903" type="question-title">utrum delectatio sit mensura vel regula secundum quam
+       iudicetur bonum vel malum in moralibus</head>
+               <p xml:id="TAca84-d1e848-d1e906">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="75"/>ARTICULUS QUARTUS
+<lb ed="#L" n="76"/>UTRUM DELECTATIO SIT MENSURA VEL REGULA SECUNDUM QUAM
+<lb ed="#L" n="77"/>IUDICETUR BONUM VEL MALUM IN MORALIBUS
+</p>
+               <p xml:id="TAca84-d1e848-d1e917">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="78"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="79"/>delectatio non sit mensura vel regula
+<lb ed="#L" n="80"/>a boni et mali moralis. <quote xml:id="TAca84-d1e848-Qd1e927">Omnia enim 
+men<lb break="no" ed="#L" n="81"/>surantur primo sui generis</quote>, ut dicitur in
+<lb ed="#L" n="82"/>X Metaphys. Sed delectatio non est primum
+<lb ed="#L" n="83"/>in genere moralium, sed praecedunt ipsam amor
+<lb ed="#L" n="84"/>et desiderium. Non ergo est regula bonitatis et
+<lb ed="#L" n="85"/>malitiae in moralibus.
+</p>
+               <p xml:id="TAca84-d1e848-d1e942">
+                  <lb ed="#L" n="86"/>2. PRAETEREA, mensuram et regulam oportet
+<lb ed="#L" n="87"/>esse uniformem: et ideo motus qui est maxime
+<lb ed="#L" n="88"/>uniformis, est mensura et regula omnium 
+mo<lb break="no" ed="#L" n="89"/>tuum, ut dicitur in X Metaphys. Sed delectatio
+<lb ed="#L" n="90"/>est varia et multiformis: cum quaedam earum
+<lb ed="#L" n="91"/>sint bonae, et quaedam malae. Ergo delectatio
+<lb ed="#L" n="92"/>non est mensura et regula moralium.
+</p>
+               <p xml:id="TAca84-d1e848-d1e961">
+                  <lb ed="#L" n="93"/>3. PRAETEREA, certius iudicium sumitur de effe-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="94"/>ctu per causam, quam e converso. Sed bonitas
+<lb ed="#L" n="95"/>vel malitia operationis est causa bonitatis vel 
+ma<lb break="no" ed="#L" n="96"/>litiae delectationis: quia bonae delectationes sunt
+<lb ed="#L" n="97"/>quae consequuntur bonas operationes, malae 
+au<lb break="no" ed="#L" n="98"/>tem quae malas, ut dicitur in X Ethic. Ergo
+<lb ed="#L" n="99"/>delectationes non sunt regula et mensura 
+boni<lb break="no" ed="#L" n="100"/>tatis et malitiae in moralibus.
+</p>
+               <p xml:id="TAca84-d1e848-d1e983">
+                  <lb ed="#L" n="101"/>SED CONTRA EST quod Augustinus dicit, super
+<lb ed="#L" n="102"/>illud Psalmi vir, « Scrutans corda et renes Deus»:
+<lb ed="#L" n="103"/>Finis curae et cogitationis est delectatio ad quam
+<lb ed="#L" n="104"/>quis nititur pervenire. Et Philosophus dicit, in VIL
+<lb ed="#L" n="105"/>Ethic., quod delectatio est finis architecton
+<lb ed="#L" n="106"/>idest principalis, ad quem respicientes, 
+unumquod<lb break="no" ed="#L" n="107"/>que hoc quidem malum, hoc autem bonum. 
+simpli<lb break="no" ed="#L" n="108"/>citer : dicimus.
+</p>
+               <p xml:id="TAca84-d1e848-d1e1003">
+                  <lb ed="#L" n="109"/>RESPONDEO DICENDUM quod bonitas vel malitia
+<pb ed="#L" n="239"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>moralis principaliter in voluntate consistit, ut 
+su<lb break="no" ed="#L" n="2"/>pra dictum est. Utrum autem voluntas sit bona
+<lb ed="#L" n="3"/>vel mala, praecipue ex fine cognoscitur. Id autem
+<lb ed="#L" n="4"/>habetur pro fine, in quo voluntas quiescit. Quies
+<lb ed="#L" n="5"/>autem voluntatis, et cuiuslibet appetitus, in bono,
+<lb ed="#L" n="6"/>est delectatio. Et ideo secundum delectationem
+<lb ed="#L" n="7"/>voluntatis humanae, praecipue iudicatur homo
+<lb ed="#L" n="8"/>bonus vel malus: est enim bonus et virtuosus qui
+<lb ed="#L" n="9"/>gaudet in operibus virtutum ; malus autem qui
+<lb ed="#L" n="10"/>in operibus malis.
+</p>
+               <p xml:id="TAca84-d1e848-d1e1034">
+                  <lb ed="#L" n="11"/>Delectationes autem appetitus sensitivi non sunt
+<lb ed="#L" n="12"/>regula bonitatis vel malitiae moralis: nam cibus
+<lb ed="#L" n="13"/>communiter delectabilis est secundum appetitum
+<lb ed="#L" n="14"/>sensitivum, bonis et malis. Sed voluntas bonorum
+<lb ed="#L" n="15"/>delectatur in eis secundum convenientiam 
+ratio<lb break="no" ed="#L" n="16"/>nis, quam non curat voluntas malorum.
+</p>
+               <p xml:id="TAca84-d1e848-d1e1050">
+                  <lb ed="#L" n="17"/>AD PRIMUM ERGO DICENDUM quod amor et desi-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="18"/>derium sunt priora delectatione in via generatio -
+<lb ed="#L" n="19"/>nis. Sed delectatio est prior secundum rationem
+<lb ed="#L" n="20"/>finis: qui in operabilibus habet rationem principii,
+<lb ed="#L" n="21"/>a quo maxime sumitur iudicium, sicut a regula
+<lb ed="#L" n="22"/>vel mensura.
+</p>
+               <p xml:id="TAca84-d1e848-d1e1068">
+                  <lb ed="#L" n="23"/>AD SECUNDUM DICENDUM quod omnis delectatio in
+<lb ed="#L" n="24"/>hoc est uniformis, quod est quies in aliquo bono:
+<lb ed="#L" n="25"/>et secundum hoc potest esse regula vel mensura.
+<lb ed="#L" n="26"/>Nam ille bonus est cuius voluntas quiescit in vero
+<lb ed="#L" n="27"/>bono; malus autem, cuius voluntas quiescit in malo.
+</p>
+               <p xml:id="TAca84-d1e848-d1e1082">
+                  <lb ed="#L" n="28"/>AD TERTIUM DICENDUM quod, cum delectatio 
+per<lb break="no" ed="#L" n="29"/>ficiat operationem per modum finis, ut supra
+<lb ed="#L" n="30"/>dictum est; non potest esse operatio perfecte
+<lb ed="#L" n="31"/>bona, nisi etiam adsit delectatio in bono: nam
+<lb ed="#L" n="32"/>bonitas rei dependet ? ex fine. Et sic 
+quodam<lb break="no" ed="#L" n="33"/>modo bonitas delectationis est causa bonitatis in
+<lb ed="#L" n="34"/>operatione.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

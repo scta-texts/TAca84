@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 40</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 40</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="265"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e879"><!-- p2p1-q40 -->
+            <head xml:id="TAca84-d1e879-Hd1e99">Quaestio 40</head>
+            <head xml:id="TAca84-d1e879-Hd1e101" type="question-title">de passionibus irascibilis et primo, de spe et desperatione</head>
+            <p xml:id="TAca84-d1e879-d1e104">
+               <pb ed="#L" n="265"/>
+               <!-- p. 265 -->
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO QUADRAGESIMA
+<lb ed="#L" n="2"/>DE PASSIONIBUS IRASCIBILIS ET PRIMO, DE SPE ET DESPERATIONE
+  <lb ed="#L" n="3"/>IN OCTO ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e879-d1e120">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>CONSEQUENTER considerandum est de 
+passio<lb break="no" ed="#L" n="5"/>nibus irascibilis: et primo, de spe et 
+de<lb break="no" ed="#L" n="6"/>speratione; secundo, de timore et audacia; 
+ter<lb break="no" ed="#L" n="7"/>tio, de ira.
+</p>
+            <p xml:id="TAca84-d1e879-d1e133">
+               <lb ed="#L" n="8"/>Circa primum quaeruntur octo.
+<lb ed="#L" n="9"/>Primo: utrum spes sit idem quod desiderium
+<lb ed="#L" n="10"/>vel cupiditas.
+<lb ed="#L" n="11"/>Secundo: utrum spes sit in vi apprehensiva,
+<lb ed="#L" n="12"/>vel in vi appetitiva.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="13"/>Tertio: utrum spes sit in brutis animalibus.
+<lb ed="#L" n="14"/>Quarto: utrum spei contrarietur desperatio.
+<lb ed="#L" n="15"/>Quinto: utrum causa spei sit experientia.
+<lb ed="#L" n="16"/>Sexto: utrum in iuvenibus et ebriosis spes
+<lb ed="#L" n="17"/>abundet.
+<lb ed="#L" n="18"/>Septimo: de ordine spei ad amorem.
+<lb ed="#L" n="19"/>Octavo: utrum spes conferat ad operationem.
+</p>
+            <div xml:id="TAca84-d1e879-Dd1e165"><!-- p2p1-q40-a1 -->
+               <head xml:id="TAca84-d1e879-Hd1e168">Articulus 1</head>
+               <head xml:id="TAca84-d1e879-Hd1e170" type="question-title">utrum spes sit idem quod desiderium vel cupiditas</head>
+               <p xml:id="TAca84-d1e879-d1e173">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>ARTICULUS PRIMUS
+<lb ed="#L" n="21"/>UTRUM SPES SIT IDEM QUOD DESIDERIUM VEL CUPIDITAS
+</p>
+               <p xml:id="TAca84-d1e879-d1e182">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="22"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="23"/>spes sit idem quod desiderium sive 
+cu<lb break="no" ed="#L" n="24"/>piditas. Spes enim ponitur una quatuor
+<lb ed="#L" n="25"/>principalium passionum. Sed 
+Augusti<lb break="no" ed="#L" n="26"/>nus, enumerans quatuor principales passiones ,
+<lb ed="#L" n="27"/>ponit de cepi loco spei, ut patet in XIV de
+<lb ed="#L" n="28"/>Civ. Dei. Ergo spes est idem quod cupiditas
+<lb ed="#L" n="29"/>sive desiderium.
+</p>
+               <p xml:id="TAca84-d1e879-d1e204">
+                  <lb ed="#L" n="30"/>2. PRAETEREA, passiones differunt secundum
+<lb ed="#L" n="31"/>obiecta. Sed idem est obiectum spei, et 
+cupidi<lb break="no" ed="#L" n="32"/>tatis sive desiderii, scilicet bonum futurum. Ergo
+<lb ed="#L" n="33"/>spes est idem quod cupiditas sive desiderium.
+</p>
+               <p xml:id="TAca84-d1e879-d1e216">
+                  <lb ed="#L" n="34"/>3. Si dicatur quod spes addit supra desiderium
+<lb ed="#L" n="35"/>possibilitatem adipiscendi bonum futurum, contra:
+<lb ed="#L" n="36"/>Id quod. per accidens se habet ad obiectum, non
+<lb ed="#L" n="37"/>variat speciem passionis. Sed possibile se habet per
+<lb ed="#L" n="38"/>accidens ad. bonum futurum, quod est obiectum
+<lb ed="#L" n="39"/>cupiditatis vel desiderii, et spei. Ergo spes non est
+<lb ed="#L" n="40"/>passio specie differens a desiderio vel cupiditate.
+</p>
+               <p xml:id="TAca84-d1e879-d1e234">
+                  <lb ed="#L" n="41"/>SED coNTRA, diversarum potentiarum sunt 
+di<lb break="no" ed="#L" n="42"/>versae passiones specie differentes. Sed spes est
+<lb ed="#L" n="43"/>in irascibili; desiderium autem et cupiditas in 
+con<lb break="no" ed="#L" n="44"/>cupiscibili. Ergo spes differt specie a desiderio
+<lb ed="#L" n="45"/>a seu cupiditate.
+</p>
+               <p xml:id="TAca84-d1e879-d1e247">
+                  <lb ed="#L" n="46"/>RESPONDEO DICENDUM quod species passionis ex
+<lb ed="#L" n="47"/>obiecto consideratur. Circa obiectum autem spei,
+<lb ed="#L" n="48"/>quatuor conditiones attenduntur. Primo quidem,
+<lb ed="#L" n="49"/>quod sit bonum: non enim, proprie loquendo,
+<lb ed="#L" n="50"/>est spes nisi de bono. Et per hoc differt spes a
+<lb ed="#L" n="51"/>timore, qui est de malo. - Secundo, ut sit 
+futu<lb break="no" ed="#L" n="52"/>rum: non enim spes est de praesenti iam habito.
+<lb ed="#L" n="53"/>Et per hoc differt spes a gaudio, quod est de bono
+<lb ed="#L" n="54"/>praesenti. - Tertio, requiritur quod sit aliquid 
+ar<lb break="no" ed="#L" n="55"/>duum cum difficultate adipiscibile: non enim 
+ali<lb break="no" ed="#L" n="56"/>quis dicitur aliquid sperare minimum, quod sta-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="57"/>tim est in sua potestate ut habeat. Et per hoc 
+dif<lb break="no" ed="#L" n="58"/>fert spes a desiderio vel cupiditate, quae est de
+<lb ed="#L" n="59"/>bono futuro absolute: unde pertinet ad 
+concupisci<lb break="no" ed="#L" n="60"/>bilem, spes autem ad irascibilem. - Quarto, quod
+<lb ed="#L" n="61"/>illud arduum sit possibile adipisci: non enim 
+ali<lb break="no" ed="#L" n="62"/>quis sperat id quod omnino adipisci non potest.
+<lb ed="#L" n="63"/>Et secundum hoc differt spes a desperatione.
+</p>
+               <p xml:id="TAca84-d1e879-d1e291">
+                  <lb ed="#L" n="64"/>Sic ergo patet quod spes differt a desiderio, 
+si<lb break="no" ed="#L" n="65"/>cut differunt passiones irascibilis a passionibus
+<lb ed="#L" n="66"/>concupiscibilis. Et propter hoc, spes 
+praesuppo<lb break="no" ed="#L" n="67"/>nit desiderium: sicut et omnes passiones 
+irasci<lb break="no" ed="#L" n="68"/>bilis praesupponunt passiones concupiscibilis, ut
+<lb ed="#L" n="69"/>supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e879-d1e307">
+                  <lb ed="#L" n="70"/>AD PRIMUM ERGO DICENDUM quod Augustinus ponit
+<lb ed="#L" n="71"/>cupiditatem loco spei, propter hoc quod utrumque
+<lb ed="#L" n="72"/>respicit bonum futurum: et quia bonum quod
+<lb ed="#L" n="73"/>non est arduum, quasi nihil reputatur; ut sic 
+cu<lb break="no" ed="#L" n="74"/>piditas maxime videatur tendere in bonum 
+ar<lb break="no" ed="#L" n="75"/>duum, in quod etiam tendit spes.
+</p>
+               <p xml:id="TAca84-d1e879-d1e323">
+                  <lb ed="#L" n="76"/>AD SECUNDUM DICENDUM quod obiectum spei non
+<lb ed="#L" n="77"/>est bonum futurum absolute: sed cum arduitate
+<lb ed="#L" n="78"/>et difficultate adipiscendi, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e879-d1e333">
+                  <lb ed="#L" n="79"/>AD TERTIUM DICENDUM quod obiectum spei non
+<lb ed="#L" n="80"/>tantum ? addit possibilitatem super obiectum de- e
+<lb ed="#L" n="81"/>Siderii, sed etiam arduitatem: quae ad aliam po- .
+<lb ed="#L" n="82"/>tentiam facit spem pertinere, scilicet ad 
+irascibi<lb break="no" ed="#L" n="83"/>lem, quae respicit arduum, ut in Primo dictum ; 95; or arc
+<lb ed="#L" n="84"/>est. - Póssibile autem et impossibile non omnino x» art r.
+<lb ed="#L" n="85"/>per accidens se habent ad obiectum appetitivae
+<lb ed="#L" n="86"/>virtutis. Nam appetitus est principium motionis :
+<lb ed="#L" n="87"/>nihil autem movetur ad aliquid nisi sub ratione
+<lb ed="#L" n="88"/>possibilis; nullus enim movetur ad id quod 
+exi<lb break="no" ed="#L" n="89"/>stimat impossibile adipisci. Et propter hoc, spes
+<lb ed="#L" n="90"/>differt a desperatione secundum differentiam 
+pos<lb break="no" ed="#L" n="91"/>sibilis et impossibilis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e879-Dd1e365"><!-- p2p1-q40-a2 -->
+               <head xml:id="TAca84-d1e879-Hd1e368">Articulus 2</head>
+               <head xml:id="TAca84-d1e879-Hd1e370" type="question-title">utrum spes sit in vi apprehensiva, an in vi appetitiva</head>
+               <p xml:id="TAca84-d1e879-d1e373">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="28"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="29"/>UTRUM SPES SIT IN VI APPREHENSIVA, AN IN VI APPETITIVA
+</p>
+               <p xml:id="TAca84-d1e879-d1e382">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="30"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="31"/>spes pertineat ad vim cognitivam. Spes
+<lb ed="#L" n="32"/>enim videtur esse expectatio quaedam:
+<lb ed="#L" n="33"/>dicit enim Apostolus, Rom. vi: Si
+<lb ed="#L" n="34"/>autem quod non videmus speramus, per 
+patien<lb break="no" ed="#L" n="35"/>liam expectamus. Sed expectatio videtur ad vim
+<lb ed="#L" n="36"/>cognitivam pertinere, cuius est exspectare. Ergo
+<lb ed="#L" n="37"/>spes ad cognitivam pertinet.
+</p>
+               <p xml:id="TAca84-d1e879-d1e404">
+                  <lb ed="#L" n="38"/>2. PRAETEREA, idem est, ut videtur, spes quod
+<lb ed="#L" n="39"/>fiducia: unde et sperantes confidentes vocamus,
+<lb ed="#L" n="40"/>quasi pro eodem utentes eo quod est confidere
+<lb ed="#L" n="41"/>et sperare. Sed fiducia, sicut et fides, videtur ad
+<lb ed="#L" n="42"/>vim cognitivam pertinere. Ergo et spes.
+</p>
+               <p xml:id="TAca84-d1e879-d1e418">
+                  <lb ed="#L" n="43"/>3. PRAETEREA, certitudo est proprietas 
+cogniti<lb break="no" ed="#L" n="44"/>vae virtutis. Sed. certitudo attribuitur spei. Ergo
+<lb ed="#L" n="45"/>spes ad vim cognitivam pertinet.
+</p>
+               <p xml:id="TAca84-d1e879-d1e427">
+                  <lb ed="#L" n="46"/>SED coNTRA, spes est de bono, sicut dictum
+<lb ed="#L" n="47"/>est. Bonum autem, inquantum huiusmodi, non
+<lb ed="#L" n="48"/>est obiectum cognitivae, sed appetitivae virtutis.
+<lb ed="#L" n="49"/>Ergo spes non pertinet ad. cognitivam, sed ad
+<lb ed="#L" n="50"/>appetitivam virtutem.
+</p>
+               <p xml:id="TAca84-d1e879-d1e440">
+                  <lb ed="#L" n="51"/>RESPONDEO DICENDUM quod, cum spes importet
+<lb ed="#L" n="52"/>extensionem quandam appetitus in bonum 8, 
+ma<lb break="no" ed="#L" n="53"/>nifeste pertinet ad appetitivam virtutem : motus
+<lb ed="#L" n="54"/>enim ad res pertinet proprie ad appetitum. .Actio
+<lb ed="#L" n="55"/>vero virtutis cognitivae perficitur non secundum
+<lb ed="#L" n="56"/>motum cognoscentis ad res, sed potius secundum
+<lb ed="#L" n="57"/>quod. res cognitae sunt in cognoscente. Sed quia
+<lb ed="#L" n="58"/>vis cognitiva movet appetitivam, repraesentando
+<lb ed="#L" n="59"/>ei suum obiectum; secundum diversas rationes
+<lb ed="#L" n="60"/>obiecti apprehensi, subsequuntur diversi motus in
+<lb ed="#L" n="61"/>vi appetitiva. Alius enim motus sequitur in 
+ap<lb break="no" ed="#L" n="62"/>petitu ex apprehensione boni, et alius ex 
+appre<lb break="no" ed="#L" n="63"/>hensione mali: et similiter alius motus ex 
+appre<lb break="no" ed="#L" n="64"/>hensione praesentis et futuri, absoluti et ardui,
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="65"/>possibilis et impossibilis. Et secundum hoc, spes
+<lb ed="#L" n="66"/>est motus appetitivae virtutis consequens 
+appre<lb break="no" ed="#L" n="67"/>hensionem boni futuri ardui possibilis adipisci ,
+<lb ed="#L" n="68"/>scilicet extensio appetitus in huiusmodi obiectum.
+</p>
+               <p xml:id="TAca84-d1e879-d1e484">
+                  <lb ed="#L" n="69"/>AD PRIMUM ERGO DICENDUM quod, quia spes 
+re<lb break="no" ed="#L" n="70"/>spicit ad bonum possibile, insurgit dupliciter 
+ho<lb break="no" ed="#L" n="71"/>mini motus spei, sicut dupliciter est ei aliquid.
+<lb ed="#L" n="72"/>possibile: scilicet secundum propriam virtutem ,
+<lb ed="#L" n="73"/>et secundum virtutem alterius. Quod ergo aliquis
+<lb ed="#L" n="74"/>sperat per propriam virtutem adipisci, non dicitur
+<lb ed="#L" n="75"/>expectare, sed sperare tantum. Sed proprie 
+di<lb break="no" ed="#L" n="76"/>citur expectare quod sperat ex auxilio virtutis
+<lb ed="#L" n="77"/>alienae: ut dicatur exspectare quasi ex alio 
+spe<lb break="no" ed="#L" n="78"/>clare, inquantum scilicet vis apprehensiva 
+prae<lb break="no" ed="#L" n="79"/>cedens non solum respicit ad bonum quod 
+in<lb break="no" ed="#L" n="80"/>tendit adipisci, sed etiam ad illud cuius virtute
+<lb ed="#L" n="81"/>adipisci sperat; secundum illud Eccír. 11: 
+Respi<lb break="no" ed="#L" n="82"/>ciens eram ad adiutorium hominum. Motus ergo
+<lb ed="#L" n="83"/>spei quandoque dicitur expectatio, propter 
+inspe<lb break="no" ed="#L" n="84"/>ctionem virtutis cognitivae praecedentem.
+</p>
+               <p xml:id="TAca84-d1e879-d1e521">
+                  <lb ed="#L" n="85"/>AD SECUNDUM DICENDUM quod illud quod homo
+<lb ed="#L" n="86"/>desiderat, et aestimat se posse Y adipisci, credit
+<lb ed="#L" n="87"/>se adepturum: et ex tali fide in cognitiva 
+praece<lb break="no" ed="#L" n="88"/>dente, motus sequens in appetitu fiducia 
+nomi<lb break="no" ed="#L" n="89"/>natur. Denominatur enim motus appetitivus a 
+co<lb break="no" ed="#L" n="90"/>gnitione praecedente, sicut effectus ex causa magis
+<lb ed="#L" n="91"/>nota: magis enim cognoscit vis apprehensiva suum
+<lb ed="#L" n="92"/>actum quam actum appetitivae.
+</p>
+               <p xml:id="TAca84-d1e879-d1e541">
+                  <lb ed="#L" n="93"/>AD TERTIUM DICENDUM quod certitudo attribuitur
+<lb ed="#L" n="94"/>motui non solum appetitus sensitivi, sed etiam
+<lb ed="#L" n="95"/>appetitus naturalis: sicut dicitur quod lapis 
+cer<lb break="no" ed="#L" n="96"/>titudinaliter tendit deorsum. Et hoc propter 
+in<lb break="no" ed="#L" n="97"/>fallibilitatem quam habet ex certitudine 
+cognitio<lb break="no" ed="#L" n="98"/>nis quae praecedit motum appetitus sensitivi, vel
+<lb ed="#L" n="99"/>etiam naturalis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e879-Dd1e560"><!-- p2p1-q40-a3 -->
+               <head xml:id="TAca84-d1e879-Hd1e563">Articulus 3</head>
+               <head xml:id="TAca84-d1e879-Hd1e565" type="question-title">utrum spes sit in brutis animalibus</head>
+               <p xml:id="TAca84-d1e879-d1e568">
+                  <pb ed="#L" n="267"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM SPES SIT IN BRUTIS ANIMALIBUS
+</p>
+               <p xml:id="TAca84-d1e879-d1e579">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>in brutis animalibus non sit spes. Spes
+<lb ed="#L" n="5"/>enim est de futuro bono, ut Damascenus
+<lb ed="#L" n="6"/>adicit. Sed cognoscere futurum non
+<lb ed="#L" n="7"/>pertinet ad animalia bruta, quae habent solum
+<lb ed="#L" n="8"/>cognitionem sensitivam, quae non est futurorum.
+<lb ed="#L" n="9"/>Ergo spes non est in brutis animalibus.
+</p>
+               <p xml:id="TAca84-d1e879-d1e599">
+                  <lb ed="#L" n="10"/>2. PRAETEREA, obiectum spei est bonum 
+possi<lb break="no" ed="#L" n="11"/>bile adipisci. Sed possibile et impossibile sunt
+<lb ed="#L" n="12"/>quaedam differentiae veri et falsi, quae solum
+<lb ed="#L" n="13"/>sunt in mente, ut Philosophus dicit in VI 
+Meta<lb break="no" ed="#L" n="14"/>Phys. Ergo spes non est in brutis animalibus,
+<lb ed="#L" n="15"/>in quibus non est mens.
+</p>
+               <p xml:id="TAca84-d1e879-d1e616">
+                  <lb ed="#L" n="16"/>3. PRAETEREA, Augustinus dicit, super Gen. ad
+<lb ed="#L" n="17"/>litt.,- quod animalia moventur visis. Sed spes
+<lb ed="#L" n="18"/>non est de eo quod videtur: nam quod videt
+<lb ed="#L" n="19"/>quis, quid sperat? ut dicitur Rom. vii. Ergo spes
+<lb ed="#L" n="20"/>non est in brutis animalibus.
+</p>
+               <p xml:id="TAca84-d1e879-d1e629">
+                  <lb ed="#L" n="21"/>SED coNTRA, spes est passio irascibilis. Sed in
+<lb ed="#L" n="22"/>brutis animalibus est irascibilis. Ergo et spes.
+</p>
+               <p xml:id="TAca84-d1e879-d1e636">
+                  <lb ed="#L" n="23"/>RESPONDEO DICENDUM quod interiores passiones
+<lb ed="#L" n="24"/>animalium ex exterioribus motibus deprehendi
+<lb ed="#L" n="25"/>possunt. Ex quibus apparet quod in animalibus
+<lb ed="#L" n="26"/>brutis est spes. Si enim canis videat leporem,
+<lb ed="#L" n="27"/>aut accipiter avem, nimis distantem, non movetur
+<lb ed="#L" n="28"/>ad ipsam, quasi non sperans se eam posse 
+adi<lb break="no" ed="#L" n="29"/>pisci: si autem sit in propinquo, movetur, quasi
+<lb ed="#L" n="30"/>sub spe adipiscendi. Ut enim supra dictum est,
+<lb ed="#L" n="31"/>appetitus sensitivus brutorum animalium, et etiam
+<lb ed="#L" n="32"/>appetitus naturalis rerum insensibilium, sequuntur
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33"/>apprehensionem. alicuius intellectus, sicut et 
+ap<lb break="no" ed="#L" n="34"/>petitus naturae intellectivae, qui dicitur voluntas.
+<lb ed="#L" n="35"/>Sed in hoc est differentia, quod voluntas movetur
+<lb ed="#L" n="36"/>ex apprehensione intellectus coniuncti: sed motus
+<lb ed="#L" n="37"/>appetitus naturalis sequitur apprehensionem 
+intel<lb break="no" ed="#L" n="38"/>lectus separati, qui naturam instituit; et similiter
+<lb ed="#L" n="39"/>appetitus sensitivus brutorum animalium, quae
+<lb ed="#L" n="40"/>etiam quodam ? instinctu naturali agunt. Unde in
+<lb ed="#L" n="41"/>operibus brutorum animalium, et aliarum rerum
+<lb ed="#L" n="42"/>naturalium, apparet similis processus sicut et in
+<lb ed="#L" n="43"/>operibus artis, Et per hunc modum in animalibus
+<lb ed="#L" n="44"/>brutis est spes et desperatio.
+</p>
+               <p xml:id="TAca84-d1e879-d1e688">
+                  <lb ed="#L" n="45"/>AD PRIMUM ERGO DICENDUM quod, quamvis bruta
+<lb ed="#L" n="46"/>animalia non cognoscant futurum, tamen ex 
+in<lb break="no" ed="#L" n="47"/>stinctu naturali movetur animal ad aliquid in
+<lb ed="#L" n="48"/>futurum, ac si futurum praevideret. Huiusmodi
+<lb ed="#L" n="49"/>enim instinctus est eis inditus ab intellectu divino
+<lb ed="#L" n="50"/>praevidente futura.
+</p>
+               <p xml:id="TAca84-d1e879-d1e704">
+                  <lb ed="#L" n="51"/>AD SECUNDUM DICENDUM quod obiectum spei non
+<lb ed="#L" n="52"/>est possibile, prout est quaedam differentia veri:
+<lb ed="#L" n="53"/>sic enim consequitur habitudinem praedicati ad
+<lb ed="#L" n="54"/>subiectum. Sed obiectum spei est possibile quod
+<lb ed="#L" n="55"/>dicitur secundum aliquam potentiam. Sic enim
+<lb ed="#L" n="56"/>distinguitur possibile in V Metaphys.: scilicet
+<lb ed="#L" n="57"/>in duo possibilia praedicta.
+</p>
+               <p xml:id="TAca84-d1e879-d1e722">
+                  <lb ed="#L" n="58"/>AD TERTIUM DICENDUM quod, licet id quod est
+<lb ed="#L" n="59"/>futurum, non cadat sub visu; tamen ex his quae
+<lb ed="#L" n="60"/>videt animal in praesenti, movetur eius appetitus
+<lb ed="#L" n="61"/>in aliquod futurum vel prosequendum vel 
+vi<lb break="no" ed="#L" n="62"/>tandum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e879-Dd1e736"><!-- p2p1-q40-a4 -->
+               <head xml:id="TAca84-d1e879-Hd1e739">Articulus 4</head>
+               <head xml:id="TAca84-d1e879-Hd1e741" type="question-title">utrum spei contrarietur desperatio</head>
+               <p xml:id="TAca84-d1e879-d1e744">
+                  <pb ed="#L" n="269"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUARTUS
+<lb ed="#L" n="2"/>UTRUM SPEI CONTRARIETUR DESPERATIO
+</p>
+               <p xml:id="TAca84-d1e879-d1e755">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>desperatio non sit contraria spei. Uni
+<lb ed="#L" n="5"/>enim unum est contrarium, ut dicitur
+<lb ed="#L" n="6"/>in X Metaphys. Sed spei contrariatur
+<lb ed="#L" n="7"/>timor. Non ergo contrariatur ei desperatio.
+</p>
+               <p xml:id="TAca84-d1e879-d1e771">
+                  <lb ed="#L" n="8"/>2. PRAETEREA, contraria videntur esse circa idem.
+<lb ed="#L" n="9"/>Sed spes et desperatio non sunt circa idem: nam
+<lb ed="#L" n="10"/>spes respicit bonum, desperatio autem est propter
+<lb ed="#L" n="11"/>aliquod malum impeditivum adeptionis boni. Ergo
+<lb ed="#L" n="12"/>spes non contrariatur desperationi.
+</p>
+               <p xml:id="TAca84-d1e879-d1e785">
+                  <lb ed="#L" n="13"/>3. PRAETEREA, motui contrariatur motus: quies
+<lb ed="#L" n="14"/>vero opponitur motui ut privatio. Sed desperatio
+<lb ed="#L" n="15"/>magis videtur importare immobilitatem quam 
+mo<lb break="no" ed="#L" n="16"/>tum. Ergo non contrariatur spei, quae importat
+<lb ed="#L" n="17"/>motum extensionis in bonum speratum.
+</p>
+               <p xml:id="TAca84-d1e879-d1e798">
+                  <lb ed="#L" n="18"/>SED CONTRA EST quod desperatio nominatur per
+<lb ed="#L" n="19"/>contrarium spei.
+</p>
+               <p xml:id="TAca84-d1e879-d1e805">
+                  <lb ed="#L" n="20"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="21"/>est, in mutationibus invenitur duplex contrarietas.
+<lb ed="#L" n="22"/>Una secundum accessum ad contrarios terminos:
+<lb ed="#L" n="23"/>et talis contrarietas sola invenitur in passionibus
+<lb ed="#L" n="24"/>concupiscibilis, sicut amor et odium contrariantur.
+<lb ed="#L" n="25"/>Alio modo, per accessum et per recessum 
+respe<lb break="no" ed="#L" n="26"/>ctu eiusdem termini: et talis contrarietas 
+inveni<lb break="no" ed="#L" n="27"/>tur in passionibus irascibilis, sicut supra 
+di<lb break="no" ed="#L" n="28"/>ctum est. Obiectum autem spei, quod est bonum
+<lb ed="#L" n="29"/>arduum, habet quidem rationem attractivi, prout
+<lb ed="#L" n="30"/>consideratur cum possibilitate adipiscendi: et sic
+<lb ed="#L" n="31"/>tendit in ipsum spes, quae importat quendam
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="32"/>accessum. Sed secundum quod consideratur cum
+<lb ed="#L" n="33"/>impossibilitate obtinendi, habet rationem DE.
+<lb ed="#L" n="34"/>sivi: quia, ut dicitur in III E/hic., cum ventum
+<lb ed="#L" n="35"/>fuerit ad aliquid impossibile, tunc homines 
+dis<lb break="no" ed="#L" n="36"/>cedunt. Et sic respicit hoc obiectum desperatio.
+<lb ed="#L" n="37"/>Unde importat motum cuiusdam recessus. Et
+<lb ed="#L" n="38"/>propter hoc, contrariatur spei sicut recessus 
+ac<lb break="no" ed="#L" n="39"/>cessui.
+</p>
+               <p xml:id="TAca84-d1e879-d1e853">
+                  <lb ed="#L" n="40"/>AD PRIMUM ERGO DICENDUM quod timor 
+contra<lb break="no" ed="#L" n="41"/>riatur spei secundum contrarietatem obiectorum,
+<lb ed="#L" n="42"/>scilicet boni et mali: haec enim contrarietas 
+in<lb break="no" ed="#L" n="43"/>venitur in passionibus irascibilis, secundum quod
+<lb ed="#L" n="44"/>derivantur a passionibus concupiscibilis. Sed 
+de<lb break="no" ed="#L" n="45"/>speratio contrariatur ei solum secundum 
+contra<lb break="no" ed="#L" n="46"/>rietatem accessus et recessus.
+</p>
+               <p xml:id="TAca84-d1e879-d1e871">
+                  <lb ed="#L" n="47"/>AD SECUNDUM DICENDUM quod desperatio non
+<lb ed="#L" n="48"/>respicit malum sub ratione mali: sed per 
+acci<lb break="no" ed="#L" n="49"/>dens quandoque respicit malum, inquantum facit
+<lb ed="#L" n="50"/>impossibilitatem adipiscendi. Potest autem esse
+<lb ed="#L" n="51"/>desperatio ex solo superexcessu boni.
+</p>
+               <p xml:id="TAca84-d1e879-d1e884">
+                  <lb ed="#L" n="52"/>AD TERTIUM DICENDUM quod desperatio non 
+im<lb break="no" ed="#L" n="53"/>portat solam privationem spei; sed importat 
+quen<lb break="no" ed="#L" n="54"/>dam recessum a re desiderata, propter 
+aestima<lb break="no" ed="#L" n="55"/>tam impossibilitatem adipiscendi. Unde desperatio
+<lb ed="#L" n="56"/>praesupponit desiderium, sicut et spes: de eo
+<lb ed="#L" n="57"/>enim quod sub desiderio nostro non cadit, neque
+<lb ed="#L" n="58"/>spem neque desperationem habemus. Et propter
+<lb ed="#L" n="59"/>hoc etiam, utrumque eorum est de bono, quod
+<lb ed="#L" n="60"/>sub desiderio cadit.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e879-Dd1e907"><!-- p2p1-q40-a5 -->
+               <head xml:id="TAca84-d1e879-Hd1e910">Articulus 5</head>
+               <head xml:id="TAca84-d1e879-Hd1e912" type="question-title">utrum causa spei sit experientia</head>
+               <p xml:id="TAca84-d1e879-d1e915">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="61"/>ARTICULUS QUINTUS
+<lb ed="#L" n="62"/>UTRUM CAUSA SPEI SIT EXPERIENTIA
+</p>
+               <p xml:id="TAca84-d1e879-d1e924">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="63"/>AD QUINTUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="64"/>experientia non sit causa spei. 
+Experien<lb break="no" ed="#L" n="65"/>tia enim ad vim cognitivam pertinet:  
+<lb ed="#L" n="66"/>unde Philosophus dicit, in II Ethic.
+<lb ed="#L" n="67"/>quod virtus intellectualis indiget experimento et
+<lb ed="#L" n="68"/>tempore. Spes autem non est in vi cognitiva, sed
+<lb ed="#L" n="69"/>in appetitiva, ut dictum est. Ergo experientia
+<lb ed="#L" n="70"/>non est causa spei.
+</p>
+               <p xml:id="TAca84-d1e879-d1e946">
+                  <lb ed="#L" n="71"/>2. PRAETEREA, Philosophus dicit, in II Rhetoric.,
+<lb ed="#L" n="72"/>quod senes sunt difficilis spei, propter 
+experien<lb break="no" ed="#L" n="73"/>liam: ex quo videtur quod experientia sit causa
+<lb ed="#L" n="74"/>defectus spei. Sed non est idem causa 
+opposito<lb break="no" ed="#L" n="75"/>rum. Ergo experientia non est causa spei.
+</p>
+               <p xml:id="TAca84-d1e879-d1e960">
+                  <lb ed="#L" n="76"/>3. PnaETEREA, Philosophus dicit, in II de Caelo,
+<lb ed="#L" n="77"/>quod de omnibus enuntiare aliquid, et nihil 
+prae<lb break="no" ed="#L" n="78"/>lermittere, quandoque est signum stultitiae. Sed
+<lb ed="#L" n="79"/>quod homo tentet omnia, ad magnitudinem spei
+<lb ed="#L" n="80"/>pertinere videtur: stultitia autem provenit ex in-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="81"/>experientia. Ergo inexperientia videtur esse magis
+<lb ed="#L" n="82"/>causa spei quam experientia.
+</p>
+               <p xml:id="TAca84-d1e879-d1e980">
+                  <lb ed="#L" n="83"/>SED CONTRA EsT quod Philosophus dicit, in III
+<lb ed="#L" n="84"/>Ethic., quod <quote xml:id="TAca84-d1e879-Qd1e986">aliqui sunt bonae spei, propter 
+mul<lb break="no" ed="#L" n="85"/>loties et multos vicisse</quote>: quod ad experientiam ^
+<lb ed="#L" n="86"/>pertinet. Ergo experientia est causa spei.
+</p>
+               <p xml:id="TAca84-d1e879-d1e994">
+                  <lb ed="#L" n="87"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="88"/>est, spei obiectum est bonum futurum arduum
+<lb ed="#L" n="89"/>possibile adipisci. Potest ergo aliquid esse causa
+<lb ed="#L" n="90"/>spei, vel quia facit homini aliquid esse possibilé :
+<lb ed="#L" n="91"/>vel quia facit eum existimare aliquid esse 
+possi<lb break="no" ed="#L" n="92"/>bile. Primo modo est causa spei omne illud quod
+<lb ed="#L" n="93"/>auget potestatem hominis, sicut divitiae, fortitudo,
+<lb ed="#L" n="94"/>et, inter cetera, etiam experientia: nam per 
+ex<lb break="no" ed="#L" n="95"/>perientiam. homo acquirit facultatem aliquid de
+<lb ed="#L" n="96"/>facili faciendi, et ex hoc sequitur spes. Unde
+<lb ed="#L" n="97"/>
+                  <ref xml:id="TAca84-d1e879-Rd1e1020">
+                     <name xml:id="TAca84-d1e879-Nd1e1022">Vegetius</name> dicit, in libro de Re Militari</ref>: <quote xml:id="TAca84-d1e879-Qd1e1025">Nemo.
+<lb ed="#L" n="98"/>facere metuit quod se bene didicisse confidit</quote>.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1031">
+                  <pb ed="#L" n="270"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Alio modo est causa spei omne illud quod facit
+<lb ed="#L" n="2"/>alicui existimationem quod aliquid sit sibi 
+possi<lb break="no" ed="#L" n="3"/>bile. Et hoc modo et doctrina, et persuasio 
+quaeli<lb break="no" ed="#L" n="4"/>bet potest esse causa spei. Et sic etiam experientia
+<lb ed="#L" n="5"/>est causa spei: inquantum Scilicet per experientiam
+<lb ed="#L" n="6"/>fit homini existimatio quod aliquid sit sibi 
+pos<lb break="no" ed="#L" n="7"/>sibile, quod impossibile ante experientiam 
+repu<lb break="no" ed="#L" n="8"/>tabat. - Sed per hunc modum experientia potest
+<lb ed="#L" n="9"/>etiam ^ esse causa defectus spei. Quia sicut per
+<lb ed="#L" n="10"/>experientiam fit homini existimatio quod aliquid
+<lb ed="#L" n="11"/>sibi sit possibile, quod reputabat impossibile; ita
+<lb ed="#L" n="12"/>e converso per experientiam fit homini 
+existima<lb break="no" ed="#L" n="13"/>tio quod aliquid non sit sibi possibile, quod 
+pos<lb break="no" ed="#L" n="14"/>sibile existimabat.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1068">
+                  <lb ed="#L" n="15"/>Sic ergo experientia est causa spei duobus 
+mo<lb break="no" ed="#L" n="16"/>dis: causa autem defectus spei, uno modo. Et
+<lb ed="#L" n="17"/>propter hoc, magis dicere possumus eam esse
+<lb ed="#L" n="18"/>causam spei.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1079">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="19"/>AD PRIMUM ERGO DICENDUM quod experientia in
+<lb ed="#L" n="20"/>operabilibus non solum causat scientiam; sed
+<lb ed="#L" n="21"/>etiam causat quendam habitum, propter 
+consue<lb break="no" ed="#L" n="22"/>tudinem, qui facit operationem faciliorem. Sed
+<lb ed="#L" n="23"/>et ipsa virtus intellectualis facit ad potestatem
+<lb ed="#L" n="24"/>facile operandi: demonstrat enim ? aliquid esse
+<lb ed="#L" n="25"/>possibile. Et sic causat spem.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1100">
+                  <lb ed="#L" n="26"/>AD SECUNDUM DICENDUM quod in senibus est 
+de<lb break="no" ed="#L" n="27"/>fectus spei propter experientiam, inquantum 
+ex<lb break="no" ed="#L" n="28"/>perientia facit existimationem impossibilis. Unde
+<lb ed="#L" n="29"/>ibidem subditur quod eis multa evenerunt in 
+de<lb break="no" ed="#L" n="30"/>terius.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1113">
+                  <lb ed="#L" n="31"/>AD TERTIUM DICENDUM quod stultitia et 
+inexpe<lb break="no" ed="#L" n="32"/>rientia possunt esse causa spei quasi per 
+acci<lb break="no" ed="#L" n="33"/>dens, removendo scilicet scientiam per quam vere
+<lb ed="#L" n="34"/>existimatur aliquid esse non possibile. Unde ea
+<lb ed="#L" n="35"/>ratione inexperientia est causa spei, qua 
+experien<lb break="no" ed="#L" n="36"/>tia est causa defectus spei.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e879-Dd1e1130"><!-- p2p1-q40-a6 -->
+               <head xml:id="TAca84-d1e879-Hd1e1133">Articulus 6</head>
+               <head xml:id="TAca84-d1e879-Hd1e1135" type="question-title">utrum in iuvenibus et in ebriosis abundet spes</head>
+               <p xml:id="TAca84-d1e879-d1e1138">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="37"/>ARTICULUS SEXTUS
+<lb ed="#L" n="38"/>UTRUM IN IUVENIBUS ET IN EBRIOSIS ABUNDET SPES
+</p>
+               <p xml:id="TAca84-d1e879-d1e1147">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="39"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="40"/>iuventus et ebrietas non sint causa spei.
+<lb ed="#L" n="41"/>Spes enim importat quandam 
+certitudi<lb break="no" ed="#L" n="42"/>nem et firmitatem : unde ad Hebr. vi,
+<lb ed="#L" n="43"/>spes comparatur ancorae. Sed iuvenes et ebrii
+<lb ed="#L" n="44"/>deficiunt a firmitate: habent enim animum de
+<lb ed="#L" n="45"/>facili mutabilem. Ergo iuventus et ebrietas non
+<lb ed="#L" n="46"/>est causa spei.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1169">
+                  <lb ed="#L" n="47"/>2. PRAETEREA, ea quae augent potestatem, 
+ma<lb break="no" ed="#L" n="48"/>xime sunt causa spei, ut supra dictum est. Sed
+<lb ed="#L" n="49"/>iuventus et ebrietas quandam infirmitatem habent
+<lb ed="#L" n="50"/>adiunctam. Ergo non sunt causa spei.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1181">
+                  <lb ed="#L" n="51"/>3. PRAETEREA, experientia est causa spei, ut 
+di<lb break="no" ed="#L" n="52"/>ctum est. Sed iuvenibus experientia deficit. Ergo
+<lb ed="#L" n="53"/>iuventus non est causa spei.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1190">
+                  <lb ed="#L" n="54"/>SED CONTRA EsT quod Philosophus dicit, in III
+<lb ed="#L" n="55"/>Ethic., quod <quote xml:id="TAca84-d1e879-Qd1e1196">inebriati sunt bene sperantes</quote>. Et in
+<lb ed="#L" n="56"/>II Rehetoric. dicitur quod iuvenes sunt bonae spei.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1201">
+                  <lb ed="#L" n="57"/>RESPONDEO DICENDUM quod iuventus est causa
+<lb ed="#L" n="58"/>spei propter tria, ut Philosophus dicit in II R/
+eto<lb break="no" ed="#L" n="59"/>ric. Et haec tria possunt accipi secundum. tres
+<lb ed="#L" n="60"/>conditiones boni quod est obiectum spei, quod est
+<lb ed="#L" n="61"/>futurum, et arduum, et possibile, ut dictum est.
+<lb ed="#L" n="62"/>Iuvenes enim multum habent de futuro, et 
+pa<lb break="no" ed="#L" n="63"/>rum de. praeterito. Et ideo, quia memoria est
+<lb ed="#L" n="64"/>praeteriti, spes autem futuri; parum. habent de
+<lb ed="#L" n="65"/>memoria, sed multum vivunt.in spe. - Iuvenes
+<lb ed="#L" n="66"/>etiam, propter caliditatem naturae, habent multos
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="67"/>spiritus: et ita in eis cor ampliatur. Ex 
+amplitu<lb break="no" ed="#L" n="68"/>dine autem cordis est quod aliquis ad ardua
+<lb ed="#L" n="69"/>tendat. Et ideo iuvenes sunt animosi et bonae
+<lb ed="#L" n="70"/>spei. - Similiter etiam illi qui non sunt passi 
+re<lb break="no" ed="#L" n="71"/>pulsam, nec experti impedimenta in suis 
+conati<lb break="no" ed="#L" n="72"/>bus, de facili reputant aliquid sibi possibile. Unde
+<lb ed="#L" n="73"/>et iuvenes, propter inexperientiam 
+impedimento<lb break="no" ed="#L" n="74"/>rum et defectuum, de facili reputant aliquid sibi
+<lb ed="#L" n="75"/>possibile. Et ideo sunt bonae spei.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1247">
+                  <lb ed="#L" n="76"/>Duo etiam istorum sunt in ebriis: scilicet 
+ca<lb break="no" ed="#L" n="77"/>liditas et multiplicatio spirituum, propter vinum;
+<lb ed="#L" n="78"/>et iterum inconsideratio periculorum vel 
+defe<lb break="no" ed="#L" n="79"/>ctuum. - Et propter eandem rationem etiam
+<lb ed="#L" n="80"/>omnes stulti, et deliberatione non utentes, omnia
+<lb ed="#L" n="81"/>tentant, et sunt bonae spei.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1263">
+                  <lb ed="#L" n="82"/>AD PRIMUM ERGO DICENDUM quod in iuvenibus
+<lb ed="#L" n="83"/>et in ebriis licet non sit firmitas secundum rei
+<lb ed="#L" n="84"/>veritatem, est tamen in eis secundum eorum 
+aesti<lb break="no" ed="#L" n="85"/>mationem: reputant enim se firmiter assecuturo
+<lb ed="#L" n="86"/>illud quod sperant. h |
+</p>
+               <p xml:id="TAca84-d1e879-d1e1276">
+                  <lb ed="#L" n="87"/>Et similiter dicendum ad. secundum, quod 
+iu<lb break="no" ed="#L" n="88"/>venes et ebrii habent quidem infirmitatem 
+secun<lb break="no" ed="#L" n="89"/>dum rei veritatem: sed secundum eorum 
+existi<lb break="no" ed="#L" n="90"/>mationem, habent potestatem; quia suos defectus
+<lb ed="#L" n="91"/>non. cognoscunt.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1290">
+                  <lb ed="#L" n="92"/>AD TERTIUM DICENDUM .quod non solum. 
+expe<lb break="no" ed="#L" n="93"/>rientia, sed. etiam inexperientia est quodammodo
+<lb ed="#L" n="94"/>causa spei, ut dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e879-Dd1e1301"><!-- p2p1-q40-a7 -->
+               <head xml:id="TAca84-d1e879-Hd1e1304">Articulus 7</head>
+               <head xml:id="TAca84-d1e879-Hd1e1306" type="question-title">utrum spes sit causa amoris</head>
+               <p xml:id="TAca84-d1e879-d1e1309">
+                  <pb ed="#L" n="271"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="2"/>UTRUM SPES SIT CAUSA AMORIS
+</p>
+               <p xml:id="TAca84-d1e879-d1e1320">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>spes non sit causa amoris. Quia 
+secun<lb break="no" ed="#L" n="5"/>dum. Augustinum, XIV de Civ. Dei,
+<lb ed="#L" n="6"/>prima affectionum animae est amor.
+<lb ed="#L" n="7"/>Longi ie est quaedam affectio animae. Amor ergo
+<lb ed="#L" n="8"/>praecedit spem. Non ergo spes causat amorem.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1338">
+                  <lb ed="#L" n="9"/>2. PRAETEREA, desiderium praecedit spem. Sed
+<lb ed="#L" n="10"/>desiderium causatur ex amore, ut dictum est.
+<lb ed="#L" n="11"/>Ergo- etiam spes sequitur amorem. Non ergo
+<lb ed="#L" n="12"/>causat ipsum.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1350">
+                  <lb ed="#L" n="13"/>3. PRAETEREA, spes causat delectationem, ut
+<lb ed="#L" n="14"/>supra dictum est. Sed delectatio non est nisi
+<lb ed="#L" n="15"/>de bono amato. Ergo amor praecedit spem.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1359">
+                  <lb ed="#L" n="16"/>SED CONTRA EST quod Matth. 1, super illud, « 
+A<lb break="no" ed="#L" n="17"/>braham genuit Isaac, Isaac autem genuit Iacob »,
+<lb ed="#L" n="18"/>dicit Glossa: idest, fides spem, spes caritatem. 
+Ca<lb break="no" ed="#L" n="19"/>ritas autem ést amor. Ergo amor causatur a spe.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1370">
+                  <lb ed="#L" n="20"/>RESPONDEO DICENDUM quod spes duo respicere
+<lb ed="#L" n="21"/>potest. Respicit enim sicut obiectum, bonum spe-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="22"/>ratum. Sed quia bonum speratum est arduum
+<lb ed="#L" n="23"/>possibile; aliquando autem fit aliquod arduum
+<lb ed="#L" n="24"/>possibile nobis, non per nos, sed per alios; ideo
+<lb ed="#L" n="25"/>spes etiam respicit illud per quod fit nobis 
+ali<lb break="no" ed="#L" n="26"/>quid possibile.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1390">
+                  <lb ed="#L" n="27"/>Inquantum igitur spes respicit bonum 
+spera<lb break="no" ed="#L" n="28"/>tum, spes ex amore causatur: non enim est spes
+<lb ed="#L" n="29"/>nisi de bono desiderato et amato. - Inquantum
+<lb ed="#L" n="30"/>vero spes respicit illum per quem fit aliquid nobis
+<lb ed="#L" n="31"/>possibile, sic amor causatur. ex spe, et non e 
+con<lb break="no" ed="#L" n="32"/>verso. Ex hoc enim quod per aliquem speramus
+<lb ed="#L" n="33"/>nobis posse provenire bona, movemur in ipsum
+<lb ed="#L" n="34"/>sicut in bonum nostrum: et sic incipimus ipsum
+<lb ed="#L" n="35"/>amare. Ex hoc autem quod amamus aliquem, non
+<lb ed="#L" n="36"/>speramus de eo, nisi per accidens, inquantum
+<lb ed="#L" n="37"/>scilicet credimus nos redamari ab ipso. Unde
+<lb ed="#L" n="38"/>amari ab aliquo facit nos sperare de eo: sed amor
+<lb ed="#L" n="39"/>eius causatur ex spe quam de eo habemus.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1421">
+                  <lb ed="#L" n="40"/>Et per haec patet responsio ad obiecta.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e879-Dd1e1427"><!-- p2p1-q40-a8 -->
+               <head xml:id="TAca84-d1e879-Hd1e1430">Articulus 8</head>
+               <head xml:id="TAca84-d1e879-Hd1e1432" type="question-title">utrum spes conferat ad operationem, vel magis impediat</head>
+               <p xml:id="TAca84-d1e879-d1e1435">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="41"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="42"/>UTRUM SPES CONFERAT AD OPERATIONEM, VEL MAGIS IMPEDIAT
+</p>
+               <p xml:id="TAca84-d1e879-d1e1444">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="43"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="44"/>spes non adiuvet operationem, sed 
+ma<lb break="no" ed="#L" n="45"/>gis impediat. Ad spem enim securitas
+<lb ed="#L" n="46"/>pertinet. Sed securitas. parit 
+negligen<lb break="no" ed="#L" n="47"/>tiam, quae impedit operationem. Ergo spes 
+im<lb break="no" ed="#L" n="48"/>pedit operationem.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1462">
+                  <lb ed="#L" n="49"/>2. PRAETEREA, tristitia impedit e peris ut
+<lb ed="#L" n="50"/>Supra dictum est. Sed spes quandoque causat
+<lb ed="#L" n="51"/>tristitiam: dicitur enim. Prov. xui.: Spes quae
+<lb ed="#L" n="52"/>differtur, affligit animam. Ergo spes impedit. 
+ope<lb break="no" ed="#L" n="53"/>rationem.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1476">
+                  <lb ed="#L" n="54"/>3. PRAETEREA, desperatio contrariatur spei, ut
+<lb ed="#L" n="55"/>dictum est. Sed desperatio , maxime. in rebus
+<lb ed="#L" n="56"/>bellicis , adiuvat operationem : dicitur enim. Il
+<lb ed="#L" n="57"/>Reg. quod <quote xml:id="TAca84-d1e879-Qd1e1486">periculosa res est desperatio</quote>. Ergo
+<lb ed="#L" n="58"/>spes facit contrarium effectum, impediendo  
+sci<lb break="no" ed="#L" n="59"/>licet operationem.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1494">
+                  <lb ed="#L" n="60"/>SED CONTRA EST quod dicitur I ad Cor. ix, quod
+<lb ed="#L" n="61"/>
+                  <quote xml:id="TAca84-d1e879-Qd1e1500">qui arat, debet arare in spe fructus percipiendi</quote>.
+<lb ed="#L" n="62"/>Et eadem ratio est in omnibus aliis.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1505">
+                  <lb ed="#L" n="63"/>RESPONDEO DICENDUM quod spes per se habet
+<lb ed="#L" n="64"/>quod adiuvet operationem, intendendo ipsam.
+<lb ed="#L" n="65"/>Et hoc ex duobus. Primo quidem, ex ratione sui
+<lb ed="#L" n="66"/>obiecti, quod est bonum arduum possibile. 
+Exi<lb break="no" ed="#L" n="67"/>stimatio enim ardui .excitat attentionem: existi-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="68"/>matio vero. possibilis. non retardat conatum. 
+Un<lb break="no" ed="#L" n="69"/>de sequitur quod homo intente operetur propter
+<lb ed="#L" n="70"/>spem. - Secundo vero, ex ratione sui effectus. Spes
+<lb ed="#L" n="71"/>enim, ut supra dictum est, causat delectationem:
+<lb ed="#L" n="72"/>quae adiuvat operationem, ut supra dictum est.
+<lb ed="#L" n="73"/>Unde. spes. operationem. adiuvat.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1534">
+                  <lb ed="#L" n="74"/>AD PRIMUM ; ERGO . DICENDUM quod spes. respicit
+<lb ed="#L" n="75"/>bonum. consequendum :. securitas. autem. respicit
+<lb ed="#L" n="76"/>malum. vitandum.. Unde securitas magis. videtur
+<lb ed="#L" n="77"/>opponi timori, quam ad spem pertinere; - Et tamen
+<lb ed="#L" n="78"/>securitas non causat neghaentiacs nisi ipquanpam
+<lb ed="#L" n="79"/>minuitur ratio | spei. Illa. enim. in quibus émad
+<lb ed="#L" n="80"/>nullum impedimentum Rene qnos. iam non 
+re<lb break="no" ed="#L" n="81"/>putantur ardua.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1554">
+                  <lb ed="#L" n="82"/>AD SECUNDUM DICENDUM Hubd spes per. se causat
+<lb ed="#L" n="83"/>delectationem: sed per accidens est ut causet
+<lb ed="#L" n="84"/>tristitiam, ut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e879-d1e1563">
+                  <lb ed="#L" n="85"/>AD TERTIUM DICENDUM quod desperatio in bello
+<lb ed="#L" n="86"/>fit periculosa, propter aliquam spem adiunctam.
+<lb ed="#L" n="87"/>Illi enim qui desperant de fuga, debilitantur in
+<lb ed="#L" n="88"/>fugiendo, sed sperant mortem suam vindicare.
+<lb ed="#L" n="89"/>Et ideo ex hac spe acrius pugnant: unde 
+pericu<lb break="no" ed="#L" n="90"/>losi hostibus fiunt.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

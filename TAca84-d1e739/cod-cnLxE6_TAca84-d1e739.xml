@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="98"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e739"><!-- p2p1-q13 -->
+            <head xml:id="TAca84-d1e739-Hd1e99">Quaestio 13</head>
+            <head xml:id="TAca84-d1e739-Hd1e101" type="question-title">de electione, quae est actus voluntatis
+      respectu eorum quae sunt ad finem</head>
+            <p xml:id="TAca84-d1e739-d1e104">
+               <pb ed="#L" n="98"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO DECIMATERTIA
+<lb ed="#L" n="2"/>DE ELECTIONE, QUAE EST ACTUS VOLUNTATIS
+<lb ed="#L" n="3"/>RESPECTU EORUM QUAE SUNT AD FINEM
+<lb ed="#L" n="4"/>IN SEX ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e739-d1e120">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="5"/>Consequenter considerandum est de actibus
+<lb ed="#L" n="6"/>voluntatis qui sunt in comparatione ad ea
+<lb ed="#L" n="7"/>quae sunt ad finem. Et sunt tres: eligere, 
+con<lb break="no" ed="#L" n="8"/>sentire, et uti. Electionem autem praecedit 
+con<lb break="no" ed="#L" n="9"/>silium. Primo ergo considerandum est de 
+electio<lb break="no" ed="#L" n="10"/>ne; secundo, de consilio; tertio, de consensu;
+<lb ed="#L" n="11"/>quarto, de usu.
+</p>
+            <p xml:id="TAca84-d1e739-d1e140">
+               <lb ed="#L" n="12"/>Circa electionem quaeruntur sex.
+<lb ed="#L" n="13"/>Primo: cuius potentiae sit actus, utrum 
+volun<lb break="no" ed="#L" n="14"/>tatis vel rationis.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="15"/>Secundo: utrum electio conveniat brutis 
+ani<lb break="no" ed="#L" n="16"/>malibus.
+<lb ed="#L" n="17"/>Tertio: utrum electio sit solum eorum quae
+<lb ed="#L" n="18"/>sunt ad finem, vel etiam quandoque finis,
+<lb ed="#L" n="19"/>Quarto: utrum electio sit tantum eorum quae
+<lb ed="#L" n="20"/>per nos aguntur. j;
+<lb ed="#L" n="21"/>Quinto: utrum electio sit solum possibilium.
+<lb ed="#L" n="22"/>Sexto: utrum homo ex necessitate eligat, vel
+<lb ed="#L" n="23"/>libere.
+</p>
+            <div xml:id="TAca84-d1e739-Dd1e172"><!-- p2p1-q13-a1 -->
+               <head xml:id="TAca84-d1e739-Hd1e175">Articulus 1</head>
+               <head xml:id="TAca84-d1e739-Hd1e177" type="question-title">utrum electio sit actus voluntatis vel rationis</head>
+               <p xml:id="TAca84-d1e739-d1e180">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>ARTICULUS PRIMUS
+<lb ed="#L" n="25"/>UTRUM ELECTIO SIT ACTUS VOLUNTATIS, VEL RATIONIS
+</p>
+               <p xml:id="TAca84-d1e739-d1e189">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="26"/>Ad primum sic proceditur. Videtur quod 
+<lb ed="#L" n="27"/>electio non sit actus voluntatis, sed 
+ra<lb break="no" ed="#L" n="28"/>tionis. Electio enim collationem 
+quan<lb break="no" ed="#L" n="29"/>dam importat, quà unum alteri 
+prae<lb break="no" ed="#L" n="30"/>fertur. Sed conferre est rationis. Ergo electio est
+<lb ed="#L" n="31"/>rationis.
+</p>
+               <p xml:id="TAca84-d1e739-d1e207">
+                  <lb ed="#L" n="32"/>2. PRAETEREA, eiusdem est syllogizare et 
+con<lb break="no" ed="#L" n="33"/>cludere. Sed syllogizare ^ in operabilibus est 
+ra<lb break="no" ed="#L" n="34"/>tionis. Cum igitur electio sit quasi conclusio in
+<lb ed="#L" n="35"/>operabilibus, ut dicitur in VII Ethic., videtur
+<lb ed="#L" n="36"/>quod sit actus rationis.
+</p>
+               <p xml:id="TAca84-d1e739-d1e221">
+                  <lb ed="#L" n="37"/>3. PRAETEREA, ignorantia non pertinet ad 
+vo<lb break="no" ed="#L" n="38"/>juntatem, sed ad vim cognitivam. Est autem 
+quae<lb break="no" ed="#L" n="39"/>dam ignorantia electionis, ut dicitur in III Erthic.
+<lb ed="#L" n="40"/>Ergo videtur quod electio non pertineat ad 
+vo<lb break="no" ed="#L" n="41"/>luntatem, sed ad rationem.
+</p>
+               <p xml:id="TAca84-d1e739-d1e234">
+                  <lb ed="#L" n="42"/>SED cowTRA EsT quod <ref xml:id="TAca84-d1e739-Rd1e238">Philosophus dicit, in III
+<lb ed="#L" n="43"/>Ethic.</ref>, quod electio est <quote xml:id="TAca84-d1e739-Qd1e243">desiderium eorum quae
+<lb ed="#L" n="44"/>sunt in nóbis</quote>. Desiderium autem est actus 
+volun<lb break="no" ed="#L" n="45"/>tatis. Ergo et electio.
+</p>
+               <p xml:id="TAca84-d1e739-d1e251">
+                  <lb ed="#L" n="46"/>RESPONDEO DICENDUM quod in nomine electionis
+<lb ed="#L" n="47"/>importatür aliquid pertinens ad rationem sive 
+in<lb break="no" ed="#L" n="48"/>tellectum ?, et aliquid pertinens ad voluntatem:
+<lb ed="#L" n="49"/>dicit enim Philosophus, in VI E/hic., quod electio
+<lb ed="#L" n="50"/>est appetitivus intellectus, vel appetitus intellectivus.
+<lb ed="#L" n="51"/>Quandocumque autem duo concurrunt ad aliquid
+<lb ed="#L" n="52"/>unum constituendum, unum eorum est ut formale
+<lb ed="#L" n="53"/>respectu alterius. Unde Gregorius Nyssenus dicit
+<lb ed="#L" n="54"/>quod electio <quote xml:id="TAca84-d1e739-Qd1e272">neque est appetitus secundum  
+se<lb break="no" ed="#L" n="55"/>ipsam, neque consilium solum, sed ex his aliquid
+<lb ed="#L" n="56"/>compositum. Sicut enim dicimus animal ex anima
+<cb ed="#L" n="f"/>
+                     <lb ed="#L" n="57"/>et corpore compositum esse, neque vero corpus
+<lb ed="#L" n="58"/>esse secundum seipsum, neque animam solam, sed
+<lb ed="#L" n="59"/>utrumque</quote>; ita et electionem. Est autem 
+conside<lb break="no" ed="#L" n="60"/>randum in actibus animae, quod actus qui est
+<lb ed="#L" n="61"/>essentialiter unius potentiae vel habitus, recipit
+<lb ed="#L" n="62"/>formam et speciem a superiori potentia vel 
+ha<lb break="no" ed="#L" n="63"/>bitu, secundum quod ordinatur inferius a 
+supe<lb break="no" ed="#L" n="64"/>riori: si enim aliquis actum fortitudinis exerceat -
+<lb ed="#L" n="65"/>propter Dei amorem, actus quidem ille 
+mate<lb break="no" ed="#L" n="66"/>rialiter est fortitudinis, formaliter vero caritatis.
+<lb ed="#L" n="67"/>Manifestum est autem quod ratio quodammodo
+<lb ed="#L" n="68"/>voluntatem praecedit, et ordinat actum eius:».
+<lb ed="#L" n="69"/>inquantum scilicet voluntas in suum obiectum
+<lb ed="#L" n="70"/>tendit secundum ordinem rationis, eo quod vis.
+<lb ed="#L" n="71"/>apprehensiva appetitivae suum obiectum 
+reprae<lb break="no" ed="#L" n="72"/>sentat. Sic igitur ille actus quo voluntas tendit
+<lb ed="#L" n="73"/>in aliquid quod proponitur ut bonum, ex eo quod
+<lb ed="#L" n="74"/>per rationem est ordinatum ad finem, 
+materia<lb break="no" ed="#L" n="75"/>liter quidem est voluntatis, formaliter autem ra- -
+<lb ed="#L" n="76"/>tionis. In huiusmodi autem substantia actus ma- .
+<lb ed="#L" n="77"/>terialiter se habet ad ordinem qui imponitur a.
+<lb ed="#L" n="78"/>superiori potentia. Et ideo electio substantialiter
+<lb ed="#L" n="79"/>non est actus rationis, sed. voluntatis: perficitur
+<lb ed="#L" n="80"/>enim electio in motu quodam animae ad bonum
+<lb ed="#L" n="81"/>quod eligitur. Unde manifeste actus est 
+appe<lb break="no" ed="#L" n="82"/>titivae potentiae.
+</p>
+               <p xml:id="TAca84-d1e739-d1e339">
+                  <lb ed="#L" n="83"/>AD PRIMUM ERGO DICENDUM' quod electio importat
+<lb ed="#L" n="84"/>collationem quandam praecedentem: non quod
+<lb ed="#L" n="85"/>essentialiter sit ipsa collatio. — .
+</p>
+               <p xml:id="TAca84-d1e739-d1e348">
+                  <lb ed="#L" n="86"/>AD SECUNDUM DICENDUM quod conclusio etiam ?
+<lb ed="#L" n="87"/>syllogismi qui fit in operabilibus, ad rationem per-
+<pb ed="#L" n="99"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tinet; et dicitur sententia vel iudicium, quam 
+se<lb break="no" ed="#L" n="2"/>quitur electio. Et ob hoc ipsa conclusio pertinere
+<lb ed="#L" n="3"/>videtnr ad electionem, tanquam ad consequens.
+</p>
+               <p xml:id="TAca84-d1e739-d1e366">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="4"/>AD TERTIUM DICENDUM quod ignorantia dicitur
+<lb ed="#L" n="5"/>esse electionis, non quod ipsa electio sit scientia:
+<lb ed="#L" n="6"/>sed quia ignoratur quid sit eligendum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e739-Dd1e378"><!-- p2p1-q13-a2 -->
+               <head xml:id="TAca84-d1e739-Hd1e381">Articulus 2</head>
+               <head xml:id="TAca84-d1e739-Hd1e383" type="question-title">utrum electio conveniat brutis animalibus</head>
+               <p xml:id="TAca84-d1e739-d1e386">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="22"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="23"/>UTRUM ELECTIO CONVENIAT BRUTIS ANIMALIBUS
+</p>
+               <p xml:id="TAca84-d1e739-d1e395">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="24"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="25"/>electio brutis animalibus conveniat. 
+Ele<lb break="no" ed="#L" n="26"/>ctio enim est <quote xml:id="TAca84-d1e739-Qd1e405">appetitus aliquorum 
+pro<lb break="no" ed="#L" n="27"/>pter finem</quote>, ut dicitur in <ref xml:id="TAca84-d1e739-Rd1e411">III Ethic.</ref> Sed
+<lb ed="#L" n="28"/>E in animalia appetunt aliquid propter finem:
+<lb ed="#L" n="29"/>agunt enim propter finem, et ex appetitu. Ergo
+<lb ed="#L" n="30"/>in brutis animalibus est electio.
+</p>
+               <p xml:id="TAca84-d1e739-d1e420">
+                  <lb ed="#L" n="31"/>2. PRAETEREA, ipsum nomen electionis 
+signifi<lb break="no" ed="#L" n="32"/>care videtur quod aliquid prae aliis accipiatur.
+<lb ed="#L" n="33"/>Sed bruta animalia accipiunt aliquid prae aliis:
+<lb ed="#L" n="34"/>Sicut manifeste apparet quod ovis unam herbam
+<lb ed="#L" n="35"/>comedit, et aliam refutat. Ergo in brutis 
+anima<lb break="no" ed="#L" n="36"/>libus est electio.
+</p>
+               <p xml:id="TAca84-d1e739-d1e437">
+                  <lb ed="#L" n="37"/>3. PRAETEREA, .ut dicitur in. <ref xml:id="TAca84-d1e739-Rd1e441">VI. Ethic.</ref>, <quote xml:id="TAca84-d1e739-Qd1e443">ad 
+pru<lb break="no" ed="#L" n="38"/>dentiam. pertinet quod. aliquis. bene eligat ea quae
+<lb ed="#L" n="39"/>sunt ad finem</quote>. Sed prudentia convenit brutis 
+ani<lb break="no" ed="#L" n="40"/>malibus: unde dicitur in <ref xml:id="TAca84-d1e739-Rd1e452">principio Metaphys.</ref>
+                  <lb ed="#L" n="41"/>quod <quote xml:id="TAca84-d1e739-Qd1e457">prudentia sunt sine disciplina quaecumque
+<lb ed="#L" n="42"/>sonos audire non potentia sunt, ut apes</quote>. Et hoc etiam
+<lb ed="#L" n="43"/>sensui manifestum videtur: apparent enim 
+mira<lb break="no" ed="#L" n="44"/>biles sagacitates in operibus animalium, ut apum
+<lb ed="#L" n="45"/>et aranearum et canum. Canis enim insequens
+<lb ed="#L" n="46"/>cervum, si ad trivium venerit, odoratu quidem
+<lb ed="#L" n="47"/>explorat. an cervus per primam vel secundam
+<lb ed="#L" n="48"/>viam transiverit : quod si invenerit non transisse,
+<lb ed="#L" n="49"/>iam securus per tertiam viam incedit non 
+explo<lb break="no" ed="#L" n="50"/>rando 9, quasi utens syllogismo divisivo, quo 
+con<lb break="no" ed="#L" n="51"/>cludi posset cervum per illam viam incedere, ex
+<lb ed="#L" n="52"/>quo non incedit per alias duas, cum non sint
+<lb ed="#L" n="53"/>plures. Ergo videtur |quod electio brutis 
+anima<lb break="no" ed="#L" n="54"/>libus conveniat.
+</p>
+               <p xml:id="TAca84-d1e739-d1e489">
+                  <lb ed="#L" n="55"/>SED CONTRA EST quod Gregorius Nyssenus
+<lb ed="#L" n="56"/>dicit, quod pueri et irrationalia voluntarie 
+qui<lb break="no" ed="#L" n="57"/>dem faciunt, non tamen eligentia. Ergo in —
+<lb ed="#L" n="58"/>animalibus non est electio.
+</p>
+               <p xml:id="TAca84-d1e739-d1e500">
+                  <lb ed="#L" n="59"/>RESPONDEO DICENDUM quod, cum electio sit 
+prae<lb break="no" ed="#L" n="60"/>acceptio unius respectu alterius, necesse est quod
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="61"/>electio sit respectu plurium quae eligi possunt.
+<lb ed="#L" n="62"/>Et ideo in his quae sunt penitus determinata ad
+<lb ed="#L" n="63"/>unum, electio locum non habet. Est autem 
+diffe<lb break="no" ed="#L" n="64"/>rentia inter appetitum sensitivum et voluntatem,
+<lb ed="#L" n="65"/>quia, ut ex praedictis patet, appetitus sensitivus
+<lb ed="#L" n="66"/>est determinatus ad unum aliquid particulare 
+se<lb break="no" ed="#L" n="67"/>cundum ordinem naturae; voluntas autem est 
+qui<lb break="no" ed="#L" n="68"/>dem, secundum naturae ordinem, determinata ad
+<lb ed="#L" n="69"/>unum commune, quod est bonum, sed 
+indetermi<lb break="no" ed="#L" n="70"/>nate se habet respectu particularium bonorum.
+<lb ed="#L" n="71"/>Et ideo proprie voluntatis est eligere: non autem
+<lb ed="#L" n="72"/>appetitus sensitivi, qui solus est in brutis 
+anima<lb break="no" ed="#L" n="73"/>libus. Et propter hoc brutis animalibus electio non
+<lb ed="#L" n="74"/>convenit.
+</p>
+               <p xml:id="TAca84-d1e739-d1e539">
+                  <lb ed="#L" n="75"/>AD PRIMUM ERGO DICENDUM quod non omnis
+<lb ed="#L" n="76"/>appetitus alicuius propter finem, vocatur electio:
+<lb ed="#L" n="77"/>sed cum quadam discretione unius ab altero. Quae
+<lb ed="#L" n="78"/>locum habere. non potest, nisi ubi ? appetitus 
+po<lb break="no" ed="#L" n="79"/>test ferri ad plura.
+</p>
+               <p xml:id="TAca84-d1e739-d1e552">
+                  <lb ed="#L" n="80"/>AD SECUNDUM DICENDUM duBd brutum animal
+<lb ed="#L" n="81"/>accipit unum prae alio, quia appetitus eius est
+<lb ed="#L" n="82"/>naturaliter determinatus ad ipsum. Unde. statim
+<lb ed="#L" n="83"/>quando per sensum vel per imaginationem 
+re<lb break="no" ed="#L" n="84"/>praesentatur sibi aliquid ad: quod naturaliter 
+in<lb break="no" ed="#L" n="85"/>clinatur eius appetitus, absque electione in illud
+<lb ed="#L" n="86"/>solum movetur. Sicut etiam absque electione
+<lb ed="#L" n="87"/>ignis movetur sursum, et non deorsum.
+</p>
+               <p xml:id="TAca84-d1e739-d1e572">
+                  <lb ed="#L" n="88"/>AD TERTIUM DICENDUM quod, sicut dicitur in <ref xml:id="TAca84-d1e739-Rd1e576">III
+<lb ed="#L" n="89"/>Physic.</ref>, <quote xml:id="TAca84-d1e739-Qd1e581">motus est actus mobilis a movente</quote>. Et
+<lb ed="#L" n="90"/>ideo virtus moventis apparet in motu mobilis. Et
+<lb ed="#L" n="91"/>propter hoc in omnibus quae moventur a ratione,
+<lb ed="#L" n="92"/>apparet ordo rationis moventis, licet ipsa ^ 
+ratio<lb break="no" ed="#L" n="93"/>nem non habeant: sic enim sagitta directe tendit
+<lb ed="#L" n="94"/>ad signum ex motione sagittantis, ac si ipsa 
+ra<lb break="no" ed="#L" n="95"/>tionem haberet dirigentem. Et idem apparet in
+<lb ed="#L" n="96"/>motibus horologiorum, et omnium ingeniorum
+<lb ed="#L" n="97"/>humanorum, quae arte fiunt. Sicut autem com-
+<pb ed="#L" n="100"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>parantur artificialia ad artem humanam, ita 
+com<lb break="no" ed="#L" n="2"/>parantur omnia naturalia ad. artem divinam. Et
+<lb ed="#L" n="3"/>ideo ordo apparet in his quae moventur .
+secun<lb break="no" ed="#L" n="4"/>dum naturam, sicut et in his quae moventur per
+<lb ed="#L" n="5"/>rationem, ut dicitur in II Physic. Et ex hoc
+<lb ed="#L" n="6"/>contingit quod in operibus brutorum animalium
+<lb ed="#L" n="7"/>apparent quaedam sagacitates, inquantum habent
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>inclinationem naturalem ad quosdam 
+ordinatis<lb break="no" ed="#L" n="9"/>simos: processus, utpote a summa arte ordinatos.
+<lb ed="#L" n="10"/>Et propter hoc etiam quaedam animalia dicuntur
+<lb ed="#L" n="11"/>prudentia vel sagacia: non quod in eis sit 
+ali<lb break="no" ed="#L" n="12"/>qua ratio vel electio. Quod ex hoc apparet,
+<lb ed="#L" n="13"/>quod omnia quae sunt unius naturae, similiter
+<lb ed="#L" n="14"/>operantur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e739-Dd1e639"><!-- p2p1-q13-a3 -->
+               <head xml:id="TAca84-d1e739-Hd1e642">Articulus 3</head>
+               <head xml:id="TAca84-d1e739-Hd1e644" type="question-title">utrum electio sit solum eorum quae sunt ad finem, 
+       vel etiam, quandoque ipsius finis</head>
+               <p xml:id="TAca84-d1e739-d1e647">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="107"/>ARTICULUS TERTIUS.
+<lb ed="#L" n="108"/>UTRUM ELECTIO SIT SOLUM EORUM QUAE SUNT AD FINEM, 
+<lb ed="#L" n="109"/>VEL ETIAM, QUANDOQUE IPSIUS FINIS
+</p>
+               <p xml:id="TAca84-d1e739-d1e658">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="110"/>AD TERTIUM SIC PROCEDITUR, Videtur quod
+<lb ed="#L" n="111"/>electio non sit tantum eorum quae sunt
+<lb ed="#L" n="112"/>ad finem. Dicit enim Philosophus ,. in
+<lb ed="#L" n="113"/>VI Ethic., quod <quote xml:id="TAca84-d1e739-Qd1e671">electionem rectam 
+fa<lb break="no" ed="#L" n="114"/>cit virtus: quaecumque autem illius gratia. nata
+<cb ed="#L" n="h"/>
+                     <lb ed="#L" n="115"/>sunt fieri, non sunt virtutis, sed alterius potentiae</quote>.
+<lb ed="#L" n="116"/>Illud autem cuius gratia fit aliquid, est finis. ——
+<lb ed="#L" n="117"/>electio est finis.
+</p>
+               <p xml:id="TAca84-d1e739-d1e685">
+                  <lb ed="#L" n="118"/>2. PRAETEREA, electio importat praeacceptionem
+<lb ed="#L" n="119"/>unius respectu alterius. Sed sicut eorum quae
+<pb ed="#L" n="101"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sunt ad finem unum potest praeaccipi alteri, ita
+<lb ed="#L" n="2"/>etiam et diversorum finium. Ergo electio potest
+<lb ed="#L" n="3"/>esse finis, sicut et eorum quae sunt ad finem.
+</p>
+               <p xml:id="TAca84-d1e739-d1e704">
+                  <lb ed="#L" n="4"/>SED CONTRA EST quod <ref xml:id="TAca84-d1e739-Rd1e708">Philosophus dicit, in III
+<lb ed="#L" n="5"/>Ethic.</ref>, quod <quote xml:id="TAca84-d1e739-Qd1e713">voluntas est finis, electio autem 
+eo<lb break="no" ed="#L" n="6"/>rum quae sunt ad finem.</quote>
+               </p>
+               <p xml:id="TAca84-d1e739-d1e719">
+                  <lb ed="#L" n="7"/>RESPONDEO DICENDUM quod, sicut iam dictum
+<lb ed="#L" n="8"/>est, electio consequitur sententiam vel iudicium,
+<lb ed="#L" n="9"/>quod est sicut conclusio syllogismi operativi, Unde.
+<lb ed="#L" n="10"/>illud cadit sub electione, quod se habet ut 
+con<lb break="no" ed="#L" n="11"/>clusio in syllogismo operabilium, Finis autem in
+<lb ed="#L" n="12"/>operabilibus se habet ut principium, et non. ut
+<lb ed="#L" n="13"/>conclusio, ut Philosophus dicit in II Physic.
+<lb ed="#L" n="14"/>Unde finis, inquantum est huiusmodi, non, cadit
+<lb ed="#L" n="15"/>sub electione.
+</p>
+               <p xml:id="TAca84-d1e739-d1e741">
+                  <lb ed="#L" n="16"/>Sed sicut in speculativis nihil prohibet id quod
+<lb ed="#L" n="17"/>est unius demonstrationis vel scientiae principium,
+<lb ed="#L" n="18"/>esse conclusionem alterius demonstrationis, vel
+<lb ed="#L" n="19"/>scientiae ; primum | tamen. principium 
+indemon<lb break="no" ed="#L" n="20"/>strabile non potest esse conclusio alicuius demon-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="21"/>strationis vel scientiae; ita etiam contingit id quod
+<lb ed="#L" n="22"/>est in una operatione ut finis, ordinari ad aliquid
+<lb ed="#L" n="23"/>ut ad finem. Et hoc modo sub electione cadit.
+<lb ed="#L" n="24"/>Sicut in operatione medici, sanitas se habet ut
+<lb ed="#L" n="25"/>finis: unde hoc non cadit sub electione medici,
+<lb ed="#L" n="26"/>sed hoc supponit tanquam principium. Sed 
+sa<lb break="no" ed="#L" n="27"/>nitas corporis ordinatur ad bonum animae: unde
+<lb ed="#L" n="28"/>apud eum qui habet.curam de. animae. salute ,
+<lb ed="#L" n="29"/>potest sub electione. cadere esse sanum vel esse
+<lb ed="#L" n="30"/>infirmum; nam. Apostolus dicit, II ad Cor. xu:
+<lb ed="#L" n="31"/>Cum. enim infirmor, tunc potens sum. Sed 
+ulti<lb break="no" ed="#L" n="32"/>mus finis; nullo modo sub. electione: cadit.
+</p>
+               <p xml:id="TAca84-d1e739-d1e783">
+                  <lb ed="#L" n="33"/>AD PRIMUM ERGO DICENDUM quod fines proprii 
+vir<lb break="no" ed="#L" n="34"/>tutum ordinantur ad beatitudinem sicut ad ultimum
+<lb ed="#L" n="35"/>finem. Et hoc modo potest esse eorum electio. :
+</p>
+               <p xml:id="TAca84-d1e739-d1e792">
+                  <lb ed="#L" n="36"/>AD SECUNDUM DICENDUM quod, sicut. supra 
+ha<lb break="no" ed="#L" n="37"/>bitum. est, ultimus finis est unus tantum.. Unde.
+<lb ed="#L" n="38"/>ubicumque occurrunt plures fines, inter eos 
+po<lb break="no" ed="#L" n="39"/>test esse electio, secundum. quod ordinantur ad.
+<lb ed="#L" n="40"/>ulteriorem finem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e739-Dd1e806"><!-- p2p1-q13-a4 -->
+               <head xml:id="TAca84-d1e739-Hd1e809">Articulus 4</head>
+               <head xml:id="TAca84-d1e739-Hd1e811" type="question-title">utrum electio sit tantum eorum quae per nos aguntur</head>
+               <p xml:id="TAca84-d1e739-d1e814">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="41"/>ARTICULUS QUARTUS
+<lb ed="#L" n="42"/>UTRUM ELECTIO SIT TANTUM EORUM QUAE PER NOS AGUNTUR
+</p>
+               <p xml:id="TAca84-d1e739-d1e823">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="43"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="44"/>electio non sit solum respectu 
+huma<lb break="no" ed="#L" n="45"/>norum actuum. Electio enim est eorum
+<lb ed="#L" n="46"/>quae sunt ad finem. Sed ea quae sunt
+<lb ed="#L" n="47"/>ad finem. non solum sunt actus, sed etiam 
+or<lb break="no" ed="#L" n="48"/>gana, ut dicitur in II Physic. Ergo electiones
+<lb ed="#L" n="49"/>non sunt tantum. humanorum actuum.
+</p>
+               <p xml:id="TAca84-d1e739-d1e843">
+                  <lb ed="#L" n="50"/>2. PRAETEREA, actio a contemplatione 
+distingui<lb break="no" ed="#L" n="51"/>tur. Sed electio etiam in contemplatione locum.
+<lb ed="#L" n="52"/>habet prout scilicet una opinio. alteri 
+praeeli<lb break="no" ed="#L" n="53"/>gitur. Ergo electio non est sorum humanorum
+<lb ed="#L" n="54"/>actuum.
+</p>
+               <p xml:id="TAca84-d1e739-d1e857">
+                  <lb ed="#L" n="55"/>3. PRAETEREA, eliguntur homines ad aliqua 
+offi<lb break="no" ed="#L" n="56"/>cia; vel saecularia vel ecclesiastica, ab. his qui
+<lb ed="#L" n="57"/>nihil erga eos agunt. Ergo electio non solum. est
+<lb ed="#L" n="58"/>humanorum actuum.
+</p>
+               <p xml:id="TAca84-d1e739-d1e868">
+                  <lb ed="#L" n="59"/>SED cowNrRA EsT quod <ref xml:id="TAca84-d1e739-Rd1e872">Philosophus dicit, in III
+<lb ed="#L" n="60"/>Ethic.</ref>, quod <quote xml:id="TAca84-d1e739-Qd1e877">nullus eligit nisi ea quae existimat
+<lb ed="#L" n="61"/>fieri per ipsum.</quote>
+               </p>
+               <p xml:id="TAca84-d1e739-d1e883">
+                  <lb ed="#L" n="62"/>RESPONDEO DICENDUM quod, sicut intentio est
+<lb ed="#L" n="63"/>finis, ita electio est eorum quae sunt ad finem.
+<lb ed="#L" n="64"/>Finis autem vel est actio, vel res aliqua. Et cum
+<lb ed="#L" n="65"/>res aliqua fuerit finis, necesse est quod aliqua.
+<lb ed="#L" n="66"/>humana actio interveniat: vel inquantum homo.
+<lb ed="#L" n="67"/>facit rem illam quae est finis, sicut medicus facit
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="68"/>sanitatem, quae. est finis eius (unde et facere 
+sa<lb break="no" ed="#L" n="69"/>nitatem dicitur finis medici); vel inquantum homo
+<lb ed="#L" n="70"/>aliquo modo utitur vel fruitur re quae est. finis,
+<lb ed="#L" n="71"/>sicut avaro est finis pecunia, vel. possessio pecu--
+<lb ed="#L" n="72"/>niae, Et eodem modo dicendum. est de. eo | quod.
+<lb ed="#L" n="73"/>est ad finem, Quia. necesse, est ut id quod est.
+<lb ed="#L" n="74"/>ad finem, vel sit actio; vel res aliqua, interveniente:
+<lb ed="#L" n="75"/>aliqua actione; per quam. facit .id. quod . est-ad.
+<lb ed="#L" n="76"/>finem, vel utitur. eo. Et per hunc, modum: electio
+<lb ed="#L" n="77"/>semper est humanorum. actuum.
+</p>
+               <p xml:id="TAca84-d1e739-d1e922">
+                  <lb ed="#L" n="78"/>AD PRIMUM. ERGO DICENDUM .quod organa. ordi- .
+<lb ed="#L" n="79"/>nantur ad finem, inquantum homo utitur eis 
+pro<lb break="no" ed="#L" n="80"/>pter finem.
+</p>
+               <p xml:id="TAca84-d1e739-d1e931">
+                  <lb ed="#L" n="81"/>AD SECUNDUM. DICENDUM. quod. im jipsa; contem: -
+<lb ed="#L" n="82"/>platione est aliquis. | actus intellectus assentientis
+<lb ed="#L" n="83"/>huic opinioni vel ill. Actio yero exterior est
+<lb ed="#L" n="84"/>quae contra contemplationem. dividitur.
+</p>
+               <p xml:id="TAca84-d1e739-d1e942">
+                  <lb ed="#L" n="85"/>AD TERTIUM DICENDUM quod homo qui eligit
+<lb ed="#L" n="86"/>episcopum vel principem civitatis, eligit 
+nomi<lb break="no" ed="#L" n="87"/>nare ipsum in talem dignitatem. Alioquin, si nulla
+<lb ed="#L" n="88"/>esset eius actio ad constitutionem. episcopi. vel.
+<lb ed="#L" n="89"/>principis, non. competeret ei. electio. Et. similiter i
+<lb ed="#L" n="90"/>dicendum est quod quandocumque dicitur aliqua:
+<lb ed="#L" n="91"/>res praeeligi alteri; adiungitur ibi aliqua operatio 
+<lb ed="#L" n="92"/>eligentis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e739-Dd1e963"><!-- p2p1-q13-a5 -->
+               <head xml:id="TAca84-d1e739-Hd1e966">Articulus 5</head>
+               <head xml:id="TAca84-d1e739-Hd1e968" type="question-title">utrum electio sit solum possibilium</head>
+               <p xml:id="TAca84-d1e739-d1e971">
+                  <pb ed="#L" n="102"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUINTUS
+<lb ed="#L" n="2"/>UTRUM ELECTIO SIT SOLUM POSSIBILIUM
+</p>
+               <p xml:id="TAca84-d1e739-d1e982">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>electio non sit solum possibilium. 
+Ele<lb break="no" ed="#L" n="5"/>ctio enim est actus voluntatis, ut dictum
+<lb ed="#L" n="6"/>est. Sed voluntas est impossibilium,
+<lb ed="#L" n="7"/>ut dicitur in I Ethic. Ergo et electio.
+</p>
+               <p xml:id="TAca84-d1e739-d1e998">
+                  <lb ed="#L" n="8"/>2. PRAETEREA, electio est eorum quae per nos
+<lb ed="#L" n="9"/>aguntur, sicut dictum est. Nihil ergo refert, 
+quan<lb break="no" ed="#L" n="10"/>tum. ad electionem, utrum eligatur id quod est
+<lb ed="#L" n="11"/>impossibile simpliciter, vel id quod est 
+impossi<lb break="no" ed="#L" n="12"/>bile eligenti. Sed. frequenter ea quae eligimus,
+<lb ed="#L" n="13"/>perficere non possumus: et sic sunt impossibilia
+<lb ed="#L" n="14"/>nobis. Ergo electio est impossibilium.
+</p>
+               <p xml:id="TAca84-d1e739-d1e1017">
+                  <lb ed="#L" n="15"/>3. PRAETEREA, nihil homo tentat agere ' nisi 
+eli<lb break="no" ed="#L" n="16"/>gendo. Sed beatus Benedictus dicit quod, si
+<lb ed="#L" n="17"/>praelatus aliquid impossibile praeceperit, 
+tentan<lb break="no" ed="#L" n="18"/>dum est. Ergo electio potest esse impossibilium.
+</p>
+               <p xml:id="TAca84-d1e739-d1e1028">
+                  <lb ed="#L" n="19"/>SED CONTRA EST quod <ref xml:id="TAca84-d1e739-Rd1e1032">Philosophus dicit, in III
+<lb ed="#L" n="20"/>Ethic.</ref>, quod <quote xml:id="TAca84-d1e739-Qd1e1037">electio non est impossibilium</quote>.
+</p>
+               <p xml:id="TAca84-d1e739-d1e1040">
+                  <lb ed="#L" n="21"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="22"/>electiones nostrae referuntur semper ad nostras
+<lb ed="#L" n="23"/>actiones. Ea autem quae per nos aguntur, sunt
+<lb ed="#L" n="24"/>nobis possibilia. Unde necesse est dicere quod
+<lb ed="#L" n="25"/>electio non sit nisi possibilium.
+</p>
+               <p xml:id="TAca84-d1e739-d1e1053">
+                  <lb ed="#L" n="26"/>Similiter etiàm ratio eligendi aliquid est ex hoc
+<lb ed="#L" n="27"/>quod ducit ad finem. Per id autem quod 'est im-:
+<lb ed="#L" n="28"/>possibile, non potest aliquis consequi finem. Cuius
+<lb ed="#L" n="29"/>signum est quia, cum in consiliando perveniunt
+<lb ed="#L" n="30"/>homines ad id quod est eis impossibile, discedunt,
+<lb ed="#L" n="31"/>quasi-non valentes ulterius procedere.
+</p>
+               <p xml:id="TAca84-d1e739-d1e1069">
+                  <lb ed="#L" n="32"/>Apparet etiam hoc manifeste ex processu 
+ra<lb break="no" ed="#L" n="33"/>tionis praecedente. Sic enim se habet id quod est
+<lb ed="#L" n="34"/>ad finem, de quo electio est, ad finem, sicut
+<lb ed="#L" n="35"/>conclusio ad principium. Manifestum est autem
+<lb ed="#L" n="36"/>quod conclusio impossibilis non sequitur ex 
+prin<lb break="no" ed="#L" n="37"/>cipio possibili. Unde non potest esse quod finis sit
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="38"/>Ad id autem quod est impossibile, nullus movetur.
+<lb ed="#L" n="39"/>Unde nullus tenderet in finem, nisi per hoc quod.
+<lb ed="#L" n="40"/>apparet id quod est ad finem esse possibile. Unde
+<lb ed="#L" n="41"/>id quod est impossibile sub electione non cadit.
+</p>
+               <p xml:id="TAca84-d1e739-d1e1095">
+                  <lb ed="#L" n="42"/>AD PRIMUM ERGO DICENDUM quod voluntas media
+<lb ed="#L" n="43"/>est inter intellectum et exteriorem operationem :
+<lb ed="#L" n="44"/>nam intellectus proponit voluntati suum obiectum,
+<lb ed="#L" n="45"/>et ipsa voluntas causat exteriorem actionem. Sic
+<lb ed="#L" n="46"/>igitur principium motus voluntatis consideratur
+<lb ed="#L" n="47"/>ex parte intellectus, qui apprehendit aliquid ut
+<lb ed="#L" n="48"/>bonum in universali: sed terminatio, seu 
+perfe<lb break="no" ed="#L" n="49"/>ctio actus voluntatis attenditur secundum ordi-.
+<lb ed="#L" n="50"/>nem ad operationem, per quam aliquis tendit ad
+<lb ed="#L" n="51"/>consecutionem rei; nam motus voluntatis est ab
+<lb ed="#L" n="52"/>anima ad rem. Et ideo perfectio actus voluntatis
+<lb ed="#L" n="53"/>attenditur secundum hoc, quod est aliquid bonum
+<lb ed="#L" n="54"/>alicui ad agendum. Hoc autem est possibile. Et
+<lb ed="#L" n="55"/>ideo voluntas completa non est nisi de possibili,
+<lb ed="#L" n="56"/>quod est bonum volenti. Sed voluntas incompleta
+<lb ed="#L" n="57"/>est de impossibili: quae secundum quosdam »
+el<lb break="no" ed="#L" n="58"/>leitas dicitur, quia scilicet aliquis vellet illud, si
+<lb ed="#L" n="59"/>esset possibile. Electio autem nominat actum 
+vo<lb break="no" ed="#L" n="60"/>luntatis iam determinatum ad id quod est huic:
+<lb ed="#L" n="61"/>agendum. Et ideo nullo modo est nisi possibilium.
+</p>
+               <p xml:id="TAca84-d1e739-d1e1142">
+                  <lb ed="#L" n="62"/>AD SECUNDUM DICENDUM quod, cum obiectum 
+vo<lb break="no" ed="#L" n="63"/>luntatis sit bonum apprehensum, hoc modo 
+iu<lb break="no" ed="#L" n="64"/>dicandum est de obiecto voluntatis , secundum 
+<lb ed="#L" n="65"/>quod cadit sub apprehensione. Et ideo. sicut 
+quan<lb break="no" ed="#L" n="66"/>doque voluntas est alicuius quod. apprehenditur 
+<lb ed="#L" n="67"/>ut bonum, et tamen non est vere bonum; ita.
+<lb ed="#L" n="68"/>quandoque est electio eius quod apprehenditur. ut.
+<lb ed="#L" n="69"/>possibile eligenti, quod tamen non est ei possibile.
+</p>
+               <p xml:id="TAca84-d1e739-d1e1162">
+                  <lb ed="#L" n="70"/>AD TERTIUM DICENDUM quod hoc ideo dicitur,
+<lb ed="#L" n="71"/>quia an aliquid sit possibile, subditus non debet:
+<lb ed="#L" n="72"/>suo iudicio définire; sed in URCGDOgU, indicia.
+<lb ed="#L" n="73"/>possibilis, nisi id quod est ad feti fuerit possibile. | superioris stare.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e739-Dd1e1174"><!-- p2p1-q13-a6 -->
+               <head xml:id="TAca84-d1e739-Hd1e1177">Articulus 6</head>
+               <head xml:id="TAca84-d1e739-Hd1e1179" type="question-title">utrum homo ex necessitate eligat, vel libere</head>
+               <p xml:id="TAca84-d1e739-d1e1182">
+                  <pb ed="#L" n="103"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SEXTUS 
+<lb ed="#L" n="2"/>UTRUM HOMO EX NECESSITATE ELIGAT, VEL LIBERE
+</p>
+               <p xml:id="TAca84-d1e739-d1e1193">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>homo ex necessitate eligat. Sic enim se
+<lb ed="#L" n="5"/>habet finis ad eligibilia, ut principia
+<lb ed="#L" n="6"/>mad ea quae ex principiis consequuntur,
+<lb ed="#L" n="7"/>ut patet in VII Ethic.. Sed ex principiis ex 
+ne<lb break="no" ed="#L" n="8"/>cessitate deducuntur conclusiones. Ergo ex fine
+<lb ed="#L" n="9"/>de necessitate movetur aliquis ad eligendum.
+</p>
+               <p xml:id="TAca84-d1e739-d1e1213">
+                  <lb ed="#L" n="10"/>2. PRAETEREA, sicut dictum est, electio 
+con<lb break="no" ed="#L" n="11"/>sequitur iudicium rationis de agendis. Sed ratio
+<lb ed="#L" n="12"/>ex necessitate iudicat de aliquibus, propter 
+neces<lb break="no" ed="#L" n="13"/>sitatem praemissarum. Ergo videtur quod etiam
+<lb ed="#L" n="14"/>electio ex necessitate sequatur.
+</p>
+               <p xml:id="TAca84-d1e739-d1e1227">
+                  <lb ed="#L" n="15"/>3. PRAETEREA, si aliqua duo sunt penitus 
+ae<lb break="no" ed="#L" n="16"/>qualia, non magis movetur homo ad unum quam
+<lb ed="#L" n="17"/>ad aliud: sicut famelicus, si habet cibum 
+aequa<lb break="no" ed="#L" n="18"/>liter apr appetibilem in diversis partibus, et 
+secun<lb break="no" ed="#L" n="19"/>dum aequalem distantiam, non magis movetur
+<lb ed="#L" n="20"/>ad unum quam ad alterum, ut Plato dixit, 
+as<lb break="no" ed="#L" n="21"/>signans rationem quietis terrae in medio, sicut
+<lb ed="#L" n="22"/>eligi quod accipitur ut minus, quam quod 
+acci<lb break="no" ed="#L" n="23"/>pitur ut aequale. Ergo si proponantur duo ? vel
+<lb ed="#L" n="24"/>plura, inter quae unum maius appareat, 
+impossi<lb break="no" ed="#L" n="25"/>bile est aliquod aliorum eligere. Ergo ex 
+neces<lb break="no" ed="#L" n="26"/>sitate eligitur illud quod eminentius apparet. Sed
+<lb ed="#L" n="27"/>omnis electio est de omni eo quod videtur 
+ali<lb break="no" ed="#L" n="28"/>quo modo melius. Ergo omnis electio est ex
+<lb ed="#L" n="29"/>necessitate.
+</p>
+               <p xml:id="TAca84-d1e739-d1e1262">
+                  <lb ed="#L" n="30"/>SED CONTRA EST quod electio est actus 
+poten<lb break="no" ed="#L" n="31"/>tiae rationalis; quae se habet ad opposita, 
+secun<lb break="no" ed="#L" n="32"/>dum Philosophum.
+</p>
+               <p xml:id="TAca84-d1e739-d1e1271">
+                  <lb ed="#L" n="33"/>REsPONDEO DICENDUM quod homo non ex 
+ne<lb break="no" ed="#L" n="34"/>cessitate eligit. Et hoc ideo ', quia quod possibile
+<lb ed="#L" n="35"/>est non esse, non necesse est esse. Quod autem
+<lb ed="#L" n="36"/>possibile sit non eligere vel eligere, huius ratio ex
+<lb ed="#L" n="37"/>duplici hominis potestate accipi potest. Potest enim
+<lb ed="#L" n="38"/>homo velle et non velle, agere et non agere: 
+po<lb break="no" ed="#L" n="39"/>test etiam velle? hoc aut illud, et agere hoc aut
+<lb ed="#L" n="40"/>illud. Cuius ratio ex ipsa virtute rationis accipitur.
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="41"/>Quidquid enim ratio potest apprehendere ut 
+bo<lb break="no" ed="#L" n="42"/>num, in hoc voluntas tendere potest. Potest autem
+<lb ed="#L" n="43"/>ratio apprehendere ut bonum non solum hoc quod
+<lb ed="#L" n="44"/>est velle aut agere; sed hoc etiam quod est non
+<lb ed="#L" n="45"/>velle et non agere. Et rursum in omnibus 
+par<lb break="no" ed="#L" n="46"/>ticularibus bonis potest considerare rationem boni
+<lb ed="#L" n="47"/>alicuius, et defectum alicuius boni, quod habet
+<lb ed="#L" n="48"/>rationem mali: et secundum hoc, potest 
+unum<lb break="no" ed="#L" n="49"/>quodque huiusmodi bonorum apprehendere ut
+<lb ed="#L" n="50"/>eligibile, vel fugibile. Solum autem perfectum 
+bo<lb break="no" ed="#L" n="51"/>num, quod est beatitudo, non potest ratio 
+appre<lb break="no" ed="#L" n="52"/>hendere sub ratione mali, aut alicuius defectus.
+<lb ed="#L" n="53"/>Et ideo ex necessitate beatitudinem homo vult,
+<lb ed="#L" n="54"/>nec potest velle non esse beatus, aut miser. 
+Ele<lb break="no" ed="#L" n="55"/>ctio autem, cum non sit de fine, sed de his quae
+<lb ed="#L" n="56"/>sunt ad finem, ut iam dictum est; non est 
+per<lb break="no" ed="#L" n="57"/>fecti boni, quod est beatitudo, sed aliorum 
+parti<lb break="no" ed="#L" n="58"/>cularium bonorum. Et ideo homo non ex 
+neces<lb break="no" ed="#L" n="59"/>sitate, sed libere eligit.
+</p>
+               <p xml:id="TAca84-d1e739-d1e1334">
+                  <lb ed="#L" n="60"/>AD PRIMUM ERGO DICENDUM quod non semper
+<lb ed="#L" n="61"/>ex principiis ex necessitate procedit conclusio ,
+<lb ed="#L" n="62"/>sed tunc solum quando principia non possunt
+<lb ed="#L" n="63"/>esse vera si conclusio non sit vera. Et similiter
+<lb ed="#L" n="64"/>non oportet quod semper ex fine insit homini
+<lb ed="#L" n="65"/>necessitas ad eligendum ea quae sunt ad finem:
+<lb ed="#L" n="66"/>quia non omne quod est ad finem, tale est ut
+<lb ed="#L" n="67"/>sine eo finis haberi non possit; aut, si tale sit,
+<lb ed="#L" n="68"/>non semper sub tali ratione consideratur.
+</p>
+               <p xml:id="TAca84-d1e739-d1e1356">
+                  <lb ed="#L" n="69"/>AD SECUNDUM DICENDUM quod sententia sive 
+iu<lb break="no" ed="#L" n="70"/>dicium rationis de rebus agendis est circa 
+con<lb break="no" ed="#L" n="71"/>tingentia, quae a nobis fieri possunt: in quibus
+<lb ed="#L" n="72"/>conclusiones non ex necessitate sequuntur ex 
+prin<lb break="no" ed="#L" n="73"/>cipis necessariis absoluta necessitate, sed 
+neces<lb break="no" ed="#L" n="74"/>sariis solum ex conditione, ut, Si currit, movetur.
+</p>
+               <p xml:id="TAca84-d1e739-d1e1372">
+                  <lb ed="#L" n="75"/>AD TERTIUM DICENDUM quod nihil prohibet, si
+<lb ed="#L" n="76"/>aliqua duo aequalia proponantur secundum unam
+<lb ed="#L" n="77"/>considerationem, quin circa alterum consideretur
+<lb ed="#L" n="78"/>aliqua conditio per quam emineat, et magis 
+fle<lb break="no" ed="#L" n="79"/>ctatur voluntas in ipsum quam in aliud.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

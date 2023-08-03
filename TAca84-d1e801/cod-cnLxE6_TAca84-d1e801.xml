@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 25</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 25</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="183"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e801"><!-- p2p1-q25 -->
+            <head xml:id="TAca84-d1e801-Hd1e99">Quaestio 25</head>
+            <head xml:id="TAca84-d1e801-Hd1e101" type="question-title">de ordine passionum ad invicem</head>
+            <p xml:id="TAca84-d1e801-d1e104">
+               <pb ed="#L" n="183"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO VIGESIMAQUINTA
+<lb ed="#L" n="2"/>DE ORDINE PASSIONUM AD INVICEM
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e801-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDDE considerandum est de ordine 
+passio<lb break="no" ed="#L" n="5"/>num ad invicem.
+<lb ed="#L" n="6"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="7"/>Primo: de ordine passionum irascibilis ad 
+pas<lb break="no" ed="#L" n="8"/>siones concupiscibilis.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="9"/>Secundo: de ordine passionum concupiscibilis
+<lb ed="#L" n="10"/>ad invicem.
+<lb ed="#L" n="11"/>Tertio: de ordine passionum irascibilis ad i 
+in<lb break="no" ed="#L" n="12"/>vicem.
+<lb ed="#L" n="13"/>Quarto: de quatuor principalibus passionibus.
+</p>
+            <div xml:id="TAca84-d1e801-Dd1e146"><!-- p2p1-q25-a1 -->
+               <head xml:id="TAca84-d1e801-Hd1e149">Articulus 1</head>
+               <head xml:id="TAca84-d1e801-Hd1e151" type="question-title">utrum passiones irascibilis sint priores passionibus concupiscibilis ,
+          vel e converso</head>
+               <p xml:id="TAca84-d1e801-d1e154">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>ARTICULUS PRIMUS
+<lb ed="#L" n="15"/>UTRUM PASSIONES IRASCIBILIS SINT PRIORES PASSIONIBUS CONCUPISCIBILIS ,
+<lb ed="#L" n="16"/>VEL E CONVERSO
+</p>
+               <p xml:id="TAca84-d1e801-d1e165">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="17"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="18"/>Passiones irascibilis sint priores 
+passio<lb break="no" ed="#L" n="19"/>LANA nibus concupiscibilis. Ordo enim 
+pas<lb break="no" ed="#L" n="20"/>sionum est secundum ordinem 
+obiecto<lb break="no" ed="#L" n="21"/>
+                  <lb ed="#L" n="22"/>rum. Sed obiectum irascibilis est bonum arduum,
+<lb ed="#L" n="23"/>quod videtur esse supremum inter alia bona.
+<lb ed="#L" n="24"/>Ergo passiones irascibilis videntur praeesse 
+pas<lb break="no" ed="#L" n="25"/>sionibus concupiscibilis.
+</p>
+               <p xml:id="TAca84-d1e801-d1e189">
+                  <lb ed="#L" n="26"/>2. PRAETEREA, movens est prius moto. Sed 
+ira<lb break="no" ed="#L" n="27"/>scibilis comparatur ad concupiscibilem sicut 
+mo<lb break="no" ed="#L" n="28"/>vens ad motum: ad hoc enim datur animalibus,
+<lb ed="#L" n="29"/>ut tollantur impedimenta quibus concupiscibilis
+<lb ed="#L" n="30"/>prohibetur frui suo obiecto, ut supra dictum est;
+<lb ed="#L" n="31"/>removens autem prohibens habet rationem 
+moven<lb break="no" ed="#L" n="32"/>lis, ut dicitur in VIII Physic. Ergo passiones 
+ira<lb break="no" ed="#L" n="33"/>scibilis sunt priores passionibus concupiscibilis.
+</p>
+               <p xml:id="TAca84-d1e801-d1e210">
+                  <lb ed="#L" n="34"/>3. PRAETEREA, gaudium et tristitia sunt 
+passio<lb break="no" ed="#L" n="35"/>nes concupiscibilis. Sed gaudium et tristitia 
+con<lb break="no" ed="#L" n="36"/>sequuntur ad passiones irascibilis: dicit enim 
+Phi<lb break="no" ed="#L" n="37"/>losophus, i in IV Ethic., quod punitio quietat 
+im<lb break="no" ed="#L" n="38"/>petum irae, delectationem loco tristitiae. faciens.
+<lb ed="#L" n="39"/>Ergo passiones concupiscibilis sunt posterigres
+<lb ed="#L" n="40"/>passionibus irascibilis.
+</p>
+               <p xml:id="TAca84-d1e801-d1e228">
+                  <lb ed="#L" n="41"/>SED CONTRA, passiones concupiscibilis respiciunt
+<lb ed="#L" n="42"/>bonum absolutum: passiones autem irascibilis 
+re<lb break="no" ed="#L" n="43"/>spiciunt bonum contractum, scilicet arduum. Cum
+<lb ed="#L" n="44"/>igitur bonum simpliciter sit prius quam bonum
+<lb ed="#L" n="45"/>contractum, videtur quod passiones 
+concupisci<lb break="no" ed="#L" n="46"/>bilis sint priores passionibus irascibilis.
+</p>
+               <p xml:id="TAca84-d1e801-d1e244">
+                  <lb ed="#L" n="47"/>RESPONDEO DICENDUM quod passiones 
+concupi<lb break="no" ed="#L" n="48"/>scibilis ad plura se habent quam passiones 
+irasci<lb break="no" ed="#L" n="49"/>bilis. Nam in passionibus concupiscibilis invenitur
+<lb ed="#L" n="50"/>aliquid pertinens ad motum, sicut desiderium ; et
+<lb ed="#L" n="51"/>aliquid pertinens ad quietem , sicut gaudium et
+<lb ed="#L" n="52"/>tristitia. Sed in passionibus irascibilis non 
+inve<lb break="no" ed="#L" n="53"/>nitur aliquid pertinens ad quietem, sed solum
+<lb ed="#L" n="54"/>pertinens ad motum. Cuius ratio est quia id in
+<lb ed="#L" n="55"/>quo iam quiescitur, non habet rationem difficilis
+<lb ed="#L" n="56"/>seu ardui, quod est obiectum irascibilis.
+</p>
+               <p xml:id="TAca84-d1e801-d1e268">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="57"/>Quies autem, cum sit finis motus, est prior in
+<lb ed="#L" n="58"/>intentione, sed posterior in executione. Si ergo
+<lb ed="#L" n="59"/>comparentur passiones irascibilis ad. passiones
+<lb ed="#L" n="60"/>concupiscibilis quae significant quietem in bono;
+<lb ed="#L" n="61"/>manifeste passiones irascibilis praecedunt, ordine
+<lb ed="#L" n="62"/>executionis, huiusmodi passiones concupiscibilis :
+<lb ed="#L" n="63"/>Sicut spes praecedit gaudium, unde et causat
+<lb ed="#L" n="64"/>ipsum, secundum illud Apostoli, Rom. xu: Spe Ves. o.
+<lb ed="#L" n="65"/>gaudentes. Sed passio concupiscibilis importans
+<lb ed="#L" n="66"/>quietem in malo, scilicet tristitia; media est inter
+<lb ed="#L" n="67"/>duas passiones irascibilis. Sequitur enim 
+timo<lb break="no" ed="#L" n="68"/>rem: cum enim occurrerit malum quod timeba- "
+<lb ed="#L" n="69"/>tur, causatur tristitia. Praecedit autem motum
+<lb ed="#L" n="70"/>irae: quia cum ex tristitia praecedente aliquis ?
+<lb ed="#L" n="71"/>insurgit in vindictam, hoc pertinet ad motum
+<lb ed="#L" n="72"/>irae. Et quia rependere vicem malis, 
+apprehen<lb break="no" ed="#L" n="73"/>ditur ut bonum; cum iratus hoc consecutus fuerit,
+<lb ed="#L" n="74"/>gaudet. Et sic manifestum est quod omnis passio
+<lb ed="#L" n="75"/>irascibilis terminatur ad passionem concupiscibilis
+<lb ed="#L" n="76"/>pertinentem ad quietem, scilicet vel ad gaudium
+<lb ed="#L" n="77"/>vel ad tristitiam.
+</p>
+               <p xml:id="TAca84-d1e801-d1e318">
+                  <lb ed="#L" n="78"/>Sed si comparentur passiones irascibilis ad 
+pas<lb break="no" ed="#L" n="79"/>siones concupiscibilis quae important motum,
+<lb ed="#L" n="80"/>sic manifeste passiones concupiscibilis sunt 
+prio<lb break="no" ed="#L" n="81"/>res: eo quod passiones irascibilis addunt supra
+<lb ed="#L" n="82"/>passiones concupiscibilis; sicut et obiectum 
+ira<lb break="no" ed="#L" n="83"/>scibilis addit supra obiectum concupiscibilis 
+ar<lb break="no" ed="#L" n="84"/>duitatem sive difficultatem. Spes enim supra 
+de<lb break="no" ed="#L" n="85"/>siderium addit quendam conatum, et quandam
+<lb ed="#L" n="86"/>elevationem animi ad consequendum bonum 
+ar<lb break="no" ed="#L" n="87"/>duum. Et similiter timor addit supra fugam seu
+<lb ed="#L" n="88"/>abominationem, quandam depressionem animi ,
+<lb ed="#L" n="89"/>propter difficultatem mali.
+</p>
+               <p xml:id="TAca84-d1e801-d1e347">
+                  <lb ed="#L" n="90"/>Sic ergo passiones irascibilis mediae sunt 
+in<lb break="no" ed="#L" n="91"/>ter passiones concupiscibilis quae important 
+mo<lb break="no" ed="#L" n="92"/>tum in bonum vel in malum; et inter passiones
+<lb ed="#L" n="93"/>concupiscibilis quae important quietem in bono
+<lb ed="#L" n="94"/>velin malo. Et sic patet quod passiones 
+irasci<lb break="no" ed="#L" n="95"/>bilis et principium habent a passionibus concu-
+<pb ed="#L" n="184"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>piscibilis, et in passiones concupiscibilis 
+termi<lb break="no" ed="#L" n="2"/>nantur.
+</p>
+               <p xml:id="TAca84-d1e801-d1e372">
+                  <lb ed="#L" n="3"/>AD PRIMUM ERGO DICENDUM quod illa ratio 
+pro<lb break="no" ed="#L" n="4"/>cederet, si de ratione obiecti concupiscibilis esset
+<lb ed="#L" n="5"/>aliquid oppositum arduo, sicut de ratione obiecti
+<lb ed="#L" n="6"/>irascibilis est quod sit arduum. Sed quia 
+obie<lb break="no" ed="#L" n="7"/>ctum concupiscibilis est bonum absolute, prius
+<lb ed="#L" n="8"/>naturaliter est quam obiectum irascibilis, sicut
+<lb ed="#L" n="9"/>commune proprio.
+</p>
+               <p xml:id="TAca84-d1e801-d1e390">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>Ad SECUNDUM DICENDUM quod removens 
+prohi<lb break="no" ed="#L" n="11"/>bens non est movens per se, sed per accidens.
+<lb ed="#L" n="12"/>Nunc autem loquimur de ordine passionum per
+</p>
+               <p xml:id="TAca84-d1e801-d1e401">
+                  <lb ed="#L" n="13"/>Et praeterea irascibilis removet prohibens
+<lb ed="#L" n="14"/>quietem concupiscibilis in suo obiecto. Unde ex
+<lb ed="#L" n="15"/>hoc non sequitur nisi quod passiones irascibilis
+<lb ed="#L" n="16"/>praecedunt passiones concupiscibilis ad quietem
+<lb ed="#L" n="17"/>pertinentes.
+</p>
+               <p xml:id="TAca84-d1e801-d1e414">
+                  <lb ed="#L" n="18"/>De quibus etiam tertia ratio procedit.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e801-Dd1e421"><!-- p2p1-q25-a2 -->
+               <head xml:id="TAca84-d1e801-Hd1e424">Articulus 2</head>
+               <head xml:id="TAca84-d1e801-Hd1e426" type="question-title">utrum amor sit prima passionum concupiscibilis</head>
+               <p xml:id="TAca84-d1e801-d1e429">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="62"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="63"/>UTRUM AMOR SIT PRIMA PASSIONUM CONCUPISCIBILIS
+</p>
+               <p xml:id="TAca84-d1e801-d1e438">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="64"/>AD SECUNDUM SIC PROCEDITUR, Videtur quod
+<lb ed="#L" n="65"/>amor non sit prima passionum 
+concu<lb break="no" ed="#L" n="66"/>a piscibilis. Vis enim concupiscibilis a 
+con<lb break="no" ed="#L" n="67"/>cupiscentia denominatur, quae est 
+ea<lb break="no" ed="#L" n="68"/>dem passio cum desiderio. Sed denominatio fit
+<lb ed="#L" n="69"/>a potiori, ut dicitur in II de Anima. Ergo 
+con<lb break="no" ed="#L" n="70"/>cupiscentia est potior amore.
+</p>
+               <p xml:id="TAca84-d1e801-d1e458">
+                  <lb ed="#L" n="71"/>2. PRAETEREA, amor unionem quandam 
+impor<lb break="no" ed="#L" n="72"/>tat: est enim vis unitiva et concretiva, ut 
+Diony<lb break="no" ed="#L" n="73"/>sius dicit, in rv cap. de Div. Nom. Sed 
+concu<lb break="no" ed="#L" n="74"/>piscentia "vel desiderium est motus ad unionem
+<lb ed="#L" n="75"/>rei concupitae vel desideratae. Ergo 
+concupiscen<lb break="no" ed="#L" n="76"/>tia est prior amore.
+</p>
+               <p xml:id="TAca84-d1e801-d1e475">
+                  <lb ed="#L" n="77"/>3. PRAETEREA, causa est prior effectu. Sed 
+de<lb break="no" ed="#L" n="78"/>lectatio est quandoque causa amoris: quidam
+<lb ed="#L" n="79"/>enim propter delectationem amant, ut dicitur in
+<lb ed="#L" n="80"/>VIII Ethic. Ergo delectatio est prior amore.
+<lb ed="#L" n="81"/>Non ergo prima inter, passiones concupiscibilis
+<lb ed="#L" n="82"/>est amor.
+</p>
+               <p xml:id="TAca84-d1e801-d1e491">
+                  <lb ed="#L" n="83"/>SED CONTRA EST, quod Augustinus dicit, in XIV
+<lb ed="#L" n="84"/>de Civ. Dei, quod omnes passiones ex amore
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="85"/>causantur:<quote xml:id="TAca84-d1e801-Qd1e501"> amor enim inhians habere quod 
+ama<lb break="no" ed="#L" n="86"/>tur, cupiditas est; id autem habens, eoque fruens,
+<lb ed="#L" n="87"/>laetitia est</quote>. Amor ergo est prima passionum 
+con<lb break="no" ed="#L" n="88"/>cupiscibilis.
+</p>
+               <p xml:id="TAca84-d1e801-d1e512">
+                  <lb ed="#L" n="89"/>RESPONDEO DICENDUM quód obiectum ? 
+concupi<lb break="no" ed="#L" n="90"/>scibilis sunt bonum et malum. Naturaliter autem
+<lb ed="#L" n="91"/>est prius bonum malo: eo quod malum est 
+pri<lb break="no" ed="#L" n="92"/>vatio boni. Unde et omnes passiones quarum
+<lb ed="#L" n="93"/>obiectum est bonum, naturaliter sunt priores pas- .
+<lb ed="#L" n="94"/>sionibus quarum obiectum est malum, 
+unaquae<lb break="no" ed="#L" n="95"/>que scilicet sua opposita: quia enim bonum
+<lb ed="#L" n="96"/>quaeritur, ideo refutatur oppositum malum.
+<lb ed="#L" n="97"/>Bonum autem habet ratioriem finis: qui quidem
+<lb ed="#L" n="98"/>est prior in intentione, sed est | posterior in 
+consecu<lb break="no" ed="#L" n="99"/>tione ?, Potest ergo PR passionum concupiscibilis
+<lb ed="#L" n="100"/>attendi vel secundum intentionem, vel secundum
+<lb ed="#L" n="101"/>consecutionem. Secundum | quidem | 
+consecutio<lb break="no" ed="#L" n="102"/>nem, illud est prius quod primo fit in eo quod
+<lb ed="#L" n="103"/>tendit ad finem. Manifestum est autem quod omne
+<lb ed="#L" n="104"/>quod tendit ad finem aliquem, primo quidem 
+ha<lb break="no" ed="#L" n="105"/>bet aptitudinem seu proportionem ad finem, nihil
+<pb ed="#L" n="185"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>enim tendit in finem non proportionatum; 
+se<lb break="no" ed="#L" n="2"/>cundo, movetur ad finem; tertio, quiescit in fine
+<lb ed="#L" n="3"/>post eius consecutionem. Ipsa autem aptitudo sive
+<lb ed="#L" n="4"/>proportio appetitus ad bonum est amor, qui nihil
+<lb ed="#L" n="5"/>aliud est quam complacentia boni; motus autem
+<lb ed="#L" n="6"/>ad bonum est desiderium vel concupiscentia ;
+<lb ed="#L" n="7"/>quies autem in bono est gaudium vel delectatio.
+<lb ed="#L" n="8"/>Et ideo secundum hunc ordinem, amor praecedit
+<lb ed="#L" n="9"/>desiderium, et desiderium praecedit 
+delectatio<lb break="no" ed="#L" n="10"/>nem. — Sed secundum ordinem intentionis, est
+<lb ed="#L" n="11"/>e converso: nam delectatio intenta causat 
+desi<lb break="no" ed="#L" n="12"/>derium. et amorem. Delectatio enim est fruitio
+<lb ed="#L" n="13"/>boni, quae quodammodo est finis sicut et
+<lb ed="#L" n="14"/>ipsum bonum, ut supra. dictum est.
+</p>
+               <p xml:id="TAca84-d1e801-d1e586">
+                  <lb ed="#L" n="15"/>AD PRIMUM ERGO DICENDUM quod hoc modo 
+no<lb break="no" ed="#L" n="16"/>minatur aliquid, secundum quod nobis innotescit:
+<lb ed="#L" n="17"/>voces enim sunt signa intellectuum , secundum
+<lb ed="#L" n="18"/>Philosophum. Nos autem, ut plurimum, per 
+effe<lb break="no" ed="#L" n="19"/>ctum cognoscimus causam. Effectus autem 
+amo<lb break="no" ed="#L" n="20"/>ris, quando quidem habetur ipsum amatum, est
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="21"/>delectatio: quando vero non habetur, est 
+deside<lb break="no" ed="#L" n="22"/>rium vel concupiscentia. Ut autem Augustinus
+<lb ed="#L" n="23"/>dicit, in X de ZTrín., amor magis sentitur, cum
+<lb ed="#L" n="24"/>eum prodit indigentia. Unde inter omnes 
+passio<lb break="no" ed="#L" n="25"/>nes concupiscibilis, magis sensibilis est 
+concupi<lb break="no" ed="#L" n="26"/>scentia. Et propter hoc, ab ea denominatur 
+po<lb break="no" ed="#L" n="27"/>tentia.
+</p>
+               <p xml:id="TAca84-d1e801-d1e619">
+                  <lb ed="#L" n="28"/>AD SECUNDUM DICENDUM quod duplex est unio
+<lb ed="#L" n="29"/>amati ad amantem. Una quidem realis, secundum
+<lb ed="#L" n="30"/>scilicet coniunctionem ad rem ipsam. Et talis
+<lb ed="#L" n="31"/>unio pertinet ad gaudium vel delectationem, quae
+<lb ed="#L" n="32"/>sequitur desiderium. - Alia autem est unio 
+affe<lb break="no" ed="#L" n="33"/>ctiva, quae est secundum " aptitudinem vel 
+pro<lb break="no" ed="#L" n="34"/>portionem: prout scilicet ex hoc quod aliquid
+<lb ed="#L" n="35"/>habet aptitudinem ad alterum et inclinationem,
+<lb ed="#L" n="36"/>iam. participat aliquid eius. Et sic amor unionem
+<lb ed="#L" n="37"/>importat. Quae quidem unio praecedit motum
+<lb ed="#L" n="38"/>desiderii.
+</p>
+               <p xml:id="TAca84-d1e801-d1e645">
+                  <lb ed="#L" n="39"/>AD TERTIUM DICENDUM quod delectatio causat
+<lb ed="#L" n="40"/>amorem, secundum quod est prior in intentione.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e801-Dd1e653"><!-- p2p1-q25-a3 -->
+               <head xml:id="TAca84-d1e801-Hd1e656">Articulus 3</head>
+               <head xml:id="TAca84-d1e801-Hd1e658" type="question-title">utrum spes sit prima inter passiones irascibilis</head>
+               <p xml:id="TAca84-d1e801-d1e661">
+                  <pb ed="#L" n="186"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM SPES SIT PRIMA INTER PASSIONES IRASCIBILIS
+</p>
+               <p xml:id="TAca84-d1e801-d1e672">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>spes non sit prima inter passiones 
+ira<lb break="no" ed="#L" n="5"/>scibilis. Vis enim irascibilis ab ira 
+de<lb break="no" ed="#L" n="6"/>nominatur. Cum ergo denominatio fiat
+<lb ed="#L" n="7"/>a poliori, videtur quod ira sit potior et prior
+<lb ed="#L" n="8"/>quam. spes.
+</p>
+               <p xml:id="TAca84-d1e801-d1e690">
+                  <lb ed="#L" n="9"/>2. PRAETEREA, arduum est obiectum irascibilis.
+<lb ed="#L" n="10"/>Sed magis videtur esse arduum quod aliquis 
+co<lb break="no" ed="#L" n="11"/>netur superare malum contrarium quod imminet
+<lb ed="#L" n="12"/>ut futurum, quod pertinet ad audaciam; vel quod
+<lb ed="#L" n="13"/>iniacet iam ut praesens, quod pertinet ad iram;
+<lb ed="#L" n="14"/>quam quod conetur acquirere simpliciter aliquod
+<lb ed="#L" n="15"/>bonum. Et similiter magis videtur esse arduum
+<lb ed="#L" n="16"/>quod conetur vincere malum praesens, quam 
+ma<lb break="no" ed="#L" n="17"/>lum futurum. Ergo ira videtur esse potior passio
+<lb ed="#L" n="18"/>quam audacia, et audacia quam spes. Et sic spes
+<lb ed="#L" n="19"/>non videtur esse prior ^.
+</p>
+               <p xml:id="TAca84-d1e801-d1e717">
+                  <lb ed="#L" n="20"/>3. PRAETEREA, prius occurrit, in motu ad finem,
+<lb ed="#L" n="21"/>recessus a termino, quam accessus ad terminum.
+<lb ed="#L" n="22"/>Sed timor et desperatio important recessum ab
+<lb ed="#L" n="23"/>aliquo: audacia autem et spes important accessum
+<lb ed="#L" n="24"/>ad aliquid. Ergo timor et desperatio praecedunt
+<lb ed="#L" n="25"/>spem et audaciam.
+</p>
+               <p xml:id="TAca84-d1e801-d1e733">
+                  <lb ed="#L" n="26"/>SED coNTRA, quanto aliquid est propinquius 
+pri<lb break="no" ed="#L" n="27"/>mo, tanto est prius. Sed spes est propinquior
+<lb ed="#L" n="28"/>amori, qui est prima passionum. Ergo spes est
+<lb ed="#L" n="29"/>prior inter omnes passiones irascibilis.
+</p>
+               <p xml:id="TAca84-d1e801-d1e744">
+                  <lb ed="#L" n="30"/>REsPONDEO DICENDUM quod, sicut iam dictum
+<lb ed="#L" n="31"/>est, omnes passiones irascibilis important motum
+<lb ed="#L" n="32"/>in aliquid. Motus autem ad aliquid in irascibili
+<lb ed="#L" n="33"/>potest causari ex duobus: uno modo, ex sola 
+apti<lb break="no" ed="#L" n="34"/>tudine seu proportione ad finem, quae pertinet
+<lb ed="#L" n="35"/>ad amorem vel odium; alio modo, ex praesentia
+<lb ed="#L" n="36"/>ipsius boni vel mali, quae pertinet ad tristitiam
+<lb ed="#L" n="37"/>vel gaudium. Et quidem ex praesentia boni non
+<lb ed="#L" n="38"/>causatur aliqua passio in irascibili, ut dictum est:
+<lb ed="#L" n="39"/>sed ex praesentia mali causatur passio irae.
+</p>
+               <p xml:id="TAca84-d1e801-d1e768">
+                  <lb ed="#L" n="40"/>Quia igitur in via generationis seu 
+consecutio<lb break="no" ed="#L" n="41"/>nis, proportio vel aptitudo ad finem praecedit 
+con<lb break="no" ed="#L" n="42"/>secutionem finis; inde est quod ira, inter omnes
+<lb ed="#L" n="43"/>passiones irascibilis, est ultima, ordine 
+generatio<lb break="no" ed="#L" n="44"/>nis. Inter alias autem passiones irascibilis, quae 
+im<lb break="no" ed="#L" n="45"/>portant motum consequentem amorem vel odium
+<lb ed="#L" n="46"/>boni vel mali, oportet quod passiones quarum
+<lb ed="#L" n="47"/>obiectum est bonum, scilicet spes et desperatio,
+<lb ed="#L" n="48"/>sint naturaliter priores passionibus quarum 
+obie<lb break="no" ed="#L" n="49"/>ctum est malum, scilicet audacia et timore. Ita ta-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="50"/>men quod spes est prior desperatione: quia spes
+<lb ed="#L" n="51"/>est motus in bonum secundum rationem boni,
+<lb ed="#L" n="52"/>quod de sua ratione est attractivum f, et ideo est
+<lb ed="#L" n="53"/>motus in bonum per se; desperatio autem est 
+re<lb break="no" ed="#L" n="54"/>cessus a bono, qui non competit bono secundum
+<lb ed="#L" n="55"/>quod est bonum, sed secundum aliquid aliud,
+<lb ed="#L" n="56"/>unde est quasi per accidens. Et eadem ratione,
+<lb ed="#L" n="57"/>timor, cum sit recessus a malo, est prior. quam
+<lb ed="#L" n="58"/>audacia. - Quod autem spes et desperatio sint 
+na<lb break="no" ed="#L" n="59"/>turaliter priores quam timor et audacia; ex hoc
+<lb ed="#L" n="60"/>manifestum est, quod, sicut appetitus boni est ratio
+<lb ed="#L" n="61"/>quare vitetur malum, ita etiam spes et desperatio
+<lb ed="#L" n="62"/>sunt ratio timoris et audaciae: nam audacia 
+con<lb break="no" ed="#L" n="63"/>sequitur spem victoriae, et timor consequitur 
+de<lb break="no" ed="#L" n="64"/>sperationem vincendi. Ira autem consequitur 
+au<lb break="no" ed="#L" n="65"/>daciam: nullus enim irascitur vindictam appetens,
+<lb ed="#L" n="66"/>nisi audeat vindicare, secundum quod Avicenna
+<lb ed="#L" n="67"/>dicit, in Sexto de Naturalibus.
+</p>
+               <p xml:id="TAca84-d1e801-d1e833">
+                  <lb ed="#L" n="68"/>Sic ergo patet quod spes est prima inter omnes
+<lb ed="#L" n="69"/>passiones irascibilis. - Et si ordinem omnium 
+pas<lb break="no" ed="#L" n="70"/>sionum secundum viam generationis, scire 
+veli<lb break="no" ed="#L" n="71"/>mus, primo occurrunt amor et odium; secundo,
+<lb ed="#L" n="72"/>desiderium et fuga; tertio, spes et desperatio;
+<lb ed="#L" n="73"/>quarto, timor et audacia; quinto, ira; sexto et
+<lb ed="#L" n="74"/>ultimo, gaudium et tristitia, quae consequuntur
+<lb ed="#L" n="75"/>ad omnes passiones, ut dicitur in II Ethic. Ita
+<lb ed="#L" n="76"/>tamen quod amor. est prior odio, et desiderium
+<lb ed="#L" n="77"/>fuga, et spes desperatione, et timor audacia, et
+<lb ed="#L" n="78"/>gaudium quam tristitia, ut ex praedictis colligi
+<lb ed="#L" n="79"/>potest.
+</p>
+               <p xml:id="TAca84-d1e801-d1e862">
+                  <lb ed="#L" n="80"/>AD PRIMUM ERGO DICENDUM quod, quia ira 
+cau<lb break="no" ed="#L" n="81"/>satur ex aliis passionibus sicut effectus a causis
+<lb ed="#L" n="82"/>praecedentibus, ideo ab ea, tanquam a 
+manife<lb break="no" ed="#L" n="83"/>stiori, denominatur potentia.
+</p>
+               <p xml:id="TAca84-d1e801-d1e874">
+                  <lb ed="#L" n="84"/>AD SECUNDUM DICENDUM quod arduum non est
+<lb ed="#L" n="85"/>ratio accedendi vel appetendi, sed potius bonum.
+<lb ed="#L" n="86"/>Et ideo spes, quae directius respicit bonum, est
+<lb ed="#L" n="87"/>prior: quamvis audacia aliquando sit in magis 
+ar<lb break="no" ed="#L" n="88"/>duum, vel etiam ira.
+</p>
+               <p xml:id="TAca84-d1e801-d1e887">
+                  <lb ed="#L" n="89"/>AD TERTIUM DICENDUM quod appetitus primo et
+<lb ed="#L" n="90"/>per se movetur in bonum, sicut in proprium
+<lb ed="#L" n="91"/>obiectum; et ex hoc causatur quod recedat a malo.
+<lb ed="#L" n="92"/>Proportionatur enim motus appetitivae partis, non
+<lb ed="#L" n="93"/>quidem motui naturali, sed intentioni naturae ;
+<lb ed="#L" n="94"/>quae per prius intendit finem quam remotionem
+<lb ed="#L" n="95"/>contrarii, quae non quaeritur nisi propter 
+adeptio<lb break="no" ed="#L" n="96"/>nem finis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e801-Dd1e908"><!-- p2p1-q25-a4 -->
+               <head xml:id="TAca84-d1e801-Hd1e911">Articulus 4</head>
+               <head xml:id="TAca84-d1e801-Hd1e913" type="question-title">utrum istae sint quatuor principales passiones, gaudium, tristitia,
+       spes et timor</head>
+               <p xml:id="TAca84-d1e801-d1e916">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11"/>ARTICULUS QUARTUS
+<lb ed="#L" n="12"/>UTRUM ISTAE SINT QUATUOR PRINCIPALES PASSIONES, GAUDIUM, TRISTITIA,
+<lb ed="#L" n="13"/>SPES ET TIMOR
+</p>
+               <p xml:id="TAca84-d1e801-d1e927">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="15"/>non sint istae quatuor principales 
+pas<lb break="no" ed="#L" n="16"/>siones, gaudium et tristitia, spes et 
+ti<lb break="no" ed="#L" n="17"/>mor. Augustinus enim, in XIV de Civ.
+<lb ed="#L" n="18"/>Dei, non ponit spem, sed cupiditatem loco eius.
+</p>
+               <p xml:id="TAca84-d1e801-d1e943">
+                  <lb ed="#L" n="19"/>2. PRAETEREA, in passionibus animae est 
+du<lb break="no" ed="#L" n="20"/>plex ordo: scilicet intentionis, et consecutionis seu
+<lb ed="#L" n="21"/>generationis. Aut ergo principales passiones 
+ac<lb break="no" ed="#L" n="22"/>cipiuntur secundum ordinem intentionis: et sic
+<lb ed="#L" n="23"/>tantum gaudium et tristitia, quae sunt finales,
+<lb ed="#L" n="24"/>erunt principales passiones. Aut secundum 
+ordi<lb break="no" ed="#L" n="25"/>nem consecutionis seu generationis: et sic amor
+<lb ed="#L" n="26"/>erit principalis passio. Nullo ergo modo debent
+<lb ed="#L" n="27"/>dici quatuor principales passiones istae quatuor,
+<lb ed="#L" n="28"/>gaudium et tristitia, spes et timor.
+</p>
+               <p xml:id="TAca84-d1e801-d1e968">
+                  <lb ed="#L" n="29"/>3. PRAETEREA, sicut audacia causatur ex spe,
+<lb ed="#L" n="30"/>ita timor ex desperatione. Aut ergo spes et 
+de<lb break="no" ed="#L" n="31"/>speratio debent poni principales passiones, 
+tan<lb break="no" ed="#L" n="32"/>quam causae: autspes et audacia, tanquam sibi
+<lb ed="#L" n="33"/>ipsis affines.
+</p>
+               <p xml:id="TAca84-d1e801-d1e981">
+                  <lb ed="#L" n="34"/>SED cowTRA EsT illud quod Boetius, in libro
+<lb ed="#L" n="35"/>de Consol., enumerans quatuor principales 
+pas<lb break="no" ed="#L" n="36"/>siones, dicit: <quote xml:id="TAca84-d1e801-Qd1e989">Gaudia pelle, Pelle timorem, 
+Spem<lb break="no" ed="#L" n="37"/>que fugato, Nec dolor adsit</quote>.
+</p>
+               <p xml:id="TAca84-d1e801-d1e995">
+                  <lb ed="#L" n="38"/>RESPONDEO DICENDUM quod hae quatuor 
+passio<lb break="no" ed="#L" n="39"/>nes communiter principales esse dicuntur. 
+Qua<lb break="no" ed="#L" n="40"/>rum duae, scilicet gaudium et tristitia, principales
+<lb ed="#L" n="41"/>dicuntur, quia sunt completivae et finales 
+sim<lb break="no" ed="#L" n="42"/>pliciter respectu omnium passionum: unde ad
+<lb ed="#L" n="43"/>omnes passiones consequuntur, ut dicitur in II
+<lb ed="#L" n="44"/>Ethic. 'Timor autem et spes sunt principales,
+<lb ed="#L" n="45"/>non quidem quasi completivae simpliciter, sed
+<lb ed="#L" n="46"/>quia sunt completivae in genere motus 
+appeti<lb break="no" ed="#L" n="47"/>tivi ad aliquid: nam respectu boni, incipit motus
+<lb ed="#L" n="48"/>in amore, et procedit in desiderium, et 
+termi<lb break="no" ed="#L" n="49"/>natur in spe; respectu vero mali, incipit in odio,
+<lb ed="#L" n="50"/>et procedit ad fugam, et terminatur in timore.
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="51"/>- Et ideo solet harum quatuor passionum 
+nume<lb break="no" ed="#L" n="52"/>rus accipi secundum differentiam praesentis et
+<lb ed="#L" n="53"/>futuri: motus enim respicit futurum, sed quies
+<lb ed="#L" n="54"/>est in aliquo praesenti. De bono igitur praesenti
+<lb ed="#L" n="55"/>est gaudium; de malo praesenti est tristitia; de
+<lb ed="#L" n="56"/>bono vero futuro est spes; de malo futuro est
+<lb ed="#L" n="57"/>timor.
+</p>
+               <p xml:id="TAca84-d1e801-d1e1043">
+                  <lb ed="#L" n="58"/>Omnes autem aliae passiones, quae sunt de
+<lb ed="#L" n="59"/>bono vel de malo praesenti vel futuro, ad has
+<lb ed="#L" n="60"/>completive reducuntur. Unde etiam a quibusdam
+<lb ed="#L" n="61"/>dicuntur principales hae praedictae quatuor 
+pas<lb break="no" ed="#L" n="62"/>siones, quia sunt generales. Quod quidem verum
+<lb ed="#L" n="63"/>est, si spes et timor designant motum appetitus
+<lb ed="#L" n="64"/>communiter tendentem in aliquid appetendum vel
+<lb ed="#L" n="65"/>fugiendum.
+</p>
+               <p xml:id="TAca84-d1e801-d1e1063">
+                  <lb ed="#L" n="66"/>AD PRIMUM ERGO DICENDUM quod Augustinus 
+po<lb break="no" ed="#L" n="67"/>nit desiderium vel cupiditatem loco spei, 
+inquan<lb break="no" ed="#L" n="68"/>tum ad idem pertinere videntur, scilicet ad bonum
+<lb ed="#L" n="69"/>futurum.
+</p>
+               <p xml:id="TAca84-d1e801-d1e1074">
+                  <lb ed="#L" n="70"/>AD SECUNDUM DICENDUM quod passiones istae 
+di<lb break="no" ed="#L" n="71"/>cuntur principales, secundum ordinem intentionis
+<lb ed="#L" n="72"/>et complementi. Et quamvis timor et spes non
+<lb ed="#L" n="73"/>sint ultimae passiones simpliciter, tamen sunt 
+ul<lb break="no" ed="#L" n="74"/>timae in genere passionum tendentium in aliud
+<lb ed="#L" n="75"/>quasi in futurum. Nec potest esse instantia nisi
+<lb ed="#L" n="76"/>de ira. Quae tamen non potest poni principalis
+<lb ed="#L" n="77"/>passio, quia est quidam effectus audaciae, quae
+<lb ed="#L" n="78"/>non potest esse passio principalis, ut infra 
+di<lb break="no" ed="#L" n="79"/>cetur. :
+</p>
+               <p xml:id="TAca84-d1e801-d1e1099">
+                  <lb ed="#L" n="80"/>Ad TERTIUM DICENDUM quod desperatio importat
+<lb ed="#L" n="81"/>recessum a bono, quod est quasi per accidens:
+<lb ed="#L" n="82"/>et audacia importat accessum ad malum, quod
+<lb ed="#L" n="83"/>etiam est per accidens. Et ideo hae passiones
+<lb ed="#L" n="84"/>non possunt esse principales: quia quod est per
+<lb ed="#L" n="85"/>accidens, non potest dici principale. Et sic etiam
+<lb ed="#L" n="86"/>nec ira potest dici passio principalis, quae 
+con<lb break="no" ed="#L" n="87"/>sequitur audaciam.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

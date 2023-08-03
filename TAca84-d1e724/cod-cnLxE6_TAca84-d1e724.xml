@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="83"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e724"><!-- p2p1-q10 -->
+            <head xml:id="TAca84-d1e724-Hd1e99">Quaestio 10</head>
+            <head xml:id="TAca84-d1e724-Hd1e101" type="question-title">de modo quo voluntas movetur</head>
+            <p xml:id="TAca84-d1e724-d1e104">
+               <pb ed="#L" n="83"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO DECIMA
+<lb ed="#L" n="2"/>DE MODO QUO VOLUNTAS MOVETUR
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e724-d1e117">
+               <lb ed="#L" n="4"/>Deinde considerandum est de modo quo 
+vo<lb break="no" ed="#L" n="5"/>luntas movetur.
+</p>
+            <p xml:id="TAca84-d1e724-d1e124">
+               <lb ed="#L" n="6"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="7"/>Primo: utrum voluntas ad aliquid naturaliter
+<lb ed="#L" n="8"/>moveatur.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="9"/>Secundo: utrum de necessitate moveatur a suo
+<lb ed="#L" n="10"/>obiecto.
+<lb ed="#L" n="11"/>Tertio: utrum de necessitate moveatur ab 
+ap<lb break="no" ed="#L" n="12"/>petitu inferiori.
+<lb ed="#L" n="13"/>Quarto: utrum de necessitate moveatur ab 
+ex<lb break="no" ed="#L" n="14"/>teriori motivo quod est Deus.
+</p>
+            <div xml:id="TAca84-d1e724-Dd1e149"><!-- p2p1-q10-a1 -->
+               <head xml:id="TAca84-d1e724-Hd1e152">Articulus 1</head>
+               <head xml:id="TAca84-d1e724-Hd1e154" type="question-title">utrum voluntas ad aliquid naturaliter moveatur</head>
+               <p xml:id="TAca84-d1e724-d1e157">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>ARTICULUS PRIMUS
+<lb ed="#L" n="16"/>UTRUM VOLUNTAS AD ALIQUID NATURALITER MOVEATUR
+</p>
+               <p xml:id="TAca84-d1e724-d1e166">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="17"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="18"/>voluntas non moveatur ad aliquid 
+na<lb break="no" ed="#L" n="19"/>naturaliter. Agens enim naturale dividitur
+<lb ed="#L" n="20"/>contra agens voluntarium, ut patet in
+<lb ed="#L" n="21"/>principio II Physic. Non ergo voluntas ad 
+ali<lb break="no" ed="#L" n="22"/>quid naturaliter movetur.
+</p>
+               <p xml:id="TAca84-d1e724-d1e184">
+                  <lb ed="#L" n="23"/>2. PRAETEREA, id quod est naturale, inest alicui
+<lb ed="#L" n="24"/>semper; sicut igni esse calidum. Sed nullus motus
+<lb ed="#L" n="25"/>inest voluntati semper. Ergo nullus motus est
+<lb ed="#L" n="26"/>naturalis voluntati.
+</p>
+               <p xml:id="TAca84-d1e724-d1e196">
+                  <lb ed="#L" n="27"/>3. PRAETEREA, natura est determinata ad unum.
+<lb ed="#L" n="28"/>Sed voluntas se habet ad opposita. Ergo 
+volun<lb break="no" ed="#L" n="29"/>tas nihil naturaliter vult.
+</p>
+               <p xml:id="TAca84-d1e724-d1e205">
+                  <lb ed="#L" n="30"/>SEd coNTRA EsT quod motus voluntatis sequitur
+<lb ed="#L" n="31"/>actum intellectus. Sed intellectus aliqua intelligit
+<lb ed="#L" n="32"/>naturaliter. Ergo et voluntas aliqua vult naturaliter.
+</p>
+               <p xml:id="TAca84-d1e724-d1e214">
+                  <lb ed="#L" n="33"/>RESPONDEO DICENDUM quod, sicut Boetius dicit
+<lb ed="#L" n="34"/>in libro de Duabus ANaturis, et Philosophus in
+<lb ed="#L" n="35"/>V Metaphys., natura dicitur multipliciter. 
+Quan<lb break="no" ed="#L" n="36"/>doque enim dicitur principium intrinsecum in rebus
+<lb ed="#L" n="37"/>mobilibus. Et talis natura est vel materia, vel 
+for<lb break="no" ed="#L" n="38"/>ma materialis, ut patet ex II Physic. - Alio modo
+<lb ed="#L" n="39"/>dicitur natura.quaelibet substantia, vel etiam ?
+<lb ed="#L" n="40"/>quodlibet ens. Et secundum hoc, illud dicitur esse
+<lb ed="#L" n="41"/>naturale rei, quod convenit ei secundum suam
+<lb ed="#L" n="42"/>substantiam. Et hoc est quod per se inest rei.
+<lb ed="#L" n="43"/>In omnibus autem, ea quae non per se insunt,
+<lb ed="#L" n="44"/>reducuntur in aliquid quod per se inest, sicut
+<lb ed="#L" n="45"/>in principium. Et ideo necesse est quod, hoc
+<lb ed="#L" n="46"/>modo accipiendo naturam, semper principium in
+<lb ed="#L" n="47"/>his quae conveniunt rei, sit naturale. Et hoc 
+ma<lb break="no" ed="#L" n="48"/>nifeste apparet in intellectu: nam principia 
+intelle<lb break="no" ed="#L" n="49"/>ctualis. cognitionis sunt naturaliter nota. Similiter
+<lb ed="#L" n="50"/>etiam principium motuum ? voluntariorum oportet
+<lb ed="#L" n="51"/>esse aliquid naturaliter volitum.
+</p>
+               <p xml:id="TAca84-d1e724-d1e258">
+                  <lb ed="#L" n="52"/>Hoc autem est bonum in communi, in quod
+<lb ed="#L" n="53"/>voluntas naturaliter tendit, sicut etiam quaelibet
+<lb ed="#L" n="54"/>potentia in suum obiectum: et etiam ipse finis
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="55"/>ultimus, qui hoc modo se habet in appetibilibus,
+<lb ed="#L" n="56"/>sicut prima principia demonstrationum in 
+intelli<lb break="no" ed="#L" n="57"/>gibilibus: et universaliter omnia illa quae 
+conve<lb break="no" ed="#L" n="58"/>niunt volenti secundum suam naturam. Non enim
+<lb ed="#L" n="59"/>per voluntatem appetimus solum ea quae pertinent
+<lb ed="#L" n="60"/>ad potentiam voluntatis; sed etiam ea quae 
+perti<lb break="no" ed="#L" n="61"/>nent ad singulas potentias, et ad totum hominem.
+<lb ed="#L" n="62"/>Unde naturaliter homo vult non solum obiectum
+<lb ed="#L" n="63"/>voluntatis, sed etiam alia quae conveniunt aliis
+<lb ed="#L" n="64"/>potentiis: ut cognitionem veri, quae convenit 
+in<lb break="no" ed="#L" n="65"/>tellectui; et esse et vivere et alia huiusmodi, quae
+<lb ed="#L" n="66"/>respiciunt consistentiam naturalem; quae omnia
+<lb ed="#L" n="67"/>comprehenduntur sub obiecto voluntatis, sicut
+<lb ed="#L" n="68"/>quaedam particularia bona.
+</p>
+               <p xml:id="TAca84-d1e724-d1e300">
+                  <lb ed="#L" n="69"/>AD PRIMUM ERGO DICENDUM quod voluntas 
+di<lb break="no" ed="#L" n="70"/>viditur contra naturam, sicut una causa contra
+<lb ed="#L" n="71"/>aliam: quaedam enim fiunt naturaliter, et quaedam
+<lb ed="#L" n="72"/>fiunt voluntarie. Est autem alius modus causandi
+<lb ed="#L" n="73"/>proprius voluntati, quae est domina sui actus,
+<lb ed="#L" n="74"/>praeter modum qui convenit naturae, quae est
+<lb ed="#L" n="75"/>determinata ad unum. Sed quia voluntas in 
+ali<lb break="no" ed="#L" n="76"/>qua natura fundatur, necesse est quod motus 
+pro<lb break="no" ed="#L" n="77"/>prius naturae, quantum ad aliquid, participetur
+<lb ed="#L" n="78"/>in voluntate: sicut quod est prioris causae, 
+par<lb break="no" ed="#L" n="79"/>ticipatur a posteriori. Est enim prius in unaquaque
+<lb ed="#L" n="80"/>re ipsum esse, quod est per naturam, quam velle,
+<lb ed="#L" n="81"/>quod est per voluntatem. Et inde est quod 
+vo<lb break="no" ed="#L" n="82"/>luntas naturaliter aliquid vult.
+</p>
+               <p xml:id="TAca84-d1e724-d1e333">
+                  <lb ed="#L" n="83"/>AD SECUNDUM DICENDUM quod in rebus 
+natura<lb break="no" ed="#L" n="84"/>libus id quod est naturale quasi consequens 
+for<lb break="no" ed="#L" n="85"/>mam tantum, semper actu inest, sicut calidum
+<lb ed="#L" n="86"/>igni. Quod autem est naturale sicut consequens
+<lb ed="#L" n="87"/>materiam, non semper actu inest, sed 
+quando<lb break="no" ed="#L" n="88"/>que secundum potentiam tantum. Nam forma est
+<lb ed="#L" n="89"/>actus, materia vero potentia. Motus autem est
+<lb ed="#L" n="90"/>actus existentis in potentia. Et ideo illa quae
+<lb ed="#L" n="91"/>pertinent ad motum, vel quae consequuntur 
+mo<lb break="no" ed="#L" n="92"/>tum, in rebus naturalibus, non semper insunt: sicut
+<pb ed="#L" n="84"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ignis non semper movetur sursum, sed quando
+<lb ed="#L" n="2"/>est extra locum suum. Et similiter non oportet
+<lb ed="#L" n="3"/>quod voluntas, quae de potentia in actum 
+redu<lb break="no" ed="#L" n="4"/>citur dum aliquid vult, semper actu velit: sed 
+so<lb break="no" ed="#L" n="5"/>lum quando est in aliqua dispositione 
+determi<lb break="no" ed="#L" n="6"/>nata. Voluntas autem Dei, quae est actus purus,
+<lb ed="#L" n="7"/>semper est in actu volendi.
+</p>
+               <p xml:id="TAca84-d1e724-d1e378">
+                  <lb ed="#L" n="8"/>AD TERTIUM DICENDUM quod naturae semper 
+re<lb break="no" ed="#L" n="9"/>spondet unum, proportionatum tamen ^ naturae.
+<lb ed="#L" n="10"/>Naturae enim in genere, respondet aliquid unum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="11"/>in genere; et naturae in specie acceptae, 
+respon<lb break="no" ed="#L" n="12"/>det unum in specie; naturae autem individuatae
+<lb ed="#L" n="13"/>respondet aliquid unum individuale. Cum igitur
+<lb ed="#L" n="14"/>voluntas sit quaedam vis immaterialis, sicut et 
+in<lb break="no" ed="#L" n="15"/>tellectus, respondet sibi naturaliter aliquod unum
+<lb ed="#L" n="16"/>commune, scilicet bonum: sicut etiam intellectui
+<lb ed="#L" n="17"/>aliquod unum commune, scilicet verum, vel ens,
+<lb ed="#L" n="18"/>vel quod quid est. Sub bono autem communi
+<lb ed="#L" n="19"/>multa particularia bona continentur, ad quorum
+<lb ed="#L" n="20"/>nullum voluntas determinatur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e724-Dd1e412"><!-- p2p1-q10-a2 -->
+               <head xml:id="TAca84-d1e724-Hd1e415">Articulus 2</head>
+               <head xml:id="TAca84-d1e724-Hd1e417" type="question-title">utrum voluntas moveatur de necessitate a suo obiecto</head>
+               <p xml:id="TAca84-d1e724-d1e420">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="99"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="100"/>UTRUM VOLUNTAS MOVEATUR DE NECESSITATE A SUO OBIECTO
+</p>
+               <p xml:id="TAca84-d1e724-d1e429">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="101"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="102"/>voluntas de necessitate moveatur a suo
+<lb ed="#L" n="103"/>obiecto. Obiectum enim voluntatis com-
+<!-- missing line break-->paratur ad ipsam sicut motivum ad 
+mo<lb break="no" ed="#L" n="104"/>bile, ut patet in III de Anima. Sed motivum,
+<lb ed="#L" n="105"/>si sit sufficiens, ex necessitate movet mobile.
+<lb ed="#L" n="106"/>Ergo voluntas ex necessitate potest moveri a suo
+<lb ed="#L" n="107"/>obiecto.
+</p>
+               <p xml:id="TAca84-d1e724-d1e451">
+                  <lb ed="#L" n="108"/>2. PRAETEREA, sicut voluntas est vis 
+immate<lb break="no" ed="#L" n="109"/>rialis, ita et intellectus: et utraque potentia ad
+<lb ed="#L" n="110"/>obiectum universale ordinatur, ut dictum est.
+<lb ed="#L" n="111"/>Sed intellectus ex necessitate movetur a suo 
+obie<lb break="no" ed="#L" n="112"/>cto. Ergo et voluntas a suo.
+</p>
+               <p xml:id="TAca84-d1e724-d1e465">
+                  <lb ed="#L" n="113"/>3. PRAETEREA, omne quod quis vult, aut est
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="114"/>finis, aut aliquid ordinatum ad finem. Sed finem
+<lb ed="#L" n="115"/>aliquis ex necessitate vult, ut videtur: quia est
+<lb ed="#L" n="116"/>Sicut principium in speculativis, cui ex 
+necessi<lb break="no" ed="#L" n="117"/>tate assentimus. Finis autem est ratio volendi ea
+<lb ed="#L" n="118"/>quae sunt ad finem: et sic videtur quod etiam
+<lb ed="#L" n="119"/>ea quae sunt ad finem, ex necessitate. velimus.
+<lb ed="#L" n="120"/>Voluntas ergo ex necessitate movetur a suo
+<lb ed="#L" n="121"/>obiecto.
+</p>
+               <p xml:id="TAca84-d1e724-d1e489">
+                  <lb ed="#L" n="122"/>SED CONTRA EST quod potentiae rationales, 
+se<lb break="no" ed="#L" n="123"/>cundum Philosophum, sunt ad opposita. Sed
+<lb ed="#L" n="124"/>voluntas est potentia rationalis; est enim im 
+ra<lb break="no" ed="#L" n="125"/>lione, ut dicitur in Ill de Anima. Ergo 
+volun<lb break="no" ed="#L" n="126"/>tas se habet ad opposita. Non ergo ex 
+necessi<lb break="no" ed="#L" n="127"/>tate movetur ad alterum oppositorum.
+</p>
+               <p xml:id="TAca84-d1e724-d1e505">
+                  <pb ed="#L" n="86"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>RESPONDEO DICENDUM quod. voluntas. movetur
+<lb ed="#L" n="2"/>dupliciter: uno modo, quantum ad exercitium
+<lb ed="#L" n="3"/>actus; alio modo, quantum ad specificationem
+<lb ed="#L" n="4"/>actus, quae est ex obiecto. Primo ergo modo, 
+vo<lb break="no" ed="#L" n="5"/>luntas a nullo obiecto ex necessitate movetur:
+<lb ed="#L" n="6"/>potest enim aliquis de quocumque obiecto non
+<lb ed="#L" n="7"/>cogitare, et per consequens neque actu velle illud.
+</p>
+               <p xml:id="TAca84-d1e724-d1e527">
+                  <lb ed="#L" n="8"/>Sed quantum ad secundum motionis modum,
+<lb ed="#L" n="9"/>veluntas ab aliquo obiecto ex necessitate 
+move<lb break="no" ed="#L" n="10"/>tur, ab aliquo autem non. In motu enim 
+cuius<lb break="no" ed="#L" n="11"/>libet. potentiae a suo obiecto, consideranda est
+<lb ed="#L" n="12"/>ratio per quam obiectum movet potentiam. 
+Vi<lb break="no" ed="#L" n="13"/>sibile enim movet visum sub ratione coloris actu
+<lb ed="#L" n="14"/>visibilis. Unde si color proponatur visui, ex 
+ne<lb break="no" ed="#L" n="15"/>cessitate movet visum ^, nisi aliquis visum 
+aver<lb break="no" ed="#L" n="16"/>tat: quod pertinet ad exercitium actus. Si autem
+<lb ed="#L" n="17"/>proponeretur aliquid visui quod non omnibus
+<lb ed="#L" n="18"/>modis esset color in actu, sed secundum aliquid
+<lb ed="#L" n="19"/>esset tale, secundum autem aliquid non tale, non
+<lb ed="#L" n="20"/>ex necessitate visus tale obiectum videret: posset
+<lb ed="#L" n="21"/>enim intendere in ipsum ex ea parte qua non
+<lb ed="#L" n="22"/>est coloratum in actu, et sic ipsum non videret.
+<lb ed="#L" n="23"/>Sicut autem coloratum in actu est obiectum 
+vi<lb break="no" ed="#L" n="24"/>sus, ita bonum est obiectum voluntatis. Unde si
+<lb ed="#L" n="25"/>proponatur aliquod obiectum voluntati quod sit
+<lb ed="#L" n="26"/>universaliter bonum et secundum omnem 
+consi<lb break="no" ed="#L" n="27"/>derationem, ex necessitate voluntas in illud 
+ten<lb break="no" ed="#L" n="28"/>det P, si aliquid velit: non enim poterit velle 
+oppo<lb break="no" ed="#L" n="29"/>situm. Si autem proponatur sibi aliquod obiectum
+<lb ed="#L" n="30"/>quod non secundum quamlibet considerationem
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="31"/>sit bonum, non ex necessitate voluntas feretur '
+<lb ed="#L" n="32"/>in illud. - Et quia defectus cuiuscumque boni 
+ha<lb break="no" ed="#L" n="33"/>bet rationem non boni, ideo illud solum bonum
+<lb ed="#L" n="34"/>quod est perfectum et cui nihil deficit, est tale
+<lb ed="#L" n="35"/>bonum quod voluntas non potest non velle: quod
+<lb ed="#L" n="36"/>est beatitudo. Alia autem | quaelibet. particularia
+<lb ed="#L" n="37"/>bona, inquantum deficiunt ab aliquo bono, 
+pos<lb break="no" ed="#L" n="38"/>sunt accipi ut non bona: et secundum hanc 
+con<lb break="no" ed="#L" n="39"/>siderationem, possunt repudiari vel approbari a
+<lb ed="#L" n="40"/>voluntate, quae potest in idem ferri secundum
+<lb ed="#L" n="41"/>diversas considerationes.
+</p>
+               <p xml:id="TAca84-d1e724-d1e605">
+                  <lb ed="#L" n="42"/>AD PRIMUM ERGO DICENDUM quod sufficiens 
+mo<lb break="no" ed="#L" n="43"/>tivum alicuius potentiae non est nisi obiectum
+<lb ed="#L" n="44"/>quod totaliter habet rationem motivi. Si autem
+<lb ed="#L" n="45"/>in aliquo. deficiat, non ex necessitate movebit, ut
+<lb ed="#L" n="46"/>dictum est.
+</p>
+               <p xml:id="TAca84-d1e724-d1e618">
+                  <lb ed="#L" n="47"/>AD SECUNDUM DICENDUM quod intellectus ex 
+ne<lb break="no" ed="#L" n="48"/>cessitate movetur a tali obiecto quod est semper
+<lb ed="#L" n="49"/>et ex necessitate verum: non autem ab eo quod
+<lb ed="#L" n="50"/>potest esse verum et falsum, scilicet a 
+contin<lb break="no" ed="#L" n="51"/>genti: sicut et de bono dictum est.
+</p>
+               <p xml:id="TAca84-d1e724-d1e632">
+                  <lb ed="#L" n="52"/>AD TERTIUM DICENDUM quod finis ultimus ex
+<lb ed="#L" n="53"/>necessitate movet voluntatem, quia est bonum
+<lb ed="#L" n="54"/>perfectum, .Et similiter illa quae ordinantur ad
+<lb ed="#L" n="55"/>hunc finem, sine quibus finis haberi non potest,
+<lb ed="#L" n="56"/>sicut esse et vivere et huiusmodi. Alia vero, sine
+<lb ed="#L" n="57"/>quibus finis haberi potest, non ex necessitate vult
+<lb ed="#L" n="58"/>qui vult finem: sicut conclusiones sine quibus
+<lb ed="#L" n="59"/>principia possunt esse vera, non ex necessitate
+<lb ed="#L" n="60"/>credit qui credit principia.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e724-Dd1e655"><!-- p2p1-q10-a3 -->
+               <head xml:id="TAca84-d1e724-Hd1e658">Articulus 3</head>
+               <head xml:id="TAca84-d1e724-Hd1e660" type="question-title">utrum voluntas moveatur de necessitate ab inferiori appetitu</head>
+               <p xml:id="TAca84-d1e724-d1e663">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="71"/>ARTICULUS TERTIUS
+<lb ed="#L" n="72"/>UTRUM VOLUNTAS MOVEATUR DE NECESSITATE AB INFERIORI APPETITU
+</p>
+               <p xml:id="TAca84-d1e724-d1e672">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="73"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="74"/>voluntas ex necessitate moveatur a 
+pas<lb break="no" ed="#L" n="75"/>sione appetitus inferioris. Dicit enim
+<lb ed="#L" n="76"/>Apostolus, Rom. vii:: <quote xml:id="TAca84-d1e724-Qd1e685">Non enim. quod
+<lb ed="#L" n="77"/>volo bonum, hoc ago; sed quod odi malum, illud
+<lb ed="#L" n="78"/>facio</quote>: quod dicitur propter concupiscentiam, quae
+<lb ed="#L" n="79"/>est passio quaedam. Ergo voluntas ex necessitate
+<lb ed="#L" n="80"/>movetur a passione.
+</p>
+               <p xml:id="TAca84-d1e724-d1e697">
+                  <lb ed="#L" n="81"/>2. PRAETEREA, sicut dicitur in III Ezhic., qualis
+<lb ed="#L" n="82"/>unusquisque est, lalis finis videtur ei. Sed non
+<lb ed="#L" n="83"/>est in potestate voluntatis quod statim passionem
+<lb ed="#L" n="84"/>abiiciat. Ergo non est in potestate voluntatis quod
+<lb ed="#L" n="85"/>non velit illud ad quod passio se inclinat.
+</p>
+               <p xml:id="TAca84-d1e724-d1e711">
+                  <lb ed="#L" n="86"/>3. PRAETEREA, causa universalis non. applicatur
+<lb ed="#L" n="87"/>ad effectum particularem nisi mediante causa 
+par<lb break="no" ed="#L" n="88"/>ticulari; unde et ratio universalis non. movet
+<lb ed="#L" n="89"/>nisi finefiaate aestimatione particulari, ut dicitur in
+<lb ed="#L" n="90"/>III de Anima. Sed sicut se habet ratio 
+univer<lb break="no" ed="#L" n="91"/>salis ad aestimationem. particularem, ita se habet
+<lb ed="#L" n="92"/>voluntas ad appetitum sensitivum.. Ergo ad 
+ali<lb break="no" ed="#L" n="93"/>quod. particulare volendum. non movetur. volun--
+<lb ed="#L" n="94"/>tas. nisi. mediante. appetitu sensitivo. Ergo si 
+ap<lb break="no" ed="#L" n="95"/>petitus sensitivus sit. per aliquam. passionem. ad
+<lb ed="#L" n="96"/>aliquid. dispositus , voluntas non poterit in. 
+con<lb break="no" ed="#L" n="97"/>trarium moveri.
+</p>
+               <p xml:id="TAca84-d1e724-d1e740">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="98"/>SED CONTRA EST quod dicitur Gen. iv: Subter
+<lb ed="#L" n="99"/>le erit appetitus tuus, et tu dominaberis illius. Non
+<lb ed="#L" n="100"/>ergo voluntas hominis ex. necessitate movetur
+<lb ed="#L" n="101"/>ab appetitu inferiori.
+</p>
+               <p xml:id="TAca84-d1e724-d1e753">
+                  <lb ed="#L" n="102"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="103"/>est, passio appetitus sensitivi movet voluntatem
+<lb ed="#L" n="104"/>ex ea parte qua voluntas movetur ab obiecto:
+<lb ed="#L" n="105"/>inquantum scilicet homo aliqualiter dispositus per
+<lb ed="#L" n="106"/>passionem, iudicat aliquid esse conveniens et 
+bo<lb break="no" ed="#L" n="107"/>num, quod extra passionem existens non 
+iudica<lb break="no" ed="#L" n="108"/>ret. Huiusmodi autem immutatio hominis per 
+pas<lb break="no" ed="#L" n="109"/>sionem duobus modis contingit. Uno modo, sic
+<lb ed="#L" n="110"/>quod totaliter ratio ligatur, ita quod homo usum
+<lb ed="#L" n="111"/>rationis non habet: sicut contingit in his qui 
+pro<lb break="no" ed="#L" n="112"/>pter vehementem iram vel concupiscentiam 
+fu<lb break="no" ed="#L" n="113"/>riosi vel amentes fiunt, sicut et propter aliquam
+<lb ed="#L" n="114"/>aliam .. perturbationem. - corporalem ;.. huiusmodi
+<lb ed="#L" n="115"/>enim passiones non sine corporali transmutatione
+<lb ed="#L" n="116"/>accidunt. Et:de talibus eadem est ratio sicut et de
+<lb ed="#L" n="117"/>animalibus brutis, quae ex necessitate sequuntur
+<lb ed="#L" n="118"/>impetum. passionis: in his enim. non est aliquis 
+ra<lb break="no" ed="#L" n="119"/>tionis motus, et per consequens nec voluntatis.
+</p>
+               <p xml:id="TAca84-d1e724-d1e795">
+                  <lb ed="#L" n="120"/>Aliquando autem ratio.non totaliter absorbetur
+<lb ed="#L" n="121"/>passione, sed. remanet quantum. ad. aliquid
+<lb ed="#L" n="122"/>iudicium rationis liberum. Et secundum hoc re-
+<pb ed="#L" n="88"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>manet aliquid de motu voluntatis. Inquantum | 
+<lb ed="#L" n="2"/>ergo ratio manet libera et passioni non subie- | 
+<lb ed="#L" n="3"/>cta, intantum voluntatis motus qui manet, non | 
+<lb ed="#L" n="4"/>ex necessitate tendit ad hoc ad quod passio in- | 
+<lb ed="#L" n="5"/>clinat. Et sic aut motus voluntatis non est in | 
+<lb ed="#L" n="6"/>homine, sed sola passio dominatur: aut, si motus 
+<lb ed="#L" n="7"/>voluntatis sit, non ex necessitate sequitur 
+pas<lb break="no" ed="#L" n="8"/>sionem. 
+</p>
+               <p xml:id="TAca84-d1e724-d1e826">
+                  <lb ed="#L" n="9"/>AD PRIMUM ERGO DICENDUM quod, etsi ) dlnngu: 
+<lb ed="#L" n="10"/>non possit facere quin motus concupiscentiae in- | 
+<lb ed="#L" n="11"/>surgat, de quo Apostolus dicit om. viu, Quod | 
+<lb ed="#L" n="12"/>odi malum, illud facio, idest concupisco; tamen 
+<lb ed="#L" n="13"/>potest voluntas non velle concupiscere, aut con- | 
+<lb ed="#L" n="14"/>cupiscentiae non consentire. Et sic non ex ne- | 
+<lb ed="#L" n="15"/>cessitate sequitur concupiscentiae motum. 
+<lb ed="#L" n="16"/>AD SECUNDUM DICENDUM quod, cum in homine | 
+<lb ed="#L" n="17"/>duae sint naturae, intellectualis scilicet et sen- | 
+<lb ed="#L" n="18"/>sitiva, quandoque quidem est homo aliqualis uni- | 
+<lb ed="#L" n="19"/>formiter secundum totam animam: quia scilicet 
+</p>
+               <p xml:id="TAca84-d1e724-d1e852">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="20"/>vel pars sensitiva totaliter subiicitur rationi, sicut
+<lb ed="#L" n="21"/>contingit in. virtuosis; vel e convérso ratio 
+tota<lb break="no" ed="#L" n="22"/>liter absorbetur a passione, sicut accidit in 
+amen<lb break="no" ed="#L" n="23"/>tibus. Sed aliquando, etsi ratio obnubiletur a 
+pas<lb break="no" ed="#L" n="24"/>sione, remanet tamen aliquid rationis liberum. Et
+<lb ed="#L" n="25"/>secundum. hoc potest. aliquis. vel totaliter 
+passio<lb break="no" ed="#L" n="26"/>nem repellere; vel saltem se tenere ne 
+passio<lb break="no" ed="#L" n="27"/>nem sequatur. In tali enim dispositione, quia homo
+<lb ed="#L" n="28"/>secundum diversas partes animae diversimode
+<lb ed="#L" n="29"/>disponitur, aliud. ei. videtur. secundum. rationem,
+<lb ed="#L" n="30"/>et aliud secundum passionem.
+</p>
+               <p xml:id="TAca84-d1e724-d1e882">
+                  <lb ed="#L" n="31"/>AD TERTIUM DICENDUM quod. voluntas non solum
+<lb ed="#L" n="32"/>movetur a bono universali apprehenso per 
+ratio<lb break="no" ed="#L" n="33"/>nem, sed etiam a bono apprehenso per sensum.
+<lb ed="#L" n="34"/>Et ideo. potest moveri ad aliquod particulare 
+bo<lb break="no" ed="#L" n="35"/>num absque passione appetitus sensitivi. Multa
+<lb ed="#L" n="36"/>enim volumus et operamur absque passione, per
+<lb ed="#L" n="37"/>solam electionem: ut maxime patet in his in
+</p>
+            </div>
+            <div xml:id="TAca84-d1e724-Dd1e901"><!-- p2p1-q10-a4 -->
+               <head xml:id="TAca84-d1e724-Hd1e904">Articulus 4</head>
+               <head xml:id="TAca84-d1e724-Hd1e906" type="question-title">utrum voluntas moveatur de necessitate ab exteriori motivo
+       quod est deus</head>
+               <p xml:id="TAca84-d1e724-d1e909">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="84"/>ARTICULUS QUARTUS
+<lb ed="#L" n="85"/>UTRUM VOLUNTAS MOVEATUR DE NECESSITATE AB EXTERIORI MOTIVO
+<lb ed="#L" n="86"/>QUOD EST DEUS
+</p>
+               <p xml:id="TAca84-d1e724-d1e920">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="87"/>AD QUARTUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="88"/>voluntas ex necessitate moveatur a Deo. 
+<lb ed="#L" n="89"/>Omne enim agens cui resisti non potest, 
+<lb ed="#L" n="90"/>Sex necessitate movet. Sed Deo, cum sit 
+<lb ed="#L" n="91"/>infinitae —— resisti non potest: unde dicitur 
+<lb ed="#L" n="92"/>Rom. 1x, Voluntati eius quis resistit? Ergo Deus | 
+<lb ed="#L" n="93"/>ex necessitate movet voluntatem. 
+</p>
+               <p xml:id="TAca84-d1e724-d1e940">
+                  <lb ed="#L" n="94"/>2. PRAETEREA, voluntas ex necessitate movetur | 
+<lb ed="#L" n="95"/>in illa quae naturaliter vult, ut dictum est. Sed | 
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="96"/>hoc est unicuique rei naturale, quod Deus in ea
+<lb ed="#L" n="97"/>operatur, ut Augustinus dicit, XXVI Contra 
+Fau<lb break="no" ed="#L" n="98"/>stum. Ergo voluntas ex necessitate vult omne
+<lb ed="#L" n="99"/>illad ad quod a Deo movetur.
+</p>
+               <p xml:id="TAca84-d1e724-d1e959">
+                  <lb ed="#L" n="100"/>3. PRAETEREA, possibile est quo posito non 
+se<lb break="no" ed="#L" n="101"/>quitur impossibile. Sequitur autem impossibile, si
+<lb ed="#L" n="102"/>ponatur quod voluntas non velit hoc ad quod
+<lb ed="#L" n="103"/>Deus eam movet: quia secundum hoc $, operatio
+<lb ed="#L" n="104"/>Dei esset inefficax. Non ergo est possibile volun-
+<pb ed="#L" n="89"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tatem non velle hoc ad quod Deus eam movet.
+<lb ed="#L" n="2"/>Ergo necesse est eam hoc velle.
+</p>
+               <p xml:id="TAca84-d1e724-d1e981">
+                  <lb ed="#L" n="3"/>SED CONTRA EST quod dicitur Eccli. xv: Deus
+<lb ed="#L" n="4"/>ab initio constituit hominem, et reliquit eum in
+<lb ed="#L" n="5"/>manu consilii sui. Non ergo ex necessitate movet
+<lb ed="#L" n="6"/>voluntatem eius. :
+</p>
+               <p xml:id="TAca84-d1e724-d1e992">
+                  <lb ed="#L" n="7"/>RESPONDEO DICENDUM quod, sicut Dionysius 
+di<lb break="no" ed="#L" n="8"/>cit, Iv cap. de Div. Nom., <quote xml:id="TAca84-d1e724-Qd1e998">ad providentiam 
+di<lb break="no" ed="#L" n="9"/>vinam. non pertinet naturam rerum. corrumpere,
+<lb ed="#L" n="10"/>sed servare</quote>. Unde omnia movet secundum eorum
+<lb ed="#L" n="11"/>conditionem: ita quod ex causis necessariis per
+<lb ed="#L" n="12"/>motionem divinam consequuntur effectus ex 
+ne<lb break="no" ed="#L" n="13"/>cessitate; ex causis autem contingentibus 
+sequun<lb break="no" ed="#L" n="14"/>tur effectus contingenter. Quia igitur voluntas est
+<lb ed="#L" n="15"/>activum principium non determinatum ad unum,
+<lb ed="#L" n="16"/>sed indifferenter se habens ad multa, sic Deus
+<lb ed="#L" n="17"/>ipsam movet, quod non ex necessitate ad unum
+<lb ed="#L" n="18"/>determinat, sed remanet motus eius contingens
+<lb ed="#L" n="19"/>et non necessarius, nisi in his ad quae naturaliter
+<lb ed="#L" n="20"/>movetur.
+</p>
+               <p xml:id="TAca84-d1e724-d1e1028">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="21"/>AD PRIMUM ERGO DICENDUM quod voluntas divina
+<lb ed="#L" n="22"/>non solum se extendit ut aliquid fiat per rem
+<lb ed="#L" n="23"/>quam movet, sed. ut etiam ? eo modo fiat quo
+<lb ed="#L" n="24"/>congruit naturae ipsius. Et ideo magis repugnaret
+<lb ed="#L" n="25"/>divinae motioni, si voluntas ex necessitate 
+move<lb break="no" ed="#L" n="26"/>retur, quod suae naturae non competit; quam si
+<lb ed="#L" n="27"/>moveretur libere, prout competit suae naturae.
+</p>
+               <p xml:id="TAca84-d1e724-d1e1048">
+                  <lb ed="#L" n="28"/>AD SECUNDUM DICENDUM quod naturale est 
+uni<lb break="no" ed="#L" n="29"/>cuique quod Deus operatur in ipso ut sit ei 
+na<lb break="no" ed="#L" n="30"/>turale: sic enim unicuique convenit aliquid, 
+se<lb break="no" ed="#L" n="31"/>cundum quod Deus vult quod ei conveniat. Non
+<lb ed="#L" n="32"/>autem vult quod quidquid operatur in rebus, sit
+<lb ed="#L" n="33"/>eis naturale, puta quod mortui resurgant. Sed hoc
+<lb ed="#L" n="34"/>vult unicuique esse naturale, quod potestati 
+divi<lb break="no" ed="#L" n="35"/>nae subdatur.
+</p>
+               <p xml:id="TAca84-d1e724-d1e1068">
+                  <lb ed="#L" n="36"/>AD TERTIUM DICENDUM quod, si Deus movet 
+vo<lb break="no" ed="#L" n="37"/>luntatem ad aliquid, incompossibile est huic 
+posi<lb break="no" ed="#L" n="38"/>tioni quod voluntas ad illud non moveatur. Non
+<lb ed="#L" n="39"/>tamen est impossibile simpliciter. Unde non 
+sequi<lb break="no" ed="#L" n="40"/>tur quod voluntas a Deo ex necessitate moveatur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 43</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 43</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="281"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e894"><!-- p2p1-q43 -->
+            <head xml:id="TAca84-d1e894-Hd1e99">Quaestio 43</head>
+            <head xml:id="TAca84-d1e894-Hd1e101" type="question-title">de causa timoris</head>
+            <p xml:id="TAca84-d1e894-d1e104">
+               <pb ed="#L" n="281"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO QUADRAGESIMATERTIA
+<lb ed="#L" n="2"/>DE CAUSA TIMORIS
+<lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e894-d1e117">
+               <lb ed="#L" n="4"/>Et circa hoc quaeruntur duo.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="5"/>Primo: utrum causa timoris sit amor.
+<lb ed="#L" n="6"/>Secundo: utrum causa timoris sit defectus.
+</p>
+            <div xml:id="TAca84-d1e894-Dd1e128"><!-- p2p1-q43-a1 -->
+               <head xml:id="TAca84-d1e894-Hd1e131">Articulus 1</head>
+               <head xml:id="TAca84-d1e894-Hd1e133" type="question-title">utrum causa timoris sit amor</head>
+               <p xml:id="TAca84-d1e894-d1e136">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>ARTICULUS PRIMUS
+<lb ed="#L" n="8"/>UTRUM CAUSA TIMORIS SIT AMOR
+</p>
+               <p xml:id="TAca84-d1e894-d1e145">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="9"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="10"/>amor non sit causa timoris. Illud enim
+<lb ed="#L" n="11"/>ut Augustinus dicit, super Canonicam Ioan. Ergo
+<lb ed="#L" n="12"/>timor est causa amoris, et non e converso.
+</p>
+               <p xml:id="TAca84-d1e894-d1e158">
+                  <lb ed="#L" n="13"/>2. PRAETEREA, Philosophus dicit, in II Rhetoric.,
+<lb ed="#L" n="14"/>quod illi maxime timentur, a quibus expectamus
+<lb ed="#L" n="15"/>imminere nobis. aliqua. mala. Sed per hoc quod
+<lb ed="#L" n="16"/>ab aliquo expectamus malum, magis provocamur
+<lb ed="#L" n="17"/>ad odium eius quam ad amorem. Ergo timor
+<lb ed="#L" n="18"/>magis causatur ab odio quam ab amore.
+</p>
+               <p xml:id="TAca84-d1e894-d1e175">
+                  <lb ed="#L" n="19"/>3. PRAETEREA, supra dictum est quod ea
+<lb ed="#L" n="20"/>quae sunt a nobis ipsis, non habent rationem
+<lb ed="#L" n="21"/>terribilium. Sed ea quae sunt ex amore, maxime
+<lb ed="#L" n="22"/>proveniunt ex intimo cordis. Ergo timor ex amore
+<lb ed="#L" n="23"/>non causatur.
+</p>
+               <p xml:id="TAca84-d1e894-d1e188">
+                  <lb ed="#L" n="24"/>SED CONTRA EST quod Augustinus dicit, in libro
+<lb ed="#L" n="25"/>Octoginta trium Quaest.: Nulli dubium est non
+<lb ed="#L" n="26"/>aliam esse metuendi causam, nisi ne id quod 
+ama<lb break="no" ed="#L" n="27"/>mus, aut adeptum amiltamus, aut non 
+adipisca<lb break="no" ed="#L" n="28"/>mur speratum. Omnis ergo timor causatur ex hoc
+<lb ed="#L" n="29"/>quod aliquid amamus. Amor igitur est causa 
+ti<lb break="no" ed="#L" n="30"/>moris.
+</p>
+               <p xml:id="TAca84-d1e894-d1e206">
+                  <lb ed="#L" n="31"/>REsPONDEO. DiCENDUM quod obiecta passionum
+<lb ed="#L" n="32"/>animae se habent ad eas tanquam formae ad res
+<lb ed="#L" n="33"/>naturales vel artificiales: quia passiones animae
+<lb ed="#L" n="34"/>speciem recipiunt ab obiectis, sicut res 
+praedi<lb break="no" ed="#L" n="35"/>ctae a suis formis. Sicut igitur quidquid est causa -
+<lb ed="#L" n="36"/>formae, est causa rei constitutae per ipsam ; ita
+<lb ed="#L" n="37"/>etiam quidquid, et quocumque modo, est causa
+<lb ed="#L" n="38"/>obiecti, est causa passionis. Contingit autem 
+ali<lb break="no" ed="#L" n="39"/>quid esse causam obiecti vel per modum causae
+<lb ed="#L" n="40"/>efficientis: vel per modum dispositionis materialis.
+<lb ed="#L" n="41"/>Sicut obiectum delectationis est bonum apparens
+<lb ed="#L" n="42"/>conveniens coniunctum: cuius causa efficiens est |
+<lb ed="#L" n="43"/>illud quod facit coniunctionem, vel quod facit
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="44"/>convenientiam vel bonitatem, vel apparentiam
+<lb ed="#L" n="45"/>huiusmodi boni; causa autem per modum 
+dispo<lb break="no" ed="#L" n="46"/>sitionis materialis, est habitus, vel quaecumque
+<lb ed="#L" n="47"/>dispositio secundum quam fit alicui conveniens
+<lb ed="#L" n="48"/>aut apparens illud bonum quod est ei 
+coniun<lb break="no" ed="#L" n="49"/>ctum.
+</p>
+               <p xml:id="TAca84-d1e894-d1e252">
+                  <lb ed="#L" n="50"/>Sic igitur, in proposito, obiectum timoris est
+<lb ed="#L" n="51"/>aestimatum malum futurum propinquum cui 
+re<lb break="no" ed="#L" n="52"/>sisti de facili non potest. Et ideo illud quod 
+po<lb break="no" ed="#L" n="53"/>test inferre tale malum, est causa effectiva obiecti
+<lb ed="#L" n="54"/>timoris, et per consequens ipsius timoris. Illud
+<lb ed="#L" n="55"/>autem per quod aliquis ita disponitur ut aliquid
+<lb ed="#L" n="56"/>sit ei tale, est causa timoris, et obiecti eius, per
+<lb ed="#L" n="57"/>modum dispositionis materialis. Et hoc modo
+<lb ed="#L" n="58"/>amor est causa timoris: ex hoc enim quod 
+ali<lb break="no" ed="#L" n="59"/>quis amat aliquod bonum, sequitur quod 
+priva<lb break="no" ed="#L" n="60"/>tivum talis boni sit ei malum, et per consequens
+<lb ed="#L" n="61"/>quod timeat ipsum tanquam malum.
+</p>
+               <p xml:id="TAca84-d1e894-d1e281">
+                  <lb ed="#L" n="62"/>AD PRIMUM ERGO DICENDUM quod, sicut supra
+<lb ed="#L" n="63"/>dictum est, timor per se et primo respicit ad 
+ma<lb break="no" ed="#L" n="64"/>lum quod refugit, quod opponitur alicui bono
+<lb ed="#L" n="65"/>amato. Et sic per se timor nascitur ex amore. —
+<lb ed="#L" n="66"/>Secundario vero respicit ad id per quod provenit
+<lb ed="#L" n="67"/>tale malum. Et sic per accidens quandoque timor
+<lb ed="#L" n="68"/>inducit amorem: inquantum scilicet homo qui
+<lb ed="#L" n="69"/>timet puniri a Deo, servat mandata eius, et sic
+<lb ed="#L" n="70"/>incipit sperare, et spes introducit amorem, ut
+<lb ed="#L" n="71"/>supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e894-d1e305">
+                  <lb ed="#L" n="72"/>AD SECUNDUM DICENDUM quod ille a quo 
+expe<lb break="no" ed="#L" n="73"/>ctantur ? mala, primo quidem odio habetur: sed
+<lb ed="#L" n="74"/>postquam ab ipso iam incipiunt sperari bona,
+<lb ed="#L" n="75"/>tunc incipit amari. Bonum autem cui contrariatur
+<lb ed="#L" n="76"/>malum quod timetur, a principio amabatur.
+</p>
+               <p xml:id="TAca84-d1e894-d1e319">
+                  <lb ed="#L" n="77"/>AD TERTIUM DICENDUM quod ratio illa procedit
+<lb ed="#L" n="78"/>de eo quod est causa mali terribilis per modum
+<lb ed="#L" n="79"/>efficientis. Amor autem est causa eius per 
+mo<lb break="no" ed="#L" n="80"/>dum materialis dispositionis, ut dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e894-Dd1e332"><!-- p2p1-q43-a2 -->
+               <head xml:id="TAca84-d1e894-Hd1e335">Articulus 2</head>
+               <head xml:id="TAca84-d1e894-Hd1e337" type="question-title">utrum causa timoris sit defectus</head>
+               <p xml:id="TAca84-d1e894-d1e340">
+                  <pb ed="#L" n="282"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM CAUSA TIMORIS SIT DEFECTUS
+</p>
+               <p xml:id="TAca84-d1e894-d1e351">
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>defectus non sit causa timoris. Illi enim
+<lb ed="#L" n="5"/>qui potentiam habent, maxime 
+timen<lb break="no" ed="#L" n="6"/>tur. Sed defectus contrariatur potentiae.
+<lb ed="#L" n="7"/>Ergo defectus non est causa timoris.
+</p>
+               <p xml:id="TAca84-d1e894-d1e364">
+                  <lb ed="#L" n="8"/>2. PRAETEREA, illi qui iam decapitantur, maxime
+<lb ed="#L" n="9"/>sunt in defectu. Sed tales non timent, ut dicitur
+<lb ed="#L" n="10"/>in II ZAhetoric. Ergo defectus non est causa 
+ti<lb break="no" ed="#L" n="11"/>moris.
+</p>
+               <p xml:id="TAca84-d1e894-d1e376">
+                  <lb ed="#L" n="12"/>3. PRAETEREA, decertare ex fortitudine 
+prove<lb break="no" ed="#L" n="13"/>nit, non ex defectu. Sed decertantes. timent eos
+<lb ed="#L" n="14"/>qui pro eisdem. decertant, ut dicitur in II RAetoric.
+<lb ed="#L" n="15"/> Ergo defectus non est causa timoris. .
+</p>
+               <p xml:id="TAca84-d1e894-d1e387">
+                  <lb ed="#L" n="16"/>SED CONTRA, contrariorum contrariae sunt cà
+u<lb break="no" ed="#L" n="17"/>sae. Sed divitiae, et robur, et multitudo amicorum,
+<lb ed="#L" n="18"/>et polestas, excludunt timorem , ut dicitur in II
+<lb ed="#L" n="19"/>Rhetoric. Ergo ex defectu horum timor causatur.
+</p>
+               <p xml:id="TAca84-d1e894-d1e398">
+                  <lb ed="#L" n="20"/>RESPONDEO. DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="21"/>est, duplex causa timoris accipi potest: una 
+qui<lb break="no" ed="#L" n="22"/>dem per modum materialis dispositionis, ex parte
+<lb ed="#L" n="23"/>eius qui timet; alia per modum causae efficientis,
+<lb ed="#L" n="24"/>ex parte eius qui timetur. Quantum igitur ad
+<lb ed="#L" n="25"/>primum, defectus, per se loquendo, est causa 
+ti<lb break="no" ed="#L" n="26"/>moris: ex aliquo enim defectu virtutis contingit
+<lb ed="#L" n="27"/>quod non possit aliquis de facili repellere immi-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="28"/>nens malum. Sed tamen ad causandum timorem
+<lb ed="#L" n="29"/>requiritur defectus cum aliqua mensura. Minor
+<lb ed="#L" n="30"/>enim est defectus qui causat timorem futuri mali,
+<lb ed="#L" n="31"/>quam defectus consequens malum praesens, de
+<lb ed="#L" n="32"/>quo est tristitia. Et adhuc esset maior defectus,
+<lb ed="#L" n="33"/>si totaliter sensus mali auferretur, vel amor boni
+<lb ed="#L" n="34"/>cuius contrarium timetur.
+</p>
+               <p xml:id="TAca84-d1e894-d1e435">
+                  <lb ed="#L" n="35"/>Quantum vero ad secundum, virtus et robur,
+<lb ed="#L" n="36"/>per se loquendo, est causa timoris: ex hoc enim
+<lb ed="#L" n="37"/>quod aliquid quod apprehenditur ut nocivum, est
+<lb ed="#L" n="38"/>virtuosum, contingit quod eius effectus repelli non
+<lb ed="#L" n="39"/>potest. Contingit tamen per accidens quod aliquis
+<lb ed="#L" n="40"/>defectus ex ista parte causat timorem, inquantum
+<lb ed="#L" n="41"/>ex aliquo defectu. contingit quod aliquis velit 
+no<lb break="no" ed="#L" n="42"/>cumentum inferre: puta propter iniustitiam, vel
+<lb ed="#L" n="43"/>quia. ante laesus. fuit, vel quia timet laedi.. .
+</p>
+               <p xml:id="TAca84-d1e894-d1e457">
+                  <lb ed="#L" n="44"/>AD. PRIMUM ERGO DICENDUM quod ratio illa 
+pro<lb break="no" ed="#L" n="45"/>cedit de causa timoris ex parte causae efficientis.
+</p>
+               <p xml:id="TAca84-d1e894-d1e464">
+                  <lb ed="#L" n="46"/>AD SECUNDUM DICENDUM quod illi qui iam. 
+deca<lb break="no" ed="#L" n="47"/>pitantur, sunt in passione praesentis mali. Et ideo.
+<lb ed="#L" n="48"/>iste defectus excedit mensuram. timoris.
+</p>
+               <p xml:id="TAca84-d1e894-d1e474">
+                  <lb ed="#L" n="49"/>AD TERTIUM DICENDUM quod decertantes timent
+<lb ed="#L" n="50"/>non propter potentiam, qua decertare possunt :
+<lb ed="#L" n="51"/>sed. propter defectum. potentiae, ex quo Ganntingh
+<lb ed="#L" n="52"/>quod se superaturos non confidunt.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 66</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 66</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="428"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1013"><!-- p2p1-q66 -->
+            <head xml:id="TAca84-d1e1013-Hd1e99">Quaestio 66</head>
+            <head xml:id="TAca84-d1e1013-Hd1e101" type="question-title">de aequalitate virtutum</head>
+            <p xml:id="TAca84-d1e1013-d1e104">
+               <pb ed="#L" n="428"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO SEXAGESIMASEXTA
+<lb ed="#L" n="2"/>DE AEQUALITATE VIRTUTUM
+<lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1013-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de aequalitate 
+vir<lb break="no" ed="#L" n="5"/>tutum
+<lb ed="#L" n="6"/>Et circa hoc quaeruntur sex.
+<lb ed="#L" n="7"/>Primo: utrum virtus possit esse maior vel
+<lb ed="#L" n="8"/>minor.
+<lb ed="#L" n="9"/>Secundo: utrum omnes virtutes simul in 
+eo<lb break="no" ed="#L" n="10"/>dem. existentes, sint aequales.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="11"/>Tertio: de comparatione virtutum moralium
+<lb ed="#L" n="12"/>ad intellectuales.
+<lb ed="#L" n="13"/>Quarto: de comparatione virtutum moralium
+<lb ed="#L" n="14"/>ad invicem.
+<lb ed="#L" n="15"/>Quinto: de comparatione virtutum 
+intellectua<lb break="no" ed="#L" n="16"/>lium ad invicem. :
+<lb ed="#L" n="17"/>Sexto: de comparatione virtutum 
+theologica<lb break="no" ed="#L" n="18"/>rum ad invicem.
+</p>
+            <div xml:id="TAca84-d1e1013-Dd1e156"><!-- p2p1-q66-a1 -->
+               <head xml:id="TAca84-d1e1013-Hd1e159">Articulus 1</head>
+               <head xml:id="TAca84-d1e1013-Hd1e161" type="question-title">utrum virtus possit esse maior vel minor</head>
+               <p xml:id="TAca84-d1e1013-d1e164">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="19"/>ARTICULUS PRIMUS
+<lb ed="#L" n="20"/>UTRUM VIRTUS POSSIT ESSE MAIOR VEL MINOR
+</p>
+               <p xml:id="TAca84-d1e1013-d1e173">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="21"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="22"/>virtus non possit esse maior vel minor.
+<lb ed="#L" n="23"/>Dicitur enim in Apoc. xxi, quod latera
+<lb ed="#L" n="24"/>civitatis lerusalem sunt aequalia. Per
+<lb ed="#L" n="25"/>haec autem significantur virtutes, ut Glossa dicit
+<lb ed="#L" n="26"/>ibidem. Ergo omnes virtutes sunt aequales. Non
+<lb ed="#L" n="27"/>ergo potest esse virtus maior virtute.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e193">
+                  <lb ed="#L" n="28"/>2. PRAETEREA, omne illud cuius ratio. consistit
+<lb ed="#L" n="29"/>in maximo, non potest esse maius vel minus.
+<lb ed="#L" n="30"/>Sed ratio virtutis consistit in maximo: est enim
+<lb ed="#L" n="31"/>virtus ultimum potentiae, ut <ref xml:id="TAca84-d1e1013-Rd1e203">Philosophus dicit in
+<lb ed="#L" n="32"/>I de Caelo</ref>; et<ref xml:id="TAca84-d1e1013-Rd1e209"> Augustinus etiam dicit, in II de
+<lb ed="#L" n="33"/>Lib. Arb.</ref>, quod virtutes sunt maxima bona, 
+qui<lb break="no" ed="#L" n="34"/>bus nullus potest male uti. Ergo videtur quod
+<lb ed="#L" n="35"/>virtus non possit esse maior neque minor.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e220">
+                  <lb ed="#L" n="36"/>3. PRAETEREA, quantitas effectus pensatur 
+se<lb break="no" ed="#L" n="37"/>cundum virtutem agentis. Sed virtutes perfectae,
+<lb ed="#L" n="38"/>quae sunt virtutes infusae, sunt a Deo, cuius
+<lb ed="#L" n="39"/>virtus est uniformis et infinita. Ergo videtur quod
+<lb ed="#L" n="40"/>virtus non possit esse maior virtute.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e233">
+                  <lb ed="#L" n="41"/>SED coNTRA, ubicumque potest esse 
+augmen<lb break="no" ed="#L" n="42"/>tum et superabundantia, potest esse inaequalitas.
+<lb ed="#L" n="43"/>Sed in virtutibus invenitur superabundantia et
+<lb ed="#L" n="44"/>augmentum: dicitur enim Matth. v: Nisi 
+abun<lb break="no" ed="#L" n="45"/>daverit iustitia vestra plus quam Scribarum et
+<lb ed="#L" n="46"/>Pharisaeorum, non intrabitis in regnum caelorum;
+<lb ed="#L" n="47"/>et Proverb. xv dicitur: In abundanti iustitia 
+vir<lb break="no" ed="#L" n="48"/>tus maxima est. Ergo videtur quod virtus possit
+<lb ed="#L" n="49"/>esse maior vel minor.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e255">
+                  <lb ed="#L" n="50"/>RESPONDEO DICENDUM quod cum quaeritur utrum
+<lb ed="#L" n="51"/>virtus una possit esse maior alia, dupliciter 
+in<lb break="no" ed="#L" n="52"/>telligi potest quaestio. Uno modo, in virtutibus
+<lb ed="#L" n="53"/>specie differentibus. Et sic manifestum est quod
+<lb ed="#L" n="54"/>una virtus est alia maior. Semper enim est 
+po<lb break="no" ed="#L" n="55"/>tior causa suo effectu: et in effectibus, tanto
+<lb ed="#L" n="56"/>aliquid est potius, quanto est causae propinquius.
+<lb ed="#L" n="57"/>Manifestum est autem ex dictis quod causa et
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="58"/>radix humani boni est ratio. Et ideo prudentia,
+<lb ed="#L" n="59"/>quae perficit rationem, praefertur in bonitate aliis
+<lb ed="#L" n="60"/>virtutibus moralibus, perficientibus vim 
+appetiti<lb break="no" ed="#L" n="61"/>vam inquantum participat rationem. Et in his
+<lb ed="#L" n="62"/>etiam tanto est una altera melior, quanto magis
+<lb ed="#L" n="63"/>ad rationem accedit. Unde et iustitia, quae est in
+<lb ed="#L" n="64"/>voluntate, praefertur aliis virtutibus moralibus: et
+<lb ed="#L" n="65"/>fortitudo, quae est in irascibili, praefertur 
+tempe<lb break="no" ed="#L" n="66"/>rantiae, quae est in concupiscibili quae minus
+<lb ed="#L" n="67"/>participat rationem, ut patet in VII .Ethic.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e299">
+                  <lb ed="#L" n="68"/>Alio modo potest intelligi quaestio in virtute
+<lb ed="#L" n="69"/>eiusdem speciei. Et sic, secundum ea quae dicta
+<lb ed="#L" n="70"/>sunt supra, cum de intensionibus habituum 
+age<lb break="no" ed="#L" n="71"/>retur, virtus potest dupliciter dici maior et minor:
+<lb ed="#L" n="72"/>uno modo, secundum seipsam; alio modo, ex
+<lb ed="#L" n="73"/>parte participantis subiecti. Si igitur secundum 
+se<lb break="no" ed="#L" n="74"/>ipsam consideretur, magnitudo vel parvitas eius
+<lb ed="#L" n="75"/>attenditur secundum ea ad quae se extendit. 
+Qui<lb break="no" ed="#L" n="76"/>cumque autem habet aliquam virtutem, puta 
+tem<lb break="no" ed="#L" n="77"/>perantiam, habet ipsam quantum ad omnia ad
+<lb ed="#L" n="78"/>quae se temperantia extendit. Quod de scientia
+<lb ed="#L" n="79"/>et arte non contingit: non enim quicumque est
+<lb ed="#L" n="80"/>grammaticus, scit omnia quae ad grammaticam
+<lb ed="#L" n="81"/>pertinent. Et secundum hoc bene dixerunt Stoici,
+<lb ed="#L" n="82"/>ut Simplicius dicit in. Commento 
+Praedicamento<lb break="no" ed="#L" n="83"/>rum, quod virtus non recipit magis et ? minus,
+<lb ed="#L" n="84"/>sicut scientia vel ars; eo quod ratio virtutis 
+con<lb break="no" ed="#L" n="85"/>sistit in maximo.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e341">
+                  <lb ed="#L" n="86"/>Si vero consideretur virtus ex parte subiecti
+<lb ed="#L" n="87"/>participantis, sic contingit virtutem esse maiorem
+<lb ed="#L" n="88"/>vel minorem: sive secundum diversa tempora,
+<lb ed="#L" n="89"/>in eodem; sive in diversis hominibus. Quia ad
+<lb ed="#L" n="90"/>attingendum medium virtutis, quod est secundum
+<lb ed="#L" n="91"/>rationem rectam, unus est melius dispositus quam
+<lb ed="#L" n="92"/>alius: vel propter maiorem assuetudinem, vel
+<lb ed="#L" n="93"/>propter meliorem dispositionem naturae, vel 
+pro<lb break="no" ed="#L" n="94"/>pter perspicacius iudicium rationis; aut etiam pro-
+<pb ed="#L" n="429"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>pter maius gratiae donum, quod unicuique 
+do<lb break="no" ed="#L" n="2"/>natur secundum mensuram donationis Christi, ut
+<lb ed="#L" n="3"/>dicitur ad Ephes.1v. - Et in hoc deficiebant Stoici,
+<lb ed="#L" n="4"/>aestimantes nullum esse virtuosum dicendum, nisi
+<lb ed="#L" n="5"/>qui summe fuerit dispositus ad virtutem. Non
+<lb ed="#L" n="6"/>enim exigitur ad rationem virtutis, quod attingat
+<lb ed="#L" n="7"/>rectae rationis medium in indivisibili, sicut Stoici
+<lb ed="#L" n="8"/>B o sed sufficit prope medium esse, ut in
+<lb ed="#L" n="9"/>II Ethic. dicitur. Idem etiam indivisibile signum
+<lb ed="#L" n="10"/>unus propinquius et promptius attingit quam
+<lb ed="#L" n="11"/>alius: sicut etiam patet in sagittatoribus 
+trahenti<lb break="no" ed="#L" n="12"/>bus ad certum signum.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e393">
+                  <lb ed="#L" n="13"/>AD PRIMUM ERGO DICENDUM quod aequalitas illa
+<lb ed="#L" n="14"/>non est secundum quantitatem absolutam, sed
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="15"/>est secundum proportionem intelligenda: quia
+<lb ed="#L" n="16"/>omnes virtutes proportionaliter crescunt in 
+ho<lb break="no" ed="#L" n="17"/>mine, ut infra dicetur.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e410">
+                  <lb ed="#L" n="18"/>AD SECUNDUM DICENDUM quod illud ultimum quod
+<lb ed="#L" n="19"/>pertinet ad virtutem, potest habere rationem 
+ma<lb break="no" ed="#L" n="20"/>gis vel minus boni secundum praedictos modos:
+<lb ed="#L" n="21"/>cum non sit ultimum indivisibile, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e421">
+                  <lb ed="#L" n="22"/>AD TERTIUM DICENDUM quod Deus non operatur
+<lb ed="#L" n="23"/>secundum necessitatem naturae, sed secundum
+<lb ed="#L" n="24"/>ordinem suae sapientiae: secundum quam 
+di<lb break="no" ed="#L" n="25"/>versam mensuram virtutis hominibus largitur, 
+se<lb break="no" ed="#L" n="26"/>cundum illud ad Ephes. iv: Unicuique vestrum
+<lb ed="#L" n="27"/>data est gratia secundum mensuram donationis
+<lb ed="#L" n="28"/>Christi.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1013-Dd1e441"><!-- p2p1-q66-a2 -->
+               <head xml:id="TAca84-d1e1013-Hd1e444">Articulus 2</head>
+               <head xml:id="TAca84-d1e1013-Hd1e446" type="question-title">utrum omnes virtutes simul in eodem existentes, sint aequales</head>
+               <p xml:id="TAca84-d1e1013-d1e449">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="76"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="77"/>UTRUM OMNES VIRTUTES SIMUL IN EODEM EXISTENTES, SINT AEQUALES
+</p>
+               <p xml:id="TAca84-d1e1013-d1e458">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="78"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="79"/>non omnes virtutes in uno et eodem
+<lb ed="#L" n="80"/>a sint aequaliter intensae. Dicit enim 
+Apo<lb break="no" ed="#L" n="81"/>stolus, I ad Cor. vui: Unusquisque 
+ha<lb break="no" ed="#L" n="82"/>bet proprium donum a Deo, alius quidem sic,
+<lb ed="#L" n="83"/>alius autem. sic. Non esset autem unum donum
+<lb ed="#L" n="84"/>magis proprium alicui quam aliud, si omnes 
+vir<lb break="no" ed="#L" n="85"/>tutes dono Dei infusas quilibet aequaliter haberet.
+<lb ed="#L" n="86"/>Ergo videtur quod non omnes virtutes sint 
+ae<lb break="no" ed="#L" n="87"/>quales in uno et eodem.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e484">
+                  <lb ed="#L" n="88"/>2. PRAETEREA, si omnes virtutes essent aeque
+<lb ed="#L" n="89"/>intensae in uno et eodem, sequeretur quod 
+qui<lb break="no" ed="#L" n="90"/>cumque excederet aliquem in una virtute, 
+exce<lb break="no" ed="#L" n="91"/>deret ipsum in omnibus aliis virtutibus. Sed hoc
+<lb ed="#L" n="92"/>patet esse falsum: quia diversi sancti de diversis
+<lb ed="#L" n="93"/>virtutibus praecipue laudantur; sicut Abraham de
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="94"/>fide, Moyses de mansuetudine, Iob de 
+pa<lb break="no" ed="#L" n="95"/>tientia. Unde et de quolibet Confessore cantatur
+<lb ed="#L" n="96"/>in Ecclesia: Non est inventus similis illi, qui 
+con<lb break="no" ed="#L" n="97"/>servaret legem Excelsi; eo quod quilibet habuit
+<lb ed="#L" n="98"/>praerogativam alicuius virtutis. Non ergo omnes
+<lb ed="#L" n="99"/>virtutes sunt aequales in uno et eodem.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e516">
+                  <lb ed="#L" n="100"/>3. PRAETEREA, quanto habitus est intensior, tanto
+<lb ed="#L" n="101"/>homo secundum ipsum delectabilius et promptius
+<lb ed="#L" n="102"/>operatur. Sed experimento patet quod unus homo
+<lb ed="#L" n="103"/>delectabilius et promptius operatur actum unius
+<lb ed="#L" n="104"/>virtutis quam actum alterius. Non ergo omnes
+<lb ed="#L" n="105"/>virtutes sunt aequales in uno et eodem.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e532">
+                  <lb ed="#L" n="106"/>SED CONTRA EST quod Augustinus dicit, in VI
+<lb ed="#L" n="107"/>de Trin., quod <quote xml:id="TAca84-d1e1013-Qd1e538" source="http://scta.info/resource/adt-l6-d1e801@23-37">quicumque sunt aequales in 
+for<lb break="no" ed="#L" n="108"/>titudine, aequales: sunt in prudentia et 
+temperan<lb break="no" ed="#L" n="109"/>tia</quote>; et sic de aliis: Hoc autem non esset, nisi
+<pb ed="#L" n="430"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>omnes virtutes unius hominis essent aequales.
+<lb ed="#L" n="2"/>Ergo omnes virtutes unius hominis sunt aequales.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e555">
+                  <lb ed="#L" n="3"/>RESPONDEO DICENDUM quod quantitas virtutum,
+<lb ed="#L" n="4"/>Sicut ex dictis patet, potest attendi dupliciter.
+<lb ed="#L" n="5"/>Uno modo, secundum rationem speciei. Et sic
+<lb ed="#L" n="6"/>non est dubium quod una virtus unius hominis sit
+<lb ed="#L" n="7"/>maior quam alia, sicut caritas fide et spe. - Alio
+<lb ed="#L" n="8"/>modo potest attendi secundum participationem
+<lb ed="#L" n="9"/>subiecti, prout scilicet intenditur vel remittitur in
+<lb ed="#L" n="10"/>subiecto. Et secundum hoc, omnes virtutes unius
+<lb ed="#L" n="11"/>hominis sunt aequales quadam aequalitate 
+pro<lb break="no" ed="#L" n="12"/>portionis, inquantum aequaliter crescunt in 
+ho<lb break="no" ed="#L" n="13"/>mine: sicut digiti manus sunt inaequales 
+secun<lb break="no" ed="#L" n="14"/>dum quantitatem, sed sunt aequales secundum
+<lb ed="#L" n="15"/>proportionem, cum proportionaliter augeantur.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e586">
+                  <lb ed="#L" n="16"/>Huiusmodi autem aequalitatis oportet eodem
+<lb ed="#L" n="17"/>modo rationem accipere, sicut et connexionis:
+<lb ed="#L" n="18"/>aequalitas enim est quaedam connexio virtutum
+<lb ed="#L" n="19"/>secundum quantitatem. Dictum est autem supra
+<lb ed="#L" n="20"/>quod ratio connexionis virtutum dupliciter 
+assi<lb break="no" ed="#L" n="21"/>gnari potest. Uno modo, secundum intellectum
+<lb ed="#L" n="22"/>eorum qui intelligunt per has quatuor virtutes,
+<lb ed="#L" n="23"/>quatuor conditiones generales virtutum, quarum
+<lb ed="#L" n="24"/>una simul invenitur cum aliis in qualibet materia.
+<lb ed="#L" n="25"/>Et sic 5 virtus in qualibet materia non potest 
+ae<lb break="no" ed="#L" n="26"/>qualis dici, nisi habeat omnes istas conditiones
+<lb ed="#L" n="27"/>aequales. Et hanc rationem aequalitatis virtutum
+<lb ed="#L" n="28"/>assignat Augustinus, in VI de 77in., dicens: Si
+<lb ed="#L" n="29"/>dixeris aequales esse istos fortitudine, sed illum
+<lb ed="#L" n="30"/>praestare prudentia; sequitur quod huius fortitudo
+<lb ed="#L" n="31"/>minus prudens sil. Ac per hoc, nec fortitudine 
+ae<lb break="no" ed="#L" n="32"/>quales sunt, quando est illius fortitudo 
+pruden<lb break="no" ed="#L" n="33"/>lior. Atque ita de ceteris virtutibus invenies, si
+<lb ed="#L" n="34"/>omnes. eadem consideratione percurras.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e630">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="35"/>Alio modo assignata est ratio connexionis 
+vir<lb break="no" ed="#L" n="36"/>tutum secundum eos qui intelligunt huiusmodi
+<lb ed="#L" n="37"/>virtutes habere materias determinatas. Et 
+secun<lb break="no" ed="#L" n="38"/>dum hoc, ratio connexionis virtutum moralium
+<lb ed="#L" n="39"/>accipitur ex parte prudentiae, et ex parte 
+cari<lb break="no" ed="#L" n="40"/>tatis quantum ad virtutes infusas: non autem ex
+<lb ed="#L" n="41"/>parte inclinationis, quae est ex parte subiecti, ut
+<lb ed="#L" n="42"/>supra dictum est. Sic igitur et ratio aequalitatis
+<lb ed="#L" n="43"/>virtutum potest accipi ex parte prudentiae, 
+quan<lb break="no" ed="#L" n="44"/>tum ad id quod est formale in omnibus virtutibus
+<lb ed="#L" n="45"/>moralibus: existente enim ratione aequaliter 
+per<lb break="no" ed="#L" n="46"/>fecta in uno et eodem, oportet quod 
+proportio<lb break="no" ed="#L" n="47"/>naliter secundum rationem rectam medium 
+con<lb break="no" ed="#L" n="48"/>stituatur in qualibet materia virtutum.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e665">
+                  <lb ed="#L" n="49"/>Quantum vero ad id quod est materiale in 
+vir<lb break="no" ed="#L" n="50"/>tutibus moralibus, scilicet inclinationem ? ipsam
+<lb ed="#L" n="51"/>ad actum virtutis; potest esse unus homo magis
+<lb ed="#L" n="52"/>promptus ad actum unius virtutis quam ad actum
+<lb ed="#L" n="53"/>alterius, vel ex natura, vel ex consuetudine, vel
+<lb ed="#L" n="54"/>etiam ex gratiae dono.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e682">
+                  <lb ed="#L" n="55"/>AD PRIMUM ERGO DICENDUM quod verbum 
+Apo<lb break="no" ed="#L" n="56"/>stoli potest intelligi de donis gratiae gratis datae,
+<lb ed="#L" n="57"/>quae non sunt communia omnibus, nec omnia
+<lb ed="#L" n="58"/>aequalia in uno et eodem. - Vel potest dici quod
+<lb ed="#L" n="59"/>refertur ad mensuram gratiae gratum facientis ;
+<lb ed="#L" n="60"/>secundum quam unus abundat in omnibus 
+virtu<lb break="no" ed="#L" n="61"/>tibus plus quam alius, propter maiorem 
+abun<lb break="no" ed="#L" n="62"/>dantiam prudentiae, vel etiam caritatis, in qua
+<lb ed="#L" n="63"/>connectuntur omnes virtutes infusae. -
+</p>
+               <p xml:id="TAca84-d1e1013-d1e704">
+                  <lb ed="#L" n="64"/>AD SECUNDUM DICENDUM quod unus sanctus 
+lau<lb break="no" ed="#L" n="65"/>datur praecipue de una virtute, et alius de alia,
+<lb ed="#L" n="66"/>propter excellentiorem promptitudinem ad actum
+<lb ed="#L" n="67"/>unius virtutis, quam ad actum alterius.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e715">
+                  <lb ed="#L" n="68"/>Et per hoc etiam patet responsio ad tertium.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1013-Dd1e721"><!-- p2p1-q66-a3 -->
+               <head xml:id="TAca84-d1e1013-Hd1e724">Articulus 3</head>
+               <head xml:id="TAca84-d1e1013-Hd1e726" type="question-title">utrum virtutes morales praeemineant intellectualibus</head>
+               <p xml:id="TAca84-d1e1013-d1e729">
+                  <pb ed="#L" n="431"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM VIRTUTES MORALES PRAEEMINEANT INTELLECTUALIBUS
+</p>
+               <p xml:id="TAca84-d1e1013-d1e740">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>DUAE OD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>virtutes morales praeemineant 
+intelle<lb break="no" ed="#L" n="5"/>ctualibus. Quod enim magis est 
+neces<lb break="no" ed="#L" n="6"/>sarium, et permanentius, est melius. Sed
+<lb ed="#L" n="7"/>virtutes morales sunt permanentiores etiam 
+di<lb break="no" ed="#L" n="8"/>sciplinis, quae sunt virtutes intellectuales: et sunt
+<lb ed="#L" n="9"/>etiam magis necessariae ad vitam humanam. Ergo
+<lb ed="#L" n="10"/>sunt praeferendae virtutibus intellectualibus.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e762">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, de ratione virtutis est quod 
+bo<lb break="no" ed="#L" n="12"/>num faciat habentem. Sed secundum virtutes 
+mo<lb break="no" ed="#L" n="13"/>rales dicitur homo bonus: non autem secundum
+<lb ed="#L" n="14"/>virtutes intellectuales, nisi forte secundum solam
+<lb ed="#L" n="15"/>prudentiam. Ergo virtus moralis est melior quam
+<lb ed="#L" n="16"/>intellectualis.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e779">
+                  <lb ed="#L" n="17"/>3. PRAETEREA, finis est nobilior ? his quae sunt
+<lb ed="#L" n="18"/>ad finem. Sed sicut dicitur in VI Ethic., virtus
+<lb ed="#L" n="19"/>moralis facit rectam intentionem finis; prudentia
+<lb ed="#L" n="20"/>autem. facit rectam electionem eorum quae sunt
+<lb ed="#L" n="21"/>ad finem. Ergo virtus moralis est nobilior 
+pru<lb break="no" ed="#L" n="22"/>dentia, quae est virtus intellectualis circa moralia.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e795">
+                  <lb ed="#L" n="23"/>SED coNTRa, virtus moralis est in rationali per
+<lb ed="#L" n="24"/>participationem; virtus autem intellectualis in 
+ra<lb break="no" ed="#L" n="25"/>tionali per essentiam, sicut dicitur in I .EAic.
+<lb ed="#L" n="26"/>Sed rationale per essentiam est nobilius quam
+<lb ed="#L" n="27"/>rationale per participationem. Ergo virtus 
+intel<lb break="no" ed="#L" n="28"/>lectualis est nobilior virtute morali '.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e811">
+                  <lb ed="#L" n="29"/>RESPONDEO DICENDUM quod aliquid potest dici
+<lb ed="#L" n="30"/>maius vel minus, dupliciter: uno modo, 
+simpli<lb break="no" ed="#L" n="31"/>citer; alio modo, secundum quid. Nihil enim
+<lb ed="#L" n="32"/>prohibet aliquid esse melius simpliciter, ut 
+phi<lb break="no" ed="#L" n="33"/>losophari quam ditari, quod tamen non est 
+me<lb break="no" ed="#L" n="34"/>lius secundum quid, idest necessitatem patienti.
+<lb ed="#L" n="35"/>Simpliciter autem consideratur unumquodque ,
+<lb ed="#L" n="36"/>quando consideratur secundum propriam 
+ratio<lb break="no" ed="#L" n="37"/>nem suae speciei. Habet autem virtus speciem ex
+<lb ed="#L" n="38"/>obiecto, ut ex dictis patet. Unde, simpliciter 
+lo<lb break="no" ed="#L" n="39"/>quendo, illa virtus nobilior est quae habet nobilius
+<lb ed="#L" n="40"/>obiectum. Manifestum est autem quod obiectum
+<lb ed="#L" n="41"/>rationis est nobilius quam obiectum appetitus:
+<lb ed="#L" n="42"/>ratio enim apprehendit aliquid in universali; sed
+<lb ed="#L" n="43"/>appetitus tendit in res, quae habent esse 
+particu<lb break="no" ed="#L" n="44"/>lare. Unde, simpliciter loquendo, virtutes intelle-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="45"/>ctuales, quae perficiunt rationem, sunt nobiliores
+<lb ed="#L" n="46"/>quam morales, quae perficiunt appetitum.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e855">
+                  <lb ed="#L" n="47"/>Sed si consideretur virtus in ordine ad actum,
+<lb ed="#L" n="48"/>sic virtus moralis, quae perficit appetitum, cuius
+<lb ed="#L" n="49"/>est movere alias potentias ad actum, ut supra 
+<lb ed="#L" n="50"/>dictum est, nobilior est. - Et quia virtus dicitur
+<lb ed="#L" n="51"/>ex eo quod est principium alicuius actus, cum sit
+<lb ed="#L" n="52"/>perfectio potentiae; sequitur etiam quod ratio 
+vir<lb break="no" ed="#L" n="53"/>tutis magis competat virtutibus moralibus quam
+<lb ed="#L" n="54"/>virtutibus intellectualibus: quamvis virtutes 
+intel<lb break="no" ed="#L" n="55"/>lectuales sint nobiliores habitus simpliciter.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e877">
+                  <lb ed="#L" n="56"/>AD PRIMUM ERGO DICENDUM quod virtutes 
+mo<lb break="no" ed="#L" n="57"/>rales sunt magis permanentes quam intellectuales,
+<lb ed="#L" n="58"/>propter exercitium earum in his quae pertinent
+<lb ed="#L" n="59"/>ad vitam communem. Sed manifestum est quod
+<lb ed="#L" n="60"/>obiecta disciplinarum, quae sunt necessaria et
+<lb ed="#L" n="61"/>semper eodem modo se habentia, sunt 
+perma<lb break="no" ed="#L" n="62"/>nentiora quam obiecta virtutum moralium, quae
+<lb ed="#L" n="63"/>sunt quaedam particularia agibilia. - Quod autem
+<lb ed="#L" n="64"/>virtutes morales sunt magis necessariae ad vitam
+<lb ed="#L" n="65"/>humanam, non ostendit eas esse nobiliores 
+sim<lb break="no" ed="#L" n="66"/>pliciter, sed quoad hoc. Quinimmo virtutes 
+intel<lb break="no" ed="#L" n="67"/>lectuales speculativae, ex hoc ipso quod non 
+or<lb break="no" ed="#L" n="68"/>dinantur ad aliud sicut utile ordinatur ad finem,
+<lb ed="#L" n="69"/>sunt digniores. Hoc enim contingit quia 
+secun<lb break="no" ed="#L" n="70"/>dum eas quodammodo inchoatur in nobis 
+bea<lb break="no" ed="#L" n="71"/>titudo, quae consistit in cognitione veritatis, sicut
+<lb ed="#L" n="72"/>supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e916">
+                  <lb ed="#L" n="73"/>AD SECUNDUM DICENDUM quod secundum virtutes
+<lb ed="#L" n="74"/>morales dicitur homo bonus simpliciter, et non
+<lb ed="#L" n="75"/>secundum intellectuales, ea ratione, quia 
+appe<lb break="no" ed="#L" n="76"/>titus movet alias potentias ad suum actum, ut
+<lb ed="#L" n="77"/>supra dictum est. Unde per hoc etiam non 
+pro<lb break="no" ed="#L" n="78"/>batur nisi quod virtus moralis sit melior secundum
+<lb ed="#L" n="79"/>quid.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e935">
+                  <lb ed="#L" n="80"/>AD TERTIUM DICENDUM quod prudentia non solum
+<lb ed="#L" n="81"/>dirigit virtutes morales in eligendo ea quae sunt
+<lb ed="#L" n="82"/>ad finem, sed etiam in praestituendo finem. Est
+<lb ed="#L" n="83"/>autem finis uniuscuiusque virtutis moralis 
+attin<lb break="no" ed="#L" n="84"/>gere medium in propria materia: quod quidem
+<lb ed="#L" n="85"/>medium determinatur secundum rectam rationem
+<lb ed="#L" n="86"/>prudentiae, ut dicitur in II et VI Ethic. 
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1013-Dd1e954"><!-- p2p1-q66-a4 -->
+               <head xml:id="TAca84-d1e1013-Hd1e957">Articulus 4</head>
+               <head xml:id="TAca84-d1e1013-Hd1e959" type="question-title">utrum iustitia sit praecipua inter virtutes morales</head>
+               <p xml:id="TAca84-d1e1013-d1e962">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="67"/>ARTICULUS QUARTUS
+<lb ed="#L" n="68"/>UTRUM IUSTITIA SIT PRAECIPUA INTER VIRTUTES MORALES
+</p>
+               <p xml:id="TAca84-d1e1013-d1e971">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="69"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="70"/>iustitia non sit praecipua inter virtutes
+<lb ed="#L" n="71"/>morales. Maius enim est dare alicui de
+<lb ed="#L" n="72"/>proprio, quam reddere alicui quod ei
+<lb ed="#L" n="73"/>debetur. Sed primum pertinet ad liberalitatem ;
+<lb ed="#L" n="74"/>secundum autem ad iustitiam. Ergo videtur quod
+<lb ed="#L" n="75"/>liberalitas sit maior virtus quam iustitia.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e991">
+                  <lb ed="#L" n="76"/>2. PRAETEREA, illud videtur esse maximum in
+<lb ed="#L" n="77"/>unoquoque, quod est perfectissimum in ipso. Sed
+<lb ed="#L" n="78"/>sicut dicitur lac. 1, patientia opus perfectum 
+ha<lb break="no" ed="#L" n="79"/>bet. Ergo videtur quod patientia sit maior quam
+<lb ed="#L" n="80"/>iustitia. .
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1005">
+                  <lb ed="#L" n="81"/>3. PRAETEREA, :nagnanimilas operatur magnum
+<lb ed="#L" n="82"/>in omnibus virtulibus, ut dicitur in IV Ethic.
+<lb ed="#L" n="83"/>Ergo magnificat etiam ipsam iustitiam. Est igitur
+<lb ed="#L" n="84"/>maior quam. iustitia.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1016">
+                  <lb ed="#L" n="85"/>SED CONTRA EST quod Philosophus dicit, in V
+<lb ed="#L" n="86"/>Ethic., quod iustitia est praeclarissima virtutum.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1023">
+                  <lb ed="#L" n="87"/>RrsPONDEO DICENDUM quod virtus aliqua 
+secun<lb break="no" ed="#L" n="88"/>dum suam speciem potest dici maior vel minor,
+<lb ed="#L" n="89"/>vel simpliciter, vel secundum quid. Simpliciter
+<lb ed="#L" n="90"/>quidem virtus dicitur maior, secundum quod ir
+<lb ed="#L" n="91"/>ea maius bonum rationis relucet, ut supra 
+di<lb break="no" ed="#L" n="92"/>ctum est. Et secundum hoc, iustitia inter omnes
+<lb ed="#L" n="93"/>virtutes morales praecellit, tanquam propinquior
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="94"/>rationi. Quod patet et ex subiecto, et ex obiecto.
+<lb ed="#L" n="95"/>Ex subiecto quidem, quia est in voluntate sicut
+<lb ed="#L" n="96"/>in subiecto: voluntas autem est appetitus 
+ratio<lb break="no" ed="#L" n="97"/>nalis, ut ex dictis patet. Secundum autem 
+obie<lb break="no" ed="#L" n="98"/>ctum sive materiam, quia est circa operationes,
+<lb ed="#L" n="99"/>quibus homo ordinatur non solum in seipso, sed
+<lb ed="#L" n="100"/>etiam ad alterum. Unde ustitia est praeclarissima
+<lb ed="#L" n="101"/>virlutum, ut dicitur in V Ethic. — Inter alias 
+au<lb break="no" ed="#L" n="102"/>tem virtutes morales, quae sunt circa passiones,
+<lb ed="#L" n="103"/>tanto in unaquaque magis relucet rationis bonum,
+<lb ed="#L" n="104"/>quanto circa maiora motus appetitivus subditur
+<lb ed="#L" n="105"/>rationi. Maximum autem in his quae ad hominem
+<lb ed="#L" n="106"/>pertinent, est vita, a qua omnia alia dependent.
+<lb ed="#L" n="107"/>Et ideo fortitudo, quae appetitivum motum subdit
+<lb ed="#L" n="108"/>rationi in his quae ad mortem et vitam 
+perti<lb break="no" ed="#L" n="109"/>nent, primum locum tenet inter virtutes morales
+<lb ed="#L" n="110"/>quae sunt circa passiones: tamen ordinatur infra
+<lb ed="#L" n="111"/>iustitiam. Unde Philosophus dicit, in I Rhetoric.,
+<lb ed="#L" n="112"/>quod <quote xml:id="TAca84-d1e1013-Qd1e1083">necesse est maximas esse virtutes, quae sunt
+<lb ed="#L" n="113"/>aliis honoratissimae: siquidem est virtus potentia
+<lb ed="#L" n="114"/>benefactiva. Propter hoc, fortes et iustos maxime
+<lb ed="#L" n="115"/>honorant: haec quidem enim in bello</quote>, scilicet 
+for<lb break="no" ed="#L" n="116"/>titudo; haec aulem, scilicet iustitia, et in bello et
+<lb ed="#L" n="117"/>in pace utilis est. - Post fortitudinem autem 
+or<lb break="no" ed="#L" n="118"/>dinatur temperantia, quae subiicit rationi appeti-
+<pb ed="#L" n="435"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tum circa ea quae immediate ordinantur ad 
+vi<lb break="no" ed="#L" n="2"/>tam, vel in eodem secundum numerum ^, vel
+<lb ed="#L" n="3"/>in eodem secundum speciem, scilicet in cibis et
+<lb ed="#L" n="4"/>venereis. - Et sic istae tres virtutes, simul cum
+<lb ed="#L" n="5"/>prudentia, dicuntur esse principales etiam 
+digni<lb break="no" ed="#L" n="6"/>tate.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1117">
+                  <lb ed="#L" n="7"/>Secundum quid autem dicitur aliqua virtus esse
+<lb ed="#L" n="8"/>maior, secundum quod adminiculum vel 
+orna<lb break="no" ed="#L" n="9"/>mentum praebet principali virtuti. Sicut substantia
+<lb ed="#L" n="10"/>est simpliciter dignior accidente; aliquod tamen
+<lb ed="#L" n="11"/>accidens est secundum quid dignius substantia, 
+in<lb break="no" ed="#L" n="12"/>quantum perficit substantiam in aliquo esse 
+ac<lb break="no" ed="#L" n="13"/>cidentali.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1135">
+                  <lb ed="#L" n="14"/>AD PRIMUM ERGO DICENDUM quod actus 
+liberali<lb break="no" ed="#L" n="15"/>tatis oportet quod fundetur super actum iustitiae:
+<lb ed="#L" n="16"/>non enim esset liberalis datio, si non de proprio
+<lb ed="#L" n="17"/>daret, ut in I1 Polit. dicitur. Unde liberalitas sine
+<lb ed="#L" n="18"/>iustitia esse non posset, quae secernit suum a non
+<lb ed="#L" n="19"/>suo. lustitia autem potest esse sine liberalitate.
+<lb ed="#L" n="20"/>Unde iustitia simpliciter est maior liberalitate ,
+<lb ed="#L" n="21"/>tanquam communior, et fundamentum ipsius:
+<lb ed="#L" n="22"/>liberalitas autem est secundum quid maior, cum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="23"/>sit quidam ornatus iustitiae, et supplementum
+<lb ed="#L" n="24"/>eius.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1164">
+                  <lb ed="#L" n="25"/>AD SECUNDUM DICENDUM quod patientia dicitur
+<lb ed="#L" n="26"/>habere opus perfectum in tolerantia malorum: in
+<lb ed="#L" n="27"/>quibus non solum excludit iniustam vindictam,
+<lb ed="#L" n="28"/>quam etiam excludit iustitia; neque solum odium,
+<lb ed="#L" n="29"/>quod facit caritas; neque soltinà iram, quod facit
+<lb ed="#L" n="30"/>mansuetudo; sed etiam excludit tristitiam 
+inordi<lb break="no" ed="#L" n="31"/>natam, quae est radix omnium praedictorum. Et
+<lb ed="#L" n="32"/>ideo in hoc est perfectior et maior, quod in hac
+<lb ed="#L" n="33"/>materia extirpat radicem. - Non autem est 
+sim<lb break="no" ed="#L" n="34"/>pliciter perfectior omnibus aliis virtutibus. Quia
+<lb ed="#L" n="35"/>fortitudo non solum sustinet molestias absque
+<lb ed="#L" n="36"/>perturbatione, quod est patientiae: sed etiam 
+in<lb break="no" ed="#L" n="37"/>gerit se eis, cum opus fuerit. Unde quicumque est
+<lb ed="#L" n="38"/>fortis, est patiens, sed non convertitur: est enim Y
+<lb ed="#L" n="39"/>patientia quaedam fortitudinis pars.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1200">
+                  <lb ed="#L" n="40"/>AD TERTIUM DICENDUM quod magnanimitas non
+<lb ed="#L" n="41"/>potest esse nisi aliis virtutibus praeexistentibus,
+<lb ed="#L" n="42"/>ut dicitur in IV E/hic. Unde comparatur ad alias
+<lb ed="#L" n="43"/>sicut ornatus earum. Et sic secundum quid est
+<lb ed="#L" n="44"/>maior omnibus aliis: non tamen simpliciter.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1013-Dd1e1214"><!-- p2p1-q66-a5 -->
+               <head xml:id="TAca84-d1e1013-Hd1e1217">Articulus 5</head>
+               <head xml:id="TAca84-d1e1013-Hd1e1219" type="question-title">utrum sapientia sit maxima inter virtutes intellectuales</head>
+               <p xml:id="TAca84-d1e1013-d1e1222">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="65"/>ARTICULUS QUINTUS
+<lb ed="#L" n="66"/>UTRUM SAPIENTIA SIT MAXIMA INTER VIRTUTES INTELLECTUALES
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1231">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="67"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="68"/>sapientia non sit maxima inter virtutes
+<lb ed="#L" n="69"/>intellectuales. Imperans enim maius est
+<lb ed="#L" n="70"/>eo cui imperatur. Sed prudentia 
+vide<lb break="no" ed="#L" n="71"/>tur imperare sapientiae: dicitur enim I Ethic.,
+<lb ed="#L" n="72"/>quod quales disciplinarum debitum est esse in
+<lb ed="#L" n="73"/>civitatibus, et quales unumquemque addiscere, et
+<lb ed="#L" n="74"/>usquequo, haec praeordinat, scilicet politica, quae
+<lb ed="#L" n="75"/>ad prudentiam pertinet, ut dicitur in VI Eric.
+<lb ed="#L" n="76"/>Cum igitur inter disciplinas etiam sapientia 
+con<lb break="no" ed="#L" n="77"/>tineatur, videtur quod prudentia sit maior qpám
+<lb ed="#L" n="78"/>sapientia.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1262">
+                  <lb ed="#L" n="79"/>2. PRAETEREA, de ratione virtutis est quod 
+or<lb break="no" ed="#L" n="80"/>dinet hominem ad felicitatem: est enim virtus 
+dis<lb break="no" ed="#L" n="81"/>positio perfecti ad optimum, ut dicitur in VII 
+Phy<lb break="no" ed="#L" n="82"/>Sic. Sed prudentia est recta ratio agibilium, per
+<lb ed="#L" n="83"/>quae homo ad felicitatem perducitur: sapientia
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="84"/>autem. non considerat humarios actus, quibus ad
+<lb ed="#L" n="85"/>beatitudinem pervenitur. Ergo prudentia est maior
+<lb ed="#L" n="86"/>virtus quam sapientia.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1285">
+                  <lb ed="#L" n="87"/>3. PRAETEREA, quanto cognitio ,est perfectior,
+<lb ed="#L" n="88"/>tanto videtur esse maior. Sed perfectiorem 
+cogni<lb break="no" ed="#L" n="89"/>tionem habere possumus de rebus humanis, de
+<lb ed="#L" n="90"/>quibus est scientia, quam de rebus divinis, de 
+qui<lb break="no" ed="#L" n="91"/>bus est sapientia, ut distinguit Augustinus in XII
+<lb ed="#L" n="92"/>de Trin.: quia divina incomprehensibilia sunt,
+<lb ed="#L" n="93"/>secundum illud Iob xxxvi: Ecce Deus magnus,
+<lb ed="#L" n="94"/>vincens scientiam nostram. Ergo scientia est maior
+<lb ed="#L" n="95"/>virtus quam sapientia.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1307">
+                  <lb ed="#L" n="96"/>4. PRAETEREA, cognitio principiorum est dignior
+<lb ed="#L" n="97"/>quam cognitio conclusionum. Sed sapientia 
+con<lb break="no" ed="#L" n="98"/>cludit ex principiis indemonstrabilibüs, quorum est
+<lb ed="#L" n="99"/>intellectus; sicut et aliae scientiae. Ergo 
+intelle<lb break="no" ed="#L" n="100"/>ctus est maior virtus quam sapientia.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1320">
+                  <pb ed="#L" n="436"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>SED CONTRA EST quod Philosophus dicit, in VI
+<lb ed="#L" n="2"/>Ethic., quod sapientia est sicut caput inter 
+vir<lb break="no" ed="#L" n="3"/>tutes intellectuales.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1333">
+                  <lb ed="#L" n="4"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="5"/>magnitudo virtutis secundum suam speciem, 
+con<lb break="no" ed="#L" n="6"/>sideratur ex obiecto. Obiectum autem sapientiae
+<lb ed="#L" n="7"/>praecellit inter obiecta omnium virtutum 
+intelle<lb break="no" ed="#L" n="8"/>ctualium: considerat enim causam altissimam,
+<lb ed="#L" n="9"/>quae Deus est, ut dicitur in principio Metaphys.
+<lb ed="#L" n="10"/>Et quia per causam iudicatur de effectu, et per
+<lb ed="#L" n="11"/>causam superiorem de causis inferioribus; inde
+<lb ed="#L" n="12"/>est quod sapientia habet iudicium de omnibus
+<lb ed="#L" n="13"/>aliis virtutibus intellectualibus; et eius est ordinare
+<lb ed="#L" n="14"/>omnes; et ipsa est quasi architectonica respectu
+<lb ed="#L" n="15"/>omnium.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1362">
+                  <lb ed="#L" n="16"/>AD PRIMUM ERGO DICENDUM quod, cum prudentia
+<lb ed="#L" n="17"/>sit circa res humanas, sapientia vero circa 
+cau<lb break="no" ed="#L" n="18"/>sam altissimam ; impossibile est quod prudentia
+<lb ed="#L" n="19"/>sit maior virtus quam sapientia, nisi, ut dicitur in
+<lb ed="#L" n="20"/>VI Ethic. <quote xml:id="TAca84-d1e1013-Qd1e1375">maximum eorum quae sunt in mundo,
+<lb ed="#L" n="21"/>esset homo</quote>. Unde dicendum est, sicut in eodem
+<lb ed="#L" n="22"/>libro dicitur, quod prudentia non imperat ipsi
+<lb ed="#L" n="23"/>sapientiae, sed potius e converso: quia spiritualis
+<lb ed="#L" n="24"/>iudicat omnia, et ipse a nemine iudicatur, ut 
+di<lb break="no" ed="#L" n="25"/>citur I ad Cor. 1. Non enim prudentia habet se
+<lb ed="#L" n="26"/>intromittere de altissimis, quae considerat 
+sapien<lb break="no" ed="#L" n="27"/>tia: sed imperat de his quae ordinantur ad 
+sapien<lb break="no" ed="#L" n="28"/>tiam, scilicet quomodo homines debeant ad 
+sa<lb break="no" ed="#L" n="29"/>pientiam pervenire. Unde in hoc est prudentia, seu
+<lb ed="#L" n="30"/>politica, ministra sapientiae: introducit enim ad
+<lb ed="#L" n="31"/>eam, praeparans ei viam, sicut ostiarius ad regem.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1402">
+                  <lb ed="#L" n="32"/>AD SECUNDUM DICENDUM quod prudentia 
+conside<lb break="no" ed="#L" n="33"/>rat ea quibus pervenitur ad felicitatem: sed 
+sa<lb break="no" ed="#L" n="34"/>pientia considerat ipsum obiectum felicitatis, quod
+<lb ed="#L" n="35"/>est altissimum intelligibile. Et si quidem esset 
+per<lb break="no" ed="#L" n="36"/>fecta consideratio sapientiae respectu sui obiecti,
+<lb ed="#L" n="37"/>esset perfecta felicitas in actu sapientiae. Sed quia
+<lb ed="#L" n="38"/>actus sapientiae in hac vita est imperfectus 
+re<lb break="no" ed="#L" n="39"/>spectu principalis obiecti, quod est Deus; ideo
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="40"/>actus sapientiae est quaedam inchoatio seu 
+par<lb break="no" ed="#L" n="41"/>ticipatio futurae felicitatis. Et sic propinquius se
+<lb ed="#L" n="42"/>habet ad felicitatem quam prudentia.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1432">
+                  <lb ed="#L" n="43"/>AD TERTIUM DICENDUM quod, sicut Philosophus
+<lb ed="#L" n="44"/>dicit, in I de Anima, una notitia praefertur -.
+<lb ed="#L" n="45"/>alteri aut ex eo quod est nobiliorum, aut propter
+<lb ed="#L" n="46"/>certitudinem. Si igitur subiecta sint aequalia in
+<lb ed="#L" n="47"/>bonitate et nobilitate, illa quae est certior, erit
+<lb ed="#L" n="48"/>maior virtus. Sed illa quae est minus certa de
+<lb ed="#L" n="49"/>altioribus et maioribus, praefertur ei quae est
+<lb ed="#L" n="50"/>magis certa de inferioribus rebus. Unde 
+Philoso<lb break="no" ed="#L" n="51"/>phus dicit, in II de Caelo, quod magnum est de
+<lb ed="#L" n="52"/>rebus caelestibus aliquid posse cognoscere etiam
+<lb ed="#L" n="53"/>debili et topica ratione. Et in I de Partibus 
+Ani<lb break="no" ed="#L" n="54"/>mal., dicit quod amabile est magis parvum 
+ali<lb break="no" ed="#L" n="55"/>quid cognoscere de rebus nobilioribus, quam multa
+<lb ed="#L" n="56"/>cognoscere de rebus ignobilioribus. - Sapientia
+<lb ed="#L" n="57"/>igitur, ad quam pertinet Dei cognitio, homini,
+<lb ed="#L" n="58"/>maxime in statu huius vitae, non potest perfecte
+<lb ed="#L" n="59"/>advenire, ut sit quasi eiüs possessio; sed Aoc 
+so<lb break="no" ed="#L" n="60"/>lius Dei est, ut dicitur in I Metaphys. Sed tamen
+<lb ed="#L" n="61"/>illa modica cognitio quae per sapientiam de Deo
+<lb ed="#L" n="62"/>haberi potest, omni alii cognitioni praefertur.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1478">
+                  <lb ed="#L" n="63"/>AD QUARTUM DICENDUM quod veritas et cognitio
+<lb ed="#L" n="64"/>principiorum indemonstrabilium dependet ex 
+ra<lb break="no" ed="#L" n="65"/>tione terminorum: cognito enim quid est totum
+<lb ed="#L" n="66"/>et quid pars, statim cognoscitur quod omne 
+to<lb break="no" ed="#L" n="67"/>tum est maius sua parte. Cognoscere autem 
+ra<lb break="no" ed="#L" n="68"/>tionem entis et non entis, et totius et partis, et
+<lb ed="#L" n="69"/>aliorum quae consequuntur ad ens, ex quibus
+<lb ed="#L" n="70"/>sicut ex terminis constituuntur principia 
+indemon<lb break="no" ed="#L" n="71"/>strabilia, pertinet ad sapientiam: quia ens 
+com<lb break="no" ed="#L" n="72"/>mune est proprius effectus causae altissimae, 
+sci<lb break="no" ed="#L" n="73"/>licet Dei. Et ideo sapientia non solum utitur
+<lb ed="#L" n="74"/>principiis indemonstrabilibus, quorum est 
+intelle<lb break="no" ed="#L" n="75"/>ctus, concludendo ex eis, sicut aliae ? scientiae;
+<lb ed="#L" n="76"/>sed etiam iudicando de eis, et disputando contra
+<lb ed="#L" n="77"/>negantes. Unde sequitur quod sapientia sit maior
+<lb ed="#L" n="78"/>virtus quam intellectus.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1013-Dd1e1516"><!-- p2p1-q66-a6 -->
+               <head xml:id="TAca84-d1e1013-Hd1e1519">Articulus 6</head>
+               <head xml:id="TAca84-d1e1013-Hd1e1521" type="question-title">utrum caritas sit maxima inter virtutes theologicas</head>
+               <p xml:id="TAca84-d1e1013-d1e1524">
+                  <pb ed="#L" n="437"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SEXTUS
+<lb ed="#L" n="2"/>UTRUM CARITAS SIT MAXIMA INTER VIRTUTES THEOLOGICAS
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1535">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>caritas non sit maxima inter virtutes
+<lb ed="#L" n="5"/>theologicas. Cum enim fides sit in 
+in<lb break="no" ed="#L" n="6"/>tellectu, spes autem et caritas in vi 
+ap<lb break="no" ed="#L" n="7"/>petitiva, ut supra dictum est; videtur quod fides
+<lb ed="#L" n="8"/>comparetur ad spem et caritatem, sicut virtus
+<lb ed="#L" n="9"/>intellectualis ad moralem. Sed virtus intellectualis
+<lb ed="#L" n="10"/>est maior morali, ut ex dictis patet. Ergo fides
+<lb ed="#L" n="11"/>est maior spe et caritate.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1559">
+                  <lb ed="#L" n="12"/>2. PRAETEREA, quod se habet ex additione ad
+<lb ed="#L" n="13"/>aliud, videtur esse maius eo. Sed spes, ut 
+vide<lb break="no" ed="#L" n="14"/>tur, se habet ex additione ad caritatem: 
+praesup<lb break="no" ed="#L" n="15"/>ponit enim spes amorem, ut Augustinus dicit in
+<lb ed="#L" n="16"/>Enchirid.; addit autem ? quendam motum 
+pro<lb break="no" ed="#L" n="17"/>tensionis in rem amatam. Ergo spes est maior
+<lb ed="#L" n="18"/>caritate.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1578">
+                  <lb ed="#L" n="19"/>3. PRAETEREA, causa est potior effectu. Sed fides
+<lb ed="#L" n="20"/>et spes sunt causa caritatis: dicitur enim Matth. i,
+<lb ed="#L" n="21"/>in Glossa, quod fides generat spem, et spes 
+ca<lb break="no" ed="#L" n="22"/>ritatem. Ergo fides et spes sunt maiores caritate.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1589">
+                  <lb ed="#L" n="23"/>SED CONTRA EST quod Apostolus dicit, I ad
+<lb ed="#L" n="24"/>Cor. xut: <quote xml:id="TAca84-d1e1013-Qd1e1595">Nunc autem manent fides, Spes, 
+ca<lb break="no" ed="#L" n="25"/>ritas, tria haec; maior autem horum est caritas</quote>.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1601">
+                  <lb ed="#L" n="26"/>REsPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="27"/>est, magnitudo virtutis secundum suam speciem,
+<lb ed="#L" n="28"/>consideratur ex obiecto. Cum autem tres virtutes
+<lb ed="#L" n="29"/>theologicae respiciant Deum sicut proprium 
+obie<lb break="no" ed="#L" n="30"/>ctum, non potest una earum dici maior altera ex
+<lb ed="#L" n="31"/>hoc quod sit circa maius obiectum; sed ex eo
+<lb ed="#L" n="32"/>quod una se habet propinquius ad obiectum quam
+<lb ed="#L" n="33"/>alia. Et hoc modo caritas est maior aliis. Nam
+<lb ed="#L" n="34"/>aliae important in sui ratione quandam distantiam
+<lb ed="#L" n="35"/>ab obiecto: est enim fides de non visis, spes
+<lb ed="#L" n="36"/>autem de non habitis. Sed amor caritatis est de
+<lb ed="#L" n="37"/>eo quod iam habetur: est enim amatum 
+quo<lb break="no" ed="#L" n="38"/>dammodo in amante, et etiam amans per 
+affe<lb break="no" ed="#L" n="39"/>ctum trahitur ad unionem amati; propter quod
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="40"/>dicitur I Ioan. iv: Qui manet in caritate, in Deo
+<lb ed="#L" n="41"/>manet, et Deus in eo.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1640">
+                  <lb ed="#L" n="42"/>AD PRIMUM ERGO DICENDUM quod non hoc modo
+<lb ed="#L" n="43"/>se habent fides et spes ad caritatem, sicut pru- Y
+<lb ed="#L" n="44"/>dentia ad virtutem moralem. Et hoc propter duo.
+<lb ed="#L" n="45"/>Primo quidem, quia virtutes theologicae habent
+<lb ed="#L" n="46"/>obiectum quod est supra animam humanam: sed
+<lb ed="#L" n="47"/>prudentia et virtutes morales sunt circa ea quae
+<lb ed="#L" n="48"/>sunt infra hominem. In his autem quae sunt 
+su<lb break="no" ed="#L" n="49"/>pra hominem, nobilior est dilectio quam cognitio.
+<lb ed="#L" n="50"/>Perficitur enim cognitio, secundum quod cognita
+<lb ed="#L" n="51"/>sunt in cognoscente: dilectio vero, secundum quod
+<lb ed="#L" n="52"/>diligens trahitur ad rem dilectam. Id autem quod p. zx.
+<lb ed="#L" n="53"/>est supra hominem, nobilius est in seipso quam —
+<lb ed="#L" n="54"/>sit in homine: quia unumquodque est in altero
+<lb ed="#L" n="55"/>per modum eius in quo est. E converso autem
+<lb ed="#L" n="56"/>est in his quae sunt infra hominem. - Secundo,
+<lb ed="#L" n="57"/>quia prudentia moderatur motus appetitivos ad
+<lb ed="#L" n="58"/>morales virtutes pertinentes: sed fides non 
+mo<lb break="no" ed="#L" n="59"/>deratur motum appetitivum tendentem in Deum,
+<lb ed="#L" n="60"/>qui pertinet ad virtutes theologicas; sed solum
+<lb ed="#L" n="61"/>ostendit obiectum. Motus autem appetitivus ? in à
+<lb ed="#L" n="62"/>obiectum, excedit cognitionem humanam ; 
+secun<lb break="no" ed="#L" n="63"/>dum illud ad Ephes. 11: supereminentem 
+scien<lb break="no" ed="#L" n="64"/>tiae caritatem Christi.
+</p>
+               <p xml:id="TAca84-d1e1013-d1e1692">
+                  <lb ed="#L" n="65"/>AD SECUNDUM. DICENDUM quod spes praesupponit
+<lb ed="#L" n="66"/>amorem eius quod quis adipisci se sperat, qui est
+<lb ed="#L" n="67"/>amor concupiscentiae: quo quidem amore magis
+<lb ed="#L" n="68"/>se amat qui concupiscit bonum, quam aliquid x
+<lb ed="#L" n="69"/>aliud. Caritas autem importat amorem amicitiae,
+<lb ed="#L" n="70"/>ad quam pervenitur spe 5, ut supra dictum est. 
+<lb ed="#L" n="71"/>AD TERTIUM DICENDUM quod causa perficiens est
+<lb ed="#L" n="72"/>potior effectu: non autem causa disponens. Sic
+<lb ed="#L" n="73"/>enim calor ignis esset potior quam anima, ad
+<lb ed="#L" n="74"/>quam disponit materiam : quod patet esse falsum.
+<lb ed="#L" n="75"/>Sic autem fides generat spem, et spes caritatem :
+<lb ed="#L" n="76"/>secundum scilicet quod uná disponit ad alteram.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

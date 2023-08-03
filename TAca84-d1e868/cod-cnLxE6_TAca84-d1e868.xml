@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 38</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 38</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="257"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e868"><!-- p2p1-q38 -->
+            <head xml:id="TAca84-d1e868-Hd1e99">Quaestio 38</head>
+            <head xml:id="TAca84-d1e868-Hd1e101" type="question-title">de remediis tristitiae, seu doloris</head>
+            <p xml:id="TAca84-d1e868-d1e104">
+               <pb ed="#L" n="257"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO TRIGESIMAOCTAVA
+<lb ed="#L" n="2"/>DE REMEDIIS TRISTITIAE,SEU DOLORIS
+<lb ed="#L" n="3"/>IN QUINQUE ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e868-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est
+<lb ed="#L" n="5"/>seu tristitiae. TM
+<lb ed="#L" n="6"/>Et circa hoc quaeruntur quinque.
+<lb ed="#L" n="7"/>Primo: utrum dolor vel tristitia mitigetur per
+<lb ed="#L" n="8"/>quamlibet delectationem.
+<lb ed="#L" n="9"/>de remediis doloris
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="10"/>Secundo: utrum mitigetur per fletum.
+<lb ed="#L" n="11"/>Tertio: utrum. per compassionem amicorum.
+<lb ed="#L" n="12"/>Quarto: utrum per contemplationem veritatis.
+<lb ed="#L" n="13"/>Quinto: utrum per somnum et balnea.
+</p>
+            <div xml:id="TAca84-d1e868-Dd1e146"><!-- p2p1-q38-a1 -->
+               <head xml:id="TAca84-d1e868-Hd1e149">Articulus 1</head>
+               <head xml:id="TAca84-d1e868-Hd1e151" type="question-title">utrum dolor vel tristitia mitigetur per quamlibet delectationem</head>
+               <p xml:id="TAca84-d1e868-d1e154">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>ARTICULUS PRIMUS
+<lb ed="#L" n="15"/>UTRUM DOLOR VEL TRISTITIA MITIGETUR PER QUAMLIBET DELECTATIONEM
+</p>
+               <p xml:id="TAca84-d1e868-d1e163">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="16"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="17"/>non quaelibet delectatio mitiget 
+quem<lb break="no" ed="#L" n="18"/>libet dolorem seu tristitiam. Non enim
+<lb ed="#L" n="19"/>delectatio tristitiam mitigat, nisi 
+inquan<lb break="no" ed="#L" n="20"/>tum ei contrariatur: medicinae enim fiunt per 
+con<lb break="no" ed="#L" n="21"/>traria, ut dicitur in II Ethic. Sed non quaelibet
+<lb ed="#L" n="22"/>delectatio contrariatur cuilibet tristitiae, ut supra
+<lb ed="#L" n="23"/>dictum est. Ergo non quaelibet delectatio mitigat
+<lb ed="#L" n="24"/>quamlibet tristitiam.
+</p>
+               <p xml:id="TAca84-d1e868-d1e187">
+                  <lb ed="#L" n="25"/>2. PRAETEREA, illud quod causat tristitiam, non
+<lb ed="#L" n="26"/>mitigat tristitiam. Sed aliquae delectationes 
+cau<lb break="no" ed="#L" n="27"/>sant tristitiam: quia, ut dicitur in IX Ethic.,
+<lb ed="#L" n="28"/>malus tristatur quoniam delectatus est. Non ergo
+<lb ed="#L" n="29"/>omnis delectatio mitigat tristitiam.
+</p>
+               <p xml:id="TAca84-d1e868-d1e201">
+                  <lb ed="#L" n="30"/>3. PRAETEREA, Augustinus dicit, in IV Confess.,
+<lb ed="#L" n="31"/>quod ipse fugit de patria, in qua conversari 
+so<lb break="no" ed="#L" n="32"/>litus érat cum amico suo iam mortuo: minus
+<lb ed="#L" n="33"/>enim. quaerebant eum ? oculi eius, ubi videre non
+<lb ed="#L" n="34"/>solebant. Ex quo accipi potest quod illa in quibus
+<lb ed="#L" n="35"/>nobis amici mortui vel absentes 
+communicave<lb break="no" ed="#L" n="36"/>runt, efficiuntur nobis, de eorum morte vel 
+ab<lb break="no" ed="#L" n="37"/>sentia dolentibus, onerosa. Sed maxime 
+commu<lb break="no" ed="#L" n="38"/>nicaverunt nobis in delectationibus. Ergo ipsae
+<lb ed="#L" n="39"/>delectationes efficiuntur nobis dolentibus 
+onero<lb break="no" ed="#L" n="40"/>sae. Non ergo quaelibet delectatio mitigat 
+quam<lb break="no" ed="#L" n="41"/>libet tristitiam.
+</p>
+               <p xml:id="TAca84-d1e868-d1e230">
+                  <lb ed="#L" n="42"/>SED CONTRA EST quod Philosophus dicit, in VII
+<lb ed="#L" n="43"/>Ethic., quod expellit delectatio tristitiam, et quae
+<lb ed="#L" n="44"/>contraria, et quae contingens, si sit fortis.
+</p>
+               <p xml:id="TAca84-d1e868-d1e239">
+                  <lb ed="#L" n="45"/>RESPONDEO DICENDUM quod, sicut ex praedictis
+<lb ed="#L" n="46"/>patet, delectatio est quaedam quies appetitus in
+<lb ed="#L" n="47"/>bono convenienti; tristitia autem est ex eo quod
+<lb ed="#L" n="48"/>repugnat appetitui. Unde sic se habet delectatio ad
+<lb ed="#L" n="49"/>tristitiam in motibus appetitivis, sicut ! se habet
+<lb ed="#L" n="50"/>in corporibus quies. ad fatigationem, quae accidit
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="51"/>ex aliqua transmutatione innaturali: nam et ipsa
+<lb ed="#L" n="52"/>tristitia fatigationem quandam, seu aegritudinem
+<lb ed="#L" n="53"/>appetitivae virtutis importat. Sicut igitur 
+quaeli<lb break="no" ed="#L" n="54"/>bet quies corporis remedium affert contra 
+quam<lb break="no" ed="#L" n="55"/>libet fatigationem, ex quacumque causa innaturali
+<lb ed="#L" n="56"/>provenientem; ita quaelibet delectatio remedium
+<lb ed="#L" n="57"/>affert ad mitigandam quamlibet tristitiam, ex 
+quo<lb break="no" ed="#L" n="58"/>cumque procedat.
+</p>
+               <p xml:id="TAca84-d1e868-d1e274">
+                  <lb ed="#L" n="59"/>AD PRIMUM ERGO DICENDUM quod, licet non omnis
+<lb ed="#L" n="60"/>delectatio contrarietur omni tristitiae secundum
+<lb ed="#L" n="61"/>speciem, contrariatur tamen secundum genus, ut
+<lb ed="#L" n="62"/>supra dictum est. Et ideo ex parte 
+dispositio<lb break="no" ed="#L" n="63"/>nis subiecti, quaelibet tristitia per quamlibet 
+de<lb break="no" ed="#L" n="64"/>lectationem mitigari potest.
+</p>
+               <p xml:id="TAca84-d1e868-d1e290">
+                  <lb ed="#L" n="65"/>AD SECUNDUM DICENDUM quod delectationes 
+ma<lb break="no" ed="#L" n="66"/>lorum non causant tristitiam in praesenti, sed in
+<lb ed="#L" n="67"/>futuro: inquantum scilicet mali poenitent de malis
+<lb ed="#L" n="68"/>de quibus laetitiam habuerunt. Et huic tristitiae
+<lb ed="#L" n="69"/>subvenitur per contrarias delectationes.
+</p>
+               <p xml:id="TAca84-d1e868-d1e303">
+                  <lb ed="#L" n="70"/>AD TERTIUM DICENDUM quod, quando sunt duae
+<lb ed="#L" n="71"/>causae ad contrarios motus inclinantes, utraque
+<lb ed="#L" n="72"/>alteram impedit: et tamen illa finaliter vincit,
+<lb ed="#L" n="73"/>quae fortior est et diuturnior. In eo autem qui
+<lb ed="#L" n="74"/>tristatur de his 1n quibus simul cum amico 
+mor<lb break="no" ed="#L" n="75"/>tuo vel absente delectari consuevit, duae causae
+<lb ed="#L" n="76"/>in contrarium moventes ? inveniuntur. Nam mors
+<lb ed="#L" n="77"/>vel absentia amici recogitata, inclinat ad dolorem:
+<lb ed="#L" n="78"/>bonum autem praesens inclinat ad delectationem.
+<lb ed="#L" n="79"/>Unde utrumque per alterum minuitur. Sed tamen,
+<lb ed="#L" n="80"/>quia fortius movet sensus praesentis quam 
+me<lb break="no" ed="#L" n="81"/>moria praeteriti, et amor sui ipsius quam amor
+<lb ed="#L" n="82"/>alterius diuturnius manet; inde est quod finaliter
+<lb ed="#L" n="83"/>delectatio tristitiam expellit. Unde post pauca 
+sub<lb break="no" ed="#L" n="84"/>dit ibidem Augustinus quod pristinis generibus
+<lb ed="#L" n="85"/>delectationum cedebat dolor eius.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e868-Dd1e342"><!-- p2p1-q38-a2 -->
+               <head xml:id="TAca84-d1e868-Hd1e345">Articulus 2</head>
+               <head xml:id="TAca84-d1e868-Hd1e347" type="question-title">ad utrum dolor vel tristitia mitigetur per fletum</head>
+               <p xml:id="TAca84-d1e868-d1e350">
+                  <pb ed="#L" n="258"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>AD UTRUM DOLOR VEL TRISTITIA MITIGETUR PER FLETUM
+</p>
+               <p xml:id="TAca84-d1e868-d1e361">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>fletus non mitiget tristitiam. Nullus enim
+<lb ed="#L" n="5"/>effectus diminuit suam causam. Sed 
+fle<lb break="no" ed="#L" n="6"/>tus, vel gemitus, est effectus tristitiae.
+<lb ed="#L" n="7"/>Ergo non minuit tristitiam.
+</p>
+               <p xml:id="TAca84-d1e868-d1e377">
+                  <lb ed="#L" n="8"/>2. PRAETEREA, sicut fletus vel gemitus est 
+effe<lb break="no" ed="#L" n="9"/>ctus tristitiae, ita risus est effectus laetitiae. Sed
+<lb ed="#L" n="10"/>risus non minuit laetitiam. Ergo. fletus, non .
+mi<lb break="no" ed="#L" n="11"/>tgat tristitiam.
+</p>
+               <p xml:id="TAca84-d1e868-d1e389">
+                  <lb ed="#L" n="12"/>3. PRAETEREA, in fletu repraesentatur nobis 
+ma<lb break="no" ed="#L" n="13"/>lum contristans. Sed imaginatio rei contristantis
+<lb ed="#L" n="14"/>auget tristitiam: sicut imaginatio rei delectantis
+<lb ed="#L" n="15"/>auget laetitiam. Ergo videtur quod fletus non
+<lb ed="#L" n="16"/>mitiget tristitiam.
+</p>
+               <p xml:id="TAca84-d1e868-d1e402">
+                  <lb ed="#L" n="17"/>SED coNrRA, EsT quod Augustinus. dicit, in. IV
+<lb ed="#L" n="18"/>Confess., quod quando dolebat de morte amici,
+<lb ed="#L" n="19"/>in solis gemitibus et lacrymis erat ei aliquantula
+<lb ed="#L" n="20"/>requies.
+</p>
+               <p xml:id="TAca84-d1e868-d1e413">
+                  <lb ed="#L" n="21"/>RxsPoNpEO, DICENDUM. quod lacrymae. et gemitus
+<lb ed="#L" n="22"/>naturaliter mitigant tristitiam. Et hoc duplici 
+ra<lb break="no" ed="#L" n="23"/>tione. Primo quidem, quia omne nocivum 
+inte<lb break="no" ed="#L" n="24"/>rius clausum magis affligit, quia magis 
+multipli<lb break="no" ed="#L" n="25"/>catur intentio animae circa ipsum: sed quando
+<lb ed="#L" n="26"/>ad exteriora diffunditur, tunc. animae intentio ad
+<lb ed="#L" n="27"/>exteriora quodammodo disgregatur, et sic interior
+<lb ed="#L" n="28"/>dolor minuitur. Et propter hoc, quando homines
+<lb ed="#L" n="29"/>qui sunt in tristitiis, exterius suam tristitiam 
+ma<lb break="no" ed="#L" n="30"/>nifestant vel fletu aut gemitu, vel etiam verbo;
+<lb ed="#L" n="31"/>mitigatur tristitia. - Secundo, quia semper 
+opera<lb break="no" ed="#L" n="32"/>tio. conyeniens homini secundum dispositionem
+<lb ed="#L" n="33"/>in qua est, sibi est delectabilis. Fletus autem et
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="34"/>gemitus sunt quaedam Bees: convenientes
+<lb ed="#L" n="35"/>tristato. vel. dolenti. Et ideo efficiuntur ei 
+dele<lb break="no" ed="#L" n="36"/>ctabiles. Cum igitur omnis delectatio aliqualiter
+<lb ed="#L" n="37"/>mitiget tristitiam . vel Holamm; ut dictum. est.,
+<lb ed="#L" n="38"/>sequitur quod per planctum ? et gemitum tristitia sax 3
+<lb ed="#L" n="39"/>mitigetur.
+</p>
+               <p xml:id="TAca84-d1e868-d1e459">
+                  <lb ed="#L" n="40"/>AD PRIMUM. ERGO. DICENDUM quod. ipsa habitudo
+<lb ed="#L" n="41"/>causae ad effectum | contrariatur habitudini 
+con<lb break="no" ed="#L" n="42"/>tristantis ad contristatum: nam omnis effectus est
+<lb ed="#L" n="43"/>conveniens suae causae, et per consequens est ei
+<lb ed="#L" n="44"/>delectabilis; contristans autem contrariatur 
+contri<lb break="no" ed="#L" n="45"/>stato. Et ideo effectus tristitiae habet contrariam
+<lb ed="#L" n="46"/>habitudinem ad contristatum, quam contristans
+<lb ed="#L" n="47"/>ad ipsum. Et propter hoc, mitigatur tristitia per
+<lb ed="#L" n="48"/>effectum tristitiae, ratione contrarietatis praedictae.
+</p>
+               <p xml:id="TAca84-d1e868-d1e481">
+                  <lb ed="#L" n="49"/>AD. SECUNDUM DICENDUM quod habitudo effectus
+<lb ed="#L" n="50"/>ad causam est similis habitudini delectantis ad
+<lb ed="#L" n="51"/>delectatum: quia. utrobique, convenientia 
+inveni<lb break="no" ed="#L" n="52"/>tur. Omne autem simile auget suum. simile. Et
+<lb ed="#L" n="53"/>ideo per risum et alios effectus laetitiae augetur
+<lb ed="#L" n="54"/>laetitia: nisi forte per accidens, propter 
+ex<lb break="no" ed="#L" n="55"/>cessum.
+</p>
+               <p xml:id="TAca84-d1e868-d1e499">
+                  <lb ed="#L" n="56"/>AD TERTIUM DICENDUM quod imaginatio rei 
+con<lb break="no" ed="#L" n="57"/>tristantis, quantum est de se, nata est augere 
+tri<lb break="no" ed="#L" n="58"/>stitiam: sed ex hoc ipso quod homo imaginatur
+<lb ed="#L" n="59"/>quod facit. illud quod. convenit sibi secundum
+<lb ed="#L" n="60"/>talem statum, consurgit inde quaedam delectatio.
+<lb ed="#L" n="61"/>Et eadem ratione, si alicui subrepat risus in statu
+<lb ed="#L" n="62"/>in quo videtur sibi esse lugendum, ex hoc ipso
+<lb ed="#L" n="63"/>dolet, tanquam. faciat id quod. non convenit, ut
+<lb ed="#L" n="64"/>Tullius. dicit, in III. de Tuscul. Quaestionibus.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e868-Dd1e522"><!-- p2p1-q38-a3 -->
+               <head xml:id="TAca84-d1e868-Hd1e525">Articulus 3</head>
+               <head xml:id="TAca84-d1e868-Hd1e527" type="question-title">utrum dolor et tristitia mitigentur per compassionem amicorum</head>
+               <p xml:id="TAca84-d1e868-d1e530">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="65"/>ARTICULUS TERTIUS
+<lb ed="#L" n="66"/>UTRUM DOLOR ET TRISTITIA MITIGENTUR PER COMPASSIONEM AMICORUM
+</p>
+               <p xml:id="TAca84-d1e868-d1e539">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="67"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="68"/>dolor amici. compatientis non mitiget
+<lb ed="#L" n="69"/>tristitiam. Contrariorum enim contrarii
+<lb ed="#L" n="70"/>sunt effectus. Sed sicut Augustinus dicit,
+<lb ed="#L" n="71"/>VIII Confess.: <quote xml:id="TAca84-d1e868-Qd1e554">Quando cum multis gaudetur, in
+<lb ed="#L" n="72"/>singulis uberius est gaudium. quia fervere faciunt
+<lb ed="#L" n="73"/>se, et inflammantur ex alterutro</quote>. Ergo, pari 
+ra<lb break="no" ed="#L" n="74"/>tione, quando . multi simul. tristantur, videtur
+<lb ed="#L" n="75"/>quod sit maior tristitia.
+</p>
+               <p xml:id="TAca84-d1e868-d1e566">
+                  <lb ed="#L" n="76"/>2. PRAETEREA, hoc requirit amicitia, ut amoris
+<lb ed="#L" n="77"/>vicem quis rependat, ut Augustinus dicit, IV 
+Con<lb break="no" ed="#L" n="78"/>fess. Sed amicus condolens dolet de dolore
+<lb ed="#L" n="79"/>amici dolentis. Ergo ipse dolor amici 
+condolen<lb break="no" ed="#L" n="80"/>tis est causa amico prius dolenti de propum malo,
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="81"/>alterius doloris. Et sic, duplicato dolore, videtur
+<lb ed="#L" n="82"/>tristitia crescere.
+</p>
+               <p xml:id="TAca84-d1e868-d1e587">
+                  <lb ed="#L" n="83"/>3. PRAETEREA, omne malum amici est 
+cofitri<lb break="no" ed="#L" n="84"/>stans, sicut et malum proprium: nam armücus est
+<lb ed="#L" n="85"/>alter ipse, Sed dolor est quoddam malum. Ergo
+<lb ed="#L" n="86"/>dolor amici condolentis auget tristitiam amico
+<lb ed="#L" n="87"/>cui. condoletur.
+</p>
+               <p xml:id="TAca84-d1e868-d1e600">
+                  <lb ed="#L" n="88"/>SED CONTRA EST quod Philosophus dicit, in. IX
+<lb ed="#L" n="89"/>Ethic., quod in tristitiis amicus condolens 
+con<lb break="no" ed="#L" n="90"/>solatur. :
+</p>
+               <p xml:id="TAca84-d1e868-d1e609">
+                  <lb ed="#L" n="91"/>RESPONDEO DICENDUM quod. naturaliter amicus
+<lb ed="#L" n="92"/>condolens in tristitiis, est consolativus. Cuius 
+du<lb break="no" ed="#L" n="93"/>plicem rationem tangit Philosophus in IX Erhic.
+<lb ed="#L" n="94"/>Quarum p est quia, cum ad tristitiam per-
+<pb ed="#L" n="259"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tineat aggravare, habet rationem cuiusdam 
+one<lb break="no" ed="#L" n="2"/>ris, a quo aliquis aggravatus alleviari conatur.
+<lb ed="#L" n="3"/>Cum ergo aliquis videt de sua tristitia alios 
+con<lb break="no" ed="#L" n="4"/>tristatos, fit ei quasi quaedam imaginatio quod
+<lb ed="#L" n="5"/>illud onus alii. cum ipso ferant, quasi conantes ad
+<lb ed="#L" n="6"/>ipsum ab onere alleviandum, et ideo levius fert
+<lb ed="#L" n="7"/>tristitiae onus: sicut etiam in portandis oneribus
+<lb ed="#L" n="8"/>corporalibus contingit. - Secunda ratio, et melior,
+<lb ed="#L" n="9"/>est quia per hoc quod amici contristantur ei,
+<lb ed="#L" n="10"/>percipit se ab. eis amari; quod est delectabile, ut
+<lb ed="#L" n="11"/>supra dictum est. Unde, cum omnis delectatio
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="12"/>mitiget tristitiam, sicut supra dictum est, sequitur
+<lb ed="#L" n="13"/>quod amicus condolens tristitiam mitiget.
+</p>
+               <p xml:id="TAca84-d1e868-d1e655">
+                  <lb ed="#L" n="14"/>AD PRIMUM ERGO DICENDUM quod in utroque 
+ami<lb break="no" ed="#L" n="15"/>citia manifestatur, scilicet et quod congaudet 
+gau<lb break="no" ed="#L" n="16"/>denti, et quod condolet dolenti 9. Et ideo 
+utrum<lb break="no" ed="#L" n="17"/>que ratione causae redditur delectabile.
+</p>
+               <p xml:id="TAca84-d1e868-d1e666">
+                  <lb ed="#L" n="18"/>AD SECUNDUM DICENDUM quod ipse dolor amici
+<lb ed="#L" n="19"/>secundum se contristaret. Sed consideratio causae
+<lb ed="#L" n="20"/>eius, quae est amor, magis delectat.
+</p>
+               <p xml:id="TAca84-d1e868-d1e675">
+                  <lb ed="#L" n="21"/>Et per hoc patet responsio ad tertium.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e868-Dd1e681"><!-- p2p1-q38-a4 -->
+               <head xml:id="TAca84-d1e868-Hd1e684">Articulus 4</head>
+               <head xml:id="TAca84-d1e868-Hd1e686" type="question-title">utrum per contemplationem veritatis, dolor et tristitia mitigentur</head>
+               <p xml:id="TAca84-d1e868-d1e689">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="22"/>ARTICULUS QUARTUS
+<lb ed="#L" n="23"/>UTRUM PER CONTEMPLATIONEM VERITATIS, DOLOR ET TRISTITIA MITIGENTUR
+</p>
+               <p xml:id="TAca84-d1e868-d1e698">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>AD QUARTUM. SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="25"/>contemplatio veritatis non mitiget 
+dolo<lb break="no" ed="#L" n="26"/>rem. Dicitur enim Eccle. 1: <quote xml:id="TAca84-d1e868-Qd1e708">Qui addit
+<lb ed="#L" n="27"/>(SS scientiam, addit et dolorem</quote>. Sed 
+scien<lb break="no" ed="#L" n="28"/>tia ad contemplationem veritatis pertinet. Non
+<lb ed="#L" n="29"/>ergo contemplatio veritatis mitigat dolorem.
+</p>
+               <p xml:id="TAca84-d1e868-d1e719">
+                  <lb ed="#L" n="30"/>2. PRAETEREA, contemplatio veritatis ad 
+intelle<lb break="no" ed="#L" n="31"/>ctum speculativum pertinet. Sed intellectus 
+spe<lb break="no" ed="#L" n="32"/>culativus non movet, ut dicitur. in III de Anima.
+<lb ed="#L" n="33"/>Cum igitur gaudium et dolor sint quidam motus
+<lb ed="#L" n="34"/>animi, videtur quod contemplatio veritatis nihil
+<lb ed="#L" n="35"/>faciat ad mitigationem doloris.
+</p>
+               <p xml:id="TAca84-d1e868-d1e736">
+                  <lb ed="#L" n="36"/>3. PRAETEREA, remedium aegritudinis 
+apponen<lb break="no" ed="#L" n="37"/>dum est ubi est aegritudo. Sed contemplatio 
+ve<lb break="no" ed="#L" n="38"/>ritatis est in intellectu. Non ergo mitigat dolorem
+<lb ed="#L" n="39"/>corporalem, qui est in sensu.
+</p>
+               <p xml:id="TAca84-d1e868-d1e747">
+                  <lb ed="#L" n="40"/>SED CONTRA EST quod Augustinus dicit, in I .
+So<lb break="no" ed="#L" n="41"/>lilog.: Videbatur mihi, si se ille mentibus nostris
+<lb ed="#L" n="42"/>veritatis fulgor aperiret, aut non me sensurum
+<lb ed="#L" n="43"/>fuisse illum dolorem, aut certe pro nihilo 
+tolera<lb break="no" ed="#L" n="44"/>turum.
+</p>
+               <p xml:id="TAca84-d1e868-d1e760">
+                  <lb ed="#L" n="45"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="46"/>est, in contemplatione veritatis maxima delectatio
+<lb ed="#L" n="47"/>consistit. Omnis autem delectatio dolorem 
+miti<lb break="no" ed="#L" n="48"/>gat, ut supra dictum est. Et ideo contemplatio
+<lb ed="#L" n="49"/>veritatis mitigat tristitiam vel dolorem: et tanto
+<lb ed="#L" n="50"/>magis, quanto perfectius aliquis est amator sa-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="51"/>pientiae. Et ideo homines. ex contemplatione 
+di<lb break="no" ed="#L" n="52"/>vina et futurae beatitudinis, in tribulationibus 
+gau<lb break="no" ed="#L" n="53"/>dent; secundum illud Iacobi :: Omne gaudium
+<lb ed="#L" n="54"/>existimate , fratres mei, cum in tentationes 
+va<lb break="no" ed="#L" n="55"/>rias incideritis. Et quod est amplius, etiam inter
+<lb ed="#L" n="56"/>corporis cruciatus huiusmodi gaudium invenitur:
+<lb ed="#L" n="57"/>sicut <quote xml:id="TAca84-d1e868-Qd1e792">Tiburtius martyr, cum nudatis plantis super
+<lb ed="#L" n="58"/>ardentes prunas incederet, dixit: Videtur mihi
+<lb ed="#L" n="59"/>quod super roseos flores incedam, in nomine Iesu
+<lb ed="#L" n="60"/>Christi</quote>.
+</p>
+               <p xml:id="TAca84-d1e868-d1e802">
+                  <lb ed="#L" n="61"/>AD PRIMUM ERGO DICENDUM quod qui addit 
+scien<lb break="no" ed="#L" n="62"/>liam, addit dolorem, vel propter difficultatem et
+<lb ed="#L" n="63"/>defectum inveniendae veritatis: vel propter hoc,
+<lb ed="#L" n="64"/>quod per scientiam homo cognoscit multa quae
+<lb ed="#L" n="65"/>voluntati contrariantur. Et sic ex parte rerum 
+co<lb break="no" ed="#L" n="66"/>gnitarum, scientia dolorem causat: ex parte autem
+<lb ed="#L" n="67"/>contemplationis veritatis, delectationem.
+</p>
+               <p xml:id="TAca84-d1e868-d1e820">
+                  <lb ed="#L" n="68"/>AD SECUNDUM DICENDUM quod intellectus 
+specu<lb break="no" ed="#L" n="69"/>lativus non movet animum ex parte rei 
+specu<lb break="no" ed="#L" n="70"/>latae: movet tamen animum ex parte ipsius 
+spe<lb break="no" ed="#L" n="71"/>culationis, quae est quoddam bonum hominis,
+<lb ed="#L" n="72"/>et naturaliter delectabilis.
+</p>
+               <p xml:id="TAca84-d1e868-d1e833">
+                  <lb ed="#L" n="73"/>AD TERTIUM DICENDUM quod in viribus animae fit
+<lb ed="#L" n="74"/>redundantia a superiori ad inferius P. Et 
+secun<lb break="no" ed="#L" n="75"/>dum hoc, delectatio conterhplationis, quae est in
+<lb ed="#L" n="76"/>superiori parte, redundat ad mitigandum etiam
+<lb ed="#L" n="77"/>dolorem qui est in sensu.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e868-Dd1e847"><!-- p2p1-q38-a5 -->
+               <head xml:id="TAca84-d1e868-Hd1e850">Articulus 5</head>
+               <head xml:id="TAca84-d1e868-Hd1e852" type="question-title">utrum dolor et tristitia mitigentur per somnum et balnea</head>
+               <p xml:id="TAca84-d1e868-d1e855">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="78"/>ARTICULUS QUINTUS
+<lb ed="#L" n="79"/>UTRUM DOLOR ET TRISTITIA MITIGENTUR PER SOMNUM ET BALNEA
+</p>
+               <p xml:id="TAca84-d1e868-d1e864">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="80"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="81"/>somnus et balneum non mitigent 
+tristi<lb break="no" ed="#L" n="82"/>tiam. Tristitia enim in anima consistit.
+<lb ed="#L" n="83"/>Sed somnus et balneum ad corpus 
+per<lb break="no" ed="#L" n="84"/>tinent. Non ergo aliquid faciunt ad mitigationem
+<lb ed="#L" n="85"/>tristitiae.
+</p>
+               <p xml:id="TAca84-d1e868-d1e882">
+                  <lb ed="#L" n="86"/>2. PRAETEREA, idem effectus non videtur 
+cau<lb break="no" ed="#L" n="87"/>sari ex contrariis causis. Sed huiusmodi, cum sint
+<lb ed="#L" n="88"/>corporalia, repugnant contemplationi veritatis,
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="89"/>quae est causa mitigationis tristitiae, ut dictum
+<lb ed="#L" n="90"/>est. Non ergo per huiusmodi tristitia mitigatur.
+</p>
+               <p xml:id="TAca84-d1e868-d1e899">
+                  <lb ed="#L" n="91"/>3. PRAETEREA, tristitia et dolor, secundum quod
+<lb ed="#L" n="92"/>pertinent ad corpus, in quadam transmutatione
+<lb ed="#L" n="93"/>cordis consistunt. Sed huiusmodi remedia magis
+<lb ed="#L" n="94"/>videntur pertinere ad exteriores sensus et 
+mem<lb break="no" ed="#L" n="95"/>bra, quam ad interiorem cordis dispositionem.
+<lb ed="#L" n="96"/>Non ergo per huiusmodi tristitia mitigatur.
+</p>
+               <p xml:id="TAca84-d1e868-d1e915">
+                  <lb ed="#L" n="97"/>SED CONTRA EST quod <ref xml:id="TAca84-d1e868-Rd1e919">Augustinus dicit, IX 
+Con<pb ed="#L" n="260"/>
+                     <cb ed="#L" n="a"/>
+                     <lb break="no" ed="#L" n="1"/>fess.</ref>: <quote xml:id="TAca84-d1e868-Qd1e928">Audieram balnei nomen inde dictum, quod
+<lb ed="#L" n="2"/>anxietatem pellat ex animo</quote>. Et infra: <quote xml:id="TAca84-d1e868-Qd1e933">Dormivi
+<lb ed="#L" n="3"/>et evigilavi, et. non parva ex partie mitigatum 
+in<lb break="no" ed="#L" n="4"/>veni dolorem meum</quote>. Et inducit quod in hymno
+<lb ed="#L" n="5"/>Ambrosii dicitur, quod <quote xml:id="TAca84-d1e868-Qd1e943">quies artus. solutos reddit
+<lb ed="#L" n="6"/>laboris usui, mentesque fessas allevat, luctusque
+<lb ed="#L" n="7"/>solvit anxios</quote>.
+</p>
+               <p xml:id="TAca84-d1e868-d1e951">
+                  <lb ed="#L" n="8"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="9"/>est, tristitia secundum . suam speciem repugnat
+<lb ed="#L" n="10"/>vitali motioni corporis. Et ideo illa quae 
+refor<lb break="no" ed="#L" n="11"/>mant naturam corporalem in debitum statum 
+vi<lb break="no" ed="#L" n="12"/>talis motionis, repugnant tristitiae, et ipsam 
+miti<lb break="no" ed="#L" n="13"/>gant. - Per hoc etiam quod huiusmodi remediis
+<lb ed="#L" n="14"/>reducitur natura ad debitum statum, causatur ex
+<lb ed="#L" n="15"/>his delectatio: hoc enim est quod delectationem
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="16"/>facit, ut supra dictum est, Unde, cum omnis 
+de<lb break="no" ed="#L" n="17"/>lectatio tristitiam mitiget, per huiusmodi remedia
+<lb ed="#L" n="18"/>corporalia tristitia. mitigatur.
+</p>
+               <p xml:id="TAca84-d1e868-d1e980">
+                  <lb ed="#L" n="19"/>AD PRIMUM ERGO DICENDUM quod ipsa debita 
+cor<lb break="no" ed="#L" n="20"/>poris dispositio, inquantum sentitur, delectationem
+<lb ed="#L" n="21"/>causat, et per consequens tristitiam mitigat.
+</p>
+               <p xml:id="TAca84-d1e868-d1e989">
+                  <lb ed="#L" n="22"/>AD SECUNDUM DICENDUM. quod delectationum una
+<lb ed="#L" n="23"/>aliam impedit, ut supra dictum est: et tamen
+<lb ed="#L" n="24"/>omnis delectatio tristitiam mitigat. Unde non est
+</p>
+               <p xml:id="TAca84-d1e868-d1e998">
+                  <lb ed="#L" n="25"/>inconveniens quod ex causis se. invicem. impe-
+</p>
+               <p xml:id="TAca84-d1e868-d1e1004">
+                  <lb ed="#L" n="26"/>dientibus tristitia mitigetur. |
+</p>
+               <p xml:id="TAca84-d1e868-d1e1009">
+                  <lb ed="#L" n="27"/>AD TERTIUM DICENDUM quod omnis Bonà 
+dispo<lb break="no" ed="#L" n="28"/>sitio corporis redundat quodammodo ad cor, sicut
+<lb ed="#L" n="29"/>ad principium et finem corporalium motionum,
+<lb ed="#L" n="30"/>ut dicitur in libro de Causa Motus Animalium.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

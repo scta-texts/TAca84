@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 63</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 63</title>
+               <date when="2023-08-02">August 02, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-08-02" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="406"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e997"><!-- p2p1-q63 -->
+            <head xml:id="TAca84-d1e997-Hd1e99">Quaestio 63</head>
+            <head xml:id="TAca84-d1e997-Hd1e101" type="question-title">de causa virtutum</head>
+            <p xml:id="TAca84-d1e997-d1e104">
+               <pb ed="#L" n="406"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO SEXAGESIMATERTIA
+<lb ed="#L" n="2"/>DE CAUSA VIRTUTUM
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e997-d1e117">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de causa virtutum.,
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="6"/>Primo: utrum virtus sit in nobis a natura.
+<lb ed="#L" n="7"/>Secundo: utrum aliqua virtus causetur in 
+no<lb break="no" ed="#L" n="8"/>bis ex assuetudine operum.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="9"/>Tertio: utrum aliquae virtutes morales sint in
+<lb ed="#L" n="10"/>nobis per infusionem.
+<lb ed="#L" n="11"/>Quarto : utrum virtus quam acquirimus ex 
+as<lb break="no" ed="#L" n="12"/>suetudine operum, sit eiusdem speciei cum
+<lb ed="#L" n="13"/>virtute infusa.
+</p>
+            <div xml:id="TAca84-d1e997-Dd1e146"><!-- p2p1-q63-a1 -->
+               <head xml:id="TAca84-d1e997-Hd1e149">Articulus 1</head>
+               <head xml:id="TAca84-d1e997-Hd1e151" type="question-title">utrum virtus insit nobis a natura</head>
+               <p xml:id="TAca84-d1e997-d1e154">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>ARTICULUS PRIMUS
+<lb ed="#L" n="15"/>UTRUM VIRTUS INSIT NOBIS A NATURA
+</p>
+               <p xml:id="TAca84-d1e997-d1e163">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="16"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="17"/>virtus sit in nobis a natura. Dicit enim
+<lb ed="#L" n="18"/>Damascenus, in III libro: Naturales
+<lb ed="#L" n="19"/>sunt virtutes, et aequaliter insunt 
+omni<lb break="no" ed="#L" n="20"/>bus. Et <name xml:id="TAca84-d1e997-Nd1e178">Antonius</name> dicit, in sermone ad Monachos:
+<lb ed="#L" n="21"/>Si naturam voluntas mutaverit, perversitas est;
+<lb ed="#L" n="22"/>conditio servetur, et virtus est. Et Matth. iv,
+<lb ed="#L" n="23"/>super illud, Circuibat Iesus etc., dicit Glossa:
+<lb ed="#L" n="24"/>
+                  <quote xml:id="TAca84-d1e997-Qd1e189">Docet naturales iustitias, scilicet castitatem, 
+iusti<lb break="no" ed="#L" n="25"/>tiam, humilitatem, quas naturaliter habet homo.</quote>
+               </p>
+               <p xml:id="TAca84-d1e997-d1e195">
+                  <lb ed="#L" n="26"/>2. PRAETEREA, bonum virtutis est secundum
+<lb ed="#L" n="27"/>rationem esse, ut ex dictis patet. Sed id quod
+<lb ed="#L" n="28"/>est secundum rationem, est homini ? naturale:
+<lb ed="#L" n="29"/>cum ratio sit hominis. natura. Ergo virtus inest
+<lb ed="#L" n="30"/>homini a natura.
+</p>
+               <p xml:id="TAca84-d1e997-d1e209">
+                  <lb ed="#L" n="31"/>3. PRAETEREA, illud dicitur esse nobis naturale,
+<lb ed="#L" n="32"/>quod nobis a nativitate inest. Sed virtutes 
+quibus<lb break="no" ed="#L" n="33"/>dam a nativitate insunt: dicitur enim Iob. xxxi:
+<lb ed="#L" n="34"/>Ab infantia crevit mecum miseratio, et de utero
+<lb ed="#L" n="35"/>egressa est mecum. Ergo virtus inest homini a
+<lb ed="#L" n="36"/>natura.
+</p>
+               <p xml:id="TAca84-d1e997-d1e225">
+                  <lb ed="#L" n="37"/>SED CONTRA, id quod inest homini a natura, est
+<lb ed="#L" n="38"/>omnibus hominibus commune, et non tollitur per
+<lb ed="#L" n="39"/>peccatum: quia etiam in daemonibus bona 
+na<lb break="no" ed="#L" n="40"/>turalia manent, ut Dionysius dicit, in iv cap. de
+<lb ed="#L" n="41"/>Div. Nom. Sed virtus non inest omnibus 
+ho<lb break="no" ed="#L" n="42"/>minibus; et abiicitur per peccatum. Ergo non inest
+<lb ed="#L" n="43"/>homini a natura.
+</p>
+               <p xml:id="TAca84-d1e997-d1e243">
+                  <lb ed="#L" n="44"/>RESPONDEO DICENDUM quod circa formas 
+corpo<lb break="no" ed="#L" n="45"/>rales, aliqui dixerunt quod sunt totaliter ab 
+intrin<lb break="no" ed="#L" n="46"/>seco: sicut ponentes latitationem formarum. -
+<lb ed="#L" n="47"/>Aliqui vero, quod totaliter sint ab extrinseco: 
+si<lb break="no" ed="#L" n="48"/>cut ponentes formas corporales esse ab aliqua
+<lb ed="#L" n="49"/>causa separata. - Aliqui vero, quod partim sint ab
+<lb ed="#L" n="50"/>intrinseco, inquantum scilicet praeexistunt in 
+ma<lb break="no" ed="#L" n="51"/>teria in potentia; et partim ab extrinseco, 
+inquan<lb break="no" ed="#L" n="52"/>tum scilicet reducuntur ad actum per agens.
+</p>
+               <p xml:id="TAca84-d1e997-d1e265">
+                  <lb ed="#L" n="53"/>Ita etiam circa scientias et virtutes, aliqui
+<lb ed="#L" n="54"/>quidem posuerunt eas totaliter esse ab intrin-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="55"/>seco: ita scilicet quod omnes virtutes et 
+scien<lb break="no" ed="#L" n="56"/>tiae naturaliter praeexistunt in anima; sed per
+<lb ed="#L" n="57"/>disciplinam et exercitium impedimenta scientiae
+<lb ed="#L" n="58"/>et virtutis tolluntur, quae adveniunt animae ex
+<lb ed="#L" n="59"/>corporis gravitate; sicut cum ferrum clarificatur
+<lb ed="#L" n="60"/>per limationem. Et haec fuit opinio 
+Platonico<lb break="no" ed="#L" n="61"/>rum. - Alii vero dixerunt quod sunt totaliter ab
+<lb ed="#L" n="62"/>extrinseco, idest ex influentia intelligentiae agentis:
+<lb ed="#L" n="63"/>ut ponit Avicenna. - Alii vero dixerunt quod
+<lb ed="#L" n="64"/>secundum aptitudinem scientiae et'virtutes sunt
+<lb ed="#L" n="65"/>in nobis a natura, non autem secundum 
+perfe<lb break="no" ed="#L" n="66"/>ctionem: ut Philosophus dicit, in II Ezhic. Et hoc
+<lb ed="#L" n="67"/>verius est.
+</p>
+               <p xml:id="TAca84-d1e997-d1e302">
+                  <lb ed="#L" n="68"/>Ad cuius manifestationem, oportet considerare
+<lb ed="#L" n="69"/>quod aliquid dicitur alicui homini naturale 
+du<lb break="no" ed="#L" n="70"/>pliciter: uno modo, ex natura speciei; alio modo,
+<lb ed="#L" n="71"/>ex natura individui. Et quia unumquodque 
+ha<lb break="no" ed="#L" n="72"/>bet speciem secundum suam formam, 
+individua<lb break="no" ed="#L" n="73"/>tur vero secundum materiam; forma vero 
+ho<lb break="no" ed="#L" n="74"/>minis est anima rationalis, materia vero corpus:
+<lb ed="#L" n="75"/>id quod convenit homini secundum animam 
+ra<lb break="no" ed="#L" n="76"/>tionalem, est ei naturale secundum rationem
+<lb ed="#L" n="77"/>speciei; id vero quod est ei naturale secundum
+<lb ed="#L" n="78"/>determinatam corporis complexionem, est ei 
+na<lb break="no" ed="#L" n="79"/>turale secundum naturam individui. Quod enim
+<lb ed="#L" n="80"/>est naturale homini ex parte corporis secundum
+<lb ed="#L" n="81"/>speciem, quodammodo refertur ad animam: 
+in<lb break="no" ed="#L" n="82"/>quantum scilicet tale corpus est tali animae 
+pro<lb break="no" ed="#L" n="83"/>portionatum.
+</p>
+               <p xml:id="TAca84-d1e997-d1e339">
+                  <lb ed="#L" n="84"/>Utroque autem modo virtus est homini 
+natura<lb break="no" ed="#L" n="85"/>lis secundum quandam inchoationem. Secundum
+<lb ed="#L" n="86"/>quidem naturam speciei, inquantum in ratione
+<lb ed="#L" n="87"/>hominis insunt naturaliter quaedam principia 
+na<lb break="no" ed="#L" n="88"/>turaliter cognita tam scibilium quam agendorum,
+<lb ed="#L" n="89"/>quae sunt quaedam seminalia ? intellectualium
+<lb ed="#L" n="90"/>virtutum et moralium; et inquantum in 
+volun<lb break="no" ed="#L" n="91"/>tate inest quidam naturalis appetitus boni quod
+<lb ed="#L" n="92"/>est secundum rationem. Secundum vero naturam
+<lb ed="#L" n="93"/>individui, inquantum ex corporis dispositione ali-
+<pb ed="#L" n="407"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>qui sunt dispositi vel melius vel peius ad 
+quas<lb break="no" ed="#L" n="2"/>dam virtutes: prout scilicet vires quaedam 
+sen<lb break="no" ed="#L" n="3"/>sitivae actus sunt quarundam partium corporis, ex
+<lb ed="#L" n="4"/>quarum dispositione adiuvantur vel impediuntur
+<lb ed="#L" n="5"/>huiusmodi vires in suis actibus, et per consequens
+<lb ed="#L" n="6"/>vires rationales, quibus huiusmodi sensitivae vires
+<lb ed="#L" n="7"/>deserviunt. Et secundum hoc, unus homo habet
+<lb ed="#L" n="8"/>naturalem aptitudinem ad scientiam, alius ad 
+for<lb break="no" ed="#L" n="9"/>titudinem, alius ad temperantiam. Et his modis
+<lb ed="#L" n="10"/>tam virtutes intellectuales quam morales, 
+secun<lb break="no" ed="#L" n="11"/>dum quandam aptitudinis inchoationem, sunt in
+<lb ed="#L" n="12"/>nobis a natura. - Non autem consummatio 
+ea<lb break="no" ed="#L" n="13"/>rum. Quia natura determinatur ad unum: 
+con<lb break="no" ed="#L" n="14"/>summatio autem huiusmodi virtutum non est 
+se<lb break="no" ed="#L" n="15"/>cundum unum modum actionis, sed diversimode,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="16"/>secundum diversas materias in quibus virtutes
+<lb ed="#L" n="17"/>operantur, et secundum diversas circumstantias.
+</p>
+               <p xml:id="TAca84-d1e997-d1e408">
+                  <lb ed="#L" n="18"/>Sic ergo patet quod virtutes in nobis sunt a
+<lb ed="#L" n="19"/>natura secundum aptitudinem et inchoationem,
+<lb ed="#L" n="20"/>non autem secundum perfectionem: praeter 
+vir<lb break="no" ed="#L" n="21"/>tutes theologicas, quae sunt totaliter ab 
+extrin<lb break="no" ed="#L" n="22"/>seco.
+</p>
+               <p xml:id="TAca84-d1e997-d1e421">
+                  <lb ed="#L" n="23"/>Et per hoc patet responsio ad obiecta. Nam
+<lb ed="#L" n="24"/>primae duae rationes procedunt secundum quod
+<lb ed="#L" n="25"/>seminalia virtutum insunt nobis a natura, 
+inquan<lb break="no" ed="#L" n="26"/>tum rationales sumus. - Tertia vero ratio procedit
+<lb ed="#L" n="27"/>secundum quod ex naturali dispositione corporis,
+<lb ed="#L" n="28"/>quam habet ex nativitate, unus habet 
+aptitudi<lb break="no" ed="#L" n="29"/>nem ad miserendum, alius ad temperate 
+viven<lb break="no" ed="#L" n="30"/>dum, alius ad aliam virtutem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e997-Dd1e443"><!-- p2p1-q63-a2 -->
+               <head xml:id="TAca84-d1e997-Hd1e446">Articulus 2</head>
+               <head xml:id="TAca84-d1e997-Hd1e448" type="question-title">utrum aliqua virtus causetur in nobis ex assuetudine operum</head>
+               <p xml:id="TAca84-d1e997-d1e451">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="98"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="99"/>UTRUM ALIQUA VIRTUS CAUSETUR IN NOBIS EX ASSUETUDINE OPERUM
+</p>
+               <p xml:id="TAca84-d1e997-d1e460">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="100"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="101"/>virtutes in nobis causari non possint
+<lb ed="#L" n="102"/>ex assuetudine operum. Quia super 
+il<lb break="no" ed="#L" n="103"/>lud Rom. xiv: Omne quod non est ex
+<lb ed="#L" n="104"/>fide, peccatum est, dicit Glossa Augustini: <quote xml:id="TAca84-d1e997-Qd1e475">Omnis
+<lb ed="#L" n="105"/>infidelium vita peccatum est; et nihil est bonum
+<lb ed="#L" n="106"/>sine summo bono. Ubi deest cognitio veritatis,
+<lb ed="#L" n="107"/>falsa est virtus etiam in optimis moribus</quote>. Sed fides
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="108"/>non potest acquiri ex operibus, sed causatur in
+<lb ed="#L" n="109"/>nobis a Deo; secundum illud Ephes. 1: Gratia
+<lb ed="#L" n="110"/>estis salvati per fidem. Ergo nulla virtus potest
+<lb ed="#L" n="111"/>in nobis acquiri ex assuetudine operum.
+</p>
+               <p xml:id="TAca84-d1e997-d1e496">
+                  <lb ed="#L" n="112"/>2. PRAETEREA, peccatum, cum contrarietur 
+vir<lb break="no" ed="#L" n="113"/>tuti, non compatitur secum virtutem. Sed homo
+<lb ed="#L" n="114"/>non potest vitare peccatum nisi per gratiam Dei ;
+<lb ed="#L" n="115"/>secundum illud Sap. viu: Didici quod non pos-
+<pb ed="#L" n="408"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sum esse aliter continens, nisi Deus det. Ergo
+<lb ed="#L" n="2"/>nec virtutes aliquae possunt in nobis causari ex
+<lb ed="#L" n="3"/>assuetudine operum; sed solum dono Dei.
+</p>
+               <p xml:id="TAca84-d1e997-d1e519">
+                  <lb ed="#L" n="4"/>3. PRAETEREA, actus qui sunt in virtutem P, 
+de<lb break="no" ed="#L" n="5"/>ficiunt a. perfectione virtutis. Sed effectus non
+<lb ed="#L" n="6"/>potest esse perfectior causa. Ergo virtus non 
+pot<lb break="no" ed="#L" n="7"/>est causari ex actibus praecedentibus virtutem.
+</p>
+               <p xml:id="TAca84-d1e997-d1e530">
+                  <lb ed="#L" n="8"/>SED CONTRA EST quod Dionysius dicit, iv cap. de
+<lb ed="#L" n="9"/>Div. Nom., quod bonum est virtuosius quam
+<lb ed="#L" n="10"/>malum. Sed ex malis actibus causantur habitus
+<lb ed="#L" n="11"/>vitiorum. Ergo multo magis ex bonis actibus 
+pos<lb break="no" ed="#L" n="12"/>sunt causari habitus virtutum.
+</p>
+               <p xml:id="TAca84-d1e997-d1e543">
+                  <lb ed="#L" n="13"/>RESPONDEO DICENDUM quod de generatione 
+ha<lb break="no" ed="#L" n="14"/>bituum ex actibus, supra in generali dictum est.
+<lb ed="#L" n="15"/>Nunc autem specialiter quantum ad virtutem, 
+con<lb break="no" ed="#L" n="16"/>siderandum est quod, sicut supra dictum est,
+<lb ed="#L" n="17"/>virtus hominis perficit ipsum ad bonum. Cum 
+au<lb break="no" ed="#L" n="18"/>tem ratio boni consistat in modo, specie et 
+or<lb break="no" ed="#L" n="19"/>dine, ut Augustinus dicit in libro de Natura Boni;
+<lb ed="#L" n="20"/>sive in numero, pondere et mensura, ut dicitur
+<lb ed="#L" n="21"/>Sap. xi: oportet quod bonum hominis 
+secun<lb break="no" ed="#L" n="22"/>dum aliquam regulam consideretur. Quae quidem
+<lb ed="#L" n="23"/>est duplex, ut supra dictum est: scilicet ratio
+<lb ed="#L" n="24"/>humana, et lex divina. Et quia lex divina ' est
+<lb ed="#L" n="25"/>superior regula, ideo ad plura se extendit: ita
+<lb ed="#L" n="26"/>quod quidquid regulatur ratione humana, 
+regula<lb break="no" ed="#L" n="27"/>tur etiam lege divina, sed non convertitur.
+<lb ed="#L" n="28"/>Virtus igitur hominis ordinata ad bonum quod
+<lb ed="#L" n="29"/>modificatur secundum regulam rationis humanae,
+<lb ed="#L" n="30"/>potest ex actibus humanis causari: inquantum 
+hu<lb break="no" ed="#L" n="31"/>iusmodi actus procedunt a ratione, sub cuius 
+pote<lb break="no" ed="#L" n="32"/>state et regula tale bonum consistit. - Virtus vero
+<lb ed="#L" n="33"/>ordinans hominem ad bonum secundum quod
+<lb ed="#L" n="34"/>modificatur per legem divinam, et non per 
+ra<lb break="no" ed="#L" n="35"/>tionem humanam, non potest causari per actus
+<lb ed="#L" n="36"/>humanos, quorum principium est ratio : sed 
+cau<lb break="no" ed="#L" n="37"/>satur solum in nobis per operationem divinam. Et
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="38"/>ideo, huiusmodi virtutem definiens, Augustinus .
+<lb ed="#L" n="39"/>posuit in definitione virtutis: quam Deus in 
+no<lb break="no" ed="#L" n="40"/>bis sine nobis operatur.
+</p>
+               <p xml:id="TAca84-d1e997-d1e608">
+                  <lb ed="#L" n="41"/>Et de huiusmodi etiam virtutibus ? prima ratio
+<lb ed="#L" n="42"/>procedit.
+</p>
+               <p xml:id="TAca84-d1e997-d1e615">
+                  <lb ed="#L" n="43"/>AD SECUNDUM DICENDUM quod virtus divinitus
+<lb ed="#L" n="44"/>infusa, maxime si in sua perfectione 
+conside<lb break="no" ed="#L" n="45"/>retur, non compatitur secum aliquod peccatum
+<lb ed="#L" n="46"/>mortale. Sed virtus humanitus acquisita potest
+<lb ed="#L" n="47"/>secum compati aliquem actum peccati, etiam
+<lb ed="#L" n="48"/>mortalis: quia usus habitus in nobis est nostrae
+<lb ed="#L" n="49"/>voluntati subiectus, ut supra dictum est; non
+<lb ed="#L" n="50"/>autem per unum actum peccati corrumpitur 
+ha<lb break="no" ed="#L" n="51"/>bitus virtutis acquisitae; habitui enim non 
+con<lb break="no" ed="#L" n="52"/>trariatur directe actus, sed habitus. Et ideo, licet
+<lb ed="#L" n="53"/>sine gratia homo non possit peccatum mortale
+<lb ed="#L" n="54"/>vitare, ita quod nunquam peccet mortaliter;
+<lb ed="#L" n="55"/>non tamen impeditur quin possit habitum virtutis
+<lb ed="#L" n="56"/>acquirere, per quam a malis operibus abstineat ut
+<lb ed="#L" n="57"/>in pluribus, et praecipue ab his quae sunt valde
+<lb ed="#L" n="58"/>rationi contraria. - Sunt etiam quaedam peccata
+<lb ed="#L" n="59"/>mortalia quae homo sine gratia nullo modo 
+po<lb break="no" ed="#L" n="60"/>test vitare, quae scilicet directe opponuntur 
+vir<lb break="no" ed="#L" n="61"/>tutibus theologicis, quae ex dono gratiae sunt
+<lb ed="#L" n="62"/>in nobis. Hoc tamen infra manifestius fiet.
+</p>
+               <p xml:id="TAca84-d1e997-d1e661">
+                  <lb ed="#L" n="63"/>AD TERTIUM DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="64"/>virtutum acquisitarum praeexistunt in nobis 
+quae<lb break="no" ed="#L" n="65"/>dam semina sive principia, secundum naturam.
+<lb ed="#L" n="66"/>Quae quidem principia sunt nobiliora virtutibus
+<lb ed="#L" n="67"/>eorum virtute acquisitis: sicut intellectus 
+princi<lb break="no" ed="#L" n="68"/>piorum speculabilium est nobilior scientia 
+conclu<lb break="no" ed="#L" n="69"/>sionum; et naturalis rectitudo rationis est nobilior
+<lb ed="#L" n="70"/>rectificatione appetitus quae fit per participationem
+<lb ed="#L" n="71"/>rationis, quae quidem rectificatio pertinet ad 
+virtu<lb break="no" ed="#L" n="72"/>tem moralem. Sic igitur actus humani, inquantum
+<lb ed="#L" n="73"/>procedunt ex altioribus principiis, possunt causare
+<lb ed="#L" n="74"/>virtutes acquisitas humanas.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e997-Dd1e691"><!-- p2p1-q63-a3 -->
+               <head xml:id="TAca84-d1e997-Hd1e694">Articulus 3</head>
+               <head xml:id="TAca84-d1e997-Hd1e696" type="question-title">utrum aliquae virtutes morales sint in nobis per infusionem</head>
+               <p xml:id="TAca84-d1e997-d1e699">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>ARTICULUS TERTIUS
+<lb ed="#L" n="18"/>UTRUM ALIQUAE VIRTUTES MORALES SINT IN NOBIS PER INFUSIONEM
+</p>
+               <p xml:id="TAca84-d1e997-d1e708">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="19"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="20"/>praeter virtutes theologicas, non sint aliae
+<lb ed="#L" n="21"/>quae possunt fieri a causis secundis,
+<lb ed="#L" n="22"/>non fiunt immediate a Deo, nisi forte aliquando
+<lb ed="#L" n="23"/>miraculose: quia, ut Dionysius dicit, /ex 
+divi<lb break="no" ed="#L" n="24"/>nitatis est ultima per media adducere. Sed 
+virtu<lb break="no" ed="#L" n="25"/>tes intellectuales et morales possunt in nobis 
+cau<lb break="no" ed="#L" n="26"/>sari per nostros actus, ut dictum est. Non ergo
+<lb ed="#L" n="27"/>convenienter causantur in nobis per infusionem.
+</p>
+               <p xml:id="TAca84-d1e997-d1e732">
+                  <lb ed="#L" n="28"/>2. PRAETEREA, in operibus Dei multo minus est
+<lb ed="#L" n="29"/>aliquid superfluum quam in operibus naturae.
+<lb ed="#L" n="30"/>Sed ad ordinandum nos in bonum supernaturale,
+<lb ed="#L" n="31"/>sufficiunt virtutes theologicae. Ergo non sunt aliae
+<lb ed="#L" n="32"/>virtutes -supernaturales, quas oporteat in nobis
+<lb ed="#L" n="33"/>causari a Deo.
+</p>
+               <p xml:id="TAca84-d1e997-d1e749">
+                  <lb ed="#L" n="34"/>3. PRAETEREA, natura non facit per duo, quod
+<lb ed="#L" n="35"/>potest facere per unum: et multo minus "Deus.
+<lb ed="#L" n="36"/>Sed Deus inseruit animae nostrae semina 
+virtu<lb break="no" ed="#L" n="37"/>tum, ut dicit Glossa Heb. 1. Ergo non oportet
+<lb ed="#L" n="38"/>quod alias virtutes in nobis per infusionem causet.
+</p>
+               <p xml:id="TAca84-d1e997-d1e762">
+                  <lb ed="#L" n="39"/>SED CONTRA EST quod dicitur Sap. vin: 
+Sobrie<lb break="no" ed="#L" n="40"/>latem et iustitiam docet, prudentiam et virtutem.
+</p>
+               <p xml:id="TAca84-d1e997-d1e769">
+                  <lb ed="#L" n="41"/>RESPONDEO DICENDUM quod oportet effectus esse
+<lb ed="#L" n="42"/>suis causis et principiis proportionatos. Omnes
+<lb ed="#L" n="43"/>autem virtutes tam intellectuales quam morales,
+<lb ed="#L" n="44"/>quae ex nostris actibus acquiruntur, procedunt ex
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="45"/>quibusdam naturalibus principiis in nobis 
+prae<lb break="no" ed="#L" n="46"/>existentibus, ut supra dictum est. Loco quorum
+<lb ed="#L" n="47"/>naturalium principiorum, conferuntur nobis a Deo
+<lb ed="#L" n="48"/>virtutes theologicae, quibus ordinamur ad finem
+<lb ed="#L" n="49"/>supernaturalem, sicut supra dictum est. Unde
+<lb ed="#L" n="50"/>oportet quod his etiam virtutibus theologicis 
+pro<lb break="no" ed="#L" n="51"/>portionaliter respondeant alii habitus divinitus 
+cau<lb break="no" ed="#L" n="52"/>sati in nobis, qui sic se habeant ad virtutes 
+theo<lb break="no" ed="#L" n="53"/>logicas, sicut se habent virtutes morales et 
+intel<lb break="no" ed="#L" n="54"/>lectuales ad principia naturalia virtutum.
+</p>
+               <p xml:id="TAca84-d1e997-d1e804">
+                  <lb ed="#L" n="55"/>AD PRIMUM ERGO DICENDUM quod aliquae quidem
+<lb ed="#L" n="56"/>virtutes morales et intellectuales possunt causari
+<lb ed="#L" n="57"/>in nobis ex nostris actibus: tamen illae non sunt
+<lb ed="#L" n="58"/>proportionatae virtutibus theologicis. Et ideo 
+opor<lb break="no" ed="#L" n="59"/>tet alias, eis proportionatas, immediate a Deo
+<lb ed="#L" n="60"/>causari.
+</p>
+               <p xml:id="TAca84-d1e997-d1e820">
+                  <lb ed="#L" n="61"/>AD SECUNDUM DICENDUM quod virtutes 
+theologi<lb break="no" ed="#L" n="62"/>cae sufficienter nos ordinant in finem 
+supernatu<lb break="no" ed="#L" n="63"/>ralem, secundum quandam inchoationem, 
+quan<lb break="no" ed="#L" n="64"/>tum scilicet ad ipsum Deum immediate. Sed 
+opor<lb break="no" ed="#L" n="65"/>tet quod per alias virtutes infusas perficiatur anima
+<lb ed="#L" n="66"/>circa alias res, in ordine tamen ad Deum.
+</p>
+               <p xml:id="TAca84-d1e997-d1e836">
+                  <lb ed="#L" n="67"/>AD TERTIUM DICENDUM quod virtus illorum 
+prin<lb break="no" ed="#L" n="68"/>cipiorum naturaliter inditorum, non se extendit
+<lb ed="#L" n="69"/>ultra proportionem naturae. Et ideo in ordine ad
+<lb ed="#L" n="70"/>finem supernaturalem ?, indiget homo perfici per
+<lb ed="#L" n="71"/>alia principia superaddita.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e997-Dd1e850"><!-- p2p1-q63-a4 -->
+               <head xml:id="TAca84-d1e997-Hd1e853">Articulus 4</head>
+               <head xml:id="TAca84-d1e997-Hd1e855" type="question-title">utrum virtus quam acquirimus ex operum assuetudine,
+       sit eiusdem speciei cum virtute infusa</head>
+               <p xml:id="TAca84-d1e997-d1e858">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="71"/>ARTICULUS QUARTUS
+<lb ed="#L" n="72"/>UTRUM VIRTUS QUAM ACQUIRIMUS EX OPERUM ASSUETUDINE,
+<lb ed="#L" n="73"/>SIT EIUSDEM SPECIEI CUM VIRTUTE INFUSA
+</p>
+               <p xml:id="TAca84-d1e997-d1e869">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="74"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="75"/>virtutes infusae non sint alterius speciei a
+<lb ed="#L" n="76"/>virtutibus acquisitis. Virtus enim 
+acqui<lb break="no" ed="#L" n="77"/>sita et virtus infusa, secundum 
+praedi<lb break="no" ed="#L" n="78"/>cta, non videntur differre nisi secundum 
+ordi<lb break="no" ed="#L" n="79"/>nem ad ultimum finem. Sed habitus et actus 
+hu<lb break="no" ed="#L" n="80"/>mani non recipiunt speciem ab ultimo fine, sed
+<lb ed="#L" n="81"/>a proximo. Non ergo virtutes morales vel 
+intel<lb break="no" ed="#L" n="82"/>lectuales infusae differunt specie ab acquisitis.
+</p>
+               <p xml:id="TAca84-d1e997-d1e893">
+                  <lb ed="#L" n="83"/>2. PRAETEREA, habitus per actus cognoscuntur.
+<lb ed="#L" n="84"/>Sed idem est actus temperantiae infusae, et 
+acqui<lb break="no" ed="#L" n="85"/>sitae: scilicet moderari concupiscentias tactus.
+<lb ed="#L" n="86"/>Ergo non differunt specie.
+</p>
+               <p xml:id="TAca84-d1e997-d1e905">
+                  <lb ed="#L" n="87"/>3. PRAETEREA, virtus acquisita et infusa 
+diffe<lb break="no" ed="#L" n="88"/>runt secundum illud quod est immediate a Deo
+<lb ed="#L" n="89"/>factum, et a creatura. Sed idem est specie homo
+<lb ed="#L" n="90"/>quem Deus formavit, et quem generat natura; et
+<lb ed="#L" n="91"/>oculus quem caeco nato dedit, et quem virtus
+<lb ed="#L" n="92"/>formativa causat. Ergo videtur quod est eadem
+<lb ed="#L" n="93"/>specie virtus acquisita, et infusa.
+</p>
+               <p xml:id="TAca84-d1e997-d1e923">
+                  <lb ed="#L" n="94"/>SED cowTRA, quaelibet differentia in definitione
+<lb ed="#L" n="95"/>posita, mutata diversificat speciem. Sed in 
+defi<lb break="no" ed="#L" n="96"/>nitione virtutis infusae ponitur: quam Jeus in
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="97"/>nobis sine nobis operatur, ut supra dictum est.
+<lb ed="#L" n="98"/>Ergo virtus acquisita, cui hoc non convenit, non
+<lb ed="#L" n="99"/>est eiusdem speciei cum infusa.
+</p>
+               <p xml:id="TAca84-d1e997-d1e941">
+                  <lb ed="#L" n="100"/>RESPONDEO DICENDUM quod dupliciter habitus 
+dis<lb break="no" ed="#L" n="101"/>tinguuntur specie. Uno modo, sicut praedictum
+<lb ed="#L" n="102"/>est, secundum speciales et formales rationes 
+obie<lb break="no" ed="#L" n="103"/>ctorum. Obiectum autem virtutis cuiuslibet est 
+bo<lb break="no" ed="#L" n="104"/>num consideratum in materia propria: sicut 
+tem<lb break="no" ed="#L" n="105"/>perantiae obiectum est bonum delectabilium in
+<lb ed="#L" n="106"/>concupiscentiis tactus. Cuius quidem obiecti 
+for<lb break="no" ed="#L" n="107"/>malis ratio est a ratione, quae instituit modum in
+<lb ed="#L" n="108"/>his concupiscentiis: materiale autem est id quod
+<lb ed="#L" n="109"/>est ex parte concupiscentiarum. Manifestum est
+<lb ed="#L" n="110"/>autem quod alterius rationis est modus qui 
+im<lb break="no" ed="#L" n="111"/>ponitur in huiusmodi concupiscentiis secundum
+<lb ed="#L" n="112"/>regulam rationis humanae, et secundum regulam
+<lb ed="#L" n="113"/>divinam. Puta in sumptione ciborum, ratione 
+hu<lb break="no" ed="#L" n="114"/>mana modus statuitur ut non noceat valetudini
+<lb ed="#L" n="115"/>corporis, nec impediat rationis actum: secundum
+<lb ed="#L" n="116"/>autem regulam legis divinae, requiritur quod homo
+<lb ed="#L" n="117"/>castiget corpus suum, et in servitutem redigat,
+<lb ed="#L" n="118"/>per abstinentiam cibi et potus, et aliorum 
+huius<lb break="no" ed="#L" n="119"/>modi. Unde manifestum est quod temperantia in-
+<pb ed="#L" n="411"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>fusa et acquisita differunt specie: et eadem ratio
+<lb ed="#L" n="2"/>est de aliis virtutibus.
+</p>
+               <p xml:id="TAca84-d1e997-d1e996">
+                  <lb ed="#L" n="3"/>Alio modo habitus distinguuntur specie 
+secun<lb break="no" ed="#L" n="4"/>dum ea ad quae ordinantur:. non enim est 
+ea<lb break="no" ed="#L" n="5"/>dem specie sanitas hominis et equi, propter 
+di<lb break="no" ed="#L" n="6"/>versas naturas ad quas ordinantur. Et eodem
+<lb ed="#L" n="7"/>modo dicit Philosophus, in III Polit., quod
+<lb ed="#L" n="8"/>diversae sunt virtutes civium, secundum quod
+<lb ed="#L" n="9"/>bene se habent ad diversas politias 5. Et per hunc
+<lb ed="#L" n="10"/>etiam modum differunt specie virtutes morales
+<lb ed="#L" n="11"/>infusae, per quas homines bene se habent in
+<lb ed="#L" n="12"/>ordine ad hoc quod sint cives sanctorum et 
+do<lb break="no" ed="#L" n="13"/>meslici Dei; et aliae virtutes acquisitae, 
+secun<lb break="no" ed="#L" n="14"/>dum quas homo se bene habet in ordine ad res
+<lb ed="#L" n="15"/>humanas.
+</p>
+               <p xml:id="TAca84-d1e997-d1e1027">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="16"/>AD PRIMUM ERGO DICENDUM quod virtus infusa et
+<lb ed="#L" n="17"/>acquisita non solum differunt secundum ordinem
+<lb ed="#L" n="18"/>ad ultimum finem ; sed etiam secundum ordinem
+<lb ed="#L" n="19"/>ad propria obiecta, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e997-d1e1040">
+                  <lb ed="#L" n="20"/>AD SECUNDUM DICENDUM quod alia ratione 
+mo<lb break="no" ed="#L" n="21"/>dificat concupiscentias delectabilium tactus 
+tempe<lb break="no" ed="#L" n="22"/>rantia acquisita, et temperantia infusa, ut dictum
+<lb ed="#L" n="23"/>est. Unde non habent eundem actum.
+</p>
+               <p xml:id="TAca84-d1e997-d1e1052">
+                  <lb ed="#L" n="24"/>AD TERTIUM DICENDUM quod oculum caeci nati
+<lb ed="#L" n="25"/>Deus fecit ad eundem actum ad quem formantur
+<lb ed="#L" n="26"/>alii oculi secundum naturam: et ideo fuit 
+eius<lb break="no" ed="#L" n="27"/>dem speciei. Et eadem ratio esset, si Deus vellet
+<lb ed="#L" n="28"/>miraculose causare in homine virtutes quales
+<lb ed="#L" n="29"/>acquiruntur ex actibus. Sed ita non est in 
+pro<lb break="no" ed="#L" n="30"/>posito, ut dictum est,
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
