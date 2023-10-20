@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 92</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 92</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="159"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1147"><!-- p2p1-q92 -->
+            <head xml:id="TAca84-d1e1147-Hd1e101">Quaestio 92</head>
+            <head xml:id="TAca84-d1e1147-Hd1e103" type="question-title">De effectibus legis</head>
+            <p xml:id="TAca84-d1e1147-d1e106">
+               <pb ed="#L" n="159"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO NONAGESIMASECUNDA
+<lb ed="#L" n="2"/>DE EFFECTIBUS LEGIS
+<lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1147-d1e119">
+               <lb ed="#L" n="4"/>DEINDE considerandum est de effectibus legis.
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur duo.
+<lb ed="#L" n="6"/>Primo: utrum effectus legis sit homines facere
+<lb ed="#L" n="7"/>bonos.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="8"/>Secundo: utrum effectus legis sint imperare,
+<lb ed="#L" n="9"/>vetare, permittere et punire, sicut 
+Legispe<lb break="no" ed="#L" n="10"/>ritus dicit.
+</p>
+            <div xml:id="TAca84-d1e1147-Dd1e139"><!-- p2p1-q92-a1 -->
+               <head xml:id="TAca84-d1e1147-Hd1e142">Articulus 1</head>
+               <head xml:id="TAca84-d1e1147-Hd1e144" type="question-title">Utrum effectus legis sit facere homines bonos</head>
+               <p xml:id="TAca84-d1e1147-d1e147">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11"/>ARTICULUS PRIMUS
+<lb ed="#L" n="12"/>UTRUM EFFECTUS LEGIS SIT FACERE HOMINES BONOS
+</p>
+               <p xml:id="TAca84-d1e1147-d1e156">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="13"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="14"/>legis non sit facere homines bonos.
+<lb ed="#L" n="15"/>Homines enim sunt boni per virtutem:
+<lb ed="#L" n="16"/>virtus enim est quae bonum facit 
+haben<lb break="no" ed="#L" n="17"/>tem, ut dicitur in II Ethic. Sed virtus est homini
+<lb ed="#L" n="18"/>a solo Deo: ipse enim eam facit in nobis sine
+<lb ed="#L" n="19"/>nobis, ut supra dictum est in definitione virtutis.
+<lb ed="#L" n="20"/>Ergo legis non est facere homines bonos.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e178">
+                  <lb ed="#L" n="21"/>2. PRAETEREA, lex non prodest homini nisi legi
+<lb ed="#L" n="22"/>obediat. Sed hoc ipsum quod homo obedit legi, est
+<lb ed="#L" n="23"/>ex bonitate. Ergo bonitas praeexigitur in homine
+<lb ed="#L" n="24"/>ad legem. Non igitur lex facit homines bonos.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e190">
+                  <lb ed="#L" n="25"/>3. PRAETEREA, lex ordinatur ad bonum 
+com<lb break="no" ed="#L" n="26"/>mune, ut supra dictum est. Sed quidam bene
+<lb ed="#L" n="27"/>se habent in his quae ad commune pertinent,
+<lb ed="#L" n="28"/>qui tamen in propriis non bene se habent. Non
+<lb ed="#L" n="29"/>ergo ad legem pertinet quod mt homines 
+bo<lb break="no" ed="#L" n="30"/>nos.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e206">
+                  <lb ed="#L" n="31"/>4. PRAETEREA, quaedam leges sunt tyrannicae,
+<lb ed="#L" n="32"/>ut Philosophus dicit, in sua Politica. Sed 
+tyran<lb break="no" ed="#L" n="33"/>nus non intendit ad bonitatem subditorum, sed
+<lb ed="#L" n="34"/>solum ad propriam utilitatem. Non ergo legis est
+<lb ed="#L" n="35"/>facere homines bonos.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e219">
+                  <lb ed="#L" n="36"/>SED coNTRA EsT quod Philosophus dicit, in II
+<lb ed="#L" n="37"/>Ethic., quod voluntas cuiuslibet legislatoris haec
+<lb ed="#L" n="38"/>est, ut faciat cives ? bonos.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e228">
+                  <lb ed="#L" n="39"/>ResPoNDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="40"/>est, lex nihil aliud est quam dictamen rationis in
+<lb ed="#L" n="41"/>praesidente, quo subditi gubernantur. Cuiuslibet
+<lb ed="#L" n="42"/>autem subditi virtus est ut bene subdatur ei a
+<lb ed="#L" n="43"/>quo gubernatur: sicut videmus quod ! virtus 
+ira<lb break="no" ed="#L" n="44"/>scibilis et concupiscibilis in hoc consistit quod
+<lb ed="#L" n="45"/>sint bene obedientes rationi. Et per hunc 
+mo<lb break="no" ed="#L" n="46"/>dum virtus cuiuslibet subiecti est ut bene 
+subii<lb break="no" ed="#L" n="47"/>ciatur principanti, ut Philosophus dicit, in I 
+Po<lb break="no" ed="#L" n="48"/>lit. Ad hoc autem ordinatur unaquaeque lex,
+<lb ed="#L" n="49"/>ut obediatur ei a subditis. Unde manifestum est
+<lb ed="#L" n="50"/>quod hoc sit proprium legis, inducere subiectos
+<lb ed="#L" n="51"/>ad propriam ipsorum virtutem. Cum igitur virtus
+<lb ed="#L" n="52"/>sit quae bonum facit habentem, sequitur quod
+<lb ed="#L" n="53"/>proprius effectus legis sit bonos facere eos quibus |
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="54"/>datur, vel simpliciter vel secundum quid. Si enim
+<lb ed="#L" n="55"/>intentio ferentis legem tendat in verum bonum,
+<lb ed="#L" n="56"/>quod est bonum commune secundum iustitiam
+<lb ed="#L" n="57"/>divinam regulatum, sequitur quod per legem 
+ho<lb break="no" ed="#L" n="58"/>mines fiant boni simpliciter. Si vero intentio 
+le<lb break="no" ed="#L" n="59"/>gislatoris feratur ad id quod non est bonum 
+sim<lb break="no" ed="#L" n="60"/>pliciter, sed utile vel delectabile sibi, vel repugnans
+<lb ed="#L" n="61"/>iustitiae divinae; tunc lex non facit homines bonos
+<lb ed="#L" n="62"/>simpliciter, sed secundum quid, scilicet in ordine
+<lb ed="#L" n="63"/>ad tale regimen. Sic autem bonum invenitur etiam
+<lb ed="#L" n="64"/>in per se malis: sicut aliquis dicitur bonus latro,
+<lb ed="#L" n="65"/>quia operatur accommode ad finem.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e291">
+                  <lb ed="#L" n="66"/>AD PRIMUM ERGO DICENDUM quod duplex est 
+vir<lb break="no" ed="#L" n="67"/>tus, ut ex supradictis patet: scilicet acquisita, et 
+<lb ed="#L" n="68"/>infusa. Ad utramque autem aliquid operatur 
+ope<lb break="no" ed="#L" n="69"/>rum assuetudo, sed diversimode: nam virtutem
+<lb ed="#L" n="70"/>quidem acquisitam causat; ad virtutem autem
+<lb ed="#L" n="71"/>infusam disponit, et eam iam habitam conservat:
+<lb ed="#L" n="72"/>et promovet. Et quia lex ad hoc datur ut dirigat
+<lb ed="#L" n="73"/>actus humanos, inquantum actus humani 
+operan<lb break="no" ed="#L" n="74"/>tur ad virtutem, intantum lex facit homines bonos.
+<lb ed="#L" n="75"/>Unde et Philosophus dicit, II Polit., quod ,
+egis<lb break="no" ed="#L" n="76"/>latores assuefacientes faciunt bonos.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e317">
+                  <lb ed="#L" n="77"/>AD SECUNDUM DICENDUM quod non semper 
+ali<lb break="no" ed="#L" n="78"/>quis obedit legi ex bonitate perfecta virtutis: sed
+<lb ed="#L" n="79"/>quandoque quidem ex timore poenae; quandoque
+<lb ed="#L" n="80"/>autem ex solo dictamine rationis, quod est 
+quod<lb break="no" ed="#L" n="81"/>dam principium virtutis, ut supra habitum est. 
+</p>
+               <p xml:id="TAca84-d1e1147-d1e331">
+                  <lb ed="#L" n="82"/>AD TERTIUM DICENDUM quod bonitas cuiuslibet
+<lb ed="#L" n="83"/>partis consideratur in proportione ad suum totum:
+<lb ed="#L" n="84"/>unde et Augustinus dicit, in III Confess., quod Cap. vm.
+<lb ed="#L" n="85"/>turpis omnis pars est quae suo toti non congruit.
+<lb ed="#L" n="86"/>Cum igitur quilibet homo sit pars civitatis, 
+im<lb break="no" ed="#L" n="87"/>possibile est quod aliquis homo sit bonus, nisi
+<lb ed="#L" n="88"/>sit bene proportionatus bono communi: nec 
+to<lb break="no" ed="#L" n="89"/>tum potest bene consistere ? nisi ex partibus sibi,
+<lb ed="#L" n="90"/>proportionatis. Unde impossibile est quod bonum
+<lb ed="#L" n="91"/>commune civitatis bene se habeat, nisi cives sint
+<lb ed="#L" n="92"/>virtuosi, ad minus illi quibus convenit principari.
+<lb ed="#L" n="93"/>Sufficit autem, quantum ad bonum communitatis,
+<lb ed="#L" n="94"/>quod alii intantum sint virtuosi quod principum
+<pb ed="#L" n="160"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>mandatis obediant. Et ideo Philosophus dicit, in
+<lb ed="#L" n="2"/>III Polit., quod eadem est virtus principis et boni
+<lb ed="#L" n="3"/>viri; non aulem eadem. est virlus. cuiuscumque
+<lb ed="#L" n="4"/>civis et boni viri.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e375">
+                  <lb ed="#L" n="5"/>AD QUARTUM DICENDUM quod lex tyrannica, cum
+<lb ed="#L" n="6"/>non sit secundum rationem, non est-simpliciter
+<lb ed="#L" n="7"/>lex, sed magis est quaedam perversitas legis. Et
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>tamen inquantum habet aliquid de ratione legis;
+<lb ed="#L" n="9"/>intendit ad hoc quod cives sint boni. Non enim
+<lb ed="#L" n="10"/>habet de ratione legis nisi secundum hoc quod
+<lb ed="#L" n="11"/>est dictamen alicuius praesidentis in-subditis, et
+<lb ed="#L" n="12"/>ad hoc tendit ut subditi legi sint bene 
+obedien<lb break="no" ed="#L" n="13"/>tes; quod est eos esse bonos, non simpliciter, sed
+<lb ed="#L" n="14"/>in ordine ad tale regimen.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1147-Dd1e403"><!-- p2p1-q92-a2 -->
+               <head xml:id="TAca84-d1e1147-Hd1e406">Articulus 2</head>
+               <head xml:id="TAca84-d1e1147-Hd1e408" type="question-title">Utrum legis actus convenienter assignentur</head>
+               <p xml:id="TAca84-d1e1147-d1e411">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="14"/>UTRUM LEGIS ACTUS CONVENIENTER ASSIGNENTUR
+</p>
+               <p xml:id="TAca84-d1e1147-d1e420">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="15"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="16"/>legis actus non sint convenienter 
+assi<lb break="no" ed="#L" n="17"/>gnati in hoc quod dicitur quod legis
+<lb ed="#L" n="18"/>actus est imperare, vetare, permittere et
+<lb ed="#L" n="19"/>punire. Lex enim omnis praeceptum commune
+<lb ed="#L" n="20"/>est, ut Legisconsultus dicit. Sed idem est 
+impe<lb break="no" ed="#L" n="21"/>rare quod praecipere. Ergo alia tria superfluunt.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e440">
+                  <lb ed="#L" n="22"/>2. PRAETEREA, effectus legis est ut inducat 
+sub<lb break="no" ed="#L" n="23"/>ditos- ad bonum, sicut supra dictum est. Sed
+<lb ed="#L" n="24"/>consilium est de meliori bono quam praeceptum.
+<lb ed="#L" n="25"/>Ergo magis pertinet ad legem consulere quam
+<lb ed="#L" n="26"/>praecipere.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e454">
+                  <lb ed="#L" n="27"/>3. PRAETEREA, sicut homo aliquis incitatur ad
+<lb ed="#L" n="28"/>bonum per poenas, ita etiam et per praemia. Ergo
+<lb ed="#L" n="29"/>sicut punire ponitur effectus legis, ita etiam et
+<lb ed="#L" n="30"/>praemiare.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e465">
+                  <lb ed="#L" n="31"/>4. PRAETEREA, intentio legislatoris est ut 
+ho<lb break="no" ed="#L" n="32"/>mines faciat bonos, sicut supra dictum est. Sed
+<lb ed="#L" n="33"/>ille qui solo metu poenarum obedit legi, non est
+<lb ed="#L" n="34"/>bonus: nam /imore servili, qui est timor 
+poena<lb break="no" ed="#L" n="35"/>rum, etsi bonum aliquis faciat, non tamen bene
+<lb ed="#L" n="36"/>aliquid fit, ut Augustinus dicit. Non ergo videtur
+<lb ed="#L" n="37"/>esse proprium legis quod puniat.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e483">
+                  <lb ed="#L" n="38"/>SED cowTRA EsT quod Isidorus dicit, in V 
+Ety<lb break="no" ed="#L" n="39"/>mol.: Omnis lex aut permittit aliquid, ut: Vir
+<lb ed="#L" n="40"/>fortis praemium petat. Aut vetat, ut: Sacrarum
+<lb ed="#L" n="41"/>virginum nuptias nulli liceat petere. Aut punit, ut:
+<lb ed="#L" n="42"/>Qui caedem fecerit, capite plectatur.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e496">
+                  <lb ed="#L" n="43"/>RESPONDEO DICENDUM quod, sicut enuntiatio est
+<lb ed="#L" n="44"/>rationis" dictamen per modum enuntiandi, ita
+<lb ed="#L" n="45"/>etiam lex per modum praecipiendi. Rationis 
+au<lb break="no" ed="#L" n="46"/>tem proprium est ut ex aliquo ad aliquid 
+indu<lb break="no" ed="#L" n="47"/>cat. Unde sicut in demonstrativis scientiis ratio
+<lb ed="#L" n="48"/>inducit ut assentiatur conclusioni per quaedam
+<lb ed="#L" n="49"/>principia, ita etiam inducit ut assentiatur legis
+<lb ed="#L" n="50"/>praecepto per aliquid.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e516">
+                  <lb ed="#L" n="51"/>Praecepta autem legis sunt de actibus humanis,
+<lb ed="#L" n="52"/>in quibus lex dirigit, ut supra dictum est. Sunt
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="53"/>autem tres differentiae humanorum actuum. Nam
+<lb ed="#L" n="54"/>sicut supra dictum est, quidam actus sunt boni
+<lb ed="#L" n="55"/>ex genere, qui sunt actus virtutum: et respectu
+<lb ed="#L" n="56"/>horum, ponitur legis actus praecipere vel 
+impe<lb break="no" ed="#L" n="57"/>rare; praecipit enim /ex omnes actus virtutum, ut
+<lb ed="#L" n="58"/>dicitur i in V Ethic. Quidam vero sunt actus mali
+<lb ed="#L" n="59"/>ex genere, sicut actus vitiosi: et respectu horum,
+<lb ed="#L" n="60"/>lex habet prohibere. Quidam vero ex genere suo
+<lb ed="#L" n="61"/>sunt actus indifferentes: et respectu horum, lex
+<lb ed="#L" n="62"/>habet permittere. Et possunt etiam indifferentes
+<lb ed="#L" n="63"/>dici omnes illi actus qui sunt vel parum boni vel
+<lb ed="#L" n="64"/>parum mali. - Id autem per quod inducit lex ad
+<lb ed="#L" n="65"/>hoc quod sibi obediatur, est timor poenae: et
+<lb ed="#L" n="66"/>quantum ad hoc, ponitur legis effectus punire.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e555">
+                  <lb ed="#L" n="67"/>AD PRIMUM ERGO DICENDUM quod, sicut cessare a
+<lb ed="#L" n="68"/>malo habet quandam rationem boni, ita etiam
+<lb ed="#L" n="69"/>prohibitio habet quandam rationem: praecepti. Et
+<lb ed="#L" n="70"/>secundum hoc, large accipiendo praeceptum, 
+uni<lb break="no" ed="#L" n="71"/>versaliter lex praeceptum dicitur.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e569">
+                  <lb ed="#L" n="72"/>AD SECUNDUM DICENDUM quod consulere non est
+<lb ed="#L" n="73"/>proprius actus legis, sed potest pertinere etiam
+<lb ed="#L" n="74"/>ad personam privatam, cuius non est condere
+<lb ed="#L" n="75"/>legem. Unde etiam Apostolus, I ad Cor. vii,
+<lb ed="#L" n="76"/>cum consilium quoddam daret, dixit: Ego dico,
+<lb ed="#L" n="77"/>non Dominus. Et ideo non ponitur inter effectus
+<lb ed="#L" n="78"/>legis.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e587">
+                  <lb ed="#L" n="79"/>Ab TERTIUM DICENDUM quod etiam praemiare
+<lb ed="#L" n="80"/>potest ad quemlibet pertinere: sed punire non
+<lb ed="#L" n="81"/>pertinet nisi ad ministrum legis, cuius auctoritate
+<lb ed="#L" n="82"/>poena infertur. Et ideo praemiare non ponitur
+<lb ed="#L" n="83"/>actus legis, sed solum punire.
+</p>
+               <p xml:id="TAca84-d1e1147-d1e600">
+                  <lb ed="#L" n="84"/>AD QUARTUM DICENDUM quod per hoc quod 
+ali<lb break="no" ed="#L" n="85"/>quis incipit assuefieri ad vitandum mala et ad
+<lb ed="#L" n="86"/>implendum bona propter metum poenae, 
+perdu<lb break="no" ed="#L" n="87"/>citur quandeque ad hoc quod delectabiliter et
+<lb ed="#L" n="88"/>ex propria voluntate hoc faciat. Et secundum hoc,
+<lb ed="#L" n="89"/>lex etiam puniendo perducit ad hoc quod 
+homi<lb break="no" ed="#L" n="90"/>nes sint boni.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

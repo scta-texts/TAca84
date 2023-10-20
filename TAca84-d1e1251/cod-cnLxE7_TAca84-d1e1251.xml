@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 112</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 112</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="323"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1251"><!-- p2p1-q112 -->
+            <head xml:id="TAca84-d1e1251-Hd1e101">Quaestio 112</head>
+            <head xml:id="TAca84-d1e1251-Hd1e103" type="question-title">De causa gratiae</head>
+            <p xml:id="TAca84-d1e1251-d1e106">
+               <pb ed="#L" n="323"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO CENTESIMADUODECIMA
+<lb ed="#L" n="2"/>DE CAUSA GRATIAE
+<lb ed="#L" n="3"/>IN QUINQUE ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1251-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de causa gratiae.
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur quinque.
+<lb ed="#L" n="6"/>Primo: utrum solus Deus sit causa efficiens
+<lb ed="#L" n="7"/>gratiae.;
+<lb ed="#L" n="8"/>Secundo: utrum requiratur aliqua dispositio ad
+<lb ed="#L" n="9"/>gratiam ex parte recipientis ipsam, pn actum
+<lb ed="#L" n="10"/>liberi arbitrii.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="11"/>Tertio: utrum talis dispositio possit esse 
+ne<lb break="no" ed="#L" n="12"/>cessitas ad gratiam.
+<lb ed="#L" n="13"/>Quarto: utrum gratia sit aequalis in 
+omni<lb break="no" ed="#L" n="14"/>bus.
+<lb ed="#L" n="15"/>Quinto: utrum aliquis possit scire se habere
+<lb ed="#L" n="16"/>gratiam.
+</p>
+            <div xml:id="TAca84-d1e1251-Dd1e154"><!-- p2p1-q112-a1 -->
+               <head xml:id="TAca84-d1e1251-Hd1e157">Articulus 1</head>
+               <head xml:id="TAca84-d1e1251-Hd1e159" type="question-title">Utrum solus deus sit causa gratiae</head>
+               <p xml:id="TAca84-d1e1251-d1e162">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="17"/>ARTICULUS PRIMUS
+<lb ed="#L" n="18"/>UTRUM SOLUS DEUS SIT CAUSA GRATIAE
+</p>
+               <p xml:id="TAca84-d1e1251-d1e171">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="19"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="20"/>non solus Deus sit causa gratiae. 
+Dici<lb break="no" ed="#L" n="21"/>tur enim Ioan. 1i: Gratia et veritas
+<lb ed="#L" n="22"/>per Iesum Christum facta est. Sed in
+<lb ed="#L" n="23"/>nomine Iesu Christi intelligitur non solum natura
+<lb ed="#L" n="24"/>divina assumens, sed etiam natura creata 
+as<lb break="no" ed="#L" n="25"/>sumpta. Ergo aliqua creatura potest esse causa
+<lb ed="#L" n="26"/>gratiae.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e193">
+                  <lb ed="#L" n="27"/>2. PRAETEREA, ista differentia ponitur inter 
+sa<lb break="no" ed="#L" n="28"/>cramenta novae legis et veteris, quod sacramenta
+<lb ed="#L" n="29"/>novae legis causant gratiam, quam sacramenta
+<lb ed="#L" n="30"/>veteris legis solum significant. Sed sacramenta
+<lb ed="#L" n="31"/>novae legis sunt quaedam visibilia elementa. Ergo
+<lb ed="#L" n="32"/>non solus Deus est causa gratiae.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e210">
+                  <lb ed="#L" n="33"/>3. PRAETEREA, secundum Dionysium, in libro
+<lb ed="#L" n="34"/>Cael. Hier., angeli purgant et illuminant et 
+per<lb break="no" ed="#L" n="35"/>ficiunt et angelos inferiores et etiam homines.
+<lb ed="#L" n="36"/>Sed rationalis creatura purgatur, illuminatur et
+<lb ed="#L" n="37"/>perficitur per gratiam. Ergo non solus Deus est
+<lb ed="#L" n="38"/>causa gratiae.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e226">
+                  <lb ed="#L" n="39"/>SED coNTRA EsT quod in Psalmo rxxxur 
+di<lb break="no" ed="#L" n="40"/>citur: Gratiam et gloriam dabit Dominus.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e233">
+                  <lb ed="#L" n="41"/>RESPONDEO DICENDUM quod nulla res agere 
+po<lb break="no" ed="#L" n="42"/>test ultra suam speciem: quia semper oportet
+<lb ed="#L" n="43"/>quod causa potior sit effectu. Donum autem 
+gra<lb break="no" ed="#L" n="44"/>tiae excedit omnem facultatem naturae creatae:
+<lb ed="#L" n="45"/>cum nihil aliud sit quam quaedam participatio 
+di<lb break="no" ed="#L" n="46"/>vinae naturae, quae excedit omnem aliam 
+natu<lb break="no" ed="#L" n="47"/>ram. Et ideo impossibile est quod aliqua creatura
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="48"/>gratiam causet. Sic enim necesse est quod 
+so<lb break="no" ed="#L" n="49"/>lus Deus deificet, communicando consortium 
+di<lb break="no" ed="#L" n="50"/>vinae naturae per quandam similitudinis 
+partici<lb break="no" ed="#L" n="51"/>pationem, sicut impossibile est quod aliquid igniat
+<lb ed="#L" n="52"/>nisi solus ignis.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e264">
+                  <lb ed="#L" n="53"/>AD PRIMUM ERGO DICENDUM quod humanitas 
+Chri<lb break="no" ed="#L" n="54"/>sti est sicut quoddam organum divinitatis eius; ut
+<lb ed="#L" n="55"/>Damascenus dicit, in III libro. Instrumentum
+<lb ed="#L" n="56"/>autem non agit actionem agentis principalis 
+pro<lb break="no" ed="#L" n="57"/>pria virtute, sed virtute principalis agentis. Et
+<lb ed="#L" n="58"/>ideo humanitas Christi non causat gratiam 
+pro<lb break="no" ed="#L" n="59"/>pria virtute, sed virtute 5 divinitatis adiunctae, ex
+<lb ed="#L" n="60"/>qua actiones- humanitatis Christi sunt salutares.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e284">
+                  <lb ed="#L" n="61"/>AD SECUNDUM DICENDUM quod, sicut in ipsa 
+per<lb break="no" ed="#L" n="62"/>sona Christi humanitas causat salutem nostram
+<lb ed="#L" n="63"/>per gratiam, virtute divina principaliter operante;
+<lb ed="#L" n="64"/>ita etiam in sacramentis novae legis, quae 
+deri<lb break="no" ed="#L" n="65"/>vantur a Christo, causatur gratia instrumentaliter -
+<lb ed="#L" n="66"/>quidem per ipsa sacramenta, sed principaliter per
+<lb ed="#L" n="67"/>virtutem Spiritus Sancti in sacramentis operantis;
+<lb ed="#L" n="68"/>secundum illud Ioan. i1: Nis? quis renatus fuerit
+<lb ed="#L" n="69"/>ex aqua et Spiritu Sancto, etc.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e306">
+                  <lb ed="#L" n="70"/>AD TERTIUM DICENDUM quod angelus purgat, 
+il<lb break="no" ed="#L" n="71"/>luminat et perficit angelum vel hominem, per
+<lb ed="#L" n="72"/>modum instructionis cuiusdam: non autem 
+iusti<lb break="no" ed="#L" n="73"/>ficando per gratiam. Unde Dionysius dicit, vit cap.
+<lb ed="#L" n="74"/>de Div. Nom., quod huiusmodi purgatio, 
+illu<lb break="no" ed="#L" n="75"/>minalio et perfectio nihil est aliud quam divinae
+<lb ed="#L" n="76"/>scientiae assumptio.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1251-Dd1e326"><!-- p2p1-q112-a2 -->
+               <head xml:id="TAca84-d1e1251-Hd1e329">Articulus 2</head>
+               <head xml:id="TAca84-d1e1251-Hd1e331" type="question-title">Utrum requiratur aliqua praeparatio sive dispositio ad gratiam ex parte hominis</head>
+               <p xml:id="TAca84-d1e1251-d1e334">
+                  <pb ed="#L" n="324"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM REQUIRATUR ALIQUA PRAEPARATIO SIVE DISPOSITIO AD GRATIAM EX PARTE HOMINIS
+</p>
+               <p xml:id="TAca84-d1e1251-d1e345">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>non requiratur aliqua praeparatio sive
+<lb ed="#L" n="5"/>dispositio ad gratiam ex parte hominis.
+<lb ed="#L" n="6"/>Quia ut Apostolus dicit, Rom. iv, ei
+<lb ed="#L" n="7"/>qui operatur, merces non impulatur secundum
+<lb ed="#L" n="8"/>gratiam, sed secundum debitum. Sed praeparatio
+<lb ed="#L" n="9"/>hominis per liberum arbitrium non est nisi per
+<lb ed="#L" n="10"/>aliquam operationem. Ergo tolleretur ratio gratiae.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e367">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, ille qui in peccato progreditur, non
+<lb ed="#L" n="12"/>se praeparat ad gratiam habendam. Sed 
+aliqui<lb break="no" ed="#L" n="13"/>bus in peccato progredientibus data est gratia:
+<lb ed="#L" n="14"/>sicut patet de Paulo, qui gratiam consecutus est
+<lb ed="#L" n="15"/>dum esset spirans minarum et caedis in discipulos
+<lb ed="#L" n="16"/>Domini, ut dicitur Aci. ix. Ergo nulla 
+praepa<lb break="no" ed="#L" n="17"/>ratio ad gratiam requiritur ex parte hominis.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e386">
+                  <lb ed="#L" n="18"/>3. PRAETEREA, agens infinitae virtutis non 
+re<lb break="no" ed="#L" n="19"/>quirit dispositionem in materia: cum nec ipsam
+<lb ed="#L" n="20"/>materiam requirat, sicut in creatione apparet; cui
+<lb ed="#L" n="21"/>collatio gratiae -comparatur, quae dicitur nora
+<lb ed="#L" n="22"/>creatura, ad Gal. ult. Sed solus Deus, qui est
+<lb ed="#L" n="23"/>infinitae virtutis, gratiam causat, ut dictum est.
+<lb ed="#L" n="24"/>Ergo nulla praeparatio requiritur ex parte hominis
+<lb ed="#L" n="25"/>ad gratiam consequendam.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e406">
+                  <lb ed="#L" n="26"/>SED CONTRA EST quod dicitur Amos iv: 
+Prae<lb break="no" ed="#L" n="27"/>parare? in occursum Dei tui, Israel. Et 1 Reg. vn
+<lb ed="#L" n="28"/>dicitur: Praeparate corda vestra Domino.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e415">
+                  <lb ed="#L" n="29"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="30"/>est, gratia dupliciter dicitur: quandoque quidem
+<lb ed="#L" n="31"/>ipsum habituale donum Dei; quandoque autem
+<lb ed="#L" n="32"/>ipsum auxilium Dei moventis animam ad 
+bo<lb break="no" ed="#L" n="33"/>num. Primo igitur modo accipiendo gratiam,
+<lb ed="#L" n="34"/>praeexigitur ad gratiam aliqua gratiae 
+praepara<lb break="no" ed="#L" n="35"/>tio: quia nulla forma potest esse nisi in materia
+<lb ed="#L" n="36"/>disposita. Sed si loquamur de gratia secundum
+<lb ed="#L" n="37"/>quod significat auxilium Dei moventis ad bonum,
+<lb ed="#L" n="38"/>sic nulla praeparatio requiritur ex parte hominis
+<lb ed="#L" n="39"/>quasi praeveniens divinum auxilium: sed potius
+<lb ed="#L" n="40"/>quaecumque praeparatio in homine esse potest,
+<lb ed="#L" n="41"/>est ex auxilio Dei moventis animam ad bonum.
+<lb ed="#L" n="42"/>Et secundum hoc, ipse bonus motus liberi 
+arbi<lb break="no" ed="#L" n="43"/>trii quo quis praeparatur ad donum gratiae 
+su<lb break="no" ed="#L" n="44"/>scipiendum, est actus liberi arbitrii moti a Deo:
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="45"/>et quantum ad hoc, dicitur homo se praeparare,
+<lb ed="#L" n="46"/>secundum illud Prov. xvi: Hominis est 
+praepa<lb break="no" ed="#L" n="47"/>rare animum. Et est principaliter a Deo movente
+<lb ed="#L" n="48"/>liberum arbitrium: et secundum hoc, dicitur a
+<lb ed="#L" n="49"/>Deo voluntas hominis praeparari, et a Domino
+<lb ed="#L" n="50"/>gressus hominis dirigi.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e467">
+                  <lb ed="#L" n="51"/>AD PRIMUM ERGO DICENDUM quod praeparatio 
+ho<lb break="no" ed="#L" n="52"/>minis ad gratiam habendam, quaedam est simul
+<lb ed="#L" n="53"/>cum ipsa infusione gratiae. Et talis operatio est
+<lb ed="#L" n="54"/>quidem meritoria; sed non gratiae, quae iam 
+ha<lb break="no" ed="#L" n="55"/>betur, sed gloriae, quae nondum habetur. - Est
+<lb ed="#L" n="56"/>autem alia praeparatio gratiae imperfecta, quae
+<lb ed="#L" n="57"/>aliquando praecedit donum gratiae gratum 
+facien<lb break="no" ed="#L" n="58"/>tis, quae tamen est a Deo movente. Sed ista non
+<lb ed="#L" n="59"/>sufficit ad meritum, nondum homine per gratiam
+<lb ed="#L" n="60"/>iustificato: quia nullum meritum: potest esse nisi
+<lb ed="#L" n="61"/>ex gratia, ut infra dicetur.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e493">
+                  <lb ed="#L" n="62"/>Ap sECUNDUM DICENDUM quod, cum homo ad '
+<lb ed="#L" n="63"/>gratiam se praeparare non possit nisi Deo eum
+<lb ed="#L" n="64"/>praeveniente et movente ad bonum, non refert
+<lb ed="#L" n="65"/>utrum subito vel paulatim aliquis ad perfectai
+<lb ed="#L" n="66"/>praeparationem perveniat: dicitur enim Eccli, xi'
+<lb ed="#L" n="67"/>quod facile est in oculis Dei subito honestare | 
+pau<lb break="no" ed="#L" n="68"/>perem. Contingit autem quandoque quod. Deus
+<lb ed="#L" n="69"/>movet hominem ad aliquod bonum, non tamen
+<lb ed="#L" n="70"/>perfectum: et talis praeparatio praecedit gratiam.
+<lb ed="#L" n="71"/>Sed quandoque statim perfecte movet ipsum ad
+<lb ed="#L" n="72"/>bonum, et subito homo gratiam accipit; secundui
+<lb ed="#L" n="73"/>illud Ioan. vi: Omnis qui audivit a Patre €
+<lb ed="#L" n="74"/>didicit, venit ad me. Et ita contigit Paulo: quia 
+su<lb break="no" ed="#L" n="75"/>bito, cum esset in progressu peccati, perfecte 
+mo<lb break="no" ed="#L" n="76"/>tum est cor eius a Deo, audiendo et addiscendo
+<lb ed="#L" n="77"/>et veniendo; et ideo subito est gratiam consecutus.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e530">
+                  <lb ed="#L" n="78"/>Ap TERTIUM DICENDUM quod agens infinitae 
+vir<lb break="no" ed="#L" n="79"/>tutis non exigit materiam, vel dispositionem 
+ma<lb break="no" ed="#L" n="80"/>teriae, quasi praesuppositam ex alterius causae
+<lb ed="#L" n="81"/>actione. Sed tamen oportet quod, secundum 
+con<lb break="no" ed="#L" n="82"/>ditionem rei causandae, in ipsa re causet et 
+ma<lb break="no" ed="#L" n="83"/>teriam et dispositionem debitam ad formam. Et
+<lb ed="#L" n="84"/>similiter ad hoc quod Deus gratiam infundat 
+ani<lb break="no" ed="#L" n="85"/>mae, nulla praeparatio exigitur quam ipse non
+<lb ed="#L" n="86"/>faciat.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1251-Dd1e553"><!-- p2p1-q112-a3 -->
+               <head xml:id="TAca84-d1e1251-Hd1e556">Articulus 3</head>
+               <head xml:id="TAca84-d1e1251-Hd1e558" type="question-title">Utrum necessario detur gratia se praeparanti ad gratiam,
+    vel facienti quod in se est</head>
+               <p xml:id="TAca84-d1e1251-d1e561">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>ARTICULUS TERTIUS
+<lb ed="#L" n="14"/>UTRUM NECESSARIO DETUR GRATIA SE PRAEPARANTI AD GRATIAM,
+<lb ed="#L" n="15"/>VEL FACIENTI QUOD IN SE EST
+</p>
+               <p xml:id="TAca84-d1e1251-d1e572">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>AD TERTIUM SIC. PROCEDITUR. Videtur quod
+<lb ed="#L" n="17"/>ex necessitate detur gratia se 
+praepa<lb break="no" ed="#L" n="18"/>ranti ad gratiam, vel facienti quod in
+<lb ed="#L" n="19"/>se est. Quia super illud Rom. v, 
+Iusti<lb break="no" ed="#L" n="20"/>ficati. ex fide pacem habeamus etc., dicit 
+Glos<lb break="no" ed="#L" n="21"/>sa: Deus recipit eum qui ad se confugit: aliter
+<lb ed="#L" n="22"/>esset in eo iniquitas. Sed impossibile est in. Deo
+<lb ed="#L" n="23"/>iniquitatem esse. Ergo impossibile est quod Deus
+<lb ed="#L" n="24"/>non recipiat eum qui ad se confugit. Ex. 
+neces<lb break="no" ed="#L" n="25"/>sitate igitur gratiam assequitur.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e598">
+                  <lb ed="#L" n="26"/>2. PRAETEREA, Anselmus dicit, in libro de. Casu
+<lb ed="#L" n="27"/>Diaboli, quod ista est causa. quare Deus non
+<lb ed="#L" n="28"/>concedit diabolo gratiam, quia ipse non voluit
+<lb ed="#L" n="29"/>accipere, nec paratus fuit. Sed remota causa, 
+ne<lb break="no" ed="#L" n="30"/>cesse est removeri effectum. Ergo si aliquis. velit
+<lb ed="#L" n="31"/>accipere gratiam, necesse est quod ei detur.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e615">
+                  <lb ed="#L" n="32"/>3. PRAETEREA, bonum est communicativum sui;
+<lb ed="#L" n="33"/>ut patet per Dionysium, in iv cap. de Div. Nom. 
+<lb ed="#L" n="34"/>Sed bonum gratiae est melius quam bonum 
+na<lb break="no" ed="#L" n="35"/>turae. Cum igitur forma naturalis ex necessitate
+<lb ed="#L" n="36"/>adveniat materiae dispositae, videtur quod multo
+<lb ed="#L" n="37"/>magis gratia ex necessitate detur praeparanti se
+<lb ed="#L" n="38"/>ad gratiam.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e633">
+                  <lb ed="#L" n="39"/>SED cowrRA EsT quod homo comparatur ad
+<lb ed="#L" n="40"/>Deum sicut lutum ad figulum; secundum illud
+<lb ed="#L" n="41"/>lerem. xvin: Sicut lutum in manu figuli, sic vos ?
+<lb ed="#L" n="42"/>in manu med. Sed lutum non ex necessitate 
+ac<lb break="no" ed="#L" n="43"/>cipit formam a figulo, quantumcumque sit 
+prae<lb break="no" ed="#L" n="44"/>paratum. Ergo neque homo recipit ex necessitate
+<lb ed="#L" n="45"/>gratiam a Deo, quantumcumque se praeparet.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e651">
+                  <lb ed="#L" n="46"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="47"/>est, praeparatio ad hominis gratiam est a Deo
+<lb ed="#L" n="48"/>sicut a movente, alibero autem arbitrio sicut a
+<lb ed="#L" n="49"/>moto, Potest igitur praeparatio dupliciter con-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="50"/>siderari. Uno quidem modo, secundum quod est
+<lb ed="#L" n="51"/>a libero arbitrio. Et secundum hoc, nullam 
+ne<lb break="no" ed="#L" n="52"/>cessitatem habet ad gratiae consecutionem: quia
+<lb ed="#L" n="53"/>donum gratiae excedit omnem. praeparationem
+<lb ed="#L" n="54"/>virtutis humanae. - Alio modo potest considerari
+<lb ed="#L" n="55"/>secundum quod est a Deo movente. Et tunc 
+ha<lb break="no" ed="#L" n="56"/>bet necessitatem ad id ad quod ordinatur a Deo,
+<lb ed="#L" n="57"/>non quidem coactionis, sed infallibilitatis: quia
+<lb ed="#L" n="58"/>intentio Dei deficere non potest; secundum quod
+<lb ed="#L" n="59"/>et Augustinus dicit, in libro de Praedest. Sanct.,
+<lb ed="#L" n="60"/>quod per beneficia Dei certissime liberantur qui-,
+<lb ed="#L" n="61"/>cumque liberantur. Unde si ex intentione Dei 
+mo<lb break="no" ed="#L" n="62"/>ventis est quod homo cuius cor movet; gratiam
+<lb ed="#L" n="63"/>consequatur, infallibiliter ipsam consequitur; 
+se<lb break="no" ed="#L" n="64"/>cundum illud loan. vi: Omnis qui audivit a
+<lb ed="#L" n="65"/>Patre et. didicit, venit ad me.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e699">
+                  <lb ed="#L" n="66"/>AD PRIMUM ERGO: DICENDUM quod glossa illa 
+lo<lb break="no" ed="#L" n="67"/>quitur de illo qui confugit ad Deum per actum
+<lb ed="#L" n="68"/>meritorium liberi arbitrii iam per gratiam 
+infor<lb break="no" ed="#L" n="69"/>mati: quem si non reciperet, esset contra iustitiam
+<lb ed="#L" n="70"/>quam ipse statuit. - Vel si referatur ad motum
+<lb ed="#L" n="71"/>liberi arbitrii ante gratiam, loquitur secundum
+<lb ed="#L" n="72"/>quod ipsum confugium hominis ad Deum est per
+<lb ed="#L" n="73"/>motionem divinam: quam iustum est non 
+de<lb break="no" ed="#L" n="74"/>ficere.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e721">
+                  <lb ed="#L" n="75"/>AD SECUNDUM DICENDUM quod defectus gratiae
+<lb ed="#L" n="76"/>prima causa est ex nobis, sed collationis gratiae
+<lb ed="#L" n="77"/>prima causa est a Deo; segundum illud Osee
+<lb ed="#L" n="78"/>xi: Perditio tua ?, Drael: tantummodo ex me
+<lb ed="#L" n="79"/>auxilium tuum.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e734">
+                  <lb ed="#L" n="80"/>AD TERTIUM DICENDUM quod etiam in rebus 
+na<lb break="no" ed="#L" n="81"/>turalibus dispositio materiae non ex necessitate
+<lb ed="#L" n="82"/>consequitur formam, nisi per virtutem agentis
+<lb ed="#L" n="83"/>qui dispositionem causat.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1251-Dd1e746"><!-- p2p1-q112-a4 -->
+               <head xml:id="TAca84-d1e1251-Hd1e749">Articulus 4</head>
+               <head xml:id="TAca84-d1e1251-Hd1e751" type="question-title">Utrum gratia, sit maior in uno quam in alio</head>
+               <p xml:id="TAca84-d1e1251-d1e754">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="84"/>ARTICULUS QUARTUS
+<lb ed="#L" n="85"/>UTRUM GRATIA, SIT MAIOR IN UNO QUAM IN ALIO
+</p>
+               <p xml:id="TAca84-d1e1251-d1e763">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="86"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="87"/>gratia non sit maior in uno. quam in
+<lb ed="#L" n="88"/>alio. Gratia enim causatur in nobis ex
+<lb ed="#L" n="89"/>dilectione divina, ut dictum est. Sed
+<lb ed="#L" n="90"/>Sap. VI dicitur: Pusillum et magnum ipse fecit,
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="91"/>et aequaliter est illi cura de omnibus. Ergo omnes
+<lb ed="#L" n="92"/>aequaliter gratiam ab eo consequuntur.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e785">
+                  <lb ed="#L" n="93"/>2 PRAETEREA, ea quae in summo dicuntur, non
+<lb ed="#L" n="94"/>recipiunt magis et minus. Sed gratia in summo
+<lb ed="#L" n="95"/>dicitur: quia coniungit ultimo fini. Ergo non re-
+<pb ed="#L" n="326"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>cipit magis et minus. Non ergo est maior in uno
+<lb ed="#L" n="2"/>quam in alio.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e804">
+                  <lb ed="#L" n="3"/>3. PRAETEREA, gratia est vita animae, ut supra 
+<lb ed="#L" n="4"/>dictum est. Sed vivere non dicitur secundum
+<lb ed="#L" n="5"/>magis et minus. Ergo etiam neque gratia.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e813">
+                  <lb ed="#L" n="6"/>SED coNTRA EST quod dicitur ad Ephes. iv:
+<lb ed="#L" n="7"/>Unicuique data est gratia secundum | mensuram
+<lb ed="#L" n="8"/>donationis Christi. Quod autem mensurate datur,
+<lb ed="#L" n="9"/>non omnibus aequaliter datur. Ergo non omnes
+<lb ed="#L" n="10"/>aequalem gratiam habent.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e826">
+                  <lb ed="#L" n="11"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="12"/>est, habitus duplicem magnitudinem habere 
+po<lb break="no" ed="#L" n="13"/>test: unam ex parte finis vel obiecti, secundum
+<lb ed="#L" n="14"/>quod dicitur una virtus alia nobilior inquantum
+<lb ed="#L" n="15"/>ad maius bonum ordinatur; aliam vero ex parte
+<lb ed="#L" n="16"/>subiecti, quod magis vel minus participat 
+habi<lb break="no" ed="#L" n="17"/>tum inhaerentem. Secundum igitur primam 
+ma<lb break="no" ed="#L" n="18"/>gnitudinem, gratia gratum faciens non potest esse
+<lb ed="#L" n="19"/>maior et minor: quia gratia secundum sui 
+ratio<lb break="no" ed="#L" n="20"/>nem coniungit hominem summo bono, quod est
+<lb ed="#L" n="21"/>Deus. Sed ex parte subiecti, gratia potest 
+susci<lb break="no" ed="#L" n="22"/>pere magis vel minus: prout scilicet unus 
+perfe<lb break="no" ed="#L" n="23"/>ctius illustratur a lumine gratiae quam alius.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e857">
+                  <lb ed="#L" n="24"/>Cuius diversitatis ratio quidem est aliqua ex
+<lb ed="#L" n="25"/>parte praeparantis se ad gratiam: qui enim se
+<lb ed="#L" n="26"/>magis ad gratiam praeparat, pleniorem gratiam
+<lb ed="#L" n="27"/>accipit. Sed ex hac parte non potest accipi prima
+<lb ed="#L" n="28"/>ratio huius diversitatis: quia praeparatio ad 
+gra<lb break="no" ed="#L" n="29"/>tiam non est hominis nisi inquantum liberum 
+ar<lb break="no" ed="#L" n="30"/>bitrium eius praeparatur a Deo. Unde prima
+<lb ed="#L" n="31"/>causa huius diversitatis accipienda est ex parte
+<lb ed="#L" n="32"/>ipsius Dei, qui diversimode suae gratiae dona
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="33"/>dispensat, ad hoc quod ex diversis gradibus 
+pul<lb break="no" ed="#L" n="34"/>chritudo et perfectio Ecclesiae consurgat: sicut
+<lb ed="#L" n="35"/>etiam diversos gradus rerum instituit ut esset 
+uni<lb break="no" ed="#L" n="36"/>versum perfectum. Unde Apostolus, ad Ephes. 1v,
+<lb ed="#L" n="37"/>postquam dixerat, Unicuique data est. gratia 
+se<lb break="no" ed="#L" n="38"/>cundum mensuram donationis Christi, enumeratis
+<lb ed="#L" n="39"/>diversis gratiis, subiungit: ad consummationem
+<lb ed="#L" n="40"/>sanctorum, in aedificationem corporis Christi.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e899">
+                  <lb ed="#L" n="41"/>AD PRIMUM ERGO DICENDUM quod cura divina
+<lb ed="#L" n="42"/>dupliciter considerari potest..Uno modo, quantum
+<lb ed="#L" n="43"/>ad ipsum divinum actum, qui est simplex et 
+uni<lb break="no" ed="#L" n="44"/>formis. Et secundum hoc, aequaliter se habet eius
+<lb ed="#L" n="45"/>cura ad omnes: quia scilicet uno actu et ? 
+sim<lb break="no" ed="#L" n="46"/>plici et maiora et minora dispensat. - Alio modo
+<lb ed="#L" n="47"/>potest considerari ex parte eorum quae in 
+crea<lb break="no" ed="#L" n="48"/>turis ex divina cura proveniunt. Et secundum hoc
+<lb ed="#L" n="49"/>invenitur inaequalitas: inquantum scilicet Deus
+<lb ed="#L" n="50"/>sua cura quibusdam maiora, quibusdam minora
+<lb ed="#L" n="51"/>providet dona.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e925">
+                  <lb ed="#L" n="52"/>AD SECUNDUM DICENDUM quod ratio illa procedit
+<lb ed="#L" n="53"/>secundum primum modum magnitudinis gratiae.
+<lb ed="#L" n="54"/>Non enim potest gratia secundum hoc maior esse,
+<lb ed="#L" n="55"/>quod ad maius bonum -ordinet: sed ex eo quod
+<lb ed="#L" n="56"/>magis vel minus ordinat ad idem bonum magis
+<lb ed="#L" n="57"/>vel minus participandum. Potest enim esse 
+diver<lb break="no" ed="#L" n="58"/>sitas intensionis et remissionis secundum 
+participa<lb break="no" ed="#L" n="59"/>tionem subiecti, et in ipsa gratia et in finali gloria.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e946">
+                  <lb ed="#L" n="60"/>AD TERTIUM DICENDUM quod vita naturalis 
+per<lb break="no" ed="#L" n="61"/>tinet ad substantiam hominis: et ideo non recipit
+<lb ed="#L" n="62"/>magis et minus. Sed vitam gratiae participat homo
+<lb ed="#L" n="63"/>accidentaliter: et ideo eam potest homo magis vel
+<lb ed="#L" n="64"/>minus habere.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1251-Dd1e960"><!-- p2p1-q112-a5 -->
+               <head xml:id="TAca84-d1e1251-Hd1e963">Articulus 5</head>
+               <head xml:id="TAca84-d1e1251-Hd1e965" type="question-title">Utrum homo possit scire se habere gratiam</head>
+               <p xml:id="TAca84-d1e1251-d1e968">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="65"/>ARTICULUS QUINTUS
+<lb ed="#L" n="66"/>UTRUM HOMO POSSIT SCIRE SE HABERE GRATIAM
+</p>
+               <p xml:id="TAca84-d1e1251-d1e977">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="67"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="68"/>homo possit scire se habere gratiam.
+<lb ed="#L" n="69"/>Gratia enim est in anima per sui 
+es<lb break="no" ed="#L" n="70"/>sentiam. Sed certissima cognitio animae
+<lb ed="#L" n="71"/>est eorum quae sunt in anima per sui essenBags
+<lb ed="#L" n="72"/>ut patet per Augustinum, XII super Gen. ad Litt. 
+<lb ed="#L" n="73"/>Ergo gratia certissime potest cognosci ab eo qui
+<lb ed="#L" n="74"/>gratiam habet.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e999">
+                  <lb ed="#L" n="75"/>2. PRAETEREA, sicut scientia est donum Dei, ita
+<lb ed="#L" n="76"/>et gratia. Sed qui a Deo scientiam accipit, scit
+<lb ed="#L" n="77"/>se scientiam habere; secundum illud. Sap. vii:
+<lb ed="#L" n="78"/>Dominus dedit mihi horum quae sunt veram 
+scien<lb break="no" ed="#L" n="79"/>tiam. Ergo pari ratione qui accipit gratiam a Deo,
+<lb ed="#L" n="80"/>scit se gratiam habere.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e1016">
+                  <lb ed="#L" n="81"/>3. PRAETEREA, lumen est magis. cognoscibile
+<lb ed="#L" n="82"/>quam tenebra: quia secundum Apostolum, ad
+<lb ed="#L" n="83"/>Ephes. v, omne quod manifestatur, lumen est.
+<lb ed="#L" n="84"/>Sed peccatum, quod est spiritualis tenebra, per
+<lb ed="#L" n="85"/>certitudinem potest sciri ab eo qui habet pecca-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="86"/>tum. Ergo multo magis gratia, quae est spirituale
+<lb ed="#L" n="87"/>lumen.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e1036">
+                  <lb ed="#L" n="88"/>4. PRAETEREA, Apostolus dicit, I ad Cor. n:
+<lb ed="#L" n="89"/>Nos autem non spiritum. huius mundi accepimus,
+<lb ed="#L" n="90"/>sed Spiritum qui a. Deo est, ut sciamus quae a
+<lb ed="#L" n="91"/>Deo donata sunt nobis. Sed gratia est praecipuum 
+<lb ed="#L" n="92"/>donum Dei. Ergo homo qui accepit gratiam per
+<lb ed="#L" n="93"/>Spiritum Sanctum, per eundem Spiritum scit 
+gra<lb break="no" ed="#L" n="94"/>fiam esse sibi datam.:
+</p>
+               <p xml:id="TAca84-d1e1251-d1e1054">
+                  <lb ed="#L" n="95"/>5. PRAETEREA, Gen. xxii, ex persona Domini
+<lb ed="#L" n="96"/>dicitur ad Abraham: Nunc cognovi quod timeas
+<lb ed="#L" n="97"/>Dominum: idest, cognoscere te feci. Loquitur 
+au<lb break="no" ed="#L" n="98"/>tem ibi de timore casto, qui non est sine gratia.
+<lb ed="#L" n="99"/>Ergo homo potest cognoscere se habere gratiam.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e1067">
+                  <lb ed="#L" n="100"/>SED CONTRA EST quod dicitur Eccle. ix: Nemo
+<lb ed="#L" n="101"/>scit. utrum sit dignus odio vel amore. Sed gratia
+<lb ed="#L" n="102"/>gratum faciens facit hominem dignum Dei amore.
+<lb ed="#L" n="103"/>Ergo nullus potest scire utrum habeat gratiam
+<lb ed="#L" n="104"/>gratum facientem.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e1080">
+                  <pb ed="#L" n="327"/>
+                  <!-- p. 327 -->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>RESPONDEO DICENDUM quod tripliciter aliquid 
+co<lb break="no" ed="#L" n="2"/>gnosci potest. Uno modo,;per revelationem. Et
+<lb ed="#L" n="3"/>hoc modo potest aliquis scire se habere gratiam.
+<lb ed="#L" n="4"/>Revelat enim Deus hoc aliquando aliquibus ex
+<lb ed="#L" n="5"/>speciali. privilegio, ut securitatis gaudium etiam
+<lb ed="#L" n="6"/>in hac vita in eis incipiat, et confidentius et 
+for<lb break="no" ed="#L" n="7"/>tius magnifica opera prosequantur, et mala 
+prae<lb break="no" ed="#L" n="8"/>sentis vitae sustineant: sicut Paulo dictum est, II
+<lb ed="#L" n="9"/>ad Cor. xu: Sufficit tibi gratia mea.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e1109">
+                  <lb ed="#L" n="10"/>Alio modo homo? cognoscit aliquid per seipsum,
+<lb ed="#L" n="11"/>et hoc certitudinaliter. Et sic nullus potest scire se
+<lb ed="#L" n="12"/>habere gratiam. Certitudo enim non potest haberi
+<lb ed="#L" n="13"/>de aliquo, nisi possit diiudicari per proprium 
+prin<lb break="no" ed="#L" n="14"/>cipium: sic enim certitudo habetur de 
+conclusio<lb break="no" ed="#L" n="15"/>nibus demonstrativis per indemonstrabilia 
+univer<lb break="no" ed="#L" n="16"/>salia principia; nullus autem posset scire se
+<lb ed="#L" n="17"/>habere scientiam alicuius conclusionis, si 
+princi<lb break="no" ed="#L" n="18"/>pium ignoraret. Principium autem gratiae, et 
+obie<lb break="no" ed="#L" n="19"/>ctum eius, est ipse Deus, qui propter sui 
+excellen<lb break="no" ed="#L" n="20"/>tiam est nobis ignotus; secundum illud Zob xxxvi:
+<lb ed="#L" n="21"/>Ecce, Deus magnus, vincens scientiam nostram. Et
+<lb ed="#L" n="22"/>ideo eius praesentia in nobis vel absentia per
+<lb ed="#L" n="23"/>certitudinem cognosci non potest; secundum illud
+<lb ed="#L" n="24"/>Tob ix: Si venerit ad me, non videbo eum: si
+<lb ed="#L" n="25"/>autem abierit, non intelligam. Et ideo homo non
+<lb ed="#L" n="26"/>potest per certitudinem diiudicare utrum ipse
+<lb ed="#L" n="27"/>habeat gratiam; secundum illud I1 ad Cor. iv:
+<lb ed="#L" n="28"/>Sed neque meipsum iudico: qui autem. iudicat me,
+<lb ed="#L" n="29"/>Dominus est.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e1156">
+                  <lb ed="#L" n="30"/>Tertio modo cognoscitur aliquid coniecturaliter
+<lb ed="#L" n="31"/>per aliqua signa. Et hoc modo aliquis. cognoscere
+<lb ed="#L" n="32"/>potest se habere gratiam: inquantum. scilicet 
+per<lb break="no" ed="#L" n="33"/>cipit se delectari in Deo, et contemnere res 
+mun<lb break="no" ed="#L" n="34"/>danas; et inquantum homo non est conscius sibi
+<lb ed="#L" n="35"/>alicuius peccati mortalis. Secundum quet modum
+<lb ed="#L" n="36"/>potest intelligi. quod habetur Apoc. u, Vincenti
+<lb ed="#L" n="37"/>dabo manna. absconditum, quod nemo novit nisi
+<lb ed="#L" n="38"/>qui accipit: quia scilicet ille qui accipit, per 
+quan<lb break="no" ed="#L" n="39"/>dam experientiam dulcedinis novit, quam non 
+ex<lb break="no" ed="#L" n="40"/>peritur ile qui non accipit. Ista. tamen. cou
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="41"/>imperfecta est. Unde Apostolus dicit, I ad Cor. iv:
+<lb ed="#L" n="42"/>Nihil mihi conscius sum, sed non in hoc iustificatus
+<lb ed="#L" n="43"/>sum. Quia ut dicitur in Psalmo xvii: Delicta quis. -
+<lb ed="#L" n="44"/>intelligit? Ab occultis meis munda me, Domine.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e1193">
+                  <lb ed="#L" n="45"/>AD PRIMUM ERGO DICENDUM quod illa quae sunt
+<lb ed="#L" n="46"/>per essentiam sui in anima, cognoscuntur 
+expe<lb break="no" ed="#L" n="47"/>rimentali. cognitione, inquantum homo experitur
+<lb ed="#L" n="48"/>per actus principia intrinseca: sicut voluntatem
+<lb ed="#L" n="49"/>percipimus volendo, et vitam in operibus vitae.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e1206">
+                  <lb ed="#L" n="50"/>AD SECUNDUM DICENDUM quod de ratione scientiae.
+<lb ed="#L" n="51"/>est quod homo certitudinem habeat de his quorum
+<lb ed="#L" n="52"/>habet scientiam: et similiter de ratione fidei est
+<lb ed="#L" n="53"/>quod homo sit certus de his quorum habet fidem.
+<lb ed="#L" n="54"/>Ethoc ideo, quia certitudo pertinet ad perfectionem
+<lb ed="#L" n="55"/>intellectus, in quo praedicta dona existunt. Et ideo
+<lb ed="#L" n="56"/>quicumque habet scientiam vel fidem, certus est
+<lb ed="#L" n="57"/>se habere. Non est autem similis ratio de gratia
+<lb ed="#L" n="58"/>et caritate et aliis huiusmodi, quae perficiunt vim
+<lb ed="#L" n="59"/>appetitivam.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e1230">
+                  <lb ed="#L" n="60"/>AD TERTIUM DICENDUM quod peccatum habet
+<lb ed="#L" n="61"/>pro principio et pro obiecto bonum 
+commuta<lb break="no" ed="#L" n="62"/>bile; quod nobis est notum. Obiectum autem vel
+<lb ed="#L" n="63"/>finis gratiae est nobis ignotum, propter sui luminis
+<lb ed="#L" n="64"/>immensitatem; secundum illud I ad 77m. ult. 
+<lb ed="#L" n="65"/>Lucem habiiat inaccessibilem.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e1246">
+                  <lb ed="#L" n="66"/>AD QUARTUM DICENDUM quod Apostolus ibi 
+lo<lb break="no" ed="#L" n="67"/>quitur de donis gloriae, quae sunt nobis data in
+<lb ed="#L" n="68"/>spe, quae certissime cognoscimus per fidem; licet
+<lb ed="#L" n="69"/>non. cognoscamus per certitudinem nos habere
+<lb ed="#L" n="70"/>gratiam, per quam nos possumus ea promereri.
+<lb ed="#L" n="71"/>- Vel potest dici quod loquitur de notitia 
+privile<lb break="no" ed="#L" n="72"/>giata, quae est per revelationem. Unde subdit:
+<lb ed="#L" n="73"/>Nobis autem revelavit Deus per Spiritum Sanctum.
+</p>
+               <p xml:id="TAca84-d1e1251-d1e1266">
+                  <lb ed="#L" n="74"/>AD QUINTUM DICENDUM quod illud etiam ? 
+ver<lb break="no" ed="#L" n="75"/>bum Abrahae dictum, potest referri ad notitiam
+<lb ed="#L" n="76"/>experimentalem, quae est per exhibitionem 
+ope<lb break="no" ed="#L" n="77"/>ris. In opere enim illo quod fecerat Abraham,
+<lb ed="#L" n="78"/>cognoscere potuit experimentaliter se Dei 
+timo<lb break="no" ed="#L" n="79"/>rem habere. - Vel potest etiam ad revelationem
+<lb ed="#L" n="80"/>referri.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

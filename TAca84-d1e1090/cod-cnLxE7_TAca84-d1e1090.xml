@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 81</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 81</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="87"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1090"><!-- p2p1-q81 -->
+            <head xml:id="TAca84-d1e1090-Hd1e101">Quaestio 81</head>
+            <head xml:id="TAca84-d1e1090-Hd1e103" type="question-title">De causa peccati ex parte hominis</head>
+            <p xml:id="TAca84-d1e1090-d1e106">
+               <pb ed="#L" n="87"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO OCTOGESIMAPRIMA
+<lb ed="#L" n="2"/>DE CAUSA PECCATI EX PARTE HOMINIS
+<lb ed="#L" n="3"/>IN QUINQUE ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1090-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de causa pcccati ex
+<lb ed="#L" n="5"/>parte hominis. Cum autem homo sit causa
+<lb ed="#L" n="6"/>peccati alteri homini exterius suggerendo, sicut
+<lb ed="#L" n="7"/>et diabolus, habet quendam specialem modum
+<lb ed="#L" n="8"/>causandi peccatum in alterum per originem. Unde
+<lb ed="#L" n="9"/>de peccato originali dicendum est. Circa quod 
+<lb ed="#L" n="10"/>tria consideranda occurrunt: primo, de eius 
+tra<lb break="no" ed="#L" n="11"/>ductione; secundo, de eius essentia; tertio, de
+<lb ed="#L" n="12"/>eius subiecto
+</p>
+            <p xml:id="TAca84-d1e1090-d1e143">
+               <lb ed="#L" n="13"/>Circa primum quaeruntur quinque.
+<lb ed="#L" n="14"/>Primo: utrum primum peccatum hominis 
+de<lb break="no" ed="#L" n="15"/>rivetur per originem in posteros.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="16"/>Secundo: utrum omnia alia peccata primi 
+pa<lb break="no" ed="#L" n="17"/>rentis, vel etiam aliorum parentum, per 
+ori<lb break="no" ed="#L" n="18"/>ginem in posteros deriventur.
+<lb ed="#L" n="19"/>Tertio: utrum peccatum originale derivetur ad
+<lb ed="#L" n="20"/>omnes qui ex Adam per viam seminis 
+ge<lb break="no" ed="#L" n="21"/>nerantur.
+<lb ed="#L" n="22"/>Quarto: utrum derivaretur ad illos qui 
+mira<lb break="no" ed="#L" n="23"/>culose ex aliqua parte humani corporis 
+for<lb break="no" ed="#L" n="24"/>marentur.
+<lb ed="#L" n="25"/>Quinto: utrum si femina peccasset, viro non
+<lb ed="#L" n="26"/>peccante, traduceretur originale peccatum.
+</p>
+            <div xml:id="TAca84-d1e1090-Dd1e179"><!-- p2p1-q81-a1 -->
+               <head xml:id="TAca84-d1e1090-Hd1e182">Articulus 1</head>
+               <head xml:id="TAca84-d1e1090-Hd1e184" type="question-title">Utrum primum peccatum primi parentis traducatur per originem
+    in posteros</head>
+               <p xml:id="TAca84-d1e1090-d1e187">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="27"/>ARTICULUS PRIMUS
+<lb ed="#L" n="28"/>UTRUM PRIMUM PECCATUM PRIMI PARENTIS TRADUCATUR PER ORIGINEM
+<lb ed="#L" n="29"/>IN POSTEROS
+</p>
+               <p xml:id="TAca84-d1e1090-d1e198">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="30"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="31"/>primum peccatum primi parentis non
+<lb ed="#L" n="32"/>traducatur ad alios per originem. 
+Dici<lb break="no" ed="#L" n="33"/>itur enim Ezech. xvii: Filius non 
+por<lb break="no" ed="#L" n="34"/>coc me his patris. Portaret autem, si ab eo
+<lb ed="#L" n="35"/>iniquitatem traheret. Ergo nullus trahit ab aliquo
+<lb ed="#L" n="36"/>parentum per originem aliquod peccatum.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e218">
+                  <lb ed="#L" n="37"/>2. PRAETEREA, accidens non traducitur per 
+ori<lb break="no" ed="#L" n="38"/>ginem, nisi traducto subiecto: eo quod accidens
+<lb ed="#L" n="39"/>non transit de subiecto in subiectum. Sed anima
+<lb ed="#L" n="40"/>rationalis, quae est subiectum culpae, non 
+tra<lb break="no" ed="#L" n="41"/>ducitur per originem, ut in Primo ostensum est.
+<lb ed="#L" n="42"/>Ergo neque aliqua culpa per originem traduci
+<lb ed="#L" n="43"/>potest.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e237">
+                  <lb ed="#L" n="44"/>3. PnRaErEREA, omne illud quod traducitur per
+<lb ed="#L" n="45"/>originem humanam, causatur ex semine. Sed 
+se<lb break="no" ed="#L" n="46"/>men non potest causare peccatum: eo quod caret
+<lb ed="#L" n="47"/>rationali parte animae, quae sola potest esse causa
+<lb ed="#L" n="48"/>peccati. Ergo nullum peccatum potest trahi per
+<lb ed="#L" n="49"/>originem.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e253">
+                  <lb ed="#L" n="50"/>4. PRAETEREA, quod est perfectius ? in natura,
+<lb ed="#L" n="51"/>virtuosius est ad agendum. Sed caro perfecta non
+<lb ed="#L" n="52"/>potest inficere animam sibi unitam: alioquin 
+ani<lb break="no" ed="#L" n="53"/>ma non posset emundari a culpa originali dum
+<lb ed="#L" n="54"/>est carni unita. Ergo multo minus semen potest
+<lb ed="#L" n="55"/>inficere animam.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e269">
+                  <lb ed="#L" n="56"/>5. PRAETEREA, Philosophus dicit, in III Ethic.,
+<lb ed="#L" n="57"/>quod propter naturam turpes nullus increpat, sed
+<lb ed="#L" n="58"/>eos qui propter desidiam et negligentiam. Dicuntur
+<lb ed="#L" n="59"/>autem natura turpes qui habent turpitudinem ex
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="60"/>sua origine. Ergo nihil quod est per originem, est
+<lb ed="#L" n="61"/>increpabile, neque peccatum.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e287">
+                  <lb ed="#L" n="62"/>SED coNTRA EST quod Apostolus dicit, Rom. v:
+<lb ed="#L" n="63"/>Per unum hominem: peccatum ín hunc mundum
+<lb ed="#L" n="64"/>intravit. Quod non potest intelligi per modum
+<lb ed="#L" n="65"/>imitationis 5, propter hoc quod dicitur Sap. un:
+<lb ed="#L" n="66"/>Invidia diaboli mors intravit in orbem terrarum.
+<lb ed="#L" n="67"/>Restat ergo quod per originem a primo homine
+<lb ed="#L" n="68"/>peccatum in mundo intravit.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e305">
+                  <lb ed="#L" n="69"/>RESPONDEO DICENDUM quod secundum fidem 
+ca<lb break="no" ed="#L" n="70"/>tholicam est tenendum quod primum peccatum
+<lb ed="#L" n="71"/>primi hominis originaliter transit in posteros. 
+Pro<lb break="no" ed="#L" n="72"/>pter quod etiam pueri mox nati deferuntur ad
+<lb ed="#L" n="73"/>baptismum, tanquam ab aliqua infectione culpae
+<lb ed="#L" n="74"/>abluendi. Contrarium autem est haeresis 
+Pela<lb break="no" ed="#L" n="75"/>gianae, ut patet per Augustinum in plurimis suis
+<lb ed="#L" n="76"/>libris.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e325">
+                  <lb ed="#L" n="77"/>Ad investigandum autem qualiter peccatum 
+pri<lb break="no" ed="#L" n="78"/>mi parentis originaliter possit transire in 
+poste<lb break="no" ed="#L" n="79"/>ros, diversi diversis viis processerunt. Quidam
+<lb ed="#L" n="80"/>enim, considerantes quod peccati subiectum est
+<lb ed="#L" n="81"/>anima rationalis, posuerunt quod cum. semine 
+ra<lb break="no" ed="#L" n="82"/>tionalis anima traducatur, ut sic ex infecta anima
+<lb ed="#L" n="83"/>animae infectae derivari videantur. - Alii vero,
+<lb ed="#L" n="84"/>hoc repudiantes tanquam erroneum, conati sunt
+<lb ed="#L" n="85"/>ostendere quomodo culpa animae parentis 
+tradu<lb break="no" ed="#L" n="86"/>citur in prolem, etiam si anima non traducatur,
+<lb ed="#L" n="87"/>per hoc quod corporis defectus traducuntur a 
+pa<lb break="no" ed="#L" n="88"/>rente in prolem: sicut si leprosus generat 
+lepro<lb break="no" ed="#L" n="89"/>sum, et podagricus podagricum, propter aliquam
+<pb ed="#L" n="88"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>corruptionem seminis, licet talis corruptio non 
+di<lb break="no" ed="#L" n="2"/>catur lepra vel podagra. Cum autem corpus sit
+<lb ed="#L" n="3"/>proportionatum animae, et defectus animae 
+re<lb break="no" ed="#L" n="4"/>dundent in corpus, et e converso; simili modo
+<lb ed="#L" n="5"/>dicunt quod culpabilis defectus animae per 
+tra<lb break="no" ed="#L" n="6"/>ductionem seminis in prolem derivatur, quamvis
+<lb ed="#L" n="7"/>semen actualiter non sit culpae subiectum.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e376">
+                  <lb ed="#L" n="8"/>Sed omnes huiusmodi viae insufficientes sunt.
+<lb ed="#L" n="9"/>Quia dato quod aliqui defectus corporales a 
+pa<lb break="no" ed="#L" n="10"/>rente transeant in prolem per originem; et etiam
+<lb ed="#L" n="11"/>aliqui. defectus animae ex consequenti, propter
+<lb ed="#L" n="12"/>corporis indispositionem, sicut interdum ex fatuis
+<lb ed="#L" n="13"/>fatui generantur: tamen hoc ipsum quod est ex
+<lb ed="#L" n="14"/>origine aliquem defectum habere, videtur 
+exclu<lb break="no" ed="#L" n="15"/>dere rationem culpae, de cuius ratione est quod
+<lb ed="#L" n="16"/>sit voluntaria. Unde etiam posito quod anima 
+ra<lb break="no" ed="#L" n="17"/>tionalis traduceretur, ex hoc ipso quod infectio
+<lb ed="#L" n="18"/>animae prolis non esset in eius voluntate, 
+amit<lb break="no" ed="#L" n="19"/>teret rationem culpae obligantis ad poenam: quia,
+<lb ed="#L" n="20"/>ut Philosophus dicit in III Ethic., nullus 
+impro<lb break="no" ed="#L" n="21"/>perabit caeco nato, sed magis miserebitur.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e409">
+                  <lb ed="#L" n="22"/>Et ideo alia via procedendum est, dicendo quod
+<lb ed="#L" n="23"/>omnes homines qui nascuntur ex Adam, possunt
+<lb ed="#L" n="24"/>considerari ut unus homo, inquantum conveniunt
+<lb ed="#L" n="25"/>in natura, quam a primo parente accipiunt; 
+se<lb break="no" ed="#L" n="26"/>cundum quod in civilibus omnes qui sunt unius
+<lb ed="#L" n="27"/>communitatis, reputantur quasi unum corpus, et
+<lb ed="#L" n="28"/>tota communitas quasi unus homo. Porphyrius
+<lb ed="#L" n="29"/>etiam dicit quod participatione speciei plures
+<lb ed="#L" n="30"/>homines sunt unus homo. Sic igitur multi homines
+<lb ed="#L" n="31"/>ex Adam derivati ', sunt tanquam multa membra
+<lb ed="#L" n="32"/>unius corporis. Actus autem unius membri 
+cor<lb break="no" ed="#L" n="33"/>poralis, puta manus, non est voluntarius voluntate
+<lb ed="#L" n="34"/>ipsius manus, sed voluntate animae, quae primo
+<lb ed="#L" n="35"/>movet membra. Unde homicidium quod manus
+<lb ed="#L" n="36"/>committit, non imputaretur manui ad peccatum,
+<lb ed="#L" n="37"/>si consideraretur manus secundum se ut divisa a
+<lb ed="#L" n="38"/>corpore: sed imputatur ei inquantum est aliquid
+<lb ed="#L" n="39"/>hominis quod movetur a primo principio motivo
+<lb ed="#L" n="40"/>hominis. Sic igitur inordinatio quae est in isto
+<lb ed="#L" n="41"/>homine ex Adam generato, non est voludiafia
+<lb ed="#L" n="42"/>voluntate ipsius, sed voluntate primi parentis,
+<lb ed="#L" n="43"/>qui movet motione generationis omnes qui ex
+<lb ed="#L" n="44"/>eius origine derivantur, sicut voluntas animae
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="45"/>movet omnia membra ad actum. Unde peccatum
+<lb ed="#L" n="46"/>quod sic a primo parente in posteros derivatur,
+<lb ed="#L" n="47"/>dicitur originale: sicut peccatum quod ab anima
+<lb ed="#L" n="48"/>derivatur ad membra corporis, dicitur actuale. Et
+<lb ed="#L" n="49"/>sicut peccatum actuale quod per membrum 
+ali<lb break="no" ed="#L" n="50"/>quod committitur, non est peccatum illius membri
+<lb ed="#L" n="51"/>nisi inquantum illud membrum est aliquid ipsius
+<lb ed="#L" n="52"/>hominis, propter quod vocatur peccatum 
+huma<lb break="no" ed="#L" n="53"/>num; ita peccatum originale non est peccatum
+<lb ed="#L" n="54"/>huius personae, nisi inquantum haec persona 
+re<lb break="no" ed="#L" n="55"/>cipit naturam a primo parente. Unde et vocatur
+<lb ed="#L" n="56"/>peccatum naturae; secundum illud Ephes. i:
+<lb ed="#L" n="57"/>Eramus natura filii irae.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e492">
+                  <lb ed="#L" n="58"/>AD PRIMUM ERGO DICENDUM quod filius dicitur non
+<lb ed="#L" n="59"/>portare peccatum patris, quia non punitur pro
+<lb ed="#L" n="60"/>peccato patris, nisi sit particeps culpae. Et sic est
+<lb ed="#L" n="61"/>in proposito: derivatur enim per originem culpa
+<lb ed="#L" n="62"/>a patre in filium, sicut et peccatum actuale per
+<lb ed="#L" n="63"/>imitationem.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e508">
+                  <lb ed="#L" n="64"/>AD SECUNDUM DICENDUM quod, etsi anima non
+<lb ed="#L" n="65"/>traducatur, quia virtus seminis non potest 
+cau<lb break="no" ed="#L" n="66"/>sare animam rationalem; movet tamen ad ipsam
+<lb ed="#L" n="67"/>dispositive. Unde per virtutem seminis traducitur
+<lb ed="#L" n="68"/>humana natura a parente in prolem, et simul cum
+<lb ed="#L" n="69"/>natura naturae infectio: ex hoc enim fit iste qui
+<lb ed="#L" n="70"/>nascitur consors culpae primi parentis, quod 
+na<lb break="no" ed="#L" n="71"/>turam ab eo sortitur per quandam generativam
+<lb ed="#L" n="72"/>motionem.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e530">
+                  <lb ed="#L" n="73"/>AD TERTIUM DICENDUM quod, etsi culpa non sit
+<lb ed="#L" n="74"/>actu in semine, est tamen ibi virtute humana 
+na<lb break="no" ed="#L" n="75"/>tura?, quam concomitatur talis culpa.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e539">
+                  <lb ed="#L" n="76"/>AD QUARTUM DICENDUM quod semen est 
+princi<lb break="no" ed="#L" n="77"/>pium generationis, quae est proprius actus 
+natu<lb break="no" ed="#L" n="78"/>rae, eius propagationi deserviens. Et ideo magis
+<lb ed="#L" n="79"/>inficitur anima per semen quam per carnem iam.
+<lb ed="#L" n="80"/>perfectam, quae iam determinata est ad 
+perso<lb break="no" ed="#L" n="81"/>nam.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e556">
+                  <lb ed="#L" n="82"/>AD QUINTUM DICENDUM quod illud quod est. per
+<lb ed="#L" n="83"/>originem, non est increpabile, si consideretur iste
+<lb ed="#L" n="84"/>qui nascitur secundum se. Sed si consideretur
+<lb ed="#L" n="85"/>prout refertur ad aliquod principium, sic potest
+<lb ed="#L" n="86"/>esse ei increpabile: sicut aliquis qui nascitur 
+pa<lb break="no" ed="#L" n="87"/>titur ignominiam generis ex culpa alicuius 
+proge<lb break="no" ed="#L" n="88"/>nitorum causatam.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1090-Dd1e575"><!-- p2p1-q81-a2 -->
+               <head xml:id="TAca84-d1e1090-Hd1e578">Articulus 2</head>
+               <head xml:id="TAca84-d1e1090-Hd1e580" type="question-title">Utrum etiam alia peccata primi parentis, vel proximorum parentum,
+    traducantur in posteros</head>
+               <p xml:id="TAca84-d1e1090-d1e583">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="55"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="56"/>UTRUM ETIAM ALIA PECCATA PRIMI PARENTIS, VEL PROXIMORUM PARENTUM,
+<lb ed="#L" n="57"/>TRADUCANTUR IN POSTEROS
+</p>
+               <p xml:id="TAca84-d1e1090-d1e594">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="58"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="59"/>etiam alia peccata vel ipsius primi 
+pa<lb break="no" ed="#L" n="60"/>rentis, vel proximorum parentum, tra- | 
+<lb ed="#L" n="61"/>ducantur in posteros.. Poena enim nun- | 
+<lb ed="#L" n="62"/>quam Pene nisi culpae. Sed aliqui puniuntur 
+<lb ed="#L" n="63"/>iudicio divino pro peccato proximorum parentum;  
+<lb ed="#L" n="64"/>secundum illud Exod. xx: Ego sum Deus 
+zelo<lb break="no" ed="#L" n="65"/>les, visitans iniquitatem patrum in filios, in tertiam  
+<lb ed="#L" n="66"/>et quartam generationem. ludicio etiam humano, 
+<lb ed="#L" n="67"/>in crimine laesae maiestatis, filii exheredantur pro  
+<lb ed="#L" n="68"/>peccato parentum. Ergo etiam culpa proximorum  
+<lb ed="#L" n="69"/>parentum transit ad posteros. 
+</p>
+               <p xml:id="TAca84-d1e1090-d1e625">
+                  <lb ed="#L" n="70"/>2. PRAETEREA, magis potest transferre in 
+alte<lb break="no" ed="#L" n="71"/>rum id quod habet aliquis a seipso, quam id 
+<lb ed="#L" n="72"/>quod habet ex alio: sicut ignis magis potest 
+cale<lb break="no" ed="#L" n="73"/>facere quam aqua calefacta. Sed homo transfert  
+<lb ed="#L" n="74"/>in prolem. per originem peccatum quod habet ab  
+<lb ed="#L" n="75"/>Adam. Ergo multo magis peccatum quod ipse ?  
+<lb ed="#L" n="76"/>commisit. 
+</p>
+               <p xml:id="TAca84-d1e1090-d1e644">
+                  <lb ed="#L" n="77"/>3. PRAETEREA, ideo contrahimus a primo 
+pa<lb break="no" ed="#L" n="78"/>rente peccatum otiginale, quia in eo fuimus sicut  
+<lb ed="#L" n="79"/>in principio naturae, quam ipse corrupit. Sed 
+si<lb break="no" ed="#L" n="80"/>militer fuimus in proximis parentibus sicut in.
+qui<lb break="no" ed="#L" n="81"/>busdam principiis naturae, quae etsi sit corrupta, 
+<lb ed="#L" n="82"/>potest adhuc. magis corrumpi per peccatum, 
+se<lb break="no" ed="#L" n="83"/>cundum illud Apoc. ult.: Qui in sordibus est, 
+<lb ed="#L" n="84"/>sordescat adhuc. Ergo filii contrahunt peccata pro- | 
+<lb ed="#L" n="85"/>ximorum parentum per originem, sicut et primi | 
+<lb ed="#L" n="86"/>parentis. 
+</p>
+               <p xml:id="TAca84-d1e1090-d1e668">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="87"/>SED coNTRA, bonum est magis diffusivum sui
+<lb ed="#L" n="88"/>quam malum. Sed merita proximorum parentum
+<lb ed="#L" n="89"/>non traducuntur ad posteros. Ergo multo minus
+<lb ed="#L" n="90"/>peccata.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e681">
+                  <lb ed="#L" n="91"/>REsPONDEO DICENDUM quod Augustinus hanc
+<lb ed="#L" n="92"/>quaestionem movet in Enchiridio, et insolutam
+<lb ed="#L" n="93"/>relinquit. Sed si quis diligenter attendit, 
+impossi<lb break="no" ed="#L" n="94"/>bile est quod aliqua peccata proximorum 
+paren<lb break="no" ed="#L" n="95"/>tum, vel etiam primi parentis praeter primum,
+<lb ed="#L" n="96"/>per originem traducantur. Cuius ratio est quia
+<lb ed="#L" n="97"/>homo generat sibi idem in specie, non autem 
+se<lb break="no" ed="#L" n="98"/>cundum individuum. Et ideo ea quae directe 
+per<lb break="no" ed="#L" n="99"/>tinent. ad individuum, sicut personales actus et
+<lb ed="#L" n="100"/>quae ad eos pertinent, non traducuntur a 
+paren<lb break="no" ed="#L" n="101"/>tibus in filios: non enim grammaticus traducit in
+<lb ed="#L" n="102"/>filium scientiam. grammaticae, quam proprio 
+stu<lb break="no" ed="#L" n="103"/>dio acquisivit. Sed ea quae pertinent ad naturam
+<lb ed="#L" n="104"/>speciei, traducuntur a parentibus in filios, nisi sit
+<lb ed="#L" n="105"/>defectus naturae: siout oculatus generat oculatam,
+<lb ed="#L" n="106"/>nisi natura deficiat. Et si natura sit fortis, etiam
+<lb ed="#L" n="107"/>aliqua accidentia individualia propagantur in 
+fi<lb break="no" ed="#L" n="108"/>lios, pertinentia ad dispositionem naturae, sicut
+<lb ed="#L" n="109"/>velocitas corporis, bonitas ingenii, et alia 
+huius<lb break="no" ed="#L" n="110"/>modi: nullo autem modo ea quae sunt pure PA
+<lb ed="#L" n="111"/>sonalia, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e729">
+                  <lb ed="#L" n="112"/>Sicut autem ad personam pertinet aliquid 
+se<lb break="no" ed="#L" n="113"/>eundum seipsam, et aliquid ex dono gratiae; ita
+<lb ed="#L" n="114"/>etiam ad naturam potest aliquid pertinere 
+secun<lb break="no" ed="#L" n="115"/>dum seipsam, scilicet quod. causatur ex principiis
+<pb ed="#L" n="90"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>eius, et aliquid ex dono gratiae. Et hoc modo
+<lb ed="#L" n="2"/>iustitia originalis, sicut in Primo dictum est, erat
+<lb ed="#L" n="3"/>quoddam donum gratiae toti humanae naturae
+<lb ed="#L" n="4"/>divinitus collatum in primo parente. Quod quidem
+<lb ed="#L" n="5"/>primus homo amisit per primum peccatum. Unde
+<lb ed="#L" n="6"/>sicut illa originalis iustitia traducta^fuisset in 
+po<lb break="no" ed="#L" n="7"/>steros simul. cum ' natura, ita etiam inordinatio
+<lb ed="#L" n="8"/>opposita. - Sed alia peccata actualia vel primi
+<lb ed="#L" n="9"/>parentis vel aliorum, non. corrumpunt naturam
+<lb ed="#L" n="10"/>quantum ad id quod naturae est; sed solum 
+quan<lb break="no" ed="#L" n="11"/>tum ad id quod personae est, idest secundum
+<lb ed="#L" n="12"/>pronitatem ad actum. Unde alia peccata non 
+tra<lb break="no" ed="#L" n="13"/>ducuntur.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e773">
+                  <lb ed="#L" n="14"/>AD PRIMUM ERGO DICENDUM quod poena spirituali,
+<lb ed="#L" n="15"/>sicut Augustinus dicit in Epistola ad.Avitum,
+<lb ed="#L" n="16"/>nunquam puniuntur filii pro parentibus, nisi com-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="17"/>municent in culpa, vel per originem vel per 
+imi<lb break="no" ed="#L" n="18"/>tationem: quia omnes animae immediate sunt Dei,
+<lb ed="#L" n="19"/>ut dicitur Ezech. xvii. Sed poena corporali 
+inter<lb break="no" ed="#L" n="20"/>dum, iudicio divino vel humano, puniuntur filii
+<lb ed="#L" n="21"/>pro parentibus, inquantum filius est aliquid patris
+<lb ed="#L" n="22"/>secundum corpus.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e797">
+                  <lb ed="#L" n="23"/>AD SECUNDUM DICENDUM quod illud quod habet
+<lb ed="#L" n="24"/>aliquis ex se, magis potest traducere, dummodo
+<lb ed="#L" n="25"/>sit. traducibile. Sed peccata actualia proximorum
+<lb ed="#L" n="26"/>parentum non sunt traducibilia: quia sunt pure
+<lb ed="#L" n="27"/>personalia, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e811">
+                  <lb ed="#L" n="28"/>AD TERTIUM DICENDUM quod primum peccatum
+<lb ed="#L" n="29"/>corrumpit naturam humanam corruptione. ad
+<lb ed="#L" n="30"/>naturam pertinente: alia vero peccata 
+corrum<lb break="no" ed="#L" n="31"/>punt eam corruptione pertinente ad solam -
+<lb ed="#L" n="32"/>sonam.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1090-Dd1e825"><!-- p2p1-q81-a3 -->
+               <head xml:id="TAca84-d1e1090-Hd1e828">Articulus 3</head>
+               <head xml:id="TAca84-d1e1090-Hd1e830" type="question-title">Utrum peccatum primi parentis transeat per originem in omnes homines</head>
+               <p xml:id="TAca84-d1e1090-d1e833">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33"/>ARTICULUS TERTIUS
+<lb ed="#L" n="34"/>UTRUM PECCATUM PRIMI PARENTIS TRANSEAT PER ORIGINEM IN OMNES HOMINES
+</p>
+               <p xml:id="TAca84-d1e1090-d1e842">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="35"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="36"/>peccatum primi parentis non transeat
+<lb ed="#L" n="37"/>per originem in omnes homines. Mors
+<lb ed="#L" n="38"/>Nyenim est poena consequens originale
+<lb ed="#L" n="39"/>peccatum, Sed non omnes qui procedunt 
+semi<lb break="no" ed="#L" n="40"/>naliter ex Adam, morientur: illi enim qui vivi 
+re<lb break="no" ed="#L" n="41"/>perientur in adventu Domini, nunquam 
+morien<lb break="no" ed="#L" n="42"/>tur, ut videtur per hoc quod dicitur I Zhessal. xw:
+<lb ed="#L" n="43"/>Nos qui vivimus, non praeveniemus in adventu
+<lb ed="#L" n="44"/>Domini eos qui dormierunt. Ergo illi non 
+contra<lb break="no" ed="#L" n="45"/>hunt originale peccatum.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e871">
+                  <lb ed="#L" n="46"/>2. PRAETEREA, nullus dat alteri quod ipse non
+<lb ed="#L" n="47"/>habet. Sed homo baptizatus non habet peccatum
+<lb ed="#L" n="48"/>originale. Ergo non traducit ipsum in prolem.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e881">
+                  <lb ed="#L" n="49"/>3. PRAETEREA, donum Christi est maius quam
+<lb ed="#L" n="50"/>peccatum Adae, ut Apostolus dicit, om. v. Sed
+<lb ed="#L" n="51"/>donum Christi. non transit in omnes homines.
+<lb ed="#L" n="52"/>Ergo nec peccatum Adae.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e892">
+                  <lb ed="#L" n="53"/>SED CONTRA EST quod Apostolus dicit, Rom. v:
+<lb ed="#L" n="54"/>Mors in omnes pertransiit, in quo omnes 
+pecca<lb break="no" ed="#L" n="55"/>verunt.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e901">
+                  <lb ed="#L" n="56"/>RESPONDEO DICENDUM quod secundum fidem:
+ca<lb break="no" ed="#L" n="57"/>tholicam firmiter est tenendum quod. omnes 
+ho<lb break="no" ed="#L" n="58"/>mines, praeter solum Christum, ex Adam 
+deri<lb break="no" ed="#L" n="59"/>vati, peccatum originale ex eo contrahunt:
+<lb ed="#L" n="60"/>alioquin non omnes indigerent redemptione quae
+<lb ed="#L" n="61"/>est per Christum; quod. est erroneum. Ratio 
+au<lb break="no" ed="#L" n="62"/>tem. sumi potest ex hoc quod supra dictum est,
+<lb ed="#L" n="63"/>quod ? sic ex peccato primi parentis traducitur
+<lb ed="#L" n="64"/>culpa originalis in. posteros, sicut a voluntate 
+ani<lb break="no" ed="#L" n="65"/>mae per motionem membrorum traducitur 
+pec<lb break="no" ed="#L" n="66"/>catum actuale. ad membra corporis. Manifestum
+<lb ed="#L" n="67"/>est autem. quod. peccatum actuale traduci potest
+<lb ed="#L" n="68"/>ad omnia membra quae nata sunt moveri a vo-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="69"/>luntate. Unde et culpa originalis traducitur ad
+<lb ed="#L" n="70"/>omnes illos qui moventur ab Adam motione 
+ge<lb break="no" ed="#L" n="71"/>nerationis.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e940">
+                  <lb ed="#L" n="72"/>AD PRIMUM ERGO DICENDUM TUE. probabilius et
+<lb ed="#L" n="73"/>communius ! tenetur quod qanes illi qui in 
+ad<lb break="no" ed="#L" n="74"/>ventu Domini reperientur ?, morientur, et post
+<lb ed="#L" n="75"/>modicum resurgent, ut in Tertio plenius dicetur.
+<lb ed="#L" n="76"/>- Si tamen hoc verum sit quod alii dicunt, quod
+<lb ed="#L" n="77"/>illi nunquam morientur, sicut Hieronymus.
+<lb ed="#L" n="78"/>diversorum opiniones in quadam epistola «
+<lb ed="#L" n="79"/>nerium, de Resurrectione Carnis; dicem
+<lb ed="#L" n="80"/>ad argumentum, quod illi etsi non moriantur, est
+<lb ed="#L" n="81"/>tamen in eis reatus mortis, sed poena aufertur
+<lb ed="#L" n="82"/>a Deo, qui etiam peccatorum actualium aed
+<lb ed="#L" n="83"/>condonare potest.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e969">
+                  <lb ed="#L" n="84"/>AD SECUNDUM DICENDUM quod peccatum originale
+<lb ed="#L" n="85"/>per baptismum aufertur reatu, inquantum anima
+<lb ed="#L" n="86"/>recuperat gratiam quantum ad mentem. Remanet
+<lb ed="#L" n="87"/>tamen peccatum originale actu quantum ad. 
+fo<lb break="no" ed="#L" n="88"/>mitem, qui est inordinatio inferiorum partium 
+ani<lb break="no" ed="#L" n="89"/>mae et ipsíus corporis, secundum quod homo
+<lb ed="#L" n="90"/>generat, et non secundum mentem. Et ideo 
+ba<lb break="no" ed="#L" n="91"/>ptizati traducunt peccatum originale: non enim 
+ge<lb break="no" ed="#L" n="92"/>nerant inquantum sunt renovati per baptismum,
+<lb ed="#L" n="93"/>sed inquantum retinent adhuc aliquid de veu
+<lb ed="#L" n="94"/>primi peccati.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e995">
+                  <lb ed="#L" n="95"/>AD TERTIUM DICENDUM quod, sicut peccatum Alae
+<lb ed="#L" n="96"/>traducitur in omnes qui ab Adam corporaliter
+<lb ed="#L" n="97"/>generantur, ita gratia Christi traducitur in omnes
+<lb ed="#L" n="98"/>qui ab eo spiritualiter generantur per fidem et
+<lb ed="#L" n="99"/>baptismum: et non solum ad removendam 
+cul<lb break="no" ed="#L" n="100"/>pam primi parentis, sed. etiam ad: removendum
+<lb ed="#L" n="101"/>peccata actualia, et ad introducendum in 
+glo<lb break="no" ed="#L" n="102"/>riam.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1090-Dd1e1016"><!-- p2p1-q81-a4 -->
+               <head xml:id="TAca84-d1e1090-Hd1e1019">Articulus 4</head>
+               <head xml:id="TAca84-d1e1090-Hd1e1021" type="question-title">Utrum, si aliquis ex humana carne formaretur miraculose,
+    contraheret originale peccatum</head>
+               <p xml:id="TAca84-d1e1090-d1e1024">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="68"/>ARTICULUS QUARTUS
+<lb ed="#L" n="69"/>UTRUM, SI ALIQUIS EX HUMANA CARNE FORMARETUR MIRACULOSE,
+<lb ed="#L" n="70"/>CONTRAHERET ORIGINALE PECCATUM
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1035">
+                  <lb ed="#L" n="71"/>AD QUARTUM SIC PROCEDITUR. Videtur quod,
+<lb ed="#L" n="72"/>si aliquis. formaretur ex: carne humana
+<lb ed="#L" n="73"/>miraculose, contraheret originale 
+pecca<lb break="no" ed="#L" n="74"/>tum. Dicit enim quaedam Glossa Gen.
+<lb ed="#L" n="75"/>IV. quod in lumbis Adae fuit tota posteritas 
+cor<lb break="no" ed="#L" n="76"/>rupta, quia non est separata prius in loco vitae,
+<lb ed="#L" n="77"/>sed postea in loco exilii. Sed si aliquis homo sic
+<lb ed="#L" n="78"/>formaretur sicut dictum est, caro eius separaretur
+<lb ed="#L" n="79"/>in loco exilii. Ergo contraheret originale peccatum.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1057">
+                  <lb ed="#L" n="80"/>2. PRAETEREA, peccatum originale causatur in
+<lb ed="#L" n="81"/>nobis inquantum anima inficitur ex carne. Sed
+<lb ed="#L" n="82"/>caro tota hominis est infecta. Ergo ex 
+quacum<lb break="no" ed="#L" n="83"/>que parte carnis homo formaretur, anima eius
+<lb ed="#L" n="84"/>inficeretur infectione originalis peccati.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1071">
+                  <lb ed="#L" n="85"/>3. PRAETEREA, peccatum originale a primo 
+pa<lb break="no" ed="#L" n="86"/>rente pervenit in omnes, inquantum omnes in eo
+<lb ed="#L" n="87"/>peccante fuerunt. Sed illi qui ex carne humana
+<lb ed="#L" n="88"/>formarentur, in Adam fuissent. Ergo peccatum
+<lb ed="#L" n="89"/>originale contraherent.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1084">
+                  <lb ed="#L" n="90"/>SED conTRA EsT quia non fuissent in Adam
+<lb ed="#L" n="91"/>secundum seminalem rationem; quod solum 
+cau<lb break="no" ed="#L" n="92"/>sat traductionem peccati originalis, ut Augustinus
+<lb ed="#L" n="93"/>dicit, X super Gen. ad litt. 
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1095">
+                  <lb ed="#L" n="94"/>
+                  <lb ed="#L" n="95"/>RESPONDEO DICENDUM quod, sicut iam dictum
+<lb ed="#L" n="96"/>est, peccatum originale a primo parente 
+traduci<lb break="no" ed="#L" n="97"/>tur in posteros, inquantum moventur ab ipso per
+<lb ed="#L" n="98"/>generationem, sicut membra moventur ab anima
+<lb ed="#L" n="99"/>ad peccatum actuale. Non autem est motio ad
+<lb ed="#L" n="100"/>generationem nisi per virtutem activam in 
+gene<lb break="no" ed="#L" n="101"/>ratione. Unde illi soli peccatum originale 
+contra<lb break="no" ed="#L" n="102"/>hunt, qui ab Adam descendunt per virtutem 
+acti<lb break="no" ed="#L" n="103"/>vam in generatione originaliter ab Adam 
+deriva<lb break="no" ed="#L" n="104"/>tam, quod est secundum seminalem rationem
+<lb ed="#L" n="105"/>ab eo descendere: nam ratio seminalis nihil aliud
+<lb ed="#L" n="106"/>est quam vis activa in generatione. Si autem 
+ali<lb break="no" ed="#L" n="107"/>quis formaretur virtute divina ex carne humana,
+<lb ed="#L" n="108"/>manifestum est quod vis activa non derivaretur
+<lb ed="#L" n="109"/>ab Adam. Unde non contraheret peccatum 
+ori<lb break="no" ed="#L" n="110"/>ginale: sicut nec actus manus pertineret ad 
+pec<lb break="no" ed="#L" n="111"/>catum humanum, si manus non moveretur a 
+vo<lb break="no" ed="#L" n="112"/>luntate hominis, sed ab aliquo extrinseco movente.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1139">
+                  <lb ed="#L" n="113"/>AD PRIMUM ERGO DICENDUM quod Adam non fuit
+<lb ed="#L" n="114"/>in loco exilii nisi. post peccatum. Unde non 
+pro<lb break="no" ed="#L" n="115"/>pter locum exilii, sed propter peccatum, traducitur
+<lb ed="#L" n="116"/>originalis culpa ad eos ad quos activa eius 
+ge<lb break="no" ed="#L" n="117"/>neratio pervenit.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1152">
+                  <pb ed="#L" n="92"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD SECUNDUM DICENDUM quod caro non inficit 
+<lb ed="#L" n="2"/>animam nisi inquantum est principium activum  
+<lb ed="#L" n="3"/>In corpore in generatione, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1165">
+                  <lb ed="#L" n="4"/>AD TERTIUM DICENDUM quod ille qui formaretur  
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="5"/>ex carne humana, fuisset in Adam secundum cor- -
+<lb ed="#L" n="6"/>pulentam substantiam; sed non secundum 
+semi<lb break="no" ed="#L" n="7"/>nalem rationem, ut dictum est. Et ideo non: mia.
+<lb ed="#L" n="8"/>contraheret originale peccatum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1090-Dd1e1182"><!-- p2p1-q81-a5 -->
+               <head xml:id="TAca84-d1e1090-Hd1e1185">Articulus 5</head>
+               <head xml:id="TAca84-d1e1090-Hd1e1187" type="question-title">Utrum si adam non peccasset, eva peccante, filii originale peccatum
+    contraherent</head>
+               <p xml:id="TAca84-d1e1090-d1e1190">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="38"/>ARTICULUS QUINTUS
+<lb ed="#L" n="39"/>UTRUM SI ADAM NON PECCASSET, EVA PECCANTE, FILII ORIGINALE PECCATUM
+<lb ed="#L" n="40"/>CONTRAHERENT
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1201">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="41"/>AD QUINTUM SIC PROCEDITUR. Videtur quod, 
+<lb ed="#L" n="42"/>si Adam non peccasset, Eva peccante, 
+<lb ed="#L" n="43"/>filii originale peccatum contraherent. 
+<lb ed="#L" n="44"/>Peccatum enim originale a parentibus 
+<lb ed="#L" n="45"/>contrahimus, inquantum in eis fuimus: 
+secun<lb break="no" ed="#L" n="46"/>dum illud Apostoli, Rom. v: In quo omnes 
+pec<lb break="no" ed="#L" n="47"/>caverunt. Sed sicut homo praeexistit in patre suo,  
+<lb ed="#L" n="48"/>ita in matre. Ergo ex peccato matris homo 
+pec<lb break="no" ed="#L" n="49"/>catum originale contrahere sicut et ex peccato 
+<lb ed="#L" n="50"/>patris. 
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1227">
+                  <lb ed="#L" n="51"/>2. PRAETEREA, Si Eva peccasset, Adam non 
+<lb ed="#L" n="52"/>peccante, filii passibiles et mortales nascerentur:  
+<lb ed="#L" n="53"/>maler enim dat materiam in generatione, ut dicit  
+<lb ed="#L" n="54"/>VERBUE Philosophus; in Hl. de 'Generat. Animal.; mors  
+<lb ed="#L" n="55"/>xus ' autem, et omnis passibilitas, provenit ex 
+neces<lb break="no" ed="#L" n="56"/>sitate materiae. Sed: passibilitas et necessitas 
+mo<lb break="no" ed="#L" n="57"/>riendi sunt poena peccati originalis. Ergo, si Eva 
+<lb ed="#L" n="58"/>peccasset, Adam non peccante, filii contraherent 
+<lb ed="#L" n="59"/>originale peccatum. 
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1250">
+                  <lb ed="#L" n="60"/>3. PRAETEREA, Damascenus dicit, in libro III; 
+<lb ed="#L" n="61"/>quod Spiritus Sanctus. praevenit in. virginem, de 
+<lb ed="#L" n="62"/>qua Christus erat absque peccato originali 
+nasci<lb break="no" ed="#L" n="63"/>turus, purgans eam. Sed illa purgatio nom fuisset  
+<lb ed="#L" n="64"/>necessaria, si infectio originalis peccati non 
+tra<lb break="no" ed="#L" n="65"/>heretur ex matre. Ergo infectio originalis peccati  
+<lb ed="#L" n="66"/>ex matre. trahitur. Et sic, Eva peccante, eius filii  
+<lb ed="#L" n="67"/>peccatum originale contraherent, etiam si Adam 
+<lb ed="#L" n="68"/>non peccasset. 
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1272">
+                  <lb ed="#L" n="69"/>SED coNTRA EST quod Apostolus dinil Rom. v: 
+<lb ed="#L" n="70"/>Per unum hominem peccatum in hunc mundum 
+<lb ed="#L" n="71"/>intravit. Magis autem fuisset dicendum quod per  
+<lb ed="#L" n="72"/>duos intrasset, cum ambo peccaverint; vel potius  
+<lb ed="#L" n="73"/>per mulierem, quae primo: peccavit; si femina 
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="74"/>peccatum originale in. prolem transmitteret. Non
+<lb ed="#L" n="75"/>ergo peccatum originale derivatur in filios a 
+ma<lb break="no" ed="#L" n="76"/>tre, sed a patre.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1294">
+                  <lb ed="#L" n="77"/>RESPONDEO DICENDUM quod huius dubitationis
+<lb ed="#L" n="78"/>solutio ex praemissis apparet. Dictum est enim
+<lb ed="#L" n="79"/>supra quod peccatum originale a primo parente 
+<lb ed="#L" n="80"/>traducitur inquantum ipse movet ad 
+generatio<lb break="no" ed="#L" n="81"/>nem natorum: unde dictum est quod, si materia-
+<lb ed="#L" n="82"/>liter tantum aliquis ex carne humana generaretur,
+<lb ed="#L" n="83"/>originale peccatum non contraheret. Manifestum
+<lb ed="#L" n="84"/>est autem secundum doctrinam philosophorum,
+<lb ed="#L" n="85"/>quod. principium activum in generatione - esta
+<lb ed="#L" n="86"/>patre, materiam autem mater ministrat. -
+<lb ed="#L" n="87"/>peccatum originale non contrahitur a matre E
+<lb ed="#L" n="88"/>a patre. Et secundum hoc, si, Adam non
+<lb ed="#L" n="89"/>cante, Eva peccasset, filii originale peccatum non
+<lb ed="#L" n="90"/>contraherent. E. converso autem esset, si. Adam i
+<lb ed="#L" n="91"/>peccasset, et Eva non peccasset P. 6 5 E
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1329">
+                  <lb ed="#L" n="92"/>AD PRIMUM ERGO DICENDUM quod in patre 
+prae<lb break="no" ed="#L" n="93"/>existit filius sicut in principio activo: sed in matre
+<lb ed="#L" n="94"/>sicut in principio materiali et passivo. Unde non
+<lb ed="#L" n="95"/>est similis ratio.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1340">
+                  <lb ed="#L" n="96"/>AD SECUNDUM DICENDUM quod quibusdam videtur
+<lb ed="#L" n="97"/>quod, Eva peccante, si Adam non peccasset, filii
+<lb ed="#L" n="98"/>essent immunes a culpa, paterentur tamen 
+ne<lb break="no" ed="#L" n="99"/>cessitatem moriendi, et alias passibilitates 
+pro<lb break="no" ed="#L" n="100"/>venientes ex necessitate materiae, quam mater
+<lb ed="#L" n="101"/>ministrat, non sub ratione poenae, sed sicut 
+quos<lb break="no" ed="#L" n="102"/>dam naturales defectus. - Sed hoc non videtur
+<lb ed="#L" n="103"/>conveniens. Immortalitas enim et impassibilitas
+<lb ed="#L" n="104"/>primi status non erat ex conditione materiae, ut in 
+<lb ed="#L" n="105"/>Primo dictum est; sed ex originali iustitia; per.
+<lb ed="#L" n="106"/>quam corpus subdebatur ERA: quandiu anima se
+<pb ed="#L" n="93"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>esset subiecta Deo. Defectus autem originalis 
+iu<lb break="no" ed="#L" n="2"/>stitiae est peccatum originale. Si igitur, Adam non  
+<lb ed="#L" n="3"/>peccante, peccatum originale non transfunderetur 
+<lb ed="#L" n="4"/>in posteros propter peccatum Evae; manifestum 
+<lb ed="#L" n="5"/>est quod in filiis non esset defectus originalis 
+iu<lb break="no" ed="#L" n="6"/>stitiae. Unde non esset in eis possitne vel 
+ne<lb break="no" ed="#L" n="7"/>cessitas moriendi Domum tuam, Domine, decet sanctitudo.
+</p>
+               <p xml:id="TAca84-d1e1090-d1e1386">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>AD TERTIUM DICENDUM quod illa purgatio 
+prae<lb break="no" ed="#L" n="9"/>veniens in beata Virgine, non requirebatur ad
+<lb ed="#L" n="10"/>auferendum transfusionem originalis peccati: sed
+<lb ed="#L" n="11"/>quia oportebat ut Mater Dei maxima puritate 
+nite<lb break="no" ed="#L" n="12"/>ret. Non enim estaliquid digne receptaculum Dei,
+<lb ed="#L" n="13"/>nisi sit mundum; secundum illud Psalmi xcu:
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

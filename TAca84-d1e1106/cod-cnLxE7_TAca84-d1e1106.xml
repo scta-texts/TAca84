@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 84</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 84</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="105"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1106"><!-- p2p1-q84 -->
+            <head xml:id="TAca84-d1e1106-Hd1e101">Quaestio 84</head>
+            <head xml:id="TAca84-d1e1106-Hd1e103" type="question-title">De causa peccati secundum quod unum peccatum
+    alterius peccati causa est</head>
+            <p xml:id="TAca84-d1e1106-d1e106">
+               <pb ed="#L" n="105"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO OCTOGESIMAQUARTA
+<lb ed="#L" n="2"/>DE CAUSA PECCATI SECUNDUM QUOD UNUM PECCATUM.
+<lb ed="#L" n="3"/>ALTERIUS PECCATI CAUSA EST
+<lb ed="#L" n="4"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1106-d1e122">
+               <lb ed="#L" n="5"/>DEINDE considerandum est de causa peccati 
+se<lb break="no" ed="#L" n="6"/>cundum quod unum peccatum est causa 
+al<lb break="no" ed="#L" n="7"/>terius.
+</p>
+            <p xml:id="TAca84-d1e1106-d1e131">
+               <lb ed="#L" n="8"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="9"/>Primo: utrum cupiditas sit radix omnium 
+pec<lb break="no" ed="#L" n="10"/>catorum.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="11"/>Secundo: utrum superbia sit initium omnis 
+pec<lb break="no" ed="#L" n="12"/>cati,
+<lb ed="#L" n="13"/>Tertio: utrum praeter superbiam et avaritiam,
+<lb ed="#L" n="14"/>debeant dici capitalia vitia aliqua specialia
+<lb ed="#L" n="15"/>peccata.
+<lb ed="#L" n="16"/>Quarto: quot et quae sint capitalia vitia.
+</p>
+            <div xml:id="TAca84-d1e1106-Dd1e156"><!-- p2p1-q84-a1 -->
+               <head xml:id="TAca84-d1e1106-Hd1e159">Articulus 1</head>
+               <head xml:id="TAca84-d1e1106-Hd1e161" type="question-title">Utrum cupiditas sit radix omnium peccatorum</head>
+               <p xml:id="TAca84-d1e1106-d1e164">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>ARTICULUS PRIMUS
+<lb ed="#L" n="18"/>UTRUM CUPIDITAS SIT RADIX OMNIUM PECCATORUM
+</p>
+               <p xml:id="TAca84-d1e1106-d1e173">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="19"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="20"/>cupiditas non sit radix omnium 
+pecca<lb break="no" ed="#L" n="21"/>torum. Cupiditas enim, quae est 
+immo<lb break="no" ed="#L" n="22"/>deratus appetitus divitiarum, opponitur
+<lb ed="#L" n="23"/>virtuti liberalitatis. Sed liberalitas non est radix
+<lb ed="#L" n="24"/>omnium virtutum. Ergo cupiditas non est radix
+<lb ed="#L" n="25"/>omnium peccatorum.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e193">
+                  <lb ed="#L" n="26"/>2. PRAETEREA, appetitus eorum quae sunt ad
+<lb ed="#L" n="27"/>finem, procedit ex appetitu finis. Sed divitiae,
+<lb ed="#L" n="28"/>quarum appetitus est cupiditas, non appetuntur
+<lb ed="#L" n="29"/>nisi ut utiles ad aliquem finem, sicut dicitur in I
+<lb ed="#L" n="30"/>Ethic. Ergo cupiditas non est radix omnis 
+pec<lb break="no" ed="#L" n="31"/>cati, sed procedit ex alia priori radice.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e210">
+                  <lb ed="#L" n="32"/>3. PRAETEREA, frequenter invenitur quod 
+ava<lb break="no" ed="#L" n="33"/>ritia, quae cupiditas nominatur, oritur ex aliis 
+pec<lb break="no" ed="#L" n="34"/>catis: puta cum quis appetit pecuniam propter
+<lb ed="#L" n="35"/>ambitionem, vel ut satisfaciat gulae. Non ergo est
+<lb ed="#L" n="36"/>radix omnium peccatorum.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e223">
+                  <lb ed="#L" n="37"/>SED coNTRA EST quod dicit Apostolus, I ad Tim.
+<lb ed="#L" n="38"/>ult.: Radix omnium malorum est cupiditas.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e230">
+                  <lb ed="#L" n="39"/>RESPONDEO DICENDUM quod secundum quosdam,
+<lb ed="#L" n="40"/>cupiditas multipliciter dicitur. Uno modo, prout
+<lb ed="#L" n="41"/>est appetitus inordinatus divitiarum. Et sic est 
+spe<lb break="no" ed="#L" n="42"/>ciale peccatum. - Alio modo, secundum quod 
+si<lb break="no" ed="#L" n="43"/>gnificat inordinatum appetitum cuiuscumque boni
+<lb ed="#L" n="44"/>temporalis. Et sic est genus omnis peccati: nam
+<lb ed="#L" n="45"/>in omni peccato est inordinata conversio ad 
+com<lb break="no" ed="#L" n="46"/>mutabile bonum, ut dictum est. - Tertio modo
+<lb ed="#L" n="47"/>sumitur prout significat quandam inclinationem
+<lb ed="#L" n="48"/>naturae corruptae ad bona corruptibilia inordinate
+<lb ed="#L" n="49"/>appetenda. Et sic dicunt cupiditatem esse radicem
+<lb ed="#L" n="50"/>omnium peccatorum, ad similitudinem radicis 
+ar<lb break="no" ed="#L" n="51"/>boris, quae ex terra trahit alimentum: sic enim
+<lb ed="#L" n="52"/>ex amore rerum temporalium omne peccatum
+<lb ed="#L" n="53"/>procedit.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e265">
+                  <lb ed="#L" n="54"/>Et haec quidem quamvis vera sint, non tamen
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="55"/>videntur esse secundum intentionem Apostoli, qui
+<lb ed="#L" n="56"/>dixit cupiditatem esse radicem omnium 
+peccato<lb break="no" ed="#L" n="57"/>rum. Manifeste enim ibi loquitur contra eos qui,
+<lb ed="#L" n="58"/>cum velint divites fieri, incidunt in tentationes et
+<lb ed="#L" n="59"/>in laqueum. diaboli, eo quod radix omnium 
+ma<lb break="no" ed="#L" n="60"/>lorum est cupiditas: unde manifestum est quod
+<lb ed="#L" n="61"/>loquitur de cupiditate secundum quod est 
+appe<lb break="no" ed="#L" n="62"/>titus inordinatus divitiarum. Et secundum hoc,
+<lb ed="#L" n="63"/>dicendum est quod cupiditas, secundum quod est
+<lb ed="#L" n="64"/>speciale peccatum, dicitur radix omnium 
+peccato<lb break="no" ed="#L" n="65"/>rum, ad similitudinem radicis arboris, quae 
+ali<lb break="no" ed="#L" n="66"/>mentum praestat toti arbori. Videmus enim quod
+<lb ed="#L" n="67"/>per divitias homo acquirit facultatem perpetrandi
+<lb ed="#L" n="68"/>quodcumque peccatum, et adimplendi? desiderium
+<lb ed="#L" n="69"/>cuiuscumque peccati: eo quod ad habenda 
+quae<lb break="no" ed="#L" n="70"/>cumque temporalia bona, potest homo per 
+pecu<lb break="no" ed="#L" n="71"/>niam iuvari; secundum quod dicitur Eccle. x: -
+<lb ed="#L" n="72"/>Pecuniae obediunt omnia. Et secundum hoc, patet
+<lb ed="#L" n="73"/>quod cupiditas divitiarum est radix omnium 
+pec<lb break="no" ed="#L" n="74"/>catorum.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e315">
+                  <lb ed="#L" n="75"/>AD PRIMUM ERGO DICENDUM quod non ab eodem
+<lb ed="#L" n="76"/>oritur virtus et peccatum. Oritur enim peccatum
+<lb ed="#L" n="77"/>ex appetitu commutabilis boni: et ideo appeti-:
+<lb ed="#L" n="78"/>tus illius boni quod iuvat ad consequenda omnia
+<lb ed="#L" n="79"/>temporalia bona, radix peccatorum dicitur. Virtus
+<lb ed="#L" n="80"/>autem oritur ex appetitu incommutabilis boni: et
+<lb ed="#L" n="81"/>ideo caritas, quae est amor Dei, ponitur radix
+<lb ed="#L" n="82"/>virtutum; secundum illud Ephes.ur: Zn cari- -
+<lb ed="#L" n="83"/>tate radicali et fundati.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e337">
+                  <lb ed="#L" n="84"/>AD SECUNDUM DICENDUM quod appetitus 
+pecunia<lb break="no" ed="#L" n="85"/>rum dicitur esse radix peccatorum, non quia '
+<lb ed="#L" n="86"/>divitiae propter se quaerantur, tanquam ultimus
+<lb ed="#L" n="87"/>finis: sed quia multum quaeruntur ut utiles ad
+<lb ed="#L" n="88"/>omnem temporalem finem. Et quia universale
+<lb ed="#L" n="89"/>bonum est appetibilius quam aliquod particulare
+<lb ed="#L" n="90"/>bonum, ideo magis movent ? appetitum quam
+<pb ed="#L" n="106"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quaedam bona singularia, quae simul cum multis
+<lb ed="#L" n="2"/>aliis per pecuniam haberi possunt.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e364">
+                  <lb ed="#L" n="3"/>AD TERTIUM DICENDUM quod, sicut in rebus 
+na<lb break="no" ed="#L" n="4"/>turalibus non quaeritur quid semper fiat, sed quid
+<lb ed="#L" n="5"/>in pluribus accidit, eo quod natura 
+corruptibi<lb break="no" ed="#L" n="6"/>lium rerum impediri potest, ut non semper eodem
+<lb ed="#L" n="7"/>modo operetur; ita etiam in moralibus conside-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>ratur quod ut in pluribus est, non autem quod
+<lb ed="#L" n="9"/>est semper, eo quod voluntas non ex necessitate
+<lb ed="#L" n="10"/>operatur. Non igitur dicitur avaritia radix omnis
+<lb ed="#L" n="11"/>mali, quin interdum aliquod aliud malum sit
+<lb ed="#L" n="12"/>radix eius: sed quia ex ipsa frequentius alia mala
+<lb ed="#L" n="13"/>oriuntur, ratione praedicta.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1106-Dd1e394"><!-- p2p1-q84-a2 -->
+               <head xml:id="TAca84-d1e1106-Hd1e397">Articulus 2</head>
+               <head xml:id="TAca84-d1e1106-Hd1e399" type="question-title">Utrum superbia sit initium omnis peccati</head>
+               <p xml:id="TAca84-d1e1106-d1e402">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="62"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="63"/>UTRUM SUPERBIA SIT INITIUM OMNIS PECCATI
+</p>
+               <p xml:id="TAca84-d1e1106-d1e411">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="64"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="65"/>superbia non sit initium omnis peccati.
+<lb ed="#L" n="66"/>Radix enim est quoddam principium
+<lb ed="#L" n="67"/>garboris: et ita videtur idem esse radix
+<lb ed="#L" n="68"/>peccati et initium peccati. Sed cupiditas est radix
+<lb ed="#L" n="69"/>omnis peccati, ut dictum est. Ergo ipsa etiam
+<lb ed="#L" n="70"/>est initum omnis peccati, non autem superbia.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e431">
+                  <lb ed="#L" n="71"/>2. PRAETEREA, Eccli. x dicitur: Initium 
+super<lb break="no" ed="#L" n="72"/>biae hominis apostatare a Deo. Sed apostasia a
+<lb ed="#L" n="73"/>Deo est quoddam peccatum. Ergo aliquod 
+pec<lb break="no" ed="#L" n="74"/>catum est initium superbiae, et P ipsa non est
+<lb ed="#L" n="75"/>initium omnis peccati.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e445">
+                  <lb ed="#L" n="76"/>3. PRAETEREA, illud videtur esse initium omnis
+<lb ed="#L" n="77"/>peccati, quod facit omnia peccata. Sed hoc est
+<lb ed="#L" n="78"/>inordinatus amor sui, qui facit civitatem 
+Baby<lb break="no" ed="#L" n="79"/>lonis, ut Augustinus dicit, in XIV de Civ. Dei.
+<lb ed="#L" n="80"/>Ergo amor sui est initium omnis peccati, non
+<lb ed="#L" n="81"/>autem superbia.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e461">
+                  <lb ed="#L" n="82"/>SED CONTRA EST quod dicitur Eccli x: 
+Zni<lb break="no" ed="#L" n="83"/>tium omnis peccati superbia.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e468">
+                  <lb ed="#L" n="84"/>REsPONDEO DicENDUM quod quidam dicunt su-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="85"/>perbiam dici tripliciter. Uno modo, secundum
+<lb ed="#L" n="86"/>quod superbia significat inordinatum appetitum
+<lb ed="#L" n="87"/>propriae excellentiae. Et sic est speciale peccatum,
+<lb ed="#L" n="88"/>- Alio modo, secundum quod importat quendam
+<lb ed="#L" n="89"/>actualem contemptum Dei, quantum ad hunc 
+effe<lb break="no" ed="#L" n="90"/>ctum qui est non subdi eius praecepto. Et sic
+<lb ed="#L" n="91"/>dicunt quod est generale peccatum. - Tertio modo,
+<lb ed="#L" n="92"/>secundum quod importat quandam inclinationem
+<lb ed="#L" n="93"/>ad huiusmodi contemptum, ex corruptione 
+natu<lb break="no" ed="#L" n="94"/>rae. Et sic dicunt quod est initium omnis 
+pec<lb break="no" ed="#L" n="95"/>cati. Et differt a cupiditate, quia cupiditas respicit
+<lb ed="#L" n="96"/>peccatum ex parte conversionis ad bonum 
+com<lb break="no" ed="#L" n="97"/>mutabile, ex quo peccatum quodammodo nutritur
+<lb ed="#L" n="98"/>et fovetur, et propter hoc cupiditas dicitur radix:
+<lb ed="#L" n="99"/>sed superbia respicit peccatum ex parte 
+aversio<lb break="no" ed="#L" n="100"/>nis a Deo, cuius praecepto homo subdi recusat;
+<lb ed="#L" n="101"/>et ideo vocatur initium, quia ex parte aversionis
+<lb ed="#L" n="102"/>incipit ratio mali.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e514">
+                  <lb ed="#L" n="103"/>Et haec quidem quamvis vera sint, tamen non
+<lb ed="#L" n="104"/>sunt secundum intentionem Sapientis, qui dixit:
+<lb ed="#L" n="105"/>Initium omnis peccati est superbia. Manifeste enim
+<pb ed="#L" n="107"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>loquitur de superbia secundum quod est 
+inordi<lb break="no" ed="#L" n="2"/>natus appetitus propriae excellentiae: ut patet per
+<lb ed="#L" n="3"/>hoc quod subdit: Sedes ducum superborum 
+de<lb break="no" ed="#L" n="4"/>struxit Deus. Et de hac materia fere loquitur in
+<lb ed="#L" n="5"/>toto capitulo. Et ideo dicendum est quod 
+super<lb break="no" ed="#L" n="6"/>bia, etiam secundum quod est speciale peccatum,
+<lb ed="#L" n="7"/>est initium omnis peccati. Considerandum est
+<lb ed="#L" n="8"/>enim quod in actibus voluntariis, cuiusmodi sunt
+<lb ed="#L" n="9"/>peccata, duplex ordo invenitur: scilicet 
+intentio<lb break="no" ed="#L" n="10"/>nis, et executionis. In primo quidem ordine, habet
+<lb ed="#L" n="11"/>rationem principii finis ?, ut supra multoties 
+di<lb break="no" ed="#L" n="12"/>ctum est. Finis autem in omnibus bonis 
+tem<lb break="no" ed="#L" n="13"/>poralibus acquirendis, est ut homo per illa 
+quan<lb break="no" ed="#L" n="14"/>dam perfectionem et excellentiam habeat. Et
+<lb ed="#L" n="15"/>ideo ex hac parte superbia, quae est appetitus 
+ex<lb break="no" ed="#L" n="16"/>cellentiae, ponitur initium omnis peccati. Sed ex
+<lb ed="#L" n="17"/>parte executionis, est primum id quod praebet
+<lb ed="#L" n="18"/>opportunitatem adimplendi omnia desideria 
+pec<lb break="no" ed="#L" n="19"/>cati, quod habet rationem radicis, scilicet divitiae.
+<lb ed="#L" n="20"/>Et ideo ex hac parte avaritia ponitur esse radix
+<lb ed="#L" n="21"/>omnium malorum, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e573">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="22"/>Et per hoc patet responsio ad primum.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e580">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="23"/>AD SECUNDUM DICENDUM quod apostatare a Deo
+<lb ed="#L" n="24"/>dicitur esse initium superbiae ex parte aversionis:
+<lb ed="#L" n="25"/>ex hoc enim quod homo non vult subdi Deo,
+<lb ed="#L" n="26"/>sequitur quod inordinate velit propriam 
+excel<lb break="no" ed="#L" n="27"/>lentiam in rebus temporalibus. Et sic apostasia
+<lb ed="#L" n="28"/>a Deo non sumitur ibi quasi speciale peccatum:
+<lb ed="#L" n="29"/>sed magis ut quaedam conditio generalis omnis
+<lb ed="#L" n="30"/>peccati, quae est aversio ab incommutabili bono. -
+<lb ed="#L" n="31"/>Vel potest dici quod apostatare a Deo dicitur
+<lb ed="#L" n="32"/>esse initium superbiae, quia est prima superbiae
+<lb ed="#L" n="33"/>species. Ad superbiam enim pertinet cuicumque
+<lb ed="#L" n="34"/>superiori nolle subiici, et praecipue nolle subdi
+<lb ed="#L" n="35"/>Deo; ex quo contingit quod homo supra 
+se<lb break="no" ed="#L" n="36"/>ipsum indebite extollatur, quantum ad alias 
+su<lb break="no" ed="#L" n="37"/>perbiae species.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e618">
+                  <lb ed="#L" n="38"/>AD TERTIUM DICENDUM quod in hoc homo se
+<lb ed="#L" n="39"/>amat, quod sui excellentiam vult: idem enim est
+<lb ed="#L" n="40"/>se amare quod sibi velle bonum. Unde ad idem
+<lb ed="#L" n="41"/>pertinet quod ponatur initium omnis peccati 
+su<lb break="no" ed="#L" n="42"/>perbia, vel amor proprius.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1106-Dd1e632"><!-- p2p1-q84-a3 -->
+               <head xml:id="TAca84-d1e1106-Hd1e635">Articulus 3</head>
+               <head xml:id="TAca84-d1e1106-Hd1e637" type="question-title">Utrum praeter superbiam et avaritiam, sint alia peccata specialia
+    quae dici debeant capitalia</head>
+               <p xml:id="TAca84-d1e1106-d1e640">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="100"/>ARTICULUS TERTIUS
+<lb ed="#L" n="101"/>UTRUM PRAETER SUPERBIAM ET AVARITIAM, SINT ALIA PECCATA SPECIALIA
+<lb ed="#L" n="102"/>QUAE DICI DEBEANT CAPITALIA
+</p>
+               <p xml:id="TAca84-d1e1106-d1e651">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="103"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="104"/>praeter superbiam et avaritiam, non sint
+<lb ed="#L" n="105"/>quaedam alia peccata specialia quae 
+di<lb break="no" ed="#L" n="106"/>cantur capitalia. Ita enim se videtur 
+ha<lb break="no" ed="#L" n="107"/>bere caput ad animalia, sicut radix ad plantas,
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="108"/>ut dicitur in II de Anima:. nam radices sunt ori
+<lb ed="#L" n="109"/>similes. Si igitur cupiditas dicitur radix omnium
+<lb ed="#L" n="110"/>malorum, videtur quod ipsa sola debeat dici 
+vi<lb break="no" ed="#L" n="111"/>tium capitale, et nullum aliud peccatum.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e677">
+                  <lb ed="#L" n="112"/>2. PRAETEREA, caput habet quendam ordinem
+<pb ed="#L" n="108"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ad alia membra, inquantum a capite diffunditur 
+<lb ed="#L" n="2"/>quodammodo sensus et motus. Sed peccatum 
+di<lb break="no" ed="#L" n="3"/>citur per privationem ordinis. Ergo peccatum non
+<lb ed="#L" n="4"/>habet rationem capitis. Et ita non debent poni
+<lb ed="#L" n="5"/>aliqua capitalia peccata.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e698">
+                  <lb ed="#L" n="6"/>3. PRAETEREA, capitalia crimina dicuntur quae
+<lb ed="#L" n="7"/>capite plectuntur. Sed tali poena puniuntur 
+quae<lb break="no" ed="#L" n="8"/>dam peccata in singulis generibus. Ergo vitia 
+ca<lb break="no" ed="#L" n="9"/>pitalia non sunt aliqua determinata secundum 
+spe<lb break="no" ed="#L" n="10"/>ciem.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e711">
+                  <lb ed="#L" n="11"/>SED coNTRA EsT quod Gregorius, XXXI AMoral.,
+<lb ed="#L" n="12"/>enumerat quaedam specialia vitia, quae dicit esse
+<lb ed="#L" n="13"/>capitalia.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e720">
+                  <lb ed="#L" n="14"/>RESPONDEO DICENDUM quod capitale a capite 
+di<lb break="no" ed="#L" n="15"/>citur. Caput autem proprie quidem est quoddam
+<lb ed="#L" n="16"/>membrum animalis, quod est principium et 
+dire<lb break="no" ed="#L" n="17"/>ctivum totius animalis. Unde metaphorice omne
+<lb ed="#L" n="18"/>principium ? caput vocatur: et etiam homines qui
+<lb ed="#L" n="19"/>alios dirigunt et gubernant, capita aliorum 
+dicun<lb break="no" ed="#L" n="20"/>tur. Dicitur ergo vitium capitale uno modo a
+<lb ed="#L" n="21"/>capite proprie dicto: et secundum hoc, peccatum
+<lb ed="#L" n="22"/>capitale dicitur peccatum quod capitis poena 
+pu<lb break="no" ed="#L" n="23"/>nitur. Sed sic nunc non intendimus de capitalibus
+<lb ed="#L" n="24"/>peccatis: sed secundum quod alio modo dicitur
+<lb ed="#L" n="25"/>peccatum capitale a capite ? prout metaphorice
+<lb ed="#L" n="26"/>significat principium vel directivum aliorum. Et
+<lb ed="#L" n="27"/>sic dicitur vitium capitale ex quo alia vitia 
+oriun<lb break="no" ed="#L" n="28"/>tur: et praecipue secundum originem causae fi-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="29"/>nalis, quae est formalis origo, ut supra dictum
+<lb ed="#L" n="30"/>est. Et ideo vitium capitale non solum est 
+prin<lb break="no" ed="#L" n="31"/>cipium aliorum, sed etiam est directivum et 
+quo<lb break="no" ed="#L" n="32"/>dammodo ductivum aliorum: semper enim ars
+<lb ed="#L" n="33"/>vel habitus ad quem pertinet finis, principatur
+<lb ed="#L" n="34"/>et imperat circa ea quae sunt ad finem. Unde
+<lb ed="#L" n="35"/>Gregorius, XXXI Moral., huiusmodi vitia 
+capi<lb break="no" ed="#L" n="36"/>talia ducibus exercituum comparat.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e775">
+                  <lb ed="#L" n="37"/>AD PRIMUM ERGO DICENDUM quod capitale. dicitur
+<lb ed="#L" n="38"/>denominative a capite, quod quidem est per 
+quan<lb break="no" ed="#L" n="39"/>dam derivationem vel participationem capitis,
+<lb ed="#L" n="40"/>sicut habens aliquam proprietatem capitis, non 
+<lb ed="#L" n="41"/>sicut simpliciter caput. Et ideo capitalia vitia 
+di<lb break="no" ed="#L" n="42"/>cuntur non solum illa quae habent rationem 
+pri<lb break="no" ed="#L" n="43"/>mae originis, sicut avaritia, quae dicitur radix,
+<lb ed="#L" n="44"/>et superbia, quae dicitur znitium: sed etiam illa
+<lb ed="#L" n="45"/>quae habent rationem originis propinquae 
+respe<lb break="no" ed="#L" n="46"/>ctu plurium peccatorum.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e799">
+                  <lb ed="#L" n="47"/>AD SECUNDUM DICENDUM quod peccatum. caret
+<lb ed="#L" n="48"/>ordine ex parte aversionis: ex hac enim parte
+<lb ed="#L" n="49"/>habet rationem mali; malum autem, secundum
+<lb ed="#L" n="50"/>Augustinum, in libro de Natura Boni, est 
+pri<lb break="no" ed="#L" n="51"/>vatio modi, speciei et ordinis. Sed. ex parte 
+con<lb break="no" ed="#L" n="52"/>versionis, respicit quoddam bonum. Et ideo ex
+<lb ed="#L" n="53"/>hac parte potest habere ordinem.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e817">
+                  <lb ed="#L" n="54"/>AD TERTIUM DICENDUM quod illa ratio procedit de
+<lb ed="#L" n="55"/>capitali peccato secundum quod dicitur a reatu
+<lb ed="#L" n="56"/>poenae. Sic autem hic non loquimur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1106-Dd1e827"><!-- p2p1-q84-a4 -->
+               <head xml:id="TAca84-d1e1106-Hd1e830">Articulus 4</head>
+               <head xml:id="TAca84-d1e1106-Hd1e832" type="question-title">Utrum convenienter dicantur septem vitia capitalia</head>
+               <p xml:id="TAca84-d1e1106-d1e835">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="57"/>ARTICULUS QUARTUS
+<lb ed="#L" n="58"/>UTRUM CONVENIENTER DICANTUR SEPTEM VITIA CAPITALIA
+</p>
+               <p xml:id="TAca84-d1e1106-d1e844">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="59"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="60"/>non sit dicendum septem esse vitia 
+ca<lb break="no" ed="#L" n="61"/>pitalia, quae sunt inanis gloria, invidia,
+<lb ed="#L" n="62"/>ita, tristitia, avaritia, gula, luxuria. 
+Pec<lb break="no" ed="#L" n="63"/>cata enim virtutibus opponuntur. Virtutes autem
+<lb ed="#L" n="64"/>principales sunt quatuor, ut supra dictum est.
+<lb ed="#L" n="65"/>Ergo et vitia principalia, sive capitalia, non sunt
+<lb ed="#L" n="66"/>nisi quatuor.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e866">
+                  <lb ed="#L" n="67"/>2. PRAETEREA, passiones animae sunt quaedam
+<lb ed="#L" n="68"/>causae peccati, ut supra dictum est. Sed 
+pas<lb break="no" ed="#L" n="69"/>siones animae principales sunt quatuor. De 
+qua<lb break="no" ed="#L" n="70"/>rum duabus nulla fit mentio inter praedicta 
+pec<lb break="no" ed="#L" n="71"/>cata, scilicet de spe et timore. Enumerantur autem
+<lb ed="#L" n="72"/>aliqua vitia ad quae pertinet delectatio et tristitia:
+<lb ed="#L" n="73"/>nam delectatio pertinet ad gulam et luxuriam,
+<lb ed="#L" n="74"/>tristitia vero ad acediam et invidiam. Ergo 
+in<lb break="no" ed="#L" n="75"/>convenienter enumerantur principalia peccata.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e889">
+                  <lb ed="#L" n="76"/>3. PRAETEREA, ira non est principalis passio.
+<lb ed="#L" n="77"/>Non ergo debuit poni inter principalia vitia.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e896">
+                  <lb ed="#L" n="78"/>4. PRAETEREA, sicut cupiditas, sive avaritia, est
+<lb ed="#L" n="79"/>radix peccati, ita superbia est peccati initium, ut
+<lb ed="#L" n="80"/>supra dictum est. Sed avaritia ponitur unum de
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="81"/>septem vitiis capitalibus. Ergo superbia inter vitia
+<lb ed="#L" n="82"/>capitalia enumeranda esset.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e912">
+                  <lb ed="#L" n="83"/>5. PRAETEREA, quaedam peccata committuntur
+<lb ed="#L" n="84"/>quae ex nullo horum causari possunt: sicut cum
+<lb ed="#L" n="85"/>aliquis errat ex ignorantia; vel cum aliquis ex 
+ali<lb break="no" ed="#L" n="86"/>qua bona intentione committit aliquod peccatum,
+<lb ed="#L" n="87"/>puta cum aliquis furatur ut det eleemosynam.
+<lb ed="#L" n="88"/>Ergo insufficienter capitalia vitia enumerantur.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e928">
+                  <lb ed="#L" n="89"/>SED IN CONTRARIUM EST auctoritas Gregorii sic
+<lb ed="#L" n="90"/>enumerantis, XXXI Moralium.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e935">
+                  <lb ed="#L" n="91"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="92"/>vitia capitalia dicuntur ex quibus alia oriuntur,
+<lb ed="#L" n="93"/>praecipue secundum rationem causae finalis.
+<lb ed="#L" n="94"/>Huiusmodi autem origo potest attendi dupliciter.
+<lb ed="#L" n="95"/>Uno quidem modo, secundum conditionem 
+pec<lb break="no" ed="#L" n="96"/>cantis, qui sic dispositus est ut maxime afficiatur
+<lb ed="#L" n="97"/>ad unum finem, ex quo ut plurimum in alia 
+pec<lb break="no" ed="#L" n="98"/>cata procedat. Sed iste modus originis sub arte
+<lb ed="#L" n="99"/>cadere non potest: eo quod infinitae sunt 
+parti<lb break="no" ed="#L" n="100"/>culares hominum dispositiones. - Alio modo, 
+se<lb break="no" ed="#L" n="101"/>cundum naturalem habitudinem ipsorum finium
+<lb ed="#L" n="102"/>ad invicem. Et secundum hoc, ut in pluribus
+<pb ed="#L" n="109"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>unum vitium ex alio oritur. Unde iste modus 
+ori<lb break="no" ed="#L" n="2"/>ginis sub arte cadere potest.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e972">
+                  <lb ed="#L" n="3"/>Secundum hoc ergo, illa vitia capitalia dicuntur,
+<lb ed="#L" n="4"/>quorum fines habent quasdam primarias rationes
+<lb ed="#L" n="5"/>movendi appetitum: et secundum harum: 
+ratio<lb break="no" ed="#L" n="6"/>num distinctionem, distinguuntur capitalia vitia.
+<lb ed="#L" n="7"/>Movet autem aliquid appetitum dupliciter. Uno
+<lb ed="#L" n="8"/>modo, directe et per se: et hoc modo bonum
+<lb ed="#L" n="9"/>movet appetitum ad prosequendum, malum 
+au<lb break="no" ed="#L" n="10"/>tem, secundum eandem rationem, ad fugiendum.
+<lb ed="#L" n="11"/>Alio modo, indirecte et quasi per aliud: sicut
+<lb ed="#L" n="12"/>aliquis aliquod malum prosequitur propter 
+ali<lb break="no" ed="#L" n="13"/>quod bonum adiunctum, vel aliquod bonum fugit
+<lb ed="#L" n="14"/>propter aliquod malum adiunctum.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e1002">
+                  <lb ed="#L" n="15"/>Bonum autem hominis est triplex. Est enim
+<lb ed="#L" n="16"/>primo quoddam bonum animae, quod scilicet ex
+<lb ed="#L" n="17"/>sola apprehensione rationem appetibilitatis 5 
+ha<lb break="no" ed="#L" n="18"/>bet, scilicet excellentia laudis vel honoris: et hoc
+<lb ed="#L" n="19"/>bonum inordinate prosequitur inanis gloria. Aliud
+<lb ed="#L" n="20"/>est bonum corporis: et hoc vel pertinet ad 
+con<lb break="no" ed="#L" n="21"/>servationem individui, sicut cibus et potus, et
+<lb ed="#L" n="22"/>hoc bonum inordinate prosequitur guía; aut ad
+<lb ed="#L" n="23"/>conservationem speciel, sicut coitus, et ad hoc
+<lb ed="#L" n="24"/>ordinatur /|uxuria. Tertium bonum est exterius,
+<lb ed="#L" n="25"/>scilicet divitiae: et ad hoc ordinatur avaritia. Et
+<lb ed="#L" n="26"/>eadem quatuor vitia inordinate fugiunt ! mala
+<lb ed="#L" n="27"/>contraria.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e1033">
+                  <lb ed="#L" n="28"/>Vel aliter, bonum praecipue movet appetitum
+<lb ed="#L" n="29"/>ex hoc quod participat aliquid de proprietate 
+fe<lb break="no" ed="#L" n="30"/>licitats, quam naturaliter omnes appetunt. De
+<lb ed="#L" n="31"/>cuius ratione est quidem. primo. quaedam 
+perfe<lb break="no" ed="#L" n="32"/>ctio, nam felicitas est perfectum ? bonum: ad
+<lb ed="#L" n="33"/>quod pertinet excellentia vel claritas, quam. 
+ap<lb break="no" ed="#L" n="34"/>petit superbia vel inanis gloria. Secundo de 
+ra<lb break="no" ed="#L" n="35"/>tione eius est sufficientia: quam appetit avaritia
+<lb ed="#L" n="36"/>in divitiis eam promittentibus. Tertio est de 
+con<lb break="no" ed="#L" n="37"/>ditione eius delectatio, sine qua felicitas esse non
+<lb ed="#L" n="38"/>potest, ut dicitur in 1 et X Efhic.: et hanc
+<lb ed="#L" n="39"/>appetunt gula et luxuria.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e1062">
+                  <lb ed="#L" n="40"/>Quod autem aliquis bonum fugiat propter 
+ali<lb break="no" ed="#L" n="41"/>quod malum coniunctum, hoc contingit dupliciter.
+<lb ed="#L" n="42"/>Quia aut hoc est respectu boni proprii: et sic est
+<lb ed="#L" n="43"/>acedia, quae tristatur de bono spirituali, propter
+<lb ed="#L" n="44"/>laborem corporalem adiunctum. Aut est de bono
+<lb ed="#L" n="45"/>alieno: et hoc, si sit sine insurrectione, pertinet
+<lb ed="#L" n="46"/>ad invidiam, quae tristatur de bono alieno, in-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="47"/>quantum est impeditivum propriae excellentiae;
+<lb ed="#L" n="48"/>aut est cum quadam insurrectione ad vindictam,
+<lb ed="#L" n="49"/>et sic est ira. Et ad eadem etiam vitia pertinet
+<lb ed="#L" n="50"/>prosecutio mali oppositi.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e1091">
+                  <lb ed="#L" n="51"/>AD PRIMUM ERGO DICENDUM quod non est eadem
+<lb ed="#L" n="52"/>ratio originis in virtutibus et vitiis: nam virtutes
+<lb ed="#L" n="53"/>causantur per ordinem appetitus ad rationem, vel
+<lb ed="#L" n="54"/>etiam ad bonum incommutabile, quod est Deus;
+<lb ed="#L" n="55"/>vitia autem oriuntur ex appetitu boni 
+commuta<lb break="no" ed="#L" n="56"/>bilis. Unde non oportet quod principalia vitia 
+op<lb break="no" ed="#L" n="57"/>ponantur principalibus virtutibus.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e1109">
+                  <lb ed="#L" n="58"/>AD SECUNDUM DICENDUM quod timor et spes sunt
+<lb ed="#L" n="59"/>passiones irascibilis. Omnes autem passiones 
+ira<lb break="no" ed="#L" n="60"/>scibilis oriuntur ex passionibus concupiscibilis:
+<lb ed="#L" n="61"/>quae etiam omnes ordinantur quodammodo ad
+<lb ed="#L" n="62"/>delectationem et tristitiam. Et ideo delectatio et
+<lb ed="#L" n="63"/>tristitia principaliter connumerantur in peccatis
+<lb ed="#L" n="64"/>capitalibus, tanquam principalissimae passiones,
+<lb ed="#L" n="65"/>ut supra habitum est.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e1129">
+                  <lb ed="#L" n="66"/>AD TERTIUM DICENDUM quod ira, licet non sit 
+prin<lb break="no" ed="#L" n="67"/>cipalis passio, quia tamen habet specialem rationem
+<lb ed="#L" n="68"/>appetitivi motus, prout aliquis impugnat bonum
+<lb ed="#L" n="69"/>alterius sub ratione honesti, idest iusti vindicativi;
+<lb ed="#L" n="70"/>ideo distinguitur ab aliis capitalibus vitiis.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e1143">
+                  <lb ed="#L" n="71"/>AD QUARTUM DICENDUM quod superbia dicitur
+<lb ed="#L" n="72"/>esse initium omnis peccati secundum rationem
+<lb ed="#L" n="73"/>finis, ut dictum est. Et secundum eandem 
+ra<lb break="no" ed="#L" n="74"/>tionem accipitur principalitas vitiorum capitalium.
+<lb ed="#L" n="75"/>Et ideo superbia, quasi universale vitium, non
+<lb ed="#L" n="76"/>connumeratur, sed magis ponitur velut regina
+<lb ed="#L" n="77"/>quaedam omnium vitiorum, sicut Gregorius 
+di<lb break="no" ed="#L" n="78"/>cit . Avaritia autem dicitur radix secundum
+<lb ed="#L" n="79"/>aliam rationem, sicut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e1106-d1e1165">
+                  <lb ed="#L" n="80"/>AD QUINTUM DICENDUM quod ista vitia dicuntur
+<lb ed="#L" n="81"/>capitalia, quia ex eis ut frequentius alia oriuntur.
+<lb ed="#L" n="82"/>Unde nihil prohibet aliqua peccata interdum ex
+<lb ed="#L" n="83"/>aliis causis oriri. - Potest tamen dici quod omnia
+<lb ed="#L" n="84"/>peccata quae ex ignorantia proveniunt, possunt
+<lb ed="#L" n="85"/>reduci ad acediam, ad quam pertinet negligentia
+<lb ed="#L" n="86"/>qua aliquis recusat bona spiritualia acquirere 
+pro<lb break="no" ed="#L" n="87"/>pter laborem: ignorantia enim. quae potest esse
+<lb ed="#L" n="88"/>causa peccati, ex negligentia provenit, ut supra 
+<lb ed="#L" n="89"/>dictum est. Quod autem aliquis committat aliquod
+<lb ed="#L" n="90"/>peccatum ex bona intentione, videtur ad 
+ignoran<lb break="no" ed="#L" n="91"/>tiam pertinere: inquantum scilicet ignorat quod
+<lb ed="#L" n="92"/>non sunt facienda mala ut veniant bona.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

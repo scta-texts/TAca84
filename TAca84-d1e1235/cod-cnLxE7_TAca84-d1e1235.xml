@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 109</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 109</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="289"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1235"><!-- p2p1-q109 -->
+            <head xml:id="TAca84-d1e1235-Hd1e101">Quaestio 109</head>
+            <head xml:id="TAca84-d1e1235-Hd1e103" type="question-title">De necessitate gratiae</head>
+            <p xml:id="TAca84-d1e1235-d1e106">
+               <pb ed="#L" n="289"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO CENTESIMANONA
+<lb ed="#L" n="2"/>DE NECESSITATE GRATIAE
+<lb ed="#L" n="3"/>IN DECEM ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1235-d1e119">
+               <lb ed="#L" n="4"/>Consequenter considerandum est de exteriori
+<lb ed="#L" n="5"/>principio humanorum actuum, scilicet de Deo,
+<lb ed="#L" n="6"/>prout ab ipso per gratiam adiuvamur ad recte 
+agen<lb break="no" ed="#L" n="7"/>dum. Et primo, considerandum est de gratia Dei;
+<lb ed="#L" n="8"/>secundo, de causa eius; tertio, de eius effectibus em
+<lb ed="#L" n="9"/>Prima autem consideratio erit tripartita: nam
+<lb ed="#L" n="10"/>primo; considerabimus de necessitate gratiae;
+<lb ed="#L" n="11"/>secundo, de ipsa gratia quantum ad eius 
+essen<lb break="no" ed="#L" n="12"/>tiam; tertio, de eius divisione.
+</p>
+            <p xml:id="TAca84-d1e1235-d1e141">
+               <lb ed="#L" n="13"/>Circa primum quaeruntur decem.
+<lb ed="#L" n="14"/>Primo: utrum absque gratia possit homo aliquod
+<lb ed="#L" n="15"/>verum cognoscere..
+<lb ed="#L" n="16"/>Secundo: utrum absque gratia Dei possit homo
+<lb ed="#L" n="17"/>aliquod bonum facere vel velle.
+<lb ed="#L" n="18"/>Tertio: utrum homo absque gratia possit Deum
+<lb ed="#L" n="19"/>diligere super omnia.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="20"/>Quarto: utrum absque gratia possit ? praecepta
+<lb ed="#L" n="21"/>legis observare.
+<lb ed="#L" n="22"/>Quinto: utrum absque gratia possit mereri 
+vi<lb break="no" ed="#L" n="23"/>tam aeternam.
+<lb ed="#L" n="24"/>Sexto: utrum homo possit se ad gratiam 
+prae<lb break="no" ed="#L" n="25"/>parare sine gratia.
+<lb ed="#L" n="26"/>Septimo: utrum homo sine gratia possit 
+resur<lb break="no" ed="#L" n="27"/>gere a peccato.
+<lb ed="#L" n="28"/>Octavo: utrum absque gratia possit homo vitare
+<lb ed="#L" n="29"/>peccatum.
+<lb ed="#L" n="30"/>Nono: utrum homo gratiam consecutus possit,
+<lb ed="#L" n="31"/>absque alio divino auxilio, bonum facere et
+<lb ed="#L" n="32"/>vitare peccatum.
+<lb ed="#L" n="33"/>Decimo: utrum possit perseverare in bono per
+<lb ed="#L" n="34"/>seipsum.
+</p>
+            <div xml:id="TAca84-d1e1235-Dd1e194"><!-- p2p1-q109-a1 -->
+               <head xml:id="TAca84-d1e1235-Hd1e197">Articulus 1</head>
+               <head xml:id="TAca84-d1e1235-Hd1e199" type="question-title">Utrum homo sine gratia aliquod verum cognoscere possit</head>
+               <p xml:id="TAca84-d1e1235-d1e202">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>ARTICULUS PRIMUS
+<lb ed="#L" n="36"/>UTRUM HOMO SINE GRATIA ALIQUOD VERUM COGNOSCERE POSSIT
+</p>
+               <p xml:id="TAca84-d1e1235-d1e211">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="37"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="38"/>homo sine gratia nullum verum 
+cogno<lb break="no" ed="#L" n="39"/>scere possit. Quia super illud I Cor. xu,
+<lb ed="#L" n="40"/>Nemo polest dicere, Dominus Iesus, nisi
+<lb ed="#L" n="41"/>in Spiritu Sancto, dicit Glossa Ambrosii: Omne
+<lb ed="#L" n="42"/>verum, a quocumque dicatur, a Spiritu Sancto est.
+<lb ed="#L" n="43"/>Sed Spiritus Sanctus habitat in nobis per gratiam.
+<lb ed="#L" n="44"/>Ergo veritatem cognoscere non possumus sine
+<lb ed="#L" n="45"/>gratia.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e235">
+                  <lb ed="#L" n="46"/>2. PRAETEREA, Augustinus dicit, in I Soliloq.,
+<lb ed="#L" n="47"/>quod disciplinarum certissima alia. sunt qualia
+<lb ed="#L" n="48"/>illa quae a sole illustrantur ut videri possint; Deus
+<lb ed="#L" n="49"/>autem ipse est qui illustrat; ratio autem ila esi
+<lb ed="#L" n="50"/>in mentibus ut in oculis est aspectus; mentis autem
+<lb ed="#L" n="51"/>oculi sunt sensus animae. Sed sensus corporis,
+<lb ed="#L" n="52"/>quantumcumque sit purus, non potest aliquod
+<lb ed="#L" n="53"/>visibile videre sine solis illustratione. Ergo 
+hu<lb break="no" ed="#L" n="54"/>mana mens, quantumcumque sit perfecta, non
+<lb ed="#L" n="55"/>potest ratiocinando veritatem cognoscere absque 
+<lb ed="#L" n="56"/>illustratione divina. Quae ad auxilium gratiae 
+per<lb break="no" ed="#L" n="57"/>tinet.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e265">
+                  <lb ed="#L" n="58"/>3. PRAETEREA, humana mens non potest 
+verita<lb break="no" ed="#L" n="59"/>tem intelligere nisi cogitando; ut patet per 
+Au<lb break="no" ed="#L" n="60"/>gustinum, XIV de Trin. Sed Apostolus dicit, II
+<lb ed="#L" n="61"/>ad Cor.: Non sufficientes sumus aliquid 
+co<lb break="no" ed="#L" n="62"/>gilare a nobis, quasi ex nobis. Ergo homo non
+<lb ed="#L" n="63"/>potest cognoscere veritatem per seipsum sine 
+au<lb break="no" ed="#L" n="64"/>xilio gratiae.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e283">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="65"/>SED CONTRA EST quod Augustinus dicit, in I 
+Re<lb break="no" ed="#L" n="66"/>tract.: Non approbo quod in oratione dixi: Deus,
+<lb ed="#L" n="67"/>qui non nisi mundos verum scire voluisti. 
+Re<lb break="no" ed="#L" n="68"/>sponderi enim potest multos etiam non mundos
+<lb ed="#L" n="69"/>multa scire vera. Sed per gratiam homo mundus
+<lb ed="#L" n="70"/>efficitur; secundum illud Psalmi t.: Cor mundum
+<lb ed="#L" n="71"/>crea in me, Deus; et spiritum rectum innova in
+<lb ed="#L" n="72"/>visceribus meis. Ergo sine gratia potest homo per
+<lb ed="#L" n="73"/>seipsum veritatem cognoscere.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e307">
+                  <lb ed="#L" n="74"/>RESPONDEO DICENDUM quod cognoscere veritatem
+<lb ed="#L" n="75"/>est usus quidam, vel actus, intellectualis luminis:
+<lb ed="#L" n="76"/>quia secundum Apostolum, ad Ephes. v, omne
+<lb ed="#L" n="77"/>quod manifestatur, lumen est. Usus autem quilibet
+<lb ed="#L" n="78"/>quendam motum importat: large accipiendo 
+mo<lb break="no" ed="#L" n="79"/>tum; secundum quod intelligere et velle motus
+<lb ed="#L" n="80"/>quidam esse dicuntur, ut patet per Philosophum
+<lb ed="#L" n="81"/>in III de Anima. Videmus autem in corporalibus
+<lb ed="#L" n="82"/>quod ad motum non solum requiritur ipsa forma
+<lb ed="#L" n="83"/>quae est principium motus vel actionis; sed etiam
+<lb ed="#L" n="84"/>requiritur motio primi moventis. Primum autem
+<lb ed="#L" n="85"/>movens in ordine corporalium est corpus caeleste.
+<lb ed="#L" n="86"/>Unde quantumcumque ignis habeat perfectum 
+ca<lb break="no" ed="#L" n="87"/>lorem, non alteraret nisi per motionem caelestis
+<lb ed="#L" n="88"/>corporis. Manifestum est autem quod, sicut omnes
+<lb ed="#L" n="89"/>motus corporales reducuntur in motum caelestis
+<lb ed="#L" n="90"/>corporis sicut in primum movens corporale; ita
+<lb ed="#L" n="91"/>omnes motus tam corporales quam spirituales
+<lb ed="#L" n="92"/>reducuntur in primum movens simpliciter, quod
+<pb ed="#L" n="290"/>
+                  <!-- p. 290 -->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>est Deus. Et ideo quantumcumque natura aliqua
+<lb ed="#L" n="2"/>corporalis vel spiritualis ponatur perfecta, non
+<lb ed="#L" n="3"/>potest in suum actum procedere nisi moveatur
+<lb ed="#L" n="4"/>a Deo. Quae quidem motio est secundum suae
+<lb ed="#L" n="5"/>providentiae rationem; non secundum 
+necessita<lb break="no" ed="#L" n="6"/>tem naturae, sicut motio corporis caelestis. Non
+<lb ed="#L" n="7"/>solum autem a Deo est omnis motio sicut a primo
+<lb ed="#L" n="8"/>movente; sed etiam ab ipso est omnis formalis
+<lb ed="#L" n="9"/>perfectio sicut a primo actu. Sic igitur actio 
+in<lb break="no" ed="#L" n="10"/>tellectus, et cuiuscumque entis creati, dependet a
+<lb ed="#L" n="11"/>Deo quantum ad duo: uno modo, inquantum ab
+<lb ed="#L" n="12"/>ipso habet formam? per quam agit; alio modo,
+<lb ed="#L" n="13"/>inquantum ab ipso movetur ad agendum.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e385">
+                  <lb ed="#L" n="14"/>Unaquaeque autem forma indita rebus creatis
+<lb ed="#L" n="15"/>a Deo, habet efficaciam respectu alicuius actus
+<lb ed="#L" n="16"/>determinati, i in quem potest secundum suam 
+pro<lb break="no" ed="#L" n="17"/>prietatem: ultra autem non potest nisi per aliquam
+<lb ed="#L" n="18"/>formam superadditam, sicut aqua non potest 
+ca<lb break="no" ed="#L" n="19"/>lefacere nisi calefacta ab igne. Sic igitur intellectus
+<lb ed="#L" n="20"/>humanus habet aliquam formam, scilicet ipsum
+<lb ed="#L" n="21"/>intelligibile lumen, quod est de se sufficiens ad
+<lb ed="#L" n="22"/>quaedam intelligibilia cognoscenda: ad ea scilicet
+<lb ed="#L" n="23"/>in quorum notitiam per sensibilia possumus 
+deve<lb break="no" ed="#L" n="24"/>nire. Altiora vero intelligibilia intellectus humanus
+<lb ed="#L" n="25"/>cognoscere non potest nisi fortiori lumine 
+per<lb break="no" ed="#L" n="26"/>ficiatur, sicut lumine fidei vel prophetiae; quod
+<lb ed="#L" n="27"/>dicitur /umen gratiae, inquantum est naturae 
+su<lb break="no" ed="#L" n="28"/>peradditum.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e420">
+                  <lb ed="#L" n="29"/>Sic igitur dicendum est quod ad cognitionem
+<lb ed="#L" n="30"/>cuiuscumque veri, homo indiget auxilio divino
+<lb ed="#L" n="31"/>ut intellectus a Deo moveatur ad suum actum.
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="32"/>Non autem indiget ad cognoscendam veritatem in
+<lb ed="#L" n="33"/>omnibus, nova illustratione superaddita naturali 
+il<lb break="no" ed="#L" n="34"/>lustrationi; sed in quibusdam, quae excedunt 
+na<lb break="no" ed="#L" n="35"/>turalem cognitionem. - Et tamen quandoque Deus
+<lb ed="#L" n="36"/>miraculose per suam gratiam aliquos instruit de
+<lb ed="#L" n="37"/>his quae per naturalem rationem cognosci 
+pos<lb break="no" ed="#L" n="38"/>sunt: sicut et quandoque miraculose facit 
+quae<lb break="no" ed="#L" n="39"/>dam quae natura facere potest.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e449">
+                  <lb ed="#L" n="40"/>AD PRIMUM ERGO DICENDUM quod omne verum,
+<lb ed="#L" n="41"/>a quocumque dicatur, est a Spiritu Sancto sicut
+<lb ed="#L" n="42"/>ab infundente naturale lumen, et movente ad 
+in<lb break="no" ed="#L" n="43"/>telligendum et loquendum veritatem. Non autem
+<lb ed="#L" n="44"/>sicut ab inhabitante per gratiam gratum 
+facien<lb break="no" ed="#L" n="45"/>tem, vel sicut a largiente aliquod habituale donum
+<lb ed="#L" n="46"/>naturae superadditum: sed hoc solum est in 
+qui<lb break="no" ed="#L" n="47"/>busdam veris cognoscendis et loquendis; et 
+ma<lb break="no" ed="#L" n="48"/>xime in iliis quae pertinent ad fidem, de quibus
+<lb ed="#L" n="49"/>Apostolus loquebatur.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e474">
+                  <lb ed="#L" n="50"/>AD SECUNDUM DICENDUM quod sol corporalis 
+il<lb break="no" ed="#L" n="51"/>lustrat exterius; sed sol intelligibilis, qui est Deus,
+<lb ed="#L" n="52"/>illustrat interius. Unde i ipsum lumen naturale 
+ani<lb break="no" ed="#L" n="53"/>mae inditum est illustratio Dei, qua illustramur
+<lb ed="#L" n="54"/>ab ipso ad cognoscendum ea quae pertinent ad
+<lb ed="#L" n="55"/>naturalem cognitionem. Et ad hoc non requiritur
+<lb ed="#L" n="56"/>alia illustratio: sed solum ad illa quae naturalem
+<lb ed="#L" n="57"/>cognitionem excedunt.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e494">
+                  <lb ed="#L" n="58"/>AD TERTIUM DICENDUM quod semper indigemus
+<lb ed="#L" n="59"/>divino auxilio ad cogitandum quodcumque, 
+in<lb break="no" ed="#L" n="60"/>quantum ipse movet intellectum ad agendum:
+<lb ed="#L" n="61"/>actu enim intelligere aliquid est cogitare, ut patet
+<lb ed="#L" n="62"/>per Augustinum, XIV de Trin. 
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1235-Dd1e508"><!-- p2p1-q109-a2 -->
+               <head xml:id="TAca84-d1e1235-Hd1e511">Articulus 2</head>
+               <head xml:id="TAca84-d1e1235-Hd1e513" type="question-title">Utrum homo possit velle et facere bonum absque gratia</head>
+               <p xml:id="TAca84-d1e1235-d1e516">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="31"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="32"/>UTRUM HOMO POSSIT VELLE ET FACERE BONUM ABSQUE GRATIA
+</p>
+               <p xml:id="TAca84-d1e1235-d1e525">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="33"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="34"/>homo possit velle et facere bonum 
+abs<lb break="no" ed="#L" n="35"/>que gratia. Illud enim est in hominis
+<lb ed="#L" n="36"/>potestate cuius ipse est dominus. Sed
+<lb ed="#L" n="37"/>homo est dominus suorum actuum, et maxime
+<lb ed="#L" n="38"/>eius quod est velle, ut supra dictum est. Ergo
+<lb ed="#L" n="39"/>homo potest velle et. facere bonum per seipsum
+<lb ed="#L" n="40"/>absque auxilio gratiae.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e547">
+                  <lb ed="#L" n="41"/>2. PRAETEREA, unumquodque magis potest in
+<lb ed="#L" n="42"/>id quod est sibi secundum naturam, quam in id
+<lb ed="#L" n="43"/>quod est sibi praeter naturam. Sed peccatum est
+<lb ed="#L" n="44"/>contra naturam, ut Damascenus dicit, in Il libro:
+<lb ed="#L" n="45"/>opus autem virtutis est homini secundum 
+na<lb break="no" ed="#L" n="46"/>turam, ut supra dictum est. Cum igitur homo
+<lb ed="#L" n="47"/>per seipsum possit peccare, videtur quod multo
+<lb ed="#L" n="48"/>magis per seipsum possit bonum velle et facere.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e568">
+                  <lb ed="#L" n="49"/>3. PRAETEREA, bonum intellectus est verum, ut
+<lb ed="#L" n="50"/>Philosophus dicit, in VI Ethic. Sed intellectus
+<lb ed="#L" n="51"/>potest cognoscere verum per seipsum: sicut et
+<lb ed="#L" n="52"/>quaelibet alia res potest suam naturalem 
+opera<lb break="no" ed="#L" n="53"/>tionem per se facere. Ergo multo magis homo
+<lb ed="#L" n="54"/>potest per seipsum facere et velle bonum.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e584">
+                  <lb ed="#L" n="55"/>SEp coNTRA EsT quod Apostolus dicit, Rom. ix:
+<lb ed="#L" n="56"/>Non est volentis, scilicet velle, neque currentis,
+<lb ed="#L" n="57"/>Scilicet currere, sed miserentis Dei. Et Augustinus
+<lb ed="#L" n="58"/>dicit, in libro de Corrept. et Gratia, quod sine
+<lb ed="#L" n="59"/>gratia nullum prorsus, sive cogitando, sive 
+vo<lb break="no" ed="#L" n="60"/>lendo. et amando, sive agendo, faciunt homines
+<lb ed="#L" n="61"/>bonum.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e602">
+                  <lb ed="#L" n="62"/>RESPONDEO DICENDUM quod natura hominis 
+du<lb break="no" ed="#L" n="63"/>pliciter potest" considerari: uno modo, in sui 
+in<lb break="no" ed="#L" n="64"/>tegritate, sicut fuit in primo parente ante 
+pecca<lb break="no" ed="#L" n="65"/>tum; alio modo, secundum quod est corrupta in
+<lb ed="#L" n="66"/>nobis post peccatum, primi parentis. Secundum
+<lb ed="#L" n="67"/>autem utrumque statum, natura humana indiget
+<lb ed="#L" n="68"/>auxilio divino ad faciendum vel volendum 
+quod<lb break="no" ed="#L" n="69"/>cumque bonum, sicut primo. movente, ut dictum
+<lb ed="#L" n="70"/>est. Sed in statu naturae integrae, quantum ad
+<lb ed="#L" n="71"/>sufficientiam operativae virtutis, poterat homo
+<lb ed="#L" n="72"/>per sua naturalia velle et operari bonum suae
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="73"/>naturae proportionatum, quale est bonum virtutis
+<lb ed="#L" n="74"/>acquisitae: non autem bonum superexcedens, quale
+<lb ed="#L" n="75"/>est bonum virtutis infusae. Sed in statu naturae
+<lb ed="#L" n="76"/>corruptae etiam deficit homo ab ? hoc quod 
+se<lb break="no" ed="#L" n="77"/>cundum suam naturam potest, ut non possit 
+to<lb break="no" ed="#L" n="78"/>tum huiusmodi bonum implere per sua 
+natura<lb break="no" ed="#L" n="79"/>lia. Quia tamen natura humana per peccatum
+<lb ed="#L" n="80"/>non est totaliter corrupta, ut scilicet toto bono
+<lb ed="#L" n="81"/>naturae privetur; potest quidem etiam in statu
+<lb ed="#L" n="82"/>naturae corruptae, per virtutem suae naturae 
+ali<lb break="no" ed="#L" n="83"/>quod bonum. particulare agere, sicut aedificare
+<lb ed="#L" n="84"/>domos, plantare vineas, et alia huiusmodi; non
+<lb ed="#L" n="85"/>tamen totum bonum sibi connaturale, ita quod
+<lb ed="#L" n="86"/>in nullo deficiat. Sicut homo infirmus potest per
+<lb ed="#L" n="87"/>seipsum aliquem motum habere; non tamen 
+per<lb break="no" ed="#L" n="88"/>fecte potest moveri motu hominis sani, nisi 
+sa<lb break="no" ed="#L" n="89"/>netur auxilio medicinae.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e667">
+                  <lb ed="#L" n="90"/>Sic igitur virtute gratuita superaddita virtuti
+<lb ed="#L" n="91"/>naturae indiget homo in statu naturae integrae
+<lb ed="#L" n="92"/>quantum ad unum, scilicet ad operandum et 
+vo<lb break="no" ed="#L" n="93"/>lendum bonum. supernaturale. Sed in statu 
+na<lb break="no" ed="#L" n="94"/>turae corruptae, quantum ad duo: scilicet ut 
+sa<lb break="no" ed="#L" n="95"/>netur; et ulterius ut bonum supernaturalis virtutis
+<lb ed="#L" n="96"/>operetur, quod est meritorium. Ulterius autem in
+<lb ed="#L" n="97"/>utroque statu indiget homo auxilio divino ut ab
+<lb ed="#L" n="98"/>ipso moveatur ad bene agendum.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e689">
+                  <lb ed="#L" n="99"/>AD PRIMUM ERGO DICENDUM quod homo est 
+do<lb break="no" ed="#L" n="100"/>minus suorum actuum, et volendi et non volendi,
+<lb ed="#L" n="101"/>propter deliberationem rationis, quae potest flecti
+<lb ed="#L" n="102"/>ad unam partem vel ad aliam. Sed quod 
+deli<lb break="no" ed="#L" n="103"/>beret vel non deliberet, si huius etiam sit 
+do<lb break="no" ed="#L" n="104"/>minus, oportet quod hoc sit per deliberationem
+<lb ed="#L" n="105"/>praecedentem. Et cum hoc non procedat in 
+in<lb break="no" ed="#L" n="106"/>finitum, oportet quod finaliter deveniatur ad hoc
+<lb ed="#L" n="107"/>quod liberum arbitrium hominis moveatur ab 
+ali<lb break="no" ed="#L" n="108"/>quo exteriori principio quod est supra mentem
+<lb ed="#L" n="109"/>humanam, scilicet a Deo; ut etiam Philosophus
+<lb ed="#L" n="110"/>probat in cap. de Bona Fortuna. Unde mens
+<lb ed="#L" n="111"/>hominis etiam sani non ita habet dominium sui
+<lb ed="#L" n="112"/>actus quin indigeat moveri a Deo. Et multo ma-
+<pb ed="#L" n="292"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>gis liberum arbitrium hominis infirmi post 
+pec<lb break="no" ed="#L" n="2"/>catum, quod ? impeditur a bono per 
+corruptio<lb break="no" ed="#L" n="3"/>nem naturae.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e733">
+                  <lb ed="#L" n="4"/>AD SECUNDUM DICENDUM quod peccare nihil aliud
+<lb ed="#L" n="5"/>est quam deficere a bono quod convenit alicui
+<lb ed="#L" n="6"/>secundum suam naturam. Unaquaeque autem res
+<lb ed="#L" n="7"/>creata, sicut esse non habet nisi ab alio, et in se
+<lb ed="#L" n="8"/>considerata est nihil, ita indiget conservari in
+<lb ed="#L" n="9"/>bono suae naturae convenienti ab alio. Potest
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>autem per seipsam deficere a bono: sicut et per -
+<lb ed="#L" n="11"/>seipsam potest deficere in non esse, nisi divinitus
+<lb ed="#L" n="12"/>conservaretur. 
+</p>
+               <p xml:id="TAca84-d1e1235-d1e758">
+                  <lb ed="#L" n="13"/>AD TERTIUM DICENDUM quod etiam verum non
+<lb ed="#L" n="14"/>potest homo cognoscere sine auxilio divino, sicut
+<lb ed="#L" n="15"/>supra dictum est. Et tamen magis est natura
+<lb ed="#L" n="16"/>humana corrupta per peccatum quantum ad 
+ap<lb break="no" ed="#L" n="17"/>petitum boni, quam quantum ad cognitionem
+<lb ed="#L" n="18"/>veri.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1235-Dd1e775"><!-- p2p1-q109-a3 -->
+               <head xml:id="TAca84-d1e1235-Hd1e778">Articulus 3</head>
+               <head xml:id="TAca84-d1e1235-Hd1e780" type="question-title">Utrum homo possit diligere deum super omnia ex solis naturalibus sine gratia</head>
+               <p xml:id="TAca84-d1e1235-d1e783">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="7"/>ARTICULUS TERTIUS
+<lb ed="#L" n="8"/>UTRUM HOMO POSSIT DILIGERE DEUM SUPER OMNIA EX SOLIS NATURALIBUS SINE GRATIA
+</p>
+               <p xml:id="TAca84-d1e1235-d1e792">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="9"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="10"/>homo non possit diligere Deum super
+<lb ed="#L" n="11"/>omnia ex solis naturalibus sine gratia.
+<lb ed="#L" n="12"/>Diligere enim Deum super omnia est
+<lb ed="#L" n="13"/>proprius et principalis caritatis actus. Sed 
+carita<lb break="no" ed="#L" n="14"/>tem homo non potest habere per seipsum: quia
+<lb ed="#L" n="15"/>caritas Dei diffusa est in cordibus nostris per 
+Spi<lb break="no" ed="#L" n="16"/>ritum Sanctum, qui datus est nobis, ut dicitur
+<lb ed="#L" n="17"/>Rom. v. Ergo homo ex solis naturalibus non
+<lb ed="#L" n="18"/>potest Deum diligere super omnia.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e818">
+                  <lb ed="#L" n="19"/>2. PRAETEREA, nulla natura potest supra seipsam.
+<lb ed="#L" n="20"/>Sed diligere aliquid plus quam se, est tendere in
+<lb ed="#L" n="21"/>aliquid supra seipsum. Ergo nulla natura creata
+<lb ed="#L" n="22"/>potest Deum diligere supra seipsam sine auxilio
+<lb ed="#L" n="23"/>gratiae.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e832">
+                  <lb ed="#L" n="24"/>3. PRAETEREA, Deo, cum sit summum bonum,
+<lb ed="#L" n="25"/>debetur summus amor, qui est ut super omnia
+<lb ed="#L" n="26"/>diligatur. Sed ad summum amorem Deo 
+impen<lb break="no" ed="#L" n="27"/>dendum, qui ei a nobis debetur, homo non 
+suf<lb break="no" ed="#L" n="28"/>ficit sine gratia: alioquin frustra gratia adderetur.
+<lb ed="#L" n="29"/>Ergo homo non potest sine gratia ex solis 
+natu<lb break="no" ed="#L" n="30"/>ralibus diligere Deum super omnia.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e850">
+                  <lb ed="#L" n="31"/>SED cONTRA, primus homo in solis naturalibus
+<lb ed="#L" n="32"/>constitutus fuit, ut a quibusdam ponitur. In quo
+<lb ed="#L" n="33"/>statu manifestum est quod aliqualiter Deum 
+di<lb break="no" ed="#L" n="34"/>lexit. Sed non dilexit Deum aequaliter sibi, vel
+<lb ed="#L" n="35"/>minus se: quia secundum hoc peccasset. Ergo
+<lb ed="#L" n="36"/>dilexit Deum supra se. Ergo homo ex solis 
+na<lb break="no" ed="#L" n="37"/>turalibus potest Deum diligere plus quam se, et
+<lb ed="#L" n="38"/>super omnia.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e870">
+                  <lb ed="#L" n="39"/>REsPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="40"/>est in Primo, in quo etiam circa naturalem 
+dile<lb break="no" ed="#L" n="41"/>ctionem angelorum diversae opiniones sunt 
+posi<lb break="no" ed="#L" n="42"/>tae; homo in statu naturae integrae poterat 
+ope<lb break="no" ed="#L" n="43"/>rari virtute suae naturae bonum. quod est sibi
+<lb ed="#L" n="44"/>connaturale, absque superadditione gratuiti doni,
+<lb ed="#L" n="45"/>licet non absque auxilio Dei moventis. Diligere
+<lb ed="#L" n="46"/>autem Deum super omnia est quiddam 
+conna<lb break="no" ed="#L" n="47"/>turale homini; et etiam cuilibet creaturae non 
+so<lb break="no" ed="#L" n="48"/>lum rationali, sed irrationali et etiam inanimatae,
+<lb ed="#L" n="49"/>secundum modum. amoris qui unicuique 
+creatu<lb break="no" ed="#L" n="50"/>rae competere potest. Cuius ratio est quia 
+uni<lb break="no" ed="#L" n="51"/>cuique naturale est quod appetat et amet aliquid,
+<lb ed="#L" n="52"/>secundum quod aptum natum est esse: sic enim?
+<lb ed="#L" n="53"/>agit unumquodque, prout aptum natum est, ut 
+di<lb break="no" ed="#L" n="54"/>citur in II Physic. Manifestum est autem quod
+<lb ed="#L" n="55"/>bonum partis est propter bonum totius. Unde
+<lb ed="#L" n="56"/>etiam naturali appetitu vel amore unaquaeque
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="57"/>res particularis amat bonum suum proprium 
+pro<lb break="no" ed="#L" n="58"/>pter bonum commune totius universi, quod est
+<lb ed="#L" n="59"/>Deus. Unde et Dionysius dicit, in libro de Div.
+<lb ed="#L" n="60"/>Nom., quod Deus convertit omnia ad amorem cap.
+<lb ed="#L" n="61"/>sui ipsius. Unde homo in statu naturae integrae 
+<lb ed="#L" n="62"/>dilectionem sui ipsius referebat ad amorem Dei
+<lb ed="#L" n="63"/>sicut ad finem, et similiter dilectionem omnium
+<lb ed="#L" n="64"/>aliarum rerum. Et ita Deum diligebat plus quam
+<lb ed="#L" n="65"/>seipsum, et super omnia. Sed in statu naturae
+<lb ed="#L" n="66"/>corruptae homo ab hoc deficit secundum 
+appe<lb break="no" ed="#L" n="67"/>titum voluntatis rationalis, quae propter 
+corru<lb break="no" ed="#L" n="68"/>ptionem naturae sequitur bonum privatum, nisi
+<lb ed="#L" n="69"/>sanetur per gratiam Dei. Et ideo dicendum est
+<lb ed="#L" n="70"/>quod homo in statu naturae integrae non 
+indi<lb break="no" ed="#L" n="71"/>gebat dono gratiae superadditae naturalibus bonis
+<lb ed="#L" n="72"/>ad diligendum Deum naturaliter super omnia;
+<lb ed="#L" n="73"/>licet indigeret auxilio Dei ad hoc eum moventis.
+<lb ed="#L" n="74"/>Sed in statu naturae corruptae indiget homo etiam
+<lb ed="#L" n="75"/>ad hoc auxilio gratiae naturam sanantis.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e955">
+                  <lb ed="#L" n="76"/>AD PRIMUM ERGO DICENDUM quod caritas diligit
+<lb ed="#L" n="77"/>Deum super omnia eminentius quam natura. 
+Na<lb break="no" ed="#L" n="78"/>tura enim diligit Deum super omnia, prout est
+<lb ed="#L" n="79"/>principium et finis naturalis boni: caritas autem
+<lb ed="#L" n="80"/>secundum quod est obiectum beatitudinis, et 
+se<lb break="no" ed="#L" n="81"/>cundum quod homo habet quandam societatem
+<lb ed="#L" n="82"/>spiritualem cum Deo. Addit etiam caritas super
+<lb ed="#L" n="83"/>dilectionem naturalem Dei promptitudinem 
+quan<lb break="no" ed="#L" n="84"/>dam et delectationem: sicut et quilibet habitus 
+vir<lb break="no" ed="#L" n="85"/>tutis addit supra actum bonum qui fit ex sola 
+natu<lb break="no" ed="#L" n="86"/>rali ratione hominis virtutis habitum non habentis.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e981">
+                  <lb ed="#L" n="87"/>AD SECUNDUM DICENDUM quod, cum dicitur quod
+<lb ed="#L" n="88"/>nulla natura potest supra seipsam, non est 
+intelli<lb break="no" ed="#L" n="89"/>gendum quod non possit ferri in aliquod 
+obie<lb break="no" ed="#L" n="90"/>ctum quod est supra se: manifestum est enim
+<lb ed="#L" n="91"/>quod intellectus. noster naturali cognitione potest
+<lb ed="#L" n="92"/>aliqua cognoscere quae sunt supra seipsum, ut
+<lb ed="#L" n="93"/>patet in naturali cognitione Dei. Sed ? 
+intelligen<lb break="no" ed="#L" n="94"/>dum est quod natura non potest in actum 
+exce<lb break="no" ed="#L" n="95"/>dentem proportionem suae virtutis. Talis autem
+<lb ed="#L" n="96"/>actus non est diligere Deum super omnia: hoc
+<lb ed="#L" n="97"/>enim esf naturale cuilibet naturae creatae, ut 
+di<lb break="no" ed="#L" n="98"/>ctum est.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1010">
+                  <lb ed="#L" n="99"/>AD TERTIUM DICENDUM quod amor dicitur 
+sum<lb break="no" ed="#L" n="100"/>mus non solum quantum ad gradum dilectionis,
+<lb ed="#L" n="101"/>sed etiam. quantum ad rationem diligendi, et 
+di<lb break="no" ed="#L" n="102"/>lectionis modum. Et secundum hoc, supremus 
+<lb ed="#L" n="103"/>gradus dilectionis est quo caritas diligit Deum ut
+<lb ed="#L" n="104"/>beatificantem, sicut dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1235-Dd1e1027"><!-- p2p1-q109-a4 -->
+               <head xml:id="TAca84-d1e1235-Hd1e1030">Articulus 4</head>
+               <head xml:id="TAca84-d1e1235-Hd1e1032" type="question-title">Utrum homo sine gratia per sua naturalia legis praecepta implere possit</head>
+               <p xml:id="TAca84-d1e1235-d1e1035">
+                  <pb ed="#L" n="297"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUARTUS
+<lb ed="#L" n="2"/>UTRUM HOMO SINE GRATIA PER SUA NATURALIA LEGIS PRAECEPTA IMPLERE POSSIT
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1046">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>homo sine gratia per sua naturalia 
+pos<lb break="no" ed="#L" n="5"/>sit praecepta legis implere. Dicit enim
+<lb ed="#L" n="6"/>Apostolus, ad Rom. u, quod gentes,
+<lb ed="#L" n="7"/>quae legem non habent, naturaliter ea quae legis
+<lb ed="#L" n="8"/>sunt faciunt. Sed illud quod naturaliter homo
+<lb ed="#L" n="9"/>facit, potest per seipsum facere absque gratia.
+<lb ed="#L" n="10"/>Ergo homo potest legis praecepta facere absque
+<lb ed="#L" n="11"/>gratia.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1070">
+                  <lb ed="#L" n="12"/>2. PRAETEREA, Hieronymus dicit, in 
+Exposi<lb break="no" ed="#L" n="13"/>lione Catholicae Fidei, illos esse maledicendos
+<lb ed="#L" n="14"/>qui Deum praecepisse homini aliquid impossibile
+<lb ed="#L" n="15"/>dicunt. Sed impossibile est homini quod per 
+se<lb break="no" ed="#L" n="16"/>ipsum implere non potest. Ergo homo potest 
+im<lb break="no" ed="#L" n="17"/>plere omnia praecepta legis per seipsum.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1087">
+                  <lb ed="#L" n="18"/>3. PRAETEREA, inter omnia praecepta legis 
+ma<lb break="no" ed="#L" n="19"/>ximum est illud, Diliges Dominum Deum tuum
+<lb ed="#L" n="20"/>ex toto corde tuo; ut patet Matth. xxii. Sed hoc
+<lb ed="#L" n="21"/>mandatum potest homo implere ex solis 
+natura<lb break="no" ed="#L" n="22"/>libus, diligendo Deum super omnia, ut supra 
+<lb ed="#L" n="23"/>dictum est. Ergo omnia mandata legis potest
+<lb ed="#L" n="24"/>homo implere sine gratia.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1105">
+                  <lb ed="#L" n="25"/>SED coNTRA EsT quod Augustinus dicit, in libro
+<lb ed="#L" n="26"/>de Haeresibus, hoc pertinere ad haeresim 
+Pela<lb break="no" ed="#L" n="27"/>gianorum, uf credant sine gratia posse hominem
+<lb ed="#L" n="28"/>facere omnia divina mandata.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1116">
+                  <lb ed="#L" n="29"/>RESPONDEO DICENDUM quod implere mandata 
+le<lb break="no" ed="#L" n="30"/>gis contingit dupliciter. Uno modo, quantum ad
+<lb ed="#L" n="31"/>substantiam operum: prout scilicet homo 
+opera<lb break="no" ed="#L" n="32"/>tur iusta et fortia, et alia virtutis opera. Et hoc
+<lb ed="#L" n="33"/>modo homo in statu naturae integrae potuit omnia
+<lb ed="#L" n="34"/>mandata legis implere: alioquin non potuisset in
+<lb ed="#L" n="35"/>statu illo non peccare, cum nihil aliud sit pec-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="36"/>care quam transgredi divina mandata. Sed in
+<lb ed="#L" n="37"/>statu naturae corruptae non potest homo implere
+<lb ed="#L" n="38"/>omnia mandata divina sine gratia sanante 
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1142">
+                  <lb ed="#L" n="39"/>Alio modo possunt impleri mandata legis non
+<lb ed="#L" n="40"/>solum quantum ad substantiam operis, sed etiam
+<lb ed="#L" n="41"/>quantum ad modum agendi, ut scilicet ex caritate
+<lb ed="#L" n="42"/>fiant. Et sic neque in statu naturae integrae,
+<lb ed="#L" n="43"/>neque in statu naturae corruptae, foren homo
+<lb ed="#L" n="44"/>implere absque gratia legis mandata. Unde 
+Au<lb break="no" ed="#L" n="45"/>gustinus, in libro de Corrept. et Grat., cum
+<lb ed="#L" n="46"/>dixisset quod sine gratia nullum prorsus bonum
+<lb ed="#L" n="47"/>homines faciunt, subdit: non solum ut, 
+monstran<lb break="no" ed="#L" n="48"/>le 5 ipsa quid faciendum sit, sciant; verum etiam
+<lb ed="#L" n="49"/>ut, praestante ipsa, faciant cum dilectione quod
+<lb ed="#L" n="50"/>sciunt. - Indigent insuper in utroque statu auxilio
+<lb ed="#L" n="51"/>Dei moventis ad mandata implenda, ut dictum
+<lb ed="#L" n="52"/>est.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1175">
+                  <lb ed="#L" n="53"/>AD PRIMUM ERGO DICENDUM quod. sicut 
+Augusti<lb break="no" ed="#L" n="54"/>nus dicit, in libro de Spir. et Litt., non moveat
+<lb ed="#L" n="55"/>quod naturaliter eos dixit quae legis sunt facere:
+<lb ed="#L" n="56"/>hoc enim agit Spiritus gratiae, ut imaginem Dei,
+<lb ed="#L" n="57"/>in qua naturaliter facti sumus, instauret in nobis.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1188">
+                  <lb ed="#L" n="58"/>AD SECUNDUM DICENDUM quod illud quod 
+possu<lb break="no" ed="#L" n="59"/>mus cum auxilio divino, non est nobis omnino
+<lb ed="#L" n="60"/>impossibile; secundum illud Philosophi, in III
+<lb ed="#L" n="61"/>Ethic.: Quae per amicos possumus, aliqualiter
+<lb ed="#L" n="62"/>per nos possumus. Unde et Hieronymus ibidem
+<lb ed="#L" n="63"/>confitetur sic nostrum liberum esse arbitrium, ut
+<lb ed="#L" n="64"/>dicamus nos semper indigere Dei auxilio.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1207">
+                  <lb ed="#L" n="65"/>AD TERTIUM DICENDUM quod praeceptum de 
+di<lb break="no" ed="#L" n="66"/>lectione Dei non potest homo implere ex puris
+<lb ed="#L" n="67"/>naturalibus secundum quod ex caritate impletur,
+<lb ed="#L" n="68"/>ut ex supradictis patet.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1235-Dd1e1219"><!-- p2p1-q109-a5 -->
+               <head xml:id="TAca84-d1e1235-Hd1e1222">Articulus 5</head>
+               <head xml:id="TAca84-d1e1235-Hd1e1224" type="question-title">Utrum homo possit mereri vitam aeternam, sine gratia</head>
+               <p xml:id="TAca84-d1e1235-d1e1227">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="73"/>ARTICULUS QUINTUS
+<lb ed="#L" n="74"/>UTRUM HOMO POSSIT MERERI VITAM AETERNAM, SINE GRATIA
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1236">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="75"/>AD QUINTUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="76"/>homo possit mereri vitam aeternam sine 
+<lb ed="#L" n="77"/>gratia. Dicit enim Dominus, Matth. xix: 
+<lb ed="#L" n="78"/>Si vis ad vitam ingredi, serva mandata: 
+<lb ed="#L" n="79"/>ex quo videtur quod ingredi in vitam aeternam 
+<lb ed="#L" n="80"/>sit constitutum in hominis voluntate. Sed id quod 
+<lb ed="#L" n="81"/>in nostra voluntate constitutum est, per nos ipsos 
+<lb ed="#L" n="82"/>possumus. Ergo videtur quod homo per seipsum 
+<lb ed="#L" n="83"/>possit vitam aeternam mereri. 
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1260">
+                  <lb ed="#L" n="84"/>2. PRAETEREA, vita aeterna est praemium vel
+<lb ed="#L" n="85"/>merces quae hominibus redditur a Deo; secun- 
+<lb ed="#L" n="86"/>dum illud Matth. v: Merces vestra multa est in 
+<lb ed="#L" n="87"/>caelis. Sed merces vel praemium redditur a
+<lb ed="#L" n="88"/>Deo homini secundum opera eius; secundum illud 
+<lb ed="#L" n="89"/>Psalmi txi: Tu reddes unicuique secundum opera 
+<lb ed="#L" n="90"/>eius. Cum igitur homo sit dominus suorum ope- 
+<lb ed="#L" n="91"/>rum, videtur quod in eius potestate constitutum
+<lb ed="#L" n="92"/>sit ad vitam aeternam pervenire. 
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1283">
+                  <lb ed="#L" n="93"/>3. PRAETEREA, vita aeterna est ultimus finis hu- 
+<lb ed="#L" n="94"/>manae vitae. Sed quaelibet res naturalis per sua  
+<lb ed="#L" n="95"/>naturalia potest consequi finem suum. Ergo multo  
+<lb ed="#L" n="96"/>magis homo, qui est altioris naturae, per sua na-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="97"/>turalia potest pervenire ad vitam aeternam absque
+<lb ed="#L" n="98"/>aliqua gratia.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1301">
+                  <lb ed="#L" n="99"/>SED CONTRA EST quod Apostolus dicit, ad Rom.
+<lb ed="#L" n="100"/>VI: Gratia Dei vita aeterna. Quod ideo dicitur,
+<lb ed="#L" n="101"/>sicut Glossa ibidem dicit, ut intelligeremus Deum
+<lb ed="#L" n="102"/>ad aeternam vitam pro sua miseratione nos 
+per<lb break="no" ed="#L" n="103"/>ducere.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1314">
+                  <lb ed="#L" n="104"/>REsPONDEO. DICENDUM quod actus perducentes
+<lb ed="#L" n="105"/>ad finem oportet esse fini proportionatos. Nullus
+<lb ed="#L" n="106"/>autem actus excedit proportionem principii activi.
+<lb ed="#L" n="107"/>Et ideo videmus in rebus naturalibus quod nulla
+<lb ed="#L" n="108"/>res potest perficere 5 effectum per suam 
+opera<lb break="no" ed="#L" n="109"/>tionem qui excedat virtutem activam, sed solum
+<lb ed="#L" n="110"/>potest producere per operationem suam effectum
+<lb ed="#L" n="111"/>suae virtuti proportionatum. Vita autem aeterna
+<lb ed="#L" n="112"/>est finis excedens proportionem naturae 
+huma<lb break="no" ed="#L" n="113"/>nae, ut ex supradictis patet. Et ideo homo per
+<lb ed="#L" n="114"/>sua naturalia non potest producere opera 
+meri<lb break="no" ed="#L" n="115"/>toria proportionata vitae aeternae, sed ad hoc
+<lb ed="#L" n="116"/>exigitur altior virtus, quae est virtus gratiae. Et '
+<lb ed="#L" n="117"/>ideo sine gratia homo non potest mereri vitam
+<lb ed="#L" n="118"/>aeternam. Potest tamen facere opera perducen-
+<pb ed="#L" n="299"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tia ad aliquod bonum homini connaturale, sicut
+<lb ed="#L" n="2"/>laborare in agro, bibere, manducare, et. habere
+<lb ed="#L" n="3"/>amicum, et alia huiusmodi; ut Augustinus dicit, in
+<lb ed="#L" n="4"/>tertia responsione contra Pelagianos.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1362">
+                  <lb ed="#L" n="5"/>AD PRIMUM ERGO DICENDUM quod homo sua 
+vo<lb break="no" ed="#L" n="6"/>luntate facit opera meritoria vitae aeternae: sed,
+<lb ed="#L" n="7"/>sicut Augustinus in eodem libro dicit, ad hoc
+<lb ed="#L" n="8"/>exigitur quod voluntas hominis praeparetur a Deo
+<lb ed="#L" n="9"/>per gratiam. —
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1375">
+                  <lb ed="#L" n="10"/>AD. SECUNDUM DICENDUM quod, sicut Glossa dicit
+<lb ed="#L" n="11"/>Rom. vi, super illud, « Gratia Dei vita aeterna »,
+<lb ed="#L" n="12"/>certum est vitam aeternam bonis operibus reddi:
+<lb ed="#L" n="13"/>sed ipsa opera quibus. redditur, ad Dei. gratiam
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="14"/>pertinent: cum etiam supra dictum sit quod ad
+<lb ed="#L" n="15"/>implendum mandata legis secundum debitum 
+mo<lb break="no" ed="#L" n="16"/>dum, per quem eorum impletio est meritoria, 
+re<lb break="no" ed="#L" n="17"/>quiritur gratia.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1397">
+                  <lb ed="#L" n="18"/>AD TERTIUM DICENDUM quod obiectio illa procedit
+<lb ed="#L" n="19"/>de. fine homini connaturali. Natura. autem 
+hu<lb break="no" ed="#L" n="20"/>mana, ex hoc ipso quod nobilior est, potest ad
+<lb ed="#L" n="21"/>altiorem finem perduci, saltem auxilio gratiae, ad
+<lb ed="#L" n="22"/>quem inferiores naturae nullo modo. pertingere
+<lb ed="#L" n="23"/>possunt. Sicut homo. est melius dispositus ad 
+sa<lb break="no" ed="#L" n="24"/>nitatem qui aliquibus auxiliis medicinae potest
+<lb ed="#L" n="25"/>sanitatem consequi, quam ille qui nullo modo; ut
+<lb ed="#L" n="26"/>Philosophus introducit in 1] de Caelo.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1235-Dd1e1420"><!-- p2p1-q109-a6 -->
+               <head xml:id="TAca84-d1e1235-Hd1e1423">Articulus 6</head>
+               <head xml:id="TAca84-d1e1235-Hd1e1425" type="question-title">Utrum homo possit seipsum ad gratiam praeparare per seipsum,
+    absque exteriori auxilio gratiae</head>
+               <p xml:id="TAca84-d1e1235-d1e1428">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="32"/>ARTICULUS SEXTUS
+<lb ed="#L" n="33"/>UTRUM HOMO POSSIT SEIPSUM AD GRATIAM PRAEPARARE PER SEIPSUM,
+<lb ed="#L" n="34"/>ABSQUE EXTERIORI AUXILIO GRATIAE
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1439">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="35"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="36"/>homo possit seipsum ad gratiam 
+prae<lb break="no" ed="#L" n="37"/>parare per seipsum, absque exteriori 
+au<lb break="no" ed="#L" n="38"/>xilio gratiae: nihil enim imponitur 
+ho<lb break="no" ed="#L" n="39"/>mini quod sit ei impossibile, ut supra dictum
+<lb ed="#L" n="40"/>est. Sed Zach. 1 dicitur: Convertimini ad. me,
+<lb ed="#L" n="41"/>et ego convertar ad vos: nihil autem est aliud se
+<lb ed="#L" n="42"/>ad gratiam praeparare quam ad Deum converti.
+<lb ed="#L" n="43"/>Ergo videtur quod homo per seipsum possit se
+<lb ed="#L" n="44"/>ad gratiam praeparare absque auxilio gratiae.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1465">
+                  <lb ed="#L" n="45"/>2. PRAETEREA, homo se ad gratiam praeparat
+<lb ed="#L" n="46"/>faciendo quod in se est: quia si homo facit quod
+<lb ed="#L" n="47"/>in.se est, Deus ei non denegat gratiam; dicitur
+<lb ed="#L" n="48"/>enim Matth. vit, quod Deus dat spiritum bonum
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="49"/>tentibus se. Sed illud in nobis esse dicitur quod
+<lb ed="#L" n="50"/>est in nostra potestate. Ergo videtur quod in 
+no<lb break="no" ed="#L" n="51"/>stra potestate sit constitutum ut nos ad gratiam
+<lb ed="#L" n="52"/>praeparemus.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1488">
+                  <lb ed="#L" n="53"/>3. PnaETEREA, si homo indiget gratia ad hoc
+<lb ed="#L" n="54"/>quod praeparet se ad gratiam, pari ratione 
+indi<lb break="no" ed="#L" n="55"/>gebit gratia ad hoc quod praeparet se ad illam
+<lb ed="#L" n="56"/>gratiam, et sic procederetur in infinitum: quod est
+<lb ed="#L" n="57"/>inconveniens. Ergo videtur standum in primo, ut
+<lb ed="#L" n="58"/>scilicet homo sine gratia possit se ad gratiam
+<lb ed="#L" n="59"/>praeparare.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1506">
+                  <lb ed="#L" n="60"/>4. PRAETEREA, Prov. xvi dicitur: Hominis est
+<lb ed="#L" n="61"/>praeparare animum. Sed illud dicitur esse 
+ho<lb break="no" ed="#L" n="62"/>minis quod per seipsum potest. Ergo videtur
+<lb ed="#L" n="63"/>quod homo per seipsum se possit ad gratiam
+<lb ed="#L" n="64"/>praeparare.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1519">
+                  <lb ed="#L" n="65"/>SED CONTRA EST quod dicitur Ioan. vi: Nemo
+<lb ed="#L" n="66"/>potest venire ad me, nisi Pater, qui misit me, 
+tra<lb break="no" ed="#L" n="67"/>xerit eum. Si autem. homo seipsum praeparare
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="68"/>posset, non oporteret quod ab alio traheretur.
+<lb ed="#L" n="69"/>Ergo homo non potest se praeparare ad gratiam
+<lb ed="#L" n="70"/>absque auxilio. gratiae.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1537">
+                  <lb ed="#L" n="71"/>RESPONDEO DICENDUM quod duplex est 
+praepa<lb break="no" ed="#L" n="72"/>ratio voluntatis humanae ad bonum. Una quidem
+<lb ed="#L" n="73"/>qua praeparatur ad bene operandum et ad Deo
+<lb ed="#L" n="74"/>fruendum. Et talis praeparatio voluntatis non 
+po<lb break="no" ed="#L" n="75"/>test fieri sine habituali gratiae dono, quod sit 
+prin<lb break="no" ed="#L" n="76"/>cipium operis meritorii, ut dictum est. — Alio
+<lb ed="#L" n="77"/>modo potest intelligi praeparatio voluntatis" 
+hu<lb break="no" ed="#L" n="78"/>manae ad consequendum ipsum gratiae habitualis
+<lb ed="#L" n="79"/>donum. Ad hoc autem quod praeparet se ad
+<lb ed="#L" n="80"/>susceptionem huius doni, non oportet 
+praesuppo<lb break="no" ed="#L" n="81"/>nere aliquod aliad donum habituale in anima,
+<lb ed="#L" n="82"/>quia sic procederetur in infinitum: sed oportet
+<lb ed="#L" n="83"/>praesupponi aliquod auxilium gratuitum Dei 
+in<lb break="no" ed="#L" n="84"/>terius animam moventis, sive inspirantis bonum
+<lb ed="#L" n="85"/>propositum. His enim duobus modis indigemus
+<lb ed="#L" n="86"/>auxilio divino, ut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1574">
+                  <lb ed="#L" n="87"/>Quod autem ad hoc indigeamus auxilio Dei 
+mo<lb break="no" ed="#L" n="88"/>ventis, manifestum est. Necesse est enim, cum 
+o<lb break="no" ed="#L" n="89"/>mne agens agat propter finem, quod omnis causa
+<lb ed="#L" n="90"/>convertat,suos effectus ad suum finem. Et ideo,
+<lb ed="#L" n="91"/>cum secundum ordinem agentium sive moventium
+<lb ed="#L" n="92"/>sit ordo finium, necesse est quod ad ultimum finem
+<lb ed="#L" n="93"/>convertatur homó per motionem primi moventis,
+<lb ed="#L" n="94"/>ad finem autem proximum per motionem 
+ali<lb break="no" ed="#L" n="95"/>cuius inferiorum moventium: sicut animus militis
+<lb ed="#L" n="96"/>convertitur ad quaerendum victoriam ex. motione
+<lb ed="#L" n="97"/>ducis exercitus, ad sequendum autem vexillum
+<lb ed="#L" n="98"/>alicuius aciei ex motione tribuni. Sic igitur, cum
+<lb ed="#L" n="99"/>Deus sit primum movens simpliciter, ex eius 
+mo<lb break="no" ed="#L" n="100"/>tione est quod omnia in ipsum convertantur se-
+<pb ed="#L" n="300"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>cundum communem intentionem boni, per quam
+<lb ed="#L" n="2"/>unumquodque intendit assimilari Deo secundum
+<lb ed="#L" n="3"/>suum modum. Unde et Dionysius, in libro de
+<lb ed="#L" n="4"/>Div. Nom., dicit quod Deus convertit omnia ad
+<lb ed="#L" n="5"/>seipsum. Sed homines iustos convertit ad seipsum ?
+<lb ed="#L" n="6"/>sicut ad specialem finem, quem intendunt, et cui
+<lb ed="#L" n="7"/>cupiunt adhaerere sicut bono proprio; secundum
+<lb ed="#L" n="8"/>illud Psalmi rxxu: Mihi adhaerere Deo bonum
+<lb ed="#L" n="9"/>est. Et ideo quod homo convertatur ad Deum, hoc
+<lb ed="#L" n="10"/>non potest esse nisi Deo i ipsum convertente. Hoc
+<lb ed="#L" n="11"/>autem est praeparare se ad gratiam, quasi ad
+<lb ed="#L" n="12"/>Deum converti: sicut ille qui habet oculum 
+aver<lb break="no" ed="#L" n="13"/>sum a lumine solis, per hoc se praeparat ad 
+re<lb break="no" ed="#L" n="14"/>cipiendum lumen solis, quod oculos suos 
+con<lb break="no" ed="#L" n="15"/>vertit versus solem. Unde patet quod homo non
+<lb ed="#L" n="16"/>potest se praeparare ad lumen gratiae 
+suscipien<lb break="no" ed="#L" n="17"/>dum, nisi per auxilium gratuitum Dei interius
+<lb ed="#L" n="18"/>moventis.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1650">
+                  <lb ed="#L" n="19"/>AD PRIMUM ERGO DICENDUM quod conversio do:
+<lb ed="#L" n="20"/>minis ad Deum fit quidem per liberum arbitrium;
+<lb ed="#L" n="21"/>et secundum hoc homini praecipitur quod se ad
+<lb ed="#L" n="22"/>Deum convertat. Sed liberum arbitrium ad Deum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="23"/>converti non potest nisi Deo ipsum ad se 
+con<lb break="no" ed="#L" n="24"/>vertente; secundum illud Ierem. xxxi: <quote xml:id="TAca84-d1e1235-Qd1e1667">Converte
+<lb ed="#L" n="25"/>me, et converiar: quia tu Dominus Deus meus; et
+<lb ed="#L" n="26"/>Thren. ult.: Converte. nos, Domine, ad te, et
+<lb ed="#L" n="27"/>convertemur</quote>.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1678">
+                  <lb ed="#L" n="28"/>AD SECUNDUM DICENDUM quod nihil homo potest
+<lb ed="#L" n="29"/>facere nisi a Deo moveatur; secundum illud Ioan.
+<lb ed="#L" n="30"/>xv: Sine me nihil potestis facere. Et ideo cum
+<lb ed="#L" n="31"/>dicitur homo facere quod in se est, dicitur hoc
+<lb ed="#L" n="32"/>esse in potestate hominis secundum quod est
+<lb ed="#L" n="33"/>motus a Deo.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1694">
+                  <lb ed="#L" n="34"/>Ap TERTIUM DICENDUM quod obiectio illa prosbdi
+<lb ed="#L" n="35"/>de gratia habituali, ad quam requiritur aliqua
+<lb ed="#L" n="36"/>praeparatio, quia omnis forma requirit 
+suscepti<lb break="no" ed="#L" n="37"/>bile dispositum. Sed hoc quod homo moveatur a
+<lb ed="#L" n="38"/>Deo, non praeexigit aliquam aliam motionem:
+<lb ed="#L" n="39"/>cum Deus sit primum movens. Unde non oportet
+<lb ed="#L" n="40"/>abire in infinitum.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1712">
+                  <lb ed="#L" n="41"/>AD QUARTUM DICENDUM quod hominis est 
+prae<lb break="no" ed="#L" n="42"/>parare animum, quia hoc facit per liberum 
+arbi<lb break="no" ed="#L" n="43"/>trium: sed tamen hoc non facit sine auxilio Dei
+<lb ed="#L" n="44"/>moventis et ad se attrahentis, ut dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1235-Dd1e1725"><!-- p2p1-q109-a7 -->
+               <head xml:id="TAca84-d1e1235-Hd1e1728">Articulus 7</head>
+               <head xml:id="TAca84-d1e1235-Hd1e1730" type="question-title">Utrum homo possit resurgere a peccato sine auxilio gratiae</head>
+               <p xml:id="TAca84-d1e1235-d1e1733">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="30"/>UTRUM HOMO POSSIT RESURGERE A PECCATO SINE AUXILIO GRATIAE
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1742">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="31"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="32"/>homo possit resurgere a peccato sine
+<lb ed="#L" n="33"/>auxilio gratiae. Illud enim quod 
+praeexi<lb break="no" ed="#L" n="34"/>agitur ad gratiam, fit sine gratia. Sed 
+re<lb break="no" ed="#L" n="35"/>surgere a peccato praeexigitur ad illuminationem
+<lb ed="#L" n="36"/>gratiae: dicitur enim ad Ephes. v: Exurge a
+<lb ed="#L" n="37"/>mortuis, et illuminabit te Christus. Ergo homo
+<lb ed="#L" n="38"/>potest resurgere a peccato sine gratia.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1764">
+                  <lb ed="#L" n="39"/>2. PRAETEREA, peccatum virtuti opponitur sicut
+<lb ed="#L" n="40"/>morbus sanitati, ut supra dictum est. Sed homo
+<lb ed="#L" n="41"/>per virtutem naturae potest resurgere de 
+aegri<lb break="no" ed="#L" n="42"/>tudine ad sanitatem sine auxilio exterioris 
+me<lb break="no" ed="#L" n="43"/>dicinae, propter hoc quod intus manet principium
+<lb ed="#L" n="44"/>vitae, a quo procedit operatio naturalis. Ergo 
+vi<lb break="no" ed="#L" n="45"/>detur quod, simili ratione, homo possit reparari
+<lb ed="#L" n="46"/>per seipsum, redeundo de statu peccati ad 
+sta<lb break="no" ed="#L" n="47"/>tum iustitiae, absque auxilio exterioris gratiae.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1787">
+                  <lb ed="#L" n="48"/>3. PRAETEREA, quaelibet res naturalis potest 
+re<lb break="no" ed="#L" n="49"/>dire ad actum convenientem suae naturae: sicut
+<lb ed="#L" n="50"/>aqua calefacta per seipsam redit ad naturalem
+<lb ed="#L" n="51"/>frigiditatem, et lapis sursum proiectus per seipsum
+<lb ed="#L" n="52"/>redit ad suum naturalem motum. Sed peccatum
+<lb ed="#L" n="53"/>est quidam actus contra naturam; ut patet per
+<lb ed="#L" n="54"/>Damascenum, in II libro. Ergo videtur quod
+<lb ed="#L" n="55"/>homo possit per seipsum redire de peccato ad
+<lb ed="#L" n="56"/>statum iustitiae.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1809">
+                  <lb ed="#L" n="57"/>SED CONTRA EST quod Apostolus dicit, ad Gal. 1:
+<lb ed="#L" n="58"/>Si data est lex quae potest iustificare, ergo 
+Chri<lb break="no" ed="#L" n="59"/>stus gratis mortuus est, idest sine causa. Pari ergo
+<lb ed="#L" n="60"/>ratione, si homo habet naturam per quam potest
+<lb ed="#L" n="61"/>iustificari, Christus gratis, idest sine causa, 
+mor<lb break="no" ed="#L" n="62"/>tuus est. Sed hoc est inconveniens dicere. Ergo
+<lb ed="#L" n="63"/>non potest homo ? per seipsum iustificari, idest
+<lb ed="#L" n="64"/>redire de statu culpae ad statum iustitiae.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1829">
+                  <lb ed="#L" n="65"/>RxesPoNpEO bicENDUM quod homo nullo modo
+<lb ed="#L" n="66"/>potest resurgere a peccato per seipsum sine 
+au<lb break="no" ed="#L" n="67"/>xilio gratiae. Cum enim peccatum transiens actu
+<lb ed="#L" n="68"/>remaneat reatu, ut supra dictum est; non est
+<lb ed="#L" n="69"/>idem resurgere a peccato quod cessare ab actu
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="70"/>peccati. Sed resurgere a peccato est reparari 
+ho<lb break="no" ed="#L" n="71"/>minem ad ea quae peccando amisit. Incurrit 
+au<lb break="no" ed="#L" n="72"/>tem homo triplex detrimentum peccando, ut ex
+<lb ed="#L" n="73"/>supradictis patet: scilicet maculam ?, 
+corruptio<lb break="no" ed="#L" n="74"/>nem naturalis boni, et reatum poenae. Maculam
+<lb ed="#L" n="75"/>quidem incurrit, inquantum privatur decore 
+gra<lb break="no" ed="#L" n="76"/>tiae ex deformitate peccati. Bonum autem 
+natu<lb break="no" ed="#L" n="77"/>rae corrumpitur, inquantum natura hominis 
+de<lb break="no" ed="#L" n="78"/>ordinatur, voluntate hominis Deo non subiecta:
+<lb ed="#L" n="79"/>hoc enim ordine sublato, consequens est ut tota
+<lb ed="#L" n="80"/>natura hominis peccantis inordinata remaneat.
+<lb ed="#L" n="81"/>Reatus vero poenae est per quem homo 
+pec<lb break="no" ed="#L" n="82"/>cando mortaliter meretur damnationem aeternam.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1873">
+                  <lb ed="#L" n="83"/>Manifestum est autem de singulis horum trium,
+<lb ed="#L" n="84"/>quod non possunt reparari nisi per Deum. Cum
+<lb ed="#L" n="85"/>enim decor gratiae proveniat ex illustratione 
+di<lb break="no" ed="#L" n="86"/>vini luminis, non potest talis decor in anima 
+re<lb break="no" ed="#L" n="87"/>parari, nisi Deo denuo illustrante: unde 
+requi<lb break="no" ed="#L" n="88"/>ritur habituale donum, quod est gratiae lumen.
+<lb ed="#L" n="89"/>Similiter ordo naturae reparari non potest, ut 
+<lb ed="#L" n="90"/>voluntas hominis Deo subiiciatur, nisi Deo 
+vo<lb break="no" ed="#L" n="91"/>luntatem hominis ad se trahente, sicut dictum
+<lb ed="#L" n="92"/>est. Similiter etiam reatus poenae aeternae 
+re<lb break="no" ed="#L" n="93"/>mitti non potest nisi a Deo, in quem est offensa
+<lb ed="#L" n="94"/>commissa, et qui est hominum iudex. Et ideo 
+re<lb break="no" ed="#L" n="95"/>quiritur auxilium gratiae ad hoc quod homo a
+<lb ed="#L" n="96"/>peccato resurgat, et quantum ad habituale donum,
+<lb ed="#L" n="97"/>et quantum ad interiorem Dei motionem.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1908">
+                  <lb ed="#L" n="98"/>AD PRIMUM ERGO DICENDUM quod illud indicitur
+<lb ed="#L" n="99"/>homini quod pertinet ad actum liberi arbitrii qui
+<lb ed="#L" n="100"/>requiritur in hoc quod homo a peccato 
+resur<lb break="no" ed="#L" n="101"/>gat. Et ideo cum dicitur, Exurge, et illuminabit
+<lb ed="#L" n="102"/>te Christus, non est intelligendum quod tota 
+exur<lb break="no" ed="#L" n="103"/>rectio a peccato praecedat illuminationem gratiae:
+<lb ed="#L" n="104"/>sed quia cum homo per liberum arbitrium a Deo
+<lb ed="#L" n="105"/>motum surgere conatur a peccato, recipit lumen
+<lb ed="#L" n="106"/>gratiae iustificantis.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1930">
+                  <lb ed="#L" n="107"/>AD SECUNDUM DICENDUM quod naturalis ratio non
+<lb ed="#L" n="108"/>est sufficiens principium huius sanitatis quae est
+<pb ed="#L" n="302"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>in homine per gratiam iustificantem; sed huius
+<lb ed="#L" n="2"/>principium est gratia, quae tollitur per peccatum.
+<lb ed="#L" n="3"/>Et ideo non potest homo per seipsum reparari,
+<lb ed="#L" n="4"/>sed indiget ut denuo ei lumen gratiae 
+infunda<lb break="no" ed="#L" n="5"/>tur: sicut si corpori mortuo resuscitando denuo
+<lb ed="#L" n="6"/>infunderetur anima.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1955">
+                  <lb ed="#L" n="7"/>AD TERTIUM DICENDUM quod, quando natura est
+<lb ed="#L" n="8"/>integra, per seipsam potest reparari ad id quod
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="9"/>est sibi conveniens et proportionatum: sed ad id
+<lb ed="#L" n="10"/>quod superexcedit suam proportionem, reparari
+<lb ed="#L" n="11"/>non potest sine exteriori auxilio. Sic igitur 
+hu<lb break="no" ed="#L" n="12"/>mana natura defluens per actum peccati, quia
+<lb ed="#L" n="13"/>non manet integra, sed corrumpitur, ut supra 
+<lb ed="#L" n="14"/>dictum est, non potest per seipsam reparari 
+ne<lb break="no" ed="#L" n="15"/>que etiam ad bonum sibi connaturale; et multo
+<lb ed="#L" n="16"/>minus ad bonum supernaturalis iustitiae.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1235-Dd1e1982"><!-- p2p1-q109-a8 -->
+               <head xml:id="TAca84-d1e1235-Hd1e1985">Articulus 8</head>
+               <head xml:id="TAca84-d1e1235-Hd1e1987" type="question-title">Utrum homo sine gratia possit non peccare</head>
+               <p xml:id="TAca84-d1e1235-d1e1990">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="94"/>ARTICULUS OCTAVUS 
+<lb ed="#L" n="95"/>UTRUM HOMO SINE GRATIA POSSIT NON PECCARE
+</p>
+               <p xml:id="TAca84-d1e1235-d1e1999">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="96"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="97"/>homo sine gratia possit non peccare.
+<lb ed="#L" n="98"/>Nullus enim peccat in eo. quod vitare
+<lb ed="#L" n="99"/>non potest; ut Augustinus dicit, in libro
+<lb ed="#L" n="100"/>de Duab. Animab., et de Lib. Arb. Si ergo
+<lb ed="#L" n="101"/>homo existens in peccato mortali non possit 
+vi<lb break="no" ed="#L" n="102"/>tare peccatum, videtur quod peccando non 
+pec<lb break="no" ed="#L" n="103"/>cet. Quod est inconveniens.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2021">
+                  <lb ed="#L" n="104"/>2. PRAETEREA, ad hoc corripitur homo ut non
+<lb ed="#L" n="105"/>peccet. Si igitur homo in peccato mortali existens
+<lb ed="#L" n="106"/>non potest non peccare, videtur quod frustra ei.
+<lb ed="#L" n="107"/>correptio adhibeatur. Quod est inconveniens...
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2033">
+                  <lb ed="#L" n="108"/>3. PRAETEREA, Eccli. xv dicitur: Ante hominem
+<lb ed="#L" n="109"/>vita et mors, bonum et malum: quod. placuerit ei,
+<lb ed="#L" n="110"/>dabitur illi. Sed aliquis peccando non desinit esse
+<lb ed="#L" n="111"/>homo. Ergo adhuc in eius potestate est eligere
+<pb ed="#L" n="303"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>bonum vel malum. Et ita potest homo sine 
+gra<lb break="no" ed="#L" n="2"/>tia vitare peccatum.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2053">
+                  <lb ed="#L" n="3"/>SED coNTRA EsT quod Augustinus dicit, in libro
+<lb ed="#L" n="4"/>de Perfect. lustit.: Quisquis negat nos orare
+<lb ed="#L" n="5"/>debere ne intremus in tentationem (negat autem
+<lb ed="#L" n="6"/>hoc qui contendit ad. non peccandum gratiae Dei
+<lb ed="#L" n="7"/>adiutorium non esse homini necessarium, sed, sola
+<lb ed="#L" n="8"/>lege accepta, humanam sufficere voluntatem), ab
+<lb ed="#L" n="9"/>auribus omnium removendum, et ore omnium 
+ana<lb break="no" ed="#L" n="10"/>thematizandum esse non dubito.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2073">
+                  <lb ed="#L" n="11"/>RESPONDEO DICENDUM quod de homine plicitec
+<lb ed="#L" n="12"/>loqui possumus: uno modo, secundum statum 
+na<lb break="no" ed="#L" n="13"/>turae integrae; alio modo, secundum statum 
+natu<lb break="no" ed="#L" n="14"/>rae corruptae. Secundum statum quidem naturae
+<lb ed="#L" n="15"/>integrae, etiam sine gratia habituali, poterat homo
+<lb ed="#L" n="16"/>non peccare nec mortaliter nec venialiter: quia
+<lb ed="#L" n="17"/>peccare nihil aliud est quam recedere ab eo quod
+<lb ed="#L" n="18"/>est secundum naturam, quod vitare homo poterat
+<lb ed="#L" n="19"/>in integritate naturae. Non tamen hoc poterat
+<lb ed="#L" n="20"/>sine auxilio Dei in bono conservantis: quo 
+sub<lb break="no" ed="#L" n="21"/>tracto, etiam ipsa natura in nihilum decideret.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2099">
+                  <lb ed="#L" n="22"/>In statu autem ? naturae corruptae, indiget
+<lb ed="#L" n="23"/>homo gratia habituali sanante naturam, ad hoc
+<lb ed="#L" n="24"/>quod omnino a peccato abstineat. Quae quidem
+<lb ed="#L" n="25"/>sanatio primo fit in praesenti vita. secundum
+<lb ed="#L" n="26"/>mentem, appetitu carnali nondum totaliter 
+repa<lb break="no" ed="#L" n="27"/>rato: unde Apostolus, ad Rom. vu, in persona
+<lb ed="#L" n="28"/>hominis reparati, dicit: Ego ipse mente servio legi
+<lb ed="#L" n="29"/>Dei, carne autem legi peccati. In. quo quidem
+<lb ed="#L" n="30"/>statu potest homo abstinere a peccato. mortali 
+<lb ed="#L" n="31"/>quod in ratione consistit, ut supra habitum est.
+<lb ed="#L" n="32"/>Non autem potest homo abstinere ab omni 
+pec<lb break="no" ed="#L" n="33"/>cato veniali, propter corruptionem inferioris 
+ap<lb break="no" ed="#L" n="34"/>petitus sensualitatis, cuius motus singulos quidem
+<lb ed="#L" n="35"/>ratio reprimere potest (et ex hoc habent 
+ratio<lb break="no" ed="#L" n="36"/>nem peccati et voluntarii), non autem omnes:
+<lb ed="#L" n="37"/>quia dum uni resistere nititur, fortassis alius 
+in<lb break="no" ed="#L" n="38"/>surgit; et etiam quia "^ ratio non semper potest
+<lb ed="#L" n="39"/>esse pervigil ad huiusmodi motus vitandos; ut
+<lb ed="#L" n="40"/>supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2143">
+                  <lb ed="#L" n="41"/>Similiter etiam antequam hominis ratio, in
+<lb ed="#L" n="42"/>qua est peccatum mortale, reparetur per gratiam
+<lb ed="#L" n="43"/>iustificantem, potest singula peccata mortalia 
+vi<lb break="no" ed="#L" n="44"/>tare, et secundum aliquod tempus: quia non est
+<lb ed="#L" n="45"/>necesse quod continuo peccet in actu. Sed. quod
+<lb ed="#L" n="46"/>diu maneat absque peccato mortali, esse non
+<lb ed="#L" n="47"/>potest. Unde et Gregorius dicit, super ED
+<lb ed="#L" n="48"/>quod peccatum quod mox per poenitentiam non
+<lb ed="#L" n="49"/>deletur, suo. pondere ad aliud trahit. Et huius 
+ra<lb break="no" ed="#L" n="50"/>tio est. quia, sicut rationi subdi debet inferior 
+ap<lb break="no" ed="#L" n="51"/>petitus, ita etiam ratio debet subdi Deo, et in
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="52"/>ipso constituere finem suae voluntatis. Per finem
+<lb ed="#L" n="53"/>autem oportet quod regulentur omnes actus 
+hu<lb break="no" ed="#L" n="54"/>mani: sicut per rationis iudicium regulari debent
+<lb ed="#L" n="55"/>motus inferioris appetitus. Sicut ergo, inferiori 
+ap<lb break="no" ed="#L" n="56"/>petitu non totaliter subiecto rationi, non potest
+<lb ed="#L" n="57"/>esse quin contingant inordinati motus in 
+appe<lb break="no" ed="#L" n="58"/>titu sensitivo; ita etiam, ratione hominis non '
+<lb ed="#L" n="59"/>existente subiecta Deo, consequens est ut 
+contin<lb break="no" ed="#L" n="60"/>gant multae inordinationes in ipsis actibus 
+ratio<lb break="no" ed="#L" n="61"/>nis. Cum. enim homo non habet cor suum 
+fir<lb break="no" ed="#L" n="62"/>matum in Deo, ut pro nullo bono consequendo
+<lb ed="#L" n="63"/>vel malo vitando ab eo separari vellet; occurrunt
+<lb ed="#L" n="64"/>multa propter quae consequenda vel vitanda homo
+<lb ed="#L" n="65"/>recedit a Deo contemnendo praecepta ipsius, et
+<lb ed="#L" n="66"/>ita peccat mortaliter: praecipue quia in repentinis
+<lb ed="#L" n="67"/>homo operatur secundum finem praeconceptum,
+<lb ed="#L" n="68"/>et secundum habitum ELVAI A spat ut 
+Philoso<lb break="no" ed="#L" n="69"/>phus dicit, in III Ethic.; quamvis ex 
+praemedita<lb break="no" ed="#L" n="70"/>tione rationis homo possit aliquid agere praeter
+<lb ed="#L" n="71"/>ordinem finis praeconcepti, et praeter 
+inclinatio<lb break="no" ed="#L" n="72"/>nem habitus. Sed quia homo non potest semper
+<lb ed="#L" n="73"/>esse in tali praemeditatione, non potest 
+contin<lb break="no" ed="#L" n="74"/>gere ut diu permaneat quin operetur secundum
+<lb ed="#L" n="75"/>consequentiam voluntatis deordinatae a Deo, nisi
+<lb ed="#L" n="76"/>cito per gratiam ad. debitum ordinem reparetur.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2226">
+                  <lb ed="#L" n="77"/>Ab PRIMUM ERGO DICENDUM quod homo potest
+<lb ed="#L" n="78"/>vitare singulos actus peccati: non tamen omnes,
+<lb ed="#L" n="79"/>nisi per gratiam, ut dictum est. Et tamen quia
+<lb ed="#L" n="80"/>ex eius defectu est quod homo. se ad gratiam
+<lb ed="#L" n="81"/>habendam non praeparet, per ? hoc a peccato
+<lb ed="#L" n="82"/>non excusatur, quod sine gratia peccatum vitare
+<lb ed="#L" n="83"/>non potest.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2245">
+                  <lb ed="#L" n="84"/>AD SECUNDUM DICENDUM quod correptio utilis est
+<lb ed="#L" n="85"/>ul ex dolore correptionis voluntas regenerationis
+<lb ed="#L" n="86"/>oriatur. Si tamen qui corripitur filius est 
+promis<lb break="no" ed="#L" n="87"/>sionis: ut, strepitu correptionis forinsecus insonante
+<lb ed="#L" n="88"/>ac flagellante, Deus in illo intrinsecus occulta 
+in<lb break="no" ed="#L" n="89"/>spiratione operetur et velle; ut Augustinus dicit, in
+<lb ed="#L" n="90"/>libro de Corrept. et Grat.. Ideo ergo. necessaria
+<lb ed="#L" n="91"/>est correptio, quia voluntas hominis requiritur ad
+<lb ed="#L" n="92"/>hoc quod a peccato abstineat. Sed tamen correptio
+<lb ed="#L" n="93"/>non est sufficiens sine Dei auxilio: unde dicitur
+<lb ed="#L" n="94"/>Eccle. vu: Considera opera Dei, quod nemo 
+pos<lb break="no" ed="#L" n="95"/>sit corrigere quem ille despexerit.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2274">
+                  <lb ed="#L" n="96"/>AD TERTIUM. DICENDUM quod, sicut Augustinus
+<lb ed="#L" n="97"/>dicit, in ypognost., verbum illud intelligitur
+<lb ed="#L" n="98"/>de homine secundum statum naturae integrae,
+<lb ed="#L" n="99"/>quando nondum erat servus peccati, unde poterat
+<lb ed="#L" n="100"/>peccare et non peccare. - Nunc etiam 
+quodcum<lb break="no" ed="#L" n="101"/>que vult homo, datur ei. Sed hoc quod bonum
+<lb ed="#L" n="102"/>velit, habet ex auxilio gratiae.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1235-Dd1e2293"><!-- p2p1-q109-a9 -->
+               <head xml:id="TAca84-d1e1235-Hd1e2296">Articulus 9</head>
+               <head xml:id="TAca84-d1e1235-Hd1e2298" type="question-title">Utrum ille qui tam consecutus est gratiam, per seipsum possit operari bonum
+    et vitare peccatum, absque alio auxilio gratiae</head>
+               <p xml:id="TAca84-d1e1235-d1e2301">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="73"/>ARTICULUS NONUS
+<lb ed="#L" n="74"/>UTRUM ILLE QUI TAM CONSECUTUS EST GRATIAM, PER SEIPSUM POSSIT OPERARI BONUM
+<lb ed="#L" n="75"/>ET VITARE PECCATUM, ABSQUE ALIO AUXILIO GRATIAE
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2312">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="76"/>AD NONUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="77"/>ille qui iam consecutus est gratiam, per
+<lb ed="#L" n="78"/>seipsum possit operari bonum et vitare
+<lb ed="#L" n="79"/>peccatum, absque alio auxilio gratiae.
+<lb ed="#L" n="80"/>Unumquodque enim aut frustra est, aut 
+imperfe<lb break="no" ed="#L" n="81"/>ctum, si non implet illud ad quod datur. Sed
+<lb ed="#L" n="82"/>gratia ad hoc datur nobis ut possimus bonum
+<lb ed="#L" n="83"/>facere et vitare peccatum. Si igitur per gratiam
+<lb ed="#L" n="84"/>hoc homo non potest, videtur quod vel gratia sit
+<lb ed="#L" n="85"/>frustra data, vel sit imperfecta.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2338">
+                  <lb ed="#L" n="86"/>2. PRAETEREA, per gratiam ipse Spiritus 
+San<lb break="no" ed="#L" n="87"/>ctus in nobis habitat; secundum illud I ad Cor. m:
+<lb ed="#L" n="88"/>Nescitis quia templum Dei estis, et Spiritus Dei
+<lb ed="#L" n="89"/>habitat in vobis? Sed Spiritus Sanctus, cum sit
+<lb ed="#L" n="90"/>omnipotens, sufficiens est ut nos inducat ad bene
+<lb ed="#L" n="91"/>operandum, et ut nos a peccato custodiat. Ergo
+<lb ed="#L" n="92"/>homo gratiam consecutus potest utrumque 
+prae<lb break="no" ed="#L" n="93"/>dictorum absque alio auxilio gratiae.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2359">
+                  <lb ed="#L" n="94"/>3. PRAETEREA, si homo consecutus gratiam 
+ad<lb break="no" ed="#L" n="95"/>huc alio auxilio gratiae indiget ad hoc quod recte
+<lb ed="#L" n="96"/>vivat eta peccato abstineat, pari ratione et si illud
+<lb ed="#L" n="97"/>aliud auxilium gratiae consecutus fuerit, adhuc
+<lb ed="#L" n="98"/>alio auxilio indigebit. Procedetur ergo in infini-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="99"/>tum: quod est inconveniens. Ergo ille qui est in
+<lb ed="#L" n="100"/>gratia, non indiget alio auxilio gratiae ad hoc quod
+<lb ed="#L" n="101"/>bene operetur et a peccato abstineat.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2381">
+                  <lb ed="#L" n="102"/>SED CONTRA. EST quod Augustinus dicit, in libro
+<lb ed="#L" n="103"/>de Natura et Gratia, quod sicut oculus corporis
+<lb ed="#L" n="104"/>plenissime sanus, nisi candore lucis adiutus, non
+<lb ed="#L" n="105"/>polest cernere; sic et homo perfectissime etiam
+<lb ed="#L" n="106"/>iustificatus, nisi aeterna luce iustitiae divinitus 
+adiu<lb break="no" ed="#L" n="107"/>vetur, recte non potest vivere. Sed iustificatio fit
+<lb ed="#L" n="108"/>per gratiam; secundum illud Rom. III: Iustificati
+<lb ed="#L" n="109"/>gratis per gratiam ipsius. Ergo etiam homo iam
+<lb ed="#L" n="110"/>habens gratiam indiget alio auxilio gratiae ad hoc
+<lb ed="#L" n="111"/>quod recte vivat.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2405">
+                  <lb ed="#L" n="112"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="113"/>est, homo ad recte vivendum dupliciter auxilio
+<lb ed="#L" n="114"/>Dei indiget. Uno quidem modo, quantum ad 
+ali<lb break="no" ed="#L" n="115"/>quod habituale donum, per quod natura 
+huma<lb break="no" ed="#L" n="116"/>na corrupta sanetur; et etiam sanata elevetur ad
+<lb ed="#L" n="117"/>operandum opera meritoria vitae aeternae, quae
+<lb ed="#L" n="118"/>excedunt proportionem naturae. Alio modo 
+indi<lb break="no" ed="#L" n="119"/>get homo auxilio gratiae ut a Deo moveatur ad
+<lb ed="#L" n="120"/>agendum. Quantum igitur ad primum auxilii 
+mo<lb break="no" ed="#L" n="121"/>dum, homo in gratia existens non indiget alio
+<pb ed="#L" n="308"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>auxilio gratiae, quasi aliquo alio habitu infuso. 
+Indi<lb break="no" ed="#L" n="2"/>get tamen auxilio gratiae secundum alium modum,
+<lb ed="#L" n="3"/>ut scilicet a Deo moveatur ad recte agendum.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2440">
+                  <lb ed="#L" n="4"/>Et hoc propter duo. Primo quidem, ratione
+<lb ed="#L" n="5"/>generali: propter hoc quod, sicut supra dictum
+<lb ed="#L" n="6"/>est, nulla res creata potest in quemcumque actum
+<lb ed="#L" n="7"/>prodire nisi virtute motionis divinae. - Secundo,
+<lb ed="#L" n="8"/>ratione speciali, propter conditionem status 
+hu<lb break="no" ed="#L" n="9"/>manae naturae. Quae quidem licet per gratiam
+<lb ed="#L" n="10"/>sanetur quantum ad mentem, remanet tamen in
+<lb ed="#L" n="11"/>ea corruptio et infectio quantum ad carnem, per
+<lb ed="#L" n="12"/>quam servit legi peccati, ut dicitur ad Rom. vn.
+<lb ed="#L" n="13"/>Remanet etiam quaedam ignorantiae obscuritas
+<lb ed="#L" n="14"/>in intellectu, secundum quam, ut etiam. dicitur
+<lb ed="#L" n="15"/>Rom. vin, quid oremus sicut. oportet, nescimus.
+<lb ed="#L" n="16"/>Propter varios enim rerum eventus, et quia etiam
+<lb ed="#L" n="17"/>nosipsos non perfecte cognoscimus, non possumus
+<lb ed="#L" n="18"/>ad plenum scire quid nobis expediat; secundum
+<lb ed="#L" n="19"/>illud Sap. 1x: Cogitationes mortalium timidae,
+<lb ed="#L" n="20"/>et incertae. providentiae nostrae. Et ideo necesse
+<lb ed="#L" n="21"/>est nobis ut a Deo dirigamur et protegamur, qui -
+<lb ed="#L" n="22"/>omnia novit et omnia potest. Et propter hoc etiam
+<lb ed="#L" n="23"/>renatis in filios Dei per gratiam, convenit dicere,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24"/>Et ne nos inducas in tentationem, et, Fiat 
+vo<lb break="no" ed="#L" n="25"/>luntas tua sicut in caelo et in terra, et cetera quae
+<lb ed="#L" n="26"/>in oratione Dominica continentur ad hoc perti- '
+<lb ed="#L" n="27"/>nentia.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2497">
+                  <lb ed="#L" n="28"/>AD PRIMUM ERGO DICENDUM quod donum -
+<lb ed="#L" n="29"/>tualis gratiae non ad hoc datur nobis ut.
+<lb ed="#L" n="30"/>ipsum non indigeamus ulterius divino à ilo:
+<lb ed="#L" n="31"/>indiget enim. quaelibet creatura ut a Deo 
+conser<lb break="no" ed="#L" n="32"/>vetur in bono quod. ab ipso accepit. Et ideo si
+<lb ed="#L" n="33"/>post acceptam gratiam homo adhuc indiget. 
+di<lb break="no" ed="#L" n="34"/>vino auxilio, non potest concludi quod gratia sit
+<lb ed="#L" n="35"/>in vacuum ? data, vel quod sit imperfecta. Quia
+<lb ed="#L" n="36"/>etiam in statu gloriae, quando. gratia erit omnino
+<lb ed="#L" n="37"/>perfecta, homo divino auxilio indigebit. Hic 
+au<lb break="no" ed="#L" n="38"/>tem aliqualiter gratia imperfecta. est, inquantum
+<lb ed="#L" n="39"/>hominem non totaliter sanat, ut dictum est
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2526">
+                  <lb ed="#L" n="40"/>AD SECUNDUM DICENDUM quod operatio Spiritus
+<lb ed="#L" n="41"/>Sancti qua nos movet et protegit, non 
+circum<lb break="no" ed="#L" n="42"/>scribitur per effectum. habitualis. doni quod in
+<lb ed="#L" n="43"/>nobis causat; sed praeter hunc effectum nos 
+mo<lb break="no" ed="#L" n="44"/>vet et protegit, simul cum Patre et Filio.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2540">
+                  <lb ed="#L" n="45"/>AD TERTIUM DICENDUM quod ratio illa conc idi
+<lb ed="#L" n="46"/>quod homo non an ei&amp;nai. alia habituali Bralleeim
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1235-Dd1e2548"><!-- p2p1-q109-a10 -->
+               <head xml:id="TAca84-d1e1235-Hd1e2551">Articulus 10</head>
+               <head xml:id="TAca84-d1e1235-Hd1e2553" type="question-title">Utrum homo in gratia constitutus indigeat: auxilio gratiae
+    ad perseverandum</head>
+               <p xml:id="TAca84-d1e1235-d1e2556">
+                  <pb ed="#L" n="309"/>
+                  <!-- p. 309-->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS DECIMUS
+<lb ed="#L" n="2"/>UTRUM HOMO IN GRATIA CONSTITUTUS INDIGEAT: AUXILIO GRATIAE
+<lb ed="#L" n="3"/>AD PERSEVERANDUM
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2572">
+                  <lb ed="#L" n="4"/>AD DECIMUM. SIC. PROGEDITUR. Videtur quod
+<lb ed="#L" n="5"/>homo in gratia constitutus non indigeat
+<lb ed="#L" n="6"/>auxilio gratiae ad perseverandum. 
+Per<lb break="no" ed="#L" n="7"/>severantia enim est aliquid minus 
+vir<lb break="no" ed="#L" n="8"/>tute, sicut et continentia, ut patet per 
+Philoso<lb break="no" ed="#L" n="9"/>phum, in VII Ethic. Sed homo non indiget alio
+<lb ed="#L" n="10"/>auxilio gratiae ad habendum virtutes, ex quo ext
+<lb ed="#L" n="11"/>iustificatus per gratiam. Ergo multo minus indiget
+<lb ed="#L" n="12"/>auxilio gratiae ad habendum perseverantiam.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2594">
+                  <lb ed="#L" n="13"/>2. PRAETEREA, omnes virtutes simul 
+infundun<lb break="no" ed="#L" n="14"/>tur. Sed perseverantia ponitur quaedam virtus.
+<lb ed="#L" n="15"/>Ergo videtur quod, simul cum gratia infusis aliis
+<lb ed="#L" n="16"/>virtutibus, perseverantia detur.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2606">
+                  <lb ed="#L" n="17"/>3. PRAETEREA, sicut Apostolus dicit, ad Rom. v,
+<lb ed="#L" n="18"/>plus restitutum est homini per donum Christi,
+<lb ed="#L" n="19"/>quam amiserit per peccatum Adae. Sed Adam
+<lb ed="#L" n="20"/>accepit unde posset perseverare. Ergo multo 
+ma<lb break="no" ed="#L" n="21"/>gis nobis restituitur per gratiam. Christi ut 
+per<lb break="no" ed="#L" n="22"/>severare possimus. Et ita homo non indiget gratia
+<lb ed="#L" n="23"/>ad perseverandum.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2624">
+                  <lb ed="#L" n="24"/>SED coNTRA EST quod Augustinus dicit, in libro
+<lb ed="#L" n="25"/>de Perseverantia: Cur perseverantia poscitur a
+<lb ed="#L" n="26"/>Deo, si non datur a Deo? An et ista irrisoria
+<lb ed="#L" n="27"/>petitio est, cum id ab eo petitur quod scitur non
+<lb ed="#L" n="28"/>ipsum dare, sed, ipso non dante, esse in hominis
+<lb ed="#L" n="29"/>potestate? Sed perseverantia petitur etiam ab illis
+<lb ed="#L" n="30"/>qui sunt per gratiam sanctificati: quod intelligitur
+<lb ed="#L" n="31"/>cum dicimus, Sanctificetur nomen tuum, ut 
+ibi<lb break="no" ed="#L" n="32"/>dem Augustinus confirmat per verba Cypriani.
+<lb ed="#L" n="33"/>Ergo homo etiam in gratia constitutus, indiget
+<lb ed="#L" n="34"/>ut ei perseverantia a Deo detur.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2650">
+                  <lb ed="#L" n="35"/>RESPONDEO, DICENDUM quod perseverantia. 
+tripli<lb break="no" ed="#L" n="36"/>citer dicitur. Quandoque enim significat habitum
+<lb ed="#L" n="37"/>mentis per quem homo firmiter stat, ne 
+remo<lb break="no" ed="#L" n="38"/>veatur ab eo quod est secundum virtutem, per
+<lb ed="#L" n="39"/>tristitias irruentes: ut sic se habeat perseverantia
+<lb ed="#L" n="40"/>ad tristitias, sicut continentia ad concupiscentias
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="41"/>et delectationes, ut Philosophus dicit, in VII Ethic.
+<lb ed="#L" n="42"/>Alio modo potest dici perseverantia habitus 
+qui<lb break="no" ed="#L" n="43"/>dam secundum quem habet homo propositum
+<lb ed="#L" n="44"/>perseverandi in bono usque in finem. Et utroque.
+<lb ed="#L" n="45"/>istorum modorum, perseverantia simul cum gratia
+<lb ed="#L" n="46"/>infunditur, sicut et continentia et ceterae virtutes.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2681">
+                  <lb ed="#L" n="47"/>Alio modo dicitur perseverantia continuatio
+<lb ed="#L" n="48"/>quaedam boni usque ad finem vitae. Et ad talem
+<lb ed="#L" n="49"/>perseverantiam habendam homo in gratia 
+consti<lb break="no" ed="#L" n="50"/>tutus non quidem indiget aliqua alia habituali 
+gra<lb break="no" ed="#L" n="51"/>tia, sed divino auxilio ipsum dirigente et protegente
+<lb ed="#L" n="52"/>contra tentationum impulsus, sicut ex praecedenti
+<lb ed="#L" n="53"/>quaestione apparet. Et ideo postquam aliquis est 
+<lb ed="#L" n="54"/>iustificatus per gratiam, necesse habet a Deo 
+pe<lb break="no" ed="#L" n="55"/>tere praedictum perseverantiae donum, ut scilicet
+<lb ed="#L" n="56"/>custodiatur a malo usque ad finem vitae. Multis
+<lb ed="#L" n="57"/>enim datur gratia, quibus non datur perseverare
+<lb ed="#L" n="58"/>in gratia.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2710">
+                  <lb ed="#L" n="59"/>AD PRIMUM ERGO DICENDUM quod obiectio illa
+<lb ed="#L" n="60"/>procedit de primo modo perseverantiae: sicut et
+<lb ed="#L" n="61"/>secunda obiectio procedit de secundo.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2719">
+                  <lb ed="#L" n="62"/>Unde patet solutio ad secundum.
+</p>
+               <p xml:id="TAca84-d1e1235-d1e2725">
+                  <lb ed="#L" n="63"/>AD TERTIUM DICENDUM quod, sicut Augustinus 
+di<lb break="no" ed="#L" n="64"/>cit, in libro de Natura et Gratia, homo in primo
+<lb ed="#L" n="65"/>statu accepit donum per quod perseverare posset:
+<lb ed="#L" n="66"/>non aulem accepit ut perseveraret. Nunc autem
+<lb ed="#L" n="67"/>per gratiam Christi multi accipiunt et donum 
+gra<lb break="no" ed="#L" n="68"/>tiae quo perseverare possunt, et ulterius eis datur
+<lb ed="#L" n="69"/>quod perseverent. Et sic donum Christi est maius
+<lb ed="#L" n="70"/>quam delictum Adae. - Et tamen facilius homo per
+<lb ed="#L" n="71"/>gratiae donum perseverare poterat in statu 
+inno<lb break="no" ed="#L" n="72"/>centiae, in quo nulla erat rebellio carnis ad 
+spi<lb break="no" ed="#L" n="73"/>ritum, quam nunc possumus, quando reparatio
+<lb ed="#L" n="74"/>gratiae Christi, etsi sit inchoata quantum ad 
+men<lb break="no" ed="#L" n="75"/>tem, nondum tamen est consummata quantum ad
+<lb ed="#L" n="76"/>carnem. Quod erit in patria, ubi homo non solum
+<lb ed="#L" n="77"/>perseverare poterit, sed etiam peccare non poterit.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

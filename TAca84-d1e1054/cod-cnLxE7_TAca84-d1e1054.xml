@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 74</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 74</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="35"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1054"><!-- p2p1-q74 -->
+            <head xml:id="TAca84-d1e1054-Hd1e101">Quaestio 74</head>
+            <head xml:id="TAca84-d1e1054-Hd1e103" type="question-title">De subiecto peccatorum</head>
+            <p xml:id="TAca84-d1e1054-d1e106">
+               <pb ed="#L" n="35"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO SEPTUAGESIMAQUARTA
+<lb ed="#L" n="2"/>DE SUBIECTO PECCATORUM
+<lb ed="#L" n="3"/>IN DECEM ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1054-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de subiecto 
+vitio<lb break="no" ed="#L" n="5"/>D sive peccatorum.
+<lb ed="#L" n="6"/>Et circa hoc quaeruntur decem.
+</p>
+            <p xml:id="TAca84-d1e1054-d1e130">
+               <lb ed="#L" n="7"/>Primo: utrum voluntas possit esse subiectum
+<lb ed="#L" n="8"/>peccati.
+<lb ed="#L" n="9"/>Secundo: utrum voluntas sola.sit peccati 
+sub<lb break="no" ed="#L" n="10"/>lectum.
+<lb ed="#L" n="11"/>Tertio: utrum sensualitas possit esse subiectum
+<lb ed="#L" n="12"/>peccati.: í
+<lb ed="#L" n="13"/>Quarto: utrum possit esse subiectum peccati
+<lb ed="#L" n="14"/>mortalis.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="15"/>Quinto: utrum. ratio possit. esse. subiectum
+<lb ed="#L" n="16"/>peccati.
+<lb ed="#L" n="17"/>Sexto: utrum delectatio morosa, vel non. 
+mo<lb break="no" ed="#L" n="18"/>rosa, sit in ratione inferiori sicut in subiecto.
+<lb ed="#L" n="19"/>Septimo: utrum peccatum consensus in actum
+<lb ed="#L" n="20"/>sit in superiori ratione sicut in subiecto.
+<lb ed="#L" n="21"/>Octavo: utrum ratio inferior possit esse 
+sub<lb break="no" ed="#L" n="22"/>jectum peccati mortalis.
+<lb ed="#L" n="23"/>Nono: utrum ratio superior possit esse 
+subie<lb break="no" ed="#L" n="24"/>ctum peccati venialis.
+<lb ed="#L" n="25"/>Decimo: utrum in ratione superiori possit esse
+<lb ed="#L" n="26"/>peccatum veniale circa proprium obiectum.
+</p>
+            <div xml:id="TAca84-d1e1054-Dd1e179"><!-- p2p1-q74-a1 -->
+               <head xml:id="TAca84-d1e1054-Hd1e182">Articulus 1</head>
+               <head xml:id="TAca84-d1e1054-Hd1e184" type="question-title">Utrum voluntas sit subiectum peccati</head>
+               <p xml:id="TAca84-d1e1054-d1e187">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="27"/>ARTICULUS PRIMUS
+<lb ed="#L" n="28"/>UTRUM VOLUNTAS SIT SUBIECTUM PECCATI
+</p>
+               <p xml:id="TAca84-d1e1054-d1e196">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="29"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="30"/>voluntas non possit esse subiectum 
+pec<lb break="no" ed="#L" n="31"/>cati. Dicit enim Dionysius, in 1v cap. de
+<lb ed="#L" n="32"/>2 N Div. Nom., quod malum est praeter
+<lb ed="#L" n="33"/>voluntatem et intentionem. Sed peccatum habet
+<lb ed="#L" n="34"/>rationem mali. Ergo peccatum non potest esse
+<lb ed="#L" n="35"/>in voluntate.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e216">
+                  <lb ed="#L" n="36"/>2. PRAETEREA, voluntas est boni, vel apparentis
+<lb ed="#L" n="37"/>boni. Ex hoc autem quod voluntas vult bonum,
+<lb ed="#L" n="38"/>non peccat: hoc autem quod vult apparens 
+bo<lb break="no" ed="#L" n="39"/>num quod non est vere bonum ?, magis pertinere
+<lb ed="#L" n="40"/>videtur ad defectum virtutis apprehensivae quam
+<lb ed="#L" n="41"/>ad defectum voluntatis. Ergo peccatum nullo modo
+<lb ed="#L" n="42"/>est in voluntate.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e235">
+                  <lb ed="#L" n="43"/>3. PRAETEREA, non potest esse idem subiectum
+<lb ed="#L" n="44"/>peccati, et causa efficiens: quia causa efficiens
+<lb ed="#L" n="45"/>et materialis non incidunt in idem, ut dicitur in
+<lb ed="#L" n="46"/>II Physic. Sed voluntas est causa efficiens 
+pec<lb break="no" ed="#L" n="47"/>cati: prima enim causa peccandi est voluntas, ut
+<lb ed="#L" n="48"/>Augustinus dicit, in libro de Duabus Animabus.
+<lb ed="#L" n="49"/>Ergo non est subiectum peccati.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e253">
+                  <lb ed="#L" n="50"/>SED CONTRA EsT quod Augustinus dicit, in libro
+<lb ed="#L" n="51"/>Retract., quod voluntas est qua peccatur, et
+<lb ed="#L" n="52"/>recte. vivitur.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e262">
+                  <lb ed="#L" n="53"/>RESPONDEO DICENDUM quod peccatum quidam
+<lb ed="#L" n="54"/>actus est, sicut supra dictum est. Actuum 
+au<lb break="no" ed="#L" n="55"/>tem quidam transeunt in exteriorem materiam,
+<lb ed="#L" n="56"/>ut urere et secare: et huiusmodi actus habent
+<lb ed="#L" n="57"/>pro materia et subiecto id in quod transit actio;
+<lb ed="#L" n="58"/>sicut Philosophus dicit, in III Physic., quod 
+mo<lb break="no" ed="#L" n="59"/>tus est actus mobilis. a. movente. Quidam vero
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="60"/>actus sunt non transeuntes in exteriorem 
+mate<lb break="no" ed="#L" n="61"/>riam, sed manentes in agente, sicut appetere et
+<lb ed="#L" n="62"/>cognoscere: et tales actus sunt omnes actus 
+mo<lb break="no" ed="#L" n="63"/>rales, sive sint actus virtutum, sive peccatorum ".
+<lb ed="#L" n="64"/>Unde oportet quod proprium subiectum actus
+<lb ed="#L" n="65"/>peccati sit potentia quae est principium actus.
+<lb ed="#L" n="66"/>Cum autem proprium sit actuum moralium quod
+<lb ed="#L" n="67"/>sint voluntarii, ut supra habitum est; sequitur
+<lb ed="#L" n="68"/>quod voluntas, quae est principium actuum 
+vo<lb break="no" ed="#L" n="69"/>luntariorum, sive bonorum sive malorum, quae
+<lb ed="#L" n="70"/>sunt peccata, sit principium peccatorum. Et ideo
+<lb ed="#L" n="71"/>sequitur quod peccatum sit in voluntate sicut in
+<lb ed="#L" n="72"/>subiecto,
+</p>
+               <p xml:id="TAca84-d1e1054-d1e310">
+                  <lb ed="#L" n="73"/>AD PRIMUM ERGO DICENDUM quod malum dicitur
+<lb ed="#L" n="74"/>esse praeter voluntatem, quia voluntas non 
+ten<lb break="no" ed="#L" n="75"/>dit in ipsum sub ratione mali. Sed quia aliquod
+<lb ed="#L" n="76"/>malum est apparens bonum, ideo voluntas 
+ali<lb break="no" ed="#L" n="77"/>quando appetit aliquod malum. Et secundum
+<lb ed="#L" n="78"/>hoc peccatum est in voluntate.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e326">
+                  <lb ed="#L" n="79"/>AD SECUNDUM DICENDUM quod si defectus 
+appre<lb break="no" ed="#L" n="80"/>hensivae. virtutis nullo modo subiaceret 
+volun<lb break="no" ed="#L" n="81"/>tati, non esset peccatum nec in voluntate nec in
+<lb ed="#L" n="82"/>apprehensiva virtute: sicut patet in his qui 
+ha<lb break="no" ed="#L" n="83"/>bent ignorantiam invincibilem. Et ideo 
+relinqui<lb break="no" ed="#L" n="84"/>tur quod etiam defectus apprehensivae virtutis
+<lb ed="#L" n="85"/>subiacens voluntati, deputetur in. peccatum.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e344">
+                  <lb ed="#L" n="86"/>AD TERTIUM DICENDUM quod ratio illa procedit
+<lb ed="#L" n="87"/>in causis efficientibus quarum actiones transeunt
+<lb ed="#L" n="88"/>in materiam exteriorem, et quae non movent se,
+<lb ed="#L" n="89"/>sed alia. Cuius contrarium est in voluntate. Unde
+<lb ed="#L" n="90"/>ratio non sequitur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1054-Dd1e358"><!-- p2p1-q74-a2 -->
+               <head xml:id="TAca84-d1e1054-Hd1e361">Articulus 2</head>
+               <head xml:id="TAca84-d1e1054-Hd1e363" type="question-title">Utrum sola voluntas sit subiectum peccati</head>
+               <p xml:id="TAca84-d1e1054-d1e366">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="68"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="69"/>UTRUM SOLA VOLUNTAS SIT SUBIECTUM PECCATI
+</p>
+               <p xml:id="TAca84-d1e1054-d1e375">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="70"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="71"/>sola voluntas sit subiectum peccati. 
+Di<lb break="no" ed="#L" n="72"/>cit enim Augustinus, in libro de 
+Dua<lb break="no" ed="#L" n="73"/>abus Animabus, quod non nisi 
+volun<lb break="no" ed="#L" n="74"/>tate peccatur. Sed peccatum est sicut in subiecto
+<lb ed="#L" n="75"/>in potentia qua peccatur. Ergo sola voluntas est
+<lb ed="#L" n="76"/>subiectum peccati.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e395">
+                  <lb ed="#L" n="77"/>2. PRAETEREA, peccatum est quoddam malum
+<lb ed="#L" n="78"/>contra rationem. Sed bonum et malum ad 
+ra<lb break="no" ed="#L" n="79"/>tionem pertinens, est obiectum solius voluntatis.
+<lb ed="#L" n="80"/>Ergo sola voluntas est subiectum peccati.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e407">
+                  <lb ed="#L" n="81"/>3. PRAETEREA, omne peccatum est actus 
+volun<lb break="no" ed="#L" n="82"/>hes quia, ut dicit Augustinus, in libro de Lib.
+<lb ed="#L" n="83"/>Arb., peccatum adeo est voluntarium, quod si
+<lb ed="#L" n="84"/>non sit voluntarium, non est peccatum. Sed actus
+<lb ed="#L" n="85"/>aliarum virium non sunt voluntarii nisi 
+inquan<lb break="no" ed="#L" n="86"/>tum illae vires moventur a voluntate. Hoc autem
+<lb ed="#L" n="87"/>non sufficit ad hoc quod sint subiectum peccati:
+<lb ed="#L" n="88"/>quia secundum hoc etiam membra exteriora,
+<lb ed="#L" n="89"/>quae moventur a voluntate, essent subiectum
+<lb ed="#L" n="90"/>peccati; quod patet esse falsum. Ergo sola 
+volun<lb break="no" ed="#L" n="91"/>tas est subiectum peccati.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e433">
+                  <lb ed="#L" n="92"/>SED CONTRA, peccatum virtuti contrariatur. 
+Con<lb break="no" ed="#L" n="93"/>traria autem sunt circa idem. Sed aliae etiam
+<lb ed="#L" n="94"/>vires animae praeter voluntatem, sunt subiecta
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>virtutum, ut supra dictum est. Ergo non sola
+<lb ed="#L" n="96"/>voluntas est subiectum peccati.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e449">
+                  <lb ed="#L" n="97"/>RESPONDEO DICENDUM quod, sicut ex pracdictigt
+<lb ed="#L" n="98"/>patet, omne quod est principium voluntarii actus,
+<lb ed="#L" n="99"/>est subiectum peccati. Actus autem voluntarii 
+di<lb break="no" ed="#L" n="100"/>cuntur non solum illi qui eliciuntur a voluntate,
+<lb ed="#L" n="101"/>sed etiam illi qui a voluntate imperantur; ut 
+su<lb break="no" ed="#L" n="102"/>pra dictum est, cum de voluntario ageretur.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e465">
+                  <lb ed="#L" n="103"/>Unde non sola voluntas potest esse subiectum -
+<lb ed="#L" n="104"/>peccati, sed omnes illae potentiae quae possunt
+<lb ed="#L" n="105"/>moveri ad suos actus, vel ab eis reprimi, per 
+vo<lb break="no" ed="#L" n="106"/>luntatem. Et eaedem etiam potentiae sunt 
+subie<lb break="no" ed="#L" n="107"/>cta habituum moralium bonorum vel malorum:
+<lb ed="#L" n="108"/>quia eiusdem est actus et habitus.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e481">
+                  <lb ed="#L" n="109"/>AD PRIMUM ERGO DICENDUM quod non peccatur
+<lb ed="#L" n="110"/>nisi voluntate sicut primo movente: aliis autem
+<lb ed="#L" n="111"/>potentiis peccatur sicut ab ea motis.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e490">
+                  <lb ed="#L" n="112"/>AD SECUNDUM DICENDUM quod bonum et malum
+<lb ed="#L" n="113"/>pertinent ad voluntatem sicut per se obiecta ipsius:
+<lb ed="#L" n="114"/>sed aliae potentiae habent aliquod determinatum
+<lb ed="#L" n="115"/>bonum et malum, ratione cuius potest in eis esse
+<lb ed="#L" n="116"/>et virtus et vitium et peccatum, secundum quod
+<lb ed="#L" n="117"/>participant voluntate et ratione.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e507">
+                  <lb ed="#L" n="118"/>AD TERTIUM DICENDUM quod membra corporis
+<lb ed="#L" n="119"/>non sunt principia actuum, sed solum organa:
+<pb ed="#L" n="37"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>unde et comparantur ad animam moventem sicut
+<lb ed="#L" n="2"/>servus, qui agitur et non agit. Potentiae autem
+<lb ed="#L" n="3"/>appetitivae interiores comparantur ad rationem
+<lb ed="#L" n="4"/>quasi liberae: quia agunt. quodammodo et 
+agun<lb break="no" ed="#L" n="5"/>tur, ut patet per id quod dicitur I Po/it. -
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="6"/>Et praeterea actus exteriorum membrorum sunt
+<lb ed="#L" n="7"/>actiones in exteriorem materiam transeuntes: sicut
+<lb ed="#L" n="8"/>patet de percussione in peccato homicidii. Et 
+pro<lb break="no" ed="#L" n="9"/>pter hoc non est similis ratio.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1054-Dd1e541"><!-- p2p1-q74-a3 -->
+               <head xml:id="TAca84-d1e1054-Hd1e544">Articulus 3</head>
+               <head xml:id="TAca84-d1e1054-Hd1e546" type="question-title">Utrum in sensualitate possit esse peccatum</head>
+               <p xml:id="TAca84-d1e1054-d1e549">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="31"/>ARTICULUS TERTIUS
+<lb ed="#L" n="32"/>UTRUM IN SENSUALITATE POSSIT ESSE PECCATUM
+</p>
+               <p xml:id="TAca84-d1e1054-d1e558">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="33"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="34"/>in sensualitate non possit esse 
+pecca<lb break="no" ed="#L" n="35"/>tum. Peccatum enim est proprium 
+ho<lb break="no" ed="#L" n="36"/>mini, qui ex suis actibus laudatur vel
+<lb ed="#L" n="37"/>vituperatur. Sed sensualitas est communis nobis
+<lb ed="#L" n="38"/>et brutis. Ergo in sensualitate non potest esse
+<lb ed="#L" n="39"/>peccatum.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e578">
+                  <lb ed="#L" n="40"/>2. PnaETEREA, nullus peccat in eo quod vitare
+<lb ed="#L" n="41"/>non potest; sicut Augustinus dicit, in libro de Lib.
+<lb ed="#L" n="42"/>Arb. Sed homo non potest vitare quin actus
+<lb ed="#L" n="43"/>sensualitatis sit inordinatus: est enim sensualitas
+<lb ed="#L" n="44"/>perpetuae corruptionis, quandiu in hac mortali
+<lb ed="#L" n="45"/>vita vivimus; unde et per serpentem significatur,
+<lb ed="#L" n="46"/>ut Augustinus dicit, XII de 7rin. Ergo 
+inordi<lb break="no" ed="#L" n="47"/>natio motus sensualitatis non est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e599">
+                  <lb ed="#L" n="48"/>3. PRAETEREA, illud quod homo ipse non facit,
+<lb ed="#L" n="49"/>non imputatur ei ad peccatum. Sed hoc solum 
+vi<lb break="no" ed="#L" n="50"/>demur nos ipsi facere, quod cum deliberatione 
+ra<lb break="no" ed="#L" n="51"/>tionis facimus; ut Philosophus dicit, in IX Ethic. 
+<lb ed="#L" n="52"/>Ergo motus sensualitatis qui est sine 
+delibera<lb break="no" ed="#L" n="53"/>tione rationis, non imputatur homini ad peccatum.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e615">
+                  <lb ed="#L" n="54"/>SEp coNTRA EsT quod dicitur Rom. vu: Non
+<lb ed="#L" n="55"/>enim quod volo bonum, hoc ago; sed quod odi
+<lb ed="#L" n="56"/>malum, illud facio: quod exponit Augustinus 
+<lb ed="#L" n="57"/>de malo concupiscentiae, quam constat esse
+<lb ed="#L" n="58"/>motum quendam sensualitatis. Ergo in 
+sensuali<lb break="no" ed="#L" n="59"/>tate est aliquod peccatum.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e631">
+                  <lb ed="#L" n="60"/>RrsPoNpEo picENDUM quod, sicut supra dictum
+<lb ed="#L" n="61"/>est, peccatum potest inveniri in qualibet potentia
+<lb ed="#L" n="62"/>cuius actus potest esse voluntarius et inordinatus,
+<lb ed="#L" n="63"/>in quo consistit ratio peccati. Manifestum est 
+au<lb break="no" ed="#L" n="64"/>tem quod actus sensualitatis potest esse 
+volun<lb break="no" ed="#L" n="65"/>tarius, inquantum sensualitas, idest appetitus 
+sen<lb break="no" ed="#L" n="66"/>sitivus, nata est a voluntate moveri. Unde 
+relin<lb break="no" ed="#L" n="67"/>quitur quod in sensualitate possit esse peccatum.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e651">
+                  <lb ed="#L" n="68"/>AD PRIMUM ERGO DICENDUM quod aliquae vires
+<lb ed="#L" n="69"/>sensitivae partis, etsi sint communes nobis et bru-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="70"/>tis, tamen in nobis habent aliquam excellentiam
+<lb ed="#L" n="71"/>ex hoc quod rationi iunguntur: sicut nos, prae
+<lb ed="#L" n="72"/>aliis animalibus, habemus in parte sensitiva 
+co<lb break="no" ed="#L" n="73"/>gitativam et reminiscentiam, ut in Primo 
+di<lb break="no" ed="#L" n="74"/>ctum est. Et per hunc modum etiam appetitus
+<lb ed="#L" n="75"/>sensitivus in nobis prae aliis animalibus habet
+<lb ed="#L" n="76"/>quandam excellentiam, scilicet quod natus est
+<lb ed="#L" n="77"/>obedire rationi. Et quantum ad hoc, potest esse
+<lb ed="#L" n="78"/>principium actus voluntarii; et per consequens
+<lb ed="#L" n="79"/>subiectum peccati.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e682">
+                  <lb ed="#L" n="80"/>AD sECUNDUM DICENDUM quod perpetua 
+corru<lb break="no" ed="#L" n="81"/>ptio sensualitatis est intelligenda quantum ad 
+fo<lb break="no" ed="#L" n="82"/>mitem, qui nunquam totaliter tollitur in hac vita:
+<lb ed="#L" n="83"/>transit enim peccatum originale reatu, et 
+rema<lb break="no" ed="#L" n="84"/>net actu. Sed talis corruptio fomitis non impedit
+<lb ed="#L" n="85"/>quin homo rationabili voluntate possit reprimere
+<lb ed="#L" n="86"/>singulos motus inordinatos sensualitatis, si 
+prae<lb break="no" ed="#L" n="87"/>sentiat: puta divertendo cogitationem ad alia. Sed
+<lb ed="#L" n="88"/>dum homo ad aliud cogitationem divertit, potest
+<lb ed="#L" n="89"/>etiam circa illud aliquis inordinatus motus 
+insur<lb break="no" ed="#L" n="90"/>gere: sicut cum aliquis transfert cogitationem
+<lb ed="#L" n="91"/>suam a delectabilibus carnis, volens 
+concupi<lb break="no" ed="#L" n="92"/>scentiae motus vitare, ad speculationem scientiae,
+<lb ed="#L" n="93"/>insurgit quandoque aliquis motus inanis gloriae
+<lb ed="#L" n="94"/>impraemeditatus. Et ideo non potest homo vitare
+<lb ed="#L" n="95"/>omnes huiusmodi motus, propter corruptionem
+<lb ed="#L" n="96"/>praedictam: sed hoc solum sufficit ad rationem
+<lb ed="#L" n="97"/>peccati voluntarii, quod possit vitare singulos.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e724">
+                  <lb ed="#L" n="98"/>Ap TERTIUM DICENDUM quod illud quod homo facit
+<lb ed="#L" n="99"/>sine deliberatione rationis, non perfecte ipse facit:
+<lb ed="#L" n="100"/>quia nihil operatur ibi id quod est principale in
+<lb ed="#L" n="101"/>homine. Unde non est perfecte actus humanus.
+<lb ed="#L" n="102"/>Et per consequens non potest esse perfecte actus
+<lb ed="#L" n="103"/>virtutis vel peccati, sed aliquid imperfectum in
+<lb ed="#L" n="104"/>genere horum. Unde talis motus sensualitatis 
+ra<lb break="no" ed="#L" n="105"/>tionem praeveniens, est peccatum veniale, quod
+<lb ed="#L" n="106"/>est quiddam imperfectum in genere peccati.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1054-Dd1e747"><!-- p2p1-q74-a4 -->
+               <head xml:id="TAca84-d1e1054-Hd1e750">Articulus 4</head>
+               <head xml:id="TAca84-d1e1054-Hd1e752" type="question-title">Utrum in sensualitate possit esse peccatum mortale</head>
+               <p xml:id="TAca84-d1e1054-d1e755">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36"/>ARTICULUS QUARTUS
+<lb ed="#L" n="37"/>UTRUM IN SENSUALITATE POSSIT ESSE PECCATUM MORTALE
+</p>
+               <p xml:id="TAca84-d1e1054-d1e764">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="38"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="39"/>in sensualitate possit esse peccatum 
+mor<lb break="no" ed="#L" n="40"/>tale. Actus enim ex obiecto cognoscitur.
+<lb ed="#L" n="41"/>Sed circa obiecta sensualitatis contingit
+<lb ed="#L" n="42"/>peccare mortaliter: sicut circa delectabilia carnis.
+<lb ed="#L" n="43"/>Ergo actus sensualitatis potest esse peccatum 
+mor<lb break="no" ed="#L" n="44"/>tale. Et ita in sensualitate peccatum mortale 
+in<lb break="no" ed="#L" n="45"/>venitur.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e786">
+                  <lb ed="#L" n="46"/>2. PRAETEREA, peccatum mortale contrariatur 
+<lb ed="#L" n="47"/>virtuti. Sed virtus potest esse in sensualitate: 
+fem<lb break="no" ed="#L" n="48"/>perantia enim et fortitudo sunt virtutes 
+irrationabi<lb break="no" ed="#L" n="49"/>lium partium, ut Philosophus dicit, in III Ethic.
+<lb ed="#L" n="50"/>Ergo in sensualitate potest esse peccatum 
+mor<lb break="no" ed="#L" n="51"/>tale: cum contraria sint nata fieri circa idem.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e803">
+                  <lb ed="#L" n="52"/>3. PRAETEREA, veniale peccatum est dispositio
+<lb ed="#L" n="53"/>ad mortale. Sed dispositio et habitus sunt in 
+eo<lb break="no" ed="#L" n="54"/>dem. Cum igitur veniale peccatum sit in 
+sensua<lb break="no" ed="#L" n="55"/>litate, ut dictum est; etiam mortale peccatum
+<lb ed="#L" n="56"/>esse poterit in eadem.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e816">
+                  <lb ed="#L" n="57"/>SED coNTRA EsT quod Augustinus dicit, in libro
+<lb ed="#L" n="58"/>Retraci., et habetur in Glossa om. vu:
+<lb ed="#L" n="59"/>Inordinatus concupiscentiae motus (qui est 
+pecca<lb break="no" ed="#L" n="60"/>tum sensualitatis) potest etiam esse in his qui sunt
+<lb ed="#L" n="61"/>in gralia: in quibus tamen peccatum mortale non
+<lb ed="#L" n="62"/>invenitur. Ergo inordinatus motus sensualitatis
+<lb ed="#L" n="63"/>non est peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e834">
+                  <lb ed="#L" n="64"/>RESPONDEO DICENDUM quod, sicut inordinatio 
+cor<lb break="no" ed="#L" n="65"/>rumpens principium vitae corporalis, causat 
+cor<lb break="no" ed="#L" n="66"/>poralem mortem; ita etiam inordinatio.
+corrum<lb break="no" ed="#L" n="67"/>pens principium spiritualis vitae, quod est finis
+<lb ed="#L" n="68"/>ultimus, causat mortem spiritualem peccati 
+mor<lb break="no" ed="#L" n="69"/>talis, ut supra dictum est. Ordinare autem aliquid
+<lb ed="#L" n="70"/>in finem non est sensualitatis, sed solum rationis.
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="71"/>Inordinatio autem a fine non est nisi eius cuius
+<lb ed="#L" n="72"/>est ordinare in finem. Unde peccatum mortale
+<lb ed="#L" n="73"/>non potest esse in sensualitate, sed solum in 
+ra<lb break="no" ed="#L" n="74"/>tione.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e863">
+                  <lb ed="#L" n="75"/>AD PRIMUM ERGO DICENDUM quod actus 
+sensuali<lb break="no" ed="#L" n="76"/>tatis potest concurrere ad peccatum mortale: sed
+<lb ed="#L" n="77"/>tamen actus peccati mortalis non habet quod sit
+<lb ed="#L" n="78"/>peccatum mortale, ex eo quod est sensualitatis;
+<lb ed="#L" n="79"/>sed ex eo quod est rationis, cuius est ordinare
+<lb ed="#L" n="80"/>in finem. Et ideo peccatum mortale non 
+attri<lb break="no" ed="#L" n="81"/>buitur sensualitati, sed rationi.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e881">
+                  <lb ed="#L" n="82"/>AD SECUNDUM DICENDUM quod etiam P actus 
+vir<lb break="no" ed="#L" n="83"/>tutis non perficitur per id. quod est sensualitatis
+<lb ed="#L" n="84"/>tantum, sed magis per id quod est rationis et Y
+<lb ed="#L" n="85"/>voluntatis, cuius est eligere: nam actus virtutis
+<lb ed="#L" n="86"/>moralis non est sine electione. Unde semper cum
+<lb ed="#L" n="87"/>actu virtutis moralis, quae perficit vim. 
+appetiti<lb break="no" ed="#L" n="88"/>vam, est etiam actus prudentiae, quae perficit
+<lb ed="#L" n="89"/>vim rationalem. Et idem est etiam de. peccato
+<lb ed="#L" n="90"/>mortali, sicut dictum: est.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e903">
+                  <lb ed="#L" n="91"/>AD TERTIUM. DICENDUM quod dispositio tripliciter
+<lb ed="#L" n="92"/>se habet ad id ad quod disponit. Quandoque enim
+<lb ed="#L" n="93"/>est idem et in eodem: sicut scientia ? inchoata 
+di<lb break="no" ed="#L" n="94"/>citur esse dispositio ad scientiam perfectam. 
+Quan<lb break="no" ed="#L" n="95"/>doque autem est in eodem, sed non idem: sicut
+<lb ed="#L" n="96"/>calor est dispositio ad formam ignis. Quandoque
+<lb ed="#L" n="97"/>vero nec idem nec in eodem: sicut in his quae
+<lb ed="#L" n="98"/>habent ordinem ad invicem ut ex uno perveniatur
+<lb ed="#L" n="99"/>in aliud, sicut bonitas imaginationis est dispositio
+<lb ed="#L" n="100"/>ad scientiam, quae est in intellectu. Et hoc modo
+<lb ed="#L" n="101"/>veniale peccatum, quod est in sensualitate, potest
+<lb ed="#L" n="102"/>esse dispositio ad peccatum mortale, quod est in
+<lb ed="#L" n="103"/>ratione.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1054-Dd1e935"><!-- p2p1-q74-a5 -->
+               <head xml:id="TAca84-d1e1054-Hd1e938">Articulus 5</head>
+               <head xml:id="TAca84-d1e1054-Hd1e940" type="question-title">Utrum peccatum possit esse in ratione</head>
+               <p xml:id="TAca84-d1e1054-d1e943">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="110"/>ARTICULUS QUINTUS
+<lb ed="#L" n="111"/>UTRUM PECCATUM POSSIT ESSE IN RATIONE
+</p>
+               <p xml:id="TAca84-d1e1054-d1e952">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="112"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="113"/>ed peccatum non possit esse in ratione.
+<lb ed="#L" n="114"/>Cuiuslibet enim potentiae peccatum est
+<lb ed="#L" n="115"/>Nsaliquis defectus ipsius. Sed defectus 
+ra<lb break="no" ed="#L" n="116"/>tionis non est peccatum, sed magis excusat 
+pec<lb break="no" ed="#L" n="117"/>catum: excusatur enim aliquis a peccato propter
+<lb ed="#L" n="118"/>ignorantiam. Ergo in ratione non potest esse 
+pec<lb break="no" ed="#L" n="119"/>catum.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e974">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="120"/>2. PRAETEREA, primum subiectum peccati est
+<lb ed="#L" n="121"/>voluntas, ut dictum est. Sed ratio praecedit 
+vo<lb break="no" ed="#L" n="122"/>luntatem: cum sit directiva ipsius. Ergo peccatum
+<lb ed="#L" n="123"/>esse non potest in ratione.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e988">
+                  <lb ed="#L" n="124"/>3. PRAETEREA, non potest esse peccatum nisi
+<lb ed="#L" n="125"/>circa ea quae sunt in nobis. Sed perfectio et 
+de<lb break="no" ed="#L" n="126"/>fectus rationis non est eorum quae sunt in nobis:
+<lb ed="#L" n="127"/>quidam enim sunt naturaliter ratione deficientes,
+<pb ed="#L" n="40"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>vel ratione solertes. Ergo in ratione non est 
+pec<lb break="no" ed="#L" n="2"/>catum.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1008">
+                  <lb ed="#L" n="3"/>SEP coNTRA EsT quod Augustinus dicit, in libro
+<lb ed="#L" n="4"/>XII de 7rin., quod peccatum est in ratione 
+in<lb break="no" ed="#L" n="5"/>feriori et in ratione superiori.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1017">
+                  <lb ed="#L" n="6"/>RESPONDEO DICENDUM quod peccatum cuiuslibet
+<lb ed="#L" n="7"/>potentiae consistit in actu ipsius, sicut ex dictis 
+<lb ed="#L" n="8"/>patet. Habet autem ratio duplicem actum: unum
+<lb ed="#L" n="9"/>quidem secundum se, in comparatione ad 
+pro<lb break="no" ed="#L" n="10"/>prium obiectum, quod est cognoscere aliquod 
+ve<lb break="no" ed="#L" n="11"/>rum; alius autem actus rationis est inquantum
+<lb ed="#L" n="12"/>est directiva aliarum virium. Utroque igitur modo
+<lb ed="#L" n="13"/>contingit esse peccatum in ratione. Et primo 
+qui<lb break="no" ed="#L" n="14"/>dem, inquantum errat in cognitione veri: quod
+<lb ed="#L" n="15"/>quidem tunc imputatur ei ad peccatum, quando
+<lb ed="#L" n="16"/>habet ignorantiam vel errorem circa id quod 
+po<lb break="no" ed="#L" n="17"/>test et debet scire. Secundo, quando inordinatos
+<lb ed="#L" n="18"/>actus inferiorum virium vel imperat, vel etiam
+<lb ed="#L" n="19"/>post deliberationem non coercet.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1050">
+                  <lb ed="#L" n="20"/>AD PRIMUM ERGO DICENDUM quod ratio illa 
+pro<lb break="no" ed="#L" n="21"/>cedit de defectu rationis qui pertinet ad actum
+<lb ed="#L" n="22"/>proprium respectu proprii obiecti: et hoc quando
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="23"/>est defectus cognitionis eius quod quis non 
+po<lb break="no" ed="#L" n="24"/>test scire. Tunc enim talis defectus rationis non
+<lb ed="#L" n="25"/>est peccatum, sed excusat a peccato: sicut patet
+<lb ed="#L" n="26"/>in his quae per furiosos committuntur. Si vero
+<lb ed="#L" n="27"/>sit defectus rationis circa id quod homo. potest
+<lb ed="#L" n="28"/>et debet scire, non. omnino homo excusatur à
+<lb ed="#L" n="29"/>peccato, sed ipse defectus imputatur ei ad 
+pec<lb break="no" ed="#L" n="30"/>catum. - Defectus autem qui est solum in 
+diri<lb break="no" ed="#L" n="31"/>gendo alias vires, semper imputatur ei ad 
+pec<lb break="no" ed="#L" n="32"/>catum: quia huic ? defectui occurrere potest per
+<lb ed="#L" n="33"/>proprium actum.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1085">
+                  <lb ed="#L" n="34"/>AD SECUNDUM DICENDUM quod, sicut supra 
+di<lb break="no" ed="#L" n="35"/>ctum est, cum de actibus voluntatis et rationis
+<lb ed="#L" n="36"/>ageretur, voluntas quodammodo movet et 
+prae<lb break="no" ed="#L" n="37"/>cedit rationem, et ratio quodammodo voluntatem:
+<lb ed="#L" n="38"/>unde et motus voluntatis dici potest rationalis,
+<lb ed="#L" n="39"/>et actus rationis potest dici voluntarius. Et se
+<lb ed="#L" n="40"/>cundum hoc in ratione invenitur peccatum, vel
+<lb ed="#L" n="41"/>prout est defectus eius voluntarius, vel prout actus
+<lb ed="#L" n="42"/>rationis est principium actus. voluntatis.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1107">
+                  <lb ed="#L" n="43"/>Ap TERTIUM patet responsio ex dictis 
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1054-Dd1e1113"><!-- p2p1-q74-a6 -->
+               <head xml:id="TAca84-d1e1054-Hd1e1116">Articulus 6</head>
+               <head xml:id="TAca84-d1e1054-Hd1e1118" type="question-title">Utrum peccatum morosae delectationis sit in ratione</head>
+               <p xml:id="TAca84-d1e1054-d1e1121">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="71"/>ARTICULUS SEXTUS
+<lb ed="#L" n="72"/>UTRUM PECCATUM MOROSAE DELECTATIONIS SIT IN RATIONE
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1130">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="73"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="74"/>peccatum morosae delectationis non sit
+<lb ed="#L" n="75"/>ratione. Delectatio enim importat 
+mo<lb break="no" ed="#L" n="76"/>stum appetitivae virtutis, ut supra 
+di<lb break="no" ed="#L" n="77"/>ctum est. Sed vis appetitiva distinguitur a ratione,
+<lb ed="#L" n="78"/>quae est vis apprehensiva. Ergo delectatio 
+mo<lb break="no" ed="#L" n="79"/>rosa non est in ratione.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1150">
+                  <lb ed="#L" n="80"/>2. PRAETEREA, ex obiectis cognosci potest ad
+<lb ed="#L" n="81"/>quam potentiam actus pertineat, per quem 
+po<lb break="no" ed="#L" n="82"/>tentia ordinatur ad obiectum. Sed quandoque est
+<lb ed="#L" n="83"/>delectatio morosa circa bona sensibilia, et non
+<lb ed="#L" n="84"/>circa bona rationis. Ergo peccatum delectationis
+<lb ed="#L" n="85"/>morosae non est in ratione.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1167">
+                  <lb ed="#L" n="86"/>3. PRAETEREA, morosum dicitur aliquid propter
+<lb ed="#L" n="87"/>diuturnitatem temporis. Sed diuturnitas temporis
+<lb ed="#L" n="88"/>non est ratio quod aliquis actus pertineat ad ali-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="89"/>quam potentiam. Ergo delectatio morosa non 
+per<lb break="no" ed="#L" n="90"/>tinet ad rationem.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1183">
+                  <lb ed="#L" n="91"/>SED coNTRA EsT quod Augustinus dicit, XII de
+<lb ed="#L" n="92"/>Trin., quod consensus illecebrae si sola 
+cogi<lb break="no" ed="#L" n="93"/>tationis delectatione 9 contentus est, sic habendum
+<lb ed="#L" n="94"/>existimo velut cibum vetitum mulier sola 
+come<lb break="no" ed="#L" n="95"/>derit. Per mulierem autem intelligitur ratio 
+in<lb break="no" ed="#L" n="96"/>ferior, sicut ibidem ipse exponit. Ergo peccatum
+<lb ed="#L" n="97"/>morosae delectationis est in ratione.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1201">
+                  <lb ed="#L" n="98"/>RESPONDEO DICENDUM quod, sicut iam dictum
+<lb ed="#L" n="99"/>est, peccatum contingit esse in ratione 
+quando<lb break="no" ed="#L" n="100"/>que quidem inquantum est directiva humanorum
+<lb ed="#L" n="101"/>actuum. Manifestum est autem quod ratio non
+<lb ed="#L" n="102"/>solum est directiva exteriorum actuum, sed etiam
+<lb ed="#L" n="103"/>interiorum passionum. Et ideo quando deficit ratio
+<lb ed="#L" n="104"/>in directione interiorum passionum, dicitur esse
+<pb ed="#L" n="41"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>peccatum in ratione, sicut etiam quando deficit in
+<lb ed="#L" n="2"/>directione exteriorum actuum. Deficit autem in
+<lb ed="#L" n="3"/>directione passionum interiorum dupliciter. Uno
+<lb ed="#L" n="4"/>modo, quando imperat illicitas passiones: sicut
+<lb ed="#L" n="5"/>quando homo ex deliberatione provocat sibi 
+mo<lb break="no" ed="#L" n="6"/>tum irae vel concupiscientiae. Alio modo, quando
+<lb ed="#L" n="7"/>non reprimit illicitum passionis motum: sicut cum
+<lb ed="#L" n="8"/>aliquis, postquam deliberavit quod motus 
+passio<lb break="no" ed="#L" n="9"/>nis insurgens est inordinatus, nihilominus circa
+<lb ed="#L" n="10"/>ipsum immoratur, et ipsum non expellit. Et 
+se<lb break="no" ed="#L" n="11"/>cundum hoc dicitur peccatum delectationis 
+mo<lb break="no" ed="#L" n="12"/>rosae esse in ratione.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1249">
+                  <lb ed="#L" n="13"/>AD PRIMUM ERGO DICENDUM quod delectatio 
+qui<lb break="no" ed="#L" n="14"/>dem est in vi appetitiva sicut in proximo 
+princi<lb break="no" ed="#L" n="15"/>pio, sed in ratione est sicut in primo motivo:
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="16"/>secundum hoc quod supra dictum est, quod ^t.
+<lb ed="#L" n="17"/>actiones quae non transeunt in exteriorem 
+ma<lb break="no" ed="#L" n="18"/>teriam, sunt sicut in subiecto in suis principiis.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1267">
+                  <lb ed="#L" n="19"/>AD SECUNDUM DICENDUM quod ratio actum 
+pro<lb break="no" ed="#L" n="20"/>prium illicitum habet circa proprium obiectum:
+<lb ed="#L" n="21"/>sed directionem habet circa omnia obiecta 
+infe<lb break="no" ed="#L" n="22"/>riorum virium quae per rationem dirigi possunt.
+<lb ed="#L" n="23"/>Et secundum hoc etiam delectatio circa sensibilia
+<lb ed="#L" n="24"/>obiecta pertinet ad rationem.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1283">
+                  <lb ed="#L" n="25"/>AD TERTIUM DICENDUM quod delectatio: dicitur
+<lb ed="#L" n="26"/>morosa non ex mora temporis; sed ex eo quod
+<lb ed="#L" n="27"/>ratio deliberans circa eam immoratur, nec tamen
+<lb ed="#L" n="28"/>eam repellit, tenens et volvens libenter quae 
+sta<lb break="no" ed="#L" n="29"/>lim ut attigerunt animum, respui debuerunt, ut
+<lb ed="#L" n="30"/>Augustinus dicit, XII de Trin. 
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1054-Dd1e1301"><!-- p2p1-q74-a7 -->
+               <head xml:id="TAca84-d1e1054-Hd1e1304">Articulus 7</head>
+               <head xml:id="TAca84-d1e1054-Hd1e1306" type="question-title">Utrum peccatum consensus in actum sit in ratione superiori</head>
+               <p xml:id="TAca84-d1e1054-d1e1309">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="56"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="57"/>UTRUM PECCATUM CONSENSUS IN ACTUM SIT IN RATIONE SUPERIORI
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1318">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="58"/>AD SEPTIMUM SIC PROCEDITUR., Videtur quod
+<lb ed="#L" n="59"/>peccatum consensus in actum non sit
+<lb ed="#L" n="60"/>d (Gin ratione superiori. Consentire enim
+<lb ed="#L" n="61"/>est actus appetitivae virtutis, ut supra 
+<lb ed="#L" n="62"/>habitum est. Sed ratio est vis apprehensiva. Ergo
+<lb ed="#L" n="63"/>peccatum consensus in actum non est in ratione
+<lb ed="#L" n="64"/>superiori.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1338">
+                  <lb ed="#L" n="65"/>2. PRAETEREA, ratio superior intendit rationibus
+<lb ed="#L" n="66"/>aeternis inspiciendis et consulendis, ut Augustinus
+<lb ed="#L" n="67"/>dicit, XII de Trin. Sed quandoque consentitur
+<lb ed="#L" n="68"/>in actum non consultis rationibus aeternis: non
+<lb ed="#L" n="69"/>enim semper homo cogitat de rebus divinis,
+<lb ed="#L" n="70"/>quando.consentit in aliquem actum. Ergo 
+pecca<lb break="no" ed="#L" n="71"/>tum consensus in actum non semper est in 
+ra<lb break="no" ed="#L" n="72"/>tione. superiori.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1359">
+                  <lb ed="#L" n="73"/>3. PRAETEREA, sicut per rationes aeternas potest
+<lb ed="#L" n="74"/>homo regulare actus exteriores, ita etiam interiores
+<lb ed="#L" n="75"/>delectationes, vel alias passiones. Sed consensus
+<lb ed="#L" n="76"/>in delectationem absque hoc quod opere statuatur
+<lb ed="#L" n="77"/>implendum, est rationis inferioris; ut dicit 
+Augu<lb break="no" ed="#L" n="78"/>stinus, XII de Trin. Ergo etiam consensus in
+<lb ed="#L" n="79"/>actum peccati debet interdum attribui rationi 
+in<lb break="no" ed="#L" n="80"/>feriori.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1379">
+                  <lb ed="#L" n="81"/>4. PRAETEREA, sicut ratio superior excedit in-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="82"/>feriorem, ita ratio excedit vim imaginativam. Sed
+<lb ed="#L" n="83"/>quandoque procedit homo in actum per 
+appre<lb break="no" ed="#L" n="84"/>hensionem virtutis imaginativae, absque omni 
+de<lb break="no" ed="#L" n="85"/>liberatione rationis: sicut cum aliquis ex 
+imprae<lb break="no" ed="#L" n="86"/>meditato movet manum aut pedem. Ergo etiam
+<lb ed="#L" n="87"/>quandoque potest ratio inferior consentire in actum
+<lb ed="#L" n="88"/>peccati, absque ratione superiori.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1401">
+                  <lb ed="#L" n="89"/>SEp coNTRA EST quod Augustinus dicit, XII de
+<lb ed="#L" n="90"/>Trin.: Si in consensione male utendi rebus quae
+<lb ed="#L" n="91"/>per sensum corporis sentiuntur, ita. decernitur
+<lb ed="#L" n="92"/>quodcumque peccatum, ut, si potestas sit, etiam
+<lb ed="#L" n="93"/>corpore compleatur, intelligenda est mulier cibum
+<lb ed="#L" n="94"/>illicitum viro dedisse, per quem superior ratio
+<lb ed="#L" n="95"/>significatur. Ergo ad rationem superiorem 
+perti<lb break="no" ed="#L" n="96"/>net consentire in actum peccati.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1421">
+                  <lb ed="#L" n="97"/>RESPONDEO DICENDUM quod consensus importat
+<lb ed="#L" n="98"/>iudicium quoddam de eo in quod consentitur:
+<lb ed="#L" n="99"/>sicut enim ratio speculativa iudicat et sententiat
+<lb ed="#L" n="100"/>de rebus intelligibilibus, ita ratio practica iudicat
+<lb ed="#L" n="101"/>et sententiat de agendis. Est autem considerandum
+<lb ed="#L" n="102"/>quod in omni iudicio ultima sententia pertinet ad
+<lb ed="#L" n="103"/>supremum iudicatorium: sicut videmus in 
+specu<lb break="no" ed="#L" n="104"/>lativis quod ultima. sententia de aliqua 
+proposi<lb break="no" ed="#L" n="105"/>tione datur per resolutionem ad prima principia.
+<pb ed="#L" n="42"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Quandiu enim remanet aliquod principium altius,
+<lb ed="#L" n="2"/>adhuc per ipsum potest examinari id de quo 
+quae<lb break="no" ed="#L" n="3"/>ritur: unde adhuc est suspensum iudicium, quasi
+<lb ed="#L" n="4"/>nondum data finali sententia.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1456">
+                  <lb ed="#L" n="5"/>Manifestum est autem quod actus humani 
+re<lb break="no" ed="#L" n="6"/>gulari possunt ex regula rationis humanae, quae
+<lb ed="#L" n="7"/>sumitur ex rebus creatis, quas naturaliter homo
+<lb ed="#L" n="8"/>cognoscit; et ulterius ex regula legis divinae, ut
+<lb ed="#L" n="9"/>supra dictum est. Unde cum regula legis divinae
+<lb ed="#L" n="10"/>sit superior, consequens est ut ultima sententia,
+<lb ed="#L" n="11"/>per quam iudicium finaliter terminatur, pertineat
+<lb ed="#L" n="12"/>ad rationem superiorem, quae intendit rationibus
+<lb ed="#L" n="13"/>aeternis. Cum autem de pluribus occurrit 
+iudican<lb break="no" ed="#L" n="14"/>dum, finale iudicium est de eo quod ultimo 
+oc<lb break="no" ed="#L" n="15"/>currit. In actibus autem humanis ultimo occurrit
+<lb ed="#L" n="16"/>ipse actus; praeambulum autem est delectatio !,
+<lb ed="#L" n="17"/>quae inducit ad actum. Et ideo ad rationem 
+su<lb break="no" ed="#L" n="18"/>periorem proprie pertinet consensus in actum;
+<lb ed="#L" n="19"/>ad rationem vero inferiorem, quae habet inferius
+<lb ed="#L" n="20"/>iudicium, pertinet iudicium praeambulum, quod
+<lb ed="#L" n="21"/>est de delectatione. - Quamvis etiam et de 
+dele<lb break="no" ed="#L" n="22"/>ctatione superior ratio iudicare possit: quia 
+quid<lb break="no" ed="#L" n="23"/>quid. iudicio subditur inferioris, subditur etiam
+<lb ed="#L" n="24"/>iudicio superioris, sed non convertitur.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1502">
+                  <lb ed="#L" n="25"/>AD PRIMUM, ERGO DICENDUM quod consentire est
+<lb ed="#L" n="26"/>actus appetitivae virtutis non absolute, sed 
+con<lb break="no" ed="#L" n="27"/>sequenter ? ad actum rationis deliberantis et 
+iudi<lb break="no" ed="#L" n="28"/>cantis, ut supra dictum est: in hoc enim 
+ter<lb break="no" ed="#L" n="29"/>minatur consensus, quod voluntas tendit in id
+<lb ed="#L" n="30"/>quod est ratione iudicatum. Unde consensus 
+po<lb break="no" ed="#L" n="31"/>test attribui et voluntati et rationi.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1521">
+                  <lb ed="#L" n="32"/>AD SECUNDUM DICENDUM quod ex hoc ipso quod,
+<lb ed="#L" n="33"/>ratio superior non dirigit actus humanos secun-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="34"/>dum legem divinam, impediens actum peccati,
+<lb ed="#L" n="35"/>dicitur ipsa consentire; sive cogitet de lege 
+ae<lb break="no" ed="#L" n="36"/>terna, sive non. Cum enim cogitat de lege Dei,
+<lb ed="#L" n="37"/>actu eam contemnit: cum vero non cogitat, eam
+<lb ed="#L" n="38"/>negligit per modum omissionis cuiusdam. Unde
+<lb ed="#L" n="39"/>omnibus modis consensus in actum peccati 
+pro<lb break="no" ed="#L" n="40"/>cedit ex superiori ratione: quia, ut Augustinus
+<lb ed="#L" n="41"/>dicit, XII de Trin., non potest peccatum 
+effica<lb break="no" ed="#L" n="42"/>citer perpetrandum mente decerni, nisi illa mentis
+<lb ed="#L" n="43"/>intentio penes quam summa potestas est membra
+<lb ed="#L" n="44"/>in opus movendi vel ab opere cohibendi, malae
+<lb ed="#L" n="45"/>actioni cedat aut serviat.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1556">
+                  <lb ed="#L" n="46"/>AD TERTIUM DICENDUM quod ratio superior, per
+<lb ed="#L" n="47"/>considerationem legis aeternae, sicut potest 
+diri<lb break="no" ed="#L" n="48"/>gere vel cohibere actum exteriorem, ita etiam
+<lb ed="#L" n="49"/>delectationem interiorem. Sed tamen antequam
+<lb ed="#L" n="50"/>ad iudicium superioris rationis deveniatur, statim
+<lb ed="#L" n="51"/>ut sensualitas proponit delectationem, inferior 
+ra<lb break="no" ed="#L" n="52"/>tio, per rationes temporales deliberans, quandoque
+<lb ed="#L" n="53"/>huiusmodi delectationem acceptat: et tunc 
+con<lb break="no" ed="#L" n="54"/>sensus in delectationem pertinet ad inferiorem 
+ra<lb break="no" ed="#L" n="55"/>tionem. Si vero etiam consideratis rationibus 
+ae<lb break="no" ed="#L" n="56"/>ternis, homo in eodem consensu perseveret, iam
+<lb ed="#L" n="57"/>talis consensus ad superiorem rationem pertinebit.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1585">
+                  <lb ed="#L" n="58"/>AD QUARTUM DICENDUM quod apprehensio virtutis
+<lb ed="#L" n="59"/>imaginativae est subita et sine deliberatione: et
+<lb ed="#L" n="60"/>ideo potest aliquem actum causare, antequam 
+su<lb break="no" ed="#L" n="61"/>perior vel inferior ratio etiam. habeat tempus 
+de<lb break="no" ed="#L" n="62"/>liberandi. Sed iudicium rationis inferioris est cum
+<lb ed="#L" n="63"/>deliberatione, quae indiget tempore, in quo etiam
+<lb ed="#L" n="64"/>ratio superior deliberare potest. Unde si non 
+co<lb break="no" ed="#L" n="65"/>hibeat ab actu peccati per suam deliberationem,
+<lb ed="#L" n="66"/>ei imputatur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1054-Dd1e1608"><!-- p2p1-q74-a8 -->
+               <head xml:id="TAca84-d1e1054-Hd1e1611">Articulus 8</head>
+               <head xml:id="TAca84-d1e1054-Hd1e1613" type="question-title">Utrum consensus in delectationem sit peccatum mortale</head>
+               <p xml:id="TAca84-d1e1054-d1e1616">
+                  <pb ed="#L" n="43"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="2"/>UTRUM CONSENSUS IN DELECTATIONEM SIT PECCATUM MORTALE
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1627">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>consensus in delectationem non sit 
+pec<lb break="no" ed="#L" n="5"/>catum mortale. Consentire enim in 
+de<lb break="no" ed="#L" n="6"/>lectationem pertinet ad rationem 
+inferio<lb break="no" ed="#L" n="7"/>rem, cuius non est intendere rationibus aeternis
+<lb ed="#L" n="8"/>vel legi divinae, et per consequens nec ab eis
+<lb ed="#L" n="9"/>averti, Sed omne peccatum mortale est per 
+aver<lb break="no" ed="#L" n="10"/>sionem a lege divina; ut patet per definitionem
+<lb ed="#L" n="11"/>Augustini, de peccato mortali datam, quae supra 
+<lb ed="#L" n="12"/>posita est. Ergo consensus in delectationem non
+<lb ed="#L" n="13"/>est peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1656">
+                  <lb ed="#L" n="14"/>2. PRAETEREA, consentire in aliquid non est
+<lb ed="#L" n="15"/>malum nisi quia illud est malum in quod 
+consen<lb break="no" ed="#L" n="16"/>titur. Sed propter quod unumquodque, et illud
+<lb ed="#L" n="17"/>magis, vel saltem non minus. Non ergo illud
+<lb ed="#L" n="18"/>in quod consentitur, potest esse minus malum
+<lb ed="#L" n="19"/>quam consensus. Sed delectatio sine opere non
+<lb ed="#L" n="20"/>est peccatam mortale, sed veniale tantum. Ergo
+<lb ed="#L" n="21"/>nec consensus in delectationem est peccatum 
+mor<lb break="no" ed="#L" n="22"/>tale.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1679">
+                  <lb ed="#L" n="23"/>3. PRAETEREA, delectationes differunt in bonitate
+<lb ed="#L" n="24"/>et malitia secundum differentiam operationum, ut
+<lb ed="#L" n="25"/>dicit Philosophus, in X Efhic. Sed alia operatio
+<lb ed="#L" n="26"/>est interior cogitatio, et alia 5 actus exterior, puta
+<lb ed="#L" n="27"/>fornicationis. Ergo et delectatio consequens actum
+<lb ed="#L" n="28"/>interioris cogitationis, tantum differt a 
+delecta<lb break="no" ed="#L" n="29"/>tione fornicationis in bonitate vel malitia, 
+quan<lb break="no" ed="#L" n="30"/>tum differt cogitatio interior ab actu exteriori. Et
+<lb ed="#L" n="31"/>per consequens etiam eodem modo differt 
+con<lb break="no" ed="#L" n="32"/>sentire in utrumque. Sed cogitatio interior non
+<lb ed="#L" n="33"/>est peccatum mortale; nec etiam consensus in
+<lb ed="#L" n="34"/>cogitationem. Ergo per consequens nec consensus
+<lb ed="#L" n="35"/>in delectationem. |
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1710">
+                  <lb ed="#L" n="36"/>4. PRAETEREA, exterior actus fornicationis vel
+<lb ed="#L" n="37"/>adulterii non est peccatum mortale ratione 
+dele<lb break="no" ed="#L" n="38"/>ctationis, quae etiam invenitur in actu 
+matrimo<lb break="no" ed="#L" n="39"/>niali; sed ratione inordinationis ipsius actus. Sed
+<lb ed="#L" n="40"/>ille qui consentit in delectationem, non propter
+<lb ed="#L" n="41"/>hoc consentit in deordinationem actus. Ergo non
+<lb ed="#L" n="42"/>videtur mortaliter peccare.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1728">
+                  <lb ed="#L" n="43"/>5. PRAETEREA, peccatum homicidii est gravius
+<lb ed="#L" n="44"/>quam simplicis fornicationis. Sed consentire in
+<lb ed="#L" n="45"/>delectationem quae consequitur cogitationem de
+<lb ed="#L" n="46"/>homicidio, non est peccatum mortale. Ergo multo
+<lb ed="#L" n="47"/>minus consentire in delectationem quae. 
+conse<lb break="no" ed="#L" n="48"/>quitur cogitationem de fornicatione, est peccatum
+<lb ed="#L" n="49"/>mortale. !
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1746">
+                  <lb ed="#L" n="50"/>6. PRAETEREA, oratio dominica quotidie dicitur
+<lb ed="#L" n="51"/>pro remissione venialium, ut Augustinus dicit.
+<lb ed="#L" n="52"/>Sed consensum in delectationem Augustinus docet
+<lb ed="#L" n="53"/>esse abolendum per orationem dominicam:- dicit
+<lb ed="#L" n="54"/>enim, in XII de Trin., quod hoc est longe minus
+<lb ed="#L" n="55"/>peccatum. quam si.opere statuatur implendum: et
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="56"/>ideo de talibus quoque cogitationibus venia 
+peten<lb break="no" ed="#L" n="57"/>da est, pectusque percutiendum, atque dicendum,
+<lb ed="#L" n="58"/>Dimitte nobis debita nostra. Ergo consensus in
+<lb ed="#L" n="59"/>delectationem est peccatum veniale.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1772">
+                  <lb ed="#L" n="60"/>SED CONTRA EST quod Augustinus post pauca
+<lb ed="#L" n="61"/>subdit: Zotus homo damnabitur, nisi haec quae,
+<lb ed="#L" n="62"/>sine voluntate operandi, sed tamen cum voluntate
+<lb ed="#L" n="63"/>animum talibus oblectandi, solius cogitationis 
+sen<lb break="no" ed="#L" n="64"/>tiuntur esse peccata, per Mediatoris gratiam 
+re<lb break="no" ed="#L" n="65"/>mittantur. Sed nullus damnatur nisi pro peccato
+<lb ed="#L" n="66"/>mortali. Ergo consensus in delectationem est 
+pec<lb break="no" ed="#L" n="67"/>catum mortale.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1792">
+                  <lb ed="#L" n="68"/>RESPONDEO DICENDUM quod circa hoc aliqui 
+di<lb break="no" ed="#L" n="69"/>versimode opinati sunt. Quidam enim dixerunt
+<lb ed="#L" n="70"/>quod consensus in delectationem non est 
+pecca<lb break="no" ed="#L" n="71"/>tum mortale, sed veniale tantum. Alii vero 
+di<lb break="no" ed="#L" n="72"/>xerunt quod est peccatum mortale: et haec opinio
+<lb ed="#L" n="73"/>est communior et verisimilior. Est enim 
+consi<lb break="no" ed="#L" n="74"/>derandum quod, cum omnis delectatio 
+consequa<lb break="no" ed="#L" n="75"/>tur aliquam operationem, ut dicitur in X Efhic.;
+<lb ed="#L" n="76"/>et iterum cum omnis delectatio habeat aliquod
+<lb ed="#L" n="77"/>obiectum: delectatio quaelibet potest comparari
+<lb ed="#L" n="78"/>ad duo, scilicet ad operationem quam consequitur,
+<lb ed="#L" n="79"/>et ad obiectum in quo quis delectatur. Contingit
+<lb ed="#L" n="80"/>autem quod aliqua operatio sit obiectum 
+delecta<lb break="no" ed="#L" n="81"/>tionis, sicut et aliqua alia res: quia ipsa operatio
+<lb ed="#L" n="82"/>potest accipi ut bonum et finis, in quo quis 
+de<lb break="no" ed="#L" n="83"/>lectatus requiescit. Et quandoque quidem ipsamet
+<lb ed="#L" n="84"/>operatio quam consequitur delectatio, est 
+obie<lb break="no" ed="#L" n="85"/>ctum delectationis: inquantum scilicet vis 
+appe<lb break="no" ed="#L" n="86"/>titiva, cuius est delectari, reflectitur in ipsam 
+ope<lb break="no" ed="#L" n="87"/>rationem sicut in quoddam bonum; puta cum
+<lb ed="#L" n="88"/>aliquis cogitat, et delectatur de hoc ipso quod 
+co<lb break="no" ed="#L" n="89"/>gitat, inquantum sua cogitatio placet. Quandoque
+<lb ed="#L" n="90"/>vero delectatio consequens upam operationem,
+<lb ed="#L" n="91"/>puta cogitationem aliquam, habet pro obiecto
+<lb ed="#L" n="92"/>aliam operationem quasi rem cogitatam: et tunc
+<lb ed="#L" n="93"/>talis delectatio procedit ex inclinatione. appetitus
+<lb ed="#L" n="94"/>non quidem in-cogitationem, sed in operationem
+<lb ed="#L" n="95"/>cogitatam.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1856">
+                  <lb ed="#L" n="96"/>Sic igitur aliquis de fornicatione cogitans, de
+<lb ed="#L" n="97"/>duobus potest delectari: uno modo, de ipsa 
+co<lb break="no" ed="#L" n="98"/>gitatione; alio modo, de fornicatione cogitata.
+<lb ed="#L" n="99"/>Delectatio autem de cogitatione ipsa sequitur 
+in<lb break="no" ed="#L" n="100"/>clinationem affectus in cogitationem ipsam. 
+Cogi<lb break="no" ed="#L" n="101"/>tatio autem ipsa secundum se non est peccatum
+<lb ed="#L" n="102"/>mortale: immo quandoque est veniale tantum,
+<lb ed="#L" n="103"/>puta cum aliquis inutiliter cogitat ^; quandoque
+<lb ed="#L" n="104"/>autem sine peccato omnino, puta cum aliquis 
+uti<lb break="no" ed="#L" n="105"/>liter de ea cogitat, sicut cum vult de ea praedicare
+<lb ed="#L" n="106"/>vel disputare. Et ideo per consequens affectio et
+<lb ed="#L" n="107"/>delectatio quae sic est de cogitatione fornicationis,
+<lb ed="#L" n="108"/>non est de genere peccati mortalis; sed quando-
+<pb ed="#L" n="44"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>que est peccatum veniale, quandoque nullum.
+<lb ed="#L" n="2"/>Unde nec consensus in talem delectationem est
+<lb ed="#L" n="3"/>peccatum mortale. Et secundum hoc prima 
+opi<lb break="no" ed="#L" n="4"/>nio habet veritatem.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1900">
+                  <lb ed="#L" n="5"/>Quod autem aliquis cogitans de fornicatione,
+<lb ed="#L" n="6"/>delectetur de ipso actu cogitato, hoc contingit ex
+<lb ed="#L" n="7"/>hoc quod affectio eius inclinata est in hunc actum.
+<lb ed="#L" n="8"/>Unde quod aliquis. consentiat in talem 
+delecta<lb break="no" ed="#L" n="9"/>tionem, hoc nihil aliud est quam quod ipse 
+con<lb break="no" ed="#L" n="10"/>sentiat in hoc quod affectus suus sit inclinatus
+<lb ed="#L" n="11"/>in fornicationem: nullus enim delectatur nisi in
+<lb ed="#L" n="12"/>eo quod est conforme appetitui eius. Quod autem
+<lb ed="#L" n="13"/>aliquis ex deliberatione eligat quod affectus suus
+<lb ed="#L" n="14"/>conformetur his quae secundum se sunt peccata
+<lb ed="#L" n="15"/>mortalia, est peccatum mortale. Unde talis 
+con<lb break="no" ed="#L" n="16"/>sensus in delectationem peccati mortalis, est 
+pec<lb break="no" ed="#L" n="17"/>catum mortale; ut secunda opinio ponit.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1931">
+                  <lb ed="#L" n="18"/>AD PRIMUM ERGO DICENDUM quod consensus in
+<lb ed="#L" n="19"/>delectationem potest esse non solum rationis 
+in<lb break="no" ed="#L" n="20"/>ferioris, sed etiam superioris, ut dictum est.
+<lb ed="#L" n="21"/>Et tamen ipsa etiam ratio inferior potest averti
+<lb ed="#L" n="22"/>a rationibus aeternis. Quia etsi non intendit eis
+<lb ed="#L" n="23"/>ut secundum eas regulans, quod est proprium 
+su<lb break="no" ed="#L" n="24"/>perioris rationis; intendit tamen eis ut secundum
+<lb ed="#L" n="25"/>eas regulata. Et hoc modo, ab eis se avertens,
+<lb ed="#L" n="26"/>potest peccare mortaliter. Nam et actus 
+inferio<lb break="no" ed="#L" n="27"/>rum virium, et etiam exteriorum membrorum,
+<lb ed="#L" n="28"/>possunt esse peccata mortalia, secundum quod
+<lb ed="#L" n="29"/>deficit ordinatio superioris rationis regulantis eos
+<lb ed="#L" n="30"/>secundum rationes aeternas.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1962">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="31"/>AD SECUNDUM DICENDUM quod consensus in 
+pec<lb break="no" ed="#L" n="32"/>catum quod est veniale ex genere, est veniale
+<lb ed="#L" n="33"/>peccatum. Et secundum hoc potest concludi quod
+<lb ed="#L" n="34"/>consensus in delectationem quae est de ipsa vana
+<lb ed="#L" n="35"/>cogitatione fornicationis, est peccatum veniale. Sed
+<lb ed="#L" n="36"/>delectatio quae est in ipso actu fornicationis, de
+<lb ed="#L" n="37"/>genere suo est peccatum mortale. Sed quod ante
+<lb ed="#L" n="38"/>consensum sit veniale peccatum tantum, hoc est
+<lb ed="#L" n="39"/>per accidens, scilicet propter imperfectionem actus.
+<lb ed="#L" n="40"/>Quae quidem imperfectio tollitur per consensum
+<lb ed="#L" n="41"/>deliberatum supervenientem. Unde ex hoc 
+addu<lb break="no" ed="#L" n="42"/>citur in suam naturam, ut sit peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e1993">
+                  <lb ed="#L" n="43"/>AD TERTIUM DICENDUM quod ratio illa procedit de
+<lb ed="#L" n="44"/>delectatione quae habet cogitationem pro obiecto.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2000">
+                  <lb ed="#L" n="45"/>AD QUARTUM DICENDUM quod delectatio quae
+<lb ed="#L" n="46"/>habet actum exteriorem pro obiecto, non potest
+<lb ed="#L" n="47"/>esse absque complacentia exterioris actus 
+secun<lb break="no" ed="#L" n="48"/>dum se; etiam si non statuatur implendum, 
+pro<lb break="no" ed="#L" n="49"/>pter prohibitionem alicuius superioris. Unde actus
+<lb ed="#L" n="50"/>fit inordinatus: et per consequens delectatio erit
+<lb ed="#L" n="51"/>inordinata.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2019">
+                  <lb ed="#L" n="52"/>AD QUINTUM DICENDUM quod etiam consensus
+<lb ed="#L" n="53"/>in delectationem quae procedit ex complacentia
+<lb ed="#L" n="54"/>ipsius actus homicidii cogitati, est peccatum
+<lb ed="#L" n="55"/>mortale. Non autem consensus in delectationem
+<lb ed="#L" n="56"/>quae procedit ex complacentia cogitationis de 
+ho<lb break="no" ed="#L" n="57"/>micidio.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2035">
+                  <lb ed="#L" n="58"/>AD SEXTUM DICENDUM quod oratio dominica non
+<lb ed="#L" n="59"/>solum contra peccata venialia dicenda est, sed
+<lb ed="#L" n="60"/>etiam contra mortalia.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1054-Dd1e2045"><!-- p2p1-q74-a9 -->
+               <head xml:id="TAca84-d1e1054-Hd1e2048">Articulus 9</head>
+               <head xml:id="TAca84-d1e1054-Hd1e2050" type="question-title">Utrum in superiori ratione possit esse peccatum veniale,
+    secundum quod est directiva inferiorum virium</head>
+               <p xml:id="TAca84-d1e1054-d1e2053">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="96"/>ARTICULUS NONUS
+<lb ed="#L" n="97"/>UTRUM IN SUPERIORI RATIONE POSSIT ESSE PECCATUM VENIALE,
+<lb ed="#L" n="98"/>SECUNDUM QUOD EST DIRECTIVA INFERIORUM VIRIUM
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2064">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="99"/>AD NONUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="100"/>in superiori ratione non possit esse 
+pec<lb break="no" ed="#L" n="101"/>catum veniale, secundum quod est 
+di<lb break="no" ed="#L" n="102"/>rectiva inferiorum virium, idest 
+secun<lb break="no" ed="#L" n="103"/>dum quod consentit in actum peccati. Dicit enim
+<lb ed="#L" n="104"/>Augustinus, in XII de Trin., quod ratio superior
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="105"/>inhaeret rationibus aeternis. Sed peccare 
+morta<lb break="no" ed="#L" n="106"/>liter est per aversionem a rationibus aeternis. Ergo
+<lb ed="#L" n="107"/>videtur quod in superiori ratione non possit esse
+<lb ed="#L" n="108"/>peccatum nisi mortale.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2093">
+                  <lb ed="#L" n="109"/>2. PRAETEREA, superior ratio se habet in vita
+<lb ed="#L" n="110"/>spirituali tanquam principium; sieut et cor in vita
+<pb ed="#L" n="45"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>corporali. Sed infirmitates cordis sunt mortales.
+<lb ed="#L" n="2"/>Ergo peccata superioris rationis sunt mortalia.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2110">
+                  <lb ed="#L" n="3"/>3. PRAETEREA, peccatum veniale fit mortale, si
+<lb ed="#L" n="4"/>fiat ex contemptu. Sed hoc non videtur esse sine
+<lb ed="#L" n="5"/>contemptu, quod aliquis ex deliberatione peccet
+<lb ed="#L" n="6"/>etiam venialiter. Cum ergo consensus rationis 
+su<lb break="no" ed="#L" n="7"/>perioris semper sit cum deliberatione legis 
+divi<lb break="no" ed="#L" n="8"/>nae, videtur quod non possit esse sine peccato
+<lb ed="#L" n="9"/>mortali, propter contemptum divinae legis.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2128">
+                  <lb ed="#L" n="10"/>SED cONTRA, consensus in actum peccati 
+per<lb break="no" ed="#L" n="11"/>tinet ad rationem superiorem, ut supra dictum
+<lb ed="#L" n="12"/>est. Sed consensus in actum peccati venialis est
+<lb ed="#L" n="13"/>peccatum veniale. Ergo in superiori ratione 
+po<lb break="no" ed="#L" n="14"/>test esse peccatum veniale.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2141">
+                  <lb ed="#L" n="15"/>RESPONDEO DICENDUM quod, sicut Augustinus
+<lb ed="#L" n="16"/>dicit, in XII de Tin., ratio superior inhaeret
+<lb ed="#L" n="17"/>rationibus aeternis conspiciendis aut consulendis:
+<lb ed="#L" n="18"/>conspiciendis quidem, secundum quod earum 
+ve<lb break="no" ed="#L" n="19"/>ritatem speculatur; consulendis autem, 
+secun<lb break="no" ed="#L" n="20"/>dum quod per rationes aeternas de aliis iudicat et
+<lb ed="#L" n="21"/>ordinat; ad quod pertinet quod, deliberando per
+<lb ed="#L" n="22"/>rationes aeternas, consentit in aliquem actum, vel
+<lb ed="#L" n="23"/>dissentit ab eo. Contingit autem quod inordinatio
+<lb ed="#L" n="24"/>actus in quem consentit, non contrariatur 
+ratio<lb break="no" ed="#L" n="25"/>nibus aeternis, quia non est cum aversione a fine
+<lb ed="#L" n="26"/>ultimo, sicut contrariatur actus peccati mortalis:
+<lb ed="#L" n="27"/>sed est praeter eas, sicut actus peccati venialis.
+<lb ed="#L" n="28"/>Unde quando ratio superior in actum peccati 
+ve<lb break="no" ed="#L" n="29"/>nialis consentit, non avertitur a rationibus 
+aeter<lb break="no" ed="#L" n="30"/>nis. Unde non peccat mortaliter, sed venialiter.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2178">
+                  <lb ed="#L" n="31"/>Et per hoc patet responsio ad primum.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2183">
+                  <lb ed="#L" n="32"/>AD SECUNDUM DICENDUM quod duplex est 
+infir<lb break="no" ed="#L" n="33"/>mitas cordis. Una quae est in ipsa substantia 
+cor<lb break="no" ed="#L" n="34"/>dis, et immutat naturalem complexionem ipsius:
+<lb ed="#L" n="35"/>et talis infirmitas semper est mortalis. Alia est
+<lb ed="#L" n="36"/>autem infirmitas cordis propter aliquam 
+inordi<lb break="no" ed="#L" n="37"/>nationem vel motus eius, vel alicuius eorum quae
+<lb ed="#L" n="38"/>circumstant cor: et talis infirmitas non semper
+<lb ed="#L" n="39"/>est mortalis. Et similiter in ratione superiori 
+sem<lb break="no" ed="#L" n="40"/>per est peccatum mortale, quando tollitur 9. ipsa
+<lb ed="#L" n="41"/>ordinatio rationis superioris ad proprium 
+obie<lb break="no" ed="#L" n="42"/>ctum, quod est rationes Y aeternae. Sed quando
+<lb ed="#L" n="43"/>est inordinatio circa hoc, non est peccatum 
+mor<lb break="no" ed="#L" n="44"/>tale, sed veniale.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2214">
+                  <lb ed="#L" n="45"/>AD TERTIUM DICENDUM quod deliberatus 
+consen<lb break="no" ed="#L" n="46"/>sus in peccatum non semper pertinet ad 
+contem<lb break="no" ed="#L" n="47"/>ptum legis divinae: sed solum quando peccatum
+<lb ed="#L" n="48"/>legi divinae contrariatur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1054-Dd1e2226"><!-- p2p1-q74-a10 -->
+               <head xml:id="TAca84-d1e1054-Hd1e2229">Articulus 10</head>
+               <head xml:id="TAca84-d1e1054-Hd1e2231" type="question-title">
+  utrum in ratione superiori possit esse peccatum veniale
+  secundum seipsam
+</head>
+               <p xml:id="TAca84-d1e1054-d1e2234">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="49"/>ARTICULUS DECIMUS
+<lb ed="#L" n="50"/>UTRUM IN RATIONE SUPERIORI POSSIT ESSE PECCATUM VENIALE
+<lb ed="#L" n="51"/>SECUNDUM SEIPSAM
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2245">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="52"/>AD DECIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="53"/>in superiori ratione non possit esse 
+pec<lb break="no" ed="#L" n="54"/>catum veniale secundum seipsam, idest
+<lb ed="#L" n="55"/>secundum quod inspicit rationes 
+aeter<lb break="no" ed="#L" n="56"/>nas. Actus enim potentiae non invenitur esse 
+defi<lb break="no" ed="#L" n="57"/>ciens, nisi per hoc quod inordinate se habet circa
+<lb ed="#L" n="58"/>suum obiectum. Sed obiectum superioris rationis
+<lb ed="#L" n="59"/>sunt aeternae rationes, a quibus deordinari non
+<lb ed="#L" n="60"/>est sine peccato mortali. Ergo in superiori ratione
+<lb ed="#L" n="61"/>non potest esse peccatum veniale secundum 
+se<lb break="no" ed="#L" n="62"/>ipsam.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2274">
+                  <lb ed="#L" n="63"/>2. PRAETEREA, cum ratio sit vis deliberativa,
+<lb ed="#L" n="64"/>actus rationis semper est cum deliberatione. Sed
+<lb ed="#L" n="65"/>omnis inordinatus motus in his quae Dei sunt,
+<lb ed="#L" n="66"/>si sit cum deliberatione, est peccatum mortale.
+<lb ed="#L" n="67"/>Ergo in ratione superiori secundum seipsam, 
+nun<lb break="no" ed="#L" n="68"/>quam est peccatum veniale.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2291">
+                  <lb ed="#L" n="69"/>3. PRAETEREA, contingit quandoque quod 
+pec<lb break="no" ed="#L" n="70"/>catum ex subreptione est peccatum veniale, 
+pec<lb break="no" ed="#L" n="71"/>catum autem ex deliberatione est peccatum 
+mor<lb break="no" ed="#L" n="72"/>tale, per hoc quod ratio deliberans recurrit ad
+<lb ed="#L" n="73"/>aliquod maius bonum, contra quod homo agens
+<lb ed="#L" n="74"/>gravius peccat: sicut cum de actu delectabili 
+in<lb break="no" ed="#L" n="75"/>ordinato ratio deliberat quod est contra legem
+<lb ed="#L" n="76"/>Dei, gravius peccat consentiendo, quam si solum
+<lb ed="#L" n="77"/>consideraret quod est contra virtutem moralem.
+<lb ed="#L" n="78"/>Sed ratio superior non potest recurrere ad aliquod
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="79"/>altius quam sit suum obiectum. Ergo si motus
+<lb ed="#L" n="80"/>ex subreptione non sit peccatum mortale, neque
+<lb ed="#L" n="81"/>etiam deliberatio superveniens faciet ipsum esse
+<lb ed="#L" n="82"/>peccatum mortale: quod patet esse falsum. Non
+<lb ed="#L" n="83"/>ergo in ratione superiori secundum seipsam, 
+po<lb break="no" ed="#L" n="84"/>test esse peccatum veniale..
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2330">
+                  <lb ed="#L" n="85"/>SED CONTRA, motus subreptitius infidelitatis est
+<lb ed="#L" n="86"/>peccatum veniale. Sed pertinet ad superiorem
+<lb ed="#L" n="87"/>rationem secundum seipsam. Ergo in ratione 
+su<lb break="no" ed="#L" n="88"/>periori potest esse peccatum veniale secundum
+<lb ed="#L" n="89"/>seipsam.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2343">
+                  <lb ed="#L" n="90"/>RESPONDEO DICENDUM quod ratio superior aliter
+<lb ed="#L" n="91"/>fertur in suum obiectum, atque aliter in obiecta
+<lb ed="#L" n="92"/>inferiorum virium quae per ipsam diriguntur. In
+<lb ed="#L" n="93"/>obiecta enim inferiorum virium non fertur nisi
+<lb ed="#L" n="94"/>inquantum de eis consulit rationes aeternas. Unde
+<lb ed="#L" n="95"/>non fertur in ea nisi per modum deliberationis.
+<lb ed="#L" n="96"/>Deliberatus autem consensus in his quae ex 
+ge<lb break="no" ed="#L" n="97"/>nere suo sunt mortalia, est mortale peccatum.
+<lb ed="#L" n="98"/>Et ideo ratio superior semper mortaliter peccat,
+<lb ed="#L" n="99"/>si actus inferiorum virium in quos consentit, sint
+<lb ed="#L" n="100"/>peccata mortalia.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2369">
+                  <lb ed="#L" n="101"/>Sed circa proprium obiectum habet duos actus:
+<lb ed="#L" n="102"/>scilicet simplicem intuitum; et deliberationem, 
+se<lb break="no" ed="#L" n="103"/>cundum quod etiam de proprio obiecto consulit
+<lb ed="#L" n="104"/>rationes aeternas. Secundum autem simplicem
+<lb ed="#L" n="105"/>intuitum, potest aliquem inordinatum motum ha-
+<pb ed="#L" n="46"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>bere circa divina: puta cum quis patitur subitum
+<lb ed="#L" n="2"/>infidelitatis motum. Et quamvis infidelitas 
+secun<lb break="no" ed="#L" n="3"/>dum suum genus sit peccatum mortale, tamen
+<lb ed="#L" n="4"/>subitus motus infidelitatis est peccatum veniale.
+<lb ed="#L" n="5"/>Quia peccatum mortale non est nisi sit contra 
+<lb ed="#L" n="6"/>legem Dei: potest autem aliquid eorum quae
+<lb ed="#L" n="7"/>pertinent ad fidem, subito rationi occurrere sub
+<lb ed="#L" n="8"/>quadam alia ratione, antequam super hoc 
+con<lb break="no" ed="#L" n="9"/>sulatur, vel consuli possit, ratio aeterna, idest
+<lb ed="#L" n="10"/>lex Dei; puta cum quis resurrectionem 
+mortuo<lb break="no" ed="#L" n="11"/>rum subito apprehendit ut impossibilem ? 
+se<lb break="no" ed="#L" n="12"/>cundum naturam, et simul apprehendendo 
+reni<lb break="no" ed="#L" n="13"/>titur, antequam tempus habeat deliberandi quod
+<lb ed="#L" n="14"/>hoc est nobis traditum ut credendum secundum
+<lb ed="#L" n="15"/>legem divinam. Si vero post hanc 
+deliberatio<lb break="no" ed="#L" n="16"/>nem motus infidelitatis maneat, est peccatum
+<lb ed="#L" n="17"/>mortale.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2424">
+                  <lb ed="#L" n="18"/>Et ideo circa proprium obiectum, etsi sit 
+pec<lb break="no" ed="#L" n="19"/>catum mortale ex genere, potest ratio superior
+<lb ed="#L" n="20"/>peccare venialiter in subitis motibus; vel etiam
+<lb ed="#L" n="21"/>mortaliter per deliberatum consensum. In his
+<lb ed="#L" n="22"/>autem quae pertinent ad inferiores vires, semper
+<lb ed="#L" n="23"/>peccat mortaliter in his quae sunt peccata 
+mor<lb break="no" ed="#L" n="24"/>talia ex suo genere: non autem in his quae 
+se<lb break="no" ed="#L" n="25"/>cundum suum genus sunt venialia peccata.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2444">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="26"/>AD PRIMUM ERGO DICENDUM quod peccatum quod
+<lb ed="#L" n="27"/>est contra rationes aeternas, etsi sit peccatum
+<lb ed="#L" n="28"/>mortale ex genere, potest tamen esse peccatum
+<lb ed="#L" n="29"/>veniale propter imperfectionem actus subiti, ut
+<lb ed="#L" n="30"/>dictum est.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2461">
+                  <lb ed="#L" n="31"/>AD SECUNDUM DICENDUM quod in operativis ad
+<lb ed="#L" n="32"/>rationem, ad quam pertinet deliberatio, pertinet
+<lb ed="#L" n="33"/>etiam simplex intuitus eorum ex quibus 
+delibe<lb break="no" ed="#L" n="34"/>ratio procedit: sicut etiam in speculativis ad 
+ra<lb break="no" ed="#L" n="35"/>tionem pertinet et syllogizare, et propositiones
+<lb ed="#L" n="36"/>formare. Et ideo etiam ratio potest habere 
+su<lb break="no" ed="#L" n="37"/>bitum motum.
+</p>
+               <p xml:id="TAca84-d1e1054-d1e2479">
+                  <lb ed="#L" n="38"/>AD TERTIUM DICENDUM quod una et eadem res
+<lb ed="#L" n="39"/>potest diversas considerationes habere, quarum
+<lb ed="#L" n="40"/>una est altera altior: sicut Deum esse potest 
+con<lb break="no" ed="#L" n="41"/>siderari vel inquantum est cognoscibile ratione
+<lb ed="#L" n="42"/>humana, vel inquantum creditur revelatione 
+di<lb break="no" ed="#L" n="43"/>vina, quae est consideratio altior. Et ideo 
+quam<lb break="no" ed="#L" n="44"/>vis obiectum rationis superioris sit quiddam 
+se<lb break="no" ed="#L" n="45"/>cundum naturam rei altissimum, tamen potest
+<lb ed="#L" n="46"/>etiam reduci in quandam altiorem 
+consideratio<lb break="no" ed="#L" n="47"/>nem. Et hac ratione, quod in motu subito non
+<lb ed="#L" n="48"/>erat peccatum mortale, per deliberationem 
+redu<lb break="no" ed="#L" n="49"/>centem in altiorem considerationem fit peccatum
+<lb ed="#L" n="50"/>mortale, sicut supra expositum est.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

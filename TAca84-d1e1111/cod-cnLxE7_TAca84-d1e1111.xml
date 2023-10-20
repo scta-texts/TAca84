@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 85</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 85</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="110"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1111"><!-- p2p1-q85 -->
+            <head xml:id="TAca84-d1e1111-Hd1e101">Quaestio 85</head>
+            <head xml:id="TAca84-d1e1111-Hd1e103" type="question-title">De effectibus peccati. et primo, de corruptione boni naturae</head>
+            <p xml:id="TAca84-d1e1111-d1e106">
+               <pb ed="#L" n="110"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO OCTOGESIMAQUINTA
+<lb ed="#L" n="2"/>DE EFFECTIBUS PECCATI. ET PRIMO, DE CORRUPTIONE BONI NATURAE
+<lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1111-d1e119">
+               <lb ed="#L" n="4"/>DEINDE considerandum est de effectibus 
+pec<lb break="no" ed="#L" n="5"/>cati. Et primo quidem, de corruptione boni
+<lb ed="#L" n="6"/>naturae; secundo, de macula animae; tertio,
+<lb ed="#L" n="7"/>de reatu poenae.
+</p>
+            <p xml:id="TAca84-d1e1111-d1e130">
+               <lb ed="#L" n="8"/>Circa primum quaeruntur sex.
+<lb ed="#L" n="9"/>Primo: utrum bonum naturae diminuatur per
+<lb ed="#L" n="10"/>peccatum.
+<lb ed="#L" n="11"/>Secundo: utrum totaliter tolli possit.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="12"/>Tertio: de quatuor vulneribus quae Beda 
+po<lb break="no" ed="#L" n="13"/>nit, quibus natura humana vulnerata est 
+pro<lb break="no" ed="#L" n="14"/>pter peccatum.
+<lb ed="#L" n="15"/>Quarto: utrum privatio modi, speciei et 
+ordi<lb break="no" ed="#L" n="16"/>nis, sit effectus peccati.
+<lb ed="#L" n="17"/>Quinto: utrum mors et alii "defectus 
+corpora<lb break="no" ed="#L" n="18"/>les sint effectus peccati.:
+<lb ed="#L" n="19"/>Sexto: utrum sint aliquo modo homini naturales.
+</p>
+            <div xml:id="TAca84-d1e1111-Dd1e162"><!-- p2p1-q85-a1 -->
+               <head xml:id="TAca84-d1e1111-Hd1e165">Articulus 1</head>
+               <head xml:id="TAca84-d1e1111-Hd1e167" type="question-title">Utrum peccatum diminuat bonum naturae</head>
+               <p xml:id="TAca84-d1e1111-d1e170">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="20"/>ARTICULUS PRIMUS
+<lb ed="#L" n="21"/>UTRUM PECCATUM DIMINUAT BONUM NATURAE
+</p>
+               <p xml:id="TAca84-d1e1111-d1e179">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="22"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="23"/>peccatum non diminuat bonum naturae.
+<lb ed="#L" n="24"/>Peccatum enim hominis non est gravius
+<lb ed="#L" n="25"/>Nyquam peccatum daemonis. Sed bona
+<lb ed="#L" n="26"/>naturalia in daemonibus manent integra post 
+pec<lb break="no" ed="#L" n="27"/>catum, ut Dionysius dicit, iv cap. de Div. Nom. 
+<lb ed="#L" n="28"/>Ergo peccatum etiam bonum naturae humanae
+<lb ed="#L" n="29"/>non diminuit.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e201">
+                  <lb ed="#L" n="30"/>2. PRAETEREA, transmutato posteriori, non 
+trans<lb break="no" ed="#L" n="31"/>mutatur prius: manet enim substantia eadem,
+<lb ed="#L" n="32"/>transmutatis accidentibus. Sed natura praeexistit
+<lb ed="#L" n="33"/>actioni voluntariae. Ergo, facta deordinatione circa
+<lb ed="#L" n="34"/>actionem voluntariam per peccatum, non 
+trans<lb break="no" ed="#L" n="35"/>mutatur propter hoc natura, ita quod bonum 
+na<lb break="no" ed="#L" n="36"/>turae diminuatur.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e220">
+                  <lb ed="#L" n="37"/>3. PRAETEREA, peccatum est actus quidam, 
+di<lb break="no" ed="#L" n="38"/>minutio autem passio. Nullum autem agens, ex
+<lb ed="#L" n="39"/>hoc ipso quod agit, patitur: potest autem 
+con<lb break="no" ed="#L" n="40"/>tingere quod in unum agat, et ab alio patiatur.
+<lb ed="#L" n="41"/>Ergo ille qui peccat, per peccatum ? non diminuit
+<lb ed="#L" n="42"/>bonum suae naturae.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e236">
+                  <lb ed="#L" n="43"/>4. PRAETEREA, nullum accidens agit in suum
+<lb ed="#L" n="44"/>subiectum: quia quod patitur, est potentia ens;
+<lb ed="#L" n="45"/>quod autem subiicitur accidenti, iam est actu ens
+<lb ed="#L" n="46"/>secundum accidens illud. Sed peccatum est in
+<lb ed="#L" n="47"/>bono naturae sicut accidens in subiecto. Ergo
+<lb ed="#L" n="48"/>peccatum non. diminuit bonum naturae: 
+dimi<lb break="no" ed="#L" n="49"/>nuere enim quoddam agere est.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e254">
+                  <lb ed="#L" n="50"/>SED cONTRA EsT quod, sicut dicitur Luc. x,
+<lb ed="#L" n="51"/>homo descendens a Ierusalem in Iericho, idest in
+<lb ed="#L" n="52"/>defectum. peccati, expoliatur. gratuitis. et. 
+vulnera<lb break="no" ed="#L" n="53"/>tur in naturalibus, ut Beda exponit. Ergo 
+pec<lb break="no" ed="#L" n="54"/>catum diminuit bonum naturae.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e267">
+                  <lb ed="#L" n="55"/>RESPONDEO DICENDUM quod bonum naturae 
+hu<lb break="no" ed="#L" n="56"/>manae potest tripliciter dici. Primo, ipsa 
+princi<lb break="no" ed="#L" n="57"/>pia naturae, ex quibus natura ? constituitur, et
+<lb ed="#L" n="58"/>proprietates ex his causatae, sicut potentiae 
+ani<lb break="no" ed="#L" n="59"/>mae et alia huiusmodi. Secundo, quia homo a
+<lb ed="#L" n="60"/>natura habet inclinationem ad virtutem, ut 
+su<lb break="no" ed="#L" n="61"/>pra habitum est, ipsa inclinatio ad virtutem est
+<lb ed="#L" n="62"/>quoddam bonum naturae. Tertio modo potest dici
+<lb ed="#L" n="63"/>bonum naturae donum originalis iustitiae, quod
+<lb ed="#L" n="64"/>fuit in primo homine collatum toti humanae 
+na<lb break="no" ed="#L" n="65"/>turae.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e293">
+                  <lb ed="#L" n="66"/>Primum igitur bonum naturae nec tollitur nec
+<lb ed="#L" n="67"/>diminuitur per peccatum. Tertium vero bonum
+<lb ed="#L" n="68"/>naturae totaliter est ablatum per peccatum primi
+<lb ed="#L" n="69"/>parentis. Sed medium bonum naturae, scilicet ipsa
+<lb ed="#L" n="70"/>naturalis inclinatio ad virtutem, diminuitur per
+<lb ed="#L" n="71"/>peccatum. Per actus enim humanos fit quaedam
+<lb ed="#L" n="72"/>inclinatio ad similes actus, ut supra habitum est.
+<lb ed="#L" n="73"/>Oportet autem quod ex hoc quod aliquid 
+incli<lb break="no" ed="#L" n="74"/>natur ad unum contrariorum, diminuatur 
+inclina<lb break="no" ed="#L" n="75"/>tio eius ad aliud. Unde cum peccatum sit 
+contra<lb break="no" ed="#L" n="76"/>rium virtuti, ex hoc ipso quod homo peccat,
+<lb ed="#L" n="77"/>diminuitur bonum naturae quod est inclinatio ad
+<lb ed="#L" n="78"/>virtutem.:
+</p>
+               <p xml:id="TAca84-d1e1111-d1e324">
+                  <lb ed="#L" n="79"/>AD PRIMUM ERGO DICENDUM quod Dionysius 
+lo<lb break="no" ed="#L" n="80"/>quitur de bono primo naturae, quod est esse,
+<lb ed="#L" n="81"/>vivere et intelligere; ut patet eius verba intuenti.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e334">
+                  <lb ed="#L" n="82"/>AD SECUNDUM DICENDUM quod natura, etsi sit
+<lb ed="#L" n="83"/>prior quam voluntaria actio, tamen habet 
+inclina<lb break="no" ed="#L" n="84"/>tionem ad quandam voluntariam actionem. Unde
+<lb ed="#L" n="85"/>ipsa natura secundum se non variatur propter
+<lb ed="#L" n="86"/>variationem voluntariae actionis: sed ipsa 
+incli<lb break="no" ed="#L" n="87"/>natio variatur ex illa parte qua ordinatur ad
+<lb ed="#L" n="88"/>terminum.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e352">
+                  <lb ed="#L" n="89"/>AD TERTIUM DICENDUM quod actio voluntaria
+<lb ed="#L" n="90"/>procedit ex diversis potentiis, quarum una est
+<lb ed="#L" n="91"/>activa et alia passiva. Et ex hoc contingit quod
+<pb ed="#L" n="111"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>per actiones voluntarias causatur aliquid, vel 
+au<lb break="no" ed="#L" n="2"/>fertur ab homine sic agente, ut supra dictum
+<lb ed="#L" n="3"/>est, cum de generatione habituum ageretur.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e372">
+                  <lb ed="#L" n="4"/>AD QUARTUM DICENDUM quod accidens non agit
+<lb ed="#L" n="5"/>effective in subiectum; agit tamen formaliter in
+<lb ed="#L" n="6"/>ipsum, eo modo loquendi quo dicitur quod 
+al<lb break="no" ed="#L" n="7"/>bedo facit album. Et sic nihil prohibet quod 
+pec<lb break="no" ed="#L" n="8"/>catum diminuat bonum naturae: eo tamen modo
+<lb ed="#L" n="9"/>quo est ipsa diminutio boni naturae, inquantum
+<lb ed="#L" n="10"/>pertinet ad inordinationem actus. Sed quantum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="11"/>ad inordinationem agentis, oportet dicere quod
+<lb ed="#L" n="12"/>falis inordinatio causatur per hoc quod in 
+acti<lb break="no" ed="#L" n="13"/>bus animae aliquid est activum et aliquid 
+pas<lb break="no" ed="#L" n="14"/>sivum: sicut sensibile movet appetitum 
+sensiti<lb break="no" ed="#L" n="15"/>vum, et appetitus sensitivus inclinat rationem et
+<lb ed="#L" n="16"/>voluntatem, ut supra dictum est. Et ex hoc 
+cau<lb break="no" ed="#L" n="17"/>satur inordinatio, non quidem ita quod. accidens
+<lb ed="#L" n="18"/>agat in proprium subiectum; sed secandum quod
+<lb ed="#L" n="19"/>obiectum agit in potentiam, et una potentia agit
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1111-Dd1e412"><!-- p2p1-q85-a2 -->
+               <head xml:id="TAca84-d1e1111-Hd1e415">Articulus 2</head>
+               <head xml:id="TAca84-d1e1111-Hd1e417" type="question-title">Utrum totum bonum humanae naturae possit auferri per peccatum</head>
+               <p xml:id="TAca84-d1e1111-d1e420">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="35"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="36"/>UTRUM TOTUM BONUM HUMANAE NATURAE POSSIT AUFERRI PER PECCATUM
+</p>
+               <p xml:id="TAca84-d1e1111-d1e429">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="37"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="38"/>totum bonum humanae naturae possit
+<lb ed="#L" n="39"/>a per peccatum auferri. Bonum enim 
+na<lb break="no" ed="#L" n="40"/>turae humanae finitum est: cum et ipsa
+<lb ed="#L" n="41"/>natura humana sit finita. Sed quodlibet finitum
+<lb ed="#L" n="42"/>totaliter consumitur, facta continua ablatione. Cum
+<lb ed="#L" n="43"/>ergo bonum naturae continue per peccatum 
+di<lb break="no" ed="#L" n="44"/>minui possit, videtur quod possit quandoque 
+to<lb break="no" ed="#L" n="45"/>taliter consumi.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e453">
+                  <lb ed="#L" n="46"/>2. PRAETEREA, eorum quae sunt unius naturae,
+<lb ed="#L" n="47"/>similis est ratio de toto et de partibus: sicut patet
+<lb ed="#L" n="48"/>in aere et in aqua et carne, et omnibus 
+corpo<lb break="no" ed="#L" n="49"/>ribus similium partium. Sed bonum naturae est
+<lb ed="#L" n="50"/>totaliter uniforme. Cum igitur pars eius possit 
+au<lb break="no" ed="#L" n="51"/>ferri per peccatum, totum etiam per peccatum
+<lb ed="#L" n="52"/>auferri posse videtur.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e472">
+                  <lb ed="#L" n="53"/>3. PRAETEREA, bonum naturae quod per 
+pec<lb break="no" ed="#L" n="54"/>catum minuitur, est habilitas ad virtutem. Sed
+<lb ed="#L" n="55"/>in quibusdam propter peccatum habilitas 
+praedi<lb break="no" ed="#L" n="56"/>cta totaliter tollitur: ut patet in damnatis, qui 
+re<lb break="no" ed="#L" n="57"/>parari ad virtutem non possunt, sicut nec caecus
+<lb ed="#L" n="58"/>ad visum. Ergo peccatum potest totaliter tollere
+<lb ed="#L" n="59"/>bonum naturae. j
+</p>
+               <p xml:id="TAca84-d1e1111-d1e490">
+                  <lb ed="#L" n="60"/>SED coNTRA EST quod Augustinus dicit, in 
+En<lb break="no" ed="#L" n="61"/>chirid. quod <quote xml:id="TAca84-d1e1111-Qd1e496">malum non est nisi in bono</quote>. Sed
+<lb ed="#L" n="62"/>malum culpae non potest esse in bono virtutis
+<lb ed="#L" n="63"/>vel gratiae: quia est ei contrarium. Ergo oportet
+<lb ed="#L" n="64"/>quod sit in bono naturae. Non ergo totaliter tollit
+<lb ed="#L" n="65"/>ipsum.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e508">
+                  <lb ed="#L" n="66"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="67"/>bonum naturae quod per peccatum diminuitur,
+<lb ed="#L" n="68"/>est naturalis inclinatio ad virtutem. Quae quidem
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="69"/>convenit homini ex hoc ? ipso quod rationalis est:
+<lb ed="#L" n="70"/>ex hoc enim habet quod secundum rationem 
+ope<lb break="no" ed="#L" n="71"/>retur, quod est agere secundum virtutem. Per
+<lb ed="#L" n="72"/>peccatum autem non potest totaliter ab homine
+<lb ed="#L" n="73"/>tolli quod sit rationalis: quia iam non esset capax
+<lb ed="#L" n="74"/>peccati. Unde non est possibile quod praedictum
+<lb ed="#L" n="75"/>naturae bonum. totaliter tollatur.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e534">
+                  <lb ed="#L" n="76"/>Cum autem inveniatur huiusmodi bonum 
+con<lb break="no" ed="#L" n="77"/>tinue diminui per peccatum, quidam ad huius
+<lb ed="#L" n="78"/>manifestationem usi sunt quodam exemplo, in
+<lb ed="#L" n="79"/>quo invenitur aliquod finitum in infinitum 
+dimi<lb break="no" ed="#L" n="80"/>nui, nunquam tamen totaliter consumi. Dicit enim
+<lb ed="#L" n="81"/>Philosophus, in III Physic., quod si ab aliqua
+<lb ed="#L" n="82"/>magnitudine finita continue auferatur aliquid 
+se<lb break="no" ed="#L" n="83"/>cundum eandem quantitatem, totaliter tandem
+<lb ed="#L" n="84"/>consumetur: puta si a quacumque quantitate finita
+<lb ed="#L" n="85"/>semper subtraxero mensuram palmi. Si vero fiat
+<lb ed="#L" n="86"/>subtractio semper ! secundum eandem 
+proportio<lb break="no" ed="#L" n="87"/>nem, et non secundum eandem quantitatem, 
+po<lb break="no" ed="#L" n="88"/>terit in infinitum subtrahi: puta, si quantitas 
+di<lb break="no" ed="#L" n="89"/>vidatur in duas partes, et à dimidio subtrahatur
+<lb ed="#L" n="90"/>dimidium, ità in infinitum poterit procedi; ita 
+ta<lb break="no" ed="#L" n="91"/>men quod semper quod posterius subtrahitur, erit:
+<lb ed="#L" n="92"/>minus eo quod prius subtrahebatur. - Sed hoc in
+<lb ed="#L" n="93"/>proposito non habet locum: non enim sequens
+<lb ed="#L" n="94"/>peccatum minus diminuit bonum naturae quam
+<lb ed="#L" n="95"/>praecedens, sed forte magis, si sit gravius.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e580">
+                  <lb ed="#L" n="96"/>Et ideo aliter est dicendum quod praedicta 
+in<lb break="no" ed="#L" n="97"/>clinatio intelligitur ut media inter duo: fundatur
+<lb ed="#L" n="98"/>enim sicut in radice in natura rationali, et tendit
+<lb ed="#L" n="99"/>in bonum virtutis sicut in terminum et finem.
+<lb ed="#L" n="100"/>Dupliciter igitur potest intelligi eius diminutio: uno
+<pb ed="#L" n="112"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>modo, ex parte radicis; alio modo, ex parte 
+ter<lb break="no" ed="#L" n="2"/>mini. Primo. quidem modo non diminuitur per
+<lb ed="#L" n="3"/>peccatum: eo quod peccatum non diminuit ipsam
+<lb ed="#L" n="4"/>naturam, ut supra dictum est. Sed diminuitur
+<lb ed="#L" n="5"/>secundo modo, inquantum scilicet ponitur 
+impedi<lb break="no" ed="#L" n="6"/>mentum pertingendi ad terminum. Si autem primo
+<lb ed="#L" n="7"/>modo diminueretur, oporteret quod quandoque
+<lb ed="#L" n="8"/>totaliter consumeretur, natura rationali totaliter
+<lb ed="#L" n="9"/>consumpta. Sed quia diminuitur ex parte 
+impedi<lb break="no" ed="#L" n="10"/>menti quod apponitur ne pertingat ad ? terminum,
+<lb ed="#L" n="11"/>manifestum est quod diminui quidem potest in
+<lb ed="#L" n="12"/>infinitum, quia in infinitum possunt impedimenta
+<lb ed="#L" n="13"/>apponi, secundum quod homo potest in infinitum
+<lb ed="#L" n="14"/>addere peccatum peccato: non tamen potest 
+to<lb break="no" ed="#L" n="15"/>taliter consumi, quia semper manet radix talis
+<lb ed="#L" n="16"/>inclinationis. Sicut patet in diaphano corpore,
+<lb ed="#L" n="17"/>quod quidem habet inclinationem ad 
+susceptio<lb break="no" ed="#L" n="18"/>nem lucis ex hoc ipso quod est diaphanum; 
+di<lb break="no" ed="#L" n="19"/>minuitur.autem haec inclinatio vel habilitas ex
+<lb ed="#L" n="20"/>parte. nebularum supervenientium, cum tamen
+<lb ed="#L" n="21"/>semper maneat in radice naturae.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e643">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="22"/>AD PRIMUM ERGO DICENDUM. quod obiectio illa:
+<lb ed="#L" n="23"/>procedit quando fit diminutio per subtractionem.
+<lb ed="#L" n="24"/>Hic autem fit diminutio per appositionem 
+impe<lb break="no" ed="#L" n="25"/>dimenti, quod neque tollit neque diminuit 
+radi<lb break="no" ed="#L" n="26"/>cem inclinationis, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e660">
+                  <lb ed="#L" n="27"/>AD SECUNDUM DICENDUM quod inclinatio naturalis
+<lb ed="#L" n="28"/>est quidem tota uniformis: sed tamen habet 
+re<lb break="no" ed="#L" n="29"/>spectum et ad principium et ad terminum, 
+se<lb break="no" ed="#L" n="30"/>cundum quam. diversitatem quodammodo 
+dimi<lb break="no" ed="#L" n="31"/>nuitur et quodammodo non diminuitur.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e673">
+                  <lb ed="#L" n="32"/>AD TERTIUM DICENDUM quod etiam in damnatis
+<lb ed="#L" n="33"/>manet naturalis inclinatio ad. virtutem: alioquin
+<lb ed="#L" n="34"/>non esset in eis remorsus conscientiae. Sed quod
+<lb ed="#L" n="35"/>non reducatur in actum, contingit quia deest gratia,
+<lb ed="#L" n="36"/>secundum divinam iustitiam. Sicut etiam in caeco
+<lb ed="#L" n="37"/>remanet aptitudo ad videndum in ipsa radice 
+na<lb break="no" ed="#L" n="38"/>turae, inquantum est animal naturaliter habens
+<lb ed="#L" n="39"/>visum: sed non reducitur in actum, quia deest
+<lb ed="#L" n="40"/>causa quae reducere possit formando. organum
+<lb ed="#L" n="41"/>quod requiritur ad videndum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1111-Dd1e698"><!-- p2p1-q85-a3 -->
+               <head xml:id="TAca84-d1e1111-Hd1e701">Articulus 3</head>
+               <head xml:id="TAca84-d1e1111-Hd1e703" type="question-title">Utrum convenienter ponantur vulnera naturae ex peccato consequentia,
+    infirmitas, ignorantia, malitia et concupiscentia</head>
+               <p xml:id="TAca84-d1e1111-d1e706">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="69"/>ARTICULUS TERTIUS
+<lb ed="#L" n="70"/>UTRUM CONVENIENTER PONANTUR VULNERA NATURAE EX PECCATO CONSEQUENTIA,
+<lb ed="#L" n="71"/>INFIRMITAS, IGNORANTIA, MALITIA ET CONCUPISCENTIA
+</p>
+               <p xml:id="TAca84-d1e1111-d1e717">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="72"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="73"/>inconvenienter ponantur vulnera 
+natu<lb break="no" ed="#L" n="74"/>rae esse, ex peccato consequentia, 
+infir<lb break="no" ed="#L" n="75"/>mitas, ignorantia, malitia et 
+concu<lb break="no" ed="#L" n="76"/>n Non enim idem est effectus et causa
+<lb ed="#L" n="77"/>eiusdem. Sed ista ponuntur causae peccatorum,
+<lb ed="#L" n="78"/>ut ex supradictis patet. Ergo non debent poni
+<lb ed="#L" n="79"/>effectus peccati.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e739">
+                  <lb ed="#L" n="80"/>2. PRAETEREA, malitia nominat quoddam 
+pec<lb break="no" ed="#L" n="81"/>catum. Non ergo debet poni inter effectus peccati.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e747">
+                  <lb ed="#L" n="82"/>3. PRAETEREA, concupiscentia est quiddam 
+na<lb break="no" ed="#L" n="83"/>turale: cum sit actus virtutis concupiscibilis. Sed
+<lb ed="#L" n="84"/>illud quod est naturale, non debet.poni vulnus
+<lb ed="#L" n="85"/>naturae. Ergo concupiscentia non debet poni 
+vul<lb break="no" ed="#L" n="86"/>nus naturae.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e760">
+                  <lb ed="#L" n="87"/>4. PRAETEREA, dictum est quod idem est 
+pec<lb break="no" ed="#L" n="88"/>care ex infirmitate, et ex passione. Sed 
+concupi<lb break="no" ed="#L" n="89"/>scentia passio quaedam est. Ergo non debet 
+con<lb break="no" ed="#L" n="90"/>tra infirmitatem dividi.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e771">
+                  <lb ed="#L" n="91"/>5. PRAETEREA, Augustinus, in libro de Natura
+<lb ed="#L" n="92"/>et Graiia, ponit duo poenalia animae peccanti,
+<lb ed="#L" n="93"/>scilicet ignorantiam et difficultatem, ex | quibus
+<lb ed="#L" n="94"/>oritur error et cruciatus: quae quidem quatuor
+<lb ed="#L" n="95"/>non concordant istis quatuor. Ergo videtur quod
+<lb ed="#L" n="96"/>alterum eorum insufficienter ponatur.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e787">
+                  <lb ed="#L" n="97"/>IN cONTRARIUM est auctoritas Bedae.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e792">
+                  <lb ed="#L" n="98"/>RESPONDEO DICENDUM quod per iustitiam 
+origi<lb break="no" ed="#L" n="99"/>nalem perfecte ratio continebat inferiores animae
+<lb ed="#L" n="100"/>vires, et ipsa ratio a Deo perficiebatur, ei 
+subie<lb break="no" ed="#L" n="101"/>cta. Haec autem originalis iustitia subtracta est
+<pb ed="#L" n="113"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>per peccatum primi parentis, sicut iam dictum 
+<lb ed="#L" n="2"/>est. Et ideo omnes vires animae remanent 
+quo<lb break="no" ed="#L" n="3"/>dammodo destitutae proprio ordine, quo 
+natura<lb break="no" ed="#L" n="4"/>liter ordinantur ad virtutem: et ipsa destitutio
+<lb ed="#L" n="5"/>vulneratio naturae dicitur. Sunt autem quatuor
+<lb ed="#L" n="6"/>potentiae animae quae possunt esse subiecta 
+vir<lb break="no" ed="#L" n="7"/>tutum, ut supra dictum est: scilicet ratio, in qua
+<lb ed="#L" n="8"/>est prudentia; voluntas, in qua est iustitia; 
+ira<lb break="no" ed="#L" n="9"/>scibilis, in qua est fortitudo; concupiscibilis, in
+<lb ed="#L" n="10"/>qua est temperantia. Inquantum ergo ratio 
+de<lb break="no" ed="#L" n="11"/>stituitur suo ordine ad verum, est vulnus 
+igno<lb break="no" ed="#L" n="12"/>rantiae; inquantum vero voluntas destituitur 
+or<lb break="no" ed="#L" n="13"/>dine ad bonum, est vulnus malitiae; inquantum
+<lb ed="#L" n="14"/>vero irascibilis destituitur suo ordine ad arduum,
+<lb ed="#L" n="15"/>est vulnus infirmitatis; inquantum vero 
+concupi<lb break="no" ed="#L" n="16"/>scentia destituitur ordine ad delectabile 
+modera<lb break="no" ed="#L" n="17"/>tum ratione, est vulnus concupiscentiae.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e844">
+                  <lb ed="#L" n="18"/>Sic igitur ista quatuor sunt vulnera inflicta toti
+<lb ed="#L" n="19"/>humanae naturae ex peccato primi parentis, Sed
+<lb ed="#L" n="20"/>quia inclinatio ad bonum virtutis in unoquoque
+<lb ed="#L" n="21"/>diminuitur per peccatum actuale, ut ex dictis 
+<lb ed="#L" n="22"/>patet, et ista sunt quatuor vulnera ex aliis peccatis
+<lb ed="#L" n="23"/>consequentia: inquantum scilicet per peccatum et
+<lb ed="#L" n="24"/>ratio hebetatur, praecipue in agendis; et voluntas
+<lb ed="#L" n="25"/>induratur ad bonum; et maior difficultas bene
+<lb ed="#L" n="26"/>agendi accrescit; et concupiscentia magis 
+exar<lb break="no" ed="#L" n="27"/>descit.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e869">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="28"/>AD PRIMUM ERGO DICENDUM quod nihil prohibet
+<lb ed="#L" n="29"/>id quod est effectus unius peccati, esse causam
+<lb ed="#L" n="30"/>peccati alterius. Ex hoc enim quod anima 
+deor<lb break="no" ed="#L" n="31"/>dinatur per peccatum praecedens, facilius 
+inclina<lb break="no" ed="#L" n="32"/>tur ad peccandum.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e885">
+                  <lb ed="#L" n="33"/>AD SECUNDUM DICENDUM quod malitia non 
+sumi<lb break="no" ed="#L" n="34"/>tur hic pro peccato, sed pro quadam pronitate
+<lb ed="#L" n="35"/>voluntatis ad malum; secundum quod dicitur
+<lb ed="#L" n="36"/>Gen. vin: Proni sunt sensus hominis ad malum
+<lb ed="#L" n="37"/>ab adolescentia sua.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e898">
+                  <lb ed="#L" n="38"/>AD TERTIUM DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="39"/>est, concupiscentia intantum est naturalis homini,
+<lb ed="#L" n="40"/>inquantum subditur rationi. Quod autem excedat
+<lb ed="#L" n="41"/>limites rationis, hoc est homini contra naturam.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e909">
+                  <lb ed="#L" n="42"/>AD QUARTUM DICENDUM quod infirmitas 
+commu<lb break="no" ed="#L" n="43"/>niter potest dici omnis passio, inquantum 
+debi<lb break="no" ed="#L" n="44"/>litat robur animae et impedit rationem. Sed Beda
+<lb ed="#L" n="45"/>accepit infirmitatem stricte, secundum quod 
+op<lb break="no" ed="#L" n="46"/>ponitur fortitudini, quae pertinet ad irascibilem.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e922">
+                  <lb ed="#L" n="47"/>AD QUINTUM DICENDUM quad difficultas quae 
+po<lb break="no" ed="#L" n="48"/>nitur in libro Augustini ?, includit ista tria quae
+<lb ed="#L" n="49"/>pertinent ad appetitivas potentias, scilicet 
+mali<lb break="no" ed="#L" n="50"/>tiam, infirmitatem et concupiscentiam: ex his enim
+<lb ed="#L" n="51"/>tribus contingit quod aliquis non facile tendit in
+<lb ed="#L" n="52"/>bonum. Error autem et dolor sunt vulnera 
+con<lb break="no" ed="#L" n="53"/>sequentia: ex hoc enim aliquis dolet, quod 
+infir<lb break="no" ed="#L" n="54"/>matur circa ea quae concupiscit.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1111-Dd1e943"><!-- p2p1-q85-a4 -->
+               <head xml:id="TAca84-d1e1111-Hd1e946">Articulus 4</head>
+               <head xml:id="TAca84-d1e1111-Hd1e948" type="question-title">Utrum privatio modi, speciei et ordinis, sit effectus peccati</head>
+               <p xml:id="TAca84-d1e1111-d1e951">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="25"/>ARTICULUS QUARTUS
+<lb ed="#L" n="26"/>UTRUM PRIVATIO MODI, SPECIEI ET ORDINIS, SIT EFFECTUS PECCATI
+</p>
+               <p xml:id="TAca84-d1e1111-d1e960">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="27"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="28"/>W) privatio modi, speciei et ordinis, non sit
+<lb ed="#L" n="29"/>i effectus peccati. Dicit enim Augustinus,
+<lb ed="#L" n="30"/>Nin libro de Natura Boni, quod ubi
+<lb ed="#L" n="31"/>haec tria magna sunt, magnum bonum est; ubi
+<lb ed="#L" n="32"/>parva, parvum; ubi nulla, nullum. Sed peccatum
+<lb ed="#L" n="33"/>non annullat bonum naturae. Ergo non privat
+<lb ed="#L" n="34"/>modum, speciem et ordinem.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e982">
+                  <lb ed="#L" n="35"/>2. PRAETEREA, nihil est causa sui ipsius. Sed
+<lb ed="#L" n="36"/>ipsum peccatum est privatio modi, speciei et
+<lb ed="#L" n="37"/>ordinis, ut Augustinus dicit, in libro de Natura
+<lb ed="#L" n="38"/>Boni. Ergo privatio modi, speciei et ordinis, non
+<lb ed="#L" n="39"/>est effectus peccati.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e996">
+                  <lb ed="#L" n="40"/>3. PRAETEREA, diversa peccata diversos habent
+<lb ed="#L" n="41"/>effectus. Sed modus, species et ordo, cum sint
+<lb ed="#L" n="42"/>quaedam diversa, diversas privationes habere 
+vi<lb break="no" ed="#L" n="43"/>dentur. Ergo per diversa peccata privantut. Non
+<lb ed="#L" n="44"/>ergo est effectus cuiuslibet peccati privatio modi,
+<lb ed="#L" n="45"/>speciei et ordinis.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1012">
+                  <lb ed="#L" n="46"/>SED cONTRA EST quod peccatum est in anima
+<lb ed="#L" n="47"/>sicut infirmitas in corpore; secundum illud 
+Psal<lb break="no" ed="#L" n="48"/>mi vi: Miserere mei, Domine, quoniam infirmus
+<lb ed="#L" n="49"/>sum. Sed infirmitas privat modum, speciem et
+<lb ed="#L" n="50"/>ordinem ipsius corporis. Ergo peccatum privat
+<lb ed="#L" n="51"/>modum, speciem et ordinem animae.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1028">
+                  <lb ed="#L" n="52"/>RESPONDEO DICENDUM quod, sicut in Primo 
+di<lb break="no" ed="#L" n="53"/>ctum est, modus, species et ordo consequuntur
+<lb ed="#L" n="54"/>unumquodque bonum creatum inquantum 
+huius<lb break="no" ed="#L" n="55"/>modi, et etiam unumquodque ens. Omne. enim
+<lb ed="#L" n="56"/>esse et bonum consideratur per aliquam formam,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="57"/>secundum quam sumitur species. Forma autem
+<lb ed="#L" n="58"/>uniuscuiusque rei, qualiscumque sit, sive 
+substan<lb break="no" ed="#L" n="59"/>tialis sive accidentalis, est secundum aliquam 
+men<lb break="no" ed="#L" n="60"/>suram: unde et in VIII Metaphys. dicitur quod
+<lb ed="#L" n="61"/>formae rerum sunt sicut numeri. Et ex hoc habet
+<lb ed="#L" n="62"/>modum quendam, qui mensuram respicit. Ex
+<lb ed="#L" n="63"/>forma vero sua unumquodque ordinatur ad aliud.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1059">
+                  <lb ed="#L" n="64"/>Sic igitur secundum diversos gradus bonorum,
+<lb ed="#L" n="65"/>sunt diversi gradus modi, speciei et ordinis, Est
+<lb ed="#L" n="66"/>ergo quoddam bonum pertinens ad ipsam 
+sub<lb break="no" ed="#L" n="67"/>stantiam naturae, quod habet suum modum, 
+spe<lb break="no" ed="#L" n="68"/>ciem et ordinem: et illud nec privatur nec 
+dimi<lb break="no" ed="#L" n="69"/>nuitur per peccatum. Est etiam quoddam bonum
+<lb ed="#L" n="70"/>naturalis inclinationis, et hoc etiam habet suu
+<lb ed="#L" n="71"/>modum, speciem et ordinem: et hoc diminuitu
+<lb ed="#L" n="72"/>per peccatum, ut dictum est, sed non totaliter
+<lb ed="#L" n="73"/>tollitur 5. Est etiam quoddam bonum. yirtutis et
+<lb ed="#L" n="74"/>gratiae, quod etiam habet suum modum, speciem.
+<lb ed="#L" n="75"/>et ordinem: et hoc totaliter tollitur per peccatum
+<lb ed="#L" n="76"/>mortale. Est etiam quoddam bonum quod est
+<lb ed="#L" n="77"/>ipse actus ordinatus, quod etiam habet suum 
+mo<lb break="no" ed="#L" n="78"/>dum, speciem et ordinem: et huius privatio est.
+<lb ed="#L" n="79"/>essentialiter ipsum peccatum.. Et sic patet qualiter
+<lb ed="#L" n="80"/>peccatum et est privatio modi, speciei et ordinis;
+<lb ed="#L" n="81"/>et privat vel diminuit modum, speciem et 
+or<lb break="no" ed="#L" n="82"/>dinem.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1103">
+                  <lb ed="#L" n="83"/>Unde patet responsio ad duo prima.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1108">
+                  <lb ed="#L" n="84"/>AD TERTIUM.DICENDUM quod modus, species et
+<lb ed="#L" n="85"/>ordo se consequuntnur, sicut ex dictis patet.
+<lb ed="#L" n="86"/>Unde simul privantur et diminuuntur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1111-Dd1e1118"><!-- p2p1-q85-a5 -->
+               <head xml:id="TAca84-d1e1111-Hd1e1121">Articulus 5</head>
+               <head xml:id="TAca84-d1e1111-Hd1e1123" type="question-title">Utrum mors et alii corporales defectus sint effectus peccati</head>
+               <p xml:id="TAca84-d1e1111-d1e1126">
+                  <pb ed="#L" n="115"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUINTUS
+<lb ed="#L" n="2"/>UTRUM MORS ET ALII CORPORALES DEFECTUS SINT EFFECTUS PECCATI
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1137">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>mors et alii corporales defectus non sint
+<lb ed="#L" n="5"/>effectus peccati. Si enim causa fuerit 
+ae<lb break="no" ed="#L" n="6"/>aqualis, et effectus erit aequalis. Sed 
+hu<lb break="no" ed="#L" n="7"/>iusmodi defectus non sunt aequales in omnibus,
+<lb ed="#L" n="8"/>sed in quibusdam huiusmodi defectus magis 
+abun<lb break="no" ed="#L" n="9"/>dant: cum tamen peccatum originale sit in omnibus
+<lb ed="#L" n="10"/>aequale, sicut dictum est, cuius videntur 
+huius<lb break="no" ed="#L" n="11"/>modi defectus maxime esse effectus. Ergo mors
+<lb ed="#L" n="12"/>et huiusmodi defectus non sunt effectus peccati.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1163">
+                  <lb ed="#L" n="13"/>2. PRAETEREA, remota causa, removetur 
+effe<lb break="no" ed="#L" n="14"/>ctus. Sed remoto omni peccato per baptismum
+<lb ed="#L" n="15"/>"vel. poenitentiam, non removentur huiusmodi 
+de<lb break="no" ed="#L" n="16"/>fectus. Ergo non sunt effectus peccati:
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1175">
+                  <lb ed="#L" n="17"/>3. PRAETEREA, peccatum actuale habet plus de
+<lb ed="#L" n="18"/>ratione culpae quam originale. Sed peccatum 
+a<lb break="no" ed="#L" n="19"/>ctuale non transmutat naturam corporis ad 
+ali<lb break="no" ed="#L" n="20"/>quem defectum. Ergo multo minus peccatum 
+ori<lb break="no" ed="#L" n="21"/>ginale. Non ergo mors et alii defectus corporales
+<lb ed="#L" n="22"/>sunt effectus peccati.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1191">
+                  <lb ed="#L" n="23"/>SED coNTRA EsT quod Apostolus dicit, Rom. v:
+<lb ed="#L" n="24"/>Per unum hominem peccatum in hunc. mundum
+<lb ed="#L" n="25"/>intravil, et per peccatum mors. -
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1200">
+                  <lb ed="#L" n="26"/>REsPoNpEO DicENDUM quod aliquid est causa 
+al<lb break="no" ed="#L" n="27"/>terius dupliciter: uno quidem modo, per se; alio
+<lb ed="#L" n="28"/>modo, per accidens. Per se quidem est causa 
+al<lb break="no" ed="#L" n="29"/>terius quod secundum virtutem suae naturae vel
+<lb ed="#L" n="30"/>formae producit effectum: unde sequitur quod
+<lb ed="#L" n="31"/>effectus sit per se intentus a causa. Unde cum
+<lb ed="#L" n="32"/>mors et huiusmodi defectus sint praeter 
+intentio<lb break="no" ed="#L" n="33"/>nem peccantis, manifestum est quod peccatum
+<lb ed="#L" n="34"/>non est per se causa istorum defectuum.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1222">
+                  <lb ed="#L" n="35"/>Per accidens autem aliquid est causa alterius,
+<lb ed="#L" n="36"/>si sit causa removendo prohibens: sicut dicitur
+<lb ed="#L" n="37"/>in VIII Physic. quod divellens columnam, per
+<lb ed="#L" n="38"/>accidens movet ? lapidem columnae superpositum.
+<lb ed="#L" n="39"/>Et hoc modo peccatum primi parentis est causa
+<lb ed="#L" n="40"/>mortis et omnium huiusmodi defectuum in natura
+<lb ed="#L" n="41"/>humana, inquantum per peccatum primi parentis
+<lb ed="#L" n="42"/>sublata est originalis iustitia, per quam non solum
+<lb ed="#L" n="43"/>inferiores animae vires continebantur sub ratione
+<lb ed="#L" n="44"/>absque omni deordinatione, sed totum corpus
+<lb ed="#L" n="45"/>continebatur sub anima absque omni defectu, ut
+<lb ed="#L" n="46"/>originali iustitia per peccatum primi parentis, sicut
+<lb ed="#L" n="47"/>vulnerata est humana natura quantum ad animam
+<lb ed="#L" n="48"/>per deordinationem potentiarum, ut supra 
+di<lb break="no" ed="#L" n="49"/>ctum est; ita etiam est? corruptibilis effecta per
+<lb ed="#L" n="50"/>deordinationem ipsius corporis.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1259">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="51"/>Subtractio autem originalis iustitiae habet 
+ra<lb break="no" ed="#L" n="52"/>tionem poenae, sicut etiam subtractio gratiae.
+<lb ed="#L" n="53"/>Unde etiam mors, et omnes defectus corporales
+<lb ed="#L" n="54"/>consequentes, sunt quaedam poenae originalis
+<lb ed="#L" n="55"/>peccati. Et quamvis huiusmodi defectus non sint
+<lb ed="#L" n="56"/>intenti a peccante, sunt tamen ordinati secundum
+<lb ed="#L" n="57"/>iustitiam Dei punientis.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1279">
+                  <lb ed="#L" n="58"/>AD PRIMUM ERGO DICENDUM quod aequalitas 
+cau<lb break="no" ed="#L" n="59"/>sae per se, causat aequalem effectum: 
+augmen<lb break="no" ed="#L" n="60"/>tata enim vel diminuta causa per se, augetur vel
+<lb ed="#L" n="61"/>diminuitur effectus. Sed aequalitas causae 
+remo<lb break="no" ed="#L" n="62"/>ventis prohibens, non ostendit aequalitatem 
+effe<lb break="no" ed="#L" n="63"/>ctuum. Si quis enim aequali impulsu divellat duas
+<lb ed="#L" n="64"/>columnas, non sequitur quod lapides superpositi
+<lb ed="#L" n="65"/>aequaliter moveantur: sed ille velocius movebitur
+<lb ed="#L" n="66"/>qui gravior erit secundum proprietatem suae 
+natu<lb break="no" ed="#L" n="67"/>rae, cui relinquitur remoto prohibente. Sic igitur,
+<lb ed="#L" n="68"/>remota originali iustitia, natura corporis humani
+<lb ed="#L" n="69"/>relicta est sibi: et secundum hoc, secundum 
+diver<lb break="no" ed="#L" n="70"/>sitatem naturalis complexionis, quorundam 
+cor<lb break="no" ed="#L" n="71"/>pora pluribus defectibus subiacent, quorundam
+<lb ed="#L" n="72"/>vero paucioribus, quamvis existente originali 
+pec<lb break="no" ed="#L" n="73"/>cato aequali.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1317">
+                  <lb ed="#L" n="74"/>AD SECUNDUM DICENDUM quod culpa originalis et
+<lb ed="#L" n="75"/>actualis removetur ab eodem a quo etiam 
+remo<lb break="no" ed="#L" n="76"/>ventur et huiusmodi defectus, secundum illud
+<lb ed="#L" n="77"/>Apostoli, Rom. vu: Vivificabit mortalia corpora
+<lb ed="#L" n="78"/>vestra per inhabitantem Spiritum eius in vobis:
+<lb ed="#L" n="79"/>sed utrumque fit secundum ordinem divinae 
+sa<lb break="no" ed="#L" n="80"/>pientiae, congruo tempore. Oportet enim quod ad
+<lb ed="#L" n="81"/>immortalitatem et impassibilitatem gloriae, quae
+<lb ed="#L" n="82"/>in Christo inchoata est, et per Christum nobis
+<lb ed="#L" n="83"/>acquisita, perveniamus conformati prius 
+passio<lb break="no" ed="#L" n="84"/>nibus eius. Unde oportet quod ad tempus 
+passi<lb break="no" ed="#L" n="85"/>bilitas in nostris corporibus remaneat, ad 
+im<lb break="no" ed="#L" n="86"/>passibilitatem gloriae promerendam conformiter
+<lb ed="#L" n="87"/>Christo.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1350">
+                  <lb ed="#L" n="88"/>AD TERTIUM DICENDUM quod in peccato actuali
+<lb ed="#L" n="89"/>duo possumus considerare: scilicet ipsam 
+sub<lb break="no" ed="#L" n="90"/>stantiam actus, et rationem culpae. Ex parte
+<lb ed="#L" n="91"/>quidem substantiae actus, potest peccatum actuale
+<lb ed="#L" n="92"/>aliquem defectum corporalem causare: sicut ex
+<lb ed="#L" n="93"/>superfluo cibo aliqui infirmantur et moriuntur.
+<lb ed="#L" n="94"/>Sed ex parte culpae, privat gratiam quae datur
+<lb ed="#L" n="95"/>homini ad rectificandum animae actus, non 
+au<lb break="no" ed="#L" n="96"/>tem ad cohibendum defectus corporales, sicut
+<lb ed="#L" n="97"/>originalis iustitia cohibebat. Et ideo. peccatum
+<lb ed="#L" n="98"/>actuale non causat huiusmodi defectus, sicut 
+ori<lb break="no" ed="#L" n="99"/>ginale.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1111-Dd1e1380"><!-- p2p1-q85-a6 -->
+               <head xml:id="TAca84-d1e1111-Hd1e1383">Articulus 6</head>
+               <head xml:id="TAca84-d1e1111-Hd1e1385" type="question-title">Utrum mors et alii defectus sint naturales homini</head>
+               <p xml:id="TAca84-d1e1111-d1e1388">
+                  <pb ed="#L" n="116"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SEXTUS
+<lb ed="#L" n="2"/>UTRUM MORS ET ALII DEFECTUS SINT NATURALES HOMINI
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1399">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>mors et huiusmodi defectus sint homini
+<lb ed="#L" n="5"/>naturales. Corruptibile enim et 
+incorru<lb break="no" ed="#L" n="6"/>ptibile differunt genere, ut dicitur in X
+<lb ed="#L" n="7"/>Metaphys. Sed homo est eiusdem generis cum
+<lb ed="#L" n="8"/>aliis animalibus, quae sunt naturaliter 
+corruptibi<lb break="no" ed="#L" n="9"/>lia. Ergo homo est naturaliter corruptibilis.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1419">
+                  <lb ed="#L" n="10"/>2. PRAETEREA, omne quod est compositum ex
+<lb ed="#L" n="11"/>contrariis, est naturaliter corruptibile, quasi 
+ha<lb break="no" ed="#L" n="12"/>bens in se causam corruptionis suae. Sed corpus
+<lb ed="#L" n="13"/>humanum est huiusmodi. Ergo est naturaliter 
+cor<lb break="no" ed="#L" n="14"/>ruptibile.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1433">
+                  <lb ed="#L" n="15"/>3. PRAETEREA, calidum naturaliter consumit 
+hu<lb break="no" ed="#L" n="16"/>midum. Vita autem hominis conservatur per 
+ca<lb break="no" ed="#L" n="17"/>lidum et humidum. Cum igitur operationes vitae
+<lb ed="#L" n="18"/>expleantur per actum caloris naturalis, ut dicitur
+<lb ed="#L" n="19"/>in II de Anima, videtur quod mors et huiusmodi
+<lb ed="#L" n="20"/>defectus sint homini naturales.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1449">
+                  <lb ed="#L" n="21"/>SED CONTRA, quidquid est homini naturale, Deus
+<lb ed="#L" n="22"/>in homine fecit. Sed Deus mortem non fecit, ut
+<lb ed="#L" n="23"/>dicitur Sap. 15. Ergo mors non est homini 
+na<lb break="no" ed="#L" n="24"/>turalis.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1460">
+                  <lb ed="#L" n="25"/>2. PRAETEREA, id quod est secundum naturam,
+<lb ed="#L" n="26"/>non potest dici poena nec malum: quia unicuique
+<lb ed="#L" n="27"/>rei est conveniens id quod est ei naturale. Sed
+<lb ed="#L" n="28"/>mors et huiusmodi defectus sunt poena peccati
+<lb ed="#L" n="29"/>originalis, ut supra dictum est. Ergo non sunt
+<lb ed="#L" n="30"/>homini naturales.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1476">
+                  <lb ed="#L" n="31"/>3. PRAETEREA, materia proportionatur formae,
+<lb ed="#L" n="32"/>et quaelibet res suo fini. Finis autem hominis est
+<lb ed="#L" n="33"/>beatitudo perpetua, ut supra dictum est. Forma
+<lb ed="#L" n="34"/>etiam humani corporis est anima rationalis, quae
+<lb ed="#L" n="35"/>est incorruptibilis, ut in Primo habitum est. Ergo
+<lb ed="#L" n="36"/>corpus humanum est naturaliter incorruptibile.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1492">
+                  <lb ed="#L" n="37"/>RESPONDEO DICENDUM quod de unaquaque 
+re<lb break="no" ed="#L" n="38"/>corruptibili dupliciter loqui possumus: uno modo,
+<lb ed="#L" n="39"/>secundum naturam universalem; alio modo, 
+se<lb break="no" ed="#L" n="40"/>cundum naturam particularem. Natura quidem
+<lb ed="#L" n="41"/>particularis est propria virtus activa et 
+conserva<lb break="no" ed="#L" n="42"/>tiva unicuiusque rei. Et secundum hanc, omnis
+<lb ed="#L" n="43"/>corruptio et defectus est contra naturam, ut 
+dici<lb break="no" ed="#L" n="44"/>tur in II de Caelo: quia huiusmodi virtus intendit
+<lb ed="#L" n="45"/>esse et conservationem eius cuius est.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1514">
+                  <lb ed="#L" n="46"/>Natura vero universalis est virtus activa in 
+ali<lb break="no" ed="#L" n="47"/>quo universali principio naturae, puta in aliquo
+<lb ed="#L" n="48"/>caelestium corporum; vel alicuius superioris 
+sub<lb break="no" ed="#L" n="49"/>stantiae, secundum quod etiam Deus a quibusdam
+<lb ed="#L" n="50"/>dicitur natura naturans. Quae quidem virtus 
+in<lb break="no" ed="#L" n="51"/>tendit bonum et conservationem universi, ad quod
+<lb ed="#L" n="52"/>exigitur alternatio generationis et corruptionis in
+<lb ed="#L" n="53"/>rebus. Et secundum hoc, corruptiones et defectus
+<lb ed="#L" n="54"/>rerum sunt naturales: non quidem secundum 
+in<lb break="no" ed="#L" n="55"/>clinationem formae, quae est Ives essendi
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="56"/>et perfectionis; sed secundum inclinationem 
+ma<lb break="no" ed="#L" n="57"/>teriae, quae proportionaliter attribuitur tali formae
+<lb ed="#L" n="58"/>secundum distributionem universalis agentis. Et
+<lb ed="#L" n="59"/>quamvis omnis forma intendat perpetuum esse
+<lb ed="#L" n="60"/>quantum potest, nulla tamen forma rei 
+corrupti<lb break="no" ed="#L" n="61"/>bilis potest assequi perpetuitatem sui, praeter 
+ani<lb break="no" ed="#L" n="62"/>mam rationalem: eo quod ipsa non est subiecta
+<lb ed="#L" n="63"/>omnino materiae corporali, sicut aliae formae;
+<lb ed="#L" n="64"/>quinimmo habet propriam operationem 
+immate<lb break="no" ed="#L" n="65"/>rialem, ut in Primo habitum est. Unde ex parte
+<lb ed="#L" n="66"/>suae formae, naturalior est homini incorruptio
+<lb ed="#L" n="67"/>quam aliis rebus corruptibilibus. Sed quia et ipsa
+<lb ed="#L" n="68"/>habet materiam ex contrariis compositam, ex 
+in<lb break="no" ed="#L" n="69"/>clinatione materiae sequitur corruptibilitas in toto.
+<lb ed="#L" n="70"/>Et secundum hoc, homo est naturaliter 
+corrupti<lb break="no" ed="#L" n="71"/>bilis secundum naturam materiae sibi relictae, sed
+<lb ed="#L" n="72"/>non secundum naturam formae.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1578">
+                  <lb ed="#L" n="73"/>Primae autem tres rationes procedunt ex parte
+<lb ed="#L" n="74"/>materiae: aliae vero tres procedunt ex parte 
+for<lb break="no" ed="#L" n="75"/>mae. Unde ad earum solutionem, considerandum.
+<lb ed="#L" n="76"/>est quod forma hominis, quae est anima 
+ratio<lb break="no" ed="#L" n="77"/>nalis, secundum suam incorruptibilitatem 
+propor<lb break="no" ed="#L" n="78"/>tionata est suo fini, qui est beatitudo perpetua.
+<lb ed="#L" n="79"/>Sed corpus humanum, quod est corruptibile 
+se<lb break="no" ed="#L" n="80"/>cundum suam naturam consideratum, 
+quodam<lb break="no" ed="#L" n="81"/>modo proportionatum est suae formae, et 
+quo<lb break="no" ed="#L" n="82"/>dammodo non. Duplex enim conditio potest 
+at<lb break="no" ed="#L" n="83"/>tendi in aliqua materia: una scilicet quam agens
+<lb ed="#L" n="84"/>eligit; alia quae non est ab agente electa, sed est
+<lb ed="#L" n="85"/>secundum conditionem naturalem materiae. Sicut
+<lb ed="#L" n="86"/>faber ad faciendum cultellum eligit materiam 
+du<lb break="no" ed="#L" n="87"/>ram et ductilem, quae subtiliari possit ut sit apta
+<lb ed="#L" n="88"/>incisioni, et secundum hanc conditionem ferrum
+<lb ed="#L" n="89"/>est materia proportionata cultello: sed hoc quod
+<lb ed="#L" n="90"/>ferrum sit frangibile et rubiginem contrahens, 
+con<lb break="no" ed="#L" n="91"/>sequitur ex naturali dispositione ferri, nec hoc
+<lb ed="#L" n="92"/>eligit artifex in ferro, sed magis repudiaret si
+<lb ed="#L" n="93"/>posset. Unde haec dispositio materiae non est
+<lb ed="#L" n="94"/>proportionata intentioni artificis, nec intentioni
+<lb ed="#L" n="95"/>artis. Similiter corpus humanum est materia 
+ele<lb break="no" ed="#L" n="96"/>cta a natura quantum ad hoc, quod est temperatae
+<lb ed="#L" n="97"/>complexionis, ut possit esse convenientissimum
+<lb ed="#L" n="98"/>organum tactus et aliarum virtutum sensitivarum
+<lb ed="#L" n="99"/>et motivarum. Sed quod sit corruptibile, hoc est
+<lb ed="#L" n="100"/>ex conditione materiae, nec est electum a natura:
+<lb ed="#L" n="101"/>quin potius natura eligeret materiam 
+incorrupti<lb break="no" ed="#L" n="102"/>bilem, si posset. Sed Deus, cui subiacet omnis
+<lb ed="#L" n="103"/>natura, in ipsa institutione hominis supplevit 
+de<lb break="no" ed="#L" n="104"/>fectum naturae, et dono iustitiae originalis dedit
+<lb ed="#L" n="105"/>corpori incorruptibilitatem quandam, ut in Primo
+<lb ed="#L" n="106"/>dictum est. Et secundum hoc dicitur quod Deus
+<lb ed="#L" n="107"/>mortem non fecit, et quod mors est poena peccati.
+</p>
+               <p xml:id="TAca84-d1e1111-d1e1656">
+                  <lb ed="#L" n="108"/>Unde patet responsio ad obiecta.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

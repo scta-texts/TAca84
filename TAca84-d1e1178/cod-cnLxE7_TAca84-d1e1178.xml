@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 98</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 98</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="193"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1178"><!-- p2p1-q98 -->
+            <head xml:id="TAca84-d1e1178-Hd1e101">Quaestio 98</head>
+            <head xml:id="TAca84-d1e1178-Hd1e103" type="question-title">De lege veteri</head>
+            <p xml:id="TAca84-d1e1178-d1e106">
+               <pb ed="#L" n="193"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO NONAGESIMAOCTAVA
+<lb ed="#L" n="2"/>DE LEGE VETERI
+<lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1178-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>CONSEQUENTER considerandum est de lege 
+ve<lb break="no" ed="#L" n="5"/>teri - Et primo, de ipsa lege; secundo, de
+<lb ed="#L" n="6"/>praeceptis eius.
+</p>
+            <p xml:id="TAca84-d1e1178-d1e130">
+               <lb ed="#L" n="7"/>Circa primum quaeruntur sex.
+<lb ed="#L" n="8"/>Primo: utrum lex vetus sit bona.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="9"/>Secundo: utrum sit a Deo.
+<lb ed="#L" n="10"/>Tertio: utrum sit ab eo mediantibus angelis.
+<lb ed="#L" n="11"/>Quarto: utrum data sit omnibus.
+<lb ed="#L" n="12"/>Quinto: utrum omnes obliget ^.
+<lb ed="#L" n="13"/>Sexto: utrum congruo tempore fuerit data.
+</p>
+            <div xml:id="TAca84-d1e1178-Dd1e151"><!-- p2p1-q98-a1 -->
+               <head xml:id="TAca84-d1e1178-Hd1e154">Articulus 1</head>
+               <head xml:id="TAca84-d1e1178-Hd1e156" type="question-title">Utrum lex vetus fuerit bona</head>
+               <p xml:id="TAca84-d1e1178-d1e159">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>ARTICULUS PRIMUS
+<lb ed="#L" n="15"/>UTRUM LEX VETUS FUERIT BONA
+</p>
+               <p xml:id="TAca84-d1e1178-d1e168">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="16"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="17"/>lex vetus non fuerit. bona. Dicitur enim
+<lb ed="#L" n="18"/>Hue ictor bona nisi propter bonitatem 
+praecepto<lb break="no" ed="#L" n="19"/>rum quae continet. Ergo lex vetus non fuit bona.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e181">
+                  <lb ed="#L" n="20"/>2. PRAETEREA, ad bonitatem legis pertinet ut
+<lb ed="#L" n="21"/>communi saluti proficiat, sicut Isidorus dicit.
+<lb ed="#L" n="22"/>Sed lex vetus non fuit salutifera, sed magis 
+mor<lb break="no" ed="#L" n="23"/>tifera et nociva. Dicit enim Apostolus, Aor. vii:
+<lb ed="#L" n="24"/>Sine lege peccatum mortuum erat. Ego autem 
+vi<lb break="no" ed="#L" n="25"/>vebam sine lege aliquando: sed cum venisset 
+man<lb break="no" ed="#L" n="26"/>daium, peccatum revixit, ego autem mortuus sum;
+<lb ed="#L" n="27"/>et Rom. v: Lex subintravit ut abundaret 
+deli<lb break="no" ed="#L" n="28"/>ctum. Ergo lex vetus non fuit bona.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e204">
+                  <lb ed="#L" n="29"/>3. PRAETEREA, ad bonitatem legis pertinet quod
+<lb ed="#L" n="30"/>sit possibilis ad observandum et secundum 
+na<lb break="no" ed="#L" n="31"/>turam, et secundum humanam consuetudinem.
+<lb ed="#L" n="32"/>Sed hoc non habuit lex vetus: dicit enim Petrus,
+<lb ed="#L" n="33"/>Act. xv: Quid tentatis imponere iugum super 
+cer<lb break="no" ed="#L" n="34"/>vicem discipulorum, quod neque nos, neque patres
+<lb ed="#L" n="35"/>nostri, portare potuimus? Ergo videtur quod lex
+<lb ed="#L" n="36"/>vetus non fuerit bona.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e224">
+                  <lb ed="#L" n="37"/>SED coNTRA EST quod Apostolus dicit, Rom. vu:
+<lb ed="#L" n="38"/>Jtaque lex quidem sancta est, et mandatum 
+san<lb break="no" ed="#L" n="39"/>ctum. et iustum et bonum.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e233">
+                  <lb ed="#L" n="40"/>RxsPONDEO DICENDUM quod absque omni dubio
+<lb ed="#L" n="41"/>lex vetus bona fuit. Sicut enim doctrina 
+osten<lb break="no" ed="#L" n="42"/>ditur esse vera ex hoc quod consonat rationi 
+re<lb break="no" ed="#L" n="43"/>ctae, ita etiam lex aliqua ostenditur esse bona ex
+<lb ed="#L" n="44"/>eo quod consonat rationi. Lex autem vetus 
+ra<lb break="no" ed="#L" n="45"/>tioni consonabat. Quia concupiscentiam 
+reprime<lb break="no" ed="#L" n="46"/>bat, quae rationi adversatur; ut patet in illo 
+man<lb break="no" ed="#L" n="47"/>dato, Non concupisces rem proximi tui, quod
+<lb ed="#L" n="48"/>ponitur Exod. xx. Ipsa etiam omnia peccata
+<lb ed="#L" n="49"/>prohibebat, quae sunt contra rationem. Unde 
+ma<lb break="no" ed="#L" n="50"/>nifestum est quod bona erat. Et haec est ratio
+<lb ed="#L" n="51"/>Apostoli, Rom. vi: Condelector, inquit, legi Dei
+<lb ed="#L" n="52"/>secundum interiorem hominem; et iterum: 
+Con<lb break="no" ed="#L" n="53"/>sentio legi, quoniam bona est.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e266">
+                  <lb ed="#L" n="54"/>Sed notandum est quod bonum diversos gradus | 
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="55"/>habet, ut Dionysius dicit, iv cap. de Div. Nom.
+<lb ed="#L" n="56"/>est enim aliquod bonum perfectum, et aliquod
+<lb ed="#L" n="57"/>bonum imperfectum. Perfecta quidem bonitas est,
+<lb ed="#L" n="58"/>in his quae ad finem ordinantur, quando aliquid
+<lb ed="#L" n="59"/>est tale quod per. se sufficiens est inducere ad
+<lb ed="#L" n="60"/>finem: imperfectum autem bonum est quod 
+ope<lb break="no" ed="#L" n="61"/>ratur aliquid ad hoc quod perveniatur ad finem,
+<lb ed="#L" n="62"/>non tamen sufficit ad hoc quod ad finem 
+per<lb break="no" ed="#L" n="63"/>ducat. Sicut medicina perfecte bona est quae
+<lb ed="#L" n="64"/>hominem sanat: imperfecta autem est quae 
+ho<lb break="no" ed="#L" n="65"/>minem adiuvat, sed tamen sanare non potest.
+<lb ed="#L" n="66"/>Est autem sciendum quod est alius finis legis
+<lb ed="#L" n="67"/>humanae, et alius legis divinae. Legis enim 
+hu<lb break="no" ed="#L" n="68"/>manae finis est temporalis tranquillitas civitatis,
+<lb ed="#L" n="69"/>ad quem finem pervenit lex cohibendo exteriores
+<lb ed="#L" n="70"/>actus, quantum ad illa mala quae possunt ? 
+per<lb break="no" ed="#L" n="71"/>turbare pacificum statum civitatis. Finis autem
+<lb ed="#L" n="72"/>legis divinae est perducere hominem ad finem
+<lb ed="#L" n="73"/>felicitatis aeternae; qui quidem finis impeditur
+<lb ed="#L" n="74"/>per quodcumque peccatum, et non solum per
+<lb ed="#L" n="75"/>actus exteriores, sed etiam per interiores. Et ideo
+<lb ed="#L" n="76"/>illud quod sufficit ad perfectionem legis 
+huma<lb break="no" ed="#L" n="77"/>nae, ut scilicet peccata prohibeat et poenam 
+ap<lb break="no" ed="#L" n="78"/>ponat, non sufficit ad perfectionem legis divinae:
+<lb ed="#L" n="79"/>sed oportet quod hominem totaliter faciat 
+ido<lb break="no" ed="#L" n="80"/>neum ad participationem felicitatis aeternae. Quod
+<lb ed="#L" n="81"/>quidem fieri non potest nisi per gratiam Spiritus
+<lb ed="#L" n="82"/>Sancti, per quam diffunditur caritas in cordibus
+<lb ed="#L" n="83"/>nostris, quae legem adimplet: gratia enim Dei
+<lb ed="#L" n="84"/>vita aeterna, ut dicitur Rom. vi. Hanc autem:
+<lb ed="#L" n="85"/>gratiam lex vetus conferre non potuit, 
+reservaba<lb break="no" ed="#L" n="86"/>tur enim hoc Christo: quia, ut dicitur Ioan. 1 
+<lb ed="#L" n="87"/>lex per Moysen data est; gratia et veritas per
+<lb ed="#L" n="88"/>Jesum Christum facta est. Et inde. est quod lex
+<lb ed="#L" n="89"/>vetus bona quidem est, sed imperfecta; secundum
+<lb ed="#L" n="90"/>illad eb. vu: Nihil ad. perfectum adduxit. lex.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e351">
+                  <lb ed="#L" n="91"/>AD PRIMUM ERGO DICENDUM quod Dominus 
+lo<lb break="no" ed="#L" n="92"/>quitur ibi de praeceptis. caeremonialibus; quae
+<lb ed="#L" n="93"/>quidem dicuntur non bona, quia.gratiam. non
+<lb ed="#L" n="94"/>conferebant, per quam homines a. peccato 
+mun<lb break="no" ed="#L" n="95"/>darentur, cum tamen per huiusmodi se pecca-
+</p>
+               <p xml:id="TAca84-d1e1178-d1e364">
+                  <pb ed="#L" n="194"/>
+                  <!--p. 194 -->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tores ostenderent. Unde signanter dicitur: ef 
+iu<lb break="no" ed="#L" n="2"/>dicia in quibus non vivent, idest per quae vitam 
+<lb ed="#L" n="3"/>gratiae obtinere non possunt; et postea subditur: 
+<lb ed="#L" n="4"/>Et pollui eos in muneribus suis, idest pollutos 
+<lb ed="#L" n="5"/>ostendi, cum offerrent omne quod aperit vulvam, 
+<lb ed="#L" n="6"/>propter delicta sua. 
+</p>
+               <p xml:id="TAca84-d1e1178-d1e387">
+                  <lb ed="#L" n="7"/>AD SECUNDUM DICENDUM quod lex dicitur 
+occi<lb break="no" ed="#L" n="8"/>disse, non quidem effective, sed occasionaliter, ex 
+<lb ed="#L" n="9"/>sua imperfectione: inquantum scilicet gratiam non 
+<lb ed="#L" n="10"/>conferebat, per quam homines implere possent 
+<lb ed="#L" n="11"/>T quod mandabat, vel vitare quod vetabat. Et sic  
+<lb ed="#L" n="12"/>occasio ista non erat data, sed sumpta ab 
+homi<lb break="no" ed="#L" n="13"/>nibus. Unde et Apostolus ibidem dicit: Occasione  
+<lb ed="#L" n="14"/>accepta peccatum per mandatum seduxit me, et 
+<lb ed="#L" n="15"/>per illud occidit. - Et ex hac etiam ratione dicitur 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="16"/>quod lex subintravit ut abundaret delictum, utly.
+<lb ed="#L" n="17"/>ut teneatur consecutive ?, non causaliter: 
+inquan<lb break="no" ed="#L" n="18"/>tum scilicet. homines, accipientes occasionem a
+<lb ed="#L" n="19"/>lege, abundantius peccaverunt; tum quia gravius
+<lb ed="#L" n="20"/>fuit peccatum post legis prohibitionem; tum etiam
+<lb ed="#L" n="21"/>quia concupiscentia crevit, magis enim 
+concupi<lb break="no" ed="#L" n="22"/>scimus quod nobis prohibetur.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e426">
+                  <lb ed="#L" n="23"/>AD TERTIUM DICENDUM quod iugum legis servari
+<lb ed="#L" n="24"/>non poterat sine gratia adiuvante, quam lex nom
+<lb ed="#L" n="25"/>dabat: dicitur enim Rom. ix.: Non. est. volentis
+<lb ed="#L" n="26"/>neque currentis, scilicet velle et currere in 
+prae<lb break="no" ed="#L" n="27"/>ceptis Dei, sed miserentis Dei. Unde et.in Psal
+<lb ed="#L" n="28"/>mo cxvir dicitur: Víam mandatorum. tuorum ves. p.
+<lb ed="#L" n="29"/>cucurri, cum dilatasti cor meum, scilicet per 
+do<lb break="no" ed="#L" n="30"/>num gratiae et caritatis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1178-Dd1e447"><!-- p2p1-q98-a2 -->
+               <head xml:id="TAca84-d1e1178-Hd1e450">Articulus 2</head>
+               <head xml:id="TAca84-d1e1178-Hd1e452" type="question-title">Utrum lex vetus fuerit a deo</head>
+               <p xml:id="TAca84-d1e1178-d1e455">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="31"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="32"/>UTRUM LEX VETUS FUERIT A DEO 
+</p>
+               <p xml:id="TAca84-d1e1178-d1e464">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="33"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="34"/>lex vetus non fuerit a Deo. Dicitur 
+<lb ed="#L" n="35"/>enim Deut. xxxu: Dei perfecta sunt 
+<lb ed="#L" n="36"/>opera. Sed lex fuit imperfecta, ut supra   
+<lb ed="#L" n="37"/>dictum est. Ergo lex vetus non fuit a Deo. 
+</p>
+               <p xml:id="TAca84-d1e1178-d1e480">
+                  <lb ed="#L" n="38"/>2. PRAETEREA, Eccle. III dicitur: Didici quod  
+<lb ed="#L" n="39"/>omnia opera quae fecit Deus, perseverent in 
+ae<lb break="no" ed="#L" n="40"/>ternum. Sed lex vetus non perseverat in 
+aeter<lb break="no" ed="#L" n="41"/>num: dicit enim. Apostolus, ad Heb. vu: 
+Re<lb break="no" ed="#L" n="42"/>probatio fit'quidem praecedentis mandati, propter  
+<lb ed="#L" n="43"/>infirmitatem eius et. inutilitatem. Ergo lex vetus  
+<lb ed="#L" n="44"/>non fuit a Deo. 
+</p>
+               <p xml:id="TAca84-d1e1178-d1e499">
+                  <lb ed="#L" n="45"/>3. PRAETEREA, ad sapientem legislatorem 
+perti<lb break="no" ed="#L" n="46"/>net non solum mala auferre, sed etiam 
+occasio<lb break="no" ed="#L" n="47"/>nes malorum. Sed vetus lex fuit occasio peccati,  
+<lb ed="#L" n="48"/>ut supra dictum est. Ergo ad Deum, cui nullus 
+<lb ed="#L" n="49"/>est. similis in legislatoribus, ut dicitur Job xxxvi, 
+<lb ed="#L" n="50"/>non pertinebat legem talem dare. 
+</p>
+               <p xml:id="TAca84-d1e1178-d1e515">
+                  <lb ed="#L" n="51"/>4. PRAETEREA, 1l ad Tim.n dicitur quod Deus  
+<lb ed="#L" n="52"/>vult omnes homines salvos fieri. Sed lex vetus  
+<lb ed="#L" n="53"/>non sufficiebat ad salutem hominum, ut supra 
+<lb ed="#L" n="54"/>dictum est. Ergo ad Deum non pertinebat talem  
+<lb ed="#L" n="55"/>legem dare. Lex ergo vetus non est a Deo. 
+
+<lb ed="#L" n="56"/>SED CONTRA EsT quod Dominus dicit, Matth. xv,  
+<lb ed="#L" n="57"/>loquens ludaeis, quibus erat lex vetus data: 
+Zr<lb break="no" ed="#L" n="58"/>ritum fecistis mandatum Dei propter traditiones  
+<lb ed="#L" n="59"/>vestras. Et paulo ante praemittitur, Honora 
+pa<lb break="no" ed="#L" n="60"/>irem tuum et matrem tuam, quod manifeste in 
+<lb ed="#L" n="61"/>Exod, ep x lege veteri continetur. Ergo lex vetus est a Deo.  
+</p>
+               <p xml:id="TAca84-d1e1178-d1e541">
+                  <lb ed="#L" n="62"/>RESPONDEO DICENDUM quod lex vetus a bono 
+<lb ed="#L" n="63"/>Deo data est, qui est Pater Domini Nostri Iesu  
+<lb ed="#L" n="64"/>Christi. Lex enim vetus homines ordinabat ad 
+<lb ed="#L" n="65"/>Christum dupliciter. Uno quidem modo, 
+testimo<lb break="no" ed="#L" n="66"/>nium Christo perhibendo: unde ipse dicit, Lucae  
+<lb ed="#L" n="67"/>"Ves — ult.: Oportet impleri omnia quae scripta sunt in  
+<lb ed="#L" n="68"/>'Ves49. ege et psalmis et prophetis de me; et Ioan. v: 
+<lb ed="#L" n="69"/>Si crederetis Moysi, crederetis forsitan et mihi:  
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="70"/>de me enim ille scripsit. Alio modo, per modum
+<lb ed="#L" n="71"/>cuiusdam dispositionis, dum, retrahens homines a
+<lb ed="#L" n="72"/>cultu idololatriae, concludebat eos sub cultu unius
+<lb ed="#L" n="73"/>Dei, a quo salvandum erat humanum genus per
+<lb ed="#L" n="74"/>Christum: unde Apostolus dicit, ad Gal. m:
+<lb ed="#L" n="75"/>Priusquam veniret fides, sub lege custodiebamur
+<lb ed="#L" n="76"/>conclusi in eam fidem quae revelanda erat. 
+Ma<lb break="no" ed="#L" n="77"/>nifestum est autem quod eiusdem est disponere
+<lb ed="#L" n="78"/>ad finem et ad finem perducere: et dico eiusdem
+<lb ed="#L" n="79"/>per se vel per suos subiectos. Non enim diabolus 
+<lb ed="#L" n="80"/>legem tulisset per quam homines adducerentur ad
+<lb ed="#L" n="81"/>Christum, per quem erat eiiciendus; secundum
+<lb ed="#L" n="82"/>illud Matth. xi: Si Satanas Satanam eicit, 
+di<lb break="no" ed="#L" n="83"/>visum est regnum eius. Et ideo ab eodem Deo
+<lb ed="#L" n="84"/>a quo facta est salus hominum per gratiam 
+Chri<lb break="no" ed="#L" n="85"/>sti, lex vetus data est. dicas m
+</p>
+               <p xml:id="TAca84-d1e1178-d1e598">
+                  <lb ed="#L" n="86"/>AD PRIMUM ERGO DICENDUM quod nihil prohibet
+<lb ed="#L" n="87"/>aliquid non esse perfectum simpliciter, quod 
+ta<lb break="no" ed="#L" n="88"/>men est perfectum secundum tempus: sicut dicitur
+<lb ed="#L" n="89"/>aliquis puer perfectus non simpliciter, sed 
+secun<lb break="no" ed="#L" n="90"/>dum temporis conditionem. Ita etiam praecepta
+<lb ed="#L" n="91"/>quae pueris dantur, sunt quidem perfecta 
+secun<lb break="no" ed="#L" n="92"/>dum conditionem eorum quibus dantur, etsi non
+<lb ed="#L" n="93"/>sint perfecta simpliciter. Et talia fuerunt praecepta
+<lb ed="#L" n="94"/>legis. Unde Apostolus dicit, ad Gal. ni: Lex 
+pae<lb break="no" ed="#L" n="95"/>dagogus noster fuit in Christo. 
+</p>
+               <p xml:id="TAca84-d1e1178-d1e622">
+                  <lb ed="#L" n="96"/>AD SECUNDUM DICENDUM quod opera Dei 
+perse<lb break="no" ed="#L" n="97"/>verant in aeternum, quae sic Deus fecit ? ut in 
+<lb ed="#L" n="98"/>aeternum perseverent: et haec sunt ea quae sunt
+<lb ed="#L" n="99"/>perfecta. Lex autem vetus reprobatur tempore
+<lb ed="#L" n="100"/>perfectionis gratiae, non tanquam mala, sed 
+tan<lb break="no" ed="#L" n="101"/>quam infirma et inutilis pro isto tempore: quia,
+<lb ed="#L" n="102"/>ut subditur, nihil ad perfectum adduxit lex. Unde
+<lb ed="#L" n="103"/>ad Gal. III, dicit Apostolus: Ubi venit fides, iam 
+<lb ed="#L" n="104"/>non sumus sub paedagogo.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e644">
+                  <lb ed="#L" n="105"/>AD TERTIUM DICENDUM quod, sicut supra dictum 
+<lb ed="#L" n="106"/>est, Deus aliquando permittit aliquos cadere in
+<pb ed="#L" n="195"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>peccatum, ut exinde humilientur. Ita etiam voluit
+<lb ed="#L" n="2"/>talem legem dare quam suis viribus homines 
+im<lb break="no" ed="#L" n="3"/>plere non possent, ut sic dum homines de se
+<lb ed="#L" n="4"/>praesumentes peccatores se invenirent, humiliati
+<lb ed="#L" n="5"/>recurrerent ad auxilium gratiae.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e667">
+                  <lb ed="#L" n="6"/>AD QUARTUM DICENDUM quod, quamvis lex vetus
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="7"/>non sufficeret ad salvandum hominem, tamen
+<lb ed="#L" n="8"/>aderat aliud auxilium a Deo hominibus simul cum
+<lb ed="#L" n="9"/>lege, per quod salvari poterant: scilicet fides 
+Me<lb break="no" ed="#L" n="10"/>diatoris, per quam iustificati sunt antiqui Patres,
+<lb ed="#L" n="11"/>sicut etiam nos iustificamur. Et sic Deus non 
+de<lb break="no" ed="#L" n="12"/>ficiebat hominibus quin daret eis salutis auxilia.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1178-Dd1e688"><!-- p2p1-q98-a3 -->
+               <head xml:id="TAca84-d1e1178-Hd1e691">Articulus 3</head>
+               <head xml:id="TAca84-d1e1178-Hd1e693" type="question-title">Utrum lex vetus data fuerit per angelos</head>
+               <p xml:id="TAca84-d1e1178-d1e696">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>ARTICULUS TERTIUS
+<lb ed="#L" n="14"/>UTRUM LEX VETUS DATA FUERIT PER ANGELOS
+</p>
+               <p xml:id="TAca84-d1e1178-d1e705">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="15"/>AD TERTIUM SIC. PROCEDITUR. Videtur quod
+<lb ed="#L" n="16"/>lex vetus non fuerit data per angelos,
+<lb ed="#L" n="17"/>sed immediate a Deo. Angelus enim
+<lb ed="#L" n="18"/>nuntius dicitur: et sic nomen angeli 
+mi<lb break="no" ed="#L" n="19"/>nisterium. importat, non dominium; secundum
+<lb ed="#L" n="20"/>illud Psalmi cir: Benedicite Domino, omnes 
+an<lb break="no" ed="#L" n="21"/>geli eius, ministri eius. Sed vetus lex a Domino
+<lb ed="#L" n="22"/>tradita esse perhibetur: dicitur enim Exod. xx:
+<lb ed="#L" n="23"/>Locutusque est Dominus sermones hos, et postea
+<lb ed="#L" n="24"/>subditur: Ego enim sum Dominus Deus tuus. Et
+<lb ed="#L" n="25"/>idem modus loquendi frequenter repetitur in
+<lb ed="#L" n="26"/>Exodo, et in libris consequentibus legis. Ergo lex
+<lb ed="#L" n="27"/>est immediate data a Deo.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e738">
+                  <lb ed="#L" n="28"/>2. PRAETEREA, sicut dicitur Ioan. 1, lex per
+<lb ed="#L" n="29"/>Moysen data est. Sed Moyses immediate accepit
+<lb ed="#L" n="30"/>a Deo: dicitur enim Exod. xxxii: Loquebatur
+<lb ed="#L" n="31"/>Dominus ad Moysen facie ad. faciem, sicut loqui
+<lb ed="#L" n="32"/>solet homo ad amicum suum. Ergo lex vetus
+<lb ed="#L" n="33"/>immediate data est a Deo.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e755">
+                  <lb ed="#L" n="34"/>3. PRAETEREA, ad solum principem pertinet 
+le<lb break="no" ed="#L" n="35"/>gem ferre, ut supra dictum est. Sed solus Deus
+<lb ed="#L" n="36"/>est princeps salutis animarum: angeli vero sunt
+<lb ed="#L" n="37"/>administratorii spiritus, ut dicitur ad Heb. 1.
+<lb ed="#L" n="38"/>Ergo lex vetus per angelos dari non debuit, cum
+<lb ed="#L" n="39"/>ordinaretur ad animarum salutem.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e771">
+                  <lb ed="#L" n="40"/>SED coNTRA EsT quod dicit Apostolus, ad Gal. 1:
+<lb ed="#L" n="41"/>Lex data est per angelos in manu mediatoris. Et
+<lb ed="#L" n="42"/>Act. vu. dicit Stephanus: Accepístis legem in
+<lb ed="#L" n="43"/>dispositione angelorum.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e782">
+                  <lb ed="#L" n="44"/>RESPONDEO DICENDUM quod lex data est a Deo per
+<lb ed="#L" n="45"/>angelos. Et praeter generalem rationem, quam
+<lb ed="#L" n="46"/>Dionysius assignat, in 1v cap. Cael. Hier., quod
+<lb ed="#L" n="47"/>divina debent deferri ad homines mediantibus 
+an<lb break="no" ed="#L" n="48"/>gelis, specialis ratio est quare legem veterem per
+<lb ed="#L" n="49"/>angelos dari oportuit. Dictum est enim quod
+<lb ed="#L" n="50"/>lex vetus imperfecta erat, sed disponebat ad 
+sa<lb break="no" ed="#L" n="51"/>lutem. perfectam generis humani, quae futura erat
+<lb ed="#L" n="52"/>per Christum. Sic autem videtur in omnibus 
+po<lb break="no" ed="#L" n="53"/>testatibus et artibus ordinatis, quod ille qui est
+<lb ed="#L" n="54"/>superior, principalem et perfectum actum ope-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="55"/>ratur per seipsum; ea vero quae disponunt ad
+<lb ed="#L" n="56"/>perfectionem ultimam, operatur per suos 
+mini<lb break="no" ed="#L" n="57"/>stros; sicut navifactor compaginat navem per 
+se<lb break="no" ed="#L" n="58"/>ipsum, sed praeparat materiam per artifices 
+sub<lb break="no" ed="#L" n="59"/>ministrantes. Et ideo conveniens fuit ut lex 
+per<lb break="no" ed="#L" n="60"/>fecta Novi Testamenti daretur immediate per
+<lb ed="#L" n="61"/>ipsum Deum hominem factum; lex autem vetus
+<lb ed="#L" n="62"/>per ministros Dei, scilicet per angelos, daretur 
+ho<lb break="no" ed="#L" n="63"/>minibus. Et per hunc modum Apostolus, in 
+prin<lb break="no" ed="#L" n="64"/>cipio ad Heb., probat eminentiam novae legis ad
+<lb ed="#L" n="65"/>veterem: quia in Novo Testamento /ocutus est
+<lb ed="#L" n="66"/>nobis Deus in Filio suo, in Veteri autem 
+Testa<lb break="no" ed="#L" n="67"/>mento esi sermo factus per angelos.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e839">
+                  <lb ed="#L" n="68"/>AD PRIMUM ERGO DICENDUM quod, sicut Gregorius
+<lb ed="#L" n="69"/>dicit, in principio Moral., angelus qui Moysi
+<lb ed="#L" n="70"/>apparuisse describitur, modo Angelus, modo.
+Do<lb break="no" ed="#L" n="71"/>minus memoratur. Angelus videlicet, propter hoc
+<lb ed="#L" n="72"/>quod exterius loquendo serviebat; Dominus autem
+<lb ed="#L" n="73"/>dicitur, quia interius praesidens loquendi ? 
+effica<lb break="no" ed="#L" n="74"/>ciam ministrabat. Et inde est etiam quod quasi
+<lb ed="#L" n="75"/>ex persona Domini angelus loquebatur.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e859">
+                  <lb ed="#L" n="76"/>AD SECUNDUM DICENDUM quod, sicut Augustinus 
+di<lb break="no" ed="#L" n="77"/>cit, XII super Gen. ad Litt.,in Exodo dicitur: 
+Lo<lb break="no" ed="#L" n="78"/>cutus est Dominus Moysi facie ad faciem; et paulo
+<lb ed="#L" n="79"/>post subditur: Ostende mihi gloriam tuam. 
+Sentie<lb break="no" ed="#L" n="80"/>bat ergo quid videbat; et quod non videbat, 
+deside<lb break="no" ed="#L" n="81"/>rabat. Non ergo videbat ipsam Dei essentiam: et
+<lb ed="#L" n="82"/>ita non immediate ab eo instruebatur. Quod ergo
+<lb ed="#L" n="83"/>dicitur quod loquebatur ei facie ad faciem, 
+secun<lb break="no" ed="#L" n="84"/>dum opinionem populi loquitur Scriptura, qui 
+pu<lb break="no" ed="#L" n="85"/>tabat Moysen ore ad os loqui cum Deo, cum per
+<lb ed="#L" n="86"/>subiectam creaturam, idest per angelum et 
+nu<lb break="no" ed="#L" n="87"/>bem, ei loqueretur et appareret. - Vel per 
+visio<lb break="no" ed="#L" n="88"/>nem faciei intelligitur quaedam eminens 
+contem<lb break="no" ed="#L" n="89"/>platio et familiaris, infra essentiae divinae visionem.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e892">
+                  <lb ed="#L" n="90"/>AD TERTIUM DICENDUM quod solius principis est
+<lb ed="#L" n="91"/>sua auctoritate legem instituere, sed quandoque
+<lb ed="#L" n="92"/>legem institutam.per alios promulgat. Et ita Deus
+<lb ed="#L" n="93"/>sua auctoritate instituit legem, sed per angelos
+<lb ed="#L" n="94"/>promulgavit.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1178-Dd1e906"><!-- p2p1-q98-a4 -->
+               <head xml:id="TAca84-d1e1178-Hd1e909">Articulus 4</head>
+               <head xml:id="TAca84-d1e1178-Hd1e911" type="question-title">Utrum lex vetus dari debuerit soli populo iudaeorum</head>
+               <p xml:id="TAca84-d1e1178-d1e914">
+                  <pb ed="#L" n="196"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUARTUS
+<lb ed="#L" n="2"/>UTRUM LEX VETUS DARI DEBUERIT SOLI POPULO IUDAEORUM
+</p>
+               <p xml:id="TAca84-d1e1178-d1e925">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>lex vetus non debuerit dari soli populo
+<lb ed="#L" n="5"/>2X Iudaeorum. Lex enim vetus disponebat
+<lb ed="#L" n="6"/>Xu) Nsad salutem quae futura erat per 
+Chri<lb break="no" ed="#L" n="7"/>stum, ut dictum est. Sed salus illa non erat 
+fu<lb break="no" ed="#L" n="8"/>tura solum in Iudaeis, sed in omnibus gentibus;
+<lb ed="#L" n="9"/>secundum illud Isaiae xtix: Parum est ut sis
+<lb ed="#L" n="10"/>mihi servus ad suscitandas tribus Iacob et faeces 
+<lb ed="#L" n="11"/>Israel convertendas: dedi te in lucem gentium,
+<lb ed="#L" n="12"/>ut sis salus mea usque ad extremum terrae. Ergo
+<lb ed="#L" n="13"/>lex vetus dari debuit omnibus gentibus, et non
+<lb ed="#L" n="14"/>uni populo tantum.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e956">
+                  <lb ed="#L" n="15"/>2. PRAETEREA, sicut dicitur.4cf. x, nom est
+<lb ed="#L" n="16"/>personarum acceptor Deus: sed in omni gente qui
+<lb ed="#L" n="17"/>timet Deum et facit iustitiam, acceptus est illi. Non
+<lb ed="#L" n="18"/>ergo magis uni populo quam aliis viam salutis
+<lb ed="#L" n="19"/>debuit aperire.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e970">
+                  <lb ed="#L" n="20"/>3. PRAETEREA, lex data est per angelos, sicut
+<lb ed="#L" n="21"/>iam dictum est. Sed ministeria angelorum Deus
+<lb ed="#L" n="22"/>non solum ludaeis, sed omnibus gentibus semper
+<lb ed="#L" n="23"/>exhibuit: dicitur enim Eccli. xvu: In 
+unamquam<lb break="no" ed="#L" n="24"/>que gentem praeposuit rectorem. Omnibus etiam
+<lb ed="#L" n="25"/>gentibus temporalia bona largitur, quae minus sunt
+<lb ed="#L" n="26"/>curae Deo quam spiritualia bona. Ergo etiam 
+le<lb break="no" ed="#L" n="27"/>gem omnibus populis dare debuit.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e990">
+                  <lb ed="#L" n="28"/>SED CONTRA EST quod dicitur Rom. III: Quid
+<lb ed="#L" n="29"/>ergo amplius est. Iudaeo? Multum quidem per
+<lb ed="#L" n="30"/>omnem modum. Primum quidem, quia credita sunt.
+<lb ed="#L" n="31"/>ilis eloquia Dei. Et in Psalmo cxrvir dicitur:
+<lb ed="#L" n="32"/>Non fecit taliter omni nationi, et iudicia sua non
+<lb ed="#L" n="33"/>manifestavit. eis.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1006">
+                  <lb ed="#L" n="34"/>RESPONDEO DICENDUM quod posset una ratio 
+as<lb break="no" ed="#L" n="35"/>signari quare potius populo Iudaeorum data f sit
+<lb ed="#L" n="36"/>lex quam aliis populis, quia, aliis ad idololatriam
+<lb ed="#L" n="37"/>declinantibus, solus populus Iudaeorum in cultu
+<lb ed="#L" n="38"/>unius Dei remansit; et ideo alii populi indigni
+<lb ed="#L" n="39"/>erant legem recipere, ne sanctum canibus daretur.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1022">
+                  <lb ed="#L" n="40"/>Sed ista ratio conveniens non videtur: quia 
+po<lb break="no" ed="#L" n="41"/>pulus ille etiam post legem latam, ad idololatriam
+<lb ed="#L" n="42"/>declinavit, quod gravius fuit; ut patet Exod. xxxii;
+<lb ed="#L" n="43"/>et Amos v: Numquid hostias et sacrificium 
+obtu<lb break="no" ed="#L" n="44"/>listis mihi in deserto quadraginta annis, domus
+<lb ed="#L" n="45"/>Israel? Et portastis tabernaculum Y Moloch vestro,
+<lb ed="#L" n="46"/>et imaginem idolorum vestrorum, sidus dei vestri,
+<lb ed="#L" n="47"/>quae fecistis vobis. Expresse etiam dicitur Deut.
+<lb ed="#L" n="48"/>ix: Scito quod non propter iustitias tuas Dominus
+<lb ed="#L" n="49"/>Deus tuus dedit tibi terram hanc in possessionem,
+<lb ed="#L" n="50"/>cum durissimae cervicis sis populus. Sed ratio ibi
+<lb ed="#L" n="51"/>praemittitur: Ut compleret verbum suum Dominus,
+<lb ed="#L" n="52"/>quod sub iuramento pollicitus est patribus tuis,
+<lb ed="#L" n="53"/>Abraham, Isaac et lacob.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1055">
+                  <lb ed="#L" n="54"/>Quae autem promissio eis sit facta, ostendit
+<lb ed="#L" n="55"/>Apostolus, ad Galat. i, dicens: Abrahae dictae
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="56"/>sunt promissiones, et semini eius. Non dicit, 
+semi<lb break="no" ed="#L" n="57"/>nibus, quasi in multis: sed quasi in uno, et semini
+<lb ed="#L" n="58"/>iuo, qui ? est Christus. Deus igitur et legem et
+<lb ed="#L" n="59"/>alia beneficia specialia illi populo exhibuit 
+pro<lb break="no" ed="#L" n="60"/>pter promissionem eorum patribus factam ut ex
+<lb ed="#L" n="61"/>eis Christus nasceretur. Decebat enim ut ille 
+po<lb break="no" ed="#L" n="62"/>pulus ex quo Christus nasciturus erat, quadam
+<lb ed="#L" n="63"/>speciali sanctificatione polleret; secundum illud
+<lb ed="#L" n="64"/>quod dicitur Levit. xix: Sancti eritis, quia ego
+<lb ed="#L" n="65"/>sanctus sum. - Nec etiam fuit propter meritum
+<lb ed="#L" n="66"/>ipsius Abrahae ut talis promissio ei fieret, ut
+<lb ed="#L" n="67"/>scilicet Christus ex eius semine nasceretur: sed
+<lb ed="#L" n="68"/>ex gratuita electione et vocatione. Unde dicitur
+<lb ed="#L" n="69"/>Isaiae xi1: Quis suscitavit ab oriente iustum, 
+vo<lb break="no" ed="#L" n="70"/>cavit eum ut sequeretur. se?
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1097">
+                  <lb ed="#L" n="71"/>Sic ergo patet quod ex sola gratuita electione
+<lb ed="#L" n="72"/>Patres promissionem. acceperunt, et populus ex
+<lb ed="#L" n="73"/>eis progenitus legem accepit; secundum illud
+<lb ed="#L" n="74"/>Deut.iv: Audistis verba illius de medio ignis,
+<lb ed="#L" n="75"/>Quia dilexit Patres, et elegit semen eorum post
+<lb ed="#L" n="76"/>illos. - Si autem rursus quaeratur quare hunc 
+po<lb break="no" ed="#L" n="77"/>pulum elegit ut ex eo Christus nasceretur, et
+<lb ed="#L" n="78"/>non alium: conveniet responsio Augustini, quam
+<lb ed="#L" n="79"/>dicit super loan.: Quare hunc trahat et illum
+<lb ed="#L" n="80"/>non trahat, noli velle diiudicare, si non vis 
+er<lb break="no" ed="#L" n="81"/>rare.;
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1124">
+                  <lb ed="#L" n="82"/>AD PRIMUM ERGO DICENDUM quod, quamvis salus
+<lb ed="#L" n="83"/>futura per Christum, esset omnibus gentibus 
+prae<lb break="no" ed="#L" n="84"/>parata; tamen oportebat ex uno populo Christum
+<lb ed="#L" n="85"/>nasci, qui propter hoc prae aliis praerogativas
+<lb ed="#L" n="86"/>habuit; secundum illud Rom. 1x: Quorum, 
+sci<lb break="no" ed="#L" n="87"/>licet Iudaeorum, est adoptio filiorum Dei ^, et
+<lb ed="#L" n="88"/>testamentum et legislatio; quorum Patres; ex 
+qui<lb break="no" ed="#L" n="89"/>bus. Christus est secundum carnem.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1144">
+                  <lb ed="#L" n="90"/>AD SECUNDUM DICENDUM quod acceptio 
+persona<lb break="no" ed="#L" n="91"/>rum locum habet in his quae ex debito dantur:
+<lb ed="#L" n="92"/>in his vero quae ex gratuita voluntate 
+conferun<lb break="no" ed="#L" n="93"/>tur, acceptio personarum locum non habet. Non
+<lb ed="#L" n="94"/>enim est personarum acceptor qui ex liberalitate
+<lb ed="#L" n="95"/>de suo dat uni et non alteri: sed si esset 
+dispen<lb break="no" ed="#L" n="96"/>sator bonorum communium, et non distribueret
+<lb ed="#L" n="97"/>aequaliter secundum merita personarum, esset
+<lb ed="#L" n="98"/>personarum acceptor. Salutaria autem beneficia
+<lb ed="#L" n="99"/>Deus humano generi confert ex sua gratia. Unde
+<lb ed="#L" n="100"/>non est personarum acceptor si quibusdam prae
+<lb ed="#L" n="101"/>aliis conferat. Unde Augustinus dicit, in libro de
+<lb ed="#L" n="102"/>Praedest. Sanct.: Omnes quos Deus docet, 
+mise<lb break="no" ed="#L" n="103"/>ricordia docet: quos autem non docet, iudicio non
+<lb ed="#L" n="104"/>docet. Hoc enim venit ex damnatione humani 
+ge<lb break="no" ed="#L" n="105"/>neris pro peccato primi parentis. z
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1181">
+                  <lb ed="#L" n="106"/>AD TERTIUM DICENDUM quod beneficia. gratiae
+<lb ed="#L" n="107"/>subtrahuntur homini propter culpam: sed 
+bene<lb break="no" ed="#L" n="108"/>ficia naturalia non subtrahuntur. Inter quae sunt
+<pb ed="#L" n="197"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ministeria angelorum, quae ipse naturarum ordo
+<lb ed="#L" n="2"/>requirit, ut scilicet per media gubernentur infima;
+<lb ed="#L" n="3"/>et etiam corporalia subsidia, quae non solum ho-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="4"/>minibus, sed etiam iumentis Deus administrat,
+<lb ed="#L" n="5"/>sectis illud Psalmi xxxv: Homines et i
+<lb ed="#L" n="6"/>menta salvabis, Domine.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1178-Dd1e1211"><!-- p2p1-q98-a5 -->
+               <head xml:id="TAca84-d1e1178-Hd1e1214">Articulus 5</head>
+               <head xml:id="TAca84-d1e1178-Hd1e1216" type="question-title">Utrum omnes homines obligarentur ad observandam veterem legem</head>
+               <p xml:id="TAca84-d1e1178-d1e1219">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="14"/>ARTICULUS QUINTUS
+<lb ed="#L" n="15"/>UTRUM OMNES HOMINES OBLIGARENTUR AD OBSERVANDAM VETEREM LEGEM
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1228">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="16"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="17"/>omnes homines obligarentur ad 
+ob<lb break="no" ed="#L" n="18"/>servandam veterem legem. Quicumque
+<lb ed="#L" n="19"/>enim subditur regi, oportet quod 
+subda<lb break="no" ed="#L" n="20"/>tur legi ipsius. Sed vetus lex est data a Deo, qui
+<lb ed="#L" n="21"/>est rex omnis terrae, ut in Psalmo xLvi dicitur.
+<lb ed="#L" n="22"/>Ergo omnes habitantes terram tenebantur ad 
+ob<lb break="no" ed="#L" n="23"/>servantiam legis.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1250">
+                  <lb ed="#L" n="24"/>2. PRAETEREA, ludaei salvari non poterant nisi
+<lb ed="#L" n="25"/>legem veterem observarent: dicitur enim Deut.
+<lb ed="#L" n="26"/>xxvit: Maledictus qui non permanet in 
+sermo<lb break="no" ed="#L" n="27"/>nibus legis huius, nec eos opere perficit. Si igitur
+<lb ed="#L" n="28"/>alii homines sine observantia legis veteris 
+potuis<lb break="no" ed="#L" n="29"/>sent salvari, peior fuisset conditio Iudaeorum
+<lb ed="#L" n="30"/>quam. aliorum hominum.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1269">
+                  <lb ed="#L" n="31"/>3. PRAETEREA, gentiles ad ritum ludaicum et
+<lb ed="#L" n="32"/>ad observantias legis admittebantur: dicitur enim
+<lb ed="#L" n="33"/>Exod. xu: Si quis peregrinorum in vestram 
+vo<lb break="no" ed="#L" n="34"/>luerit transire coloniam 9, et facere Phase Domini,
+<lb ed="#L" n="35"/>circumcidetur prius omne masculinum eius, et tunc
+<lb ed="#L" n="36"/>rite celebrabit, eritque simul sicut indigena terrae.
+<lb ed="#L" n="37"/>Frustra autem ad observantias legales fuissent
+<lb ed="#L" n="38"/>extranei admissi ex ordinatione divina, si absque
+<lb ed="#L" n="39"/>legalibus observantiis salvari potuissent. Ergo 
+nul<lb break="no" ed="#L" n="40"/>lus salvari poterat nisi legem observaret.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1293">
+                  <lb ed="#L" n="41"/>SED coNTRA EsT quod Dionysius dicit, iX cap.
+<lb ed="#L" n="42"/>Cael. Hier., quod multi gentilium per angelos
+<lb ed="#L" n="43"/>sunt reducti in Deum. Sed constat quod gentiles
+<lb ed="#L" n="44"/>legem non observabant. Ergo absque observantia
+<lb ed="#L" n="45"/>legis poterant aliqui salvari.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1306">
+                  <lb ed="#L" n="46"/>RESPONDEO DICENDUM quod lex vetus 
+manifesta<lb break="no" ed="#L" n="47"/>bat praecepta legis naturae, et superaddebat 
+quae<lb break="no" ed="#L" n="48"/>dam propria praecepta. Quantum igitur ad illa
+<lb ed="#L" n="49"/>quae lex vetus continebat de lege naturae, omnes
+<lb ed="#L" n="50"/>tenebantur ad observantiam veteris legis: non quia
+<lb ed="#L" n="51"/>erant de veteri lege, sed quia erant de lege 
+na<lb break="no" ed="#L" n="52"/>turae. Sed, quantum ad illa quae lex vetus 
+super<lb break="no" ed="#L" n="53"/>addebat, non tenebantur aliqui ad observantiam
+<lb ed="#L" n="54"/>veteris legis nisi solus populus ludaeorum.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1328">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="55"/>Cuius ratio est quia lex vetus, sicut dictum
+<lb ed="#L" n="56"/>est, data est populo Iudaeorum ut quandam
+<lb ed="#L" n="57"/>praerogativam sanctitatis obtineret, propter 
+reve<lb break="no" ed="#L" n="58"/>renuam Christi, qui ex illo populo nasciturus
+<lb ed="#L" n="59"/>erat. Quaecumque autem statuuntur ad 
+specia<lb break="no" ed="#L" n="60"/>lem | aliquorum | sanctificationem, non obligant
+<lb ed="#L" n="61"/>nisi illos: sicut ad quaedam obligantur clerici,
+<lb ed="#L" n="62"/>qui mancipantur divino ministerio, ad quae laici
+<lb ed="#L" n="63"/>non obligantur; similiter et religiosi ad quaedam
+<lb ed="#L" n="64"/>perfectionis opera obligantur ex sua 
+professio<lb break="no" ed="#L" n="65"/>ne, ad quae saeculares non obligantur. Et 
+simi<lb break="no" ed="#L" n="66"/>liter ad quaedam specialia obligabatur populus
+<lb ed="#L" n="67"/>ille, ad quae alii populi non obligabantur. Unde
+<lb ed="#L" n="68"/>dicitur Deut. xvui: Perfectus eris, et absque
+<lb ed="#L" n="69"/>macula, cum ? Domino JDeo tuo. Et propter hoc
+<lb ed="#L" n="70"/>etiam quadam professione utebantur; ut patet
+<lb ed="#L" n="71"/>Deut. xxv1: Profiteor hodie coram Domino Deo
+<lb ed="#L" n="72"/>iuo etc. 
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1372">
+                  <lb ed="#L" n="73"/>AD PRIMUM ERGO DICENDUM quod quicumque 
+sub<lb break="no" ed="#L" n="74"/>duntur regi obligantur ad legem eius 
+observan<lb break="no" ed="#L" n="75"/>dam quam omnibus communiter proponit. Sed
+<lb ed="#L" n="76"/>si instituat aliqua observanda a suis familiaribus
+<lb ed="#L" n="77"/>ministris, ad haec ceteri non obligantur.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1385">
+                  <lb ed="#L" n="78"/>AD SECUNDUM DICENDUM quod homo quanto Deo
+<lb ed="#L" n="79"/>magis coniungitur, tanto efficitur melioris 
+condi<lb break="no" ed="#L" n="80"/>tionis. Et ideo quanto populus ludaeorum erat
+<lb ed="#L" n="81"/>adstrictus magis ad divinum cultum, dignior aliis
+<lb ed="#L" n="82"/>populis erat. Unde dicitur Deut. iv: Quae est
+<lb ed="#L" n="83"/>alia gens sic inclyía, ut habeat caeremonias, 
+iu<lb break="no" ed="#L" n="84"/>staque iudicia, et. universam legem? Et 
+simi<lb break="no" ed="#L" n="85"/>liter etiam. quantum ad hoc sunt melioris 
+condi<lb break="no" ed="#L" n="86"/>tionis clerici quam laici, et religiosi quam 
+sae<lb break="no" ed="#L" n="87"/>culares.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1410">
+                  <lb ed="#L" n="88"/>Ap TERTIUM DIGENDUM quod gentiles perfectius
+<lb ed="#L" n="89"/>et securius salutem consequebantur sub 
+obser<lb break="no" ed="#L" n="90"/>vantiis legis quam sub sola lege naturali: et ideo
+<lb ed="#L" n="91"/>ad eas admittebantur. Sicut etiam nunc laici
+<lb ed="#L" n="92"/>transeunt ad clericatum, et saeculares ad 
+religio<lb break="no" ed="#L" n="93"/>nem, quamvis absque hoc possint salvari.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1178-Dd1e1427"><!-- p2p1-q98-a6 -->
+               <head xml:id="TAca84-d1e1178-Hd1e1430">Articulus 6</head>
+               <head xml:id="TAca84-d1e1178-Hd1e1432" type="question-title">Utrum lex vetus convenienter data fuerit tempore moysi</head>
+               <p xml:id="TAca84-d1e1178-d1e1435">
+                  <pb ed="#L" n="198"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SEXTUS
+<lb ed="#L" n="2"/>UTRUM LEX VETUS CONVENIENTER DATA FUERIT TEMPORE MOYSI
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1446">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SEXTUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="4"/>e lex vetus non'convenienter fuerit data  
+<lb ed="#L" n="5"/>AaXA tempore Moysi. Lex enitn vetus 
+dispo<lb break="no" ed="#L" n="6"/>nebat ad salutem quae erat futura per  
+<lb ed="#L" n="7"/>Christum, sicut dictum est, Sed statim homo  
+<lb ed="#L" n="8"/>post peccatum indiguit huiusmodi salutis remedio.  
+<lb ed="#L" n="9"/>Ergo statim post peccatum lex vetus debuit dari.  
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1466">
+                  <lb ed="#L" n="10"/>2. PRAETEREA, lex vetus data est propter 
+san<lb break="no" ed="#L" n="11"/>ctificationem eorum ex quibus Christus 
+nascitu<lb break="no" ed="#L" n="12"/>rus erat. Sed Abrahae incoepit fieri promissio de  
+<lb ed="#L" n="13"/>semine, quod est Christus, ut habetur Gen. xu. 
+<lb ed="#L" n="14"/>Ergo statim tempore Abrahae debuit lex dari. 
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1480">
+                  <lb ed="#L" n="15"/>3. PnaETEREA, Sicut Christus non est natus ex  
+<lb ed="#L" n="16"/>aliis descendentibus ex Noe nisi ex Abraham, cui  
+<lb ed="#L" n="17"/>facta est promissio; ita etiam non est natus ex  
+<lb ed="#L" n="18"/>aliis filiis Abrahae nisi ex David, cui est promissio  
+<lb ed="#L" n="19"/>renovata, secundum illud II Reg. xxi: Dixit 
+<lb ed="#L" n="20"/>vir cui constitutum est de Christo Dei Iacob. Ergo  
+<lb ed="#L" n="21"/>lex vetus debuit dari post David, sicut data est 
+<lb ed="#L" n="22"/>post Abraham. 
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1500">
+                  <lb ed="#L" n="23"/>SED coNTRA EsT quod Apostolus dicit, ad Gal. i, 
+<lb ed="#L" n="24"/>quod /ex propter transgressionem posita est, donec  
+<lb ed="#L" n="25"/>veniret semen cui promiserat, ordinata per angelos  
+<lb ed="#L" n="26"/>in manu mediatoris: idest ordinabiliter data, ut 
+<lb ed="#L" n="27"/>Glossa dicit. Ergo congruum fuit ut Mt vetus 
+<lb ed="#L" n="28"/>illo temporis ordine traderetur. 
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1516">
+                  <lb ed="#L" n="29"/>RESPONDEO DICENDUM quod convenientissime lex 
+<lb ed="#L" n="30"/>vetus data fuit tempore Moysi. Cuius ratio potest  
+<lb ed="#L" n="31"/>accipi ex duobus, secundum quod quaelibet lex 
+<lb ed="#L" n="32"/>duobus generibus hominum imponitur. Imponitur  
+<lb ed="#L" n="33"/>enim quibusdam duris et superbis, qui per legem  
+<lb ed="#L" n="34"/>compescuntur et domantur: imponitur etiam 
+bo<lb break="no" ed="#L" n="35"/>nis, qui, per legem instructi, adiuvantur ad 
+implen<lb break="no" ed="#L" n="36"/>dum quod intendunt. Conveniens igitur fuit tali 
+<lb ed="#L" n="37"/>tempore legem veterem dari, ad superbiam 
+homi<lb break="no" ed="#L" n="38"/>num convincendam. De duobus enim homo 
+super<lb break="no" ed="#L" n="39"/>biebat: scilicet de scientia, et de potentia. De 
+scien<lb break="no" ed="#L" n="40"/>tia quidem, quasi ratio naturalis ei posset 
+suffi<lb break="no" ed="#L" n="41"/>cere ad salutem. Et ideo ut de hoc eius superbia
+<lb ed="#L" n="42"/>convinceretur, permissus est homo regimini suae
+<lb ed="#L" n="43"/>rationis absque adminiculo legis scriptae: et 
+expe<lb break="no" ed="#L" n="44"/>rimento homo discere potuit quod patiebatur 
+ra<lb break="no" ed="#L" n="45"/>tionis defectum, per hoc quod homines usque ad
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="46"/>idololatriam et turpissima vitia circa tempora 
+Abra<lb break="no" ed="#L" n="47"/>hae sunt prolapsi. Et ideo post haec tempora fuit
+<lb ed="#L" n="48"/>necessarium legem scriptam dari in remedium
+<lb ed="#L" n="49"/>humanae ignorantiae: quia per legem est cognitio
+<lb ed="#L" n="50"/>peccati, ut dicitur Rom. i11. - Sed postquam homo
+<lb ed="#L" n="51"/>est instructus per legem, convicta est eius superbia
+<lb ed="#L" n="52"/>de infirmitate, dum implere non poterat quod
+<lb ed="#L" n="53"/>cognoscebat. Et ideo, sicut Apostolus concludit,
+<lb ed="#L" n="54"/>ad Rom. vir, quod impossibile erat legi, in qua
+<lb ed="#L" n="55"/>infirmabatur per carnem, misit Deus Filium suum,
+<lb ed="#L" n="56"/>ut iustificatio legis impleretur in nobis.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1581">
+                  <lb ed="#L" n="57"/>Ex parte vero bonorum, lex data est in 
+auxi<lb break="no" ed="#L" n="58"/>lium. Quod quidem tunc maxime populo 
+neces<lb break="no" ed="#L" n="59"/>sarium fuit, quando lex naturalis obscurari 
+incipie<lb break="no" ed="#L" n="60"/>bat propter exuberantiam peccatorum. Oportebat
+<lb ed="#L" n="61"/>autem huiusmodi auxilium quodam ordine dari,
+<lb ed="#L" n="62"/>ut per imperfecta ad perfectionem 
+manuduceren<lb break="no" ed="#L" n="63"/>tur?. Et ideo inter legem naturae et legem 
+gra<lb break="no" ed="#L" n="64"/>tiae, oportuit legem veterem dari.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1601">
+                  <lb ed="#L" n="65"/>AD PRIMUM ERGO DICENDUM quod statim post 
+pec<lb break="no" ed="#L" n="66"/>catum primi hominis non competebat legem 
+vete<lb break="no" ed="#L" n="67"/>rem dari: tum quia nondum homo recognoscebat
+<lb ed="#L" n="68"/>se ea indigere, de sua ratione confisus. Tum quia
+<lb ed="#L" n="69"/>adhuc dictamen legis naturae nondum erat 
+ob<lb break="no" ed="#L" n="70"/>tenebratum per consuetudinem peccandi.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1617">
+                  <lb ed="#L" n="71"/>AD SECUNDUM DICENDUM quod lex non debet dari
+<lb ed="#L" n="72"/>nisi populo: est enim praeceptum commune, ut
+<lb ed="#L" n="73"/>dictum est. Et ideo tempore Abrahae data surit
+<lb ed="#L" n="74"/>quaedam familiaria praecepta, et quasi domestica,
+<lb ed="#L" n="75"/>Dei ad homines. Sed postmodum, multiplicatis
+<lb ed="#L" n="76"/>eius posteris intantum quod populus esset, et 
+li<lb break="no" ed="#L" n="77"/>beratis eis a servitute, lex convenienter potuit
+<lb ed="#L" n="78"/>dari: nam servi non sunt pars populi vel 
+civi<lb break="no" ed="#L" n="79"/>tatis, cui legem dari competit, ut Philosophus
+<lb ed="#L" n="80"/>dicit, in III Polit.
+</p>
+               <p xml:id="TAca84-d1e1178-d1e1642">
+                  <lb ed="#L" n="81"/>AD TERTIUM DICENDUM quod, quia legem 
+opor<lb break="no" ed="#L" n="82"/>tebat alicui populo dari, non solum illi ex quibus
+<lb ed="#L" n="83"/>Christus natus est, legem acceperunt; sed totus
+<lb ed="#L" n="84"/>populus consignatus signaculo circumcisionis, quae
+<lb ed="#L" n="85"/>fuit signum promissionis Abrahae factae et ab eo
+<lb ed="#L" n="86"/>creditae, ut dicit Apostolus, Rom. 1v. Et ideo
+<lb ed="#L" n="87"/>etiam ante David oportuit legem dari tali Bopate
+<lb ed="#L" n="88"/>iam collecto.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

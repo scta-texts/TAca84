@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 87</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 87</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="121"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1121"><!-- p2p1-q87 -->
+            <head xml:id="TAca84-d1e1121-Hd1e101">Quaestio 87</head>
+            <head xml:id="TAca84-d1e1121-Hd1e103" type="question-title">De reatu poenae</head>
+            <p xml:id="TAca84-d1e1121-d1e106">
+               <pb ed="#L" n="121"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO OCTOGESIMASEPTIMA
+<lb ed="#L" n="2"/>DE REATU POENAE
+<lb ed="#L" n="3"/>IN OCTO ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1121-d1e119">
+               <lb ed="#L" n="4"/>DEINDE considerandum est de reatu poenae.
+<lb ed="#L" n="5"/>ET primo, de ipso reatu; secundo, de 
+mor<lb break="no" ed="#L" n="6"/>tali et veniali peccato, quae distinguuntur 
+secun<lb break="no" ed="#L" n="7"/>dum reatum.
+</p>
+            <p xml:id="TAca84-d1e1121-d1e130">
+               <lb ed="#L" n="8"/>Circa primum quaeruntur octo.
+<lb ed="#L" n="9"/>Primo: utrum reatus poenae sit effectus peccati.
+<lb ed="#L" n="10"/>Secundo: utrum peccatum possit esse poena
+<lb ed="#L" n="11"/>alterius peccati.
+<lb ed="#L" n="12"/>Tertio: utrum aliquod peccatum faciat reum
+<lb ed="#L" n="13"/>aeterna poena.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="14"/>Quarto: utrum faciat reum poena infinita 
+se<lb break="no" ed="#L" n="15"/>cundum quantitatem.
+<lb ed="#L" n="16"/>Quinto: utrum omne peccatum faciat reum
+<lb ed="#L" n="17"/>aeterna et infinita poena.
+<lb ed="#L" n="18"/>Sexto: utrum reatus poenae possit remanere
+<lb ed="#L" n="19"/>post peccatum.
+<lb ed="#L" n="20"/>Septimo: utrum omnis poena inferatur pro 
+ali<lb break="no" ed="#L" n="21"/>quo peccato.
+<lb ed="#L" n="22"/>Octavo: utrum unus sit reus poenae pro 
+pec<lb break="no" ed="#L" n="23"/>cato alterius.
+</p>
+            <div xml:id="TAca84-d1e1121-Dd1e170"><!-- p2p1-q87-a1 -->
+               <head xml:id="TAca84-d1e1121-Hd1e173">Articulus 1</head>
+               <head xml:id="TAca84-d1e1121-Hd1e175" type="question-title">Utrum reatus poenae sit effectus peccati</head>
+               <p xml:id="TAca84-d1e1121-d1e178">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="24"/>ARTICULUS PRIMUS
+<lb ed="#L" n="25"/>UTRUM REATUS POENAE SIT EFFECTUS PECCATI
+</p>
+               <p xml:id="TAca84-d1e1121-d1e187">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="26"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="27"/>reatus poenae non sit effectus peccati.
+<lb ed="#L" n="28"/>MSAN Quod enim per accidens se habet ad 
+ali<lb break="no" ed="#L" n="29"/>ASA quid, non videtur esse proprius effectus
+<lb ed="#L" n="30"/>eius. Sed reatus poenae per accidens se habet ad
+<lb ed="#L" n="31"/>peccatum: cum sit praeter intentionem peccantis.
+<lb ed="#L" n="32"/>Ergo reatus poenae non est effectus peccati.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e207">
+                  <lb ed="#L" n="33"/>2. PRAETEREA, malum non est causa boni. Sed
+<lb ed="#L" n="34"/>poena bona est: cum sit iusta, et a Deo. Ergo
+<lb ed="#L" n="35"/>non est effectus peccati, quod est malum.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e217">
+                  <lb ed="#L" n="36"/>3. PnaETEREA, Augustinus dicit, in I Corfess.,
+<lb ed="#L" n="37"/>quod.omnis inordinatus animus sibi ipsi est poena.
+<lb ed="#L" n="38"/>Sed poena non causat reatum alterius poenae:
+<lb ed="#L" n="39"/>quia sic iretur in infinitum. Ergo peccatum non
+<lb ed="#L" n="40"/>causat reatum poenae.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e230">
+                  <lb ed="#L" n="41"/>SED cowTRA EsT quod dicitur Rom. n: 
+7ribu<lb break="no" ed="#L" n="42"/>latio et angustia in animam omnem operantis 
+ma<lb break="no" ed="#L" n="43"/>lum. Sed operari malum est peccare. Ergo 
+pec<lb break="no" ed="#L" n="44"/>catum inducit poenam 5, quae nomine 
+tribulatio<lb break="no" ed="#L" n="45"/>nis et angustiae designatur.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e243">
+                  <lb ed="#L" n="46"/>RESPONDEO DICENDUM quod ex rebus naturalibus
+<lb ed="#L" n="47"/>ad res humanas derivatur ut id quod contra 
+ali<lb break="no" ed="#L" n="48"/>quid insurgit, ab eo detrimentum patiatur. 
+Vide<lb break="no" ed="#L" n="49"/>mus enim in rebus naturalibus quod unum 
+con<lb break="no" ed="#L" n="50"/>trarium vehementius agit, altero contrario 
+super<lb break="no" ed="#L" n="51"/>veniente: propter quod aquae calefactae magis
+<lb ed="#L" n="52"/>congelantur, ut dicitur in I Meteor. Unde in
+<lb ed="#L" n="53"/>hominibus hoc ex naturali inclinatione invenitur,
+<lb ed="#L" n="54"/>ut unusquisque deprimat eum qui contra ipsum
+<lb ed="#L" n="55"/>insurgit. Manifestum est autem quod quaecumque
+<lb ed="#L" n="56"/>continentur sub aliquo ordine, sunt quodammodo
+<lb ed="#L" n="57"/>unum in ordine ad principium ordinis. Unde 
+quid<lb break="no" ed="#L" n="58"/>quid contra ordinem aliquem insurgit, consequens
+<lb ed="#L" n="59"/>est ut ab ipso ordine, vel ! principe ordinis, 
+depri<lb break="no" ed="#L" n="60"/>matur. Cum autem peccatum sit actus inordinatus,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="61"/>manifestum est quod quicumque peccat, contra
+<lb ed="#L" n="62"/>aliquem ordinem agit. Et ideo ab ipso ordine
+<lb ed="#L" n="63"/>consequens est quod deprimatur. Quae quidem
+<lb ed="#L" n="64"/>depressio ? poena est.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e289">
+                  <lb ed="#L" n="65"/>Unde secundum tres ordines quibus subditur
+<lb ed="#L" n="66"/>humana voluntas, triplici poena potest homo 
+pu<lb break="no" ed="#L" n="67"/>niri. Primo quidem enim subditur humana natura
+<lb ed="#L" n="68"/>ordini propriae rationis; secundo, ordini 
+exterio<lb break="no" ed="#L" n="69"/>ris hominis gubernantis vel spiritualiter vel 
+tem<lb break="no" ed="#L" n="70"/>poraliter, politice seu oeconomice; tertio, 
+subdi<lb break="no" ed="#L" n="71"/>tur universali ordini divini regiminis. Quilibet
+<lb ed="#L" n="72"/>autem horum ordinum per peccatum pervertitur:
+<lb ed="#L" n="73"/>dum ille qui peccat, agit et contra rationem, et
+<lb ed="#L" n="74"/>contra legem humanam, et contra legem 
+divi<lb break="no" ed="#L" n="75"/>nam. Unde triplicem poenam incurrit: unam 
+qui<lb break="no" ed="#L" n="76"/>dem a seipso, quae est conscientiae remorsus,
+<lb ed="#L" n="77"/>aliam. vero ab homine, tertiam, vero a Deo.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e320">
+                  <lb ed="#L" n="78"/>AD PRIMUM ERGO DICENDUM quod poena 
+conse<lb break="no" ed="#L" n="79"/>quitur peccatum inquantum malum est, ratione
+<lb ed="#L" n="80"/>suae inordinationis. Unde sicut malum est per
+<lb ed="#L" n="81"/>accidens in actu peccantis, praeter intentionem
+<lb ed="#L" n="82"/>ipsius, ita et reatus poenae.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e333">
+                  <lb ed="#L" n="83"/>AD SECUNDUM DICENDUM quod poena quidem
+<lb ed="#L" n="84"/>iusta esse potest et a Deo, et ab homine inflicta:
+<lb ed="#L" n="85"/>unde ipsa poena non est effectus peccati directe,
+<lb ed="#L" n="86"/>sed solum dispositive. Sed peccatum facit 
+homi<lb break="no" ed="#L" n="87"/>nem esse reum poenae, quod est malum: dicit
+<lb ed="#L" n="88"/>enim Dionysius, iv cap. de Div. Nom., quod 
+pu<lb break="no" ed="#L" n="89"/>niri non est malum, sed fieri poena dignum. Unde
+<lb ed="#L" n="90"/>reatus poenae directe ponitur effectus peccati.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e354">
+                  <lb ed="#L" n="91"/>AD TERTIUM DICENDUM quod poena illa 
+inordi<lb break="no" ed="#L" n="92"/>nati animi debetur peccato ex hoc quod ordinem
+<lb ed="#L" n="93"/>rationis pervertit. Fit autem reus alterius poenae,
+<lb ed="#L" n="94"/>per hoc quod pervertit ordinem legis divinae vel
+<lb ed="#L" n="95"/>humanae.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1121-Dd1e368"><!-- p2p1-q87-a2 -->
+               <head xml:id="TAca84-d1e1121-Hd1e371">Articulus 2</head>
+               <head xml:id="TAca84-d1e1121-Hd1e373" type="question-title">Utrum peccatum possit esse poena peccati</head>
+               <p xml:id="TAca84-d1e1121-d1e376">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="13"/>UTRUM PECCATUM POSSIT ESSE POENA PECCATI
+</p>
+               <p xml:id="TAca84-d1e1121-d1e385">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="14"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="15"/>peccatum non possit esse poena 
+pec<lb break="no" ed="#L" n="16"/>cati. Poenae enim sunt inductae ut per
+<lb ed="#L" n="17"/>2N,eas homines reducantur ad bonum 
+vir<lb break="no" ed="#L" n="18"/>tutis, ut patet per Philosophum, in X Ethic. Sed
+<lb ed="#L" n="19"/>per peccatum non reducitur homo in bonum 
+vir<lb break="no" ed="#L" n="20"/>tutis, sed in oppositum. Ergo peccatum non est
+<lb ed="#L" n="21"/>poena peccati.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e407">
+                  <lb ed="#L" n="22"/>2. PRAETEREA, poenae iustae sunt a Deo, ut patet
+<lb ed="#L" n="23"/>per Augustinum, in libro Octoginta trium Quaest.
+<lb ed="#L" n="24"/>Peccatum autem non est a Deo, et est iniustum.
+<lb ed="#L" n="25"/>Non ergo peccatum potest esse poena peccati.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e419">
+                  <lb ed="#L" n="26"/>3. PRAETEREA, de ratione poenae est quod sit
+<lb ed="#L" n="27"/>contra voluntatem. Sed peccatum est a 
+volun<lb break="no" ed="#L" n="28"/>tate, ut ex supradictis patet. Ergo peccatum non
+<lb ed="#L" n="29"/>potest esse poena peccati.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e430">
+                  <lb ed="#L" n="30"/>SED coNTRA EsT quod Gregorius dicit, super
+<lb ed="#L" n="31"/>Exech., quod quaedam peccata sunt poenae
+<lb ed="#L" n="32"/>peccati.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e439">
+                  <lb ed="#L" n="33"/>RESPONDEO DICENDUM quod de peccato 
+duplici<lb break="no" ed="#L" n="34"/>ter loqui possumus: per se, et per accidens. Per
+<lb ed="#L" n="35"/>se quidem nullo modo peccatum potest esse poena
+<lb ed="#L" n="36"/>peccati. Peccatum enim per se consideratur 
+secun<lb break="no" ed="#L" n="37"/>dum. quod egreditur a voluntate: sic enim habet
+<lb ed="#L" n="38"/>rationem culpae. De ratione autem poenae est
+<lb ed="#L" n="39"/>quod sit contra voluntatem, ut in Primo 
+habi<lb break="no" ed="#L" n="40"/>tum est. Unde manifestum est quod nullo modo,
+<lb ed="#L" n="41"/>per se loquendo, peccatum potest esse poena
+<lb ed="#L" n="42"/>peccati.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e463">
+                  <lb ed="#L" n="43"/>Per accidens autem peccatum potest esse P
+<lb ed="#L" n="44"/>poena peccati, tripliciter. Primo quidem, ex parte
+<lb ed="#L" n="45"/>causae quae est remotio prohibentis. Sunt. enim
+<lb ed="#L" n="46"/>causae inclinantes ad peccatum passiones, 
+tenta<lb break="no" ed="#L" n="47"/>tio diaboli, et alia huiusmodi; quae quidem 
+cau<lb break="no" ed="#L" n="48"/>sae impediuntur per auxilium divinae gratiae,
+<lb ed="#L" n="49"/>quae subtrahitur per peccatum. Unde cum ipsa
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="50"/>subtractio gratiae sit quaedam poena, et a Deo,
+<lb ed="#L" n="51"/>ut supra dictum est; sequitur quod per 
+acci<lb break="no" ed="#L" n="52"/>dens etiam peccatum quod ex hoc sequitur, poena
+<lb ed="#L" n="53"/>dicatur. Et hoc modo loquitur Apostolus, Rom. i
+<lb ed="#L" n="54"/>dicens: Propter quod tradidit eos. Deus in 
+deside<lb break="no" ed="#L" n="55"/>ria cordis eorum, quae sunt animae passiones:
+<lb ed="#L" n="56"/>quia scilicet deserti homines ab auxilio divinae
+<lb ed="#L" n="57"/>gratiae, vincuntur a passionibus. Et hoc modo
+<lb ed="#L" n="58"/>semper peccatum dicitur esse poena praecedentis
+<lb ed="#L" n="59"/>peccati. - Alio modo, ex parte substantiae actus,
+<lb ed="#L" n="60"/>quae afflictionem inducit: sive sit actus interior,
+<lb ed="#L" n="61"/>ut patet in ira et invidia; sive actus exterior,
+<lb ed="#L" n="62"/>ut patet cum aliqui gravi labore opprimuntur et
+<lb ed="#L" n="63"/>damno, ut expleant actum peccati, secundum 
+il<lb break="no" ed="#L" n="64"/>lud Sap. v: Lassati sumus in via iniquitatis. —
+<lb ed="#L" n="65"/>Tertio modo, ex parte effectus:.ut scilicet aliquod
+<lb ed="#L" n="66"/>peccatum dicatur poena respectu ? effectus 
+conse<lb break="no" ed="#L" n="67"/>quentis. Et his duobus ultimis modis, unum 
+pec<lb break="no" ed="#L" n="68"/>catum non solum est poena praecedentis peccati,
+<lb ed="#L" n="69"/>sed etiam sui.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e526">
+                  <lb ed="#L" n="70"/>AD PRIMUM ERGO DICENDUM quod hoc etiam quod
+<lb ed="#L" n="71"/>aliqui puniuntur a Deo, dum permittit eos in 
+ali<lb break="no" ed="#L" n="72"/>qua peccata profluere, ad bonum virtutis 
+ordina<lb break="no" ed="#L" n="73"/>tur. Quandoque quidem etiam ipsorum qui 
+pec<lb break="no" ed="#L" n="74"/>cant: cum scilicet post peccatum. humiliores et
+<lb ed="#L" n="75"/>cautiores resurgunt. Semper autem est ad 
+emen<lb break="no" ed="#L" n="76"/>dationem aliorum, qui videntes aliquos ruere de
+<lb ed="#L" n="77"/>peccato in peccatum, magis reformidant peccare. -
+<lb ed="#L" n="78"/>In aliis autem duobus modis, manifestum est
+<lb ed="#L" n="79"/>quod poena ordinatur ad emendationem: quia
+<lb ed="#L" n="80"/>hoc ipsum quod homo laborem et detrimentum
+<lb ed="#L" n="81"/>patitur in peccando, natum est retrahere homines
+<lb ed="#L" n="82"/>a peccato 
+</p>
+               <p xml:id="TAca84-d1e1121-d1e557">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="83"/>AD SECUNDUM DICENDUM. quod ratio illa procedit
+<lb ed="#L" n="84"/>de peccato secundum se.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e567">
+                  <lb ed="#L" n="85"/>Et similiter dicendum est ad tertium.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1121-Dd1e573"><!-- p2p1-q87-a3 -->
+               <head xml:id="TAca84-d1e1121-Hd1e576">Articulus 3</head>
+               <head xml:id="TAca84-d1e1121-Hd1e578" type="question-title">Utrum aliquod peccatum inducat reatum aeternae poenae</head>
+               <p xml:id="TAca84-d1e1121-d1e581">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>ARTICULUS TERTIUS
+<lb ed="#L" n="10"/>UTRUM ALIQUOD PECCATUM INDUCAT REATUM AETERNAE POENAE
+</p>
+               <p xml:id="TAca84-d1e1121-d1e590">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="11"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="12"/>nullum peccatum inducat reatum 
+aeter<lb break="no" ed="#L" n="13"/>nae poenae. Poena enim iusta 
+adaequa<lb break="no" ed="#L" n="14"/>tur culpae: iustitia enim aequalitas est.
+<lb ed="#L" n="15"/>Unde dicitur Isaiae xxvu: In mensura contra
+<lb ed="#L" n="16"/>mensuram, cum abiecta fuerit, iudicabit eam. Sed
+<lb ed="#L" n="17"/>peccatum est temporale. Ergo non inducit reatum
+<lb ed="#L" n="18"/>poenae aeternae.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e612">
+                  <lb ed="#L" n="19"/>2. PRAETEREA, poenae medicinae quaedam sunt,
+<lb ed="#L" n="20"/>ut dicitur in II Ezhic. Sed nulla medicina debet
+<lb ed="#L" n="21"/>esse infinita: quia ordinatur ad finem; quod 
+au<lb break="no" ed="#L" n="22"/>tem ordinatur ad finem, non est infinitum, ut 
+Phi<lb break="no" ed="#L" n="23"/>losophus dicit, in 1 Polit. Ergo nulla poena debet
+<lb ed="#L" n="24"/>esse infinita.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e629">
+                  <lb ed="#L" n="25"/>3. PRAETEREA, nullus semper ? facit aliquid, nisi
+<lb ed="#L" n="26"/>propter se in ipso delectetur. Sed Deus non 
+de<lb break="no" ed="#L" n="27"/>lectatur in perditione hominum, ut dicitur Sap. 1.
+<lb ed="#L" n="28"/>Ergo non puniet homines poena sempiterna.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e640">
+                  <lb ed="#L" n="29"/>4. PRAETEREA, nihil quod est per accidens, est
+<lb ed="#L" n="30"/>infinitum. Sed poena est per accidens: non est
+<lb ed="#L" n="31"/>enim secundum naturam eius qui punitur. Ergo
+<lb ed="#L" n="32"/>non potest in infinitum durare.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e651">
+                  <lb ed="#L" n="33"/>SED CONTRA EST quod dicitur Matth. xxv: Zbunt
+<lb ed="#L" n="34"/>hi in supplicium aeternum. Et Marc. i. dicitur:
+<lb ed="#L" n="35"/>Qui autem blasphemaverit in Spiritum Sanctum,
+<lb ed="#L" n="36"/>non habebit remissionem in aeternum, sed erit reus
+<lb ed="#L" n="37"/>aelerni delicti.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e664">
+                  <lb ed="#L" n="38"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="39"/>est, peccatum ex hoc inducit reatum poenae, quod
+<lb ed="#L" n="40"/>pervertit aliquem ordinem. Manente autem causa,
+<lb ed="#L" n="41"/>manet effectus. Unde quandiu perversitas ordinis
+<lb ed="#L" n="42"/>remanet, necesse est quod remaneat reatus 
+poe<lb break="no" ed="#L" n="43"/>nae. Pervertit autem aliquis ordinem quandoque
+<lb ed="#L" n="44"/>quidem reparabiliter, quandoque autem 
+irrepara<lb break="no" ed="#L" n="45"/>biliter. Semper enim defectus quo subtrahitur
+<lb ed="#L" n="46"/>principium, irreparabilis est: si autem salvetur
+<lb ed="#L" n="47"/>principium ?, eius virtute defectus reparari 
+pos<lb break="no" ed="#L" n="48"/>sunt. Sicut si corrumpatur principium visivum;,
+<lb ed="#L" n="49"/>non potest fieri visionis reparatio, nisi sola 
+vir<lb break="no" ed="#L" n="50"/>tute divina: si vero, salvo principio visivo, aliqua
+<lb ed="#L" n="51"/>impedimenta adveniant visioni, reparari possunt
+<lb ed="#L" n="52"/>per naturam vel per artem. Cuiuslibet autem 
+or<lb break="no" ed="#L" n="53"/>dinis est aliquod principium, per quod aliquis fit
+<lb ed="#L" n="54"/>particeps illius ordinis. Et ideo si per peccatum
+<lb ed="#L" n="55"/>corrumpatur principium ordinis quo voluntas 
+ho<lb break="no" ed="#L" n="56"/>minis subditur Deo, erit inordinatio, quantum est
+<lb ed="#L" n="57"/>de se, irreparabilis, etsi reparari possit virtute 
+di<lb break="no" ed="#L" n="58"/>vina. Principium autem huius ordinis est ultimus
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="59"/>finis, cui homo inhaeret per caritatem. Et ideo
+<lb ed="#L" n="60"/>quaecumque peccata avertunt a Deo, caritatem
+<lb ed="#L" n="61"/>auferentia, quantum est de se, inducunt reatum
+<lb ed="#L" n="62"/>aeternae poenae. "
+</p>
+               <p xml:id="TAca84-d1e1121-d1e723">
+                  <lb ed="#L" n="63"/>AD PRIMUM ERGO DICENDUM quod poena peccato
+<lb ed="#L" n="64"/>proportionatur secundum acerbitatem, tam in 
+iu<lb break="no" ed="#L" n="65"/>dicio divino quam in humano, sicut 
+Augusti<lb break="no" ed="#L" n="66"/>nus dicit, XXI de Civ. Dei: in nullo iudicio 
+re<lb break="no" ed="#L" n="67"/>quiritur ut poena adaequetur culpae secundum
+<lb ed="#L" n="68"/>durationem. Non enim quia adulterium vel 
+ho<lb break="no" ed="#L" n="69"/>micidium in momento committitur, propter hoc
+<lb ed="#L" n="70"/>momentanea poena punitur: sed quandoque 
+qui<lb break="no" ed="#L" n="71"/>dem perpetuo carcere vel exilio, quandoque etiam
+<lb ed="#L" n="72"/>morte. In qua non consideratur occisionis mora,
+<lb ed="#L" n="73"/>sed potius quod in perpetuum auferatur a 
+socie<lb break="no" ed="#L" n="74"/>tate viventium: et sic repraesentat suo modo 
+ae<lb break="no" ed="#L" n="75"/>ternitatem poenae inflictae divinitus. Iustum 
+au<lb break="no" ed="#L" n="76"/>tem est, secundum Gregorium, quod qui in suo
+<lb ed="#L" n="77"/>aeterno peccavit contra Deum, in aeterno Dei
+<lb ed="#L" n="78"/>puniatur. Dicitur autem aliquis in suo aeterno.
+<lb ed="#L" n="79"/>peccasse, non solum secundum continuationem
+<lb ed="#L" n="80"/>actus in tota hominis vita durantis: sed quia ex
+<lb ed="#L" n="81"/>hoc ipso quod finem in peccato constituit, 
+vo<lb break="no" ed="#L" n="82"/>luntatem habet in aeternum peccandi. Unde dicit
+<lb ed="#L" n="83"/>Gregorius, XXXIV Moral., quod iniqui voluissent 
+<lb ed="#L" n="84"/>sine fine vivere, ul sine fine. potuissent in 
+iniquita<lb break="no" ed="#L" n="85"/>libus permanere.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e775">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="86"/>AD SECUNDUM DICENDUM quod poena etiam quae.
+<lb ed="#L" n="87"/>secundum leges humanas infligitur, non semper
+<lb ed="#L" n="88"/>est medicinalis ei qui punitur, sed solum aliis:
+<lb ed="#L" n="89"/>sicut cum latro suspenditur, non ut ipse 
+emende<lb break="no" ed="#L" n="90"/>tur, sed propter alios, ut saltem metu poenae
+<lb ed="#L" n="91"/>peccare desistant; secundum illud Proverb. xix:
+<lb ed="#L" n="92"/>Pestilente flagellato stultus sapientior erit. Sic
+<lb ed="#L" n="93"/>igitur et aeternae poenae reproborum" a Deo 
+in<lb break="no" ed="#L" n="94"/>flictae, sunt medicinales his qui. consideratione
+<lb ed="#L" n="95"/>poenarum abstinent a peccatis; secundum illud
+<lb ed="#L" n="96"/>Psalmi LIX: Dedisti metuentibus te 
+significatio<lb break="no" ed="#L" n="97"/>nem, ut fugiant a facie arcus, ut liberentur 
+dile<lb break="no" ed="#L" n="98"/>cli tui.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e809">
+                  <lb ed="#L" n="99"/>AD TERTIUM DICENDUM quod Deus non delectatur
+<lb ed="#L" n="100"/>in poenis propter ipsas; sed delectatur in ordine
+<lb ed="#L" n="101"/>suae iustitiae, quae haec requirit.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e818">
+                  <lb ed="#L" n="102"/>AD QUARTUM DICENDUM quod poena, etsi per
+<lb ed="#L" n="103"/>accidens ordinetur ad naturam, per se tamen 
+or<lb break="no" ed="#L" n="104"/>dinatur ad privationem ordinis et ad Dei 
+iusti<lb break="no" ed="#L" n="105"/>tiam. Et ideo, durante inordinatione, semper 
+du<lb break="no" ed="#L" n="106"/>rat poena.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1121-Dd1e832"><!-- p2p1-q87-a4 -->
+               <head xml:id="TAca84-d1e1121-Hd1e835">Articulus 4</head>
+               <head xml:id="TAca84-d1e1121-Hd1e837" type="question-title">Utrum peccato debeatur poena infinita secundum quantitatem</head>
+               <p xml:id="TAca84-d1e1121-d1e840">
+                  <pb ed="#L" n="125"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUARTUS
+<lb ed="#L" n="2"/>UTRUM PECCATO DEBEATUR POENA INFINITA SECUNDUM QUANTITATEM
+</p>
+               <p xml:id="TAca84-d1e1121-d1e851">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>peccato debeatur poena infinita 
+secun<lb break="no" ed="#L" n="5"/>dum quantitatem. Dicitur enim erem.
+<lb ed="#L" n="6"/>X: Corripe me, Domine, veruntamen
+<lb ed="#L" n="7"/>in iudicio, et non in furore tuo: ne forte ad nihilum
+<lb ed="#L" n="8"/>redigas me. lra autem vel furor Dei metaphorice
+<lb ed="#L" n="9"/>significat vindictam divinae iustitiae: redigi autem
+<lb ed="#L" n="10"/>in nihilum est poena infinita, sicut et ex nihilo
+<lb ed="#L" n="11"/>aliquid facere est virtutis infinitae. Ergo 
+secun<lb break="no" ed="#L" n="12"/>dum vindictam divinam, peccatum palme poena
+<lb ed="#L" n="13"/>infinita secundum quantitatem.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e880">
+                  <lb ed="#L" n="14"/>2. PRAETEREA, quantitati culpae respondet 
+quan<lb break="no" ed="#L" n="15"/>titas poenae; secundum illud Deuteron. xxv: Pro
+<lb ed="#L" n="16"/>mensura peccati erit et plagarum modus. Sed 
+pec<lb break="no" ed="#L" n="17"/>catum quod contra Deum committitur, est 
+infini<lb break="no" ed="#L" n="18"/>peccato quod contra Deum committitur.
+<lb ed="#L" n="19"/>tum: tanto enim gravius est peccatum, quanto
+<lb ed="#L" n="20"/>maior est persona contra quam peccatur, sicut
+<lb ed="#L" n="21"/>gravius peccatum est percutere principem quam
+<lb ed="#L" n="22"/>percutere hominem privatum; Dei autem 
+magni<lb break="no" ed="#L" n="23"/>tudo est infinita. Ergo poena infinita debetur pro
+</p>
+               <p xml:id="TAca84-d1e1121-d1e905">
+                  <lb ed="#L" n="24"/>3. PnaETEREA, dupliciter est aliquid infinitum:
+<lb ed="#L" n="25"/>duratione scilicet, et quantitate, Sed duratione est
+<lb ed="#L" n="26"/>poena infinita. Érgo et quantitate.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e914">
+                  <lb ed="#L" n="27"/>SED CONTRA EsT quia secundum hoc omnium
+<lb ed="#L" n="28"/>mortalium peccatorum poenae essent aequales:
+<lb ed="#L" n="29"/>non enim est infinitum infinito maius.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e923">
+                  <lb ed="#L" n="30"/>RESPONDEO DICENDUM quod poena 
+proportiona<lb break="no" ed="#L" n="31"/>tur peccato. In peccato autem duo sunt. Quorum
+<lb ed="#L" n="32"/>unum est aversio ab incommutabili bono, quod
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33"/>est infinitum: unde ex hac parte peccatum est
+<lb ed="#L" n="34"/>infinitum. Aliud quod est in peccato, est 
+inordi<lb break="no" ed="#L" n="35"/>nata conversio ad commutabile bonum. Et ex hac
+<lb ed="#L" n="36"/>parte peccatum. est finitum: tum quia ipsum 
+bo<lb break="no" ed="#L" n="37"/>num commutabile est finitum; tum quia ipsa
+<lb ed="#L" n="38"/>conversio est finita, non enim possunt esse actus
+<lb ed="#L" n="39"/>creaturae infiniti. Ex parte igitur aversionis, 
+re<lb break="no" ed="#L" n="40"/>spondet peccato poena damni, quae etiam est
+<lb ed="#L" n="41"/>infinita: est enim amissio infiniti boni, scilicet Dei.
+<lb ed="#L" n="42"/>Ex parte àutem inordinatae conversionis, 
+respon<lb break="no" ed="#L" n="43"/>det ei poena sensus, quae etiam est finita.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e958">
+                  <lb ed="#L" n="44"/>AD PRIMUM ERGO DICENDUM quod omnino redigi
+<lb ed="#L" n="45"/>in nihilum eum qui peccat, non convenit divinae
+<lb ed="#L" n="46"/>iustitiae: quia repugnat perpetuitati poenae, quae
+<lb ed="#L" n="47"/>est secundum divinam iustitiam, ut dictum est.
+<lb ed="#L" n="48"/>Sed in nihilum redigi dicitur qui spiritualibus 
+bo<lb break="no" ed="#L" n="49"/>nis privatur; secundum illud I Cor. xu: Si non
+<lb ed="#L" n="50"/>habuero caritatem, nihil sum.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e976">
+                  <lb ed="#L" n="51"/>AD SECUNDUM DICENDUM quod ratio illa procedit
+<lb ed="#L" n="52"/>de peccato ex parte aversionis: sic enim homo
+<lb ed="#L" n="53"/>contra Deum peccat.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e985">
+                  <lb ed="#L" n="54"/>AD TERTIUM DICENDUM quod duratio poenae. 
+re<lb break="no" ed="#L" n="55"/>spondet durationi culpae, non quidem ex parte
+<lb ed="#L" n="56"/>actus, sed ex parte maculae, qua durante manet
+<lb ed="#L" n="57"/>reatus poenae. Sed acerbitas poenae respondet 
+gra<lb break="no" ed="#L" n="58"/>vitati culpae. Culpa autem quae est irreparabilis,
+<lb ed="#L" n="59"/>de se habet quod perpetuo duret: et ideo debetur
+<lb ed="#L" n="60"/>ei poena aeterna. Non autem ex parte 
+conversio<lb break="no" ed="#L" n="61"/>nis habet infinitatem: et ideo non debetur ei ex
+<lb ed="#L" n="62"/>hac parte poena infinita secundum quantitatem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1121-Dd1e1008"><!-- p2p1-q87-a5 -->
+               <head xml:id="TAca84-d1e1121-Hd1e1011">Articulus 5</head>
+               <head xml:id="TAca84-d1e1121-Hd1e1013" type="question-title">Utrum omne peccatum inducat reatum poenae aeternae</head>
+               <p xml:id="TAca84-d1e1121-d1e1016">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="47"/>ARTICULUS QUINTUS 
+<lb ed="#L" n="48"/>UTRUM OMNE PECCATUM INDUCAT REATUM POENAE AETERNAE
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1025">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="49"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="50"/>omne peccatum inducat reatum poenae
+<lb ed="#L" n="51"/>aeternae ad Poena enim, ut dictum est.
+<lb ed="#L" n="52"/>proportionatur culpae. Sed poena 
+aeter<lb break="no" ed="#L" n="53"/>na differt a temporali in infinitum. Nullum autem
+<lb ed="#L" n="54"/>peccatum differre videtur ab altero in infinitum:
+<lb ed="#L" n="55"/>cum omne peccatum sit humanus actus, qui 
+in<lb break="no" ed="#L" n="56"/>finitus esse non potest. Cum ergo alicui peccato
+<lb ed="#L" n="57"/>debeatur poena aeterna, sicut dictum est, 
+vide<lb break="no" ed="#L" n="58"/>tur quod nulli peccato debeatur poena temporalis
+<lb ed="#L" n="59"/>tantum.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1054">
+                  <lb ed="#L" n="60"/>2. PRAETEREA, peccatum originale est minimum
+<lb ed="#L" n="61"/>peccatorum: unde et Augustinus dicit, in Enchirid.,
+<lb ed="#L" n="62"/>quod mitissima poena est eorum qui pro solo peccato
+<lb ed="#L" n="63"/>originali puniuntur. Sed. peccato originali debetur
+<lb ed="#L" n="64"/>poena perpetua: nunquam enim.videbunt regnum
+<lb ed="#L" n="65"/>Dei pueri qui sine baptismo decesserunt cum 
+ori<lb break="no" ed="#L" n="66"/>ginali peccato; ut patet per id quod Dominus 
+di<lb break="no" ed="#L" n="67"/>cit, loan. ui: Nisi quis renalus fuerit denuo,
+<lb ed="#L" n="68"/>non polest videre regnum Dei. Ergo multo magis
+<lb ed="#L" n="69"/>omnium aliorum peccatorum poena erit aeterna.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1079">
+                  <lb ed="#L" n="70"/>3. PRAETEREA, peccato non debetur maior 
+poe<lb break="no" ed="#L" n="71"/>na ex hoc quod alteri peccato adiungitur: cum
+<lb ed="#L" n="72"/>"utrumque peccatum. suam habeat poenam 
+taxa<lb break="no" ed="#L" n="73"/>tam secundum. divinam iustitiam.. Sed peccato
+<lb ed="#L" n="74"/>veniali- debetur. poena aeterna, si cum mortali
+<lb ed="#L" n="75"/>peccato inveniatur in aliquo damnato: quia in
+<lb ed="#L" n="76"/>inferno nulla potest esse remissio. Ergo peccato
+<lb ed="#L" n="77"/>veniali simpliciter debetur poena aeterna. Nulli
+<lb ed="#L" n="78"/>ergo peccato debetur poena temporalis.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1101">
+                  <lb ed="#L" n="79"/>SED coNTRA EsT quod Gregorius dicit, in IV 
+Dia<lb break="no" ed="#L" n="80"/>log., quod quaedam leviores culpae post hanc
+<lb ed="#L" n="81"/>vitam remittuntur. Non ergo omnia peccata 
+ae<lb break="no" ed="#L" n="82"/>terna poena puniuntur.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1112">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="83"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="84"/>est, peccatum causat reatum poenae aeternae,
+<lb ed="#L" n="85"/>inquantum irreparabiliter repugnat ordini divina:
+<lb ed="#L" n="86"/>iustitiae, per. hoc scilicet quod contrariatur. si
+<lb ed="#L" n="87"/>principio ordinis, quod est ultimus finis. 
+Manife<lb break="no" ed="#L" n="88"/>stum est autem quod in quibusdam peccatis est
+<lb ed="#L" n="89"/>quidem aliqua inordinatio, non tamen per. 
+con<lb break="no" ed="#L" n="90"/>trarietatem ad ultimum finem, sed solum circ
+<lb ed="#L" n="91"/>ea quae sunt ad finem, inquantum plus. vel 
+mi<lb break="no" ed="#L" n="92"/>nus debite eis intenditur, salvato tamen ordine
+<lb ed="#L" n="93"/>ad ultimum finem: puta cum homo, etsi nimis
+<lb ed="#L" n="94"/>ad aliquam rem temporalem afficiatur, non 
+ta<lb break="no" ed="#L" n="95"/>men pro ea vellet Deum offendere, aliquid dc.
+<lb ed="#L" n="96"/>tra praeceptum eius faciendo. Unde. 
+huiusmodi<lb break="no" ed="#L" n="97"/>peccatis non debetur aeterna poena, sed 
+tempo<lb break="no" ed="#L" n="98"/>ralis.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1151">
+                  <lb ed="#L" n="99"/>AD PRIMUM ERGO DICENDUM quod peccata non
+<lb ed="#L" n="100"/>differunt in infinitum ex parte conversionis ad
+<lb ed="#L" n="101"/>bonum commutabile, in qua consistit substantia
+<lb ed="#L" n="102"/>actus: differunt autem in infinitum ex parte 
+aver<lb break="no" ed="#L" n="103"/>sionis. Nam: quaedam peccata committuntur per
+<lb ed="#L" n="104"/>aversionem ab ultimo fine: quaedam vero per
+<lb ed="#L" n="105"/>inordinationem circa ea quae sunt ad finem. 
+Fi<lb break="no" ed="#L" n="106"/>nis autem ultimus ab his quae sunt ad finem,
+<lb ed="#L" n="107"/>in infinitum. differt.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1173">
+                  <lb ed="#L" n="108"/>AD SECUNDUM DICENDUM quod peccato originali
+<lb ed="#L" n="109"/>non debetur poena aeterna ratione suae gravitatis:
+<lb ed="#L" n="110"/>sed ratione conditionis subiecti, scilicet hominis
+<lb ed="#L" n="111"/>qui sine gratia invenitur, per quam solam ? fit 
+re<lb break="no" ed="#L" n="112"/>missio. poenae.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1186">
+                  <lb ed="#L" n="113"/>Et similiter dicendum est ad tertium, de veniali
+<lb ed="#L" n="114"/>peccato. Aeternitas enim poenae non respondet
+<lb ed="#L" n="115"/>quantitati culpae, sed irremissibilitati ipsius, ut
+<lb ed="#L" n="116"/>dictum. est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1121-Dd1e1198"><!-- p2p1-q87-a6 -->
+               <head xml:id="TAca84-d1e1121-Hd1e1201">Articulus 6</head>
+               <head xml:id="TAca84-d1e1121-Hd1e1203" type="question-title">Utrum reatus poenae remaneat post peccatum</head>
+               <p xml:id="TAca84-d1e1121-d1e1206">
+                  <pb ed="#L" n="128"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SEXTUS
+<lb ed="#L" n="2"/>UTRUM REATUS POENAE REMANEAT POST PECCATUM
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1217">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>reatus poenae non remaneat post 
+pecca<lb break="no" ed="#L" n="5"/>reat. Remota enim causa, removetur 
+effe<lb break="no" ed="#L" n="6"/>Num Sed peccatum est causa reatus 
+poe<lb break="no" ed="#L" n="7"/>nae. Ergo, remoto peccato, cessat reatus poenae.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1233">
+                  <lb ed="#L" n="8"/>2. PRAETEREA, peccatum removetur per hoc
+<lb ed="#L" n="9"/>quod homo ad virtutem redit. Sed virtuoso non
+<lb ed="#L" n="10"/>debetur poena, sed magis praemium. Ergo, remoto
+<lb ed="#L" n="11"/>peccato, non remanet reatus poenae.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1245">
+                  <lb ed="#L" n="12"/>3. PRAETEREA, poenae sunt medicinae, ut 
+di<lb break="no" ed="#L" n="13"/>citur in II EAic. Sed. postquam aliquis iam est
+<lb ed="#L" n="14"/>ab infirmitate curatus, non adhibetur sibi 
+medi<lb break="no" ed="#L" n="15"/>cina. Ergo, remoto peccato, non remanet debitum
+<lb ed="#L" n="16"/>poenae.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1258">
+                  <lb ed="#L" n="17"/>SED CONTRA EsT quod dicitur II Reg. xu, quod
+<lb ed="#L" n="18"/>David dixit ad Nathan: Peccavi Domino. "
+Dixit<lb break="no" ed="#L" n="19"/>que Nathan ad David: Dominus quoque transtulit
+<lb ed="#L" n="20"/>peccatum. tuum, non morieris. Veruntamen quia
+<lb ed="#L" n="21"/>blasphemare fecisti inimicos nomen Domini, filius
+<lb ed="#L" n="22"/>qui natus est tibi, morte morietur. Punitur ergo
+<lb ed="#L" n="23"/>aliquis a Deo etiam postquam ei peccatum 
+di<lb break="no" ed="#L" n="24"/>mittitur. Et sic reatus poenae remanet, peccato
+<lb ed="#L" n="25"/>remoto.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1280">
+                  <lb ed="#L" n="26"/>RESPONDEO DICENDUM quod in peccato duo 
+pos<lb break="no" ed="#L" n="27"/>sunt considerari: scilicet actus culpae, et macula 
+se<lb break="no" ed="#L" n="28"/>quens. Planum est autem quod, cessante actu 
+pec<lb break="no" ed="#L" n="29"/>cati, remanet reatus, in omnibus peccatis 
+actua<lb break="no" ed="#L" n="30"/>libus. Actus enim peccati facit hominem reum
+<lb ed="#L" n="31"/>poenae, inquantum transgreditur ordinem 
+divi<lb break="no" ed="#L" n="32"/>nae iustitiae; ad quem non redit nisi per quandam
+<lb ed="#L" n="33"/>recompensationem poenae, quae ad aequalitatem
+<lb ed="#L" n="34"/>iustitiae reducit; ut scilicet qui plus voluntati suae
+<lb ed="#L" n="35"/>indulsit quam debuit, contra mandatum Dei agens,
+<lb ed="#L" n="36"/>secundum ordinem divinae iustitiae, aliquid contra
+<lb ed="#L" n="37"/>illud quod vellet ?, spontaneus vel invitus patiatur.
+<lb ed="#L" n="38"/>Quod etiam in iniuriis hominibus factis observatur,
+<lb ed="#L" n="39"/>ut per recompensationem poenae reintegretur 
+ae<lb break="no" ed="#L" n="40"/>qualitas iustitiae. Unde patet quod, cessante actu
+<lb ed="#L" n="41"/>peccati vel iniuriae illatae, adhuc remanet debitum
+<lb ed="#L" n="42"/>poenae.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1319">
+                  <lb ed="#L" n="43"/>Sed si loquamur de ablatione peccati quan- |
+<lb ed="#L" n="44"/>tum ad maculam, sic manifestum est quod macula
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="45"/>peccati ab anima auferri non potest, nisi per hoc
+<lb ed="#L" n="46"/>quod anima Deo coniungitur, per cuius distantiam
+<lb ed="#L" n="47"/>detrimentum proprii nitoris incurrebat, quod est
+<lb ed="#L" n="48"/>macula, ut supra dictum est. Coniungitur autem
+<lb ed="#L" n="49"/>homo Deo per voluntatem. Unde macula peccati
+<lb ed="#L" n="50"/>ab homine tolli non potest, nisi voluntas hominis
+<lb ed="#L" n="51"/>ordinem divinae iustitiae acceptet;.ut scilicet vel
+<lb ed="#L" n="52"/>ipse poenam sibi spontaneus assumat in 
+recom<lb break="no" ed="#L" n="53"/>pensationem culpae praeteritae, vel etiam a Deo
+<lb ed="#L" n="54"/>illatam patienter sustineat; utroque enim modo
+<lb ed="#L" n="55"/>poena rationem satisfactionis habet, Poena autem
+<lb ed="#L" n="56"/>satisfactoria diminuit aliquid de ratione poenae.
+<lb ed="#L" n="57"/>Est enim de ratione poenae quod sit contra 
+volun<lb break="no" ed="#L" n="58"/>tatem. Poena autem satisfactoria, etsi secundum
+<lb ed="#L" n="59"/>absolutam considerationem sit contra voluntatem,
+<lb ed="#L" n="60"/>tamen tunc, et pro hoc, est voluntaria. Unde
+<lb ed="#L" n="61"/>simpliciter est voluntaria, secundum quid autem
+<lb ed="#L" n="62"/>involuntaria: sicut patet ex his quae supra de
+<lb ed="#L" n="63"/>voluntario et involuntario dicta sunt. Dicendum
+<lb ed="#L" n="64"/>est ergo quod, remota macula culpae, potest 
+qui<lb break="no" ed="#L" n="65"/>dem remanere reatus non poenae simpliciter, sed
+<lb ed="#L" n="66"/>satisfactoriae.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1376">
+                  <lb ed="#L" n="67"/>AD PRIMUM ERGO DICENDUM em sicut, cessante
+<lb ed="#L" n="68"/>actu peccati, remanet macula, ut supra dictum
+<lb ed="#L" n="69"/>est; ita etiam potest remanere reatus. Cessante
+<lb ed="#L" n="70"/>vero macula, non remanet reatus secundum 
+can<lb break="no" ed="#L" n="71"/>dem rationem, ut dictum est. ! jiliae
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1389">
+                  <lb ed="#L" n="72"/>AD SECUNDUM DICENDUM quod virtuoso fion 
+de<lb break="no" ed="#L" n="73"/>betur poena simpliciter, potest tamen sibi deberi
+<lb ed="#L" n="74"/>poena ut satisfactoria; quia hoc ipsum ad 
+vir<lb break="no" ed="#L" n="75"/>tutem pertinet, ut satisfaciat. pro his in quibus
+<lb ed="#L" n="76"/>offendit vel Deum vel hominem. dne d
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1403">
+                  <lb ed="#L" n="77"/>AD TERTIUM DICENDUM quod, remota macula, 
+sa<lb break="no" ed="#L" n="78"/>natum est vulnus peccati quantum ad 
+volunta<lb break="no" ed="#L" n="79"/>tem. Requiritur autem adhuc poena ad 
+sanatio<lb break="no" ed="#L" n="80"/>nem aliarum virium animae, quae per peccatum
+<lb ed="#L" n="81"/>praecedens deordinatae fuerunt: ut scilicet per
+<lb ed="#L" n="82"/>contraria curentur. Requiritur etiam ad 
+restituen<lb break="no" ed="#L" n="83"/>dum aequalitatem iustitiae; et ad amovendum 
+scan<lb break="no" ed="#L" n="84"/>dalum aliorum, ut aedificentur i in poena qui sunt
+<lb ed="#L" n="85"/>scandalizati in culpa ?; ut patet ex exemplo de 
+Da<lb break="no" ed="#L" n="86"/>vid inducto.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1121-Dd1e1429"><!-- p2p1-q87-a7 -->
+               <head xml:id="TAca84-d1e1121-Hd1e1432">Articulus 7</head>
+               <head xml:id="TAca84-d1e1121-Hd1e1434" type="question-title">Utrum omnis poena sit propter aliquam culpam</head>
+               <p xml:id="TAca84-d1e1121-d1e1437">
+                  <pb ed="#L" n="129"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="2"/>UTRUM OMNIS POENA SIT PROPTER ALIQUAM CULPAM
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1448">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>non omnis poena sit propter aliquam
+<lb ed="#L" n="5"/>rax culpam. Dicitur enim Ioan. ix, de 
+cae<lb break="no" ed="#L" n="6"/>co nato: Neque hic peccavit, neque 
+pa<lb break="no" ed="#L" n="7"/>rentes eius, ut nasceretur caecus. Et similiter 
+vi<lb break="no" ed="#L" n="8"/>demus quod multi pueri, etiam baptizati, graves
+<lb ed="#L" n="9"/>poenas patiuntur, ut puta febres, daemonum 
+op<lb break="no" ed="#L" n="10"/>pressiones, et multa huiusmodi: cum tamen in
+<lb ed="#L" n="11"/>eis non sit peccatum, postquam sunt baptizati.
+<lb ed="#L" n="12"/>Et antequam sint baptizati, non est in eis plus
+<lb ed="#L" n="13"/>de peccato quam in aliis pueris, qui haec non
+<lb ed="#L" n="14"/>patiuntur. Non ergo omnis poena est pro 
+pec<lb break="no" ed="#L" n="15"/>cato.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1481">
+                  <lb ed="#L" n="16"/>2. PRAETEREA, eiusdem rationis esse videtur quod
+<lb ed="#L" n="17"/>peccatores prosperentur, et quod aliqui 
+innocen<lb break="no" ed="#L" n="18"/>tes puniantur. Utrumque autem in rebus humanis
+<lb ed="#L" n="19"/>frequenter itivenimus: dicitur enim de iniquis in
+<lb ed="#L" n="20"/>Psalmo t.xxn: In labore hominum non sunt, et cum
+<lb ed="#L" n="21"/>Nen. 7. hominibus mon flagellabuntur; et Job xxv: Impii
+<lb ed="#L" n="22"/>vivunt, sublevati sunt, confortatique divitiis; et
+<lb ed="#L" n="23"/>Habacuc 1i dicitur: Quare respicis contemptores
+<lb ed="#L" n="24"/>et taces, conculcante impio iustiorem se? Non ergo
+<lb ed="#L" n="25"/>omnis poena infligitur pro culpa.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1506">
+                  <lb ed="#L" n="26"/>8. PRAETEREA, de Christo dicitur I Pet. i1, quod
+<lb ed="#L" n="27"/>peccatum non fecit, nec inventus est dolus in ore
+<lb ed="#L" n="28"/>Et tamen ibidem dicitur quod passus est
+<lb ed="#L" n="29"/>pro nobis. Ergo non semper poena a Deo 
+dispen<lb break="no" ed="#L" n="30"/>satur pro culpa. S0«
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1519">
+                  <lb ed="#L" n="31"/>SED CONTRA EST quod dicitur Job iv: Quis
+<lb ed="#L" n="32"/>unquam innocens periit? Aut quando recti deleti
+<lb ed="#L" n="33"/>sunt? Quin potius vidi eos qui operantur 
+iniqui<lb break="no" ed="#L" n="34"/>tatem, flante Deo, periisse. Et Augustinus dicit,
+<lb ed="#L" n="35"/>in D Retract., quod. omnis poena iusta est, et pro
+<lb ed="#L" n="36"/>lib. cap.sm. peccato aliquo impenditur.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1535">
+                  <lb ed="#L" n="37"/>RESPONDEO DICENDUM quod, sicut iam dictum
+<lb ed="#L" n="38"/>est, poena potest dupliciter considerari: 
+simplici<lb break="no" ed="#L" n="39"/>ter, et inquantum est satisfactoria. Poena quidem
+<lb ed="#L" n="40"/>satisfactoria est quodammodo voluntaria. Et quia
+<lb ed="#L" n="41"/>contingit eos qui differunt in reatu poenae, esse
+<lb ed="#L" n="42"/>unum secundum voluntatem unione amoris, inde
+<lb ed="#L" n="43"/>est quod interdum aliquis qui non peccavit, 
+poe<lb break="no" ed="#L" n="44"/>nam voluntarius pro alio portat: sicut etiam in
+<lb ed="#L" n="45"/>rebus humanis videmus quod aliquis in se 
+trans<lb break="no" ed="#L" n="46"/>fert alterius debitum. - Si vero loquamur de poena
+<lb ed="#L" n="47"/>simpliciter, secundum quod habet rationem 
+poe<lb break="no" ed="#L" n="48"/>nae, sic semper habet ordinem ad culpam 
+pro<lb break="no" ed="#L" n="49"/>priam: sed quandoque quidem ad culpam 
+actua<lb break="no" ed="#L" n="50"/>lem, puta quando aliquis vel a Deo vel ab homine
+<lb ed="#L" n="51"/>pro peccato commisso punitur; quandoque vero
+<lb ed="#L" n="52"/>ad culpam originalem. Et hoc quidem vel 
+prin<lb break="no" ed="#L" n="53"/>cipaliter, vel consequenter. Principaliter quidem
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="54"/>poena originalis peccati est quod natura humana
+<lb ed="#L" n="55"/>sibi relinquitur, destituta auxilio originalis 
+iusti<lb break="no" ed="#L" n="56"/>tiae: sed ad hoc consequuntur omnes 
+poenalita<lb break="no" ed="#L" n="57"/>tes quae ex defectu naturae in hominibus 
+con<lb break="no" ed="#L" n="58"/>tingunt.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1587">
+                  <lb ed="#L" n="59"/>Sciendum tamen est quod quandoque aliquid
+<lb ed="#L" n="60"/>videtur esse poenale, quod tamen non habet 
+sim<lb break="no" ed="#L" n="61"/>pliciter rationem poenae. Poena enim est species
+<lb ed="#L" n="62"/>mali, ut in Primo dictum est. Malum autem 'Qu xcv, ar.
+<lb ed="#L" n="63"/>est privatio boni. Cum autem sint plura hominis "
+<lb ed="#L" n="64"/>bona, scilicet animae, corporis, et exteriorum 
+re<lb break="no" ed="#L" n="65"/>rum; contingit interdum quod homo patiatur 
+de<lb break="no" ed="#L" n="66"/>trimentum in minori bono, ut augeatur in maiori:
+<lb ed="#L" n="67"/>sicut cum patitur detrimentum pecuniae propter
+<lb ed="#L" n="68"/>sanitatem corporis, vel in utroque horum propter
+<lb ed="#L" n="69"/>salutem animae et propter gloriam Dei. Et tunc
+<lb ed="#L" n="70"/>tale detrimentum non est simpliciter malum 
+ho<lb break="no" ed="#L" n="71"/>minis, sed secundum quid. Unde non dicit ? 
+sim<lb break="no" ed="#L" n="72"/>pliciter rationem poenae, sed medicinae: nam et
+<lb ed="#L" n="73"/>medici austeras potiones propinant infirmis, ut
+<lb ed="#L" n="74"/>conferant sanitatem. Et quia huiusmodi non 
+pro<lb break="no" ed="#L" n="75"/>prie habent rationem poenae, non reducuntur ad
+<lb ed="#L" n="76"/>culpam sicut ad causam, nisi pro tanto: quia hoc
+<lb ed="#L" n="77"/>ipsum quod oportet humanae naturae medicinas
+<lb ed="#L" n="78"/>poenales exhibere, est ex corruptione naturae,
+<lb ed="#L" n="79"/>quae est poena originalis peccati. In statu enim
+<lb ed="#L" n="80"/>innocentiae non oportuisset aliquem ad profectum
+<lb ed="#L" n="81"/>virtutis inducere per poenalia exercitia. Unde hoc
+<lb ed="#L" n="82"/>ipsum quod est poenale in talibus, reducitur ad
+<lb ed="#L" n="83"/>originalem culpam sicut ad causam.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1644">
+                  <lb ed="#L" n="84"/>AD PRIMUM ERGO DICENDUM quod huiusmodi 
+de<lb break="no" ed="#L" n="85"/>fectus eorum qui nascuntur, vel etiam puerorum,
+<lb ed="#L" n="86"/>sunt effectus et poenae origipalis peccati, ut 
+di<lb break="no" ed="#L" n="87"/>ctum est. Et manent etiam post baptismum, PR npn
+<lb ed="#L" n="88"/>pter causam superius dictam. Et quod non sint 
+<lb ed="#L" n="89"/>aequaliter in omnibus, contingit propter naturae
+<lb ed="#L" n="90"/>diversitatem, quae sibi relinquitur, ut supra 
+di<lb break="no" ed="#L" n="91"/>ctum est. Ordinantur tamen huiusmodi defectus,
+<lb ed="#L" n="92"/>secundum divinam providentiam, ad salutem 
+ho<lb break="no" ed="#L" n="93"/>minum, vel eorum qui patiuntur, vel aliorum, qui
+<lb ed="#L" n="94"/>poenis admonentur; et etiam ad gloriam Dei.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1670">
+                  <lb ed="#L" n="95"/>AD SECUNDUM DICENDUM quod bona temporalia
+<lb ed="#L" n="96"/>et corporalia sunt quidem aliqua bona hominis,
+<lb ed="#L" n="97"/>sed parva: bona vero spiritualia sunt magna 
+ho<lb break="no" ed="#L" n="98"/>minis bona. Pertinet igitur ad divinam iustitiam
+<lb ed="#L" n="99"/>ut virtuosis det spiritualia bona; et de 
+tempora<lb break="no" ed="#L" n="100"/>libus bonis vel malis tantum det eis, quantum
+<lb ed="#L" n="101"/>sufficit ad virtutem: ut enim Dionysius dicit, vit
+<lb ed="#L" n="102"/>cap. de Div. Nom., divinae iustitiae est non 
+<lb ed="#L" n="103"/>emollire optimorum fortitudinem materialium 
+do<lb break="no" ed="#L" n="104"/>nationibus. Aliis vero hoc ipsum quod temporalia
+<pb ed="#L" n="130"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>dantur, in malum spiritualium cedit. Unde in
+<lb ed="#L" n="2"/>Psalmo rxxi concluditur: 7deo tenuit eos 
+su<lb break="no" ed="#L" n="3"/>perbia.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1706">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="4"/>AD TERTIUM DICENDUM quod Christus poenam 
+su<lb break="no" ed="#L" n="5"/>stinuit satisfactoriam non pro suis, sed pro 
+no<lb break="no" ed="#L" n="6"/>stris peccatis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1121-Dd1e1718"><!-- p2p1-q87-a8 -->
+               <head xml:id="TAca84-d1e1121-Hd1e1721">Articulus 8</head>
+               <head xml:id="TAca84-d1e1121-Hd1e1723" type="question-title">Utrum aliquis puniatur pro peccato alterius</head>
+               <p xml:id="TAca84-d1e1121-d1e1726">
+                  <lb ed="#L" n="7"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="8"/>UTRUM ALIQUIS PUNIATUR PRO PECCATO ALTERIUS
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1733">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="10"/>aliquis puniatur pro peccato alterius. 
+Di<lb break="no" ed="#L" n="11"/>citur enim Exodi xx: Ego sum Deus
+<lb ed="#L" n="12"/>zelotes, visitans iniquitatem patrum in
+<lb ed="#L" n="13"/>filios. in tertiam et quartam generationem, his qui
+<lb ed="#L" n="14"/>oderunt me. Et Matth. xxuri dicitur: Ut veniat
+<lb ed="#L" n="15"/>super vos omnis sanguis iustus qui effusus est 
+su<lb break="no" ed="#L" n="16"/>per terram.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1755">
+                  <lb ed="#L" n="17"/>2. PRAETEREA, iustitia humana derivatur a 
+iu<lb break="no" ed="#L" n="18"/>stitia divina. Sed secundum iustitiam humanam
+<lb ed="#L" n="19"/>aliquando filii puniuntur pro parentibus: sicut 
+pa<lb break="no" ed="#L" n="20"/>tet in crimine laesae maiestatis. Ergo etiam 
+se<lb break="no" ed="#L" n="21"/>cundum divinam iustitiam, unus punitur pro 
+pec<lb break="no" ed="#L" n="22"/>cato alterius.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1772">
+                  <lb ed="#L" n="23"/>3. PRAETEREA, si dicatur filius non puniri pro
+<lb ed="#L" n="24"/>peccato patris, sed pro peccato proprio, inquantum
+<lb ed="#L" n="25"/>imitatur malitiam paternam: non magis hoc 
+dice<lb break="no" ed="#L" n="26"/>retur de filiis quam de extraneis, qui simili poena
+<lb ed="#L" n="27"/>puniuntur his quorum peccata imitantur. Non
+<lb ed="#L" n="28"/>ergo videtur quod filii pro peccatis propriis 
+pu<lb break="no" ed="#L" n="29"/>niantur, sed pro peccatis parentum.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1790">
+                  <lb ed="#L" n="30"/>SED coNTRA EsT quod dicitur Ezech. xvii: 
+Fi<lb break="no" ed="#L" n="31"/>lius non portabit iniquitatem patris.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1797">
+                  <lb ed="#L" n="32"/>RESPONDEO DICENDUM quod, si loquamur de
+<lb ed="#L" n="33"/>poena satisfactoria, quae voluntarie assumitur,
+<lb ed="#L" n="34"/>contingit quod unus portet poenam alterius, 
+in<lb break="no" ed="#L" n="35"/>quantum sunt quodammodo unum, sicut iam 
+<lb ed="#L" n="36"/>dictum est. - Si autem loquamur de poena pro
+<lb ed="#L" n="37"/>peccato inflicta, inquantum habet rationem 
+poe<lb break="no" ed="#L" n="38"/>nae, sic solum unusquisque pro peccato suo 
+pu<lb break="no" ed="#L" n="39"/>nitur: quia actus peccati aliquid personale ? est.
+<lb ed="#L" n="40"/>- $i autem loquamur de poena quae habet 
+ra<lb break="no" ed="#L" n="41"/>tionem medicinae, sic contingit quod unus 
+pu<lb break="no" ed="#L" n="42"/>nitur pro peccato alterius. Dictum est enim 
+<lb ed="#L" n="43"/>quod detrimenta corporalium rerum, vel etiam
+<lb ed="#L" n="44"/>ipsius corporis, sunt quaedam poenales medicinae
+<lb ed="#L" n="45"/>ordinatae ad salutem animae. Unde nihil prohibet
+<lb ed="#L" n="46"/>talibus poenis aliquem puniri pro peccato alterius,
+<lb ed="#L" n="47"/>vel.a Deo vel ab homine: utpote filios pro. 
+pa<lb break="no" ed="#L" n="48"/>tribus, et subditos pro dominis, inquantum sunt
+<lb ed="#L" n="49"/>quaedam res eorum. ita tamen quod, si filius vel
+<lb ed="#L" n="50"/>subditus est. particeps culpae, huiusmodi poenalis
+<lb ed="#L" n="51"/>defectus habet rationem poenae quantum ad 
+utrum<lb break="no" ed="#L" n="52"/>que, scilicet eum ? qui. punitur, et eum. pro quo
+<lb ed="#L" n="53"/>punitur. Si vero non: sit particeps culpae, habet
+<lb ed="#L" n="54"/>rationem poenae quantum ad eum pro quo 
+puni<lb break="no" ed="#L" n="55"/>tur: quantum vero ad eum qui punitur, rationem
+<lb ed="#L" n="56"/>medicinae tantum, nisi per accidens; inquantum
+<lb ed="#L" n="57"/>peccato alterius consentit; ordinatur enim ei ad
+<lb ed="#L" n="58"/>bonum animae, si patienter sustineat.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1858">
+                  <lb ed="#L" n="59"/>Poenae vero spirituales non sunt medicinales
+<lb ed="#L" n="60"/>tantum: quia bonum animae non ordinatur ad
+<lb ed="#L" n="61"/>aliud melius bonum. Unde in bonis animae nullus
+<lb ed="#L" n="62"/>patitur detrimentum sine culpa propria. Et propter
+<lb ed="#L" n="63"/>hoc etiam talibus poenis, ut dicit Augustinus in
+<lb ed="#L" n="64"/>Epistola ad Avitum, unus non punitur pro alio:
+<lb ed="#L" n="65"/>quia quantum ad animam, filius non est res patris.
+<lb ed="#L" n="66"/>Unde et huius causam Dominus assignans, dicit,
+<lb ed="#L" n="67"/>Ezech. xviu: Omnes animae meae sunt.;
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1880">
+                  <lb ed="#L" n="68"/>AD PRIMUM ERGO DICENDUM. quod utrumque 
+di<lb break="no" ed="#L" n="69"/>ctum videtur esse referendum ad poenas 
+tempo<lb break="no" ed="#L" n="70"/>rales vel corporales, inquantum filii sunt res 
+quae<lb break="no" ed="#L" n="71"/>dam parentum, et successores praedecessorum.
+<lb ed="#L" n="72"/>Vel si referatur ad poenas spirituales, hoc. 
+di<lb break="no" ed="#L" n="73"/>citur propter imitationem culpae: unde in Exodo
+<lb ed="#L" n="74"/>additur, his qui oderunt me; et in Matthaeo 
+di<lb break="no" ed="#L" n="75"/>citur, E? vos implete mensuram patrum 
+vesiro<lb break="no" ed="#L" n="76"/>rum. - Dicit autem puniri peccata patrum in filiis,
+<lb ed="#L" n="77"/>quia filii; in peccatis parentum nutriti, proniores
+<lb ed="#L" n="78"/>sunt ad peccandum: tum propter. consuetudinem;
+<lb ed="#L" n="79"/>tum etiam propter exemplum, patrum. quasi. 
+au<lb break="no" ed="#L" n="80"/>ctoritatem sequentes. Sunt etiam maiori poena
+<lb ed="#L" n="81"/>digni, si, poenas patrum videntes, correcti non.
+<lb ed="#L" n="82"/>sunt. - Ideo autem addidit, in tertiam. et quartam |
+<lb ed="#L" n="83"/>generationem, quia tantum consueverunt 
+homi<lb break="no" ed="#L" n="84"/>nes vivere, ut tertiam et quartam generationem.
+<lb ed="#L" n="85"/>videant; et sic mutuo videre possunt et filii pec-.
+<lb ed="#L" n="86"/>cata patrum ad imitandum, et patres poenas. 
+fi<lb break="no" ed="#L" n="87"/>liorum ad dolendum.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1926">
+                  <lb ed="#L" n="88"/>AD SECUNDUM DICENDUM quod poenae illae sint
+<lb ed="#L" n="89"/>corporales et temporales quas iustitia humana
+<lb ed="#L" n="90"/>uni pro peccato alterius infligit. Et sunt remedia:
+<lb ed="#L" n="91"/>quaedam, vel medicinae, contra culpas sequentes:
+<lb ed="#L" n="92"/>ut vel ipsi qui puniuntur, vel alii, cohibeantur a
+<lb ed="#L" n="93"/>similibus culpis.
+</p>
+               <p xml:id="TAca84-d1e1121-d1e1943">
+                  <lb ed="#L" n="94"/>AD TERTIUM DICENDUM quod magis dicuntur 
+pu<lb break="no" ed="#L" n="95"/>niri pro peccatis aliorum propinqui quam. 
+extra<lb break="no" ed="#L" n="96"/>nei, tum quia poena propinquorum. quodammodo.
+<lb ed="#L" n="97"/>redundat in illos qui peccaverunt, ut dictum est,
+<lb ed="#L" n="98"/>inquantum. filius est quaedam res patris. Tum
+<lb ed="#L" n="99"/>etiam quia et domestica exempla, et domesticae.
+<lb ed="#L" n="100"/>poenae, magis movent. Unde quando aliquis 
+nu<lb break="no" ed="#L" n="101"/>tritus est in peccatis parentum, vehementius ea
+<lb ed="#L" n="102"/>sequitur; et si ex eorum poenis non est 
+deterri<lb break="no" ed="#L" n="103"/>tus, obstinatior videtur; unde et maiori. aede
+<lb ed="#L" n="104"/>dignus.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

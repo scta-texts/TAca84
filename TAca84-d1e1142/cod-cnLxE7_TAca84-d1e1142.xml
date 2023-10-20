@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 91</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 91</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="153"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1142"><!-- p2p1-q91 -->
+            <head xml:id="TAca84-d1e1142-Hd1e101">Quaestio 91</head>
+            <head xml:id="TAca84-d1e1142-Hd1e103" type="question-title">De legum diversitate</head>
+            <p xml:id="TAca84-d1e1142-d1e106">
+               <pb ed="#L" n="153"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO NONAGESIMAPRIMA
+<lb ed="#L" n="2"/>DE LEGUM DIVERSITATE
+<lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1142-d1e119">
+               <lb ed="#L" n="4"/>
+               <lb ed="#L" n="5"/>DEINDE considerandum est de diversitate 
+le<lb break="no" ed="#L" n="6"/>gem
+</p>
+            <p xml:id="TAca84-d1e1142-d1e128">
+               <lb ed="#L" n="7"/>Et circa hoc quaeruntur sex.
+<lb ed="#L" n="8"/>Primo: utrum sit aliqua lex aeterna.
+<lb ed="#L" n="9"/>Secundo: utrum sit aliqua lex naturalis.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="10"/>Tertio: utrum sit aliqua lex humana.
+<lb ed="#L" n="11"/>Quarto: utrum sit aliqua lex divina.
+<lb ed="#L" n="12"/>Quinto: utrum sit una tantum, vel plures.
+<lb ed="#L" n="13"/>Sexto: utrum sit aliqua lex peccati.
+</p>
+            <div xml:id="TAca84-d1e1142-Dd1e149"><!-- p2p1-q91-a1 -->
+               <head xml:id="TAca84-d1e1142-Hd1e152">Articulus 1</head>
+               <head xml:id="TAca84-d1e1142-Hd1e154" type="question-title">Utrum sit aliqua lex aeterna</head>
+               <p xml:id="TAca84-d1e1142-d1e157">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="14"/>ARTICULUS PRIMUS
+<lb ed="#L" n="15"/>UTRUM SIT ALIQUA LEX AETERNA
+</p>
+               <p xml:id="TAca84-d1e1142-d1e166">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="16"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="17"/>non sit aliqua lex aeterna. Omnis enim
+<lb ed="#L" n="18"/>lex aliquibus imponitur. Sed non fuit
+<lb ed="#L" n="19"/>ab aeterno aliquis cui lex posset 
+im<lb break="no" ed="#L" n="20"/>poni: solus enim Deus fuit ab aeterno. Ergo nulla
+<lb ed="#L" n="21"/>lex est aeterna.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e184">
+                  <lb ed="#L" n="22"/>2. PRAETEREA, promulgatio est de ratione legis.
+<lb ed="#L" n="23"/>Sed promulgatio non potuit esse ab aeterno: quia
+<lb ed="#L" n="24"/>non erat ab aeterno cui promulgaretur. Ergo
+<lb ed="#L" n="25"/>nulla lex potest esse aeterna.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e196">
+                  <lb ed="#L" n="26"/>3. PRAETEREA, lex importat ordinem ad finem.
+<lb ed="#L" n="27"/>Sed nihil est aeternum quod ordinetur ad finem:
+<lb ed="#L" n="28"/>solus enim ultimus finis est aeternus. Ergo nulla
+<lb ed="#L" n="29"/>lex est aeterna.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e207">
+                  <lb ed="#L" n="30"/>SED CONTRA EST quod Augustinus dicit, in I de
+<lb ed="#L" n="31"/>Lib. Arb.: Lex quae summa ratio nominatur,
+<lb ed="#L" n="32"/>non potest cuipiam intelligenti non incommutabilis -
+<lb ed="#L" n="33"/>aeternaque videri.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e218">
+                  <lb ed="#L" n="34"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="35"/>est, nihil est aliud lex quam quoddam ? dictamen
+<lb ed="#L" n="36"/>practicae rationis in. principe qui gubernat 
+ali<lb break="no" ed="#L" n="37"/>quam communitatem perfectam. Manifestum est
+<lb ed="#L" n="38"/>autem, supposito quod mundus divina 
+providen<lb break="no" ed="#L" n="39"/>tia regatur, ut in Primo habitum est, quod tota
+<lb ed="#L" n="40"/>communitas universi gubernatur ratione divina.
+<lb ed="#L" n="41"/>Et ideo ipsa ratio gubernationis rerum in Deo
+<lb ed="#L" n="42"/>sicut in principe universitatis existens, legis habet
+<lb ed="#L" n="43"/>rationem. Et quia divina ratio nihil concipit ex
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="44"/>tempore, sed habet aeternum conceptum, ut 
+di<lb break="no" ed="#L" n="45"/>citur Prov. vui; inde est quod huiusmodi legem vers. zs.
+<lb ed="#L" n="46"/>oportet dicere aeternam.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e251">
+                  <lb ed="#L" n="47"/>AD PRIMUM ERGO DICENDUM quod ea quae in 
+se<lb break="no" ed="#L" n="48"/>ipsis non sunt, apud Deum existunt, inquantum
+<lb ed="#L" n="49"/>sunt ab ipso praecognita Y et praeordinata; 
+secun<lb break="no" ed="#L" n="50"/>dum illud om. 1v:. Qui vocat ea quae non sunt, 
+<lb ed="#L" n="51"/>tanquam ea quae sunt. Sic igitur aeternus divinae
+<lb ed="#L" n="52"/>legis conceptus habet rationem legis aeternae, 
+se<lb break="no" ed="#L" n="53"/>cundum quod a Deo ordinatur ad gubernationem
+<lb ed="#L" n="54"/>rerum ab ipso praecognitarum.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e271">
+                  <lb ed="#L" n="55"/>AD SECUNDUM DICENDUM quod promulgatio fit et
+<lb ed="#L" n="56"/>verbo et scripto; et utroque. modo lex aeterna.
+<lb ed="#L" n="57"/>habet promulgationem ex parte Dei 
+promulgan<lb break="no" ed="#L" n="58"/>is: quia et Verbum divinum est aeternum, et
+<lb ed="#L" n="59"/>scriptura libri vitae est aeterna. Sed ex parte
+<lb ed="#L" n="60"/>creaturae audientis aut inspicientis, non. potest
+<lb ed="#L" n="61"/>esse promulgatio aeterna.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e289">
+                  <lb ed="#L" n="62"/>AD TERTIUM DICENDUM quod lex importat 
+ordi<lb break="no" ed="#L" n="63"/>nem ad finem active, inquantum scilicet per eam
+<lb ed="#L" n="64"/>ordinantur aliqua in finem: nón autem passive,
+<lb ed="#L" n="65"/>idest quod ipsa lex ordinetur ad finem, nisi per
+<lb ed="#L" n="66"/>accidens in gubernante cuius finis est extra ipsum,
+<lb ed="#L" n="67"/>ad quem etiam necesse est ut lex eius ordinetur.
+<lb ed="#L" n="68"/>Sed finis divinae gubernationis est ipse Deus, nec
+<lb ed="#L" n="69"/>eius lex est aliud ? ab ipso. Unde lex aeterna non
+<lb ed="#L" n="70"/>ordinatur in alium finem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1142-Dd1e312"><!-- p2p1-q91-a2 -->
+               <head xml:id="TAca84-d1e1142-Hd1e315">Articulus 2</head>
+               <head xml:id="TAca84-d1e1142-Hd1e317" type="question-title">Utrum sit in nobis aliqua lex naturalis</head>
+               <p xml:id="TAca84-d1e1142-d1e320">
+                  <pb ed="#L" n="154"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM SIT IN NOBIS ALIQUA LEX NATURALIS
+</p>
+               <p xml:id="TAca84-d1e1142-d1e331">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>non sit in nobis aliqua lex naturalis.
+<lb ed="#L" n="5"/>dae (à Sufficienter enim homo gubernatur per
+<lb ed="#L" n="6"/>52 Nylegem aeternam: dicit enim Augustinus,
+<lb ed="#L" n="7"/>in I de Lib. Arb., quod lex aeterna est qua iustum
+<lb ed="#L" n="8"/>est ut omnia sint ordinalissima. Sed natura non
+<lb ed="#L" n="9"/>abundat in superfluis, sicut nec deficit in 
+neces<lb break="no" ed="#L" n="10"/>sariis. Ergo non est aliqua lex homini naturalis.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e353">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, per legem ordinatur homo in
+<lb ed="#L" n="12"/>suis actibus ad finem, ut supra habitum est.
+<lb ed="#L" n="13"/>Sed ordinatio humanorum actuum ad finem non
+<lb ed="#L" n="14"/>est per naturam, sicut accidit in creaturis 
+irratio<lb break="no" ed="#L" n="15"/>nabilibus, quae'solo appetitu naturali agunt 
+pro<lb break="no" ed="#L" n="16"/>pter finem: sed agit homo propter finem per 
+ra<lb break="no" ed="#L" n="17"/>tionem et voluntatem. Ergo non est aliqua lex
+<lb ed="#L" n="18"/>homini naturalis.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e374">
+                  <lb ed="#L" n="19"/>3. PRAETEREA, quanto aliquis est liberior, tanto
+<lb ed="#L" n="20"/>minus est sub lege. Sed homo est liberior 
+omni<lb break="no" ed="#L" n="21"/>bus animalibus, propter liberum arbitrium, quod
+<lb ed="#L" n="22"/>prae aliis animalibus habet. Cum igitur alia 
+ani<lb break="no" ed="#L" n="23"/>malia non subdantur legi naturali, nec homo alicui
+<lb ed="#L" n="24"/>legi naturali subditur.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e390">
+                  <lb ed="#L" n="25"/>SED cowTRA EsT quod, Rom. n, super illud,
+<lb ed="#L" n="26"/>Cum gentes, quae legem non habent, naturaliter
+<lb ed="#L" n="27"/>ea quae legis sunt faciunt, dicit Glossa: Etsi
+<lb ed="#L" n="28"/>non habent legem scriptam, habent tamen legem
+<lb ed="#L" n="29"/>naturalem, qua quilibet intelligit et sibi conscius
+<lb ed="#L" n="30"/>est quid sit bonum et quid malum.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e406">
+                  <lb ed="#L" n="31"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="32"/>est, lex, cum sit regula et mensura, dupliciter 
+po<lb break="no" ed="#L" n="33"/>test esse in aliquo: uno modo, sicut in regulante
+<lb ed="#L" n="34"/>et mensurante; alio modo, sicut in regulato et
+<lb ed="#L" n="35"/>mensurato, quia inquantum participat aliquid de
+<lb ed="#L" n="36"/>regula vel mensura, sic regulatur vel mensuratur.
+<lb ed="#L" n="37"/>Unde cum omnia quae divinae providentiae 
+sub<lb break="no" ed="#L" n="38"/>duntur, a lege aeterna regulentur et mensurentur,
+<lb ed="#L" n="39"/>ut ex dictis patet; manifestum est quod omnia
+<lb ed="#L" n="40"/>participant aliqualiter legem aeternam, inquantum
+<lb ed="#L" n="41"/>scilicet ex impressione eius habent inclinationes
+<lb ed="#L" n="42"/>in proprios actus et fines. Inter cetera autem P,
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="43"/>rationalis creatura excellentiori quodam modo 
+di<lb break="no" ed="#L" n="44"/>vinae providentiae subiacet, inquantum et ipsa fit
+<lb ed="#L" n="45"/>providentiae particeps, sibi ipsi et aliis providens.
+<lb ed="#L" n="46"/>Unde et in ipsa participatur ratio aeterna, per
+<lb ed="#L" n="47"/>quam habet naturalem inclinationem ad debitum
+<lb ed="#L" n="48"/>actum et finem. Et talis participatio legis aeternae
+<lb ed="#L" n="49"/>in rationali creatura lex naturalis dicitur. Unde
+<lb ed="#L" n="50"/>cum Psalmista dixisset, Sacrificale sacrificium
+<lb ed="#L" n="51"/>iustitiae, quasi quibusdam quaerentibus quae sunt
+<lb ed="#L" n="52"/>iustitiae opera, subiungit: Multi dicunt, Quis 
+osten<lb break="no" ed="#L" n="53"/>dit nobis bona? cui quaestioni respondens, dicit:
+<lb ed="#L" n="54"/>Signatum est super nos lumen vultus tui, Domine:
+<lb ed="#L" n="55"/>quasi lumen rationis naturalis, quo discernimus
+<lb ed="#L" n="56"/>quid sit bonum et malum ', quod pertinet ad 
+na<lb break="no" ed="#L" n="57"/>turalem legem, nihil aliud sit quam impressio 
+di<lb break="no" ed="#L" n="58"/>vini luminis in nobis. Unde patet quod lex 
+natu<lb break="no" ed="#L" n="59"/>ralis nihil aliud est quam participatio legis aeternae
+<lb ed="#L" n="60"/>in rationali creatura.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e476">
+                  <lb ed="#L" n="61"/>AD PRIMUM ERGO DICENDUM quod ratio illa 
+pro<lb break="no" ed="#L" n="62"/>cederet ?, si lex naturalis esset aliquid diversum
+<lb ed="#L" n="63"/>alege aeterna. Non autem est nisi quaedam 
+par<lb break="no" ed="#L" n="64"/>ticipatio eius, ut dictum est. -
+</p>
+               <p xml:id="TAca84-d1e1142-d1e487">
+                  <lb ed="#L" n="65"/>AD SECUNDUM DICENDUM quod omnis operatio
+<lb ed="#L" n="66"/>rationis et voluntatis derivatur in nobis ab eo
+<lb ed="#L" n="67"/>quod est secundum naturam, ut supra habitum
+<lb ed="#L" n="68"/>est: nam omnis ratiocinatio derivatur a principiis.
+<lb ed="#L" n="69"/>naturaliter notis, et omnis appetitus eorum quae
+<lb ed="#L" n="70"/>sunt ad finemi, derivatur. a naturali appetitu 
+ul<lb break="no" ed="#L" n="71"/>timi finis. Et sic etiam oportet quod prima 
+dire<lb break="no" ed="#L" n="72"/>ctio actuum nostrorum ad finem, fiat per legem
+<lb ed="#L" n="73"/>naturalem.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e509">
+                  <lb ed="#L" n="74"/>AD TERTIUM DICENDUM quod etiam animalia 
+irra<lb break="no" ed="#L" n="75"/>tionalia participant rationem aeternam suo modo,
+<lb ed="#L" n="76"/>sicut et rationalis creatura. Sed quia rationalis
+<lb ed="#L" n="77"/>creatura participat eam intellectualiter et 
+rationa<lb break="no" ed="#L" n="78"/>liter, ideo participatio legis aeternae in creatura
+<lb ed="#L" n="79"/>rationali proprie lex vocatur: nam lex est aliquid
+<lb ed="#L" n="80"/>rationis, ut supra dictum est. In creatura autem
+<lb ed="#L" n="81"/>irrationali non participatur rationaliter: unde non
+<lb ed="#L" n="82"/>potest dici lex nisi per similitudinem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1142-Dd1e532"><!-- p2p1-q91-a3 -->
+               <head xml:id="TAca84-d1e1142-Hd1e535">Articulus 3</head>
+               <head xml:id="TAca84-d1e1142-Hd1e537" type="question-title">Utrum sit aliqua lex humana</head>
+               <p xml:id="TAca84-d1e1142-d1e540">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="83"/>ARTICULUS TERTIUS
+<lb ed="#L" n="84"/>UTRUM SIT ALIQUA LEX HUMANA
+</p>
+               <p xml:id="TAca84-d1e1142-d1e549">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="85"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="86"/>non sit aliqua lex humana. Lex enim
+<lb ed="#L" n="87"/>naturalis est participatio legis aeternae,
+<lb ed="#L" n="88"/>ut dictum est. Sed per legem 
+aeter<lb break="no" ed="#L" n="89"/>nam omnia sunt ordinatissima, ut Augustinus dicit,
+<lb ed="#L" n="90"/>in I de Lib. Arb. Ergo lex naturalis sufficit ad
+<lb ed="#L" n="91"/>omnia humana ordinanda. Non est ergo 
+neces<lb break="no" ed="#L" n="92"/>sarium quod sit aliqua lex humana.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e571">
+                  <lb ed="#L" n="93"/>2. PRAETEREA, lex habet rationem mensurae, ut
+<lb ed="#L" n="94"/>dictum est. Sed ratio humana non est mensura
+<lb ed="#L" n="95"/>rerum, sed potius e converso, ut in X Metaphys.
+<lb ed="#L" n="96"/>dicitur. Ergo ex ratione humana nulla lex 
+proce<lb break="no" ed="#L" n="97"/>dere potest. j
+</p>
+               <p xml:id="TAca84-d1e1142-d1e585">
+                  <lb ed="#L" n="98"/>3. PRAETEREA, mensura debet esse certissima,
+<lb ed="#L" n="99"/>ut dicitur in X Metaphys. Sed dictamen 
+huma<lb break="no" ed="#L" n="100"/>nae rationis de rebus gerendis est incertum; se-
+<pb ed="#L" n="155"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>cundum illud Sap. ix: Cogitationes mortalium
+<lb ed="#L" n="2"/>timidae, et incertae providentiae nostrae. Ergo ex
+<lb ed="#L" n="3"/>ratione humana nulla lex procedere potest.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e605">
+                  <lb ed="#L" n="4"/>SEp coNTRA EsT quod Augustinus, in I de Lib.
+<lb ed="#L" n="5"/>Arb., ponit duas leges, unam aeternam et aliam
+<lb ed="#L" n="6"/>temporalem, quam dicit esse humanam.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e614">
+                  <lb ed="#L" n="7"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="8"/>est, lex est quoddam dictamen practicae rationis.
+<lb ed="#L" n="9"/>Similis autem processus esse invenitur rationis
+<lb ed="#L" n="10"/>practicae et speculativae: utraque enim ex 
+qui<lb break="no" ed="#L" n="11"/>busdam principiis ad quasdam conclusiones 
+pro<lb break="no" ed="#L" n="12"/>cedit, ut superius habitum est. Secundum hoc
+<lb ed="#L" n="13"/>ergo dicendum est quod, sicut in ratione 
+spe<lb break="no" ed="#L" n="14"/>culativa ex principiis indemonstrabilibus 
+natura<lb break="no" ed="#L" n="15"/>liter cognitis producuntur conclusiones 
+diversa<lb break="no" ed="#L" n="16"/>rum scientiarum, quarum cognitio non est nobis
+<lb ed="#L" n="17"/>naturaliter indita, sed per industriam rationis 
+in<lb break="no" ed="#L" n="18"/>venta; ita etiam ex praeceptis legis naturalis,
+<lb ed="#L" n="19"/>quasi ex quibusdam principiis communibus et 
+in<lb break="no" ed="#L" n="20"/>demonstrabilibus, necesse est quod ratio humana
+<lb ed="#L" n="21"/>procedat ad aliqua magis particulariter 
+disponen<lb break="no" ed="#L" n="22"/>da. Et istae particulares dispositiones adinventae
+<lb ed="#L" n="23"/>secundum rationem humanam, dicuntur leges 
+hu<lb break="no" ed="#L" n="24"/>manae, servatis aliis conditionibus quae pertinent
+<lb ed="#L" n="25"/>ad rationem legis, ut supra dictum est. Unde
+<lb ed="#L" n="26"/>et Tullius dicit, in sua Rhetor., quod initium
+<lb ed="#L" n="27"/>duris est a natura. profectum ^; deinde quaedam
+<lb ed="#L" n="28"/>in consuetudinem ex utilitate rationis venerunt;
+<lb ed="#L" n="29"/>postea res ei a natura profectas et a. 
+consuetu<lb break="no" ed="#L" n="30"/>dine probatas legum metus et religio sanxit.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e669">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="31"/>AD PRIMUM ERGO DICENDUM quod ratio humana
+<lb ed="#L" n="32"/>non potest participare ad plenum dictamen 
+ra<lb break="no" ed="#L" n="33"/>tionis divinae, sed suo modo et imperfecte. Et
+<lb ed="#L" n="34"/>ideo sicut ex parte rationis speculativae, per 
+na<lb break="no" ed="#L" n="35"/>turalem participationem divinae sapientiae, inest
+<lb ed="#L" n="36"/>nobis cognitio quorundam communium 
+principio<lb break="no" ed="#L" n="37"/>rum, non autem cuiuslibet veritatis propria 
+co<lb break="no" ed="#L" n="38"/>gnitio, sicut in divina sapientia continetur; ita
+<lb ed="#L" n="39"/>etiam ex parte rationis practicae naturaliter homo
+<lb ed="#L" n="40"/>participat legem aeternam secundum quaedam
+<lb ed="#L" n="41"/>communia principia, non autem secundum 
+par<lb break="no" ed="#L" n="42"/>ticulares directiones singulorum, quae tamen in
+<lb ed="#L" n="43"/>aeterna lege continentur. Et ideo necesse est 
+ul<lb break="no" ed="#L" n="44"/>terius quod ratio humana procedat ad 
+particu<lb break="no" ed="#L" n="45"/>lares quasdam legum sanctiones.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e706">
+                  <lb ed="#L" n="46"/>AD SECUNDUM DICENDUM quod ratio humana 
+se<lb break="no" ed="#L" n="47"/>cundum se non est regula rerum: sed principia
+<lb ed="#L" n="48"/>ei naturaliter indita, sunt quaedam regulae 
+gene<lb break="no" ed="#L" n="49"/>rales et mensurae omnium eorum quae sunt per
+<lb ed="#L" n="50"/>hominem agenda, quorum ratio naturalis est 
+re<lb break="no" ed="#L" n="51"/>gula et mensura, licet non sit mensura eorum
+<lb ed="#L" n="52"/>quae sunt a natura.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e724">
+                  <lb ed="#L" n="53"/>AD TERTIUM DICENDUM quod ratio practica est
+<lb ed="#L" n="54"/>circa operabilia, quae sunt singularia et 
+contin<lb break="no" ed="#L" n="55"/>gentia: non autem circa necessaria, sicut ratio 
+spe<lb break="no" ed="#L" n="56"/>culativa. Et ideo leges humanae non possunt illam
+<lb ed="#L" n="57"/>infallibilitatem habere quam habent conclusiones
+<lb ed="#L" n="58"/>demonstrativae scientiarum. Nec oportet quod
+<lb ed="#L" n="59"/>omnis mensura sit omni modo infallibilis et certa,
+<lb ed="#L" n="60"/>sed secundum quod est possibile in genere suo f.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1142-Dd1e745"><!-- p2p1-q91-a4 -->
+               <head xml:id="TAca84-d1e1142-Hd1e748">Articulus 4</head>
+               <head xml:id="TAca84-d1e1142-Hd1e750" type="question-title">Utrum fuerit necessarium esse aliquam legem divinam</head>
+               <p xml:id="TAca84-d1e1142-d1e753">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="82"/>ARTICULUS QUARTUS
+<lb ed="#L" n="83"/>UTRUM FUERIT NECESSARIUM ESSE ALIQUAM LEGEM DIVINAM
+</p>
+               <p xml:id="TAca84-d1e1142-d1e762">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="84"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="85"/>non fuerit necessarium esse aliquam 
+le<lb break="no" ed="#L" n="86"/>aX gem divinam. Quia, ut dictum est, lex
+<lb ed="#L" n="87"/>Nynaturalis est quaedam participatio legis
+<lb ed="#L" n="88"/>aeternae in. nobis. Sed lex aeterna est lex divina,
+<lb ed="#L" n="89"/>ut dictum est. Ergo non oportet quod praeter
+<lb ed="#L" n="90"/>legem naturalem, et leges humanas ab ea 
+deri<lb break="no" ed="#L" n="91"/>vatas, sit aliqua. alia lex divina.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e784">
+                  <lb ed="#L" n="92"/>2. PRAETEREA, Eccli. xv dicitur quod Deus
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="93"/>dimisit hominem in manu consilii sui. Consilium
+<lb ed="#L" n="94"/>autem est actus rationis, ut supra habitum est.
+<lb ed="#L" n="95"/>Ergo homo ? dimissus est gubernationi suae 
+ra<lb break="no" ed="#L" n="96"/>tionis. Sed dictamen rationis humanae est lex
+<lb ed="#L" n="97"/>humana, ut dictum est. Ergo non oportet quod
+<lb ed="#L" n="98"/>homo: alia lege divina gubernetur.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e805">
+                  <lb ed="#L" n="99"/>3. PRAETEREA, natura humana est sufficientior
+<lb ed="#L" n="100"/>irrationalibus creaturis. Sed irrationales creaturae
+<lb ed="#L" n="101"/>non habent aliquam legem divinam praeter incli-
+<pb ed="#L" n="156"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nationem naturalem eis inditam. Ergo multo 
+mi<lb break="no" ed="#L" n="2"/>nus creatura rationalis debet habere aliquam
+<lb ed="#L" n="3"/>legem divinam praeter naturalem legem.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e825">
+                  <lb ed="#L" n="4"/>SED coNTRA EsT quod David expetit legem a
+<lb ed="#L" n="5"/>Deo sibi poni, dicens: Legem pone mihi, 
+Do<lb break="no" ed="#L" n="6"/>mine, in via iustificationum tuarum.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e834">
+                  <lb ed="#L" n="7"/>RESPONDEO DICENDUM quod praeter legem 
+natu<lb break="no" ed="#L" n="8"/>ralem et legem humanam, necessarium fuit ad
+<lb ed="#L" n="9"/>directionem humanae vitae habere legem 
+divi<lb break="no" ed="#L" n="10"/>nam. Et hoc propter quatuor rationes. Primo 
+qui<lb break="no" ed="#L" n="11"/>dem, quia per legem dirigitur homo ad actus
+<lb ed="#L" n="12"/>proprios in ordine ad ultimum finem. Et si 
+qui<lb break="no" ed="#L" n="13"/>dem homo ordinaretur tantum ad finem qui non
+<lb ed="#L" n="14"/>excederet proportionem naturalis facultatis 
+homi<lb break="no" ed="#L" n="15"/>nis, non oporteret quod homo haberet aliquid
+<lb ed="#L" n="16"/>directivum ex parte rationis, supra legem 
+natu<lb break="no" ed="#L" n="17"/>ralem et legem humanitus ? positam, quae ab ea
+<lb ed="#L" n="18"/>derivatur. Sed quia homo ordinatur ad finem
+<lb ed="#L" n="19"/>beatitudinis aeternae, quae excedit proportionem
+<lb ed="#L" n="20"/>naturalis facultatis humanae, ut supra habitum
+<lb ed="#L" n="21"/>est; ideo necessarium fuit ut supra legem 
+natu<lb break="no" ed="#L" n="22"/>ralem et humanam, dirigeretur etiam ad suum
+<lb ed="#L" n="23"/>finem lege divinitus data.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e873">
+                  <lb ed="#L" n="24"/>Secundo, quia propter incertitudinem humani
+<lb ed="#L" n="25"/>iudicii, praecipue de rebus contingentibus et 
+par<lb break="no" ed="#L" n="26"/>ticularibus, contingit de actibus humanis 
+diverso<lb break="no" ed="#L" n="27"/>rum esse diversa iudicia, ex quibus etiam 
+diver<lb break="no" ed="#L" n="28"/>sae et contrariae leges procedunt. Ut ergo homo
+<lb ed="#L" n="29"/>absque omni dubitatione scire possit quid ei sit
+<lb ed="#L" n="30"/>agendum et quid vitandum, necessarium fuit ut
+<lb ed="#L" n="31"/>in actibus propriis dirigeretur per legem divinitus
+<lb ed="#L" n="32"/>datam, de qua constat quod non potest errare.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e895">
+                  <lb ed="#L" n="33"/>Tertio, quia de his potest homo legem ferre,
+<lb ed="#L" n="34"/>de quibus potest iudicare. Iudicium autem 
+ho<lb break="no" ed="#L" n="35"/>minis esse non potest de interioribus motibus,
+<lb ed="#L" n="36"/>qui latent, sed solum de exterioribus actibus, qui
+<lb ed="#L" n="37"/>apparent. Et tamen ad perfectionem virtutis 
+re<lb break="no" ed="#L" n="38"/>quiritur quod in utrisque actibus homo rectus
+<lb ed="#L" n="39"/>existat. Et ideo lex humana non potuit cohibere
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="40"/>et ordinare sufficienter interiores actus, sed 
+neces<lb break="no" ed="#L" n="41"/>sarium fuit quod ad hoc superveniret lex divina.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e919">
+                  <lb ed="#L" n="42"/>Quarto quia, sicut Augustinus dicit, in I de Lib.
+<lb ed="#L" n="43"/>Arb., lex humana non potest omnia quae male
+<lb ed="#L" n="44"/>fiunt, punire vel prohibere: quia dum auferre
+<lb ed="#L" n="45"/>vellet omnia mala, sequeretur quod etiam multa
+<lb ed="#L" n="46"/>bona tollerentur, et impediretur utilitas boni 
+com<lb break="no" ed="#L" n="47"/>munis, quod est necessarium ad conversationem
+<lb ed="#L" n="48"/>humanam. Ut ergo nullum malum improhibitum
+<lb ed="#L" n="49"/>et impunitum remaneat, necessarium fuit 
+super<lb break="no" ed="#L" n="50"/>venire legem divinam, per quam omnia peccata
+<lb ed="#L" n="51"/>prohibentur.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e944">
+                  <lb ed="#L" n="52"/>Et istae quatuor causae tanguntur in Psalmo
+<lb ed="#L" n="53"/>xvii, ubi dicitur: Lex Domini immaculata, idest
+<lb ed="#L" n="54"/>nullam peccati turpitudinem permittens; 
+conver<lb break="no" ed="#L" n="55"/>tens animas, quia non solum exteriores actus,
+<lb ed="#L" n="56"/>sed etiam interiores dirigit; festimonium Domini
+<lb ed="#L" n="57"/>fidele, propter certitudinem veritatis et 
+rectitudi<lb break="no" ed="#L" n="58"/>nis; sapientiam praestans parvulis, inquantum 
+or<lb break="no" ed="#L" n="59"/>dinat hominem ad supernaturalem finem et 
+di<lb break="no" ed="#L" n="60"/>vinum.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e966">
+                  <lb ed="#L" n="61"/>AD PRIMUM ERGO DICENDUM quod per naturalem
+<lb ed="#L" n="62"/>legem participatur lex aeterna secundum pró
+por<lb break="no" ed="#L" n="63"/>tionem capacitatis humanae naturae. Sed oportet
+<lb ed="#L" n="64"/>ut altiori modo dirigatur homo in ultimum finem —
+<lb ed="#L" n="65"/>supernaturalem. Et ideo superadditur lex divini- ^.
+<lb ed="#L" n="66"/>tus data, per quam lex aeterna participatur 
+al<lb break="no" ed="#L" n="67"/>tiori modo.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e984">
+                  <lb ed="#L" n="68"/>AD SECUNDUM DICENDUM quod consilium est 
+in<lb break="no" ed="#L" n="69"/>quisitio quaedam: unde oportet quod procedat
+<lb ed="#L" n="70"/>ex aliquibus principiis. Nec sufficit quod procedat
+<lb ed="#L" n="71"/>ex principiis naturaliter inditis, quae sunt 
+praece<lb break="no" ed="#L" n="72"/>pta legis naturae, propter praedicta: sed oportet
+<lb ed="#L" n="73"/>quod superaddantur quaedam alia principia, 
+sci<lb break="no" ed="#L" n="74"/>licet praecepta legis divinae.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1002">
+                  <lb ed="#L" n="75"/>AD TERTIUM DICENDUM quod creaturae irrati
+<lb ed="#L" n="76"/>nales non ordinantur ad altiorem finem qua
+<lb ed="#L" n="77"/>sit finis qui est proportionatus naturali virtuti. 
+ipsa<lb break="no" ed="#L" n="78"/>rum. Et ideo non est similis ratio.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1142-Dd1e1014"><!-- p2p1-q91-a5 -->
+               <head xml:id="TAca84-d1e1142-Hd1e1017">Articulus 5</head>
+               <head xml:id="TAca84-d1e1142-Hd1e1019" type="question-title">Utrum lex divina sit una tantum</head>
+               <p xml:id="TAca84-d1e1142-d1e1022">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="79"/>ARTICULUS QUINTUS
+<lb ed="#L" n="80"/>UTRUM LEX DIVINA SIT UNA TANTUM
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1031">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="81"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="82"/>lex divina sit una tantum. Unius enim
+<lb ed="#L" n="83"/>regis in uno regno est una lex. Sed 
+to<lb break="no" ed="#L" n="84"/>tum humanum genus comparatur ad
+<lb ed="#L" n="85"/>Deum sicut ad. unum regem; secundum illud
+<lb ed="#L" n="86"/>Psalmi xrLvi: Rex omnis terrae Deus. Ergo est
+<lb ed="#L" n="87"/>una tantum lex divina.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1051">
+                  <lb ed="#L" n="88"/>2. PRAETEREA, omnis lex ordinatur ad finem
+<lb ed="#L" n="89"/>quem legislator intendit in eis quibus legem fert.
+<lb ed="#L" n="90"/>Sed unum et idem est quod Deus intendit in
+<lb ed="#L" n="91"/>omnibus hominibus; secundum illud I ad 77m. u:
+<lb ed="#L" n="92"/>Vult omnes homines salvos fieri, et ad agnitionem
+<lb ed="#L" n="93"/>veritatis venire. Ergo una tantum est lex divina.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1068">
+                  <lb ed="#L" n="94"/>3. PRAETEREA, lex divina propinquior esse vi-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>detur legi aeternae, quae est una, quam lex 
+natu<lb break="no" ed="#L" n="96"/>ralis, quanto altior est revelatio gratiae qudm 
+co<lb break="no" ed="#L" n="97"/>gnitio naturae. Sed lex naturalis est una omnium
+<lb ed="#L" n="98"/>hominum. Ergo multo magis lex divina. 
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1084">
+                  <lb ed="#L" n="99"/>SED coNrRA ksT quod Apostolus dicit, ad Heb.
+<lb ed="#L" n="100"/>vit: Zranslato sacerdotio, necesse est by,
+<lb ed="#L" n="101"/>translatio fiat. Sed sacerdotium est duplex,
+<lb ed="#L" n="102"/>ibidem dicitur: scilicet sacerdotium Leviticum,
+<lb ed="#L" n="103"/>et sacerdotium Christi. Ergo etiam duplex est lex
+<lb ed="#L" n="104"/>divina: scilicet lex vetus, et lex nova. 
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1100">
+                  <lb ed="#L" n="105"/>RESPONDEO DICENDUM quod, sicut in Primo 
+di<lb break="no" ed="#L" n="106"/>ctum est, distinctio est causa numeri; Dupliciter
+<lb ed="#L" n="107"/>autem inveniuntur aliqua distingui. Uno modo,
+<lb ed="#L" n="108"/>Sicut ea quae sunt omnino specie diversa: ut
+<pb ed="#L" n="157"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>equus et bos. Alio modo, sicut perfectum et 
+im<lb break="no" ed="#L" n="2"/>perfectum in eadem specie: sicut puer et vir.
+<lb ed="#L" n="3"/>Et hoc modo lex divina distinguitur in legem
+<lb ed="#L" n="4"/>veterem et legem novam. Unde. Apostolus, ad
+<lb ed="#L" n="5"/>Gal. i1, comparat statum veteris legis statui
+<lb ed="#L" n="6"/>puerili existenti sub. paedagogo: statum autem
+<lb ed="#L" n="7"/>novae legis comparat statui viri perfecti, qui iam
+<lb ed="#L" n="8"/>non est sub paedagogo.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1133">
+                  <lb ed="#L" n="9"/>Attenditur autem perfectio et imperfectio 
+utri<lb break="no" ed="#L" n="10"/>usque legis secundum tria quae ad legem 
+per<lb break="no" ed="#L" n="11"/>tinent, ut supra dictum est. Primo enim ad
+<lb ed="#L" n="12"/>legem. "pertinet ut ordinetur ad bonum commune
+<lb ed="#L" n="13"/>sicut ad finem, ut supra dictum est. Quod 
+qui<lb break="no" ed="#L" n="14"/>dem potest esse duplex. Scilicet bonum sensibile
+<lb ed="#L" n="15"/>et terrenum: et ad tale bonum ordinabat directe
+<lb ed="#L" n="16"/>lex vetus; unde statim, Exodi un, in principio
+<lb ed="#L" n="17"/>legis, invitatur populus ad regnum terrenum 
+Cha<lb break="no" ed="#L" n="18"/>nanaeorum. Et iterum bonum intelligibile et 
+cae<lb break="no" ed="#L" n="19"/>leste:-et-ad hoc ordinat lex nova. Unde statim
+<lb ed="#L" n="20"/>Christus ad regnum caelorum in suae 
+praedi<lb break="no" ed="#L" n="21"/>cationis. principio invitavit, dicens: Poenitentiam
+<lb ed="#L" n="22"/>agite: appropinquavit enim: regnum | caelorum,
+<lb ed="#L" n="23"/>Matth. iv. Et ideo Augustinus dicit, in IV contra
+<lb ed="#L" n="24"/>Faustum, quod temporalium rerum promissiones
+<lb ed="#L" n="25"/>Testamento 9 veteri continentur, et ideo vetus. 
+ap<lb break="no" ed="#L" n="26"/>pellatur: sed aeternae vitae promissio "à novum
+<lb ed="#L" n="27"/>pertinet. Testamentum.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1177">
+                  <lb ed="#L" n="28"/>Secundo ad legem pertinet dirigere humanos
+<lb ed="#L" n="29"/>actus secundum ordinem iustitiae. In quo etiam
+<lb ed="#L" n="30"/>superabundat lex nova legi veteri, interiores actus
+<lb ed="#L" n="31"/>animi ordinando; secundum illud Matth. v: Nisi
+<lb ed="#L" n="32"/>abundaverit iustitia vestra plus quam Scribarum et
+<lb ed="#L" n="33"/>Pharisaeorum, non intrabitis in regnum caelorum.
+<lb ed="#L" n="34"/>Et ideo dicitur quod /ex vetus — manum,
+<lb ed="#L" n="35"/>lex nova animum.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1197">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="36"/>Tertio ad legem pertinet inducere homines ad
+<lb ed="#L" n="37"/>observantias mandatorum. Et hoc quidem lex 
+<lb ed="#L" n="38"/>vetus faciebat timore poenarum: lex autem nova
+<lb ed="#L" n="39"/>facit hoc per amorem, qui in cordibus nostris 
+in<lb break="no" ed="#L" n="40"/>funditur per gratiam Christi, quae in lege nova
+<lb ed="#L" n="41"/>confertur, sed in lege veteri figurabatur. Et ideo
+<lb ed="#L" n="42"/>dieit Augustinus, Contra Adimantum Manichaei
+<lb ed="#L" n="43"/>Discipulum, quod brevis differentia est Legis et
+<lb ed="#L" n="44"/>Evangelii, timor et amor.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1222">
+                  <lb ed="#L" n="45"/>AD PRIMUM ERGO DICENDUM quod, sicut 
+paterfa<lb break="no" ed="#L" n="46"/>milias in domo alia mandata proponit pueris et
+<lb ed="#L" n="47"/>adultis, ita etiam unus rex Deus, in uno suo regno,
+<lb ed="#L" n="48"/>aliam legem dedit hominibus adhuc imperfectis
+<lb ed="#L" n="49"/>existentibus; et aliam perfectiorem iam 
+manudu<lb break="no" ed="#L" n="50"/>ctis per priorem legem ad maiorem capacitatem
+<lb ed="#L" n="51"/>divinorum.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1240">
+                  <lb ed="#L" n="52"/>AD SECUNDUM DICENDUM quod salus hominum
+<lb ed="#L" n="53"/>non poterat esse nisi per Christum; secundum
+<lb ed="#L" n="54"/>illud. Act. iv: [Non est aliud nomen datum 
+ho<lb break="no" ed="#L" n="55"/>minibus, in quo oporteat nos salvos fieri. Et ideo
+<lb ed="#L" n="56"/>lex perfecte ad salutem omnes inducens, dari
+<lb ed="#L" n="57"/>non potuit nisi post Christi adventum. Antea
+<lb ed="#L" n="58"/>vero dari oportuit populo ex quo Christus erat
+<lb ed="#L" n="59"/>nasciturus, legem praeparatoriam ad Christi 
+su<lb break="no" ed="#L" n="60"/>sceptionem, in qua quaedam rudimenta ! 
+salu<lb break="no" ed="#L" n="61"/>taris iustitiae continerentur.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1264">
+                  <lb ed="#L" n="62"/>Ap TERTIUM DICENDUM quod lex naturalis dirigit
+<lb ed="#L" n="63"/>hominem secundum quaedam praecepta 
+commu<lb break="no" ed="#L" n="64"/>nia, in quibus conveniunt tam perfecti quam 
+im<lb break="no" ed="#L" n="65"/>perfecti: et ideo est una omnium. Sed lex divina
+<lb ed="#L" n="66"/>dirigit hominem etiam in quibusdam 
+particula<lb break="no" ed="#L" n="67"/>ribus, ad quae non similiter se habent perfecti et
+<lb ed="#L" n="68"/>imperfecti. Et ideo oportuit legem divinam esse
+<lb ed="#L" n="69"/>duplicem, sicut iam dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1142-Dd1e1285"><!-- p2p1-q91-a6 -->
+               <head xml:id="TAca84-d1e1142-Hd1e1288">Articulus 6</head>
+               <head xml:id="TAca84-d1e1142-Hd1e1290" type="question-title">Utrum sit aliqua lex fomitis</head>
+               <p xml:id="TAca84-d1e1142-d1e1293">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="70"/>ARTICULUS SEXTUS
+<lb ed="#L" n="71"/>UTRUM SIT ALIQUA LEX FOMITIS
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1302">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="72"/>AD SEXTUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="73"/>non sit aliqua lex fomitis. Dicit enim 
+Isi<lb break="no" ed="#L" n="74"/>dorus, in V Etymol., quod lex ratione
+<lb ed="#L" n="75"/>consistit. Fomes autem non consistit 
+ra<lb break="no" ed="#L" n="76"/>tione, sed magis a ratione deviat. Ergo fomes
+<lb ed="#L" n="77"/>non habet rationem legis.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1320">
+                  <lb ed="#L" n="78"/>2. PRAETEREA, omnis lex obligatoria est, ita
+<lb ed="#L" n="79"/>quod qui ipsam non servant, transgressores 
+di<lb break="no" ed="#L" n="80"/>cuntur. Sed fomes non constituit aliquem 
+trans<lb break="no" ed="#L" n="81"/>gressorem ex hoc quod ipsum non sequitur, sed
+<lb ed="#L" n="82"/>magis transgressor redditur si quis ipsum 
+sequa<lb break="no" ed="#L" n="83"/>tur. Ergo fomes non habet rationem legis.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1337">
+                  <lb ed="#L" n="84"/>3. PRAETEREA, lex ordinatur ad bonum 
+com<lb break="no" ed="#L" n="85"/>mune, ut supra habitum est. Sed fomes non
+<lb ed="#L" n="86"/>inclinat ad bonum commune, sed magis ad bo-
+<cb ed="#L" n="e"/>
+                  <cb ed="#L" n="f"/>num privatum. Ergo fomes non habet rationem
+<lb ed="#L" n="87"/>legis.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1353">
+                  <lb ed="#L" n="88"/>SED cONTRA EsT quod Apostolus dicit, Kom.
+<lb ed="#L" n="89"/>vit:. Video aliam legem in membris meis, 
+repu<lb break="no" ed="#L" n="90"/>gnantem legi mentis meae.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1362">
+                  <lb ed="#L" n="91"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="92"/>est, lex essentialiter invenitur in regulante et 
+men<lb break="no" ed="#L" n="93"/>surante, participative autem in eo quod 
+mensu<lb break="no" ed="#L" n="94"/>ratur et regulatur; ita quod omnis inclinatio vel
+<lb ed="#L" n="95"/>ordinatio quae invenitur in his quae subiecta sunt
+<lb ed="#L" n="96"/>legi, participative dicitur lex, ut ex supradictis 
+<lb ed="#L" n="97"/>patet. Potest autem in his quae subduntur legi,
+<lb ed="#L" n="98"/>aliqua inclinatio inveniri dupliciter a legislatore.
+<lb ed="#L" n="99"/>Uno modo, inquantum directe inclinat suos 
+sub<lb break="no" ed="#L" n="100"/>ditos ad aliquid; et diversos interdum ad diver-
+<pb ed="#L" n="158"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sos actus; secundum quem modum potest. dici
+<lb ed="#L" n="2"/>quod alia est lex militum, et alia est lex 
+mer<lb break="no" ed="#L" n="3"/>catorum. Alio modo, indirecte, inquantum scilicet
+<lb ed="#L" n="4"/>per hoc quod legislator destituit aliquem sibi 
+sub<lb break="no" ed="#L" n="5"/>ditum aliqua dignitate, sequitur quod transeat in
+<lb ed="#L" n="6"/>alium ordinem, et quasi in aliam legem: puta si
+<lb ed="#L" n="7"/>miles ex militia destituatur, transibit in legem 
+ru<lb break="no" ed="#L" n="8"/>sticorum vel mercatorum.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1408">
+                  <lb ed="#L" n="9"/>Sic igitur sub Deo legislatore diversae 
+creatu<lb break="no" ed="#L" n="10"/>rae diversas habent naturales inclinationes, ita
+<lb ed="#L" n="11"/>ut quod uni est quodammodo lex, alteri sit contra
+<lb ed="#L" n="12"/>legem: ut si dicam quod furibundum esse est
+<lb ed="#L" n="13"/>quodammodo lex canis, est autem contra legem
+<lb ed="#L" n="14"/>ovis vel alterius mansueti animalis. Est ergo 
+ho<lb break="no" ed="#L" n="15"/>minis lex, quam sortitur ex ordinatione. divina
+<lb ed="#L" n="16"/>secundum propriam conditionem, ut secundum
+<lb ed="#L" n="17"/>rationem operetur. Quae quidem lex fuit tam 
+va<lb break="no" ed="#L" n="18"/>lida in primo statu, ut nihil vel praeter rationem
+<lb ed="#L" n="19"/>vel contra rationem posset subrepere homini. Sed
+<lb ed="#L" n="20"/>dum homo a Deo recessit, incurrit in hoc quod
+<lb ed="#L" n="21"/>feratur ? secundum impetum sensualitatis:. et 
+uni<lb break="no" ed="#L" n="22"/>cuique etiam particulariter hoc contingit, quanto
+<lb ed="#L" n="23"/>magis a ratione recesserit; ut sic quodammodo
+<lb ed="#L" n="24"/>bestiis assimiletur, quae sensualitatis impetu 
+ferun<lb break="no" ed="#L" n="25"/>tur; secundum illud Psalmi xrviu: omo, cum
+<lb ed="#L" n="26"/>in honore esset, non intellexit: comparatus est 
+iu<lb break="no" ed="#L" n="27"/>mentis insipienlibus, et similis factus est illis.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1452">
+                  <lb ed="#L" n="28"/>Sic igitur ipsa sensualitatis inclinatio, quae 
+fo<lb break="no" ed="#L" n="29"/>mes dicitur, in alis quidem animalibus 
+simpli<lb break="no" ed="#L" n="30"/>citer habet rationem legis, illo tamen modo quo
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="31"/>in talibus lex. dici potest, secundum directam 
+in<lb break="no" ed="#L" n="32"/>clinationem. In hominibus autem secundum hoc
+<lb ed="#L" n="33"/>non habet rationem legis, sed magis est deviatio
+<lb ed="#L" n="34"/>a lege rationis. Sed inquantum per divinam 
+iu<lb break="no" ed="#L" n="35"/>stitiam homo destituitur originali iustitia et vigore
+<lb ed="#L" n="36"/>rationis, ipse impetus sensualitatis qui eum ducit,
+<lb ed="#L" n="37"/>habet rationem legis, inquantum est poenalis et
+<lb ed="#L" n="38"/>ex lege divina consequens, hominem destituente 
+<lb ed="#L" n="39"/>propria dignitate.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1483">
+                  <lb ed="#L" n="40"/>AD PRIMUM ERGO DICENDUM quod ratio illa 
+pro<lb break="no" ed="#L" n="41"/>cedit de fomite secundum se considerato, prout
+<lb ed="#L" n="42"/>inclinat ad malum. Sic enim non habet rationem
+<lb ed="#L" n="43"/>legis, ut dictum est, sed secundum quod 
+sequi<lb break="no" ed="#L" n="44"/>tur ex divinae legis iustitia: tanquam si diceretur
+<lb ed="#L" n="45"/>lex esse quod aliquis nobilis, propter suam 
+cul<lb break="no" ed="#L" n="46"/>pam, ad servilia opera induci permitteretur.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1502">
+                  <lb ed="#L" n="47"/>AD SECUNDUM DICENDUM quod. obiectio illa 
+pro<lb break="no" ed="#L" n="48"/>cedit de eo quod est lex quasi regula et mensura:
+<lb ed="#L" n="49"/>Sic enim deviantes a lege transgressores 
+consti<lb break="no" ed="#L" n="50"/>tuuntur. Sic autem fomes non est lex, sed per
+<lb ed="#L" n="51"/>quandam participationem, ut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e1142-d1e1515">
+                  <lb ed="#L" n="52"/>AD TERTIUM DICENDUM quod ratio illa procedit
+<lb ed="#L" n="53"/>de fomite quantum ad inclinationem propriam;
+<lb ed="#L" n="54"/>non autem quantum ad suam originem. Et tamen
+<lb ed="#L" n="55"/>si consideretur inclinatio sensualitatis prout est in
+<lb ed="#L" n="56"/>alis animalibus, sic ordinatur ad bonum. 
+com<lb break="no" ed="#L" n="57"/>mune, idest ad conservationem naturae in specie
+<lb ed="#L" n="58"/>vel in individuo. Et hoc est etiam. in homine,
+<lb ed="#L" n="59"/>prout sensualitas subditur rationi, Sed fomes 
+di<lb break="no" ed="#L" n="60"/>citur secundum quod exit rationis ordinem.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

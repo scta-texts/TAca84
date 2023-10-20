@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 77</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 77</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="61"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1070"><!-- p2p1-q77 -->
+            <head xml:id="TAca84-d1e1070-Hd1e101">Quaestio 77</head>
+            <head xml:id="TAca84-d1e1070-Hd1e103" type="question-title">De causa peccati ex parte appetitus sensitivi</head>
+            <p xml:id="TAca84-d1e1070-d1e106">
+               <pb ed="#L" n="61"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO SEPTUAGESIMASEPTIMA
+<lb ed="#L" n="2"/>DE CAUSA PECCATI EX PARTE APPETITUS SENSITIVI
+<lb ed="#L" n="3"/>IN OCTO ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1070-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de causa peccati ex
+<lb ed="#L" n="5"/>parte appetitus sensitivi, utrum passio animae
+<lb ed="#L" n="6"/>Sit causa peccati.
+<lb ed="#L" n="7"/>Et circa hoc quaeruntur octo.
+<lb ed="#L" n="8"/>Primo: utrum passio appetitus sensitivi possit
+<lb ed="#L" n="9"/>movere vel inclinare voluntatem.
+<lb ed="#L" n="10"/>Secundo: utrum possit superare rationem 
+con<lb break="no" ed="#L" n="11"/>tra eius scientiam.
+<lb ed="#L" n="12"/>Tertio: utrum peccatum quod ex passione 
+pro<lb break="no" ed="#L" n="13"/>venit, sit peccatum ex infirmitate.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="14"/>Quarto: utrum haec passio quae est amor sui,
+<lb ed="#L" n="15"/>sit causa omnis peccati,
+<lb ed="#L" n="16"/>Quinto: de illis tribus causis quae ponuntur
+<lb ed="#L" n="17"/>I Ioan. it, concupiscentia oculorum, com- vers. ie.
+<lb ed="#L" n="18"/>cupiscentia carnis, et superbia vitae.
+<lb ed="#L" n="19"/>Sexto: utrum passio quae est causa peccati,
+<lb ed="#L" n="20"/>diminuat ipsum.
+<lb ed="#L" n="21"/>Septimo: utrum totaliter excuset.
+<lb ed="#L" n="22"/>Octavo: utrum peccatum quod ex passione
+<lb ed="#L" n="23"/>est, possit esse mortale.
+</p>
+            <div xml:id="TAca84-d1e1070-Dd1e169"><!-- p2p1-q77-a1 -->
+               <head xml:id="TAca84-d1e1070-Hd1e172">Articulus 1</head>
+               <head xml:id="TAca84-d1e1070-Hd1e174" type="question-title">Utrum voluntas moveatur a passione appetitus sensitivi</head>
+               <p xml:id="TAca84-d1e1070-d1e177">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>ARTICULUS PRIMUS
+<lb ed="#L" n="25"/>UTRUM VOLUNTAS MOVEATUR A PASSIONE APPETITUS SENSITIVI
+</p>
+               <p xml:id="TAca84-d1e1070-d1e186">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="26"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="27"/>voluntas non moveatur a passione 
+ap<lb break="no" ed="#L" n="28"/>Ae petitus sensitivi. Nulla enim potentia
+<lb ed="#L" n="29"/>AS Npassiva movetur nisi a suo obiecto. 
+Vo<lb break="no" ed="#L" n="30"/>luntas autem est potentia passiva et activa simul,
+<lb ed="#L" n="31"/>inquantum est movens et^ mota: sicut in III de
+<lb ed="#L" n="32"/>Anima Philosophus dicit universaliter de vi 
+ap<lb break="no" ed="#L" n="33"/>petitiva. Cum ergo obiectum voluntatis non sit
+<lb ed="#L" n="34"/>passio appetitus sensitivi, sed magis bonum 
+ra<lb break="no" ed="#L" n="35"/>tionis; videtur quod passio appetitus sensitivi non
+<lb ed="#L" n="36"/>moveat voluntatem.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e215">
+                  <lb ed="#L" n="37"/>2. PRAETEREA, superior motor non movetur ab
+<lb ed="#L" n="38"/>inferiori: sicut anima non movetur a corpore.
+<lb ed="#L" n="39"/>Sed voluntas, quae est appetitus rationis, 
+com<lb break="no" ed="#L" n="40"/>paratur ad appetitum sensitivum sicut motor 
+su<lb break="no" ed="#L" n="41"/>perior ad inferiorem: dicit enim Philosophus, in
+<lb ed="#L" n="42"/>lI de Anima, quod appetitus rationis movet
+<lb ed="#L" n="43"/>appetitum sensitivum, sicut in corporibus 
+caelesti<lb break="no" ed="#L" n="44"/>bus sphaera movet sphaeram. Ergo voluntas non
+<lb ed="#L" n="45"/>potest moveri a passione appetitus sensitivi.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e238">
+                  <lb ed="#L" n="46"/>3. PRAETEREA, nullum immateriale potest 
+mo<lb break="no" ed="#L" n="47"/>veri ab aliquo materiali. Sed voluntas est 
+quae<lb break="no" ed="#L" n="48"/>dam potentia immaterialis: non enim utitur 
+or<lb break="no" ed="#L" n="49"/>gano corporali, cum sit in ratione, ut dicitur in
+<lb ed="#L" n="50"/>II] de Anima. Appetitus autem sensitivus est
+<lb ed="#L" n="51"/>vis materialis: utpote fundata in organo 
+corpo<lb break="no" ed="#L" n="52"/>rali. Ergo passio appetitus sensitivi non potest
+<lb ed="#L" n="53"/>movere appetitum intellectivum.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e258">
+                  <lb ed="#L" n="54"/>SEp coNTRA EsT quod dicitur Dan. xiu: 
+Con<lb break="no" ed="#L" n="55"/>cupiscentia subvertit cor tuum.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e265">
+                  <lb ed="#L" n="56"/>RESPONDEO DICENDUM quod passio appetitus 
+sen<lb break="no" ed="#L" n="57"/>sitivi non potest directe trahere aut movere 
+vo<lb break="no" ed="#L" n="58"/>luntatem, sed indirecte potest. Et hoc dupliciter.
+<lb ed="#L" n="59"/>Uno quidem modo, secundum quandam abstra-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="60"/>ctionem. Cum enim omnes potentiae animae in
+<lb ed="#L" n="61"/>una essentia animae radicentur, necesse est quod
+<lb ed="#L" n="62"/>quando una potentia intenditur in suo actu, altera
+<lb ed="#L" n="63"/>in suo actu remittatur, vel etiam totaliter ? 
+im<lb break="no" ed="#L" n="64"/>pediatur. Tum quia omnis virtus ad plura 
+dis<lb break="no" ed="#L" n="65"/>persa fit minor: unde e contrario, quando 
+inten<lb break="no" ed="#L" n="66"/>ditur circa unum, minus potest ad alia dispergi.
+<lb ed="#L" n="67"/>Tum quia in operibus animae requiritur 
+quae<lb break="no" ed="#L" n="68"/>dam intentio, quae dum vehementer applicatur
+<lb ed="#L" n="69"/>ad unum, non potest alteri vehementer 
+atten<lb break="no" ed="#L" n="70"/>dere. Et secundum hunc modum, per quandam
+<lb ed="#L" n="71"/>distractionem, quando motus appetitus sensitivi
+<lb ed="#L" n="72"/>fortificatur secundum quamcumque passionem,
+<lb ed="#L" n="73"/>necesse est quod remittatur, vel totaliter 
+impe<lb break="no" ed="#L" n="74"/>diatur motus proprius appetitus rationalis, qui est
+<lb ed="#L" n="75"/>voluntas.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e313">
+                  <lb ed="#L" n="76"/>Alio modo, ex parte obiecti voluntatis, quod
+<lb ed="#L" n="77"/>est bonum ratione apprehensum. Impeditur enim
+<lb ed="#L" n="78"/>iudicium et apprehensio rationis propter 
+vehe<lb break="no" ed="#L" n="79"/>mentem et inordinatam apprehensionem 
+imagina<lb break="no" ed="#L" n="80"/>tionis, et iudicium virtutis aestimativae: ut patet
+<lb ed="#L" n="81"/>in amentibus. Manifestum est autem quod 
+pas<lb break="no" ed="#L" n="82"/>sionem appetitus sensitivi sequitur imaginationis
+<lb ed="#L" n="83"/>apprehensio, et iudicium aestimativae: sicut etiam
+<lb ed="#L" n="84"/>dispositionem linguae sequitur iudicium gustus.
+<lb ed="#L" n="85"/>Unde videmus quod homines in aliqua passione
+<lb ed="#L" n="86"/>existentes, non facile imaginationem avertunt ab
+<lb ed="#L" n="87"/>his circa quae afficiuntur. Unde per consequens
+<lb ed="#L" n="88"/>iudicium rationis plerumque sequitur passionem
+<lb ed="#L" n="89"/>appetitus sensitivi; et per consequens motus 
+vo<lb break="no" ed="#L" n="90"/>luntatis, qui natus est sequi ? iudicium rationis.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e348">
+                  <lb ed="#L" n="91"/>AD PRIMUM ERGO DICENDUM quod per passionem
+<lb ed="#L" n="92"/>appetitus sensitivi fit aliqua immutatio circa 
+iu<lb break="no" ed="#L" n="93"/>dicium de obiecto voluntatis, sicut dictum est;
+<pb ed="#L" n="62"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quamvis ipsa passio appetitus sensitivi non sit 
+<lb ed="#L" n="2"/>directe voluntatis obiectum.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e366">
+                  <lb ed="#L" n="3"/>AD SECUNDUM DICENDUM quod superius. non mo-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="4"/>vetur ab inferiori directe: sed indirecte 
+quodam<lb break="no" ed="#L" n="5"/>modo moveri potest, sicut dictum est.
+<lb ed="#L" n="6"/>Et similiter dicendum est ad tertium.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1070-Dd1e381"><!-- p2p1-q77-a2 -->
+               <head xml:id="TAca84-d1e1070-Hd1e384">Articulus 2</head>
+               <head xml:id="TAca84-d1e1070-Hd1e386" type="question-title">Utrum ratio possit superari a passione contra suam scientiam</head>
+               <p xml:id="TAca84-d1e1070-d1e389">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="50"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="51"/>UTRUM RATIO POSSIT SUPERARI A PASSIONE CONTRA SUAM SCIENTIAM
+</p>
+               <p xml:id="TAca84-d1e1070-d1e398">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="52"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="53"/>ratio non possit superari a passione
+<lb ed="#L" n="54"/>contra suam scientiam. Fortius enim
+<lb ed="#L" n="55"/>non vincitur a debiliori. Sed scientia,
+<lb ed="#L" n="56"/>propter suam certitudinem, est fortissimum eorum
+<lb ed="#L" n="57"/>quae in nobis sunt. Ergo non potest superari a
+<lb ed="#L" n="58"/>passione, quae est debilis et cito transiens.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e418">
+                  <lb ed="#L" n="59"/>2. PRAETEREA, voluntas non est nisi boni vel
+<lb ed="#L" n="60"/>apparentis boni. Sed cum passio trahit 
+volunta<lb break="no" ed="#L" n="61"/>tem in id quod est vere bonum, non inclinat 
+ra<lb break="no" ed="#L" n="62"/>tionem contra scientiam. Cum autem trahit eam
+<lb ed="#L" n="63"/>in id quod est apparens bonum et non existens,
+<lb ed="#L" n="64"/>trahit eam in id quod rationi videtur: hoc autem
+<lb ed="#L" n="65"/>est in scientia rationis, quod ei videtur. Ergo 
+pas<lb break="no" ed="#L" n="66"/>sio nunquam inclinat rationem contra suam 
+scien<lb break="no" ed="#L" n="67"/>tiam.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e441">
+                  <lb ed="#L" n="68"/>3. Si dicatur quod trahit rationem scientem
+<lb ed="#L" n="69"/>aliquid in universali, ut contrarium iudicet in
+<lb ed="#L" n="70"/>particulari, contra: Universalis et particularis 
+pro<lb break="no" ed="#L" n="71"/>positio, si opponantur, opponuntur secundum
+<lb ed="#L" n="72"/>contradictionem, sicut omnis homo et non omnis
+<lb ed="#L" n="73"/>homo. Sed duae opiniones quae sunt 
+contradi<lb break="no" ed="#L" n="74"/>ctoriarum 5, sunt contrariae, ut dicitur in II Per
+<lb ed="#L" n="75"/>Herm. Si igitur aliquis sciens aliquid. in 
+univer<lb break="no" ed="#L" n="76"/>sali, iudicaret oppositum in singulari, sequeretur
+<lb ed="#L" n="77"/>quod haberet simul contrarias opiniones: quod
+<lb ed="#L" n="78"/>est impossibile.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e467">
+                  <lb ed="#L" n="79"/>4. PRAETEREA, quicumque scit universale, scit
+<lb ed="#L" n="80"/>etiam particulare quod novit sub universali 
+con<lb break="no" ed="#L" n="81"/>tineri; sicut quicumque scit omnem mulam esse
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="82"/>sterilem, scit hoc animal esse sterile, dummodo
+<lb ed="#L" n="83"/>sciat quod sit mula; ut patet per id quod dicitur
+<lb ed="#L" n="84"/>in I Poster. Sed ille qui scit aliquid in 
+univer<lb break="no" ed="#L" n="85"/>sali, puta nullam fornicationem esse faciendam,
+<lb ed="#L" n="86"/>scit hoc particulare sub universali contineri, puta
+<lb ed="#L" n="87"/>hunc actum esse fornicarium. Ergo videtur quod
+<lb ed="#L" n="88"/>etiam in particulari sciat.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e493">
+                  <lb ed="#L" n="89"/>5. PRAETEREA, ea quae sunt in voce, sunt signa
+<lb ed="#L" n="90"/>intellectus animae, secundum Philosophum. Sed
+<lb ed="#L" n="91"/>homo in passione existens frequenter confitetur
+<lb ed="#L" n="92"/>id quod eligit esse malum etiam in particulari.
+<lb ed="#L" n="93"/>Ergo etiam in particulari habet scientiam. — Sic
+<lb ed="#L" n="94"/>igitur videtur quod passiones non possint trahere
+<lb ed="#L" n="95"/>rationem contra scientiam universalem: quia non
+<lb ed="#L" n="96"/>potest esse quod habeat scientiam universalem,
+<lb ed="#L" n="97"/>et existimet oppositum in particulari.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e515">
+                  <lb ed="#L" n="98"/>SED CONTRA EST quod dicit Apostolus, Rom. vi:
+<lb ed="#L" n="99"/>Video aliam legem in membris meis 
+repugnan<lb break="no" ed="#L" n="100"/>tem legi mentis meae, et captivantem me in lege
+<lb ed="#L" n="101"/>peccati. Lex autem quae est in membris, est 
+con<lb break="no" ed="#L" n="102"/>cupiscentia, de qua supra locutus fuerat. Cum
+<lb ed="#L" n="103"/>igitur concupiscentia sit passio quaedam, videtur
+<lb ed="#L" n="104"/>quod passio trahat rationem etiam contra hoc
+<lb ed="#L" n="105"/>quod scit.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e535">
+                  <lb ed="#L" n="106"/>RESPONDEO DICENDUM quod opinio Socratis fuit,
+<lb ed="#L" n="107"/>ut Philosophus dicit in VII Ethic., quod scientia
+<lb ed="#L" n="108"/>nunquam posset superari a passione. Unde 
+po<lb break="no" ed="#L" n="109"/>nebat omnes virtutes esse scientias, et omnia
+<lb ed="#L" n="110"/>peccata esse ignorantias. In quo quidem aliqua- vi
+<lb ed="#L" n="111"/>liter recte sapiebat. Quia cum voluntas sit boni
+<pb ed="#L" n="63"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>vel apparentis boni, nunquam voluntas in malum
+<lb ed="#L" n="2"/>moveretur, nisi id quod non est bonum, 
+aliqua<lb break="no" ed="#L" n="3"/>liter rationi bonum appareret ?: et propter hoc
+<lb ed="#L" n="4"/>voluntas nunquam in malum tenderet, nisi cum
+<lb ed="#L" n="5"/>aliqua ignorantia vel errore rationis. Unde dicitur
+<lb ed="#L" n="6"/>Prov. xiv: Errant qui operantur malum. — Sed
+<lb ed="#L" n="7"/>quia experimento patet quod multi agunt contra
+<lb ed="#L" n="8"/>ea quorum scientiam habent; et hoc etiam 
+aucto<lb break="no" ed="#L" n="9"/>ritate divina confirmatur, secundum illud Luc. xiu:
+<lb ed="#L" n="10"/>Servus qui cognovit voluntatem domini sui et non
+<lb ed="#L" n="11"/>fecit, plagis vapulabit multis; et Iac. 1v dicitur:
+<lb ed="#L" n="12"/>Scienti bonum facere et non facienti, peccatum
+<lb ed="#L" n="13"/>est illi: non simpliciter verum dixit, sed oportet
+<lb ed="#L" n="14"/>distinguere, ut Philosophus tradit in VII Ethic. 
+</p>
+               <p xml:id="TAca84-d1e1070-d1e585">
+                  <lb ed="#L" n="15"/>Cum enim ad recte agendum homo dirigatur
+<lb ed="#L" n="16"/>duplici scientia, scilicet universali et particulari;
+<lb ed="#L" n="17"/>utriusque defectus sufficit ad hoc quod 
+impe<lb break="no" ed="#L" n="18"/>diatur rectitudo operis et voluntatis, ut supra 
+<lb ed="#L" n="19"/>dictum est. Contingit igitur quod aliquis habeat
+<lb ed="#L" n="20"/>scientiam in universali, puta nullam fornicationem
+<lb ed="#L" n="21"/>esse faciendam; sed tamen non cognoscat in 
+par<lb break="no" ed="#L" n="22"/>ticulari hunc actum qui est fornicatio, non esse
+<lb ed="#L" n="23"/>faciendum. Et hoc sufficit ad hoc quod voluntas
+<lb ed="#L" n="24"/>non sequatur universalem scientiam rationis. —
+<lb ed="#L" n="25"/>Iterum considerandum est quod nihil prohibet
+<lb ed="#L" n="26"/>aliquid sciri in habitu, quod tamen actu non 
+con<lb break="no" ed="#L" n="27"/>sideratur. Potest igitur contingere quod aliquis
+<lb ed="#L" n="28"/>etiam rectam scientiam habeat in singulari, et non
+<lb ed="#L" n="29"/>solum in universali, sed tamen in actu non 
+con<lb break="no" ed="#L" n="30"/>sideret. Et tunc non videtur difficile quod praeter
+<lb ed="#L" n="31"/>id quod actu non considerat, homo agat.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e625">
+                  <lb ed="#L" n="32"/>Quod autem homo non consideret in 
+particu<lb break="no" ed="#L" n="33"/>lari id quod habitualiter scit, quandoque quidem
+<lb ed="#L" n="34"/>contingit ex solo defectu intentionis: puta cum
+<lb ed="#L" n="35"/>homo sciens geometriam, non intendit ad 
+consi<lb break="no" ed="#L" n="36"/>derandum geometriae conclusiones, quas statim
+<lb ed="#L" n="37"/>in promptu habet considerare. - Quandoque 
+au<lb break="no" ed="#L" n="38"/>tem homo non considerat id quod habet in
+<lb ed="#L" n="39"/>habitu, propter aliquod impedimentum 
+superve<lb break="no" ed="#L" n="40"/>niens: puta propter aliquam occupationem 
+exte<lb break="no" ed="#L" n="41"/>riorem, vel propter aliquam infirmitatem 
+cor<lb break="no" ed="#L" n="42"/>poralem. Et hoc modo ille qui est in passione
+<lb ed="#L" n="43"/>constitutus, non considerat in particulari id quod
+<lb ed="#L" n="44"/>scit in universali, inquantum passio impedit talem
+<lb ed="#L" n="45"/>considerationem.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e658">
+                  <lb ed="#L" n="46"/>Impedit autem tripliciter. Primo, per quandam
+<lb ed="#L" n="47"/>distractionem: sicut supra expositum est. 
+Se<lb break="no" ed="#L" n="48"/>cundo, per contrarietatem: quia plerumque passio
+<lb ed="#L" n="49"/>inclinat ad contrarium huius quod scientia 
+uni<lb break="no" ed="#L" n="50"/>versalis habet. Tertio, per quandam 
+immutatio<lb break="no" ed="#L" n="51"/>nem corporalem, ex qua ratio quodammodo li- | 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="52"/>gatur, ne libere in actum exeat: sicut etiam
+<lb ed="#L" n="53"/>somnus vel ebrietas, quadam corporali 
+transmu<lb break="no" ed="#L" n="54"/>tatione facta, ligant usum rationis. Et quod hoc
+<lb ed="#L" n="55"/>contingat in passionibus, patet ex hoc quod 
+ali<lb break="no" ed="#L" n="56"/>quando, cum passiones multum intenduntur, homo
+<lb ed="#L" n="57"/>amittit totaliter usum rationis: multi enim propter
+<lb ed="#L" n="58"/>abundantiam amoris et irae, sunt in insaniam 
+con<lb break="no" ed="#L" n="59"/>versi, Et per hunc modum passio trahit 
+ratio<lb break="no" ed="#L" n="60"/>nem ad iudicandum in particulari contra 
+scien<lb break="no" ed="#L" n="61"/>tiam quam habet in universali.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e697">
+                  <lb ed="#L" n="62"/>AD PRIMUM ERGO DICENDUM quod scientia 
+univer<lb break="no" ed="#L" n="63"/>salis, quae est certissima, non habet 
+principali<lb break="no" ed="#L" n="64"/>tatem in operatione, sed magis scientia 
+particu<lb break="no" ed="#L" n="65"/>laris: eo quod operationes sunt circa singularia.
+<lb ed="#L" n="66"/>Unde non est mirum si in operabilibus passio
+<lb ed="#L" n="67"/>agit contra scientiam universalem, absente 
+consi<lb break="no" ed="#L" n="68"/>deratione in particulari.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e715">
+                  <lb ed="#L" n="69"/>AD SECUNDUM DICENDUM quod hoc ipsum quod
+<lb ed="#L" n="70"/>rationi videatur in particulari aliquid bonum quod
+<lb ed="#L" n="71"/>non est bonum, contingit ex aliqua passione. Et
+<lb ed="#L" n="72"/>tamen hoc particulare iudicium est contra 
+univer<lb break="no" ed="#L" n="73"/>salem scientiam rationis.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e728">
+                  <lb ed="#L" n="74"/>AD TERTIUM DICENDUM quod non posset 
+contin<lb break="no" ed="#L" n="75"/>gere quod aliquis haberet simul in actu scientiam
+<lb ed="#L" n="76"/>aut opinionem veram de universali affirmativo,
+<lb ed="#L" n="77"/>et opinionem falsam de particulari negativo, aut
+<lb ed="#L" n="78"/>e converso. Sed bene potest contingere quod 
+ali<lb break="no" ed="#L" n="79"/>quis habeat veram scientiam habitualiter de 
+uni<lb break="no" ed="#L" n="80"/>versali affirmativo, et falsam opinionem in actu
+<lb ed="#L" n="81"/>de particulari negativo: actus enim directe non
+<lb ed="#L" n="82"/>contrariatur habitui, sed actui.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e750">
+                  <lb ed="#L" n="83"/>AD QUARTUM DICENDUM quod ille qui habet 
+scien<lb break="no" ed="#L" n="84"/>tiam in universali, propter passionem impeditur
+<lb ed="#L" n="85"/>ne possit sub illa universali sumere, et ad 
+conclu<lb break="no" ed="#L" n="86"/>sionem pervenire: sed assumit sub alia 
+univer<lb break="no" ed="#L" n="87"/>sali, quam suggerit inclinatio passionis, et sub ea
+<lb ed="#L" n="88"/>concludit. Unde Philosophus dicit, in VII Ethic.,
+<lb ed="#L" n="89"/>quod syllogismus incontinentis habet quatuor 
+pro<lb break="no" ed="#L" n="90"/>positiones, duas universales: quarum una est 
+ra<lb break="no" ed="#L" n="91"/>tionis, puta nullam fornicationem esse 
+committen<lb break="no" ed="#L" n="92"/>dam; alia est passionis, puta delectationem esse
+<lb ed="#L" n="93"/>sectandam. Passio igitur ligat rationem ne 
+assu<lb break="no" ed="#L" n="94"/>mat et concludat sub prima: unde, ea durante,
+<lb ed="#L" n="95"/>assumit et concludit sub secunda.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e782">
+                  <lb ed="#L" n="96"/>AD QUINTUM DICENDUM quod, sicut ebrius 
+quan<lb break="no" ed="#L" n="97"/>doque proferre potest verba significantia 
+profun<lb break="no" ed="#L" n="98"/>das sententias, quas tamen mente diiudicare non
+<lb ed="#L" n="99"/>potest, ebrietate prohibente; ita in passione 
+exi<lb break="no" ed="#L" n="100"/>stens, etsi ore proferat hoc non esse faciendum,
+<lb ed="#L" n="101"/>tamen interius hoc animo sentit quod sit 
+facien<lb break="no" ed="#L" n="102"/>dum, ut dicitur in VII Ethic. 
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1070-Dd1e801"><!-- p2p1-q77-a3 -->
+               <head xml:id="TAca84-d1e1070-Hd1e804">Articulus 3</head>
+               <head xml:id="TAca84-d1e1070-Hd1e806" type="question-title">Utrum peccatum quod est ex passione, debeat dici ex infirmitate</head>
+               <p xml:id="TAca84-d1e1070-d1e809">
+                  <pb ed="#L" n="65"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM PECCATUM QUOD EST EX PASSIONE, DEBEAT DICI EX INFIRMITATE
+</p>
+               <p xml:id="TAca84-d1e1070-d1e820">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>peccatum quod est ex passione, non 
+de<lb break="no" ed="#L" n="5"/>beat dici ex infirmitate. Passio enim est
+<lb ed="#L" n="6"/>quidam vehemens motus appetitus 
+sen<lb break="no" ed="#L" n="7"/>sitivi, ut dictum est. Vehementia. autem motus
+<lb ed="#L" n="8"/>magis attestatur fortitudini quam infirmitati, Ergo
+<lb ed="#L" n="9"/>peccatum quod est ex passione, non debet dici
+<lb ed="#L" n="10"/>ex infirmitate.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e842">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, infirmitas hominis maxime 
+atten<lb break="no" ed="#L" n="12"/>ditur secundum illud quod est in eo fragilius. Hoc
+<lb ed="#L" n="13"/>autem est caro: unde dicitur in Psalmo Lxxvir:
+<lb ed="#L" n="14"/>Recordatus est quia caro sunt. Ergo magis debet dici
+<lb ed="#L" n="15"/>peccatum ex infirmitate quod est ex aliquo 
+corpo<lb break="no" ed="#L" n="16"/>ris defectu, quam quod est ex animae passione.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e859">
+                  <lb ed="#L" n="17"/>3. PRAETEREA, ad ea non videtur homo esse 
+in<lb break="no" ed="#L" n="18"/>firmus, quae eius voluntati subduntur. Sed facere
+<lb ed="#L" n="19"/>vel non facere ea ad quae passio inclinat, 
+ho<lb break="no" ed="#L" n="20"/>minis voluntati subditur: secundum illud Gen.iv:
+<lb ed="#L" n="21"/>Sub te erit appetitus tuus, et tu dominaberis illius.
+<lb ed="#L" n="22"/>Ergo peccatum quod est ex passione, non est ex
+<lb ed="#L" n="23"/>infirmitate.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e877">
+                  <lb ed="#L" n="24"/>SED coNTRA EsT quod Tullius, in IV libro de
+<lb ed="#L" n="25"/>Tuscul. Quaest., passiones animae aegritudines
+<lb ed="#L" n="26"/>vocat. Aegritudines autem alio nomine 
+infirmi<lb break="no" ed="#L" n="27"/>tates dicuntur. Ergo peccatum quod est ex 
+pas<lb break="no" ed="#L" n="28"/>sione, debet dici ex infirmitate.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e890">
+                  <lb ed="#L" n="29"/>RESPONDEO DICENDUM quod causa peccati 
+pro<lb break="no" ed="#L" n="30"/>pria est ex parte animae, in qua principaliter est
+<lb ed="#L" n="31"/>peccatum. Potest autem dici infirmitas in anima
+<lb ed="#L" n="32"/>ad similitudinem infirmitatis corporis. Dicitur 
+au<lb break="no" ed="#L" n="33"/>tem corpus hominis esse infirmum, quando 
+de<lb break="no" ed="#L" n="34"/>bilitatur vel impeditur in executione propriae 
+ope<lb break="no" ed="#L" n="35"/>rationis, propter aliquam inordinationem partium
+<lb ed="#L" n="36"/>corporis, ita scilicet quod humores et membra
+<lb ed="#L" n="37"/>hominis non subduntur virtuti regitivae et motivae
+<lb ed="#L" n="38"/>corporis. Unde et membrum dicitur esse 
+infir<lb break="no" ed="#L" n="39"/>mum, quando non potest perficere operationem
+<lb ed="#L" n="40"/>membri sani: sicut oculus quando non potest clare
+<lb ed="#L" n="41"/>videre, ut dicit Philosophus, in X de Historiis Ani-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="42"/>malium. Unde et infirmitas animae dicitur quando
+<lb ed="#L" n="43"/>impeditur anima in propria operatione, propter
+<lb ed="#L" n="44"/>inordinationem partium ipsius.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e929">
+                  <lb ed="#L" n="45"/>Sicut autem partes corporis dicuntur esse 
+in<lb break="no" ed="#L" n="46"/>ordinatae, quando non sequuntur ordinem 
+na<lb break="no" ed="#L" n="47"/>turae; ita et partes animae dicuntur inordinatae,
+<lb ed="#L" n="48"/>quando non subduntur ordini rationis: ratio enim
+<lb ed="#L" n="49"/>est vis regitiva partium animae. Sic ergo quando
+<lb ed="#L" n="50"/>extra ordinem rationis vis concupiscibilis aut 
+ira<lb break="no" ed="#L" n="51"/>scibilis aliqua passione afficitur, et per hoc 
+im<lb break="no" ed="#L" n="52"/>pedimentum praestatur modo praedicto debitae
+<lb ed="#L" n="53"/>actioni hominis, dicitur peccatum esse ex 
+infir<lb break="no" ed="#L" n="54"/>mitate. Unde et Philosophus, in I Ethic., 
+com<lb break="no" ed="#L" n="55"/>parat incontinentem paralytico, cuius partes 
+mo<lb break="no" ed="#L" n="56"/>ventur in contrarium eius quod ipse disponit.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e958">
+                  <lb ed="#L" n="57"/>AD PRIMUM ERGO DICENDUM quod, sicut quanto
+<lb ed="#L" n="58"/>fuerit motus fortior in corpore praeter ordinem
+<lb ed="#L" n="59"/>naturae, tanto est maior infirmitas; ita. quanto
+<lb ed="#L" n="60"/>fuerit motus fortior passionis praeter ordinem 
+ra<lb break="no" ed="#L" n="61"/>tionis, tanto est maior infirmitas animae.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e971">
+                  <lb ed="#L" n="62"/>AD SECUNDUM DICENDUM quod peccatum 
+princi<lb break="no" ed="#L" n="63"/>paliter consistit in actu voluntatis, qui non 
+im<lb break="no" ed="#L" n="64"/>peditur per corporis infirmitatem: potest enim
+<lb ed="#L" n="65"/>qui est corpore infirmus, promptam habere 
+vo<lb break="no" ed="#L" n="66"/>luntatem ad aliquid faciendum. Impeditur autem
+<lb ed="#L" n="67"/>per passionem, ut supra dictum est. Unde cum
+<lb ed="#L" n="68"/>dicitur peccatum esse ex infirmitate, magis est
+<lb ed="#L" n="69"/>referendum ad infirmitatem animae quam ad 
+in<lb break="no" ed="#L" n="70"/>firmitatem corporis. - Dicitur tamen etiam ipsa
+<lb ed="#L" n="71"/>infirmitas animae infirmitas carnis, inquantum ex
+<lb ed="#L" n="72"/>condititione carnis passiones animae insurgunt in
+<lb ed="#L" n="73"/>nobis, eo quod appetitus sensitivus est virtus utens
+<lb ed="#L" n="74"/>organo corporali.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1003">
+                  <lb ed="#L" n="75"/>AD TERTIUM DICENDUM quod in potestate quidem
+<lb ed="#L" n="76"/>voluntatis est assentire vel non assentire his in
+<lb ed="#L" n="77"/>quae passio inclinat: et pro tanto dicitur noster
+<lb ed="#L" n="78"/>appetitus sub nobis esse. Sed tamen ipse assensus
+<lb ed="#L" n="79"/>vel dissensus voluntatis impeditur per passionem,
+<lb ed="#L" n="80"/>modo praedicto,
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1070-Dd1e1020"><!-- p2p1-q77-a4 -->
+               <head xml:id="TAca84-d1e1070-Hd1e1023">Articulus 4</head>
+               <head xml:id="TAca84-d1e1070-Hd1e1025" type="question-title">Utrum amor sui sit principium omnis peccati</head>
+               <p xml:id="TAca84-d1e1070-d1e1028">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="81"/>ARTICULUS QUARTUS
+<lb ed="#L" n="82"/>UTRUM AMOR SUI SIT PRINCIPIUM OMNIS PECCATI
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1037">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="83"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="84"/>amor sui non sit principium omnis 
+pec<lb break="no" ed="#L" n="85"/>cati. Id enim quod est secundum se 
+bo<lb break="no" ed="#L" n="86"/>num et debitum, non est propria causa
+<lb ed="#L" n="87"/>peccati. Sed amor sui est secundum se bonum
+<lb ed="#L" n="88"/>et debitum: unde et praecipitur homini ut diligat
+<lb ed="#L" n="89"/>proximum sicut seipsum, Levit. xix. Ergo amor
+<lb ed="#L" n="90"/>sui non potest esse propria causa peccati.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1059">
+                  <lb ed="#L" n="91"/>2. PRAETEREA, Apostolus dicit, Rom. vir: 
+Oc<lb break="no" ed="#L" n="92"/>casione accepia, peccatum per mandatum opera-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="93"/>tum est in me omnem concupiscentiam: ubi Glossa 
+<lb ed="#L" n="94"/>dicit quod Pona est lex, quae, dum 
+concupiscen<lb break="no" ed="#L" n="95"/>tiam prohibet, omne malum prohibet: quod dicitur
+<lb ed="#L" n="96"/>propter hoc, quia concupiscentia est causa omnis
+<lb ed="#L" n="97"/>peccati. Sed concupiscentia est alia passio ab
+<lb ed="#L" n="98"/>amore, ut supra habitum est. Ergo amor sui
+<lb ed="#L" n="99"/>non est causa omnis peccati.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1084">
+                  <lb ed="#L" n="100"/>3. PRAETEREA, Augustinus, super illud Psalmi,
+<lb ed="#L" n="101"/>Incensa igni et suffossa, dicit quod omne 
+pecca<lb break="no" ed="#L" n="102"/>tum est ex amore male inflammante, vel ex ti-
+<pb ed="#L" n="66"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>more male humiliante. Non ergo solus amor sui
+<lb ed="#L" n="2"/>est causa peccati.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1102">
+                  <lb ed="#L" n="3"/>4. PRAETEREA, sicut homo quandoque peccat
+<lb ed="#L" n="4"/>propter inordinatum sui amorem, ita etiam 
+in<lb break="no" ed="#L" n="5"/>terdum peccat propter inordinatum amorem 
+pro<lb break="no" ed="#L" n="6"/>ximi. Ergo amor sui non est causa omnis peccati.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1113">
+                  <lb ed="#L" n="7"/>SED coNTRA EST quod Augustinus dicit, XIV de
+<lb ed="#L" n="8"/>Civ. Dei, quod amor sui usque ad contemptum
+<lb ed="#L" n="9"/>Dei, facit civitatem Babylonis. Sed per quodlibet
+<lb ed="#L" n="10"/>peccatum pertinet homo ad civitatem Babylonis.
+<lb ed="#L" n="11"/>Ergo amor sui est causa omnis peccati.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1126">
+                  <lb ed="#L" n="12"/>REsPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="13"/>est, propria et per se causa peccati accipienda est
+<lb ed="#L" n="14"/>ex parte conversionis ad commutabile bonum;
+<lb ed="#L" n="15"/>ex qua quidem parte omnis actus peccati procedit
+<lb ed="#L" n="16"/>ex aliquo inordinato appetitu alicuius temporalis
+<lb ed="#L" n="17"/>boni. Quod autem aliquis appetat inordinate 
+ali<lb break="no" ed="#L" n="18"/>quod temporale bonum, procedit ex hoc quod
+<lb ed="#L" n="19"/>inordinate amat seipsum: hoc enim est amare
+<lb ed="#L" n="20"/>aliquem, velle ei bonum. Unde manifestum est
+<lb ed="#L" n="21"/>quod inordinatus amor sui est causa omnis 
+pec<lb break="no" ed="#L" n="22"/>cati.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1152">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="23"/>AD PRIMUM ERGO DICENDUM quod amor sui 
+or<lb break="no" ed="#L" n="24"/>dinatus est debitus et naturalis, ita scilicet quod
+<lb ed="#L" n="25"/>velit sibi bonum quod congruit. Sed amor sui 
+in<lb break="no" ed="#L" n="26"/>ordinatus, qui perducit ad contemptum Dei, 
+po<lb break="no" ed="#L" n="27"/>nitur esse causa peccati secundum Augustinum.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1168">
+                  <lb ed="#L" n="28"/>AD SECUNDUM DICENDUM quod concupiscentia, qua
+<lb ed="#L" n="29"/>aliquis appetit sibi bonum, reducitur ad amorem
+<lb ed="#L" n="30"/>sui Sicut ad causam, ut iam dictum est.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1178">
+                  <lb ed="#L" n="31"/>AD TERTIUM DICENDUM quod aliquis dicitur amare
+<lb ed="#L" n="32"/>et illud bonum quod optat sibi, et se, cui bonum
+<lb ed="#L" n="33"/>optat. Amor igitur secundum quod dicitur eius
+<lb ed="#L" n="34"/>esse quod optatur, puta quod aliquis dicitur amare
+<lb ed="#L" n="35"/>vinum vel pecuniam, recipit pro causa timorem,
+<lb ed="#L" n="36"/>qui pertinet ad fugam mali. Omne enim 
+pecca<lb break="no" ed="#L" n="37"/>tum provenit vel ex inordinato appetitu alicuius
+<lb ed="#L" n="38"/>boni, vel ex inordinata fuga alicuius mali. Sed
+<lb ed="#L" n="39"/>utrumque horum reducitur ad amorem sui. 
+Pro<lb break="no" ed="#L" n="40"/>pter hoc enim homo vel appetit bona vel fugit
+<lb ed="#L" n="41"/>mala, quia amat seipsum.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1204">
+                  <lb ed="#L" n="42"/>AD QUARTUM DICENDUM quod amicus est quasi
+<lb ed="#L" n="43"/>alter ipse. Et ideo quod peccatur propter 
+amo<lb break="no" ed="#L" n="44"/>rem amici, videtur propter amorem sui peccari.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1070-Dd1e1214"><!-- p2p1-q77-a5 -->
+               <head xml:id="TAca84-d1e1070-Hd1e1217">Articulus 5</head>
+               <head xml:id="TAca84-d1e1070-Hd1e1219" type="question-title">Utrum convenienter ponantur causae peccatorum concupiscentia carnis,
+    concupiscentia oculorum, et superbia vitae</head>
+               <p xml:id="TAca84-d1e1070-d1e1222">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="45"/>ARTICULUS QUINTUS
+<lb ed="#L" n="46"/>UTRUM CONVENIENTER PONANTUR CAUSAE PECCATORUM CONCUPISCENTIA CARNIS,
+<lb ed="#L" n="47"/>CONCUPISCENTIA OCULORUM, ET SUPERBIA VITAE
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1233">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="48"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="49"/>inconvenienter ponantur causae 
+pecca<lb break="no" ed="#L" n="50"/>torum esse concupiscentia carnis, 
+con<lb break="no" ed="#L" n="51"/>cupiscentia oculorum, et superbia vitae.
+<lb ed="#L" n="52"/>Quia secundum Apostolum, I ad 77m. ult., radix
+<lb ed="#L" n="53"/>omnium malorum est cupiditas. Sed superbia vitae
+<lb ed="#L" n="54"/>sub cupiditate non continetur. Ergo non oportet
+<lb ed="#L" n="55"/>poni inter causas peccatorum.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1255">
+                  <lb ed="#L" n="56"/>PRAETEREA, concupiscentia carnis maxime
+<lb ed="#L" n="57"/>ex visione oculorum excitatur: secundum illud
+<lb ed="#L" n="58"/>Dan. xiu: Species decepit te. Ergo. non debet
+<lb ed="#L" n="59"/>dividi concupiscentia oculorum contra 
+concupi<lb break="no" ed="#L" n="60"/>scentiam carnis.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1269">
+                  <lb ed="#L" n="61"/>3. PRAETEREA, concupiscentia est delectabilis
+<lb ed="#L" n="62"/>appetitus, ut supra habitum est. Delectationes
+<lb ed="#L" n="63"/>autem contingunt non solum secundum visum,
+<lb ed="#L" n="64"/>sed etiam secundum alios sensus. Ergo deberet
+<lb ed="#L" n="65"/>etiam poni concupiscentia auditus, et aliorum 
+sen<lb break="no" ed="#L" n="66"/>suum.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1285">
+                  <lb ed="#L" n="67"/>4. PRAETEREA, sicut homo inducitur ad 
+peccan<lb break="no" ed="#L" n="68"/>dum ex inordinata concupiscentia boni, ita etiam
+<lb ed="#L" n="69"/>ex inordinata fuga mali, ut dictum est. Sed nihil
+<lb ed="#L" n="70"/>hic enumeratur pertinens ad fugam mali. Ergo
+<lb ed="#L" n="71"/>insufficienter causae peccatorum tanguntur.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1298">
+                  <lb ed="#L" n="72"/>SEp coNTRA EsT quod dicitur I Ioan. it: Omne
+<lb ed="#L" n="73"/>quod est in mundo, aut est concupiscentia carnis,
+<lb ed="#L" n="74"/>aut concupiscentia oculorum, aut superbia vitae.
+<lb ed="#L" n="75"/>In mundo autem dicitur aliquid esse propter 
+pec<lb break="no" ed="#L" n="76"/>catum: unde et ibidem dicit quod fotus mundus
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="77"/>in maligno positus est. Ergo praedicta tria sunt
+<lb ed="#L" n="78"/>causae peccatorum.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1318">
+                  <lb ed="#L" n="79"/>RESPONDEO DICENDUM quod, sicut iam dint
+<lb ed="#L" n="80"/>est, inordinatus amor sui est causa omnis peccati.
+<lb ed="#L" n="81"/>In amore autem sui includitur inordinatus 
+appe<lb break="no" ed="#L" n="82"/>titus boni: unusquisque enim appetit bonum ei
+<lb ed="#L" n="83"/>quem amat. Unde manifestum est quod 
+inordi<lb break="no" ed="#L" n="84"/>natus appetitus boni est causa omnis peccati, 
+Bo<lb break="no" ed="#L" n="85"/>num autem dupliciter est obiectum sensibilis 
+ap<lb break="no" ed="#L" n="86"/>petitus, in quo sunt animae passiones, quae sunt
+<lb ed="#L" n="87"/>causa peccati; uno modo, absolute, secundum
+<lb ed="#L" n="88"/>quod est obiectum concupiscibilis; a alio modo,
+<lb ed="#L" n="89"/>sub ratione ardui, prout est obiectum irascibilis,
+<lb ed="#L" n="90"/>ut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1347">
+                  <lb ed="#L" n="91"/>Est autem duplex concupiscentia, sicut supra 
+<lb ed="#L" n="92"/>habitum est. Una quidem naturalis, quae est eorum
+<lb ed="#L" n="93"/>quibus natura corporis sustentatur; sive quantum
+<lb ed="#L" n="94"/>ad conservationem individui, sicut cibus et potus
+<lb ed="#L" n="95"/>et alia huiusmodi; sive quantum ad 
+conservatio<lb break="no" ed="#L" n="96"/>nem speciei, sicut in venereis. Et horum 
+inordi<lb break="no" ed="#L" n="97"/>natus appetitus dicitur concupiscentia carnis. - Alia
+<lb ed="#L" n="98"/>est concupiscerttia animalis, eorum scilicet quae
+<lb ed="#L" n="99"/>per sensum carnis sustentationem aut 
+delectatio<lb break="no" ed="#L" n="100"/>nem non afferunt, sed sunt delectabilia secundum
+<lb ed="#L" n="101"/>apprehensionem imaginationis, aut alicuius 
+huius<lb break="no" ed="#L" n="102"/>modi acceptionis: sicut sunt pecunia, ornatus
+<lb ed="#L" n="103"/>vestium, et alia huiusmodi. Et haec quidem 
+ani<lb break="no" ed="#L" n="104"/>malis concupiscentia vocatur concupiscentia 
+ocu<lb break="no" ed="#L" n="105"/>lorum: sive intelligatur concupiscentia oculorum ?,
+<pb ed="#L" n="67"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>idest ipsius visionis, quae fit per oculos, ut 
+refe<lb break="no" ed="#L" n="2"/>ratur ad suriasitetem, secundum quod Augustinus
+<lb ed="#L" n="3"/>exponit, X Confess.; sive referatur ad 
+concupi<lb break="no" ed="#L" n="4"/>scentiam rerum quae exterius oculis proponuntur,
+<lb ed="#L" n="5"/>ut referatur ad cupiditatem, secundum quod ab
+<lb ed="#L" n="6"/>aliis exponitur. - Appetitus autem inordinatus boni
+<lb ed="#L" n="7"/>ardui pertinet ad superbiam vitae: nam superbia
+<lb ed="#L" n="8"/>est appetitus inordinatus excellentiae, ut inferius 
+<lb ed="#L" n="9"/>dicetur.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1406">
+                  <lb ed="#L" n="10"/>Et sic patet quod ad ista tria reduci possunt
+<lb ed="#L" n="11"/>omnes passiones, quae sunt causa peccati. Nam
+<lb ed="#L" n="12"/>ad duo prima reducuntur omnes passiones 
+con<lb break="no" ed="#L" n="13"/>cupiscibilis: ad. tertium autem omnes passiones
+<lb ed="#L" n="14"/>irascibilis; quod ideo non dividitur in duo, quia
+<lb ed="#L" n="15"/>omnes passiones irascibilis conformantur 
+con<lb break="no" ed="#L" n="16"/>cupiscentiae animali.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1425">
+                  <lb ed="#L" n="17"/>AD PRIMUM ERGO DICENDUM quod. secundum quod
+<lb ed="#L" n="18"/>cupiditas importat universaliter appetitum 
+cuius<lb break="no" ed="#L" n="19"/>cumque boni, sic etiam superbia vitae continetur
+<lb ed="#L" n="20"/>sub cupiditate. Quomodo autem cupiditas, secun-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="21"/>dum quod est speciale vitium, quod avaritia 
+no<lb break="no" ed="#L" n="22"/>minatur, sit radix omnium peccatorum, infra 
+<lb ed="#L" n="23"/>dicetur.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1445">
+                  <lb ed="#L" n="24"/>AD SECUNDUM DICENDUM quod concupiscentia 
+ocu<lb break="no" ed="#L" n="25"/>lorum non dicitur hic concupiscentia omnium 
+re<lb break="no" ed="#L" n="26"/>rum quae oculis videri possunt: sed solum earum
+<lb ed="#L" n="27"/>in quibus non quaeritur delectatio carnis, quae
+<lb ed="#L" n="28"/>est secundum tactum, sed solum delectatio oculi,
+<lb ed="#L" n="29"/>idest cuiuscumque apprehensivae virtutis.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1461">
+                  <lb ed="#L" n="30"/>AD TERTIUM DICENDUM quod sensus visus est 
+ex<lb break="no" ed="#L" n="31"/>cellentior inter omnes sensus ?, et ad plura se
+<lb ed="#L" n="32"/>extendens, ut dicitur in I Metaphys. Et ideo
+<lb ed="#L" n="33"/>nomen eius transfertur ad omnes alios sensus, et
+<lb ed="#L" n="34"/>etiam ad omnes interiores apprehensiones, ut 
+Au<lb break="no" ed="#L" n="35"/>gustinus dicit, in libro de Verbis Domini.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1477">
+                  <lb ed="#L" n="36"/>AD QUARTUM DICENDUM quod fuga mali causatur
+<lb ed="#L" n="37"/>ex appetitu boni, ut supra dictum est. Et ideo
+<lb ed="#L" n="38"/>ponuntur solum passiones inclinantes ad bonum,
+<lb ed="#L" n="39"/>tanquam causae earum quae faciunt inordinate
+<lb ed="#L" n="40"/>fugam mali.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1070-Dd1e1491"><!-- p2p1-q77-a6 -->
+               <head xml:id="TAca84-d1e1070-Hd1e1494">Articulus 6</head>
+               <head xml:id="TAca84-d1e1070-Hd1e1496" type="question-title">Utrum peccatum allevietur propter passionem</head>
+               <p xml:id="TAca84-d1e1070-d1e1499">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="41"/>ARTICULUS SEXTUS
+<lb ed="#L" n="42"/>UTRUM PECCATUM ALLEVIETUR PROPTER PASSIONEM
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1508">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="43"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="44"/>peccatum non allevietur propter 
+pas<lb break="no" ed="#L" n="45"/>sionem. Augmentum enim causae auget
+<lb ed="#L" n="46"/>effectum: si enim calidum dissolvit, 
+ma<lb break="no" ed="#L" n="47"/>gis calidum magis dissolvit. Sed passio est causa
+<lb ed="#L" n="48"/>peccati, ut habitum est. Ergo quanto est 
+inten<lb break="no" ed="#L" n="49"/>sior passio, tanto est maius peccatum. Passio
+<lb ed="#L" n="50"/>igitur non minuit peccatum, sed auget.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1530">
+                  <lb ed="#L" n="51"/>2. PRAETEREA, sicut se habet passio bona ad
+<lb ed="#L" n="52"/>meritum, ita se habet mala passio ad peccatum.
+<lb ed="#L" n="53"/>Sed.bona passio auget meritum: tanto enim 
+ali<lb break="no" ed="#L" n="54"/>quis magis videtur mereri, quanto ex maiori 
+mise<lb break="no" ed="#L" n="55"/>ricordia pauperi subvenit. Ergo etiam mala passio
+<lb ed="#L" n="56"/>magis aggravat peccatum quam alleviet.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1547">
+                  <lb ed="#L" n="57"/>3. PnaETEREA, quanto intensiori voluntate 
+ali<lb break="no" ed="#L" n="58"/>quia facit peccatum, tanto gravius videtur peccare.
+<lb ed="#L" n="59"/>Sed passio impellens voluntatem, facit eam 
+ve<lb break="no" ed="#L" n="60"/>hementius ferri in actum peccati. Ergo passio
+<lb ed="#L" n="61"/>aggravat peccatum.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1560">
+                  <lb ed="#L" n="62"/>SED cONTRA, passio ipsa concupiscentiae 
+voca<lb break="no" ed="#L" n="63"/>tur tentatio carnis. Sed quanto aliquis ens
+<lb ed="#L" n="64"/>tentatione prosternitur, tanto minus peccat,
+<lb ed="#L" n="65"/>patet per Augustinum. Ergo passio diminuit e
+<lb ed="#L" n="66"/>catum.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1573">
+                  <lb ed="#L" n="67"/>RESPONDEO DICENDUM quod peccatum 
+essentia<lb break="no" ed="#L" n="68"/>liter consistit in actu liberi arbitrii, quod est 
+facul<lb break="no" ed="#L" n="69"/>tas voluntatis et rationis. Passio autem est 
+mo<lb break="no" ed="#L" n="70"/>tus appetitus sensitivi. Appetitus autem sensitivus
+<lb ed="#L" n="71"/>potest se habere ad liberum arbitrium et 
+ante<lb break="no" ed="#L" n="72"/>cedenter, et consequenter. Antecedenter quidem,
+<lb ed="#L" n="73"/>secundum quod passio appetitus sensitivi trahit
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="74"/>vel inclinat rationem et voluntatem, ut supra 
+<lb ed="#L" n="75"/>dictum est. Consequenter autem, secundum quod
+<lb ed="#L" n="76"/>motus superiorum virium, si sint vehementes, 
+re<lb break="no" ed="#L" n="77"/>dundant in inferiores: non enim potest voluntas
+<lb ed="#L" n="78"/>intense moveri in aliquid, quin excitetur aliqua
+<lb ed="#L" n="79"/>passio in appetitu sensitivo.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1606">
+                  <lb ed="#L" n="80"/>Si igitur accipiatur passio secundum quod 
+prae<lb break="no" ed="#L" n="81"/>cedit actum peccati, sic necesse est quod diminuat
+<lb ed="#L" n="82"/>peccatum. Actus enim intantum est peccatum,
+<lb ed="#L" n="83"/>inquantum est voluntarium etin nobis existens.
+<lb ed="#L" n="84"/>In nobis autem aliquid esse dicitur per rationem
+<lb ed="#L" n="85"/>et voluntatem. Unde quanto ratjo et voluntas ex
+<lb ed="#L" n="86"/>se aliquid agunt, non ex impulsu passionis, magis
+<lb ed="#L" n="87"/>est voluntarium et in nobis existens. Et secundum
+<lb ed="#L" n="88"/>hoc passio minuit peccatum, inquantum minuit
+<lb ed="#L" n="89"/>voluntarium. - Passio autem consequens non 
+di<lb break="no" ed="#L" n="90"/>minuit peccatum, sed magis auget: vel potius
+<lb ed="#L" n="91"/>est signum magnitudinis eius, inquantum scilicet
+<lb ed="#L" n="92"/>demonstrat intensionem voluntatis ad actum 
+pec<lb break="no" ed="#L" n="93"/>cati. Et sic verum est quod quanto aliquis maiori
+<lb ed="#L" n="94"/>libidine vel concupiscentia peccat, tanto magis
+<lb ed="#L" n="95"/>peccat.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1643">
+                  <lb ed="#L" n="96"/>AD PRIMUM ERGO DICENDUM quod passio est causa
+<lb ed="#L" n="97"/>peccati ex parte conversionis. Gravitas autem 
+pec<lb break="no" ed="#L" n="98"/>cati magis attenditur ex parte aversionis; quae
+<lb ed="#L" n="99"/>quidem ex conversione sequitur per accidens,
+<lb ed="#L" n="100"/>idest praeter intentionem peccantis. Causae 
+au<lb break="no" ed="#L" n="101"/>tem per accidens augmentatae non augmentant
+<lb ed="#L" n="102"/>effectus, sed solum causae per se.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1661">
+                  <lb ed="#L" n="103"/>AD SECUNDUM DICENDUM quod bona passio 
+con<lb break="no" ed="#L" n="104"/>sequens iudicium rationis, augmentat meritum. Si
+<pb ed="#L" n="68"/>
+                  <!-- p. 68 -->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>autem praecedat, ut scilicet homo magis ex 
+pas<lb break="no" ed="#L" n="2"/>Sione quam ex iudicio rationis moveatur. ad bene
+<lb ed="#L" n="3"/>agendum, talis passio diminuit bonitatem et 
+lau<lb break="no" ed="#L" n="4"/>dem actus.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1684">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="5"/>AD TERTIUM DICENDUM quod, etsi motus 
+volun<lb break="no" ed="#L" n="6"/>fatis sit intensior ex passione incitatus, non tamen
+<lb ed="#L" n="7"/>ita est voluntatis proprius, sicut si sola ratione
+<lb ed="#L" n="8"/>moveretur ad peccandum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1070-Dd1e1698"><!-- p2p1-q77-a7 -->
+               <head xml:id="TAca84-d1e1070-Hd1e1701">Articulus 7</head>
+               <head xml:id="TAca84-d1e1070-Hd1e1703" type="question-title">Utrum passio totaliter excuset a peccato</head>
+               <p xml:id="TAca84-d1e1070-d1e1706">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="46"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="47"/>UTRUM PASSIO TOTALITER EXCUSET A PECCATO
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1715">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="48"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="49"/>passio totaliter excuset a peccato. 
+Quid<lb break="no" ed="#L" n="50"/>quid enim causat involuntarium, excusat
+<lb ed="#L" n="51"/>totaliter a peccato. Sed concupiscentia
+<lb ed="#L" n="52"/>carnis, quae est quaedam passio, causat 
+involun<lb break="no" ed="#L" n="53"/>tarium: secundum illud Gal. v: Caro concupiscit
+<lb ed="#L" n="54"/>adversus spiritum, ut non quaecumque vultis, illa
+<lb ed="#L" n="55"/>faciatis. Ergo passio totaliter excusat a peccato.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1737">
+                  <lb ed="#L" n="56"/>2. PRAETEREA, passio causat ignorantiam 
+quan<lb break="no" ed="#L" n="57"/>dam in particulari, ut dictum est. Sed ignorantia
+<lb ed="#L" n="58"/>particularis totaliter excusat a peccato, sicut supra 
+<lb ed="#L" n="59"/>habitum est. Ergo passio totaliter excusat a 
+pec<lb break="no" ed="#L" n="60"/>cato.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1751">
+                  <lb ed="#L" n="61"/>3. PnRaETEREA, infirmitas animae gravior est
+<lb ed="#L" n="62"/>quam. infirmitas corporis. Sed infirmitas corporis
+<lb ed="#L" n="63"/>totaliter excusat à peccato, ut patet in phreneticis.
+<lb ed="#L" n="64"/>Ergo multo magis passio, quae est infirmitas
+<lb ed="#L" n="65"/>animae.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1764">
+                  <lb ed="#L" n="66"/>SED coNTRA EST quod Apostolus, Rom. vn 
+<lb ed="#L" n="67"/>vocat passiones peccatorum, non nisi quia 
+pec<lb break="no" ed="#L" n="68"/>cata causant. Quod non esset, si a peccato 
+tota<lb break="no" ed="#L" n="69"/>liter excusarent. Ergo passiones non totaliter a
+<lb ed="#L" n="70"/>peccato excusant.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1777">
+                  <lb ed="#L" n="71"/>RESPONDEO DICENDUM quod secundum hoc 
+so<lb break="no" ed="#L" n="72"/>lum actus aliquis qui de genere suo est malus,
+<lb ed="#L" n="73"/>totaliter a peccato excusatur, quod totaliter 
+invo<lb break="no" ed="#L" n="74"/>luntarius redditur. Unde si sit talis. passio quae
+<lb ed="#L" n="75"/>totaliter involuntarium reddat actum sequentem,
+<lb ed="#L" n="76"/>totaliter a peccato excusat: alioquin, non totaliter.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1793">
+                  <lb ed="#L" n="77"/>Circa quod duo consideranda videntur. Primo
+<lb ed="#L" n="78"/>quidem, quod aliquid potest esse voluntarium vel
+<lb ed="#L" n="79"/>secundum se, sicut quando voluntas directe in
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="80"/>ipsum fertur: vel secundum suam causam, 
+quan<lb break="no" ed="#L" n="81"/>do voluntas fertur in causam et non in effectum,
+<lb ed="#L" n="82"/>ut patet in eo qui voluntarie inebriatur; ex hoc
+<lb ed="#L" n="83"/>enim quasi voluntarium ei imputatur quod per
+<lb ed="#L" n="84"/>ebrietatem committit. - Secundo considerandum
+<lb ed="#L" n="85"/>est quod aliquid dicitur voluntarium directe, vel
+<lb ed="#L" n="86"/>indirecte: directe quidem, id in quod voluntas 
+fer<lb break="no" ed="#L" n="87"/>tur; indirecte autem, illud quod voluntas bolt
+<lb ed="#L" n="88"/>prohibere, sed non prohibet. "m s
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1824">
+                  <lb ed="#L" n="89"/>Secundum hoc igitur distinguendum est. Quia
+<lb ed="#L" n="90"/>passio quandoque quidem est tanta quod 
+tota<lb break="no" ed="#L" n="91"/>liter aufert usum rationis: sicut patet in his qui
+<lb ed="#L" n="92"/>propter amorem vel iram insaniunt. Et tunc si
+<lb ed="#L" n="93"/>talis passio a principio fuit voluntaria, imputatur
+<lb ed="#L" n="94"/>actus ad peccatum, quia est voluntarius in sua
+<lb ed="#L" n="95"/>causa: sicut etiam de ebrietate dictum est. Si
+<lb ed="#L" n="96"/>vero causa non fuit voluntaria, sed naturalis, puta
+<lb ed="#L" n="97"/>cum aliquis ex aegritudine, vel aliqua huiusmodi
+<lb ed="#L" n="98"/>causa, incidit in talem passionem - 2^ totaliter
+<lb ed="#L" n="99"/>aufert usum rationis; actus omnino redditur 
+in<lb break="no" ed="#L" n="100"/>voluntarius, et per consequens totaliter a peccato
+<lb ed="#L" n="101"/>excusatur.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1855">
+                  <lb ed="#L" n="102"/>Quandoque vero passio non est tanta: quod
+<lb ed="#L" n="103"/>totaliter intercipiat usum rationis. Et tunc ratio
+<lb ed="#L" n="104"/>potest passionem excludere, divertendo ad alias
+<lb ed="#L" n="105"/>cogitationes; vel impedire ne suum consequatur
+<lb ed="#L" n="106"/>effectum, quia membra non applicantur operi
+<lb ed="#L" n="107"/>nisi per consensum rationis, ut supra dictum est.
+<lb ed="#L" n="108"/>Unde talis passio non totaliter excusat a peccato.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1874">
+                  <lb ed="#L" n="109"/>AD PRIMUM ERGO DICENDUM quod hoc quod 
+di<lb break="no" ed="#L" n="110"/>citur, u£ non quaecumque vultis, illa faciatis, non
+<lb ed="#L" n="111"/>est referendum ad ea quae fiunt per exteriorem
+<pb ed="#L" n="69"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>actum, sed ad interiorem concupiscientiae 
+mo<lb break="no" ed="#L" n="2"/>tum: vellet enim homo nunquam concupiscere
+<lb ed="#L" n="3"/>malum. Sicut etiam exponitur id quod dicitur
+<lb ed="#L" n="4"/>Rom. vu: Quod odi malum, illud facio. - Vel
+<lb ed="#L" n="5"/>potest. referri: ad. voluntatem | praecedentem. 
+pas<lb break="no" ed="#L" n="6"/>sionem: ut patet in continentibus Y qui contra.
+<lb ed="#L" n="7"/>suum propositum agunt propter suam 
+concupi<lb break="no" ed="#L" n="8"/>scentiam.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1905">
+                  <lb ed="#L" n="9"/>AD SECUNDUM DICENDUM quod ignorantia 
+parti<lb break="no" ed="#L" n="10"/>cularis quae totaliter excusat, est ignorantia cir-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="11"/>cumstantiae quam quidem quis scire non potest,
+<lb ed="#L" n="12"/>debita diligentia adhibita. Sed passio causat 
+igno<lb break="no" ed="#L" n="13"/>rantiam iuris in particulari, dum impedit. 
+ap<lb break="no" ed="#L" n="14"/>plicationem communis. scientiae ad particularem
+<lb ed="#L" n="15"/>actum ?, Quam quidem passionem ratio repellere
+<lb ed="#L" n="16"/>potest, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1927">
+                  <lb ed="#L" n="17"/>AD TERTIUM DICENDUM quod infirmitas corporis
+<lb ed="#L" n="18"/>est involuntaria. Esset autem simile, si esset 
+vo<lb break="no" ed="#L" n="19"/>luntaria: sicut de ebrietate dictum est, quae est
+<lb ed="#L" n="20"/>quaedam corporalis infirmitas.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1070-Dd1e1940"><!-- p2p1-q77-a8 -->
+               <head xml:id="TAca84-d1e1070-Hd1e1943">Articulus 8</head>
+               <head xml:id="TAca84-d1e1070-Hd1e1945" type="question-title">Utrum peccatum quod est ex passione, possit esse mortale</head>
+               <p xml:id="TAca84-d1e1070-d1e1948">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="34"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="35"/>UTRUM PECCATUM QUOD EST EX PASSIONE, POSSIT ESSE MORTALE
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1957">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="36"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="37"/>LO D a peccatum quod est ex passione, non
+<lb ed="#L" n="38"/>possit esse mortale. Veniale enim 
+pec<lb break="no" ed="#L" n="39"/>Nyicatum dividitur contra mortale. Sed 
+pec<lb break="no" ed="#L" n="40"/>catum quod est ex infirmitate, est veniale: cum
+<lb ed="#L" n="41"/>habeat in se causam veniae. Cum igitur peccatum
+<lb ed="#L" n="42"/>quod est ex passione, sit ex infirmitate, videtur
+<lb ed="#L" n="43"/>quod non possit esse mortale.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1979">
+                  <lb ed="#L" n="44"/>2. PRAETEREA, causa non est potior effectu. Sed
+<lb ed="#L" n="45"/>passio non potest esse peccatum mortale: non
+<lb ed="#L" n="46"/>enim in sensualitate est peccatum mortale, ut 
+su<lb break="no" ed="#L" n="47"/>pra habitum est; Ergo peccatum quod est ex
+<lb ed="#L" n="48"/>passione, non potest esse mortale.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e1993">
+                  <lb ed="#L" n="49"/>3. PRAETEREA, passio abducit a ratione, ut ex
+<lb ed="#L" n="50"/>dictis patet. Sed rationis est converti ad Deum
+<lb ed="#L" n="51"/>vel averti ab eo ^, in quo consistit ratio peccati
+<lb ed="#L" n="52"/>mortalis. Peccatum ergo quod est ex passione,
+<lb ed="#L" n="53"/>non potest esse mortale.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e2006">
+                  <lb ed="#L" n="54"/>SED coNTRA EsT quod Apostolus dicit, Rom. vii,
+<lb ed="#L" n="55"/>quod passiones peccatorum operantur in membris
+<lb ed="#L" n="56"/>nostris ad fructificandum morti. Hoc autem est
+<lb ed="#L" n="57"/>proprium mortalis peccati, quod fructificet morti.
+<lb ed="#L" n="58"/>Ergo peccatum quod est ex passione, potest esse
+<lb ed="#L" n="59"/>mortale.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e2022">
+                  <lb ed="#L" n="60"/>RESPONDEO DICENDUM quod peccatum mortale,
+<lb ed="#L" n="61"/>ut supra dictum est, consistit in aversione ab
+<lb ed="#L" n="62"/>ultimo fine, qui est Deus: quae quidem aversio
+<lb ed="#L" n="63"/>pertinet ad rationem deliberantem, cuius etiam
+<lb ed="#L" n="64"/>est ordinare in finem. Hoc igitur solo modo ?
+<lb ed="#L" n="65"/>potest contingere quod inclinatio animae in 
+ali<lb break="no" ed="#L" n="66"/>quid quod contrariatur ultimo fini, non sit pec-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="67"/>catum mortale, quia ratio deliberans non potest
+<lb ed="#L" n="68"/>occurrere: quod contingit in subitis motibus. Cum
+<lb ed="#L" n="69"/>autem ex passione aliquis procedit ad actum 
+pec<lb break="no" ed="#L" n="70"/>cati, vel ad consensum deliberatum, hoc non fit
+<lb ed="#L" n="71"/>subito. Unde ratio deliberans potest hic occurrere:
+<lb ed="#L" n="72"/>potest enim excludere, vel saltem impedire 
+pas<lb break="no" ed="#L" n="73"/>sionem, ut dictum est, Unde si non occurrat,
+<lb ed="#L" n="74"/>est peccatum mortale: sicut videmus quod multa
+<lb ed="#L" n="75"/>homicidia et adulteria per passionem commit- '
+<lb ed="#L" n="76"/>tuntur.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e2064">
+                  <lb ed="#L" n="77"/>AD PRIMUM ERGO DICENDUM quod veniale dicitur
+<lb ed="#L" n="78"/>tripliciter. Uno modo, ex causa, quia scilicet habet
+<lb ed="#L" n="79"/>aliquam causam veniae, quae diminuit peccatum:
+<lb ed="#L" n="80"/>et sic peccatum ex infirmitate et ignorantia dicitur
+<lb ed="#L" n="81"/>veniale. Alio modo, ex eventu: sicut omne 
+pec<lb break="no" ed="#L" n="82"/>catum per paenitentiam fit veniale, idest veniam
+<lb ed="#L" n="83"/>consecutum ?, "Tertio modo dicitur veniale ex 
+ge<lb break="no" ed="#L" n="84"/>nere, sicut verbum otiosum. Et hoc solum 
+ve<lb break="no" ed="#L" n="85"/>niale opponitur mortali: obiectio autem procedit
+<lb ed="#L" n="86"/>de primo.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e2088">
+                  <lb ed="#L" n="87"/>AD SECUNDUM DICENDUM quod passio est causa
+<lb ed="#L" n="88"/>peccati ex parte conversionis. Quod autem sit
+<lb ed="#L" n="89"/>mortale, est ex parte aversionis, quae per 
+acci<lb break="no" ed="#L" n="90"/>dens sequitur ad conversionem, ut dictum est.
+<lb ed="#L" n="91"/>Unde ratio non sequitur.
+</p>
+               <p xml:id="TAca84-d1e1070-d1e2101">
+                  <lb ed="#L" n="92"/>AD TERTIUM DICENDUM quod ratio non semper
+<lb ed="#L" n="93"/>in suo actu totaliter a passione impeditur: unde
+<lb ed="#L" n="94"/>remanet ei liberum arbitrium, ut possit averti vel
+<lb ed="#L" n="95"/>converti ad Deum. Si autem totaliter tolleretur
+<lb ed="#L" n="96"/>usus rationis, iam non esset peccatum nec 
+mor<lb break="no" ed="#L" n="97"/>tale nec veniale.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

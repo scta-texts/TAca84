@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 71</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 71</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="3"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1039"><!-- p2p1-q71 -->
+            <head xml:id="TAca84-d1e1039-Hd1e101">Quaestio 71</head>
+            <head xml:id="TAca84-d1e1039-Hd1e103" type="question-title">De vitiis et peccatis secundum se</head>
+            <p xml:id="TAca84-d1e1039-d1e106">
+               <pb ed="#L" n="3"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>PRIMA SECUNDAE
+<lb ed="#L" n="2"/>SUMMA THEOLOGIAE
+<lb ed="#L" n="3"/>ANGELICI DOCTORIS
+<lb ed="#L" n="4"/>SANCTI THOMAE AQUINATIS
+<lb ed="#L" n="5"/>ORDINIS PRAEDICATORUM
+<lb ed="#L" n="6"/>A QUAESTIONE LXXI AD QUAESTIONEM CXIV
+<lb ed="#L" n="7"/>CUM COMMENTARIIS
+<lb ed="#L" n="8"/>THOMAE DE VIO CAIETANI
+<lb ed="#L" n="9"/>EIUSDEM ORDINIS
+<lb ed="#L" n="10"/>S. R. E. CARDINALIS
+</p>
+            <p xml:id="TAca84-d1e1039-d1e135">
+               <lb ed="#L" n="11"/>QUAESTIO SEPTUAGESIMAPRIMA
+<lb ed="#L" n="12"/>DE VITIIS ET PECCATIS SECUNDUM SE
+<lb ed="#L" n="13"/>IN SEX ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1039-d1e144">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="14"/>CONSEQUENTER considerandum est de vitis et
+<lb ed="#L" n="15"/>peccatis. Circa quae sex consideranda 
+oc<lb break="no" ed="#L" n="16"/>currunt: primo quidem, de ipsis vitiis et peccatis
+<lb ed="#L" n="17"/>secundum se; secundo, de distinctione eorum;
+<lb ed="#L" n="18"/>tertio, de comparatione eorum ad invicem;
+<lb ed="#L" n="19"/>quarto, de subiecto peccati; quinto, de causa
+<lb ed="#L" n="20"/>eius; sexto, de effectu ipsius.
+</p>
+            <p xml:id="TAca84-d1e1039-d1e165">
+               <lb ed="#L" n="21"/>Circa primum quaeruntur sex.
+<lb ed="#L" n="22"/>Primo: utrum vitium contrarietur virtuti.
+<lb ed="#L" n="23"/>Secundo: utrum vitium sit contra naturam.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="24"/>Tertio: quid sit peius, utrum vitium vel actus
+<lb ed="#L" n="25"/>vitiosus.
+<lb ed="#L" n="26"/>Quarto: utrum actus vitiosus possit esse simul
+<lb ed="#L" n="27"/>cum virtute.
+<lb ed="#L" n="28"/>Quinto: utrum in omni peccato sit aliquis
+<lb ed="#L" n="29"/>actus.
+<lb ed="#L" n="30"/>Sexto: de definitione peccati quam Augustinus
+<lb ed="#L" n="31"/>ponit, XXII Contra Faustum: Peccatum est
+<lb ed="#L" n="32"/>dictum vel factum vel concupitum contra 
+le<lb break="no" ed="#L" n="33"/>gem aeternam.
+</p>
+            <div xml:id="TAca84-d1e1039-Dd1e198"><!-- p2p1-q71-a1 -->
+               <head xml:id="TAca84-d1e1039-Hd1e201">Articulus 1</head>
+               <head xml:id="TAca84-d1e1039-Hd1e203" type="question-title">Utrum vitium contrarietur virtuti</head>
+               <p xml:id="TAca84-d1e1039-d1e206">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="34"/>ARTICULUS PRIMUS
+<lb ed="#L" n="35"/>UTRUM VITIUM CONTRARIETUR VIRTUTI
+</p>
+               <p xml:id="TAca84-d1e1039-d1e215">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="36"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="37"/>vitium non contrarietur virtuti. Uni enim
+<lb ed="#L" n="38"/>unum est contrarium, ut probatur in X
+<lb ed="#L" n="39"/>Metaphys. Sed virtuti contrariantur 
+<lb ed="#L" n="40"/>peccatum et malitia. Non ergo contrariatur ei 
+vi<lb break="no" ed="#L" n="41"/>tium: quia vitium dicitur etiam si sit indebita 
+dis<lb break="no" ed="#L" n="42"/>positio membrorum corporalium, vel 
+quarumcum<lb break="no" ed="#L" n="43"/>que rerum.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e237">
+                  <lb ed="#L" n="44"/>2. PRAETEREA, virtus nominat quandam 
+perfe<lb break="no" ed="#L" n="45"/>ctionem potentiae. Sed vitium nihil nominat ad
+<lb ed="#L" n="46"/>potentiam pertinens. Ergo vitium non 
+contraria<lb break="no" ed="#L" n="47"/>tur virtuti.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e249">
+                  <lb ed="#L" n="48"/>3. PRAETEREA, Tullius dicit, in IV de Tusculanis
+<lb ed="#L" n="49"/>Quaest., quod <quote xml:id="TAca84-d1e1039-Qd1e255">virtus est quaedam sanitas animae.
+</quote>
+                  <lb ed="#L" n="50"/>Sanitati autem opponitur aegritudo vel morbus,
+<lb ed="#L" n="51"/>magis quam vitium. Ergo virtuti non 
+contraria<lb break="no" ed="#L" n="52"/>tur vitium.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e265">
+                  <lb ed="#L" n="53"/>SED CONTRA EsT quod dicit Augustinus, in libro
+<lb ed="#L" n="54"/>de Perfectione Iustitiae, quod <quote xml:id="TAca84-d1e1039-Qd1e271">vitium est qualitas
+<cb ed="#L" n="f"/>
+                     <lb ed="#L" n="55"/>secundum quam malus est animus.</quote> Virtus autem
+<lb ed="#L" n="56"/>est <quote xml:id="TAca84-d1e1039-Qd1e280">qualitas quae facit bonum habentem</quote>, ut ex 
+su<lb break="no" ed="#L" n="57"/>pradictis patet. Ergo vitium contrariatur virtuti.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e286">
+                  <lb ed="#L" n="58"/>RESPONDEO DICENDUM quod circa virtutem duo
+<lb ed="#L" n="59"/>possumus considerare: scilicet ipsam essentiam
+<lb ed="#L" n="60"/>virtutis; et id ad quod est virtus. In essentia 
+qui<lb break="no" ed="#L" n="61"/>dem virtutis aliquid considerari potest directe; et
+<lb ed="#L" n="62"/>aliquid ex consequenti. Directe quidem virtus 
+im<lb break="no" ed="#L" n="63"/>portat dispositionem quandam alicuius 
+convenien<lb break="no" ed="#L" n="64"/>ter se habentis secundum modum suae naturae:
+<lb ed="#L" n="65"/>unde Philosophus dicit, in VII Physic., quod
+<lb ed="#L" n="66"/>virtus est dispositio perfecti ad optimum; dico 
+au<lb break="no" ed="#L" n="67"/>lem perfecli, quod est dispositum secundum 
+natu<lb break="no" ed="#L" n="68"/>ram. Ex consequenti autem sequitur quod virtus
+<lb ed="#L" n="69"/>sit bonitas quaedam: in hoc enim consistit 
+unius<lb break="no" ed="#L" n="70"/>cuiusque rei bonitas, quod convenienter se habeat
+<lb ed="#L" n="71"/>secundum modum suae naturae. Id autem ad
+<lb ed="#L" n="72"/>quod virtus ordinatur, est actus bonus, ut ex 
+su<lb break="no" ed="#L" n="73"/>pradictis patet.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e323">
+                  <pb ed="#L" n="4"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Secundum hoc igitur tria inveniuntur opponi
+<lb ed="#L" n="2"/>virtuti. Quorum unum est peccatum, quod 
+oppo<lb break="no" ed="#L" n="3"/>nitur sibi ex parte eius ad quod virtus ordinatur:
+<lb ed="#L" n="4"/>nam peccatum proprie nominat actum 
+inordina<lb break="no" ed="#L" n="5"/>tum, sicut actus virtutis est actus ordinatus et
+<lb ed="#L" n="6"/>debitus. Secundum autem quod ad rationem 
+vir<lb break="no" ed="#L" n="7"/>tutis consequitur quod sit bonitas quaedam, 
+op<lb break="no" ed="#L" n="8"/>ponitur virtuti malitia. Sed secundum id quod
+<lb ed="#L" n="9"/>directe est de ratione virtutis, opponitur virtuti
+<lb ed="#L" n="10"/>vitium: vitium enim uniuscuiusque rei esse 
+vi<lb break="no" ed="#L" n="11"/>detur quod non sit disposita secundum quod 
+con<lb break="no" ed="#L" n="12"/>venit suae naturae. Unde Augustinus dicit, in III
+<title>de Lib. Arb.</title>: <quote xml:id="TAca84-d1e1039-Qd1e357">Quod perfectioni naturae deesse
+<lb ed="#L" n="13"/>perspexeris, id voca vitium.</quote>
+               </p>
+               <p xml:id="TAca84-d1e1039-d1e363">
+                  <lb ed="#L" n="14"/>AD PRIMUM ERGO DICENDUM quod illa tria non
+<lb ed="#L" n="15"/>contrariantur virtuti secundum idem:.sed 
+pecca<lb break="no" ed="#L" n="16"/>tum quidem contrariatur secundum quod virtus
+<lb ed="#L" n="17"/>est operativa boni; malitia autem secundum quod
+<lb ed="#L" n="18"/>est bonitas quaedam; vitium autem proprie 
+se<lb break="no" ed="#L" n="19"/>cundum quod est virtus.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e379">
+                  <lb ed="#L" n="20"/>AD SECUNDUM DICENDUM quod virtus non solum
+<lb ed="#L" n="21"/>importat perfectionem potentiae quae est 
+princi<lb break="no" ed="#L" n="22"/>pium agendi, sed etiam importat debitam 
+dispo<lb break="no" ed="#L" n="23"/>sitionem eius cuius est virtus: et hoc ideo quia
+<lb ed="#L" n="24"/>unumquodque operatur secundum quod actu est.
+<lb ed="#L" n="25"/>Requiritur ergo quod aliquid sit in se bene 
+dis<lb break="no" ed="#L" n="26"/>positum, quod debet esse boni operativum. Et
+<lb ed="#L" n="27"/>secundum hoc virtuti vitium opponitur.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e400">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="28"/>AD TERTIUM DICENDUM quod, sicut Tullius dicit,
+<lb ed="#L" n="29"/>in IV <title>de Tusculanis Quaest.</title>, <quote xml:id="TAca84-d1e1039-Qd1e410">morbi et 
+aegrota<lb break="no" ed="#L" n="30"/>liones partes sunt vitiositatis: in corporibus enim
+<lb ed="#L" n="31"/>morbum appellant 9 totius corporis corruptionem, 8
+<lb ed="#L" n="32"/>puta febrem vel aliquid huiusmodi; 
+aegrotatio<lb break="no" ed="#L" n="33"/>nem vero, morbum cum imbecillitate; vitium 
+au<lb break="no" ed="#L" n="34"/>tem, cum parles corporis inter se dissident</quote>. Et
+<lb ed="#L" n="35"/>quamvis in corpore quandoque sit morbus sine
+<lb ed="#L" n="36"/>aegrotatione, puta cum aliquis est interius male
+<lb ed="#L" n="37"/>dispositus, non tamen exterius praepeditur a 
+so<lb break="no" ed="#L" n="38"/>litis operationibus; in animo tamen, ut ipse dicit,
+<lb ed="#L" n="39"/>haec duo non possunt nisi cogitatione secerni. 
+Ne<lb break="no" ed="#L" n="40"/>cesse est enim quod quandocumque aliquis 
+inte<lb break="no" ed="#L" n="41"/>rius est male dispositus, habens inordinatum 
+affe<lb break="no" ed="#L" n="42"/>ctum, quod ex hoc imbecillis reddatur ad debitas —.
+<lb ed="#L" n="43"/>operationes exercendas: quia unaquaeque arbor
+<lb ed="#L" n="44"/>ex suo fructu cognoscitur, idest homo ex opere,
+<lb ed="#L" n="45"/>ut dicitur Matth. xii. Sed <quote xml:id="TAca84-d1e1039-Qd1e447">vitium animi</quote>, ut 
+Tul<lb break="no" ed="#L" n="46"/>lius ibidem dicit, <quote xml:id="TAca84-d1e1039-Qd1e452">est habitus aut affectio animi
+<lb ed="#L" n="47"/>in tota vita inconstans, et a seipsa dissentiens</quote>.
+<lb ed="#L" n="48"/>Quod quidem invenitur etiam absque morbo vel
+<lb ed="#L" n="49"/>aegrotatione, ut puta cum aliquis ex infirmitate Y
+<lb ed="#L" n="50"/>vel ex passione peccat. Unde in plus se habet 
+vi<lb break="no" ed="#L" n="51"/>tium quam aegrotatio vel morbus: sicut etiam
+<lb ed="#L" n="52"/>virtus in plus se habet quam sanitas; nam sanitas
+<lb ed="#L" n="53"/>etiam quaedam virtus ponitur in. VII <title>Physic</title>. Et
+<lb ed="#L" n="54"/>ideo virtuti convenientius opponitur vitium quam
+<lb ed="#L" n="55"/>aegrotatio vel morbus.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1039-Dd1e478"><!-- p2p1-q71-a2 -->
+               <head xml:id="TAca84-d1e1039-Hd1e481">Articulus 2</head>
+               <head xml:id="TAca84-d1e1039-Hd1e483" type="question-title">Utrum vitium sit contra naturam</head>
+               <p xml:id="TAca84-d1e1039-d1e486">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="75"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="76"/>UTRUM VITIUM SIT CONTRA NATURAM
+</p>
+               <p xml:id="TAca84-d1e1039-d1e495">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="77"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="78"/>vitium non sit contra naturam. Vitium
+<lb ed="#L" n="79"/>enim contrariatur virtuti, ut dictum est.
+<lb ed="#L" n="80"/>Sed virtutes non sunt in nobis a 
+na<lb break="no" ed="#L" n="81"/>tura, sed causantur in nobis per infusionem aut
+<lb ed="#L" n="82"/>ab assuetudine, ut dictum est. Ergo vitia non
+<lb ed="#L" n="83"/>sunt contra naturam.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e515">
+                  <lb ed="#L" n="84"/>2. PRAETEREA, ea quae sunt contra naturam,
+<lb ed="#L" n="85"/>non possunt assuefieri, sicut <quote xml:id="TAca84-d1e1039-Qd1e521">lapis nunquam 
+as<lb break="no" ed="#L" n="86"/>suescit ferri sursum</quote>, ut dicitur in II <title>Ethic</title>. Sed
+<lb ed="#L" n="87"/>aliqui assuefiunt ad vitia. Ergo vitia non sunt
+<lb ed="#L" n="88"/>contra naturam.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e535">
+                  <lb ed="#L" n="89"/>3. PRAETEREA, nihil quod est contra naturam,
+<lb ed="#L" n="90"/>invenitur in habentibus illam naturam ut in plu-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="91"/>ribus. Sed vitia inveniuntur in hominibus ut in fou
+<lb ed="#L" n="92"/>pluribus: quia, sicut dicitur Matth. vui, lata est
+<lb ed="#L" n="93"/>via quae ducit ad perditionem, et multi vadunt per
+<lb ed="#L" n="94"/>eam. Ergo vitium non est contra naturam.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e553">
+                  <lb ed="#L" n="95"/>4. PRAETEREA, peccatum comparatur ad vitium
+<lb ed="#L" n="96"/>sicut actus ad habitum, ut ex supradictis patet.
+<lb ed="#L" n="97"/>Sed peccatum definitur esse <quote xml:id="TAca84-d1e1039-Qd1e561">dictum vel factum vel
+<lb ed="#L" n="98"/>concupitum contra legem Dei</quote>; ut patet per <name xml:id="TAca84-d1e1039-Nd1e566">
+Augu<lb break="no" ed="#L" n="99"/>stinum</name>, XXII <title>Contra Faustum</title>. Lex autem Dei
+<lb ed="#L" n="100"/>est supra naturam. Magis ergo dicendum est quod
+<lb ed="#L" n="101"/>vitium sit contra legem, quam sit contra naturam.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e579">
+                  <lb ed="#L" n="102"/>SED CONTRA EST quod <name xml:id="TAca84-d1e1039-Nd1e583">Augustinus</name> dicit, in III
+<title>de Lib. Arb.</title>: <quote xml:id="TAca84-d1e1039-Qd1e587">Omne vitium, eo ipso quod vitium
+<lb ed="#L" n="103"/>est, contra naturam est.</quote>
+               </p>
+               <p xml:id="TAca84-d1e1039-d1e593">
+                  <pb ed="#L" n="5"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="2"/>vitium virtuti contrariatur. Virtus autem 
+unius<lb break="no" ed="#L" n="3"/>cuiusque rei consistit in hoc quod sit bene 
+dis<lb break="no" ed="#L" n="4"/>posita secundum convenientiam suae naturae, ut
+<lb ed="#L" n="5"/>supra dictum est. Unde oportet quod in 
+qua<lb break="no" ed="#L" n="6"/>libet re vitium dicatur ex hoc quod est disposita
+<lb ed="#L" n="7"/>contra id quod convenit naturae. Unde et de hoc
+<lb ed="#L" n="8"/>unaquaeque res vituperatur: <quote xml:id="TAca84-d1e1039-Qd1e616">a vitio autem nomen
+<lb ed="#L" n="9"/>vituperationis tractum creditur</quote>, ut <name xml:id="TAca84-d1e1039-Nd1e622">Augustinus</name>
+                  <lb ed="#L" n="10"/>dicit, in <ref xml:id="TAca84-d1e1039-Rd1e626">III <title>de Lib. Arb.</title>
+                  </ref>
+               </p>
+               <p xml:id="TAca84-d1e1039-d1e632">
+                  <lb ed="#L" n="11"/>Sed considerandum est quod natura 
+uniuscu<lb break="no" ed="#L" n="12"/>iusque rei potissime est forma secundum quam
+<lb ed="#L" n="13"/>res speciem sortitur. Homo autem in specie 
+con<lb break="no" ed="#L" n="14"/>stituitur per animam rationalem. Et ideo id quod
+<lb ed="#L" n="15"/>est contra ordinem rationis, proprie est contra 
+na<lb break="no" ed="#L" n="16"/>turam hominis inquantum est homo; quod autem
+<lb ed="#L" n="17"/>est secundum rationem, est secundum naturam
+<lb ed="#L" n="18"/>hominis inquantum est homo. <quote xml:id="TAca84-d1e1039-Qd1e651">Bonum autem 
+ho<lb break="no" ed="#L" n="19"/>minis est secundum rationem esse, et malum 
+ho<lb break="no" ed="#L" n="20"/>minis est praeter rationem esse</quote>, ut <name xml:id="TAca84-d1e1039-Nd1e658">Dionysius</name> 
+di<lb break="no" ed="#L" n="21"/>cit, iv cap. <title>de Div. Nom.</title> Unde virtus humana,
+<lb ed="#L" n="22"/>quae <quote xml:id="TAca84-d1e1039-Qd1e667">hominem facit bonum, et opus ipsius 
+bo<lb break="no" ed="#L" n="23"/>num reddit</quote>, intantum est secundum naturam
+<lb ed="#L" n="24"/>hominis, inquantum convenit rationi: vitium 
+au<lb break="no" ed="#L" n="25"/>tem intantum est contra naturam hominis, 
+in<lb break="no" ed="#L" n="26"/>quantum est contra ordinem rationis.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e679">
+                  <lb ed="#L" n="27"/>AD PRIMUM ERGO DICENDUM quod virtutes, etsi
+<lb ed="#L" n="28"/>non causentur a natura secundum suum esse
+<lb ed="#L" n="29"/>perfectum, tamen inclinant ad id quod est 
+se<lb break="no" ed="#L" n="30"/>cundum naturam, idest secundum ordinem 
+ratio<lb break="no" ed="#L" n="31"/>nis: dicit enim Tullius, in sua Ahetorica, quod
+<quote xml:id="TAca84-d1e1039-Qd1e692">virtus est habitus in modum naturae rationi con-
+<cb ed="#L" n="b"/>
+                     <lb ed="#L" n="32"/>sentaneus</quote>. Et hoc modo virtus dicitur esse 
+se<lb break="no" ed="#L" n="33"/>cundum naturam: et per contrarium intelligitur
+<lb ed="#L" n="34"/>quod vitium sit contra naturam.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e705">
+                  <lb ed="#L" n="35"/>AD SECUNDUM DICENDUM quod Philosophus ibi
+<lb ed="#L" n="36"/>loquitur de his quae sunt contra naturam, 
+se<lb break="no" ed="#L" n="37"/>cundum quod esse contra naturam opponitur ei
+<lb ed="#L" n="38"/>quod est esse a natura: non autem secundum
+<lb ed="#L" n="39"/>quod esse contra naturam opponitur ei quod est
+<lb ed="#L" n="40"/>esse secundum naturam, eo modo quo virtutes
+<lb ed="#L" n="41"/>dicuntur esse secundum naturam, inquantum 
+in<lb break="no" ed="#L" n="42"/>clinant ad id quod naturae convenit.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e725">
+                  <lb ed="#L" n="43"/>AD TERTIUM DICENDUM quod in homine est 
+du<lb break="no" ed="#L" n="44"/>plex natura, scilicet rationalis et sensitiva. Et quia
+<lb ed="#L" n="45"/>per operationem sensus homo pervenit ad actus
+<lb ed="#L" n="46"/>rationis, ideo plures sequuntur inclinationes 
+na<lb break="no" ed="#L" n="47"/>turae sensitivae quam ordinem rationis: plures
+<lb ed="#L" n="48"/>enim sunt qui assequuntur principium rei, quam
+<lb ed="#L" n="49"/>qui ad consummationem perveniunt. Ex hoc 
+au<lb break="no" ed="#L" n="50"/>tem vitia et peccata in hominibus proveniunt,
+<lb ed="#L" n="51"/>quod sequuntur inclinationem naturae sensitivae
+<lb ed="#L" n="52"/>contra ordinem rationis.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e749">
+                  <lb ed="#L" n="53"/>AD QUARTUM DICENDUM quod quidquid est 
+con<lb break="no" ed="#L" n="54"/>tra rationem artificiati, est etiam contra naturam
+<lb ed="#L" n="55"/>artis qua artificiatum producitur. Lex autem 
+ae<lb break="no" ed="#L" n="56"/>terna comparatur ad ordinem rationis humanae
+<lb ed="#L" n="57"/>sicut ars ad artificiatum. Unde eiusdem rationis
+<lb ed="#L" n="58"/>est quod vitium et peccatum sit contra ordinem
+<lb ed="#L" n="59"/>rationis humanae, et quod sit contra legem 
+ae<lb break="no" ed="#L" n="60"/>ternam. Unde <name xml:id="TAca84-d1e1039-Nd1e768">Augustinus</name> dicit, in III <title>de Lib.
+<lb ed="#L" n="61"/>Arb.</title>, quod <quote xml:id="TAca84-d1e1039-Qd1e775">a Deo habent omnes naturae quod
+<lb ed="#L" n="62"/>naturae sunt: et intantum sunt viliosae, 
+inquan<lb break="no" ed="#L" n="63"/>tum ab eius, qua factae sunt, arte discedunt</quote>.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1039-Dd1e784"><!-- p2p1-q71-a3 -->
+               <head xml:id="TAca84-d1e1039-Hd1e787">Articulus 3</head>
+               <head xml:id="TAca84-d1e1039-Hd1e789" type="question-title">Utrum vitium sit peius quam actus vitiosus</head>
+               <p xml:id="TAca84-d1e1039-d1e792">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="99"/>ARTICULUS TERTIUS
+<lb ed="#L" n="100"/>UTRUM VITIUM SIT PEIUS QUAM ACTUS VITIOSUS
+</p>
+               <p xml:id="TAca84-d1e1039-d1e801">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="101"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="102"/>vitium, idest habitus malus, sit peius
+<lb ed="#L" n="103"/>quam peccatum, idest actus malus. 
+Si<lb break="no" ed="#L" n="104"/>cut enim bonum quod est diuturnius,
+<lb ed="#L" n="105"/>est melius; ita malum quod est diuturnius, est
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="106"/>peius. Sed habitus vitiosus est diuturnior quam
+<lb ed="#L" n="107"/>actus vitiosi, qui statim transeunt. Ergo habitus
+<lb ed="#L" n="108"/>vitiosus est peior quam actus vitiosus.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e825">
+                  <lb ed="#L" n="109"/>2. PRAETEREA, plura mala sunt magis fugienda
+<lb ed="#L" n="110"/>quam unum malum. Sed habitus malus virtua-
+<pb ed="#L" n="6"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>liter est causa multorum malorum actuum. Ergo 
+<lb ed="#L" n="2"/>habitus vitiosus est peior quam actus vitiosus.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e842">
+                  <lb ed="#L" n="3"/>3. PRAETEREA, causa est potior quam effectus.
+<lb ed="#L" n="4"/>Sed habitus perficit actum tam in bonitate quam
+<lb ed="#L" n="5"/>in malitia. Ergo habitus est potior actu. et in 
+bo<lb break="no" ed="#L" n="6"/>nitate et in malitia.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e853">
+                  <lb ed="#L" n="7"/>SED CONTRA, pro actu vitioso aliquis iuste 
+pu<lb break="no" ed="#L" n="8"/>nitur: non autem pro habitu vitioso, si non 
+pro<lb break="no" ed="#L" n="9"/>cedat ad actum. Ergo actus vitiosus est peior
+<lb ed="#L" n="10"/>quam habitus vitiosus.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e864">
+                  <lb ed="#L" n="11"/>RESPONDEO DICENDUM quod habitus medio modo
+<lb ed="#L" n="12"/>se habet inter potentiam et actum. Manifestum est
+<lb ed="#L" n="13"/>autem quod actus in bono et in malo 
+praeemi<lb break="no" ed="#L" n="14"/>net potentiae, ut dicitur in IX <title>Metaphys.</title>: 
+me<lb break="no" ed="#L" n="15"/>lius est enim bene agere quam posse bene agere;
+<lb ed="#L" n="16"/>et similiter vituperabilius est male. agere quam
+<lb ed="#L" n="17"/>posse male agere. Unde etiam sequitur quod 
+ha<lb break="no" ed="#L" n="18"/>bitus in bonitate et in malitia medium gradum
+<lb ed="#L" n="19"/>obtineat inter potentiam et actum: ut scilicet,
+<lb ed="#L" n="20"/>sicut habitus bonus vel malus praeeminet in 
+bo<lb break="no" ed="#L" n="21"/>nitate vel malitia potentiae, ita etiam subdatur
+<lb ed="#L" n="22"/>actui.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e895">
+                  <lb ed="#L" n="23"/>Quod etiam ex hoc apparet, quod habitus non
+<lb ed="#L" n="24"/>dicitur bonus vel malus nisi ex hoc quod 
+in<lb break="no" ed="#L" n="25"/>clinat ad actum bonum vel malum. Unde 
+pro<lb break="no" ed="#L" n="26"/>pter bonitatem vel malitiam actus, dicitur 
+habi<lb break="no" ed="#L" n="27"/>tus bonus vel malus. Et sic potior est actus in
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="28"/>bonitate vel malitia quam habitus: quia propter
+<lb ed="#L" n="29"/>quod unumquodque tale, et illud magis est.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e915">
+                  <lb ed="#L" n="30"/>AD PRIMUM ERGO DICENDUM quod nihil prohibet
+<lb ed="#L" n="31"/>aliquid esse simpliciter altero potius, quod tamen
+<lb ed="#L" n="32"/>secundum quid ab eo deficit. Simpliciter enim
+<lb ed="#L" n="33"/>potius iudicatur quod praeeminet quantum ad
+<lb ed="#L" n="34"/>id quod per se consideratur in utroque: 
+secun<lb break="no" ed="#L" n="35"/>dum quid autem, quod praeeminet secundum id
+<lb ed="#L" n="36"/>quod per accidens se habet ad utrumque. 
+Osten<lb break="no" ed="#L" n="37"/>sum est autem ex ipsa'^ratione actus et 
+habi<lb break="no" ed="#L" n="38"/>tus, quod actus est potior in bonitate et malitia
+<lb ed="#L" n="39"/>quam habitus. Quod autem habitus sit diuturnior
+<lb ed="#L" n="40"/>quam actus, accidit ex eo quod utrumque 
+inve<lb break="no" ed="#L" n="41"/>nitur in tali natura quae non potest semper agere,
+<lb ed="#L" n="42"/>et cuius actio est in motu transeunte. Unde 
+sim<lb break="no" ed="#L" n="43"/>pliciter actus est potior tam in bonitate quam
+<lb ed="#L" n="44"/>in malitia: sed habitus est potior secundum quid.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e950">
+                  <lb ed="#L" n="45"/>AD SECUNDUM DICENDUM quod habitus non est
+<lb ed="#L" n="46"/>simpliciter plures actus, sed secundum quid, idest
+<lb ed="#L" n="47"/>virtute. Unde ex hoc non potest concludi quod
+<lb ed="#L" n="48"/>habitus sit simpliciter potior in bonitate vel ma-
+<lb ed="#L" n="49"/>litia quam actus.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e964">
+                  <lb ed="#L" n="50"/>AD TERTIUM DICENDUM quod habitus est causa
+<lb ed="#L" n="51"/>actus in genere causae efficientis: sed actus est
+<lb ed="#L" n="52"/>causa habitus in genere causae finalis, secundum
+<lb ed="#L" n="53"/>quam consideratur ratio boni et.mali. Et ideo
+<lb ed="#L" n="54"/>in bonitate et malitia actus praeeminet habitui.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1039-Dd1e978"><!-- p2p1-q71-a4 -->
+               <head xml:id="TAca84-d1e1039-Hd1e981">Articulus 4</head>
+               <head xml:id="TAca84-d1e1039-Hd1e983" type="question-title">Utrum peccatum simul possit esse cum virtute</head>
+               <p xml:id="TAca84-d1e1039-d1e986">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="74"/>ARTICULUS QUARTUS
+<lb ed="#L" n="75"/>UTRUM PECCATUM SIMUL POSSIT ESSE CUM VIRTUTE
+</p>
+               <p xml:id="TAca84-d1e1039-d1e995">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="76"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="77"/>actus vitiosus, sive peccatum, non 
+pos<lb break="no" ed="#L" n="78"/>sit simul esse cum virtute. Contraria
+<lb ed="#L" n="79"/>enim non possunt esse simul in eodem.
+<lb ed="#L" n="80"/>Sed peccatum quodammodo contrariatur virtuti,
+<lb ed="#L" n="81"/>ut dictum est. Ergo peccatum non potest simul
+<lb ed="#L" n="82"/>esse cum virtute.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1015">
+                  <lb ed="#L" n="83"/>2. PRAETEREA, peccatum est peius quam 
+vi<lb break="no" ed="#L" n="84"/>tium, idest actus malus quam habitus malus. Sed
+<lb ed="#L" n="85"/>vitium non potest simul esse in eodem cum 
+vir<lb break="no" ed="#L" n="86"/>tute. Ergo neque peccatum.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1027">
+                  <lb ed="#L" n="87"/>3. PRAETEREA, sicut peccatum accidit in rebus
+<lb ed="#L" n="88"/>voluntarii, ita et in rebus naturalibus, ut dicitur
+<lb ed="#L" n="89"/>in II. <title>Physic</title>. Sed nunquam in rebus 
+naturali<lb break="no" ed="#L" n="90"/>bus accidit peccatum nisi per aliquam 
+corruptio<lb break="no" ed="#L" n="91"/>nem virtutis naturalis: sicut <quote xml:id="TAca84-d1e1039-Qd1e1042">monstra accidunt 
+cor<lb break="no" ed="#L" n="92"/>rupto aliquo principio in semine</quote>, ut dicitur in II
+<title>Physic</title>. Ergo etiam in rebus voluntariis non
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="93"/>accidit peccatum nisi corrupta aliqua virtute 
+ani<lb break="no" ed="#L" n="94"/>mae. Et sic peccatum et virtus non possunt esse
+<lb ed="#L" n="95"/>in eodem.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1059">
+                  <lb ed="#L" n="96"/>SED CONTRA EST quod <name xml:id="TAca84-d1e1039-Nd1e1063">Philosophus</name> dicit, in II
+<title>Ethic.</title>, quod per contraria virtus generatur et
+<lb ed="#L" n="97"/>corrumpitur. Sed unus actus virtuosus non causat
+<lb ed="#L" n="98"/>virtutem, ut supra habitum est. Ergo neque
+<lb ed="#L" n="99"/>unus actus peccati tollit virtutem. Possunt ergo
+<lb ed="#L" n="100"/>simul in eodem esse.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1077">
+                  <lb ed="#L" n="101"/>RESPONDEO DICENDUM quod peccatum 
+compara<lb break="no" ed="#L" n="102"/>tur ad virtutem sicut actus malus ad habitum
+<lb ed="#L" n="103"/>bonum. Aliter autem se habet habitus in anima,
+<lb ed="#L" n="104"/>et forma in re naturali. Forma enim naturalis ex
+<lb ed="#L" n="105"/>necessitate producit operationem sibi 
+convenien<lb break="no" ed="#L" n="106"/>tem: unde non potest esse simul cum forma 
+na<lb break="no" ed="#L" n="107"/>turali actus formae contrariae; sicut non potest
+<lb ed="#L" n="108"/>esse cum calore actus infrigidationis, neque simul
+<lb ed="#L" n="109"/>cum levitate motus descensionis, nisi forte ex vio-
+<pb ed="#L" n="7"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>lentia exterioris moventis. Sed habitus in anima
+<lb ed="#L" n="2"/>non ex necessitate producit suam operationem,
+<lb ed="#L" n="3"/>sed homo <quote xml:id="TAca84-d1e1039-Qd1e1109">utitur eo cum voluerit</quote>. Unde simul
+<lb ed="#L" n="4"/>habitu in homine existente, potest non uti habitu,
+<lb ed="#L" n="5"/>aut agere contrarium actum. Et sic potest habens
+<lb ed="#L" n="6"/>virtutem procedere ad actum peccati.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1119">
+                  <lb ed="#L" n="7"/>Actus autem peccati,si comparetur ad ipsam
+<lb ed="#L" n="8"/>virtutem prout est habitus quidam, non potest
+<lb ed="#L" n="9"/>ipsam corrumpere, si sit unus tantum: sicut enim
+<lb ed="#L" n="10"/>non generatur habitus per unum actum, ita nec
+<lb ed="#L" n="11"/>per unum. actum. corrumpitur, ut supra dictum
+<lb ed="#L" n="12"/>est. Sed si comparetur actus peccati ad causam
+<lb ed="#L" n="13"/>virtutum, sic possibile est quod per unum actum
+<lb ed="#L" n="14"/>peccati aliquae virtutes corrumpantur. Quodlibet
+<lb ed="#L" n="15"/>enim peccatum mortale contrariatur caritati, quae
+<lb ed="#L" n="16"/>est radix omnium virtutum infusarum, inquantum
+<lb ed="#L" n="17"/>sunt virtutes: et ideo per unum actum peccati
+<lb ed="#L" n="18"/>mortalis, exclusa caritate, excluduntur per 
+conse<lb break="no" ed="#L" n="19"/>quens omnes virtutes infusae, quantum ad hoc
+<lb ed="#L" n="20"/>quod sunt virtutes. Et hoc dico propter fidem
+<lb ed="#L" n="21"/>et spem, quarum habitus remanent informes post
+<lb ed="#L" n="22"/>peccatum mortale, et sic non sunt virtutes. Sed
+<lb ed="#L" n="23"/>peccatum veniale, quod non contrariatur caritati
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24"/>nec excludit ipsam, per consequens etiam non
+<lb ed="#L" n="25"/>excludit alias virtutes. Virtutes vero acquisitae
+<lb ed="#L" n="26"/>non tolluntur per unum actum cuiuscumque 
+pec<lb break="no" ed="#L" n="27"/>cati.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1169">
+                  <lb ed="#L" n="28"/>Sic igitur peccatum mortale non potest simul
+<lb ed="#L" n="29"/>esse cum virtutibus infusis: potest tamen simul
+<lb ed="#L" n="30"/>esse cum virtutibus acquisitis. Peccatum vero 
+ve<lb break="no" ed="#L" n="31"/>niale potest simul esse et cum virtutibus infusis,
+<lb ed="#L" n="32"/>et cum acquisitis.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1182">
+                  <lb ed="#L" n="33"/>AD PRIMUM ERGO DICENDUM quod peccatum non
+<lb ed="#L" n="34"/>contrariatur virtuti secundum se, sed secundum
+<lb ed="#L" n="35"/>suum actum. Et ideo peccatum non potest simul
+<lb ed="#L" n="36"/>esse cum actu virtutis: potest tamen simul esse
+<lb ed="#L" n="37"/>cum habitu.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1196">
+                  <lb ed="#L" n="38"/>AD SECUNDUM DICENDUM quod vitium directe 
+con<lb break="no" ed="#L" n="39"/>trariatur virtuti, sicut et peccatum actui virtuoso.
+<lb ed="#L" n="40"/>Et ideo vitium excludit virtutem, sicut peccatum
+<lb ed="#L" n="41"/>excludit actum virtutis.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1207">
+                  <lb ed="#L" n="42"/>AD TERTIUM DICENDUM quod virtutes naturales
+<lb ed="#L" n="43"/>agunt ex necessitate: et ideo, integra existente
+<lb ed="#L" n="44"/>virtute, nunquam peccatum potest in actu 
+inve<lb break="no" ed="#L" n="45"/>niri. Sed virtutes animae non producunt actus ex
+<lb ed="#L" n="46"/>necessitàte: unde non est similis ratio.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1039-Dd1e1221"><!-- p2p1-q71-a5 -->
+               <head xml:id="TAca84-d1e1039-Hd1e1224">Articulus 5</head>
+               <head xml:id="TAca84-d1e1039-Hd1e1226" type="question-title">Utrum in quolibet peccato sit aliquis actus</head>
+               <p xml:id="TAca84-d1e1039-d1e1229">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="55"/>ARTICULUS QUINTUS.
+<lb ed="#L" n="56"/>UTRUM IN QUOLIBET PECCATO SIT ALIQUIS ACTUS
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1238">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="57"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="58"/>in quolibet peccato sit aliquis actus.
+<lb ed="#L" n="59"/>Sicut enim meritum comparatur ad 
+vir<lb break="no" ed="#L" n="60"/>tutem, ita peccatum ad vitium 
+compa<lb break="no" ed="#L" n="61"/>ratur. Sed meritum non potest esse absque aliquo
+<lb ed="#L" n="62"/>actu. Ergo nec peccatum potest esse absque 
+ali<lb break="no" ed="#L" n="63"/>quo actu.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1258">
+                  <lb ed="#L" n="64"/>2. PRAETEREA, Augustinus dicit, in libro <title>de Lib.
+<lb ed="#L" n="65"/>Arb.</title>, quod <quote xml:id="TAca84-d1e1039-Qd1e1267">omne peccatum adeo est voluntarium,
+<lb ed="#L" n="66"/>quod si non sit voluntarium, non est peccatum</quote>.
+<lb ed="#L" n="67"/>Sed non potest esse aliquid voluntarium nisi per
+<lb ed="#L" n="68"/>actum voluntatis, Ergo omne. peccatum. habet
+<lb ed="#L" n="69"/>aliquem actum.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1281">
+                  <lb ed="#L" n="70"/>3. PRAETEREA, si peccatum esset absque aliquo
+<lb ed="#L" n="71"/>actu, sequeretur quod ex hoc ipso quod aliquis
+<lb ed="#L" n="72"/>cessat ab actu debito, peccaret. Sed continue 
+ali<lb break="no" ed="#L" n="73"/>quis cessat ab actu debito, ille scilicet qui.
+nun<lb break="no" ed="#L" n="74"/>quam actum debitum. operatur. Ergo sequeretur
+<lb ed="#L" n="75"/>quod continue peccaret: quod est falsum. Non
+<lb ed="#L" n="76"/>ergo est aliquod peccatum absque actu.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1299">
+                  <lb ed="#L" n="77"/>SED CONTRA EST quod, dicitur Iac. IV: <quote xml:id="TAca84-d1e1039-Qd1e1303">Scienti
+<lb ed="#L" n="78"/>bonum. facere et non facienti, peccatum est illi</quote>.
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="79"/>Sed non facere non importat aliquem actum. Ergo
+<lb ed="#L" n="80"/>peccatum potest esse absque actu.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1315">
+                  <lb ed="#L" n="81"/>RESPONDEO DICENDUM quod quaestio ista 
+princi<lb break="no" ed="#L" n="82"/>paliter movetur propter peccatum omissionis, de
+<lb ed="#L" n="83"/>quo aliqui diversimode opinantur. Quidam enim
+<lb ed="#L" n="84"/>dicunt quod in omni peccato omissionis est 
+ali<lb break="no" ed="#L" n="85"/>quis actus vel interior vel exterior. Interior 
+qui<lb break="no" ed="#L" n="86"/>dem, sicut cum aliquis vult non ire ad ecclesiam
+<lb ed="#L" n="87"/>quando ire tenetur. Exterior autem, sicut cum
+<lb ed="#L" n="88"/>aliquis. illa hora qua ad ecclesiam ire tenetur,
+<lb ed="#L" n="89"/>vel etiam ante, occupat se talibus quibus ab
+<lb ed="#L" n="90"/>eundo. ad ecclesiam. impeditur. Et hoc 
+quodam<lb break="no" ed="#L" n="91"/>modo. videtur in primum redire; qui enim vult
+<lb ed="#L" n="92"/>aliquid cum quo aliud simul esse non potest, ex
+<lb ed="#L" n="93"/>consequenti vult illo carere; nisi forte non 
+per<lb break="no" ed="#L" n="94"/>pendat quod. per. hoc quod vult facere, impeditur
+<lb ed="#L" n="95"/>ab eo quod íacere tenetur; in quo casu posset
+<lb ed="#L" n="96"/>per negligentiam culpabilis iudicari. - Alii vero
+<lb ed="#L" n="97"/>dicunt quod in peccato omissionis non requiritur
+<lb ed="#L" n="98"/>aliquis actus: ipsum enim. non facere quod quis
+<lb ed="#L" n="99"/>facere tenetur, peccatum est.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1359">
+                  <lb ed="#L" n="100"/>Utraque autem opinio secundum. aliquid veri-
+<pb ed="#L" n="8"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tatem habet. Si enim intelligatur in peccato 
+omis<lb break="no" ed="#L" n="2"/>sionis illud. solum quod per se pertinet ad 
+ra<lb break="no" ed="#L" n="3"/>tionem peccati, sic quandoque omissionis 
+pecca<lb break="no" ed="#L" n="4"/>tum est cum actu interiori, ut cum aliquis vult
+<lb ed="#L" n="5"/>non ire ad ecclesiam: quandoque vero absque
+<lb ed="#L" n="6"/>omni actu vel interiori vel exteriori, sicut cum
+<lb ed="#L" n="7"/>aliquis hora qua tenetur ire ad ecclesiam, nihil
+<lb ed="#L" n="8"/>cogitat de eundo vel non eundo ad ecclesiam. —
+<lb ed="#L" n="9"/>Si vero in peccato omissionis intelligantur etiam
+<lb ed="#L" n="10"/>causae vel occasiones omittendi, sic necesse est
+<lb ed="#L" n="11"/>in peccato omissionis aliquem actum esse. Non
+<lb ed="#L" n="12"/>enim est peccatum omissionis nisi cum aliquis
+<lb ed="#L" n="13"/>praetermittit quod potest facere et non facere.
+<lb ed="#L" n="14"/>Quod autem aliquis declinet ad non faciendum
+<lb ed="#L" n="15"/>illud quod potest facere et non facere, non est
+<lb ed="#L" n="16"/>nisi ex aliqua causa vel occasione coniuncta vel
+<lb ed="#L" n="17"/>praecedente. Et si quidem causa illa non sit in
+<lb ed="#L" n="18"/>potestate hominis, omissio non habet rationem
+<lb ed="#L" n="19"/>peccati: sicut cum aliquis propter infirmitatem
+<lb ed="#L" n="20"/>praetermittit ad ecclesiam ire. Si vero causa vel
+<lb ed="#L" n="21"/>occasio omittendi subiaceat voluntati, omissio 
+ha<lb break="no" ed="#L" n="22"/>bet rationem peccati: et tunc semper oportet quod
+<lb ed="#L" n="23"/>ista causa, inquantum est voluntaria, habeat 
+ali<lb break="no" ed="#L" n="24"/>quem actum, ad minus interiorem voluntatis.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1420">
+                  <lb ed="#L" n="25"/>Qui quidem actus quandoque directe fertur in
+<lb ed="#L" n="26"/>ipsam omissionem: puta cum aliquis vult non ire
+<lb ed="#L" n="27"/>ad ecclesiam, vitans laborem. Et tunc talis actus
+<lb ed="#L" n="28"/>per se pertinet ad omissionem: voluntàs. enim
+<lb ed="#L" n="29"/>cuiuscumque peccati per se pertinet ad peccatum
+<lb ed="#L" n="30"/>illud, eo quod voluntarium est de ratione 
+pec<lb break="no" ed="#L" n="31"/>cati. — Quandoque autem actus voluntatis directe
+<lb ed="#L" n="32"/>fertur in aliud, per quod homo impeditur ab
+<lb ed="#L" n="33"/>actu debito: sive illud in quod fertur voluntas,
+<lb ed="#L" n="34"/>sit coniunctum omissioni, puta cum aliquis vult
+<lb ed="#L" n="35"/>fudere quando ad ecclesiam debet ? ire; sive
+<lb ed="#L" n="36"/>etiam sit praecedens, puta cum aliquis vult diu
+<lb ed="#L" n="37"/>vigilare de sero, ex quo sequitur quod non vadat
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="38"/>hora matutinali ad ecclesiam. Et tunc actus iste
+<lb ed="#L" n="39"/>interior vel exterior per accidens se habet ad
+<lb ed="#L" n="40"/>omissionem: quia omissio sequitur praeter 
+inten<lb break="no" ed="#L" n="41"/>tionem; hoc autem dicimus per accidens esse,
+<lb ed="#L" n="42"/>quod est praeter intentionem, ut patet in II <title>Physic</title>.
+<lb ed="#L" n="43"/>Unde manifestum est quod tunc peccatum 
+omis<lb break="no" ed="#L" n="44"/>sionis habet quidem aliquem actum coniunctum
+<lb ed="#L" n="45"/>vel praecedentem, qui tamen per accidens se 
+ha<lb break="no" ed="#L" n="46"/>bet ad peccatum omissionis. Iudicium autem de
+<lb ed="#L" n="47"/>rebus dandum est secundum illud quod est per
+<lb ed="#L" n="48"/>se, et non secundum illud quod est per accidens.
+<lb ed="#L" n="49"/>Unde verius dici potest quod aliquod peccatum
+<lb ed="#L" n="50"/>possit esse absque omni actu. Alioquin etiam ad
+<lb ed="#L" n="51"/>essentiam aliorum peccatorum actualium 
+pertine<lb break="no" ed="#L" n="52"/>rent actus et occasiones circumstantes.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1488">
+                  <lb ed="#L" n="53"/>AD PRIMUM ERGO DICENDUM quod plura 
+requi<lb break="no" ed="#L" n="54"/>runtur ad bonum quam ad malum: eo quod <quote xml:id="TAca84-d1e1039-Qd1e1494">
+bo<lb break="no" ed="#L" n="55"/>num contingit ex tota integra causa, malum 
+au<lb break="no" ed="#L" n="56"/>tem ex singularibus defectibus</quote>, ut Dionysius dicit,
+<lb ed="#L" n="57"/>iv cap. <title>de Div. Nom.</title> Et ideo peccatum potest
+<lb ed="#L" n="58"/>contingere sive aliquis faciat quod non debet, sive
+<lb ed="#L" n="59"/>non faciendo quod debet: sed meritum non 
+po<lb break="no" ed="#L" n="60"/>test esse nisi aliquis faciat voluntarie quod debet.
+<lb ed="#L" n="61"/>Et ideo meritum non potest esse sine actu, sed
+<lb ed="#L" n="62"/>peccatum potest esse sine actu.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1518">
+                  <lb ed="#L" n="63"/>AD SECUNDUM DICENDUM quod aliquid dicitur 
+vo<lb break="no" ed="#L" n="64"/>luntarium, non solum quia cadit super ipsum 
+a<lb break="no" ed="#L" n="65"/>ctus voluntatis, sed quia in potestate nostra est
+<lb ed="#L" n="66"/>ut fiat vel non fiat, ut dicitur in III <title>Ethic.</title> Unde
+<lb ed="#L" n="67"/>etiam ipsum non velle potest dici voluntarium,
+<lb ed="#L" n="68"/>inquantum in potestate hominis est velle et non
+<lb ed="#L" n="69"/>velle.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1538">
+                  <lb ed="#L" n="70"/>AD TERTIUM DICENDUM quod peccatum omissionis
+<lb ed="#L" n="71"/>contrariatur praecepto affirmativo, quod obligat
+<lb ed="#L" n="72"/>semper, sed non ad semper. Et ideo solum pro
+<lb ed="#L" n="73"/>tempore illo aliquis cessando ab actu peccat, pro
+<lb ed="#L" n="74"/>quo. praeceptum affirmativum obligat.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1039-Dd1e1553"><!-- p2p1-q71-a6 -->
+               <head xml:id="TAca84-d1e1039-Hd1e1556">Articulus 6</head>
+               <head xml:id="TAca84-d1e1039-Hd1e1558" type="question-title">Utrum convenienter definiatur peccatum esse dictum vel factum
+    vel concupitum contra legem aeternam</head>
+               <p xml:id="TAca84-d1e1039-d1e1561">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="75"/>ARTICULUS SEXTUS.
+<lb ed="#L" n="76"/>UTRUM CONVENIENTER DEFINIATUR PECCATUM ESSE DICTUM VEL FACTUM
+<lb ed="#L" n="77"/>VEL CONCUPITUM CONTRA LEGEM AETERNAM
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1572">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="78"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="79"/>inconvenienter definiatur peccatum, cum
+<lb ed="#L" n="80"/>a dicitur: <quote xml:id="TAca84-d1e1039-Qd1e1582">Peccatum est dictum vel factum
+<lb ed="#L" n="81"/>Nel concupitum contra legem aeternam</quote>.
+<lb ed="#L" n="82"/>Dictum enim, vel factum, vel concupitum, 
+im<lb break="no" ed="#L" n="83"/>portat aliquem actum. Sed non omne peccatum
+<lb ed="#L" n="84"/>importat aliquem actum, ut dictum est. Ergo
+<lb ed="#L" n="85"/>haec definitio non includit omne peccatum.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1597">
+                  <lb ed="#L" n="86"/>2. PRAETEREA, <name xml:id="TAca84-d1e1039-Nd1e1601">Augustinus</name> dicit, in libro <title>de 
+Dua<lb break="no" ed="#L" n="87"/>bus Animabus</title>: <quote xml:id="TAca84-d1e1039-Qd1e1608">Peccatum est voluntas retinendi
+<lb ed="#L" n="88"/>vel consequendi quod iustitia vetat</quote>. Sed voluntas
+<lb ed="#L" n="89"/>sub concupiscentia comprehenditur, secundum
+<lb ed="#L" n="90"/>quod concupiscentia largo modo sumitur pro omni
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="91"/>appetitu. Ergo suffecisset dicere, Peccatum est
+<lb ed="#L" n="92"/>concupitum contra legem aeternam; nec oportuit
+<lb ed="#L" n="93"/>addere, dictum vel factum.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1628">
+                  <lb ed="#L" n="94"/>3. PRAETEREA, peccatum proprie consistere 
+vi<lb break="no" ed="#L" n="95"/>detur in aversione a fine: nam bonum et malum
+<lb ed="#L" n="96"/>principaliter considerantur secundum finem, ut
+<lb ed="#L" n="97"/>ex supradictis patet. Unde et Augustinus, in I
+<lb ed="#L" n="98"/>de Lib. Arb., per comparationem ad finem 
+de<lb break="no" ed="#L" n="99"/>finit peccatum, dicens quod peccare nihil est. aliud
+<lb ed="#L" n="100"/>quam, neglectis rebus aeternis, temporalia sectari:
+<lb ed="#L" n="101"/>et in libro Octoginta trium Quaest., dicit quod
+<lb ed="#L" n="102"/>omnis humana perversitas est uti fruendis et frui
+<lb ed="#L" n="103"/>ulendis. Sed in praemissa definitione nulla fit
+<pb ed="#L" n="9"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>mentio de aversione a debito fine. Ergo 
+insuffi<lb break="no" ed="#L" n="2"/>cienter definitur peccatum.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1661">
+                  <lb ed="#L" n="3"/>4. PRAETEREA, ex hoc dicitur aliquid esse 
+pro<lb break="no" ed="#L" n="4"/>hibitum, quia legi contrariatur. Sed non omnia
+<lb ed="#L" n="5"/>peccata sunt mala quia prohibita, sed quaedam
+<lb ed="#L" n="6"/>sunt prohibita quia mala. Non ergo in communi
+<lb ed="#L" n="7"/>definitione peccati debuit poni quod sit contra
+<lb ed="#L" n="8"/>legem Dei.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1677">
+                  <lb ed="#L" n="9"/>5. PRAETEREA, peccatum significat malum 
+ho<lb break="no" ed="#L" n="10"/>inis actum, ut ex dictis patet. Sed malum 
+ho<lb break="no" ed="#L" n="11"/>minis est conira rationem esse, ut Dionysius dicit,
+<lb ed="#L" n="12"/>S.T.ec.xxw. py cap. de Div. Nom. Ergo potius debuit dici
+<lb ed="#L" n="13"/>quod peccatum sit contra rationem, quam quod
+<lb ed="#L" n="14"/>peccatum sit contra legem aeternam.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1693">
+                  <lb ed="#L" n="15"/>IN CONTRARIUM sufficit auctoritas Augustini.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1698">
+                  <lb ed="#L" n="16"/>RESPONDEO DICENDUM quod, sicut ex dictis 
+pa<lb break="no" ed="#L" n="17"/>tet, peccatum nihil aliud est quam actus humanus
+<lb ed="#L" n="18"/>malus. Quod autem aliquis actus sit humanus,
+<lb ed="#L" n="19"/>habet ex hoc quod est voluntarius, sicut ex
+<lb ed="#L" n="20"/>supradictis patet: sive sit voluntarius quasi a
+<lb ed="#L" n="21"/>voluntate elicitus, ut ipsum velle et eligere; sive
+<lb ed="#L" n="22"/>quasi a voluntate imperatus, ut exteriores actus
+<lb ed="#L" n="23"/>vel locutionis vel operationis. Habet autem actus
+<lb ed="#L" n="24"/>humanus quod sit malus, ex eo quod caret 
+de<lb break="no" ed="#L" n="25"/>bita commensuratione. Omnis autem 
+commensu<lb break="no" ed="#L" n="26"/>ratio cuiuscumque rei attenditur per 
+compara<lb break="no" ed="#L" n="27"/>tionem ad aliquam regulam, a qua si divertat,
+<lb ed="#L" n="28"/>incommensurata erit Regula autem voluntatis
+<lb ed="#L" n="29"/>humanae est duplex: una propinqua et 
+homoge<lb break="no" ed="#L" n="30"/>nea, scilicet ipsa humana ratio; alia vero est
+<lb ed="#L" n="31"/>prima regula, scilicet lex aeterna, quae est quasi
+<lb ed="#L" n="32"/>ratio Dei. Et ideo Augustinus in definitione 
+pec<lb break="no" ed="#L" n="33"/>cati posuit duo: unum quod pertinet ad 
+substan<lb break="no" ed="#L" n="34"/>tiam actus humani, quod est quasi materiale in
+<lb ed="#L" n="35"/>peccato, cum dixit, dictum vel factum vel 
+con<lb break="no" ed="#L" n="36"/>cupitum; aliud autem quod pertinet ad rationem
+<lb ed="#L" n="37"/>mali, quod est quasi formale in peccato, cum
+<lb ed="#L" n="38"/>dixit, contra legem aeternam.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1750">
+                  <lb ed="#L" n="39"/>AD PRIMUM ERGO DICENDUM quod affirmatio et
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="40"/>negatio reducuntur ad idem genus: sicut in 
+di<lb break="no" ed="#L" n="41"/>vinis genitum et ingenitum ad relationem, ut 
+Au<lb break="no" ed="#L" n="42"/>gustinus dicit, in V de Z7rin. Et ideo pro eodem
+<lb ed="#L" n="43"/>est accipiendum dictum et non dictum, factum
+<lb ed="#L" n="44"/>et non factum.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1769">
+                  <lb ed="#L" n="45"/>AD SECUNDUM DICENDUM quod prima causa 
+pec<lb break="no" ed="#L" n="46"/>cati est in voluntate, quae imperat omnes actus
+<lb ed="#L" n="47"/>voluntarios, in quibus solum invenitur peccatum:
+<lb ed="#L" n="48"/>et ideo Augustinus quandoque per solam 
+volun<lb break="no" ed="#L" n="49"/>tatem definit peccatum. Sed quia etiam ipsi 
+ex<lb break="no" ed="#L" n="50"/>teriores actus pertinent ad substantiam peccati,
+<lb ed="#L" n="51"/>cum sint secundum se mali, ut dictum est; 
+ne<lb break="no" ed="#L" n="52"/>cesse fuit quod in definitione peccati poneretur
+<lb ed="#L" n="53"/>etiam aliquid pertinens ad exteriores actus.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1791">
+                  <lb ed="#L" n="54"/>AD TERTIUM DICENDUM quod lex aeterna primo
+<lb ed="#L" n="55"/>et principaliter ordinat hominem ad finem, 
+con<lb break="no" ed="#L" n="56"/>sequenter autem facit hominem ? bene se habere
+<lb ed="#L" n="57"/>circa ea quae sunt ad finem. Et ideo in hoc quod
+<lb ed="#L" n="58"/>dicit conira legem aeternam, tangit aversionem a
+<lb ed="#L" n="59"/>fine, et omnes alias inordinationes.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1807">
+                  <lb ed="#L" n="60"/>AD QUARTUM DICENDUM quod, cum dicitur quod
+<lb ed="#L" n="61"/>non omne peccatum ideo est malum quia est
+<lb ed="#L" n="62"/>prohibitum, intelligitur de prohibitione facta per
+<lb ed="#L" n="63"/>ius positivum. Si autem referatur ad ius naturale,
+<lb ed="#L" n="64"/>quod continetur primo quidem in lege aeterna,
+<lb ed="#L" n="65"/>secundario vero in naturali iudicatorio rationis
+<lb ed="#L" n="66"/>humanae, tunc omne peccatum est malum quia
+<lb ed="#L" n="67"/>prohibitum: ex hoc enim ipso quod est 
+inordi<lb break="no" ed="#L" n="68"/>natum, iuri naturali repugnat.
+</p>
+               <p xml:id="TAca84-d1e1039-d1e1829">
+                  <lb ed="#L" n="69"/>AD QUINTUM DICENDUM quod a theologis 
+consi<lb break="no" ed="#L" n="70"/>deratur peccatum praecipue secundum quod est
+<lb ed="#L" n="71"/>offensa contra Deum: a philosopho autem 
+mo<lb break="no" ed="#L" n="72"/>rali, secundum quod contrariatur rationi. Et ideo
+<lb ed="#L" n="73"/>Augustinus convenientius definit peccatum ex hoc
+<lb ed="#L" n="74"/>quod est contra legem aeternam, quam ex hoc
+<lb ed="#L" n="75"/>quod est contra rationem: praecipue cum per 
+le<lb break="no" ed="#L" n="76"/>gem aeternam regulemur in multis quae 
+exce<lb break="no" ed="#L" n="77"/>dunt rationem humanam, sicut in his quae sunt
+<lb ed="#L" n="78"/>fidei.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

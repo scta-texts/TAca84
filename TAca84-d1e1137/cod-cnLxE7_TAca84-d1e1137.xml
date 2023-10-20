@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 90</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 90</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="149"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1137"><!-- p2p1-q90 -->
+            <head xml:id="TAca84-d1e1137-Hd1e101">Quaestio 90</head>
+            <head xml:id="TAca84-d1e1137-Hd1e103" type="question-title">De essentia legis</head>
+            <p xml:id="TAca84-d1e1137-d1e106">
+               <pb ed="#L" n="149"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO NONAGESIMA
+<lb ed="#L" n="2"/>DE ESSENTIA LEGIS
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1137-d1e119">
+               <lb ed="#L" n="4"/>CONSEQUENTER considerandum est de principiis
+<lb ed="#L" n="5"/>exterioribus actuum. Principium autem 
+ex<lb break="no" ed="#L" n="6"/>terius ad malum inclinans est diabolus, de cuius
+<lb ed="#L" n="7"/>tentatione in Primo dictum est. Principium 
+au<lb break="no" ed="#L" n="8"/>tem exterius movens ad bonum est Deus, qui et
+<lb ed="#L" n="9"/>nos instruit per legem, et iuvat per gratiam. Unde
+<lb ed="#L" n="10"/>primo, de lege; secundo, de gratia dicendum est.
+<lb ed="#L" n="11"/>Circa legem autem, primo oportet considerare de
+<lb ed="#L" n="12"/>ipsa lege in communi; secundo, de partibus eius.
+</p>
+            <p xml:id="TAca84-d1e1137-d1e141">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="13"/>Circa legem autem in communi tria occurrunt
+<lb ed="#L" n="14"/>consideranda: primo quidem, de essentia ipsius;
+<lb ed="#L" n="15"/>secundo, de differentia legum; tertio, de 
+effe<lb break="no" ed="#L" n="16"/>ctibus legis
+</p>
+            <p xml:id="TAca84-d1e1137-d1e155">
+               <lb ed="#L" n="17"/>Circa primum quaeruntur quatuor.
+<lb ed="#L" n="18"/>Primo: utrum lex sit aliquid rationis.
+<lb ed="#L" n="19"/>Secundo: de fine legis.
+<lb ed="#L" n="20"/>Tertio: de causa eius.
+<lb ed="#L" n="21"/>Quarto: de promulgatione ipsius.
+</p>
+            <div xml:id="TAca84-d1e1137-Dd1e168"><!-- p2p1-q90-a1 -->
+               <head xml:id="TAca84-d1e1137-Hd1e171">Articulus 1</head>
+               <head xml:id="TAca84-d1e1137-Hd1e173" type="question-title">Utrum lex sit aliquid rationis</head>
+               <p xml:id="TAca84-d1e1137-d1e176">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="22"/>ARTICULUS PRIMUS
+<lb ed="#L" n="23"/>UTRUM LEX SIT ALIQUID RATIONIS
+</p>
+               <p xml:id="TAca84-d1e1137-d1e185">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="25"/>lex non sit aliquid rationis. Dicit enim
+<lb ed="#L" n="26"/>Apostolus, ad Rom. vn: Video aliam
+<lb ed="#L" n="27"/>legem in membris meis, etc. Sed nihil
+<lb ed="#L" n="28"/>quod est rationis, est in membris: quia ratio non
+<lb ed="#L" n="29"/>utitur organo corporali. Ergo lex non est aliquid
+<lb ed="#L" n="30"/>rationis.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e205">
+                  <lb ed="#L" n="31"/>2. PRAETEREA, in ratione non est nisi potentia,
+<lb ed="#L" n="32"/>habitus et actus. Sed lex non est "ipsa potentia
+<lb ed="#L" n="33"/>rationis. Similiter etiam non est aliquis habitus
+<lb ed="#L" n="34"/>rationis: quia habitus rationis sunt virtutes 
+intel<lb break="no" ed="#L" n="35"/>lectuales, de quibus supra dictum est. Nec etiam
+<lb ed="#L" n="36"/>est actus rationis: quia cessante rationis actu, lex
+<lb ed="#L" n="37"/>cessaret, puta in dormientibus. Ergo lex non est
+<lb ed="#L" n="38"/>aliquid rationis.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e226">
+                  <lb ed="#L" n="39"/>3. PRAETEREA, lex movet eos qui subiiciuntur
+<lb ed="#L" n="40"/>legi, ad recte agendum. Sed movere ad agendum
+<lb ed="#L" n="41"/>proprie pertinet ad voluntatem, ut patet ex 
+prae<lb break="no" ed="#L" n="42"/>missis. Ergo lex non pertinet ad rationem, sed
+<lb ed="#L" n="43"/>magis ad voluntatem: secundum quod etiam 
+Iu<lb break="no" ed="#L" n="44"/>risperitus dicit: Quod placuit principi, legis 
+ha<lb break="no" ed="#L" n="45"/>bet 9 vigorem.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e244">
+                  <lb ed="#L" n="46"/>SED cowTRA EsT quod ad legem pertinet 
+prae<lb break="no" ed="#L" n="47"/>cipere et prohibere. Sed imperare est rationis,
+<lb ed="#L" n="48"/>ut supra habitum est. Ergo lex est aliquid 
+ra<lb break="no" ed="#L" n="49"/>tionis.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e255">
+                  <lb ed="#L" n="50"/>RESPONDEO DICENDUM quod lex quaedam regula
+<lb ed="#L" n="51"/>est et mensura actuum, secundum quam inducitur
+<lb ed="#L" n="52"/>aliquis ad agendum, vel ab agendo retrahitur: 
+di<lb break="no" ed="#L" n="53"/>citur enim lex a /igando, quia obligat ad 
+agen<lb break="no" ed="#L" n="54"/>dum. Regula aptent et mensura humanorum 
+ac<lb break="no" ed="#L" n="55"/>tuum est ratio, quae est primum principium
+<lb ed="#L" n="56"/>actuum humanorum, ut ex praedictis patet: 
+ra<lb break="no" ed="#L" n="57"/>tionis enim est ordinare ad finem, qui est primum
+<lb ed="#L" n="58"/>principium in agendis, secundum Philosophum.
+<lb ed="#L" n="59"/>In unoquoque autem genere id quod est 
+prin<lb break="no" ed="#L" n="60"/>cipium, est mensura et regula illius generis: sicut
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="61"/>unitas in genere numeri, et motus primus in genere
+<lb ed="#L" n="62"/>motuum. Unde relinquitur quod lex sit aliquid
+<lb ed="#L" n="63"/>pertinens ad rationem.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e290">
+                  <lb ed="#L" n="64"/>AD PRIMUM ERGO DICENDUM quod, cum lex sit 
+re<lb break="no" ed="#L" n="65"/>gula quaedam et mensura, dicitur dupliciter esse
+<lb ed="#L" n="66"/>in aliquo. Uno modo, sicut in mensurante et 
+re<lb break="no" ed="#L" n="67"/>gulante. Et quia hoc est proprium rationis, ideo
+<lb ed="#L" n="68"/>per hunc modum lex est in ratione sola. - Alio
+<lb ed="#L" n="69"/>modo, sicut in regulato et mensurato. Et sic lex
+<lb ed="#L" n="70"/>est in omnibus quae inclinantur in aliquid ex
+<lb ed="#L" n="71"/>aliqua lege: ita quod quaelibet inclinatio 
+prove<lb break="no" ed="#L" n="72"/>niens ex aliqua lege, potest dici lex, non 
+essen<lb break="no" ed="#L" n="73"/>tialiter, sed quasi participative. Et hoc modo 
+in<lb break="no" ed="#L" n="74"/>clinatio ipsa membrorum ad concupiscendum /ex
+<lb ed="#L" n="75"/>membrorum vocatur.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e319">
+                  <lb ed="#L" n="76"/>AD SECUNDUM DICENDUM quod, sicut in actibus
+<lb ed="#L" n="77"/>exterioribus est considerare operationem et 
+ope<lb break="no" ed="#L" n="78"/>ratum, puta aedificationem et aedificatum; ita in
+<lb ed="#L" n="79"/>operibus rationis est considerare ipsum actum 
+ra<lb break="no" ed="#L" n="80"/>tionis, qui est intelligere et ratiocinari, et aliquid
+<lb ed="#L" n="81"/>per huiusmodi actum constitutum. Quod quidem
+<lb ed="#L" n="82"/>in speculativa ratione primo quidem est definitio;
+<lb ed="#L" n="83"/>secundo, enunciatio; tertio vero, syllogismus vel
+<lb ed="#L" n="84"/>argumentatio. Et quia ratio etiam practica utitur
+<lb ed="#L" n="85"/>quodam syllogismo in operabilibus, ut supra 
+ha<lb break="no" ed="#L" n="86"/>bitum est, secundum quod Philosophus docet in
+<lb ed="#L" n="87"/>VII Ethic.; ideo est' invenire aliquid in ratione
+<lb ed="#L" n="88"/>pratica quod ita se habeat ad operationes, sicut w
+<lb ed="#L" n="89"/>se habet propositio in ratione speculativa ad 
+con<lb break="no" ed="#L" n="90"/>clusiones. Et huiusmodi propositiones universales
+<lb ed="#L" n="91"/>rationis practicae ordinatae ad actiones, habent
+<lb ed="#L" n="92"/>rationem legis. Quae quidem propositiones 
+ali<lb break="no" ed="#L" n="93"/>quando actualiter considerantur, aliquando vero
+<lb ed="#L" n="94"/>habitualiter a ratione tenentur.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e363">
+                  <lb ed="#L" n="95"/>AD TERTIUM DICENDUM quod ratio habet vim
+<lb ed="#L" n="96"/>movendi a voluntate, ut supra dictum est: ex
+<lb ed="#L" n="97"/>hoc enim quod aliquis vult finem, ratio imperat
+<pb ed="#L" n="150"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>de his quae sunt ad finem. Sed voluntas de his
+<lb ed="#L" n="2"/>quae imperantur, ad hoc quod legis rationem 
+ha<lb break="no" ed="#L" n="3"/>beat, oportet quod sit aliqua ratione regulata. Et |
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="4"/>hoc modo intelligitur quod voluntas principis habet
+<lb ed="#L" n="5"/>vigorem legis: alioquin voluntas principis magis
+<lb ed="#L" n="6"/>esset iniquitas quam lex.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1137-Dd1e393"><!-- p2p1-q90-a2 -->
+               <head xml:id="TAca84-d1e1137-Hd1e396">Articulus 2</head>
+               <head xml:id="TAca84-d1e1137-Hd1e398" type="question-title">Utrum lex ordinetur semper ad bonum commune</head>
+               <p xml:id="TAca84-d1e1137-d1e401">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="25"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="26"/>UTRUM LEX ORDINETUR SEMPER AD BONUM COMMUNE
+</p>
+               <p xml:id="TAca84-d1e1137-d1e410">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="27"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="28"/>lex non ordinetur semper ad bonum
+<lb ed="#L" n="29"/>commune sicut ad finem. Ad legem
+<lb ed="#L" n="30"/>enim pertinet praecipere et prohibere.
+<lb ed="#L" n="31"/>Sed praecepta ordinantur ad quaedam singularia
+<lb ed="#L" n="32"/>bona. Non ergo semper finis legis. est bonum
+<lb ed="#L" n="33"/>commune,
+</p>
+               <p xml:id="TAca84-d1e1137-d1e430">
+                  <lb ed="#L" n="34"/>2. PRAETEREA, lex dirigit hominem ad agendum.
+<lb ed="#L" n="35"/>Sed actus humani sunt in particularibus. Ergo et
+<lb ed="#L" n="36"/>lex ad aliquod particulare bonum. ordinatur.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e440">
+                  <lb ed="#L" n="37"/>3. PRAETEREA, Isidorus dicit, in libro Etymol.:
+<lb ed="#L" n="38"/>Si ratione lex constat, lex erit omne quod ratione
+<lb ed="#L" n="39"/>constiterit. Sed ratione consistit non solum quod
+<lb ed="#L" n="40"/>ordinatur ad bonum commune, sed etiam quod
+<lb ed="#L" n="41"/>ordinatur ad bonum privatum. Ergo lex non
+<lb ed="#L" n="42"/>ordinatur solum ad bonum commune, sed etiam
+<lb ed="#L" n="43"/>ad bonum privatum unius.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e458">
+                  <lb ed="#L" n="44"/>SEp coNTRA EsT quod Isidorus dicit, in V 
+Ety<lb break="no" ed="#L" n="45"/>mol., quod lex est nullo privato commodo, sed
+<lb ed="#L" n="46"/>pro communi utilitate civium 9. conscripta.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e467">
+                  <lb ed="#L" n="47"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="48"/>lex pertinet ad id quod est principium. 
+humano<lb break="no" ed="#L" n="49"/>rum actuum, ex eo quod est regula et mensura.
+<lb ed="#L" n="50"/>Sicut autem ratio est principium humanorum 
+a<lb break="no" ed="#L" n="51"/>ctuum, ita etiam in ipsa ratione est aliquid quod
+<lb ed="#L" n="52"/>est principium respectu omnium aliorum. Unde
+<lb ed="#L" n="53"/>ad hoc oportet quod principaliter et maxime
+<lb ed="#L" n="54"/>pertineat lex. - Primum autem. principium in 
+ope<lb break="no" ed="#L" n="55"/>rativis, quorum est ratio practica, est finis 
+ulti<lb break="no" ed="#L" n="56"/>mus..Est autem ultimus finis humanae vitae 
+fe<lb break="no" ed="#L" n="57"/>licitas vel beatitudo, ut supra habitum est. Unde
+<lb ed="#L" n="58"/>oportet quod lex maxime respiciat ordinem qui est
+<lb ed="#L" n="59"/>in beatitudinem. - Rursus, cum. omnis. pars 
+ordi<lb break="no" ed="#L" n="60"/>netur ad totum sicut imperfectum ad perfectum;
+<lb ed="#L" n="61"/>unus autem homo est pars communitatis perfectae:
+<lb ed="#L" n="62"/>necesse est quod lex proprie respiciat ordinem ad
+<lb ed="#L" n="63"/>felicitatem. communem. Unde et Philosophus, in
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="64"/>praemissa definitione legalium, mentionem facit
+<lb ed="#L" n="65"/>et de felicitate et communione politica. Dicit enim,
+<lb ed="#L" n="66"/>in V Ethic., quod legalia iusta dicimus factiva et
+<lb ed="#L" n="67"/>conservaliva felicitatis et particularum ipsius, 
+po<lb break="no" ed="#L" n="68"/>litica communicatione: perfecta enim communitas
+<lb ed="#L" n="69"/>civitas est, ut dicitur in I Polit. 
+</p>
+               <p xml:id="TAca84-d1e1137-d1e522">
+                  <lb ed="#L" n="70"/>In quolibet autem genere id quod maxime 
+di<lb break="no" ed="#L" n="71"/>citur, est principium aliorum, et alia dicuntur 
+se<lb break="no" ed="#L" n="72"/>cundum ordinem ad ipsum: sicut ignis, qui est
+<lb ed="#L" n="73"/>maxime calidus, est causa caliditatis in corporibus
+<lb ed="#L" n="74"/>mixtis, quae intantum dicuntur calida, 
+inquan<lb break="no" ed="#L" n="75"/>tum participant de igne. Unde oportet quod, cum
+<lb ed="#L" n="76"/>lex maxime dicatur secundum ordinem ad 
+bo<lb break="no" ed="#L" n="77"/>num commune, quodcumque aliud praeceptum
+<lb ed="#L" n="78"/>de particulari opere non habeat rationem legis
+<lb ed="#L" n="79"/>nisi secundum ordinem ad bonum commune.
+<lb ed="#L" n="80"/>Et ideo omnis lex ad bonum commune. 
+ordi<lb break="no" ed="#L" n="81"/>natur.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e551">
+                  <lb ed="#L" n="82"/>AD PRIMUM ERGO DICENDUM quod. praeceptum
+<lb ed="#L" n="83"/>importat applicationem legis ad ea quae ex lege 
+<lb ed="#L" n="84"/>regulantur. Ordo autem ad bonum commune,
+<lb ed="#L" n="85"/>qui pertinet ad legem, est applicabilis ad 
+singu<lb break="no" ed="#L" n="86"/>lares fines. Et secundum hoc, etiam de 
+particu<lb break="no" ed="#L" n="87"/>laribus quibusdam praecepta dantur.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e567">
+                  <lb ed="#L" n="88"/>AD SECUNDUM DICENDUM quod operationes quidem
+<lb ed="#L" n="89"/>sunt in particularibus: sed illa particularia referri
+<lb ed="#L" n="90"/>possunt ad bonum commune, non quidem 
+com<lb break="no" ed="#L" n="91"/>munitate generis vel speciei, sed communitate
+<lb ed="#L" n="92"/>causae finalis, secundum quod bonum commune
+<lb ed="#L" n="93"/>dicitur finis communis.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e584">
+                  <lb ed="#L" n="94"/>AD TERTIUM DICENDUM quod, sicut nihil constat
+<lb ed="#L" n="95"/>firmiter secundum rationem Speculativam nisi per
+<lb ed="#L" n="96"/>resolutionem ad prima principia indemonstrabilia,
+<lb ed="#L" n="97"/>ita firmiter nihil. constat per rationem practicam
+<lb ed="#L" n="98"/>nisi per ordinationem ad ultimum finem, qui est
+<lb ed="#L" n="99"/>bonum commune. Quod autem hoc modo ratione
+<lb ed="#L" n="100"/>constat, legis rationem habet.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1137-Dd1e603"><!-- p2p1-q90-a3 -->
+               <head xml:id="TAca84-d1e1137-Hd1e606">Articulus 3</head>
+               <head xml:id="TAca84-d1e1137-Hd1e608" type="question-title">Utrum ratio cuiuslibet sit factiva legis</head>
+               <p xml:id="TAca84-d1e1137-d1e611">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="9"/>ARTICULUS TERTIUS
+<lb ed="#L" n="10"/>UTRUM RATIO CUIUSLIBET SIT FACTIVA LEGIS
+</p>
+               <p xml:id="TAca84-d1e1137-d1e620">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="11"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="12"/>cuiuslibet ratio sit factiva legis. Dicit
+<lb ed="#L" n="13"/>enim Apostolus, ad Rom., quod cum
+<lb ed="#L" n="14"/>gentes, quae legem non habent, 
+natura<lb break="no" ed="#L" n="15"/>liter ea quae legis sunt faciunt, ipsi sibi sunt lex.
+<lb ed="#L" n="16"/>Hoc autem communiter de omnibus dicit. Ergo
+<lb ed="#L" n="17"/>quilibet potest facere sibi legem.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e640">
+                  <lb ed="#L" n="18"/>2. PRAETEREA, sicut Philosophus dicit, in libro
+<lb ed="#L" n="19"/>II Ethic., intentio legislatoris est ut inducat 
+ho<lb break="no" ed="#L" n="20"/>minem ad virtutem. Sed. quilibet homo potest
+<lb ed="#L" n="21"/>alium. inducere ad. virtutem. Ergo cuiuslibet 
+ho<lb break="no" ed="#L" n="22"/>minis ratio est factiva legis.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e654">
+                  <lb ed="#L" n="23"/>3. PRAETEREA, sicut princeps civitatis est 
+civi<lb break="no" ed="#L" n="24"/>tatis gubernator, ita quilibet paterfamilias est 
+gu<lb break="no" ed="#L" n="25"/>bernator domus. Sed princeps civitatis. potest 
+le<lb break="no" ed="#L" n="26"/>gem in civitate facere. Ergo quilibet paterfamilias
+<lb ed="#L" n="27"/>potest in sua. domo facere legem..
+</p>
+               <p xml:id="TAca84-d1e1137-d1e667">
+                  <lb ed="#L" n="28"/>SED coNTRA EsT quod Isidorus dicit, in libro.
+<lb ed="#L" n="29"/>Etymol., et habetur in Decretis, dist. 2: Lex
+<lb ed="#L" n="30"/>est constitutio populi, secundum quam maiores
+<lb ed="#L" n="31"/>nalu simul cum. plebibus aliquid sanxerunt. Non
+<lb ed="#L" n="32"/>est ergo cuiuslibet facere legem.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e680">
+                  <lb ed="#L" n="33"/>RESPONDEO DICENDUM quod lex proprie, primo
+<lb ed="#L" n="34"/>et principaliter respicit ordinem ad bonum 
+com<lb break="no" ed="#L" n="35"/>mune, Ordinare autem aliquid in bonum 
+com<lb break="no" ed="#L" n="36"/>mune est vel totius multitudinis, vel alicuius 
+ge<lb break="no" ed="#L" n="37"/>rentis vicem totius multitudinis. Et ideo condere
+<lb ed="#L" n="38"/>legem vel pertinet ad totam multitudinem, vel
+<lb ed="#L" n="39"/>pertinet ad personam publicam quae totius 
+mul<lb break="no" ed="#L" n="40"/>titudinis curam habet. Quia et in omnibus aliis
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="41"/>ordinare in finem est eius cuius est proprius ille
+<lb ed="#L" n="42"/>finis.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e706">
+                  <lb ed="#L" n="43"/>AD PRIMUM. ERGO DICENDUM quod, sicut supra 
+<lb ed="#L" n="44"/>dictum est, lex est in aliquo non solum sicut in
+<lb ed="#L" n="45"/>regulante, sed etiam participative sicut in 
+regu<lb break="no" ed="#L" n="46"/>lato. Et hoc. modo unusquisque sibi est lex, 
+in<lb break="no" ed="#L" n="47"/>quantum participat ordinem alicuius. regulantis.
+<lb ed="#L" n="48"/>Unde et ibidem subditur: Qui wmcurt opus
+<lb ed="#L" n="49"/>legis scriptum in cordibus. suis.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e724">
+                  <lb ed="#L" n="50"/>AD SECUNDUM DICENDUM:quod. persona pritiun
+<lb ed="#L" n="51"/>non potest inducere efficaciter ad virtutem. 
+Po<lb break="no" ed="#L" n="52"/>test enim solum monere ?, sed. si sua monitio non
+<lb ed="#L" n="53"/>recipiatur, non habet vim coactivam; quam debet
+<lb ed="#L" n="54"/>habere lex, ad hoc quod efficaciter inducat ad
+<lb ed="#L" n="55"/>virtutem, ut Philosophus dicit, in X Ethic. Hanc
+<lb ed="#L" n="56"/>autem virtutem coactivam habet multitudo vel
+<lb ed="#L" n="57"/>persona publica, ad quam pertinet poenas 
+infli<lb break="no" ed="#L" n="58"/>gere, ut infra dicetur. Et ideo solius eius est
+<lb ed="#L" n="59"/>leges facere.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e748">
+                  <lb ed="#L" n="60"/>AD TERTIUM DICENDUM quod, sicut homo est pars
+<lb ed="#L" n="61"/>domus, ita domus est pars civitatis: civitas autem
+<lb ed="#L" n="62"/>est communitas perfecta, ut dicitur in 1 Politic. 
+<lb ed="#L" n="63"/>Et ideo sicut bonum unius hominis non est 
+ul<lb break="no" ed="#L" n="64"/>timus finis, sed. ordinatur ad commune bonum;
+<lb ed="#L" n="65"/>ita etiam et bonum unius domus ordinatur ad
+<lb ed="#L" n="66"/>bonum unius civitatis, quae est. communitas 
+per<lb break="no" ed="#L" n="67"/>fecta. Unde ille qui gubernat aliquam familiam,
+<lb ed="#L" n="68"/>potest quidem facere aliqua,praecepta vel 
+sta<lb break="no" ed="#L" n="69"/>tuta; non tamen quae proprie habeant rationem
+<lb ed="#L" n="70"/>legis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1137-Dd1e775"><!-- p2p1-q90-a4 -->
+               <head xml:id="TAca84-d1e1137-Hd1e778">Articulus 4</head>
+               <head xml:id="TAca84-d1e1137-Hd1e780" type="question-title">Utrum promulgatio sit de ratione legis</head>
+               <p xml:id="TAca84-d1e1137-d1e783">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="22"/>ARTICULUS QUARTUS
+<lb ed="#L" n="23"/>UTRUM PROMULGATIO SIT DE RATIONE LEGIS
+</p>
+               <p xml:id="TAca84-d1e1137-d1e792">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="24"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="25"/>promulgatio non sit de ratione legis.
+<lb ed="#L" n="26"/>Lex enim naturalis maxime habet 
+ra<lb break="no" ed="#L" n="27"/>tionem legis. Sed lex naturalis non 
+in<lb break="no" ed="#L" n="28"/>diget promulgatione. - Ergo non est de ratione
+<lb ed="#L" n="29"/>legis quod. promulgetur.:
+</p>
+               <p xml:id="TAca84-d1e1137-d1e810">
+                  <lb ed="#L" n="30"/>2. PRAETEREA, ad legem pertinet proprie 
+obli<lb break="no" ed="#L" n="31"/>gare ad aliquid faciendum vel non faciendum.
+<lb ed="#L" n="32"/>Sed non solum obligantur ad implendam legem
+<lb ed="#L" n="33"/>illi coram. quibus promulgatur lex, sed etiam
+<lb ed="#L" n="34"/>alii. Ergo promulgatio non est de ratione legis.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e824">
+                  <lb ed="#L" n="35"/>3. PRAETEREA, obligatio legis extenditur etiam
+<lb ed="#L" n="36"/>in futurum: quia' eges futuris negotiis 
+necessita<lb break="no" ed="#L" n="37"/>tem imponunt, ut iura dicunt. Sed promulgatio
+<lb ed="#L" n="38"/>fit ad praesentes. Ergo promulgatio non est de
+<lb ed="#L" n="39"/>necessitate legis.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e837">
+                  <lb ed="#L" n="40"/>SED CONTRA EST quod dicitur in Decretis, 4 dist.,
+<lb ed="#L" n="41"/>quod leges instituuntur cum promulgantur.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e844">
+                  <lb ed="#L" n="42"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="43"/>lex imponitur alis per modum regulae et 
+men<lb break="no" ed="#L" n="44"/>surae. Regula autem et mensura imponitur per
+<lb ed="#L" n="45"/>hoc quod applicatur his quae regulantur et 
+men<lb break="no" ed="#L" n="46"/>surantur. Unde ad hoc quod lex virtutem obli-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="47"/>gandi obtineat, quod est proprium legis, oportet
+<lb ed="#L" n="48"/>quod applicetur hominibus qui secundum. eam
+<lb ed="#L" n="49"/>regulari debent. Talis autem applicatio fit per hoc
+<lb ed="#L" n="50"/>quod in notitiam eorum deducitur ex ipsa pro
+<lb ed="#L" n="51"/>mulgatione. Unde promulgatio necessaria est a
+<lb ed="#L" n="52"/>hoc quod lex habeat suam virtutem. i9
+</p>
+               <p xml:id="TAca84-d1e1137-d1e873">
+                  <lb ed="#L" n="53"/>Et sic ex quatuor praedictis potest colligi 
+de<lb break="no" ed="#L" n="54"/>finitio legis, quae nihil est aliud quam eitin
+<lb ed="#L" n="55"/>rationis ordinatio ad. bonum commune, ab eo
+<lb ed="#L" n="56"/>qui curam communitatis habet, promulgata &amp;
+</p>
+               <p xml:id="TAca84-d1e1137-d1e884">
+                  <lb ed="#L" n="57"/>AD PRIMUM ERGO DICENDUM quod promulgatio
+<lb ed="#L" n="58"/>legis naturae.est ex hoc ipso quod Deus eam
+<lb ed="#L" n="59"/>mentibus hominum inseruit naturaliter cognos
+<lb ed="#L" n="60"/>scendam.
+</p>
+               <p xml:id="TAca84-d1e1137-d1e895">
+                  <lb ed="#L" n="61"/>AD SECUNDUM DICENDUM quod illi coram. quibus ad
+<lb ed="#L" n="62"/>lex non promulgatur, obligantur ad legem 
+ser<lb break="no" ed="#L" n="63"/>vandam, inquantum in eorum notitiam: devenit
+<lb ed="#L" n="64"/>per alios, vel devenire potest, promulgatione facta;
+</p>
+               <p xml:id="TAca84-d1e1137-d1e907">
+                  <lb ed="#L" n="65"/>AD TERTIUM DICENDUM quod promulgatio 
+prae<lb break="no" ed="#L" n="66"/>sens in futurum extenditur. per firmitatem:
+scri<lb break="no" ed="#L" n="67"/>pturae, quae quodammodo 'semper eam 
+promul<lb break="no" ed="#L" n="68"/>gat. Unde Isidorus dicit, in 11 Etymol.
+<lb ed="#L" n="69"/>lex a legendo vocata est; quia scripta est.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

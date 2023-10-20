@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 101</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 101</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="223"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1194"><!-- p2p1-q101 -->
+            <head xml:id="TAca84-d1e1194-Hd1e101">Quaestio 101</head>
+            <head xml:id="TAca84-d1e1194-Hd1e103" type="question-title">De praeceptis caeremonialibus secundum se</head>
+            <p xml:id="TAca84-d1e1194-d1e106">
+               <pb ed="#L" n="223"/>
+               <!-- 223 -->
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO CENTESIMAPRIMA
+<lb ed="#L" n="2"/>DE PRAECEPTIS CAEREMONIALIBUS SECUNDUM SE
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1194-d1e122">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>CONSEQUENTER considerandum est de 
+praece<lb break="no" ed="#L" n="5"/>ovii caeremonialibus. Et primo, de ipsis 
+se<lb break="no" ed="#L" n="6"/>cundum se; secundo, de. causa eorum; tertio,
+<lb ed="#L" n="7"/>de duratione ipsorum.
+</p>
+            <p xml:id="TAca84-d1e1194-d1e135">
+               <lb ed="#L" n="8"/>Circa primum quaeruntur quatuor.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="9"/>Primo: quae sit ratio praeceptorum 
+caeremo<lb break="no" ed="#L" n="10"/>nialium.
+<lb ed="#L" n="11"/>Secundo: utrum sint figuralia.
+<lb ed="#L" n="12"/>Tertio: utrum debuerint esse multa.
+<lb ed="#L" n="13"/>Quarto: de distinctione ipsorum.
+</p>
+            <div xml:id="TAca84-d1e1194-Dd1e154"><!-- p2p1-q101-a1 -->
+               <head xml:id="TAca84-d1e1194-Hd1e157">Articulus 1</head>
+               <head xml:id="TAca84-d1e1194-Hd1e159" type="question-title">Utrum ratio praeceptorum caeremonialium in hoc consistat
+    quod pertinent ad cultum dei</head>
+               <p xml:id="TAca84-d1e1194-d1e162">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>ARTICULUS PRIMUS
+<lb ed="#L" n="15"/>UTRUM RATIO PRAECEPTORUM CAEREMONIALIUM IN HOC CONSISTAT
+<lb ed="#L" n="16"/>QUOD PERTINENT AD CULTUM DEI
+</p>
+               <p xml:id="TAca84-d1e1194-d1e173">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="17"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="18"/>ratio praeceptorum caeremonialium non
+<lb ed="#L" n="19"/>in hoc consistat quod pertinent ad 
+cul<lb break="no" ed="#L" n="20"/>tum Dei. In lege enim veteri dantur
+<lb ed="#L" n="21"/>ludaeis quaedam praecepta de abstinentia 
+cibo<lb break="no" ed="#L" n="22"/>rum, ut patet Levit. x1; et etiam de abstinendo
+<lb ed="#L" n="23"/>ab aliquibus vestimentis, sicut illud Levit. xix,
+<lb ed="#L" n="24"/>Vestem quae ex duobus texta est, non indueris;
+<lb ed="#L" n="25"/>et iterum quod praecipitur Num. xv, Ut faciant
+<lb ed="#L" n="26"/>sibi fimbrias per angulos palliorum. Sed 
+huius<lb break="no" ed="#L" n="27"/>modi non sunt praecepta moralia: quia non 
+ma<lb break="no" ed="#L" n="28"/>nent in nova lege. Nec etiam iudicialia: quia non
+<lb ed="#L" n="29"/>pertinent ad iudicium faciendum inter homines.
+<lb ed="#L" n="30"/>Ergo sunt caeremonialia. Sed in nullo pertinere
+<lb ed="#L" n="31"/>videntur ad cultum Dei. Ergo non est ratio 
+cae<lb break="no" ed="#L" n="32"/>remonialium praeceptorum quod pertineant ad
+<lb ed="#L" n="33"/>cultum Dei.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e215">
+                  <lb ed="#L" n="34"/>2. PRAETEREA, dicunt quidam quod praecepta
+<lb ed="#L" n="35"/>caeremonialia dicuntur illa quae pertinent ad 
+so<lb break="no" ed="#L" n="36"/>lemnitates: quasi dicerentur a cereis, qui in 
+sole<lb break="no" ed="#L" n="37"/>mnitatibus accenduntur. Sed multa alia sunt 
+per<lb break="no" ed="#L" n="38"/>tinentia ad cultum Dei praeter solemnitates. Ergo
+<lb ed="#L" n="39"/>non videtur quod praecepta caeremonialia ea
+<lb ed="#L" n="40"/>ratione dicantur, quia pertinent ad cultum Dei.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e234">
+                  <lb ed="#L" n="41"/>3. PRAETEREA, secundum quosdam, praecepta
+<lb ed="#L" n="42"/>caeremonialia dicuntur quasi normae, dest 
+regu<lb break="no" ed="#L" n="43"/>lae, salutis: nam cAaire in graeco idem est quod
+<lb ed="#L" n="44"/>salve. Sed omnia praecepta legis sunt regulae 
+sa<lb break="no" ed="#L" n="45"/>lutis, et non solum illa quae pertinent ad Dei
+<lb ed="#L" n="46"/>cultum. Ergo non solum illa praecepta dicuntur
+<lb ed="#L" n="47"/>caeremonialia quae pertinent ad cultum Dei.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e252">
+                  <lb ed="#L" n="48"/>4. PRAETEREA, Rabbi Moyses dicit quod 
+prae<lb break="no" ed="#L" n="49"/>cepta caeremonialia dicuntur quorum ratio. non
+<lb ed="#L" n="50"/>est manifesta. Sed multa pertinentia ad cultum
+<lb ed="#L" n="51"/>Dei habent rationem manifestam: sicut 
+observa<lb break="no" ed="#L" n="52"/>tio sabbati, et celebratio Phase et Scenopegiae,
+<lb ed="#L" n="53"/>et multorum aliorum, quorum ratio assignatur in
+<lb ed="#L" n="54"/>lege. Ergo caeremonialia non sunt quae pertinent
+<lb ed="#L" n="55"/>ad cultum Dei.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e272">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="56"/>SED CONTRA EST quod dicitur Exod. XVIII: Esto
+<lb ed="#L" n="57"/>populo in his quae ad Deum pertinent, 
+ostendas<lb break="no" ed="#L" n="58"/>que populo caeremonias et ritum colendi.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e283">
+                  <lb ed="#L" n="59"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="60"/>est, caeremonialia praecepta determinant 
+praece<lb break="no" ed="#L" n="61"/>pta moralia in ordine ad Deum, sicut iudicialia
+<lb ed="#L" n="62"/>determinant praecepta moralia in ordine ad 
+pro<lb break="no" ed="#L" n="63"/>ximum. Homo autem ordinatur ad Deum per
+<lb ed="#L" n="64"/>debitum cultum. Et ideo caeremonialia proprie
+<lb ed="#L" n="65"/>dicuntur quae ad cultum Dei pertinent. - Ratio
+<lb ed="#L" n="66"/>autem huius nominis posita est supra, ubi 
+prae<lb break="no" ed="#L" n="67"/>cepta caeremonialia ab aliis sunt distincta.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e305">
+                  <lb ed="#L" n="68"/>AD PRIMUM ERGO DICENDUM quod ad cultum Dei
+<lb ed="#L" n="69"/>pertinent non solum sacrificia et alia huiusmodi,
+<lb ed="#L" n="70"/>quae immediate ad Deum ordinari videntur, sed
+<lb ed="#L" n="71"/>etiam debita praeparatio colentium Deum ad 
+cul<lb break="no" ed="#L" n="72"/>tum ipsius: sicut etiam in aliis quaecumque sunt
+<lb ed="#L" n="73"/>praeparatoria ad finem, cadunt sub scientia quae
+<lb ed="#L" n="74"/>est de fine. Huiusmodi autem praecepta quae
+<lb ed="#L" n="75"/>dantur in lege de vestibus et cibis colentium
+<lb ed="#L" n="76"/>Deum, et aliis huiusmodi, pertinent ? ad quandam
+<lb ed="#L" n="77"/>praeparationem ipsorum ministrantium, ut sint
+<lb ed="#L" n="78"/>idonei ad cultum Dei: sicut etiam specialibus
+<lb ed="#L" n="79"/>observantiis aliqui utuntur qui sunt in ministerio
+<lb ed="#L" n="80"/>regis. Unde etiam sub praeceptis caeremonialibus
+<lb ed="#L" n="81"/>continentur.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e338">
+                  <lb ed="#L" n="82"/>AD SECUNDUM DICENDUM quod illa expositio 
+no<lb break="no" ed="#L" n="83"/>minis non videtur esse multum conveniens: 
+prae<lb break="no" ed="#L" n="84"/>sertim cum non multum inveniatur in lege quod
+<lb ed="#L" n="85"/>in solemnitatibus cerei accenderentur, sed in ipso
+<lb ed="#L" n="86"/>etiam candelabro lucernae cum olio olivarum
+<lb ed="#L" n="87"/>praeparabantur, ut patet Lev. xxiv. Nihilominus 
+<lb ed="#L" n="88"/>tamen potest dici quod in solemnitatibus omnia
+<lb ed="#L" n="89"/>illa ? quae pertinebant ad cultum Dei, diligentius
+<lb ed="#L" n="90"/>observabantur: et secundum hoc, in observatione
+<lb ed="#L" n="91"/>solemnitatum omnia caeremonialia includuntur.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e363">
+                  <lb ed="#L" n="92"/>AD TERTIUM DICENDUM quod nec illa expositio
+<lb ed="#L" n="93"/>nominis videtur esse multum conveniens: nomen
+<lb ed="#L" n="94"/>enim caeremoniae non est graecum, sed latinum.
+<pb ed="#L" n="224"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Potest tamen dici quod, cum salus hominis sit
+<lb ed="#L" n="2"/>a Deo, praecipue illa praecepta videntur esse 
+sa<lb break="no" ed="#L" n="3"/>lutis regulae, quae hominem ordinant ad Deum.
+<lb ed="#L" n="4"/>Et sic caeremonialia dicuntur quae ad cultum
+<lb ed="#L" n="5"/>Dei pertinent.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e387">
+                  <lb ed="#L" n="6"/>AD QUARTUM DICENDUM quod illa ratio caeremo-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="7"/>nialium est quodammodo probabilis, non quod
+<lb ed="#L" n="8"/>ex eo dicuntur caeremonialia quia eorum ratio
+<lb ed="#L" n="9"/>mon est manifesta; sed hoc est quoddam 
+conse<lb break="no" ed="#L" n="10"/>quens. Quia enim praecepta ad cultum Dei 
+perti<lb break="no" ed="#L" n="11"/>nentia oportet esse figuralia, ut infra dicetur, inde
+<lb ed="#L" n="12"/>est quod eorum ratio non est adeo manifesta.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1194-Dd1e408"><!-- p2p1-q101-a2 -->
+               <head xml:id="TAca84-d1e1194-Hd1e411">Articulus 2</head>
+               <head xml:id="TAca84-d1e1194-Hd1e413" type="question-title">Utrum praecepta caeremonialia sint figuralia</head>
+               <p xml:id="TAca84-d1e1194-d1e416">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="19"/>ARTICULUS SECUNDUS:
+<lb ed="#L" n="20"/>UTRUM PRAECEPTA CAEREMONIALIA SINT FIGURALIA
+</p>
+               <p xml:id="TAca84-d1e1194-d1e425">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="21"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="22"/>praecepta caeremonialia non sint 
+figu<lb break="no" ed="#L" n="23"/>ralia, Pertinet enim ad officium 
+cuius<lb break="no" ed="#L" n="24"/>libet doctoris ut sic pronunciet ut de
+<lb ed="#L" n="25"/>facili intelligi possit, sicut Augustinus dicit, in IV
+<lb ed="#L" n="26"/>de Doctr. Christ.. Et hoc maxime videtur esse
+<lb ed="#L" n="27"/>necessarium in legis latione: quia praecepta legis
+<lb ed="#L" n="28"/>populo proponuntur. Unde lex debet esse 
+mani<lb break="no" ed="#L" n="29"/>festa, ut Isidorus dicit. Si igitur praecepta 
+cae<lb break="no" ed="#L" n="30"/>remonialia dàta sunt in alicuius rei figuram, 
+vi<lb break="no" ed="#L" n="31"/>detur inconvenienter tradidisse huiusmodi 
+prae<lb break="no" ed="#L" n="32"/>cepta Moyses, non exponens quid figurarent.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e456">
+                  <lb ed="#L" n="33"/>2. PRAETEREA, ea quae in. cultum Dei aguntur,
+<lb ed="#L" n="34"/>maxime debent honestatem habere. Sed facere
+<lb ed="#L" n="35"/>aliqua facta ad alia 5 repraesentanda, videtur esse
+<lb ed="#L" n="36"/>theatricum, sive poeticum: in theatris enim 
+re<lb break="no" ed="#L" n="37"/>praesentabantur olim. per aliqua quae ibi 
+gere<lb break="no" ed="#L" n="38"/>bantur, quaedam aliorum facta. Ergo videtur quod
+<lb ed="#L" n="39"/>huiusmodi non debeant fieri ad cultum Dei. Sed
+<lb ed="#L" n="40"/>caeremonialia ordinantur ad cultum Dei, ut 
+di<lb break="no" ed="#L" n="41"/>ctum est. Ergo caeremonialia non debent esse
+<lb ed="#L" n="42"/>figuralia.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e481">
+                  <lb ed="#L" n="43"/>3. PnaETEREA, Augustinus dicit, in.Enchirid. s,
+<lb ed="#L" n="44"/>quod Deus maxime colitur fide, spe et caritate.
+<lb ed="#L" n="45"/>Sed praecepta quae dantur de fide, spe et 
+cari<lb break="no" ed="#L" n="46"/>tate, non sunt figuralia. Ergo praecepta 
+caeremo<lb break="no" ed="#L" n="47"/>nialia non debent esse figuralia.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e494">
+                  <lb ed="#L" n="48"/>4. PRAETEREA, Dominus dicit, Ioan. iv: 
+Spiri<lb break="no" ed="#L" n="49"/>tus est Deus: et eos qui adorant eum, in. spiritu
+<lb ed="#L" n="50"/>et veritate. adorare oportet. Sed figura non est
+<lb ed="#L" n="51"/>ipsa veritas: immo contra se invicenr dividuntur.
+<lb ed="#L" n="52"/>Ergo caeremonialia, quae pertinent ad. cultum Dei,
+<lb ed="#L" n="53"/>non debent esse figuralia.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e510">
+                  <lb ed="#L" n="54"/>SED CONTRA EST quod Apostolus diat ad Colos.
+<lb ed="#L" n="55"/>u: Nemo vos iudicei. in cibo aut in potu, aut
+<lb ed="#L" n="56"/>in parte diei festi aut neomeniae aut sabbatorum,
+<lb ed="#L" n="57"/>quae sunt umbra futurorum. j
+</p>
+               <p xml:id="TAca84-d1e1194-d1e521">
+                  <lb ed="#L" n="58"/>RESPONDEO DICENDUM quod, sicut iam dictum
+<lb ed="#L" n="59"/>est, praecepta caeremonialia dicuntur quae ordi-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="60"/>nantur ad cultum Dei. Est autem duplex t cultus
+<lb ed="#L" n="61"/>Dei: interior, et exterior. Cum enim homo sit 
+com<lb break="no" ed="#L" n="62"/>positus ex anima et corpore, utrumque debet 
+ap<lb break="no" ed="#L" n="63"/>plicari ad colendum Deum, ut scilicet anima colat
+<lb ed="#L" n="64"/>interiori cultu, et corpus exteriori: unde dicitur
+<lb ed="#L" n="65"/>in Psalmo rxxxur: Cor meum et caro mea 
+exul<lb break="no" ed="#L" n="66"/>taverunt in Deum vivum. Et sicut corpus 
+ordi<lb break="no" ed="#L" n="67"/>natur in Deum per animam, ita cultus exterior
+<lb ed="#L" n="68"/>ordinatur ad interiorem cultum. Consistit autem
+<lb ed="#L" n="69"/>interior cultus in hoc quod anima coniungatur
+<lb ed="#L" n="70"/>Deo per intellectum. et affectum. Et ideo 
+secun<lb break="no" ed="#L" n="71"/>dum quod diversimode intellectus et affectus 
+co<lb break="no" ed="#L" n="72"/>lentis Deum Deo recte. coniungitur, secundum
+<lb ed="#L" n="73"/>hoc. diversimode exteriores actus horsinis. ad 
+cul<lb break="no" ed="#L" n="74"/>tum Dei applicantur.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e563">
+                  <lb ed="#L" n="75"/>In statu enim. futurae beatitudinis, intellectus
+<lb ed="#L" n="76"/>humanus ipsam divinam veritatem ? in seipsa
+<lb ed="#L" n="77"/>intuebitur. Et ideo exterior cultus non. consistet
+<lb ed="#L" n="78"/>in aliqua figura, sed. solum in laude Dei, quae
+<lb ed="#L" n="79"/>procedit ex interiori cognitione et affectione;
+<lb ed="#L" n="80"/>secundum illud Isaiae L1: Gaudium. et 
+laeti<lb break="no" ed="#L" n="81"/>lia invenietur in ea, gratiarum aclio et vox
+<lb ed="#L" n="82"/>laudis.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e583">
+                  <lb ed="#L" n="83"/>In statu autem praesentis vitae, non 
+possu<lb break="no" ed="#L" n="84"/>mus divinam veritatem in seipsa intueri, sed
+<lb ed="#L" n="85"/>oportet quod radius divinae veritatis nobis 
+illu<lb break="no" ed="#L" n="86"/>cescat sub aliquibus sensibilibus figuris, sicut 
+Dio<lb break="no" ed="#L" n="87"/>nysius dicit, 1 cap. Cael. Hier.: diversimode tamen,
+<lb ed="#L" n="88"/>secundum diversum statum cognitionis humanae.
+<lb ed="#L" n="89"/>In. veteri enim lege neque ipsa divina veritas in
+<lb ed="#L" n="90"/>seipsa manifesta erat, neque etiam adhuc. 
+propa<lb break="no" ed="#L" n="91"/>lata erat via ad hoc perveniendi, sicut Apostolus
+<lb ed="#L" n="92"/>dicit, ad Heb. ix. Et ideo oportebat exteriorem '
+<lb ed="#L" n="93"/>cultam veteris legis non solum. esse figurativum
+<lb ed="#L" n="94"/>futurae veritatis manifestandae in patria; sed etiam
+<lb ed="#L" n="95"/>esse figurativum Christi, qui est via ducens ad
+<lb ed="#L" n="96"/>illam patriae veritatem, Sed in. statu novae legis,
+<lb ed="#L" n="97"/>haec via iam est revelata. Unde hanc praefigurari
+<lb ed="#L" n="98"/>non oportet sicut futuram, sed commemorari
+<pb ed="#L" n="225"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>oportet per — praeteriti vel praesentis: sed
+<lb ed="#L" n="2"/>solum oportet- praefigurari futuram veritatem 
+glo<lb break="no" ed="#L" n="3"/>riae nondum revelatam. Et hoc est quod 
+Apo<lb break="no" ed="#L" n="4"/>stolus dicit, ad Heb. x: Umbram habet lex 
+futu<lb break="no" ed="#L" n="5"/>rorum bonorum, non ipsam imaginem rerum:
+<lb ed="#L" n="6"/>umbra enim minus est quam imago; tanquam
+<lb ed="#L" n="7"/>imago pertineat. hd novam — umbra vero ad
+<lb ed="#L" n="8"/>veteremi
+</p>
+               <p xml:id="TAca84-d1e1194-d1e643">
+                  <lb ed="#L" n="9"/>AD PRIMUM ERGO DICENDUM quod divina non sunt
+<lb ed="#L" n="10"/>revelanda hominibus nisi secundum eorum 
+ca<lb break="no" ed="#L" n="11"/>pacitatem alioquin daretur eis praecipitii 
+mate<lb break="no" ed="#L" n="12"/>ria, dum contemnerent quae capere non possent.
+<lb ed="#L" n="13"/>Et ideo utilius fuit ut sub quodam. figurarum
+<lb ed="#L" n="14"/>velamine divina mysteria rudi populo. traderen-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="15"/>tur, ut sic saltem ea implicite cognoscerent, dum
+<lb ed="#L" n="16"/>illis figuris deservirent ad honorem Dei.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e665">
+                  <lb ed="#L" n="17"/>AD SECUNDUM DICENDUM quod, sicut poetica non
+<lb ed="#L" n="18"/>capiuntur a ratione humana propter defectum
+<lb ed="#L" n="19"/>veritatis qui est in eis, ita etiam ratio humana
+<lb ed="#L" n="20"/>perfecte capere non potest divina propter 
+exce<lb break="no" ed="#L" n="21"/>dentem ipsorum "veritatem. Et ideo utrobique
+<lb ed="#L" n="22"/>opus est repraesentatione per sensibiles figuras.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e681">
+                  <lb ed="#L" n="23"/>AD TERTIUM DICENDUM quod Augustinus ibi 
+lo<lb break="no" ed="#L" n="24"/>quitur de cultu interiore; ad quem tamen 
+ordi<lb break="no" ed="#L" n="25"/>nari oportet exteriorem cultum, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e690">
+                  <lb ed="#L" n="26"/>Et similiter dicendum est ad quartum: quia
+<lb ed="#L" n="27"/>per Christum homines plenius ad spiritualem Dei
+<lb ed="#L" n="28"/>cultum. sunt. introducti.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1194-Dd1e700"><!-- p2p1-q101-a3 -->
+               <head xml:id="TAca84-d1e1194-Hd1e703">Articulus 3</head>
+               <head xml:id="TAca84-d1e1194-Hd1e705" type="question-title">Utrum debuerint esse multa caeremonialia praecepta</head>
+               <p xml:id="TAca84-d1e1194-d1e708">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29"/>ARTICULUS TERTIUS
+<lb ed="#L" n="30"/>UTRUM DEBUERINT ESSE MULTA CAEREMONIALIA PRAECEPTA
+</p>
+               <p xml:id="TAca84-d1e1194-d1e717">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="31"/>AD TERTIUM SIC PROCEDITUR. Videtur. quod
+<lb ed="#L" n="32"/>non debuerint esse multa. 
+caeremonia<lb break="no" ed="#L" n="33"/>lia praecepta. Ea enim quae sunt ad
+<lb ed="#L" n="34"/>finem, debent esse fini proportionata.
+<lb ed="#L" n="35"/>Sed caeremonialia praecepta, sicut dictum est,
+<lb ed="#L" n="36"/>ordinantur ad cultum Dei et in figuram Christi.
+<lb ed="#L" n="37"/>Est autem unus Deus, a quo omnia; et unus 
+Do<lb break="no" ed="#L" n="38"/>minus Iesus Christus, per quem omnia, ut dicitur
+<lb ed="#L" n="39"/>I ad Cor. vun . Ergo caeremonialia non. 
+debue<lb break="no" ed="#L" n="40"/>runt multiplicari.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e743">
+                  <lb ed="#L" n="41"/>2. PRAETEREA, multitudo caeremonialium 
+prae<lb break="no" ed="#L" n="42"/>ceptorum transgressionis erat occasio; secundum
+<lb ed="#L" n="43"/>illud quod dicit Petrus, Act, XV: QUid tentatis
+<lb ed="#L" n="44"/>Deum, imponere L iugum. super cervicem 
+discipu<lb break="no" ed="#L" n="45"/>lorum, quod:neque nos, neque patres nosiri, 
+por<lb break="no" ed="#L" n="46"/>tare potuimus? Sed transgressio divinorum 
+prae<lb break="no" ed="#L" n="47"/>ceptorum contrariatur humanae saluti. Cum igitur
+<lb ed="#L" n="48"/>lex omnis. debeat saluti congruere. hominum, ut
+<lb ed="#L" n="49"/>Isidorus dicit, videtur quod non debuerint multa
+<lb ed="#L" n="50"/>praecepta. caeremonialia dari.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e768">
+                  <lb ed="#L" n="51"/>3. PRAETEREA, praecepta caeremonialia. 
+pertine<lb break="no" ed="#L" n="52"/>bant ad cultum Dei exteriorem, et corporalem,
+<lb ed="#L" n="53"/>ut dictum est. Sed huiusmodi cultam. 
+corpora<lb break="no" ed="#L" n="54"/>lem lex debebat, diminuere: quia ordinabat ad
+<lb ed="#L" n="55"/>Christum, qui docuit homines. Deum. colere. in
+<lb ed="#L" n="56"/>spiritu et veritate, ut habetur Ioan. 1v. Non. ergo
+<lb ed="#L" n="57"/>debuerunt multa. praecepta caeremonialia dari.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e786">
+                  <lb ed="#L" n="58"/>SED CONTRA EST, quod dicitur Osee. vun.: 
+Scri<lb break="no" ed="#L" n="59"/>bam. eis multiplices. leges intus Y; et Iob xi: Ut
+<lb ed="#L" n="60"/>ostenderet tibi secreta. sapientiae, quad multiplex
+<lb ed="#L" n="61"/>sit lex eius.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e797">
+                  <lb ed="#L" n="62"/>REsPoNpEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="63"/>est, omnis lex alicui. populo datur. In. populo. 
+au<lb break="no" ed="#L" n="64"/>tem duo. genera. hominum continentur: quidam
+<lb ed="#L" n="65"/>proni ad malum, np. sunt per praecepta legis
+<lb ed="#L" n="66"/>coercendi, ut supra dictum est; quidam 
+haben<lb break="no" ed="#L" n="67"/>tes iniclínationem ad bonum, vel. ex natura vel
+<lb ed="#L" n="68"/>ex consuetudine, vel magis ex gratia: et tales
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="69"/>sunt per legis praeceptum instruendi et in melius
+<lb ed="#L" n="70"/>promovendi. Quantum igitur ad utrumque genus
+<lb ed="#L" n="71"/>hominum, expediebat praecepta caeremonialia in
+<lb ed="#L" n="72"/>veteri lege multiplicari. Erant enim in illo populo
+<lb ed="#L" n="73"/>aliqui ad idololatriam. proni:.et ideo necesse erat
+<lb ed="#L" n="74"/>ut ab idololatriae cultu per praecepta 
+caeremonia<lb break="no" ed="#L" n="75"/>lia. revocarentur ad cultum. Dei. Et quia 
+multi<lb break="no" ed="#L" n="76"/>pliciter homines idololatriae deserviebant, 
+oporte<lb break="no" ed="#L" n="77"/>bat e contrario multa institui ad singula 
+repri<lb break="no" ed="#L" n="78"/>menda: et iterum multa talibus imponi, ut, quasi
+<lb ed="#L" n="79"/>oneratis ex his quae ad cultum Dei impenderent,
+<lb ed="#L" n="80"/>non vacaret idololatriae. deservire.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e843">
+                  <lb ed="#L" n="81"/>Ex parte vero eorum qui erant prompti ad
+<lb ed="#L" n="82"/>bonum, etiam necessaria fuit multiplicatio 
+caere<lb break="no" ed="#L" n="83"/>monialium. praeceptorum. Tum quia per hoc 
+di<lb break="no" ed="#L" n="84"/>versimode. mens. eorum. referebatur in. Deum,
+<lb ed="#L" n="85"/>et magis assidue. Tum etiam quia mysterium 
+Chri<lb break="no" ed="#L" n="86"/>sti, quod per huiusmodi. caeremonialia. 
+figura<lb break="no" ed="#L" n="87"/>batur, multiplices utilitates attulit mundo, et multa
+<lb ed="#L" n="88"/>circa. ipsum:.consideranda erant, quae oportuit
+<lb ed="#L" n="89"/>per. diversa. caeremonialia. figurari.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e865">
+                  <lb ed="#L" n="90"/>AD PRIMUM ERGO DICENDUM quod, quando id quod
+<lb ed="#L" n="91"/>ordinatur ad finem, est sufficiens ad ducendum
+<lb ed="#L" n="92"/>in finem, tunc sufficit unum ad. unum. finem:
+<lb ed="#L" n="93"/>sicut una medicina, si sit efficax, sufficit. 
+quando<lb break="no" ed="#L" n="94"/>que ad sanitatem inducendam, et tunc non oportet
+<lb ed="#L" n="95"/>multiplicari medicinam. Sed propter debilitatem
+<lb ed="#L" n="96"/>et imperfectionem eius quod. est ad finem, 
+opor<lb break="no" ed="#L" n="97"/>tet. eam. multiplicari; sicut multa remedia 
+adhi<lb break="no" ed="#L" n="98"/>bentur infirmo, quando unum non sufficit ad 
+sa<lb break="no" ed="#L" n="99"/>nandum. Caeremoniae autem veteris legis 
+inva<lb break="no" ed="#L" n="100"/>lidae.et imperfectae erant et ad repraesentandum
+<lb ed="#L" n="101"/>Christi mysterium, quod. est superexcellens; et ad
+<lb ed="#L" n="102"/>subiugandum. mentes hominum Deo. Unde. 
+Apo<lb break="no" ed="#L" n="103"/>stolus dicit, ad Heb. vii:. Reprobatio fit 
+praece<lb break="no" ed="#L" n="104"/>dentis mandati, propter infirmitatem et 
+inutilita<lb break="no" ed="#L" n="105"/>tem. nihil enim ad perfectum adduxit lex. Et ideo
+<lb ed="#L" n="106"/>oportuit huiusmodi caeremonias. multiplicari.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e904">
+                  <pb ed="#L" n="226"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD SECUNDUM DICENDUM quod sapientis 
+legisla<lb break="no" ed="#L" n="2"/>toris est minores transgressiones permittere, ut
+<lb ed="#L" n="3"/>maiores caveantur. Et ideo, ut caveretur 
+trans<lb break="no" ed="#L" n="4"/>gressio idololatriae, et superbiae quae in 
+ludaeo<lb break="no" ed="#L" n="5"/>rum cordibus nasceretur si omnia praecepta legis
+<lb ed="#L" n="6"/>implerent, non propter hoc praetermisit Deus
+<lb ed="#L" n="7"/>multa caeremonialia praecepta tradere, quia de
+<lb ed="#L" n="8"/>facili sumebant ex hoc transgrediendi occasionem.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e929">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="9"/>AD TERTIUM DICENDUM qucd vetus lex in multis
+<lb ed="#L" n="10"/>diminuit corporalem cultum. Propter: quod. 
+sta<lb break="no" ed="#L" n="11"/>tuit quod non in omni loco sacrificia offerrentur,
+<lb ed="#L" n="12"/>neque a ? quibuslibet. Et multa. huiusmodi 
+sta<lb break="no" ed="#L" n="13"/>tuit ad diminutionem exterioris cultus; sicut etiam
+<lb ed="#L" n="14"/>Rabbi Moyses Aegyptius dicit . Oportebat tamen
+<lb ed="#L" n="15"/>non ita attenuare corporalem cultum Dei, ut 
+ho<lb break="no" ed="#L" n="16"/>mines ad cultum daemonum declinarent.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1194-Dd1e952"><!-- p2p1-q101-a4 -->
+               <head xml:id="TAca84-d1e1194-Hd1e955">Articulus 4</head>
+               <head xml:id="TAca84-d1e1194-Hd1e957" type="question-title">Utrum caeremoniae veteris legis convenienter dividantur
+    in sacrificia, sacra, sacramenta et observantias</head>
+               <p xml:id="TAca84-d1e1194-d1e960">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>ARTICULUS QUARTUS
+<lb ed="#L" n="18"/>UTRUM CAEREMONIAE VETERIS LEGIS CONVENIENTER DIVIDANTUR
+<lb ed="#L" n="19"/>IN SACRIFICIA, SACRA, SACRAMENTA ET OBSERVANTIAS
+</p>
+               <p xml:id="TAca84-d1e1194-d1e971">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="21"/>caeremoniae veteris legis 
+inconvenien<lb break="no" ed="#L" n="22"/>ter dividantur in sacrificia, sacra, 
+sacra<lb break="no" ed="#L" n="23"/>menta et observantias. Caeremoniae enim
+<lb ed="#L" n="24"/>veteris legis figurabant Christum. Sed hoc solum
+<lb ed="#L" n="25"/>fiebat per sacrificia, per quae figurabatur 
+sacri<lb break="no" ed="#L" n="26"/>ficium quo Christus se obtulit oblationem et 
+ho<lb break="no" ed="#L" n="27"/>stiam Deo, ut dicitur ad Ephes. v. Ergo sola
+<lb ed="#L" n="28"/>sacrificia erant caeremonialia.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e995">
+                  <lb ed="#L" n="29"/>2. PRAETEREA, vetus lex ordinabatur ad novam.
+<lb ed="#L" n="30"/>Sed in nova lege ipsum sacrificium est 
+sacramen<lb break="no" ed="#L" n="31"/>tum Altaris. Ergo in veteri lege non debuerunt
+<lb ed="#L" n="32"/>distingui sacramenta contra sacrificia.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e1007">
+                  <lb ed="#L" n="33"/>3. PRAETEREA, sacrum dicitur quod est Deo
+<lb ed="#L" n="34"/>dicatum: secundum quem modum tabernaculum
+<lb ed="#L" n="35"/>et vasa eius sacrificari dicebantur. Sed omnia
+<lb ed="#L" n="36"/>caeremonialia erant ordinata ad cultum Dei, ut
+<lb ed="#L" n="37"/>dictum est. Ergo caeremonialia omnia sacra
+<lb ed="#L" n="38"/>erant. Non ergo una pars caeremonialium debet
+<lb ed="#L" n="39"/>sacra nominari.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e1025">
+                  <lb ed="#L" n="40"/>4. PRAETEREA, Observantiae ab observando 
+di<lb break="no" ed="#L" n="41"/>cuntur. Sed omnia praecepta legis observari 
+de<lb break="no" ed="#L" n="42"/>bebant: dicitur enim Deut. vii: Observa et cave
+<lb ed="#L" n="43"/>ne quando obliviscaris Domini Dei tui, et 
+negli<lb break="no" ed="#L" n="44"/>gas mandaia eius aique iudicia et caeremonias.
+<lb ed="#L" n="45"/>Non ergo observantiae debent poni una pars
+<lb ed="#L" n="46"/>caeremonialium.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e1043">
+                  <lb ed="#L" n="47"/>5. PRAETEREA, solemnitates inter caeremonialia
+<lb ed="#L" n="48"/>computantur: cum sint in umbram futuri, ut
+<lb ed="#L" n="49"/>patet ad Colos. n. Similiter etiam oblationes et
+<lb ed="#L" n="50"/>munera; ut patet per Apostolum, ad Heb. ix.
+<lb ed="#L" n="51"/>Quae tamen sub nullo horum contineri videntur.
+<lb ed="#L" n="52"/>Ergo inconveniens est praedicta distinctio 
+caere<lb break="no" ed="#L" n="53"/>monialium.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e1061">
+                  <lb ed="#L" n="54"/>SEp coNTRA EsT quod in veteri lege singula
+<lb ed="#L" n="55"/>praedicta caeremoniae vocantur. Sacrificia enim
+<lb ed="#L" n="56"/>dicuntur caeremoniae Num. xv: Offerat vitulum
+<lb ed="#L" n="57"/>et sacrificia eius ac libamenta, ut caeremoniae
+<lb ed="#L" n="58"/>'eius postulant. De. sacramento etiam ordinis 
+di<lb break="no" ed="#L" n="59"/>citur Levit. vii: Haec est unciio Aaron et 
+fi<lb break="no" ed="#L" n="60"/>liorum eius in caeremoniis. De sacris etiam 
+dici<lb break="no" ed="#L" n="61"/>tur Exod. xxxvi: Haec sunt instrumenta taber-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="62"/>naculi testimonii in caeremoniis Levitarum. De
+<lb ed="#L" n="63"/>observantiis etiam dicitur III Reg. ix: Si aversi
+<lb ed="#L" n="64"/>fueritis, non sequentes me, nec observantes 
+caere<lb break="no" ed="#L" n="65"/>monias quas proposui vobis.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e1092">
+                  <lb ed="#L" n="66"/>REsPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="67"/>est, caeremonialia praecepta ordinantur ad cultum
+<lb ed="#L" n="68"/>Dei. In quo quidem cultu considerari possunt Y
+<lb ed="#L" n="69"/>et ipse cultus, et colentes, et instrumenta colendi.
+<lb ed="#L" n="70"/>Ipse autem cultus specialiter consistit in 
+sacrifi<lb break="no" ed="#L" n="71"/>ciis, quae in Dei reverentiam offeruntur. - 
+Instru<lb break="no" ed="#L" n="72"/>menta autem colendi pertinent ad sacra: sicut
+<lb ed="#L" n="73"/>est tabernaculum, et vasa, et alia huiusmodi. - Ex
+<lb ed="#L" n="74"/>parte autem colentium duo possunt considerari.
+<lb ed="#L" n="75"/>Scilicet et eorum institutio ad cultum divinum,
+<lb ed="#L" n="76"/>quod fit per quandam consecrationem vel 
+po<lb break="no" ed="#L" n="77"/>puli, vel ministrorum: et ad hoc pertinent 
+sacra<lb break="no" ed="#L" n="78"/>menta. Et iterum eorum singularis conversatio,
+<lb ed="#L" n="79"/>per quam distinguuntur ab his qui Deum non
+<lb ed="#L" n="80"/>colunt: et ad hoc pertinent observantiae, puta it in
+<lb ed="#L" n="81"/>cibis et vestimentis et aliis huiusmodi.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e1129">
+                  <lb ed="#L" n="82"/>AD PRIMUM ERGO DICENDUM quod sacrificia 
+opor<lb break="no" ed="#L" n="83"/>tebat offerri et in aliquibus locis,et per aliquos
+<lb ed="#L" n="84"/>homines: et totum hoc ad cultum Dei pertinet.
+<lb ed="#L" n="85"/>Unde sicut per sacrificia significatur Christus 
+im<lb break="no" ed="#L" n="86"/>molatus, ita etiam. per sacramenta et sacra 
+illo<lb break="no" ed="#L" n="87"/>rum figurabantur sacramenta et sacra novae legis;
+<lb ed="#L" n="88"/>et per eorum observantias figurabatur conversatio
+<lb ed="#L" n="89"/>populi novae legis. Quae omnia ad Christum
+<lb ed="#L" n="90"/>pertinent.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e1152">
+                  <lb ed="#L" n="91"/>AD SECUNDUM DICENDUM quod aac novae
+<lb ed="#L" n="92"/>legis, idest Eucharistia, continet ipsum Christum,
+<lb ed="#L" n="93"/>qui est sanctificationis auctor: sanctificavit enim
+<lb ed="#L" n="94"/>per suum sanguinem populum, ut dicitur ad Heb.
+<lb ed="#L" n="95"/>ult. Et ideo hoc sacrificium etiam est 
+sacramen<lb break="no" ed="#L" n="96"/>tum. Sed sacrificia veteris legis non continebant
+<lb ed="#L" n="97"/>Christum, sed ipsum figurabant: et ideo non 
+di<lb break="no" ed="#L" n="98"/>cuntur sacramenta. Sed ad hoc designandum 
+seor<lb break="no" ed="#L" n="99"/>sum erant quaedam sacramenta in veteri lege,
+<lb ed="#L" n="100"/>quae erant figurae futurae consecrationis. 
+Quam<lb break="no" ed="#L" n="101"/>vis etiam quibusdam consecrationibus quaedam
+<lb ed="#L" n="102"/>sacrificia adiungerentur.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e1181">
+                  <lb ed="#L" n="103"/>AD TERTIUM DICENDUM quod etiam sacrificia et
+<pb ed="#L" n="227"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sacramenta erant sacra ?. Sed quaedam erant quae
+<lb ed="#L" n="2"/>erant sacra, utpote ad cultum Dei dicata, nec 
+ta<lb break="no" ed="#L" n="3"/>men erant sacrificia nec sacramenta: et ideo 
+reti<lb break="no" ed="#L" n="4"/>nebant sibi commune nomen sacrorum.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e1199">
+                  <lb ed="#L" n="5"/>AD QUARTUM DICENDUM quod ea quae 
+pertine<lb break="no" ed="#L" n="6"/>bant ad conversationem populi colentis Deum,
+<lb ed="#L" n="7"/>retinebant sibi commune nomen observantiarum,
+<lb ed="#L" n="8"/>inquantum a praemissis deficiebant. Non enim
+<lb ed="#L" n="9"/>dicebantur sacra, quia non habebant immediatum
+<lb ed="#L" n="10"/>respectum ad cultum Dei, sicut tabernaculum et
+<lb ed="#L" n="11"/>vasa eius. Sed per quandam consequentiam 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="12"/>erant caeremonialia, inquantum pertinebant ad
+<lb ed="#L" n="13"/>quandam idoneitatem populi colentis Deum.
+</p>
+               <p xml:id="TAca84-d1e1194-d1e1223">
+                  <lb ed="#L" n="14"/>AD QUINTUM DICENDUM quod, sicut sacrificia 
+of<lb break="no" ed="#L" n="15"/>ferebantur in determinato loco, ita etiam 
+offere<lb break="no" ed="#L" n="16"/>bantur in determinatis temporibus: unde etiam
+<lb ed="#L" n="17"/>solemnitates inter sacra computari videntur. - 
+Ob<lb break="no" ed="#L" n="18"/>lationes autem et munera computantur cum 
+sa<lb break="no" ed="#L" n="19"/>crificiis, quia Deo offerebantur: unde Apostolus
+<lb ed="#L" n="20"/>dicit, ad Heb. v: Omnis pontifex ex hominibus
+<lb ed="#L" n="21"/>assumptus, pro hominibus constituitur in his quae
+<lb ed="#L" n="22"/>sunt ad Deum, ut offerat dona et sacrificia.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

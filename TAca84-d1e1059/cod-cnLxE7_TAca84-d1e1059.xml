@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 75</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 75</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="47"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1059"><!-- p2p1-q75 -->
+            <head xml:id="TAca84-d1e1059-Hd1e101">Quaestio 75</head>
+            <head xml:id="TAca84-d1e1059-Hd1e103" type="question-title">De causis peccatorum in generali</head>
+            <p xml:id="TAca84-d1e1059-d1e106">
+               <pb ed="#L" n="47"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO SEPTUAGESIMAQUINTA
+<lb ed="#L" n="2"/>DE CAUSIS PECCATORUM IN GENERALI
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1059-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de causis 
+peccato<lb break="no" ed="#L" n="5"/>rum. Et primo, in generali; secundo, in
+<lb ed="#L" n="6"/>speciali
+</p>
+            <p xml:id="TAca84-d1e1059-d1e130">
+               <lb ed="#L" n="7"/>Circa primum quaeruntur quatuor.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="8"/>Primo: utrum peccatum habeat causam.
+<lb ed="#L" n="9"/>Secundo: utrum habeat causam interiorem.
+<lb ed="#L" n="10"/>Tertio: utrum habeat causam exteriorem.
+<lb ed="#L" n="11"/>Quarto: utrum peccatum sit causa peccati.
+</p>
+            <div xml:id="TAca84-d1e1059-Dd1e147"><!-- p2p1-q75-a1 -->
+               <head xml:id="TAca84-d1e1059-Hd1e150">Articulus 1</head>
+               <head xml:id="TAca84-d1e1059-Hd1e152" type="question-title">Utrum peccatum habeat causam</head>
+               <p xml:id="TAca84-d1e1059-d1e155">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="12"/>ARTICULUS PRIMUS
+<lb ed="#L" n="13"/>UTRUM PECCATUM HABEAT CAUSAM
+</p>
+               <p xml:id="TAca84-d1e1059-d1e164">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="14"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="15"/>peccatum non habeat causam. 
+Pecca<lb break="no" ed="#L" n="16"/>ain enim habet rationem mali, ut 
+di<lb break="no" ed="#L" n="17"/>actum est. Sed malum non habet 
+cau<lb break="no" ed="#L" n="18"/>sam, ut Dionysius dicit, iv cap. de Div. Nom. 
+<lb ed="#L" n="19"/>Ergo peccatum non habet causam.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e182">
+                  <lb ed="#L" n="20"/>2. PRAETEREA, causa est ad quam de 
+necessi<lb break="no" ed="#L" n="21"/>tate sequitur aliud. Sed quod est ex necessitate,
+<lb ed="#L" n="22"/>non videtur esse peccatum: eo quod omne 
+pec<lb break="no" ed="#L" n="23"/>catum est voluntarium. Ergo peccatum non habet
+<lb ed="#L" n="24"/>causam.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e196">
+                  <lb ed="#L" n="25"/>3. PRAETEREA, si peccatum habet causam, aut
+<lb ed="#L" n="26"/>habet pro causa bonum, aut malum. Non autem
+<lb ed="#L" n="27"/>bonum: quia bonum non facit nisi bonum; non
+<lb ed="#L" n="28"/>enim potest arbor bona fructus malos facere, ut
+<lb ed="#L" n="29"/>dicitur Matth. vi:. Similiter autem nec malum
+<lb ed="#L" n="30"/>potest esse causa peccati: quia malum poenae
+<lb ed="#L" n="31"/>sequitur ad peccatum; malum autem culpae est
+<lb ed="#L" n="32"/>idem quod peccatum. Peccatum igitur non habet
+<lb ed="#L" n="33"/>causam.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e218">
+                  <lb ed="#L" n="34"/>SED coNTRA, omne quod fit, habet causam:
+<lb ed="#L" n="35"/>quia, ut dicitur Iob v, nihil in terra sine causa
+<lb ed="#L" n="36"/>Jit. Sed peccatum fit: est enim dictum vel 
+fa<lb break="no" ed="#L" n="37"/>ctum vel concupitum contra legem Dei. Ergo
+<lb ed="#L" n="38"/>peccatam habet causam.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e231">
+                  <lb ed="#L" n="39"/>RESPONDEO DICENDUM quod peccatum est 
+qui<lb break="no" ed="#L" n="40"/>dam actus inordinatus. Ex parte igitur actus, 
+po<lb break="no" ed="#L" n="41"/>test habere per se causam: sicut et quilibet alius
+<lb ed="#L" n="42"/>actus. - Ex parte autem inordinationis, habet 
+cau<lb break="no" ed="#L" n="43"/>sam eo modo quo negatio vel privatio potest
+<lb ed="#L" n="44"/>habere causam. Negationis autem alicuius potest
+<lb ed="#L" n="45"/>duplex causa assignari. Primo quidem, defectus
+<lb ed="#L" n="46"/>causae, idest ipsius causae negatio, est causa 
+ne<lb break="no" ed="#L" n="47"/>gationis secundum seipsam: ad remotionem enim
+<lb ed="#L" n="48"/>causae sequitur remotio effectus; sicut obscuritatis
+<lb ed="#L" n="49"/>causa est absentia solis. Alio modo, causa 
+affirma<lb break="no" ed="#L" n="50"/>tionis ad quam sequitur negatio, est per accidens
+<lb ed="#L" n="51"/>causa negationis consequentis: sicut ignis P, 
+cau<lb break="no" ed="#L" n="52"/>sando calorem ex principali intentione, 
+conse<lb break="no" ed="#L" n="53"/>quenter causat privationem frigiditatis. Quorum
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="54"/>primum potest sufficere ad simplicem negationem.
+<lb ed="#L" n="55"/>Sed cum inordinatio peccati, et quodlibet malum,
+<lb ed="#L" n="56"/>non sit simplex negatio, sed privatio eius quod
+<lb ed="#L" n="57"/>quid natum est et debet habere; necesse est
+<lb ed="#L" n="58"/>quod talis inordinatio habeat causam agentem per
+<lb ed="#L" n="59"/>accidens: quod enim natum est inesse et debet,
+<lb ed="#L" n="60"/>nunquam abesset nisi propter causam aliquam
+<lb ed="#L" n="61"/>impedientem. Et secundum hoc consuevit dici
+<lb ed="#L" n="62"/>quod malum, quod in quadam privatione 
+con<lb break="no" ed="#L" n="63"/>sistit, habet causam deficientem, vel agentem per
+<lb ed="#L" n="64"/>accidens.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e292">
+                  <lb ed="#L" n="65"/>Omnis autem causa per accidens reducitur ad
+<lb ed="#L" n="66"/>causam per se. Cum igitur peccatum ex parte 
+in<lb break="no" ed="#L" n="67"/>ordinationis habeat causam agentem per accidens,
+<lb ed="#L" n="68"/>ex parte autem actus habeat causam agentem per
+<lb ed="#L" n="69"/>se; sequitur quod inordinatio peccati consequatur
+<lb ed="#L" n="70"/>ex ipsa causa actus. Sic igitur voluntas carens 
+di<lb break="no" ed="#L" n="71"/>rectione regulae rationis et legis divinae, 
+inten<lb break="no" ed="#L" n="72"/>dens aliquod bonum commutabile, causat actum
+<lb ed="#L" n="73"/>quidem peccati per se, sed inordinationem actus
+<lb ed="#L" n="74"/>per accidens et praeter intentionem: provenit enim
+<lb ed="#L" n="75"/>defectus ordinis in actu, ex defeetu directionis in
+<lb ed="#L" n="76"/>voluntate.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e321">
+                  <lb ed="#L" n="77"/>AD PRIMUM ERGO DICENDUM quod peccatum non
+<lb ed="#L" n="78"/>solum significat ipsam privationem boni, quae est
+<lb ed="#L" n="79"/>inordinatio; sed significat actum sub tali 
+priva<lb break="no" ed="#L" n="80"/>tione, quae habet rationem mali. Quod quidem
+<lb ed="#L" n="81"/>qualiter habeat causam, dictum est.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e334">
+                  <lb ed="#L" n="82"/>AD SECUNDUM DICENDUM quod, si illa definitio
+<lb ed="#L" n="83"/>causae universaliter debeat verificari, oportet ut
+<lb ed="#L" n="84"/>intelligatur de causa sufficienti et non impedita.
+<lb ed="#L" n="85"/>Contingit enim aliquid esse causam sufficientem
+<lb ed="#L" n="86"/>alterius, et tamen non ex necessitate sequitur 
+ef<lb break="no" ed="#L" n="87"/>fectus, propter aliquod impedimentum 
+superve<lb break="no" ed="#L" n="88"/>niens: alioquin sequeretur quod omnia ex 
+neces<lb break="no" ed="#L" n="89"/>sitate contingerent, ut patet in VI Metaphys. Sic
+<lb ed="#L" n="90"/>igitur, etsi peccatum habeat causam, non tamen
+<lb ed="#L" n="91"/>sequitur quod sit necessaria: quia effectus potest
+<lb ed="#L" n="92"/>impediri.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e361">
+                  <lb ed="#L" n="93"/>AD TERTIUM DICENDUM quod, sicut dictum est,
+<pb ed="#L" n="48"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>voluntas sine adhibitione regulae rationis vel legis
+<lb ed="#L" n="2"/>divinae, est causa peccati. Hoc autem quod est
+<lb ed="#L" n="3"/>non adhibere regulam rationis vel legis divinae,
+<lb ed="#L" n="4"/>secundum se non habet rationem mali, nec poe-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="5"/>nae nec culpae, antequam applicetur ad actum.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e383">
+                  <lb ed="#L" n="6"/>Unde secundum hoc, peccati primi non est causa
+<lb ed="#L" n="7"/>aliquod ? malum: sed bonum aliquod cum 
+absen<lb break="no" ed="#L" n="8"/>tia alicuius alterius boni. -
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1059-Dd1e393"><!-- p2p1-q75-a2 -->
+               <head xml:id="TAca84-d1e1059-Hd1e396">Articulus 2</head>
+               <head xml:id="TAca84-d1e1059-Hd1e398" type="question-title">Utrum peccatum habeat causam interiorem</head>
+               <p xml:id="TAca84-d1e1059-d1e401">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="70"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="71"/>UTRUM PECCATUM HABEAT CAUSAM INTERIOREM
+</p>
+               <p xml:id="TAca84-d1e1059-d1e410">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="72"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="73"/>AN peccatum non habeat causam 
+inferio<lb break="no" ed="#L" n="74"/>rem. Id enim quod est interius alicui rei,
+<lb ed="#L" n="75"/>semper adest ei. Si igitur peccatum 
+ha<lb break="no" ed="#L" n="76"/>beat causam interiorem, semper homo peccaret:
+<lb ed="#L" n="77"/>cum, posita causa, ponatur effectus.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e428">
+                  <lb ed="#L" n="78"/>2. PRAETEREA, idem non est causa sui ipsius.
+<lb ed="#L" n="79"/>Sed interiores motus hominis sunt peccatum. Ergo
+<lb ed="#L" n="80"/>non sunt causa peccati.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e438">
+                  <lb ed="#L" n="81"/>3. PRAETEREA, quidquid est intra hominem, aut
+<lb ed="#L" n="82"/>est naturale, aut voluntarium. Sed id quod est
+<lb ed="#L" n="83"/>naturale, non potest esse peccati causa: quia 
+pec<lb break="no" ed="#L" n="84"/>catum est contra naturam, ut dicit Damascenus.
+<lb ed="#L" n="85"/>Quod autem est voluntarium, si sit inordinatum,
+<lb ed="#L" n="86"/>iam est peccatum. Non ergo aliquid intrinsecum
+<lb ed="#L" n="87"/>potest esse causa primi peccati.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e456">
+                  <lb ed="#L" n="88"/>SED CONTRA EST quod Augustinus dicit, quod
+<lb ed="#L" n="89"/>voluntas est causa peccati.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e463">
+                  <lb ed="#L" n="90"/>RESPONDEO DICENDUM quod, sicut iam dictum
+<lb ed="#L" n="91"/>est, per se causam peccati oportet accipere ex
+<lb ed="#L" n="92"/>parte ipsius actus. Actus autem humani potest
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="93"/>accipi causa interior et mediata, et immediata. 
+Im<lb break="no" ed="#L" n="94"/>mediata quidem causa humani actus est ratio et.
+<lb ed="#L" n="95"/>voluntas, secundum quam homo est liber 
+arbi<lb break="no" ed="#L" n="96"/>trio. Causa autem remota. est apprehensio 
+sensi<lb break="no" ed="#L" n="97"/>tivae partis, et etiam appetitus sensitivus: sicut
+<lb ed="#L" n="98"/>enim ex iudicio rationis voluntas movetur ad 
+ali<lb break="no" ed="#L" n="99"/>quid secundum rationem, ita etiam ex 
+apprehen<lb break="no" ed="#L" n="100"/>sione sensus appetitus sensitivus in aliquid. 
+incli<lb break="no" ed="#L" n="101"/>natur. Quae quidem inclinatio interdum trahit
+<lb ed="#L" n="102"/>voluntatem et rationem, sicut infra patebit. Sic
+<lb ed="#L" n="103"/>igitur duplex causa peccati interior potest 
+assi<lb break="no" ed="#L" n="104"/>gnari: una proxima, ex parte rationis et 
+volun<lb break="no" ed="#L" n="105"/>tatis; alia vero remota, ex parte imaginationis vel
+<lb ed="#L" n="106"/>appetitus sensitivi.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e505">
+                  <lb ed="#L" n="107"/>Sed quia supra dictum est quod causa 
+pec<lb break="no" ed="#L" n="108"/>cati est aliquod bonum apparens motivum cum
+<lb ed="#L" n="109"/>defectu debiti motivi, scilicet regulae rationis vel
+<lb ed="#L" n="110"/>legis divinae; ipsum motivum quod est apparens
+<lb ed="#L" n="111"/>bonum, pertinet ad apprehensionem sensus et
+<lb ed="#L" n="112"/>appetitum. Ipsa autem absentia debitae regulae
+<lb ed="#L" n="113"/>pertinet ad rationem, quae nata est huiusmodi
+<pb ed="#L" n="49"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>regulam considerare. Sed ipsa perfectio voluntarii
+<lb ed="#L" n="2"/>actus peccati pertinet ad voluntatem: ita quod
+<lb ed="#L" n="3"/>ipse voluntatis actus, praemissis suppositis, iam
+<lb ed="#L" n="4"/>est quoddam peccatum.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e536">
+                  <lb ed="#L" n="5"/>AD PRIMUM ERGO DICENDUM quod id quod est 
+in<lb break="no" ed="#L" n="6"/>trinsecum sicut potentia naturalis, semper inest:
+<lb ed="#L" n="7"/>id autem quod est intrinsecum sicut actus 
+inte<lb break="no" ed="#L" n="8"/>rior appetitivae vel apprehensivae virtutis, non
+<lb ed="#L" n="9"/>semper inest. Ipsa autem potentia voluntatis est
+<lb ed="#L" n="10"/>causa peccati in potentia, sed reducitur in actum
+<lb ed="#L" n="11"/>per motus praecedentes et sensitivae partis 
+pri<lb break="no" ed="#L" n="12"/>mo, et rationis consequenter. Ex hoc enim quod
+<lb ed="#L" n="13"/>aliquid proponitur ut appetibile secundum 
+sen<lb break="no" ed="#L" n="14"/>sum, et appetitus sensitivus inclinatur in illud,
+<lb ed="#L" n="15"/>ratio interdum cessat a consideratione regulae
+<lb ed="#L" n="16"/>debitae: et sic voluntas producit actum pec-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="17"/>cati. Quia igitur motus praecedentes non 
+sem<lb break="no" ed="#L" n="18"/>per suntin actu, neque peccatum semper est in
+<lb ed="#L" n="19"/>actu. !
+</p>
+               <p xml:id="TAca84-d1e1059-d1e573">
+                  <lb ed="#L" n="20"/>AD SECUNDUM DICENDUM quod non omnes motus
+<lb ed="#L" n="21"/>interiores sunt de substantia peccati, quod 
+con<lb break="no" ed="#L" n="22"/>sistit principaliter in actu voluntatis: sed quidam
+<lb ed="#L" n="23"/>praecedunt, et quidam consequuntur ipsum ? 
+pec<lb break="no" ed="#L" n="24"/>catum.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e587">
+                  <lb ed="#L" n="25"/>AD TERTIUM DICENDUM quod illud quod est causa
+<lb ed="#L" n="26"/>peccati sicut potentia producens actum, est 
+natu<lb break="no" ed="#L" n="27"/>rale. Motus etiam sensitivae partis, ex quo 
+sequi<lb break="no" ed="#L" n="28"/>tur peccatum, interdum est naturalis: sicut cum
+<lb ed="#L" n="29"/>propter appetitum cibi aliquis peccat. Sed 
+effici<lb break="no" ed="#L" n="30"/>tur peccatum innaturale ex hoc ipso quod deficit
+<lb ed="#L" n="31"/>regula naturalis, quam homo secundum naturam
+<lb ed="#L" n="32"/>suam debet attendere.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1059-Dd1e608"><!-- p2p1-q75-a3 -->
+               <head xml:id="TAca84-d1e1059-Hd1e611">Articulus 3</head>
+               <head xml:id="TAca84-d1e1059-Hd1e613" type="question-title">Utrum peccatum habeat causam exteriorem</head>
+               <p xml:id="TAca84-d1e1059-d1e616">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="68"/>ARTICULUS TERTIUS
+<lb ed="#L" n="69"/>UTRUM PECCATUM HABEAT CAUSAM EXTERIOREM
+</p>
+               <p xml:id="TAca84-d1e1059-d1e625">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="70"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="71"/>peccatum non habeat causam 
+exterio<lb break="no" ed="#L" n="72"/>rem. Peccatum enim est actus 
+volunta<lb break="no" ed="#L" n="73"/>rius. Voluntaria autem sunt eorum quae
+<lb ed="#L" n="74"/>sunt in nobis; et ita non habent exteriorem 
+cau<lb break="no" ed="#L" n="75"/>sam. Ergo peccatum non habet exteriorem 
+cau<lb break="no" ed="#L" n="76"/>sam.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e645">
+                  <cb ed="#L" n="h"/>2. PRAETEREA, sicut natura est principium 
+in<lb break="no" ed="#L" n="77"/>terius, ita etiam voluntas. Sed peccatum in rebus
+<lb ed="#L" n="78"/>naturalibus nunquam accidit nisi ex aliqua 
+inte<lb break="no" ed="#L" n="79"/>riori causa: ut puta monstruosi partus proveniunt
+<lb ed="#L" n="80"/>ex corruptione alicuius principii interioris. Ergo
+<lb ed="#L" n="81"/>neque in moralibus potest contingere peccatum
+<lb ed="#L" n="82"/>nisi ex interiori causa. Non ergo habet peccatum
+<lb ed="#L" n="83"/>causam exteriorem.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e666">
+                  <lb ed="#L" n="84"/>3. PRAETEREA, multiplicata causa, multiplicatur
+<lb ed="#L" n="85"/>effectus. Sed quanto plura sunt et maiora 
+exte<lb break="no" ed="#L" n="86"/>rius inducentia ad peccandum, tanto minus id
+<lb ed="#L" n="87"/>quod quis inordinate agit, ei imputatur ad 
+pec<lb break="no" ed="#L" n="88"/>catum. Ergo nihil exterius est causa peccati.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e679">
+                  <lb ed="#L" n="89"/>SED cowTRA EsT quod dicitur Num. xxxi:
+<lb ed="#L" n="90"/>
+                  <quote xml:id="TAca84-d1e1059-Qd1e685">Nonne istae sunt quae deceperunt filios Israel, et
+<cb ed="#L" n=""/>
+                     <lb ed="#L" n="91"/>praevaricari vos fecerunt in Domino super 
+pec<lb break="no" ed="#L" n="92"/>cato Phogor?</quote> Ergo aliquid exterius potest esse
+<lb ed="#L" n="93"/>causa faciens peccare.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e697">
+                  <lb ed="#L" n="94"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="95"/>est, causa interior peccati est et voluntas, ut 
+per<lb break="no" ed="#L" n="96"/>ficiens actum peccati; et ratio, quantum ad 
+ca<lb break="no" ed="#L" n="97"/>rentiam debitae regulae; et appetitus sensitivus
+<lb ed="#L" n="98"/>inclinans. Sic ergo aliquid extrinsecum tripliciter
+<lb ed="#L" n="99"/>posset esse causa peccati: vel quia moveret 
+im<lb break="no" ed="#L" n="100"/>mediate ipsam voluntatem; vel quia moveret 
+ra<lb break="no" ed="#L" n="101"/>tionem; vel quia moveret appetitum sensitivum.
+<lb ed="#L" n="102"/>Voluntatem autem, ut supra dictum est, 
+inte<lb break="no" ed="#L" n="103"/>rius movere non potest nisi Deus; qui non 
+po<lb break="no" ed="#L" n="104"/>test esse causa peccati, ut infra ostendetur. Unde
+<lb ed="#L" n="105"/>relinquitur quod nihil exterius potest esse causa
+<lb ed="#L" n="106"/>peccati, nisi vel inquantum movet rationem, sicut
+<lb ed="#L" n="107"/>homo vel daemon persuadens peccatum; vel sicut
+<lb ed="#L" n="108"/>movens appetitum sensitivum, sicut aliqua 
+sensi<lb break="no" ed="#L" n="109"/>bilia exteriora movent appetitum sensitivum. Sed
+<lb ed="#L" n="110"/>neque persuasio exterior in rebus agendis ex 
+ne<lb break="no" ed="#L" n="111"/>cessitate movet rationem; neque etiam res 
+exte<lb break="no" ed="#L" n="112"/>rius propositae ex necessitate movent appetitum
+<pb ed="#L" n="50"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sensitivum, nisi forte aliquo modo dispositum; et
+<lb ed="#L" n="2"/>tamen etiam appetitus sensitivus non ex 
+necessi<lb break="no" ed="#L" n="3"/>tate movet rationem et voluntatem. Unde aliquid
+<lb ed="#L" n="4"/>exterius potest esse aliqua causa movens ad
+<lb ed="#L" n="5"/>peccandum, non tamen sufficienter ad peccatum ?
+<lb ed="#L" n="6"/>inducens: sed causa sufficienter complens 
+pecca<lb break="no" ed="#L" n="7"/>tum est sola voluntas.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e760">
+                  <lb ed="#L" n="8"/>AD PRIMUM ERGO DICENDUM quod ex hoc ipso
+<lb ed="#L" n="9"/>quod exteriora moventia ad peccandum non 
+suf<lb break="no" ed="#L" n="10"/>ficienter et ex necessitate inducunt, sequitur quod
+<lb ed="#L" n="11"/>remaneat in nobis peccare et non peccare.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e771">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="12"/>AD SECUNDUM DICENDUM quod per hoc quod 
+po<lb break="no" ed="#L" n="13"/>nitur interior causa peccati, non excluditur 
+exte<lb break="no" ed="#L" n="14"/>rior: non enim id quod est exterius est causa
+<lb ed="#L" n="15"/>peccati, nisi mediante causa interiori, ut dictum
+<lb ed="#L" n="16"/>est.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e787">
+                  <lb ed="#L" n="17"/>AD TERTIUM DICENDUM quod, multiplicatis 
+exterio<lb break="no" ed="#L" n="18"/>ribus causis inclinantibus ad peccandum, 
+multi<lb break="no" ed="#L" n="19"/>plicantur actus peccati: quia plures ex illis causis,
+<lb ed="#L" n="20"/>et pluries, inclinantur ad actus peccati. Sed 
+ta<lb break="no" ed="#L" n="21"/>men minuitur ratio culpae, quae consistit in hoc
+<lb ed="#L" n="22"/>quod aliquid sit voluntarium et? in nobis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1059-Dd1e804"><!-- p2p1-q75-a4 -->
+               <head xml:id="TAca84-d1e1059-Hd1e807">Articulus 4</head>
+               <head xml:id="TAca84-d1e1059-Hd1e809" type="question-title">Utrum peccatum sit causa peccati</head>
+               <p xml:id="TAca84-d1e1059-d1e812">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="48"/>ARTICULUS QUARTUS
+<lb ed="#L" n="49"/>UTRUM PECCATUM SIT CAUSA PECCATI
+</p>
+               <p xml:id="TAca84-d1e1059-d1e821">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="50"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="51"/>peccatum non sit causa peccati. Sunt
+<lb ed="#L" n="52"/>enim quatuor genera causarum, quorum
+<lb ed="#L" n="53"/>nullum potest ad hoc congruere quod
+<lb ed="#L" n="54"/>peccatum sit causa peccati. Finis enim habet 
+ra<lb break="no" ed="#L" n="55"/>tionem boni: quod non competit peccato, quod
+<lb ed="#L" n="56"/>de sua ratione est malum. Et eadem ratione nec
+<lb ed="#L" n="57"/>peccatum potest esse causa efficiens: quia malum
+<lb ed="#L" n="58"/>non est causa agens, sed est Znfirmum et impotens,
+<lb ed="#L" n="59"/>ut Dionysius dicit, iv cap. de Div. Nom. Causa
+<lb ed="#L" n="60"/>autem materialis et formalis videntur habere 
+so<lb break="no" ed="#L" n="61"/>lum locum in naturalibus corporibus, quae sunt
+<lb ed="#L" n="62"/>composita ex materia et forma. Ergo peccatum
+<lb ed="#L" n="63"/>non potest habere causam materialem et formalem.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e856">
+                  <lb ed="#L" n="64"/>2. PRAETEREA, agere sibi simile est rei 
+perfe<lb break="no" ed="#L" n="65"/>ctae, ut dicitur in IV Meteor. Sed peccatum de
+<lb ed="#L" n="66"/>sul ratione est imperfectum. Ergo peccatum non
+<lb ed="#L" n="67"/>potest esse causa peccati.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e868">
+                  <lb ed="#L" n="68"/>3. PRAETEREA, si huius peccati sit causa aliud
+<lb ed="#L" n="69"/>peccatum, eadem ratione et illius erit causa 
+ali<lb break="no" ed="#L" n="70"/>quod aliud peccatum, et sic procedetur in 
+infini<lb break="no" ed="#L" n="71"/>tum: quod est inconveniens. Non ergo 
+pecca<lb break="no" ed="#L" n="72"/>tum est causa peccati.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e881">
+                  <lb ed="#L" n="73"/>SED coNTRA EST quod Gregorius dicit, super
+<lb ed="#L" n="74"/>Exech.: Peccatum quod per poenitentiam citius
+<lb ed="#L" n="75"/>non deletur, peccatum est et causa peccati P.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e890">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="76"/>RESPONDEO DICENDUM quod, cum peccatum 
+ha<lb break="no" ed="#L" n="77"/>beat causam ex parte actus, hoc modo unum
+<lb ed="#L" n="78"/>peccatum posset esse causa alterius, sicut unus
+<lb ed="#L" n="79"/>actus humanus potest esse causa alterius. 
+Con<lb break="no" ed="#L" n="80"/>tingit igitur unum peccatum esse causam alterius
+<lb ed="#L" n="81"/>secundum quatuor genera causarum. Primo 
+qui<lb break="no" ed="#L" n="82"/>dem, secundum modum causae efficientis vel
+<lb ed="#L" n="83"/>moventis, et per se et per accidens. Per accidens
+<lb ed="#L" n="84"/>quidem, sicut removens prohibens dicitur movens
+<lb ed="#L" n="85"/>per accidens: cum enim per unum actum 
+pec<lb break="no" ed="#L" n="86"/>cati homo amittit gratiam, vel caritatem, vel 
+ve<lb break="no" ed="#L" n="87"/>recundiam, vel quodcumque aliud retrahens a
+<lb ed="#L" n="88"/>peccato, incidit ex hoc in aliud peccatum; et sic
+<lb ed="#L" n="89"/>primum peccatum est causa secundi per 
+acci<lb break="no" ed="#L" n="90"/>dens. Per se autem, sicut cum ex uno actu
+<lb ed="#L" n="91"/>peccati homo disponitur ad hoc quod alium actum
+<lb ed="#L" n="92"/>consimilem facilius committit: ex actibus enim
+<lb ed="#L" n="93"/>causantur dispositiones et habitus inclinantes ad
+<lb ed="#L" n="94"/>similes actus. - Secundum vero genus causae 
+ma<lb break="no" ed="#L" n="95"/>terialis, unum peccatum est causa alterius, 
+in<lb break="no" ed="#L" n="96"/>quantum praeparat ei materiam: sicut avaritia
+<lb ed="#L" n="97"/>praeparat materiam litigio, quod plerumque est
+<lb ed="#L" n="98"/>de divitiis congregatis. - Secundum vero genus
+<lb ed="#L" n="99"/>causae finalis, unum peccatum est causa alterius,
+<lb ed="#L" n="100"/>inquantum propter finem unius peccati aliquis
+<lb ed="#L" n="101"/>committit aliud peccatum: sicut cum aliquis com-
+<pb ed="#L" n="51"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>mittit simoniam propter finem ambitionis, vel
+<lb ed="#L" n="2"/>fornicationem propter furtum. - Et quia finis dat 
+<lb ed="#L" n="3"/>QQx,i Uti: formam in moralibus, ut supra habitum est, 
+<lb ed="#L" n="4"/>ex hoc etiam sequitur quod unum peccatum sit | 
+<lb ed="#L" n="5"/>formalis causa alterius: in actu enim 
+fornicatio<lb break="no" ed="#L" n="6"/>nis quae propter furtum committitur, est quidem | 
+<lb ed="#L" n="7"/>fornicatio sicut materiale, furtum vero sicut 
+for<lb break="no" ed="#L" n="8"/>male.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e973">
+                  <lb ed="#L" n="9"/>AD PRIMUM ERGO DICENDUM quod peccatum, 
+in<lb break="no" ed="#L" n="10"/>quantum est inordinatum, habet rationem mali 
+<lb ed="#L" n="11"/>sed inquantum est actus quidam, habet aliquod 
+<lb ed="#L" n="12"/>bonum, saltem apparens, pro fine. Et ita ex parte 
+<lb ed="#L" n="13"/>actus potest esse causa et finalis et effectiva 
+al<lb break="no" ed="#L" n="14"/>terius peccati, licet non ex parte inordinationis. 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="15"/>Materiam autem habet peccatum non ex qua,
+<lb ed="#L" n="16"/>sed circa quam. Formam autem habet ex fine.
+<lb ed="#L" n="17"/>Et ideo secundum quatuor genera causarum 
+pec<lb break="no" ed="#L" n="18"/>catum potest dici causa peccati, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e999">
+                  <lb ed="#L" n="19"/>AD SECUNDUM DICENDUM quod peccatum est 
+im<lb break="no" ed="#L" n="20"/>perfectum imperfectione morali ex parte 
+inordi<lb break="no" ed="#L" n="21"/>nationis: sed ex parte actus potest habere 
+per<lb break="no" ed="#L" n="22"/>fectionem naturae. Et secundum hoc potest esse
+<lb ed="#L" n="23"/>causa peccati.
+</p>
+               <p xml:id="TAca84-d1e1059-d1e1012">
+                  <lb ed="#L" n="24"/>AD TERTIUM DICENDUM quod non omnis causa
+<lb ed="#L" n="25"/>peccati est peccatum. Unde non oportet quod
+<lb ed="#L" n="26"/>procedatur in infinitum; sed potest perveniri ad
+<lb ed="#L" n="27"/>aliquod primum ? peccatum, cuius causa non est s
+<lb ed="#L" n="28"/>aliud peccatum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

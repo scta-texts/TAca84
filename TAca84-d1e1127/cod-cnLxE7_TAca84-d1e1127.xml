@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 88</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 88</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="132"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1127"><!-- p2p1-q88 -->
+            <head xml:id="TAca84-d1e1127-Hd1e101">Quaestio 88</head>
+            <head xml:id="TAca84-d1e1127-Hd1e103" type="question-title">De peccato veniali et mortali</head>
+            <p xml:id="TAca84-d1e1127-d1e106">
+               <pb ed="#L" n="132"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO OCTOGESIMAOCTAVA
+<lb ed="#L" n="2"/>DE PECCATO VENIALI ET MORTALI
+<lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1127-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE, quia peccatum veniale et mortale 
+dis<lb break="no" ed="#L" n="5"/>tinguuntur secundum reatum, considerandum
+<lb ed="#L" n="6"/>est de eis. Et primo, considerandum est de 
+ve<lb break="no" ed="#L" n="7"/>niali per- comparationem ad mortale; secundo,
+<lb ed="#L" n="8"/>de veniali secundum se.
+</p>
+            <p xml:id="TAca84-d1e1127-d1e135">
+               <lb ed="#L" n="9"/>Circa primum quaeruntur sex.
+<lb ed="#L" n="10"/>Primo: utrum veniale peccatum convenienter
+<lb ed="#L" n="11"/>dividatur contra mortale.
+<lb ed="#L" n="12"/>Secundo: utrum distinguantur genere.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="13"/>Tertio: utrum veniale peccatum sit dispositio
+<lb ed="#L" n="14"/>ad mortale.
+<lb ed="#L" n="15"/>Quarto: utrum veniale peccatum. possit fieri
+<lb ed="#L" n="16"/>mortale.
+<lb ed="#L" n="17"/>Quinto: utrum circumstantia aggravans possit
+<lb ed="#L" n="18"/>de veniali peccato facere mortale.
+<lb ed="#L" n="19"/>Sexto: utrum peccatum mortale possit fieri
+<lb ed="#L" n="20"/>veniale. 
+</p>
+            <div xml:id="TAca84-d1e1127-Dd1e167"><!-- p2p1-q88-a1 -->
+               <head xml:id="TAca84-d1e1127-Hd1e170">Articulus 1</head>
+               <head xml:id="TAca84-d1e1127-Hd1e172" type="question-title">Utrum veniale peccatum convenienter dividatur contra mortale</head>
+               <p xml:id="TAca84-d1e1127-d1e175">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="21"/>ARTICULUS PRIMUS
+<lb ed="#L" n="22"/>UTRUM VENIALE PECCATUM CONVENIENTER DIVIDATUR CONTRA MORTALE
+</p>
+               <p xml:id="TAca84-d1e1127-d1e184">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="23"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="24"/>veniale peccatum non convenienter 
+di<lb break="no" ed="#L" n="25"/>j/szXà vidatur contra mortale. Dicit enim 
+Au<lb break="no" ed="#L" n="26"/>m) Nagustinus, XXII libro Contra Faustum:
+<lb ed="#L" n="27"/>Peccatum est dictum vel factum vel concupitum
+<lb ed="#L" n="28"/>conira legem aeternam. Sed esse contra legem
+<lb ed="#L" n="29"/>aeternam ?, dat peccato quod sit: mortale. Ergo
+<lb ed="#L" n="30"/>omne peccatum est mortale. Non ergo peccatum
+<lb ed="#L" n="31"/>veniale dividitur contra mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e208">
+                  <lb ed="#L" n="32"/>2. PRAETEREA, Apostolus dicit, I Cor. x: Sive
+<lb ed="#L" n="33"/>manducatis, sive bibitis 9, sive aliquid aliud 
+faci<lb break="no" ed="#L" n="34"/>lis, omnia in gloriam Dei facite. Sed contra hoc
+<lb ed="#L" n="35"/>praeceptum facit quicumque peccat: non enim
+<lb ed="#L" n="36"/>peccatum fit propter gloriam Dei. Cum ergo 
+fa<lb break="no" ed="#L" n="37"/>cere contra praeceptum sit peccatum mortale,
+<lb ed="#L" n="38"/>videtur quod quicumque peccat, mortaliter peccet.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e227">
+                  <lb ed="#L" n="39"/>3. PRAETEREA, quicumque amore alicui rei 
+in<lb break="no" ed="#L" n="40"/>haeret, inhaeret ei vel sicut fruens, vel sicut utens;
+<lb ed="#L" n="41"/>ut patet per Augustinum, in I de Doctr. Christ.
+<lb ed="#L" n="42"/>Sed nullus peccans inhaeret bono commutabili
+<lb ed="#L" n="43"/>quasi utens: non enim refert ipsum ad bonum
+<lb ed="#L" n="44"/>quod nos beatos facit, quod proprie est uti, ut
+<lb ed="#L" n="45"/>Augustinus dicit ibidem. Ergo quicumque peccat,
+<lb ed="#L" n="46"/>fruitur bono commutabili. Sed frui rebus utendis
+<lb ed="#L" n="47"/>est humana perversitas, ut Augustinus dicit, in 
+li<lb break="no" ed="#L" n="48"/>bro Octoginta trium Quaest. Cum ergo 
+perver<lb break="no" ed="#L" n="49"/>sitas peccatum mortale nominet, videtur quod
+<lb ed="#L" n="50"/>quicumque peccat, mortaliter peccet.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e256">
+                  <lb ed="#L" n="51"/>4. PRAETEREA, quicumque accedit ad unum 
+ter<lb break="no" ed="#L" n="52"/>minum, ex hoc ipso recedit ab alio. Sed 
+quicum<lb break="no" ed="#L" n="53"/>que peccat, accedit ad bonum commutabile. Ergo
+<lb ed="#L" n="54"/>recedit a bono incommutabili. Ergo peccat 
+mor<lb break="no" ed="#L" n="55"/>taliter. Non ergo convenienter peccatum veniale
+<lb ed="#L" n="56"/>contra mortale dividitur.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e272">
+                  <lb ed="#L" n="57"/>SED CONTRA EST quod Augustinus dicit, in 
+Ho<lb break="no" ed="#L" n="58"/>mil. XLI super Ioan., quod crimen est quod da-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="59"/>mnationem meretur, veniale autem est quod non
+<lb ed="#L" n="60"/>meretur damnationem. Sed crimen nominat 
+pec<lb break="no" ed="#L" n="61"/>catum mortale. Ergo veniale peccatum 
+conve<lb break="no" ed="#L" n="62"/>nienter dividitur contra mortale.;
+<lb ed="#L" n="63"/>REsPONDEO DICENDUM quod aliqua, secundum
+<lb ed="#L" n="64"/>quod proprie accipiuntur, non videntur esse 
+op<lb break="no" ed="#L" n="65"/>posita, quae si metaphorice accipiantur, opponi
+<lb ed="#L" n="66"/>inveniuntur: sicut ridere non opponitur ei quod
+<lb ed="#L" n="67"/>est arescere; sed secundum quod ridere 
+meta<lb break="no" ed="#L" n="68"/>phorice de prato dicitur propter eius floritionem
+<lb ed="#L" n="69"/>et virorem, opponitur ei quod est arescere. 
+Si<lb break="no" ed="#L" n="70"/>militer si mortale proprie accipiatur, prout 
+refer<lb break="no" ed="#L" n="71"/>tur ad mortem corporalem, non videtur 
+opposi<lb break="no" ed="#L" n="72"/>tionem habere cum veniali, nec ad idem genus
+<lb ed="#L" n="73"/>pertinere. Sed si mortale accipiatur metaphorice,
+<lb ed="#L" n="74"/>secundum quod dicitur in peccatis, mortale op-.
+<lb ed="#L" n="75"/>ponitur ei quod est veniale. 
+</p>
+               <p xml:id="TAca84-d1e1127-d1e318">
+                  <lb ed="#L" n="76"/>Cum enim peccatum sit quaedam infirmitas
+<lb ed="#L" n="77"/>animae, ut supra habitum est, peccatum 
+ali<lb break="no" ed="#L" n="78"/>quod mortale dicitur ad similitudinem morbi, qui
+<lb ed="#L" n="79"/>dicitur mortalis ex eo quod inducit defectum 
+ir<lb break="no" ed="#L" n="80"/>reparabilem per destitutionem alicuius principii,
+<lb ed="#L" n="81"/>ut dictum est. Principium autem spiritualis 
+vi<lb break="no" ed="#L" n="82"/>tae, quae est secundum virtutem, est ordo ad
+<lb ed="#L" n="83"/>ultimum finem, ut supra dictum est. Qui 
+qui<lb break="no" ed="#L" n="84"/>dem si destitutus fuerit, reparari non potest per
+<lb ed="#L" n="85"/>aliquod principium intrinsecum, sed solum per
+<lb ed="#L" n="86"/>virtutem divinam, ut supra dictum est: quia
+<lb ed="#L" n="87"/>inordinationes eorum quae sunt ad finem, 
+repa<lb break="no" ed="#L" n="88"/>rantur ex fine, sicut error qui. accidit circa 
+conclu<lb break="no" ed="#L" n="89"/>siones, per veritatem ? principiorum. Defectus
+<lb ed="#L" n="90"/>ergo ordinis ultimi finis non potest per aliquid
+<lb ed="#L" n="91"/>aliud reparari quod sit principalius; sicut nec error
+<lb ed="#L" n="92"/>qui est circa principia. Et ideo huiusmodi 
+pec<lb break="no" ed="#L" n="93"/>cata dicuntur mortalia, quasi irreparabilia. - 
+Pec<lb break="no" ed="#L" n="94"/>cata autem quae habent inordinationem circa ea
+<pb ed="#L" n="133"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quae sunt ad finem, conservato ordine ad 
+ulti<lb break="no" ed="#L" n="2"/>mum finem, reparabilia sunt. Et haec dicuntur 
+ve<lb break="no" ed="#L" n="3"/>nialia: tunc enim peccatum veniam habet, quando
+<lb ed="#L" n="4"/>reatus poenae tollitur, qui cessat cessante peccato,
+<lb ed="#L" n="5"/>ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e377">
+                  <lb ed="#L" n="6"/>Secundum hoc ergo, mortale et veniale 
+oppo<lb break="no" ed="#L" n="7"/>nuntur sicut reparabile et irreparabile. Et hoc dico
+<lb ed="#L" n="8"/>per principium interius: non autem per 
+compara<lb break="no" ed="#L" n="9"/>tionem ad virtutem divinam, quae omnem 
+mor<lb break="no" ed="#L" n="10"/>bum et corporalem et spiritualem potest reparare.
+<lb ed="#L" n="11"/>Et propter hoc veniale peccatum convenienter 
+di<lb break="no" ed="#L" n="12"/>viditur contra mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e395">
+                  <lb ed="#L" n="13"/>AD PRIMUM ERGO DICENDUM quod divisio peccati
+<lb ed="#L" n="14"/>venialis et mortalis non est divisio generis in
+<lb ed="#L" n="15"/>species, quae aequaliter participent rationem 
+ge<lb break="no" ed="#L" n="16"/>neris: sed analogi in ea de quibus praedicatur
+<lb ed="#L" n="17"/>Secundum prius et posterius. Et ideo perfecta
+<lb ed="#L" n="18"/>ratio peccati, quam Augustinus ponit, convenit
+<lb ed="#L" n="19"/>peccato mortali. Peccatum autem veniale dicitur
+<lb ed="#L" n="20"/>peccatum secundum rationem imperfectam, et in
+<lb ed="#L" n="21"/>ordine ad peccatum mortale: sicut accidens 
+di<lb break="no" ed="#L" n="22"/>citur ens in ordine ad substantiam, secundum
+<lb ed="#L" n="23"/>imperfectam rationem entis. Non enim est 
+con<lb break="no" ed="#L" n="24"/>tra legem: quia venialiter peccans non facit quod
+<lb ed="#L" n="25"/>lex. prohibet, nec praetermittit id ad quod lex
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="26"/>per praeceptum obligat; sed facit praeter legem,
+<lb ed="#L" n="27"/>quia non observat modum rationis quem lex 
+in<lb break="no" ed="#L" n="28"/>tendit. $a
+</p>
+               <p xml:id="TAca84-d1e1127-d1e435">
+                  <lb ed="#L" n="29"/>AD SECUNDUM DICENDUM quod illud praeceptum
+<lb ed="#L" n="30"/>Apostoli est affirmativum: unde non obligat ad
+<lb ed="#L" n="31"/>semper. Et sic non facit contra hoc praeceptum
+<lb ed="#L" n="32"/>quicumque non actu refert in gloriam Dei omne
+<lb ed="#L" n="33"/>quod facit. Sufficit ergo quod aliquis habitualiter
+<lb ed="#L" n="34"/>referat se et omnia sua in Deum, ad hoc quod
+<lb ed="#L" n="35"/>non semper mortaliter peccet, cum aliquem actum
+<lb ed="#L" n="36"/>non refert in gloriam Dei actualiter. Veniale 
+au<lb break="no" ed="#L" n="37"/>tem peccatum non excludit habitualem 
+ordina<lb break="no" ed="#L" n="38"/>tonem actus humani in gloriam Dei, sed solum
+<lb ed="#L" n="39"/>actuàlem: quia non excludit caritatem, quae 
+ha<lb break="no" ed="#L" n="40"/>bitualiter ordinat in Deum. Unde non sequitur
+<lb ed="#L" n="41"/>quod ille qui peccat venialiter, peccet mortaliter.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e466">
+                  <lb ed="#L" n="42"/>AD TERTIUM DICENDUM quod ille qui peccat 
+ve<lb break="no" ed="#L" n="43"/>nialiter, inhaeret bono temporali non ut fruens,
+<lb ed="#L" n="44"/>quia non constituit in eo finem; sed ut utens, 
+re<lb break="no" ed="#L" n="45"/>ferens in Deum non actu, sed habitu.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e477">
+                  <lb ed="#L" n="46"/>AD QUARTUM DICENDUM quod bonum 
+commuta<lb break="no" ed="#L" n="47"/>bile non accipitur ut terminus contrapositus 
+in<lb break="no" ed="#L" n="48"/>commutabili bono, nisi quando constituitur in eo
+<lb ed="#L" n="49"/>finis. Quod enim est ad finem, non habet 
+ratio<lb break="no" ed="#L" n="50"/>nem termini.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1127-Dd1e491"><!-- p2p1-q88-a2 -->
+               <head xml:id="TAca84-d1e1127-Hd1e494">Articulus 2</head>
+               <head xml:id="TAca84-d1e1127-Hd1e496" type="question-title">Utrum peccatum mortale et veniale differant genere</head>
+               <p xml:id="TAca84-d1e1127-d1e499">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="89"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="90"/>UTRUM PECCATUM MORTALE ET VENIALE DIFFERANT GENERE
+</p>
+               <p xml:id="TAca84-d1e1127-d1e508">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="91"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="92"/>peccatum veniale et mortale non 
+diffe<lb break="no" ed="#L" n="93"/>rant genere, ita scilicet quod aliquod sit
+<lb ed="#L" n="94"/>peccatum mortale ex genere, et aliquod
+<lb ed="#L" n="95"/>veniale ex genere 5. Bonum enim et malum ex
+<lb ed="#L" n="96"/>genere in actibus humanis accipitur per compa-.
+<lb ed="#L" n="97"/>rationem ad materiam sive ad obiectum, ut 
+su<lb break="no" ed="#L" n="98"/>pra dictum est. Sed secundum quodlibet. 
+obie<lb break="no" ed="#L" n="99"/>ctum vel materiam, contingit peccare mortaliter
+<lb ed="#L" n="100"/>et venialiter: quodlibet enim bonum 
+commuta<lb break="no" ed="#L" n="101"/>bile potest homo diligere vel infra Deum, quod
+<lb ed="#L" n="102"/>est peccare venialiter, vel supra Deum, quod est
+<lb ed="#L" n="103"/>peccare. mortaliter. Ergo peccatum. veniale et
+<lb ed="#L" n="104"/>mortale non differunt. genere.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e543">
+                  <lb ed="#L" n="105"/>2. PRAETEREA, sicut dictum est supra, 
+pecca<lb break="no" ed="#L" n="106"/>tum mortale dicitur quod est irreparabile, 
+pec<lb break="no" ed="#L" n="107"/>catum autem veniale quod est reparabile. Sed
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="108"/>esse irreparabile convenit peccato quod fit ex
+<lb ed="#L" n="109"/>malitia, quod. secundum quosdam. irremissibile
+<lb ed="#L" n="110"/>dicitur: esse autem.reparabile: convenit peccato
+<lb ed="#L" n="111"/>quod fit per infirmitatem vel ignorantiam, quod
+<lb ed="#L" n="112"/>dicitur remissibile. Ergo peccatum mortale et 
+ve<lb break="no" ed="#L" n="113"/>niale differunt sicut peccatum quod est ex 
+ma<lb break="no" ed="#L" n="114"/>litia commissum, vel ex infirmitate et ignorantia.
+<lb ed="#L" n="115"/>Sed secundum hoc non differunt. peccata genere,
+<lb ed="#L" n="116"/>sed causa, ut supra dictum est. Ergo peccatum
+<lb ed="#L" n="117"/>veniale et mortale non differunt genere. x
+</p>
+               <p xml:id="TAca84-d1e1127-d1e577">
+                  <lb ed="#L" n="118"/>3. PRAETEREA, supra dictum est quod subiti
+<lb ed="#L" n="119"/>motus tam sensualitatis quam rationis, sunt 
+pec<lb break="no" ed="#L" n="120"/>cata venialia. Sed subiti motus inveniuntur in
+<lb ed="#L" n="121"/>quolibet peccati genere. Ergo non sunt aliqua
+<lb ed="#L" n="122"/>peccata venialia ex genere. |
+</p>
+               <p xml:id="TAca84-d1e1127-d1e590">
+                  <lb ed="#L" n="123"/>SED CONTRA EST quod Augustinus, in sermone
+<lb ed="#L" n="124"/>de Purgatorio, enumerat quaedam genera pec-
+<pb ed="#L" n="135"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>catorum venialium, et quaedam genera 
+peccato<lb break="no" ed="#L" n="2"/>rum mortalium.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e606">
+                  <lb ed="#L" n="3"/>RESPONDEO DICENDUM quod peccatum veniale a
+<lb ed="#L" n="4"/>venia dicitur. Potest igitur aliquod peccatum dici
+<lb ed="#L" n="5"/>veniale uno modo, quia est veniam consecutum:
+<lb ed="#L" n="6"/>€t sic dicit Ambrosius quod omne peccatum
+<lb ed="#L" n="7"/>per poenitentiam fit veniale. Et hoc dicitur 
+ve<lb break="no" ed="#L" n="8"/>niale ex eventu. - Alio modo dicitur veniale, quia
+<lb ed="#L" n="9"/>non habet in se unde veniam non consequatur
+<lb ed="#L" n="10"/>vel totaliter vel: in parte. In parte quidem, sicut
+<lb ed="#L" n="11"/>cum habet in se aliquid. diminuens culpam: ut
+<lb ed="#L" n="12"/>cum fit ex infirmitate vel ignorantia. Et hoc 
+dici<lb break="no" ed="#L" n="13"/>tur veniale ex causa.- In toto autem, ex eo quod
+<lb ed="#L" n="14"/>non tollit ordinem ad ultimum finem: unde non
+<lb ed="#L" n="15"/>meretur poenam aeternam, sed temporalem. Et
+<lb ed="#L" n="16"/>de hoc veniali ad praesens intendimus.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e639">
+                  <lb ed="#L" n="17"/>De primis enim duobus constat quod non 
+ha<lb break="no" ed="#L" n="18"/>bent genus aliquod determinatum. Sed veniale
+<lb ed="#L" n="19"/>tertio modo dictum, potest habere genus 
+deter<lb break="no" ed="#L" n="20"/>minatum, ita quod aliquod peccatum dicatur 
+ve<lb break="no" ed="#L" n="21"/>niale ex genere, et aliquod mortale ex genere,
+<lb ed="#L" n="22"/>secundum quod genus vel species actus '
+deter<lb break="no" ed="#L" n="23"/>minantur ex obiecto. Cum enim voluntas fertur
+<lb ed="#L" n="24"/>in aliquid quod secundum se repugnat caritati,
+<lb ed="#L" n="25"/>per quam homo ordinatur in ultimum finem,
+<lb ed="#L" n="26"/>peccatum - ? ex suo obiecto habet quod sit 
+mor<lb break="no" ed="#L" n="27"/>le. Unde est, mortale ex genere: sive sit 
+con<lb break="no" ed="#L" n="28"/>tra dilectionem Dei, sicut blasphemia, periurium,
+<lb ed="#L" n="29"/>et huiusmodi; sive contra dilectionem proximi,
+<lb ed="#L" n="30"/>sicut homicidium, adulterium, et similia. Unde
+<lb ed="#L" n="31"/>huiusmodi sunt peccata mortalia ex suo genere.
+<lb ed="#L" n="32"/>- Quandoque, vero voluntas peccantis fertur in id
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="33"/>quod in se continet quandam inordinationem, non
+<lb ed="#L" n="34"/>tamen contrariatur dilectioni Dei et proximi: sicut
+<lb ed="#L" n="35"/>verbum otiosum, risus superfluus, et alia 
+huius<lb break="no" ed="#L" n="36"/>modi. Et talia sunt peccata venialia ex suo genere.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e687">
+                  <lb ed="#L" n="37"/>Sed quia actus morales recipiunt rationem boni
+<lb ed="#L" n="38"/>et mali non solum ex obiecto, sed etiam ex 
+ali<lb break="no" ed="#L" n="39"/>qua dispositione agentis, ut supra habitum est;
+<lb ed="#L" n="40"/>contingit quandoque quod id quod est peccatum
+<lb ed="#L" n="41"/>veniale ex genere ratione sui obiecti, fit mortale
+<lb ed="#L" n="42"/>ex parte agentis: vel quia in eo constituit finem
+<lb ed="#L" n="43"/>ultimum; vel quia ordinat ipsum ad aliquid quod
+<lb ed="#L" n="44"/>est peccatum mortale ex genere, puta cum 
+ali<lb break="no" ed="#L" n="45"/>quis ordinat verbum otiosum ad adulterium 
+com<lb break="no" ed="#L" n="46"/>mittendum. Similiter etiam ex parte agentis 
+con<lb break="no" ed="#L" n="47"/>tingit quod aliquod peccatum quod ex suo genere
+<lb ed="#L" n="48"/>est mortale, fit veniale: propter hoc scilicet quod
+<lb ed="#L" n="49"/>actus est imperfectus, idest non deliberatus 
+ra<lb break="no" ed="#L" n="50"/>tione, quae est principium proprium mali actus:
+<lb ed="#L" n="51"/>sicut supra dictum est de subitis motibus 
+in<lb break="no" ed="#L" n="52"/>fidelitatis.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e724">
+                  <lb ed="#L" n="53"/>AD PRIMUM ERGO DICENDUM quod. ex hoc ipso
+<lb ed="#L" n="54"/>quod aliquis eligit id quod repugnat divinae 
+ca<lb break="no" ed="#L" n="55"/>ritati, convincitur praeferre illud caritati divinae,
+<lb ed="#L" n="56"/>et per consequens plus amare etd quam Deum.
+<lb ed="#L" n="57"/>Et ideo aliqua peccata ex genere, quae de se
+<lb ed="#L" n="58"/>repugnant caritati, habent quod aliquid diligatur
+<lb ed="#L" n="59"/>supra Deum. Et sic sunt ex genere suo mortalia.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e743">
+                  <lb ed="#L" n="60"/>AD SECUNDUM DICENDUM quod ratio illa procedit
+<lb ed="#L" n="61"/>de peccato veniali ex causa.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e750">
+                  <lb ed="#L" n="62"/>AD TERTIUM DICENDUM quod ratio illa procedit
+<lb ed="#L" n="63"/>de peccato quod est veniale propter 
+imperfectio<lb break="no" ed="#L" n="64"/>nem. actus.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1127-Dd1e760"><!-- p2p1-q88-a3 -->
+               <head xml:id="TAca84-d1e1127-Hd1e763">Articulus 3</head>
+               <head xml:id="TAca84-d1e1127-Hd1e765" type="question-title">Utrum peccatum veniale sit dispositio ad mortale</head>
+               <p xml:id="TAca84-d1e1127-d1e768">
+                  <lb ed="#L" n="75"/>ARTICULUS TERTIUS
+<lb ed="#L" n="76"/>UTRUM PECCATUM VENIALE SIT DISPOSITIO AD MORTALE
+</p>
+               <p xml:id="TAca84-d1e1127-d1e775">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="77"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="78"/>peccatum. veniale non sit dispositio ad
+<lb ed="#L" n="79"/>mortale. Unum enim oppositum non 
+dis<lb break="no" ed="#L" n="80"/>ponit ad aliud. Sed peccatum veniale et
+<lb ed="#L" n="81"/>mortale ex opposito dividuntur, ut dictum est. 
+Er<lb break="no" ed="#L" n="82"/>go peccatum veniale non est dispositio ad mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e793">
+                  <lb ed="#L" n="83"/>2. PRAETEREA, actus disponit ad aliquid simile
+<lb ed="#L" n="84"/>in specie sibi: unde in II Ethic. dicitur quod
+<lb ed="#L" n="85"/>ex similibus actibus generantur. similes 
+dispositio<lb break="no" ed="#L" n="86"/>nes et habitus. Sed. peccatum mortale. et veniale
+<lb ed="#L" n="87"/>differunt genere seu specie, ut dictum est. Ergo
+<lb ed="#L" n="88"/>peccatum veniale non disponit ad mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e810">
+                  <lb ed="#L" n="89"/>3. PRAETEREA, $i peccatum dicatur veniale quia
+<lb ed="#L" n="90"/>disponit ad mortale, oportebit quod. quaecumque
+<lb ed="#L" n="91"/>disponunt ad mortale peccatum, sint peccata 
+ve<lb break="no" ed="#L" n="92"/>nialia. Sed. omnia bona opera disponunt ad 
+pec<lb break="no" ed="#L" n="93"/>catum mortale: dicit enim Augustinus, in Regula,
+<lb ed="#L" n="94"/>quod superbia bonis operibus insidiatur, ut pereant.
+<lb ed="#L" n="95"/>Ergo. etiam bona, opera erunt peccata venialia:
+<lb ed="#L" n="96"/>quod. est inconveniens.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e830">
+                  <lb ed="#L" n="97"/>SED coNTRA EST quod dicitur Ecchi. xix: Qui
+<lb ed="#L" n="98"/>spernit minima, paulatim defluit. Sed ille qui 
+pec<lb break="no" ed="#L" n="99"/>cat venialiter, videtur minima spernere. Ergo 
+pau<lb break="no" ed="#L" n="100"/>latim disponitur ad hoc quod totaliter defluat
+<lb ed="#L" n="101"/>per. peccatum: mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e843">
+                  <lb ed="#L" n="102"/>RESPONDEO DICENDUM: quod disponens est 
+quo<lb break="no" ed="#L" n="103"/>dammodo causa. Unde secundum duplicem 
+mo<lb break="no" ed="#L" n="104"/>dum causae, est duplex dispositionis modus. Est
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="105"/>enim causa quaedam movens directe ad effectum:
+<lb ed="#L" n="106"/>sicut calidum calefacit. Est. etiam causa indirecte
+<lb ed="#L" n="107"/>movens, removendo prohibens: sicut removens
+<lb ed="#L" n="108"/>columnam dicitur removere. lapidem superposi-
+<pb ed="#L" n="136"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tum. Et secundum hoc, actus peccati dupliciter
+<lb ed="#L" n="2"/>ad aliquid disponit. Uno quidem modo, directe:
+<lb ed="#L" n="3"/>et.sic disponit ad actum similem secundum 
+spe<lb break="no" ed="#L" n="4"/>ciem. Et hoc modo, primo et per se peccatum
+<lb ed="#L" n="5"/>veniale ex genere non disponit ad mortale ex
+<lb ed="#L" n="6"/>genere: cum differant specie. Sed per hunc 
+mo<lb break="no" ed="#L" n="7"/>dum peccatum veniale potest disponere, per 
+quan<lb break="no" ed="#L" n="8"/>dam consequentiam, ad peccatum quod est 
+mor<lb break="no" ed="#L" n="9"/>tale ex. parte agentis. Augmentata enim 
+disposi<lb break="no" ed="#L" n="10"/>tione vel habitu per actus peccatorum venialium,
+<lb ed="#L" n="11"/>intantum. potest libido peccandi crescere, quod
+<lb ed="#L" n="12"/>ille qui peccat, finem suum constituet in peccato
+<lb ed="#L" n="13"/>veniali nam unicuique habenti habitum, 
+inquan<lb break="no" ed="#L" n="14"/>tum huiusmodi, finis est operatio secundum 
+ha<lb break="no" ed="#L" n="15"/>bitum. Et sic, multoties peccando venialiter, 
+dis<lb break="no" ed="#L" n="16"/>ponetur ad peccatum. mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e902">
+                  <lb ed="#L" n="17"/>Alio modo actus humanus disponit ad aliquid
+<lb ed="#L" n="18"/>removendo prohibens. Et hoc modo peccatum
+<lb ed="#L" n="19"/>veniale ex genere potest disponere ad peccatum
+<lb ed="#L" n="20"/>mortale ex genere. Qui enim peccat venialiter
+<lb ed="#L" n="21"/>ex genere, praetermittit aliquem ordinem: et ex
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="22"/>hoc quod consuescit voluntatem suam in 
+mino<lb break="no" ed="#L" n="23"/>ribus debito ordini non subiicere, disponitur ad
+<lb ed="#L" n="24"/>hoc quod etiam voluntatem suam mon subiiciat
+<lb ed="#L" n="25"/>ordini ultimi finis, eligendo id quod est 
+pecca<lb break="no" ed="#L" n="26"/>tum mortale ex genere. 
+</p>
+               <p xml:id="TAca84-d1e1127-d1e928">
+                  <lb ed="#L" n="27"/>AD PRIMUM ERGO DICENDUM: quod peccatum. 
+ve<lb break="no" ed="#L" n="28"/>niale et mortale non dividuntur ex opposito, sicut
+<lb ed="#L" n="29"/>duae species unius generis, ut dictum est: sed
+<lb ed="#L" n="30"/>sicut. accidens contra substantiam dividitur. Unde
+<lb ed="#L" n="31"/>sicut accidens potest esse dispositio ad formam
+<lb ed="#L" n="32"/>substantialem, ita et veniale peccatum ad mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e944">
+                  <lb ed="#L" n="33"/>AD SECUNDUM DICENDUM quod peccatum veniale
+<lb ed="#L" n="34"/>non est simile mortali in specie: est tamen 
+si<lb break="no" ed="#L" n="35"/>mile ei in genere, inquantum utrumque importat
+<lb ed="#L" n="36"/>defectum debiti ordinis, licet aliter et aliter, ut
+<lb ed="#L" n="37"/>dictum est.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e958">
+                  <lb ed="#L" n="38"/>AD TERTIUM DICENDUM quod:opus bonum non
+<lb ed="#L" n="39"/>est per se dispositio ad mortale peccatum: potest
+<lb ed="#L" n="40"/>tamen esse materia vel occasio peccati mortalis
+<lb ed="#L" n="41"/>per accidens. Sed peccatum veniale. per. se. 
+dis<lb break="no" ed="#L" n="42"/>ponit ad mortale, ut dictum est..--.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1127-Dd1e972"><!-- p2p1-q88-a4 -->
+               <head xml:id="TAca84-d1e1127-Hd1e975">Articulus 4</head>
+               <head xml:id="TAca84-d1e1127-Hd1e977" type="question-title">Utrum peccatum veniale possit fieri mortale</head>
+               <p xml:id="TAca84-d1e1127-d1e980">
+                  <pb ed="#L" n="137"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUARTUS
+<lb ed="#L" n="2"/>UTRUM PECCATUM VENIALE POSSIT FIERI MORTALE
+</p>
+               <p xml:id="TAca84-d1e1127-d1e991">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>peccatum veniale possit fieri mortale.
+<lb ed="#L" n="5"/>Dicit enim Augustinus, exponens illud
+<lb ed="#L" n="6"/>Ioan., « Qui incredulus est Filio, non
+<lb ed="#L" n="7"/>videbit vitam: » ' Peccata minima (idest venialia),
+<lb ed="#L" n="8"/>si negligantur, occidunt. Sed ex hoc dicitur 
+pec<lb break="no" ed="#L" n="9"/>catum mortale, quod spiritualiter occidit animam.
+<lb ed="#L" n="10"/>Ergo peccatum veniale potest fieri mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1013">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, motus sensualitatis ante 
+consen<lb break="no" ed="#L" n="12"/>sum rationis est peccatum veniale, post consensum
+<lb ed="#L" n="13"/>vero est peccatum mortale, ut supra dictum est.
+<lb ed="#L" n="14"/>Ergo peccatum veniale potest fieri mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1025">
+                  <lb ed="#L" n="15"/>3. PRAETEREA, peccatum veniale et mortale 
+dif<lb break="no" ed="#L" n="16"/>ferunt sicut morbus curabilis et incurabilis, ut 
+di<lb break="no" ed="#L" n="17"/>ctum est. Sed morbus curabilis potest fieri 
+incu<lb break="no" ed="#L" n="18"/>rabilis. Ergo peccatum veniale potest fieri mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1036">
+                  <lb ed="#L" n="19"/>4. PRAETEREA, dispositio potest fieri habitus.
+<lb ed="#L" n="20"/>Sed peccatum veniale est dispositio ad mortale,
+<lb ed="#L" n="21"/>ut dictum est. Ergo veniale peccatum potest
+<lb ed="#L" n="22"/>fieri mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1047">
+                  <lb ed="#L" n="23"/>SED CONTRA, ea quae differunt in infinitum, non
+<lb ed="#L" n="24"/>transmutantur in invicem. Sed peccatum mortale
+<lb ed="#L" n="25"/>et veniale differunt in infinitum, ut ex praedictis 
+<lb ed="#L" n="26"/>patet. Ergo veniale non potest fieri mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1058">
+                  <lb ed="#L" n="27"/>RESPONDEO DICENDUM quod peccatum veniale
+<lb ed="#L" n="28"/>fieri mortale, potest tripliciter intelligi. Uno modo
+<lb ed="#L" n="29"/>sic quod idem actus numero, primo sit peccatum
+<lb ed="#L" n="30"/>veniale, et postea mortale. Et hoc esse non potest.
+<lb ed="#L" n="31"/>Quia peccatum principaliter consistit in actu 
+vo<lb break="no" ed="#L" n="32"/>luntatis, sicut et quilibet actus moralis. Unde non
+<lb ed="#L" n="33"/>dicitur unus actus moraliter, si voluntas mutetur,
+<lb ed="#L" n="34"/>quamvis etiam actio secundum naturam sit 
+con<lb break="no" ed="#L" n="35"/>tinua. Si autem voluntas non mutetur, non potest
+<lb ed="#L" n="36"/>esse quod de veniali fiat mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1082">
+                  <lb ed="#L" n="37"/>Alio modo potest intelligi ut id quod est 
+ve<lb break="no" ed="#L" n="38"/>niale ex genere, fiat mortale. Et hoc quidem 
+pos<lb break="no" ed="#L" n="39"/>sibile est, inquantum constituitur in eo finis, vel
+<lb ed="#L" n="40"/>inquantum refertur ad mortale peccatum sicut ad
+<lb ed="#L" n="41"/>finem, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1095">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="42"/>Tertio modo potest intelligi ita quod multa 
+ve<lb break="no" ed="#L" n="43"/>nialia peccata constituant unum peccatum 
+mor<lb break="no" ed="#L" n="44"/>tale. Quod si sic intelligatur quod ex multis 
+pec<lb break="no" ed="#L" n="45"/>catis. venialibus integraliter constituatur unum
+<lb ed="#L" n="46"/>peccatum mortale, falsum est. Non enim omnia
+<lb ed="#L" n="47"/>peccata venialia de mundo, possunt habere 
+tan<lb break="no" ed="#L" n="48"/>tum de reatu, quantum unum peccatum mortale.
+<lb ed="#L" n="49"/>Quod patet ex ? parte durationis: quia peccatum
+<lb ed="#L" n="50"/>mortale habet reatum poenae aeternae, peccatum
+<lb ed="#L" n="51"/>autem veniale reatum poenae temporalis, ut 
+di<lb break="no" ed="#L" n="52"/>ctum est. Patet etiam ex parte poenae damni:
+<lb ed="#L" n="53"/>quia peccatum mortale meretur carentiam 
+visio<lb break="no" ed="#L" n="54"/>nis divinae, cui nulla alia poena comparari potest,
+<lb ed="#L" n="55"/>ut Chrysostomus dicit. Patet etiam ex parte 
+poe<lb break="no" ed="#L" n="56"/>nae sensus, quantum ad vermem conscientiae:
+<lb ed="#L" n="57"/>licet forte quantum ad poenam ignis, non sint
+<lb ed="#L" n="58"/>improportionales poenae. — Si vero intelligatur
+<lb ed="#L" n="59"/>quod multa peccata venialia faciunt unum 
+mor<lb break="no" ed="#L" n="60"/>tale dispositive, sic verum est, sicut supra 
+osten<lb break="no" ed="#L" n="61"/>sum est, secundum duos modos dispositionis, quo
+<lb ed="#L" n="62"/>peccatum veniale disponit ad mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1146">
+                  <lb ed="#L" n="63"/>AD PRIMUM ERGO DICENDUM quod Augustinus 
+lo<lb break="no" ed="#L" n="64"/>quitur in illo sensu, quod multa peccata venialia
+<lb ed="#L" n="65"/>dispositive causant mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1155">
+                  <lb ed="#L" n="66"/>AD SECUNDUM DICENDUM quod ille idem motus
+<lb ed="#L" n="67"/>sensualitatis. qui praecessit consensum rationis,
+<lb ed="#L" n="68"/>nunquam fiet peccatum mortale: sed ipse actus
+<lb ed="#L" n="69"/>rationis consentientis.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1166">
+                  <lb ed="#L" n="70"/>AD TERTIUM DICENDUM quod morbus corporalis
+<lb ed="#L" n="71"/>non est actus, sed dispositio quaedam permanens:
+<lb ed="#L" n="72"/>unde eadem manens, potest mutari. Sed 
+pecca<lb break="no" ed="#L" n="73"/>tum veniale est actus transiens, qui resumi non
+<lb ed="#L" n="74"/>potest. Et quantum ad hoc, non est simile.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1179">
+                  <lb ed="#L" n="75"/>AD QUARTUM DICENDUM quod dispositio quae fit
+<lb ed="#L" n="76"/>habitus, est sicut imperfectum in eadem specie:
+<lb ed="#L" n="77"/>sicut imperfecta scientia, dum perficitur, fit 
+ha<lb break="no" ed="#L" n="78"/>bitus. Sed veniale peccatum est dispositio alterius
+<lb ed="#L" n="79"/>generis, sicut accidens ad formam substantialem,
+<lb ed="#L" n="80"/>in quam nunquam mutatur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1127-Dd1e1196"><!-- p2p1-q88-a5 -->
+               <head xml:id="TAca84-d1e1127-Hd1e1199">Articulus 5</head>
+               <head xml:id="TAca84-d1e1127-Hd1e1201" type="question-title">Utrum circumstantia possit facere de veniali mortale</head>
+               <p xml:id="TAca84-d1e1127-d1e1204">
+                  <pb ed="#L" n="138"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUINTUS
+<lb ed="#L" n="2"/>UTRUM CIRCUMSTANTIA POSSIT FACERE DE VENIALI MORTALE
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1215">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>circumstantia possit de veniali peccato
+<lb ed="#L" n="5"/>facere mortale. Dicit enim Augustinus,
+<lb ed="#L" n="6"/>in sermone de Purgatorio, quod si
+<lb ed="#L" n="7"/>diu teneatur iracundia, et ebrietas si assidua sit,
+<lb ed="#L" n="8"/>transeunt in numerum peccatorum mortalium. Sed
+<lb ed="#L" n="9"/>ira et ebrietas non sunt ex suo genere peccata
+<lb ed="#L" n="10"/>mortalia, sed venialia: alioquin semper. essent
+<lb ed="#L" n="11"/>mortalia. Ergo circumstantia facit peccatum 
+ve<lb break="no" ed="#L" n="12"/>niale esse mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1241">
+                  <lb ed="#L" n="13"/>2. PRAETEREA, Magister dicit, xxiv dist. II libri
+<lb ed="#L" n="14"/>Sent., quod delectatio, si sit morosa, est peccatum
+<lb ed="#L" n="15"/>mortale; si autem non sit morosa, est peccatum
+<lb ed="#L" n="16"/>veniale. Sed. morositas est quaedam 
+circumstan<lb break="no" ed="#L" n="17"/>tia. Ergo circumstantia facit de peccato veniali
+<lb ed="#L" n="18"/>mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1258">
+                  <lb ed="#L" n="19"/>3. PRAETEREA, plus differunt malum et bonum
+<lb ed="#L" n="20"/>quam veniale peccatum et mortale, quorum 
+utrum<lb break="no" ed="#L" n="21"/>que est in genere mali. Sed circumstantia facit de
+<lb ed="#L" n="22"/>actu bono malum: sicut patet cum quis dat 
+elee<lb break="no" ed="#L" n="23"/>mosynam propter inanem gloriam. Ergo multo
+<lb ed="#L" n="24"/>magis potest facere de peccato veniali mortale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1274">
+                  <lb ed="#L" n="25"/>SED CONTRA EST quod, cum circumstantia sit 
+ac<lb break="no" ed="#L" n="26"/>cidens, quantitas eius non potest excedere 
+quan<lb break="no" ed="#L" n="27"/>titatem ipsius actus, quam habet ex suo genere:
+<lb ed="#L" n="28"/>semper enim subiectum praeeminet accidenti. Si
+<lb ed="#L" n="29"/>igitur actus ex suo genere sit peccatum veniale,
+<lb ed="#L" n="30"/>non poterit per circumstantiam fieri peccatum
+<lb ed="#L" n="31"/>mortale: cum peccatum mortale in infinitum 
+quo<lb break="no" ed="#L" n="32"/>dammodo excedat quantitatem venialis, ut ex 
+di<lb break="no" ed="#L" n="33"/>ctis patet.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1296">
+                  <lb ed="#L" n="34"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="35"/>est, cum de circumstantiis ageretus, circumstantia,
+<lb ed="#L" n="36"/>inquantum huiusmodi, est accidens actus moralis:
+<lb ed="#L" n="37"/>contingit tamen circumstantia accipi ut 
+differen<lb break="no" ed="#L" n="38"/>tiam specificam actus moralis, et tunc amittit 
+ra<lb break="no" ed="#L" n="39"/>tionem circumstantiae, et constituit speciem 
+mo<lb break="no" ed="#L" n="40"/>ralis actus. Hoc autem contingit in peccatis quando
+<lb ed="#L" n="41"/>circumstantia addit deformitatem alterius generis:
+<lb ed="#L" n="42"/>sicut cum aliquis accedit ad non suam, est actus
+<lb ed="#L" n="43"/>deformis deformitate opposita castitati; sed si 
+ac<lb break="no" ed="#L" n="44"/>cedat ad non suam quae est alterius uxor, 
+ad<lb break="no" ed="#L" n="45"/>ditur deformitas opposita iustitiae, contra quam
+<lb ed="#L" n="46"/>est ut aliquis usurpet rem alienam; et secundum
+<lb ed="#L" n="47"/>hoc huiusmodi circumstantia constituit novam
+<lb ed="#L" n="48"/>speciem peccati, quae dicitur adulterium.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1331">
+                  <lb ed="#L" n="49"/>Impossibile est autem quod circumstantia de
+<lb ed="#L" n="50"/>peccato veniali faciat mortale, nisi afferat 
+defor<lb break="no" ed="#L" n="51"/>mitatem alterius generis. Dictum est enim quod
+<lb ed="#L" n="52"/>peccatum veniale habet deformitatem per hoc
+<lb ed="#L" n="53"/>quod importat deordinationem circa ea quae sunt
+<lb ed="#L" n="54"/>ad finem: peccatum autem mortale habet 
+defor<lb break="no" ed="#L" n="55"/>mitatem per hoc quod importat deordinationem
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="56"/>respectu ultimi finis. Unde manifestum est quod
+<lb ed="#L" n="57"/>circumstantia non potest de veniali peccato facere
+<lb ed="#L" n="58"/>mortale, manens circumstantia: sed solum tunc 
+<lb ed="#L" n="59"/>quando transfert 5 in aliam speciem, et fit 
+quo<lb break="no" ed="#L" n="60"/>dammodo differentia specifica moralis actus.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1362">
+                  <lb ed="#L" n="61"/>AD PRIMUM ERGO DICENDUM quid diuturnitas non
+<lb ed="#L" n="62"/>est circumstantia trahens in aliam speciem, 
+simi<lb break="no" ed="#L" n="63"/>liter nec frequentia vel assiduitas, nisi forte per
+<lb ed="#L" n="64"/>accidens ex aliquo supervenienti. Non enim 
+ali<lb break="no" ed="#L" n="65"/>quid acquirit novam speciem ex hoc quod 
+mul<lb break="no" ed="#L" n="66"/>tplicatur vel protelatur, nisi forte in actu 
+pro<lb break="no" ed="#L" n="67"/>telato vel multiplicato. superveniat aliquid. quod
+<lb ed="#L" n="68"/>variet speciem, puta inobedientia vel poi
+<lb ed="#L" n="69"/>vel aliquid huiusmodi.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1384">
+                  <lb ed="#L" n="70"/>Dicendum est ergo. quod, cum ira. sit motus
+<lb ed="#L" n="71"/>animi ad nocendum proximo, si sit tale 
+nocu<lb break="no" ed="#L" n="72"/>mentum in quod tendit motus irae, quod ex 
+ge<lb break="no" ed="#L" n="73"/>nere suo sit peccatum mortale, sicut homicidium
+<lb ed="#L" n="74"/>vel furtum, talis.ira ex genere suo est peccatum
+<lb ed="#L" n="75"/>mortale. Sed quod sit peccatum veniale, habet ex
+<lb ed="#L" n="76"/>imperfectione actus, inquantum est motus subitus
+<lb ed="#L" n="77"/>sensualitatis. Si vero sit diuturna, redit ad naturam
+<lb ed="#L" n="78"/>sui generis per consensum rationis. — Si vero 
+no<lb break="no" ed="#L" n="79"/>cumentum in quod tendit motus irae, esset 
+ve<lb break="no" ed="#L" n="80"/>niale ex genere suo, puta cum aliquis in hoc 
+ira<lb break="no" ed="#L" n="81"/>scitur contra aliquem, quod vult ei dicere aliquod
+<lb ed="#L" n="82"/>verbum leve et iocosum, quod modicum ipsum
+<lb ed="#L" n="83"/>contristet; non erit ira peccatum mortale, 
+quan<lb break="no" ed="#L" n="84"/>tamcumque sit diuturna; nisi forte per accidens,
+<lb ed="#L" n="85"/>puta si.ex hoc grave scandalum oriatur, vel 
+pro<lb break="no" ed="#L" n="86"/>pter aliquid huiusmodi.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1424">
+                  <lb ed="#L" n="87"/>De ebrietate vero dicendum est dlici 
+secun<lb break="no" ed="#L" n="88"/>dum suam rationem habet quod. sit peccatum:
+<lb ed="#L" n="89"/>mortale: quod enim.homo absque necessitate
+<lb ed="#L" n="90"/>reddat se impotentem ad utendum ratione, per
+<lb ed="#L" n="91"/>quam homo in Deum ordinatur et multa peccata
+<lb ed="#L" n="92"/>occurrentia vitat, ex sola voluptate vini, expresse
+<lb ed="#L" n="93"/>contrariatur virtuti. Sed. quod sit peccatum 
+ve<lb break="no" ed="#L" n="94"/>niale, contingit propter ignorantiam quandam vel
+<lb ed="#L" n="95"/>infirmitatem, puta cum homo nescit virtutem vini,
+<lb ed="#L" n="96"/>aut propriam debilitatem, unde non putat se 
+ine<lb break="no" ed="#L" n="97"/>briari: tunc enim non imputatur ei ebrietas ad
+<lb ed="#L" n="98"/>peccatum, sed solum superabundantia potus. Sed
+<lb ed="#L" n="99"/>quando frequenter inebriatur, non potest per hanc
+<lb ed="#L" n="100"/>ignorantiam excusari quin videatur voluntas eius
+<lb ed="#L" n="101"/>eligere magis pati ebrietatem, quam abstinere
+<lb ed="#L" n="102"/>vino superfluo. Unde redit peccatum ad suam
+<lb ed="#L" n="103"/>naturam.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1463">
+                  <lb ed="#L" n="104"/>AD SECUNDUM DICENDUM quod delectatio morosa.
+<lb ed="#L" n="105"/>non dicitur esse peccatum. mortale, nisi in. his
+<lb ed="#L" n="106"/>quae ex suo genere sunt peccata mortalia; in 
+qui<lb break="no" ed="#L" n="107"/>bus si delectatio non morosa sit, peccatum 
+ve<lb break="no" ed="#L" n="108"/>niale est ex imperfectione actus, sicut et de ira
+<pb ed="#L" n="139"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>dictum est. Dicitur enim ira diuturna, et 
+dele<lb break="no" ed="#L" n="2"/>ctatio. morosa, propter approbationem rationis
+<lb ed="#L" n="3"/>deliberantis.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1487">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="4"/>AD TERTIUM DICENDUM quod circumstantia non
+<lb ed="#L" n="5"/>facit de bono actu malum, nisi constituens 
+spe<lb break="no" ed="#L" n="6"/>ciem peccati, ut supra etiam habitum est. 
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1127-Dd1e1499"><!-- p2p1-q88-a6 -->
+               <head xml:id="TAca84-d1e1127-Hd1e1502">Articulus 6</head>
+               <head xml:id="TAca84-d1e1127-Hd1e1504" type="question-title">Utrum peccatum mortale possit fieri veniale</head>
+               <p xml:id="TAca84-d1e1127-d1e1507">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="82"/>ARTICULUS SEXTUS
+<lb ed="#L" n="83"/>UTRUM PECCATUM MORTALE POSSIT FIERI VENIALE
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1516">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="84"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="85"/>peccatum mortale possit fieri veniale.
+<lb ed="#L" n="86"/>Aequaliter enim distat peccatum veniale
+<lb ed="#L" n="87"/>a mortali, et e contrario. Sed peccatum
+<lb ed="#L" n="88"/>veniale fit mortale, ut dictum est. Ergo etiam
+<lb ed="#L" n="89"/>peccatum mortale potest fieri veniale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1534">
+                  <lb ed="#L" n="90"/>2. PRAETEREA, peccatum veniale et mortale 
+po<lb break="no" ed="#L" n="91"/>nuntur differre secundum hoc, quod peccans 
+mor<lb break="no" ed="#L" n="92"/>taliter diligit creaturam plus quam Deum, peccans
+<lb ed="#L" n="93"/>autem venialiter diligit creaturam infra Deum.
+<lb ed="#L" n="94"/>Contingit autem quod aliquis committens id quod
+<lb ed="#L" n="95"/>est ex genere suo peccatum mortale, diligat 
+crea<lb break="no" ed="#L" n="96"/>turam infra Deum: puta si aliquis, nesciens 
+forni<lb break="no" ed="#L" n="97"/>cationem simplicem esse peccatum mortale et 
+con<lb break="no" ed="#L" n="98"/>trariam divino amori, fornicetur, ita tamen quod
+<lb ed="#L" n="99"/>propter divinum amorem paratus esset fornicatio-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="100"/>nem praetermittere, si sciret fornicando se contra
+<lb ed="#L" n="101"/>divinum amorem agere. Ergo peccabit venialiter.
+<lb ed="#L" n="102"/>Et sic peccatum mortale potest fieri veniale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1568">
+                  <cb ed="#L" n=""/>
+                  <lb ed="#L" n="103"/>3. PRAETEREA, sicut dictum est, plus differt 
+<lb ed="#L" n="104"/>bonum a malo quam veniale a mortali. Sed actus
+<lb ed="#L" n="105"/>qui est de se malus, potest fieri bonus: sicut
+<lb ed="#L" n="106"/>homicidium potest fieri actus iustitiae, sicut patet
+<lb ed="#L" n="107"/>in iudice qui occidit latronem. Ergo multo magis
+<lb ed="#L" n="108"/>peccatum mortale potest-fieri veniale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1586">
+                  <lb ed="#L" n="109"/>SED coNTRA EsT quod aeternum nunquam 
+po<lb break="no" ed="#L" n="110"/>test fieri temporale. Sed peccatum mortale. 
+me<lb break="no" ed="#L" n="111"/>retur poenam aeternam, peccatum autem veniale
+<lb ed="#L" n="112"/>poenam temporalem. Ergo peccatum mortale 
+nun<lb break="no" ed="#L" n="113"/>quam potest fieri veniale.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1599">
+                  <lb ed="#L" n="114"/>RESPONDEO DICENDUM quod veniale et mortale
+<lb ed="#L" n="115"/>differunt sicut perfectum et imperfectum in ge-
+<pb ed="#L" n="140"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nere peccati, ut dictum est. Imperfectum autem
+<lb ed="#L" n="2"/>per aliquam additionem potest ad perfectionem ?
+<lb ed="#L" n="3"/>venire. Unde et veniale, per hoc quod additur ei
+<lb ed="#L" n="4"/>deformitas pertinens ad genus peccati mortalis,
+<lb ed="#L" n="5"/>efficitur mortale: sicut cum quis dicit verbum
+<lb ed="#L" n="6"/>otiosum ut fornicetur. Sed id quod est 
+perfe<lb break="no" ed="#L" n="7"/>ctum, non potest fieri imperfectum per 
+additio<lb break="no" ed="#L" n="8"/>nem. Et ideo peccatum mortale non fit veniale
+<lb ed="#L" n="9"/>per hoc quod additur ei aliqua deformitas 
+per<lb break="no" ed="#L" n="10"/>tinens ad genus peccati venialis: non enim 
+di<lb break="no" ed="#L" n="11"/>minuitur peccatum eius qui fornicatur ut dicat
+<lb ed="#L" n="12"/>verbum otiosum, sed magis aggravatur propter
+<lb ed="#L" n="13"/>deformitatem adiunctam.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1638">
+                  <lb ed="#L" n="14"/>Potest tamen id quod est ex genere mortale,
+<lb ed="#L" n="15"/>esse veniale propter imperfectionem actus, quia
+<lb ed="#L" n="16"/>non perfecte pertingit ad rationem actus moralis,
+<lb ed="#L" n="17"/>cum non sit deliberatus sed subitus, ut ex dictis 
+<lb ed="#L" n="18"/>patet. Et hoc fit per subtractionem quandam,
+<lb ed="#L" n="19"/>scilicet deliberatae rationis. Et quia a ratione 
+de<lb break="no" ed="#L" n="20"/>liberata habet speciem moralis actus, inde est
+<lb ed="#L" n="21"/>quod per talem subtractionem solvitur species.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1658">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="22"/>AD PRIMUM ERGO DICENDUM quod veniale differt 
+<lb ed="#L" n="23"/>a mortali sicut imperfectum a perfecto, ut puer
+<lb ed="#L" n="24"/>a viro. Fit autem ex puero vir, sed non 
+conver<lb break="no" ed="#L" n="25"/>titur. Unde ratio non cogit.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1671">
+                  <lb ed="#L" n="26"/>AD SECUNDUM DICENDUM quod, si sit talis 
+igno<lb break="no" ed="#L" n="27"/>rantia quae peccatum omnino excuset, sicut est
+<lb ed="#L" n="28"/>furiosi vel amentis, tunc ex tali ignorantia 
+forni<lb break="no" ed="#L" n="29"/>cationem committens nec mortaliter nec venialiter
+<lb ed="#L" n="30"/>peccat, Si vero sit ignorantia non invicibilis, tunc
+<lb ed="#L" n="31"/>ignorantia ipsa est peccatum, et continet in se
+<lb ed="#L" n="32"/>defectum divini amoris, inquantum negligit homo
+<lb ed="#L" n="33"/>addiscere ea per quae potest se in divino amore
+<lb ed="#L" n="34"/>conservare.
+</p>
+               <p xml:id="TAca84-d1e1127-d1e1694">
+                  <lb ed="#L" n="35"/>AD TERTIUM DICENDUM. quod, sicut Augustinus
+<lb ed="#L" n="36"/>dicit, in libro Contra Mendacium, ea quae sunt
+<lb ed="#L" n="37"/>secundum se mala, nullo fine bene fieri possunt.
+<lb ed="#L" n="38"/>Homicidium autem est occisio innocentis: et hoc
+<lb ed="#L" n="39"/>nulo modo bene fieri potest. Sed iudex qui 
+oc<lb break="no" ed="#L" n="40"/>cidit latronem, vel miles qui occidit hostem 
+rei<lb break="no" ed="#L" n="41"/>publicae, non appellantur homicidae, ut 
+Augusti<lb break="no" ed="#L" n="42"/>nus dicit, in libro de Libero Arbitrio.;
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

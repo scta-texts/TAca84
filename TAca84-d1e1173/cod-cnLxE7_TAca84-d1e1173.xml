@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 97</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 97</title>
+               <date when="2023-10-20">October 20, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE7">Rome, 1892, Vol. 7</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-10-20" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="189"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1173"><!-- p2p1-q97 -->
+            <head xml:id="TAca84-d1e1173-Hd1e101">Quaestio 97</head>
+            <head xml:id="TAca84-d1e1173-Hd1e103" type="question-title">De mutatione legum</head>
+            <p xml:id="TAca84-d1e1173-d1e106">
+               <pb ed="#L" n="189"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO NONAGESIMASEPTIMA
+<lb ed="#L" n="2"/>DE MUTATIONE LEGUM
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1173-d1e119">
+               <lb ed="#L" n="4"/>DEINDE considerandum est de mutatione legum.
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="6"/>Primo: utrum lex humana sit mutabilis.
+<lb ed="#L" n="7"/>Secundo: utrum semper debeat mutari, quando
+<lb ed="#L" n="8"/>aliquid melius occurrerit.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="9"/>Tertio: utrum per consuetudinem aboleatur;
+<lb ed="#L" n="10"/>et utrum consuetudo obtineat vim legis.
+<lb ed="#L" n="11"/>Quarto: utrum usus legis humanae per 
+dispen<lb break="no" ed="#L" n="12"/>sationem rectorum immutari debeat.
+</p>
+            <div xml:id="TAca84-d1e1173-Dd1e143"><!-- p2p1-q97-a1 -->
+               <head xml:id="TAca84-d1e1173-Hd1e146">Articulus 1</head>
+               <head xml:id="TAca84-d1e1173-Hd1e148" type="question-title">Utrum lex humana debeat aliquo modo mutari</head>
+               <p xml:id="TAca84-d1e1173-d1e151">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>ARTICULUS PRIMUS
+<lb ed="#L" n="14"/>UTRUM LEX HUMANA DEBEAT ALIQUO MODO MUTARI
+</p>
+               <p xml:id="TAca84-d1e1173-d1e160">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="15"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="16"/>lex humana nullo modo debeat mutari.
+<lb ed="#L" n="17"/>Lex enim humana derivatur a lege 
+na<lb break="no" ed="#L" n="18"/>turali, ut supra dictum est. Sed lex
+<lb ed="#L" n="19"/>naturalis immobilis perseverat. Ergo et lex 
+hu<lb break="no" ed="#L" n="20"/>mana debet immobilis permanere.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e178">
+                  <lb ed="#L" n="21"/>2. PRAETEREA, sicut Philosophus dicit, in V
+<lb ed="#L" n="22"/>Ethic., mensura maxime debet esse permanens.
+<lb ed="#L" n="23"/>Sed lex humana est mensura humanorum actuum,
+<lb ed="#L" n="24"/>ut supra dictum est. Ergo debet immobiliter
+<lb ed="#L" n="25"/>permanere.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e192">
+                  <lb ed="#L" n="26"/>3. PRAETEREA, de ratione legis est quod sit iusta
+<lb ed="#L" n="27"/>et recta, ut supra dictum est. Sed illud quod
+<lb ed="#L" n="28"/>semel est rectum, semper est rectum. Ergo illud
+<lb ed="#L" n="29"/>quod semel est lex, semper debet esse lex.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e203">
+                  <lb ed="#L" n="30"/>SEp coNTRA EsT quod Augustinus dicit, in I de
+<lb ed="#L" n="31"/>Lib. Arb.: <quote xml:id="TAca84-d1e1173-Qd1e209">Lex temporalis, quamvis iusta sit,
+<lb ed="#L" n="32"/>commutari tamen per tempora iuste potest</quote>.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e215">
+                  <lb ed="#L" n="33"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="34"/>est, lex humana est quoddam dictamen rationis,
+<lb ed="#L" n="35"/>quo diriguntur humani actus. Et secundum hoc,
+<lb ed="#L" n="36"/>duplex causa potest esse quod lex humana iuste
+<lb ed="#L" n="37"/>mutetur: una quidem ex parte rationis; alia vero
+<lb ed="#L" n="38"/>ex parte hominum, quorum actus lege 
+regulan<lb break="no" ed="#L" n="39"/>tur. Ex parte quidem rationis, quia humanae 
+ra<lb break="no" ed="#L" n="40"/>tioni naturale esse videtur ut gradatim ab 
+im<lb break="no" ed="#L" n="41"/>perfecto ad perfectum perveniat. Unde videmus
+<lb ed="#L" n="42"/>in scientiis speculativis quod qui primo 
+philoso<lb break="no" ed="#L" n="43"/>phati sunt, quaedam imperfecta tradiderunt, quae
+<lb ed="#L" n="44"/>postmodum per posteriores sunt magis perfecta.
+<lb ed="#L" n="45"/>Ita etiam est in operabilibus. Nam primi qui 
+in<lb break="no" ed="#L" n="46"/>tenderunt invenire aliquid utile communitati 
+ho<lb break="no" ed="#L" n="47"/>minum, non valentes omnia ex seipsis 
+conside<lb break="no" ed="#L" n="48"/>rare, instituerunt quaedam imperfecta in multis
+<lb ed="#L" n="49"/>deficientia; quae posteriores mutaverunt, 
+instituen<lb break="no" ed="#L" n="50"/>tes aliqua quae in paucioribus deficere possent ?
+<lb ed="#L" n="51"/>a communi utilitate.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e259">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="52"/>Ex parte vero hominum, quorum actus lege
+<lb ed="#L" n="53"/>regulantur, lex recte mutari potest propter 
+muta<lb break="no" ed="#L" n="54"/>tionem conditionum hominum, quibus secundum
+<lb ed="#L" n="55"/>diversas eorum conditiones diversa expediunt.
+<lb ed="#L" n="56"/>Sicut Augustinus ponit exemplum, in I de Lib.
+<lb ed="#L" n="57"/>Arb., quod si populus sit bene moderatus et 
+gra<lb break="no" ed="#L" n="58"/>vis, communisque utilitatis diligentissimus custos,
+<lb ed="#L" n="59"/>recte lex fertur qua tali populo liceat creare sibi
+<lb ed="#L" n="60"/>magistratus, per quos respublica administretur.
+<lb ed="#L" n="61"/>Porro si paulatim idem populus depravatus 
+ha<lb break="no" ed="#L" n="62"/>beat venale suffragium, et regimen flagitiosis 
+sce<lb break="no" ed="#L" n="63"/>leratisque committat; recte adimitur tali populo
+<lb ed="#L" n="64"/>potestas dandi honores, et ad paucorum bonorum
+<lb ed="#L" n="65"/>redit arbitrium.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e294">
+                  <lb ed="#L" n="66"/>AD PRIMUM ERGO DICENDUM quod naturalis lex est
+<lb ed="#L" n="67"/>participatio quaedam legis aeternae, ut supra 
+<lb ed="#L" n="68"/>dictum est, et ideo immobilis perseverat: quod
+<lb ed="#L" n="69"/>habet ex immobilitate et perfectione divinae 
+ra<lb break="no" ed="#L" n="70"/>tionis instituentis naturam. Sed ratio humana 
+mu<lb break="no" ed="#L" n="71"/>tabilis est et imperfecta. Et ideo eius lex 
+mutabi<lb break="no" ed="#L" n="72"/>lis est. - Et praeterea lex naturalis continet 
+quae<lb break="no" ed="#L" n="73"/>dam universalia praecepta, quae semper manent:
+<lb ed="#L" n="74"/>lex vero posita ab homine continet praecepta
+<lb ed="#L" n="75"/>quaedam particularia, secundum diversos casus
+<lb ed="#L" n="76"/>qui emergunt.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e320">
+                  <lb ed="#L" n="77"/>AD SECUNDUM DICENDUM quod mensura debet esse
+<lb ed="#L" n="78"/>permanens quantum est possibile. Sed in rebus
+<lb ed="#L" n="79"/>mutabilibus non potest esse aliquid omnino 
+im<lb break="no" ed="#L" n="80"/>mutabiliter permanens. Et ideo lex humana non
+<lb ed="#L" n="81"/>potest esse omnino immutabilis.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e334">
+                  <lb ed="#L" n="82"/>AD TERTIUM DICENDUM quod rectum in rebus 
+cor<lb break="no" ed="#L" n="83"/>poralibus dicitur absolute: et ideo semper, 
+quan<lb break="no" ed="#L" n="84"/>tum est de se, manet rectum. Sed rectitudo legis
+<lb ed="#L" n="85"/>dicitur in ordine ad utilitatem communem, cui
+<lb ed="#L" n="86"/>non semper proportionatur una eademque res,
+<lb ed="#L" n="87"/>sicut supra dictum est. Et ideo talis rectitudo
+<lb ed="#L" n="88"/>mutatur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1173-Dd1e354"><!-- p2p1-q97-a2 -->
+               <head xml:id="TAca84-d1e1173-Hd1e357">Articulus 2</head>
+               <head xml:id="TAca84-d1e1173-Hd1e359" type="question-title">Utrum lex humana semper sit mutanda, quando occurrit aliquid melius</head>
+               <p xml:id="TAca84-d1e1173-d1e362">
+                  <pb ed="#L" n="190"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM LEX HUMANA SEMPER SIT MUTANDA, QUANDO OCCURRIT ALIQUID MELIUS
+</p>
+               <p xml:id="TAca84-d1e1173-d1e373">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>semper lex humana, quando aliquid
+<lb ed="#L" n="5"/>melius occurrit, sit mutanda. Leges enim
+<lb ed="#L" n="6"/>humanae sunt adinventae per rationem
+<lb ed="#L" n="7"/>humanam, sicut etiam aliae artes. Sed in aliis 
+ar<lb break="no" ed="#L" n="8"/>tibus mutatur id quod prius tenebatur, si aliquid
+<lb ed="#L" n="9"/>melius occurrat. Ergo idem est etiam faciendum
+<lb ed="#L" n="10"/>in legibus. humanis.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e395">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, ex his quae praeterita sunt, 
+pro<lb break="no" ed="#L" n="12"/>videre possumus de futuris. Sed nisi leges 
+hu<lb break="no" ed="#L" n="13"/>manae mutatae fuissent supervenientibus 
+melio<lb break="no" ed="#L" n="14"/>ribus adinventionibus, multa inconvenientia 
+se<lb break="no" ed="#L" n="15"/>querentur: eo quod leges antiquae inveniuntur
+<lb ed="#L" n="16"/>multas ruditates continere 9. Ergo videtur quod
+<lb ed="#L" n="17"/>leges sint. mutandae, quotiescumque aliquid 
+me<lb break="no" ed="#L" n="18"/>lius occurrit statuendum.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e416">
+                  <lb ed="#L" n="19"/>3. PRAETEREA, leges humanae circa singulares
+<lb ed="#L" n="20"/>actus hominum statuuntur. In singularibus autem
+<lb ed="#L" n="21"/>perfectam cognitionem adipisci non possumus
+<lb ed="#L" n="22"/>nisi per experientiam, quae fempore indiget, ut
+<lb ed="#L" n="23"/>dicitur in II Ezhic. Ergo videtur quod per 
+suc<lb break="no" ed="#L" n="24"/>cessionem temporis possit aliquid melius 
+occur<lb break="no" ed="#L" n="25"/>rere statuendum.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e434">
+                  <lb ed="#L" n="26"/>SED CONTRA EST quod dicitur in Decretis, dist. xu:
+<lb ed="#L" n="27"/>Ridiculum est et satis abominabile dedecus, ut
+<lb ed="#L" n="28"/>traditiones quas antiquitus a patribus suscepimus,
+<lb ed="#L" n="29"/>infringi patiamur.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e445">
+                  <lb ed="#L" n="30"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="31"/>lex humana intantum recte mutatur, inquantum
+<lb ed="#L" n="32"/>per eius mutationem communi utilitati provide-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33"/>tur. Habet autem ipsa legis mutatio, quantum in
+<lb ed="#L" n="34"/>se est, detrimentum quoddam communis salutis.
+<lb ed="#L" n="35"/>Quia ad observantiam legum plurimum valet
+<lb ed="#L" n="36"/>consuetudo: intantum quod ea quae contra com- -
+<lb ed="#L" n="37"/>munem consuetudinem fiunt, etiam si sint leviora
+<lb ed="#L" n="38"/>de se, graviora videantur. Unde quando mutatur
+<lb ed="#L" n="39"/>lex, diminuitur vis constrictiva legis,; inquantum
+<lb ed="#L" n="40"/>tollitur consuetudo. Et ideo nunquam debet 
+mu<lb break="no" ed="#L" n="41"/>tari lex humana, nisi ex aliqua parte tantum 
+re<lb break="no" ed="#L" n="42"/>compensetur communi saluti, quantum ex ista
+<lb ed="#L" n="43"/>parte derogatur. Quod quidem contingit vel ex
+<lb ed="#L" n="44"/>hoc quod aliqua maxima et evidentissima 
+utili<lb break="no" ed="#L" n="45"/>tas ex novo statuto provenit: vel ex eo quod est
+<lb ed="#L" n="46"/>maxima necessitas, ex eo quod lex consueta aut
+<lb ed="#L" n="47"/>manifestam iniquitatem continet, aut eius 
+obser<lb break="no" ed="#L" n="48"/>vatio est plurimum. nociva. Unde dicitur a 
+Turis<lb break="no" ed="#L" n="49"/>perito quod in rebus. novis constituendis, 
+evi<lb break="no" ed="#L" n="50"/>dens? debet esse utilitas, ut recedatur ab eo iure
+<lb ed="#L" n="51"/>quod diu aequum. visum est. z
+</p>
+               <p xml:id="TAca84-d1e1173-d1e497">
+                  <lb ed="#L" n="52"/>AD PRIMUM ERGO DICENDUM quod ea quae sunt
+<lb ed="#L" n="53"/>artis, habent efficaciam ex sola ratione: et ideo
+<lb ed="#L" n="54"/>ubicumque melior ratio occurrat, est mutandum.
+<lb ed="#L" n="55"/>quod prius tenebatur. Sed leges habent maximam
+<lb ed="#L" n="56"/>virtutem ex consuetudine, ut Philosophus dicit, in.
+<lb ed="#L" n="57"/>II Polit. Et ideo non sunt de facili mutandae.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e513">
+                  <lb ed="#L" n="58"/>AD SECUNDUM DICENDUM. quod ratio illa concludit
+<lb ed="#L" n="59"/>quod leges sunt mutandae: non tamen pro 
+qua<lb break="no" ed="#L" n="60"/>cumque melioratione, sed pro magna utilitate yel
+<lb ed="#L" n="61"/>necessitate, ut autem est.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e524">
+                  <lb ed="#L" n="62"/>Et similiter dicendum est ad tertium.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1173-Dd1e530"><!-- p2p1-q97-a3 -->
+               <head xml:id="TAca84-d1e1173-Hd1e533">Articulus 3</head>
+               <head xml:id="TAca84-d1e1173-Hd1e535" type="question-title">Utrum consuetudo possit obtinere vim legis</head>
+               <p xml:id="TAca84-d1e1173-d1e538">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="70"/>ARTICULUS TERTIUS -
+<lb ed="#L" n="71"/>UTRUM CONSUETUDO POSSIT OBTINERE VIM LEGIS
+</p>
+               <p xml:id="TAca84-d1e1173-d1e547">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="72"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="73"/>consuetudo non possit obtinere vim 
+le<lb break="no" ed="#L" n="74"/>divina, ut ex lan patet. Sed consuetudo
+<lb ed="#L" n="75"/>hominum non potest immutare legem naturae;
+<lb ed="#L" n="76"/>nec legem divinam. Ergo etiam nec legem 
+hu<lb break="no" ed="#L" n="77"/>manam immutare potest.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e565">
+                  <lb ed="#L" n="78"/>2. PRAETEREA, ex multis malis non potest fieri
+<lb ed="#L" n="79"/>unum bonum. Sed ille qui incipit primo contra
+<lb ed="#L" n="80"/>legem agere, male facit. Ergo, multiplicatis 
+simi<lb break="no" ed="#L" n="81"/>libus actibus, non efficietur aliquod bonum. Lex
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="82"/>autem est quoddam bonum: cum sit regula 
+hu<lb break="no" ed="#L" n="83"/>manorum actuum. Ergo per consuetudinem non -
+<lb ed="#L" n="84"/>potest removeri lex, ut ipsa consuetudo vim legis
+<lb ed="#L" n="85"/>obtineat.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e588">
+                  <lb ed="#L" n="86"/>3. PRAETEREA, ferre legem pertinet ad publicas
+<lb ed="#L" n="87"/>personas, ad quas pertinet regere communitatem:
+<lb ed="#L" n="88"/>unde privatae personae legem facere non possunt.
+<lb ed="#L" n="89"/>Sed consuetudo invalescit per actus privatarum
+<lb ed="#L" n="90"/>personarum. Ergo consuetudo non potest obtinere
+<lb ed="#L" n="91"/>vim legis, per quam lex. removeatur. -
+</p>
+               <p xml:id="TAca84-d1e1173-d1e604">
+                  <lb ed="#L" n="92"/>SED CONTRA EST quod Augustinus dicit, in E pst.
+<lb ed="#L" n="93"/>ad Casulan.: Mos populi Dei et institula maio-
+<pb ed="#L" n="191"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>rum pro lege sunt tenenda. Et sicut praevaricatores
+<lb ed="#L" n="2"/>legum divinarum, ita et contemptores 
+consuetudi<lb break="no" ed="#L" n="3"/>num. ecclesiasticarum coercendi sunt.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e622">
+                  <lb ed="#L" n="4"/>RESPONDEO DICENDUM quod omnis lex 
+proficisci<lb break="no" ed="#L" n="5"/>tur a ratione et voluntate legislatoris: lex quidem
+<lb ed="#L" n="6"/>divina et naturalis a rationabili Dei voluntate;
+<lb ed="#L" n="7"/>lex autem humana a voluntate hominis ratione
+<lb ed="#L" n="8"/>regulata. Sicut autem ratio et voluntas hominis
+<lb ed="#L" n="9"/>manifestantur verbo in rebus agendis, ita etiam
+<lb ed="#L" n="10"/>manifestantur facto: hoc enim unusquisque eligere
+<lb ed="#L" n="11"/>videtur ut bonum, quod opere implet. Manifestum
+<lb ed="#L" n="12"/>est autem quod verbo humano potest et mutari
+<lb ed="#L" n="13"/>lex, et etiam exponi, inquantum manifesfat 
+inte<lb break="no" ed="#L" n="14"/>riorem motum et conceptum rationis humanae.
+<lb ed="#L" n="15"/>Unde etiam et per actus, maxime multiplicatos,
+<lb ed="#L" n="16"/>qui consuetudinem efficiunt, mutari potest lex,
+<lb ed="#L" n="17"/>et-exponi, et etiam aliquid causari quod legis
+<lb ed="#L" n="18"/>virtutem obtineat: inquantum scilicet per 
+exterio<lb break="no" ed="#L" n="19"/>res actus multiplicatos interior voluntatis motus,
+<lb ed="#L" n="20"/>et rationis conceptus, efficacissime declaratur; cum
+<lb ed="#L" n="21"/>enim. aliquid multoties fit, videtur ex deliberato
+<lb ed="#L" n="22"/>rationis iudicio provenire. Et secundum hoc, 
+con<lb break="no" ed="#L" n="23"/>suetudo et habet vim legis, et legem abolet, et
+<lb ed="#L" n="24"/>est legum interpretatrix.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e670">
+                  <lb ed="#L" n="25"/>AD PRIMUM ERGO DICENDUM quod lex naturalis et
+<lb ed="#L" n="26"/>divina procedit a voluntate divina, ut dictum est.
+<lb ed="#L" n="27"/>Unde non potest mutari per consuetudinem 
+pro<lb break="no" ed="#L" n="28"/>cedentem a voluntate hominis, sed solum per
+<lb ed="#L" n="29"/>auctoritatem divinam mutari posset. Et inde est
+<lb ed="#L" n="30"/>quod nulla consuetudo vim obtinere potest 
+con<lb break="no" ed="#L" n="31"/>tra legem divinam vel legem naturalem:. dicit
+<lb ed="#L" n="32"/>enim Isidorus, in Synonym.: Usus auctoritati
+<lb ed="#L" n="33"/>cedai: pravum usum lex et ratio. vincat.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e692">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="34"/>AD SECUNDUM DICENDUM quod, sicut supra 
+di<lb break="no" ed="#L" n="35"/>ctum est, leges humanae in aliquibus casibus 
+de<lb break="no" ed="#L" n="36"/>ficiunt: unde possibile est quandoque praeter 
+le<lb break="no" ed="#L" n="37"/>gem agere, in casu scilicet in quo deficit lex, et
+<lb ed="#L" n="38"/>tamen actus non erit malus. Et cum tales casus
+<lb ed="#L" n="39"/>multiplicantur, propter aliquam mutationem 
+homi<lb break="no" ed="#L" n="40"/>num, tunc manifestatur per consuetudinem quod
+<lb ed="#L" n="41"/>lex ulterius utilis non est: sicut etiam 
+manifesta<lb break="no" ed="#L" n="42"/>retur si lex contraria verbo promulgaretur. Si
+<lb ed="#L" n="43"/>autem adhuc maneat ratio eadem propter quam
+<lb ed="#L" n="44"/>prima lex utilis erat, non consuetudo legem, sed
+<lb ed="#L" n="45"/>lex consuetudinem vincit: nisi forte propter hoc
+<lb ed="#L" n="46"/>solum inutilis lex videatur, quia non est 
+possi<lb break="no" ed="#L" n="47"/>bilis secundum consuetudinem patriae, quae erat
+<lb ed="#L" n="48"/>una de conditionibus legis. Difficile enim est 
+con<lb break="no" ed="#L" n="49"/>suetudinem multitudinis removere.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e731">
+                  <lb ed="#L" n="50"/>AD TERTIUM. DICENDUM quod multitudo in qua
+<lb ed="#L" n="51"/>consuetudo introducitur, duplicis conditionis esse
+<lb ed="#L" n="52"/>potest. Si enim sit libera multitudo, quae possit
+<lb ed="#L" n="53"/>sibi legem facere, plus est consensus totius 
+mul<lb break="no" ed="#L" n="54"/>titudinis ad aliquid observandum; quem ? 
+consue<lb break="no" ed="#L" n="55"/>tudo manifestat, quam auctoritas principis, qui
+<lb ed="#L" n="56"/>non habet potestatem condendi legem, nisi 
+in<lb break="no" ed="#L" n="57"/>quantum gerit personam multitudinis. Unde licet
+<lb ed="#L" n="58"/>singulae personae non possint condere legem,
+<lb ed="#L" n="59"/>tamen totus populus legem condere potest. - Si
+<lb ed="#L" n="60"/>vero multitudo non habeat liberam potestatem
+<lb ed="#L" n="61"/>condendi sibi legem, vel legem a superiori 
+pote<lb break="no" ed="#L" n="62"/>state positam removendi; tamen ipsa consuetudo
+<lb ed="#L" n="63"/>in tali multitudine praevalens obtinet vim legis,
+<lb ed="#L" n="64"/>inquantum per eos toleratur ad quos pertinet
+<lb ed="#L" n="65"/>multitudini legem imponere: ex hoc enim ipso
+<lb ed="#L" n="66"/>videntur approbare quod consuetudo induxit.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1173-Dd1e771"><!-- p2p1-q97-a4 -->
+               <head xml:id="TAca84-d1e1173-Hd1e774">Articulus 4</head>
+               <head xml:id="TAca84-d1e1173-Hd1e776" type="question-title">Utrum rectores multitudinis possint in legibus humanis dispensare</head>
+               <p xml:id="TAca84-d1e1173-d1e779">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="76"/>ARTICULUS QUARTUS
+<lb ed="#L" n="77"/>UTRUM RECTORES MULTITUDINIS POSSINT IN LEGIBUS HUMANIS DISPENSARE
+</p>
+               <p xml:id="TAca84-d1e1173-d1e788">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="78"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="79"/>rectores multitudinis non possint in 
+le<lb break="no" ed="#L" n="80"/>ribus humanis dispensare. Lex enim
+<lb ed="#L" n="81"/>Nastatuta est pro communi utilitate, ut 
+Isi<lb break="no" ed="#L" n="82"/>dans dicit. Sed bonum commune non debet
+<lb ed="#L" n="83"/>intermitti pro privato commodo alicuius eto oie
+<lb ed="#L" n="84"/>quia, ut dicit Philosophus, in I Ethic., bonum
+<lb ed="#L" n="85"/>genlis divinius est quam bonum unius hominis.
+<lb ed="#L" n="86"/>Ergo videtur quod non debeat dispensari cum
+<lb ed="#L" n="87"/>aliquo ut contra legem communem agat.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e814">
+                  <lb ed="#L" n="88"/>2. PRAETEREA, illis qui super alios 
+constituun<lb break="no" ed="#L" n="89"/>tur, praecipitur Deut.1: Jta parvum audietis ut
+<lb ed="#L" n="90"/>magnum, nec accipietis cuiusquam personam: quia
+<lb ed="#L" n="91"/>Dei iudicium est. Sed concedere alicui quod 
+com<lb break="no" ed="#L" n="92"/>muniter denegatur omnibus, videtur esse acceptio
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="93"/>personarum. Ergo huiusmodi dispensationes 
+fa<lb break="no" ed="#L" n="94"/>cere rectores multitudinis non possunt, cum hoc
+<lb ed="#L" n="95"/>sit contra praeceptum legis. divinae.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e837">
+                  <lb ed="#L" n="96"/>3. PRAETEREA, lex humana, si sit recta, oportet
+<lb ed="#L" n="97"/>quod consonet legi naturali et legi divinae: aliter
+<lb ed="#L" n="98"/>enim non congrueret religioni, nec conveniret 
+dis<lb break="no" ed="#L" n="99"/>ciplinae, quod requiritur ad legem, ut Isidorus
+<lb ed="#L" n="100"/>dicit, Sed in lege divina et naturali nullus homo
+<lb ed="#L" n="101"/>potest dispensare. Ergo nec etiam in lege humana.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e853">
+                  <lb ed="#L" n="102"/>SED coNTRA;EsT quod dicit Apostolus, I ad
+<lb ed="#L" n="103"/>Cor.ix: <quote xml:id="TAca84-d1e1173-Qd1e859">Dispensatio mihi credita est</quote>.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e862">
+                  <lb ed="#L" n="104"/>RESPONDEO DICENDUM quod dispensatio proprie
+<lb ed="#L" n="105"/>importat commensurationem alicuius communis
+<lb ed="#L" n="106"/>ad singula: unde etiam gubernator familiae 
+di<lb break="no" ed="#L" n="107"/>citur dispensator, inquantum unicuique de familia
+<pb ed="#L" n="192"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>cum pondere et mensura distribuit et 
+operatio<lb break="no" ed="#L" n="2"/>nes et necessaria vitae. Sic igitur et in 
+quacum<lb break="no" ed="#L" n="3"/>que multitudine ex eo dicitur aliquis dispensare,
+<lb ed="#L" n="4"/>quod ordinat qualiter aliquod commune 
+praece<lb break="no" ed="#L" n="5"/>ptum sit a singulis adimplendum. Contingit autem
+<lb ed="#L" n="6"/>quandoque quod aliquod praeceptum quod est
+<lb ed="#L" n="7"/>ad commodum multitudinis ut in pluribus, non
+<lb ed="#L" n="8"/>est conveniens huic personae, vel in hoc casu,
+<lb ed="#L" n="9"/>quia vel per hoc impediretur ? aliquid melius, vel
+<lb ed="#L" n="10"/>etiam induceretur aliquod malum, sicut ex 
+supra<lb break="no" ed="#L" n="11"/>dictis patet. Periculosum autem esset ut hoc
+<lb ed="#L" n="12"/>iudicio cuiuslibet committeretur, nisi forte propter
+<lb ed="#L" n="13"/>evidens et subitum periculum, ut supra dictum
+<lb ed="#L" n="14"/>est. Et ideo ille qui habet regere multitudinem,
+<lb ed="#L" n="15"/>habet potestatem dispensandi in lege humana
+<lb ed="#L" n="16"/>quae suae auctoritati innititur, ut scilicet in 
+per<lb break="no" ed="#L" n="17"/>sonis vel casibus in quibus lex deficit, licentiam
+<lb ed="#L" n="18"/>tribuat ut praeceptum legis non servetur. — Si 
+au<lb break="no" ed="#L" n="19"/>tem absque hac? ratione, pro sola voluntate, 
+li<lb break="no" ed="#L" n="20"/>centiam tribuat, non erit fidelis in dispensatione,
+<lb ed="#L" n="21"/>aut erit imprudens: infidelis quidem, si non habeat
+<lb ed="#L" n="22"/>intentionem ad bonum commune; imprudens 
+au<lb break="no" ed="#L" n="23"/>tem, si rationem dispensandi ignoret. Propter
+<lb ed="#L" n="24"/>quod Dominus dicit, Lucae xu: Quis, putas, est
+<lb ed="#L" n="25"/>fidelis dispensator et prudens, quem constituit 
+do<lb break="no" ed="#L" n="26"/>minus super familiam suam?
+</p>
+               <p xml:id="TAca84-d1e1173-d1e934">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="27"/>AD PRIMUM ERGO DICENDUM quod, quando cum
+<lb ed="#L" n="28"/>aliquo dispensatur ut legem communem non 
+ser<lb break="no" ed="#L" n="29"/>vet, non debet fieri in praeiudicium boni. 
+com<lb break="no" ed="#L" n="30"/>munis; sed ea intentione ut ad bonum corumiune
+<lb ed="#L" n="31"/>proficiat.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e950">
+                  <lb ed="#L" n="32"/>AD SECUNDUM DICENDUM quod non est acceptio
+<lb ed="#L" n="33"/>personarum: si non serventur aequalia in personis
+<lb ed="#L" n="34"/>inaequalibus. Unde quando conditio alicuius 
+per<lb break="no" ed="#L" n="35"/>sonae requirit ut rationabiliter in ea aliquid
+<lb ed="#L" n="36"/>specialiter observetur, non est personarum 
+acce<lb break="no" ed="#L" n="37"/>ptio si sibi aliqua specialis gratia fiat.
+</p>
+               <p xml:id="TAca84-d1e1173-d1e966">
+                  <lb ed="#L" n="38"/>AD TERTIUM DICENDUM quod lex naturalis 
+inquan<lb break="no" ed="#L" n="39"/>tum continet praecepta communia, quae nunquam
+<lb ed="#L" n="40"/>fallunt, dispensationem recipere non potest. In
+<lb ed="#L" n="41"/>aliis vero praeceptis, quae sunt quasi conclusiones
+<lb ed="#L" n="42"/>praeceptorum. communium, quandoque per 
+ho<lb break="no" ed="#L" n="43"/>minem dispensatur: puta quod mutuum non 
+red<lb break="no" ed="#L" n="44"/>datur proditori patriae, vel aliquid huiusmodi. - Ad
+<lb ed="#L" n="45"/>legem autem divinam ita se habet quilibet homo;
+<lb ed="#L" n="46"/>Sicut persona privata ad legem publicam cui 
+subii<lb break="no" ed="#L" n="47"/>citur. Unde sicut in lege humana publica non 
+po<lb break="no" ed="#L" n="48"/>test dispensare nisi ille a quo lex auctoritatem
+<lb ed="#L" n="49"/>habet, vel is cui ipse commiserit; ita in 
+praece<lb break="no" ed="#L" n="50"/>ptis iuris divini, quae sunt a Deo, nullus potest
+<lb ed="#L" n="51"/>dispensare nisi Deus, vel si cui ipse specialiter
+<lb ed="#L" n="52"/>committeret.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
