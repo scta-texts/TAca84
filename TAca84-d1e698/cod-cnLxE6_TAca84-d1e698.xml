@@ -1,992 +1,997 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 5</title>
-            <author ref="#Aquinas">Thomas Aquinas</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 5</title>
-               <date when="2023-08-02">August 02, 2023</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2023-08-02" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="47"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="TAca84-d1e698"><!-- p2p1-q5 -->
-            <head xml:id="TAca84-d1e698-Hd1e99">Quaestio 5</head>
-            <head xml:id="TAca84-d1e698-Hd1e101" type="question-title">de adeptione beatitudinis</head>
-            <p xml:id="TAca84-d1e698-d1e104">
-               <pb ed="#L" n="47"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>QUAESTIO QUINTA
-<lb ed="#L" n="2"/>DE ADEPTIONE BEATITUDINIS
-<lb ed="#L" n="3"/>IN OCTO ARTICULOS DIVISA
-</p>
-            <p xml:id="TAca84-d1e698-d1e117">
-               <cb ed="#L" n="b"/>
-               <lb ed="#L" n="4"/>DINDE considerandum est de ipsa adeptione
-<lb ed="#L" n="5"/>beatitudinis.
-<lb ed="#L" n="6"/>Et circa hoc quaeruntur octo.
-<lb ed="#L" n="7"/>Primo: utrum homo possit consequi 
-beatitu<lb break="no" ed="#L" n="8"/>dinem.
-<lb ed="#L" n="9"/>Secundo: utrum unus homo possit esse alio
-<lb ed="#L" n="10"/>beatior.
-<lb ed="#L" n="11"/>Tertio: utrum aliquis possit esse in hac vita
-<lb ed="#L" n="12"/>beatus.
-<lb ed="#L" n="13"/>Quarto: utrum beatitudo habita possit amitti.
-<cb ed="#L" n="c"/>
-               <lb ed="#L" n="14"/>Quinto: utrum homo per sua naturalia possit
-<lb ed="#L" n="15"/>acquirere beatitudinem.
-<lb ed="#L" n="16"/>Sexto: utrum homo consequatur 
-beatitudi<lb break="no" ed="#L" n="17"/>nem per actionem alicuius superioris 
-crea<lb break="no" ed="#L" n="18"/>turae.
-<lb ed="#L" n="19"/>Septimo: utrum requirantur opera hominis 
-ali<lb break="no" ed="#L" n="20"/>qua ad hoc quod homo beatitudinem 
-con<lb break="no" ed="#L" n="21"/>sequatur a Deo.
-<lb ed="#L" n="22"/>Octavo: utrum omnis homo appetat 
-beatitu<lb break="no" ed="#L" n="23"/>dinem.
-</p>
-            <div xml:id="TAca84-d1e698-Dd1e167"><!-- p2p1-q5-a1 -->
-               <head xml:id="TAca84-d1e698-Hd1e170">Articulus 1</head>
-               <head xml:id="TAca84-d1e698-Hd1e172" type="question-title">utrum homo possit consequi beatitudinem</head>
-               <p xml:id="TAca84-d1e698-d1e175">
-                  <cb ed="#L" n="d"/>
-                  <lb ed="#L" n="24"/>ARTICULUS PRIMUS
-<lb ed="#L" n="25"/>UTRUM HOMO POSSIT CONSEQUI BEATITUDINEM
-</p>
-               <p xml:id="TAca84-d1e698-d1e184">
-                  <cb ed="#L" n="e"/>
-                  <lb ed="#L" n="26"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="27"/>homo. beatitudinem adipisci non possit.
-<lb ed="#L" n="28"/>d Ü Gicut enim natura rationalis est supra
-<lb ed="#L" n="29"/>sensibilem, ita natura. intellectualis est
-<lb ed="#L" n="30"/>supra rationalem; ut patet per Dionysium in 
-li<lb break="no" ed="#L" n="31"/>bro de Dir. Nom. ., in multis locis. Sed bruta
-<lb ed="#L" n="32"/>animalia, quae habent naturam sensibilem tantum,
-<lb ed="#L" n="33"/>non possunt pervenire ad finem rationalis nà
-tu<lb break="no" ed="#L" n="34"/>rae. Ergo nec homo, qui est rationalis naturae,
-<lb ed="#L" n="35"/>potest pervenire ad finem intellectualis naturae,
-<lb ed="#L" n="36"/>qui est beatitudo.
-</p>
-               <p xml:id="TAca84-d1e698-d1e213">
-                  <lb ed="#L" n="37"/>2. PRAETEREA, beatitudo vera consistit in visione
-<lb ed="#L" n="38"/>Dei, qui est veritas pura. Sed homini est 
-con<lb break="no" ed="#L" n="39"/>naturale ut veritatem intueatur in rebus 
-materia<lb break="no" ed="#L" n="40"/>libus: unde <quote xml:id="TAca84-d1e698-Qd1e223">species intelligibiles in phantasmatibus
-<lb ed="#L" n="41"/>intelligit</quote>, ut dicitur in III de Anima. Ergo non
-<lb ed="#L" n="42"/>potest ad beatitudinem pervenire.
-</p>
-               <p xml:id="TAca84-d1e698-d1e233">
-                  <lb ed="#L" n="43"/>3. PRAETEREA, beatitudo consistit in adeptione
-<lb ed="#L" n="44"/>summi boni. Sed aliquis non. potest pervenire ad
-<lb ed="#L" n="45"/>summum ?, nisi transcendat media. Cum igitur
-<lb ed="#L" n="46"/>inter Deüm et naturam humanam media sit 
-na<lb break="no" ed="#L" n="47"/>tura angelica, quam homo transcendere non 
-po<lb break="no" ed="#L" n="48"/>test; videtur quod non possit beatitudinem adipisci.
-</p>
-               <p xml:id="TAca84-d1e698-d1e249">
-                  <lb ed="#L" n="49"/>SED CONTRA EST quod dicitur in Psalmo xcii:
-<lb ed="#L" n="50"/>Beatus homo quem tu erudieris, Domine.
-</p>
-               <p xml:id="TAca84-d1e698-d1e256">
-                  <lb ed="#L" n="51"/>RxsPONDEO DICENDUM quod beatitudo nominat
-<lb ed="#L" n="52"/>adeptionem perfecti boni. Quicumque ergo est
-<lb ed="#L" n="53"/>capax perfecti boni, potest ad beatitudinem 
-per<lb break="no" ed="#L" n="54"/>venire. Quod autem homo perfecti boni sit capax,
-<lb ed="#L" n="55"/>ex hoc apparet, quia et eius intellectus 
-apprehen<lb break="no" ed="#L" n="56"/>dere potest universale et perfectum bonum, et
-<lb ed="#L" n="57"/>eius voluntas appetere illud. Et ideo homo potest
-<lb ed="#L" n="58"/>beatitudinem adipisci. - Apparet etiam idem ex
-<lb ed="#L" n="59"/>hoc quod. homo est capax visionis divinae 
-es<lb break="no" ed="#L" n="60"/>sentiae, sicut in Primo habitum est; in qua
-<cb ed="#L" n="f"/>
-                  <lb ed="#L" n="61"/>quidem visione perfectam hominis beatitudinem
-<lb ed="#L" n="62"/>consistere diximus.
-</p>
-               <p xml:id="TAca84-d1e698-d1e287">
-                  <lb ed="#L" n="63"/>AD PRIMUM ERGO DICENDUM quod aliter excedit
-<lb ed="#L" n="64"/>natura rationalis sensitivam, et aliter intellectualis
-<lb ed="#L" n="65"/>rationalem. Natura enim rationalis excedit 
-sensi<lb break="no" ed="#L" n="66"/>tivam quantum ad cognitionis obiectum: quia
-<lb ed="#L" n="67"/>sensus nullo modo potest cognoscere universale,
-<lb ed="#L" n="68"/>cuius ratio est cognoscitiva. Sed intellectualis
-<lb ed="#L" n="69"/>natura excedit rationalem quantum ad modum
-<lb ed="#L" n="70"/>cognoscendi eandem ? intelligibilem veritatem :
-<lb ed="#L" n="71"/>nam intellectualis natura statim apprehendit 
-ve<lb break="no" ed="#L" n="72"/>ritatem, ad quam rationalis natura per 
-inquisitio<lb break="no" ed="#L" n="73"/>nem rationis pertingit, ut patet ex his quae in
-<lb ed="#L" n="74"/>Primo dicta sunt. Et ideo ad id quod intellectus
-<lb ed="#L" n="75"/>apprehendit, ratio per quendam motum pertingit.
-<lb ed="#L" n="76"/>Unde rationalis natura consequi potest 
-beatitudi<lb break="no" ed="#L" n="77"/>nem, quae est perfectio intellectualis naturae:
-<lb ed="#L" n="78"/>tamen alio modo quam angeli. Nam angeli 
-con<lb break="no" ed="#L" n="79"/>secuti sunt eam statim post principium suae 
-con<lb break="no" ed="#L" n="80"/>ditionis: homines. autem per tempus ad ipsam
-<lb ed="#L" n="81"/>perveniunt. Sed natura sensitiva ad hunc finem
-<lb ed="#L" n="82"/>nullo modo pertingere potest.
-</p>
-               <p xml:id="TAca84-d1e698-d1e333">
-                  <lb ed="#L" n="83"/>Ab SECUNDUM DICENDUM quod homini, secundum
-<lb ed="#L" n="84"/>statum praesentis vitae, est connaturalis modus
-<lb ed="#L" n="85"/>cognoscendi veritatem intelligibilem per 
-phanta<lb break="no" ed="#L" n="86"/>smata. Sed post huius vitae statum, habet
-<lb ed="#L" n="87"/>alium modum connaturalem, ut in Primo -
-<lb ed="#L" n="88"/>dictum est.
-</p>
-               <p xml:id="TAca84-d1e698-d1e349">
-                  <lb ed="#L" n="89"/>AD TERTIUM DICENDUM quod homo non potest
-<lb ed="#L" n="90"/>transcendere angelos gradu naturae, ut scilicet
-<lb ed="#L" n="91"/>naturaliter sit eis superior. Potest tamen eos
-<lb ed="#L" n="92"/>transcendere per operationem intellectus, dum
-<lb ed="#L" n="93"/>intelligit aliquid super angelos esse, quod 
-homi<lb break="no" ed="#L" n="94"/>nes beatificat; quod cum perede consequetur ,
-<lb ed="#L" n="95"/>perfecte beatus erit.
-</p>
-            </div>
-            <div xml:id="TAca84-d1e698-Dd1e369"><!-- p2p1-q5-a2 -->
-               <head xml:id="TAca84-d1e698-Hd1e372">Articulus 2</head>
-               <head xml:id="TAca84-d1e698-Hd1e374" type="question-title">utrum unus homo possit esse beatior altero</head>
-               <p xml:id="TAca84-d1e698-d1e377">
-                  <cb ed="#L" n="d"/>
-                  <lb ed="#L" n="20"/>ARTICULUS SECUNDUS
-<lb ed="#L" n="21"/>UTRUM UNUS HOMO POSSIT ESSE BEATIOR ALTERO
-</p>
-               <p xml:id="TAca84-d1e698-d1e386">
-                  <cb ed="#L" n="e"/>
-                  <lb ed="#L" n="22"/>AD SECUNDUM SIC PROCEDITUR, Videtur quod
-<lb ed="#L" n="23"/>unus homo alio non possit esse 
-bea<lb break="no" ed="#L" n="24"/>tior. Beatitudo enim est praemium 
-vir<lb break="no" ed="#L" n="25"/>tutis, ut Philosophus dicit in I Ethic.
-<lb ed="#L" n="26"/>Sed pro operibus virtutum omnibus aequalis 
-mer<lb break="no" ed="#L" n="27"/>ces redditur: dicitur enim Matth. xx, quod 
-om<lb break="no" ed="#L" n="28"/>nes qui operati sunt in vinea, acceperunt singulos
-<lb ed="#L" n="29"/>denarios; quia, ut dicit Gregorius, aequalem 
-ae<lb break="no" ed="#L" n="30"/>lernae vitae retributionem sortiti sunt. Ergo unus
-<lb ed="#L" n="31"/>non erit alio beatior.
-</p>
-               <p xml:id="TAca84-d1e698-d1e412">
-                  <lb ed="#L" n="32"/>2. PRAETEREA, beatitudo est summum bonum.
-<lb ed="#L" n="33"/>Sed summo non potest esse aliquid maius. Ergo
-<lb ed="#L" n="34"/>beatitudine unius hominis non potest esse alia
-<lb ed="#L" n="35"/>maior beatitudo.
-</p>
-               <p xml:id="TAca84-d1e698-d1e424">
-                  <lb ed="#L" n="36"/>3. PnaETEREA, beatitudo, cum sit perfectum et
-<lb ed="#L" n="37"/>sufficiens bonum ,. desiderium. hominis. quietat.
-<lb ed="#L" n="38"/>Sed non quietatur desiderium, si aliquod bonum
-<lb ed="#L" n="39"/>deest quod suppleri possit. Si autem nihil deest
-<lb ed="#L" n="40"/>quod suppleri possit, non poterit esse aliquid
-<lb ed="#L" n="41"/>aliud ^ maius bonum. Ergo. vel homo non est
-<lb ed="#L" n="42"/>beatus: vel, si est beatus, non potest alia maior
-<lb ed="#L" n="43"/>beatitudo . esse.
-</p>
-               <p xml:id="TAca84-d1e698-d1e444">
-                  <lb ed="#L" n="44"/>SED CONTRA EST quod dicitur Ioan. xiv: Zn
-<lb ed="#L" n="45"/>domo Patris mei mansiones multae sunt; per quas,
-<lb ed="#L" n="46"/>ut Augustinus dicit, diversae meritorum 
-digni<lb break="no" ed="#L" n="47"/>lates intelliguntur in vila aeterna. Dignitas autem
-<lb ed="#L" n="48"/>vitae aeternae, quae pro merito datur, est ipsa
-<lb ed="#L" n="49"/>beatitudo. Ergo sunt diversi gradus beatitudinis,
-<lb ed="#L" n="50"/>et non omnium est aequalis beatitudo.
-</p>
-               <p xml:id="TAca84-d1e698-d1e462">
-                  <lb ed="#L" n="51"/>RESPONDEO DICENDUM quod, sicut supra dictum
-<cb ed="#L" n="f"/>
-                  <lb ed="#L" n="52"/>est, in ratione beatitudinis duo includuntur: 
-sci<lb break="no" ed="#L" n="53"/>licet ipse finis ultimus, qui est summum bonum ;
-<lb ed="#L" n="54"/>et adeptio vel fruitio ipsius boni. Quantum igitur
-<lb ed="#L" n="55"/>ad ipsum bonum quod est beatitudinis obiectum
-<lb ed="#L" n="56"/>et causa, non potest esse una beatitudo alia maior:
-<lb ed="#L" n="57"/>quia non est nisi unum summum bonum, scilicet
-<lb ed="#L" n="58"/>Deus, cuius fruitione homines sunt beati. - Sed
-<lb ed="#L" n="59"/>quantum ad adeptionem huiusmodi boni vel 
-frui<lb break="no" ed="#L" n="60"/>tionem , potest aliquis alio esse beatior: quia
-<lb ed="#L" n="61"/>quanto magis hoc bono fruitur, tanto beatior est.
-<lb ed="#L" n="62"/>Contingit autem aliquem perfectius frui Deo quam
-<lb ed="#L" n="63"/>alium, ex eo quod est melius dispositus vel. 
-or<lb break="no" ed="#L" n="64"/>dinatus ad eius fruitionem. Et secundum hoc
-<lb ed="#L" n="65"/>potest aliquis alio. beatior esse.
-</p>
-               <p xml:id="TAca84-d1e698-d1e499">
-                  <lb ed="#L" n="66"/>AD PRIMUM ERGO DICENDUM quod unitas denarii
-<lb ed="#L" n="67"/>significat unitatem beatitudinis ex parte obiecti.
-<lb ed="#L" n="68"/>Sed diversitas mansionum significat diversitatem
-<lb ed="#L" n="69"/>beatitudinis secundum diversum gradum fruitionis.
-</p>
-               <p xml:id="TAca84-d1e698-d1e510">
-                  <lb ed="#L" n="70"/>AD SECUNDUM DICENDUM quod. beatitudo. dicitur
-<lb ed="#L" n="71"/>esse summum bonum, inquantum est summi boni
-<lb ed="#L" n="72"/>perfecta possessio sive fruitio.
-</p>
-               <p xml:id="TAca84-d1e698-d1e519">
-                  <lb ed="#L" n="73"/>AD TERTIUM DICENDUM quod nulli beato diiit all
-<lb ed="#L" n="74"/>quod bonum. desiderandum: cum habeat ? ipsum
-<lb ed="#L" n="75"/>bonum infinitum ,. quod. est bonum omnis boni ,
-<lb ed="#L" n="76"/>ut Augustinus dicit. Sed dicitur aliquis alio 
-bea<lb break="no" ed="#L" n="77"/>tior, ex diversa eiusdem boni participatione. .
-Ad<lb break="no" ed="#L" n="78"/>ditio autem aliorum bonorum non auget 
-beatitu<lb break="no" ed="#L" n="79"/>dinem: unde <ref xml:id="TAca84-d1e698-Rd1e536">Augustinus dicit, in. V. Confess.</ref>:
-<lb ed="#L" n="80"/>
-                  <quote xml:id="TAca84-d1e698-Qd1e540">Qui te et alia novit, non propter illa beatior; sed
-<lb ed="#L" n="81"/>propter. te. solum beatus.</quote>
-               </p>
-            </div>
-            <div xml:id="TAca84-d1e698-Dd1e547"><!-- p2p1-q5-a3 -->
-               <head xml:id="TAca84-d1e698-Hd1e550">Articulus 3</head>
-               <head xml:id="TAca84-d1e698-Hd1e552" type="question-title">utrum aliquis in hac vita possit esse beatus</head>
-               <p xml:id="TAca84-d1e698-d1e555">
-                  <cb ed="#L" n="g"/>
-                  <lb ed="#L" n="82"/>ARTICULUS TERTIUS
-<lb ed="#L" n="83"/>UTRUM ALIQUIS IN HAC VITA POSSIT ESSE BEATUS 
-</p>
-               <p xml:id="TAca84-d1e698-d1e564">
-                  <cb ed="#L" n="h"/>
-                  <lb ed="#L" n="84"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="85"/>e beatitudo possit in hac vita haberi. 
-Di<lb break="no" ed="#L" n="86"/>citur enim in Psalmo cxvui: Beati 
-im<lb break="no" ed="#L" n="87"/>aculati in via, qui ambulant in lege
-<cb ed="#L" n="i"/>
-                  <lb ed="#L" n="88"/>Domini. Hoc autem in hac vita contingit. Ergo
-<lb ed="#L" n="89"/>aliquis in hac vita potest esse beatus.
-</p>
-               <p xml:id="TAca84-d1e698-d1e584">
-                  <lb ed="#L" n="90"/>2. PRAETEREA, imperfecta. participatio summi
-<lb ed="#L" n="91"/>boni non adimit rationem beatitudinis: alioquin
-<pb ed="#L" n="49"/>
-                  <cb ed="#L" n="a"/>
-                  <lb ed="#L" n="1"/>unus non esset alio beatior. Sed in hac vita 
-ho<lb break="no" ed="#L" n="2"/>mines possunt participare summum bonum, 
-co<lb break="no" ed="#L" n="3"/>gnoscendo et amando Deum, licet imperfecte.
-<lb ed="#L" n="4"/>Ergo homo in hac vita potest esse beatus.
-</p>
-               <p xml:id="TAca84-d1e698-d1e605">
-                  <lb ed="#L" n="5"/>3. PRAETEREA, quod a pluribus $ dicitur, non
-<lb ed="#L" n="6"/>potest totaliter falaum esse: videtur enim esse '
-<lb ed="#L" n="7"/>naturale quod in pluribus est; natura autem non
-<lb ed="#L" n="8"/>totaliter deficit. Sed plures ponunt beatitudinem
-<lb ed="#L" n="9"/>in hac vita, ut patet per illud Psalmi cxLiu:
-<lb ed="#L" n="10"/>Beatum dixerunt populum cui haec sunt, scilicet
-<lb ed="#L" n="11"/>praesentis vitae bona. Ergo aliquis in hac vita
-<lb ed="#L" n="12"/>potest esse beatus.
-</p>
-               <p xml:id="TAca84-d1e698-d1e625">
-                  <lb ed="#L" n="13"/>SED cowTRA EsT quod dicitur Zob xiv: Homo
-<lb ed="#L" n="14"/>natus de muliere, brevi vivens lempore, repletur
-<lb ed="#L" n="15"/>multis miseriis. Sed beatitudo excludit miseriam.
-<lb ed="#L" n="16"/>Ergo homo in hac vita non potest esse beatus.
-</p>
-               <p xml:id="TAca84-d1e698-d1e636">
-                  <lb ed="#L" n="17"/>REsPONDEO DICENDUM quod aliqualis beatitudinis
-<lb ed="#L" n="18"/>participatio in hac vita haberi potest: perfecta
-<lb ed="#L" n="19"/>autem et vera beatitudo non potest haberi in hac
-<lb ed="#L" n="20"/>vita. Et hoc quidem considerari potest dupliciter.
-<lb ed="#L" n="21"/>Primo quidem, ex ipsa communi beatitudinis 
-ra<lb break="no" ed="#L" n="22"/>tione. Nam- ipaniudo; cum sit perfectum et 
-suf<lb break="no" ed="#L" n="23"/>ficiens bonum, omne malum excludit, et omne
-<lb ed="#L" n="24"/>desiderium implet. In hac autem vita non potest
-<lb ed="#L" n="25"/>omne malum excludi. Multis enim malis 
-prae<lb break="no" ed="#L" n="26"/>sens vita subiacet, quae vitari non possunt: et
-<lb ed="#L" n="27"/>ignorantiae ex parte intellectus, et inordinatae
-<lb ed="#L" n="28"/>affectioni ex parte appetitus, et multiplicibus 
-poe<lb break="no" ed="#L" n="29"/>nalitatibus ex parte corporis; ut Augustinus 
-dili<lb break="no" ed="#L" n="30"/>genter prosequitur <ref xml:id="TAca84-d1e698-Rd1e668">XIX de Civ. Dei</ref>. Similiter
-<lb ed="#L" n="31"/>etiam desiderium boni in hac vita satiari non
-<lb ed="#L" n="32"/>potest. Naturaliter enim homo desiderat 
-perma<lb break="no" ed="#L" n="33"/>nentiam eius boni quod habet. Bona autem 
-prae<lb break="no" ed="#L" n="34"/>sentis vitae transitoria sunt: cum et ipsa vita
-<cb ed="#L" n="b"/>
-                  <lb ed="#L" n="35"/>transeat, quam naturaliter desideramus, et eam
-<lb ed="#L" n="36"/>perpetuo permanere vellemus , quia naturaliter
-<lb ed="#L" n="37"/>homo refugit mortem. Unde impossibile est quod
-<lb ed="#L" n="38"/>in hac vita vera beatitudo habeatur.
-</p>
-               <p xml:id="TAca84-d1e698-d1e691">
-                  <lb ed="#L" n="39"/>Secundo, si consideretur id in quo specialiter
-<lb ed="#L" n="40"/>beatitudo consistit, scilicet visio divinae essentiae,
-<lb ed="#L" n="41"/>quae non potest homini provenire in hac vita
-<lb ed="#L" n="42"/>ut in Primo ostensum est. Ex quibus manifeste
-<lb ed="#L" n="43"/>apparet quod non potest aliquis in hac vita veram
-<lb ed="#L" n="44"/>et perfectam beatitudinem adipisci.
-</p>
-               <p xml:id="TAca84-d1e698-d1e707">
-                  <lb ed="#L" n="45"/>AD PRIMUM ERGO DICENDUM quod beati dicuntur
-<lb ed="#L" n="46"/>aliqui in hac vita, vel propter spem 
-beatitudi<lb break="no" ed="#L" n="47"/>nis adipiscendae in futura vita, secundum illud
-<lb ed="#L" n="48"/>Rom. vui, Spe salvi facti sumus: vel propter
-<lb ed="#L" n="49"/>aliquam participationem beatitudinis, secundum
-<lb ed="#L" n="50"/>aliqualem summi boni fruitionem.
-</p>
-               <p xml:id="TAca84-d1e698-d1e723">
-                  <lb ed="#L" n="51"/>AD SECUNDUM DICENDUM quod participatio 
-bea<lb break="no" ed="#L" n="52"/>titudinis potest esse imperfecta dupliciter. Uno
-<lb ed="#L" n="53"/>modo, ex parte ipsius obiecti beatitudinis, quod
-<lb ed="#L" n="54"/>quidem secundum sui essentiam non videtur. Et
-<lb ed="#L" n="55"/>talis imperfectio tollit rationem verae beatitudinis.
-<lb ed="#L" n="56"/>Alio modo potest esse imperfecta ex parte ipsius
-<lb ed="#L" n="57"/>participantis, qui quidem ad ipsum obiectum 
-bea<lb break="no" ed="#L" n="58"/>titudinis secundum seipsum attingit, scilicet Deum,
-<lb ed="#L" n="59"/>sed imperfecte, per respectum ad modum quo
-<lb ed="#L" n="60"/>Deus seipso fruitur. Et talis imperfectio non tollit
-<lb ed="#L" n="61"/>veram rationem beatitudinis: quia, cum beatitudo:
-<lb ed="#L" n="62"/>sit operatio quaedam, ut supra dictum est, vera
-<lb ed="#L" n="63"/>ratio beatitudinis consideratur ex obiecto, quod
-<lb ed="#L" n="64"/>dat speciem actui, non autem ex subiecto.
-</p>
-               <p xml:id="TAca84-d1e698-d1e757">
-                  <lb ed="#L" n="65"/>AD TERTIUM DICENDUM quod homines reputant
-<lb ed="#L" n="66"/>in hac vita esse aliquam beatitudinem, propter
-<lb ed="#L" n="67"/>aliquam similitudinem verae beatitudinis. Et sic
-<lb ed="#L" n="68"/>non ex toto in sua aestimatione deficiunt.
-</p>
-            </div>
-            <div xml:id="TAca84-d1e698-Dd1e769"><!-- p2p1-q5-a4 -->
-               <head xml:id="TAca84-d1e698-Hd1e772">Articulus 4</head>
-               <head xml:id="TAca84-d1e698-Hd1e774" type="question-title">utrum beatitudo habita possit amitti</head>
-               <p xml:id="TAca84-d1e698-d1e777">
-                  <cb ed="#L" n="c"/>
-                  <lb ed="#L" n="69"/>ARTICULUS QUARTUS
-<lb ed="#L" n="70"/>UTRUM BEATITUDO HABITA POSSIT AMITTI
-</p>
-               <p xml:id="TAca84-d1e698-d1e786">
-                  <cb ed="#L" n="d"/>
-                  <lb ed="#L" n="71"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="72"/>beatitudo possit amitti. Beatitudo enim
-<lb ed="#L" n="73"/>est perfectio quaedam. Sed omnis 
-per<lb break="no" ed="#L" n="74"/>fectio inest perfectibili secundum 
-mo<lb break="no" ed="#L" n="75"/>dum ipsius. Cum igitur homo secundum suam
-<lb ed="#L" n="76"/>naturam sit mutabilis, videtur quod beatitudo 
-mu<lb break="no" ed="#L" n="77"/>tabiliter ab homine participetur. Et ita videtur
-<lb ed="#L" n="78"/>quod homo beatitudinem possit amittere.
-</p>
-               <p xml:id="TAca84-d1e698-d1e808">
-                  <lb ed="#L" n="79"/>2. PRAETEREA, beatitudo consistit in actione 
-in<lb break="no" ed="#L" n="80"/>tellectus, qui^ subiacet voluntati. Sed voluntas se
-<lb ed="#L" n="81"/>habet ad opposita. Ergo videtur quod possit 
-de<lb break="no" ed="#L" n="82"/>sistere ab operatione qua homo beatificatur: et
-<lb ed="#L" n="83"/>ita homo desinet esse beatus.
-</p>
-               <p xml:id="TAca84-d1e698-d1e822">
-                  <lb ed="#L" n="84"/>3. PRAETEREA, principio respondet finis. Sed
-<lb ed="#L" n="85"/>beatitudo hominis habet principium: quia homo ?
-<cb ed="#L" n="e"/>
-                  <lb ed="#L" n="86"/>non semper fuit beatus. Ergo videtur quod 
-ha<lb break="no" ed="#L" n="87"/>beat finem.
-</p>
-               <p xml:id="TAca84-d1e698-d1e835">
-                  <lb ed="#L" n="88"/>SED CONTRA EST quod dicitur Matth. xxv de
-<lb ed="#L" n="89"/>iustis, quod ibunt in.vitam aeternam; quae, ut
-<lb ed="#L" n="90"/>dictum est, est beatitudo Sanctorum. Quod 
-au<lb break="no" ed="#L" n="91"/>tem est aeternum, non deficit. Ergo beatitudo
-<lb ed="#L" n="92"/>non potest amitti.
-</p>
-               <p xml:id="TAca84-d1e698-d1e848">
-                  <lb ed="#L" n="93"/>REsPONDEO DICENDUM quod, si loquamur de 
-bea<lb break="no" ed="#L" n="94"/>titudine imperfecta, qualis in hac vita potest 
-ha<lb break="no" ed="#L" n="95"/>beri, sic potest amitti. Et hoc patet in felicitate
-<lb ed="#L" n="96"/>contemplativa, quae amittitur vel per oblivionem,
-<lb ed="#L" n="97"/>puta cum corrumpitur scientia ex aliqua 
-aegritu<lb break="no" ed="#L" n="98"/>dine; vel etiam ? per aliquas occupationes, quibus
-<lb ed="#L" n="99"/>totaliter abstrahitur aliquis a contemplatione. Patet
-<lb ed="#L" n="100"/>etiam idem in felicitate activa: voluntas enim ho-
-<pb ed="#L" n="50"/>
-                  <cb ed="#L" n="a"/>
-                  <lb ed="#L" n="1"/>minis transmutari potest, ut in vitium degeneret
-<lb ed="#L" n="2"/>a virtute, in cuius actu principaliter consistit 
-fe<lb break="no" ed="#L" n="3"/>licitas. Si autem virtus remaneat integra, 
-exterio<lb break="no" ed="#L" n="4"/>res transmutationes possunt quidem beatitudinem
-<lb ed="#L" n="5"/>talem perturbare, inquantum impediunt multas
-<lb ed="#L" n="6"/>operationes virtutum: non tamen possunt eam
-<lb ed="#L" n="7"/>totaliter auferre, quia adhuc remanet operatio
-<lb ed="#L" n="8"/>virtutis, dum ipsas adversitates homo laudabiliter
-<lb ed="#L" n="9"/>sustinet. - Et quia beatitudo huius vitae amitti 
-po<lb break="no" ed="#L" n="10"/>test, quod videtur esse contra rationem 
-beatitu<lb break="no" ed="#L" n="11"/>dinis; ideo Philosophus dicit, in I Ehic., aliquos
-<lb ed="#L" n="12"/>esse in hac vita beatos, non simpliciter, sed sicut
-<lb ed="#L" n="13"/>homines, quorum natura mutationi subiecta est.
-</p>
-               <p xml:id="TAca84-d1e698-d1e900">
-                  <lb ed="#L" n="14"/>Si vero loquamur de beatitudine perfecta quae
-<lb ed="#L" n="15"/>expectatur post hanc vitam, sciendum est quod
-<lb ed="#L" n="16"/>Origenes: posuit, quorundam Platonicorum
-<lb ed="#L" n="17"/>errorem sequens, quod post ultimam  
-beatitudi<lb break="no" ed="#L" n="18"/>nem homo potest fieri miser.
-</p>
-               <p xml:id="TAca84-d1e698-d1e913">
-                  <lb ed="#L" n="19"/>Sed hoc manifeste apparet esse falsum 
-duplici<lb break="no" ed="#L" n="20"/>ter. Primo quidem, ex ipsa communi ratione 
-bea<lb break="no" ed="#L" n="21"/>titudinis. Cum enim ipsa beatitudo sit perfectum
-<lb ed="#L" n="22"/>bonum et sufficiens, oportet quod desiderium 
-ho<lb break="no" ed="#L" n="23"/>minis quietet, et omne malum excludat. Natura- ,
-<lb ed="#L" n="24"/>liter autem homo desiderat retinere bonum quod
-<lb ed="#L" n="25"/>habet, et quod eius retinendi securitatem  
-obti<lb break="no" ed="#L" n="26"/>neat: alioquin necesse est quod timore amittendi,
-<lb ed="#L" n="27"/>vel dolore de certitudine amissionis, affligatur.
-<lb ed="#L" n="28"/>Requiritur igitur ad veram beatitudinem quod
-<lb ed="#L" n="29"/>homo certam habeat opinionem bonum quod
-<lb ed="#L" n="30"/>habet, nunquam se amissurum. Quae quidem
-<lb ed="#L" n="31"/>opinio si vera sit, consequens est quod 
-beatitu<lb break="no" ed="#L" n="32"/>dinem nunquam amittet. Si autem falsa sit, hoc
-<lb ed="#L" n="33"/>ipsum est quoddam malum, falsam opinionem
-<lb ed="#L" n="34"/>habere: nam falsum est malum intellectus, sicut
-<lb ed="#L" n="35"/>verum est bonum ipsius, ut dicitur in VI Ethic.
-<lb ed="#L" n="36"/>Non igitur iam vere erit beatus, si aliquod 
-ma<lb break="no" ed="#L" n="37"/>lum ei inest.
-</p>
-               <p xml:id="TAca84-d1e698-d1e957">
-                  <lb ed="#L" n="38"/>Secundo idem apparet, si consideretur ratio
-<lb ed="#L" n="39"/>beatitudinis in speciali. Ostensum est enim supra
-<lb ed="#L" n="40"/>quod perfecta beatitudo hominis in visione 
-divi<lb break="no" ed="#L" n="41"/>nae essentiae consistit. Est autem impossibile
-<lb ed="#L" n="42"/>quod aliquis videns divinam essentiam, velit eam
-<lb ed="#L" n="43"/>non videre. Quia omne bonum habitum quo quis
-<lb ed="#L" n="44"/>carere vult, aut est insufficiens, et quaeritur 
-ali<lb break="no" ed="#L" n="45"/>quid sufficientius loco eius: aut habet aliquod
-<cb ed="#L" n="b"/>
-                  <lb ed="#L" n="46"/>incommodum annexum, propter quod in 
-fasti<lb break="no" ed="#L" n="47"/>dium venit. Visio aut divinae essentiae replet
-<lb ed="#L" n="48"/>animam omnibus bonis, cum coniungat fonti 
-to<lb break="no" ed="#L" n="49"/>tius bonitatis: unde dicitur in Psalmo xvi: 
-Sa<lb break="no" ed="#L" n="50"/>liabor cum apparuerit gloria tua ;. et Sap. vit 
-di<lb break="no" ed="#L" n="51"/>citur: Venerunt mihi omnia bona pariter cum illa,
-<lb ed="#L" n="52"/>scilicet cum contemplatione sapientiae. Similiter
-<lb ed="#L" n="53"/>etiam non habet aliquod. incommodum  
-adiun<lb break="no" ed="#L" n="54"/>ctum: quia de contemplatione sapientiae dicitur,
-<lb ed="#L" n="55"/>Sap. vii: [Non habet amaritudinem conversatio
-<lb ed="#L" n="56"/>illius, nec taedium. convictus eius. Sic ergo patet
-<lb ed="#L" n="57"/>quod propria voluntate beatus non. potest 
-beatitu<lb break="no" ed="#L" n="58"/>dinem deserere. - Similiter etiam non potest eam
-<lb ed="#L" n="59"/>perdere, Deo subtrahente. Quia, cum subtractio
-<lb ed="#L" n="60"/>beatitudinis sit quaedam poena, non potest talis
-<lb ed="#L" n="61"/>subtractio a Deo, iusto iudice, provenire, nisi pro
-<lb ed="#L" n="62"/>aliqua culpa: in quam cadere non potest qui Dei
-<lb ed="#L" n="63"/>essentiam. videt, cum ad hanc visionem ex 
-ne<lb break="no" ed="#L" n="64"/>cessitate sequatur rectitudo voluntatis, ut supra
-<lb ed="#L" n="65"/>ostensum est. — Similiter etiam nec aliquod aliud
-<lb ed="#L" n="66"/>agens potest eam subtrahere. Quia mens Deo
-<lb ed="#L" n="67"/>coniuncta super omnia alia elevatur; et sic ab
-<lb ed="#L" n="68"/>huiusmodi coniunctione nullum aliud agens potest. 
-<lb ed="#L" n="69"/>ipsam excludere. Unde inconveniens videtur quod
-<lb ed="#L" n="70"/>per quasdam alternationes temporum transeat
-<lb ed="#L" n="71"/>homo de beatitudine ad miseriam, et e converso:
-<lb ed="#L" n="72"/>quia huiusmodi temporales alternationes esse non
-<lb ed="#L" n="73"/>possunt, nisi circa ea quae subiacent tempori et
-<lb ed="#L" n="74"/>motui.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1043">
-                  <lb ed="#L" n="75"/>AD PRIMUM ERGO DICENDUM quod beatitudo est
-<lb ed="#L" n="76"/>perfectio consummata, quae omnem defectum
-<lb ed="#L" n="77"/>excludit a beato. Et ideo absque mutabilitate 
-ad<lb break="no" ed="#L" n="78"/>venit eam hábenti, faciente hoc virtute divina;
-<lb ed="#L" n="79"/>quae hominem sublevat in participationem 
-aeter<lb break="no" ed="#L" n="80"/>nitatis transcendentis omnem mutationem.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1059">
-                  <lb ed="#L" n="81"/>AD SECUNDUM DICENDUM quod voluntas ad 
-op<lb break="no" ed="#L" n="82"/>posita se habet in his quae ad finem ordinantur:
-<lb ed="#L" n="83"/>sed ad ultimum finem naturali necessitate 
-ordi<lb break="no" ed="#L" n="84"/>natur. Quod patet ex hoc, quod homo non potest
-<lb ed="#L" n="85"/>non velle esse beatus.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1072">
-                  <lb ed="#L" n="86"/>AD TERTIUM DICENDUM quod beatitudo habet 
-prin<lb break="no" ed="#L" n="87"/>cipium ex conditione participantis: sed caret fine,
-<lb ed="#L" n="88"/>propter conditionem boni cuius participatio facit
-<lb ed="#L" n="89"/>beatum. Unde ab alio est initium beatitudinis; et
-<lb ed="#L" n="90"/>ab alio est quod caret fine.
-</p>
-            </div>
-            <div xml:id="TAca84-d1e698-Dd1e1086"><!-- p2p1-q5-a5 -->
-               <head xml:id="TAca84-d1e698-Hd1e1089">Articulus 5</head>
-               <head xml:id="TAca84-d1e698-Hd1e1091" type="question-title">utrum homo per sua naturalia possit acquirere beatitudinem</head>
-               <p xml:id="TAca84-d1e698-d1e1094">
-                  <cb ed="#L" n="c"/>
-                  <lb ed="#L" n="39"/>ARTICULUS QUINTUS
-<lb ed="#L" n="40"/>UTRUM HOMO PER SUA NATURALIA POSSIT ACQUIRERE BEATITUDINEM
-</p>
-               <p xml:id="TAca84-d1e698-d1e1103">
-                  <cb ed="#L" n="d"/>
-                  <lb ed="#L" n="41"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="42"/>homo per sua naturalia possit 
-beatitu<lb break="no" ed="#L" n="43"/>dinem consequi. Natura enim non 
-de<lb break="no" ed="#L" n="44"/>ficit in necessariis. Sed nihil est homini
-<lb ed="#L" n="45"/>tam necessarium quam id per quod finem 
-ulti<lb break="no" ed="#L" n="46"/>mum consequitur. Ergo hoc naturae humanae
-<lb ed="#L" n="47"/>non deest. Potest igitur homo per sua naturalia
-<lb ed="#L" n="48"/>beatitudinem consequi.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1125">
-                  <lb ed="#L" n="49"/>2. PRAETEREA, homo, cum sit nobilior 
-irratio<lb break="no" ed="#L" n="50"/>nalibus creaturis , videtur esse sufficientior.- Sed
-<lb ed="#L" n="51"/>irrationales creaturae per sua naturalia possunt
-<lb ed="#L" n="52"/>consequi suos fines. Ergo multo magis homo per
-<lb ed="#L" n="53"/>sua naturalia potest beatitudinem consequi.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1139">
-                  <lb ed="#L" n="54"/>3. PRAETEREA, beatitudo est operatio perfecta,
-<lb ed="#L" n="55"/>secundum Philosophum. Eiusdem autem est 
-in<lb break="no" ed="#L" n="56"/>eipete. rem, et perficere ipsam. Cum igitur 
-ope<lb break="no" ed="#L" n="57"/>ratio imperfecta, quae ést quasi principium in
-<lb ed="#L" n="58"/>operationibus humanis, subdatur naturali hominis
-<lb ed="#L" n="59"/>potestati, qua suorum actuum est dominus; 
-vi<lb break="no" ed="#L" n="60"/>detur quod. per naturalem potentiam possit 
-per<lb break="no" ed="#L" n="61"/>tingere ad operationem perfectam, quae est 
-bea<lb break="no" ed="#L" n="62"/>titudo. -
-</p>
-               <p xml:id="TAca84-d1e698-d1e1161">
-                  <lb ed="#L" n="63"/>Sed coNTRA, homo est principium naturaliter
-<lb ed="#L" n="64"/>actuum suorum per intellectum et voluntatem.
-<lb ed="#L" n="65"/>Sed ültima beatitudo Sanctis praeparata, excedit
-<lb ed="#L" n="66"/>intellectum hominis et voluntatem: dicit enim
-<lb ed="#L" n="67"/>Apostolus, L ad Cor. 1: Oculus non vidit, et auris
-<lb ed="#L" n="68"/>non audivit, et in cor hominis non ascendit, quae
-<lb ed="#L" n="69"/>praeparavit Deus diligentibus se. Ergo homo per
-<lb ed="#L" n="70"/>sua naturalia non potest beatitudinem consequi.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1181">
-                  <lb ed="#L" n="71"/>RESPONDEO DICENDUM quod beatitudo 
-imperfe<lb break="no" ed="#L" n="72"/>cta quae in hac vita haberi potest, potest ? ab
-<lb ed="#L" n="73"/>homine acquiri per sua naturalia, eo modo quo
-<lb ed="#L" n="74"/>et virtus, in cuius operatione consistit: de quo
-<cb ed="#L" n="e"/>
-                  <lb ed="#L" n="75"/>infra dicetur; Sed. beatitudo: hominis perfecta ,
-<lb ed="#L" n="76"/>sicut supra dictum est, consistit in visione 
-di<lb break="no" ed="#L" n="77"/>vinae essentiae. Videre autem: Deum per 
-essen<lb break="no" ed="#L" n="78"/>tiam est supra naturam non solum hominis; sed
-<lb ed="#L" n="79"/>etiam. omnis creaturae, ut in Primo ostensum
-<lb ed="#L" n="80"/>est. Naturalis. enim cognitio cuiuslibet. creaturae
-<lb ed="#L" n="81"/>est secundum modum substantiae. eius: sicut de
-<lb ed="#L" n="82"/>Intelligentia dicitur in libro de: Causis, quod 
-co<lb break="no" ed="#L" n="83"/>gnoscit ea quae sunt supra se, et ea quae sunt
-<lb ed="#L" n="84"/>infra se, secundum modum substantiae suae. Omnis
-<lb ed="#L" n="85"/>autem cognitio quae est secundum modum 
-sub<lb break="no" ed="#L" n="86"/>stantiae creatae, deficit a visione divinae essentiae,
-<lb ed="#L" n="87"/>quae in infinitum excedit omnem substantiam
-<lb ed="#L" n="88"/>creatam. Unde nec homo, nec aliqua creatura,
-<lb ed="#L" n="89"/>potest consequi beatitudinem | ultimam ' per sua
-<lb ed="#L" n="90"/>naturalia.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1229">
-                  <lb ed="#L" n="91"/>AD PRIMUM ERGO DICENDUM quod, sicut natura
-<lb ed="#L" n="92"/>non deficit homini in necessariis, quamvis non
-<lb ed="#L" n="93"/>dederit sibi arma et tegamenta sitem aliis 
-animali<lb break="no" ed="#L" n="94"/>bus, quia dedit ei rationem et manus, quibus 
-pos<lb break="no" ed="#L" n="95"/>sit haec sibi conquirere; ita nec deficit homini
-<lb ed="#L" n="96"/>in necessariis, quamvis non daret sibi aliquod
-<lb ed="#L" n="97"/>principium quo posset beatitudinem consequi; hoc
-<lb ed="#L" n="98"/>enim erat impossibile. Sed dedit ei liberum 
-arbi<lb break="no" ed="#L" n="99"/>trium, quo possit converti ad Deum, qui eum 
-fa<lb break="no" ed="#L" n="100"/>ceret beatum. Quae enim per amicos possumus,
-<lb ed="#L" n="101"/>per nos aliqualiter possumus, ut dicitur in III
-<lb ed="#L" n="102"/>Ethic.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1258">
-                  <lb ed="#L" n="103"/>AD SECUNDUM DICENDUM quod nobilioris 
-condi<lb break="no" ed="#L" n="104"/>tionis est natura quae potest consequi perfectum
-<lb ed="#L" n="105"/>bonum, licet indigeat exteriori auxilio ad hoc
-<lb ed="#L" n="106"/>consequendum , quam natura quae non potest
-<lb ed="#L" n="107"/>consequi perfectam bonum, sed consequitur 
-quod<lb break="no" ed="#L" n="108"/>dam bonum imperfectum, licet ad consecutionem
-<pb ed="#L" n="52"/>
-                  <cb ed="#L" n="a"/>
-                  <lb ed="#L" n="1"/>eius non indigeat exteriori auxilio, ut Philosophus
-<lb ed="#L" n="2"/>dicit in II de Caelo. Sicut melius est dispositus
-<lb ed="#L" n="3"/>ad sanitatem qui potest consequi perfectam 
-sani<lb break="no" ed="#L" n="4"/>tatem, licet hoc sit per auxilium medicinae; quam
-<lb ed="#L" n="5"/>qui solum potest consequi quandam imperfectam
-<lb ed="#L" n="6"/>sanitatem, sine medicinae auxilio. Et ideo creatura
-<lb ed="#L" n="7"/>rationalis, quae potest consequi perfectum 
-beati<lb break="no" ed="#L" n="8"/>tudinis bonum, indigens ad hoc divino auxilio,
-<lb ed="#L" n="9"/>est perfectior quam creatura irrationalis, quae 
-hu<lb break="no" ed="#L" n="10"/>iusmodi boni non est capax, sed quoddam 
-imper<lb break="no" ed="#L" n="11"/>fectum bonum consequitur virtute suae naturae.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1302">
-                  <cb ed="#L" n="b"/>
-                  <lb ed="#L" n="12"/>AD TERTIUM DICENDUM quod, quando 
-imperfe<lb break="no" ed="#L" n="13"/>ctum et perfectum sunt eiusdem speciei, ab 
-ea<lb break="no" ed="#L" n="14"/>dem virtute causari possunt. Non autem hoc est -
-<lb ed="#L" n="15"/>necesse, si sunt alterius speciei: non. enim 
-quid<lb break="no" ed="#L" n="16"/>quid potest causare dispositionem materiae, potest
-<lb ed="#L" n="17"/>ultimam perfectionem conferre. Imperfecta autem
-<lb ed="#L" n="18"/>operatio, quae subiacet naturali hominis potestati,
-<lb ed="#L" n="19"/>non est eiusdem speciei cum operatione illa 
-per<lb break="no" ed="#L" n="20"/>fecta quae est hominis beatitudo: cum 
-operatio<lb break="no" ed="#L" n="21"/>nis species dependeat ex obiecto. dinde ratio non
-<lb ed="#L" n="22"/>sequitur.
-</p>
-            </div>
-            <div xml:id="TAca84-d1e698-Dd1e1332"><!-- p2p1-q5-a6 -->
-               <head xml:id="TAca84-d1e698-Hd1e1335">Articulus 6</head>
-               <head xml:id="TAca84-d1e698-Hd1e1337" type="question-title">utrum homo consequatur beatitudinem per actionem
-       alicuius superioris creaturae</head>
-               <p xml:id="TAca84-d1e698-d1e1340">
-                  <cb ed="#L" n="f"/>
-                  <lb ed="#L" n="28"/>ARTICULUS SEXTUS
-<lb ed="#L" n="29"/>UTRUM HOMO CONSEQUATUR BEATITUDINEM PER ACTIONEM
-<lb ed="#L" n="30"/>ALICUIUS SUPERIORIS CREATURAE
-</p>
-               <p xml:id="TAca84-d1e698-d1e1351">
-                  <cb ed="#L" n="g"/>
-                  <lb ed="#L" n="31"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="32"/>homo possit fieri beatus per actionem
-<lb ed="#L" n="33"/>alicuius superioris creaturae, scilicet 
-an<lb break="no" ed="#L" n="34"/>geli. Cum enim duplex ordo inveniatur
-<lb ed="#L" n="35"/>in rebus, unus partium universi ad invicem, alius
-<lb ed="#L" n="36"/>totius universi ad bonum quod est extra 
-univer<lb break="no" ed="#L" n="37"/>sum; primus ordo ordinatur ad secundum sicut
-<lb ed="#L" n="38"/>ad finem, ut dicitur XII Metaphys.; sicut ordo
-<lb ed="#L" n="39"/>partium exercitus ad invicem est propter 
-ordi<lb break="no" ed="#L" n="40"/>nem. totius exercitus ad ducem. Sed ordo 
-par<lb break="no" ed="#L" n="41"/>tium universi ad. invicem : attenditur secundum
-<lb ed="#L" n="42"/>quod superiores creaturae agunt in inferiores, ut
-<lb ed="#L" n="43"/>in Primo. dictum est: beatitudo autem consistit
-<lb ed="#L" n="44"/>in ordine hominis ad bonum. quod est extra 
-uni<lb break="no" ed="#L" n="45"/>versum, quod est Deus. Ergo. per actionem 
-su<lb break="no" ed="#L" n="46"/>perioris creaturae, scilicet angeli, in hominem,
-<lb ed="#L" n="47"/>homo. beatus. efficitur.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1393">
-                  <lb ed="#L" n="48"/>2. PRAETEREA, quod est in potentia tale; potest
-<lb ed="#L" n="49"/>reduci in actum per id quod est actu tale: sicut.
-<lb ed="#L" n="50"/>quod est potentia calidum, fit actu calidum per
-<lb ed="#L" n="51"/>id quod est actu calidum. Sed homo. est in 
-po<lb break="no" ed="#L" n="52"/>tentia beatus. Ergo potest fieri actu beatus per
-<lb ed="#L" n="53"/>angelum, qui est actu beatus.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1410">
-                  <lb ed="#L" n="54"/>3. PRAETEREA, beatitudo consistit in operatione
-<lb ed="#L" n="55"/>intellectus, ut supra dictum est. Sed angelus
-<lb ed="#L" n="56"/>potest illuminare intellectum hominis, ut in 
-Pri<lb break="no" ed="#L" n="57"/>mo habitum est. Ergo angelus potest facere 
-ho<lb break="no" ed="#L" n="58"/>minem beatum.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1423">
-                  <lb ed="#L" n="59"/>SED CONTRA EST quod dicitur in Psalmo rxxxim:
-<lb ed="#L" n="60"/>Gratiam et gloriam dabit Dominus.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1430">
-                  <lb ed="#L" n="61"/>RESPONDEO DICENDUM quod, cum omnis creatura
-<lb ed="#L" n="62"/>naturae legibus sit subiecta, utpote habens 
-limi<lb break="no" ed="#L" n="63"/>tatam virtutem et actionem; illud quod excedit
-<lb ed="#L" n="64"/>naturam creatam, non potest fieri virtute alicuius
-<lb ed="#L" n="65"/>creaturae. Et ideo si quid fieri oporteat quod sit
-<lb ed="#L" n="66"/>supra naturam, hoc fit immediate a Deo; sicut
-<lb ed="#L" n="67"/>suscitatio mortui, illuminatio caeci, et cetera 
-hu<lb break="no" ed="#L" n="68"/>iusmodi. Ostensum est autem quod beatitudo
-<cb ed="#L" n="h"/>
-                  <lb ed="#L" n="69"/>est quoddam bonum excedens naturam creatam.
-<lb ed="#L" n="70"/>Unde impossibile est quod per actionem alicuius
-<lb ed="#L" n="71"/>creaturae conferatur: sed homo beatus fit solo
-<lb ed="#L" n="72"/>Deo agente, si loquamur de beatitudine perfecta. -
-<lb ed="#L" n="73"/>Si vero loquamur de beatitudine imperfecta, Ssic
-<lb ed="#L" n="74"/>eadem ratio est de ipsa et de virtute, in cuius
-<lb ed="#L" n="75"/>actu consistit. T
-</p>
-               <p xml:id="TAca84-d1e698-d1e1467">
-                  <lb ed="#L" n="76"/>AD PRIMUM ERGO DICENDUM quod plerumque 
-con<lb break="no" ed="#L" n="77"/>tingit in potentiis activis ordinatis, quod. 
-perdu<lb break="no" ed="#L" n="78"/>cere ad ultimum finem pertinet. ad. supremam
-<lb ed="#L" n="79"/>potentiam , inferiores. vero . potentiae coadiuvant
-<lb ed="#L" n="80"/>ad. consecutionem illius ultimi finis disponendo:
-<lb ed="#L" n="81"/>sicut ad artem gubernativam; quae praeest. 
-na<lb break="no" ed="#L" n="82"/>vifactivae, pertinet usus. navis, propter quem 
-na<lb break="no" ed="#L" n="83"/>vis ipsa fit. Sic igitur et in ordine universi, homo
-<lb ed="#L" n="84"/>quidem adiuvatur ab angelis ad. consequendum
-<lb ed="#L" n="85"/>ultimum finem, secundum aliqua praecedentia, .
-<lb ed="#L" n="86"/>quibus disponitur. ad. eius consecutionem :.séd -
-<lb ed="#L" n="87"/>ipsum ultimum finem consequitur per: pim firi
-<lb ed="#L" n="88"/>mum agentem, qui est Deus.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1498">
-                  <lb ed="#L" n="89"/>AD SECUNDUM DICENDUM quod, quando. aliqua
-<lb ed="#L" n="90"/>forma actu existit in aliquo secundum. esse 
-per<lb break="no" ed="#L" n="91"/>fectum et naturale, potest esse principium actionis
-<lb ed="#L" n="92"/>in alterum; sicut calidum per calorem calefacit.
-<lb ed="#L" n="93"/>Sed si forma existit in aliquo imperfecte, et non
-<lb ed="#L" n="94"/>secundum esse naturale, non potest esse 
-princi<lb break="no" ed="#L" n="95"/>pium communicationis sui ad alterum: sicut 
-in<lb break="no" ed="#L" n="96"/>tentio coloris quae est in pupilla, non potest 
-fa<lb break="no" ed="#L" n="97"/>cere album; neque etiam omnia quae sunt 
-illu<lb break="no" ed="#L" n="98"/>minata aut 'calefacta, possunt alia calefacere et
-<lb ed="#L" n="99"/>illuminare; sic enim illuminatio. et calefactio essent
-<lb ed="#L" n="100"/>usque ad infinitum, Lumen autem gloriae, per
-<lb ed="#L" n="101"/>quod Deus videtur, in Deo. quidem est perfecte
-<lb ed="#L" n="102"/>secundum esse naturale: in qualibet autem 
-crea<lb break="no" ed="#L" n="103"/>tura est imperfecte, et secundum esse 
-similitudi<lb break="no" ed="#L" n="104"/>narum vel participatum. Unde nulla creatura
-<lb ed="#L" n="105"/>beata potest communicare suam beatitudinem
-<lb ed="#L" n="106"/>alteri.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1540">
-                  <pb ed="#L" n="53"/>
-                  <cb ed="#L" n="a"/>
-                  <lb ed="#L" n="1"/>AD TERTIUM DICENDUM quod angelus beatus 
-illu<lb break="no" ed="#L" n="2"/>minat intellectum hominis, vel etiam- inferioris
-<lb ed="#L" n="3"/>angeli, quantum ad aliquas rationes divinorum
-<cb ed="#L" n="b"/>
-                  <lb ed="#L" n="4"/>operum: non autem quantum ad visionem divinae
-<lb ed="#L" n="5"/>essentiae, ut in Primo dictum est. Ad eam enim
-<lb ed="#L" n="6"/>videndam, omnes immediate illuminantur a Deo.
-</p>
-            </div>
-            <div xml:id="TAca84-d1e698-Dd1e1563"><!-- p2p1-q5-a7 -->
-               <head xml:id="TAca84-d1e698-Hd1e1566">Articulus 7</head>
-               <head xml:id="TAca84-d1e698-Hd1e1568" type="question-title">utrum requirantur aliqua opera bona ad hoc quod homo
-       beatitudinem consequatur a deo</head>
-               <p xml:id="TAca84-d1e698-d1e1571">
-                  <cb ed="#L" n="c"/>
-                  <lb ed="#L" n="7"/>ARTICULUS SEPTIMUS
-<lb ed="#L" n="8"/>UTRUM REQUIRANTUR ALIQUA OPERA BONA AD HOC QUOD HOMO
-<lb ed="#L" n="9"/>BEATITUDINEM CONSEQUATUR A DEO
-</p>
-               <p xml:id="TAca84-d1e698-d1e1582">
-                  <cb ed="#L" n="d"/>
-                  <lb ed="#L" n="10"/>AD SEPITMUM SIC PROCEDITUR. Videtur quod 
-<lb ed="#L" n="11"/>non requirantur aliqua opera hominis
-<lb ed="#L" n="12"/>ad hoc ut beatitudinem consequatur a
-<lb ed="#L" n="13"/>Deo. Deus enim, cum sit agens 
-infini<lb break="no" ed="#L" n="14"/>tae virtutis, non praeexigit in agendo materiam,
-<lb ed="#L" n="15"/>aut dispositionem materiae, sed statim. potest 
-to<lb break="no" ed="#L" n="16"/>tum producere. Sed opera hominis, cum non 
-re<lb break="no" ed="#L" n="17"/>quirantur ad beatitudinem. eius sicut causa 
-effi<lb break="no" ed="#L" n="18"/>ciens, ut dictum est, non possunt requiri ad
-<lb ed="#L" n="19"/>eam nisi sicut dispositiones. Ergo Deus, qui 
-dis<lb break="no" ed="#L" n="20"/>positiones non praeexigit in agendo, beatitudinem
-<lb ed="#L" n="21"/>sine. praecedentibus operibus confert.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1613">
-                  <lb ed="#L" n="22"/>2. PRAETEREA, sicut Deus est auctor beatitudinis
-<lb ed="#L" n="23"/>immediate, ita et naturam immediate instituit. Sed
-<lb ed="#L" n="24"/>in prima institutione naturae, produxit creaturas
-<lb ed="#L" n="25"/>nulla dispositione praecedente. vel actione 
-creatu<lb break="no" ed="#L" n="26"/>rae; sed statim fecit uuumquodque perfectum in sua
-<lb ed="#L" n="27"/>specie. Ergo videtur quod beatitudinem conferat
-<lb ed="#L" n="28"/>homini sine aliquibus operationibus praecedentibus.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1632">
-                  <lb ed="#L" n="29"/>3. PRAETEREA, Apostolus dicit, Rorn. 1v, 
-beati<lb break="no" ed="#L" n="30"/>tudinem. hominis. esse cui Deus confert iustitiam
-<lb ed="#L" n="31"/>sine operibus. Non ergo requiruntur aliqua opera
-<lb ed="#L" n="32"/>hominis ad beatitudinem consequendam.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1643">
-                  <lb ed="#L" n="33"/>SED CONTRA EST quod dicitur Ioan. xui: S haec
-<lb ed="#L" n="34"/>scitis, beati eritis si feceritis ea. Ergo per 
-actio<lb break="no" ed="#L" n="35"/>nem ad beatitudinem pervenitur f.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1652">
-                  <lb ed="#L" n="36"/>REsPoNpEO picENDUM quod rectitudo voluntatis,
-<lb ed="#L" n="37"/>ut supra dictum est, requiritur ab beatitudinem;
-<lb ed="#L" n="38"/>cum nihil aliud sit quam debitus ordo 
-volunta<lb break="no" ed="#L" n="39"/>tis ad ultimum finem; quae ita exigitur ad 
-con<lb break="no" ed="#L" n="40"/>secutionem ultimi finis, sicut debita dispositio 
-ma<lb break="no" ed="#L" n="41"/>teriae ad consecutionem formae. Sed ex hoc non
-<lb ed="#L" n="42"/>ostenditur quod aliqua operatio hominis. debeat
-<lb ed="#L" n="43"/>praecedere eius beatitudinem: posset enim Deus
-<lb ed="#L" n="44"/>simul facere voluntatem recte tendentem in finem,
-<lb ed="#L" n="45"/>et finem consequentem; sicut quandoque simul
-<lb ed="#L" n="46"/>materiam disponit, et inducit formam. Sed ordo
-<lb ed="#L" n="47"/>divinae sapientiae exigit ne hoc fiat: ut enim 
-di<lb break="no" ed="#L" n="48"/>citur in Il de Caelo, eorum quae nata sunt
-<lb ed="#L" n="49"/>habere bonum perfectum, aliquid habet ipsum sine
-<lb ed="#L" n="50"/>motu, aliquid uno motu, aliquid pluribus. Habere:
-<cb ed="#L" n="e"/>
-                  <lb ed="#L" n="51"/>autem. perfectum bonum sine motu, convenit ei
-<lb ed="#L" n="52"/>quod naturaliter habet illud. Habere autem  
-bea<lb break="no" ed="#L" n="53"/>titudinem naturaliter est solius Dei. Unde solius
-<lb ed="#L" n="54"/>Dei proprium est quod ad beatitudinem non 
-mo<lb break="no" ed="#L" n="55"/>veatur per aliquam . operationem praecedentem.
-<lb ed="#L" n="56"/>Cum autem. beatitudo excedat omnem. naturam
-<lb ed="#L" n="57"/>creatam, nulla pura creatura convenienter beati- .
-<lb ed="#L" n="58"/>tudinem consequitur absque motu. operationis,
-<lb ed="#L" n="59"/>per quam tendit in ipsam. Sed angelus, qui est
-<lb ed="#L" n="60"/>superior ordine naturae quam homo, consecutus
-<lb ed="#L" n="61"/>est eam, ex ordine divinae sapientiae, uno. motu
-<lb ed="#L" n="62"/>operationis meritoriae, ut in Primo expositum
-<lb ed="#L" n="63"/>est. Homines. autem consequuntur. ipsam multis .
-<lb ed="#L" n="64"/>motibus. operationum, qui merita dicuntur. Unde
-<lb ed="#L" n="65"/>etiam, secundum Philosophum ;. beatitudo. est
-<lb ed="#L" n="66"/>praemium. virtuosarum operationum.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1724">
-                  <lb ed="#L" n="67"/>AD PRIMUM ERGO DICENDUM quod. operatio 
-homi<lb break="no" ed="#L" n="68"/>nis. non. praeexigitur ad. consecutionem | 
-beatitu<lb break="no" ed="#L" n="69"/>dinis, propter insufficientiam divinae. virtutis. 
-bea<lb break="no" ed="#L" n="70"/>tificantis: sed. ut servetur ordo in. rebus.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1735">
-                  <lb ed="#L" n="71"/>AD SECUNDUM DICENDUM quod primas creaturas
-<lb ed="#L" n="72"/>statim Deus perfectas produxit, absque aliqua 
-dis<lb break="no" ed="#L" n="73"/>positione. vel operatione creaturae praecedente;
-<lb ed="#L" n="74"/>quia sic instituit prima individua specierum, ut
-<lb ed="#L" n="75"/>per ea ? natura propagaretur ad posteros. Et 
-si<lb break="no" ed="#L" n="76"/>militer, quia per Christum, qui est Deus et homo;
-<lb ed="#L" n="77"/>beatitudo erat ad alios derivanda, secundum illud
-<lb ed="#L" n="78"/>Apostoli ad Hebr. u, qui multos filios in gloriam
-<lb ed="#L" n="79"/>adduxerat; statim. a principio suae conceptionis,
-<lb ed="#L" n="80"/>absque. aliqua. operatione meritoria praecedente,
-<lb ed="#L" n="81"/>anima. eius fuit beata. Sed hoc est singulare in
-<lb ed="#L" n="82"/>ipso: nam. pueris baptizatis subvenit meritum
-<lb ed="#L" n="83"/>Christi ad beatitudinem consequendam, licet 
-de<lb break="no" ed="#L" n="84"/>sint eis merita propria, eo quod per baptismum
-<lb ed="#L" n="85"/>sunt Christi membra. effecti.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1770">
-                  <lb ed="#L" n="86"/>AD TERTIUM DICENDUM quod Apostolus loquitur
-<lb ed="#L" n="87"/>de beatitudine spei, quae habetur per gratiam 
-iu<lb break="no" ed="#L" n="88"/>stificantem, quae quidem non datur propter opera
-<lb ed="#L" n="89"/>praecedentia. Non enim habet rationem termini
-<lb ed="#L" n="90"/>motus, ut beatitudo: sed magis est principium
-<lb ed="#L" n="91"/>motus quo ad beatitudinem tenditur.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1787">
-                  <pb ed="#L" n="54"/>
-                  <cb ed="#L" n="a"/>
-                  <lb ed="#L" n="1"/>ARTICULUS OCTAVUS ^
-<lb ed="#L" n="2"/>UTRUM OMNIS HOMO APPETAT BEATITUDINEM
-</p>
-               <p xml:id="TAca84-d1e698-d1e1798">
-                  <cb ed="#L" n="b"/>
-                  <lb ed="#L" n="3"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="4"/>non omnes appetant beatitudinem. 
-Nul<lb break="no" ed="#L" n="5"/>Nd lus enim potest appetere quod ignorat:
-<lb ed="#L" n="6"/>3cum bonum apprehensum sit obiectum
-<lb ed="#L" n="7"/>appetitus, ut dicitur in III de Anima. Sed multi
-<lb ed="#L" n="8"/>nesciunt quid sit beatitudo: quod, sicut 
-Augusti<lb break="no" ed="#L" n="9"/>nus dicit in XIII de Trin., patet ex hoc, quod
-<lb ed="#L" n="10"/>
-                  <quote xml:id="TAca84-d1e698-Qd1e1819">quidam posuerunt beatitudinem in voluptate 
-cor<lb break="no" ed="#L" n="11"/>poris, quidam in virtute: animi ,' quidam in^ alis
-<lb ed="#L" n="12"/>rebus</quote>. Non ergo omnes beatitudinem appetunt.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1827">
-                  <lb ed="#L" n="13"/>2. PRAETEREA, essentia beatitudinis est visio
-<lb ed="#L" n="14"/>essentiae divinae, ut dictum est. Sed aliqui
-<lb ed="#L" n="15"/>opinantur hoc esse impossibile; quod Deus per
-<lb ed="#L" n="16"/>essentiam. ab homine vidéatur: unde hoc non
-<lb ed="#L" n="17"/>appetunt. Ergo non omnes hóntitiés appetunt
-<lb ed="#L" n="18"/>beatitudinem.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1843">
-                  <lb ed="#L" n="19"/>3. PRAETEREA, Augustinus dicit, in xin de Trin.
-<lb ed="#L" n="20"/>quod <quote xml:id="TAca84-d1e698-Qd1e1849">beatus est qui habet omnia quae vult, et
-<lb ed="#L" n="21"/>nihil male vult</quote>. Sed non omnes hoc volunt: 
-qui<lb break="no" ed="#L" n="22"/>dam enim male aliqua volunt, et tamen volunt
-<lb ed="#L" n="23"/>illa se velle. Non ergo omnes volunt beatitudinem.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1859">
-                  <lb ed="#L" n="24"/>Sep coNTRA esT quod Augustinus dicit, XIII de
-<lb ed="#L" n="25"/>Trin.: <quote xml:id="TAca84-d1e698-Qd1e1865">Si mimus dixisset, « Omnes beati esse 
-vul<lb break="no" ed="#L" n="26"/>lis, miseri esse non vultis », dixisset aliquid quod
-<lb ed="#L" n="27"/>nullus in sua non cognosceret voluntate</quote>. Quilibet
-<lb ed="#L" n="28"/>ergo vult esse beatus.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1875">
-                  <lb ed="#L" n="29"/>RrsPONDEO biCENDUM quod beatitudo düpliciter
-<lb ed="#L" n="30"/>potest considerari. Uno modo, secundum 
-commu<lb break="no" ed="#L" n="31"/>nem rationem beatitudinis. Et sic necesse est quod
-<lb ed="#L" n="32"/>omnis homo beatitudinem velit. Ratio autem 
-bea<lb break="no" ed="#L" n="33"/>titudinis communis est ut sit bonum perfectum,
-<lb ed="#L" n="34"/>sicut dictum est. Cum autem bonum sit 
-obie<lb break="no" ed="#L" n="35"/>etum voluntatis, perfectum bonum est alicuius,
-<lb ed="#L" n="36"/>quod totaliter eius voluntati satisfacit. Unde 
-ap<lb break="no" ed="#L" n="37"/>petere beatitudinem nihil aliud est quam 
-appe<lb break="no" ed="#L" n="38"/>tere ut voluntas satietur. Quod quilibet vult.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1900">
-                  <lb ed="#L" n="39"/>Alio modo possumus loqui de beatitudine 
-se<lb break="no" ed="#L" n="40"/>cundum specialem rationem, quantum ad id in
-<lb ed="#L" n="41"/>quo beatitudo consistit. Et sic non omnes 
-cogno<lb break="no" ed="#L" n="42"/>scunt beatitudinem: quia nesciunt cui rei commu-
-<cb ed="#L" n="c"/>
-                  <lb ed="#L" n="43"/>nis ratio beatitudinis conveniat. Et per 
-conse<lb break="no" ed="#L" n="44"/>quens, quantum ad hoc, non omnes eam volunt.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1918">
-                  <lb ed="#L" n="45"/>Unde patet responsio ad primum.
-</p>
-               <p xml:id="TAca84-d1e698-d1e1923">
-                  <lb ed="#L" n="46"/>AD SECUNDUM DICENDUM quod, cum voluntas 
-se<lb break="no" ed="#L" n="47"/>quatur apprehensionem intellectus seu rationis,
-<lb ed="#L" n="48"/>sicut contingit quod aliquid. est idem secündum
-<lb ed="#L" n="49"/>rem, quod tamen est diversum: secundum  
-ratio<lb break="no" ed="#L" n="50"/>nis considerationem ; ita contingit quod aliquid
-<lb ed="#L" n="51"/>est' idem "secundum rem; et tamen uno modo
-<lb ed="#L" n="52"/>appetitur, alio modo non appetitur. Beatitudo ergo
-<lb ed="#L" n="53"/>potest considerari sub ratione finalis boni et 
-per<lb break="no" ed="#L" n="54"/>fecti , quaé est communis ratio. beatitudinis: et
-<lb ed="#L" n="55"/>sic naturaliter et ex necessitate voluntas in illud
-<lb ed="#L" n="56"/>tendit, ut dictum ést. Potest etiam considerari
-<lb ed="#L" n="57"/>secundam alias speciales considerationes, vel ex
-<lb ed="#L" n="58"/>parte ipsius operationis, vel ex parte. potentiae
-<lb ed="#L" n="59"/>operativae, vel ex parte obiecti: et sic non ex
-<lb ed="#L" n="60"/>necessitate voluntas tendit in ipsam. T2UUT
-</p>
-               <p xml:id="TAca84-d1e698-d1e1958">
-                  <lb ed="#L" n="61"/>AD TERTIUM DICENDUM quod ista definitio" bed
-<lb ed="#L" n="62"/>titudinis quam. quidam posuerunt, Beatus: est. ui
-<lb ed="#L" n="63"/>habet omnia quae vult, vel, cui omnía optata succ
-<lb ed="#L" n="64"/>cedunt, quodam modo intellecta, est bona et 
-suf<lb break="no" ed="#L" n="65"/>ficiens; alio vero modo, est imperfecta. Si enim
-<lb ed="#L" n="66"/>intelligatur simpliciter de omnibus quae vult homo
-<lb ed="#L" n="67"/>natürali appetitu, sic f vérum est quod qui habet
-<lb ed="#L" n="68"/>omnia quae vült, est béatus: nihil enim satiat
-<lb ed="#L" n="69"/>naturalem hominis appetitüm, nisi bonum  
-perfe<lb break="no" ed="#L" n="70"/>ctum, quod ést beatitudo. Si vero intelligatur de
-<lb ed="#L" n="71"/>his quae homo vult secundum apprehensionem
-<lb ed="#L" n="72"/>rationis; sic habere quaedam quae. homo vult;
-<lb ed="#L" n="73"/>non pertinet ad beatitüdinem, sed magis ad 
-mi<lb break="no" ed="#L" n="74"/>seriam, inquantum huiusmodi habita impediunt
-<lb ed="#L" n="75"/>hominem ne habeat quaecumque : naturaliter vult:
-<lb ed="#L" n="76"/>Sicut etiam ratio accipit ut vera interdum quae
-<lb ed="#L" n="77"/>impediunt a cognitione veritatis. Et secundum
-<lb ed="#L" n="78"/>hanc considerationem, Augustinus addidit ad
-<lb ed="#L" n="79"/>perfectionem beatitudinis; quod nihil mali velit.
-<lb ed="#L" n="80"/>Quamvis primum posset sufficere, si recte 
-intel<lb break="no" ed="#L" n="81"/>ligeretur, scilicet quod beatus est qui habet. E
-<lb ed="#L" n="82"/>quae vult.
-</p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2023-08-02">August 02, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLxE6">Rome, 1891, Vol. 6</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-08-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="47"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e698"><!-- p2p1-q5 -->
+        <head xml:id="TAca84-d1e698-Hd1e99">Quaestio 5</head>
+        <head xml:id="TAca84-d1e698-Hd1e101" type="question-title">de adeptione beatitudinis</head>
+        <p xml:id="TAca84-d1e698-d1e104">
+          <pb ed="#L" n="47"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>QUAESTIO QUINTA
+          <lb ed="#L" n="2"/>DE ADEPTIONE BEATITUDINIS
+          <lb ed="#L" n="3"/>IN OCTO ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e698-d1e117">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DINDE considerandum est de ipsa adeptione
+          <lb ed="#L" n="5"/>beatitudinis.
+          <lb ed="#L" n="6"/>Et circa hoc quaeruntur octo.
+          <lb ed="#L" n="7"/>Primo: utrum homo possit consequi 
+          beatitu<lb break="no" ed="#L" n="8"/>dinem.
+          <lb ed="#L" n="9"/>Secundo: utrum unus homo possit esse alio
+          <lb ed="#L" n="10"/>beatior.
+          <lb ed="#L" n="11"/>Tertio: utrum aliquis possit esse in hac vita
+          <lb ed="#L" n="12"/>beatus.
+          <lb ed="#L" n="13"/>Quarto: utrum beatitudo habita possit amitti.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="14"/>Quinto: utrum homo per sua naturalia possit
+          <lb ed="#L" n="15"/>acquirere beatitudinem.
+          <lb ed="#L" n="16"/>Sexto: utrum homo consequatur 
+          beatitudi<lb break="no" ed="#L" n="17"/>nem per actionem alicuius superioris 
+          crea<lb break="no" ed="#L" n="18"/>turae.
+          <lb ed="#L" n="19"/>Septimo: utrum requirantur opera hominis 
+          ali<lb break="no" ed="#L" n="20"/>qua ad hoc quod homo beatitudinem 
+          con<lb break="no" ed="#L" n="21"/>sequatur a Deo.
+          <lb ed="#L" n="22"/>Octavo: utrum omnis homo appetat 
+          beatitu<lb break="no" ed="#L" n="23"/>dinem.
+        </p>
+        <div xml:id="TAca84-d1e698-Dd1e167"><!-- p2p1-q5-a1 -->
+          <head xml:id="TAca84-d1e698-Hd1e170">Articulus 1</head>
+          <head xml:id="TAca84-d1e698-Hd1e172" type="question-title">utrum homo possit consequi beatitudinem</head>
+          <p xml:id="TAca84-d1e698-d1e175">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="24"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="25"/>UTRUM HOMO POSSIT CONSEQUI BEATITUDINEM
+          </p>
+          <p xml:id="TAca84-d1e698-d1e184">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="26"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="27"/>homo. beatitudinem adipisci non possit.
+            <lb ed="#L" n="28"/>d Ü Gicut enim natura rationalis est supra
+            <lb ed="#L" n="29"/>sensibilem, ita natura. intellectualis est
+            <lb ed="#L" n="30"/>supra rationalem; ut patet per Dionysium in 
+            li<lb break="no" ed="#L" n="31"/>bro de Dir. Nom. ., in multis locis. Sed bruta
+            <lb ed="#L" n="32"/>animalia, quae habent naturam sensibilem tantum,
+            <lb ed="#L" n="33"/>non possunt pervenire ad finem rationalis nà
+            tu<lb break="no" ed="#L" n="34"/>rae. Ergo nec homo, qui est rationalis naturae,
+            <lb ed="#L" n="35"/>potest pervenire ad finem intellectualis naturae,
+            <lb ed="#L" n="36"/>qui est beatitudo.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e213">
+            <lb ed="#L" n="37"/>2. PRAETEREA, beatitudo vera consistit in visione
+            <lb ed="#L" n="38"/>Dei, qui est veritas pura. Sed homini est 
+            con<lb break="no" ed="#L" n="39"/>naturale ut veritatem intueatur in rebus 
+            materia<lb break="no" ed="#L" n="40"/>libus: unde <quote xml:id="TAca84-d1e698-Qd1e223">species intelligibiles in phantasmatibus
+              <lb ed="#L" n="41"/>intelligit</quote>, ut dicitur in III de Anima. Ergo non
+            <lb ed="#L" n="42"/>potest ad beatitudinem pervenire.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e233">
+            <lb ed="#L" n="43"/>3. PRAETEREA, beatitudo consistit in adeptione
+            <lb ed="#L" n="44"/>summi boni. Sed aliquis non. potest pervenire ad
+            <lb ed="#L" n="45"/>summum ?, nisi transcendat media. Cum igitur
+            <lb ed="#L" n="46"/>inter Deüm et naturam humanam media sit 
+            na<lb break="no" ed="#L" n="47"/>tura angelica, quam homo transcendere non 
+            po<lb break="no" ed="#L" n="48"/>test; videtur quod non possit beatitudinem adipisci.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e249">
+            <lb ed="#L" n="49"/>SED CONTRA EST quod dicitur in Psalmo xcii:
+            <lb ed="#L" n="50"/>Beatus homo quem tu erudieris, Domine.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e256">
+            <lb ed="#L" n="51"/>RxsPONDEO DICENDUM quod beatitudo nominat
+            <lb ed="#L" n="52"/>adeptionem perfecti boni. Quicumque ergo est
+            <lb ed="#L" n="53"/>capax perfecti boni, potest ad beatitudinem 
+            per<lb break="no" ed="#L" n="54"/>venire. Quod autem homo perfecti boni sit capax,
+            <lb ed="#L" n="55"/>ex hoc apparet, quia et eius intellectus 
+            apprehen<lb break="no" ed="#L" n="56"/>dere potest universale et perfectum bonum, et
+            <lb ed="#L" n="57"/>eius voluntas appetere illud. Et ideo homo potest
+            <lb ed="#L" n="58"/>beatitudinem adipisci. - Apparet etiam idem ex
+            <lb ed="#L" n="59"/>hoc quod. homo est capax visionis divinae 
+            es<lb break="no" ed="#L" n="60"/>sentiae, sicut in Primo habitum est; in qua
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="61"/>quidem visione perfectam hominis beatitudinem
+            <lb ed="#L" n="62"/>consistere diximus.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e287">
+            <lb ed="#L" n="63"/>AD PRIMUM ERGO DICENDUM quod aliter excedit
+            <lb ed="#L" n="64"/>natura rationalis sensitivam, et aliter intellectualis
+            <lb ed="#L" n="65"/>rationalem. Natura enim rationalis excedit 
+            sensi<lb break="no" ed="#L" n="66"/>tivam quantum ad cognitionis obiectum: quia
+            <lb ed="#L" n="67"/>sensus nullo modo potest cognoscere universale,
+            <lb ed="#L" n="68"/>cuius ratio est cognoscitiva. Sed intellectualis
+            <lb ed="#L" n="69"/>natura excedit rationalem quantum ad modum
+            <lb ed="#L" n="70"/>cognoscendi eandem ? intelligibilem veritatem :
+            <lb ed="#L" n="71"/>nam intellectualis natura statim apprehendit 
+            ve<lb break="no" ed="#L" n="72"/>ritatem, ad quam rationalis natura per 
+            inquisitio<lb break="no" ed="#L" n="73"/>nem rationis pertingit, ut patet ex his quae in
+            <lb ed="#L" n="74"/>Primo dicta sunt. Et ideo ad id quod intellectus
+            <lb ed="#L" n="75"/>apprehendit, ratio per quendam motum pertingit.
+            <lb ed="#L" n="76"/>Unde rationalis natura consequi potest 
+            beatitudi<lb break="no" ed="#L" n="77"/>nem, quae est perfectio intellectualis naturae:
+            <lb ed="#L" n="78"/>tamen alio modo quam angeli. Nam angeli 
+            con<lb break="no" ed="#L" n="79"/>secuti sunt eam statim post principium suae 
+            con<lb break="no" ed="#L" n="80"/>ditionis: homines. autem per tempus ad ipsam
+            <lb ed="#L" n="81"/>perveniunt. Sed natura sensitiva ad hunc finem
+            <lb ed="#L" n="82"/>nullo modo pertingere potest.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e333">
+            <lb ed="#L" n="83"/>Ab SECUNDUM DICENDUM quod homini, secundum
+            <lb ed="#L" n="84"/>statum praesentis vitae, est connaturalis modus
+            <lb ed="#L" n="85"/>cognoscendi veritatem intelligibilem per 
+            phanta<lb break="no" ed="#L" n="86"/>smata. Sed post huius vitae statum, habet
+            <lb ed="#L" n="87"/>alium modum connaturalem, ut in Primo -
+            <lb ed="#L" n="88"/>dictum est.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e349">
+            <lb ed="#L" n="89"/>AD TERTIUM DICENDUM quod homo non potest
+            <lb ed="#L" n="90"/>transcendere angelos gradu naturae, ut scilicet
+            <lb ed="#L" n="91"/>naturaliter sit eis superior. Potest tamen eos
+            <lb ed="#L" n="92"/>transcendere per operationem intellectus, dum
+            <lb ed="#L" n="93"/>intelligit aliquid super angelos esse, quod 
+            homi<lb break="no" ed="#L" n="94"/>nes beatificat; quod cum perede consequetur ,
+            <lb ed="#L" n="95"/>perfecte beatus erit.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e698-Dd1e369"><!-- p2p1-q5-a2 -->
+          <head xml:id="TAca84-d1e698-Hd1e372">Articulus 2</head>
+          <head xml:id="TAca84-d1e698-Hd1e374" type="question-title">utrum unus homo possit esse beatior altero</head>
+          <p xml:id="TAca84-d1e698-d1e377">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="20"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="21"/>UTRUM UNUS HOMO POSSIT ESSE BEATIOR ALTERO
+          </p>
+          <p xml:id="TAca84-d1e698-d1e386">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="22"/>AD SECUNDUM SIC PROCEDITUR, Videtur quod
+            <lb ed="#L" n="23"/>unus homo alio non possit esse 
+            bea<lb break="no" ed="#L" n="24"/>tior. Beatitudo enim est praemium 
+            vir<lb break="no" ed="#L" n="25"/>tutis, ut Philosophus dicit in I Ethic.
+            <lb ed="#L" n="26"/>Sed pro operibus virtutum omnibus aequalis 
+            mer<lb break="no" ed="#L" n="27"/>ces redditur: dicitur enim Matth. xx, quod 
+            om<lb break="no" ed="#L" n="28"/>nes qui operati sunt in vinea, acceperunt singulos
+            <lb ed="#L" n="29"/>denarios; quia, ut dicit Gregorius, aequalem 
+            ae<lb break="no" ed="#L" n="30"/>lernae vitae retributionem sortiti sunt. Ergo unus
+            <lb ed="#L" n="31"/>non erit alio beatior.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e412">
+            <lb ed="#L" n="32"/>2. PRAETEREA, beatitudo est summum bonum.
+            <lb ed="#L" n="33"/>Sed summo non potest esse aliquid maius. Ergo
+            <lb ed="#L" n="34"/>beatitudine unius hominis non potest esse alia
+            <lb ed="#L" n="35"/>maior beatitudo.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e424">
+            <lb ed="#L" n="36"/>3. PnaETEREA, beatitudo, cum sit perfectum et
+            <lb ed="#L" n="37"/>sufficiens bonum ,. desiderium. hominis. quietat.
+            <lb ed="#L" n="38"/>Sed non quietatur desiderium, si aliquod bonum
+            <lb ed="#L" n="39"/>deest quod suppleri possit. Si autem nihil deest
+            <lb ed="#L" n="40"/>quod suppleri possit, non poterit esse aliquid
+            <lb ed="#L" n="41"/>aliud ^ maius bonum. Ergo. vel homo non est
+            <lb ed="#L" n="42"/>beatus: vel, si est beatus, non potest alia maior
+            <lb ed="#L" n="43"/>beatitudo . esse.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e444">
+            <lb ed="#L" n="44"/>SED CONTRA EST quod dicitur Ioan. xiv: Zn
+            <lb ed="#L" n="45"/>domo Patris mei mansiones multae sunt; per quas,
+            <lb ed="#L" n="46"/>ut Augustinus dicit, diversae meritorum 
+            digni<lb break="no" ed="#L" n="47"/>lates intelliguntur in vila aeterna. Dignitas autem
+            <lb ed="#L" n="48"/>vitae aeternae, quae pro merito datur, est ipsa
+            <lb ed="#L" n="49"/>beatitudo. Ergo sunt diversi gradus beatitudinis,
+            <lb ed="#L" n="50"/>et non omnium est aequalis beatitudo.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e462">
+            <lb ed="#L" n="51"/>RESPONDEO DICENDUM quod, sicut supra dictum
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="52"/>est, in ratione beatitudinis duo includuntur: 
+            sci<lb break="no" ed="#L" n="53"/>licet ipse finis ultimus, qui est summum bonum ;
+            <lb ed="#L" n="54"/>et adeptio vel fruitio ipsius boni. Quantum igitur
+            <lb ed="#L" n="55"/>ad ipsum bonum quod est beatitudinis obiectum
+            <lb ed="#L" n="56"/>et causa, non potest esse una beatitudo alia maior:
+            <lb ed="#L" n="57"/>quia non est nisi unum summum bonum, scilicet
+            <lb ed="#L" n="58"/>Deus, cuius fruitione homines sunt beati. - Sed
+            <lb ed="#L" n="59"/>quantum ad adeptionem huiusmodi boni vel 
+            frui<lb break="no" ed="#L" n="60"/>tionem , potest aliquis alio esse beatior: quia
+            <lb ed="#L" n="61"/>quanto magis hoc bono fruitur, tanto beatior est.
+            <lb ed="#L" n="62"/>Contingit autem aliquem perfectius frui Deo quam
+            <lb ed="#L" n="63"/>alium, ex eo quod est melius dispositus vel. 
+            or<lb break="no" ed="#L" n="64"/>dinatus ad eius fruitionem. Et secundum hoc
+            <lb ed="#L" n="65"/>potest aliquis alio. beatior esse.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e499">
+            <lb ed="#L" n="66"/>AD PRIMUM ERGO DICENDUM quod unitas denarii
+            <lb ed="#L" n="67"/>significat unitatem beatitudinis ex parte obiecti.
+            <lb ed="#L" n="68"/>Sed diversitas mansionum significat diversitatem
+            <lb ed="#L" n="69"/>beatitudinis secundum diversum gradum fruitionis.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e510">
+            <lb ed="#L" n="70"/>AD SECUNDUM DICENDUM quod. beatitudo. dicitur
+            <lb ed="#L" n="71"/>esse summum bonum, inquantum est summi boni
+            <lb ed="#L" n="72"/>perfecta possessio sive fruitio.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e519">
+            <lb ed="#L" n="73"/>AD TERTIUM DICENDUM quod nulli beato diiit all
+            <lb ed="#L" n="74"/>quod bonum. desiderandum: cum habeat ? ipsum
+            <lb ed="#L" n="75"/>bonum infinitum ,. quod. est bonum omnis boni ,
+            <lb ed="#L" n="76"/>ut Augustinus dicit. Sed dicitur aliquis alio 
+            bea<lb break="no" ed="#L" n="77"/>tior, ex diversa eiusdem boni participatione. .
+            Ad<lb break="no" ed="#L" n="78"/>ditio autem aliorum bonorum non auget 
+            beatitu<lb break="no" ed="#L" n="79"/>dinem: unde <ref xml:id="TAca84-d1e698-Rd1e536">Augustinus dicit, in. V. Confess.</ref>:
+            <lb ed="#L" n="80"/>
+            <quote xml:id="TAca84-d1e698-Qd1e540">Qui te et alia novit, non propter illa beatior; sed
+              <lb ed="#L" n="81"/>propter. te. solum beatus.</quote>
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e698-Dd1e547"><!-- p2p1-q5-a3 -->
+          <head xml:id="TAca84-d1e698-Hd1e550">Articulus 3</head>
+          <head xml:id="TAca84-d1e698-Hd1e552" type="question-title">utrum aliquis in hac vita possit esse beatus</head>
+          <p xml:id="TAca84-d1e698-d1e555">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="82"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="83"/>UTRUM ALIQUIS IN HAC VITA POSSIT ESSE BEATUS 
+          </p>
+          <p xml:id="TAca84-d1e698-d1e564">
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="84"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="85"/>e beatitudo possit in hac vita haberi. 
+            Di<lb break="no" ed="#L" n="86"/>citur enim in Psalmo cxvui: Beati 
+            im<lb break="no" ed="#L" n="87"/>aculati in via, qui ambulant in lege
+            <cb ed="#L" n="i"/>
+            <lb ed="#L" n="88"/>Domini. Hoc autem in hac vita contingit. Ergo
+            <lb ed="#L" n="89"/>aliquis in hac vita potest esse beatus.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e584">
+            <lb ed="#L" n="90"/>2. PRAETEREA, imperfecta. participatio summi
+            <lb ed="#L" n="91"/>boni non adimit rationem beatitudinis: alioquin
+            <pb ed="#L" n="49"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>unus non esset alio beatior. Sed in hac vita 
+            ho<lb break="no" ed="#L" n="2"/>mines possunt participare summum bonum, 
+            co<lb break="no" ed="#L" n="3"/>gnoscendo et amando Deum, licet imperfecte.
+            <lb ed="#L" n="4"/>Ergo homo in hac vita potest esse beatus.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e605">
+            <lb ed="#L" n="5"/>3. PRAETEREA, quod a pluribus $ dicitur, non
+            <lb ed="#L" n="6"/>potest totaliter falaum esse: videtur enim esse '
+            <lb ed="#L" n="7"/>naturale quod in pluribus est; natura autem non
+            <lb ed="#L" n="8"/>totaliter deficit. Sed plures ponunt beatitudinem
+            <lb ed="#L" n="9"/>in hac vita, ut patet per illud Psalmi cxLiu:
+            <lb ed="#L" n="10"/>Beatum dixerunt populum cui haec sunt, scilicet
+            <lb ed="#L" n="11"/>praesentis vitae bona. Ergo aliquis in hac vita
+            <lb ed="#L" n="12"/>potest esse beatus.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e625">
+            <lb ed="#L" n="13"/>SED cowTRA EsT quod dicitur Zob xiv: Homo
+            <lb ed="#L" n="14"/>natus de muliere, brevi vivens lempore, repletur
+            <lb ed="#L" n="15"/>multis miseriis. Sed beatitudo excludit miseriam.
+            <lb ed="#L" n="16"/>Ergo homo in hac vita non potest esse beatus.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e636">
+            <lb ed="#L" n="17"/>REsPONDEO DICENDUM quod aliqualis beatitudinis
+            <lb ed="#L" n="18"/>participatio in hac vita haberi potest: perfecta
+            <lb ed="#L" n="19"/>autem et vera beatitudo non potest haberi in hac
+            <lb ed="#L" n="20"/>vita. Et hoc quidem considerari potest dupliciter.
+            <lb ed="#L" n="21"/>Primo quidem, ex ipsa communi beatitudinis 
+            ra<lb break="no" ed="#L" n="22"/>tione. Nam- ipaniudo; cum sit perfectum et 
+            suf<lb break="no" ed="#L" n="23"/>ficiens bonum, omne malum excludit, et omne
+            <lb ed="#L" n="24"/>desiderium implet. In hac autem vita non potest
+            <lb ed="#L" n="25"/>omne malum excludi. Multis enim malis 
+            prae<lb break="no" ed="#L" n="26"/>sens vita subiacet, quae vitari non possunt: et
+            <lb ed="#L" n="27"/>ignorantiae ex parte intellectus, et inordinatae
+            <lb ed="#L" n="28"/>affectioni ex parte appetitus, et multiplicibus 
+            poe<lb break="no" ed="#L" n="29"/>nalitatibus ex parte corporis; ut Augustinus 
+            dili<lb break="no" ed="#L" n="30"/>genter prosequitur <ref xml:id="TAca84-d1e698-Rd1e668">XIX de Civ. Dei</ref>. Similiter
+            <lb ed="#L" n="31"/>etiam desiderium boni in hac vita satiari non
+            <lb ed="#L" n="32"/>potest. Naturaliter enim homo desiderat 
+            perma<lb break="no" ed="#L" n="33"/>nentiam eius boni quod habet. Bona autem 
+            prae<lb break="no" ed="#L" n="34"/>sentis vitae transitoria sunt: cum et ipsa vita
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="35"/>transeat, quam naturaliter desideramus, et eam
+            <lb ed="#L" n="36"/>perpetuo permanere vellemus , quia naturaliter
+            <lb ed="#L" n="37"/>homo refugit mortem. Unde impossibile est quod
+            <lb ed="#L" n="38"/>in hac vita vera beatitudo habeatur.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e691">
+            <lb ed="#L" n="39"/>Secundo, si consideretur id in quo specialiter
+            <lb ed="#L" n="40"/>beatitudo consistit, scilicet visio divinae essentiae,
+            <lb ed="#L" n="41"/>quae non potest homini provenire in hac vita
+            <lb ed="#L" n="42"/>ut in Primo ostensum est. Ex quibus manifeste
+            <lb ed="#L" n="43"/>apparet quod non potest aliquis in hac vita veram
+            <lb ed="#L" n="44"/>et perfectam beatitudinem adipisci.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e707">
+            <lb ed="#L" n="45"/>AD PRIMUM ERGO DICENDUM quod beati dicuntur
+            <lb ed="#L" n="46"/>aliqui in hac vita, vel propter spem 
+            beatitudi<lb break="no" ed="#L" n="47"/>nis adipiscendae in futura vita, secundum illud
+            <lb ed="#L" n="48"/>Rom. vui, Spe salvi facti sumus: vel propter
+            <lb ed="#L" n="49"/>aliquam participationem beatitudinis, secundum
+            <lb ed="#L" n="50"/>aliqualem summi boni fruitionem.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e723">
+            <lb ed="#L" n="51"/>AD SECUNDUM DICENDUM quod participatio 
+            bea<lb break="no" ed="#L" n="52"/>titudinis potest esse imperfecta dupliciter. Uno
+            <lb ed="#L" n="53"/>modo, ex parte ipsius obiecti beatitudinis, quod
+            <lb ed="#L" n="54"/>quidem secundum sui essentiam non videtur. Et
+            <lb ed="#L" n="55"/>talis imperfectio tollit rationem verae beatitudinis.
+            <lb ed="#L" n="56"/>Alio modo potest esse imperfecta ex parte ipsius
+            <lb ed="#L" n="57"/>participantis, qui quidem ad ipsum obiectum 
+            bea<lb break="no" ed="#L" n="58"/>titudinis secundum seipsum attingit, scilicet Deum,
+            <lb ed="#L" n="59"/>sed imperfecte, per respectum ad modum quo
+            <lb ed="#L" n="60"/>Deus seipso fruitur. Et talis imperfectio non tollit
+            <lb ed="#L" n="61"/>veram rationem beatitudinis: quia, cum beatitudo:
+            <lb ed="#L" n="62"/>sit operatio quaedam, ut supra dictum est, vera
+            <lb ed="#L" n="63"/>ratio beatitudinis consideratur ex obiecto, quod
+            <lb ed="#L" n="64"/>dat speciem actui, non autem ex subiecto.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e757">
+            <lb ed="#L" n="65"/>AD TERTIUM DICENDUM quod homines reputant
+            <lb ed="#L" n="66"/>in hac vita esse aliquam beatitudinem, propter
+            <lb ed="#L" n="67"/>aliquam similitudinem verae beatitudinis. Et sic
+            <lb ed="#L" n="68"/>non ex toto in sua aestimatione deficiunt.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e698-Dd1e769"><!-- p2p1-q5-a4 -->
+          <head xml:id="TAca84-d1e698-Hd1e772">Articulus 4</head>
+          <head xml:id="TAca84-d1e698-Hd1e774" type="question-title">utrum beatitudo habita possit amitti</head>
+          <p xml:id="TAca84-d1e698-d1e777">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="69"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="70"/>UTRUM BEATITUDO HABITA POSSIT AMITTI
+          </p>
+          <p xml:id="TAca84-d1e698-d1e786">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="71"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="72"/>beatitudo possit amitti. Beatitudo enim
+            <lb ed="#L" n="73"/>est perfectio quaedam. Sed omnis 
+            per<lb break="no" ed="#L" n="74"/>fectio inest perfectibili secundum 
+            mo<lb break="no" ed="#L" n="75"/>dum ipsius. Cum igitur homo secundum suam
+            <lb ed="#L" n="76"/>naturam sit mutabilis, videtur quod beatitudo 
+            mu<lb break="no" ed="#L" n="77"/>tabiliter ab homine participetur. Et ita videtur
+            <lb ed="#L" n="78"/>quod homo beatitudinem possit amittere.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e808">
+            <lb ed="#L" n="79"/>2. PRAETEREA, beatitudo consistit in actione 
+            in<lb break="no" ed="#L" n="80"/>tellectus, qui^ subiacet voluntati. Sed voluntas se
+            <lb ed="#L" n="81"/>habet ad opposita. Ergo videtur quod possit 
+            de<lb break="no" ed="#L" n="82"/>sistere ab operatione qua homo beatificatur: et
+            <lb ed="#L" n="83"/>ita homo desinet esse beatus.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e822">
+            <lb ed="#L" n="84"/>3. PRAETEREA, principio respondet finis. Sed
+            <lb ed="#L" n="85"/>beatitudo hominis habet principium: quia homo ?
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="86"/>non semper fuit beatus. Ergo videtur quod 
+            ha<lb break="no" ed="#L" n="87"/>beat finem.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e835">
+            <lb ed="#L" n="88"/>SED CONTRA EST quod dicitur Matth. xxv de
+            <lb ed="#L" n="89"/>iustis, quod ibunt in.vitam aeternam; quae, ut
+            <lb ed="#L" n="90"/>dictum est, est beatitudo Sanctorum. Quod 
+            au<lb break="no" ed="#L" n="91"/>tem est aeternum, non deficit. Ergo beatitudo
+            <lb ed="#L" n="92"/>non potest amitti.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e848">
+            <lb ed="#L" n="93"/>REsPONDEO DICENDUM quod, si loquamur de 
+            bea<lb break="no" ed="#L" n="94"/>titudine imperfecta, qualis in hac vita potest 
+            ha<lb break="no" ed="#L" n="95"/>beri, sic potest amitti. Et hoc patet in felicitate
+            <lb ed="#L" n="96"/>contemplativa, quae amittitur vel per oblivionem,
+            <lb ed="#L" n="97"/>puta cum corrumpitur scientia ex aliqua 
+            aegritu<lb break="no" ed="#L" n="98"/>dine; vel etiam ? per aliquas occupationes, quibus
+            <lb ed="#L" n="99"/>totaliter abstrahitur aliquis a contemplatione. Patet
+            <lb ed="#L" n="100"/>etiam idem in felicitate activa: voluntas enim ho-
+            <pb ed="#L" n="50"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>minis transmutari potest, ut in vitium degeneret
+            <lb ed="#L" n="2"/>a virtute, in cuius actu principaliter consistit 
+            fe<lb break="no" ed="#L" n="3"/>licitas. Si autem virtus remaneat integra, 
+            exterio<lb break="no" ed="#L" n="4"/>res transmutationes possunt quidem beatitudinem
+            <lb ed="#L" n="5"/>talem perturbare, inquantum impediunt multas
+            <lb ed="#L" n="6"/>operationes virtutum: non tamen possunt eam
+            <lb ed="#L" n="7"/>totaliter auferre, quia adhuc remanet operatio
+            <lb ed="#L" n="8"/>virtutis, dum ipsas adversitates homo laudabiliter
+            <lb ed="#L" n="9"/>sustinet. - Et quia beatitudo huius vitae amitti 
+            po<lb break="no" ed="#L" n="10"/>test, quod videtur esse contra rationem 
+            beatitu<lb break="no" ed="#L" n="11"/>dinis; ideo Philosophus dicit, in I Ehic., aliquos
+            <lb ed="#L" n="12"/>esse in hac vita beatos, non simpliciter, sed sicut
+            <lb ed="#L" n="13"/>homines, quorum natura mutationi subiecta est.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e900">
+            <lb ed="#L" n="14"/>Si vero loquamur de beatitudine perfecta quae
+            <lb ed="#L" n="15"/>expectatur post hanc vitam, sciendum est quod
+            <lb ed="#L" n="16"/>Origenes: posuit, quorundam Platonicorum
+            <lb ed="#L" n="17"/>errorem sequens, quod post ultimam  
+            beatitudi<lb break="no" ed="#L" n="18"/>nem homo potest fieri miser.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e913">
+            <lb ed="#L" n="19"/>Sed hoc manifeste apparet esse falsum 
+            duplici<lb break="no" ed="#L" n="20"/>ter. Primo quidem, ex ipsa communi ratione 
+            bea<lb break="no" ed="#L" n="21"/>titudinis. Cum enim ipsa beatitudo sit perfectum
+            <lb ed="#L" n="22"/>bonum et sufficiens, oportet quod desiderium 
+            ho<lb break="no" ed="#L" n="23"/>minis quietet, et omne malum excludat. Natura- ,
+            <lb ed="#L" n="24"/>liter autem homo desiderat retinere bonum quod
+            <lb ed="#L" n="25"/>habet, et quod eius retinendi securitatem  
+            obti<lb break="no" ed="#L" n="26"/>neat: alioquin necesse est quod timore amittendi,
+            <lb ed="#L" n="27"/>vel dolore de certitudine amissionis, affligatur.
+            <lb ed="#L" n="28"/>Requiritur igitur ad veram beatitudinem quod
+            <lb ed="#L" n="29"/>homo certam habeat opinionem bonum quod
+            <lb ed="#L" n="30"/>habet, nunquam se amissurum. Quae quidem
+            <lb ed="#L" n="31"/>opinio si vera sit, consequens est quod 
+            beatitu<lb break="no" ed="#L" n="32"/>dinem nunquam amittet. Si autem falsa sit, hoc
+            <lb ed="#L" n="33"/>ipsum est quoddam malum, falsam opinionem
+            <lb ed="#L" n="34"/>habere: nam falsum est malum intellectus, sicut
+            <lb ed="#L" n="35"/>verum est bonum ipsius, ut dicitur in VI Ethic.
+            <lb ed="#L" n="36"/>Non igitur iam vere erit beatus, si aliquod 
+            ma<lb break="no" ed="#L" n="37"/>lum ei inest.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e957">
+            <lb ed="#L" n="38"/>Secundo idem apparet, si consideretur ratio
+            <lb ed="#L" n="39"/>beatitudinis in speciali. Ostensum est enim supra
+            <lb ed="#L" n="40"/>quod perfecta beatitudo hominis in visione 
+            divi<lb break="no" ed="#L" n="41"/>nae essentiae consistit. Est autem impossibile
+            <lb ed="#L" n="42"/>quod aliquis videns divinam essentiam, velit eam
+            <lb ed="#L" n="43"/>non videre. Quia omne bonum habitum quo quis
+            <lb ed="#L" n="44"/>carere vult, aut est insufficiens, et quaeritur 
+            ali<lb break="no" ed="#L" n="45"/>quid sufficientius loco eius: aut habet aliquod
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="46"/>incommodum annexum, propter quod in 
+            fasti<lb break="no" ed="#L" n="47"/>dium venit. Visio aut divinae essentiae replet
+            <lb ed="#L" n="48"/>animam omnibus bonis, cum coniungat fonti 
+            to<lb break="no" ed="#L" n="49"/>tius bonitatis: unde dicitur in Psalmo xvi: 
+            Sa<lb break="no" ed="#L" n="50"/>liabor cum apparuerit gloria tua ;. et Sap. vit 
+            di<lb break="no" ed="#L" n="51"/>citur: Venerunt mihi omnia bona pariter cum illa,
+            <lb ed="#L" n="52"/>scilicet cum contemplatione sapientiae. Similiter
+            <lb ed="#L" n="53"/>etiam non habet aliquod. incommodum  
+            adiun<lb break="no" ed="#L" n="54"/>ctum: quia de contemplatione sapientiae dicitur,
+            <lb ed="#L" n="55"/>Sap. vii: [Non habet amaritudinem conversatio
+            <lb ed="#L" n="56"/>illius, nec taedium. convictus eius. Sic ergo patet
+            <lb ed="#L" n="57"/>quod propria voluntate beatus non. potest 
+            beatitu<lb break="no" ed="#L" n="58"/>dinem deserere. - Similiter etiam non potest eam
+            <lb ed="#L" n="59"/>perdere, Deo subtrahente. Quia, cum subtractio
+            <lb ed="#L" n="60"/>beatitudinis sit quaedam poena, non potest talis
+            <lb ed="#L" n="61"/>subtractio a Deo, iusto iudice, provenire, nisi pro
+            <lb ed="#L" n="62"/>aliqua culpa: in quam cadere non potest qui Dei
+            <lb ed="#L" n="63"/>essentiam. videt, cum ad hanc visionem ex 
+            ne<lb break="no" ed="#L" n="64"/>cessitate sequatur rectitudo voluntatis, ut supra
+            <lb ed="#L" n="65"/>ostensum est. — Similiter etiam nec aliquod aliud
+            <lb ed="#L" n="66"/>agens potest eam subtrahere. Quia mens Deo
+            <lb ed="#L" n="67"/>coniuncta super omnia alia elevatur; et sic ab
+            <lb ed="#L" n="68"/>huiusmodi coniunctione nullum aliud agens potest. 
+            <lb ed="#L" n="69"/>ipsam excludere. Unde inconveniens videtur quod
+            <lb ed="#L" n="70"/>per quasdam alternationes temporum transeat
+            <lb ed="#L" n="71"/>homo de beatitudine ad miseriam, et e converso:
+            <lb ed="#L" n="72"/>quia huiusmodi temporales alternationes esse non
+            <lb ed="#L" n="73"/>possunt, nisi circa ea quae subiacent tempori et
+            <lb ed="#L" n="74"/>motui.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1043">
+            <lb ed="#L" n="75"/>AD PRIMUM ERGO DICENDUM quod beatitudo est
+            <lb ed="#L" n="76"/>perfectio consummata, quae omnem defectum
+            <lb ed="#L" n="77"/>excludit a beato. Et ideo absque mutabilitate 
+            ad<lb break="no" ed="#L" n="78"/>venit eam hábenti, faciente hoc virtute divina;
+            <lb ed="#L" n="79"/>quae hominem sublevat in participationem 
+            aeter<lb break="no" ed="#L" n="80"/>nitatis transcendentis omnem mutationem.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1059">
+            <lb ed="#L" n="81"/>AD SECUNDUM DICENDUM quod voluntas ad 
+            op<lb break="no" ed="#L" n="82"/>posita se habet in his quae ad finem ordinantur:
+            <lb ed="#L" n="83"/>sed ad ultimum finem naturali necessitate 
+            ordi<lb break="no" ed="#L" n="84"/>natur. Quod patet ex hoc, quod homo non potest
+            <lb ed="#L" n="85"/>non velle esse beatus.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1072">
+            <lb ed="#L" n="86"/>AD TERTIUM DICENDUM quod beatitudo habet 
+            prin<lb break="no" ed="#L" n="87"/>cipium ex conditione participantis: sed caret fine,
+            <lb ed="#L" n="88"/>propter conditionem boni cuius participatio facit
+            <lb ed="#L" n="89"/>beatum. Unde ab alio est initium beatitudinis; et
+            <lb ed="#L" n="90"/>ab alio est quod caret fine.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e698-Dd1e1086"><!-- p2p1-q5-a5 -->
+          <head xml:id="TAca84-d1e698-Hd1e1089">Articulus 5</head>
+          <head xml:id="TAca84-d1e698-Hd1e1091" type="question-title">utrum homo per sua naturalia possit acquirere beatitudinem</head>
+          <p xml:id="TAca84-d1e698-d1e1094">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="39"/>ARTICULUS QUINTUS
+            <lb ed="#L" n="40"/>UTRUM HOMO PER SUA NATURALIA POSSIT ACQUIRERE BEATITUDINEM
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1103">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="41"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="42"/>homo per sua naturalia possit 
+            beatitu<lb break="no" ed="#L" n="43"/>dinem consequi. Natura enim non 
+            de<lb break="no" ed="#L" n="44"/>ficit in necessariis. Sed nihil est homini
+            <lb ed="#L" n="45"/>tam necessarium quam id per quod finem 
+            ulti<lb break="no" ed="#L" n="46"/>mum consequitur. Ergo hoc naturae humanae
+            <lb ed="#L" n="47"/>non deest. Potest igitur homo per sua naturalia
+            <lb ed="#L" n="48"/>beatitudinem consequi.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1125">
+            <lb ed="#L" n="49"/>2. PRAETEREA, homo, cum sit nobilior 
+            irratio<lb break="no" ed="#L" n="50"/>nalibus creaturis , videtur esse sufficientior.- Sed
+            <lb ed="#L" n="51"/>irrationales creaturae per sua naturalia possunt
+            <lb ed="#L" n="52"/>consequi suos fines. Ergo multo magis homo per
+            <lb ed="#L" n="53"/>sua naturalia potest beatitudinem consequi.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1139">
+            <lb ed="#L" n="54"/>3. PRAETEREA, beatitudo est operatio perfecta,
+            <lb ed="#L" n="55"/>secundum Philosophum. Eiusdem autem est 
+            in<lb break="no" ed="#L" n="56"/>eipete. rem, et perficere ipsam. Cum igitur 
+            ope<lb break="no" ed="#L" n="57"/>ratio imperfecta, quae ést quasi principium in
+            <lb ed="#L" n="58"/>operationibus humanis, subdatur naturali hominis
+            <lb ed="#L" n="59"/>potestati, qua suorum actuum est dominus; 
+            vi<lb break="no" ed="#L" n="60"/>detur quod. per naturalem potentiam possit 
+            per<lb break="no" ed="#L" n="61"/>tingere ad operationem perfectam, quae est 
+            bea<lb break="no" ed="#L" n="62"/>titudo. -
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1161">
+            <lb ed="#L" n="63"/>Sed coNTRA, homo est principium naturaliter
+            <lb ed="#L" n="64"/>actuum suorum per intellectum et voluntatem.
+            <lb ed="#L" n="65"/>Sed ültima beatitudo Sanctis praeparata, excedit
+            <lb ed="#L" n="66"/>intellectum hominis et voluntatem: dicit enim
+            <lb ed="#L" n="67"/>Apostolus, L ad Cor. 1: Oculus non vidit, et auris
+            <lb ed="#L" n="68"/>non audivit, et in cor hominis non ascendit, quae
+            <lb ed="#L" n="69"/>praeparavit Deus diligentibus se. Ergo homo per
+            <lb ed="#L" n="70"/>sua naturalia non potest beatitudinem consequi.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1181">
+            <lb ed="#L" n="71"/>RESPONDEO DICENDUM quod beatitudo 
+            imperfe<lb break="no" ed="#L" n="72"/>cta quae in hac vita haberi potest, potest ? ab
+            <lb ed="#L" n="73"/>homine acquiri per sua naturalia, eo modo quo
+            <lb ed="#L" n="74"/>et virtus, in cuius operatione consistit: de quo
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="75"/>infra dicetur; Sed. beatitudo: hominis perfecta ,
+            <lb ed="#L" n="76"/>sicut supra dictum est, consistit in visione 
+            di<lb break="no" ed="#L" n="77"/>vinae essentiae. Videre autem: Deum per 
+            essen<lb break="no" ed="#L" n="78"/>tiam est supra naturam non solum hominis; sed
+            <lb ed="#L" n="79"/>etiam. omnis creaturae, ut in Primo ostensum
+            <lb ed="#L" n="80"/>est. Naturalis. enim cognitio cuiuslibet. creaturae
+            <lb ed="#L" n="81"/>est secundum modum substantiae. eius: sicut de
+            <lb ed="#L" n="82"/>Intelligentia dicitur in libro de: Causis, quod 
+            co<lb break="no" ed="#L" n="83"/>gnoscit ea quae sunt supra se, et ea quae sunt
+            <lb ed="#L" n="84"/>infra se, secundum modum substantiae suae. Omnis
+            <lb ed="#L" n="85"/>autem cognitio quae est secundum modum 
+            sub<lb break="no" ed="#L" n="86"/>stantiae creatae, deficit a visione divinae essentiae,
+            <lb ed="#L" n="87"/>quae in infinitum excedit omnem substantiam
+            <lb ed="#L" n="88"/>creatam. Unde nec homo, nec aliqua creatura,
+            <lb ed="#L" n="89"/>potest consequi beatitudinem | ultimam ' per sua
+            <lb ed="#L" n="90"/>naturalia.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1229">
+            <lb ed="#L" n="91"/>AD PRIMUM ERGO DICENDUM quod, sicut natura
+            <lb ed="#L" n="92"/>non deficit homini in necessariis, quamvis non
+            <lb ed="#L" n="93"/>dederit sibi arma et tegamenta sitem aliis 
+            animali<lb break="no" ed="#L" n="94"/>bus, quia dedit ei rationem et manus, quibus 
+            pos<lb break="no" ed="#L" n="95"/>sit haec sibi conquirere; ita nec deficit homini
+            <lb ed="#L" n="96"/>in necessariis, quamvis non daret sibi aliquod
+            <lb ed="#L" n="97"/>principium quo posset beatitudinem consequi; hoc
+            <lb ed="#L" n="98"/>enim erat impossibile. Sed dedit ei liberum 
+            arbi<lb break="no" ed="#L" n="99"/>trium, quo possit converti ad Deum, qui eum 
+            fa<lb break="no" ed="#L" n="100"/>ceret beatum. Quae enim per amicos possumus,
+            <lb ed="#L" n="101"/>per nos aliqualiter possumus, ut dicitur in III
+            <lb ed="#L" n="102"/>Ethic.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1258">
+            <lb ed="#L" n="103"/>AD SECUNDUM DICENDUM quod nobilioris 
+            condi<lb break="no" ed="#L" n="104"/>tionis est natura quae potest consequi perfectum
+            <lb ed="#L" n="105"/>bonum, licet indigeat exteriori auxilio ad hoc
+            <lb ed="#L" n="106"/>consequendum , quam natura quae non potest
+            <lb ed="#L" n="107"/>consequi perfectam bonum, sed consequitur 
+            quod<lb break="no" ed="#L" n="108"/>dam bonum imperfectum, licet ad consecutionem
+            <pb ed="#L" n="52"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>eius non indigeat exteriori auxilio, ut Philosophus
+            <lb ed="#L" n="2"/>dicit in II de Caelo. Sicut melius est dispositus
+            <lb ed="#L" n="3"/>ad sanitatem qui potest consequi perfectam 
+            sani<lb break="no" ed="#L" n="4"/>tatem, licet hoc sit per auxilium medicinae; quam
+            <lb ed="#L" n="5"/>qui solum potest consequi quandam imperfectam
+            <lb ed="#L" n="6"/>sanitatem, sine medicinae auxilio. Et ideo creatura
+            <lb ed="#L" n="7"/>rationalis, quae potest consequi perfectum 
+            beati<lb break="no" ed="#L" n="8"/>tudinis bonum, indigens ad hoc divino auxilio,
+            <lb ed="#L" n="9"/>est perfectior quam creatura irrationalis, quae 
+            hu<lb break="no" ed="#L" n="10"/>iusmodi boni non est capax, sed quoddam 
+            imper<lb break="no" ed="#L" n="11"/>fectum bonum consequitur virtute suae naturae.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1302">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="12"/>AD TERTIUM DICENDUM quod, quando 
+            imperfe<lb break="no" ed="#L" n="13"/>ctum et perfectum sunt eiusdem speciei, ab 
+            ea<lb break="no" ed="#L" n="14"/>dem virtute causari possunt. Non autem hoc est -
+            <lb ed="#L" n="15"/>necesse, si sunt alterius speciei: non. enim 
+            quid<lb break="no" ed="#L" n="16"/>quid potest causare dispositionem materiae, potest
+            <lb ed="#L" n="17"/>ultimam perfectionem conferre. Imperfecta autem
+            <lb ed="#L" n="18"/>operatio, quae subiacet naturali hominis potestati,
+            <lb ed="#L" n="19"/>non est eiusdem speciei cum operatione illa 
+            per<lb break="no" ed="#L" n="20"/>fecta quae est hominis beatitudo: cum 
+            operatio<lb break="no" ed="#L" n="21"/>nis species dependeat ex obiecto. dinde ratio non
+            <lb ed="#L" n="22"/>sequitur.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e698-Dd1e1332"><!-- p2p1-q5-a6 -->
+          <head xml:id="TAca84-d1e698-Hd1e1335">Articulus 6</head>
+          <head xml:id="TAca84-d1e698-Hd1e1337" type="question-title">utrum homo consequatur beatitudinem per actionem
+            alicuius superioris creaturae</head>
+          <p xml:id="TAca84-d1e698-d1e1340">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="28"/>ARTICULUS SEXTUS
+            <lb ed="#L" n="29"/>UTRUM HOMO CONSEQUATUR BEATITUDINEM PER ACTIONEM
+            <lb ed="#L" n="30"/>ALICUIUS SUPERIORIS CREATURAE
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1351">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="31"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="32"/>homo possit fieri beatus per actionem
+            <lb ed="#L" n="33"/>alicuius superioris creaturae, scilicet 
+            an<lb break="no" ed="#L" n="34"/>geli. Cum enim duplex ordo inveniatur
+            <lb ed="#L" n="35"/>in rebus, unus partium universi ad invicem, alius
+            <lb ed="#L" n="36"/>totius universi ad bonum quod est extra 
+            univer<lb break="no" ed="#L" n="37"/>sum; primus ordo ordinatur ad secundum sicut
+            <lb ed="#L" n="38"/>ad finem, ut dicitur XII Metaphys.; sicut ordo
+            <lb ed="#L" n="39"/>partium exercitus ad invicem est propter 
+            ordi<lb break="no" ed="#L" n="40"/>nem. totius exercitus ad ducem. Sed ordo 
+            par<lb break="no" ed="#L" n="41"/>tium universi ad. invicem : attenditur secundum
+            <lb ed="#L" n="42"/>quod superiores creaturae agunt in inferiores, ut
+            <lb ed="#L" n="43"/>in Primo. dictum est: beatitudo autem consistit
+            <lb ed="#L" n="44"/>in ordine hominis ad bonum. quod est extra 
+            uni<lb break="no" ed="#L" n="45"/>versum, quod est Deus. Ergo. per actionem 
+            su<lb break="no" ed="#L" n="46"/>perioris creaturae, scilicet angeli, in hominem,
+            <lb ed="#L" n="47"/>homo. beatus. efficitur.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1393">
+            <lb ed="#L" n="48"/>2. PRAETEREA, quod est in potentia tale; potest
+            <lb ed="#L" n="49"/>reduci in actum per id quod est actu tale: sicut.
+            <lb ed="#L" n="50"/>quod est potentia calidum, fit actu calidum per
+            <lb ed="#L" n="51"/>id quod est actu calidum. Sed homo. est in 
+            po<lb break="no" ed="#L" n="52"/>tentia beatus. Ergo potest fieri actu beatus per
+            <lb ed="#L" n="53"/>angelum, qui est actu beatus.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1410">
+            <lb ed="#L" n="54"/>3. PRAETEREA, beatitudo consistit in operatione
+            <lb ed="#L" n="55"/>intellectus, ut supra dictum est. Sed angelus
+            <lb ed="#L" n="56"/>potest illuminare intellectum hominis, ut in 
+            Pri<lb break="no" ed="#L" n="57"/>mo habitum est. Ergo angelus potest facere 
+            ho<lb break="no" ed="#L" n="58"/>minem beatum.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1423">
+            <lb ed="#L" n="59"/>SED CONTRA EST quod dicitur in Psalmo rxxxim:
+            <lb ed="#L" n="60"/>Gratiam et gloriam dabit Dominus.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1430">
+            <lb ed="#L" n="61"/>RESPONDEO DICENDUM quod, cum omnis creatura
+            <lb ed="#L" n="62"/>naturae legibus sit subiecta, utpote habens 
+            limi<lb break="no" ed="#L" n="63"/>tatam virtutem et actionem; illud quod excedit
+            <lb ed="#L" n="64"/>naturam creatam, non potest fieri virtute alicuius
+            <lb ed="#L" n="65"/>creaturae. Et ideo si quid fieri oporteat quod sit
+            <lb ed="#L" n="66"/>supra naturam, hoc fit immediate a Deo; sicut
+            <lb ed="#L" n="67"/>suscitatio mortui, illuminatio caeci, et cetera 
+            hu<lb break="no" ed="#L" n="68"/>iusmodi. Ostensum est autem quod beatitudo
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="69"/>est quoddam bonum excedens naturam creatam.
+            <lb ed="#L" n="70"/>Unde impossibile est quod per actionem alicuius
+            <lb ed="#L" n="71"/>creaturae conferatur: sed homo beatus fit solo
+            <lb ed="#L" n="72"/>Deo agente, si loquamur de beatitudine perfecta. -
+            <lb ed="#L" n="73"/>Si vero loquamur de beatitudine imperfecta, Ssic
+            <lb ed="#L" n="74"/>eadem ratio est de ipsa et de virtute, in cuius
+            <lb ed="#L" n="75"/>actu consistit. T
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1467">
+            <lb ed="#L" n="76"/>AD PRIMUM ERGO DICENDUM quod plerumque 
+            con<lb break="no" ed="#L" n="77"/>tingit in potentiis activis ordinatis, quod. 
+            perdu<lb break="no" ed="#L" n="78"/>cere ad ultimum finem pertinet. ad. supremam
+            <lb ed="#L" n="79"/>potentiam , inferiores. vero . potentiae coadiuvant
+            <lb ed="#L" n="80"/>ad. consecutionem illius ultimi finis disponendo:
+            <lb ed="#L" n="81"/>sicut ad artem gubernativam; quae praeest. 
+            na<lb break="no" ed="#L" n="82"/>vifactivae, pertinet usus. navis, propter quem 
+            na<lb break="no" ed="#L" n="83"/>vis ipsa fit. Sic igitur et in ordine universi, homo
+            <lb ed="#L" n="84"/>quidem adiuvatur ab angelis ad. consequendum
+            <lb ed="#L" n="85"/>ultimum finem, secundum aliqua praecedentia, .
+            <lb ed="#L" n="86"/>quibus disponitur. ad. eius consecutionem :.séd -
+            <lb ed="#L" n="87"/>ipsum ultimum finem consequitur per: pim firi
+            <lb ed="#L" n="88"/>mum agentem, qui est Deus.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1498">
+            <lb ed="#L" n="89"/>AD SECUNDUM DICENDUM quod, quando. aliqua
+            <lb ed="#L" n="90"/>forma actu existit in aliquo secundum. esse 
+            per<lb break="no" ed="#L" n="91"/>fectum et naturale, potest esse principium actionis
+            <lb ed="#L" n="92"/>in alterum; sicut calidum per calorem calefacit.
+            <lb ed="#L" n="93"/>Sed si forma existit in aliquo imperfecte, et non
+            <lb ed="#L" n="94"/>secundum esse naturale, non potest esse 
+            princi<lb break="no" ed="#L" n="95"/>pium communicationis sui ad alterum: sicut 
+            in<lb break="no" ed="#L" n="96"/>tentio coloris quae est in pupilla, non potest 
+            fa<lb break="no" ed="#L" n="97"/>cere album; neque etiam omnia quae sunt 
+            illu<lb break="no" ed="#L" n="98"/>minata aut 'calefacta, possunt alia calefacere et
+            <lb ed="#L" n="99"/>illuminare; sic enim illuminatio. et calefactio essent
+            <lb ed="#L" n="100"/>usque ad infinitum, Lumen autem gloriae, per
+            <lb ed="#L" n="101"/>quod Deus videtur, in Deo. quidem est perfecte
+            <lb ed="#L" n="102"/>secundum esse naturale: in qualibet autem 
+            crea<lb break="no" ed="#L" n="103"/>tura est imperfecte, et secundum esse 
+            similitudi<lb break="no" ed="#L" n="104"/>narum vel participatum. Unde nulla creatura
+            <lb ed="#L" n="105"/>beata potest communicare suam beatitudinem
+            <lb ed="#L" n="106"/>alteri.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1540">
+            <pb ed="#L" n="53"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>AD TERTIUM DICENDUM quod angelus beatus 
+            illu<lb break="no" ed="#L" n="2"/>minat intellectum hominis, vel etiam- inferioris
+            <lb ed="#L" n="3"/>angeli, quantum ad aliquas rationes divinorum
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="4"/>operum: non autem quantum ad visionem divinae
+            <lb ed="#L" n="5"/>essentiae, ut in Primo dictum est. Ad eam enim
+            <lb ed="#L" n="6"/>videndam, omnes immediate illuminantur a Deo.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e698-Dd1e1563"><!-- p2p1-q5-a7 -->
+          <head xml:id="TAca84-d1e698-Hd1e1566">Articulus 7</head>
+          <head xml:id="TAca84-d1e698-Hd1e1568" type="question-title">utrum requirantur aliqua opera bona ad hoc quod homo
+            beatitudinem consequatur a deo</head>
+          <p xml:id="TAca84-d1e698-d1e1571">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="7"/>ARTICULUS SEPTIMUS
+            <lb ed="#L" n="8"/>UTRUM REQUIRANTUR ALIQUA OPERA BONA AD HOC QUOD HOMO
+            <lb ed="#L" n="9"/>BEATITUDINEM CONSEQUATUR A DEO
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1582">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="10"/>AD SEPITMUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="11"/>non requirantur aliqua opera hominis
+            <lb ed="#L" n="12"/>ad hoc ut beatitudinem consequatur a
+            <lb ed="#L" n="13"/>Deo. Deus enim, cum sit agens 
+            infini<lb break="no" ed="#L" n="14"/>tae virtutis, non praeexigit in agendo materiam,
+            <lb ed="#L" n="15"/>aut dispositionem materiae, sed statim. potest 
+            to<lb break="no" ed="#L" n="16"/>tum producere. Sed opera hominis, cum non 
+            re<lb break="no" ed="#L" n="17"/>quirantur ad beatitudinem. eius sicut causa 
+            effi<lb break="no" ed="#L" n="18"/>ciens, ut dictum est, non possunt requiri ad
+            <lb ed="#L" n="19"/>eam nisi sicut dispositiones. Ergo Deus, qui 
+            dis<lb break="no" ed="#L" n="20"/>positiones non praeexigit in agendo, beatitudinem
+            <lb ed="#L" n="21"/>sine. praecedentibus operibus confert.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1613">
+            <lb ed="#L" n="22"/>2. PRAETEREA, sicut Deus est auctor beatitudinis
+            <lb ed="#L" n="23"/>immediate, ita et naturam immediate instituit. Sed
+            <lb ed="#L" n="24"/>in prima institutione naturae, produxit creaturas
+            <lb ed="#L" n="25"/>nulla dispositione praecedente. vel actione 
+            creatu<lb break="no" ed="#L" n="26"/>rae; sed statim fecit uuumquodque perfectum in sua
+            <lb ed="#L" n="27"/>specie. Ergo videtur quod beatitudinem conferat
+            <lb ed="#L" n="28"/>homini sine aliquibus operationibus praecedentibus.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1632">
+            <lb ed="#L" n="29"/>3. PRAETEREA, Apostolus dicit, Rorn. 1v, 
+            beati<lb break="no" ed="#L" n="30"/>tudinem. hominis. esse cui Deus confert iustitiam
+            <lb ed="#L" n="31"/>sine operibus. Non ergo requiruntur aliqua opera
+            <lb ed="#L" n="32"/>hominis ad beatitudinem consequendam.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1643">
+            <lb ed="#L" n="33"/>SED CONTRA EST quod dicitur Ioan. xui: S haec
+            <lb ed="#L" n="34"/>scitis, beati eritis si feceritis ea. Ergo per 
+            actio<lb break="no" ed="#L" n="35"/>nem ad beatitudinem pervenitur f.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1652">
+            <lb ed="#L" n="36"/>REsPoNpEO picENDUM quod rectitudo voluntatis,
+            <lb ed="#L" n="37"/>ut supra dictum est, requiritur ab beatitudinem;
+            <lb ed="#L" n="38"/>cum nihil aliud sit quam debitus ordo 
+            volunta<lb break="no" ed="#L" n="39"/>tis ad ultimum finem; quae ita exigitur ad 
+            con<lb break="no" ed="#L" n="40"/>secutionem ultimi finis, sicut debita dispositio 
+            ma<lb break="no" ed="#L" n="41"/>teriae ad consecutionem formae. Sed ex hoc non
+            <lb ed="#L" n="42"/>ostenditur quod aliqua operatio hominis. debeat
+            <lb ed="#L" n="43"/>praecedere eius beatitudinem: posset enim Deus
+            <lb ed="#L" n="44"/>simul facere voluntatem recte tendentem in finem,
+            <lb ed="#L" n="45"/>et finem consequentem; sicut quandoque simul
+            <lb ed="#L" n="46"/>materiam disponit, et inducit formam. Sed ordo
+            <lb ed="#L" n="47"/>divinae sapientiae exigit ne hoc fiat: ut enim 
+            di<lb break="no" ed="#L" n="48"/>citur in Il de Caelo, eorum quae nata sunt
+            <lb ed="#L" n="49"/>habere bonum perfectum, aliquid habet ipsum sine
+            <lb ed="#L" n="50"/>motu, aliquid uno motu, aliquid pluribus. Habere:
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="51"/>autem. perfectum bonum sine motu, convenit ei
+            <lb ed="#L" n="52"/>quod naturaliter habet illud. Habere autem  
+            bea<lb break="no" ed="#L" n="53"/>titudinem naturaliter est solius Dei. Unde solius
+            <lb ed="#L" n="54"/>Dei proprium est quod ad beatitudinem non 
+            mo<lb break="no" ed="#L" n="55"/>veatur per aliquam . operationem praecedentem.
+            <lb ed="#L" n="56"/>Cum autem. beatitudo excedat omnem. naturam
+            <lb ed="#L" n="57"/>creatam, nulla pura creatura convenienter beati- .
+            <lb ed="#L" n="58"/>tudinem consequitur absque motu. operationis,
+            <lb ed="#L" n="59"/>per quam tendit in ipsam. Sed angelus, qui est
+            <lb ed="#L" n="60"/>superior ordine naturae quam homo, consecutus
+            <lb ed="#L" n="61"/>est eam, ex ordine divinae sapientiae, uno. motu
+            <lb ed="#L" n="62"/>operationis meritoriae, ut in Primo expositum
+            <lb ed="#L" n="63"/>est. Homines. autem consequuntur. ipsam multis .
+            <lb ed="#L" n="64"/>motibus. operationum, qui merita dicuntur. Unde
+            <lb ed="#L" n="65"/>etiam, secundum Philosophum ;. beatitudo. est
+            <lb ed="#L" n="66"/>praemium. virtuosarum operationum.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1724">
+            <lb ed="#L" n="67"/>AD PRIMUM ERGO DICENDUM quod. operatio 
+            homi<lb break="no" ed="#L" n="68"/>nis. non. praeexigitur ad. consecutionem | 
+            beatitu<lb break="no" ed="#L" n="69"/>dinis, propter insufficientiam divinae. virtutis. 
+            bea<lb break="no" ed="#L" n="70"/>tificantis: sed. ut servetur ordo in. rebus.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1735">
+            <lb ed="#L" n="71"/>AD SECUNDUM DICENDUM quod primas creaturas
+            <lb ed="#L" n="72"/>statim Deus perfectas produxit, absque aliqua 
+            dis<lb break="no" ed="#L" n="73"/>positione. vel operatione creaturae praecedente;
+            <lb ed="#L" n="74"/>quia sic instituit prima individua specierum, ut
+            <lb ed="#L" n="75"/>per ea ? natura propagaretur ad posteros. Et 
+            si<lb break="no" ed="#L" n="76"/>militer, quia per Christum, qui est Deus et homo;
+            <lb ed="#L" n="77"/>beatitudo erat ad alios derivanda, secundum illud
+            <lb ed="#L" n="78"/>Apostoli ad Hebr. u, qui multos filios in gloriam
+            <lb ed="#L" n="79"/>adduxerat; statim. a principio suae conceptionis,
+            <lb ed="#L" n="80"/>absque. aliqua. operatione meritoria praecedente,
+            <lb ed="#L" n="81"/>anima. eius fuit beata. Sed hoc est singulare in
+            <lb ed="#L" n="82"/>ipso: nam. pueris baptizatis subvenit meritum
+            <lb ed="#L" n="83"/>Christi ad beatitudinem consequendam, licet 
+            de<lb break="no" ed="#L" n="84"/>sint eis merita propria, eo quod per baptismum
+            <lb ed="#L" n="85"/>sunt Christi membra effecti.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1770">
+            <lb ed="#L" n="86"/>AD TERTIUM DICENDUM quod Apostolus loquitur
+            <lb ed="#L" n="87"/>de beatitudine spei, quae habetur per gratiam 
+            iu<lb break="no" ed="#L" n="88"/>stificantem, quae quidem non datur propter opera
+            <lb ed="#L" n="89"/>praecedentia. Non enim habet rationem termini
+            <lb ed="#L" n="90"/>motus, ut beatitudo: sed magis est principium
+            <lb ed="#L" n="91"/>motus quo ad beatitudinem tenditur.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e698-Dd1e1798">
+          <head xml:id="TAca84-d1e698-Hd1e1800">Articulus 8</head>
+          <head xml:id="TAca84-d1e698-Hd1e1802" type="question-title">Utrum omnis homo appetat beatitudinem</head>
+          
+          <p xml:id="TAca84-d1e698-d1e1787">
+            <pb ed="#L" n="54"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>ARTICULUS OCTAVUS
+            <lb ed="#L" n="2"/>UTRUM OMNIS HOMO APPETAT BEATITUDINEM
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1798">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>non omnes appetant beatitudinem. 
+            Nul<lb break="no" ed="#L" n="5"/>lus enim potest appetere quod ignorat:
+            <lb ed="#L" n="6"/>3cum bonum apprehensum sit obiectum
+            <lb ed="#L" n="7"/>appetitus, ut dicitur in III de Anima. Sed multi
+            <lb ed="#L" n="8"/>nesciunt quid sit beatitudo: quod, sicut 
+            Augusti<lb break="no" ed="#L" n="9"/>nus dicit in XIII de Trin., patet ex hoc, quod
+            <lb ed="#L" n="10"/>
+            <quote xml:id="TAca84-d1e698-Qd1e1819">quidam posuerunt beatitudinem in voluptate 
+              cor<lb break="no" ed="#L" n="11"/>poris, quidam in virtute: animi, quidam in^ alis
+              <lb ed="#L" n="12"/>rebus</quote>. Non ergo omnes beatitudinem appetunt.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1827">
+            <lb ed="#L" n="13"/>2. PRAETEREA, essentia beatitudinis est visio
+            <lb ed="#L" n="14"/>essentiae divinae, ut dictum est. Sed aliqui
+            <lb ed="#L" n="15"/>opinantur hoc esse impossibile; quod Deus per
+            <lb ed="#L" n="16"/>essentiam. ab homine vidéatur: unde hoc non
+            <lb ed="#L" n="17"/>appetunt. Ergo non omnes hóntitiés appetunt
+            <lb ed="#L" n="18"/>beatitudinem.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1843">
+            <lb ed="#L" n="19"/>3. PRAETEREA, Augustinus dicit, in xin de Trin.
+            <lb ed="#L" n="20"/>quod <quote xml:id="TAca84-d1e698-Qd1e1849">beatus est qui habet omnia quae vult, et
+              <lb ed="#L" n="21"/>nihil male vult</quote>. Sed non omnes hoc volunt: 
+            qui<lb break="no" ed="#L" n="22"/>dam enim male aliqua volunt, et tamen volunt
+            <lb ed="#L" n="23"/>illa se velle. Non ergo omnes volunt beatitudinem.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1859">
+            <lb ed="#L" n="24"/>Sep coNTRA esT quod Augustinus dicit, XIII de
+            <lb ed="#L" n="25"/>Trin.: <quote xml:id="TAca84-d1e698-Qd1e1865">Si mimus dixisset, « Omnes beati esse 
+              vul<lb break="no" ed="#L" n="26"/>lis, miseri esse non vultis », dixisset aliquid quod
+              <lb ed="#L" n="27"/>nullus in sua non cognosceret voluntate</quote>. Quilibet
+            <lb ed="#L" n="28"/>ergo vult esse beatus.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1875">
+            <lb ed="#L" n="29"/>RrsPONDEO biCENDUM quod beatitudo düpliciter
+            <lb ed="#L" n="30"/>potest considerari. Uno modo, secundum 
+            commu<lb break="no" ed="#L" n="31"/>nem rationem beatitudinis. Et sic necesse est quod
+            <lb ed="#L" n="32"/>omnis homo beatitudinem velit. Ratio autem 
+            bea<lb break="no" ed="#L" n="33"/>titudinis communis est ut sit bonum perfectum,
+            <lb ed="#L" n="34"/>sicut dictum est. Cum autem bonum sit 
+            obie<lb break="no" ed="#L" n="35"/>etum voluntatis, perfectum bonum est alicuius,
+            <lb ed="#L" n="36"/>quod totaliter eius voluntati satisfacit. Unde 
+            ap<lb break="no" ed="#L" n="37"/>petere beatitudinem nihil aliud est quam 
+            appe<lb break="no" ed="#L" n="38"/>tere ut voluntas satietur. Quod quilibet vult.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1900">
+            <lb ed="#L" n="39"/>Alio modo possumus loqui de beatitudine 
+            se<lb break="no" ed="#L" n="40"/>cundum specialem rationem, quantum ad id in
+            <lb ed="#L" n="41"/>quo beatitudo consistit. Et sic non omnes 
+            cogno<lb break="no" ed="#L" n="42"/>scunt beatitudinem: quia nesciunt cui rei commu-
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="43"/>nis ratio beatitudinis conveniat. Et per 
+            conse<lb break="no" ed="#L" n="44"/>quens, quantum ad hoc, non omnes eam volunt.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1918">
+            <lb ed="#L" n="45"/>Unde patet responsio ad primum.
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1923">
+            <lb ed="#L" n="46"/>AD SECUNDUM DICENDUM quod, cum voluntas 
+            se<lb break="no" ed="#L" n="47"/>quatur apprehensionem intellectus seu rationis,
+            <lb ed="#L" n="48"/>sicut contingit quod aliquid. est idem secündum
+            <lb ed="#L" n="49"/>rem, quod tamen est diversum: secundum  
+            ratio<lb break="no" ed="#L" n="50"/>nis considerationem ; ita contingit quod aliquid
+            <lb ed="#L" n="51"/>est' idem "secundum rem; et tamen uno modo
+            <lb ed="#L" n="52"/>appetitur, alio modo non appetitur. Beatitudo ergo
+            <lb ed="#L" n="53"/>potest considerari sub ratione finalis boni et 
+            per<lb break="no" ed="#L" n="54"/>fecti , quaé est communis ratio. beatitudinis: et
+            <lb ed="#L" n="55"/>sic naturaliter et ex necessitate voluntas in illud
+            <lb ed="#L" n="56"/>tendit, ut dictum ést. Potest etiam considerari
+            <lb ed="#L" n="57"/>secundam alias speciales considerationes, vel ex
+            <lb ed="#L" n="58"/>parte ipsius operationis, vel ex parte. potentiae
+            <lb ed="#L" n="59"/>operativae, vel ex parte obiecti: et sic non ex
+            <lb ed="#L" n="60"/>necessitate voluntas tendit in ipsam. T2UUT
+          </p>
+          <p xml:id="TAca84-d1e698-d1e1958">
+            <lb ed="#L" n="61"/>AD TERTIUM DICENDUM quod ista definitio" bed
+            <lb ed="#L" n="62"/>titudinis quam. quidam posuerunt, Beatus: est. ui
+            <lb ed="#L" n="63"/>habet omnia quae vult, vel, cui omnía optata succ
+            <lb ed="#L" n="64"/>cedunt, quodam modo intellecta, est bona et 
+            suf<lb break="no" ed="#L" n="65"/>ficiens; alio vero modo, est imperfecta. Si enim
+            <lb ed="#L" n="66"/>intelligatur simpliciter de omnibus quae vult homo
+            <lb ed="#L" n="67"/>natürali appetitu, sic f vérum est quod qui habet
+            <lb ed="#L" n="68"/>omnia quae vült, est béatus: nihil enim satiat
+            <lb ed="#L" n="69"/>naturalem hominis appetitüm, nisi bonum  
+            perfe<lb break="no" ed="#L" n="70"/>ctum, quod ést beatitudo. Si vero intelligatur de
+            <lb ed="#L" n="71"/>his quae homo vult secundum apprehensionem
+            <lb ed="#L" n="72"/>rationis; sic habere quaedam quae. homo vult;
+            <lb ed="#L" n="73"/>non pertinet ad beatitüdinem, sed magis ad 
+            mi<lb break="no" ed="#L" n="74"/>seriam, inquantum huiusmodi habita impediunt
+            <lb ed="#L" n="75"/>hominem ne habeat quaecumque : naturaliter vult:
+            <lb ed="#L" n="76"/>Sicut etiam ratio accipit ut vera interdum quae
+            <lb ed="#L" n="77"/>impediunt a cognitione veritatis. Et secundum
+            <lb ed="#L" n="78"/>hanc considerationem, Augustinus addidit ad
+            <lb ed="#L" n="79"/>perfectionem beatitudinis; quod nihil mali velit.
+            <lb ed="#L" n="80"/>Quamvis primum posset sufficere, si recte 
+            intel<lb break="no" ed="#L" n="81"/>ligeretur, scilicet quod beatus est qui habet. E
+            <lb ed="#L" n="82"/>quae vult.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>
