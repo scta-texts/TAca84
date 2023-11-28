@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="40"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1287"><!-- p2p2-q3 -->
+            <head xml:id="TAca84-d1e1287-Hd1e101">Quaestio 3</head>
+            <p xml:id="TAca84-d1e1287-d1e103">
+               <pb ed="#L" n="40"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO TERTIA
+<lb ed="#L" n="2"/>DE EXTERIORI ACTU FIDEI
+<lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1287-d1e116">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de exteriori fidei 
+<lb ed="#L" n="5"/>actu, qui est confessio.
+</p>
+            <p xml:id="TAca84-d1e1287-d1e125">
+               <lb ed="#L" n="6"/>Et circa hoc quaeruntur duo.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="7"/>Primo: utrum confessio sit actus fidei.
+<lb ed="#L" n="8"/>Secundo: utrum confessio sit necessaria ad
+<lb ed="#L" n="9"/>salutem.
+</p>
+            <div xml:id="TAca84-d1e1287-Dd1e138"><!-- p2p2-q3a1 -->
+               <head xml:id="TAca84-d1e1287-Hd1e141">Articulus 1</head>
+               <head xml:id="TAca84-d1e1287-Hd1e143" type="question-title">Utrum confessio sit actus fidei</head>
+               <p xml:id="TAca84-d1e1287-d1e146">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10"/>ARTICULUS PRIMUS
+<lb ed="#L" n="11"/>UTRUM CONFESSIO SIT ACTUS FIDEI
+</p>
+               <p xml:id="TAca84-d1e1287-d1e155">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="12"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="13"/>confessio non sit actus fidei. Non enim
+<lb ed="#L" n="14"/>idem actus pertinet ad diversas virtutes.
+<lb ed="#L" n="15"/>Sed confessio pertinet ad poenitentiam,
+<lb ed="#L" n="16"/>cuius ponitur pars. Ergo non est actus fidei.
+</p>
+               <p xml:id="TAca84-d1e1287-d1e171">
+                  <lb ed="#L" n="17"/>2. PRAETEREA, ab hoc quod homo confiteatur
+<lb ed="#L" n="18"/>fidem retrahitur interdum per timorem, vel etiam
+<lb ed="#L" n="19"/>propter aliquam confusionem: unde et 
+Aposto<lb break="no" ed="#L" n="20"/>lus, ad Ephes. ult., petit orari pro se ut detur
+<lb ed="#L" n="21"/>sibi cum fiducia notum facere mysterium 
+Evan<lb break="no" ed="#L" n="22"/>gelii. Sed non recedere a bono propter 
+confu<lb break="no" ed="#L" n="23"/>sionem vel timorem pertinet ad fortitudinem,
+<lb ed="#L" n="24"/>quae moderatur audacias et. timores. Ergo 
+vi<lb break="no" ed="#L" n="25"/>detur quod confessio non sit actus fidei, sed
+<lb ed="#L" n="26"/>magis fortitudinis vel constantiae.
+</p>
+               <p xml:id="TAca84-d1e1287-d1e196">
+                  <lb ed="#L" n="27"/>3. PRAETEREA, sicut per fidei fervorem 
+indu<lb break="no" ed="#L" n="28"/>citur aliquis ad confitendum fidem exterius, ita
+<lb ed="#L" n="29"/>etiam inducitur ad alia exteriora bona opera 
+fa<lb break="no" ed="#L" n="30"/>cienda: dicitur enim Gal. v quod /ides per
+<lb ed="#L" n="31"/>dilectionem operatur. Sed alia exteriora opera
+<lb ed="#L" n="32"/>non ponuntur actus fidei. Ergo etiam neque
+<lb ed="#L" n="33"/>confessio.
+</p>
+               <p xml:id="TAca84-d1e1287-d1e214">
+                  <lb ed="#L" n="34"/>SEp coNTRA EsT quod, II ad Thess. 1, super
+<lb ed="#L" n="35"/>illud, et opus fidei in virtute, dicit Glossa: ides!
+<lb ed="#L" n="36"/>confessionem, quae proprie est opus fidei.
+</p>
+               <p xml:id="TAca84-d1e1287-d1e223">
+                  <lb ed="#L" n="37"/>RESPONDEO DICENDUM quod actus exteriores illius
+<lb ed="#L" n="38"/>virtutis proprie sunt actus ad cuius fines 
+secun<lb break="no" ed="#L" n="39"/>dum suas species referuntur: sicut ieiunare 
+se<lb break="no" ed="#L" n="40"/>cundum suam speciem refertur ad finem 
+absti<lb break="no" ed="#L" n="41"/>nentiae, quae est compescere carnem, et ideo
+<lb ed="#L" n="42"/>est actus abstinentiae. Confessio autem eorum
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="43"/>quae sunt fidei secundum suam speciem 
+ordi<lb break="no" ed="#L" n="44"/>natur sicut ad finem ad id quod est fidei: 
+se<lb break="no" ed="#L" n="45"/>cundum illud II ad Cor. iv, Habentes eundem
+<lb ed="#L" n="46"/>spiritum fidei credimus: propter quod et 
+loqui<lb break="no" ed="#L" n="47"/>mur: exterior enim locutio ordinatur ad 
+signifi<lb break="no" ed="#L" n="48"/>candum id quod in corde concipitur. Unde sicut
+<lb ed="#L" n="49"/>conceptus interior eorum quae sunt fidei est 
+pro<lb break="no" ed="#L" n="50"/>prie fidei actus, ita etiam et exterior confessio.
+</p>
+               <p xml:id="TAca84-d1e1287-d1e258">
+                  <lb ed="#L" n="51"/>AD PRIMUM ERGO DICENDUM quod triplex est 
+con<lb break="no" ed="#L" n="52"/>fessio quae in Scripturis laudatur. Una est 
+con<lb break="no" ed="#L" n="53"/>fessio eorum quae sunt fidei. Et ista est proprius
+<lb ed="#L" n="54"/>actus fidei, utpote relata ad fidei finem, sicut
+<lb ed="#L" n="55"/>dictum est. - Alia est confessio gratiarum 
+actio<lb break="no" ed="#L" n="56"/>nis sive laudis. Et ista est actus latriae: 
+ordi<lb break="no" ed="#L" n="57"/>natur enim ad honorem Deo exterius. 
+exhiben<lb break="no" ed="#L" n="58"/>dum, quod est finis latriae. — Tertia est confessio
+<lb ed="#L" n="59"/>peccatorum. Et haec ordinatur ad deletionem
+<lb ed="#L" n="60"/>peccati, quae est finis poenitentiae. Unde 
+per<lb break="no" ed="#L" n="61"/>tinet ad poenitentiam.
+</p>
+               <p xml:id="TAca84-d1e1287-d1e284">
+                  <lb ed="#L" n="62"/>AD SECUNDUM DICENDUM quod removens 
+prohi<lb break="no" ed="#L" n="63"/>bens non est causa per se, sed per accidens:
+<lb ed="#L" n="64"/>ut patet per Philosophum, in VIII Phys. Unde
+<lb ed="#L" n="65"/>fortitudo, quae removet impedimentum 
+confes<lb break="no" ed="#L" n="66"/>sionis fidei, scilicet timorem vel erubescentiam,
+<lb ed="#L" n="67"/>non est proprie et per se causa confessionis,
+<lb ed="#L" n="68"/>sed quasi per accidens. ,
+</p>
+               <p xml:id="TAca84-d1e1287-d1e302">
+                  <lb ed="#L" n="69"/>AD TERTIUM DICENDUM quod fides interior, 
+me<lb break="no" ed="#L" n="70"/>diante dilectione, causat omnes exteriores actus
+<lb ed="#L" n="71"/>virtutum mediantibus aliis virtutibus, imperando,
+<lb ed="#L" n="72"/>non eliciendo. Sed confessionem producit 
+tan<lb break="no" ed="#L" n="73"/>quam proprium actum, nulla alia virtute mediante,
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1287-Dd1e317"><!-- p2p2-q3a2 -->
+               <head xml:id="TAca84-d1e1287-Hd1e320">Articulus 2</head>
+               <head xml:id="TAca84-d1e1287-Hd1e322" type="question-title">Utrum confessio fidei sit necessaria ad salutem</head>
+               <p xml:id="TAca84-d1e1287-d1e325">
+                  <lb ed="#L" n="74"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="75"/>UTRUM CONFESSIO FIDEI SIT NECESSARIA AD SALUTEM
+</p>
+               <p xml:id="TAca84-d1e1287-d1e332">
+                  <lb ed="#L" n="76"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="77"/>confessio fidei non sit necessaria ad 
+sa<lb break="no" ed="#L" n="78"/>lutem. Illud enim videtur ad salutem
+<lb ed="#L" n="79"/>sufficere per quod homo attingit finem
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="80"/>virtutis. Sed finis proprius fidei est coniunctio
+<lb ed="#L" n="81"/>humanae mentis ad veritatem divinam, quod 
+pot<lb break="no" ed="#L" n="82"/>est etiam esse sine exteriori confessione. Ergo
+<lb ed="#L" n="83"/>confessio fidei non est necessaria ad salutem.
+</p>
+               <p xml:id="TAca84-d1e1287-d1e354">
+                  <pb ed="#L" n="41"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>2. PRAETEREA; per exteriorem confessionem 
+<lb ed="#L" n="2"/>fidei homo fidem suam alii homini patefacit. Sed
+<lb ed="#L" n="3"/>hoc.non est necessarium, nisi ilis qui habent
+<lb ed="#L" n="4"/>alios in fide instruere. Ergo videtur. quod 
+mino<lb break="no" ed="#L" n="5"/>res non teneantur ad fidei confessionem.
+</p>
+               <p xml:id="TAca84-d1e1287-d1e373">
+                  <lb ed="#L" n="6"/>3. PRaETEREA, illud quod potest vergere in
+<lb ed="#L" n="7"/>scandalum et turbationem aliorum non est 
+neces<lb break="no" ed="#L" n="8"/>sarium ad salutem: dicit enim Apostolus, I ad
+<lb ed="#L" n="9"/>Cor. x; <quote xml:id="TAca84-d1e1287-Qd1e383">Sine offensione estote Iudaeis et gentibus
+<lb ed="#L" n="10"/>et Ecclesiae Dei</quote>. Sed per confessionem fidei 
+quan<lb break="no" ed="#L" n="11"/>doque ad perturbationem infideles provocantur.
+<lb ed="#L" n="12"/>Ergo confessio fidei non est necessaria ad salutem.
+</p>
+               <p xml:id="TAca84-d1e1287-d1e394">
+                  <lb ed="#L" n="13"/>SED CONTRA EST quod Apostolus dicit, ad Rom.
+<lb ed="#L" n="14"/>X. <quote xml:id="TAca84-d1e1287-Qd1e400">Corde creditur ad iustitiam, ore aute» 
+con<lb break="no" ed="#L" n="15"/>peo fit ad. salutem</quote>.
+</p>
+               <p xml:id="TAca84-d1e1287-d1e406">
+                  <lb ed="#L" n="16"/>RESPONDEO DICENDUM quod ea quae sunt 
+ne<lb break="no" ed="#L" n="17"/>cessaria ad salutem cadunt sub praeceptis 
+divi<lb break="no" ed="#L" n="18"/>nae legis. Confessio autem fidei, cum sit quod
+<lb ed="#L" n="19"/>affirmativum, non. potest cadere nisi sub
+<lb ed="#L" n="20"/>praecepto affirmativo. Unde eo modo est de 
+ne<lb break="no" ed="#L" n="21"/>cessariis ad salutem quo modo potest cadere sub
+<lb ed="#L" n="22"/>praecepto affirmativo divinae legis. Praecepta 
+au<lb break="no" ed="#L" n="23"/>tem rmativa, ut supra dictum est, non 
+obli<lb break="no" ed="#L" n="24"/>gant ad semper, etsi semper 'obligent: obligant
+<lb ed="#L" n="25"/>autem pro loco et tempore et secundum alias
+<lb ed="#L" n="26"/>circumstantias debitas secundum quas oportet
+<lb ed="#L" n="27"/>actum humanum limitari ad hoc quod. sit actus
+<lb ed="#L" n="28"/>virtutis. Sic igitur confiteri fidem non semper
+<lb ed="#L" n="29"/>neque in quolibet loco est de necessitate salutis:
+<lb ed="#L" n="30"/>sed aliquo loco et tempore, quando scilicet per
+<lb ed="#L" n="31"/>omissionem Y huius confessionis subtraheretur 
+ho<lb break="no" ed="#L" n="32"/>nor debitus Deo, vel etiam utilitas proximis 
+im<lb break="no" ed="#L" n="33"/>pendenda; puta si aliquis interrogatus de fide
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="34"/>taceret, et ex hoc crederetur vel quod non 
+ha<lb break="no" ed="#L" n="35"/>beret fidem vel quod fides non esset vera, vel
+<lb ed="#L" n="36"/>alii per eius taciturnitatem averterentur a fide.
+<lb ed="#L" n="37"/>In huiusmodi enim casibus confessio fidei est
+<lb ed="#L" n="38"/>de necessitate salutis.
+</p>
+               <p xml:id="TAca84-d1e1287-d1e461">
+                  <lb ed="#L" n="39"/>AD PRIMUM ERGO DICENDUM quod finis fidei,
+<lb ed="#L" n="40"/>sicut et aliarum virtutum, referri debet ad finem
+<lb ed="#L" n="41"/>caritatis, qui est amor Dei et proximi. Et ideo
+<lb ed="#L" n="42"/>quando honor Dei vel utilitas proximi hoc 
+ex<lb break="no" ed="#L" n="43"/>poscit, non debet esse contentus homo ut per
+<lb ed="#L" n="44"/>fidem suam ipse? veritati divinae coniungatur;
+<lb ed="#L" n="45"/>sed debet fidem exterius confiteri.
+</p>
+               <p xml:id="TAca84-d1e1287-d1e479">
+                  <lb ed="#L" n="46"/>AD SECUNDUM DICENDUM quod in casu 
+necessi<lb break="no" ed="#L" n="47"/>tatis, ubi fides periclitatur, quilibet tenetur fidem
+<lb ed="#L" n="48"/>suam alis propalare, vel ad instructionem 
+alio<lb break="no" ed="#L" n="49"/>rum fidelium sive confirmationem, vel ad 
+repri<lb break="no" ed="#L" n="50"/>mendum infidelium insultationem. Sed aliis 
+tem<lb break="no" ed="#L" n="51"/>poribus instruere homines de fide non pertinet
+<lb ed="#L" n="52"/>ad omnes fideles.
+</p>
+               <p xml:id="TAca84-d1e1287-d1e497">
+                  <lb ed="#L" n="53"/>AD TERTIUM DICENDUM quod, si turbatio 
+infide<lb break="no" ed="#L" n="54"/>lium oriatur de confessione fidei manifesta 
+abs<lb break="no" ed="#L" n="55"/>que aliqua utilitate fidei vel fidelium, non est
+<lb ed="#L" n="56"/>laudabile in tali casu fidem publice confiteri:
+<lb ed="#L" n="57"/>unde Dominus dicit, Matth. vii: Nolite sanctum
+<lb ed="#L" n="58"/>dare canibus, neque margaritas vestras spargere
+<lb ed="#L" n="59"/>ante porcos, ne conversi dirumpant vos. Sed si
+<lb ed="#L" n="60"/>utilitas aliqua fidei speretur aut necessitas adsit,
+<lb ed="#L" n="61"/>contempta turbatione infidelium ^, debet homo
+<lb ed="#L" n="62"/>fidem publice confiteri. Unde Matth. xv dicitur
+<lb ed="#L" n="63"/>quod, cum discipuli dixissent Domino quod 
+Pha<lb break="no" ed="#L" n="64"/>risaei, audito eius verbo, scandalizati sunt, 
+Do<lb break="no" ed="#L" n="65"/>minus respondit: Sinite illos, scilicet turbari: caeci
+<lb ed="#L" n="66"/>sunt et duces caecorum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

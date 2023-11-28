@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 24</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 24</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="174"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1396"><!-- p2p2-q24 -->
+            <head xml:id="TAca84-d1e1396-Hd1e101">Quaestio 24</head>
+            <head xml:id="TAca84-d1e1396-Hd1e103" type="question-title">De caritatis subiecto</head>
+            <p xml:id="TAca84-d1e1396-d1e106">
+               <pb ed="#L" n="174"/>
+               <!-- p. 174 -->
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO VIGESIMAQUARTA
+<lb ed="#L" n="2"/>DE CARITATIS SUBIECTO
+<lb ed="#L" n="3"/>IN DUODECIM ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1396-d1e122">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de caritate in 
+com<lb break="no" ed="#L" n="5"/>paratione ad subiectum.
+</p>
+            <p xml:id="TAca84-d1e1396-d1e131">
+               <lb ed="#L" n="6"/>Et circa hoc quaeruntur duodecim.
+<lb ed="#L" n="7"/>Primo: utrum caritas sit in voluntate tanquam
+<lb ed="#L" n="8"/>in subiecto.
+<lb ed="#L" n="9"/>Secundo: utrum caritas causetur in homine
+<lb ed="#L" n="10"/>ex actibus praecedentibus, vel ex infusione
+<lb ed="#L" n="11"/>divina.
+<lb ed="#L" n="12"/>Tertio: utrum infundatur secundum 
+capacita<lb break="no" ed="#L" n="13"/>tem naturalium.
+<lb ed="#L" n="14"/>Quarto: utrum augeatur in habente ipsam.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="15"/>Quinto: utrum augeatur per additionem.
+<lb ed="#L" n="16"/>Sexto: utrum quolibet actu augeatur.
+<lb ed="#L" n="17"/>Septimo: utrum augeatur in infinitum.
+<lb ed="#L" n="18"/>Octavo: utrum caritas viae possit esse 
+per<lb break="no" ed="#L" n="19"/>fecta.
+<lb ed="#L" n="20"/>Nono: de diversis gradibus caritatis.
+<lb ed="#L" n="21"/>Decimo: utrum caritas possit diminui.
+<lb ed="#L" n="22"/>Undecimo: utrum caritas semel habita possit
+<lb ed="#L" n="23"/>amitti.
+<lb ed="#L" n="24"/>Duodecimo: utrum amittatur per unum actum
+<lb ed="#L" n="25"/>peccati mortalis.
+</p>
+            <div xml:id="TAca84-d1e1396-Dd1e180"><!-- p2p2-q24a1 -->
+               <head xml:id="TAca84-d1e1396-Hd1e183">Articulus 1</head>
+               <head xml:id="TAca84-d1e1396-Hd1e185" type="question-title">Utrum voluntas sit subiectum caritatis</head>
+               <p xml:id="TAca84-d1e1396-d1e188">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="26"/>ARTICULUS PRIMUS
+<lb ed="#L" n="27"/>UTRUM VOLUNTAS SIT SUBIECTUM CARITATIS
+</p>
+               <p xml:id="TAca84-d1e1396-d1e197">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="28"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="29"/>voluntas non sit subiectum caritatis.
+<lb ed="#L" n="30"/>Caritas enim amor quidam est. Sed
+<lb ed="#L" n="31"/>amor, secundum Philosophum, est in
+<lb ed="#L" n="32"/>concupiscibili. Ergo et caritas est in 
+concupisci<lb break="no" ed="#L" n="33"/>bili, et non in voluntate.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e215">
+                  <lb ed="#L" n="34"/>2. PRAETEREA, caritas est principalissima 
+virtu<lb break="no" ed="#L" n="35"/>tum, ut supra dictum est. Sed subiectum 
+vir<lb break="no" ed="#L" n="36"/>tutis est ratio. Ergo videtur quod caritas sit in
+<lb ed="#L" n="37"/>ratione, et non in voluntate.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e227">
+                  <lb ed="#L" n="38"/>3. PRAETEREA, caritas se extendit ad omnes
+<lb ed="#L" n="39"/>actus humanos: secundum illud I ad Cor. ult.:
+<lb ed="#L" n="40"/>Omnia vestra in caritate fiant. Sed principium
+<lb ed="#L" n="41"/>humanorum actuum est liberum arbitrium. Ergo
+<lb ed="#L" n="42"/>videtur quod caritas maxime sit in libero 
+arbi<lb break="no" ed="#L" n="43"/>trio sicut in subiecto, et non. in voluntate.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e243">
+                  <lb ed="#L" n="44"/>SED cONTRA EsT quod obiectum caritatis est
+<lb ed="#L" n="45"/>bonum, quod etiam est obiectum voluntatis. Ergo
+<lb ed="#L" n="46"/>caritas est in voluntate sicut in subiecto.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e252">
+                  <lb ed="#L" n="47"/>REsPONDEO DICENDUM quod, cum duplex sit
+<lb ed="#L" n="48"/>appetitus, scilicet sensitivus et intellectivus, qui
+<lb ed="#L" n="49"/>dicitur voluntas, ut in Primo habitum est;
+<lb ed="#L" n="50"/>utriusque obiectum est bonum, sed 
+diversimo<lb break="no" ed="#L" n="51"/>de. Nam obiectum appetitus sensitivi est 
+bo<lb break="no" ed="#L" n="52"/>num per sensum apprehensum: obiectum vero
+<lb ed="#L" n="53"/>appetitus intellectivi, vel voluntatis, est bonum |
+<lb ed="#L" n="54"/>sub communi ratione boni, prout est 
+appre<lb break="no" ed="#L" n="55"/>hensibile ab intellectu. Caritatis autem 
+obie<lb break="no" ed="#L" n="56"/>ctum non est aliquod bonum sensibile, sed 
+bo<lb break="no" ed="#L" n="57"/>num divinum, quod solo intellectu 
+cognosci<lb break="no" ed="#L" n="58"/>tur. Et ideo caritatis subiectum non est appeti-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="59"/>tus sensitivus, sed appetitus intellectivus, idest
+<lb ed="#L" n="60"/>voluntas.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e287">
+                  <lb ed="#L" n="61"/>AD PRIMUM ERGO DICENDUM quod concupiscibilis
+<lb ed="#L" n="62"/>est pars appetitus sensitivi, non autem appetitus
+<lb ed="#L" n="63"/>intellectivi, ut in Primo ostensum est. Unde
+<lb ed="#L" n="64"/>amor qui est in concupiscibili est amor sensitivi
+<lb ed="#L" n="65"/>boni. Ad bonum autem divinum, quod est 
+intel<lb break="no" ed="#L" n="66"/>ligibile, concupiscibilis se extendere non potest,
+<lb ed="#L" n="67"/>sed sola voluntas. Et ideo concupiscibilis 
+subie<lb break="no" ed="#L" n="68"/>ctum caritatis esse non potest.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e307">
+                  <lb ed="#L" n="69"/>AD SECUNDUM DICENDUM quod voluntas etiam,
+<lb ed="#L" n="70"/>secundum Philosophum, in III de Anima, in 
+ra<lb break="no" ed="#L" n="71"/>tione est. Et ideo per hoc quod caritas est in 
+vo<lb break="no" ed="#L" n="72"/>luntate non est aliena a ratione. Tamen ratio non
+<lb ed="#L" n="73"/>est regula caritatis, sicut humanarum virtutum:
+<lb ed="#L" n="74"/>sed regulatur a Dei sapientia, et excedit regulam
+<lb ed="#L" n="75"/>rationis humanae, secundum illud Ephes. um:
+<lb ed="#L" n="76"/>supereminentem scientiae caritatem Christi. Unde
+<lb ed="#L" n="77"/>non est in ratione neque sicut in subiecto, sicut
+<lb ed="#L" n="78"/>prudentia; neque sicut in regulante, sicut iustitia
+<lb ed="#L" n="79"/>vel temperantia; sed solum per quandam 
+affini<lb break="no" ed="#L" n="80"/>tatem voluntatis ad rationem.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e336">
+                  <lb ed="#L" n="81"/>AD TERTIUM DICENDUM quod liberum arbitrium
+<lb ed="#L" n="82"/>non est alia potentia a voluntate, ut in Primo
+<lb ed="#L" n="83"/>dictum est. Et tamen caritas non est in voluntate
+<lb ed="#L" n="84"/>secundum rationem liberi arbitrii, cuius actus est
+<lb ed="#L" n="85"/>eligere: electio enim est eorum quae sunt ad 
+fi<lb break="no" ed="#L" n="86"/>nem, voluntas autem est ipsius finis, ut dicitur in
+<lb ed="#L" n="87"/>III Ethic. Unde caritas, cuius obiectum est finis
+<lb ed="#L" n="88"/>ultimus, magis debet dici esse in voluntate quam
+<lb ed="#L" n="89"/>in libero arbitrio.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1396-Dd1e359"><!-- p2p2-q24a2 -->
+               <head xml:id="TAca84-d1e1396-Hd1e362">Articulus 2</head>
+               <head xml:id="TAca84-d1e1396-Hd1e364" type="question-title">Utrum caritas causetur in nobis ex infusione</head>
+               <p xml:id="TAca84-d1e1396-d1e367">
+                  <pb ed="#L" n="175"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM CARITAS CAUSETUR IN NOBIS EX INFUSIONE
+</p>
+               <p xml:id="TAca84-d1e1396-d1e378">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="4"/>a caritas non causetur in nobis ex in- 
+<lb ed="#L" n="5"/>fusione. Illud enim quod est commune 
+<lb ed="#L" n="6"/>omnibus creaturis, naturaliter hominibus  
+<lb ed="#L" n="7"/>inest. Sed sicut Dionysius dicit, in tv cap. de Div.  
+<lb ed="#L" n="8"/>'SOTgetos Nom.. omnibus diligibile et amabile est. bonum  
+<lb ed="#L" n="9"/>divinum, quod est obiectum caritatis. Ergo caritas 
+<lb ed="#L" n="10"/>inest nobis naturaliter, et non ex infusione. 
+</p>
+               <p xml:id="TAca84-d1e1396-d1e400">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, quanto aliquid est magis diligi- 
+<lb ed="#L" n="12"/>a bile, tanto facilius diligi potest. Sed Deus est  
+<lb ed="#L" n="13"/>maxime diligibilis: cum sit summe bonus. Ergo 
+<lb ed="#L" n="14"/>facilius est ipsum diligere quam alia. Sed ad alia  
+<lb ed="#L" n="15"/>diligenda non indigemus aliquo habitu infuso. 
+<lb ed="#L" n="16"/>Ergo nec etiam ad diligendum Deum. 
+</p>
+               <p xml:id="TAca84-d1e1396-d1e417">
+                  <lb ed="#L" n="17"/>3. PRAETEREA, Apostolus dicit, 1 ad Tim. I:
+<lb ed="#L" n="18"/>
+                  <quote xml:id="TAca84-d1e1396-Qd1e423">Finis praecepti est'caritas de corde bono et 
+con<lb break="no" ed="#L" n="19"/>scientia pura et fide non ficta</quote>. Sed haec tria 
+per<lb break="no" ed="#L" n="20"/>tinent ad actus humanos. Ergo caritas causatur 
+<lb ed="#L" n="21"/>in nobis ex actibus praecedentibus, et non ex  
+<lb ed="#L" n="22"/>infusione.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e436">
+                  <lb ed="#L" n="23"/>SED CONTRA EST quod Apostolus dicit, Rom. v: 
+<lb ed="#L" n="24"/>Caritas Dei diffusa est in cordibus nostris per 
+Spi<lb break="no" ed="#L" n="25"/>T ritum Sanctum, qui datus est nobis.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e445">
+                  <lb ed="#L" n="26"/>RESPONDEO DICENDUM quod, sicut dictum est, 
+<lb ed="#L" n="27"/>caritas est amicitia quaedam hominis ad Deum 
+<lb ed="#L" n="28"/>fundata super communicationem beatitudinis 
+ae<lb break="no" ed="#L" n="29"/>ternae. Haec autem communicatio non est 
+secun<lb break="no" ed="#L" n="30"/>dum bona naturalia, sed' secundum. dona 
+gra<lb break="no" ed="#L" n="31"/>tuita: quia, ut dicitur Rom. vi, gratia Dei vita  
+<lb ed="#L" n="32"/>aeterna. Unde et ipsa caritas facultatem naturae  
+<lb ed="#L" n="33"/>excedit. Quod autem excedit naturae facultatem  
+<lb ed="#L" n="34"/>non potest esse neque naturale neque. per 
+po<lb break="no" ed="#L" n="35"/>tentias naturales acquisitum: quia effectus natu- 
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="36"/>ralis non transcendit suam causam. Unde caritas
+<lb ed="#L" n="37"/>non potest neque naturaliter nobis inesse, neque
+<lb ed="#L" n="38"/>per vires naturales est? acquisita, sed per 
+infu<lb break="no" ed="#L" n="39"/>sionem Spiritus Sancti, qui est amor Patris et .»
+<lb ed="#L" n="40"/>Filii, cuius participatio in nobis est ipsa caritas
+<lb ed="#L" n="41"/>creata, sicut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e484">
+                  <lb ed="#L" n="42"/>AD PRIMUM ERGO DICENDUM quod Dionysius 
+lo<lb break="no" ed="#L" n="43"/>quitur de dilectione Dei quae fundatur super 
+com<lb break="no" ed="#L" n="44"/>municatione naturalium bonorum, et ideo 
+natu<lb break="no" ed="#L" n="45"/>raliter omnibus inest. Sed caritas fundatur super
+<lb ed="#L" n="46"/>quadam communicatione supernaturali. Unde non
+<lb ed="#L" n="47"/>est similis ratio:
+</p>
+               <p xml:id="TAca84-d1e1396-d1e500">
+                  <lb ed="#L" n="48"/>AD SECUNDUM DICENDUM quod sicut Deus 
+secun<lb break="no" ed="#L" n="49"/>dum se est maxime cognoscibilis, non tamen 
+no<lb break="no" ed="#L" n="50"/>bis, propter defectum nostrae cognitionis, quae
+<lb ed="#L" n="51"/>dependet a rebus sensibilibus; ita etiam Deus in
+<lb ed="#L" n="52"/>se est maxime diligibilis inquantum est obiectum
+<lb ed="#L" n="53"/>beatitudinis, sed hoc modo non est maxime 
+di<lb break="no" ed="#L" n="54"/>ligibilis a nobis, propter inclinationem affectus
+<lb ed="#L" n="55"/>nostri ad visibilia bona. Unde oportet quod ad
+<lb ed="#L" n="56"/>Deum hoc modo maxime diligendum nostris 
+cor<lb break="no" ed="#L" n="57"/>dibus caritas infundatur.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e524">
+                  <lb ed="#L" n="58"/>AD TERTIUM DICENDUM quod cum caritas 
+dici<lb break="no" ed="#L" n="59"/>tur in nobis procedere ex corde bono et 
+con<lb break="no" ed="#L" n="60"/>scientia pura et fide non ficta, hoc referendum 
+<lb ed="#L" n="61"/>est ad actum caritatis, qui ex praemissis 
+excita<lb break="no" ed="#L" n="62"/>tur. Vel etiam hoc dicitur quia huiusmodi actus
+<lb ed="#L" n="63"/>disponunt hominem ad recipiendum caritatis 
+in<lb break="no" ed="#L" n="64"/>fusionem. - Et similiter etiam dicendum est de 
+<lb ed="#L" n="65"/>eo quod Augustinus dicit, quod 4imor 
+introdu<lb break="no" ed="#L" n="66"/>cis caritatem: et de hoc quod dicitur in Glossa 
+<lb ed="#L" n="67"/>Matth. 1, quod /ides generat spem, et spes 
+ca<lb break="no" ed="#L" n="68"/>ritatem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1396-Dd1e551"><!-- p2p2-q24a3 -->
+               <head xml:id="TAca84-d1e1396-Hd1e554">Articulus 3</head>
+               <head xml:id="TAca84-d1e1396-Hd1e556" type="question-title">Utrum caritas infundatur secundum quantitatem naturalium</head>
+               <p xml:id="TAca84-d1e1396-d1e559">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="69"/>ARTICULUS TERTIUS
+<lb ed="#L" n="70"/>UTRUM CARITAS INFUNDATUR SECUNDUM QUANTITATEM NATURALIUM
+</p>
+               <p xml:id="TAca84-d1e1396-d1e568">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="71"/>AD TERTIUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="72"/>caritas infundatur secundum 
+quantita<lb break="no" ed="#L" n="73"/>tem 5 standum. Dicitur enim. Matth. 
+<lb ed="#L" n="74"/>quod dedit unicuique secundum 
+<lb ed="#L" n="75"/>propriam virtutem. Sed caritatem nulla virtus 
+<lb ed="#L" n="76"/>praecedit in homine nisi naturalis: quia sine 
+ca<lb break="no" ed="#L" n="77"/>ritate nulla est virtus, ut dictum est. Ergo se- 
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="78"/>cundum capacitatem virtutis naturalis infunditur
+<lb ed="#L" n="79"/>homini caritas a Deo.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e594">
+                  <lb ed="#L" n="80"/>2. PRAETEREA, omnium ordinatorum ad 
+invi<lb break="no" ed="#L" n="81"/>cem secundum  proportionatur primo: sicut 
+vi<lb break="no" ed="#L" n="82"/>demus quod in rebus materialibus forma 
+pro<lb break="no" ed="#L" n="83"/>portionatur materiae, et in donis gratuitis gloria
+<lb ed="#L" n="84"/>proportionatur gratiae. Sed caritas, cum sit per-
+<pb ed="#L" n="176"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>fectio naturae, comparatur ad capacitatem 
+natu<lb break="no" ed="#L" n="2"/>ralem sicut secundum ad primum. Ergo videtur
+<lb ed="#L" n="3"/>quod caritas infundatur secundum naturalium 
+ca<lb break="no" ed="#L" n="4"/>pacitatem.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e621">
+                  <lb ed="#L" n="5"/>3. PRAETEREA, homines et angeli secundum
+<lb ed="#L" n="6"/>eandem rationem caritatem participant ?: quia in
+<lb ed="#L" n="7"/>utrisque est similis beatitudinis ratio, ut 
+habe<lb break="no" ed="#L" n="8"/>tur Matth. xxi, et Luc. xx, Sed in angelis
+<lb ed="#L" n="9"/>caritas et alia dona gratuita sunt data secundum
+<lb ed="#L" n="10"/>capacitatem naturalium ; ut Magister dicit, iu
+<lb ed="#L" n="11"/>dist. II lib. Sent. Ergo idem etiam videtur esse
+<lb ed="#L" n="12"/>in hominibus.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e641">
+                  <lb ed="#L" n="13"/>SED CONTRA EsT quod dicitur Ioan. ui: 
+Spiri<lb break="no" ed="#L" n="14"/>lus ubi vult spirat; et 1 ad Cor. xu: Haec
+<lb ed="#L" n="15"/>omnia operatur unus et idem Spiritus, dividens
+<lb ed="#L" n="16"/>singulis prout vult. Ergo caritas datur non 
+se<lb break="no" ed="#L" n="17"/>cundum capacitatem naturalium, sed secundum
+<lb ed="#L" n="18"/>voluntatem Spiritus sua dona distribuentis.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e657">
+                  <lb ed="#L" n="19"/>RESPONDEO DICENDUM quod uniuscuiusque
+<lb ed="#L" n="20"/>quantitas dependet a propria causa rei: quia
+<lb ed="#L" n="21"/>universalior causa effectum maiorem producit.
+<lb ed="#L" n="22"/>Caritas autem, cum superexcedat proportionem
+<lb ed="#L" n="23"/>naturae humanae, ut dictum est, non dependet
+<lb ed="#L" n="24"/>ex aliqua naturali virtute, sed ex sola gratia 
+Spi<lb break="no" ed="#L" n="25"/>ritus Sancti eam infundentis. Et ideo quantitas
+<lb ed="#L" n="26"/>caritatis non dependet ex conditione naturae vel
+<lb ed="#L" n="27"/>ex capacitate naturalis virtutis, sed solum ex 
+vo<lb break="no" ed="#L" n="28"/>luntate Spiritus Sancti distribuentis sua dona
+<lb ed="#L" n="29"/>prout vult. Unde et Apostolus dicit, ad Ephes. 1v:
+<lb ed="#L" n="30"/>Unicuique nostrum data est gratia secundum men-.
+<lb ed="#L" n="31"/>suram donationis Christi.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e688">
+                  <lb ed="#L" n="32"/>AD PRIMUM ERGO DICENDUM quod illa virtus
+<lb ed="#L" n="33"/>secundum quam sua dona Deus dat unicuique,
+<lb ed="#L" n="34"/>est dispositio vel praeparatio praecedens, sive
+<lb ed="#L" n="35"/>conatus gratiam accipientis. Sed hanc etiam 
+dis<lb break="no" ed="#L" n="36"/>positionem vel conatum praevenit Spiritus 
+San<lb break="no" ed="#L" n="37"/>ctus, movens mentem hominis vel plus vel 
+mi<lb break="no" ed="#L" n="38"/>nus secundum suam voluntatem. Unde et 
+Apo<lb break="no" ed="#L" n="39"/>stolus dicit, ad Coloss. 1: Qui dignos nos fecit
+<lb ed="#L" n="40"/>in partem sortis sanctorum in lumine,
+</p>
+               <p xml:id="TAca84-d1e1396-d1e710">
+                  <lb ed="#L" n="41"/>AD SECUNDUM DICENDUM quod forma non 
+exce<lb break="no" ed="#L" n="42"/>dit proportionem materiae, sed sunt eiusdem 
+ge<lb break="no" ed="#L" n="43"/>neris. Similiter etiam gratia et gloria ad idem
+<lb ed="#L" n="44"/>genus referuntur: quia gratia nihil est aliud quam
+<lb ed="#L" n="45"/>quaedam inchoatio gloriae in nobis. Sed caritas
+<lb ed="#L" n="46"/>et natura non pertinent ad idem genus. Et ideo
+<lb ed="#L" n="47"/>non est similis ratio.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e728">
+                  <lb ed="#L" n="48"/>AD TERTIUM DICENDUM quod angelus est 
+natu<lb break="no" ed="#L" n="49"/>rae intellectualis, et secundum suam 
+conditio<lb break="no" ed="#L" n="50"/>nem competit ei ut totaliter feratur in omne id in
+<lb ed="#L" n="51"/>quod fertur, ut in Primo habitum est. Et ideo
+<lb ed="#L" n="52"/>in superioribus angelis fuit maior conatus et ' ad
+<lb ed="#L" n="53"/>bonum in perseverantibus et ad malum in 
+caden<lb break="no" ed="#L" n="54"/>tibus. Et ideo superiorum angelorum persistentes
+<lb ed="#L" n="55"/>facti sunt meliores et cadentes facti sunt peiores
+<lb ed="#L" n="56"/>aliis. Sed homo est rationalis naturae, cui 
+com<lb break="no" ed="#L" n="57"/>petit esse quandoque in potentia et quandoque
+<lb ed="#L" n="58"/>in actu. Et ideo non oportet quod. feratur 
+tota<lb break="no" ed="#L" n="59"/>liter in id in quod. fertur; sed eius qui habet
+<lb ed="#L" n="60"/>meliora naturalia potest esse minor conatus, et
+<lb ed="#L" n="61"/>e converso. Et ideo non est simile.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1396-Dd1e762"><!-- p2p2-q24a4 -->
+               <head xml:id="TAca84-d1e1396-Hd1e765">Articulus 4</head>
+               <head xml:id="TAca84-d1e1396-Hd1e767" type="question-title">Utrum caritas augeri possit</head>
+               <p xml:id="TAca84-d1e1396-d1e770">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49"/>ARTICULUS QUARTUS
+<lb ed="#L" n="50"/>UTRUM CARITAS AUGERI POSSIT
+</p>
+               <p xml:id="TAca84-d1e1396-d1e779">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="51"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="52"/>caritas augeri non possit. Nihil enim 
+<lb ed="#L" n="53"/>augetur nisi quantum. Duplex autem
+<lb ed="#L" n="54"/>est quantitas: scilicet dimensiva, et 
+vir<lb break="no" ed="#L" n="55"/>tualis. Quarum prima caritati non convenit: cum 
+<lb ed="#L" n="56"/>sit quaedam spiritualis perfectio. Virtualis autem
+<lb ed="#L" n="57"/>quantitas attenditur secundum obiecta, secundum
+<lb ed="#L" n="58"/>quae caritas non crescit: quia minima caritas 
+di<lb break="no" ed="#L" n="59"/>ligit omnia quae sunt ex caritate diligenda. Ergo
+<lb ed="#L" n="60"/>caritas non augetur.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e805">
+                  <lb ed="#L" n="61"/>2. PRAETEREA, illud quod est in termino non
+<lb ed="#L" n="62"/>recipit augmentum. Sed caritas est in termino,
+<lb ed="#L" n="63"/>quasi maxima virtutum existens et summus amor
+<lb ed="#L" n="64"/>optimi boni. Ergo caritas augeri non potest.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e817">
+                  <lb ed="#L" n="65"/>3. PRAETEREA, augmentum quidam motus est.
+<lb ed="#L" n="66"/>Ergo quod augetur movetur. Quod ergo augetur
+<lb ed="#L" n="67"/>essentialiter movetur essentialiter. Sed non 
+mo<lb break="no" ed="#L" n="68"/>vetur essentialiter nisi quod corrumpitur vel 
+ge<lb break="no" ed="#L" n="69"/>neratur. Ergo caritas non potest augeri 
+essentia<lb break="no" ed="#L" n="70"/>liter, nisi forte de novo generetur vel corrumpatur:
+<lb ed="#L" n="71"/>quod est inconveniens.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e835">
+                  <lb ed="#L" n="72"/>SED CONTRA EST quod Augustinus dicit, super
+<lb ed="#L" n="73"/>Ioan., quod caritas meretur augeri, ut aucta
+<lb ed="#L" n="74"/>mereatur et perfici.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e844">
+                  <lb ed="#L" n="75"/>RESPONDEO DICENDUM quod caritas viae potest
+<lb ed="#L" n="76"/>augeri. Ex hoc enim dicimur esse viatores quod
+<lb ed="#L" n="77"/>in Deum tendimus, qui est ultimus finis nostrae
+<lb ed="#L" n="78"/>beatitudinis. In hac autem via tanto magis 
+pro<lb break="no" ed="#L" n="79"/>cedimus quanto Deo magis propinquamus, cui
+<lb ed="#L" n="80"/>non appropinquatur passibus corporis, sed 
+affe<lb break="no" ed="#L" n="81"/>ctibus. Hanc autem propinquitatem facit
+<lb ed="#L" n="82"/>caritas: quia per ipsam mens Deo unitur. Et
+<lb ed="#L" n="83"/>ideo de ratione caritatis viae est ut possit au-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="84"/>geri: si enim non posset augeri, iam cessaret
+<lb ed="#L" n="85"/>viae processus. Et ideo Apostolus caritatem viam
+<lb ed="#L" n="86"/>nominat, dicens I ad Cor. xu: Adhuc 
+excel<lb break="no" ed="#L" n="87"/>lentiorem viam vobis demonstro.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e877">
+                  <lb ed="#L" n="88"/>AD PRIMUM ERGO DICENDUM quod caritati non
+<lb ed="#L" n="89"/>convenit quantitas dimensiva, sed solum 
+quan<lb break="no" ed="#L" n="90"/>titas virtualis. Quae non solum attenditur 
+secun<lb break="no" ed="#L" n="91"/>dum numerum obiectorum, ut scilicet plura vel
+<lb ed="#L" n="92"/>pauciora diligantur: sed etiam secundum 
+intensio<lb break="no" ed="#L" n="93"/>nem actus, ut magis vel minus aliquid diligatur.
+<lb ed="#L" n="94"/>Et hoc modo virtualis quantitas caritatis augetur.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e895">
+                  <lb ed="#L" n="95"/>AD SECUNDUM DICENDUM quod caritas est in
+<lb ed="#L" n="96"/>summo ex parte obiecti, inquantum scilicet eius
+<lb ed="#L" n="97"/>obiectum est summum bonum: et ex hoc 
+sequi<lb break="no" ed="#L" n="98"/>tur quod ipsa sit excellentior aliis virtutibus. Sed
+<lb ed="#L" n="99"/>non est omnis P caritas in summo quantum ad
+<lb ed="#L" n="100"/>intensionem actus.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e911">
+                  <lb ed="#L" n="101"/>AD TERTIUM DICENDUM qudd quidam dixerunt
+<lb ed="#L" n="102"/>caritatem non augeri secundum suam essentiam,
+<lb ed="#L" n="103"/>sed solum secundum radicationem in subiecto,
+<lb ed="#L" n="104"/>vel secundum fervorem. Sed hi propriam vocem
+<lb ed="#L" n="105"/>ignoraverunt. Cum enim sit accidens, eius esse
+<lb ed="#L" n="106"/>est inesse: unde nihil est aliud ipsam secundum
+<lb ed="#L" n="107"/>essentiam augeri quam eam magis inesse 
+subie<lb break="no" ed="#L" n="108"/>cto, quod est eam magis radicari in subiecto.
+<lb ed="#L" n="109"/>Similiter etiam ipsa essentialiter est virtus 
+ordi<lb break="no" ed="#L" n="110"/>nata ad actum: unde idem est ipsam augeri 
+se<lb break="no" ed="#L" n="111"/>cundum. essentiam et ipsam habere efficaciam ad
+<lb ed="#L" n="112"/>producendum ferventioris dilectionis actum. 
+Au<lb break="no" ed="#L" n="113"/>getur ergo essentialiter non quidem ita quod esse
+<lb ed="#L" n="114"/>incipiat vel esse desinat in subiecto, sicut 
+obie<lb break="no" ed="#L" n="115"/>ctio Y procedit: sed ita quod magis in subiecto
+<lb ed="#L" n="116"/>esse incipiat.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1396-Dd1e949"><!-- p2p2-q24a5 -->
+               <head xml:id="TAca84-d1e1396-Hd1e952">Articulus 5</head>
+               <head xml:id="TAca84-d1e1396-Hd1e954" type="question-title">Utrum caritas augeatur per additionem</head>
+               <p xml:id="TAca84-d1e1396-d1e957">
+                  <pb ed="#L" n="178"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUINTUS
+<lb ed="#L" n="2"/>UTRUM CARITAS AUGEATUR PER ADDITIONEM
+</p>
+               <p xml:id="TAca84-d1e1396-d1e968">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>caritas augeatur per additionem. Sicut 
+<lb ed="#L" n="5"/>enim est augmentum secundum 
+quan<lb break="no" ed="#L" n="6"/>titatem corporalem, ita secundum 
+quan<lb break="no" ed="#L" n="7"/>titatem virtualem. Sed augmentum quantitatis 
+cor<lb break="no" ed="#L" n="8"/>poralis fit per additionem: dicit enim Philosophus,
+<lb ed="#L" n="9"/>in I de Gen., quod augmentum est praeexistenti
+<lb ed="#L" n="10"/>magnitudini additamentum. Ergo etiam 
+augmen<lb break="no" ed="#L" n="11"/>tum caritatis, quod est secundum virtualem 
+quan<lb break="no" ed="#L" n="12"/>titatem, erit per additionem.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e994">
+                  <lb ed="#L" n="13"/>2. PRAETEREA, caritas in anima est quoddam
+<lb ed="#L" n="14"/>spirituale lumen: secundum illud I Ioan. 1: Qui
+<lb ed="#L" n="15"/>diligit fratrem suum in lumine manet. Sed lumen
+<lb ed="#L" n="16"/>crescit in aere per additionem: .sicut in domo
+<lb ed="#L" n="17"/>lumen crescit alia candela superaccensa. Ergo
+<lb ed="#L" n="18"/>etiam caritas crescit in anima per additionem.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1011">
+                  <lb ed="#L" n="19"/>3. PRAETEREA, augere caritatem ad Deum 
+per<lb break="no" ed="#L" n="20"/>tinet, sicut et ipsam creare: secundum illud II ad
+<lb ed="#L" n="21"/>Cor. ix: Augebit incrementa frugum iustitiae
+<lb ed="#L" n="22"/>vestrae. Sed Deus primo infundendo caritatem
+<lb ed="#L" n="23"/>aliquid facit in anima quod ibi prius non erat.
+<lb ed="#L" n="24"/>Ergo etiam augendo caritatem aliquid ibi facit
+<lb ed="#L" n="25"/>quod prius non erat. Ergo caritas augetur per
+<lb ed="#L" n="26"/>additionem.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1031">
+                  <lb ed="#L" n="27"/>SED CONTRA EsT quod caritas est forma 
+sim<lb break="no" ed="#L" n="28"/>plex. Simplex autem simplici additum non facit
+<lb ed="#L" n="29"/>aliquid maius, ut probatur in VI Physic. Ergo
+<lb ed="#L" n="30"/>caritas non augetur per additionem. ;
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1042">
+                  <lb ed="#L" n="31"/>RESPONDEO DICENDUM quod omnis additio est
+<lb ed="#L" n="32"/>alicuius ad aliquid. Unde in omni additione 
+opor<lb break="no" ed="#L" n="33"/>tet saltem  praeintelligere distinctionem eorum
+<lb ed="#L" n="34"/>quorum unum additur alteri, ante ipsam 
+additio<lb break="no" ed="#L" n="35"/>nem. Si igitur caritas addatur caritati, oportet
+<lb ed="#L" n="36"/>praesupponi caritatem additam ut distinctam a
+<lb ed="#L" n="37"/>caritate cui additur:. non quidem ex necessitate
+<lb ed="#L" n="38"/>secundum esse, sed saltem secundum intellectum.
+<lb ed="#L" n="39"/>Posset enim Deus etiam quantitatem corporalem
+<lb ed="#L" n="40"/>augere addendo aliquam magnitudinem non prius
+<lb ed="#L" n="41"/>existentem, sed tunc creatam: quae quamvis prius
+<lb ed="#L" n="42"/>non fuerit in rerum natura, habet tamen in se
+<lb ed="#L" n="43"/>unde eius distinctio intelligi possit a quantitate cui
+<lb ed="#L" n="44"/>additur. Si igitur caritas addatur caritati, oportet
+<lb ed="#L" n="45"/>praesupponere, ad minus secundum intellectum,
+<lb ed="#L" n="46"/>distinctionem unius caritatis ab alia.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1079">
+                  <lb ed="#L" n="47"/>Distinctio autem in formis est duplex: una
+<lb ed="#L" n="48"/>quidem secundum speciem; alia autem 
+secun<lb break="no" ed="#L" n="49"/>dum numerum. Distinctio quidem secundum 
+spe<lb break="no" ed="#L" n="50"/>ciem in habitibus est secundum diversitatem
+<lb ed="#L" n="51"/>obiectorum: distinctio vero secundum numerum
+<lb ed="#L" n="52"/>est secundum diversitatem subiecti. Potest igitur
+<lb ed="#L" n="53"/>contingere quod aliquis habitus per additionem
+<lb ed="#L" n="54"/>augeatur dum extenditur ad quaedam obiecta ad
+<lb ed="#L" n="55"/>quae prius se non extendebat: et sic augetur
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="56"/>scientia geometriae in eo qui de novo incipit
+<lb ed="#L" n="57"/>scire aliqua geometricalia quae prius nesciebat.
+<lb ed="#L" n="58"/>Hoc autem non potest dici de caritate: quia etiam
+<lb ed="#L" n="59"/>minima caritas se extendit ad omnia illa quae
+<lb ed="#L" n="60"/>sunt ex caritate diligenda. Non ergo talis additio
+<lb ed="#L" n="61"/>in augmento caritatis potest intelligi 
+praesuppo<lb break="no" ed="#L" n="62"/>sita distinctione secundum speciem caritatis 
+ad<lb break="no" ed="#L" n="63"/>ditae ad eam cui superadditur !.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1121">
+                  <lb ed="#L" n="64"/>Relinquitur ergo, si fiat additio caritatis ad 
+ca<lb break="no" ed="#L" n="65"/>ritatem, quod hoc fit praesupposita distinctione
+<lb ed="#L" n="66"/>secundum numerum, quae est secundum 
+diver<lb break="no" ed="#L" n="67"/>sitatem subiectorum, sicut albedo augetur per hoc
+<lb ed="#L" n="68"/>quod album additur 'albo: quamvis hoc augmento
+<lb ed="#L" n="69"/>non fiat aliquid magis album. Sed hoc in 
+pro<lb break="no" ed="#L" n="70"/>posito dici non potest. Quia subiectum caritatis
+<lb ed="#L" n="71"/>non est nisi mens rationalis: unde tale caritatis
+<lb ed="#L" n="72"/>augmentum fieri non posset nisi per hoc quod
+<lb ed="#L" n="73"/>una mens rationalis alteri adderetur, quod est
+<lb ed="#L" n="74"/>impossibile. Quamvis etiam si esset possibile tale
+<lb ed="#L" n="75"/>augmentum , faceret maiorem diligentem, non
+<lb ed="#L" n="76"/>autem magis diligentem. Relinquitur ergo quod
+<lb ed="#L" n="77"/>nullo modo caritas augeri potest per additionem
+<lb ed="#L" n="78"/>caritatis ad caritatem, sicut quidam ponunt.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1156">
+                  <lb ed="#L" n="79"/>Sic ergo caritas augetur solum per hoc quod
+<lb ed="#L" n="80"/>subiectum magis ac magis participat caritatem:
+<lb ed="#L" n="81"/>idest secundum quod magis reducitur in actum
+<lb ed="#L" n="82"/>illus et magis subditur illi. Hic enim. est modus
+<lb ed="#L" n="83"/>augmenti proprius cuiuslibet formae. quae 
+inten<lb break="no" ed="#L" n="84"/>ditur: eo quod esse huiusmodi formae totalite
+<lb ed="#L" n="85"/>consistit in eo quod inhaeret susceptibili. Et ideo;
+<lb ed="#L" n="86"/>cum magnitudo rei consequitur esse ipsius, 
+for<lb break="no" ed="#L" n="87"/>mam esse maiorem hoc est eam magis inesse
+<lb ed="#L" n="88"/>susceptibili: non autem aliam formam advenire.
+<lb ed="#L" n="89"/>Hoc enim esset si forma haberet aliquam 
+quan<lb break="no" ed="#L" n="90"/>titatem ex seipsa, non per comparationem ad
+<lb ed="#L" n="91"/>subiectum. Sic igitur et caritas augetur per hoc
+<lb ed="#L" n="92"/>quod intenditur in subiecto, et hoc est ipsam
+<lb ed="#L" n="93"/>augeri secundum essentiam: non autem per boe
+<lb ed="#L" n="94"/>quod caritas addatur caritati.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1194">
+                  <lb ed="#L" n="95"/>AD PRIMUM ERGO DICENDUM quod quantitas 
+cor<lb break="no" ed="#L" n="96"/>poralis habet aliquid inquantum est quantitas ; et
+<lb ed="#L" n="97"/>aliquid inquantum est forma accidentalis. 
+Inquan<lb break="no" ed="#L" n="98"/>tum est quantitas, habet quod sit. distinguibilis
+<lb ed="#L" n="99"/>secundum situm vel secundum numerum. Et
+<lb ed="#L" n="100"/>ideo hoc modo consideratur augmentum 
+magni<lb break="no" ed="#L" n="101"/>tudinis per additionem; ut patet in animalibus.
+<lb ed="#L" n="102"/>Inquantum vero est forma accidentalis, est 
+dis<lb break="no" ed="#L" n="103"/>tinguibilis solum secundum subiectum. Et 
+secun<lb break="no" ed="#L" n="104"/>dum hoc habet proprium augmentum, sicut et
+<lb ed="#L" n="105"/>aliae formae accidentales, per modum intensionis
+<lb ed="#L" n="106"/>eius in subiecto: sicut patet in his quae rarefiunt,
+<lb ed="#L" n="107"/>ut probat Philosophus, in IV Physic. - Et si
+<lb ed="#L" n="108"/>militer etiam scientia habet quantitatem, inquan-
+<pb ed="#L" n="179"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tum est habitus, ex parte obiectorum. Et sic 
+au<lb break="no" ed="#L" n="2"/>getur per additionem, inquantum aliquis plura
+<lb ed="#L" n="3"/>cognoscit. Habet etiam quantitatem , inquantum
+<lb ed="#L" n="4"/>est quaedam forma accidentalis, ex eo quod inest
+<lb ed="#L" n="5"/>subiecto. Et secundum hoc augetur.in eo qui
+<lb ed="#L" n="6"/>certius eadem scibilia cognoscit nunc quam prius. -
+<lb ed="#L" n="7"/>Similiter etiam et caritas habet duplicem 
+quanti<lb break="no" ed="#L" n="8"/>tatem. Sed secundum eam quae est ex parte 
+obie<lb break="no" ed="#L" n="9"/>cti, non augetur, ut dictum est. Unde 
+relinqui<lb break="no" ed="#L" n="10"/>tur quod per solam intensionem augeatur.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1253">
+                  <lb ed="#L" n="11"/>AD SECUNDUM DICENDUM quod additio luminis ad
+<lb ed="#L" n="12"/>lumen potest intelligi in aere propter 
+diversita<lb break="no" ed="#L" n="13"/>tem luminarium causantium lumen. Sed talis 
+dis<lb break="no" ed="#L" n="14"/>tinctio non habet locum in proposito: quia non
+<lb ed="#L" n="15"/>est nisi unum luminare influens lumen caritatis.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1266">
+                  <lb ed="#L" n="16"/>AD TERTIUM DICENDUM quod infusio caritatis 
+im<lb break="no" ed="#L" n="17"/>portat quandam mutationem secundum habere
+<lb ed="#L" n="18"/>caritatem et non habere: et ideo oportet quod 
+ali<lb break="no" ed="#L" n="19"/>quid adveniat quod prius non infuit. Sed 
+augmen<lb break="no" ed="#L" n="20"/>tatio caritatis importat mutationem secundum 
+mi<lb break="no" ed="#L" n="21"/>nus aut magis habere. Et ideo non oportet quod
+<lb ed="#L" n="22"/>aliquid insit quod prius non infuerit ^: sed quod
+<lb ed="#L" n="23"/>magis insit quod prius minus inerat. Et hoc est
+<lb ed="#L" n="24"/>quod facit Deus caritatem augendo: scilicet quod
+<lb ed="#L" n="25"/>magis insit, et quod perfectius similitudo Spiritus
+<lb ed="#L" n="26"/>Sancti participetur in anima.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1396-Dd1e1293"><!-- p2p2-q24a6 -->
+               <head xml:id="TAca84-d1e1396-Hd1e1296">Articulus 6</head>
+               <head xml:id="TAca84-d1e1396-Hd1e1298" type="question-title">Utrum quolibet actu caritatis caritas augeatur</head>
+               <p xml:id="TAca84-d1e1396-d1e1301">
+                  <lb ed="#L" n="67"/>ARTICULUS SEXTUS
+<lb ed="#L" n="68"/>UTRUM QUOLIBET ACTU CARITATIS CARITAS AUGEATUR
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1308">
+                  <lb ed="#L" n="69"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="70"/>quolibet actu caritatis caritas augeatur.
+<lb ed="#L" n="71"/>Quod enim potest id quod maius est,
+<lb ed="#L" n="72"/>potest id quod minus est. Sed quilibet |
+<lb ed="#L" n="73"/>actus caritatis meretur vitam aeternam, quae
+<lb ed="#L" n="74"/>maius est quam simplex caritatis augmentum:
+<lb ed="#L" n="75"/>quia vita aeterna includit caritatis perfectionem.
+<lb ed="#L" n="76"/>Ergo multo magis quilibet actus caritatis 
+cari<lb break="no" ed="#L" n="77"/>tatem auget.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1330">
+                  <lb ed="#L" n="78"/>2. PRAETEREA, sicuti habitus virtutum 
+acquisi<lb break="no" ed="#L" n="79"/>tarum generatur ex actibus, ita etiam augmentum
+<lb ed="#L" n="80"/>caritatis causatur per actus caritatis. Sed 
+quili<lb break="no" ed="#L" n="81"/>bet actus virtuosus operatur ad virtutis 
+genera<lb break="no" ed="#L" n="82"/>tionem. Ergo etiam quilibet actus caritatis 
+ope<lb break="no" ed="#L" n="83"/>ratur ad caritatis augmentum.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1347">
+                  <lb ed="#L" n="84"/>3. PnaETEREA, Gregorius dicit quod in via
+<lb ed="#L" n="85"/>Dei stare retrocedere est. Sed nullus, dum 
+mo<lb break="no" ed="#L" n="86"/>vetur actu caritatis, retrocedit. Ergo quicumque
+<lb ed="#L" n="87"/>movetur actu caritatis, procedit in. via Dei. Ergo
+<lb ed="#L" n="88"/>quolibet actu caritatis caritas augetur.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1360">
+                  <lb ed="#L" n="89"/>SED coNTRA EsT quod effectus non excedit 
+vir<lb break="no" ed="#L" n="90"/>tutem causae. Sed quandoque aliquis actus 
+ca<lb break="no" ed="#L" n="91"/>ritatis cum aliquo tepore vel remissione emit-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="92"/>titur. Non ergo perducit ad excellentiorem 
+ca<lb break="no" ed="#L" n="93"/>ritatem, sed magis disponit ad minorem. :
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1376">
+                  <lb ed="#L" n="94"/>RESPONDEO DICENDUM quod augmentum 
+spiri<lb break="no" ed="#L" n="95"/>tuale caritatis quodammodo simile est augmento
+<lb ed="#L" n="96"/>corporali. Augmentum autem corporale in 
+ani<lb break="no" ed="#L" n="97"/>malibus et plantis non est motus continuus, ita
+<lb ed="#L" n="98"/>scilicet quod, si aliquid tantum augetur in tanto
+<lb ed="#L" n="99"/>tempore, necesse sit quod proportionaliter in 
+qua<lb break="no" ed="#L" n="100"/>libet parte illius temporis aliquid augeatur, sicut
+<lb ed="#L" n="101"/>contingit in motu locali: sed per aliquod: tempus
+<lb ed="#L" n="102"/>natura operatur disponens ad augmentum et nihil
+<lb ed="#L" n="103"/>augens actu, et postmodum producit in effectum
+<lb ed="#L" n="104"/>id ad quod disposuerat, augendo animal vel,
+<lb ed="#L" n="105"/>plantam in actu. Ita etiam non quolibet actu 
+cari<lb break="no" ed="#L" n="106"/>tatis caritas actu augetur: sed quilibet actus 
+ca<lb break="no" ed="#L" n="107"/>ritatis disponit ad caritatis augmentum, 
+inquan<lb break="no" ed="#L" n="108"/>tum ex uno actu caritatis homo redditur 
+prom<lb break="no" ed="#L" n="109"/>ptior iterum ad agendum secundum caritatem;
+<lb ed="#L" n="110"/>et, habilitate crescente, homo prorumpit in actum
+<lb ed="#L" n="111"/>ferventiorem dilectionis, quo conetur ad 
+carita<lb break="no" ed="#L" n="112"/>tis profectum; et tunc caritas augetur in actu.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1420">
+                  <lb ed="#L" n="113"/>AD PRIMUM ERGO DICENDUM quod quilibet idem
+<lb ed="#L" n="114"/>caritatis meretur vitam aeternam, non quid
+<pb ed="#L" n="181"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>statim exhibendam, sed suo tempore. Similiter
+<lb ed="#L" n="2"/>etiam quilibet actus caritatis meretur caritatis 
+aug<lb break="no" ed="#L" n="3"/>mentum: non tamen statim augetur, sed quando
+<lb ed="#L" n="4"/>aliquis conatur ' ad huiusmodi augmentum.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1440">
+                  <lb ed="#L" n="5"/>AD SECUNDUM DICENDUM quod etiam in 
+gene<lb break="no" ed="#L" n="6"/>ratione virtutis acquisitae non quilibet actus 
+com<lb break="no" ed="#L" n="7"/>plet generationem virtutis: sed quilibet operatur
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>ad eam ut disponens, et ultimus, qui est 
+perfe<lb break="no" ed="#L" n="9"/>ctior, agens in virtute omnium praecedentium,
+<lb ed="#L" n="10"/>reducit eam in actum. Sicut etiam est in multis
+<lb ed="#L" n="11"/>guttis cavantibus lapidem.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1460">
+                  <lb ed="#L" n="12"/>AD TERTIUM DICENDUM quod in via Dei 
+proce<lb break="no" ed="#L" n="13"/>dit aliquis non solum dum actu caritas eius 
+au<lb break="no" ed="#L" n="14"/>getur, sed etiam dum disponitur ad augmentum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1396-Dd1e1471"><!-- p2p2-q24a7 -->
+               <head xml:id="TAca84-d1e1396-Hd1e1474">Articulus 7</head>
+               <head xml:id="TAca84-d1e1396-Hd1e1476" type="question-title">Utrum caritas augeatur in infinitum</head>
+               <p xml:id="TAca84-d1e1396-d1e1479">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="30"/>UTRUM CARITAS AUGEATUR IN INFINITUM
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1488">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="31"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="32"/>caritas non augeatur in infinitum. Omnis
+<lb ed="#L" n="33"/>enim motus est ad aliquem finem et
+<lb ed="#L" n="34"/>terminum, ut dicitur in 11 Metaphys.
+<lb ed="#L" n="35"/>Sed augmentum caritatis est quidam motus. Ergo
+<lb ed="#L" n="36"/>tendit ad aliquem finem et terminum. Non, ergo
+<lb ed="#L" n="37"/>caritas in infinitum augetur.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1508">
+                  <lb ed="#L" n="38"/>2. PRAETEREA, nulla forma excedit capacitatem
+<lb ed="#L" n="39"/>sui subiecti. Sed capacitas creaturae rationalis,
+<lb ed="#L" n="40"/>quae est subiectum caritatis, est. finita. Ergo 
+ca<lb break="no" ed="#L" n="41"/>ritas in infinitum augeri non potest.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1520">
+                  <lb ed="#L" n="42"/>3. PRAETEREA, omne finitum per continuum
+<lb ed="#L" n="43"/>augmentum. potest pertingere ad quantitatem .
+al<lb break="no" ed="#L" n="44"/>terius finiti quantumcumque maioris: nisi forte
+<lb ed="#L" n="45"/>id quod accrescit per augmentum semper sit
+<lb ed="#L" n="46"/>minus et minus; sicut Philosophus dicit, in 1lI
+<lb ed="#L" n="47"/>Physic., quod si uni lineae addatur quod 
+sub<lb break="no" ed="#L" n="48"/>trahitur ab alia linea. quae in infinitum dividitur,
+<lb ed="#L" n="49"/>in infinitum additione facta, nunquam 
+pertinge<lb break="no" ed="#L" n="50"/>tur ad quandam determinatam quantitatem quae
+<lb ed="#L" n="51"/>est composita ex duabus lineis, scilicet divisa ?
+<lb ed="#L" n="52"/>et ea cui additur quod ex alia subtrahitur. Quod
+<lb ed="#L" n="53"/>in proposito non contingit: non enim necesse est
+<lb ed="#L" n="54"/>ut secundum caritatis augmentum sit minus quam
+<lb ed="#L" n="55"/>prius; sed magis probabile est quod sit aequale
+<lb ed="#L" n="56"/>aut maius. Cum ergo caritas patriae sit quiddam
+<lb ed="#L" n="57"/>finitum, si caritas viae in infinitum augeri potest,
+<lb ed="#L" n="58"/>sequitur quod. caritas viae possit adaequare 
+ca<lb break="no" ed="#L" n="59"/>ritatem patriae: quod est inconveniens. Non ergo
+<lb ed="#L" n="60"/>caritas viae in infinitum potest augeri.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1564">
+                  <lb ed="#L" n="61"/>Sep coNTRA EsT quod Apostolus dicit, ad Philipp.
+<lb ed="#L" n="62"/>in. Non quod iam acceperim, aut iam. perfectus
+<lb ed="#L" n="63"/>sim: sequor aulem si quo modo comprehendam.
+<lb ed="#L" n="64"/>Ubi dicit. Glossa: Nemo fidelium, etsi. multum
+<lb ed="#L" n="65"/>profecerit, dicat, Sufficit mihi. Qui enim hoc dicit,
+<lb ed="#L" n="66"/>exit de via ante finem. Ergo semper in via 
+ca<lb break="no" ed="#L" n="67"/>ritas potest magis ac magis augeri.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1582">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="68"/>RESPONDEO DICENDUM quod terminus augmento
+<lb ed="#L" n="69"/>alicuius formae potest praefigi tripliciter. Uno
+<lb ed="#L" n="70"/>modo, ex ratione ipsius formae, quae habet 
+ter<lb break="no" ed="#L" n="71"/>minatam mensuram, ad quam cum perventum
+<lb ed="#L" n="72"/>fuerit, non potest ultra procedi in forma, sed si
+<lb ed="#L" n="73"/>ultra processum fuerit, pervenietur ad aliam 
+for<lb break="no" ed="#L" n="74"/>mam: sicut patet in pallore, cuius terminos per
+<lb ed="#L" n="75"/>continuam alterationem aliquis transit, vel ad
+<lb ed="#L" n="76"/>albedinem. vel. ad. nigredinem perveniens. Alio
+<lb ed="#L" n="77"/>modo, ex parte agentis, cuius virtus non se 
+exten<lb break="no" ed="#L" n="78"/>dit ad ulterius augendum formam in subiecto.
+<lb ed="#L" n="79"/>Tertio, ex parte subiecti; quod non est capax
+<lb ed="#L" n="80"/>amplioris perfectionis.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1615">
+                  <lb ed="#L" n="81"/>Nullo autem istorum. modorum imponitur 
+ter<lb break="no" ed="#L" n="82"/>minus augmento caritatis in statu viae. Ipsa enim
+<lb ed="#L" n="83"/>caritas secundum rationem propriae speciei 
+ter<lb break="no" ed="#L" n="84"/>minum augmenti non habet: est enim 
+participa<lb break="no" ed="#L" n="85"/>tio quaedam infinitae caritatis, quae. est Spiritus
+<lb ed="#L" n="86"/>Sanctus. Similiter etiam causa augens caritatem
+<lb ed="#L" n="87"/>est infinitae virtutis, scilicet Deus. Similiter etiam
+<lb ed="#L" n="88"/>ex parte subiecti terminus huic augmento praefigi
+<lb ed="#L" n="89"/>non potest: quia semper, caritate excrescente,
+<lb ed="#L" n="90"/>superexcrescit habilitas ad ulterius. augmentum.
+<lb ed="#L" n="91"/>Unde relinquitur quod caritatis augmenta nullus
+<lb ed="#L" n="92"/>terminus praefigi possit in hac vita
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1644">
+                  <lb ed="#L" n="93"/>AD PRIMUM ERGO DICENDUM quod e gmentitth
+<lb ed="#L" n="94"/>caritatis est ad aliquem finem, sed ille finis non
+<lb ed="#L" n="95"/>est in hac vita, sed in futura.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1653">
+                  <lb ed="#L" n="96"/>AD SECUNDUM DICENDUM quod capacitas 
+crea<lb break="no" ed="#L" n="97"/>turae spiritualis per. caritatem. augetur: quia
+<lb ed="#L" n="98"/>per ipsam cor dilatatur, secundum illud II ad
+<lb ed="#L" n="99"/>Cor. v1: Cor nostrum dilatatum est. Et ideo
+<lb ed="#L" n="100"/>adhuc ulterius manet habilitas ad maius 
+aug<lb break="no" ed="#L" n="101"/>mentum.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1670">
+                  <lb ed="#L" n="102"/>AD TERTIUM DICENDUM quod ratio illa 
+proce<lb break="no" ed="#L" n="103"/>dit in his quae habent quantitatem eiusdem 
+ra<lb break="no" ed="#L" n="104"/>tionis: non autem in his quae habent diversam
+<pb ed="#L" n="183"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>rationem quantitatis; sicut linea, quantumcumque
+<lb ed="#L" n="2"/>crescat, non attingit quantitatem superficiei. Non
+<lb ed="#L" n="3"/>est autem eadem ratio quantitatis caritatis viae,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="4"/>quae sequitur cognitionem fidei, et caritatis 
+pa<lb break="no" ed="#L" n="5"/>triae, quae sequitur visionem apertam. Unde ratio
+<lb ed="#L" n="6"/>non sequitur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1396-Dd1e1700"><!-- p2p2-q24a8 -->
+               <head xml:id="TAca84-d1e1396-Hd1e1703">Articulus 8</head>
+               <head xml:id="TAca84-d1e1396-Hd1e1705" type="question-title">Utrum caritas in hac vita possit esse perfecta</head>
+               <p xml:id="TAca84-d1e1396-d1e1708">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="54"/>UTRUM CARITAS IN HAC VITA POSSIT ESSE PERFECTA
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1717">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="55"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="56"/>caritas in hac vita non possit esse 
+per<lb break="no" ed="#L" n="57"/>fecta. Maxime enim haec perfectio in
+<lb ed="#L" n="58"/>Apostolis fuisset. Sed in eis non fuit:
+<lb ed="#L" n="59"/>dicit enim Apostolus, ad Philipp. ui: Non quod
+<lb ed="#L" n="60"/>iam conprehenderim aut perfectus sim. Ergo 
+ca<lb break="no" ed="#L" n="61"/>ritas in hac vita perfecta esse non potest.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1737">
+                  <lb ed="#L" n="62"/>2. PRAETEREA, Augustinus dicit, in libro 
+Octo<lb break="no" ed="#L" n="63"/>ginta trium Quaest., quod nutrimentum caritatis
+<lb ed="#L" n="64"/>est diminulio cupiditatis; perfectio, nulla 
+cupidi<lb break="no" ed="#L" n="65"/>tas. Sed hoc non potest esse in hac vita, in
+<lb ed="#L" n="66"/>qua sine peccato vivere non possumus, 
+secun<lb break="no" ed="#L" n="67"/>dum illud I Ioan. 1: Si dixerimus quia? 
+pec<lb break="no" ed="#L" n="68"/>catum non habemus, nos ipsos seducimus: omne
+<lb ed="#L" n="69"/>autem peccatum ex aliqua inordinata cupiditate
+<lb ed="#L" n="70"/>procedit. Ergo in hac vita caritas perfecta esse
+<lb ed="#L" n="71"/>non potest.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1762">
+                  <lb ed="#L" n="72"/>3. PRAETEREA, illud quod iam perfectum est
+<lb ed="#L" n="73"/>non habet ! ulterius crescere. Sed caritas in hac
+<lb ed="#L" n="74"/>vita semper potest augeri, ut dictum est. Ergo
+<lb ed="#L" n="75"/>caritas in hac vita non potest esse perfecta.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1773">
+                  <lb ed="#L" n="76"/>SED coNTRA EsT quod Augustinus dicit, super
+<lb ed="#L" n="77"/>Prim. Canonic. Ioan.: Caritas cum fuerit 
+ro<lb break="no" ed="#L" n="78"/>borata, perficitur: cum ad perfectionem 
+perve<lb break="no" ed="#L" n="79"/>nerit, dicit, Cupio dissolvi et esse cum Christo.
+<lb ed="#L" n="80"/>Sed hoc possibile est in hac vita: sicut in Paulo
+<lb ed="#L" n="81"/>fuit. Ergo caritas in hac vita potest esse 
+per<lb break="no" ed="#L" n="82"/>fecta.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1791">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="83"/>RESPONDEO DICENDUM quod perfectio caritatis
+<lb ed="#L" n="84"/>potest intelligi dupliciter: uno modo, ex parte
+<lb ed="#L" n="85"/>diligibilis; alio modo, ex parte diligentis. Ex parte
+<lb ed="#L" n="86"/>quidem diligibilis perfecta est caritas ut diligatur
+<lb ed="#L" n="87"/>aliquid quantum diligibile est. Deus autem 
+tan<lb break="no" ed="#L" n="88"/>tum diligibilis est quantum bonus est. Bonitas
+<lb ed="#L" n="89"/>autem eius est infinita. Unde infinite diligibilis
+<lb ed="#L" n="90"/>est. Nulla autem creatura potest eum diligere
+<lb ed="#L" n="91"/>infinite: cum quaelibet virtus creata sit finita.
+<lb ed="#L" n="92"/>Unde per hunc modum nullius creaturae caritas
+<lb ed="#L" n="93"/>potest esse perfecta, sed solum caritas Dei, qua
+<lb ed="#L" n="94"/>seipsum diligit.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1822">
+                  <lb ed="#L" n="95"/>Ex parte vero diligentis caritas dicitur perfecta
+<lb ed="#L" n="96"/>quando aliquis secundum totum. suum posse 
+di<lb break="no" ed="#L" n="97"/>ligit. Quod quidem contingit tripliciter. Uno
+<lb ed="#L" n="98"/>modo, sic quod totum cor hominis actualiter
+<lb ed="#L" n="99"/>semper feratur in Deum. Et haec est perfectio
+<lb ed="#L" n="100"/>caritatis patriae: quae non est possibilis in hac
+<lb ed="#L" n="101"/>vita, in qua impossibile est, propter humanae
+<lb ed="#L" n="102"/>vitae infirmitatem, semper actu cogitare de Deo
+<lb ed="#L" n="103"/>et moveri dilectione ad ipsum. - Alio modo, ut
+<lb ed="#L" n="104"/>homo studium suum deputet ad vacandum Deo
+<lb ed="#L" n="105"/>et rebus divinis, praetermissis aliis nisi quantum
+<lb ed="#L" n="106"/>necessitas praesentis vitae requirit. Et ista est
+<lb ed="#L" n="107"/>perfectio caritatis quae est possibilis in via: non
+<lb ed="#L" n="108"/>tamen est communis omnibus caritatem 
+haben<lb break="no" ed="#L" n="109"/>tibus. - Tertio modo, ita quod habitualiter aliquis
+<lb ed="#L" n="110"/>totum cor suum ponat in Deo: ita scilicet quod
+<pb ed="#L" n="191"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>nihil cogitet vel velit quod sit divinae dilectioni
+<lb ed="#L" n="2"/>contrarium. Et haec perfectio est communis 
+om<lb break="no" ed="#L" n="3"/>nibus caritatem habentibus.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1870">
+                  <lb ed="#L" n="4"/>AD PRIMUM ERGO DICENDUM quod Apostolus 
+ne<lb break="no" ed="#L" n="5"/>gat de se perfectionem patriae, Unde Glossa
+<lb ed="#L" n="6"/>ibi dicit quod perfectus erat viator, sed nondum
+<lb ed="#L" n="7"/>ipsius itineris perfectione perventor.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1881">
+                  <lb ed="#L" n="8"/>AD SECUNDUM DICENDUM quod hoc dicitur 
+pro<lb break="no" ed="#L" n="9"/>pter peccata venialia. Quae non contrariantur
+<lb ed="#L" n="10"/>habitui caritatis, sed actui: et ita non repugnant
+<lb ed="#L" n="11"/>perfectioni viae, sed perfectioni patriae.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1893">
+                  <lb ed="#L" n="12"/>AD TERTIUM DICENDUM quod perfectio viae non
+<lb ed="#L" n="13"/>est perfectio simpliciter. Et ideo semper habet
+<lb ed="#L" n="14"/>quo crescat.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1396-Dd1e1903"><!-- p2p2-q24a9 -->
+               <head xml:id="TAca84-d1e1396-Hd1e1906">Articulus 9</head>
+               <head xml:id="TAca84-d1e1396-Hd1e1908" type="question-title">Utrum convenienter distinguantur tres gradus caritatis, incipiens,
+    <lb ed="#L" n="17"/>Proficiens et perfecta</head>
+               <p xml:id="TAca84-d1e1396-d1e1913">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="15"/>ARTICULUS NONUS
+<lb ed="#L" n="16"/>UTRUM CONVENIENTER DISTINGUANTUR TRES GRADUS CARITATIS, INCIPIENS,
+<lb ed="#L" n="17"/>PROFICIENS ET PERFECTA
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1924">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="18"/>AD NONUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="19"/>inconvenienter distinguantur tres 
+gra<lb break="no" ed="#L" n="20"/>dus caritatis, scilicet caritas incipiens,
+<lb ed="#L" n="21"/>proficiens et perfecta. Inter. principium
+<lb ed="#L" n="22"/>enim caritatis et eius ultimam perfectionem sunt
+<lb ed="#L" n="23"/>multi gradus medii. Non ergo unum solum 
+me<lb break="no" ed="#L" n="24"/>dium. debuit poni.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1944">
+                  <lb ed="#L" n="25"/>2. PRAETEREA, statim. cum caritas incipit esse,
+<lb ed="#L" n="26"/>incipit etiam proficere. Non ergo debet distingui
+<lb ed="#L" n="27"/>caritas proficiens a caritate incipiente.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1954">
+                  <lb ed="#L" n="28"/>3. PRAETEREA, quantumcumque aliquis habeat
+<lb ed="#L" n="29"/>in hoc mundo caritatem perfectam, potest etiam ^
+<lb ed="#L" n="30"/>eius caritas augeri, ut dictum est. Sed 
+carita<lb break="no" ed="#L" n="31"/>tem augeri est ipsam proficere. Ergo caritas 
+per<lb break="no" ed="#L" n="32"/>fecta non debet distingui a caritate proficiente.
+<lb ed="#L" n="33"/>Inconvenienter igitur praedicti tres gradus 
+cari<lb break="no" ed="#L" n="34"/>tatis assignantur.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1972">
+                  <lb ed="#L" n="35"/>4 SED coNTRA.EST quod Augustinus dicit, super
+<lb ed="#L" n="36"/>Prim. Canonic. Ioan.: Caritas cum fuerit nata,
+<lb ed="#L" n="37"/>nutritur, quod pertinet ad incipientes; cum fuerit
+<lb ed="#L" n="38"/>nutrita, roboratur, quod. pertinet ad proficientes;
+<lb ed="#L" n="39"/>cum. fuerit roborata, perficitur, quod. pertinet ad
+<lb ed="#L" n="40"/>perfectos. Ergo est triplex gradus caritatis.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e1988">
+                  <lb ed="#L" n="41"/>RESPONDEO DICENDUM quod spirituale 
+augmen<lb break="no" ed="#L" n="42"/>tum caritatis considerari potest quantum ad 
+ali<lb break="no" ed="#L" n="43"/>quid | simile corporali hominis augmento. Quod
+<lb ed="#L" n="44"/>quidem quamvis in plurimas partes distingui 
+pos<lb break="no" ed="#L" n="45"/>sit, habet tamen aliquas determinatas distinctiones
+<lb ed="#L" n="46"/>secundum determinatas actiones vel studia ad
+<lb ed="#L" n="47"/>quae homo. perducitur per augmentum :. sicut
+<lb ed="#L" n="48"/>infantilis aetas dicitur antequam . habeat usum
+<lb ed="#L" n="49"/>rationis; postea autem distinguitur alius status
+<lb ed="#L" n="50"/>hominis quando iam incipit loqui et ratione uti;
+<lb ed="#L" n="51"/>iterum tertius status eius est pubertatis, quando
+<lb ed="#L" n="52"/>iam incipit posse generare; et sic inde quousque 
+<lb ed="#L" n="53"/>perveniatur ad perfectum.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2019">
+                  <lb ed="#L" n="54"/>Ita etiam et diversi gradus caritatis 
+distinguun<lb break="no" ed="#L" n="55"/>tur secundum diversa studia. ad quae homo. 
+per<lb break="no" ed="#L" n="56"/>ducitur per caritatis augmentum. Nam primo 
+qui<lb break="no" ed="#L" n="57"/>dem incumbit homini studium principale ad rece-
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="58"/>dendum a peccato et resistendum concupiscentiis
+<lb ed="#L" n="59"/>eius, quae in contrarium caritatis movent. Et hoc
+<lb ed="#L" n="60"/>pertinet ad incipientes, in quibus caritas est 
+nu<lb break="no" ed="#L" n="61"/>trienda vel fovenda ne corrumpatur. - Secundum
+<lb ed="#L" n="62"/>autem studium succedit, ut homo principaliter
+<lb ed="#L" n="63"/>intendat ad hoc quod in bono proficiat. Et hoc 
+stu<lb break="no" ed="#L" n="64"/>dium pertinet ad proficientes, qui ad hoc 
+princi<lb break="no" ed="#L" n="65"/>paliter intendunt ut in eis caritas per augmentum
+<lb ed="#L" n="66"/>roboretur. — Tertium autem studium est ut homo
+<lb ed="#L" n="67"/>ad hoc principaliter intendat ut Deo inhaereat
+<lb ed="#L" n="68"/>et eo fruatur. Et hoc pertinet ad perfectos, qui
+<lb ed="#L" n="69"/>cupiunt dissolvi et esse cum Christo. — Sicut etiam
+<lb ed="#L" n="70"/>videmus in motu corporali quod primum est 
+re<lb break="no" ed="#L" n="71"/>cessus a termino ?; secundum autem est 
+appro<lb break="no" ed="#L" n="72"/>pinquatio ad alium terminum; tertium autem
+<lb ed="#L" n="73"/>quies in termino.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2067">
+                  <lb ed="#L" n="74"/>AD PRIMUM ERGO DICENDUM quod omnis illa 
+de<lb break="no" ed="#L" n="75"/>terminata distinctio quae potest accipi in 
+aug<lb break="no" ed="#L" n="76"/>mento caritatis, comprehenditur sub istis tribus
+<lb ed="#L" n="77"/>quae dicta sunt. Sicut etiam omnis divisio 
+con<lb break="no" ed="#L" n="78"/>tinuorum comprehenditur sub tribus his, 
+prin<lb break="no" ed="#L" n="79"/>cipio, medio et fine; ut Philosophus dicit, in I
+<lb ed="#L" n="80"/>de Caelo.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2085">
+                  <lb ed="#L" n="81"/>AD SECUNDUM DICENDUM quod illis in quibus
+<lb ed="#L" n="82"/>caritas incipit, quamvis proficiant, principalior 
+ta<lb break="no" ed="#L" n="83"/>men cura imminet ut resistant ,peccatis, quorum
+<lb ed="#L" n="84"/>impugnatione inquietantur. Sed postea, hanc 
+im<lb break="no" ed="#L" n="85"/>pugnationem minus sentientes, iam quasi 
+secu<lb break="no" ed="#L" n="86"/>rius ad profectum intendunt; ex una tamen parte
+<lb ed="#L" n="87"/>facientes opus, et ex alia parte habentes manum
+<lb ed="#L" n="88"/>ad gladium, ut dicitur in .Esdra de 
+aedificato<lb break="no" ed="#L" n="89"/>ribus lerusalem.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2108">
+                  <lb ed="#L" n="90"/>AD TERTIUM DICENDUM quod perfecti etiam in 
+ca<lb break="no" ed="#L" n="91"/>ritate proficiunt: sed non est ad hoc principalis
+<lb ed="#L" n="92"/>eorum cura, sed iam eorum studium circa hoc
+<lb ed="#L" n="93"/>maxime versatur ut Deo inhaereant. Et quamvis
+<lb ed="#L" n="94"/>hoc etiam quaerant et incipientes et proficientes,
+<lb ed="#L" n="95"/>tamen magis sentiunt circa alia sollicitudinem:
+<lb ed="#L" n="96"/>incipientes quidem de vitatione peccatorum, 
+pro<lb break="no" ed="#L" n="97"/>ficientes vero de profectu virtutum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1396-Dd1e2129"><!-- p2p2-q24a10 -->
+               <head xml:id="TAca84-d1e1396-Hd1e2132">Articulus 10</head>
+               <head xml:id="TAca84-d1e1396-Hd1e2134" type="question-title">Utrum caritas possit diminui</head>
+               <p xml:id="TAca84-d1e1396-d1e2137">
+                  <pb ed="#L" n="192"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS DECIMUS
+<lb ed="#L" n="2"/>UTRUM CARITAS POSSIT DIMINUI
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2148">
+                  <lb ed="#L" n="3"/>AD DECIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>caritas possit diminui. Contraria enim
+<lb ed="#L" n="5"/>nata sunt fieri circa idem. Sed 
+dimi<lb break="no" ed="#L" n="6"/>nutio et augmentum sunt contraria.
+<lb ed="#L" n="7"/>Cum igitur caritas augeatur, ut dictum est 
+su<lb break="no" ed="#L" n="8"/>pra, videtur quod etiam possit diminui.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2164">
+                  <lb ed="#L" n="9"/>2. PRAETEREA, Augustinus, X Corfess., ad
+<lb ed="#L" n="10"/>Deum loquens, dicit: Minus te amat qui tecum 
+ali<lb break="no" ed="#L" n="11"/>quid amat. Et in libro Octoginta trium Quaest.
+<lb ed="#L" n="12"/>dicit quod nutrimentum caritatis est diminutio 
+cu<lb break="no" ed="#L" n="13"/>piditatis: ex quo videtur quod etiam e converso
+<lb ed="#L" n="14"/>augmentum cupiditatis sit diminutio caritatis.
+<lb ed="#L" n="15"/>Sed cupiditas, qua amatur aliquid aliud quam
+<lb ed="#L" n="16"/>Deus, potest in homine crescere. Ergo caritas
+<lb ed="#L" n="17"/>potest diminui.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2187">
+                  <lb ed="#L" n="18"/>3. PRAETEREA, sicut Augustinus dicit, VIII super
+<lb ed="#L" n="19"/>Gen. ad litt., non ita Deus operatur hominem
+<lb ed="#L" n="20"/>iustum iuslificando eum, ut, si abscesserit, maneat
+<lb ed="#L" n="21"/>in absente quod fecit: ex quo potest accipi quod
+<lb ed="#L" n="22"/>eodem modo Deus operatur in homine caritatem
+<lb ed="#L" n="23"/>eius conservando, quo operatur primo ei 
+cari<lb break="no" ed="#L" n="24"/>tatem infundendo. Sed in? prima caritatis 
+infu<lb break="no" ed="#L" n="25"/>sione minus se praeparanti Deus minorem 
+cari<lb break="no" ed="#L" n="26"/>tatem infundit. Ergo etiam in conservatione 
+ca<lb break="no" ed="#L" n="27"/>ritatis minus se praeparanti minorem caritatem
+<lb ed="#L" n="28"/>conservat. Potest ergo caritas diminui.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2213">
+                  <lb ed="#L" n="29"/>SED cONTRA EsT quod caritas in Scriptura igni
+<lb ed="#L" n="30"/>comparatur: secundum illud Cant. vui: 
+Lam<lb break="no" ed="#L" n="31"/>pades eius, scilicet caritatis, lampades ignis atque
+<lb ed="#L" n="32"/>flammarum. Sed ignis, quandiu manet, semper
+<lb ed="#L" n="33"/>ascendit. Ergo caritas, quandiu manet, ascendere
+<lb ed="#L" n="34"/>potest; sed descendere, idest diminui, non potest.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2229">
+                  <lb ed="#L" n="35"/>REsPONDEO DICENDUM quod quantitas caritatis
+<lb ed="#L" n="36"/>quam habet in comparatione ad obiectum 
+pro<lb break="no" ed="#L" n="37"/>prium, minui non potest, sicut nec augeri, ut
+<lb ed="#L" n="38"/>supra dictum est. Sed cum augeatur secundum
+<lb ed="#L" n="39"/>quantitatem quam habet per comparationem ad
+<lb ed="#L" n="40"/>subiectum, hic oportet considerare utrum ex hac
+<lb ed="#L" n="41"/>parte diminui possit. Si autem diminuatur, 
+opor<lb break="no" ed="#L" n="42"/>tet quod vel diminuatur per aliquem actum; vel
+<lb ed="#L" n="43"/>per solam cessationem ab actu. Per cessationem
+<lb ed="#L" n="44"/>quidem ab actu diminuuntur virtutes ex actibus
+<lb ed="#L" n="45"/>acquisitae, et quandoque etiam corrumpuntur, ut
+<lb ed="#L" n="46"/>supra dictum est: unde de amicitia Philosophus
+<lb ed="#L" n="47"/>dicit, in VIII Ethic., quod multas amicitias 
+in<lb break="no" ed="#L" n="48"/>appellatio solvit, idest non appellare amicum vel
+<lb ed="#L" n="49"/>non colloqui ei. Sed hoc ideo est quia 
+conser<lb break="no" ed="#L" n="50"/>vatio uniuscuiusque rei dependet ex sua causa;
+<lb ed="#L" n="51"/>causa autem virtutis acquisitae est actus 
+huma<lb break="no" ed="#L" n="52"/>nus; unde, cessantibus humanis actibus, virtus
+<lb ed="#L" n="53"/>acquisita diminuitur et tandem totaliter 
+corrum<lb break="no" ed="#L" n="54"/>pitur. Sed hoc in caritate locum non habet: quia
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="55"/>caritas non causatur ab humanis actibus, sed 
+so<lb break="no" ed="#L" n="56"/>lum a Deo, ut supra dictum est. Unde 
+relin<lb break="no" ed="#L" n="57"/>quitur quod etiam cessante actu, propter hoc nec
+<lb ed="#L" n="58"/>diminuitur nec corrumpitur, si desit peccatum in
+<lb ed="#L" n="59"/>ipsa cessatione.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2288">
+                  <lb ed="#L" n="60"/>Relinquitur ergo quod diminutio caritatis non
+<lb ed="#L" n="61"/>possit causari nisi vel a Deo, vel ab aliquo 
+pec<lb break="no" ed="#L" n="62"/>cato. A Deo quidem non causatur aliquis 
+defe<lb break="no" ed="#L" n="63"/>ctus in-nobis nisi per modum poenae, secundum
+<lb ed="#L" n="64"/>quod subtrahit gratiam in poenam peccati. Unde
+<lb ed="#L" n="65"/>nec ei competit diminuere caritatem nisi per 
+mo<lb break="no" ed="#L" n="66"/>dum poenae. Poena autem debetur peccato. 
+Un<lb break="no" ed="#L" n="67"/>de relinquitur quod, si caritas diminuatur, quod
+<lb ed="#L" n="68"/>causa diminutionis eius sit peccatum, vel effective
+<lb ed="#L" n="69"/>vel meritorie. Neutro autem modo peccatum
+<lb ed="#L" n="70"/>mortale diminuit caritatem, sed totaliter 
+corrum<lb break="no" ed="#L" n="71"/>pit ipsam: et effective, quia omne peccatum 
+mor<lb break="no" ed="#L" n="72"/>tale contrariatur caritati, ut infra dicetur; et
+<lb ed="#L" n="73"/>etiam meritorie, quia qui peccando mortaliter
+<lb ed="#L" n="74"/>aliquid contra caritatem agit, dignum est ut Deus
+<lb ed="#L" n="75"/>ei subtrahat caritatem.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2325">
+                  <lb ed="#L" n="76"/>Similiter etiam nec per peccatum veniale caritas
+<lb ed="#L" n="77"/>diminui potest: neque effective, neque meritorie.
+<lb ed="#L" n="78"/>Effective quidem non, quia ad ipsam caritatem
+<lb ed="#L" n="79"/>non attingit. Caritas enim est circa finem ultimum:
+<lb ed="#L" n="80"/>veniale autem peccatum est quaedam inordinatio
+<lb ed="#L" n="81"/>circa ea quae sunt ad finem. Non autem 
+dimi<lb break="no" ed="#L" n="82"/>nuitur amor finis ex hoc quod aliquis 
+inordina<lb break="no" ed="#L" n="83"/>tionem aliquam committit circa ea quae sunt
+<lb ed="#L" n="84"/>ad finem: sicut aliquando contingit quod aliqui
+<lb ed="#L" n="85"/>infirmi, multum amantes sanitatem, inordinate
+<lb ed="#L" n="86"/>tamen se habent circa diaetae observationem ;
+<lb ed="#L" n="87"/>sicut etiam et in speculativis falsae opiniones circa
+<lb ed="#L" n="88"/>ea quae deducuntur ex principiis, non diminuunt
+<lb ed="#L" n="89"/>certitudinem principiorum.- Similiter etiam 
+venia<lb break="no" ed="#L" n="90"/>le peccatum non meretur diminutionem caritatis.
+<lb ed="#L" n="91"/>Cum enim aliquis delinquit in minori, non 
+me<lb break="no" ed="#L" n="92"/>retur detrimentum pati in maiori. Deus enim non
+<lb ed="#L" n="93"/>plus se avertit ab homine quam homo se avertit
+<lb ed="#L" n="94"/>ab ipso. Unde qui inordinate se habet circa ea
+<lb ed="#L" n="95"/>quae sunt ad finem, non meretur detrimentum
+<lb ed="#L" n="96"/>pati in caritate, per quam ordinatur ad ultimum
+<lb ed="#L" n="97"/>finem.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2375">
+                  <lb ed="#L" n="98"/>Unde consequens est quod caritas nullo modo
+<lb ed="#L" n="99"/>diminui possit, directe loquendo. Potest tamen 
+in<lb break="no" ed="#L" n="100"/>directe dici diminutio caritatis dispositio ad cor- .
+<lb ed="#L" n="101"/>ruptionem ipsius: quae fit vel per peccata 
+venia<lb break="no" ed="#L" n="102"/>lia; vel etiam per cessationem ab exercitio 
+ope<lb break="no" ed="#L" n="103"/>rum caritatis.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2392">
+                  <lb ed="#L" n="104"/>AD PRIMUM ERGO DICENDUM quod contraria sunt
+<lb ed="#L" n="105"/>circa idem quando subiectum aequaliter se habet
+<lb ed="#L" n="106"/>ad utrumque contrariorum. Sed caritas non eo-
+<pb ed="#L" n="193"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>dem modo se habet ad augmentum et 
+diminu<lb break="no" ed="#L" n="2"/>tionem: potest enim habere causam augentem,
+<lb ed="#L" n="3"/>sed non potest habere causam minuentem, sicut
+<lb ed="#L" n="4"/>dictum est. Unde ratio non sequitur.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2414">
+                  <lb ed="#L" n="5"/>AD SECUNDUM DICENDUM quod duplex est 
+cupi<lb break="no" ed="#L" n="6"/>ditas. Una quidem qua finis in creaturis 
+con<lb break="no" ed="#L" n="7"/>stituitur. Et haec totaliter mortificat caritatem:
+<lb ed="#L" n="8"/>cum sit venenum ipsius, ut Augustinus dicit 
+ibi<lb break="no" ed="#L" n="9"/>dem, Et hoc facit quod Deus minus ametur, |
+<lb ed="#L" n="10"/>scilicet quam debet amari ex caritate, non quidem
+<lb ed="#L" n="11"/>caritatem diminuendo, sed eam totaliter tollendo.
+<lb ed="#L" n="12"/>Et sic intelligendum est quod dicitur, Minus fe
+<lb ed="#L" n="13"/>amat qui tecum aliquid amat: subditur enim,
+<lb ed="#L" n="14"/>quod non propter ie amat. Quod non contingit
+<lb ed="#L" n="15"/>in peccato veniali, sed. solum in mortali: quod .
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="16"/>enim amatur in peccato veniali, propter Deum
+<lb ed="#L" n="17"/>amatur habitu, etsi non actu. - Est autem alia
+<lb ed="#L" n="18"/>cupiditas venialis peccati, quae semper " 
+dimi<lb break="no" ed="#L" n="19"/>nuitur per caritatem: sed tamen talis cupiditas
+<lb ed="#L" n="20"/>caritatem diminuere non potest, ratione iam
+<lb ed="#L" n="21"/>dicta.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2456">
+                  <lb ed="#L" n="22"/>AD TERTIUM DICENDUM quod in infusione carita- -
+<lb ed="#L" n="23"/>tis requiritur motus liberi arbitrii, sicut supra
+<lb ed="#L" n="24"/>dictum est. Et ideo illud quod. diminuit 
+inten<lb break="no" ed="#L" n="25"/>sionem liberi arbitrii, dispositive operatur ad hoc
+<lb ed="#L" n="26"/>quod caritas infundenda sit minor. Sed ad 
+con<lb break="no" ed="#L" n="27"/>servationem caritatis non requiritur motus liberi
+<lb ed="#L" n="28"/>arbitrii: alioquin non remaneret in dormientibus.
+<lb ed="#L" n="29"/>Unde per impedimentum intensionis motus liberi
+<lb ed="#L" n="30"/>arbitrii non diminuitur caritas.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1396-Dd1e2479"><!-- p2p2-q24a11 -->
+               <head xml:id="TAca84-d1e1396-Hd1e2482">Articulus 11</head>
+               <head xml:id="TAca84-d1e1396-Hd1e2484" type="question-title">Utrum caritas semel habita possit amitti</head>
+               <p xml:id="TAca84-d1e1396-d1e2487">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="41"/>ARTICULUS UNDECIMUS
+<lb ed="#L" n="42"/>UTRUM CARITAS SEMEL HABITA POSSIT AMITTI
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2496">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="43"/>AD UNDECIMUM SIC PROCEDITUR Videtur
+<lb ed="#L" n="44"/>quod caritas semel habita non possit
+<lb ed="#L" n="45"/>amitti. Si enim amittitur; non amittitur
+<lb ed="#L" n="46"/>nisi propter peccatum. Sed ille qui habet
+<lb ed="#L" n="47"/>caritatem. non potest peccare. Dicitur. enim I
+<lb ed="#L" n="48"/>Ioan. III: Omnis enim. qui- natus est ex Deo;
+<lb ed="#L" n="49"/>peccatum non facit: quia. semen ipsius in eo 
+ma<lb break="no" ed="#L" n="50"/>net, et non potest peccare, quoniam ex Deo 
+na<lb break="no" ed="#L" n="51"/>tus est, Caritatem autem non habent nisi filii Dei:
+<lb ed="#L" n="52"/>ipsa. enim est quae distinguit inter. filios. Regni et
+<lb ed="#L" n="53"/>filios NONE ut Augustinus dicit, in XV .de
+<lb ed="#L" n="54"/>Trin. Ergo ille qui habet caritatem non potest
+<lb ed="#L" n="55"/>eam amittere.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2529">
+                  <lb ed="#L" n="56"/>2. PRAETEREA, Augustinus dicit, in. VIII de
+<lb ed="#L" n="57"/>Trin., quod dilectio, si. non est vera, dilectio 
+di<lb break="no" ed="#L" n="58"/>cenda non est. Sed sicut ipse dicit in epist. ad
+<lb ed="#L" n="59"/>Julianum Comitem, caritas quae deseri potest,
+<lb ed="#L" n="60"/>nunquam vera fuit. Ergo neque caritas fuit. Si
+<lb ed="#L" n="61"/>ergo caritas semel habeatur, nunquam amittitur P.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2546">
+                  <lb ed="#L" n="62"/>3. PRAETEREA, Gregorius dicit, in homilia 
+Pen<lb break="no" ed="#L" n="63"/>tlecostes, quod amor Dei magna operatur , si
+<lb ed="#L" n="64"/>est: si desinit operari, caritas non est. Sed 
+nul<lb break="no" ed="#L" n="65"/>lus magna operando amittit caritatem, Ergo, si
+<lb ed="#L" n="66"/>caritas insit, amitti non potest,
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2559">
+                  <lb ed="#L" n="67"/>4. PRAETEREA, liberum. arbitrium non inclinatur
+<lb ed="#L" n="68"/>ad peccatum nisi. per aliquod motivum ad 
+pec<lb break="no" ed="#L" n="69"/>candum. Sed caritas excludit omnia motiva ad
+<lb ed="#L" n="70"/>peccandum: et amorem sui, et cupiditatem, et
+<lb ed="#L" n="71"/>quidquid aliud huiusmodi est. Ergo caritas amitti
+<lb ed="#L" n="72"/>non potest.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2575">
+                  <lb ed="#L" n="73"/>SED CONTRA EST quod dicitur Apoc. 11: Habeo
+<lb ed="#L" n="74"/>adversum 1e pauca, quod caritatem primam 
+re<lb break="no" ed="#L" n="75"/>liquisti.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2584">
+                  <lb ed="#L" n="76"/>RESPONDEO DICENDUM quod per caritatem. 
+Spi<lb break="no" ed="#L" n="77"/>ritus Sanctus in nobis habitat, ut. ex supradictis
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="78"/>patet. Tripliciter ergo possumus considerare 
+ca<lb break="no" ed="#L" n="79"/>ritatem. Uno modo, ex parte Spiritus Sancti 
+mo<lb break="no" ed="#L" n="80"/>ventis animam ad diligendum. Deum. Et ex hac
+<lb ed="#L" n="81"/>parte caritas impeccabilitatem habet ex | virtute
+<lb ed="#L" n="82"/>Spiritus Sancti, qui infallibiliter Y: operatur 
+quod<lb break="no" ed="#L" n="83"/>cumque voluerit. Unde impossibile est haec duo ' ». 7
+<lb ed="#L" n="84"/>simul esse vera, quod Spiritus Sanctus aliquem
+<lb ed="#L" n="85"/>velit movere ad actum caritatis, et quod ipse. 
+cari<lb break="no" ed="#L" n="86"/>tatem amittat peccando: nam donum 
+perseveran<lb break="no" ed="#L" n="87"/>tiae computatur inter. beneficia Dei quibus 
+certis<lb break="no" ed="#L" n="88"/>sime liberantur quicumque liberantur, ut: 
+Augusti<lb break="no" ed="#L" n="89"/>nus dicit, in libro de Praed. Sanct.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2619">
+                  <lb ed="#L" n="90"/>Alio modo potest considerari. caritas. secundum
+<lb ed="#L" n="91"/>propriam rationem.. Et sic caritas non potest nisi
+<lb ed="#L" n="92"/>illud quod pertinet. ad caritatis rationem. Unde
+<lb ed="#L" n="93"/>caritas nullo modo potest peccare: sicut nec 
+ca<lb break="no" ed="#L" n="94"/>lor potest infrigidare; et sicut etiam iniustitia non
+<lb ed="#L" n="95"/>potest bonum facere, ut Augustinus. dicit i in libr
+<lb ed="#L" n="96"/>de Serm. Dom. in. Monte. 
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2637">
+                  <lb ed="#L" n="97"/>Tertio modo potest considerari catitas ex PUR
+<lb ed="#L" n="98"/>subiecti, quod est vertibile secundum - arbitrii
+<lb ed="#L" n="99"/>libertatem. Potest autem attendi comparatio. 
+ca<lb break="no" ed="#L" n="100"/>ritatis ad hoc subiectum et secundum  
+univer<lb break="no" ed="#L" n="101"/>salem. rationem .qua. comparatur. forma .ad. 
+ma<lb break="no" ed="#L" n="102"/>teriam;.et. secundum specialem rationem. qua ..
+<lb ed="#L" n="103"/>comparatur habitus ad potentiam. Est autem de
+<lb ed="#L" n="104"/>ratione formae quod sit in subiecto amissibiliter
+<lb ed="#L" n="105"/>quando non replet totam. potentialitatem 
+maate<lb break="no" ed="#L" n="106"/>riae: sicut, patet in formis. generabilium et. 
+cor<lb break="no" ed="#L" n="107"/>ruptibilium.: Quia materia horum sic recipit unam
+<lb ed="#L" n="108"/>formam quod: remanet in ea potentia ad aliam
+<lb ed="#L" n="109"/>formam, quasi non repleta tota materiae 
+poten<lb break="no" ed="#L" n="110"/>tialitate per unam formam; et ideo una forma
+<lb ed="#L" n="111"/>potest amitti per acceptionem alterius. Sed forma
+<lb ed="#L" n="112"/>corporis caelestis, quia replet totam materiae pet
+<pb ed="#L" n="195"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tentialitatem; ita quod non remanet in ea potentia
+<lb ed="#L" n="2"/>ad aliam formam, inamissibiliter inest. — Sic igitur
+<lb ed="#L" n="3"/>caritas patriae, quia replet totam potentialitatem
+<lb ed="#L" n="4"/>rationalis mentis, inquantum scilicet omnis 
+actua<lb break="no" ed="#L" n="5"/>lis motus eius fertur in Deum, inamissibiliter 
+ha<lb break="no" ed="#L" n="6"/>betur. Caritas autem viae non sic replet 
+potentia<lb break="no" ed="#L" n="7"/>litatem sui subiecti: quia non semper actu fertur
+<lb ed="#L" n="8"/>in Deum. Unde quando actu in Deum non fertur,
+<lb ed="#L" n="9"/>potest aliquid occurrere per quod caritas 
+amit<lb break="no" ed="#L" n="10"/>tatur.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2701">
+                  <lb ed="#L" n="11"/>Habitui vero proprium est ut inclinet 
+poten<lb break="no" ed="#L" n="12"/>tiam ad agendum quod convenit habitui 
+inquan<lb break="no" ed="#L" n="13"/>i4 tum facit id videri bonum quod ei convenit,
+<lb ed="#L" n="14"/>malum autem quod ei repugnat. Sicut enim 
+gu<lb break="no" ed="#L" n="15"/>stus diiudicat sapores secundum suam 
+dispositio<lb break="no" ed="#L" n="16"/>nem, ita mens hominis diiudicat de aliquo 
+fa<lb break="no" ed="#L" n="17"/>ciendo secundum suam  habitualem ' 
+dispositio<lb break="no" ed="#L" n="18"/>nem: unde et Philosophus dicit, in III Ethic.
+<lb ed="#L" n="19"/>quod qualis unusquisque est, talis finis videtur ei.
+<lb ed="#L" n="20"/>Ibi ergo caritas inamissibiliter habetur, ubi id
+<lb ed="#L" n="21"/>quod convenit caritati non potest videri nisi 
+bo<lb break="no" ed="#L" n="22"/>num: scilicet in patria, ubi Deus videtur per 
+es<lb break="no" ed="#L" n="23"/>sentiam, quae est ipsa essentia bonitatis. Et ideo
+<lb ed="#L" n="24"/>caritas patriae amitti non potest. Caritas autem
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="25"/>viae, in cuius statu non videtur ipsa Dei. 
+es<lb break="no" ed="#L" n="26"/>sentia, quae est essentia bonitatis ^; potest amitti.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2740">
+                  <lb ed="#L" n="27"/>AD PRIMUM ERGO DICENDUM quod auctoritas illa
+<lb ed="#L" n="28"/>loquitur secundum potestatem Spiritus Sancti, 
+cu<lb break="no" ed="#L" n="29"/>ius conservatione a peccato immunes redduntur
+<lb ed="#L" n="30"/>quos ipse movet quantum ipse voluerit.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2751">
+                  <lb ed="#L" n="31"/>AD SECUNDUM DICENDUM quod: caritas quae 
+de<lb break="no" ed="#L" n="32"/>seri potest ex ipsa ratione caritatis, vera caritas
+<lb ed="#L" n="33"/>non est. Hoc enim esset si hoc in suo amore
+<lb ed="#L" n="34"/>haberet, quod ad tempus amaret et postea amare
+<lb ed="#L" n="35"/>disineret: quod non esset verae dilectionis. Sed
+<lb ed="#L" n="36"/>si caritas amittatur ex mutabilitate subiecti, 
+con<lb break="no" ed="#L" n="37"/>tra propositum caritatis, quod in suo actu 
+inclu<lb break="no" ed="#L" n="38"/>ditur; hoc non repugnat veritati caritatis.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2771">
+                  <lb ed="#L" n="39"/>AD TERTIUM DICENDUM quod amor Dei semper
+<lb ed="#L" n="40"/>magna operatur in proposito: quod pertinet ad
+<lb ed="#L" n="41"/>rationem caritatis. Non tamen semper magna
+<lb ed="#L" n="42"/>operatur in actu, propter conditionem subiecti.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2782">
+                  <lb ed="#L" n="43"/>AD QUARTUM DICENDUM quod caritas, secundum
+<lb ed="#L" n="44"/>rationem sui actus, excludit omne motivum ad
+<lb ed="#L" n="45"/>peccandum.. Sed quandoque contingit quod 
+ca<lb break="no" ed="#L" n="46"/>ritas actu non agit. Et tunc potest intervenire
+<lb ed="#L" n="47"/>aliquod motivum ad peccandum, cui si 
+consen<lb break="no" ed="#L" n="48"/>tiatur, caritas amittitur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1396-Dd1e2799"><!-- p2p2-q24a12 -->
+               <head xml:id="TAca84-d1e1396-Hd1e2802">Articulus 12</head>
+               <head xml:id="TAca84-d1e1396-Hd1e2804" type="question-title">Utrum caritas amittatur per unum actum peccati mortalis</head>
+               <p xml:id="TAca84-d1e1396-d1e2807">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49"/>ARTICULUS DUODECIMUS
+<lb ed="#L" n="50"/>UTRUM CARITAS AMITTATUR PER UNUM ACTUM PECCATI MORTALIS
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2816">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="51"/>AD DUODECIMUM SIC PROCEDITUR. Videtur
+<lb ed="#L" n="52"/>quod caritas non amittatur per unum 
+<lb ed="#L" n="53"/>actum peccati mortalis. Dicit enim 
+Ori<lb break="no" ed="#L" n="54"/>genes, in I Periarch.: Si aliquando
+<lb ed="#L" n="55"/>satietas capit aliquem ex his qui in summo 
+per<lb break="no" ed="#L" n="56"/>fectoque- constiterint' gradu, non. arbitror quod ad
+<lb ed="#L" n="57"/>"subitum quis evacuetur aut decidat: sed paulatim
+<lb ed="#L" n="58"/>ac per partes eum decidere necesse est. Sed homo
+<lb ed="#L" n="59"/>decidit caritatem amittens. Ergo caritas non 
+amit<lb break="no" ed="#L" n="60"/>titur per unum solum actum peccati mortalis.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2842">
+                  <lb ed="#L" n="61"/>2. PRAETEREA, Leo Papa dicit, in serm. de 
+Pas<lb break="no" ed="#L" n="62"/>sione, alloquens Petrum: Vidit in te Dominus
+<lb ed="#L" n="63"/>non fidem victam 9, non. dilectionem aversam, sed
+<lb ed="#L" n="64"/>constantiam fuisse turbatam. Abundavit fletus, ubi
+<lb ed="#L" n="65"/>non defecit affectus: et fons caritatis lavit verba
+<lb ed="#L" n="66"/>formidinis. Et ex hoc accepit Bernardus quod
+<lb ed="#L" n="67"/>dixit in Petro caritatem non fuisse extinctam,
+<lb ed="#L" n="68"/>sed sopitam. Sed Petrus, negando Christum, 
+pec<lb break="no" ed="#L" n="69"/>cavit mortaliter. Ergo caritas non amittitur per
+<lb ed="#L" n="70"/>unum actum peccati mortalis.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2867">
+                  <lb ed="#L" n="71"/>3. PRAETEREA, caritas est fortior quam virtus
+<lb ed="#L" n="72"/>acquisita. Sed habitus virtutis acquisitae non 
+tol<lb break="no" ed="#L" n="73"/>litur per unum actum peccati contrarium. Ergo
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="74"/>multo minus caritas tollitur per unum actum 
+pec<lb break="no" ed="#L" n="75"/>cati mortalis contrarium.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2883">
+                  <lb ed="#L" n="76"/>4. PRAETEREA, caritas importat dilectionem Dei
+<lb ed="#L" n="77"/>et proximi. Sed aliquis committens aliquod 
+pecca<lb break="no" ed="#L" n="78"/>tum mortale retinet dilectionem Dei et proximi,
+<lb ed="#L" n="79"/>ut videtur: inordinatio enim affectionis circa ea
+<lb ed="#L" n="80"/>quae sunt ad finem non tollit amorem finis, ut
+<lb ed="#L" n="81"/>supra dictum est. Ergo potest remanere caritas
+<lb ed="#L" n="82"/>ad Deum, existente peccato mortali per 
+inordina<lb break="no" ed="#L" n="83"/>tam affectionem circa aliquod temporale bonum.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2903">
+                  <lb ed="#L" n="84"/>5. PRAETEREA, virtutis theologicae obiectum est
+<lb ed="#L" n="85"/>ultimus finis. Sed aliae virtutes theologicae, 
+sci<lb break="no" ed="#L" n="86"/>licet fides et spes, non excluduntur per unum
+<lb ed="#L" n="87"/>actum peccati mortalis: immo remanent 
+infor<lb break="no" ed="#L" n="88"/>mes. Ergo etiam caritas potest remanere 
+infor<lb break="no" ed="#L" n="89"/>mis, etiam uno peccato mortali perpetrato.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2919">
+                  <lb ed="#L" n="90"/>SED cONTRA, per peccatum mortale fit homo
+<lb ed="#L" n="91"/>dignus morte aeterna: secundum illud Rom. vi:
+<lb ed="#L" n="92"/>Stipendia peccati mors. Sed quilibet habens 
+ca<lb break="no" ed="#L" n="93"/>ritatem habet meritum vitae aeternae: dicitur
+<lb ed="#L" n="94"/>enim loan. xiv: Si quis diligit me, diligetur a
+<lb ed="#L" n="95"/>PaTre meo, et ego diligam eum, et manifestabo
+<lb ed="#L" n="96"/>ei meipsum; in qua quidem manifestatione vita
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2937">
+                  <pb ed="#L" n="196"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>aeterna consistit, secundum illud Ioan. xvu: Haec
+<lb ed="#L" n="2"/>est vita aeterna, ut cognoscant te, verum . Deum,
+<lb ed="#L" n="3"/>et quem misisti, Iesum Christum. . Nullus. autem |
+<lb ed="#L" n="4"/>potest esse simul dignus vita aeterna et morte
+<lb ed="#L" n="5"/>aeterna. Ergo impossibile est quod aliquis habeat
+<lb ed="#L" n="6"/>caritatem cum peccato mortali. Tollitur. ergo 
+ca<lb break="no" ed="#L" n="7"/>ritas per unum actum peccati. mortalis.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2959">
+                  <lb ed="#L" n="8"/>RESPONDEO DICENDUM quod unum :contrarium
+<lb ed="#L" n="9"/>per aliud contrarium superveniens tollitur. 
+Qui<lb break="no" ed="#L" n="10"/>libet. autem. actus peccati mortalis. contrariatur
+<lb ed="#L" n="11"/>caritati secundum propriam rationem, quae. 
+con<lb break="no" ed="#L" n="12"/>sistit in hoc. quod Deus diligatur super omnia,
+<lb ed="#L" n="13"/>et quod homo totaliter se illi subiiciat, omnia sua
+<lb ed="#L" n="14"/>referendo in ipsum. Est igitur de ratione 
+carita<lb break="no" ed="#L" n="15"/>tis ut sic diligat Deum quod. in omnibus velit
+<lb ed="#L" n="16"/>se ei subiicere, et praeceptorum eius regulam i in
+<lb ed="#L" n="17"/>omnibus sequi: quidquid enim contrariatur: 
+prae<lb break="no" ed="#L" n="18"/>ceptis eius, manifeste contrariatur caritati. Unde |
+<lb ed="#L" n="19"/>de se habet quod caritatem excludere possit.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e2989">
+                  <lb ed="#L" n="20"/>Et si quidem caritas esset habitus acquisitus ex
+<lb ed="#L" n="21"/>virtute subiecti dependens, non oporteret quod 
+sta<lb break="no" ed="#L" n="22"/>tim per unum actum contrarium tolleretur. Actus
+<lb ed="#L" n="23"/>enim non directe contrariatur habitui, sed actui:
+<lb ed="#L" n="24"/>conservatio autem habitus in subiecto non 
+re<lb break="no" ed="#L" n="25"/>quirit continuitatem actus: unde ex superveniente 
+<lb ed="#L" n="26"/>contrario actu non statim habitus acquisitus 
+exclu<lb break="no" ed="#L" n="27"/>ditur. Sed caritas, cum sit habitus infusus; 
+de<lb break="no" ed="#L" n="28"/>pendet ex actione Dei infundentis, qui sic se 
+<lb ed="#L" n="29"/>habet in infusione et conservatione caritatis sicut
+<lb ed="#L" n="30"/>-- sol in illuminatione aeris, ut dictum est. Et ideo,
+<lb ed="#L" n="31"/>sicut lumen statim cessaret esse in aere quod 
+ali<lb break="no" ed="#L" n="32"/>quod obstaculum poneretur illuminationi solis, ita.
+<lb ed="#L" n="33"/>etiam caritas statim deficit esse in anima quod
+<lb ed="#L" n="34"/>aliquod obstaculum ponitur influentiae caritatis a
+<lb ed="#L" n="35"/>Deo in animam. Manifestum est autem. quod per
+<lb ed="#L" n="36"/>quodlibet mortale peccatum, quod ' divinis 
+prae<lb break="no" ed="#L" n="37"/>ceptis .contrariatur, ponitur praedictae infusioni
+<lb ed="#L" n="38"/>obstaculum: quia ex hoc ipso quod homo. 
+eli<lb break="no" ed="#L" n="39"/>gendo, praefert peccatum divinae amicitiae; quae
+<lb ed="#L" n="40"/>requirit ut Dei voluntatem sequamur, consequens
+<lb ed="#L" n="41"/>est ut statim per unum actum . peccati mortalis
+<lb ed="#L" n="42"/>habitus caritatis perdatur. Unde. et Augustinus
+<lb ed="#L" n="43"/>dicit, VIII super Gen. ad litt., quod homo, Deo
+<lb ed="#L" n="44"/>sibi praesente, illuminatur; absente autem, conti-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="45"/>nuo lenebratur; a quo non locorum intervallis,
+<lb ed="#L" n="46"/>sed voluntatis aversione disceditur. |
+</p>
+               <p xml:id="TAca84-d1e1396-d1e3052">
+                  <lb ed="#L" n="47"/>AD PRIMUM ERGO DICENDUM quod verbum 
+Orige<lb break="no" ed="#L" n="48"/>nis potest uno. modo sic intelligi quod homo qui
+<lb ed="#L" n="49"/>est in statu perfecto .non subito procedit in actum
+<lb ed="#L" n="50"/>patet per ea quae dicta sunt in responsione.
+<lb ed="#L" n="51"/>peccati mortalis, sed ad hoc. disponitur per 
+ali<lb break="no" ed="#L" n="52"/>quam negligentiam. praecedentem. Unde et 
+pec<lb break="no" ed="#L" n="53"/>cata venialia. dicuntur esse dispositio ad mortale,
+<lb ed="#L" n="54"/>sicut supra dictum est. Sed tamen per unum
+<lb ed="#L" n="55"/>actum peccati mortalis, si eum commiserit, 
+de<lb break="no" ed="#L" n="56"/>cidit, caritate amissa.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e3076">
+                  <lb ed="#L" n="57"/>Sed quia ipse subdit: Si aliquis brevis lapsus
+<lb ed="#L" n="58"/>acciderit, et cito resipiscat, non penitus ruere 
+vi<lb break="no" ed="#L" n="59"/>detur, potest aliter dici quod ipse intelligit eum
+<lb ed="#L" n="60"/>penitus evacuari et decidere qui sic decidit ut ex
+<lb ed="#L" n="61"/>malitia peccet. Quod non sintim in viro perfecto
+<lb ed="#L" n="62"/>a principio contingit.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e3092">
+                  <lb ed="#L" n="63"/>AD SECUNDUM DICENDUM quod caritas amittitur
+<lb ed="#L" n="64"/>dupliciter. Uno modo, directe, per actualem 
+con<lb break="no" ed="#L" n="65"/>temptum. Et hoc modo Petrus. caritatem. non
+<lb ed="#L" n="66"/>amisit. - Alio. modo, indirecte;. quando 
+commit<lb break="no" ed="#L" n="67"/>titur aliquod contrarium caritati propter aliquam
+<lb ed="#L" n="68"/>passionem concupiscentiae vel timoris. Et hoc
+<lb ed="#L" n="69"/>modo Petrus, contra caritatem faciens, caritatem
+<lb ed="#L" n="70"/>amisit: sed eam cito recuperavit.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e3112">
+                  <lb ed="#L" n="71"/>AD QUARTUM DICENDUM quod non quaelibet 
+inor<lb break="no" ed="#L" n="72"/>dinatio affectionis quae est circa ea quae sunt ad
+<lb ed="#L" n="73"/>finem, idest circa bona creata, constituit 
+pecca<lb break="no" ed="#L" n="74"/>tum mortale: sed solum quando est talis 
+inordi<lb break="no" ed="#L" n="75"/>natio quae repugnat divinae voluntati. Et hoc
+<lb ed="#L" n="76"/>directe contrariatur caritati, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1396-d1e3128">
+                  <lb ed="#L" n="77"/>AD QUINTUM DICENDUM quod caritas importat
+<lb ed="#L" n="78"/>unionem quandam ad Deum: non autem fides
+<lb ed="#L" n="79"/>neque spes. Omne autem peccatum mortale "
+<lb ed="#L" n="80"/>consistit in aversione a Deo, ut supra. dictum :
+<lb ed="#L" n="81"/>est. Et ideo omne peccatum - mortale A.
+<lb ed="#L" n="82"/>riatur caritati, Non autem omne peccatum 1
+<lb ed="#L" n="83"/>tale contrariatur fidei. vel spei, sed quaedam
+<lb ed="#L" n="84"/>terminata peccata, per quae habitus fidei et " spei
+<lb ed="#L" n="85"/>tollitur, sicut. et per omne peccatum mortale 
+ha<lb break="no" ed="#L" n="86"/>bitus caritatis. Unde patet quod caritas. non. potest
+<lb ed="#L" n="87"/>remanere informis: cum. sit. ultima forma .
+virtu<lb break="no" ed="#L" n="88"/>tum, ex hoc quod respicit Deus in ratione finis
+<lb ed="#L" n="89"/>ultimi, ut dictum est. 
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

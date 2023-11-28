@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 32</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 32</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="249"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1437"><!-- p2p2-q32 -->
+            <head xml:id="TAca84-d1e1437-Hd1e101">Quaestio 32</head>
+            <head xml:id="TAca84-d1e1437-Hd1e103" type="question-title">De eleemosyna</head>
+            <p xml:id="TAca84-d1e1437-d1e106">
+               <pb ed="#L" n="249"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO TRIGESIMASECUNDA
+<lb ed="#L" n="2"/>DE ELEEMOSYNA
+<lb ed="#L" n="3"/>IN DECEM ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1437-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de eleemosyna.
+</p>
+            <p xml:id="TAca84-d1e1437-d1e126">
+               <lb ed="#L" n="5"/>Et circa hoc quaeruntur decem.
+<lb ed="#L" n="6"/>Primo: utrum eleemosynae largitio sit actus
+<lb ed="#L" n="7"/>caritatis.
+<lb ed="#L" n="8"/>Secundo: de distinctione eleemosynarum.
+<lb ed="#L" n="9"/>Tertio: quae sint potiores eleemosynae, utrum
+<lb ed="#L" n="10"/>spirituales vel corporales.
+<lb ed="#L" n="11"/>Quarto: utrum corporales eleemosynae habeant
+<lb ed="#L" n="12"/>effectum spiritualem.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="13"/>Quinto: utrum dare eleemosynas sit in 
+prae<lb break="no" ed="#L" n="14"/>cepto.
+<lb ed="#L" n="15"/>Sexto: utrum corporalis eleemosyna sit danda
+<lb ed="#L" n="16"/>de necessario.
+<lb ed="#L" n="17"/>Septimo: utrum sit danda de iniuste 
+acqui<lb break="no" ed="#L" n="18"/>sito.
+<lb ed="#L" n="19"/>Octavo: quorum sit dare eleemosynam.
+<lb ed="#L" n="20"/>Nono: quibus sit danda.
+<lb ed="#L" n="21"/>Decimo: de modo dandi eleemosynas.
+</p>
+            <div xml:id="TAca84-d1e1437-Dd1e169"><!-- p2p2-q32a1 -->
+               <head xml:id="TAca84-d1e1437-Hd1e172">Articulus 1</head>
+               <head xml:id="TAca84-d1e1437-Hd1e174" type="question-title">Utrum dare eleemosynam sit actus caritatis</head>
+               <p xml:id="TAca84-d1e1437-d1e177">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="22"/>ARTICULUS PRIMUS
+<lb ed="#L" n="23"/>UTRUM DARE ELEEMOSYNAM SIT ACTUS CARITATIS
+</p>
+               <p xml:id="TAca84-d1e1437-d1e186">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="24"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="25"/>dare eleemosynam non sit actus 
+carita<lb break="no" ed="#L" n="26"/>tis. Actus enim caritatis non potest esse
+<lb ed="#L" n="27"/>sine caritate. Sed largitio 
+eleemosyna<lb break="no" ed="#L" n="28"/>rum potest esse sine caritate: secundum illud
+<lb ed="#L" n="29"/>I ad Cor. xut: Si distribuero in cibos pauperum
+<lb ed="#L" n="30"/>omnes facultates meas, caritatem autem non 
+ha<lb break="no" ed="#L" n="31"/>buero. Ergo dare eleemosynam non est actus
+<lb ed="#L" n="32"/>caritatis.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e210">
+                  <lb ed="#L" n="33"/>2. PRAETEREA, eleemosyna computatur inter
+<lb ed="#L" n="34"/>opera satisfactionis: secundum illud Dan. iv:
+<lb ed="#L" n="35"/>Peccata tua eleemosynis redime. Sed satisfactio
+<lb ed="#L" n="36"/>est actus iustitiae. Ergo dare eleemosynam non
+<lb ed="#L" n="37"/>est actus caritatis, sed iustitiae.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e224">
+                  <lb ed="#L" n="38"/>3. PRAETEREA, offerre hostiam Deo est actus
+<lb ed="#L" n="39"/>latriae. Sed dare eleemosynam est offerre hostiam
+<lb ed="#L" n="40"/>Deo: secundum illud ad Zeb. ult.: 
+Beneficen<lb break="no" ed="#L" n="41"/>tiae et communionis nolite oblivisci: talibus enim
+<lb ed="#L" n="42"/>hostiis promeretur Deus. Ergo caritatis non est
+<lb ed="#L" n="43"/>actus dare eleemosynam, sed magis latriae.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e240">
+                  <lb ed="#L" n="44"/>4. PRAETEREA, .Philosophus dicit, in IV Ethic.,
+<lb ed="#L" n="45"/>quod dare aliquid propter bonum est actus 
+libe<lb break="no" ed="#L" n="46"/>ralitatis: Sed hoc maxime fit in largitione 
+elee<lb break="no" ed="#L" n="47"/>mosynarum. Ergo dare eleemosynam non est actus
+<lb ed="#L" n="48"/>caritatis.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e253">
+                  <lb ed="#L" n="49"/>SEp coNTRA EsT quod dicitur I Ioan. i1: Qui
+<lb ed="#L" n="50"/>habuerit substantiam huius mundi, et viderit 
+fra<lb break="no" ed="#L" n="51"/>trem suum necessitatem patientem, et clauserit 
+vi<lb break="no" ed="#L" n="52"/>scera sua ab eo, quomodo caritas Dei manet in
+<lb ed="#L" n="53"/>illo ?
+</p>
+               <p xml:id="TAca84-d1e1437-d1e266">
+                  <lb ed="#L" n="54"/>RESPONDEO DICENDUM quod exteriores actus ad
+<lb ed="#L" n="55"/>illam virtutem referuntur ad quam pertinet id
+<lb ed="#L" n="56"/>quod est motivum ad agendum huiusmodi actus.
+<lb ed="#L" n="57"/>Motivum autem ad dandum eleemosynas est ut
+<lb ed="#L" n="58"/>subveniatur necessitatem patienti: unde quidam,
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="59"/>definientes eleemosynam, dicunt quod 
+eleemo<lb break="no" ed="#L" n="60"/>syna est opus quo datur aliquid indigenti ex 
+com<lb break="no" ed="#L" n="61"/>passione propter Deum. Quod quidem motivum
+<lb ed="#L" n="62"/>pertinet ad misericordiam, ut supra dictum est.
+<lb ed="#L" n="63"/>Unde manifestum est quod dare eleemosynam
+<lb ed="#L" n="64"/>proprie est actus misericordiae. Et hoc apparet
+<lb ed="#L" n="65"/>ex ipso nomine: nam in graeco a misericordia
+<lb ed="#L" n="66"/>derivatur, sicut in latino miseratio. Et quia 
+mi<lb break="no" ed="#L" n="67"/>sericordia est effectus caritatis, ut supra 
+osten<lb break="no" ed="#L" n="68"/>sum est, ex consequenti dare eleemosynam est
+<lb ed="#L" n="69"/>actus caritatis, misericordia mediante.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e305">
+                  <lb ed="#L" n="70"/>AD PRIMUM ERGO DICENDUM quod aliquid dicitur
+<lb ed="#L" n="71"/>esse actus virtutis dupliciter. Uno modo, 
+mate<lb break="no" ed="#L" n="72"/>rialiÀter: sicut actus iustitiae est facere iusta. Et
+<lb ed="#L" n="73"/>talis actus virtutis potest esse sine virtute: multi
+<lb ed="#L" n="74"/>enim non habentes habitum iustitiae iusta 
+ope<lb break="no" ed="#L" n="75"/>rantur, vel ex naturali ratione, vel ex timore sive
+<lb ed="#L" n="76"/>ex spe aliquid adipiscendi. Alio modo dicitur esse
+<lb ed="#L" n="77"/>aliquid actus virtutis formaliter: sicut actus 
+iusti<lb break="no" ed="#L" n="78"/>tiae est actio iusta eo modo quo iustus facit, 
+sci<lb break="no" ed="#L" n="79"/>licet prompte et delectabiliter. Et hoc modo actus
+<lb ed="#L" n="80"/>virtutis non est sine virtute. - Secundum hoc ergo
+<lb ed="#L" n="81"/>dare eleemosynas materialiter potest esse sine 
+ca<lb break="no" ed="#L" n="82"/>ritate: formaliter autem eleemosynas dare, idest
+<lb ed="#L" n="83"/>propter Deum, delectabiliter et prompte et omni
+<lb ed="#L" n="84"/>eo modo quo debet, non est sine caritate.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e340">
+                  <lb ed="#L" n="85"/>AD SECUNDUM DICENDUM quod nihil prohibet actum
+<lb ed="#L" n="86"/>qui est proprie unius virtutis elicitive, attribui 
+al<lb break="no" ed="#L" n="87"/>teri virtuti sicut imperanti et ordinanti ad suum
+<lb ed="#L" n="88"/>finem. Et hoc modo dare eleemosynam ponitur p. u;s.
+<lb ed="#L" n="89"/>inter opera satisfactoria: inquantum miseratio in
+<lb ed="#L" n="90"/>defectum patientis ordinatur ad satisfaciendum
+<lb ed="#L" n="91"/>pro culpa. - Secundum autem quod ordinatur
+<lb ed="#L" n="92"/>ad placandum Deum, habet rationem sacrificii:
+<lb ed="#L" n="93"/>et sic imperatur a latria,
+</p>
+               <p xml:id="TAca84-d1e1437-d1e363">
+                  <pb ed="#L" n="250"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Unde patet responsio ad tertium.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e372">
+                  <lb ed="#L" n="2"/>AD QUARTUM DICENDUM quod dare eleemosynam 
+<lb ed="#L" n="3"/>pertinet ad liberalitatem inquantum liberalitas au- 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="4"/>fert impedimentum huius actus, quod esse posset
+<lb ed="#L" n="5"/>ex superfluo amore divitiarum, propter quem ?-
+<lb ed="#L" n="6"/>aliquis efficitur nimis retentivus earum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1437-Dd1e389"><!-- p2p2-q32a2 -->
+               <head xml:id="TAca84-d1e1437-Hd1e392">Articulus 2</head>
+               <head xml:id="TAca84-d1e1437-Hd1e394" type="question-title">Utrum convenienter eleemosynarum genera distinguantur</head>
+               <p xml:id="TAca84-d1e1437-d1e397">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="32"/>ARTICULUS SECUNDUS :
+<lb ed="#L" n="33"/>UTRUM CONVENIENTER ELEEMOSYNARUM GENERA DISTINGUANTUR
+</p>
+               <p xml:id="TAca84-d1e1437-d1e406">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="34"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="35"/>inconvenienter eleemosynarum genera
+<lb ed="#L" n="36"/>a distinguantur. Ponuntur enim septem
+<lb ed="#L" n="37"/>eleemosynae corporales: scilicet pascere
+<lb ed="#L" n="38"/>esurientem, potare sitientem, vestire nudum, 
+re<lb break="no" ed="#L" n="39"/>colligere hospitem, visitare infirmum, redimere
+<lb ed="#L" n="40"/>captivum, et sepelire mortuum; quae in hoc versu
+<lb ed="#L" n="41"/>continentur: Visito, poto, cibo, redimo, tego, 
+col<lb break="no" ed="#L" n="42"/>ligo, condo. Ponuntur etiam aliae septem 
+elee<lb break="no" ed="#L" n="43"/>mosynae spirituales: scilicet docere ignorantem,
+<lb ed="#L" n="44"/>consulere dubitanti, consolari tristem, corrigere
+<lb ed="#L" n="45"/>peccantem, remittere offendenti, portare 
+onero<lb break="no" ed="#L" n="46"/>sos et graves, et pro omnibus orare; quae etiam
+<lb ed="#L" n="47"/>in hoc versu continentur: Consule, casíiga, 
+so<lb break="no" ed="#L" n="48"/>lare, remille, fer, ora; ita tamen quod sub 
+eo<lb break="no" ed="#L" n="49"/>dem intelligatur consilium et doctrina. Videtur
+<lb ed="#L" n="50"/>autem quod inconvenienter huiusmodi 
+eleemosy<lb break="no" ed="#L" n="51"/>nae distinguantur. Eleemosyna enim ordinatur ad
+<lb ed="#L" n="52"/>subveniendum proximo. Sed per hoc quod 
+pro<lb break="no" ed="#L" n="53"/>ximus sepelitur, in nullo ei subvenitur: alioquin
+<lb ed="#L" n="54"/>non esset verum quod Dominus dicit, Matth. x:
+<lb ed="#L" n="55"/>Nolite timere eos qui occidunt corpus, et post hoc
+<lb ed="#L" n="56"/>non habent amplius quid faciant. Unde et 
+Domi<lb break="no" ed="#L" n="57"/>us, Matth. xxv, commemorans misericordiae
+<lb ed="#L" n="58"/>opera, de sepultura mortuorum mentionem non
+<lb ed="#L" n="59"/>facit. Ergo videtur quod inconvenienter huiusmodi
+<lb ed="#L" n="60"/>eleemosynae distinguantur.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e469">
+                  <lb ed="#L" n="61"/>2. PRAETEREA, eleemosyna datur ad 
+subvenien<lb break="no" ed="#L" n="62"/>dum necessitatibus proximi, sicut dictum est.
+<lb ed="#L" n="63"/>Sed multae aliae sunt necessitates humanae vitae
+<lb ed="#L" n="64"/>quam praedictae: sicut quod caecus indiget 
+du<lb break="no" ed="#L" n="65"/>ctore, claudus sustentatione, pauper divitiis. Ergo
+<lb ed="#L" n="66"/>inconvenienter praedictae eleemosynae 
+enume<lb break="no" ed="#L" n="67"/>rantur.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e488">
+                  <lb ed="#L" n="68"/>3. PRAETEREA, dare eleemosynam est actus mi-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="69"/>sericordiae. Sed corrigere delinquentem magis 
+vi<lb break="no" ed="#L" n="70"/>detur ad severitatem pertinere quam ad 
+miseri<lb break="no" ed="#L" n="71"/>cordiam. Ergo non debet computari inter 
+elee<lb break="no" ed="#L" n="72"/>mosynas spirituales.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e504">
+                  <lb ed="#L" n="73"/>4. PRAETEREA, eleemosyna ordinatur ad 
+subve<lb break="no" ed="#L" n="74"/>niendum defectui. Sed nullus est homo qui 
+de<lb break="no" ed="#L" n="75"/>fectum ignorantiae non patiatur in aliquibus. Ergo
+<lb ed="#L" n="76"/>videtur quod quilibet debeat quemlibet docere,
+<lb ed="#L" n="77"/>si ignoret id quod ipse scit.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e517">
+                  <lb ed="#L" n="78"/>SED coNTRA EST quod Gregorius dicit, in 
+qua<lb break="no" ed="#L" n="79"/>dam homilia: Habens intellectum curet omnino
+<lb ed="#L" n="80"/>ne taceat; habens rerum affluentiam vigilet ne a
+<lb ed="#L" n="81"/>misericordiae largitate lorpescat; habens artem
+<lb ed="#L" n="82"/>qua regilur magnopere studeat ut usum atque
+<lb ed="#L" n="83"/>utilitatem illius cum proximo partiatur ?; habens
+<lb ed="#L" n="84"/>loquendi locum apud divitem damnationem pro
+<lb ed="#L" n="85"/>retento talento timeat si, cum valet, non apud eum
+<lb ed="#L" n="86"/>pro pauperibus intercedat. Ergo praedictae 
+elee<lb break="no" ed="#L" n="87"/>mosynae convenienter distinguuntur secundum
+<lb ed="#L" n="88"/>ea in quibus homines abundant et. deficiunt.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e543">
+                  <lb ed="#L" n="89"/>RESPONDEO DICENDUM quod praedicta 
+eleemosy<lb break="no" ed="#L" n="90"/>narum distinctio convenienter sumitur secundum
+<lb ed="#L" n="91"/>diversos defectus proximorum. Quorum quidam
+<lb ed="#L" n="92"/>sunt ex parte animae, ad quos ordinantur 
+spiri<lb break="no" ed="#L" n="93"/>tuales eleemosynae; quidam vero ex parte 
+cor<lb break="no" ed="#L" n="94"/>poris, ad quos ordinantur eleemosynae corporales.
+<lb ed="#L" n="95"/>Defectus enim corporalis aut est in vita, aut est !
+<lb ed="#L" n="96"/>post vitam. Si quidem est in vita, aut est 
+com<lb break="no" ed="#L" n="97"/>munis defectus respectu eorum quibus omnes 
+in<lb break="no" ed="#L" n="98"/>digent; aut est specialis propter aliquod accidens
+<lb ed="#L" n="99"/>superveniens. Si primo modo, aut defectus est
+<lb ed="#L" n="100"/>interior, aut exterior. Interior quidem est duplex:
+<lb ed="#L" n="101"/>unus quidem cui subvenitur per alimentum 
+sic<lb break="no" ed="#L" n="102"/>cum, scilicet fames, et secundum hoc ponitur 
+pa<lb break="no" ed="#L" n="103"/>scere esurientem; alius autem est cui subvenitur
+<pb ed="#L" n="251"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>per alimentum humidum, scilicet sitis, et 
+secun<lb break="no" ed="#L" n="2"/>dum hoc dicitur potare sitientem. - Defectus 
+au<lb break="no" ed="#L" n="3"/>tem communis respectu exterioris auxilii est 
+du<lb break="no" ed="#L" n="4"/>plex: unus respectu tegumenti, et quantum ad
+<lb ed="#L" n="5"/>hoc ponitur vestire nudum; alius est respectu
+<lb ed="#L" n="6"/>habitaculi, et quantum ad hoc est suscipere
+<lb ed="#L" n="7"/>hospitem. — Similiter autem si sit defectus aliquis
+<lb ed="#L" n="8"/>specialis, aut est ex causa intrinseca, sicut 
+infir<lb break="no" ed="#L" n="9"/>mitas, et quantum ad hoc ponitur visitare 
+infir<lb break="no" ed="#L" n="10"/>mum: aut ex causa extrinseca, et quantum ad
+<lb ed="#L" n="11"/>hoc ponitur redemptio captivorum. - Post vitam
+<lb ed="#L" n="12"/>autem exhibetur mortuis sepultura.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e608">
+                  <lb ed="#L" n="13"/>Similiter autem spiritualibus defectibus 
+spiritua<lb break="no" ed="#L" n="14"/>libus actibus subvenitur dupliciter. Uno modo,
+<lb ed="#L" n="15"/>poscendo auxilium a Deo: et quantum ad hoc
+<lb ed="#L" n="16"/>ponitur oratio, qua quis pro aliis orat.- Alio modo,
+<lb ed="#L" n="17"/>impendendo humanum auxilium: et hoc 
+triplici<lb break="no" ed="#L" n="18"/>ter. Uno modo, contra defectum intellectus: et
+<lb ed="#L" n="19"/>si quidem sit defectus speculativi intellectus, 
+adhi<lb break="no" ed="#L" n="20"/>betur ei remedium per doctrinam; si autem 
+pra<lb break="no" ed="#L" n="21"/>ctici intellectus, adhibetur ei remedium per 
+con<lb break="no" ed="#L" n="22"/>silium. - Alio modo est defectus ex passione 
+ap<lb break="no" ed="#L" n="23"/>petitivae virtutis: inter quos est maximus tristitia,
+<lb ed="#L" n="24"/>cui subvenitur per consolationem. - Tertio modo,
+<lb ed="#L" n="25"/>ex parte inordinati actus: qui quidem tripliciter
+<lb ed="#L" n="26"/>considerari potest. Uno modo, ex parte ipsius
+<lb ed="#L" n="27"/>peccantis, inquantum procedit ab eius inordinata
+<lb ed="#L" n="28"/>voluntate: et sic adhibetur remedium per 
+corre<lb break="no" ed="#L" n="29"/>ctionem. Alio modo, ex parte eius in quem 
+pec<lb break="no" ed="#L" n="30"/>atur: et sic, si quidem sit peccatum in nos,
+<lb ed="#L" n="31"/>remedium adhibemus: remittendo offensam; si
+<lb ed="#L" n="32"/>autem sit in Deum vel in proximum, 70n est
+<lb ed="#L" n="33"/>nostri arbitrii remittere, ut Hieronymus dicit, 
+su<lb break="no" ed="#L" n="34"/>per Matth. Tertio modo, ex parte sequelae
+<lb ed="#L" n="35"/>ipsius actus inordinati, ex qua gravantur ei 
+con<lb break="no" ed="#L" n="36"/>viventes, etiam praeter peccantis intentionem: et
+<lb ed="#L" n="37"/>sic remedium adhibetur supportando; maxime in
+<lb ed="#L" n="38"/>his qui ex infirmitate peccant, secundum illud
+<lb ed="#L" n="39"/>Rom. xv: Debemus nos firmiores infirmitates
+<lb ed="#L" n="40"/>aliorum portare ^. Et non solum secundum quod
+<lb ed="#L" n="41"/>infirmi sunt graves ex inordinatis actibus, sed
+<lb ed="#L" n="42"/>etiam quaecumque eorum onera sunt 
+suppor<lb break="no" ed="#L" n="43"/>tanda: secundum illud Gajíat. v1: Alter alterius
+<lb ed="#L" n="44"/>onera portate.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e680">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="45"/>AD PRIMUM ERGO DICENDUM quod sepultura 
+mor<lb break="no" ed="#L" n="46"/>tui non confert ei quantum ad sensum quem
+<lb ed="#L" n="47"/>corpus post mortem habeat. Et secundum hoc
+<lb ed="#L" n="48"/>Dominus dicit quod interficientes corpus non 
+ha<lb break="no" ed="#L" n="49"/>bent amplius quid faciant. Et propter hoc etiam
+<lb ed="#L" n="50"/>Dominus non commemorat sepulturam inter alia
+<lb ed="#L" n="51"/>misericordiae opera, sed numerat ' solum illa quae
+<lb ed="#L" n="52"/>sunt evidentioris necessitatis. Pertinet tamen ad
+<lb ed="#L" n="53"/>defunctum quid de eius corpore agatur, tum 
+quan<lb break="no" ed="#L" n="54"/>tum ad hoc quod vivit in memoriis hominum,
+<lb ed="#L" n="55"/>cuius honor dehonestatur si insepultus remaneat;
+<lb ed="#L" n="56"/>tum etiam quantum ad affectum quem adhuc
+<lb ed="#L" n="57"/>vivens habebat de suo corpore, cui piorum 
+af<lb break="no" ed="#L" n="58"/>fectus conformari debet post mortem ipsius. Et
+<lb ed="#L" n="59"/>secundum hoc aliqui commendantur de 
+mortuo<lb break="no" ed="#L" n="60"/>rum sepultura, ut Tobias et illi qui Dominum
+<lb ed="#L" n="61"/>sepelierunt; ut patet per Augustinum, in libro de
+<lb ed="#L" n="62"/>Cura pro Mortuis agenda.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e725">
+                  <lb ed="#L" n="63"/>AD SECUNDUM DICENDUM quod omnes aliae 
+ne<lb break="no" ed="#L" n="64"/>cessitates ad has reducuntur. Nam et caecitas et
+<lb ed="#L" n="65"/>claudicatio sunt infirmitates quaedam: unde 
+di<lb break="no" ed="#L" n="66"/>rigere caecum et sustentare claudum reducitur
+<lb ed="#L" n="67"/>ad visitationem infirmorum. Similiter etiam 
+sub<lb break="no" ed="#L" n="68"/>venire homini contra quamcumque oppressionem
+<lb ed="#L" n="69"/>illatam extrinsecus reducitur ad redemptionem
+<lb ed="#L" n="70"/>captivorum. Divitiae autem, quibus paupertati
+<lb ed="#L" n="71"/>subvenitur, non quaeruntur nisi ad 
+subvenien<lb break="no" ed="#L" n="72"/>dum praedictis defectibus: et ideo non fuit 
+spe<lb break="no" ed="#L" n="73"/>cialis mentio de hoc defectu facienda.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e751">
+                  <lb ed="#L" n="74"/>AD TERTIUM DICENDUM quod correctio 
+peccan<lb break="no" ed="#L" n="75"/>tium, quantum ad ipsam executionem actus, 
+se<lb break="no" ed="#L" n="76"/>veritatem iustitiae continere videtur. Sed 
+quan<lb break="no" ed="#L" n="77"/>tum ad intentionem corrigentis, qui vult 
+homi<lb break="no" ed="#L" n="78"/>nem a malo culpae liberare, pertinet ad 
+miseri<lb break="no" ed="#L" n="79"/>cordiam et dilectionis affectum: secundum illud
+<lb ed="#L" n="80"/>Prov. xxvi: Meliora sunt verbera diligentis quam
+<lb ed="#L" n="81"/>fraudulenta oscula odientis.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e771">
+                  <lb ed="#L" n="82"/>AD QUARTUM DICENDUM quod non quaelibet 
+ne<lb break="no" ed="#L" n="83"/>scientia pertinet ad hominis defectum, sed solum
+<lb ed="#L" n="84"/>ea qua quis nescit ea quae convenit eum scire:
+<lb ed="#L" n="85"/>cui defectui per doctrinam subvenire ad 
+eleemo<lb break="no" ed="#L" n="86"/>synam pertinet. In quo tamen observandae sunt
+<lb ed="#L" n="87"/>debitae circumstantiae personae et loci et 
+tem<lb break="no" ed="#L" n="88"/>poris, sicut et in aliis actibus virtuosis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1437-Dd1e790"><!-- p2p2-q32a3 -->
+               <head xml:id="TAca84-d1e1437-Hd1e793">Articulus 3</head>
+               <head xml:id="TAca84-d1e1437-Hd1e795" type="question-title">Utrum eleemosynae corporales sint potiores quam spirituales</head>
+               <p xml:id="TAca84-d1e1437-d1e798">
+                  <pb ed="#L" n="252"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM ELEEMOSYNAE CORPORALES SINT POTIORES QUAM SPIRITUALES
+</p>
+               <p xml:id="TAca84-d1e1437-d1e809">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>eleemosynae corporales sint potiores
+<lb ed="#L" n="5"/>quam spirituales. Laudabilius enim est
+<lb ed="#L" n="6"/>magis indigenti eleemosynam facere :
+<lb ed="#L" n="7"/>ex hoc enim eleemosyna laudem habet quod
+<lb ed="#L" n="8"/>indigenti subvenit. Sed corpus, cui subvenitur
+<lb ed="#L" n="9"/>per eleemosynas corporales, est indigentioris 
+na<lb break="no" ed="#L" n="10"/>turae quam spiritus, cui subvenitur per 
+eleemo<lb break="no" ed="#L" n="11"/>synas spirituales. Ergo eleemosynae corporales
+<lb ed="#L" n="12"/>sunt potiores.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e835">
+                  <lb ed="#L" n="13"/>2. PRAETEREA, recompensatio beneficii laudem
+<lb ed="#L" n="14"/>et meritum eleemosynae minuit: unde et 
+Do<lb break="no" ed="#L" n="15"/>minus dicit, Luc. xiv: Cum facis prandium aut
+<lb ed="#L" n="16"/>cenam, noli vocare vicinos divites, ne forie et
+<lb ed="#L" n="17"/>ipsi te reinvitent. Sed in eleemosynis spiritualibus
+<lb ed="#L" n="18"/>semper est recompensatio: quia qui orat pro alio
+<lb ed="#L" n="19"/>sibi proficit, secundum illud Psalm.: Oratio
+<lb ed="#L" n="20"/>mea in sinu meo converletur; qui etiam alium
+<lb ed="#L" n="21"/>docet, ipse in scientia proficit. Quod non 
+con<lb break="no" ed="#L" n="22"/>tingit in eleemosynis corporalibus. Ergo 
+eleemo<lb break="no" ed="#L" n="23"/>synae corporales sunt potiores quam spirituales.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e862">
+                  <lb ed="#L" n="24"/>3. PRAETEREA, ad laudem eleemosynae pertinet.
+<lb ed="#L" n="25"/>quod pauper ex eleemosyna data consoletur: 
+un<lb break="no" ed="#L" n="26"/>de Job xxxi. dicitur: Si non benedixerunt mihi
+<lb ed="#L" n="27"/>latera eius; et ad Philemonem dicit Apostolus:
+<lb ed="#L" n="28"/>Viscera sanctorum requieverunt per te, frater. Sed
+<lb ed="#L" n="29"/>quandoque magis est grata pauperi eleemosyna
+<lb ed="#L" n="30"/>corporalis quam spiritualis. Ergo eleemosyna 
+cor<lb break="no" ed="#L" n="31"/>poralis potior est quam spiritualis.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e882">
+                  <lb ed="#L" n="32"/>SED coNTRA EsT quod Augustinus, in libro de
+<lb ed="#L" n="33"/>Serm. Dom. in Monte, super illud, Qui petit
+<lb ed="#L" n="34"/>a le, da ei, dicit: Dandum est quod nec tibi nec
+<lb ed="#L" n="35"/>alteri noceat: et cum negaveris quod petit, 
+indi<lb break="no" ed="#L" n="36"/>canda est iustitia, ut non eum inanem dimittas.
+<lb ed="#L" n="37"/>Et aliquando melius aliquid. dabis, cum iniuste
+<lb ed="#L" n="38"/>petentem  correxeris. Correctio autem est 
+elee<lb break="no" ed="#L" n="39"/>mosyna spiritualis. Ergo spirituales eleemosynae
+<lb ed="#L" n="40"/>sunt corporalibus praeferendae.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e904">
+                  <lb ed="#L" n="41"/>RESPONDEO DICENDUM quod comparatio istarum
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="42"/>eleemosynarum potest attendi dupliciter. Uno 
+mo<lb break="no" ed="#L" n="43"/>do, simpliciter loquendo: et secundum hoc 
+elee<lb break="no" ed="#L" n="44"/>mosynae spirituales praeeminent, triplici ratione.
+<lb ed="#L" n="45"/>Primo quidem, quia id quod exhibetur nobilius
+<lb ed="#L" n="46"/>est, scilicet donum spirituale, quod praeeminet
+<lb ed="#L" n="47"/>corporali: secundum illud Prov. iv: Donum 
+bo<lb break="no" ed="#L" n="48"/>num tribuam vobis: legem meam ne derelinquatis.
+<lb ed="#L" n="49"/>- Secundo, ratione eius cui subvenitur: quia 
+spi<lb break="no" ed="#L" n="50"/>ritus nobilior est corpore. Unde sicut homo sibi
+<lb ed="#L" n="51"/>ipsi magis debet providere quantum ad spiritum
+<lb ed="#L" n="52"/>quam quantum ad corpus, ita et proximo, quem
+<lb ed="#L" n="53"/>debet tanquam seipsum diligere. — Tertio, 
+quan<lb break="no" ed="#L" n="54"/>tum ad ipsos actus quibus subvenitur proximo:
+<lb ed="#L" n="55"/>quia spirituales actus sunt nobiliores corporalibus,
+<lb ed="#L" n="56"/>qui sunt quodammodo serviles.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e943">
+                  <lb ed="#L" n="57"/>Alio modo possunt comparari secundum 
+ali<lb break="no" ed="#L" n="58"/>quem particularem casum, in quo quaedam 
+cor<lb break="no" ed="#L" n="59"/>poralis eleemosyna alicui spirituali praefertur.
+<lb ed="#L" n="60"/>Puta, magis esset ! pascendum fame morientem
+<lb ed="#L" n="61"/>quam docendum: sicut et indigenti, secundum
+<lb ed="#L" n="62"/>Philosophum, melius est ditari quam 
+philoso<lb break="no" ed="#L" n="63"/>phari, quamvis hoc sit simpliciter melius.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e961">
+                  <lb ed="#L" n="64"/>AD PRIMUM ERGO DICENDUM quod dare magis 
+in<lb break="no" ed="#L" n="65"/>digenti melius est, ceteris paribus. Sed si minus
+<lb ed="#L" n="66"/>indigens sit melior, et melioribus indigeat, dare
+<lb ed="#L" n="67"/>ei melius est. Et sic est in proposito.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e972">
+                  <lb ed="#L" n="68"/>AD SECUNDUM DICENDUM quod recompensatio non
+<lb ed="#L" n="69"/>minuit meritum et laudem eleemosynae si non
+<lb ed="#L" n="70"/>sit intenta: sicut etiam humana gloria, si non sit
+<lb ed="#L" n="71"/>intenta, non minuit rationem virtutis; sicut et de
+<lb ed="#L" n="72"/>Catone Sallustius dicit? quod quo magis 
+glo<lb break="no" ed="#L" n="73"/>riam fugiebat, eo magis eum gloria sequebatur. p«
+<lb ed="#L" n="74"/>Et ita contingit in eleemosynis spiritualibus. - Et
+<lb ed="#L" n="75"/>tamen intentio bonorum spiritualium non minuit
+<lb ed="#L" n="76"/>meritum, sicut intentio bonorum corporalium.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e995">
+                  <lb ed="#L" n="77"/>AD TERTIUM DICENDUM quod meritum dantis 
+elee<lb break="no" ed="#L" n="78"/>mosynam attenditur secundum id in quo debet
+<lb ed="#L" n="79"/>rationabiliter requiescere voluntas accipientis: non
+<lb ed="#L" n="80"/>in eo in quo requiescit si sit inordinata.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1437-Dd1e1007"><!-- p2p2-q32a4 -->
+               <head xml:id="TAca84-d1e1437-Hd1e1010">Articulus 4</head>
+               <head xml:id="TAca84-d1e1437-Hd1e1012" type="question-title">Utrum eleemosynae corporales habeant effectum spiritualem</head>
+               <p xml:id="TAca84-d1e1437-d1e1015">
+                  <pb ed="#L" n="253"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUARTUS
+<lb ed="#L" n="2"/>UTRUM ELEEMOSYNAE CORPORALES HABEANT EFFECTUM SPIRITUALEM
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1026">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="4"/>eleemosynae corporales non habeant 
+<lb ed="#L" n="5"/>effectum spiritualem. Effectus enim non  
+<lb ed="#L" n="6"/>est potior sua causa. Sed bona 
+spiri<lb break="no" ed="#L" n="7"/>tualia sunt potiora corporalibus. Non ergo 
+elee<lb break="no" ed="#L" n="8"/>mosynae corporales habent spirituales effectus.  
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1044">
+                  <lb ed="#L" n="9"/>2. PRAETEREA, dare corporale pro spirituali 
+vi<lb break="no" ed="#L" n="10"/>tium simoniae est. Sed hoc vitium est omnino  
+<lb ed="#L" n="11"/>vitandum. Non ergo sunt dandae eleemosynae 
+<lb ed="#L" n="12"/>ad consequendum spirituales effectus. 
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1056">
+                  <lb ed="#L" n="13"/>3. PRAETEREA, multiplicata causa, multiplicatur 
+<lb ed="#L" n="14"/>effectus. Si igitur eleemosyna corporalis causaret  
+<lb ed="#L" n="15"/>spiritualem effectum, sequeretur quod maior 
+elee<lb break="no" ed="#L" n="16"/>mosyna magis spiritualiter proficeret. Quod est  
+<lb ed="#L" n="17"/>contra illud quod legitur Luc. xxi de vidua 
+<lb ed="#L" n="18"/>mittente duo aera minuta in gazophylacium, quae,  
+<lb ed="#L" n="19"/>secundum sententiam Domini, plus omnibus misit.  
+<lb ed="#L" n="20"/>Non ergo eleemosyna corporalis habet 
+spiritua<lb break="no" ed="#L" n="21"/>lem effectum. 
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1078">
+                  <lb ed="#L" n="22"/>SED CONTRA EsT quod dicitur Eccli. xxix: 
+Elee<lb break="no" ed="#L" n="23"/>mosyna viri gratiam hominis quasi pupillam 
+con<lb break="no" ed="#L" n="24"/>servabit. 
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1087">
+                  <lb ed="#L" n="25"/>REsPONDEO DICENDUM quod eleemosyna 
+corpo<lb break="no" ed="#L" n="26"/>ralis tripliciter potest considerari. Uno modo,  
+<lb ed="#L" n="27"/>secundum suam substantiam. Et secundum hoc
+<lb ed="#L" n="28"/>non habet nisi corporalem effectum, inquantum  
+<lb ed="#L" n="29"/>scilicet supplet corporales defectus proximorum. 
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1100">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="30"/>Alio modo potest considerari ex parte causae eius:
+<lb ed="#L" n="31"/>inquantum scilicet aliquis eleemosynam 
+corpo<lb break="no" ed="#L" n="32"/>ralem dat propter dilectionem Dei et proximi.
+<lb ed="#L" n="33"/>Et quantum ad hoc affert fructum spiritualem :
+<lb ed="#L" n="34"/>secundum illud Eccli xxix: JPerde pecuniam
+<lb ed="#L" n="35"/>propter fratrem. Pone thesaurum in praeceptis
+<lb ed="#L" n="36"/>Altissimi, et proderit libi magis quam aurum. 
+<lb ed="#L" n="37"/>Tertio modo, ex parte effectus. Et sic etiam
+<lb ed="#L" n="38"/>habet spiritualem fructum: inquantum scilicet
+<lb ed="#L" n="39"/>proximus, cui per corporalem eleemosynam 
+sub<lb break="no" ed="#L" n="40"/>venitur, movetur ad orandum pro benefactore.
+<lb ed="#L" n="41"/>Unde et ibidem subditur: Conclude 
+eleemosy<lb break="no" ed="#L" n="42"/>nam in sinu pauperis, et haec pro te exorabit
+<lb ed="#L" n="43"/>ab omni malo.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1135">
+                  <lb ed="#L" n="44"/>AD PRIMUM ERGO DICENDUM quod ratio illa 
+pro<lb break="no" ed="#L" n="45"/>cedit de corporali eleemosyna secundum suam
+<lb ed="#L" n="46"/>substantiam.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1144">
+                  <lb ed="#L" n="47"/>AD SECUNDUM DICENDUM quod ille qui dat 
+elee<lb break="no" ed="#L" n="48"/>mosynam non intendit emere aliquid spirituale
+<lb ed="#L" n="49"/>per corporale, quia scit spiritualia in infinitum
+<lb ed="#L" n="50"/>corporalibus praeeminere: sed intendit per 
+ca<lb break="no" ed="#L" n="51"/>ritatis affectum spiritualem fructum promereri.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1158">
+                  <lb ed="#L" n="52"/>AD TERTIUM DICENDUM quod vidua, quae minus
+<lb ed="#L" n="53"/>dedit secundum quantitatem, plus dedit 
+secun<lb break="no" ed="#L" n="54"/>dum suam proportionem; ex quo pensatur in
+<lb ed="#L" n="55"/>ipsa maior caritatis affectus, ex qua corporalis
+<lb ed="#L" n="56"/>eleemosyna spiritualem efficaciam habet.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1437-Dd1e1172"><!-- p2p2-q32a5 -->
+               <head xml:id="TAca84-d1e1437-Hd1e1175">Articulus 5</head>
+               <head xml:id="TAca84-d1e1437-Hd1e1177" type="question-title">Utrum dare eleemosynam sit in praecepto</head>
+               <p xml:id="TAca84-d1e1437-d1e1180">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="68"/>ARTICULUS QUINTUS
+<lb ed="#L" n="69"/>UTRUM DARE ELEEMOSYNAM SIT IN PRAECEPTO
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1189">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="70"/>AD QUINTUM SIC PROCEDITUR. Videtur quod  
+<lb ed="#L" n="71"/>dare eleemosynam non sit in praecepto.  
+<lb ed="#L" n="72"/>Consilia enim a praeceptis 
+distinguun<lb break="no" ed="#L" n="73"/>tur. Sed dare eleemosynam est 
+consi<lb break="no" ed="#L" n="74"/>lium: secundum illud Dan. iv: Consilium meum 
+<lb ed="#L" n="75"/>regi placeat: peccata tua eleemosynis redime. 
+Er<lb break="no" ed="#L" n="76"/>go dare eleemosynam non est in praecepto. 
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1209">
+                  <lb ed="#L" n="77"/>2. PRAETEREA, cuilibet licet sua re uti et eam 
+<lb ed="#L" n="78"/>retinere. Sed retinendo rem suam aliquis 
+elee<lb break="no" ed="#L" n="79"/>mosynam non dabit. Ergo licitum est 
+eleemo<lb break="no" ed="#L" n="80"/>synam non dare. Non ergo dare eleemosynam 
+<lb ed="#L" n="81"/>est in praecepto. 
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1223">
+                  <lb ed="#L" n="82"/>3. PRAETEREA, omne quod cadit sub praecepto 
+<lb ed="#L" n="83"/>aliquo tempore obligat transgressores ad 
+pecca<lb break="no" ed="#L" n="84"/>tum mortale: quia praecepta affirmativa obligant  
+<lb ed="#L" n="85"/>pro tempore determinato. Si ergo dare eleemo- 
+<cb ed="#L" n=""/>
+                  <lb ed="#L" n="86"/>synam caderet sub praecepto, esset determinare
+<lb ed="#L" n="87"/>aliquod tempus in quo homo peccaret mortaliter
+<lb ed="#L" n="88"/>nisi eleemosynam daret. Sed hoc non videtur:
+<lb ed="#L" n="89"/>quia semper probabiliter aestimari potest quod
+<lb ed="#L" n="90"/>pauperi aliter subveniri possit; et quod id quod
+<lb ed="#L" n="91"/>est in eleemosynas erogandum possit ei esse
+<lb ed="#L" n="92"/>necessarium vel in praesenti vel in futuro. Ergo
+<lb ed="#L" n="93"/>videtur quod dare eleemosynam non sit in 
+prae<lb break="no" ed="#L" n="94"/>cepto.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1256">
+                  <lb ed="#L" n="95"/>4. PRAETEREA, Omnia praecepta reducuntur ad
+<lb ed="#L" n="96"/>praecepta decalogi. Sed inter illa praecepta nihil
+<lb ed="#L" n="97"/>continetur de datione eleemosynarum. Ergo dare
+<lb ed="#L" n="98"/>eleemosynas non est in praecepto.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1267">
+                  <lb ed="#L" n="99"/>SEp cowTRA, nullus punitur poena aeterna pro
+<lb ed="#L" n="100"/>omissione alicuius quod non cadit sub praecepto.
+<lb ed="#L" n="101"/>Sed aliqui puniuntur poena aeterna pro omis-
+<pb ed="#L" n="254"/>
+                  <!-- 254 -->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sione eleemosynarum; ut patet Matth. xxv. Ergo
+<lb ed="#L" n="2"/>dare eleemosynam est in praecepto.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1287">
+                  <lb ed="#L" n="3"/>RESPONDEO DICENDUM quod cum dilectio 
+pro<lb break="no" ed="#L" n="4"/>ximi sit in praecepto, necesse est omnia illa 
+ca<lb break="no" ed="#L" n="5"/>dere sub praecepto sine quibus dilectio proximi
+<lb ed="#L" n="6"/>non conservatur. Ad dilectionem autem proximi
+<lb ed="#L" n="7"/>pertinet ut proximo non solum velimus bonum,
+<lb ed="#L" n="8"/>sed etiam operemur: secundum illud I Ioan. ui:
+<lb ed="#L" n="9"/>Non diligamus verbo neque lingua, sed opere el
+<lb ed="#L" n="10"/>verilate. Ad hoc autem quod velimus et 
+opere<lb break="no" ed="#L" n="11"/>mur bonum alicuius requiritur quod eius 
+ne<lb break="no" ed="#L" n="12"/>cessitati subveniamus, quod fit per 
+eleemosyna<lb break="no" ed="#L" n="13"/>rum largitionem. Et ideo eleemosynarum largitio
+<lb ed="#L" n="14"/>est in praecepto.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1316">
+                  <lb ed="#L" n="15"/>Sed quia praecepta dantur de actibus virtutum,
+<lb ed="#L" n="16"/>necesse est quod hoc modo donum eleemosynae
+<lb ed="#L" n="17"/>cadat sub praecepto, secundum quod actus est
+<lb ed="#L" n="18"/>de necessitate virtutis, scilicet secundum quod
+<lb ed="#L" n="19"/>recta ratio requirit. Secundum quam est aliquid
+<lb ed="#L" n="20"/>considerandum ex parte dantis; et aliquid ex
+<lb ed="#L" n="21"/>parte eius cui est eleemosyna danda. Ex parte
+<lb ed="#L" n="22"/>quidem dantis considerandum est ut id quod
+<lb ed="#L" n="23"/>est in eleemosynas erogandum sit ei superfluum:
+<lb ed="#L" n="24"/>secundum illud Luc. xi: Quod superest date
+<lb ed="#L" n="25"/>eleemosynam. Et dico superfluum non solum 
+re<lb break="no" ed="#L" n="26"/>spectu sui ipsius, quod est supra id quod est
+<lb ed="#L" n="27"/>necessarium individuo ^; sed etiam respectu 
+alio<lb break="no" ed="#L" n="28"/>rum quorum cura sibi incumbit: quia prius 
+opor<lb break="no" ed="#L" n="29"/>tet quod unusquisque sibi provideat et his 
+quo<lb break="no" ed="#L" n="30"/>rum cura ei incumbit (respectu quorum dicitur
+<lb ed="#L" n="31"/>necessarium personae secundum quod persona
+<lb ed="#L" n="32"/>dignitatem importat Y), et postea de residuo 
+alio<lb break="no" ed="#L" n="33"/>rum necessitatibus subveniatur. Sicut et natura
+<lb ed="#L" n="34"/>primo accipit sibi?, ad sustentationem proprii 
+cor<lb break="no" ed="#L" n="35"/>poris, quod est necessarium ministerio virtutis
+<lb ed="#L" n="36"/>nutritivae; superfluum autem erogat ad 
+genera<lb break="no" ed="#L" n="37"/>tionem alterius per virtutem generativam.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1368">
+                  <lb ed="#L" n="38"/>Ex parte autem recipientis requiritur quod 
+ne<lb break="no" ed="#L" n="39"/>cessitaterh habeat: alioquin non esset ratio quare
+<lb ed="#L" n="40"/>eleemosyna ei daretur. Sed cum non possit ab
+<lb ed="#L" n="41"/>aliquo uno omnibus necessitatem habentibus 
+sub<lb break="no" ed="#L" n="42"/>veniri, non omnis necessitas obligat ad 
+praece<lb break="no" ed="#L" n="43"/>ptum, sed illa sola sine qua is qui necessitatem
+<lb ed="#L" n="44"/>patitur sustentari non potest. In illo enim casu
+<lb ed="#L" n="45"/>locum habet quod Ambrosius dicit: Pasce fame
+<lb ed="#L" n="46"/>morientem. Si non paveris, occidisii.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1391">
+                  <lb ed="#L" n="47"/>Sic igitur dare eleemosynam de superfluo est
+<lb ed="#L" n="48"/>in praecepto; et dare eleemosynam ei qui est
+<lb ed="#L" n="49"/>in extrema necessitate. Alias autem eleemosy-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="50"/>nam dare est in consilio, sicut et de quolibet
+<lb ed="#L" n="51"/>meliori bono dantur consilia.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1407">
+                  <lb ed="#L" n="52"/>AD PRIMUM ERGO DICENDUM quod Daniel 
+loque<lb break="no" ed="#L" n="53"/>batur regi qui non erat legi Dei subiectus. Et ideo
+<lb ed="#L" n="54"/>ea etiam quae pertinent ad praeceptum legis, quam
+<lb ed="#L" n="55"/>non profitebatur, erant ei proponenda per modum
+<lb ed="#L" n="56"/>consilii, - Vel potest dici quod loquebatur in casu
+<lb ed="#L" n="57"/>illo in quo dare eleemosynam non est in 
+prae<lb break="no" ed="#L" n="58"/>cepto.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1425">
+                  <lb ed="#L" n="59"/>AD SECUNDUM DICENDUM quod bona temporalia,
+<lb ed="#L" n="60"/>quae homini divinitus conferuntur, eius quidem
+<lb ed="#L" n="61"/>sunt quantum ad proprietatem: sed quantum ad
+<lb ed="#L" n="62"/>usum non solum debent esse eius, sed etiam
+<lb ed="#L" n="63"/>aliorum, qui ex eis. sustentari possunt ex eo quod
+<lb ed="#L" n="64"/>ei superfluit. Unde Basilius dicit: Si fateris ea
+<lb ed="#L" n="65"/>libi divinitus provenisse (scilicet temporalia bona), 7
+<lb ed="#L" n="66"/>an iniustus est Deus inaequaliter res nobis 
+distri<lb break="no" ed="#L" n="67"/>buens? Cur iu abundas, ille vero mendicat, nisi
+<lb ed="#L" n="68"/>ut tu bonae dispensationis merita. consequaris ,
+<lb ed="#L" n="69"/>ille vero patientiae braviis decoretur Est panis
+<lb ed="#L" n="70"/>famelici quem tu lenes, nudi tunica quam in 
+con<lb break="no" ed="#L" n="71"/>clavi conservas, discalceati calceus qui penes te
+<lb ed="#L" n="72"/>marcescit, indigentis argentum quod possides 
+in<lb break="no" ed="#L" n="73"/>humatum. Quocirca toi iniuriaris quot dare 
+va<lb break="no" ed="#L" n="74"/>leres. Et hoc idem dicit Ambrosius, in Decret. ,
+<lb ed="#L" n="75"/>dist. XLVII.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1464">
+                  <lb ed="#L" n="76"/>AD TERTIUM DICENDUM quod est aliquod tempus
+<lb ed="#L" n="77"/>dare in quo mortaliter :peccat si eleemosynam
+<lb ed="#L" n="78"/>dare omittat, ex parte quidem recipientis, cum
+<lb ed="#L" n="79"/>apparet evidens et urgens necessitas, nec apparet
+<lb ed="#L" n="80"/>in promptu qui ei subveniat; ex parte vero 
+dan<lb break="no" ed="#L" n="81"/>tis, cum -habet superflua quae secundum  
+sta<lb break="no" ed="#L" n="82"/>tum praesentem non sunt sibi necessaria, prout
+<lb ed="#L" n="83"/>probabiliter aestimari potest. Nec oportet quod
+<lb ed="#L" n="84"/>consideret ad omnes casus qui possunt 
+con<lb break="no" ed="#L" n="85"/>tingere in futurum: hoc enim esset de crastino
+<lb ed="#L" n="86"/>cogitare, quod Dominus prohibet, Matth. vi.
+<lb ed="#L" n="87"/>Sed debet diiudicari superfluum et necessarium
+<lb ed="#L" n="88"/>secundum ea quae probabiliter et ut in pluribus
+<lb ed="#L" n="89"/>occurrunt.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1497">
+                  <lb ed="#L" n="90"/>AD QUARTUM DICENDUM quod omnis subventio
+<lb ed="#L" n="91"/>proximi reducitur ad praeceptum de honoratione
+<lb ed="#L" n="92"/>parentum. Sic enim et Apostolus interpretatur ,
+<lb ed="#L" n="93"/>I ad Tim. 1v, dicens: Pietas ad omnia utilis est,
+<lb ed="#L" n="94"/>promissionem habens vitae quae nunc est et 
+fu<lb break="no" ed="#L" n="95"/>turae: quod dicit quia in. praecepto de 
+honora<lb break="no" ed="#L" n="96"/>tione parentum additur promissio, ut sis 
+longae<lb break="no" ed="#L" n="97"/>vus super lerram. Sub pietate autem 
+compre<lb break="no" ed="#L" n="98"/>henditur omnis eleemosynarum largitio.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1437-Dd1e1520"><!-- p2p2-q32a6 -->
+               <head xml:id="TAca84-d1e1437-Hd1e1523">Articulus 6</head>
+               <head xml:id="TAca84-d1e1437-Hd1e1525" type="question-title">Utrum aliquis debeat dare eleemosynam de necessario</head>
+               <p xml:id="TAca84-d1e1437-d1e1528">
+                  <lb ed="#L" n="73"/>ARTICULUS SEXTUS
+<lb ed="#L" n="74"/>UTRUM ALIQUIS DEBEAT DARE ELEEMOSYNAM DE NECESSARIO
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1535">
+                  <lb ed="#L" n="75"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="76"/>aliquis non debeat eleemosynam dare
+<lb ed="#L" n="77"/>de necessario. Ordo enim caritatis non
+<lb ed="#L" n="78"/>minus attenditur penes effectum 
+bene<lb break="no" ed="#L" n="79"/>ficii quam penes interiorem affectum. Peccat 
+au<lb break="no" ed="#L" n="80"/>tem qui praepostere agit in ordine caritatis: quia
+<lb ed="#L" n="81"/>ordo caritatis est in praecepto. Cum ergo ex 
+or<lb break="no" ed="#L" n="82"/>dine caritatis plus debeat aliquis se quam 
+pro<lb break="no" ed="#L" n="83"/>ximum diligere, videtur quod peccet si subtrahat
+<lb ed="#L" n="84"/>sibi necessaria ut alteri largiatur.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1559">
+                  <lb ed="#L" n="85"/>2. PRAETEREA, quicumque largitur de his quae
+<lb ed="#L" n="86"/>sunt necessaria sibi est propriae substantiae 
+dis<lb break="no" ed="#L" n="87"/>sipator: quod pertinet ad prodigum, ut patet per
+<lb ed="#L" n="88"/>Philosophum, in IV Ethic. Sed nullum opus
+<lb ed="#L" n="89"/>vitiosum est faciendum. Ergo non est danda 
+elee<lb break="no" ed="#L" n="90"/>mosyna de necessario.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1576">
+                  <lb ed="#L" n="91"/>3. PRAETEREA, Apostolus dicit, I ad 7zm. v:
+<lb ed="#L" n="92"/>Si quis suorum, et maxime domesticorum curam
+<lb ed="#L" n="93"/>non habet, fidem negavit et est infideli deterior.
+<lb ed="#L" n="94"/>Sed quod aliquis. det de his quae sunt sibi 
+ne<lb break="no" ed="#L" n="95"/>cessaria vel suis videtur derogare curae quam
+<lb ed="#L" n="96"/>quis debet habere de se et de suis. Ergo videtur
+<lb ed="#L" n="97"/>quod quicumque de necessariis eleemosynam dat,
+<lb ed="#L" n="98"/>quod graviter peccet.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1596">
+                  <lb ed="#L" n="99"/>SED CONTRA EST quod Dominus dicit, Matth. xix:
+<lb ed="#L" n="100"/>Si vis perfectus esse, vade et vende omnia quae
+<lb ed="#L" n="101"/>habes, et da pauperibus. Sed ille qui dat omnia
+<lb ed="#L" n="102"/>quae habet pauperibus non solum dat superflua
+<lb ed="#L" n="103"/>sed etiam necessaria. Ergo. de necessariis potest
+<lb ed="#L" n="104"/>homo. eleemosynam dare.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1612">
+                  <lb ed="#L" n="105"/>RESPONDEO DICENDUM. quod necessarium 
+dupli<lb break="no" ed="#L" n="106"/>citer dicitur. Uno modo, sine quo aliquid esse
+<lb ed="#L" n="107"/>non potest. Et de tali necessario omnino 
+eleemo<lb break="no" ed="#L" n="108"/>syna dari non debet: puta si aliquis in articulo
+<lb ed="#L" n="109"/>necessitatis constitutus haberet solum unde 
+pos<lb break="no" ed="#L" n="110"/>set sustentari, et filii sui vel alii ad eum 
+perti<lb break="no" ed="#L" n="111"/>nentes; de hoc enim necessario eleemosynam
+<lb ed="#L" n="112"/>dare est sibl et suis vitam subtrahere. - Sed hoc
+<lb ed="#L" n="113"/>dico nisi forte talis casus immineret ubi $, 
+sub<lb break="no" ed="#L" n="114"/>trahendo sibi, daret alicui magnae personae, per
+<lb ed="#L" n="115"/>quam Ecclesia vel respublica sustentaretur: quia
+<lb ed="#L" n="116"/>pro talis personae liberatione seipsum et suos
+<lb ed="#L" n="117"/>laudabiliter periculo mortis exponeret, cut 
+bo<lb break="no" ed="#L" n="118"/>num commune sit proprio praeferendum.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1645">
+                  <lb ed="#L" n="119"/>Alio. modo dicitur aliquid esse necessarium
+<lb ed="#L" n="120"/>sine quo non potest convenienter vita transigi
+<lb ed="#L" n="121"/>secundum conditionem vel statum personae 
+pro<lb break="no" ed="#L" n="122"/>priae et aliarum personarum quarum cura ei in-
+<pb ed="#L" n="256"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>cumbit. Huius necessarii terminus non est in
+<lb ed="#L" n="2"/>indivisibili constitutus: sed multis additis, non
+<lb ed="#L" n="3"/>potest diiudicari esse ultra tale necessarium; et
+<lb ed="#L" n="4"/>multis subtractis, adhuc remanet unde possit 
+con<lb break="no" ed="#L" n="5"/>venienter aliquis vitam transigere? secundum 
+pro<lb break="no" ed="#L" n="6"/>prium statum. De huiusmodi ergo eleemosynam
+<lb ed="#L" n="7"/>dare est bonum: et non cadit sub praecepto, sed
+<lb ed="#L" n="8"/>sub consilio. Inordinatum autem esset si aliquis
+<lb ed="#L" n="9"/>tantum sibi de bonis propriis subtraheret ut aliis
+<lb ed="#L" n="10"/>largiretur, quod de residuo non posset vitam
+<lb ed="#L" n="11"/>transigere convenienter secundum proprium 
+sta<lb break="no" ed="#L" n="12"/>tum et negotia occurrentia: nullus enim 
+incon<lb break="no" ed="#L" n="13"/>venienter vivere debet.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1689">
+                  <lb ed="#L" n="14"/>Sed ab hoc tria sunt excipienda. Quorum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="15"/>primum est quando aliquis statum mutat, puta
+<lb ed="#L" n="16"/>per religionis ingressum. Tunc enim, omnia sua
+<lb ed="#L" n="17"/>propter Christum largiens, opus perfectionis facit,
+<lb ed="#L" n="18"/>se in alio statu ponendo. - Secundo, quando ea
+<lb ed="#L" n="19"/>quae sibi subtrahit, etsi sint necessaria ad 
+con<lb break="no" ed="#L" n="20"/>venientiam vitae, tamen de facili resarciri possunt,
+<lb ed="#L" n="21"/>ut non sequatur maximum inconveniens. - T'
+er<lb break="no" ed="#L" n="22"/>tio, quando occurreret extrema necessitas alicuius
+<lb ed="#L" n="23"/>privatae personae, vel etiam aliqua magna 
+ne<lb break="no" ed="#L" n="24"/>cessitas reipublicae. In his enim casibus 
+laudabi<lb break="no" ed="#L" n="25"/>liter praetermitteret aliquis id quod ad decentiam
+<lb ed="#L" n="26"/>sui status pertinere videretur, ut maiori necessitati
+<lb ed="#L" n="27"/>subveniret.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1724">
+                  <lb ed="#L" n="28"/>Et per hoc patet de facili responsio ad obiecta.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1437-Dd1e1731"><!-- p2p2-q32a7 -->
+               <head xml:id="TAca84-d1e1437-Hd1e1734">Articulus 7</head>
+               <head xml:id="TAca84-d1e1437-Hd1e1736" type="question-title">Utrum possit fieri eleemosyna de iniuste acquisitis</head>
+               <p xml:id="TAca84-d1e1437-d1e1739">
+                  <lb ed="#L" n="46"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="47"/>UTRUM POSSIT FIERI ELEEMOSYNA DE INIUSTE ACQUISITIS
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1746">
+                  <lb ed="#L" n="48"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="49"/>possit eleemosyna fieri de illicite 
+acqui<lb break="no" ed="#L" n="50"/>isitis. Dicitur enim Luc. xvi: Facite
+<lb ed="#L" n="51"/>Nyrobis amicos de mammona iniquitatis.
+<lb ed="#L" n="52"/>Mammona autem significat divitias. Ergo de 
+di<lb break="no" ed="#L" n="53"/>vitiis inique acquisitis potest sibi aliquis spirituales
+<lb ed="#L" n="54"/>amicos facere, eleemosynas largiendo.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1764">
+                  <lb ed="#L" n="55"/>2. PRAETEREA, Omne turpe lucrum videtur esse
+<lb ed="#L" n="56"/>illicite acquisitum. Sed turpe lucrum est quod de
+<lb ed="#L" n="57"/>meretricio acquiritur: unde et de huiusmodi 
+sa<lb break="no" ed="#L" n="58"/>crifiddum vel oblatio Deo offerri non debet, 
+se<lb break="no" ed="#L" n="59"/>cundam illud Deut. xxii: Non offeres mercedem
+<lb ed="#L" n="60"/>prostibuli in domo. Dei tui. Similiter etiam 
+tur<lb break="no" ed="#L" n="61"/>piter acquiritur quod acquiritur per aleas: quia,
+<lb ed="#L" n="62"/>ut Philosophus dicit, in IV Ethic., tales ab 
+ami<lb break="no" ed="#L" n="63"/>cis lucrantur, quibus oportet dare. Turpissime
+<lb ed="#L" n="64"/>etiam acquiritur aliquid per simoniam, per quam
+<lb ed="#L" n="65"/>aliquis Spiritui Sancto iniuriam facit. Et tamen
+<lb ed="#L" n="66"/>de huiusmodi eleemosyna fieri potest. Ergo de
+<lb ed="#L" n="67"/>male acquisitis potest aliquis eleemosynam facere.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1796">
+                  <lb ed="#L" n="68"/>3. PnaETEREA, maiora mala sunt magis vitanda
+<lb ed="#L" n="69"/>quam minora. Sed minus peccatum est detentio
+<lb ed="#L" n="70"/>rei alienae quam homicidium, quod aliquis 
+in<lb break="no" ed="#L" n="71"/>currit nisi alicui in ultima necessitate subveniat:
+<lb ed="#L" n="72"/>ut patet per Ambrosium, qui dicit: Pasce fame
+<lb ed="#L" n="73"/>morientem: quoniam si non paveris, occidisti. Ergo
+<lb ed="#L" n="74"/>aliquis potest eleemosynam facere in aliquo casu
+<lb ed="#L" n="75"/>de male acquisitis.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1816">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="76"/>SED coNTRA EsT quod Augustinus dicit, in libro
+<lb ed="#L" n="77"/>de Verb. Dom.: De iustis laboribus facite 
+elee<lb break="no" ed="#L" n="78"/>mosynas. Non enim corrupturi estis iudicem 
+Chri<lb break="no" ed="#L" n="79"/>stum, ut non vos audiat cum pauperibus, quibus
+<lb ed="#L" n="80"/>tollitis. Nolite velle eleemosynas facere de faenore
+<lb ed="#L" n="81"/>et usuris.
+<lb ed="#L" n="82"/>erogamus.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1836">
+                  <lb ed="#L" n="83"/>RESPONDEO DICENDUM quod tripliciter Pone
+<lb ed="#L" n="84"/>aliquid illicite acquisitum. Uno enim modo. E
+<lb ed="#L" n="85"/>quod illicite ab aliquo acquiritur debetur ei a
+<lb ed="#L" n="86"/>quo est acquisitum, nec potest ab eo retineri qui
+<lb ed="#L" n="87"/>acquisivit: sicut contingit in rapina et furto et
+<lb ed="#L" n="88"/>usuris. Et de talibus, cum homo teneatur ad 
+re<lb break="no" ed="#L" n="89"/>stitutionem, eleemosyna fieri non potest. ^.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1854">
+                  <lb ed="#L" n="90"/>Alio vero modo est aliquid illicite acquisitum
+<lb ed="#L" n="91"/>quia ille quidem qui acquisivit retinere non potest,
+<lb ed="#L" n="92"/>nec tamen debetur ei a quo acquisivit, quia 
+scili<lb break="no" ed="#L" n="93"/>cet contra iustitiam accepit, et alter contra 
+iusti<lb break="no" ed="#L" n="94"/>tiam dedit: sicut contingit in simonia, in qua dans
+<lb ed="#L" n="95"/>et accipiens contra iustitiam legis divinae agit.
+<lb ed="#L" n="96"/>Unde non debet fieri restitutio ei qui dedit, sed
+<lb ed="#L" n="97"/>debet in eleemosynas erogari. Et eadem ratio est
+<lb ed="#L" n="98"/>in similibus, in quibus scilicet et datio et acceptio
+<lb ed="#L" n="99"/>est contra legem.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1878">
+                  <lb ed="#L" n="100"/>Tertio modo est aliquid illicite acquisitum, non
+<lb ed="#L" n="101"/>quidem quia ipsa acquisitio sit illicita, sed quia
+<lb ed="#L" n="102"/>id ex quo acquiritur est illicitum: sicut patet de
+<lb ed="#L" n="103"/>eo quod mulier acquirit per meretricium. Et hoc
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1889">
+                  <lb ed="#L" n="104"/>Vel omnes divitiae dicuntur iniquitatis, idest 
+in<lb break="no" ed="#L" n="105"/>ceptionis et dationis secundum se, ut distinguitur contra
+<pb ed="#L" n="257"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>proprie vocatur turpe lucrum. Quod enim mulier
+<lb ed="#L" n="2"/>meretricium exerceat, turpiter agit et contra 
+le<lb break="no" ed="#L" n="3"/>gem Dei: sed in eo quod accipit, non iniuste agit |
+<lb ed="#L" n="4"/>nec contra legem. Unde quod sic illicite 
+acqui<lb break="no" ed="#L" n="5"/>situm est retineri potest, et de eo eleemosyna
+<lb ed="#L" n="6"/>fieri.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1914">
+                  <lb ed="#L" n="7"/>AD PRIMUM ERGO DICENDUM quod, sicut 
+Augu<lb break="no" ed="#L" n="8"/>stinus dicit, in libro de Verb. Dom., illud 
+ver<lb break="no" ed="#L" n="9"/>bum Domini quidam male intelligendo, rapiunt
+<lb ed="#L" n="10"/>res alienas, et aliquid inde pauperibus largiuntur,
+<lb ed="#L" n="11"/>et putant se facere quod praeceptum est. 
+Intelle<lb break="no" ed="#L" n="12"/>ctus iste corrigendus est. Sed omnes divitiae 
+iniqui<lb break="no" ed="#L" n="13"/>tatis dic AUNT, ut dicit in libro de Quaestionibus
+<lb ed="#L" n="14"/>Evangelii, quia non sunl divitiae nisi iniquis,
+<lb ed="#L" n="15"/>qui in eis spem constituunt, — Vel, secundum 
+Am<lb break="no" ed="#L" n="16"/>brosium, iniquum mammona dixit quia variis
+<lb ed="#L" n="17"/>divitiarum illecebris nostros tentat affectus. - Vel
+<lb ed="#L" n="18"/>quia n pluribus praedecessoribus, quibus 
+patrimo<lb break="no" ed="#L" n="19"/>nio succedis, aliquis reperitur qui iniuste usurpavit |
+<lb ed="#L" n="20"/>aliena, quamvis tu nescias; ut Basilius dicit. -
+<lb ed="#L" n="21"/>Vel omnes divitiae dicuntur iniquitatis, idest 
+in<lb break="no" ed="#L" n="22"/>aequalitatis, quia non aequaliter sunt omnibus
+<lb ed="#L" n="23"/>distributae, uno egente et alio superabundante.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e1953">
+                  <lb ed="#L" n="24"/>AD SECUNDUM DICENDUM quod de acquisito per
+<lb ed="#L" n="25"/>meretricium iam dictum est qualiter eleemosyna
+<lb ed="#L" n="26"/>fieri possit?. Non autem fit de eo sacrificium vel
+<lb ed="#L" n="27"/>oblatio ad altare, tum propter scandalum; tum
+<lb ed="#L" n="28"/>propter sacrorum reverentiam. - De eo etiam
+<lb ed="#L" n="29"/>quod est per simoniam acquisitum potest fieri
+<lb ed="#L" n="30"/>eleemosyna: quia non est debitum ei qui dedit,
+<lb ed="#L" n="31"/>sed meretur illud amittere. - Circa illa vero quae
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="32"/>per aleas acquiruntur videtur esse aliquid illicitum
+<lb ed="#L" n="33"/>ex iure divino: scilicet quod aliquis lucretur ab
+<lb ed="#L" n="34"/>his qui rem suam alienare non possunt, sicut sunt
+<lb ed="#L" n="35"/>minores et furiosi et huiusmodi; et quod aliquis
+<lb ed="#L" n="36"/>trahat alium ex cupiditate lucrandi ad ludum; et
+<lb ed="#L" n="37"/>quod fraudulenter ab eo lucretur. Et in his 
+ca<lb break="no" ed="#L" n="38"/>sibus tenetur ad restitutionem: et sic de eo non
+<lb ed="#L" n="39"/>potest eleemosynam facere. Aliquid autem videtur
+<lb ed="#L" n="40"/>esse ulterius illicitum ex iure positivo civili, quod
+<lb ed="#L" n="41"/>prohibet universaliter tale lucrum. Sed quia ius
+<lb ed="#L" n="42"/>civile non obligat omnes, sed eos solos qui sunt
+<lb ed="#L" n="43"/>his legibus subiecti; et iterum per 
+dissuetudi<lb break="no" ed="#L" n="44"/>nem abrogari potest: ideo apud illos qui sunt
+<lb ed="#L" n="45"/>huiusmodi legibus obstricti, tenentur universaliter
+<lb ed="#L" n="46"/>ad restitutionem qui lucrantur; nisi forte 
+con<lb break="no" ed="#L" n="47"/>traria consuetudo praevaleat ; aut nisi aliquis 
+hu<lb break="no" ed="#L" n="48"/>cratus sit ab eo qui traxit eum ad ludum. In quo
+<lb ed="#L" n="49"/>casu non teneretur ' restituere, quia ille qui amisit
+<lb ed="#L" n="50"/>non est dignus recipere ; nec potest licite retinere,
+<lb ed="#L" n="51"/>tali iure positivo durante; unde debet de hoc 
+elee<lb break="no" ed="#L" n="52"/>mosynam facere in hoc casu.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2021">
+                  <lb ed="#L" n="53"/>AD TERTIUM DICENDUM quod in casu extremae
+<lb ed="#L" n="54"/>necessitatis omnia sunt communia. Unde licet ei
+<lb ed="#L" n="55"/>qui talem necessitatem patitur accipere de alieno
+<lb ed="#L" n="56"/>ad sui sustentationem, si non inveniat qui sibi
+<lb ed="#L" n="57"/>dare velit. Et eadem ratione licet habere 
+ali<lb break="no" ed="#L" n="58"/>quid de alieno et de hoc eleemosynam dare: 
+quin<lb break="no" ed="#L" n="59"/>immo et accipere, si aliter subveniri non possit
+<lb ed="#L" n="60"/>necessitatem patienti. Si tamen fieri potest sine
+<lb ed="#L" n="61"/>periculo, debet requisita? domini voluntate 
+pau<lb break="no" ed="#L" n="62"/>peri providere extremam necessitatem patienti.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1437-Dd1e2046"><!-- p2p2-q32a8 -->
+               <head xml:id="TAca84-d1e1437-Hd1e2049">Articulus 8</head>
+               <head xml:id="TAca84-d1e1437-Hd1e2051" type="question-title">Utrum ille qui est in potestate alterius constitutus possit
+    <lb ed="#L" n="59"/>Eleemosynam facere</head>
+               <p xml:id="TAca84-d1e1437-d1e2056">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="57"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="58"/>UTRUM ILLE QUI EST IN POTESTATE ALTERIUS CONSTITUTUS POSSIT
+<lb ed="#L" n="59"/>ELEEMOSYNAM FACERE
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2067">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="60"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="61"/>ille qui est in potestate alterius 
+consti<lb break="no" ed="#L" n="62"/>tutus possit eleemosynam facere. 
+Re<lb break="no" ed="#L" n="63"/>ligiosi enim sunt in potestate eorum
+<lb ed="#L" n="64"/>quibus obedientiam voverunt. Sed si eis non 
+li<lb break="no" ed="#L" n="65"/>ceret eleemosynam facere, damnum reportarent
+<lb ed="#L" n="66"/>ex statu religionis: quia sicut Ambrosius dicit,
+<lb ed="#L" n="67"/>summa christianae religionis in pietate consistit,
+<lb ed="#L" n="68"/>quae maxime per eleemosynarum largitionem
+<lb ed="#L" n="69"/>commendatur. Ergo illi qui sunt in potestate
+<lb ed="#L" n="70"/>alterius constituti possunt eleemosynam facere.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2096">
+                  <lb ed="#L" n="71"/>2. PRAETEREA, uxor est sub potestate viri, ut
+<lb ed="#L" n="72"/>dicitur Gen. i. Sed uxor potest eleemosynam
+<lb ed="#L" n="73"/>facere, cum assumatur in viri societatem: unde
+<lb ed="#L" n="74"/>et de beata Lucia dicitur quod, ignorante sponso,
+<lb ed="#L" n="75"/>eleemosynas faciebat. Ergo per hoc quod aliquis
+<lb ed="#L" n="76"/>est in potestate alterius constitutus, non impeditur
+<lb ed="#L" n="77"/>quin possit eleemosynas facere.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2115">
+                  <lb ed="#L" n="78"/>3. PRAETEREA, naturalis quaedam subiectio est 
+fi<lb break="no" ed="#L" n="79"/>liorum ad parentes: unde Apostolus, ad Ephes. vi,
+<lb ed="#L" n="80"/>dicit: Filii, obedite parentibus vestris in Domino.
+<lb ed="#L" n="81"/>Sed filii, ut videtur, possunt de rebus patris 
+elee<lb break="no" ed="#L" n="82"/>mosynas dare?: quia sunt quodammodo ipsorum,
+<lb ed="#L" n="83"/>cum sint haeredes; et cum ' possint eis uti ad
+<lb ed="#L" n="84"/>usum corporis, multo magis videtur quod 
+pos<lb break="no" ed="#L" n="85"/>sint eis uti, eleemosynas dando, ad remedium
+<lb ed="#L" n="86"/>animae suae. Ergo illi qui sunt in potestate 
+con<lb break="no" ed="#L" n="87"/>stituti possunt eleemosynas dare.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2139">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="88"/>4. PRAETEREA, servi sunt sub potestate 
+domi<lb break="no" ed="#L" n="89"/>norum: secundum illud ad 774.: Servos 
+do<lb break="no" ed="#L" n="90"/>minis suis subditos esse. Licet autem eis aliquid
+<lb ed="#L" n="91"/>in utilitatem domini facere: quod maxime fit si
+<lb ed="#L" n="92"/>pro eis eleemosynas largiantur. Ergo illi qui sunt
+<lb ed="#L" n="93"/>in potestate constituti possunt eleemosynas facere.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2157">
+                  <lb ed="#L" n="94"/>SED CONTRA EST quod eleemosynae non sunt 
+fa<lb break="no" ed="#L" n="95"/>ciendae de alieno, sed de iustis laboribus 
+pro<lb break="no" ed="#L" n="96"/>priis unusquisque eleemosynam facere debet; ut
+<lb ed="#L" n="97"/>Augustinus dicit, in libro de Verb. Dom. Sed
+<lb ed="#L" n="98"/>si subiecti aliis eleemosynam facerent, hoc esset
+<lb ed="#L" n="99"/>de alieno. Ergo illi qui sunt sub potestate 
+alio<lb break="no" ed="#L" n="100"/>rum non possunt eleemosynam facere. "
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2175">
+                  <lb ed="#L" n="101"/>RESPONDEO DICENDUM quod ille qui est sub. 
+po<lb break="no" ed="#L" n="102"/>testate alterius constitutus, inquantum huiusmodi,
+<lb ed="#L" n="103"/>secundum superioris potestatem regulari debet:
+<lb ed="#L" n="104"/>hic est enim ordo naturalis, ut inferiora 
+secun<lb break="no" ed="#L" n="105"/>dum superiora regulentur. Et ideo oportet quod
+<lb ed="#L" n="106"/>ea in quibus inferior superiori subiicitur, dispenset
+<lb ed="#L" n="107"/>non aliter quam ei sit a superiore commissum.
+<lb ed="#L" n="108"/>Sic igitur ille qui est sub potestate constitutus
+<lb ed="#L" n="109"/>de re secundum quam superiori subiicitur 
+elee<lb break="no" ed="#L" n="110"/>mosynam facere non debet nisi quatenus ei a
+<lb ed="#L" n="111"/>superiore fuerit permissum. - Si quis vero 
+ha<lb break="no" ed="#L" n="112"/>beat aliquid secundum quod potestati superioris
+<lb ed="#L" n="113"/>non subsit, iam secundum hoc non est potestati:
+<lb ed="#L" n="114"/>subiectus, quantum ad hoc proprii iuris existens.
+<lb ed="#L" n="115"/>Et de hoc potest eleemosynam facere. i
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2210">
+                  <pb ed="#L" n="259"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD PRIMUM ERGO DICENDUM quod monachus, si
+<lb ed="#L" n="2"/>habet dispensationem a praelato commissam, 
+po<lb break="no" ed="#L" n="3"/>test facere eleemosynam de rebus monasterii ,
+<lb ed="#L" n="4"/>secundum quod sibi est commissum. Si vero non
+<lb ed="#L" n="5"/>habet dispensationem, quia nihil proprium habet,
+<lb ed="#L" n="6"/>tunc non potest facere eleemosynam sine licentia
+<lb ed="#L" n="7"/>abbatis vel expresse habita vel probabiliter 
+prae<lb break="no" ed="#L" n="8"/>sumpta: nisi forte in articulo extremae 
+necessi<lb break="no" ed="#L" n="9"/>tatis, in quo licitum esset ei furari ut 
+eleemosy<lb break="no" ed="#L" n="10"/>nam daret. Nec propter hoc efficitur peioris 
+con<lb break="no" ed="#L" n="11"/>ditionis: quia sicut dicitur in libro de Eccles. 
+Dog<lb break="no" ed="#L" n="12"/>mat., bonum est facultates. cum | dispensatione
+<lb ed="#L" n="13"/>pauperibus erogare, sed melius est, pro intentione
+<lb ed="#L" n="14"/>sequendi Dominum, insimul donare, et, 
+absolu<lb break="no" ed="#L" n="15"/>tum. sollicitudine, egere cum Christo.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2249">
+                  <lb ed="#L" n="16"/>AD SECUNDUM DICENDUM quod si uxor habeat
+<lb ed="#L" n="17"/>alias res praeter dotem, quae ordinatur ad 
+sus<lb break="no" ed="#L" n="18"/>tentanda onera matrimonii, vel ex proprio lucro
+<lb ed="#L" n="19"/>vel quocumque alio licito modo, potest dare
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="20"/>eleemosynas, etiam irrequisito assensu viri: 
+mo<lb break="no" ed="#L" n="21"/>deratas tamen, ne ex earum superfluitate vir
+<lb ed="#L" n="22"/>depauperetur. Alias autem non debet dare 
+elee<lb break="no" ed="#L" n="23"/>mosynas sine consensu viri vel expresso vel 
+prae<lb break="no" ed="#L" n="24"/>sumpto, nisi in articulo necessitatis, sicut de 
+mo<lb break="no" ed="#L" n="25"/>nacho dictum est. Quamvis enim mulier sit
+<lb ed="#L" n="26"/>aequalis in actu matrimonii, tamen in his quae
+<lb ed="#L" n="27"/>ad dispositionem domus pertinent vir caput est
+<lb ed="#L" n="28"/>mulieris, secundum Apostolum, I ad Cor. xi.
+<lb ed="#L" n="29"/>Beata autem Lucia sponsum habebat, non 
+vi<lb break="no" ed="#L" n="30"/>rum. Unde de consensu matris poterat 
+eleemo<lb break="no" ed="#L" n="31"/>synam facere.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2289">
+                  <lb ed="#L" n="32"/>AD TERTIUM DICENDUM quod ea quae sunt 
+fi<lb break="no" ed="#L" n="33"/>li familias sunt patris. Et ideo non potest 
+elee<lb break="no" ed="#L" n="34"/>mosynam facere (nisi forte aliquam modicam,
+<lb ed="#L" n="35"/>de qua potest praesumere quod patri placeat):
+<lb ed="#L" n="36"/>nisi forte alicuius rei esset sibi a patre 
+dispen<lb break="no" ed="#L" n="37"/>satio commissa. - Et idem dicendum de servis.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2305">
+                  <lb ed="#L" n="38"/>Unde patet solutio ad. quartum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1437-Dd1e2311"><!-- p2p2-q32a9 -->
+               <head xml:id="TAca84-d1e1437-Hd1e2314">Articulus 9</head>
+               <head xml:id="TAca84-d1e1437-Hd1e2316" type="question-title">Utrum sit magis propinquioribus eleemosyna facienda</head>
+               <p xml:id="TAca84-d1e1437-d1e2319">
+                  <lb ed="#L" n="65"/>ARTICULUS NONUS
+<lb ed="#L" n="66"/>UTRUM SIT MAGIS PROPINQUIORIBUS ELEEMOSYNA FACIENDA
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2326">
+                  <lb ed="#L" n="67"/>QUOD NONUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="68"/>non sit magis propinquioribus 
+eleemo<lb break="no" ed="#L" n="69"/>syna facienda. Dicitur enim Eccli. xu:
+<lb ed="#L" n="70"/>misericordi, et ne. suscipias 
+pecca<lb break="no" ed="#L" n="71"/>torem: benefac. humili, et non des impio. Sed
+<lb ed="#L" n="72"/>quandoque contingit quod propinqui nostri sunt
+<lb ed="#L" n="73"/>peccatores et impii. Ergo non sunt eis magis
+<lb ed="#L" n="74"/>eleemosynae faciendae.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2346">
+                  <lb ed="#L" n="75"/>2. PRAETEREA, eleemosynae sunt faciendae 
+pro<lb break="no" ed="#L" n="76"/>pter retributionem mercedis aeternae: secundum
+<lb ed="#L" n="77"/>illud Matth. vi: .Et Pater tuus, qui videt in 
+abs<lb break="no" ed="#L" n="78"/>condito, reddet tibi. Sed retributio aeterna maxime
+<lb ed="#L" n="79"/>acquiritur ex eleemosynis quae sanctis erogantur:
+<lb ed="#L" n="80"/>secundum illud Luc. xvi: Facite vobis amicos
+<lb ed="#L" n="81"/>de mammona iniquitatis, ut, cum defeceritis, 
+re<lb break="no" ed="#L" n="82"/>cipiant vos .in. aeterna. tabernacula; quod 
+expo<lb break="no" ed="#L" n="83"/>nens. Augustinus, in libro de Verb. Dom., dicit:
+<lb ed="#L" n="84"/>Qui sunt qui habebunt aeterna habitacula nisi 
+san<lb break="no" ed="#L" n="85"/>cti Dei? Et qui sunt qui ab eis accipiendi sunt in
+<lb ed="#L" n="86"/>tabernacula nisi qui eorum indigentiae serviunt?
+<lb ed="#L" n="87"/>Ergo magis sunt eleemosynae dandae sanctioribus
+<lb ed="#L" n="88"/>quam propinquioribus.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2380">
+                  <lb ed="#L" n="89"/>3. PRAETEREA, maxime homo est sibi 
+propin<lb break="no" ed="#L" n="90"/>quus. Sed sibi non potest homo eleemosynam
+<lb ed="#L" n="91"/>facere. Ergo videtur quod non sit magis facienda
+<lb ed="#L" n="92"/>eleemosyna personae magis coniunctae.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2391">
+                  <lb ed="#L" n="93"/>SED coNTRA EsT quod Apostolus dicit, I ad
+<lb ed="#L" n="94"/>Tim.v: Si quis suorum, et maxime .
+domestico<lb break="no" ed="#L" n="95"/>rum curam non habei, fidem negavit et est 
+in<lb break="no" ed="#L" n="96"/>fideli deterior.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2402">
+                  <lb ed="#L" n="97"/>RESPONDEO DICENDUM quod, sicut Augustinus
+<lb ed="#L" n="98"/>dicit, in I de Doct. Christ., illi qui sunt nobis
+<lb ed="#L" n="99"/>magis coniuncti quasi quadam sorte nobis 
+ob<lb break="no" ed="#L" n="100"/>veniunt, ut eis magis providere debemus. Est
+<lb ed="#L" n="101"/>tamen circa hoc discretionis ratio adhibenda, 
+se<lb break="no" ed="#L" n="102"/>cundum differentiam coniunctionis et sanctitatis et
+<pb ed="#L" n="260"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>utilitatis. Nam multo sanctiori magis indigentiam
+<lb ed="#L" n="2"/>patienti, et magis utili ad commune bonum, est
+<lb ed="#L" n="3"/>magis eleemosyna danda quam personae 
+propin<lb break="no" ed="#L" n="4"/>quiori; maxime si non sit multum coniuncta, cuius
+<lb ed="#L" n="5"/>cura specialis nobis immineat, et si magnam 
+ne<lb break="no" ed="#L" n="6"/>cessitatem non patiatur.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2435">
+                  <lb ed="#L" n="7"/>AD PRIMUM ERGO DICENDUM quod peccatori -non
+<lb ed="#L" n="8"/>est subveniendum inquantum peccator est, idest
+<lb ed="#L" n="9"/>ut per hoc in peccato foveatur: sed inquantum
+<lb ed="#L" n="10"/>homo est, idest ut natura sustentetur.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2446">
+                  <lb ed="#L" n="11"/>AD SECUNDUM DICENDUM quod opus eleemosynae
+<lb ed="#L" n="12"/>ad mercedem retributionis aeternae dupliciter 
+va<lb break="no" ed="#L" n="13"/>let. Uno quidem modo, ex radice caritatis. Et 
+se<lb break="no" ed="#L" n="14"/>cundum hoc eleemosyna est meritoria prout in
+<lb ed="#L" n="15"/>ea servatur ordo caritatis, secundum quem 
+pro<lb break="no" ed="#L" n="16"/>pinquioribus magis providere debemus, ceteris
+<lb ed="#L" n="17"/>paribus. Unde Ambrosius dicit, in 1 de Óffic.
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="18"/>Est illa probanda liberalitas, ul. proximos 
+sangui<lb break="no" ed="#L" n="19"/>nis tui non despicias, si egere cognoscas: melius
+<lb ed="#L" n="20"/>est enim ul ipse subvenias tuis, quibus pudor est
+<lb ed="#L" n="21"/>ab aliis sumptum deposcere. - Alio modo valet
+<lb ed="#L" n="22"/>eleemosyna ad. retributionem vitae aeternae. ex
+<lb ed="#L" n="23"/>merito eius cui donatur, qui orat pro eo qui 
+elee<lb break="no" ed="#L" n="24"/>mosynam dedit. Et secundum hoc loquitur. ibi
+<lb ed="#L" n="25"/>Augustinus.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2483">
+                  <lb ed="#L" n="26"/>AD TERTIUM DICENDUM quod, cum eleemosyna
+<lb ed="#L" n="27"/>sit opus misericordiae, sicut misericordia non est
+<lb ed="#L" n="28"/>proprie ad seipsum, sed per quandam. 
+similitu<lb break="no" ed="#L" n="29"/>dinem, ut supra dictum est; ita etiam, proprie
+<lb ed="#L" n="30"/>loquendo, nullus sibi eleemosynam facit, nisi forte
+<lb ed="#L" n="31"/>ex persona alterius. Puta, cum aliquis distributor
+<lb ed="#L" n="32"/>ponitur eleemosynarum, potest et ipse sibi 
+acci<lb break="no" ed="#L" n="33"/>pere, si indigeat, eo tenore quo et aliis ministrat.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1437-Dd1e2504"><!-- p2p2-q32a10 -->
+               <head xml:id="TAca84-d1e1437-Hd1e2507">Articulus 10</head>
+               <head xml:id="TAca84-d1e1437-Hd1e2509" type="question-title">Utrum eleemosyna sit abundanter facienda</head>
+               <p xml:id="TAca84-d1e1437-d1e2512">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="54"/>ARTICULUS DECIMUS
+<lb ed="#L" n="55"/>UTRUM ELEEMOSYNA SIT ABUNDANTER FACIENDA
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2521">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="56"/>AD DECIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="57"/>eleemosyna non sit abundanter facienda;
+<cb ed="#L" n="g"/>Eleemosyna enim maxime debet fieri
+<lb ed="#L" n="58"/>coniunctioribus. Sed illis non debet sic
+<lb ed="#L" n="59"/>dari ut ditiores inde fieri velint; sicut 
+Ambro<lb break="no" ed="#L" n="60"/>sius dicit, in I de Offic. Ergo nec aliis debet
+<lb ed="#L" n="61"/>abundanter dari.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2541">
+                  <lb ed="#L" n="62"/>2. PRAETEREA, Ambrosius dicit ibidem: Non
+<lb ed="#L" n="63"/>debent simul effundi opes, sed dispensari. Sed
+<lb ed="#L" n="64"/>abundantia eleemosynarum ad effusionem 
+per<lb break="no" ed="#L" n="65"/>tinet. Ergo eleemosyna non debet fieri 
+abun<lb break="no" ed="#L" n="66"/>danter.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2555">
+                  <lb ed="#L" n="67"/>3. PRAETEREA, II ad Cor. vir dicit Apostolus:
+<lb ed="#L" n="68"/>Non ut aliis sit remissio, idest ut alii de nostris
+<lb ed="#L" n="69"/>otiose vivant; vobis autem sit tribulatio, idest 
+pau<lb break="no" ed="#L" n="70"/>pertas. Sed hoc contingeret si eleemosyna daretur
+<lb ed="#L" n="71"/>abundanter. Ergo non est abundanter eleemosyna
+<lb ed="#L" n="72"/>largienda.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2571">
+                  <lb ed="#L" n="73"/>SED CONTRA EST quod dicitur 7ob. iv: Si 
+mul<lb break="no" ed="#L" n="74"/>tum tibi fuerit, abundanter tribue.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2578">
+                  <lb ed="#L" n="75"/>RESPONDEO DICENDUM quod abundantia 
+eleemo<lb break="no" ed="#L" n="76"/>synae potest considerari et ex parte dantis, et ex
+<lb ed="#L" n="77"/>parte recipientis. Ex parte quidem dantis, cum
+<lb ed="#L" n="78"/>scilicet aliquis dat quod est multum secundum
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="79"/>proportionem propriae facultatis. Et sic laudabile
+<lb ed="#L" n="80"/>est abundanter dare: unde et Dominus, Luc. xxi,
+<lb ed="#L" n="81"/>laudavit viduam, quae ex eo quod deerat illi,
+<lb ed="#L" n="82"/>omnem victum quem habuit misit: — observatis 
+ta<lb break="no" ed="#L" n="83"/>men his quae supra dicta sunt de eleemosyna
+<lb ed="#L" n="84"/>facienda de necessariis.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2604">
+                  <lb ed="#L" n="85"/>Ex parte vero eius cui datur est abundans
+<lb ed="#L" n="86"/>eleemosyna dupliciter. Uno modo, quod suppleat
+<lb ed="#L" n="87"/>sufficienter eius indigentiam. Et sic laudabile est
+<lb ed="#L" n="88"/>abundanter eleemosynam tribuere. - Alio modo,
+<lb ed="#L" n="89"/>ut superabundet ad superfluitatem. Et hoc non
+<lb ed="#L" n="90"/>est laudabile, sed melius est pluribus indigentibus
+<lb ed="#L" n="91"/>elargiri. Unde et Apostolus dicit, I ad Cor. xur:
+<lb ed="#L" n="92"/>Si distribuero in cibos pauperum; ubi Glossa
+<lb ed="#L" n="93"/>dicit: Per hoc cautela eleemosynae docetur, ut
+<lb ed="#L" n="94"/>non uni sed multis detur, ut pluribus prosit.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2628">
+                  <lb ed="#L" n="95"/>AD PRIMUM ERGO DICENDUM quod ratio illa 
+pro<lb break="no" ed="#L" n="96"/>cedit de abundantia superexcedente necessitatem
+<lb ed="#L" n="97"/>recipientis eleemosynam.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2637">
+                  <lb ed="#L" n="98"/>AD SECUNDUM DICENDUM quod auctoritas illa i
+<lb ed="#L" n="99"/>quitur de abundantia eleemosynae ex parte 
+dan<lb break="no" ed="#L" n="100"/>tis.- Sed intelligendum est quod Deus non vult
+<lb ed="#L" n="101"/>simul effundi omnes opes, nisi in mutatione 
+sta<lb break="no" ed="#L" n="102"/>tus. Unde subdit ibidem: Nis? forte ut Elisaeus
+<pb ed="#L" n="261"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>boves suos occidit, et pavit pauperes ex eo quod
+<lb ed="#L" n="2"/>habuit, ut nulla cura domestica teneretur.
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2660">
+                  <lb ed="#L" n="3"/>AD TERTIUM DICENDUM quod auctoritas inducta,
+<lb ed="#L" n="4"/>quantum ad hoc quod dicit, Non ut alii sit 
+re<lb break="no" ed="#L" n="5"/>missio vel refrigerium, loquitur de abundantia
+<lb ed="#L" n="6"/>eleemosynae quae superexcedit necessitatem 
+re<lb break="no" ed="#L" n="7"/>cipientis, cui non est danda eleemosyna ut inde
+<lb ed="#L" n="8"/>luxurietur ', sed ut inde sustentetur. Circa quod
+<lb ed="#L" n="9"/>tamen est discretio adhibenda propter diversas
+<lb ed="#L" n="10"/>conditiones hominum, quorum quidam, 
+delicatio<lb break="no" ed="#L" n="11"/>ribus nutriti, indigent magis delicatis cibis aut ve-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="12"/>stibus. Unde et Ambrosius dicit, in libro de Offic.
+<lb ed="#L" n="13"/>Consideranda est in largiendo aetas aique debili-
+</p>
+               <p xml:id="TAca84-d1e1437-d1e2689">
+                  <lb ed="#L" n="14"/>Nonnunquam etiam. verecundia, quae 
+inge<lb break="no" ed="#L" n="15"/>nuos prodit natales. Aut si quis ex. divitiis in 
+ege<lb break="no" ed="#L" n="16"/>statem cecidit sine vitio suo. - Quantum vero ad
+<lb ed="#L" n="17"/>id quod subditur, vobis autem tribulatio , 
+loqui<lb break="no" ed="#L" n="18"/>tur de abundantia ex parte dantis. Sed, sicut
+<lb ed="#L" n="19"/>Glossa ibi? dicit, non hoc ideo dicit quin 
+me<lb break="no" ed="#L" n="20"/>lius esset, scilicet abundanter dare. Sed de 
+infir<lb break="no" ed="#L" n="21"/>mis timet, quos sic dare monet ut egestatem non
+<lb ed="#L" n="22"/>patiantur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

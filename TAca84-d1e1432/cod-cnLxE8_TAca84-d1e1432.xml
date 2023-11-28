@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 31</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 31</title>
+          <date when="2023-11-28">November 28, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-11-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="245"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e1432"><!-- p2p2-q31 -->
+        <head xml:id="TAca84-d1e1432-Hd1e101">Quaestio 31</head>
+        <head xml:id="TAca84-d1e1432-Hd1e103" type="question-title">De beneficentia</head>
+        <p xml:id="TAca84-d1e1432-d1e106">
+          <pb ed="#L" n="245"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>QUAESTIO TRIGESIMAPRIMA
+          <lb ed="#L" n="2"/>DE BENEFICENTIA
+          <lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e1432-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de exterioribus 
+          acti<lb break="no" ed="#L" n="5"/>Do: vel effectibus caritatis. Et primo, de
+          <lb ed="#L" n="6"/>beneficentia; secundo, de eleemosyna, quae est
+          <lb ed="#L" n="7"/>quaedam pars beneficentiae; tertio, de 
+          corre<lb break="no" ed="#L" n="8"/>ctione fraterna, quae est quaedam eleemosyna
+        </p>
+        <p xml:id="TAca84-d1e1432-d1e135">
+          <lb ed="#L" n="9"/>Circa primum quaeruntur quatuor. 
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="10"/>Primo: utrum beneficentia sit actus caritatis.
+          <lb ed="#L" n="11"/>Secundo: utrum sit omnibus benefaciendum.
+          <lb ed="#L" n="12"/>Tertio: utrum magis coniunctis sit magis 
+          be<lb break="no" ed="#L" n="13"/>nefaciendum.
+          <lb ed="#L" n="14"/>Quarto: utrum beneficentia sit virtus 
+          spe<lb break="no" ed="#L" n="15"/>cialis.
+        </p>
+        <div xml:id="TAca84-d1e1432-Dd1e156"><!-- p2p2-q31a1 -->
+          <head xml:id="TAca84-d1e1432-Hd1e159">Articulus 1</head>
+          <head xml:id="TAca84-d1e1432-Hd1e161" type="question-title">Utrum beneficentia sit actus caritatis</head>
+          <p xml:id="TAca84-d1e1432-d1e164">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="16"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="17"/>UTRUM BENEFICENTIA SIT ACTUS CARITATIS
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e173">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="18"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="19"/>beneficentia non sit actus caritatis. 
+            Ca<lb break="no" ed="#L" n="20"/>ritas enim maxime habetur ad Deum.
+            <lb ed="#L" n="21"/>Sed ad eum non possumus esse 
+            be<lb break="no" ed="#L" n="22"/>nefici: secundum illud Job xxxv: Quid dabis
+            <lb ed="#L" n="23"/>ei? Aut quid de manu tua accipiet? Ergo 
+            bene<lb break="no" ed="#L" n="24"/>ficentia non est actus caritatis.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e193">
+            <lb ed="#L" n="25"/>2. PRAETEREA, beneficentia maxime consistit
+            <lb ed="#L" n="26"/>in collatione donorum. Sed hoc pertinet ad 
+            libe<lb break="no" ed="#L" n="27"/>ralitatem. Ergo beneficentia non est actus 
+            cari<lb break="no" ed="#L" n="28"/>tatis, sed liberalitatis.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e205">
+            <lb ed="#L" n="29"/>3. PnaETEREA, omne P quod quis dat, vel dat
+            <lb ed="#L" n="30"/>sicut debitum vel dat sicut non debitum. Sed
+            <lb ed="#L" n="31"/>beneficium quod impenditur tanquam debitum
+            <lb ed="#L" n="32"/>pertinet ad iustitiam: quod autem impenditur
+            <lb ed="#L" n="33"/>tanquam non debitum, gratis datur, et secundum
+            <lb ed="#L" n="34"/>hoc pertinet ad misericordiam. Ergo omnis 
+            be<lb break="no" ed="#L" n="35"/>neficentia vel est actus iustitiae vel est actus 
+            mi<lb break="no" ed="#L" n="36"/>sericordiae. Non est ergo actus caritatis.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e225">
+            <lb ed="#L" n="37"/>SEP cONTRA, caritas est amicitia quaedam, ut
+            <lb ed="#L" n="38"/>dietum est. Sed Philosophus, in IX Ethic.,
+            <lb ed="#L" n="39"/>inter alios amicitiae actus ponit hoc unum quod
+            <lb ed="#L" n="40"/>est operari bonum ad amicos, quod est 
+            ami<lb break="no" ed="#L" n="41"/>cis benefacere. Ergo beneficentia est actus 
+            ca<lb break="no" ed="#L" n="42"/>ritatis.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e241">
+            <lb ed="#L" n="43"/>RrEsPONDEO DICENDUM quod beneficentia nihil
+            <lb ed="#L" n="44"/>aliud importat quam facere bonum alicui. Potest
+            <lb ed="#L" n="45"/>autem hoc bonum considerari dupliciter. Uno
+            <lb ed="#L" n="46"/>modo, secundum communem rationem boni. Et
+            <lb ed="#L" n="47"/>hoc pertinet ad communem rationem 
+            beneficen<lb break="no" ed="#L" n="48"/>tiae. Et hoc est actus amicitiae, et per consequens
+            <lb ed="#L" n="49"/>caritatis. Nam in actu dilectionis includitur 
+            bene<lb break="no" ed="#L" n="50"/>volentia, per quam aliquis vult bonum amico, ut
+            <lb ed="#L" n="51"/>supra habitum est. Voluntas autem est effectiva
+            <lb ed="#L" n="52"/>eorum quae vult, si facultas adsit. Et ideo ex
+            <lb ed="#L" n="53"/>consequenti benefacere amico ex actu dilectionis
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="54"/>consequitur. Et propter hoc beneficentia, 
+            secun<lb break="no" ed="#L" n="55"/>dum communem rationem, est amicitiae vel 
+            ca<lb break="no" ed="#L" n="56"/>ritatis actus. -. Si autem bonum quod quis facit .
+            <lb ed="#L" n="57"/>alteri accipiatur sub aliqua speciali ratione boni,
+            <lb ed="#L" n="58"/>sic beneficentia accipiet specialem rationem , et
+            <lb ed="#L" n="59"/>pertinebit ad aliquam specialem. virtutem.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e283">
+            <lb ed="#L" n="60"/>AD PRIMUM ERGO DICENDUM quod, sicut 
+            Diony<lb break="no" ed="#L" n="61"/>sius dicit, 1v cap. de Div. Nom., amor movet 
+            <lb ed="#L" n="62"/>ordinata ad mutuam habitudinem, et. inferiora e
+            <lb ed="#L" n="63"/>converlit in superiora ut ab eis perficiantur, et
+            <lb ed="#L" n="64"/>superiora movet ad inferiorum provisionem. Et
+            <lb ed="#L" n="65"/>quantum ad hoc beneficentia est effectus 
+            dile<lb break="no" ed="#L" n="66"/>ctionis. Et ideo nostrum non est Deo benefacere,
+            <lb ed="#L" n="67"/>sed eum honorare, nos ei subiiciendo: eius 
+            au<lb break="no" ed="#L" n="68"/>tem est ex sua dilectione nobis benefacere.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e305">
+            <lb ed="#L" n="69"/>AD SECUNDUM DICENDUM quod in collatione 
+            do<lb break="no" ed="#L" n="70"/>norum duo sunt attendenda: quorum unum est
+            <lb ed="#L" n="71"/>exterius datum; aliud autem est interior passio
+            <lb ed="#L" n="72"/>quam habet quis ad divitias, in eis delectatus.
+            <lb ed="#L" n="73"/>Ad liberalitatem autem pertinet moderari 
+            interio<lb break="no" ed="#L" n="74"/>rem passionem, ut scilicet aliquis non 
+            superex<lb break="no" ed="#L" n="75"/>cedat in concupiscendo et amando divitias: ex
+            <lb ed="#L" n="76"/>hoc enim efficietur homo facile emissivus 
+            do<lb break="no" ed="#L" n="77"/>norum. Unde si homo det aliquod donum 
+            ma<lb break="no" ed="#L" n="78"/>gnum, et tamen cum quadam, concupiscentia 
+            re<lb break="no" ed="#L" n="79"/>tinendi, datio non est liberalis. Sed ex parte 
+            ex<lb break="no" ed="#L" n="80"/>terioris dati collatio beneficii pertinet in generali
+            <lb ed="#L" n="81"/>ad amicitiam vel caritatem. Unde hoc non 
+            de<lb break="no" ed="#L" n="82"/>rogat amicitiae, si aliquis rem quam concupiscit
+            <lb ed="#L" n="83"/>retinere det alicui propter amorem ; sed magis
+            <lb ed="#L" n="84"/>ex hoc ostenditur amicitiae perfectio.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e342">
+            <lb ed="#L" n="85"/>AD TERTIUM DICENDUM quod sicut amicitia seu
+            <lb ed="#L" n="86"/>caritas respicit in beneficio collato communem
+            <lb ed="#L" n="87"/>rationem boni, ita iustitia respicit ibi rationem
+            <lb ed="#L" n="88"/>debiti. Misericordia vero respicit ibi rationem 
+            re<lb break="no" ed="#L" n="89"/>levantis miseriam vel defectum. 0
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1432-Dd1e356"><!-- p2p2-q31a2 -->
+          <head xml:id="TAca84-d1e1432-Hd1e359">Articulus 2</head>
+          <head xml:id="TAca84-d1e1432-Hd1e361" type="question-title">Utrum sit omnibus benefaciendum</head>
+          <p xml:id="TAca84-d1e1432-d1e364">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="10"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="11"/>UTRUM SIT OMNIBUS BENEFACIENDUM
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e373">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="12"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="13"/>non sit omnibus benefaciendum. Dicit
+            <lb ed="#L" n="14"/>enim Augustinus, in I de Doct. Christ.,
+            <lb ed="#L" n="15"/>quod omnibus prodesse non possumus.
+            <lb ed="#L" n="16"/>Sed virtus non inclinat ad impossibile. Ergo non
+            <lb ed="#L" n="17"/>oportet omnibus benefacere.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e391">
+            <lb ed="#L" n="18"/>2. PRAETEREA, Eccli. xu dicitur: Da iusto,
+            <lb ed="#L" n="19"/>et non recipias peccatorem. Sed multi homines
+            <lb ed="#L" n="20"/>sunt peccatores. Non ergo omnibus est 
+            benefa<lb break="no" ed="#L" n="21"/>ciendum.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e403">
+            <lb ed="#L" n="22"/>3. PRAETEREA, caritas non agit perperam, ut
+            <lb ed="#L" n="23"/>dicitur I ad Cor. xiu. Sed. benefacere 
+            quibus<lb break="no" ed="#L" n="24"/>dam est agere perperam: puta si aliquis 
+            bene<lb break="no" ed="#L" n="25"/>faciat? inimicis reipublicae; vel si benefaciat 
+            ex<lb break="no" ed="#L" n="26"/>communicato, quia per hoc ei communicat. Ergo,
+            <lb ed="#L" n="27"/>cum benefacere sit actus caritatis, non est 
+            omni<lb break="no" ed="#L" n="28"/>bus benefaciendum.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e421">
+            <lb ed="#L" n="29"/>SED coNTRA EST quod Apostolus dicit, ad Gal.
+            <lb ed="#L" n="30"/>ult.: Dum tempus habemus , operemur. bonum
+            <lb ed="#L" n="31"/>ad omnes. s
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e430">
+            <lb ed="#L" n="32"/>RESPONDEO DICENDUM quod, sicut supra dictum
+            <lb ed="#L" n="33"/>est, beneficentia consequitur amorem ex ea parte
+            <lb ed="#L" n="34"/>qua movet superiora ad provisionem inferiorum.
+            <lb ed="#L" n="35"/>Gradus autem in hominibus non sunt 
+            immuta<lb break="no" ed="#L" n="36"/>biles, sicut in angelis: quia homines possunt pati
+            <lb ed="#L" n="37"/>multiplices defectus; unde qui est superior 
+            secun<lb break="no" ed="#L" n="38"/>dum aliquid, vel est vel potest esse inferior 
+            se<lb break="no" ed="#L" n="39"/>cundum aliud. Et ideo; cum dilectio caritatis se
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="40"/>extendat ad omnes, etiam beneficentia se debet
+            <lb ed="#L" n="41"/>extendere ad omnes, pro loco tamen et tempore:
+            <lb ed="#L" n="42"/>omnes enim actus virtutum sunt secundum 
+            de<lb break="no" ed="#L" n="43"/>bitas circumstantias limitandi.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e461">
+            <lb ed="#L" n="44"/>AD PRIMUM ERGO DICENDUM quod, simpliciter 
+            lo<lb break="no" ed="#L" n="45"/>quendo, non possumus omnibus benefacere in
+            <lb ed="#L" n="46"/>speciali: nullus tamen est de quo non possit 
+            oc<lb break="no" ed="#L" n="47"/>currere casus in quo oporteat ei benefacere etiam
+            <lb ed="#L" n="48"/>in speciali. Et ideo caritas requirit ut homo, etsi :
+            <lb ed="#L" n="49"/>non actu alicui benefaciat, habeat tamen hoc in Tous
+            <lb ed="#L" n="50"/>sui animi praeparatione, ut benefaciat cuicumque.
+            <lb ed="#L" n="51"/>si tempus adesset. - Aliquod tamen beneficium.
+            <lb ed="#L" n="52"/>est quod possumus omnibus impendere, si non
+            <lb ed="#L" n="53"/>in speciali, saltem in generali: sicut cum oramus
+            <lb ed="#L" n="54"/>pro omnibus fidelibus et infidelibus. P
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e487">
+            <lb ed="#L" n="55"/>AD SECUNDUM DICENDUM quod in peccatore duo
+            <lb ed="#L" n="56"/>sunt, scilicet culpa et natura. Est ergo 
+            subvenien<lb ed="#L" n="57" break="no"/>dum peccatori quantum ad sustentationem 
+            natu<lb break="no" ed="#L" n="58"/>rae: non est autem ei subveniendum ad 
+            fomen<lb break="no" ed="#L" n="59"/>tum culpae; hoc enim. non esset ti beindiacann; sad
+            <lb ed="#L" n="60"/>potius malefacere.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e503">
+            <lb ed="#L" n="61"/>AD TERTIUM DICENDUM quod excommunicatis et
+            <lb ed="#L" n="62"/>reipublicae hostibus sunt beneficia subtrahenda 
+            in<lb break="no" ed="#L" n="63"/>quantum per hoc arcentur a culpa. Si 
+            tamenimmi<lb break="no" ed="#L" n="64"/>neret necessitas, ne natura deficeret, esset eis 
+            sub<lb break="no" ed="#L" n="65"/>veniendum, debito tamen modo: putane fame aut 
+            <lb ed="#L" n="66"/>siti morerentur, aut aliquod huiusmodi dispendium,
+            <lb ed="#L" n="67"/>nisi secundum ordinem iustitiae, paterentur. 
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1432-Dd1e522"><!-- p2p2-q31a3 -->
+          <head xml:id="TAca84-d1e1432-Hd1e525">Articulus 3</head>
+          <head xml:id="TAca84-d1e1432-Hd1e527" type="question-title">Utrum sit magis benefaciendum his qui sunt nobis magis coniuncti</head>
+          <p xml:id="TAca84-d1e1432-d1e530">
+            <cb ed="#L" n=""/>
+            <lb ed="#L" n="74"/>ARTICULUS TERTIUS »
+            <lb ed="#L" n="75"/>UTRUM SIT MAGIS BENEFACIENDUM HIS QUI SUNT NOBIS MAGIS CONIUNCTI
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e539">
+            <cb ed="#L" n=""/>
+            <lb ed="#L" n="76"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="77"/>non sit magis benefaciendum his qui
+            <lb ed="#L" n="78"/>sont nobis magis coniuncti. Dicitur enim
+            <lb ed="#L" n="79"/>Luc. xiv: Cum facis prandium aut 
+            ce<lb break="no" ed="#L" n="80"/>nam, noli vocare amicos tuos neque fratres neque
+            <lb ed="#L" n="81"/>cognatos. Sed isti sunt maxime coniuncti. Ergo
+            <cb ed="#L" n=""/>
+            <lb ed="#L" n="82"/>non est magis benefaciendum coniunctis, sed 
+            po<lb break="no" ed="#L" n="83"/>tius extraneis indigentibus: sequitur enim: Sed
+            <lb ed="#L" n="84"/>cum facis convivium, voca pauperes et debiles, etc.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e565">
+            <lb ed="#L" n="85"/>2. PRAETEREA, maximum. beneficium. est. quod
+            <lb ed="#L" n="86"/>homo aliquem in bello adiuvet. Sed miles in bello
+            <lb ed="#L" n="87"/>magis debet iuvare extraneum commilitonem
+            <pb ed="#L" n="247"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>quam consanguineum hostem. Ergo beneficia 
+            <lb ed="#L" n="2"/>non sunt magis exhibenda magis coniunctis.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e584">
+            <lb ed="#L" n="3"/>3. PRAETEREA, prius sunt debita restituenda
+            <lb ed="#L" n="4"/>quam gratuita beneficia impendenda. Sed 
+            debi<lb break="no" ed="#L" n="5"/>tum est quod aliquis impendat beneficium ei a
+            <lb ed="#L" n="6"/>quo accepit. Ergo benefactoribus magis est 
+            be<lb break="no" ed="#L" n="7"/>nefaciendum quam propinquis.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e597">
+            <lb ed="#L" n="8"/>4. PRAETEREA, magis sunt diligendi parentes
+            <lb ed="#L" n="9"/>quam filii, ut supra dictum est. Sed magis est
+            <lb ed="#L" n="10"/>benefaciendum filiis: quia non debent filii 
+            thesau<lb break="no" ed="#L" n="11"/>rixare parentibus Y, ut dicitur II ad Cor. xu.
+            <lb ed="#L" n="12"/>Ergo non est magis benefaciendum. magis 
+            con<lb break="no" ed="#L" n="13"/>iunctis.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e613">
+            <lb ed="#L" n="14"/>SED coNTRA EST quod Augustinus dicit, in I
+            <lb ed="#L" n="15"/>de Doct. Christ.: Cum omnibus prodesse non
+            <lb ed="#L" n="16"/>possis, his potissimum consulendum est qui, pro
+            <lb ed="#L" n="17"/>locorum et temporum vel quarumlibet rerum 
+            op<lb break="no" ed="#L" n="18"/>portunitatibus, constrictius tibi, quasi quadam sorte,
+            <lb ed="#L" n="19"/>iunguntur.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e629">
+            <lb ed="#L" n="20"/>REsPONDEO DICENDUM quod gratia et virtus 
+            imi<lb break="no" ed="#L" n="21"/>tantur. .naturae ordinem, qui est ex divina 
+            sapien<lb break="no" ed="#L" n="22"/>tia institutus. Est autem talis ordo naturae ut
+            <lb ed="#L" n="23"/>unumquodque agens naturale per prius magis
+            <lb ed="#L" n="24"/>diffundat suam actionem ad ea quae sunt sibi
+            <lb ed="#L" n="25"/>propinquiora: sicut ignis magis calefacit rem
+            <lb ed="#L" n="26"/>sibi magis propinquam. Et similiter Deus in 
+            sub<lb break="no" ed="#L" n="27"/>stantias sibi propinquiores per prius et copiosius
+            <lb ed="#L" n="28"/>dona suae bonitatis diffundit; ut patet per 
+            Dio<lb break="no" ed="#L" n="29"/>nysium, iv cap. Cael. Hier. Exhibitio autem 
+            be<lb break="no" ed="#L" n="30"/>neficiorum est quaedam actio caritatis in alios.
+            <lb ed="#L" n="31"/>Et ideo oportet quod ad magis propinquos simus
+            <lb ed="#L" n="32"/>magis benefici.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e660">
+            <lb ed="#L" n="33"/>Sed propinquitas unius hominis ad alium potest
+            <lb ed="#L" n="34"/>attendi secundum diversa in quibus sibi ad 
+            in<lb break="no" ed="#L" n="35"/>vicem homines communicant: ut consanguinei
+            <lb ed="#L" n="36"/>naturali communicatione, concives in civili, 
+            fide<lb break="no" ed="#L" n="37"/>les in spirituali, et sic de aliis. Et secundum 
+            di<lb break="no" ed="#L" n="38"/>versas coniunctiones sunt diversimode diversa
+            <lb ed="#L" n="39"/>beneficia dispensanda: nam unicuique est magis
+            <lb ed="#L" n="40"/>exhibendum beneficium pertinens ad illam rem
+            <lb ed="#L" n="41"/>secundum quam est magis nobis coniunctus, 
+            sim<lb break="no" ed="#L" n="42"/>pliciter loquendo. Tamen hoc potest variari 
+            se<lb break="no" ed="#L" n="43"/>cundum diversitatem locorum. et temporum et
+            <lb ed="#L" n="44"/>negotiorum: nam in aliquo casu est magis 
+            sub<lb break="no" ed="#L" n="45"/>veniendum extraneo, puta si sit in extrema 
+            ne<lb break="no" ed="#L" n="46"/>cessitate, quam etiam patri non tantam 
+            necessi<lb break="no" ed="#L" n="47"/>tatem patienti.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e695">
+            <lb ed="#L" n="48"/>AD PRIMUM ERGO DICENDUM quod Dominus non
+            <lb ed="#L" n="49"/>prohibet simpliciter vocare amicos aut 
+            consan<lb break="no" ed="#L" n="50"/>guineos ad convivium: sed vocare eos ea 
+            inten<lb break="no" ed="#L" n="51"/>tione quod fe ipsi reinvitent. Hoc enim non erit
+            <lb ed="#L" n="52"/>caritatis, sed cupiditatis. Potest tamen contingere
+            <lb ed="#L" n="53"/>quod extranei sint magis invitandi in aliquo casu,
+            <lb ed="#L" n="54"/>propter maiorem indigentiam. Intelligendum est
+            <lb ed="#L" n="55"/>enim quod magis coniunctis magis est, ceteris
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="56"/>paribus, benefaciendum. Si autem duorum unus
+            <lb ed="#L" n="57"/>sit magis coniunctus et alter magis indigens, non
+            <lb ed="#L" n="58"/>potest universali regula determinari cui sit magis
+            <lb ed="#L" n="59"/>subveniendum, quia sunt diversi gradus et 
+            indi<lb break="no" ed="#L" n="60"/>gentiae et propinquitatis: sed hoc requirit 
+            pru<lb break="no" ed="#L" n="61"/>dentis iudicium.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e731">
+            <lb ed="#L" n="62"/>AD SECUNDUM DICENDUM quod bonum commune
+            <lb ed="#L" n="63"/>multorum divinius est quam bonum unius. 
+            Un<lb break="no" ed="#L" n="64"/>de pro bono communi reipublicae vel spiritualis
+            <lb ed="#L" n="65"/>vel temporalis virtuosum est quod aliquis etiam
+            <lb ed="#L" n="66"/>propriam vitam exponat periculo. Et ideo, cum
+            <lb ed="#L" n="67"/>communicatio in bellicis ordinetur ad 
+            conserva<lb break="no" ed="#L" n="68"/>tionem reipublicae, in hoc miles impendens 
+            com<lb break="no" ed="#L" n="69"/>militoni auxilium, non impendit ei tanquam 
+            pri<lb break="no" ed="#L" n="70"/>vatae. personae, sed sicut totam rempublicam 
+            iu<lb break="no" ed="#L" n="71"/>vans. Et ideo non est mirum si in hoc 
+            prae<lb break="no" ed="#L" n="72"/>fertur extraneus coniuncto secundum carnem.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e757">
+            <lb ed="#L" n="73"/>AD TERTIUM DICENDUM quod duplex est 
+            debi<lb break="no" ed="#L" n="74"/>tum, Unum quidem quod non est numerandum
+            <lb ed="#L" n="75"/>in bonis eius qui debet, sed potius in bonis eius
+            <lb ed="#L" n="76"/>cui debetur. Puta si aliquis habet pecuniam aut
+            <lb ed="#L" n="77"/>rem aliam alterius vel furto sublatam vel mutuo
+            <lb ed="#L" n="78"/>acceptam sive depositam, vel aliquo alio simili
+            <lb ed="#L" n="79"/>modo, quantum ad hoc plus debet homo 
+            red<lb break="no" ed="#L" n="80"/>dere debitum quam ex eo benefacere coniunctis
+            <lb ed="#L" n="81"/>Nisi forte esset tantae necessitatis articulus in quo
+            <lb ed="#L" n="82"/>etiam liceret" rem alienam accipere ad 
+            subvenien<lb break="no" ed="#L" n="83"/>dum necessitatem patienti. Nisi forte et ille cui
+            <lb ed="#L" n="84"/>res debetur in simili necessitate esset. In quo
+            <lb ed="#L" n="85"/>tamen casu pensanda esset utriusque conditio 
+            se<lb break="no" ed="#L" n="86"/>cundum alias conditiones, prudentis iudicio: quia
+            <lb ed="#L" n="87"/>in talibus non potest universalis regula dari, 
+            pro<lb break="no" ed="#L" n="88"/>pter varietatem Sugulgum casuum, ut 
+            Philoso<lb break="no" ed="#L" n="89"/>phus dicit, in IX Ethic.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e796">
+            <lb ed="#L" n="90"/>Aliud autem est debitum quod computatur in
+            <lb ed="#L" n="91"/>bonis eius qui debet, et non eius cui debetur:
+            <lb ed="#L" n="92"/>puta si debeatur non ex necessitate iustitiae, sed ex
+            <lb ed="#L" n="93"/>quadam morali aequitate, ut contingit in beneficiis
+            <lb ed="#L" n="94"/>gratis susceptis. Nullius autem benefactoris 
+            bene<lb break="no" ed="#L" n="95"/>ficium est tantum sicut parentum: et ideo 
+            paren<lb break="no" ed="#L" n="96"/>tes in recompensandis beneficius sunt omnibus
+            <lb ed="#L" n="97"/>aliis praeferendi; nisi necessitas ex alia parte 
+            prae<lb break="no" ed="#L" n="98"/>ponderaret, vel aliqua alia conditio, puta 
+            com<lb break="no" ed="#L" n="99"/>munis utilitas Ecclesiae vel reipublicae. In aliis
+            <lb ed="#L" n="100"/>autem est aestimatio habenda et coniunctionis et
+            <lb ed="#L" n="101"/>beneficii suscepti. Quae similiter non potest 
+            com<lb break="no" ed="#L" n="102"/>muni regula determinari.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e827">
+            <lb ed="#L" n="103"/>AD QUARTUM DICENDUM quod parentes sunt sicut
+            <lb ed="#L" n="104"/>superiores: et ideo amor parentum est ad 
+            bene<lb break="no" ed="#L" n="105"/>faciendum, amor autem filiorum ad honorandum
+            <lb ed="#L" n="106"/>parentes. Et tamen in? necessitatis extremae 
+            ar<lb break="no" ed="#L" n="107"/>ticulo magis liceret deserere filios quam parentes;
+            <lb ed="#L" n="108"/>quos nullo modo deserere licet, propter 
+            obliga<lb break="no" ed="#L" n="109"/>tionem beneficiorum susceptorum; ut patet per
+            <lb ed="#L" n="110"/>Philosophum, in VIII Erhic.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1432-Dd1e848"><!-- p2p2-q31a4 -->
+          <head xml:id="TAca84-d1e1432-Hd1e851">Articulus 4</head>
+          <head xml:id="TAca84-d1e1432-Hd1e853" type="question-title">Utrum beneficentia sit virtus specialis</head>
+          <p xml:id="TAca84-d1e1432-d1e856">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="27"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="28"/>UTRUM BENEFICENTIA SIT VIRTUS SPECIALIS
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e865">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="29"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="30"/>beneficentia sit specialis virtus. 
+            Praece<lb break="no" ed="#L" n="31"/>pta enim ad virtutes ordinantur: quia
+            <lb ed="#L" n="32"/>legislatores intendunt facere bonia 
+            vir<lb break="no" ed="#L" n="33"/>tuosos, sicut dicitur in II Ethic. Sed seorsum 
+            <lb ed="#L" n="34"/>datur praeceptum de beneficentia et de dilectione:
+            <lb ed="#L" n="35"/>dicitur enim Matth. v: Diligite inimicos vestros:
+            <lb ed="#L" n="36"/>benefacite his qui oderunt vos. Ergo beneficentia
+            <lb ed="#L" n="37"/>est virtus distincta a caritate. j
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e889">
+            <lb ed="#L" n="38"/>2. PRAETEREA, vitia virtutibus opponuntur. Sed
+            <lb ed="#L" n="39"/>beneficentiae opponuntur aliqua specialia vitia,
+            <lb ed="#L" n="40"/>per quae nocumentum proximo infertur: puta
+            <lb ed="#L" n="41"/>rapina, furtum et alia huiusmodi. Ergo 
+            benefi<lb break="no" ed="#L" n="42"/>centia est specialis virtus.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e903">
+            <lb ed="#L" n="43"/>3. PRAETEREA, caritas non distinguitur in multas
+            <lb ed="#L" n="44"/>species. Sed beneficentia videtur distingui in
+            <lb ed="#L" n="45"/>multas species, secundum diversas 
+            beneficio<lb break="no" ed="#L" n="46"/>rum species. Ergo beneficentia est alia virtus
+            <lb ed="#L" n="47"/>a caritate.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e916">
+            <lb ed="#L" n="48"/>SEp coNTRA EsT quod actus interior et 
+            exte<lb break="no" ed="#L" n="49"/>rior non requirunt diversas virtutes. Sed 
+            bene<lb break="no" ed="#L" n="50"/>ficentia et benevolentia non differunt nisi sicut
+            <lb ed="#L" n="51"/>actus exterior et interior: quia beneficentia est
+            <lb ed="#L" n="52"/>executio benevolentiae. Ergo, sicut benevolen-
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="53"/>tia non est alia virtus a caritate,
+            <lb ed="#L" n="54"/>ficentia.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e936">
+            <lb ed="#L" n="55"/>RESPONDEO DICENDUM quod virtutes 
+            diversifican<lb break="no" ed="#L" n="56"/>tur secundum diversas rationes obiecti. Eadem
+            <lb ed="#L" n="57"/>autem est ratio formalis obiecti caritatis et 
+            bene<lb break="no" ed="#L" n="58"/>ficentiae: nam utraque respicit communem 
+            ratio<lb break="no" ed="#L" n="59"/>nem boni, ut ex praedictis patet. Unde 
+            benefi<lb break="no" ed="#L" n="60"/>centia non est alia virtus a caritate, sed nominat
+            <lb ed="#L" n="61"/>quendam caritatis actum.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e954">
+            <lb ed="#L" n="62"/>AD PRIMUM ERGO DICENDUM quod praecepta non
+            <lb ed="#L" n="63"/>dantur de habitibus virtutum, sed de actibus. Et
+            <lb ed="#L" n="64"/>ideo diversitas praeceptorum non significat 
+            diver<lb break="no" ed="#L" n="65"/>sos habitus virtutum, sed diversos actus.
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e965">
+            <lb ed="#L" n="66"/>AD SECUNDUM DICENDUM quod sicut omnia 
+            be<lb break="no" ed="#L" n="67"/>neficia proximo exhibita, inquantum 
+            consideran<lb break="no" ed="#L" n="68"/>tur sub communi ratione boni, reducuntur ad
+            <lb ed="#L" n="69"/>amorem; ita omnia nocumenta, inquantum 
+            con<lb break="no" ed="#L" n="70"/>siderantur secundum communem rationem mali
+            <lb ed="#L" n="71"/>reducuntur ad odium. Prout autem considerantur
+            <lb ed="#L" n="72"/>secundum aliquas speciales rationes vel boni vel :
+            <lb ed="#L" n="73"/>mali, reducuntur ad aliquas speciales virtutes vel
+            <lb ed="#L" n="74"/>vitia. Et secundum hoc etiam sunt diversae 
+            be<lb break="no" ed="#L" n="75"/>neficiorum species. 
+          </p>
+          <p xml:id="TAca84-d1e1432-d1e989">
+            <lb ed="#L" n="76"/>Unde patet responsio ad tertium.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

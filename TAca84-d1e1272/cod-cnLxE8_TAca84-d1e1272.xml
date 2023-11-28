@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prologus</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prologus</title>
+          <date when="2023-11-28">November 28, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-11-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="5"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e1272"><!-- p2p2-prol -->
+        <head xml:id="TAca84-d1e1272-Hd1e101">Prologus</head>
+        <p xml:id="TAca84-d1e1272-d1e103">
+          <pb ed="#L" n="5"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>SECUNDA SECUNDAE
+          <lb ed="#L" n="2"/>BELHM NEACSECPHEOLOGIAE
+          <lb ed="#L" n="3"/>ANGELICI DOCTORIS
+          <lb ed="#L" n="4"/>SANCTI THOMAE AQUINATIS
+          <lb ed="#L" n="5"/>ORDINIS PRAEDICATORUM
+          <lb ed="#L" n="6"/>CUM COMMENTARIIS
+          <lb ed="#L" n="7"/>THOMAE DE VIO CAIETANI
+          <lb ed="#L" n="8"/>EIUSDEM ORDINIS
+          <lb ed="#L" n="9"/>T S. R. E. CARDINALIS
+          <lb ed="#L" n="10"/>PROLOGUS
+        </p>
+        <p xml:id="TAca84-d1e1272-d1e132">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="11"/>Post communem considerationem de
+          <lb ed="#L" n="12"/>virtutibus et vitiis et aliis ad 
+          mate<lb break="no" ed="#L" n="13"/>riam moralem pertinentibus, necesse
+          <lb ed="#L" n="14"/>est considerare singula in speciali:
+          <lb ed="#L" n="15"/>sermones enim morales universales
+          <lb ed="#L" n="16"/>sunt minus utiles, eo quod actiones
+          <lb ed="#L" n="17"/>in particularibus sunt. Potest autem aliquid in
+          <lb ed="#L" n="18"/>speciali considerari circa moralia dupliciter: uno
+          <lb ed="#L" n="19"/>modo, ex parte ipsius materiae moralis, puta
+          <lb ed="#L" n="20"/>cum consideratur de hac virtute vel hoc vitio;
+          <lb ed="#L" n="21"/>alio modo, quantum ad speciales status. 
+          homi<lb break="no" ed="#L" n="22"/>num, puta cum consideratur de subditis et 
+          prae<lb break="no" ed="#L" n="23"/>latis, de activis et contemplativis, vel 
+          quibuscum<lb break="no" ed="#L" n="24"/>que aliis differenti hominum. Primo ergo 
+          consi<lb break="no" ed="#L" n="25"/>derabimus specialiter de his quae pertinent ad
+          <lb ed="#L" n="26"/>omnes hominum status; secundo vero, 
+          speciali<lb break="no" ed="#L" n="27"/>ter de his quae pertinent ad determinatos 
+          sta<lb break="no" ed="#L" n="28"/>tus
+        </p>
+        <p xml:id="TAca84-d1e1272-d1e176">
+          <lb ed="#L" n="29"/>Est autem considerandum circa primum quod,
+          <lb ed="#L" n="30"/>si seorsum determinaremus de virtutibus, donis,
+          <lb ed="#L" n="31"/>vitiis et praeceptis, oporteret idem multoties 
+          di<lb break="no" ed="#L" n="32"/>cere: qui enim sufficienter vult tractare de hoc
+          <lb ed="#L" n="33"/>praecepto, Non moechaberis, necesse habet 
+          inqui<lb break="no" ed="#L" n="34"/>rere de adulterio, quod est quoddam peccatum,
+          <lb ed="#L" n="35"/>cuius etiam cognitio dependet ex cognitione 
+          op<lb break="no" ed="#L" n="36"/>positae virtutis. Erit igitur compendiosior et 
+          ex<lb break="no" ed="#L" n="37"/>peditior considerationis via si simul sub eodem
+          <lb ed="#L" n="38"/>tractatu consideratio procedit ' de virtute et dono
+          <lb ed="#L" n="39"/>sibi correspondente, et vitiis oppositis, et prae-.
+          <lb ed="#L" n="40"/>ceptis affirmativis vel negativis. Erit autem hic
+          <lb ed="#L" n="41"/>considerationis modus conveniens ipsis vitiis se-
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="42"/>cundum propriam speciem: ostensum est enim
+          <lb ed="#L" n="43"/>supra quod vitia et peccata diversificantur specie
+          <lb ed="#L" n="44"/>secundum materiam vel obiectum, non autem
+          <lb ed="#L" n="45"/>secundum alias differentias peccatorum, puta 
+          cor<lb break="no" ed="#L" n="46"/>dis, oris et operis, vel secundum infirmitatem,
+          <lb ed="#L" n="47"/>ignorantiam et malitiam, et alias huiusmodi 
+          dif<lb break="no" ed="#L" n="48"/>ferentias; est autem eadem materia circa quam
+          <lb ed="#L" n="49"/>et virtus recte operatur et vitia opposita a 
+          re<lb break="no" ed="#L" n="50"/>ctitudine recedunt.
+        </p>
+        <p xml:id="TAca84-d1e1272-d1e228">
+          <lb ed="#L" n="51"/>Sic igitur tota materia morali ad 
+          considera<lb break="no" ed="#L" n="52"/>tionem virtutum reducta, omnes virtutes sunt
+          <lb ed="#L" n="53"/>ulterius reducendae ad septem: quarum tres sunt
+          <lb ed="#L" n="54"/>theologicae, de quibus primo est agendum; aliae
+          <lb ed="#L" n="55"/>vero quatuor sunt cardinales, de quibus 
+          poste<lb break="no" ed="#L" n="56"/>rius agetur. Virtutum autem intellectualium una
+          <lb ed="#L" n="57"/>quidem est prudentia, quae inter cardinales 
+          vir<lb break="no" ed="#L" n="58"/>tutes.continetur et numeratur; ars vero non
+          <lb ed="#L" n="59"/>pertinet ad moralem, quae circa agibilia versatur,
+          <lb ed="#L" n="60"/>cum ars sit recta ratio factibilium, ut supra 
+          di<lb break="no" ed="#L" n="61"/>ctum est; aliae vero tres intellectuales virtutes,
+          <lb ed="#L" n="62"/>scilicet sapientia, intellectus et scientia, 
+          commu<lb break="no" ed="#L" n="63"/>nicant etiam in nomine cum donis quibusdam
+          <lb ed="#L" n="64"/>Spiritus Sancti, unde simul etiam de eis 
+          consi<lb break="no" ed="#L" n="65"/>derabitur in consideratione donorum virtutibus
+          <lb ed="#L" n="66"/>correspondentium. Aliae vero virtutes " 
+          mo<lb break="no" ed="#L" n="67"/>rales omnes aliqualiter reducuntur ad virtutes
+          <lb ed="#L" n="68"/>cardinales, ut ex supradictis patet: unde in 
+          con<lb break="no" ed="#L" n="69"/>sideratione alicuius virtutis cardinalis 
+          considera<lb break="no" ed="#L" n="70"/>buntur etiam omnes virtutes ad eam 
+          qualitercum<lb break="no" ed="#L" n="71"/>que pertinentes et vitia opposita. Et sic nihil
+          <lb ed="#L" n="72"/>moralium erit praetermissum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

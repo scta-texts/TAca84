@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 36</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 36</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="290"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1458"><!-- p2p2-q36 -->
+            <head xml:id="TAca84-d1e1458-Hd1e101">Quaestio 36</head>
+            <head xml:id="TAca84-d1e1458-Hd1e103" type="question-title">De invidia</head>
+            <p xml:id="TAca84-d1e1458-d1e106">
+               <pb ed="#L" n="290"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO TRIGESIMASEXTA
+<lb ed="#L" n="2"/>DE INVIDIA
+<lb ed="#L" n="3"/>IN QUXTUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1458-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de invidia.
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="6"/>Primo: quid. sit invidia.
+<lb ed="#L" n="7"/>Secundo: utrum sit peccatum.
+<lb ed="#L" n="8"/>Tertio: utrum sit peccatum mortale,
+<lb ed="#L" n="9"/>Quarto: utrum sit vitium capitale, et de 
+filia<lb break="no" ed="#L" n="10"/>bus eius.
+</p>
+            <div xml:id="TAca84-d1e1458-Dd1e139"><!-- p2p2-q36a1 -->
+               <head xml:id="TAca84-d1e1458-Hd1e142">Articulus 1</head>
+               <head xml:id="TAca84-d1e1458-Hd1e144" type="question-title">Utrum invidia sit tristitia</head>
+               <p xml:id="TAca84-d1e1458-d1e147">
+                  <lb ed="#L" n="11"/>ARTICULUS PRIMUS 
+<lb ed="#L" n="12"/>UTRUM INVIDIA SIT TRISTITIA
+</p>
+               <p xml:id="TAca84-d1e1458-d1e154">
+                  <lb ed="#L" n="13"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="14"/>invidia non sit tristitia. Obiectum enim
+<lb ed="#L" n="15"/>tristitiae est malum. Sed obiectum 
+in<lb break="no" ed="#L" n="16"/>vidiae est bonum: dicit enim 
+Grego<lb break="no" ed="#L" n="17"/>d in V Moral., de invido loquens:. 
+Tabe<lb break="no" ed="#L" n="18"/>scenlem mentem sua poena. sauciat, quam 
+feli<lb break="no" ed="#L" n="19"/>citas torquet aliena. Ergo invidia non est tristitia.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e172">
+                  <lb ed="#L" n="20"/>2. PRAETEREA, similitudo non est causa 
+tristi<lb break="no" ed="#L" n="21"/>tiae, sed magis delectationis. Sed similitudo est
+<lb ed="#L" n="22"/>causa invidiae: dicit enim Philosophus, in IL AAet.:
+<lb ed="#L" n="23"/>Invidebunt tales quibus sunt aliqui similes aut 
+se<lb break="no" ed="#L" n="24"/>cundum genus, aut secundum cognationem P, aut
+<lb ed="#L" n="25"/>secundum staturam, aut secundum habitum, aut
+<lb ed="#L" n="26"/>secundum opinionem. Ergo invidia non est 
+tri<lb break="no" ed="#L" n="27"/>stitia.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e193">
+                  <lb ed="#L" n="28"/>3. PRAETEREA, tristitia ex aliquo defectu 
+cau<lb break="no" ed="#L" n="29"/>satur: unde illi qui sunt in magno defectu sunt
+<lb ed="#L" n="30"/>ad tristitiam proni, ut supra dictum est, cum
+<lb ed="#L" n="31"/>de passionibus ageretur. Sed illi quibus modicum
+<lb ed="#L" n="32"/>deficit, et qui sunt amatores honoris, et qui 
+re<lb break="no" ed="#L" n="33"/>pulantur sapientes, sunt invidi; ut patet per 
+Phi<lb break="no" ed="#L" n="34"/>losophum, in II Rhet. Ergo invidia non est
+<lb ed="#L" n="35"/>tristitia,
+</p>
+               <p xml:id="TAca84-d1e1458-d1e213">
+                  <lb ed="#L" n="36"/>4. PRaETEREA, tristitia delectationi opponitur.
+<lb ed="#L" n="37"/>Oppositorum autem non est eadem causa. Ergo,
+<lb ed="#L" n="38"/>cum memoria bonorum habitorum sit causa 
+de<lb break="no" ed="#L" n="39"/>lectationis, ut supra dictum est, non erit causa
+<lb ed="#L" n="40"/>tristitiae. Est autem causa invidiae: dicit enim
+<lb ed="#L" n="41"/>Philosophus, in II XRAet., quod his aliqui 
+invi<lb break="no" ed="#L" n="42"/>dent qui habent aut possederunt quae ipsis 
+con<lb break="no" ed="#L" n="43"/>veniebant aut quae ipsi quandoque possidebant.
+<lb ed="#L" n="44"/>Ergo invidia non est tristitia.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e235">
+                  <lb ed="#L" n="45"/>SED coNTRA EST quod Damascenus, in II libro,
+<lb ed="#L" n="46"/>ponit invidiam speciem tristitiae, et dicit quod
+<lb ed="#L" n="47"/>invidia est Tristitia in alienis bonis.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e244">
+                  <lb ed="#L" n="48"/>RESPONDEO DICENDUM quod obiectum tristitiae
+<lb ed="#L" n="49"/>est malum proprium. Contingit autem id quod
+<lb ed="#L" n="50"/>est alienum bonum apprehendi ut malum 
+pro<lb break="no" ed="#L" n="51"/>prium. Et secundum hoc de bono alieno potest
+<lb ed="#L" n="52"/>esse tristitia. Sed hoc contingit dupliciter. Uno
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>modo, quando quis tristatur. de bono. alicuius
+<lb ed="#L" n="54"/>inquantum imminet sibi ex hoc periculum 
+ali<lb break="no" ed="#L" n="55"/>cuius nocumenti: sicut cum homo tristatur de
+<lb ed="#L" n="56"/>exaltatione inimici sui, timens ne eum laedat.
+<lb ed="#L" n="57"/>Et talis tristitia non est invidia, sed magis timoris
+<lb ed="#L" n="58"/>effectus; ut Philosophus dicit, in l1 Rhet. Alio
+<lb ed="#L" n="59"/>modo bonum alterius. aestimatur ut malum  
+pro<lb break="no" ed="#L" n="60"/>prium inquantum est diminutivum propriae 
+glo<lb break="no" ed="#L" n="61"/>riae vel excellentiae. Et hoc modo de bono 
+alte<lb break="no" ed="#L" n="62"/>rius tristatur invidia. Et ideo praecipue de illis
+<lb ed="#L" n="63"/>bonis homines invident in quibus est gloria, et
+<lb ed="#L" n="64"/>in quibus homines amant honorari et in opinione
+<lb ed="#L" n="65"/>esse; ut Philosophus dicit, in II. Rhet.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e288">
+                  <lb ed="#L" n="66"/>AD PRIMUM ERGO DICENDUM quod nihil prohibet
+<lb ed="#L" n="67"/>id quod est bonum uni apprebendi ut malum
+<lb ed="#L" n="68"/>alteri. Et secundum hoc tristitia aliqua. potest
+<lb ed="#L" n="69"/>esse de bono, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e299">
+                  <lb ed="#L" n="70"/>AD SECUNDUM DICENDUM quod quia invidia est
+<lb ed="#L" n="71"/>de gloria alterius inquantum diminuit gloriam
+<lb ed="#L" n="72"/>quam quis appetit, consequens est ut ad illos
+<lb ed="#L" n="73"/>tantum invidia habeatur quibus homo vult se
+<lb ed="#L" n="74"/>aequare vel praeferre in gloria. Hoc autem non
+<lb ed="#L" n="75"/>est respectu multum a se, distantium: nullus enim,
+<lb ed="#L" n="76"/>nisi insanus, studet se aequare vel praeferre in
+<lb ed="#L" n="77"/>gloria his qui sunt multo eo maiores, puta 
+ple<lb break="no" ed="#L" n="78"/>beius homo regi; vel etiam rex plebeio, quem
+<lb ed="#L" n="79"/>multum excedit. Et ideo his qui multum distant
+<lb ed="#L" n="80"/>vel loco vel tempore vel statu homo non 
+in<lb break="no" ed="#L" n="81"/>videt: sed his qui sunt propinqui, quibus se 
+ni<lb break="no" ed="#L" n="82"/>titur aequare vel praeferre. Nam cum illi 
+exce<lb break="no" ed="#L" n="83"/>dunt in gloria, accidit hoc contra nostram 
+utili<lb break="no" ed="#L" n="84"/>tatem, et inde causatur tristitia. Similitudo autem
+<lb ed="#L" n="85"/>delectationem causat inquantum concordat 
+vo<lb break="no" ed="#L" n="86"/>luntati. "
+</p>
+               <p xml:id="TAca84-d1e1458-d1e339">
+                  <lb ed="#L" n="87"/>AD TERTIUM DICENDUM quod nullus conatur ad
+<lb ed="#L" n="88"/>ea in quibus est multum deficiens. Et ideo cum
+<lb ed="#L" n="89"/>aliquis in hoc eum excedat, non invidet. Sed si
+<lb ed="#L" n="90"/>modicum deficiat, videtur quod ad hoc 
+pertin<lb break="no" ed="#L" n="91"/>gere possit, et sic ad hoc conatur. Unde si 
+fru<lb break="no" ed="#L" n="92"/>straretur eius conatus propter excessum gloriae
+<pb ed="#L" n="291"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>alterius, tristatur. Et inde est quod amatores 
+ho<lb break="no" ed="#L" n="2"/>noris sunt magis invidi. Et similiter etiam 
+pusil<lb break="no" ed="#L" n="3"/>lanimes sunt invidi: quia omnia reputant magna,
+<lb ed="#L" n="4"/>et quidquid boni alicui accidat, reputant se in
+<lb ed="#L" n="5"/>magno superatos esse. Unde et 7ob v dicitur:
+<lb ed="#L" n="6"/>Parrvulum occidit invidia. Et dicit Gregorius, in
+<lb ed="#L" n="7"/>V Moral., quod invidere non possumus nisi eis
+<lb ed="#L" n="8"/>quos nobis in aliquo meliores putamus.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e376">
+                  <lb ed="#L" n="9"/>AD QUARTUM DICENDUM. quod memoria. 
+praete<lb break="no" ed="#L" n="10"/>ritorum bonorum, inquantum fuerunt habita, de-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="11"/>lectationem causat: sed inquantum sunt amissa,
+<lb ed="#L" n="12"/>causant tristitiam. Et inquantum ab aliis 
+haben<lb break="no" ed="#L" n="13"/>tur, causant invidiam: quia hoc maxime videtur
+<lb ed="#L" n="14"/>gloriae propriae derogare. Et ideo dicit 
+Philoso<lb break="no" ed="#L" n="15"/>phus, in II Rhet., quod senes invident 
+iuniori<lb break="no" ed="#L" n="16"/>bus; et illi qui multa expenderunt ad aliquid
+<lb ed="#L" n="17"/>consequendum  invident his qui parvis expensis
+<lb ed="#L" n="18"/>illud sunt consecuti; dolent enim de amissione
+<lb ed="#L" n="19"/>suorum bonorum, et de hoc quod alii consecuti
+<lb ed="#L" n="20"/>sunt bona.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1458-Dd1e409"><!-- p2p2-q36a2 -->
+               <head xml:id="TAca84-d1e1458-Hd1e412">Articulus 2</head>
+               <head xml:id="TAca84-d1e1458-Hd1e414" type="question-title">Utrum invidia sit peccatum</head>
+               <p xml:id="TAca84-d1e1458-d1e417">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="72"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="73"/>UTRUM INVIDIA SIT PECCATUM
+</p>
+               <p xml:id="TAca84-d1e1458-d1e426">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="74"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="75"/>invidia non sit peccatum. Dicit enim
+<lb ed="#L" n="76"/>iae: Habeat socias cum quibus discat,
+<lb ed="#L" n="77"/>quibus invideat, quarum laudibus mordeatur. Sed
+<lb ed="#L" n="78"/>nullus est sollicitandus ad peccandum. Ergo 
+in<lb break="no" ed="#L" n="79"/>vidia non est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e444">
+                  <lb ed="#L" n="80"/>2. PRAETEREA, invidia est tristitia de alienis
+<lb ed="#L" n="81"/>bonis, ut Damascenus dicit. Sed hoc 
+quando<lb break="no" ed="#L" n="82"/>que laudabiliter. fit: dicitur enim rov. xxix:
+<lb ed="#L" n="83"/>Cum impii sumpserint principatum, gemet 
+popu<lb break="no" ed="#L" n="84"/>lus. Ergo invidia non semper est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e458">
+                  <lb ed="#L" n="85"/>3. PRAETEREA, invidia zelum quendam 
+nomi<lb break="no" ed="#L" n="86"/>nat. Sed zelus quidam est bonus: secundum 
+il<lb break="no" ed="#L" n="87"/>lud Psalm.: Zelus domus tuae comedit me. Ergo
+<lb ed="#L" n="88"/>invidia non semper est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e469">
+                  <lb ed="#L" n="89"/>4. PRAETEREA, poena dividitur contra culpam.
+<lb ed="#L" n="90"/>Sed invidia est quaedam poena: dicit enim 
+Gre<lb break="no" ed="#L" n="91"/>gorius, V Moral.: Cum devictum cor livoris 
+pu<lb break="no" ed="#L" n="92"/>iredo corruperit, ipsa quoque exteriora indicant
+<lb ed="#L" n="93"/>quam graviter animum vesania instigat: color
+<lb ed="#L" n="94"/>quippe pallore afficitur, oculi deprimuntur, mens
+<lb ed="#L" n="95"/>accenditur, membra frigescunt, fit in cogitatione
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="96"/>rabies, in dentibus stridor. Ergo invidia non est
+<lb ed="#L" n="97"/>peccatum.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e493">
+                  <lb ed="#L" n="98"/>SED CONTRA EST quod dicitur ad Gal. v: Non
+<lb ed="#L" n="99"/>efficiamur inanis gloriae cupidi, invicem 
+provo<lb break="no" ed="#L" n="100"/>canles, invicem invidentes. , :
+</p>
+               <p xml:id="TAca84-d1e1458-d1e502">
+                  <lb ed="#L" n="101"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="102"/>invidia est tristitia de alienis bonis. Sed haec
+<lb ed="#L" n="103"/>tristitia potest contingere quatuor modis. Uno 
+qui<lb break="no" ed="#L" n="104"/>dem modo, quando aliquis dolet de bono 
+ali<lb break="no" ed="#L" n="105"/>cuius inquantum ex eo timetur nocumentum vel
+<lb ed="#L" n="106"/>sibi ipsi vel etiam aliis bonis. Et talis tristitia
+<lb ed="#L" n="107"/>non est invidia, ut dictum est; et potest esse
+<lb ed="#L" n="108"/>sine peccato. Unde Gregorius, XXII Moral., ait:
+<lb ed="#L" n="109"/>Evenire plerumque solet ut, non amissa caritate,
+<lb ed="#L" n="110"/>et inimici nos ruina laeti ificet, et rursum eius 
+glo<lb break="no" ed="#L" n="111"/>ria sine invidiae culpa coniristel, cum et ruente
+<lb ed="#L" n="112"/>eo quosdam bene erigi credimus , et proficiente
+<lb ed="#L" n="113"/>illo plerosque iniuste opprimi formidamus.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e533">
+                  <lb ed="#L" n="114"/>Alio modo potest aliquis tristari de bono 
+al<lb break="no" ed="#L" n="115"/>terius, non ex eo quod ipse habet bonum, sed
+<lb ed="#L" n="116"/>ex eo quod nobis deest bonum illud quod ipse
+<lb ed="#L" n="117"/>habet. Et hoc proprie est zelus; ut Philosophus
+<lb ed="#L" n="118"/>dicit, in II Rhet. Et si iste zelus sit circa bona
+<pb ed="#L" n="294"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>honesta, laudabilis est: secundum illud I ad Cor.
+<lb ed="#L" n="2"/>xiv: Aemulamini spiritualia. Si autem sit de
+<lb ed="#L" n="3"/>bonis temporalibus, potest esse cum peccato, et
+<lb ed="#L" n="4"/>sine peccato.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e559">
+                  <lb ed="#L" n="5"/>Tertio modo aliquis tristatur de bono alterius
+<lb ed="#L" n="6"/>inquantum ille cui accidit bonum est eo indignus.
+<lb ed="#L" n="7"/>Quae quidem tristitia non potest oriri ex bonis
+<lb ed="#L" n="8"/>honestis, ex quibus aliquis iustus efficitur; sed
+<lb ed="#L" n="9"/>sicut Philosophus dicit, in 1I Rhet., est de 
+di<lb break="no" ed="#L" n="10"/>vitiis et de talibus, quae possunt provenire dignis
+<lb ed="#L" n="11"/>et indignis. Et haec tristitia, secundum ipsum,
+<lb ed="#L" n="12"/>vocatur z:emesis, et pertinet ad bonos mores. Sed
+<lb ed="#L" n="13"/>hoc ideo dicit quia considerabat ipsa bona 
+tem<lb break="no" ed="#L" n="14"/>poralia secundum se, prout possunt magna videri
+<lb ed="#L" n="15"/>non respicientibus ad aeterna. Sed secundum 
+do<lb break="no" ed="#L" n="16"/>ctrinam fidei, temporalia bona quae indignis 
+pro<lb break="no" ed="#L" n="17"/>veniunt ex iusta Dei ordinatione disponuntur vel
+<lb ed="#L" n="18"/>ad eorum correctionem vel ad eorum 
+damnatio<lb break="no" ed="#L" n="19"/>nem: et huiusmodi bona quasi nihil sunt in 
+com<lb break="no" ed="#L" n="20"/>paratione ad bona futura, quae servantur bonis. Et
+<lb ed="#L" n="21"/>ideo huiusmodi tristitia prohibetur in Scriptura
+<lb ed="#L" n="22"/>sacra: secundum illud Psalm.: Noli aemulari in
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="23"/>malignantibus, neque zelaveris facientes 
+iniquita<lb break="no" ed="#L" n="24"/>tem. Et alibi: Pene effusi sunt. gressus mei, quia
+<lb ed="#L" n="25"/>zelavi super iniquos, pacem peccatorum videns.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e610">
+                  <lb ed="#L" n="26"/>Quarto aliquis tristatur de bonis alicuius 
+in<lb break="no" ed="#L" n="27"/>quantum alter excedit ipsum. in bonis. Et hoc
+<lb ed="#L" n="28"/>proprie est invidia. Et istud semper est pravum,
+<lb ed="#L" n="29"/>ut etiam Philosophus dicit, in Il Aet.: quia
+<lb ed="#L" n="30"/>dolet de eo de quo est gaudendum, scilicet de
+<lb ed="#L" n="31"/>bono. proximi.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e626">
+                  <lb ed="#L" n="32"/>AD PRIMUM ERGO DICENDUM quod ibi sumitur 
+in<lb break="no" ed="#L" n="33"/>vidia pro zelo quo quis debet incitari ad 
+profi<lb break="no" ed="#L" n="34"/>ciendum cum melioribus. ;
+</p>
+               <p xml:id="TAca84-d1e1458-d1e635">
+                  <lb ed="#L" n="35"/>AD SECUNDUM DICENDUM quod ratio illa procedit
+<lb ed="#L" n="36"/>de tristitia alienorum bonorum secundum. 
+pri<lb break="no" ed="#L" n="37"/>mum modum. : DAYS OR
+</p>
+               <p xml:id="TAca84-d1e1458-d1e644">
+                  <lb ed="#L" n="38"/>AD TERTIUM DICENDUM quod. invidia differt a
+<lb ed="#L" n="39"/>zelo, sicut dictum est. Unde zelus aliquis potest
+<lb ed="#L" n="40"/>esse bonus: sed invidia semper est mala.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e653">
+                  <lb ed="#L" n="41"/>AD QUARTUM DICENDUM quod nihil prohibet 
+ali<lb break="no" ed="#L" n="42"/>quod peccatum, ratione alicuius adiuncti, poenale
+<lb ed="#L" n="43"/>esse; ut supra dictum est, cum de peccatis
+<lb ed="#L" n="44"/>ageretur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1458-Dd1e665"><!-- p2p2-q36a3 -->
+               <head xml:id="TAca84-d1e1458-Hd1e668">Articulus 3</head>
+               <head xml:id="TAca84-d1e1458-Hd1e670" type="question-title">Utrum invidia sit peccatum mortale</head>
+               <p xml:id="TAca84-d1e1458-d1e673">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="94"/>ARTICULUS TERTIUS 
+<lb ed="#L" n="95"/>UTRUM INVIDIA SIT PECCATUM MORTALE
+</p>
+               <p xml:id="TAca84-d1e1458-d1e682">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="96"/>AD TERTIUM SIC PROCEDITUR. Videtur. quod
+<lb ed="#L" n="97"/>invidia non sit peccatum mortale. 
+In<lb break="no" ed="#L" n="98"/>vidia enim, cum sit tristitia, est passio
+<lb ed="#L" n="99"/>appetitus sensitivi. Sed in sensualitate
+<lb ed="#L" n="100"/>non est peccatum mortale, sed solum in ratione; 
+<lb ed="#L" n="101"/>ut patet per Augustinum, XII de Trin. Ergo 
+<lb ed="#L" n="102"/>invidia non est peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e702">
+                  <lb ed="#L" n="103"/>2. PRAETEREA, in infantibus non potest esse
+<lb ed="#L" n="104"/>peccatum mortale. Sed in eis potest esse invidia:
+<lb ed="#L" n="105"/>dicit enim Augustinus, in I Corffess.: Vidi ego et
+<lb ed="#L" n="106"/>expertus sum zelantem puerum: nondum 
+loque<lb break="no" ed="#L" n="107"/>batur, et intuebatur pallidus amaro aspectu 
+col<lb break="no" ed="#L" n="108"/>lactaneum suum. Ergo invidia non est peccatum
+<lb ed="#L" n="109"/>mortale.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e721">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="110"/>3. PRAETEREA, omne peccatum mortale alicui
+<lb ed="#L" n="111"/>virtuti contrariatur. Sed invidia non contrariatur
+<lb ed="#L" n="112"/>alicui virtuti, sed nemesi, quae est quaedam 
+pas<lb break="no" ed="#L" n="113"/>sio; ut patet per Philosophum, i in II Aet. Ergo
+<lb ed="#L" n="114"/>invidia non est peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e737">
+                  <lb ed="#L" n="115"/>SED CONTRA EST quod dicitur Iob v: Parvu- -
+<lb ed="#L" n="116"/>lum occidit invidia. Nihil autem occidit 
+spiritua<lb break="no" ed="#L" n="117"/>liter nisi peccatum mortale. Ergo invidia est iid
+<lb ed="#L" n="118"/>catum mortale.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e748">
+                  <lb ed="#L" n="119"/>RESPONDEO DICENDUM quod invidia ex genere
+<lb ed="#L" n="120"/>suo est peccatum mortale. Genus enim peccati
+<lb ed="#L" n="121"/>ex obiecto consideratur. Invidia autem, secundum -
+<lb ed="#L" n="122"/>rationem sui obiecti, contrariatur caritati, per
+<lb ed="#L" n="123"/>quam est vita animae spiritualis, secundum illud
+<pb ed="#L" n="297"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>I Ioan. ut: Nos scimus quoniam translati sumus
+<lb ed="#L" n="2"/>de morte ad vilam, quoniam diligimus fratres.
+<lb ed="#L" n="3"/>Utriusque enim  obiectum, et caritatis et 
+invi<lb break="no" ed="#L" n="4"/>diae, est bonum proximi, sed secundum 
+contra<lb break="no" ed="#L" n="5"/>rium motum: nam caritas gaudet de bono 
+pro<lb break="no" ed="#L" n="6"/>ximi, invidia autem de eodem tristatur, ut ex
+<lb ed="#L" n="7"/>dictis patet. Unde manifestum est quod invidia
+<lb ed="#L" n="8"/>ex suo genere est Peegenum mortale.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e783">
+                  <lb ed="#L" n="9"/>Sed. sicut supra dictum est, in quolibet 
+ge<lb break="no" ed="#L" n="10"/>nere peccati mortalis inveniuntur aliqui imperfecti
+<lb ed="#L" n="11"/>motus in sensualitate existentes qui sunt peccata
+<lb ed="#L" n="12"/>venialia: sicut in genere adulterii primus motus
+<lb ed="#L" n="13"/>concupiscentiae, et in genere homicidii primus
+<lb ed="#L" n="14"/>motus irae. lta etiam et in genere invidiae 
+in<lb break="no" ed="#L" n="15"/>veniuntur aliqui primi motus quandoque etiam
+<lb ed="#L" n="16"/>in viris perfectis, qui sunt peccata venialia.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e803">
+                  <lb ed="#L" n="17"/>Ab PRIMUM ERGO. DICENDUM quod motus invidiae
+<lb ed="#L" n="18"/>secundum quod est passio sensualitatis, est 
+quod<lb break="no" ed="#L" n="19"/>dam imperfectum in-genere actuum humanorum,
+<lb ed="#L" n="20"/>quorum principium est ratio. Unde talis invidia
+<lb ed="#L" n="21"/>peccatum mortale. - Et similis est ratio
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="22"/>de invidia parvulorum, in quibus non est usus
+<lb ed="#L" n="23"/>rationis.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e823">
+                  <lb ed="#L" n="24"/>Unde patet responsio ad secundum.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e829">
+                  <lb ed="#L" n="25"/>AD TERTIUM DICENDUM quod invidia, secundum
+<lb ed="#L" n="26"/>Philosophum, in II Rhet. opponitur et nemesi
+<lb ed="#L" n="27"/>et misericordiae, sed secundum diversa. Nam
+<lb ed="#L" n="28"/>misericordiae opponitur directe, secundum 
+con<lb break="no" ed="#L" n="29"/>trarietatem principalis obiecti: invidus enim 
+tri<lb break="no" ed="#L" n="30"/>statur de bono proximi; misericors autem 
+tri<lb break="no" ed="#L" n="31"/>statur de malo proximi. Unde invidi non sunt
+<lb ed="#L" n="32"/>misericordes, sicut ibidem dicitur, nec e 
+con<lb break="no" ed="#L" n="33"/>verso. Ex parte vero eius de cuius bono tristatur
+<lb ed="#L" n="34"/>invidus, opponitur invidia nemesi: nemeseticus ?
+<lb ed="#L" n="35"/>enim. tristatur de bono indigne agentium, 
+secun<lb break="no" ed="#L" n="36"/>dum illud Psalm.: Zelavi super iniquos, pacem
+<lb ed="#L" n="37"/>peccatorum videns ; invidus autem tristatur de
+<lb ed="#L" n="38"/>bono eorum qui sunt digni. Unde patet quod
+<lb ed="#L" n="39"/>prima contrarietas est magis directa quam 
+se<lb break="no" ed="#L" n="40"/>cunda. Miserigordia autem quaedam virtus est,
+<lb ed="#L" n="41"/>et caritatis proprius effectus. Unde invidia 
+mi<lb break="no" ed="#L" n="42"/>sericordiae opponitur et caritati.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1458-Dd1e872"><!-- p2p2-q36a4 -->
+               <head xml:id="TAca84-d1e1458-Hd1e875">Articulus 4</head>
+               <head xml:id="TAca84-d1e1458-Hd1e877" type="question-title">Utrum invidia sit vitium capitale</head>
+               <p xml:id="TAca84-d1e1458-d1e880">
+                  <lb ed="#L" n="65"/>ARTICULUS QUARTUS
+<lb ed="#L" n="66"/>UTRUM INVIDIA SIT VITIUM CAPITALE
+</p>
+               <p xml:id="TAca84-d1e1458-d1e887">
+                  <lb ed="#L" n="67"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="68"/>invidia non sit vitium capitale. Vitia
+<lb ed="#L" n="69"/>enim capitalia distinguuntur contra 
+fi<lb break="no" ed="#L" n="70"/>lias capitalium vitiorum. Sed invidia est
+<lb ed="#L" n="71"/>filia T gloriae: dicit enim Philosophus, in
+<lb ed="#L" n="72"/>II Rhet., quod amatores honoris et gloriae magis
+<lb ed="#L" n="73"/>invident. Ergo invidia non est vitium capitale.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e905">
+                  <lb ed="#L" n="74"/>2. PRAETEREA, vitia capitalia videntur esse 
+le<lb break="no" ed="#L" n="75"/>viora quam alia quae ex eis oriuntur: dicit enim
+<lb ed="#L" n="76"/>Gregorius, XXXI Moral.:. Prima vitia. deceptae
+<lb ed="#L" n="77"/>menti quasi sub quadam ralione se ingerunt: sed
+<lb ed="#L" n="78"/>quae sequuntur, dum mentem ad omnem 
+insa<lb break="no" ed="#L" n="79"/>niam protrahunt, quasi bestiali clamore mentem
+<lb ed="#L" n="80"/>confundunt, Sed invidia videtur esse gravissimum
+<lb ed="#L" n="81"/>peccatum: dicit enim Gregorius, V Moral.:
+<lb ed="#L" n="82"/>Quamvis per omne vitium quod perpetratur 
+hu<lb break="no" ed="#L" n="83"/>mano cordi antiqui hostis virus infunditur, in
+<lb ed="#L" n="84"/>hac tamen nequitia tota sua viscera serpens 
+con<lb break="no" ed="#L" n="85"/>culit, el imprimendae malitiae pestem vomit, Ergo
+<lb ed="#L" n="86"/>invidia non est vitium capitale.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e937">
+                  <lb ed="#L" n="87"/>3. PRAETEREA, videtur quod inconvenienter eius
+<lb ed="#L" n="88"/>filiae assignentur a Gregorio; XXXI Moral.,
+<lb ed="#L" n="89"/>ubi dicit quod de invidia oritur odium, 
+susur<lb break="no" ed="#L" n="90"/>ralio, detractio, exultatio in adversis proximi et
+<lb ed="#L" n="91"/>affliclio in prosperis. Exultatio. enim in adversis
+<lb ed="#L" n="92"/>proximi, et afflictio in. prosperis, idem videtur
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="93"/>esse quod invidia, ut ex praemissis patet. Non
+<lb ed="#L" n="94"/>ergo ista debent poni ut filiae invidiae. R
+</p>
+               <p xml:id="TAca84-d1e1458-d1e959">
+                  <lb ed="#L" n="95"/>SED CONTRA EST auctoritas Gregorii, XXXI 
+Mo<lb break="no" ed="#L" n="96"/>ral., qui ponit invidiam vitium capitale, et ei
+<lb ed="#L" n="97"/>praedictas filias assignat.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e968">
+                  <lb ed="#L" n="98"/>RESPONDEO DICENDUM quod. sicut acedia est 
+tri<lb break="no" ed="#L" n="99"/>stitia de bono spirituali divino, ita invidia est 
+tri<lb break="no" ed="#L" n="100"/>stitia de bono proximi. Dictum est autem su ra
+<lb ed="#L" n="101"/>acediam esse vitium capitale, ea ratione quia ex
+<lb ed="#L" n="102"/>acedia homo. impellitur ad aliqua facienda vel ut
+<lb ed="#L" n="103"/>fugiat tristitiam vel ut tristitiae. satisfaciat. Unde
+<lb ed="#L" n="104"/>eadem ratione invidia ponitur vitium capitale. -
+</p>
+               <p xml:id="TAca84-d1e1458-d1e986">
+                  <lb ed="#L" n="105"/>AD PRIMUM ERGO DICENDUM quod, sicut 
+Grego<lb break="no" ed="#L" n="106"/>rius dicit, in XXXI Moral., capitalia vitia tanta
+<lb ed="#L" n="107"/>sibi coniunctione coniunguntur ut non nisi unum
+<lb ed="#L" n="108"/>de altero. proferatur. Prima namque superbiae
+<lb ed="#L" n="109"/>soboles inanis est. gloria, quae dum oppressam
+<lb ed="#L" n="110"/>mentem corruperit, mox invidiam gignit: quia
+<lb ed="#L" n="111"/>dum vani nominis. potentiam appetit, ne quis hanc
+<lb ed="#L" n="112"/>alius adipisci valeat, tabescit. Non est ergo contra
+<lb ed="#L" n="113"/>rationem . vitii capitalis quod ipsum ex alio 
+oria<lb break="no" ed="#L" n="114"/>tur: sed quod non habeat aliquam principalem
+<lb ed="#L" n="115"/>rationem producendi ex se multa genera 
+pecca<lb break="no" ed="#L" n="116"/>torum. - Forte tamen propter hoc quod invidia
+<lb ed="#L" n="117"/>manifeste ex inani gloria nascitur, non ponitur
+<lb ed="#L" n="118"/>vitium. capitale neque: ab Isidoro, in libro de
+<pb ed="#L" n="299"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Summo Bono as. neque a Cassiano, in libro de
+<lb ed="#L" n="2"/>Instit. Coenob.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e1028">
+                  <lb ed="#L" n="3"/>AD SECUNDUM DICENDUM quod ex verbis illis non
+<lb ed="#L" n="4"/>habetur quod invidia sit maximum peccatorum:
+<lb ed="#L" n="5"/>sed quod quando diabolus invidiam suggerit, ad
+<lb ed="#L" n="6"/>hoc hominem inducit quod ipse principaliter in
+<lb ed="#L" n="7"/>corde habet; quia sicut ibi inducitur 
+consequen<lb break="no" ed="#L" n="8"/>ter, invidia diaboli mors introivit in orbem 
+ter<lb break="no" ed="#L" n="9"/>rarum.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e1046">
+                  <lb ed="#L" n="10"/>Est tamen quaedam invidia quae inter 
+gravis<lb break="no" ed="#L" n="11"/>sima peccata computatur, scilicet invidentia 
+fra<lb break="no" ed="#L" n="12"/>ternae gratiae, secundum quod aliquis dolet de
+<lb ed="#L" n="13"/>ipso augmento gratiae Dei, non solum de bono
+<lb ed="#L" n="14"/>proximi. Unde ponitur peccatum in Spiritum 
+San<lb break="no" ed="#L" n="15"/>ctum: quia per hanc invidentiam homo 
+quo<lb break="no" ed="#L" n="16"/>dammodo invidet Spiritui Sancto, qui in suis
+<lb ed="#L" n="17"/>operibus glorificatur.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e1067">
+                  <lb ed="#L" n="18"/>AD TERTIUM DICENDUM quod numerus filiarum
+<lb ed="#L" n="19"/>invidiae sic potest sumi. Quia in conatu invidiae
+<lb ed="#L" n="20"/>est aliquid tanquam principium, et aliquid tan-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="21"/>quam medium, et aliquid tanquam terminus.
+<lb ed="#L" n="22"/>Principium quidem est ut aliquis diminuat 
+glo<lb break="no" ed="#L" n="23"/>riam alterius vel in occulto, et sic est susurratio;
+<lb ed="#L" n="24"/>vel manifeste, et sic est defractio. Medium autem
+<lb ed="#L" n="25"/>est quia aliquis intendens diminuere gloriam
+<lb ed="#L" n="26"/>alterius aut potest, et sic est exultatio in adversis;
+<lb ed="#L" n="27"/>aut non potest, et sic est afflictio in prosperis.
+<lb ed="#L" n="28"/>Terminus autem est in ipso odio: quia sicut 
+bo<lb break="no" ed="#L" n="29"/>num delectans causat amorem, ita tristitia causat
+<lb ed="#L" n="30"/>odium, ut supra . dictum est.
+</p>
+               <p xml:id="TAca84-d1e1458-d1e1100">
+                  <lb ed="#L" n="31"/>Afflictio autem in prosperis proximi uno modo
+<lb ed="#L" n="32"/>est ipsa invidia: inquantum scilicet aliquis 
+tri<lb break="no" ed="#L" n="33"/>statur de prosperis alicuius secundum quod 
+ha<lb break="no" ed="#L" n="34"/>bent quandam gloriam. Alio vero modo est filia
+<lb ed="#L" n="35"/>invidiae: Secundum quod prospera proximi 
+eve<lb break="no" ed="#L" n="36"/>niunt contra conatum invidentis, qui nititur 
+im<lb break="no" ed="#L" n="37"/>pedire. - Exultatio autem in adversis non est 
+di<lb break="no" ed="#L" n="38"/>recte idem quod invidia, sed ex ea sequitur:
+<lb ed="#L" n="39"/>nam ex tristitia de bono proximi, quae est 
+in<lb break="no" ed="#L" n="40"/>vidia, sequitur exultatio de malo eiusdem.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

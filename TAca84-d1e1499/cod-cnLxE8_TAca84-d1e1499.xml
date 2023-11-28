@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 44</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 44</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="331"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1499"><!-- p2p2-q44 -->
+            <head xml:id="TAca84-d1e1499-Hd1e101">Quaestio 44</head>
+            <head xml:id="TAca84-d1e1499-Hd1e103" type="question-title">De praeceptis caritatis</head>
+            <p xml:id="TAca84-d1e1499-d1e106">
+               <pb ed="#L" n="331"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO QUADRAGESIMAQUARTA
+<lb ed="#L" n="2"/>DE PRAECEPTIS CARITATIS
+<lb ed="#L" n="3"/>IN OCTO ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1499-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de praeceptis 
+ca<lb break="no" ed="#L" n="5"/>ritatis
+</p>
+            <p xml:id="TAca84-d1e1499-d1e128">
+               <lb ed="#L" n="6"/>Et circa hoc quaeruntur octo.
+<lb ed="#L" n="7"/>Primo: utrum de caritate sint danda 
+prae<lb break="no" ed="#L" n="8"/>cepta.
+<lb ed="#L" n="9"/>Secundo: utrum unum tantum, vel duo.
+<lb ed="#L" n="10"/>Tertio: utrum duo sufficiant.
+<lb ed="#L" n="11"/>Quarto: utrum convenienter praecipiatur ut
+<lb ed="#L" n="12"/>Deus ex toto corde diligatur.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="13"/>Quinto: utrum convenienter addatur, ex íota
+<lb ed="#L" n="14"/>mente etc.
+<lb ed="#L" n="15"/>Sexto: utrum praeceptum hoc possit in vita
+<lb ed="#L" n="16"/>ista impleri.
+<lb ed="#L" n="17"/>Septimo: de hoc praecepto, Diliges proximum
+<lb ed="#L" n="18"/>tuum sicut teipsum.
+<lb ed="#L" n="19"/>Octavo: utrum ordo caritatis cadat sub 
+prae<lb break="no" ed="#L" n="20"/>cepto.
+</p>
+            <div xml:id="TAca84-d1e1499-Dd1e166"><!-- p2p2-q44a1 -->
+               <head xml:id="TAca84-d1e1499-Hd1e169">Articulus 1</head>
+               <head xml:id="TAca84-d1e1499-Hd1e171" type="question-title">Utrum de caritate debeat dari aliquod praeceptum</head>
+               <p xml:id="TAca84-d1e1499-d1e174">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="21"/>ARTICULUS PRIMUS
+<lb ed="#L" n="22"/>UTRUM DE CARITATE DEBEAT DARI ALIQUOD PRAECEPTUM
+</p>
+               <p xml:id="TAca84-d1e1499-d1e183">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="23"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="24"/>de caritate non debeat dari aliquod 
+prae<lb break="no" ed="#L" n="25"/>ceptum. Caritas enim imponit modum
+<lb ed="#L" n="26"/>actibus omnium virtutum, de quibus
+<lb ed="#L" n="27"/>dantur praecepta: cum sit forma virtutum, ut
+<lb ed="#L" n="28"/>supra dictum est. Sed modus non est in 
+prae<lb break="no" ed="#L" n="29"/>cepto: ut communiter dicitur. Ergo de caritate
+<lb ed="#L" n="30"/>non sunt danda praecepta.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e205">
+                  <lb ed="#L" n="31"/>2. PRAETEREA, caritas, quae in cordibus nostris
+<lb ed="#L" n="32"/>per Spiritum Sanctum diffunditur, facit nos 
+li<lb break="no" ed="#L" n="33"/>beros: quia ubi Spiritus Domini, ibi libertas, ut
+<lb ed="#L" n="34"/>dicitur Il ad. Cor. ur. Sed obligatio, quae ex
+<lb ed="#L" n="35"/>praeceptis nascitur, libertati opponitur: quia 
+ne<lb break="no" ed="#L" n="36"/>cessitatem imponit. Ergo de caritate non sunt
+<lb ed="#L" n="37"/>danda praecepta.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e224">
+                  <lb ed="#L" n="38"/>3. PRAETEREA, caritas est praecipua inter 
+om<lb break="no" ed="#L" n="39"/>nes virtutes, ad quas ordinantur praecepta, ut
+<lb ed="#L" n="40"/>ex supradictis patet. Si igitur de caritate 
+dan<lb break="no" ed="#L" n="41"/>tur aliqua praecepta, deberent poni inter 
+prae<lb break="no" ed="#L" n="42"/>cipua praecepta, quae sunt praecepta decalogi.
+<lb ed="#L" n="43"/>Non autem ponuntur. Ergo nulla praecepta sunt
+<lb ed="#L" n="44"/>de caritate danda.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e242">
+                  <lb ed="#L" n="45"/>SED CONTRA, illud. quod Deus requirit a nobis
+<lb ed="#L" n="46"/>cadit sub praecepto. Requirit autem Deus ab
+<lb ed="#L" n="47"/>homine ut diligat eum, ut dicitur Deut. x. Ergo
+<lb ed="#L" n="48"/>de dilectione caritatis, quae est dilectio Dei, sunt
+<lb ed="#L" n="49"/>danda praecepta.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e255">
+                  <lb ed="#L" n="50"/>RESPONDEO DICENDUM quod, sicut supra 
+di<lb break="no" ed="#L" n="51"/>at 531i ctum est, praeceptum importat rationem debiti.
+<lb ed="#L" n="52"/>Intantum ergo aliquid cadit sub praecepto 
+in<lb break="no" ed="#L" n="53"/>quantum habet rationem debiti. Est autem aliquid
+<lb ed="#L" n="54"/>debitum dupliciter: uno nrodo, per se; alio modo,
+<lb ed="#L" n="55"/>propter aliud. Per se quidem debitum est in 
+uno<lb break="no" ed="#L" n="56"/>quoque negotio id quod est finis, quia habet
+<lb ed="#L" n="57"/>rationem per se boni; propter aliud autem est
+<lb ed="#L" n="58"/>debitum id quod ordinatur ad finem: sicut medico
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="59"/>per se debitum est ut sanet; propter aliud 
+au<lb break="no" ed="#L" n="60"/>tem, ut det medicinam ad sanandum. Finis autem
+<lb ed="#L" n="61"/>spiritualis vitae est ut homo uniatur Deo, quod
+<lb ed="#L" n="62"/>fit per caritatem: et ad hoc ordinantur, sicut ad
+<lb ed="#L" n="63"/>finem, omnia quae pertinent ad spiritualem 
+vi<lb break="no" ed="#L" n="64"/>tam. Unde et Apostolus dicit, I ad 7m. 1: Finis ves. s.
+<lb ed="#L" n="65"/>praecepti est caritas de corde puro et conscientia
+<lb ed="#L" n="66"/>bona et fide non ficta. Omnes enim virtutes, de
+<lb ed="#L" n="67"/>quarum actibus dantur praecepta, ordinantur vel
+<lb ed="#L" n="68"/>ad purificandum cor a turbinibus passionum,
+<lb ed="#L" n="69"/>sicut virtutes quae sunt circa passiones; vel 
+sal<lb break="no" ed="#L" n="70"/>tem ad habendam bonam conscientiam, sicut
+<lb ed="#L" n="71"/>virtutes quae sunt circa operationes; vel ad 
+ha<lb break="no" ed="#L" n="72"/>bendam rectam fidem, sicut illa quae pertinent
+<lb ed="#L" n="73"/>ad divinum cultum. Et haec tria requiruntur
+<lb ed="#L" n="74"/>ad diligendum Deum: nam cor impurum a Dei
+<lb ed="#L" n="75"/>dilectione abstrahitur propter passionem 
+incli<lb break="no" ed="#L" n="76"/>nantem ad terrena; conscientia vero mala facit
+<lb ed="#L" n="77"/>horrere divinam iustitiam propter timorem 
+poe<lb break="no" ed="#L" n="78"/>nae; fides autem ficta trahit affectum in id quod
+<lb ed="#L" n="79"/>de Deo fingitur, separans a Dei P veritate. In E
+<lb ed="#L" n="80"/>quolibet autem genere id quod est per se 
+po<lb break="no" ed="#L" n="81"/>tius est eo quod est propter aliud. Et. ideo
+<lb ed="#L" n="82"/>maximum praeceptum est de caritate, ut dicitur
+<lb ed="#L" n="83"/>Matth. xxii.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e333">
+                  <lb ed="#L" n="84"/>AD PRIMUM ERGO DICENDUM quod, sicut supra 
+<lb ed="#L" n="85"/>dietum est cum de praeceptis ageretur, modus 
+<lb ed="#L" n="86"/>dilectionis non cadit sub illis. praeceptis quae
+<lb ed="#L" n="87"/>dantur de aliis actibus virtutum: puta sub hoc
+<lb ed="#L" n="88"/>praecepto, Honora patrem tuum et matrem tuam,
+<lb ed="#L" n="89"/>non cadit quod hoc ex caritate fiat. Cadit tamen
+<lb ed="#L" n="90"/>actus dilectionis sub praeceptis specialibus.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e351">
+                  <lb ed="#L" n="91"/>AD SECUNDUM DICENDUM quod obligatio praecepti
+<lb ed="#L" n="92"/>non opponitur libertati nisi in eo cuius mens
+<lb ed="#L" n="93"/>aversa est ab eo quod praecipitur: sicut patet
+<lb ed="#L" n="94"/>in his qui ex solo timore praecepta custodiunt.
+<pb ed="#L" n="332"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Sed praeceptum dilectionis non potest impleri 
+<lb ed="#L" n="2"/>nisi ex propria voluntate. Et ideo libertati non
+<lb ed="#L" n="3"/>repugnat.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e373">
+                  <lb ed="#L" n="4"/>AD TERTIUM DICENDUM quod omnia praecepta:
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="5"/>decalogi ordinantur ad dilectionem Dei et 
+pro<lb break="no" ed="#L" n="6"/>ximi. Et ideo praecepta caritatis non fuerunt
+<lb ed="#L" n="7"/>connumeranda inter praecepta decalogi, sed in
+<lb ed="#L" n="8"/>omnibus includuntur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1499-Dd1e390"><!-- p2p2-q44a2 -->
+               <head xml:id="TAca84-d1e1499-Hd1e393">Articulus 2</head>
+               <head xml:id="TAca84-d1e1499-Hd1e395" type="question-title">Utrum de caritate fuerint danda duo praecepta</head>
+               <p xml:id="TAca84-d1e1499-d1e398">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="21"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="22"/>UTRUM DE CARITATE FUERINT DANDA DUO PRAECEPTA
+</p>
+               <p xml:id="TAca84-d1e1499-d1e407">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="23"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="24"/>de caritate non fuerint danda duo 
+prae<lb break="no" ed="#L" n="25"/>cepta. Praecepta enim legis 
+ordinantur<lb break="no" ed="#L" n="26"/>ad virtutem, ut supra dictum est.
+<lb ed="#L" n="27"/>Sed caritas est una virtus, ut ex supradictis
+<lb ed="#L" n="28"/>patet. Ergo de caritate non fuit dandum nisi
+<lb ed="#L" n="29"/>unum praeceptum.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e427">
+                  <lb ed="#L" n="30"/>2. PRAETEREA, sicut Augustinus dicit, in I de
+<lb ed="#L" n="31"/>Doct. Christ., caritas in proximo non diligit nisi
+<lb ed="#L" n="32"/>Deum. Sed ad diligendum Deum sufficienter 
+or<lb break="no" ed="#L" n="33"/>dinamur per hoc praeceptum, Diliges Dominum
+<lb ed="#L" n="34"/>Deum tuum. Ergo non oportuit addere aliud
+<lb ed="#L" n="35"/>praeceptum de dilectione. proximi.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e444">
+                  <lb ed="#L" n="36"/>3. PRAETEREA, diversa peccata diversis 
+praece<lb break="no" ed="#L" n="37"/>ptis opponuntur. Sed non peccat aliquis 
+praeter<lb break="no" ed="#L" n="38"/>mittens dilectionem proximi, si non praetermittat
+<lb ed="#L" n="39"/>dilectionem Dei: quinimmo dicitur Luc. xiv: Si
+<lb ed="#L" n="40"/>quis venit ad me et non odit patrem suum et
+<lb ed="#L" n="41"/>matrem suam, non polest meus esse discipulus.
+<lb ed="#L" n="42"/>Ergo non est aliud praeceptum de dilectione
+<lb ed="#L" n="43"/>Dei et de dilectione proximi.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e464">
+                  <lb ed="#L" n="44"/>4. PRAETEREA, Apostolus dicit, ad Rom. xm:
+<lb ed="#L" n="45"/>Qui diligit proximum legem implevit. Sed non
+<lb ed="#L" n="46"/>impletur lex nisi per observantiam omnium 
+prae<lb break="no" ed="#L" n="47"/>ceptorum. Ergo omnia praecepta includuntur in
+<lb ed="#L" n="48"/>a dilectione proximi. Sufficit ergo hoc unum 
+prae<lb break="no" ed="#L" n="49"/>8 ceptum de dilectione proximi. Non ergo debent ?
+<lb ed="#L" n="50"/>esse duo praecepta caritatis.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e482">
+                  <lb ed="#L" n="51"/>SEp cowTRA EST quod dicitur I Ioan. iv:- Hoc
+<lb ed="#L" n="52"/>mandatum habemus a Deo, ut qui diligit Deum
+<lb ed="#L" n="53"/>diligat et fratrem suum.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e491">
+                  <lb ed="#L" n="54"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="55"/>est cum de praeceptis ageretur, hoc modo se
+<lb ed="#L" n="56"/>habent praecepta in lege sicut propositiones in
+<lb ed="#L" n="57"/>scientiis speculativis. In quibus conclusiones vir-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="58"/>tute continentur in primis principiis: unde qui
+<lb ed="#L" n="59"/>perfecte cognosceret principia secundum totam
+<lb ed="#L" n="60"/>suam virtutem, non opus haberet ut ei 
+conclu<lb break="no" ed="#L" n="61"/>siones seorsum proponerentur. Sed quia non
+<lb ed="#L" n="62"/>omnes qui cognoscunt principia sufficiunt 
+con<lb break="no" ed="#L" n="63"/>siderare quidquid in principiis virtute continetur,
+<lb ed="#L" n="64"/>necesse est propter eos ut in scientiis ex 
+prin<lb break="no" ed="#L" n="65"/>cipiis conclusiones deducantur. ln operabilibus
+<lb ed="#L" n="66"/>autem, in quibus praecepta legis nos dirigunt,
+<lb ed="#L" n="67"/>finis habet rationem principii, ut supra dictum
+<lb ed="#L" n="68"/>est. Dilectio autem Dei finis est, ad quem dilectio i5
+<lb ed="#L" n="69"/>proximi ordinatur. Et ideo non solum oportet
+<lb ed="#L" n="70"/>dari praeceptum de dilectione Dei, sed etiam de
+<lb ed="#L" n="71"/>dilectione proximi, propter minus capaces, qui
+<lb ed="#L" n="72"/>non de facili considerarent unum horum 
+prae<lb break="no" ed="#L" n="73"/>ceptorum sub alio contineri.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e539">
+                  <lb ed="#L" n="74"/>AD PRIMUM ERGO DICENDUM quod, si? caritas sit
+<lb ed="#L" n="75"/>una virtus, habet tamen duos actus, quorum unus
+<lb ed="#L" n="76"/>ordinatur ad alium sicut ad finem. Praec
+<lb ed="#L" n="77"/>autem dantur de actibus virtutum. Et ideo 
+opor<lb break="no" ed="#L" n="78"/>tuit esse plura praecepta caritatis.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e552">
+                  <lb ed="#L" n="79"/>AD SECUNDUM DICENDUM quod. Deus diligitur in
+<lb ed="#L" n="80"/>proximo sicut finis in eo quod est ad finem. Et
+<lb ed="#L" n="81"/>tamen oportuit de utroque eaplicite dari p
+<lb ed="#L" n="82"/>cepta, ratione iam dicta.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e564">
+                  <lb ed="#L" n="83"/>AD TERTIUM DICENDUM quod id quod est ad 
+fi<lb break="no" ed="#L" n="84"/>nem habet rationem boni ex ordine ad finem.
+<lb ed="#L" n="85"/>Et secundum hoc etiam recedere ab eo "en: 
+ra<lb break="no" ed="#L" n="86"/>tionem mali, et non aliter.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e575">
+                  <lb ed="#L" n="87"/>AD QUARTUM DICENDUM quod in dilectione 
+pro<lb break="no" ed="#L" n="88"/>ximi includitur dilectio Dei sicut finis in eo quod
+<lb ed="#L" n="89"/>est ad finem, et e converso. Et tamen oportuit
+<lb ed="#L" n="90"/>utrumque praeceptum explicite dari, ratione mb:
+<lb ed="#L" n="91"/>dicta.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1499-Dd1e589"><!-- p2p2-q44a3 -->
+               <head xml:id="TAca84-d1e1499-Hd1e592">Articulus 3</head>
+               <head xml:id="TAca84-d1e1499-Hd1e594" type="question-title">Utrum sufficiant duo praecepta caritatis</head>
+               <p xml:id="TAca84-d1e1499-d1e597">
+                  <pb ed="#L" n="333"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM SUFFICIANT DUO PRAECEPTA CARITATIS
+</p>
+               <p xml:id="TAca84-d1e1499-d1e608">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>non sufficiant duo praecepta caritatis.
+<lb ed="#L" n="5"/>Praecepta enim dantur de actibus 
+vir<lb break="no" ed="#L" n="6"/>tutum. Actus autem secundum obiecta
+<lb ed="#L" n="7"/>distinguuntur. Cum igitur quatuor homo debeat
+<lb ed="#L" n="8"/>ex caritate diligere, scilicet Deum, seipsum, 
+pro<lb break="no" ed="#L" n="9"/>ximum et corpus proprium, ut ex supradictis
+<lb ed="#L" n="10"/>patet; videtur quod quatuor debeant esse 
+cari<lb break="no" ed="#L" n="11"/>tatis praecepta. Et sic duo non sufficiunt.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e632">
+                  <lb ed="#L" n="12"/>2. PRAETEREA, caritatis actus non solum est
+<lb ed="#L" n="13"/>dilectio, sed gaudium, pax, beneficentia. Sed de
+<lb ed="#L" n="14"/>actibus virtutum sunt danda praecepta. Ergo
+<lb ed="#L" n="15"/>duo praecepta caritatis non sufficiunt.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e644">
+                  <lb ed="#L" n="16"/>3. PRAETEREA, sicut ad virtutem pertinet facere
+<lb ed="#L" n="17"/>bonum, ita et declinare a malo. Sed ad faciendum
+<lb ed="#L" n="18"/>bonum-inducimur per praecepta affirmativa, ad
+<lb ed="#L" n="19"/>declinandum a malo per praecepta negativa. Ergo
+<lb ed="#L" n="20"/>de caritate fuerunt danda praecepta non solum
+<lb ed="#L" n="21"/>affirmativa, sed etiam negativa. Et sic praedicta
+<lb ed="#L" n="22"/>duo. praecepta caritatis non sufficiunt.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e662">
+                  <lb ed="#L" n="23"/>SEp cowTRA EsT quod Dominus dicit, Matth.
+<lb ed="#L" n="24"/>xxi: In his duobus mandatis tota Lex pendet et
+<lb ed="#L" n="25"/>Prophetae.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e671">
+                  <lb ed="#L" n="26"/>RESPONDEO DICENDUM quod caritas, sicut supra
+<lb ed="#L" n="27"/>dictum est, est amicitia quaedam. Amicitia autem
+<lb ed="#L" n="28"/>ad alterum est. Unde Gregorius dicit, in quadam
+<lb ed="#L" n="29"/>homilia: Caritas minus quam inter duos haberi
+<lb ed="#L" n="30"/>non potest. Quomodo autem ex caritate aliquis
+<lb ed="#L" n="31"/>seipsum diligat, supra dictum est. Cum autem
+<lb ed="#L" n="32"/>dilectio et amor sit boni, bonum autem sit vel
+<lb ed="#L" n="33"/>finis vel id quod est ad finem, convenienter de
+<lb ed="#L" n="34"/>caritate duo praecepta sufficiunt: unum quidem
+<lb ed="#L" n="35"/>quo inducimur ad Deum diligendum sicut finem;
+<lb ed="#L" n="36"/>aliud autem quo inducimur ad diligendum 
+pro<lb break="no" ed="#L" n="37"/>ximum propter Deum sicut propter finem.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e700">
+                  <lb ed="#L" n="38"/>AD PRIMUM ERGO DICENDUM quod, sicut Augusti-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="39"/>nus dicit, in I de Doct. Christ., cum quatuor
+<lb ed="#L" n="40"/>sint ex caritate diligenda, de secundo et quarto,
+<lb ed="#L" n="41"/>idest de dilectione sui et corporis proprii, nulla
+<lb ed="#L" n="42"/>praecepta danda erant: quantumlibet enim homo
+<lb ed="#L" n="43"/>excidat a veritate, remanet illi dilectio sui et 
+di<lb break="no" ed="#L" n="44"/>lectio corporis sui. Modus autem diligendi 
+prae<lb break="no" ed="#L" n="45"/>"cipiendus est homini, ut scilicet se ordinate diligat
+<lb ed="#L" n="46"/>et corpus proprium. Quod quidem fit per hoc
+<lb ed="#L" n="47"/>quod homo diligit Deum et proximum.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e726">
+                  <lb ed="#L" n="48"/>AD SECUNDUM DICENDUM quod alii actus caritatis
+<lb ed="#L" n="49"/>consequuntur ex actu dilectionis sicut effectus ex
+<lb ed="#L" n="50"/>causa, ut ex supradictis patet. Unde in 
+prae<lb break="no" ed="#L" n="51"/>ceptis dilectionis virtute includuntur praecepta de
+<lb ed="#L" n="52"/>aliis actibus. - Et tamen propter tardiores 
+inve<lb break="no" ed="#L" n="53"/>niuntur de singulis explicite praecepta tradita: de
+<lb ed="#L" n="54"/>gaudio quidem, Philipp. iv: Gaudete in Domino
+<lb ed="#L" n="55"/>semper; de pace autem, ad Heb. ult.: Pacem
+<lb ed="#L" n="56"/>sequimini cum omnibus; de beneficentia autem,
+<lb ed="#L" n="57"/>ad Gal. ult.: Dum tempus habemus, operemur
+<lb ed="#L" n="58"/>bonum ad omnes. De singulis beneficentiae 
+par<lb break="no" ed="#L" n="59"/>tibus inveniuntur praecepta tradita in sacra 
+Scri<lb break="no" ed="#L" n="60"/>ptura, ut patet diligenter consideranti.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e757">
+                  <lb ed="#L" n="61"/>AD TERTIUM DICENDUM quod plus est operari
+<lb ed="#L" n="62"/>bonum quam vitare malum. Et ideo in praeceptis
+<lb ed="#L" n="63"/>affirmativis virtute includuntur praecepta 
+nega<lb break="no" ed="#L" n="64"/>tiva. - Et tamen explicite inveniuntur praecepta
+<lb ed="#L" n="65"/>data contra vitia caritati opposita. Nam contra
+<lb ed="#L" n="66"/>odium dicitur Lev. xix: Ne oderis fratrem tuum
+<lb ed="#L" n="67"/>in corde tuo; contra acediam dicitur Eccli. vi:
+<lb ed="#L" n="68"/>Ne acedieris in vinculis eius; contra invidiam,
+<lb ed="#L" n="69"/>Gal. v: Non efficiamur inanis gloriae cupidi,
+<lb ed="#L" n="70"/>invicem provocantes, invicem invidentes; contra
+<lb ed="#L" n="71"/>discordiam vero, I ad Cor.1: Idipsum dicatis
+<lb ed="#L" n="72"/>omnes, et non sint in vobis schismata; contra
+<lb ed="#L" n="73"/>scandalum autem, ad Rom. xiv: Ne ponatis
+<lb ed="#L" n="74"/>offendiculum fratri vel scandalum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1499-Dd1e791"><!-- p2p2-q44a4 -->
+               <head xml:id="TAca84-d1e1499-Hd1e794">Articulus 4</head>
+               <head xml:id="TAca84-d1e1499-Hd1e796" type="question-title">Utrum convenienter mandetur quod deus diligatur ex toto corde</head>
+               <p xml:id="TAca84-d1e1499-d1e799">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="75"/>ARTICULUS QUARTUS
+<lb ed="#L" n="76"/>UTRUM CONVENIENTER MANDETUR QUOD DEUS DILIGATUR EX TOTO CORDE
+</p>
+               <p xml:id="TAca84-d1e1499-d1e808">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="77"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="78"/>inconvenienter mandetur quod Deus 
+di<lb break="no" ed="#L" n="79"/>ligatur ex toto corde. Modus enim 
+vir<lb break="no" ed="#L" n="80"/>Wtuosi actus non est in praecepto; ut ex
+<lb ed="#L" n="81"/>PON patet. Sed hoc quod dicitur, ex toto
+<lb ed="#L" n="82"/>corde, importat modum divinae dilectionis. Ergo
+<lb ed="#L" n="83"/>inconvenienter praecipitur quod Deus ex toto
+<lb ed="#L" n="84"/>corde diligatur.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e830">
+                  <lb ed="#L" n="85"/>2. PRAETEREA, totum et perfectum est cui nihil
+<lb ed="#L" n="86"/>deest; ut dicitur in III Physic. Si igitur in 
+prae<lb break="no" ed="#L" n="87"/>cepto cadit quod Deus ex toto corde diligatur,
+<lb ed="#L" n="88"/>quicumque facit aliquid quod non pertinet ad Dei
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="89"/>dilectionem agit contra praeceptum, et per 
+con<lb break="no" ed="#L" n="90"/>sequens peccat mortaliter. Sed peccatum veniale
+<lb ed="#L" n="91"/>non pertinet ad Dei dilectionem. Ergo peccatum
+<lb ed="#L" n="92"/>veniale erit mortale, Quod est inconveniens.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e853">
+                  <lb ed="#L" n="93"/>3. PRAETEREA, diligere Deum ex toto corde est
+<lb ed="#L" n="94"/>perfectionis: quia secundum Philosophum, 
+to<lb break="no" ed="#L" n="95"/>tum et perfectum idem sunt. Sed ea quae sunt
+<lb ed="#L" n="96"/>perfectionis non cadunt sub praecepto, sed sub
+<lb ed="#L" n="97"/>consilio. Ergo non debet praecipi quod Deus ex
+<lb ed="#L" n="98"/>toto corde diligatur.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e869">
+                  <lb ed="#L" n="99"/>SEp cowrRA EsT quod dicitur Deut. v1: Diliges
+<lb ed="#L" n="100"/>Dominum Deum tuum ex ioto corde tuo.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e876">
+                  <pb ed="#L" n="334"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>RESPONDEO DICENDUM quod, cum praecepta 
+den<lb break="no" ed="#L" n="2"/>tur de actibus virtutum, hoc ergo modo aliquis
+<lb ed="#L" n="3"/>actus cadit sub praecepto, secundum quod est
+<lb ed="#L" n="4"/>actus virtutis. Requiritur autem ad actum virtutis
+<lb ed="#L" n="5"/>non solum quod cadat super debitam materiam,
+<lb ed="#L" n="6"/>sed etiam quod vestiatur debitis circumstantiis,
+<lb ed="#L" n="7"/>quibus sit proportionatus tali materiae. Deus
+<lb ed="#L" n="8"/>autem est diligendus sicut finis ultimus, ad quem
+<lb ed="#L" n="9"/>omnia sunt referenda. Et ideo totalitas quaedam
+<lb ed="#L" n="10"/>fuit designanda circa praeceptum de dilectione
+<lb ed="#L" n="11"/>Dei.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e907">
+                  <lb ed="#L" n="12"/>AD PRIMUM ERGO DICENDUM quod sub praecepto
+<lb ed="#L" n="13"/>quod datur de actu alicuius virtutis non cadit
+<lb ed="#L" n="14"/>modus quem habet ille actus ex alia superiori
+<lb ed="#L" n="15"/>virtute. Cadit tamen sub praecepto modus ille
+<lb ed="#L" n="16"/>qui pertinet ad rationem propriae virtutis. Et talis
+<lb ed="#L" n="17"/>modus significatur cum dicitur, ex toto corde.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e923">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="18"/>AD SECUNDUM DICENDUM quod dupliciter contingit
+<lb ed="#L" n="19"/>ex toto corde Deum diligere. Uno quidem modo,
+<lb ed="#L" n="20"/>in actu, idest ut totum cor hominis semper 
+actua<lb break="no" ed="#L" n="21"/>liter in Deum feratur. Et ista est perfectio 
+pa<lb break="no" ed="#L" n="22"/>triae. - Alio modo, ut habitualiter totum cor
+<lb ed="#L" n="23"/>hominis in Deum feratur: ita scilicet quod nihil
+<lb ed="#L" n="24"/>contra Dei dilectionem cor hominis recipiat. Et
+<lb ed="#L" n="25"/>haec est perfectio viae. Cui non contrariatur 
+pec<lb break="no" ed="#L" n="26"/>catum veniale: quia non tollit habitum caritatis,
+<lb ed="#L" n="27"/>cum non tendat in oppositum obiectum; sed
+<lb ed="#L" n="28"/>solum impedit caritatis usum.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e952">
+                  <lb ed="#L" n="29"/>AD TERTIUM DICENDUM quod perfectio caritatis
+<lb ed="#L" n="30"/>ad quam ordinantur consilia est media inter duas
+<lb ed="#L" n="31"/>perfectiones praedictas: ut scilicet homo, 
+quan<lb break="no" ed="#L" n="32"/>tum possibile est, se abstrahat a rebus 
+tempo<lb break="no" ed="#L" n="33"/>ralibus etiam licitis, quae, occupando. animum,
+<lb ed="#L" n="34"/>impediunt actualem. motum cordis in Deum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1499-Dd1e969"><!-- p2p2-q44a5 -->
+               <head xml:id="TAca84-d1e1499-Hd1e972">Articulus 5</head>
+               <head xml:id="TAca84-d1e1499-Hd1e974" type="question-title">Utrum super hoc, diliges dominum deum tuum ex toto corde tuo,
+    <lb ed="#L" n="86"/>Convenienter addatur, et ex tota anima tua et ex tota fortitudine tua</head>
+               <p xml:id="TAca84-d1e1499-d1e979">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="84"/>ARTICULUS QUINTUS
+<lb ed="#L" n="85"/>UTRUM SUPER HOC, DILIGES DOMINUM DEUM TUUM EX TOTO CORDE TUO,
+<lb ed="#L" n="86"/>CONVENIENTER ADDATUR, ET EX 1OTA ANIMA TUA ET EX TOTA FORTITUDINE TUA
+</p>
+               <p xml:id="TAca84-d1e1499-d1e990">
+                  <lb ed="#L" n="87"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="88"/>inconvenienter, Deut. vi, super hoc
+<lb ed="#L" n="89"/>quod dicitur, Diliges Dominum Deum
+<lb ed="#L" n="90"/>tuum ex toto corde iuo, addatur, et
+<lb ed="#L" n="91"/>ex tota anima tua et ex tota fortitudine tua. Non
+<lb ed="#L" n="92"/>enim accipitur hic cor pro membro corporali:
+<lb ed="#L" n="93"/>quia diligere Deum non est corporis actus. 
+Opor<lb break="no" ed="#L" n="94"/>tet igitur quod cor accipiatur spiritualiter. Cor
+<lb ed="#L" n="95"/>autem spiritualiter acceptum vel est ipsa anima,
+<lb ed="#L" n="96"/>vel aliquid animae. Superfluum igitur fuit 
+utrum<lb break="no" ed="#L" n="97"/>que ponere.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1016">
+                  <lb ed="#L" n="98"/>2. PRAETEREA, fortitudo hominis praecipue 
+de<lb break="no" ed="#L" n="99"/>pendet ex corde: sive spiritualiter hoc accipiatur,
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="100"/>sive corporaliter. Ergo postquam dixerat, Diliges
+<lb ed="#L" n="101"/>Dominum Deum tuum ex toto corde tuo, 
+super<lb break="no" ed="#L" n="102"/>fluum fuit addere, ex 4ota fortitudine tua.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1033">
+                  <lb ed="#L" n="103"/>3. PRAETEREA, Matth. xxii dicitur, in tota mente
+<lb ed="#L" n="104"/>tua, quod. hic non ponitur. Ergo videtur quod
+<lb ed="#L" n="105"/>inconvenienter hoc praeceptum detur Deut. vi.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1042">
+                  <lb ed="#L" n="106"/>SED CONTRA EST auctoritas Scripturae.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1047">
+                  <lb ed="#L" n="107"/>RESPONDEO DICENDUM quod hoc praeceptum 
+di<lb break="no" ed="#L" n="108"/>versimode invenitur traditum in.diversis locis.
+<lb ed="#L" n="109"/>Nam sicut dictum est, Deut. vi ponuntur tria:
+<lb ed="#L" n="110"/>scilicet ex toto corde, et ex tota anima, et ex tota
+<lb ed="#L" n="111"/>fortitudine. Matth. xxi.- ponuntur. duo horum;
+<lb ed="#L" n="112"/>scilicet ex foto corde et in tota anima, et omit-
+<pb ed="#L" n="335"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>titur ex tota fortitudine: sed additur in tota
+<lb ed="#L" n="2"/>mente. Sed Marc. xii ponuntur quatuor: scilicet
+<lb ed="#L" n="3"/>ex loto corde, et ex tota anima, et ex tota mente,
+<lb ed="#L" n="4"/>et ex lota virtute, quae est idem fortitudini. Et
+<lb ed="#L" n="5"/>haec etiam quatuor tanguntur Luc. x: nam loco
+<lb ed="#L" n="6"/>fortitudinis seu viriutis ponitur ex omnibus 
+vi<lb break="no" ed="#L" n="7"/>ribus tuis. Et ideo horum quatuor est ratio 
+as<lb break="no" ed="#L" n="8"/>signanda: nam quod alicubi unum horum 
+omit<lb break="no" ed="#L" n="9"/>titur, hoc est quia unum intelligitur ex aliis.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1086">
+                  <lb ed="#L" n="10"/>Est igitur considerandum quod dilectio est actus
+<lb ed="#L" n="11"/>voluntatis, quae hic significatur per cor: nam
+<lb ed="#L" n="12"/>sicut cor corporale est principium omnium 
+cor<lb break="no" ed="#L" n="13"/>poralium motuum, ita etiam voluntas, et maxime
+<lb ed="#L" n="14"/>quantum ad intentionem finis ultimi, quod est
+<lb ed="#L" n="15"/>obiectum caritatis, est principium omnium 
+spi<lb break="no" ed="#L" n="16"/>ritualium motuum. Tria autem sunt principia
+<lb ed="#L" n="17"/>factuum quae moventur a voluntate: scilicet 
+in<lb break="no" ed="#L" n="18"/>tellectus, qui significatur per mentem; vis 
+appe<lb break="no" ed="#L" n="19"/>titiva inferior, quae significatur per animam;
+<lb ed="#L" n="20"/>et vis executiva exterior, quae significatur per |
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="21"/>fortitudinem seu. virtutem sive vires. Praecipitur
+<lb ed="#L" n="22"/>ergo nobis ut tota nostra intentio feratur in Deum,
+<lb ed="#L" n="23"/>quod est ex toto corde; et quod intellectus noster
+<lb ed="#L" n="24"/>subdatur Deo, quod est ex fota mente; et quod
+<lb ed="#L" n="25"/>appetitus noster reguletur secundum Deum, quod
+<lb ed="#L" n="26"/>est ex tota anima; et quod exterior actus noster
+<lb ed="#L" n="27"/>obediat Deo, quod est ex tota fortitudine vel
+<lb ed="#L" n="28"/>virtute vel viribus Deum diligere.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1132">
+                  <lb ed="#L" n="29"/>Chrysostomus tamen, super Matth., accipit e
+<lb ed="#L" n="30"/>contrario cor et animam quam dictum sit. - 
+Au<lb break="no" ed="#L" n="31"/>gustinus vero, in I de Doct. Christ., refert cor ad
+<lb ed="#L" n="32"/>cogitationes, et animam ad vitam, mentem ad
+<lb ed="#L" n="33"/>intellectum. - Quidam autem dicunt, ex /oto
+<lb ed="#L" n="34"/>corde, idest intellectu; anima, idest voluntate ;
+<lb ed="#L" n="35"/>mente, idest memoria. - Vel, secundum 
+Grego<lb break="no" ed="#L" n="36"/>rium Nyssenum, per cor significat animam
+<lb ed="#L" n="37"/>vegetabilem, per animam sensitivam, per mentem
+<lb ed="#L" n="38"/>intellectivam: quia hoc quod nutrimur, sentimus
+<lb ed="#L" n="39"/>et intelligimus, debemus ad Deum referre.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1158">
+                  <lb ed="#L" n="40"/>Et per hoc patet responsio ad obiecta.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1499-Dd1e1164"><!-- p2p2-q44a6 -->
+               <head xml:id="TAca84-d1e1499-Hd1e1167">Articulus 6</head>
+               <head xml:id="TAca84-d1e1499-Hd1e1169" type="question-title">Utrum hoc praeceptum de dilectione dei possit in via impleri</head>
+               <p xml:id="TAca84-d1e1499-d1e1172">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="41"/>ARTICULUS SEXTUS
+<lb ed="#L" n="42"/>UTRUM HOC PRAECEPTUM DE DILECTIONE DEI POSSIT IN VIA IMPLERI
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1181">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="43"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="44"/>hoc praeceptum de dilectione Dei possit
+<lb ed="#L" n="45"/>servari in via. Quia secundum 
+Hiero<lb break="no" ed="#L" n="46"/>nymum, in Expos. Cathol. Fid., 
+ma<lb break="no" ed="#L" n="47"/>ledictus qui dicit Deum aliquid impossibile 
+praece<lb break="no" ed="#L" n="48"/>pisse. Sed Deus hoc praeceptum dedit: ut patet
+<lb ed="#L" n="49"/>Deut. vi. Ergo hoc praeceptum potest in via
+<lb ed="#L" n="50"/>impleri.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1203">
+                  <lb ed="#L" n="51"/>2. PRAETEREA, quicumque non implet 
+praece<lb break="no" ed="#L" n="52"/>ptum peccat mortaliter: quia secundum 
+Ambro<lb break="no" ed="#L" n="53"/>sium, peccatum nihil est aliud quam fransgressio
+<lb ed="#L" n="54"/>legis divinae et caelestium inobedientia 
+manda<lb break="no" ed="#L" n="55"/>torum. Si ergo hoc praeceptum non potest in via
+<lb ed="#L" n="56"/>servari, sequitur quod nullus possit esse in vita
+<lb ed="#L" n="57"/>ista sine peccato mortali. Quod est contra id
+<lb ed="#L" n="58"/>quod Apostolus dicit, I ad Cor. 1: Confirmabit
+<lb ed="#L" n="59"/>vos usque in finem sine crimine; et I ad Tim.:
+<lb ed="#L" n="60"/>Ministrent nullum crimen habentes.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1228">
+                  <lb ed="#L" n="61"/>3. PRAETEREA, praecepta dantur ad dirigendos 
+<lb ed="#L" n="62"/>homines in viam salutis: secundum illud Psalm.:
+<lb ed="#L" n="63"/>Praeceptum Domini lucidum, illuminans oculos.
+<lb ed="#L" n="64"/>Sed frustra dirigitur aliquis ad impossibile. Non
+<lb ed="#L" n="65"/>ergo impossibile est hoc praeceptum in vita ista
+<lb ed="#L" n="66"/>servari.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1244">
+                  <lb ed="#L" n="67"/>Sep. coNTRA EsT quod. Augustinus dicit, in libro
+<lb ed="#L" n="68"/>de Perfect. lustit., quod in plenitudine caritatis
+<lb ed="#L" n="69"/>patriae praeceptum illud implebitur, Diliges 
+Do<lb break="no" ed="#L" n="70"/>minum Deum tuum, etc. .Nam cum adhuc est
+<lb ed="#L" n="71"/>aliquid carnalis concupiscentiae quod continendo
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="72"/>frenetur, non omnino ex tota anima diligitur
+<lb ed="#L" n="73"/>Deus.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1264">
+                  <lb ed="#L" n="74"/>RESPONDEO DICENDUM quod praeceptum aliquod
+<lb ed="#L" n="75"/>dupliciter impleri potest: uno modo, perfecte;
+<lb ed="#L" n="76"/>alio modo, imperfecte. Perfecte quidem impletur
+<lb ed="#L" n="77"/>praeceptum quando pervenitur ad finem quem
+<lb ed="#L" n="78"/>intendit praecipiens: impletur autem, sed 
+imper<lb break="no" ed="#L" n="79"/>fecte, quando, etsi non pertingat ad finem 
+prae<lb break="no" ed="#L" n="80"/>cipientis, non tamen receditur ab ordine ad finem.
+<lb ed="#L" n="81"/>Sicut si dux exercitus praecipiat militibus ut 
+pu<lb break="no" ed="#L" n="82"/>gnent, ille perfecte implet praeceptum qui 
+pu<lb break="no" ed="#L" n="83"/>gnando hostem vincit, quod dux intendit: ille
+<lb ed="#L" n="84"/>autem implet, sed imperfecte, cuius pugna ad
+<lb ed="#L" n="85"/>victoriam non pertingit, non tamen contra di-
+,sciplinam militarem agit. Intendit autem Deus ?
+<lb ed="#L" n="86"/>per hoc praeceptum ut homo Deo totaliter 
+unia<lb break="no" ed="#L" n="87"/>tur: quod fiet in patria, quando Deus erit omnia
+| in omnibus, ut dicitur I ad Cor. xv. Et ideo
+<lb ed="#L" n="88"/>plene et perfecte in patria implebitur hoc 
+prae<lb break="no" ed="#L" n="89"/>ceptum. In via vero impletur, sed imperfecte.
+<lb ed="#L" n="90"/>Et tamen in via tanto unus alio perfectius implet,
+<lb ed="#L" n="91"/>quanto magis accedit per quandam similitudinem
+<lb ed="#L" n="92"/>ad patriae perfectionem.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1308">
+                  <lb ed="#L" n="93"/>AD PRIMUM ERGO DICENDUM quod ratio illa probat
+<lb ed="#L" n="94"/>quod aliquo modo potest impleri in via, licet
+<lb ed="#L" n="95"/>non perfecte.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1317">
+                  <lb ed="#L" n="96"/>AD SECUNDUM DICENDUM quod sicut miles qui
+<lb ed="#L" n="97"/>legitime pugnat, licet non vincat, non inculpatur
+<lb ed="#L" n="98"/>nec poenam meretur; ita etiam qui in via hoc
+<pb ed="#L" n="336"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>praeceptum implet nihil contra divinam  
+dile<lb break="no" ed="#L" n="2"/>ctionem agens, non peccat mortaliter.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1335">
+                  <lb ed="#L" n="3"/>AD TERTIUM DICENDUM quod, sicut Augustinus
+<lb ed="#L" n="4"/>dicit, in libro de Perfect. Zustit.: Cur non prae- 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="5"/>ciperetur homini ista perfectio, quamvis eam in
+<lb ed="#L" n="6"/>hac vita nemo habeat? Non enim recte curritur,
+<lb ed="#L" n="7"/>si quo currendum est nesciatur. Quomodo autem
+<lb ed="#L" n="8"/>sciretur, si nullis praeceptis ostenderetur?
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1499-Dd1e1355"><!-- p2p2-q44a7 -->
+               <head xml:id="TAca84-d1e1499-Hd1e1358">Articulus 7</head>
+               <head xml:id="TAca84-d1e1499-Hd1e1360" type="question-title">Utrum convenienter detur praeceptum de dilectione proximi</head>
+               <p xml:id="TAca84-d1e1499-d1e1363">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="9"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="10"/>UTRUM CONVENIENTER DETUR PRAECEPTUM DE DILECTIONE PROXIMI
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1372">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="11"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="12"/>inconvenienter detur praeceptum de 
+di<lb break="no" ed="#L" n="13"/>lectione proximi. Dilectio enim 
+carita<lb break="no" ed="#L" n="14"/>tatis ad omnes homines extenditur, etiam
+<lb ed="#L" n="15"/>ad inimicos; ut patet Matth. v. Sed nomen 
+pro<lb break="no" ed="#L" n="16"/>ximi importat quandam propinquitatem , quae
+<lb ed="#L" n="17"/>non videtur haberi ad omnes homines. Ergo
+<lb ed="#L" n="18"/>videtur quod inconvenienter detur hoc 
+praece<lb break="no" ed="#L" n="19"/>ptum.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1396">
+                  <lb ed="#L" n="20"/>2. PRAETEREA, secundum Philosophum, in IX
+<lb ed="#L" n="21"/>Ethic., amicabilia quae sunt ad alterum venerunt
+<lb ed="#L" n="22"/>ex amicabilibus quae sunt ad seipsum: ex quo
+<lb ed="#L" n="23"/>videtur quod dilectio sui ipsius sit principium 
+di<lb break="no" ed="#L" n="24"/>lectionis proximi. Sed principium potius est eo
+<lb ed="#L" n="25"/>quod est ex principio. Ergo non debet homo
+<lb ed="#L" n="26"/>diligere proximum sicut seipsum.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1415">
+                  <lb ed="#L" n="27"/>3. PRAETEREA, homo seipsum diligit naturaliter,
+<lb ed="#L" n="28"/>non autem proximum. Inconvenienter igitur 
+man<lb break="no" ed="#L" n="29"/>datur quod homo diligat proximum sicut seipsum.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1424">
+                  <lb ed="#L" n="30"/>SEp coNTRA EsT quod dicitur Matth. xxii: 
+Se<lb break="no" ed="#L" n="31"/>cundum praeceptum est simile huic: Diliges 
+pro<lb break="no" ed="#L" n="32"/>ximum tuum sicut teipsum.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1433">
+                  <lb ed="#L" n="33"/>REsPONDEO DICENDUM quod hoc praeceptum 
+con<lb break="no" ed="#L" n="34"/>venienter traditur: tangitur enim in eo et 
+dili<lb break="no" ed="#L" n="35"/>gendi ratio et dilectionis modus. Ratio quidem
+<lb ed="#L" n="36"/>diligendi tangitur ex eo quod proximus 
+nomi<lb break="no" ed="#L" n="37"/>natur: propter hoc enim ex caritate debemus
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="38"/>alios diligere, quia sunt nobis proximi et 
+secun<lb break="no" ed="#L" n="39"/>dum naturalem Dei imaginem et secundum 
+ca<lb break="no" ed="#L" n="40"/>pacitatem gloriae. Nec refert utrum dicatur 
+pro<lb break="no" ed="#L" n="41"/>ximus wel frater, ut habetur I loan. iv; vel
+<lb ed="#L" n="42"/>amicus, ut habetur Lev. xix: quia per omnia
+<lb ed="#L" n="43"/>haec eadem affinitas designatur.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1462">
+                  <lb ed="#L" n="44"/>Modus autem dilectionis tangitur cum dicitur,
+<lb ed="#L" n="45"/>sicut teipsum. Quod non est intelligendum 
+quan<lb break="no" ed="#L" n="46"/>tum ad hoc quod aliquis proximum aequaliter
+<lb ed="#L" n="47"/>sibi? diligat; sed similiter sibi. Et hoc tripliciter.
+<lb ed="#L" n="48"/>Primo quidem, ex parte finis: ut scilicet aliquis
+<lb ed="#L" n="49"/>diligat proximum propter Deum, sicut et seipsum
+<lb ed="#L" n="50"/>propter Deum debet diligere; ut sic sit dilectio
+<lb ed="#L" n="51"/>proximi sancta. - Secundo, ex parte regulae 
+di<lb break="no" ed="#L" n="52"/>lectionis: ut scilicet aliquis non condescendat
+<lb ed="#L" n="53"/>proximo in aliquo malo, sed solum in bonis,
+<lb ed="#L" n="54"/>sicut et suae voluntati satisfacere debet homo
+<lb ed="#L" n="55"/>solum in bonis; ut sic sit dilectio proximi £usta.-
+<lb ed="#L" n="56"/>Tertio, ex parte rationis dilectionis: ut scilicet
+<lb ed="#L" n="57"/>non diligat aliquis proximum propter propriam
+<lb ed="#L" n="58"/>utilitatem vel delectationem, sed ea ratione
+<lb ed="#L" n="59"/>velit proximo bonum, sicut vult bonum sibi ipsi;
+<lb ed="#L" n="60"/>ut sic dilectio proximi sit vera. Nam cum quis
+<lb ed="#L" n="61"/>diligit proximum propter suam utilitatem vel 
+de<lb break="no" ed="#L" n="62"/>lectationem, non vere diligit proximum, sed 
+se<lb break="no" ed="#L" n="63"/>ipsum.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1508">
+                  <lb ed="#L" n="64"/>Et per hoc ater responsio ad. obiecta.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1499-Dd1e1514"><!-- p2p2-q44a8 -->
+               <head xml:id="TAca84-d1e1499-Hd1e1517">Articulus 8</head>
+               <head xml:id="TAca84-d1e1499-Hd1e1519" type="question-title">Utrum ordo caritatis</head>
+               <p xml:id="TAca84-d1e1499-d1e1522">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="65"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="66"/>UTRUM ORDO CARITATIS
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1531">
+                  <lb ed="#L" n="67"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="68"/>ordo caritatis non cadat sub praecepto.
+<lb ed="#L" n="69"/>Quicumque enim transgreditur 
+praece<lb break="no" ed="#L" n="70"/>ptum iniuriam facit. Sed si aliquis 
+di<lb break="no" ed="#L" n="71"/>ligat aliquem quantum debet, et alterum 
+quem<lb break="no" ed="#L" n="72"/>cumque plus diligat, nulli facit iniuriam. Ergo
+<lb ed="#L" n="73"/>non transgreditur praeceptum. Ordo ergo caritatis
+<lb ed="#L" n="74"/>non cadit sub praecepto.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1551">
+                  <lb ed="#L" n="75"/>2. PRAETEREA, ea quae cadunt sub praecepto
+<lb ed="#L" n="76"/>sufficienter nobis traduntur in sacra Scriptura.
+<lb ed="#L" n="77"/>Sed ordo caritatis qui supra positus est nusquam
+<lb ed="#L" n="78"/>traditur nobis in sacra Scriptura. Ergo non cadit
+<lb ed="#L" n="79"/>sub praecepto.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1565">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="80"/>3. PAETEREA, Ordo distinctionem quandam
+<lb ed="#L" n="81"/>importat. Sed indistincte praecipitur dilectio 
+pro<lb break="no" ed="#L" n="82"/>ximi, cum dicitur: Diliges proximum tuum sicut
+<lb ed="#L" n="83"/>leipsum. Ergo ordo caritatis non cadit sub 
+prae<lb break="no" ed="#L" n="84"/>cepto.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1581">
+                  <lb ed="#L" n="85"/>SED CONTRA EST quod illud quod Deus in nobis
+<lb ed="#L" n="86"/>facit per gratiam, instruit per legis praecepta:
+<lb ed="#L" n="87"/>secundum illud Ierem. xxxi: Dabo legem meam
+<lb ed="#L" n="88"/>in cordibus eorum. Sed Deus causat in nobis
+<lb ed="#L" n="89"/>ordinem caritatis: secundum illud Cant. n: 
+Or<lb break="no" ed="#L" n="90"/>dinavit in me caritatem. Ergo ordo caritatis sub
+<lb ed="#L" n="91"/>praecepto legis cadit.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1599">
+                  <lb ed="#L" n="92"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<pb ed="#L" n="337"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>modus qui pertinet ad rationem virtuosi actus
+<lb ed="#L" n="2"/>cadit sub praecepto quod datur de actu virtutis.
+<lb ed="#L" n="3"/>Ordo autem caritatis pertinet ad ipsam rationem
+<lb ed="#L" n="4"/>virtutis: cum accipiatur secundum proportionem
+<lb ed="#L" n="5"/>dilectionis ad diligibile, ut ex supradictis patet.
+<lb ed="#L" n="6"/>Unde manifestum est quod ordo caritatis debet
+<lb ed="#L" n="7"/>cadere sub praecepto. .
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1623">
+                  <lb ed="#L" n="8"/>AD PRIMUM ERGO DICENDUM quod homo plus 
+sa<lb break="no" ed="#L" n="9"/>tisfacit ei quem plus diligit. Et ita, si minus 
+di<lb break="no" ed="#L" n="10"/>ligeret aliquis eum quem plus debet. diligere,
+<lb ed="#L" n="11"/>plus vellet satisfacere ili cui minus satisfacere
+<lb ed="#L" n="12"/>debet. Et sic fieret iniuria illi quem plus , debet
+<lb ed="#L" n="13"/>diligere.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1639">
+                  <lb ed="#L" n="14"/>AD SECUNDUM DICENDUM quod ordo quatuor 
+di<lb break="no" ed="#L" n="15"/>ligendorum ex caritate in sacra Scriptura 
+expri<lb break="no" ed="#L" n="16"/>mitur. Nam cum mandatur quod Deum ex toto
+<lb ed="#L" n="17"/>corde diligamus, datur intelligi quod Deum super
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="18"/>omnia debemus diligere. Cum autem mandatur
+<lb ed="#L" n="19"/>quod aliquis diligat proximum sicut seipsum, 
+prae<lb break="no" ed="#L" n="20"/>fertur dilectio sui ipsius dilectioni proximi. 
+Si<lb break="no" ed="#L" n="21"/>militer etiam cum mandatur, I Ioan. i1, quod
+<lb ed="#L" n="22"/>debemus pro fratribus animam ponere, idest vitam
+<lb ed="#L" n="23"/>corporalem, datur intelligi quod proximum plus
+<lb ed="#L" n="24"/>debemus diligere quam corpus proprium. - 
+Simi<lb break="no" ed="#L" n="25"/>liter etiam cum mandatur, ad Gal. ult., quod
+<lb ed="#L" n="26"/>maxime operemur bonum ad domesticos fidei; et
+<lb ed="#L" n="27"/>I ad Tim. v vituperatur qui non habet curam
+<lb ed="#L" n="28"/>suorum, et maxime domesticorum; datur intelligi
+<lb ed="#L" n="29"/>quod inter proximos, meliores et magis 
+propin<lb break="no" ed="#L" n="30"/>quos magis debemus diligere.
+</p>
+               <p xml:id="TAca84-d1e1499-d1e1681">
+                  <lb ed="#L" n="31"/>AD TERTIUM DICENDUM quod ex ipso quod 
+di<lb break="no" ed="#L" n="32"/>citur, Diliges proximum tuum, datur consequenter
+<lb ed="#L" n="33"/>intelligi quod illi qui sunt magis proximi sunt
+<lb ed="#L" n="34"/>magis diligendi.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

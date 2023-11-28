@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 42</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 42</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="320"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1489"><!-- p2p2-q42 -->
+            <head xml:id="TAca84-d1e1489-Hd1e101">Quaestio 42</head>
+            <head xml:id="TAca84-d1e1489-Hd1e103" type="question-title">De seditione</head>
+            <p xml:id="TAca84-d1e1489-d1e106">
+               <pb ed="#L" n="320"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO QUADRAGESIMASECUNDA
+<lb ed="#L" n="2"/>DE SEDITIONE
+<lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1489-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de seditione
+</p>
+            <p xml:id="TAca84-d1e1489-d1e126">
+               <lb ed="#L" n="5"/>Et circa hoc quaeruntur duo. 
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="6"/>Primo: utrum sit speciale peccatum.
+<lb ed="#L" n="7"/>Secundo: utrum sit mortale peccatum.
+</p>
+            <div xml:id="TAca84-d1e1489-Dd1e138"><!-- p2p2-q42a1 -->
+               <head xml:id="TAca84-d1e1489-Hd1e141">Articulus 1</head>
+               <head xml:id="TAca84-d1e1489-Hd1e143" type="question-title">Utrum seditio sit speciale peccatum ab aliis distinctum</head>
+               <p xml:id="TAca84-d1e1489-d1e146">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>ARTICULUS PRIMUS
+<lb ed="#L" n="9"/>UTRUM SEDITIO SIT SPECIALE PECCATUM AB ALIIS DISTINCTUM
+</p>
+               <p xml:id="TAca84-d1e1489-d1e155">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="10"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="11"/>seditio non sit speciale peccatum ab aliis
+<lb ed="#L" n="12"/>distinctum. Quia ut Isidorus dicit, i in libro
+<lb ed="#L" n="13"/>Etymol., seditiosus est qui 
+dissensio<lb break="no" ed="#L" n="14"/>nem animorum facit et discordias gignit. Sed ex
+<lb ed="#L" n="15"/>hoc. quod aliquis aliquod peccatum procurat, non
+<lb ed="#L" n="16"/>peccat alio peccati genere nisi illo quod 
+procu<lb break="no" ed="#L" n="17"/>rat. Ergo videtur quod seditio non sit speciale
+<lb ed="#L" n="18"/>peccatum a discordia distinctum.
+</p>
+               <p xml:id="TAca84-d1e1489-d1e179">
+                  <lb ed="#L" n="19"/>2. PRAETEREA, seditio divisionem quandam 
+im<lb break="no" ed="#L" n="20"/>portat. Sed nomen etiam schismatis sumitur a
+<lb ed="#L" n="21"/>scissura, ut supra dictum est. Ergo peccatum
+<lb ed="#L" n="22"/>seditionis non videtur esse distinctum a peccato ?
+<lb ed="#L" n="23"/>schismatis.
+</p>
+               <p xml:id="TAca84-d1e1489-d1e193">
+                  <lb ed="#L" n="24"/>3. PRAETEREA, omne peccatum speciale ab aliis
+<lb ed="#L" n="25"/>distinctum vel est vitium capitale, aut ex aliquo
+<lb ed="#L" n="26"/>vitio capitali oritur. Sed seditio neque 
+computa<lb break="no" ed="#L" n="27"/>tur inter vitia capitalia, neque inter vitia quae ex
+<lb ed="#L" n="28"/>capitalibus oriuntur: ut patet in XXXI Moral.,
+<lb ed="#L" n="29"/>ubi utraque vitia numerantur. Ergo seditio non
+<lb ed="#L" n="30"/>est speciale peccatum ab aliis distinctum.
+</p>
+               <p xml:id="TAca84-d1e1489-d1e211">
+                  <lb ed="#L" n="31"/>SED coNTRA resr quod Il ad. Cor. xu 
+seditio<lb break="no" ed="#L" n="32"/>nes ab aliis peccatis distinguuntur.
+</p>
+               <p xml:id="TAca84-d1e1489-d1e218">
+                  <lb ed="#L" n="33"/>RESPONDEO DICENDUM quod seditio est quoddam
+<lb ed="#L" n="34"/>peccatum speciale, quod quantum ad aliquid 
+con<lb break="no" ed="#L" n="35"/>venit cum bello et rixa, quantum autem ad 
+ali<lb break="no" ed="#L" n="36"/>quid differt ab eis. Convenit quidem cum eis in
+<lb ed="#L" n="37"/>hoc quod importat quandam contradictionem.
+<lb ed="#L" n="38"/>Differt autem ab eis in duobus. Primo quidem,
+<lb ed="#L" n="39"/>quia bellum et rixa important mutuam 
+impugna<lb break="no" ed="#L" n="40"/>tionem in actu: sed seditio potest dici sive fiat
+<lb ed="#L" n="41"/>huiusmodi impugnatio in actu, sive sit 
+praepa<lb break="no" ed="#L" n="42"/>ratio ad talem impugnationem. Unde Glossa
+<lb ed="#L" n="43"/>II ad Cor. xu dicit quod seditiones sunt fu-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="44"/>multus ad pugnam: cum scilicet aliqui se 
+prae<lb break="no" ed="#L" n="45"/>parant et intendunt pugnare. - Secundo. 
+diffe<lb break="no" ed="#L" n="46"/>runt, quia bellum proprie est contra extraneos
+<lb ed="#L" n="47"/>et hostes, quasi multitudinis. ad. multitudinem;
+<lb ed="#L" n="48"/>ria autem est unius ad unum, vel paucorum
+<lb ed="#L" n="49"/>ad paucos; seditio autem proprie est inter partes
+<lb ed="#L" n="50"/>unius multitudinis inter se dissentientes, puta cum
+<lb ed="#L" n="51"/>una pars civitatis excitatur in tumultum. contra
+<lb ed="#L" n="52"/>aliam. Et ideo seditio, quia habet speciale. 
+bo<lb break="no" ed="#L" n="53"/>num cui opponitur, scilicet unitatem et pacem
+<lb ed="#L" n="54"/>multitudinis, ideo est speciale peccatum.
+</p>
+               <p xml:id="TAca84-d1e1489-d1e270">
+                  <lb ed="#L" n="55"/>AD PRIMUM ERGO DICENDUM quod seditiosus 
+di<lb break="no" ed="#L" n="56"/>citur qui seditionem excitat. Et quia seditio 
+quan<lb break="no" ed="#L" n="57"/>dam discordiam importat, ideo seditiosus est
+<lb ed="#L" n="58"/>qui discordiam facit non quamcumque, sed inter
+<lb ed="#L" n="59"/>partes alicuius multitudinis. Peccatum autem 
+se<lb break="no" ed="#L" n="60"/>ditionis non solum est in eo qui discordiam 
+se<lb break="no" ed="#L" n="61"/>minat, sed etiam in eis qui inordinate ab 
+invi<lb break="no" ed="#L" n="62"/>cem dissentiunt,
+</p>
+               <p xml:id="TAca84-d1e1489-d1e290">
+                  <lb ed="#L" n="63"/>AD SECUNDUM DICENDUM quod seditio differt. a
+<lb ed="#L" n="64"/>schismate in duobus. Primo quidem, quia 
+schi<lb break="no" ed="#L" n="65"/>sma opponitur spirituali unitati multitudinis, 
+sci<lb break="no" ed="#L" n="66"/>licet unitati ecclesiasticae: seditio autem 
+opponi<lb break="no" ed="#L" n="67"/>tur temporali vel saeculari multitudinis unitati,
+<lb ed="#L" n="68"/>puta civitatis vel regni. - Secundo, quia. 
+schi<lb break="no" ed="#L" n="69"/>sma non importat aliquam praeparationem. ad
+<lb ed="#L" n="70"/>pugnam corporalem, sed solum. importat 
+dissen<lb break="no" ed="#L" n="71"/>sionem spiritualem: seditio autem importat 
+prae<lb break="no" ed="#L" n="72"/>parationem ad pugnam corporalem. n
+</p>
+               <p xml:id="TAca84-d1e1489-d1e314">
+                  <lb ed="#L" n="73"/>AD TERTIUM DICENDUM quod seditio, sicut et
+<lb ed="#L" n="74"/>schisma, sub discordia continetur. Utrumque
+<lb ed="#L" n="75"/>enim est discordia quaedam, non unius ad unum,
+<lb ed="#L" n="76"/>sed partium multitudinis ad invicem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1489-Dd1e326"><!-- p2p2-q42a2 -->
+               <head xml:id="TAca84-d1e1489-Hd1e329">Articulus 2</head>
+               <head xml:id="TAca84-d1e1489-Hd1e331" type="question-title">Utrum seditio semper sit peccatum mortale</head>
+               <p xml:id="TAca84-d1e1489-d1e334">
+                  <pb ed="#L" n="321"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM SEDITIO SEMPER SIT PECCATUM MORTALE
+</p>
+               <p xml:id="TAca84-d1e1489-d1e345">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>seditio non semper sit peccatum. 
+mor<lb break="no" ed="#L" n="5"/>tale. Seditio enim importat tumultum
+<lb ed="#L" n="6"/>ad pugnam; ut patet per Glossam 
+su<lb break="no" ed="#L" n="7"/>pra inductam. Sed pugna non semper est 
+pec<lb break="no" ed="#L" n="8"/>catum mortale, sed quandoque est iusta et licita,
+<lb ed="#L" n="9"/>ut supra habitum est. Ergo multo magis 
+sedi<lb break="no" ed="#L" n="10"/>tio potest esse sine peccato mortali.
+</p>
+               <p xml:id="TAca84-d1e1489-d1e367">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, seditio est discordia quaedam,
+<lb ed="#L" n="12"/>ut dictum est. Sed discordia potest esse sine
+<lb ed="#L" n="13"/>peccato mortali: et quandoque etiam sine omni
+<lb ed="#L" n="14"/>peccato. Ergo etiam seditio.
+</p>
+               <p xml:id="TAca84-d1e1489-d1e379">
+                  <lb ed="#L" n="15"/>3. PRAETEREA, laudantur qui multitudinem a
+<lb ed="#L" n="16"/>potestate tyrannica liberant. Sed hoc non de 
+fa<lb break="no" ed="#L" n="17"/>cili potest fieri sine aliqua dissensione 
+multitu<lb break="no" ed="#L" n="18"/>dinis, dum una pars multitudinis nititur retinere
+<lb ed="#L" n="19"/>tyrannum; alia vero nititur eum abiicere. Ergo
+<lb ed="#L" n="20"/>seditio potest fieri sine peccato.
+</p>
+               <p xml:id="TAca84-d1e1489-d1e395">
+                  <lb ed="#L" n="21"/>SED cowrRA EsT quod Apostolus, II ad Cor.
+<lb ed="#L" n="22"/>xi, prohibet seditiones inter alia quae sunt
+<lb ed="#L" n="23"/>peccata mortalia. Ergo seditio est peccatum
+<lb ed="#L" n="24"/>mortale. .
+</p>
+               <p xml:id="TAca84-d1e1489-d1e406">
+                  <lb ed="#L" n="25"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="26"/>seditio opponitur unitati multitudinis, idest 
+po<lb break="no" ed="#L" n="27"/>puli, civitatis vel regni. Dicit autem 
+Augusti<lb break="no" ed="#L" n="28"/>nus, II de Civ. Dei, quod populum determinant
+<lb ed="#L" n="29"/>sapientes. zn omnem. coetum. multitudinis , sed
+<lb ed="#L" n="30"/>coetum iuris consensu et utilitatis. communione
+<lb ed="#L" n="31"/>sociatum. Unde manifestum est unitatem cui 
+op<lb break="no" ed="#L" n="32"/>ponitur seditio esse unitatem iuris et communis
+<lb ed="#L" n="33"/>utilitatis. Manifestum est ergo quod seditio 
+op<lb break="no" ed="#L" n="34"/>ponitur et iustitiae et communi bono. Et ideo
+<lb ed="#L" n="35"/>ex suo genere est peccatum mortale: et tanto
+<lb ed="#L" n="36"/>gravius quanto bonum commune, quod impu-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="37"/>gnatur per seditionem, est maius quam bonum
+<lb ed="#L" n="38"/>privatum, quod impugnatur per rixam.
+<lb ed="#L" n="39"/>Peccatum autem seditionis primo quidem et
+<lb ed="#L" n="40"/>principaliter pertinet ad eos qui seditionem 
+pro<lb break="no" ed="#L" n="41"/>curant, qui gravissime peccant. Secundo autem,
+<lb ed="#L" n="42"/>ad eos qui eos sequuntur, perturbantes bonum
+<lb ed="#L" n="43"/>commune. Illi vero qui bonum commune 
+defen<lb break="no" ed="#L" n="44"/>dunt, eis resistentes, non sunt dicendi seditiosi:
+<lb ed="#L" n="45"/>sicut nec illi qui se defendunt dicuntur rixosi, ut
+<lb ed="#L" n="46"/>supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e1489-d1e458">
+                  <lb ed="#L" n="47"/>AD PRIMUM ERGO DICENDUM quod pugna quae est
+<lb ed="#L" n="48"/>licita fit pro communi utilitate, sicut supra 
+di<lb break="no" ed="#L" n="49"/>ctum est. Sed seditio fit contra commune bonum
+<lb ed="#L" n="50"/>multitudinis. Unde semper est peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1489-d1e469">
+                  <lb ed="#L" n="51"/>AD SECUNDUM DICENDUM quod discordia ab eo
+<lb ed="#L" n="52"/>quod non est manifeste bonum potest esse sine
+<lb ed="#L" n="53"/>peccato. Sed discordia ab eo quod est manifeste.
+<lb ed="#L" n="54"/>bonum non potest esse sine peccato. Et talis
+<lb ed="#L" n="55"/>discordia est seditio, quae opponitur utilitati 
+mul<lb break="no" ed="#L" n="56"/>titudinis, quae est manifeste bonum.
+</p>
+               <p xml:id="TAca84-d1e1489-d1e485">
+                  <lb ed="#L" n="57"/>AD TERTIUM DICENDUM quod regimen tyrannicum
+<lb ed="#L" n="58"/>non est iustum: quia non ordinatur ad bonum
+<lb ed="#L" n="59"/>commune, sed ad bonum privatum regentis, ut
+<lb ed="#L" n="60"/>patet per Philosophum, in IlI oZ. et in VIII
+<lb ed="#L" n="61"/>Ethic. Et ideo perturbatio huius regiminis non
+<lb ed="#L" n="62"/>habet rationem seditionis: nisi forte quando sic
+<lb ed="#L" n="63"/>inordinate perturbatur tyranni regimen quod 
+mul<lb break="no" ed="#L" n="64"/>titudo subiecta maius detrimentum patitur ex 
+per<lb break="no" ed="#L" n="65"/>turbatione consequenti quam ex tyranni regimine.
+<lb ed="#L" n="66"/>Magis autem tyrannus seditiosus est, qui in 
+po<lb break="no" ed="#L" n="67"/>pulo sibi subiecto discordias et seditiones nutrit,
+<lb ed="#L" n="68"/>ut tutius dominari possit. Hoc enim tyrannicum
+<lb ed="#L" n="69"/>est: cum sit ordinatum ad bonum proprium 
+prae<lb break="no" ed="#L" n="70"/>sidentis cum multitudinis nocumento.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

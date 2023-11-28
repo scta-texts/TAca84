@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="74"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1318"><!-- p2p2-q9 -->
+            <head xml:id="TAca84-d1e1318-Hd1e101">Quaestio 9</head>
+            <head xml:id="TAca84-d1e1318-Hd1e103" type="question-title">De dono scientiae</head>
+            <p xml:id="TAca84-d1e1318-d1e106">
+               <pb ed="#L" n="74"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO NONA
+<lb ed="#L" n="2"/>DE DONO SCIENTIAE
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1318-d1e119">
+               <lb ed="#L" n="4"/>Deinde considerandum est de dono scientiae.
+</p>
+            <p xml:id="TAca84-d1e1318-d1e124">
+               <lb ed="#L" n="5"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="6"/>Primo: utrum scientia sit donum.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="7"/>Secundo: utrum sit circa divina.
+<lb ed="#L" n="8"/>Tertio: utrum sit speculativa vel practica.
+<lb ed="#L" n="9"/>Quarto: quae beatitudo ei respondeat.
+</p>
+            <div xml:id="TAca84-d1e1318-Dd1e141"><!-- p2p2-q9a1 -->
+               <head xml:id="TAca84-d1e1318-Hd1e144">Articulus 1</head>
+               <head xml:id="TAca84-d1e1318-Hd1e146" type="question-title">Utrum scientia sit donum</head>
+               <p xml:id="TAca84-d1e1318-d1e149">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="10"/>ARTICULUS PRIMUS
+<lb ed="#L" n="11"/>UTRUM SCIENTIA SIT DONUM
+</p>
+               <p xml:id="TAca84-d1e1318-d1e158">
+                  <lb ed="#L" n="12"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="13"/>scientia non sit donum. Dona enim 
+Spi<lb break="no" ed="#L" n="14"/>ritus Sancti naturalem facultatem 
+exce<lb break="no" ed="#L" n="15"/>dunt. Sed scientia importat effectum
+<lb ed="#L" n="16"/>quendam naturalis rationis: dicit enim  
+Philo<lb break="no" ed="#L" n="17"/>sophus, in I Poster., quod demonstratio est
+<lb ed="#L" n="18"/>syllogismus faciens scire. Ergo scientia non est
+<lb ed="#L" n="19"/>donum Spiritus Sancti.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e178">
+                  <lb ed="#L" n="20"/>2. PRAETEREA, dona Spiritus Sancti sunt 
+com<lb break="no" ed="#L" n="21"/>munia omnibus sanctis, ut supra dictum est.
+<lb ed="#L" n="22"/>Sed Augustinus, XIV de Trin., dicit quod scientia
+<lb ed="#L" n="23"/>non pollent fideles plurimi, quamvis polleant ipsa
+<lb ed="#L" n="24"/>Jide. Ergo scientia non est donum.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e192">
+                  <lb ed="#L" n="25"/>3. PRAETEREA, donum est perfectius virtute,
+<lb ed="#L" n="26"/>ut supra dictum est. Ergo unum donum 
+suf<lb break="no" ed="#L" n="27"/>ficit ad perfectionem unius virtutis. Sed virtuti
+<lb ed="#L" n="28"/>fidei respondet donum intellectus, ut supra
+<lb ed="#L" n="29"/>dictum est. Ergo non respondet ei donum 
+scien<lb break="no" ed="#L" n="30"/>tiae. Nec apparet cui alii virtuti respondeat. Ergo,
+<lb ed="#L" n="31"/>cum dona sint perfectiones virtutum, ut supra
+<lb ed="#L" n="32"/>dictum est, videtur quod scientia non sit 
+do<lb break="no" ed="#L" n="33"/>num.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e214">
+                  <lb ed="#L" n="34"/>SEp coNTRA EsT quod Isaiae xi computatur
+<lb ed="#L" n="35"/>inter septem dona.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e221">
+                  <lb ed="#L" n="36"/>RESPONDEO DICENDUM quod gratia est perfectior
+<lb ed="#L" n="37"/>quam natura: unde non deficit in his in quibus
+<lb ed="#L" n="38"/>homo per naturam perfici potest. Cum autem
+<lb ed="#L" n="39"/>homo per naturalem rationem assentit secundum
+<lb ed="#L" n="40"/>intellectum alicui veritati, dupliciter perficitur circa
+<lb ed="#L" n="41"/>veritatem illam: primo quidem, quia capit eam;
+<lb ed="#L" n="42"/>secundo, quia de ea certum iudicium habet. Et
+<lb ed="#L" n="43"/>ideo ad hoc quod intellectus humanus perfecte
+<lb ed="#L" n="44"/>assentiat veritati fidei duo requiruntur. Quorum
+<lb ed="#L" n="45"/>unum est quod sane capiat ea quae proponuntur:
+<lb ed="#L" n="46"/>quod pertinet ad donum intellectus, ut supra
+<lb ed="#L" n="47"/>dictum est. Aliud autem est ut habeat certum et
+<lb ed="#L" n="48"/>rectum iudicium de eis, discernendo scilicet cre-
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="49"/>denda a non credendis. Et ad hoc necessarium
+<lb ed="#L" n="50"/>est donum scientiae.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e258">
+                  <lb ed="#L" n="51"/>AD PRIMUM ERGO DICENDUM quod certitudo 
+co<lb break="no" ed="#L" n="52"/>gnitionis in diversis naturis invenitur diversimode,
+<lb ed="#L" n="53"/>secundum diversam conditionem uniuscuiusque
+<lb ed="#L" n="54"/>naturae. Nam homo consequitur certum iudicium
+<lb ed="#L" n="55"/>de veritate per discursum rationis: et ideo scientia
+<lb ed="#L" n="56"/>humana ex ratione demonstrativa acquiritur. Sed
+<lb ed="#L" n="57"/>in Deo est certum iudicium veritatis. absque
+<lb ed="#L" n="58"/>omni discursu per simplicem intuitum, ut in 
+Pri<lb break="no" ed="#L" n="59"/>mo dictum est: et ideo divina scientia non est
+<lb ed="#L" n="60"/>discursiva vel ratiocinativa, sed absoluta et 
+sim<lb break="no" ed="#L" n="61"/>plex ^. Cui similis est scientia quae ponitur donum
+<lb ed="#L" n="62"/>Spiritus Sancti: cum sit quaedam participativa ?
+<lb ed="#L" n="63"/>similitudo ipsius.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e289">
+                  <lb ed="#L" n="64"/>AD SECUNDUM DICENDUM quod circa credenda
+<lb ed="#L" n="65"/>duplex scientia potest haberi. Una quidem per
+<lb ed="#L" n="66"/>quanr homo scit quid credere debeat, discernens
+<lb ed="#L" n="67"/>credenda a non credendis: et secundum hoc 
+scien<lb break="no" ed="#L" n="68"/>tia est donum, et convenit omnibus sanctis. Alia
+<lb ed="#L" n="69"/>vero est scientia circa credenda per quam homo
+<lb ed="#L" n="70"/>non solum scit quid credi debeat, sed etiam scit
+<lb ed="#L" n="71"/>fidem manifestare et alios ad credendum 
+indu<lb break="no" ed="#L" n="72"/>cere et contradictores revincere. Et ista scientia
+<lb ed="#L" n="73"/>ponitur inter gratias gratis datas: quae non datur
+<lb ed="#L" n="74"/>omnibus, sed quibusdam. Unde Augustinus, post
+<lb ed="#L" n="75"/>verba inducta, subiungit: Aliud est scire 
+tantum<lb break="no" ed="#L" n="76"/>modo quid homo credehe debeat: aliud scire 
+quem<lb break="no" ed="#L" n="77"/>admodum hoc ipsum? et piis opituletur et contra
+<lb ed="#L" n="78"/>impios defendatur.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e324">
+                  <lb ed="#L" n="79"/>AD TERTIUM DICENDUM quod dona sunt perfectiora
+<lb ed="#L" n="80"/>virtutibus moralibus et intellectualibus. Non sunt
+<lb ed="#L" n="81"/>autem perfectiora virtutibus theologicis: sed magis
+<lb ed="#L" n="82"/>omnia dona ad perfectionem theologicarum 
+vir<lb break="no" ed="#L" n="83"/>tutum ordinantur sicut ad finem. Et ideo non
+<lb ed="#L" n="84"/>est inconveniens si diversa dona ad unam 
+vir<lb break="no" ed="#L" n="85"/>tutem theologicam ordinantur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1318-Dd1e343"><!-- p2p2-q9a2 -->
+               <head xml:id="TAca84-d1e1318-Hd1e346">Articulus 2</head>
+               <head xml:id="TAca84-d1e1318-Hd1e348" type="question-title">Utrum scientiae donum sit circa res divinas</head>
+               <p xml:id="TAca84-d1e1318-d1e351">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="20"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="21"/>UTRUM SCIENTIAE DONUM SIT CIRCA RES DIVINAS
+</p>
+               <p xml:id="TAca84-d1e1318-d1e360">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="22"/>AD SECUNDUM SIC PROCEDITUR. Videtur 
+<lb ed="#L" n="23"/>scientiae donum sit circa res divinas
+<lb ed="#L" n="24"/>Dicit enim <ref xml:id="TAca84-d1e1318-Rd1e370">Augustinus, XIV de Trin.</ref>,
+<lb ed="#L" n="25"/>quod per scientiam <quote xml:id="TAca84-d1e1318-Qd1e375" source="http://scta.info/resource/adt-l14-d1e1535@98-108">gignitur fides, 
+nu<lb break="no" ed="#L" n="26"/>iritur roboratur</quote>. Sed fides est de rebus 
+divi<lb break="no" ed="#L" n="27"/>nis: quia obiectum fidei est veritas prima, ut
+<lb ed="#L" n="28"/>supra habitum est. Ergo et donum scientiae est
+<lb ed="#L" n="29"/>de rebus divinis.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e387">
+                  <lb ed="#L" n="30"/>2. PRAETEREA, donum scientiae est dignius quam
+<lb ed="#L" n="31"/>scientia acquisita. Sed aliqua scientia acquisita est
+<lb ed="#L" n="32"/>circa res divinas, sicut scientia metaphysicae. Ergo
+<lb ed="#L" n="33"/>multo magis donum scientiae est circa res divinas.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e399">
+                  <lb ed="#L" n="34"/>3. PRAETEREA, sicut dicitur Rom. 1, invisibilia
+<lb ed="#L" n="35"/>Dei per ea quae facta sunt intellecta 
+conspiciun<lb break="no" ed="#L" n="36"/>tur. Si igitur est scientia circa res creatas, videtur
+<lb ed="#L" n="37"/>quod etiam sit circa res divinas.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e410">
+                  <lb ed="#L" n="38"/>SED CONTRA EST quod Augustinus, XIV de Trin.,
+<lb ed="#L" n="39"/>dicit: <quote xml:id="TAca84-d1e1318-Qd1e416" source="http://scta.info/resource/adt-l14-d1e1535@55-66">Rerum divinarum scientia proprie sapientia
+<lb ed="#L" n="40"/>nuncupetur : humanarum autem proprie scientiae
+<lb ed="#L" n="41"/>nomen obtineat</quote>.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e424">
+                  <lb ed="#L" n="42"/>RESPONDEO DICENDUM quod certum iudicium de 
+<lb ed="#L" n="43"/>re aliqua maxime datur ex sua causa. Et ideo
+<lb ed="#L" n="44"/>secundum ordinem causarum oportet esse 
+ordi<lb break="no" ed="#L" n="45"/>nem iudiciorum: sicut enim causa prima est causa
+<lb ed="#L" n="46"/>secundae, ita per causam primam iudicatur de
+<lb ed="#L" n="47"/>causa secunda. De causa autem prima non potest
+<lb ed="#L" n="48"/>iudicari per aliam causam. Et ideo iudicium quod
+<lb ed="#L" n="49"/>fit per causam primam est primum et 
+perfectis<lb break="no" ed="#L" n="50"/>simum. In his autem in quibus aliquid est 
+perfe<lb break="no" ed="#L" n="51"/>ctissimum, nomen commune generis appropriatur
+<lb ed="#L" n="52"/>his quae deficiunt a perfectissimo, ipsi autem 
+per<lb break="no" ed="#L" n="53"/>fectissimo adaptatur aliud speciale nomen: ut 
+pa<lb break="no" ed="#L" n="54"/>tet in logicis. Nam in genere convertibilium illud
+<lb ed="#L" n="55"/>quod significat quod quid est, speciali nomine de- |
+<lb ed="#L" n="56"/>finitio vocatur: quae autem ab hoc deficiunt
+<lb ed="#L" n="57"/>convertibilia existentia nomen commune sibi 
+re<lb break="no" ed="#L" n="58"/>tinent, scilicet quod propria dicuntur.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e463">
+                  <lb ed="#L" n="59"/>Quia igitur nomen scientiae importat quandam
+<lb ed="#L" n="60"/>certitudinem iudicii, ut dictum est; si quidem
+<lb ed="#L" n="61"/>certitudo iudicii fit 5 per altissimam causam, 
+ha<lb break="no" ed="#L" n="62"/>bet speciale nomen, quod est sapientia: dicitur
+<lb ed="#L" n="63"/>enim sapiens in unoquoque genere qui novit 
+al<lb break="no" ed="#L" n="64"/>tissimam causam illius generis, per quam potest
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="65"/>de omnibus iudicare. Simpliciter autem sapiens
+<lb ed="#L" n="66"/>dicitur qui novit altissimam causam simpliciter,
+<lb ed="#L" n="67"/>scilicet Deum. Et ideo cognitio divinarum rerum
+<lb ed="#L" n="68"/>vocatur sapientia. Cognitio vero rerum 
+humana<lb break="no" ed="#L" n="69"/>rum vocatur scientia, quasi communi nomine 
+im<lb break="no" ed="#L" n="70"/>portante certitudinem iudicii appropriato ad 
+iudi<lb break="no" ed="#L" n="71"/>cium quod fit per causas secundas. Et ideo, sic
+<lb ed="#L" n="72"/>accipiendo scientiae nomen, ponitur donum 
+dis<lb break="no" ed="#L" n="73"/>tinctum a dono sapientiae. Unde donum 
+scien<lb break="no" ed="#L" n="74"/>tiae est solum circa res humanas, vel ! circa res
+<lb ed="#L" n="75"/>creatas.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e505">
+                  <lb ed="#L" n="76"/>AD PRIMUM ERGO DICENDUM quod, licet ea de
+<lb ed="#L" n="77"/>quibus est fides sint res divinae et aeternae, tamen
+<lb ed="#L" n="78"/>ipsa fides est quoddam temporale in animo 
+cre<lb break="no" ed="#L" n="79"/>dentis. Et ideo scire quid credendum sit 
+perti<lb break="no" ed="#L" n="80"/>net ad donum scientiae. Scire autem ipsas res
+<lb ed="#L" n="81"/>creditas secundum seipsas per quandam unionem
+<lb ed="#L" n="82"/>ad ipsas pertinet ad donum sapientiae. Unde
+<lb ed="#L" n="83"/>donum sapientiae magis respondet caritati, quae
+<lb ed="#L" n="84"/>unit mentem hominis Deo.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e527">
+                  <lb ed="#L" n="85"/>AD SECUNDUM DICENDUM quod ratio illa procedit
+<lb ed="#L" n="86"/>secundum quod nomen scientiae communiter 
+su<lb break="no" ed="#L" n="87"/>mitur. Sic autem scientia non ponitur speciale
+<lb ed="#L" n="88"/>donum, sed secundum quod restringitur ad 
+iudi<lb break="no" ed="#L" n="89"/>cium quod fit per res creatas.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e541">
+                  <lb ed="#L" n="90"/>AD TERTIUM DICENDUM quod, sicut supra 
+di<lb break="no" ed="#L" n="91"/>ctum est, quilibet cognoscitivus habitus formaliter
+<lb ed="#L" n="92"/>quidem respicit medium per quod aliquid 
+cogno<lb break="no" ed="#L" n="93"/>scitur, materialiter autem id quod per medium
+<lb ed="#L" n="94"/>cognoscitur. Et quia id quod est formale potius
+<lb ed="#L" n="95"/>est, ideo illae scientiae quae ex principiis 
+mathe<lb break="no" ed="#L" n="96"/>maticis concludunt circa materiam naturalem, 
+ma<lb break="no" ed="#L" n="97"/>gis cum mathematicis connumerantur, utpote eis
+<lb ed="#L" n="98"/>similiores: licet quantum ad materiam magis
+<lb ed="#L" n="99"/>conveniant cum naturali, et propter hoc dicitur
+<lb ed="#L" n="100"/>in II Physic. quod sunt magis naturales. Et ideo,
+<lb ed="#L" n="101"/>cum homo per res creatas Deum cognoscit, magis
+<lb ed="#L" n="102"/>videtur hoc pertinere ad scientiam, ad quam 
+per<lb break="no" ed="#L" n="103"/>tinet formaliter, quam ad sapientiam, ad quam
+<lb ed="#L" n="104"/>pertinet materialiter. Et e converso, cum 
+secun<lb break="no" ed="#L" n="105"/>dum res divinas iudicamus " de rebus creatis,
+<lb ed="#L" n="106"/>magis hoc ad sapientiam quam ad scientiam 
+per<lb break="no" ed="#L" n="107"/>tinet.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1318-Dd1e584"><!-- p2p2-q9a3 -->
+               <head xml:id="TAca84-d1e1318-Hd1e587">Articulus 3</head>
+               <head xml:id="TAca84-d1e1318-Hd1e589" type="question-title">Utrum scientiae donum sit scientia practica</head>
+               <p xml:id="TAca84-d1e1318-d1e592">
+                  <pb ed="#L" n="76"/>
+                  <!-- p. 76-->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM SCIENTIAE DONUM SIT SCIENTIA PRACTICA
+</p>
+               <p xml:id="TAca84-d1e1318-d1e605">
+                  <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="4"/>scientia quae ponitur donum sit scientia 
+<lb ed="#L" n="5"/>practica. Dicit enim Augustinus, XII de
+<lb ed="#L" n="6"/>Trin., quod actio qua exterioribus 
+re<lb break="no" ed="#L" n="7"/>bus utimur scientiae deputatur. Sed scientia cui
+<lb ed="#L" n="8"/>deputatur actio est practica. Ergo scientia quae
+<lb ed="#L" n="9"/>est donum est scientia practica.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e623">
+                  <lb ed="#L" n="10"/>2. PnRaETEREA, Gregorius dicit, in I Moral.:
+<lb ed="#L" n="11"/>Nulla est scientia si utilitatem pietatis non habet:
+<lb ed="#L" n="12"/>et valde inutilis est pietas si scientiae discretione
+<lb ed="#L" n="13"/>caret. Ex quo habetur quod scientia dirigit 
+pie<lb break="no" ed="#L" n="14"/>tatem. Sed hoc non potest competere scientiae
+<lb ed="#L" n="15"/>speculativae. Ergo scientia quae est donum non
+<lb ed="#L" n="16"/>est speculativa, sed practica.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e642">
+                  <lb ed="#L" n="17"/>3. PRAETEREA, dona Spiritus Sancti non 
+haben<lb break="no" ed="#L" n="18"/>tur nisi a iustis, ut supra habitum est. Sed
+<lb ed="#L" n="19"/>scientia speculativa potest haberi etiam ab 
+iniu<lb break="no" ed="#L" n="20"/>stis: secundum illud Iac. ult.: Scienti bonum et
+<lb ed="#L" n="21"/>non facienti, peccatum est illi. Ergo scientia quae
+<lb ed="#L" n="22"/>est donum non est speculativa, sed practica.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e658">
+                  <lb ed="#L" n="23"/>SEp coNTRA EsT quod Gregorius dicit, in I 
+Mo<lb break="no" ed="#L" n="24"/>ral.: Scientia in die suo convivium parat, quia
+<lb ed="#L" n="25"/>in ventre mentis ignorantiae ieiunium superat. Sed
+<lb ed="#L" n="26"/>ignorantia non tollitur totaliter nisi per utramque
+<lb ed="#L" n="27"/>scientiam, scilicet et speculativam et practicam.
+<lb ed="#L" n="28"/>Ergo scientia quae est donum est et speculativa
+<lb ed="#L" n="29"/>et practica.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e676">
+                  <lb ed="#L" n="30"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="31"/>est, donum scientiae ordinatur, sicut et donum
+<lb ed="#L" n="32"/>intellectus, ad certitudinem fidei. Fides autem
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="33"/>primo et principaliter in speculatione consistit, 
+in<lb break="no" ed="#L" n="34"/>quantum scilicet inhaeret primae veritati. Sed quia
+<lb ed="#L" n="35"/>prima P veritas est etiam ultimus finis, propter
+<lb ed="#L" n="36"/>quem operamur, inde etiam est quod fides ad
+<lb ed="#L" n="37"/>operationem se extendit; secundum illud Gal. v:
+<lb ed="#L" n="38"/>Fides per dilectionem operatur. Unde etiam 
+opor<lb break="no" ed="#L" n="39"/>tet quod donum scientiae primo quidem et 
+prin<lb break="no" ed="#L" n="40"/>cipaliter respiciat speculationem, inquantum 
+sci<lb break="no" ed="#L" n="41"/>licet homo scit quid fide tenere debeat. 
+Secun<lb break="no" ed="#L" n="42"/>dario autem se extendit etiam ad operationem,
+<lb ed="#L" n="43"/>secundum quod per scientiam credibilium, et
+<lb ed="#L" n="44"/>eorum quae ad credibilia consequuntur, dirigimur
+<lb ed="#L" n="45"/>in agendis.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e715">
+                  <lb ed="#L" n="46"/>AD PRIMUM ERGO DICENDUM quod Augustinus 
+lo<lb break="no" ed="#L" n="47"/>quitur de dono scientiae secundum quod se 
+ex<lb break="no" ed="#L" n="48"/>tendit ad operationem: attribuitur enim ei actio,
+<lb ed="#L" n="49"/>sed non sola nec primo. Et hoc etiam modo 
+di<lb break="no" ed="#L" n="50"/>rigit pietatem.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e728">
+                  <lb ed="#L" n="51"/>Unde patet solutio ad secundum.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e733">
+                  <lb ed="#L" n="52"/>AD TERTIUM DICENDUM quod, sicut dictum est
+<lb ed="#L" n="53"/>de dono intellectus quod non quicumque intelligit
+<lb ed="#L" n="54"/>habet donum intellectus, sed qui intelligit quasi
+<lb ed="#L" n="55"/>ex habitu gratiae; ita etiam de dono scientiae est
+<lb ed="#L" n="56"/>intelligendum quod illi soli donum scientiae 
+ha<lb break="no" ed="#L" n="57"/>beant qui ex infusione gratiae certum iudicium ?
+<lb ed="#L" n="58"/>habent circa credenda et agenda, quod in nullo
+<lb ed="#L" n="59"/>deviat a rectitudine iustitiae. Et haec est scientia
+<lb ed="#L" n="60"/>sanctorum, de qua dicitur Sap. x: Iustum 
+de<lb break="no" ed="#L" n="61"/>duxit Dominus per vias rectas et dedit illi 
+scien<lb break="no" ed="#L" n="62"/>liam sanctorum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1318-Dd1e760"><!-- p2p2-q9a4 -->
+               <head xml:id="TAca84-d1e1318-Hd1e763">Articulus 4</head>
+               <head xml:id="TAca84-d1e1318-Hd1e765" type="question-title">Utrum dono scientiae respondeat tertia beatitudo, scilicet:
+    <lb ed="#L" n="65"/>Beati qui lugent, quoniam ipsi consolabuntur</head>
+               <p xml:id="TAca84-d1e1318-d1e770">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="63"/>ARTICULUS QUARTUS
+<lb ed="#L" n="64"/>UTRUM DONO SCIENTIAE RESPONDEAT TERTIA BEATITUDO, SCILICET:
+<lb ed="#L" n="65"/>BEATI QUI LUGENT, QUONIAM IPSI CONSOLABUNTUR
+</p>
+               <p xml:id="TAca84-d1e1318-d1e781">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="66"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="67"/>NS scientiae non respondeat tertia 
+beatitu<lb break="no" ed="#L" n="68"/>Af AMA do, scilicet: Beati qui lugent, quoniam
+<lb ed="#L" n="69"/>AS) Naipsi consolabuntur. Sicut enim malum
+<lb ed="#L" n="70"/>est causa tristitiae et luctus, ita etiam bonum est
+<lb ed="#L" n="71"/>causa laetitiae. Sed per scientiam principalius 
+ma<lb break="no" ed="#L" n="72"/>nifestantur bona quam mala, quae per bona 
+co<lb break="no" ed="#L" n="73"/>gnoscuntur: rectum enim est iudex sui ipsius et
+<lb ed="#L" n="74"/>obliqui, ut dicitur in I de Anima. Ergo 
+prae<lb break="no" ed="#L" n="75"/>dicta beatitudo non convenienter respondet 
+scien<lb break="no" ed="#L" n="76"/>tide.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e810">
+                  <lb ed="#L" n="77"/>2. PRAETEREA, consideratio veritatis est actus
+<lb ed="#L" n="78"/>scientiae. Sed in consideratione veritatis non est
+<lb ed="#L" n="79"/>tristitia, sed magis gaudium: dicitur enim Sap. vin:
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>Non habet amaritudinem conversatio illius, nec
+<lb ed="#L" n="81"/>taedium convictus illius, sed laetitiam et gaudium.
+<lb ed="#L" n="82"/>Ergo praedicta beatitudo, non convenienter re
+<lb ed="#L" n="83"/>spondet dono. scientiae. |
+</p>
+               <p xml:id="TAca84-d1e1318-d1e831">
+                  <lb ed="#L" n="84"/>3. PRAETEREA, donum scientiae prius consistit
+<lb ed="#L" n="85"/>in speculatione quam in operatione. Sed 
+secun<lb break="no" ed="#L" n="86"/>dum quod consistit in speculatione, non respondet
+<lb ed="#L" n="87"/>sibi luctus: quia intellectus speculativus nzhil dicit
+<lb ed="#L" n="88"/>de imitabili et fugiendo, ut dicitur in III de 
+Ani<lb break="no" ed="#L" n="89"/>ma; neque dicit aliquid laetum et triste. Ergo
+<lb ed="#L" n="90"/>praedicta beatitudo non convenienter ponitur 
+re<lb break="no" ed="#L" n="91"/>spondere dono scientiae.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e851">
+                  <lb ed="#L" n="92"/>SED coNTRA EsT quod Augustinus dicit, in libro
+<lb ed="#L" n="93"/>de Serm. Dom. in Monte: Scientia convenit lu-
+<pb ed="#L" n="77"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>gentibus, qui didicerunt quibus malis vincti sunt,
+<lb ed="#L" n="2"/>quae quasi bona petierunt.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e867">
+                  <lb ed="#L" n="3"/>RESPONDEO DICENDUM quod ad scientiam proprie
+<lb ed="#L" n="4"/>pertinet rectum iudicium creaturarum. Creaturae
+<lb ed="#L" n="5"/>autem sunt ex quibus homo occasionaliter a Deo
+<lb ed="#L" n="6"/>avertitur: secundum illud Sap. xiv: Creaturae
+<lb ed="#L" n="7"/>factae sunt in odium, et in muscipulam pedibus
+<lb ed="#L" n="8"/>insipientium, qui scilicet rectum iudicium de his
+<lb ed="#L" n="9"/>non ' habent, dum aestimant in eis esse 
+perfe<lb break="no" ed="#L" n="10"/>ctum bonum; unde in eis finem constituendo,
+<lb ed="#L" n="11"/>peccant et verum bonum perdunt. Et hoc 
+da<lb break="no" ed="#L" n="12"/>mnum homini innotescit per rectum iudicium de
+<lb ed="#L" n="13"/>creaturis, quod habetur per donum scientiae. Et
+<lb ed="#L" n="14"/>ideo beatitudo luctus ponitur respondere dono
+<lb ed="#L" n="15"/>scientiae.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e898">
+                  <lb ed="#L" n="16"/>AD PRIMUM ERGO DICENDUM quod bona creata
+<lb ed="#L" n="17"/>non excitant spirituale gaudium nisi quatenus 
+re<lb break="no" ed="#L" n="18"/>feruntur ad bonum divinum, ex quo proprie 
+con<lb break="no" ed="#L" n="19"/>surgit gaudium spirituale. Et ideo directe quidem
+<lb ed="#L" n="20"/>spiritualis pax, et gaudium consequens, respondet
+<lb ed="#L" n="21"/>dono ' sapientiae. Dono autem scientiae respondet
+<lb ed="#L" n="22"/>"quidem primo luctus de praeteritis erratis; et
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="23"/>consequenter consolatio, dum homo per rectum
+<lb ed="#L" n="24"/>iudicium scientiae creaturas ordinat in bonum 
+di<lb break="no" ed="#L" n="25"/>vinum. Et ideo in hac? beatitudine ponitur luctus
+<lb ed="#L" n="26"/>pro merito, et consolatio consequens pro 
+prae<lb break="no" ed="#L" n="27"/>mio. Quae quidem inchoatur in hac vita, 
+perfi<lb break="no" ed="#L" n="28"/>citur autem in futura.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e931">
+                  <lb ed="#L" n="29"/>AD SECUNDUM DICENDUM quod de ipsa 
+conside<lb break="no" ed="#L" n="30"/>ratione veritatis homo gaudet: sed de re circa
+<lb ed="#L" n="31"/>quam considerat veritatem potest tristari 
+quan<lb break="no" ed="#L" n="32"/>doque. Et secundum hoc luctus scientiae 
+attri<lb break="no" ed="#L" n="33"/>buitur.
+</p>
+               <p xml:id="TAca84-d1e1318-d1e944">
+                  <lb ed="#L" n="34"/>AD TERTIUM DICENDUM quod scientiae secundum
+<lb ed="#L" n="35"/>quod in speculatione consistit, non respondet 
+bea<lb break="no" ed="#L" n="36"/>titudo aliqua: quia beatitudo hominis non 
+consi<lb break="no" ed="#L" n="37"/>stit in consideratione creaturarum, sed in 
+contem<lb break="no" ed="#L" n="38"/>platione Dei. Sed aliqualiter beatitudo hominis
+<lb ed="#L" n="39"/>consistit in debito usu creaturarum et ordinata
+<lb ed="#L" n="40"/>affectione circa ipsas: et hoc dico quantum ad
+<lb ed="#L" n="41"/>beatitudinem viae. Et ideo scientiae non 
+attribui<lb break="no" ed="#L" n="42"/>tur aliqua beatitudo pertinens ad 
+contemplatio<lb break="no" ed="#L" n="43"/>nem; sed intellectui et sapientiae, quae sunt circa
+<lb ed="#L" n="44"/>divina.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

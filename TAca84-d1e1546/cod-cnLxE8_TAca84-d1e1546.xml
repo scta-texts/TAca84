@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 53</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 53</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="387"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1546"><!-- p2p2-q53 -->
+            <head xml:id="TAca84-d1e1546-Hd1e101">Quaestio 53</head>
+            <head xml:id="TAca84-d1e1546-Hd1e103" type="question-title">De imprudentia</head>
+            <p xml:id="TAca84-d1e1546-d1e106">
+               <pb ed="#L" n="387"/>
+               <lb ed="#L" n="1"/>QUAESTIO QUINQUAGESIMA TERTIA
+<lb ed="#L" n="2"/>DE IMPRUDENTIA
+<lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1546-d1e117">
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de vitis oppositis
+<lb ed="#L" n="5"/>Iosruasatae. Dicit autem Augustinus, in IV
+<lb ed="#L" n="6"/>contra Iulian., quod omnibus virtutibus non 
+so<lb break="no" ed="#L" n="7"/>lum sunt vitia manifesta discretione contraria, sicut
+<lb ed="#L" n="8"/>prudentiae temeritas: verum eliam vicina 
+quo<lb break="no" ed="#L" n="9"/>dammodo, nec veritate, sed quadam specie 
+fallen<lb break="no" ed="#L" n="10"/>le similia, sicut. ipsi prudentiae astutia. Primo
+<lb ed="#L" n="11"/>ergo considerandum est de vitiis quae manifeste
+<lb ed="#L" n="12"/>contrarietatem habent ad prudentiam, quae 
+sci<lb break="no" ed="#L" n="13"/>licet vitia proveniunt ex defectu prudentiae vel
+<lb ed="#L" n="14"/>eorum quae ad prudentiam requiruntur; secundo,
+<lb ed="#L" n="15"/>de vitiis quae habent quandam similitudinem 
+fal<lb break="no" ed="#L" n="16"/>sam cum. prudentia quae scilicet contingunt per 
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="17"/>abusum eorum quae ad prudentiam requiruntur. 
+<lb ed="#L" n="18"/>Quia vero sollicitudo ad prudentiam pertinet,
+<lb ed="#L" n="19"/>circa primum consideranda sunt duo: primo 
+qui<lb break="no" ed="#L" n="20"/>dem, de imprudentia; secundo, de negligentia,
+<lb ed="#L" n="21"/>quae sollicitudini opponitur
+</p>
+            <p xml:id="TAca84-d1e1546-d1e163">
+               <lb ed="#L" n="22"/>Circa primum quaeruntur sex.
+<lb ed="#L" n="23"/>Primo: de imprudentia, utrum sit peccatum.
+<lb ed="#L" n="24"/>Secundo: utrum sit speciale peccatum.
+<lb ed="#L" n="25"/>Tertio: de praecipitatione, sive temeritate.
+<lb ed="#L" n="26"/>Quarto: de inconsideratione.
+<lb ed="#L" n="27"/>Quinto: de inconstantia.
+<lb ed="#L" n="28"/>Sexto: de origine horum vitiorum.
+</p>
+            <div xml:id="TAca84-d1e1546-Dd1e182"><!-- p2p2-q53a1 -->
+               <head xml:id="TAca84-d1e1546-Hd1e185">Articulus 1</head>
+               <head xml:id="TAca84-d1e1546-Hd1e187" type="question-title">Utrum imprudentia sit peccatum</head>
+               <p xml:id="TAca84-d1e1546-d1e190">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="29"/>ARTICULUS PRIMUS
+<lb ed="#L" n="30"/>UTRUM IMPRUDENTIA SIT PECCATUM
+</p>
+               <p xml:id="TAca84-d1e1546-d1e199">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="31"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="32"/>imprudentia non sit peccatum. Omne
+<lb ed="#L" n="33"/>enim peccatum est voluntarium, ut
+<lb ed="#L" n="34"/>Augustinus dicit. Imprudentia autem
+<lb ed="#L" n="35"/>non est aliquid voluntarium: nullus enim vult
+<lb ed="#L" n="36"/>esse imprudens. Ergo imprudentia non est 
+pec<lb break="no" ed="#L" n="37"/>catum.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e219">
+                  <lb ed="#L" n="38"/>2. PRAETEREA, nullum peccatum nascitur cum
+<lb ed="#L" n="39"/>homine nisi originale. Sed imprudentia nascitur
+<lb ed="#L" n="40"/>cum homine: unde et iuvenes imprudentes sunt.
+<lb ed="#L" n="41"/>Nec est orignale peccatum, quod opponitur 
+ori<lb break="no" ed="#L" n="42"/>ginali iustitiae. Ergo imprudentia non est 
+pec<lb break="no" ed="#L" n="43"/>catum.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e236">
+                  <lb ed="#L" n="44"/>3. PRAETEREA, Omne peccatum per poenitentiam
+<lb ed="#L" n="45"/>tollitur. Sed imprudentia non tollitur per 
+poe<lb break="no" ed="#L" n="46"/>nitentiam. Ergo imprudentia non est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e245">
+                  <lb ed="#L" n="47"/>SED cONTRA, spiritualis thesaurus gratiae non
+<lb ed="#L" n="48"/>tollitur nisi per peccatum. Tollitur autem per 
+im<lb break="no" ed="#L" n="49"/>prudentiam: secundum illud Pro». xxi: 
+The<lb break="no" ed="#L" n="50"/>saurus desiderabilis et oleum in habitaculo iusti,
+<lb ed="#L" n="51"/>et homo imprudens dissipabit illud 9.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e258">
+                  <lb ed="#L" n="52"/>RESPONDEO DICENDUM quod imprudentia 
+dupli<lb break="no" ed="#L" n="53"/>citer accipi potest: uno modo, privative; alio
+<lb ed="#L" n="54"/>modo, contrarie. - Negative autem non proprie
+<lb ed="#L" n="55"/>dicitur, ita scilicet quod importet solam. 
+caren<lb break="no" ed="#L" n="56"/>tiam prudentiae: quae potest esse sine peccato. —
+<lb ed="#L" n="57"/>Privative quidem imprudentia dicitur inquantum
+<lb ed="#L" n="58"/>aliquis caret prudentia quam natus est et debet
+<lb ed="#L" n="59"/>habere. Et secundum hoc imprudentia est 
+pec<lb break="no" ed="#L" n="60"/>catum ratione negligentiae, qua quis non adhibet
+<lb ed="#L" n="61"/>studium ad prudentiam habendam.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e282">
+                  <lb ed="#L" n="62"/>Contrarie vero accipitur imprudentia secundum
+<lb ed="#L" n="63"/>quod ratio contrario modo movetur vel agit pru-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="64"/>dentiae. Puta, si recta ratio prudentiae agit 
+con<lb break="no" ed="#L" n="65"/>siliando, imprudens consilium spernit: et sic de
+<lb ed="#L" n="66"/>alis quae in actu prudentis observanda sunt.
+<lb ed="#L" n="67"/>Et hoc modo imprudentia est peccatum 
+secun<lb break="no" ed="#L" n="68"/>dum rationem propriam prudentiae. Non enim
+<lb ed="#L" n="69"/>potest hoc contingere quod homo contra 
+pru<lb break="no" ed="#L" n="70"/>dentiam agat, nisi divertens a regulis quibus ratio
+<lb ed="#L" n="71"/>prudentiae rectificatur. Unde si hoc contingat per
+<lb ed="#L" n="72"/>aversionem a regulis divinis, est peccatum 
+mor<lb break="no" ed="#L" n="73"/>tale: puta cum quis quasi contemnens et 
+repu<lb break="no" ed="#L" n="74"/>dians divina documenta, praecipitanter agit. Si
+<lb ed="#L" n="75"/>vero praeter eas agat absque contemptu, et 
+abs<lb break="no" ed="#L" n="76"/>que detrimento eorum quae sunt de necessitate
+<lb ed="#L" n="77"/>salutis, est peccatum veniale.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e321">
+                  <lb ed="#L" n="78"/>AD PRIMUM ERGO DICENDUM quod deformitatem
+<lb ed="#L" n="79"/>imprudentiae nullus vult: sed actum 
+impruden<lb break="no" ed="#L" n="80"/>tiae vult temerarius, qui vult praecipitanter agere.
+<lb ed="#L" n="81"/>Unde et Philosophus dicit, VF Efhic., quod ille
+<lb ed="#L" n="82"/>qui circa prudentiam peccat volens, minus 
+ac<lb break="no" ed="#L" n="83"/>ceptatur.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e337">
+                  <lb ed="#L" n="84"/>AD SECUNDUM DICENDUM quod ratio illa procedit
+<lb ed="#L" n="85"/>de imprudentia secundum quod sumitur negative.-
+<lb ed="#L" n="86"/>Sciendum tamen quod carentia prudentiae et 
+cu<lb break="no" ed="#L" n="87"/>iuslibet virtutis includitur in carentia originalis
+<lb ed="#L" n="88"/>iustitiae, quae totam animam perficiebat. Et 
+se<lb break="no" ed="#L" n="89"/>cundum hoc omnes isti defectus virtutum possunt
+<lb ed="#L" n="90"/>reduci ad originale peccatum.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e356">
+                  <lb ed="#L" n="91"/>AD TERTIUM DICENDUM quod per poenitentiam
+<lb ed="#L" n="92"/>restituitur prudentia infusa, et sic cessat carentia
+<lb ed="#L" n="93"/>huius prudentiae. Non tamen restituitur prudentia
+<lb ed="#L" n="94"/>acquisita quantum ad habitum: sed tollitur actus
+<lb ed="#L" n="95"/>contrarius, in quo proprie consistit peccatum 
+im<lb break="no" ed="#L" n="96"/>prudentiae.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1546-Dd1e373"><!-- p2p2-q53a2 -->
+               <head xml:id="TAca84-d1e1546-Hd1e376">Articulus 2</head>
+               <head xml:id="TAca84-d1e1546-Hd1e378" type="question-title">Utrum imprudentia sit speciale peccatum</head>
+               <p xml:id="TAca84-d1e1546-d1e381">
+                  <lb ed="#L" n="12"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="13"/>UTRUM IMPRUDENTIA SIT SPECIALE PECCATUM
+</p>
+               <p xml:id="TAca84-d1e1546-d1e388">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="14"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="15"/>imprudentia non sit speciale peccatum.
+<lb ed="#L" n="16"/>Quicumque enim peccat agit contra
+<lb ed="#L" n="17"/>rationem rectam, quae est prudentia.
+<lb ed="#L" n="18"/>Sed imprudentia consistit in hoc quod aliquis
+<lb ed="#L" n="19"/>agit contra prudentiam, ut dictum est. Ergo
+<lb ed="#L" n="20"/>imprudentia non est speciale peccatum.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e408">
+                  <lb ed="#L" n="21"/>2. PRAETEREA, prudentia magis est affinis 
+mo<lb break="no" ed="#L" n="22"/>ralibus actibus quam scientia. Sed ignorantia,
+<lb ed="#L" n="23"/>quae opponitur scientiae, ponitur inter generales
+<lb ed="#L" n="24"/>causas peccati. Ergo multo magis imprudentia.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e420">
+                  <lb ed="#L" n="25"/>3. PRAETEREA, peccata contingunt ex hoc quod
+<lb ed="#L" n="26"/>virtutum circumstantiae corrumpuntur: unde et
+<lb ed="#L" n="27"/>Dionysius dicit, w cap. de Div. Nom., quod
+<lb ed="#L" n="28"/>malum contingit ex singularibus defectibus. Sed
+<lb ed="#L" n="29"/>multa requiruntur ad prudentiam: sicut ratio, 
+in<lb break="no" ed="#L" n="30"/>tellectus, docilitas, et cetera quae supra posita
+<lb ed="#L" n="31"/>sunt. Ergo multae sunt imprudentiae species.
+<lb ed="#L" n="32"/>Ergo non est peccatum speciale.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e440">
+                  <lb ed="#L" n="33"/>SEp coNTRA, imprudentia est contrarium 
+pru<lb break="no" ed="#L" n="34"/>dentiae, ut dictum est. Sed prudentia est una
+<lb ed="#L" n="35"/>virtus specialis. Ergo imprudentia est unum 
+vi<lb break="no" ed="#L" n="36"/>tium speciale.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e451">
+                  <lb ed="#L" n="37"/>RrEsPONDEO DICENDUM quod aliquod vitium vel
+<lb ed="#L" n="38"/>peccatum potest dici generale dupliciter: uno 
+mo<lb break="no" ed="#L" n="39"/>do, absolute, quia scilicet est generale respectu
+<lb ed="#L" n="40"/>omnium peccatorum; alio modo, quia est 
+gene<lb break="no" ed="#L" n="41"/>rale respectu quorundam vitiorum quae sunt
+<lb ed="#L" n="42"/>species eius. Primo autem modo potest dici 
+ali<lb break="no" ed="#L" n="43"/>quod vitium generale dupliciter. Uno modo,
+<lb ed="#L" n="44"/>per essentiam : quia scilicet praedicatur de 
+omni<lb break="no" ed="#L" n="45"/>bus peccatis. Et hoc modo imprudentia non est
+<lb ed="#L" n="46"/>generale peccatum, sicut nec prudentia 
+gene<lb break="no" ed="#L" n="47"/>ralis virtus: cum sint circa actus speciales, 
+sci<lb break="no" ed="#L" n="48"/>licet circa ipsos actus rationis. - Alio modo, per
+<lb ed="#L" n="49"/>participationem. Et hoc modo imprudentia est
+<lb ed="#L" n="50"/>generale peccatum. Sicut enim prudentia 
+parti<lb break="no" ed="#L" n="51"/>cipatur quodammodo in omnibus virtutibus, 
+in<lb break="no" ed="#L" n="52"/>quantum est directiva earum, ita et imprudentia
+<lb ed="#L" n="53"/>in omnibus vitiis et peccatis: nullum enim 
+pec<lb break="no" ed="#L" n="54"/>catum accidere potest nisi sit defectus in aliquo
+<lb ed="#L" n="55"/>actu rationis dirigentis, quod pertinet ad 
+impru<lb break="no" ed="#L" n="56"/>dentiam.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e497">
+                  <lb ed="#L" n="57"/>Si vero dicatur peccatum generale non 
+sim<lb break="no" ed="#L" n="58"/>pliciter, sed secundum aliquod genus, quia scilicet
+<lb ed="#L" n="59"/>continet sub se multas species; sic imprudentia
+<lb ed="#L" n="60"/>est generale peccatum. Continet enim sub se 
+di<lb break="no" ed="#L" n="61"/>versas species tripliciter. Uno quidem modo, per
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="62"/>oppositum ad diversas partes subiectivas 
+pruden<lb break="no" ed="#L" n="63"/>tiae. Sicut enim distinguitur prudentia in 
+mo<lb break="no" ed="#L" n="64"/>nasticam, quae est regitiva unius, et in alias
+<lb ed="#L" n="65"/>species prudentiae quae sunt multitudinis 
+regi<lb break="no" ed="#L" n="66"/>tivae, ut supra habitum est; ita etiam 
+impru<lb break="no" ed="#L" n="67"/>dentia. - Alio modo, secundum partes quasi 
+po<lb break="no" ed="#L" n="68"/>tentiales prudentiae, quae sunt virtutes adiunctae,
+<lb ed="#L" n="69"/>et accipiuntur secundum diversos actus rationis.
+<lb ed="#L" n="70"/>Et hoc modo, quantum ad defectum consilii, circa
+<lb ed="#L" n="71"/>quod est eubulia, est praecipitatio, sive temeritas,
+<lb ed="#L" n="72"/>imprudentiae species. Quantum vero ad defectum
+<lb ed="#L" n="73"/>iudicii, circa quod sunt synesis et gnome, est 
+in<lb break="no" ed="#L" n="74"/>consideratio. Quantum vero ad ipsum 
+praece<lb break="no" ed="#L" n="75"/>ptum, quod est proprius actus prudentiae, est
+<lb ed="#L" n="76"/>inconstantia et negligentia. - ''ertio modo possunt
+<lb ed="#L" n="77"/>sumi per oppositum ad ea quae requiruntur ad
+<lb ed="#L" n="78"/>prudentiam, quae sunt quasi partes integrales
+<lb ed="#L" n="79"/>prudentiae. Sed quia omnia illa ordinantur ad
+<lb ed="#L" n="80"/>dirigendum praedictos tres rationis actus, inde
+<lb ed="#L" n="81"/>est quod omnes defectus oppositi reducuntur
+<lb ed="#L" n="82"/>ad quatuor praedictas partes. Sicut incautela et
+<lb ed="#L" n="83"/>incircumspectio includitur sub inconsideratione.
+<lb ed="#L" n="84"/>Quod autem aliquis deficiat a docilitate vel 
+me<lb break="no" ed="#L" n="85"/>moria vel ratione, pertinet ad praecipitationem.
+<lb ed="#L" n="86"/>Improvidentia vero et defectus intelligentiae et
+<lb ed="#L" n="87"/>solertiae pertinent ad negligentiam et 
+inconstan<lb break="no" ed="#L" n="88"/>tiam.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e571">
+                  <lb ed="#L" n="89"/>AD PRIMUM ERGO DICENDUM quod ratio illa 
+pro<lb break="no" ed="#L" n="90"/>cedit de generalitate quae est secundum 
+partici<lb break="no" ed="#L" n="91"/>pationem.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e580">
+                  <lb ed="#L" n="92"/>AD SECUNDUM DICENDUM quod quia scientia est
+<lb ed="#L" n="93"/>magis remota a moralibus quam prudentia 
+se<lb break="no" ed="#L" n="94"/>cundum propriam rationem utriusque, inde est
+<lb ed="#L" n="95"/>quod ignorantia non habet de se rationem 
+pec<lb break="no" ed="#L" n="96"/>cati moralis, sed solum ratione negligentiae
+<lb ed="#L" n="97"/>praecedentis vel effectus sequentis. Et propter
+<lb ed="#L" n="98"/>hoc ponitur inter generales causas peccati. Sed
+<lb ed="#L" n="99"/>imprudentia secundum propriam rationem 
+im<lb break="no" ed="#L" n="100"/>portat vitium morale?. Et ideo magis potest poni
+<lb ed="#L" n="101"/>speciale peccatum.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e605">
+                  <lb ed="#L" n="102"/>AD TERTIUM DICENDUM quod quando corruptio
+<lb ed="#L" n="103"/>diversarum circumstantiarum habet idem 
+moti<lb break="no" ed="#L" n="104"/>vum, non diversificatur peccati species: sicut
+<lb ed="#L" n="105"/>eiusdem speciei est peccatum ut aliquis accipiat
+<lb ed="#L" n="106"/>non sua ubi non debet, et quando non debet.
+<lb ed="#L" n="107"/>Sed si sint diversa motiva, tunc essent diversae
+<lb ed="#L" n="108"/>species: puta si unus acciperet unde non deberet
+<lb ed="#L" n="109"/>ut faceret iniuriam loco sacro, quod faceret spe-
+<pb ed="#L" n="390"/>
+                  <!-- 390 -->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ciem sacrilegii; alius quando non debet 
+pro<lb break="no" ed="#L" n="2"/>pter solum superfluum appetitum habendi, quod
+<lb ed="#L" n="3"/>esset simplex avaritia. Et ideo defectus eorum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="4"/>quae requiruntur ad prudentiam non diversificant
+<lb ed="#L" n="5"/>species nisi quatenus ordinantur ad diversos
+<lb ed="#L" n="6"/>actus rationis, ut dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1546-Dd1e648"><!-- p2p2-q53a3 -->
+               <head xml:id="TAca84-d1e1546-Hd1e651">Articulus 3</head>
+               <head xml:id="TAca84-d1e1546-Hd1e653" type="question-title">Utrum praecipitatio sit peccatum sub imprudentia contentum</head>
+               <p xml:id="TAca84-d1e1546-d1e656">
+                  <pb ed="#L" n="391"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM PRAECIPITATIO SIT PECCATUM SUB IMPRUDENTIA CONTENTUM
+</p>
+               <p xml:id="TAca84-d1e1546-d1e667">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>praecipitatio non sit peccatum sub 
+im<lb break="no" ed="#L" n="5"/>prudentia contentum. Imprudentia enim
+<lb ed="#L" n="6"/>opponitur virtuti prudentiae. Sed 
+prae<lb break="no" ed="#L" n="7"/>cipitatio opponitur dono consilii: dicit enim 
+Gre<lb break="no" ed="#L" n="8"/>gorius, in Il Moral., quod donum consilii datur
+<lb ed="#L" n="9"/>contra praecipitationem. Ergo praecipitatio non
+<lb ed="#L" n="10"/>est peccatum sub imprudentia contentum.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e689">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, praecipitatio videtur ad 
+temeri<lb break="no" ed="#L" n="12"/>tatem pertinere. Temeritas autem praesumptionem
+<lb ed="#L" n="13"/>importat, quae pertinet ad superbiam. Ergo 
+prae<lb break="no" ed="#L" n="14"/>cipitatio non est vitium sub imprudentia 
+con<lb break="no" ed="#L" n="15"/>tentum. ;
+</p>
+               <p xml:id="TAca84-d1e1546-d1e703">
+                  <lb ed="#L" n="16"/>3. PRAETEREA, praecipitatio videtur importare
+<lb ed="#L" n="17"/>quandam inordinatam festinationem. Sed in 
+con<lb break="no" ed="#L" n="18"/>siliando non solum contingit esse peccatum per
+<lb ed="#L" n="19"/>hoc quod aliquis est festinus, sed etiam si sit nimis
+<lb ed="#L" n="20"/>tardus, ita quod praetereat opportunitas operis;
+<lb ed="#L" n="21"/>et etiam secundum inordinationes aliarum cir-
+<lb ed="#L" n="22"/>cumstantiarum, ut dicitur in VI Ethic. Ergo
+<lb ed="#L" n="23"/>non magis praecipitatio debet poni peccatum sub
+<lb ed="#L" n="24"/>imprudentia contentum quam tarditas, aut aliqua
+<lb ed="#L" n="25"/>alia huiusmodi ad inordinationem consilii 
+per<lb break="no" ed="#L" n="26"/>tinentia.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e729">
+                  <lb ed="#L" n="27"/>SED coNTRA EsT quod dicitur Prov. iv: Via
+<lb ed="#L" n="28"/>impiorum tenebrosa: nesciunt ubi corruant. '
+Te<lb break="no" ed="#L" n="29"/>nebrae autem viae impietatis pertinent ad 
+im<lb break="no" ed="#L" n="30"/>prudentiam. Ergo corruere, sive praecipitari, ad
+<lb ed="#L" n="31"/>imprudentiam pertinet.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e742">
+                  <lb ed="#L" n="32"/>RESPONDEO DICENDUM quod praecipitatio in 
+acti<lb break="no" ed="#L" n="33"/>bus animae metaphorice dicitur secundum 
+simili<lb break="no" ed="#L" n="34"/>tudinem a corporali motu acceptam. Dicitur autem
+<lb ed="#L" n="35"/>praecipitari secundum corporalem motum quod a
+<lb ed="#L" n="36"/>superiori in ima pervenit secundum impetum 
+quen<lb break="no" ed="#L" n="37"/>dam proprii motus vel alicuius impellentis, non
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="38"/>ordinate incedendo per gradus. Summum autem
+<lb ed="#L" n="39"/>animae est ipsa ratio. Imum autem est operatio ?
+<lb ed="#L" n="40"/>per corpus exercita. Gradus autem medii, per
+<lb ed="#L" n="41"/>quos oportet ordinate descendere, sunt memoria
+<lb ed="#L" n="42"/>praeteritorum, intelligentia praesentium, solertia
+<lb ed="#L" n="43"/>in considerandis futuris eventibus, ratiocinatio
+<lb ed="#L" n="44"/>conferens unum alteri, docilitas, per quam aliquis
+<lb ed="#L" n="45"/>acquiescit sententiis maiorum: per quos quidem
+<lb ed="#L" n="46"/>gradus aliquis ordinate descendit recte consiliando.
+<lb ed="#L" n="47"/>Si quis autem feratur ad agendum per impetum
+<lb ed="#L" n="48"/>voluntatis vel passionis, pertransitis huiusmodi
+<lb ed="#L" n="49"/>gradibus, erit praecipitatio. Cum ergo inordinatio
+<lb ed="#L" n="50"/>consilii ad imprudentiam pertineat, manifestum
+<lb ed="#L" n="51"/>est quod vitium praecipitationis sub imprudentia
+<lb ed="#L" n="52"/>continetur.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e792">
+                  <lb ed="#L" n="53"/>AD PRIMUM ERGO DICENDUM quod consilii 
+recti<lb break="no" ed="#L" n="54"/>tudo pertinet ad donum consilii et ad virtutem
+<lb ed="#L" n="55"/>prudentiae, licet diversimode, ut supra dictum
+<lb ed="#L" n="56"/>est. Et ideo praecipitatio utrique contrariatur.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e803">
+                  <lb ed="#L" n="57"/>AD SECUNDUM DICENDUM quod illa dicuntur fieri
+<lb ed="#L" n="58"/>temere quae ratione non reguntur. Quod 
+qui<lb break="no" ed="#L" n="59"/>dem potest contingere dupliciter. Uno modo, ex
+<lb ed="#L" n="60"/>impetu voluntatis vel passionis. Alio modo, ex
+<lb ed="#L" n="61"/>contemptu regulae dirigentis: et hoc proprie 
+im<lb break="no" ed="#L" n="62"/>portat temeritas. Unde videtur ex radice 
+su<lb break="no" ed="#L" n="63"/>perbiae provenire, quae refugit subesse regulae
+<lb ed="#L" n="64"/>alienae. Paecipitatio autem se habet ad utrumque.
+<lb ed="#L" n="65"/>Unde temeritas sub praecipitatione continetur:
+<lb ed="#L" n="66"/>quamvis praecipitatio magis respiciat primum.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e827">
+                  <lb ed="#L" n="67"/>AD TERTIUM DICENDUM quod in inquisitione 
+con<lb break="no" ed="#L" n="68"/>silii multa particularia sunt consideranda: et ideo
+<lb ed="#L" n="69"/>Philosophus dicit, in VI Ethic.: Oportet consiliari
+<lb ed="#L" n="70"/>tarde. Unde praecipitatio directius opponitur 
+re<lb break="no" ed="#L" n="71"/>ctitudini consilii quam tarditas superflua, quae
+<lb ed="#L" n="72"/>habet quandam similitudinem. recti consilii.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1546-Dd1e844"><!-- p2p2-q53a4 -->
+               <head xml:id="TAca84-d1e1546-Hd1e847">Articulus 4</head>
+               <head xml:id="TAca84-d1e1546-Hd1e849" type="question-title">Utrum inconsideratio sit speciale peccatum sub imprudentia contentum</head>
+               <p xml:id="TAca84-d1e1546-d1e852">
+                  <lb ed="#L" n="84"/>ARTICULUS QUARTUS
+<lb ed="#L" n="85"/>UTRUM INCONSIDERATIO SIT SPECIALE PECCATUM SUB IMPRUDENTIA CONTENTUM
+</p>
+               <p xml:id="TAca84-d1e1546-d1e859">
+                  <lb ed="#L" n="86"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="87"/>inconsideratio non sit peccatum speciale
+<lb ed="#L" n="88"/>sub imprudentia contentum. Lex enim
+<lb ed="#L" n="89"/>divina ad nullum peccatum nos inducit:
+<lb ed="#L" n="90"/>secundum illud Psalm.: Lex Domini 
+immacu<lb break="no" ed="#L" n="91"/>lata. Inducit autem ad non considerandum: se- 
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="92"/>cundum illud Matth. x: Nolite cogitare quomodo
+<lb ed="#L" n="93"/>aut quid loquamini. Ergo inconsideratio non est
+<lb ed="#L" n="94"/>peccatum.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e883">
+                  <lb ed="#L" n="95"/>2. PRAETEREA, quicumque consiliatur oportet
+<lb ed="#L" n="96"/>quod multa consideret. Sed per defectum 
+con<lb break="no" ed="#L" n="97"/>silii est praecipitatio; et per consequens ex defe-
+<pb ed="#L" n="392"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ctu considerationis. Ergo praecipitatio sub 
+incon<lb break="no" ed="#L" n="2"/>sideratione continetur. Non ergo inconsideratio
+<lb ed="#L" n="3"/>est speciale peccatum.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e904">
+                  <lb ed="#L" n="4"/>3. PRAETEREA, prudentia consistit in actibus
+<lb ed="#L" n="5"/>rationis practicae, qui sunt consiliari, iudicare de
+<lb ed="#L" n="6"/>consiliatis, et praecipere. Sed considerare 
+prae<lb break="no" ed="#L" n="7"/>cedit omnes istos actus: quia pertinet etiam ad 
+in<lb break="no" ed="#L" n="8"/>tellectum speculativum. Ergo inconsideratio non
+<lb ed="#L" n="9"/>est speciale peccatum sub imprudentia contentum.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e920">
+                  <lb ed="#L" n="10"/>SED CONTRA EST quod dicitur Prov. iv: Oculi
+<lb ed="#L" n="11"/>tui videant recta, et palpebrae tuae praecedant
+<lb ed="#L" n="12"/>gressus tuos, quod pertinet ad prudentiam. Sed
+<lb ed="#L" n="13"/>contrarium huius agitur per inconsiderationem.
+<lb ed="#L" n="14"/>Ergo inconsideratio est speciale peccatum sub
+<lb ed="#L" n="15"/>imprudentia contentum.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e936">
+                  <lb ed="#L" n="16"/>RESPONDEO DICENDUM quod consideratio 
+impor<lb break="no" ed="#L" n="17"/>tat actum intellectus veritatem rei intuentis. Sicut
+<lb ed="#L" n="18"/>autem inquisitio pertinet ad rationem, ita 
+iudi<lb break="no" ed="#L" n="19"/>cium pertinet ad intellectum: unde et in 
+specu<lb break="no" ed="#L" n="20"/>lativis demonstrativa scientia dicitur tudicativa,
+<lb ed="#L" n="21"/>inquantum per resolutionem in prima principia
+<lb ed="#L" n="22"/>intelligibilia de veritate inquisitorum diiudicatur.
+<lb ed="#L" n="23"/>Et ideo consideratio maxime pertinet ad 
+iudi<lb break="no" ed="#L" n="24"/>cium. Unde et defectus recti iudicii ad vitium
+<lb ed="#L" n="25"/>inconsiderationis pertinet: prout scilicet aliquis
+<lb ed="#L" n="26"/>in recte iudicando deficit ex hoc quod contemnit
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="27"/>vel negligit attendere ea ex quibus rectum 
+iu<lb break="no" ed="#L" n="28"/>dicium procedit. Unde manifestum est quod 
+in<lb break="no" ed="#L" n="29"/>consideratio est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e971">
+                  <lb ed="#L" n="30"/>AD PRIMUM ERGO DICENDUM quod Dominus non
+<lb ed="#L" n="31"/>prohibet considerare ea quae sunt agenda vel
+<lb ed="#L" n="32"/>dicenda, quando homo habet opportunitatem.
+<lb ed="#L" n="33"/>Sed dat fiduciam discipulis in verbis inductis
+<lb ed="#L" n="34"/>ut, deficiente sibi opportunitate vel propter 
+im<lb break="no" ed="#L" n="35"/>peritiam vel quia subito praeoccupantur, in solo
+<lb ed="#L" n="36"/>divino confidant consilio: quia cum ignoramus
+<lb ed="#L" n="37"/>quid agere debeamus, hoc solum habemus residui,
+<lb ed="#L" n="38"/>ut oculos nostros dirigamus ad Deum, sicut 
+di<lb break="no" ed="#L" n="39"/>citur II Paral. xx. Alioquin, si homo 
+praeter<lb break="no" ed="#L" n="40"/>mittat facere quod potest, solum divinum 
+auxi<lb break="no" ed="#L" n="41"/>lium expectans, videtur tentare Deum.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1000">
+                  <lb ed="#L" n="42"/>AD SECUNDUM DICENDUM quod tota consideratio
+<lb ed="#L" n="43"/>eorum quae in consilio attenduntur ordinatur
+<lb ed="#L" n="44"/>ad recte iudicandum: et ideo. consideratio in
+<lb ed="#L" n="45"/>iudicio perficitur. Unde etiam inconsideratio 
+ma<lb break="no" ed="#L" n="46"/>xime opponitur rectitudini iudicii.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1013">
+                  <lb ed="#L" n="47"/>AD TERTIUM DICENDUM quod inconsideratio hic
+<lb ed="#L" n="48"/>accipitur secundum determinatam materiam, 
+id<lb break="no" ed="#L" n="49"/>est secundum agibilia humana: in quibus plura
+<lb ed="#L" n="50"/>sunt attendenda ad recte iudicandum quam etiam
+<lb ed="#L" n="51"/>In speculativis; quia operationes sunt in 
+singu<lb break="no" ed="#L" n="52"/>iaribus.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1546-Dd1e1030"><!-- p2p2-q53a5 -->
+               <head xml:id="TAca84-d1e1546-Hd1e1033">Articulus 5</head>
+               <head xml:id="TAca84-d1e1546-Hd1e1035" type="question-title">Utrum inconstantia sit vitium sub imprudentia contentum</head>
+               <p xml:id="TAca84-d1e1546-d1e1038">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="73"/>ARTICULUS QUINTUS
+<lb ed="#L" n="74"/>UTRUM INCONSTANTIA SIT VITIUM SUB IMPRUDENTIA CONTENTUM
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1047">
+                  <lb ed="#L" n="75"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="76"/>inconstantia non sit vitium sub 
+impru<lb break="no" ed="#L" n="77"/>dentia contentum. Inconstantia enim
+<lb ed="#L" n="78"/>videtur in hoc consistere quod homo
+<lb ed="#L" n="79"/>non persistat in aliquo difficili. Sed persistere
+<lb ed="#L" n="80"/>in difficilibus pertinet ad fortitudinem. Ergo 
+in<lb break="no" ed="#L" n="81"/>constantia magis opponitur fortitudini quam 
+pru<lb break="no" ed="#L" n="82"/>dentiae.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1067">
+                  <lb ed="#L" n="83"/>2. PRAETEREA, lac. m dicitur: Ubi gelus et
+<lb ed="#L" n="84"/>contentio, ibi inconstantia et omne opus pravum.
+<lb ed="#L" n="85"/>Sed zelus ad invidiam pertinet. Ergo inconstantia
+<lb ed="#L" n="86"/>non pertinet ad imprudentiam, sed magis ad 
+in<lb break="no" ed="#L" n="87"/>vidiam.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1081">
+                  <lb ed="#L" n="88"/>3. PRAETEREA, ille videtur esse inconstans qui
+<lb ed="#L" n="89"/>non perseverat in eo quod proposuerat. Quod
+<lb ed="#L" n="90"/>quidem pertinet. in delectationibus ad 
+Incontinen<lb break="no" ed="#L" n="91"/>lem, in tristitiis autem. ad mollem sive delicatum,
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="92"/>ut dicitur VII Ethic. Ergo inconstantia non per-
+<lb ed="#L" n="93"/>tinet ad imprudentiam.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1099">
+                  <lb ed="#L" n="94"/>SED CONTRA EST quod ad prudentiam pertinet
+<lb ed="#L" n="95"/>praeferre maius bonum minus bono. Ergo 
+desi<lb break="no" ed="#L" n="96"/>stere a meliori pertinet ad imprudentiam. Sed
+<lb ed="#L" n="97"/>hoc est inconstantia. Ergo inconstantia pertinet
+<lb ed="#L" n="98"/>ad imprudentiam.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1112">
+                  <lb ed="#L" n="99"/>RESPONDEO DICENDUM quod inconstantia 
+impor<lb break="no" ed="#L" n="100"/>tat recessum quendam a bono proposito definito.
+<lb ed="#L" n="101"/>Huiusmodi autem recessus principium quidem
+<lb ed="#L" n="102"/>habet a vi appetitiva: non enim aliquis recedit
+<lb ed="#L" n="103"/>a priori bono proposito nisi propter aliquid quod
+<lb ed="#L" n="104"/>sibi inordinate placet. Sed iste recessus non 
+con<lb break="no" ed="#L" n="105"/>summatur nisi per defectum rationis, quae 
+fal<lb break="no" ed="#L" n="106"/>litur in hoc quod repudiat id quod. recte 
+acce<lb break="no" ed="#L" n="107"/>ptaverat: et quia, cum possit resistere impulsui
+<lb ed="#L" n="108"/>passionis, si non resistat, hoc est ex debilitate
+<pb ed="#L" n="393"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ipsius, quae non tenet se firmiter in bono con- |
+<lb ed="#L" n="2"/>cepto. Et ideo inconstantia, quantum ad sui
+<lb ed="#L" n="3"/>consummationem, pertinet ad defectum rationis.
+<lb ed="#L" n="4"/>Sicut autem omnis. rectitudo rationis practicae
+<lb ed="#L" n="5"/>pertinet aliqualiter ad prudentiam, ita omnis 
+de<lb break="no" ed="#L" n="6"/>fectus eiusdem pertinet ad imprudentiam: Et ideo |
+<lb ed="#L" n="7"/>inconstantia, secundum sui consummationem, ad
+<lb ed="#L" n="8"/>imprudentiam pertinet. Et sicut praecipitatio est
+<lb ed="#L" n="9"/>ex defectu circa actum consilii, et inconsideratio
+<lb ed="#L" n="10"/>circa actum iudicii, ita inconstantia circa actum -
+<lb ed="#L" n="11"/>praecepti: ex hoc enim dicitur aliquis esse in- |
+<lb ed="#L" n="12"/>constans quod ratio deficit in praecipiendo ea
+<lb ed="#L" n="13"/>quae sunt consiliata et iudicata.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1169">
+                  <lb ed="#L" n="14"/>AD PRIMUM ERGO DICENDUM quod bonum 
+pru<lb break="no" ed="#L" n="15"/>dentiae participatur in omnibus virtutibus mora- |
+<lb ed="#L" n="16"/>libus: et secundum hoc persistere in bono 
+per<lb break="no" ed="#L" n="17"/>tinet ad omnes virtutes morales. Praecipue tamen
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="18"/>ad fortitudinem, quae patitur maiorem impulsum
+<lb ed="#L" n="19"/>ad contrarium.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1187">
+                  <lb ed="#L" n="20"/>AD SECUNDUM DICENDUM quod invidia et ira, quae
+<lb ed="#L" n="21"/>est contentionis principium, faciunt 
+inconstan<lb break="no" ed="#L" n="22"/>tiam ex parte appetitivae virtutis, ex qua est
+<lb ed="#L" n="23"/>principium inconstantiae, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1198">
+                  <lb ed="#L" n="24"/>AD TERTIUM DICENDUM quod continentia et 
+per<lb break="no" ed="#L" n="25"/>severantia non videntur esse in vi appetitiva, sed
+<lb ed="#L" n="26"/>solum in ratione. Continens enim patitur 
+qui<lb break="no" ed="#L" n="27"/>dem perversas concupiscentias, et perseverans
+<lb ed="#L" n="28"/>graves tristitias, quod designat defectum 
+appe<lb break="no" ed="#L" n="29"/>titivae virtutis: sed ratio firmiter persistit, 
+con<lb break="no" ed="#L" n="30"/>tinentis quidem contra concupiscentias, 
+perseve<lb break="no" ed="#L" n="31"/>rantis autem contra tristitias. Unde continentia
+<lb ed="#L" n="32"/>et perseverantia videntur esse species constantiae
+<lb ed="#L" n="33"/>ad rationem pertinentis, ad quam etiam pertinet
+<lb ed="#L" n="34"/>inconstantia.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1546-Dd1e1225"><!-- p2p2-q53a6 -->
+               <head xml:id="TAca84-d1e1546-Hd1e1228">Articulus 6</head>
+               <head xml:id="TAca84-d1e1546-Hd1e1230" type="question-title">Utrum praedicta vitia oriantur ex luxuria</head>
+               <p xml:id="TAca84-d1e1546-d1e1233">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="72"/>ARTICULUS SEXTUS
+<lb ed="#L" n="73"/>UTRUM PRAEDICTA VITIA ORIANTUR EX LUXURIA
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1242">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="74"/>AD SEXTUM SIC PROCEDITUR. Videtur quod |
+<lb ed="#L" n="75"/>praedicta vitia non oriantur ex luxuria. |
+<lb ed="#L" n="76"/>Inconstantia enim oritur ex invidia, ut
+<lb ed="#L" n="77"/>Nadictum est. Sed invidia est vitium
+<lb ed="#L" n="78"/>distinctum a luxuria. Ergo praedicta vitia non
+<lb ed="#L" n="79"/>oriuntur ex luxuria. a
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1260">
+                  <lb ed="#L" n="80"/>2. PRAETEREA, lac. 1 dicitur: Vir duplex 
+ani<lb break="no" ed="#L" n="81"/>mo inconstans est in omnibus viis suis. Sed 
+du<lb break="no" ed="#L" n="82"/>plicitas non videtur ad luxuriam pertinere, sed
+<lb ed="#L" n="83"/>magis ad dolositatem, quae est filia avaritiae,
+<lb ed="#L" n="84"/>secundum Gregorium, XXXI Moral. Ergo 
+prae<lb break="no" ed="#L" n="85"/>dicta vitia non oriuntur ex luxuria.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1277">
+                  <lb ed="#L" n="86"/>3. PRAETEREA, praedicta vitia pertinent ad 
+de<lb break="no" ed="#L" n="87"/>fectum rationis. Sed vitia spiritualia propinquiora
+<lb ed="#L" n="88"/>sunt rationi quam vitia carnalia. Ergo praedicta
+<lb ed="#L" n="89"/>vitia magis oriuntur ex vitiis spiritualibus quam
+<lb ed="#L" n="90"/>ex vitiis carnalibus.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1290">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="91"/>SED coNTRA EST quod Gregorius, XXXI Moral.,
+<lb ed="#L" n="92"/>ponit praedicta vitia ex luxuria oriri.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1299">
+                  <lb ed="#L" n="93"/>RESPONDEO DICENDUM quod, sicut Philosophus
+<lb ed="#L" n="94"/>dicit, in VI Ethic., delectatio maxime corrumpit
+<lb ed="#L" n="95"/>existimationem prudentiae: et praecipue delectatio
+<lb ed="#L" n="96"/>quae est in venereis, quae totam animam 
+absor<lb break="no" ed="#L" n="97"/>bet et trahit ad sensibilem delectationem; 
+perfe<lb break="no" ed="#L" n="98"/>ctio autem prudentiae, et cuiuslibet intellectualis
+<lb ed="#L" n="99"/>virtutis, consistit in abstractione a sensibilibus.
+<lb ed="#L" n="100"/>Unde cum praedicta vitia pertineant ad defectum
+<lb ed="#L" n="101"/>prudentiae et rationis practicae, sicut habitum est,
+<lb ed="#L" n="102"/>sequitur quod ex luxuria maxime oriantur.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1323">
+                  <lb ed="#L" n="103"/>AD PRIMUM ERGO DICENDUM quod invidia et ira
+<lb ed="#L" n="104"/>causant inconstantiam pertrahendo rationem ad
+<lb ed="#L" n="105"/>aliud: sed luxuria causat inconstantiam totaliter
+<lb ed="#L" n="106"/>extinguendo iudicium rationis. Unde 
+Philoso<lb break="no" ed="#L" n="107"/>phus dicit, in VII. Ethic., quod <quote xml:id="TAca84-d1e1546-Qd1e1336">incontinens irae
+<pb ed="#L" n="394"/>
+                     <cb ed="#L" n="a"/>
+                     <lb ed="#L" n="1"/>audit quidem rationem, sed non perfecte: 
+incon<lb break="no" ed="#L" n="2"/>linens autem concupiscentiae totaliter eam non 
+<lb ed="#L" n="3"/>audit</quote>.
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1350">
+                  <lb ed="#L" n="4"/>AD SECUNDUM DICENDUM quod etiam duplicitas 
+<lb ed="#L" n="5"/>animi est quoddam consequens ad luxuriam, sicut 
+<lb ed="#L" n="6"/>et inconstantia, prout duplicitas animi importat 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="7"/>vertibilitatem animi ad diversa. Unde et 
+Teren<lb break="no" ed="#L" n="8"/>tius dicit, in Eunucho, quod in amore est 
+bel<lb break="no" ed="#L" n="9"/>lum, et rursus pax et indutiae,
+</p>
+               <p xml:id="TAca84-d1e1546-d1e1368">
+                  <lb ed="#L" n="10"/>AD TERTIUM DICENDUM quod vitia carnalia 
+in<lb break="no" ed="#L" n="11"/>tantum magis extinguunt iudicium rationis 
+in<lb break="no" ed="#L" n="12"/>quantum longius abducunt a ratione.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

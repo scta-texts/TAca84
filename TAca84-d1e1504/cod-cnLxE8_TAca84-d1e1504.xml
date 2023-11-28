@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 45</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 45</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="339"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1504"><!-- p2p2-q45 -->
+            <head xml:id="TAca84-d1e1504-Hd1e101">Quaestio 45</head>
+            <head xml:id="TAca84-d1e1504-Hd1e103" type="question-title">De dono sapientiae</head>
+            <p xml:id="TAca84-d1e1504-d1e106">
+               <pb ed="#L" n="339"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO QUADRAGESIMAQUINTA
+<lb ed="#L" n="2"/>DE DONO SAPIENTIAE
+<lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1504-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de dono 
+sapien<lb break="no" ed="#L" n="5"/>tiae, quod respondet caritati. Et primo, de
+<lb ed="#L" n="6"/>ipsa sapientia; secundo, de vitio opposito
+</p>
+            <p xml:id="TAca84-d1e1504-d1e130">
+               <lb ed="#L" n="7"/>Circa primum quaeruntur sex.
+<lb ed="#L" n="8"/>Primo: utrum sapientia debeat numerari inter
+<lb ed="#L" n="9"/>dona Spiritus Sancti.
+<lb ed="#L" n="10"/>Secundo: in quo sit sicut in subiecto.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="11"/>Tertio: utrum sapientia sit'speculativa tantum,
+<lb ed="#L" n="12"/>vel etiam practica.
+<lb ed="#L" n="13"/>Quarto: utrum sapientia quae est donum 
+pos<lb break="no" ed="#L" n="14"/>sit esse cum peccato mortali.
+<lb ed="#L" n="15"/>Quinto: utrum sit in omnibus habentibus 
+gra<lb break="no" ed="#L" n="16"/>tiam gratum facientem. :
+<lb ed="#L" n="17"/>Sexto: quae beatitudo ei respondeat.
+</p>
+            <div xml:id="TAca84-d1e1504-Dd1e160"><!-- p2p2-q45a1 -->
+               <head xml:id="TAca84-d1e1504-Hd1e163">Articulus 1</head>
+               <head xml:id="TAca84-d1e1504-Hd1e165" type="question-title"/>
+               <p xml:id="TAca84-d1e1504-d1e167">
+                  <lb ed="#L" n="18"/>ARTICULUS PRIMUS
+<lb ed="#L" n="19"/>UTRUM SAPIENTIA DEBEAT INTER DONA SPIRITUS SANCTI COMPUTARI
+</p>
+               <p xml:id="TAca84-d1e1504-d1e174">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="20"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="21"/>sapientia non debeat inter dona Spiritus
+<lb ed="#L" n="22"/>Sancti computari. Dona enim sunt 
+per<lb break="no" ed="#L" n="23"/>fectiora virtutibus, ut supra dictum
+<lb ed="#L" n="24"/>est. Sed virtus se habet solum ad bonum: unde
+<lb ed="#L" n="25"/>et Augustinus dicit, in libro de Lib. Arb., quod
+<lb ed="#L" n="26"/>nullus. virtutibus male utitur. Ergo multo magis
+<lb ed="#L" n="27"/>dona Spiritus Sancti se habent solum ad bonum.
+<lb ed="#L" n="28"/>Sed sapientia se habet etiam ad malum: dicitur
+<lb ed="#L" n="29"/>enim lac. ii. quaedam sapientia esse terrena,
+<lb ed="#L" n="30"/>animalis, diabolica. Ergo sapientia non debet poni
+<lb ed="#L" n="31"/>inter dona Spiritus Sancti.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e205">
+                  <lb ed="#L" n="32"/>2. PRAETEREA, sicut Augustinus dicit, XIV de
+<lb ed="#L" n="33"/>Trin. sapientia est divinarum rerum cognitio.
+<lb ed="#L" n="34"/>Sed cognitio divinarum rerum quam homo 
+pot<lb break="no" ed="#L" n="35"/>est per sua naturalia habere, pertinet ad. 
+sapien<lb break="no" ed="#L" n="36"/>tiam quae est virtus intellectualis: cognitio autem 
+<lb ed="#L" n="37"/>divinorum. supernaturalis pertinet ad fidem quae
+<lb ed="#L" n="38"/>est Virtus theologica, ut ex supradictis patet.
+<lb ed="#L" n="39"/>Ergo sapientia magis debet Y dici virtus quam
+<lb ed="#L" n="40"/>donum.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e228">
+                  <lb ed="#L" n="41"/>3. PRAETEREA, Job xxvi dicitur: Ecce timor
+<lb ed="#L" n="42"/>Domini ipsa est sapientia, et recedere a malo 
+in<lb break="no" ed="#L" n="43"/>telligentia : ubi secundum litteram Septuaginta,
+<lb ed="#L" n="44"/>qua utitur Augustinus, habetur: Ecce, pietas
+<lb ed="#L" n="45"/>ipsa est sapientia. Sed teta timor quam. pietas
+<lb ed="#L" n="46"/>ponuntur dona Spiritus Sancti. Ergo sapientia
+<lb ed="#L" n="47"/>non debet numerari inter dona Spiritus Sancti
+<lb ed="#L" n="48"/>quasi donum ab aliis distinctum.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e248">
+                  <lb ed="#L" n="49"/>SED coNTRA EsT quod Isaiae xi dicitur: 
+Re<lb break="no" ed="#L" n="50"/>quiescet super eum Spiritus Domini, sapientiae
+<lb ed="#L" n="51"/>et intellectus, etc.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e257">
+                  <lb ed="#L" n="52"/>RESPONDEO DICENDUM. quod secundum  
+Philo<lb break="no" ed="#L" n="53"/>sophum, in principio Metaphys., ad sapientem
+<lb ed="#L" n="54"/>pertinet considerare causam aitissimam, per quam
+<lb ed="#L" n="55"/>de aliis certissime iudicatur, et secundum quam
+<lb ed="#L" n="56"/>omnia ordinari oportet. Causa autem altissima
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="57"/>dupliciter accipi potest: vel simpliciter, vel in
+<lb ed="#L" n="58"/>aliquo genere. Ille igitur qui cognoscit causam.
+<lb ed="#L" n="59"/>altissimam in aliquo genere et per eam potest
+<lb ed="#L" n="60"/>de omnibus quae sunt illius generis iudicare et
+<lb ed="#L" n="61"/>ordinare, dicitur esse sapiens in illo genere, ut
+<lb ed="#L" n="62"/>in medicina vel architectura: secundum illud I
+<lb ed="#L" n="63"/>ad Cor. m: Ut sapiens architectus fundamentum
+<lb ed="#L" n="64"/>posui. llle autem qui cognoscit causam 
+altissi<lb break="no" ed="#L" n="65"/>mam simpliciter, quae est Deus, dicitur sapiens
+<lb ed="#L" n="66"/>simpliciter: inquantum per regulas divinas omnia
+<lb ed="#L" n="67"/>potest iudicare et ordinare. Huiusmodi autem
+<lb ed="#L" n="68"/>iudicium consequitur homo per Spiritum 
+San<lb break="no" ed="#L" n="69"/>ctum: secundum illud I ad Cor. n: Spiritualis
+<lb ed="#L" n="70"/>iudicat omnia; quia, sicut ibidem dicitur, Spiritus
+<lb ed="#L" n="71"/>omnia scrutatur, eliam profunda Dei. Unde 
+ma<lb break="no" ed="#L" n="72"/>nifestum est quod sapientia est donum Spiritus
+<lb ed="#L" n="73"/>Sancti.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e309">
+                  <lb ed="#L" n="74"/>AD PRIMUM ERGO DICENDUM quod bonum dicitur
+<lb ed="#L" n="75"/>dupliciter. Uno modo, quod vere est bonum
+<lb ed="#L" n="76"/>et simpliciter perfectum. Alio modo dicitur 
+ali<lb break="no" ed="#L" n="77"/>quid esse bonum, secundum quandam 
+similitu<lb break="no" ed="#L" n="78"/>dinem, quod est in malitia perfectum: sicut 
+di<lb break="no" ed="#L" n="79"/>citur bonus latro vel perfectus latro, ut patet per
+<lb ed="#L" n="80"/>Philosophum, in V Metaphys. Et sicut circa ea
+<lb ed="#L" n="81"/>quae sunt vere bona invenitur aliqua altissima
+<lb ed="#L" n="82"/>causa, quae est summum bonum, quod est 
+ulti<lb break="no" ed="#L" n="83"/>mus finis, per cuius cognitionem homo dicitur vere
+<lb ed="#L" n="84"/>sapiens; ita etiam in malis est invenire aliquid
+<lb ed="#L" n="85"/>ad quod alia referuntur sicut ad ultimum finem,
+<lb ed="#L" n="86"/>per cuius cognitionem homo dicitur esse sapiens
+<lb ed="#L" n="87"/>ad male agendum; secundum illud lerem. iv:
+<lb ed="#L" n="88"/>Sapientes sunt ut. faciant mala: bene autem facere
+<lb ed="#L" n="89"/>nescierunt. Quicumque enim " avertitur a fine
+<lb ed="#L" n="90"/>debito, necesse est quod aliquem finem 
+indebi<lb break="no" ed="#L" n="91"/>tum sibi praestituat: quia omne agens agit 
+pro<lb break="no" ed="#L" n="92"/>pter finem. Unde si praestituat sibi finem in
+<lb ed="#L" n="93"/>bonis exterioribus terrenis, vocatur sapientia ter-
+<pb ed="#L" n="340"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>rena; si autem in bonis corporalibus, vocatur
+<lb ed="#L" n="2"/>sapientia animalis; si autem in aliqua excellentia,
+<lb ed="#L" n="3"/>vocatur sapientia diabolica, propter imitationem
+<lb ed="#L" n="4"/>superbiae diaboli, de quo dicitur Zob xti: Zpse
+<lb ed="#L" n="5"/>est rex super universos filios superbiae.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e370">
+                  <lb ed="#L" n="6"/>AD SECUNDUM DICENDUM quod sapientia quae
+<lb ed="#L" n="7"/>ponitur donum differt ab ea quae ponitur virtus
+<lb ed="#L" n="8"/>intellectualis acquisita. Nam illa acquiritur studio
+<lb ed="#L" n="9"/>humano: haec autem est de sursum descendens,
+<lb ed="#L" n="10"/>ut dicitur Iac. m. - Similiter et differt a fide.
+<lb ed="#L" n="11"/>Nam fides assentit veritati divinae secundum
+<lb ed="#L" n="12"/>seipsam: sed iudicium quod est secundum ve-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="13"/>ritatem divinam pertinet ad donum sapientiae.
+<lb ed="#L" n="14"/>Et ideo donum sapientiae praesupponit fidem:
+<lb ed="#L" n="15"/>quia unusquisque bene iudicat quae cognoscit, ut
+<lb ed="#L" n="16"/>dicitur in I Ethic. :
+</p>
+               <p xml:id="TAca84-d1e1504-d1e399">
+                  <lb ed="#L" n="17"/>AD TERTIUM DICENDUM quod sicut pietas, quae
+<lb ed="#L" n="18"/>pertinet ad cultum Dei, est manifestativa fidei,
+<lb ed="#L" n="19"/>inquantum per cultum Dei protestamur fidem;
+<lb ed="#L" n="20"/>ita etiam pietas manifestat sapientiam. Et propter
+<lb ed="#L" n="21"/>hoc dicitur quod pietas est sapientia. Et eadem
+<lb ed="#L" n="22"/>ratione timor. Per hoc enim ostenditur quod
+<lb ed="#L" n="23"/>homo rectum habet iudicium de divinis, quod
+<lb ed="#L" n="24"/>Deum timet et colit.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1504-Dd1e420"><!-- p2p2-q45a2 -->
+               <head xml:id="TAca84-d1e1504-Hd1e423">Articulus 2</head>
+               <head xml:id="TAca84-d1e1504-Hd1e425" type="question-title"/>
+               <p xml:id="TAca84-d1e1504-d1e427">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="94"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="95"/>UTRUM SAPIENTIA SIT IN INTELLECTU SICUT IN SUBIECTO
+</p>
+               <p xml:id="TAca84-d1e1504-d1e436">
+                  <lb ed="#L" n="96"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="97"/>sapientia non sit in intellectu. sicut in
+<lb ed="#L" n="98"/>subiecto. Dicit enim Augustinus, in libro
+<lb ed="#L" n="99"/>de Gratia Novi Test., quod sapientia
+<lb ed="#L" n="100"/>est caritas Dei. Sed caritas est sicut in subiecto
+<lb ed="#L" n="101"/>in voluntate, non in intellectu, ut supra 
+habi<lb break="no" ed="#L" n="102"/>tum est. Ergo sapientia non est in intellectu sicut
+<lb ed="#L" n="103"/>in subiecto.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e456">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="104"/>2. PRAETEREA, Eccli. vi dicitur: Sapientia 
+do<lb break="no" ed="#L" n="105"/>ctrinae secundum nomen eius est. Dicitur autem
+<lb ed="#L" n="106"/>sapientia quasi sapida scientia: quod videtur ad .
+<lb ed="#L" n="107"/>affectum pertinere, ad. quem - pertinet. experiri
+<lb ed="#L" n="108"/>spirituales delectationes sive dulcedines. Ergo 
+sa<lb break="no" ed="#L" n="109"/>pientia non est in. intellectu, sed. magis in affectu;
+</p>
+               <p xml:id="TAca84-d1e1504-d1e475">
+                  <lb ed="#L" n="110"/>3. PRAETEREA, potentia intellectiva sufficienter
+<lb ed="#L" n="111"/>perficitur per donum intellectus. Sed. ad id quod
+<pb ed="#L" n="341"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>potest fieri per unum superfluum esset? plura
+<lb ed="#L" n="2"/>ponere. Ergo non est in intellectu.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e491">
+                  <lb ed="#L" n="3"/>SED CONTRA EsT quod Gregorius dicit, in II
+<lb ed="#L" n="4"/>Moral., quod sapientia contrariatur stultitiae.
+<lb ed="#L" n="5"/>Sed stultitia est in intellectu. Ergo et sapientia.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e500">
+                  <lb ed="#L" n="6"/>RESPONDEO DICENDUM quod, sicut supra 
+di<lb break="no" ed="#L" n="7"/>ctum est, sapientia importat quandam 
+rectitudi<lb break="no" ed="#L" n="8"/>nem iudicii secundum rationes divinas. Rectitudo
+<lb ed="#L" n="9"/>autem iudicii. potest contingere dupliciter: uno
+<lb ed="#L" n="10"/>modo, secundum perfectum usum rationis; alio
+<lb ed="#L" n="11"/>modo, propter connaturalitatem quandam ad ea
+<lb ed="#L" n="12"/>de quibus iam est iudicandum. Sicut de his quae
+<lb ed="#L" n="13"/>ad castitatem pertinent per rationis inquisitionem
+<lb ed="#L" n="14"/>recte iudicat ille qui didicit scientiam moralem:
+<lb ed="#L" n="15"/>sed per quandam connaturalitatem ad ipsa recte
+<lb ed="#L" n="16"/>iudicat de eis ille qui habet habitum castitatis.
+<lb ed="#L" n="17"/>Sic igitur circa res divinas ex rationis 
+inquisi<lb break="no" ed="#L" n="18"/>tione rectum iudicium habere pertinet ad 
+sapien<lb break="no" ed="#L" n="19"/>tiam quae est virtus intellectualis: sed rectum
+<lb ed="#L" n="20"/>iudicium habere de eis secundum quandam 
+con<lb break="no" ed="#L" n="21"/>naturalitatem ad ipsa pertinet ad sapientiam
+<lb ed="#L" n="22"/>secundum quod donum est Spiritus Sancti : sicut
+<lb ed="#L" n="23"/>Dionysius dicit, in i cap. de Div. Nom., quod
+<lb ed="#L" n="24"/>Hierotheus est perfectus in divinis non solum
+<lb ed="#L" n="25"/>discens, sed et patiens divina. Huiusmodi autem
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="26"/>compassio sive connaturalitas ad res divinas fit
+<lb ed="#L" n="27"/>per caritatem, quae quidem unit nos Deo: 
+se<lb break="no" ed="#L" n="28"/>cundum illud lad Cor. v1: Qui adhaeret Deo
+<lb ed="#L" n="29"/>unus spiritus est. Sic igitur sapientia quae est 
+do<lb break="no" ed="#L" n="30"/>num causam quidem habet in voluntate, scilicet
+<lb ed="#L" n="31"/>caritatem: sed essentiam habet in intellectu, cuius
+<lb ed="#L" n="32"/>actus est recte iudicare, ut supra habitum est.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e563">
+                  <lb ed="#L" n="33"/>AD PRIMUM ERGO DICENDUM quod. Augustinus 
+lo<lb break="no" ed="#L" n="34"/>quitur de sapientia quantum ad suam causam.
+<lb ed="#L" n="35"/>Ex qua etiam sumitur nomen sapientiae, 
+secun<lb break="no" ed="#L" n="36"/>dum quod saporem quendam importat.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e574">
+                  <lb ed="#L" n="37"/>Unde patet responsio ad secundum. Si tamen
+<lb ed="#L" n="38"/>iste sit intellectus illius auctoritatis. Quod. non
+<lb ed="#L" n="39"/>videtur: quia talis. expositio non convenit nisi
+<lb ed="#L" n="40"/>secundum nomen quod habet sapientia in latina
+<lb ed="#L" n="41"/>lingua. In graeco autem non competit; et forte
+<lb ed="#L" n="42"/>nec in aliis linguis. Unde potius videtur nomen
+<lb ed="#L" n="43"/>sapientiae ibi accipi. pro eius fama, qua a 
+cun<lb break="no" ed="#L" n="44"/>ctis commendatur.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e594">
+                  <lb ed="#L" n="45"/>AD TERTIUM DICENDUM quod intellectus habet
+<lb ed="#L" n="46"/>duos actus: scilicet percipere, et iudicare. Ad
+<lb ed="#L" n="47"/>quorum primum ordinatur donum intellectus: ad
+<lb ed="#L" n="48"/>secundum autem, secundum rationes divinas, 
+do<lb break="no" ed="#L" n="49"/>num sapientiae; sed secundum rationes 
+huma<lb break="no" ed="#L" n="50"/>nas; donum scientiae.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1504-Dd1e611"><!-- p2p2-q45a3 -->
+               <head xml:id="TAca84-d1e1504-Hd1e614">Articulus 3</head>
+               <head xml:id="TAca84-d1e1504-Hd1e616" type="question-title"/>
+               <p xml:id="TAca84-d1e1504-d1e618">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="70"/>ARTICULUS TERTIUS
+<lb ed="#L" n="71"/>UTRUM SAPIENTIA SIT SPECULATIVA TANTUM AN ETIAM PRAGTICA
+</p>
+               <p xml:id="TAca84-d1e1504-d1e627">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="72"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="73"/>sapientia non sit practica, sed. 
+specu<lb break="no" ed="#L" n="74"/>lativa tantum. Donum enim sapientiae
+<lb ed="#L" n="75"/>est excellentius quam sapientia 
+secun<lb break="no" ed="#L" n="76"/>dum quod: est intellectualis virtus. Sed 
+sapien<lb break="no" ed="#L" n="77"/>tia secundum quod est intellectualis virtus est
+<lb ed="#L" n="78"/>speculativa tantum. Ergo multo magis sapientia
+<lb ed="#L" n="79"/>quae est donum est speculativa, et non practica.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e649">
+                  <lb ed="#L" n="80"/>2. PRAETEREA, practicus intellectus est circa
+<lb ed="#L" n="81"/>operabilia, quae sunt contingentia. Sed sapientia
+<lb ed="#L" n="82"/>est circa divina, quae sunt aeterna et 
+necessa<lb break="no" ed="#L" n="83"/>ria. Ergo sapientia non potest esse practica.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e661">
+                  <lb ed="#L" n="84"/>3. PRAETEREA, Gregorius dicit, in VI Moral.,
+<lb ed="#L" n="85"/>quod in contemplatione principium, quod Deus
+<lb ed="#L" n="86"/>est, quaeritur: in operatione autem sub gravi ne-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="87"/>cessitatis fasce laboratur. Sed ad sapientiam 
+per<lb break="no" ed="#L" n="88"/>tinet divinorum visio, ad quam non pertinet sub
+<lb ed="#L" n="89"/>aliquo fasce laborare: quia ut dicitur Sap. vui,
+<lb ed="#L" n="90"/>non habet amariludinem  conversalio. eius, nec
+<lb ed="#L" n="91"/>taedium. convictus illius. Ergo sapientia est 
+con<lb break="no" ed="#L" n="92"/>templativa tantum, non autem practica sive activa.
+<lb ed="#L" n="93"/>SED coNTRA EST quod dicitur ad. Coloss. 1v: In
+<lb ed="#L" n="94"/>sapientia ambulate ad eos qui foris sunt. Hoc
+<lb ed="#L" n="95"/>autem pertinet ad actionem. Ergo sapientia non
+<lb ed="#L" n="96"/>solum est speculativa, sed. etiam practica.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e694">
+                  <lb ed="#L" n="97"/>RESPONDEO DICENDUM quod, sicut Augustinus
+<lb ed="#L" n="98"/>dicit, in XII de Trin., superior pars rationis
+<lb ed="#L" n="99"/>sapientiae deputatur, inferior autem scientiae.
+<lb ed="#L" n="100"/>Superior autem ratio, ut ipse in eodem libro
+<lb ed="#L" n="101"/>dicit, intendit rationibus supernis, scilicet divinis,
+<pb ed="#L" n="342"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>et conspiciendis et consulendis:. conspiciendis 
+qui<lb break="no" ed="#L" n="2"/>dem, secundum quod. divina in seipsis 
+contem<lb break="no" ed="#L" n="3"/>platur; consulendis autem, secundum quod. per
+<lb ed="#L" n="4"/>divina. iudicat de humanis ?, per divinas regulas
+<lb ed="#L" n="5"/>dirigens actus humanos. Sic igitur sapientia, 
+se<lb break="no" ed="#L" n="6"/>cundum quod est donum, non solum est 
+specu<lb break="no" ed="#L" n="7"/>lativa, sed etiam practica.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e727">
+                  <lb ed="#L" n="8"/>AD PRIMUM ERGO DICENDUM quod quanto aliqua
+<lb ed="#L" n="9"/>virtus est altior, tanto ad plura se extendit; ut
+<lb ed="#L" n="10"/>habetur in libro de Causis. Unde ex hoc ipso
+<lb ed="#L" n="11"/>quod sapientia quae est donum . est. excellentior
+<lb ed="#L" n="12"/>quam sapientia quae est virtus intellectualis, utpote
+<lb ed="#L" n="13"/>magis de propinquo Deum attingens, per  
+quan<lb break="no" ed="#L" n="14"/>dam scilicet unionem animae ad ipsum; habet
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="15"/>quod non solum. dirigat in contemplatione, sed
+<lb ed="#L" n="16"/>etiam in actione.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e751">
+                  <lb ed="#L" n="17"/>AD SECUNDUM DICENDUM quod divina in se quidem
+<lb ed="#L" n="18"/>sunt necessaria et aeterna: sunt tamen regulae
+<lb ed="#L" n="19"/>contingentium, quae humanis actibus subsunt. .
+</p>
+               <p xml:id="TAca84-d1e1504-d1e760">
+                  <lb ed="#L" n="20"/>AD TERTIUM DICENDUM quod prius est considerare
+<lb ed="#L" n="21"/>aliquid in seipso quam. secundum quod. ad 
+alte<lb break="no" ed="#L" n="22"/>rum comparatur. Unde ad sapientiam per prius
+<lb ed="#L" n="23"/>pertinet contemplatio divinorum, quae est visio
+<lb ed="#L" n="24"/>principii; et posterius dirigere actus humanos 
+se<lb break="no" ed="#L" n="25"/>cundum rationes divinas. Nec tamen in actibus 
+hu<lb break="no" ed="#L" n="26"/>manis ex directione sapientiae provenit amaritudo
+<lb ed="#L" n="27"/>aut labor: sed potius amaritudo propter 
+sapien<lb break="no" ed="#L" n="28"/>tiam vertitur. in chilecdinera, et labor in Mp
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1504-Dd1e783"><!-- p2p2-q45a4 -->
+               <head xml:id="TAca84-d1e1504-Hd1e786">Articulus 4</head>
+               <head xml:id="TAca84-d1e1504-Hd1e788" type="question-title"/>
+               <p xml:id="TAca84-d1e1504-d1e790">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="32"/>ARTICULUS QUARTUS
+<lb ed="#L" n="33"/>UTRUM SAPIENTIA POSSIT: ESSE SINE GRATIA, CUM PECCATO MORTALI
+</p>
+               <p xml:id="TAca84-d1e1504-d1e799">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="34"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="35"/>sapientia possit esse sine gratia, cum
+<lb ed="#L" n="36"/>peccato mortali. De his enim quae 
+cum<lb break="no" ed="#L" n="37"/>peccato mortali haberi non possunt
+<lb ed="#L" n="38"/>praecipue sancti gloriantur: secundum illud 1l ad
+<lb ed="#L" n="39"/>Cor. 1: Gloria nostra haec est, testimonium 
+con<lb break="no" ed="#L" n="40"/>scientiae nostrae. Sed de sapientia non debet
+<lb ed="#L" n="41"/>aliquis gloriari: secundum illud lerem. ix: Non
+<lb ed="#L" n="42"/>glorietur sapiens in sapientia sua. Ergo sapientia
+<lb ed="#L" n="43"/>potest esse sine gratia, cum peccato mortali.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e825">
+                  <lb ed="#L" n="44"/>2. PRAETEREA, sapientia importat cognitionem
+<lb ed="#L" n="45"/>divinorum, ut dictum est. Sed aliqui cum 
+pec<lb break="no" ed="#L" n="46"/>cato mortali possunt habere cognitionem 
+verita<lb break="no" ed="#L" n="47"/>tis divinae: secundum illud Rom. 1: Veritatem
+<lb ed="#L" n="48"/>Dei in iniustitia detinent. Ergo. sapientia potest
+<lb ed="#L" n="49"/>esse cum peccato mortali.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e842">
+                  <lb ed="#L" n="50"/>3. PRAETEREA, Augustinus dicit, in XV de
+<lb ed="#L" n="51"/>Trin., de caritate loquens: Nullum est isto. Dei
+<lb ed="#L" n="52"/>dono excellentius : solum. est quod. dividit. inter
+<lb ed="#L" n="53"/>filios regni aeterni et filios perditionis aeternae.
+<lb ed="#L" n="54"/>Sed sapientia differt a caritate. Ergo non: dividit
+<lb ed="#L" n="55"/>inter filios regni et filios perditionis. Ergo: potest
+<lb ed="#L" n="56"/>esse cum peccato mortali.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e860">
+                  <lb ed="#L" n="57"/>SED coNTRA EsT quod dicitur .Sap. r: Zn 
+ma<lb break="no" ed="#L" n="58"/>levolam animam non introibit sapientia, nec habi«
+<lb ed="#L" n="59"/>tabit in corpore subdito: peccatis.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e869">
+                  <lb ed="#L" n="60"/>RESPONDEO: DICENDUM quod sapientia: quae est
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="61"/>donum Spiritus Sancti, sicut dictum est, facit
+<lb ed="#L" n="62"/>rectitudinem iudicii circa res divinas, vel per 
+re<lb break="no" ed="#L" n="63"/>gulas divinas de aliis, ex quadam connaturalitate 
+<lb ed="#L" n="64"/>sive unione ad divina. Quae quidem est per ca- .
+<lb ed="#L" n="65"/>ritatem, ut dictum est. Et ideo sapientia de
+<lb ed="#L" n="66"/>loquimur praesupponit caritatem. Caritas autem -
+<lb ed="#L" n="67"/>non potest esse cum peccato mortali, ut ex 
+su<lb break="no" ed="#L" n="68"/>pradictis patet. Unde relinquitur quod. 
+sapien<lb break="no" ed="#L" n="69"/>tia de qua equum, gon, PoIS8l esse, cum. 
+iBee<lb break="no" ed="#L" n="70"/>cato mortali.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e898">
+                  <lb ed="#L" n="71"/>AD PRIMUM ERGO DICENDUM qued illud. 
+intelligen<lb break="no" ed="#L" n="72"/>dum est de sapientia in rebus mundanis; sive -
+<lb ed="#L" n="73"/>etiam in. rebus divinis per rationes humanas. De
+<lb ed="#L" n="74"/>qua sancti non gloriantur, sed eam se fatentur .
+<lb ed="#L" n="75"/>non habere: secundum illud. Prov. xxx: 
+Sapien<lb break="no" ed="#L" n="76"/>tia hominum non est mecum. Gloriantur autem 
+<lb ed="#L" n="77"/>de sapientia divina: secundum illud I ad Cor. 1: 
+<lb ed="#L" n="78"/>Factus est nobis sapientia a Deo.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e918">
+                  <lb ed="#L" n="79"/>AD SECUNDUM DICENDUM quod: ratio illa 
+proce<lb break="no" ed="#L" n="80"/>dit. de cognitione divinorum quae habetur.
+<lb ed="#L" n="81"/>studium. et inquisitionem. rationis. Quae po
+<lb ed="#L" n="82"/>haberi. cum peccato mortali: non. autem illa.
+<lb ed="#L" n="83"/>sapientia de qua loquimur.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e931">
+                  <lb ed="#L" n="84"/>AD TERTIUM DICENDUM quod sapientia, anis di
+<lb ed="#L" n="85"/>ferat a. caritate, tamen praesupponit. eam; et. «
+<lb ed="#L" n="86"/>hoc ipso dividit inter illos perditionis et regni.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1504-Dd1e941"><!-- p2p2-q45a5 -->
+               <head xml:id="TAca84-d1e1504-Hd1e944">Articulus 5</head>
+               <head xml:id="TAca84-d1e1504-Hd1e946" type="question-title"/>
+               <p xml:id="TAca84-d1e1504-d1e948">
+                  <pb ed="#L" n="343"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUINTUS
+<lb ed="#L" n="2"/>UTRUM SAPIENTIA SIT IN OMNIBUS HABENTIBUS GRATIAM
+</p>
+               <p xml:id="TAca84-d1e1504-d1e959">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>sapientia non sit in omnibus 
+habenti<lb break="no" ed="#L" n="5"/>bus gratiam. Maius enim est 
+sapien<lb break="no" ed="#L" n="6"/>tiam habere. quam sapientiam audire.
+<lb ed="#L" n="7"/>Sed solum perfectorum est Mp audire :
+<lb ed="#L" n="8"/>secundum illud I ad Cor. w: Sapientiam 
+loqui<lb break="no" ed="#L" n="9"/>mur inter perfectos. Cum ergo non omnes 
+haben<lb break="no" ed="#L" n="10"/>tes gratiam sint perfecti, videtur quod multo 
+mi<lb break="no" ed="#L" n="11"/>nus omnes habentes gratiam sapientiam habeant.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e983">
+                  <lb ed="#L" n="12"/>2. PRAETEREA, sapientis est ordinare; ut 
+Phi<lb break="no" ed="#L" n="13"/>losophus dicit, in principio Metaphys. Et lac.
+<lb ed="#L" n="14"/>n dicitur quod est iudicans sine simulatione.
+<lb ed="#L" n="15"/>Sed non omnium habentium gratiam est de aliis
+<lb ed="#L" n="16"/>iudicare aut alios ordinare, sed solum 
+praelato<lb break="no" ed="#L" n="17"/>rum. Ergo non omnium habentium gratiam est
+<lb ed="#L" n="18"/>habere sapientiam.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1002">
+                  <lb ed="#L" n="19"/>3. PRAETEREA, sapientia datur contra stultitiam ;
+<lb ed="#L" n="20"/>ut Gregorius dicit, in II Moral. Sed multi 
+ha<lb break="no" ed="#L" n="21"/>bentes gratiam sunt naturaliter stulti: ut patet
+<lb ed="#L" n="22"/>de amentibus baptizatis, vel qui postmodum sine
+<lb ed="#L" n="23"/>peccato in amentiam incidunt. Ergo non in
+<lb ed="#L" n="24"/>omnibus habentibus gratiam est sapientia.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1018">
+                  <lb ed="#L" n="25"/>SED CONTRA EST quod quicumque qui est sine
+<lb ed="#L" n="26"/>peccato mortali diligitur a Deo: quia caritatem
+<lb ed="#L" n="27"/>habet, qua Deum diligit; Deus autem diligentes
+<lb ed="#L" n="28"/>se diligit, ut dicitur Prov. vim. Sed Sap. vir
+<lb ed="#L" n="29"/>dicitur quod neminem diligit Deus nisi eum qui
+<lb ed="#L" n="30"/>cum. sapientia inhabitat. Ergo in omnibus 
+haben<lb break="no" ed="#L" n="31"/>tibus gratiam, sine peccato mortali PEARUUS,
+<lb ed="#L" n="32"/>est sapientia.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1038">
+                  <lb ed="#L" n="33"/>RESPONDEO DICENDUM quod sapientia de qua 
+lo<lb break="no" ed="#L" n="34"/>quimur, sicut dictum est, importat quandam 
+re<lb break="no" ed="#L" n="35"/>ctitudinem iudicii circa divina et conspicienda et
+<lb ed="#L" n="36"/>consulenda. Et quantum ad utrumque, ex unione
+<lb ed="#L" n="37"/>ad divina secundum diversos gradus aliqui 
+sapien<lb break="no" ed="#L" n="38"/>tiam sortiuntur. Quidam enim tantum sortiuntur
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="39"/>de recto iudicio, tam in contemplatione 
+divino<lb break="no" ed="#L" n="40"/>rum quam etiam in ordinatione rerum 
+humana<lb break="no" ed="#L" n="41"/>rum secundum divinas regulas, quantum est 
+ne<lb break="no" ed="#L" n="42"/>cessarium ad salutem. Et hoc nulli deest sine
+<lb ed="#L" n="43"/>peccato mortali existenti per gratiam gratum 
+fa<lb break="no" ed="#L" n="44"/>cientem: quia si natura non deficit in 
+necessa<lb break="no" ed="#L" n="45"/>riis, multo minus gratia. Unde dicitur I Ioan. i1:
+<lb ed="#L" n="46"/>Unctio docet vos de omnibus.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1073">
+                  <lb ed="#L" n="47"/>Quidam autem altiori gradu percipiunt 
+sa<lb break="no" ed="#L" n="48"/>pientiae donum, et quantum ad 
+contemplatio<lb break="no" ed="#L" n="49"/>nem divinorum, inquantum scilicet altiora 
+quae<lb break="no" ed="#L" n="50"/>dam mysteria et cognoscunt et aliis manifestare
+<lb ed="#L" n="51"/>possunt; et etiam quantum ad directionem 
+huma<lb break="no" ed="#L" n="52"/>norum secundum regulas divinas, inquantum 
+pos<lb break="no" ed="#L" n="53"/>sunt secundum eas non solum seipsos, sed etiam
+<lb ed="#L" n="54"/>alios ordinare. Et iste gradus sapientiae non est
+<lb ed="#L" n="55"/>communis omnibus habentibus gratiam gratum
+<lb ed="#L" n="56"/>facientem, sed magis pertinet ad gratias gratis
+<lb ed="#L" n="57"/>datas, quas Spiritus Sanctus distribuit prout vult,
+<lb ed="#L" n="58"/>secundum illud I ad Cor. xu: Alii datur per
+<lb ed="#L" n="59"/>Spiritum sermo sapientiae, etc.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1104">
+                  <lb ed="#L" n="60"/>AD PRIMUM ERGO DICENDUM quod Apostolus 
+lo<lb break="no" ed="#L" n="61"/>quitur ibi de sapientia secundum quod se 
+exten<lb break="no" ed="#L" n="62"/>dit ad occulta mysteria divinorum: sicut et 
+ibi<lb break="no" ed="#L" n="63"/>dem dicitur ^: Loquimur Dei sapientiam in 
+my<lb break="no" ed="#L" n="64"/>sterio absconditam.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1117">
+                  <lb ed="#L" n="65"/>AD SECUNDUM DICENDUM quod quamvis ordinare
+<lb ed="#L" n="66"/>alios homines et de eis iudicare pertineat ad solos
+<lb ed="#L" n="67"/>praelatos, tamen ordinare proprios actus et de
+<lb ed="#L" n="68"/>eis iudicare pertinet ad unumquemque; «ut patet
+<lb ed="#L" n="69"/>per Dionysium, in epistola ad Demophilum.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1131">
+                  <lb ed="#L" n="70"/>AD TERTIUM DICENDUM quod amentes baptizati,
+<lb ed="#L" n="71"/>sicut et pueri, habent quidem habitum 
+sapien<lb break="no" ed="#L" n="72"/>tiae, secundum quod est donum Spiritus Sancti:
+<lb ed="#L" n="73"/>sed non habent actum, propter impedimentum
+<lb ed="#L" n="74"/>corporale quo impeditur in eis usus rationis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1504-Dd1e1145"><!-- p2p2-q45a6 -->
+               <head xml:id="TAca84-d1e1504-Hd1e1148">Articulus 6</head>
+               <head xml:id="TAca84-d1e1504-Hd1e1150" type="question-title"/>
+               <p xml:id="TAca84-d1e1504-d1e1152">
+                  <pb ed="#L" n="344"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SEXTUS
+<lb ed="#L" n="2"/>UTRUM SEPTIMA BEATITUDO RESPONDEAT DONO SAPIENTIAE
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1163">
+                  <lb ed="#L" n="3"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>septima beatitudo non respondeat dono
+<lb ed="#L" n="5"/>sapientiae. Septima enim beatitudo est: 
+<lb ed="#L" n="6"/>Beati pacifici: quoniam filii Dei 
+voca<lb break="no" ed="#L" n="7"/>buntur. Utrumque autem horum pertinet 
+im<lb break="no" ed="#L" n="8"/>mediate ad caritatem. Nam de pace dicitur in
+<lb ed="#L" n="9"/>Psalm.: Pax multa. diligentibus legem. tuam.
+<lb ed="#L" n="10"/>Et ut Apostolus dicit, Rom. v, caritas. Dei
+<lb ed="#L" n="11"/>diffusa esl in cordibus nostris per. Spiritum 
+San<lb break="no" ed="#L" n="12"/>ctum, qui datus est nobis; qui quidem est. 
+Spi<lb break="no" ed="#L" n="13"/>ritus adoptionis filiorum, in quo clamamus, Abba,
+<lb ed="#L" n="14"/>Pater, ut. dicitur Rom. vii. Ergo septima 
+bea<lb break="no" ed="#L" n="15"/>titudo magis debet attribui caritati quam. 
+sapien<lb break="no" ed="#L" n="16"/>tiae. 
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1196">
+                  <lb ed="#L" n="17"/>2. PRAETEREA, unumquodque magis 
+manifesta<lb break="no" ed="#L" n="18"/>tur per proximum effectum quam per remotum.
+<lb ed="#L" n="19"/>Sed. proximus effectus sapientiae videtur esse 
+ca<lb break="no" ed="#L" n="20"/>ritas, secundum illud Sap. vu: Per nationes in
+<lb ed="#L" n="21"/>animas sanctas se transfert: amicos Dei et 
+prophe<lb break="no" ed="#L" n="22"/>las conslituit: pax autem et adoptio filiorum 
+vi<lb break="no" ed="#L" n="23"/>dentur esse remoti effectus, cum procedant ex
+<lb ed="#L" n="24"/>caritate, ut dictum est. Ergo beatitudo 
+sapien<lb break="no" ed="#L" n="25"/>tiae respondens deberet magis determinari 
+secun<lb break="no" ed="#L" n="26"/>dum dilectionem caritatis quam secundum pacem.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1221">
+                  <lb ed="#L" n="27"/>3. PRAETEREA, Iac. III dicitur: Quae desursum
+<lb ed="#L" n="28"/>est sapientia. primo 9 quidem pudica est, deinde
+<lb ed="#L" n="29"/>autem pacifica, modesta, suadibilis, bonis. 
+consen<lb break="no" ed="#L" n="30"/>liens, plena. misericordia .et fructibus bonis, 
+iudi<lb break="no" ed="#L" n="31"/>cans sine. simulatione. Beatitudo ergo 
+correspon<lb break="no" ed="#L" n="32"/>dens sapientiae .non. magis debuit accipi 
+secun<lb break="no" ed="#L" n="33"/>dum. pacem. quam secundum alios effectus 
+cae<lb break="no" ed="#L" n="34"/>lestis sapientiae. 
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1241">
+                  <lb ed="#L" n="35"/>SED CONTRA EST quod Augustinus dicit, in libro
+<lb ed="#L" n="36"/>de Serm. Dom. in. Monte, quod sapientia 
+con<lb break="no" ed="#L" n="37"/>venit pacificis, in. quibus nullus motus est rebellis,
+<lb ed="#L" n="38"/>sed obtemperans rationi.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1252">
+                  <lb ed="#L" n="39"/>RESPONDEO DICENDUM quod. septima beatitudo
+<lb ed="#L" n="40"/>congrue adaptatur dono sapientiae et quantum
+<lb ed="#L" n="41"/>ad meritum et quantum ad. praemium. Ad 
+me<lb break="no" ed="#L" n="42"/>ritum quidem pertinet quod dicitur: Beati 
+paci<lb break="no" ed="#L" n="43"/>fici. Pacifici autem dicuntur quasi pacem 
+facien<lb break="no" ed="#L" n="44"/>tes vel in seipsis vel etiam in aliis. Quorum
+<lb ed="#L" n="45"/>utrumque contingit per hoc quod ea in quibus
+<lb ed="#L" n="46"/>pax constituitur ad debitum ordinem rediguntur:
+<lb ed="#L" n="47"/>nam pax est iranquillitas ordinis, ut Augustinus
+<lb ed="#L" n="48"/>dicit, XIX. de. Civ. Dei. Ordinare. autem 
+per<lb break="no" ed="#L" n="49"/>tinet ad sapientiam; ut patet per Philosphum, in
+<lb ed="#L" n="50"/>principio Metaphys. Et ideo esse pacificum 
+con<lb break="no" ed="#L" n="51"/>venienter attribuitur sapientiae.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1283">
+                  <lb ed="#L" n="52"/>Ad praemium autem pertinet quod dicitur:
+<lb ed="#L" n="53"/>Fili Dei vocabuntur. Dicuntur autem aliqui filii
+<lb ed="#L" n="54"/>Dei inquantum participant similitudinem Filii uni-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="55"/>geniti et naturalis, secundum illud Rom. vui:
+<lb ed="#L" n="56"/>Quos. praescirit conformes fieri imaginis Filii sui:
+<lb ed="#L" n="57"/>qui quidem, est sapientia genita. Et ideo 
+perci<lb break="no" ed="#L" n="58"/>piendo donum. sapientiae, ad. Dei filiationem
+<lb ed="#L" n="59"/>homo pertingit.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1305">
+                  <lb ed="#L" n="60"/>AD PRIMUM ERGO DICENDUM quod caritatis est 
+ha<lb break="no" ed="#L" n="61"/>bere pacem: sed facere pacem est sapientiae 
+or<lb break="no" ed="#L" n="62"/>dinantis. - Similiter etiam Spiritus Sanctus 
+intan<lb break="no" ed="#L" n="63"/>tum dicitur Spiritus adoptionis inquantum. per eum
+<lb ed="#L" n="64"/>datur nobis similitudo. Filii naturalis, qui. est 
+ge<lb break="no" ed="#L" n="65"/>nita. sapientia.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1321">
+                  <lb ed="#L" n="66"/>AD SECUNDUM DICENDUM quod. illud est 
+intelligen<lb break="no" ed="#L" n="67"/>dum de Sapientia increata, quae prima se 
+no<lb break="no" ed="#L" n="68"/>bis unit per donum caritatis, et ex hoc revelat
+<lb ed="#L" n="69"/>nobis mysteria, quorum cognitio. est sapientia 
+in<lb break="no" ed="#L" n="70"/>fusa. Et ideo sapientia infusa, quae est donum,
+<lb ed="#L" n="71"/>non est causa caritatis, sed magis effectus.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1338">
+                  <lb ed="#L" n="72"/>AD TERTIUM .DICENDUM quod, sicut iam dictum
+<lb ed="#L" n="73"/>est, ad sapientiam, secundum quod est. donum,
+<lb ed="#L" n="74"/>pertinet non. solum contemplari divina, sed etiam:
+<lb ed="#L" n="75"/>regulare humanos actus. In qua quidem directione
+<lb ed="#L" n="76"/>primo occurrit remotio a malis quae 
+contrarian<lb break="no" ed="#L" n="77"/>tur sapientiae: unde et timor dicitur esse initium.
+<lb ed="#L" n="78"/>sapientiae, inquantum. facit recedere a malis.
+<lb ed="#L" n="79"/>Ultimum autem est, sicut finis, quod. omnia ad
+<lb ed="#L" n="80"/>debitum. ordinem redigantur: quod: pertinet ad.
+<lb ed="#L" n="81"/>rationem . pacis. Et ideo convenienter lacobus
+<lb ed="#L" n="82"/>dicit quod sapientia quae desursum est, quae est
+<lb ed="#L" n="83"/>donum Spiritus Sancti, primum est pudica, quasi
+<lb ed="#L" n="84"/>vitans corruptelas peccati; deinde autem. pacifica,
+<lb ed="#L" n="85"/>quod est finalis effectus sapientiae, propter quod
+<lb ed="#L" n="86"/>ponitur beatitudo.
+</p>
+               <p xml:id="TAca84-d1e1504-d1e1373">
+                  <lb ed="#L" n="87"/>Iam vero omnia quae sequuntur manifestant
+<lb ed="#L" n="88"/>ea per quae sapientia ad pacem perducit, et 
+or<lb break="no" ed="#L" n="89"/>dine congruo. Nam homini per pudicitiam a 
+cor<lb break="no" ed="#L" n="90"/>ruptelis recedenti primo. occurrit quod quantum
+<lb ed="#L" n="91"/>ex se potest, modum in omnibus teneat: et 
+quan<lb break="no" ed="#L" n="92"/>tum ad hoc dicitur, modesta. Secundo, ut in his
+<lb ed="#L" n="93"/>in quibus ipse sibi non sufficit, aliorum monitis
+<lb ed="#L" n="94"/>acquiescat: et quantum ad hoc subdit, suadibilis.
+<lb ed="#L" n="95"/>Et haec duo pertinent ad hoc quod homo 
+con<lb break="no" ed="#L" n="96"/>sequatur pacem in seipso. - Sed ulterius, ad hoc
+<lb ed="#L" n="97"/>quod homo sit pacificus etiam. aliis, primo 
+requi<lb break="no" ed="#L" n="98"/>ritur ut bonis eorum non repugnet: et hoc est
+<lb ed="#L" n="99"/>quod dicit, bonis consentiens. Secundo, quod 
+de<lb break="no" ed="#L" n="100"/>fectibus proximi et compatiatur in affectu et 
+sub<lb break="no" ed="#L" n="101"/>veniat in. effectu; et hoc est quod dicitur, plena.
+<lb ed="#L" n="102"/>misericordia et fructibus bonis. "Tertio requiritur
+<lb ed="#L" n="103"/>ut caritative emendare peccata satagat: et hoc
+<lb ed="#L" n="104"/>est quod dicit, zudicans sine simulatione, ne 
+sci<lb break="no" ed="#L" n="105"/>licet, correctionem praetendens, odium 
+inten<lb break="no" ed="#L" n="106"/>dat explere.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

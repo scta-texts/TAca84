@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 17</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 17</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="124"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1360"><!-- p2p2-q17 -->
+            <head xml:id="TAca84-d1e1360-Hd1e101">Quaestio 17</head>
+            <head xml:id="TAca84-d1e1360-Hd1e103" type="question-title">De spe</head>
+            <p xml:id="TAca84-d1e1360-d1e106">
+               <pb ed="#L" n="124"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO DECIMASEPTIMA
+<lb ed="#L" n="2"/>DE SPE
+<lb ed="#L" n="3"/>IN OCTO ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1360-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>Consequenter post fidem considerandum est 
+<lb ed="#L" n="5"/>de spe. Et primo, de ipsa spe; secundo, 
+<lb ed="#L" n="6"/>de dono timoris; tertio, de vitiis oppositis
+<lb ed="#L" n="7"/>quarto, de praeceptis ad hoc pertinentibus. Circa
+<lb ed="#L" n="8"/>primum occurrit primo consideratio de ipse spe
+<lb ed="#L" n="9"/>secundo, de subiecto eius.
+</p>
+            <p xml:id="TAca84-d1e1360-d1e137">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="10"/>Circa primum quaeruntur octo.
+<lb ed="#L" n="11"/>Primo: utrum spes sit virtus.
+<lb ed="#L" n="12"/>Secundo: utrum obiectum eius sit beatitudo
+<lb ed="#L" n="13"/>aeterna.
+<cb ed="#L" n="d"/>
+               <lb ed="#L" n="14"/>Tertio: utrum unus homo possit sperare 
+bea<lb break="no" ed="#L" n="15"/>titudinem alterius per virtutem spei.
+<lb ed="#L" n="16"/>Quarto: utrum homo licite possit sperare in
+<lb ed="#L" n="17"/>homine.
+<lb ed="#L" n="18"/>Quinto: utrum. spes. sit. virtus. theologica.
+<lb ed="#L" n="19"/>Sexto: de distinctione eius ab aliis virtutibus
+<lb ed="#L" n="20"/>theologicis.
+<lb ed="#L" n="21"/>Septimo: de ordine eius ad fidem.
+<lb ed="#L" n="22"/>Octavo: de ordine eius ad caritatem.
+</p>
+            <div xml:id="TAca84-d1e1360-Dd1e173"><!-- p2p2-q17a1 -->
+               <head xml:id="TAca84-d1e1360-Hd1e176">Articulus 1</head>
+               <head xml:id="TAca84-d1e1360-Hd1e178" type="question-title">Utrum spes sit virtus</head>
+               <p xml:id="TAca84-d1e1360-d1e181">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="23"/>ARTICULUS PRIMUS
+<lb ed="#L" n="24"/>UTRUM SPES SIT VIRTUS
+</p>
+               <p xml:id="TAca84-d1e1360-d1e190">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="25"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="26"/>spes non sit virtus. Virtute enim nullus
+<lb ed="#L" n="27"/>male utitur; ut dicit Augustinus, in libro
+<lb ed="#L" n="28"/>Nade Lib. Arb. Sed spe aliquis male
+<lb ed="#L" n="29"/>utitur: quia circa passionem spei contingit esse
+<lb ed="#L" n="30"/>medium et extrema, sicut et circa alias passiones.
+<lb ed="#L" n="31"/>Ergo spes non est virtus.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e210">
+                  <lb ed="#L" n="32"/>2. PRAETEREA, nulla virtus procedit ex meritis:
+<lb ed="#L" n="33"/>quia virtutem Deus in nobis sine nobis operatur,
+<lb ed="#L" n="34"/>ut Augustinus dicit. Sed spes est ex gratia et
+<lb ed="#L" n="35"/>meritis proveniens; ut Magister dicit, xxvi dist. 
+<lb ed="#L" n="36"/>III lib. Sent. Ergo spes non est virtus. 
+</p>
+               <p xml:id="TAca84-d1e1360-d1e224">
+                  <lb ed="#L" n="37"/>3. PRAETEREA, virfus est dispositio perfecti ut
+<lb ed="#L" n="38"/>dicitur in VII Physic. Spes autem est 
+disposi<lb break="no" ed="#L" n="39"/>tio imperfecti: scilicet eius qui non habet id quod
+<lb ed="#L" n="40"/>sperat. Ergo spes non est virtus.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e235">
+                  <lb ed="#L" n="41"/>SEp cowTRA EsT quod Gregorius, in I Moral.,
+<lb ed="#L" n="42"/>dicit quod per, tres filias Iob significantur hae  
+<lb ed="#L" n="43"/>tres virtutes, fides, spes, caritas. Ergo spes est
+<lb ed="#L" n="44"/>virtus.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e246">
+                  <lb ed="#L" n="45"/>REsPONDEO DICENDUM quod, secundum 
+Philoso<lb break="no" ed="#L" n="46"/>phum, in II. Ethic., virtus uniuscuiusque rei est
+<lb ed="#L" n="47"/>quae bonum facit habentem et opus eius bonum
+<lb ed="#L" n="48"/>reddit. Oportet igitur, ubicumque invenitur aliquis
+<lb ed="#L" n="49"/>actus hominis bonus, quod respondeat alicui 
+vir<lb break="no" ed="#L" n="50"/>tuti humanae. In omnibus autem regulatis et 
+men<lb break="no" ed="#L" n="51"/>suratis bonum consideratur per hoc quod aliquid ?
+<lb ed="#L" n="52"/>propriam regulam attingit: sicut dicimus vestem
+<lb ed="#L" n="53"/>esse bonam quae nec excedit nec deficit a 
+de<lb break="no" ed="#L" n="54"/>bita mensura. Humanorum autem actuum, sicut
+<lb ed="#L" n="55"/>supra dictum est, duplex est mensura: una 
+qui<lb break="no" ed="#L" n="56"/>dem proxima et homogenea, scilicet ratio; alia
+<lb ed="#L" n="57"/>autem est suprema et excedens, scilicet Deus. Et
+<lb ed="#L" n="58"/>ideo omnis actus humanus attingens ad rationem
+<lb ed="#L" n="59"/>aut ad ipsum Deum est bonus. Actus autem spei  
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="60"/>de qua nunc loquimur attingit ad Deum. Ut enim
+<lb ed="#L" n="61"/>supra dictum est, cum de passione spei 
+agere<lb break="no" ed="#L" n="62"/>tur, obiectum spei est bonum futurum. arduum
+<lb ed="#L" n="63"/>possibile haberi. Possibile autem est aliquid nobis
+<lb ed="#L" n="64"/>dupliciter: uno modo, per nos ipsos ?; alio modo,
+<lb ed="#L" n="65"/>per alios; ut patet in III Ethic. Inquantum 
+igi<lb break="no" ed="#L" n="66"/>tur speramus aliquid ut possibile nobis per 
+di<lb break="no" ed="#L" n="67"/>vinum auxilium, spes nostra attingit ad ipsum
+<lb ed="#L" n="68"/>Deum, cuius auxilio innititur. Et ideo patet quod
+<lb ed="#L" n="69"/>spes est virtus: cum faciat actum hominis bonum
+<lb ed="#L" n="70"/>et debitam regulam attingentem.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e307">
+                  <lb ed="#L" n="71"/>AD PRIMUM ERGO DICENDUM quod in passionibus
+<lb ed="#L" n="72"/>accipitur medium virtutis per hoc quod 
+attingi<lb break="no" ed="#L" n="73"/>tur ratio recta: et in hoc etiam consistit ratio
+<lb ed="#L" n="74"/>virtutis. Unde etiam et in spe bonum virtutis 
+ac<lb break="no" ed="#L" n="75"/>cipitur secundum quod homo attingit sperando
+<lb ed="#L" n="76"/>regulam debitam, scilicet Deum. Et ideo spe 
+at<lb break="no" ed="#L" n="77"/>tingente Deum nullus potest male uti, sicut nec
+<lb ed="#L" n="78"/>virtute morali attingente rationem: quia hoc ipsum
+<lb ed="#L" n="79"/>quod est attingere est bonus usus virtutis. 
+Quam<lb break="no" ed="#L" n="80"/>vis spes de qua nunc loquimur non sit passio,
+<lb ed="#L" n="81"/>sed habitus mentis, ut infra patebit.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e333">
+                  <lb ed="#L" n="82"/>AD SECUNDUM DICENDUM quod spes dicitur ex
+<lb ed="#L" n="83"/>meritis provenire quantum ad ipsam rem 
+expe<lb break="no" ed="#L" n="84"/>ctatam: prout aliquis sperat se beatitudinem 
+ade<lb break="no" ed="#L" n="85"/>pturum ex gratia et meritis. Vel quantum ad
+<lb ed="#L" n="86"/>actum spei formatae. Ipse autem habitus spei,
+<lb ed="#L" n="87"/>per quam aliquis expectat beatitudinem, non 
+cau<lb break="no" ed="#L" n="88"/>satur ex meritis, sed pure ex gratia.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e351">
+                  <lb ed="#L" n="89"/>AD TERTIUM DICENDUM quod ille qui sperat. est
+<lb ed="#L" n="90"/>quidem imperfectus secundum considerationem
+<lb ed="#L" n="91"/>ad id quod sperat obtinere, quod nondum 
+ha<lb break="no" ed="#L" n="92"/>bet: sed est perfectus quantum ad hoc quod iam
+<lb ed="#L" n="93"/>attingit propriam regulam, scilicet Deum, cuius
+<lb ed="#L" n="94"/>auxilio innititur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1360-Dd1e368"><!-- p2p2-q17a2 -->
+               <head xml:id="TAca84-d1e1360-Hd1e371">Articulus 2</head>
+               <head xml:id="TAca84-d1e1360-Hd1e373" type="question-title">Utrum beatitudo aeterna sit obiectum proprium spei</head>
+               <p xml:id="TAca84-d1e1360-d1e376">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="23"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="24"/>UTRUM BEATITUDO AETERNA SIT OBIECTUM PROPRIUM SPEI
+</p>
+               <p xml:id="TAca84-d1e1360-d1e385">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="25"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="26"/>beatitudo aeterna non sit obiectum 
+pro<lb break="no" ed="#L" n="27"/>prium spei. Illud enim homo non 
+spe<lb break="no" ed="#L" n="28"/>rat quod oomnem animi sui mortum 
+ex<lb break="no" ed="#L" n="29"/>cedit: cum spei actus sit quidam animi motus.
+<lb ed="#L" n="30"/>Sed beatitudo aeterna excedit omnem humani
+<lb ed="#L" n="31"/>animi motum: dicit enim Apostolus, I ad Cor. ii,
+<lb ed="#L" n="32"/>quod in cor hominis non ascendit. Ergo 
+beati<lb break="no" ed="#L" n="33"/>tudo non est proprium obiectum spei.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e409">
+                  <lb ed="#L" n="34"/>2. PRAETEREA, petitio est spei interpretativa:
+<lb ed="#L" n="35"/>dicitur enim in Psalm.: ARevela Domino viam
+<lb ed="#L" n="36"/>tuam et spera in eo, et ipse faciet. Sed homo
+<lb ed="#L" n="37"/>etit a Deo licite non solum beatitudinem 
+aeter<lb break="no" ed="#L" n="38"/>nam, sed etiam bona praesentis vitae tam 
+spiri<lb break="no" ed="#L" n="39"/>tualia quam temporalia, et etiam liberationem a
+<lb ed="#L" n="40"/>malis, quae in beatitudine aeterna non erunt: ut
+<lb ed="#L" n="41"/>patet in Oratione Dominica, Matth. vi. Ergo
+<lb ed="#L" n="42"/>beatitudo aeterna non est proprium obiectum spei.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e432">
+                  <lb ed="#L" n="43"/>3. PRAETEREA, spei obiectum est arduum. Sed
+<lb ed="#L" n="44"/>in comparatione ad hominem multa alia sunt
+<lb ed="#L" n="45"/>ardua quam beatitudo aeterna. Ergo beatitudo
+<lb ed="#L" n="46"/>aeterna non est proprium obiectum spei.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e443">
+                  <lb ed="#L" n="47"/>SED CONTRA EST quod Apostolus dicit,
+<lb ed="#L" n="48"/>Heb. vi: « Habemus spem incedentem, ;dest
+<lb ed="#L" n="49"/>incedere facientem , ad interiora velaminis, :dest
+<lb ed="#L" n="50"/>ad beatitudinem caelestem »; ut Glossa ibidem
+<lb ed="#L" n="51"/>exponit. Ergo obiectum spei est beatitudo aeterna.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e456">
+                  <lb ed="#L" n="52"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="53"/>spes de qua loquimur attingit Deum innitens eius
+<lb ed="#L" n="54"/>auxilio ad consequendum bonum speratum. 
+Opor<lb break="no" ed="#L" n="55"/>tet autem effectum esse causae proportionatum.
+<lb ed="#L" n="56"/>Et ideo bonum quod. proprie et principaliter a
+<lb ed="#L" n="57"/>Deo sperare debemus est bonum infinitum, quod
+<lb ed="#L" n="58"/>proportionatur virtuti Dei adiuvantis: nam 
+infi<lb break="no" ed="#L" n="59"/>nitae virtutis est proprium ad infinitum bonum
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="60"/>perducere. Hoc autem bonum est vita aeterna»
+<lb ed="#L" n="61"/>quae in fruitione ipsius Dei consistit: non enim
+<lb ed="#L" n="62"/>minus aliquid ab eo sperandum est quam sit
+<lb ed="#L" n="63"/>ipse, cum non sit minor eius bonitas, per quam
+<lb ed="#L" n="64"/>bona creaturae communicat, quam eius essentia.
+<lb ed="#L" n="65"/>Et ideo proprium et principale obiectum spei
+<lb ed="#L" n="66"/>est beatitudo aeterna.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e493">
+                  <lb ed="#L" n="67"/>AD PRIMUM ERGO DICENDUM quod beatitudo 
+ae<lb break="no" ed="#L" n="68"/>terna perfecte quidem in cor hominis non 
+ascen<lb break="no" ed="#L" n="69"/>dit, ut scilicet cognosci possit ab homine viatore
+<lb ed="#L" n="70"/>quae et qualis sit: sed secundum communem
+<lb ed="#L" n="71"/>rationem, scilicet boni perfecti, cadere potest in
+<lb ed="#L" n="72"/>apprehensione hominis. Et hoc modo motus spei
+<lb ed="#L" n="73"/>in ipsam consurgit. Unde et signanter Apostolus
+<lb ed="#L" n="74"/>dicit quod spes incedit usque ad interiora 
+vela<lb break="no" ed="#L" n="75"/>minis: quia id quod speramus est nobis adhuc
+<lb ed="#L" n="76"/>velatum.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e517">
+                  <lb ed="#L" n="77"/>AD SECUNDUM DICENDUM quod quaecumque alia
+<lb ed="#L" n="78"/>bona non debemus a Deo petere nisi in ordine
+<lb ed="#L" n="79"/>ad beatitudinem aeternam. Unde et spes 
+princi<lb break="no" ed="#L" n="80"/>paliter quidem respicit beatitudinem aeternam;
+<lb ed="#L" n="81"/>alia vero quae petuntur a Deo respicit 
+secunda<lb break="no" ed="#L" n="82"/>rio, in ordine ad beatitudinem aeternam. Sicut
+<lb ed="#L" n="83"/>etiam fides respicit principaliter Deum, et 
+se<lb break="no" ed="#L" n="84"/>cundario respicit ea quae ad Deum ordinantur,
+<lb ed="#L" n="85"/>ut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e539">
+                  <lb ed="#L" n="86"/>AD TERTIUM DICENDUM quod homini qui anhelat
+<lb ed="#L" n="87"/>ad aliquid magnum, parvum videtur omne aliud
+<lb ed="#L" n="88"/>quod est eo minus. Et ideo homini speranti 
+bea<lb break="no" ed="#L" n="89"/>titudinem aeternam, habito respectu ad istam
+<lb ed="#L" n="90"/>spem, nihil aliud est arduum. Sed habito 
+respe<lb break="no" ed="#L" n="91"/>ctu ad facultatem sperantis, possunt etiam 
+quae<lb break="no" ed="#L" n="92"/>dam alia ei esse ardua. Et secundum hoc 
+eo<lb break="no" ed="#L" n="93"/>rum potest esse spes in ordine ad principale
+<lb ed="#L" n="94"/>obiectum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1360-Dd1e562"><!-- p2p2-q17a3 -->
+               <head xml:id="TAca84-d1e1360-Hd1e565">Articulus 3</head>
+               <head xml:id="TAca84-d1e1360-Hd1e567" type="question-title">Utrum aliquis possit sperare alteri beatitudinem aeternam</head>
+               <p xml:id="TAca84-d1e1360-d1e570">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="16"/>ARTICULUS TERTIUS
+<lb ed="#L" n="17"/>UTRUM ALIQUIS POSSIT SPERARE ALTERI BEATITUDINEM AETERNAM
+</p>
+               <p xml:id="TAca84-d1e1360-d1e579">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="18"/>AD TERTIUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="19"/>aliquis possit sperare alteri 
+beatitudi<lb break="no" ed="#L" n="20"/>nem aeternam. Dicit enim Apostolus, 
+<lb ed="#L" n="21"/>Philipp. 1: -Confidens hoc ipsum, quia 
+<lb ed="#L" n="22"/>qui coepit in vobis opus bonum perficiet usque  
+<lb ed="#L" n="23"/>in diem Christi Iesu. Perfectio autillius diei erit  
+<lb ed="#L" n="24"/>beatitudo aeterna. Ergo aliquis potest alteri 
+spe<lb break="no" ed="#L" n="25"/>rare beatitudinem aeternam. 
+</p>
+               <p xml:id="TAca84-d1e1360-d1e601">
+                  <lb ed="#L" n="26"/>2. PRAETEREA, ea quae a Deo petimus 
+spera<lb break="no" ed="#L" n="27"/>mus obtinere ab eo. Sed a Deo petimus quod  
+<lb ed="#L" n="28"/>alios ad beatitudinem aeternam perducat: 
+secun<lb break="no" ed="#L" n="29"/>dum illud lac. ult.: Orate pro invicem ut 
+sal<lb break="no" ed="#L" n="30"/>vemini. Ergo possumus aliis sperare beatitudinem  
+<lb ed="#L" n="31"/>aeternam. 
+</p>
+               <p xml:id="TAca84-d1e1360-d1e618">
+                  <lb ed="#L" n="32"/>3. PRAETEREA, spes et desperatio sunt de 
+eo<lb break="no" ed="#L" n="33"/>dem. Sed aliquis potest desperare de beatitudine  
+<lb ed="#L" n="34"/>aeterna alicuius: alioquin frustra diceret 
+Augusti<lb break="no" ed="#L" n="35"/>nus, in libro de Verb. Dom., de nemine esse 
+de<lb break="no" ed="#L" n="36"/>sperandum dum vivit. Ergo etiam potest aliquis  
+<lb ed="#L" n="37"/>sperare alteri vitam aeternam. 
+</p>
+               <p xml:id="TAca84-d1e1360-d1e634">
+                  <lb ed="#L" n="38"/>SED CONTRA EST quod Augustinus dicit, in 
+En<lb break="no" ed="#L" n="39"/>chirid., quod spes non est nisi rerum ad eum  
+<lb ed="#L" n="40"/>pertinentium qui earum spem gerere perhibetur.  
+</p>
+               <p xml:id="TAca84-d1e1360-d1e643">
+                  <lb ed="#L" n="41"/>RESPONDEO DICENDUM quod spes potest esse ali- 
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="42"/>cuius dupliciter. Uno quidem modo, absolute:
+<lb ed="#L" n="43"/>et sic est solum boni ardui ad se pertinentis.
+<lb ed="#L" n="44"/>Alio modo, ex praesuppositione alterius: et sic
+<lb ed="#L" n="45"/>potest esse etiam eorum quae ad alium pertinent.
+<lb ed="#L" n="46"/>Ad cuius evidentiam sciendum est quod amor
+<lb ed="#L" n="47"/>et spes in hoc differunt quod amor importat
+<lb ed="#L" n="48"/>quandam unionem amantis ad amatum; spes 
+au<lb break="no" ed="#L" n="49"/>tem importat quendam motum sive protensionem
+<lb ed="#L" n="50"/>appetitus in aliquod bonum arduum. Unio autem
+<lb ed="#L" n="51"/>est aliquorum distinctorum: et ideo amor 
+dire<lb break="no" ed="#L" n="52"/>cte potest respicere alium, quem sibi aliquis unit
+<lb ed="#L" n="53"/>per amorem, habens eum sicut seipsum. Motus
+<lb ed="#L" n="54"/>autem semper est ad proprium terminum 
+pro<lb break="no" ed="#L" n="55"/>portionatum mobili: et ideo spes directe respicit
+<lb ed="#L" n="56"/>proprium bonum, non autem id quod ad alium
+<lb ed="#L" n="57"/>pertinet. Sed praesupposita unione amoris ad 
+al<lb break="no" ed="#L" n="58"/>terum, iam aliquis potest desiderare et sperare
+<lb ed="#L" n="59"/>aliquid alteri sicut sibi. Et secundum hoc aliquis
+<lb ed="#L" n="60"/>potest sperare alteri vitam aeternam, inquantum
+<lb ed="#L" n="61"/>est ei unitus per amorem. Et sicut est eadem
+<lb ed="#L" n="62"/>virtus caritatis qua quis diligit Deum, seipsum et
+<lb ed="#L" n="63"/>proximum, ita etiam est eadem virtus spei qua
+<lb ed="#L" n="64"/>quis sperat sibi ipsi et alii.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e700">
+                  <lb ed="#L" n="65"/>Et per hoc patet responsio ad obiecta.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1360-Dd1e706"><!-- p2p2-q17a4 -->
+               <head xml:id="TAca84-d1e1360-Hd1e709">Articulus 4</head>
+               <head xml:id="TAca84-d1e1360-Hd1e711" type="question-title">Utrum aliquis possit licite sperare in homine</head>
+               <p xml:id="TAca84-d1e1360-d1e714">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="66"/>ARTICULUS QUARTUS
+<lb ed="#L" n="67"/>UTRUM ALIQUIS POSSIT LICITE SPERARE IN HOMINE
+</p>
+               <p xml:id="TAca84-d1e1360-d1e723">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="68"/>AD QUARTUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="69"/>aliquis possit licite sperare in homine. 
+<lb ed="#L" n="70"/>Spei enim obiectum est beatitudo 
+ae<lb break="no" ed="#L" n="71"/>terna. Sed ad beatitudinem aeternam 
+<lb ed="#L" n="72"/>consequendam adiuvamur patrociniis sanctorum: 
+<lb ed="#L" n="73"/>dicit enim Gregorius, in I Dial., quod 
+praede<lb break="no" ed="#L" n="74"/>stinatio iuvatur precibus sanctorum. Ergo aliquis  
+<lb ed="#L" n="75"/>potest in homine sperare. 
+</p>
+               <p xml:id="TAca84-d1e1360-d1e745">
+                  <lb ed="#L" n="76"/>2. PRAETEREA, si non potest aliquis sperare in 
+<lb ed="#L" n="77"/>homine, non esset reputandum alicui in vitium  
+<lb ed="#L" n="78"/>quod in eo aliquis sperare non possit. Sed hoc de  
+<lb ed="#L" n="79"/>quibusdam in vitium dicitur: ut patet lerem. ix:  
+<lb ed="#L" n="80"/>Unusquisque a proximo suo se custodiat, et in 
+<lb ed="#L" n="81"/>omni fratre suo non habeat fiduciam. Ergo licite  
+<lb ed="#L" n="82"/>potest aliquis sperare in homine. 
+</p>
+               <p xml:id="TAca84-d1e1360-d1e764">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="83"/>3. PRAETEREA, petitio est interpretativa spei,
+<lb ed="#L" n="84"/>sicut dictum est. Sed licite potest homo aliquid
+<lb ed="#L" n="85"/>petere ab homine. Ergo licite potest sperare de eo.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e775">
+                  <lb ed="#L" n="86"/>SED CONTRA EsT quod dicitur lerem. xvir: 
+Ma<lb break="no" ed="#L" n="87"/>ledictus homo qui confidit in homine.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e782">
+                  <lb ed="#L" n="88"/>RESPONDEO DICENDUM quod spes, sicut dictum
+<lb ed="#L" n="89"/>est, duo respicit: scilicet bonum quod obtinere
+<lb ed="#L" n="90"/>intendit; et auxilium per quod illud bonum 
+obti<lb break="no" ed="#L" n="91"/>netur. Bonum autem quod quis sperat 
+obtinen<lb break="no" ed="#L" n="92"/>dum habet rationem causae finalis; auxilium 
+au<lb break="no" ed="#L" n="93"/>tem per quod quis sperat illud bonum obtinere
+<lb ed="#L" n="94"/>habet rationem causae efficientis. In genere 
+au<lb break="no" ed="#L" n="95"/>tem utriusque causae invenitur principale et 
+se<lb break="no" ed="#L" n="96"/>cundarium. Principalis enim finis est finis 
+ulti<lb break="no" ed="#L" n="97"/>mus; secundarius autem finis est bonum quod
+<pb ed="#L" n="127"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>est ad finem. Similiter principalis causa agens
+<lb ed="#L" n="2"/>est primum agens; secundaria vero causa 
+effi<lb break="no" ed="#L" n="3"/>ciens est agens secundarium instrumentale. Spes 
+<lb ed="#L" n="4"/>autem respicit beatitudinem aeternam sicut finem 
+<lb ed="#L" n="5"/>ultimum; divinum autem auxilium sicut primam |
+<lb ed="#L" n="6"/>causam inducentem. ad beatitudinem. Sicut 
+igi<lb break="no" ed="#L" n="7"/>tur non licet sperare aliquod bonum praeter 
+bea<lb break="no" ed="#L" n="8"/>titudinem sicut ultimum finem, sed solum sicut
+<lb ed="#L" n="9"/>id quod est ad finem. beatitudinis ordinatum ;
+<lb ed="#L" n="10"/>ita etiam non licet sperare de aliquo homine,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="11"/>vel de aliqua creatura, sicut de prima causa 
+mo<lb break="no" ed="#L" n="12"/>vente in beatitudinem; licet autem sperare de
+<lb ed="#L" n="13"/>aliquo homine, vel de aliqua creatura, sicut de
+<lb ed="#L" n="14"/>agente secundario et instrumentali, per quod 
+ali<lb break="no" ed="#L" n="15"/>quis adiuvatur ad quaecumque bona consequenda
+<lb ed="#L" n="16"/>in beatitudinem ordinata. - Et hoc modo ad 
+san<lb break="no" ed="#L" n="17"/>ctos convertimur; et ab hominibus aliqua pe-
+| timus; et vituperantur illi de quibus aliquis 
+con<lb break="no" ed="#L" n="18"/>fidere non potest ad auxilium. ferendum.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e852">
+                  <lb ed="#L" n="19"/>Et per hoc patet responsio ad obiecta.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1360-Dd1e858"><!-- p2p2-q17a5 -->
+               <head xml:id="TAca84-d1e1360-Hd1e861">Articulus 5</head>
+               <head xml:id="TAca84-d1e1360-Hd1e863" type="question-title">Utrum spes sit virtus theologica</head>
+               <p xml:id="TAca84-d1e1360-d1e866">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="20"/>ARTICULUS QUINTUS
+<lb ed="#L" n="21"/>UTRUM SPES SIT VIRTUS THEOLOGICA
+</p>
+               <p xml:id="TAca84-d1e1360-d1e875">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="22"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="23"/>spes non sit virtus theologica. Virtus
+<lb ed="#L" n="24"/>enim theologica est quae habet Deum 
+<lb ed="#L" n="25"/>pro obiecto. Sed spes non habet solum
+<lb ed="#L" n="26"/>Deum pro obiecto, sed etiam alia bona quae a |
+<lb ed="#L" n="27"/>Deo obtinere speramus. Ergo spes non est 
+vir<lb break="no" ed="#L" n="28"/>tus theologica.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e895">
+                  <lb ed="#L" n="29"/>2. PRAETEREA, virtus theologica non consistit
+<lb ed="#L" n="30"/>in medio duorum vitiorum, ut supra habitum est.
+<lb ed="#L" n="31"/>Sed spes consistit in medio praesumptionis et
+<lb ed="#L" n="32"/>desperationis. Ergo spes non est virtus theologica.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e907">
+                  <lb ed="#L" n="33"/>3. PRAETEREA, expectatio pertinet ad 
+longani<lb break="no" ed="#L" n="34"/>mitatem, quae est pars fortitudinis. Cum ergo
+<lb ed="#L" n="35"/>spes sit quaedam expectatio, videtur quod spes
+<lb ed="#L" n="36"/>non sit virtus theologica, sed moralis.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e918">
+                  <lb ed="#L" n="37"/>4. PRAETEREA, obiectum spei est arduum. Sed
+<lb ed="#L" n="38"/>tendere in arduum pertinet ad magnanimitatem, 
+<lb ed="#L" n="39"/>quae est virtus moralis. Ergo spes est virtus 
+mo<lb break="no" ed="#L" n="40"/>ralis, et non theologica.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e929">
+                  <lb ed="#L" n="41"/>SEp CONTRA EsT quod, l ad Cor. xii, 
+connu<lb break="no" ed="#L" n="42"/>meratur fidei et caritati, quae sunt virtutes 
+theo<lb break="no" ed="#L" n="43"/>logicae.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e938">
+                  <lb ed="#L" n="44"/>REsPONDEO DICENDUM quod, cum differentiae 
+spe<lb break="no" ed="#L" n="45"/>cificae per se dividant genus, oportet attendere 
+<lb ed="#L" n="46"/>unde habeat spes rationem virtutis, ad hoc quod
+<lb ed="#L" n="47"/>sciamus sub qua differentia virtutis collocetur.
+<lb ed="#L" n="48"/>Dictum est autem supra quod spes habet 
+ra<lb break="no" ed="#L" n="49"/>tionem virtutis ex hoc quod attingit supremam
+<lb ed="#L" n="50"/>regulam humanorum actuum; quam attingit et 
+<lb ed="#L" n="51"/>sicut primam causam efficientem, inquantum eius
+<lb ed="#L" n="52"/>auxilio innititur; et sicut ultimam causam finalem,
+<lb ed="#L" n="53"/>inquantum in eius fruitione beatitudinem expectat.
+<lb ed="#L" n="54"/>Et sic patet quod spei, inquantum est virtus, 
+prin<lb break="no" ed="#L" n="55"/>cipale obiectum est? Deus. Cum igitur in hoc
+<lb ed="#L" n="56"/>consistat ratio virtutis theologicae quod Deum 
+<lb ed="#L" n="57"/>habeat pro obiecto, sicut supra dictum est, 
+ma<lb break="no" ed="#L" n="58"/>nifestum est quod spes est virtus theologica.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e973">
+                  <lb ed="#L" n="59"/>AD PRIMUM ERGO DICENDUM quod quaecumque
+<lb ed="#L" n="60"/>alia spes adipisci expectat, sperat in ordine ad
+<lb ed="#L" n="61"/>Deum sicut ad ultimum finem et sicut ad 
+pri<lb break="no" ed="#L" n="62"/>mam causam efficientem, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e984">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="63"/>AD SECUNDUM DICENDUM quod medium accipitur
+<lb ed="#L" n="64"/>in regulatis et mensuratis secundum quod regula
+<lb ed="#L" n="65"/>vel mensura attingitur; secundum autem quod
+<lb ed="#L" n="66"/>exceditur regula, est superfluum ; secundum 
+au<lb break="no" ed="#L" n="67"/>tem defectum a regula, est diminutum. In ipsa
+<lb ed="#L" n="68"/>autem regula vel mensura non est accipere 
+me<lb break="no" ed="#L" n="69"/>dium et extrema. Virtus autem moralis est circa
+<lb ed="#L" n="70"/>ea quae regulantur ratione sicut circa proprium
+<lb ed="#L" n="71"/>obiectum: et ideo per se convenit ei esse in 
+me<lb break="no" ed="#L" n="72"/>dio ex parte proprii obiecti. Sed virtus theologica
+<lb ed="#L" n="73"/>est circa ipsam regulam primam, non regulatam
+<lb ed="#L" n="74"/>alia regula, sicut circa proprium obiectum. Et
+<lb ed="#L" n="75"/>ideo per se, et secundum proprium obiectum,
+<lb ed="#L" n="76"/>non convenit virtuti theologicae esse in medio.
+<lb ed="#L" n="77"/>Sed potest sibi competere per accidens, ratione
+<lb ed="#L" n="78"/>eius quod ordinatur ad principale obiectum. Sicut
+<lb ed="#L" n="79"/>fides non potest habere medium et extrema in
+<lb ed="#L" n="80"/>hoc quod innitatur primae veritati, cui nullus 
+po<lb break="no" ed="#L" n="81"/>test nimis inniti; sed ex parte eorum quae. 
+cre<lb break="no" ed="#L" n="82"/>dit, potest habere medium et extrema, sicut unum
+<lb ed="#L" n="83"/>verum est medium inter duo falsa. Et similiter
+<lb ed="#L" n="84"/>spes non habet medium et extrema ex parte 
+prin<lb break="no" ed="#L" n="85"/>cipalis obiecti, quia divino auxilio nullus porest
+<lb ed="#L" n="86"/>nimis inniti: sed quantum ad..ea.quae confidit
+<lb ed="#L" n="87"/>aliquis. se adepturum, potest ibi^esse medium. et
+<lb ed="#L" n="88"/>extrema, inquantum vel praesumit ea quae sunt
+<lb ed="#L" n="89"/>supra suam proportionem, vel desperat de his
+<lb ed="#L" n="90"/>quae sunt sibi proportionata.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1050">
+                  <lb ed="#L" n="91"/>AD TERTIUM DICENDUM quod expectatio quae 
+po<lb break="no" ed="#L" n="92"/>nitur in definitione spei non importat dilationem,
+<lb ed="#L" n="93"/>sicut expectatio quae pertinet ad longanimitatem:
+<lb ed="#L" n="94"/>sed importat respectum ad auxilium divinum;
+<lb ed="#L" n="95"/>sive illud quod speratur differatur, sive non 
+dif<lb break="no" ed="#L" n="96"/>feratur. :
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1066">
+                  <lb ed="#L" n="97"/>AD QUARTUM DICENDUM quod magnanimitas 
+ten<lb break="no" ed="#L" n="98"/>dit in arduum sperans aliquid quod est. suae 
+po<lb break="no" ed="#L" n="99"/>testatis.. Unde proprie respicit operationem 
+ali<lb break="no" ed="#L" n="100"/>quorum magnorum. Sed spes, secundum quod
+<lb ed="#L" n="101"/>est virtus theologica, respicit arduum alterius 
+au<lb break="no" ed="#L" n="102"/>xilio assequendum, ut dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1360-Dd1e1083"><!-- p2p2-q17a6 -->
+               <head xml:id="TAca84-d1e1360-Hd1e1086">Articulus 6</head>
+               <head xml:id="TAca84-d1e1360-Hd1e1088" type="question-title">Utrum spes sit virtus distincta ab aliis virtutibus theologicis</head>
+               <p xml:id="TAca84-d1e1360-d1e1091">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="99"/>ARTICULUS SEXTUS
+<lb ed="#L" n="100"/>UTRUM SPES SIT VIRTUS DISTINCTA AB ALIIS VIRTUTIBUS THEOLOGICIS
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1100">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="101"/>AD SEXTUM SIC. PROCEDITUR. Videtur quod
+<lb ed="#L" n="102"/>spes non sit virtus distincta ab aliis 
+theo<lb break="no" ed="#L" n="103"/>logicis. Habitus enim distinguuntur 
+se<lb break="no" ed="#L" n="104"/>cundum obiecta, ut supra dictum est.
+<lb ed="#L" n="105"/>Sed idem est obiectum spei et aliarum virtutum
+<lb ed="#L" n="106"/>theologicarum. Ergo spes non distinguitur ab aliis
+<lb ed="#L" n="107"/>virtutibus theologicis.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1120">
+                  <lb ed="#L" n="108"/>2. PRAETEREA, in symbolo fidei, in quo 
+fi<lb break="no" ed="#L" n="109"/>dem profitemur, dicitur: Expecto resurrectionem
+<lb ed="#L" n="110"/>mortuorum et vitam futuri saeculi. Sed ' expe-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="111"/>ctatio futurae beatitudinis pertinet ad spem, ut
+<lb ed="#L" n="112"/>supra dictum est. Ergo spesa fide non 
+distin<lb break="no" ed="#L" n="113"/>guitur.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1139">
+                  <lb ed="#L" n="114"/>3. PRAETEREA, per spem homo tendit in Deum.
+<lb ed="#L" n="115"/>Sed hoc proprie pertinet ad caritatem. Ergo spes
+<lb ed="#L" n="116"/>a caritate non distinguitur.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1148">
+                  <lb ed="#L" n="117"/>SED coNTRA, ubi non est distinctio ibi non
+<lb ed="#L" n="118"/>est numerus. Sed spes connumeratur aliis 
+virtu<lb break="no" ed="#L" n="119"/>tibus theologicis: dicit enim Gregorius, in I 
+Mo<lb break="no" ed="#L" n="120"/>ral., esse tres virtutes, fidem, spem et carita-
+<pb ed="#L" n="132"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tem. Ergo spes est virtus distincta ab aliis theo- |
+<lb ed="#L" n="2"/>logicis.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1168">
+                  <lb ed="#L" n="3"/>RESPONDEO DICENDUM quod virtus aliqua 
+dici<lb break="no" ed="#L" n="4"/>tur theologica ex hoc quod habet Deum pro
+<lb ed="#L" n="5"/>obiecto cui inhaeret. Potest autem aliquis alicui
+<lb ed="#L" n="6"/>rei inhaerere dupliciter: uno modo, propter 
+se<lb break="no" ed="#L" n="7"/>ipsum; alio modo, inquantum ex eo ad aliud |
+<lb ed="#L" n="8"/>devenitur. Caritas igitur facit hominem Deo 
+in<lb break="no" ed="#L" n="9"/>haerere propter seipsum, mentem hominis uniens
+<lb ed="#L" n="10"/>Deo per affectum amoris. Spes autem et fides 
+fa<lb break="no" ed="#L" n="11"/>ciunt hominem inhaerere Deo sicut cuidam 
+prin<lb break="no" ed="#L" n="12"/>cipio ex quo aliqua nobis proveniunt.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1192">
+                  <lb ed="#L" n="13"/>De Deo autem provenit nobis et cognitio ve--
+<lb ed="#L" n="14"/>ritatis et adeptio perfectae bonitatis. Fides ergo
+<lb ed="#L" n="15"/>facit hominem Deo inhaerere inquantum est 
+no<lb break="no" ed="#L" n="16"/>bis principium cognoscendi veritatem: credimus |
+<lb ed="#L" n="17"/>enim ea vera esse quae nobis a Deo dicuntur.
+<lb ed="#L" n="18"/>Spes autem facit Deo adhaerere prout est nobis ^
+<lb ed="#L" n="19"/>principium perfectae bonitatis: inquantum scilicet |
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="20"/>per spem divino auxilio innitimur ad 
+beatitudi<lb break="no" ed="#L" n="21"/>nem obtinendam.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1216">
+                  <lb ed="#L" n="22"/>AD PRIMUM ERGO DICENDUM quod Deus 
+secun<lb break="no" ed="#L" n="23"/>dum aliam et aliam rationem est obiectum 
+ha<lb break="no" ed="#L" n="24"/>rum virtutum, ut dictum est. Ad distinctionem
+<lb ed="#L" n="25"/>autem habituum sufficit diversa ratio obiecti, ut
+<lb ed="#L" n="26"/>supra habitum est.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1229">
+                  <lb ed="#L" n="27"/>AD SECUNDUM DICENDUM quod expectatio 
+poni<lb break="no" ed="#L" n="28"/>tur in symbolo fidei non quia sit actus proprius
+<lb ed="#L" n="29"/>fidei: sed inquantum actus spei praesupponit 
+fi<lb break="no" ed="#L" n="30"/>dem, ut dicetur, et sic actus fidei manifestantur
+<lb ed="#L" n="31"/>per actus spei.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1243">
+                  <lb ed="#L" n="32"/>AD TERTIUM DICENDUM quod spes facit tendere
+<lb ed="#L" n="33"/>in Deum sicut in quoddam bonum finale 
+adi<lb break="no" ed="#L" n="34"/>piscendum, et sicut in quoddam adiutorium 
+ef<lb break="no" ed="#L" n="35"/>ficax ad subveniendum. Sed caritas proprie 
+fa<lb break="no" ed="#L" n="36"/>cit tendere in Deum uniendo affectum homi- .
+<lb ed="#L" n="37"/>nis Deo, ut scilicet homo non sibi vivat sed
+<lb ed="#L" n="38"/>Deo.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1360-Dd1e1263"><!-- p2p2-q17a7 -->
+               <head xml:id="TAca84-d1e1360-Hd1e1266">Articulus 7</head>
+               <head xml:id="TAca84-d1e1360-Hd1e1268" type="question-title">Utrum spes praecedat fidem</head>
+               <p xml:id="TAca84-d1e1360-d1e1271">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="68"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="69"/>UTRUM SPES PRAECEDAT FIDEM
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1280">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="70"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="71"/>spes praecedat fidem. Quia super illud
+<lb ed="#L" n="72"/>Psalm., Spera in Domino, et fac 
+bo<lb break="no" ed="#L" n="73"/>nitatem, dicit Glossa: Spes est 
+introi<lb break="no" ed="#L" n="74"/>tus fidei, initium salutis. Sed salus est per fidem,
+<lb ed="#L" n="75"/>per quam iustificamur. Ergo spes praecedit fidem.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1298">
+                  <lb ed="#L" n="76"/>2. PRAETEREA, illud quod ponitur in definitione
+<lb ed="#L" n="77"/>alicuius debet esse prius et magis notum. Sed
+<lb ed="#L" n="78"/>spes ponitur in definitione fidei: ut patet Heb. x1:
+<lb ed="#L" n="79"/>Fides est substantia rerum sperandarum.. Ergo spes
+<lb ed="#L" n="80"/>est prior fide.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1312">
+                  <lb ed="#L" n="81"/>3. PRAETEREA, spes praecedit actum meritorium:
+<lb ed="#L" n="82"/>dicit enim Apostolus, I ad Cor. ix, quod qui arat
+<lb ed="#L" n="83"/>debet arare in spe fructus percipiendi. Sed actus
+<lb ed="#L" n="84"/>fidei est meritorius. Ergo spes praecedit fidem.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1323">
+                  <lb ed="#L" n="85"/>SED coNTRA EsT quod Matth. 1 dicitur: « Abra-
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="86"/>ham genvit Isaac », idest fides spem, sicut dicit
+<lb ed="#L" n="87"/>Glossa.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1334">
+                  <lb ed="#L" n="88"/>RESPONDEO DICENDUM quod fides absolute 
+prae<lb break="no" ed="#L" n="89"/>cedit spem. Obiectum enim spei est bonum 
+fu<lb break="no" ed="#L" n="90"/>turum arduum possibile haberi. Ad hoc ergo
+<lb ed="#L" n="91"/>quod aliquis speret, requiritur quod obiectum spei
+<lb ed="#L" n="92"/>proponatur ei ut possibile. Sed obiectum spei
+<lb ed="#L" n="93"/>est uno modo beatitudo aeterna, et alio modo
+<lb ed="#L" n="94"/>divinum auxilium, ut ex dictis patet. Et 
+utrum<lb break="no" ed="#L" n="95"/>que eorum proponitur nobis per fidem, per quam
+<lb ed="#L" n="96"/>nobis innotescit quod ad vitam aeternam 
+possu<lb break="no" ed="#L" n="97"/>mus pervenire, et quod ad hoc paratum est 
+no<lb break="no" ed="#L" n="98"/>bis divinum auxilium: secundum illud Heb. xi:
+<lb ed="#L" n="99"/>Accedentem ad Deum oportet credere quia est,
+<lb ed="#L" n="100"/>et quia inquirentibus se remunerator est. Unde
+<lb ed="#L" n="101"/>manifestum est quod fides praecedit spem.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1367">
+                  <pb ed="#L" n="133"/>
+                  <!-- -->
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD PRIMUM ERGO DICENDUM quod, sicut Glossa
+<lb ed="#L" n="2"/>ibidem subdit, spes dicitur introitus fidei, idest  
+<lb ed="#L" n="3"/>rei creditae, quia per spem intratur ad videndum  
+<lb ed="#L" n="4"/>illud quod creditur. - Vel potest dici quod est?  
+<lb ed="#L" n="5"/>introitus fidei quia per eam homo intrat ad hoc  
+<lb ed="#L" n="6"/>quod stabiliatur et perficiatur in fide. 
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1389">
+                  <lb ed="#L" n="7"/>AD SECUNDUM DICENDUM quod in definitione fidei  
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>ponitur res spetasde quia proprium obiectum
+<lb ed="#L" n="9"/>fidei est non apparens secundum seipsum. Unde
+<lb ed="#L" n="10"/>fuit necessarium ut quadam circumlocutione 
+de<lb break="no" ed="#L" n="11"/>signaretur per id quod consequitur ad fidem.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1405">
+                  <lb ed="#L" n="12"/>AD TERTIUM DICENDUM quod non omnis actus
+<lb ed="#L" n="13"/>meritorius habet spem praecedentem: sed 
+suffi<lb break="no" ed="#L" n="14"/>cit si habeat concomitantem vel consequentem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1360-Dd1e1415"><!-- p2p2-q17a8 -->
+               <head xml:id="TAca84-d1e1360-Hd1e1418">Articulus 8</head>
+               <head xml:id="TAca84-d1e1360-Hd1e1420" type="question-title">Utrum caritas sit prior spe</head>
+               <p xml:id="TAca84-d1e1360-d1e1423">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="16"/>UTRUM CARITAS SIT PRIOR SPE
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1432">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="17"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="18"/>M caritas sit prior spe. Dicit enim .
+Ambro<lb break="no" ed="#L" n="19"/>sius, super illud Luc. xvi, « Si 
+habue<lb break="no" ed="#L" n="20"/>Writis fidem sicut granum sinapis, etc. »: 
+<lb ed="#L" n="21"/>Ex fest caritas, ex caritate spes. Sed fides est 
+<lb ed="#L" n="22"/>prior caritate. Ergo caritas est prior spe. 
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1450">
+                  <lb ed="#L" n="23"/>2. PmaETEREA, Augustinus dicit, XIV de Civ. , 
+<lb ed="#L" n="24"/>Dei, quod boni motus atque affectus ex amore 
+<lb ed="#L" n="25"/>et sancta caritate veniunt. Sed sperare, secundum 
+<lb ed="#L" n="26"/>quod est actus spei, est quidam bonus animi 
+<lb ed="#L" n="27"/>motus. Ergo derivatur a caritate. 
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1464">
+                  <lb ed="#L" n="28"/>3. PRAETEREA, Magister dicit, xxvr dist. III lib. 
+<lb ed="#L" n="29"/>Sent., quod spes ex meritis provenit, quae 
+prae<lb break="no" ed="#L" n="30"/>cedunt non solum rem speratam, sed etiam spem, 
+<lb ed="#L" n="31"/>quam natura praeit caritas. Caritas ergo est  
+<lb ed="#L" n="32"/>prior spe.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1477">
+                  <lb ed="#L" n="33"/>SED CONTRA EST quod Apostolus dicit, I ad 
+<lb ed="#L" n="34"/>Tim. 1: Finis praecepti caritas est de corde puro?  
+<lb ed="#L" n="35"/>et conscientia bona: Glossa: idest spe. Ergo spes 
+<lb ed="#L" n="36"/>est prior caritate. 
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1488">
+                  <lb ed="#L" n="37"/>RESPONDEO DIENDbUM quod duplex est ordo. 
+<lb ed="#L" n="38"/>Unus quidem secundum viam generationis et 
+ma<lb break="no" ed="#L" n="39"/>teriae, secundum quem imperfectum prius est 
+<lb ed="#L" n="40"/>perfecto. Alius autem ordo est perfectionis et  
+<lb ed="#L" n="41"/>formae: secundum quem perfectum naturaliter  
+<lb ed="#L" n="42"/>prius est imperfecto. Secundum igitur primum 
+<lb ed="#L" n="43"/>ordinem spes est prior caritate. Quod sic patet. 
+<lb ed="#L" n="44"/>Quia spes, et omnis appetitivus motus, ex amore  
+<lb ed="#L" n="45"/>derivatur: ut supra habitum est, cum de 
+pas<lb break="no" ed="#L" n="46"/>sionibus ageretur. Amor autem quidam est 
+per<lb break="no" ed="#L" n="47"/>fectus, quidam imperfectus. Perfectus quidem 
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="48"/>amor est quo aliquis secundum se amatur, ut
+<lb ed="#L" n="49"/>puta cui aliquis vult bonum: sicut homo amat
+<lb ed="#L" n="50"/>aliquid non secundum ipsum, sed ut illud bonum
+<lb ed="#L" n="51"/>sibi ipsi proveniat: sicut homo amat rem quam
+<lb ed="#L" n="52"/>concupiscit. Primus autem amor Dei pertinet ad
+<lb ed="#L" n="53"/>caritatem, quae inhaeret Deo secundum seipsum:
+<lb ed="#L" n="54"/>sed spes pertinet ad secundum amorem, quia
+<lb ed="#L" n="55"/>ille qui sperat aliquid sibi obtinere intendit. Et
+<lb ed="#L" n="56"/>ideo in via generationis spes est prior caritate.
+<lb ed="#L" n="57"/>Sicut enim aliquis introducitur ad amandum
+<lb ed="#L" n="58"/>Deum per hoc quod, timens ab ipso puniri,
+<lb ed="#L" n="59"/>cessat a peccato, ut Augustinus dicit, super 
+Pri<lb break="no" ed="#L" n="60"/>mam Canonicam loan.; ita etiam et spes 
+in<lb break="no" ed="#L" n="61"/>troducit ad caritatem, inquantum aliquis, sperans
+<lb ed="#L" n="62"/>remunerari a Deo, accenditur ad amandum Deum
+<lb ed="#L" n="63"/>et servandum praecepta eius. - Sed secundum 
+or<lb break="no" ed="#L" n="64"/>dinem perfectionis caritas naturaliter prior est. Et
+<lb ed="#L" n="65"/>ideo, adveniente caritate, spes perfectior redditur:
+<lb ed="#L" n="66"/>quia de amicis maxime speramus. Et hoc modo
+<lb ed="#L" n="67"/>dicit Ambrosius quod spes est ex caritate.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1560">
+                  <lb ed="#L" n="68"/>Unde patet responsio ad primum.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1565">
+                  <lb ed="#L" n="69"/>AD SECUNDUM DICENDUM quod spes, et omnis
+<lb ed="#L" n="70"/>motus appetitivus, ex amore provenit aliquo, quo
+<lb ed="#L" n="71"/>scilicet aliquis amat bonum expectatum. Sed non
+<lb ed="#L" n="72"/>omnis spes provenit a caritate: sed solum 
+mo<lb break="no" ed="#L" n="73"/>tus spei formatae, qua scilicet aliquis sperat 
+bo<lb break="no" ed="#L" n="74"/>num a Deo ut ab amico.
+</p>
+               <p xml:id="TAca84-d1e1360-d1e1581">
+                  <lb ed="#L" n="75"/>AD TERTIUM DICENDUM quod Magister loquitur
+<lb ed="#L" n="76"/>de spe formata, quam naturaliter praecedit 
+cari<lb break="no" ed="#L" n="77"/>tas, et merita ex caritate causata.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

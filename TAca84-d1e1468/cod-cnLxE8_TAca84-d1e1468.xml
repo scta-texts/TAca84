@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 38</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 38</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="303"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1468"><!-- p2p2-q38 -->
+            <head xml:id="TAca84-d1e1468-Hd1e101">Quaestio 38</head>
+            <head xml:id="TAca84-d1e1468-Hd1e103" type="question-title">De contentione</head>
+            <p xml:id="TAca84-d1e1468-d1e106">
+               <pb ed="#L" n="303"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO TRIGESIMAOCTAVA
+<lb ed="#L" n="2"/>DE CONTENTIONE
+<lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1468-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de contentione,
+</p>
+            <p xml:id="TAca84-d1e1468-d1e126">
+               <lb ed="#L" n="5"/>Et circa hoc quaeruntur duo.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="6"/>Primo: utrum contentio sit peccatum mortale.
+<lb ed="#L" n="7"/>Secundo: utrum sit filia inanis gloriae.
+</p>
+            <div xml:id="TAca84-d1e1468-Dd1e138"><!-- p2p2-q38a1 -->
+               <head xml:id="TAca84-d1e1468-Hd1e141">Articulus 1</head>
+               <head xml:id="TAca84-d1e1468-Hd1e143" type="question-title">Utrum contentio sit peccatum mortale</head>
+               <p xml:id="TAca84-d1e1468-d1e146">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8"/>ARTICULUS PRIMUS
+<lb ed="#L" n="9"/>UTRUM CONTENTIO SIT PECCATUM MORTALE
+</p>
+               <p xml:id="TAca84-d1e1468-d1e155">
+                  <lb ed="#L" n="10"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="11"/>contentio non sit peccatum mortale.
+<lb ed="#L" n="12"/>Peccatum enim mortale in viris 
+spiri<lb break="no" ed="#L" n="13"/>tualibus non invenitur. In quibus tamen
+<lb ed="#L" n="14"/>invenitur contentio: secundum illud Luc. xxu:
+<lb ed="#L" n="15"/>TFacta est contentio inter discipulos Iesu, quis 
+eo<lb break="no" ed="#L" n="16"/>rum esset maior. Ergo contentio non est 
+pecca<lb break="no" ed="#L" n="17"/>tum mortale.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e175">
+                  <lb ed="#L" n="18"/>2. PRAETEREA, nulli bene disposito debet. 
+pla<lb break="no" ed="#L" n="19"/>cere peccatum mortale in proximo. Sed dicit
+<lb ed="#L" n="20"/>Apostolus, ad Philipp. 1: Quidam ex contentione
+<lb ed="#L" n="21"/>Christum annuntiant; et postea subdit: Et in hoc
+<lb ed="#L" n="22"/>gaudeo: sed et gaudebo. Ergo contentio non est
+<lb ed="#L" n="23"/>peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e192">
+                  <lb ed="#L" n="24"/>3. PRAETEREA, contingit quod aliqui vel in 
+iu<lb break="no" ed="#L" n="25"/>dicio vel in disputatione contendunt non aliquo
+<lb ed="#L" n="26"/>animo malignandi, sed potius intendentes ad 
+bo<lb break="no" ed="#L" n="27"/>num: sicut illi qui contra haereticos disputando
+<lb ed="#L" n="28"/>contendunt. Unde super illud, 1 Reg. xiv, 
+Ac<lb break="no" ed="#L" n="29"/>cidit quadam die etc., dicit Glossa: Catholici '
+<lb ed="#L" n="30"/>contra haereticos contentiones commovent , ubi
+<lb ed="#L" n="31"/>prius ad certamen convocantur. Ergo contentio
+<lb ed="#L" n="32"/>non est peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e214">
+                  <lb ed="#L" n="33"/>4. PRAETEREA, lob videtur cum Deo 
+conten<lb break="no" ed="#L" n="34"/>disse: secundum illud Job xxxix: Numquid qui
+<lb ed="#L" n="35"/>contendit 'cum Deo iam facile conquiescit? Et
+<lb ed="#L" n="36"/>tamen Iob non peccavit mortaliter: quia 
+Domi<lb break="no" ed="#L" n="37"/>nus de eo dicit: Non estis locuti recte coram me,
+<lb ed="#L" n="38"/>sicut servus meus Iob, ut habetur Iob ult. Ergo
+<lb ed="#L" n="39"/>contentio non semper est peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e232">
+                  <lb ed="#L" n="40"/>SED coNTRA EsT quod contrariatur praecepto
+<lb ed="#L" n="41"/>Apostoli, qui dicit Il ad 7m. u: Noli verbis 
+con<lb break="no" ed="#L" n="42"/>tendere. Et Gal. v contentio numeratur inter
+<lb ed="#L" n="43"/>opera carnis, quae qui agunt, regnum Dei non
+<lb ed="#L" n="44"/>possident ?, ut ibidem dicitur. Sed omne quod
+<lb ed="#L" n="45"/>excludit a regno Dei, et quod contrariatur 
+prae<lb break="no" ed="#L" n="46"/>cepto, est peccatum mortale. Ergo contentio est
+<lb ed="#L" n="47"/>peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e252">
+                  <lb ed="#L" n="48"/>RESPONDEO DICENDUM quod. contendere est 
+con<lb break="no" ed="#L" n="49"/>tra aliquem tendere. Unde sicut discordia 
+contra<lb break="no" ed="#L" n="50"/>rietatem quandam importat in voluntate, ita con-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="51"/>tentio contrarietatem quandam importat in 
+locu<lb break="no" ed="#L" n="52"/>tione. Et propter hoc etiam cum oratio alicuius
+<lb ed="#L" n="53"/>per contraria se diffundit, vocatur contentio, quae
+<lb ed="#L" n="54"/>ponitur unus color rhetoricus a Tullio, qui dicit:
+<lb ed="#L" n="55"/>Contentio est cum ex contrariis rebus oratio 
+effi<lb break="no" ed="#L" n="56"/>citur, hoc pacto: Habet assentatio iucunda 
+prin<lb break="no" ed="#L" n="57"/>cipia, eadem exitus amarissimos affert. 
+Contra<lb break="no" ed="#L" n="58"/>rietas autem locutionis potest attendi dupliciter:
+<lb ed="#L" n="59"/>uno modo, quantum ad intentionem contendentis;
+<lb ed="#L" n="60"/>alio modo, quantum ad modum. In intentione
+<lb ed="#L" n="61"/>quidem considerandum est utrum aliquis 
+contra<lb break="no" ed="#L" n="62"/>rietur veritati, quod est vituperabile: vel falsitati,
+<lb ed="#L" n="63"/>quod est laudabile. In modo autem 
+consideran<lb break="no" ed="#L" n="64"/>dum est utrum talis modus contrariandi 
+conve<lb break="no" ed="#L" n="65"/>niat et personis et negotiis, quia hoc est 
+lauda<lb break="no" ed="#L" n="66"/>bile (unde et Tullius dicit, in III Rhet., quod
+<lb ed="#L" n="67"/>contentio est oratio acris? ad confirmandum et
+<lb ed="#L" n="68"/>confutandum accommodata): vel excedat 
+conve<lb break="no" ed="#L" n="69"/>nientiam personarum et negotiorum, et sic 
+con<lb break="no" ed="#L" n="70"/>tentio est vituperabilis.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e307">
+                  <lb ed="#L" n="71"/>Si ergo accipiatur contentio secundum quod
+<lb ed="#L" n="72"/>importat impugnationem veritatis et inordinatum
+<lb ed="#L" n="73"/>modum, sic est peccatum mortale. Et hoc modo
+<lb ed="#L" n="74"/>definit Ambrosius contentionem, dicens: 
+Con<lb break="no" ed="#L" n="75"/>tentio est impugnatio veritatis cum confidentia 
+cla<lb break="no" ed="#L" n="76"/>moris.— Si autem contentio dicatur impugnatio
+<lb ed="#L" n="77"/>falsitatis cum debito modo acrimoniae, sic 
+con<lb break="no" ed="#L" n="78"/>tentio est laudabilis. - Si autem accipiatur 
+con<lb break="no" ed="#L" n="79"/>tentio secundum quod importat impugnationem
+<lb ed="#L" n="80"/>falsitatis cum inordinato modo, sic potest esse
+<lb ed="#L" n="81"/>peccatum veniale: nisi forte tanta inordinatio fiat
+<lb ed="#L" n="82"/>in contendendo quod ex hoc generetur scandalum
+<lb ed="#L" n="83"/>aliorum. Unde et Apostolus, cum dixisset, II ad
+<lb ed="#L" n="84"/>Tim. n, Noli verbis contendere, subdit: Ad 
+ni<lb break="no" ed="#L" n="85"/>hil enim utile est, nisi ad subversionem audientium.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e342">
+                  <lb ed="#L" n="86"/>AD PRIMUM ERGO DICENDUM quod in discipulis
+<lb ed="#L" n="87"/>Christi non erat contentio cum intentione 
+impu<lb break="no" ed="#L" n="88"/>gnandi veritatem: quia unusquisque defendebat
+<lb ed="#L" n="89"/>quod sibi verum videbatur. Erat tamen in eorum
+<lb ed="#L" n="90"/>contentione inordinatio: quia contendebant de
+<lb ed="#L" n="91"/>quo non erat contendendum, scilicet de primatu
+<pb ed="#L" n="304"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>honoris; nondum enim erant spirituales, sicut
+<lb ed="#L" n="2"/>Glossa ibidem dicit. Unde et Dominus eos 
+con<lb break="no" ed="#L" n="3"/>sequenter compescuit.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e369">
+                  <lb ed="#L" n="4"/>AD SECUNDUM DICENDUM quod illi qui ex 
+con<lb break="no" ed="#L" n="5"/>tentione Christum praedicabant reprehensibiles
+<lb ed="#L" n="6"/>erant: quia quamvis non impugnarent veritatem
+<lb ed="#L" n="7"/>fidei, sed eam praedicarent, impugnabant tamen
+<lb ed="#L" n="8"/>veritatem quantum ad hoc quod putabant se
+<lb ed="#L" n="9"/>suscitare pressuram Apostolo veritatem fidei
+<lb ed="#L" n="10"/>praedicanti. Unde Apostolus non gaudebat de
+<lb ed="#L" n="11"/>eorum contentione, sed de fructu qui ex hoc
+<lb ed="#L" n="12"/>proveniebat, scilicet quod Christus 
+annuntiaba<lb break="no" ed="#L" n="13"/>lur: quia ex malis etiam occasionaliter 
+subse<lb break="no" ed="#L" n="14"/>quuntur bona.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e395">
+                  <lb ed="#L" n="15"/>AD TERTIUM DICENDUM quod secundum 
+comple<lb break="no" ed="#L" n="16"/>tam rationem contentionis, prout est peccatum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="17"/>mortale, ille in iudicio contendit qui impugnat
+<lb ed="#L" n="18"/>veritatem iustitiae: et in disputatione contendit
+<lb ed="#L" n="19"/>qui intendit impugnare veritatem doctrinae. Et
+<lb ed="#L" n="20"/>secundum hoc Catholici non contendunt contra
+<lb ed="#L" n="21"/>haereticos, sed potius e converso. Si autem 
+ac<lb break="no" ed="#L" n="22"/>cipiatur contentio in iudicio vel disputatione 
+se<lb break="no" ed="#L" n="23"/>cundum imperfectam rationem, scilicet secundum
+<lb ed="#L" n="24"/>quod importat quandam acrimoniam locutionis,
+<lb ed="#L" n="25"/>sic non semper est peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e424">
+                  <lb ed="#L" n="26"/>AD QUARTUM DICENDUM quod contentio ibi sumí-
+<lb ed="#L" n="27"/>tur communiter pro disputatione. Dixerat enim
+<lb ed="#L" n="28"/>Iob, xui cap.: Ad Omnipotentem loquar, et 
+dispu<lb break="no" ed="#L" n="29"/>lare cum Deo cupio: non tamen intendens neque
+<lb ed="#L" n="30"/>veritatem impugnare, sed exquirere; neque circa
+<lb ed="#L" n="31"/>hanc inquisitionem aliqua inordinatione vel animi
+<lb ed="#L" n="32"/>vel vocis uti.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1468-Dd1e443"><!-- p2p2-q38a2 -->
+               <head xml:id="TAca84-d1e1468-Hd1e446">Articulus 2</head>
+               <head xml:id="TAca84-d1e1468-Hd1e448" type="question-title">Utrum contentio sit filia inanis gloriae</head>
+               <p xml:id="TAca84-d1e1468-d1e451">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="74"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="75"/>UTRUM CONTENTIO SIT FILIA INANIS GLORIAE
+</p>
+               <p xml:id="TAca84-d1e1468-d1e460">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="76"/>AD SECUNDUM SIC PROCEDITUR, Videtur quod
+<lb ed="#L" n="77"/>contentio non sit filia inanis gloriae.
+<lb ed="#L" n="78"/>Contentio enim affinitatem habet ad
+<lb ed="#L" n="79"/>zelum: unde dicitur I ad Cor. ui:: Cum
+<lb ed="#L" n="80"/>sit inter vos «elus et contentio, nonne carnales
+<lb ed="#L" n="81"/>estis, et secundum hominem  ambulatis ?- Zelus
+<lb ed="#L" n="82"/>autem ad invidiam pertinet. Ergo contentio magis
+<lb ed="#L" n="83"/>ex invidia oritur.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e482">
+                  <lb ed="#L" n="84"/>2. PRAETEREA, contentio cum clamore quodam
+<lb ed="#L" n="85"/>est. Sed clamor ex ira oritur; ut patet per 
+Gre<lb break="no" ed="#L" n="86"/>gorium, XXXI .Moral. Ergo etiam contentio
+<lb ed="#L" n="87"/>oritur ex ira.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e494">
+                  <lb ed="#L" n="88"/>3. PRAETEREA, inter alia scientia praecipue
+<lb ed="#L" n="89"/>videtur esse materia superbiae et inanis gloriae:
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="90"/>secundum illud 1 ad Cor. vm: Scientia inflat. Sed
+<lb ed="#L" n="91"/>contentio provenit plerumque ex defectu scientiae,
+<lb ed="#L" n="92"/>per quam veritas cognoscitur, non impugnatur.
+<lb ed="#L" n="93"/>Ergo contentio non est filia inanis gloriae.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e512">
+                  <lb ed="#L" n="94"/>SED CONTRA EST auctoritas Gregorii, XXXI 
+Mo<lb break="no" ed="#L" n="95"/>ral.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e519">
+                  <lb ed="#L" n="96"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="97"/>est, discordia est filia inanis gloriae, eo quod 
+dis<lb break="no" ed="#L" n="98"/>cordantium uterque in suo proprio P stat, -et
+<lb ed="#L" n="99"/>unus alteri non acquiescit; proprium autem 
+su<lb break="no" ed="#L" n="100"/>perbiae est et inanis gloriae propriam 
+excellen<lb break="no" ed="#L" n="101"/>tiam quaerere. Sicut autem discordantes aliqui
+<lb ed="#L" n="102"/>sunt ex hoc quod stant corde in propriis, ita
+<lb ed="#L" n="103"/>contendentes sunt aliqui ex hoc quod unusquis-
+<pb ed="#L" n="305"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>que verbo id quod sibi videtur defendit. Et ideo
+<lb ed="#L" n="2"/>eadem ratione ponitur contentio filia inanis 
+glo<lb break="no" ed="#L" n="3"/>riae sicut et discordia.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e550">
+                  <lb ed="#L" n="4"/>AD PRIMUM ERGO DICENDUM quod contentio, sicut
+<lb ed="#L" n="5"/>et discordia, habet affinitatem cum invidia 
+quan<lb break="no" ed="#L" n="6"/>tum ad recessum eius? a quo aliquis discordat
+<lb ed="#L" n="7"/>vel cum quo contendit. Sed quantum ad id in
+<lb ed="#L" n="8"/>quo sistit ille qui contendit, habet 
+convenien<lb break="no" ed="#L" n="9"/>tiam cum superbia et inani gloria, inquantum
+<lb ed="#L" n="10"/>scilicet in proprio sensu statur, ut supra 
+di<lb break="no" ed="#L" n="11"/>ctum est.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e570">
+                  <lb ed="#L" n="12"/>AD SECUNDUM DICENDUM quod clamor assumitur
+<lb ed="#L" n="13"/>in contentione de qua loquimur ad finem im-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="14"/>pugnandae veritatis. Unde non est principale in
+<lb ed="#L" n="15"/>contentione. Et ideo non oportet quod contentio
+<lb ed="#L" n="16"/>ex eodem derivetur ex quo. derivatur clamor.
+</p>
+               <p xml:id="TAca84-d1e1468-d1e586">
+                  <lb ed="#L" n="17"/>AD TERTIUM DICENDUM quod superbia et inanis
+<lb ed="#L" n="18"/>gloria occasionem sumunt praecipue a bonis,
+<lb ed="#L" n="19"/>etiam sibi contrariis, puta cum de humilitate 
+ali<lb break="no" ed="#L" n="20"/>quis superbit: est enim huiusmodi derivatio non
+<lb ed="#L" n="21"/>per se, sed per accidens, secundum quem 
+mo<lb break="no" ed="#L" n="22"/>dum nihil prohibet contrarium a contrario oriri.
+<lb ed="#L" n="23"/>Et ideo nihil prohibet ea quae ex superbia vel
+<lb ed="#L" n="24"/>inani gloria per se et directe oriuntur causari
+<lb ed="#L" n="25"/>ex contrariis eorum ex quibus occasionaliter 
+su<lb break="no" ed="#L" n="26"/>perbia oritur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

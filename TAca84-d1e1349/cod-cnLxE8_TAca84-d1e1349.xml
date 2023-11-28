@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="118"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1349"><!-- p2p2-q15 -->
+            <head xml:id="TAca84-d1e1349-Hd1e101">Quaestio 15</head>
+            <head xml:id="TAca84-d1e1349-Hd1e103" type="question-title">De caecitate mentis et hebetudine sensus</head>
+            <p xml:id="TAca84-d1e1349-d1e106">
+               <pb ed="#L" n="118"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO DECIMAQUINTA
+<lb ed="#L" n="2"/>DE CAECITATE MENTIS ET HEBETUDINE SENSUS
+<lb ed="#L" n="3"/>IN TRES ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1349-d1e119">
+               <lb ed="#L" n="4"/>DEINDE considerandum est de vitiis oppositis
+<lb ed="#L" n="5"/>scientiae et intellectui. Et quia de 
+igno<lb break="no" ed="#L" n="6"/>rantia, quae opponitur scientiae, dictum est 
+su<lb break="no" ed="#L" n="7"/>pra, cum de causis peccatorum ageretur; 
+quae<lb break="no" ed="#L" n="8"/>rendum est nunc de caecitate mentis et 
+hebetu<lb break="no" ed="#L" n="9"/>dine sensus, quae opponuntur dono intellectus.
+</p>
+            <p xml:id="TAca84-d1e1349-d1e135">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="10"/>Et circa hoc quaeruntur tria.
+<lb ed="#L" n="11"/>Primo: utrum caecitas mentis sit peccatum.
+<lb ed="#L" n="12"/>Secundo: utrum hebetudo sensus sit aliud 
+pec<lb break="no" ed="#L" n="13"/>catum a caecitate mentis.
+<lb ed="#L" n="14"/>Tertio: utrum haec vitia a peccatis carnalibus
+<lb ed="#L" n="15"/>oriantur.
+</p>
+            <div xml:id="TAca84-d1e1349-Dd1e154"><!-- p2p2-q15a1 -->
+               <head xml:id="TAca84-d1e1349-Hd1e157">Articulus 1</head>
+               <head xml:id="TAca84-d1e1349-Hd1e159" type="question-title">Utrum caecitas mentis sit peccatum</head>
+               <p xml:id="TAca84-d1e1349-d1e162">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="16"/>ARTICULUS PRIMUS
+<lb ed="#L" n="17"/>UTRUM CAECITAS MENTIS SIT PECCATUM
+</p>
+               <p xml:id="TAca84-d1e1349-d1e171">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="18"/>PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="19"/>caecitas mentis non sit peccatum. Illud
+<lb ed="#L" n="20"/>enim quod excusat a peccato non 
+vi<lb break="no" ed="#L" n="21"/>detur esse peccatum. Sed caecitas 
+ex<lb break="no" ed="#L" n="22"/>cusat a peccato: dicitur enim loan. 1x: .Si caeci
+<lb ed="#L" n="23"/>essetis, non haberetis peccatum. Ergo caecitas 
+men<lb break="no" ed="#L" n="24"/>tis non est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e191">
+                  <lb ed="#L" n="25"/>2. PRAETEREA, poena differt a culpa. Sed 
+cae<lb break="no" ed="#L" n="26"/>citas mentis est quaedam poena: ut patet per
+<lb ed="#L" n="27"/>illud quod habetur Isaiae vi: Excaeca cor 
+po<lb break="no" ed="#L" n="28"/>puli huius; non enim esset a Deo, cum sit malum,
+<lb ed="#L" n="29"/>nisi poena esset. Ergo caecitas mentis non est
+<lb ed="#L" n="30"/>peccatum.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e208">
+                  <lb ed="#L" n="31"/>3. PRAETEREA, omne peccatum est voluntarium,
+<lb ed="#L" n="32"/>ut Augustinus dicit. Sed caecitas mentis non est
+<lb ed="#L" n="33"/>voluntaria: quia ut Augustinus dicit, X Confess.,
+<lb ed="#L" n="34"/>cognoscere veritatem lucentem omnes amant; et
+<lb ed="#L" n="35"/>Eccle. x1 dicitur: Dulce lumen, et delectabile
+<lb ed="#L" n="36"/>oculis videre solem. Ergo caecitas mentis non est
+<lb ed="#L" n="37"/>peccatum.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e226">
+                  <lb ed="#L" n="38"/>SED CONTRA EST quod Gregorius, XXXI 
+Mo<lb break="no" ed="#L" n="39"/>ral., caecitatem mentis ponit inter vitia quae
+<lb ed="#L" n="40"/>causantur ex luxuria.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e235">
+                  <lb ed="#L" n="41"/>RESPONDEO DICENDUM quod sicut caecitas 
+cor<lb break="no" ed="#L" n="42"/>poralis est privatio eius quod est principium 
+cor<lb break="no" ed="#L" n="43"/>poralis visionis, ita etiam caecitas mentis est 
+pri<lb break="no" ed="#L" n="44"/>vatio eius quod est principium mentalis sive 
+in<lb break="no" ed="#L" n="45"/>tellectualis visionis. Cuius quidem principium est
+<lb ed="#L" n="46"/>triplex. Unum quidem est lumen naturalis 
+ratio<lb break="no" ed="#L" n="47"/>nis. Et hoc lumen, cum pertineat ad speciem
+<lb ed="#L" n="48"/>animae rationalis, nunquam privatur ab anima.
+<lb ed="#L" n="49"/>Impeditur tamen quandoque a proprio actu per
+<lb ed="#L" n="50"/>impedimenta virium inferiorum, quibus indiget
+<lb ed="#L" n="51"/>intellectus humanus ad intelligendum, sicut. pa-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="52"/>tet in amentibus et furiosis, ut in Primo 
+di<lb break="no" ed="#L" n="53"/>ctum est.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e268">
+                  <lb ed="#L" n="54"/>Aliud autem principium intellectualis visionis
+<lb ed="#L" n="55"/>est aliquod lumen habituale naturali lumini 
+ra<lb break="no" ed="#L" n="56"/>tionis superadditum. Et hoc quidem lumen 
+in<lb break="no" ed="#L" n="57"/>terdum privatur ab anima. Et talis privatio est
+<lb ed="#L" n="58"/>caecitas quae est poena, secundum quod 
+priva<lb break="no" ed="#L" n="59"/>tio luminis gratiae quaedam poena ponitur. Unde
+<lb ed="#L" n="60"/>dicitur de quibusdam, Sap. :: Excaecavit illos
+<lb ed="#L" n="61"/>malitia eorum.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e288">
+                  <lb ed="#L" n="62"/>Tertium principium visionis intellectualis est
+<lb ed="#L" n="63"/>aliquod intelligibile principium per quod homo
+<lb ed="#L" n="64"/>intelligit alia. Cui quidem principio intelligibili
+<lb ed="#L" n="65"/>mens hominis potest intendere vel non intendere.
+<lb ed="#L" n="66"/>Et quod ei non intendat contingit dupliciter. 
+Quan<lb break="no" ed="#L" n="67"/>doque quidem ex hoc quod habet voluntatem
+<lb ed="#L" n="68"/>spontanee se avertentem a consideratione talis
+<lb ed="#L" n="69"/>principii: secundum illud Psalm.: Noluit 
+intel<lb break="no" ed="#L" n="70"/>ligere ut bene ageret. Alio modo, per 
+occupatio<lb break="no" ed="#L" n="71"/>nem mentis circa alia quae magis diligit, 8 
+qui<lb break="no" ed="#L" n="72"/>bus ab inspectione huius principii mens 
+averti<lb break="no" ed="#L" n="73"/>tur: secundum illud Psalm.: Supercecidit ignis,
+<lb ed="#L" n="74"/>scilicet concupiscentiae, ef non viderunt solem.
+<lb ed="#L" n="75"/>Et utroque modo caecitas mentis est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e321">
+                  <lb ed="#L" n="76"/>AD PRIMUM ERGO DICENDUM quod caecitas quae
+<lb ed="#L" n="77"/>excusat a peccato est quae contingit ex GLA
+<lb ed="#L" n="78"/>defectu non potentis videre.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e331">
+                  <lb ed="#L" n="79"/>AD SECUNDUM DICENDUM quod ratio illa 
+proce<lb break="no" ed="#L" n="80"/>dit de secunda caecitate, quae est poena.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e338">
+                  <lb ed="#L" n="81"/>AD TERTIUM DICENDUM quod intelligere "
+verita<lb break="no" ed="#L" n="82"/>tem cuilibet est secundum se. amabile. Potest
+<lb ed="#L" n="83"/>tamen per accidens esse alicui odibile, 
+inquan<lb break="no" ed="#L" n="84"/>tum scilicet per hoc homo impeditur ab aliis
+<lb ed="#L" n="85"/>quae magis amat.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1349-Dd1e352"><!-- p2p2-q15a2 -->
+               <head xml:id="TAca84-d1e1349-Hd1e355">Articulus 2</head>
+               <head xml:id="TAca84-d1e1349-Hd1e357" type="question-title">Utrum hebetudo sensus sit aliud a caecitate mentis</head>
+               <p xml:id="TAca84-d1e1349-d1e360">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="18"/>UTRUM HEBETUDO SENSUS SIT ALIUD A CAECITATE MENTIS
+</p>
+               <p xml:id="TAca84-d1e1349-d1e369">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="19"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="20"/>hebetudo sensus non sit aliud a 
+caeci<lb break="no" ed="#L" n="21"/>tate mentis. Unum enim uni est 
+con<lb break="no" ed="#L" n="22"/>trarium. Sed dono intellectus 
+opponi<lb break="no" ed="#L" n="23"/>tur hebetudo, ut patet per Gregorium, in II 
+Mo<lb break="no" ed="#L" n="24"/>ral.. cui etiam opponitur caecitas mentis, eo
+<lb ed="#L" n="25"/>quod intellectus principium quoddam visivum
+<lb ed="#L" n="26"/>designat. Ergo hebetudo sensus est idem quod
+<lb ed="#L" n="27"/>caecitas - mentis.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e393">
+                  <lb ed="#L" n="28"/>PRAETEREA, Gregorius, in XXXI Moral.,
+<lb ed="#L" n="29"/>de hebetudine loquens, nominat eam hebetudinem
+<lb ed="#L" n="30"/>sensus circa intelligentiam. Sed hebetari sensu
+<lb ed="#L" n="31"/>circa intelligentiam nihil aliud esse videtur quam
+<lb ed="#L" n="32"/>intelligendo deficere, quod pertinet ad mentis 
+cae<lb break="no" ed="#L" n="33"/>citatem. Ergo hebetudo sensus idem est quod
+<lb ed="#L" n="34"/>caecitas mentis.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e412">
+                  <lb ed="#L" n="35"/>3. PRAETEREA, si in aliquo differunt, maxime
+<lb ed="#L" n="36"/>videntur in hoc differre quod caecitas mentis est
+<lb ed="#L" n="37"/>voluntaria, ut supra dictum est, hebetudo 
+au<lb break="no" ed="#L" n="38"/>tem sensus est naturalis 9. Sed defectus naturalis
+<lb ed="#L" n="39"/>non est peccatum. Ergo secundum hoc hebetudo
+<lb ed="#L" n="40"/>sensus non esset peccatum. Quod est contra 
+Gre<lb break="no" ed="#L" n="41"/>gorium, qui connumerat eam inter vitia quae
+<lb ed="#L" n="42"/>ex gula oriuntur.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e432">
+                  <lb ed="#L" n="43"/>SED coNTRA EsT quod diversarum causarum
+<lb ed="#L" n="44"/>sunt diversi effectus. Sed Gregorius, XXXI 
+AMo<lb break="no" ed="#L" n="45"/>ral., dicit quod hebetudo mentis oritur ex gula,
+<lb ed="#L" n="46"/>caecitas autem mentis ex luxuria. Ergo sunt
+<lb ed="#L" n="47"/>diversa vitia.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e445">
+                  <lb ed="#L" n="48"/>REsPONbEO DicENDUM quod hebes acuto 
+oppo<lb break="no" ed="#L" n="49"/>nitur. Acutum autem dicitur aliquid ex hoc quod
+<lb ed="#L" n="50"/>est penetrativum. Unde et hebes dicitur aliquid
+<lb ed="#L" n="51"/>ex hoc quod est obtusum, penetrare non valens.
+<lb ed="#L" n="52"/>Sensus autem corporalis per quandam 
+similitu<lb break="no" ed="#L" n="53"/>dinem penetrare dicitur medium inquantum ex
+<lb ed="#L" n="54"/>aliqua distantia suum obiectum percipit; vel 
+in<lb break="no" ed="#L" n="55"/>quantum potest quasi penetrando intima rei ?
+<lb ed="#L" n="56"/>percipere. Unde in corporalibus dicitur aliquis
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="57"/>esse acuti sensus qui potest percipere sensibile
+<lb ed="#L" n="58"/>aliquod ex remotis, vel videndo vel audiendo vel
+<lb ed="#L" n="59"/>olfaciendo; et e contrario dicitur sensu 
+hebe<lb break="no" ed="#L" n="60"/>tari qui non percipit nisi ex propinquo et magna
+<lb ed="#L" n="61"/>sensibilia.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e480">
+                  <lb ed="#L" n="62"/>Ad similitudinem autem corporalis sensus 
+dici<lb break="no" ed="#L" n="63"/>tur etiam circa intelligentiam esse aliquis sensus,
+<lb ed="#L" n="64"/>qui est aliquorum primorum extremorum, ut d
+<lb ed="#L" n="65"/>citur in VI Efhic.: sicut etiam sensus est 
+co<lb break="no" ed="#L" n="66"/>gnoscitivus sensibilium quasi quorundam 
+prin<lb break="no" ed="#L" n="67"/>cipiorum cognitionis. Hic autem sensus qui est
+<lb ed="#L" n="68"/>circa intelligentiam non percipit suum obiectum
+<lb ed="#L" n="69"/>per medium distantiae corporalis, sed per 
+quae<lb break="no" ed="#L" n="70"/>dam alia media: sicut cum per proprietatem rei
+<lb ed="#L" n="71"/>percipit eius essentiam, et per effectus percipit
+<lb ed="#L" n="72"/>causam. llle ergo dicitur esse acuti sensus circa
+<lb ed="#L" n="73"/>intelligentiam qui statim ad apprehensionem 
+pro<lb break="no" ed="#L" n="74"/>prietatis rei, vel etiam effectus, naturam rei 
+com<lb break="no" ed="#L" n="75"/>prehendit, et inquantum usque ad minimas 
+con<lb break="no" ed="#L" n="76"/>ditiones rei considerandas pertingit. llle autem
+<lb ed="#L" n="77"/>dicitur esse hebes circa intelligentiam qui ad
+<lb ed="#L" n="78"/>cognoscendam veritatem rei pertingere non 
+po<lb break="no" ed="#L" n="79"/>test nisi per multa ei exposita, et tunc etiam non
+<lb ed="#L" n="80"/>potest pertingere ad perfecte considerandum 
+om<lb break="no" ed="#L" n="81"/>nia quae pertinent ad rei rationem.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e526">
+                  <lb ed="#L" n="82"/>Sic igitur hebetudo sensus circa intelligentiam
+<lb ed="#L" n="83"/>importat quandam debilitatem mentis circa 
+con<lb break="no" ed="#L" n="84"/>siderationem spiritualium bonorum: caecitas 
+au<lb break="no" ed="#L" n="85"/>tem mentis importat omnimodam privationem 
+co<lb break="no" ed="#L" n="86"/>gnitionis ipsorum. Et utrumque opponitur dono
+<lb ed="#L" n="87"/>intellectus, per quem homo spiritualia bona 
+ap<lb break="no" ed="#L" n="88"/>prehendendo cognoscit et ad eorum intima 
+sub<lb break="no" ed="#L" n="89"/>tiliter penetrat. Habet autem ' hebetudo rationem
+<lb ed="#L" n="90"/>peccati sicut et caecitas mentis: inquantum 
+sci<lb break="no" ed="#L" n="91"/>licet est voluntaria, ut patet in eo qui, affectus
+<lb ed="#L" n="92"/>circa carnalia, de spiritualibus subtiliter discutere
+<lb ed="#L" n="93"/>fastidit vel negligit.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e555">
+                  <lb ed="#L" n="94"/>Et per hoc patet responsio ad obiecta.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1349-Dd1e561"><!-- p2p2-q15a3 -->
+               <head xml:id="TAca84-d1e1349-Hd1e564">Articulus 3</head>
+               <head xml:id="TAca84-d1e1349-Hd1e566" type="question-title">Utrum caecitas mentis et hebetudo sensus oriantur ex peccatis carnalibus</head>
+               <p xml:id="TAca84-d1e1349-d1e569">
+                  <pb ed="#L" n="120"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM CAECITAS MENTIS ET HEBETUDO SENSUS ORIANTUR EX PECCATIS CARNALIBUS
+</p>
+               <p xml:id="TAca84-d1e1349-d1e580">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>caecitas mentis et hebetudo sensus non 
+<lb ed="#L" n="5"/>oriantur ex vitiis carnalibus. Augustinus
+<lb ed="#L" n="6"/>enim, in libro Refract., retractans illud
+<lb ed="#L" n="7"/>quod dixerat in Soliloq., Deus, qui non nisi 
+mun<lb break="no" ed="#L" n="8"/>dos verum scire voluisti, dicit quod responderi 
+po<lb break="no" ed="#L" n="9"/>test multos etiam non mundos mulla vera scire.
+<lb ed="#L" n="10"/>Sed homines maxime efficiuntur immundi per
+<lb ed="#L" n="11"/>vitia carnalia. Ergo caecitas mentis et hebetudo
+<lb ed="#L" n="12"/>sensus non causantur a vitiis carnalibus.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e606">
+                  <lb ed="#L" n="13"/>2. PRAETEREA, caecitas mentis et hebetudo 
+sen<lb break="no" ed="#L" n="14"/>sus sunt defectus quidam circa partem animae
+<lb ed="#L" n="15"/>intellectivam ; vitia autem carnalia pertinent ad
+<lb ed="#L" n="16"/>corruptionem carnis. Sed caro non agit in 
+ani<lb break="no" ed="#L" n="17"/>mam, sed potius e converso. Ergo vitia carnalia
+<lb ed="#L" n="18"/>non causant caecitatem mentis et hebetudinem
+<lb ed="#L" n="19"/>sensus.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e625">
+                  <lb ed="#L" n="20"/>3. PRAETEREA, unumquodque magis patitur a
+<lb ed="#L" n="21"/>propinquiori quam a remotiori. Sed propinquiora
+<lb ed="#L" n="22"/>sunt menti vitia spiritualia quam carnalia. Ergo
+<lb ed="#L" n="23"/>caecitas mentis et hebetudo sensus magis 
+causan<lb break="no" ed="#L" n="24"/>tur ex vitiis spiritualibus quam ex vitiis 
+carna<lb break="no" ed="#L" n="25"/>libus.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e641">
+                  <lb ed="#L" n="26"/>SED CONTRA EST quod Gregorius, XXXI Moral.,
+<lb ed="#L" n="27"/>dicit quod hebetudo sensus circa intelligentiam
+<lb ed="#L" n="28"/>oritur ex gula, caecitas mentis ex luxuria.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e650">
+                  <lb ed="#L" n="29"/>RESPONDEO DICENDUM quod perfectio 
+intellectua<lb break="no" ed="#L" n="30"/>lis operationis in homine consistit in quadam
+<lb ed="#L" n="31"/>abstractione a sensibilium phantasmatibus. Et ideo
+<lb ed="#L" n="32"/>quanto intellectus hominis magis fuerit liber ab
+<lb ed="#L" n="33"/>huiusmodi phantasmatibus, tanto potius 
+conside<lb break="no" ed="#L" n="34"/>rare intelligibilia poterit et ordinare omnia 
+sen<lb break="no" ed="#L" n="35"/>sibilia: sicut et Anaxagoras dixit quod oportet
+<lb ed="#L" n="36"/>intellectum esse immixtum ad hoc quod imperet,
+<lb ed="#L" n="37"/>et agens oportet quod dominetur super materiam
+<lb ed="#L" n="38"/>ad hoc quod possit eam movere '. Manifestum
+<lb ed="#L" n="39"/>est autem quod delectatio applicat intentionem ad
+<lb ed="#L" n="40"/>ea in quibus aliquis delectatur: unde Philosophus
+<lb ed="#L" n="41"/>dicit, in X Ethic., quod unusquisque ea in qui-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="42"/>bus delectatur optime operatur, contraria vero
+<lb ed="#L" n="43"/>nequaquam vel debiliter. Vitia autem carnalia,
+<lb ed="#L" n="44"/>scilicet gula et luxuria, consistunt circa 
+delecta<lb break="no" ed="#L" n="45"/>tiones tactus, ciborum scilicet et venereorum,
+<lb ed="#L" n="46"/>quae sunt vehementissimae inter omnes 
+corpo<lb break="no" ed="#L" n="47"/>rales delectationes. Et ideo per haec vitia intentio
+<lb ed="#L" n="48"/>hominis maxime applicatur ad corporalia, et per
+<lb ed="#L" n="49"/>consequens debilitatur operatio hominis circa 
+in<lb break="no" ed="#L" n="50"/>telligibilia: magis autem per luxuriam quam per
+<lb ed="#L" n="51"/>gulam, quanto delectationes venereorum sunt 
+ve<lb break="no" ed="#L" n="52"/>hementiores quam ciborum. Et ideo ex luxuria
+<lb ed="#L" n="53"/>oritur caecitas mentis, quae quasi totaliter 
+spiri<lb break="no" ed="#L" n="54"/>tualium bonorum cognitionem excludit: ex gula
+<lb ed="#L" n="55"/>autem hebetudo sensus, quae reddit hominem
+<lb ed="#L" n="56"/>debilem circa huiusmodi intelligibilia. Et e con-.
+<lb ed="#L" n="57"/>verso oppositae virtutes, scilicet abstinentia et
+<lb ed="#L" n="58"/>castitas, maxime disponunt hominem ad 
+perfe<lb break="no" ed="#L" n="59"/>dationem intellectualis operationis. Unde dicitur.
+<lb ed="#L" n="60"/>Dan. 1, quod pueris his, scilicet abstinentibus et.
+<lb ed="#L" n="61"/>continentibus, dedit Deus scientiam et disciplinam.
+<lb ed="#L" n="62"/>in omni libro et sapientia. 
+</p>
+               <p xml:id="TAca84-d1e1349-d1e728">
+                  <lb ed="#L" n="63"/>AD PRIMUM ERGO DICENDUM quod, quamvis. aliqui
+<lb ed="#L" n="64"/>vitiis carnalibus subditi possint quandoque 
+subti<lb break="no" ed="#L" n="65"/>liter aliqua. speculari circa intelligibilia, propter
+<lb ed="#L" n="66"/>bonitatem ingenii naturalis vel habitus 
+superad<lb break="no" ed="#L" n="67"/>diti; tamen necesse est ut ab hac subtilitate 
+con<lb break="no" ed="#L" n="68"/>templationis eorum intentio plerumque retrahatur
+<lb ed="#L" n="69"/>propter delectationes corporales. Et ita immundi
+<lb ed="#L" n="70"/>possunt aliqua vera scire, sed ex sua immo
+<lb ed="#L" n="71"/>circa hoc impediuntur.
+</p>
+               <p xml:id="TAca84-d1e1349-d1e750">
+                  <lb ed="#L" n="72"/>AD SECUNDUM DICENDUM quod caro non agit in
+<lb ed="#L" n="73"/>partem intellectivam. alterando ipsam: sed 
+impe<lb break="no" ed="#L" n="74"/>diendo operationem ipsius per modum 
+praedi<lb break="no" ed="#L" n="75"/>ctum. iilo
+</p>
+               <p xml:id="TAca84-d1e1349-d1e761">
+                  <lb ed="#L" n="76"/>AD TERTIUM DICENDUM quod vitia carnalia, quo.
+<lb ed="#L" n="77"/>magis sunt remota a mente, eo magis eius. 
+inten<lb break="no" ed="#L" n="78"/>tionem ad remotiora distrahunt. Unde magis 
+im<lb break="no" ed="#L" n="79"/>pediunt mentis -pntargplalionems
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

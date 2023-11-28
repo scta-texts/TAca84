@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="103"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1334"><!-- p2p2-q12 -->
+            <head xml:id="TAca84-d1e1334-Hd1e101">Quaestio 12</head>
+            <head xml:id="TAca84-d1e1334-Hd1e103" type="question-title">De apostasia</head>
+            <p xml:id="TAca84-d1e1334-d1e106">
+               <pb ed="#L" n="103"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO DUODECIMA
+<lb ed="#L" n="2"/>DE APOSTASIA
+<lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1334-d1e119">
+               <lb ed="#L" n="4"/>DEINDE considerandum est de apostasia.
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur duo.
+<lb ed="#L" n="6"/>Primo: Utrum apostasia ad infidelitatem 
+per<lb break="no" ed="#L" n="7"/>tineat.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="8"/>Secundo: Utrum propter apostasiam a fide
+<lb ed="#L" n="9"/>subditi absolvantur a dominio praesidentium
+<lb ed="#L" n="10"/>apostatarum.
+</p>
+            <div xml:id="TAca84-d1e1334-Dd1e139"><!-- p2p2-q12a1 -->
+               <head xml:id="TAca84-d1e1334-Hd1e142">Articulus 1</head>
+               <head xml:id="TAca84-d1e1334-Hd1e144" type="question-title">Utrum apostasia pertineat ad infidelitatem</head>
+               <p xml:id="TAca84-d1e1334-d1e147">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11"/>ARTICULUS PRIMUS
+<lb ed="#L" n="12"/>UTRUM APOSTASIA PERTINEAT AD INFIDELITATEM
+</p>
+               <p xml:id="TAca84-d1e1334-d1e156">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="13"/>AD PRIMUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="14"/>apostasia non pertineat ad infidelitatem.
+<lb ed="#L" n="15"/>Illud enim quod est omnis peccati 
+prin<lb break="no" ed="#L" n="16"/>cipium non videtur ad infidelitatem 
+per<lb break="no" ed="#L" n="17"/>tinere: quia multa peccata sine infidelitate 
+exi<lb break="no" ed="#L" n="18"/>stunt. Sed apostasia videtur esse omnis peccati
+<lb ed="#L" n="19"/>principium: dicitur enim Eccli. x: Initium 
+su<lb break="no" ed="#L" n="20"/>perbiae hominis apostatare a Deo; et postea 
+sub<lb break="no" ed="#L" n="21"/>ditur: Znitium omnis peccati superbia. Ergo
+<lb ed="#L" n="22"/>apostasia non pertinet ad infidelitatem.
+</p>
+               <p xml:id="TAca84-d1e1334-d1e182">
+                  <lb ed="#L" n="23"/>2. PRAETEREA, infidelitas in intellectu consistit.
+<lb ed="#L" n="24"/>Sed apostasia magis videtur consistere in 
+exte<lb break="no" ed="#L" n="25"/>riori opere vel sermone, aut etiam in interiori 
+vo<lb break="no" ed="#L" n="26"/>luntate: dicitur enim Prov. vi: Homo apostata
+<lb ed="#L" n="27"/>vir inutilis, gradiens ore perverso, annuit oculis,
+<lb ed="#L" n="28"/>terit pede, digito loquitur, pravo corde machinatur
+<lb ed="#L" n="29"/>et in omni tempore iurgia seminat. Si
+<lb ed="#L" n="30"/>quis etiam se circumcideret, vel sepulcrum 
+Mahu<lb break="no" ed="#L" n="31"/>meti adoraret, apostata reputaretur. Ergo 
+apo<lb break="no" ed="#L" n="32"/>stasia non pertinet directe ad infidelitatem.
+</p>
+               <p xml:id="TAca84-d1e1334-d1e207">
+                  <lb ed="#L" n="33"/>3. PRAETEREA, haeresis, quia ad infidelitatem
+<lb ed="#L" n="34"/>pertinet, est quaedam determinata species 
+infi<lb break="no" ed="#L" n="35"/>delitatis. Si ergo apostasia ad infidelitatem 
+per<lb break="no" ed="#L" n="36"/>tneret, sequeretur quod esset quaedam 
+deter<lb break="no" ed="#L" n="37"/>minata. species infidelitatis. Quod non videtur,
+<lb ed="#L" n="38"/>secundum praedicta. Non ergo apostasia ad i 
+in<lb break="no" ed="#L" n="39"/>fidelitatem pertinet.
+</p>
+               <p xml:id="TAca84-d1e1334-d1e225">
+                  <lb ed="#L" n="40"/>SEp coNTRA EST quod dicitur loan. vi: Multi
+<lb ed="#L" n="41"/>ex discipulis 9 eius abierunt retro, quod est 
+apo<lb break="no" ed="#L" n="42"/>statare, de quibus supra dixerat Dominus: Sunt
+<lb ed="#L" n="43"/>quidam ex vobis qui non credunt. Ergo apostasia
+<lb ed="#L" n="44"/>pertinet ad infidelitatem.
+</p>
+               <p xml:id="TAca84-d1e1334-d1e238">
+                  <lb ed="#L" n="45"/>RESPONDEO DICENDUM quod apostasia importat
+<lb ed="#L" n="46"/>retrocessionem quandam a Deo. Quae quidem
+<lb ed="#L" n="47"/>diversimode fit, secundum diversos modos 
+qui<lb break="no" ed="#L" n="48"/>bus homo Deo coniungitur. Primo namque 
+con<lb break="no" ed="#L" n="49"/>iungitur homo Deo per fidem; secundo, per
+<lb ed="#L" n="50"/>debitam et subiectam voluntatem ad obediendum
+<lb ed="#L" n="51"/>praeceptis eius; tertio, per aliqua specialia ad
+<lb ed="#L" n="52"/>supererogationem pertinentia, sicut per 
+religio<lb break="no" ed="#L" n="53"/>nem et clericaturam vel sacrum ordinem. Re-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="54"/>moto autem posteriori remanet prius, sed non
+<lb ed="#L" n="55"/>convertitur. Contingit ergo aliquem apostatare a
+<lb ed="#L" n="56"/>Deo retrocedendo a religione quam professus est,
+<lb ed="#L" n="57"/>vel ab ordine quem suscepit: et haec dicitur 
+apo<lb break="no" ed="#L" n="58"/>stasia religionis seu ordinis. Contingit etiam 
+ali<lb break="no" ed="#L" n="59"/>quem apostatare a Deo per mentem 
+repugnan<lb break="no" ed="#L" n="60"/>tem divinis mandatis. Quibus duabus apostasiis
+<lb ed="#L" n="61"/>existentibus, adhuc potest remanere homo Deo
+<lb ed="#L" n="62"/>coniunctus per fidem. Sed si a fide discedat, tunc
+<lb ed="#L" n="63"/>omnino a Deo retrocedere videtur. Et ideo 
+sim<lb break="no" ed="#L" n="64"/>pliciter et absolute est? apostasia per quam 
+ali<lb break="no" ed="#L" n="65"/>quis discedit a fide, quae vocatur apostasia 
+per<lb break="no" ed="#L" n="66"/>fidiae. Et per hunc modum apostasia simpliciter
+<lb ed="#L" n="67"/>dicta ad infidelitatem pertinet.
+</p>
+               <p xml:id="TAca84-d1e1334-d1e293">
+                  <lb ed="#L" n="68"/>AD PRIMUM ERGO DICENDUM quod obiectio illa
+<lb ed="#L" n="69"/>procedit de secunda apostasia, quae importat 
+vo<lb break="no" ed="#L" n="70"/>luntatem a. mandatis Dei resilientem , quae 
+inve<lb break="no" ed="#L" n="71"/>nitur in omni peccato mortali.
+</p>
+               <p xml:id="TAca84-d1e1334-d1e304">
+                  <lb ed="#L" n="72"/>AD SECUNDUM DICENDUM quod ad fidem pertinet
+<lb ed="#L" n="73"/>non solum credulitas cordis, sed etiam protestatio
+<lb ed="#L" n="74"/>interioris fidei per exteriora verba et facta: nam
+<lb ed="#L" n="75"/>confessio est actus fidei. Et per hunc etiam 
+mo<lb break="no" ed="#L" n="76"/>dum quaedam exteriora verba vel opera ad 
+infi<lb break="no" ed="#L" n="77"/>delitatem pertinent, inquantum sunt infidelitatis
+<lb ed="#L" n="78"/>signa, per modum quo signum sanitatis sanum
+<lb ed="#L" n="79"/>dicitur ^. Auctoritas autem inducta, etsi possit
+<lb ed="#L" n="80"/>intelligi de omni apostasia, veri$sime tamen 
+con<lb break="no" ed="#L" n="81"/>venit in apostasia a fide. Quia enim fides est
+<lb ed="#L" n="82"/>primum fundamentum sperandarum rerum, et sine
+<lb ed="#L" n="83"/>Jide impossibile est placere Deo; sublata fide, 
+ni<lb break="no" ed="#L" n="84"/>hil remanet in homine quod possit esse utile ad 
+sa<lb break="no" ed="#L" n="85"/>lutem aeternam ; et. propter hoc. primo dicitur
+<lb ed="#L" n="86"/>Homo apostata vir inutilis. Fides etiam est vita
+<lb ed="#L" n="87"/>animae: secundum illud Rom. 1: Iustus ex Jide
+<lb ed="#L" n="88"/>vivit. Sicut ergo, sublata vita corporali, omnia
+<lb ed="#L" n="89"/>membra et partes hominis a debita dispositione
+<lb ed="#L" n="90"/>recedunt; ita, sublata vita iustitiae, quae est per
+<lb ed="#L" n="91"/>fidem, apparet inordinatio in omnibus membris.
+<lb ed="#L" n="92"/>Et primo quidem in ore, per quod maxime 
+ma<lb break="no" ed="#L" n="93"/>nifestatur cor; secundo, in oculis; tertio, in 
+in<lb break="no" ed="#L" n="94"/>strumentis motus ME quarto, in voluntate, quae ad
+<pb ed="#L" n="104"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>malum tendit. Et ex his sequitur quod iurgia 
+se<lb break="no" ed="#L" n="2"/>minet, alios intendens separare a fide, sicut et
+<lb ed="#L" n="3"/>Ipse recessit.
+</p>
+               <p xml:id="TAca84-d1e1334-d1e367">
+                  <lb ed="#L" n="4"/>AD TERTIUM DICENDUM quod species alicuius 
+qua<lb break="no" ed="#L" n="5"/>litatis vel formae non diversificatur per hoc quod
+<lb ed="#L" n="6"/>est terminus motus a quo vel ad quem: sed
+<lb ed="#L" n="7"/>potius e converso secundum terminos motuum
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>species attenduntur. Apostasia autem respicit ?
+<lb ed="#L" n="9"/>infidelitatem ut terminum ad quem est motus 
+re<lb break="no" ed="#L" n="10"/>cedentis a fide. Unde apostasia non importat 
+de<lb break="no" ed="#L" n="11"/>terminatam speciem infidelitatis, sed quandam
+<lb ed="#L" n="12"/>circumstantiam aggravantem: secundum illud II
+<lb ed="#L" n="13"/>Pet. i1: Melius erat eis veritatem non cognoscere
+<lb ed="#L" n="14"/>quam post agnitam retroire.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1334-Dd1e398"><!-- p2p2-q12a2 -->
+               <head xml:id="TAca84-d1e1334-Hd1e401">Articulus 2</head>
+               <head xml:id="TAca84-d1e1334-Hd1e403" type="question-title">Utrum princeps propter apostasiam a fide amittat dominium in subditos,
+    <lb ed="#L" n="27"/>Ita quod ei obedire non teneantur</head>
+               <p xml:id="TAca84-d1e1334-d1e408">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="25"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="26"/>UTRUM PRINCEPS PROPTER APOSTASIAM A FIDE AMITTAT DOMINIUM IN SUBDITOS,
+<lb ed="#L" n="27"/>ITA QUOD EI OBEDIRE NON TENEANTUR
+</p>
+               <p xml:id="TAca84-d1e1334-d1e419">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="28"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="29"/>princeps propter apostasiam a fide non
+<lb ed="#L" n="30"/>amittat dominium in subditos, quin ei
+<lb ed="#L" n="31"/>teneantur obedire. Dicit. enim -
+Ambro<lb break="no" ed="#L" n="32"/>sius quod Julianus Imperator, quamvis esset
+<lb ed="#L" n="33"/>apostata, habuit tamen sub se Christianos milites 8,
+<lb ed="#L" n="34"/>quibus cum dicebat: « Producite aciem pro 
+defen<lb break="no" ed="#L" n="35"/>sione reipublicae » , obediebant ei... Ergo. propter
+<lb ed="#L" n="36"/>apostasiam principis. subditi non absolvuntur ab
+<lb ed="#L" n="37"/>eius dominio.
+</p>
+               <p xml:id="TAca84-d1e1334-d1e445">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="38"/>2. PRAETEREA, apostata. a fide infidelis est. Sed 
+<lb ed="#L" n="39"/>fletibus dominis inveniuntur aliqui sancti viri
+<lb ed="#L" n="40"/>fideliter seryisse: sicut loseph Pharaoni, et 
+Da<lb break="no" ed="#L" n="41"/>hoc puniuntur. quod subditis fidelibus dominari
+<lb ed="#L" n="42"/>niel Nabuchodonosor, et Mardochaeus Assuero.
+<lb ed="#L" n="43"/>Ergo propter apostasiam a fide non est 
+dimitten<lb break="no" ed="#L" n="44"/>dum quin principi obediatur a subditis.
+</p>
+               <p xml:id="TAca84-d1e1334-d1e466">
+                  <lb ed="#L" n="45"/>3. PAETEREA, sicut per apostasiam a fide 
+re<lb break="no" ed="#L" n="46"/>ceditur a Deo, ita per quodlibet peccatum. Si
+<lb ed="#L" n="47"/>de propter apostasiam a fide perderent 
+princi<lb break="no" ed="#L" n="48"/>pes ius imperandi subditis fidelibus, pari ratione
+<lb ed="#L" n="49"/>propter alia peccata hoc amitterent. Sed hoc patet
+<lb ed="#L" n="50"/>esse falsum. Non ergo propter apostasiam a fide
+<lb ed="#L" n="51"/>est recedendum ab obedientia principum.
+</p>
+               <p xml:id="TAca84-d1e1334-d1e484">
+                  <lb ed="#L" n="52"/>SED cowTrRA EsT quod Gregorius VII dicit:
+<lb ed="#L" n="53"/>Nos, sanctorum praedecessorum statuta tenentes,
+<lb ed="#L" n="54"/>eos qui excommunicatis fidelitate aut sacramento ?
+<lb ed="#L" n="55"/>sunt constricti, Apostolica auctoritate a sacramento
+<lb ed="#L" n="56"/>absolvimus, et ne sibi fidelitatem observent 
+omni<lb break="no" ed="#L" n="57"/>bus modis prohibemus, quousque ad satisfactionem
+<lb ed="#L" n="58"/>veniant. Sed apostatae a fide sunt excommunicati,
+<lb ed="#L" n="59"/>sicut et haeretici: ut dicit Decretalis Ad 
+abolen<lb break="no" ed="#L" n="60"/>dam. Ergo principibus apostatantibus a fide non
+<lb ed="#L" n="61"/>est obediendum.
+</p>
+               <p xml:id="TAca84-d1e1334-d1e508">
+                  <lb ed="#L" n="62"/>RESPONDEO DiCENDUM quod, sicut supra dictum
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="63"/>est, infidelitas secundum seipsam non repugnat
+<lb ed="#L" n="64"/>dominio, eo quod dominium introductum est de
+<lb ed="#L" n="65"/>iure gentium, quod. est ius humanum ; distinctio
+<lb ed="#L" n="66"/>autem fidelium et infidelium est. secundum ius
+<lb ed="#L" n="67"/>divinum, per quod non tollitur ius humanum.
+<lb ed="#L" n="68"/>Sed aliquis per infidelitatem peccans potest 
+sen<lb break="no" ed="#L" n="69"/>tentialiter ius dominii amittere, sicut et 
+quando<lb break="no" ed="#L" n="70"/>que. propter alias culpas. Ad Ecclesiam autem non
+<lb ed="#L" n="71"/>pertinet punire. infidelitatem in illis qui nunquam
+<lb ed="#L" n="72"/>fidem susceperunt: secundum illud Apostoli, I ad
+<lb ed="#L" n="73"/>Cor. v: Quid mihi de his qui foris sunt iudicare?
+<lb ed="#L" n="74"/>Sed infidelitatem illorum qui fidem susceperunt
+<lb ed="#L" n="75"/>potest sententialiter punire. Et convenienter. in
+<lb ed="#L" n="76"/>non possint: hoc enim vergere posset in 
+ma<lb break="no" ed="#L" n="77"/>gnam fidei corruptionem; quia, ut dictum est,
+<lb ed="#L" n="78"/>homo. apostata suo corde machinatur malum et
+<lb ed="#L" n="79"/>iurgia. seminat, intendens homines separare a fide.
+<lb ed="#L" n="80"/>Et ideo quam: cito aliquis per sententiam 
+denun<lb break="no" ed="#L" n="81"/>tiatur excommunicatus propter apostasiam a fide,
+<lb ed="#L" n="82"/>ipso facto eius subditi sunt absoluti a dominio
+<lb ed="#L" n="83"/>eius et iuramento fidelitatis quo ei tenebantur.
+</p>
+               <p xml:id="TAca84-d1e1334-d1e560">
+                  <lb ed="#L" n="84"/>AD PRIMUM ERGO DICENDUM quod illo tempore
+<lb ed="#L" n="85"/>Ecclesia, in sui novitate, nondum habebat 
+pote<lb break="no" ed="#L" n="86"/>statem terrenos principes compescendi. Et ideo
+<lb ed="#L" n="87"/>toleravit fideles Iuliano Apostatae obedire in his
+<lb ed="#L" n="88"/>quae non ' erant contra fidem, ut maius fidei 
+pe<lb break="no" ed="#L" n="89"/>riculum vitaretur.
+</p>
+               <p xml:id="TAca84-d1e1334-d1e576">
+                  <lb ed="#L" n="90"/>AD SECUNDUM. DICENDUM quod alia ratio est de
+<lb ed="#L" n="91"/>alis infidelibus, qui nunquam fidem susceperunt,
+<lb ed="#L" n="92"/>ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1334-d1e585">
+                  <lb ed="#L" n="93"/>AD TERTIUM DICENDUM quod apostasia a fide 
+to<lb break="no" ed="#L" n="94"/>taliter separat hominem a Deo, ut dictum est:
+<lb ed="#L" n="95"/>quod non contingit in quibuscumque aliis peccatis.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

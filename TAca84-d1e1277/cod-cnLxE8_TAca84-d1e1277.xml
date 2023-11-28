@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="7"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1277"><!-- p2p2-q1 -->
+            <head xml:id="TAca84-d1e1277-Hd1e101">Quaestio 1</head>
+            <head xml:id="TAca84-d1e1277-Hd1e103" type="question-title">De obiecto fidei</head>
+            <p xml:id="TAca84-d1e1277-d1e106">
+               <pb ed="#L" n="7"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO PRIMA
+<lb ed="#L" n="2"/>DE OBIECTO FIDEI
+<lb ed="#L" n="3"/>IN DECEM ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1277-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>CIRCA virtutes igitur theologicas primo erit
+<lb ed="#L" n="5"/>considerandum de fide; secundo, de spe;
+<lb ed="#L" n="6"/>tertio, de caritate. Circa fidem vero quadruplex 
+<lb ed="#L" n="7"/>consideratio occurrit: prima quidem de ipsa fide; 
+<lb ed="#L" n="8"/>secunda de donis intellectus et scientiae sibi 
+cor<lb break="no" ed="#L" n="9"/>respondentibus; tertia de vitiis oppositis; 
+quar<lb break="no" ed="#L" n="10"/>ta de praeceptis ad hanc virtutem pertinentibus.
+</p>
+            <p xml:id="TAca84-d1e1277-d1e139">
+               <lb ed="#L" n="11"/>Circa fidem vero primo erit considerandum de
+<lb ed="#L" n="12"/>eius obiecto; secundo, de eius actu; tertio, de 
+<lb ed="#L" n="13"/>ipso «habitu fidei. 
+</p>
+            <p xml:id="TAca84-d1e1277-d1e149">
+               <lb ed="#L" n="14"/>Circa primum quaeruntur decem. 
+<lb ed="#L" n="15"/>Primo: utrum obiectum fidei sit veritas prima. 
+<lb ed="#L" n="16"/>Secundo: utrum obiectum fidei sit aliquid com- 
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="17"/>plexum vel incomplexum, idest res aut 
+<lb ed="#L" n="18"/>enuntiabile.
+<lb ed="#L" n="19"/>Tertio: utrum fidei possit subesse falsum.
+<lb ed="#L" n="20"/>Quarto: utrum obiectum fidei possit esse 
+ali<lb break="no" ed="#L" n="21"/>quid visum.
+<lb ed="#L" n="22"/>Quinto: utrum possit esse aliquid scitum.
+<lb ed="#L" n="23"/>Sexto: utrum credibilia debeant distingui per
+<lb ed="#L" n="24"/>certos articulos.
+<lb ed="#L" n="25"/>Septimo: utrum iidem articuli subsint fidei
+<lb ed="#L" n="26"/>secundum omne tempus.
+<lb ed="#L" n="27"/>Octavo: de numero articulorum.
+<lb ed="#L" n="28"/>Nono: de modo tradendi articulos in symbolo.
+<lb ed="#L" n="29"/>Decimo: cuius sit fidei symbolum constituere.
+</p>
+            <div xml:id="TAca84-d1e1277-Dd1e188"><!-- p2p2-q1a1 -->
+               <head xml:id="TAca84-d1e1277-Hd1e191">Articulus 1</head>
+               <head xml:id="TAca84-d1e1277-Hd1e193" type="question-title">Utrum obiectum fidei sit veritas prima</head>
+               <p xml:id="TAca84-d1e1277-d1e196">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="30"/>ARTICULUS PRIMUS
+<lb ed="#L" n="31"/>UTRUM OBIECTUM FIDEI SIT VERITAS PRIMA
+</p>
+               <p xml:id="TAca84-d1e1277-d1e205">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="32"/>AD PRIMUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="33"/>obiectum fidei non sit veritas prima.  
+<lb ed="#L" n="34"/>illud enim videtur esse obiectum fidei 
+<lb ed="#L" n="35"/>quod nobis proponitur ad credendum. 
+<lb ed="#L" n="36"/>Sed non solum proponuntur nobis ad credendum  
+<lb ed="#L" n="37"/>ea quae pertinent ad Divinitatem, quae est 
+ve<lb break="no" ed="#L" n="38"/>ritas prima; sed etiam ea quae pertinent ad 
+hu<lb break="no" ed="#L" n="39"/>manitatem Christi et Ecclesiae sacramenta et 
+<lb ed="#L" n="40"/>creaturarum conditionem. Ergo non solum 
+ve<lb break="no" ed="#L" n="41"/>ritas prima est fidei obiectum. 
+</p>
+               <p xml:id="TAca84-d1e1277-d1e231">
+                  <lb ed="#L" n="42"/>2. PRAETEREA, fides et infidelitas sunt circa  
+<lb ed="#L" n="43"/>idem: cum sint opposita. Sed circa omnia quae  
+<lb ed="#L" n="44"/>in sacra Scriptura continentur potest esse 
+infi<lb break="no" ed="#L" n="45"/>delitas: quidquid enim horum homo negaverit, 
+<lb ed="#L" n="46"/>infidelis reputatur. Ergo etiam fides est circa 
+om<lb break="no" ed="#L" n="47"/>nia quae in sacra Scriptura continentur. Sed ibi 
+<lb ed="#L" n="48"/>multa continentur de hominibus et de aliis rebus  
+<lb ed="#L" n="49"/>vcreatis. Ergo obiectum fidei non solum est 
+ve<lb break="no" ed="#L" n="50"/>ritas prima, sed etiam veritas creata. 
+</p>
+               <p xml:id="TAca84-d1e1277-d1e254">
+                  <lb ed="#L" n="51"/>3. PRAETEREA, fides caritati condividitur, ut 
+su<lb break="no" ed="#L" n="52"/>pra dictum est. Sed caritate non solum 
+diligi<lb break="no" ed="#L" n="53"/>mus Deum, qui est summa bonitas, sed etiam 
+<lb ed="#L" n="54"/>diligimus proximum. Ergo fidei obiectum non  
+<lb ed="#L" n="55"/>est solum veritas prima. 
+</p>
+               <p xml:id="TAca84-d1e1277-d1e267">
+                  <lb ed="#L" n="56"/>SED CONTRA EST quod Dionysius dicit, vit cap.  
+<lb ed="#L" n="57"/>de Div. Nom., quod fides est circa simplicem et 
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="58"/>semper existentem veritatem. Haec autem est 
+ve<lb break="no" ed="#L" n="59"/>ritas prima. Ergo obiectum fidei est veritas prima.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e280">
+                  <lb ed="#L" n="60"/>RESPONDEO DICENDUM quod cuiuslibet 
+cognosci<lb break="no" ed="#L" n="61"/>tivi habitus obiectum duo habet: scilicet id quod
+<lb ed="#L" n="62"/>materialiter cognoscitur, quod est sicut materiale
+<lb ed="#L" n="63"/>obiectum; et id per quod cognoscitur, quod est
+<lb ed="#L" n="64"/>formalis ratio obiecti. Sicut in scientia geometriae
+<lb ed="#L" n="65"/>materialiter scita sunt conclusiones; formalis vero
+<lb ed="#L" n="66"/>ratio sciendi sunt media demonstrationis, per quae
+<lb ed="#L" n="67"/>conclusiones cognoscuntur. Sic igitur in fide, si
+<lb ed="#L" n="68"/>consideremus formalem rationem obiecti, nihil
+<lb ed="#L" n="69"/>est aliud quam veritas prima: non enim fides de
+<lb ed="#L" n="70"/>qua loquimur assentit alicui nisi quia est a Deo
+<lb ed="#L" n="71"/>revelatum; unde ipsi veritati divinae innititur 
+tan<lb break="no" ed="#L" n="72"/>quam medio. Si vero consideremus materialiter
+<lb ed="#L" n="73"/>ea quibus fides assentit, non solum est ipse Deus,
+<lb ed="#L" n="74"/>sed etiam multa alia. Quae tamen sub assensu
+<lb ed="#L" n="75"/>fidei non cadunt nisi secundum quod habent
+<lb ed="#L" n="76"/>aliquem ordinem ad Deum: prout scilicet per
+<lb ed="#L" n="77"/>aliquos Divinitatis effectus homo adiuvatur ad
+<lb ed="#L" n="78"/>tendendum in divinam fruitionem. Et ideo etiam
+<lb ed="#L" n="79"/>ex hac parte obiectum fidei est quodammodo
+<lb ed="#L" n="80"/>veritas prima, inquantum nihil cadit sub fide nisi
+<lb ed="#L" n="81"/>in ordine ad Deum: sicut etiam obiectum 
+medi<lb break="no" ed="#L" n="82"/>cinae est sanitas, quia nihil medicina considerat
+<lb ed="#L" n="83"/>nisi in ordine ad sanitatem.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e335">
+                  <pb ed="#L" n="8"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD PRIMUM ERGO DICENDUM quod ea quae 
+per<lb break="no" ed="#L" n="2"/>tinent ad humanitatem Christi et ad sacramenta
+<lb ed="#L" n="3"/>Ecclesiae vel ad quascumque creaturas cadunt sub
+<lb ed="#L" n="4"/>fide inquantum per haec ordinamur ad Deum. Et
+<lb ed="#L" n="5"/>eis etiam assentimus propter divinam veritatem.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e353">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="6"/>Et similiter dicendum est ad secundum, de
+<lb ed="#L" n="7"/>omnibus illis quae in sacra Scriptura traduntur.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e362">
+                  <lb ed="#L" n="8"/>AD TERTIUM DICENDUM quod etiam caritas 
+di<lb break="no" ed="#L" n="9"/>ligit proximum propter Deum; et sic obiectum
+<lb ed="#L" n="10"/>eius proprie est ipse Deus, ut infra dicetur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1277-Dd1e372"><!-- p2p2-q1a2 -->
+               <head xml:id="TAca84-d1e1277-Hd1e375">Articulus 2</head>
+               <head xml:id="TAca84-d1e1277-Hd1e377" type="question-title">
+  utrum obiectum fidei sit aliquid complexum per modum enuntiabilis
+</head>
+               <p xml:id="TAca84-d1e1277-d1e380">
+                  <pb ed="#L" n="11"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM OBIECTUM FIDEI SIT ALIQUID COMPLEXUM PER MODUM ENUNTIABILIS
+</p>
+               <p xml:id="TAca84-d1e1277-d1e391">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>obiectum fidei non sit aliquid comple-
+<lb ed="#L" n="5"/>xum per modum enuntiabilis. Obiectum
+<lb ed="#L" n="6"/>enim fidei est veritas prima, sicut 
+di<lb break="no" ed="#L" n="7"/>ctum est. Sed prima veritas est aliquid 
+incom<lb break="no" ed="#L" n="8"/>plexum. Ergo obiectum fidei non est aliquid 
+com<lb break="no" ed="#L" n="9"/>plexum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e411">
+                  <lb ed="#L" n="10"/>2. PRAETEREA, expositio fidei in symbolo 
+con<lb break="no" ed="#L" n="11"/>tinetur. Sed in symbolo non ponuntur 
+enuntia<lb break="no" ed="#L" n="12"/>bilia, sed res: non enim dicitur ibi quod Deus
+<lb ed="#L" n="13"/>sit omnipotens, sed, Credo in Deum 
+omnipo<lb break="no" ed="#L" n="14"/>tentem. Ergo obiectum fidei non est enuntiabile,
+<lb ed="#L" n="15"/>sed res.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e428">
+                  <lb ed="#L" n="16"/>3. PRAETEREA, fidei succedit visio: secundum 
+<lb ed="#L" n="17"/>illud I ad Cor. xiii: Videmus nunc per 
+specu<lb break="no" ed="#L" n="18"/>lum in aenigmate, tunc autem facie ad faciem 
+<lb ed="#L" n="19"/>Sed visio. patriae est de incomplexo: cum sit
+<lb ed="#L" n="20"/>ipsius divinae essentiae. Ergo etiam fides viae.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e441">
+                  <lb ed="#L" n="21"/>SED coNTRA, fides est media inter scientiam
+<lb ed="#L" n="22"/>et opinionem. Medium autem et extrema sunt
+<lb ed="#L" n="23"/>eiusdem generis. Cum igitur scientia et opinio
+<lb ed="#L" n="24"/>sint circa enuntiabilia, videtur quod similiter fides
+<lb ed="#L" n="25"/>sit circa enuntiabilia. Et ita obiectum fidei, cum
+<lb ed="#L" n="26"/>fides sit circa  enuntiabilia, est aliquid 
+com<lb break="no" ed="#L" n="27"/>plexum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e459">
+                  <lb ed="#L" n="28"/>REsPoNpEO dicendum quod cognita sunt in 
+co<lb break="no" ed="#L" n="29"/>gnoscente secundum modum cognoscentis. Est
+<lb ed="#L" n="30"/>autem modus proprius humani intellectus ut ?
+<lb ed="#L" n="31"/>componendo et dividendo veritatem. cognoscat,
+<lb ed="#L" n="32"/>sicut in Primo dictum est. Et ideo ea quae sunt
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="33"/>secundum se simplicia intellectus humanus 
+co<lb break="no" ed="#L" n="34"/>gnoscit secundum quandam complexionem: sicut
+<lb ed="#L" n="35"/>e converso intellectus divinus incomplexe 
+cogno<lb break="no" ed="#L" n="36"/>scit ea quae sunt secundum se complexa. Sic
+<lb ed="#L" n="37"/>igitur obiectum fidei dupliciter considerari potest.
+<lb ed="#L" n="38"/>Uno modo, ex parte ipsius rei creditae: et sic
+<lb ed="#L" n="39"/>obiectum fidei est aliquid incomplexum, scilicet
+<lb ed="#L" n="40"/>res ipsa de qua fides habetur. Alio modo, ex
+<lb ed="#L" n="41"/>parte credentis: et secundum hoc.obiectum fidei
+<lb ed="#L" n="42"/>est aliquid complexum per modum enuntiabilis.
+<lb ed="#L" n="43"/>Et ideo utrumque vere opinatum fuit apud 
+an<lb break="no" ed="#L" n="44"/>tiquos, et secundum aliquid utrumque est 
+ve<lb break="no" ed="#L" n="45"/>rum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e503">
+                  <lb ed="#L" n="46"/>AD PRIMUM ERGO DICENDUM quod ratio illa 
+pro<lb break="no" ed="#L" n="47"/>cedit de obiecto fidei ex parte ipsius rei creditae.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e510">
+                  <lb ed="#L" n="48"/>AD SECUNDUM DICENDUM quod in symbolo 
+tan<lb break="no" ed="#L" n="49"/>guntur ea de quibus est fides inquantum ad ea
+<lb ed="#L" n="50"/>terminatur actus credentis: ut ex ipso modo 
+lo<lb break="no" ed="#L" n="51"/>quendi apparet. Actus autem credentis non 
+termi<lb break="no" ed="#L" n="52"/>natur ad enuntiabile, sed ad rem: non enim 
+forma<lb break="no" ed="#L" n="53"/>mus enuntiabilia nisi ut per ea de rebus 
+cognitio<lb break="no" ed="#L" n="54"/>nem habeamus, sicut in scientia, ita et in fide.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e528">
+                  <lb ed="#L" n="55"/>AD TERTIUM DICENDUM quod visio patriae erit
+<lb ed="#L" n="56"/>veritatis primae secundum quod in se est: 
+se<lb break="no" ed="#L" n="57"/>cundum illud 1 Ioan. III: Cum apparuerit, 
+si<lb break="no" ed="#L" n="58"/>miles ei erimus et videbimus eum sicuti est. Et
+<lb ed="#L" n="59"/>ideo visio illa erit non per modum enuntiabilis,
+<lb ed="#L" n="60"/>sed per modum simplicis intelligentiae. Sed per
+<lb ed="#L" n="61"/>fidem non apprehendimus veritatem primam sicut
+<lb ed="#L" n="62"/>in se est. Unde non est similis ratio.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1277-Dd1e549"><!-- p2p2-q1a3 -->
+               <head xml:id="TAca84-d1e1277-Hd1e552">Articulus 3</head>
+               <head xml:id="TAca84-d1e1277-Hd1e554" type="question-title">Utrum fidei possit subesse falsum</head>
+               <p xml:id="TAca84-d1e1277-d1e557">
+                  <pb ed="#L" n="12"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM FIDEI POSSIT SUBESSE FALSUM
+</p>
+               <p xml:id="TAca84-d1e1277-d1e568">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD TERTIUM SIC.PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>fidei possit subesse falsum. Fides enim
+<lb ed="#L" n="5"/>Ja deni nol spei et caritati. Sed. spei
+<lb ed="#L" n="6"/>Npotest aliquid subesse falsum : . multi
+<lb ed="#L" n="7"/>enim sperant se habituros vitam aeternam qui
+<lb ed="#L" n="8"/>non habebunt. Similiter etiam. et caritati: multi
+<lb ed="#L" n="9"/>enim diligantur tanquam boni qui tamen boni
+<lb ed="#L" n="10"/>non sunt, Ergo etiam fidei potest aliquid. 
+sub<lb break="no" ed="#L" n="11"/>esse falsum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e592">
+                  <lb ed="#L" n="12"/>2. PRAETEREA, Abraham .:credidit Christum 
+na<lb break="no" ed="#L" n="13"/>sciturum : secundum illud Ioan. vii: nale
+<lb ed="#L" n="14"/>pater vester, exultavit ut viderel diem meum. Sed
+<lb ed="#L" n="15"/>post tempus Abrahae Deus poterat non incarnari,
+<lb ed="#L" n="16"/>sola enim sua voluntate carnem accepit: et ita
+<lb ed="#L" n="17"/>esset falsum quod Abraham. de Christo credidit.
+<lb ed="#L" n="18"/>Ergo fidei potest subesse: falsum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e611">
+                  <lb ed="#L" n="19"/>3. PRAETEREA, fides antiquorum fuit qiiod 
+Chri<lb break="no" ed="#L" n="20"/>stus esset nasciturus, et haec fides duravit in
+<lb ed="#L" n="21"/>multis usque ad. praedicationem Evangelii. Sed
+<lb ed="#L" n="22"/>Christo iam :nato; antequam praedicare 
+inci<lb break="no" ed="#L" n="23"/>peret, falsum. erat Christum nasciturum. Ergo
+<lb ed="#L" n="24"/>fidei potest subesse falsum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e627">
+                  <lb ed="#L" n="25"/>4. PRAETEREA, unum de pertinentibus ad fidem
+<lb ed="#L" n="26"/>est ut aliquis. credat sub Sacramento Altaris 
+ve<lb break="no" ed="#L" n="27"/>rum corpus Christi. contineri. Potest autem 
+con<lb break="no" ed="#L" n="28"/>tingere, quando non recte consecratur, quod. non
+<lb ed="#L" n="29"/>est ibi verum corpus Christi, sed solum panis.
+<lb ed="#L" n="30"/>Ergo fidei potest subesse falsum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e643">
+                  <lb ed="#L" n="31"/>SED CONTRA, nulla virtus perficiens intellectum
+<lb ed="#L" n="32"/>se habet ad falsum secundum quod est malum 
+in<lb break="no" ed="#L" n="33"/>tellectus: ut patet per Philosophum, in VI Ethic.
+<lb ed="#L" n="34"/>Sed fides est quaedam virtus perficiens 
+intelle<lb break="no" ed="#L" n="35"/>ctum, ut infra patebit. Ergo ei non potest 
+sub<lb break="no" ed="#L" n="36"/>esse falsum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e659">
+                  <lb ed="#L" n="37"/>RESPONDEO DICENDUM quod nihil subest alicui
+<lb ed="#L" n="38"/>potentiae vel habitui, aut etiam actui, nisi 
+me<lb break="no" ed="#L" n="39"/>diante ratione formali obiecti: sicut color 
+vi<lb break="no" ed="#L" n="40"/>deri non potest nisi per lucem ?, et conclusio
+<lb ed="#L" n="41"/>sciri non potest nisi per medium demonstrationis.
+<lb ed="#L" n="42"/>Dictum est autem quod ratio formalis obiecti
+<lb ed="#L" n="43"/>fidei est veritas prima. Unde nihil potest cadere
+<lb ed="#L" n="44"/>sub fide nisi inquantum stat sub veritate prima.
+<lb ed="#L" n="45"/>Sub qua nullum falsum stare potest: sicut nec
+<lb ed="#L" n="46"/>non-ens sub ente, nec malum sub bonitate.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e683">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="47"/>Unde relinquitur quod fidei non potest subesse
+<lb ed="#L" n="48"/>aliquod falsum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e692">
+                  <lb ed="#L" n="49"/>AD PRIMUM ERGO DICENDUM quod, quia verum
+<lb ed="#L" n="50"/>est bonum intellectus, non autem est bonum
+<lb ed="#L" n="51"/>appetitivae. virtutis, ideo omnes virtutes. quae
+<lb ed="#L" n="52"/>perficiunt intellectum excludunt totaliter falsum:
+<lb ed="#L" n="53"/>quia de ratione virtutis est quod se habeat. 
+so<lb break="no" ed="#L" n="54"/>lum. ad bonum. Virtutes. autem perficientes 
+par<lb break="no" ed="#L" n="55"/>tem appetitivam. non excludunt totaliter falsum:
+<lb ed="#L" n="56"/>potest enim aliquis secundum: iustitiam aut 
+tem<lb break="no" ed="#L" n="57"/>perantiam agere aliquam falsam opinionem 
+ha<lb break="no" ed="#L" n="58"/>bens de eo circa quod agit. Et ita, cum- fides
+<lb ed="#L" n="59"/>perficiat intellectum, spes autem et caritas 
+ap<lb break="no" ed="#L" n="60"/>petitivam. partem,: non est similis ratio de eis.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e722">
+                  <lb ed="#L" n="61"/>Et tamen neque etiam spei subest falsum. Non
+<lb ed="#L" n="62"/>enim aliquis sperat.se habiturum vitam aeternam
+<lb ed="#L" n="63"/>secundum propriam potestatem (hoc enim: esset
+<lb ed="#L" n="64"/>praesumptionis), sed secundum. auxilium gratiae:
+<lb ed="#L" n="65"/>in qua si perseveraverit, omnino infallibiliter
+<lb ed="#L" n="66"/>vitam aeternam consequetur. - Similiter etiam ad
+<lb ed="#L" n="67"/>caritatem pertinet diligere Deum in quocumque
+<lb ed="#L" n="68"/>fuerit. Unde non refert ad caritatem. utrum an
+<lb ed="#L" n="69"/>isto sit Deus qui propter Deum diligitur.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e744">
+                  <lb ed="#L" n="70"/>AD SECUNDUM DICENDUM quod Deum non 
+incar<lb break="no" ed="#L" n="71"/>nari, secundum se consideratum, fuit possibile
+<lb ed="#L" n="72"/>etiam post tempus Abrahae. Sed secundum: quod
+<lb ed="#L" n="73"/>cadit sub praescientia divina, habet quandam
+<lb ed="#L" n="74"/>necessitatem infallibilitatis, ut. in. Primo. dictum
+<lb ed="#L" n="75"/>est. Et hoc. modo cadit sub fide. Unde prout
+<lb ed="#L" n="76"/>cadit sub fide, non potest esse falsum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e762">
+                  <lb ed="#L" n="77"/>AD TERTIUM DICENDUM quod hoc ad fidem 
+cre<lb break="no" ed="#L" n="78"/>dentis pertinebat post Christi nativitatem quod
+<lb ed="#L" n="79"/>crederet eum quandoque nasci, Sed illa 
+deter<lb break="no" ed="#L" n="80"/>minatio temporis, in qua decipiebatur, non. erat
+<lb ed="#L" n="81"/>ex fide, sed ex coniectura humana. Possibile est
+<lb ed="#L" n="82"/>enim hominem fidelem ex coniectura humana
+<lb ed="#L" n="83"/>falsum aliquid aestimare. Sed quod ex fide 
+fal<lb break="no" ed="#L" n="84"/>sum aestimet, hoc est impossibile.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e782">
+                  <lb ed="#L" n="85"/>AD QUARTUM DICENDUM quod fides credentis no
+<lb ed="#L" n="86"/>refertur ad has species panis vel illas: sed "id
+<lb ed="#L" n="87"/>hoc. .quod verum corpus Christi sit sub speciebus
+<lb ed="#L" n="88"/>panis sensibilis quando recte fuerit consecratum.
+<lb ed="#L" n="89"/>Unde si non sit recte consecratum, fidei non
+<lb ed="#L" n="90"/>suberit propter hoc falsum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1277-Dd1e799"><!-- p2p2-q1a4 -->
+               <head xml:id="TAca84-d1e1277-Hd1e802">Articulus 4</head>
+               <head xml:id="TAca84-d1e1277-Hd1e804" type="question-title">Utrum obiectum fidei possit esse aliquid visum</head>
+               <p xml:id="TAca84-d1e1277-d1e807">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="76"/>ARTICULUS QUARTUS
+<lb ed="#L" n="77"/>UTRUM OBIECTUM FIDEI POSSIT ESSE ALIQUID VISUM
+</p>
+               <p xml:id="TAca84-d1e1277-d1e816">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="78"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="79"/>obiectum fidei sit aliquid visum. Dicit
+<lb ed="#L" n="80"/>enim Dominus Thomae, loan. xx:
+<lb ed="#L" n="81"/>Quia vidisti me, credidisti. Ergo et
+<lb ed="#L" n="82"/>de eodem est visio et fides.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e832">
+                  <lb ed="#L" n="83"/>2. PRAETEREA, Apostolus, I ad. Cor. xui, dicit:
+<lb ed="#L" n="84"/>Videmus nunc per speculum in aenigmate. Et 
+lo<lb break="no" ed="#L" n="85"/>quitur de cognitione fidei. Ergo id quod 
+credi<lb break="no" ed="#L" n="86"/>tur videtur.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e844">
+                  <lb ed="#L" n="87"/>3. PRAETEREA, fides est quoddam spirituale 
+lu<lb break="no" ed="#L" n="88"/>men.. Sed quolibet lumine aliquid videtur. "Ergo
+<lb ed="#L" n="89"/>fides est de rebus visis.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e853">
+                  <lb ed="#L" n="90"/>4. PRAETEREA, quilibet sensus visus nominatur:
+<lb ed="#L" n="91"/>ut Augustinus dicit, in libro de Verb. Dom. Sed
+<lb ed="#L" n="92"/>fides est de auditis: secundum illud ad Rom. x:
+<lb ed="#L" n="93"/>Fides ex auditu. Ergo fides est de rebus visis.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e864">
+                  <lb ed="#L" n="94"/>SED coNTRA EsT quod Apostolus dicit, ad
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>Heb. xi, quod fides est argumentum non 
+appa<lb break="no" ed="#L" n="96"/>rentium.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e875">
+                  <lb ed="#L" n="97"/>RESPONDEO DICENDUM quod fides importat 
+as<lb break="no" ed="#L" n="98"/>sensum intellectus ad id quod creditur. Assentit
+<lb ed="#L" n="99"/>autem alicui intellectus dupliciter. Uno modo,
+<lb ed="#L" n="100"/>quia ad hoc movetur ab ipso obiecto, quod est
+<lb ed="#L" n="101"/>vel? per seipsum cognitum, sicut patet in 
+prin<lb break="no" ed="#L" n="102"/>cipis primis, quorum est intellectus; vel est per
+<lb ed="#L" n="103"/>aliud cognitum, sicut patet de conclusionibus ,
+<lb ed="#L" n="104"/>quarum est scientia. Alio modo intellectus 
+as<lb break="no" ed="#L" n="105"/>sentit alicui non quia sufficienter moveatur ab
+<lb ed="#L" n="106"/>obiecto proprio, sed per quandam electionem 
+vo<lb break="no" ed="#L" n="107"/>luntarie declinans in unam partem magis quam
+<lb ed="#L" n="108"/>in aliam. Et si quidem hoc fit cum dubitatione
+<lb ed="#L" n="109"/>et formidine alterius partis, erit opinio: si autem
+<lb ed="#L" n="110"/>fit cum certitudine absque tali formidine, erit
+<lb ed="#L" n="111"/>fides. Illa autem videri dicuntur quae per seipsa
+<pb ed="#L" n="14"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>movent intellectum nostrum vel sensum ad sui
+<lb ed="#L" n="2"/>cognitionem. Unde manifestum est quod nec
+<lb ed="#L" n="3"/>fides nec opinio potest esse de visis aut 
+secun<lb break="no" ed="#L" n="4"/>dum sensum aut secundum intellectum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e923">
+                  <lb ed="#L" n="5"/>AD PRIMUM ERGO DICENDUM quod Thomas aliud
+<lb ed="#L" n="6"/>vidit et aliud. credidit. Hominem vidit et. Deum
+<lb ed="#L" n="7"/>credens confessus est, cum dixit: Dominus meus
+<lb ed="#L" n="8"/>et Deus meus.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e934">
+                  <lb ed="#L" n="9"/>AD SECUNDUM DICENDUM quod ea quae subsunt
+<lb ed="#L" n="10"/>fidei dupliciter considerari possunt. Uno modo,
+<lb ed="#L" n="11"/>in speciali: et sic non possunt esse simul' visa
+<lb ed="#L" n="12"/>et credita, sicut dictum est. Alio modo, in 
+ge<lb break="no" ed="#L" n="13"/>nerali, scilicet sub communi ratione credibilis.
+<lb ed="#L" n="14"/>Et sic sunt visa ab eo qui credit: non enim cre-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="15"/>deret nisi videret ea esse credenda, vel propter.
+<lb ed="#L" n="16"/>evidentiam signorum vel propter aliquid 
+huius<lb break="no" ed="#L" n="17"/>modi.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e959">
+                  <lb ed="#L" n="18"/>AD TERTIUM DICENDUM quod lumen fidei facit
+<lb ed="#L" n="19"/>videre ea quae creduntur. Sicut enim per alios
+<lb ed="#L" n="20"/>habitus virtutum homo videt illud quod est sibi
+<lb ed="#L" n="21"/>conveniens secundum habitum illum, ita etiam
+<lb ed="#L" n="22"/>per habitum fidei inclinatur mens hominis ad
+<lb ed="#L" n="23"/>assentiendum his quae conveniunt rectae fidei
+<lb ed="#L" n="24"/>et non alis.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e977">
+                  <lb ed="#L" n="25"/>AD QUARTUM DICENDUM quod auditus est 
+ver<lb break="no" ed="#L" n="26"/>borum significantium ea quae sunt fidei: non
+<lb ed="#L" n="27"/>autem est ipsarum rerum de quibus est fides.
+<lb ed="#L" n="28"/>Et sic non oportet ut huiusmodi res sint visae.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1277-Dd1e989"><!-- p2p2-q1a5 -->
+               <head xml:id="TAca84-d1e1277-Hd1e992">Articulus 5</head>
+               <head xml:id="TAca84-d1e1277-Hd1e994" type="question-title">Utrum ea quae sunt fidei possint esse scita</head>
+               <p xml:id="TAca84-d1e1277-d1e997">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="55"/>ARTICULUS QUINTUS
+<lb ed="#L" n="56"/>UTRUM EA QUAE SUNT FIDEI POSSINT ESSE SCITA
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1006">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="57"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="58"/>M SANA ea quae sunt fidei possint esse scita.
+<lb ed="#L" n="59"/>Ea enim quae non sciuntur videntur
+<lb ed="#L" n="60"/>esse ignorata: quia ignorantia 
+scien<lb break="no" ed="#L" n="61"/>tiae opponitur. Sed ea quae sunt fidei non sunt
+<lb ed="#L" n="62"/>ignorata: horum enim ignorantia ad infidelitatem
+<lb ed="#L" n="63"/>pertinet, secundum illud I ad Tim. 1: Ignorans
+<lb ed="#L" n="64"/>feci in incredulitate mea. Ergo ea quae sunt fidei
+<lb ed="#L" n="65"/>possunt esse scita.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1030">
+                  <lb ed="#L" n="66"/>2. PRAETEREA, scientia per rationes acquiritur.
+<lb ed="#L" n="67"/>Sed ad ea quae sunt fidei a sacris auctoribus
+<lb ed="#L" n="68"/>rationes inducuntur. Ergo ea quae sunt fidei
+<lb ed="#L" n="69"/>possunt esse scita.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1042">
+                  <lb ed="#L" n="70"/>3. PRAETEREA, ea quae demonstrative 
+pro<lb break="no" ed="#L" n="71"/>bantur sunt scita: quia demonstratio est 
+syilo<lb break="no" ed="#L" n="72"/>gismus faciens scire. Sed quaedam quae in fide
+<lb ed="#L" n="73"/>continentur sunt demonstrative probata a 
+philo<lb break="no" ed="#L" n="74"/>sophis: sicut Deum esse, et Deum esse unum,
+<lb ed="#L" n="75"/>et alia huiusmodi. Ergo ea quae sunt fidei 
+pos<lb break="no" ed="#L" n="76"/>sunt esse scita.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1060">
+                  <lb ed="#L" n="77"/>4. PRAETEREA, opinio plus distat a scientia quam
+<lb ed="#L" n="78"/>fides: cum fides dicatur esse media inter 
+opinio<lb break="no" ed="#L" n="79"/>nem et scientiam. Sed opinio et scienlia possunt
+<lb ed="#L" n="80"/>esse aliquo modo de eodem, ut. dicitur in I Poster.
+<lb ed="#L" n="81"/>Ergo etiam fides et scientia.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1073">
+                  <lb ed="#L" n="82"/>SED coNTRA EST quod Gregorius dicit, quod
+<lb ed="#L" n="83"/>apparentia non habent fidem, sed agnitionem. Ea
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="84"/>ergo de quibus est fides agnitionem non 
+ha<lb break="no" ed="#L" n="85"/>bent. Sed ea quae sunt scita habent agnitionem.
+<lb ed="#L" n="86"/>Ergo de his quae sunt scita non potest "esse
+<lb ed="#L" n="87"/>fides.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1091">
+                  <lb ed="#L" n="88"/>RESPONDEO DICENDUM ("dod omnis scientia 
+ha<lb break="no" ed="#L" n="89"/>betur per aliqua principia per se nota, et per 
+con<lb break="no" ed="#L" n="90"/>sequens visa. Et ideo oportet quaecumque sunt
+<lb ed="#L" n="91"/>scita aliquo modo esse visa. Non autem est 
+pos<lb break="no" ed="#L" n="92"/>sibile quod idem ab eodem sit creditum et visum,
+<lb ed="#L" n="93"/>sicut supra dictum est. Unde etiam 
+impossi<lb break="no" ed="#L" n="94"/>bile est quod ab eodem idem sit scitum et 
+cre<lb break="no" ed="#L" n="95"/>ditum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1111">
+                  <lb ed="#L" n="96"/>Potest tamen contingere ut id quod est visum
+<lb ed="#L" n="97"/>vel scitum ab uno, sit creditum ab alio. Ea enim
+<lb ed="#L" n="98"/>quae de Trinitate credimus nos visuros 
+spera<lb break="no" ed="#L" n="99"/>mus, secundum illud I ad Cor. xiu: Videmus
+<lb ed="#L" n="100"/>nunc per speculum in aenigmate, tunc autem facie
+<lb ed="#L" n="101"/>ad faciem: quam. quidem visionem iam angeli
+<lb ed="#L" n="102"/>habent: unde quod nos credimus illi vident. Et
+<lb ed="#L" n="103"/>similiter potest contingere ut id quod est visum
+<lb ed="#L" n="104"/>vel scitum ab uno homine, etiam in statu viae,
+<lb ed="#L" n="105"/>sit ab alio creditum, qui hoc demonstrative. non
+<lb ed="#L" n="106"/>novit. Id tamen quod communiter omnibus- 
+ho<lb break="no" ed="#L" n="107"/>minibus proponitur ut credendum est communiter
+<lb ed="#L" n="108"/>non scitum. Et ista sunt quae simpliciter fidei
+<lb ed="#L" n="109"/>subsunt. Et ideo fides et scientia non sunt de
+<lb ed="#L" n="110"/>eodem.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1146">
+                  <pb ed="#L" n="17"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD PRIMUM ERGO DICENDUM quod infideles eorum
+<lb ed="#L" n="2"/>quae sunt fidei ignorantiam habent: quia nec '
+<lb ed="#L" n="3"/>vident aut sciunt ea in seipsis, nec cognoscunt ea
+<lb ed="#L" n="4"/>esse credibilia. Sed per hunc modum fideles 
+ha<lb break="no" ed="#L" n="5"/>bent eorum notitiam, non quasi demonstrative,
+<lb ed="#L" n="6"/>sed inquantum per lumen fidei videntur esse 
+cre<lb break="no" ed="#L" n="7"/>denda, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1169">
+                  <lb ed="#L" n="8"/>AD SECUNDUM DICENDUM quod rationes quae 
+in<lb break="no" ed="#L" n="9"/>ducuntur a Sanctis ad probandum ea quae sunt
+<lb ed="#L" n="10"/>fidei non sunt demonstrativae, sed persuasiones
+<lb ed="#L" n="11"/>quaedam manifestantes non esse impossibile quod
+<lb ed="#L" n="12"/>in fide: proponitur. Vel. procedunt ex principiis
+<lb ed="#L" n="13"/>fidei, scilicet ex auctoritatibus sacrae Scripturae:
+<lb ed="#L" n="14"/>sicut Dionysius dicit, it cap. de Div. Nom.
+<lb ed="#L" n="15"/>Ex his autem principiis ita probatur aliquid apud
+<lb ed="#L" n="16"/>fideles sicut etiam ex principiis naturaliter notis
+<lb ed="#L" n="17"/>probatur aliquid apud omnes. Unde etiam 
+theo<lb break="no" ed="#L" n="18"/>logia." scientia est, ut in principio Operis 
+di<lb break="no" ed="#L" n="19"/>ctum est.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1198">
+                  <lb ed="#L" n="20"/>AD TERTIUM DICENDUM quod ea quae 
+demon<lb break="no" ed="#L" n="21"/>strative probari possunt inter credenda 
+numeran<lb break="no" ed="#L" n="22"/>tur, non quia de ipsis sit simpliciter fides apud
+<lb ed="#L" n="23"/>omnes: sed quia praeexiguntur ad ea quae sunt
+<lb ed="#L" n="24"/>fidei, et oportet ea saltem per fidem praesupponi
+<lb ed="#L" n="25"/>ab his qui horum. demonstrationem non habent.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1214">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="26"/>AD QUARTUM DICENDUM quod, sicut Philosophus
+<lb ed="#L" n="27"/>ibidem dicit, a diversis hominibus de eodem
+<lb ed="#L" n="28"/>omnino potest haberi scientia et opinio, sicut et
+<lb ed="#L" n="29"/>nunc dictum est de scientia et fide. Sed ab
+<lb ed="#L" n="30"/>uno et eodem potest quidem haberi fides et
+<lb ed="#L" n="31"/>scientia de eodem secundum quid, scilicet 
+sub<lb break="no" ed="#L" n="32"/>iecto, sed non secundum idem: potest enim esse
+<lb ed="#L" n="33"/>quod de una et eadem re aliquis aliquid sciat
+<lb ed="#L" n="34"/>et aliquid aliud opinetur "; et similiter de Deo
+<lb ed="#L" n="35"/>potest aliquis demonstrative scire quod sit unus,
+<lb ed="#L" n="36"/>et credere quod sit trinus. Sed de eodem 
+secun<lb break="no" ed="#L" n="37"/>dum idem non potest esse simul in uno homine
+<lb ed="#L" n="38"/>scientia nec cum opinione nec cum fide, alia
+<lb ed="#L" n="39"/>tamen et alia ratione. Scientia enim cum 
+opi<lb break="no" ed="#L" n="40"/>nione simul esse non potest simpliciter de eodem,
+<lb ed="#L" n="41"/>quia de ratione scientiae est quod id quod scitur
+<lb ed="#L" n="42"/>existimetur esse impossibile aliter se habere; de
+<lb ed="#L" n="43"/>ratione autem opinionis est quod id quod quis
+<lb ed="#L" n="44"/>existimat, existimet possibile aliter se habere.
+<lb ed="#L" n="45"/>Sed. id quod.fide tenetur, propter fidei 
+certitu<lb break="no" ed="#L" n="46"/>dinem, existimatur etiam impossibile aliter se 
+ha<lb break="no" ed="#L" n="47"/>bere: sed ea ratione non potest simul idem et
+<lb ed="#L" n="48"/>secundum idem esse scitum et creditum, quia
+<lb ed="#L" n="49"/>scitum est visum et creditum est non visum, ut
+<lb ed="#L" n="50"/>dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1277-Dd1e1275"><!-- p2p2-q1a6 -->
+               <head xml:id="TAca84-d1e1277-Hd1e1278">Articulus 6</head>
+               <head xml:id="TAca84-d1e1277-Hd1e1280" type="question-title">Utrum credibilia sint per certos articulos distinguenda</head>
+               <p xml:id="TAca84-d1e1277-d1e1283">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="19"/>ARTICULUS SEXTUS
+<lb ed="#L" n="20"/>UTRUM CREDIBILIA SINT PER CERTOS ARTICULOS DISTINGUENDA
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1292">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="21"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="22"/>credibilia non sint per certos articulos
+<lb ed="#L" n="23"/>distinguenda. Eorum enim omnium
+<lb ed="#L" n="24"/>quae in sacra Scriptura continentur est
+<lb ed="#L" n="25"/>fides habenda. Sed illa non possunt reduci ad
+<lb ed="#L" n="26"/>aliquem certum numerum, propter sui 
+multitu<lb break="no" ed="#L" n="27"/>dinem. Ergo superfluum videtur articulos fidei
+<lb ed="#L" n="28"/>distinguere.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1314">
+                  <lb ed="#L" n="29"/>2. PRAETEREA, materialis distinctio, cum in 
+in<lb break="no" ed="#L" n="30"/>finitum fieri possit, est ab arte praetermittenda.
+<lb ed="#L" n="31"/>Sed formalis ratio obiecti credibilis est una et
+<lb ed="#L" n="32"/>indivisibilis, ut supra dictum est, scilicet veritas
+<lb ed="#L" n="33"/>prima: et sic secundum rationem formalem 
+credi<lb break="no" ed="#L" n="34"/>bilia distingui non possunt. Ergo praetermittenda
+<lb ed="#L" n="35"/>est credibilium materialis distinctio per articulos.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1333">
+                  <lb ed="#L" n="36"/>3. PRAETEREA, sicut a quibusdam dicitur, 
+ar<lb break="no" ed="#L" n="37"/>ticulus est indivisibilis veritas de Deo arctans nos
+<lb ed="#L" n="38"/>ad credendum. Sed credere est voluntarium:
+<lb ed="#L" n="39"/>quia, sicut Augustinus dicit, nullus credit nisi
+<lb ed="#L" n="40"/>volens. Ergo videtur quod inconvenienter 
+distin<lb break="no" ed="#L" n="41"/>guantur credibilia per articulos.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1349">
+                  <lb ed="#L" n="42"/>SED coNTRA EsT quod Isidorus dicit: Articulus
+<lb ed="#L" n="43"/>est perceplio divinae veritatis tendens in ipsam.
+<lb ed="#L" n="44"/>Sed perceptio divinae veritatis competit nobis
+<lb ed="#L" n="45"/>secundum distinctionem quandam: quae enim in
+<lb ed="#L" n="46"/>Deo unum sunt in nostro intellectu 
+multiplican<lb break="no" ed="#L" n="47"/>tur. Ergo credibilia debent per articulos distingui.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1365">
+                  <lb ed="#L" n="48"/>RESPONDEO DICENDUM quod nomen articuli ex
+<lb ed="#L" n="49"/>graeco videtur esse derivatum. Arthron enim
+<lb ed="#L" n="50"/>in graeco, quod in latino articulus dicitur, 
+signi<lb break="no" ed="#L" n="51"/>ficat quandam coaptationem aliquarum partium
+<lb ed="#L" n="52"/>distinctarum. Et ideo particulae corporis sibi 
+in<lb break="no" ed="#L" n="53"/>vicem coaptatae dicuntur membrorum articuli.
+<lb ed="#L" n="54"/>Et similiter in grammatica apud graecos dicuntur
+<lb ed="#L" n="55"/>articuli quaedam partes orationis coaptatae aliis
+<lb ed="#L" n="56"/>dictionibus ad exprimendum earum genus, 
+nu<lb break="no" ed="#L" n="57"/>merum vel casum. Et similiter in rhetorica 
+arti<lb break="no" ed="#L" n="58"/>culi dicuntur quaedam partium coaptationes: dicit
+<lb ed="#L" n="59"/>enim Tullius, in IV Ret., quod articulus dicitur
+<lb ed="#L" n="60"/>cum singula verba intervallis distinguuntur caesa
+<lb ed="#L" n="61"/>oratione, hoc modo: Acrimonia, voce, vultu 
+ad<lb break="no" ed="#L" n="62"/>versarios perterruisti. Unde et credibilia fidei
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="63"/>Christianae dicuntur per articulos distingui 
+in<lb break="no" ed="#L" n="64"/>quantum in quasdam partes dividuntur habentes
+<lb ed="#L" n="65"/>aliquam coaptationem ad invicem.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1409">
+                  <lb ed="#L" n="66"/>Est autem obiectum fidei aliquid non visum
+<lb ed="#L" n="67"/>circa divina, ut supra dictum est. Et ideo ubi
+<lb ed="#L" n="68"/>Occurrit aliquid speciali ratione non visum, ibi
+<lb ed="#L" n="69"/>est specialis articulus: ubi autem multa 
+secun<lb break="no" ed="#L" n="70"/>dum eandem rationem sunt incognita ?, ibi non
+<lb ed="#L" n="71"/>sunt articuli distinguendi. Sicut aliam 
+difficulta<lb break="no" ed="#L" n="72"/>tem habet ad videndum quod Deus sit passus,
+<lb ed="#L" n="73"/>et aliam quod mortuus resurrexerit: et ideo
+<lb ed="#L" n="74"/>distinguitur articulus resurrectionis ab articulo
+<lb ed="#L" n="75"/>passionis. Sed quod sit passus, mortuus et 
+se<lb break="no" ed="#L" n="76"/>pultus, unam et eandem difficultatem habent,
+<lb ed="#L" n="77"/>ita quod, uno suscepto, non est difficile alia
+<lb ed="#L" n="78"/>suscipere: et propter hoc omnia haec pertinent
+<lb ed="#L" n="79"/>ad unum articulum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1442">
+                  <lb ed="#L" n="80"/>AD PRIMUM ERGO DICENDUM quod aliqua sunt
+<lb ed="#L" n="81"/>credibilia de quibus est fides secundum se; aliqua
+<lb ed="#L" n="82"/>vero sunt credibilia de quibus non est fides 
+se<lb break="no" ed="#L" n="83"/>cundum se, sed solum in ordine ad alia: sicut
+<lb ed="#L" n="84"/>etiam in aliis scientiis quaedam proponuntur ut
+<lb ed="#L" n="85"/>per se intenta, et quaedam ad manifestationem
+<lb ed="#L" n="86"/>aliorum. Quia vero fides principaliter est de his
+<lb ed="#L" n="87"/>quae videnda speramus in patria, secundum illud
+<lb ed="#L" n="88"/>Heb. xi: Fides est substantia sperandarum 
+re<lb break="no" ed="#L" n="89"/>rum; ideo per se ad fidem pertinent illa quae 
+dire<lb break="no" ed="#L" n="90"/>cte nos ordinant ad vitam aeternam: sicut sunt
+<lb ed="#L" n="91"/>tres Personae, omnipotentia Dei, mysterium 
+in<lb break="no" ed="#L" n="92"/>carnationis Christi, et alia huiusmodi. Et 
+secun<lb break="no" ed="#L" n="93"/>dum ista distinguuntur articuli fidei. Quaedam
+<lb ed="#L" n="94"/>vero proponuntur in sacra Scriptura ut credenda
+<lb ed="#L" n="95"/>non quasi principaliter intenta, sed ad 
+praedicto<lb break="no" ed="#L" n="96"/>rum manifestationem: sicut quod Abraham habuit
+<lb ed="#L" n="97"/>duos filios, quod ad tactum ossium Elisaei
+<lb ed="#L" n="98"/>suscitatus est mortuus, et alia huiusmodi, quae
+<lb ed="#L" n="99"/>narrantur in sacra Scriptura in ordine ad 
+mani<lb break="no" ed="#L" n="100"/>festationem divinae maiestatis vel incarnationis
+<lb ed="#L" n="101"/>Christi, Et secundum talia non oportet articulos .
+<lb ed="#L" n="102"/>distinguere.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1494">
+                  <lb ed="#L" n="103"/>Ad SECUNDUM DICENDUM quod ratio formalis
+<lb ed="#L" n="104"/>obiecti fidei potest accipi dupliciter. Uno modo,
+<pb ed="#L" n="19"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ex parte ipsius rei creditae. Et sic ratio 
+forma<lb break="no" ed="#L" n="2"/>lis omnium  credibilium est una, scilicet veritas
+<lb ed="#L" n="3"/>prima. Et ex hac parte articuli non 
+distinguun<lb break="no" ed="#L" n="4"/>tur. Alio modo potest accipi formalis ratio 
+cre<lb break="no" ed="#L" n="5"/>dibilium ex parte nostra. Et sic ratio formalis
+<lb ed="#L" n="6"/>credibilis est ut sit non visum. Et ex hac parte
+<lb ed="#L" n="7"/>articuli fidei distinguuntur, ut visum est.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1521">
+                  <lb ed="#L" n="8"/>AD. TERTIUM DICENDUM quod illa definitio datur
+<lb ed="#L" n="9"/>de articulo magis secundum quandam etymolo-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>giam nominis prout habet. derivationem latinam,
+<lb ed="#L" n="11"/>quam secundum eius veram significationem prout
+<lb ed="#L" n="12"/>a graeco derivatur. Unde non est magni 
+ponde<lb break="no" ed="#L" n="13"/>ris. - Potest tamen dici quod, licet ad credendum
+<lb ed="#L" n="14"/>necessitate coactionis nullus arctetur, cum credere
+<lb ed="#L" n="15"/>sit voluntarium; arctatur tamen necessitate finis,
+<lb ed="#L" n="16"/>quia accedentem ad Deum oportet credere, et sine
+<lb ed="#L" n="17"/>fide impossibile. est. placere Deo, ut Apostolus
+<lb ed="#L" n="18"/>dicit, Heb. xi.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1277-Dd1e1551"><!-- p2p2-q1a7 -->
+               <head xml:id="TAca84-d1e1277-Hd1e1554">Articulus 7</head>
+               <head xml:id="TAca84-d1e1277-Hd1e1556" type="question-title">Utrum articuli fidei secundum successionem temporum creverint</head>
+               <p xml:id="TAca84-d1e1277-d1e1559">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="40"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="41"/>UTRUM ARTICULI FIDEI SECUNDUM SUCCESSIONEM TEMPORUM CREVERINT
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1568">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="42"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="43"/>articuli fidei non creverint secundum
+<lb ed="#L" n="44"/>aX temporum successionem. Quia, ut 
+Apo<lb break="no" ed="#L" n="45"/>stolus dicit, ad Heb. xi, fides est 
+sub<lb break="no" ed="#L" n="46"/>stantia sperandarum. rerum. Sed omni tempore
+<lb ed="#L" n="47"/>sunt eadem speranda. Ergo omni tempore sunt
+<lb ed="#L" n="48"/>eadem credenda.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1588">
+                  <lb ed="#L" n="49"/>2. PRAETEREA, in scientiis humanitus ordinatis
+<lb ed="#L" n="50"/>per successionem temporum augmentum factum
+<lb ed="#L" n="51"/>est propter defectum cognitionis in primis qui
+<lb ed="#L" n="52"/>scientias invenerunt: ut patet per Philosophum,
+<lb ed="#L" n="53"/>in II Metaphys. Sed doctrina fidei non est 
+in<lb break="no" ed="#L" n="54"/>venta humanitus, sed tradita a Deo: Dei enim
+<lb ed="#L" n="55"/>donum est, ut dicitur Ephes. n. Cum igitur in
+<lb ed="#L" n="56"/>Deum nullus defectus scientiae cadat , videtur
+<lb ed="#L" n="57"/>quod a principio cognitio credibilium fuerit 
+per<lb break="no" ed="#L" n="58"/>fecta, et quod non creverit secundum 
+successio<lb break="no" ed="#L" n="59"/>nem temporum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1615">
+                  <lb ed="#L" n="60"/>3. PRAETEREA, operatio gratiae non minus 
+Or<lb break="no" ed="#L" n="61"/>dinate procedit quam operatio naturae. Sed 
+na<lb break="no" ed="#L" n="62"/>tura semper initium sumit a perfectis: ut Boetius
+<lb ed="#L" n="63"/>dicit, in libro de Consol. Ergo etiam videtur quod
+<lb ed="#L" n="64"/>operatio gratiae a perfectis initium sumpserit, ita
+<lb ed="#L" n="65"/>quod illi qui primo tradiderunt fidem 
+perfectis<lb break="no" ed="#L" n="66"/>sime eam cognoverunt.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1633">
+                  <lb ed="#L" n="67"/>4. PRAETEREA, sicut per Apostolos ad nos fides
+<lb ed="#L" n="68"/>Christi pervenit, ita etiam in veteri Testamento
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="69"/>per priores Patres ad posteriores devenit cognitio
+<lb ed="#L" n="70"/>fidei: secundum illud Deut. xxxu: Interroga
+<lb ed="#L" n="71"/>patrem tuum. et annuntiabit tibi. Sed Apostoli
+<lb ed="#L" n="72"/>plenissime fuerunt instructi de mysteriis: 
+acce<lb break="no" ed="#L" n="73"/>perunt enim, sicut tempore prius, ita et ceteris
+<lb ed="#L" n="74"/>abundantius, ut dicit Glossa, super illud Rom.
+<lb ed="#L" n="75"/>vui, nos ipsi primitias Spiritus habentes. Ergo
+<lb ed="#L" n="76"/>videtur quod cognitio credibilium non creverit
+<lb ed="#L" n="77"/>per temporum successionem.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1662">
+                  <lb ed="#L" n="78"/>SED CONTRA EsT quod Gregorius dicit, quod
+<lb ed="#L" n="79"/>secundum incrementa temporum crevit scientia
+<lb ed="#L" n="80"/>sanctorum Patrum: et quanto viciniores adventui
+<lb ed="#L" n="81"/>Salvatoris fuerunt, tanto sacramenta salutis 
+ple<lb break="no" ed="#L" n="82"/>nius perceperunt.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1675">
+                  <lb ed="#L" n="83"/>REsPONDEO DICENDUM quod ita se habent in
+<lb ed="#L" n="84"/>doctrina fidei articuli fidei sicut principia per
+<lb ed="#L" n="85"/>se nota in doctrina quae per rationem naturalem
+<lb ed="#L" n="86"/>habetur. In quibus principiis ordo quidam 
+inve<lb break="no" ed="#L" n="87"/>nitur, ut quaedam in aliis implicite contineantur:
+<lb ed="#L" n="88"/>sicut omnia principia reducuntur ad hoc sicut ad
+<lb ed="#L" n="89"/>primum, Zmpossibile est simul affirmare et 
+ne<lb break="no" ed="#L" n="90"/>gare, ut patet per Philosophum, in IV Metaphys.
+<lb ed="#L" n="91"/>Et similiter omnes articuli implicite continentur in
+<lb ed="#L" n="92"/>aliquibus primis credibilibus, scilicet ut credatur
+<lb ed="#L" n="93"/>Deus esse et providentiam habere circa 
+homi<lb break="no" ed="#L" n="94"/>num.:salutem: secundum illud ad Heb. xi:
+<lb ed="#L" n="95"/>Accedentem ad Deum oportet credere quia est,
+<pb ed="#L" n="20"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>et quod inquirentibus se remunerator sit. 1n esse
+<lb ed="#L" n="2"/>enim divino includuntur omnia quae credimus
+<lb ed="#L" n="3"/>in Deo aeternaliter existere, in quibus nostra
+<lb ed="#L" n="4"/>beatitudo consistit: in fide autem providentiae
+<lb ed="#L" n="5"/>includuntur omnia quae temporaliter a Deo 
+dis<lb break="no" ed="#L" n="6"/>pensantur ad hominum salutem, quae sunt via
+<lb ed="#L" n="7"/>in beatitudinem. Et per hunc etiam modum 
+alio<lb break="no" ed="#L" n="8"/>rum subsequentium articulorum quidam in aliis
+<lb ed="#L" n="9"/>continentur: sicut in fide redemptionis humanae
+<lb ed="#L" n="10"/>implicite continetur et incarnatio Christi et eius
+<lb ed="#L" n="11"/>passio et omnia huiusmodi.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1734">
+                  <lb ed="#L" n="12"/>Sic igitur dicendum est quod, quantum ad 
+sub<lb break="no" ed="#L" n="13"/>stantiam articulorum fidei, non est factum eorum
+<lb ed="#L" n="14"/>augmentum per temporum successionem: quia
+<lb ed="#L" n="15"/>quaecumque posteriores crediderunt 
+contineban<lb break="no" ed="#L" n="16"/>tur in fide praecedentium Patrum, licet implicite.
+<lb ed="#L" n="17"/>Sed quantum ad explicationem, crevit numerus
+<lb ed="#L" n="18"/>articulorum: quia quaedam explicite cognita sunt
+<lb ed="#L" n="19"/>a posterioribus quae a prioribus non 
+cognosce<lb break="no" ed="#L" n="20"/>bantur explicite. Unde Dominus Moysi dicit,
+<lb ed="#L" n="21"/>Exod. vi: Ego sum Deus Abraham, Deus Isaac,
+<lb ed="#L" n="22"/>Deus lacob: et nomen meum Adonai non indicavi
+<lb ed="#L" n="23"/>eis. Et David dicit: Super senes intellexi. Et
+<lb ed="#L" n="24"/>Apostolus dicit, ad Ephes. in: Aliis? 
+generationi<lb break="no" ed="#L" n="25"/>bus non est agnitum mysterium Christi sicut nunc
+<lb ed="#L" n="26"/>revelatum est sanctis Apostolis eius et prophetis.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1769">
+                  <lb ed="#L" n="27"/>AD PRIMUM ERGO DICENDUM quod semper fuerunt
+<lb ed="#L" n="28"/>eadem speranda apud omnes '. Quia tamen ad
+<lb ed="#L" n="29"/>haec speranda homines non pervenerunt nisi per
+<lb ed="#L" n="30"/>Christum, quanto a Christo fuerunt remotiores
+<lb ed="#L" n="31"/>secundum tempus, tanto a consecutione 
+speran<lb break="no" ed="#L" n="32"/>dorum longinquiores: unde Apostolus dicit, ad
+<lb ed="#L" n="33"/>Heb. xi: luxta fidem defuncti sunt omnes isti,
+<lb ed="#L" n="34"/>non acceptis repromissionibus , sed a longe eas
+<lb ed="#L" n="35"/>respicientes. Quanto autem aliquid a 
+longinquio<lb break="no" ed="#L" n="36"/>ribus videtur, tanto minus distincte videtur. Et
+<lb ed="#L" n="37"/>ideo bona speranda distinctius cognoverunt qui
+<lb ed="#L" n="38"/>fuerunt adventui Christi vicini.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1799">
+                  <lb ed="#L" n="39"/>AD SECUNDUM DICENDUM quod profectus 
+cognitio<lb break="no" ed="#L" n="40"/>nis dupliciter contingit. Uno modo, ex parte 
+do<lb break="no" ed="#L" n="41"/>centis, qui in cognitione proficit, sive unus sive
+<lb ed="#L" n="42"/>plures, per temporum successionem. Et ista est
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="43"/>ratio augmenti in scientiis perrationem humanam
+<lb ed="#L" n="44"/>inventis. Alio modo, ex parte addiscentis: sicut
+<lb ed="#L" n="45"/>magister qui novit totam artem non statim a
+<lb ed="#L" n="46"/>principio tradit eam discipulo, quia capere non
+<lb ed="#L" n="47"/>posset, sed paulatim, condescendens " eius 
+capa<lb break="no" ed="#L" n="48"/>citati. Et hac ratione profecerunt homines in
+<lb ed="#L" n="49"/>cognitione fidei per temporum successionem.
+<lb ed="#L" n="50"/>Unde Apostolus, ad Gal. n:, comparat statum
+<lb ed="#L" n="51"/>veteris "Testamenti pueritiae.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1832">
+                  <lb ed="#L" n="52"/>AD TERTIUM DICENDUM quod ad generationem 
+na<lb break="no" ed="#L" n="53"/>turalem duae causae praeexiguntur, scilicet agens
+<lb ed="#L" n="54"/>et materia. Secundum igitur ordinem causae
+<lb ed="#L" n="55"/>agentis, naturaliter prius est quod est perfectius,
+<lb ed="#L" n="56"/>et sic natura a perfectis sumit exordium: quia
+<lb ed="#L" n="57"/>imperfecta non ducuntur ad perfectionem nisi
+<lb ed="#L" n="58"/>per aliqua perfecta praeexistentia. Secundum vero
+<lb ed="#L" n="59"/>ordinem causae materialis, prius est quod est
+<lb ed="#L" n="60"/>imperfectius: et secundum hoc natura. procedit
+<lb ed="#L" n="61"/>ab imperfecto ad perfectum. In manifestatione
+<lb ed="#L" n="62"/>autem fidei Deus est sicut agens, qui habet 
+per<lb break="no" ed="#L" n="63"/>fectam scientiam ab aeterno: homo autem est
+<lb ed="#L" n="64"/>sicut materia recipiens influxum Dei agentis. Et
+<lb ed="#L" n="65"/>ideo oportuit quod ab imperfectis ad perfectum
+<lb ed="#L" n="66"/>procederet cognitio fidei in hominibus. Et licet
+<lb ed="#L" n="67"/>in hominibus quidam se habuerint per modum
+<lb ed="#L" n="68"/>causae agentis, quia fuerunt fidei doctores; 
+ta<lb break="no" ed="#L" n="69"/>men manifestatio Spiritus datur talibus ad 
+utilita<lb break="no" ed="#L" n="70"/>tem communem, ut dicitur I ad Cor. xu. Et
+<lb ed="#L" n="71"/>ideo tantum dabatur Patribus qui erant 
+instructo<lb break="no" ed="#L" n="72"/>res fidei de cognitione fidei, quantum oportebat
+<lb ed="#L" n="73"/>pro tempore illo populo tradi vel nude vel in
+<lb ed="#L" n="74"/>figura.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1884">
+                  <lb ed="#L" n="75"/>Ad QUARTUM DICENDUM quod ultima 
+consum<lb break="no" ed="#L" n="76"/>matio gratiae facta est per Christum: unde et
+<lb ed="#L" n="77"/>tempus eius dicitur Tempus plenitudinis, ad Gal. 1v.
+<lb ed="#L" n="78"/>Et ideo illi qui fuerunt propinquiores Christo vel
+<lb ed="#L" n="79"/>ante, sicut loannes Baptista, vel post, sicut 
+Apo<lb break="no" ed="#L" n="80"/>stoli, plenius mysteria fidei cognoverunt. Quia et
+<lb ed="#L" n="81"/>circa statum hominis hoc videmus, quod perfectio
+<lb ed="#L" n="82"/>est in iuventute, et tanto habet homo perfectiorem
+<lb ed="#L" n="83"/>statum vel ante vel post, quanto est iuventuti
+<lb ed="#L" n="84"/>propinquior
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1277-Dd1e1909"><!-- p2p2-q1a8 -->
+               <head xml:id="TAca84-d1e1277-Hd1e1912">Articulus 8</head>
+               <head xml:id="TAca84-d1e1277-Hd1e1914" type="question-title">Utrum articuli fidei convenienter enumerentur</head>
+               <p xml:id="TAca84-d1e1277-d1e1917">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="15"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="16"/>UTRUM ARTICULI FIDEI CONVENIENTER ENUMERENTUR
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1926">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="17"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="18"/>inconvenienter articuli fidei 
+enumeren<lb break="no" ed="#L" n="19"/>tur. Ea enim quae possunt ratione 
+de<lb break="no" ed="#L" n="20"/>monstrativa sciri non pertinent ad. fidem
+<lb ed="#L" n="21"/>ut apud omnes sint credibilia, sicut supra
+<lb ed="#L" n="22"/>dictum. est. Sed Deum esse unum potest esse
+<lb ed="#L" n="23"/>scitum per demonstrationem: unde et Philosophus
+<lb ed="#L" n="24"/>probat, et multi alii 
+phi<lb break="no" ed="#L" n="25"/>losophi ad hoc demonstrationes induxerunt. Ergo
+<lb ed="#L" n="26"/>Deum esse unum non debet poni unus articulus
+<lb ed="#L" n="27"/>fidei.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1955">
+                  <lb ed="#L" n="28"/>2. PRAETEREA, sicut de necessitate fidei est
+<lb ed="#L" n="29"/>quod credamus. Deum omnipotentem, ita etiam
+<lb ed="#L" n="30"/>quod credamus eum omnia scientem et omnibus
+<lb ed="#L" n="31"/>providentem; et circa utrumque eorum aliqui
+<lb ed="#L" n="32"/>erraverunt. Debuit ergo inter articulos fidei fieri
+<lb ed="#L" n="33"/>mentio de sapientia. et providentia divina, sicut
+<lb ed="#L" n="34"/>et de omnipotentia.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1974">
+                  <lb ed="#L" n="35"/>3. PRAETEREA, eadem est notitia Patris et Filii:
+<lb ed="#L" n="36"/>secundum illud Ioan. xiv: Qui videt me videt
+<lb ed="#L" n="37"/>et Patrem. Ergo unus tantum articulus debet esse
+<lb ed="#L" n="38"/>de Patre et Filio; et, eadem ratione, de Spiritu
+<lb ed="#L" n="39"/>Sancto.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e1987">
+                  <lb ed="#L" n="40"/>4. PRAETEREA, persona Patris non est minor
+<lb ed="#L" n="41"/>quam Filii et Spiritus Sancti. Sed plures articuli
+<lb ed="#L" n="42"/>ponuntur circa personam Spiritus Sancti, et 
+si<lb break="no" ed="#L" n="43"/>militer circa personam Fili. Ergo plures articuli
+<lb ed="#L" n="44"/>debent poni circa personam Patris.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2000">
+                  <lb ed="#L" n="45"/>5. PRAETEREA, sicuti personae Patris et personae
+<lb ed="#L" n="46"/>Spiritus Sancti aliquid appropriatur, ita et personae
+<lb ed="#L" n="47"/>Filii secundum divinitatem. Sed in articulis ?
+<lb ed="#L" n="48"/>ponitur aliquod opus appropriatum Patri, scilicet
+<lb ed="#L" n="49"/>opus creationis; et similiter aliquod opus 
+appro<lb break="no" ed="#L" n="50"/>priatum Spiritui Sancto, scilicet quod /ocutus est
+<lb ed="#L" n="51"/>per prophetas. Ergo etiam inter articulos fidei
+<lb ed="#L" n="52"/>debet aliquod opus appropriari Filio secundum
+<lb ed="#L" n="53"/>divinitatem.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2022">
+                  <lb ed="#L" n="54"/>6. PRAETEREA, sacramentum Eucharistiae 
+spe<lb break="no" ed="#L" n="55"/>cialem habet difficultatem prae multis articulis.
+<lb ed="#L" n="56"/>Ergo de ea debuit poni specialis articulus. Non
+<lb ed="#L" n="57"/>videtur ergo quod articuli sufficienter enumerentur.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2033">
+                  <lb ed="#L" n="58"/>SED IN CONTRARIUM est auctoritas Ecclesiae sic
+<lb ed="#L" n="59"/>enumerantis.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2040">
+                  <lb ed="#L" n="60"/>REsPONDEO DICENDUM quod, sicut dictum est,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="61"/>illa per se pertinent ad fidem quorum visione
+<lb ed="#L" n="62"/>in vita aeterna perfruemur, et per quae ducemur?
+<lb ed="#L" n="63"/>in vitam aeternam. Duo autem nobis ibi videnda
+<lb ed="#L" n="64"/>proponuntur: scilicet occultum divinitatis, cuius
+<lb ed="#L" n="65"/>visio nos beatos facit; et mysterium humanitatis
+<lb ed="#L" n="66"/>Christi, per quem in gloriam filiorum Dei 
+acces<lb break="no" ed="#L" n="67"/>sum habemus, ut dicitur ad Rom. v. Unde 
+di<lb break="no" ed="#L" n="68"/>citur Ioan. xvii: Haec est vita aeterna, ut 
+co<lb break="no" ed="#L" n="69"/>gnoscant te, Deum verum^, et quem misisti Iesum
+<lb ed="#L" n="70"/>Christum. Et ideo prima distinctio .credibilium
+<lb ed="#L" n="71"/>est quod quaedam pertinent ad maiestatem 
+di<lb break="no" ed="#L" n="72"/>vinitatis; quaedam vero pertinent ad mysterium
+<lb ed="#L" n="73"/>humanitatis Christi, quod est pietatis 
+sacramen<lb break="no" ed="#L" n="74"/>ium, ut dicitur I ad 77m. i.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2078">
+                  <lb ed="#L" n="75"/>Circa maiestatem autem divinitatis tria nobis
+<lb ed="#L" n="76"/>credenda proponuntur. Primo quidem, unitas 
+di<lb break="no" ed="#L" n="77"/>vinitatis: et ad hoc pertinet primus articulus.
+<lb ed="#L" n="78"/>Secundo, trinitas Personarum: et de hoc sunt
+<lb ed="#L" n="79"/>tres articuli secundum tres Personas. Tertio vero
+<lb ed="#L" n="80"/>proponuntur nobis opera divinitatis propria. 
+Quo<lb break="no" ed="#L" n="81"/>rum primum pertinet ad esse naturae: et sic
+<lb ed="#L" n="82"/>proponitur nobis articulus creationis. Secundum
+<lb ed="#L" n="83"/>vero pertinet ad esse gratiae: et sic proponuntur
+<lb ed="#L" n="84"/>nobis sub uno articulo omnia pertinentia ad 
+san<lb break="no" ed="#L" n="85"/>ctificationem humanam. Tertium vero pertinet
+<lb ed="#L" n="86"/>ad esse gloriae: et sic ponitur alius articulus
+<lb ed="#L" n="87"/>de resurrectione carnis et de vita aeterna. Et ita
+<lb ed="#L" n="88"/>sunt septem articuli ad divinitatem pertinentes.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2111">
+                  <lb ed="#L" n="89"/>Similiter etiam circa humanitatem Christi 
+po<lb break="no" ed="#L" n="90"/>nuntur septem articuli. Quorum primus est de
+<lb ed="#L" n="91"/>incarnatione sive de conceptione Christi; 
+secun<lb break="no" ed="#L" n="92"/>dus de nativitate eius ex "Virgine; tertius de
+<lb ed="#L" n="93"/>passione eius et morte et sepultura; quartus est
+<lb ed="#L" n="94"/>de descensu ad inferos; quintus est de 
+resurre<lb break="no" ed="#L" n="95"/>ctione; sextus de ascensione; septimus de 
+ad<lb break="no" ed="#L" n="96"/>ventu ad iudicium. Et sic in universo sunt 
+qua<lb break="no" ed="#L" n="97"/>tuordecim.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2133">
+                  <lb ed="#L" n="98"/>Quidam tamen distinguunt duodecim articulos
+<lb ed="#L" n="99"/>fidei, sex pertinentes ad divinitatem et sex 
+per<lb break="no" ed="#L" n="100"/>tinentes ad humanitatem. "Tres enim articulos
+<lb ed="#L" n="101"/>trium Personarum comprehendunt sub uno: quia
+<lb ed="#L" n="102"/>eadem est cognitio trium Personarum. Articulum
+<lb ed="#L" n="103"/>vero de opere glorificationis distinguunt in duos,
+<lb ed="#L" n="104"/>scilicet in resurrectionem carnis et gloriam ani-
+<pb ed="#L" n="22"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>mae. Similiter articulum conceptionis et 
+nati<lb break="no" ed="#L" n="2"/>vitatis coniungunt in unum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2159">
+                  <lb ed="#L" n="3"/>AD PRIMUM ERGO DICENDUM quod multa per fidem
+<lb ed="#L" n="4"/>tenemus de Deo quae naturali ratione investigare
+<lb ed="#L" n="5"/>philosophi non potuerunt: puta circa 
+providen<lb break="no" ed="#L" n="6"/>tiam eius et omnipotentiam, et quod ipse solus
+<lb ed="#L" n="7"/>sit colendus. Quae omnia continentur sub articulo
+<lb ed="#L" n="8"/>unitatis Dei.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2175">
+                  <lb ed="#L" n="9"/>AD SECUNDUM DICENDUM quod ipsum nomen 
+di<lb break="no" ed="#L" n="10"/>vinitatis importat provisionem quandam, ut in
+<lb ed="#L" n="11"/>
+                  <ref xml:id="TAca84-d1e1277-Rd1e2183">Primo Libro</ref> dictum est. Potentia autem in
+<lb ed="#L" n="12"/>habentibus intellectum non operatur nisi 
+secun<lb break="no" ed="#L" n="13"/>dum voluntatem et cognitionem. Et ideo 
+omni<lb break="no" ed="#L" n="14"/>potentia Dei includit quodammodo omnium 
+sci<lb break="no" ed="#L" n="15"/>entiam et providentiam :. non enim posset omnia
+<lb ed="#L" n="16"/>quae vellet in istis inferioribus agere nisi ea 
+co<lb break="no" ed="#L" n="17"/>gnosceret et eorum providentiam haberet.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2199">
+                  <lb ed="#L" n="18"/>Ab TERTIUM DICENDUM quod Patris et Filii et 
+Spi<lb break="no" ed="#L" n="19"/>ritus Sancti est una cognitio quantum ad unitatem
+<lb ed="#L" n="20"/>essentiae, quae pertinet ad primum articulum.
+<lb ed="#L" n="21"/>Quantum vero ad distinctionem Personarum, quae
+<lb ed="#L" n="22"/>est per relationes originis, quodammodo in 
+co<lb break="no" ed="#L" n="23"/>gnitione Patris includitur cognitio Filii, non enim
+<lb ed="#L" n="24"/>esset Pater si Filium non haberet: quorum nexus
+<lb ed="#L" n="25"/>est Spiritus Sanctus. Et quantum ad hoc bene
+<lb ed="#L" n="26"/>moti sunt qui posuerunt unum articulum trium
+<lb ed="#L" n="27"/>Personarum. Sed quia circa singulas Personas
+<lb ed="#L" n="28"/>sunt aliqua attendenda circa quae contingit esse
+<lb ed="#L" n="29"/>errorem, quantum ad hoc de tribus Personis 
+pos<lb break="no" ed="#L" n="30"/>sunt poni tres articuli. Arius enim credidit Patrem
+<lb ed="#L" n="31"/>omnipotentem et aeternum, sed non credidit 
+Fi<lb break="no" ed="#L" n="32"/>lium. coaequalem et consubstantialem Patri: et
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="33"/>ideo necessarium fuit apponere articulum de 
+per<lb break="no" ed="#L" n="34"/>sona Filii ad? hoc determinandum. Et eadem
+<lb ed="#L" n="35"/>ratione contra Macedonium necesse fuit ponere
+<lb ed="#L" n="36"/>articulum tertium de persona Spiritus Sancti.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2246">
+                  <lb ed="#L" n="37"/>Et similiter etiam conceptio Christi et nativitas,
+<lb ed="#L" n="38"/>et etiam resurrectio et vita aeterna, secundum
+<lb ed="#L" n="39"/>unam rationem possunt comprehendi sub uno
+<lb ed="#L" n="40"/>articulo, inquantum ad unum ordinantur: et 
+se<lb break="no" ed="#L" n="41"/>cundum aliam rationem possunt distingui, 
+inquan<lb break="no" ed="#L" n="42"/>tum seorsum habent speciales difficultates.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2262">
+                  <lb ed="#L" n="43"/>AD QUARTUM DICENDUM quod Filio et Spiritui
+<lb ed="#L" n="44"/>Sancto convenit mitti ad sanctificandam: 
+creatu<lb break="no" ed="#L" n="45"/>ram, circa quod plura credenda occurrunt. Et
+<lb ed="#L" n="46"/>ideo circa personam Filii et Spiritus Sancti 
+plu<lb break="no" ed="#L" n="47"/>res articuli multiplicantur quam circa personam
+<lb ed="#L" n="48"/>Patris, qui " nunquam mittitur, ut in Primo
+<lb ed="#L" n="49"/>dictum est.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2280">
+                  <lb ed="#L" n="50"/>AD QUINTUM DICENDUM quod sanctificatio 
+creatu<lb break="no" ed="#L" n="51"/>rae per gratiam et consummatio per gloriam fit
+<lb ed="#L" n="52"/>etiam per donum caritatis, quod appropriatur
+<lb ed="#L" n="53"/>Spiritui Sancto, et per donum sapientiae, quod
+<lb ed="#L" n="54"/>appropriatur Filio. Et ideo utrumque opus pertinet
+<lb ed="#L" n="55"/>et ad Filium et ad Spiritum Sanctum per 
+ap<lb break="no" ed="#L" n="56"/>propriationem secundum rationes diversas.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2298">
+                  <lb ed="#L" n="57"/>AD SEXTUM DICENDUM quod in sacramento 
+Eu<lb break="no" ed="#L" n="58"/>charistiae duo possunt considerari. Unum scilicet
+<lb ed="#L" n="59"/>quod sacramentum est: et hoc habet eandem
+<lb ed="#L" n="60"/>rationem cum aliis effectibus gratiae sanctificantis.
+<lb ed="#L" n="61"/>Aliud est quod miraculose ibi corpus Christi 
+con<lb break="no" ed="#L" n="62"/>tinetur: et sic concluditur sub omnipotentia, sicut
+<lb ed="#L" n="63"/>et omnia alia miracula, quae omnipotentiae 
+at<lb break="no" ed="#L" n="64"/>tribuuntur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1277-Dd1e2319"><!-- p2p2-q1a9 -->
+               <head xml:id="TAca84-d1e1277-Hd1e2322">Articulus 9</head>
+               <head xml:id="TAca84-d1e1277-Hd1e2324" type="question-title">Utrum convenienter articuli fidei in symbolo ponantur</head>
+               <p xml:id="TAca84-d1e1277-d1e2327">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="80"/>ARTICULUS NONUS
+<lb ed="#L" n="81"/>UTRUM CONVENIENTER ARTICULI FIDEI IN SYMBOLO PONANTUR
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2336">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="82"/>AD NONUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="83"/>inconvenienter articuli fidei in symbolo
+<lb ed="#L" n="84"/>ponantur. Sacra enim Scriptura est 
+re<lb break="no" ed="#L" n="85"/>gula fidei, cui nec addere nec 
+subtra<lb break="no" ed="#L" n="86"/>here licet: dicitur enim Deut. iv: Non addetis
+<lb ed="#L" n="87"/>ad verbum quod vobis loquor, neque auferetis ab
+<lb ed="#L" n="88"/>eo. Ergo illicitum fuit aliquod symbolum 
+con<lb break="no" ed="#L" n="89"/>stituere quasi regulam fidei, post sacram 
+Scri<lb break="no" ed="#L" n="90"/>pturam editam.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2360">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="91"/>2. PRAETEREA, Sicut Apostolus dicit, ad Ephes. iv,
+<lb ed="#L" n="92"/>una est fides. Sed symbolum est professio fide
+<lb ed="#L" n="93"/>Ergo inconvenienter traditur multiplex symbolum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2372">
+                  <lb ed="#L" n="94"/>3. PRAETEREA, confessio fidei quae in symbolo
+<lb ed="#L" n="95"/>continetur pertinet ad omnes fideles. Sed non
+<lb ed="#L" n="96"/>omnibus fidelibus convenit credere in Deum,
+<lb ed="#L" n="97"/>sed solum illis qui habent fidem formatam. Ergo
+<lb ed="#L" n="98"/>inconvenienter symbolum fidei traditur sub hac
+<lb ed="#L" n="99"/>forma verborum: Credo in unum - Deum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2388">
+                  <pb ed="#L" n="23"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>4. PRAETEREA, descensus ad inferos est unus
+<lb ed="#L" n="2"/>de articulis fidei, sicut supra dictum est. Sed
+<lb ed="#L" n="3"/>in symbolo Patrum non fit mentio de 
+de<lb break="no" ed="#L" n="4"/>scensu ad inferos. Ergo videtur insufficienter 
+col<lb break="no" ed="#L" n="5"/>lectum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2406">
+                  <lb ed="#L" n="6"/>5. PRAETEREA, sicut Augustinus dicit, exponens
+<lb ed="#L" n="7"/>illud Ioan. xiv, « Creditis in Deum, et in me
+<lb ed="#L" n="8"/>credite », Petro aut Paulo credimus, sed non
+<lb ed="#L" n="9"/>dicimur credere nisi in Deum. Cum igitur 
+Ec<lb break="no" ed="#L" n="10"/>clesia Catholica sit pure aliquid creatum, videtur
+<lb ed="#L" n="11"/>quod inconvenienter dicatur: im unam sanctam,
+<lb ed="#L" n="12"/>catholicam et apostolicam Ecclesiam.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2424">
+                  <lb ed="#L" n="13"/>6. PRAETEREA, symbolum ad hoc traditur ut
+<lb ed="#L" n="14"/>sit regula fidei. Sed regula fidei debet omnibus
+<lb ed="#L" n="15"/>proponi et publice. Quodlibet igitur symbolum
+<lb ed="#L" n="16"/>deberet in missa cantari, sicut symbolum 
+Pa<lb break="no" ed="#L" n="17"/>trum. Non videtur ergo esse conveniens editio
+<lb ed="#L" n="18"/>articulorum fidei in symbolo.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2440">
+                  <lb ed="#L" n="19"/>SED coNTRA EsT quod Ecclesia universalis non
+<lb ed="#L" n="20"/>potest errare, quia Spiritu Sancto gubernatur,
+<lb ed="#L" n="21"/>qui est Spiritus veritatis: hoc enim promisit 
+Do<lb break="no" ed="#L" n="22"/>minus discipulis, Ioan. xvi, dicens: Cum venerit
+<lb ed="#L" n="23"/>ille. Spiritus veritatis, docebit vos omnem 
+verita<lb break="no" ed="#L" n="24"/>iem. Sed symbolum est auctoritate universalis
+<lb ed="#L" n="25"/>Ecclesiae editum. Nihil ergo inconveniens in
+<lb ed="#L" n="26"/>eo continetur.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2460">
+                  <lb ed="#L" n="27"/>REsPONDEO DICENDUM quod, sicut Apostolus 
+di<lb break="no" ed="#L" n="28"/>cit, ad Heb. x1, accedentem ad Deum oportet
+<lb ed="#L" n="29"/>credere. Credere autem non potest aliquis nisi
+<lb ed="#L" n="30"/>ei veritas quam credat proponatur. Et ideo 
+ne<lb break="no" ed="#L" n="31"/>cessarium fuit veritatem fidei in unum colligi,
+<lb ed="#L" n="32"/>ut facilius posset omnibus proponi, ne aliquis
+<lb ed="#L" n="33"/>per ignorantiam a fidei veritate deficeret. Et ab
+<lb ed="#L" n="34"/>huiusmodi collectione sententiarum fidei nomen
+<lb ed="#L" n="35"/>symboli est acceptum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2483">
+                  <lb ed="#L" n="36"/>AD PRIMUM ERGO DICENDUM quod veritas fidei in
+<lb ed="#L" n="37"/>sacra Scriptura diffuse continetur et variis modis,
+<lb ed="#L" n="38"/>et in quibusdam obscure; ita quod ad 
+elicien<lb break="no" ed="#L" n="39"/>dum fidei veritatem ex sacra Scriptura requiritur
+<lb ed="#L" n="40"/>longum studium et exercitium, ad quod non 
+pos<lb break="no" ed="#L" n="41"/>sunt pervenire omnes illi quibus necessarium est
+<lb ed="#L" n="42"/>cognoscere fidei veritatem, quorum plerique, aliis
+<lb ed="#L" n="43"/>negotiis occupati, studio vacare non possunt. Et
+<lb ed="#L" n="44"/>ideo fuit necessarium ut ex sententiis sacrae 
+Scri<lb break="no" ed="#L" n="45"/>pturae aliquid manifestum summarie colligeretur
+<lb ed="#L" n="46"/>quod proponeretur omnibus ad credendum. Quod
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="47"/>quidem non est additum sacrae Scripturae, sed
+<lb ed="#L" n="48"/>potius ex sacra Scriptura assumptum.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2516">
+                  <lb ed="#L" n="49"/>AD SECUNDUM DICENDUM quod in omnibus 
+sym<lb break="no" ed="#L" n="50"/>bolis eadem fidei veritas docetur. Sed ibi 
+opor<lb break="no" ed="#L" n="51"/>tet populum diligentius instrui de fidei veritate
+<lb ed="#L" n="52"/>ubi errores insurgunt, ne fides simplicium per
+<lb ed="#L" n="53"/>haereticos corrumpatur. Et haec fuit causa quare
+<lb ed="#L" n="54"/>necesse fuit edere plura symbola. Quae in nullo
+<lb ed="#L" n="55"/>alio differunt nisi quod in uno plenius explicantur
+<lb ed="#L" n="56"/>quae in alio continentur implicite, secundum quod
+<lb ed="#L" n="57"/>exigebat haereticorum instantia.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2538">
+                  <lb ed="#L" n="58"/>AD TERTIUM DICENDUM quod confessio fidei 
+tradi<lb break="no" ed="#L" n="59"/>tur in symbolo quasi ex persona totius Ecclesiae,
+<lb ed="#L" n="60"/>quae per fidem unitur. Fides autem Ecclesiae est
+<lb ed="#L" n="61"/>fides formata: talis enim fides invenitur in 
+om<lb break="no" ed="#L" n="62"/>nibus illis qui sunt numero et merito de Ecclesia.
+<lb ed="#L" n="63"/>Et ideo confessio fidei in symbolo traditur 
+se<lb break="no" ed="#L" n="64"/>cundum quod convenit fidei formatae: ut etiam
+<lb ed="#L" n="65"/>si qui fideles fidem formatam non habent, ad
+<lb ed="#L" n="66"/>hanc formam pertingere studeant.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2560">
+                  <lb ed="#L" n="67"/>AD QUARTUM DICENDUM quod de descensu ad
+<lb ed="#L" n="68"/>inferos nullus error erat exortus apud haereticos,
+<lb ed="#L" n="69"/>etideo non fuit necessarium aliquam 
+explicatio<lb break="no" ed="#L" n="70"/>nem circa hoc fieri. Et propter hoc non 
+reite<lb break="no" ed="#L" n="71"/>ratur in symbolo Patrum, sed supponitur tanquam
+<lb ed="#L" n="72"/>praedeterminatum in symbolo Apostolorum. Non
+<lb ed="#L" n="73"/>enim symbolum sequens abolet praecedens, sed
+<lb ed="#L" n="74"/>potius illud exponit, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2580">
+                  <lb ed="#L" n="75"/>AD QUINTUM DICENDUM quod, si dicatur in 
+san<lb break="no" ed="#L" n="76"/>clam Ecclesiam catholicam , est hoc 
+intelligen<lb break="no" ed="#L" n="77"/>dum secundum quod fides nostra refertur ad
+<lb ed="#L" n="78"/>Spiritum Sanctum, qui sanctificat Ecclesiam, ut
+<lb ed="#L" n="79"/>sit sensus: Credo in Spiritum Sanctum  
+sanctifi<lb break="no" ed="#L" n="80"/>cantem Ecclesiam. Sed melius est, et secundum
+<lb ed="#L" n="81"/>communiorem usum, ut non ponatur ibi Zn, sed
+<lb ed="#L" n="82"/>simpliciter dicatur sanctam Ecclesiam catholicam:
+<lb ed="#L" n="83"/>sicut etiam Leo Papa dicit.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2602">
+                  <lb ed="#L" n="84"/>AD SEXTUM DICENDUM quod, quia symbolum 
+Pa<lb break="no" ed="#L" n="85"/>trum est declarativum symboli Apostolorum, et
+<lb ed="#L" n="86"/>etiam fuit conditum fide iam manifestata et 
+Ec<lb break="no" ed="#L" n="87"/>clesia pacem habente, propter hoc publice in
+<lb ed="#L" n="88"/>missa cantatur. Symbolum autem Apostolorum,
+<lb ed="#L" n="89"/>quod tempore persecutionis editum fuit, fide
+<lb ed="#L" n="90"/>nondum publicata, occulte dicitur in Prima et in
+<lb ed="#L" n="91"/>Completorio, quasi contra tenebras errorum 
+prae<lb break="no" ed="#L" n="92"/>teritorum et futurorum.
+<cb ed="#L" n="c"/>
+               </p>
+            </div>
+            <div xml:id="TAca84-d1e1277-Dd1e2627"><!-- p2p2-q1a10 -->
+               <head xml:id="TAca84-d1e1277-Hd1e2630">Articulus 10</head>
+               <head xml:id="TAca84-d1e1277-Hd1e2632" type="question-title">Utrum ad summum pontificem pertineat fidei symbolum ordinare</head>
+               <p xml:id="TAca84-d1e1277-d1e2635">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="93"/>ARTICULUS DECIMUS
+<lb ed="#L" n="94"/>UTRUM AD SUMMUM PONTIFICEM PERTINEAT FIDEI SYMBOLUM ORDINARE
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2644">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>AD DECIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="96"/>non pertineat ad Summum Pontificem
+<lb ed="#L" n="97"/>fidel symbolum ordinare. Nova enim
+<lb ed="#L" n="98"/>editio symboli necessaria est propter ex-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="99"/>plicationem articulorum fidei, sicut dictum est.
+<lb ed="#L" n="100"/>Sed in veteri Testamento articuli fidei magis ac
+<lb ed="#L" n="101"/>magis explicabantur secundum temporum 
+suc<lb break="no" ed="#L" n="102"/>cessionem propter hoc quod veritas fidei magis
+<pb ed="#L" n="24"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>manifestabatur secundum maiorem 
+propinquita<lb break="no" ed="#L" n="2"/>tem ad Christum, ut supra dictum est. 
+Ces<lb break="no" ed="#L" n="3"/>sante ergo tali causa in nova Lege, non debet
+<lb ed="#L" n="4"/>fieri maior ac maior explicatio articulorum fidei.
+<lb ed="#L" n="5"/>Ergo non videtur ad auctoritatem Summi 
+Ponti<lb break="no" ed="#L" n="6"/>ficis pertinere nova symboli editio.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2686">
+                  <lb ed="#L" n="7"/>2. PRaETEREA, illud quod est sub anathemate
+<lb ed="#L" n="8"/>interdictum ab universali Ecclesia non subest
+<lb ed="#L" n="9"/>potestati alicuius hominis. Sed nova symboli 
+edi<lb break="no" ed="#L" n="10"/>tio interdicta est sub anathemate auctoritate 
+uni<lb break="no" ed="#L" n="11"/>versalis Ecclesiae, Dicitur enim in gestis primae '
+<lb ed="#L" n="12"/>Ephesinae synodi quod, perlecto symbolo 
+Ni<lb break="no" ed="#L" n="13"/>caenae synodi, decrevit sancta synodus aliam 
+fi<lb break="no" ed="#L" n="14"/>dem nulli licere proferre vel conscribere vel 
+com<lb break="no" ed="#L" n="15"/>ponere Puaeten definitam a sanctis patribus. qui
+<lb ed="#L" n="16"/>in Nicaea congregati sunt cum Spiritu. Sancto,
+<lb ed="#L" n="17"/>et subditur anathematis poena; et idem etiam
+<lb ed="#L" n="18"/>reiteratur in gestis Chalcedonensis synodi. Ergo
+<lb ed="#L" n="19"/>videtur quod non pertineat ad auctoritatem 
+Sum<lb break="no" ed="#L" n="20"/>mi Pontificis nova editio symboli.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2720">
+                  <lb ed="#L" n="21"/>3. PRAETEREA, Athanasius non fuit Summus
+<lb ed="#L" n="22"/>Pontifex, sed Alexandrinus Patriarcha. Et tamen
+<lb ed="#L" n="23"/>symbolum constituit quod in Ecclesia cantatur.
+<lb ed="#L" n="24"/>Ergo non magis videtur pertinere editio symboli
+<lb ed="#L" n="25"/>ad Summum Pontificem quam ad alios.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2733">
+                  <lb ed="#L" n="26"/>SED CONTRA EsT quod editio symboli facta est
+<lb ed="#L" n="27"/>in synodo generali. Sed huiusmodi synodus 
+aucto<lb break="no" ed="#L" n="28"/>ritate solius Summi Pontificis potest congregari:
+<lb ed="#L" n="29"/>ut habetur in Decretis, dist. xvii. Ergo editio 
+sym<lb break="no" ed="#L" n="30"/>boli ad auctoritatem Summi Pontificis pertinet.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2746">
+                  <lb ed="#L" n="31"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="32"/>est, nova editio symboli necessaria est ad 
+vitan<lb break="no" ed="#L" n="33"/>dum insurgentes errores. Ad illius ergo 
+auctori<lb break="no" ed="#L" n="34"/>tatem pertinet editio symboli ad cuius 
+auctori<lb break="no" ed="#L" n="35"/>tatem pertinet sententialiter determinare ea quae
+<lb ed="#L" n="36"/>sunt fidei, ut ab omnibus inconcussa fide 
+tenean<lb break="no" ed="#L" n="37"/>tur. Hoc autem pertinet ad auctoritatem Summi
+<lb ed="#L" n="38"/>Pontificis, ad quem maiores et difficiliores 
+Eccle<lb break="no" ed="#L" n="39"/>siae quaestiones referuntur, ut dicitur in Decretis,
+<lb ed="#L" n="40"/>dist. xvii. Unde et Dominus, Luc. xxii, Petro
+<lb ed="#L" n="41"/>dixit, quem Summum Pontificem constituit: Ego
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="42"/>pro te rogavi, Petre, ut non deficiat fides tua: et
+<lb ed="#L" n="43"/>tu aliquando conversus confirma fratres tuos. Et
+<lb ed="#L" n="44"/>huius ratio est quia una fides? debet esse totius
+<lb ed="#L" n="45"/>Ecclesiae: secundum illud I ad Cor. 1: Zdipsum
+<lb ed="#L" n="46"/>dicatis omnes, et non sint in vobis schismata.
+<lb ed="#L" n="47"/>Quod servari non posset nisi quaestio fidei de
+<lb ed="#L" n="48"/>fide exorta determinaretur' per eum qui toti 
+Ec<lb break="no" ed="#L" n="49"/>clesiae praeest, ut sic eius sententia a tota 
+Ec<lb break="no" ed="#L" n="50"/>clesia firmiter teneatur. Et ideo ad solam 
+aucto<lb break="no" ed="#L" n="51"/>ritatem Summi Pontificis pertinet nova editio
+<lb ed="#L" n="52"/>symboli: sicut et omnia alia quae pertinent ad
+<lb ed="#L" n="53"/>totam Ecclesiam, ut congregare synodum 
+gene<lb break="no" ed="#L" n="54"/>ralem et alia huiusmodi.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2803">
+                  <lb ed="#L" n="55"/>AD PRIMUM ERGO DICENDUM quod in doctrina 
+Chri<lb break="no" ed="#L" n="56"/>sti et Apostolorum veritas fidei est sufficienter 
+ex<lb break="no" ed="#L" n="57"/>plicata. Sed quia perversi homines apostolicam
+<lb ed="#L" n="58"/>doctrinam et ceteras Scripturas pervertunt ad
+<lb ed="#L" n="59"/>sui ipsorum perditionem , sicut dicitur II Pet.
+<lb ed="#L" n="60"/>ult.; ideo necessaria est^, temporibus 
+proce<lb break="no" ed="#L" n="61"/>dentibus, explanatio fidei contra insurgentes 
+er<lb break="no" ed="#L" n="62"/>rores.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2823">
+                  <lb ed="#L" n="63"/>AD SECUNDUM DICENDUM quod prohibitio et 
+sen<lb break="no" ed="#L" n="64"/>tentia synodi se extendit ad privatas personas,
+<lb ed="#L" n="65"/>quarum non est determinare de fide. Non enim
+<lb ed="#L" n="66"/>per huiusmodi sententiam synodi generalis ablata
+<lb ed="#L" n="67"/>est potestas sequenti synodo novam editionem
+<lb ed="#L" n="68"/>symboli facere, non quidem aliam fidem 
+conti<lb break="no" ed="#L" n="69"/>nentem, sed eandem magis expositam. Sic enim.
+<lb ed="#L" n="70"/>quaelibet synodus observavit, ut sequens synodus.
+<lb ed="#L" n="71"/>aliquid exponeret supra id quod praecedens 
+syn<lb break="no" ed="#L" n="72"/>odus exposuerat, propter necessitatem alicuius
+<lb ed="#L" n="73"/>haeresis insurgentis. Unde pertinet ad Summum
+<lb ed="#L" n="74"/>Pontificem, cuius auctoritate synodus congregatur
+<lb ed="#L" n="75"/>et eius sententia confirmatur.
+</p>
+               <p xml:id="TAca84-d1e1277-d1e2854">
+                  <lb ed="#L" n="76"/>AD TERTIUM DICENDUM quod Athanasius non 
+com<lb break="no" ed="#L" n="77"/>posuit manifestationem fidei per modum symboli,
+<lb ed="#L" n="78"/>sed magis per modum cuiusdam " doctrinae: ut
+<lb ed="#L" n="79"/>ex ipso modo loquendi apparet. Sed quia inte--
+<lb ed="#L" n="80"/>gram fidei veritatem eius doctrina breviter 
+con<lb break="no" ed="#L" n="81"/>tinebat, auctoritate Summi Pontificis est recep)
+<lb ed="#L" n="82"/>ut quasi regula fidei habeatur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

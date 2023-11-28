@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2023-11-28">November 28, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE8">Rome, 1895, Vol. 8</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-11-28" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="107"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1339"><!-- p2p2-q13 -->
+            <head xml:id="TAca84-d1e1339-Hd1e101">Quaestio 13</head>
+            <p xml:id="TAca84-d1e1339-d1e103">
+               <pb ed="#L" n="107"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>QUAESTIO DECIMATERTIA
+<lb ed="#L" n="2"/>DE BLASPHEMIA IN GENERALI
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1339-d1e116">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>Deinde considerandum est de peccato 
+blas<lb break="no" ed="#L" n="5"/>phemiae, quod opponitur confessioni fidei.
+<lb ed="#L" n="6"/>Et primo, de blasphemia in generali; secundo,
+<lb ed="#L" n="7"/>de blasphemia quae dicitur peccatum in Spiritum
+<lb ed="#L" n="8"/>Sanctum.
+</p>
+            <p xml:id="TAca84-d1e1339-d1e132">
+               <lb ed="#L" n="9"/>Circa primum quaeruntur quatuor.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="10"/>Primo: utrum blasphemia opponatur 
+confes<lb break="no" ed="#L" n="11"/>sioni fidei.
+<lb ed="#L" n="12"/>Secundo: utrum blasphemia semper sit 
+pec<lb break="no" ed="#L" n="13"/>catum mortale.
+<lb ed="#L" n="14"/>Tertio: utrum. blasphemia sit maximum 
+pec<lb break="no" ed="#L" n="15"/>catorum.
+<lb ed="#L" n="16"/>Quarto: utrum blasphemia sit in damnatis.
+</p>
+            <div xml:id="TAca84-d1e1339-Dd1e154"><!-- p2p2-q13a1 -->
+               <head xml:id="TAca84-d1e1339-Hd1e157">Articulus 1</head>
+               <head xml:id="TAca84-d1e1339-Hd1e159" type="question-title">Utrum blasphemia opponatur confessioni fidei</head>
+               <p xml:id="TAca84-d1e1339-d1e162">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="17"/>ARTICULUS PRIMUS
+<lb ed="#L" n="18"/>UTRUM BLASPHEMIA OPPONATUR CONFESSIONI FIDEI
+</p>
+               <p xml:id="TAca84-d1e1339-d1e171">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="19"/>AD PRIMUM SIC PROCEDITUR. Videtur quod |
+<lb ed="#L" n="20"/>blasphemia non opponatur confessioni 
+<lb ed="#L" n="21"/>fidei. Nam blasphemare est 
+contume<lb break="no" ed="#L" n="22"/>liam vel aliquod convicium inferre in
+<lb ed="#L" n="23"/>iniuriam Creatoris. Sed hoc magis pertinet ad
+<lb ed="#L" n="24"/>malevolentiam contra Deum quam ad infidelita- |
+<lb ed="#L" n="25"/>tem. Ergo blasphemia non opponitur confessioni |
+<lb ed="#L" n="26"/>fide.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e193">
+                  <lb ed="#L" n="27"/>2. PRAETEREA, ad Ephes. iv, super illud, 
+Bia<lb break="no" ed="#L" n="28"/>sphemia tollatur a vobis, dicit Glossa: : quae fit in
+<lb ed="#L" n="29"/>Deum vel in sanctos. Sed confessio fidei non 
+vi<lb break="no" ed="#L" n="30"/>detur esse nisi de his quae pertinent ad Deum,
+<lb ed="#L" n="31"/>qui est fidei obiectum. Ergo blasphemia non 
+sem<lb break="no" ed="#L" n="32"/>pot opponitur confessioni fidei.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e210">
+                  <lb ed="#L" n="33"/>3. PRAETEREA, a quibusdam dicitur quod sunt
+<lb ed="#L" n="34"/>inu blasphemiae species: quarum una est cum
+<lb ed="#L" n="35"/>attribuitur Deo quod ei non convenit; secunda
+<lb ed="#L" n="36"/>est cum ab eo removetur quod ei convenit; tertia
+<lb ed="#L" n="37"/>est.cum attribuitur creaturae quod Deo 
+appro<lb break="no" ed="#L" n="38"/>priatur. Et sic videtur quod blasphemia non 
+so<lb break="no" ed="#L" n="39"/>lum sit circa Deum, sed etiam circa creaturas.
+<lb ed="#L" n="40"/>Fides autem habet Deum pro obiecto. Ergo 
+blas<lb break="no" ed="#L" n="41"/>phemia non opponitur confessioni fidei.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e232">
+                  <lb ed="#L" n="42"/>SED CONTRA EST quod Apostolus dicit, 1 ad
+<lb ed="#L" n="43"/>Tim. 1: Prius fui blasphemus et persecutor; et
+<lb ed="#L" n="44"/>postea subdit: ignorans feci in incredulitate.
+<lb ed="#L" n="45"/>Ex quo videtur quod blasphemia ad infidelitatem
+<lb ed="#L" n="46"/>pertineat.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e245">
+                  <lb ed="#L" n="47"/>RESPONDEO DICENDUM quod nomen blasphemiae
+<lb ed="#L" n="48"/>importare videtur quandam derogationem alicuius
+<lb ed="#L" n="49"/>excellentis bonitatis, et praecipue divinae. Deus 
+<lb ed="#L" n="50"/>autem, ut Dionysius dicit, 1 cap. de Div. Nom.,
+<lb ed="#L" n="51"/>est ipsa essentia bonitatis '. Unde quidquid Deo
+<lb ed="#L" n="52"/>convenit pertinet ad bonitatem ipsius; et 
+quid<lb break="no" ed="#L" n="53"/>quid ad ipsum non pertinet longe est a ratione
+<lb ed="#L" n="54"/>perfectae bonitatis, quae est eius essentia. 
+Qui<lb break="no" ed="#L" n="55"/>cumque igitur vel negat aliquid de Deo quod ei,
+<lb ed="#L" n="56"/>convenit, vel asserit de eo quod ei non convenit,
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="57"/>derogat divinae bonitati. Quod quidem potest
+<lb ed="#L" n="58"/>contingere dupliciter: uno quidem modo, 
+secun<lb break="no" ed="#L" n="59"/>dum solam opinionem intellectus; alio modo,
+<lb ed="#L" n="60"/>coniuncta quadam affectus detestatione, sicut e
+<lb ed="#L" n="61"/>contrario fides Dei per dilectionem perficitur
+<lb ed="#L" n="62"/>ipsius. Huiusmodi igitur derogatio divinae 
+boni<lb break="no" ed="#L" n="63"/>tatis est? vel secundum intellectum tantum ; vel
+<lb ed="#L" n="64"/>etiam secundum affectum. Si consistat tantum in
+<lb ed="#L" n="65"/>corde, est cordis blasphemia. Si autem exterius
+<lb ed="#L" n="66"/>prodeat per locutionem, est oris blasphemia. Et
+<lb ed="#L" n="67"/>secundum hoc blasphemia confessioni opponitur.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e295">
+                  <lb ed="#L" n="68"/>AD PRIMUM ERGO DICENDUM quod ille qui contra
+<lb ed="#L" n="69"/>Deum loquitur convicium inferre intendens, 
+de<lb break="no" ed="#L" n="70"/>rogat divinae bonitati non solum. secundum 
+ve<lb break="no" ed="#L" n="71"/>ritatem intellectus, sed etiam secundum 
+pravita<lb break="no" ed="#L" n="72"/>tem voluntatis detestantis et impedientis pro posse
+<lb ed="#L" n="73"/>divinum honorem. Quod est blasphemia perfecta.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e311">
+                  <lb ed="#L" n="74"/>AD SECUNDUM DICENDUM quod sicut Deus in 
+san<lb break="no" ed="#L" n="75"/>ctis suis laudatur, inquantum laudantur opera quae
+<lb ed="#L" n="76"/>Deus in. sanctis efficit; ita et blasphemia quae fit
+<lb ed="#L" n="77"/>in sanctos ex consequenti in Deum redundat.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e322">
+                  <lb ed="#L" n="78"/>AD TERTIUM DICENDUM quod secundum illa tria
+<lb ed="#L" n="79"/>non possunt, proprie loquendo, distingui diversae
+<lb ed="#L" n="80"/>species peccati blasphemiae. Attribuere enim Deo
+<lb ed="#L" n="81"/>quod ei non convenit, vel removere ab eo quod
+<lb ed="#L" n="82"/>ei convenit, non differt nisi secundum 
+affirma<lb break="no" ed="#L" n="83"/>tionem et negationem. Quae quidem diversitas
+<lb ed="#L" n="84"/>habitus speciem non distinguit: quia per eandem
+<lb ed="#L" n="85"/>scientiam innotescit falsitas affirmationum "et 
+ne<lb break="no" ed="#L" n="86"/>gationum, et per eandem ignorantiam utroque
+<lb ed="#L" n="87"/>modo erratur, cum negatio probetur per 
+affirma<lb break="no" ed="#L" n="88"/>tionem, ut habetur I Poster. - QUod autem ea
+<lb ed="#L" n="89"/>quae sunt Dei propria creaturis attribuantur, ad
+<lb ed="#L" n="90"/>hoc:pertinere videtur quod aliquid ei attribuatur
+<lb ed="#L" n="91"/>quod ei non conveniat. Quidquid enim est Deo
+<lb ed="#L" n="92"/>proprium est ipse Deus: attribuere ergo ' id quod
+<lb ed="#L" n="93"/>Dei proprium est alicui creaturae est ipsum Deum
+<lb ed="#L" n="94"/>dicere idem creaturae.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1339-Dd1e363"><!-- p2p2-q13a2 -->
+               <head xml:id="TAca84-d1e1339-Hd1e366">Articulus 2</head>
+               <head xml:id="TAca84-d1e1339-Hd1e368" type="question-title">Utrum blasphemia semper sit peccatum mortale</head>
+               <p xml:id="TAca84-d1e1339-d1e371">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="14"/>UTRUM BLASPHEMIA SEMPER SIT PECCATUM MORTALE
+</p>
+               <p xml:id="TAca84-d1e1339-d1e380">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="15"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="16"/>blasphemia non semper sit peccatum
+<lb ed="#L" n="17"/>mortale. Quia super illud ad Col. III,
+<lb ed="#L" n="18"/>Nunc autem deponite vos etc., dicit
+<lb ed="#L" n="19"/>Glossa: Post maiora prohibet minora. Et tamen
+<lb ed="#L" n="20"/>subdit de blasphemia. Ergo blasphemia inter 
+pec<lb break="no" ed="#L" n="21"/>cata minora computatur, quae sunt peccata 
+ve<lb break="no" ed="#L" n="22"/>nialia.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e402">
+                  <lb ed="#L" n="23"/>2. PRAETEREA, omne peccatum mortale 
+oppo<lb break="no" ed="#L" n="24"/>nitur alicui praecepto decalogi. Sed blasphemia
+<lb ed="#L" n="25"/>non videtur alicui eorum opponi. Ergo 
+blasphe<lb break="no" ed="#L" n="26"/>mia non est peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e414">
+                  <lb ed="#L" n="27"/>3. PRAETEREA, peccata quae absque 
+delibera<lb break="no" ed="#L" n="28"/>tione committuntur non sunt mortalia: propter
+<lb ed="#L" n="29"/>quod primi motus non sunt peccata mortalia,
+<lb ed="#L" n="30"/>quia deliberationem rationis praecedunt, ut ex
+<lb ed="#L" n="31"/>supradictis patet. Sed blasphemia quandoque
+<lb ed="#L" n="32"/>absque deliberatione procedit. Ergo non semper
+<lb ed="#L" n="33"/>est peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e432">
+                  <lb ed="#L" n="34"/>Sed CONTRA EsT quod dicitur Levit. xxiv: Qui
+<lb ed="#L" n="35"/>blasphemaverit nomen Domini , morte moriatur.
+<lb ed="#L" n="36"/>Sed poena mortis non infertur nisi pro peccato
+<lb ed="#L" n="37"/>mortali. Ergo blasphemia est peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e443">
+                  <lb ed="#L" n="38"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="39"/>est, peccatum mortale est per quod homo 
+sepa<lb break="no" ed="#L" n="40"/>ratur a primo principio spiritualis vitae, quod
+<lb ed="#L" n="41"/>est caritas Dei. Unde quaecumque caritati 
+re<lb break="no" ed="#L" n="42"/>pugnant, ex suo genere sunt peccata mortalia.
+<lb ed="#L" n="43"/>Blasphemia autem secundum genus suum 
+repu<lb break="no" ed="#L" n="44"/>gnat caritati divinae: quia derogat divinae 
+boni<lb break="no" ed="#L" n="45"/>tati, ut dictum est, quae est obiectum caritatis
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="46"/>Et ideo blasphemia est peccatum mortale ex suo
+<lb ed="#L" n="47"/>genere.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e469">
+                  <lb ed="#L" n="48"/>AD PRIMUM ERGO DICENDUM quod glossa illa non
+<lb ed="#L" n="49"/>est sic intelligenda quasi omnia quae subduntur
+<lb ed="#L" n="50"/>sint peccata minora. Sed quia, cum supra non
+<lb ed="#L" n="51"/>expressisset nisi maiora, postmodum etiam 
+quae<lb break="no" ed="#L" n="52"/>dam minora subdit, inter quae etiam quaedam
+<lb ed="#L" n="53"/>de maioribus ponit.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e485">
+                  <lb ed="#L" n="54"/>AD SECUNDUM DICENDUM quod, cum blasphemia
+<lb ed="#L" n="55"/>opponatur confessioni fidei, ut dictum est, eius
+<lb ed="#L" n="56"/>prohibitio reducitur ad prohibitionem infidelitatis,
+<lb ed="#L" n="57"/>quae intelligitur in eo quod dicitur: Ego sum
+<lb ed="#L" n="58"/>Dominus Deus tuus etc.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e498">
+                  <lb ed="#L" n="59"/>Vel prohibetur per id quod dicitur: Non 
+as<lb break="no" ed="#L" n="60"/>sumes nomen Dei tui in vanum. Magis enim in
+<lb ed="#L" n="61"/>vanum assumit nomen Dei qui aliquod falsum
+<lb ed="#L" n="62"/>de Deo asserit quam qui per nomen Dei aliquod
+<lb ed="#L" n="63"/>falsum confirmat.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e512">
+                  <lb ed="#L" n="64"/>AD TERTIUM DICENDUM quod blasphemia potest
+<lb ed="#L" n="65"/>absque deliberatione ex subreptione Y procedere
+<lb ed="#L" n="66"/>dupliciter. Uno modo, quod aliquis non advertat
+<lb ed="#L" n="67"/>hoc quod dicit esse blasphemiam. Quod potest
+<lb ed="#L" n="68"/>contingere cum aliquis subito ex aliqua passione
+<lb ed="#L" n="69"/>in verba imaginata prorumpit, quorum 
+significa<lb break="no" ed="#L" n="70"/>tionem non considerat. Et tunc est peccatum 
+ve<lb break="no" ed="#L" n="71"/>niale: et non habet proprie rationem 
+blasphe<lb break="no" ed="#L" n="72"/>miae. - Alio modo, quando advertit hoc esse
+<lb ed="#L" n="73"/>blasphemiam, considerans significata verborum.
+<lb ed="#L" n="74"/>Et tunc non excusatur a peccato mortali: sicut
+<lb ed="#L" n="75"/>nec ille qui ex subito motu irae aliquem occidit
+<lb ed="#L" n="76"/>iuxta se sedentem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1339-Dd1e544"><!-- p2p2-q13a3 -->
+               <head xml:id="TAca84-d1e1339-Hd1e547">Articulus 3</head>
+               <head xml:id="TAca84-d1e1339-Hd1e549" type="question-title">Utrum peccatum blasphemiae sit maximum peccatum</head>
+               <p xml:id="TAca84-d1e1339-d1e552">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="77"/>ARTICULUS TERTIUS
+<lb ed="#L" n="78"/>UTRUM PECCATUM BLASPHEMIAE SIT MAXIMUM PECCATUM
+</p>
+               <p xml:id="TAca84-d1e1339-d1e561">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="79"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="80"/>peccatum blasphemiae non sit 
+maxi<lb break="no" ed="#L" n="81"/>mum peccatum. Malum enim dicitur
+<lb ed="#L" n="82"/>quod nocet, secundum Augustinum, in
+<lb ed="#L" n="83"/>Enchirid. Sed magis nocet peccatum homicidii,
+<lb ed="#L" n="84"/>quod perimit vitam hominis, quam peccatum
+<lb ed="#L" n="85"/>blasphemiae, quod Deo nullum nocumentum 
+po<lb break="no" ed="#L" n="86"/>test inferre. Ergo peccatum homicidii est gravius
+<lb ed="#L" n="87"/>peccato blasphemiae.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e585">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="88"/>2. PRAETEREA, quicumque peierat? inducit Deum
+<lb ed="#L" n="89"/>testem falsitati, et ita videtur eum asserere esse
+<lb ed="#L" n="90"/>falsum. Sed non quilibet blasphemus usque ad
+<lb ed="#L" n="91"/>hoc procedit ut Deum asserat esse falsum. Ergo
+<lb ed="#L" n="92"/>periurium est gravius peccatum quam blasphemia.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e602">
+                  <lb ed="#L" n="93"/>3. PRAETEREA, super illud Psalm., Nolite 
+extol<lb break="no" ed="#L" n="94"/>lere in altum cornu vestrum, dicit Glossa:
+<lb ed="#L" n="95"/>Maximum est vitium excusationis peccati. Non
+<lb ed="#L" n="96"/>ergo blasphemia est maximum peccatum.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e613">
+                  <pb ed="#L" n="110"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>SED CONTRA EST quod Isaiae xviri, super illud,
+<lb ed="#L" n="2"/>Ad populum terribilem etc., dicit Glossa: Omne
+<lb ed="#L" n="3"/>peccatum, blasphemiae comparatum, levius est.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e626">
+                  <lb ed="#L" n="4"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="5"/>est, blasphemia opponitur confessioni fidei. Et
+<lb ed="#L" n="6"/>ideo habet in se gravitatem infidelitatis. Et 
+aggra<lb break="no" ed="#L" n="7"/>vatur peccatum si superveniat detestatio 
+volun<lb break="no" ed="#L" n="8"/>tatis; et adhuc magis si prorumpat in verba;
+<lb ed="#L" n="9"/>sicut et laus fidei augetur per dilectionem et 
+con<lb break="no" ed="#L" n="10"/>fessionem. Unde, cum infidelitas sit maximum 
+pec<lb break="no" ed="#L" n="11"/>catum secundum suum genus, sicut supra 
+di<lb break="no" ed="#L" n="12"/>ctum est, consequens est quod etiam blasphemia
+<lb ed="#L" n="13"/>sit peccatum maximum, ad idem genus pertinens
+<lb ed="#L" n="14"/>et ipsum aggravans.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e652">
+                  <lb ed="#L" n="15"/>AD PRIMUM ERGO DICENDUM quod homicidium et
+<lb ed="#L" n="16"/>blasphemia si comparentur secundum obiecta in
+<lb ed="#L" n="17"/>quae peccatur, manifestum est quod blasphemia,
+<lb ed="#L" n="18"/>quae est directe peccatum in Deum, praeponderat
+<lb ed="#L" n="19"/>homicidio, quod est peccatum in proximum. Si
+<lb ed="#L" n="20"/>autem comparentur secundum effectum nocendi,
+<lb ed="#L" n="21"/>Sic homicidium praeponderat: plus enim 
+homi<lb break="no" ed="#L" n="22"/>cidium nocet proximo quam blasphemia Deo.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e672">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="23"/>Sed quia in gravitate culpae magis attenditur
+<lb ed="#L" n="24"/>intentio voluntatis perversae quam effectus 
+ope<lb break="no" ed="#L" n="25"/>ris, ut ex supradictis patet; ideo, cum 
+blasphe<lb break="no" ed="#L" n="26"/>mus intendat nocumentum inferre honori divino,
+<lb ed="#L" n="27"/>simpliciter loquendo gravius. peccat quam 
+ho<lb break="no" ed="#L" n="28"/>micida. Homicidium tamen primum locum tenet
+<lb ed="#L" n="29"/>in peccatis inter peccata in proximum 
+com<lb break="no" ed="#L" n="30"/>missa.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e694">
+                  <lb ed="#L" n="31"/>AD SECUNDUM DICENDUM quod super illud ad
+<lb ed="#L" n="32"/>Ephes. iv, Blasphemia tollatur a vobis, dicit
+<lb ed="#L" n="33"/>Glossa: Peius est blasphemare quam peierare.
+<lb ed="#L" n="34"/>Qui enim peierat non dicit aut sentit aliquid 
+fal<lb break="no" ed="#L" n="35"/>sum de Deo, sicut blasphemus: sed Deum 
+adhi<lb break="no" ed="#L" n="36"/>bet testem falsitati non tanquam aestimans Deum
+<lb ed="#L" n="37"/>esse falsum testem, sed tanquam sperans quod
+<lb ed="#L" n="38"/>Deus super hoc non testificetur per aliquod 
+evi<lb break="no" ed="#L" n="39"/>dens signum. :
+</p>
+               <p xml:id="TAca84-d1e1339-d1e717">
+                  <lb ed="#L" n="40"/>AD TERTIUM DICENDUM quod excusatio peccati est
+<lb ed="#L" n="41"/>quaedam circumstantia aggravans omne 
+pecca<lb break="no" ed="#L" n="42"/>tum; etiam ipsam blasphemiam. Et pro tanto 
+di<lb break="no" ed="#L" n="43"/>citur esse maximum peccatum, quia quodlibet
+<lb ed="#L" n="44"/>facit maius.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1339-Dd1e731"><!-- p2p2-q13a4 -->
+               <head xml:id="TAca84-d1e1339-Hd1e734">Articulus 4</head>
+               <head xml:id="TAca84-d1e1339-Hd1e736" type="question-title">Utrum damnati blasphement</head>
+               <p xml:id="TAca84-d1e1339-d1e739">
+                  <pb ed="#L" n="111"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ARTICULUS QUARTUS
+<lb ed="#L" n="2"/>UTRUM DAMNATI BLASPHEMENT
+</p>
+               <p xml:id="TAca84-d1e1339-d1e750">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>damnati non blasphement. Detinentur
+<lb ed="#L" n="5"/>enim nunc aliqui mali a blasphemando
+<lb ed="#L" n="6"/>propter timorem futurarum poenarum.
+<lb ed="#L" n="7"/>Sed damnati has poenas experiuntur, unde magis
+<lb ed="#L" n="8"/>eas abhorrent. Ergo multo magis a blasphemando
+<lb ed="#L" n="9"/>compescuntur.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e770">
+                  <lb ed="#L" n="10"/>2. PRAETEREA, blasphemia, cum sit gravissimum
+<lb ed="#L" n="11"/>peccatum, est maxime demeritorium. Sed in 
+fu<lb break="no" ed="#L" n="12"/>tura vita non est status merendi neque 
+deme<lb break="no" ed="#L" n="13"/>rendi. Ergo nullus erit locus blasphemiae.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e782">
+                  <lb ed="#L" n="14"/>3. PRAETEREA, Eccle. xi dicitur quod zn 
+quo<lb break="no" ed="#L" n="15"/>cumque loco lignum ceciderit, ibi erit: ex quo
+<lb ed="#L" n="16"/>patet quod post hanc vitam homini non accrescit
+<lb ed="#L" n="17"/>nec meritum nec peccatum quod non habuit in
+<lb ed="#L" n="18"/>hac vita. Sed multi damnabuntur qui in hac vita
+<lb ed="#L" n="19"/>non fuerunt blasphemi. Ergo nec in futura vita
+<lb ed="#L" n="20"/>blasphemabunt.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e800">
+                  <lb ed="#L" n="21"/>SEp coNTRA EsT quod dicitur Apoc. xvi: 
+A4e<lb break="no" ed="#L" n="22"/>stuaverunt homines aestu magno, et 
+blasphemave<lb break="no" ed="#L" n="23"/>runt nomen Domini habentis potestatem super has
+<lb ed="#L" n="24"/>plagas: ubi dicit Glossa quod in inferno positi,
+<lb ed="#L" n="25"/>quamvis sciant se pro merito P puniri, dolebunt
+<lb ed="#L" n="26"/>tamen quod Deus tantam potentiam habeat quod
+<lb ed="#L" n="27"/>plagas eis inferat. Hoc autem esset blasphemia
+<lb ed="#L" n="28"/>in praesenti. Ergo et in futuro.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e820">
+                  <lb ed="#L" n="29"/>REsPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="30"/>ad rationem blasphemiae pertinet detestatio divi-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="31"/>nae bonitatis. Illi autem qui sunt in inferno 
+reti<lb break="no" ed="#L" n="32"/>nebunt perversam voluntatem, ,aversam a Dei
+<lb ed="#L" n="33"/>iustitia, in hoc quod diligunt ea pro quibus 
+pu<lb break="no" ed="#L" n="34"/>niuntur, et vellent eis uti si possent, et odiunt
+<lb ed="#L" n="35"/>poenas quae pro huiusmodi peccatis infliguntur;
+<lb ed="#L" n="36"/>dolent tamen de peccatis quae commiserunt,
+<lb ed="#L" n="37"/>non quia ipsa odiant, sed quia pro eis puniuntur.
+<lb ed="#L" n="38"/>Sic ergo talis detestatio divinae iustitiae est in eis
+<lb ed="#L" n="39"/>interior cordis blasphemia. Et credibile est quod
+<lb ed="#L" n="40"/>post resurrectionem erit in eis etiam vocalis 
+blas<lb break="no" ed="#L" n="41"/>phernia, sicut in sanctis vocalis laus Dei.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e853">
+                  <lb ed="#L" n="42"/>AD PRIMUM ERGO DICENDUM quod homines 
+deter<lb break="no" ed="#L" n="43"/>rentur in praesenti a blasphemia propter timorem
+<lb ed="#L" n="44"/>poenarum quas se putant evadere. Sed damnati
+<lb ed="#L" n="45"/>in inferno non sperant se posse poenas 
+eva<lb break="no" ed="#L" n="46"/>dere. Et ideo, tanquam desperati, feruntur ad
+<lb ed="#L" n="47"/>omne ad quod eis perversa voluntas suggerit.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e869">
+                  <lb ed="#L" n="48"/>AD SECUNDUM DICENDUM quod mereri et 
+deme<lb break="no" ed="#L" n="49"/>reri pertinent ad statum viae. Unde bona in
+<lb ed="#L" n="50"/>viatoribus sunt meritoria, mala vero demeritoria.
+<lb ed="#L" n="51"/>In beatis autem bona non sunt meritoria, sed
+<lb ed="#L" n="52"/>pertinentia ad eorum beatitudinis praemium. Et
+<lb ed="#L" n="53"/>similiter mala in damnatis non sunt demeritoria,
+<lb ed="#L" n="54"/>sed pertinent ad damnationis poenam.
+</p>
+               <p xml:id="TAca84-d1e1339-d1e887">
+                  <lb ed="#L" n="55"/>AD TERTIUM DICENDUM quod quilibet in peccato
+<lb ed="#L" n="56"/>mortali decedens fert secum voluntatem 
+detestan<lb break="no" ed="#L" n="57"/>tem divinam iustitiam quantum ad aliquid. Et
+<lb ed="#L" n="58"/>secundum hoc poterit ei inesse blasphemia.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
