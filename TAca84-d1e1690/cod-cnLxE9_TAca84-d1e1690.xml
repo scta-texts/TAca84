@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 81</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 81</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="177"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1690"><!-- p2p2-q81" -->
+            <head xml:id="TAca84-d1e1690-Hd1e101">Quaestio 81</head>
+            <head xml:id="TAca84-d1e1690-Hd1e103" type="question-title">De religione</head>
+            <p xml:id="TAca84-d1e1690-d1e106">
+               <pb ed="#L" n="177"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=177"/>QUAESTIO OCTOGESIMAPRIMA
+<lb ed="#L" n="2"/>DE RELIGIONE
+<lb ed="#L" n="3"/>IN OCTO ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1690-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de singulis 
+prae<lb break="no" ed="#L" n="5"/>dictarum virtutum, quantum ad praesentem
+<lb ed="#L" n="6"/>intentionem pertinet. Et primo considerandum
+<lb ed="#L" n="7"/>est de religione; secundo, de pietate; tertio,
+<lb ed="#L" n="8"/>de observantia; quarto, de gratia*; quinto,
+<lb ed="#L" n="9"/>de vindicta; sexto, de veritate Sd septimo, de
+<lb ed="#L" n="10"/>amicitia; octavo, de liberalitate*; nono, de
+<lb ed="#L" n="11"/>epieikeia. De aliis autem hic* enumeratis supra
+<lb ed="#L" n="12"/>dictum est: partim in tractatu de caritate, scilicet
+<lb ed="#L" n="13"/>de concordia et aliis huiusmodi; partim in hoc
+<lb ed="#L" n="14"/>tractatu de iustitia, sicut de bona commutatione
+<lb ed="#L" n="15"/>et innocentia; de legispositiva autem in tractatu
+<lb ed="#L" n="16"/>de prudentia.
+</p>
+            <p xml:id="TAca84-d1e1690-d1e152">
+               <lb ed="#L" n="17"/>Circa religionem vero tria consideranda oc-
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="18"/>currunt: primo quidem, de ipsa religione 
+secun<lb break="no" ed="#L" n="19"/>dum se; fecunda; de actibus eius*; tertio, de
+<lb ed="#L" n="20"/>vitiis oppositis
+</p>
+            <p xml:id="TAca84-d1e1690-d1e166">
+               <lb ed="#L" n="21"/>Circa primum quaeruntur octo.
+<lb ed="#L" n="22"/>Primo: utrum religio consistat tantum in ordine
+<lb ed="#L" n="23"/>ad Deum.
+<lb ed="#L" n="24"/>Secundo: utrum religio sit virtus.
+<lb ed="#L" n="25"/>Tertio: utrum religio sit una virtus.
+<lb ed="#L" n="26"/>Quarto: utrum religio sit specialis virtus.
+<lb ed="#L" n="27"/>Quinto: utrum religio sit virtus theologica.
+<lb ed="#L" n="28"/>Sexto: utrum religio sit praeferenda aliis 
+vir<lb break="no" ed="#L" n="29"/>tutibus moralibus.
+<lb ed="#L" n="30"/>Septimo: utrum religio habeat exteriores actus.
+<lb ed="#L" n="31"/>Octavo: utrum religio sit eadem sanctitati.
+</p>
+            <div xml:id="TAca84-d1e1690-Dd1e192"><!-- p2p2-q81a1" -->
+               <head xml:id="TAca84-d1e1690-Hd1e195">Articulus 1</head>
+               <head xml:id="TAca84-d1e1690-Hd1e197" type="question-title">Utrum religio ordinet hominem solum ad deum</head>
+               <p xml:id="TAca84-d1e1690-d1e200">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="32" type="fixed=177"/>ARTICULUS PRIMUS
+<lb ed="#L" n="33"/>UTRUM RELIGIO ORDINET HOMINEM SOLUM AD DEUM
+</p>
+               <p xml:id="TAca84-d1e1690-d1e209">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="34"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="35"/>religio non ordinet hominem solum ad
+<lb ed="#L" n="36"/>Deum. Dicitur enim <ref xml:id="TAca84-d1e1690-Rd1e219">Iac. 1</ref>: <quote xml:id="TAca84-d1e1690-Qd1e222">Religio 
+<lb ed="#L" n="37"/>munda et immaculata apud Deum et
+<lb ed="#L" n="38"/>Patrem haec est: visitare pupillos et viduas in
+<lb ed="#L" n="39"/>tribulatione eorum, et immaculatum se custodire
+<lb ed="#L" n="40"/>ab hoc saeculo</quote>. Sed visitare pupillos et viduas
+<lb ed="#L" n="41"/>dicitur secundum ordinem ad proximum: quod
+<lb ed="#L" n="42"/>autem dicit Immaculatum se custodire ab hoc
+<lb ed="#L" n="43"/>saeculo, pertinet ad ordinem quo ordinatur homo
+<lb ed="#L" n="44"/>in seipso. Ergo religio non solum dicitur in 
+or<lb break="no" ed="#L" n="45"/>dine ad Deum.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e244">
+                  <lb ed="#L" n="46"/>2. PRAETEREA, Augustinus dicit, in X de Civ.
+<lb ed="#L" n="47"/>Dei: Quia latina loquendi consuetudine, non
+<lb ed="#L" n="48"/>imperitorum, verum etiam doctissimorum, 
+cogna<lb break="no" ed="#L" n="49"/>lionibus humanis atque affinitatibus et 
+quibuscum<lb break="no" ed="#L" n="50"/>que necessitudinibus dicitur exhibenda religio; non
+<lb ed="#L" n="51"/>eo vocabulo vitatur ambiguum cum de cultu 
+dei<lb break="no" ed="#L" n="52"/>tatis vertitur quaestio, ut fidenter dicere valeamus
+<lb ed="#L" n="53"/>religionem non esse nisi cultum Dei. Ergo 
+re<lb break="no" ed="#L" n="54"/>ligio dicitur non solum in ordine ad Deum, sed
+<lb ed="#L" n="55"/>etiam in ordine ad propinquos.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e269">
+                  <lb ed="#L" n="56"/>3. PRAETEREA, ad religionem videtur latria 
+per<lb break="no" ed="#L" n="57"/>tinere. Latria autem ? interpretatur servitus, ut
+<lb ed="#L" n="58"/>Augustinus dicit, in X de Civ. Dei. Servire
+<lb ed="#L" n="59"/>autem debemus non solum Deo, sed etiam 
+pro<lb break="no" ed="#L" n="60"/>ximis: secundum illud Gal. v: Per caritatem
+<lb ed="#L" n="61"/>spiritus servile invicem. Ergo religio importat
+<lb ed="#L" n="62"/>etiam ordinem ad proximum.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e287">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="63"/>4. PRAETEREA, ad religionem pertinet cultus.
+<lb ed="#L" n="64"/>Sed. homo dicitur non solum colere Deum, sed
+<lb ed="#L" n="65"/>etiam proximum : secundum illud Catonis: Cole
+<lb ed="#L" n="66"/>parenies. Ergo etiam religio nos ordinat ad 
+pro<lb break="no" ed="#L" n="67"/>ximum, et non solum ad Deum.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e303">
+                  <lb ed="#L" n="68"/>5. PRAETEREA, omnes in statu salutis existentes
+<lb ed="#L" n="69"/>Deo sunt subiecti. Non autem dicuntur religiosi
+<lb ed="#L" n="70"/>omnes qui sunt in statu salutis, sed solum illi
+<lb ed="#L" n="71"/>qui quibusdam votis et observantiis et ad 
+obe<lb break="no" ed="#L" n="72"/>diendum aliquibus hominibus se adstringunt. Ergo
+<lb ed="#L" n="73"/>religio non videtur importare ordinem subiectionis
+<lb ed="#L" n="74"/>hominis ad Deum.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e321">
+                  <lb ed="#L" n="75"/>SED coNTRA EsT quod Tullius dicit, II Aet.,
+<lb ed="#L" n="76"/>quod religio est quae superioris naturae, quam
+<lb ed="#L" n="77"/>divinam vocant, curam caeremoniamque affert.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e330">
+                  <lb ed="#L" n="78"/>RESPONDEO DICENDUM quod, sicut Isidorus dicit,
+<lb ed="#L" n="79"/>in libro Etymol., religiosus, ut ait Cicero, a 
+reli<lb break="no" ed="#L" n="80"/>gione appellatus, qui retractat et tanquam relegit
+<lb ed="#L" n="81"/>ea quae ad cultum divinum pertinent. Et sic 
+re<lb break="no" ed="#L" n="82"/>ligio videtur dicta a religendo ea quae sunt 
+di<lb break="no" ed="#L" n="83"/>vini cultus: quia huiusmodi sunt frequenter in
+<lb ed="#L" n="84"/>corde revolvenda, secundum illud Prov. i: Zn
+<lb ed="#L" n="85"/>omnibus viis tuis cogita illum. - Quamvis etiam
+<lb ed="#L" n="86"/>possit intelligi religio ex hoc dicta quod Deum
+<lb ed="#L" n="87"/>reeligere debemus, quem amiseramus negligentes:
+<lb ed="#L" n="88"/>sicut Augustinus dicit, X de Civ. Dei.* - Vel 
+po<lb break="no" ed="#L" n="89"/>test intelligi religio a religando dicta: unde 
+Au<lb break="no" ed="#L" n="90"/>gustinus dicit, in libro de Vera Relig.: Religet
+<lb ed="#L" n="91"/>nos religio uni omnipotenti Deo.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e363">
+                  <pb ed="#L" n="178"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Sive autem religio dicatur a frequenti 
+lectio<lb break="no" ed="#L" n="2"/>ne, sive ex iterata electione eius quod negligenter
+<lb ed="#L" n="3"/>amissum est, sive ^ a religatione, religio proprie
+<lb ed="#L" n="4"/>importat ordinem ad Deum. Ipse enim est cui
+<lb ed="#L" n="5"/>principaliter alligari debemus, tanquam 
+indefi<lb break="no" ed="#L" n="6"/>cienti principio; ad quem etiam nostra electio
+<lb ed="#L" n="7"/>assidue dirigi debet, sicut in ultimum finem;
+<lb ed="#L" n="8"/>quem etiam negligenter peccando amittimus, et
+<lb ed="#L" n="9"/>credendo et fidem protestando recuperare 
+de<lb break="no" ed="#L" n="10"/>bemus.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e393">
+                  <lb ed="#L" n="11"/>AD PRIMUM ERGO DICENDUM quod religio habet
+<lb ed="#L" n="12"/>duplices actus. Quosdam quidem proprios et 
+im<lb break="no" ed="#L" n="13"/>mediatos, quos elicit, per quos homo ordinatur
+<lb ed="#L" n="14"/>ad solum Deum: sicut sacrificare, adorare et alia '
+<lb ed="#L" n="15"/>huiusmodi. Alios autem actus habet quos 
+pro<lb break="no" ed="#L" n="16"/>ducit mediantibus virtutibus quibus imperat, 
+or<lb break="no" ed="#L" n="17"/>dinans eos in divinam reverentiam: quia scilicet
+<lb ed="#L" n="18"/>virtus ad quam pertinet finis, imperat virtutibus
+<lb ed="#L" n="19"/>ad quas pertinent ea quae sunt ad finem. Et
+<lb ed="#L" n="20"/>secundum hoc actus religionis per modum 
+im<lb break="no" ed="#L" n="21"/>perii ponitur esse visitare pupillos et viduas in
+<lb ed="#L" n="22"/>tribulatione eorum, quod est actus elicitus a 
+mi<lb break="no" ed="#L" n="23"/>sericordia: immaculatum autem custodire se ab
+<lb ed="#L" n="24"/>hoc saeculo imperative quidem est religionis,
+<lb ed="#L" n="25"/>elicitive autem temperantiae vel alicuius 
+huius<lb break="no" ed="#L" n="26"/>modi virtutis.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e430">
+                  <lb ed="#L" n="27"/>AD SECUNDUM DICENDUM quod religio refertur ad
+<lb ed="#L" n="28"/>ea quae exhibentur cognationibus humanis, 
+ex<lb break="no" ed="#L" n="29"/>tenso nomine religionis: non autem secundum
+<lb ed="#L" n="30"/>quod religio proprie dicitur. Unde Augustinus,
+<lb ed="#L" n="31"/>parum ante verba inducta, praemittit: Religio
+<lb ed="#L" n="32"/>distinctius non. quemlibet, sed Dei cultum 
+si<lb break="no" ed="#L" n="33"/>gnificare videtur.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e448">
+                  <lb ed="#L" n="34"/>AD TERTIUM DICENDUM quod cum servus dicatur
+<lb ed="#L" n="35"/>ad dominum, necesse est quod ubi est propria
+<lb ed="#L" n="36"/>et specialis ratio dominii, ibi sit specialis et propria
+<lb ed="#L" n="37"/>ratio servitutis. Manifestum est autem quod 
+do<lb break="no" ed="#L" n="38"/>minium convenit Deo secundum propriam et
+<lb ed="#L" n="39"/>singularem quandam rationem: quia scilicet i ipse
+<lb ed="#L" n="40"/>omnia fecit, et quia summum in omnibus rebus
+<lb ed="#L" n="41"/>obtinet principatum. Et ideo specialis ratio 
+ser<lb break="no" ed="#L" n="42"/>vitutis ei debetur. Et talis servitus nomine latriae
+<lb ed="#L" n="43"/>designatur apud Graecos, Et ideo ad religionem
+<lb ed="#L" n="44"/>proprie pertinet.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e474">
+                  <lb ed="#L" n="45"/>AD QUARTUM DICENDUM quod colere dicimus 
+ho<lb break="no" ed="#L" n="46"/>mines quos honorificatione, vel recordatione, vel
+<lb ed="#L" n="47"/>praesentia frequentamus. Et etiam aliqua quae
+<lb ed="#L" n="48"/>nobis subiecta sunt coli a nobis dicuntur: sicut
+<lb ed="#L" n="49"/>agricolae dicuntur ex eo quod colunt agros, et
+<lb ed="#L" n="50"/>incolae dicuntur ex eo quod colunt loca quae
+<lb ed="#L" n="51"/>inhabitant Quia tamen specialis honor debetur
+<lb ed="#L" n="52"/>Deo, tanquam primo omnium principio, etiam
+<lb ed="#L" n="53"/>specialis ratio cultus ei debetur, quae graeco
+<lb ed="#L" n="54"/>nomine vocatur eusebia vel theosebia: ut patet
+<lb ed="#L" n="55"/>per Augustinum, X de Civ. Dei.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e500">
+                  <lb ed="#L" n="56"/>AD QUINTUM DICENDUM quod quamvis religiosi
+<lb ed="#L" n="57"/>dici possint communiter omnes qui Deum colunt,
+<lb ed="#L" n="58"/>specialiter tamen religiosi dicuntur qui totam 
+vi<lb break="no" ed="#L" n="59"/>tam suam divino cultui dedicant, a mundanis 
+ne<lb break="no" ed="#L" n="60"/>gotiis se abstrahentes. Sicut etiam contemplativi
+<lb ed="#L" n="61"/>dicuntur non qui contemplantur, sed qui 
+con<lb break="no" ed="#L" n="62"/>templationi totam vitam suam deputant. 
+Huius<lb break="no" ed="#L" n="63"/>modi autem non se subiiciunt homini propter
+<lb ed="#L" n="64"/>hominem, sed propter Deum: secundum illud
+<lb ed="#L" n="65"/>Apostoli, Gal. iv: Sicut angelum Dei excepistis
+<lb ed="#L" n="66"/>me, sicut. Christum Iesum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1690-Dd1e527"><!-- p2p2-q81a2" -->
+               <head xml:id="TAca84-d1e1690-Hd1e530">Articulus 2</head>
+               <head xml:id="TAca84-d1e1690-Hd1e532" type="question-title">Utrum religio sit virtus</head>
+               <p xml:id="TAca84-d1e1690-d1e535">
+                  <pb ed="#L" n="179"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=179"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM RELIGIO SIT VIRTUS
+</p>
+               <p xml:id="TAca84-d1e1690-d1e546">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>religio non sit virtus. Ad religionem
+<lb ed="#L" n="5"/>enim pertinere videtur Deo reverentiam
+<lb ed="#L" n="6"/>exhibere. Sed revereri est actus timoris,
+<lb ed="#L" n="7"/>qui est donum, ut ex supradictis patet. Ergo
+<lb ed="#L" n="8"/>religio non est "virtus, sed donum.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e564">
+                  <lb ed="#L" n="9"/>2. PRAETEREA, omnis virtus in libera voluntate
+<lb ed="#L" n="10"/>consistit: unde dicitur habitus electivus, vel 
+vo<lb break="no" ed="#L" n="11"/>luntarius. Sed sicut dictum est, ad religionem
+<lb ed="#L" n="12"/>pertinet latria, quae servitutem quandam 
+impor<lb break="no" ed="#L" n="13"/>tat. Ergo religio non est virtus.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e578">
+                  <lb ed="#L" n="14"/>3. PRAETEREA, sicut dicitur in II E/hic., 
+apti<lb break="no" ed="#L" n="15"/>tudo virtutum inest nobis a natura: unde ea
+<lb ed="#L" n="16"/>quae pertitient ad virtutes sunt de dictamine 
+ra<lb break="no" ed="#L" n="17"/>tionis naturalis. Sed ad religionem pertinet 
+cae<lb break="no" ed="#L" n="18"/>remoniam divinae naturae afferre. 
+Caeremo<lb break="no" ed="#L" n="19"/>nialia autem, ut supra dictum est, non sunt de
+<lb ed="#L" n="20"/>dictamine rationis naturalis. Ergo religio non est
+<lb ed="#L" n="21"/>virtus.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e598">
+                  <lb ed="#L" n="22"/>SED CONTRA EST quia connumeratur aliis 
+vir<lb break="no" ed="#L" n="23"/>tutibus, ut ex praemissis patet.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e605">
+                  <lb ed="#L" n="24"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="25"/>est, virtus est quae bonum facit habentem et opus
+<lb ed="#L" n="26"/>eius bonum reddit. Et ideo necesse est dicere
+<lb ed="#L" n="27"/>omnem actum bonum ad virtutem pertinere. 
+Ma<lb break="no" ed="#L" n="28"/>nifestum est autem quod reddere debitum alicui
+<lb ed="#L" n="29"/>habet rationem boni: quia per hoc quod aliquis 
+<lb ed="#L" n="30"/>alteri debitum reddit, etiam constituitur in 
+pro<lb break="no" ed="#L" n="31"/>portione convenienti respectu ipsius, quasi 
+conve<lb break="no" ed="#L" n="32"/>nienter ordinatus ad ipsum ; ordo autem ad 
+ratio<lb break="no" ed="#L" n="33"/>nem boni pertinet, sicut et modus et species, ut
+<lb ed="#L" n="34"/>per Augustinum patet, in libro de Natura Boni*.
+<lb ed="#L" n="35"/>Cum igitur ad religionem pertineat reddere 
+hono<lb break="no" ed="#L" n="36"/>rem debitum alicui, scilicet Deo, manifestum est
+<lb ed="#L" n="37"/>quod religio virtus est.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e638">
+                  <lb ed="#L" n="38"/>AD PRIMUM ERGO DICENDUM quod revereri Deum
+<lb ed="#L" n="39"/>est actus doni timoris. Ad religionem autem 
+per<lb break="no" ed="#L" n="40"/>tinet facere aliqua propter divinam reverentiam.
+<lb ed="#L" n="41"/>Unde non sequitur quod religio sit idem quod
+<lb ed="#L" n="42"/>donum timoris, sed quod ordinetur ad ipsum 
+si<lb break="no" ed="#L" n="43"/>cut ad aliquid principalius. Sunt enim dona 
+prin<lb break="no" ed="#L" n="44"/>cipaliora virtutibus moralibus, ut supra habitum
+<lb ed="#L" n="45"/>est.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e658">
+                  <lb ed="#L" n="46"/>AD SECUNDUM DICENDUM quod etiam servus potest
+<lb ed="#L" n="47"/>voluntarie domino suo exhibere quod debet: et
+<lb ed="#L" n="48"/>sic facit, de necessitate virtutem, debitum 
+volun<lb break="no" ed="#L" n="49"/>tarie reddens. Et similiter etiam exhibere Deo
+<lb ed="#L" n="50"/>debitam servitutem potest esse actus virtutis, 
+se<lb break="no" ed="#L" n="51"/>cundum quod homo voluntarie hoc ? facit.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e674">
+                  <lb ed="#L" n="52"/>AD TERTIUM DICENDUM quod de dictamine rationis
+<lb ed="#L" n="53"/>naturalis est quod homo aliqua faciat ad 
+reveren<lb break="no" ed="#L" n="54"/>tiam divinam: sed quod haec determinate faciat
+<lb ed="#L" n="55"/>vel illa, istud non est de dictamine rationis 
+natu<lb break="no" ed="#L" n="56"/>ralis, sed de institutione iuris divini vel humani.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1690-Dd1e688"><!-- p2p2-q81a3" -->
+               <head xml:id="TAca84-d1e1690-Hd1e691">Articulus 3</head>
+               <head xml:id="TAca84-d1e1690-Hd1e693" type="question-title">Utrum religio sit una virtus</head>
+               <p xml:id="TAca84-d1e1690-d1e696">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="89" type="fixed=179"/>ARTICULUS TERTIUS
+<lb ed="#L" n="90"/>UTRUM RELIGIO SIT UNA VIRTUS
+</p>
+               <p xml:id="TAca84-d1e1690-d1e705">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="91"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="92"/>religio non sit una virtus. Per 
+religio<lb break="no" ed="#L" n="93"/>nem enim ordinamur ad Deum, ut 
+di<lb break="no" ed="#L" n="94"/>ctum est. In Deo autem est accipere
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="95"/>tres Personas: et iterum multa attributa, quae
+<lb ed="#L" n="96"/>saltem ratione differunt. Diversa autem ratio
+<lb ed="#L" n="97"/>obiecti sufficit ad diversificandum virtutes, ut ex
+<lb ed="#L" n="98"/>supradictis patet. Ergo religio non est una virtus.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e729">
+                  <pb ed="#L" n="180"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>2. PRAETEREA, unius virtutis unus videtur esse
+<lb ed="#L" n="2"/>actus: habitus enim distinguuntur secundum actus.
+<lb ed="#L" n="3"/>Religionis autem multi sunt actus: sicut colere et
+<lb ed="#L" n="4"/>servire, vovere, orare, sacrificare, et multa 
+huius<lb break="no" ed="#L" n="5"/>modi. Ergo religio non est una virtus.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e748">
+                  <lb ed="#L" n="6"/>3. PRAETEREA, adoratio ad religionem pertinet.
+<lb ed="#L" n="7"/>Sed adoratio alia ratione adhibetur imaginibus, et
+<lb ed="#L" n="8"/>alia ipsi Deo. Cum ergo diversa ratio distinguat
+<lb ed="#L" n="9"/>virtutes, videtur quod religio non sit una virtus.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e759">
+                  <lb ed="#L" n="10"/>SEp coNTRA EST quod dicitur Ephes. iv:. Unus
+<lb ed="#L" n="11"/>Deus, una fides. Sed vera religio protestatur 
+fi<lb break="no" ed="#L" n="12"/>dem unius Dei. Ergo religio est una virtus.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e768">
+                  <lb ed="#L" n="13"/>RESPONDEO DICENDUM quod, sicut supra 
+ha<lb break="no" ed="#L" n="14"/>bitum .est, habitus distinguuntur secundum 
+di<lb break="no" ed="#L" n="15"/>versam: rationem obiecti. Ad religionem autem
+<lb ed="#L" n="16"/>pertinet exhibere reverentiam uni Deo secundum
+<lb ed="#L" n="17"/>unam rationem, inquantum scilicet est primum
+<lb ed="#L" n="18"/>principium creationis et gubernationis rerum: 
+un<lb break="no" ed="#L" n="19"/>de ipse dicit, Malach. 1*: Si ego Pater, ubi honor
+<lb ed="#L" n="20"/>meus? patris enim est et producere et gubernare.
+<lb ed="#L" n="21"/>Et ideo manifestum est quod religio est una virtus.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e790">
+                  <lb ed="#L" n="22"/>AD PRIMUM ERGO DICENDUM quod tres Personae
+<lb ed="#L" n="23"/>divinae sunt unum principium creationis et 
+gu<lb break="no" ed="#L" n="24"/>bernationis rerum: et ideo eis una religione ser-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="25"/>vitur. Diversae autem rationes attributorum 
+con<lb break="no" ed="#L" n="26"/>currunt ad rationem primi principii: quia Deus
+<lb ed="#L" n="27"/>producit omnia et gubernat sapientia, voluntate
+<lb ed="#L" n="28"/>et potentia bonitatis suae. Et ideo religio est una
+<lb ed="#L" n="29"/>virtus.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e812">
+                  <lb ed="#L" n="30"/>AD SECUNDUM DICENDUM quod eodem actu homo
+<lb ed="#L" n="31"/>servit Deo et colit ipsum: nam cultus respicit Dei
+<lb ed="#L" n="32"/>excellentiam, cui reverentia debetur; servitus 
+au<lb break="no" ed="#L" n="33"/>tem respicit subiectionem hominis, qui ex sua
+<lb ed="#L" n="34"/>conditione obligatur ad exhibendum reverentiam
+<lb ed="#L" n="35"/>Deo. Et ad haec duo pertinent omnes actus qui
+<lb ed="#L" n="36"/>religioni attribuuntur: quia per omnes homo 
+pro<lb break="no" ed="#L" n="37"/>testatur divinam excellentiam et subiectionem sui
+<lb ed="#L" n="38"/>ad Deum, vel exhibendo aliquid ei, vel iterum ?
+<lb ed="#L" n="39"/>assumendo aliquid divinum.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e836">
+                  <lb ed="#L" n="40"/>AD TERTIUM DICENDUM quod imaginibus non 
+ex<lb break="no" ed="#L" n="41"/>hibetur religionis cultus secundum quod in 
+se<lb break="no" ed="#L" n="42"/>ipsis considerantur, quasi res quaedam: sed 
+se<lb break="no" ed="#L" n="43"/>cundum quod sunt imagines ducentes in Deum
+<lb ed="#L" n="44"/>incarnatum. Motus autem qui est in imaginem
+<lb ed="#L" n="45"/>prout est imago, non sistit Y in ipsa, sed tendit
+<lb ed="#L" n="46"/>in id cuius est imago. Et ideo ex hoc quod 
+ima<lb break="no" ed="#L" n="47"/>ginibus Christi exhibetur religionis cultus, non
+<lb ed="#L" n="48"/>diversificatur ratio latriae, nec virtus religionis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1690-Dd1e859"><!-- p2p2-q81a4" -->
+               <head xml:id="TAca84-d1e1690-Hd1e862">Articulus 4</head>
+               <head xml:id="TAca84-d1e1690-Hd1e864" type="question-title">Utrum religio sit specialis virtus ab aliis distincta</head>
+               <p xml:id="TAca84-d1e1690-d1e867">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="77" type="fixed=180"/>ARTICULUS QUARTUS 
+<lb ed="#L" n="78"/>UTRUM RELIGIO SIT SPECIALIS VIRTUS AB ALIIS DISTINCTA
+</p>
+               <p xml:id="TAca84-d1e1690-d1e876">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="79"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="80"/>religio non sit specialis virtus ab aliis
+<lb ed="#L" n="81"/>distincta. Dicit enim Augustinus, X de
+<lb ed="#L" n="82"/>Civ. Dei: Verum sacrificium est omne
+<lb ed="#L" n="83"/>opus quod geritur ut sancta societate Deo 
+iun<lb break="no" ed="#L" n="84"/>gamur. Sed sacrificum pertinet ad religionem.
+<lb ed="#L" n="85"/>Ergo omne opus virtutis ad religionem pertinet.
+<lb ed="#L" n="86"/>Et sic non est specialis virtus.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e898">
+                  <lb ed="#L" n="87"/>2. PRAETEREA, Apostolus dicit, I ad Cor. x:
+<lb ed="#L" n="88"/>Omnia in gloriam Dei facite. Sed ad religionem
+<lb ed="#L" n="89"/>pertinet aliqua facere ad Dei reverentiam, ut
+<lb ed="#L" n="90"/>supra dictum est. Ergo religio non est 
+spe<lb break="no" ed="#L" n="91"/>cialis virtus.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e912">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="92"/>3. PRAETEREA, caritas qua diligitur Deus non
+<lb ed="#L" n="93"/>est virtus distincta a caritate qua diligitur 
+pro<lb break="no" ed="#L" n="94"/>ximus. Sed sicut dicitur in VIII Ethic., honorari ;G mon
+<lb ed="#L" n="95"/>propinquum est ei quod est amari. Ergo religio, b
+<lb ed="#L" n="96"/>qua honoratur Deus, non est virtus specialiter
+<lb ed="#L" n="97"/>distincta ab observantia vel dulia vel pietate, 
+qui<lb break="no" ed="#L" n="98"/>bus honoratur proximus. Ergo non est virtus
+<lb ed="#L" n="99"/>specialis.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e934">
+                  <lb ed="#L" n="100"/>SED coNTRA EsT quod ponitur pars ? iustitiae
+<lb ed="#L" n="101"/>ab aliis eius partibus distincta.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e941">
+                  <lb ed="#L" n="102"/>RESPONDEO DICENDUM quod cum virtus ordinetur
+<lb ed="#L" n="103"/>ad bonum, ubi est specialis ratio boni, ibi oportet
+<lb ed="#L" n="104"/>esse specialem virtutem. Bonum autem ad quod
+<pb ed="#L" n="181"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ordinatur religio est exhibere Deo debitum 
+ho<lb break="no" ed="#L" n="2"/>norem. Honor autem debetur alicui ratione 
+ex<lb break="no" ed="#L" n="3"/>cellentiae. Deo autem competit singularis 
+excel<lb break="no" ed="#L" n="4"/>lentia: inquantum omnia in infinitum transcendit
+<lb ed="#L" n="5"/>secundum omnimodum excessum. Unde ei 
+de<lb break="no" ed="#L" n="6"/>betur specialis honor: sicut in rebus humanis
+<lb ed="#L" n="7"/>videmus quod diversis excellentiis personarum
+<lb ed="#L" n="8"/>diversus honor debetur, alius quidem patri, alius
+<lb ed="#L" n="9"/>regi, et sic de aliis. Unde manifestum est quod
+<lb ed="#L" n="10"/>religio est specialis virtus.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e976">
+                  <lb ed="#L" n="11"/>AD PRIMUM ERGO DICENDUM quod omne opus
+<lb ed="#L" n="12"/>virtutis dicitur esse sacrificium inquantum 
+ordi<lb break="no" ed="#L" n="13"/>natur ad Dei reverentiam. Unde ex hoc non 
+ha<lb break="no" ed="#L" n="14"/>betur quod religio sit generalis virtus, sed quod
+<lb ed="#L" n="15"/>imperet omnibus aliis virtutibus, sicut supra
+<lb ed="#L" n="16"/>dictum est.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e992">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="17"/>AD SECUNDUM DICENDUM quod omnia, secundum
+<lb ed="#L" n="18"/>quod in gloriam Dei fiunt, pertinent ad 
+religio<lb break="no" ed="#L" n="19"/>nem non quasi ad elicientem, sed quasi ad 
+im<lb break="no" ed="#L" n="20"/>perantem. llla autem pertinent ad religionem 
+eli<lb break="no" ed="#L" n="21"/>cientem quae secundum rationem suae speciei
+<lb ed="#L" n="22"/>pertinent ad reverentiam Dei.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1010">
+                  <lb ed="#L" n="23"/>AD TERTIUM DICENDUM quod obiectum amoris
+<lb ed="#L" n="24"/>est bonum: obiectum autem honoris vel 
+reve<lb break="no" ed="#L" n="25"/>rentiae est aliquid excellens. Bonitas autem Dei
+<lb ed="#L" n="26"/>communicatur creaturae, non autem excellentia
+<lb ed="#L" n="27"/>bonitatis eius. Et ideo caritas qua diligitur Deus
+<lb ed="#L" n="28"/>non est virtus distincta a caritate qua diligitur
+<lb ed="#L" n="29"/>proximus: religio autem, qua honoratur Deus,
+<lb ed="#L" n="30"/>distinguitur a virtutibus quibus honoratur 
+pro<lb break="no" ed="#L" n="31"/>ximus.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1690-Dd1e1033"><!-- p2p2-q81a5" -->
+               <head xml:id="TAca84-d1e1690-Hd1e1036">Articulus 5</head>
+               <head xml:id="TAca84-d1e1690-Hd1e1038" type="question-title">Utrum religio sit virtus theologica</head>
+               <p xml:id="TAca84-d1e1690-d1e1041">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="76" type="fixed=181"/>ARTICULUS QUINTUS
+<lb ed="#L" n="77"/>UTRUM RELIGIO SIT VIRTUS THEOLOGICA
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1050">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="78"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="79"/>religio sit virtus jhenlogica, Dicit enim
+<lb ed="#L" n="80"/>Augustinus, in Enchirid., quod Deus
+<lb ed="#L" n="81"/>colitur fide, spe et caritate, quae sunt
+<lb ed="#L" n="82"/>virtutes theologicae. Sed cultum Deo afferre 
+per<lb break="no" ed="#L" n="83"/>tinet ad religionem. Ergo religio est virtus
+<lb ed="#L" n="84"/>theologica.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1070">
+                  <lb ed="#L" n="85"/>2. PRAETEREA, virtus theologica dicitur quae
+<lb ed="#L" n="86"/>habet Deum pro obiecto. Religio autem habet
+<lb ed="#L" n="87"/>Deum pro obiecto: quia ad solum Deum 
+or<lb break="no" ed="#L" n="88"/>dinat, ut dictum est. Ergo religio est virtus
+<lb ed="#L" n="89"/>theologica.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1084">
+                  <lb ed="#L" n="90"/>3. PRAETEREA, omnis virtus vel est theologica,
+<lb ed="#L" n="91"/>vel intellectualis, vel moralis, ut ex supradictis
+<lb ed="#L" n="92"/>patet. Manifestum est autem quod religio non
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="93"/>est virtus intellectualis: quia eius perfectio non
+<lb ed="#L" n="94"/>attenditur secundum considerationem veri. 
+Simi<lb break="no" ed="#L" n="95"/>liter etiam non est virtus moralis, cuius 
+pro<lb break="no" ed="#L" n="96"/>prium est tenere medium inter superfluum et
+<lb ed="#L" n="97"/>diminutum: non enim aliquis potest superflue
+<lb ed="#L" n="98"/>Deum colere, secundum illud Eccli. xuur: <quote xml:id="TAca84-d1e1690-Qd1e1107">
+Be<lb break="no" ed="#L" n="99"/>nedicentes Dominum, exaltate illum quantum 
+po<lb break="no" ed="#L" n="100"/>lestis: maior enim est omni laude</quote>. Ergo 
+relin<lb break="no" ed="#L" n="101"/>quitur quod sit virtus theologica.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1118">
+                  <lb ed="#L" n="102"/>SED coNTRA EST quod ponitur pars iustitiae,
+<lb ed="#L" n="103"/>quae est virtus moralis.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1125">
+                  <lb ed="#L" n="104"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="105"/>religio est quae Deo debitum cultum affert. Duo
+<lb ed="#L" n="106"/>igitur in religione considerantur. Unum quidem
+<lb ed="#L" n="107"/>quod religio Deo affert, cultus scilicet: et hoc
+<pb ed="#L" n="182"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>se habet per modum materiae et obiecti ad 
+reli<lb break="no" ed="#L" n="2"/>gionem. Aliud autem est id cui affertur, scilicet
+<lb ed="#L" n="3"/>Deus. Cui cultus exhibetur non quasi actus 
+qui<lb break="no" ed="#L" n="4"/>bus Deus colitur ipsum Deum attingunt P, sicut
+<lb ed="#L" n="5"/>cum credimus Deo, credendo Deum attingimus
+<lb ed="#L" n="6"/>(propter quod supra dictum est quod Deus est
+<lb ed="#L" n="7"/>fidei obiectum non solum inquantum credimus
+<lb ed="#L" n="8"/>Deum, sed inquantum credimus Deo): affertur
+<lb ed="#L" n="9"/>autem Deo debitus cultus inquantum actus 
+qui<lb break="no" ed="#L" n="10"/>dam, quibus Deus colitur, in Dei reverentiam
+<lb ed="#L" n="11"/>fiunt, puta sacrificiorum oblationes et alia 
+hu<lb break="no" ed="#L" n="12"/>iusmodi. Unde manifestum est quod Deus non
+<lb ed="#L" n="13"/>comparatur ad virtutem religionis sicut materia
+<lb ed="#L" n="14"/>vel obiectum, sed sicut finis. Et ideo religio non
+<lb ed="#L" n="15"/>est virtus theologica, cuius obiectum est ultimus
+<lb ed="#L" n="16"/>finis: sed est virtus moralis, cuius est esse circa
+<lb ed="#L" n="17"/>ea quae sunt ad finem.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1177">
+                  <lb ed="#L" n="18"/>AD PRIMUM ERGO DICENDUM quod semper 
+po<lb break="no" ed="#L" n="19"/>tentia vel virtus quae operatur circa finem, per
+<lb ed="#L" n="20"/>imperium movet potentiam vel virtutem 
+ope<lb break="no" ed="#L" n="21"/>rantem ea quae ordinantur in finem illum. 
+Vir<lb break="no" ed="#L" n="22"/>tutes autem theologicae, scilicet fides, spes et
+<lb ed="#L" n="23"/>caritas, habent actum circa Deum sicut circa
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24"/>proprium obiectum. Et ideo suo imperio causant
+<lb ed="#L" n="25"/>actum religionis, quae operatur quaedam in 
+or<lb break="no" ed="#L" n="26"/>dine ad Deum. Et ideo Augustinus dicit quod
+<lb ed="#L" n="27"/>Deus colitur fide, spe et caritate.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1203">
+                  <lb ed="#L" n="28"/>AD SECUNDUM DICENDUM quod religio ordinat
+<lb ed="#L" n="29"/>hominem in Deum non sicut in obiectum, sed
+<lb ed="#L" n="30"/>sicut in finem.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1212">
+                  <lb ed="#L" n="31"/>AD TERTIUM DICENDUM quod religio non est virtus
+<lb ed="#L" n="32"/>theologica neque intellectualis, sed moralis: cum
+<lb ed="#L" n="33"/>sit pars iustitiae. Et medium in ipsa accipitur
+<lb ed="#L" n="34"/>non quidem inter passiones, sed secundum 
+quan<lb break="no" ed="#L" n="35"/>dam aequalitatem inter operationes ? quae sunt
+<lb ed="#L" n="36"/>ad Deum. Dico autem aequalitatem non absolute,
+<lb ed="#L" n="37"/>quia Deo non potest tantum exhiberi quantum
+<lb ed="#L" n="38"/>ei debetur: sed secundum considerationem 
+hu<lb break="no" ed="#L" n="39"/>manae facultatis et divinae acceptationis. 
+Su<lb break="no" ed="#L" n="40"/>perfluum autem in his quae ad divinum cultum
+<lb ed="#L" n="41"/>pertinent esse potest, non secundum 
+circumstan<lb break="no" ed="#L" n="42"/>tiam quanti, sed secundum alias circumstantias:
+<lb ed="#L" n="43"/>puta quia cultus divinus exhibetur cui non debet
+<lb ed="#L" n="44"/>exhiberi, vel quando non debet, vel secundum
+<lb ed="#L" n="45"/>alias circumstantias prout non debet. 
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1690-Dd1e1249"><!-- p2p2-q81a6" -->
+               <head xml:id="TAca84-d1e1690-Hd1e1252">Articulus 6</head>
+               <head xml:id="TAca84-d1e1690-Hd1e1254" type="question-title">Utrum religio sit praeferenda aliis virtutibus moralibus</head>
+               <p xml:id="TAca84-d1e1690-d1e1257">
+                  <pb ed="#L" n="183"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=183"/>ARTICULUS SEXTUS
+<lb ed="#L" n="2"/>UTRUM RELIGIO SIT PRAEFERENDA ALIIS VIRTUTIBUS MORALIBUS
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1268">
+                  <lb ed="#L" n="3"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>religio non sit praeferenda aliis 
+virtu<lb break="no" ed="#L" n="5"/>tibus moralibus. Perfectio enim virtutis
+<lb ed="#L" n="6"/>moralis consistit in hoc quod attingit
+<lb ed="#L" n="7"/>tedimi: ut patet in II Ethic. Sed religio deficit
+<lb ed="#L" n="8"/>in attingendo medium iustitiae: quia. non reddit
+<lb ed="#L" n="9"/>Deo omnino aequale. Ergo religio non est potior
+<lb ed="#L" n="10"/>aliis. virtutibus moralibus.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1288">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, in his quae hominibus 
+exhiben<lb break="no" ed="#L" n="12"/>tur, tanto videtur aliquid esse laudabilius quanto
+<lb ed="#L" n="13"/>magis indigenti exhibetur: unde dicitur <ref xml:id="TAca84-d1e1690-Rd1e1296">Isaiae
+<lb ed="#L" n="14"/>Lviii</ref>: <quote xml:id="TAca84-d1e1690-Qd1e1301">Frange esurienti panem tuum</quote>. Sed Deus
+<lb ed="#L" n="15"/>non indiget aliquo quod ei a nobis exhibeatur:
+<lb ed="#L" n="16"/>secundum illud Psalm.: Dixi?: Deus meus es
+<lb ed="#L" n="17"/>tu, quoniam bonorum meorum non eges. Ergo
+<lb ed="#L" n="18"/>religio: videtur minus laudabilis aliis virtutibus,
+<lb ed="#L" n="19"/>per quas hominibus subvenitur.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1316">
+                  <lb ed="#L" n="20"/>3. PRAETEREA, quanto aliquid fit ex maiori 
+ne<lb break="no" ed="#L" n="21"/>cessitate, tanto minus est laudabile: secundum 
+il<lb break="no" ed="#L" n="22"/>lud I ad. Cor. 1x: Si evangelizavero, non est mihi
+<lb ed="#L" n="23"/>gloria: necessitas Y mihi imcumbit. Übi autem est
+<lb ed="#L" n="24"/>maius debitum, ibi est maior necessitas. Cum
+<lb ed="#L" n="25"/>igitur Deo maxime: sit debitum quod ei ab 
+ho<lb break="no" ed="#L" n="26"/>mine exhibetur, videtur quod religio sit minus
+<lb ed="#L" n="27"/>laudabilis inter virtutes humanas.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1336">
+                  <lb ed="#L" n="28"/>SED contra EST quod Exod. xx ponuntur primo
+<lb ed="#L" n="29"/>praecepta ad religionem pertinentia, tanquam
+<lb ed="#L" n="30"/>estigua. Ordo autem praeceptorum propor-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="31"/>tionatur ordini virtutum: quia praecepta legis
+<lb ed="#L" n="32"/>dantur de actibus virtutum. Ergo religio est 
+prae<lb break="no" ed="#L" n="33"/>cipua inter virtutes morales.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1354">
+                  <lb ed="#L" n="34"/>RESPONDEO DICENDUM quod ea quae sunt ad
+<lb ed="#L" n="35"/>finem sortiuntur bonitatem ex ordine in finem:
+<lb ed="#L" n="36"/>etideo quanto sunt fini propinquiora, tanto sunt
+<lb ed="#L" n="37"/>meliora. Virtutes autem morales, ut supra 
+ha<lb break="no" ed="#L" n="38"/>bitum est, sunt circa ea quae ordinantur in Deum
+<lb ed="#L" n="39"/>sicut in finem. Religio autem magis de propinquo
+<lb ed="#L" n="40"/>accedit ad Deum quam aliae virtutes morales:
+<lb ed="#L" n="41"/>inquantum operatur ea quae directe et 
+imme<lb break="no" ed="#L" n="42"/>diate ordinantur in honorem divinum. Et ideo
+<lb ed="#L" n="43"/>religio praeeminet inter alias virtutes morales.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1378">
+                  <lb ed="#L" n="44"/>AD PRIMUM ERGO DICENDUM quod laus virtutis in
+<lb ed="#L" n="45"/>voluntate consistit, non autem in potestate. Et ideo
+<lb ed="#L" n="46"/>deficere ab aequalitate, quae est medium iustitiae,
+<lb ed="#L" n="47"/>propter defectum potestatis, non diminuit landem
+<lb ed="#L" n="48"/>virtutis, si non fuerit defectus ex parte voluntatis.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1391">
+                  <lb ed="#L" n="49"/>AD SECUNDUM DICENDUM quod in his quae 
+exhi<lb break="no" ed="#L" n="50"/>bentur alteri ? propter eorum utilitatem, est 
+exhi<lb break="no" ed="#L" n="51"/>bitio LM quae fit magis indigenti : quia
+<lb ed="#L" n="52"/>est utilior. Deo autem non exhibetur aliquid 
+pro<lb break="no" ed="#L" n="53"/>pter eius utilitatem: sed propter: eius gloriam,
+<lb ed="#L" n="54"/>nostram autem utilitatem.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1407">
+                  <lb ed="#L" n="55"/>AD TERTIUM DICENDUM quod ubi est necessitas,
+<lb ed="#L" n="56"/>tollitur gloria supererogationis: non autem 
+ex<lb break="no" ed="#L" n="57"/>cluditur meritum virtutis, si adsit voluntas. Et
+<lb ed="#L" n="58"/>propter hoc ratio non sequitur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1690-Dd1e1419"><!-- p2p2-q81a7" -->
+               <head xml:id="TAca84-d1e1690-Hd1e1422">Articulus 7</head>
+               <head xml:id="TAca84-d1e1690-Hd1e1424" type="question-title">Utrum latria habeat aliquem exteriorem actum</head>
+               <p xml:id="TAca84-d1e1690-d1e1427">
+                  <pb ed="#L" n="184"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=184"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="2"/>UTRUM LATRIA HABEAT ALIQUEM EXTERIOREM ACTUM
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1438">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod  
+<lb ed="#L" n="4"/>latria non habeat aliquem exteriorem 
+<lb ed="#L" n="5"/>actum. Dicitur enim Ioan. iv: Deus 
+<lb ed="#L" n="6"/>spiritus est: et eos qui adorant eum,
+<lb ed="#L" n="7"/>in spiritu et veritate adorare oportet. Sed 
+exte<lb break="no" ed="#L" n="8"/>riores actus non pertinent ad spiritum, sed magis
+<lb ed="#L" n="9"/>ad corpus. Ergo religio, ad quam pertinet ado- |
+<lb ed="#L" n="10"/>ratio, non habet exteriores actus, sed interiores.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1460">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, religionis finis est Deo 
+reveren<lb break="no" ed="#L" n="12"/>tiam. et honorem exhibere. Sed videtur ad 
+ir<lb break="no" ed="#L" n="13"/>reverentiam alicuius excellentis pertinere si ea
+<lb ed="#L" n="14"/>sibi exhibeantur quae proprie ad inferiores 
+per<lb break="no" ed="#L" n="15"/>tinent. Cum igitur ea quae exhibet homo 
+cor<lb break="no" ed="#L" n="16"/>poralibus actibus proprie videantur ad indigentias
+<lb ed="#L" n="17"/>hominum ordinari, vel ad reverentiam inferiorum
+<lb ed="#L" n="18"/>creaturarum; non videtur quod ? congrue possunt
+<lb ed="#L" n="19"/>assumi in divinam reverentiam.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1483">
+                  <lb ed="#L" n="20"/>3. PRAETEREA, Augustinus, in VI de Civ. Dei
+<lb ed="#L" n="21"/>commendat Senecam de hoc quod vituperat
+<lb ed="#L" n="22"/>quosdam qui idolis ea exhibebant quae solent
+<lb ed="#L" n="23"/>hominibus exhiberi: quia scilicet immortalibus
+<lb ed="#L" n="24"/>non conveniunt ea quae sunt mortalium. Sed
+<lb ed="#L" n="25"/>haec multo minus conveniunt Deo vero, qui
+<lb ed="#L" n="26"/>est excelsus super omnes deos. Ergo videtur
+<lb ed="#L" n="27"/>reprehensibile esse quod aliquis corporalibus 
+acti<lb break="no" ed="#L" n="28"/>bus Deum colat. Non ergo habet religio 
+corpo<lb break="no" ed="#L" n="29"/>rales actus.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1507">
+                  <lb ed="#L" n="30"/>SED coNTRA EsT quod in Psalm. dicitur: Cor
+<lb ed="#L" n="31"/>meum et caro mea exultaverunt in Deum vivum.
+<lb ed="#L" n="32"/>Sed sicut interiores actus pertinent ad cor, ita 
+ex<lb break="no" ed="#L" n="33"/>teriores actus pertinent ad membra carnis. Ergo
+<lb ed="#L" n="34"/>videtur quod Deus sit colendus non solum 
+in<lb break="no" ed="#L" n="35"/>terioribus actibus, sed etiam exterioribus.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1523">
+                  <lb ed="#L" n="36"/>RrEsPoNpEO ptcENDbUM quod Deo reverentiam et
+<lb ed="#L" n="37"/>honorem exhibemus non propter ipsum ?*, qui in
+<lb ed="#L" n="38"/>seipso est gloria plenus, cui nihil a creatura adiici
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="39"/>potest, sed propter nos: quia videlicet. per hoc
+<lb ed="#L" n="40"/>quod Deum reveremur et honoramus, mens 
+no<lb break="no" ed="#L" n="41"/>stra ei subiicitur, et in hoc eius perfectio 
+con<lb break="no" ed="#L" n="42"/>sistit; quaelibet enim res perficitur per hoc quod
+<lb ed="#L" n="43"/>subditur suo superiori, sicut corpus per hoc quod
+<lb ed="#L" n="44"/>vivificatur ab anima, et aer per hoc quod 
+illu<lb break="no" ed="#L" n="45"/>minatur a sole. Mens autem humana indiget ad
+<lb ed="#L" n="46"/>| hoc quod coniungatur Deo, sensibilium : 
+manu<lb break="no" ed="#L" n="47"/>ductione: quia invisibilia? per ea quae facta sunt,
+<lb ed="#L" n="48"/>intellecla , conspiciuntur , ut. Apostolus dicit, ad
+<lb ed="#L" n="49"/>Rom. Et ideo in divino cultu necesse est 
+aliqui<lb break="no" ed="#L" n="50"/>bus corporalibus uti, ut eis, quasi signis 
+quibus<lb break="no" ed="#L" n="51"/>dam, mens hominis excitetur ad spirituales actus,
+<lb ed="#L" n="52"/>quibus Deo coniungitur. Et ideo religio habet
+<lb ed="#L" n="53"/>quidem interiores actus quasi principales et per se
+<lb ed="#L" n="54"/>ad religionem pertinentes: exteriores vero actus
+<lb ed="#L" n="55"/>quasi secundarios, et ad interiores actus 
+ordi<lb break="no" ed="#L" n="56"/>natos.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1573">
+                  <lb ed="#L" n="57"/>AD PRIMUM ERGO DICENDUM quod Dominus 
+lo<lb break="no" ed="#L" n="58"/>quitur quantum ad id quod est principale et a
+<lb ed="#L" n="59"/>se intentum in cultu divino.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1582">
+                  <lb ed="#L" n="60"/>AD SECUNDUM DICENDUM quod huiusmodi 
+exte<lb break="no" ed="#L" n="61"/>riora non exhibentur Deo quasi his indigeat: 
+se<lb break="no" ed="#L" n="62"/>cundum illud Psalm.: Numquid manducabo 
+car<lb break="no" ed="#L" n="63"/>nes taurorum, aut sanguinem hircorum potabo?
+<lb ed="#L" n="64"/>Sed exhibentur Deo tanquam signa quaedam
+<lb ed="#L" n="65"/>interiorum et spiritualium. operum, quae per se
+<lb ed="#L" n="66"/>Deus acceptat. Unde Augustinus dicit, in X de
+<lb ed="#L" n="67"/>Civ. Dei: Sacrificium visibile invisibilis sacrificii
+<lb ed="#L" n="68"/>sacramentum, idest sacrum signum, est.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1604">
+                  <lb ed="#L" n="69"/>AD TERTIUM DICENDUM quod idololatrae 
+deri<lb break="no" ed="#L" n="70"/>dentur ex hoc quod ea quae ad homines 
+per<lb break="no" ed="#L" n="71"/>tinent idolis exhibebant non tanquam signa 
+ex<lb break="no" ed="#L" n="72"/>citantia eos ad aliqua spiritualia, sed tanquam
+<lb ed="#L" n="73"/>per se eis accepta. Et praecipue quia erant vana
+<lb ed="#L" n="74"/>et turpia.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1690-Dd1e1621"><!-- p2p2-q81a8" -->
+               <head xml:id="TAca84-d1e1690-Hd1e1624">Articulus 8</head>
+               <head xml:id="TAca84-d1e1690-Hd1e1626" type="question-title">Utrum religio sit idem sanctitati</head>
+               <p xml:id="TAca84-d1e1690-d1e1629">
+                  <pb ed="#L" n="185"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=185"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="2"/>UTRUM RELIGIO SIT IDEM SANCTITATI
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1640">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>religio non sit idem sanctitati. Religio
+<lb ed="#L" n="5"/>enim est quaedam specialis virtus, ut
+<lb ed="#L" n="6"/>habitum est. Sanctitas autem dicitur
+<lb ed="#L" n="7"/>esse generalis virtus: est enim faciens fideles et
+<lb ed="#L" n="8"/>servantes ea quae ad Deum sunt iusta, ut <name xml:id="TAca84-d1e1690-Nd1e1657">
+An<lb break="no" ed="#L" n="9"/>dronicus</name> dicit. Ergo sanctitas non est idem 
+re<lb break="no" ed="#L" n="10"/>ligioni.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1665">
+                  <lb ed="#L" n="11"/>2. PRAETEREA, sanctitas munditiam importare
+<lb ed="#L" n="12"/>videtur: dicit enim <ref xml:id="TAca84-d1e1690-Rd1e1671">Dionysius, xit cap. de Div.
+<lb ed="#L" n="13"/>Nom.</ref>, quod <quote xml:id="TAca84-d1e1690-Qd1e1676">sanctitas est ab omni immunditia
+<lb ed="#L" n="14"/>libera et perfecta et omnino immaculata munditia</quote>.
+<lb ed="#L" n="15"/>Munditia autem maxime videtur pertinere ad 
+tem<lb break="no" ed="#L" n="16"/>perantiam, quae turpitudines corporales excludit.
+<lb ed="#L" n="17"/>Cum igitur religio ad iustitiam pertineat, videtur
+<lb ed="#L" n="18"/>quod sanctitas non sit idem religioni.
+<lb ed="#L" n="19"/>at; ds P. ,ea quae dividuntur ex opposito
+<lb ed="#L" n="20"/>non sunt idem. Sed in quadam enumeratione
+<lb ed="#L" n="21"/>partium iustitiae sanctitas condividitur religioni,
+<lb ed="#L" n="22"/>ut supra habitum est. Ergo sanctitas non est
+<lb ed="#L" n="23"/>idem quod religio.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1703">
+                  <lb ed="#L" n="24"/>SED CONTRA EsT quod dicitur Luc.1*: Serviamus
+<lb ed="#L" n="25"/>illi in sanctitate et iustitia. Sed servire Deo 
+per<lb break="no" ed="#L" n="26"/>tinet ad religionem, ut supra habitum est. Ergo
+<lb ed="#L" n="27"/>religio est idem sanctitati.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1714">
+                  <lb ed="#L" n="28"/>REsPONDEO DICENDUM quod nomen sanctitatis
+<lb ed="#L" n="29"/>duo videtur importare. Uno quidem modo, 
+mun<lb break="no" ed="#L" n="30"/>ditiam: et huic significationi competit nomen
+<lb ed="#L" n="31"/>graecum, dicitur enim agios quasi sine terra.
+<lb ed="#L" n="32"/>Alio modo importat firmitatem: unde apud 
+an<lb break="no" ed="#L" n="33"/>tiquos sancía dicebantur quae legibus erant 
+mu<lb break="no" ed="#L" n="34"/>nita ut violari non deberent; unde et dicitur esse
+<lb ed="#L" n="35"/>aliquid sancitum quia est lege firmatum. Potest
+<lb ed="#L" n="36"/>etiam secundum Latinos hoc nomen sanctus ad
+<lb ed="#L" n="37"/>munditiam pertinere: ut intelligatur sanctus quasi
+<lb ed="#L" n="38"/>sanguine tinctus », eo quod antiquitus illi qui
+<lb ed="#L" n="39"/>purificari volebant sanguine hostiae tingebantur,
+<lb ed="#L" n="40"/>ut Isidorus dicit, in libro Etymol.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1745">
+                  <lb ed="#L" n="41"/>Et utraque significatio competit, ut sanctitas
+<lb ed="#L" n="42"/>attribuatur his quae ? divino cultui applicantur:
+<lb ed="#L" n="43"/>ita quod non solum homines, sed etiam templum
+<lb ed="#L" n="44"/>et vasa et alia huiusmodi sanctificari dicantur ex
+<lb ed="#L" n="45"/>hoc quod cultui divino applicantur. Munditia
+<lb ed="#L" n="46"/>enim necessaria est ad hoc quod mens Deo ap-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="47"/>plicetur. Quia mens humana inquinatur ex hoc
+<lb ed="#L" n="48"/>quod inferioribus rebus immergitur: sicut 
+quae<lb break="no" ed="#L" n="49"/>libet res ex immixtione peioris sordescit, ut 
+ar<lb break="no" ed="#L" n="50"/>gentum ex immixtione plumbi. Oportet autem
+<lb ed="#L" n="51"/>quod mens ab inferioribus rebus abstrahatur, ad
+<lb ed="#L" n="52"/>hoc quod supremae rei possit coniungi. Et ideo
+<lb ed="#L" n="53"/>mens sine munditia Deo applicari non potest.
+<lb ed="#L" n="54"/>Unde ad Heb. ult. dicitur: Pacem sequimini
+<lb ed="#L" n="55"/>cum omnibus, et sanctimoniam , sine qua nemo
+<lb ed="#L" n="56"/>videbit Deum. - Firmitas etiam exigitur ad hoc
+<lb ed="#L" n="57"/>quod mens Deo applicetur. Applicatur enim ei
+<lb ed="#L" n="58"/>sicut ultimo fini et primo principio: huiusmodi
+<lb ed="#L" n="59"/>autem oportet maxime immobilia esse. Unde 
+di<lb break="no" ed="#L" n="60"/>cebat Apostolus, Rom. vii: Certus sum quod 
+ne<lb break="no" ed="#L" n="61"/>que mors neque vila separabit me a caritate Dei.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1795">
+                  <lb ed="#L" n="62"/>Sic igitur sanctitas dicitur per quam mens 
+ho<lb break="no" ed="#L" n="63"/>minis seipsam et suos actus applicat Deo. Unde
+<lb ed="#L" n="64"/>non differt a religione secundum essentiam, sed
+<lb ed="#L" n="65"/>solum ratione. Nam religio dicitur secundum quod
+<lb ed="#L" n="66"/>exhibet Deo debitum famulatum in his quae 
+per<lb break="no" ed="#L" n="67"/>tinent specialiter ad cultum divinum, sicut in sa-.
+<lb ed="#L" n="68"/>crificiis, oblationibus et aliis huiusmodi: sanctitas
+<lb ed="#L" n="69"/>autem dicitur secundum quod homo non solum
+<lb ed="#L" n="70"/>haec, sed aliarum virtutum opera refert in Deum,
+<lb ed="#L" n="71"/>vel? secundum quod homo se disponit per bona
+<lb ed="#L" n="72"/>opera ad cultum divinum.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1821">
+                  <lb ed="#L" n="73"/>AD PRIMUM ERGO DICENDUM quod sanctitas est
+<lb ed="#L" n="74"/>quaedam specialis virtus secundum essentiam:
+<lb ed="#L" n="75"/>et secundum hoc est quodammodo eadem 
+reli<lb break="no" ed="#L" n="76"/>gioni. Habet autem quandam generalitatem, 
+se<lb break="no" ed="#L" n="77"/>cundum quod omnes virtutum actus per 
+impe<lb break="no" ed="#L" n="78"/>rium ordinat in bonum divinum: sicut et iustitia
+<lb ed="#L" n="79"/>legalis dicitur generalis virtus, inquantum ordinat
+<lb ed="#L" n="80"/>omnium virtutum actus in bonum commune.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1841">
+                  <lb ed="#L" n="81"/>AD SECONDUM DICENDUM quod temperantia 
+mun<lb break="no" ed="#L" n="82"/>ditiam quidem operatur: non tamen ita quod 
+ha<lb break="no" ed="#L" n="83"/>beat rationem sanctitatis nisi referatur in Deum.
+<lb ed="#L" n="84"/>Unde de ipsa virginitate dicit Augustinus, in
+<lb ed="#L" n="85"/>libro de Virginitate, quod non quia virginitas
+<lb ed="#L" n="86"/>est, sed quia Deo dicata est, honoratur.
+</p>
+               <p xml:id="TAca84-d1e1690-d1e1858">
+                  <lb ed="#L" n="87"/>AD TERTIUM DICENDUM quod sanctitas distincta
+<lb ed="#L" n="88"/>est a religione propter differentiam praedictam:
+<lb ed="#L" n="89"/>non quia differat re, sed ratione tantum, ut
+<lb ed="#L" n="90"/>dictum est.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

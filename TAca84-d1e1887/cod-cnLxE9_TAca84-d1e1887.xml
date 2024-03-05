@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 119</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 119</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="465"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1887"><!-- p2p2-q119" -->
+            <head xml:id="TAca84-d1e1887-Hd1e101">Quaestio 119</head>
+            <head xml:id="TAca84-d1e1887-Hd1e103" type="question-title">De prodigalitate</head>
+            <p xml:id="TAca84-d1e1887-d1e106">
+               <pb ed="#L" n="465"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=465"/>QUAESTIO CENTESIMADECIMANONA
+<lb ed="#L" n="2"/>DE PRODIGALITATE
+<lb ed="#L" n="3"/>IN TRES ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1887-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de prodigalitate.
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur tria.
+<lb ed="#L" n="6"/>Primo: utrum prodigalitas avaritiae opponatur.
+<lb ed="#L" n="7"/>Secundo: utrum prodigalitas sit peccatum.
+<lb ed="#L" n="8"/>Tertio: utrum sit gravius peccatum quam 
+ava<lb break="no" ed="#L" n="9"/>ritia.
+</p>
+            <div xml:id="TAca84-d1e1887-Dd1e137"><!-- p2p2-q119a1" -->
+               <head xml:id="TAca84-d1e1887-Hd1e140">Articulus 1</head>
+               <head xml:id="TAca84-d1e1887-Hd1e142" type="question-title">Utrum prodigalitas opponatur avaritiae</head>
+               <p xml:id="TAca84-d1e1887-d1e145">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="10" type="fixed=465"/>ARTICULUS PRIMUS
+<lb ed="#L" n="11"/>UTRUM PRODIGALITAS OPPONATUR AVARITIAE
+</p>
+               <p xml:id="TAca84-d1e1887-d1e154">
+                  <lb ed="#L" n="12"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="13"/>prodigalitas non opponatur avaritiae.
+<lb ed="#L" n="14"/>Opposita enim non. possunt esse simul
+<lb ed="#L" n="15"/>in eodem. Sed aliqui sunt simul 
+pro<lb break="no" ed="#L" n="16"/>digi et illiberales. Ergo prodigalitas non 
+oppo<lb break="no" ed="#L" n="17"/>nitur avaritiae.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e170">
+                  <lb ed="#L" n="18"/>2. PRAETEREA, opposita sunt circa idem. Sed
+<lb ed="#L" n="19"/>avaritia, secundum quod opponitur liberalitati,
+<lb ed="#L" n="20"/>est circa passiones quasdam quibus homo 
+affi<lb break="no" ed="#L" n="21"/>citur ad pecuniam. Prodigalitas autem non 
+vi<lb break="no" ed="#L" n="22"/>detur esse circa aliquas animae passiones: non
+<lb ed="#L" n="23"/>enim afficitur circa pecunias, nec circa aliquid
+<lb ed="#L" n="24"/>aliud. huiusmodi. Non ergo prodigalitas 
+opponi<lb break="no" ed="#L" n="25"/>tur avaritiae.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e191">
+                  <lb ed="#L" n="26"/>3. PRAETEREA, peccatum principaliter recipit
+<lb ed="#L" n="27"/>speciem a fine, ut supra habitum est. Sed 
+prodi<lb break="no" ed="#L" n="28"/>galitas semper videtur ordinari ad aliquem finem
+<lb ed="#L" n="29"/>illicitum, propter quem bona sua expendit 5, et
+<lb ed="#L" n="30"/>praecipue propter voluptates: unde et Luc. xv
+<lb ed="#L" n="31"/>dicitur de filio prodigo quod <quote xml:id="TAca84-d1e1887-Qd1e206">dissipavit 
+substan<lb break="no" ed="#L" n="32"/>tiam suam luxuriose vivendo</quote>. Ergo videtur. quod
+<lb ed="#L" n="33"/>prodigalitas opponatur magis temperantiae et 
+in<lb break="no" ed="#L" n="34"/>sensibilitati quam avaritiae et liberalitati.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e216">
+                  <lb ed="#L" n="35"/>SED CONTRA EST quod <ref xml:id="TAca84-d1e1887-Rd1e220">Philosophus, in II et IV
+<lb ed="#L" n="36"/>Ethic.</ref>, ponit prodigalitatem oppositam liberalitati
+<lb ed="#L" n="37"/>et illiberalitati; quam nunc avaritiam dicimus.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e228">
+                  <lb ed="#L" n="38"/>REsPONDEO DICENDUM quod in moralibus 
+atten<lb break="no" ed="#L" n="39"/>ditur oppositio vitiorum ad invicem et ad 
+vir<lb break="no" ed="#L" n="40"/>tutem secundum superabundantiam et defectum.
+<lb ed="#L" n="41"/>Differunt autem avaritia et prodigalitas secundum
+<lb ed="#L" n="42"/>superabundantiam et defectum, diversimode.
+<lb ed="#L" n="43"/>Nam in affectione divitiarum, avarus 
+superabun<lb break="no" ed="#L" n="44"/>dat, plus debito eas diligens: prodigus autem 
+de<lb break="no" ed="#L" n="45"/>ficit, minus debito earum sollicitudinem gerens.
+<lb ed="#L" n="46"/>Circa exteriora vero, ad prodigalitatem pertinet
+<lb ed="#L" n="47"/>excedere quidem in dando, deficere autem in
+<lb ed="#L" n="48"/>retinendo et acquirendo: ad avaritiam autem
+<lb ed="#L" n="49"/>pertinet e contrario deficere quidem in dando,
+<lb ed="#L" n="50"/>superabundare autem in accipiendo et retinendo.
+<lb ed="#L" n="51"/>Unde patet quod prodigalitas avaritiae opponitur.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e261">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="52"/>AD PRIMUM ERGO DICENDUM quod. nihil prohi- T
+<lb ed="#L" n="53"/>bet eidem inesse opposita secundum diversa: ab
+<lb ed="#L" n="54"/>illo tamen aliquid. magis denominatur quod est ?
+<lb ed="#L" n="55"/>principalius. Sicut autem in liberalitate, quae 
+me<lb break="no" ed="#L" n="56"/>dium tenet, praecipua est datio, ad quam 
+acce<lb break="no" ed="#L" n="57"/>ptio et retentio ordinantur; ita etiam avaritia et
+<lb ed="#L" n="58"/>prodigalitas praecipue attenduntur secundum 
+da<lb break="no" ed="#L" n="59"/>tionem. Unde ille. qui superabundat in dando
+<lb ed="#L" n="60"/>vocatur prodigus; qui autem deficit in dando
+<lb ed="#L" n="61"/>vocatur avarus. Contingit autem quandoque quod
+<lb ed="#L" n="62"/>aliquis deficit in dando qui tamen non excedit
+<lb ed="#L" n="63"/>in accipiendo: ut <ref xml:id="TAca84-d1e1887-Rd1e291">Philosophus dicit, in IV Ethic.</ref>
+                  <lb ed="#L" n="64"/>Similiter etiam contingit quod aliquis excedat in
+<lb ed="#L" n="65"/>dando, et ex hoc est prodigus; et simul cum
+<lb ed="#L" n="66"/>hoc, excedat in accipiendo. Vel ex quadam 
+ne<lb break="no" ed="#L" n="67"/>cessitate: quia, dum superabundant* in dando, €
+<lb ed="#L" n="68"/>deficiunt eis propria bona, unde: coguntur 
+inde<lb break="no" ed="#L" n="69"/>bite acquirere, quod pertinet ad avaritiam. Vel
+<lb ed="#L" n="70"/>etiam propter animi inordinationem: dum enim
+<lb ed="#L" n="71"/>non dant propter bonum, quasi contempta 
+vir<lb break="no" ed="#L" n="72"/>tute, non curant undecumque et qualitercumque
+<lb ed="#L" n="73"/>accipiant. Et sic non secundum idem sunt 
+pro<lb break="no" ed="#L" n="74"/>digi et avari.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e318">
+                  <lb ed="#L" n="75"/>AD SECUNDUM DICENDUM quod. prodigalitas 
+atten<lb break="no" ed="#L" n="76"/>ditur circa passiones pecuniae non sicut 
+super<lb break="no" ed="#L" n="77"/>abundans in eis, sed sicut deficiens.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e327">
+                  <lb ed="#L" n="78"/>AD TERTIUM DICENDUM quod prodigus non 
+sem<lb break="no" ed="#L" n="79"/>per abundat in dando propter voluptates, circa
+<lb ed="#L" n="80"/>quas est intemperantia: sed quandoque quidem
+<lb ed="#L" n="81"/>ex eo quod taliter est dispositus ut divitias non (
+<lb ed="#L" n="82"/>curet; quandoque autem propter aliquid aliud.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e341">
+                  <lb ed="#L" n="83"/>Ut frequentius tamen ad intemperantias 
+decli<lb break="no" ed="#L" n="84"/>nant: tum quia, ex quo superflue expendunt in
+<lb ed="#L" n="85"/>aliis, etiam in rebus voluptuosis expendere non
+<lb ed="#L" n="86"/>verentur, ad quas magis inclinat concupiscentia
+<lb ed="#L" n="87"/>carnis; tum etiam, quia non delectantur in bono
+<lb ed="#L" n="88"/>virtutis, quaerunt sibi delectationes corporales.
+<lb ed="#L" n="89"/>Et inde est quod <ref xml:id="TAca84-d1e1887-Rd1e358">Philosophus dicit, in IV Ethic.,</ref>
+                  <lb ed="#L" n="90"/>quod multi prodigorum fiunt intemperati.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1887-Dd1e365"><!-- p2p2-q119a2" -->
+               <head xml:id="TAca84-d1e1887-Hd1e368">Articulus 2</head>
+               <head xml:id="TAca84-d1e1887-Hd1e370" type="question-title">Utrum prodigalitas sit peccatum</head>
+               <p xml:id="TAca84-d1e1887-d1e373">
+                  <pb ed="#L" n="466"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=466"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM PRODIGALITAS SIT PECCATUM
+</p>
+               <p xml:id="TAca84-d1e1887-d1e384">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur 
+<lb ed="#L" n="4"/>quod prodigalitas non sit peccatum.
+<lb ed="#L" n="5"/>Dicit enim <ref xml:id="TAca84-d1e1887-Rd1e394">Apostolus, I ad Tim. ult.</ref>:
+<quote xml:id="TAca84-d1e1887-Qd1e397">Radix omnium malorum est cupiditas</quote>.
+<lb ed="#L" n="6"/>Non autem est radix prodigalitatis, quae ei 
+op<lb break="no" ed="#L" n="7"/>ponitur. Ergo prodigalitas non est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e404">
+                  <lb ed="#L" n="8"/>2. PRAETEREA, Apostolus, <ref xml:id="TAca84-d1e1887-Rd1e408">I ad Tim. ult.</ref>, 
+di<lb break="no" ed="#L" n="9"/>cit: Divitibus huius saeculi praecipe facile. 
+tri<lb break="no" ed="#L" n="10"/>buere, communicare. Sed hoc maxime faciunt
+<lb ed="#L" n="11"/>prodigi. Ergo prodigalitas non est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e418">
+                  <lb ed="#L" n="12"/>3. PRAETEREA, ad prodigalitatem pertinet 
+su<lb break="no" ed="#L" n="13"/>perabundare in. datione et deficere in 
+sollicitu<lb break="no" ed="#L" n="14"/>dine divitiarum. Sed hoc maxime convenit viris 
+<lb ed="#L" n="15"/>perfectis implentibus quod Dominus dicit, Matth.
+<lb ed="#L" n="16"/>vi: Nolite solliciti esse in crastinum ; et xix:
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="17"/>Et sic manifestum est quod etiam  prodigalitas
+<lb ed="#L" n="18"/>ex cupiditate oritur: prodigus enim aliquod 
+bo<lb break="no" ed="#L" n="19"/>num temporale cupit consequi inordinate; vel
+<lb ed="#L" n="20"/>placere aliis, vel saltem satisfacere suae 
+volun<lb break="no" ed="#L" n="21"/>tati in dando.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e444">
+                  <lb ed="#L" n="22"/>Sed si quis recte consideret, Aoi ibi 
+loqui<lb break="no" ed="#L" n="23"/>tur, ad litteram, de cupiditate divitiarum: nam 
+su<lb break="no" ed="#L" n="24"/>pra praemiserat: Qui volunt divites fieri, etc. Et
+<lb ed="#L" n="25"/>sic dicitur esse avaritia radix omnium malorum,
+<lb ed="#L" n="26"/>non quia omnia mala semper ex avaritia 
+orian<lb break="no" ed="#L" n="27"/>tur: sed quia nullum malum est quod non 
+in<lb break="no" ed="#L" n="28"/>terdum ex avaritia oriatur. Unde et prodigalitas
+<lb ed="#L" n="29"/>quandoque ex avaritia nascitur: sicut cum aliquis
+<lb ed="#L" n="30"/>prodige multa consumit intentione captandi 
+fa<lb break="no" ed="#L" n="31"/>Vende omnia quae habes, et da pauperibus. Ergo 
+<lb ed="#L" n="32"/>prodigalitas non est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e470">
+                  <lb ed="#L" n="33"/>SED coNTRA EST quod filius prodigus 
+vitupe<lb break="no" ed="#L" n="34"/>ratur de sua prodigalitate, Luc. xv
+</p>
+               <p xml:id="TAca84-d1e1887-d1e477">
+                  <lb ed="#L" n="35"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="36"/>prodigalitas opponitur avaritiae secundum 
+oppo<lb break="no" ed="#L" n="37"/>sitionem superabundantiae et defectus. Medium
+<lb ed="#L" n="38"/>autem virtutis per utrumque horum 
+corrumpi<lb break="no" ed="#L" n="39"/>tur. Ex hoc autem est aliquid vitiosum et 
+pec<lb break="no" ed="#L" n="40"/>catum. quod corrumpit bonum virtutis. Unde 
+re<lb break="no" ed="#L" n="41"/>linquitur quod prodigalitas sit peccatum.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e495">
+                  <lb ed="#L" n="42"/>AD PRIMUM ERGO DICENDUM quod illud verbum
+<lb ed="#L" n="43"/>Apostoli quidam exponunt non de cupiditate
+<lb ed="#L" n="44"/>actuali, sed de quadam habituali cupiditate, quae
+<lb ed="#L" n="45"/>est concupiscentia fomitis, ex qua omnia peccata
+<lb ed="#L" n="46"/>oriuntur. — Alii vero dicunt quod loquitur de
+<lb ed="#L" n="47"/>cupiditate generali respectu cuiuscumque boni.
+<lb ed="#L" n="48"/>vorem aliquorum, a quibus divitias accipiat. 
+</p>
+               <p xml:id="TAca84-d1e1887-d1e513">
+                  <lb ed="#L" n="49"/>AD SECUNDUM DICENDUM quod Apostolus 
+<lb ed="#L" n="50"/>divites ut facile tribuant et communicent sua 
+se<lb break="no" ed="#L" n="51"/>cundum quod oportet. Quod non faciunt prodigi:
+<lb ed="#L" n="52"/>quia, ut <ref xml:id="TAca84-d1e1887-Rd1e523">Philosophus dicit, in IV Ethic.</ref>, dationes
+<lb ed="#L" n="53"/>eorum non sunt bonae,neque boni gratia, neque
+<lb ed="#L" n="54"/>secundum quod oportet: sed quandoque dant multa
+<lb ed="#L" n="55"/>illis quos oporteret pauperes esse, scilicet - 
+histrioni<lb break="no" ed="#L" n="56"/>bus et adulatoribus, bonis autem nihil darent
+</p>
+               <p xml:id="TAca84-d1e1887-d1e536">
+                  <lb ed="#L" n="57"/>AD TERTIUM DICENDUM quod superexcessus 
+pro<lb break="no" ed="#L" n="58"/>digalitatis non. attenditur principaliter secundum
+<lb ed="#L" n="59"/>quantitatem dati, sed magis inquantum excedit 
+id<lb break="no" ed="#L" n="60"/>quod fieri oportet. Unde quandoque liberalis ma-
+<lb ed="#L" n="61"/>iora dat quam prodigus, si necessarium sit. Sic
+<lb ed="#L" n="62"/>ergo dicendum est quod illi qui, intentione se-.
+<lb ed="#L" n="63"/>quendi Christum, omnia sua dant, et ab animo:
+<lb ed="#L" n="64"/>suo omnem temporalium sollicitudinem. remo-:
+<lb ed="#L" n="65"/>vent, non sunt prodigi, sed perfecte liberales.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1887-Dd1e559"><!-- p2p2-q119a3" -->
+               <head xml:id="TAca84-d1e1887-Hd1e562">Articulus 3</head>
+               <head xml:id="TAca84-d1e1887-Hd1e564" type="question-title">Utrum prodigalitas sit gravius peccatum quam avaritia</head>
+               <p xml:id="TAca84-d1e1887-d1e567">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="66" type="fixed=466"/>ARTICULUS TERTIUS
+<lb ed="#L" n="67"/>UTRUM PRODIGALITAS SIT GRAVIUS PECCATUM QUAM AVARITIA
+</p>
+               <p xml:id="TAca84-d1e1887-d1e576">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="68"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="69"/>prodigalitas sit gravius peccatum. quam
+<lb ed="#L" n="70"/>avaritia. Per avaritiam enim aliquis 
+no<lb break="no" ed="#L" n="71"/>cet proximo, cui bona sua non 
+com<lb break="no" ed="#L" n="72"/>municat Per prodigalitatem autem aliquis sibi
+<lb ed="#L" n="73"/>ipsi nocet: dicit enim <ref xml:id="TAca84-d1e1887-Rd1e593">Philosophus, in IV Ethic.,</ref>
+                  <lb ed="#L" n="74"/>quod corruptio divitiarum, per quas homo vivit,
+<lb ed="#L" n="75"/>est quaedam ipsius esse perditio. Gravius autem
+<lb ed="#L" n="76"/>peccat qui sibi ipsi nocet: secundum illud 
+Ec<lb break="no" ed="#L" n="77"/>cli. xiv: Qui sibi nequam est, cui bonus erit?
+<lb ed="#L" n="78"/>Ergo prodigalitas erit gravius peccatum quam
+<lb ed="#L" n="79"/>avaritia.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e609">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="80"/>2. PRAETEREA, inordinatio quae provenit cum
+<lb ed="#L" n="81"/>aliqua conditione laudabili, minus est vitiosa. Sed.
+<lb ed="#L" n="82"/>inordinatio avaritiae quandoque est cum aliqua.
+<lb ed="#L" n="83"/>laudabili conditione: ut patet in. illis qui nolunt.
+<lb ed="#L" n="84"/>sua expendere nec aliena accipere. Prodigali-.
+<lb ed="#L" n="85"/>tatis autem inordinatio provenit cum. conditione
+<lb ed="#L" n="86"/>vituperabili: unde et prodigalitatem. attribuimus
+<lb ed="#L" n="87"/>intemperalis hominibus , ut <ref xml:id="TAca84-d1e1887-Rd1e630">Philosophus. dicit, in
+<lb ed="#L" n="88"/>IV Ethic.</ref> Ergo prodigalitas est gravius vitium
+<lb ed="#L" n="89"/>quam avaritia.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e639">
+                  <lb ed="#L" n="90"/>3. PRAETEREA, prudentia est praecipua inter
+<lb ed="#L" n="91"/>morales virtutes, ut supra habitum est. Sed
+<pb ed="#L" n="467"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>prodigalitas magis opponitur prudentiae quam
+<lb ed="#L" n="2"/>avaritia: dicitur enim <ref xml:id="TAca84-d1e1887-Rd1e654">Prov. xxii</ref>: Thesaurus 
+de<lb break="no" ed="#L" n="3"/>siderabilis et oleum in tabernaculo iusti: et 
+im<lb break="no" ed="#L" n="4"/>EM homo dissipabit illud; et <ref xml:id="TAca84-d1e1887-Rd1e660">Philosophus 
+di<lb break="no" ed="#L" n="5"/>cit, in IV Ethic.</ref>, quod insipientis est 
+superabun<lb break="no" ed="#L" n="6"/>danter dare et non accipere. Ergo prodigalitas
+<lb ed="#L" n="7"/>est gravius peccatum quam avaritia.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e671">
+                  <lb ed="#L" n="8"/>SED coNTRA EST quod <ref xml:id="TAca84-d1e1887-Rd1e675">Philosophus dicit, in IV
+<lb ed="#L" n="9"/>Ethic.</ref>, quod prodigus multum videtur melior
+<lb ed="#L" n="10"/>illiberali.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e683">
+                  <lb ed="#L" n="11"/>RESPONDEO DICENDUM quod prodigalitas, 
+secun<lb break="no" ed="#L" n="12"/>dum se considerata, minus peccatum est quam
+<lb ed="#L" n="13"/>avaritia. Et hoc triplici ratione. Primo quidem,
+<lb ed="#L" n="14"/>quia avaritia magis differt a virtute opposita.
+<lb ed="#L" n="15"/>Magis enim ad liberalem pertinet dare, in quo
+<lb ed="#L" n="16"/>superabundat prodigus, quam accipere vel 
+reti<lb break="no" ed="#L" n="17"/>nere, in quo superabundat avarus.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e701">
+                  <lb ed="#L" n="18"/>Secundo, quia prodigus est multis utilis, quibus 
+<lb ed="#L" n="19"/>dat: avarus autem nulli, sed nec sibi ipsi, ut 
+di<lb break="no" ed="#L" n="20"/>citur in <ref xml:id="TAca84-d1e1887-Rd1e709">IV Ethic.</ref>
+               </p>
+               <p xml:id="TAca84-d1e1887-d1e712">
+                  <lb ed="#L" n="21"/>Tertio, quia prodigalitas est facile sanabilis.
+<lb ed="#L" n="22"/>Et per hoc quod declinat ad aetatem senectutis,
+<lb ed="#L" n="23"/>quae est contraria prodigalitati. Et per hoc quod
+<lb ed="#L" n="24"/>pervenit ad egestatem de facili, dum multa 
+in<lb break="no" ed="#L" n="25"/>utiliter consumit: et sic, pauper factus, non. 
+po<lb break="no" ed="#L" n="26"/>test in dando superabundare. Et etiam quia de
+<lb ed="#L" n="27"/>facili perducitur ad virtutem, propter 
+similitudi<lb break="no" ed="#L" n="28"/>nem quam habet ad ipsam. - Sed avarus non
+<lb ed="#L" n="29"/>de facili sanatur, ratione. supradicta
+</p>
+               <p xml:id="TAca84-d1e1887-d1e734">
+                  <lb ed="#L" n="30"/>AD PRIMUM ERGO DICENDUM quod differentia 
+pro<lb break="no" ed="#L" n="31"/>digi et avari non attenditur secundum hoc quod
+<lb ed="#L" n="32"/>est peccare in seipsum, et in alium. Nam 
+pro<lb break="no" ed="#L" n="33"/>digus peccat in seipsum, dum bona sua consu-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="34"/>mit, unde vivere debet: peccat etiam in 
+alte<lb break="no" ed="#L" n="35"/>rum, consumendo bona ex quibus aliis deberet
+<lb ed="#L" n="36"/>providere. Et praecipue hoc apparet in clericis,
+<lb ed="#L" n="37"/>qui sunt dispensatores bonorum Ecclesiae, quae
+<lb ed="#L" n="38"/>sunt pauperum, quos defraudant prodige 
+expen<lb break="no" ed="#L" n="39"/>dendo. Similiter etiam avarus peccat in alios,
+<lb ed="#L" n="40"/>inquantum deficit in dationibus: peccat etiam in
+<lb ed="#L" n="41"/>seipsum, inquantum deficit in sumptibus; unde
+<lb ed="#L" n="42"/>dicitur Eccle. v1: Vir cui Deus dedit divitias, nec
+<lb ed="#L" n="43"/>tribuit ei potestatem ut comedat ex eis. Sed
+<lb ed="#L" n="44"/>tamen in hoc superabundat prodigus, quia sic
+<lb ed="#L" n="45"/>sibi et quibusdam aliis nocet quod tamen 
+ali<lb break="no" ed="#L" n="46"/>quibus prodest. Avarus autem nec sibi nec aliis
+<lb ed="#L" n="47"/>prodest: quia non audet uti etiam ad suam 
+uti<lb break="no" ed="#L" n="48"/>litatem bonis suis.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e781">
+                  <lb ed="#L" n="49"/>AD SECUNDUM DICENDUM quod cum de vitiis 
+com<lb break="no" ed="#L" n="50"/>muniter loquimur, iudicamus de eis secundum
+<lb ed="#L" n="51"/>proprias rationes ipsorum: sicut circa 
+prodiga<lb break="no" ed="#L" n="52"/>litatem attendimus quod superflue consumit 
+di<lb break="no" ed="#L" n="53"/>vitias, circa avaritiam vero quod superflue eas
+<lb ed="#L" n="54"/>retinet. Quod autem aliquis propter 
+intemperan<lb break="no" ed="#L" n="55"/>tiam superflue consumat, hoc iam nominat simul
+<lb ed="#L" n="56"/>multa: peccata: unde et tales prodigi sunt peiores,
+<lb ed="#L" n="57"/>ut dicitur <ref xml:id="TAca84-d1e1887-Rd1e802">IV Ethic.</ref> Quod autem illiberalis sive
+<lb ed="#L" n="58"/>avarus abstineat ab accipiendis alienis, etsi in se
+<lb ed="#L" n="59"/>laudabile videatur, tamen ex causa propter quam
+<lb ed="#L" n="60"/>facit, vituperabile est, dum ideo non vult ab aliis
+<lb ed="#L" n="61"/>accipere ne cogatur aliis dare.
+</p>
+               <p xml:id="TAca84-d1e1887-d1e814">
+                  <lb ed="#L" n="62"/>AD TERTIUM. DICENDUM quod omnia vitia. 
+pru<lb break="no" ed="#L" n="63"/>dentiae opponuntur, sicut et omnes virtutes a
+<lb ed="#L" n="64"/>prudentia diriguntur. Et ideo vitium ex hoc
+<lb ed="#L" n="65"/>ipso quod opponitur soli prudentiae, levius 
+re<lb break="no" ed="#L" n="66"/>putatur.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

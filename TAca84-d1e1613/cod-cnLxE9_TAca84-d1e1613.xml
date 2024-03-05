@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 66</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 66</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="84"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1613"><!-- p2p2-q66" -->
+            <head xml:id="TAca84-d1e1613-Hd1e101">Quaestio 66</head>
+            <head xml:id="TAca84-d1e1613-Hd1e103" type="question-title">De furto et rapina</head>
+            <p xml:id="TAca84-d1e1613-d1e106">
+               <pb ed="#L" n="84"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=84"/>QUAESTIO SEXAGESIMASEXTA
+<lb ed="#L" n="2"/>DE FURTO ET RAPINA
+<lb ed="#L" n="3"/>IN NOVEM ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1613-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de peccatis iustitiae 
+<lb ed="#L" n="5"/>oppositis per quae infertur nocumentum pro- |
+<lb ed="#L" n="6"/>ximo in rebus: scilicet de furto et rapina.
+</p>
+            <p xml:id="TAca84-d1e1613-d1e130">
+               <lb ed="#L" n="7"/>Et circa hoc quaeruntur novem.
+<lb ed="#L" n="8"/>Primo: utrum naturalis sit homini possessio
+<lb ed="#L" n="9"/>exteriorum rerum.
+<lb ed="#L" n="10"/>Secundo: utrum licitum sit quod aliquis rem
+<lb ed="#L" n="11"/>aliquam possideat quasi propriam.
+<lb ed="#L" n="12"/>Tertio: utrum furtum sit occulta acceptio rei
+<lb ed="#L" n="13"/>alienae.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="14"/>Quarto: utrum rapina sit peccatum specie 
+dif<lb break="no" ed="#L" n="15"/>ferens a furto.
+<lb ed="#L" n="16"/>Quinto: utrum omne furtum sit peccatum.
+<lb ed="#L" n="17"/>Sexto: utrum furtum sit peccatum mortale.
+<lb ed="#L" n="18"/>Septimo: utrum liceat furari in necessitate.
+<lb ed="#L" n="19"/>Octavo: utrum omnis rapina sit peccatum
+<lb ed="#L" n="20"/>mortale.
+<lb ed="#L" n="21"/>Nono: utrum rapina sit gravius peccatum
+<lb ed="#L" n="22"/>quam furtum.
+</p>
+            <div xml:id="TAca84-d1e1613-Dd1e170"><!-- p2p2-q66a1" -->
+               <head xml:id="TAca84-d1e1613-Hd1e173">Articulus 1</head>
+               <head xml:id="TAca84-d1e1613-Hd1e175" type="question-title">Utrum naturalis sit homini possessio exteriorum rerum</head>
+               <p xml:id="TAca84-d1e1613-d1e178">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="23" type="fixed=84"/>ARTICULUS PRIMUS
+<lb ed="#L" n="24"/>UTRUM NATURALIS SIT HOMINI POSSESSIO EXTERIORUM RERUM
+</p>
+               <p xml:id="TAca84-d1e1613-d1e187">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="25"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="26"/>non sit naturalis homini possessio 
+ex<lb break="no" ed="#L" n="27"/>teriorum rerum. Nullus enim debet sibi
+<lb ed="#L" n="28"/>attribuere quod Dei est. Sed dominium
+<lb ed="#L" n="29"/>omnium creaturarum est proprie Dei: 
+secun<lb break="no" ed="#L" n="30"/>dum illud Psalm.: Domini est terra etc. Ergo
+<lb ed="#L" n="31"/>non est naturalis homini rerum possessio f.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e207">
+                  <lb ed="#L" n="32"/>2. PRAETEREA, Basilius, exponens verbum 
+di<lb break="no" ed="#L" n="33"/>vitis dicentis, Luc. xut, Congregabo omnia quae
+<lb ed="#L" n="34"/>nata sunt mihi et bona mea, dicit: Dic mihi, quae
+<lb ed="#L" n="35"/>tua? Unde ea sumens in vitam tulisti? .Sed. illa
+<lb ed="#L" n="36"/>quae homo possidet naturaliter, potest aliquis 
+con<lb break="no" ed="#L" n="37"/>venienter dicere esse sua. Ergo homo non 
+pos<lb break="no" ed="#L" n="38"/>sidet naturaliter exteriora bona.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e226">
+                  <lb ed="#L" n="39"/>3. PRAETEREA, sicut Ambrosius dicit, in libro
+<lb ed="#L" n="40"/>de Trin., dominus nomen est potestatis. Sed 
+ho<lb break="no" ed="#L" n="41"/>mo non habet potestatem super res exteriores:
+<lb ed="#L" n="42"/>nihil enim. potest circa earum naturam 
+immu<lb break="no" ed="#L" n="43"/>tare. Ergo possessio exteriorum rerum non est
+<lb ed="#L" n="44"/>homini naturalis.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e242">
+                  <lb ed="#L" n="45"/>SED coNTRa EsT quod dicitur in Psalm.: Omnia
+<lb ed="#L" n="46"/>subiecisti sub pedibus eius, scilicet hominis.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e249">
+                  <lb ed="#L" n="47"/>RESPONDEO DICENDUM quod res exterior potest
+<lb ed="#L" n="48"/>dupliciter considerari. Uno modo, quantum ad
+<lb ed="#L" n="49"/>eius naturam: quae non subiacet humanae 
+po<lb break="no" ed="#L" n="50"/>testati, sed solum divinae, cui omnia ad nutum
+<lb ed="#L" n="51"/>obediunt. Alio modo, quantum ad usum ipsius
+<lb ed="#L" n="52"/>rei. Et sic habet homo naturale dominium ex-
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="53"/>teriorum rerum: quia per rationem et 
+volunta<lb break="no" ed="#L" n="54"/>tem potest uti rebus exterioribus ad suam 
+utili<lb break="no" ed="#L" n="55"/>tatem, quasi propter se factis; semper enim
+<lb ed="#L" n="56"/>imperfectiora sunt propter perfectiora, ut supra
+<lb ed="#L" n="57"/>habitum est. Et ex hac ratione Philosophus 
+pro<lb break="no" ed="#L" n="58"/>bat, in I Polit., quod possessio rerum 
+exterio<lb break="no" ed="#L" n="59"/>rum est homini naturalis. Hoc autem naturale
+<lb ed="#L" n="60"/>dominium super ceteras creaturas, quod 
+com<lb break="no" ed="#L" n="61"/>petit homini secundum rationem, in qua imago
+<lb ed="#L" n="62"/>Dei consistit, manifestatur in ipsa hominis 
+crea<lb break="no" ed="#L" n="63"/>tione, Gen. 1*, ubi dicitur: Faciamus hominem
+<lb ed="#L" n="64"/>ad similitudinem et imaginem ? nostram: et 
+prae<lb break="no" ed="#L" n="65"/>sit piscibus maris, etc. ;
+</p>
+               <p xml:id="TAca84-d1e1613-d1e295">
+                  <lb ed="#L" n="66"/>AD PRIMUM ERGO DICENDUM quod Deus habet
+<lb ed="#L" n="67"/>principale dominium omnium rerum. Et ipse
+<lb ed="#L" n="68"/>secundum suam providentiam ordinavit res 
+quas<lb break="no" ed="#L" n="69"/>dam ad corporalem hominis sustentationem. Et
+<lb ed="#L" n="70"/>propter hoc homo habet naturale rerum 
+domi<lb break="no" ed="#L" n="71"/>nium quantum ad potestatem utendi ipsis.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e311">
+                  <lb ed="#L" n="72"/>AD SECUNDUM DICENDUM quod dives ille 
+repre<lb break="no" ed="#L" n="73"/>henditur ex hoc quod putabat exteriora bona esse
+<lb ed="#L" n="74"/>principaliter sua, quasi non accepisset ea ab alio, .
+<lb ed="#L" n="75"/>scilicet a Deo.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e322">
+                  <lb ed="#L" n="76"/>AD TERTIUM DICENDUM quod ratio illa procedit
+<lb ed="#L" n="77"/>de dominio exteriorum rerum quantum ad 
+na<lb break="no" ed="#L" n="78"/>turas ipsarum: quod quidem dominium soli Deo
+<lb ed="#L" n="79"/>convenit, ut dictum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1613-Dd1e334"><!-- p2p2-q66a2" -->
+               <head xml:id="TAca84-d1e1613-Hd1e337">Articulus 2</head>
+               <head xml:id="TAca84-d1e1613-Hd1e339" type="question-title">Utrum liceat alicui rem aliquam quasi propriam possidere</head>
+               <p xml:id="TAca84-d1e1613-d1e342">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="16" type="fixed=85"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="17"/>UTRUM LICEAT ALICUI REM ALIQUAM QUASI PROPRIAM POSSIDERE
+</p>
+               <p xml:id="TAca84-d1e1613-d1e351">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="18"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="19"/>non liceat alicui rem aliquam quasi 
+pro<lb break="no" ed="#L" n="20"/>priam possidere. Omne enim quod est
+<lb ed="#L" n="21"/>contra ius naturale est illicitum. Sed
+<lb ed="#L" n="22"/>ius naturale omnia sunt communia:
+<lb ed="#L" n="23"/>cui quidem communitati contrariatur 
+possessio<lb break="no" ed="#L" n="24"/>num proprietas. Ergo illicitum est cuilibet 
+ho<lb break="no" ed="#L" n="25"/>mini appropriare sibi aliquam rem exteriorem.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e373">
+                  <lb ed="#L" n="26"/>2. PRAETEREA, Basilius dicit, exponens 
+prae<lb break="no" ed="#L" n="27"/>dictum verbum divitis: Sicut qui, praeveniens
+<lb ed="#L" n="28"/>ad spectacula, prohiberet advenientes, sibi 
+ap<lb break="no" ed="#L" n="29"/>propriando quod ad communem usum ordinatur ;
+<lb ed="#L" n="30"/>similes sunt divites qui communia, quae 
+praeoc<lb break="no" ed="#L" n="31"/>cupaverunt, aestimant sua esse. Sed illicitum esset
+<lb ed="#L" n="32"/>praecludere viam aliis ad potiendum 
+communi<lb break="no" ed="#L" n="33"/>bus bonis. Ergo illicitum est appropriare sibi 
+ali<lb break="no" ed="#L" n="34"/>Log rem communem.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e396">
+                  <lb ed="#L" n="35"/>3. PnaETEREA, Ambrosius dicit, et habetur in
+<lb ed="#L" n="36"/>d Decretis, dist. XLVII, can. Sicut hi : , Proprium
+<lb ed="#L" n="37"/>nemo dicat quod est. commune. Appellat autem
+<lb ed="#L" n="38"/>communes res exteriores: sicut patet ex his quae
+<lb ed="#L" n="39"/>praemittit. Ergo videtur illicitum esse quod 
+ali<lb break="no" ed="#L" n="40"/>quis appropriet sibi aliquam rem exteriorem.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e412">
+                  <lb ed="#L" n="41"/>SED coNTRA EsT quod Augustinus dicit, in libro
+<lb ed="#L" n="42"/>de Haeres.: Apostolici dicuntur qui se hoc 
+no<lb break="no" ed="#L" n="43"/>mine arrogantissime vocaverunt, eo quod in suam
+<lb ed="#L" n="44"/>communionem non acciperent utentes coniugibus,
+<lb ed="#L" n="45"/>et res proprias possidentes, quales habet Catholica
+<lb ed="#L" n="46"/>Ecclesia et monachos et clericos plurimos. Sed
+<lb ed="#L" n="47"/>ideo isti haeretici sunt quoniam P, se ab Ecclesia
+<lb ed="#L" n="48"/>separantes, nullam spem putant eos habere qui
+<lb ed="#L" n="49"/>utuntur his rebus, quibus ipsi carent. Est ergo
+<lb ed="#L" n="50"/>erroneum dicere quod non liceat homini propria
+<lb ed="#L" n="51"/>possidere.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e438">
+                  <lb ed="#L" n="52"/>RESPONDEO DICENDUM quod circa rem exteriorem
+<lb ed="#L" n="53"/>duo competunt homini. Quorum unum est 
+pote<lb break="no" ed="#L" n="54"/>stas procurandi et dispensandi. Et quantum ad
+<lb ed="#L" n="55"/>hoc licitum est quod homo propria possideat.
+<lb ed="#L" n="56"/>Et.est etiam necessarium ad humanam vitam,
+<lb ed="#L" n="57"/>propter tria. Primo quidem, quia magis sollicitus
+<lb ed="#L" n="58"/>est unusquisque ad procurandum aliquid quod
+<lb ed="#L" n="59"/>sibi soli competit quam aliquid quod est 
+com<lb break="no" ed="#L" n="60"/>mune omnium vel multorum: quia unusquisque,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="61"/>laborem fugiens, relinquit alteri id quod pertinet
+<lb ed="#L" n="62"/>ad commune; sicut accidit in multitudine 
+mi<lb break="no" ed="#L" n="63"/>nistrorum. - Alio modo, quia ordinatius res 
+hu<lb break="no" ed="#L" n="64"/>manae tractantur si singulis immineat propria
+<lb ed="#L" n="65"/>cura alicuius rei procurandae: esset autem 
+con<lb break="no" ed="#L" n="66"/>fusio si quilibet indistincte quaelibet procuraret. -
+<lb ed="#L" n="67"/>Tertio, quia per hoc magis pacificus status 
+ho<lb break="no" ed="#L" n="68"/>minum conservatur, dum unusquisque re sua
+<lb ed="#L" n="69"/>contentus est. Unde videmus quod inter eos qui
+<lb ed="#L" n="70"/>communiter et ex indiviso aliquid possident, 
+fre<lb break="no" ed="#L" n="71"/>quentius iurgia oriuntur.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e486">
+                  <lb ed="#L" n="72"/>Aliud vero quod competit homini circa res 
+ex<lb break="no" ed="#L" n="73"/>teriores est usus ipsarum. Et quantum ad hoc non
+<lb ed="#L" n="74"/>debet homo habere res exteriores ut proprias,
+<lb ed="#L" n="75"/>sed ut communes: ut scilicet de facili aliquis
+<lb ed="#L" n="76"/>ea? communicet in necessitates aliorum. Unde
+<lb ed="#L" n="77"/>Apostolus dicit, 1 ad 7m. ult.: Divitibus huius
+<lb ed="#L" n="78"/>saeculi praecipe facile tribuere, communicare.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e504">
+                  <lb ed="#L" n="79"/>AD PRIMUM ERGO DICENDUM quod communitas
+<lb ed="#L" n="80"/>rerum attribuitur iuri naturali, non quia ius 
+na<lb break="no" ed="#L" n="81"/>turale dictet omnia esse possidenda communiter
+<lb ed="#L" n="82"/>et nihil esse quasi proprium possidendum: sed
+<lb ed="#L" n="83"/>quia secundum ius naturale non est distinctio
+<lb ed="#L" n="84"/>possessionum, sed magis secundum humanum
+<lb ed="#L" n="85"/>condictum , quod pertinet ad ius positivum, ut
+<lb ed="#L" n="86"/>supra dictum est. Unde proprietas possessionum
+<lb ed="#L" n="87"/>non est contra ius naturale; sed iuri naturali 
+su<lb break="no" ed="#L" n="88"/>peradditur per adinventionem rationis humanae.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e528">
+                  <lb ed="#L" n="89"/>AD SECUNDUM DICENDUM quod ille qui, 
+praeve<lb break="no" ed="#L" n="90"/>niens ad spectacula, praepararet aliis viam, non
+<lb ed="#L" n="91"/>illicite ageret: sed ex hoc illicite agit quod alios
+<lb ed="#L" n="92"/>prohibet. Et similiter dives non illicite agit si, 
+prae<lb break="no" ed="#L" n="93"/>occupans possessionem rei quae a principio erat
+<lb ed="#L" n="94"/>communis, aliis communicat: peccat autem si
+<lb ed="#L" n="95"/>alios ab usu illius rei indiscrete prohibeat. Unde
+<lb ed="#L" n="96"/>Basilius ibidem dicit: Cur tu abundas, ille vero
+<lb ed="#L" n="97"/>mendicat, nisi ut tu bonae dispensationis merita
+<lb ed="#L" n="98"/>consequaris, ille vero patientiae praemiis coronetur?
+</p>
+               <p xml:id="TAca84-d1e1613-d1e553">
+                  <lb ed="#L" n="99"/>AD TERTIUM DICENDUM quod cum dicit 
+Am<lb break="no" ed="#L" n="100"/>brosius. Nemo proprium dicat quod est commune,
+<lb ed="#L" n="101"/>loquitur de proprietate quantum ad usum. Unde
+<lb ed="#L" n="102"/>subdit: Plus quam sufficeret sumptui, violenter
+<lb ed="#L" n="103"/>obtentum est.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1613-Dd1e567"><!-- p2p2-q66a3" -->
+               <head xml:id="TAca84-d1e1613-Hd1e570">Articulus 3</head>
+               <head xml:id="TAca84-d1e1613-Hd1e572" type="question-title">Utrum sit de ratione furti occulte accipere rem alienam</head>
+               <p xml:id="TAca84-d1e1613-d1e575">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="52" type="fixed=86"/>ARTICULUS TERTIUS
+<lb ed="#L" n="53"/>UTRUM SIT DE RATIONE FURTI OCCULTE ACCIPERE REM ALIENAM
+</p>
+               <p xml:id="TAca84-d1e1613-d1e584">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="54"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="55"/>non sit de ratione furti occulte accipere
+<lb ed="#L" n="56"/>rem alienam. Illud enim quod diminuit
+<lb ed="#L" n="57"/>peccatum non videtur ad rationem 
+pec<lb break="no" ed="#L" n="58"/>cati epetipacd Sed in occulto peccare pertinet
+<lb ed="#L" n="59"/>ad diminutionem peccati: sicut e contrario ad
+<lb ed="#L" n="60"/>exaggerandum peccatum quorundam dicitur 
+Isa<lb break="no" ed="#L" n="61"/>iae i11: Peccatum suum quasi Sodoma 
+praedica<lb break="no" ed="#L" n="62"/>verunt, nec absconderunt. Ergo non est de 
+ra<lb break="no" ed="#L" n="63"/>tione furti occulta acceptio rei alienae.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e610">
+                  <lb ed="#L" n="64"/>2. PRAETEREA, <ref xml:id="TAca84-d1e1613-Rd1e614">
+                     <name xml:id="TAca84-d1e1613-Nd1e616">Ambrosius</name>
+                  </ref> dicit, et habetur in
+<ref xml:id="TAca84-d1e1613-Rd1e619">Decretis, dist. XLVII</ref>: <quote xml:id="TAca84-d1e1613-Qd1e621">Neque minus est 
+crimi<lb break="no" ed="#L" n="65"/>nis habenti tollere quam, cum possis et abundas ,
+<lb ed="#L" n="66"/>indigentibus denegare</quote>. Ergo sicut furtum 
+consi<lb break="no" ed="#L" n="67"/>stit in acceptione rei alienae, ita et in detentione
+<lb ed="#L" n="68"/>ipsius.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e635">
+                  <lb ed="#L" n="69"/>3. PRAETEREA, homo potest furtim ab alio 
+acci<lb break="no" ed="#L" n="70"/>pere etiam quod suum est: puta rem quam apud
+<lb ed="#L" n="71"/>alium deposuit, vel quae est ab eo iniuste ablata.
+<lb ed="#L" n="72"/>Non est ergo de ratione furti quod sit occulta
+<lb ed="#L" n="73"/>acceptio rei alienae.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e648">
+                  <lb ed="#L" n="74"/>SED coNTRA EsT quod <ref xml:id="TAca84-d1e1613-Rd1e652">Isidorus dicit, in libro
+<lb ed="#L" n="75"/>Etymol.</ref>: <quote xml:id="TAca84-d1e1613-Qd1e657">Fur a furvo dictus est, idest a fusco:
+<lb ed="#L" n="76"/>nam noctis utitur tempore</quote>.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e663">
+                  <lb ed="#L" n="77"/>REsPONDEO DICENDUM quod ad rationem furti
+<lb ed="#L" n="78"/>tria concurrunt. Quorum primum convenit sibi
+<lb ed="#L" n="79"/>secundum quod contrariatur iustitiae, quae 
+uni<lb break="no" ed="#L" n="80"/>cuique tribuit quod suum est. Et ex hoc 
+com<lb break="no" ed="#L" n="81"/>petit ei quod usurpat alienum. - Secundum vero
+<lb ed="#L" n="82"/>pertinet ad rationem furti prout distinguitur a
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="83"/>peccatis. quae sunt contra personam, sicut ab
+<lb ed="#L" n="84"/>homicidio et adulterio. Et secundum hoc 
+com<lb break="no" ed="#L" n="85"/>petit furto quod sit circa rem possessam. Si quis
+<lb ed="#L" n="86"/>enim accipiat id quod est alterius non quasi 
+pos<lb break="no" ed="#L" n="87"/>sessio, sed quasi pars, sicut si amputet membrum;
+<lb ed="#L" n="88"/>vel sicut persona coniuncta, ut si auferat filiam
+<lb ed="#L" n="89"/>vel uxorem: non habet proprie rationem furti.
+<lb ed="#L" n="90"/>Tertia differentia est quae complet furti rationem,
+<lb ed="#L" n="91"/>ut scilicet occulte usurpetur alienum, Et 
+secun<lb break="no" ed="#L" n="92"/>dum hoc propria ratio furti est ut sit occulta
+<lb ed="#L" n="93"/>acceptio rei alienae.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e705">
+                  <lb ed="#L" n="94"/>AD PRIMUM ERGO DICENDUM quod occultatio 
+quan<lb break="no" ed="#L" n="95"/>doque quidem est causa peccati: puta cum quis
+<lb ed="#L" n="96"/>utitur occultatione ad peccandum, sicut accidit
+<lb ed="#L" n="97"/>in fraude et dolo. Et hoc modo non diminuit, sed
+<lb ed="#L" n="98"/>constituit speciem peccati. Et ita est in furto. —
+<lb ed="#L" n="99"/>Alio modo occultatio est simplex circumstantia
+<lb ed="#L" n="100"/>peccati. Et sic diminuit peccatum: tum quia est
+<lb ed="#L" n="101"/>signum verecundiae; tum quia tollit scandalum.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e725">
+                  <lb ed="#L" n="102"/>AD SECUNDUM DICENDUM quod detinere id quod
+<lb ed="#L" n="103"/>alteri debetur eandem rationem nocumenti habet
+<lb ed="#L" n="104"/>cum acceptione P. Et ideo sub iniusta acceptione
+<lb ed="#L" n="105"/>intelligitur etiam iniusta detentio.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e736">
+                  <lb ed="#L" n="106"/>AD TERTIUM DICENDUM quod nihil prohibet id
+<lb ed="#L" n="107"/>quod est simpliciter unius, secundum quid esse
+<lb ed="#L" n="108"/>alterius. Sicut res deposita est simpliciter quidem
+<lb ed="#L" n="109"/>deponentis, sed est eius apud quem deponitur
+<lb ed="#L" n="110"/>quantum ad custodiam. Et id quod est per 
+ra<lb break="no" ed="#L" n="111"/>pinam ablatum est rapientis, non simpliciter, sed
+<lb ed="#L" n="112"/>quantum ad detentionem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1613-Dd1e755"><!-- p2p2-q66a4" -->
+               <head xml:id="TAca84-d1e1613-Hd1e758">Articulus 4</head>
+               <head xml:id="TAca84-d1e1613-Hd1e760" type="question-title">Utrum furtum et rapina sint peccata differentia specie</head>
+               <p xml:id="TAca84-d1e1613-d1e763">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="68" type="fixed=89"/>ARTICULUS QUARTUS
+<lb ed="#L" n="69"/>UTRUM FURTUM ET RAPINA SINT PECCATA DIFFERENTIA SPECIE
+</p>
+               <p xml:id="TAca84-d1e1613-d1e772">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="70"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="71"/>furtum et rapina non sint peccata dif- |
+<lb ed="#L" n="72"/>ferentia specie. Furtum enim. et rapina -
+<lb ed="#L" n="73"/>differunt secundum. occultum. et. mani- -
+<lb ed="#L" n="74"/>festum: furtum enim importat occultam 
+acceptio<lb break="no" ed="#L" n="75"/>nem, rapina vero violentam et manifestam. Sed
+<lb ed="#L" n="76"/>in aliis generibus peccatorum occultum et 
+mani<lb break="no" ed="#L" n="77"/>festum. non diversificant speciem. Ergo furtum
+<lb ed="#L" n="78"/>et rapina non sunt peccata specie diversa.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e796">
+                  <lb ed="#L" n="79"/>2. PRAETEREA, moralia recipiunt speciem a fine,
+<lb ed="#L" n="80"/>ut supra dictum est. Sed furtum et rapina 
+or<lb break="no" ed="#L" n="81"/>itur ad eundem finem, scilicet ad habendum
+<lb ed="#L" n="82"/>aliena. Ergo non differunt specie.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e808">
+                  <lb ed="#L" n="83"/>3. PRAETEREA, sicut rapitur aliquid ad 
+possi<lb break="no" ed="#L" n="84"/>dendum, ita rapitur mulier ad delectandum : unde
+<lb ed="#L" n="85"/>et Isidorus dicit, in libro Etymol., quod <quote xml:id="TAca84-d1e1613-Qd1e816">raptor
+<lb ed="#L" n="86"/>dicitur corruptor, et rapta corrupta</quote>. Sed raptus
+<lb ed="#L" n="87"/>dicitur sive mulier auferatur publice, sive occulte.
+<lb ed="#L" n="88"/>Ergo et res possessa rapi dicitur sive occulte, sive
+<lb ed="#L" n="89"/>publice rapiatur. Ergo non differunt furtum et
+<lb ed="#L" n="90"/>rapina.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e831">
+                  <lb ed="#L" n="91"/>SED CONTRA EST quod Philosophus, in V Ethic.,
+<lb ed="#L" n="92"/>distinguit furtum a rapina, ponens furtum 
+oc<lb break="no" ed="#L" n="93"/>cultum, rapinam vero violentam.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e840">
+                  <lb ed="#L" n="94"/>RESPONDEO DICENDUM quod furtum et rapina sunt
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>vitia iustitiae opposita; inquantum aliquis alter
+<lb ed="#L" n="96"/>facit iniustum. Nullus autem patitur. iniustum 
+vo<lb break="no" ed="#L" n="97"/>lens: ut probatur in. V. Ethic.- Et ideo furtum et
+<lb ed="#L" n="98"/>rapina ex hoc habent rationem peccati quod 
+acce<lb break="no" ed="#L" n="99"/>ptio est involuntaria ex parte eius cui aliquid 
+sub<lb break="no" ed="#L" n="100"/>trahitur. Involuntarium autem dupliciter dicitur:
+<lb ed="#L" n="101"/>scilicet per ignorantiam, et violentiam, ut habetur
+<lb ed="#L" n="102"/>in III Ethic. Et ideo aliam rationem peccati
+<lb ed="#L" n="103"/>habet rapina, et aliam furtum. Et propter hoc
+<lb ed="#L" n="104"/>differunt specie.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e869">
+                  <lb ed="#L" n="105"/>AD PRIMUM ERGO DICENDUM quod in aliis 
+gene<lb break="no" ed="#L" n="106"/>ribus peccatorum non attenditur ratio: peccati ex
+<lb ed="#L" n="107"/>aliquo involuntario, sicut attenditur in peccatis
+<lb ed="#L" n="108"/>oppositis iustitiae. Et ideo ubi occurrit diversa
+<lb ed="#L" n="109"/>ratio involuntarii, est diversa species peccati.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e882">
+                  <lb ed="#L" n="110"/>AD SECUNDUM DICENDUM quod finis remotus est
+<lb ed="#L" n="111"/>idem rapinae et furti: sed hoc non sufficit ad
+<lb ed="#L" n="112"/>identitatem speciei, quia est diversitas in finibus
+<lb ed="#L" n="113"/>proximis. Raptor enim. vult per propriam 
+pote<lb break="no" ed="#L" n="114"/>statem obtinere, fur vero per astutiam.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e895">
+                  <lb ed="#L" n="115"/>AD TERTIUM DICENDUM quod raptus mulieris non
+<lb ed="#L" n="116"/>potest esse occultus ex parte mulieris quae 
+ra<lb break="no" ed="#L" n="117"/>pitur. Et ideo etiam si sit occultus ex parte 
+alio<lb break="no" ed="#L" n="118"/>rum, quibus rapitur, adhuc remanet ratio rapinae
+<lb ed="#L" n="119"/>ex parte mulieris, cui violentia infertur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1613-Dd1e909"><!-- p2p2-q66a5" -->
+               <head xml:id="TAca84-d1e1613-Hd1e912">Articulus 5</head>
+               <head xml:id="TAca84-d1e1613-Hd1e914" type="question-title">Utrum furtum semper sit peccatum</head>
+               <p xml:id="TAca84-d1e1613-d1e917">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="18" type="fixed=90"/>ARTICULUS QUINTUS
+<lb ed="#L" n="19"/>UTRUM FURTUM SEMPER SIT PECCATUM
+</p>
+               <p xml:id="TAca84-d1e1613-d1e926">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="20"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="21"/>furtum non semper sit peccatum. 
+Nul<lb break="no" ed="#L" n="22"/>lum enim peccatum cadit sub praecepto
+<lb ed="#L" n="23"/>divino: dicitur enim Eccli. xv: Nemini
+<lb ed="#L" n="24"/>mandavit impie agere. Sed Deus invenitur 
+prae<lb break="no" ed="#L" n="25"/>cepisse furtum: dicitur enim Exod. xii:: 
+Fece<lb break="no" ed="#L" n="26"/>runt filii Israel sicut praeceperat Dominus Moysi,
+<lb ed="#L" n="27"/>et expoliaverunt Aegyptios. Ergo furtum non
+<lb ed="#L" n="28"/>semper est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e950">
+                  <lb ed="#L" n="29"/>2. PRAETEREA, ille qui invenit rem non suam,
+<lb ed="#L" n="30"/>si eam accipiat, videtur furtum committere: quia
+<lb ed="#L" n="31"/>dccipit rem alienam. Sed hoc videtur esse licitum
+<lb ed="#L" n="32"/>secundum naturalem aequitatem; ut iuristae 
+di<lb break="no" ed="#L" n="33"/>cunt, Ergo videtur quod furtum non semper sit
+<lb ed="#L" n="34"/>peccatum.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e967">
+                  <lb ed="#L" n="35"/>3. PRAETEREA, ille qui accipit rem suam non
+<lb ed="#L" n="36"/>videtur peccare: cum non agat contra iustitiam,
+<lb ed="#L" n="37"/>cuius aequalitatem non tollit. Sed furtum 
+com<lb break="no" ed="#L" n="38"/>mittitur etiam si aliquis rem suam occulte 
+acci<lb break="no" ed="#L" n="39"/>piat ab altero detentam vel custoditam. Ergo 
+vi<lb break="no" ed="#L" n="40"/>detur quod furtum non semper sit peccatum.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e983">
+                  <lb ed="#L" n="41"/>SED CONTRA EST quod dicitur <ref xml:id="TAca84-d1e1613-Rd1e987">Exod. xx</ref>: <quote xml:id="TAca84-d1e1613-Qd1e989">Non
+<lb ed="#L" n="42"/>furtum facies</quote>.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e995">
+                  <lb ed="#L" n="43"/>RESPONDEO DICENDUM quod si quis consideret
+<lb ed="#L" n="44"/>furti rationem, duas rationes peccati in eo 
+in<lb break="no" ed="#L" n="45"/>veniet. Primo quidem, propter contrarietatem ad
+<lb ed="#L" n="46"/>iustitiam, quae reddit unicuique quod suum est.
+<lb ed="#L" n="47"/>Et sic furtum iustitiae opponitur, inquantum 
+fur<lb break="no" ed="#L" n="48"/>tum est acceptio rei alienae. Secundo, ratione
+<lb ed="#L" n="49"/>doli seu fraudis, quam fur committit occulte et
+<lb ed="#L" n="50"/>quasi ex insidiis rem alienam usurpando. Unde
+<lb ed="#L" n="51"/>manifestum est quod omne furtum est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1017">
+                  <lb ed="#L" n="52"/>AD PRIMUM ERGO DICENDUM quod accipere rem
+<lb ed="#L" n="53"/>alienam vel occulte vel manifeste auctoritate 
+iu<lb break="no" ed="#L" n="54"/>dicis hoc decernentis, non est furtum: quia iam
+<lb ed="#L" n="55"/>fit sibi debitum per hoc quod sententialiter sibi
+<lb ed="#L" n="56"/>est adiudicatum. Unde multo minus furtum fuit
+<lb ed="#L" n="57"/>quod filii Israel tulerunt spolia Aegyptiorum de
+<lb ed="#L" n="58"/>praecepto Domini hoc decernentis pro 
+afflictio<lb break="no" ed="#L" n="59"/>nibus quibus Aegyptii eos sine causa afflixerant.
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="60"/>Et ideo signanter dicitur <ref xml:id="TAca84-d1e1613-Rd1e1040">Sap. x</ref>: <quote xml:id="TAca84-d1e1613-Qd1e1043">Justi tulerunt
+<lb ed="#L" n="61"/>spolia impiorum</quote>.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1049">
+                  <lb ed="#L" n="62"/>AD SECUNDUM DICENDUM quod circa res inventas
+<lb ed="#L" n="63"/>est distinguendum. Quaedam enim sunt quae 
+nun<lb break="no" ed="#L" n="64"/>quam fuerunt in bonis alicuius, sicut lapilli et 
+gem<lb break="no" ed="#L" n="65"/>mae quae inveniuntur in littore maris: et talia
+<lb ed="#L" n="66"/>occupanti conceduntur. Et eadem ratio est de :
+<lb ed="#L" n="67"/>thesauris antiquo tempore sub terra occultatis,
+<lb ed="#L" n="68"/>quorum non est aliquis possessor: nisi quoc
+<lb ed="#L" n="69"/>secundum leges civiles tenetur inventor 
+medie<lb break="no" ed="#L" n="70"/>tatem dare domino agri, si in alieno agro 
+invene<lb break="no" ed="#L" n="71"/>rit; propter quod in parabola Evangelii dicitur,
+<lb ed="#L" n="72"/>Matth. xir, de inventore /hesauri absconditi in
+<lb ed="#L" n="73"/>agro, quod emit agrum, quasi ut haberet ius 
+pos<lb break="no" ed="#L" n="74"/>sidendi totum thesaurum. - Quaedam vero res
+<lb ed="#L" n="75"/>inventae fuerunt de propinquo in alicuius bonis.
+<lb ed="#L" n="76"/>Et tunc, si quis eas accipiat non animo retinendi,
+<lb ed="#L" n="77"/>sed animo restituendi domino, qui eas pro. 
+dereli<lb break="no" ed="#L" n="78"/>ctis non habet, non committit furtum. Et si
+<lb ed="#L" n="79"/>si pro derelictis habeantur, et hoc credat it
+<lb ed="#L" n="80"/>tor, licet sibi retineat, non committit fu
+<lb ed="#L" n="81"/>Alias autem committitur peccatum furti. -
+<ref xml:id="TAca84-d1e1613-Rd1e1094">Augustinus dicit, in quadam homilia</ref>, et habetur
+<ref xml:id="TAca84-d1e1613-Rd1e1096">XIV, qu. v.</ref>: <quote xml:id="TAca84-d1e1613-Qd1e1098">Si quid invenisti et non reddidisti;
+<lb ed="#L" n="82"/>rapuisti</quote>.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1104">
+                  <lb ed="#L" n="83"/>AD TERTIUM DICENDUM quod ille qui furtim 
+acci<lb break="no" ed="#L" n="84"/>pit rem suam apud alium depositam, gravat 
+de<lb break="no" ed="#L" n="85"/>positarium: quia tenetur ad restituendum ?, vel
+<lb ed="#L" n="86"/>ad ostendendum se esse innoxium. Unde 
+ma<lb break="no" ed="#L" n="87"/>nifestum est quod peccat: et tenetur ad 
+relevan<lb break="no" ed="#L" n="88"/>dum gravamen depositarii. - Qui vero furtim
+<lb ed="#L" n="89"/>accipit rem suam apud alium iniuste detentam,
+<lb ed="#L" n="90"/>peccat quidem, non quia gravet eum qui detinet:
+<lb ed="#L" n="91"/>et ideo non tenetur ad restituendum aliquid vel ad
+<lb ed="#L" n="92"/>recompensandum: - sed peccat contra 
+commu<lb break="no" ed="#L" n="93"/>nem iustitiam, dum ipse sibi usurpat suae rei
+<lb ed="#L" n="94"/>iudicium, iuris ordine praetermisso. Et ideo 
+te<lb break="no" ed="#L" n="95"/>netur Deo satisfacere, et dare operam. ut 
+scan<lb break="no" ed="#L" n="96"/>dalum proximorum, si inde exortum fuetifgiem
+<lb ed="#L" n="97"/>detur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1613-Dd1e1140"><!-- p2p2-q66a6" -->
+               <head xml:id="TAca84-d1e1613-Hd1e1143">Articulus 6</head>
+               <head xml:id="TAca84-d1e1613-Hd1e1145" type="question-title">Utrum furtum sit peccatum mortale</head>
+               <p xml:id="TAca84-d1e1613-d1e1148">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="82" type="fixed=91"/>ARTICULUS SEXTUS
+<lb ed="#L" n="83"/>UTRUM FURTUM SIT PECCATUM MORTALE
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1157">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="84"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="85"/>furtum non sit peccatum mortale. 
+Di<lb break="no" ed="#L" n="86"/>citur enim Prov. vi*: Non grandis est
+<lb ed="#L" n="87"/>aculpae cum quis furatus fuerit. . Sed
+<lb ed="#L" n="88"/>omne peccatum mortale est grandis culpae. Ergo
+<lb ed="#L" n="89"/>furtum non est peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1175">
+                  <lb ed="#L" n="90"/>2. PRAETEREA, peccato mortali mortis poena 
+de<lb break="no" ed="#L" n="91"/>betur. Sed pro furto non infligitur in lege poena
+<lb ed="#L" n="92"/>mortis, sed solum poena damni: secundum illud
+<lb ed="#L" n="93"/>Exod. xxu: Si quis furatus fuerit. bovem aut
+<lb ed="#L" n="94"/>ovem, quinque boves pro uno bove restituet, et
+<lb ed="#L" n="95"/>quatuor oves pro una ove. Ergo furtum non est
+<lb ed="#L" n="96"/>peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1194">
+                  <lb ed="#L" n="97"/>3. PRAETEREA, furtum potest committi in parvis
+<lb ed="#L" n="98"/>rebus, sicut et in magnis. Sed inconveniens 
+vi<lb break="no" ed="#L" n="99"/>detur quod pro furto alicuius parvae rei, puta
+<lb ed="#L" n="100"/>unius acus vel unius pennae, aliquis puniatur
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="101"/>morte aeterna. Ergo furtum non est peccatum
+<lb ed="#L" n="102"/>mortale.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1212">
+                  <lb ed="#L" n="103"/>SED cONTRA EsT quod nullus damnatur 
+secun<lb break="no" ed="#L" n="104"/>dum divinum iudicium nisi pro peccato mortali.
+<lb ed="#L" n="105"/>Condemnatur autem aliquis pro furto: secundum
+<lb ed="#L" n="106"/>illud Zach. v: Haec est maledictio quae 
+egre<lb break="no" ed="#L" n="107"/>ditur super faciem omnis lerrae: quia omnis fur
+<lb ed="#L" n="108"/>sicut ibi scriptum est condemnatur. Ergo furtum
+<lb ed="#L" n="109"/>est peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1230">
+                  <lb ed="#L" n="110"/>REsPONDEO DICENDUM quod, sicut supra 
+habi<lb break="no" ed="#L" n="111"/>tum est, peccatum mortale est quod contrariatur
+<lb ed="#L" n="112"/>caritati, secundum quam est spiritualis animae
+<lb ed="#L" n="113"/>vita. Caritas autem consistit quidem principaliter
+<lb ed="#L" n="114"/>in dilectione Dei, secundario vero in dilectione
+<lb ed="#L" n="115"/>proximi, ad quam pertinet ut proximo bonum
+<lb ed="#L" n="116"/>velimus et operemur. Per furtum autem homo
+<lb ed="#L" n="117"/>infert nocumentum proximo in suis rebus: et si
+<pb ed="#L" n="92"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>passim homines sibi invicem furarentur, periret
+<lb ed="#L" n="2"/>humana societas. Unde furtum, tanquam 
+contra<lb break="no" ed="#L" n="3"/>rium caritati, est peccatum. mortale.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1261">
+                  <lb ed="#L" n="4"/>AD PRIMUM ERGO DICENDUM quod. furtum dicitur
+<lb ed="#L" n="5"/>non esse grandis culpae duplici ratione. ' Primo
+<lb ed="#L" n="6"/>quidem, propter necessitatem inducentem ad 
+fu<lb break="no" ed="#L" n="7"/>randum, quae diminuit vel totaliter tollit culpam,
+<lb ed="#L" n="8"/>ut infra patebit. Unde subdit: Furatur enim ut
+<lb ed="#L" n="9"/>esurientem impleat animam. — Alio modo dicitur
+<lb ed="#L" n="10"/>furtum non esse grandis culpae per 
+comparatio<lb break="no" ed="#L" n="11"/>nem ad reatum adulterii, quod punitur morte
+<lb ed="#L" n="12"/>Unde subditur de fure quod deprehensus 
+red<lb break="no" ed="#L" n="13"/>det septuplum : qui autem adulter est, perdet 
+ani<lb break="no" ed="#L" n="14"/>mam suam.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1287">
+                  <lb ed="#L" n="15"/>AD SECUNDUM DICENDUM quod poenae praesentis
+<lb ed="#L" n="16"/>vitae magis sunt medicinales quam retributivae:
+<lb ed="#L" n="17"/>retributio enim reservatur divino iudicio, quod est
+<lb ed="#L" n="18"/>secundum veritatem in peccantes. Et ideo 
+se<lb break="no" ed="#L" n="19"/>cundum iudicium praesentis vitae non pro 
+quo<lb break="no" ed="#L" n="20"/>libet peccato mortali infligitur poena mortis, sed
+<lb ed="#L" n="21"/>solum pro illis quae inferunt irreparabile nocu-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="22"/>mentum, vel etiam pro illis quae habent aliquam
+<lb ed="#L" n="23"/>horribilem deformitatem. Et ideo pro furto, quod
+<lb ed="#L" n="24"/>reparabile damnum infert, non infligitur 
+secun<lb break="no" ed="#L" n="25"/>dum praesens iudicium poena mortis, nisi 
+fur<lb break="no" ed="#L" n="26"/>tum aggravetur ? per aliquam gravem 
+circumstan<lb break="no" ed="#L" n="27"/>tiam: sicut patet de sacrilegio, quod est furtum
+<lb ed="#L" n="28"/>rei sacrae, et de peculatu, quod est furtum rei
+<lb ed="#L" n="29"/>communis, ut patet per Augustinum, super Zoan.*;.
+<lb ed="#L" n="30"/>et de plagio, quod est furtum hominis, pro quo
+<lb ed="#L" n="31"/>quis morte punitur, ut patet Exod. xxt.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1329">
+                  <lb ed="#L" n="32"/>AD TERTIUM DICENDUM quod illud quod modicum
+<lb ed="#L" n="33"/>est ratio apprehendit quasi nihil. ..Et ideo in. his
+<lb ed="#L" n="34"/>quae minima .sunt homo non reputat sibi 
+nocu<lb break="no" ed="#L" n="35"/>mentum inferri: et ille qui accipit potest 
+prae<lb break="no" ed="#L" n="36"/>sumere hoc non esse contra voluntatem eius
+<lb ed="#L" n="37"/>cuius est res. Et pro fanto si quis furtive 
+huius<lb break="no" ed="#L" n="38"/>modi res minimas accipiat, potest excusari a 
+pec<lb break="no" ed="#L" n="39"/>cato mortali. Si tamen habeat animum furandi
+<lb ed="#L" n="40"/>et inferendi nocumentum proximo, etiam in 
+tali<lb break="no" ed="#L" n="41"/>bus minimis potest esse peccatum mortale: sicut
+<lb ed="#L" n="42"/>et in solo cogitatu per consensum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1613-Dd1e1357"><!-- p2p2-q66a7" -->
+               <head xml:id="TAca84-d1e1613-Hd1e1360">Articulus 7</head>
+               <head xml:id="TAca84-d1e1613-Hd1e1362" type="question-title">Utrum liceat alicui furari propter necessitatem</head>
+               <p xml:id="TAca84-d1e1613-d1e1365">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="67" type="fixed=92"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="68"/>UTRUM LICEAT ALICUI FURARI PROPTER NECESSITATEM
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1374">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="69"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="70"/>non liceat alicui furari propter 
+neces<lb break="no" ed="#L" n="71"/>sitatem. Non enim imponitur 
+poeni<lb break="no" ed="#L" n="72"/>tentia nisi peccanti. Sed Extra, de 
+Fur<lb break="no" ed="#L" n="73"/>tis, - dicitur: S quis per necessitatem famis aul
+<lb ed="#L" n="74"/>nuditatis furatus fuerit cibaria, vestem vel pecus,
+<lb ed="#L" n="75"/>poeniteat hebdomadas. tres. Ergo non licet furari
+<lb ed="#L" n="76"/>propter. necessitatem.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1396">
+                  <lb ed="#L" n="77"/>2. PRAETEREA, Philosophus dicit, in II Ethic.,
+<lb ed="#L" n="78"/>quod quaedam confestim nominata convoluta sunt
+<lb ed="#L" n="79"/>cum malitia, inter quae- ponit furtum. Sed illud
+<lb ed="#L" n="80"/>quod est secundum se malum non potest propter
+<lb ed="#L" n="81"/>aliquem. bonum finem. bonum fieri. Ergo non
+<lb ed="#L" n="82"/>potest aliquis licite furari ut necessitati suae 
+sub<lb break="no" ed="#L" n="83"/>veniat.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1415">
+                  <lb ed="#L" n="84"/>3. PRAETEREA, homo debet diligere proximum
+<lb ed="#L" n="85"/>sicut seipsum. Sed non licet furari ad hoc quod
+<lb ed="#L" n="86"/>aliquis per eleemosynam proximo subveniat; ut
+<lb ed="#L" n="87"/>Augustinus dicit, in libro Contra Mendacium.
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="88"/>Ergo etiam non licet furari ad subvenit
+<lb ed="#L" n="89"/>propriae necessitati. j
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1433">
+                  <lb ed="#L" n="90"/>SEp coNTRA Esr quod in necessitate sunt om
+<lb ed="#L" n="91"/>communia. Et ita non videtur esse. peccatum :
+<lb ed="#L" n="92"/>aliquis rem alterius accipiat, propter necessitatem
+<lb ed="#L" n="93"/>sibi factam communem. mUTMI
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1444">
+                  <lb ed="#L" n="94"/>RESPONDEO DICENDUM quod ea quae sunt iuris
+<lb ed="#L" n="95"/>humani non possunt derogare iuri naturali vel
+<lb ed="#L" n="96"/>iuri divino. Secundum autem naturalem ordinem
+<lb ed="#L" n="97"/>ex divina. providentia institutum , res inferiores
+<lb ed="#L" n="98"/>sunt ordinatae ad hoc quod ex his. subveniatur
+<lb ed="#L" n="99"/>hominum necessitati. Et ideo' per rerum 
+divisio<lb break="no" ed="#L" n="100"/>nem et appropriationem, de iure humano 
+pro<lb break="no" ed="#L" n="101"/>cedentem, non impeditur quin hominis 
+necessi<lb break="no" ed="#L" n="102"/>tati. sit subveniendum ex huiusmodi rebus. Et
+<lb ed="#L" n="103"/>ideo res quas aliqui superabundanter habent, ex
+<lb ed="#L" n="104"/>naturali iure debentur pauperum:  sustentationi.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1470">
+                  <lb ed="#L" n="105"/>Unde Ambrosius dicit, et habetur in <quote xml:id="TAca84-d1e1613-Qd1e1474">Decretis,
+<lb ed="#L" n="106"/>dist. XLVII</quote>: <quote xml:id="TAca84-d1e1613-Qd1e1479">Esurientium panis est quem tu de- 
+<pb ed="#L" n="93"/>
+                     <cb ed="#L" n="a"/>
+                     <lb ed="#L" n="1"/>tines; nudorum indumentum est quod tu recludis;
+<lb ed="#L" n="2"/>miserorum redemptio et absolutio est pecunia quam
+<lb ed="#L" n="3"/>tu in terram defodis</quote>. Sed quia multi sunt 
+neces<lb break="no" ed="#L" n="4"/>sitatem patientes, et non potest ex eadem re 
+omni<lb break="no" ed="#L" n="5"/>bus subveniri, committitur arbitrio uniuscuiusque
+<lb ed="#L" n="6"/>dispensatio propriarum rerum, ut ex eis subveniat
+<lb ed="#L" n="7"/>necessitatem patientibus. Si tamen adeo sit urgens
+<lb ed="#L" n="8"/>et evidens necessitas ut manifestum sit instanti
+<lb ed="#L" n="9"/>ad necessitati de rebus occurrentibus esse 
+subve<lb break="no" ed="#L" n="10"/>niendum, puta cum imminet personae periculum
+<lb ed="#L" n="11"/>et aliter subveniri non potest; tunc licite potest
+<lb ed="#L" n="12"/>aliquis ex rebus alienis suae necessitati subvenire,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="13"/>sive manifeste sive occulte sublatis. Nec hoc 
+pro<lb break="no" ed="#L" n="14"/>prie habet rationem furti vel rapinae.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1519">
+                  <lb ed="#L" n="15"/>AD PRIMUM ERGO DICENDUM quod decretalis illa
+<lb ed="#L" n="16"/>loquitur in casu in quo non est urgens necessitas.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1526">
+                  <lb ed="#L" n="17"/>AD SECUNDUM DICENDUM quod uti re aliena 
+oc<lb break="no" ed="#L" n="18"/>culte accepta in casu necessitatis extremae non
+<lb ed="#L" n="19"/>habet rationem furti, proprie loquendo. Quia
+<lb ed="#L" n="20"/>per talem necessitatem efficitur suum illud quod
+<lb ed="#L" n="21"/>quis accipit ad sustentandam propriam vitam.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1540">
+                  <lb ed="#L" n="22"/>AD TERTIUM DICENDUM quod in casu similis 
+ne<lb break="no" ed="#L" n="23"/>cessitatis etiam potest aliquis occulte rem alienam
+<lb ed="#L" n="24"/>accipere ut subveniat proximo sic indigenti.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1613-Dd1e1550"><!-- p2p2-q66a8" -->
+               <head xml:id="TAca84-d1e1613-Hd1e1553">Articulus 8</head>
+               <head xml:id="TAca84-d1e1613-Hd1e1555" type="question-title">Utrum rapina possit fieri sine peccato</head>
+               <p xml:id="TAca84-d1e1613-d1e1558">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="60" type="fixed=93"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="61"/>UTRUM RAPINA POSSIT FIERI SINE PECCATO
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1567">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="62"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="63"/>rapina possit fieri sine picti Praeda
+<lb ed="#L" n="64"/>enim per violentiam accipitur; quod 
+vi<lb break="no" ed="#L" n="65"/>detur ad rationem rapinae pertinere,
+<lb ed="#L" n="66"/>secundum praedicta. Sed praedam accipere ab
+<lb ed="#L" n="67"/>hostibus licitum est: dicit enim Ambrosius, in
+<lb ed="#L" n="68"/>libro de Patriarchis: Cum praeda fuerit in 
+po<lb break="no" ed="#L" n="69"/>testate victoris, decet militarem disciplinam ut regi
+<lb ed="#L" n="70"/>serventur omnia, scilicet ad distribuendum. Ergo
+<lb ed="#L" n="71"/>rapina in aliquo casu est licita.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1593">
+                  <lb ed="#L" n="72"/>2. PRAETEREA, licitum est auferre ab aliquo id
+<lb ed="#L" n="73"/>quod non est eius. Sed res quas infideles habent
+<lb ed="#L" n="74"/>non sunt eorum: dicit enim Augustinus, in 
+epi<lb break="no" ed="#L" n="75"/>stola ad Vinc. Donatist.: Res falso appellatis
+<lb ed="#L" n="76"/>vestras, quas nec iuste possidetis, et secundum
+<lb ed="#L" n="77"/>leges terrenorum regum amittere iussi estis. Ergo
+<lb ed="#L" n="78"/>videtur quod ab infidelibus aliquis licite rapere
+<lb ed="#L" n="79"/>posset.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1614">
+                  <lb ed="#L" n="80"/>2. PRAETEREA, terrarum principes multa a suis
+<lb ed="#L" n="81"/>subditis violenter extorquent; quod videtur ad
+<lb ed="#L" n="82"/>rationem rapinae pertinere. Grave autem videtur
+<lb ed="#L" n="83"/>dicere quod in hoc peccent: quia sic fere omnes
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="84"/>principes damnarentur. Ergo rapina in aliquo
+<lb ed="#L" n="85"/>casu est licita.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1632">
+                  <lb ed="#L" n="86"/>SED CONTRA EST quod de quolibet licite accepto
+<lb ed="#L" n="87"/>potest fieri Deo sacrificium vel oblatio. Non 
+au<lb break="no" ed="#L" n="88"/>tem potest fieri de rapina: secundum illud 
+Isa<lb break="no" ed="#L" n="89"/>iae Lxi: Ego Dominus diligens iudicium, et ves. s.
+<lb ed="#L" n="90"/>odio habens rapinam in holocaustum. Ergo per
+<lb ed="#L" n="91"/>rapinam aliquid accipere non est licitum.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1648">
+                  <lb ed="#L" n="92"/>RESPONDEO DICENDUM quod rapina quandam 
+vio<lb break="no" ed="#L" n="93"/>lentiam et coactionem importat per quam, contra
+<lb ed="#L" n="94"/>iustitiam, alicui aufertur quod suum est. In 
+so<lb break="no" ed="#L" n="95"/>cietate autem hominum nullus habet coactionem
+<lb ed="#L" n="96"/>nisi per publicam potestatem. Et ideo quicumque
+<lb ed="#L" n="97"/>per violentiam aliquid alteri aufert, si sit privata
+<lb ed="#L" n="98"/>persona non utens publica potestate, illicite agit
+<lb ed="#L" n="99"/>et rapinam committit: sicut patet in latronibus.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1668">
+                  <lb ed="#L" n="100"/>Principibus vero publica potestas committitur
+<lb ed="#L" n="101"/>ad hoc quod sint iustitiae custodes. Et ideo
+<lb ed="#L" n="102"/>non licet eis violentia et coactione uti nisi 
+se<lb break="no" ed="#L" n="103"/>cundum iustitiae tenorem: et hoc vel contra
+<lb ed="#L" n="104"/>hostes pugnando, vel contra cives malefactores
+<lb ed="#L" n="105"/>puniendo. Et quod per talem violentiam aufertur
+<pb ed="#L" n="94"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>non habet rationem rapinae: cum non sit contra
+<lb ed="#L" n="2"/>iustitiam. Si vero contra iustitiam aliqui per 
+pu<lb break="no" ed="#L" n="3"/>blicam potestatem violenter abstulerint res 
+alio<lb break="no" ed="#L" n="4"/>rum, illicite agunt et rapinam committunt, et ad
+<lb ed="#L" n="5"/>restitutionem tenentur.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1699">
+                  <lb ed="#L" n="6"/>Ap PRIMUM ERGO DICENDUM quod circa praedam
+<lb ed="#L" n="7"/>distinguendum est. Quia si illi qui depraedantur
+<lb ed="#L" n="8"/>hostes habeant bellum iustum, ea quae per 
+vio<lb break="no" ed="#L" n="9"/>lentiam in bello acquirunt eorum efficiuntur. Et
+<lb ed="#L" n="10"/>hoc non habet rationem rapinae: unde nec ad
+<lb ed="#L" n="11"/>restitutionem tenentur. Quamvis possint in 
+acce<lb break="no" ed="#L" n="12"/>ptione praedae iustum bellum habentes peccare
+<lb ed="#L" n="13"/>per cupiditatem ex prava intentione, si scilicet
+<lb ed="#L" n="14"/>non propter iustitiam, sed propter praedam 
+prin<lb break="no" ed="#L" n="15"/>cipaliter pugnent: dicit enim Augustinus, in libro
+<lb ed="#L" n="16"/>de Verb. Dom., quod propter praedam militare
+<lb ed="#L" n="17"/>peccatum est. - Si vero illi qui praedam accipiunt
+<lb ed="#L" n="18"/>habeant bellum iniustum, rapinam committunt,
+<lb ed="#L" n="19"/>et ad restitutionem tenentur.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1732">
+                  <lb ed="#L" n="20"/>AD SECUNDUM DICENDUM quod intantum aliqui
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="21"/>infideles iniuste res suas possident, inquantum
+<lb ed="#L" n="22"/>eas secundum leges terrenorum principum. 
+amit<lb break="no" ed="#L" n="23"/>lere iussi sunt. Et ideo ab eis possunt per 
+vio<lb break="no" ed="#L" n="24"/>lentiam subtrahi, non privata auctoritate, sed
+<lb ed="#L" n="25"/>publica.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1751">
+                  <lb ed="#L" n="26"/>AD TERTIUM DICENDUM quod si principes a 
+sub<lb break="no" ed="#L" n="27"/>ditis exigant quod eis secundum iustitiam debetur
+<lb ed="#L" n="28"/>propter bonum commune conservandum, etiam
+<lb ed="#L" n="29"/>si violentia adhibeatur, non est rapina. - Si vero
+<lb ed="#L" n="30"/>aliquid principes indebite extorqueant per 
+vio<lb break="no" ed="#L" n="31"/>lentiam, rapina est, sicut et latrocinium. . Unde
+<lb ed="#L" n="32"/>dicit Augustinus, in IV de Civ. Dei: Remota
+<lb ed="#L" n="33"/>iustitia, quid sunt regna nisi magna latrocinia?
+<lb ed="#L" n="34"/>Quia et latrocinia quid sunt nisi parva regna?
+<lb ed="#L" n="35"/>Et Ezech. xxi dicitur: Principes eius in medio
+<lb ed="#L" n="36"/>eius quasi lupi rapientes praedam. Unde et ad
+<lb ed="#L" n="37"/>restitutionem tenentur, sicut et latrones. Et tanto
+<lb ed="#L" n="38"/>gravius peccant quam latrones, quanto 
+pericu<lb break="no" ed="#L" n="39"/>losius et communius contra publicam iustitiam
+<lb ed="#L" n="40"/>agunt, cuius custodes sunt positi.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1613-Dd1e1787"><!-- p2p2-q66a9" -->
+               <head xml:id="TAca84-d1e1613-Hd1e1790">Articulus 9</head>
+               <head xml:id="TAca84-d1e1613-Hd1e1792" type="question-title">Utrum furtum sit gravius peccatum quam rapina</head>
+               <p xml:id="TAca84-d1e1613-d1e1795">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="49" type="fixed=95"/>ARTICULUS NONUS
+<lb ed="#L" n="50"/>UTRUM FURTUM SIT GRAVIUS PECCATUM QUAM RAPINA
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1804">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="51"/>AD NONUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="52"/>furtum sit gravius peccatum quam 
+ra<lb break="no" ed="#L" n="53"/>pina. Furtum enim, super acceptionem
+<lb ed="#L" n="54"/>Rae ei alienae, habet adiunctam fraudem
+<lb ed="#L" n="55"/>et dolum, quod non est in rapina. Sed fraus et
+<lb ed="#L" n="56"/>dolus de se habent rationem peccati, ut supra
+<lb ed="#L" n="57"/>habitum est. Ergo furtum videtur esse ^ gravius
+<lb ed="#L" n="58"/>pasooturn quam rapina.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1826">
+                  <lb ed="#L" n="59"/>2. PRAETEREA, verecundia est timor de turpi
+<lb ed="#L" n="60"/>actu, ut dicitur in IV. Ethic. Sed magis 
+vere<lb break="no" ed="#L" n="61"/>cundantur homines de furto quam de rapina.
+<lb ed="#L" n="62"/>Ergo furtum est turpius quam rapina.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1838">
+                  <lb ed="#L" n="63"/>3. PRAETEREA, quanto aliquod peccatum 
+plu<lb break="no" ed="#L" n="64"/>ribus nocet, tanto gravius esse videtur. Sed per
+<lb ed="#L" n="65"/>furtum potest nocumentum inferri et magnis et
+<lb ed="#L" n="66"/>parvis: per rapinam autem solum ? impotentibus,
+<lb ed="#L" n="67"/>quibus potest violentia inferri. Ergo gravius 
+vi<lb break="no" ed="#L" n="68"/>detur esse peccatum furti quam rapinae.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1854">
+                  <lb ed="#L" n="69"/>SED CONTRA EST quod secundum leges gravius
+<lb ed="#L" n="70"/>pusitut rapina quam furtum.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1861">
+                  <lb ed="#L" n="71"/>RESPONDEO DICENDUM quod rapina et furtum 
+ha<lb break="no" ed="#L" n="72"/>bent rationem peccati, sicut supra dictum est,
+<lb ed="#L" n="73"/>propter involuntarium quod est ex parte eius cui
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="74"/>aliquid aufertur; ita tamen quod in furto est 
+in<lb break="no" ed="#L" n="75"/>voluntarium per ignorantiam, in rapina autem
+<lb ed="#L" n="76"/>involuntarium per violentiam. Magis est autem
+<lb ed="#L" n="77"/>aliquid involuntarium per violentiam quam per
+<lb ed="#L" n="78"/>ignorantiam: quia violentia directius opponitur
+<lb ed="#L" n="79"/>voluntati quam ignorantia. Et ideo rapina est
+<lb ed="#L" n="80"/>gravius peccatum quam furtum.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1887">
+                  <lb ed="#L" n="81"/>Est et alia ratio. Quia per rapinam non solum
+<lb ed="#L" n="82"/>infertur alicui damnum in rebus, sed etiam vergit
+<lb ed="#L" n="83"/>in quandam personae ignominiam sive iniuriam.
+<lb ed="#L" n="84"/>Et hoc praeponderat fraudi vel dolo, quae 
+per<lb break="no" ed="#L" n="85"/>tinent ad furtum.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1900">
+                  <lb ed="#L" n="86"/>Unde patet responsio ad primum.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1905">
+                  <lb ed="#L" n="87"/>AD SECUNDUM DICENDUM quod homines 
+sensibi<lb break="no" ed="#L" n="88"/>libus inhaerentes magis gloriantur de virtute 
+ex<lb break="no" ed="#L" n="89"/>teriori, quae manifestatur in rapina, quam de 
+vir<lb break="no" ed="#L" n="90"/>tute interiori, quae tollitur per peccatum. Et ideo
+<lb ed="#L" n="91"/>minus verecundantur de rapina quam de furto.
+</p>
+               <p xml:id="TAca84-d1e1613-d1e1919">
+                  <lb ed="#L" n="92"/>AD TERTIUM DICENDUM quod licet pluribus possit
+<lb ed="#L" n="93"/>noceri per furtum quam per rapinam, tamen 
+gra<lb break="no" ed="#L" n="94"/>viora nocumenta possunt inferri per rapinam
+<lb ed="#L" n="95"/>quam per furtum. Unde ex hoc etiam rapina est
+<lb ed="#L" n="96"/>detestabilior.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

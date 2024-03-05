@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 64</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 64</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="67"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1603"><!-- p2p2-q64" -->
+            <head xml:id="TAca84-d1e1603-Hd1e101">Quaestio 64</head>
+            <head xml:id="TAca84-d1e1603-Hd1e103" type="question-title">De homicidio</head>
+            <p xml:id="TAca84-d1e1603-d1e106">
+               <pb ed="#L" n="67"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=67"/>QUAESTIO SEXAGESIMAQUARTA
+<lb ed="#L" n="2"/>DE HOMICIDIO
+<lb ed="#L" n="3"/>IN OCTO ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1603-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de vitiis oppositis
+<lb ed="#L" n="5"/>commutativae iustitiae. Et primo 
+conside<lb break="no" ed="#L" n="6"/>randum est de peccatis quae committuntur circa
+<lb ed="#L" n="7"/>involuntarias commutationes; secundo, de 
+pecca<lb break="no" ed="#L" n="8"/>tis quae committuntur circa commutationes 
+vo<lb break="no" ed="#L" n="9"/>luntarias. Committuntur autem peccata circa
+<lb ed="#L" n="10"/>involuntarias commutationes per hoc quod 
+ali<lb break="no" ed="#L" n="11"/>quod nocumentum proximo infertur contra eius
+<lb ed="#L" n="12"/>voluntatem : quod quidem potest fieri dupliciter,
+<lb ed="#L" n="13"/>Scilicet facto, et verbo. Facto quidem, cum 
+pro<lb break="no" ed="#L" n="14"/>ximus laeditur vel in persona propria; vel in 
+per<lb break="no" ed="#L" n="15"/>sona coniuifcta; vel in propriis rebus. De his
+<lb ed="#L" n="16"/>ergo per ordinem considerandum est. Et primo,
+<lb ed="#L" n="17"/>de homicidio, per quod maxime nocetur proximo.
+</p>
+            <p xml:id="TAca84-d1e1603-d1e154">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="18"/>Et circa hoc quaeruntur octo.
+<lb ed="#L" n="19"/>Primo: utrum occidere animalia bruta, vel
+<lb ed="#L" n="20"/>etiam plantas, sit peccatum.
+<lb ed="#L" n="21"/>Secundo: utrum occidere peccatorem sit 
+li<lb break="no" ed="#L" n="22"/>citum.
+<lb ed="#L" n="23"/>Tertio: utrum hoc liceat privatae personae,
+<lb ed="#L" n="24"/>vel solum publicae.
+<lb ed="#L" n="25"/>Quarto: utrum hoc liceat clerico.
+<lb ed="#L" n="26"/>Quinto: utrum liceat alicui occidere seipsum.
+<lb ed="#L" n="27"/>Sexto: utrum liceat occidere hominem iustum.
+<lb ed="#L" n="28"/>Septimo: utrum liceat alicui occidere 
+homi<lb break="no" ed="#L" n="29"/>nem seipsum defendendo.
+<lb ed="#L" n="30"/>Octavo: utrum homicidium casuale sit 
+pecca<lb break="no" ed="#L" n="31"/>tum mortale.
+</p>
+            <div xml:id="TAca84-d1e1603-Dd1e190"><!-- p2p2-q64a1" -->
+               <head xml:id="TAca84-d1e1603-Hd1e193">Articulus 1</head>
+               <head xml:id="TAca84-d1e1603-Hd1e195" type="question-title">Utrum occidere quaecumque viventia sit illicitum</head>
+               <p xml:id="TAca84-d1e1603-d1e198">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="32" type="fixed=67"/>ARTICULUS PRIMUS
+<lb ed="#L" n="33"/>UTRUM OCCIDERE QUAECUMQUE VIVENTIA SIT ILLICITUM
+</p>
+               <p xml:id="TAca84-d1e1603-d1e207">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="34"/>AD PRIMUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="35"/>occidere quaecumque viventia sit 
+illici<lb break="no" ed="#L" n="36"/>tum. Dicit enim <ref xml:id="TAca84-d1e1603-Rd1e217">Apostolus, ad Rom.
+<lb ed="#L" n="37"/>XIII</ref>: Qui ordinationi Dei resistit, ipse
+<lb ed="#L" n="38"/>sibi damnationem acquirit. Sed per 
+ordinatio<lb break="no" ed="#L" n="39"/>nem divinae providentiae omnia viventia 
+conser<lb break="no" ed="#L" n="40"/>vantur: secundum illud Psalm.: Qui producit
+<lb ed="#L" n="41"/>in montibus faenum, et dat iumentis escam 
+ipso<lb break="no" ed="#L" n="42"/>rum. Ergo mortificare quaecumque viventia 
+vi<lb break="no" ed="#L" n="43"/>detur esse illicitum.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e236">
+                  <lb ed="#L" n="44"/>2. PRAETEREA, homicidium est peccatum ex eo
+<lb ed="#L" n="45"/>quod homo privatur vita. Sed vita communis
+<lb ed="#L" n="46"/>est omnibus animalibus et plantis. Ergo eadem
+<lb ed="#L" n="47"/>ratione videtur esse peccatum occidere bruta 
+ani<lb break="no" ed="#L" n="48"/>malia et plantas.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e250">
+                  <lb ed="#L" n="49"/>3. PRAETEREA, in lege divina non determinatur
+<lb ed="#L" n="50"/>specialis poena nisi peccato P. Sed occidenti ovem
+<lb ed="#L" n="51"/>vel bovem alterius. statuitur poena determinata
+<lb ed="#L" n="52"/>in lege divina, ut patet Exod. xxi. Ergo 
+occi<lb break="no" ed="#L" n="53"/>sio brutorum animalium est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e263">
+                  <lb ed="#L" n="54"/>SED cowTRa EsT quod Augustinus dicit, in I de
+<lb ed="#L" n="55"/>Civ. Dei:: Cum audimus, Non occides, non 
+acci<lb break="no" ed="#L" n="56"/>pimus hoc dictum esse de fructetis, quia nullus
+<lb ed="#L" n="57"/>eis est sensus: nec: de irrationalibus. animalibus ,
+<lb ed="#L" n="58"/>quia nulla nobis ratione sociantur. Restat ergo
+<lb ed="#L" n="59"/>ut de homine intelligamus quod dictum est, .Non
+<lb ed="#L" n="60"/>occides.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e281">
+                  <lb ed="#L" n="61"/>ResPoNDEO DICENDUM quod nullus peccat ex hoc
+<lb ed="#L" n="62"/>quod utitur re aliqua ad hoc ad quod est. In
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="63"/>rerum autem ordine imperfectiora sunt propter
+<lb ed="#L" n="64"/>perfectiora: sicut etiam in generationis via 
+na<lb break="no" ed="#L" n="65"/>tura ab imperfectis ad perfecta procedit. Et inde
+<lb ed="#L" n="66"/>est quod sicut in generatione hominis prius est
+<lb ed="#L" n="67"/>vivum, deinde animal, ultimo autem homo; ita
+<lb ed="#L" n="68"/>etiam ea quae tantum vivunt, ut plantae, sunt
+<lb ed="#L" n="69"/>communiter propter omnia animalia, et Y 
+anima<lb break="no" ed="#L" n="70"/>lia sunt propter hominem. Et ideo si homo 
+uta<lb break="no" ed="#L" n="71"/>tur plantis ad utilitatem animalium, et 
+animali<lb break="no" ed="#L" n="72"/>bus ad utilitatem hominum ?, non est illicitum:
+<lb ed="#L" n="73"/>ut etiam per Philosophum patet, in I Polit. Inter
+<lb ed="#L" n="74"/>alios autem usus maxime necessarius esse 
+vi<lb break="no" ed="#L" n="75"/>detur ut animalia plantis utantur in cibum, et
+<lb ed="#L" n="76"/>homines animalibus: quod sine mortificatione
+<lb ed="#L" n="77"/>eorum fieri non potest. Et ideo licitum est et
+<lb ed="#L" n="78"/>plantas mortificare in usum animalium, et 
+ani<lb break="no" ed="#L" n="79"/>malia in usum hominum, ex ipsa ordinatione 
+di<lb break="no" ed="#L" n="80"/>vina: dicitur enim Gen. 1: Ecce, dedi vobis
+<lb ed="#L" n="81"/>omnem herbam et universa ligna, ww sint. vobis
+<lb ed="#L" n="82"/>in escam et cunctis animantibus. Et Gen. ix
+<lb ed="#L" n="83"/>dicitur: Omne quod movetur et vivit, erit vobis
+<lb ed="#L" n="84"/>in cibum.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e338">
+                  <lb ed="#L" n="85"/>AD PRIMUM ERGO DICENDUM quod ex ordinatione
+<lb ed="#L" n="86"/>divina conservatur vita animalium et plantarum
+<lb ed="#L" n="87"/>non propter seipsam, sed propter hominem. Unde
+<lb ed="#L" n="88"/>ut Augustinus dicit, in 1 de Civ. Dei, iustissima
+<lb ed="#L" n="89"/>ordinatione Creatoris et vita et mors eorum 
+no<lb break="no" ed="#L" n="90"/>stris usibus subditur.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e354">
+                  <lb ed="#L" n="91"/>AD SECUNDUM DICENDUM quod animalia bruta et
+<pb ed="#L" n="68"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>plantae non habent vitam rationalem, per quam  
+<lb ed="#L" n="2"/>a seipsis agantur, sed semper aguntur quasi ab  
+<lb ed="#L" n="3"/>alio, naturali quodam. impulsu. Et hoc est 
+si<lb break="no" ed="#L" n="4"/>gnum quod sunt naturaliter serya, et aliorum 
+<lb ed="#L" n="5"/>usibus accommodata. 
+</p>
+               <p xml:id="TAca84-d1e1603-d1e374">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="6"/>AD TERTIUM DICENDUM quod ille qui occidit 
+bo<lb break="no" ed="#L" n="7"/>vem alterius peccat quidem, non quia occidit 
+<lb ed="#L" n="8"/>bovem, sed quia damnificat hominem in re sua.
+<lb ed="#L" n="9"/>Unde non continetur sub peccato homicidii, sed
+<lb ed="#L" n="10"/>Sub peccato furti vel rapinae.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1603-Dd1e391"><!-- p2p2-q64a2" -->
+               <head xml:id="TAca84-d1e1603-Hd1e394">Articulus 2</head>
+               <head xml:id="TAca84-d1e1603-Hd1e396" type="question-title">Utrum sit licitum occidere homines peccatores</head>
+               <p xml:id="TAca84-d1e1603-d1e399">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="11" type="fixed=68"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="12"/>UTRUM SIT LICITUM OCCIDERE HOMINES PECCATORES
+</p>
+               <p xml:id="TAca84-d1e1603-d1e408">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="13"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="14"/>non sit licitum occidere homines 
+pec<lb break="no" ed="#L" n="15"/>catores. Dominus enim, Matth. xii, in
+<lb ed="#L" n="16"/>parabola, prohibuit extitpare zizania ^,
+<lb ed="#L" n="17"/>qui sunt filii nequam , ut ibidem dicitur. Sed
+<lb ed="#L" n="18"/>omne quod est prohibitum a Deo est peccatum.
+<lb ed="#L" n="19"/>Ergo occidere peccatorem est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e428">
+                  <lb ed="#L" n="20"/>2. PRAETEREA, iustitia humana conformatur 
+iu<lb break="no" ed="#L" n="21"/>stitiae divinae. Sed secundum divinam iustitiam
+<lb ed="#L" n="22"/>peccatores ad poenitentiam reservantur: 
+secun<lb break="no" ed="#L" n="23"/>dum illud Exech. xvuu: Nolo mortem. 
+peccato<lb break="no" ed="#L" n="24"/>ris, sed ut ? convertatur et vivat. Ergo videtur
+<lb ed="#L" n="25"/>esse omnino iniustum quod peccatores occidantur.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e445">
+                  <lb ed="#L" n="26"/>3. PRAETEREA, illud quod est secundum se 
+ma<lb break="no" ed="#L" n="27"/>lum nullo bono fine fieri licet: ut patet per 
+Augu<lb break="no" ed="#L" n="28"/>stinum, in libro Contra Mendacium, et per 
+Phi<lb break="no" ed="#L" n="29"/>losophum, in IL .Ethic. Sed occidere hominem 
+<lb ed="#L" n="30"/>secundum se est malum: quia ad omnes 
+homi<lb break="no" ed="#L" n="31"/>nes debemus caritatem habere; amicos autem  
+<lb ed="#L" n="32"/>volumus vivere et esse, ut dicitur in IX Ethic.
+<lb ed="#L" n="33"/>Ergo nullo modo licet "hominem peccatorem; 
+in<lb break="no" ed="#L" n="34"/>terficere.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e467">
+                  <lb ed="#L" n="35"/>SED CONTRA EST quod dicitur Exod. xxu: 
+Ma<lb break="no" ed="#L" n="36"/>leficos non palieris vivere; et in Psalm.: n
+<lb ed="#L" n="37"/>malulino interficiebam omnes peccatores terrae.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e476">
+                  <lb ed="#L" n="38"/>RrEsPONDEO DICENDUM quod, sicut dictum. est,
+<lb ed="#L" n="39"/>licitum est occidere animalia bruta inquantum
+<lb ed="#L" n="40"/>ordinantur naturaliter ad. hominum usum, sicut
+<lb ed="#L" n="41"/>imperfectum ordinatur ad perfectum. Omnis 
+au<lb break="no" ed="#L" n="42"/>tem pars ordinatur ad totum ut imperfectum ad
+<lb ed="#L" n="43"/>perfectum. Et ideo omnis pars naturaliter est
+<lb ed="#L" n="44"/>propter totum. Et. propter hoc videmus quod si
+<lb ed="#L" n="45"/>saluti totius corporis humani expediat praecisio
+<lb ed="#L" n="46"/>alicuius membri, puta cum est putridum et
+<lb ed="#L" n="47"/>corruptivum aliorum, laudabiliter. et. salubriter
+<lb ed="#L" n="48"/>abscinditur. Quaelibet autem. persona singularis
+<lb ed="#L" n="49"/>comparatur ad totam communitatem sicut pars
+<lb ed="#L" n="50"/>ad totum. Et ideo si aliquis homo sit 
+periculo<lb break="no" ed="#L" n="51"/>sus communitati et corruptivus ipsius propter
+<lb ed="#L" n="52"/>aliquod peccatum, laudabiliter et salubriter 
+occidi<lb break="no" ed="#L" n="53"/>tur, ut bonum commune conservetur: modicum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="54"/>enim fermentum. totam, massam. corrumpit, ut 
+di<lb break="no" ed="#L" n="55"/>citur L ad. Cor. v.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e520">
+                  <lb ed="#L" n="56"/>AD PRIMUM ERGO DICENDUM quod Dominus 
+absti<lb break="no" ed="#L" n="57"/>nendum mandavit ab eradicatione zizaniorum
+<lb ed="#L" n="58"/>ut tritico parceretur, idest bonis. Quod quidem
+<lb ed="#L" n="59"/>fit quando non possunt occidi mali quin simul
+<lb ed="#L" n="60"/>occidantur et boni: vel quia latent inter bonos;
+<lb ed="#L" n="61"/>vel quia habent multos sequaces, ita quod sine
+<lb ed="#L" n="62"/>bonorum periculo interfici non possunt; ut 
+Au<lb break="no" ed="#L" n="63"/>gustinus dicit, Contra Parmen. Unde Dominus
+<lb ed="#L" n="64"/>docet magis esse sinendum malos vivere, et 
+ultio<lb break="no" ed="#L" n="65"/>nem reservandum ^ usque ad extremum iudicium,
+<lb ed="#L" n="66"/>quam quod boni simul occidantur. - Quando vero
+<lb ed="#L" n="67"/>ex occisione malorum non imminet periculum 
+bo<lb break="no" ed="#L" n="68"/>nis, sed magis tutela et salus, tunc licite possunt
+<lb ed="#L" n="69"/>mali occidi.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e553">
+                  <lb ed="#L" n="70"/>AD SECUNDUM DICENDUM quod Deus, secundum
+<lb ed="#L" n="71"/>ordinem suae sapientiae, quandoque statim. 
+pec<lb break="no" ed="#L" n="72"/>catores occidit, ad liberationem bonorum ; 
+quan<lb break="no" ed="#L" n="73"/>doque autem eis poenitendi tempus concedit;
+<lb ed="#L" n="74"/>secundum quod ipse novit suis electis expedire.
+<lb ed="#L" n="75"/>Et hoc etiam humana iustitia imitatur pro posse:
+<lb ed="#L" n="76"/>illos enim qui sunt perniciosi in alios , occidit;
+<lb ed="#L" n="77"/>eos vero qui peccant aliis graviter non nocentes,
+<lb ed="#L" n="78"/>ad poenitentiam reservat. ab
+</p>
+               <p xml:id="TAca84-d1e1603-d1e575">
+                  <lb ed="#L" n="79"/>AD TERTIUM. DICENDUM quod homo: peccando ab
+<lb ed="#L" n="80"/>ordine rationis recedit: et ideo decidit a 
+digni<lb break="no" ed="#L" n="81"/>tate humana, prout scilicet homo est naturaliter
+<lb ed="#L" n="82"/>liber et propter seipsum existens, et incidit 
+quo<lb break="no" ed="#L" n="83"/>dammodo in servitutem bestiarum, ut scilicet de
+<lb ed="#L" n="84"/>ipso ordinetur secundum quod est utile aliis; 
+se<lb break="no" ed="#L" n="85"/>cundum illud Psalm.: Homo, cum in homore :P«xom, vers 1
+<lb ed="#L" n="86"/>esset, non intellexit: comparatus est iumentis 
+in<lb break="no" ed="#L" n="87"/>sipientibus, et similis factus est illis; et Prov. xi
+<lb ed="#L" n="88"/>dicitur: Qui stultus est serviet sapienti. Et ideo
+<lb ed="#L" n="89"/>quamvis hominem in sua dignitate manentem
+<lb ed="#L" n="90"/>occidere sit secundum se malum; tamen 
+homi<lb break="no" ed="#L" n="91"/>nem peccatorem occidere potest. esse bonum,
+<lb ed="#L" n="92"/>sicut occidere bestiam: peior enim. est malus
+<lb ed="#L" n="93"/>homo bestia, et plus nocet, ut Philosophus: 
+di<lb break="no" ed="#L" n="94"/>cit; in I Polit. et in. VII Ethic.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1603-Dd1e613"><!-- p2p2-q64a3" -->
+               <head xml:id="TAca84-d1e1603-Hd1e616">Articulus 3</head>
+               <head xml:id="TAca84-d1e1603-Hd1e618" type="question-title">Utrum occidere hominem peccatorem-liceat privatae. personae</head>
+               <p xml:id="TAca84-d1e1603-d1e621">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="79" type="fixed=69"/>ARTICULUS TERTIUS
+<lb ed="#L" n="80"/>UTRUM OCCIDERE HOMINEM PECCATOREM-LICEAT PRIVATAE. PERSONAE
+</p>
+               <p xml:id="TAca84-d1e1603-d1e630">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="81"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="82"/>occidere hominem peccatorem liceat 
+pri<lb break="no" ed="#L" n="83"/>vatae personae. In lege enim divina nihil
+<lb ed="#L" n="84"/>licitum mandatur. Sed Exod. xxxu
+<lb ed="#L" n="85"/>praecepit Moyses: Occidat unusquisque proximum
+<lb ed="#L" n="86"/>suum, fratrem et amicum. suum, pro peccato vituli
+<lb ed="#L" n="87"/>conflatilis. Ergo etiam privatis personis licet per
+<lb ed="#L" n="88"/>catorem occidere.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e652">
+                  <lb ed="#L" n="89"/>2. PRAETEREA, homo propter peccatum bestiis
+<lb ed="#L" n="90"/>comparatur, ut dictum est?. Sed occidere 
+be<lb break="no" ed="#L" n="91"/>stiam sylvestrem, maxime nocentem, cuilibet 
+pri<lb break="no" ed="#L" n="92"/>vatae personae licet. Ergo, pari ratione, occidere
+<lb ed="#L" n="93"/>hominem peccatorem.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e666">
+                  <lb ed="#L" n="94"/>3. PnAETEREA, laudabile est quod homo, etiam si
+<lb ed="#L" n="95"/>sit privata persona, operetur quod est utile bono
+<lb ed="#L" n="96"/>communi. Sed occisio maleficorum P est utilis
+<lb ed="#L" n="97"/>bono communi, ut dictum est. Ergo laudabile est
+<lb ed="#L" n="98"/>si etiam privatae personae malefactores occidant.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e679">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="99"/>SED coNTRA EsT quod Augustinus dicit, in 1 de
+<lb ed="#L" n="100"/>Qui sine aliqua publica 
+administra<lb break="no" ed="#L" n="101"/>lione maleficum.interfecerit Y, velut homicida 
+iu<lb break="no" ed="#L" n="102"/>dicabitur: et tanto amplius quanto sibi potestatem
+<lb ed="#L" n="103"/>Deo non concessam usurpare non timuit.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e695">
+                  <lb ed="#L" n="104"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="105"/>occidere malefactorem licitum est inquantum 
+or<lb break="no" ed="#L" n="106"/>dinatur ad salutem totius communitatis. Et ideo
+<lb ed="#L" n="107"/>ad illum solum pertinet cui committitur cura
+<lb ed="#L" n="108"/>communitatis conservandae: sicut ad medicum
+<lb ed="#L" n="109"/>pertinet praecidere membrum putridum quando
+<lb ed="#L" n="110"/>ei commissa fuerit cura salutis totius. corporis.
+<lb ed="#L" n="111"/>Cura autem communis boni commissa est 
+prin<lb break="no" ed="#L" n="112"/>cipibus habentibus publicam auctoritatem. Et
+<lb ed="#L" n="113"/>ideo eis solum licet malefactores occidere, non
+<lb ed="#L" n="114"/>autem privatis personis.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e721">
+                  <lb ed="#L" n="115"/>AD PRIMUM ERGO DICENDUM quod ille aliquid
+<lb ed="#L" n="116"/>facit cuius auctoritate fit: ut patet per Diony-
+<pb ed="#L" n="70"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>sium, xi cap. Cael. Hier. Et ideo, ut Augustinus
+<lb ed="#L" n="2"/>dicit, in I de Civ. Dei, non ipse occidit qui
+<lb ed="#L" n="3"/>ministerium debet ? iubenti sicut adminiculum 
+gla<lb break="no" ed="#L" n="4"/>dius utenti. Unde illi qui occiderunt proximos
+<lb ed="#L" n="5"/>et amicos ex mandato Domini, non hoc fecisse
+<lb ed="#L" n="6"/>ipsi videntur, sed potius ille cuius auctoritate 
+fe<lb break="no" ed="#L" n="7"/>cerunt: sicut et miles interficit hostem auctoritate
+<lb ed="#L" n="8"/>principis, et minister latronem auctoritate iudicis.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e750">
+                  <lb ed="#L" n="9"/>AD SECUNDUM DICENDUM quod bestia naturaliter
+<lb ed="#L" n="10"/>est distincta ab homine. Unde super hoc non 
+re<lb break="no" ed="#L" n="11"/>quiritur aliquod iudicium an sit occidenda, si sit
+<lb ed="#L" n="12"/>sylvestris. Si vero sit domestica, requiretur iu-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="13"/>dicium non propter ipsam, sed propter damnum
+<lb ed="#L" n="14"/>domini. Sed homo peccator non est naturaliter
+<lb ed="#L" n="15"/>distinctus ab hominibus iustis. Et ideo indiget
+<lb ed="#L" n="16"/>publico iudicio, ut discernatur an sit occidendus
+<lb ed="#L" n="17"/>propter communem salutem.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e774">
+                  <lb ed="#L" n="18"/>AD TERTIUM DICENDUM quod facere aliquid ad
+<lb ed="#L" n="19"/>utilitatem. communem quod nulli nocet, hoc est
+<lb ed="#L" n="20"/>licitum. cuilibet privatae personae. Sed si sit cum
+<lb ed="#L" n="21"/>nocumento alterius, hoc non debet fieri nisi 
+se<lb break="no" ed="#L" n="22"/>cundum iudicium eius ad quem pertinet 
+existi<lb break="no" ed="#L" n="23"/>mare quid sit subtrahendum partibus pro salute
+<lb ed="#L" n="24"/>totius.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1603-Dd1e793"><!-- p2p2-q64a4" -->
+               <head xml:id="TAca84-d1e1603-Hd1e796">Articulus 4</head>
+               <head xml:id="TAca84-d1e1603-Hd1e798" type="question-title">Utrum occidere malefactores liceat clericis</head>
+               <p xml:id="TAca84-d1e1603-d1e801">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80" type="fixed=70"/>ARTICULUS QUARTUS
+<lb ed="#L" n="81"/>UTRUM OCCIDERE MALEFACTORES LICEAT CLERICIS 
+</p>
+               <p xml:id="TAca84-d1e1603-d1e810">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="82"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="83"/>occidere malefactores liceat clericis. 
+Cle<lb break="no" ed="#L" n="84"/>rici enim praecipue debent implere quod
+<lb ed="#L" n="85"/>Apostolus dicit, I ad Cor. iv: 
+Imi<lb break="no" ed="#L" n="86"/>tatores mei estote, sicut et ego Christi: per quod
+<lb ed="#L" n="87"/>nobis indicitur ut Deum et sanctos eius 
+imite<lb break="no" ed="#L" n="88"/>mur. Sed ipse Deus, quem colimus, occidit 
+ma<lb break="no" ed="#L" n="89"/>lefactores: secundum illud Psalm.: Qui 
+per<lb break="no" ed="#L" n="90"/>cussil Aegyptum cum primogenilis eorum. Moyses
+<lb ed="#L" n="91"/>etiam a Levitis fecit interfici viginti tria millia
+<lb ed="#L" n="92"/>hominum. propter adorationem vituli, ut habetur
+<lb ed="#L" n="93"/>Exod. xxxi. Et Phinees, sacerdos, interfecit
+<lb ed="#L" n="94"/>Israelitem coeuntem cum Madianitide, ut habetur
+<lb ed="#L" n="95"/>Num. xxv. Samuel etiam interfecit Agag, regem
+<lb ed="#L" n="96"/>Amalec; et Elias sacerdotes Baal*; et Matha-
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="97"/>thias eum qui ad sacrificandum accesserat; et 'rMachab, cap.
+<lb ed="#L" n="98"/>in novo Testamento, Petrus Ananiam et Saphi
+<lb ed="#L" n="99"/>ram. Ergo videtur quod etiam clericis liceat
+<lb ed="#L" n="100"/>occidere malefactores.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e858">
+                  <lb ed="#L" n="101"/>2. PRAETEREA, potestas spiritualis est maior
+<lb ed="#L" n="102"/>quam temporalis, et Deo coniunctior. Sed 
+po<lb break="no" ed="#L" n="103"/>testas temporalis licite malefactores occidit 
+tan<lb break="no" ed="#L" n="104"/>quam Dei minister, ut dicitur Rom. xui. Ergo
+<lb ed="#L" n="105"/>multo magis clerici, qui sunt Dei ministri 
+spi<lb break="no" ed="#L" n="106"/>rituadlem potestatem habentes, licite possunt 
+ma<lb break="no" ed="#L" n="107"/>lefactores occidere.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e877">
+                  <lb ed="#L" n="108"/>3, PRAETEREA, quicumque licite suscipit aliquod
+<lb ed="#L" n="109"/>officium, licite potest ea exercere quae ad 
+offi<lb break="no" ed="#L" n="110"/>cium illud pertinent. Sed officium principis terrae
+<lb ed="#L" n="111"/>est malefactores occidere, ut dictum est. Ergo
+<pb ed="#L" n="71"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>clerici qui sunt terrarum principes, licite possunt
+<lb ed="#L" n="2"/>occidere malefactores.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e897">
+                  <lb ed="#L" n="3"/>SED coNTRA EsT quod dicitur 1 ad 7zm. n:
+<lb ed="#L" n="4"/>Oportet episcopum sine crimine esse, non 
+vino<lb break="no" ed="#L" n="5"/>lentum, non percussorem.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e906">
+                  <lb ed="#L" n="6"/>REsPONDEO DICENDUM quod non licet clericis
+<lb ed="#L" n="7"/>occidere ,. duplici ratione. Primo quidem, quia
+<lb ed="#L" n="8"/>sunt electi ad altaris ministerium, in quo 
+re<lb break="no" ed="#L" n="9"/>praesentatur passio Christi occisi, qui cum. 
+per<lb break="no" ed="#L" n="10"/>culeretur, non repercutiebat, ut dicitur I Pet. 11.
+<lb ed="#L" n="11"/>Et ideo non competit ut clerici sint percussores
+<lb ed="#L" n="12"/>aut occisores: debent enim ministri suum 
+domi<lb break="no" ed="#L" n="13"/>num imitari, secundum illud Eccíi. x: 
+Secun<lb break="no" ed="#L" n="14"/>dum iudicem populi, sic et ministri eius.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e928">
+                  <lb ed="#L" n="15"/>Alia ratio est quia clericis committitur 
+ministe<lb break="no" ed="#L" n="16"/>rium novae legis, in qua non determinatur poena
+<lb ed="#L" n="17"/>occisionis vel mutilationis corporalis. Et ideo, ut
+<lb ed="#L" n="18"/>sint idonei ministri novi Testamenti, debent a
+<lb ed="#L" n="19"/>talibus abstinere.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e941">
+                  <lb ed="#L" n="20"/>AD PRIMUM ERGO DICENDUM quod Deus 
+univer<lb break="no" ed="#L" n="21"/>saliter in omnibus operatur quae recta sunt, in
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="22"/>unoquoque tamen secundum eius congruentiam.
+<lb ed="#L" n="23"/>Et ideo unusquisque debet Deum. imitari in hoc
+<lb ed="#L" n="24"/>quod sibi specialiter «congruit... Unde licet. Deus
+<lb ed="#L" n="25"/>corporaliter etiam ?. malefactores occidat, non
+<lb ed="#L" n="26"/>tamen oportet quod omnes in hoc eum 
+imiten<lb break="no" ed="#L" n="27"/>tur. - Petrus autem non propria auctoritate vel
+<lb ed="#L" n="28"/>manu Ananiam et Saphiram interfecit: sed magis
+<lb ed="#L" n="29"/>divinam sententiam de. eorum morte. 
+promulga<lb break="no" ed="#L" n="30"/>Sacerdotes autem vel Levitae veteris 
+Testa<lb break="no" ed="#L" n="31"/>menti erant ministri veteris legis, secundum quam 
+<lb ed="#L" n="32"/>poenae .corporales infligebantur: et ideo etiam
+<lb ed="#L" n="33"/>eis. occidere propria manu. congruebat.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e976">
+                  <lb ed="#L" n="34"/>AD SECUNDUM DICENDUM quod ministerium 
+cle<lb break="no" ed="#L" n="35"/>ricorum est in melioribus ordinatum quam. sint
+<lb ed="#L" n="36"/>corporales occisiones, scilicet in his quae pertinent
+<lb ed="#L" n="37"/>ad salutem spiritualem. Et ideo non congruit eis
+<lb ed="#L" n="38"/>quod minoribus se ingerant.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e990">
+                  <lb ed="#L" n="39"/>AD TERTIUM DICENDUM quod praelati ecclesiarum
+<lb ed="#L" n="40"/>accipiunt officia principum terrae non ut ipsi 
+iu<lb break="no" ed="#L" n="41"/>dicium. sanguinis exerceant per seipsos, sed quod
+<lb ed="#L" n="42"/>eorum auctoritate per alios exerceatur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1603-Dd1e1002"><!-- p2p2-q64a5" -->
+               <head xml:id="TAca84-d1e1603-Hd1e1005">Articulus 5</head>
+               <head xml:id="TAca84-d1e1603-Hd1e1007" type="question-title">Utrum alicui liceat seipsum occidere</head>
+               <p xml:id="TAca84-d1e1603-d1e1010">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="61" type="fixed=71"/>ARTICULUS QUINTUS
+<lb ed="#L" n="62"/>UTRUM ALICUI LICEAT SEIPSUM OCCIDERE
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1019">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="63"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="64"/>alicui liceat seipsum occidere. 
+Homici<lb break="no" ed="#L" n="65"/>dium enim est peccatum inquantum 
+iu<lb break="no" ed="#L" n="66"/>stitiae contrariatur. Sed nullus potest sibi
+<lb ed="#L" n="67"/>Si. iniustitiam facere: ut probatur in V Ethic.
+<lb ed="#L" n="68"/>ergo nullus peccat occidendo. seipsum.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1037">
+                  <lb ed="#L" n="69"/>2. PRAETEREA, occidere malefactores licet 
+ha<lb break="no" ed="#L" n="70"/>benti publicam potestatem. Sed quandoque ille
+<lb ed="#L" n="71"/>qui habet publicam potestatem est malefactor.
+<lb ed="#L" n="72"/>Ergo licet ei occidere seipsum.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1049">
+                  <lb ed="#L" n="73"/>3. PRAETEREA, licitum est quod aliquis 
+spon<lb break="no" ed="#L" n="74"/>tanee minus periculum subeat ut maius periculum
+<lb ed="#L" n="75"/>vitet: sicut licitum est quod aliquis etiam sibi ipsi
+<lb ed="#L" n="76"/>amputet membrum. putridum ut totum corpus
+<lb ed="#L" n="77"/>salvetur. Sed quandoque aliquis per occisionem
+<lb ed="#L" n="78"/>sui ipsius vitat maius malum, vel? miseram vitam
+<lb ed="#L" n="79"/>vel turpitudinem alicuius poiiniin Ergo licet alicui
+<lb ed="#L" n="80"/>occidere. seipsum. ,
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1069">
+                  <lb ed="#L" n="81"/>4. PRAETEREA, Samson seipsum interfecit, ut
+<lb ed="#L" n="82"/>habetur. Iudic. xv1*:. qui tamen. connumeratur
+<cb ed="#L" n="h"/>
+                  <lb ed="#L" n="83"/>inter sanctos, ut patet Heb. xi. Ergo licitum est
+<lb ed="#L" n="84"/>alicui occidere, seipsum.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1082">
+                  <lb ed="#L" n="85"/>5. PRaETEREA, ll Machab. xiv dicitur quod
+<lb ed="#L" n="86"/>Razias quidam seipsum interfecit, eligens nobiliter
+<lb ed="#L" n="87"/>mori polius quam subditus fieri peccatoribus et
+<lb ed="#L" n="88"/>contra natales suos iniuriis agi. Sed nihil quod
+<lb ed="#L" n="89"/>nobiliter fit et fortiter, est illicitum. Ergo occidere
+<lb ed="#L" n="90"/>seipsum non est illicitum.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1098">
+                  <lb ed="#L" n="91"/>SED coNTRA EsT quod Augustinus dicit, in I de
+<lb ed="#L" n="92"/>Civ. Dei: <quote xml:id="TAca84-d1e1603-Qd1e1104">Restat ut de homine intelligamus quod
+<lb ed="#L" n="93"/>dictum est, Non occides. Nec alterum ergo, nec
+<lb ed="#L" n="94"/>te. Neque enim aliud quam hominem occidit qui
+<lb ed="#L" n="95"/>seipsum occidit</quote>.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1114">
+                  <lb ed="#L" n="96"/>RESPONDEO DICENDUM quod seipsum occidere est
+<lb ed="#L" n="97"/>omnino illicitum triplici ratione. Primo quidem,
+<lb ed="#L" n="98"/>quia naturaliter quaelibet res seipsam amat: et
+<lb ed="#L" n="99"/>ad hoc. pertinet quod quaelibet, res naturaliter
+<lb ed="#L" n="100"/>conservat se in esse et corrumpentibus resistit
+<lb ed="#L" n="101"/>quantum potest. Et ideo quod. aliquis seipsum
+<lb ed="#L" n="102"/>occidat est contra inclinationem naturalem, et con-
+<pb ed="#L" n="72"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tra caritatem, qua quilibet debet seipsum diligere.
+<lb ed="#L" n="2"/>Et ideo occisio sui ipsius semper est peccatum
+<lb ed="#L" n="3"/>mortale, utpote contra naturalem legem et contra
+<lb ed="#L" n="4"/>caritatem. existens.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1145">
+                  <lb ed="#L" n="5"/>Secundo, quia quaelibet pars id quod est, est 
+<lb ed="#L" n="6"/>totius. Quilibet autem homo est pars 
+communi<lb break="no" ed="#L" n="7"/>tatis: et ita id quod est, est communitatis. Unde
+<lb ed="#L" n="8"/>in hoc quod seipsum interficit, iniuriam 
+com<lb break="no" ed="#L" n="9"/>munitati facit: ut patet per Philosophum, in V
+<lb ed="#L" n="10"/>Ethic.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1162">
+                  <lb ed="#L" n="11"/>Tertio, quia vita est quoddam donum divinitus
+<lb ed="#L" n="12"/>homini attributum, et eius potestati subiectum qui
+<lb ed="#L" n="13"/>occidit et vivere facit. Et ideo qui seipsum vita
+<lb ed="#L" n="14"/>privat in Deum peccat: sicut qui alienum servum
+<lb ed="#L" n="15"/>interficit peccat in dominum cuius est servus; et
+<lb ed="#L" n="16"/>sicut peccat ille qui usurpat sibi iudicium de re
+<lb ed="#L" n="17"/>sibi non commissa. Ad solum enim Deum 
+per<lb break="no" ed="#L" n="18"/>tinet iudicium mortis et vitae: secundum illud
+<lb ed="#L" n="19"/>Deut. xxxii: Ego occidam, et vivere faciam.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1184">
+                  <lb ed="#L" n="20"/>AD PRIMUM ERGO DICENDUM quod homicidium est
+<lb ed="#L" n="21"/>peccatum non solum quia contrariatur iustitiae,
+<lb ed="#L" n="22"/>sed etiam quia contrariatur caritati quam habere
+<lb ed="#L" n="23"/>debet aliquis ad seipsum. Et ex hac parte occisio
+<lb ed="#L" n="24"/>sui ipsius est peccatum per comparationem ad
+<lb ed="#L" n="25"/>seipsum. Per comparationem autem ad 
+com<lb break="no" ed="#L" n="26"/>munitatem et ad Deum, habet rationem peccati
+<lb ed="#L" n="27"/>etiam per oppositionem ad iustitiam.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1204">
+                  <lb ed="#L" n="28"/>AD SECUNDUM DICENDUM quod ille qui habet 
+pu<lb break="no" ed="#L" n="29"/>blicam potestatem potest licite malefactorem 
+oc<lb break="no" ed="#L" n="30"/>cidere per hoc quod potest de ipso iudicare.
+<lb ed="#L" n="31"/>Nullus autem est iudex sui ipsius. Unde non
+<lb ed="#L" n="32"/>licet habenti publicam potestatem seipsum 
+occi<lb break="no" ed="#L" n="33"/>dere propter quodcumque peccatum. Licet tamen
+<lb ed="#L" n="34"/>ei se committere iudicio aliorum.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1222">
+                  <lb ed="#L" n="35"/>AD TERTIUM DICENDUM quod homo constituitur
+<lb ed="#L" n="36"/>dominus sui ipsius per liberum arbitrium. Et ideo
+<lb ed="#L" n="37"/>licite potest homo de seipso disponere quantum
+<lb ed="#L" n="38"/>ad ea quae pertinent ad hanc vitam, quae 
+ho<lb break="no" ed="#L" n="39"/>minis libero arbitrio regitur. Sed transitus de hac
+<lb ed="#L" n="40"/>vita ad aliam feliciorem non subiacet libero 
+ar<lb break="no" ed="#L" n="41"/>bitrio hominis, sed potestati divinae. Et ideo non
+<lb ed="#L" n="42"/>licet homini seipsum interficere ut ad feliciorem
+<lb ed="#L" n="43"/>transeat vitam.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1244">
+                  <lb ed="#L" n="44"/>Similiter etiam nec ut miserias quaslibet 
+prae<lb break="no" ed="#L" n="45"/>sentis vitae evadat. Quia ultimum malorum huius
+<lb ed="#L" n="46"/>vitae et maxime terribile est mors: ut patet per
+<lb ed="#L" n="47"/>Philosophum, in III Erhic. Et ita inferre sibi
+<lb ed="#L" n="48"/>mortem ad alias huius vitae miserias evadendas
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="49"/>est maius malum assumere ad minoris mali 
+vita<lb break="no" ed="#L" n="50"/>tionem.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1264">
+                  <lb ed="#L" n="51"/>Similiter etiam. non licet seipsum occidere
+<lb ed="#L" n="52"/>propter aliquod peccatum commissum. Tum quia
+<lb ed="#L" n="53"/>in hoc sibi maxime nocet quod. sibi adimit 
+ne<lb break="no" ed="#L" n="54"/>cessarium poenitentiae tempus. Tum etiam quia
+<lb ed="#L" n="55"/>malefactorem occidere non licet nisi per iudicium
+<lb ed="#L" n="56"/>publicae potestatis.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1281">
+                  <lb ed="#L" n="57"/>Similiter etiam non licet mulieri seipsam 
+oc<lb break="no" ed="#L" n="58"/>cidere ne ab alio corrumpatur. Quia non debet
+<lb ed="#L" n="59"/>in se committere crimen maximum, quod est sui
+<lb ed="#L" n="60"/>ipsius occisio, ut vitet minus crimen alienum (non
+<lb ed="#L" n="61"/>enim est crimen mulieris per violentiam violatae,
+<lb ed="#L" n="62"/>si consensus non adsit: quia non inquinatur 
+cor<lb break="no" ed="#L" n="63"/>pus nisi de consensu mentis, ut Lucia dixit). 
+Con<lb break="no" ed="#L" n="64"/>stat autem minus esse peccatum fornicationem vel
+<lb ed="#L" n="65"/>adulterium quam homicidium: et praecipue sui
+<lb ed="#L" n="66"/>ipsius, quod est gravissimum, quia sibi ipsi nocet,
+<lb ed="#L" n="67"/>cui maximam dilectionem debet. Est etiam 
+pe<lb break="no" ed="#L" n="68"/>riculosissimum: quia non restat tempus ut per
+<lb ed="#L" n="69"/>poenitentiam expietur.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1312">
+                  <lb ed="#L" n="70"/>Similiter etiam nulli licet seipsum occidere ob
+<lb ed="#L" n="71"/>timorem ne consentiat in peccatum. Quia non sunt
+<lb ed="#L" n="72"/>facienda mala ut veniant bona, vel ut vitentur
+<lb ed="#L" n="73"/>mala, praesertim minora et minus certa. Incertum
+<lb ed="#L" n="74"/>enim est an aliquis in futurum consentiat in 
+pec<lb break="no" ed="#L" n="75"/>catum: potens est enim Deus hominem, 
+quacum<lb break="no" ed="#L" n="76"/>que tentatione superveniente, liberare a peccato.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1330">
+                  <lb ed="#L" n="77"/>AD QUARTUM DICENDUM quod, sicut Augustinus
+<lb ed="#L" n="78"/>dicit, in I de Civ. Dei, <quote xml:id="TAca84-d1e1603-Qd1e1336">nec Samson aliter 
+ex<lb break="no" ed="#L" n="79"/>cusatur quod seipsum cum hostibus ruina domus
+<lb ed="#L" n="80"/>oppressit, nisi quia latenter Spiritus hoc iusserat,
+<lb ed="#L" n="81"/>qui per illum miracula faciebat</quote>. Et eandem 
+ra<lb break="no" ed="#L" n="82"/>tionem assignat de quibusdam sanctis feminis
+<lb ed="#L" n="83"/>quae tempore persecutionis seipsas occiderunt,
+<lb ed="#L" n="84"/>quarum memoria in Ecclesia celebratur.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1353">
+                  <lb ed="#L" n="85"/>AD QUINTUM DICENDUM quod ad fortitudinem
+<lb ed="#L" n="86"/>pertinet quod aliquis ab alio mortem pati non
+<lb ed="#L" n="87"/>refugiat propter bonum virtutis, et ut vitet 
+pec<lb break="no" ed="#L" n="88"/>catum. Sed quod aliquis sibi ipsi inferat mortem
+<lb ed="#L" n="89"/>ut vitet mala poenalia ?, habet quidem quandam
+<lb ed="#L" n="90"/>speciem fortitudinis, propter quod quidam seipsos
+<lb ed="#L" n="91"/>interfecerunt aestimantes se fortiter agere, de 
+quo<lb break="no" ed="#L" n="92"/>rum numero Razias fuit: non tamen est vera
+<lb ed="#L" n="93"/>fortitudo, sed magis quaedam mollities animi
+<lb ed="#L" n="94"/>non valentis mala poenalia sustinere, ut patet
+<lb ed="#L" n="95"/>per Philosophum, in III Ethic., et per 
+Augu<lb break="no" ed="#L" n="96"/>stinum, in I de Civ. Dei.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1603-Dd1e1383"><!-- p2p2-q64a6" -->
+               <head xml:id="TAca84-d1e1603-Hd1e1386">Articulus 6</head>
+               <head xml:id="TAca84-d1e1603-Hd1e1388" type="question-title">Utrum liceat in aliquo casu interficere innocentem</head>
+               <p xml:id="TAca84-d1e1603-d1e1391">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="97" type="fixed=72"/>ARTICULUS SEXTUS
+<lb ed="#L" n="98"/>UTRUM LICEAT IN ALIQUO CASU INTERFICERE INNOCENTEM
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1400">
+                  <lb ed="#L" n="99"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="100"/>liceat in aliquo casu interficere 
+innocen<lb break="no" ed="#L" n="101"/>tem. Divinus enim timor non 
+manifesta<lb break="no" ed="#L" n="102"/>tur per peccatum: quin magis fimor Do-
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="103"/>mini expellit peccatum, ut dicitur Eccli. 1. Sed 
+Abra<lb break="no" ed="#L" n="104"/>ham commendatus est quod timuerit ? Dominum;
+<lb ed="#L" n="105"/>quia voluit interficere filium innocentem. Ergo
+<lb ed="#L" n="106"/>potest aliquis innocentem interficere sine peccato.
+<pb ed="#L" n="73"/>
+                  <cb ed="#L" n="a"/>
+                  <!--consilium, nisi forte sit miles, aut publica fun-\-->
+                  <lb ed="#L" n="1"/>2. PRAETEREA, in genere peccatorum quae 
+con<lb break="no" ed="#L" n="2"/>tra proximum committuntur, tanto videtur aliquid
+<lb ed="#L" n="3"/>esse maius peccatum quanto maius nocumentum
+<lb ed="#L" n="4"/>infertur ei in quem peccatur. Sed occisio plus
+<lb ed="#L" n="5"/>nocet peccatori quam innocenti, qui de miseria
+<lb ed="#L" n="6"/>huius vitae ad caelestem gloriam transit per 
+mor<lb break="no" ed="#L" n="7"/>tem., Cum ergo liceat in aliquo casu peccatorem
+<lb ed="#L" n="8"/>occidere, multo magis licet occidere innocentem 
+<lb ed="#L" n="9"/>vel iustum.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1448">
+                  <lb ed="#L" n="10"/>3. PRAETEREA, illud quod fit secundum ordinem
+<lb ed="#L" n="11"/>iustitiae non est peccatum. Sed quandoque 
+co<lb break="no" ed="#L" n="12"/>gitur aliquis secundum ordinem iustitiae occidere
+<lb ed="#L" n="13"/>innocentem: puta cum iudex, qui debet 
+secun<lb break="no" ed="#L" n="14"/>dum allegata iudicare, condemnat ad mortem
+<lb ed="#L" n="15"/>eum quem scit innocentem, per falsos testes 
+con<lb break="no" ed="#L" n="16"/>victum; et similiter minister qui iniuste 
+conde<lb break="no" ed="#L" n="17"/>mnatum occidit obediens iudici. Ergo absque
+<lb ed="#L" n="18"/>pantaio potest aliquis occidere innocentem.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1471">
+                  <lb ed="#L" n="19"/>SEp coNTRA EST quod dicitur Exod. xxui:. 
+In<lb break="no" ed="#L" n="20"/>nocentem et iustum non occides.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1478">
+                  <lb ed="#L" n="21"/>RESPONDEO DICENDUM quod aliquis homo dupli
+<lb ed="#L" n="22"/>citer considerari potest: uno modo, secundum
+<lb ed="#L" n="23"/>se; alio modo, per comparationem ad aliud. 
+Se<lb break="no" ed="#L" n="24"/>eundum se quidem considerando hominem, 
+nul<lb break="no" ed="#L" n="25"/>lum occidere licet: quia in quolibet, etiam 
+pec<lb break="no" ed="#L" n="26"/>catore, debemus amare naturam, quam Deus
+<lb ed="#L" n="27"/>fecit, quae per occisionem corrumpitur. Sed 
+si<lb break="no" ed="#L" n="28"/>cut supra dictum est, occisio peccatoris fit licita
+<lb ed="#L" n="29"/>per comparationem ad bonum commune, quod
+<lb ed="#L" n="30"/>per peccatum corrumpitur. Vita autem iustorum
+<lb ed="#L" n="31"/>est conservativa et promotiva boni communis:
+<lb ed="#L" n="32"/>quia ipsi sunt prineipalior pars multitudinis. Et
+<lb ed="#L" n="33"/>ideo. nullo. modo. licet occidere innocentem.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1509">
+                  <lb ed="#L" n="34"/>AD PRIMUM ERGO DICENDUM quod Deus habet
+<lb ed="#L" n="35"/>dominium mortis et vitae: eius enim ordinatione
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="36"/>moriuntur et peccatores et iusti. Et ideo ille qui
+<lb ed="#L" n="37"/>mandato Dei occidit innocentem, talis non peccat,
+<lb ed="#L" n="38"/>sicut nec Deus, cuius est executor: et ostenditur
+<lb ed="#L" n="39"/>Deum timere, eius mandatis obediens.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1527">
+                  <lb ed="#L" n="40"/>AD SECUNDUM DICENDUM quod in pensanda 
+gra<lb break="no" ed="#L" n="41"/>vitate peccati magis est considerandum illud quod
+<lb ed="#L" n="42"/>est per se quam illud quod est per accidens.
+<lb ed="#L" n="43"/>Unde ille qui occidit iustum gravius peccat quam
+<lb ed="#L" n="44"/>ille. qui occidit peccatorem. Primo quidem, quia
+<lb ed="#L" n="45"/>nocet ei quem plus debet diligere: et ita magis
+<lb ed="#L" n="46"/>contra caritatem agit. Secundo, quia iniuriam 
+in<lb break="no" ed="#L" n="47"/>fert ei qui est minus dignus: et ita magis contra
+<lb ed="#L" n="48"/>iustitiam agit. Tertio, quia privat communitatem
+<lb ed="#L" n="49"/>maiori bono. Quarto, quia magis Deum 
+conte<lb break="no" ed="#L" n="50"/>mnit: secundum illud Luc. x: . Qui vos spernit,
+<lb ed="#L" n="51"/>me spernit. - Quod autem iustus occisus ad 
+glo<lb break="no" ed="#L" n="52"/>riam perducatur a Deo, per accidens se habet
+<lb ed="#L" n="53"/>ad occisionem.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1560">
+                  <lb ed="#L" n="54"/>AD TERTIUM. DICENDUM quod iudex, si scit 
+ali<lb break="no" ed="#L" n="55"/>quem esse innocentem qui falsis testibus 
+con<lb break="no" ed="#L" n="56"/>vincitur, debet diligentius examinare testes, ut
+<lb ed="#L" n="57"/>inveniat occasionem liberandi innoxium, sicut
+<lb ed="#L" n="58"/>Daniel fecit. Si autem hoc non potest, debet
+<lb ed="#L" n="59"/>eum ad. superiorem remittere ? iudicandum. Si
+<lb ed="#L" n="60"/>autem nec hoc potest, non peccat secundum
+<lb ed="#L" n="61"/>allegata sententiam ferens*: quia non ipse occidit
+<lb ed="#L" n="62"/>innocentem, sed illi qui eum asserunt nocentem. -
+<lb ed="#L" n="63"/>Minister autem. iudicis condemnantis innocentem,
+<lb ed="#L" n="64"/>si sententia intolerabilem errorem contineat, non
+<lb ed="#L" n="65"/>debet obedire: alias excusarentur carnifices qui
+<lb ed="#L" n="66"/>martyres occiderunt. Si vero non contineat 
+ma<lb break="no" ed="#L" n="67"/>nifestam iniustitiam, non peccat praeceptum 
+exe<lb break="no" ed="#L" n="68"/>quendo: quia ipse non habet discutere superioris
+<lb ed="#L" n="69"/>sententiam ; nec ipse occidit innocentem, sed 
+iu<lb break="no" ed="#L" n="70"/>dex, cui ministerium adhibet ^.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1603-Dd1e1601"><!-- p2p2-q64a7" -->
+               <head xml:id="TAca84-d1e1603-Hd1e1604">Articulus 7</head>
+               <head xml:id="TAca84-d1e1603-Hd1e1606" type="question-title">Utrum alicui liceat occidere aliquem se defendendo</head>
+               <p xml:id="TAca84-d1e1603-d1e1609">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="76" type="fixed=73"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="77"/>UTRUM ALICUI LICEAT OCCIDERE ALIQUEM SE DEFENDENDO
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1618">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="78"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="79"/>nulli liceat occidere aliquem se 
+defen<lb break="no" ed="#L" n="80"/>dendo. Dicit enim Augustinus, ad 
+Pu<lb break="no" ed="#L" n="81"/>blicolam.: De occidendis hominibus
+<lb ed="#L" n="82"/>ne ab eis quisquam .occidatur, non mihi placet
+<lb ed="#L" n="83"/>ctione teneatur, ut non pro se hoc faciat sed pro
+<lb ed="#L" n="84"/>alus, accepta legitima potestate, si eius congruat
+<lb ed="#L" n="85"/>personae. Sed ille qui se defendendo occidit 
+ali<lb break="no" ed="#L" n="86"/>quem, ad hoc eum occidit ne ipse ab eo 
+occi<lb break="no" ed="#L" n="87"/>datur. Ergo hoc videtur esse illicitum.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1644">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="88"/>2. PRaETEREA, in I de Lib. Arb. dicitur:
+<lb ed="#L" n="89"/>Quomodo apud divinam providentiam a peccato
+<lb ed="#L" n="90"/>liberi sunt qui pro his rebus quas contemni 
+opor<lb break="no" ed="#L" n="91"/>tet, humana caede polluti sunt? Eas autem res
+<lb ed="#L" n="92"/>dicit esse contemnendas quas homines inviti 
+amit<lb break="no" ed="#L" n="93"/>lere possunt, ut ex praemissis patet. Horum
+<lb ed="#L" n="94"/>autem est vita corporalis. Ergo pro conservanda -
+<lb ed="#L" n="95"/>vita corporali nulli licitum est hominem occidere.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1667">
+                  <lb ed="#L" n="96"/>3. PRAETEREA, <ref xml:id="TAca84-d1e1603-Rd1e1671">Nicolaus Papa</ref> dicit, et 
+habe<lb break="no" ed="#L" n="97"/>tur in <ref xml:id="TAca84-d1e1603-Rd1e1675">Decretis, dist. L</ref>: <quote xml:id="TAca84-d1e1603-Qd1e1677">De clericis pro quibus am
+<lb ed="#L" n="98"/>consuluisti, scilicet qui se defendendo paganum
+<pb ed="#L" n="74"/>
+                     <cb ed="#L" n="a"/>
+                     <lb ed="#L" n="1"/>occiderunt, si postea per poenitentiam possent
+<lb ed="#L" n="2"/>ad pristinum statum redire aut ad altiorem. 
+ascen<lb break="no" ed="#L" n="3"/>dere, scito nos nullam occasionem dare, nec ullam
+<lb ed="#L" n="4"/>tribuere licentiam eis quemlibet hominem quolibet
+<lb ed="#L" n="5"/>modo: occidendi</quote>. Sed ad praecepta moralia 
+ser<lb break="no" ed="#L" n="6"/>vanda tenentur communiter clerici et laici. Ergo
+<lb ed="#L" n="7"/>etiam laicis non est licitum occidere aliquem se
+<lb ed="#L" n="8"/>defendendo.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1705">
+                  <lb ed="#L" n="9"/>4. PRAETEREA, homicidium est gravius peccatum
+<lb ed="#L" n="10"/>quam simplex fornicatio vel adulterium. Sed nulli 
+<lb ed="#L" n="11"/>licet committere simplicem fornicationem vel 
+adul<lb break="no" ed="#L" n="12"/>terium, vel quodcumque aliud peccatum mortale,
+<lb ed="#L" n="13"/>pro conservatione propriae vitae: quia vita 
+spi<lb break="no" ed="#L" n="14"/>ritualis praeferenda est corporali. Ergo nulli licet,
+<lb ed="#L" n="15"/>defendendo seipsum, alium occidere ut propriam
+<lb ed="#L" n="16"/>vitam conservet.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1725">
+                  <lb ed="#L" n="17"/>5. PRAETEREA, si arbor est mala, et fructus, ut
+<lb ed="#L" n="18"/>dicitur Matth. vir. Sed ipsa defensio sui videtur
+<lb ed="#L" n="19"/>esse illicita: secundum illud om. xiu: [Non vos
+<lb ed="#L" n="20"/>defendentes, carissimi. Ergo et occisio hominis
+<lb ed="#L" n="21"/>exinde procedens est illicita.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1738">
+                  <lb ed="#L" n="22"/>SED coNTRA EsT quod Exod. xxu dicitur: <quote xml:id="TAca84-d1e1603-Qd1e1742">Si
+<lb ed="#L" n="23"/>effringens fur domum sive suffodiens fuerit 
+inven<lb break="no" ed="#L" n="24"/>tus, et, accepto vulnere, mortuus fuerit, percussor
+<lb ed="#L" n="25"/>non erit reus sanguinis</quote>. Sed multo magis licitum
+<lb ed="#L" n="26"/>est defendere propriam vitam quam propriam
+<lb ed="#L" n="27"/>domum. Ergo etiam si aliquis occidat aliquem pro
+<lb ed="#L" n="28"/>defensione vitae suae, non erit reus homicidii.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1758">
+                  <lb ed="#L" n="29"/>RESPONDEO DICENDUM quod nihil prohibet unius
+<lb ed="#L" n="30"/>actus esse duos effectus, quorum alter solum sit
+<lb ed="#L" n="31"/>in intentione, alius vero sit praeter intentionem.
+<lb ed="#L" n="32"/>Morales autem actus recipiunt speciem secundum
+<lb ed="#L" n="33"/>id quod intenditur, non autem ab eo quod est
+<lb ed="#L" n="34"/>praeter intentionem, cum sit per accidens, ut ex
+<lb ed="#L" n="35"/>supradictis patet. Ex actu igitur alicuius seipsum
+<lb ed="#L" n="36"/>defendentis duplex effectus sequi potest: unus
+<lb ed="#L" n="37"/>quidem conservatio propriae vitae; alius autem
+<lb ed="#L" n="38"/>occisio invadentis. Actus igitur huiusmodi ex hoc
+<lb ed="#L" n="39"/>quod intenditur conservatio propriae vitae, non
+<lb ed="#L" n="40"/>habet rationem illiciti: cum hoc sit cuilibet 
+na<lb break="no" ed="#L" n="41"/>turale quod se conservet in esse quantum potest.
+<lb ed="#L" n="42"/>Potest tamen aliquis actus ex bona intentione pro-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="43"/>veniens illicitus reddi si non sit proportionatus
+<lb ed="#L" n="44"/>fini. Et ideo si aliquis ad defendendum propriam
+<lb ed="#L" n="45"/>vitam utatur maiori violentia quam oporteat, erit
+<lb ed="#L" n="46"/>illicitum. Si vero moderate violentiam repellat,
+<lb ed="#L" n="47"/>erit licita defensio: nam secundum iura, vim
+<lb ed="#L" n="48"/>vi repellere licet cum moderamine inculpatae 
+tu<lb break="no" ed="#L" n="49"/>telae. Nec est necessarium ad salutem ut homo f?
+<lb ed="#L" n="50"/>actum moderatae tutelae praetermittat ad 
+evi<lb break="no" ed="#L" n="51"/>tandum occisionem alterius: quia plus tenetur
+<lb ed="#L" n="52"/>homo vitae suae providere quam vitae alienae.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1815">
+                  <lb ed="#L" n="53"/>Sed quia occidere hominem non licet nisi 
+pu<lb break="no" ed="#L" n="54"/>blica auctoritate propter bonum' commune, ut ex
+<lb ed="#L" n="55"/>supradictis patet; illicitum est quod homo 
+in<lb break="no" ed="#L" n="56"/>tendat occidere hominem ut seipsum defendat,
+<lb ed="#L" n="57"/>nisi ei qui habet publicam auctoritatem, qui, 
+in<lb break="no" ed="#L" n="58"/>tendens hominem occidere ad sui defensionem,
+<lb ed="#L" n="59"/>refert hoc ad publicum bonum: ut patet in 
+mi<lb break="no" ed="#L" n="60"/>lite pugnante contra hostes, et in ministro iudicis
+<lb ed="#L" n="61"/>pugnante contra latrones. Quamvis et isti etiam
+<lb ed="#L" n="62"/>peccent si privata libidine moveantur.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1840">
+                  <lb ed="#L" n="63"/>AD PRIMUM ERGO DICENDUM quod auctoritas 
+Au<lb break="no" ed="#L" n="64"/>gustini intelligenda est in eo casu quo quis 
+inten<lb break="no" ed="#L" n="65"/>dit occidere hominem ut seipsum a morte liberet.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1849">
+                  <lb ed="#L" n="66"/>In quo etiam casu intelligitur auctoritas inducta
+<lb ed="#L" n="67"/>ex libro de Libero Arbitrio. Unde signanter 
+dici<lb break="no" ed="#L" n="68"/>tur, pro his rebus: in quo designatur intentio. Et
+<lb ed="#L" n="69"/>per hoc patet responsio ad secundum.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1860">
+                  <lb ed="#L" n="70"/>AD TERTIUM DICENDUM quod irregularitas 
+conse<lb break="no" ed="#L" n="71"/>quitur actum homicidii etiam si sit absque 
+pec<lb break="no" ed="#L" n="72"/>cato: ut patet in iudice qui iuste aliquem 
+con<lb break="no" ed="#L" n="73"/>demnat ad mortem. Et propter hoc clericus, etiam
+<lb ed="#L" n="74"/>si se defendendo interficiat aliquem , irregularis
+<lb ed="#L" n="75"/>est, quamvis non intendat occidere ?, sed seipsum
+<lb ed="#L" n="76"/>defendere.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1878">
+                  <lb ed="#L" n="77"/>AD QUARTUM DICENDUM quod actus fornicationis
+<lb ed="#L" n="78"/>vel adulterii non ordinatur ad conservationem
+<lb ed="#L" n="79"/>propriae vitae ex necessitate, sicut actus ex quo
+<lb ed="#L" n="80"/>quandoque sequitur homicidium.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1889">
+                  <lb ed="#L" n="81"/>AD QUINTUM DICENDUM quod ibi prohibetur 
+defen<lb break="no" ed="#L" n="82"/>sio quae est cum livore vindictae. Unde Glossa
+<lb ed="#L" n="83"/>dicit: Non vos defendentes: idest, Non sitis 
+refe<lb break="no" ed="#L" n="84"/>rientes adversarios.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1603-Dd1e1901"><!-- p2p2-q64a8" -->
+               <head xml:id="TAca84-d1e1603-Hd1e1904">Articulus 8</head>
+               <head xml:id="TAca84-d1e1603-Hd1e1906" type="question-title">Utrum aliquis casualiter occidens hominem incurrat homicidii reatum</head>
+               <p xml:id="TAca84-d1e1603-d1e1909">
+                  <pb ed="#L" n="76"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=76"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="2"/>UTRUM ALIQUIS CASUALITER OCCIDENS HOMINEM INCURRAT HOMICIDII REATUM
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1920">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>aliquis casualiter occidens hominem 
+in<lb break="no" ed="#L" n="5"/>Pcurrat homicidii reatum. Legitur enim
+<lb ed="#L" n="6"/>NW Gen. iv quod Lamech, credens 
+inter<lb break="no" ed="#L" n="7"/>bestiam, interfecit hominem, et reputatum
+<lb ed="#L" n="8"/>est ei ad homicidium. Ergo reatum homicidii 
+in<lb break="no" ed="#L" n="9"/>currit qui casualiter hominem occidit.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1940">
+                  <lb ed="#L" n="10"/>2. PRAETEREA, Exod. xxi dicitur quod si quis
+<lb ed="#L" n="11"/>percusserit. mulierem praegnantem et aborsum
+<lb ed="#L" n="12"/>fecerit, si mors eius fuerit subsecuta, reddet 
+ani<lb break="no" ed="#L" n="13"/>mam pro anima. Sed hoc potest fieri absque
+<lb ed="#L" n="14"/>intentione occisionis. Ergo homicidium casuale
+<lb ed="#L" n="15"/>habet homicidii" reatum.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1957">
+                  <lb ed="#L" n="16"/>3. PRAETEREA, in Decretis, dist. L, inducuntur
+<lb ed="#L" n="17"/>plures canones in quibus casualia homicidia
+<lb ed="#L" n="18"/>puniuntur. Sed poena non debetur ? nisi culpae.
+<lb ed="#L" n="19"/>Ergo ille qui casualiter occidit hominem, incurrit
+<lb ed="#L" n="20"/>homicidii culpam.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1970">
+                  <lb ed="#L" n="21"/>SEp coNTRA EsT quod Augustinus dicit, ad 
+Pu<lb break="no" ed="#L" n="22"/>blicolam: . Absit ut ea quae propter bonum ac
+<lb ed="#L" n="23"/>licitum facimus, si quid per haec, praeter 
+no<lb break="no" ed="#L" n="24"/>stram voluntatem, cuiquam mali acciderit, nobis
+<lb ed="#L" n="25"/>imputetur. Sed contingit quandoque ut propter
+<lb ed="#L" n="26"/>bonum aliquid facientibus homicidium 
+consequa<lb break="no" ed="#L" n="27"/>tur casualiter. Ergo non " imputatur facienti ad
+<lb ed="#L" n="28"/>culpam.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e1990">
+                  <lb ed="#L" n="29"/>RESPONDEO DICENDUM quod, secundum 
+Philoso<lb break="no" ed="#L" n="30"/>phum, in II Physic., casus est causa agens 
+prae<lb break="no" ed="#L" n="31"/>ter intentionem. Et ideo,ea quae casualia sunt,
+<lb ed="#L" n="32"/>simpliciter loquendo, non sunt intenta neque 
+vo<lb break="no" ed="#L" n="33"/>luntaria. Et quia omne peccatum est 
+volunta<lb break="no" ed="#L" n="34"/>rium, secundum Augustinum, consequens est
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="35"/>quod casualia, inquantum huiusmodi, non sunt
+<lb ed="#L" n="36"/>peccata. Contingit tamen id quod non est actu
+<lb ed="#L" n="37"/>et per se volitum vel intentum, esse per 
+acci<lb break="no" ed="#L" n="38"/>dens volitum et intentum, secundum quod causa
+<lb ed="#L" n="39"/>per accidens dicitur removens prohibens. Unde
+<lb ed="#L" n="40"/>ille qui non removet ea ex quibus sequitur. 
+ho<lb break="no" ed="#L" n="41"/>micidium, si debeat removere, erit 
+quodam<lb break="no" ed="#L" n="42"/>modo homicidium voluntarium.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e2025">
+                  <lb ed="#L" n="43"/>Hoc autem contingit dupliciter: uno modo,
+<lb ed="#L" n="44"/>quando dans operam rebus illicitis, quas vitare
+<lb ed="#L" n="45"/>debebat, homicidium incurrit; alio modo, quando
+<lb ed="#L" n="46"/>non adhibet debitam sollicitudinem. Et ideo 
+se<lb break="no" ed="#L" n="47"/>cundum iura, si aliquis det operam rei licitae, '
+<lb ed="#L" n="48"/>debitam diligentiam adhibens, et ex hoc 
+homi<lb break="no" ed="#L" n="49"/>cidium sequatur, non incurrit homicidii reatum :
+<lb ed="#L" n="50"/>si vero det operam rei illicitae, vel etiam det
+<lb ed="#L" n="51"/>operam rei licitae non adhibens diligentiam 
+de<lb break="no" ed="#L" n="52"/>bitam, non evadit homicidii reatum si ex eius
+<lb ed="#L" n="53"/>opere mors hominis consequatur.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e2051">
+                  <lb ed="#L" n="54"/>AD PRIMUM ERGO DICENDUM quod Lamech non
+<lb ed="#L" n="55"/>adhibuit sufficientem diligentiam ad homicidium
+<lb ed="#L" n="56"/>vitandum, et ideo reatum homicidii non evasit.
+</p>
+               <p xml:id="TAca84-d1e1603-d1e2060">
+                  <lb ed="#L" n="57"/>AD SECUNDUM DICENDUM quod ille qui percutit
+<lb ed="#L" n="58"/>mulierem praegnantem dat operam rei illicitae.
+<lb ed="#L" n="59"/>Et ideo si sequatur mors vel mulieris vel 
+puer<lb break="no" ed="#L" n="60"/>perii animati, non effugiet homicidii crimen: 
+prae<lb break="no" ed="#L" n="61"/>cipue cum ex tali percussione in promptu sit
+<lb ed="#L" n="62"/>quod mors sequatur. ;
+</p>
+               <p xml:id="TAca84-d1e1603-d1e2077">
+                  <lb ed="#L" n="63"/>AD TERTIUM DICENDUM quod secundum canones
+<lb ed="#L" n="64"/>imponitur poena his qui casualiter occidunt dantes ..
+<lb ed="#L" n="65"/>operam rei illicitae, vel non adhibentes diligentiam
+<lb ed="#L" n="66"/>debitam.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

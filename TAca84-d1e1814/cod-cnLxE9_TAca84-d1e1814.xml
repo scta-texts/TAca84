@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 105</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 105</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="393"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1814"><!-- p2p2-q105" -->
+            <head xml:id="TAca84-d1e1814-Hd1e101">Quaestio 105</head>
+            <head xml:id="TAca84-d1e1814-Hd1e103" type="question-title">De inobedientia</head>
+            <p xml:id="TAca84-d1e1814-d1e106">
+               <pb ed="#L" n="393"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=393"/>QUAESTIO CENTESIMAQUINTA
+<lb ed="#L" n="2"/>DE INOBEDIENTIA
+<lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1814-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de inobedientia. 
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur duo. |
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="6"/>Primo: utrum sit peccatum mortale.
+<lb ed="#L" n="7"/>Secundo: utrum sit gravissimum peccatorum.
+</p>
+            <div xml:id="TAca84-d1e1814-Dd1e135"><!-- p2p2-q105a1" -->
+               <head xml:id="TAca84-d1e1814-Hd1e138">Articulus 1</head>
+               <head xml:id="TAca84-d1e1814-Hd1e140" type="question-title">Utrum inobedientia sit peccatum mortale</head>
+               <p xml:id="TAca84-d1e1814-d1e143">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="8" type="fixed=393"/>ARTICULUS PRIMUS
+<lb ed="#L" n="9"/>UTRUM INOBEDIENTIA SIT PECCATUM MORTALE
+</p>
+               <p xml:id="TAca84-d1e1814-d1e152">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="10"/>AD PRIMUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="11"/>inobedientia non sit peccatum mortale.
+<lb ed="#L" n="12"/>Omne enim peccatum est inobedientia:
+<lb ed="#L" n="13"/>ut patet per definitionem Ambrosii su-
+<lb ed="#L" n="14"/>perius positam. Si ergo inobedientia esset 
+pec<lb break="no" ed="#L" n="15"/>catum mortale, omne peccatum esset mortale.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e170">
+                  <lb ed="#L" n="16"/>2. PRAETEREA, Gregorius dicit, XXXI Moral.
+<lb ed="#L" n="17"/>ais inobedientia oritur ex inani gloria. Sed i 
+ina<lb break="no" ed="#L" n="18"/>nis gloria non est peccatum mortale. Ergo nec
+<lb ed="#L" n="19"/>inobedientia.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e182">
+                  <lb ed="#L" n="20"/>3. PRAETEREA, tunc dicitur aliquis esse 
+inobe<lb break="no" ed="#L" n="21"/>diens quando superioris praeceptum non implet.
+<lb ed="#L" n="22"/>Sed superiores multoties praecepta multiplicant,
+<lb ed="#L" n="23"/>quae vix aut nunquam omnia possunt 
+obser<lb break="no" ed="#L" n="24"/>vari. Si ergo inobedientia esset peccatum 
+mor<lb break="no" ed="#L" n="25"/>tale, sequeretur quod homo non posset vitare
+<lb ed="#L" n="26"/>mortale peccatum: quod est inconveniens. Non
+<lb ed="#L" n="27"/>ergo inobedientia est peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e202">
+                  <lb ed="#L" n="28"/>SED CONTRA EST quod Rom. 1*, et II ad Tim. in,
+<lb ed="#L" n="29"/>inter alia peccata mortalia computatur P: 
+parenti<lb break="no" ed="#L" n="30"/>bus non obedientes.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e211">
+                  <lb ed="#L" n="31"/>RESPONDEO DICENDUM quod, sicut supra 
+di<lb break="no" ed="#L" n="32"/>ctum est, peccatum mortale est quod contrariatur 
+<lb ed="#L" n="33"/>caritati , per quam est spiritualis vita. Caritate
+<lb ed="#L" n="34"/>autem diligitur Deus et proximus. Exigit autem
+<lb ed="#L" n="35"/>caritas Dei ut eius mandatis obediatur, sicut 
+su<lb break="no" ed="#L" n="36"/>pra dictum est. Et ideo inobedientem esse 
+di<lb break="no" ed="#L" n="37"/>vinis praeceptis peccatum mortale est, quasi 
+di<lb break="no" ed="#L" n="38"/>vinae dilectioni contrarium. In praeceptis autem |
+<lb ed="#L" n="39"/>divinis continetur quod etiam superioribus. 
+obe<lb break="no" ed="#L" n="40"/>diatur. Et ideo etiam inobedientia qua quis in- 
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="41"/>obediens est praeceptis superiorum, est 
+pecca<lb break="no" ed="#L" n="42"/>tum mortale, quasi divinae dilectioni contrarium:
+<lb ed="#L" n="43"/>secundum illud Rom. xu: Qui potestati resistit,
+<lb ed="#L" n="44"/>Dei ordinationi resistit. - Contrariatur i insuper 
+di<lb break="no" ed="#L" n="45"/>lectioni proximi: inquantum superiori proximo
+<lb ed="#L" n="46"/>subtrahit obedientiam quam ei debet.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e250">
+                  <lb ed="#L" n="47"/>Ab PRIMUM ERGO DICENDUM quod illa definitio
+<lb ed="#L" n="48"/>Ambrosii datur de peccato mortali, quod habet
+<lb ed="#L" n="49"/>perfectam peccati rationem. Peccatum enim 
+ve<lb break="no" ed="#L" n="50"/>niale non est inobedientia: quia non est contra
+<lb ed="#L" n="51"/>praeceptum, sed praeter praeceptum.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e263">
+                  <lb ed="#L" n="52"/>Nec etiam omne peccatum mortale est 
+inobe<lb break="no" ed="#L" n="53"/>dienpa, proprie et per se loquendo: sed solum
+<lb ed="#L" n="54"/>Sicut  quando aliquis praeceptum contemnit. Quia
+<lb ed="#L" n="55"/>ex fine morales actus speciem habent. Cum 
+au<lb break="no" ed="#L" n="56"/>tem facit aliquid contra praeceptum non propter
+<lb ed="#L" n="57"/>praecepti contemptum, sed propter aliquid aliud,
+<lb ed="#L" n="58"/>est inobedientia materialiter tantum: sed pertinet
+<lb ed="#L" n="59"/>formaliter ad aliam speciem peccati.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e283">
+                  <lb ed="#L" n="60"/>AD SECUNDUM DICENDUM quod inanis gloria 
+ap<lb break="no" ed="#L" n="61"/>petit manifestationem alicuius excellentiae: et quia
+<lb ed="#L" n="62"/>videtur ad quandam excellentiam pertinere quod
+<lb ed="#L" n="63"/>homo praeceptis alterius non subdatur, inde est
+<lb ed="#L" n="64"/>quod inobedientia ex inani gloria oritur. Nihil
+<lb ed="#L" n="65"/>autem prohibet ex peccato veniali oriri mortale:
+<lb ed="#L" n="66"/>cum veniale sit dispositio ad mortale.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e302">
+                  <lb ed="#L" n="67"/>AD TERTIUM DICENDUM quod nullus obligatur ad
+<lb ed="#L" n="68"/>impossibile. Et ideo si tot praecepta aliquis 
+prae<lb break="no" ed="#L" n="69"/>latus ingerat quod subditus ea implere non 
+pos<lb break="no" ed="#L" n="70"/>sit, excusatur a peccato. Et ideo praelati 
+absti<lb break="no" ed="#L" n="71"/>nere debent a multitudine praeceptorum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1814-Dd1e317"><!-- p2p2-q105a2" -->
+               <head xml:id="TAca84-d1e1814-Hd1e320">Articulus 2</head>
+               <head xml:id="TAca84-d1e1814-Hd1e322" type="question-title">Utrum inobedientia sit gravissimum peccatum</head>
+               <p xml:id="TAca84-d1e1814-d1e325">
+                  <pb ed="#L" n="394"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=394"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM INOBEDIENTIA SIT GRAVISSIMUM PECCATUM
+</p>
+               <p xml:id="TAca84-d1e1814-d1e336">
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>inobedientia sit gravissimum peccatum.
+<lb ed="#L" n="5"/>Dicitur enim <ref xml:id="TAca84-d1e1814-Rd1e344">I Reg. xv</ref>: <quote xml:id="TAca84-d1e1814-Qd1e346">Quasi 
+pecca<lb break="no" ed="#L" n="6"/>tum. ariolandi est repugnare: et quasi
+<lb ed="#L" n="7"/>scelus idololatriae nolle acquiescere</quote>. Sed 
+idolola<lb break="no" ed="#L" n="8"/>bitum est. Ergo inobedientia est gravissimum
+<lb ed="#L" n="9"/>peccatum.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e359">
+                  <lb ed="#L" n="10"/>2. PnRaETEREA, illud peccatum dicitur esse in
+<lb ed="#L" n="11"/>Spiritum Sanctum per quod tolluntur 
+impedi<lb break="no" ed="#L" n="12"/>menta peccati, ut supra dictum est. Sed per
+<lb ed="#L" n="13"/>inobedientiam contemnit homo praeceptum, quod
+<lb ed="#L" n="14"/>maxime retrahit hominem a peccando. Ergo 
+in<lb break="no" ed="#L" n="15"/>obedientia est peccatum in Spiritum. Sanctum.
+<lb ed="#L" n="16"/>Et ita est gravissimum peccatum.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e378">
+                  <lb ed="#L" n="17"/>3. PnaETEREA, Apostolus dicit, Rom. v, quod 
+<lb ed="#L" n="18"/>per unius inobedientiam peccatores constituti sunt
+<lb ed="#L" n="19"/>multi. Sed causa videtur esse potior effectu.
+<lb ed="#L" n="20"/>Ergo inobedientia videtur esse gravius peccatum
+<lb ed="#L" n="21"/>quam alia quae ex ea causantur.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e391">
+                  <lb ed="#L" n="22"/>SED cONTRA EST quod gravius est contemnere
+<lb ed="#L" n="23"/>praecipientem quam praeceptum. Sed quaedam
+<lb ed="#L" n="24"/>peccata sunt contra ipsam personam 
+praecipien<lb break="no" ed="#L" n="25"/>tis: sicut patet de blasphemia et homicidio. Ergo
+<lb ed="#L" n="26"/>inobedientia non est gravissimum peccatum.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e404">
+                  <lb ed="#L" n="27"/>RESPONDEO DICENDUM quod non omnis 
+inobe<lb break="no" ed="#L" n="28"/>dientia est aequale peccatum. Potest enim una
+<lb ed="#L" n="29"/>inobedientia esse gravior altera dupliciter. Uno
+<lb ed="#L" n="30"/>modo, ex parte praecipientis. Quamvis enim
+<lb ed="#L" n="31"/>omnem curam homo apponere debeat ad hoc
+<lb ed="#L" n="32"/>quod cuilibet superiori obediat, tamen magis est
+<lb ed="#L" n="33"/>debitum quod' homo obediat superiori quam 
+in<lb break="no" ed="#L" n="34"/>feriori potestati. Cuius signum est quod 
+praece<lb break="no" ed="#L" n="35"/>ptum inferioris praetermittitur si sit praecepto
+<lb ed="#L" n="36"/>superioris contrarium. Unde consequens est quod
+<lb ed="#L" n="37"/>quanto superior est ille qui praecipit, tanto ei
+<lb ed="#L" n="38"/>inobedientem esse sit gravius. Et sic 
+inobedien<lb break="no" ed="#L" n="39"/>tem esse Deo est gravius quam inobedientem
+<lb ed="#L" n="40"/>esse homini.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e437">
+                  <lb ed="#L" n="41"/>Secundo, ex parte praeceptorum. Non enim
+<lb ed="#L" n="42"/>praecipiens aequaliter vult impleri omnia quae
+<lb ed="#L" n="43"/>mandat: magis enim unusquisque ? vult finem,
+<lb ed="#L" n="44"/>et id quod est fini propinquius. Et ideo tanto
+<lb ed="#L" n="45"/>est inobedientia gravior, quanto praeceptum quod -
+<lb ed="#L" n="46"/>quis praeterit magis est de intentione illius qui
+<lb ed="#L" n="47"/>praecipit. - Et in praeceptis quidem Dei, 
+manife<lb break="no" ed="#L" n="48"/>stum est quod quanto praeceptum datur de 
+me<lb break="no" ed="#L" n="49"/>liori, tanto est eius inobedientia gravior. Quia cum
+<lb ed="#L" n="50"/>voluntas Dei per se feratur ad bonum, quanto 
+ali<lb break="no" ed="#L" n="51"/>quid est melius, tanto Deus vult illud magis im-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="52"/>pleri. Unde qui inobediens est praecepto de 
+dile<lb break="no" ed="#L" n="53"/>ctione Dei, gravius peccat quam qui inobediens
+<lb ed="#L" n="54"/>est praecepto de dilectione proximi. — Voluntas
+<lb ed="#L" n="55"/>autem hominis non semper magis fertur in melius.
+<lb ed="#L" n="56"/>Et ideo, ubi obligamur ex solo hominis 
+praece<lb break="no" ed="#L" n="57"/>pto, non est gravius peccatum ex eo quod maius
+<lb ed="#L" n="58"/>bonum praeteritur: sed ex eo quod praeteritur
+<lb ed="#L" n="59"/>quod est magis de intentione praecipientis.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e483">
+                  <lb ed="#L" n="60"/>Sic ergo oportet secundum diversos 
+inobedien<lb break="no" ed="#L" n="61"/>tiae gradus diversis peccatorum gradibus 
+com<lb break="no" ed="#L" n="62"/>parare. Nam inobedientia qua contemnitur Dei
+<lb ed="#L" n="63"/>praeceptum, ex ipsa ratione inobedientiae gravius
+<lb ed="#L" n="64"/>est peccatum. quam peccatum quo peccatur in
+<lb ed="#L" n="65"/>hominem, si secerneretur inobedientia. De. (i
+<lb ed="#L" n="66"/>hoc dico B quia qui contra proximum. P ec
+<lb ed="#L" n="67"/>etiam contra Dei praeceptum agit). Si tamer
+<lb ed="#L" n="68"/>aliquo potiori praeceptum Dei contemneret, -
+<lb ed="#L" n="69"/>huc gravius peccatum esset. - Inobedientia. 
+au<lb break="no" ed="#L" n="70"/>tem qua contemnitur praeceptum hominis, rd
+<lb ed="#L" n="71"/>vior est peccato quo contemnitur ipse praecipiet
+<lb ed="#L" n="72"/>quia ex reverentia praecipientis procedere de
+<lb ed="#L" n="73"/>reverentia praecepti. Et similiter peccatum quod
+<lb ed="#L" n="74"/>directe pertinet ad contemptum Dei, sicut 
+blas<lb break="no" ed="#L" n="75"/>phemia vel aliquid huiusmodi, gravius est, etiam
+<lb ed="#L" n="76"/>semota per intellectum inobedientia a peccato.
+<lb ed="#L" n="77"/>quam peccatum in quo contemnitur solum Dei
+<lb ed="#L" n="78"/>praeceptum.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e527">
+                  <lb ed="#L" n="79"/>AD PRIMUM ERGO DICENDUM quod illa 
+compara<lb break="no" ed="#L" n="80"/>tio Samuelis non est aequalitatis, sed 
+similitu<lb break="no" ed="#L" n="81"/>dinis: quia inobedientia redundat in contemptum.
+<lb ed="#L" n="82"/>Dei sicut et idololatria, licet idololatria be
+</p>
+               <p xml:id="TAca84-d1e1814-d1e539">
+                  <lb ed="#L" n="83"/>AD SECUNDUM DICENDUM quod non omnis 
+inobe<lb break="no" ed="#L" n="84"/>dientia est peccatum in Spiritum Sanctum, sec
+<lb ed="#L" n="85"/>solum illa cui obstinatio adhibetur. Non enim
+<lb ed="#L" n="86"/>contemptus ^ cuiuscumque quod peccatum 
+im<lb break="no" ed="#L" n="87"/>pedit, constituit peccatum in Spiritum Sanctum:
+<lb ed="#L" n="88"/>alioquin cuiuslibet boni contemptus esset 
+pecca<lb break="no" ed="#L" n="89"/>tum in Spiritum Sanctum, quia per quodlibet
+<lb ed="#L" n="90"/>bonum potest homo a peccato impediri. Sed 
+il<lb break="no" ed="#L" n="91"/>lorum bonorum contemptus facit peccatum an
+<lb ed="#L" n="92"/>Spiritum Sanctum quae directe ducunt ad 
+poe<lb break="no" ed="#L" n="93"/>nitentiam et remissionem peccatorum.
+</p>
+               <p xml:id="TAca84-d1e1814-d1e565">
+                  <lb ed="#L" n="94"/>AD TERTIUM DICENDUM quod primum peccatum
+<lb ed="#L" n="95"/>primi parentis, ex quo in omnes peccatum 
+ema<lb break="no" ed="#L" n="96"/>navit, non fuit inobedientia, secundum quod est
+<lb ed="#L" n="97"/>speciale peccatum, sed superbia, ex qua homo ad
+<lb ed="#L" n="98"/>inobedientiam processit. Unde Apostolus in 
+ver<lb break="no" ed="#L" n="99"/>bis illis. videtur accipere inobedientiam 
+secun<lb break="no" ed="#L" n="100"/>dum quod generaliter se habet ad omne 
+pec<lb break="no" ed="#L" n="101"/>catum. 
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

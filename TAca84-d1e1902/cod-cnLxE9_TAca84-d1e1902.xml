@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 122</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 122</title>
+          <date when="2024-03-05">March 05, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-03-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="474"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e1902"><!-- p2p2-q122" -->
+        <head xml:id="TAca84-d1e1902-Hd1e101">Quaestio 122</head>
+        <head xml:id="TAca84-d1e1902-Hd1e103" type="question-title">De praeceptis iustitiae</head>
+        <p xml:id="TAca84-d1e1902-d1e106">
+          <pb ed="#L" n="474"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=474"/>QUAESTIO CENTESIMAVIGESIMASECUNDA
+          <lb ed="#L" n="2"/>DE PRAECEPTIS IUSTITIAE
+          <lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e1902-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de praeceptis 
+          iu<lb break="no" ed="#L" n="5"/>stitiae.
+        </p>
+        <p xml:id="TAca84-d1e1902-d1e128">
+          <lb ed="#L" n="6"/>Et circa hoc quaeruntur sex.
+          <lb ed="#L" n="7"/>Primo: utrum praecepta decalogi sint 
+          praece<lb break="no" ed="#L" n="8"/>pta iustitiae.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="9"/>Secundo: de primo praecepto decalogi.
+          <lb ed="#L" n="10"/>Tertio: de secundo.
+          <lb ed="#L" n="11"/>Quarto: de tertio.
+          <lb ed="#L" n="12"/>Quinto: de quarto.
+          <lb ed="#L" n="13"/>Sexto: de alis sex.
+        </p>
+        <div xml:id="TAca84-d1e1902-Dd1e151"><!-- p2p2-q122a1" -->
+          <head xml:id="TAca84-d1e1902-Hd1e154">Articulus 1</head>
+          <head xml:id="TAca84-d1e1902-Hd1e156" type="question-title">Utrum praecepta decalogi sint praecepta iustitiae</head>
+          <p xml:id="TAca84-d1e1902-d1e159">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="14" type="fixed=474"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="15"/>UTRUM PRAECEPTA DECALOGI SINT PRAECEPTA IUSTITIAE
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e168">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="16"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="17"/>praecepta decalogi non sint praecepta
+            <lb ed="#L" n="18"/>iustitiae. Intentio enim legislatoris est 
+            <lb ed="#L" n="19"/>cives facere virtuosos secundum omnem
+            <lb ed="#L" n="20"/>virtutem, ut dicitur in <ref xml:id="TAca84-d1e1902-Rd1e183">II Ethic.</ref>: unde et in <ref xml:id="TAca84-d1e1902-Rd1e185">V
+              <lb ed="#L" n="21"/>Ethic</ref> dicitur quod <quote xml:id="TAca84-d1e1902-Qd1e190">lex praecipit de omnibus
+                <lb ed="#L" n="22"/>actibus virtutum omnium</quote>. Sed praecepta decalogi
+            <lb ed="#L" n="23"/>sunt prima principia totius divinae legis. Ergo
+            <lb ed="#L" n="24"/>praecepta decalogi non pertinent ad solam 
+            iu<lb break="no" ed="#L" n="25"/>stitiam.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e203">
+            <lb ed="#L" n="26"/>2. PRAETEREA, ad iustitiam videntur pertinere
+            <lb ed="#L" n="27"/>praecipue praecepta iudicialia, quae contra 
+            mo<lb break="no" ed="#L" n="28"/>- ralia dividuntur, ut supra habitum est. Sed
+            <lb ed="#L" n="29"/>praecepta decalogi sunt praecepta moralia, ut ex
+            <lb ed="#L" n="30"/>supra dictis patet. Ergo praecepta decalogi non
+            <lb ed="#L" n="31"/>sunt praecepta iustitiae.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e220">
+            <lb ed="#L" n="32"/>3. PRAETEREA, lex praecipue tradit praecepta
+            <lb ed="#L" n="33"/>de actibus iustitiae pertinentibus ad bonum 
+            com<lb break="no" ed="#L" n="34"/>mune: puta de officiis publicis, et aliis huiusmodi.
+            <lb ed="#L" n="35"/>Sed de his non fit mentio in praeceptis decalogi.
+            <lb ed="#L" n="36"/>Ergo videtur quod praecepta decalogi non 
+            per<lb break="no" ed="#L" n="37"/>tineant proprie ad iustitiam.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e236">
+            <lb ed="#L" n="38"/>4. PRAETEREA, praecepta decalogi distinguuntur
+            <lb ed="#L" n="39"/>in duas tabulas secundum dilectionem Dei et
+            <lb ed="#L" n="40"/>proximi, quae pertinent ad virtutem caritatis.
+            <lb ed="#L" n="41"/>Ergo praecepta decalogi magis pertinent ad 
+            ca<lb break="no" ed="#L" n="42"/>ritatem quam ad iustitiam.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e249">
+            <lb ed="#L" n="43"/>SEp CONTRA EST quod iustitia sola videtur esse
+            <lb ed="#L" n="44"/>virtus per quam ordinamur ad alterum. Sed per
+            <lb ed="#L" n="45"/>omnia praecepta decalogi ordinamur ad alterum:
+            <lb ed="#L" n="46"/>ut patet discurrenti per singula. Ergo omnia
+            <lb ed="#L" n="47"/>praecepta decalogi pertinent ad iustitiam.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e262">
+            <lb ed="#L" n="48"/>RESPONDEO DICENDUM quod praecepta decalogi
+            <lb ed="#L" n="49"/>sunt prima praecepta legis, et quibus statim
+            <lb ed="#L" n="50"/>ratio naturalis assentit sicut manifestissimis 5. 
+            Ma<lb break="no" ed="#L" n="51"/>nifestissime autem ratio debiti, quae requiritur
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="52"/>ad praeceptum, apparet in iustitia, quae est ad
+            <lb ed="#L" n="53"/>alterum: quia in his quae spectant  ad seipsum,
+            <lb ed="#L" n="54"/>videtur primo aspectui quod homo sit sui 
+            do<lb break="no" ed="#L" n="55"/>minus, et quod liceat ei facere quodlibet; sed
+            <lb ed="#L" n="56"/>in his quae sunt ad alterum, manifeste apparet
+            <lb ed="#L" n="57"/>quod homo est alteri obligatus ad reddendum
+            <lb ed="#L" n="58"/>ei quod debet. Et ideo praecepta decalogi 
+            opor<lb break="no" ed="#L" n="59"/>tuit ad iustitiam pertinere. Unde tria prima 
+            prae<lb break="no" ed="#L" n="60"/>cepta sunt de actibus religionis, quae est 
+            potis<lb break="no" ed="#L" n="61"/>sima pars "— quartum. autem praeceptum
+            <lb ed="#L" n="62"/>est de actu ? pietatis, quae est pars iustitiae 
+            se<lb break="no" ed="#L" n="63"/>cunda; alia vero sex dantur de actibus iustitiae
+            <lb ed="#L" n="64"/>communiter dictae, quae inter aequales attenditur.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e304">
+            <lb ed="#L" n="65"/>AD PRIMUM ERGO DICENDUM quod lex intendit
+            <lb ed="#L" n="66"/>omnes homines facere virtuosos, sed ordine 
+            quo<lb break="no" ed="#L" n="67"/>dam: ut scilicet prius tradat eis praecepta de his
+            <lb ed="#L" n="68"/>in quibus est manifestior ratio debiti, ut 
+            di<lb break="no" ed="#L" n="69"/>ctum est.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e317">
+            <lb ed="#L" n="70"/>AD SECUNDUM DICENDUM quod iudicialia 
+            praece<lb break="no" ed="#L" n="71"/>pta sunt quaedam determinationes moralium 
+            prae<lb break="no" ed="#L" n="72"/>ceptorum prout ordinantur ad proximum: sicut et
+            <lb ed="#L" n="73"/>caeremonialia sunt quaedam determinationes 
+            mo<lb break="no" ed="#L" n="74"/>ralium praeceptorum prout ordinantur ad Deum.
+            <lb ed="#L" n="75"/>Unde neutra praecepta continentur in decalogo.
+            <lb ed="#L" n="76"/>Sunt tamen determinationes praeceptorum 
+            de<lb break="no" ed="#L" n="77"/>calogi. Et sic ad iustitiam pertinent.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e338">
+            <lb ed="#L" n="78"/>AD TERTIUM DICENDUM quod ea quae pertinent
+            <lb ed="#L" n="79"/>ad bonum commune oportet diversimode 
+            dispen<lb break="no" ed="#L" n="80"/>sari secundum hominum diversitatem. Et ideo
+            <lb ed="#L" n="81"/>non fuerunt ponenda inter praecepta decalogi ,
+            <lb ed="#L" n="82"/>sed inter praecepta iudicialia.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e351">
+            <lb ed="#L" n="83"/>AD QUARTUM DICENDUM quod praecepta decalogi
+            <lb ed="#L" n="84"/>pertinent ad caritatem sicut ad finem: secundum
+            <lb ed="#L" n="85"/>illud I ad Tim. 1: <quote xml:id="TAca84-d1e1902-Qd1e359">Finis praecepti caritas est</quote>.
+            <lb ed="#L" n="86"/>Sed ad iustitiam pertinent inquantum immediate
+            <lb ed="#L" n="87"/>quae requiritur sunt de actibus iustitiae.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1902-Dd1e368"><!-- p2p2-q122a2" -->
+          <head xml:id="TAca84-d1e1902-Hd1e371">Articulus 2</head>
+          <head xml:id="TAca84-d1e1902-Hd1e373" type="question-title">Utrum primum praeceptum decalogi convenienter tradatur</head>
+          <p xml:id="TAca84-d1e1902-d1e376">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="58" type="fixed=475"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="59"/>UTRUM PRIMUM PRAECEPTUM DECALOGI CONVENIENTER TRADATUR
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e385">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="60"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="61"/>primum praeceptum decalogi 
+            inconve<lb break="no" ed="#L" n="62"/>nienter tradatur. Magis enim homo est 
+            <lb ed="#L" n="63"/>obligatus Deo quam patri carnali: 
+            se<lb break="no" ed="#L" n="64"/>cundum illud Heb. xu: Quanto magis 
+            obtem<lb break="no" ed="#L" n="65"/>perabimus Patri spirituum, et vivemus? Sed 
+            prae<lb break="no" ed="#L" n="66"/>ceptum pietatis, qua honoratur pater, ponitur
+            <lb ed="#L" n="67"/>affirmative, cum dicitur: Honora patrem tuum
+            <lb ed="#L" n="68"/>et matrem tuam. Ergo multo magis primum 
+            prae<lb break="no" ed="#L" n="69"/>ceptum religionis, qua honoratur Deus, debuit 
+            <lb ed="#L" n="70"/>proponi affirmative: praesertim cum affirmatio
+            <lb ed="#L" n="71"/>sit naturaliter prior negatione.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e416">
+            <lb ed="#L" n="72"/>2. PRAETEREA, primum praeceptum decalogi ad
+            <lb ed="#L" n="73"/>religionem pertinet, ut dictum est. Sed religio,
+            <lb ed="#L" n="74"/>cum sit una virtus, habet unum actum. In primo
+            <lb ed="#L" n="75"/>autem praecepto prohibentur tres actus: nam
+            <lb ed="#L" n="76"/>primo dicitur: Non habebis deos alienos coram 
+            <lb ed="#L" n="77"/>me; secundo dicitur: Non facies tibi sculptile; 
+            <lb ed="#L" n="78"/>tertio: Non adorabis ea, neque coles. Ergo 
+            <lb ed="#L" n="79"/>nis quod primo contraria et impedimenta 
+            tol<lb break="no" ed="#L" n="80"/>inconvenienter traditur primum praeceptum.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e439">
+            <lb ed="#L" n="81"/>3. PRAETEREA, Augustinus dicit, in libro de 
+            <lb ed="#L" n="82"/>Decem Chordis, quod per primum praeceptum |
+            <lb ed="#L" n="83"/>excluditur vitium ' superstitionis. Sed multae sunt
+            <lb ed="#L" n="84"/>aliae noxiae superstitiones praeter idololatriam ,
+            <lb ed="#L" n="85"/>ut supra dictum est. Insufficienter ergo prohi- |
+            <lb ed="#L" n="86"/>betur sola idololatria.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e455">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="87"/>IN CONTRARIUM est auctoritas Scripturae.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e462">
+            <lb ed="#L" n="88"/>RESPONDEO DICENDUM quod ad legem pertinet
+            <lb ed="#L" n="89"/>facere homines bonos. Et ideo oportet 
+            praece<lb break="no" ed="#L" n="90"/>pta legis ordinari secundum ordinem 
+            generatio<lb break="no" ed="#L" n="91"/>nis, qua scilicet homo fit bonus. In ordine 
+            au<lb break="no" ed="#L" n="92"/>tem generationis duo sunt attendenda. Quorum
+            <lb ed="#L" n="93"/>primum est quod prima pars primo constituitur:
+            <lb ed="#L" n="94"/>sicut in generatione animalis primo generatur
+            <lb ed="#L" n="95"/>cor, et in domo primo fit 5 fundamentum. In
+            <lb ed="#L" n="96"/>bonitate autem ! animae prima pars est bonitas
+            <lb ed="#L" n="97"/>voluntatis, ex qua aliquis homo bene utitur 
+            qua<lb break="no" ed="#L" n="98"/>libet alia bonitate. Bonitas autem voluntatis 
+            at<lb break="no" ed="#L" n="99"/>tenditur ad obiectum suum, quod est finis. Et
+            <lb ed="#L" n="100"/>ideo in eo qui erat per legem instituendus ad
+            <lb ed="#L" n="101"/>virtutem, primo oportuit quasi iacere quoddam
+            <lb ed="#L" n="102"/>fundamentum religionis, per quam homo debite
+            <lb ed="#L" n="103"/>ordinatur in Deum, qui est ultimus finis 
+            huma<lb break="no" ed="#L" n="104"/>nae voluntatis.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e501">
+            <lb ed="#L" n="105"/>Secundo attendendum est in ordine 
+            generatio<lb break="no" ed="#L" n="106"/>luntur: sicut agricola primo purgat agrum, et
+            <lb ed="#L" n="107"/>postea proiicit semina, secundum illud lerem. iv:
+            <lb ed="#L" n="108"/>Novate vobis novale, et nolite serere super 
+            spi<lb break="no" ed="#L" n="109"/>nas. Et ideo circa religionem primo homo erat
+            <lb ed="#L" n="110"/>instituendus ut impedimenta verae religionis 
+            ex<lb break="no" ed="#L" n="111"/>cluderet. Praecipuum autem impedimentum re-
+            <pb ed="#L" n="476"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>ligionis est quod homo falso deo inhaereat: 
+            se<lb break="no" ed="#L" n="2"/>cundum illud Matth. vi: Non potestis servire
+            <lb ed="#L" n="3"/>Deo et mammonae. Et ideo in primo praecepto
+            <lb ed="#L" n="4"/>legis excluditur cultus falsorum deorum.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e532">
+            <lb ed="#L" n="5"/>AD PRIMUM ERGO DICENDUM quod etiam circa 
+            reli<lb break="no" ed="#L" n="6"/>gionem ponitur unum praeceptum affirmativum,
+            <lb ed="#L" n="7"/>scilicet: Memento ut diem sabbati sanctifices. Sed
+            <lb ed="#L" n="8"/>erant praemittenda praecepta negativa, quibus 
+            im<lb break="no" ed="#L" n="9"/>pedimenta religionis tollerentur. Quamvis enim 
+            <lb ed="#L" n="10"/>affirmatio naturaliter sit prior negatione, tamen
+            <lb ed="#L" n="11"/>in via generationis negatio, qua removentur 
+            im<lb break="no" ed="#L" n="12"/>pedimenta, est prior, ut dictum est. Et 
+            praeci<lb break="no" ed="#L" n="13"/>pue in rebus divinis, in quibus negationes 
+            prae<lb break="no" ed="#L" n="14"/>feruntur affirmationibus, propter insufficientiam
+            <lb ed="#L" n="15"/>nostram: ut Dionysius dicit, it cap. Cael. Hier.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e558">
+            <lb ed="#L" n="16"/>AD SECUNDUM DICENDUM quod cultus alienorum
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="17"/>deorum dupliciter apud aliquos observabatur.
+            <lb ed="#L" n="18"/>Quidam enim quasdam creaturas pro diis 
+            cole<lb break="no" ed="#L" n="19"/>bant absque institutione imaginum: unde Varro
+            <lb ed="#L" n="20"/>dixit quod antiqui Romani diu sine simulacris
+            <lb ed="#L" n="21"/>deos coluerunt. Et hic cultus prohibetur primo,
+            <lb ed="#L" n="22"/>cum dicitur: Non habebis deos alienos. - Apud xx
+            <lb ed="#L" n="23"/>alios autem erat cultus falsorum deorum sub 
+            qui<lb break="no" ed="#L" n="24"/>busdam imaginibus. Et ideo opportune 
+            prohi<lb break="no" ed="#L" n="25"/>betur et ipsarum imaginum institutio, cum 
+            dici<lb break="no" ed="#L" n="26"/>tur: Non facies tibi sculptile; et imaginum 
+            ipsa<lb break="no" ed="#L" n="27"/>rum cultus, cum dicitur: Non coles ea, etc.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e590">
+            <lb ed="#L" n="28"/>AD TERTIUM DICENDUM quod omnes aliae 
+            super<lb break="no" ed="#L" n="29"/>stitiones procedunt ex aliquo pacto cum 
+            daemo<lb break="no" ed="#L" n="30"/>nibus inito tacito vel expresso. Et ideo omnes
+            <lb ed="#L" n="31"/>intelliguntur prohiberi in hoc quod dicitur: Non
+            <lb ed="#L" n="32"/>habebis deos alienos.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1902-Dd1e604"><!-- p2p2-q122a3" -->
+          <head xml:id="TAca84-d1e1902-Hd1e607">Articulus 3</head>
+          <head xml:id="TAca84-d1e1902-Hd1e609" type="question-title">Utrum secundum praeceptum decalogi convenienter tradatur</head>
+          <p xml:id="TAca84-d1e1902-d1e612">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="33" type="fixed=476"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="34"/>UTRUM SECUNDUM PRAECEPTUM DECALOGI CONVENIENTER TRADATUR
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e621">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="35"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="36"/>secundum praeceptum decalogi non
+            <lb ed="#L" n="37"/>convenienter tradatur. Hoc enim 
+            prae<lb break="no" ed="#L" n="38"/>ceptum , Non assumes nomen Dei tui
+            <lb ed="#L" n="39"/>in vanum, sic exponitur in Glossa Exod. xx:
+            <lb ed="#L" n="40"/>idest, Non existimes creaturam esse Filium Dei,
+            <lb ed="#L" n="41"/>per quod prohibetur error contra fidem. Et
+            <lb ed="#L" n="42"/>Deut. v exponitur*: Non assumes nomen Dei
+            <lb ed="#L" n="43"/>tui in vanum: scilicet, nomen Dei ligno et? lapidi
+            <lb ed="#L" n="44"/>attribuendo, per quod prohibetur falsa confessio,
+            <lb ed="#L" n="45"/>quae est actus infidelitatis, sicut et error. 
+            Infideli<lb break="no" ed="#L" n="46"/>tas autem est prior superstitione: sicut et fides
+            <lb ed="#L" n="47"/>religione. Ergo hoc praeceptum debuit praemitti
+            <lb ed="#L" n="48"/>primo, in quo prohibetur superstitio.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e656">
+            <lb ed="#L" n="49"/>2. PRAETEREA, nomen Dei ad multa assumitur:
+            <lb ed="#L" n="50"/>sicut ad laudandum, ad miracula faciendum, et
+            <lb ed="#L" n="51"/>universaliter ad omnia quae dicuntur vel fiunt
+            <lb ed="#L" n="52"/>a nobis, secundum illud Coloss. u1: Omne 
+            quod<lb break="no" ed="#L" n="53"/>cumque facitis in verbo vel opere, in nomine 
+            Do<lb break="no" ed="#L" n="54"/>mini facite. Ergo praeceptum quo prohibetur 
+            no<lb break="no" ed="#L" n="55"/>men Dei assumi in vanum, videtur universalius
+            <lb ed="#L" n="56"/>esse quam praeceptum quo prohibetur 
+            supersti<lb break="no" ed="#L" n="57"/>tio. Et ita debuit ei praemitti.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e679">
+            <lb ed="#L" n="58"/>3. PRAETEREA, Exod. xx exponitur illud
+            <lb ed="#L" n="59"/>praeceptum, <quote xml:id="TAca84-d1e1902-Qd1e685">Non assumes nomen Dei tui in 
+              va<lb break="no" ed="#L" n="60"/>num: iurando scilicet pro nihilo</quote>. Unde videtur per
+            <lb ed="#L" n="61"/>hoc prohiberi vana iuratio, quae scilicet est sine
+            <lb ed="#L" n="62"/>iudicio. Sed multo gravior est falsa iuratio, quae
+            <lb ed="#L" n="63"/>est sine veritate; et iniusta iuratio, quae est sine
+            <lb ed="#L" n="64"/>iustitia. Ergo magis debuerunt illa prohiberi per
+            <lb ed="#L" n="65"/>hoc praeceptum.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e702">
+            <lb ed="#L" n="66"/>4. PRAETEREA, multo gravius peccatum est 
+            blas<lb break="no" ed="#L" n="67"/>phemia, vel quidquid fiat verbo vel facto in con-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="68"/>tumeliam Dei, quam periurium. Ergo blasphemia
+            <lb ed="#L" n="69"/>et alia huiusmodi magis debuerunt per hoc 
+            prae<lb break="no" ed="#L" n="70"/>ceptum prohiberi.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e718">
+            <lb ed="#L" n="71"/>5. PRAETEREA, multa sunt Dei nomina. Ergo
+            <lb ed="#L" n="72"/>non debuit indeterminate dici: Non assumes 
+            no<lb break="no" ed="#L" n="73"/>men Dei tui in vanum.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e727">
+            <lb ed="#L" n="74"/>SED IN CONTRARIUM est Scripturae auctoritas.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e732">
+            <lb ed="#L" n="75"/>RESPONDEO DICENDUM quod oportet prius 
+            im<lb break="no" ed="#L" n="76"/>pedimenta verae religionis excludere in eo. qui
+            <lb ed="#L" n="77"/>instituitur ad virtutem, quam eum in vera di
+            <lb ed="#L" n="78"/>gione fundare. Opponitur autem verae religioni
+            <lb ed="#L" n="79"/>aliquid dupliciter. Uno modo, per excessum
+            <lb ed="#L" n="80"/>quando scilicet id quod est religionis alteri 
+            in<lb break="no" ed="#L" n="81"/>debite exhibetur: quod pertinet ad superstitionem.
+            <lb ed="#L" n="82"/>Alio modo, quasi per defectum reverentiae, cum
+            <lb ed="#L" n="83"/>scilicet Duis contemnitur: quod pertinet ad vi c
+            <lb ed="#L" n="84"/>tium irreligiositatis, ut supra habitum est. 
+            Su<lb break="no" ed="#L" n="85"/>perstitio autem impedit religionem quantum ad
+            <lb ed="#L" n="86"/>hoc, ne suscipiatur Deus ad colendum. llle 
+            au<lb break="no" ed="#L" n="87"/>tem cuius animus implicatus est indebito cultui ",
+            <lb ed="#L" n="88"/>non potest simul debitum Dei cultum suscipere:
+            <lb ed="#L" n="89"/>secundum illud Isaiae xxvui: Angustatum. est
+            <lb ed="#L" n="90"/>stratum, ut alter decidat, scilicet Deus verus vel
+            <lb ed="#L" n="91"/>falsus a corde hominis, et pallium breve 
+            utrum<lb break="no" ed="#L" n="92"/>que operire non potest. Per irreligiositatem autem
+            <lb ed="#L" n="93"/>impeditur religio quantum ad hoc, ne Deus, 
+            post<lb break="no" ed="#L" n="94"/>quam susceptus est, honoretur. Prius autem est
+            <lb ed="#L" n="95"/>Deum suscipere ad colendum quam eum 
+            susce<lb break="no" ed="#L" n="96"/>ptum honorare. Et ideo praemittitur praeceptum
+            <lb ed="#L" n="97"/>quo prohibetur superstitio secundo praecepto, quo
+            <lb ed="#L" n="98"/>prohibetur periurium, ad irreligiositatem  
+            perti<lb break="no" ed="#L" n="99"/>nens.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e789">
+            <lb ed="#L" n="100"/>AD PRIMUM ERGO DICENDUM quod illae expositio-
+            <pb ed="#L" n="477"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>nes sunt mysticae. Litteralis autem expositio est 
+            <lb ed="#L" n="2"/>Glos. Ieri. quae habetur Deut. v: Non assumes nomen Dei 
+            <lb ed="#L" n="3"/>tui in vanum: scilicet iurando pro re quae non est. 
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e806">
+            <lb ed="#L" n="4"/>AD SECUNDUM DICENDUM quod non prohibetur 
+            <lb ed="#L" n="5"/>quaelibet assumptio divini nominis per hoc 
+            prae<lb break="no" ed="#L" n="6"/>ceptum, sed proprie illa qua sumitur divinum 
+            <lb ed="#L" n="7"/>nomen ad confirmationem humani verbi per 
+            mo<lb break="no" ed="#L" n="8"/>dum iuramenti: quia ista assumptio divini 
+            no<lb break="no" ed="#L" n="9"/>minis est frequentior apud homines. Potest 
+            ta<lb break="no" ed="#L" n="10"/>ex consequenti intelligi ut per hoc 
+            prohi<lb break="no" ed="#L" n="11"/>beatur omnis inordinata divini nominis assumptio. 
+            <lb ed="#L" n="12"/>Et secundum hoc procedunt illae expositiones 
+            <lb ed="#L" n="13"/>de quibus supra dictum est. 
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e830">
+            <lb ed="#L" n="14"/>AD TERTIUM DICENDUM quod pro nihilo iurare 
+            <lb ed="#L" n="15"/>dicitur ille qui iurat pro eo quod non est, quod 
+            <lb ed="#L" n="16"/>pertinet ad falsam iurationem, quae principaliter 
+            <lb ed="#L" n="17"/>periurium nominatur, ut supra dictum est. 
+            <lb ed="#L" n="18"/>Quando enim aliquis falsum iurat, tunc iuratio  
+            <lb ed="#L" n="19"/>est vana secundum seipsam: quia non habet 
+            fir<lb break="no" ed="#L" n="20"/>mamentum veritatis. Quando autem aliquis iurat 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="21"/>sine iudicio ex aliqua levitate, si verum iurat,
+            <lb ed="#L" n="22"/>non est ibi vanitas ex parte ipsius iuramenti,
+            <lb ed="#L" n="23"/>sed solum ex parte iurantis.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e856">
+            <lb ed="#L" n="24"/>AD QUARTUM DICENDUM quod sicut ei qui 
+            in<lb break="no" ed="#L" n="25"/>struitur in aliqua scientia primo proponuntur
+            <lb ed="#L" n="26"/>quaedam communia documenta, ita. etiam lex,
+            <lb ed="#L" n="27"/>quae instituit hominem ad virtutem, in 
+            praece<lb break="no" ed="#L" n="28"/>ptis decalogi, quae sunt prima, ea proposuit, vel
+            <lb ed="#L" n="29"/>prohibendo vel mandando, quae communius in
+            <lb ed="#L" n="30"/>cursu humanae vitae solent accidere. Et ideo
+            <lb ed="#L" n="31"/>inter praecepta decalogi prohibetur periurium,
+            <lb ed="#L" n="32"/>quod frequentius accidit quam blasphemia, in
+            <lb ed="#L" n="33"/>quam homo rarius prolabitur.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e880">
+            <lb ed="#L" n="34"/>AD QUINTUM DICENDUM quod nominibus Dei 
+            de<lb break="no" ed="#L" n="35"/>betur reverentia ex parte rei significatae, quae
+            <lb ed="#L" n="36"/>est una: non autem ratione vocum 
+            significan<lb break="no" ed="#L" n="37"/>tium, quae sunt multae. Et ideo singulariter 
+            di<lb break="no" ed="#L" n="38"/>xit: Non assumes nomen Dei tui in vanum: quia
+            <lb ed="#L" n="39"/>non differt per quodcumque nomen Dei 
+            periu<lb break="no" ed="#L" n="40"/>rium committatur.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1902-Dd1e899"><!-- p2p2-q122a4" -->
+          <head xml:id="TAca84-d1e1902-Hd1e902">Articulus 4</head>
+          <head xml:id="TAca84-d1e1902-Hd1e904" type="question-title">Utrum convenienter tertium praeceptum decalogi tradatur</head>
+          <p xml:id="TAca84-d1e1902-d1e907">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="41" type="fixed=477"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="42"/>UTRUM CONVENIENTER TERTIUM PRAECEPTUM DECALOGI TRADATUR
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e916">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="43"/>AD QUARTUM SIC PROCEDITUR. Videtur quod  
+            <lb ed="#L" n="44"/>inconvenienter tertium praeceptum 
+            de<lb break="no" ed="#L" n="45"/>calogi tradatur, scilicet de sanctificatione  
+            <lb ed="#L" n="46"/>sabbati. Hoc enim praeceptum, 
+            spiri<lb break="no" ed="#L" n="47"/>tualiter intellectum, est generale: dicit enim 
+            Am<lb break="no" ed="#L" n="48"/>brosius, super illud Luc. xui*, Archisynagogus 
+            <lb ed="#L" n="49"/>indignans quia sabbato curasset Lex, inquit, in 
+            <lb ed="#L" n="50"/>sabbato non hominem curare, sed servilia opera  
+            <lb ed="#L" n="51"/>facere, idest peccatis gravari, prohibet. Secundum  
+            <lb ed="#L" n="52"/>autem litteralem sensum, est praeceptum 
+            caere<lb break="no" ed="#L" n="53"/>moniale: dicitur enim Exod. xxxi: Videte ut  
+            <lb ed="#L" n="54"/>sabbatum meum custodiatis: quia signum est 
+            in<lb break="no" ed="#L" n="55"/>ter me et vos in generationibus vestris. Praecepta 
+            <lb ed="#L" n="56"/>autem decalogi et sunt praecepta spiritualia, et  
+            <lb ed="#L" n="57"/>sunt moralia 5. Inconvenienter ergo ponitur inter  
+            <lb ed="#L" n="58"/>praecepta decalogi.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e955">
+            <lb ed="#L" n="59"/>2. PRAETEREA, caeremonialia legis praecepta  
+            <lb ed="#L" n="60"/>continent sacra, sacrificia, sacramenta et 
+            obser<lb break="no" ed="#L" n="61"/>vantias, ut supra habitum est. Ad sacra autem  
+            <lb ed="#L" n="62"/>pertinebant non solum sacri dies, sed etiam sacra  
+            <lb ed="#L" n="63"/>loca et sacra vasa et alia huiusmodi. Similiter 
+            <lb ed="#L" n="64"/>etiam erant multi sacri dies praeter sabbatum. 
+            In<lb break="no" ed="#L" n="65"/>conveniens igitur est ! quod, praetermissis 
+            omni<lb break="no" ed="#L" n="66"/>bus aliis caeremonialibus, de. sola observantia  
+            <lb ed="#L" n="67"/>sabbati fit mentio. 
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e978">
+            <lb ed="#L" n="68"/>3. PRAETEREA, quicumque transgreditur 
+            prae<lb break="no" ed="#L" n="69"/>ceptum decalogi, peccat. Sed in veteri lege aliqui 
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="70"/>transgredientes observantiam sabbati non 
+            pec<lb break="no" ed="#L" n="71"/>cabant: sicut circumcidentes pueros octava die,
+            <lb ed="#L" n="72"/>et sacerdotes in templo sabbatis operantes. Et
+            <lb ed="#L" n="73"/>Elias, cum quadraginta diebus pervenisset ad 
+            mon<lb break="no" ed="#L" n="74"/>fem Dei Horeb, consequens est quod in sabbato
+            <lb ed="#L" n="75"/>itineraverit. Similiter etiam sacerdotes, dum 
+            cir<lb break="no" ed="#L" n="76"/>cumferrent septem diebus arcam Domini, ut 
+            legi<lb break="no" ed="#L" n="77"/>tur Josue vi, intelliguntur eam die sabbati 
+            cir<lb break="no" ed="#L" n="78"/>cumtulisse. Dicitur etiam Luc. xm: Nonne 
+            unus<lb break="no" ed="#L" n="79"/>quisque vestrum solvit bovem suum aut asinum
+            <lb ed="#L" n="80"/>et ducii adaquare? Ergo inconvenienter ponitur
+            <lb ed="#L" n="81"/>inter praecepta decalogi.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1013">
+            <lb ed="#L" n="82"/>4. PRAETEREA, praecepta decalogi sunt etiam
+            <lb ed="#L" n="83"/>in nova lege observanda. Sed in nova lege non
+            <lb ed="#L" n="84"/>servatur hoc praeceptum, nec quantum ad diem
+            <lb ed="#L" n="85"/>sabbati, nec quantum ad diem Dominicam, in
+            <lb ed="#L" n="86"/>qua et cibi coquuntur, et itinerantur et piscantur
+            <lb ed="#L" n="87"/>homines, et alia multa huiusmodi faciunt. Ergo
+            <lb ed="#L" n="88"/>inconvenienter traditur praeceptum de 
+            observan<lb break="no" ed="#L" n="89"/>tia sabbati. 
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1033">
+            <lb ed="#L" n="90"/>SED iN coNTRARIUM est Scripturae auctoritas.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1038">
+            <lb ed="#L" n="91"/>REsPONDEO DICENDUM quod, remotis 
+            impedi<lb break="no" ed="#L" n="92"/>mentis verae religionis per primum et secundum
+            <lb ed="#L" n="93"/>praeceptum decalogi, ut supra dictum est, 
+            con<lb break="no" ed="#L" n="94"/>sequens fuit ut tertium praeceptum poneretur,
+            <lb ed="#L" n="95"/>per quod homines in vera religione fundarentur.
+            <lb ed="#L" n="96"/>Ad religionem autem pertinet cultum Deo exhi-
+            <pb ed="#L" n="478"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>bere. Sicut autem in Scriptura divina traduntur
+            <lb ed="#L" n="2"/>nobis* sub aliquibus. corporalium rerum 
+            simili<lb break="no" ed="#L" n="3"/>tudinibus, ita cultus exterior Deo exhibetur per
+            <lb ed="#L" n="4"/>aliquod sensibile signum. Et quia ad interiorem
+            <lb ed="#L" n="5"/>cultum , qui consistit in oratione et devotione,
+            <lb ed="#L" n="6"/>magis inducitur homo ex interiori Spiritus 
+            San<lb break="no" ed="#L" n="7"/>cti instinctu, praeceptum legis dandum fuit de
+            <lb ed="#L" n="8"/>exteriori cultu secundum aliquod sensibile signum.
+            <lb ed="#L" n="9"/>Et quia praecepta decalogi sunt quasi quaedam
+            <lb ed="#L" n="10"/>prima et communia legis principia, ideo in tertio
+            <lb ed="#L" n="11"/>praecepto decalogi praecipitur exterior Dei cultus
+            <lb ed="#L" n="12"/>sub signo communis beneficii quod pertinet ad
+            <lb ed="#L" n="13"/>omnes, scilicet ad repraesentandum opus 
+            crea<lb break="no" ed="#L" n="14"/>tionis mundi, a quo requievisse dicitur Deus 
+            se<lb break="no" ed="#L" n="15"/>ptimo die: in cuius signum, dies septima 
+            man<lb break="no" ed="#L" n="16"/>datur sanctificanda , idest deputanda ad 
+            vacan<lb break="no" ed="#L" n="17"/>dum Deo. Et ideo Exod. xx, praemisso 
+            prae<lb break="no" ed="#L" n="18"/>cepto de sanctificatione sabbati, assignatur ratio:
+            <lb ed="#L" n="19"/>quia sex diebus fecit Deus caelum et terram, et
+            <lb ed="#L" n="20"/>in die septimo requievit.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1101">
+            <lb ed="#L" n="21"/>AD PRIMUM ERGO DICENDUM quod praeceptum de
+            <lb ed="#L" n="22"/>sanctificatione sabbati, litteraliter intellectum, est
+            <lb ed="#L" n="23"/>partim morale, partim caeremoniale. Morale 
+            qui<lb break="no" ed="#L" n="24"/>dem, quantum ad hoc quod homo deputet 
+            ali<lb break="no" ed="#L" n="25"/>quod tempus vitae suae ad vacandum divinis.
+            <lb ed="#L" n="26"/>Inest enim homini naturalis inclinatio ad hoc
+            <lb ed="#L" n="27"/>quod cuilibet rei necessariae deputetur aliquod
+            <lb ed="#L" n="28"/>tempus: sicut corporali refectioni, somno et aliis
+            <lb ed="#L" n="29"/>huiusmodi. Unde etiam spirituali refectioni, qua
+            <lb ed="#L" n="30"/>mens hominis in Deo reficitur, secundum 
+            dicta<lb break="no" ed="#L" n="31"/>men rationis naturalis aliquod tempus deputat
+            <lb ed="#L" n="32"/>homo. Et sic habere aliquod tempus deputatum
+            <lb ed="#L" n="33"/>ad vacandum divinis, cadit sub praecepto 
+            mo<lb break="no" ed="#L" n="34"/>rali. - Sed inquantum in hoc praecepto 
+            determi<lb break="no" ed="#L" n="35"/>natur speciale tempus in signum creationis mundi,
+            <lb ed="#L" n="36"/>sic est praeceptum caeremoniale. Similiter etiam
+            <lb ed="#L" n="37"/>caeremoniale est secundum allegoricam 
+            signifi<lb break="no" ed="#L" n="38"/>cationem, prout fuit figura quietis Christi in
+            <lb ed="#L" n="39"/>sepulcro, quae fuit septima die. Et similiter 
+            se<lb break="no" ed="#L" n="40"/>cundum moralem significationem, prout significat
+            <lb ed="#L" n="41"/>cessationem ab omni actu peccati et quietem
+            <lb ed="#L" n="42"/>mentis in Deo: et secundum hoc quodammodo
+            <lb ed="#L" n="43"/>est praeceptum generale. Similiter etiam 
+            caere<lb break="no" ed="#L" n="44"/>moniale est secundum significationem 
+            anagogi<lb break="no" ed="#L" n="45"/>cam, prout scilicet praefigurat quietem fruitionis
+            <lb ed="#L" n="46"/>Dei quae erit in patria.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1160">
+            <lb ed="#L" n="47"/>Unde praeceptum de sanctificatione sabbati 
+            po<lb break="no" ed="#L" n="48"/>nitur inter praecepta decalogi inquantum est 
+            prae<lb break="no" ed="#L" n="49"/>ceptum morale: non inquantum est caeremoniale.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1170">
+            <lb ed="#L" n="50"/>AD SECUNDUM DICENDUM quod aliae caeremoniae
+            <lb ed="#L" n="51"/>legis sunt signa aliquorum particularium  
+            effe<lb break="no" ed="#L" n="52"/>ctuum Dei. Sed observatio sabbati est signum
+            <lb ed="#L" n="53"/>generalis beneficii, scilicet productionis universae
+            <lb ed="#L" n="54"/>creaturae. Et ideo convenientius poni debuit 
+            in<lb break="no" ed="#L" n="55"/>ter generalia praecepta decalogi quam aliquod 
+            <lb ed="#L" n="56"/>aliud caeremoniale legis.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1188">
+            <lb ed="#L" n="57"/>AD TERTIUM DICENDUM quod in observantia sab-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="58"/>bati duo sunt consideranda. Quorum unum est
+            <lb ed="#L" n="59"/>sicut finis: et hoc est ut homo vacet rebus 
+            di<lb break="no" ed="#L" n="60"/>vinis. Quod significatur in hoc quod dicit: 
+            Me<lb break="no" ed="#L" n="61"/>mento. ut diem sabbati sanctifices: illa enim 
+            san<lb break="no" ed="#L" n="62"/>ctificari dicuntur in lege quae divino cultui 
+            ap<lb break="no" ed="#L" n="63"/>plicantur. - Aliud autem. est cessatio operum:
+            <lb ed="#L" n="64"/>quae significatur cum subditur: Septimo die 
+            Do<lb break="no" ed="#L" n="65"/>mini Dei tui, non facies omne opus. Sed de quo
+            <lb ed="#L" n="66"/>opere intelligatur, apparet per id quod exponitur
+            <lb ed="#L" n="67"/>Levit. xxiu: Omne opus servile non facietis in eo.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1217">
+            <lb ed="#L" n="68"/>Opus autem servile dicitur a servitute. Est
+            <lb ed="#L" n="69"/>autem triplex servitus. Una quidem qua homo
+            <lb ed="#L" n="70"/>servit peccato: secundum illud: Qui facit 
+            pec<lb break="no" ed="#L" n="71"/>catum, servus est peccati. Et secundum hoc,
+            <lb ed="#L" n="72"/>omne opus peccati dicitur servile. — Alia vero
+            <lb ed="#L" n="73"/>servitus est qua homo servit homini. Est autem
+            <lb ed="#L" n="74"/>homo alterius servus non secundum mentem, sed .—
+            <lb ed="#L" n="75"/>secundum corpus, ut supra habitum est. Et ideo
+            <lb ed="#L" n="76"/>opera servilia, secundum hoc, dicuntur opera 
+            <lb ed="#L" n="77"/>corporalia in quibus unus homo alteri servit. —
+            <lb ed="#L" n="78"/>Tertia autem est servitus Dei. Et secundum hoc,
+            <lb ed="#L" n="79"/>opus servile posset dici opus latriae, quod 
+            per<lb break="no" ed="#L" n="80"/>tinet ad Dei servitium.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1248">
+            <lb ed="#L" n="81"/>Si autem sic intelligatur opus servile, non 
+            pro<lb break="no" ed="#L" n="82"/>hibetur in die sabbati. Quia hoc esset contrarium
+            <lb ed="#L" n="83"/>fini observationis sabbati: homo enim ad hoc ab
+            <lb ed="#L" n="84"/>aliis operibus abstinet in die sabbati, ut vacet
+            <lb ed="#L" n="85"/>operibus ad Dei servitutem pertinentibus. Et inde
+            <lb ed="#L" n="86"/>est quod, sicut dicitur Ioan. vu, circumcisionem
+            <lb ed="#L" n="87"/>accipit homo in sabbato, ut non solvatur lex Moysi.
+            <lb ed="#L" n="88"/>Inde etiam est quod, sicut dicitur Matth. xii, 
+            sab<lb break="no" ed="#L" n="89"/>batis sacerdotes in templo sabbatum violant, idest,
+            <lb ed="#L" n="90"/>corporaliter in sabbato operantur, ef sine crimine
+            <lb ed="#L" n="91"/>sunt. Et sic etiam sacerdotes in sabbato 
+            circum<lb break="no" ed="#L" n="92"/>ferentes arcam non transgrediebantur 
+            praece<lb break="no" ed="#L" n="93"/>ptum de observantia sabbati. Et similiter etiam
+            <lb ed="#L" n="94"/>nullius spiritualis actus exercitium est contra 
+            ob<lb break="no" ed="#L" n="95"/>servantiam sabbati, puta si quis doceat verbo vel
+            <lb ed="#L" n="96"/>scripto: unde <ref xml:id="TAca84-d1e1902-Rd1e1284">Num. xxvin</ref>, dicit <ref xml:id="TAca84-d1e1902-Rd1e1287">Glossa</ref> quod
+            <quote xml:id="TAca84-d1e1902-Qd1e1289">fabri et huiusmodi artifices otiantur in die 
+              sab<lb break="no" ed="#L" n="97"/>bati. Lector autem divinae legis vel doctor ab
+              <lb ed="#L" n="98"/>opere suo non desinil, nec tamen contaminatur
+              <lb ed="#L" n="99"/>sabbatum: sicut « sacerdotes in templo sabbatum
+              <lb ed="#L" n="100"/>violant, et sine crimine sunt ».</quote>
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1301">
+            <lb ed="#L" n="101"/>Sed alia opera servilia, quae dicuntur servilia
+            <lb ed="#L" n="102"/>primo vel secundo modo, contrariantur 
+            obser<lb break="no" ed="#L" n="103"/>vantiae sabbati, inquantum impediunt 
+            applicatio<lb break="no" ed="#L" n="104"/>nem hominis ad divina. Et quia impeditur 
+            ma<lb break="no" ed="#L" n="105"/>gis homo a rebus divinis per opus peccati quam
+            <lb ed="#L" n="106"/>per opus licitum, quamvis sit corporale; ideo
+            <lb ed="#L" n="107"/>magis contra hoc. praeceptum agit qui peccat in
+            <lb ed="#L" n="108"/>die festo quam qui aliquod ^ corporale opus li- o
+            <lb ed="#L" n="109"/>citum facit. Unde<ref xml:id="TAca84-d1e1902-Rd1e1322"> Augustinus dicit, in libro de 
+              <lb ed="#L" n="110"/>Decem Chordis</ref>: <quote xml:id="TAca84-d1e1902-Qd1e1327">Melius faceret Iudaeus in agro
+                <lb ed="#L" n="111"/>suo aliquid utile quam in theatro seditiosus 
+                exi<lb break="no" ed="#L" n="112"/>steret.. Et melius feminae eorum die sabbati 
+                la<lb break="no" ed="#L" n="113"/>nam facerent quam 1ota die in neomeniis suis
+                <pb ed="#L" n="479"/>
+                <cb ed="#L" n="a"/>
+                <lb ed="#L" n="1"/>impudice saltarent.</quote> - Non autem qui peccat 
+            ve<lb break="no" ed="#L" n="2"/>nialiter in sabbato contra hoc praeceptum 
+            fa<lb break="no" ed="#L" n="3"/>cit: quia peccatum veniale non excludit 
+            sancti<lb break="no" ed="#L" n="4"/>tatem.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1351">
+            <lb ed="#L" n="5"/>Opera etiam corporalia ad spiritualem Dei
+            <lb ed="#L" n="6"/>cultum non pertinentia intantum servilia dicuntur
+            <lb ed="#L" n="7"/>inquantum proprie pertinent ad servientes: 
+            in<lb break="no" ed="#L" n="8"/>quantum vero sunt communia et servis et 
+            li<lb break="no" ed="#L" n="9"/>beris, servilia non dicuntur. Quilibet autem, tam
+            <lb ed="#L" n="10"/>servus quam liber, tenetur in necessariis 
+            provi<lb break="no" ed="#L" n="11"/>dere non tantum sibi, sed etiam proximo: 
+            praeci<lb break="no" ed="#L" n="12"/>pue quidem in his quae ad salutem corporis 
+            per<lb break="no" ed="#L" n="13"/>tinent, secundum illud Prov. xxiv: Erue eos qui
+            <lb ed="#L" n="14"/>ducuntur ad mortem; secundario autem etiam
+            <lb ed="#L" n="15"/>in damno rerum vitando, secundum illud Deut.
+            <lb ed="#L" n="16"/>xxu: Non videbis bovem aut ovem fratris tui
+            <lb ed="#L" n="17"/>errantem et praeteribis: sed reduces fratri tuo.
+            <lb ed="#L" n="18"/>Et ideo opus corporale pertinens ad 
+            conservan<lb break="no" ed="#L" n="19"/>dam salutem. proprii corporis non violat 
+            sabba<lb break="no" ed="#L" n="20"/>—tum: non enim est contra observantiam sabbati
+            <lb ed="#L" n="21"/>quod aliquis comedat, et alia huiusmodi faciat
+            <lb ed="#L" n="22"/>quibus salus corporis conservatur. Et propter hoc
+            <lb ed="#L" n="23"/>Machabaei non polluerunt sabbatum pugnantes
+            <lb ed="#L" n="24"/>ad sui defensionem die sabbati, ut legitur 1 
+            Ma<lb break="no" ed="#L" n="25"/>chab. n. Similiter etiam nec Elias fugiens a 
+            fa<lb break="no" ed="#L" n="26"/>cie Iezabel in die sabbati. Et propter hoc etiam
+            <lb ed="#L" n="27"/>Dominus, Matth. xii, excusat discipulos suos,
+            <lb ed="#L" n="28"/>qui colligebant spicas in die sabbati propter ne-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="29"/>cessitatem quam patiebantur. - Similiter etiam
+            <lb ed="#L" n="30"/>opus corporale quod ordinatur ad salutem 
+            cor<lb break="no" ed="#L" n="31"/>poralem alterius, non est contra observantiam
+            <lb ed="#L" n="32"/>sabbati. Unde Dominus, Ioan. vii: Mihi 
+            indi<lb break="no" ed="#L" n="33"/>gnamini quia totum hominem salvum feci in 
+            sab<lb break="no" ed="#L" n="34"/>bato? — Similiter etiam opus corporale quod 
+            or<lb break="no" ed="#L" n="35"/>dinatur ad imminens damnum rei exterioris 
+            vi<lb break="no" ed="#L" n="36"/>tandum, non violat sabbatum. Unde Dominus
+            <lb ed="#L" n="37"/>dicit, Matth. xi: Quis erit ex vobis homo qui
+            <lb ed="#L" n="38"/>habet unam ovem, et ceciderit sabbato in 
+            fo<lb break="no" ed="#L" n="39"/>veam, nonne tenebit et levabit eam?
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1433">
+            <lb ed="#L" n="40"/>AD QUARTUM DICENDUM quod observatio " diei
+            <lb ed="#L" n="41"/>Dominicae in nova lege. succedit observantiae
+            <lb ed="#L" n="42"/>sabbati non ex vi praecepti legis, sed ex 
+            constitu<lb break="no" ed="#L" n="43"/>tione Ecclesiae et consuetudine populi Christiani.
+            <lb ed="#L" n="44"/>Nec etiam ^ huiusmodi observatio est figuralis,
+            <lb ed="#L" n="45"/>sicut fuit observatio sabbati in veteri lege. Et ideo
+            <lb ed="#L" n="46"/>non est ita arcta prohibitio operandi in die Do- .
+            <lb ed="#L" n="47"/>minica sicut in die sabbati, sed quaedam opera
+            <lb ed="#L" n="48"/>conceduntur in die Dominica quae in die 
+            sab<lb break="no" ed="#L" n="49"/>bati prohibebantur: sicut decoctio ciborum et alia
+            <lb ed="#L" n="50"/>huiusmodi. Et etiam in quibusdam operibus 
+            pro<lb break="no" ed="#L" n="51"/>hibitis facilius propter necessitatem  dispensatur
+            <lb ed="#L" n="52"/>in nova quam in veteri lege: quia figura 
+            per<lb break="no" ed="#L" n="53"/>tinet ad protestationem veritatis, quam nec in
+            <lb ed="#L" n="54"/>modico praeterire oportet; opera autem 
+            secun<lb break="no" ed="#L" n="55"/>dum se considerata immutari possunt pro loco
+            <lb ed="#L" n="56"/>et tempore.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1902-Dd1e1473"><!-- p2p2-q122a5" -->
+          <head xml:id="TAca84-d1e1902-Hd1e1476">Articulus 5</head>
+          <head xml:id="TAca84-d1e1902-Hd1e1478" type="question-title">Utrum convenienter tradatur quartum praeceptum</head>
+          <p xml:id="TAca84-d1e1902-d1e1481">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="81" type="fixed=485"/>ARTICULUS QUINTUS
+            <lb ed="#L" n="82"/>UTRUM CONVENIENTER TRADATUR QUARTUM PRAECEPTUM
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1490">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="83"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="84"/>inconvenienter tradatur quartum 
+            praece<lb break="no" ed="#L" n="85"/>ptum, de honoratione parentum. Hoc
+            <lb ed="#L" n="86"/>enim praeceptum - pertinet ad 
+            pieta<lb break="no" ed="#L" n="87"/>tem. Sed sicut pietas est pars iustitiae, ita etiam
+            <lb ed="#L" n="88"/>observantia et gratia, et alia de quibus dictum
+            <lb ed="#L" n="89"/>est. Ergo videtur quod non debuit dari 
+            spe<lb break="no" ed="#L" n="90"/>ciale praeceptum de pietate, cum de aliis non
+            <lb ed="#L" n="91"/>detur.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1514">
+            <lb ed="#L" n="92"/>2. PRAETEREA, pietas non solum exhibet cultum
+            <lb ed="#L" n="93"/>parentibus, sed etiam patriae et? aliis sanguine
+            <lb ed="#L" n="94"/>coniunctis et patriae benevolis, ut supra dictum
+            <lb ed="#L" n="95"/>est. Inconvenienter ergo in hoc quarto 
+            praece<lb break="no" ed="#L" n="96"/>pto fit mentio solum de honoratione patris et
+            <lb ed="#L" n="97"/>matris.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1531">
+            <lb ed="#L" n="98"/>3. PRAETEREA, parentibus non solum debetur
+            <lb ed="#L" n="99"/>honoris reverentia, sed etiam sustentatio. Ergo
+            <lb ed="#L" n="100"/>insufficienter sola parentum honoratio 
+            praeci<lb break="no" ed="#L" n="101"/>pitur.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1542">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="102"/>4. PRAETEREA, contingit quandoque quod 
+            ali<lb break="no" ed="#L" n="103"/>qui? qui honorant parentes cito moriuntur: et
+            <lb ed="#L" n="104"/>e contrario qui parentes non honorant diu 
+            vi<lb break="no" ed="#L" n="105"/>vunt. Inconvenienter ergo additur huic 
+            prae<lb break="no" ed="#L" n="106"/>cepto haec promissio: ut sis longaevus super
+            <lb ed="#L" n="107"/>terram.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1560">
+            <lb ed="#L" n="108"/>IN CONTRARIUM est auctoritas sacrae Scripturae.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1565">
+            <lb ed="#L" n="109"/>RESPONDEO DICENDUM quod praecepta decalogi
+            <lb ed="#L" n="110"/>ordinantur ad dilectionem Dei et proximi. Inter
+            <lb ed="#L" n="111"/>proximos autem, maxime obligamur parentibus.
+            <lb ed="#L" n="112"/>Et ideo immediate post praecepta ordinantia nos
+            <lb ed="#L" n="113"/>in Deum, ponitur praeceptum ordinans nos ad
+            <lb ed="#L" n="114"/>parentes, qui sunt particulare principium nostri
+            <lb ed="#L" n="115"/>esse, sicut Deus est universale principium. Et
+            <lb ed="#L" n="116"/>sic est quaedam affinitas huius praecepti ad 
+            prae<lb break="no" ed="#L" n="117"/>cepta primae tabulae.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1587">
+            <lb ed="#L" n="118"/>AD PRIMUM ERGO DICENDUM quod, sicut supra
+            <lb ed="#L" n="119"/>dictum est, pietas ordinatur ad reddendum 
+            de<lb break="no" ed="#L" n="120"/>bitum parentibus, quod communiter ad omnes
+            <pb ed="#L" n="486"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>pertinet. Et ideo inter praecepta decalogi, quae
+            <lb ed="#L" n="2"/>sunt communia, magis debet poni aliquid 
+            perti<lb break="no" ed="#L" n="3"/>nens ad pietatem quam ad alias partes iustitiae,
+            <lb ed="#L" n="4"/>quae respiciunt aliquod. debitum speciale.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1609">
+            <lb ed="#L" n="5"/>AD SECUNDUM DICENDUM quod per prius debetur
+            <lb ed="#L" n="6"/>aliquid parentibus quam patriae et 
+            consangui<lb break="no" ed="#L" n="7"/>neis: quia per hoc quod sumus a parentibus nati,
+            <lb ed="#L" n="8"/>pertinent ad nos et consanguinei et patria. Et
+            <lb ed="#L" n="9"/>ideo, cum praecepta decalogi sint prima 
+            praece<lb break="no" ed="#L" n="10"/>pta legis, magis per ea ordinatur homo ad 
+            pa<lb break="no" ed="#L" n="11"/>rentes quam ad patriam vel ad alios 
+            consangui<lb break="no" ed="#L" n="12"/>neos. - Nihilominus tamen in hoc praecepto,
+            <lb ed="#L" n="13"/>quod est de honoratione parentum, intelligitur 
+            <lb ed="#L" n="14"/>mandari quidquid pertinet ad reddendum 
+            debi<lb break="no" ed="#L" n="15"/>tum cuicumque personae, sicut secundarium 
+            in<lb break="no" ed="#L" n="16"/>cluditur in principali.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1639">
+            <lb ed="#L" n="17"/>AD TERTIUM DICENDUM quod parentibus 
+            inquan<lb break="no" ed="#L" n="18"/>tum huiusmodi, debetur reverentiae honor. Sed
+            <lb ed="#L" n="19"/>sustentatio et alia debentur eis ratione alicuius
+            <lb ed="#L" n="20"/>accidentis: puta inquantum sunt indigentes, vel
+            <lb ed="#L" n="21"/>secundum " aliquid huiusmodi, ut supra dictum
+            <lb ed="#L" n="22"/>est. Et quia quod est per se prius est eo quod
+            <lb ed="#L" n="23"/>est per accidens, ideo inter prima praecepta
+            <lb ed="#L" n="24"/>legis, quae sunt praecepta decalogi, specialiter
+            <lb ed="#L" n="25"/>praecipitur honoratio parentum. In qua tamen ',
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="26"/>sicut in quodam principali, intelligitur mandari et
+            <lb ed="#L" n="27"/>sustentatio et quidquid aliud debetur parentibus.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1668">
+            <lb ed="#L" n="28"/>AD QUARTUM DICENDUM quod longaevitas 
+            pro<lb break="no" ed="#L" n="29"/>mittitur honorantibus parentes non solum 
+            quan<lb break="no" ed="#L" n="30"/>tum ad futuram vitam, sed etiam quantum ad
+            <lb ed="#L" n="31"/>praesentem: secundum illud Apostoli, I ad Tim.
+            <lb ed="#L" n="32"/>iv: Pielas ad omnia utilis est, promissionem 
+            ha<lb break="no" ed="#L" n="33"/>bens vitae quae nunc est et futurae. Et hoc 
+            ratio<lb break="no" ed="#L" n="34"/>nabiliter. Qui enim gratus est beneficio 
+            mere<lb break="no" ed="#L" n="35"/>tur secundum quandam congruentiam ut sibi
+            <lb ed="#L" n="36"/>beneficium conservetur: propter ingratitudinem
+            <lb ed="#L" n="37"/>autem meretur aliquis beneficium perdere. 
+            Be<lb break="no" ed="#L" n="38"/>neficium autem vitae corporalis, post Deum, a
+            <lb ed="#L" n="39"/>parentibus habemus. Et ideo ille qui honorat 
+            pa<lb break="no" ed="#L" n="40"/>rentes, quasi beneficio? gratus, meretur vitae 
+            con<lb break="no" ed="#L" n="41"/>servationem: qui autem non honorat parentes,
+            <lb ed="#L" n="42"/>tanquam ingratus, meretur vita privari. - Quia
+            <lb ed="#L" n="43"/>tamen praesentia bona vel mala non cadunt sub
+            <lb ed="#L" n="44"/>merito vel demerito nisi inquantum ordinantur
+            <lb ed="#L" n="45"/>ad futuram remunerationem, ut dictum est;
+            <lb ed="#L" n="46"/>ideo quandoque, secundum occultam rationem
+            <lb ed="#L" n="47"/>divinorum iudiciorum, quae maxime futuram 
+            re<lb break="no" ed="#L" n="48"/>munerationem respiciunt, ideo aliqui qui sunt
+            <lb ed="#L" n="49"/>pii in parentes citius vita privantur, alii vero
+            <lb ed="#L" n="50"/>qui sunt impii in parentes diutius vivunt.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1902-Dd1e1721"><!-- p2p2-q122a6" -->
+          <head xml:id="TAca84-d1e1902-Hd1e1724">Articulus 6</head>
+          <head xml:id="TAca84-d1e1902-Hd1e1726" type="question-title">Utrum alia sex praecepta decalogi convenienter tradantur</head>
+          <p xml:id="TAca84-d1e1902-d1e1729">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="51" type="fixed=486"/>ARTICULUS SEXTUS
+            <lb ed="#L" n="52"/>UTRUM ALIA SEX PRAECEPTA DECALOGI CONVENIENTER TRADANTUR
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1738">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="53"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="54"/>alia sex praecepta decalogi 
+            inconve<lb break="no" ed="#L" n="55"/>nienter tradantur. Non enim sufficit ad
+            <lb ed="#L" n="56"/>salutem quod aliquis proximo suo non
+            <lb ed="#L" n="57"/>noceat, sed requiritur quod ei debitum reddat:
+            <lb ed="#L" n="58"/>secundum illud Rom. xui:: Reddite omnibus
+            <lb ed="#L" n="59"/>debita. Sed in sex ultimis praeceptis solum 
+            pro<lb break="no" ed="#L" n="60"/>hibetur nocumentum proximo inferendum. Ergo
+            <lb ed="#L" n="61"/>inconvenienter praedicta praecepta traduntur.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1762">
+            <lb ed="#L" n="62"/>2. PRAETEREA, in praedictis praeceptis 
+            prohi<lb break="no" ed="#L" n="63"/>bentur homicidium, adulterium, furtum et falsum
+            <lb ed="#L" n="64"/>testimonium. Sed multa alia nocumenta possunt
+            <lb ed="#L" n="65"/>proximo inferri: ut patet ex his quae supra
+            <lb ed="#L" n="66"/>determinata sunt. Ergo videtur quod 
+            inconve<lb break="no" ed="#L" n="67"/>nienter sint tradita huiusmodi praecepta.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1779">
+            <lb ed="#L" n="68"/>3. PRAETEREA, concupiscentia dupliciter accipi
+            <lb ed="#L" n="69"/>potest 5: uno modo, secundum quod est actus
+            <lb ed="#L" n="70"/>voluntatis, ut dicitur Sap. vi: Concupiscentia
+            <lb ed="#L" n="71"/>sapientiae perducit ad regnum perpetuum; alio
+            <lb ed="#L" n="72"/>modo, secundum quod est actus sensualitatis,
+            <lb ed="#L" n="73"/>sicut dicitur lac. iv: Unde bella et lites in vobis?
+            <lb ed="#L" n="74"/>Nonne ex concupiscentiis quae militant in mem-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="75"/>bris vestris? Sed per praeceptum decalogi non
+            <lb ed="#L" n="76"/>prohibetur concupiscentia sensualitatis: quia 
+            se<lb break="no" ed="#L" n="77"/>cundum hoc, primi motus essent peccata 
+            mor<lb break="no" ed="#L" n="78"/>talia, utpote contra praeceptum decalogi 
+            existen<lb break="no" ed="#L" n="79"/>tes. Similiter etiam non prohibetur 
+            concupiscen<lb break="no" ed="#L" n="80"/>tia voluntatis: quia haec includitur in quolibet
+            <lb ed="#L" n="81"/>peccato. Inconvenienter ergo inter praecepta
+            <lb ed="#L" n="82"/>decalogi ponuntur quaedam concupiscentiae 
+            pro<lb break="no" ed="#L" n="83"/>hibitiva.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1818">
+            <lb ed="#L" n="84"/>4. PRAETEREA, homicidium est gravius 
+            pecca<lb break="no" ed="#L" n="85"/>tum quam adulterium vel furtum. Sed non 
+            po<lb break="no" ed="#L" n="86"/>nitur aliquod praeceptum prohibitivum 
+            concupi<lb break="no" ed="#L" n="87"/>scentiae homicidii. Ergo etiam inconvenienter
+            <lb ed="#L" n="88"/>ponuntur quaedam praecepta prohibitiva 
+            concu<lb break="no" ed="#L" n="89"/>piscentiae furti et adulterii.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1834">
+            <lb ed="#L" n="90"/>SED IN CONTRARIUM est auctoritas Scripturae.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1839">
+            <lb ed="#L" n="91"/>RESPONDEO DICENDUM quod sicut per partes 
+            iu<lb break="no" ed="#L" n="92"/>stitiae debitum redditur aliquibus determinatis
+            <lb ed="#L" n="93"/>personis quibus homo ex ^ aliqua speciali ratione
+            <lb ed="#L" n="94"/>obligatur, ita etiam per iustitiam proprie dictam
+            <lb ed="#L" n="95"/>aliquis debitum reddit communiter omnibus. Et
+            <lb ed="#L" n="96"/>ideo post tria praecepta pertinentia ad religionem,
+            <pb ed="#L" n="487"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>qua redditur debitum Deo; et post quartum 
+            prae<lb break="no" ed="#L" n="2"/>ceptum, quod est pietatis, qua redditur 
+            parenti<lb break="no" ed="#L" n="3"/>bus debitum, in quo includitur omne debitum 
+            <lb ed="#L" n="4"/>quod ex aliqua speciali ratione debetur; necesse
+            <lb ed="#L" n="5"/>fuit quod ponerentur consequenter alia 
+            praece<lb break="no" ed="#L" n="6"/>pta pertinentia ad iustitiam proprie dictam, quae 
+            <lb ed="#L" n="7"/>indifferenter omnibus debitum reddit.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1874">
+            <lb ed="#L" n="8"/>AD PRIMUM ERGO DICENDUM quod communiter ad 
+            <lb ed="#L" n="9"/>hoc obligatur homo ut nulli inferat nocumentum.
+            <lb ed="#L" n="10"/>Et ideo praecepta negativa, quibus prohibentur
+            <lb ed="#L" n="11"/>nocumenta quae possunt proximis inferri, 
+            tan<lb break="no" ed="#L" n="12"/>quam communia, fuerunt ponenda inter 
+            praece<lb break="no" ed="#L" n="13"/>pta decalogi. Ea vero quae sunt proximis 
+            exhi<lb break="no" ed="#L" n="14"/>benda, diversimode exhibentur diversis. Et ideo
+            <lb ed="#L" n="15"/>non fuerunt inter praecepta decalogi ponenda de
+            <lb ed="#L" n="16"/>his affirmativa praecepta.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1896">
+            <lb ed="#L" n="17"/>AD SECUNDUM DICENDUM quod omnia alia 
+            nocu<lb break="no" ed="#L" n="18"/>menta quae proximis inferuntur, possunt ad ista
+            <lb ed="#L" n="19"/>reduci quae his praeceptis prohibentur, tanquam
+            <lb ed="#L" n="20"/>ad quaedam communiora et principaliora. Nam
+            <lb ed="#L" n="21"/>omnia nocumenta quae in personam proximi 
+            in<lb break="no" ed="#L" n="22"/>feruntur, intelliguntur prohiberi in homicidio,
+            <lb ed="#L" n="23"/>sicut in principaliori. Quae vero inferuntur in
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="24"/>personam coniunctam, et maxime per modum
+            <lb ed="#L" n="25"/>libidinis, intelliguntur prohiberi simul cum 
+            adul<lb break="no" ed="#L" n="26"/>terio. Quae vero pertinent ad damna in rebus
+            <lb ed="#L" n="27"/>illata, intelliguntur prohiberi simul cum furto.
+            <lb ed="#L" n="28"/>Quae autem pertinet ad locutionem, sicut 
+            de<lb break="no" ed="#L" n="29"/>tractiones, blasphemiae, et si qua huiusmodi,
+            <lb ed="#L" n="30"/>| intelliguntur prohiberi falso testimonio, quod
+            <lb ed="#L" n="31"/>directius iustitiae contrariatur. ;
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1934">
+            <lb ed="#L" n="32"/>AD TERTIUM DICENDUM quod per praecepta 
+            pro<lb break="no" ed="#L" n="33"/>hibitiva concupiscentiae non intelligitur prohiberi
+            <lb ed="#L" n="34"/>primus motus concupiscentiae, qui sistit infra
+            <lb ed="#L" n="35"/>limites sensualitatis. Sed prohibetur directe 
+            con<lb break="no" ed="#L" n="36"/>sensus voluntatis qui est in opus vel in 
+            delecta<lb break="no" ed="#L" n="37"/>tionem.
+          </p>
+          <p xml:id="TAca84-d1e1902-d1e1950">
+            <lb ed="#L" n="38"/>AD QUARTUM DICENDUM quod homicidium 
+            secun<lb break="no" ed="#L" n="39"/>dum se non est concupiscibile, sed magis 
+            horri<lb break="no" ed="#L" n="40"/>bile: quia non habet de se rationem alicuius boni.
+            <lb ed="#L" n="41"/>Sed adulterium habet aliquam rationem boni,
+            <lb ed="#L" n="42"/>scilicet delectabilis. Furtum etiam habet rationem
+            <lb ed="#L" n="43"/>alicuius boni, scilicet utilis: Bonum autem de se
+            <lb ed="#L" n="44"/>habet rationem concupiscibilis. Et ideo fuit 
+            spe<lb break="no" ed="#L" n="45"/>cialibus praeceptis prohibenda concupiscentia furti
+            <lb ed="#L" n="46"/>et adulterii: non autem concupiscentia homicidii.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

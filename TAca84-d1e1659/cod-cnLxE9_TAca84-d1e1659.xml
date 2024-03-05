@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 75</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 75</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="141"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1659"><!-- p2p2-q75" -->
+            <head xml:id="TAca84-d1e1659-Hd1e101">Quaestio 75</head>
+            <head xml:id="TAca84-d1e1659-Hd1e103" type="question-title">De derisione</head>
+            <p xml:id="TAca84-d1e1659-d1e106">
+               <pb ed="#L" n="141"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=141"/>QUAESTIO SEPTUAGESIMAQUINTA
+<lb ed="#L" n="2"/>DE DERISIONE
+<lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1659-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de derisione.
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur duo.
+<lb ed="#L" n="6"/>Primo: utrum derisio sit peccatum speciale
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="7"/>distinctum ab aliis peccatis quibus per verba
+<lb ed="#L" n="8"/>nocumentum proximo infertur.
+<lb ed="#L" n="9"/>Secundo: utrum derisio sit peccatum mortale.
+</p>
+            <div xml:id="TAca84-d1e1659-Dd1e139"><!-- p2p2-q75a1" -->
+               <head xml:id="TAca84-d1e1659-Hd1e142">Articulus 1</head>
+               <head xml:id="TAca84-d1e1659-Hd1e144" type="question-title">Utrum derisio sit speciale peccatum</head>
+               <p xml:id="TAca84-d1e1659-d1e147">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10" type="fixed=141"/>ARTICULUS PRIMUS
+<lb ed="#L" n="11"/>UTRUM DERISIO SIT SPECIALE PECCATUM
+</p>
+               <p xml:id="TAca84-d1e1659-d1e156">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="12"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="13"/>derisio non sit speciale peccatum ab
+<lb ed="#L" n="14"/>aliis praemissis distinctum. Subsannatio
+<lb ed="#L" n="15"/>enim videtur idem esse quod derisio.
+<lb ed="#L" n="16"/>Sed subsannatio ad contumeliam videtur 
+perti<lb break="no" ed="#L" n="17"/>nere. Ergo derisio non videtur distingui a 
+con<lb break="no" ed="#L" n="18"/>tumelia.
+</p>
+               <p xml:id="TAca84-d1e1659-d1e176">
+                  <lb ed="#L" n="19"/>2. PRAETEREA, nullus irridetur nisi de aliquo
+<lb ed="#L" n="20"/>turpi, ex quo homo erubescit. Huiusmodi autem
+<lb ed="#L" n="21"/>sunt peccata: quae si manifeste de aliquo dicuntur,
+<lb ed="#L" n="22"/>pertinent ad contumeliam; si autem occulte, 
+per<lb break="no" ed="#L" n="23"/>tinent ad detractionem sive susurrationem. Ergo
+<lb ed="#L" n="24"/>derisio non est vitium a praemissis distinctum.
+</p>
+               <p xml:id="TAca84-d1e1659-d1e193">
+                  <lb ed="#L" n="25"/>3. PRAETEREA, huiusmodi peccata distinguuntur
+<lb ed="#L" n="26"/>secundum nocumenta quae proximo inferuntur.
+<lb ed="#L" n="27"/>Sed per derisionem non infertur aliud 
+nocumen<lb break="no" ed="#L" n="28"/>tum proximo quam in honore vel fama vel 
+de<lb break="no" ed="#L" n="29"/>trimento amicitiae. Ergo derisio non est peccatum
+<lb ed="#L" n="30"/>distinctum a praemissis.
+</p>
+               <p xml:id="TAca84-d1e1659-d1e209">
+                  <lb ed="#L" n="31"/>SED coNTRA EST quod irrisio fit ludo: unde
+<lb ed="#L" n="32"/>et illusio nominatur. Nullum autem 
+praemisso<lb break="no" ed="#L" n="33"/>rum ludo agitur, sed serio. Ergo derisio ab 
+omni<lb break="no" ed="#L" n="34"/>bus praedictis differt.
+</p>
+               <p xml:id="TAca84-d1e1659-d1e220">
+                  <lb ed="#L" n="35"/>REsPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="36"/>est, peccata verborum praecipue pensanda sunt
+<lb ed="#L" n="37"/>secundum intentionem proferentis. Et ideo 
+se<lb break="no" ed="#L" n="38"/>cundum diversa quae quis intendit contra alium
+<lb ed="#L" n="39"/>loquens, huiusmodi peccata distinguuntur. Sicut
+<lb ed="#L" n="40"/>autem aliquis conviciando intendit conviciati 
+ho<lb break="no" ed="#L" n="41"/>norem deprimere, et detrahendo diminuere 
+fa<lb break="no" ed="#L" n="42"/>mam, et susurrando tollere amicitiam ; ita etiam
+<lb ed="#L" n="43"/>irridendo aliquis intendit quod ille qui irridetur
+<lb ed="#L" n="44"/>erubescat. Et quia hic finis est distinctus ab aliis,
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="45"/>ideo etiam peccatum derisionis distinguitur a
+<lb ed="#L" n="46"/>praemissis peccatis.
+</p>
+               <p xml:id="TAca84-d1e1659-d1e251">
+                  <lb ed="#L" n="47"/>AD PRIMUM ERGO DICENDUM quod subsannatio
+<lb ed="#L" n="48"/>et irrisio conveniunt in fine, sed differunt in
+<lb ed="#L" n="49"/>modo: quia irrisio fit ore, idest verbo et 
+cachin<lb break="no" ed="#L" n="50"/>nis; subsannatio autem naso rugato, ut dicit 
+Glos<lb break="no" ed="#L" n="51"/>sa super illud Psalm.*, Qui habitat in caelis
+<lb ed="#L" n="52"/>irridebit eos. 'l'alis tamen differentia non 
+diver<lb break="no" ed="#L" n="53"/>sificat speciem. Utrumque tamen differt a 
+con<lb break="no" ed="#L" n="54"/>tumelia, sicut erubescentia a dehonoratione: est
+<lb ed="#L" n="55"/>enim erubescentia timor dehonorationis, sicut 
+Da<lb break="no" ed="#L" n="56"/>mascenus dicit.
+</p>
+               <p xml:id="TAca84-d1e1659-d1e275">
+                  <lb ed="#L" n="57"/>AD SECUNDUM DICENDUM quod de opere virtuoso
+<lb ed="#L" n="58"/>aliquis apud alios et reverentiam meretur et 
+fa<lb break="no" ed="#L" n="59"/>mam; apud? seipsum bonae conscientiae 
+glo<lb break="no" ed="#L" n="60"/>riam, secundum illud II ad Cor. 1*: Gloria 
+no<lb break="no" ed="#L" n="61"/>stra haec est, testimonium conscientiae nostrae.
+<lb ed="#L" n="62"/>Unde e contrario de actu turpi, idest vitioso,
+<lb ed="#L" n="63"/>apud alios quidem tollitur hominis honor et 
+fa<lb break="no" ed="#L" n="64"/>ma: et ad hoc contumeliosus et detractor turpia
+<lb ed="#L" n="65"/>de alio dicunt. Apud seipsum autem per turpia
+<lb ed="#L" n="66"/>quae dicuntur aliquis perdit conscientiae gloriam
+<lb ed="#L" n="67"/>per quandam confusionem et erubescentiam: et
+<lb ed="#L" n="68"/>ad hoc turpia dicit derisor. Et sic patet quod
+<lb ed="#L" n="69"/>derisor communicat cum praedictis vitiis in 
+ma<lb break="no" ed="#L" n="70"/>teria, differt autem in fine.
+</p>
+               <p xml:id="TAca84-d1e1659-d1e308">
+                  <lb ed="#L" n="71"/>AD TERTIUM DICENDUM quod securitas 
+conscien<lb break="no" ed="#L" n="72"/>tiae et quies illius magnum bonum est: 
+secun<lb break="no" ed="#L" n="73"/>dum illud Prov. xv: .Secura mens quasi iuge
+<lb ed="#L" n="74"/>convivium. Et ideo qui conscientiam alicuius 
+in<lb break="no" ed="#L" n="75"/>quietat confundendo ipsum, aliquod speciale 
+no<lb break="no" ed="#L" n="76"/>cumentum ei infert. Unde derisio est peccatum
+<lb ed="#L" n="77"/>speciale.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1659-Dd1e328"><!-- p2p2-q75a2" -->
+               <head xml:id="TAca84-d1e1659-Hd1e331">Articulus 2</head>
+               <head xml:id="TAca84-d1e1659-Hd1e333" type="question-title">Utrum derisio possit esse peccatum mortale</head>
+               <p xml:id="TAca84-d1e1659-d1e336">
+                  <pb ed="#L" n="142"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=142"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM DERISIO POSSIT ESSE PECCATUM MORTALE
+</p>
+               <p xml:id="TAca84-d1e1659-d1e347">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>IN derisio non possit esse peccatum 
+mor<lb break="no" ed="#L" n="5"/>tale. Omne enim peccatum mortale 
+con<lb break="no" ed="#L" n="6"/>trariatur caritati. Sed derisio non 
+vi<lb break="no" ed="#L" n="7"/>detur contrariari caritati: agitur enim ludo 
+quan<lb break="no" ed="#L" n="8"/>doque inter amicos; unde et delusio nominatur.
+<lb ed="#L" n="9"/>Ergo derisio non potest esse peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1659-d1e367">
+                  <lb ed="#L" n="10"/>2. PRAETEREA, derisio illa videtur esse maxima
+<lb ed="#L" n="11"/>quae fit in iniuriam Dei. Sed non omnis derisio
+<lb ed="#L" n="12"/>quae vergit in iniuriam Dei est peccatum 
+mor<lb break="no" ed="#L" n="13"/>tale. Alioquin quicumque recidivat in aliquod
+<lb ed="#L" n="14"/>peccatum veniale de quo poenituit, peccaret 
+mor<lb break="no" ed="#L" n="15"/>taliter: dicit enim Isidorus quod :rrisor est, et
+<lb ed="#L" n="16"/>non poenilens, qui adhuc agit? quod poenitet.
+<lb ed="#L" n="17"/>Similiter etiam. sequeretur quod omnis. simulatio
+<lb ed="#L" n="18"/>esset peccatum mortale: quia sicut Gregorius 
+di<lb break="no" ed="#L" n="19"/>cit, in Moral., per struthionem significatur 
+simu<lb break="no" ed="#L" n="20"/>lator, qui deridet equum, idest hominem. iustum,
+<lb ed="#L" n="21"/>et ascensorem, idest Deum. Ergo derisio non est
+<lb ed="#L" n="22"/>peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1659-d1e399">
+                  <lb ed="#L" n="23"/>3. PRAETEREA, contumelia et detractio videntur
+<lb ed="#L" n="24"/>esse graviora peccata quam  derisio: quia 
+ma<lb break="no" ed="#L" n="25"/>ius est facere aliquid serio quam ioco. Sed non
+<lb ed="#L" n="26"/>omnis detractio vel contumelia est peccatum
+<lb ed="#L" n="27"/>mortale. Ergo multo minus derisio.
+</p>
+               <p xml:id="TAca84-d1e1659-d1e412">
+                  <lb ed="#L" n="28"/>SEp coNTRA EsT quod dicitur Prov.: Zpse
+<lb ed="#L" n="29"/>deridet illusores. Sed deridere Dei est aeternaliter
+<lb ed="#L" n="30"/>punire pro peccato mortali: ut patet per id quod
+<lb ed="#L" n="31"/>dicitur in Psalm.: Qui habitat in caelis irridebit
+<lb ed="#L" n="32"/>eos. Ergo derisio est peccatum mortale.
+</p>
+               <p xml:id="TAca84-d1e1659-d1e425">
+                  <lb ed="#L" n="33"/>RESPONDEO DICENDUM quod irrisio. non fit nisi
+<lb ed="#L" n="34"/>de aliquo. malo vel defectu. Malum autem si sit
+<lb ed="#L" n="35"/>magnum, non pro ludo. accipitur, sed seriose.
+<lb ed="#L" n="36"/>Unde si in lusum. vel risum vertatur (ex quo
+<lb ed="#L" n="37"/>irrisionis, vel illusionis nomen sumitur), hoc est
+<lb ed="#L" n="38"/>quia accipitur ut parvum. Potest autem aliquod
+<lb ed="#L" n="39"/>malum accipi ut parvum, dupliciter: uno modo,
+<lb ed="#L" n="40"/>secundum se; alio modo; ratione personae. Cum
+<lb ed="#L" n="41"/>autem. aliquis. alterius personae. malum vel .
+de<lb break="no" ed="#L" n="42"/>fectum in ludum vel risum ponit quia secundum
+<lb ed="#L" n="43"/>se parvum malum est, est veniale.'et leve 
+pec<lb break="no" ed="#L" n="44"/>catum secundum suum genus. - Cum autem 
+acci<lb break="no" ed="#L" n="45"/>pitur quasi parvum ratione personae, sicut 
+de<lb break="no" ed="#L" n="46"/>fectus puerorum et stultorum. parum ponderare
+<lb ed="#L" n="47"/>solemus, sic aliquem illudere vel irridere est eum
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="48"/>omnino parvipendere, et eum tam vilem 
+aesti<lb break="no" ed="#L" n="49"/>mare ut de eius malo non sit curandum, sed sit
+<lb ed="#L" n="50"/>quasi pro ludo habendum. Et sic derisio est 
+pec<lb break="no" ed="#L" n="51"/>catum mortale. Et gravius quam contumelia,
+<lb ed="#L" n="52"/>quae similiter est in manifesto: quia 
+contume<lb break="no" ed="#L" n="53"/>liosus videtur accipere malum alterius seriose, 
+<lb ed="#L" n="54"/>illusor autem in ludum; et ita videtur esse maior
+<lb ed="#L" n="55"/>contemptus et dehonoratio.
+</p>
+               <p xml:id="TAca84-d1e1659-d1e480">
+                  <lb ed="#L" n="56"/>Et secundum hoc, illusio est grave peccatum:
+<lb ed="#L" n="57"/>et tanto gravius quanto maior reverentia debetur
+<lb ed="#L" n="58"/>personae quae illuditur. Unde gravissimum est
+<lb ed="#L" n="59"/>irrdere Deum et ea quae Dei sunt: secundum
+<lb ed="#L" n="60"/>illud Isaiae xxxvu:. Cui exprobrasti? .Et quem
+<lb ed="#L" n="61"/>blasphemasti? .Et super quem exaltasti vocem
+<lb ed="#L" n="62"/>tuam? Et postea subditur: Ad sanctum Israel.—
+<lb ed="#L" n="63"/>Deinde secundum locum tenet irrisio parentum.
+<lb ed="#L" n="64"/>Unde dicitur Prov. xxx: Oculum qui subsannat
+<lb ed="#L" n="65"/>pairem et despicit partum. matris suae, effodiant
+<lb ed="#L" n="66"/>eum corvi de torrentibus, et comedant eum filii
+<lb ed="#L" n="67"/>aquilae.- Deinde iustorum  derisio gravis est:
+<lb ed="#L" n="68"/>quia Aonor est virtutis praemium. Et contra hoc
+<lb ed="#L" n="69"/>dicitur Job xu: Deridetur iusti simplicitas. Quae
+<lb ed="#L" n="70"/>quidem derisio valde nociva est: quia per hoc
+<lb ed="#L" n="71"/>homines a bene agendo impediuntur; secundum
+<lb ed="#L" n="72"/>illud Gregorii: Qui in aliorum actibus exoriri
+<lb ed="#L" n="73"/>bona conspiciunt ?, mox ea manu pestiferae 
+ex<lb break="no" ed="#L" n="74"/>probrationis evellunt.
+</p>
+               <p xml:id="TAca84-d1e1659-d1e524">
+                  <lb ed="#L" n="75"/>AD PRIMUM ERGO DICENDUM quod ludus non 
+im<lb break="no" ed="#L" n="76"/>portat aliquid contrarium caritati respectu eius
+<lb ed="#L" n="77"/>cum quo luditur: potest tamen importare aliquid
+<lb ed="#L" n="78"/>contrarium caritati respectu eius de quo luditur,
+<lb ed="#L" n="79"/>propter.contemptum, ut dictum est. ra
+</p>
+               <p xml:id="TAca84-d1e1659-d1e537">
+                  <lb ed="#L" n="80"/>AD SECUNDUM DICENDUM quod ille qui recidivat
+<lb ed="#L" n="81"/>in peccatum de quo poenituit, et ille qui simulat,
+<lb ed="#L" n="82"/>non expresse Deum irridet, sed quasi 
+interpre<lb break="no" ed="#L" n="83"/>tative, inquantum scilicet ad. modum. deridentis
+<lb ed="#L" n="84"/>se. habet. Nec tamen venialiter peccando aliquis
+<lb ed="#L" n="85"/>simpliciter recidivat vel. simulat, sed dispositive
+<lb ed="#L" n="86"/>et imperfecte, uboi
+</p>
+               <p xml:id="TAca84-d1e1659-d1e556">
+                  <lb ed="#L" n="87"/>AD TERTIUM. DICENDUM quod derisio, secundum
+<lb ed="#L" n="88"/>suam. rationem, levius aliquid est quam detractio
+<lb ed="#L" n="89"/>vel contumelia : quia non importat contemptum,
+<lb ed="#L" n="90"/>sed ludum. . Quandoque tamen habet maiorem
+<lb ed="#L" n="91"/>contemptum quam etiam contumelia, ut supra
+<lb ed="#L" n="92"/>dictum. est. Et tunc est grave. peccatum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

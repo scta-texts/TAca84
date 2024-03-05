@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 121</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 121</title>
+          <date when="2024-03-05">March 05, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-03-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="472"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e1897"><!-- p2p2-q121" -->
+        <head xml:id="TAca84-d1e1897-Hd1e101">Quaestio 121</head>
+        <head xml:id="TAca84-d1e1897-Hd1e103" type="question-title">De dono pietatis</head>
+        <p xml:id="TAca84-d1e1897-d1e106">
+          <pb ed="#L" n="472"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=472"/>QUAESTIO CENTESIMAVIGESIMAPRIMA
+          <lb ed="#L" n="2"/>DE DONO PIETATIS
+          <lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e1897-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de dono 
+          correspon<lb break="no" ed="#L" n="5"/>dente iustitiae, scilicet de pietate
+          <lb ed="#L" n="6"/>Et circa hoc quaeruntur duo.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="7"/>Primo: utrum sit donum Spiritus Sancti.
+          <lb ed="#L" n="8"/>Secundo: quid in beatitudinibus et fructibus
+          <lb ed="#L" n="9"/>ei respondeat.
+        </p>
+        <div xml:id="TAca84-d1e1897-Dd1e139"><!-- p2p2-q121a1" -->
+          <head xml:id="TAca84-d1e1897-Hd1e142">Articulus 1</head>
+          <head xml:id="TAca84-d1e1897-Hd1e144" type="question-title">Utrum pietas sit donum</head>
+          <p xml:id="TAca84-d1e1897-d1e147">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="10" type="fixed=472"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="11"/>UTRUM PIETAS SIT DONUM
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e156">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="12"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="13"/>pietas non sit donum. Dona enim a
+            <lb ed="#L" n="14"/>virtutibus differunt, ut supra habitum
+            <lb ed="#L" n="15"/>est Sed pietas est quaedam virtus, ut
+            <lb ed="#L" n="16"/>supra habitum est. Ergo pietas non est donum.
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e172">
+            <lb ed="#L" n="17"/>2. PRAETEREA, dona sunt excellentiora 
+            virtuti<lb break="no" ed="#L" n="18"/>bus, maxime moralibus, ut supra habitum est.
+            <lb ed="#L" n="19"/>Sed inter partes iustitiae religio est potior pietate.
+            <lb ed="#L" n="20"/>Si ergo aliqua pars iustitiae debeat poni 
+            do<lb break="no" ed="#L" n="21"/>num, videtur quod magis religio deberet esse
+            <lb ed="#L" n="22"/>donum quam pietas.
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e189">
+            <lb ed="#L" n="23"/>3. PRAETEREA, dona manent in patria, et actus
+            <lb ed="#L" n="24"/>donorum, ut supra habitum est. Sed actus 
+            pie<lb break="no" ed="#L" n="25"/>tatis non potest manere in patria: dicit enim 
+            <ref xml:id="TAca84-d1e1897-Rd1e197">Gre<lb break="no" ed="#L" n="26"/>gorius, in I Moral.</ref>, quod pietas cordis viscera
+            <lb ed="#L" n="27"/>misericordiae operibus replet; et sic non erit in
+            <lb ed="#L" n="28"/>patria, ubi nulla erit miseria '. Ergo pietas non
+            <lb ed="#L" n="29"/>est donum.
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e210">
+            <lb ed="#L" n="30"/>SEp cowTRA EsT quod Isaiae xi ponitur inter
+            <lb ed="#L" n="31"/>dona. a
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e217">
+            <lb ed="#L" n="32"/>RESPONDEO DICENDUM quod, sicut supra dictum
+            <lb ed="#L" n="33"/>est, dona Spiritus Sancti sunt quaedam habituales
+            <lb ed="#L" n="34"/>animae dispositiones quibus est prompte mobilis
+            <lb ed="#L" n="35"/>a Spiritu Sancto. Inter cetera autem, movet nos
+            <lb ed="#L" n="36"/>Spiritus Sanctus ad hoc quod affectum quendam
+            <lb ed="#L" n="37"/>filialem habeamus ad Deum: secundum illud
+            <lb ed="#L" n="38"/>Rom. vi: Accepistis Spiritum adoptionis 
+            filio<lb break="no" ed="#L" n="39"/>rum, in quo clamamus, Abba, Pater. Et quia ad
+            <lb ed="#L" n="40"/>pietatem proprie pertinet officium et cultum patri
+            <lb ed="#L" n="41"/>exhibere, consequens est quod pietas secundum
+            <lb ed="#L" n="42"/>quam cultum et officium exhibemus Deo ut Patri
+            <lb ed="#L" n="43"/>per instinctum Spiritus Sancti, sit Spiritus Sancti
+            <lb ed="#L" n="44"/>donum.
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e248">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="45"/>AD PRIMUM ERGO DICENDUM quod pietas quae
+            <lb ed="#L" n="46"/>exhibet patri carnali officium et cultum, est 
+            vir<lb break="no" ed="#L" n="47"/>tus: sed pietas quae est donum, hoc exhibet Deo
+            <lb ed="#L" n="48"/>ut Patri.
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e261">
+            <lb ed="#L" n="49"/>AD SECUNDUM DICENDUM quod exhibere cultum
+            <lb ed="#L" n="50"/>Deo ut Creatori, quod facit religio, est 
+            excel<lb break="no" ed="#L" n="51"/>lentius quam exhibere cultum patri carnali, quod
+            <lb ed="#L" n="52"/>facit pietas quae est virtus. Sed exhibere cultum.
+            <lb ed="#L" n="53"/>Deo ut Patri est adhuc excellentius quam. 
+            exhi<lb break="no" ed="#L" n="54"/>bere cultum Deo ut Creatori et Domino. Unde
+            <lb ed="#L" n="55"/>religio est potior pietate virtute: sed pietas 
+            se<lb break="no" ed="#L" n="56"/>cundum quod est donum, est potior religione,
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e281">
+            <lb ed="#L" n="57"/>AD TERTIUM DICENDUM quod sicut per pietatem
+            <lb ed="#L" n="58"/>quae est virtus exhibet homo officium et cultum
+            <lb ed="#L" n="59"/>non solum patri carnali, sed etiam omnibus 
+            san<lb break="no" ed="#L" n="60"/>guine iunctis, secundum quod pertinent ad 
+            pa<lb break="no" ed="#L" n="61"/>trem; ita etiam pietas secundum quod est 
+            do<lb break="no" ed="#L" n="62"/>num, non solum exhibet cultum et officium Deo,
+            <lb ed="#L" n="63"/>sed omnibus hominibus inquantum pertinent ad
+            <lb ed="#L" n="64"/>Deum. Et propter hoc ad ipsam pertinet 
+            hono<lb break="no" ed="#L" n="65"/>rare sanctos: non contradicere Scripturae, sive
+            <lb ed="#L" n="66"/>intellectae sive non intellectae, sicut <ref xml:id="TAca84-d1e1897-Rd1e304">Augustinus
+              <lb ed="#L" n="67"/>dicit, in II de Doct. Christ.</ref> Ipsa etiam ex 
+            con<lb break="no" ed="#L" n="68"/>sequenti subvenit in miseria constitutis. Et 
+            quam<lb break="no" ed="#L" n="69"/>vis iste actus non habeat locum in patria, 
+            prae<lb break="no" ed="#L" n="70"/>cipue post diem iudicii, habebit tamen locum
+            <lb ed="#L" n="71"/>praecipuus actus eius, qui est revereri Deum 
+            af<lb break="no" ed="#L" n="72"/>fectu filiali quod praecipue tunc erit, secundum
+            <lb ed="#L" n="73"/>illud Sap. v: Ecce quomodo computati sunt inter
+            <lb ed="#L" n="74"/>filios Dei. Erit etiam mutua honoratio sanctorum
+            <lb ed="#L" n="75"/>ad invicem. Nunc autem, ante diem iudicii, 
+            mi<lb break="no" ed="#L" n="76"/>serentur sancti etiam eorum qui in statu huius
+            <lb ed="#L" n="77"/>miseriae vivunt.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1897-Dd1e334"><!-- p2p2-q121a2" -->
+          <head xml:id="TAca84-d1e1897-Hd1e337">Articulus 2</head>
+          <head xml:id="TAca84-d1e1897-Hd1e339" type="question-title">Utrum dono pietatis respondeat secunda beatitudo,
+            scilicet, beati mites</head>
+          <p xml:id="TAca84-d1e1897-d1e342">
+            <pb ed="#L" n="473"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=473"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="2"/>UTRUM DONO PIETATIS RESPONDEAT SECUNDA BEATITUDO,
+            <lb ed="#L" n="3"/>SCILICET, BEATI MITES
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e355">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="4"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="5"/>dono pietatis non respondeat secunda
+            <lb ed="#L" n="6"/>beatitudo, scilicet, Beati mites. Pietas
+            <lb ed="#L" n="7"/>enim est donum respondens iustitiae.
+            <lb ed="#L" n="8"/>Ad quam magis pertinet quarta beatitudo, 
+            scili<lb break="no" ed="#L" n="9"/>cet, Beati qui esuriunt et sitiunt iustitiam: vel
+            <lb ed="#L" n="10"/>etiam quinta, Beati misericordes, quia, ut 
+            di<lb break="no" ed="#L" n="11"/>ctum est, opera misericordiae pertinent P ad
+            <lb ed="#L" n="12"/>pietatem. Non ergo secunda beatitudo pertinet
+            <lb ed="#L" n="13"/>ad donum pietatis.
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e381">
+            <lb ed="#L" n="14"/>2. PRAETEREA, donum pietatis dirigitur dono
+            <lb ed="#L" n="15"/>scientiae, quod adiungitur in connumeratione 
+            do<lb break="no" ed="#L" n="16"/>norum
+            <lb ed="#L" n="17"/>dirigens
+            <lb ed="#L" n="18"/>pertineat tertia beatitudo, scilicet, <quote xml:id="TAca84-d1e1897-Qd1e394">Beati qui 
+              lu<lb break="no" ed="#L" n="19"/>gent</quote>. videtur quod non pertineat ad pietatem
+            <lb ed="#L" n="20"/>secunda beatitudo.
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e403">
+            <lb ed="#L" n="21"/>8. PRAETEREA, fructus respondent 
+            beatitudini<lb break="no" ed="#L" n="22"/>bus et donis, ut supra habitum est. Sed inter
+            <lb ed="#L" n="23"/>fructus, bonitas et benignitas magis videntur 
+            con<lb break="no" ed="#L" n="24"/>venire cum pietate quam mansuetudo, quae 
+            per<lb break="no" ed="#L" n="25"/>tinet ad mititatem. Ergo secunda beatitudo non
+            <lb ed="#L" n="26"/>respondet dono pietatis.
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e419">
+            <lb ed="#L" n="27"/>SED CONTRA EST quod <ref xml:id="TAca84-d1e1897-Rd1e423">Augustinus dicit, in libro
+              <lb ed="#L" n="28"/>de Serm. Dom. in Monte</ref>: Pietas congruit 
+            mi<lb break="no" ed="#L" n="29"/>tibus.
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e431">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="30"/>RESPONDEO DICENDUM quod in adaptatione 
+            bea<lb break="no" ed="#L" n="31"/>titudinum ad dona duplex convenientia potest
+            <lb ed="#L" n="32"/>attendi. Una quidem secundum rationem ordinis:
+            <lb ed="#L" n="33"/>quam videtur Augustinus fuisse secutus. Unde
+            <lb ed="#L" n="34"/>primam beatitudinem attribuit infimo dono, 
+            sci<lb break="no" ed="#L" n="35"/>licet timori; secundam autem, scilicet, Beati
+            <lb ed="#L" n="36"/>mites, attribuit pietati; et sic de aliis.
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e451">
+            <lb ed="#L" n="37"/>Alia convenientia potest attendi secundum 
+            pro<lb break="no" ed="#L" n="38"/>priam rationem doni et beatitudinis. Et secundum
+            <lb ed="#L" n="39"/>hoc, oporteret adaptare beatitudines donis 
+            secun<lb break="no" ed="#L" n="40"/>dum obiecta et actus. Et ita pietati magis 
+            respon<lb break="no" ed="#L" n="41"/>deret quarta et quinta beatitudo quam secunda.
+            <lb ed="#L" n="42"/>Secunda tamen beatitudo habet aliquam 
+            conve<lb break="no" ed="#L" n="43"/>nientiam cum pietate: inquantum scilicet per 
+            man<lb break="no" ed="#L" n="44"/>suetudinem tolluntur impedimenta actuum pietatis.
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e471">
+            <lb ed="#L" n="45"/>Et per hoc patet responsio ad primum.
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e476">
+            <lb ed="#L" n="46"/>AD SECUNDUM DICENDUM quod secundum 
+            pro<lb break="no" ed="#L" n="47"/>prietatem beatitudinum et donorum, oportet quod
+            <lb ed="#L" n="48"/>eadem beatitudo respondeat scientiae et pietati.
+            <lb ed="#L" n="49"/>Sed secundum rationem ordinis, diversae 
+            beati<lb break="no" ed="#L" n="50"/>tudines eis adaptantur, observata tamen aliquali
+            <lb ed="#L" n="51"/>convenientia, ut supra dictum est.
+          </p>
+          <p xml:id="TAca84-d1e1897-d1e493">
+            <lb ed="#L" n="52"/>AD TERTIUM DICENDUM quod bonitas et 
+            benigni<lb break="no" ed="#L" n="53"/>tas in fructibus directe attribui possunt pietati:
+            <lb ed="#L" n="54"/>mansuetudo autem indirecte, inquantum tollit 
+            im<lb break="no" ed="#L" n="55"/>pedimenta actuum pietatis, ut dictum est.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 77</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 77</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="147"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1670"><!-- p2p2-q77" -->
+            <head xml:id="TAca84-d1e1670-Hd1e101">Quaestio 77</head>
+            <head xml:id="TAca84-d1e1670-Hd1e103" type="question-title">
+De fraudulentia quae committitur in emptionibus
+et venditionibus
+</head>
+            <p xml:id="TAca84-d1e1670-d1e106">
+               <pb ed="#L" n="147"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=147"/>QUAESTIO SEPTUAGESIMASEPTIMA
+<lb ed="#L" n="2"/>DE FRAUDULENTIA QUAE COMMITTITUR IN EMPTIONIBUS
+<lb ed="#L" n="3"/>ET VENDITIONIBUS
+<lb ed="#L" n="4"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1670-d1e122">
+               <lb ed="#L" n="5"/>DEINDE considerandum est de peccatis quae 
+<lb ed="#L" n="6"/>sunt circa voluntarias commutationes. Et
+<lb ed="#L" n="7"/>primo, de fraudulentia quae committitur in 
+em<lb break="no" ed="#L" n="8"/>ptionibus et venditionibus; secundo, de usura,
+<lb ed="#L" n="9"/>quae fit in mutuis Circa alias enim 
+commu<lb break="no" ed="#L" n="10"/>tationes voluntarias non invenitur aliqua species 
+<lb ed="#L" n="11"/>peccati quae distinguatur a rapina vel furto.
+</p>
+            <p xml:id="TAca84-d1e1670-d1e140">
+               <lb ed="#L" n="12"/>Circa primum quaeruntur quatuor,
+<lb ed="#L" n="13"/>Primo: de iniusta venditione ex parte pretii:
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="14"/>scilicet, utrum liceat aliquid. vendere plus
+<lb ed="#L" n="15"/>quam valeat.
+<lb ed="#L" n="16"/>Secundo: de iniusta venditione ex parte rei
+<lb ed="#L" n="17"/>venditae.
+<lb ed="#L" n="18"/>Tertio: utrum teneatur venditor dicere vitium
+<lb ed="#L" n="19"/>rei venditae.
+<lb ed="#L" n="20"/>Quarto: utrum licitum sit aliquid, negotiando,
+<lb ed="#L" n="21"/>plus vendere quam emptum. sit.
+</p>
+            <div xml:id="TAca84-d1e1670-Dd1e167"><!-- p2p2-q77a1" -->
+               <head xml:id="TAca84-d1e1670-Hd1e170">Articulus 1</head>
+               <head xml:id="TAca84-d1e1670-Hd1e172" type="question-title">Utrum aliquis licite possit vendere rem plus quam valeat</head>
+               <p xml:id="TAca84-d1e1670-d1e175">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="22" type="fixed=147"/>ARTICULUS PRIMUS
+<lb ed="#L" n="23"/>UTRUM ALIQUIS LICITE POSSIT VENDERE REM PLUS QUAM VALEAT
+</p>
+               <p xml:id="TAca84-d1e1670-d1e184">
+                  <lb ed="#L" n="24"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="25"/>aliquis licite possit vendere rem plus
+<lb ed="#L" n="26"/>quam valeat. Iustam enim in 
+commu<lb break="no" ed="#L" n="27"/>tationibus humanae vitae secundum 
+le<lb break="no" ed="#L" n="28"/>ges civiles determinatur. Sed secundum eas 
+li<lb break="no" ed="#L" n="29"/>citum est emptori et venditori ut se invicem 
+de<lb break="no" ed="#L" n="30"/>cipiant: quod quidem fit inquantum venditor plus -
+<lb ed="#L" n="31"/>vendit rem quam valeat, emptor autem minus
+<lb ed="#L" n="32"/>quam valeat. Ergo licitum est quod aliquis 
+ven<lb break="no" ed="#L" n="33"/>dat rem plus quam valeat.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e208">
+                  <lb ed="#L" n="34"/>2. PRAETEREA , illud quod. est omnibus. 
+com<lb break="no" ed="#L" n="35"/>mune videtur esse naturale et non esse peccatum.
+<lb ed="#L" n="36"/>Sed sicut <ref xml:id="TAca84-d1e1670-Rd1e216">Augustinus refert, XIII de Trin.</ref>, 
+di<lb break="no" ed="#L" n="37"/>ctum cuiusdam mimi fuit ab omnibus acceptatum:
+<lb ed="#L" n="38"/>Vili vultis emere, et care vendere. Cui etiam 
+con<lb break="no" ed="#L" n="39"/>sonat quod dicitur Prov. xx: Malum est, Malum
+<lb ed="#L" n="40"/>est, dicit omnis emptor: et cum recesserit, 
+glo<lb break="no" ed="#L" n="41"/>riatur. Ergo licitum est aliquid carius vendere
+<lb ed="#L" n="42"/>et vilius emere quam valeat.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e233">
+                  <lb ed="#L" n="43"/>3. PRAETEREA, non videtur esse illicitum si ex
+<lb ed="#L" n="44"/>conventione agatur id quod fieri debet ex debito
+<lb ed="#L" n="45"/>honestatis. Sed secundum Philosophum, in VII
+<lb ed="#L" n="46"/>Ethic., in amicitia utilis recompensatio fieri 
+de<lb break="no" ed="#L" n="47"/>bet secundum utilitatem quam consecutus est
+<lb ed="#L" n="48"/>ille qui beneficium suscepit: quae quidem quan- -
+<lb ed="#L" n="49"/>doque excedit valorem rei datae; sicut contingit -
+<lb ed="#L" n="50"/>cum aliquis multum re aliqua indiget, vel ad 
+pe<lb break="no" ed="#L" n="51"/>riculum evitandum vel ad aliquod commodum 
+<lb ed="#L" n="52"/>consequendum. Ergo licet in contractu emptionis 
+<lb ed="#L" n="53"/>et venditionis Audi dare pro maiori pretio quam -
+<lb ed="#L" n="54"/>valeat.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e262">
+                  <lb ed="#L" n="55"/>SED CONTRA EST quod dicitur Matth. vii: Omnia
+<lb ed="#L" n="56"/>quaecumque vultis ut faciant vobis homines, et vos
+<lb ed="#L" n="57"/>facite illis. Sed nullus vult sibi rem vendi carius
+<lb ed="#L" n="58"/>quam valeat. Ergo nullus debet alteri vendere
+<lb ed="#L" n="59"/>rem carius quam valeat.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e275">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="60"/>RESPONDEO DICENDUM quod fraudem adhibere
+<lb ed="#L" n="61"/>ad hoc quod aliquid plus iusto pretio vendatur,
+<lb ed="#L" n="62"/>omnino peccatum est: inquantum aliquis decipit
+<lb ed="#L" n="63"/>proximum in damnum ipsius. Unde et <ref xml:id="TAca84-d1e1670-Rd1e288">
+                     <name xml:id="TAca84-d1e1670-Nd1e290">Tullius</name>
+                     <lb ed="#L" n="64"/>dicit, in libro de Offic.</ref>: <quote xml:id="TAca84-d1e1670-Qd1e295">Tollendum. est ex rebus
+<lb ed="#L" n="65"/>contrahendis omne mendacium: non licitatorem
+<lb ed="#L" n="66"/>venditor, non qui contra se licitetur emptor 
+ap<lb break="no" ed="#L" n="67"/>ponet</quote>.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e305">
+                  <lb ed="#L" n="68"/>Si autem fraus deficit, tunc de emptione et
+<lb ed="#L" n="69"/>venditione dupliciter loqui possumus. Uno modo,
+<lb ed="#L" n="70"/>secundum se. Et secundum hoc emptio et 
+ven<lb break="no" ed="#L" n="71"/>ditio. videtur esse introducta pro communi 
+utili<lb break="no" ed="#L" n="72"/>tate utriusque: dum scilicet unus indiget re 
+alte<lb break="no" ed="#L" n="73"/>rius et e converso, sicut patet per Philosophum,
+<lb ed="#L" n="74"/>in I Polit. Quod autem pro communi utilitate
+<lb ed="#L" n="75"/>est inductum, non debet esse magis in gravamen
+<lb ed="#L" n="76"/>unius quam alterius. Et ideo debet secundum
+<lb ed="#L" n="77"/>aequalitatem rei inter eos contractus institui.
+<lb ed="#L" n="78"/>Quantitas autem rerum quae in usum hominis
+<lb ed="#L" n="79"/>veniunt mensuratur secundum pretium. datum:
+<lb ed="#L" n="80"/>ad quod est inventum numisma, ut dicitur in
+<lb ed="#L" n="81"/>V Ethic. Et ideo si vel pretium excedat 
+quan<lb break="no" ed="#L" n="82"/>titatem valoris rei, vel e converso res excedat
+<lb ed="#L" n="83"/>pretium, tolletur iustitiae aequalitas. Et ideo 
+ca<lb break="no" ed="#L" n="84"/>rius vendere aut vilius emere rem quam valeat
+<lb ed="#L" n="85"/>est secundum se iniustum et illicitum.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e347">
+                  <lb ed="#L" n="86"/>Alio modo possumus loqui de emptione et
+<lb ed="#L" n="87"/>venditione secundum quod per accidens cedit in
+<lb ed="#L" n="88"/>utilitatem unius et detrimentum alterius: puta
+<lb ed="#L" n="89"/>cum aliquis multum indiget habere rem aliquam,
+<lb ed="#L" n="90"/>et alius laeditur si ea careat. Et in tali casu 
+iu<lb break="no" ed="#L" n="91"/>stum pretium erit ut non solum respiciatur ad
+<lb ed="#L" n="92"/>rem quae venditur, sed ad damnum quod 
+ven<lb break="no" ed="#L" n="93"/>ditor. ex venditione incurrit. Et sic licite poterit
+<lb ed="#L" n="94"/>aliquid vendi plus quam valeat secundum se,
+<lb ed="#L" n="95"/>quamvis non. vendatur plus quam valeat habenti.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e371">
+                  <pb ed="#L" n="148"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Si vero aliquis multum iuvetur ex re alterius
+<lb ed="#L" n="2"/>quam accepit, ille vero qui vendidit ? non damni- |
+<lb ed="#L" n="3"/>ficatur carendo re. illa, non. debet eam 
+superven<lb break="no" ed="#L" n="4"/>dere. Quia utilitas quae alteri accrescit non est
+<lb ed="#L" n="5"/>ex vendente sed ex conditione ementis: nullus 
+<lb ed="#L" n="6"/>autem debet vendere alteri quod non est suum,
+<lb ed="#L" n="7"/>licet possit ei vendere damnum quod patitur.
+<lb ed="#L" n="8"/>Ille tamen qui ex re alterius accepta multum 
+1iu<lb break="no" ed="#L" n="9"/>vatur, potest propria sponte aliquid vendenti 
+su<lb break="no" ed="#L" n="10"/>pererogare: quod pertinet ad eius honestatem.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e401">
+                  <lb ed="#L" n="11"/>AD PRIMUM ERGO DICENDUM quod, sicut supra |
+<lb ed="#L" n="12"/>dictum est, lex humana populo datur, in quo sunt
+<lb ed="#L" n="13"/>multi a: virtute deficientes: non autem datur 
+so<lb break="no" ed="#L" n="14"/>lis virtuosis. Et ideo lex humana. non. potuit 
+<lb ed="#L" n="15"/>sufficit ut prohibeat ea quae destruunt hominum
+<lb ed="#L" n="16"/>convictum; alia vero habeat quasi licita, non
+<lb ed="#L" n="17"/>quia ea approbet, sed quia ea non punit.
+<lb ed="#L" n="18"/>igitur habet quasi licitum, poenam non inducens,
+<lb ed="#L" n="19"/>si absque fraude venditor rem suam 
+superven<lb break="no" ed="#L" n="20"/>dat aut emptor vilius emat, nisi sit nimius '
+ex<lb break="no" ed="#L" n="21"/>cessus: quia tunc etiam lex humana cogit ad 
+re<lb break="no" ed="#L" n="22"/>stituendum, puta si aliquis sit deceptus ultra 
+di<lb break="no" ed="#L" n="23"/>midiam iusti pretii quantitatem. Sed lex divina
+<lb ed="#L" n="24"/>nihil impunitum. relinquit. quod sit. virtuti 
+contra<lb break="no" ed="#L" n="25"/>rium. Unde secundum divinam. legem. illicitum
+<lb ed="#L" n="26"/>prohibere. quidquid est. contra virtutem, sed ei 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="27"/>reputatur si in emptione et venditione non sit
+<lb ed="#L" n="28"/>aequalitas iustitiae observata. Et tenetur ille qui
+<lb ed="#L" n="29"/>plus. habet recompensare ei qui damnificatus est,
+<lb ed="#L" n="30"/>si sit notabile damnum. Quod ideo dico quia
+<lb ed="#L" n="31"/>iustum pretium rerum quandoque ^ non est 
+pun<lb break="no" ed="#L" n="32"/>ctaliter determinatum, sed magis in quadam 
+ae<lb break="no" ed="#L" n="33"/>stimatione consistit, ita quod modica additio vel
+<lb ed="#L" n="34"/>minutio non videtur tollere aequalitatem iustitiae.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e458">
+                  <lb ed="#L" n="35"/>AD SECUNDUM DICENDUM quod, sicut Augustinus
+<lb ed="#L" n="36"/>ibidem dicit, rmuumus ille vel seipsum intuendo,
+<lb ed="#L" n="37"/>vel alios experiendo vili velle emere et care 
+ven<lb break="no" ed="#L" n="38"/>dere, omnibus id credidit esse commune. Sed 
+quo<lb break="no" ed="#L" n="39"/>niam revera vitium est, potest quisque adipisci 
+hu<lb break="no" ed="#L" n="40"/>iusmodi iustitiam qua huic resistat et vincat. Et
+<lb ed="#L" n="41"/>ponit exemplum de quodam qui modicum 
+pre<lb break="no" ed="#L" n="42"/>tium de quodam libro propter ignorantiam 
+po<lb break="no" ed="#L" n="43"/>stulanti iustum pretium dedit. Unde patet quod
+<lb ed="#L" n="44"/>illud commune desiderium non est naturae, sed
+<lb ed="#L" n="45"/>vitii. Et ideo commune est multis, qui per latam
+<lb ed="#L" n="46"/>viam vitiorum incedunt.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e487">
+                  <lb ed="#L" n="47"/>AD TERTIUM DICENDUM quod in iustitia 
+commu<lb break="no" ed="#L" n="48"/>tativa consideratur principaliter aequalitas rei.
+<lb ed="#L" n="49"/>Sed in amicitia utilis consideratur aequalitas 
+uti<lb break="no" ed="#L" n="50"/>litatis: et ideo recompensatio fieri debet. 
+secun<lb break="no" ed="#L" n="51"/>dum utilitatem perceptam. In emptione vero 
+se<lb break="no" ed="#L" n="52"/>cundum aequalitatem rei.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1670-Dd1e504"><!-- p2p2-q77a2" -->
+               <head xml:id="TAca84-d1e1670-Hd1e507">Articulus 2</head>
+               <head xml:id="TAca84-d1e1670-Hd1e509" type="question-title">Utrum venditio reddatur iniusta et illicita propter defectum rei venditae</head>
+               <p xml:id="TAca84-d1e1670-d1e512">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="85" type="fixed=150"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="86"/>UTRUM VENDITIO REDDATUR INIUSTA ET ILLICITA PROPTER DEFECTUM REI VENDITAE
+</p>
+               <p xml:id="TAca84-d1e1670-d1e521">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="87"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="88"/>venditio non reddatur iniusta et illicita
+<lb ed="#L" n="89"/>propter defectum rei venditae. Minus 
+<lb ed="#L" n="90"/>enim cetera sunt pensanda in re quam
+<lb ed="#L" n="91"/>rei species substantialis. Sed propter defectum
+<lb ed="#L" n="92"/>speciei substantialis non videtur reddi venditio
+<lb ed="#L" n="93"/>rei illicita: puta si aliquis. vendat argentum vel
+<lb ed="#L" n="94"/>aurum alchimicum pro vero, quod est utile ad
+<lb ed="#L" n="95"/>omnes humanos usus ad quos necessarium est
+<lb ed="#L" n="96"/>argentum et aurum, puta ad vasa et ad alia 
+hu<lb break="no" ed="#L" n="97"/>iusmodi. Ergo multo minus erit illicita venditio
+<lb ed="#L" n="98"/>si sit defectus in aliis.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e552">
+                  <lb ed="#L" n="99"/>2. PRAETEREA, defectus ex parte rei qui est
+<lb ed="#L" n="100"/>secundum quantitatem . maxime videtur iustitiae
+<lb ed="#L" n="101"/>contrariari, quae in aequalitate consistit. 
+Quanti<lb break="no" ed="#L" n="102"/>tas autem per mensuram cognoscitur. Mensurae
+<lb ed="#L" n="103"/>autem rerum quae in usum hominum veniunt
+<lb ed="#L" n="104"/>non sunt determinatae, sed alicubi maiores, 
+ali<lb break="no" ed="#L" n="105"/>cubi minores: ut patet per Philosophum, in V
+<lb ed="#L" n="106"/>Ethic. Ergo non potest evitari defectus ex parte
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="107"/>rei venditae. Et ita videtur quod ex hoc 
+vendi<lb break="no" ed="#L" n="108"/>tio non reddatur illicita.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e579">
+                  <lb ed="#L" n="109"/>3. PRAETEREA, ad defectum rei pertinet si ei
+<lb ed="#L" n="110"/>conveniens qualitas deest. Sed ad qualitatem rei .
+<lb ed="#L" n="111"/>cognoscendam requiritur magna scientia, quae
+<lb ed="#L" n="112"/>plerisque venditoribus deest. Ergo non redditur
+<lb ed="#L" n="113"/>venditio illicita propter rei defectum.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e592">
+                  <lb ed="#L" n="114"/>SED CONTRA EST quod <name xml:id="TAca84-d1e1670-Nd1e596">Ambrosius</name> dicit, in libro
+<lb ed="#L" n="115"/>de Offic.: <quote xml:id="TAca84-d1e1670-Qd1e600">Regula iustitiae manifesta. est. quod
+<lb ed="#L" n="116"/>a vero non declinare virum deceat bonum , nec
+<lb ed="#L" n="117"/>damno iniusto afficere quemquam, nec aliquid dolo
+<lb ed="#L" n="118"/>annectere rei suae</quote>.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e610">
+                  <lb ed="#L" n="119"/>RESPONDEO DICENDUM quod circa rem quae 
+ven<lb break="no" ed="#L" n="120"/>ditur triplex defectus considerari potest. Unus
+<lb ed="#L" n="121"/>quidem secundum speciem rei. Et hunc quidem
+<lb ed="#L" n="122"/>defectum si venditor cognoscat in re quam 
+ven<lb break="no" ed="#L" n="123"/>dit, fraudem committit in venditione: unde 
+ven<lb break="no" ed="#L" n="124"/>ditio illicita redditur. Et hoc est quod dicitur
+<lb ed="#L" n="125"/>contra quosdam Isaiae 1: Argentum tuum. 
+ver<lb break="no" ed="#L" n="126"/>sum est in scoriam; vinum tuum mixtum est aqua:
+<pb ed="#L" n="151"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>quod enim permixtum est patitur defectum 
+quan<lb break="no" ed="#L" n="2"/>tum ad speciem. - Alius autem defectus est 
+se<lb break="no" ed="#L" n="3"/>cundum quantitatem, quae per mensuram 
+cogno<lb break="no" ed="#L" n="4"/>scitur. Et ideo si quis scienter utatur deficienti 
+<lb ed="#L" n="5"/>mensura in vendendo, fraudem committit, et est 
+<lb ed="#L" n="6"/>illicita venditio. Unde dicitur Deut. xxv: Non
+<lb ed="#L" n="7"/>habebis in sacculo diversa pondera, maius et 
+mi<lb break="no" ed="#L" n="8"/>nus: nec erit in domo tua modius maior et 
+mi<lb break="no" ed="#L" n="9"/>nor; et postea subditur: Abominatur enim 
+Do<lb break="no" ed="#L" n="10"/>minus eum qui facit haec, et adversatur omnem
+<lb ed="#L" n="11"/>iniustitiam. — Tertius defectus est ex parte 
+quali<lb break="no" ed="#L" n="12"/>tatis: puta si aliquod animal infirmum vendat
+<lb ed="#L" n="13"/>quasi sanum. Quod si quis scienter fecerit, 
+frau<lb break="no" ed="#L" n="14"/>dem committit in venditione: unde est illicita
+<lb ed="#L" n="15"/>venditio.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e667">
+                  <lb ed="#L" n="16"/>Et in omnibus talibus non solum aliquis 
+pec<lb break="no" ed="#L" n="17"/>cat iniustam venditionem faciendo, sed etiam ad
+<lb ed="#L" n="18"/>restitutionem tenetur. Si vero eo ignorante 
+ali<lb break="no" ed="#L" n="19"/>quis praedictorum defectuum in re vendita fuerit,
+<lb ed="#L" n="20"/>venditor quidem non peccat, quia facit iniustum
+<lb ed="#L" n="21"/>materialiter; non tamen ? eius operatio est 
+iniu<lb break="no" ed="#L" n="22"/>sta, ut ex supradictis patet: tenetur tamen,
+<lb ed="#L" n="23"/>cum ad eius notitiam pervenerit, damnum 
+recom<lb break="no" ed="#L" n="24"/>pensare emptori.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e689">
+                  <lb ed="#L" n="25"/>Et quod dictum est de venditore, etiam 
+intel<lb break="no" ed="#L" n="26"/>ligendum est ex parte emptoris. Contingit enim
+<lb ed="#L" n="27"/>quandoque venditorem credere suam rem esse
+<lb ed="#L" n="28"/>minus pretiosam quantum ad speciem: sicut si
+<lb ed="#L" n="29"/>aliquis vendat aurum ! loco aurichalci, emptor,
+<lb ed="#L" n="30"/>Si id cognoscat, iniuste emit, et ad restitutionem
+<lb ed="#L" n="31"/>tenetur. Et eadem ratio est de defectu qualitatis
+<lb ed="#L" n="32"/>et quantitatis.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e709">
+                  <lb ed="#L" n="33"/>AD PRIMUM ERGO DICENDUM quod aurum et 
+ar<lb break="no" ed="#L" n="34"/>gentum non solum cara sunt propter utilitatem
+<lb ed="#L" n="35"/>vasorum quae ex eis fabricantur, aut aliorum 
+hu<lb break="no" ed="#L" n="36"/>iusmodi, sed etiam propter dignitatem et 
+purita<lb break="no" ed="#L" n="37"/>tem substantiae ipsorum. Et ideo si aurum vel
+<lb ed="#L" n="38"/>argentum ab alchimicis factum veram speciem
+</p>
+               <p xml:id="TAca84-d1e1670-d1e726">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="39"/>non habeat auri et argenti, est fraudulenta et 
+in<lb break="no" ed="#L" n="40"/>iusta venditio. Praesertim cum sint aliquae 
+uti<lb break="no" ed="#L" n="41"/>litates auri et argenti veri, secundum naturalem
+<lb ed="#L" n="42"/>operationem ipsorum, quae non conveniunt auro
+<lb ed="#L" n="43"/>per alchimiam sophisticato: sicut quod habet 
+pro<lb break="no" ed="#L" n="44"/>prietatem laetificandi, et contra quasdam 
+infirmi<lb break="no" ed="#L" n="45"/>tates medicinaliter iuvat. Frequentius etiam 
+po<lb break="no" ed="#L" n="46"/>test poni in operatione, et diutius in sua puritate
+<lb ed="#L" n="47"/>permanet aurum verum quam aurum 
+sophistica<lb break="no" ed="#L" n="48"/>tum. - Si autem per alchimiam fieret aurum 
+ve<lb break="no" ed="#L" n="49"/>rum, non esset illicitum ipsum pro vero vendere:
+<lb ed="#L" n="50"/>quia nihil prohibet artem uti aliquibus 
+naturali<lb break="no" ed="#L" n="51"/>bus causis ad producendum naturales et veros
+<lb ed="#L" n="52"/>effectus; sicut Augustinus dicit, in III de 7rin.*,
+<lb ed="#L" n="53"/>de his quae arte daemonum fiunt.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e763">
+                  <lb ed="#L" n="54"/>AD SECUNDUM DICENDUM quod mensuras rerum
+<lb ed="#L" n="55"/>venalium necesse est in diversis locis esse 
+diver<lb break="no" ed="#L" n="56"/>sas, propter diversitatem copiae et inopiae rerum:
+<lb ed="#L" n="57"/>quia ubi res magis abundant ?, consueverunt esse
+<lb ed="#L" n="58"/>maiores mensurae. In unoquoque tamen loco
+<lb ed="#L" n="59"/>ad rectores civitatis pertinet determinare quae
+<lb ed="#L" n="60"/>sunt iustae mensurae rerum venalium, pensatis
+<lb ed="#L" n="61"/>conditionibus locorum et rerum. Et ideo has 
+men<lb break="no" ed="#L" n="62"/>suras publica auctoritate vel consuetudine 
+insti<lb break="no" ed="#L" n="63"/>tutas praeterire non licet.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e787">
+                  <lb ed="#L" n="64"/>AD TERTIUM DICENDUM quod, sicut Augustinus
+<lb ed="#L" n="65"/>dicit, in XI de Civ. Dei, pretium rerum 
+vena<lb break="no" ed="#L" n="66"/>lium non consideratur secundum gradum 
+natu<lb break="no" ed="#L" n="67"/>rae, cum quandoque pluris vendatur unus equus
+<lb ed="#L" n="68"/>quam unus servus: sed consideratur secundum
+<lb ed="#L" n="69"/>quod res in usum hominis veniunt. Et ideo non
+<lb ed="#L" n="70"/>oportet quod venditor vel emptor cognoscat 
+oc<lb break="no" ed="#L" n="71"/>cultas rei venditae qualitates: sed illas solum per
+<lb ed="#L" n="72"/>quas redditur humanis usibus apta, puta quod
+<lb ed="#L" n="73"/>equus sit fortis et bene currat, et similiter in 
+ce<lb break="no" ed="#L" n="74"/>teris. Has autem qualitates de facili venditor et
+<lb ed="#L" n="75"/>emptor cognoscere possunt.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1670-Dd1e817"><!-- p2p2-q77a3" -->
+               <head xml:id="TAca84-d1e1670-Hd1e820">Articulus 3</head>
+               <head xml:id="TAca84-d1e1670-Hd1e822" type="question-title">Utrum venditor teneatur dicere vitium rei venditae</head>
+               <p xml:id="TAca84-d1e1670-d1e825">
+                  <pb ed="#L" n="152"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=152"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM VENDITOR TENEATUR DICERE VITIUM REI VENDITAE
+</p>
+               <p xml:id="TAca84-d1e1670-d1e836">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>venditor non teneatur dicere vitium rei
+<lb ed="#L" n="5"/>venditae. Cum enim venditor 
+empto<lb break="no" ed="#L" n="6"/>rem ad emendum. non cogat, videtur
+<lb ed="#L" n="7"/>eius iudicio rem quam vendit supponere. Sed
+<lb ed="#L" n="8"/>ad eundem pertinet iudicium et cognitio rei. Non
+<lb ed="#L" n="9"/>ergo videtur imputandum venditori si emptor in
+<lb ed="#L" n="10"/>suo iudicio decipitur, praecipitanter emendo, 
+abs<lb break="no" ed="#L" n="11"/>que diligenti inquisitione de conditionibus rei.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e860">
+                  <lb ed="#L" n="12"/>2. PRAETEREA, stultum videtur quod aliquis id
+<lb ed="#L" n="13"/>faciat unde eius operatio impediatur. Sed si 
+ali<lb break="no" ed="#L" n="14"/>quis vitia rei vendendae indicet, impedit suam
+<lb ed="#L" n="15"/>inducit quendam dicentem, quid tam absurdum
+<lb ed="#L" n="16"/>quam si, domini iussu, ita praeco praediceret: 
+Do<lb break="no" ed="#L" n="17"/>mum pestilentem vendo? Ergo venditor non 
+te<lb break="no" ed="#L" n="18"/>netur dicere vitia rei venditae. :
+</p>
+               <p xml:id="TAca84-d1e1670-d1e879">
+                  <lb ed="#L" n="19"/>3. PRAETEREA, magis necessarium est homini
+<lb ed="#L" n="20"/>ut cognoscat viam. virtutis quam ut cognoscat
+<lb ed="#L" n="21"/>vitia rerum quae venduntur. Sed homo non 
+te<lb break="no" ed="#L" n="22"/>netur cuilibet consilium dare et veritatem dicere
+<lb ed="#L" n="23"/>de his quae pertinent ad virtutem: quamvis nulli
+<lb ed="#L" n="24"/>debeat dicere falsitatem. Ergo multo minus 
+te<lb break="no" ed="#L" n="25"/>netur venditor vitia rei venditae dicere, quasi
+<lb ed="#L" n="26"/>consilium dando emptori.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e899">
+                  <lb ed="#L" n="27"/>4. PRAETEREA, si aliquis teneatur dicere 
+defe<lb break="no" ed="#L" n="28"/>ctum rei venditae, hoc non est nisi ut minuatur
+<lb ed="#L" n="29"/>de pretio. Sed quandoque diminueretur de pretio
+<lb ed="#L" n="30"/>etiam sine vitio rei venditae, propter aliquid aliud :
+<lb ed="#L" n="31"/>puta si venditor deferens triticum ad locum ubi
+<lb ed="#L" n="32"/>est carestia frumenti, sciat multos posse ? venire
+<lb ed="#L" n="33"/>qui deferant; quod si sciretur ab ementibus, 
+mi<lb break="no" ed="#L" n="34"/>nus pretium darent. Huiusmodi autem non 
+opor<lb break="no" ed="#L" n="35"/>tet dicere venditorem, ut videtur. Ergo, pari 
+ra<lb break="no" ed="#L" n="36"/>tione, nec vitia rei venditae.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e923">
+                  <lb ed="#L" n="37"/>SED coNTRA EST quod Ambrosius dicit, in III
+<lb ed="#L" n="38"/>de Offic.: In contractibus vitia eorum quae 
+ve<lb break="no" ed="#L" n="39"/>neunt prodi iubentur: ac nisi intimaverit 
+vendi<lb break="no" ed="#L" n="40"/>tor, quamvis in ius emptoris transierint, doli actione
+<lb ed="#L" n="41"/>vacuantur.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e936">
+                  <lb ed="#L" n="42"/>RzsPONDEO DICENDUM quod dare alicui 
+occasio<lb break="no" ed="#L" n="43"/>nem periculi vel damni semper est illicitum:
+<lb ed="#L" n="44"/>quamvis non sit necessarium quod homo alteri
+<lb ed="#L" n="45"/>semper det auxilium vel consilium pertinens ad
+<lb ed="#L" n="46"/>eius qualemcumque promotionem ', sed hoc 
+so<lb break="no" ed="#L" n="47"/>lum est necessarium in. aliquo casu "determinato,
+<lb ed="#L" n="48"/>puta cum alius eius curae subdatur ?, vel cum
+<lb ed="#L" n="49"/>non potest ei per alium subveniri. Venditor 
+au<lb break="no" ed="#L" n="50"/>tem, qui rem vendendam proponit, ex hoc ipso
+<lb ed="#L" n="51"/>dat emptori damni vel periculi occasionem quod
+<lb ed="#L" n="52"/>rem vitiosam ei offert, si ex eius vitio damnum
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="53"/>vel periculum incurrere possit: damnum quidem,
+<lb ed="#L" n="54"/>si propter huiusmodi vitium res quae vendenda
+<lb ed="#L" n="55"/>proponitur minoris sit pretii, ipse vero propter
+<lb ed="#L" n="56"/>huiusmodi vitium nihil de pretio. subtrahat; 
+pe<lb break="no" ed="#L" n="57"/>riculum autem, puta si propter huiusmodi vitium
+<lb ed="#L" n="58"/>usus rei reddatur impeditus vel noxius, puta si
+<lb ed="#L" n="59"/>aliquis alicui. vendat. equum claudicantem pro
+<lb ed="#L" n="60"/>veloci, vel ruinosam domum pro firma, vel 
+ci<lb break="no" ed="#L" n="61"/>bum corruptum sive venenosum pro bono. Unde
+<lb ed="#L" n="62"/>$i huiusmodi vitia sint occulta et ipse non 
+dete<lb break="no" ed="#L" n="63"/>gat, erit illicita et dolosa venditio, et tenetur 
+ven<lb break="no" ed="#L" n="64"/>ditor ad damni recompensationem.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e991">
+                  <lb ed="#L" n="65"/>Si vero vitium sit manifestum, puta cum equus
+<lb ed="#L" n="66"/>est monoculus; vel cum usus rei, etsi non 
+com<lb break="no" ed="#L" n="67"/>petat venditori, potest tamen esse conveniens
+<lb ed="#L" n="68"/>alis; et si ipse propter huiusmodi vitium. 
+sub<lb break="no" ed="#L" n="69"/>trahat quantum oportet de pretio: non tenetur ad
+<lb ed="#L" n="70"/>manifestandum vitium rei. Quia forte propter 
+hu<lb break="no" ed="#L" n="71"/>iusmodi vitium emptor vellet plus subtrahi de
+<lb ed="#L" n="72"/>pretio quam esset subtrahendum. Unde potest
+<lb ed="#L" n="73"/>licite venditor indemnitati suae consulere, vitium
+<lb ed="#L" n="74"/>rei reticendo.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e1015">
+                  <lb ed="#L" n="75"/>AD PRIMUM ERGO DICENDUM quod iudicium. non
+<lb ed="#L" n="76"/>potest fieri nisi de re manifesta: unusquisque enim
+<lb ed="#L" n="77"/>iudicat quae ^ cognoscit, ut dicitur in I Ethic.
+<lb ed="#L" n="78"/>Unde si vitia rei quae vendenda proponitur sint
+<lb ed="#L" n="79"/>occulta, nisi per venditorem manifestentur, non
+<lb ed="#L" n="80"/>sufficienter committitur emptori iudicium. Secus
+<lb ed="#L" n="81"/>autem esset si essent vitia manifesta.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e1034">
+                  <lb ed="#L" n="82"/>AD SECUNDUM DICENDUM quod. non oportet quod
+<lb ed="#L" n="83"/>aliquis per praeconem vitium rei vendendae
+<lb ed="#L" n="84"/>praenuntiet: quia si praediceret vitium, 
+exterre<lb break="no" ed="#L" n="85"/>rentur emptores ab emendo, dum ignorarent alias 
+<lb ed="#L" n="86"/>conditiones rei, secundum quas ' est bona et utilis.
+<lb ed="#L" n="87"/>Sed singulariter est dicendum vitium ei qui ad
+<lb ed="#L" n="88"/>emendum accedit, qui potest simul omnes 
+con<lb break="no" ed="#L" n="89"/>ditiones ad invicem comparare, bonas et malas:
+<lb ed="#L" n="90"/>nihil enim prohibet rem in aliquo vitiosam, in
+<lb ed="#L" n="91"/>multis aliis utilem esse.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e1058">
+                  <lb ed="#L" n="92"/>AD TERTIUM DICENDUM quod quamvis homo non
+<lb ed="#L" n="93"/>teneatur simpliciter omni homini dicere 
+verita<lb break="no" ed="#L" n="94"/>tem de his quae pertinent ad virtutes, teneretur 
+<lb ed="#L" n="95"/>tamen in casu illo de his dicere veritatem quando
+<lb ed="#L" n="96"/>ex eius facto alteri periculum immineret in 
+de<lb break="no" ed="#L" n="97"/>trimentum virtutis nisi diceret veritatem. Et sic
+<lb ed="#L" n="98"/>est in proposito.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e1076">
+                  <lb ed="#L" n="99"/>AD QUARTUM DICENDUM quod vitium rei facit
+<lb ed="#L" n="100"/>rem in praesenti esse minoris valoris quam 
+vi<lb break="no" ed="#L" n="101"/>deatur: sed in casu praemisso, in futurum res
+<lb ed="#L" n="102"/>expectatur esse minoris valoris per superventum
+<lb ed="#L" n="103"/>negotiatorum, qui ab ementibus ignoratur. Unde
+<pb ed="#L" n="153"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>venditor qui vendit rem secundum pretium quod 
+<lb ed="#L" n="2"/>invenit, non videtur contra iustitiam facere si  
+<lb ed="#L" n="3"/>quod futurum est non exponat. Si tamen expo- 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="4"/>neret, vel de pretio subtraheret, abundantioris 
+es<lb break="no" ed="#L" n="5"/>set virtutis; quamvis ad hoc non videatur teneri
+<lb ed="#L" n="6"/>ex iustitiae debito.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1670-Dd1e1110"><!-- p2p2-q77a4" -->
+               <head xml:id="TAca84-d1e1670-Hd1e1113">Articulus 4</head>
+               <head xml:id="TAca84-d1e1670-Hd1e1115" type="question-title">Utrum liceat negotiando, aliquid carius vendere quam emere</head>
+               <p xml:id="TAca84-d1e1670-d1e1118">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="41" type="fixed=153"/>ARTICULUS QUARTUS
+<lb ed="#L" n="42"/>UTRUM LICEAT NEGOTIANDO, ALIQUID CARIUS VENDERE QUAM EMERE
+</p>
+               <p xml:id="TAca84-d1e1670-d1e1127">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="43"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="44"/>non liceat, negotiando, aliquid. carius
+<lb ed="#L" n="45"/>vendere quam emere. Dicit enim 
+Chry<lb break="no" ed="#L" n="46"/>sostomus, super Matth. xxi: 
+Quicum<lb break="no" ed="#L" n="47"/>que rem comparal ul, integram et immutatam
+<lb ed="#L" n="48"/>vendendo, lucretur, ille est mercator qui de templo
+<lb ed="#L" n="49"/>Dei eiicitur. Et idem dicit <name xml:id="TAca84-d1e1670-Nd1e1146">Cassiodorus</name>, super illud
+<lb ed="#L" n="50"/>Psalm., Quoniam non cognovi litieraturam, vel
+<lb ed="#L" n="51"/>negotiationem secundum aliam litteram: Quid,
+<lb ed="#L" n="52"/>inquit, es? aliud negotiatio nisi vilius comparare
+<lb ed="#L" n="53"/>et carius velle distrahere? et subdit: 
+Negotiato<lb break="no" ed="#L" n="54"/>res tales. .Dominus .eiecil de. templo.. Sed. nullus
+<lb ed="#L" n="55"/>eiicitur de templo nisi propter aliquod peccatum.
+<lb ed="#L" n="56"/>Ergo talis negotiatio est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e1164">
+                  <lb ed="#L" n="57"/>2. PRAETEREA, contra iustitiam est quod aliquis
+<lb ed="#L" n="58"/>rem carius vendat quam valeat, vel vilius emat,
+<lb ed="#L" n="59"/>ut ex dictis apparet. Sed ille qui, negotiando,
+<lb ed="#L" n="60"/>rem carius vendit quam emerit, necesse est quod
+<lb ed="#L" n="61"/>vel vilius emerit quam valeat, vel carius vendat.
+<lb ed="#L" n="62"/>Ergo hoc sine peccato fieri non potest.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e1181">
+                  <lb ed="#L" n="63"/>3. PRaETEREA, Hieronymus dicit: 
+Negotiato<lb break="no" ed="#L" n="64"/>rem clericum, ex inope divitem, ex ignobili 
+glo<lb break="no" ed="#L" n="65"/>riosum, quasi quandam pestem fuge. Non autem
+<lb ed="#L" n="66"/>negotiatio clericis interdicenda P esse videtur nisi
+<lb ed="#L" n="67"/>propter peccatum. Ergo negotiando aliquid 
+vi<lb break="no" ed="#L" n="68"/>lius emere et carius vendere est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e1197">
+                  <lb ed="#L" n="69"/>SED coNTRA EsT quod Augustinus dicit, super 
+il<lb break="no" ed="#L" n="70"/>lud Psalm., Quoniam non cognovi litteraturam :
+<lb ed="#L" n="71"/>Negotiator avidus acquirendi pro damno 
+blasphe<lb break="no" ed="#L" n="72"/>mat , pro pretiis rerum mentitur et peierat. Sed
+<lb ed="#L" n="73"/>haec vitia hominis sunt, non artis, quae sine his
+<lb ed="#L" n="74"/>vitiis agi potest. Ergo negotiari secundum se non
+<lb ed="#L" n="75"/>est illicitum.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e1215">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="76"/>RESPONDEO DICENDUM quod ad negotiatores 
+per<lb break="no" ed="#L" n="77"/>tinet commutationibus rerum insistere. Ut autem
+<lb ed="#L" n="78"/>Philosophus dicit, in I Polit., duplex est rerum
+<lb ed="#L" n="79"/>commutatio. Una quidem quasi naturalis et 
+ne<lb break="no" ed="#L" n="80"/>cessaria: per quam scilicet fit commutatio rei
+<lb ed="#L" n="81"/>ad rem, vel rerum et denariorum, propter 
+neces<lb break="no" ed="#L" n="82"/>sitatem vitae. Et talis commutatio non proprie
+<lb ed="#L" n="83"/>pertinet ad negotiatores, sed magis ad 
+oeconomi<lb break="no" ed="#L" n="84"/>cos vel politicos, qui habent providere vel 
+do<lb break="no" ed="#L" n="85"/>mui vel civitati de rebus necessariis ad vitam.
+<lb ed="#L" n="86"/>Alia vero commutationis species est vel 
+denario<lb break="no" ed="#L" n="87"/>rum ad denarios, vel quarumcumque rerum ad
+<lb ed="#L" n="88"/>denarios, non propter res necessarias vitae, sed
+<lb ed="#L" n="89"/>propter lucrum quaerendum. Et haec quidem
+<lb ed="#L" n="90"/>negotiatio proprie videtur ad negotiatores 
+perti<lb break="no" ed="#L" n="91"/>nere. Secundum Philosophum autem, prima
+<lb ed="#L" n="92"/>commutatio laudabilis est: quia deservit naturali
+<lb ed="#L" n="93"/>necessitati. Secunda autem iuste vituperatur: quia,
+<lb ed="#L" n="94"/>quantum est de se, deservit cupiditati lucri, quae
+<lb ed="#L" n="95"/>terminum nescit sed in infinitum tendit. Et ideo
+<lb ed="#L" n="96"/>negotiatio, secundum se considerata, quandam
+<lb ed="#L" n="97"/>turpitudinem habet: inquantum non importat de
+<lb ed="#L" n="98"/>sui ratione finem honestum vel necessarium.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e1270">
+                  <lb ed="#L" n="99"/>Lucrum tamen, quod est negotiationis finis, etsi
+<lb ed="#L" n="100"/>in sui ratione non importet aliquid honestum vel
+<lb ed="#L" n="101"/>necessarium, nihil tamen importat in sui ratione
+<lb ed="#L" n="102"/>vitiosum vel virtuti contrarium. Unde nihil 
+pro<lb break="no" ed="#L" n="103"/>hibet lucrum ordinari ad aliquem finem 
+neces<lb break="no" ed="#L" n="104"/>sarium, vel etiam honestum. Et sic negotiatio
+<lb ed="#L" n="105"/>licita reddetur. Sicut cum aliquis lucrum 
+mo<lb break="no" ed="#L" n="106"/>deratum ?, quod negotiando quaerit, ordinat ad
+<lb ed="#L" n="107"/>domus suae sustentationem, vel etiam ad 
+sub<lb break="no" ed="#L" n="108"/>veniendum indigentibus: vel etiam cum aliquis
+<pb ed="#L" n="154"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>negotiationi intendit propter publicam utilitatem,
+<lb ed="#L" n="2"/>ne scilicet res necessariae ad vitam patriae 
+de<lb break="no" ed="#L" n="3"/>sint, et lucrum expetit non quasi finem, sed
+<lb ed="#L" n="4"/>quasi stipendium laboris.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e1307">
+                  <lb ed="#L" n="5"/>AD PRIMUM ERGO DICENDUM quod verbum 
+Chry<lb break="no" ed="#L" n="6"/>sostomi est intelligendum de negotiatione 
+secun<lb break="no" ed="#L" n="7"/>dum quod ultimum finem in lucro constituit, quod
+<lb ed="#L" n="8"/>praecipue videtur quando aliquis rem non 
+immu<lb break="no" ed="#L" n="9"/>tatam carius vendit. Si enim rem immutatam
+<lb ed="#L" n="10"/>carius vendat, videtur praemium sui laboris 
+ac<lb break="no" ed="#L" n="11"/>cipere. Quamvis et ipsum lucrum possit licite
+<lb ed="#L" n="12"/>intendi, non sicut ultimus finis, sed propter alium
+<lb ed="#L" n="13"/>finem necessarium vel honestum, ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e1329">
+                  <lb ed="#L" n="14"/>AD SECUNDUM DICENDUM quod non quicumque
+<lb ed="#L" n="15"/>carius vendit aliquid quam emerit, negotiatur:
+<lb ed="#L" n="16"/>sed solum qui ad hoc emit ut carius vendat.
+<lb ed="#L" n="17"/>Si autem emit rem non ut vendat, sed ut 
+te<lb break="no" ed="#L" n="18"/>neat, et postmodum propter aliquam causam
+<lb ed="#L" n="19"/>eam vendere velit, non est negotiatio, quamvis
+<lb ed="#L" n="20"/>carius vendat. Potest enim hoc licite facere, vel
+<lb ed="#L" n="21"/>quia in aliquo rem melioravit; vel quia pretium
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="22"/>rei est mutatum, secundum diversitatem loci vel
+<lb ed="#L" n="23"/>temporis; vel propter periculum cui se exponit
+<lb ed="#L" n="24"/>transferendo rem de loco ad locum, vel eam
+<lb ed="#L" n="25"/>ferri faciendo. Et secundum hoc, nec emptio
+<lb ed="#L" n="26"/>nec venditio est iniusta.
+</p>
+               <p xml:id="TAca84-d1e1670-d1e1363">
+                  <lb ed="#L" n="27"/>AD TERTIUM DICENDUM quod clerici non solum
+<lb ed="#L" n="28"/>debent abstinere ab his quae sunt secundum se
+<lb ed="#L" n="29"/>mala, sed etiam ab his quae habent speciem
+<lb ed="#L" n="30"/>mali. Quod quidem in negotiatione contingit ,
+<lb ed="#L" n="31"/>tum propter hoc quod est ordinata ad lucrum 
+ter<lb break="no" ed="#L" n="32"/>renum, cuius clerici debent esse contemptores;
+<lb ed="#L" n="33"/>tum etiam propter frequentia negotiatorum vitia,
+<lb ed="#L" n="34"/>quia difficiliter exuitur negotiator a peccatis 
+la<lb break="no" ed="#L" n="35"/>biorum, ut dicitur Eccli. xxvi*. Est et alia causa,
+<lb ed="#L" n="36"/>quia negotiatio nimis implicat animum. 
+saecula<lb break="no" ed="#L" n="37"/>ribus curis, et per consequens a spiritualibus 
+re<lb break="no" ed="#L" n="38"/>trahit: unde Apostolus dicit, II ad 77m. 1: Nemo
+<lb ed="#L" n="39"/>milians Deo implicat se negotus saecularibus. -
+<lb ed="#L" n="40"/>Licet tamen clericis uti prima commutationis
+<lb ed="#L" n="41"/>specie, quae ordinatur ad necessitatem vitae,
+<lb ed="#L" n="42"/>emendo vel vendendo.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

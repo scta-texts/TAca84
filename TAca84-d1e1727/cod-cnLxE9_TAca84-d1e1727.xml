@@ -1,0 +1,1636 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 88</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 88</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="234"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1727"><!-- p2p2-q88" -->
+            <head xml:id="TAca84-d1e1727-Hd1e101">Quaestio 88</head>
+            <head xml:id="TAca84-d1e1727-Hd1e103" type="question-title">De voto</head>
+            <p xml:id="TAca84-d1e1727-d1e106">
+               <pb ed="#L" n="234"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=234"/>QUAESTIO OCTOGESIMAOCTAVA
+<lb ed="#L" n="2"/>DE VOTO
+<lb ed="#L" n="3"/>IN DUODECIM ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1727-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de voto, per quod 
+<lb ed="#L" n="5"/>aliquid Deo promittitur.
+<lb ed="#L" n="6"/>Et circa hoc quaeruntur duodecim
+<lb ed="#L" n="7"/>Primo: quid sit votum.
+<lb ed="#L" n="8"/>Secundo: quid cadat sub voto.
+<lb ed="#L" n="9"/>Tertio: de obligatione voti.
+<lb ed="#L" n="10"/>Quarto: de utilitate vovendi.
+<lb ed="#L" n="11"/>Quinto: cuius virtutis sit actus.
+<lb ed="#L" n="12"/>Sexto: utrum magis meritorium sit facere 
+ali<lb break="no" ed="#L" n="13"/>quid ex voto quam sine voto.
+<lb ed="#L" n="14"/>Septimo: de solemnitate voti.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="15"/>Octavo: utrum possint vovere qui sunt 
+pote<lb break="no" ed="#L" n="16"/>stati alterius subiecti.
+<lb ed="#L" n="17"/>Nono: utrum pueri possint voto obligari ad
+<lb ed="#L" n="18"/>religionis ingressum.
+<lb ed="#L" n="19"/>Decimo: utrum votum sit dispensabile vel
+<lb ed="#L" n="20"/>commutabile.
+<lb ed="#L" n="21"/>Undecimo: utrum in solemni voto 
+continen<lb break="no" ed="#L" n="22"/>tiae possit dispensari. 
+<lb ed="#L" n="23"/>Duodecimo: utrum requiratur in dispensatione
+<lb ed="#L" n="24"/>voti superioris auctoritas.
+</p>
+            <div xml:id="TAca84-d1e1727-Dd1e171"><!-- p2p2-q88a1" -->
+               <head xml:id="TAca84-d1e1727-Hd1e174">Articulus 1</head>
+               <head xml:id="TAca84-d1e1727-Hd1e176" type="question-title">Utrum votum consistat in solo proposito voluntatis</head>
+               <p xml:id="TAca84-d1e1727-d1e179">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="25" type="fixed=234"/>ARTICULUS PRIMUS
+<lb ed="#L" n="26"/>UTRUM VOTUM CONSISTAT IN SOLO PROPOSITO VOLUNTATIS
+</p>
+               <p xml:id="TAca84-d1e1727-d1e188">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="27"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="28"/>votum consistat in solo proposito 
+vo<lb break="no" ed="#L" n="29"/>luntatis. Quia secundum quosdam,
+<lb ed="#L" n="30"/>votum est conceptio boni propositi, ani--
+<lb ed="#L" n="31"/>mi deliberatione firmata, qua quis ad aliquid
+<lb ed="#L" n="32"/>faciendum vel non faciendum se Deo obligat.
+<lb ed="#L" n="33"/>Sed conceptio boni propositi, cum omnibus quae
+<lb ed="#L" n="34"/>adduntur, potest in solo motu voluntatis 
+consi<lb break="no" ed="#L" n="35"/>stere. Ergo votum in solo proposito voluntatis
+<lb ed="#L" n="36"/>consistit.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e214">
+                  <lb ed="#L" n="37"/>2. PRAETEREA, ipsum nomen oli videtur a 
+vo<lb break="no" ed="#L" n="38"/>luntate assumptum: dicitur enim aliquis proprio
+<lb ed="#L" n="39"/>voto facere quae voluntarie facit. Sed 
+proposi<lb break="no" ed="#L" n="40"/>tum est actus voluntatis: promissio autem 
+ratio<lb break="no" ed="#L" n="41"/>nis. Ergo votum in solo actu voluntatis consistit,
+</p>
+               <p xml:id="TAca84-d1e1727-d1e228">
+                  <lb ed="#L" n="42"/>3. PnaETEREA, Dominus dicit, Luc. ix: Nemo
+<lb ed="#L" n="43"/>millens manum ad aratrum et aspiciens 9 retro
+<lb ed="#L" n="44"/>aptus est regno Dei. Sed aliquis ex hoc ipso quod
+<lb ed="#L" n="45"/>habet propositum bene faciendi mittit manum
+<lb ed="#L" n="46"/>ad aratrum. Ergo, si aspiciat retro, desistens a
+<lb ed="#L" n="47"/>bono proposito, non est aptus regno Dei. Ex
+<lb ed="#L" n="48"/>solo igitur bono proposito aliquis obligatur apud
+<lb ed="#L" n="49"/>Deum, etiam nulla promissione facta. Et ita 
+vi<lb break="no" ed="#L" n="50"/>detur quod in solo proposito voluntatis votum
+<lb ed="#L" n="51"/>consistat.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e252">
+                  <lb ed="#L" n="52"/>SEp coNTRA EsT quod dicitur Eccle. v: Si
+<lb ed="#L" n="53"/>quid vovisti Deo, ne moreris reddere: displicet
+<lb ed="#L" n="54"/>enim ei infidelis et stulta promissio. Ergo vovere
+<lb ed="#L" n="55"/>est promittere, et votum est promissio.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e263">
+                  <lb ed="#L" n="56"/>RESPONDEO DICENDUM quod votum quandam
+<lb ed="#L" n="57"/>obligationem importat ad aliquid faciendum vel
+<lb ed="#L" n="58"/>dimittendum. Obligat autem homo se homini ad
+<cb ed="#L" n="f"/>
+                  <lb ed="#L" n="59"/>aliquid per modum promissionis, quae est 
+ra<lb break="no" ed="#L" n="60"/>tionis actus, ad quam pertinet ordinare: sicut
+<lb ed="#L" n="61"/>enim homo imperando vel deprecando ordinat
+<lb ed="#L" n="62"/>quodammodo quid sibi ab aliis fiat, ita 
+promit<lb break="no" ed="#L" n="63"/>tendo ordinat quid ipse pro alio facere debeat.
+<lb ed="#L" n="64"/>Sed promissio quae ab homine fit homini, non
+<lb ed="#L" n="65"/>potest fieri nisi per verba vel quaecumque  
+ex<lb break="no" ed="#L" n="66"/>teriora signa. Deo autem potest fieri promissio
+<lb ed="#L" n="67"/>per solam interiorem cogitationem: quia ut 
+di<lb break="no" ed="#L" n="68"/>citur I Reg. xvi, homines vident? ea quae 
+pa<lb break="no" ed="#L" n="69"/>rent, sed Deus intuetur cor. Exprimuntur tamen
+<lb ed="#L" n="70"/>quandoque verba exteriora vel ad sui ipsius 
+ex<lb break="no" ed="#L" n="71"/>citationem, sicut circa orationem dictum est:
+<lb ed="#L" n="72"/>vel ad alios contestandum, ut non solum 
+desi<lb break="no" ed="#L" n="73"/>stat a fractione voti propter timorem Dei, sed
+<lb ed="#L" n="74"/>etiam propter reverentiam hominum. Promissio
+<lb ed="#L" n="75"/>autem procedit ex proposito faciendi. 
+Proposi<lb break="no" ed="#L" n="76"/>tum autem aliquam deliberationem praeexigit:
+<lb ed="#L" n="77"/>cum sit actus voluntatis deliberatae. Sic igitur ad
+<lb ed="#L" n="78"/>votum tria ex necessitate requiruntur: primo 
+qui<lb break="no" ed="#L" n="79"/>dem, deliberatio; secundo, propositum voluntatis ;
+<lb ed="#L" n="80"/>tertio, promissio, in qua perficitur ratio voti. 
+Su<lb break="no" ed="#L" n="81"/>peradduntur vero quandoque et alia duo, ad 
+quan<lb break="no" ed="#L" n="82"/>dam voti confirmationem: scilicet pronuntiatio
+<lb ed="#L" n="83"/>oris, secundum illud Psalm.: AReddam tibi vota
+<lb ed="#L" n="84"/>mea, quae dislinxerunt labia mea; et iterum 
+te<lb break="no" ed="#L" n="85"/>stimonium aliorum. Unde Magister dicit, xxxvi
+<lb ed="#L" n="86"/>dist. IV lib. Sent., quod votum est testificatio
+<lb ed="#L" n="87"/>quaedam promissionis spontaneae, quae Deo et de
+<lb ed="#L" n="88"/>his quae sunt Dei fieri debet: quamvis 
+testifica<lb break="no" ed="#L" n="89"/>tio possit ad interiorem testificationem proprie
+<lb ed="#L" n="90"/>referri.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e344">
+                  <pb ed="#L" n="235"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD PRIMUM ERGO DICENDUM quod conceptio boni
+<lb ed="#L" n="2"/>propositi non firmatur ex animi deliberatione nisi
+<lb ed="#L" n="3"/>promissione deliberationem consequente.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e357">
+                  <lb ed="#L" n="4"/>AD SECUNDUM DICENDUM quod voluntas movet
+<lb ed="#L" n="5"/>rationem ad promittendum aliquid circa ea quae
+<lb ed="#L" n="6"/>eius voluntati subduntur. Et pro tanto votum a
+<lb ed="#L" n="7"/>voluntate accepit nomen quasi a primo movente.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e368">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="8"/>AD TERTIUM DICENDUM quod ille qui mittit 
+ma<lb break="no" ed="#L" n="9"/>num ad aratrum iam facit aliquid. Sed ille qui
+<lb ed="#L" n="10"/>solum proponit nondum aliquid facit. Sed quando
+<lb ed="#L" n="11"/>promittit, jam incipit se exhibere ad faciendum,
+<lb ed="#L" n="12"/>licet nondum impleat quod promittit: sicut ille
+<lb ed="#L" n="13"/>qui ponit manum ad aratrum nondum arat,
+<lb ed="#L" n="14"/>iam tamen apponit manum ad arandum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1727-Dd1e390"><!-- p2p2-q88a2" -->
+               <head xml:id="TAca84-d1e1727-Hd1e393">Articulus 2</head>
+               <head xml:id="TAca84-d1e1727-Hd1e395" type="question-title">Utrum votum semper debeat fieri de meliori bono</head>
+               <p xml:id="TAca84-d1e1727-d1e398">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="32" type="fixed=238"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="33"/>UTRUM VOTUM SEMPER DEBEAT FIERI DE MELIORI BONO
+</p>
+               <p xml:id="TAca84-d1e1727-d1e407">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="34"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="35"/>votum non semper debeat fieri de 
+me<lb break="no" ed="#L" n="36"/>liori bono. Dicitur enim melius bonum
+<lb ed="#L" n="37"/>quod ad supererogationem pertinet. Sed
+<lb ed="#L" n="38"/>votum non solum fit de his quae sunt 
+superero<lb break="no" ed="#L" n="39"/>gationis, sed etiam de his quae pertinent ad 
+sa<lb break="no" ed="#L" n="40"/>lutem. Nam et in baptismo vovent homines 
+ab<lb break="no" ed="#L" n="41"/>renuntiare diabolo et pompis eius, et fidem 
+ser<lb break="no" ed="#L" n="42"/>vare: ut dicit Glossa, super illud Psalm.*, 
+Vo<lb break="no" ed="#L" n="43"/>vete et reddite Domino Deo vestro. lacob etiam
+<lb ed="#L" n="44"/>vovit quod esset e Dominus in Deum, ut 
+habe<lb break="no" ed="#L" n="45"/>tur Gen. xxvii: hoc autem est maxime de 
+ne<lb break="no" ed="#L" n="46"/>cessitate salutis. Ergo votum non solum fit de
+<lb ed="#L" n="47"/>meliori bono. 
+</p>
+               <p xml:id="TAca84-d1e1727-d1e442">
+                  <lb ed="#L" n="48"/>2. PRAETEREA, lephte in catalogo Sanctorum 
+po<lb break="no" ed="#L" n="49"/>nitur, ut patet Heb. xi. Sed ipse filiam 
+innocen<lb break="no" ed="#L" n="50"/>tem occidit propter votum, ut habetur Zudic. x1.
+<lb ed="#L" n="51"/>Cum igitur occisio innocentis non sit melius 
+bo<lb break="no" ed="#L" n="52"/>num, sed sit secundum se illicitum, videtur quod
+<lb ed="#L" n="53"/>votum fieri possit non solum de meliori bono,
+<lb ed="#L" n="54"/>sed etiam de illicitis.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e461">
+                  <lb ed="#L" n="55"/>3. PRAETEREA, ea quae redundant in 
+detrimen<lb break="no" ed="#L" n="56"/>tum personae, vel quae ad nihil sunt utilia, non
+<lb ed="#L" n="57"/>habent rationem melioris boni. Sed quandoque
+<lb ed="#L" n="58"/>fiunt aliqua vota de immoderatis vigiliis et 
+ieiu<lb break="no" ed="#L" n="59"/>niis, quae vergunt in periculum personae. 
+Quan<lb break="no" ed="#L" n="60"/>doque etiam fiunt aliqua vota de aliquibus 
+in<lb break="no" ed="#L" n="61"/>differentibus et ^ ad nihil valentibus. Ergo non
+<lb ed="#L" n="62"/>semper votum est melioris boni.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e481">
+                  <lb ed="#L" n="63"/>SEp coNTRA EsT quod dicitur Deut. xxii: Si
+<lb ed="#L" n="64"/>nolueris polliceri, absque peccato eris. :
+</p>
+               <p xml:id="TAca84-d1e1727-d1e488">
+                  <lb ed="#L" n="65"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="66"/>votum est promissio Deo facta. Promissio autem
+<lb ed="#L" n="67"/>est alicuius quod quis pro aliquo voluntarie 
+fa<lb break="no" ed="#L" n="68"/>cit. Non enim esset promissio, sed comminatio,
+<lb ed="#L" n="69"/>si quis diceret se contra aliquem facturum. 
+Si<lb break="no" ed="#L" n="70"/>militer vana esset promissio si aliquis alicui 
+pro<lb break="no" ed="#L" n="71"/>mitteret id quod ei non esset acceptum. Et ideo,
+<lb ed="#L" n="72"/>cum omne peccatum sit contra Deum; nec ali-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="73"/>quod opus sit Deo acceptum nisi sit virtuosum:
+<lb ed="#L" n="74"/>consequens est quod de nullo illicito, nec de 
+ali<lb break="no" ed="#L" n="75"/>quo indifferenti debeat fieri votum, sed solum de
+<lb ed="#L" n="76"/>aliquo actu virtutis,
+</p>
+               <p xml:id="TAca84-d1e1727-d1e519">
+                  <lb ed="#L" n="77"/>Sed quia votum promissionem voluntariam
+<lb ed="#L" n="78"/>importat, necessitas autem voluntatem excludit,
+<lb ed="#L" n="79"/>id quod est absolute necessarium esse vel non
+<lb ed="#L" n="80"/>esse nullo modo cadit sub voto: stultum enim
+<lb ed="#L" n="81"/>esset si quis voveret se esse moriturum, vel se
+<lb ed="#L" n="82"/>non esse volaturum. - Illud vero quod non ha- .
+<lb ed="#L" n="83"/>bet absolutam necessitatem, sed necessitatem finis,
+<lb ed="#L" n="84"/>puta quia sine eo non potest esse salus, cadit
+<lb ed="#L" n="85"/>quidem sub voto inquantum voluntarie fit, non
+<lb ed="#L" n="86"/>autem inquantum est necessitatis. — Illud autem
+<lb ed="#L" n="87"/>quod neque cadit sub necessitate absoluta neque
+<lb ed="#L" n="88"/>sub necessitate finis, omnino 9 est voluntarium.
+<lb ed="#L" n="89"/>Et ideo hoc propriisime cadit sub voto. Hoc
+<lb ed="#L" n="90"/>autem dicitur esse maius bonum in comparatione
+<lb ed="#L" n="91"/>ad bonum quod communiter est de necessitate
+<lb ed="#L" n="92"/>salutis. Et ideo, proprie loquendo, votum dicitur
+<lb ed="#L" n="93"/>esse de bono meliori.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e558">
+                  <lb ed="#L" n="94"/>AD PRIMUM ERGO DICENDUM quod hoc modo sub
+<lb ed="#L" n="95"/>voto baptizatorum cadit abrenuntiare pompis 
+dia<lb break="no" ed="#L" n="96"/>boli et fidem Christi servare, quia voluntarie fit,
+<lb ed="#L" n="97"/>licet sit de necessitate salutis.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e569">
+                  <lb ed="#L" n="98"/>Et similiter potest dici de voto lacob. Quamvis
+<lb ed="#L" n="99"/>etiam possit intelligi quod Iacob vovit se habere
+<lb ed="#L" n="100"/>Dominum in Deum per .specialem cultum, ad
+<lb ed="#L" n="101"/>quem non tenebatur: sicut per decimarum 
+obla<lb break="no" ed="#L" n="102"/>tionem, et alia huiusmodi quae ibi subduntur.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e583">
+                  <lb ed="#L" n="103"/>AD SECUNDUM DICENDUM quod quaedam sunt
+<lb ed="#L" n="104"/>quae in omnem eventum sunt bona: sicut opera
+<lb ed="#L" n="105"/>virtutis et alia quae Y absolute possunt cadere
+<lb ed="#L" n="106"/>sub voto. - Quaedam vero in omnem eventum
+<lb ed="#L" n="107"/>sunt mala: sicut ea quae secundum se sunt 
+pec<lb break="no" ed="#L" n="108"/>cata. Et haec nullo modo possunt sub voto 
+ca<lb break="no" ed="#L" n="109"/>dere. - Quaedam vero sunt quidem in se 
+con<lb break="no" ed="#L" n="110"/>siderata bona, et secundum hoc possunt cadere
+<lb ed="#L" n="111"/>sub voto: possunt tamen habere malum even-
+<pb ed="#L" n="239"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>tum, in quo non sunt observanda. Et sic accidit
+<lb ed="#L" n="2"/>in voto lephte, qui, ut dicitur Zudic. xi, votum
+<lb ed="#L" n="3"/>vorit Domino, dicens: Si tradideris filios Ammon
+<lb ed="#L" n="4"/>in manus meas, quicumque primus egressus 
+fue<lb break="no" ed="#L" n="5"/>rit de foribus domus meae mihique occurrerit 
+re<lb break="no" ed="#L" n="6"/>verlenti in pace, eum offeram holocaustum 
+Do<lb break="no" ed="#L" n="7"/>mino. Hoc enim ? poterat malum eventum 
+ha<lb break="no" ed="#L" n="8"/>bere, si occurreret ei aliquod animal non 
+immo<lb break="no" ed="#L" n="9"/>lativum, sicut asinus vel homo: quod et accidit.
+<lb ed="#L" n="10"/>Unde, ut Hieronymus dicit, in vovendo fuit
+<lb ed="#L" n="11"/>stultus, quia discretionem non adhibuit, et in 
+red<lb break="no" ed="#L" n="12"/>dendo impius. Praemittitur tamen ibidem quod
+<lb ed="#L" n="13"/>factus est super eum Spiritus Domini: quia fides
+<lb ed="#L" n="14"/>et devotio ipsius, ex qua motus est ad vovendum,
+<lb ed="#L" n="15"/>fuit a Spiritu Sancto. Propter quod ponitur in 
+ca<lb break="no" ed="#L" n="16"/>talogo Sanctorum: et propter victoriam quam 
+obti<lb break="no" ed="#L" n="17"/>nuit; et quia probabile est eum poenituisse de 
+fa<lb break="no" ed="#L" n="18"/>cto iniquo, quod tamen aliquod bonum figurabat.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e648">
+                  <lb ed="#L" n="19"/>AD TERTIUM DICENDUM quod maceratio proprii
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="20"/>corporis, puta per vigilias et ieiunia, non est
+<lb ed="#L" n="21"/>Deo accepta nisi inquantum est opus virtutis:
+<lb ed="#L" n="22"/>quod quidem est inquantum cum debita 
+discre<lb break="no" ed="#L" n="23"/>tione fit, ut scilicet concupiscentia refrenetur et
+<lb ed="#L" n="24"/>natura non nimis gravetur. Et sub tali tenore 
+pos<lb break="no" ed="#L" n="25"/>sunt huiusmodi sub voto cadere. Propter quod et
+<lb ed="#L" n="26"/>Apostolus, Rom. xu, postquam dixerat, 
+Exhi<lb break="no" ed="#L" n="27"/>beatis corpora vesira hostiam viventem, sanctam,
+<lb ed="#L" n="28"/>Deo placentem, addidit: rationabile obsequium 
+ve<lb break="no" ed="#L" n="29"/>strum. - Sed quia in his quae ad seipsum 
+per<lb break="no" ed="#L" n="30"/>tinent de facili fallitur homo in iudicando, talia
+<lb ed="#L" n="31"/>vota congruentius secundum arbitrium superioris
+<lb ed="#L" n="32"/>sunt vel servanda vel praetermittenda. Ita tamen
+<lb ed="#L" n="33"/>quod si ex observatione talis voti magnum et
+<lb ed="#L" n="34"/>manifestum gravamen sentiret, et non esset 
+fa<lb break="no" ed="#L" n="35"/>cultas ad superiorem recurrendi, non debet ^
+<lb ed="#L" n="36"/>homo tale votum servare.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e692">
+                  <lb ed="#L" n="37"/>Vota vero quae sunt de rebus vanis et 
+inuti<lb break="no" ed="#L" n="38"/>libus sunt magis deridenda quam servanda.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1727-Dd1e700"><!-- p2p2-q88a3" -->
+               <head xml:id="TAca84-d1e1727-Hd1e703">Articulus 3</head>
+               <head xml:id="TAca84-d1e1727-Hd1e705" type="question-title">Utrum omne votum obliget ad sui observationem</head>
+               <p xml:id="TAca84-d1e1727-d1e708">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="67" type="fixed=243"/>ARTICULUS TERTIUS
+<lb ed="#L" n="68"/>UTRUM OMNE VOTUM OBLIGET AD SUI OBSERVATIONEM
+</p>
+               <p xml:id="TAca84-d1e1727-d1e717">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="69"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="70"/>non omne votum obliget ad sui 
+obser<lb break="no" ed="#L" n="71"/>vationem. Homo enim magis indiget his
+<lb ed="#L" n="72"/>quae per alium. hominem fiunt quam
+<lb ed="#L" n="73"/>Deus, qui bonorum nostrorum non eget. Sed
+<lb ed="#L" n="74"/>promissio simplex homini facta non obligat ad
+<lb ed="#L" n="75"/>servandum, secundum institutionem legis 
+hu<lb break="no" ed="#L" n="76"/>manae: quod videtur esse institutum propter
+<lb ed="#L" n="77"/>mutabilitatem humanae voluntatis. Ergo multo
+<lb ed="#L" n="78"/>minus simplex promissio Deo facta, quae dicitur
+<lb ed="#L" n="79"/>votum, obligat ad. observandum.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e746">
+                  <lb ed="#L" n="80"/>2. PRAETEREA, nullus obligatur ad impossibile.
+<lb ed="#L" n="81"/>Sed quandoque illud quod quis vovit fit ei 
+im<lb break="no" ed="#L" n="82"/>possibile: vel quia dependet ex alieno arbitrio,
+<lb ed="#L" n="83"/>sicut cum quis vovet aliquod monasterium intrare
+<lb ed="#L" n="84"/>cuius monachi eum nolunt recipere; vel propter
+<lb ed="#L" n="85"/>emergentem defectum, sicut mulier quae vovit
+<lb ed="#L" n="86"/>virginitatem servare et postea corrumpitur, vel
+<lb ed="#L" n="87"/>vir qui vovet pecuniam dare et postea amittit
+<lb ed="#L" n="88"/>pecuniam. Ergo non semper votum est 
+obliga<lb break="no" ed="#L" n="89"/>torium.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e771">
+                  <lb ed="#L" n="90"/>3. PRAETEREA, illud. ad. cuius solutionem est
+<lb ed="#L" n="91"/>aliquis obligatus, statim solvere tenetur. Sed 
+ali<lb break="no" ed="#L" n="92"/>quis non statim solvere tenetur illud quod vovit:
+<lb ed="#L" n="93"/>praecipue cum sub conditione futura vovet. Ergo
+<lb ed="#L" n="94"/>votum non semper est obligatorium.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e784">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="95"/>SED CONTRA. EST quod dicitur Eccle. v: 
+Quod<lb break="no" ed="#L" n="96"/>cumque. voveris, redde. Multoque melius est non
+<lb ed="#L" n="97"/>vovere quam post votum promissa non reddere.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e795">
+                  <lb ed="#L" n="98"/>REsPONDEO DICENDUM quod ad fidelitatem 
+homi<lb break="no" ed="#L" n="99"/>nis pertinet ut solvat id quod promisit: unde
+<lb ed="#L" n="100"/>secundum Augustinum, fides dicilur ex hoc
+<lb ed="#L" n="101"/>quod fiunt. dicta. Maxime. autem. debet homo
+<lb ed="#L" n="102"/>Deo fidelitatem: tum ratione dominii; tum etiam
+<lb ed="#L" n="103"/>ratione beneficii suscepti. Et ideo maxime 
+obli<lb break="no" ed="#L" n="104"/>gatur homo ad hoc quod impleat vota Deo facta:
+<lb ed="#L" n="105"/>hoc.enim pertinet ad fidelitatem quam homo 
+de<lb break="no" ed="#L" n="106"/>bet Deo, fractio autem voti est quaedam 
+infi<lb break="no" ed="#L" n="107"/>delitatis species. Unde Salomon rationem  
+assi<lb break="no" ed="#L" n="108"/>gnat quare sint vota reddenda, quia displicet Deo
+<lb ed="#L" n="109"/>infidelis promissio.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e824">
+                  <lb ed="#L" n="110"/>AD PRIMUM ERGO DICENDUM quod secundum 
+ho<lb break="no" ed="#L" n="111"/>nestatem. ex qualibet promissione homo homini
+<lb ed="#L" n="112"/>obligatur: et haec est obligatio iuris naturalis.
+<lb ed="#L" n="113"/>Sed ad hoc quod aliquis obligetur ex aliqua 
+pro<lb break="no" ed="#L" n="114"/>missione obligatione civili, quaedam alia 
+requi<lb break="no" ed="#L" n="115"/>runtur. Deus autem etsi bonis nostris non egeat,
+<lb ed="#L" n="116"/>ei tamen maxime obligamur. Et ita votum ei 
+fa<lb break="no" ed="#L" n="117"/>€tum est maxime obligatorium.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e844">
+                  <lb ed="#L" n="118"/>AD SECUNDUM DICENDUM quod si illud quod quis
+<lb ed="#L" n="119"/>vovit ex quacumque ? causa impossibile reddatur,
+<lb ed="#L" n="120"/>debet homo. facere quod in se est: ut saltem. ha-
+<pb ed="#L" n="244"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>beat promptam voluntatem faciendi quod potest.
+<lb ed="#L" n="2"/>Unde ille qui vovit monasterium aliquod intrare
+<lb ed="#L" n="3"/>debet dare operam quam potest ut ibi 
+reci<lb break="no" ed="#L" n="4"/>piatur. Et si quidem intentio sua fuit se 
+obli<lb break="no" ed="#L" n="5"/>gare ad religionis ingressum principaliter, et. ex
+<lb ed="#L" n="6"/>consequenti elegit hanc religionem vel hunc 
+lo<lb break="no" ed="#L" n="7"/>cum quasi sibi magis congruentem, tenetur, si
+<lb ed="#L" n="8"/>non potest ibi recipi, aliam religionem intrare.
+<lb ed="#L" n="9"/>Si autem principaliter intendit se obligare ad hanc
+<lb ed="#L" n="10"/>religionem vel ad hunc locum, propter specialem
+<lb ed="#L" n="11"/>complacentiam huius religionis vel loci, non 
+tene<lb break="no" ed="#L" n="12"/>tur aliam religionem intrare si illi eum recipere
+<lb ed="#L" n="13"/>nolunt.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e886">
+                  <lb ed="#L" n="14"/>Si vero incidit in impossibilitatem implendi ?
+<lb ed="#L" n="15"/>votum ex propria culpa, tenetur insuper.de 
+pro<lb break="no" ed="#L" n="16"/>pria culpa praeterita poenitentiam agere. Sicut
+<lb ed="#L" n="17"/>mulier quae vovit virginitatem, si postea cor-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="18"/>rumpatur, non solum debet servare quod potest,
+<lb ed="#L" n="19"/>scilicet perpetuam continentiam, sed etiam de eo
+<lb ed="#L" n="20"/>quod admisit peccando poenitere.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e907">
+                  <lb ed="#L" n="21"/>AD TERTIUM DICENDUM quod obligatio. voti ex
+<lb ed="#L" n="22"/>propria voluntate et intentione causatur: unde
+<lb ed="#L" n="23"/>dicitur Deut. xxiu: Quod semel egressum est de
+<lb ed="#L" n="24"/>labiis tuis, observabis: et facies sicut promisisti
+<lb ed="#L" n="25"/>Domino Deo tuo, et propria voluntate et ore tuo
+<lb ed="#L" n="26"/>locutus es. Et ideo si in intentione et voluntate
+<lb ed="#L" n="27"/>voventis est obligare. se ad statim solvendum,
+<lb ed="#L" n="28"/>tenetur statim solvere. Si autem ad certum 
+tem<lb break="no" ed="#L" n="29"/>pus, vel sub certa conditione, non tenetur statim
+<lb ed="#L" n="30"/>solvere. Sed nec debet tardare ultra quam 
+in<lb break="no" ed="#L" n="31"/>tendit se obligare: dicitur enim. ibidem:. Cum
+<lb ed="#L" n="32"/>votum voveris Domino Deo tuo, non tardabis 
+red<lb break="no" ed="#L" n="33"/>dere: quia requiret illud Dominus Deus tuus; et
+<lb ed="#L" n="34"/>si moratus fueris, reputabitur tibi in peccatum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1727-Dd1e941"><!-- p2p2-q88a4" -->
+               <head xml:id="TAca84-d1e1727-Hd1e944">Articulus 4</head>
+               <head xml:id="TAca84-d1e1727-Hd1e946" type="question-title">Utrum expediat aliquid vovere</head>
+               <p xml:id="TAca84-d1e1727-d1e949">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="55" type="fixed=248"/>ARTICULUS QUARTUS
+<lb ed="#L" n="56"/>UTRUM EXPEDIAT ALIQUID VOVERE
+</p>
+               <p xml:id="TAca84-d1e1727-d1e958">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="57"/>AD QUARTUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="58"/>non expediat aliquid vovere. Non enim
+<lb ed="#L" n="59"/>alicui expedit ut privet se bono quod
+<lb ed="#L" n="60"/>ei Deus donavit. Sed libertas est unum
+<lb ed="#L" n="61"/>de maximis bonis quae homini Deus dedit, qua
+<lb ed="#L" n="62"/>videtur privari per necessitatem quam votum
+<lb ed="#L" n="63"/>imponit. Ergo non videtur expediens homini quod
+<lb ed="#L" n="64"/>aliquid voveat.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e980">
+                  <lb ed="#L" n="65"/>2. PRAETEREA, nullus debet se periculis iniicere.
+<lb ed="#L" n="66"/>Sed quicumque vovet se periculo iniicit: quia
+<lb ed="#L" n="67"/>quod ante votum sine periculo poterat praeteriri,
+<lb ed="#L" n="68"/>si non servetur post votum, periculosum est.
+<lb ed="#L" n="69"/>Unde Augustinus dicit, in epistola ad .
+Armenta<lb break="no" ed="#L" n="70"/>rium et Paulinam: Quia iam vovisti, iam te 
+ob<lb break="no" ed="#L" n="71"/>strinxisti, aliud tibi facere non licet. Non talis
+<lb ed="#L" n="72"/>eris si non feceris quod vovisti, qualis mansisses
+<lb ed="#L" n="73"/>si nihil tale vovisses. Minor enim tunc esses, non
+<lb ed="#L" n="74"/>peior. Modo autem, tanto, quod absit, miserior
+<lb ed="#L" n="75"/>si fidem Deo fregeris, quanto beatior si 
+persol<lb break="no" ed="#L" n="76"/>veris. Ergo non expedit aliquid vovere.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1010">
+                  <lb ed="#L" n="77"/>3. PRAETEREA, Apostolus dicit, I ad Cor. iv:
+<lb ed="#L" n="78"/>Imitatores mei estote, sicut et ego Christi, Sed non
+<lb ed="#L" n="79"/>legitur neque Christum aliquid vovisse, nec 
+Apo<lb break="no" ed="#L" n="80"/>stolos. Ergo videtur quod non expediat aliquid
+<lb ed="#L" n="81"/>vovere.,
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1023">
+                  <lb ed="#L" n="82"/>SED CONTRA EsT quod dicitur in Psalm.: 
+Vo<lb break="no" ed="#L" n="83"/>vele et reddite Domino Deo vestro.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1030">
+                  <lb ed="#L" n="84"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="85"/>votum est promissio Deo facta. Alia autem 
+ra<lb break="no" ed="#L" n="86"/>tione promittitur aliquid homini, et alia ratione
+<lb ed="#L" n="87"/>Deo. Homini quidem promittimus aliquid propter
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="88"/>eius utilitatem, cui utile est et quod ei aliquid
+<lb ed="#L" n="89"/>exhibeamus, et quod eum de futura exhibitione
+<lb ed="#L" n="90"/>prius certificemus. Sed promissionem Deo 
+faci<lb break="no" ed="#L" n="91"/>mus non propter eius utilitatem, sed propter
+<lb ed="#L" n="92"/>nostram. Unde Augustinus dicit, in praedicta
+<lb ed="#L" n="93"/>epistola: Benignus exactor est, non egenus: et
+<lb ed="#L" n="94"/>qui non crescat ex redditis, sed in se crescere
+<lb ed="#L" n="95"/>faciat redditores. Et sicut id quod damus Deo
+<lb ed="#L" n="96"/>non est ei utile, sed nobis, quia quod ei redditur
+<lb ed="#L" n="97"/>reddenti additur, ut. Augustinus ibidem dicit; ita
+<lb ed="#L" n="98"/>etiam promissio qua Deo aliquid vovemus, non
+<lb ed="#L" n="99"/>cedit in eius utilitatem, qui a nobis certificari
+<lb ed="#L" n="100"/>non indiget; sed ad utilitatem nostram, 
+inquan<lb break="no" ed="#L" n="101"/>tum vovendo voluntatem nostram immobiliter
+<lb ed="#L" n="102"/>firmamus ad id quod expedit facere. Et ideo 
+ex<lb break="no" ed="#L" n="103"/>pediens est vovere.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1078">
+                  <lb ed="#L" n="104"/>AD PRIMUM ERGO DICENDUM quod sicut non posse
+<lb ed="#L" n="105"/>peccare non diminuit libertatem, ita etiam 
+ne<lb break="no" ed="#L" n="106"/>cessitas firmatae voluntatis in bonum non 
+di<lb break="no" ed="#L" n="107"/>minuit libertatem: ut patet in Deo et in beatis.
+<lb ed="#L" n="108"/>Et talis est necessitas voti, similitudinem 
+quan<lb break="no" ed="#L" n="109"/>dam habens cum confirmatione beatorum. Unde
+<lb ed="#L" n="110"/>Augustinus in eadem epistola dicit quod felix
+<lb ed="#L" n="111"/>necessitas est quae in meliora compellit.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1098">
+                  <lb ed="#L" n="112"/>AD SECUNDUM DICENDUM quod quando periculum
+<lb ed="#L" n="113"/>nascitur ex ipso facto, tunc illud factum non est
+<lb ed="#L" n="114"/>expediens: puta quod aliquis per pontem 
+rui<lb break="no" ed="#L" n="115"/>nosum transeat fluvium. Sed si periculum 
+im<lb break="no" ed="#L" n="116"/>mineat ex hoc quod homo deficit ab illo facto,
+<lb ed="#L" n="117"/>non desinit propter hoc esse expediens: sicut
+<lb ed="#L" n="118"/>expediens est ascendere equum, quamvis peri-
+<pb ed="#L" n="249"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>culum immineat cadenti de equo. Alioquin 
+opor<lb break="no" ed="#L" n="2"/>teret ab omnibus bonis cessare quae per 
+ac<lb break="no" ed="#L" n="3"/>cidens ex aliquo. eventu possunt esse periculosa.
+<lb ed="#L" n="4"/>Unde dicitur Eccle. xi: Qui observat ventum
+<lb ed="#L" n="5"/>non seminat: et qui considerat nubes nunquam
+<lb ed="#L" n="6"/>metet." Periculum autem voventi non imminet
+<lb ed="#L" n="7"/>ex ipso voto, sed ex culpa hominis, qui 
+volun<lb break="no" ed="#L" n="8"/>tatem mutat transgrediens votum. Unde 
+Augu<lb break="no" ed="#L" n="9"/>stinus : dicit in^ eadem. epistola: Non. te vovisse
+<lb ed="#L" n="10"/>poeniteat. Immo gaude iam tibi sic non licere
+<lb ed="#L" n="11"/>quod cum tuo detrimento licuisset.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1144">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="12"/>AD TERTIUM DICENDUM quod. Christo secundum
+<lb ed="#L" n="13"/>se non competebat vovere. Tum quia Deus erat.
+<lb ed="#L" n="14"/>Tum etiam quia, inquantum homo, habebat 
+fir<lb break="no" ed="#L" n="15"/>matam voluntatem in bono, quasi comprehensor
+<lb ed="#L" n="16"/>existens. Quamvis per quandam similitudinem
+<lb ed="#L" n="17"/>ex persona eius dicatur in Psalm., secandum
+<lb ed="#L" n="18"/>Glossam: Vota mea reddam in conspectu 
+timen<lb break="no" ed="#L" n="19"/>tium eum: loquitur autem pro ? corpore suo,
+<lb ed="#L" n="20"/>quod est Ecclesia. — Apostoli autem intelliguntur
+<lb ed="#L" n="21"/>vovisse pertinentia ad perfectionis statum quando
+<lb ed="#L" n="22"/>relictis omnibus, sunt secuti.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1727-Dd1e1174"><!-- p2p2-q88a5" -->
+               <head xml:id="TAca84-d1e1727-Hd1e1177">Articulus 5</head>
+               <head xml:id="TAca84-d1e1727-Hd1e1179" type="question-title">Utrum votum sit actus latriae sive religionis</head>
+               <p xml:id="TAca84-d1e1727-d1e1182">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="74" type="fixed=249"/>ARTICULUS QUINTUS
+<lb ed="#L" n="75"/>UTRUM VOTUM SIT ACTUS LATRIAE SIVE RELIGIONIS
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1191">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="76"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="77"/>votum non sit actus latriae sive 
+reli<lb break="no" ed="#L" n="78"/>gionis. Omne enim opus virtutis cadit
+<lb ed="#L" n="79"/>sub voto. Sed ad eandem virtutem
+<lb ed="#L" n="80"/>pertinere videtur promittere aliquid et facere 
+il<lb break="no" ed="#L" n="81"/>lud. Ergo votum pertinet ad quamlibet virtutem,
+<lb ed="#L" n="82"/>et non specialiter ad religionem.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1211">
+                  <lb ed="#L" n="83"/>2. PRAETEREA, secundum Tullium,. ad 
+religio<lb break="no" ed="#L" n="84"/>nem pertinet cultum et caeremoniam Deo offerre.
+<lb ed="#L" n="85"/>Sed ille qui vovet nondum aliquid Deo offert,
+<lb ed="#L" n="86"/>sed solum promittit. Ergo votum non est actus
+<lb ed="#L" n="87"/>religionis. :
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1225">
+                  <lb ed="#L" n="88"/>3. PRAETEREA, cultus religionis n non debet 
+exhi<lb break="no" ed="#L" n="89"/>beri nisi Deo. Sed votum non solum fit Deo, sed
+<lb ed="#L" n="90"/>etiam sanctis et praelatis, quibus religiosi 
+profi<lb break="no" ed="#L" n="91"/>tentes obedientiam vovent. Ergo votum non est
+<lb ed="#L" n="92"/>religionis actus.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1238">
+                  <lb ed="#L" n="93"/>SED CONTRA EST quod dicitur Isaiae xix: Colent
+<lb ed="#L" n="94"/>eum in hostiis et muneribus, et vota vovebunt 
+Do<lb break="no" ed="#L" n="95"/>mino et solvent. Sed colere Deum est proprie
+<lb ed="#L" n="96"/>religionis sive latriae. Ergo votum est actus 
+la<lb break="no" ed="#L" n="97"/>triae sive religionis.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1251">
+                  <lb ed="#L" n="98"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="99"/>est, omne opus virtutis ad religionem seu. 
+la<lb break="no" ed="#L" n="100"/>triam. pertinet per modum imperii, secundum
+<lb ed="#L" n="101"/>quod ad divinam reverentiam ordinatur, quod
+<lb ed="#L" n="102"/>est proprius finis latriae. Ordinare autem alios
+<lb ed="#L" n="103"/>actus in suum finem pertinet ad virtutem 
+impe<lb break="no" ed="#L" n="104"/>rantem, non ad virtutes imperatas. Et ideo ipsa
+<lb ed="#L" n="105"/>ordinatio actuum -cuiuscumque virtutis in 
+servi<lb break="no" ed="#L" n="106"/>tium Dei est proprius actus latriae. Manifestum
+<lb ed="#L" n="107"/>est autem ex praedictis quod votum est quaedam
+<lb ed="#L" n="108"/>promissio Deo facta: et quod promissio nihil est
+<lb ed="#L" n="109"/>aliud quam ordinatio quaedam. eius quod . pro-
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1280">
+                  <pb ed="#L" n="250"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>mittitur in eum cui promittitur. Unde votum est 
+<lb ed="#L" n="2"/>ordinatio quaedam eorum quae quis vovet. in 
+di<lb break="no" ed="#L" n="3"/>vinum cultum seu obsequium. Et sic.patet quod
+<lb ed="#L" n="4"/>vovere. proprie est actus latriae seu religionis.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1296">
+                  <lb ed="#L" n="5"/>AD PRIMUM ERGO DICENDUM quod illud quod
+<lb ed="#L" n="6"/>cadit sub voto quandoque quidem est actus 
+alte<lb break="no" ed="#L" n="7"/>rius virtutis, sicut ieiunare, continentiam servare;
+<lb ed="#L" n="8"/>quandoque vero est actus religionis, sicut 
+sacrifi<lb break="no" ed="#L" n="9"/>cium offerre vel orare. Utrorumque tamen 
+promis<lb break="no" ed="#L" n="10"/>sio Deo facta ad religionem pertinet, ratione iam
+<lb ed="#L" n="11"/>dicta. Unde patet quod votorum quoddam 
+perti<lb break="no" ed="#L" n="12"/>net ad religionem ratione solius uvm Deo
+<lb ed="#L" n="13"/>factae, quae est essentia voti: quandoque ? etiam
+<lb ed="#L" n="14"/>ratione rei promissae, quae est voti materia.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1320">
+                  <lb ed="#L" n="15"/>AD SECUNDUM DICENDUM quod ille qui promittit,
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="16"/>inquantum se obligat ad dandum, iam 
+quodam<lb break="no" ed="#L" n="17"/>modo dat: sicut dicitur fieri aliquid cum fit causa
+<lb ed="#L" n="18"/>eius, quia effectus virtute continetur in. causa.
+<lb ed="#L" n="19"/>Et inde est. quod non solum danti, ed etiam
+<lb ed="#L" n="20"/>promittenti gratiae aguntur.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1339">
+                  <lb ed="#L" n="21"/>AD TERTIUM DICENDUM quod votum soli Deo fit;
+<lb ed="#L" n="22"/>sed promissio potest etiam fieri homini: et ipsa
+<lb ed="#L" n="23"/>promissio boni quae fit homini potest. cadere
+<lb ed="#L" n="24"/>sub voto, inquantum est. quoddam opus 
+virtuo<lb break="no" ed="#L" n="25"/>sum. Et per hunc modum intelligendum est 
+vo<lb break="no" ed="#L" n="26"/>tum quo quis vovet aliquid sanctis vel praelatis:
+<lb ed="#L" n="27"/>ut ipsa promissio facta sanctis vel praelatis cadat
+<lb ed="#L" n="28"/>sub voto materialiter, inquantum scilicet. homo
+<lb ed="#L" n="29"/>vovet Deo se impleturum quod sanctis vel 
+prae<lb break="no" ed="#L" n="30"/>latis promittit.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1727-Dd1e1364"><!-- p2p2-q88a6" -->
+               <head xml:id="TAca84-d1e1727-Hd1e1367">Articulus 6</head>
+               <head xml:id="TAca84-d1e1727-Hd1e1369" type="question-title">
+utrum magis sit laudabile et meritorium facere aliquid sine voto
+quam ex voto</head>
+               <p xml:id="TAca84-d1e1727-d1e1372">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="107" type="fixed=251"/>ARTICULUS SEXTUS
+<lb ed="#L" n="108"/>UTRUM MAGIS SIT LAUDABILE ET MERITORIUM FACERE ALIQUID SINE VOTO
+<lb ed="#L" n="109"/>QUAM EX VOTO
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1383">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="110"/>AD SEXTUM SIC: PROCEDITUR. Videtur quod
+<lb ed="#L" n="111"/>magis sit laudabile. et meritorium . 
+fa<lb break="no" ed="#L" n="112"/>cere aliquid sine voto quam cum: voto.
+<lb ed="#L" n="113"/>Dicit enim Prosper, in II de Vita 
+Con<lb break="no" ed="#L" n="114"/>templ. Sic abstinere vel ieiunare debemus ut
+<lb ed="#L" n="115"/>non nos necessilati ieiunandi subdamus ne iam
+<lb ed="#L" n="116"/>non devoti, sed inviti rem. voluntariam faciamus.
+<lb ed="#L" n="117"/>Sed ille qui vovet ieiunium subdit se: necessitati
+<lb ed="#L" n="118"/>ieiunandi. Ergo melius esset si ieiunaret sine voto.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1407">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="119"/>2. PRAETEREA, Apostolus dicit, II Cor. ix: 
+Unus<lb break="no" ed="#L" n="120"/>quisque .prout. destinavit in corde suo, non ex 
+tri<lb break="no" ed="#L" n="121"/>slitia. aut. ex necessitate: hilarem enim datorem
+<lb ed="#L" n="122"/>diligit Deus. Sed quidam ea quae vovent ex 
+tri<lb break="no" ed="#L" n="123"/>stitia faciunt: et hoc videtur procedere ex 
+ne<lb break="no" ed="#L" n="124"/>cessitate quam. votum imponit, quia necessitas
+<lb ed="#L" n="125"/>contrisians .est, ut. dicitur V Metaphys. Ergo
+<lb ed="#L" n="126"/>melius est aliquid facere sine voto quam cum
+<lb ed="#L" n="127"/>voto.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1432">
+                  <pb ed="#L" n="252"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>3. PRAETEREA, votum necessarium. est ad. hoc
+<lb ed="#L" n="2"/>quod firmetur voluntas hominis ad rem dang
+<lb ed="#L" n="3"/>vovet, ut supra habitum est. Sed non magis
+<lb ed="#L" n="4"/>potest firmari voluntas ad aliquid faciendum quam
+<lb ed="#L" n="5"/>cum actu facit illud.. Ergo. non melius. est facere
+<lb ed="#L" n="6"/>aliquid cum voto quam sine voto.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1452">
+                  <lb ed="#L" n="7"/>SED CONTRA EST quod super illud Psalm., 
+Vo<lb break="no" ed="#L" n="8"/>vele et reddite, dicit Glossa: Yovere voluntati
+<lb ed="#L" n="9"/>consulitur. Sed consilium .non est nisi de meliori
+<lb ed="#L" n="10"/>bono. Ergo melius est facere aliquod melius opus
+<lb ed="#L" n="11"/>ex voto quam sine voto: quia qui facit sine voto,
+<lb ed="#L" n="12"/>implet tantum unum consilium, scilicet de 
+fa<lb break="no" ed="#L" n="13"/>Ciendo; qui autem facit cum voto ; implet duo
+<lb ed="#L" n="14"/>consilia, scilicet et vovendo. et faciendo.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1472">
+                  <lb ed="#L" n="15"/>RESPONDEO DICENDUM quod triplici ratione facere
+<lb ed="#L" n="16"/>idem opus cum voto est melius'et magis 
+meri<lb break="no" ed="#L" n="17"/>torium quam facere sine voto. Primo quidem,
+<lb ed="#L" n="18"/>quia vovere, sicut dictum est, est actus latriae,
+<lb ed="#L" n="19"/>quae est praecipua inter virtutes morales. 
+Nobi<lb break="no" ed="#L" n="20"/>lioris autem virtutis est. opus melius et magis
+<lb ed="#L" n="21"/>meritorium. Unde actus inferioris virtutis est 
+me<lb break="no" ed="#L" n="22"/>lior et magis meritorius ex hoc quod imperatur
+<lb ed="#L" n="23"/>a superiori virtute, cuius actus fit per imperium:
+<lb ed="#L" n="24"/>sicut actus fidei vel spei melior. est si imperetur
+<lb ed="#L" n="25"/>a caritate. Et ideo actus aliarum virtutum .
+mo<lb break="no" ed="#L" n="26"/>ralium, puta ieiunare, quod est actus abstinentiae,
+<lb ed="#L" n="27"/>et continere, quod est actus castitatis, sunt meliora
+<lb ed="#L" n="28"/>et magis meritoria si fiant ex voto: quia sic iam
+<lb ed="#L" n="29"/>pertinent ad divinum cultum, quasi quaedam Dei
+<lb ed="#L" n="30"/>sacrificia. Unde Augustinus dicit, in libro de 
+Vir<lb break="no" ed="#L" n="31"/>ginitate, quod neque ipsa virginitas quia 
+virgi<lb break="no" ed="#L" n="32"/>nitas est, sed quia Deo dicata ? est, honoratur;
+<lb ed="#L" n="33"/>quam fovet et servat continentia pielalis.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1516">
+                  <lb ed="#L" n="34"/>Secundo, quia ille qui vovet aliquid et facit,
+<lb ed="#L" n="35"/>plus se Deo subiicit quam ille qui solum facit.
+<lb ed="#L" n="36"/>Subiicit enim se Deo non solum quantum ad
+<lb ed="#L" n="37"/>actum, sed etiam quantum ad potestatem, quia
+<lb ed="#L" n="38"/>de cetero non potest aliud facere: sicut plus
+<lb ed="#L" n="39"/>daret homini qui daret ei arborem cum. 
+fructi<lb break="no" ed="#L" n="40"/>bus quam qui daret ei fructus tantum, ut dicit
+<lb ed="#L" n="41"/>Anselmus, in libro de Szmilitud.* Et inde est
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="42"/>quod etiam promittentibus uratine sigitithrs ut
+<lb ed="#L" n="43"/>dictum est
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1542">
+                  <lb ed="#L" n="44"/>Tertio, quia per votum immobiliter voluntas
+<lb ed="#L" n="45"/>firmatur in bonum. Facere autem aliquid ex 
+vo<lb break="no" ed="#L" n="46"/>luntate firmata in bonum pertinet. ad 
+perfectio<lb break="no" ed="#L" n="47"/>nem. virtutis, ut patet per. Philosophum; in ll -
+<lb ed="#L" n="48"/>Ethic.: sicat: 'etiam" peccare" mente obstinata
+<lb ed="#L" n="49"/>aggravat peccatum, et dicitur peccatum 'in SE
+<lb ed="#L" n="50"/>ritum. Sanctum,. ut supra dictum est.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1560">
+                  <lb ed="#L" n="51"/>AD PRIMUM ERGO DICENDUM quod auctoritas illa
+<lb ed="#L" n="52"/>est intelligenda: de necessitate coactionis, quae 
+in<lb break="no" ed="#L" n="53"/>voluntarium causat et devotionem excludit. Unde
+<lb ed="#L" n="54"/>signanter dicit: Ne iam non devoti, sed inviti rem
+<lb ed="#L" n="55"/>voluntariam JA CUATHMS. Necessitas autem voti est
+<lb ed="#L" n="56"/>per immutabilitatem.?. voluntatis: unde-et 
+volun<lb break="no" ed="#L" n="57"/>tatem «confirmat et devotionem auget. Et ideo
+<lb ed="#L" n="58"/>ratio non sequitur.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1581">
+                  <lb ed="#L" n="59"/>AD SECUNDUM DICENDUM quod necessitas 
+coactio<lb break="no" ed="#L" n="60"/>nis, inquantum. est contraria voluntati, tristitiam.
+<lb ed="#L" n="61"/>causat, secundum Philosophum Necessitas
+<lb ed="#L" n="62"/>autem voti in. his qui sunt. bene dispositi, 
+in<lb break="no" ed="#L" n="63"/>quantum voluntatem confirmat, non causat 
+tri<lb break="no" ed="#L" n="64"/>stitiam, sed gaudium. Unde Augustinus dicit, it in
+<lb ed="#L" n="65"/>epistola ad Armentarium et Paulinam: Non. 1e
+<lb ed="#L" n="66"/>vovisse poeniteat: immo gaude iam tibi sic .non
+<lb ed="#L" n="67"/>licere quod cum tuo detrimento licuisset.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1603">
+                  <lb ed="#L" n="68"/>Si tamen ipsum opus, secundum se 
+conside<lb break="no" ed="#L" n="69"/>ratum, triste et involuntarium redderetur- post
+<lb ed="#L" n="70"/>votum, dum tamen remaneat voluntas votum. 
+im<lb break="no" ed="#L" n="71"/>plendi, adhuc est magis meritorium quam. si 
+fie<lb break="no" ed="#L" n="72"/>ret sine voto: quia impletio voti est actus 
+reli<lb break="no" ed="#L" n="73"/>gionis/quae est potior virtus quam abstinentia,
+<lb ed="#L" n="74"/>cuius actus est ieiunare. 
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1621">
+                  <lb ed="#L" n="75"/>AD TERTIUM DICENDUM quod ille qui facit aliquid
+<lb ed="#L" n="76"/>sine voto habet immobilem voluntatem. respectu.
+<lb ed="#L" n="77"/>illius operis singularis quod facit, et tunc quando 
+<lb ed="#L" n="78"/>facit: non autem manet voluntas eius omnino
+<lb ed="#L" n="79"/>firmata in futurum, sicut voventis, qui suam xo
+<lb ed="#L" n="80"/>luntatem obligavit ad aliquid faciendum. et. 
+ante<lb break="no" ed="#L" n="81"/>quam. faceret illud singulare opus, et fortasse ad
+<lb ed="#L" n="82"/>pluries faciendum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1727-Dd1e1642"><!-- p2p2-q88a7" -->
+               <head xml:id="TAca84-d1e1727-Hd1e1645">Articulus 7</head>
+               <head xml:id="TAca84-d1e1727-Hd1e1647" type="question-title">Utrum votum solemnizetur per susceptionem sacri ordinis,
+et per professionem ad certam regulam</head>
+               <p xml:id="TAca84-d1e1727-d1e1650">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="91" type="fixed=253"/>ARTICULUS SEPTIMUS
+<lb ed="#L" n="92"/>UTRUM VOTUM SOLEMNIZETUR PER SUSCEPTIONEM SACRI ORDINIS,
+<lb ed="#L" n="93"/>ET PER PROFESSIONEM AD CERTAM REGULAM
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1661">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="94"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="95"/>votum non solemnizetur per 
+susceptio<lb break="no" ed="#L" n="96"/>nem sacri ordinis, et per professionem
+<lb ed="#L" n="97"/>ad certam regulam. Votum enim, ut
+<lb ed="#L" n="98"/>dictum est, promissio Deo facta est. Ea vero
+<lb ed="#L" n="99"/>quae exterius aguntur ad solemnitatem pertinentia
+<lb ed="#L" n="100"/>non videntur ordinari ad Deum, sed ad homines.
+<lb ed="#L" n="101"/>Ergo per accidens se habent ad votum. Non
+<lb ed="#L" n="102"/>ergo solemnitas talis est propria conditio voti.
+<lb ed="#L" n="103"/>2. PRAETEREA, illud quod pertinet ad 
+condi<lb break="no" ed="#L" n="104"/>tionem alicuius rei, videtur posse competere
+<lb ed="#L" n="105"/>omnibus illis in quibus res illa invenitur. Sed
+<lb ed="#L" n="106"/>multa possunt sub voto cadere quae non 
+per<lb break="no" ed="#L" n="107"/>tinent neque ad sacrum ordinem, neque perti-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="108"/>nent ad aliquam certam regulam: sicut cum
+<lb ed="#L" n="109"/>quis vovet. peregrinationem, aut aliquid 
+huius<lb break="no" ed="#L" n="110"/>modi. Ergo solemnitas quae fit in susceptione
+<lb ed="#L" n="111"/>sacri ordinis vel in promissione P certae regulae,
+<lb ed="#L" n="112"/>non pertinet ad conditionem voti.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1709">
+                  <lb ed="#L" n="113"/>3. PRAETEREA, votum solemne idem videtur
+<lb ed="#L" n="114"/>esse quod votum publicum. Sed multa alia vota
+<lb ed="#L" n="115"/>possunt fieri in publico quam votum quod 
+emit<lb break="no" ed="#L" n="116"/>titur in susceptione sacri ordinis vel professione
+<lb ed="#L" n="117"/>certae regulae: et huiusmodi etiam vota possunt
+<lb ed="#L" n="118"/>fieri in occulto. Ergo non solum huiusmodi vota
+<lb ed="#L" n="119"/>sunt solemnia.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1728">
+                  <lb ed="#L" n="120"/>SED coNTRA EsT quod solum huiusmodi vota
+<pb ed="#L" n="254"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>munt iam contractum; quod est effectus voti
+<lb ed="#L" n="2"/>solemnis, ut infra dicetur in Tertia huius operis
+<lb ed="#L" n="3"/>Parte
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1744">
+                  <lb ed="#L" n="4"/>RESPONDEO DICENDUM quod unicuique rei 
+so<lb break="no" ed="#L" n="5"/>lemnitas adhibetur secundum illius rei 
+conditio<lb break="no" ed="#L" n="6"/>nem: sicut alia est solemnitas novae militiae ,
+<lb ed="#L" n="7"/>scilicet in quodam apparatu equorum et 
+armo<lb break="no" ed="#L" n="8"/>rum et concursu militum; et alia solemnitas 
+nu<lb break="no" ed="#L" n="9"/>ptiarum, quae consistit in apparatu sponsi et
+<lb ed="#L" n="10"/>sponsae et conventu propinquorum. Votum 
+au<lb break="no" ed="#L" n="11"/>tem est promissio Deo facta. Unde solemnitas
+<lb ed="#L" n="12"/>voti attenditur secundum aliquid spirituale, quod
+<lb ed="#L" n="13"/>ad Deum pertineat: idest secundum aliquam spi- -
+<lb ed="#L" n="14"/>ritualem benedictionem vel consecrationem, quae
+<lb ed="#L" n="15"/>ex institutione Apostolorum adhibetur in. 
+profes<lb break="no" ed="#L" n="16"/>sione certae regulae, secundo gradu post sacri
+<lb ed="#L" n="17"/>ordinis susceptionem, ut Dionysius dicit, vi cap.
+<lb ed="#L" n="18"/>Eccles. Hier.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1779">
+                  <lb ed="#L" n="19"/>Et huius ratio est quia solemnitates non 
+consue<lb break="no" ed="#L" n="20"/>verunt adhiberi nisi quando aliquis totaliter 
+man<lb break="no" ed="#L" n="21"/>cipatur alicui rei: non enim solemnitas nuptialis
+<lb ed="#L" n="22"/>adhibetur nisi in celebratione matrimonii, quando
+<lb ed="#L" n="23"/>uterque coniugum sui corporis potestatem alteri
+<lb ed="#L" n="24"/>tradit. Et similiter voti solemnitas adhibetur quando
+<lb ed="#L" n="25"/>aliquis per susceptionem sacri ordinis divino 
+mi<lb break="no" ed="#L" n="26"/>nisterio applicatur; et in professione certae regulae,
+<lb ed="#L" n="27"/>quando per abrenuntiationem saeculi et propriae
+<lb ed="#L" n="28"/>voluntatis aliquis statum perfectionis assumit.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1803">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="29"/>AD PRIMUM ERGO DICENDUM quod huiusmodi 
+so<lb break="no" ed="#L" n="30"/>lemnitas pertinet non solum ad homines, sed ad
+<lb ed="#L" n="31"/>Deum, inquantum habet aliquam spiritualem 
+con<lb break="no" ed="#L" n="32"/>secrationem seu benedictionem, cuius Deus est
+<lb ed="#L" n="33"/>auctor, etsi homo sit minister: secundum illud
+<lb ed="#L" n="34"/>Num. vi*: Invocabunt nomen meum super filios
+<lb ed="#L" n="35"/>Israel, et ego benedicam eis. Et ideo votum 
+so<lb break="no" ed="#L" n="36"/>lemne habet fortiorem obligationem apud Deum
+<lb ed="#L" n="37"/>quam votum simplex; et gravius peccat qui
+<lb ed="#L" n="38"/>illud transgreditur. - Quod autem dicitur quod
+<lb ed="#L" n="39"/>votum simplex non minus obligat apud Deum
+<lb ed="#L" n="40"/>quam solemne, intelligendum est quantum ad
+<lb ed="#L" n="41"/>hoc quod utriusque transgressor peccat mortaliter.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1836">
+                  <lb ed="#L" n="42"/>AD SECUNDUM DICENDUM quod particularibus 
+acti<lb break="no" ed="#L" n="43"/>bus non consuevit solemnitas adhiberi, sed 
+assum<lb break="no" ed="#L" n="44"/>ptioni novi status, ut dictum est. Et ideo cum
+<lb ed="#L" n="45"/>quis vovet aliqua particularia opera, sicut aliquam
+<lb ed="#L" n="46"/>peregrinationem vel aliquod speciale ieiunium, tali
+<lb ed="#L" n="47"/>voto non congruit solemnitas: sed solum voto
+<lb ed="#L" n="48"/>quo aliquis totaliter se subiicit divino ministerio
+<lb ed="#L" n="49"/>seu famulatui; in quo tamen voto, quasi 
+univer<lb break="no" ed="#L" n="50"/>sali, multa particularia opera comprehenduntur.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1858">
+                  <lb ed="#L" n="51"/>AD TERTIUM DICENDUM quod vota ex hoc quod
+<lb ed="#L" n="52"/>fiunt in publico possunt habere quandam. 
+sole<lb break="no" ed="#L" n="53"/>mnitatem humanam: non autem solemnitatem
+<lb ed="#L" n="54"/>spiritualem et divinam, sicut habent vota 
+prae<lb break="no" ed="#L" n="55"/>missa, etiam si coram paucis fiant. Unde aliud
+<lb ed="#L" n="56"/>est votum esse publicum, et aliud esse solemne.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1727-Dd1e1876"><!-- p2p2-q88a8" -->
+               <head xml:id="TAca84-d1e1727-Hd1e1879">Articulus 8</head>
+               <head xml:id="TAca84-d1e1727-Hd1e1881" type="question-title">Utrum illi qui sunt alterius potestati subiecti impediantur a vovendo</head>
+               <p xml:id="TAca84-d1e1727-d1e1884">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="89" type="fixed=256"/>ARTICULUS OCTAVUS
+<lb ed="#L" n="90"/>UTRUM ILLI QUI SUNT ALTERIUS POTESTATI SUBIECTI IMPEDIANTUR A VOVENDO
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1893">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="91"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="92"/>illi qui sunt alterius potestati subiecti
+<lb ed="#L" n="93"/>non impediantur a vovendo. Minus
+<lb ed="#L" n="94"/>enim vinculum superatur a maiori. Sed
+<lb ed="#L" n="95"/>obligatio qua quis subiicitur homini est minus
+<lb ed="#L" n="96"/>vinculum quam votum, per quod aliquis 
+obliga<lb break="no" ed="#L" n="97"/>tur Deo. Ergo illi qui sunt alienae potestati 
+sub<lb break="no" ed="#L" n="98"/>iecti non impediuntur a vovendo.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1915">
+                  <lb ed="#L" n="99"/>2. PRAETEREA, filii sunt in potestate patris. Sed
+<lb ed="#L" n="100"/>filii possunt profiteri in aliqua religione etiam
+<lb ed="#L" n="101"/>sine voluntate parentum. Ergo non impeditur
+<lb ed="#L" n="102"/>aliquis a vovendo per hoc quod est subiectus
+<lb ed="#L" n="103"/>potestati alterius.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1929">
+                  <lb ed="#L" n="104"/>3. PRAETEREA, maius est facere quam 
+promit<lb break="no" ed="#L" n="105"/>tere. Sed religiosi qui sunt sub potestate 
+prae<lb break="no" ed="#L" n="106"/>latorum possunt aliqua facere sine licentia 
+suo<lb break="no" ed="#L" n="107"/>rum praelatorum: puta dicere aliquos psalmos,
+<lb ed="#L" n="108"/>vel facere aliquas abstinentias. Ergo videtur quod
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="109"/>multo magis possunt huiusmodi vovendo Den
+<lb ed="#L" n="110"/>promittere.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1949">
+                  <lb ed="#L" n="111"/>4. PRAETEREA, quicumque facit quod de iure
+<lb ed="#L" n="112"/>facere non potest, peccat. Sed subditi non 
+pee<lb break="no" ed="#L" n="113"/>cant vovendo: quia hoc nunquam invenitur 
+pro<lb break="no" ed="#L" n="114"/>hibitum. Ergo videtur quod de iure possunt 
+vo<lb break="no" ed="#L" n="115"/>vere.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1962">
+                  <lb ed="#L" n="116"/>SED coNTRA EsT quod Num. xxx mandatur
+<lb ed="#L" n="117"/>quod, s? mulier in domo patris sui, et adhuc. in
+<lb ed="#L" n="118"/>puellari aetate, aliquid voverit, non tenetur rea
+<lb ed="#L" n="119"/>voti nisi pater eius consenserit. Et idem dicit
+<lb ed="#L" n="120"/>de muliere habente virum. Ergo, pari ratione,
+<lb ed="#L" n="121"/>nec aliae personae alterius potestati subiectae
+<lb ed="#L" n="122"/>possunt se voto obligare.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e1980">
+                  <lb ed="#L" n="123"/>RESPONDEO DICENDUM quod, sicut supra 
+di<lb break="no" ed="#L" n="124"/>ctum est, votum est promissio quae Deo
+<lb ed="#L" n="125"/>facta. Nullus autem potest per promissionem se
+<lb ed="#L" n="126"/>firmiter obligare ad id quod est in potestate al-
+<pb ed="#L" n="257"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>terius, sed solum ad id. quod est omnino in sua
+<lb ed="#L" n="2"/>potestate. Quicumque autem est subiectus alicui,
+<lb ed="#L" n="3"/>quantum ad id in quo est subiectus, non est suae
+<lb ed="#L" n="4"/>potestatis facere quod vult, sed dependet ex 
+vo<lb break="no" ed="#L" n="5"/>luntate alterius. Et ideo non potest se per votum
+<lb ed="#L" n="6"/>firmiter obligare, in his in quibus alteri subiicitur,
+<lb ed="#L" n="7"/>sine consensu sui superioris.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2011">
+                  <lb ed="#L" n="8"/>AD PRIMUM ERGO DICENDUM quod sub 
+promis<lb break="no" ed="#L" n="9"/>sione Deo facta non cadit nisi quod est 
+virtuo<lb break="no" ed="#L" n="10"/>sum, ut supra dictum est. Est autem contra
+<lb ed="#L" n="11"/>virtutem: ut id quod est alterius homo offerat
+<lb ed="#L" n="12"/>Deo, ut supra dictum est. Et ideo non potest
+<lb ed="#L" n="13"/>omnino salvari ratio voti, cum quis in potestate
+<lb ed="#L" n="14"/>constitutus vovet id quod est in potestate alterius,
+<lb ed="#L" n="15"/>nisi sub conditione si ille ad cuius potestatem
+<lb ed="#L" n="16"/>pertinet non contradicat.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2033">
+                  <lb ed="#L" n="17"/>AD SECUNDUM DICENDUM quod ex quo homo venit
+<lb ed="#L" n="18"/>ad annos pubertatis, si sit liberae conditionis, est
+<lb ed="#L" n="19"/>suae potestatis quantum ad ea quae pertinent ad
+<lb ed="#L" n="20"/>suam personam: puta quod obliget se religioni
+<lb ed="#L" n="21"/>per votum, vel quod matrimonium contrahat.
+<lb ed="#L" n="22"/>Non autem est suae potestatis quantum ad dispen-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="23"/>sationem domesticam. Unde circa hoc non potest
+<lb ed="#L" n="24"/>aliquid vovere quod sit ratum, sine consensu 
+pa<lb break="no" ed="#L" n="25"/>tris. - Servus autem, quia est in potestate: domini
+<lb ed="#L" n="26"/>etiam quantum ad personales operationes, non
+<lb ed="#L" n="27"/>potest se voto obligare ad religionem, per quam
+<lb ed="#L" n="28"/>ab obsequio domini sui abstraheretur.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2065">
+                  <lb ed="#L" n="29"/>AD TERTIUM DICENDUM quod religiosus subditus
+<lb ed="#L" n="30"/>est praelato quantum ad suas operationes 
+secun<lb break="no" ed="#L" n="31"/>dum professionem regulae. Et ideo etiam si 
+ali<lb break="no" ed="#L" n="32"/>quis ad horam aliquid facere possit quando ad alia
+<lb ed="#L" n="33"/>non occupatur a praelato, quia tamen nullum 
+tem<lb break="no" ed="#L" n="34"/>pus est exceptum in quo praelatus non possit eum
+<lb ed="#L" n="35"/>circa aliquid occupare, nullum votum religiosi est
+<lb ed="#L" n="36"/>firmum nisi sit de consensu praelati. Sicut nec
+<lb ed="#L" n="37"/>votum puellae existentis in domo, nisi sit de 
+con<lb break="no" ed="#L" n="38"/>sensu patris: nec uxoris, nisi de consensu viri.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2089">
+                  <lb ed="#L" n="39"/>AD QUARTUM DICENDUM quod licet votum eorum
+<lb ed="#L" n="40"/>qui sunt alterius potestati subiecti non sit 
+fir<lb break="no" ed="#L" n="41"/>mum sine consensu eorum quibus subiiciuntur,
+<lb ed="#L" n="42"/>non tamen peccant vovendo: quia in eorum voto
+<lb ed="#L" n="43"/>intelligitur debita conditio, scilicet si suis 
+supe<lb break="no" ed="#L" n="44"/>rioribus placuerit, vel non renitantur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1727-Dd1e2106"><!-- p2p2-q88a9" -->
+               <head xml:id="TAca84-d1e1727-Hd1e2109">Articulus 9</head>
+               <head xml:id="TAca84-d1e1727-Hd1e2111" type="question-title">Utrum pueri possint voto se obligare ad religionis ingressum</head>
+               <p xml:id="TAca84-d1e1727-d1e2114">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="13" type="fixed=261"/>ARTICULUS NONUS
+<lb ed="#L" n="14"/>UTRUM PUERI POSSINT VOTO SE OBLIGARE AD RELIGIONIS INGRESSUM
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2123">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="15"/>AD NONUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="16"/>pueri non. possint voto se obligare ad
+<lb ed="#L" n="17"/>religionis ingressum. Cum enim ad 
+vo<lb break="no" ed="#L" n="18"/>tum requiratur animi deliberatio, non
+<lb ed="#L" n="19"/>competit vovere nisi illis qui habent usum rationis.
+<lb ed="#L" n="20"/>Sed hoc deficit in. pueris, sicut et in amentibus
+<lb ed="#L" n="21"/>vel furiosis. Sicut ergo amentes et furiosi non
+<lb ed="#L" n="22"/>possunt se ad aliquid voto adstringere, ita etiam
+<lb ed="#L" n="23"/>nec ueri, ut videtur, possunt se voto obligare
+<lb ed="#L" n="24"/>religioni.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2149">
+                  <lb ed="#L" n="25"/>2. PRAETEREA, illud quod rite potest ab aliquo
+<lb ed="#L" n="26"/>fieri, non potest ab alio irritari. Sed. votum
+<lb ed="#L" n="27"/>religionis a puero vel puella factum ante annos
+<lb ed="#L" n="28"/>ertatis T a parentibus revocari, vel a 
+tu<lb break="no" ed="#L" n="29"/>re: ut habetur XX, qu. it, cap. Puella. Ergo
+<lb ed="#L" n="30"/>videtur quod. puer vel puella, ante quatuordecim
+<lb ed="#L" n="31"/>annos, non possit rite vovere.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2168">
+                  <lb ed="#L" n="32"/>2. PRAETEREA, religionem intrantibus annus 
+pro<lb break="no" ed="#L" n="33"/>bationis conceditur, secundum regulam beati 
+Be<lb break="no" ed="#L" n="34"/>nedicti et secundum. statutum Innocentii IV*,
+<lb ed="#L" n="35"/>ad hoc quod probatio obligationem voti praecedat.
+<lb ed="#L" n="36"/>Ergo illicitum videtur esse quod pueri voto 
+obli<lb break="no" ed="#L" n="37"/>gentur ad religionem ante probationis annum.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2184">
+                  <lb ed="#L" n="38"/>SED coNTRA, illud quod non est rite factum non
+<lb ed="#L" n="39"/>est validum, etiam si a nullo revocetur. Sed 
+vo<lb break="no" ed="#L" n="40"/>tum puellae, etiam P ante annos pubertatis 
+emis<lb break="no" ed="#L" n="41"/>ssum;, validum est si infra annum. a parentibus
+<lb ed="#L" n="42"/>non revocetur : ut habetur XX, qu. n, cap. Puella.
+<lb ed="#L" n="43"/>Ergo licite et rite possunt pueri voto " obligari ad
+<lb ed="#L" n="44"/>religionem, etiam ante annos pubertatis.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2202">
+                  <lb ed="#L" n="45"/>RESPONDEO DICENDUM quod, sicut ex praedictis
+<lb ed="#L" n="46"/>patet, duplex est votum: scilicet simplex, et 
+so<lb break="no" ed="#L" n="47"/>lemne. Et quia solemnitas voti in quadam  
+spi<lb break="no" ed="#L" n="48"/>rituali benedictione et consecratione consistit, ut
+<lb ed="#L" n="49"/>dictum est, quae fit per ministerium Ecclesiae;
+<lb ed="#L" n="50"/>ideo solemnizatio voti sub dispensatione Ecclesiae
+<lb ed="#L" n="51"/>cadit. Votum autem simplex efficaciam. habet ex.
+<lb ed="#L" n="52"/>deliberatione animi, qua quis se obligare intendit.
+<lb ed="#L" n="53"/>Quod autem talis obligatio robur non habeat,
+<lb ed="#L" n="54"/>dupliciter potest contingere. Uno quidem modo,
+<lb ed="#L" n="55"/>propter defectum rationis : sicut patet in furiosis
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="56"/>et amentibus, qui se voto non possunt obligare
+<lb ed="#L" n="57"/>ad aliquid, dum. sunt in furia vel amentia. Alio
+<lb ed="#L" n="58"/>modo; quia ille qui vovet est alterius potestati
+<lb ed="#L" n="59"/>subiectus, ut supra dictum est. Et ista duo 
+con<lb break="no" ed="#L" n="60"/>currunt in pueris ante annos pubertatis: quia et
+<lb ed="#L" n="61"/>patiuntur rationis defectum, ut in pluribus; et
+<lb ed="#L" n="62"/>sunt naturaliter sub cura parentum, vel tutorum,
+<lb ed="#L" n="63"/>qui sunt eis loco parentum. Et ideo eorum vota
+<lb ed="#L" n="64"/>ex duplici causa robur non habent. - Contingit
+<lb ed="#L" n="65"/>tamen, propter naturae dispositionem, quae 
+le<lb break="no" ed="#L" n="66"/>gibus humanis non subditur, in aliquibus, licet
+<lb ed="#L" n="67"/>paucis, accelerari rationis usum, qui ob hoc 
+di<lb break="no" ed="#L" n="68"/>cuntur doli capaces. Nec tamen propter hoc in
+<lb ed="#L" n="69"/>aliquo eximuntur a cura parentum, quae subiacet
+<lb ed="#L" n="70"/>legi humanae respicienti ad id quod frequentius
+<lb ed="#L" n="71"/>accidit.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2265">
+                  <lb ed="#L" n="72"/>Est ergo dicendum quod si puer vel puella,
+<lb ed="#L" n="73"/>ante pubertatis annos, nondum habeat usum
+<lb ed="#L" n="74"/>rationis, nullo modo potest se ad aliquid voto
+<lb ed="#L" n="75"/>obligare. Si vero ante annos pubertatis attigerit ?
+<lb ed="#L" n="76"/>usum rationis, potest quidem, quantum in ipso
+<lb ed="#L" n="77"/>est, se obligare, sed votum eius potest irritari
+<lb ed="#L" n="78"/>per parentes, quorum curae remanet adhuc 
+sub<lb break="no" ed="#L" n="79"/>iectus. Quantumcumque tamen sit doli. capax,
+<lb ed="#L" n="80"/>ante annos pubertatis non potest obligari voto
+<lb ed="#L" n="81"/>solemni religionis, propter Ecclesiae statutum,
+<lb ed="#L" n="82"/>quod respicit id quod in pluribus accidit. - Post
+<lb ed="#L" n="83"/>annos autem. pubertatis, possunt iam se voto
+<lb ed="#L" n="84"/>religionis obligare, vel simplici vel solemni,
+<lb ed="#L" n="85"/>absque voluntate parentum.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2298">
+                  <lb ed="#L" n="86"/>AD PRIMUM ERGO DICENDUM quod ratio illa 
+pro<lb break="no" ed="#L" n="87"/>cedit de pueris qui nondum attigerunt usum
+<lb ed="#L" n="88"/>rationis: quorum vota sunt invalida, ut dictum
+<lb ed="#L" n="89"/>est.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2309">
+                  <lb ed="#L" n="90"/>AD SECUNDUM DICENDUM quod vota eorum qui
+<lb ed="#L" n="91"/>sunt in potestate aliorum habent conditionem 
+im<lb break="no" ed="#L" n="92"/>plicitam; scilicet si non revocentur a superiori,
+<lb ed="#L" n="93"/>ex qua licita redduntur, et valida si conditio extat,
+<lb ed="#L" n="94"/>ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2323">
+                  <lb ed="#L" n="95"/>AD TERTIUM DICENDUM quod ratio illa procedit
+<lb ed="#L" n="96"/>de voto solemni quod fit per professionem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1727-Dd1e2331"><!-- p2p2-q88a10" -->
+               <head xml:id="TAca84-d1e1727-Hd1e2334">Articulus 10</head>
+               <head xml:id="TAca84-d1e1727-Hd1e2336" type="question-title">Utrum in voto dispensari possit</head>
+               <p xml:id="TAca84-d1e1727-d1e2339">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="112" type="fixed=262"/>ARTICULUS DECIMUS
+<lb ed="#L" n="113"/>UTRUM IN VOTO DISPENSARI POSSIT 
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2348">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="114"/>AD DECIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="115"/>in voto dispensari non possit. Minus
+<lb ed="#L" n="116"/>enim est commutari votum quam in
+<lb ed="#L" n="117"/>eo dispensari. Sed votum non potest
+<lb ed="#L" n="118"/>commutari: dicitur enim Levit. xxvu: Animal
+<lb ed="#L" n="119"/>quod immolari polest Domino, si quis vorerit,
+<lb ed="#L" n="120"/>sanctum. erit, et mutari non poterit, nec melius
+<lb ed="#L" n="121"/>malo nec peius bono. Ergo multo minus potest
+<lb ed="#L" n="122"/>dispensari in voto.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2372">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="123"/>2. PRAETEREA, in his quae sunt de lege naturae
+<lb ed="#L" n="124"/>et in praeceptis divinis non potest per hominem
+<lb ed="#L" n="125"/>dispensari: et praecipue in praeceptis primae 
+ta<lb break="no" ed="#L" n="126"/>bulae, quae ordinantur directe ad dilectionem Dei,
+<lb ed="#L" n="127"/>quae est ultimus praeceptorum finis. Sed implere
+<lb ed="#L" n="128"/>votum est de lege naturae; et est etiam 
+prae<lb break="no" ed="#L" n="129"/>ceptum. legis divinae, ut ex supradictis patet;
+<lb ed="#L" n="130"/>et pertinet ad praecepta primae tabulae, cum. sit
+<lb ed="#L" n="131"/>actus latriae. Ergo in voto dispensari non potest.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2397">
+                  <pb ed="#L" n="263"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>3. PRAETEREA, obligatio voti fundatur super 
+fi<lb break="no" ed="#L" n="2"/>delitatem quam homo debet Deo, ut dictum est.
+<lb ed="#L" n="3"/>Sed in hac nullus potest dispensare. Ergo nec
+<lb ed="#L" n="4"/>in voto.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2413">
+                  <lb ed="#L" n="5"/>SED CONTRA, maioris firmitatis esse videtur quod
+<lb ed="#L" n="6"/>procedit ex communi voluntate quam quod 
+pro<lb break="no" ed="#L" n="7"/>cedit ex-singulari voluntate alicuius personae. Sed
+<lb ed="#L" n="8"/>in lege, quae habet robur ex communi voluntate,
+<lb ed="#L" n="9"/>potest per hominem dispensari. Ergo videtur quod
+<lb ed="#L" n="10"/>etiam in voto per hominem dispensari possit.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2429">
+                  <lb ed="#L" n="11"/>RrsPONDEO DICENDUM quod dispensatio voti 
+in<lb break="no" ed="#L" n="12"/>telligenda est ad modum dispensationis quae fit
+<lb ed="#L" n="13"/>in observantia alicuius legis. Quia, ut supra
+<lb ed="#L" n="14"/>dictum est, lex ponitur respiciendo ad id quod
+<lb ed="#L" n="15"/>est ut in pluribus bonum: sed quia contingit 
+hu<lb break="no" ed="#L" n="16"/>iusmodi in aliquo casu non esse bonum, oportuit
+<lb ed="#L" n="17"/>per aliquem determinari in illo particulari casu
+<lb ed="#L" n="18"/>legem non esse servandam. Et hoc proprie est
+<lb ed="#L" n="19"/>dispensare in lege: nam dispensatio videtur 
+im<lb break="no" ed="#L" n="20"/>portare commensuratam quandam distributionem
+<lb ed="#L" n="21"/>vel applicationem communis alicuius ad ea quae
+<lb ed="#L" n="22"/>sub-ipso continentur, per quem modum dicitur
+<lb ed="#L" n="23"/>aliquis dispensare cibum familiae.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2460">
+                  <lb ed="#L" n="24"/>Similiter autem ille qui vovet quodammodo sibi.
+<lb ed="#L" n="25"/>statuit legem, obligans se ad aliquid quod. est 
+se<lb break="no" ed="#L" n="26"/>cundum se et in pluribus bonum. Potest tamen
+<lb ed="#L" n="27"/>contingere quod in aliquo casu sit vel simpliciter
+<lb ed="#L" n="28"/>malum, vel inutile, vel maioris boni impeditivum:
+<lb ed="#L" n="29"/>quod est contra rationem eius quod cadit sub voto,
+<lb ed="#L" n="30"/>ut ex praedictis patet. Et ideo necesse est quod
+<lb ed="#L" n="31"/>determinetur in tali casu votum non esse 
+servan<lb break="no" ed="#L" n="32"/>dum. Et si quidem absolute determinetur aliquod
+<lb ed="#L" n="33"/>votum non esse servandum, dicitur esse 
+dispensa<lb break="no" ed="#L" n="34"/>lio. voti. Si autem pro hoc quod servandum erat
+<lb ed="#L" n="35"/>aliquid aliud imponatur, dicitur commutatio voti.
+<lb ed="#L" n="36"/>Unde minus est votum commutare quam in voto
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="37"/>dispensare. Utrumque tamen in potestate 
+Eccle<lb break="no" ed="#L" n="38"/>siae consistit.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2497">
+                  <lb ed="#L" n="39"/>AD PRIMUM ERGO DICENDUM quod animal quod
+<lb ed="#L" n="40"/>immolari poterat, ex hoc ipso quod vovebatur,
+<lb ed="#L" n="41"/>sanctum reputabatur, quasi divino cultui 
+manci<lb break="no" ed="#L" n="42"/>patum: et haec erat ratio quare non poterat
+<lb ed="#L" n="43"/>commutari; sicut nec modo posset aliquis rem
+<lb ed="#L" n="44"/>quam vovit, iam consecratam, puta calicem vel
+<lb ed="#L" n="45"/>domum, commutare in melius vel in peius. 
+Ani<lb break="no" ed="#L" n="46"/>mal autem quod non poterat sanctificari quia
+<lb ed="#L" n="47"/>non erat immolatitium, redimi poterat et debebat,
+<lb ed="#L" n="48"/>sicut ibidem lex dicit. Et ita etiam nunc 
+com<lb break="no" ed="#L" n="49"/>mutari possunt vota si consecratio non 
+interve<lb break="no" ed="#L" n="50"/>niat.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2526">
+                  <lb ed="#L" n="51"/>AD SECUNDUM DICENDUM quod sicut ex iure 
+na<lb break="no" ed="#L" n="52"/>turali et praecepto divino tenetur homo implere
+<lb ed="#L" n="53"/>votum, ita etiam tenetur ex eisdem obedire 
+su<lb break="no" ed="#L" n="54"/>periorum legi vel mandato. Et tamen cum 
+dis<lb break="no" ed="#L" n="55"/>pensatur in aliqua lege humana, non fit ut legi
+<lb ed="#L" n="56"/>humanae non obediatur, quod est contra legem
+<lb ed="#L" n="57"/>naturae et mandatum divinum: sed fit ut hoc
+<lb ed="#L" n="58"/>quod erat lex, non sit lex in hoc casu. lta etiam
+<lb ed="#L" n="59"/>auctoritate superioris dispensantis fit ut hoc quod
+<lb ed="#L" n="60"/>continebatur sub voto, non contineatur, 
+inquan<lb break="no" ed="#L" n="61"/>tum determinatur in hoc casu hoc non esse 
+con<lb break="no" ed="#L" n="62"/>gruam materiam voti. Et ideo cum praelatus 
+Ec<lb break="no" ed="#L" n="63"/>clesiae dispensat in voto, non dispensat in 
+prae<lb break="no" ed="#L" n="64"/>cepto iuris naturalis vel divini: sed determinat
+<lb ed="#L" n="65"/>id quod cadebat sub obligatione deliberationis
+<lb ed="#L" n="66"/>humanae, quae non potuit omnia circumspicere.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2564">
+                  <lb ed="#L" n="67"/>AD TERTIUM DICENDUM quod ad fidelitatem Deo
+<lb ed="#L" n="68"/>debitam non pertinet quod homo faciat id quod
+<lb ed="#L" n="69"/>ad vovendum est malum, vel inutile, vel 
+ma<lb break="no" ed="#L" n="70"/>ioris boni impeditivum : ad quod tendit voti 
+dis<lb break="no" ed="#L" n="71"/>pensatio. Et ideo dispensatio voti non est contra
+<lb ed="#L" n="72"/>fidelitatem Deo debitam.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1727-Dd1e2581"><!-- p2p2-q88a11" -->
+               <head xml:id="TAca84-d1e1727-Hd1e2584">Articulus 11</head>
+               <head xml:id="TAca84-d1e1727-Hd1e2586" type="question-title">Utrum in voto solemni continentiae possit fieri dispensatio</head>
+               <p xml:id="TAca84-d1e1727-d1e2589">
+                  <pb ed="#L" n="264"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=264"/>ARTICULUS UNDECIMUS
+<lb ed="#L" n="2"/>UTRUM IN VOTO SOLEMNI CONTINENTIAE POSSIT FIERI DISPENSATIO
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2600">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD UNDECIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>in voto solemni continentiae possit fieri
+<lb ed="#L" n="5"/>dispensatio. Una enim ratio dispensandi
+<lb ed="#L" n="6"/>inn voto est si sit impeditivum melioris 
+<lb ed="#L" n="7"/>boni, sicut dictum est. Sed votum continentiae,
+<lb ed="#L" n="8"/>etiam si sit solemne, potest esse impeditivum 
+me<lb break="no" ed="#L" n="9"/>lioris boni: nam bonum commune esi divinius
+<lb ed="#L" n="10"/>quam bonum unius; potest autem per 
+conti<lb break="no" ed="#L" n="11"/>nentiam alicuius impediri bonum totius 
+multitu<lb break="no" ed="#L" n="12"/>dinis, puta si quando per contractum matrimonii
+<lb ed="#L" n="13"/>aliquarum personarum quae continentiam. 
+vove<lb break="no" ed="#L" n="14"/>runt, posset pax patriae procurari. Ergo videtur
+<lb ed="#L" n="15"/>quod in solemni voto continentiae possit 
+dis<lb break="no" ed="#L" n="16"/>pensari.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2635">
+                  <lb ed="#L" n="17"/>2. PRAETEREA, latria est nobilior virtus quam 
+ca<lb break="no" ed="#L" n="18"/>stitas. Sed si quis voveat' aliquem actum latriae,
+<lb ed="#L" n="19"/>puta offerre. Deo sacrificium, potest in illo voto
+<lb ed="#L" n="20"/>dispensari. Ergo multo magis potest dispensari
+<lb ed="#L" n="21"/>in voto continentiae, quod est de actu castitatis.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2649">
+                  <lb ed="#L" n="22"/>3. PRAETEREA, sicut votum abstinentiae 
+obser<lb break="no" ed="#L" n="23"/>vatum potest vergere in periculum personae, ita
+<lb ed="#L" n="24"/>etiam observatio voti continentiae. Sed in voto
+<lb ed="#L" n="25"/>abstinentiae, si vergat in corporale periculum 
+vo<lb break="no" ed="#L" n="26"/>ventis, potest fieri dispensatio. Ergo etiam ?, pari
+<lb ed="#L" n="27"/>ratione, in voto continentiae potest dispensari.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2665">
+                  <lb ed="#L" n="28"/>4. PRAETEREA, sicut sub professione religionis,
+<lb ed="#L" n="29"/>ex qua votum solemnizatur, continetur votum 
+con<lb break="no" ed="#L" n="30"/>tinentiae, ita etiam et votum paupertatis et 
+obe<lb break="no" ed="#L" n="31"/>dientiae. Sed in voto paupertatis et obedientiae
+<lb ed="#L" n="32"/>potest dispensari: sicut patet in illis qui post 
+pro<lb break="no" ed="#L" n="33"/>fessionem ad episcopatum assumuntur. Ergo 
+vi<lb break="no" ed="#L" n="34"/>detur quod in solemni voto continentiae possit
+<lb ed="#L" n="35"/>dispensari.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2685">
+                  <lb ed="#L" n="36"/>SED coNTRA EsT quod dicitur Eccl. xxvi:
+<lb ed="#L" n="37"/>Omnis ponderatio non est digna animae continentis.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2692">
+                  <lb ed="#L" n="38"/>2. PRAETEREA, Extra, de Statu Monach., in fine
+<lb ed="#L" n="39"/>illius. decretalis, Cum ad monasterium, dicitur:
+<lb ed="#L" n="40"/>Abdicatio proprietatis, sicut etiam custodia. 
+casti<lb break="no" ed="#L" n="41"/>latis, adeo est annexa regulae monachali ut contra
+<lb ed="#L" n="42"/>eam nec Summus Pontifex possit indulgere.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2705">
+                  <lb ed="#L" n="43"/>RESPONDEO DICENDUM quod in solemni voto 
+con<lb break="no" ed="#L" n="44"/>tinentiae tria possunt considerari: primo quidem,
+<lb ed="#L" n="45"/>materia voti, scilicet ipsa continentia; secundo,
+<lb ed="#L" n="46"/>perpetuitas voti, cum scilicet aliquis voto. se 
+ad<lb break="no" ed="#L" n="47"/>stringit ad perpetuam observantiam continentiae;
+<lb ed="#L" n="48"/>tertio, ipsa solemnitas voti. Dicunt ergo quidam
+<lb ed="#L" n="49"/>quod votum solemne est indispensabile ratione
+<lb ed="#L" n="50"/>ipsius continentiae, quae non recipit. condignam
+<lb ed="#L" n="51"/>recompensationem,, ut patet ex auctoritate 
+in<lb break="no" ed="#L" n="52"/>ducta. Cuius rationem quidam assignant quia
+<lb ed="#L" n="53"/>per continentiam homo triumphat de domestico
+<lb ed="#L" n="54"/>inimico: vel quia per continentiam homo 
+per<lb break="no" ed="#L" n="55"/>fecte conformatur Christo, secundum puritatem 
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="56"/>animae et corporis. - Sed hoc non videtur 
+effi<lb break="no" ed="#L" n="57"/>caciter dici. Quia bona animae, utpote -
+contem<lb break="no" ed="#L" n="58"/>platio et oratio, sunt multo. meliora. bonis 
+cor<lb break="no" ed="#L" n="59"/>poris, et magis nos Deo conformant: et tamen
+<lb ed="#L" n="60"/>potest dispensari in voto orationis vel 
+contem<lb break="no" ed="#L" n="61"/>plationis. Unde non videtur esse ratio quare non
+<lb ed="#L" n="62"/>possit dispensari in. voto. continentiae, si 
+respi<lb break="no" ed="#L" n="63"/>ciatur absolute ad ipsam continentiae dignitatem.
+<lb ed="#L" n="64"/>Praesertim. cum Apostolus, 1 ad Cor. vii, ad
+<lb ed="#L" n="65"/>continentiam inducat propter contemplationem,
+<lb ed="#L" n="66"/>dicens quod mulier innupta cogitat quae Dei sunt:
+<lb ed="#L" n="67"/>finis autem potior est his quae sunt ad finem.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2764">
+                  <lb ed="#L" n="68"/>Et ideo alii rationem huius assignant ex 
+per<lb break="no" ed="#L" n="69"/>petuitate et universalitate huius voti. Dicunt enim
+<lb ed="#L" n="70"/>quod votum continentiae non potest praetermitti
+<lb ed="#L" n="71"/>nisi per id. quod est omnino contrarium: quod
+<lb ed="#L" n="72"/>nunquam licet in aliquo voto. - Sed hoc est 
+ma<lb break="no" ed="#L" n="73"/>nifeste falsum. Quia sicut uti carnali copula est
+<lb ed="#L" n="74"/>continentiae contrarium , ita comedere carnes
+<lb ed="#L" n="75"/>vel bibere vinum est contrarium abstinentiae
+<lb ed="#L" n="76"/>a talibus: et tamen in huiusmodi votis potest diso
+<lb ed="#L" n="77"/>pensari.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2789">
+                  <lb ed="#L" n="78"/>Et ideo alis videtur quod in voto MAC
+<lb ed="#L" n="79"/>continentiae possit dispensari propter aliquam
+<lb ed="#L" n="80"/>communem utilitatem seu necessitatem: ut patet
+<lb ed="#L" n="81"/>in exemplo praemisso de oet an terrarum
+<lb ed="#L" n="82"/>ex aliquo matrimonio contrahendo
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2802">
+                  <lb ed="#L" n="83"/>Sed quia decretalis inducta expresse dicit. quod :
+<lb ed="#L" n="84"/>nec Summus Pontifex potest contra custodiam
+<lb ed="#L" n="85"/>castitatis monacho licentiam dare, ideo aliter 
+vi<lb break="no" ed="#L" n="86"/>detur dicendum : quod, sicut supra dictum est,
+<lb ed="#L" n="87"/>et habetur Levit. ult., illud quod semel 
+sancti<lb break="no" ed="#L" n="88"/>ficatum est Domino, non potest in alios usus
+<lb ed="#L" n="89"/>commutari. Non autem potest facere aliquis 
+Ec<lb break="no" ed="#L" n="90"/>clesiae praelatus ut id quod est sanctificatum 
+san<lb break="no" ed="#L" n="91"/>ctificationem amittat, etiam in rebus inanimatis :
+<lb ed="#L" n="92"/>puta quod calix consecratus desinat esse 
+conse<lb break="no" ed="#L" n="93"/>cratus, si maneat integer. Unde multo minus ho
+<lb ed="#L" n="94"/>potest facere aliquis praelatus, ut homo Deo 
+con<lb break="no" ed="#L" n="95"/>secratus, quandiu vivit, consecratus esse desistat.
+<lb ed="#L" n="96"/>Solemnitas autem voti consistit in quadam 
+con<lb break="no" ed="#L" n="97"/>secratione seu benedictione voventis, ut dictum
+<lb ed="#L" n="98"/>est. Et ideo non potest. fieri. per aliquem 
+prae<lb break="no" ed="#L" n="99"/>latum. Ecclesiae quod ille qui votum solemne
+<lb ed="#L" n="100"/>emisit desistat ab eo ad quod est consecratus,
+<lb ed="#L" n="101"/>puta quod ille qui est sacerdos non sit sacerdos:
+<lb ed="#L" n="102"/>licet. possit praelatus ob aliquam causam 
+execu<lb break="no" ed="#L" n="103"/>tionem ordinis inhibere. .Et simili ratione, Papa
+<lb ed="#L" n="104"/>non potest facere quod ille qui est professus 
+reli<lb break="no" ed="#L" n="105"/>gionem non sit religiosus: licet quidam iuristae
+<lb ed="#L" n="106"/>ignoranter contrarium dicant.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2857">
+                  <lb ed="#L" n="107"/>Est ergo considerandum utrum continentia sit
+<lb ed="#L" n="108"/>essentialiter annexa ei ad quod votum solemni-
+<pb ed="#L" n="265"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>zatur: quia si non est ei essentialiter annexa, .
+pot<lb break="no" ed="#L" n="2"/>est manere solemnitas consecrationis sine debito
+<lb ed="#L" n="3"/>continentiae; quod non potest contingere si sit
+<lb ed="#L" n="4"/>essentialiter annexum .ei ad. quod votum 
+sole<lb break="no" ed="#L" n="5"/>mnizatur. Non est autem essentialiter annexum
+<lb ed="#L" n="6"/>debitum. continentiae ordini sacro, sed ex statuto
+<lb ed="#L" n="7"/>Ecclesiae. Unde videtur quod per Ecclesiam possit
+<lb ed="#L" n="8"/>dispensari in voto continentiae solemnizato per
+<lb ed="#L" n="9"/>susceptionem sacri ordinis. - Est autem debitum
+<lb ed="#L" n="10"/>continentiae essentiale statui religionis, per quem
+<lb ed="#L" n="11"/>homo- abrenuntiat saeculo, totaliter Dei servitio
+<lb ed="#L" n="12"/>mancipatus; quod non potest simul stare cum
+<lb ed="#L" n="13"/>matrimonio, in quo incumbit necessitas 
+procu<lb break="no" ed="#L" n="14"/>randae uxoris et prolis et familiae, et rerum quae
+<lb ed="#L" n="15"/>ad hoc requiruntur. Unde Apostolus dicit, I ad
+<lb ed="#L" n="16"/>Cor. vii, quod. qui est. cum uxore: sollicitus est
+<lb ed="#L" n="17"/>quae sunt mundi, quomodo placeat uxori, et 
+di<lb break="no" ed="#L" n="18"/>visus est. Unde nomen monachi ab unitate 
+su<lb break="no" ed="#L" n="19"/>mitur, per oppositum ad divisionem praedictam.
+<lb ed="#L" n="20"/>Et ideo in voto. solemnizato per professionem
+<lb ed="#L" n="21"/>religionis non potest per Ecclesiam dispensari:
+<lb ed="#L" n="22"/>et rationem assignat decretalis, quia castitas est
+<lb ed="#L" n="23"/>annexa regulae monachali.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2918">
+                  <lb ed="#L" n="24"/>AD PRIMUM ERGO DICENDUM quod periculis rerum
+<lb ed="#L" n="25"/>humanarum est obviandum per res humanas:
+<lb ed="#L" n="26"/>non autem per hoc quod res divinae convertantur
+<lb ed="#L" n="27"/>in usum humanum. Professi autem religionem
+<lb ed="#L" n="28"/>mortui sunt mundo et vivunt Deo. Unde non
+<lb ed="#L" n="29"/>sunt revocandi ad vilam humanam occasione 
+cu<lb break="no" ed="#L" n="30"/>iuscumque eventus
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2936">
+                  <lb ed="#L" n="31"/>AD SECUNDUM DICENDUM quod in voto 
+tempo<lb break="no" ed="#L" n="32"/>ralis continentiae dispensari potest: sicut et in
+<lb ed="#L" n="33"/>voto temporalis orationis vel temporalis absti-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="34"/>nentiae. Sed quod in voto continentiae per 
+pro<lb break="no" ed="#L" n="35"/>fessionem solemnizato non possit dispensari, hoc
+<lb ed="#L" n="36"/>non est inquantum est actus castitatis, sed 
+in<lb break="no" ed="#L" n="37"/>quantum incipit ad latriam pertinere per 
+profes<lb break="no" ed="#L" n="38"/>sionem religionis.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2958">
+                  <lb ed="#L" n="39"/>AD TERTIUM DICENDUM quod cibus directe 
+ordi<lb break="no" ed="#L" n="40"/>natur ad conservationem ^ personae: et ideo 
+abs<lb break="no" ed="#L" n="41"/>tinentia cibi directe potest vergere in periculum
+<lb ed="#L" n="42"/>personae. Unde ex hac ratione recipit votum 
+abs<lb break="no" ed="#L" n="43"/>tinentiae dispensationem. Sed coitus non 
+ordi<lb break="no" ed="#L" n="44"/>natur directe ad conservationem personae, sed ad
+<lb ed="#L" n="45"/>conservationem speciei. Unde nec directe 
+abstinen<lb break="no" ed="#L" n="46"/>tia coitus per continentiam vergit in periculum 
+per<lb break="no" ed="#L" n="47"/>sonae. Sed si per accidens ex ea aliquod 
+pericu<lb break="no" ed="#L" n="48"/>lum personale accidat, potest aliter subveniri: 
+sci<lb break="no" ed="#L" n="49"/>licet per abstinentiam, vel alia corporalia remedia.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e2985">
+                  <lb ed="#L" n="50"/>AD QUARTUM DICENDUM quod religiosus qui fit
+<lb ed="#L" n="51"/>episcopus, sicut non absolvitur a voto 
+continen<lb break="no" ed="#L" n="52"/>tiae, ita nec a voto paupertatis: quia nihil debet
+<lb ed="#L" n="53"/>habere tanquam proprium, sed sicut dispensator
+<lb ed="#L" n="54"/>communium bonorum ecclesiae. Similiter etiam
+<lb ed="#L" n="55"/>non absolvitur a voto obedientiae, sed per 
+acci<lb break="no" ed="#L" n="56"/>dens obedire non tenetur, si superiorem non 
+ha<lb break="no" ed="#L" n="57"/>beat: sicut et abbas monasterii, qui tamen non
+<lb ed="#L" n="58"/>est a voto obedientiae absolutus.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e3007">
+                  <lb ed="#L" n="59"/>AucTORITAS vero Ecclesiastici quae in 
+contra<lb break="no" ed="#L" n="60"/>rium obiicitur, intelligenda est quantum ad hoc
+<lb ed="#L" n="61"/>quod nec fecunditas carnis, nec aliquod 
+corpo<lb break="no" ed="#L" n="62"/>rale bonum est comparandum continentiae, quae
+<lb ed="#L" n="63"/>inter bona animae computatur: ut Augustinus
+<lb ed="#L" n="64"/>dicit, in libro de Sancta Virginitate. Unde 
+si<lb break="no" ed="#L" n="65"/>gnanter dicitur, animae continentis: non, carnis
+<lb ed="#L" n="66"/>continentis.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1727-Dd1e3028"><!-- p2p2-q88a12" -->
+               <head xml:id="TAca84-d1e1727-Hd1e3031">Articulus 12</head>
+               <head xml:id="TAca84-d1e1727-Hd1e3033" type="question-title">Ad commutationem vel dispensationem voti requiratur</head>
+               <p xml:id="TAca84-d1e1727-d1e3036">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="55" type="fixed=267"/>ARTICULUS DUODECIMUS
+<lb ed="#L" n="56"/>AD COMMUTATIONEM VEL DISPENSATIONEM VOTI REQUIRATUR
+<lb ed="#L" n="57"/>PRAELATI AUCTORITAS
+</p>
+               <p xml:id="TAca84-d1e1727-d1e3047">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="58"/>AD DUODECIMUM SIC PROCEDITUR. Videtur
+<lb ed="#L" n="59"/>quod ad commutationem  vel. 
+dispen<lb break="no" ed="#L" n="60"/>sationem. Aliquis enim potest intrare
+<lb ed="#L" n="61"/>religi ionem. "absque auctoritate alicuius superioris
+<lb ed="#L" n="62"/>pra am Sed per introitum religionis absolvitur
+<lb ed="#L" n="63"/>mo a votis in saeculo factis, etiam a voto 
+Ter<lb break="no" ed="#L" n="64"/>rae Sanctae. Ergo voti commutatio vel 
+dispen<lb break="no" ed="#L" n="65"/>satio potest esse absque auctoritate superioris
+<lb ed="#L" n="66"/>praelati.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e3071">
+                  <lb ed="#L" n="67"/>2. PRAETEREA, dispensatio voti in hoc consistere
+<lb ed="#L" n="68"/>videtur quod determinatur in quo casu votum non
+<lb ed="#L" n="69"/>Sit observandum. Sed si praelatus male 
+determi<lb break="no" ed="#L" n="70"/>net, non videtur esse vovens absolutus a voto:
+<lb ed="#L" n="71"/>juia nullus praelatus potest dispensare contra
+<lb ed="#L" n="72"/>praeceptum divinum de implendo voto, ut 
+di<lb break="no" ed="#L" n="73"/>ctum. est. Similiter etiam si aliquis propria 
+au<lb break="no" ed="#L" n="74"/>ctoritate recte determinet in quo casu votum non
+<lb ed="#L" n="75"/>sit implendum, non videtur voto teneri: quia
+<lb ed="#L" n="76"/>votum non obligat in casu in quo habet peiorem
+<lb ed="#L" n="77"/>eventum, ut dictum est. Ergo dispensatio voti
+<lb ed="#L" n="78"/>non requirit auctoritatem alicuius praelati.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e3101">
+                  <lb ed="#L" n="79"/>3. PRAETEREA, si dispensare in voto pertinet ad
+<lb ed="#L" n="80"/>potestatem praelatorum, pari ratione pertineret
+<lb ed="#L" n="81"/>ad omnes. Sed non pertinet ad omnes 
+dispen<lb break="no" ed="#L" n="82"/>sare in quolibet voto. Ergo non pertinet ad 
+po<lb break="no" ed="#L" n="83"/>testatem praelatorum dispensatio voti.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e3114">
+                  <lb ed="#L" n="84"/>SED coNTRA, sicut lex obligat ad aliquid facien-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="85"/>dum, ita et votum. Sed ad dispensandum in 
+prae<lb break="no" ed="#L" n="86"/>cepto legis requiritur superioris auctoritas, ut 
+su<lb break="no" ed="#L" n="87"/>pra dictum est. Ergo, pari ratione, etiam in
+<lb ed="#L" n="88"/>dispensatione voti.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e3130">
+                  <lb ed="#L" n="89"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="90"/>est, votum est promissio Deo facta de aliquo quod
+<lb ed="#L" n="91"/>sit Deo acceptum. Quid sit autem in aliqua 
+pro<lb break="no" ed="#L" n="92"/>missione acceptum ei cui promittitur, ex eius
+<lb ed="#L" n="93"/>pendet arbitrio. Praelatus autem in Ecclesia gerit
+<lb ed="#L" n="94"/>vicem Dei. Et ideo in commutatione vel 
+dispensa<lb break="no" ed="#L" n="95"/>tione votorum requiritur praelati auctoritas, quae
+<lb ed="#L" n="96"/>in persona Dei determinat quid sit Deo acceptum:
+<lb ed="#L" n="97"/>secundum illud I1. ad Cor..u: [Nam et ego 
+pro<lb break="no" ed="#L" n="98"/>pter vos donavi in persona Christi. Et signanter
+<lb ed="#L" n="99"/>dicit, propter vos: quia omnis dispensatio petita
+<lb ed="#L" n="100"/>a praelato debet fieri ad honorem Christi, in
+<lb ed="#L" n="101"/>cuius persona dispensat; vel ad utilitatem 
+Ec<lb break="no" ed="#L" n="102"/>clesiae, quae est eius corpus.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e3163">
+                  <lb ed="#L" n="103"/>AD PRIMUM ERGO DICENDUM quod omnia alia vota
+<lb ed="#L" n="104"/>sunt quorundam particularium operum: sed per
+<lb ed="#L" n="105"/>religionem homo totam vitam suam Dei 
+obse<lb break="no" ed="#L" n="106"/>quio deputat. Particulare autem in universali 
+in<lb break="no" ed="#L" n="107"/>cluditur. Et ideo decretalis dicit quod reus fracti
+<lb ed="#L" n="108"/>voti non habetur qui temporale obsequium in 
+per<lb break="no" ed="#L" n="109"/>petuam religionis observantiam commutat. Nec
+<lb ed="#L" n="110"/>tamen in religionem ingrediens tenetur implere
+<lb ed="#L" n="111"/>vota vel ieiuniorum vel orationum vel aliorum
+<lb ed="#L" n="112"/>huiusmodi, quae existens in saeculo fecit: quia
+<pb ed="#L" n="268"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>religionem ingrediens moritur priori vitae; et
+<lb ed="#L" n="2"/>etiam singulares observantiae religioni non 
+com<lb break="no" ed="#L" n="3"/>petunt; et religionis onus satis hominem onerat,
+<lb ed="#L" n="4"/>ut alia superaddere non oporteat.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e3200">
+                  <lb ed="#L" n="5"/>AD SECUNDUM DICENDUM quod quidam dixerunt
+<lb ed="#L" n="6"/>quod praelati possunt in votis pro libito 
+dispen<lb break="no" ed="#L" n="7"/>sare, quia in quolibet voto includitur 
+conditiona<lb break="no" ed="#L" n="8"/>liter voluntas praelati superioris: sicut supra
+<lb ed="#L" n="9"/>dictum est quod in votis subditorum, puta servi
+<lb ed="#L" n="10"/>vel filii, intelligitur conditio, si placuerit patri vel
+<lb ed="#L" n="11"/>domino, vel, si non renitantur. Et sic subditus
+<lb ed="#L" n="12"/>absque omni remorsu conscientiae posset votum
+<lb ed="#L" n="13"/>praetermittere, quandocumque sibi a praelato 
+di<lb break="no" ed="#L" n="14"/>ceretur.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e3224">
+                  <lb ed="#L" n="15"/>Sed praedicta positio falso innititur. Quia cum
+<lb ed="#L" n="16"/>potestas praelati spiritualis, qui non est dominus
+<lb ed="#L" n="17"/>sed dispensator, sit in aedificationem data, et non
+<lb ed="#L" n="18"/>in destructionem, ut patet II ad Cor. x; sicut
+<lb ed="#L" n="19"/>praelatus non potest imperare ea quae secundum
+<lb ed="#L" n="20"/>se Deo displicent, scilicet peccata, ita non potest
+<lb ed="#L" n="21"/>prohibere ea quae secundum se Deo placent,
+<lb ed="#L" n="22"/>scilicet virtutis opera. Et ideo absolute potest
+<lb ed="#L" n="23"/>homo ea vovere.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e3247">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="24"/>Ad praelatum tamen pertinet diiudicare quid
+<lb ed="#L" n="25"/>sit magis virtuosum et Deo magis acceptum. Et
+<lb ed="#L" n="26"/>ideo in manifestis dispensatio praelati non. 
+excu<lb break="no" ed="#L" n="27"/>saret a culpa: puta si praelatus dispensaret cum
+<lb ed="#L" n="28"/>aliquo. super. voto de ingressu religionis, nulla
+<lb ed="#L" n="29"/>apparenti causa obstante. Si autem esset causa
+<lb ed="#L" n="30"/>apparens, per quam saltem in dubium verteretur,
+<lb ed="#L" n="31"/>posset stare iudicio praelati dispensantis vel 
+com<lb break="no" ed="#L" n="32"/>mutantis. Non. tamen iudicio proprio, quia ipse
+<lb ed="#L" n="33"/>non gerit vicem Dei: nisi forte in casu in quo
+<lb ed="#L" n="34"/>id quod vovit esset manifeste illicitum, et non
+<lb ed="#L" n="35"/>posset opportune ad superiorem recurrere.
+</p>
+               <p xml:id="TAca84-d1e1727-d1e3278">
+                  <lb ed="#L" n="36"/>AD TERTIUM DICENDUM quod quia Summus 
+Pon<lb break="no" ed="#L" n="37"/>tifex gerit plenarie vicem Christi in tota Ecclesia,
+<lb ed="#L" n="38"/>ipse habet plenitudinem potestatis dispensandi in
+<lb ed="#L" n="39"/>omnibus dispensabilibus votis. Aliis autem 
+infe<lb break="no" ed="#L" n="40"/>rioribus praelatis committitur dispensatio in votis
+<lb ed="#L" n="41"/>quae communiter fiunt et indigent frequenti 
+dis<lb break="no" ed="#L" n="42"/>pensatione, ut habeant de facili homines ad quem
+<lb ed="#L" n="43"/>recurrant: sicuut sunt vota peregrinationum et
+<lb ed="#L" n="44"/>ieiuniorum et aliorum huiusmodi. Vota vero 
+ma<lb break="no" ed="#L" n="45"/>iora, puta continentiae et peregrinationis Terrae
+<lb ed="#L" n="46"/>Sanctae, reservantur Summo Pontifici.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

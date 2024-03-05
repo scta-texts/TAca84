@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 108</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 108</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="410"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1830"><!-- p2p2-q108" -->
+            <head xml:id="TAca84-d1e1830-Hd1e101">Quaestio 108</head>
+            <head xml:id="TAca84-d1e1830-Hd1e103" type="question-title">De vindicatione</head>
+            <p xml:id="TAca84-d1e1830-d1e106">
+               <pb ed="#L" n="410"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=410"/>QUAESTIO CENTESIMAOCTAVA
+<lb ed="#L" n="2"/>DE VINDICATIONE
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1830-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de vindicatione.
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="6"/>Primo: utrum vindicatio sit licita.
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="7"/>Secundo: utrum sit specialis virtus.
+<lb ed="#L" n="8"/>Tertio: de modo vindicandi.
+<lb ed="#L" n="9"/>Quarto: in quos sit vindicta exercenda.
+</p>
+            <div xml:id="TAca84-d1e1830-Dd1e139"><!-- p2p2-q108a1" -->
+               <head xml:id="TAca84-d1e1830-Hd1e142">Articulus 1</head>
+               <head xml:id="TAca84-d1e1830-Hd1e144" type="question-title">Utrum vindicatio sit licita</head>
+               <p xml:id="TAca84-d1e1830-d1e147">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="10" type="fixed=410"/>ARTICULUS PRIMUS
+<lb ed="#L" n="11"/>UTRUM VINDICATIO SIT LICITA
+</p>
+               <p xml:id="TAca84-d1e1830-d1e156">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="12"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="13"/>vindicatio non sit licita. Quicumque
+<lb ed="#L" n="14"/>enim usurpat sibi quod Dei est, 
+pec<lb break="no" ed="#L" n="15"/>cat. Sed vindicta pertinet ad Deum:
+<lb ed="#L" n="16"/>dicitur enim Deut. xxxii, secundum aliam 
+litte<lb break="no" ed="#L" n="17"/>ram: Mihi vindictam: et ego retribuam. Ergo
+<lb ed="#L" n="18"/>omnis vindicatio est illicita.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e176">
+                  <lb ed="#L" n="19"/>2. PRAETEREA, ille de quo vindicta sumitur,
+<lb ed="#L" n="20"/>non toleratur. Sed mali sunt tolerandi: quia 
+su<lb break="no" ed="#L" n="21"/>per illud Cant. u, Sicut lilium inter spinas, dicit
+<lb ed="#L" n="22"/>Glossa: Non fuit bonus qui malos tolerare non 
+<lb ed="#L" n="23"/>potuit. Ergo vindicta non est sumenda de malis.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e190">
+                  <lb ed="#L" n="24"/>3. PRAETEREA, vindicta per poenas fit, ex 
+qui<lb break="no" ed="#L" n="25"/>bus causatur timor servilis. Sed lex nova non
+<lb ed="#L" n="26"/>est lex timoris, sed amoris: ut Augustinus dicit,
+<lb ed="#L" n="27"/>contra Adamantum. Ergo, ad minus in novo
+<lb ed="#L" n="28"/>Testamento, vindicta fieri non debet.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e203">
+                  <lb ed="#L" n="29"/>4. PRAETEREA, ille dicitur se vindicare qui 
+in<lb break="no" ed="#L" n="30"/>iurias suas ulciscitur. Sed, ut videtur, non licet
+<lb ed="#L" n="31"/>etiam iudici in se delinquentes punire: dicit enim
+<lb ed="#L" n="32"/>Chrysostomus, super Matth.: Discamus exemplo
+<lb ed="#L" n="33"/>Christi nostras iniurias. magnanimiler sustinere ,
+<lb ed="#L" n="34"/>Dei autem iniurias nec usque ad auditum 
+suf<lb break="no" ed="#L" n="35"/>ferre. Ergo vindicatio videtur esse illicita.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e221">
+                  <lb ed="#L" n="36"/>5. PRAETEREA, peccatum multitudinis magis est
+<lb ed="#L" n="37"/>nocivum quam peccatum unius tantum: dicitur
+<lb ed="#L" n="38"/>enim Eccli. xxvi: A tribus timuit cor meum: 
+ze<lb break="no" ed="#L" n="39"/>laturam civitatis, et collectionem populi. Sed de 
+<lb ed="#L" n="40"/>peccato multitudinis non est vindicta sumenda:
+<lb ed="#L" n="41"/>quia super illud Matth. xi, <quote xml:id="TAca84-d1e1830-Qd1e236">Sinite utraque 
+cre<lb break="no" ed="#L" n="42"/>scere, ne forte eradicetis triticum</quote>, dicit <ref xml:id="TAca84-d1e1830-Rd1e241">Glossa</ref>
+                  <lb ed="#L" n="43"/>quod <quote xml:id="TAca84-d1e1830-Qd1e245">multitudo non est excommunicanda, nec
+<lb ed="#L" n="44"/>princeps</quote>. Ergo nec alia vindicatio ! est licita.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e251">
+                  <lb ed="#L" n="45"/>SED CONTRA, nihil est expectandum a Deo nisi
+<lb ed="#L" n="46"/>quod est bonum et licitum. Sed vindicta de 
+hosti<lb break="no" ed="#L" n="47"/>bus est expectanda a Deo: dicitur enim Luc. xvii:
+<lb ed="#L" n="48"/>Deus non? faciet vindictam electorum suorum 
+cla<lb break="no" ed="#L" n="49"/>mantium ad se die ac nocte? quasi diceret: Zmmo
+<lb ed="#L" n="50"/>faciet. Ergo vindicatio non est per se mala et
+<lb ed="#L" n="51"/>illicita.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e269">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="52"/>RESPONDEO DICENDUM quod vindicatio fit per
+<lb ed="#L" n="53"/>aliquod poenale malum inflictum peccanti. Est
+<lb ed="#L" n="54"/>ergo in vindicatione considerandus vindicantis
+<lb ed="#L" n="55"/>animus, Si enim eius intentio feratur 
+principa<lb break="no" ed="#L" n="56"/>liter in malum illius de quo vindictam sumit,
+<lb ed="#L" n="57"/>et ibi quiescat, est omnino illicitum: quia 
+de<lb break="no" ed="#L" n="58"/>lectari in malo alterius pertinet ad odium, quod
+<lb ed="#L" n="59"/>caritati repugnat, qua omnes homines debemus
+<lb ed="#L" n="60"/>diligere. Nec aliquis excusatur si malum intendat
+<lb ed="#L" n="61"/>illus qui, sibi iniuste intulit malum: sicut non
+<lb ed="#L" n="62"/>excusatur aliquis per hoc quod odit se odientem.
+<lb ed="#L" n="63"/>Non enim debet homo in alium peccare, 
+pro<lb break="no" ed="#L" n="64"/>pter hoc quod ille peccavit prius in ipsum: hoc
+<lb ed="#L" n="65"/>enim est vinci a malo, quod Apostolus prohibet,
+<lb ed="#L" n="66"/>Rom. xu, dicens: Noli vinci a malo: sed vince
+<lb ed="#L" n="67"/>in bono malum. - Si vero intentio vindicantis
+<lb ed="#L" n="68"/>feratur principaliter ad aliquod bonum, ad quod
+<lb ed="#L" n="69"/>pervenitur per poenam peccantis, puta ad 
+emen<lb break="no" ed="#L" n="70"/>dationem peccantis, vel saltem ad cohibitionem
+<lb ed="#L" n="71"/>eius et quietem aliorum, et ad iustitiae 
+conser<lb break="no" ed="#L" n="72"/>vationem et Dei honorem, potest esse vindicatio
+<lb ed="#L" n="73"/>licita, aliis debitis circumstantiis servatis.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e321">
+                  <lb ed="#L" n="74"/>AD PRIMUM ERGO DICENDUM quod ille qui 
+secun<lb break="no" ed="#L" n="75"/>dum gradum sui ordinis vindictam exercet in
+<lb ed="#L" n="76"/>malos, non usurpat sibi quod Dei est, sed utitur
+<lb ed="#L" n="77"/>potestate sibi divinitus concessa: dicitur enim
+<lb ed="#L" n="78"/>Rom. xii, de principe terreno, quod Dei 
+mini<lb break="no" ed="#L" n="79"/>ster est, vindex in iram ei qui male agit. Si autem
+<lb ed="#L" n="80"/>praeter ordinem divinae institutionis aliquis 
+vin<lb break="no" ed="#L" n="81"/>dictam exerceat, usurpat sibi quod Dei est: et
+<lb ed="#L" n="82"/>ideo peccat.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e344">
+                  <lb ed="#L" n="83"/>AD SECUNDUM DICENDUM quod mali tolerantur a
+<lb ed="#L" n="84"/>bonis in hoc quod ab eis proprias iniurias 
+pa<lb break="no" ed="#L" n="85"/>tienter sustinent, secundum quod oportet: non
+<lb ed="#L" n="86"/>autem tolerant eos ut sustineant iniurias Dei et
+<lb ed="#L" n="87"/>proximorum. Dicit enim <ref xml:id="TAca84-d1e1830-Rd1e357">Chrysostomus, super
+<lb ed="#L" n="88"/>Matth.</ref>: <quote xml:id="TAca84-d1e1830-Qd1e362">In propriis iniuriis esse quempiam 
+pa<lb break="no" ed="#L" n="89"/>tientem, laudabile est: iniurias autem Dei 
+dissi<lb break="no" ed="#L" n="90"/>mulare nimis est impium</quote>.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e370">
+                  <lb ed="#L" n="91"/>AD TERTIUM DICENDUM quod lex Evangelii est
+<pb ed="#L" n="411"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>lex amoris. Ideo illis qui ex amore bonum 
+ope<lb break="no" ed="#L" n="2"/>rantur, qui soli proprie ad Evangelium pertinent,
+<lb ed="#L" n="3"/>non est timor incutiendus per poenas: sed solum 
+<lb ed="#L" n="4"/>illis qui ex amore non moventur ad bonum, qui,
+<lb ed="#L" n="5"/>etsi numero sint de Ecclesia, non tamen merito
+</p>
+               <p xml:id="TAca84-d1e1830-d1e390">
+                  <lb ed="#L" n="6"/>AD QUARTUM DICENDUM quod iniuria quae infertur
+<lb ed="#L" n="7"/>personae alicui quandoque redundat in Deum et
+<lb ed="#L" n="8"/>in Ecclesiam: et tunc debet aliquis propriam 
+in<lb break="no" ed="#L" n="9"/>iuriam ulcisci. Sicut patet de Elia, qui fecit ignem
+<lb ed="#L" n="10"/>descendere super eos qui venerant ad'ipsum 
+ca<lb break="no" ed="#L" n="11"/>piendum, ut legitur IV Aeg. 1. Et similiter 
+Eli<lb break="no" ed="#L" n="12"/>saeus maledixit pueris eum irridentibus, ut 
+ha<lb break="no" ed="#L" n="13"/>betur IV Reg. u. Et <name xml:id="TAca84-d1e1830-Nd1e409">Silvester Papa</name> 
+excom<lb break="no" ed="#L" n="14"/>municavit eos qui eum in exilium miserunt, ut
+<lb ed="#L" n="15"/>habetur XXIII, qu. iv. - Inquantum vero iniuria
+<lb ed="#L" n="16"/>in aliquem illata ad eius personam pertinet, debet
+<lb ed="#L" n="17"/>eam tolerare patienter, si expediat. Huiusmodi
+<lb ed="#L" n="18"/>enim praecepta patientiae intelligenda sunt 
+se<lb break="no" ed="#L" n="19"/>cundum praeparationem animi: ut <ref xml:id="TAca84-d1e1830-Rd1e424">Augustinus 
+di<lb break="no" ed="#L" n="20"/>cit, in libro de Serm. Dom. in Monte</ref>
+               </p>
+               <p xml:id="TAca84-d1e1830-d1e430">
+                  <lb ed="#L" n="21"/>AD QUINTUM DICENDUM quod quando tota 
+mul<lb break="no" ed="#L" n="22"/>titudo peccat, est de ea vindicta sumenda vel
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="23"/>quantum ad totam multitudinem, sicut Aegyptii
+<lb ed="#L" n="24"/>submersi sunt in mari rubro persequentes filios
+<lb ed="#L" n="25"/>Israel, ut habetur Exod. xiv, et sicut Sodomitae
+<lb ed="#L" n="26"/>universaliter perierunt: vel quantum ad 
+ma<lb break="no" ed="#L" n="27"/>gnam multitudinis partem, sicut patet Exod. xxxit*,
+<lb ed="#L" n="28"/>in poena eorum qui vitulum adoraverunt ?. -
+<lb ed="#L" n="29"/>Quandoque vero, si speretur multorum correctio,
+<lb ed="#L" n="30"/>debet severitas vindictae exerceri in aliquos 
+pau<lb break="no" ed="#L" n="31"/>cos principaliores, quibus punitis ceteri 
+terrean<lb break="no" ed="#L" n="32"/>tur: sicut Dominus, Num. xxv, mandavit 
+sus<lb break="no" ed="#L" n="33"/>pendi principes populi pro peccato multitudinis.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e463">
+                  <lb ed="#L" n="34"/>Si autem non tota multitudo peccavit, sed pro
+<lb ed="#L" n="35"/>parte, tunc, si possunt mali secerni a bonis, 
+de<lb break="no" ed="#L" n="36"/>bet in eos vindicta exerceri: si tamen hoc fieri
+<lb ed="#L" n="37"/>possit sine scandalo aliorum. Alioquin, 
+parcen<lb break="no" ed="#L" n="38"/>dum est multitudini, et detrahendum  severitati.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e476">
+                  <lb ed="#L" n="39"/>Et eadem ratio est de principe, quem sequitur
+<lb ed="#L" n="40"/>multitudo. Tolerandum enim est peccatum eius,
+<lb ed="#L" n="41"/>si sine scandalo multitudinis puniri non posset:
+<lb ed="#L" n="42"/>nisi forte esset tale peccatum principis quod magis
+<lb ed="#L" n="43"/>noceret multitudini, vel spiritualiter vel 
+tempora<lb break="no" ed="#L" n="44"/>liter, quam scandalum quod exinde timeretur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1830-Dd1e494"><!-- p2p2-q108a2" -->
+               <head xml:id="TAca84-d1e1830-Hd1e497">Articulus 2</head>
+               <head xml:id="TAca84-d1e1830-Hd1e499" type="question-title">Utrum vindicatio sit specialis virtus ab aliis distincta</head>
+               <p xml:id="TAca84-d1e1830-d1e502">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="45" type="fixed=411"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="46"/>UTRUM VINDICATIO SIT SPECIALIS VIRTUS AB ALIIS DISTINCTA
+</p>
+               <p xml:id="TAca84-d1e1830-d1e511">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="47"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="48"/>vindicatio non sit specialis virtus ab aliis 
+<lb ed="#L" n="49"/>distincta. Sicut enim remunerantur boni -
+<lb ed="#L" n="50"/>pro his quae bene agunt, ita puniuntur
+<lb ed="#L" n="51"/>mali pro his quae male agunt. Sed remuneratio
+<lb ed="#L" n="52"/>bonorum non pertinet ad aliquam specialem 
+vir<lb break="no" ed="#L" n="53"/>tutem, sed est actus commutativae iustitiae. Ergo,
+<lb ed="#L" n="54"/>pari ratione, et vindicatio non debet poni 
+spe<lb break="no" ed="#L" n="55"/>cialis virtus.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e535">
+                  <lb ed="#L" n="56"/>2. PRAETEREA, ad actum illum non debet 
+or<lb break="no" ed="#L" n="57"/>dinari specialis virtus ad quem homo sufficienter
+<lb ed="#L" n="58"/>disponitur per alias virtutes. Sed ad vindicandum
+<lb ed="#L" n="59"/>mala sufficienter disponitur homo per virtutem -
+<lb ed="#L" n="60"/>fortitudinis et per zelum. Non ergo vindicatio
+<lb ed="#L" n="61"/>debet poni specialis virtus.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e552">
+                  <lb ed="#L" n="62"/>3. PRAETEREA, cuilibet speciali virtuti aliquod
+<lb ed="#L" n="63"/>speciale vitium opponitur. Sed vindicationi non.
+<lb ed="#L" n="64"/>videtur opponi aliquod speciale vitium. Ergo non
+<lb ed="#L" n="65"/>est specialis virtus.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e563">
+                  <lb ed="#L" n="66"/>SEp cowTRA EsT quod <name xml:id="TAca84-d1e1830-Nd1e567">Tullius</name> ponit eam 
+par<lb break="no" ed="#L" n="67"/>tem iustitiae.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e572">
+                  <lb ed="#L" n="68"/>RESPONDEO DICENDUM quod, sicut <ref xml:id="TAca84-d1e1830-Rd1e576">Philosophus
+<lb ed="#L" n="69"/>dicit, in II Ethic.</ref>, aptitudo ad virtutem inest
+<lb ed="#L" n="70"/>nobis a natura, licet complementum virtutis sit
+<lb ed="#L" n="71"/>per assuetudinem vel per aliquam aliam causam.
+<lb ed="#L" n="72"/>Unde patet quod virtutes perficiunt nos ad 
+pro<lb break="no" ed="#L" n="73"/>sequendum debito modo inclinationes naturales,
+<lb ed="#L" n="74"/>quae pertinent ad ius naturale. Et ideo ad quam-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="75"/>libet inclinationem naturalem determinatam 
+or<lb break="no" ed="#L" n="76"/>dinatur aliqua specialis virtus. Est autem 
+quae<lb break="no" ed="#L" n="77"/>dam specialis inclinatio naturae ad removendum
+<lb ed="#L" n="78"/>nocumenta: unde et animalibus datur vis 
+ira<lb break="no" ed="#L" n="79"/>scibilis separatim a vi concupiscibili. Repellit 
+au<lb break="no" ed="#L" n="80"/>tem homo nocumenta per hoc quod se defendit
+<lb ed="#L" n="81"/>contra iniurias, ne el inferantur, vel iam illatas
+<lb ed="#L" n="82"/>iniurias ulciscitur; non intentione nocendi, sed
+<lb ed="#L" n="83"/>intentione removendi nocumenta. Hoc autem
+<lb ed="#L" n="84"/>pertinet ad vindicationem: dicit enim Tullius,
+<lb ed="#L" n="85"/>in sua Rhetorica, quod vindicatio est per quam
+<lb ed="#L" n="86"/>vis aut iniuria, et omnino quidquid obscurum
+<lb ed="#L" n="87"/>est, idest ignominiosum , defendendo aut 
+ulci<lb break="no" ed="#L" n="88"/>scendo propulsatur. — vindicatio est specialis
+<lb ed="#L" n="89"/>virtus.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e627">
+                  <lb ed="#L" n="90"/>AD PRIMUM ERGO DICENDUM quod sicut 
+recom<lb break="no" ed="#L" n="91"/>pensatio debiti legalis pertinet ad iustitiam 
+com<lb break="no" ed="#L" n="92"/>mutativam, recompensatio autem debiti moralis
+<lb ed="#L" n="93"/>quod nascitur ex particulari beneficio exhibito,
+<lb ed="#L" n="94"/>pertinet ad virtutem gratiae; ita etiam punitio
+<lb ed="#L" n="95"/>peccatorum, secundum quod pertinet ad 
+publi<lb break="no" ed="#L" n="96"/>cam iustitiam, est actus commnutativae iustitiae;
+<lb ed="#L" n="97"/>secundum autem quod pertinet ad immunitatem 
+<lb ed="#L" n="98"/>alicuius personae singularis, a qua iniuria 
+pro<lb break="no" ed="#L" n="99"/>pulsatur, pertinet ad virtutem vindicationis.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e651">
+                  <lb ed="#L" n="100"/>AD SECUNDUM DICENDUM quod fortitudo disponit
+<lb ed="#L" n="101"/>ad vindictam removendo prohibens, scilicet 
+timo<lb break="no" ed="#L" n="102"/>rem periculi imminentis. - Zelus autem, secun-
+<pb ed="#L" n="412"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>dum quod importat fervorem amoris, importat 
+<lb ed="#L" n="2"/>primam radicem vindicationis, prout aliquis 
+vin<lb break="no" ed="#L" n="3"/>dicat iniurias Dei vel proximorum, quas ex 
+ca<lb break="no" ed="#L" n="4"/>ritate reputat quasi suas. Cuiuslibet autem 
+vir<lb break="no" ed="#L" n="5"/>tutis actus ex radice caritatis procedit: quia, ut
+<lb ed="#L" n="6"/>Gregorius dicit, in quadam homilia, nihil habet
+<lb ed="#L" n="7"/>viriditatis ramus ? boni operis, si non procedat
+<lb ed="#L" n="8"/>ex radice caritatis.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e682">
+                  <lb ed="#L" n="9"/>AD TERTIUM DICENDUM quod vindicationi oppo-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>nuntur duo vitia. Unum quidem per excessum:
+<lb ed="#L" n="11"/>scilicet peccatum crudelitatis vel saevitiae, quae
+<lb ed="#L" n="12"/>excedit mensuram in puniendo. Aliud autem est
+<lb ed="#L" n="13"/>vitium quod consistit in defectu, sicut cum aliquis
+<lb ed="#L" n="14"/>est nimis remissus in puniendo: unde dicitur
+<lb ed="#L" n="15"/>Prov. xii: Qui parcit virgae, odit filium suum.
+<lb ed="#L" n="16"/>Virtus autem vindicationis consistit ut homo
+<lb ed="#L" n="17"/>secundum omnes circumstantias debitam 
+men<lb break="no" ed="#L" n="18"/>suram in vindicando conservet.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1830-Dd1e709"><!-- p2p2-q108a3" -->
+               <head xml:id="TAca84-d1e1830-Hd1e712">Articulus 3</head>
+               <head xml:id="TAca84-d1e1830-Hd1e714" type="question-title">Utrum vindicatio debeat fieri per poenas apud homines consuetas</head>
+               <p xml:id="TAca84-d1e1830-d1e717">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="94" type="fixed=412"/>ARTICULUS TERTIUS
+<lb ed="#L" n="95"/>UTRUM VINDICATIO DEBEAT FIERI PER POENAS APUD HOMINES CONSUETAS
+</p>
+               <p xml:id="TAca84-d1e1830-d1e726">
+                  <lb ed="#L" n="96"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="97"/>vindicatio non debeat fieri per poenas
+<lb ed="#L" n="98"/>apud homines consuetas. Occisio enim
+<lb ed="#L" n="99"/>hominis est quaedam eradicatio eius.
+<lb ed="#L" n="100"/>Sed Dominus mandavit, Matth. xir, quod 
+zi<lb break="no" ed="#L" n="101"/>zania, per quae significantur filii nequam, non
+<lb ed="#L" n="102"/>eradicarentur. Ergo peccatores non sunt 
+occi<lb break="no" ed="#L" n="103"/>dendi.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e746">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="104"/>2. PRAETEREA, quicumque mortaliter peccant,
+<lb ed="#L" n="105"/>eadem poena videntur digni. Si ergo aliqui 
+mor<lb break="no" ed="#L" n="106"/>taliter peccantes morte puniuntur, videtur quod
+<lb ed="#L" n="107"/>omnes tales deberent morte puniri. Quod patet
+<lb ed="#L" n="108"/>esse falsum.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e763">
+                  <lb ed="#L" n="109"/>3. PRAETEREA, cum aliquis pro peccato punitur '
+<lb ed="#L" n="110"/>manifeste, ex hoc peccatum eius manifestatur.
+<lb ed="#L" n="111"/>Quod videtur esse nocivum multitudini, quae ex ?
+<pb ed="#L" n="413"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>exemplo peccati sumit occasionem peccandi. Ergo vitutem et vincula, per quae perdit libertatem;
+<lb ed="#L" n="2"/>videtur quod non sit poena mortis pro aliquo exilium, per quod perdit patriam; damnum, per
+<lb ed="#L" n="3"/>peccato infligenda. quod perdit divitias; Zgnominiam, per quam 
+per<lb break="no" ed="#L" n="4"/>SED CONTRA EsT quod in lege divina his ' hu-'| dit gloriam.
+<lb ed="#L" n="5"/>iusmodi poenae determinantur, ut ex supra di- AD PRIMUM ERGO DICENDUM quod Dominus 
+pro<lb break="no" ed="#L" n="6"/>ctis patet. hibet eradicari zizania quando timetur se szmul
+<lb ed="#L" n="7"/>RESPONDEO DICENDUM quod vindicatio intantum cum eis eradicetur et triticum. Sed quandoque
+<lb ed="#L" n="8"/>licita est et virtuosa inquantum tendit ad cohi- possunt eradicari mali per mortem non solum
+<lb ed="#L" n="9"/>bitionem malorum. Cohibentur autem aliqui a sine periculo, sed etiam cum magna utilitate 
+bo<lb break="no" ed="#L" n="10"/>peccando, qui affectum virtutis non habent, per norum. Et ideo in tali casu potest poena mortis
+<lb ed="#L" n="11"/>hoc quod timent amittere aliqua quae plus amant peccatoribus infligi.
+<lb ed="#L" n="12"/>quam illa quae peccando adipiscuntur: alias ti- ÀD SECUNDUM DICENDUM quod omnes peccantes
+<lb ed="#L" n="13"/>mor non compesceret peccatum. Et ideo per mortaliter digni sunt morte aeterna quantum ad
+<lb ed="#L" n="14"/>subtractionem omnium quae homo maxime di- futuram retributionem, quae est secundum 
+veri<lb break="no" ed="#L" n="15"/>ligit, est vindicta de peccatis sumenda. Haec sunt tatem divini iudicii. Sed poenae praesentis vitae
+<lb ed="#L" n="16"/>autem quae homo maxime diligit: vitam, inco- sunt magis medicinales. Et ideo illis solis 
+pec<lb break="no" ed="#L" n="17"/>lumitatem corporis, libertatem sui, et bona exte- catis poena mortis infligitur quae in gravem 
+per<lb break="no" ed="#L" n="18"/>riora, puta divitias, patriam et gloriam. Et ideo, niciem aliorum cedunt.
+<lb ed="#L" n="19"/>ut Augustinus refert, XXI de Civ. Dei, octo AD TERTIUM DICENDUM quod quando simul cum
+</p>
+               <p xml:id="TAca84-d1e1830-d1e818">
+                  <lb ed="#L" n="20"/>genera poenarum in legibus esse scribit Tullius: culpa innotescit et poena, vel mortis vel quae-
+</p>
+               <p xml:id="TAca84-d1e1830-d1e823">
+                  <lb ed="#L" n="21"/>scilicet mortem, per quam tollitur vita; verbera cumque alia quam homo horret, ex hoc ipso
+<lb ed="#L" n="22"/>et lalionem (ut scilicet oculum pro oculo perdat), voluntas eius a peccando abstrahitur: quia plus
+<lb ed="#L" n="23"/>per quae amittit? corporis incolumitatem ; ser- terret poena quam alliciat exemplum culpae.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1830-Dd1e833"><!-- p2p2-q108a4" -->
+               <head xml:id="TAca84-d1e1830-Hd1e836">Articulus 4</head>
+               <head xml:id="TAca84-d1e1830-Hd1e838" type="question-title">Utrum vindicta sit exercenda in eos qui involuntarie peccaverunt</head>
+               <p xml:id="TAca84-d1e1830-d1e841">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="30" type="fixed=413"/>ARTICULUS QUARTUS
+<lb ed="#L" n="31"/>UTRUM VINDICTA SIT EXERCENDA IN EOS QUI INVOLUNTARIE PECCAVERUNT
+</p>
+               <p xml:id="TAca84-d1e1830-d1e850">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="32"/>AD QUARTUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="33"/>vindicta sit exercenda in eos qui 
+in<lb break="no" ed="#L" n="34"/>voluntarie peccaverunt. Voluntas enim  
+<lb ed="#L" n="35"/>unius non consequitur voluntatem 
+al<lb break="no" ed="#L" n="36"/>terius. Sed unus punitur pro alio: secundum illud  
+<lb ed="#L" n="37"/>Exod. xx: : Ego sum Deus xelotes, visitans 
+iniqui<lb break="no" ed="#L" n="38"/>tatem patrum in filios, in tertiam et quartam 
+ge<lb break="no" ed="#L" n="39"/>nerationem. Unde et pro peccato Cham 
+Cha<lb break="no" ed="#L" n="40"/>naan, filius eius, maledictus est, ut habetur 
+<lb ed="#L" n="41"/>Gen. ix. Giezi etiam peccante, lepra 
+transmitti<lb break="no" ed="#L" n="42"/>tur ad posteros, ut habetur IV Reg. v. Sanguis  
+<lb ed="#L" n="43"/>etiam Christi reddit poenae obnoxios successores 
+<lb ed="#L" n="44"/>Iudaeorum, qui dixerunt, Matth. xxvii: Sanguis 
+<lb ed="#L" n="45"/>eius super nos, et super filios nostros. Legitur  
+<lb ed="#L" n="46"/>etiam quod pro peccato Achar populus Israel 
+<lb ed="#L" n="47"/>traditus est in manus hostium, ut habetur 7o 
+<lb ed="#L" n="48"/>sue vii. Et pro peccato filiorum Heli idem 
+po<lb break="no" ed="#L" n="49"/>pulus corruit in conspectu Philistinorum, ut 
+ha<lb break="no" ed="#L" n="50"/>betur I Reg. iv. Ergo aliquis involuntarius est  
+<lb ed="#L" n="51"/>puniendus.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e898">
+                  <lb ed="#L" n="52"/>2. PRAETEREA, illud solum est voluntarium quod  
+<lb ed="#L" n="53"/>est in potestate hominis. Sed quandoque poena 
+<cb ed="#L" n="g"/>
+                  <lb ed="#L" n="54"/>infertur pro eo quod non est in eius potestate:
+<lb ed="#L" n="55"/>sicut propter vitium leprae aliquis removetur ab
+<lb ed="#L" n="56"/>administratione ecclesiae; et propter 
+pauperta<lb break="no" ed="#L" n="57"/>tem aut malitiam civium ecclesia perdit 
+ca<lb break="no" ed="#L" n="58"/>thedram episcopalem. Ergo non solum pro 
+pec<lb break="no" ed="#L" n="59"/>cato voluntario vindicta infertur.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e921">
+                  <lb ed="#L" n="60"/>3. PRAETEREA, ignorantia causat involuntarium.
+<lb ed="#L" n="61"/>Sed vindicta quandoque exercetur in aliquos
+<lb ed="#L" n="62"/>ignorantes. Parvuli enim Sodomitarum, licet 
+ha<lb break="no" ed="#L" n="63"/>berent ingnorantiam invincibilem, cum parentibus
+<lb ed="#L" n="64"/>perierunt, ut legitur Gen. xix. Similiter etiam
+<lb ed="#L" n="65"/>parvuli pro peccato Dathan et Abiron pariter cum
+<lb ed="#L" n="66"/>eis absorpti sunt, ut habetur Num. xvi. Bruta
+<lb ed="#L" n="67"/>etiam animalia, quae carent ratione, iussa sunt
+<lb ed="#L" n="68"/>interfici pro peccato Amalecitarum, ut habetur I
+<lb ed="#L" n="69"/>Reg. xv. Ergo vindicta quandoque exercetur in
+<lb ed="#L" n="70"/>involuntarios.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e947">
+                  <lb ed="#L" n="71"/>4. PRAETEREA, coactio maxime repugnat 
+vo<lb break="no" ed="#L" n="72"/>luntario. Sed aliquis qui timore coactus aliquod
+<lb ed="#L" n="73"/>peccatum committit, non propter hoc reatum 
+poe<lb break="no" ed="#L" n="74"/>nae evadit. Ergo vindicta exercetur etiam in 
+in<lb break="no" ed="#L" n="75"/>voluntarios.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e960">
+                  <pb ed="#L" n="414"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>5. PRAETEREA, Ambrosius dicit, super Lucam,
+<lb ed="#L" n="2"/>quod navicula in qua erat Iudas, turbatur: unde
+<lb ed="#L" n="3"/>et. Petrus, qui erat firmus meritis suis, turbatur
+<lb ed="#L" n="4"/>alienis. Sed Petrus non volebat peccatum Iudae.
+<lb ed="#L" n="5"/>Ergo quandoque involuntarius punitur.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e978">
+                  <lb ed="#L" n="6"/>SED CONTRA EST quod poena debetur peccato.
+<lb ed="#L" n="7"/>Sed omne peccatum est voluntarium, ut dicit
+<lb ed="#L" n="8"/>Augustinus. Ergo in solos voluntarios est 
+exer<lb break="no" ed="#L" n="9"/>cenda vindicta.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e989">
+                  <lb ed="#L" n="10"/>RESPONDEO DICENDUM quod poena potest 
+dupli<lb break="no" ed="#L" n="11"/>citer considerari. Uno modo, secundum rationem
+<lb ed="#L" n="12"/>poenae. Et secundum hoc, poena non debetur
+<lb ed="#L" n="13"/>nisi peccato: quia per poenam reparatur 
+aequa<lb break="no" ed="#L" n="14"/>litas iustitiae, inquantum ille qui peccando nimis
+<lb ed="#L" n="15"/>secutus est suam voluntatem, aliquid contra suam
+<lb ed="#L" n="16"/>voluntatem patitur. Unde cum omne peccatum
+<lb ed="#L" n="17"/>sit voluntarium, etiam originale, ut supra*
+<lb ed="#L" n="18"/>habitum est; consequens est quod nullus 
+pu<lb break="no" ed="#L" n="19"/>nitur hoc modo nisi pro eo quod voluntarie 
+fa<lb break="no" ed="#L" n="20"/>ctum est.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e1015">
+                  <lb ed="#L" n="21"/>Alio modo potest considerari poena inquantum
+<lb ed="#L" n="22"/>est medicina, non solum sanativa peccati 
+prae<lb break="no" ed="#L" n="23"/>teriti, sed etiam praeservativa a peccato futuro
+<lb ed="#L" n="24"/>et? promotiva in aliquod bonum. Et secundum
+<lb ed="#L" n="25"/>hoc, aliquis interdum punitur sine culpa: non
+<lb ed="#L" n="26"/>tamen sine causa. - Sciendum tamen quod 
+nun<lb break="no" ed="#L" n="27"/>quam medicina subtrahit maius bonum ut 
+promo<lb break="no" ed="#L" n="28"/>veat minus bonum, sicut medicina carnalis 
+nun<lb break="no" ed="#L" n="29"/>quam caecat oculum ut sanet calcaneum: 
+quan<lb break="no" ed="#L" n="30"/>doque tamen infert nocumentum in minoribus 
+<lb ed="#L" n="31"/>ut melioribus auxilium praestet. Et quia bona 
+<lb ed="#L" n="32"/>spiritualia sunt maxima bona, bona autem 
+tem<lb break="no" ed="#L" n="33"/>poralia sunt minima; ideo quandoque punitur
+<lb ed="#L" n="34"/>aliquis in temporalibus bonis absque culpa, 
+cu<lb break="no" ed="#L" n="35"/>iusmodi sunt plures poenae praesentis vitae 
+di<lb break="no" ed="#L" n="36"/>vinitus inflictae ad. humiliationem vel 
+probatio<lb break="no" ed="#L" n="37"/>nem: non autem punitur aliquis in spiritualibus
+<lb ed="#L" n="38"/>bonis sine propria culpa, neque in praesenti neque
+<lb ed="#L" n="39"/>in futuro; quia ibi poenae non sunt medicinae,
+<lb ed="#L" n="40"/>sed consequuntur spiritualem damnationem.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e1062">
+                  <lb ed="#L" n="41"/>AD PRIMUM ERGO DICENDUM quod unus homo
+<lb ed="#L" n="42"/>poena spirituali nunquam punitur pro peccato
+<lb ed="#L" n="43"/>alterius: quia poena spiritualis pertinet ad 
+ani<lb break="no" ed="#L" n="44"/>mam, secundum quam quilibet est liber sui.
+<lb ed="#L" n="45"/>Poena autem temporali quandoque unus 
+pu<lb break="no" ed="#L" n="46"/>nitur pro peccato alterius, triplici ratione. Primo
+<lb ed="#L" n="47"/>quidem, quia unus homo temporaliter est res
+<lb ed="#L" n="48"/>alterius, et ita in poenam eius etiam ipse punitur:
+<lb ed="#L" n="49"/>sicut fili sunt secundum corpus quaedam res
+<lb ed="#L" n="50"/>patris, et servi sunt quaedam res dominorum. -
+<lb ed="#L" n="51"/>Alio modo, inquantum peccatum unius derivatur
+<lb ed="#L" n="52"/>in alterum. Vel per imitationem: sicut filii 
+imi<lb break="no" ed="#L" n="53"/>tantur peccata parentum, et servi peccata 
+domi<lb break="no" ed="#L" n="54"/>norum, ut audacius peccent. Vel per modum
+<lb ed="#L" n="55"/>meriti: sicut peccata subditorum merentur 
+pec<lb break="no" ed="#L" n="56"/>catorem praelatum, secundum illud 7ob xxxiv:
+<lb ed="#L" n="57"/>Qui regnare facit hominem hypocritam, propter
+<lb ed="#L" n="58"/>peccata populi; unde et pro peccato David 
+po<lb break="no" ed="#L" n="59"/>pulum :numerantis, populus Israel punitus est, ut
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="60"/>habetur II Reg. ult. Sive etiam per aliqualem
+<lb ed="#L" n="61"/>consensum seu dissimulationem: sicut etiam 
+in<lb break="no" ed="#L" n="62"/>terdum boni simul puniuntur temporaliter cum
+<lb ed="#L" n="63"/>malis, quia eorum peccata non redargaerung, ut
+<lb ed="#L" n="64"/>Augustinus dicit, in 1 de Civ. Dei. - Tertio,
+<lb ed="#L" n="65"/>ad commendandum unitatem humanae societatis,
+<lb ed="#L" n="66"/>ex qua unus debet pro alio sollicitus esse ne
+<lb ed="#L" n="67"/>peccet: et ad detestationem peccati, dum poena
+<lb ed="#L" n="68"/>unius redundat in omnes, quasi omnes essent
+<lb ed="#L" n="69"/>unum corpus, ut Augustinus dicit de peccato
+<name xml:id="TAca84-d1e1830-Nd1e1129">Achar</name>.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e1132">
+                  <lb ed="#L" n="70"/>Quod autem Dominus dicit: Visitans peccata
+<lb ed="#L" n="71"/>parentum in filios, in tertiam et quartam. 
+gene<lb break="no" ed="#L" n="72"/>rationem, magis videtur ad misericordiam quam
+<lb ed="#L" n="73"/>ad severitatem pertinere: dum non statim 
+vin<lb break="no" ed="#L" n="74"/>dictam adhibet, sed expectat in posterum, ut vel
+<lb ed="#L" n="75"/>saltem posteri corrigantur; sed, crescente malitia
+<lb ed="#L" n="76"/>posteriorum, quasi necesse est ultionem inferri.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e1150">
+                  <lb ed="#L" n="77"/>AD SECUNDUM DICENDUM quod, sicut Augustinus
+<lb ed="#L" n="78"/>dicit, iudicium humanum debet imitari divinum
+<lb ed="#L" n="79"/>iudicium in manifestis Dei iudiciis, quibus 
+ho<lb break="no" ed="#L" n="80"/>mines spiritualiter damnat pro proprio peccato
+<lb ed="#L" n="81"/>Occulta vero Dei iudicia, quibus temporaliter 
+ali<lb break="no" ed="#L" n="82"/>quos punit absque culpa, non potest humanum
+<lb ed="#L" n="83"/>iudicium imitari: quia homo non potest 
+com<lb break="no" ed="#L" n="84"/>prehendere horum iudiciorum rationes, ut sciat
+<lb ed="#L" n="85"/>quid expediat unicuique. Et ideo nunquam 
+se<lb break="no" ed="#L" n="86"/>cundum humanum iudicium aliquis debet puniri
+<lb ed="#L" n="87"/>sine culpa poena flagelli, ut occidatur, vel 
+muti<lb break="no" ed="#L" n="88"/>letur, vel verberetur.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e1179">
+                  <lb ed="#L" n="89"/>Poena autem damni punitur aliquis, etiam 
+se<lb break="no" ed="#L" n="90"/>cundum humanum iudicium, etiam sine culpa:
+<lb ed="#L" n="91"/>sed non sine causa. Et hoc tripliciter. Uno modo,
+<lb ed="#L" n="92"/>ex hoc quod aliquis ineptus redditur, sine sua
+<lb ed="#L" n="93"/>culpa, ad aliquod bonum habendum vel 
+conse<lb break="no" ed="#L" n="94"/>quendum: sicut propter vitium leprae aliquis 
+re<lb break="no" ed="#L" n="95"/>movetur ab administratione ecclesiae, et propter
+<lb ed="#L" n="96"/>bigamiam vel iudicium sanguinis aliquis 
+impedi<lb break="no" ed="#L" n="97"/>tur a sacris ordinibus. - Secundo, quia bonum
+<lb ed="#L" n="98"/>in quo damnificatur non est proprium bonum,
+<lb ed="#L" n="99"/>sed commune: sicut quod aliqua ecclesia habeat
+<lb ed="#L" n="100"/>episcopatum, pertinet ad bonum totius civitatis,
+<lb ed="#L" n="101"/>non autem ad bonum clericorum tantum. - 
+Ter<lb break="no" ed="#L" n="102"/>tio, quia bonum unius dependet ex bono alterius:
+<lb ed="#L" n="103"/>sicut in crimine laesae maiestatis filius amittit
+<lb ed="#L" n="104"/>haereditatem pro peccato parentis.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e1216">
+                  <lb ed="#L" n="105"/>AD TERTIUM DICENDUM quod parvuli divino 
+iu<lb break="no" ed="#L" n="106"/>dicio simul puniuntur temporaliter cum 
+parenti<lb break="no" ed="#L" n="107"/>bus, tum quia sunt res parentum, et in eis etiam.
+<lb ed="#L" n="108"/>parentes puniuntur. Tum etiam quia hoc in 
+eo<lb break="no" ed="#L" n="109"/>rum bonum cedit: ne, si reservarentur, essent
+<lb ed="#L" n="110"/>imitatores paternae malitiae, et sic graviores 
+poe<lb break="no" ed="#L" n="111"/>nas mererentur. - In bruta vero animalia, et
+<lb ed="#L" n="112"/>quascumque alias irrationales creaturas, vindicta
+<lb ed="#L" n="113"/>exercetur, quia per hoc puniuntur illi quorum
+<lb ed="#L" n="114"/>sunt. Et iterum propter detestationem peccati.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e1240">
+                  <lb ed="#L" n="115"/>AD QUARTUM DICENDUM quod coactio timoris non
+<lb ed="#L" n="116"/>facit simpliciter involuntarium, sed habet 
+volun<lb break="no" ed="#L" n="117"/>tarium mixtum, ut supra habitum est.
+</p>
+               <p xml:id="TAca84-d1e1830-d1e1250">
+                  <pb ed="#L" n="415"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD QUINTUM DICENDUM quod hoc modo pro 
+pec<lb break="no" ed="#L" n="2"/>cato ludae ceteri Apostoli turbabantur, sicut pro 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>peccato unius punitur multitudo, ad unitatem
+<lb ed="#L" n="4"/>commendandam, ut dictum est.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

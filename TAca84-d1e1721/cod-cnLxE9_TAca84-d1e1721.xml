@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 87</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 87</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="226"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1721"><!-- p2p2-q87" -->
+            <head xml:id="TAca84-d1e1721-Hd1e101">Quaestio 87</head>
+            <head xml:id="TAca84-d1e1721-Hd1e103" type="question-title">De decimis</head>
+            <p xml:id="TAca84-d1e1721-d1e106">
+               <pb ed="#L" n="226"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=226"/>QUAESTIO OCTOGESIMASEPTIMA
+<lb ed="#L" n="2"/>DE DECIMIS
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1721-d1e119">
+               <lb ed="#L" n="4"/>DEINDE considerandum est de decimis.
+<lb ed="#L" n="5"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="6"/>Primo: utrum homines teneantur ad solvendas 
+<lb ed="#L" n="7"/>decimas ex necessitate praecepti.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="8"/>Secundo: de quibus rebus sint decimae 
+dan<lb break="no" ed="#L" n="9"/>dae.
+<lb ed="#L" n="10"/>Tertio: quibus debeant dari.
+<lb ed="#L" n="11"/>Quarto: quibus competat eas dare.
+</p>
+            <div xml:id="TAca84-d1e1721-Dd1e141"><!-- p2p2-q87a1" -->
+               <head xml:id="TAca84-d1e1721-Hd1e144">Articulus 1</head>
+               <head xml:id="TAca84-d1e1721-Hd1e146" type="question-title">Utrum homines teneantur dare decimas ex necessitate praecepti</head>
+               <p xml:id="TAca84-d1e1721-d1e149">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="12" type="fixed=226"/>ARTICULUS PRIMUS
+<lb ed="#L" n="13"/>UTRUM HOMINES TENEANTUR DARE DECIMAS EX NECESSITATE PRAECEPTI
+</p>
+               <p xml:id="TAca84-d1e1721-d1e158">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="14"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="15"/>homines non teneantur dare decimas
+<lb ed="#L" n="16"/>ex necessitate praecepti. Praeceptum
+<lb ed="#L" n="17"/>enim de solutione decimarum in lege
+<lb ed="#L" n="18"/>veteri datur: ut patet Levit. xxvi: Omnes 
+de<lb break="no" ed="#L" n="19"/>cimae terrae, sive de frugibus sive de pomis 
+ar<lb break="no" ed="#L" n="20"/>borum, Domini sunt; et infra: Omnium 
+deci<lb break="no" ed="#L" n="21"/>marum ovis et bovis et caprae, quae sub pastoris
+<lb ed="#L" n="22"/>virga transeunt, quidquid decimum venerit, 
+san<lb break="no" ed="#L" n="23"/>ctificabitur Domino. Non autem potest computari
+<lb ed="#L" n="24"/>hoc inter praecepta moralia: quia ratio naturalis
+<lb ed="#L" n="25"/>non magis dictat quod decima pars debeat magis
+<lb ed="#L" n="26"/>dari quam nona vel undecima. Ergo vel est 
+prae<lb break="no" ed="#L" n="27"/>ceptum iudiciale, vel caeremoniale. Sed sicut 
+su<lb break="no" ed="#L" n="28"/>pra habitum est, tempore gratiae non obligantur
+<lb ed="#L" n="29"/>homines neque ad praecepta caeremonialia neque
+<lb ed="#L" n="30"/>ad iudicialia veteris legis. Ergo homines nunc non
+<lb ed="#L" n="31"/>obligantur ad solutionem decimarum.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e202">
+                  <lb ed="#L" n="32"/>2. PRAETEREA, illa sola homines observare ?
+<lb ed="#L" n="33"/>tenentur tempore gratiae quae a Christo per 
+Apo<lb break="no" ed="#L" n="34"/>stolos sunt mandata: secundum illud Matth. ult.:
+<lb ed="#L" n="35"/>Docentes eos servare omnia quaecumque mandavi
+<lb ed="#L" n="36"/>vobis; et Paulus dicit, Act. xx: Non enim 
+sub<lb break="no" ed="#L" n="37"/>lerfugi quominus annuntiarem vobis omne 
+con<lb break="no" ed="#L" n="38"/>silium Dei. Sed neque in doctrina Christi neque
+<lb ed="#L" n="39"/>in doctrina Apostolorum aliquid continetur de
+<lb ed="#L" n="40"/>solutione decimarum: nam quod Dominus de 
+de<lb break="no" ed="#L" n="41"/>cimis dicit, Matth. xxin, haec oportuit facere,
+<lb ed="#L" n="42"/>ad tempus praeteritum legalis observantiae 
+refe<lb break="no" ed="#L" n="43"/>rendum videtur; ut dicit? Hilarius, super Matth.*:
+<lb ed="#L" n="44"/>Decimatio illa olerum, quae in praefigurationem
+<lb ed="#L" n="45"/>futurorum erat utilis, non debebat omitti. Ergo
+<lb ed="#L" n="46"/>homines tempore gratiae non tenentur ad 
+deci<lb break="no" ed="#L" n="47"/>marum solutionem.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e240">
+                  <lb ed="#L" n="48"/>3. PRAETEREA, homines tempore gratiae non
+<lb ed="#L" n="49"/>magis tenentur ad observantiam legalium quam
+<lb ed="#L" n="50"/>ante legem. Sed ante legem non dabantur 
+de<lb break="no" ed="#L" n="51"/>cimae ex praecepto, sed solum ex voto: legitur
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="52"/>enim Gen. xxvii quod Iacob vovit votum dicens:
+<lb ed="#L" n="53"/>Si fuerit Deus mecum el custodierit me in via qua
+<lb ed="#L" n="54"/>ambulo, etc.. cunctorum quae dederis mihi 
+deci<lb break="no" ed="#L" n="55"/>mas offeram tibi. Ergo etiam neque tempore 
+gra<lb break="no" ed="#L" n="56"/>tiae tenentur homines ad decimarum solutionem.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e264">
+                  <lb ed="#L" n="57"/>4. PRAETEREA, in veteri lege tenebantur 
+homi<lb break="no" ed="#L" n="58"/>nes ad triplices decimas solvendas. Quarum 
+quas<lb break="no" ed="#L" n="59"/>dam solvebant Levitis: dicitur enim Num. xvii:
+<lb ed="#L" n="60"/>Levitae decimarum oblatione contenti erunt, quas
+<lb ed="#L" n="61"/>in usus eorum et necessaria separavi. Erant 
+quo<lb break="no" ed="#L" n="62"/>que aliae decimae, de quibus legitur Deut. xiv:
+<lb ed="#L" n="63"/>Decimam parlem separabis de cunctis fructibus
+<lb ed="#L" n="64"/>iuis qui nascuntur in terra per annos singulos,
+<lb ed="#L" n="65"/>et comedes in conspectu Domini Dei tui in loco
+<lb ed="#L" n="66"/>quem elegerit Deus. Erant quoque et aliae 
+de<lb break="no" ed="#L" n="67"/>cimae, de quibus ibidem subditur: Anno tertio
+<lb ed="#L" n="68"/>separabis aliam decimam ex omnibus quae 
+na<lb break="no" ed="#L" n="69"/>scuntur tibi eo tempore, et repones intra ianuas
+<lb ed="#L" n="70"/>tuas, venietque Levites, qui aliam non habet partem
+<lb ed="#L" n="71"/>neque possessionem tecum, et peregrinus ac 
+pu<lb break="no" ed="#L" n="72"/>pillus et vidua qui intra portas tuas sunt, et 
+co<lb break="no" ed="#L" n="73"/>medent et saturabuntur. Sed ad secundas et tertias
+<lb ed="#L" n="74"/>decimas homines non tenentur tempore gratiae.
+<lb ed="#L" n="75"/>Ergo neque ad primas.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e308">
+                  <lb ed="#L" n="76"/>5. PRAETEREA, quod sine determinatione 
+tem<lb break="no" ed="#L" n="77"/>poris debetur, nisi statim solvatur, obligat ad
+<lb ed="#L" n="78"/>peccatum. Si ergo homines tempore gratiae 
+obli<lb break="no" ed="#L" n="79"/>garentur ex necessitate praecepti ad decimas 
+sol<lb break="no" ed="#L" n="80"/>vendas, in terris in quibus decimae non solvuntur
+<lb ed="#L" n="81"/>omnes essent in peccato mortali, et per 
+conse<lb break="no" ed="#L" n="82"/>quens etiam ministri Ecclesiae dissimulando: quod
+<lb ed="#L" n="83"/>videtur inconveniens. Non ergo homines tempore
+<lb ed="#L" n="84"/>gratiae ex necessitate tenentur ad solutionem 
+de<lb break="no" ed="#L" n="85"/>cimarum.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e332">
+                  <lb ed="#L" n="86"/>SED CONTRA EsT quod Augustinus dicit, et 
+ha<lb break="no" ed="#L" n="87"/>betur XVI, qu.1*: Decimae ex debito Ee s
+<lb ed="#L" n="88"/>et qui eas dare noluerint, res alienas invadunt. €
+</p>
+               <p xml:id="TAca84-d1e1721-d1e341">
+                  <lb ed="#L" n="89"/>RESPONDEO DICENDUM quod decimae in veteri
+<pb ed="#L" n="227"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>lege dabantur ad sustentationem ministrorum Dei:
+<lb ed="#L" n="2"/>unde dicitur Malach. ur: Inferte omnem 
+decima<lb break="no" ed="#L" n="3"/>tionem in horreum meum, ut sit cibus in domo
+<lb ed="#L" n="4"/>mea. Unde praeceptum de solutione decimarum
+<lb ed="#L" n="5"/>partim. quidem erat morale, inditum naturali 
+ra<lb break="no" ed="#L" n="6"/>tioni ^: partim autem erat iudiciale, ex divina 
+in<lb break="no" ed="#L" n="7"/>stitutione robur habens. Quod enim eis qui 
+di<lb break="no" ed="#L" n="8"/>vino cultui ministrabant ad salutem populi totius,
+<lb ed="#L" n="9"/>populus necessaria victus ministraret, ratio 
+natu<lb break="no" ed="#L" n="10"/>ralis dictat: sicut et his qui communi utilitati 
+in<lb break="no" ed="#L" n="11"/>vigilant, scilicet principibus et militibus et aliis
+<lb ed="#L" n="12"/>huiusmodi, stipendia victus debentur a populo.
+<lb ed="#L" n="13"/>Unde et Apostolus hoc probat, I ad Cor. ix,
+<lb ed="#L" n="14"/>per humanas consuetudines, dicens: Quis militat
+<lb ed="#L" n="15"/>suis stipendiis unquam? Quis plantat vineam
+<lb ed="#L" n="16"/>et de fructibus eius non edit? Sed determinatio
+<lb ed="#L" n="17"/>certae partis exhibendae ministris divini cultus
+<lb ed="#L" n="18"/>non est de iure naturali, sed est introducta 
+in<lb break="no" ed="#L" n="19"/>stitutione divina secundum conditionem illius 
+po<lb break="no" ed="#L" n="20"/>puli cui lex dabatur; qui cum in duodecim tribus
+<lb ed="#L" n="21"/>esset divisus, duodecima tribus, scilicet Levitica,
+<lb ed="#L" n="22"/>quae tota erat divinis ministeriis mancipata, 
+pos<lb break="no" ed="#L" n="23"/>sessiones non habebat: unde convenienter 
+insti<lb break="no" ed="#L" n="24"/>tutum est ut reliquae undecim tribus decimam
+<lb ed="#L" n="25"/>partem suorum proventuum Levitis darent*, ut
+<lb ed="#L" n="26"/>honorabilius viverent, et quia etiam aliqui per
+<lb ed="#L" n="27"/>negligentiam erant transgressores futuri.
+<lb ed="#L" n="28"/>quantum ad determinationem decimae partis, erat
+<lb ed="#L" n="29"/>iudiciale: sicut et alia multa specialiter in illo 
+po<lb break="no" ed="#L" n="30"/>pulo instituta erant ad aequalitatem inter homines
+<lb ed="#L" n="31"/>ad invicem conservandam secundum populi illius
+<lb ed="#L" n="32"/>conditionem, quae iudicialia praecepta dicuntur;
+<lb ed="#L" n="33"/>licet ex consequenti aliquid significarent in 
+fu<lb break="no" ed="#L" n="34"/>turum, sicut et omnia eorum facta, secundum
+<lb ed="#L" n="35"/>illud 1 ad Cor. x, Omnia in figuram 
+contin<lb break="no" ed="#L" n="36"/>gebant illis; in quo conveniebant cum 
+caeremo<lb break="no" ed="#L" n="37"/>nialibus praeceptis, quae principaliter instituta
+<lb ed="#L" n="38"/>erant ad significandum aliquid futurum. Unde
+<lb ed="#L" n="39"/>et praeceptum de decimis persolvendis hic  
+si<lb break="no" ed="#L" n="40"/>gnificat aliquid in futurum: qui enim decimam
+<lb ed="#L" n="41"/>dat, quae est perfectionis signum (eo quod 
+de<lb break="no" ed="#L" n="42"/>narius est quodammodo numerus perfectus, quasi
+<lb ed="#L" n="43"/>primus limes numerorum, ultra quem numerum
+<lb ed="#L" n="44"/>non procedunt, sed reiterantur ab uno), novem
+<lb ed="#L" n="45"/>sibi partibus reservatis, protestatur quasi in 
+quo<lb break="no" ed="#L" n="46"/>dam signo ad se pertinere imperfectionem, 
+per<lb break="no" ed="#L" n="47"/>fectionem vero, quae erat futura per Christum,
+<lb ed="#L" n="48"/>esse  expectandam a Deo. Nec tamen propter
+<lb ed="#L" n="49"/>hoc est caeremoniale praeceptum, sed iudiciale,
+<lb ed="#L" n="50"/>ut dictum est.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e458">
+                  <lb ed="#L" n="51"/>Est autem haec differentia inter caeremonialia
+<lb ed="#L" n="52"/>et iudicialia legis praecepta, ut supra diximus,
+<lb ed="#L" n="53"/>quod caeremonialia illicitum est observare 
+tem<lb break="no" ed="#L" n="54"/>pore legis novae: iudicialia vero, etsi non 
+obli<lb break="no" ed="#L" n="55"/>gent tempore gratiae, tamen possunt observari
+<lb ed="#L" n="56"/>absque peccato, et ad eorum observantiam aliqui
+<lb ed="#L" n="57"/>obligantur si statuatur " auctoritate eorum quo-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="58"/>rum est condere legem. Sicut praeceptum 
+iudi<lb break="no" ed="#L" n="59"/>ciale veteris legis est quod qui furatus fuerit
+<lb ed="#L" n="60"/>ovem, reddat quatuor oves, ut legitur Exod. xxii:
+<lb ed="#L" n="61"/>quod, si ab aliquo rege statuatur, tenentur eius
+<lb ed="#L" n="62"/>subditi observare. Ita etiam determinatio decimae
+<lb ed="#L" n="63"/>partis solvendae est auctoritate Ecclesiae 
+tem<lb break="no" ed="#L" n="64"/>pore novae legis instituta secundum quandam 
+hu<lb break="no" ed="#L" n="65"/>manitatem: ut scilicet non minus populus novae
+<lb ed="#L" n="66"/>legis ministris novi Testamenti exhiberet quam
+<lb ed="#L" n="67"/>populus veteris legis ministris veteris 
+Testa<lb break="no" ed="#L" n="68"/>menti exhibebat; cum tamen populus novae legis
+<lb ed="#L" n="69"/>ad maiora obligetur, secundum illud Matth. v:
+<lb ed="#L" n="70"/>Nisi abundaverit iustitia vestra plus quam 
+Scriba<lb break="no" ed="#L" n="71"/>rum et Pharisaeorum, non inirabitis in regnum
+<lb ed="#L" n="72"/>caelorum; et cum ministri novi Testamenti sint ?
+<lb ed="#L" n="73"/>maioris dignitatis quam ministri veteris 
+Testa<lb break="no" ed="#L" n="74"/>menti, ut probat Apostolus, II ad Cor. i1.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e516">
+                  <lb ed="#L" n="75"/>Sic ergo patet quod ad solutionem decimarum
+<lb ed="#L" n="76"/>homines tenentur, partim quidem ex iure naturali,
+<lb ed="#L" n="77"/>partim etiam ex institutione Ecclesiae: quae 
+ta<lb break="no" ed="#L" n="78"/>men, pensatis opportunitatibus temporum et 
+per<lb break="no" ed="#L" n="79"/>sonarum, posset aliam partem determinare 
+sol<lb break="no" ed="#L" n="80"/>vendam.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e532">
+                  <lb ed="#L" n="81"/>Et per hoc patet responsio ad primum.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e537">
+                  <lb ed="#L" n="82"/>AD SECUNDUM DICENDUM quod praeceptum de
+<lb ed="#L" n="83"/>solutione decimarum, quantum ad id quod erat
+<lb ed="#L" n="84"/>morale, datum est in Evangelio a Domino ubi
+<lb ed="#L" n="85"/>dicit, Matth. x: Dignus est operarius mercede
+<lb ed="#L" n="86"/>sud; et etiam ab Apostolo, ut patet I ad Cor. ix.
+<lb ed="#L" n="87"/>Sed determinatio certae partis est reservata 
+or<lb break="no" ed="#L" n="88"/>dinationi Ecclesiae.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e555">
+                  <lb ed="#L" n="89"/>AD TERTIUM DICENDUM quod ante tempus veteris
+<lb ed="#L" n="90"/>legis non erant determinati ministri divini cultus:
+<lb ed="#L" n="91"/>sed dicitur quod primogeniti erant sacerdotes, qui
+<lb ed="#L" n="92"/>duplicem portionem accipiebant. Et ideo etiam
+<lb ed="#L" n="93"/>non erat determinata aliqua pars exhibenda 
+mi<lb break="no" ed="#L" n="94"/>nistris divini cultus, sed ubi aliquis occurrebat,
+<lb ed="#L" n="95"/>unusquique dabat ei propria sponte quod sibi
+<lb ed="#L" n="96"/>videbatur. Sicut Abraham quodam prophetico
+<lb ed="#L" n="97"/>instinctu. dedit decimas Melchisedech, sacerdoti
+<lb ed="#L" n="98"/>Dei summi, ut dicitur Gen. XIV. Et similiter
+<lb ed="#L" n="99"/>etiam Iacob decimas vovit se daturum: quamvis
+<lb ed="#L" n="100"/>non videatur decimas vovisse quasi aliquibus 
+mi<lb break="no" ed="#L" n="101"/>nistris exhibendas, sed in divinum cultum, puta
+<lb ed="#L" n="102"/>ad sacrificiorum consummationem; unde 
+signan<lb break="no" ed="#L" n="103"/>ter dicit: Decimas offeram tibi.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e590">
+                  <lb ed="#L" n="104"/>AD QUARTUM DICENDUM quod secundae decimae,
+<lb ed="#L" n="105"/>quae reservabantur ad sacrificia offerenda, locum
+<lb ed="#L" n="106"/>in nova lege non habent, cessantibus legalibus
+<lb ed="#L" n="107"/>victimis. Tertiae vero decimae, quas cum 
+paupe<lb break="no" ed="#L" n="108"/>ribus comedere debebant, in nova lege augentur,
+<lb ed="#L" n="109"/>per hoc quod Dominus non solum decimam 
+par<lb break="no" ed="#L" n="110"/>tem, sed omnia superflua pauperibus iubet 
+ex<lb break="no" ed="#L" n="111"/>hiberi: secundum illud Luc. xi: Quod superest,
+<lb ed="#L" n="112"/>date eleemosynam. lpsae etiam decimae quae 
+mi<lb break="no" ed="#L" n="113"/>nistris Ecclesiae dantur, per eos debent in usus
+<lb ed="#L" n="114"/>pauperum dispensari.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e616">
+                  <pb ed="#L" n="228"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>AD QUINTUM DICENDUM quod ministri Ecclesiae
+<lb ed="#L" n="2"/>maiorem curam debent habere spiritualium 
+bo<lb break="no" ed="#L" n="3"/>norum in populo promovendorum quam 
+tempo<lb break="no" ed="#L" n="4"/>ralium colligendorum. Et ideo Apostolus noluit
+<lb ed="#L" n="5"/>uti potestate sibi a Domino tradita, ut scilicet
+<lb ed="#L" n="6"/>acciperet stipendia victus ab his quibus 
+Evan<lb break="no" ed="#L" n="7"/>gelium praedicabat, ne daretur aliquod 
+impedi<lb break="no" ed="#L" n="8"/>mentum Evangelio Christi. Nec tamen 
+pecca<lb break="no" ed="#L" n="9"/>bant illi qui ei non subveniebant: alioquin Apo-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="10"/>stolus eos corrigere non omisisset. Et similiter
+<lb ed="#L" n="11"/>laudabiliter ministri Ecclesiae decimas Ecclesiae
+<lb ed="#L" n="12"/>non requirunt, ubi sine scandalo requiri non
+<lb ed="#L" n="13"/>possent, propter dissuetudinem vel propter 
+ali<lb break="no" ed="#L" n="14"/>quam aliam causam. Nec tamen sunt in statu
+<lb ed="#L" n="15"/>damnationis qui non solvunt, in locis illis in 
+qui<lb break="no" ed="#L" n="16"/>bus Ecclesia non petit: nisi forte propter 
+obstina<lb break="no" ed="#L" n="17"/>tionem animi, habentes voluntatem non solvendi
+<lb ed="#L" n="18"/>etiam si ab eis peterentur.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1721-Dd1e666"><!-- p2p2-q87a2" -->
+               <head xml:id="TAca84-d1e1721-Hd1e669">Articulus 2</head>
+               <head xml:id="TAca84-d1e1721-Hd1e671" type="question-title">Utrum de omnibus teneantur homines decimas dare</head>
+               <p xml:id="TAca84-d1e1721-d1e674">
+                  <pb ed="#L" n="230"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=230"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="2"/>UTRUM DE OMNIBUS TENEANTUR HOMINES DECIMAS DARE
+</p>
+               <p xml:id="TAca84-d1e1721-d1e685">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="4"/>non de omnibus teneantur homines 
+de<lb break="no" ed="#L" n="5"/>cimas dare. Solutio enim decimarum
+<lb ed="#L" n="6"/>videtur esse ex veteri lege introducta.
+<lb ed="#L" n="7"/>Sed in veteri lege nullum. praeceptum datur de
+<lb ed="#L" n="8"/>personalibus decimis, quae scilicet solvuntur de
+<lb ed="#L" n="9"/>his quae aliquis acquirit ex proprio actu, puta
+<lb ed="#L" n="10"/>de mercationibus vel de militia. Ergo de talibus
+<lb ed="#L" n="11"/>decimas solvere nullus tenetur.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e709">
+                  <lb ed="#L" n="12"/>2. PRAETEREA, de male acquisitis. non debet
+<lb ed="#L" n="13"/>fieri oblatio, ut supra dictum est. Sed 
+oblatio<lb break="no" ed="#L" n="14"/>nes, quae immediate Deo exhibentur, videntur
+<lb ed="#L" n="15"/>magis pertinere ad divinum cultum quam 
+deci<lb break="no" ed="#L" n="16"/>mae, quae exhibentur ministris. Ergo etiam nec
+<lb ed="#L" n="17"/>decimae de male acquisitis sunt solvendae.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e726">
+                  <lb ed="#L" n="18"/>3. PRAETEREA, Levit. ult. non mandatur solvi
+<lb ed="#L" n="19"/>decima nisi de frugibus et pomis arborum, et 
+ani<lb break="no" ed="#L" n="20"/>malibus quae transeunt sub virga pastoris. Sed
+<lb ed="#L" n="21"/>praeter haec sunt quaedam alia minuta P quae
+<lb ed="#L" n="22"/>homini proveniunt, sicut herbae quae nascuntur
+<lb ed="#L" n="23"/>in horto, et alia huiusmodi. Ergo nec de illis
+<lb ed="#L" n="24"/>homo. decimas dare tenetur.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e744">
+                  <lb ed="#L" n="25"/>4. PRAETEREA, homo non potest solvere nisi id
+<lb ed="#L" n="26"/>quod est in eius potestate. Sed non omnia quae
+<lb ed="#L" n="27"/>proveniunt homini de fructibus agrorum aut 
+ani<lb break="no" ed="#L" n="28"/>malium remanent in eius potestate: quia 
+quae<lb break="no" ed="#L" n="29"/>dam aliquando subtrahuntur per furtum vel 
+rapi<lb break="no" ed="#L" n="30"/>nam; quaedam vero quandoque in alium 
+trans<lb break="no" ed="#L" n="31"/>feruntur per venditionem ; quaedam etiam aliis
+<lb ed="#L" n="32"/>debentur, sicut principibus debentur tributa et
+<lb ed="#L" n="33"/>operaris debentur mercedes. Ergo de. his. non
+<lb ed="#L" n="34"/>tenetur aliquis decimas dare.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e768">
+                  <lb ed="#L" n="35"/>SED coNTRA kEsT quod dicitur Gem. xxvii:
+<lb ed="#L" n="36"/>Cunctorum quae dederis mihi decimas offeram
+<lb ed="#L" n="37"/>tibi. Sed omnia quae homo habet sunt ei data
+<lb ed="#L" n="38"/>divinitus. Ergo de omnibus debet decimas dare.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e779">
+                  <lb ed="#L" n="39"/>RrsPONDEO DICENDUM quod de unaquaque re
+<lb ed="#L" n="40"/>praecipue est iudicandum secundum eius radicem.
+<lb ed="#L" n="41"/>Radix autem solutionis decimarum est debitum
+<lb ed="#L" n="42"/>quo seminantibus spiritualia debentur carnalia,
+<lb ed="#L" n="43"/>secundum illud Apostoli, I ad. Cor. 1x: .Si nos
+<lb ed="#L" n="44"/>vobis spiritualia seminavimus, magnum ' est si
+<lb ed="#L" n="45"/>carnalia vestra metamus? super hoc enim 
+debi<lb break="no" ed="#L" n="46"/>tum fundavit Ecclesia determinationem solutionis
+<lb ed="#L" n="47"/>decimarum. Omnia autem quaecumque homo
+<lb ed="#L" n="48"/>possidet sub carnalibus continentur. Et ideo de
+<lb ed="#L" n="49"/>omnibus possessis decimae sunt solvendae.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e805">
+                  <lb ed="#L" n="50"/>AD PRIMUM ERGO DICENDUM quod specialis ratio
+<lb ed="#L" n="51"/>fuit quare in veteri lege non fuit datum 
+prae<lb break="no" ed="#L" n="52"/>ceptum de personalibus decimis, secundum 
+con<lb break="no" ed="#L" n="53"/>ditionem populi illius: quia ? omnes aliae tribus
+<lb ed="#L" n="54"/>certas possessiones habebant, de quibus poterant
+<lb ed="#L" n="55"/>sufficienter providere Levitis, qui carebant pos-
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="56"/>sessionibus;. non autem interdicebatur eis quin
+<lb ed="#L" n="57"/>de aliis; operibus honestis lucrarentur, sicut et
+<lb ed="#L" n="58"/>alii Iudaei. Sed populus novae legis est ubique
+<lb ed="#L" n="59"/>per mundum diffusus, quorum plurimi 
+posses<lb break="no" ed="#L" n="60"/>siones non habent, sed de aliquibus negotiis 
+vi<lb break="no" ed="#L" n="61"/>vunt: qui nihil conferrent ad subsidium 
+ministro<lb break="no" ed="#L" n="62"/>rum Dei, si de eorum negotiis decimas non
+<lb ed="#L" n="63"/>solverent. Ministris etiam novae legis arctius 
+iri<lb break="no" ed="#L" n="64"/>terdicitur ne se ingerant negotiis lucrativis: 
+se<lb break="no" ed="#L" n="65"/>cundum illud II ad 77m. u: Nemo militans Deo
+<lb ed="#L" n="66"/>implicat se saecularibus negotiis. Et ideo in nova
+<lb ed="#L" n="67"/>lege tenentur homines ad decimas personales,
+<lb ed="#L" n="68"/>secundum consuetudinem patriae et indigentiam
+<lb ed="#L" n="69"/>ministrorum. Unde Augustinus dicit, et 
+habe<lb break="no" ed="#L" n="70"/>tur XVI qu. 1, cap. Decimae: De militia, de. 
+ne<lb break="no" ed="#L" n="71"/>gotio et de artificio redde decimas.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e857">
+                  <lb ed="#L" n="72"/>AD SECUNDUM DICENDUM quod aliqua male 
+ac<lb break="no" ed="#L" n="73"/>quiruntur dupliciter. Uno modo, quia ipsa 
+acqui<lb break="no" ed="#L" n="74"/>sitio est iniusta, puta quae acquiruntur per 
+ra<lb break="no" ed="#L" n="75"/>pinam aut usuram: quae homo tenetur restituere, .
+<lb ed="#L" n="76"/>non autem de eis decimas dare. Tamen si ager
+<lb ed="#L" n="77"/>aliquis sit emptus de usura, de fructu eius 
+te<lb break="no" ed="#L" n="78"/>netur usurarius decimas dare: quia fructus illi
+<lb ed="#L" n="79"/>non sunt ex usura, sed ex Dei munere. - 
+Quae<lb break="no" ed="#L" n="80"/>dam vero dicuntur male acquisita quia 
+acqui<lb break="no" ed="#L" n="81"/>runtur ex turpi. causa, sicut de meretricio, de
+<lb ed="#L" n="82"/>histrionatu, et aliis huiusmodi, quae non 
+tenen<lb break="no" ed="#L" n="83"/>tur restituere. Unde de talibus tenentur decimas
+<lb ed="#L" n="84"/>dare secundum. modum aliarum personalium 
+de<lb break="no" ed="#L" n="85"/>cimarum. Tamen Ecclesia non debet eas 
+re<lb break="no" ed="#L" n="86"/>cipere quandiu sunt in peccato, ne videatur 
+eo<lb break="no" ed="#L" n="87"/>rum peccatis communicare: sed postquam 
+poe<lb break="no" ed="#L" n="88"/>nituerint, possunt ab eis de his recipi decimae.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e897">
+                  <lb ed="#L" n="89"/>AD TERTIUM DICENDUM quod ea quae ordinantur
+<lb ed="#L" n="90"/>in finem sunt iudicanda secundum quod 
+com<lb break="no" ed="#L" n="91"/>petunt fini. Decimarum autem solutio est debita
+<lb ed="#L" n="92"/>non propter se, sed propter ministros, quorum
+<lb ed="#L" n="93"/>honestati non convenit ut etiam minima exacta
+<lb ed="#L" n="94"/>diligentia requirant: hoc enim in vitium 
+com<lb break="no" ed="#L" n="95"/>putatur, ut patet per Philosophum, in IV .E/hic.
+<lb ed="#L" n="96"/>Et ideo lex vetus non determinavit ut de 
+hu<lb break="no" ed="#L" n="97"/>iusmodi minutis rebus decimae dentur, sed 
+re<lb break="no" ed="#L" n="98"/>linquit hoc arbitrio dare volentium: quia 
+mi<lb break="no" ed="#L" n="99"/>nima quasi nihil computantur. Unde Pharisaei,
+<lb ed="#L" n="100"/>quasi perfectam legis iustitiam sibi adscribentes,
+<lb ed="#L" n="101"/>etiam de his minutis decimas solvebant. Nec ^
+<lb ed="#L" n="102"/>de hoc reprehenduntur a Domino: sed solum
+<lb ed="#L" n="103"/>de hoc quod maiora, idest spiritualia praecepta,
+<lb ed="#L" n="104"/>contemnebant. Magis autem de hoc eos 
+secun<lb break="no" ed="#L" n="105"/>dum se commendabiles esse ostendit, dicens:
+<lb ed="#L" n="106"/>Haec oportuit facere: scilicet tempore legis, ut
+<lb ed="#L" n="107"/>Chrysostomus exponit. Quod etiam videtur 
+ma<lb break="no" ed="#L" n="108"/>gis in quandam decentiam sonare quam in ob-
+<pb ed="#L" n="231"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>ligationem. Unde et nunc de huiusmodi 
+minu<lb break="no" ed="#L" n="2"/>tis non tenentur homines decimas dare: nisi forte  
+<lb ed="#L" n="3"/>propter consuetudinem patriae. 
+</p>
+               <p xml:id="TAca84-d1e1721-d1e954">
+                  <lb ed="#L" n="4"/>AD QUARTUM DICENDUM quod de his quae furto 
+<lb ed="#L" n="5"/>vel rapina tolluntur ille a quo auferuntur 
+deci<lb break="no" ed="#L" n="6"/>mas solvere non tenetur antequam recuperet: 
+<lb ed="#L" n="7"/>nisi forte propter culpam vel negligentiam suam  
+<lb ed="#L" n="8"/>damnum  incurrerit; quia ex hoc Ecclesia non 
+<lb ed="#L" n="9"/>debet damnificari. - Si vero vendat triticum non  
+<lb ed="#L" n="10"/>decimatum, potest Ecclesia decimas exigere et ab 
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="11"/>emptore, quia habet rem Ecclesiae debitam ; et
+<lb ed="#L" n="12"/>a venditore, qui , quantum est de se, fraudavit :
+<lb ed="#L" n="13"/>Ecclesiam. Uno tamen solvente, alius non 
+tene<lb break="no" ed="#L" n="14"/>tur. - Debentur autem decimae de fructibus 
+ter<lb break="no" ed="#L" n="15"/>rae inquantum proveniunt ex divino munere. Et
+<lb ed="#L" n="16"/>ideo decimae non cadunt sub tributo, nec etiam
+<lb ed="#L" n="17"/>sunt obnoxiae mercedi operariorum. Et ideo non 
+<lb ed="#L" n="18"/>debent prius deduci tributa et pretium 
+operario<lb break="no" ed="#L" n="19"/>rum quam solvantur decimae: sed ante omnia 
+<lb ed="#L" n="20"/>debent decimae solvi ex integris fructibus. 
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1721-Dd1e997"><!-- p2p2-q87a3" -->
+               <head xml:id="TAca84-d1e1721-Hd1e1000">Articulus 3</head>
+               <head xml:id="TAca84-d1e1721-Hd1e1002" type="question-title">Utrum decimae sint clericis dandae</head>
+               <p xml:id="TAca84-d1e1721-d1e1005">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="60" type="fixed=231"/>ARTICULUS TERTIUS
+<lb ed="#L" n="61"/>UTRUM DECIMAE SINT CLERICIS DANDAE
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1014">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="62"/>AD TERTIUM SIC PROCEDITUR. Videtur quod  
+<lb ed="#L" n="63"/>decimae non sint clericis dandae. 
+Le<lb break="no" ed="#L" n="64"/>vitis enim in veteri Testamento 
+deci<lb break="no" ed="#L" n="65"/>mae dabantur quia non habebant 
+ali<lb break="no" ed="#L" n="66"/>quam partem in possessionibus populi, ut 
+habe<lb break="no" ed="#L" n="67"/>tur Num. xvi. Sed clerici in novo Testamento  
+<lb ed="#L" n="68"/>habent possessiones: et patrimoniales interdum,  
+<lb ed="#L" n="69"/>et ecclesiasticas. Recipiunt insuper primitias, et 
+<lb ed="#L" n="70"/>oblationes pro vivis et mortuis. Superfluum 
+igi<lb break="no" ed="#L" n="71"/>tur est quod eis decimae dentur. 
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1040">
+                  <lb ed="#L" n="72"/>2. PRAETEREA, contingit quandoque quod aliquis 
+<lb ed="#L" n="73"/>habet domicilium in una parochia, et colit agros 
+<lb ed="#L" n="74"/>in alia; vel aliquis pastor ducit gregem per unam 
+<lb ed="#L" n="75"/>partem anni in terminis unius parochiae, et alia  
+<lb ed="#L" n="76"/>parte anni in terminis alterius; vel habet ovile  
+<lb ed="#L" n="77"/>in una parochia, et pascit oves in alia: in 
+qui<lb break="no" ed="#L" n="78"/>bus et similibus casibus non videtur posse 
+di<lb break="no" ed="#L" n="79"/>stingui quibus clericis sint decimae solvendae.  
+<lb ed="#L" n="80"/>Ergo non videtur quod aliquibus clericis 
+deter<lb break="no" ed="#L" n="81"/>minate sint solvendae decimae. 
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1065">
+                  <lb ed="#L" n="82"/>3. PRAETEREA, generalis consuetudo habet in 
+<lb ed="#L" n="83"/>quibusdam terris quod milites decimas ab 
+Eccle<lb break="no" ed="#L" n="84"/>sia in feudum tenent. Religiosi etiam quidam de-    
+<cb ed="#L" n="i"/>
+                  <lb ed="#L" n="85"/>cimas accipiunt. Non ergo videtur quod solum 
+<lb ed="#L" n="86"/>clericis curam animarum habentibus decimae 
+de<lb break="no" ed="#L" n="87"/>bentur.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1083">
+                  <lb ed="#L" n="88"/>SED CONTRA EsT quod dicitur Num. xvi: 
+Fi<lb break="no" ed="#L" n="89"/>liis Levi dedi omnes decimas Israel in 
+possessio<lb break="no" ed="#L" n="90"/>nem, pro ministerio quo serviunt mihi in 
+taberna<lb break="no" ed="#L" n="91"/>culo. Sed filis Levi succedunt clerici in novo
+<lb ed="#L" n="92"/>Testamento. Ergo solis clericis decimae debentur.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1096">
+                  <lb ed="#L" n="93"/>RESPONDEO DICENDUM quod circa decimas duo
+<lb ed="#L" n="94"/>sunt consideranda: scilicet ipsum ius accipiendi
+<lb ed="#L" n="95"/>decimas; et ipsae res quae nomine decimae 
+dan<lb break="no" ed="#L" n="96"/>tur. Ius autem accipiendi decimas spirituale est:
+<lb ed="#L" n="97"/>consequitur enim illud debitum quo ministris 
+al<lb break="no" ed="#L" n="98"/>taris debentur sumptus de ministerio, et quo 
+se<lb break="no" ed="#L" n="99"/>minantibus spiritualia debentur temporalia; quod
+<lb ed="#L" n="100"/>ad solos clericos pertinet habentes curam ani- '
+<lb ed="#L" n="101"/>marum. Et ideo eis solum ? competit hoc ius a
+<lb ed="#L" n="102"/>habere. - Res autem quae nomine decimarum
+<lb ed="#L" n="103"/>dantur, corporales sunt. Unde possunt in usum
+<lb ed="#L" n="104"/>quorumlibet cedere. Et sic possunt etiam ad 
+lai<lb break="no" ed="#L" n="105"/>cos pervenire.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1127">
+                  <lb ed="#L" n="106"/>AD PRIMUM ERGO DICENDUM quod in veteri lege,
+<lb ed="#L" n="107"/>sicut dictum est, speciales quaedam decimae
+<pb ed="#L" n="232"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>deputabantur subventioni pauperum. Sed in nova
+<lb ed="#L" n="2"/>lege decimae clericis dantur non solum propter
+<lb ed="#L" n="3"/>sui sustentationem, sed etiam ut ex eis 
+subve<lb break="no" ed="#L" n="4"/>niant pauperibus. Et ideo non superfluunt: sed
+<lb ed="#L" n="5"/>ad hoc necessariae sunt et possessiones 
+ecclesia<lb break="no" ed="#L" n="6"/>sticae et oblationes et primitiae, simul cum 
+de<lb break="no" ed="#L" n="7"/>cimis.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1153">
+                  <lb ed="#L" n="8"/>AD SECUNDUM DICENDUM quod decimae 
+persona<lb break="no" ed="#L" n="9"/>les debentur ecclesiae in cuius parochia homo 
+ha<lb break="no" ed="#L" n="10"/>bitat. - Decimae vero praediales rationabiliter 
+ma<lb break="no" ed="#L" n="11"/>gis videntur pertinere ad ecclesiam in cuius 
+ter<lb break="no" ed="#L" n="12"/>minis praedia sita sunt. Tamen iura determinant
+<lb ed="#L" n="13"/>* quod in hoc servetur consuetudo diu obtenta. -
+<lb ed="#L" n="14"/>Pastor autem qui diversis temporibus in duabus
+<lb ed="#L" n="15"/>parochiis gregem pascit, debet proportionaliter
+<lb ed="#L" n="16"/>utrique ecclesiae decimas solvere. Et quia ex
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="17"/>pascuis fructus gregis proveniunt, magis debetur
+<lb ed="#L" n="18"/>decima gregis ecclesiae in cuius territorio grex
+<lb ed="#L" n="19"/>pascitur, quam illi in cuius territorio ovile locatur.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1184">
+                  <lb ed="#L" n="20"/>AD TERTIUM DICENDUM quod sicut res nomine
+<lb ed="#L" n="21"/>decimae acceptas potest ecclesia alicui laico 
+tra<lb break="no" ed="#L" n="22"/>dere, ita etiam potest ei concedere ut dandas 
+de<lb break="no" ed="#L" n="23"/>cimas ipsi accipiant, iure accipiendi ministris 
+Ec<lb break="no" ed="#L" n="24"/>clesiae reservato: sive pro necessitate Ecclesiae,
+<lb ed="#L" n="25"/>sicut quibusdam militibus decimae dicuntur in
+<lb ed="#L" n="26"/>feudum per Ecclesiam concessae; sive etiam ad
+<lb ed="#L" n="27"/>subventionem pauperum, sicut quibusdam 
+reli<lb break="no" ed="#L" n="28"/>giosis laicis vel non habentibus curam. 
+anima<lb break="no" ed="#L" n="29"/>rum aliquae decimae sunt concessae per modum
+<lb ed="#L" n="30"/>eleemosynae. Quibusdam tamen religiosis 
+com<lb break="no" ed="#L" n="31"/>petit accipere decimas ex eo quod habent 
+cu<lb break="no" ed="#L" n="32"/>ram animarum.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1721-Dd1e1216"><!-- p2p2-q87a4" -->
+               <head xml:id="TAca84-d1e1721-Hd1e1219">Articulus 4</head>
+               <head xml:id="TAca84-d1e1721-Hd1e1221" type="question-title">Utrum etiam clerici teneantur decimas dare</head>
+               <p xml:id="TAca84-d1e1721-d1e1224">
+                  <lb ed="#L" n="72" type="fixed=232"/>ARTICULUS QUARTUS
+<lb ed="#L" n="73"/>UTRUM ETIAM CLERICI TENEANTUR DECIMAS DARE
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1231">
+                  <lb ed="#L" n="74"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="75"/>etiam clerici teneantur decimas dare.
+<lb ed="#L" n="76"/>Quia de iure communi ecclesia 
+paro<lb break="no" ed="#L" n="77"/>chialis debet recipere decimas 
+praedio<lb break="no" ed="#L" n="78"/>rum quae in territorio eius sunt. Contingit 
+au<lb break="no" ed="#L" n="79"/>tem quandoque quod clerici habent in territorio
+<lb ed="#L" n="80"/>alicuius parochialis ecclesiae aliqua praedia 
+pro<lb break="no" ed="#L" n="81"/>pria. Vel etiam aliqua alia ecclesia habet ibi 
+pos<lb break="no" ed="#L" n="82"/>sessiones ecclesiasticas. Ergo videtur quod clerici
+<lb ed="#L" n="83"/>teneantur dare praediales decimas.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1255">
+                  <lb ed="#L" n="84"/>2. PRAETEREA, aliqui religiosi sunt clerici. Qui
+<lb ed="#L" n="85"/>tamen tenentur dare decimas ecclesi ratione
+<lb ed="#L" n="86"/>praediorum quae etiam manibus propriis 
+exco<lb break="no" ed="#L" n="87"/>lunt. Ergo videtur quod clerici non sint 
+immu<lb break="no" ed="#L" n="88"/>nes a solutione decimarum.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1269">
+                  <lb ed="#L" n="89"/>3. PRAETEREA, sicut ANum. xvin praecipitur
+<lb ed="#L" n="90"/>quod Levitae a populo decimas accipiant, ita
+<lb ed="#L" n="91"/>etiam praecipitur quod ipsi dent decimas summo
+<lb ed="#L" n="92"/>sacerdoti. Ergo; qua ratione laici debent dare
+<lb ed="#L" n="93"/>decimas clericis, eadem ratione clerici debent dare
+<lb ed="#L" n="94"/>decimas Summo Pontifici.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1285">
+                  <lb ed="#L" n="95"/>4. PRAETEREA, sicut decimae debent cedere in
+<lb ed="#L" n="96"/>sustentationem clericorum, ita etiam debent 
+ce<lb break="no" ed="#L" n="97"/>dere in subventionem pauperum. Si ergo clerici
+<lb ed="#L" n="98"/>excusantur a solutione decimarum, pari ratione
+<lb ed="#L" n="99"/>excusantur et pauperes. Hoc autem est falsum.
+<lb ed="#L" n="100"/>Ergo et primum.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1301">
+                  <lb ed="#L" n="101"/>SED coNTRA EsT quod dicit decretalis 
+Pascha<lb break="no" ed="#L" n="102"/>lis Papae: Novum genus exaclionis est ut 
+cle<lb break="no" ed="#L" n="103"/>rici a. clericis decimas exigant.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1310">
+                  <lb ed="#L" n="104"/>RESPONDEO DICENDUM quod idem non potest 
+<lb ed="#L" n="105"/>esse causa dandi et recipiendi, sicut nec causa
+<lb ed="#L" n="106"/>agendi et patiendi: contingit autem ex diversis
+<lb ed="#L" n="107"/>causis, et respectu diversorum, eundem esse 
+dan<lb break="no" ed="#L" n="108"/>tem et recipientem, sicut agentem et patientem.
+<lb ed="#L" n="109"/>Clericis autem inquantum sunt ministri altaris
+<lb ed="#L" n="110"/>spiritualia populo seminantes, decimae a fidelibus
+<lb ed="#L" n="111"/>debentur. Unde tales clerici, inquantum clerici
+<lb ed="#L" n="112"/>sunt, idest inquantum possessiones habent 
+ec<lb break="no" ed="#L" n="113"/>clesiasticas, decimas solvere non tenentur. - Ex
+<lb ed="#L" n="114"/>alia vero causa, scilicet propter hoc quod 
+possi<lb break="no" ed="#L" n="115"/>dent proprio iure, vel ex successione parentum,
+<pb ed="#L" n="233"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>vel ex emptione, vel quocumque huiusmodi modo,
+<lb ed="#L" n="2"/>sunt ad decimas solvendas obligati.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1347">
+                  <lb ed="#L" n="3"/>Unde patet responsio ad primum. Quia clerici 
+<lb ed="#L" n="4"/>de propriis praediis tenentur solvere decimas 
+pa<lb break="no" ed="#L" n="5"/>rochiali ecclesiae sicut et alii, etiam si ipsi sint
+<lb ed="#L" n="6"/>eiusdem ecclesiae clerici: quia aliud est habere
+<lb ed="#L" n="7"/>aliquid ut proprium, aliud ut commune. - Praedia
+<lb ed="#L" n="8"/>vero ecclesiae non sunt ad decimas solvendas
+<lb ed="#L" n="9"/>obligata, etiam si sint infra terminos alterius 
+pa<lb break="no" ed="#L" n="10"/>rochiae.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1367">
+                  <lb ed="#L" n="11"/>AD SECUNDUM DICENDUM quod religiosi qui sunt
+<lb ed="#L" n="12"/>clerici, si habeant curam animarum spiritualia
+<lb ed="#L" n="13"/>populo dispensantes, non tenentur decimas dare,
+<lb ed="#L" n="14"/>sed possunt eas recipere. - De aliis vero 
+religio<lb break="no" ed="#L" n="15"/>sis, etiam si sint clerici, qui non dispensant 
+po<lb break="no" ed="#L" n="16"/>pulo spiritualia, est alia ratio. Ipsi enim 
+tenen<lb break="no" ed="#L" n="17"/>tur de iure communi decimas dare: habent ta-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="18"/>men aliquam immunitatem secundum diversas
+<lb ed="#L" n="19"/>concessiones eis a Sede Apostolica factas.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1392">
+                  <lb ed="#L" n="20"/>AD TERTIUM DICENDUM quod in veteri lege 
+primi<lb break="no" ed="#L" n="21"/>tiae debebantur sacerdotibus, decimae autem 
+Le<lb break="no" ed="#L" n="22"/>vitis: et quia sub sacerdotibus Levitae erant, 
+Do<lb break="no" ed="#L" n="23"/>minus mandavit ut ipsi, loco primitiarum, 
+solve<lb break="no" ed="#L" n="24"/>rent summo sacerdoti decimam decimae. Unde
+<lb ed="#L" n="25"/>nunc, eadem ratione, tenentur clerici Summo 
+Pon<lb break="no" ed="#L" n="26"/>tifici decimam dare, si exigeret. Naturalis enim
+<lb ed="#L" n="27"/>ratio dictat ut illi qui habet curam de 
+com<lb break="no" ed="#L" n="28"/>muni multitudinis statu, provideatur unde possit 
+<lb ed="#L" n="29"/>exequi ea quae pertinent ad communem salutem.
+</p>
+               <p xml:id="TAca84-d1e1721-d1e1416">
+                  <lb ed="#L" n="30"/>AD QUARTUM DICENDUM quod: decimae debent
+<lb ed="#L" n="31"/>cedere in subventionem pauperum per 
+dispen<lb break="no" ed="#L" n="32"/>sationem clericorum. Et ideo pauperes non 
+ha<lb break="no" ed="#L" n="33"/>bent causam accipiendi decimas, sed tenentur
+<lb ed="#L" n="34"/>eas dare.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

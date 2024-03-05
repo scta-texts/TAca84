@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 78</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 78</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="155"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1675"><!-- p2p2-q78" -->
+            <head xml:id="TAca84-d1e1675-Hd1e101">Quaestio 78</head>
+            <head xml:id="TAca84-d1e1675-Hd1e103" type="question-title">De peccato usurae</head>
+            <p xml:id="TAca84-d1e1675-d1e106">
+               <pb ed="#L" n="155"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=155"/>QUAESTIO SEPTUAGESIMAOCTAVA
+<lb ed="#L" n="2"/>DE PECCATO USURAE
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1675-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de peccato usurae,
+<lb ed="#L" n="5"/>quod committitur in mutuis.
+</p>
+            <p xml:id="TAca84-d1e1675-d1e128">
+               <lb ed="#L" n="6"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="7"/>Primo: utrum sit peccatum accipere pecuniam
+<lb ed="#L" n="8"/>in pretium pro pecunia mutuata, quod est
+<lb ed="#L" n="9"/>accipere usuram.
+<lb ed="#L" n="10"/>Secundo: utrum liceat pro eodem. quamcum-
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="11"/>que utilitatem accipere quasi in 
+recompen<lb break="no" ed="#L" n="12"/>sationem mutui.
+<lb ed="#L" n="13"/>Tertio: utrum aliquis restituere teneatur id
+<lb ed="#L" n="14"/>quod de pecunia usuraria iusto lucro 
+lu<lb break="no" ed="#L" n="15"/>cratus est.
+<lb ed="#L" n="16"/>Quarto: utrum liceat accipere mutuo pecuniam
+<lb ed="#L" n="17"/>sub usura.
+</p>
+            <div xml:id="TAca84-d1e1675-Dd1e160"><!-- p2p2-q78a1" -->
+               <head xml:id="TAca84-d1e1675-Hd1e163">Articulus 1</head>
+               <head xml:id="TAca84-d1e1675-Hd1e165" type="question-title">Utrum accipere usuram pro pecunia mutuata sit peccatum</head>
+               <p xml:id="TAca84-d1e1675-d1e168">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="18" type="fixed=155"/>ARTICULUS PRIMUS
+<lb ed="#L" n="19"/>UTRUM ACCIPERE USURAM PRO PECUNIA MUTUATA SIT PECCATUM
+</p>
+               <p xml:id="TAca84-d1e1675-d1e177">
+                  <cb ed="#L" n="e"/>
+                  <lb ed="#L" n="20"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="21"/>accipere usuram pro pecunia mutuata
+<lb ed="#L" n="22"/>non sit peccatum. Nullus enim peccat
+<lb ed="#L" n="23"/>ex hoc quod sequitur exemplum Christi.
+<lb ed="#L" n="24"/>Sed Dominus de seipso dicit, Luc. xix: Ego
+<lb ed="#L" n="25"/>veniens cum usuris exegissem "illam, scilicet 
+pe<lb break="no" ed="#L" n="26"/>cuniam mutuatam. Ergo non est peccatum 
+acci<lb break="no" ed="#L" n="27"/>aer usuram pro mutuo pecuniae.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e199">
+                  <lb ed="#L" n="28"/>2. PRAETEREA, sicut dicitur in Psalm., lex
+<lb ed="#L" n="29"/>Domini immaculata, quia scilicet peccatum. 
+pro<lb break="no" ed="#L" n="30"/>hibet. Sed in lege divina conceditur aliqua usura:
+<lb ed="#L" n="31"/>secundum illud Deut. xxiu: Non faenerabis 
+<lb ed="#L" n="32"/>fratri tuo ad usuram pecuniam , nec fruges nec 
+<lb ed="#L" n="33"/>quamlibet. aliam rem, sed alieno. Et, quod plus 
+<lb ed="#L" n="34"/>est, etiam in praemium repromittitur pro lege 
+<lb ed="#L" n="35"/>servata: secundum illud Deut. xxvi: faenerabis
+<lb ed="#L" n="36"/>gentibus multis; et ipse a nullo faenus accipies.
+<lb ed="#L" n="37"/>Ergo accipere usuram non est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e224">
+                  <lb ed="#L" n="38"/>3. PRAETEREA, in rebus humanis determinatur
+<lb ed="#L" n="39"/>iustitia per leges civiles. Sed secundum eas 
+con<lb break="no" ed="#L" n="40"/>ceditur usuras accipere. Ergo videtur non esse
+<lb ed="#L" n="41"/>illicitum.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e235">
+                  <lb ed="#L" n="42"/>4. PRAETEREA, praetermittere consilia non 
+obli<lb break="no" ed="#L" n="43"/>gat ad peccatum. Sed Luc. vi inter alia 
+con<lb break="no" ed="#L" n="44"/>silia ponitur: Date mutuum, nihil inde sperantes.
+<lb ed="#L" n="45"/>Ergo accipere usuram non est peccatum.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e246">
+                  <lb ed="#L" n="46"/>5. PRAETEREA, pretium accipere quo eo quod
+<lb ed="#L" n="47"/>quis facere non tenetur, non videtur esse 
+secun<lb break="no" ed="#L" n="48"/>dum se peccatum. Sed non in quolibet casu 
+tene<lb break="no" ed="#L" n="49"/>tur pecuniam habens eam proximo mutuare. Ergo
+<lb ed="#L" n="50"/>licet ei aliquando pro mutuo accipere pretium.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e259">
+                  <lb ed="#L" n="51"/>6. PRAETEREA, argentum monetatum, et in vasa
+<lb ed="#L" n="52"/>formatum, non differt specie. Sed licet accipere
+<lb ed="#L" n="53"/>pretium pro vasis argenteis accommodatis. Ergo
+<lb ed="#L" n="54"/>etiam licet accipere pretium pro mutuo argenti
+<lb ed="#L" n="55"/>monetati. Usura ergo non est secundum se 
+pec<lb break="no" ed="#L" n="56"/>catum.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e275">
+                  <cb ed="#L" n="f"/>
+                  <lb ed="#L" n="57"/>7. PRAETEREA, quilibet potest licite accipere
+<lb ed="#L" n="58"/>rem quam ei dominus rei voluntarie tradit. Sed
+<lb ed="#L" n="59"/>ille qui accipit mutuum voluntarie tradit usuram.
+<lb ed="#L" n="60"/>Ergo ille qui mutuat licite potest accipere.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e288">
+                  <lb ed="#L" n="61"/>SED CONTRA EST quod dicitur Exod. xxu: Si . ves...
+<lb ed="#L" n="62"/>pecuniam mutuam dederis populo meo pauperi
+<lb ed="#L" n="63"/>qui habitat tecum, non urgebis eum quasi exactor,
+<lb ed="#L" n="64"/>nec usuris opprimes.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e300">
+                  <lb ed="#L" n="65"/>RESPONDEO DICENDUM quod accipere usuram pro
+<lb ed="#L" n="66"/>pecunia mutuata est secundum se iniustum: quia
+<lb ed="#L" n="67"/>venditur id quod non est, per quod manifeste
+<lb ed="#L" n="68"/>inaequalitas constituitur, quae iustitiae 
+contraria<lb break="no" ed="#L" n="69"/>tur. Ad cuius evidentiam, sciendum est quod
+<lb ed="#L" n="70"/>quaedam res sunt quarum usus est ipsarum 
+re<lb break="no" ed="#L" n="71"/>rum Consumptio: sicut vinum consumimus eo
+<lb ed="#L" n="72"/>utendo ad potum, et triticum consumimus eo
+<lb ed="#L" n="73"/>utendo ad cibum. Unde in talibus non debet
+<lb ed="#L" n="74"/>seorsum computari. usus rei a re ipsa, sed 
+cui<lb break="no" ed="#L" n="75"/>cumque conceditur usus, ex hoc ipso conceditur
+<lb ed="#L" n="76"/>res. Et propter hoc in talibus per mutuum 
+trans<lb break="no" ed="#L" n="77"/>fertur dominium. Si quis ergo seorsum vellet 
+ven<lb break="no" ed="#L" n="78"/>dere vinum et seorsum vellet vendere usum vini,
+<lb ed="#L" n="79"/>venderet eandem rem bis, vel venderet id quod
+<lb ed="#L" n="80"/>non est. Unde manifeste per iniustitiam peccaret.
+<lb ed="#L" n="81"/>Et simili ratione, iniustitiam committit qui 
+mu<lb break="no" ed="#L" n="82"/>tuat vinum aut triticum petens sibi dua 
+recom<lb break="no" ed="#L" n="83"/>pensationes, unam quidem restitutionem aequalis
+<lb ed="#L" n="84"/>rei, aliam vero pretium usus, quod usura dicitur.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e346">
+                  <lb ed="#L" n="85"/>Quaedam vero sunt quorum usus non est ipsa
+<lb ed="#L" n="86"/>rei consumptio: sicut usus domus est inhabitatio,
+<lb ed="#L" n="87"/>non autem dissipatio. Et ideo in talibus seorsum
+<lb ed="#L" n="88"/>potest utrumque concedi: puta cum aliquis 
+tra<lb break="no" ed="#L" n="89"/>dit alteri dominium domus, reservato sibi usu
+<lb ed="#L" n="90"/>ad aliquod tempus; vel e converso cum quis
+<lb ed="#L" n="91"/>concedit alicui usum domus, reservato sibi eius
+<lb ed="#L" n="92"/>dominio. Et propter hoc licite potest homo 
+ac<lb break="no" ed="#L" n="93"/>cipere pretium pro usu domus, et praeter hoc
+<pb ed="#L" n="156"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>petere domum commodatam: sicut patet in 
+<lb ed="#L" n="2"/>conductione et locatione domus.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e377">
+                  <lb ed="#L" n="3"/>Pecunia autem, secundum <ref xml:id="TAca84-d1e1675-Rd1e381">Philosophum, in V 
+<lb ed="#L" n="4"/>Ethic.</ref> et in <ref xml:id="TAca84-d1e1675-Rd1e386">I polit.</ref>, principaliter est inventa
+<lb ed="#L" n="5"/>ad commutationes faciendas: et ita proprius et
+<lb ed="#L" n="6"/>principalis pecuniae usus est ipsius consumptio
+<lb ed="#L" n="7"/>sive distractio, secundum quod in commutationes
+<lb ed="#L" n="8"/>expenditur. Et propter hoc Secundum se est 
+illi<lb break="no" ed="#L" n="9"/>citum pro usu pecuniae mutuatae accipere 
+pre<lb break="no" ed="#L" n="10"/>tium, quod dicitur usura. Et sicut alia iniuste
+<lb ed="#L" n="11"/>acquisita tenetur homo restituere, ita pecuniam
+<lb ed="#L" n="12"/>quam per usuram accepit.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e406">
+                  <lb ed="#L" n="13"/>AD PRIMUM ERGO DICENDUM quod usura ibi 
+me<lb break="no" ed="#L" n="14"/>taphorice accipitur pro superexcrescentia 
+bono<lb break="no" ed="#L" n="15"/>rum spiritualium, quam exigit Deus volens ut in
+<lb ed="#L" n="16"/>bonis acceptis ab eo semper proficiamus. Quod
+<lb ed="#L" n="17"/>est ad utilitatem nostram, non eius.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e419">
+                  <lb ed="#L" n="18"/>AD SECUNDUM DICENDUM quod [ludaeis prohibitum
+<lb ed="#L" n="19"/>fuit accipere usuram a fratribus suis, scilicet 
+Iu<lb break="no" ed="#L" n="20"/>daeis: per quod datur intelligi quod accipere 
+usu<lb break="no" ed="#L" n="21"/>ram a quocumque homine est simpliciter malum;
+<lb ed="#L" n="22"/>debemus enim omnem hominem habere quasi
+<lb ed="#L" n="23"/>proximum et fratrem, praecipue in statu 
+Evan<lb break="no" ed="#L" n="24"/>gelii, ad quod omnes vocantur. Unde in Psalm.
+<lb ed="#L" n="25"/>absolute dicitur: Qui pecuniam suam non dedit
+<lb ed="#L" n="26"/>ad usuram; et Ezech. xvin: Qui usuram non
+<lb ed="#L" n="27"/>acceperit. Quod autem ab extraneis usuram 
+acci<lb break="no" ed="#L" n="28"/>perent, non fuit eis concessum quasi licitum, sed
+<lb ed="#L" n="29"/>permissum ad maius malum vitandum: ne 
+scili<lb break="no" ed="#L" n="30"/>cet a Iudaeis, Deum colentibus, usuras 
+accipe<lb break="no" ed="#L" n="31"/>rent, propter avaritiam, cui dediti erant, ut 
+habe<lb break="no" ed="#L" n="32"/>tur Isaiae Lvr. - Quod autem in praemium 
+pro<lb break="no" ed="#L" n="33"/>mittitur, Faenerabis gentibus multis etc., faenus
+<lb ed="#L" n="34"/>ibi large accipitur pro mutuo: sicut et Eccli. xxix
+<lb ed="#L" n="35"/>dicitur: Multi non causa nequitiae non faenerati
+<lb ed="#L" n="36"/>sunt, idest non mutuaverunt. Promittitur ergo in
+<lb ed="#L" n="37"/>praemium Iudaeis abundantia divitiarum, ex qua
+<lb ed="#L" n="38"/>contingit quod aliis mutuare possint.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e467">
+                  <lb ed="#L" n="39"/>AD TERTIUM P picENbUM quod leges humanae
+<lb ed="#L" n="40"/>dimittunt aliqua peccata impunita propter 
+condi<lb break="no" ed="#L" n="41"/>tiones hominum imperfectorum, in quibus multae
+<lb ed="#L" n="42"/>utilitates impedirentur si omnia peccata 
+distri<lb break="no" ed="#L" n="43"/>cte prohiberentur poenis adhibitis. Et ideo 
+usu<lb break="no" ed="#L" n="44"/>ras lex humana concessit, non quasi existimans
+<lb ed="#L" n="45"/>eas esse secundum iustitiam, sed ne 
+impediren<lb break="no" ed="#L" n="46"/>tur utilitates multorum. Unde in ipso iure civili
+<lb ed="#L" n="47"/>dicitur quod res quae usu consumuntur neque
+<lb ed="#L" n="48"/>ratione naturali neque civili recipiunt usumfru-
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="49"/>ctum: et quod Senatus non fecit earum rerum
+<lb ed="#L" n="50"/>usumfructum, nec enim poterat; sed quasi 
+usum<lb break="no" ed="#L" n="51"/>fructum constituit, concedens scilicet usuras. Et
+<lb ed="#L" n="52"/>Philosophus, naturali ratione ductus, dicit, in I
+<lb ed="#L" n="53"/>Polit., quod usuraria acquisitio pecuniarum est
+<lb ed="#L" n="54"/>maxime. praeter naturam.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e507">
+                  <lb ed="#L" n="55"/>AD QUARTUM DICENDUM quod dare mutuum non
+<lb ed="#L" n="56"/>semper tenetur homo: et ideo quantum ad hoc
+<lb ed="#L" n="57"/>ponitur inter consilia. Sed quod homo lucrum
+<lb ed="#L" n="58"/>de mutuo non quaerat, hoc cadit sub ratione
+<lb ed="#L" n="59"/>praecepti. - Potest tamen dici consilium per 
+com<lb break="no" ed="#L" n="60"/>parationem ad dicta Pharisaeorum, qui putabant
+<lb ed="#L" n="61"/>usuram aliquam esse licitam: sicut. et dilectio
+<lb ed="#L" n="62"/>inimicorum est consilium. - Vel loquitur ibi non
+<lb ed="#L" n="63"/>de spe usurarii lucri, sed de spe quae ponitur
+<lb ed="#L" n="64"/>in homine. Non enim debemus mutuum dare,
+<lb ed="#L" n="65"/>vel quodcumque bonum facere, propter spem
+<lb ed="#L" n="66"/>hominis: sed propter spem Dei.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e536">
+                  <lb ed="#L" n="67"/>AD QUINTUM DICENDUM quod ille qui mutuare
+<lb ed="#L" n="68"/>non tenetur recompensationem potest accipere
+<lb ed="#L" n="69"/>eius quod fecit: sed non amplius debet exigere.
+<lb ed="#L" n="70"/>Recompensatur autem sibi secundum 
+aequalita<lb break="no" ed="#L" n="71"/>tem iustitiae si tantum ei reddatur quantum 
+mu<lb break="no" ed="#L" n="72"/>tuavit. Unde s! amplius exigat pro usufructu rei
+<lb ed="#L" n="73"/>quae alium usum non habet nisi consumptionem
+<lb ed="#L" n="74"/>substantiae, exigit pretium "eius quod non est.
+<lb ed="#L" n="75"/>Et ita est iniusta exactio.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e558">
+                  <lb ed="#L" n="76"/>AD SEXTUM DICENDUM quod usus principalis 
+va<lb break="no" ed="#L" n="77"/>sorum argenteorum non est ipsa eorum 
+consum<lb break="no" ed="#L" n="78"/>ptio: et ideo usus eorum potest vendi licite, 
+ser<lb break="no" ed="#L" n="79"/>vato dominio rei. Usus autem principalis 
+pecu<lb break="no" ed="#L" n="80"/>niae argenteae est distractio pecuniae in 
+commu<lb break="no" ed="#L" n="81"/>tationes. Unde non licet eius usum vendere cum
+<lb ed="#L" n="82"/>hoc quod aliquis velit eius restitutionem quod
+<lb ed="#L" n="83"/>mutuo dedit. r
+</p>
+               <p xml:id="TAca84-d1e1675-d1e578">
+                  <lb ed="#L" n="84"/>Sciendum tamen quod secundarius usus 
+ar<lb break="no" ed="#L" n="85"/>genteorum vasorum posset esse commutatio. - ve
+<lb ed="#L" n="86"/>talem usum eorum vendere non liceret. Et 
+si<lb break="no" ed="#L" n="87"/>militer potest esse aliquis alius secundarius usus
+<lb ed="#L" n="88"/>pecuniae argenteae: ut puta si quis. concederet
+<lb ed="#L" n="89"/>pecuniam signatam ad ostentationem, vel ad 
+po<lb break="no" ed="#L" n="90"/>nendum loco pignoris. Et talem usum pecuniae.
+<lb ed="#L" n="91"/>licite homo vendere potest.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e598">
+                  <lb ed="#L" n="92"/>AD SEPTIMUM DICENDUM quod ille qui dat 
+usu<lb break="no" ed="#L" n="93"/>ram non simpliciter voluntarie dat, sed cum 
+qua<lb break="no" ed="#L" n="94"/>dam necessitate: inquantum indiget pecuniam
+<lb ed="#L" n="95"/>accipere mutuo, quam ille qui habet non vult
+<lb ed="#L" n="96"/>sine usura mutuare.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1675-Dd1e612"><!-- p2p2-q78a2" -->
+               <head xml:id="TAca84-d1e1675-Hd1e615">Articulus 2</head>
+               <head xml:id="TAca84-d1e1675-Hd1e617" type="question-title">
+utrum aliquis possit pro pecunia mutuata aliquam aliam
+commoditatem expetere
+</head>
+               <p xml:id="TAca84-d1e1675-d1e620">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="48" type="fixed=158"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="49"/>UTRUM ALIQUIS POSSIT PRO PECUNIA MUTUATA ALIQUAM ALIAM
+<lb ed="#L" n="50"/>COMMODITATEM EXPETERE
+</p>
+               <p xml:id="TAca84-d1e1675-d1e631">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="51"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="52"/>aliquis possit pro pecunia mutuata 
+ali<lb break="no" ed="#L" n="53"/>quam aliam commoditatem expetere.
+<lb ed="#L" n="54"/>Unusquisque enim licite potest suae 
+in<lb break="no" ed="#L" n="55"/>demnitati consulere. Sed quandoque damnum
+<lb ed="#L" n="56"/>aliquis patitur ex hoc quod pecuniam mutuat.
+<lb ed="#L" n="57"/>Ergo licitum est ei, supra pecuniam mutuatam,
+<lb ed="#L" n="58"/>aliquid aliud pro damno expetere, vel etiam
+<lb ed="#L" n="59"/>exigere.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e655">
+                  <lb ed="#L" n="60"/>2. PRAETEREA, unusquisque tenetur ex quodam
+<lb ed="#L" n="61"/>debito honestatis aliquid recompensare ei qui sibi
+<lb ed="#L" n="62"/>gratiam fecit, ut dicitur in V Ethic. Sed ille qui
+<lb ed="#L" n="63"/>alicui in necessitate constituto pecuniam mutuat,
+<lb ed="#L" n="64"/>gratiam facit: unde et gratiarum actio ei 
+debe<lb break="no" ed="#L" n="65"/>tur. Ergo ille qui recipit tenetur naturali debito
+<lb ed="#L" n="66"/>aliquid recompensare. Sed non videtur esse 
+il<lb break="no" ed="#L" n="67"/>licitum obligare se ad aliquid ad quod quis ex
+<lb ed="#L" n="68"/>naturali iure tenetur. Ergo non videtur esse 
+il<lb break="no" ed="#L" n="69"/>licitum si aliquis, pecuniam alteri mutuans, in
+<lb ed="#L" n="70"/>obligationem deducat aliquam recompensationem.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e682">
+                  <lb ed="#L" n="71"/>3. PRAETEREA, sicut est quoddam munus a
+<lb ed="#L" n="72"/>manu, ita est munus ? a lingua, et ab obsequio:
+<lb ed="#L" n="73"/>ut dicit Glossa Isaiae xxxiu*: Beatus qui 
+excu<lb break="no" ed="#L" n="74"/>lit manus suas ab omni munere. Sed licet 
+acci<lb break="no" ed="#L" n="75"/>pere servitium, vel etiam laudem, ab eo cui quis
+<lb ed="#L" n="76"/>pecuniam mutuavit. Ergo, pari ratione, licet 
+quod<lb break="no" ed="#L" n="77"/>cumque aliud munus accipere.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e700">
+                  <lb ed="#L" n="78"/>4. PRAETEREA, eadem videtur esse comparatio
+<lb ed="#L" n="79"/>dati ad datum et mutuati ad mutuatum. Sed li-
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="80"/>cet pecuniam accipere pro alia pecunia data.
+<lb ed="#L" n="81"/>Ergo licet accipere recompensationem alterius
+<lb ed="#L" n="82"/>mutui pro pecunia mutuata.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e716">
+                  <lb ed="#L" n="83"/>5. PRAETEREA, magis a se pecuniam alienat qui,
+<lb ed="#L" n="84"/>eam mutuando, dominium transfert, quam qui
+<lb ed="#L" n="85"/>eam mercatori vel artifici committit. Sed licet
+<lb ed="#L" n="86"/>lucrum accipere de pecunia commissa mercatori
+<lb ed="#L" n="87"/>vel artifici. Ergo licet etiam lucrum accipere de
+<lb ed="#L" n="88"/>pecunia mutuata.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e732">
+                  <lb ed="#L" n="89"/>6. PRAETEREA, pro pecunia mutuata potest 
+ho<lb break="no" ed="#L" n="90"/>mo pignus accipere, cuius usus posset aliquo
+<lb ed="#L" n="91"/>pretio vendi: sicut cum impignoratur ager, vel
+<lb ed="#L" n="92"/>domus quae inhabitatur. Ergo licet aliquod 
+lu<lb break="no" ed="#L" n="93"/>crum habere de pecunia mutuata.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e745">
+                  <lb ed="#L" n="94"/>7. PRAETEREA, contingit quandoque quod 
+ali<lb break="no" ed="#L" n="95"/>quis carius vendit res suas ratione mutui; aut
+<lb ed="#L" n="96"/>vilius emit quod est alterius; vel etiam pro 
+di<lb break="no" ed="#L" n="97"/>latione pretium auget, vel pro acceleratione 
+di<lb break="no" ed="#L" n="98"/>minuit: in quibus omnibus videtur aliqua 
+recom<lb break="no" ed="#L" n="99"/>pensatio fieri quasi pro mutuo pecuniae. Hoc
+<lb ed="#L" n="100"/>autem non doeipieg: apparet illicitum. Ergo 
+vide<lb break="no" ed="#L" n="101"/>tur licitum esse aliquod commodum de pecunia
+<lb ed="#L" n="102"/>mutuata expectare, vel etiam exigere.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e767">
+                  <lb ed="#L" n="103"/>SED CONTRA EST quod Ezech. xvm. dicitur,
+<lb ed="#L" n="104"/>inter alia quae ad virum iustum requiruntur:
+<lb ed="#L" n="105"/>Usuram et superabundantiam non acceperit.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e777">
+                  <lb ed="#L" n="106"/>RESPONDEO DICENDUM quod, secundum 
+Philo<lb break="no" ed="#L" n="107"/>sophum, in IV Ethic., omne illud pro pecunia
+<lb ed="#L" n="108"/>habetur cuius pretium potest pecunia mensurari.
+<pb ed="#L" n="159"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>Et ideo sicut si aliquis pro pecunia mutuata, vel 
+<lb ed="#L" n="2"/>quacumque alia re quae ex ipso usu 
+consu<lb break="no" ed="#L" n="3"/>mitur, pecuniam accipit ex pacto tacito vel 
+ex<lb break="no" ed="#L" n="4"/>presso, peccat contra iustitiam, ut dictum est;
+<lb ed="#L" n="5"/>ita etiam quicumque ex pacto tacito vel expresso
+<lb ed="#L" n="6"/>quodcumque aliud. acceperit cuius pretium 
+pe<lb break="no" ed="#L" n="7"/>cunia mensurari potest, simile peccatum incurrit.
+<lb ed="#L" n="8"/>Si vero accipiat aliquid huiusmodi non quasi
+<lb ed="#L" n="9"/>exigens, nec quasi ex aliqua obligatione tacita vel
+<lb ed="#L" n="10"/>expressa, sed sicut gratuitum donum, non 
+pec<lb break="no" ed="#L" n="11"/>cat: quia etiam antequam pecuniam mutuasset,
+<lb ed="#L" n="12"/>licite poterat aliquod donum gratis accipere, nec
+<lb ed="#L" n="13"/>peioris conditionis efficitur per hoc quod 
+mu<lb break="no" ed="#L" n="14"/>tuavit. - Recompensationem vero eorum quae 
+pe<lb break="no" ed="#L" n="15"/>cunia non mensurantur licet pro mutuo exigere:
+<lb ed="#L" n="16"/>puta benevolentiam et amorem eius qui ^ 
+mu<lb break="no" ed="#L" n="17"/>tuavit, vel aliquid huiusmodi.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e827">
+                  <lb ed="#L" n="18"/>AD PRIMUM ERGO DICENDUM quod ille qui mutuum
+<lb ed="#L" n="19"/>dat potest absque peccato in pactum deducere
+<lb ed="#L" n="20"/>cum eo qui-mutuum accipit recompensationem
+<lb ed="#L" n="21"/>damni per quod subtrahitur sibi aliquid quod
+<lb ed="#L" n="22"/>debet habere: hoc enim non est vendere usum
+<lb ed="#L" n="23"/>pecuniae, sed damnum vitare. Et potest esse
+<lb ed="#L" n="24"/>quod accipiens mutuum maius damnum evitet
+<lb ed="#L" n="25"/>quam dans incurret: unde accipiens mutuum
+<lb ed="#L" n="26"/>cum sua utilitate damnum alterius recompensat. -
+<lb ed="#L" n="27"/>Recompensationem vero damni quod 
+conside<lb break="no" ed="#L" n="28"/>ratur in hoc quod de pecunia non lucratur, non
+<lb ed="#L" n="29"/>potest in pactum deducere: quia non debet 
+ven<lb break="no" ed="#L" n="30"/>dere id quod nondum habet et potest impediri
+<lb ed="#L" n="31"/>multipliciter ab habendo.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e860">
+                  <lb ed="#L" n="32"/>AD SECUNDUM DICENDUM quod recompensatio 
+ali<lb break="no" ed="#L" n="33"/>cuius beneficii dupliciter fieri potest. Uno quidem
+<lb ed="#L" n="34"/>modo, ex debito iustitiae: ad quod aliquis ex
+<lb ed="#L" n="35"/>certo pacto obligari potest. Et hoc debitum 
+atten<lb break="no" ed="#L" n="36"/>ditur secundum quantitatem beneficii quod quis
+<lb ed="#L" n="37"/>accepit. Et ideo ille qui accipit. mutuum 
+pecu<lb break="no" ed="#L" n="38"/>niae, vel cuiuscumque similis rei cuius usus est
+<lb ed="#L" n="39"/>eius consumptio, non tenetur ad plus 
+recom<lb break="no" ed="#L" n="40"/>pensandum quam mutuo acceperit. Unde contra
+<lb ed="#L" n="41"/>iustitiam est si ad. plus reddendum obligetur. 
+<lb ed="#L" n="42"/>Alio modo tenetur aliquis ad recompensandum
+<lb ed="#L" n="43"/>beneficium ex debito amicitiae: in quo magis
+<lb ed="#L" n="44"/>consideratur affectus ex quo aliquis beneficium
+<lb ed="#L" n="45"/>contulit quam etiam quantitas eius quod fecit.
+<lb ed="#L" n="46"/>Et tali debito non competit civilis obligatio, per
+<lb ed="#L" n="47"/>quam inducitur quaedam necessitas, ut non 
+spon<lb break="no" ed="#L" n="48"/>tanea recompensatio fiat.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e899">
+                  <lb ed="#L" n="49"/>AD TERTIUM DICENDUM quod si aliquis ex pecunia
+<lb ed="#L" n="50"/>mutuata expectet vel exigat, quasi per 
+obligatio<lb break="no" ed="#L" n="51"/>nem pacti taciti vel expressi, recompensationem
+<lb ed="#L" n="52"/>muneris ab obsequio vel lingua, perinde est ac
+<lb ed="#L" n="53"/>si expectaret ' vel exigeret munus a manu: quia
+<lb ed="#L" n="54"/>utrumque pecunia aestimari potest, ut patet in
+<lb ed="#L" n="55"/>his qui locant operas suas, quas manu vel lingua
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="56"/>exercent. Si vero munus ab obsequio vel lingua
+<lb ed="#L" n="57"/>non quasi ex obligatione rei exhibeat, sed ex 
+be<lb break="no" ed="#L" n="58"/>nevolentia, quae sub aestimatione pecuniae non
+<lb ed="#L" n="59"/>cadit, licet hoc accipere et exigere et expectare.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e928">
+                  <lb ed="#L" n="60"/>AD QUARTUM DICENDUM quod pecunia non potest
+<lb ed="#L" n="61"/>vendi pro pecunia ampliori quam sit quantitas
+<lb ed="#L" n="62"/>pecuniae mutuatae, quae restituenda est: nec ibi
+<lb ed="#L" n="63"/>aliquid est exigendum aut expectandum ? nisi
+<lb ed="#L" n="64"/>benevolentiae affectus, qui sub aestimatione 
+pe<lb break="no" ed="#L" n="65"/>cuniae non cadit, ex quo potest procedere 
+spon<lb break="no" ed="#L" n="66"/>tanea mutuatio. Repugnat autem ei obligatio ad
+<lb ed="#L" n="67"/>mutuum in posterum faciendum: quia etiam talis
+<lb ed="#L" n="68"/>obligatio pecunia aestimari posset. Et ideo licet
+<lb ed="#L" n="69"/>simul mutuanti unum aliquid aliud mutuare:
+<lb ed="#L" n="70"/>non autem licet eum obligare ad mutuum in
+<lb ed="#L" n="71"/>posterum faciendum.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e957">
+                  <lb ed="#L" n="72"/>AD QUINTUM DICENDUM quod ille qui mutuat 
+pe<lb break="no" ed="#L" n="73"/>cuniam transfert dominium pecuniae in eum cui
+<lb ed="#L" n="74"/>mutuat. Unde ille cui pecunia mutuatur sub suo
+<lb ed="#L" n="75"/>periculo tenet eam, et tenetur integre restituere ".
+<lb ed="#L" n="76"/>Unde non debet amplius exigere ille qui 
+mutua<lb break="no" ed="#L" n="77"/>vit. Sed ille qui. committit pecuniam suam vel
+<lb ed="#L" n="78"/>mercatori vel artifici per modum societatis 
+cu<lb break="no" ed="#L" n="79"/>iusdam, non transfert dominium pecuniae suae
+<lb ed="#L" n="80"/>in illum, sed remanet eius, ita quod cum 
+pe<lb break="no" ed="#L" n="81"/>riculo ipsius mercator de ea negotiatur vel 
+arti<lb break="no" ed="#L" n="82"/>fex operatur. Et ideo licite potest partem lucri
+<lb ed="#L" n="83"/>inde provenientis expetere, tanquam de re sua.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e987">
+                  <lb ed="#L" n="84"/>AD SEXTUM DICENDUM quod si.quis pro pecunia
+<lb ed="#L" n="85"/>sibi mutuata obliget rem aliquam cuius usus 
+pre<lb break="no" ed="#L" n="86"/>tio aestimari potest, debet usum illius rei ille qui
+<lb ed="#L" n="87"/>mutuavit computare in restitutionem eius quod
+<lb ed="#L" n="88"/>mutuavit. Alioquin, si usum illius rei quasi gratis
+<lb ed="#L" n="89"/>sibi superaddi ^ velit, idem est ac si pecuniam
+<lb ed="#L" n="90"/>acciperet pro mutuo, quod est usurarium: nisi
+<lb ed="#L" n="91"/>forte esset talis res cuius usus sine pretio soleat
+<lb ed="#L" n="92"/>concedi inter amicos, sicut patet de libro 
+accom<lb break="no" ed="#L" n="93"/>modato.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1011">
+                  <lb ed="#L" n="94"/>AD SEPTIMUM DICENDUM quod si aliquis carius
+<lb ed="#L" n="95"/>velit vendere res suas quam sit iustum pretium,
+<lb ed="#L" n="96"/>ut de pecunia solvenda emptorem expectet, usura
+<lb ed="#L" n="97"/>manifeste committitur: quia huiusmodi 
+expecta<lb break="no" ed="#L" n="98"/>tio pretii solvendi habet rationem mutui; unde
+<lb ed="#L" n="99"/>quidquid ultra iustum pretium pro huiusmodi
+<lb ed="#L" n="100"/>expectatione exigitur, est quasi pfatau mutui,
+<lb ed="#L" n="101"/>quod pertinet ad rationem usurae. - Similiter
+<lb ed="#L" n="102"/>etiam si quis emptor velit rem emere vilius
+<lb ed="#L" n="103"/>quam sit iustum pretium, eo quod pecuniam ante
+<lb ed="#L" n="104"/>solvit quam possit ei tradi ^, est peccatum 
+usu<lb break="no" ed="#L" n="105"/>rae: quia etiam ista anticipatio solutionis 
+pecu<lb break="no" ed="#L" n="106"/>niae habet mutui rationem, cuius quoddam 
+pre<lb break="no" ed="#L" n="107"/>tium est quod diminuitur de iusto pretio rei 
+em<lb break="no" ed="#L" n="108"/>ptae. - Si vero aliquis de iusto pretio velit 
+di<lb break="no" ed="#L" n="109"/>minuere ut pecuniam prius habeat, non peccat
+<lb ed="#L" n="110"/>peccato usurae.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1675-Dd1e1051"><!-- p2p2-q78a3" -->
+               <head xml:id="TAca84-d1e1675-Hd1e1054">Articulus 3</head>
+               <head xml:id="TAca84-d1e1675-Hd1e1056" type="question-title">Utrum quidquid aliquis de pecunia usuraria lucratus fuerit,
+reddere teneatur</head>
+               <p xml:id="TAca84-d1e1675-d1e1059">
+                  <pb ed="#L" n="165"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=165"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM QUIDQUID ALIQUIS DE PECUNIA USURARIA LUCRATUS FUERIT,
+<lb ed="#L" n="3"/>REDDERE TENEATUR
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1072">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="4"/>AD TERTIUM SIC PROCEDITUR. Videtur quod  
+<lb ed="#L" n="5"/>quidquid aliquis de pecunia usuraria 
+<lb ed="#L" n="6"/>lucratus fuerit, reddere teneatur. Dicit 
+<lb ed="#L" n="7"/>ux Nyenim Apostolus, ad Rom. xi: Si radix 
+<lb ed="#L" n="8"/>sancta, et rami. Ergo, eadem ratione, si radix  
+<lb ed="#L" n="9"/>infecta, et rami. Sed radix fuit usuraria. Ergo  
+<lb ed="#L" n="10"/>et quidquid ex ea acquisitum est, est usurarium.  
+<lb ed="#L" n="11"/>Ergo tenetur ad restitutionem illius. 
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1094">
+                  <lb ed="#L" n="12"/>2. PRAETEREA, sicut dicitur <ref xml:id="TAca84-d1e1675-Rd1e1098">Extra, de Usuris, 
+<lb ed="#L" n="13"/>in illa decretali</ref>, <quote xml:id="TAca84-d1e1675-Qd1e1103">Cum tu sicut asseris: Possessiones  
+<lb ed="#L" n="14"/>quae de usuris sunt comparatae debent vendi, et  
+<lb ed="#L" n="15"/>ipsarum pretia his a quibus sunt extorta restitui</quote>. 
+<lb ed="#L" n="16"/>Ergo, eadem ratione, quidquid aliud ex pecunia 
+<lb ed="#L" n="17"/>usuraria acquiritur debet restitui. 
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1116">
+                  <lb ed="#L" n="18"/>3. PRAETEREA, illud quod aliquis emit de 
+pe<lb break="no" ed="#L" n="19"/>cunia usuraria debetur sibi ratione pecuniae quam 
+<lb ed="#L" n="20"/>dedit. Non ergo habet maius ius in re quam 
+ac<lb break="no" ed="#L" n="21"/>quisivit quam in pecunia quam dedit. Sed 
+pe<lb break="no" ed="#L" n="22"/>cuniam usurariam tenebatur restituere. Ergo et 
+<lb ed="#L" n="23"/>illud quod ex ea acquirit tenetur restituere. 
+<lb ed="#L" n="24"/>SED CONTRA, quilibet potest licite tenere id quod. 
+<lb ed="#L" n="25"/>legitime acquisivit. Sed id quod acquiritur per 
+<lb ed="#L" n="26"/>pecuniam usurariam interdum legitime acquiritur. 
+<lb ed="#L" n="27"/>Ergo licite potest retineri. 
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1140">
+                  <lb ed="#L" n="28"/>RESPONDEO DICENDUM quod, sicut supra dictum  
+<lb ed="#L" n="29"/>est, res quaedam sunt quarum usus est ipsarum 
+<lb ed="#L" n="30"/>rerum consumptio, quae non habent 
+usumfru<lb break="no" ed="#L" n="31"/>ctum, secundum iura. Et ideo si talia fuerint 
+<lb ed="#L" n="32"/>per usuram extorta, puta denarii, triticum, vinum  
+<lb ed="#L" n="33"/>aut aliquid huiusmodi, non tenetur homo ad 
+re<lb break="no" ed="#L" n="34"/>stituendum nisi id quod accepit: quia id quod  
+<lb ed="#L" n="35"/>de tali re est acquisitum non est fructus huius 
+<lb ed="#L" n="36"/>rei, sed humanae industriae. Nisi forte per 
+de<lb break="no" ed="#L" n="37"/>tentionem talis rei alter sit damnificatus, amit- 
+<cb ed="#L" n="c"/>
+                  <lb ed="#L" n="38"/>tendo aliquid de bonis suis: tunc enim tenetur
+<lb ed="#L" n="39"/>ad recompensationem nocumenti.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1171">
+                  <lb ed="#L" n="40"/>Quaedam vero res sunt quarum usus non est
+<lb ed="#L" n="41"/>earum consumptio: et talia habent usumfructum,
+<lb ed="#L" n="42"/>sicut domus et ager et alia huiusmodi. Et ideo
+<lb ed="#L" n="43"/>si quis domum alterius vel agrum per usuram
+<lb ed="#L" n="44"/>extorsisset, non solum teneretur restituere 
+do<lb break="no" ed="#L" n="45"/>mum vel agrum, sed etiam fructus inde perceptos:
+<lb ed="#L" n="46"/>quia sunt fructus rerum quarum alius est 
+domi<lb break="no" ed="#L" n="47"/>nus, et ideo ei debentur.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1191">
+                  <lb ed="#L" n="48"/>AD PRIMUM ERGO DICENDUM quod radix non 
+so<lb break="no" ed="#L" n="49"/>lum habet rationem materiae, sicut pecunia 
+usu<lb break="no" ed="#L" n="50"/>raria: sed habet etiam aliqualiter rationem causae
+<lb ed="#L" n="51"/>activae, inquantum administrat nutrimentum. Et
+<lb ed="#L" n="52"/>ideo non est simile.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1204">
+                  <lb ed="#L" n="53"/>AD SECUNDUM DICENDUM quod possessiones quae
+<lb ed="#L" n="54"/>de usuris sunt comparatae non sunt eorum 
+quo<lb break="no" ed="#L" n="55"/>rum fuerunt usurae, sed illorum qui eas 
+eme<lb break="no" ed="#L" n="56"/>runt. Sunt tamen obligatae illis a quibus fuerunt
+<lb ed="#L" n="57"/>usurae acceptae, sicut et alia bona usurarii. Et
+<lb ed="#L" n="58"/>ideo non praecipitur quod assignentur illae 
+pos<lb break="no" ed="#L" n="59"/>sessiones his a quibus fuerunt acceptae usurae,
+<lb ed="#L" n="60"/>quia forte plus valent quam usurae quas 
+dede<lb break="no" ed="#L" n="61"/>runt: sed praecipitur quod vendantur 
+possessio<lb break="no" ed="#L" n="62"/>nes et earum pretia restituantur, scilicet 
+secun<lb break="no" ed="#L" n="63"/>dum quantitatem usurae acceptae.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1230">
+                  <lb ed="#L" n="64"/>AD TERTIUM DICENDUM quod illud quod 
+acqui<lb break="no" ed="#L" n="65"/>ritur de pecunia usuraria debetur quidem 
+ac<lb break="no" ed="#L" n="66"/>quirenti propter pecuniam usurariam datam
+<lb ed="#L" n="67"/>sicut propter causam instrumentalem: sed 
+pro<lb break="no" ed="#L" n="68"/>pter suam industriam sicut propter causam 
+prin<lb break="no" ed="#L" n="69"/>cipalem. Et ideo plus iuris habet in re 
+acqui<lb break="no" ed="#L" n="70"/>sita de pecunia usuraria quam in ipsa pecunia
+<lb ed="#L" n="71"/>usuraria.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1675-Dd1e1251"><!-- p2p2-q78a4" -->
+               <head xml:id="TAca84-d1e1675-Hd1e1254">Articulus 4</head>
+               <head xml:id="TAca84-d1e1675-Hd1e1256" type="question-title">Utrum liceat pecuniam accipere mutuo sub usura</head>
+               <p xml:id="TAca84-d1e1675-d1e1259">
+                  <cb ed="#L" n="g"/>
+                  <lb ed="#L" n="85" type="fixed=165"/>ARTICULUS QUARTUS
+<lb ed="#L" n="86"/>UTRUM LICEAT PECUNIAM ACCIPERE MUTUO SUB USURA
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1268">
+                  <cb ed="#L" n="h"/>
+                  <lb ed="#L" n="87"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="88"/>non liceat pecuniam accipere mutuo sub
+<lb ed="#L" n="89"/>usura. Dicit enim wiiol di Rom. 1,  
+<lb ed="#L" n="90"/>quod digni sunt morte non solum qui 
+<cb ed="#L" n="i"/>
+                  <lb ed="#L" n="91"/>faciunt peccata, sed etiam qui consentiunt 
+facienti<lb break="no" ed="#L" n="92"/>bus. Sed ille qui accipit pecuniam mutuo sub 
+usu<lb break="no" ed="#L" n="93"/>ris consentit usurario in suo peccato, et praebet
+<lb ed="#L" n="94"/>ei occasionem peccandi. Ergo etiam ipse peccat.
+<pb ed="#L" n="166"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>2. PRAETEREA, pro nullo commodo temporali 
+de<lb break="no" ed="#L" n="2"/>bet aliquis alteri quamcumque occasionem 
+prae<lb break="no" ed="#L" n="3"/>bere peccandi: hoc enim pertinet ad rationem
+<lb ed="#L" n="4"/>scandali activi, quod semper est peccatum, ut
+<lb ed="#L" n="5"/>supra dictum est. Sed ille qui petit mutuum
+<lb ed="#L" n="6"/>ab usurario expresse dat ei occasionem peccandi.
+<lb ed="#L" n="7"/>Ergo pro nullo commodo temporali. excusatur.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1312">
+                  <lb ed="#L" n="8"/>3. PRAETEREA, non minor videtur esse necessitas
+<lb ed="#L" n="9"/>quandoque deponendi pecuniam suam apud 
+usu<lb break="no" ed="#L" n="10"/>rarium quam mutuum accipiendi ab ipso. Sed |
+<lb ed="#L" n="11"/>deponere pecuniam apud usurarium videtur esse |
+<lb ed="#L" n="12"/>omnino illicitum: sicut illicitum esset deponere
+<lb ed="#L" n="13"/>gladium apud furiosum, vel virginem 
+commit<lb break="no" ed="#L" n="14"/>tere luxurioso, seu cibum. guloso. Ergo neque
+<lb ed="#L" n="15"/>licitum est accipere mutuum. ab usurario.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1333">
+                  <lb ed="#L" n="16"/>SED CONTRA, ille qui iniuriam patitur non peccat,
+<lb ed="#L" n="17"/>secundum Philosophum, in V Ethic.: unde 
+iu<lb break="no" ed="#L" n="18"/>stitia non est media inter duo vitia, ut ibidem
+<lb ed="#L" n="19"/>dicitur. Sed usurarius peccat inquantum facit 
+iniu<lb break="no" ed="#L" n="20"/>stitiam accipienti mutuum sub usuris. Ergo. ille
+<lb ed="#L" n="21"/>qui accipit mutuum sub usuris non peccat. .
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1349">
+                  <lb ed="#L" n="22"/>ResPoNbEO picENDUM quod inducere hominem
+<lb ed="#L" n="23"/>ad peccandum nullo modo licet, uti tamen 
+pec<lb break="no" ed="#L" n="24"/>cato alterius ad bonum. licitum est: quia. et
+<lb ed="#L" n="25"/>Deus utitur omnibus peccatis ad aliquod bonum,
+<lb ed="#L" n="26"/>ex quolibet enim malo elicit aliquod bonum, ut |
+<lb ed="#L" n="27"/>dicitur in Enchiridio. Et ideo Augustinus* 
+Pu<lb break="no" ed="#L" n="28"/>blicolae quaerenti utrum liceret uti iuramento
+<lb ed="#L" n="29"/>eius qui per falsos deos iurat, in quo manifeste |
+<lb ed="#L" n="30"/>peccat eis reverentiam divinam adhibens, 
+re<lb break="no" ed="#L" n="31"/>spondit quod qui utitur fide illius qui per falsos
+<lb ed="#L" n="32"/>deos iurat, non ad malum sed ad bonum, non
+<lb ed="#L" n="33"/>peccato illius se sociat, quo per daemonia iuravit,
+<lb ed="#L" n="34"/>sed pacto bono eius, quo fidem servavit. Si tamen
+<lb ed="#L" n="35"/>induceret eum ad iurandum per falsos deos, 
+pec<lb break="no" ed="#L" n="36"/>caret.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1384">
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="37"/>Ita etiam in proposito dicendum est quod nullo
+<lb ed="#L" n="38"/>modo licet inducere aliquem ad mutuandum sub
+<lb ed="#L" n="39"/>usuris: licet tamen ab eo qui hoc paratus est
+<lb ed="#L" n="40"/>facere et usuras exercet, mutuum accipere sub
+<lb ed="#L" n="41"/>usuris, propter aliquod bonum, quod est 
+sub<lb break="no" ed="#L" n="42"/>ventio suae necessitatis vel alterius. Sicut etiam
+<lb ed="#L" n="43"/>licet ei qui incidit in latrones manifestare bona
+<lb ed="#L" n="44"/>quae habet, quae latrones diripiendo. peccant, ad
+<lb ed="#L" n="45"/>hoc quod non occidatur: exemplo decem 
+viro<lb break="no" ed="#L" n="46"/>rum qui dixerunt ad Ismahel, No; occidere nos:
+<lb ed="#L" n="47"/>quia habemus thesaurum in agro, ut dicitur Ie-
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1413">
+                  <lb ed="#L" n="48"/>AD PRIMUM ERGO DICENDUM quod ille qui accipit
+<lb ed="#L" n="49"/>pecuniam mutuo sub usuris non consentit in 
+pec<lb break="no" ed="#L" n="50"/>catum usurarii, sed utitur eo. Nec placet .ei 
+usu<lb break="no" ed="#L" n="51"/>rarum acceptio 5, sed mutuatio, quae. est bona.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1424">
+                  <lb ed="#L" n="52"/>AD SECUNDUM DICENDUM, quod ille qui accipit
+<lb ed="#L" n="53"/>pecuniam mutuo. sub usuris non dat usurario
+<lb ed="#L" n="54"/>occasionem usuras accipiendi, sed mutuandi: ipse
+<lb ed="#L" n="55"/>autem usurarius sumit occasionem peccandi ex
+<lb ed="#L" n="56"/>malitia cordis sui. Unde scandalum passivum est
+<lb ed="#L" n="57"/>ex parte sua: non autem activum ex parte 
+pe<lb break="no" ed="#L" n="58"/>tentis mutuum. Nec tamen propter huiusmodi
+<lb ed="#L" n="59"/>scandalum passivum debet alius a mutuo. 
+pe<lb break="no" ed="#L" n="60"/>tendo desistere, si indigeat: quia huiusmodi 
+pas<lb break="no" ed="#L" n="61"/>sivum scandalum non provenit ex infirmitate vel
+<lb ed="#L" n="62"/>ignorantia, sed ex malitia.
+</p>
+               <p xml:id="TAca84-d1e1675-d1e1450">
+                  <lb ed="#L" n="63"/>AD TERTIUM DICENDUM quod si quis cocto id
+<lb ed="#L" n="64"/>pecuniam suam usurario non habenti. alias unde
+<lb ed="#L" n="65"/>usuras exerceret; vel hac intentione committeret
+<lb ed="#L" n="66"/>ut inde copiosius po usuram lucraretur; daret
+<lb ed="#L" n="67"/>materiam peccanti 5, Unde et ipse esset particeps
+<lb ed="#L" n="68"/>culpae. Si autem aliquis usurario alias habenti
+<lb ed="#L" n="69"/>unde usuras exerceat, pecuniam .suam committat
+<lb ed="#L" n="70"/>ut tutius servetur, non peccat, sed utitur homine
+<lb ed="#L" n="71"/>peccatore ad bonum.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

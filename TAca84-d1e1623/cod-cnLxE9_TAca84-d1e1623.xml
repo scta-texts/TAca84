@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 68</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 68</title>
+               <date when="2024-03-05">March 05, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-03-05" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="104"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e1623"><!-- p2p2-q68" -->
+            <head xml:id="TAca84-d1e1623-Hd1e101">Quaestio 68</head>
+            <head xml:id="TAca84-d1e1623-Hd1e103" type="question-title">De his quae pertinent ad iniustam accusationem
+in quatuor articulos divisa</head>
+            <p xml:id="TAca84-d1e1623-d1e106">
+               <pb ed="#L" n="104"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=104"/>QUAESTIO SEXAGESIMAOCTAVA
+<lb ed="#L" n="2"/>DE HIS QUAE PERTINENT AD INIUSTAM ACCUSATIONEM
+<lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+</p>
+            <p xml:id="TAca84-d1e1623-d1e119">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>DEINDE considerandum est de his quae 
+perti<lb break="no" ed="#L" n="5"/>nent ad iniustam accusationem.
+<lb ed="#L" n="6"/>Et circa hoc quaeruntur quatuor.
+<lb ed="#L" n="7"/>Primo: utrum homo accusare teneatur.
+<lb ed="#L" n="8"/>Secundo: utrum accusatio sit facienda in 
+scri<lb break="no" ed="#L" n="9"/>ptis.
+<lb ed="#L" n="10"/>Tertio: quomodo accusatio sit vitiosa.
+<lb ed="#L" n="11"/>Quarto: qualiter male accusantes sint puniendi.
+</p>
+            <div xml:id="TAca84-d1e1623-Dd1e141"><!-- p2p2-q68a1" -->
+               <head xml:id="TAca84-d1e1623-Hd1e144">Articulus 1</head>
+               <head xml:id="TAca84-d1e1623-Hd1e146" type="question-title">Utrum homo teneatur accusare</head>
+               <p xml:id="TAca84-d1e1623-d1e149">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="12" type="fixed=104"/>ARTICULUS PRIMUS
+<lb ed="#L" n="13"/>UTRUM HOMO TENEATUR ACCUSARE
+</p>
+               <p xml:id="TAca84-d1e1623-d1e158">
+                  <lb ed="#L" n="14"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+<lb ed="#L" n="15"/>homo non teneatur accusare. Nullus
+<lb ed="#L" n="16"/>enim excusatur ab impletione divini
+<lb ed="#L" n="17"/>praecepti propter peccatum: quia iam
+<lb ed="#L" n="18"/>ex suo peccato commodum reportaret. Sed 
+ali<lb break="no" ed="#L" n="19"/>qui propter peccatum redduntur inhabiles ad 
+ac<lb break="no" ed="#L" n="20"/>cusandum: sicut excommunicati, infames, et illi
+<lb ed="#L" n="21"/>qui sunt de maioribus criminibus accusati prius
+<lb ed="#L" n="22"/>quam innoxii demonstrentur ?. Ergo homo non
+<lb ed="#L" n="23"/>tenetur ex praecepto divino ad accusandum.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e182">
+                  <lb ed="#L" n="24"/>2. PRAETEREA, omne debitum ex caritate 
+de<lb break="no" ed="#L" n="25"/>pendet, quae est finis praecepti: unde dicitur
+<lb ed="#L" n="26"/>Rom. xiu: Nemini quidquam debeatis, nisi ut
+<lb ed="#L" n="27"/>invicem diligatis. Sed illud quod est caritatis homo
+<lb ed="#L" n="28"/>debet omnibus, maioribus et minoribus, subditis
+<lb ed="#L" n="29"/>et praelatis. Cum igitur subditi non debeant 
+prae<lb break="no" ed="#L" n="30"/>latos accusare, nec minores suos maiores, ut per
+<lb ed="#L" n="31"/>plura capitula probatur II, qu. vii; videtur quod
+<lb ed="#L" n="32"/>nullus ex debito teneatur accusare.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e205">
+                  <lb ed="#L" n="33"/>3. PRAETEREA, nullus tenetur contra fidelitatem
+<lb ed="#L" n="34"/>agere quam debet amico: quia non debet alteri
+<lb ed="#L" n="35"/>facere quod sibi non vult fieri. Sed accusare 
+ali<lb break="no" ed="#L" n="36"/>quem quandoque est contra fidelitatem quam
+<lb ed="#L" n="37"/>quis debet amico: dicitur enim Prov. xi: Qui
+<lb ed="#L" n="38"/>ambulat fraudulenter revelat arcana: qui autem
+<lb ed="#L" n="39"/>fidelis est. celat. amici commissum. Ergo homo
+<lb ed="#L" n="40"/>non tenetur ad accusandum.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e225">
+                  <lb ed="#L" n="41"/>SED CONTRA EST quod dicitur Levit. v: Si 
+pec<lb break="no" ed="#L" n="42"/>caverit anima, et audierit vocem iurantis, 
+testis<lb break="no" ed="#L" n="43"/>que fuerit quod aut ipse vidit aut conscius est,
+<lb ed="#L" n="44"/>nisi indicaverit, portabit iniquitatem suam.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e236">
+                  <lb ed="#L" n="45"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="46"/>est, haec est differentia inter denuntiationem et
+<lb ed="#L" n="47"/>accusationem, quod in denuntiatione attenditur
+<lb ed="#L" n="48"/>emendatio fratris, in accusatione autem 
+attendi<lb break="no" ed="#L" n="49"/>tur punitio criminis. Poenae autem praesentis
+<lb ed="#L" n="50"/>vitae non per se expetuntur, quia non est hic
+<lb ed="#L" n="51"/>ultimum retributionis tempus: sed inquantum
+<lb ed="#L" n="52"/>sunt medicinales, conferentes vel ad emendatio-
+<cb ed="#L" n="d"/>
+                  <lb ed="#L" n="53"/>nem personae peccantis, vel ad bonum 
+reipubli<lb break="no" ed="#L" n="54"/>cae, cuius quies procuratur per punitionem 
+pec<lb break="no" ed="#L" n="55"/>cantium. Quorum primum intenditur in 
+denun<lb break="no" ed="#L" n="56"/>tiatione, ut dictum est: secundum autem 
+pro<lb break="no" ed="#L" n="57"/>prie pertinet ad accusationem. Et ideo si crimen
+<lb ed="#L" n="58"/>fuerit tale quod vergat in detrimentum 
+reipubli<lb break="no" ed="#L" n="59"/>cae, tenetur homo ad accusationem, dummodo
+<lb ed="#L" n="60"/>sufficienter possit probare, quod pertinet ad 
+offi<lb break="no" ed="#L" n="61"/>cium accusatoris: puta cum peccatum alicuius
+<lb ed="#L" n="62"/>vergit in multitudinis corruptelam corporalem seu
+<lb ed="#L" n="63"/>spiritualem. Si autem non fuerit tale peccatum
+<lb ed="#L" n="64"/>quod in multitudinem redundet, vel etiam si 
+suf<lb break="no" ed="#L" n="65"/>ficientem probationem adhibere non possit, non
+<lb ed="#L" n="66"/>tenetur ad intentandum ? accusationem: quia ad
+<lb ed="#L" n="67"/>hoc nullus tenetur quod non potest debito modo
+<lb ed="#L" n="68"/>perficere.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e293">
+                  <lb ed="#L" n="69"/>AD PRIMUM ERGO DICENDUM quod nihil prohibet
+<lb ed="#L" n="70"/>per peccatum reddi aliquem impotentem ad ea
+<lb ed="#L" n="71"/>quae homines facere tenentur: sicut ad 
+meren<lb break="no" ed="#L" n="72"/>dum vitam aeternam, et ad assumendum 
+eccle<lb break="no" ed="#L" n="73"/>siastica sacramenta. Nec tamen ex hoc homo 
+re<lb break="no" ed="#L" n="74"/>portat commodum: quinimmo deficere ab his
+<lb ed="#L" n="75"/>quae tenetur facere est gravissima poena, quia
+<lb ed="#L" n="76"/>virtuosi actus sunt quaedam hominis perfectiones.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e313">
+                  <lb ed="#L" n="77"/>Ap SECUNDUM DICENDUM quod subditi praelatos
+<lb ed="#L" n="78"/>suos accusare prohibentur qui non affectione 
+ca<lb break="no" ed="#L" n="79"/>ritatis, sed sua pravitate vitam eorum diffamare
+<lb ed="#L" n="80"/>et reprehendere quaerunt; vel etiam si subditi
+<lb ed="#L" n="81"/>accusare volentes, fuerint criminosi; ut habetur
+<lb ed="#L" n="82"/>II, qu. vit. Alioquin, si fuerint alias idonei ad
+<lb ed="#L" n="83"/>accusandum, licet subditis ex caritate suos 
+prae<lb break="no" ed="#L" n="84"/>latos accusare.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e333">
+                  <lb ed="#L" n="85"/>Ap TERTIUM DICENDUM quod revelare secreta in
+<lb ed="#L" n="86"/>malum personae, est contra fidelitatem: non 
+au<lb break="no" ed="#L" n="87"/>tem si revelentur propter bonum commune, quod
+<lb ed="#L" n="88"/>semper praeferendum est bono privato. Et ideo
+<lb ed="#L" n="89"/>contra bonum commune nullum secretum licet
+<lb ed="#L" n="90"/>recipere. - Nec tamen est omnino secretum quod
+<lb ed="#L" n="91"/>per sufficientes testes potest probari.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1623-Dd1e353"><!-- p2p2-q68a2" -->
+               <head xml:id="TAca84-d1e1623-Hd1e356">Articulus 2</head>
+               <head xml:id="TAca84-d1e1623-Hd1e358" type="question-title">Utrum sit necessarium accusationem in scriptis fieri</head>
+               <p xml:id="TAca84-d1e1623-d1e361">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="36" type="fixed=105"/>ARTICULUS SECUNDUS
+<lb ed="#L" n="37"/>UTRUM SIT NECESSARIUM ACCUSATIONEM IN SCRIPTIS FIERI
+</p>
+               <p xml:id="TAca84-d1e1623-d1e370">
+                  <lb ed="#L" n="38"/>AD SECUNDUM SIC PROCEDITUR Videtur quod
+<lb ed="#L" n="39"/>non sit necessarium accusationem in
+<lb ed="#L" n="40"/>scriptis fieri. Scriptura enim adinventa 
+<lb ed="#L" n="41"/>est ad subveniendum humanae 
+memo<lb break="no" ed="#L" n="42"/>riae circa praeterita. Sed accusatio in praesenti
+<lb ed="#L" n="43"/>agitur. Ergo accusatio scriptura non indiget.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e386">
+                  <lb ed="#L" n="44"/>2. PRAETEREA, II, qu. vri, dicitur: Nullus absens 
+<lb ed="#L" n="45"/>accusare. potest, nec ab aliquo accusari. Sed 
+scri<lb break="no" ed="#L" n="46"/>ptura ad hoc videtur esse utilis ut absentibus 
+ali<lb break="no" ed="#L" n="47"/>uid gignitur: ut patet per Augustinum, X de
+<lb ed="#L" n="48"/>Trin. Ergo in accusatione non est necessaria
+<lb ed="#L" n="49"/>scriptura: praesertim cum canon dicat quod pe
+<lb ed="#L" n="50"/>scripta nullius accusatio suscipiatur.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e405">
+                  <lb ed="#L" n="51"/>3. PRAETEREA, sicut crimen alicuius 
+manifesta<lb break="no" ed="#L" n="52"/>tur per accusationem, ita per denuntiationem.
+<lb ed="#L" n="53"/>Sed in denuntiatione non est scriptura necessaria. |
+<lb ed="#L" n="54"/>Ergo videtur quod neque etiam in accusatione.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e416">
+                  <lb ed="#L" n="55"/>SED CONTRA. EST quod dicitur II, qu. vim: <quote xml:id="TAca84-d1e1623-Qd1e420">
+Ac<lb break="no" ed="#L" n="56"/>cusatorum personae sine scripto nunquam 
+reci<lb break="no" ed="#L" n="57"/>piantur</quote>.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e428">
+                  <lb ed="#L" n="58"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="59"/>est, quando in criminibus per modum 
+accusatio<lb break="no" ed="#L" n="60"/>nis agitur, accusator constituitur pars, ita quod
+<lb ed="#L" n="61"/>iudex inter accusatorem et eum. qui accusatur
+<lb ed="#L" n="62"/>medius constituitur ad examen iustitiae: in quo
+<lb ed="#L" n="63"/>oportet, quantum possibile est, secundum 
+certitu<lb break="no" ed="#L" n="64"/>dinem procedere. Quia vero ea quae verbotenus
+<lb ed="#L" n="65"/>dicuntur facile labuntur a memoria, non posset
+<lb ed="#L" n="66"/>iudici esse certum quid et qualiter dictum sit ,
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="67"/>cum debet proferre sententiam, nisi esset in 
+scri<lb break="no" ed="#L" n="68"/>ptis redactum. Et ideo rationabiliter institutum
+<lb ed="#L" n="69"/>est ut accusatio, sicut et alia quae in iudicio 
+agun<lb break="no" ed="#L" n="70"/>tur, redigantur in scriptis.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e461">
+                  <lb ed="#L" n="71"/>AD PRIMUM ERGO DICENDUM quod difficile est
+<lb ed="#L" n="72"/>singula verba, propter eorum multitudinem et 
+va<lb break="no" ed="#L" n="73"/>rietatem, retinere: cuius signum est quod multi,
+<lb ed="#L" n="74"/>eadem verba audientes, si interrogentur, non
+<lb ed="#L" n="75"/>referent ea similiter etiam post modicum 
+tem<lb break="no" ed="#L" n="76"/>pus. Et tamen modica verborum differentia 
+sen<lb break="no" ed="#L" n="77"/>sum variat. Et ideo, etiam si post modicum 
+tem<lb break="no" ed="#L" n="78"/>pus debeat iudicis sententia promulgari , expedit
+<lb ed="#L" n="79"/>tamen ad certitudinem iudicii ? ut accusatio 
+re<lb break="no" ed="#L" n="80"/>digatur in scriptis.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e485">
+                  <lb ed="#L" n="81"/>AD SECUNDUM DICENDUM quod scriptura non 
+so<lb break="no" ed="#L" n="82"/>lum .necessaria est propter absentiam personae
+<lb ed="#L" n="83"/>quae significat vel cui est aliquid significandum,
+<lb ed="#L" n="84"/>sed etiam propter dilationem temporis, ut dictum
+<lb ed="#L" n="85"/>est. Et ideo cum dicit canon, Per scripta 
+nul<lb break="no" ed="#L" n="86"/>lius. accusatio suscipiatur , intelligendum est ab
+<lb ed="#L" n="87"/>absente, qui per epistolam accusationem mittat.
+<lb ed="#L" n="88"/>Non tamen excluditur quin, si ? praesens fuerit,
+<lb ed="#L" n="89"/>necessaria sit scriptura.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e507">
+                  <lb ed="#L" n="90"/>AD TERTIUM DICENDUM quod denuntiator non
+<lb ed="#L" n="91"/>obligat se ad probandum: unde nec punitur si
+<lb ed="#L" n="92"/>probare nequiverit. Et propter hoc in 
+denuntia<lb break="no" ed="#L" n="93"/>tione non est necessaria scriptura, sed sufficit si
+<lb ed="#L" n="94"/>aliquis verbo denuntiet Ecclesiae, quae ex officio
+<lb ed="#L" n="95"/>suo procedet ad fratris emendationem.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1623-Dd1e524"><!-- p2p2-q68a3" -->
+               <head xml:id="TAca84-d1e1623-Hd1e527">Articulus 3</head>
+               <head xml:id="TAca84-d1e1623-Hd1e529" type="question-title">Utrum accusatio reddatur iniusta per calumniam, praevaricationem
+et tergiversationem</head>
+               <p xml:id="TAca84-d1e1623-d1e532">
+                  <pb ed="#L" n="106"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1" type="fixed=106"/>ARTICULUS TERTIUS
+<lb ed="#L" n="2"/>UTRUM ACCUSATIO REDDATUR INIUSTA PER CALUMNIAM, PRAEVARICATIONEM
+<lb ed="#L" n="3"/>ET TERGIVERSATIONEM
+</p>
+               <p xml:id="TAca84-d1e1623-d1e545">
+                  <lb ed="#L" n="4"/>AD TERTIUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="5"/>accusatio non reddatur iniusta per 
+ca<lb break="no" ed="#L" n="6"/>lumniam, praevaricationem et 
+tergiver<lb break="no" ed="#L" n="7"/>sationem. Quia sicut dicitur II, qu. iu,
+<lb ed="#L" n="8"/>calumniari est falsa crimina intendere. Sed 
+quan<lb break="no" ed="#L" n="9"/>doque aliquis alteri falsum crimen obiicit ex 
+igno<lb break="no" ed="#L" n="10"/>rantia facti, quae excusat. Ergo videtur quod non
+<lb ed="#L" n="11"/>semper reddatur iniusta accusatio si sit 
+calu<lb break="no" ed="#L" n="12"/>mniosa.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e567">
+                  <lb ed="#L" n="13"/>2. PRAETEREA, ibidem dicitur quod praevaricari
+<lb ed="#L" n="14"/>est vera crimina abscondere. Sed hoc non 
+vide<lb break="no" ed="#L" n="15"/>tur esse illicitum: quia homo non tenetur ad
+<lb ed="#L" n="16"/>omnia crimina detegenda, ut supra dictum est.
+<lb ed="#L" n="17"/>Ergo videtur quod accusatio non reddatur, ini;
+<lb ed="#L" n="18"/>sta ex praevaricatione.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e584">
+                  <lb ed="#L" n="19"/>3. PRAETEREA, sicut ibidem. dicitur, tergiversari
+<lb ed="#L" n="20"/>est in universo ab accusatione desistere. Sed hoc
+<lb ed="#L" n="21"/>absque iniustitia fieri potest: dicitur enim ibi0
+<lb ed="#L" n="22"/>dem: <quote xml:id="TAca84-d1e1623-Qd1e594">Si quem poenituerit criminaliter 
+accusa<lb break="no" ed="#L" n="23"/>tionem. et inscriptionem fecisse de eo quod probare
+<lb ed="#L" n="24"/>non potuerit, si ei cum accusato innocente 
+con<lb break="no" ed="#L" n="25"/>venerit, invicem se absolvant</quote>. Ergo accusatio non
+<lb ed="#L" n="26"/>redditur iniusta per tergiversationem.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e607">
+                  <lb ed="#L" n="27"/>SED coNTRA EsT quod ibidem dicitur: 
+Accusa<lb break="no" ed="#L" n="28"/>torum temeritas tribus modis detegitur: aut enim
+<lb ed="#L" n="29"/>calumniantur , aut praevaricantur , aut 
+lergiver<lb break="no" ed="#L" n="30"/>santur.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e618">
+                  <lb ed="#L" n="31"/>RESPONDEO DICENDUM quod, sicut dictum est,
+<lb ed="#L" n="32"/>accusatio ordinatur ad bonum commune, quod
+<lb ed="#L" n="33"/>intenditur per cognitionem criminis. Nullus 
+au<lb break="no" ed="#L" n="34"/>tem debet alicui nocere iniuste ut bonum 
+com<lb break="no" ed="#L" n="35"/>mune promoveat. Et ideo in accusatione duplici
+<lb ed="#L" n="36"/>ratione contingit esse peccatum. Uno modo, ex
+<lb ed="#L" n="37"/>eo quod ? iniuste agit contra eum qui accusatur,
+<lb ed="#L" n="38"/>falsa crimina ei imponendo: quod est calumniari. -
+<lb ed="#L" n="39"/>Alio modo, ex parte reipublicae, cuius bonum
+<lb ed="#L" n="40"/>principaliter intenditur in accusatione ; dum 
+ali<lb break="no" ed="#L" n="41"/>quis impedit malitiose punitionem peccati. Quod
+<lb ed="#L" n="42"/>iterum dupliciter contingit. Uno modo, fraudem
+</p>
+               <p xml:id="TAca84-d1e1623-d1e647">
+<!--dicitur enim ibi-\-->
+                  <cb ed="#L" n="b"/>
+                  <lb ed="#L" n="43"/>in accusatione adhibendo. Et hoc pertinet ad
+<lb ed="#L" n="44"/>praevaricationem : nam praevaricator est Y quasi
+<lb ed="#L" n="45"/>varicator ,. qui adversam. partem. adiuvat, prodita
+<lb ed="#L" n="46"/>causa sua. — Alio. modo, totaliter ab accusatione
+<lb ed="#L" n="47"/>desistendo. : Quod. est fergiversari: in hoc enim
+<lb ed="#L" n="48"/>quod desistit ab hoc quod coeperat, quasi 
+fer<lb break="no" ed="#L" n="49"/>gum verlere videtur.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e669">
+                  <lb ed="#L" n="50"/>AD PRIMUM ERGO DICENDUM quod homo non 
+de<lb break="no" ed="#L" n="51"/>bet, ad accusationem procedere nisi de re sibi
+<lb ed="#L" n="52"/>omnino certa, in quo ignorantia facti locum non
+<lb ed="#L" n="53"/>habeat. - Nec tamen qui falsum crimen alicui
+<lb ed="#L" n="54"/>imponit calumniatur: sed solum qui ex malitia
+<lb ed="#L" n="55"/>in falsam accusationem prorumpit. Contingit enim
+<lb ed="#L" n="56"/>q uandoque ex animi levitate ad accusationem
+<lb ed="#L" n="57"/>addat. quia scilicet aliquis nimis faciliter
+<lb ed="#L" n="58"/>credit quod audivit: et. hoc temeritatis est. 
+Ali<lb break="no" ed="#L" n="59"/>quando autem ex iusto errore movetur aliquis
+<lb ed="#L" n="60"/>ad accusandum. Quae omnia secundum 
+pruden<lb break="no" ed="#L" n="61"/>tiam iudicis debent discerni, ut non prorumpat
+<lb ed="#L" n="62"/>eum calumniatum fuisse. qui. vel ex levitate animi
+<lb ed="#L" n="63"/>vel ex iusto errore in falsam accusationem.
+<lb ed="#L" n="64"/>rupit.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e704">
+                  <lb ed="#L" n="65"/>AD SECUNDUM DICENDUM quod non quicumque
+<lb ed="#L" n="66"/>abscondit vera crimina praevaricatur: sed solum
+<lb ed="#L" n="67"/>si fraudulenter abscondit ea de quibus. 
+accusatio<lb break="no" ed="#L" n="68"/>nem proponit, colludens cum reo, proprias 
+pro<lb break="no" ed="#L" n="69"/>bationes dissimulando, et falsas excusationes 
+ad<lb break="no" ed="#L" n="70"/>mittendo.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e721">
+                  <lb ed="#L" n="71"/>AD TERTIUM DICENDUM quod tergiversari est. ou
+<lb ed="#L" n="72"/>accusatione desistere. omnino animum accusandi
+<lb ed="#L" n="73"/>deponendo, non qualitercumque, sed. inordinate.
+<lb ed="#L" n="74"/>Contingit autem aliquem ab accusatione desistere
+<lb ed="#L" n="75"/>ordinate absque vitio, dupliciter. Uno. modo, si t
+<lb ed="#L" n="76"/>in ipso accusationis processu cognoverit. falsum
+<lb ed="#L" n="77"/>esse id de quo accusabat ^, et si pari in
+<lb ed="#L" n="78"/>se absolvunt accusator et reus. - Alio modo; si
+<lb ed="#L" n="79"/>princeps, ad quem. pertinet cura boni communis
+<lb ed="#L" n="80"/>quod per accusationem intenditur, accusationem
+<lb ed="#L" n="81"/>aboleverit.
+</p>
+            </div>
+            <div xml:id="TAca84-d1e1623-Dd1e748"><!-- p2p2-q68a4" -->
+               <head xml:id="TAca84-d1e1623-Hd1e751">Articulus 4</head>
+               <head xml:id="TAca84-d1e1623-Hd1e753" type="question-title">Utrum accusator qui in probatione defecerit teneatur ad poenam talionis</head>
+               <p xml:id="TAca84-d1e1623-d1e756">
+                  <cb ed="#L" n="c"/>
+                  <lb ed="#L" n="37" type="fixed=107"/>ARTICULUS QUARTUS
+<lb ed="#L" n="38"/>UTRUM ACCUSATOR QUI IN PROBATIONE DEFECERIT TENEATUR AD POENAM TALIONIS
+</p>
+               <p xml:id="TAca84-d1e1623-d1e765">
+                  <cb ed="#L" n="d"/>
+                  <lb ed="#L" n="39"/>AD QUARTUM SIC PROCEDITUR. Videtur quod 
+<lb ed="#L" n="40"/>accusator qui in probatione defecerit
+<lb ed="#L" n="41"/>non teneatur ad poenam talionis. 
+Con<lb break="no" ed="#L" n="42"/>tingit enim quandoque aliquem ex iusto
+<lb ed="#L" n="43"/>errore ad accusationem procedere: in quo casu
+<lb ed="#L" n="44"/>iudex accusatorem absolvit, ut dicitur II, qu. iii.
+<lb ed="#L" n="45"/>Non ergo accusator qui in probatione defecerit 
+<lb ed="#L" n="46"/>tenetur ad poenam talionis.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e787">
+                  <lb ed="#L" n="47"/>2. PRAETEREA, si poena talionis ei qui iniuste
+<lb ed="#L" n="48"/>accusat sit iniungenda, hoc erit propter iniuriam
+<lb ed="#L" n="49"/>in aliquem commissam. Sed non propter 
+iniu<lb break="no" ed="#L" n="50"/>riam commissam in personam accusati: quia sic
+<lb ed="#L" n="51"/>princeps non posset hanc poenam remittere. Nec
+<lb ed="#L" n="52"/>etiam propter iniuriam illatam in rempublicam:
+<lb ed="#L" n="53"/>quia sic accusatus non posset eum absolvere.
+<lb ed="#L" n="54"/>Ergo poena talionis non debetur ei qui in 
+accu<lb break="no" ed="#L" n="55"/>satione defecerit.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e810">
+                  <lb ed="#L" n="56"/>3. PRAETEREA, eidem peccato non debetur 
+du<lb break="no" ed="#L" n="57"/>plex poena: secundum illud Nahum 1:: Non |
+<lb ed="#L" n="58"/>iudicabit Deus bis in idipsum. Sed ille qui in 
+pro<lb break="no" ed="#L" n="59"/>batione deficit incurrit poenam infamiae: quam
+<lb ed="#L" n="60"/>etiam Papa non videtur posse remittere, 
+secun<lb break="no" ed="#L" n="61"/>dum illud Gelasii Papae: Quanquam animas |
+<lb ed="#L" n="62"/>per poenitentiam salvare possimus, infamiam 
+1a<lb break="no" ed="#L" n="63"/>men abolere non possumus. Non ergo tenetur ad
+<lb ed="#L" n="64"/>poenam talionis.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e832">
+                  <lb ed="#L" n="65"/>SED CONTRA EsT quod <ref xml:id="TAca84-d1e1623-Rd1e836">
+                     <name xml:id="TAca84-d1e1623-Nd1e838">Hadrianus Papa</name>
+                  </ref> dicit:
+<quote xml:id="TAca84-d1e1623-Qd1e841">Qui non probaverit quod obiecit, poenam quam
+<lb ed="#L" n="66"/>intulerit ipse patiatur</quote>.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e847">
+                  <lb ed="#L" n="67"/>RESPONDEO DICENDUM quod, sicut supra dictum
+<lb ed="#L" n="68"/>est, accusator in causa accusationis constituitur
+<lb ed="#L" n="69"/>pars intendens ad poenam accusati. Ad iudicem
+<lb ed="#L" n="70"/>autem pertinet ut inter eos iustitiae aequalitatem
+<lb ed="#L" n="71"/>constituat. Iustitiae autem aequalitas hoc 
+requi<lb break="no" ed="#L" n="72"/>rit, ut nocumentum quod quis alteri intentat, ipse 
+<lb ed="#L" n="73"/>patiatur: secundum illud Exod. xxi: Oculum
+<cb ed="#L" n="e"/>
+                  <lb ed="#L" n="74"/>pro oculo, dentem pro dente. Et ideo iustum est
+<lb ed="#L" n="75"/>ut ille qui per accusationem aliquem in 
+pericu<lb break="no" ed="#L" n="76"/>lum gravis poenae inducit, ipse etiam similem
+<lb ed="#L" n="77"/>poenam patiatur.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e876">
+                  <lb ed="#L" n="78"/>AD PRIMUM ERGO DICENDUM quod, sicut 
+Philoso<lb break="no" ed="#L" n="79"/>phus dicit, in V Ethic., in iustitia non semper
+<lb ed="#L" n="80"/>competit contrapassum simpliciter: quia multum
+<lb ed="#L" n="81"/>differt an aliquis voluntarie an? involuntarie alium
+<lb ed="#L" n="82"/>laedat. Voluntarium autem meretur poenam, sed
+<lb ed="#L" n="83"/>involuntario debetur venia. Et ideo quando 
+iu<lb break="no" ed="#L" n="84"/>dex cognoverit aliquem de falso accusasse non
+<lb ed="#L" n="85"/>voluntate nocendi, sed involuntarie propter 
+igno<lb break="no" ed="#L" n="86"/>rantiam ex iusto errore, non imponit poenam
+<lb ed="#L" n="87"/>talionis.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e900">
+                  <lb ed="#L" n="88"/>AD SECUNDUM DICENDUM quod ille qui male 
+ac<lb break="no" ed="#L" n="89"/>cusat peccat et contra personam accusati, et 
+con<lb break="no" ed="#L" n="90"/>tra rempublicam. Unde propter utrumque 
+puni<lb break="no" ed="#L" n="91"/>tur. Et hoc est quod dicitur Deut. xix: Cumque,
+<lb ed="#L" n="92"/>diligentissime perscrutantes, invenerint falsum 
+te<lb break="no" ed="#L" n="93"/>stem dixisse contra fratrem suum mendacium,
+<lb ed="#L" n="94"/>reddent ei sicut fratri suo facere cogitavit, quod
+<lb ed="#L" n="95"/>pertinet ad iniuriam personae: et postea, 
+quan<lb break="no" ed="#L" n="96"/>tum  ad iniuriam reipublicae, subditur: Et 
+au<lb break="no" ed="#L" n="97"/>feres malum de medio tui: ut audientes ceteri 
+ti<lb break="no" ed="#L" n="98"/>morem habeant, et nequaquam talia audeant 
+fa<lb break="no" ed="#L" n="99"/>cere. Specialiter tamen personae accusati facit
+<lb ed="#L" n="100"/>iniuriam si de falso accuset: et ideo accusatus,
+<lb ed="#L" n="101"/>si innocens fuerit, potest ei iniuriam suam 
+remit<lb break="no" ed="#L" n="102"/>tere; maxime si non calumniose accusaverit,
+<lb ed="#L" n="103"/>sed ex animi levitate. Si vero ab accusatione 
+in<lb break="no" ed="#L" n="104"/>nocentis desistat propter aliquam collusionem
+<lb ed="#L" n="105"/>cum adversario, facit iniuriam reipublicae: et hoc
+<lb ed="#L" n="106"/>non potest ei remitti ab eo qui accusatur, sed
+<lb ed="#L" n="107"/>potest ei remitti per principem, qui curam 
+reipu<lb break="no" ed="#L" n="108"/>blicae gerit.
+</p>
+               <p xml:id="TAca84-d1e1623-d1e948">
+                  <lb ed="#L" n="109"/>AD TERTIUM DICENDUM quod poenam talionis me-
+<pb ed="#L" n="108"/>
+                  <cb ed="#L" n="a"/>
+                  <lb ed="#L" n="1"/>retur accusator in recompensationem nocumenti
+<lb ed="#L" n="2"/>quod proximo inferre intentat: sed poena 
+infa<lb break="no" ed="#L" n="3"/>miae ei debetur propter malitiam, ex qua 
+calu<lb break="no" ed="#L" n="4"/>mniose alium accusat. Et quandoque quidm 
+<lb ed="#L" n="5"/>princeps remittit poenam, et non abolet infamiam: 
+<lb ed="#L" n="6"/>quandoque autem etiam infamiam abolet. Unde
+<cb ed="#L" n="b"/>
+                  <lb ed="#L" n="7"/>et Papa potest huiusmodi infamiam abolere: et 
+<lb ed="#L" n="8"/>quod dicit Papa Gelasius, Infamiam abolere non 
+<lb ed="#L" n="9"/>possumus, intelligendum est vel de infamia fact, 
+<lb ed="#L" n="10"/>vel quia eam abolere aliquando non expedit. Vel 
+<lb ed="#L" n="11"/>etiam loquitur de infamia irrogata per iudciem 
+<lb ed="#L" n="12"/>civilem: sicut dicit <name xml:id="TAca84-d1e1623-Nd1e984">Gratianus</name>.
+</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
