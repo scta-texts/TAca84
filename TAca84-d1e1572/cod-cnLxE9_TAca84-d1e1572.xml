@@ -1,1355 +1,1355 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 58</title>
-            <author ref="#Aquinas">Thomas Aquinas</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 58</title>
-               <date when="2024-03-05">March 05, 2024</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2024-03-05" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="9"/>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 58</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 58</title>
+          <date when="2024-03-05">March 05, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLxE9">Rome, 1897, Vol. 9</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-03-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="9"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e1572"><!-- p2p2-q58" -->
+        <head xml:id="TAca84-d1e1572-Hd1e101">Quaestio 58</head>
+        <head xml:id="TAca84-d1e1572-Hd1e103" type="question-title">De iustitia</head>
+        <p xml:id="TAca84-d1e1572-d1e106">
+          <pb ed="#L" n="9"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=9"/>QUAESTIO QUINQUAGESIMAOCTAVA
+          <lb ed="#L" n="2"/>DE IUSTITIA
+          <lb ed="#L" n="3"/>IN DUODECIM ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e1572-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de. iustitia.
+          <lb ed="#L" n="5"/>Circa quam quaeruntur duodecim.
+          <lb ed="#L" n="6"/>Primo: quid sit iustitia. 
+          <lb ed="#L" n="7"/>Secundo: utrum iustitia semper sit ad alterum.
+          <lb ed="#L" n="8"/>Tertio: utrum sit virtus.
+          <lb ed="#L" n="9"/>Quarto: utrum sit in voluntate sicut in 
+          sub<lb break="no" ed="#L" n="10"/>iecto.
+          <lb ed="#L" n="11"/>Quinto: utrum sit virtus generalis.
+          <lb ed="#L" n="12"/>Sexto: utrum secundum quod est generalis,
+          <lb ed="#L" n="13"/>Sit idem in essentia cum omni virtute.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="14"/>Septimo: utrum sit aliqua iustitia particularis.
+          <lb ed="#L" n="15"/>Octavo: utrum iustitia particularis habeat 
+          pro<lb break="no" ed="#L" n="16"/>priam materiam.
+          <lb ed="#L" n="17"/>Nono: utrum sit circa passiones, vel circa 
+          ope<lb break="no" ed="#L" n="18"/>rationes tantum.
+          <lb ed="#L" n="19"/>Decimo: utrum medium iustitiae sit medium rei.
+          <lb ed="#L" n="20"/>Undecimo: utrum actus iustitiae sit reddere
+          <lb ed="#L" n="21"/>unicuique quod suum est.
+          <lb ed="#L" n="22"/>Duodecimo: utrum iustitia sit praecipua inter
+          <lb ed="#L" n="23"/>alias virtutes morales. 1
+        </p>
+        <div xml:id="TAca84-d1e1572-Dd1e169"><!-- p2p2-q58a1" -->
+          <head xml:id="TAca84-d1e1572-Hd1e172">Articulus 1</head>
+          <head xml:id="TAca84-d1e1572-Hd1e174" type="question-title">
+            utrum convenienter definiatur quod iustitia est constans
+            et perpetua voluntas ius suum unicuique tribuens
+          </head>
+          <p xml:id="TAca84-d1e1572-d1e177">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="24" type="fixed=9"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="25"/>UTRUM CONVENIENTER DEFINIATUR QUOD IUSTITIA EST CONSTANS
+            <lb ed="#L" n="26"/>ET PERPETUA VOLUNTAS IUS SUUM UNICUIQUE TRIBUENS
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e188">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="27"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="28"/>inconvenienter definiatur a iurisperitis
+            <lb ed="#L" n="29"/>quod iustitia est constans et perpetua
+            <lb ed="#L" n="30"/>venienter iustitia dicitur esse voluntas.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e201">
+            <lb ed="#L" n="31"/>2. PRAETEREA, rectitudo voluntatis non est 
+            vo<lb break="no" ed="#L" n="32"/>luntas : alioquin, si voluntas esset sua rectitudo,
+            <lb ed="#L" n="33"/>sequeretur quod nulla voluntas esset perversa.
+            <lb ed="#L" n="34"/>Sed secundum Anselmum, in libro de Veritate,
+            <lb ed="#L" n="35"/>iustitia est rectitudo. Ergo iustitia non est 
+            vo<lb break="no" ed="#L" n="36"/>luntas. .,
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e218">
+            <lb ed="#L" n="37"/>3. PRaETEREA, sola Dei voluntas est perpetua.
+            <lb ed="#L" n="38"/>Si ergo iustitia est perpetua voluntas, in solo Deo
+            <lb ed="#L" n="39"/>erit iustitia.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e227">
+            <lb ed="#L" n="40"/>4. PRAETEREA, omne perpetuum est constans:
+            <lb ed="#L" n="41"/>quia est immutabile. Superflue ergo utrumque
+            <lb ed="#L" n="42"/>ponitur in definitione iustitiae, et perpetuum et 
+            <lb ed="#L" n="43"/>constans.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e238">
+            <lb ed="#L" n="44"/>5. PRAETEREA, reddere ius unicuique pertinet
+            <lb ed="#L" n="45"/>ad principem. Si igitur iustitia sit ius suum 
+            uni<lb break="no" ed="#L" n="46"/>cuique tribuens, sequetur quod iustitia non sit
+            <lb ed="#L" n="47"/>nisi in principe. Quod est inconveniens.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e249">
+            <lb ed="#L" n="48"/>6. PRAETEREA P, Augustinus dicit, in libro de
+            <lb ed="#L" n="49"/>Moribus Eccles., quod iustitia est amor Deo 
+            tan<lb break="no" ed="#L" n="50"/>ium serviens. Non ergo reddit unicuique quod
+            <lb ed="#L" n="51"/>suum est.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e260">
+            <lb ed="#L" n="52"/>RESPONDEO DICENDUM quod praedicta iustitiae 
+            <lb ed="#L" n="53"/>definitio conveniens est, si recte intelligatur. Cum
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="54"/>enim omnis virtus sit habitus qui est principium
+            <lb ed="#L" n="55"/>boni actus, necesse est quod virtus. definiatur
+            <lb ed="#L" n="56"/>per actum bonum circa propriam materiam 
+            vir<lb break="no" ed="#L" n="57"/>tutis. Est autem iustitia? circa ea quae ad alterum
+            <lb ed="#L" n="58"/>sunt sicut circa propriam materiam, ut infra pa- ar.» s.
+            <lb ed="#L" n="59"/>tebit. Et ideo actus iustitiae per comparationem :
+            <lb ed="#L" n="60"/>ad propriam materiam et obiectum tangitur cum
+            <lb ed="#L" n="61"/>dicitur, zus suum unicuique tribuens: quia, ut 
+            Isi<lb break="no" ed="#L" n="62"/>dorus dicit, in libro Etymol., iustus dicitur quia 
+            <lb ed="#L" n="63"/>ius custodit. Ad hoc autem quod aliquis actus
+            <lb ed="#L" n="64"/>circa quamcumque materiam sit virtuosus, 
+            re<lb break="no" ed="#L" n="65"/>quiritur quod sit voluntarius, et quod sit stabilis
+            <lb ed="#L" n="66"/>et firmus: quia Philosophus dicit, in II Ethic., Capo n: 3a
+            <lb ed="#L" n="67"/>quod ad virtutis actum requiritur primo quidem " ^
+            <lb ed="#L" n="68"/>quod operetur sciens, secundo autem quod 
+            eli<lb break="no" ed="#L" n="69"/>gens et propter debitum finem, tertio quod  
+            im<lb break="no" ed="#L" n="70"/>mobiliter operetur. Primum autem horum 
+            in<lb break="no" ed="#L" n="71"/>cluditur in secundo: quia quod per ignorantiam
+            <lb ed="#L" n="72"/>agitur est involuntarium, ut dicitur in II Ethic. cap.
+            <lb ed="#L" n="73"/>Et ideo in definitione iustitiae primo ponitur 
+            yo<lb break="no" ed="#L" n="74"/>luntas, ad ostendendum quod actus iustitiae debet
+            <lb ed="#L" n="75"/>esse voluntarius. Additur autem de constantia et
+            <lb ed="#L" n="76"/>perpeluitate, ad designandum actus firmitatem.
+            <lb ed="#L" n="77"/>Et ideo praedicta definitio est completa definitio
+            <lb ed="#L" n="78"/>iustitiae, nisi quod actus ponitur pro habitu, qui
+            <lb ed="#L" n="79"/>per actum specificatur: habitus enim ad actum
+            <lb ed="#L" n="80"/>dicitur. Et si quis vellet ^ in debitam formam
+            <lb ed="#L" n="81"/>definitionis reducere, posset sic dicere: quod
+            <lb ed="#L" n="82"/>iustitia est habitus secundum quem aliquis 
+            con<lb break="no" ed="#L" n="83"/>stanti et perpetua voluntate ius suum unicuique h
+            <lb ed="#L" n="84"/>tribuit. - Et quasi est eadem definitio cum ea .
+            <lb ed="#L" n="85"/>quam Philosophus ponit, in V Ethic., dicens 
+            <pb ed="#L" n="10"/>
             <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="TAca84-d1e1572"><!-- p2p2-q58" -->
-            <head xml:id="TAca84-d1e1572-Hd1e101">Quaestio 58</head>
-            <head xml:id="TAca84-d1e1572-Hd1e103" type="question-title">De iustitia</head>
-            <p xml:id="TAca84-d1e1572-d1e106">
-               <pb ed="#L" n="9"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1" type="fixed=9"/>QUAESTIO QUINQUAGESIMAOCTAVA
-<lb ed="#L" n="2"/>DE IUSTITIA
-<lb ed="#L" n="3"/>IN DUODECIM ARTICULOS DIVISA
-</p>
-            <p xml:id="TAca84-d1e1572-d1e119">
-               <cb ed="#L" n="b"/>
-               <lb ed="#L" n="4"/>DEINDE considerandum est de. iustitia.
-<lb ed="#L" n="5"/>Circa quam quaeruntur duodecim.
-<lb ed="#L" n="6"/>Primo: quid sit iustitia. 
-<lb ed="#L" n="7"/>Secundo: utrum iustitia semper sit ad alterum.
-<lb ed="#L" n="8"/>Tertio: utrum sit virtus.
-<lb ed="#L" n="9"/>Quarto: utrum sit in voluntate sicut in 
-sub<lb break="no" ed="#L" n="10"/>iecto.
-<lb ed="#L" n="11"/>Quinto: utrum sit virtus generalis.
-<lb ed="#L" n="12"/>Sexto: utrum secundum quod est generalis,
-<lb ed="#L" n="13"/>Sit idem in essentia cum omni virtute.
-<cb ed="#L" n="c"/>
-               <lb ed="#L" n="14"/>Septimo: utrum sit aliqua iustitia particularis.
-<lb ed="#L" n="15"/>Octavo: utrum iustitia particularis habeat 
-pro<lb break="no" ed="#L" n="16"/>priam materiam.
-<lb ed="#L" n="17"/>Nono: utrum sit circa passiones, vel circa 
-ope<lb break="no" ed="#L" n="18"/>rationes tantum.
-<lb ed="#L" n="19"/>Decimo: utrum medium iustitiae sit medium rei.
-<lb ed="#L" n="20"/>Undecimo: utrum actus iustitiae sit reddere
-<lb ed="#L" n="21"/>unicuique quod suum est.
-<lb ed="#L" n="22"/>Duodecimo: utrum iustitia sit praecipua inter
-<lb ed="#L" n="23"/>alias virtutes morales. 1
-</p>
-            <div xml:id="TAca84-d1e1572-Dd1e169"><!-- p2p2-q58a1" -->
-               <head xml:id="TAca84-d1e1572-Hd1e172">Articulus 1</head>
-               <head xml:id="TAca84-d1e1572-Hd1e174" type="question-title">
-utrum convenienter definiatur quod iustitia est constans
-et perpetua voluntas ius suum unicuique tribuens
-</head>
-               <p xml:id="TAca84-d1e1572-d1e177">
-                  <cb ed="#L" n="d"/>
-                  <lb ed="#L" n="24" type="fixed=9"/>ARTICULUS PRIMUS
-<lb ed="#L" n="25"/>UTRUM CONVENIENTER DEFINIATUR QUOD IUSTITIA EST CONSTANS
-<lb ed="#L" n="26"/>ET PERPETUA VOLUNTAS IUS SUUM UNICUIQUE TRIBUENS
-</p>
-               <p xml:id="TAca84-d1e1572-d1e188">
-                  <cb ed="#L" n="e"/>
-                  <lb ed="#L" n="27"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="28"/>inconvenienter definiatur a iurisperitis
-<lb ed="#L" n="29"/>quod iustitia est constans et perpetua
-<lb ed="#L" n="30"/>venienter iustitia dicitur esse voluntas.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e201">
-                  <lb ed="#L" n="31"/>2. PRAETEREA, rectitudo voluntatis non est 
-vo<lb break="no" ed="#L" n="32"/>luntas : alioquin, si voluntas esset sua rectitudo,
-<lb ed="#L" n="33"/>sequeretur quod nulla voluntas esset perversa.
-<lb ed="#L" n="34"/>Sed secundum Anselmum, in libro de Veritate,
-<lb ed="#L" n="35"/>iustitia est rectitudo. Ergo iustitia non est 
-vo<lb break="no" ed="#L" n="36"/>luntas. .,
-</p>
-               <p xml:id="TAca84-d1e1572-d1e218">
-                  <lb ed="#L" n="37"/>3. PRaETEREA, sola Dei voluntas est perpetua.
-<lb ed="#L" n="38"/>Si ergo iustitia est perpetua voluntas, in solo Deo
-<lb ed="#L" n="39"/>erit iustitia.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e227">
-                  <lb ed="#L" n="40"/>4. PRAETEREA, omne perpetuum est constans:
-<lb ed="#L" n="41"/>quia est immutabile. Superflue ergo utrumque
-<lb ed="#L" n="42"/>ponitur in definitione iustitiae, et perpetuum et 
-<lb ed="#L" n="43"/>constans.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e238">
-                  <lb ed="#L" n="44"/>5. PRAETEREA, reddere ius unicuique pertinet
-<lb ed="#L" n="45"/>ad principem. Si igitur iustitia sit ius suum 
-uni<lb break="no" ed="#L" n="46"/>cuique tribuens, sequetur quod iustitia non sit
-<lb ed="#L" n="47"/>nisi in principe. Quod est inconveniens.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e249">
-                  <lb ed="#L" n="48"/>6. PRAETEREA P, Augustinus dicit, in libro de
-<lb ed="#L" n="49"/>Moribus Eccles., quod iustitia est amor Deo 
-tan<lb break="no" ed="#L" n="50"/>ium serviens. Non ergo reddit unicuique quod
-<lb ed="#L" n="51"/>suum est.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e260">
-                  <lb ed="#L" n="52"/>RESPONDEO DICENDUM quod praedicta iustitiae 
-<lb ed="#L" n="53"/>definitio conveniens est, si recte intelligatur. Cum
-<cb ed="#L" n="f"/>
-                  <lb ed="#L" n="54"/>enim omnis virtus sit habitus qui est principium
-<lb ed="#L" n="55"/>boni actus, necesse est quod virtus. definiatur
-<lb ed="#L" n="56"/>per actum bonum circa propriam materiam 
-vir<lb break="no" ed="#L" n="57"/>tutis. Est autem iustitia? circa ea quae ad alterum
-<lb ed="#L" n="58"/>sunt sicut circa propriam materiam, ut infra pa- ar.» s.
-<lb ed="#L" n="59"/>tebit. Et ideo actus iustitiae per comparationem :
-<lb ed="#L" n="60"/>ad propriam materiam et obiectum tangitur cum
-<lb ed="#L" n="61"/>dicitur, zus suum unicuique tribuens: quia, ut 
-Isi<lb break="no" ed="#L" n="62"/>dorus dicit, in libro Etymol., iustus dicitur quia 
-<lb ed="#L" n="63"/>ius custodit. Ad hoc autem quod aliquis actus
-<lb ed="#L" n="64"/>circa quamcumque materiam sit virtuosus, 
-re<lb break="no" ed="#L" n="65"/>quiritur quod sit voluntarius, et quod sit stabilis
-<lb ed="#L" n="66"/>et firmus: quia Philosophus dicit, in II Ethic., Capo n: 3a
-<lb ed="#L" n="67"/>quod ad virtutis actum requiritur primo quidem " ^
-<lb ed="#L" n="68"/>quod operetur sciens, secundo autem quod 
-eli<lb break="no" ed="#L" n="69"/>gens et propter debitum finem, tertio quod  
-im<lb break="no" ed="#L" n="70"/>mobiliter operetur. Primum autem horum 
-in<lb break="no" ed="#L" n="71"/>cluditur in secundo: quia quod per ignorantiam
-<lb ed="#L" n="72"/>agitur est involuntarium, ut dicitur in II Ethic. cap.
-<lb ed="#L" n="73"/>Et ideo in definitione iustitiae primo ponitur 
-yo<lb break="no" ed="#L" n="74"/>luntas, ad ostendendum quod actus iustitiae debet
-<lb ed="#L" n="75"/>esse voluntarius. Additur autem de constantia et
-<lb ed="#L" n="76"/>perpeluitate, ad designandum actus firmitatem.
-<lb ed="#L" n="77"/>Et ideo praedicta definitio est completa definitio
-<lb ed="#L" n="78"/>iustitiae, nisi quod actus ponitur pro habitu, qui
-<lb ed="#L" n="79"/>per actum specificatur: habitus enim ad actum
-<lb ed="#L" n="80"/>dicitur. Et si quis vellet ^ in debitam formam
-<lb ed="#L" n="81"/>definitionis reducere, posset sic dicere: quod
-<lb ed="#L" n="82"/>iustitia est habitus secundum quem aliquis 
-con<lb break="no" ed="#L" n="83"/>stanti et perpetua voluntate ius suum unicuique h
-<lb ed="#L" n="84"/>tribuit. - Et quasi est eadem definitio cum ea .
-<lb ed="#L" n="85"/>quam Philosophus ponit, in V Ethic., dicens 
-<pb ed="#L" n="10"/>
-                  <cb ed="#L" n="a"/>
-                  <lb ed="#L" n="1"/>quod iustitia est habitus secundum quem aliquis
-<lb ed="#L" n="2"/>dicitur operativus secundum electionem iusti.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e347">
-                  <lb ed="#L" n="3"/>AD PRIMUM ERGO DICENDUM quod voluntas hic 
-no<lb break="no" ed="#L" n="4"/>minat actum, non potentiam. Est autem 
-consue<lb break="no" ed="#L" n="5"/>tum quod apud auctores habitus per actus 
-de<lb break="no" ed="#L" n="6"/>finiantur: sicut Augustinus dicit, super Ioan.,
-<lb ed="#L" n="7"/>quod fides est credere quod non vides.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e361">
-                  <lb ed="#L" n="8"/>AD SECUNDUM DICENDUM quod neque etiam 
-iu<lb break="no" ed="#L" n="9"/>stitia est essentialiter rectitudo, sed causaliter
-<lb ed="#L" n="10"/>tantum: est enim habitus secundum quem aliquis
-<lb ed="#L" n="11"/>recte operatur et vult.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e372">
-                  <lb ed="#L" n="12"/>AD TERTIUM DICENDUM quod voluntas potest dici
-<lb ed="#L" n="13"/>perpetua dupliciter. Uno modo, ex parte ipsius
-<lb ed="#L" n="14"/>actus, qui perpetuo durat. Et sic solius Dei 
-vo<lb break="no" ed="#L" n="15"/>luntas est perpetua. Alio modo, ex parte obiecti:
-<lb ed="#L" n="16"/>quia scilicet aliquis vult perpetuo facere aliquid.
-<lb ed="#L" n="17"/>Et hoc requiritur ad rationem iustitiae. Non enim
-<lb ed="#L" n="18"/>sufficit ad rationem iustitiae quod aliquis velit ad
-<lb ed="#L" n="19"/>horam in aliquo negotio servare iustitiam, quia
-<lb ed="#L" n="20"/>vix invenitur aliquis qui velit in omnibus iniuste
-<cb ed="#L" n="b"/>
-                  <lb ed="#L" n="21"/>agere: sed requiritur quod homo habeat 
-volunta<lb break="no" ed="#L" n="22"/>tem perpetuo et in omnibus iustitiam conservandi.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e401">
-                  <lb ed="#L" n="23"/>AD QUARTUM DICENDUM quod quia perpetuum
-<lb ed="#L" n="24"/>non accipitur secundum durationem perpetuam
-<lb ed="#L" n="25"/>actus voluntatis, non superflue additur consíans:
-<lb ed="#L" n="26"/>ut sicut per hoc quod dicitur perpetua voluntas
-<lb ed="#L" n="27"/>designatur quod aliquis gerat in proposito 
-per<lb break="no" ed="#L" n="28"/>petuo iustitiam conservandi, ita etiam per hoc
-<lb ed="#L" n="29"/>quod dicitur constans designatur quod in hoc
-<lb ed="#L" n="30"/>proposito firmiter perseveret.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e421">
-                  <lb ed="#L" n="31"/>AD QUINTUM DICENDUM quod iudex reddit quod
-<lb ed="#L" n="32"/>suum est per modum imperantis et dirigentis:
-<lb ed="#L" n="33"/>quia iudex est iustum. animatum, et princeps est
-<lb ed="#L" n="34"/>custos iusti, ut dicitur in V. Ethic. Sed subditi
-<lb ed="#L" n="35"/>reddunt quod suum est unicuique per modum $
-<lb ed="#L" n="36"/>executionis.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e437">
-                  <lb ed="#L" n="37"/>AD SEXTUM DICENDUM quod sicut in dilectione
-<lb ed="#L" n="38"/>Dei includitur dilectio proximi, ut supra dictum
-<lb ed="#L" n="39"/>est; ita etiam in hoc quod homo servit Deo
-<lb ed="#L" n="40"/>includitur quod unicuique reddat quod. debet.
-</p>
-            </div>
-            <div xml:id="TAca84-d1e1572-Dd1e450"><!-- p2p2-q58a2" -->
-               <head xml:id="TAca84-d1e1572-Hd1e453">Articulus 2</head>
-               <head xml:id="TAca84-d1e1572-Hd1e455" type="question-title">Utrum iustitia semper sit ad alterum</head>
-               <p xml:id="TAca84-d1e1572-d1e458">
-                  <cb ed="#L" n="c"/>
-                  <lb ed="#L" n="41" type="fixed=10"/>ARTICULUS SECUNDUS
-<lb ed="#L" n="42"/>UTRUM IUSTITIA SEMPER SIT AD ALTERUM
-</p>
-               <p xml:id="TAca84-d1e1572-d1e467">
-                  <cb ed="#L" n="d"/>
-                  <lb ed="#L" n="43"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="44"/>iustitia non semper sit ad alterum. Dicit
-<lb ed="#L" n="45"/>enim Apostolus, ad Rom. i, quod
-<lb ed="#L" n="46"/>iustitia Dei est per fidem Iesu Christi.
-<lb ed="#L" n="47"/>Sed fides non dicitur per comparationem unius
-<lb ed="#L" n="48"/>hominis ad alterum. Ergo neque iustitia.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e485">
-                  <lb ed="#L" n="49"/>2. PRAETEREA, secundum Augustinum, in libro
-<lb ed="#L" n="50"/>de Moribus Eccles., ad iustitiam pertinet, ob
-<lb ed="#L" n="51"/>hoc quod servit Deo, bene imperare ceteris, quae
-<lb ed="#L" n="52"/>homini sunt subiecta. Sed appetitus sensitivus est
-<lb ed="#L" n="53"/>homini subiectus: ut patet Gen. iv, ubi dicitur:
-<lb ed="#L" n="54"/>Subter te erit appetitus eius, scilicet peccati, ef
-<lb ed="#L" n="55"/>tu dominaberis illius. Ergo ad iustitiam pertinet
-<lb ed="#L" n="56"/>dominari proprio appetitui. Et sic erit iustitia
-<lb ed="#L" n="57"/>ad seipsum.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e508">
-                  <lb ed="#L" n="58"/>3. PRAETEREA, iustitia Dei est aeterna. Sed
-<lb ed="#L" n="59"/>nihil aliud fuit ^ Deo coaeternum. Ergo de 
-ra<lb break="no" ed="#L" n="60"/>tione iustitiae non est quod sit ad alterum.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e517">
-                  <lb ed="#L" n="61"/>4. PRAETEREA, sicut operationes quae sunt ad
-<lb ed="#L" n="62"/>alterum indigent rectificari, ita etiam operationes
-<lb ed="#L" n="63"/>quae sunt ad seipsum. Sed per iustitiam 
-rectifi<lb break="no" ed="#L" n="64"/>cantur operationes: secundum illud Pro». xi:
-<lb ed="#L" n="65"/>Iustitia simplicis dirigit 5 viam eius. Ergo iustitia
-<lb ed="#L" n="66"/>non solum est circa ea quae sunt ad alterum,
-<lb ed="#L" n="67"/>sed etiam circa ea quae sunt ad seipsum.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e535">
-                  <lb ed="#L" n="68"/>SEp coNTRA EsT quod <ref xml:id="TAca84-d1e1572-Rd1e539">Tullius dicit, in I de
-<lb ed="#L" n="69"/>Offic.</ref>, quod iustitiae ea ratio est qua. societas
-<lb ed="#L" n="70"/>hominum inter ipsos, et vilae communilas 
-conti<lb break="no" ed="#L" n="71"/>netur. Sed hoc importat respectum ad alterum.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e549">
-                  <lb ed="#L" n="72"/>Ergo iustitia est solum circa ea quae sunt ad
-<lb ed="#L" n="73"/>alterum.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e556">
-                  <lb ed="#L" n="74"/>RESPONDEO DICENDUM rm sicut supra dicti m
-<lb ed="#L" n="75"/>est, cum nomen iustitiae aequalitatem importe!
-<lb ed="#L" n="76"/>ex sua ratione iustitia habet quod sit ad alterum:
-<lb ed="#L" n="77"/>nihil enim est sibi aequale, sed alteri. Et q
-<lb ed="#L" n="78"/>ad iustitiam pertinet actus humanos rectificare,
-<lb ed="#L" n="79"/>ut dictum est*, necesse est quod alietas ? ista
-<lb ed="#L" n="80"/>quam requirit iustitia, sit diversorum agere po- s
-<lb ed="#L" n="81"/>tentium. Actiones autem sunt suppositorum . 2?
-<lb ed="#L" n="82"/>totorum, non autem, proprie loquendo, partium
-<lb ed="#L" n="83"/>et formarum, seu potentiarum: non enim proprie
-<lb ed="#L" n="84"/>dicitur quod manus percutiat, sed homo per 
-ma<lb break="no" ed="#L" n="85"/>num; neque proprie dicitur quod calor calefaciat,
-<lb ed="#L" n="86"/>sed ignis per calorem. Secundum tamen 
-simili<lb break="no" ed="#L" n="87"/>tudinem quandam haec dicuntur. Iustitia ergo
-<lb ed="#L" n="88"/>proprie dicta requirit diversitatem suppositorum :
-<lb ed="#L" n="89"/>et ideo non est nisi unius hominis ad alium. Sed
-<lb ed="#L" n="90"/>secundum similitudinem. accipiuntur in uno e
-<lb ed="#L" n="91"/>eodem homine diversa principia actionum quasi
-<lb ed="#L" n="92"/>diversa agentia: sicut ratio et irascibilis et 
-con<lb break="no" ed="#L" n="93"/>cupiscibilis. Et ideo metaphorice in uno et eodem
-<lb ed="#L" n="94"/>homine dicitur esse iustitia, secandum quod. ratio
-<lb ed="#L" n="95"/>imperat irascibili et concupiscibili, et secundun
-<lb ed="#L" n="96"/>quod hae obediunt rationi, et universaliter .
-se<lb break="no" ed="#L" n="97"/>cundum quod unicuique parti hominis attribui tur
-<lb ed="#L" n="98"/>quod ei convenit. Unde Philosophus, in V Ethic, ^
-<lb ed="#L" n="99"/>hanc iustitiam appellat secundum melaphoram 
-di<lb break="no" ed="#L" n="100"/>ctam.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e617">
-                  <pb ed="#L" n="11"/>
-                  <cb ed="#L" n="a"/>
-                  <lb ed="#L" n="1"/>AD PRIMUM ERGO DICENDUM quod .iustitia quae
-<lb ed="#L" n="2"/>fit per fidem in nobis, est per quam iustificatur
-<lb ed="#L" n="3"/>impius, quae quidem in ipsa debita ordinatione
-<lb ed="#L" n="4"/>partium animae consistit: sicut supra dictum
-<lb ed="#L" n="5"/>est, cum de iustificatione impii ageretur. Hoc |
-<lb ed="#L" n="6"/>autem pertinet ad iustitiam metaphorice dictam,
-<lb ed="#L" n="7"/>quae potest inveniri etiam in aliquo solitariam
-<lb ed="#L" n="8"/>vitam agente.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e642">
-                  <lb ed="#L" n="9"/>Et per hoc patet responsio ad secundum.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e647">
-                  <lb ed="#L" n="10"/>AD TERTIUM DICENDUM quod iustitia Dei est ab
-<lb ed="#L" n="11"/>aeterno secundum voluntatem et propositum aeter-
-<cb ed="#L" n="b"/>
-                  <lb ed="#L" n="12"/>num: et in hoc praecipue iustitia consistit. Quamvis
-<lb ed="#L" n="13"/>secundum effectum non sit ab aeterno: quia nihil
-<lb ed="#L" n="14"/>est Deo coaeternum.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e663">
-                  <lb ed="#L" n="15"/>AD QUARTUM DICENDUM quod actiones quae sunt
-<lb ed="#L" n="16"/>hominis ad seipsum sufficienter rectificantur 
-recti<lb break="no" ed="#L" n="17"/>ficatis passionibus per alias virtutes morales. Sed
-<lb ed="#L" n="18"/>actiones quae sunt ad alterum indigent speciali
-<lb ed="#L" n="19"/>rectificatione, non solum per comparationem ad
-<lb ed="#L" n="20"/>agentem, sed etiam per comparationem ad eum
-<lb ed="#L" n="21"/>ad quem sunt. Et ideo circa eas est specialis
-<lb ed="#L" n="22"/>virtus, quae est iustitia.
-</p>
-            </div>
-            <div xml:id="TAca84-d1e1572-Dd1e684"><!-- p2p2-q58a3" -->
-               <head xml:id="TAca84-d1e1572-Hd1e687">Articulus 3</head>
-               <head xml:id="TAca84-d1e1572-Hd1e689" type="question-title">Utrum iustitia sit virtus</head>
-               <p xml:id="TAca84-d1e1572-d1e692">
-                  <cb ed="#L" n="f"/>
-                  <lb ed="#L" n="45" type="fixed=11"/>ARTICULUS TERTIUS
-<lb ed="#L" n="46"/>UTRUM IUSTITIA SIT VIRTUS
-</p>
-               <p xml:id="TAca84-d1e1572-d1e701">
-                  <cb ed="#L" n="g"/>
-                  <lb ed="#L" n="47"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="48"/>iustitia non sit virtus. Dicitur enim Luc.
-<lb ed="#L" n="49"/>xvi: Cum feceritis omnia quae 
-prae<lb break="no" ed="#L" n="50"/>cepta sunt vobis, dicite: Servi inutiles
-<lb ed="#L" n="51"/>sumus , quod debuimus facere fecimus. Sed non
-<lb ed="#L" n="52"/>est inutile facere opus virtutis: dicit enim .
-<ref xml:id="TAca84-d1e1572-Rd1e718">Am<lb break="no" ed="#L" n="53"/>brosius, in Il de Offic.</ref>: Utilitatem non 
-pecunia<lb break="no" ed="#L" n="54"/>rii lucri aestimationem dicimus, sed acquisitionem
-<lb ed="#L" n="55"/>pietatis. Ergo facere quod quis debet facere non
-<lb ed="#L" n="56"/>est opus virtutis. Est autem opus iustitiae. Ergo
-<lb ed="#L" n="57"/>iustitia non est virtus.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e733">
-                  <lb ed="#L" n="58"/>2. PRAETEREA, quod fit ex necessitate non est
-<lb ed="#L" n="59"/>meritorium. Sed reddere alicui quod suum est,
-<lb ed="#L" n="60"/>quod pertinet ad iustitiam, est necessitatis. Ergo
-<lb ed="#L" n="61"/>non est meritorium. Actibus autem virtutum 
-me<lb break="no" ed="#L" n="62"/>remur. Ergo iustitia non est virtus.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e747">
-                  <lb ed="#L" n="63"/>3. PRAETEREA, omnis virtus moralis est circa
-<lb ed="#L" n="64"/>agibilia. Ea autem quae exterius constituuntur
-<lb ed="#L" n="65"/>non sunt agibilia, sed factibilia: ut patet per 
-Phi<lb break="no" ed="#L" n="66"/>losophum, in IX Metaphys. Cum igitur ad 
-iu<lb break="no" ed="#L" n="67"/>stitiam pertineat exterius facere aliquod opus 
-se<lb break="no" ed="#L" n="68"/>cundum se iustum, videtur quod iustitia non sit
-<lb ed="#L" n="69"/>virtus moralis.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e765">
-                  <lb ed="#L" n="70"/>Sep coNTRA EST quod <ref xml:id="TAca84-d1e1572-Rd1e769">Gregorius dicit, in II 
-Mo<lb break="no" ed="#L" n="71"/>ral.</ref>, quod in quatuor virtutibus, scilicet 
-tempe<lb break="no" ed="#L" n="72"/>rantia, prudentia, fortitudine et iustitia, tota boni ?
-<lb ed="#L" n="73"/>operis structura consurgit.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e779">
-                  <lb ed="#L" n="74"/>RESPONDEO DICENDUM quod virtus humana est
-<lb ed="#L" n="75"/>quae bonum reddit actum humanum , et ipsum
-<lb ed="#L" n="76"/>hominem bonum facit. Quod quidem convenit
-<lb ed="#L" n="77"/>iustitiae. Actus enim hominis bonus redditur ex
-<cb ed="#L" n="h"/>
-                  <lb ed="#L" n="78"/>hoc quod attingit regulam rationis, secundum
-<lb ed="#L" n="79"/>quam humani actus rectificantur. Unde cum 
-iu<lb break="no" ed="#L" n="80"/>stitia operationes humanas rectificet, manifestum
-<lb ed="#L" n="81"/>est quod opus hominis bonum reddit. Et ut 
-<ref xml:id="TAca84-d1e1572-Rd1e800">Tul<lb break="no" ed="#L" n="82"/>lius dicit, in I de Offic.</ref>, ex iustitia praecipue
-<lb ed="#L" n="83"/>viri boni nominantur. Unde, sicut ibidem dicit,
-<lb ed="#L" n="84"/>in ea virtutis splendor est maximus.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e811">
-                  <lb ed="#L" n="85"/>AD PRIMUM ERGO DICENDUM quod cum aliquis
-<lb ed="#L" n="86"/>facit quod debet, non affert utilitatem lucri ei
-<lb ed="#L" n="87"/>cui facit quod debet, sed solum abstinet a damno
-<lb ed="#L" n="88"/>eius. Sibi tamen facit utilitatem, inquantum 
-spon<lb break="no" ed="#L" n="89"/>tanea et prompta voluntate facit illud quod debet,
-<lb ed="#L" n="90"/>quod est virtuose agere. Unde dicitur Sap. vi
-<lb ed="#L" n="91"/>quod sapientia Dei sobrietatem et iustitiam docet,
-<lb ed="#L" n="92"/>prudentiam et virtutem; quibus in .vita nihil est
-<lb ed="#L" n="93"/>ulilius hominibus, scilicet virtuosis.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e833">
-                  <lb ed="#L" n="94"/>AD SECUNDUM DICENDUM quod duplex est 
-neces<lb break="no" ed="#L" n="95"/>sitas. Una coactionis: et haec, quia repugnat 
-vo<lb break="no" ed="#L" n="96"/>luntati, tollit rationem meriti. Alia autem est 
-ne<lb break="no" ed="#L" n="97"/>cessitas ex obligatione praecepti, sive ex 
-neces<lb break="no" ed="#L" n="98"/>sitate finis: quando scilicet aliquis non potest 
-con<lb break="no" ed="#L" n="99"/>sequi finem virtutis nisi hoc faciat. Et talis 
-ne<lb break="no" ed="#L" n="100"/>cessitas non excludit rationem meriti: inquantum
-<lb ed="#L" n="101"/>aliquis hoc quod sic est necessarium voluntarie
-<lb ed="#L" n="102"/>agit. Excludit tamen gloriam supererogationis :
-<lb ed="#L" n="103"/>secundum illud I ad Cor. ix: Si evangelizavero,
-<lb ed="#L" n="104"/>non est mihi gloria: necessitas enim mihi incumbit.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e859">
-                  <lb ed="#L" n="105"/>AD TERTIUM DICENDUM quod iustitia non 
-consi<lb break="no" ed="#L" n="106"/>stit circa exteriores res quantum ad facere, quod
-<lb ed="#L" n="107"/>pertinet ad artem: sed quantum ad hoc quod
-<lb ed="#L" n="108"/>utitur eis ad alterum.
-</p>
-            </div>
-            <div xml:id="TAca84-d1e1572-Dd1e871"><!-- p2p2-q58a4" -->
-               <head xml:id="TAca84-d1e1572-Hd1e874">Articulus 4</head>
-               <head xml:id="TAca84-d1e1572-Hd1e876" type="question-title">Utrum iustitia sit in voluntate sicut in subiecto</head>
-               <p xml:id="TAca84-d1e1572-d1e879">
-                  <cb ed="#L" n="d"/>
-                  <lb ed="#L" n="17" type="fixed=12"/>ARTICULUS QUARTUS
-<lb ed="#L" n="18"/>UTRUM IUSTITIA SIT IN VOLUNTATE SICUT IN SUBIECTO
-</p>
-               <p xml:id="TAca84-d1e1572-d1e888">
-                  <cb ed="#L" n="e"/>
-                  <lb ed="#L" n="19"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="20"/>iniustitia non sit in voluntate sicut in 
-sub<lb break="no" ed="#L" n="21"/>lecto. Iustitia enim. quandoque veritas
-<lb ed="#L" n="22"/>dicitur. Sed veritas non est voluntatis,
-<lb ed="#L" n="23"/>sed Sperm Ergo iustitia non est in voluntate
-<lb ed="#L" n="24"/>sicut in subiecto.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e906">
-                  <lb ed="#L" n="25"/>2. PRAETEREA, iustitia est circa ea quae sunt
-<lb ed="#L" n="26"/>ad alterum. Sed ordinare aliquid ad alterum est
-<lb ed="#L" n="27"/>rationis. Iustitia ergo non est in voluntate sicut
-<lb ed="#L" n="28"/>in subiecto, sed magis in ratione.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e918">
-                  <lb ed="#L" n="29"/>3. PRAETEREA, iustitia non est virtus esl:
-<lb ed="#L" n="30"/>lis: cum non ordinetur ad cognitionem. Unde
-<lb ed="#L" n="31"/>relinquitur quod sit virtus moralis. Sed subiectum
-<lb ed="#L" n="32"/>virtutis moralis est rationale per participationem,
-<lb ed="#L" n="33"/>quod. est irascibilis et concupiscibilis: ut patet
-<lb ed="#L" n="34"/>per <ref xml:id="TAca84-d1e1572-Rd1e933">Philosophum, in I Ethic.</ref> Ergo iustitia non
-<lb ed="#L" n="35"/>est in voluntate sicut in subiecto, sed magis in
-<lb ed="#L" n="36"/>irascibili et concupiscibili.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e940">
-                  <lb ed="#L" n="37"/>SED coNTRA EsT quod <name xml:id="TAca84-d1e1572-Nd1e944">Anselmus</name> dicit, quod
-<lb ed="#L" n="38"/>iustitia est rectitudo voluntatis propter se servata.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e949">
-                  <lb ed="#L" n="39"/>REsPONDEO DICENDUM quod illa potentia est 
-sub<lb break="no" ed="#L" n="40"/>iectum virtutis ad cuius potentiae actum 
-rectifi<lb break="no" ed="#L" n="41"/>candum virtus ordinatur. Iustitia autem non 
-ordi<lb break="no" ed="#L" n="42"/>natur ad dirigendum aliquem actum 
-cognosciti<lb break="no" ed="#L" n="43"/>vum: non enim dicimur iusti ex hoc quod recte
-<lb ed="#L" n="44"/>aliquid cognoscimus. Et ideo subiectum iustitiae
-<lb ed="#L" n="45"/>non est intellectus vel ratio, quae est potentia
-<lb ed="#L" n="46"/>cognoscitiva. .
-</p>
-               <p xml:id="TAca84-d1e1572-d1e969">
-                  <lb ed="#L" n="47"/>Sed quia iusti. dicimur in hoc quod aliquid
-<lb ed="#L" n="48"/>recte agimus; proximum autem principium actyug
-<lb ed="#L" n="49"/>est vis appetitiva; necesse est quod iustitia sit in
-<cb ed="#L" n="f"/>
-                  <lb ed="#L" n="50"/>aliqua vi appetitiva sicut in subiecto. Est autem
-<lb ed="#L" n="51"/>duplex appetitus: scilicet voluntas, quae est in
-<lb ed="#L" n="52"/>ratione; et appetitus sensitivus consequeris 
-ap<lb break="no" ed="#L" n="53"/>prehensionem sensus, qui dividitur per 
-irascibi<lb break="no" ed="#L" n="54"/>lem et concupiscibilem, ut in Primo habitum
-<lb ed="#L" n="55"/>est. Reddere autem unicuique quod suum est
-<lb ed="#L" n="56"/>non potest procedere ex appetitu sensitivo: quia
-<lb ed="#L" n="57"/>apprehensio sensitiva non se extendit ad hoc quod
-<lb ed="#L" n="58"/>considerare possit proportionem unius ad 
-alte<lb break="no" ed="#L" n="59"/>rum, sed hoc est proprium rationis. Unde iustitia
-<lb ed="#L" n="60"/>nor potest esse sicut in subiecto in irascibili vel
-<lb ed="#L" n="61"/>concupiscibili, sed solum in voluntate. Et ideo
-<lb ed="#L" n="62"/>Philosophus definit iustitiam per actum 
-volunta<lb break="no" ed="#L" n="63"/>tis, ut ex supradictis patet.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1011">
-                  <lb ed="#L" n="64"/>AD PRIMUM ERGO DICENDUM quod quia voluntas
-<lb ed="#L" n="65"/>est appetitus rationalis, ideo rectitudo  rationis,
-<lb ed="#L" n="66"/>quae veritas dicitur, voluntati impressa, propter
-<lb ed="#L" n="67"/>propinquitatem ad rationem, nomen retinet 
-veri<lb break="no" ed="#L" n="68"/>tatis. Et inde est quod quandoque iustitia 
-veri<lb break="no" ed="#L" n="69"/>tas vocatur.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1027">
-                  <lb ed="#L" n="70"/>AD SECUNDUM DICENDUM quod voluntas fertur in
-<lb ed="#L" n="71"/>suum obiectum consequenter ad E
-<lb ed="#L" n="72"/>rationis. Et ideo, quia ratio ordinat in alterum
-<lb ed="#L" n="73"/>voluntas potest velle aliquid. in ordine ad d
-<lb ed="#L" n="74"/>rum, quod pertinet ad iustitiam.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1041">
-                  <lb ed="#L" n="75"/>AD TERTIUM DICENDUM quod rationale per 
-partici<lb break="no" ed="#L" n="76"/>pationem non solum est irasci et concupi
-<lb ed="#L" n="77"/>bilis, sed omnino appetitivum, ut dicitur ini
-<lb ed="#L" n="78"/>Ethic.: quia omnis appetitus obedit rationi. Sub
-<lb ed="#L" n="79"/>appetitivo autem comprehenditur voluntas. Et ideo
-<lb ed="#L" n="80"/>voluntas potest esse subiectum virtutis moralis.
-</p>
-            </div>
-            <div xml:id="TAca84-d1e1572-Dd1e1058"><!-- p2p2-q58a5" -->
-               <head xml:id="TAca84-d1e1572-Hd1e1061">Articulus 5</head>
-               <head xml:id="TAca84-d1e1572-Hd1e1063" type="question-title">Utrum iustitia sit virtus generalis</head>
-               <p xml:id="TAca84-d1e1572-d1e1066">
-                  <pb ed="#L" n="13"/>
-                  <cb ed="#L" n="a"/>
-                  <lb ed="#L" n="1" type="fixed=13"/>ARTICULUS QUINTUS.
-<lb ed="#L" n="2"/>UTRUM IUSTITIA SIT VIRTUS GENERALIS
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1077">
-                  <cb ed="#L" n="b"/>
-                  <lb ed="#L" n="3"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="4"/>iustitia non sit virtus generalis. Iustitia
-<lb ed="#L" n="5"/>enim condividitur aliis. virtutibus: ut
-<lb ed="#L" n="6"/>patet Sap. vin: Sobrietatem et. 
-iusti<lb break="no" ed="#L" n="7"/>tiam docet, prudentiam et virtutem. Sed generale
-<lb ed="#L" n="8"/>non condividitur seu connumeratur speciebus sub
-<lb ed="#L" n="9"/>illo. generali contentis. - iustitia non est 
-vir<lb break="no" ed="#L" n="10"/>tus. generalis.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1099">
-                  <lb ed="#L" n="11"/>2. PRAETEREA, Sicut iuit ponitur virtus 
-car<lb break="no" ed="#L" n="12"/>dimi; ita etiam temperantia et fortitudo. Sed
-<lb ed="#L" n="13"/>temperantia vel fortitudo non ponitur virtus 
-ge<lb break="no" ed="#L" n="14"/>neralis: Ergo neque iustitia debet aliquo modo
-<lb ed="#L" n="15"/>poni virtus generalis.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1113">
-                  <lb ed="#L" n="16"/>3. PRAETEREA, iustitia est semper ad alterum,
-<lb ed="#L" n="17"/>ut supra dictum est. Sed peccatum quod est
-<lb ed="#L" n="18"/>in proximum non est peccatum generale, sed
-<lb ed="#L" n="19"/>dividitur contra. peccatum quo peccat homo 
-con<lb break="no" ed="#L" n="20"/>tra seipsum. Ergo etiam neque iustitia est virtus
-<lb ed="#L" n="21"/>generalis.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1129">
-                  <lb ed="#L" n="22"/>SED CONTRA EST quod <ref xml:id="TAca84-d1e1572-Rd1e1133">Philosophus dicit, in V
-<lb ed="#L" n="23"/>Ethic.</ref>, quod iustitia est omnis virtus.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1139">
-                  <lb ed="#L" n="24"/>RESPONDEO DICENDUM quod iustitia, sicut dictum
-<lb ed="#L" n="25"/>est; ordinat hominem in comparatione ad alium.
-<lb ed="#L" n="26"/>d quidem potest esse dupliciter. Uno: modo,
-<lb ed="#L" n="27"/>ad alium singulariter consideratum. Alio modo,
-<lb ed="#L" n="28"/>ad alium in communi: secundum scilicet quod
-<lb ed="#L" n="29"/>ille: qui servit alicui communitati servit omnibus
-<lb ed="#L" n="30"/>hominibus qui. sub communitate illa. continentur.
-<lb ed="#L" n="31"/>Ad. utrumque igitur se potest habere iustitia 
-se<lb break="no" ed="#L" n="32"/>-cundum propriam rationem. Manifestum est 
-au<lb break="no" ed="#L" n="33"/>tem quod omnes qui sub. communitate aliqua
-<lb ed="#L" n="34"/>continentur comparantur ad communitatem sicut
-<lb ed="#L" n="35"/>partes ad totum. Pars autem id quod est totius
-<lb ed="#L" n="36"/>est: unde et quodlibet bonum: partis est 
-ordina<lb break="no" ed="#L" n="37"/>bile:in bonum totius. Secundum hoc igitur bo-
-<cb ed="#L" n="c"/>
-                  <lb ed="#L" n="38"/>num cuiuslibet. virtutis, sive ordinantis aliquem
-<lb ed="#L" n="39"/>hominem ad seipsum sive ordinantis ipsum ad
-<lb ed="#L" n="40"/>aliquas alias personas singulares, est referibile ad
-<lb ed="#L" n="41"/>bonum commune, ad quod ordinat ' iustitia. Et
-<lb ed="#L" n="42"/>secundum hoc actus omnium virtutum possunt ad
-<lb ed="#L" n="43"/>iustitiam pertinere, secundum quod ordinat 
-homi<lb break="no" ed="#L" n="44"/>nem ad bonum commune. Et quantum ad hoc 
-iu<lb break="no" ed="#L" n="45"/>stitia dicitur virtus generalis. Et quia ad legem 
-per<lb break="no" ed="#L" n="46"/>tinet ordinare in bonum commune, ut supra 
-ha<lb break="no" ed="#L" n="47"/>bitum est, inde est quod talis iustitia, praedicto
-<lb ed="#L" n="48"/>modo generalis, dicitur iustitia legalis: quia 
-sci<lb break="no" ed="#L" n="49"/>licet per'eam homo concordat legi ordinanti actus
-<lb ed="#L" n="50"/>omnium virtutum in bonum commune.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1202">
-                  <lb ed="#L" n="51"/>AD PRIMUM ERGO DICENDUM quod iustitia 
-condi<lb break="no" ed="#L" n="52"/>viditur seu connumeratur aliis virtutibus non 
-in<lb break="no" ed="#L" n="53"/>quantam est generalis, sed inquantum est 
-specia<lb break="no" ed="#L" n="54"/>lis virtus, ut infra dicetur.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1213">
-                  <lb ed="#L" n="55"/>AD SECUNDUM DICENDUM quod temperantia et
-<lb ed="#L" n="56"/>fortitudo sunt in appetitu sensitivo, idest in: 
-cori<lb break="no" ed="#L" n="57"/>cupiscibili et irascibili. Huiusmodi autem vires
-<lb ed="#L" n="58"/>sunt appetitivae quorundam bonorum 
-particula<lb break="no" ed="#L" n="59"/>rium: sicut et sensus est particularium 
-cognosci<lb break="no" ed="#L" n="60"/>tivus. Sed iustitia est sicut in' subiecto in 
-appe<lb break="no" ed="#L" n="61"/>titu intellectivo, qui potest esse universalis boni,
-<lb ed="#L" n="62"/>cuius intellectus est apprehensivus. Et ideo 
-iu<lb break="no" ed="#L" n="63"/>stitia magis potest esse virtus generalis quam
-<lb ed="#L" n="64"/>temperantia vel fortitudo.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1237">
-                  <lb ed="#L" n="65"/>AD TERTIUM DICENDUM quod illa quae sunt ad
-<lb ed="#L" n="66"/>seipsum sunt ordinabilia ad. alterum, praecipue
-<lb ed="#L" n="67"/>quantum ad- bonum commune. Unde et iustitia
-<lb ed="#L" n="68"/>legalis, secundum quod ordinat ab bonum 
-com<lb break="no" ed="#L" n="69"/>mune, potest dici virtus generalis; et eadem 
-ra<lb break="no" ed="#L" n="70"/>tione ifiustitia potest dici peccatum commune:
-<lb ed="#L" n="71"/>unde dicitur I Ioan. III quod omne peccatum
-<lb ed="#L" n="72"/>est iniquitas.
-</p>
-            </div>
-            <div xml:id="TAca84-d1e1572-Dd1e1258"><!-- p2p2-q58a6" -->
-               <head xml:id="TAca84-d1e1572-Hd1e1261">Articulus 6</head>
-               <head xml:id="TAca84-d1e1572-Hd1e1263" type="question-title">
-utrum iustitia secundum quod est generalis sit idem per essentiam
-cum omni virtute
-</head>
-               <p xml:id="TAca84-d1e1572-d1e1266">
-                  <cb ed="#L" n="d"/>
-                  <lb ed="#L" n="73" type="fixed=13"/>ARTICULUS SEXTUS.
-<lb ed="#L" n="74"/>UTRUM IUSTITI; SECUNDUM QUOD EST GENERALIS SIT IDEM PER ESSENTIAM
-<lb ed="#L" n="75"/>CUM OMNI VIRTUTE
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1277">
-                  <cb ed="#L" n="e"/>
-                  <lb ed="#L" n="76"/>AD SEXTUM SIC PROCEDITUR, Videtur quod
-<lb ed="#L" n="77"/>a iustitia, secundum quod. est generalis;
-<lb ed="#L" n="78"/>sit idem per essentiam. cum. omni
-<lb ed="#L" n="79"/>virtute. Dicit enim Philosophus, in V
-<lb ed="#L" n="80"/>Ethic. quod virtus et iustitia. legalis est eadem
-<lb ed="#L" n="81"/>omni virtuti, esse autem non est idem. Sed illa
-<lb ed="#L" n="82"/>quae differunt solum secundum esse, vel 
-secun<lb break="no" ed="#L" n="83"/>dum rationem, non differunt secundum essen-
-<cb ed="#L" n="f"/>
-                  <lb ed="#L" n="84"/>tiam. Ergo iustitia est idem per essentiam. cum
-<lb ed="#L" n="85"/>omni virtute.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1306">
-                  <lb ed="#L" n="86"/>2. PRAETEREA, omnis virtus quae non. est idem
-<lb ed="#L" n="87"/>per essentiam. cum omni virtute, est pare 
-virtu<lb break="no" ed="#L" n="88"/>tis, Sed. iustitia. praedicta, ut ibidem 
-Philoso<lb break="no" ed="#L" n="89"/>phus dicit, non est pars virtutis, sed tota virtus.
-<lb ed="#L" n="90"/>Ergo. praedicta iustitia. est idem essentialiter cum
-<lb ed="#L" n="91"/>omni virtute.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1323">
-                  <pb ed="#L" n="14"/>
-                  <cb ed="#L" n="a"/>
-                  <lb ed="#L" n="1"/>3. PRAETEREA, per hoc quod aliqua virtus 
-or<lb break="no" ed="#L" n="2"/>dinat actum :suum ad altiorem finem, non. 
-di<lb break="no" ed="#L" n="3"/>versificatur secundum essentiam habitus : sicut
-<lb ed="#L" n="4"/>idem est essentialiter habitus temperantiae, etiam
-<lb ed="#L" n="5"/>si actus eius ordinetur ad bonum divinum. Sed
-<lb ed="#L" n="6"/>adiustitiam legalem pertinet quod actus omnium
-<lb ed="#L" n="7"/>virtutum - ordinentur ad altiorem . finem, idest
-<lb ed="#L" n="8"/>ad bonum commune multitudinis, quod. 
-praeemi<lb break="no" ed="#L" n="9"/>net bono unius singularis. personae. Ergo -
-vi<lb break="no" ed="#L" n="10"/>detur quod iustitia. legalis essentialiter. sit .omnis
-<lb ed="#L" n="11"/>virtus.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1354">
-                  <lb ed="#L" n="12"/>4. PRAETEREA, omne bonum. partis -ordinabile
-<lb ed="#L" n="13"/>est ad. bonum totius: unde si non. ordinetur in
-<lb ed="#L" n="14"/>illud;..videtur esse vanum et. frustra, Sed illud
-<lb ed="#L" n="15"/>quod est secundum virtutem non. potest esse 
-hu<lb break="no" ed="#L" n="16"/>iusmodi. Ergo videtur quod nullus actus possit
-<lb ed="#L" n="17"/>esse alicuius virtutis qui non pertineat ad 
-iusti<lb break="no" ed="#L" n="18"/>tiam. generalem, quae ordinat in bonum 
-com<lb break="no" ed="#L" n="19"/>mune. Et sic videtur quod iustitia generalis sit
-<lb ed="#L" n="20"/>idem in essentia cum omni. virtute.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1376">
-                  <lb ed="#L" n="21"/>SEp coNTRA EsT quod. <ref xml:id="TAca84-d1e1572-Rd1e1380">Philosophus dicit, in. V
-<lb ed="#L" n="22"/>Ethic.</ref>, quod. multi in. propriis. quidem possunt
-<lb ed="#L" n="23"/>virtule uti, in his autem quae ad alterum non
-<lb ed="#L" n="24"/>possunt. Et in <ref xml:id="TAca84-d1e1572-Rd1e1389">III Polit.</ref> dicit quod non est 
-sim<lb break="no" ed="#L" n="25"/>pliciter eadem. virtus boni viri et boni civis. Sed
-<lb ed="#L" n="26"/>virtus boni civis est iustitia generalis, per quam
-<lb ed="#L" n="27"/>aliquis ordinatur ad bonum.commune. Ergo non
-<lb ed="#L" n="28"/>est eadem iustitia generalis cum virtute communi?,
-<lb ed="#L" n="29"/>sed una potest sine alia haberi.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1403">
-                  <lb ed="#L" n="30"/>RESPONDEO DICENDUM quod generale. dicitur 
-ali<lb break="no" ed="#L" n="31"/>quid dupliciter. Uno modo, per. praedicationem:
-<lb ed="#L" n="32"/>sicut animal est generale ad hominem et equum
-<lb ed="#L" n="33"/>et ad alia huiusmodi. Et hoc modo generale 
-opor<lb break="no" ed="#L" n="34"/>tet quod sit idem essentialiter cum his ad quae
-<lb ed="#L" n="35"/>est generale: quia genus pertinet ad. essentiam
-<lb ed="#L" n="36"/>speciei et cadit in definitione eius. - Alio modo
-<lb ed="#L" n="37"/>dicitur aliquid generale secundum virtutem : 
-sic<lb break="no" ed="#L" n="38"/>ut causa universalis est generalis ad omnes. 
-ef<lb break="no" ed="#L" n="39"/>fectus, ut sol ad omnia corpora, quae 
-illuminan<lb break="no" ed="#L" n="40"/>tur vel immutantur per virtutem ipsius. Et hoc
-<lb ed="#L" n="41"/>modo generale non oportet quod sit idem in es-
-<cb ed="#L" n="b"/>
-                  <lb ed="#L" n="42"/>sentia cum his ad quae est generale: quia non
-<lb ed="#L" n="43"/>est eadem essentia causae et effectus.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1438">
-                  <lb ed="#L" n="44"/>Hoc autem modo, secundum praedicta, iustitia
-<lb ed="#L" n="45"/>legalis dicitur esse virtus generalis : inquantum
-<lb ed="#L" n="46"/>scilicet ordinat actus aliarum virtutum ad suum
-<lb ed="#L" n="47"/>finem, quod est movere per imperium omnes
-<lb ed="#L" n="48"/>alias virtutes. Sicut enim caritas potest dici 
-vir<lb break="no" ed="#L" n="49"/>tus generalis inquantum ordinat actus omnium
-<lb ed="#L" n="50"/>virtutum ad bonum divinum, ita etiam iustitia
-<lb ed="#L" n="51"/>legalis inquantum ordinat actus omnium virtutum
-<lb ed="#L" n="52"/>ad bonum commune. Sicut ergo caritas, quae 
-re<lb break="no" ed="#L" n="53"/>spicit bonum divinum ut proprium obiectum, est
-<lb ed="#L" n="54"/>quaedam specialis virtus secundum suam  
-essen<lb break="no" ed="#L" n="55"/>tiam; ita etiam iustitia legalis est specialis virtus
-<lb ed="#L" n="56"/>secundum. suam essentiam, secundum quod  
-re<lb break="no" ed="#L" n="57"/>spicit commune bonum. ut: proprium obiectum.
-<lb ed="#L" n="58"/>Et sic est in principe principaliter, et quasi 
-ar<lb break="no" ed="#L" n="59"/>chitectonice ; in subditis autem. secundario et
-<lb ed="#L" n="60"/>quasi ministrative.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1477">
-                  <lb ed="#L" n="61"/>Potest tamen quaelibet virtus, secundutia quod
-<lb ed="#L" n="62"/>a praedicta. virtute, speciali quidem: in essentia ,
-<lb ed="#L" n="63"/>generali autem 'secundum virtutem, ordinatur ad
-<lb ed="#L" n="64"/>bonum commune, dici iustitia legalis. Et hoc.
-<lb ed="#L" n="65"/>modo loquendi iustitia legalis est idem in 
-essen<lb break="no" ed="#L" n="66"/>tia cum omni virtute, differt autem ratione. Et
-<lb ed="#L" n="67"/>hoc modo loquitur Philosophus. :
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1496">
-                  <lb ed="#L" n="68"/>Unde patet responsio ad primum et se in dili sort
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1501">
-                  <lb ed="#L" n="69"/>AD TERTIUM DICENDUM quod etiam illa ratio. 
-se<lb break="no" ed="#L" n="70"/>cundum hunc modum procedit de iustitia legali,
-<lb ed="#L" n="71"/>secundum quod virtus imperata a iustitia legali
-<lb ed="#L" n="72"/>iustitia legalis dicitur. 6
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1512">
-                  <lb ed="#L" n="73"/>AD QUARTUM DICENDUM quod quaelibet virtus
-<lb ed="#L" n="74"/>secundum propriam rationem ordinat actum suum
-<lb ed="#L" n="75"/>ad proprium. finem illius virtutis. Quod autem
-<lb ed="#L" n="76"/>ordinetur ad ulteriorem finem, sive semper sive
-<lb ed="#L" n="77"/>aliquando, hoc non habet ex propria ratione, sed
-<lb ed="#L" n="78"/>oportet esse aliam superiorem virtutem a qua
-<lb ed="#L" n="79"/>in illum finem ordinetur. Et sic oportet. esse
-<lb ed="#L" n="80"/>unam virtutem superiorem quae ordinet omnes
-<lb ed="#L" n="81"/>virtutes in bonum commune, quae. est iustitia
-<lb ed="#L" n="82"/>legalis, et est alia per essentiam ab omni virtute.
-</p>
-            </div>
-            <div xml:id="TAca84-d1e1572-Dd1e1537"><!-- p2p2-q58a7" -->
-               <head xml:id="TAca84-d1e1572-Hd1e1540">Articulus 7</head>
-               <head xml:id="TAca84-d1e1572-Hd1e1542" type="question-title">Utrum sit aliqua iustitia particularis praeter iustitiam generalem</head>
-               <p xml:id="TAca84-d1e1572-d1e1545">
-                  <cb ed="#L" n="c"/>
-                  <lb ed="#L" n="83" type="fixed=14"/>ARTICULUS SEPTIMUS
-<lb ed="#L" n="84"/>UTRUM SIT ALIQUA IUSTITIA PARTICULARIS PRAETER IUSTITIAM GENERALEM
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1554">
-                  <lb ed="#L" n="85"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="86"/>non sit aliqua iustitia particularis praeter
-<lb ed="#L" n="87"/>iustitiam generalem. In virtutibus enim
-<lb ed="#L" n="88"/>nihil est superfluum: sicut nec in 
-na<lb break="no" ed="#L" n="89"/>tura. Sed iustitia generalis sufficienter ordinat 
-ho<lb break="no" ed="#L" n="90"/>minem circa omnia quae ad alterum sunt. Ergo
-<lb ed="#L" n="91"/>non est necessaria aliqua iustitia particularis.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1572">
-                  <lb ed="#L" n="92"/>2. PRAETEREA, unum et multa non diversificant
-<lb ed="#L" n="93"/>speciem virtutis. Sed iustitia legalis ordinat ho-
-<cb ed="#L" n="d"/>
-                  <lb ed="#L" n="94"/>minem ad alium secundum ea quae ad 
-multitu<lb break="no" ed="#L" n="95"/>dinem pertinent, ut ex praedictis patet. E
-<lb ed="#L" n="96"/>non est alia species iustitae quae ordinet ho:
-<lb ed="#L" n="97"/>minem ad alterum in his quae pertinent ad. unam
-<lb ed="#L" n="98"/>singularem personam.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1593">
-                  <lb ed="#L" n="99"/>3. PRAETEREA, inter unam singularem personam
-<lb ed="#L" n="100"/>et multitudinem civitatis media est multitudo 
-do<lb break="no" ed="#L" n="101"/>mestica. Si ergo est iustitia alia particularis per
-<lb ed="#L" n="102"/>comparationem ad unam personam praeter iu-
-<pb ed="#L" n="15"/>
-                  <cb ed="#L" n="a"/>
-                  <lb ed="#L" n="1"/>stitiam, generalem, pari ratione debet esse alia
-<lb ed="#L" n="2"/>iustitia oeconomica, quae ordinet hominem. ad
-<lb ed="#L" n="3"/>bonum: commune unius. familiae. Quod quidem
-<lb ed="#L" n="4"/>non dicitur. Ergo nec aliqua: poca iustitia
-<lb ed="#L" n="5"/>est praeter: iustitiam legalem.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1619">
-                  <lb ed="#L" n="6"/>SED CONTRA EST quod. Chrysostomus dicit s 
-su<lb break="no" ed="#L" n="7"/>per illud Matth. v, « Beati qui esuriunt et sitiunt
-<lb ed="#L" n="8"/>iustitiam » : Iustitiam autem dicit vel universalem
-<lb ed="#L" n="9"/>virtutem, vel particularem. avaritiae contrariam.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1630">
-                  <lb ed="#L" n="10"/>RESPONDEO DICENDUM quod; sicut.:dictum est,
-<lb ed="#L" n="11"/>iustitia legalis non: est essentialiter. omnis virtus;
-<lb ed="#L" n="12"/>sed oportet praeter iustitiam legalem, quae 
-ordi<lb break="no" ed="#L" n="13"/>nat hominem immediate ad bonum «commune;
-<lb ed="#L" n="14"/>esse alias virtutes quae immediate ordinant ho-
-<lb ed="#L" n="15"/>minem circa particularia bona. Quae quidem
-<lb ed="#L" n="16"/>possunt esse: vel ad seipsum, vel. ad. alteram 
-sin<lb break="no" ed="#L" n="17"/>» gularem. personam..Sicut ergo praeter iustitiam
-<lb ed="#L" n="18"/>legalem oportet esse aliquas virtutes particulares
-<lb ed="#L" n="19"/>quae ordinant ? hominem in. seipso, puta 
-tempe<lb break="no" ed="#L" n="20"/>rantiam :et- fortitudinem ; ita etiam praeter 
-iusti<lb break="no" ed="#L" n="21"/>—tiam legalem oportet esse particularem quandam
-<lb ed="#L" n="22"/>iustitiam, quae ordinet hominem circa ea quae
-<lb ed="#L" n="23"/>sunt ad alteram singularem personam.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1663">
-                  <lb ed="#L" n="24"/>AD PRIMUM ERGO DICENDUM quod iustitia legalis
-<cb ed="#L" n="b"/>
-                  <lb ed="#L" n="25"/>sufficienter quidem ordinat hominem in his quae
-<lb ed="#L" n="26"/>sunt ad alterum; quantum.ad commune quidem
-<lb ed="#L" n="27"/>bonum, immediate; quantum- autem ad bonum
-<lb ed="#L" n="28"/>unius singularis: personae; mediate. Et ideo 
-opor<lb break="no" ed="#L" n="29"/>tet esse aliquam particularem: iustitiam, quae 
-im<lb break="no" ed="#L" n="30"/>mediate ordinet hominem ad. bonuin alterius sin*
-<lb ed="#L" n="31"/>gularis personae.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1685">
-                  <lb ed="#L" n="32"/>AD SECUNDUM DICENDUM quod bonum commune
-<lb ed="#L" n="33"/>civitatis:et bonum singulare: unius personae non
-<lb ed="#L" n="34"/>differunt: solum. secundum multum: et. paucum;
-<lb ed="#L" n="35"/>sed secundum formalem differentiam :. alia: enim
-<lb ed="#L" n="36"/>est. ratio boni: communis et boni singularis, sicut
-<lb ed="#L" n="37"/>et-alia est ratio- totius et partis. Et ideo: 
-Philoso<lb break="no" ed="#L" n="38"/>phus; in 1 Poliz., dicit quod non bene dicunt qui
-<lb ed="#L" n="39"/>dicunt civitatem el domum.et alia. huiusmodi 
-dif<lb break="no" ed="#L" n="40"/>ferre solum multitudine et paucitate, et non specie.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1707">
-                  <lb ed="#L" n="41"/>AD TERTIUM DICENDUM quod domestica multi
-<lb ed="#L" n="42"/>tudo, secundum <ref xml:id="TAca84-d1e1572-Rd1e1713">Philosophum, in 1 Polit.</ref>, 
-distin<lb break="no" ed="#L" n="43"/>guitur secundum tres coniugationes, scilicet 
-uxo<lb break="no" ed="#L" n="44"/>ris et viri, patris et filii; domini et servi, quarum
-<lb ed="#L" n="45"/>personarum una est quasi aliquid alterius. Et ideo
-<lb ed="#L" n="46"/>ad huiusmodi personam non est simpliciter 
-iu<lb break="no" ed="#L" n="47"/>stitia, sed quaedam iustitiae. species, scilicet 
-oe<lb break="no" ed="#L" n="48"/>conomica, ut dicitur in <ref xml:id="TAca84-d1e1572-Rd1e1728">V Ethic.</ref>
-               </p>
-            </div>
-            <div xml:id="TAca84-d1e1572-Dd1e1733"><!-- p2p2-q58a8" -->
-               <head xml:id="TAca84-d1e1572-Hd1e1736">Articulus 8</head>
-               <head xml:id="TAca84-d1e1572-Hd1e1738" type="question-title">Utrum iustitia particularis habeat materiam specialem</head>
-               <p xml:id="TAca84-d1e1572-d1e1741">
-                  <cb ed="#L" n="f"/>
-                  <lb ed="#L" n="70" type="fixed=15"/>ARTICULUS OCTAVUS
-<lb ed="#L" n="71"/>UTRUM IUSTITIA PARTICULARIS HABEAT MATERIAM SPECIALEM
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1750">
-                  <cb ed="#L" n="g"/>
-                  <lb ed="#L" n="72"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="73"/>iustitia particularis non habeat materiam
-<lb ed="#L" n="74"/>specialem. Quia super illud Gen. u
-<lb ed="#L" n="75"/>Fluvius. quartus. ipse est. Euphrates, 
-di<lb break="no" ed="#L" n="76"/>cit. Glossa: Euphrates «.frugifer » interpretatur.
-<lb ed="#L" n="77"/>Nec dicitur contra quod vadat, quia. iustitia .ad
-<lb ed="#L" n="78"/>omnes animae partes pertinet. Hoc autem non
-<lb ed="#L" n="79"/>esset si haberet materiam specialem: quia 
-quae<lb break="no" ed="#L" n="80"/>libet materia specialis ad aliquam specialem. 
-po<lb break="no" ed="#L" n="81"/>tentiam pertinet. Ergo iustitia patiucularis non
-<lb ed="#L" n="82"/>habet materiam specialem.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1779">
-                  <lb ed="#L" n="83"/>2. PRAETEREA, <ref xml:id="TAca84-d1e1572-Rd1e1783">Augustinus, in libro. Octo 
-ginta<lb break="no" ed="#L" n="84"/>trium. Quaest.</ref>, dicit. quod. quatuor sunt animae
-<lb ed="#L" n="85"/>virtutes , quibus. in. hac vita. spiritualiter vivitur,
-<lb ed="#L" n="86"/>scilicet prudentia, temperantia, fortitudo, iustitia :
-<cb ed="#L" n="h"/>
-                  <lb ed="#L" n="87"/>et dicit. quod. quarta est iustitia, quae per omnes
-<lb ed="#L" n="88"/>diffunditur. Ergo iustitia, particularis, quae est una
-<lb ed="#L" n="89"/>de.quatuor virtutibus cardinalibus, non habet 
-spe<lb break="no" ed="#L" n="90"/>cialem. materiam.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1805">
-                  <lb ed="#L" n="91"/>3. PRAETEREA, iustitia dirigit hominem 
-sufficien<lb break="no" ed="#L" n="92"/>ter in his quae sunt ad. alterum. Sed per omnia
-<lb ed="#L" n="93"/>quae. sunt. huius . vitae. homo. potest ordinari ad
-<lb ed="#L" n="94"/>alterum. Ergo materia iustitiae est generalis, non ?
-<lb ed="#L" n="95"/>specialis. 
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1818">
-                  <lb ed="#L" n="96"/>SED CONTRA EST quod <ref xml:id="TAca84-d1e1572-Rd1e1822">Philosophus, in V Ethic.</ref>,
-<lb ed="#L" n="97"/>ponit iustitiam particularem circa ea, specialiter
-<lb ed="#L" n="98"/>quae pertinent ad. communicationem vitae.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1829">
-                  <lb ed="#L" n="99"/>RESPONDEO DICENDUM quod omnia quaecumque
-<lb ed="#L" n="100"/>rectificari possunt per rationem sunt materia
-<lb ed="#L" n="101"/>virtutis. moralis, quae. definitur. per rationem  re-
-<pb ed="#L" n="16"/>
-                  <cb ed="#L" n="a"/>
-                  <lb ed="#L" n="1"/>ctam, ut patet per <ref xml:id="TAca84-d1e1572-Rd1e1844">Philosophum, in II Ethic.</ref>
-                  <lb ed="#L" n="2"/>Possunt autem. per rationem. rectificari et inte
-<lb ed="#L" n="3"/>riores animae passiones, et exteriores actiones, 
-<lb ed="#L" n="4"/>et res exteriores quae in. usum hominis veniunt:
-<lb ed="#L" n="5"/>sed tamen per exteriores actiones et: per-
-exte<lb break="no" ed="#L" n="6"/>riores res, quibus ' sibi invicem homines 
-commu<lb break="no" ed="#L" n="7"/>nicare possunt, attenditur ordinatio: unius 
-homi<lb break="no" ed="#L" n="8"/>nis. ad alium ?; secundum autem. interiores 
-pas<lb break="no" ed="#L" n="9"/>siones consideratur: rectificatio hominis in. seipso.
-<lb ed="#L" n="10"/>Et ideo, cum iustitia ordinetur. ad. alterum; rion
-<lb ed="#L" n="11"/>est circa totam materiam virtutis: moralis; sed 
-so<lb break="no" ed="#L" n="12"/>lum circa. exteriores actiones et res secundum
-<lb ed="#L" n="13"/>quandam rationem obiecti specialem, prout scilicet
-<lb ed="#L" n="14"/>secundum .eas unus homo alteri coordinatur.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1875">
-                  <lb ed="#L" n="15"/>AD PRIMUM ERGO DICENDUM quod. iustitia 
-perti<lb break="no" ed="#L" n="16"/>net quidem essentialiter ad. unam partem animae,
-<lb ed="#L" n="17"/>in qua est. sicut in subiecto, scilicet ad. 
-volunta<lb break="no" ed="#L" n="18"/>tem, quae quidem. movet. per suum imperium
-<lb ed="#L" n="19"/>omnes alias animae. partes. Et sic iustitia. non
-<lb ed="#L" n="20"/>directe, sed quasi per quandam redundantiam ad
-<lb ed="#L" n="21"/>omnes animae. partes pertinet.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1893">
-                  <cb ed="#L" n="b"/>
-                  <lb ed="#L" n="22"/>AD SECUNDUM DICENDUM quod, sicut supra 
-di<lb break="no" ed="#L" n="23"/>ctum. est, virtutes: cardinales dupliciter 
-accipiun<lb break="no" ed="#L" n="24"/>tur. Uno modo, secundum quod sunt speciales 
-vir<lb break="no" ed="#L" n="25"/>tutes habentes determinatas materias. Alio modo,
-<lb ed="#L" n="26"/>secundum quod significant quosdam: generales
-<lb ed="#L" n="27"/>modos virtutis; Et hoc modo loquitur ibi 
-Augu<lb break="no" ed="#L" n="28"/>sunus. Dicit enim quod prudentia est cognitio
-<lb ed="#L" n="29"/>rerum appetendarum et. fugiendarum ; 
-temperan<lb break="no" ed="#L" n="30"/>tia est refrenatio cupiditatis: ab his quae 
-tempo<lb break="no" ed="#L" n="31"/>raliter delectant; fortitudo est firmitas: animi 
-ad<lb break="no" ed="#L" n="32"/>versus ea quae temporaliter molesta sunt; 
-iusti<lb break="no" ed="#L" n="33"/>tia est, quae per ceteras diffunditur, dilectio: Dei
-<lb ed="#L" n="34"/>et. proximi, quae- scilicet est communis. radix 
-to<lb break="no" ed="#L" n="35"/>tius ordinis ad alterum. 
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1928">
-                  <lb ed="#L" n="36"/>AD TERTIUM DICENDUM quod passiones 
-interio<lb break="no" ed="#L" n="37"/>res, quae sunt pars materiae moralis, secundum
-<lb ed="#L" n="38"/>se non ordinantur ad alterum, quod: veiut ad
-<lb ed="#L" n="39"/>specialem rationem iustitiae: sed earum effectus
-<lb ed="#L" n="40"/>sunt ad alterum ordinabiles, scilicet operationes
-<lb ed="#L" n="41"/>exteriores. Unde non sequitur iod materia 
-iu<lb break="no" ed="#L" n="42"/>stitiae sit generalis. 
-</p>
-            </div>
-            <div xml:id="TAca84-d1e1572-Dd1e1947"><!-- p2p2-q58a9" -->
-               <head xml:id="TAca84-d1e1572-Hd1e1950">Articulus 9</head>
-               <head xml:id="TAca84-d1e1572-Hd1e1952" type="question-title">Utrum iustitia sit circa passiones</head>
-               <p xml:id="TAca84-d1e1572-d1e1955">
-                  <cb ed="#L" n="f"/>
-                  <lb ed="#L" n="72" type="fixed=16"/>ARTICULUS NONUS.
-<lb ed="#L" n="73"/>UTRUM IUSTITIA SIT CIRCA PASSIONES
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1964">
-                  <lb ed="#L" n="74"/>AD NONUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="75"/>iustitia sit circa passiones. Dicit enim
-<lb ed="#L" n="76"/>Philosophus, in Il Ethic., quod circa
-<lb ed="#L" n="77"/>voluptates et tristitias est moralis virtus.
-<lb ed="#L" n="78"/>Volpi autem, idest delectatio, et tristitia sunt
-<lb ed="#L" n="79"/>passiones quaedam; ut supra habitum est, cum
-<lb ed="#L" n="80"/>de passionibus ageretur. Ergo iustitia; cum sit 
-vir<lb break="no" ed="#L" n="81"/>tus moralis, erit circa passiones."
-</p>
-               <p xml:id="TAca84-d1e1572-d1e1984">
-                  <lb ed="#L" n="82"/>2. PRAETEREA, per iustitiam rectificantur bpete:
-<lb ed="#L" n="83"/>tiones quae sunt ad alterum. Sed operationes 
-hu<lb break="no" ed="#L" n="84"/>iusmodi rectificari noti possunt nisi passiones sint
-<lb ed="#L" n="85"/>rectificatae: quia ex inordinatione passionum 
-pro<lb break="no" ed="#L" n="86"/>venit inordinatio in praedictis operationibus; 
-pro<lb break="no" ed="#L" n="87"/>pter concupiscentiam enim venereorur proceditur
-<lb ed="#L" n="88"/>ad adulterium, et propter superfluum amorem 
-pe<lb break="no" ed="#L" n="89"/>cuniae proceditur ad furtum. Ergo oportet quod
-<lb ed="#L" n="90"/>iustitia sit circa passiones.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2007">
-                  <cb ed="#L" n="g"/>
-                  <lb ed="#L" n="91"/>3. PRAETEREA, sicut iustitia particularis. est a
-<lb ed="#L" n="92"/>alterum, ita etiam et iustitia legalis. Sed jusitia
-<lb ed="#L" n="93"/>legalis est circa passiones: alioquin non se ex
-<lb ed="#L" n="94"/>tenderet ad omnes virtutes, quarum quaed:
-<lb ed="#L" n="95"/>manifeste sunt circa passiones. Ergo iustitia est
-<lb ed="#L" n="96"/>circa passiones. 
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2025">
-                  <lb ed="#L" n="97"/>SED coNrRA EST quod <ref xml:id="TAca84-d1e1572-Rd1e2029">Philosophus: dicit, in V
-<lb ed="#L" n="98"/>Ethic.</ref>, quod est circa operationes. 
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2035">
-                  <lb ed="#L" n="99"/>RESPONDEO DICENDUM quod huius quaes
-<lb ed="#L" n="100"/>veritas ex duobus apparet. Primo quidem, ex
-<lb ed="#L" n="101"/>ipso subiecto iustitiae, quod est voluntas; cuius.
-<lb ed="#L" n="102"/>miotus vel actus non sunt passiones; "ut. supra
-<lb ed="#L" n="103"/>habitum est; sed solum motus appetitus 'sensitivi
-<lb ed="#L" n="104"/>passiones dicuntur. Et ideo iustitia non. est circa
-<lb ed="#L" n="105"/>passiones, sicut temperantia et fortitudo, quae
-<lb ed="#L" n="106"/>sunt irascibilis et concupiscibilis, sunt circa 
-pas<lb break="no" ed="#L" n="107"/>siones. - Alio modo, ex parte. materiae. Quia
-<pb ed="#L" n="17"/>
-                  <cb ed="#L" n="a"/>
-                  <lb ed="#L" n="1"/>iustitia est circa ea quae sunt ad alterum. Non
-<lb ed="#L" n="2"/>autem per passiones interiores immediate ad 
-al<lb break="no" ed="#L" n="3"/>terum ordinamur. Et ideo iustitia circa passiones
-<lb ed="#L" n="4"/>non est.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2070">
-                  <lb ed="#L" n="5"/>AD PRIMUM ERGO DICENDUM quod non quaelibet
-<lb ed="#L" n="6"/>virtus moralis est circa voluptates et tristitias sicut
-<lb ed="#L" n="7"/>circa materiam: nam fortitudo est circa timores
-<lb ed="#L" n="8"/>et audacias. Sed omnis virtus moralis ordinatur
-<lb ed="#L" n="9"/>ad delectationem et tristitiam sicut ad quosdam
-<lb ed="#L" n="10"/>fines consequentes: quia, ut Philosophus dicit,
-<lb ed="#L" n="11"/>in VII Ethic., delectatio et tristitia est finis 
-prin<lb break="no" ed="#L" n="12"/>cipalis, ad quem respicientes unumquodque hoc
-<lb ed="#L" n="13"/>quidem malum, hoc quidem bonum dicimus. Et
-<lb ed="#L" n="14"/>hoc modo etiam pertinent ad iustitiam: quia non
-<lb ed="#L" n="15"/>est iustus qui non gaudet iustis operationibus, ut
-<lb ed="#L" n="16"/>dicitur in I Ethic.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2099">
-                  <lb ed="#L" n="17"/>AD SECUNDUM DICENDUM quod operationes 
-ex<lb break="no" ed="#L" n="18"/>teriores mediae sunt quodammodo inter res 
-exte<lb break="no" ed="#L" n="19"/>riores, quae sunt earum materia, et inter passiones
-<lb ed="#L" n="20"/>interiores, quae sunt earum principia. Contingit
-<lb ed="#L" n="21"/>autem quandoque esse defectum in uno eorum
-<lb ed="#L" n="22"/>sine hoc quod sit defectus in alio: sicut si aliquis
-<lb ed="#L" n="23"/>surripiat rem alterius non cupiditate habendi, sed
-<lb ed="#L" n="24"/>voluntate nocendi; vel e converso si aliquis 
-al<lb break="no" ed="#L" n="25"/>terius rem concupiscat, quam tamen surripere
-<lb ed="#L" n="26"/>non velit. Rectificatio ergo operationum secundum
-<lb ed="#L" n="27"/>quod ad exteriora terminantur, pertinet ad iu-
-<cb ed="#L" n="b"/>
-                  <lb ed="#L" n="28"/>stitiam: sed rectificatio earum secundum quod a
-<lb ed="#L" n="29"/>passionibus oriuntur, pertinet ad alias virtutes
-<lb ed="#L" n="30"/>morales, quae sunt circa passiones. Unde 
-surre<lb break="no" ed="#L" n="31"/>ptionem alienae rei iustitia impedit inquantum est
-<lb ed="#L" n="32"/>contra aequalitatem in exterioribus constituendam:
-<lb ed="#L" n="33"/>liberalitas vero inquantum procedit ab 
-immode<lb break="no" ed="#L" n="34"/>rata concupiscentia divitiarum. Sed quia 
-ope<lb break="no" ed="#L" n="35"/>rationes exteriores non habent speciem ab 
-inte<lb break="no" ed="#L" n="36"/>rioribus passionibus, sed magis a rebus 
-exterio<lb break="no" ed="#L" n="37"/>ribus, sicut ex obiectis; ideo, per se loquendo,
-<lb ed="#L" n="38"/>operationes exteriores magis sunt materia iustitiae
-<lb ed="#L" n="39"/>quam aliarum virtutum moralium.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2154">
-                  <lb ed="#L" n="40"/>AD TERTIUM DICENDUM quod bonum commune
-<lb ed="#L" n="41"/>est finis singularum personarum in communitate
-<lb ed="#L" n="42"/>existentium, sicut bonum totius finis est 
-cuiusli<lb break="no" ed="#L" n="43"/>bet partium. Bonum autem unius personae 
-sin<lb break="no" ed="#L" n="44"/>gularis non est finis alterius. Et ideo iustitia 
-lega<lb break="no" ed="#L" n="45"/>lis, quae ordinatur ad bonum commune, magis
-<lb ed="#L" n="46"/>se potest extendere ad interiores passiones, 
-qui<lb break="no" ed="#L" n="47"/>bus homo aliqualiter disponitur in seipso, quam
-<lb ed="#L" n="48"/>iustitia particularis, quae ordinatur ad bonum 
-al<lb break="no" ed="#L" n="49"/>terius singularis personae. Quamvis iustitia 
-lega<lb break="no" ed="#L" n="50"/>lis principalius se extendat ad alias virtutes 
-quan<lb break="no" ed="#L" n="51"/>tum ad exteriores operationes earum: 
-inquan<lb break="no" ed="#L" n="52"/>tum scilicet praecipit lex fortis opera facere,
-<lb ed="#L" n="53"/>et quae temperati, e! quae mansueti, ut dicitur
-<lb ed="#L" n="54"/>in V Ethic.
-</p>
-            </div>
-            <div xml:id="TAca84-d1e1572-Dd1e2190"><!-- p2p2-q58a10" -->
-               <head xml:id="TAca84-d1e1572-Hd1e2193">Articulus 10</head>
-               <head xml:id="TAca84-d1e1572-Hd1e2195" type="question-title">Utrum medium iustitiae sit medium rei</head>
-               <p xml:id="TAca84-d1e1572-d1e2198">
-                  <cb ed="#L" n="f"/>
-                  <lb ed="#L" n="66" type="fixed=17"/>ARTICULUS DECIMUS
-<lb ed="#L" n="67"/>UTRUM MEDIUM IUSTITIAE SIT MEDIUM REI
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2207">
-                  <cb ed="#L" n="g"/>
-                  <lb ed="#L" n="68"/>AD DECIMUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="69"/>medium iustitiae non sit medium rei.
-<lb ed="#L" n="70"/>Ratio enim generis salvatur in omnibus
-<lb ed="#L" n="71"/>speciebus. Sed virtus moralis in <ref xml:id="TAca84-d1e1572-Rd1e2220">II
-<lb ed="#L" n="72"/>Ethic.</ref> definitur esse habitus electivus in 
-medie<lb break="no" ed="#L" n="73"/>tate existens determinata ratione quoad nos. Ergo
-<lb ed="#L" n="74"/>et in iustitia est medium rationis, et non rei.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2230">
-                  <lb ed="#L" n="75"/>2. PRAETEREA, in his quae simpliciter sunt bona
-<lb ed="#L" n="76"/>non est accipere superfluum et diminutum, et per
-<lb ed="#L" n="77"/>consequens nec medium: sicut patet de virtutibus,
-<lb ed="#L" n="78"/>ut dicitur in <ref xml:id="TAca84-d1e1572-Rd1e2240">II Ethic.</ref> Sed iustitia est circa 
-sim<lb break="no" ed="#L" n="79"/>pliciter bona, ut dicitur in <ref xml:id="TAca84-d1e1572-Rd1e2245">V Ethic.</ref> Ergo in
-<lb ed="#L" n="80"/>iustitia non est medium rei.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2251">
-                  <lb ed="#L" n="81"/>3. PRAETEREA, in aliis virtutibus ideo dicitur esse
-<lb ed="#L" n="82"/>medium rationis et non rei, quia diversimode
-<lb ed="#L" n="83"/>accipitur per comparationem ad diversas 
-perso<lb break="no" ed="#L" n="84"/>nas: quia quod uni est multum, alteri est parum,
-<lb ed="#L" n="85"/>ut dicitur in <ref xml:id="TAca84-d1e1572-Rd1e2264">II Ethic.</ref> Sed hoc etiam observatur
-<cb ed="#L" n="h"/>
-                  <lb ed="#L" n="86"/>in iustitia: non enim eadem poena punitur qui
-<lb ed="#L" n="87"/>percutit principem, et qui percutit privatam 
-per<lb break="no" ed="#L" n="88"/>sonam. Ergo etiam iustitia non habet medium
-<lb ed="#L" n="89"/>rei, sed medium rationis.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2277">
-                  <lb ed="#L" n="90"/>SED CONTRA EsT quod <ref xml:id="TAca84-d1e1572-Rd1e2281">Philosophus, in V Ethic.</ref>,
-<lb ed="#L" n="91"/>assignat medium iustitiae secundum 
-proportiona<lb break="no" ed="#L" n="92"/>litatem arithmeticam, quod est medium rei.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2288">
-                  <lb ed="#L" n="93"/>RESPONDEO DICENDUM quod, sicut supra dictum
-<lb ed="#L" n="94"/>est, aliae virtutes morales consistunt principaliter
-<lb ed="#L" n="95"/>circa passiones, quarum rectificatio non attenditur
-<lb ed="#L" n="96"/>nisi secundum comparationem ad ipsum hominem
-<lb ed="#L" n="97"/>cuius sunt passiones, secundum scilicet quod 
-ira<lb break="no" ed="#L" n="98"/>scitur et concupiscit prout debet secundum 
-di<lb break="no" ed="#L" n="99"/>versas circumstantias. Et ideo medium talium
-<lb ed="#L" n="100"/>virtutum non accipitur secundum proportionem
-<lb ed="#L" n="101"/>unius rei ad alteram, sed solum secundum 
-com<lb break="no" ed="#L" n="102"/>parationem ad ipsum virtuosum. Et propter hoc
-<lb ed="#L" n="103"/>in ipsis est medium solum secundum rationem
-<pb ed="#L" n="18"/>
-                  <cb ed="#L" n="a"/>
-                  <lb ed="#L" n="1"/>quoad nos. Sed materia iustitiae est exterior 
-ope<lb break="no" ed="#L" n="2"/>ratio secundum quod ipsa, vel res cuius est usus,
-<lb ed="#L" n="3"/>debitam proportionem habet ad aliam personam.
-<lb ed="#L" n="4"/>Et ideo medium iustitiae consistit in quadam 
-pro<lb break="no" ed="#L" n="5"/>portionis aequalitate rei exterioris ad personam
-<lb ed="#L" n="6"/>exteriorem. Aequale autem est realiter medium
-<lb ed="#L" n="7"/>inter maius et minus, ut dicitur in X Metaphys.
-<lb ed="#L" n="8"/>Unde iustitia habet medium rei.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2336">
-                  <lb ed="#L" n="9"/>AD PRIMUM ERGO DICENDUM quod hoc medium
-<lb ed="#L" n="10"/>rei est etiam medium rationis. Et ideo in iustitia
-<lb ed="#L" n="11"/>salvatur ratio virtutis moralis.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2345">
-                  <lb ed="#L" n="12"/>AD SECUNDUM DICENDUM quod bonum simpliciter
-<lb ed="#L" n="13"/>dupliciter dicitur. Uno modo, quod est omnibus
-<lb ed="#L" n="14"/>modis bonum: sicut virtutes sunt bonae. Et sic
-<lb ed="#L" n="15"/>in his quae sunt bona simpliciter non est accipere
-<cb ed="#L" n="b"/>
-                  <lb ed="#L" n="16"/>medium et extrema. - Alio modo dicitur aliquid .
-<lb ed="#L" n="17"/>simpliciter bonum quia est absolute bonum, 
-sci<lb break="no" ed="#L" n="18"/>licet secundum suam naturam consideratum,
-<lb ed="#L" n="19"/>quamvis per abusum possit fieri malum: sicut
-<lb ed="#L" n="20"/>patet de divitiis et honoribus. Et in talibus potest
-<lb ed="#L" n="21"/>accipi superfluum, diminutum et medium 
-quan<lb break="no" ed="#L" n="22"/>tum ad homines, qui possunt eis uti vel bene
-<lb ed="#L" n="23"/>vel male. Ei sic circa simpliciter bona dicitur
-<lb ed="#L" n="24"/>esse iustitia. 
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2378">
-                  <lb ed="#L" n="25"/>AD TERTIUM DICENDUM quod iniuria illata aliam
-<lb ed="#L" n="26"/>proportionem habet ad principem, et aliam ad
-<lb ed="#L" n="27"/>personam privatam. Et ideo oportet aliter 
-adae<lb break="no" ed="#L" n="28"/>quare utramque iniuriam per vindictam. Quod
-<lb ed="#L" n="29"/>pertinet ad. diversitatem rei, et non solum ad
-<lb ed="#L" n="30"/>diversitatem rationis.
-</p>
-            </div>
-            <div xml:id="TAca84-d1e1572-Dd1e2395"><!-- p2p2-q58a11" -->
-               <head xml:id="TAca84-d1e1572-Hd1e2398">Articulus 11</head>
-               <head xml:id="TAca84-d1e1572-Hd1e2400" type="question-title">Utrum actus iustitiae sit reddere unicuique quod suum est</head>
-               <p xml:id="TAca84-d1e1572-d1e2403">
-                  <cb ed="#L" n="f"/>
-                  <lb ed="#L" n="60" type="fixed=18"/>ARTICULUS UNDECIMUS
-<lb ed="#L" n="61"/>UTRUM ACTUS IUSTITIAE SIT REDDERE UNICUIQUE QUOD SUUM EST
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2412">
-                  <cb ed="#L" n="g"/>
-                  <lb ed="#L" n="62"/>AD UNDECIMUM SIC PROCEDITUR. Videtur quod
-<lb ed="#L" n="63"/>actus iustitiae non sit reddere unicuique
-<lb ed="#L" n="64"/>quod suum est. Augustinus enim, XIV
-<lb ed="#L" n="65"/>de Trin., attribuit iustitiae. subvenire
-<lb ed="#L" n="66"/>miseris. Sed in subveniendo miseris non tribuimus
-<lb ed="#L" n="67"/>eis quae sunt eorum, sed magis quae sunt nostra.
-<lb ed="#L" n="68"/>Ergo iustitiae actus non est tribuere unicuique
-<lb ed="#L" n="69"/>quod suum est.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2434">
-                  <lb ed="#L" n="70"/>2. PRAETEREA, <ref xml:id="TAca84-d1e1572-Rd1e2438">Tullius, in I de Offic.</ref>, dicit
-<lb ed="#L" n="71"/>quod beneficentia, quam. benignitatem vel 
-libera<lb break="no" ed="#L" n="72"/>litatem appellari licet, ad iustitiam pertinet. Sed 
-<lb ed="#L" n="73"/>liberalitatis est de proprio dare alicui, non de eo
-<lb ed="#L" n="74"/>quod est eius. Ergo iustitiae actus non est 
-red<lb break="no" ed="#L" n="75"/>dere unicuique quod suum est.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2453">
-                  <lb ed="#L" n="76"/>3. PRAETEREA, ad iustitiam pertinet non solum
-<lb ed="#L" n="77"/>res dispensare debito modo, sed etiam iniuriosas
-<lb ed="#L" n="78"/>actiones cohibere: puta homicidia, adulteria et
-<lb ed="#L" n="79"/>alia huiusmodi. Sed reddere quod suum est 
-vi<lb break="no" ed="#L" n="80"/>detur solum. ad dispensationem rerum pertinere.
-<lb ed="#L" n="81"/>Ergo non sufficienter per hoc notificatur actus
-<lb ed="#L" n="82"/>iustitiae quod dicitur actus eius esse reddere
-<lb ed="#L" n="83"/>unicuique quod suum est.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2473">
-                  <cb ed="#L" n="h"/>
-                  <lb ed="#L" n="84"/>SED coNTRA EsT quod <ref xml:id="TAca84-d1e1572-Rd1e2479">Ambrosius dicit, in I
-<lb ed="#L" n="85"/>de Offic.</ref>: Iustitia est quae unicuique quod suum
-<lb ed="#L" n="86"/>est tribuit, alienum non vindicat, utilitatem 
-pro<lb break="no" ed="#L" n="87"/>priam negligit ut communem aequitatem custodiat.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2489">
-                  <lb ed="#L" n="88"/>RESPONDEO DICENDUM quod, sicut dictum est,
-<lb ed="#L" n="89"/>materia iustitiae est operatio exterior secundum
-<lb ed="#L" n="90"/>quod ipsa, vel res qua per eam utimur, 
-propor<lb break="no" ed="#L" n="91"/>tionatur alteri personae, ad quam per. iustitiam
-<lb ed="#L" n="92"/>ordinamur. Hoc autem dicitur esse suum 
-unius<lb break="no" ed="#L" n="93"/>cuiusque personae quod ei secundum proportionis
-<lb ed="#L" n="94"/>aequalitatem. debetur. Et ideo proprius actus 
-iu<lb break="no" ed="#L" n="95"/>stitiae. nihil est aliud quam reddere unicuique
-<lb ed="#L" n="96"/>quod suum est.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2511">
-                  <lb ed="#L" n="97"/>AD PRIMUM ERGO DICENDUM quod iustitiae, cum
-<lb ed="#L" n="98"/>sit virtus. cardinalis, quaedam : aliae virtutes. 
-se<lb break="no" ed="#L" n="99"/>cundariae adiunguntur, sicut misericordia, 
-libera<lb break="no" ed="#L" n="100"/>litas et aliae huiusmodi virtutes, ut infra patebit.
-<lb ed="#L" n="101"/>Et ideo subvenire miseris, quod pertinet ad 
-mi<lb break="no" ed="#L" n="102"/>sericordiam sive pietatem, et liberaliter. benefa-
-<lb ed="#L" n="103"/>cere, quod pertinet ad liberalitatem, per quandam
-<lb ed="#L" n="104"/>reductionem attribuitur iustitiae, sicut principali
-<lb ed="#L" n="105"/>virtuti.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2533">
-                  <pb ed="#L" n="19"/>
-                  <cb ed="#L" n="a"/>
-                  <lb ed="#L" n="1"/>Et per hoc patet responsio ad secundum.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2542">
-                  <lb ed="#L" n="2"/>AD TERTIUM DICENDUM quod, sicut <ref xml:id="TAca84-d1e1572-Rd1e2546">Philosophus
-<lb ed="#L" n="3"/>dicit, in V Ethic.</ref>, omne superfluum in his quae
-<lb ed="#L" n="4"/>ad iustitiam pertinent lucrum, extenso nomine,
-<lb ed="#L" n="5"/>vocatur: sicut et omne quod minus est vocatur
-<lb ed="#L" n="6"/>damnum. Et hoc ideo, quia iustitia prius est
-<cb ed="#L" n="b"/>
-                  <lb ed="#L" n="7"/>exercita, et communius exercetur in voluntariis
-<lb ed="#L" n="8"/>commutationibus rerum, puta emptione et 
-ven<lb break="no" ed="#L" n="9"/>ditione, in quibus proprie haec nomina dicuntur;
-<lb ed="#L" n="10"/>et exinde derivantur haec nomina ad omnia circa
-<lb ed="#L" n="11"/>quae potest esse iustitia. Et eadem ratio est de
-<lb ed="#L" n="12"/>hoc quod est reddere unicuique quod suum est.
-</p>
-            </div>
-            <div xml:id="TAca84-d1e1572-Dd1e2575"><!-- p2p2-q58a12" -->
-               <head xml:id="TAca84-d1e1572-Hd1e2578">Articulus 12</head>
-               <head xml:id="TAca84-d1e1572-Hd1e2580" type="question-title">Utrum iustitia praeemineat inter omnes virtutes morales</head>
-               <p xml:id="TAca84-d1e1572-d1e2583">
-                  <cb ed="#L" n="c"/>
-                  <lb ed="#L" n="13" type="fixed=19"/>ARTICULUS DUODECIMUS
-<lb ed="#L" n="14"/>UTRUM IUSTITIA PRAEEMINEAT INTER OMNES VIRTUTES MORALES
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2592">
-                  <cb ed="#L" n="d"/>
-                  <lb ed="#L" n="15"/>AD DUODECIMUM SIC PROCEDITUR. Videtur
-<lb ed="#L" n="16"/>quod iustitia non praeemineat inter
-<lb ed="#L" n="17"/>omnes virtutes morales. Ad iustitiam
-<lb ed="#L" n="18"/>enim pertinet reddere alteri quod suum
-<lb ed="#L" n="19"/>est. Ad liberalitatem autem pertinet de proprio
-<lb ed="#L" n="20"/>dare, quod virtuosius est. Ergo liberalitas est
-<lb ed="#L" n="21"/>maior virtus quam iustitia.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2612">
-                  <lb ed="#L" n="22"/>2. PRAETEREA, nihil ornatur nisi per aliquid
-<lb ed="#L" n="23"/>dignius se. Sed magnanimitas est ornamentum
-<lb ed="#L" n="24"/>et iustitiae et omnium virtutum, ut dicitur in IV
-<lb ed="#L" n="25"/>Ethic. Ergo magnanimitas est nobilior quam 
-<lb ed="#L" n="26"/>justitia.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2626">
-                  <lb ed="#L" n="27"/>3. PRAETEREA, virtus est circa difficile et bonum,
-<lb ed="#L" n="28"/>ut dicitur in II Ethic. Sed fortitudo est circa
-<lb ed="#L" n="29"/>magis difficilia quam iustitia, idest circa pericula
-<lb ed="#L" n="30"/>mortis, ut dicitur in Ill Ethic. Ergo fortitudo
-<lb ed="#L" n="31"/>est nobilior iustitia.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2639">
-                  <lb ed="#L" n="32"/>SED coNTRA EsT quod<ref xml:id="TAca84-d1e1572-Rd1e2643"> Tullius dicit, in I de
-<lb ed="#L" n="33"/>Offic.</ref>: In iustitia virtutis splendor est maximus,
-<lb ed="#L" n="34"/>ex qua boni viri nominantur.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2651">
-                  <lb ed="#L" n="35"/>RESPONDEO DICENDUM quod si loquamur de 
-iu<lb break="no" ed="#L" n="36"/>stitia legali, manifestum est quod ipsa est 
-prae<lb break="no" ed="#L" n="37"/>clarior inter omnes virtutes morales: inquantum
-<lb ed="#L" n="38"/>bonum commune praeeminet bono singulari unius
-<lb ed="#L" n="39"/>personae. Et secundum hoc Philosophus, in V
-<lb ed="#L" n="40"/>* Ethic., dicit quod praeciarissima virtutum videtur
-<lb ed="#L" n="41"/>esse iustitia, et neque est Hesperus neque Lucifer
-<lb ed="#L" n="42"/>dila admirabilis.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2671">
-                  <lb ed="#L" n="43"/>Sed etiam si loquamur de iustitia particulari,
-<lb ed="#L" n="44"/>praecellit inter alias virtutes morales, duplici 
-ra<lb break="no" ed="#L" n="45"/>tione. Quarum prima potest sumi ex parte 
-sub<lb break="no" ed="#L" n="46"/>iecti: quia scilicet est in nobiliori parte animae,
-<cb ed="#L" n="e"/>
-                  <lb ed="#L" n="47"/>idest in appetitu rationali, scilicet voluntate; aliis
-<lb ed="#L" n="48"/>virtutibus moralibus existentibus in appetitu 
-sen<lb break="no" ed="#L" n="49"/>sitivo, ad quem pertinent passiones, quae sunt
-<lb ed="#L" n="50"/>materia aliarum virtutum moralium. - Secunda
-<lb ed="#L" n="51"/>ratio sumitur ex parte obiecti. Nam aliae virtutes
-<lb ed="#L" n="52"/>laudantur solum secundum bonum ipsius virtuosi.
-<lb ed="#L" n="53"/>Iustitia autem laudatur secundum quod virtuosus
-<lb ed="#L" n="54"/>ad alium bene se habet: et sic iustitia 
-quodam<lb break="no" ed="#L" n="55"/>modo est bonum alterius, ut dicitur in <ref xml:id="TAca84-d1e1572-Rd1e2703">V Ethic.</ref>
-                  <lb ed="#L" n="56"/>Et propter hoc <ref xml:id="TAca84-d1e1572-Rd1e2707">Philosophus dicit, in I Rhet.</ref>:
-<quote xml:id="TAca84-d1e1572-Qd1e2710">Necesse est maximas esse virtutes eas quae sunt
-<lb ed="#L" n="57"/>aliis honestissimae : siquidem est virtus potentia 
-be<lb break="no" ed="#L" n="58"/>nefactiva. Propter hoc fortes et iustos maxime 
-ho<lb break="no" ed="#L" n="59"/>norani: quoniam fortitudo est utilis aliis in bello,
-<lb ed="#L" n="60"/>iustitia autem et in bello et in pace.</quote>
-               </p>
-               <p xml:id="TAca84-d1e1572-d1e2722">
-                  <lb ed="#L" n="61"/>AD PRIMUM ERGO DICENDUM quod liberalitas, etsi
-<lb ed="#L" n="62"/>de suo det, tamen hoc facit inquantum in hoc
-<lb ed="#L" n="63"/>considerat propriae virtutis bonum. Iustitia autem
-<lb ed="#L" n="64"/>dat alteri quod suum est quasi considerans 
-bo<lb break="no" ed="#L" n="65"/>num commune. — Et praeterea iustitia observatur
-<lb ed="#L" n="66"/>ad omnes: liberalitas autem ad omnes se 
-exten<lb break="no" ed="#L" n="67"/>dere non potest. - Et iterum liberalitas, quae de
-<lb ed="#L" n="68"/>suo dat, supra iustitiam fundatur, per quam 
-con<lb break="no" ed="#L" n="69"/>servatur ? unicuique quod suum est.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2744">
-                  <lb ed="#L" n="70"/>AD SECUNDUM DICENDUM quod magnanimitas, 
-in<lb break="no" ed="#L" n="71"/>quantum supervenit iustitiae, auget eius 
-boni<lb break="no" ed="#L" n="72"/>tatem. Quae tamen sine iustitia nec virtutis 
-ra<lb break="no" ed="#L" n="73"/>tionem haberet.
-</p>
-               <p xml:id="TAca84-d1e1572-d1e2756">
-                  <lb ed="#L" n="74"/>AD TERTIUM DICENDUM quod fortitudo consistit
-<lb ed="#L" n="75"/>circa difficiliora, non tamen est circa meliora,
-<lb ed="#L" n="76"/>cum sit solum in bello utilis: iustitia autem et
-<lb ed="#L" n="77"/>in pace et in bello, sicut dictum est.
-</p>
-            </div>
-         </div>
-      </body>
-   </text>
+            <lb ed="#L" n="1"/>quod iustitia est habitus secundum quem aliquis
+            <lb ed="#L" n="2"/>dicitur operativus secundum electionem iusti.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e347">
+            <lb ed="#L" n="3"/>AD PRIMUM ERGO DICENDUM quod voluntas hic 
+            no<lb break="no" ed="#L" n="4"/>minat actum, non potentiam. Est autem 
+            consue<lb break="no" ed="#L" n="5"/>tum quod apud auctores habitus per actus 
+            de<lb break="no" ed="#L" n="6"/>finiantur: sicut Augustinus dicit, super Ioan.,
+            <lb ed="#L" n="7"/>quod fides est credere quod non vides.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e361">
+            <lb ed="#L" n="8"/>AD SECUNDUM DICENDUM quod neque etiam 
+            iu<lb break="no" ed="#L" n="9"/>stitia est essentialiter rectitudo, sed causaliter
+            <lb ed="#L" n="10"/>tantum: est enim habitus secundum quem aliquis
+            <lb ed="#L" n="11"/>recte operatur et vult.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e372">
+            <lb ed="#L" n="12"/>AD TERTIUM DICENDUM quod voluntas potest dici
+            <lb ed="#L" n="13"/>perpetua dupliciter. Uno modo, ex parte ipsius
+            <lb ed="#L" n="14"/>actus, qui perpetuo durat. Et sic solius Dei 
+            vo<lb break="no" ed="#L" n="15"/>luntas est perpetua. Alio modo, ex parte obiecti:
+            <lb ed="#L" n="16"/>quia scilicet aliquis vult perpetuo facere aliquid.
+            <lb ed="#L" n="17"/>Et hoc requiritur ad rationem iustitiae. Non enim
+            <lb ed="#L" n="18"/>sufficit ad rationem iustitiae quod aliquis velit ad
+            <lb ed="#L" n="19"/>horam in aliquo negotio servare iustitiam, quia
+            <lb ed="#L" n="20"/>vix invenitur aliquis qui velit in omnibus iniuste
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="21"/>agere: sed requiritur quod homo habeat 
+            volunta<lb break="no" ed="#L" n="22"/>tem perpetuo et in omnibus iustitiam conservandi.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e401">
+            <lb ed="#L" n="23"/>AD QUARTUM DICENDUM quod quia perpetuum
+            <lb ed="#L" n="24"/>non accipitur secundum durationem perpetuam
+            <lb ed="#L" n="25"/>actus voluntatis, non superflue additur consíans:
+            <lb ed="#L" n="26"/>ut sicut per hoc quod dicitur perpetua voluntas
+            <lb ed="#L" n="27"/>designatur quod aliquis gerat in proposito 
+            per<lb break="no" ed="#L" n="28"/>petuo iustitiam conservandi, ita etiam per hoc
+            <lb ed="#L" n="29"/>quod dicitur constans designatur quod in hoc
+            <lb ed="#L" n="30"/>proposito firmiter perseveret.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e421">
+            <lb ed="#L" n="31"/>AD QUINTUM DICENDUM quod iudex reddit quod
+            <lb ed="#L" n="32"/>suum est per modum imperantis et dirigentis:
+            <lb ed="#L" n="33"/>quia iudex est iustum. animatum, et princeps est
+            <lb ed="#L" n="34"/>custos iusti, ut dicitur in V. Ethic. Sed subditi
+            <lb ed="#L" n="35"/>reddunt quod suum est unicuique per modum $
+            <lb ed="#L" n="36"/>executionis.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e437">
+            <lb ed="#L" n="37"/>AD SEXTUM DICENDUM quod sicut in dilectione
+            <lb ed="#L" n="38"/>Dei includitur dilectio proximi, ut supra dictum
+            <lb ed="#L" n="39"/>est; ita etiam in hoc quod homo servit Deo
+            <lb ed="#L" n="40"/>includitur quod unicuique reddat quod. debet.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1572-Dd1e450"><!-- p2p2-q58a2" -->
+          <head xml:id="TAca84-d1e1572-Hd1e453">Articulus 2</head>
+          <head xml:id="TAca84-d1e1572-Hd1e455" type="question-title">Utrum iustitia semper sit ad alterum</head>
+          <p xml:id="TAca84-d1e1572-d1e458">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="41" type="fixed=10"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="42"/>UTRUM IUSTITIA SEMPER SIT AD ALTERUM
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e467">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="43"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="44"/>iustitia non semper sit ad alterum. Dicit
+            <lb ed="#L" n="45"/>enim Apostolus, ad Rom. i, quod
+            <lb ed="#L" n="46"/>iustitia Dei est per fidem Iesu Christi.
+            <lb ed="#L" n="47"/>Sed fides non dicitur per comparationem unius
+            <lb ed="#L" n="48"/>hominis ad alterum. Ergo neque iustitia.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e485">
+            <lb ed="#L" n="49"/>2. PRAETEREA, secundum Augustinum, in libro
+            <lb ed="#L" n="50"/>de Moribus Eccles., ad iustitiam pertinet, ob
+            <lb ed="#L" n="51"/>hoc quod servit Deo, bene imperare ceteris, quae
+            <lb ed="#L" n="52"/>homini sunt subiecta. Sed appetitus sensitivus est
+            <lb ed="#L" n="53"/>homini subiectus: ut patet Gen. iv, ubi dicitur:
+            <lb ed="#L" n="54"/>Subter te erit appetitus eius, scilicet peccati, ef
+            <lb ed="#L" n="55"/>tu dominaberis illius. Ergo ad iustitiam pertinet
+            <lb ed="#L" n="56"/>dominari proprio appetitui. Et sic erit iustitia
+            <lb ed="#L" n="57"/>ad seipsum.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e508">
+            <lb ed="#L" n="58"/>3. PRAETEREA, iustitia Dei est aeterna. Sed
+            <lb ed="#L" n="59"/>nihil aliud fuit ^ Deo coaeternum. Ergo de 
+            ra<lb break="no" ed="#L" n="60"/>tione iustitiae non est quod sit ad alterum.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e517">
+            <lb ed="#L" n="61"/>4. PRAETEREA, sicut operationes quae sunt ad
+            <lb ed="#L" n="62"/>alterum indigent rectificari, ita etiam operationes
+            <lb ed="#L" n="63"/>quae sunt ad seipsum. Sed per iustitiam 
+            rectifi<lb break="no" ed="#L" n="64"/>cantur operationes: secundum illud Pro». xi:
+            <lb ed="#L" n="65"/>Iustitia simplicis dirigit 5 viam eius. Ergo iustitia
+            <lb ed="#L" n="66"/>non solum est circa ea quae sunt ad alterum,
+            <lb ed="#L" n="67"/>sed etiam circa ea quae sunt ad seipsum.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e535">
+            <lb ed="#L" n="68"/>SEp coNTRA EsT quod <ref xml:id="TAca84-d1e1572-Rd1e539">Tullius dicit, in I de
+              <lb ed="#L" n="69"/>Offic.</ref>, quod iustitiae ea ratio est qua. societas
+            <lb ed="#L" n="70"/>hominum inter ipsos, et vilae communilas 
+            conti<lb break="no" ed="#L" n="71"/>netur. Sed hoc importat respectum ad alterum.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e549">
+            <lb ed="#L" n="72"/>Ergo iustitia est solum circa ea quae sunt ad
+            <lb ed="#L" n="73"/>alterum.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e556">
+            <lb ed="#L" n="74"/>RESPONDEO DICENDUM rm sicut supra dicti m
+            <lb ed="#L" n="75"/>est, cum nomen iustitiae aequalitatem importe!
+            <lb ed="#L" n="76"/>ex sua ratione iustitia habet quod sit ad alterum:
+            <lb ed="#L" n="77"/>nihil enim est sibi aequale, sed alteri. Et q
+            <lb ed="#L" n="78"/>ad iustitiam pertinet actus humanos rectificare,
+            <lb ed="#L" n="79"/>ut dictum est*, necesse est quod alietas ? ista
+            <lb ed="#L" n="80"/>quam requirit iustitia, sit diversorum agere po- s
+            <lb ed="#L" n="81"/>tentium. Actiones autem sunt suppositorum . 2?
+            <lb ed="#L" n="82"/>totorum, non autem, proprie loquendo, partium
+            <lb ed="#L" n="83"/>et formarum, seu potentiarum: non enim proprie
+            <lb ed="#L" n="84"/>dicitur quod manus percutiat, sed homo per 
+            ma<lb break="no" ed="#L" n="85"/>num; neque proprie dicitur quod calor calefaciat,
+            <lb ed="#L" n="86"/>sed ignis per calorem. Secundum tamen 
+            simili<lb break="no" ed="#L" n="87"/>tudinem quandam haec dicuntur. Iustitia ergo
+            <lb ed="#L" n="88"/>proprie dicta requirit diversitatem suppositorum :
+            <lb ed="#L" n="89"/>et ideo non est nisi unius hominis ad alium. Sed
+            <lb ed="#L" n="90"/>secundum similitudinem. accipiuntur in uno e
+            <lb ed="#L" n="91"/>eodem homine diversa principia actionum quasi
+            <lb ed="#L" n="92"/>diversa agentia: sicut ratio et irascibilis et 
+            con<lb break="no" ed="#L" n="93"/>cupiscibilis. Et ideo metaphorice in uno et eodem
+            <lb ed="#L" n="94"/>homine dicitur esse iustitia, secandum quod. ratio
+            <lb ed="#L" n="95"/>imperat irascibili et concupiscibili, et secundun
+            <lb ed="#L" n="96"/>quod hae obediunt rationi, et universaliter .
+            se<lb break="no" ed="#L" n="97"/>cundum quod unicuique parti hominis attribui tur
+            <lb ed="#L" n="98"/>quod ei convenit. Unde Philosophus, in V Ethic, ^
+            <lb ed="#L" n="99"/>hanc iustitiam appellat secundum melaphoram 
+            di<lb break="no" ed="#L" n="100"/>ctam.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e617">
+            <pb ed="#L" n="11"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>AD PRIMUM ERGO DICENDUM quod .iustitia quae
+            <lb ed="#L" n="2"/>fit per fidem in nobis, est per quam iustificatur
+            <lb ed="#L" n="3"/>impius, quae quidem in ipsa debita ordinatione
+            <lb ed="#L" n="4"/>partium animae consistit: sicut supra dictum
+            <lb ed="#L" n="5"/>est, cum de iustificatione impii ageretur. Hoc |
+            <lb ed="#L" n="6"/>autem pertinet ad iustitiam metaphorice dictam,
+            <lb ed="#L" n="7"/>quae potest inveniri etiam in aliquo solitariam
+            <lb ed="#L" n="8"/>vitam agente.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e642">
+            <lb ed="#L" n="9"/>Et per hoc patet responsio ad secundum.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e647">
+            <lb ed="#L" n="10"/>AD TERTIUM DICENDUM quod iustitia Dei est ab
+            <lb ed="#L" n="11"/>aeterno secundum voluntatem et propositum aeter-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="12"/>num: et in hoc praecipue iustitia consistit. Quamvis
+            <lb ed="#L" n="13"/>secundum effectum non sit ab aeterno: quia nihil
+            <lb ed="#L" n="14"/>est Deo coaeternum.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e663">
+            <lb ed="#L" n="15"/>AD QUARTUM DICENDUM quod actiones quae sunt
+            <lb ed="#L" n="16"/>hominis ad seipsum sufficienter rectificantur 
+            recti<lb break="no" ed="#L" n="17"/>ficatis passionibus per alias virtutes morales. Sed
+            <lb ed="#L" n="18"/>actiones quae sunt ad alterum indigent speciali
+            <lb ed="#L" n="19"/>rectificatione, non solum per comparationem ad
+            <lb ed="#L" n="20"/>agentem, sed etiam per comparationem ad eum
+            <lb ed="#L" n="21"/>ad quem sunt. Et ideo circa eas est specialis
+            <lb ed="#L" n="22"/>virtus, quae est iustitia.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1572-Dd1e684"><!-- p2p2-q58a3" -->
+          <head xml:id="TAca84-d1e1572-Hd1e687">Articulus 3</head>
+          <head xml:id="TAca84-d1e1572-Hd1e689" type="question-title">Utrum iustitia sit virtus</head>
+          <p xml:id="TAca84-d1e1572-d1e692">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="45" type="fixed=11"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="46"/>UTRUM IUSTITIA SIT VIRTUS
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e701">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="47"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="48"/>iustitia non sit virtus. Dicitur enim Luc.
+            <lb ed="#L" n="49"/>xvi: Cum feceritis omnia quae 
+            prae<lb break="no" ed="#L" n="50"/>cepta sunt vobis, dicite: Servi inutiles
+            <lb ed="#L" n="51"/>sumus , quod debuimus facere fecimus. Sed non
+            <lb ed="#L" n="52"/>est inutile facere opus virtutis: dicit enim .
+            <ref xml:id="TAca84-d1e1572-Rd1e718">Am<lb break="no" ed="#L" n="53"/>brosius, in Il de Offic.</ref>: Utilitatem non 
+            pecunia<lb break="no" ed="#L" n="54"/>rii lucri aestimationem dicimus, sed acquisitionem
+            <lb ed="#L" n="55"/>pietatis. Ergo facere quod quis debet facere non
+            <lb ed="#L" n="56"/>est opus virtutis. Est autem opus iustitiae. Ergo
+            <lb ed="#L" n="57"/>iustitia non est virtus.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e733">
+            <lb ed="#L" n="58"/>2. PRAETEREA, quod fit ex necessitate non est
+            <lb ed="#L" n="59"/>meritorium. Sed reddere alicui quod suum est,
+            <lb ed="#L" n="60"/>quod pertinet ad iustitiam, est necessitatis. Ergo
+            <lb ed="#L" n="61"/>non est meritorium. Actibus autem virtutum 
+            me<lb break="no" ed="#L" n="62"/>remur. Ergo iustitia non est virtus.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e747">
+            <lb ed="#L" n="63"/>3. PRAETEREA, omnis virtus moralis est circa
+            <lb ed="#L" n="64"/>agibilia. Ea autem quae exterius constituuntur
+            <lb ed="#L" n="65"/>non sunt agibilia, sed factibilia: ut patet per 
+            Phi<lb break="no" ed="#L" n="66"/>losophum, in IX Metaphys. Cum igitur ad 
+            iu<lb break="no" ed="#L" n="67"/>stitiam pertineat exterius facere aliquod opus 
+            se<lb break="no" ed="#L" n="68"/>cundum se iustum, videtur quod iustitia non sit
+            <lb ed="#L" n="69"/>virtus moralis.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e765">
+            <lb ed="#L" n="70"/>Sep coNTRA EST quod <ref xml:id="TAca84-d1e1572-Rd1e769">Gregorius dicit, in II 
+              Mo<lb break="no" ed="#L" n="71"/>ral.</ref>, quod in quatuor virtutibus, scilicet 
+            tempe<lb break="no" ed="#L" n="72"/>rantia, prudentia, fortitudine et iustitia, tota boni ?
+            <lb ed="#L" n="73"/>operis structura consurgit.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e779">
+            <lb ed="#L" n="74"/>RESPONDEO DICENDUM quod virtus humana est
+            <lb ed="#L" n="75"/>quae bonum reddit actum humanum , et ipsum
+            <lb ed="#L" n="76"/>hominem bonum facit. Quod quidem convenit
+            <lb ed="#L" n="77"/>iustitiae. Actus enim hominis bonus redditur ex
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="78"/>hoc quod attingit regulam rationis, secundum
+            <lb ed="#L" n="79"/>quam humani actus rectificantur. Unde cum 
+            iu<lb break="no" ed="#L" n="80"/>stitia operationes humanas rectificet, manifestum
+            <lb ed="#L" n="81"/>est quod opus hominis bonum reddit. Et ut 
+            <ref xml:id="TAca84-d1e1572-Rd1e800">Tul<lb break="no" ed="#L" n="82"/>lius dicit, in I de Offic.</ref>, ex iustitia praecipue
+            <lb ed="#L" n="83"/>viri boni nominantur. Unde, sicut ibidem dicit,
+            <lb ed="#L" n="84"/>in ea virtutis splendor est maximus.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e811">
+            <lb ed="#L" n="85"/>AD PRIMUM ERGO DICENDUM quod cum aliquis
+            <lb ed="#L" n="86"/>facit quod debet, non affert utilitatem lucri ei
+            <lb ed="#L" n="87"/>cui facit quod debet, sed solum abstinet a damno
+            <lb ed="#L" n="88"/>eius. Sibi tamen facit utilitatem, inquantum 
+            spon<lb break="no" ed="#L" n="89"/>tanea et prompta voluntate facit illud quod debet,
+            <lb ed="#L" n="90"/>quod est virtuose agere. Unde dicitur Sap. vi
+            <lb ed="#L" n="91"/>quod sapientia Dei sobrietatem et iustitiam docet,
+            <lb ed="#L" n="92"/>prudentiam et virtutem; quibus in .vita nihil est
+            <lb ed="#L" n="93"/>ulilius hominibus, scilicet virtuosis.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e833">
+            <lb ed="#L" n="94"/>AD SECUNDUM DICENDUM quod duplex est 
+            neces<lb break="no" ed="#L" n="95"/>sitas. Una coactionis: et haec, quia repugnat 
+            vo<lb break="no" ed="#L" n="96"/>luntati, tollit rationem meriti. Alia autem est 
+            ne<lb break="no" ed="#L" n="97"/>cessitas ex obligatione praecepti, sive ex 
+            neces<lb break="no" ed="#L" n="98"/>sitate finis: quando scilicet aliquis non potest 
+            con<lb break="no" ed="#L" n="99"/>sequi finem virtutis nisi hoc faciat. Et talis 
+            ne<lb break="no" ed="#L" n="100"/>cessitas non excludit rationem meriti: inquantum
+            <lb ed="#L" n="101"/>aliquis hoc quod sic est necessarium voluntarie
+            <lb ed="#L" n="102"/>agit. Excludit tamen gloriam supererogationis :
+            <lb ed="#L" n="103"/>secundum illud I ad Cor. ix: Si evangelizavero,
+            <lb ed="#L" n="104"/>non est mihi gloria: necessitas enim mihi incumbit.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e859">
+            <lb ed="#L" n="105"/>AD TERTIUM DICENDUM quod iustitia non 
+            consi<lb break="no" ed="#L" n="106"/>stit circa exteriores res quantum ad facere, quod
+            <lb ed="#L" n="107"/>pertinet ad artem: sed quantum ad hoc quod
+            <lb ed="#L" n="108"/>utitur eis ad alterum.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1572-Dd1e871"><!-- p2p2-q58a4" -->
+          <head xml:id="TAca84-d1e1572-Hd1e874">Articulus 4</head>
+          <head xml:id="TAca84-d1e1572-Hd1e876" type="question-title">Utrum iustitia sit in voluntate sicut in subiecto</head>
+          <p xml:id="TAca84-d1e1572-d1e879">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="17" type="fixed=12"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="18"/>UTRUM IUSTITIA SIT IN VOLUNTATE SICUT IN SUBIECTO
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e888">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="19"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="20"/>iniustitia non sit in voluntate sicut in 
+            sub<lb break="no" ed="#L" n="21"/>lecto. Iustitia enim. quandoque veritas
+            <lb ed="#L" n="22"/>dicitur. Sed veritas non est voluntatis,
+            <lb ed="#L" n="23"/>sed Sperm Ergo iustitia non est in voluntate
+            <lb ed="#L" n="24"/>sicut in subiecto.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e906">
+            <lb ed="#L" n="25"/>2. PRAETEREA, iustitia est circa ea quae sunt
+            <lb ed="#L" n="26"/>ad alterum. Sed ordinare aliquid ad alterum est
+            <lb ed="#L" n="27"/>rationis. Iustitia ergo non est in voluntate sicut
+            <lb ed="#L" n="28"/>in subiecto, sed magis in ratione.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e918">
+            <lb ed="#L" n="29"/>3. PRAETEREA, iustitia non est virtus esl:
+            <lb ed="#L" n="30"/>lis: cum non ordinetur ad cognitionem. Unde
+            <lb ed="#L" n="31"/>relinquitur quod sit virtus moralis. Sed subiectum
+            <lb ed="#L" n="32"/>virtutis moralis est rationale per participationem,
+            <lb ed="#L" n="33"/>quod. est irascibilis et concupiscibilis: ut patet
+            <lb ed="#L" n="34"/>per <ref xml:id="TAca84-d1e1572-Rd1e933">Philosophum, in I Ethic.</ref> Ergo iustitia non
+            <lb ed="#L" n="35"/>est in voluntate sicut in subiecto, sed magis in
+            <lb ed="#L" n="36"/>irascibili et concupiscibili.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e940">
+            <lb ed="#L" n="37"/>SED coNTRA EsT quod <name xml:id="TAca84-d1e1572-Nd1e944">Anselmus</name> dicit, quod
+            <lb ed="#L" n="38"/>iustitia est rectitudo voluntatis propter se servata.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e949">
+            <lb ed="#L" n="39"/>REsPONDEO DICENDUM quod illa potentia est 
+            sub<lb break="no" ed="#L" n="40"/>iectum virtutis ad cuius potentiae actum 
+            rectifi<lb break="no" ed="#L" n="41"/>candum virtus ordinatur. Iustitia autem non 
+            ordi<lb break="no" ed="#L" n="42"/>natur ad dirigendum aliquem actum 
+            cognosciti<lb break="no" ed="#L" n="43"/>vum: non enim dicimur iusti ex hoc quod recte
+            <lb ed="#L" n="44"/>aliquid cognoscimus. Et ideo subiectum iustitiae
+            <lb ed="#L" n="45"/>non est intellectus vel ratio, quae est potentia
+            <lb ed="#L" n="46"/>cognoscitiva. .
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e969">
+            <lb ed="#L" n="47"/>Sed quia iusti. dicimur in hoc quod aliquid
+            <lb ed="#L" n="48"/>recte agimus; proximum autem principium actyug
+            <lb ed="#L" n="49"/>est vis appetitiva; necesse est quod iustitia sit in
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="50"/>aliqua vi appetitiva sicut in subiecto. Est autem
+            <lb ed="#L" n="51"/>duplex appetitus: scilicet voluntas, quae est in
+            <lb ed="#L" n="52"/>ratione; et appetitus sensitivus consequeris 
+            ap<lb break="no" ed="#L" n="53"/>prehensionem sensus, qui dividitur per 
+            irascibi<lb break="no" ed="#L" n="54"/>lem et concupiscibilem, ut in Primo habitum
+            <lb ed="#L" n="55"/>est. Reddere autem unicuique quod suum est
+            <lb ed="#L" n="56"/>non potest procedere ex appetitu sensitivo: quia
+            <lb ed="#L" n="57"/>apprehensio sensitiva non se extendit ad hoc quod
+            <lb ed="#L" n="58"/>considerare possit proportionem unius ad 
+            alte<lb break="no" ed="#L" n="59"/>rum, sed hoc est proprium rationis. Unde iustitia
+            <lb ed="#L" n="60"/>nor potest esse sicut in subiecto in irascibili vel
+            <lb ed="#L" n="61"/>concupiscibili, sed solum in voluntate. Et ideo
+            <lb ed="#L" n="62"/>Philosophus definit iustitiam per actum 
+            volunta<lb break="no" ed="#L" n="63"/>tis, ut ex supradictis patet.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1011">
+            <lb ed="#L" n="64"/>AD PRIMUM ERGO DICENDUM quod quia voluntas
+            <lb ed="#L" n="65"/>est appetitus rationalis, ideo rectitudo  rationis,
+            <lb ed="#L" n="66"/>quae veritas dicitur, voluntati impressa, propter
+            <lb ed="#L" n="67"/>propinquitatem ad rationem, nomen retinet 
+            veri<lb break="no" ed="#L" n="68"/>tatis. Et inde est quod quandoque iustitia 
+            veri<lb break="no" ed="#L" n="69"/>tas vocatur.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1027">
+            <lb ed="#L" n="70"/>AD SECUNDUM DICENDUM quod voluntas fertur in
+            <lb ed="#L" n="71"/>suum obiectum consequenter ad E
+            <lb ed="#L" n="72"/>rationis. Et ideo, quia ratio ordinat in alterum
+            <lb ed="#L" n="73"/>voluntas potest velle aliquid. in ordine ad d
+            <lb ed="#L" n="74"/>rum, quod pertinet ad iustitiam.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1041">
+            <lb ed="#L" n="75"/>AD TERTIUM DICENDUM quod rationale per 
+            partici<lb break="no" ed="#L" n="76"/>pationem non solum est irasci et concupi
+            <lb ed="#L" n="77"/>bilis, sed omnino appetitivum, ut dicitur ini
+            <lb ed="#L" n="78"/>Ethic.: quia omnis appetitus obedit rationi. Sub
+            <lb ed="#L" n="79"/>appetitivo autem comprehenditur voluntas. Et ideo
+            <lb ed="#L" n="80"/>voluntas potest esse subiectum virtutis moralis.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1572-Dd1e1058"><!-- p2p2-q58a5" -->
+          <head xml:id="TAca84-d1e1572-Hd1e1061">Articulus 5</head>
+          <head xml:id="TAca84-d1e1572-Hd1e1063" type="question-title">Utrum iustitia sit virtus generalis</head>
+          <p xml:id="TAca84-d1e1572-d1e1066">
+            <pb ed="#L" n="13"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=13"/>ARTICULUS QUINTUS.
+            <lb ed="#L" n="2"/>UTRUM IUSTITIA SIT VIRTUS GENERALIS
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1077">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>iustitia non sit virtus generalis. Iustitia
+            <lb ed="#L" n="5"/>enim condividitur aliis. virtutibus: ut
+            <lb ed="#L" n="6"/>patet Sap. vin: Sobrietatem et. 
+            iusti<lb break="no" ed="#L" n="7"/>tiam docet, prudentiam et virtutem. Sed generale
+            <lb ed="#L" n="8"/>non condividitur seu connumeratur speciebus sub
+            <lb ed="#L" n="9"/>illo. generali contentis. - iustitia non est 
+            vir<lb break="no" ed="#L" n="10"/>tus. generalis.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1099">
+            <lb ed="#L" n="11"/>2. PRAETEREA, Sicut iuit ponitur virtus 
+            car<lb break="no" ed="#L" n="12"/>dimi; ita etiam temperantia et fortitudo. Sed
+            <lb ed="#L" n="13"/>temperantia vel fortitudo non ponitur virtus 
+            ge<lb break="no" ed="#L" n="14"/>neralis: Ergo neque iustitia debet aliquo modo
+            <lb ed="#L" n="15"/>poni virtus generalis.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1113">
+            <lb ed="#L" n="16"/>3. PRAETEREA, iustitia est semper ad alterum,
+            <lb ed="#L" n="17"/>ut supra dictum est. Sed peccatum quod est
+            <lb ed="#L" n="18"/>in proximum non est peccatum generale, sed
+            <lb ed="#L" n="19"/>dividitur contra. peccatum quo peccat homo 
+            con<lb break="no" ed="#L" n="20"/>tra seipsum. Ergo etiam neque iustitia est virtus
+            <lb ed="#L" n="21"/>generalis.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1129">
+            <lb ed="#L" n="22"/>SED CONTRA EST quod <ref xml:id="TAca84-d1e1572-Rd1e1133">Philosophus dicit, in V
+              <lb ed="#L" n="23"/>Ethic.</ref>, quod iustitia est omnis virtus.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1139">
+            <lb ed="#L" n="24"/>RESPONDEO DICENDUM quod iustitia, sicut dictum
+            <lb ed="#L" n="25"/>est; ordinat hominem in comparatione ad alium.
+            <lb ed="#L" n="26"/>d quidem potest esse dupliciter. Uno: modo,
+            <lb ed="#L" n="27"/>ad alium singulariter consideratum. Alio modo,
+            <lb ed="#L" n="28"/>ad alium in communi: secundum scilicet quod
+            <lb ed="#L" n="29"/>ille: qui servit alicui communitati servit omnibus
+            <lb ed="#L" n="30"/>hominibus qui. sub communitate illa. continentur.
+            <lb ed="#L" n="31"/>Ad. utrumque igitur se potest habere iustitia 
+            se<lb break="no" ed="#L" n="32"/>-cundum propriam rationem. Manifestum est 
+            au<lb break="no" ed="#L" n="33"/>tem quod omnes qui sub. communitate aliqua
+            <lb ed="#L" n="34"/>continentur comparantur ad communitatem sicut
+            <lb ed="#L" n="35"/>partes ad totum. Pars autem id quod est totius
+            <lb ed="#L" n="36"/>est: unde et quodlibet bonum: partis est 
+            ordina<lb break="no" ed="#L" n="37"/>bile:in bonum totius. Secundum hoc igitur bo-
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="38"/>num cuiuslibet. virtutis, sive ordinantis aliquem
+            <lb ed="#L" n="39"/>hominem ad seipsum sive ordinantis ipsum ad
+            <lb ed="#L" n="40"/>aliquas alias personas singulares, est referibile ad
+            <lb ed="#L" n="41"/>bonum commune, ad quod ordinat ' iustitia. Et
+            <lb ed="#L" n="42"/>secundum hoc actus omnium virtutum possunt ad
+            <lb ed="#L" n="43"/>iustitiam pertinere, secundum quod ordinat 
+            homi<lb break="no" ed="#L" n="44"/>nem ad bonum commune. Et quantum ad hoc 
+            iu<lb break="no" ed="#L" n="45"/>stitia dicitur virtus generalis. Et quia ad legem 
+            per<lb break="no" ed="#L" n="46"/>tinet ordinare in bonum commune, ut supra 
+            ha<lb break="no" ed="#L" n="47"/>bitum est, inde est quod talis iustitia, praedicto
+            <lb ed="#L" n="48"/>modo generalis, dicitur iustitia legalis: quia 
+            sci<lb break="no" ed="#L" n="49"/>licet per'eam homo concordat legi ordinanti actus
+            <lb ed="#L" n="50"/>omnium virtutum in bonum commune.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1202">
+            <lb ed="#L" n="51"/>AD PRIMUM ERGO DICENDUM quod iustitia 
+            condi<lb break="no" ed="#L" n="52"/>viditur seu connumeratur aliis virtutibus non 
+            in<lb break="no" ed="#L" n="53"/>quantam est generalis, sed inquantum est 
+            specia<lb break="no" ed="#L" n="54"/>lis virtus, ut infra dicetur.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1213">
+            <lb ed="#L" n="55"/>AD SECUNDUM DICENDUM quod temperantia et
+            <lb ed="#L" n="56"/>fortitudo sunt in appetitu sensitivo, idest in: 
+            cori<lb break="no" ed="#L" n="57"/>cupiscibili et irascibili. Huiusmodi autem vires
+            <lb ed="#L" n="58"/>sunt appetitivae quorundam bonorum 
+            particula<lb break="no" ed="#L" n="59"/>rium: sicut et sensus est particularium 
+            cognosci<lb break="no" ed="#L" n="60"/>tivus. Sed iustitia est sicut in' subiecto in 
+            appe<lb break="no" ed="#L" n="61"/>titu intellectivo, qui potest esse universalis boni,
+            <lb ed="#L" n="62"/>cuius intellectus est apprehensivus. Et ideo 
+            iu<lb break="no" ed="#L" n="63"/>stitia magis potest esse virtus generalis quam
+            <lb ed="#L" n="64"/>temperantia vel fortitudo.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1237">
+            <lb ed="#L" n="65"/>AD TERTIUM DICENDUM quod illa quae sunt ad
+            <lb ed="#L" n="66"/>seipsum sunt ordinabilia ad. alterum, praecipue
+            <lb ed="#L" n="67"/>quantum ad- bonum commune. Unde et iustitia
+            <lb ed="#L" n="68"/>legalis, secundum quod ordinat ab bonum 
+            com<lb break="no" ed="#L" n="69"/>mune, potest dici virtus generalis; et eadem 
+            ra<lb break="no" ed="#L" n="70"/>tione ifiustitia potest dici peccatum commune:
+            <lb ed="#L" n="71"/>unde dicitur I Ioan. III quod omne peccatum
+            <lb ed="#L" n="72"/>est iniquitas.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1572-Dd1e1258"><!-- p2p2-q58a6" -->
+          <head xml:id="TAca84-d1e1572-Hd1e1261">Articulus 6</head>
+          <head xml:id="TAca84-d1e1572-Hd1e1263" type="question-title">
+            utrum iustitia secundum quod est generalis sit idem per essentiam
+            cum omni virtute
+          </head>
+          <p xml:id="TAca84-d1e1572-d1e1266">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="73" type="fixed=13"/>ARTICULUS SEXTUS.
+            <lb ed="#L" n="74"/>UTRUM IUSTITI; SECUNDUM QUOD EST GENERALIS SIT IDEM PER ESSENTIAM
+            <lb ed="#L" n="75"/>CUM OMNI VIRTUTE
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1277">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="76"/>AD SEXTUM SIC PROCEDITUR, Videtur quod
+            <lb ed="#L" n="77"/>a iustitia, secundum quod. est generalis;
+            <lb ed="#L" n="78"/>sit idem per essentiam. cum. omni
+            <lb ed="#L" n="79"/>virtute. Dicit enim Philosophus, in V
+            <lb ed="#L" n="80"/>Ethic. quod virtus et iustitia. legalis est eadem
+            <lb ed="#L" n="81"/>omni virtuti, esse autem non est idem. Sed illa
+            <lb ed="#L" n="82"/>quae differunt solum secundum esse, vel 
+            secun<lb break="no" ed="#L" n="83"/>dum rationem, non differunt secundum essen-
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="84"/>tiam. Ergo iustitia est idem per essentiam. cum
+            <lb ed="#L" n="85"/>omni virtute.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1306">
+            <lb ed="#L" n="86"/>2. PRAETEREA, omnis virtus quae non. est idem
+            <lb ed="#L" n="87"/>per essentiam. cum omni virtute, est pare 
+            virtu<lb break="no" ed="#L" n="88"/>tis, Sed. iustitia. praedicta, ut ibidem 
+            Philoso<lb break="no" ed="#L" n="89"/>phus dicit, non est pars virtutis, sed tota virtus.
+            <lb ed="#L" n="90"/>Ergo. praedicta iustitia. est idem essentialiter cum
+            <lb ed="#L" n="91"/>omni virtute.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1323">
+            <pb ed="#L" n="14"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>3. PRAETEREA, per hoc quod aliqua virtus 
+            or<lb break="no" ed="#L" n="2"/>dinat actum :suum ad altiorem finem, non. 
+            di<lb break="no" ed="#L" n="3"/>versificatur secundum essentiam habitus : sicut
+            <lb ed="#L" n="4"/>idem est essentialiter habitus temperantiae, etiam
+            <lb ed="#L" n="5"/>si actus eius ordinetur ad bonum divinum. Sed
+            <lb ed="#L" n="6"/>adiustitiam legalem pertinet quod actus omnium
+            <lb ed="#L" n="7"/>virtutum - ordinentur ad altiorem . finem, idest
+            <lb ed="#L" n="8"/>ad bonum commune multitudinis, quod. 
+            praeemi<lb break="no" ed="#L" n="9"/>net bono unius singularis. personae. Ergo -
+            vi<lb break="no" ed="#L" n="10"/>detur quod iustitia. legalis essentialiter. sit .omnis
+            <lb ed="#L" n="11"/>virtus.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1354">
+            <lb ed="#L" n="12"/>4. PRAETEREA, omne bonum. partis -ordinabile
+            <lb ed="#L" n="13"/>est ad. bonum totius: unde si non. ordinetur in
+            <lb ed="#L" n="14"/>illud;..videtur esse vanum et. frustra, Sed illud
+            <lb ed="#L" n="15"/>quod est secundum virtutem non. potest esse 
+            hu<lb break="no" ed="#L" n="16"/>iusmodi. Ergo videtur quod nullus actus possit
+            <lb ed="#L" n="17"/>esse alicuius virtutis qui non pertineat ad 
+            iusti<lb break="no" ed="#L" n="18"/>tiam. generalem, quae ordinat in bonum 
+            com<lb break="no" ed="#L" n="19"/>mune. Et sic videtur quod iustitia generalis sit
+            <lb ed="#L" n="20"/>idem in essentia cum omni. virtute.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1376">
+            <lb ed="#L" n="21"/>SEp coNTRA EsT quod. <ref xml:id="TAca84-d1e1572-Rd1e1380">Philosophus dicit, in. V
+              <lb ed="#L" n="22"/>Ethic.</ref>, quod. multi in. propriis. quidem possunt
+            <lb ed="#L" n="23"/>virtule uti, in his autem quae ad alterum non
+            <lb ed="#L" n="24"/>possunt. Et in <ref xml:id="TAca84-d1e1572-Rd1e1389">III Polit.</ref> dicit quod non est 
+            sim<lb break="no" ed="#L" n="25"/>pliciter eadem. virtus boni viri et boni civis. Sed
+            <lb ed="#L" n="26"/>virtus boni civis est iustitia generalis, per quam
+            <lb ed="#L" n="27"/>aliquis ordinatur ad bonum.commune. Ergo non
+            <lb ed="#L" n="28"/>est eadem iustitia generalis cum virtute communi?,
+            <lb ed="#L" n="29"/>sed una potest sine alia haberi.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1403">
+            <lb ed="#L" n="30"/>RESPONDEO DICENDUM quod generale. dicitur 
+            ali<lb break="no" ed="#L" n="31"/>quid dupliciter. Uno modo, per. praedicationem:
+            <lb ed="#L" n="32"/>sicut animal est generale ad hominem et equum
+            <lb ed="#L" n="33"/>et ad alia huiusmodi. Et hoc modo generale 
+            opor<lb break="no" ed="#L" n="34"/>tet quod sit idem essentialiter cum his ad quae
+            <lb ed="#L" n="35"/>est generale: quia genus pertinet ad. essentiam
+            <lb ed="#L" n="36"/>speciei et cadit in definitione eius. - Alio modo
+            <lb ed="#L" n="37"/>dicitur aliquid generale secundum virtutem : 
+            sic<lb break="no" ed="#L" n="38"/>ut causa universalis est generalis ad omnes. 
+            ef<lb break="no" ed="#L" n="39"/>fectus, ut sol ad omnia corpora, quae 
+            illuminan<lb break="no" ed="#L" n="40"/>tur vel immutantur per virtutem ipsius. Et hoc
+            <lb ed="#L" n="41"/>modo generale non oportet quod sit idem in es-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="42"/>sentia cum his ad quae est generale: quia non
+            <lb ed="#L" n="43"/>est eadem essentia causae et effectus.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1438">
+            <lb ed="#L" n="44"/>Hoc autem modo, secundum praedicta, iustitia
+            <lb ed="#L" n="45"/>legalis dicitur esse virtus generalis : inquantum
+            <lb ed="#L" n="46"/>scilicet ordinat actus aliarum virtutum ad suum
+            <lb ed="#L" n="47"/>finem, quod est movere per imperium omnes
+            <lb ed="#L" n="48"/>alias virtutes. Sicut enim caritas potest dici 
+            vir<lb break="no" ed="#L" n="49"/>tus generalis inquantum ordinat actus omnium
+            <lb ed="#L" n="50"/>virtutum ad bonum divinum, ita etiam iustitia
+            <lb ed="#L" n="51"/>legalis inquantum ordinat actus omnium virtutum
+            <lb ed="#L" n="52"/>ad bonum commune. Sicut ergo caritas, quae 
+            re<lb break="no" ed="#L" n="53"/>spicit bonum divinum ut proprium obiectum, est
+            <lb ed="#L" n="54"/>quaedam specialis virtus secundum suam  
+            essen<lb break="no" ed="#L" n="55"/>tiam; ita etiam iustitia legalis est specialis virtus
+            <lb ed="#L" n="56"/>secundum. suam essentiam, secundum quod  
+            re<lb break="no" ed="#L" n="57"/>spicit commune bonum. ut: proprium obiectum.
+            <lb ed="#L" n="58"/>Et sic est in principe principaliter, et quasi 
+            ar<lb break="no" ed="#L" n="59"/>chitectonice ; in subditis autem. secundario et
+            <lb ed="#L" n="60"/>quasi ministrative.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1477">
+            <lb ed="#L" n="61"/>Potest tamen quaelibet virtus, secundutia quod
+            <lb ed="#L" n="62"/>a praedicta. virtute, speciali quidem: in essentia ,
+            <lb ed="#L" n="63"/>generali autem 'secundum virtutem, ordinatur ad
+            <lb ed="#L" n="64"/>bonum commune, dici iustitia legalis. Et hoc.
+            <lb ed="#L" n="65"/>modo loquendi iustitia legalis est idem in 
+            essen<lb break="no" ed="#L" n="66"/>tia cum omni virtute, differt autem ratione. Et
+            <lb ed="#L" n="67"/>hoc modo loquitur Philosophus. :
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1496">
+            <lb ed="#L" n="68"/>Unde patet responsio ad primum et se in dili sort
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1501">
+            <lb ed="#L" n="69"/>AD TERTIUM DICENDUM quod etiam illa ratio. 
+            se<lb break="no" ed="#L" n="70"/>cundum hunc modum procedit de iustitia legali,
+            <lb ed="#L" n="71"/>secundum quod virtus imperata a iustitia legali
+            <lb ed="#L" n="72"/>iustitia legalis dicitur. 6
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1512">
+            <lb ed="#L" n="73"/>AD QUARTUM DICENDUM quod quaelibet virtus
+            <lb ed="#L" n="74"/>secundum propriam rationem ordinat actum suum
+            <lb ed="#L" n="75"/>ad proprium. finem illius virtutis. Quod autem
+            <lb ed="#L" n="76"/>ordinetur ad ulteriorem finem, sive semper sive
+            <lb ed="#L" n="77"/>aliquando, hoc non habet ex propria ratione, sed
+            <lb ed="#L" n="78"/>oportet esse aliam superiorem virtutem a qua
+            <lb ed="#L" n="79"/>in illum finem ordinetur. Et sic oportet. esse
+            <lb ed="#L" n="80"/>unam virtutem superiorem quae ordinet omnes
+            <lb ed="#L" n="81"/>virtutes in bonum commune, quae. est iustitia
+            <lb ed="#L" n="82"/>legalis, et est alia per essentiam ab omni virtute.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1572-Dd1e1537"><!-- p2p2-q58a7" -->
+          <head xml:id="TAca84-d1e1572-Hd1e1540">Articulus 7</head>
+          <head xml:id="TAca84-d1e1572-Hd1e1542" type="question-title">Utrum sit aliqua iustitia particularis praeter iustitiam generalem</head>
+          <p xml:id="TAca84-d1e1572-d1e1545">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="83" type="fixed=14"/>ARTICULUS SEPTIMUS
+            <lb ed="#L" n="84"/>UTRUM SIT ALIQUA IUSTITIA PARTICULARIS PRAETER IUSTITIAM GENERALEM
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1554">
+            <lb ed="#L" n="85"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="86"/>non sit aliqua iustitia particularis praeter
+            <lb ed="#L" n="87"/>iustitiam generalem. In virtutibus enim
+            <lb ed="#L" n="88"/>nihil est superfluum: sicut nec in 
+            na<lb break="no" ed="#L" n="89"/>tura. Sed iustitia generalis sufficienter ordinat 
+            ho<lb break="no" ed="#L" n="90"/>minem circa omnia quae ad alterum sunt. Ergo
+            <lb ed="#L" n="91"/>non est necessaria aliqua iustitia particularis.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1572">
+            <lb ed="#L" n="92"/>2. PRAETEREA, unum et multa non diversificant
+            <lb ed="#L" n="93"/>speciem virtutis. Sed iustitia legalis ordinat ho-
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="94"/>minem ad alium secundum ea quae ad 
+            multitu<lb break="no" ed="#L" n="95"/>dinem pertinent, ut ex praedictis patet. E
+            <lb ed="#L" n="96"/>non est alia species iustitae quae ordinet ho:
+            <lb ed="#L" n="97"/>minem ad alterum in his quae pertinent ad. unam
+            <lb ed="#L" n="98"/>singularem personam.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1593">
+            <lb ed="#L" n="99"/>3. PRAETEREA, inter unam singularem personam
+            <lb ed="#L" n="100"/>et multitudinem civitatis media est multitudo 
+            do<lb break="no" ed="#L" n="101"/>mestica. Si ergo est iustitia alia particularis per
+            <lb ed="#L" n="102"/>comparationem ad unam personam praeter iu-
+            <pb ed="#L" n="15"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>stitiam, generalem, pari ratione debet esse alia
+            <lb ed="#L" n="2"/>iustitia oeconomica, quae ordinet hominem. ad
+            <lb ed="#L" n="3"/>bonum: commune unius. familiae. Quod quidem
+            <lb ed="#L" n="4"/>non dicitur. Ergo nec aliqua: poca iustitia
+            <lb ed="#L" n="5"/>est praeter: iustitiam legalem.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1619">
+            <lb ed="#L" n="6"/>SED CONTRA EST quod. Chrysostomus dicit s 
+            su<lb break="no" ed="#L" n="7"/>per illud Matth. v, « Beati qui esuriunt et sitiunt
+            <lb ed="#L" n="8"/>iustitiam » : Iustitiam autem dicit vel universalem
+            <lb ed="#L" n="9"/>virtutem, vel particularem. avaritiae contrariam.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1630">
+            <lb ed="#L" n="10"/>RESPONDEO DICENDUM quod; sicut.:dictum est,
+            <lb ed="#L" n="11"/>iustitia legalis non: est essentialiter. omnis virtus;
+            <lb ed="#L" n="12"/>sed oportet praeter iustitiam legalem, quae 
+            ordi<lb break="no" ed="#L" n="13"/>nat hominem immediate ad bonum «commune;
+            <lb ed="#L" n="14"/>esse alias virtutes quae immediate ordinant ho-
+            <lb ed="#L" n="15"/>minem circa particularia bona. Quae quidem
+            <lb ed="#L" n="16"/>possunt esse: vel ad seipsum, vel. ad. alteram 
+            sin<lb break="no" ed="#L" n="17"/>» gularem. personam..Sicut ergo praeter iustitiam
+            <lb ed="#L" n="18"/>legalem oportet esse aliquas virtutes particulares
+            <lb ed="#L" n="19"/>quae ordinant ? hominem in. seipso, puta 
+            tempe<lb break="no" ed="#L" n="20"/>rantiam :et- fortitudinem ; ita etiam praeter 
+            iusti<lb break="no" ed="#L" n="21"/>—tiam legalem oportet esse particularem quandam
+            <lb ed="#L" n="22"/>iustitiam, quae ordinet hominem circa ea quae
+            <lb ed="#L" n="23"/>sunt ad alteram singularem personam.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1663">
+            <lb ed="#L" n="24"/>AD PRIMUM ERGO DICENDUM quod iustitia legalis
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="25"/>sufficienter quidem ordinat hominem in his quae
+            <lb ed="#L" n="26"/>sunt ad alterum; quantum.ad commune quidem
+            <lb ed="#L" n="27"/>bonum, immediate; quantum- autem ad bonum
+            <lb ed="#L" n="28"/>unius singularis: personae; mediate. Et ideo 
+            opor<lb break="no" ed="#L" n="29"/>tet esse aliquam particularem: iustitiam, quae 
+            im<lb break="no" ed="#L" n="30"/>mediate ordinet hominem ad. bonuin alterius sin*
+            <lb ed="#L" n="31"/>gularis personae.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1685">
+            <lb ed="#L" n="32"/>AD SECUNDUM DICENDUM quod bonum commune
+            <lb ed="#L" n="33"/>civitatis:et bonum singulare: unius personae non
+            <lb ed="#L" n="34"/>differunt: solum. secundum multum: et. paucum;
+            <lb ed="#L" n="35"/>sed secundum formalem differentiam :. alia: enim
+            <lb ed="#L" n="36"/>est. ratio boni: communis et boni singularis, sicut
+            <lb ed="#L" n="37"/>et-alia est ratio- totius et partis. Et ideo: 
+            Philoso<lb break="no" ed="#L" n="38"/>phus; in 1 Poliz., dicit quod non bene dicunt qui
+            <lb ed="#L" n="39"/>dicunt civitatem el domum.et alia. huiusmodi 
+            dif<lb break="no" ed="#L" n="40"/>ferre solum multitudine et paucitate, et non specie.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1707">
+            <lb ed="#L" n="41"/>AD TERTIUM DICENDUM quod domestica multi
+            <lb ed="#L" n="42"/>tudo, secundum <ref xml:id="TAca84-d1e1572-Rd1e1713">Philosophum, in 1 Polit.</ref>, 
+            distin<lb break="no" ed="#L" n="43"/>guitur secundum tres coniugationes, scilicet 
+            uxo<lb break="no" ed="#L" n="44"/>ris et viri, patris et filii; domini et servi, quarum
+            <lb ed="#L" n="45"/>personarum una est quasi aliquid alterius. Et ideo
+            <lb ed="#L" n="46"/>ad huiusmodi personam non est simpliciter 
+            iu<lb break="no" ed="#L" n="47"/>stitia, sed quaedam iustitiae. species, scilicet 
+            oe<lb break="no" ed="#L" n="48"/>conomica, ut dicitur in <ref xml:id="TAca84-d1e1572-Rd1e1728">V Ethic.</ref>
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1572-Dd1e1733"><!-- p2p2-q58a8" -->
+          <head xml:id="TAca84-d1e1572-Hd1e1736">Articulus 8</head>
+          <head xml:id="TAca84-d1e1572-Hd1e1738" type="question-title">Utrum iustitia particularis habeat materiam specialem</head>
+          <p xml:id="TAca84-d1e1572-d1e1741">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="70" type="fixed=15"/>ARTICULUS OCTAVUS
+            <lb ed="#L" n="71"/>UTRUM IUSTITIA PARTICULARIS HABEAT MATERIAM SPECIALEM
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1750">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="72"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="73"/>iustitia particularis non habeat materiam
+            <lb ed="#L" n="74"/>specialem. Quia super illud Gen. u
+            <lb ed="#L" n="75"/>Fluvius. quartus. ipse est. Euphrates, 
+            di<lb break="no" ed="#L" n="76"/>cit. Glossa: Euphrates «.frugifer » interpretatur.
+            <lb ed="#L" n="77"/>Nec dicitur contra quod vadat, quia. iustitia .ad
+            <lb ed="#L" n="78"/>omnes animae partes pertinet. Hoc autem non
+            <lb ed="#L" n="79"/>esset si haberet materiam specialem: quia 
+            quae<lb break="no" ed="#L" n="80"/>libet materia specialis ad aliquam specialem. 
+            po<lb break="no" ed="#L" n="81"/>tentiam pertinet. Ergo iustitia patiucularis non
+            <lb ed="#L" n="82"/>habet materiam specialem.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1779">
+            <lb ed="#L" n="83"/>2. PRAETEREA, <ref xml:id="TAca84-d1e1572-Rd1e1783">Augustinus, in libro. Octo 
+              ginta<lb break="no" ed="#L" n="84"/>trium. Quaest.</ref>, dicit. quod. quatuor sunt animae
+            <lb ed="#L" n="85"/>virtutes , quibus. in. hac vita. spiritualiter vivitur,
+            <lb ed="#L" n="86"/>scilicet prudentia, temperantia, fortitudo, iustitia :
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="87"/>et dicit. quod. quarta est iustitia, quae per omnes
+            <lb ed="#L" n="88"/>diffunditur. Ergo iustitia, particularis, quae est una
+            <lb ed="#L" n="89"/>de.quatuor virtutibus cardinalibus, non habet 
+            spe<lb break="no" ed="#L" n="90"/>cialem. materiam.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1805">
+            <lb ed="#L" n="91"/>3. PRAETEREA, iustitia dirigit hominem 
+            sufficien<lb break="no" ed="#L" n="92"/>ter in his quae sunt ad. alterum. Sed per omnia
+            <lb ed="#L" n="93"/>quae. sunt. huius . vitae. homo. potest ordinari ad
+            <lb ed="#L" n="94"/>alterum. Ergo materia iustitiae est generalis, non ?
+            <lb ed="#L" n="95"/>specialis. 
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1818">
+            <lb ed="#L" n="96"/>SED CONTRA EST quod <ref xml:id="TAca84-d1e1572-Rd1e1822">Philosophus, in V Ethic.</ref>,
+            <lb ed="#L" n="97"/>ponit iustitiam particularem circa ea, specialiter
+            <lb ed="#L" n="98"/>quae pertinent ad. communicationem vitae.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1829">
+            <lb ed="#L" n="99"/>RESPONDEO DICENDUM quod omnia quaecumque
+            <lb ed="#L" n="100"/>rectificari possunt per rationem sunt materia
+            <lb ed="#L" n="101"/>virtutis. moralis, quae. definitur. per rationem  re-
+            <pb ed="#L" n="16"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>ctam, ut patet per <ref xml:id="TAca84-d1e1572-Rd1e1844">Philosophum, in II Ethic.</ref>
+            <lb ed="#L" n="2"/>Possunt autem. per rationem. rectificari et inte
+            <lb ed="#L" n="3"/>riores animae passiones, et exteriores actiones, 
+            <lb ed="#L" n="4"/>et res exteriores quae in. usum hominis veniunt:
+            <lb ed="#L" n="5"/>sed tamen per exteriores actiones et: per-
+            exte<lb break="no" ed="#L" n="6"/>riores res, quibus ' sibi invicem homines 
+            commu<lb break="no" ed="#L" n="7"/>nicare possunt, attenditur ordinatio: unius 
+            homi<lb break="no" ed="#L" n="8"/>nis. ad alium ?; secundum autem. interiores 
+            pas<lb break="no" ed="#L" n="9"/>siones consideratur: rectificatio hominis in. seipso.
+            <lb ed="#L" n="10"/>Et ideo, cum iustitia ordinetur. ad. alterum; rion
+            <lb ed="#L" n="11"/>est circa totam materiam virtutis: moralis; sed 
+            so<lb break="no" ed="#L" n="12"/>lum circa. exteriores actiones et res secundum
+            <lb ed="#L" n="13"/>quandam rationem obiecti specialem, prout scilicet
+            <lb ed="#L" n="14"/>secundum .eas unus homo alteri coordinatur.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1875">
+            <lb ed="#L" n="15"/>AD PRIMUM ERGO DICENDUM quod. iustitia 
+            perti<lb break="no" ed="#L" n="16"/>net quidem essentialiter ad. unam partem animae,
+            <lb ed="#L" n="17"/>in qua est. sicut in subiecto, scilicet ad. 
+            volunta<lb break="no" ed="#L" n="18"/>tem, quae quidem. movet. per suum imperium
+            <lb ed="#L" n="19"/>omnes alias animae. partes. Et sic iustitia. non
+            <lb ed="#L" n="20"/>directe, sed quasi per quandam redundantiam ad
+            <lb ed="#L" n="21"/>omnes animae. partes pertinet.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1893">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="22"/>AD SECUNDUM DICENDUM quod, sicut supra 
+            di<lb break="no" ed="#L" n="23"/>ctum. est, virtutes: cardinales dupliciter 
+            accipiun<lb break="no" ed="#L" n="24"/>tur. Uno modo, secundum quod sunt speciales 
+            vir<lb break="no" ed="#L" n="25"/>tutes habentes determinatas materias. Alio modo,
+            <lb ed="#L" n="26"/>secundum quod significant quosdam: generales
+            <lb ed="#L" n="27"/>modos virtutis; Et hoc modo loquitur ibi 
+            Augu<lb break="no" ed="#L" n="28"/>sunus. Dicit enim quod prudentia est cognitio
+            <lb ed="#L" n="29"/>rerum appetendarum et. fugiendarum ; 
+            temperan<lb break="no" ed="#L" n="30"/>tia est refrenatio cupiditatis: ab his quae 
+            tempo<lb break="no" ed="#L" n="31"/>raliter delectant; fortitudo est firmitas: animi 
+            ad<lb break="no" ed="#L" n="32"/>versus ea quae temporaliter molesta sunt; 
+            iusti<lb break="no" ed="#L" n="33"/>tia est, quae per ceteras diffunditur, dilectio: Dei
+            <lb ed="#L" n="34"/>et. proximi, quae- scilicet est communis. radix 
+            to<lb break="no" ed="#L" n="35"/>tius ordinis ad alterum. 
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1928">
+            <lb ed="#L" n="36"/>AD TERTIUM DICENDUM quod passiones 
+            interio<lb break="no" ed="#L" n="37"/>res, quae sunt pars materiae moralis, secundum
+            <lb ed="#L" n="38"/>se non ordinantur ad alterum, quod: veiut ad
+            <lb ed="#L" n="39"/>specialem rationem iustitiae: sed earum effectus
+            <lb ed="#L" n="40"/>sunt ad alterum ordinabiles, scilicet operationes
+            <lb ed="#L" n="41"/>exteriores. Unde non sequitur iod materia 
+            iu<lb break="no" ed="#L" n="42"/>stitiae sit generalis. 
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1572-Dd1e1947"><!-- p2p2-q58a9" -->
+          <head xml:id="TAca84-d1e1572-Hd1e1950">Articulus 9</head>
+          <head xml:id="TAca84-d1e1572-Hd1e1952" type="question-title">Utrum iustitia sit circa passiones</head>
+          <p xml:id="TAca84-d1e1572-d1e1955">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="72" type="fixed=16"/>ARTICULUS NONUS.
+            <lb ed="#L" n="73"/>UTRUM IUSTITIA SIT CIRCA PASSIONES
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1964">
+            <lb ed="#L" n="74"/>AD NONUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="75"/>iustitia sit circa passiones. Dicit enim
+            <lb ed="#L" n="76"/>Philosophus, in Il Ethic., quod circa
+            <lb ed="#L" n="77"/>voluptates et tristitias est moralis virtus.
+            <lb ed="#L" n="78"/>Volpi autem, idest delectatio, et tristitia sunt
+            <lb ed="#L" n="79"/>passiones quaedam; ut supra habitum est, cum
+            <lb ed="#L" n="80"/>de passionibus ageretur. Ergo iustitia; cum sit 
+            vir<lb break="no" ed="#L" n="81"/>tus moralis, erit circa passiones."
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e1984">
+            <lb ed="#L" n="82"/>2. PRAETEREA, per iustitiam rectificantur bpete:
+            <lb ed="#L" n="83"/>tiones quae sunt ad alterum. Sed operationes 
+            hu<lb break="no" ed="#L" n="84"/>iusmodi rectificari noti possunt nisi passiones sint
+            <lb ed="#L" n="85"/>rectificatae: quia ex inordinatione passionum 
+            pro<lb break="no" ed="#L" n="86"/>venit inordinatio in praedictis operationibus; 
+            pro<lb break="no" ed="#L" n="87"/>pter concupiscentiam enim venereorur proceditur
+            <lb ed="#L" n="88"/>ad adulterium, et propter superfluum amorem 
+            pe<lb break="no" ed="#L" n="89"/>cuniae proceditur ad furtum. Ergo oportet quod
+            <lb ed="#L" n="90"/>iustitia sit circa passiones.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2007">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="91"/>3. PRAETEREA, sicut iustitia particularis. est a
+            <lb ed="#L" n="92"/>alterum, ita etiam et iustitia legalis. Sed jusitia
+            <lb ed="#L" n="93"/>legalis est circa passiones: alioquin non se ex
+            <lb ed="#L" n="94"/>tenderet ad omnes virtutes, quarum quaed:
+            <lb ed="#L" n="95"/>manifeste sunt circa passiones. Ergo iustitia est
+            <lb ed="#L" n="96"/>circa passiones. 
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2025">
+            <lb ed="#L" n="97"/>SED coNrRA EST quod <ref xml:id="TAca84-d1e1572-Rd1e2029">Philosophus: dicit, in V
+              <lb ed="#L" n="98"/>Ethic.</ref>, quod est circa operationes. 
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2035">
+            <lb ed="#L" n="99"/>RESPONDEO DICENDUM quod huius quaes
+            <lb ed="#L" n="100"/>veritas ex duobus apparet. Primo quidem, ex
+            <lb ed="#L" n="101"/>ipso subiecto iustitiae, quod est voluntas; cuius.
+            <lb ed="#L" n="102"/>miotus vel actus non sunt passiones; "ut. supra
+            <lb ed="#L" n="103"/>habitum est; sed solum motus appetitus 'sensitivi
+            <lb ed="#L" n="104"/>passiones dicuntur. Et ideo iustitia non. est circa
+            <lb ed="#L" n="105"/>passiones, sicut temperantia et fortitudo, quae
+            <lb ed="#L" n="106"/>sunt irascibilis et concupiscibilis, sunt circa 
+            pas<lb break="no" ed="#L" n="107"/>siones. - Alio modo, ex parte. materiae. Quia
+            <pb ed="#L" n="17"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>iustitia est circa ea quae sunt ad alterum. Non
+            <lb ed="#L" n="2"/>autem per passiones interiores immediate ad 
+            al<lb break="no" ed="#L" n="3"/>terum ordinamur. Et ideo iustitia circa passiones
+            <lb ed="#L" n="4"/>non est.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2070">
+            <lb ed="#L" n="5"/>AD PRIMUM ERGO DICENDUM quod non quaelibet
+            <lb ed="#L" n="6"/>virtus moralis est circa voluptates et tristitias sicut
+            <lb ed="#L" n="7"/>circa materiam: nam fortitudo est circa timores
+            <lb ed="#L" n="8"/>et audacias. Sed omnis virtus moralis ordinatur
+            <lb ed="#L" n="9"/>ad delectationem et tristitiam sicut ad quosdam
+            <lb ed="#L" n="10"/>fines consequentes: quia, ut Philosophus dicit,
+            <lb ed="#L" n="11"/>in VII Ethic., delectatio et tristitia est finis 
+            prin<lb break="no" ed="#L" n="12"/>cipalis, ad quem respicientes unumquodque hoc
+            <lb ed="#L" n="13"/>quidem malum, hoc quidem bonum dicimus. Et
+            <lb ed="#L" n="14"/>hoc modo etiam pertinent ad iustitiam: quia non
+            <lb ed="#L" n="15"/>est iustus qui non gaudet iustis operationibus, ut
+            <lb ed="#L" n="16"/>dicitur in I Ethic.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2099">
+            <lb ed="#L" n="17"/>AD SECUNDUM DICENDUM quod operationes 
+            ex<lb break="no" ed="#L" n="18"/>teriores mediae sunt quodammodo inter res 
+            exte<lb break="no" ed="#L" n="19"/>riores, quae sunt earum materia, et inter passiones
+            <lb ed="#L" n="20"/>interiores, quae sunt earum principia. Contingit
+            <lb ed="#L" n="21"/>autem quandoque esse defectum in uno eorum
+            <lb ed="#L" n="22"/>sine hoc quod sit defectus in alio: sicut si aliquis
+            <lb ed="#L" n="23"/>surripiat rem alterius non cupiditate habendi, sed
+            <lb ed="#L" n="24"/>voluntate nocendi; vel e converso si aliquis 
+            al<lb break="no" ed="#L" n="25"/>terius rem concupiscat, quam tamen surripere
+            <lb ed="#L" n="26"/>non velit. Rectificatio ergo operationum secundum
+            <lb ed="#L" n="27"/>quod ad exteriora terminantur, pertinet ad iu-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="28"/>stitiam: sed rectificatio earum secundum quod a
+            <lb ed="#L" n="29"/>passionibus oriuntur, pertinet ad alias virtutes
+            <lb ed="#L" n="30"/>morales, quae sunt circa passiones. Unde 
+            surre<lb break="no" ed="#L" n="31"/>ptionem alienae rei iustitia impedit inquantum est
+            <lb ed="#L" n="32"/>contra aequalitatem in exterioribus constituendam:
+            <lb ed="#L" n="33"/>liberalitas vero inquantum procedit ab 
+            immode<lb break="no" ed="#L" n="34"/>rata concupiscentia divitiarum. Sed quia 
+            ope<lb break="no" ed="#L" n="35"/>rationes exteriores non habent speciem ab 
+            inte<lb break="no" ed="#L" n="36"/>rioribus passionibus, sed magis a rebus 
+            exterio<lb break="no" ed="#L" n="37"/>ribus, sicut ex obiectis; ideo, per se loquendo,
+            <lb ed="#L" n="38"/>operationes exteriores magis sunt materia iustitiae
+            <lb ed="#L" n="39"/>quam aliarum virtutum moralium.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2154">
+            <lb ed="#L" n="40"/>AD TERTIUM DICENDUM quod bonum commune
+            <lb ed="#L" n="41"/>est finis singularum personarum in communitate
+            <lb ed="#L" n="42"/>existentium, sicut bonum totius finis est 
+            cuiusli<lb break="no" ed="#L" n="43"/>bet partium. Bonum autem unius personae 
+            sin<lb break="no" ed="#L" n="44"/>gularis non est finis alterius. Et ideo iustitia 
+            lega<lb break="no" ed="#L" n="45"/>lis, quae ordinatur ad bonum commune, magis
+            <lb ed="#L" n="46"/>se potest extendere ad interiores passiones, 
+            qui<lb break="no" ed="#L" n="47"/>bus homo aliqualiter disponitur in seipso, quam
+            <lb ed="#L" n="48"/>iustitia particularis, quae ordinatur ad bonum 
+            al<lb break="no" ed="#L" n="49"/>terius singularis personae. Quamvis iustitia 
+            lega<lb break="no" ed="#L" n="50"/>lis principalius se extendat ad alias virtutes 
+            quan<lb break="no" ed="#L" n="51"/>tum ad exteriores operationes earum: 
+            inquan<lb break="no" ed="#L" n="52"/>tum scilicet praecipit lex fortis opera facere,
+            <lb ed="#L" n="53"/>et quae temperati, e! quae mansueti, ut dicitur
+            <lb ed="#L" n="54"/>in V Ethic.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1572-Dd1e2190"><!-- p2p2-q58a10" -->
+          <head xml:id="TAca84-d1e1572-Hd1e2193">Articulus 10</head>
+          <head xml:id="TAca84-d1e1572-Hd1e2195" type="question-title">Utrum medium iustitiae sit medium rei</head>
+          <p xml:id="TAca84-d1e1572-d1e2198">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="66" type="fixed=17"/>ARTICULUS DECIMUS
+            <lb ed="#L" n="67"/>UTRUM MEDIUM IUSTITIAE SIT MEDIUM REI
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2207">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="68"/>AD DECIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="69"/>medium iustitiae non sit medium rei.
+            <lb ed="#L" n="70"/>Ratio enim generis salvatur in omnibus
+            <lb ed="#L" n="71"/>speciebus. Sed virtus moralis in <ref xml:id="TAca84-d1e1572-Rd1e2220">II
+              <lb ed="#L" n="72"/>Ethic.</ref> definitur esse habitus electivus in 
+            medie<lb break="no" ed="#L" n="73"/>tate existens determinata ratione quoad nos. Ergo
+            <lb ed="#L" n="74"/>et in iustitia est medium rationis, et non rei.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2230">
+            <lb ed="#L" n="75"/>2. PRAETEREA, in his quae simpliciter sunt bona
+            <lb ed="#L" n="76"/>non est accipere superfluum et diminutum, et per
+            <lb ed="#L" n="77"/>consequens nec medium: sicut patet de virtutibus,
+            <lb ed="#L" n="78"/>ut dicitur in <ref xml:id="TAca84-d1e1572-Rd1e2240">II Ethic.</ref> Sed iustitia est circa 
+            sim<lb break="no" ed="#L" n="79"/>pliciter bona, ut dicitur in <ref xml:id="TAca84-d1e1572-Rd1e2245">V Ethic.</ref> Ergo in
+            <lb ed="#L" n="80"/>iustitia non est medium rei.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2251">
+            <lb ed="#L" n="81"/>3. PRAETEREA, in aliis virtutibus ideo dicitur esse
+            <lb ed="#L" n="82"/>medium rationis et non rei, quia diversimode
+            <lb ed="#L" n="83"/>accipitur per comparationem ad diversas 
+            perso<lb break="no" ed="#L" n="84"/>nas: quia quod uni est multum, alteri est parum,
+            <lb ed="#L" n="85"/>ut dicitur in <ref xml:id="TAca84-d1e1572-Rd1e2264">II Ethic.</ref> Sed hoc etiam observatur
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="86"/>in iustitia: non enim eadem poena punitur qui
+            <lb ed="#L" n="87"/>percutit principem, et qui percutit privatam 
+            per<lb break="no" ed="#L" n="88"/>sonam. Ergo etiam iustitia non habet medium
+            <lb ed="#L" n="89"/>rei, sed medium rationis.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2277">
+            <lb ed="#L" n="90"/>SED CONTRA EsT quod <ref xml:id="TAca84-d1e1572-Rd1e2281">Philosophus, in V Ethic.</ref>,
+            <lb ed="#L" n="91"/>assignat medium iustitiae secundum 
+            proportiona<lb break="no" ed="#L" n="92"/>litatem arithmeticam, quod est medium rei.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2288">
+            <lb ed="#L" n="93"/>RESPONDEO DICENDUM quod, sicut supra dictum
+            <lb ed="#L" n="94"/>est, aliae virtutes morales consistunt principaliter
+            <lb ed="#L" n="95"/>circa passiones, quarum rectificatio non attenditur
+            <lb ed="#L" n="96"/>nisi secundum comparationem ad ipsum hominem
+            <lb ed="#L" n="97"/>cuius sunt passiones, secundum scilicet quod 
+            ira<lb break="no" ed="#L" n="98"/>scitur et concupiscit prout debet secundum 
+            di<lb break="no" ed="#L" n="99"/>versas circumstantias. Et ideo medium talium
+            <lb ed="#L" n="100"/>virtutum non accipitur secundum proportionem
+            <lb ed="#L" n="101"/>unius rei ad alteram, sed solum secundum 
+            com<lb break="no" ed="#L" n="102"/>parationem ad ipsum virtuosum. Et propter hoc
+            <lb ed="#L" n="103"/>in ipsis est medium solum secundum rationem
+            <pb ed="#L" n="18"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>quoad nos. Sed materia iustitiae est exterior 
+            ope<lb break="no" ed="#L" n="2"/>ratio secundum quod ipsa, vel res cuius est usus,
+            <lb ed="#L" n="3"/>debitam proportionem habet ad aliam personam.
+            <lb ed="#L" n="4"/>Et ideo medium iustitiae consistit in quadam 
+            pro<lb break="no" ed="#L" n="5"/>portionis aequalitate rei exterioris ad personam
+            <lb ed="#L" n="6"/>exteriorem. Aequale autem est realiter medium
+            <lb ed="#L" n="7"/>inter maius et minus, ut dicitur in X Metaphys.
+            <lb ed="#L" n="8"/>Unde iustitia habet medium rei.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2336">
+            <lb ed="#L" n="9"/>AD PRIMUM ERGO DICENDUM quod hoc medium
+            <lb ed="#L" n="10"/>rei est etiam medium rationis. Et ideo in iustitia
+            <lb ed="#L" n="11"/>salvatur ratio virtutis moralis.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2345">
+            <lb ed="#L" n="12"/>AD SECUNDUM DICENDUM quod bonum simpliciter
+            <lb ed="#L" n="13"/>dupliciter dicitur. Uno modo, quod est omnibus
+            <lb ed="#L" n="14"/>modis bonum: sicut virtutes sunt bonae. Et sic
+            <lb ed="#L" n="15"/>in his quae sunt bona simpliciter non est accipere
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="16"/>medium et extrema. - Alio modo dicitur aliquid .
+            <lb ed="#L" n="17"/>simpliciter bonum quia est absolute bonum, 
+            sci<lb break="no" ed="#L" n="18"/>licet secundum suam naturam consideratum,
+            <lb ed="#L" n="19"/>quamvis per abusum possit fieri malum: sicut
+            <lb ed="#L" n="20"/>patet de divitiis et honoribus. Et in talibus potest
+            <lb ed="#L" n="21"/>accipi superfluum, diminutum et medium 
+            quan<lb break="no" ed="#L" n="22"/>tum ad homines, qui possunt eis uti vel bene
+            <lb ed="#L" n="23"/>vel male. Ei sic circa simpliciter bona dicitur
+            <lb ed="#L" n="24"/>esse iustitia. 
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2378">
+            <lb ed="#L" n="25"/>AD TERTIUM DICENDUM quod iniuria illata aliam
+            <lb ed="#L" n="26"/>proportionem habet ad principem, et aliam ad
+            <lb ed="#L" n="27"/>personam privatam. Et ideo oportet aliter 
+            adae<lb break="no" ed="#L" n="28"/>quare utramque iniuriam per vindictam. Quod
+            <lb ed="#L" n="29"/>pertinet ad. diversitatem rei, et non solum ad
+            <lb ed="#L" n="30"/>diversitatem rationis.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1572-Dd1e2395"><!-- p2p2-q58a11" -->
+          <head xml:id="TAca84-d1e1572-Hd1e2398">Articulus 11</head>
+          <head xml:id="TAca84-d1e1572-Hd1e2400" type="question-title">Utrum actus iustitiae sit reddere unicuique quod suum est</head>
+          <p xml:id="TAca84-d1e1572-d1e2403">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="60" type="fixed=18"/>ARTICULUS UNDECIMUS
+            <lb ed="#L" n="61"/>UTRUM ACTUS IUSTITIAE SIT REDDERE UNICUIQUE QUOD SUUM EST
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2412">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="62"/>AD UNDECIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="63"/>actus iustitiae non sit reddere unicuique
+            <lb ed="#L" n="64"/>quod suum est. Augustinus enim, XIV
+            <lb ed="#L" n="65"/>de Trin., attribuit iustitiae. subvenire
+            <lb ed="#L" n="66"/>miseris. Sed in subveniendo miseris non tribuimus
+            <lb ed="#L" n="67"/>eis quae sunt eorum, sed magis quae sunt nostra.
+            <lb ed="#L" n="68"/>Ergo iustitiae actus non est tribuere unicuique
+            <lb ed="#L" n="69"/>quod suum est.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2434">
+            <lb ed="#L" n="70"/>2. PRAETEREA, <ref xml:id="TAca84-d1e1572-Rd1e2438">Tullius, in I de Offic.</ref>, dicit
+            <lb ed="#L" n="71"/>quod beneficentia, quam. benignitatem vel 
+            libera<lb break="no" ed="#L" n="72"/>litatem appellari licet, ad iustitiam pertinet. Sed 
+            <lb ed="#L" n="73"/>liberalitatis est de proprio dare alicui, non de eo
+            <lb ed="#L" n="74"/>quod est eius. Ergo iustitiae actus non est 
+            red<lb break="no" ed="#L" n="75"/>dere unicuique quod suum est.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2453">
+            <lb ed="#L" n="76"/>3. PRAETEREA, ad iustitiam pertinet non solum
+            <lb ed="#L" n="77"/>res dispensare debito modo, sed etiam iniuriosas
+            <lb ed="#L" n="78"/>actiones cohibere: puta homicidia, adulteria et
+            <lb ed="#L" n="79"/>alia huiusmodi. Sed reddere quod suum est 
+            vi<lb break="no" ed="#L" n="80"/>detur solum. ad dispensationem rerum pertinere.
+            <lb ed="#L" n="81"/>Ergo non sufficienter per hoc notificatur actus
+            <lb ed="#L" n="82"/>iustitiae quod dicitur actus eius esse reddere
+            <lb ed="#L" n="83"/>unicuique quod suum est.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2473">
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="84"/>SED coNTRA EsT quod <ref xml:id="TAca84-d1e1572-Rd1e2479">Ambrosius dicit, in I
+              <lb ed="#L" n="85"/>de Offic.</ref>: Iustitia est quae unicuique quod suum
+            <lb ed="#L" n="86"/>est tribuit, alienum non vindicat, utilitatem 
+            pro<lb break="no" ed="#L" n="87"/>priam negligit ut communem aequitatem custodiat.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2489">
+            <lb ed="#L" n="88"/>RESPONDEO DICENDUM quod, sicut dictum est,
+            <lb ed="#L" n="89"/>materia iustitiae est operatio exterior secundum
+            <lb ed="#L" n="90"/>quod ipsa, vel res qua per eam utimur, 
+            propor<lb break="no" ed="#L" n="91"/>tionatur alteri personae, ad quam per. iustitiam
+            <lb ed="#L" n="92"/>ordinamur. Hoc autem dicitur esse suum 
+            unius<lb break="no" ed="#L" n="93"/>cuiusque personae quod ei secundum proportionis
+            <lb ed="#L" n="94"/>aequalitatem. debetur. Et ideo proprius actus 
+            iu<lb break="no" ed="#L" n="95"/>stitiae. nihil est aliud quam reddere unicuique
+            <lb ed="#L" n="96"/>quod suum est.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2511">
+            <lb ed="#L" n="97"/>AD PRIMUM ERGO DICENDUM quod iustitiae, cum
+            <lb ed="#L" n="98"/>sit virtus. cardinalis, quaedam : aliae virtutes. 
+            se<lb break="no" ed="#L" n="99"/>cundariae adiunguntur, sicut misericordia, 
+            libera<lb break="no" ed="#L" n="100"/>litas et aliae huiusmodi virtutes, ut infra patebit.
+            <lb ed="#L" n="101"/>Et ideo subvenire miseris, quod pertinet ad 
+            mi<lb break="no" ed="#L" n="102"/>sericordiam sive pietatem, et liberaliter. benefa-
+            <lb ed="#L" n="103"/>cere, quod pertinet ad liberalitatem, per quandam
+            <lb ed="#L" n="104"/>reductionem attribuitur iustitiae, sicut principali
+            <lb ed="#L" n="105"/>virtuti.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2533">
+            <pb ed="#L" n="19"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>Et per hoc patet responsio ad secundum.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2542">
+            <lb ed="#L" n="2"/>AD TERTIUM DICENDUM quod, sicut <ref xml:id="TAca84-d1e1572-Rd1e2546">Philosophus
+              <lb ed="#L" n="3"/>dicit, in V Ethic.</ref>, omne superfluum in his quae
+            <lb ed="#L" n="4"/>ad iustitiam pertinent lucrum, extenso nomine,
+            <lb ed="#L" n="5"/>vocatur: sicut et omne quod minus est vocatur
+            <lb ed="#L" n="6"/>damnum. Et hoc ideo, quia iustitia prius est
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="7"/>exercita, et communius exercetur in voluntariis
+            <lb ed="#L" n="8"/>commutationibus rerum, puta emptione et 
+            ven<lb break="no" ed="#L" n="9"/>ditione, in quibus proprie haec nomina dicuntur;
+            <lb ed="#L" n="10"/>et exinde derivantur haec nomina ad omnia circa
+            <lb ed="#L" n="11"/>quae potest esse iustitia. Et eadem ratio est de
+            <lb ed="#L" n="12"/>hoc quod est reddere unicuique quod suum est.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1572-Dd1e2575"><!-- p2p2-q58a12" -->
+          <head xml:id="TAca84-d1e1572-Hd1e2578">Articulus 12</head>
+          <head xml:id="TAca84-d1e1572-Hd1e2580" type="question-title">Utrum iustitia praeemineat inter omnes virtutes morales</head>
+          <p xml:id="TAca84-d1e1572-d1e2583">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="13" type="fixed=19"/>ARTICULUS DUODECIMUS
+            <lb ed="#L" n="14"/>UTRUM IUSTITIA PRAEEMINEAT INTER OMNES VIRTUTES MORALES
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2592">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="15"/>AD DUODECIMUM SIC PROCEDITUR. Videtur
+            <lb ed="#L" n="16"/>quod iustitia non praeemineat inter
+            <lb ed="#L" n="17"/>omnes virtutes morales. Ad iustitiam
+            <lb ed="#L" n="18"/>enim pertinet reddere alteri quod suum
+            <lb ed="#L" n="19"/>est. Ad liberalitatem autem pertinet de proprio
+            <lb ed="#L" n="20"/>dare, quod virtuosius est. Ergo liberalitas est
+            <lb ed="#L" n="21"/>maior virtus quam iustitia.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2612">
+            <lb ed="#L" n="22"/>2. PRAETEREA, nihil ornatur nisi per aliquid
+            <lb ed="#L" n="23"/>dignius se. Sed magnanimitas est ornamentum
+            <lb ed="#L" n="24"/>et iustitiae et omnium virtutum, ut dicitur in IV
+            <lb ed="#L" n="25"/>Ethic. Ergo magnanimitas est nobilior quam 
+            <lb ed="#L" n="26"/>justitia.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2626">
+            <lb ed="#L" n="27"/>3. PRAETEREA, virtus est circa difficile et bonum,
+            <lb ed="#L" n="28"/>ut dicitur in II Ethic. Sed fortitudo est circa
+            <lb ed="#L" n="29"/>magis difficilia quam iustitia, idest circa pericula
+            <lb ed="#L" n="30"/>mortis, ut dicitur in Ill Ethic. Ergo fortitudo
+            <lb ed="#L" n="31"/>est nobilior iustitia.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2639">
+            <lb ed="#L" n="32"/>SED coNTRA EsT quod<ref xml:id="TAca84-d1e1572-Rd1e2643"> Tullius dicit, in I de
+              <lb ed="#L" n="33"/>Offic.</ref>: In iustitia virtutis splendor est maximus,
+            <lb ed="#L" n="34"/>ex qua boni viri nominantur.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2651">
+            <lb ed="#L" n="35"/>RESPONDEO DICENDUM quod si loquamur de 
+            iu<lb break="no" ed="#L" n="36"/>stitia legali, manifestum est quod ipsa est 
+            prae<lb break="no" ed="#L" n="37"/>clarior inter omnes virtutes morales: inquantum
+            <lb ed="#L" n="38"/>bonum commune praeeminet bono singulari unius
+            <lb ed="#L" n="39"/>personae. Et secundum hoc Philosophus, in V
+            <lb ed="#L" n="40"/>* Ethic., dicit quod praeciarissima virtutum videtur
+            <lb ed="#L" n="41"/>esse iustitia, et neque est Hesperus neque Lucifer
+            <lb ed="#L" n="42"/>dila admirabilis.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2671">
+            <lb ed="#L" n="43"/>Sed etiam si loquamur de iustitia particulari,
+            <lb ed="#L" n="44"/>praecellit inter alias virtutes morales, duplici 
+            ra<lb break="no" ed="#L" n="45"/>tione. Quarum prima potest sumi ex parte 
+            sub<lb break="no" ed="#L" n="46"/>iecti: quia scilicet est in nobiliori parte animae,
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="47"/>idest in appetitu rationali, scilicet voluntate; aliis
+            <lb ed="#L" n="48"/>virtutibus moralibus existentibus in appetitu 
+            sen<lb break="no" ed="#L" n="49"/>sitivo, ad quem pertinent passiones, quae sunt
+            <lb ed="#L" n="50"/>materia aliarum virtutum moralium. - Secunda
+            <lb ed="#L" n="51"/>ratio sumitur ex parte obiecti. Nam aliae virtutes
+            <lb ed="#L" n="52"/>laudantur solum secundum bonum ipsius virtuosi.
+            <lb ed="#L" n="53"/>Iustitia autem laudatur secundum quod virtuosus
+            <lb ed="#L" n="54"/>ad alium bene se habet: et sic iustitia 
+            quodam<lb break="no" ed="#L" n="55"/>modo est bonum alterius, ut dicitur in <ref xml:id="TAca84-d1e1572-Rd1e2703">V Ethic.</ref>
+            <lb ed="#L" n="56"/>Et propter hoc <ref xml:id="TAca84-d1e1572-Rd1e2707">Philosophus dicit, in I Rhet.</ref>:
+            <quote xml:id="TAca84-d1e1572-Qd1e2710">Necesse est maximas esse virtutes eas quae sunt
+              <lb ed="#L" n="57"/>aliis honestissimae : siquidem est virtus potentia 
+              be<lb break="no" ed="#L" n="58"/>nefactiva. Propter hoc fortes et iustos maxime 
+              ho<lb break="no" ed="#L" n="59"/>norani: quoniam fortitudo est utilis aliis in bello,
+              <lb ed="#L" n="60"/>iustitia autem et in bello et in pace.</quote>
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2722">
+            <lb ed="#L" n="61"/>AD PRIMUM ERGO DICENDUM quod liberalitas, etsi
+            <lb ed="#L" n="62"/>de suo det, tamen hoc facit inquantum in hoc
+            <lb ed="#L" n="63"/>considerat propriae virtutis bonum. Iustitia autem
+            <lb ed="#L" n="64"/>dat alteri quod suum est quasi considerans 
+            bo<lb break="no" ed="#L" n="65"/>num commune. — Et praeterea iustitia observatur
+            <lb ed="#L" n="66"/>ad omnes: liberalitas autem ad omnes se 
+            exten<lb break="no" ed="#L" n="67"/>dere non potest. - Et iterum liberalitas, quae de
+            <lb ed="#L" n="68"/>suo dat, supra iustitiam fundatur, per quam 
+            con<lb break="no" ed="#L" n="69"/>servatur ? unicuique quod suum est.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2744">
+            <lb ed="#L" n="70"/>AD SECUNDUM DICENDUM quod magnanimitas, 
+            in<lb break="no" ed="#L" n="71"/>quantum supervenit iustitiae, auget eius 
+            boni<lb break="no" ed="#L" n="72"/>tatem. Quae tamen sine iustitia nec virtutis 
+            ra<lb break="no" ed="#L" n="73"/>tionem haberet.
+          </p>
+          <p xml:id="TAca84-d1e1572-d1e2756">
+            <lb ed="#L" n="74"/>AD TERTIUM DICENDUM quod fortitudo consistit
+            <lb ed="#L" n="75"/>circa difficiliora, non tamen est circa meliora,
+            <lb ed="#L" n="76"/>cum sit solum in bello utilis: iustitia autem et
+            <lb ed="#L" n="77"/>in pace et in bello, sicut dictum est.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>
