@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 166</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 166</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="342"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2130"><!-- p2p2-q166 -->
+        <head xml:id="TAca84-d1e2130-Hd1e101">Quaestio 166</head>
+        <head xml:id="TAca84-d1e2130-Hd1e103" type="question-title">De studiositate</head>
+        <p xml:id="TAca84-d1e2130-d1e106">
+          <pb ed="#L" n="342"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=342"/>QUAESTIO CENTESIMASEXAGESIMASEXTA
+          <lb ed="#L" n="2"/>DE STUDIOSITATE
+          <lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2130-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de studiositate,
+          <lb ed="#L" n="5"/>et curiositate sibi opposita .
+        </p>
+        <p xml:id="TAca84-d1e2130-d1e128">
+          <lb ed="#L" n="6"/>Circa studiositatem autem quaeruntur duo.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="7"/>Primo: quae sit materia studiositatis. :
+          <lb ed="#L" n="8"/>Secundo: utrum sit pars temperantiae.
+        </p>
+        <div xml:id="TAca84-d1e2130-Dd1e140"><!-- p2p2-q166a1 -->
+          <head xml:id="TAca84-d1e2130-Hd1e143">Articulus 1</head>
+          <head xml:id="TAca84-d1e2130-Hd1e145" type="question-title">Utrum materia studiositatis sit proprie cognitio</head>
+          <p xml:id="TAca84-d1e2130-d1e148">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="9" type="fixed=342"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="10"/>UTRUM MATERIA STUDIOSITATIS SIT PROPRIE COGNITIO
+          </p>
+          <p xml:id="TAca84-d1e2130-d1e157">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="11"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="12"/>materia studiositatis non sit proprie 
+            co<lb break="no" ed="#L" n="13"/>gnitio. Studiosus enim dicitur aliquis ex
+            <lb ed="#L" n="14"/>eo quod adhibet studium aliquibus 
+            re<lb break="no" ed="#L" n="15"/>bus. Sed in qualibet materia debet homo 
+            stu<lb break="no" ed="#L" n="16"/>dium adhibere, ad hoc quod recte faciat quod
+            <lb ed="#L" n="17"/>est faciendum. Ergo videtur quod non sit 
+            spe<lb break="no" ed="#L" n="18"/>cialis materia studiositatis cognitio.
+          </p>
+          <p xml:id="TAca84-d1e2130-d1e179">
+            <lb ed="#L" n="19"/>2. PRAETEREA, studiositas curiositati opponitur.
+            <lb ed="#L" n="20"/>Sed curiositas, quae a. cura dicitur, potest esse
+            <lb ed="#L" n="21"/>etiam ^ circa ornatum vestium, et circa alia 
+            hu<lb break="no" ed="#L" n="22"/>iusmodi quae pertinent ad corpus: unde 
+            Apo<lb break="no" ed="#L" n="23"/>stolus dicit, Rom. xit : Carnis curam ne 
+            fece<lb break="no" ed="#L" n="24"/>rilis in desideriis. Ergo studiositas non est solum
+            <lb ed="#L" n="25"/>circa cognitionem.
+          </p>
+          <p xml:id="TAca84-d1e2130-d1e198">
+            <lb ed="#L" n="26"/>3. PRAETEREA, lerem. vi  dicitur: A minori
+            <lb ed="#L" n="27"/>usque ad maiorem, omnes avaritiae student. Sed
+            <lb ed="#L" n="28"/>avaritia non est proprie circa cognitionem, sed
+            <lb ed="#L" n="29"/>magis circa possessionem divitiarum, ut supra 
+            <lb ed="#L" n="30"/>habitum est. Ergo studiositas, quae a studio 
+            di<lb break="no" ed="#L" n="31"/>citur, non est proprie circa cognitionem.
+          </p>
+          <p xml:id="TAca84-d1e2130-d1e214">
+            <lb ed="#L" n="32"/>SED coNTRA EST quod dicitur Prov. xxvi : Stude
+            <lb ed="#L" n="33"/>sapientiae, fili mi, et laetifica cor meum, ut possis
+            <lb ed="#L" n="34"/>respondere sermonem. Sed eadem studiositas est
+            <lb ed="#L" n="35"/>quae laudatur ut virtus, et ad quam lex invitat.
+            <lb ed="#L" n="36"/>Ergo studiositas proprie est circa cognitionem.
+          </p>
+          <p xml:id="TAca84-d1e2130-d1e227">
+            <lb ed="#L" n="37"/>RESPONDEO DICENDUM quod studium praecipue
+            <lb ed="#L" n="38"/>importat vehementem applicationem mentis ad
+            <lb ed="#L" n="39"/>aliquid. Mens autem non applicatur ad aliquid
+            <lb ed="#L" n="40"/>nisi cognoscendo illud. Unde per prius mens 
+            ap<lb break="no" ed="#L" n="41"/>plicatur ad cognitionem: secundario autem ap-
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="42"/>plicatur ad ea in quibus homo per cognitionem
+            <lb ed="#L" n="43"/>dirigitur. Et ideo studium per prius respicit 
+            co<lb break="no" ed="#L" n="44"/>gnitionem: et per posterius quaecumque alia ad
+            <lb ed="#L" n="45"/>quae operanda directione cognitionis indigemus.
+            <lb ed="#L" n="46"/>Virtutes autem proprie sibi attribuunt illam 
+            ma<lb break="no" ed="#L" n="47"/>teriam circa quam primo et principaliter sunt:
+            <lb ed="#L" n="48"/>sicut fortitudo pericula mortis, et temperantia
+            <lb ed="#L" n="49"/>delectationem tactus. Et ideo studiositas proprie
+            <lb ed="#L" n="50"/>dicitur circa cognitionem.
+          </p>
+          <p xml:id="TAca84-d1e2130-d1e262">
+            <lb ed="#L" n="51"/>AD PRIMUM ERGO DICENDUM quod circa alias 
+            ma<lb break="no" ed="#L" n="52"/>terias non potest aliquid recte fieri, nisi 
+            secun<lb break="no" ed="#L" n="53"/>dum quod est praeordinatum per rationem 
+            co<lb break="no" ed="#L" n="54"/>gnoscentem. Et ideo per prius studiositas 
+            cogni<lb break="no" ed="#L" n="55"/>tionem respicit, cuicumque materiae studium 
+            ad<lb break="no" ed="#L" n="56"/>hibeatur.
+          </p>
+          <p xml:id="TAca84-d1e2130-d1e278">
+            <lb ed="#L" n="57"/>AD SECUNDUM DICENDUM quod ex affectu hominis
+            <lb ed="#L" n="58"/>trahitur mens eius ad intendendum his ad quae
+            <lb ed="#L" n="59"/>afficitur: secundum illud Matth. vi: Ubi est 
+            the<lb break="no" ed="#L" n="60"/>saurus tuus, ibi est et cor tuum. Et quia ad ea!
+            <lb ed="#L" n="61"/>quibus caro fovetur, maxime homo afficitur, 
+            con<lb break="no" ed="#L" n="62"/>sequens est quod cogitatio ? hominis versetur 
+            prae<lb break="no" ed="#L" n="63"/>cipue circa ea quibus caro fovetur: ut scilicet
+            <lb ed="#L" n="64"/>homo inquirat qualiter homo  optime possit carni
+            <lb ed="#L" n="65"/>suae subvenire. Et secundum hoc, curiositas 
+            po<lb break="no" ed="#L" n="66"/>nitur circa ea quae ad carnem pertinent, ratione
+            <lb ed="#L" n="67"/>eorum quae ad cognitionem pertinent.
+          </p>
+          <p xml:id="TAca84-d1e2130-d1e304">
+            <lb ed="#L" n="68"/>AD TERTIUM DICENDUM quod avaritia inhiat ad
+            <lb ed="#L" n="69"/>lucra conquirenda, ad. quod maxime necessaria
+            <lb ed="#L" n="70"/>est quaedam peritia terrenarum rerum. Et 
+            se<lb break="no" ed="#L" n="71"/>cundum hoc, studium attribuitur his quae ad
+            <lb ed="#L" n="72"/>avaritiam spectant.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2130-Dd1e318"><!-- p2p2-q166a2 -->
+          <head xml:id="TAca84-d1e2130-Hd1e321">Articulus 2</head>
+          <head xml:id="TAca84-d1e2130-Hd1e323" type="question-title">Utrum studiositas sit temperantiae pars</head>
+          <p xml:id="TAca84-d1e2130-d1e326">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="77" type="fixed=343"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="78"/>UTRUM STUDIOSITAS SIT TEMPERANTIAE PARS
+          </p>
+          <p xml:id="TAca84-d1e2130-d1e335">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="79"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="80"/>studiositas non sit temperantiae pars.
+            <lb ed="#L" n="81"/>studiosus enim dicitur aliquis secundum
+            <lb ed="#L" n="82"/>studiositatem. Sed universaliter omnis
+            <lb ed="#L" n="83"/>virtuosus vocatur studiosus: ut patet per 
+            Philoso<lb break="no" ed="#L" n="84"/>phum, qui frequenter sic utitur nomine studiosi .
+            <lb ed="#L" n="85"/>Ergo studiositas est generalis virtus, et non est
+            <lb ed="#L" n="86"/>pars temperantiae. 
+          </p>
+          <p xml:id="TAca84-d1e2130-d1e357">
+            <lb ed="#L" n="87"/>2. PRAETEREA, studiositas, sicut dictum est ,
+            <lb ed="#L" n="88"/>ad cognitionem pertinet. Sed cognitio non 
+            per<lb break="no" ed="#L" n="89"/>tinet ad virtutes morales, quae sunt in appetitiva
+            <lb ed="#L" n="90"/>animae parte, sed magis ad intellectuales, quae
+            <lb ed="#L" n="91"/>sunt in parte cognoscitiva: unde et sollicitudo
+            <lb ed="#L" n="92"/>est actus prudentiae, ut supra  habitum est. Ergo
+            <lb ed="#L" n="93"/>studiositas non est pars temperantiae.
+          </p>
+          <p xml:id="TAca84-d1e2130-d1e376">
+            <lb ed="#L" n="94"/>3. PRAETEREA, virtus quae ponitur pars alicuius
+            <lb ed="#L" n="95"/>principalis virtutis, assimilatur ei quantum ad
+            <lb ed="#L" n="96"/>modum. Sed studiositas non assimilatur 
+            tempe<lb break="no" ed="#L" n="97"/>rantiae quantum ad modum. Quia temperantiae
+            <lb ed="#L" n="98"/>nomen sumitur ex quadam refrenatione: unde
+            <lb ed="#L" n="99"/>magis opponitur vitio quod est in excessu. No-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="100"/>men autem studiositatis sumitur e contrario ex
+            <lb ed="#L" n="101"/>applicatione animae ad aliquid: unde magis 
+            vi<lb break="no" ed="#L" n="102"/>detur opponi vitio quod est in defectu, scilicet
+            <lb ed="#L" n="103"/>negligentiae studendi, quam vitio quod est in
+            <lb ed="#L" n="104"/>excessu, scilicet curiositati. Unde, propter horum
+            <lb ed="#L" n="105"/>similitudinem, dicit Isidorus, in libro Eryrnol. ,
+            <lb ed="#L" n="106"/>quod sfudiosus dicitur quasi studiis ^ curiosus.
+            <lb ed="#L" n="107"/>Ergo studiositas non est pars temperantiae.
+          </p>
+          <p xml:id="TAca84-d1e2130-d1e411">
+            <lb ed="#L" n="108"/>SED CONTRA EST quod Augustinus dicit, in libro
+            <lb ed="#L" n="109"/>de Moribus Eccle. : Curiosi esse prohibemur:
+            <lb ed="#L" n="110"/>quod magnae temperantiae munus est. Sed 
+            cu<lb break="no" ed="#L" n="111"/>riositas prohibetur per studiositatem moderatam.
+            <lb ed="#L" n="112"/>Ergo studiositas est pars temperantiae.
+            <lb ed="#L" n="113"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="114"/>est, ad temperantiam pertinet moderari motum
+            <lb ed="#L" n="115"/>appetitus, ne superflue tendat in id quod 
+            natu<lb break="no" ed="#L" n="116"/>raliter concupiscitur. Sicut autem naturaliter homo
+            <lb ed="#L" n="117"/>concupiscit delectationes ciborum et venereorum
+            <lb ed="#L" n="118"/>secundum naturam corporalem, ita secundum
+            <lb ed="#L" n="119"/>animam naturaliter desiderat cognoscere aliquid :
+            <lb ed="#L" n="120"/>unde et Philosophus dicit, in I Metaphys. , quod
+            <pb ed="#L" n="344"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>omnes homines naturaliter scire desiderant. 
+            Mo<lb break="no" ed="#L" n="2"/>deratio autem huius appetitus pertinet ad 
+            virtu<lb break="no" ed="#L" n="3"/>tem studiositatis. Unde consequens est quod 
+            stu<lb break="no" ed="#L" n="4"/>diositas sit pars potentialis temperantiae, sicut
+            <lb ed="#L" n="5"/>virtus secundaria ei adiuncta ut principali virtuti.
+            <lb ed="#L" n="6"/>Et comprehenditur sub modestia, ratione 
+            supe<lb break="no" ed="#L" n="7"/>rius  dicta.
+          </p>
+          <p xml:id="TAca84-d1e2130-d1e461">
+            <lb ed="#L" n="8"/>AD PRIMUM ERGO DICENDUM quod prudentia est
+            <lb ed="#L" n="9"/>completiva omnium virtutum moralium, ut 
+            di<lb break="no" ed="#L" n="10"/>citur in VI Ethic.  Inquantum igitur cognitio
+            <lb ed="#L" n="11"/>prudentiae ad omnes virtutes pertinet, intantum
+            <lb ed="#L" n="12"/>nomen studiositatis, quae proprie circa 
+            cognitio<lb break="no" ed="#L" n="13"/>nem est, ad omnes virtutes derivatur.
+          </p>
+          <p xml:id="TAca84-d1e2130-d1e477">
+            <lb ed="#L" n="14"/>AD SECUNDUM DICENDUM quod actus cognoscitivae
+            <lb ed="#L" n="15"/>virtutis imperatur a vl appetitiva, quae est 
+            mo<lb break="no" ed="#L" n="16"/>tiva omnium virium, ut supra  habitum est. Et
+            <lb ed="#L" n="17"/>ideo circa cognitionem duplex bonum potest 
+            at<lb break="no" ed="#L" n="18"/>tendi. Unum quidem, quantum ad ipsum actum
+            <lb ed="#L" n="19"/>cognitionis. Et tale bonum pertinet ad virtutes
+            <lb ed="#L" n="20"/>intellectuales: ut scilicet homo circa singula 
+            ae<lb break="no" ed="#L" n="21"/>stimet verum. - Aliud autem est bonum quod
+            <lb ed="#L" n="22"/>pertinet ad actum appetitivae virtutis: ut scilicet
+            <lb ed="#L" n="23"/>homo habeat appetitum rectum applicandi vim
+            <lb ed="#L" n="24"/>cognoscitivam sic vel aliter, ad hoc vel ad illud.
+            <lb ed="#L" n="25"/>Et hoc pertinet ad virtutem studiositatis. Unde
+            <lb ed="#L" n="26"/>computatur inter virtutes morales.
+          </p>
+          <p xml:id="TAca84-d1e2130-d1e508">
+            <lb ed="#L" n="27"/>AD TERTIUM DICENDUM quod, sicut Philosophus
+            <lb ed="#L" n="28"/>dicit, in II Ethic. , ad hoc quod homo fiat vir-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="29"/>tuosus, oportet quod servet se ab his ad quae
+            <lb ed="#L" n="30"/>maxime inclinat natura. Et inde est quod, quia
+            <lb ed="#L" n="31"/>natura praecipue inclinat ad timendum mortis
+            <lb ed="#L" n="32"/>pericula et ad sectandum delectabilia carnis,
+            <lb ed="#L" n="33"/>quod ? laus virtutis fortitudinis praecipue consistit
+            <lb ed="#L" n="34"/>in quadam firmitate persistendi contra huiusmodi
+            <lb ed="#L" n="35"/>pericula, et laus virtutis temperantiae in quadam
+            <lb ed="#L" n="36"/>refrenatione a delectabilibus carnis. Sed quantum
+            <lb ed="#L" n="37"/>ad cognitionem, est in homine contraria 
+            inclina<lb break="no" ed="#L" n="38"/>tio. Quia 'ex parte animae, inclinatur homo ad
+            <lb ed="#L" n="39"/>hoc quod cognitionem rerum desideret: et sic
+            <lb ed="#L" n="40"/>oportet ut homo laudabiliter huiusmodi appetitum
+            <lb ed="#L" n="41"/>refrenet, ne immoderate rerum cognitioni 
+            inten<lb break="no" ed="#L" n="42"/>dat. Ex parte vero naturae corporalis, homo 
+            in<lb break="no" ed="#L" n="43"/>clinatur ad hoc ut laborem inquirendi scientiam
+            <lb ed="#L" n="44"/>vitet. Quantum igitur ad primum, studiositas in
+            <lb ed="#L" n="45"/>refrenatione consistit: et secundum hoc ponitur
+            <lb ed="#L" n="46"/>pars temperantiae. Sed quantum ad secundum,
+            <lb ed="#L" n="47"/>laus huius virtutis consistit in quadam 
+            vehemen<lb break="no" ed="#L" n="48"/>tia intentionis ad scientiam rerum percipiendam:
+            <lb ed="#L" n="49"/>et ex hoc nominatur. Primum autem est 
+            essen<lb break="no" ed="#L" n="50"/>tialius huic virtuti quam secundum. Nam 
+            appe<lb break="no" ed="#L" n="51"/>titus cognoscendi per se respicit cognitionem, ad
+            <lb ed="#L" n="52"/>quam ordinatur studiositas. Sed labor addiscendi
+            <lb ed="#L" n="53"/>est impedimentum quoddam cognitionis: unde
+            <lb ed="#L" n="54"/>respicitur ab  hac virtute per accidens, quasi
+            <lb ed="#L" n="55"/>removendo prohibens.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 161</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 161</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="292"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2104"><!-- p2p2-q161 -->
+        <head xml:id="TAca84-d1e2104-Hd1e101">Quaestio 161</head>
+        <head xml:id="TAca84-d1e2104-Hd1e103" type="question-title">De humilitate</head>
+        <p xml:id="TAca84-d1e2104-d1e106">
+          <pb ed="#L" n="292"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=292"/>QUAESTIO CENTESIMASEXAGESIMAPRIMA
+          <lb ed="#L" n="2"/>DE HUMILITATE
+          <lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2104-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de speciebus 
+          mo<lb break="no" ed="#L" n="5"/>destiae. Et primo, de humilitate, et 
+          super<lb break="no" ed="#L" n="6"/>bia , quae ei opponitur; secundo, de 
+          studiosi<lb break="no" ed="#L" n="7"/>tate , et curiositate sibi opposita ; tertio, de
+          <lb ed="#L" n="8"/>modestia secundum quod est in verbis vel factis ;
+          <lb ed="#L" n="9"/>quarto, de modestia secundum quod est circa 
+          ex<lb break="no" ed="#L" n="10"/>teriorem cultum.
+        </p>
+        <p xml:id="TAca84-d1e2104-d1e139">
+          <lb ed="#L" n="11"/>Circa humilitatem quaeruntur sex.
+          <lb ed="#L" n="12"/>Primo: utrum humilitas sit virtus.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="13"/>Secundo: utrum consistat in appetitu, vel in
+          <lb ed="#L" n="14"/>iudicio rationis.
+          <lb ed="#L" n="15"/>Tertio: utrum aliquis per humilitatem se 
+          de<lb break="no" ed="#L" n="16"/>beat omnibus subiicere.
+          <lb ed="#L" n="17"/>Quarto: utrum sit pars modestiae vel 
+          tem<lb break="no" ed="#L" n="18"/>perantiae.
+          <lb ed="#L" n="19"/>Quinto: de comparatione eius ad alias 
+          vir<lb break="no" ed="#L" n="20"/>tutes.
+          <lb ed="#L" n="21"/>Sexto: de gradibus humilitatis.
+        </p>
+        <div xml:id="TAca84-d1e2104-Dd1e169"><!-- p2p2-q161a1 -->
+          <head xml:id="TAca84-d1e2104-Hd1e172">Articulus 1</head>
+          <head xml:id="TAca84-d1e2104-Hd1e174" type="question-title">Utrum humilitas sit virtus</head>
+          <p xml:id="TAca84-d1e2104-d1e177">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="22" type="fixed=292"/>ARTICULUS PRIMUS 
+            <lb ed="#L" n="23"/>UTRUM HUMILITAS SIT VIRTUS 
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e186">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="24"/>AD PRIMUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="25"/>humilitas non sit virtus. Virtus enim
+            <lb ed="#L" n="26"/>importat rationem boni. Sed 
+            humi<lb break="no" ed="#L" n="27"/>litas videtur importare rationem mali
+            <lb ed="#L" n="28"/>poenalis: secundum illud Psalmi : 
+            Humiliave<lb break="no" ed="#L" n="29"/>runt in compedibus pedes eius. Ergo humilitas
+            <lb ed="#L" n="30"/>non est virtus.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e206">
+            <lb ed="#L" n="31"/>2. PRAETEREA, virtus et vitium opponuntur.
+            <lb ed="#L" n="32"/>Sed humilitas quandoque sonat in vitium: 
+            dici<lb break="no" ed="#L" n="33"/>tur enim Eccli. xix : Est qui nequiter se 
+            humi<lb break="no" ed="#L" n="34"/>liat. Ergo humilitas non est virtus.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e218">
+            <lb ed="#L" n="35"/>3. PRAETEREA, nulla virtus opponitur alii virtuti.
+            <lb ed="#L" n="36"/>Sed humilitas videtur opponi virtuti 
+            magnanimi<lb break="no" ed="#L" n="37"/>tatis, quae tendit in magna: humilitas autem ipsa
+            <lb ed="#L" n="38"/>refugit. Ergo videtur quod humilitas non sit virtus.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e229">
+            <lb ed="#L" n="39"/>4. PRAETEREA, virtus est dispositio perfecti, ut
+            <lb ed="#L" n="40"/>dicitur in VII Physic.  Sed humilitas videtur esse
+            <lb ed="#L" n="41"/>imperfectorum: unde et Deo non convenit 
+            hu<lb break="no" ed="#L" n="42"/>miliari, qui  nulli subiici potest. Ergo videtur
+            <lb ed="#L" n="43"/>quod humilitas non sit virtus.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e242">
+            <lb ed="#L" n="44"/>5. PRAETEREA, Omnis virtus moralis est circa
+            <lb ed="#L" n="45"/>aciiones vel passiones, ut dicitur in II Ethic. 
+            <lb ed="#L" n="46"/>Sed humilitas non connumeratur a Philosopho 
+            in<lb break="no" ed="#L" n="47"/>ter virtutes quae sunt circa passiones : nec etiam
+            <lb ed="#L" n="48"/>continetur sub iustitia, quae est circa actiones.
+            <lb ed="#L" n="49"/>Ergo videtur quod non sit virtus.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e258">
+            <lb ed="#L" n="50"/>SED coNTRA EsT quod Origenes dicit , 
+            expo<lb break="no" ed="#L" n="51"/>nens illud Luc. 1 , Respexit humilitatem ancillae
+            <lb ed="#L" n="52"/>suae: Proprie in Scripturis una de virtutibus 
+            hu<lb break="no" ed="#L" n="53"/>militas praedicatur: ait quippe Salvator, « Discite
+            <lb ed="#L" n="54"/>a me, quia mitis sum et humilis corde ».
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e271">
+            <lb ed="#L" n="55"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="56"/>est, cum de passionibus ageretur, bonum arduum
+            <lb ed="#L" n="57"/>habet aliquid unde attrahit appetitum, scilicet
+            <lb ed="#L" n="58"/>ipsam rationem boni, et habet aliquid retrahens,
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="59"/>scilicet ipsam difficultatem adipiscendi: secundum
+            <lb ed="#L" n="60"/>quorum primum insurgit motus spei, et 
+            secun<lb break="no" ed="#L" n="61"/>dum aliud motus desperationis. Dictum est 
+            au<lb break="no" ed="#L" n="62"/>tem supra  quod circa motus appetitivos qui se
+            <lb ed="#L" n="63"/>habent per modum impulsionis, oportet esse 
+            vir<lb break="no" ed="#L" n="64"/>tutem moralem moderantem et refrenantem: circa
+            <lb ed="#L" n="65"/>illos autem qui se habent per modum 
+            retractio<lb break="no" ed="#L" n="66"/>nis 5, oportet esse virtutem moralem firmantem
+            <lb ed="#L" n="67"/>et impellentem. Et ideo circa appetitum boni
+            <lb ed="#L" n="68"/>ardui necessaria est duplex virtus. Una quidem
+            <lb ed="#L" n="69"/>quae  temperet et refrenet animum, ne 
+            immode<lb break="no" ed="#L" n="70"/>rate tendat in excelsa: et hoc pertinet ad 
+            virtu<lb break="no" ed="#L" n="71"/>tem humilitatis. Alia vero quae firmat animum
+            <lb ed="#L" n="72"/>contra desperationem, et impellit ? ipsum ad 
+            pro<lb break="no" ed="#L" n="73"/>secutionem magnorum secundum rationem 
+            re<lb break="no" ed="#L" n="74"/>ctam: et haec est magnanimitas. Et sic patet
+            <lb ed="#L" n="75"/>quod humilitas est quaedam virtus.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e321">
+            <lb ed="#L" n="76"/>AD PRIMUM ERGO DICENDUM quod, sicut Isidorus
+            <lb ed="#L" n="77"/>dicit, in libro Etymol. , humilis dicitur quasi 
+            hu<lb break="no" ed="#L" n="78"/>mi acclinis , idest, imis inhaerens. Quod quidem
+            <lb ed="#L" n="79"/>contingit dupliciter. Uno modo, ex principio 
+            ex<lb break="no" ed="#L" n="80"/>trinseco: puta cum aliquis ab alio deiicitur. Et
+            <lb ed="#L" n="81"/>sic humilitas est poena. — Alio modo, a principio
+            <lb ed="#L" n="82"/>intrinseco. Et hoc potest fieri quandoque quidem
+            <lb ed="#L" n="83"/>bene: puta cum- aliquis, considerans suum 
+            de<lb break="no" ed="#L" n="84"/>fectum, tenet se in infimis secundum suum 
+            mo<lb break="no" ed="#L" n="85"/>dum; sicut Abraham dixit ad Dominum, Gen.
+            <lb ed="#L" n="86"/>xvui : Loquar ad Dominum meum, cum sim
+            <lb ed="#L" n="87"/>pulvis et cinis. Et hoc modo humilitas ponitur
+            <lb ed="#L" n="88"/>virtus. Quandoque autem potest fieri male: puta
+            <lb ed="#L" n="89"/>cum homo, honorem suum non intelligens, 
+            com<lb break="no" ed="#L" n="90"/>parat se iumentis. insipientibus, et fit similis illis .
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e357">
+            <lb ed="#L" n="91"/>AD SECUNDUM DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="92"/>humilitas, secundum quod est virtus, in sui 
+            ra<lb break="no" ed="#L" n="93"/>tione importat quandam laudabilem deiectionem 
+            <pb ed="#L" n="293"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>ad ima. Hoc autem quandoque fit solum 
+            secun<lb break="no" ed="#L" n="2"/>dum signa exteriora, secundum fictionem. Unde
+            <lb ed="#L" n="3"/>haec est falsa humilitas: de qua Augustinus dicit,
+            <lb ed="#L" n="4"/>in quadam epistola , quod est magna superbia,
+            <lb ed="#L" n="5"/>quia: scilicet videtur tendere ad excellentiam 
+            glo<lb break="no" ed="#L" n="6"/>riae. - Quandoque autem fit secundum 
+            interio<lb break="no" ed="#L" n="7"/>rem motum animae. Et secundum hoc " 
+            humi<lb break="no" ed="#L" n="8"/>litas proprie ponitur virtus: quia virtus non 
+            con<lb break="no" ed="#L" n="9"/>sistit in exterioribus, sed principaliter in interiori
+            <lb ed="#L" n="10"/>electione mentis, ut patet per Philosophum, in
+            <lb ed="#L" n="11"/>libro Ethicorum .
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e394">
+            <lb ed="#L" n="12"/>AD TERTIUM DICENDUM quod humilitas reprimit
+            <lb ed="#L" n="13"/>appetitum, ne tendat in magna praeter rationem
+            <lb ed="#L" n="14"/>rectam. Magnanimitas autem animum ad magna
+            <lb ed="#L" n="15"/>impellit secundum rationem rectam. Unde patet
+            <lb ed="#L" n="16"/>quod magnanimitas non opponitur humilitati, sed
+            <lb ed="#L" n="17"/>conveniunt in hoc quod utraque est secundum
+            <lb ed="#L" n="18"/>rationem rectam.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e412">
+            <lb ed="#L" n="19"/>AD QUARTUM DICENDUM quod perfectum dicitur
+            <lb ed="#L" n="20"/>aliquid dupliciter. Uno modo, simpliciter: in quo
+            <lb ed="#L" n="21"/>scilicet nullus defectus invenitur, nec secundum
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="22"/>suam naturam, nec per respectum ad aliquid
+            <lb ed="#L" n="23"/>aliud. Et sic solus Deus est perfectus: cui 
+            se<lb break="no" ed="#L" n="24"/>cundum naturam divinam non competit 
+            humi<lb break="no" ed="#L" n="25"/>litas, sed solum secundum naturam assumptam. -
+            <lb ed="#L" n="26"/>Alio modo potest dici aliquid perfectum 
+            secun<lb break="no" ed="#L" n="27"/>dum quid: puta secundum suam naturam, vel 
+            se<lb break="no" ed="#L" n="28"/>cundum statum aut tempus. Et hoc modo homo
+            <lb ed="#L" n="29"/>virtuosus est perfectus. Cuius tamen perfectio in
+            <lb ed="#L" n="30"/>comparatione ad Deum deficiens invenitur: 
+            se<lb break="no" ed="#L" n="31"/>cundum illud Isaiae xL : Omnes gentes, quasi
+            <lb ed="#L" n="32"/>non sint, sic sunt coram eo. Et sic cuilibet 
+            ho<lb break="no" ed="#L" n="33"/>mini potest convenire humilitas.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e449">
+            <lb ed="#L" n="34"/>AD QUINTUM DICENDUM quod Philosophus 
+            inten<lb break="no" ed="#L" n="35"/>debat agere de virtutibus secundum quod 
+            ordi<lb break="no" ed="#L" n="36"/>nantur ad vitam civilem, in qua subiectio unius
+            <lb ed="#L" n="37"/>hominis ad alterum secundum legis ordinem 
+            de<lb break="no" ed="#L" n="38"/>terminatur, et ideo continetur sub iustitia legali.
+            <lb ed="#L" n="39"/>Humilitas autem, secundum quod est specialis
+            <lb ed="#L" n="40"/>virtus, praecipue respicit subiectionem hominis
+            <lb ed="#L" n="41"/>ad Deum, propter quem etiam aliis humiliando
+            <lb ed="#L" n="42"/>se subiicit.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2104-Dd1e472"><!-- p2p2-q161a2 -->
+          <head xml:id="TAca84-d1e2104-Hd1e475">Articulus 2</head>
+          <head xml:id="TAca84-d1e2104-Hd1e477" type="question-title">Utrum humilitas consistat circa appetitum</head>
+          <p xml:id="TAca84-d1e2104-d1e480">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="33" type="fixed=295"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="34"/>UTRUM HUMILITAS CONSISTAT CIRCA APPETITUM
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e489">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="35"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="36"/>humilitas non consistat circa appetitum,
+            <lb ed="#L" n="37"/>sed magis circa iudicium rationis. 
+            Hu<lb break="no" ed="#L" n="38"/>militas enim superbiae opponitur. Sed
+            <lb ed="#L" n="39"/>superbia maxime consistit in his quae pertinent
+            <lb ed="#L" n="40"/>ad cognitionem. Dicit enim Gregorius, XXXIV
+            <lb ed="#L" n="41"/>Moral. , quod superbia, cum exterius usque ad
+            <lb ed="#L" n="42"/>corpus extenditur , prius per oculos indicatur;
+            <lb ed="#L" n="43"/>unde etiam in Psalmo  dicitur: Domine, non est
+            <lb ed="#L" n="44"/>exaltatum cor meum, neque elati sunt oculi mei:
+            <lb ed="#L" n="45"/>oculi autem maxime deserviunt cognitioni. Ergo
+            <lb ed="#L" n="46"/>videtur quod humilitas maxime sit circa 
+            cogni<lb break="no" ed="#L" n="47"/>tionem, quam de se aliquis aestimat parvam P.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e522">
+            <lb ed="#L" n="48"/>2. PRAETEREA, Augustinus dicit, in libro de 
+            Vir<lb break="no" ed="#L" n="49"/>ginit. , quod humilitas pene tota disciplina 
+            Chri<lb break="no" ed="#L" n="50"/>stiana est. Nihil ergo quod in disciplina  
+            Chri<lb break="no" ed="#L" n="51"/>stiana continetur, repugnat humilitati. Sed in 
+            di<lb break="no" ed="#L" n="52"/>sciplina Christiana admonemur ad appetendum
+            <lb ed="#L" n="53"/>meliora: secundum illud I ad Cor. xu : 
+            Aemu<lb break="no" ed="#L" n="54"/>lamini Y charismata meliora. Ergo ad 
+            humilita<lb break="no" ed="#L" n="55"/>tem non pertinet reprimere appetitum arduorum,
+            <lb ed="#L" n="56"/>sed magis aestimationem.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e545">
+            <lb ed="#L" n="57"/>3. PRAETEREA, ad eandem virtutem pertinet 
+            re<lb break="no" ed="#L" n="58"/>frenare superfluum motum, et firmare animum
+            <lb ed="#L" n="59"/>contra superfluam retractionem: sicut eadem 
+            for<lb break="no" ed="#L" n="60"/>titudo est quae refrenat audaciam, et quae firmat
+            <lb ed="#L" n="61"/>animum contra timorem. Sed magnanimitas 
+            fir<lb break="no" ed="#L" n="62"/>mat animum contra difficultates quae accidunt
+            <lb ed="#L" n="63"/>in prosecutione magnorum. Si ergo humilitas 
+            re<lb break="no" ed="#L" n="64"/>frenaret appetitum magnorum, sequeretur quod
+            <lb ed="#L" n="65"/>humilitas non esset virtus distincta a 
+            magnani<lb break="no" ed="#L" n="66"/>mitate. Quod patet esse falsum. Non ergo 
+            hu<lb break="no" ed="#L" n="67"/>militas consistit circa appetitum magnorum, sed
+            <lb ed="#L" n="68"/>magis circa aestimationem.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e574">
+            <lb ed="#L" n="69"/>4. PRAETEREA, Andronicus ponit humilitatem
+            <lb ed="#L" n="70"/>circa exteriorem cultum: dicit enim  quod 
+            hu<lb break="no" ed="#L" n="71"/>militas est habitus non superabundans sumptibus
+            <lb ed="#L" n="72"/>et praeparationibus. Ergo non est circa motum
+            <lb ed="#L" n="73"/>appetitus.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e587">
+            <lb ed="#L" n="74"/>SED CONTRA EST quod Augustinus dicit, in libro
+            <lb ed="#L" n="75"/>de Poenit., quod humilis est qui eligit abici ?
+            <lb ed="#L" n="76"/>in domo Domini, magis quam habitare in 
+            taber<lb break="no" ed="#L" n="77"/>naculis peccatorum. Sed electio pertinet ad 
+            appe<lb break="no" ed="#L" n="78"/>titum. Ergo humilitas consistit circa appetitum,
+            <lb ed="#L" n="79"/>magis quam circa aestimationem.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e603">
+            <lb ed="#L" n="80"/>REsPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="81"/>ad humilitatem proprie pertinet ut aliquis 
+            repri<lb break="no" ed="#L" n="82"/>mat seipsum, ne feratur in ea quae sunt supra
+            <lb ed="#L" n="83"/>se. Ad hoc autem necessarium est ut aliquis 
+            co<lb break="no" ed="#L" n="84"/>gnoscat id in quo deficit a proportione eius quod
+            <lb ed="#L" n="85"/>suam virtutem excedit. Et ideo cognitio proprii
+            <lb ed="#L" n="86"/>defectus pertinet ad humilitatem sicut regula 
+            quae<lb break="no" ed="#L" n="87"/>dam directiva appetitus. Sed in ipso appetitu
+            <lb ed="#L" n="88"/>consistit humilitas essentialiter. Et ideo dicendum
+            <lb ed="#L" n="89"/>est quod humilitas proprie est moderativa  
+            mo<lb break="no" ed="#L" n="90"/>tus appetitus.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e629">
+            <lb ed="#L" n="91"/>AD PRIMUM ERGO DICENDUM quod extollentia 
+            <lb ed="#L" n="92"/>oculorum est quoddam signum superbiae, 
+            inquan<lb break="no" ed="#L" n="93"/>tum excludit reverentiam et timorem. 
+            Consueve<lb break="no" ed="#L" n="94"/>runt enim timentes et verecundati maxime 
+            ocu<lb break="no" ed="#L" n="95"/>los deprimere, quasi non audentes se aliis 
+            com<lb break="no" ed="#L" n="96"/>parare. Non autem ex hoc sequitur quod 
+            humi<lb break="no" ed="#L" n="97"/>litas essentialiter circa cognitionem consistat.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e647">
+            <lb ed="#L" n="98"/>AD SECUNDUM DICENDUM quod tendere in aliqua
+            <lb ed="#L" n="99"/>maiora ex propriarum virium confidentia, 
+            humi<lb break="no" ed="#L" n="100"/>litati contrariatur. Sed quod aliquis ex 
+            confiden<lb break="no" ed="#L" n="101"/>tia divini auxilii in maiora tendat, hoc non est
+            <lb ed="#L" n="102"/>contra humilitatem: praesertim cum ex hoc 
+            ali<lb break="no" ed="#L" n="103"/>quis magis apud Deum exaltetur quod ei se 
+            ma<lb break="no" ed="#L" n="104"/>gis per humilitatem subiicit . Unde Augustinus
+            <lb ed="#L" n="105"/>dicit, in libro de Poenit.: Aliud est levare se ad
+            <lb ed="#L" n="106"/>Deum: aliud est levare se contra Deum. Qui ante
+            <lb ed="#L" n="107"/>illum se proiücit, ab illo erigitur: qui adversus 
+            il<lb break="no" ed="#L" n="108"/>lum se erigit, ab illo proücitur.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e674">
+            <lb ed="#L" n="109"/>AD TERTIUM DICENDUM quod in fortitudine 
+            inveni<lb break="no" ed="#L" n="110"/>tur eadem ratio refrenandi audaciam et firmandi
+            <lb ed="#L" n="111"/>animum contra timorem: utriusque enim ratio
+            <lb ed="#L" n="112"/>est ex hoc quod homo debet bonum rationis pe-
+            <pb ed="#L" n="296"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>riculis mortis praestare. Sed in refrenando 
+            prae<lb break="no" ed="#L" n="2"/>sumptionem spei, quod pertinet ad humilitatem,
+            <lb ed="#L" n="3"/>et in firmando animum contra desperationem,
+            <lb ed="#L" n="4"/>quod pertinet ad magnanimitatem, est alia et alia 
+            <lb ed="#L" n="5"/>ratio. Nam ratio firmandi animum contra 
+            de<lb break="no" ed="#L" n="6"/>sperationem est adeptio proprii boni: ne scilicet,
+            <lb ed="#L" n="7"/>desperando, homo se indignum reddat bono quod
+            <lb ed="#L" n="8"/>sibi competebat. Sed in reprimendo 
+            praesumptio<lb break="no" ed="#L" n="9"/>nem spei, ratio praecipua sumitur ex reverentia
+            <lb ed="#L" n="10"/>divina, ex qua contingit ut homo non plus sibi
+            <lb ed="#L" n="11"/>attribuat quam sibi competat secundum gradum
+            <lb ed="#L" n="12"/>quem est a Deo sortitus. Unde humilitas 
+            prae<lb break="no" ed="#L" n="13"/>cipue videtur importare subiectionem hominis ad
+            <lb ed="#L" n="14"/>Deum. Et propter hoc Augustinus, in libro de 
+            <lb ed="#L" n="15"/>Serm. Dom. in Monte , humilitatem, quam intel-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="16"/>ligit per paupertatem spiritus, attribuit dono 
+            ti<lb break="no" ed="#L" n="17"/>moris, quo homo Deum reveretur. Et inde est
+            <lb ed="#L" n="18"/>quod fortitudo aliter se habet ad audaciam quam
+            <lb ed="#L" n="19"/>humilitas ad spem. Nam fortitudo plus utitur
+            <lb ed="#L" n="20"/>audacia quam eam reprimat: unde 
+            superabun<lb break="no" ed="#L" n="21"/>dantia est ei similior quam defectus. Humilitas
+            <lb ed="#L" n="22"/>autem plus reprimit spem vel fiduciam  de 
+            se<lb break="no" ed="#L" n="23"/>ipso quam ea utatur: unde magis opponitur sibi
+            <lb ed="#L" n="24"/>superabundantia quam defectus '.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e744">
+            <lb ed="#L" n="25"/>AD QUARTUM DICENDUM quod superabundantia
+            <lb ed="#L" n="26"/>in exterioribus sumptibus et praeparationibus 
+            so<lb break="no" ed="#L" n="27"/>let ad quandam iactantiam fieri, quae per 
+            humi<lb break="no" ed="#L" n="28"/>litatem reprimitur. Et quantum ad hoc, 
+            secunda<lb break="no" ed="#L" n="29"/>rio consistit in exterioribus, prout sunt signa 
+            in<lb break="no" ed="#L" n="30"/>terioris appetitivi motus.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2104-Dd1e761"><!-- p2p2-q161a3 -->
+          <head xml:id="TAca84-d1e2104-Hd1e764">Articulus 3</head>
+          <head xml:id="TAca84-d1e2104-Hd1e766" type="question-title">Utrum homo debeat se omnibus per humilitatem subiicere</head>
+          <p xml:id="TAca84-d1e2104-d1e769">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="117" type="fixed=297"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="118"/>UTRUM HOMO DEBEAT SE OMNIBUS PER HUMILITATEM SUBIICERE
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e778">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="119"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="120"/>homo non debeat se omnibus per 
+            hu<lb break="no" ed="#L" n="121"/>militatem subiicere. Quia, sicut dictum
+            <lb ed="#L" n="122"/>Naest , humilitas praecipue consistit in
+            <lb ed="#L" n="123"/>subiectione hominis ad Deum. Sed id quod de-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="124"/>betur Deo, non est homini exhibendum: ut 
+            pa<lb break="no" ed="#L" n="125"/>tet in omnibus, actibus latriae. Ergo homo per
+            <lb ed="#L" n="126"/>humilitatem non debet se homini subiicere.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e802">
+            <lb ed="#L" n="127"/>2. PRAETEREA, Augustinus dicit, in libro de Nat.
+            <lb ed="#L" n="128"/>et Gratia : Humilitas collocanda est in parte ve-
+            <pb ed="#L" n="298"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>ritatis, non in parte falsitatis. Sed aliqui sunt  
+            <lb ed="#L" n="2"/>in supremo statu: qui si se inferioribus 
+            subiice<lb break="no" ed="#L" n="3"/>rent, absque falsitate hoc fieri non posset. Ergo
+            <lb ed="#L" n="4"/>homo non debet se omnibus per humilitatem
+            <lb ed="#L" n="5"/>subiicere.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e825">
+            <lb ed="#L" n="6"/>3. PRAETEREA, nullus debet facere id quod 
+            ver<lb break="no" ed="#L" n="7"/>gat in detrimentum salutis alterius. Sed si aliquis
+            <lb ed="#L" n="8"/>per humilitatem se alteri subiiciat, quandoque hoc
+            <lb ed="#L" n="9"/>verget in detrimentum illius cui se subiicit, qui
+            <lb ed="#L" n="10"/>ex hoc superbiret vel contemneret: unde 
+            Augu<lb break="no" ed="#L" n="11"/>stinus dicit, in Regula : Ne, dum nimium 
+            serva<lb break="no" ed="#L" n="12"/>lur humilitas, regendi frangatur auctoritas. Ergo
+            <lb ed="#L" n="13"/>homo non debet se per humilitatem omnibus
+            <lb ed="#L" n="14"/>subiicere.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e847">
+            <lb ed="#L" n="15"/>SED coNTRA EsT quod dicitur Philipp. u : In
+            <lb ed="#L" n="16"/>humilitate superiores sibi invicem arbitrantes.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e854">
+            <lb ed="#L" n="17"/>RESPONDEO DICENDUM quod in homine duo 
+            pos<lb break="no" ed="#L" n="18"/>sunt considerari: scilicet id quod est Dei, et id
+            <lb ed="#L" n="19"/>quod est hominis. Hominis autem est quidquid
+            <lb ed="#L" n="20"/>pertinet ad defectum, sed Dei est quidquid 
+            per<lb break="no" ed="#L" n="21"/>tinet ad salutem et perfectionem: secundum 
+            il<lb break="no" ed="#L" n="22"/>lud Osee xu : Perditio tua, Israel : ex me
+            <lb ed="#L" n="23"/>tantum auxilium tuum. Humilitas autem, sicut
+            <lb ed="#L" n="24"/>dictum est , proprie respicit reverentiam qua
+            <lb ed="#L" n="25"/>homo Deo subiicitur. Et ideo quilibet homo, 
+            se<lb break="no" ed="#L" n="26"/>cundum id quod suum est, debet se cuilibet
+            <lb ed="#L" n="27"/>proximo subiicere quantum ad id quod est Dei
+            <lb ed="#L" n="28"/>in ipso.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e883">
+            <lb ed="#L" n="29"/>Non autem hoc requirit humilitas, ut aliquis
+            <lb ed="#L" n="30"/>id quod est Dei in seipso, subiiciat ei quod 
+            ap<lb break="no" ed="#L" n="31"/>paret esse Dei in altero. Nam illi qui dona Dei
+            <lb ed="#L" n="32"/>participant, cognoscunt se ea habere: secundum
+            <lb ed="#L" n="33"/>illud I1 ad Cor. u : Ut sciamus quae a Deo 
+            do<lb break="no" ed="#L" n="34"/>nata sunt nobis. Et ideo absque praeiudicio 
+            hu<lb break="no" ed="#L" n="35"/>militatis possunt dona quae ipsi acceperunt, 
+            prae<lb break="no" ed="#L" n="36"/>ferre donis Dei quae aliis apparent collata: sicut
+            <lb ed="#L" n="37"/>Apostolus, ad Ephes. i , dicit: Aliis 
+            generationi<lb break="no" ed="#L" n="38"/>bus non est agnitum ? filiis hominum, sicut. nunc
+            <lb ed="#L" n="39"/>revelatum est sanctis Apostolis eius.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e909">
+            <lb ed="#L" n="40"/>Similiter etiam non hoc requirit humilitas, ut
+            <lb ed="#L" n="41"/>aliquis id quod est suum in seipso, subiiciat ei
+            <lb ed="#L" n="42"/>quod est hominis in proximo. Alioquin, oporte-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="43"/>ret ut quilibet reputaret se magis peccatorem
+            <lb ed="#L" n="44"/>quolibet alio: cum tamen Apostolus absque 
+            prae<lb break="no" ed="#L" n="45"/>iudicio humilitatis dicat, Galat. u : Nos natura
+            <lb ed="#L" n="46"/>ludaei, et non ex gentibus peccatores.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e929">
+            <lb ed="#L" n="47"/>Potest tamen aliquis reputare aliquid boni esse
+            <lb ed="#L" n="48"/>in proximo quod ipse non habet, vel aliquid mali
+            <lb ed="#L" n="49"/>in se esse quod in alio non est: ex quo potest
+            <lb ed="#L" n="50"/>ei se  subiicere per humilitatem.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e941">
+            <lb ed="#L" n="51"/>AD PRIMUM ERGO DICENDUM quod non solum 
+            de<lb break="no" ed="#L" n="52"/>bemus Deum revereri in seipso, sed etiam id quod
+            <lb ed="#L" n="53"/>est eius debemus revereri in quolibet: non tamen
+            <lb ed="#L" n="54"/>eodem modo reverentiae quo reveremur Deum.
+            <lb ed="#L" n="55"/>Et ideo per humilitatem debemus nos subiicere
+            <lb ed="#L" n="56"/>omnibus proximis propter Deum, secundum illud
+            <lb ed="#L" n="57"/>I Pet. II: Subiecti estote omni humanae 
+            creatu<lb break="no" ed="#L" n="58"/>rae propter Deum: latriam tamen soli Deo 
+            de<lb break="no" ed="#L" n="59"/>bemus exhibere.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e963">
+            <lb ed="#L" n="60"/>AD SECUNDUM DICENDUM quod, si nos 
+            praefera<lb break="no" ed="#L" n="61"/>mus id quod est Dei in proximo, ei quod est
+            <lb ed="#L" n="62"/>proprium in nobis, non possumus incurrere 
+            fal<lb break="no" ed="#L" n="63"/>sitatem. Unde super illud Philipp. u , Superiores
+            <lb ed="#L" n="64"/>invicem arbitrantes, dicit Glossa : Non hoc ita
+            <lb ed="#L" n="65"/>debemus aestimare ut nos aestimare fingamus:
+            <lb ed="#L" n="66"/>sed vere aestimemus posse aliquid esse  occultum
+            <lb ed="#L" n="67"/>in alio quo nobis superior sit, etiam si bonum
+            <lb ed="#L" n="68"/>nostrum, quo illo videmur superiores esse, non sit
+            <lb ed="#L" n="69"/>occultum.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e987">
+            <lb ed="#L" n="70"/>AD TERTIUM DICENDUM quod humilitas, sicut et
+            <lb ed="#L" n="71"/>ceterae virtutes, praecipue interius in anima 
+            con<lb break="no" ed="#L" n="72"/>sistit. Et ideo potest homo secundum interiorem
+            <lb ed="#L" n="73"/>actum animae alteri se subiicere, sine hoc quod
+            <lb ed="#L" n="74"/>occasionem habeat alicuius quod pertineat ad
+            <lb ed="#L" n="75"/>detrimentum suae salutis. Et hoc est quod 
+            Au<lb break="no" ed="#L" n="76"/>gustinus dicit, in Regula : 7imore coram Deo
+            <lb ed="#L" n="77"/>praelatus substratus ^ sit pedibus vestris. Sed in
+            <lb ed="#L" n="78"/>exterioribus humilitatis actibus, sicut et in actibus
+            <lb ed="#L" n="79"/>ceterarum virtutum, est debita moderatio 
+            adhi<lb break="no" ed="#L" n="80"/>benda, ne possint vergere in detrimentum 
+            alte<lb break="no" ed="#L" n="81"/>rius. Si autem aliquis quod debet faciat, et alii
+            <lb ed="#L" n="82"/>ex hoc occasionem sumant peccati, non 
+            imputa<lb break="no" ed="#L" n="83"/>tur humiliter agenti: quia ille non scandalizat,
+            <lb ed="#L" n="84"/>quamvis alter scandalizetur.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2104-Dd1e1023"><!-- p2p2-q161a4 -->
+          <head xml:id="TAca84-d1e2104-Hd1e1026">Articulus 4</head>
+          <head xml:id="TAca84-d1e2104-Hd1e1028" type="question-title">Utrum humilitas sit pars modestiae vel temperantiae</head>
+          <p xml:id="TAca84-d1e2104-d1e1031">
+            <pb ed="#L" n="299"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=299"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="2"/>UTRUM HUMILITAS SIT PARS MODESTIAE VEL TEMPERANTIAE
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1042">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>humilitas non sit pars modestiae vel
+            <lb ed="#L" n="5"/>temperantiae. Humilitas enim praecipue
+            <lb ed="#L" n="6"/>respicit reverentiam qua quis subiicitur
+            <lb ed="#L" n="7"/>Deo, ut dictum est. Sed ad virtutem 
+            theologi<lb break="no" ed="#L" n="8"/>cam pertinet quod habeat Deum pro. obiecto.
+            <lb ed="#L" n="9"/>Ergo humilitas magis debet poni virtus 
+            theolo<lb break="no" ed="#L" n="10"/>gica quam pars temperantiae seu modestiae.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1064">
+            <lb ed="#L" n="11"/>2. PRAETEREA, temperantia est in concupiscibili.
+            <lb ed="#L" n="12"/>Humilitas autem videtur esse in irascibili: sicut
+            <lb ed="#L" n="13"/>et superbia, quae ei opponitur, cuius obiectum
+            <lb ed="#L" n="14"/>est arduum. Ergo videtur quod humilitas non
+            <lb ed="#L" n="15"/>sit pars temperantiae vel modestiae.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1078">
+            <lb ed="#L" n="16"/>3. PRAETEREA, humilitas et magnanimitas circa
+            <lb ed="#L" n="17"/>eadem sunt, ut ex supra  dictis patet. Sed 
+            ma<lb break="no" ed="#L" n="18"/>gnanimitas non ponitur pars temperantiae, sed
+            <lb ed="#L" n="19"/>magis fortitudinis, ut supra  habitum est. Ergo
+            <lb ed="#L" n="20"/>videtur quod humilitas non sit pars temperantiae
+            <lb ed="#L" n="21"/>vel modestiae.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1094">
+            <lb ed="#L" n="22"/>SED CONTRA EST quod Origenes dicit, super .
+            Lu<lb break="no" ed="#L" n="23"/>cam : Si vis nomen huius audire virtutis, 
+            quo<lb break="no" ed="#L" n="24"/>modo etiam a philosophis appelletur, ausculta 
+            ean<lb break="no" ed="#L" n="25"/>dem esse humilitatem quam. respicit Deus, quae
+            <lb ed="#L" n="26"/>ab illis metrioles dicitur, idest mensuratio sive
+            <lb ed="#L" n="27"/>moderatio: quae manifeste pertinet ad 
+            mode<lb break="no" ed="#L" n="28"/>stiam et  temperantiam. Ergo humilitas est pars
+            <lb ed="#L" n="29"/>modestiae et temperantiae.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1114">
+            <lb ed="#L" n="30"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="31"/>pans in assignando partes virtutibus praecipue 
+            at<lb break="no" ed="#L" n="32"/>tenditur similitudo quantum ad modum virtutis.
+            <lb ed="#L" n="33"/>Modus autem temperantiae, ex quo maxime 
+            lau<lb break="no" ed="#L" n="34"/>dem habet, est refrenatio vel repressio impetus
+            <lb ed="#L" n="35"/>alicuius passionis. Et ideo omnes virtutes 
+            refre<lb break="no" ed="#L" n="36"/>nantes sive reprimentes impetus aliquarum affe-
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="37"/>ctionum, vel actiones moderantes, ponuntur 
+            par<lb break="no" ed="#L" n="38"/>tes temperantiae. Sicut autem mansuetudo 
+            re<lb break="no" ed="#L" n="39"/>primit motum irae, ita etiam humilitas reprimit
+            <lb ed="#L" n="40"/>motum spei, qui est motus spiritus in magna 
+            ten<lb break="no" ed="#L" n="41"/>dentis. Et ideo, sicut mansuetudo ponitur pars
+            <lb ed="#L" n="42"/>temperantiae, ita etiam humilitas. Unde et 
+            Phi<lb break="no" ed="#L" n="43"/>losophus, in IV Ehic. , eum qui tendit in parva
+            <lb ed="#L" n="44"/>secundum suum modum, dicit non esse. 
+            magna<lb break="no" ed="#L" n="45"/>nimum, sed /emperatum: quem nos humilem 
+            di<lb break="no" ed="#L" n="46"/>cere possumus. - Et inter alias partes 
+            temperan<lb break="no" ed="#L" n="47"/>tiae, ratione superius  dicta, continetur sub 
+            mo<lb break="no" ed="#L" n="48"/>destia, prout Tullius de ea loquitur : inquantum
+            <lb ed="#L" n="49"/>scilicet humilitas nihil est aliud quam quaedam
+            <lb ed="#L" n="50"/>moderatio spiritus. Unde et I Pet. m  dicitur:
+            <lb ed="#L" n="51"/>In incorruptibilitate quieti ac modesti spiritus.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1166">
+            <lb ed="#L" n="52"/>AD PRIMUM ERGO DICENDUM quod virtutes 
+            theo<lb break="no" ed="#L" n="53"/>logicae, quae sunt circa ultimum finem, qui est
+            <lb ed="#L" n="54"/>primum principium in appetibilibus, sunt causae
+            <lb ed="#L" n="55"/>omnium aliarum virtutum. Unde ex hoc quod
+            <lb ed="#L" n="56"/>humilitas causatur ex reverentia divina, non 
+            ex<lb break="no" ed="#L" n="57"/>cluditur quin humilitas sit pars modestiae vel
+            <lb ed="#L" n="58"/>temperantiae.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1184">
+            <lb ed="#L" n="59"/>AD SECUNDUM DICENDUM quod partes 
+            principali<lb break="no" ed="#L" n="60"/>bus virtutibus assignantur, non secundum 
+            conve<lb break="no" ed="#L" n="61"/>nientiam in subiecto vel in materia, sed 
+            secun<lb break="no" ed="#L" n="62"/>dum convenientiam in modo formali, ut dictum
+            <lb ed="#L" n="63"/>est . Et ideo, licet humilitas sit in irascibili sicut
+            <lb ed="#L" n="64"/>in subiecto, ponitur tamen pars modestiae et 
+            tem<lb break="no" ed="#L" n="65"/>perantiae propter modum.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1202">
+            <lb ed="#L" n="66"/>AD TERTIUM DICENDUM quod, licet magnanimitas
+            <lb ed="#L" n="67"/>et humilitas in materia conveniant, differunt 
+            ta<lb break="no" ed="#L" n="68"/>men in modo: ratione cuius magnanimitas 
+            po<lb break="no" ed="#L" n="69"/>nitur pars fortitudinis, humilitas autem pars 
+            tem<lb break="no" ed="#L" n="70"/>perantiae.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2104-Dd1e1216"><!-- p2p2-q161a5 -->
+          <head xml:id="TAca84-d1e2104-Hd1e1219">Articulus 5</head>
+          <head xml:id="TAca84-d1e2104-Hd1e1221" type="question-title">Utrum humilitas sit potissima virtutum</head>
+          <p xml:id="TAca84-d1e2104-d1e1224">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="9" type="fixed=300"/>ARTICULUS QUINTUS 
+            <lb ed="#L" n="10"/>UTRUM HUMILITAS SIT POTISSIMA VIRTUTUM
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1233">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="11"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="12"/>humilitas sit potissima virtutum. Dicit
+            <lb ed="#L" n="13"/>enim Chrysostomus , exponens illud
+            <lb ed="#L" n="14"/>quod dicitur Luc. xvit  de pharisaeo
+            <lb ed="#L" n="15"/>et publicano, quod, si mixta delictis humilitas tam
+            <lb ed="#L" n="16"/>facile currit ut iustitiam superbiae coniunctam
+            <lb ed="#L" n="17"/>iranseat, si iustitiae coniunxeris eam, quo non
+            <lb ed="#L" n="18"/>ibit? Assistet ipsi tribunali divino in medio 
+            ange<lb break="no" ed="#L" n="19"/>lorum. Et sic patet quod humilitas praefertur 
+            <lb ed="#L" n="20"/>iustitiae. Sed iustitia vel est praeclarissima 
+            virtu<lb break="no" ed="#L" n="21"/>tum, vel ? includit in se omnes virtutes: ut patet
+            <lb ed="#L" n="22"/>per Philosophum, in V Efhic.  Ergo humilitas
+            <lb ed="#L" n="23"/>est maxima virtutum.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1266">
+            <lb ed="#L" n="24"/>2. PRAETEREA, Augustinus dicit, in libro de Verb.
+            <lb ed="#L" n="25"/>Dom. : Cogitas magnam fabricam construere
+            <lb ed="#L" n="26"/>celsitudinis? De fundamento prius cogita 
+            humili<lb break="no" ed="#L" n="27"/>latis. Ex quo videtur quod humilitas sit 
+            funda<lb break="no" ed="#L" n="28"/>mentum omnium virtutum. Ergo videtur esse 
+            po<lb break="no" ed="#L" n="29"/>tior aliis.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1283">
+            <lb ed="#L" n="30"/>3. PRAETEREA, maiori virtuti maius debetur
+            <lb ed="#L" n="31"/>praemium. Sed humilitati debetur maximum 
+            prae<lb break="no" ed="#L" n="32"/>mium: quia qui se humiliat, exaltabitur, ut 
+            dici<lb break="no" ed="#L" n="33"/>tur Luc. xiv.  Ergo humilitas est maxima 
+            vir<lb break="no" ed="#L" n="34"/>tutum.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1296">
+            <lb ed="#L" n="35"/>4. PRAETEREA, sicut Augustinus dicit, in libro
+            <lb ed="#L" n="36"/>de Vera Relig. , tota vita Christi in terris, per
+            <lb ed="#L" n="37"/>hominem quem suscipere dignatus est, disciplina
+            <lb ed="#L" n="38"/>morum fuit. Praecipue humilitatem suam 
+            imitan<lb break="no" ed="#L" n="39"/>dam proposuit, dicens, Matth. xi : Discite a e,
+            <lb ed="#L" n="40"/>quia mitis sum et humilis corde. Et Gregorius
+            <lb ed="#L" n="41"/>dicit, in Pastoral. , quod argumentum 
+            redemptio<lb break="no" ed="#L" n="42"/>nis nostrae inventa est humilitas Dei. Ergo 
+            hu<lb break="no" ed="#L" n="43"/>militas videtur esse maxima virtutum.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1318">
+            <lb ed="#L" n="44"/>SED coNTRA EST quod caritas praefertur 
+            omni<lb break="no" ed="#L" n="45"/>bus virtutibus: secundum illud Coloss. u : 
+            Su<lb break="no" ed="#L" n="46"/>per omnia, caritatem habete. Non ergo humilitas
+            <lb ed="#L" n="47"/>est maxima virtutum.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1329">
+            <lb ed="#L" n="48"/>RESPONDEO DICENDUM quod bonum humanae 
+            vir<lb break="no" ed="#L" n="49"/>tutis in ordine rationis consistit. Qui quidem 
+            prin<lb break="no" ed="#L" n="50"/>cipaliter attenditur respectu finis. Unde virtutes
+            <lb ed="#L" n="51"/>theologicae, quae habent ultimum finem pro 
+            obie<lb break="no" ed="#L" n="52"/>cto, sunt potissimae.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1342">
+            <lb ed="#L" n="53"/>Secundario autem attenditur prout secundum
+            <lb ed="#L" n="54"/>rationem finis ordinantur ea quae sunt ad finem.
+            <lb ed="#L" n="55"/>Et haec quidem ordinatio essentialiter consistit
+            <lb ed="#L" n="56"/>in ipsa ratione ordinante:. participative autem
+            <lb ed="#L" n="57"/>in appetitu per rationem ordinato. Quam 
+            qui<lb break="no" ed="#L" n="58"/>dem ordinationem universaliter facit iustitia, prae-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="59"/>sertim legalis. Ordinationi autem facit hominem
+            <lb ed="#L" n="60"/>bene subiectum humilitas in universali quantum
+            <lb ed="#L" n="61"/>ad omnia: quaelibet autem alia virtus quantum
+            <lb ed="#L" n="62"/>ad aliquam materiam specialem. Et ideo post
+            <lb ed="#L" n="63"/>virtutes theologicas ; et virtutes intellectuales, quae
+            <lb ed="#L" n="64"/>respiciunt ipsam rationem; et post iustitiam, 
+            prae<lb break="no" ed="#L" n="65"/>sertim legalem; potior ceteris est humilitas .
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1375">
+            <lb ed="#L" n="66"/>AD PRIMUM ERGO DICENDUM quod humilitas 
+            iusti<lb break="no" ed="#L" n="67"/>tiae non praefertur, sed zustitiae cui superbia 
+            con<lb break="no" ed="#L" n="68"/>iungitur, quae iam desinit esse virtus. Sicut e
+            <lb ed="#L" n="69"/>contrario peccatum per humilitatem remittitur:
+            <lb ed="#L" n="70"/>nam et de publicano dicitur, Luc. xvi , quod
+            <lb ed="#L" n="71"/>merito humilitatis descendit iustificatus in domum
+            <lb ed="#L" n="72"/>suam. Unde et Chrysostomus dicit : Geminas
+            <lb ed="#L" n="73"/>bigas mihi accommodes: alteram quidem iustitiae
+            <lb ed="#L" n="74"/>et superbiae; alteram vero peccati et humilitatis.
+            <lb ed="#L" n="75"/>Et videbis peccatum praevertens Y iustitiam, non
+            <lb ed="#L" n="76"/>propriis, sed humilitatis coniugae viribus: aliud
+            <lb ed="#L" n="77"/>vero par videbis devictum, non fragilitate 
+            iusti<lb break="no" ed="#L" n="78"/>liae, sed mole et tumore superbiae.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1407">
+            <lb ed="#L" n="79"/>AD SECUNDUM DICENDUM quod, sicut ordinata 
+            vir<lb break="no" ed="#L" n="80"/>tutum congregatio per quandam similitudinem
+            <lb ed="#L" n="81"/>aedificio comparatur, ita etiam illud quod est
+            <lb ed="#L" n="82"/>primum in acquisitione virtutum, fundamento
+            <lb ed="#L" n="83"/>comparatur, quod primum ? in aedificio iacitur.
+            <lb ed="#L" n="84"/>Virtutes autem verae infunduntur a Deo. Unde
+            <lb ed="#L" n="85"/>primum in acquisitione virtutum potest accipi
+            <lb ed="#L" n="86"/>dupliciter. Uno modo, per modum removentis
+            <lb ed="#L" n="87"/>prohibens. Et sic humilitas primum locum tenet:
+            <lb ed="#L" n="88"/>inquantum scilicet expellit superbiam, cui Deus
+            <lb ed="#L" n="89"/>resistit, et praebet hominem subditum et 
+            sem<lb break="no" ed="#L" n="90"/>per patulum  ad suscipiendum influxum divinae
+            <lb ed="#L" n="91"/>gratiae, inquantum evacuat inflationem 
+            super<lb break="no" ed="#L" n="92"/>biae; ut dicitur lac. iv , quod Deus superbis
+            <lb ed="#L" n="93"/>resistit, humilibus autem dat gratiam. Et 
+            secun<lb break="no" ed="#L" n="94"/>dum hoc, humilitas dicitur spiritualis aedificii
+            <lb ed="#L" n="95"/>fundamentum .
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1446">
+            <lb ed="#L" n="96"/>Alio modo est aliquid primum in virtutibus 
+            di<lb break="no" ed="#L" n="97"/>recte: per quod scilicet iam ad Deum acceditur.
+            <lb ed="#L" n="98"/>Primus autem accessus ad Deum est per fidem:
+            <lb ed="#L" n="99"/>secundum illud Zeb. xi : Accedentem ad Deum
+            <lb ed="#L" n="100"/>oportet credere. Et secundum hoc, fides ponitur
+            <lb ed="#L" n="101"/>fundamentum , nobiliori modo quam humilitas.  
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1462">
+            <lb ed="#L" n="102"/>AD TERTIUM DICENDUM quod contemnenti terrena
+            <lb ed="#L" n="103"/>promittuntur caelestia: sicut contemnentibus 
+            di<lb break="no" ed="#L" n="104"/>vitias terrenas promittuntur caelestes thesauri, 
+            se<lb break="no" ed="#L" n="105"/>cundum illud- Matth. vi : Nolite thesaurizare 
+            vo<lb break="no" ed="#L" n="106"/>bis thesauros in terra, sed thesaurizate vobis the-
+            <pb ed="#L" n="301"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>sauros in coelo; et similiter contemnentibus mundi
+            <lb ed="#L" n="2"/>gaudia promittuntur consolationes caelestes, 
+            se<lb break="no" ed="#L" n="3"/>cundum illud Matth. v : Beati qui lugent, 
+            quo<lb break="no" ed="#L" n="4"/>niam ipsi consolabuntur. Et eodem modo 
+            humi<lb break="no" ed="#L" n="5"/>litati promittitur spiritualis exaltatio, non quia ipsa
+            <lb ed="#L" n="6"/>sola eam  mereatur, sed quia eius est proprium
+            <lb ed="#L" n="7"/>contemnere sublimitatem terrenam. Unde 
+            Augu<lb break="no" ed="#L" n="8"/>stinus dicit, in libro de Poenitentia : Ne putes
+            <lb ed="#L" n="9"/>eum qui se humiliat, semper iacere ^: cum dictum
+            <lb ed="#L" n="10"/>sil, « Exaltabitur ». Et ne opineris eius 
+            exalta<lb break="no" ed="#L" n="11"/>lionem in oculis hominum per sublimitates fieri
+            <lb ed="#L" n="12"/>corporales.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1506">
+            <lb ed="#L" n="13"/>AD QUARTUM DICENDUM quod ideo Christus prae-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="14"/>cipue humilitatem nobis commendavit, quia per
+            <lb ed="#L" n="15"/>hoc maxime removetur impedimentum humanae
+            <lb ed="#L" n="16"/>salutis, quae consistit in hoc quod homo ad 
+            cae<lb break="no" ed="#L" n="17"/>lestia et spiritualia tendat, a quibus homo 
+            impedi<lb break="no" ed="#L" n="18"/>tur dum in terrenis magnificari studet. Et ideo
+            <lb ed="#L" n="19"/>Dominus, ut impedimentum salutis auferret, 
+            ex<lb break="no" ed="#L" n="20"/>teriorem celsitudinem contemnendam monstravit
+            <lb ed="#L" n="21"/>per humilitatis exempla. Et sic humilitas est quasi
+            <lb ed="#L" n="22"/>quaedam dispositio ad liberum accessum 
+            homi<lb break="no" ed="#L" n="23"/>nis in spiritualia et divina bona. Sicut ergo 
+            per<lb break="no" ed="#L" n="24"/>fectio est potior dispositione, ita etiam caritas et
+            <lb ed="#L" n="25"/>aliae virtutes quibus homo directe movetur in
+            <lb ed="#L" n="26"/>Deum, sunt potiores humilitate.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2104-Dd1e1542"><!-- p2p2-q161a6 -->
+          <head xml:id="TAca84-d1e2104-Hd1e1545">Articulus 6</head>
+          <head xml:id="TAca84-d1e2104-Hd1e1547" type="question-title">Utrum convenienter distinguantur duodecim gradus humilitatis qui in regula beati benedicti ponuntur</head>
+          <p xml:id="TAca84-d1e2104-d1e1550">
+            <pb ed="#L" n="307"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=307"/>ARTICULUS SEXTUS
+            <lb ed="#L" n="2"/>UTRUM CONVENIENTER DISTINGUANTUR DUODECIM GRADUS HUMILITATIS
+            <lb ed="#L" n="3"/>QUI IN REGULA BEATI BENEDICTI PONUNTUR
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1563">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="4"/>AD SEXTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="5"/>inconvenienter distinguantur duodecim
+            <lb ed="#L" n="6"/>gradus humilitatis qui in Regula beati
+            <lb ed="#L" n="7"/>Benedicti  ponuntur: quorum primus
+            <lb ed="#L" n="8"/>est, corde et corpore semper humilitatem 
+            osten<lb break="no" ed="#L" n="9"/>dere, defixis in terram aspectibus; secundus, ut
+            <lb ed="#L" n="10"/>pauca verba, et rationabilia loquatur. aliquis, non
+            <lb ed="#L" n="11"/>clamosa voce; tertius, ut non sit facilis aut 
+            prom<lb break="no" ed="#L" n="12"/>ptus in risum; quartus, laciturnitas usque ad 
+            in<lb break="no" ed="#L" n="13"/>lerrogationem; quintus, tenere quod habet 
+            com<lb break="no" ed="#L" n="14"/>munis monasterii regula; sextus, credere el 
+            pro<lb break="no" ed="#L" n="15"/>nuntiare se omnibus viliorem ; septimus, ad omnia
+            <lb ed="#L" n="16"/>indignum et inutilem se confiteri et credere; 
+            octa<lb break="no" ed="#L" n="17"/>"vus, confessio peccatorum; nonus, pro 
+            obedien<lb break="no" ed="#L" n="18"/>tia ^ in duris et asperis patientiam amplecti; 
+            de<lb break="no" ed="#L" n="19"/>cimus, uf cum obedientia se subdat maiori; 
+            un<lb break="no" ed="#L" n="20"/>decimus, uf voluntatem propriam non delectetur
+            <lb ed="#L" n="21"/>implere; duodecimus, ut Deum timeat, et memor 
+            <lb ed="#L" n="22"/>sit omnium quae praecepit. Enumerantur enim
+            <lb ed="#L" n="23"/>hic quaedam quae ad alias virtutes pertinent:
+            <lb ed="#L" n="24"/>sicut obedientia et patientia. Enumerantur etiam
+            <lb ed="#L" n="25"/>aliqua quae ad falsam opinionem pertinere 
+            vi<lb break="no" ed="#L" n="26"/>dentur, quae nulli virtuti potest competere: 
+            sci<lb break="no" ed="#L" n="27"/>licet quod aliquis pronuntiet se omnibus viliorem,
+            <lb ed="#L" n="28"/>quod ad omnia indignum et inutilem se 
+            confitea<lb break="no" ed="#L" n="29"/>tur et credat. Ergo inconvenienter ista ponuntur
+            <lb ed="#L" n="30"/>inter gradus humilitatis.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1626">
+            <lb ed="#L" n="31"/>2. PRAETEREA, humilitas ab interioribus ad 
+            ex<lb break="no" ed="#L" n="32"/>teriora procedit: sicut et ceterae virtutes. 
+            Incon<lb break="no" ed="#L" n="33"/>venienter igitur praemittuntur in praemissis 
+            gra<lb break="no" ed="#L" n="34"/>dibus illa quae pertinent ad exteriores actus, his
+            <lb ed="#L" n="35"/>quae pertinent ad interiores.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1640">
+            <lb ed="#L" n="36"/>3. PRAETEREA, Anselmus, in libro de 
+            Similitu<lb break="no" ed="#L" n="37"/>dinibus , ponit septem humilitatis gradus: 
+            quo<lb break="no" ed="#L" n="38"/>rum primus est, contemplibilem se esse 
+            cogno<lb break="no" ed="#L" n="39"/>scere; secundus, de hoc dolere; tertius, hoc 
+            confi<lb break="no" ed="#L" n="40"/>leri; quartus, hoc persuadere, ut scilicet velit hoc
+            <lb ed="#L" n="41"/>credi; quintus, wu£ patienter sustineat hoc dici;
+            <lb ed="#L" n="42"/>sextus, ui patiatur contemptibiliter se tractari; 
+            se<lb break="no" ed="#L" n="43"/>ptimus, 47 hoc amet. Ergo videntur praemissi 
+            gra<lb break="no" ed="#L" n="44"/>dus esse superflui.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1662">
+            <lb ed="#L" n="45"/>4. PRAETEREA, Matth. i1  dicit Glossa : 
+            Per<lb break="no" ed="#L" n="46"/>fecta humilitas tres habet gradus. Primus est 
+            sub<lb break="no" ed="#L" n="47"/>dere se maiori, el non praeferre se aequali: qui 1
+            <lb ed="#L" n="48"/>est sufficiens. Secundus est subdere se aequali,
+            <lb ed="#L" n="49"/>nec praeferre se minori: et hic ? dicitur 
+            abun<lb break="no" ed="#L" n="50"/>dans. Tertius gradus est subesse minori: in quo
+            <lb ed="#L" n="51"/>est omnis iustitia. Ergo praemissi gradus 
+            viden<lb break="no" ed="#L" n="52"/>tur esse superflui.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1682">
+            <lb ed="#L" n="53"/>5. PRAETEREA, Augustinus dicit, in libro de 
+            Vir<lb break="no" ed="#L" n="54"/>gini. : Mensura humilitatis cuique ex 
+            men<lb break="no" ed="#L" n="55"/>sura ipsius magnitudinis data est: cui est 
+            pericu<lb break="no" ed="#L" n="56"/>losa superbia, quae amplius amplioribus insidiatur.
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="57"/>Sed mensura magnitudinis humanae non potest
+            <lb ed="#L" n="58"/>sub certo numero graduum determinari. Ergo
+            <lb ed="#L" n="59"/>videtur quod non possint determinati  gradus
+            <lb ed="#L" n="60"/>humilitatis assignari.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1704">
+            <lb ed="#L" n="61"/>RESPONDEO DICENDUM quod, sicut ex supra  
+            di<lb break="no" ed="#L" n="62"/>ctis patet, humilitas essentialiter in appetitu 
+            con<lb break="no" ed="#L" n="63"/>sistit, secundum quod aliquis refrenat impetum
+            <lb ed="#L" n="64"/>animi sui, ne inordinate tendat in magna: sed 
+            re<lb break="no" ed="#L" n="65"/>gulam habet in cognitione, ut scilicet aliquis non
+            <lb ed="#L" n="66"/>se existimet esse supra id quod est. Et utriusque
+            <lb ed="#L" n="67"/>principium et radix est reverentia quam quis 
+            ha<lb break="no" ed="#L" n="68"/>bet ad Deum. Ex interiori autem dispositione 
+            hu<lb break="no" ed="#L" n="69"/>militatis. procedunt quaedam exteriora signa in
+            <lb ed="#L" n="70"/>verbis et factis et gestibus, quibus id quod 
+            inte<lb break="no" ed="#L" n="71"/>rius latet manifestatur, sicut et in ceteris 
+            virtuti<lb break="no" ed="#L" n="72"/>bus accidit: nam ex visu cognoscitur vir, et ab
+            <lb ed="#L" n="73"/>occursu faciei sensatus, ut dicitur Eccli. xix .
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1735">
+            <lb ed="#L" n="74"/>Et ideo in praedictis  gradibus humilitatis 
+            po<lb break="no" ed="#L" n="75"/>nitur aliquid quod pertinet ad humilitatis 
+            radi<lb break="no" ed="#L" n="76"/>cem: scilicet duodecimus gradus, qui est, ut homo
+            <lb ed="#L" n="77"/>Deum timeat, et memor sit omnium quae 
+            prae<lb break="no" ed="#L" n="78"/>cepit.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1748">
+            <lb ed="#L" n="79"/>Ponitur etiam aliquid pertinens ad appetitum :
+            <lb ed="#L" n="80"/>ne scilicet in propriam excellentiam inordinate
+            <lb ed="#L" n="81"/>tendat. Quod quidem fit tripliciter. Uno modo,
+            <lb ed="#L" n="82"/>ut non sequatur homo propriam voluntatem:
+            <lb ed="#L" n="83"/>quod pertinet ad undecimum gradum. - Alio
+            <lb ed="#L" n="84"/>modo, ut regulet eam secundum superioris 
+            arbi<lb break="no" ed="#L" n="85"/>trium: quod pertinet ad gradum decimum. - 
+            Ter<lb break="no" ed="#L" n="86"/>tio modo, ut ab hoc non desistat propter dura
+            <lb ed="#L" n="87"/>et aspera quae occurrunt: et hoc pertinet ad
+            <lb ed="#L" n="88"/>nonum.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1773">
+            <lb ed="#L" n="89"/>Ponuntur etiam quaedam pertinentia ad 
+            exi<lb break="no" ed="#L" n="90"/>stimationem hominis recognoscentis suum  
+            defe<lb break="no" ed="#L" n="91"/>ctum. Et hoc tripliciter. Uno quidem modo, per
+            <lb ed="#L" n="92"/>hoc quod proprios defectus recognoscat et 
+            con<lb break="no" ed="#L" n="93"/>fiteatur: quod pertinet ad octavum gradum. -
+            <lb ed="#L" n="94"/>Secundo, ut ex consideratione: sui defectus 
+            ali<lb break="no" ed="#L" n="95"/>quis insufficientem se existimet ad maiora: quod
+            <lb ed="#L" n="96"/>pertinet ad septimum. - Tertio, ut quantum ad
+            <lb ed="#L" n="97"/>hoc sibi alios praeferat: quod pertinet ad sextum.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1795">
+            <lb ed="#L" n="98"/>Ponuntur etiam quaedam quae pertinent ad
+            <lb ed="#L" n="99"/>exteriora signa. Quorum unum est in factis, ut
+            <lb ed="#L" n="100"/>scilicet homo non recedat in suis operibus a via
+            <lb ed="#L" n="101"/>communi: quod pertinet ad quintum. - Alia duo
+            <lb ed="#L" n="102"/>sunt in verbis: ut scilicet homo non praeripiat
+            <lb ed="#L" n="103"/>tempus loquendi, quod pertinet ad quartum; nec
+            <lb ed="#L" n="104"/>excedat modum in loquendo, quod pertinet ad
+            <lb ed="#L" n="105"/>secundum. - Alia vero consistunt in exterioribus
+            <lb ed="#L" n="106"/>gestibus: puta in reprimendo extollentiam  
+            ocu<lb break="no" ed="#L" n="107"/>lorum, quod pertinet ad primum ; et in cohibendo
+            <lb ed="#L" n="108"/>exterius risum et alia ineptae laetitiae signa, quod
+            <lb ed="#L" n="109"/>pertinet ad tertium.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1824">
+            <pb ed="#L" n="308"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>AD PRIMUM ERGO DICENDUM quod aliquis absque
+            <lb ed="#L" n="2"/>falsitate potest se credere et pronuntiare omnibus
+            <lb ed="#L" n="3"/>viliorem, secundum defectus occultos quos in se
+            <lb ed="#L" n="4"/>recognoscit, et dona Dei quae in aliis latent. Unde
+            <lb ed="#L" n="5"/>Augustinus dicit, in libro de Virginit. : 
+            Existi<lb break="no" ed="#L" n="6"/>male aliquos in occulto superiores, quibus estis in
+            <lb ed="#L" n="7"/>manifesto meliores.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1846">
+            <lb ed="#L" n="8"/>Similiter etiam absque falsitate potest aliquis
+            <lb ed="#L" n="9"/>confiteri et credere ad omnia se inutilem et 
+            indi<lb break="no" ed="#L" n="10"/>gnum, secundum proprias yires, ut sufficientiam
+            <lb ed="#L" n="11"/>suam totam in Deum referat: secundum illud II
+            <lb ed="#L" n="12"/>ad Cor. III: Non quod sufficientes. simus 
+            cogi<lb break="no" ed="#L" n="13"/>lare aliquid a nobis, quasi ex nobis: sed 
+            sufficien<lb break="no" ed="#L" n="14"/>lia nostra ex Deo est.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1864">
+            <lb ed="#L" n="15"/>Non est autem inconveniens quod ea quae ad
+            <lb ed="#L" n="16"/>alias virtutes pertinent, humilitati adscribantur.
+            <lb ed="#L" n="17"/>Quia sicut unum vitium oritur ex alio, ita 
+            natu<lb break="no" ed="#L" n="18"/>rali ordine actus unius virtutis procedit ex actu
+            <lb ed="#L" n="19"/>alterius.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1877">
+            <lb ed="#L" n="20"/>AD SECUNDUM DICENDUM quod homo ad 
+            humili<lb break="no" ed="#L" n="21"/>tatem pervenit per duo. Primo quidem et 
+            prin<lb break="no" ed="#L" n="22"/>cipaliter, per gratiae donum. Et quantum ad hoc,
+            <lb ed="#L" n="23"/>interiora praecedunt exteriora. - Aliud autem est
+            <lb ed="#L" n="24"/>humanum studium: per quod homo prius 
+            exte<lb break="no" ed="#L" n="25"/>riora cohibet, et postmodum pertingit ad 
+            extir<lb break="no" ed="#L" n="26"/>pandum interiorem radicem. Et secundum hunc
+            <lb ed="#L" n="27"/>ordinem assignantur hic humilitatis gradus.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1898">
+            <lb ed="#L" n="28"/>AD TERTIUM DICENDUM quod omnes gradus quos
+            <lb ed="#L" n="29"/>Anselmus ponit, reducuntur ad opinionem et 
+            ma<lb break="no" ed="#L" n="30"/>nifestationem et voluntatem propriae abiectionis.
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="31"/>Nam primus gradus pertinet ad cognitionem 
+            pro<lb break="no" ed="#L" n="32"/>prii defectus. - Sed quia vituperabile esset si quis
+            <lb ed="#L" n="33"/>proprium defectum amaret, hoc per secundum
+            <lb ed="#L" n="34"/>gradum excluditur. - Sed ad manifestationem sui
+            <lb ed="#L" n="35"/>defectus pertinent tertius et quartus gradus: ut
+            <lb ed="#L" n="36"/>scilicet aliquis non. solum simpliciter suum 
+            defe<lb break="no" ed="#L" n="37"/>ctum enuntiet, sed etiam persuadeat. - Alii autem
+            <lb ed="#L" n="38"/>tres gradus pertinent ad appetitum. Qui 
+            excellen<lb break="no" ed="#L" n="39"/>tiam exteriorem non quaerit, sed exteriorem 
+            abie<lb break="no" ed="#L" n="40"/>ctionem vel aequanimiter patitur, sive in verbis
+            <lb ed="#L" n="41"/>sive in factis: quia, sicut Gregorius dicit, in .
+            Re<lb break="no" ed="#L" n="42"/>gistro , non grande est^ his nos esse humiles a
+            <lb ed="#L" n="43"/>quibus honoramur, quia et hoc saeculares quilibet
+            <lb ed="#L" n="44"/>Jaciunt: sed illis maxime humiles esse debemus
+            <lb ed="#L" n="45"/>a quibus aliqua patimur. Et hoc pertinet ad 
+            quin<lb break="no" ed="#L" n="46"/>tum et sextum gradum. - Vel etiam desideranter
+            <lb ed="#L" n="47"/>exteriorem abiectionem amplectitur: quod 
+            perti<lb break="no" ed="#L" n="48"/>net ad septimum gradum. - Et sic omnes isti 
+            gra<lb break="no" ed="#L" n="49"/>dus continentur sub sexto et septimo superius
+            <lb ed="#L" n="50"/>enumeratis.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1953">
+            <lb ed="#L" n="51"/>AD QUARTUM DICENDUM quod illi gradus  
+            acci<lb break="no" ed="#L" n="52"/>piuntur non ex parte ipsius rei, idest secundum
+            <lb ed="#L" n="53"/>naturam humilitatis: sed per comparationem ad
+            <lb ed="#L" n="54"/>gradus hominum, qui sunt vel maiores vel 
+            mi<lb break="no" ed="#L" n="55"/>nores vel aequales.
+          </p>
+          <p xml:id="TAca84-d1e2104-d1e1966">
+            <lb ed="#L" n="56"/>AD QUINTUM DICENDUM quod etiam illa ratio 
+            pro<lb break="no" ed="#L" n="57"/>cedit ex gradibus humilitatis non secundum ipsam
+            <lb ed="#L" n="58"/>naturam rei, secundum quam assignantur 
+            prae<lb break="no" ed="#L" n="59"/>missi gradus: sed secundum diversas hominum
+            <lb ed="#L" n="60"/>conditiones.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

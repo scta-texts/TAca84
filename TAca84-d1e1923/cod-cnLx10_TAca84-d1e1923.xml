@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 126</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 126</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="47"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e1923"><!-- p2p2-q126 -->
+        <head xml:id="TAca84-d1e1923-Hd1e101">Quaestio 126</head>
+        <head xml:id="TAca84-d1e1923-Hd1e103" type="question-title">De vitio intimiditatis</head>
+        <p xml:id="TAca84-d1e1923-d1e106">
+          <pb ed="#L" n="47"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=47"/>QUAESTIO CENTESIMAVIGESIMASEXTA
+          <lb ed="#L" n="2"/>DE VITIO INTIMIDITATIS
+          <lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e1923-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de vitio 
+          intimidi<lb break="no" ed="#L" n="5"/>tatis .
+          <lb ed="#L" n="6"/>Et circa hoc quaeruntur duo.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="7"/>Primo: utrum intimidum esse sit peccatum.
+          <lb ed="#L" n="8"/>Secundo: utrum opponatur fortitudini.
+        </p>
+        <div xml:id="TAca84-d1e1923-Dd1e137"><!-- p2p2-q126a1 -->
+          <head xml:id="TAca84-d1e1923-Hd1e140">Articulus 1</head>
+          <head xml:id="TAca84-d1e1923-Hd1e142" type="question-title">Utrum intimiditas sit peccatum</head>
+          <p xml:id="TAca84-d1e1923-d1e145">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="9" type="fixed=47"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="10"/>UTRUM INTIMIDITAS SIT PECCATUM
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e154">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="11"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="12"/>intimiditas non sit peccatum. Quod
+            <lb ed="#L" n="13"/>enim ponitur pro commendatione  viri
+            <lb ed="#L" n="14"/>iusti, non est peccatum. Sed in 
+            com<lb break="no" ed="#L" n="15"/>mendationem viri iusti dicitur, Pro». xxvii :
+            <lb ed="#L" n="16"/>lustus, quasi leo confidens, absque terrore erit.
+            <lb ed="#L" n="17"/>Ergo esse impavidum non est peccatum.
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e174">
+            <lb ed="#L" n="18"/>2. PRAETEREA, maxime terribilis  est mors,
+            <lb ed="#L" n="19"/>secundum Philosophum, in III Ethic.  Sed nec.
+            <lb ed="#L" n="20"/>mortem oportet timere, secundum illud Matth. x :
+            <quote xml:id="TAca84-d1e1923-Qd1e182">Nolite timere eos qui occidunt corpus</quote>: nec etiam
+            <lb ed="#L" n="21"/>aliquid quod ab homine possit inferri, secundum
+            <lb ed="#L" n="22"/>illud Isaiae r1 : Quis tu, ut timeas ab homine 
+            <lb ed="#L" n="23"/>mortali? Ergo impavidum esse non est peccatum.
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e193">
+            <lb ed="#L" n="24"/>3. PRAETEREA, timor ex amore nascitur, ut 
+            su<lb break="no" ed="#L" n="25"/>pra dictum est. Sed nihil mundanum amare
+            <lb ed="#L" n="26"/>pertinet ad perfectionem virtutis: quia, ut 
+            Augu<lb break="no" ed="#L" n="27"/>stinus dicit, in <ref xml:id="TAca84-d1e1923-Rd1e203">XIV de Civ. Dei</ref>, <quote xml:id="TAca84-d1e1923-Qd1e206">amor Dei 
+              us<lb break="no" ed="#L" n="28"/>que ad contemptum sui, facit cives civitatis 
+              cae<lb break="no" ed="#L" n="29"/>lestis</quote>. Ergo nihil humanum formidare videtur non .
+            <lb ed="#L" n="30"/>esse peccatum.
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e216">
+            <lb ed="#L" n="31"/>SEp coNTRA EsT quod de iudice iniquo dicitur,
+            <lb ed="#L" n="32"/>Luc. xvii , quod nec Deum timebat, nec 
+            homi<lb break="no" ed="#L" n="33"/>nem reverebatur.
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e225">
+            <lb ed="#L" n="34"/>RESPONDEO DICENDUM quod, quia timor ex
+            <lb ed="#L" n="35"/>amore nascitur, idem iudicium videtur esse de 
+            <lb ed="#L" n="36"/>amore et de timore. Agitur autem nunc de 
+            ti<lb break="no" ed="#L" n="37"/>more quo mala temporalia timentur, qui provenit
+            <lb ed="#L" n="38"/>ex temporalium bonorum amore. Inditum autem
+            <lb ed="#L" n="39"/>est unicuique naturaliter ut propriam vitam amet,
+            <lb ed="#L" n="40"/>et ea quae ad ipsam ordinantur, tamen? debito
+            <lb ed="#L" n="41"/>modo: ut scilicet amentur huiusmodi non quasi
+            <lb ed="#L" n="42"/>finis constituatur in eis, sed secundum quod eis
+            <lb ed="#L" n="43"/>utendum est propter ultimum finem. Unde quod
+            <lb ed="#L" n="44"/>aliquis deficiat a debito modo amoris ipsorum, est
+            <lb ed="#L" n="45"/>contra naturalem inclinationem: et per consequens
+            <lb ed="#L" n="46"/>est peccatum. Nunquam tamen a tali amore 
+            tota<lb break="no" ed="#L" n="47"/>liter aliquis decidit: quia id quod est naturae  
+            to<lb break="no" ed="#L" n="48"/>taliter perdi non potest. Propter quod Apostolus
+            <lb ed="#L" n="49"/>dicit, ad Ephes. v quod nemo unquam carnem .
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="50"/>suam odio habuit. Unde etiam illi qui seipsos 
+            inte<lb break="no" ed="#L" n="51"/>rimunt, ex amore carnis suae hoc faciunt, quam
+            <lb ed="#L" n="52"/>volunt a praesentibus angustiis liberari .
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e271">
+            <lb ed="#L" n="53"/>Unde contingere potest quód aliquis minus
+            <lb ed="#L" n="54"/>quam debeat timeat, mortem et alia temporalia
+            <lb ed="#L" n="55"/>mala, propter hoc quod minus debito amet ea.
+            <lb ed="#L" n="56"/>Sed quod nihil horum timeat, non potest ex 
+            to<lb break="no" ed="#L" n="57"/>tali defectu amoris contingere: sed ex eo quod
+            <lb ed="#L" n="58"/>aestimat mala opposita bonis quae amat, sibi 
+            su<lb break="no" ed="#L" n="59"/>pervenire  non posse. Quod quandoque 
+            contin<lb break="no" ed="#L" n="60"/>git ex superbia animi de se praesumentis et alios
+            <lb ed="#L" n="61"/>contemnentis: secundum quod dicitur Zob xui :
+            <lb ed="#L" n="62"/>Factus est ut nullum timeret: omne sublime videt.
+            <lb ed="#L" n="63"/>Quandoque autem contingit ex defectu rationis:
+            <lb ed="#L" n="64"/>sicut Philosophus dicit, in II Efhic. , quod Celtae?
+            <lb ed="#L" n="65"/>propter stultitiam nihil timent. Unde patet quod
+            <lb ed="#L" n="66"/>esse impavidum est vitiosum: sive causetur ex
+            <lb ed="#L" n="67"/>defectu amoris, sive causetur ex elatione animi,
+            <lb ed="#L" n="68"/>sive causetur ex stoliditate; quae tamen excusat
+            <lb ed="#L" n="69"/>a peccato si sit invincibilis.
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e310">
+            <lb ed="#L" n="70"/>AD PRIMUM ERGO DICENDUM quod iustus 
+            com<lb break="no" ed="#L" n="71"/>mendatur a timore retrahente  eum a bono:
+            <lb ed="#L" n="72"/>non quod sit absque omni timore. Dicitur enim
+            <lb ed="#L" n="73"/>Eccli. 1: Qui sine timore est, non poterit iustificari.
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e321">
+            <lb ed="#L" n="74"/>AD SECUNDUM DICENDUM quod mors, vel 
+            quid<lb break="no" ed="#L" n="75"/>quid aliud ab homine mortali potest inferri, non
+            <lb ed="#L" n="76"/>est ea ratione timendum ut a iustitia recedatur.
+            <lb ed="#L" n="77"/>Est tamen timendum inquantum per hoc homo
+            <lb ed="#L" n="78"/>potest impediri ab operibus virtuosis, vel 
+            quan<lb break="no" ed="#L" n="79"/>tum ad se, vel quantum ad profectum quem 
+            <lb ed="#L" n="80"/>in aliis facit. Unde dicitur Prov. xiv : Sapiens
+            <lb ed="#L" n="81"/>timet, et declinat a malo.
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e342">
+            <lb ed="#L" n="82"/>AD TERTIUM DICENDUM quod bona temporalia
+            <lb ed="#L" n="83"/>debent contemni quantum? nos impediunt ab
+            <lb ed="#L" n="84"/>amore et timore Dei. Et secundum hoc etiam
+            <lb ed="#L" n="85"/>non debent timeri: unde dicitur Ecc/i xxxiv :
+            <lb ed="#L" n="86"/>Qui timet Deum nihil trepidabit. Non autem 
+            de<lb break="no" ed="#L" n="87"/>bent contemni bona temporalia inquantum 
+            instru<lb break="no" ed="#L" n="88"/>mentaliter nos iuvant ad ea quae sunt divini 
+            amo<lb break="no" ed="#L" n="89"/>ris et timoris.
+          </p>
+        </div>
+        <!-- no commentary -->
+        <div xml:id="TAca84-d1e1923-Dd1e366"><!-- p2p2-q126a2 -->
+          <head xml:id="TAca84-d1e1923-Hd1e369">Articulus 2</head>
+          <head xml:id="TAca84-d1e1923-Hd1e371" type="question-title">Utrum esse impavidum opponatur fortitudini</head>
+          <p xml:id="TAca84-d1e1923-d1e374">
+            <pb ed="#L" n="48"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=48"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="2"/>UTRUM ESSE IMPAVIDUM OPPONATUR FORTITUDINI
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e385">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>esse impavidum non opponatur 
+            forti<lb break="no" ed="#L" n="5"/>tudini. De habitibus enim iudicamus 
+            <lb ed="#L" n="6"/>per actus. Sed nullus actus fortitudinis
+            <lb ed="#L" n="7"/>impeditur per hoc quod aliquis est impavidus: 
+            <lb ed="#L" n="8"/>remoto enim timore, aliquis et fortiter sustinet
+            <lb ed="#L" n="9"/>et audacter aggreditur. Ergo esse impavidum non
+            <lb ed="#L" n="10"/>opponitur fortitudini.
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e407">
+            <lb ed="#L" n="11"/>2. PRAETEREA, esse impavidum est vitiosum vel
+            <lb ed="#L" n="12"/>propter defectum debiti amoris, vel propter 
+            su<lb break="no" ed="#L" n="13"/>perbiam, vel propter stultitiam . Sed defectus 
+            de<lb break="no" ed="#L" n="14"/>biti amoris opponitur caritati; superbia autem 
+            hu<lb break="no" ed="#L" n="15"/>militati; stultitia autem prudentiae, sive 
+            sapien<lb break="no" ed="#L" n="16"/>tiae. Ergo vitium impaviditatis non opponitur
+            <lb ed="#L" n="17"/>fortitudini.
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e426">
+            <lb ed="#L" n="18"/>3. PRAETEREA, virtuti opponuntur vitia sicut
+            <lb ed="#L" n="19"/>extrema medio. Sed unum medium ex una parte
+            <lb ed="#L" n="20"/>non habet nisi unum extremum. Cum ergo 
+            for<lb break="no" ed="#L" n="21"/>titudini ex una parte opponatur timor, ex alia
+            <lb ed="#L" n="22"/>vero parte opponatur ei audacia, videtur quod
+            <lb ed="#L" n="23"/>impaviditas ei non opponatur.
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e442">
+            <lb ed="#L" n="24"/>SED CONTRA EST quod Philosophus, in III Efhic. ,
+            <lb ed="#L" n="25"/>ponit impaviditatem fortitudini oppositam.
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e449">
+            <lb ed="#L" n="26"/>RESPONDEO DICENDUM quod, sicut supra dictum
+            <lb ed="#L" n="27"/>est, fortitudo est circa timores et audacias. Omnis
+            <lb ed="#L" n="28"/>autem virtus moralis ponit modum rationis in
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="29"/>materia circa quam est. Unde ad fortitudinem
+            <lb ed="#L" n="30"/>pertinet timor moderatus secundum rationem: ut
+            <lb ed="#L" n="31"/>scilicet homo timeat quod oportet, et quando
+            <lb ed="#L" n="32"/>oportet, et similiter de aliis. Hic autem modus
+            <lb ed="#L" n="33"/>rationis corrumpi potest, sicut per excessum, ita
+            <lb ed="#L" n="34"/>et per defectum. Unde sicut timiditas opponitur
+            <lb ed="#L" n="35"/>fortitudini per excessum timoris, inquantum 
+            sci<lb break="no" ed="#L" n="36"/>licet homo timet quod non oportet , vel 
+            secun<lb break="no" ed="#L" n="37"/>dum quod non oportet; ita etiam impaviditas
+            <lb ed="#L" n="38"/>opponitur ei per defectum timoris, inquantum
+            <lb ed="#L" n="39"/>scilicet non timet aliquis quod oportet timere.
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e484">
+            <lb ed="#L" n="40"/>AD PRIMUM ERGO DICENDUM quod actus 
+            fortitu<lb break="no" ed="#L" n="41"/>dinis est timorem ? sustinere et aggredi non 
+            qua<lb break="no" ed="#L" n="42"/>litercrumque, sed secundum rationem. Quod non
+            <lb ed="#L" n="43"/>facit impavidus.
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e495">
+            <lb ed="#L" n="44"/>AD SECUNDUM DICENDUM quod impaviditas ex
+            <lb ed="#L" n="45"/>sua specie corrumpit medium fortitudinis: et ideo
+            <lb ed="#L" n="46"/>directe fortitudini opponitur. Sed secundum suas
+            <lb ed="#L" n="47"/>causas, nihil prohibet quin opponatur aliis 
+            virtu<lb break="no" ed="#L" n="48"/>tibus.
+          </p>
+          <p xml:id="TAca84-d1e1923-d1e508">
+            <lb ed="#L" n="49"/>AD TERTIUM DICENDUM quod vitium audaciae
+            <lb ed="#L" n="50"/>opponitur fortitudini secundum excessum 
+            auda<lb break="no" ed="#L" n="51"/>ciae : impaviditas autem secundum defectum 
+            ti<lb break="no" ed="#L" n="52"/>moris. Fortitudo autem in utraque passione 
+            me<lb break="no" ed="#L" n="53"/>dium ponit. Unde non est inconveniens quod 
+            se<lb break="no" ed="#L" n="54"/>cundum diversa habeat diversa extrema.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

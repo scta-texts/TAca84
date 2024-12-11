@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 141</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 141</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="122"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2000"><!-- p2p2-q141 -->
+        <head xml:id="TAca84-d1e2000-Hd1e101">Quaestio 141</head>
+        <head xml:id="TAca84-d1e2000-Hd1e103" type="question-title">De temperantia</head>
+        <p xml:id="TAca84-d1e2000-d1e106">
+          <pb ed="#L" n="122"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=122"/>QUAESTIO CENTESIMAQUADRAGESIMAPRIMA
+          <lb ed="#L" n="2"/>DE TEMPERANTIA
+          <lb ed="#L" n="3"/>IN OCTO ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2000-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>Quis considerandum est de 
+          tem<lb break="no" ed="#L" n="5"/>perantia . Et primo quidem, de ipsa 
+          tem<lb break="no" ed="#L" n="6"/>perantia; secundo, de partibus eius ; tertio, de
+          <lb ed="#L" n="7"/>praeceptis ipsius .
+        </p>
+        <p xml:id="TAca84-d1e2000-d1e132">
+          <lb ed="#L" n="8"/>Circa temperantiam autem, primo considerare
+          <lb ed="#L" n="9"/>oportet de ipsa temperantia; secundo, de vitiis
+          <lb ed="#L" n="10"/>oppositis .
+        </p>
+        <p xml:id="TAca84-d1e2000-d1e142">
+          <lb ed="#L" n="11"/>Circa primum quaeruntur octo.
+          <lb ed="#L" n="12"/>Primo: utrum temperantia sit virtus.
+          <lb ed="#L" n="13"/>Secundo: utrum sit virtus specialis.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="14"/>Tertio: utrum sit solum circa concupiscentias
+          <lb ed="#L" n="15"/>et delectationes.
+          <lb ed="#L" n="16"/>Quarto: utrum sit solum circa delectationes
+          <lb ed="#L" n="17"/>tactus.
+          <lb ed="#L" n="18"/>Quinto: utrum sit circa delectationes gustus
+          <lb ed="#L" n="19"/>inquantum est gustus, vel solum inquantum
+          <lb ed="#L" n="20"/>est tactus quidam.
+          <lb ed="#L" n="21"/>Sexto: quae sit regula temperantiae.
+          <lb ed="#L" n="22"/>Septimo: utrum sit virtus cardinalis seu 
+          prin<lb break="no" ed="#L" n="23"/>cipalis.
+          <lb ed="#L" n="24"/>Octavo: utrum sit potissima virtutum.
+        </p>
+        <div xml:id="TAca84-d1e2000-Dd1e177"><!-- p2p2-q141a1 -->
+          <head xml:id="TAca84-d1e2000-Hd1e180">Articulus 1</head>
+          <head xml:id="TAca84-d1e2000-Hd1e182" type="question-title">Utrum temperantia sit virtus</head>
+          <p xml:id="TAca84-d1e2000-d1e185">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="25" type="fixed=122"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="26"/>UTRUM TEMPERANTIA SIT VIRTUS
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e194">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="27"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="28"/>temperantia non sit virtus. Nulla enim
+            <lb ed="#L" n="29"/>virtus repugnat inclinationi naturae: eo
+            <lb ed="#L" n="30"/>quod in nobis est naturalis aptitudo ad
+            <lb ed="#L" n="31"/>virtutem , ut dicitur in II Ethic.  Sed 
+            temperan<lb break="no" ed="#L" n="32"/>tia retrahit a delectationibus, ad quas natura 
+            in<lb break="no" ed="#L" n="33"/>clinat, ut dicitur in II Ethic.  Ergo temperantia
+            <lb ed="#L" n="34"/>non est virtus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e216">
+            <lb ed="#L" n="35"/>2. PRAETEREA, virtutes sunt connexae ad 
+            invi<lb break="no" ed="#L" n="36"/>cem, ut supra  habitum est. Sed aliqui habent
+            <lb ed="#L" n="37"/>temperantiam qui non habent alias virtutes: multi
+            <lb ed="#L" n="38"/>enim inveniuntur temperati qui tamen sunt avari
+            <lb ed="#L" n="39"/>vel timidi. Ergo temperantia non est virtus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e230">
+            <lb ed="#L" n="40"/>3. PRAETEREA, cuilibet virtuti respondet aliquod
+            <lb ed="#L" n="41"/>donum, ut ex supra  dictis patet. Sed 
+            tempe<lb break="no" ed="#L" n="42"/>rantiae non videtur aliquod donum respondere:
+            <lb ed="#L" n="43"/>quia iam in superioribus  dona omnia sunt aliis
+            <lb ed="#L" n="44"/>virtutibus attributa. Ergo temperantia non est
+            <lb ed="#L" n="45"/>virtus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e246">
+            <lb ed="#L" n="46"/>SEp coNTRA EsT quod Augustinus dicit, in VI
+            <lb ed="#L" n="47"/>Musicae : Ea est virtus quae temperantia 
+            no<lb break="no" ed="#L" n="48"/>minatur.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e255">
+            <lb ed="#L" n="49"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="50"/>est, de ratione virtutis est ut inclinet hominem
+            <lb ed="#L" n="51"/>ad bonum. Bonum autem hominis est secundum
+            <lb ed="#L" n="52"/>ralionem esse: ut Dionysius dicit, iv cap. de Div.
+            <lb ed="#L" n="53"/>Nom.  Et ideo virtus humana est quae inclinat
+            <lb ed="#L" n="54"/>ad id quod est secundum rationem. Manifeste ?
+            <lb ed="#L" n="55"/>autem ad hoc inclinat temperantia: nam in ipso '
+            <lb ed="#L" n="56"/>eius nomine importatur quaedam moderatio seu
+            <lb ed="#L" n="57"/>temperies, quam ratio facit. Et ideo temperantia
+            <lb ed="#L" n="58"/>est virtus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e279">
+            <lb ed="#L" n="59"/>AD PRIMUM ERGO DICENDUM quod natura 
+            incli<lb break="no" ed="#L" n="60"/>nat in id quod est conveniens unicuique. Unde
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="61"/>homo naturaliter appetit delectationem sibi 
+            con<lb break="no" ed="#L" n="62"/>venientem. Quia vero ? homo, inquantum 
+            huius<lb break="no" ed="#L" n="63"/>modi, est rationalis, consequens est quod 
+            dele<lb break="no" ed="#L" n="64"/>ctationes sunt homini convenientes quae sunt
+            <lb ed="#L" n="65"/>secundum rationem. Et ab his non retrahit 
+            tem<lb break="no" ed="#L" n="66"/>perantia: sed potius ab his quae sunt contra 
+            ra<lb break="no" ed="#L" n="67"/>tionem. Unde patet quod temperantia non 
+            con<lb break="no" ed="#L" n="68"/>trariatur inclinationi naturae humanae, sed 
+            con<lb break="no" ed="#L" n="69"/>venit cum ea. Contrariatur tamen inclinationi 
+            na<lb break="no" ed="#L" n="70"/>turae bestialis non subiectae rationi.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e310">
+            <lb ed="#L" n="71"/>AD SECUNDUM DICENDUM quod temperantia, 
+            se<lb break="no" ed="#L" n="72"/>cundum quod perfecte habet rationem virtutis,
+            <lb ed="#L" n="73"/>non est sine prudentia, qua carent quicumque 
+            vi<lb break="no" ed="#L" n="74"/>tiosi. Et ideo illi qui carent aliis virtutibus, 
+            oppo<lb break="no" ed="#L" n="75"/>sitis vitiis subditi, non habent temperantiam quae
+            <lb ed="#L" n="76"/>est virtus: sed operantur actus temperantiae ex
+            <lb ed="#L" n="77"/>quadam naturali dispositione, prout virtutes 
+            quae<lb break="no" ed="#L" n="78"/>dam imperfectae sunt hominibus naturales, ut
+            <lb ed="#L" n="79"/>supra  dictum est; vel per consuetudinem 
+            ac<lb break="no" ed="#L" n="80"/>quisita , quae sine prudentia non habet 
+            perfe<lb break="no" ed="#L" n="81"/>ctionem rationis, ut supra  dictum est.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e336">
+            <lb ed="#L" n="82"/>AD TERTIUM DICENDUM quod temperantiae etiam
+            <lb ed="#L" n="83"/>respondet aliquod donum, scilicet timoris , quo
+            <lb ed="#L" n="84"/>aliquis refrenatur a delectationibus carnis: 
+            secun<lb break="no" ed="#L" n="85"/>dum illud Psalmi : Confige timore tuo carnes
+            <lb ed="#L" n="86"/>meas. Donum autem timoris principaliter quidem
+            <lb ed="#L" n="87"/>respicit Deum, cuius offensam vitat: et 
+            secun<lb break="no" ed="#L" n="88"/>dum hoc correspondet virtuti spei, ut supra  
+            di<lb break="no" ed="#L" n="89"/>ctum est. Secundario autem potest respicere 
+            quae<lb break="no" ed="#L" n="90"/>cumque aliquis refugit ad vitandam Dei offensam.
+            <lb ed="#L" n="91"/>Maxime autem homo indiget timore divino ad
+            <lb ed="#L" n="92"/>fugiendum ea quae maxime alliciunt, circa quae
+            <lb ed="#L" n="93"/>est temperantia. Et ideo temperantiae etiam 
+            re<lb break="no" ed="#L" n="94"/>spondet donum timoris.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2000-Dd1e368"><!-- p2p2-q141a2 -->
+          <head xml:id="TAca84-d1e2000-Hd1e371">Articulus 2</head>
+          <head xml:id="TAca84-d1e2000-Hd1e373" type="question-title">Utrum temperantia sit specialis virtus</head>
+          <p xml:id="TAca84-d1e2000-d1e376">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="33" type="fixed=123"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="34"/>UTRUM TEMPERANTIA SIT SPECIALIS VIRTUS
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e385">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="35"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="36"/>temperantia non sit specialis virtus. Dicit 
+            <lb ed="#L" n="37"/>enim augustinus, in libro de Moribus
+            <lb ed="#L" n="38"/>Eccle., quod ad temperantiam pertinet
+            <lb ed="#L" n="39"/>Deo sese integrum incorruptumque servare. Sed
+            <lb ed="#L" n="40"/>hoc convenit omni virtuti. Ergo temperantia est
+            <lb ed="#L" n="41"/>virtus generalis.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e405">
+            <lb ed="#L" n="42"/>2. PRAETEREA, Ambrosius dicit, in I de Offic. ,
+            <lb ed="#L" n="43"/>quod in temperantia maxime tranquillitas animi
+            <lb ed="#L" n="44"/>spectatur et quaeritur. Sed hoc pertinet ad omnem
+            <lb ed="#L" n="45"/>virtutem. Ergo temperantia est generalis virtus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e417">
+            <lb ed="#L" n="46"/>3. PRAETEREA, Tullius dicit, in I de Offic. 
+            <lb ed="#L" n="47"/>quod decorum ab honesto nequit separari, et quod
+            <lb ed="#L" n="48"/>iusta omnia decora sunt. Sed decorum proprie
+            <lb ed="#L" n="49"/>consideratur in temperantia, ut ibidem dicitur.
+            <lb ed="#L" n="50"/>Ergo temperantia non est specialis virtus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e430">
+            <lb ed="#L" n="51"/>SED coNTRA EsT quod Philosophus, in II  et
+            <lb ed="#L" n="52"/>III  Ethic. ponit eam specialem virtutem.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e437">
+            <lb ed="#L" n="53"/>RESPONDEO DICENDUM quod, secundum 
+            consue<lb break="no" ed="#L" n="54"/>tudinem humanae locutionis, aliqua nomina 
+            com<lb break="no" ed="#L" n="55"/>munia restringuntur ad ea quae sunt praecipua
+            <lb ed="#L" n="56"/>inter illa quae sub tali communitate continentur:
+            <lb ed="#L" n="57"/>sicut nomen Urbis accipitur antonomastice pro
+            <lb ed="#L" n="58"/>Roma. Sic igitur nomen temperantiae dupliciter
+            <lb ed="#L" n="59"/>accipi potest. Uno modo, secundum 
+            communi<lb break="no" ed="#L" n="60"/>tatem. suae significationis. Et  sic temperantia
+            <lb ed="#L" n="61"/>non est virtus specialis, sed generalis: quia 
+            no<lb break="no" ed="#L" n="62"/>men temperantiae significat quandam femperiem,
+            <lb ed="#L" n="63"/>idest moderationem, quam ratio ponit in humanis
+            <lb ed="#L" n="64"/>operationibus et passionibus; quod est commune
+            <lb ed="#L" n="65"/>in omni virtute morali. - Differt tamen ratione
+            <lb ed="#L" n="66"/>temperantia non sit specialis virtus. Dicit
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="67"/>sustinenda vel aggredienda propter quae homo
+            <lb ed="#L" n="68"/>refugit bonum rationis.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e476">
+            <lb ed="#L" n="69"/>Si vero consideretur antonomastice 
+            temperan<lb break="no" ed="#L" n="70"/>tia, secundum quod refrenat appetitum ab his
+            <lb ed="#L" n="71"/>quae maxime alliciunt hominem, sic est specialis
+            <lb ed="#L" n="72"/>virtus, utpote habens iscwG materiam: sicut
+            <lb ed="#L" n="73"/>et fortitudo.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e489">
+            <lb ed="#L" n="74"/>AD PRIMUM ERGO DICENDUM quod appetitus 
+            ho<lb break="no" ed="#L" n="75"/>minis maxime corrumpitur per ea quibus allicitur
+            <lb ed="#L" n="76"/>homo ad recedendum a regula rationis et legis
+            <lb ed="#L" n="77"/>divinae. Et ideo, sicut ipsum temperantiae nomen
+            <lb ed="#L" n="78"/>dupliciter potest sumi, uno modo communiter,
+            <lb ed="#L" n="79"/>alio modo excellenter; ita et integritas, quam 
+            tem<lb break="no" ed="#L" n="80"/>perantiae Augustinus attribuit.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e507">
+            <lb ed="#L" n="81"/>AD SECUNDUM DICENDUM quod ea circa quae est
+            <lb ed="#L" n="82"/>temperantia maxime possunt animum inquietare,
+            <lb ed="#L" n="83"/>propter hoc quod sunt homini essentialia, ut 
+            in<lb break="no" ed="#L" n="84"/>fra  dicetur. Et ideo tranquillitas animi per 
+            quan<lb break="no" ed="#L" n="85"/>dam excellentiam attribuitur temperantiae, 
+            quam<lb break="no" ed="#L" n="86"/>vis communiter conveniat omnibus virtutibus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e524">
+            <lb ed="#L" n="87"/>AD TERTIUM DICENDUM quod quamvis pulchritudo
+            <lb ed="#L" n="88"/>conveniat cuilibet virtuti, excellenter tamen 
+            attri<lb break="no" ed="#L" n="89"/>temperantia a fortitudine etiam. secundum quod 
+            <lb ed="#L" n="90"/>attribuitur temperantiae, quae praecipue 
+            turpitu<lb break="no" ed="#L" n="91"/>utraque sumitur ut virtus communis. Nam 
+            tem<lb break="no" ed="#L" n="92"/>perantia retrahit ab his quae contra rationem 
+            ap<lb break="no" ed="#L" n="93"/>petitum alliciunt: fortitudo autem impellit ad ea
+            <lb ed="#L" n="94"/>buitur temperantiae, duplici ratione. Primo 
+            qui<lb break="no" ed="#L" n="95"/>dem, secundum communem rationem 
+            temperan<lb break="no" ed="#L" n="96"/>tiae, ad quam pertinet quaedam moderata et 
+            con<lb break="no" ed="#L" n="97"/>veniens proportio, in qua consistit ratio 
+            pulchri<lb break="no" ed="#L" n="98"/>tudinis, ut patet per Dionysium, 1v cap. de Dir.
+            <lb ed="#L" n="99"/>Nom. - Alio modo, quia ea a quibus refrenat
+            <lb ed="#L" n="100"/>temperantia sunt infima in homine, convenientia
+            <lb ed="#L" n="101"/>sibi secundum naturam bestialem, ut infra  
+            di<lb break="no" ed="#L" n="102"/>cetur: et ideo ex eis maxime natus est homo
+            <lb ed="#L" n="103"/>deturpari. Et per consequens pulchritudo maxime
+            <lb ed="#L" n="104"/>attribuitur temperantiae, quae praecipue 
+            turpitu<lb break="no" ed="#L" n="105"/>dinem hominis tollit.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e568">
+            <lb ed="#L" n="106"/>Et ex eadem etiam ratione honestum maxime
+            <pb ed="#L" n="124"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>attribuitur temperantiae. Dicit enim Isidorus, in 
+            <lb ed="#L" n="2"/>libro Etymol. : Honestus dicitur quod nihil 
+            ha<lb break="no" ed="#L" n="3"/>d beat 9. turpitudinis: nam honestas dicitur quasi  
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="4"/>honoris status: qui maxime consideratur in 
+            tem<lb break="no" ed="#L" n="5"/>perantia, quae repellit vitia maxime opprobriosa,
+            <lb ed="#L" n="6"/>ut infra  dicetur.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2000-Dd1e593"><!-- p2p2-q141a3 -->
+          <head xml:id="TAca84-d1e2000-Hd1e596">Articulus 3</head>
+          <head xml:id="TAca84-d1e2000-Hd1e598" type="question-title">Utrum temperantia sit solum circa concupiscentias et delectationes</head>
+          <p xml:id="TAca84-d1e2000-d1e601">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="54" type="fixed=124"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="55"/>UTRUM TEMPERANTIA SIT SOLUM CIRCA CONCUPISCENTIAS ET DELECTATIONES
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e610">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="56"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="57"/>temperantia non sit solum circa 
+            con<lb break="no" ed="#L" n="58"/>cupiscentias et delectationes. Dicit enim 
+            <lb ed="#L" n="59"/>Tullius, in sua Rhetorica, quod 
+            tem<lb break="no" ed="#L" n="60"/>perantia est rationis in libidinem atque in alios -
+            <lb ed="#L" n="61"/>non rectos impetus animi firma et moderata 
+            do<lb break="no" ed="#L" n="62"/>minatio. Sed impetus animi dicuntur omnes 
+            ani<lb break="no" ed="#L" n="63"/>mae passiones. Ergo videtur quod temperantia
+            <lb ed="#L" n="64"/>non sit solum circa concupiscentias et 
+            delecta<lb break="no" ed="#L" n="65"/>tiones.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e636">
+            <lb ed="#L" n="66"/>2. PRAETEREA, virtus est circa difficile et 
+            bo<lb break="no" ed="#L" n="67"/>num . Sed difficilius videtur esse temperare 
+            ti<lb break="no" ed="#L" n="68"/>morem, maxime circa pericula mortis, quam 
+            mo<lb break="no" ed="#L" n="69"/>derari concupiscentias et delectationes, quae 
+            pro<lb break="no" ed="#L" n="70"/>pter dolores et pericula mortis contemnuntur, ut
+            <lb ed="#L" n="71"/>Augustinus dicit, in libro Octogintatrium Quaest. "
+            <lb ed="#L" n="72"/>Ergo videtur quod virtus temperantiae non sit
+            <lb ed="#L" n="73"/>praecipue circa concupiscentias et delectationes.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e657">
+            <lb ed="#L" n="74"/>3. PRAETEREA, ad temperantiam pertinet 
+            consi<lb break="no" ed="#L" n="75"/>derationis gratia, ut Ambrosius dicit, in I de 
+            Of<lb break="no" ed="#L" n="76"/>fic.  Et Tullius dicit, in I de Offic. , quod ad
+            <lb ed="#L" n="77"/>temperantiam pertinet omnis sedatio 
+            perturbatio<lb break="no" ed="#L" n="78"/>num animi, et rerum modus. Oportet autem 
+            mo<lb break="no" ed="#L" n="79"/>dum ponere non solum in concupiscentiis et 
+            de<lb break="no" ed="#L" n="80"/>lectationibus, sed etiam in exterioribus actibus
+            <lb ed="#L" n="81"/>et quibuslibet exterioribus. Ergo temperantia
+            <lb ed="#L" n="82"/>non est solum circa concupiscentias et 
+            delecta<lb break="no" ed="#L" n="83"/>tiones.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e681">
+            <lb ed="#L" n="84"/>SEp coNTRA EsT quod Isidorus dicit, in libro
+            <lb ed="#L" n="85"/>Etymol. , quod temperantia est qua /ibido 
+            con<lb break="no" ed="#L" n="86"/>cupiscentiaque refrenatur.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e690">
+            <lb ed="#L" n="87"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="88"/>est, ad virtutem moralem pertinet conservatio
+            <lb ed="#L" n="89"/>boni rationis contra passiones rationi 
+            repugnan<lb break="no" ed="#L" n="90"/>tes. Motus autem passionum animae est duplex,
+            <lb ed="#L" n="91"/>ut supra  dictum est, cum de passionibus 
+            age<lb break="no" ed="#L" n="92"/>retur: unus quidem secundum quod appetitus
+            <lb ed="#L" n="93"/>sensitivus prosequitur sensibilia et corporalia bona;
+            <lb ed="#L" n="94"/>alius autem secundum quod refugit sensibilia et
+            <lb ed="#L" n="95"/>corporalia mala. Primus autem motus appetitus
+            <lb ed="#L" n="96"/>sensitivi praecipue repugnat rationi per 
+            immode<lb break="no" ed="#L" n="97"/>rantiam. Nam bona sensibilia et corporalia, 
+            se<lb break="no" ed="#L" n="98"/>cundum suam speciem considerata, non 
+            repu<lb break="no" ed="#L" n="99"/>gnant rationi, sed magis serviunt ei, sicut 
+            instru<lb break="no" ed="#L" n="100"/>menta quibus ratio utitur ad consecutionem proprii
+            <lb ed="#L" n="101"/>finis. Repugnant autem ei praecipue secundum
+            <lb ed="#L" n="102"/>quod appetitus sensitivus in ea tendit non 
+            secun<lb break="no" ed="#L" n="103"/>dum modum rationis. Et ideo ad virtutem 
+            mo<lb break="no" ed="#L" n="104"/>ralem proprie pertinet moderari huiusmodi 
+            pas<lb break="no" ed="#L" n="105"/>siones quae important prosecutionem boni. -
+            <lb ed="#L" n="106"/>Motus autem appetitus sensitivi refugientis mala
+            <lb ed="#L" n="107"/>sensibilia, praecipue contrariatur rationi non 
+            qui<lb break="no" ed="#L" n="108"/>dem secundum suam immoderantiam , sed 
+            ma<lb break="no" ed="#L" n="109"/>xime secundum suum effectum: prout scilicet
+            <lb ed="#L" n="110"/>aliquis, refugiendo mala sensibilia et corporalia,
+            <lb ed="#L" n="111"/>quae interdum concomitantur bonum rationis, per
+            <pb ed="#L" n="125"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>consequens discedit ab ipso bono rationis. Et 
+            <lb ed="#L" n="2"/>ideo ad virtutem moralem pertinet in huiusmodi 
+            <lb ed="#L" n="3"/>firmitatem praestare in bono rationis.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e758">
+            <lb ed="#L" n="4"/>Sicut ergo virtus fortitudinis, de cuius ratione 
+            <lb ed="#L" n="5"/>est firmitatem praestare, praecipue consistit circa 
+            <lb ed="#L" n="6"/>passionem pertinentem ad fugam corporalium
+            <lb ed="#L" n="7"/>malorum, scilicet circa timorem; ex consequenti 
+            <lb ed="#L" n="8"/>autem circa audaciam , quae aggreditur 
+            terri<lb break="no" ed="#L" n="9"/>bilia sub spe alicuius boni: ita etiam 
+            temperan<lb break="no" ed="#L" n="10"/>tia, quae ^ importat moderationem quandam, 
+            prae<lb break="no" ed="#L" n="11"/>cipue consistit circa passiones tendentes in bona
+            <lb ed="#L" n="12"/>sensibilia, scilicet circa concupiscentiam et. 
+            dele<lb break="no" ed="#L" n="13"/>ctationem ; consequenter autem circa tristitias quae
+            <lb ed="#L" n="14"/>contingunt ex absentia talium delectationum. Nam
+            <lb ed="#L" n="15"/>sicut audacia praesupponit terribilia, ita etiam
+            <lb ed="#L" n="16"/>tristitia talis provenit ex absentia praedictarum -
+            <lb ed="#L" n="17"/>delectationum.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e791">
+            <lb ed="#L" n="18"/>AD PRIMUM ERGO DICENDUM quod, sicut supra  
+            <lb ed="#L" n="19"/>dictum est, cum de passionibus ageretur, 
+            passio<lb break="no" ed="#L" n="20"/>nes quae pertinent ad fugam mali praesupponunt 
+            <lb ed="#L" n="21"/>passiones quae pertinent ad prosecutionem boni,
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="22"/>et passiones irascibilis praesupponunt passiones
+            <lb ed="#L" n="23"/>concupiscibilis. Et sic, dum temperantia directe
+            <lb ed="#L" n="24"/>modificat passiones concupiscibilis tendentes in
+            <lb ed="#L" n="25"/>bonum, per quandam consequentiam modificat
+            <lb ed="#L" n="26"/>omnes alias passiones, inquantum ad 
+            moderan<lb break="no" ed="#L" n="27"/>tiam priorum sequitur moderantia posteriorum.
+            <lb ed="#L" n="28"/>Qui enim non immoderate concupiscit, consequens
+            <lb ed="#L" n="29"/>est ut moderate speret, et moderate de absentia
+            <lb ed="#L" n="30"/>concupiscibilium tristetur.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e824">
+            <lb ed="#L" n="31"/>AD SECUNDUM DICENDUM quod concupiscentia 
+            im<lb break="no" ed="#L" n="32"/>portat impetum quendam appetitus in delectabile, '
+            <lb ed="#L" n="33"/>qui indiget refrenatione, quod pertinet ad tem-.
+            <lb ed="#L" n="34"/>perantiam. Sed timor importat retractionem 
+            quan<lb break="no" ed="#L" n="35"/>dam animi ab aliquibus malis: contra quod 
+            in<lb break="no" ed="#L" n="36"/>diget homo animi firmitate, quam praestat 
+            for<lb break="no" ed="#L" n="37"/>titudo. Et ideo temperantia proprie est circa 
+            con<lb break="no" ed="#L" n="38"/>cupiscentias, fortitudo circa timores.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e845">
+            <lb ed="#L" n="39"/>AD TERTIUM DICENDUM quod exteriores actus
+            <lb ed="#L" n="40"/>procedunt ab interioribus animae passionibus. Et
+            <lb ed="#L" n="41"/>ideo moderatio eorum dependet a moderatione
+            <lb ed="#L" n="42"/>interiorum passionum.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2000-Dd1e857"><!-- p2p2-q141a4 -->
+          <head xml:id="TAca84-d1e2000-Hd1e860">Articulus 4</head>
+          <head xml:id="TAca84-d1e2000-Hd1e862" type="question-title">Utrum temperantia solum sit circa concupiscentias et delectationes tactus</head>
+          <p xml:id="TAca84-d1e2000-d1e865">
+            <pb ed="#L" n="126"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=126"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="2"/>UTRUM TEMPERANTIA SOLUM SIT CIRCA CONCUPISCENTIAS ET DELECTATIONES TACTUS
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e876">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>temperantia non solum sit circa 
+            concu<lb break="no" ed="#L" n="5"/>piscentias et delectationes tactus. Dicit
+            <lb ed="#L" n="6"/>enim Augustinus, in libro de Moribus
+            <lb ed="#L" n="7"/>Eccle. , quod munus  temperantiae est in 
+            coer<lb break="no" ed="#L" n="8"/>cendis sedandisque cupiditatibus, quibus inhiamus
+            <lb ed="#L" n="9"/>in ea quae nos avertunt a legibus Dei et a 
+            fru<lb break="no" ed="#L" n="10"/>ctu bonitatis eius. Et post pauca subdit quod 
+            of<lb break="no" ed="#L" n="11"/>ficium temperantiae est contemnere omnes 
+            corpo<lb break="no" ed="#L" n="12"/>reas illecebras, laudemque popularem. Sed non
+            <lb ed="#L" n="13"/>solum cupiditates delectationum tactus avertunt
+            <lb ed="#L" n="14"/>nos a legibus Dei, sed etiam concupiscentiae 
+            de<lb break="no" ed="#L" n="15"/>lectationum aliorum sensuum, quae etiam 
+            perti<lb break="no" ed="#L" n="16"/>nent ad illecebras corporales: et similiter 
+            cupi<lb break="no" ed="#L" n="17"/>ditates divitiarum, vel etiam mundanae gloriae,
+            <lb ed="#L" n="18"/>unde dicitur, 1 ad 7m. ult. , quod radix omnium
+            <lb ed="#L" n="19"/>malorum est cupiditas. Ergo temperantia non est
+            <lb ed="#L" n="20"/>solum circa concupiscentias delectationum tactus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e920">
+            <lb ed="#L" n="21"/>2. PRAETEREA, Philosophus dicit, in IV Ethic. ,
+            <lb ed="#L" n="22"/>quod ille qui est parvis dignus et his dignificat
+            <lb ed="#L" n="23"/>seipsum, est temperatus, non autem magnanimus.
+            <lb ed="#L" n="24"/>Sed honores parvi vel magni, de quibus ibi 
+            lo<lb break="no" ed="#L" n="25"/>quitur, non sunt delectabiles secundum tactum,
+            <lb ed="#L" n="26"/>sed secundum apprehensionem animalem. Ergo
+            <lb ed="#L" n="27"/>temperantia non est solum circa concupiscentias
+            <lb ed="#L" n="28"/>delectationum tactus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e941">
+            <lb ed="#L" n="29"/>3. PRAETEREA, ea quae sunt unius generis, 
+            vi<lb break="no" ed="#L" n="30"/>dentur eadem ratione pertinere ad materiam 
+            ali<lb break="no" ed="#L" n="31"/>cuius virtutis. Sed omnes delectationes sensuum
+            <lb ed="#L" n="32"/>videntur esse unius generis. Ergo pari ratione
+            <lb ed="#L" n="33"/>pertinent ad materiam temperantiae.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e954">
+            <lb ed="#L" n="34"/>4. PRAETEREA, delectationes spirituales sunt 
+            ma<lb break="no" ed="#L" n="35"/>iores quam corporales: ut supra  habitum est,
+            <lb ed="#L" n="36"/>cum de passionibus ageretur. Sed quandoque
+            <lb ed="#L" n="37"/>propter concupiscentias delectationum  
+            spiritua<lb break="no" ed="#L" n="38"/>lium. aliqui discedunt a legibus Dei et a statu
+            <lb ed="#L" n="39"/>virtutis: sicut propter curiositatem scientiae. Unde
+            <lb ed="#L" n="40"/>et primo homini diabolus scientiam promisit ,
+            <lb ed="#L" n="41"/>Gen. II , dicens: Eritis sicut dii, scientes bonum
+            <lb ed="#L" n="42"/>et malum. Ergo non solum est temperantia circa
+            <lb ed="#L" n="43"/>delectationes tactus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e978">
+            <lb ed="#L" n="44"/>5. PRAETEREA, si delectationes tactus essent 
+            pro<lb break="no" ed="#L" n="45"/>pria materia temperantiae, oporteret quod circa
+            <lb ed="#L" n="46"/>omnes delectationes tactus temperantia esset. Non
+            <lb ed="#L" n="47"/>autem est circa omnes: puta circa eas quae sunt 
+            <lb ed="#L" n="48"/>in ludis. Ergo delectationes tactus non sunt 
+            pro<lb break="no" ed="#L" n="49"/>pria materia temperantiae.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e994">
+            <lb ed="#L" n="50"/>SED CONTRA EST quod Philosophus dicit, in III
+            <lb ed="#L" n="51"/>Ethic. quod temperantia proprie est circa 
+            con<lb break="no" ed="#L" n="52"/>cupiscentias et delectationes tactus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1003">
+            <lb ed="#L" n="53"/>RESPONDEO DICENDUM quod, sicut dictum. est ,
+            <lb ed="#L" n="54"/>ita est temperantia circa. concupiscentias et 
+            dele<lb break="no" ed="#L" n="55"/>ctationes sicut fortitudo circa timores et audacias.
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="56"/>Fortitudo autem est circa timores et audacias
+            <lb ed="#L" n="57"/>respectu maximorum malorum, quibus ipsa 
+            na<lb break="no" ed="#L" n="58"/>tura extinguitur, quae sunt pericula mortis. Unde
+            <lb ed="#L" n="59"/>similiter temperantia oportet quod sit circa 
+            con<lb break="no" ed="#L" n="60"/>cupiscentias maximarum delectationum. Et quia
+            <lb ed="#L" n="61"/>delectatio consequitur operationem 
+            connatura<lb break="no" ed="#L" n="62"/>lem 7, tanto aliquae delectationes sunt 
+            vehemen<lb break="no" ed="#L" n="63"/>tiores quanto consequuntur operationes magis
+            <lb ed="#L" n="64"/>naturales. Maxime autem naturales animalibus
+            <lb ed="#L" n="65"/>sunt operationes quibus conservatur natura 
+            indi<lb break="no" ed="#L" n="66"/>vidui per cibum et potum, et natura speciei per
+            <lb ed="#L" n="67"/>coniunctionem maris et feminae. Et ideo. circa
+            <lb ed="#L" n="68"/>delectationes ciborum et potuum, et circa 
+            dele<lb break="no" ed="#L" n="69"/>ctationes  venereorum, est proprie temperantia.
+            <lb ed="#L" n="70"/>Huiusmodi autem delectationes consequuntur 
+            sen<lb break="no" ed="#L" n="71"/>sum tactus. Unde relinquitur quod temperantia
+            <lb ed="#L" n="72"/>sit circa delectationes tactus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1051">
+            <lb ed="#L" n="73"/>AD PRIMUM ERGO DICENDUM quod Augustinus ibi
+            <lb ed="#L" n="74"/>videtur accipere temperantiam non secundum
+            <lb ed="#L" n="75"/>quod est specialis virtus habens determinatam
+            <lb ed="#L" n="76"/>materiam, sed secundum quod ad eam pertinet
+            <lb ed="#L" n="77"/>moderatio rationis in quacumque materia, quod
+            <lb ed="#L" n="78"/>pertinet ad generalem conditionem virtutis. —
+            <lb ed="#L" n="79"/>Quamvis etiam dici possit quod ille qui potest
+            <lb ed="#L" n="80"/>refrenare maximas delectationes, multo etiam 
+            ma<lb break="no" ed="#L" n="81"/>gis potest refrenare minores delectationes. Et ideo
+            <lb ed="#L" n="82"/>ad temperantiam principaliter quidem et. proprie
+            <lb ed="#L" n="83"/>pertinet moderari concupiscentias delectationum
+            <lb ed="#L" n="84"/>tactus: secundario autem, alias concupiscentias.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1081">
+            <lb ed="#L" n="85"/>AD SECUNDUM DICENDUM quod Philosophus ibi
+            <lb ed="#L" n="86"/>refert nomen temperantiae ad moderationem 
+            ex<lb break="no" ed="#L" n="87"/>teriorum rerum, dum scilicet aliquis tendit in 
+            ali<lb break="no" ed="#L" n="88"/>qua sibi commensurata: non autem prout refertur
+            <lb ed="#L" n="89"/>ad moderationem affectionum animae, quae 
+            per<lb break="no" ed="#L" n="90"/>tinet ad virtutem temperantiae.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1097">
+            <lb ed="#L" n="91"/>AD TERTIUM DICENDUM quod delectationes 
+            alio<lb break="no" ed="#L" n="92"/>rum sensuum aliter se habent in hominibus, et
+            <lb ed="#L" n="93"/>aliter in aliis animalibus. In aliis enim animalibus
+            <lb ed="#L" n="94"/>ex aliis sensibus non causantur delectationes nisi
+            <lb ed="#L" n="95"/>in ordine ad sensibilia tactus: sicut leo delectatur
+            <lb ed="#L" n="96"/>videns cervum vel audiens vocem eius, propter
+            <lb ed="#L" n="97"/>cibum . Homo autem delectatur secundum alios
+            <lb ed="#L" n="98"/>sensus non solum propter hoc, sed etiam propter
+            <lb ed="#L" n="99"/>convenientiam sensibilium. Et sic circa 
+            delecta<lb break="no" ed="#L" n="100"/>tiones aliorum sensuum, inquantum referuntur
+            <lb ed="#L" n="101"/>ad delectationes tactus, est temperantia, non 
+            prin<lb break="no" ed="#L" n="102"/>cipaliter, sed. ex consequenti. Inquantum autem ?
+            <lb ed="#L" n="103"/>sensibilia aliorum sensuum sunt delectabilia 
+            pro<lb break="no" ed="#L" n="104"/>pter sui convenientiam, sicut cum delectatur homo
+            <lb ed="#L" n="105"/>in sono bene harmonizato, ista delectatio non 
+            per<lb break="no" ed="#L" n="106"/>tinet ad conservationem naturae, Unde non 
+            ha<lb break="no" ed="#L" n="107"/>bent huiusmodi passiones illam principalitatem ut
+            <lb ed="#L" n="108"/>circa eas antonomastice temperantia dicatur.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1139">
+            <pb ed="#L" n="127"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>AD QUARTUM DICENDUM quod delectationes 
+            spi<lb break="no" ed="#L" n="2"/>rituales, etsi secundum suam naturam sint 
+            ma<lb break="no" ed="#L" n="3"/>iores delectationibus corporalibus, tamen non ita
+            <lb ed="#L" n="4"/>percipiuntur sensu. Et per consequens non ita
+            <lb ed="#L" n="5"/>vehementer afficiunt appetitum sensitivum, 
+            con<lb break="no" ed="#L" n="6"/>tra cuius impetum bonum rationis conservatur
+            <lb ed="#L" n="7"/>per moralem virtutem.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1161">
+            <lb ed="#L" n="8"/>Vel dicendum quod delectationes spirituales,
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="9"/>per se loquendo, sunt secundum rationem. Unde
+            <lb ed="#L" n="10"/>non sunt refrenandae, nisi per accidens: 
+            inquan<lb break="no" ed="#L" n="11"/>tum scilicet una delectatio spiritualis retrahit ab
+            <lb ed="#L" n="12"/>alia potiori et magis debita.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1177">
+            <lb ed="#L" n="13"/>AD QUINTUM DICENDUM quod non omnes 
+            dele<lb break="no" ed="#L" n="14"/>ctationes tactus pertinent ad naturae 
+            conservatio<lb break="no" ed="#L" n="15"/>nem. Et ideo non oportet quod circa omnes 
+            de<lb break="no" ed="#L" n="16"/>lectationes tactus sit temperantia.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2000-Dd1e1189"><!-- p2p2-q141a5 -->
+          <head xml:id="TAca84-d1e2000-Hd1e1192">Articulus 5</head>
+          <head xml:id="TAca84-d1e2000-Hd1e1194" type="question-title">Utrum circa proprias delectationes gustus sit temperantia</head>
+          <p xml:id="TAca84-d1e2000-d1e1197">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="78" type="fixed=128"/>ARTICULUS QUINTUS
+            <lb ed="#L" n="79"/>UTRUM CIRCA PROPRIAS DELECTATIONES GUSTUS SIT TEMPERANTIA
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1206">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="80"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="81"/>circa proprias delectationes gustus sit
+            <lb ed="#L" n="82"/>temperantia. Delectationes enim gustus
+            <lb ed="#L" n="83"/>sunt in cibis et potibus, qui sunt magis
+            <lb ed="#L" n="84"/>necessarii ad vitam hominis quam delectationes
+            <lb ed="#L" n="85"/>venereorum, quae pertinent ad tactum. Sed 
+            se<lb break="no" ed="#L" n="86"/>cundum praedicta , temperantia est circa 
+            dele<lb break="no" ed="#L" n="87"/>ctationes eorum quae sunt necessaria ad vitam
+            <lb ed="#L" n="88"/>hominis. Ergo temperantia est magis circa 
+            pro<lb break="no" ed="#L" n="89"/>prias delectationes gustus quam circa proprias
+            <lb ed="#L" n="90"/>delectationes tactus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1235">
+            <lb ed="#L" n="91"/>2. PRAETEREA, temperantia est circa passiones
+            <lb ed="#L" n="92"/>magis quam circa res ipsas. Sed sicut dicitur in
+            <lb ed="#L" n="93"/>II de Anima , tactus videtur esse sensus alimenti,
+            <lb ed="#L" n="94"/>quantum ad ipsam substantiam alimenti: sapor
+            <lb ed="#L" n="95"/>autem, qui est proprie obiectum gustus, est sicut
+            <lb ed="#L" n="96"/>delectamentum alimentorum. Ergo temperantia
+            <lb ed="#L" n="97"/>magis est circa gustum quam circa tactum.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1254">
+            <lb ed="#L" n="98"/>3. PRAETEREA, sicut dicitur in VII Efhic. , circa
+            <lb ed="#L" n="99"/>eadem sunt temperantia et intemperantia, 
+            conti<lb break="no" ed="#L" n="100"/>nentia et incontinentia, perseverantia et mollities,
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="101"/>ad quam pertinent deliciae. Sed ad delicias 
+            vi<lb break="no" ed="#L" n="102"/>detur pertinere delectatio quae est in saporibus,
+            <lb ed="#L" n="103"/>qui pertinent ad gustum. Ergo temperantia est
+            <lb ed="#L" n="104"/>circa delectationes proprias gustus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1274">
+            <lb ed="#L" n="105"/>SED CONTRA EsT quod Philosophus dicit  quod
+            <lb ed="#L" n="106"/>temperantia et intemperantia videntur gustu pa
+            <lb ed="#L" n="107"/>rum vel nihil uti. :
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1283">
+            <lb ed="#L" n="108"/>RESPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="109"/>temperantia consistit circa praecipuas. 
+            delectatio<lb break="no" ed="#L" n="110"/>nes, quae maxime pertinent ad. conservationem
+            <lb ed="#L" n="111"/>humanae vitae, vel in specie vel in individuo.
+            <lb ed="#L" n="112"/>In quibus aliquid consideratur principaliter, 
+            ali<lb break="no" ed="#L" n="113"/>quid autem secundario. Principaliter quidem ipse
+            <lb ed="#L" n="114"/>usus rei necessariae : puta vel feminae, quae
+            <lb ed="#L" n="115"/>est necessaria ad conservationem speciei; vel
+            <lb ed="#L" n="116"/>cibi vel potus, quae sunt necessaria ad 
+            conser<lb break="no" ed="#L" n="117"/>vationem individui. Et ipse usus horum 
+            neces<lb break="no" ed="#L" n="118"/>sariorum habet quandam essentialem 
+            delectatio<lb break="no" ed="#L" n="119"/>nem adiunctam. Secundario autem consideratur
+            <lb ed="#L" n="120"/>circa utrumque usum aliquid quod. facit ad hoc
+            <lb ed="#L" n="121"/>quod usus sit. magis delectabilis ?: sicut. pulchri-
+            <pb ed="#L" n="129"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>tudo et ornatus feminae, et sapor delectabilis in
+            <lb ed="#L" n="2"/>cibo, et etiam odor. Et ideo principaliter 
+            tempe<lb break="no" ed="#L" n="3"/>rantia est circa delectationem tactus, quae per se 
+            <lb ed="#L" n="4"/>consequitur ipsum usum rerum necessariarum,
+            <lb ed="#L" n="5"/>quarum  omnis usus estin tangendo. Circa 
+            de<lb break="no" ed="#L" n="6"/>lectationes autem vel gustus vel olfactus vel 
+            vi<lb break="no" ed="#L" n="7"/>sus, est temperantia et intemperantia secundario :
+            <lb ed="#L" n="8"/>inquantum sensibilia horum sensuum conferunt
+            <lb ed="#L" n="9"/>ad delectabilem usum rerum necessariarum, qui 
+            <lb ed="#L" n="10"/>ertinet ad tactum. Quia tamen gustus 
+            propin<lb break="no" ed="#L" n="11"/>quior est tactui quam alii sensus, ideo 
+            tempe<lb break="no" ed="#L" n="12"/>rantia magis est circa gustum quam circa alios
+            <lb ed="#L" n="13"/>sensus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1348">
+            <lb ed="#L" n="14"/>AD PRIMUM ERGO DICENDUM quod etiam ipse usus
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="15"/>ciborum, et delectatio essentialiter ipsum 
+            con<lb break="no" ed="#L" n="16"/>sequens, ^ad tactum pertinet: unde Philosophus
+            <lb ed="#L" n="17"/>dicit, in II de Anima , quod /actus est sensus
+            <lb ed="#L" n="18"/>alimenti, nutrimur enim calido et frigido, humido
+            <lb ed="#L" n="19"/>et sicco. Sed ad gustum pertinet discretio 
+            sapo<lb break="no" ed="#L" n="20"/>rum, qui conferunt ad: delectationem alimenti, 
+            in<lb break="no" ed="#L" n="21"/>quantum sunt signa convenientis nutrimenti.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1370">
+            <lb ed="#L" n="22"/>AD SECUNDUM DICENDUM quod delectatio saporis
+            <lb ed="#L" n="23"/>est quasi superveniens: sed delectatio tactus per
+            <lb ed="#L" n="24"/>Se consequitur usum. cibi et potus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1379">
+            <lb ed="#L" n="25"/>AD TERTIUM DICENDUM quod deliciae principaliter
+            <lb ed="#L" n="26"/>quidem consistunt in ipsa substantia alimenti: sed
+            <lb ed="#L" n="27"/>secundario in exquisito sapore et praeparatione
+            <lb ed="#L" n="28"/>ciborum.
+          </p>
+        </div>
+        <!-- np commentary on a 5 -->
+        <div xml:id="TAca84-d1e2000-Dd1e1394"><!-- p2p2-q141a6 -->
+          <head xml:id="TAca84-d1e2000-Hd1e1397">Articulus 6</head>
+          <head xml:id="TAca84-d1e2000-Hd1e1399" type="question-title">Utrum regula temperantiae sit sumenda secundum necessitatem praesentis vitae</head>
+          <p xml:id="TAca84-d1e2000-d1e1402">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="29" type="fixed=129"/>ARTICULUS SEXTUS
+            <lb ed="#L" n="30"/>UTRUM REGULA TEMPERANTIAE SIT SUMENDA SECUNDUM NECESSITATEM
+            <lb ed="#L" n="31"/>PRAESENTIS VITAE
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1413">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="32"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="33"/>regula temperantiae non sit sumenda
+            <lb ed="#L" n="34"/>secundum necessitatem praesentis vitae.
+            <lb ed="#L" n="35"/>Superius enim non regulatur ab 
+            infe<lb break="no" ed="#L" n="36"/>riori. Sed temperantia, cum sit virtus animae,
+            <lb ed="#L" n="37"/>est superior quam necessitas corporalis. Ergo 
+            re<lb break="no" ed="#L" n="38"/>gula temperantiae non debet sumi secundum 
+            ne<lb break="no" ed="#L" n="39"/>cessitatem corporalem.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1435">
+            <lb ed="#L" n="40"/>2. PRAETEREA, quicumque excedit regulam, 
+            pec<lb break="no" ed="#L" n="41"/>cat. Si ergo necessitas corporalis esset regula 
+            tem<lb break="no" ed="#L" n="42"/>perantiae, quicumque aliqua delectatione uteretur
+            <lb ed="#L" n="43"/>supra necessitatem naturae, quae valde modicis
+            <lb ed="#L" n="44"/>contenta est, peccaret contra temperantiam. Quod -
+            <lb ed="#L" n="45"/>videtur esse inconveniens.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1452">
+            <lb ed="#L" n="46"/>3. PRAETEREA, nullus attingens regulam peccat.
+            <lb ed="#L" n="47"/>Si ergo necessitas corporalis esset regula 
+            tempe<lb break="no" ed="#L" n="48"/>rantiae, quicumque uteretur aliqua delectatione
+            <lb ed="#L" n="49"/>propter necessitatem corporalem, puta propter
+            <lb ed="#L" n="50"/>sanitatem, esset immunis a peccato. Hoc autem
+            <lb ed="#L" n="51"/>videtur esse falsum. Ergo necessitas corporalis
+            <lb ed="#L" n="52"/>non est regula temperantiae.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1470">
+            <lb ed="#L" n="53"/>SED CONTRA EST quod Augustinus dicit, in libro 
+            <lb ed="#L" n="54"/>de Moribus Eccle. : Habet vir temperans  in 
+            <lb ed="#L" n="55"/>rebus huius vitae regulam utroque. Testamento
+            <lb ed="#L" n="56"/>firmatam, ut eorum nihil diligat, nihil per se 
+            ap<lb break="no" ed="#L" n="57"/>petendum pulet; sed ad vitae huius atque 
+            officio<lb break="no" ed="#L" n="58"/>rum necessitatem, quantum sat est usurpet, 
+            uten<lb break="no" ed="#L" n="59"/>tis modestia, non amantis affectu.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1488">
+            <lb ed="#L" n="60"/>RESPONDEO DICENDUM quod, sicut ex praedictis 
+            <lb ed="#L" n="61"/>patet, bonum virtutis moralis praecipue consistit
+            <lb ed="#L" n="62"/>in ordine rationis: nam bonum hominis est 
+            se<lb break="no" ed="#L" n="63"/>cundum rationem esse, ut Dionysius dicit, iv cap.
+            <lb ed="#L" n="64"/>de Div. Nom.  Praecipuus autem ordo rationis 
+            <lb ed="#L" n="65"/>consistit ex  hoc quod aliqua in finem ordinat,
+            <lb ed="#L" n="66"/>et in hoc ordine maxime consistit bonum 
+            ratio<lb break="no" ed="#L" n="67"/>nis: nam bonum habet rationem finis, et ipse 
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="68"/>finis est regula eorum quae sunt ad finem. Omnia
+            <lb ed="#L" n="69"/>autem delectabilia quae in usum hominis veniunt,
+            <lb ed="#L" n="70"/>ordinantur ad aliquam vitae huius necessitatem
+            <lb ed="#L" n="71"/>sicut ad finem. Et ideo temperantia accipit 
+            ne<lb break="no" ed="#L" n="72"/>cessitatem huius vitae sicut regulam 
+            delectabi<lb break="no" ed="#L" n="73"/>lium quibus utitur: ut scilicet tantum eis utatur
+            <lb ed="#L" n="74"/>quantum necessitas huius vitae requirit.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1525">
+            <lb ed="#L" n="75"/>AD PRIMUM ERGO DICENDUM quod, sicut dictum
+            <lb ed="#L" n="76"/>est, necessitas huius vitae habet rationem 
+            re<lb break="no" ed="#L" n="77"/>gulae inquantum est finis. Considerandum est
+            <lb ed="#L" n="78"/>autem quod quandoque aliud est finis operantis,
+            <lb ed="#L" n="79"/>et aliud finis operis: sicut patet quod 
+            aedifica<lb break="no" ed="#L" n="80"/>tionis finis est domus, sed aedificatoris finis 
+            quan<lb break="no" ed="#L" n="81"/>doque est lucrum. Sic igitur temperantiae ipsius
+            <lb ed="#L" n="82"/>finis et regula est beatitudo: sed eius rei qua
+            <lb ed="#L" n="83"/>utitur, finis et regula est necessitas humanae vitae,
+            <lb ed="#L" n="84"/>infra quam est id quod in usum vitae venit.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1549">
+            <lb ed="#L" n="85"/>AD SECUNDUM DICENDUM quod necessitas 
+            huma<lb break="no" ed="#L" n="86"/>nae vitae potest attendi dupliciter: uno modo,
+            <lb ed="#L" n="87"/>secundum quod dicitur necessarium id sine quo
+            <lb ed="#L" n="88"/>res nullo modo polest esse, sicut cibus est 
+            ne<lb break="no" ed="#L" n="89"/>cessarius animali ; alio modo, secundum quod
+            <lb ed="#L" n="90"/>necessarium dicitur id sime quo res non potest
+            <lb ed="#L" n="91"/>convenienter esse.  "Temperantia autem non 
+            so<lb break="no" ed="#L" n="92"/>lum attendit primam necessitatem, sed etiam 
+            se<lb break="no" ed="#L" n="93"/>cundam: unde Philosophus dicit, in III E?hic. ,
+            <lb ed="#L" n="94"/>quod :emperatus appetit delectabilia propter 
+            sa<lb break="no" ed="#L" n="95"/>nitatem, vel propter bonam habitudinem. Alia
+            <lb ed="#L" n="96"/>vero quae ad hoc non sunt necessaria, possunt
+            <lb ed="#L" n="97"/>dupliciter se habere. Quaedam enim sunt 
+            impe<lb break="no" ed="#L" n="98"/>dimenta sanitatis vel bonae habitudinis. Et his
+            <lb ed="#L" n="99"/>nullo modo temperatus utitur: hoc enim esset
+            <lb ed="#L" n="100"/>peccatum contra temperantiam. Quaedam vero
+            <lb ed="#L" n="101"/>sunt quae non sunt his impedimenta. Et his 
+            mo<lb break="no" ed="#L" n="102"/>derate utitur, pro loco et tempore et congruentia
+            <lb ed="#L" n="103"/>eorum quibus convivit. Et ideo ibidem Philo-
+            <pb ed="#L" n="130"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>sophus dicit quod et temperatus appetit a//a 
+            de<lb break="no" ed="#L" n="2"/>lectabilia, quae scilicet non sunt necessaria ad
+            <lb ed="#L" n="3"/>sanitatem vel ad bonam habitudinem, non 
+            impe<lb break="no" ed="#L" n="4"/>dimenta his existentia.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1606">
+            <lb ed="#L" n="5"/>AD TERTIUM DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="6"/>temperantia respicit necessitatem quantum ad
+            <lb ed="#L" n="7"/>convenientiam vitae. Quae quidem attenditur non
+            <lb ed="#L" n="8"/>solum secundum convenientiam corporis: sed
+            <lb ed="#L" n="9"/>etiam secundum convenientiam exteriorum 
+            re<lb break="no" ed="#L" n="10"/>rum, puta divitiarum et officiorum ; et multo
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="11"/>magis secundum convenientiam honestatis. Et
+            <lb ed="#L" n="12"/>ideo Philosophus ibidem  subdit quod in 
+            delecta<lb break="no" ed="#L" n="13"/>bilibus quibus temperatus utitur, non solum 
+            con<lb break="no" ed="#L" n="14"/>siderat ut non sint impeditiva sanitatis et bonae
+            <lb ed="#L" n="15"/>habitudinis corporalis, sed etiam ut non sint 
+            prae<lb break="no" ed="#L" n="16"/>ter bonum, idest contra honestatem ; et quod non
+            <lb ed="#L" n="17"/>sint supra substantiam, idest supra facultatem 
+            di<lb break="no" ed="#L" n="18"/>vitiarum. Et Augustinus dicit, in libro de Moribus
+            <lb ed="#L" n="19"/>Eccle. , quod temperatus respicit non solum 
+            7ze<lb break="no" ed="#L" n="20"/>cessitatem huius vitae, sed etiam officiorum.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2000-Dd1e1646"><!-- p2p2-q141a7 -->
+          <head xml:id="TAca84-d1e2000-Hd1e1649">Articulus 7</head>
+          <head xml:id="TAca84-d1e2000-Hd1e1651" type="question-title">Utrum temperantia sit virtus cardinalis</head>
+          <p xml:id="TAca84-d1e2000-d1e1654">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="64" type="fixed=130"/>ARTICULUS SEPTIMUS
+            <lb ed="#L" n="65"/>UTRUM TEMPERANTIA SIT VIRTUS CARDINALIS
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1663">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="66"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="67"/>temperantia non sit virtus cardinalis.
+            <lb ed="#L" n="68"/>Bonum enim virtutis moralis a ratione
+            <lb ed="#L" n="69"/>dependet. Sed temperantia est circa ea
+            <lb ed="#L" n="70"/>quae magis distant a ratione, scilicet circa 
+            dele<lb break="no" ed="#L" n="71"/>ctationes quae sunt nobis et brutis communes,
+            <lb ed="#L" n="72"/>ut dicitur in III Ethic.  Ergo temperantia non
+            <lb ed="#L" n="73"/>videtur esse principalis virtus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1685">
+            <lb ed="#L" n="74"/>2. PRAETEREA, quanto aliquid est magis 
+            impe<lb break="no" ed="#L" n="75"/>tuosum, tanto difficilius videtur esse ad 
+            refrenan<lb break="no" ed="#L" n="76"/>dum. Sed ira, quam refrenat mansuetudo, videtur 
+            <lb ed="#L" n="77"/>esse impetuosior quam concupiscentia, quam 
+            re<lb break="no" ed="#L" n="78"/>frenat temperantia: dicitur enim Prov. xxvi : Zra 
+            <lb ed="#L" n="79"/>non habet misericordiam, nec erumpens furor: et 
+            <lb ed="#L" n="80"/>impetum concitati spiritus ferre quis poterit? Ergo 
+            <lb ed="#L" n="81"/>mansuetudo est principalior virtus quam 
+            tempe<lb break="no" ed="#L" n="82"/>rantia.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1708">
+            <lb ed="#L" n="83"/>3. PRAETEREA, spes est principalior motus 
+            ani<lb break="no" ed="#L" n="84"/>mae quam desiderium seu concupiscentia, ut
+            <lb ed="#L" n="85"/>supra  habitum est. Sed humilitas refrenat 
+            prae<lb break="no" ed="#L" n="86"/>sumptionem immoderatae spei. Ergo humilitas -
+            <lb ed="#L" n="87"/>videtur esse principalior virtus quam 
+            temperan<lb break="no" ed="#L" n="88"/>tia, quae refrenat concupiscentiam.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1724">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="89"/>SED coNTRA EsT quod Gregorius, in II Moral. ,
+            <lb ed="#L" n="90"/>ponit temperantiam inter virtutes principales.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1733">
+            <lb ed="#L" n="91"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="92"/>est, virtus principalis seu cardinalis dicitur quae
+            <lb ed="#L" n="93"/>principalius laudatur ex aliquo eorum quae 
+            com<lb break="no" ed="#L" n="94"/>muniter requiruntur ad rationem virtutis. 
+            Mode<lb break="no" ed="#L" n="95"/>ratio autem, quae in omni virtute requiritur, 
+            prae<lb break="no" ed="#L" n="96"/>cipue laudabilis est in delectationibus tactus, circa
+            <lb ed="#L" n="97"/>quae est temperantia: tum quia tales 
+            delectatio<lb break="no" ed="#L" n="98"/>nes sunt magis nobis naturales, et ideo difficilius
+            <lb ed="#L" n="99"/>est ab eis abstinere et concupiscentias earum 
+            re<lb break="no" ed="#L" n="100"/>frenare; tum etiam quia earum obiecta magis
+            <lb ed="#L" n="101"/>sunt necessaria praesenti vitae, ut ex dictis  
+            pa<lb break="no" ed="#L" n="102"/>tet. Et ideo temperantia ponitur virtus principalis
+            <lb ed="#L" n="103"/>seu cardinalis.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1764">
+            <lb ed="#L" n="104"/>AD PRIMUM ERGO DICENDUM quod tanto maior
+            <lb ed="#L" n="105"/>ostenditur agentis virtus, quanto in ea quae sunt
+            <lb ed="#L" n="106"/>magis distantia potest suam operationem 
+            exten<lb break="no" ed="#L" n="107"/>dere. Et ideo ex hoc ipso ostenditur maior virtus
+            <lb ed="#L" n="108"/>rationis quod potest etiam concupiscentias et 
+            de<lb break="no" ed="#L" n="109"/>lectationes maxime distantes moderari. Unde hoc
+            <lb ed="#L" n="110"/>pertinet ad principalitatem temperantiae.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1782">
+            <lb ed="#L" n="111"/>AD SECUNDUM DICENDUM quod impetus irae cau-
+            <pb ed="#L" n="131"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>satur ex quodam accidente, puta ex aliqua 
+            lae<lb break="no" ed="#L" n="2"/>sione contristante: et ideo cito transit, quamvis 
+            <lb ed="#L" n="3"/>magnum impetum habeat. Sed impetus 
+            concu<lb break="no" ed="#L" n="4"/>piscentiae delectabilium tactus procedit ex causa  
+            <lb ed="#L" n="5"/>naturali: unde est diuturnior et communior. Et 
+            <lb ed="#L" n="6"/>ideo ad principaliorem virtutem pertinet ipsum 
+            <lb ed="#L" n="7"/>refrenare. 
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1806">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="8"/>AD TERTIUM DICENDUM quod ea quorum est
+            <lb ed="#L" n="9"/>spes, sunt altiora his quorum est concupiscentia:
+            <lb ed="#L" n="10"/>et propter hoc spes ponitur passio principalis in
+            <lb ed="#L" n="11"/>irascibili. Sed ea quorum est concupiscentia et
+            <lb ed="#L" n="12"/>delectatio tactus, vehementius movent appetitum,
+            <lb ed="#L" n="13"/>quia sunt magis naturalia. Et ideo temperantia,
+            <lb ed="#L" n="14"/>quae in his modum statuit, est virtus principalis.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2000-Dd1e1827"><!-- p2p2-q141a8 -->
+          <head xml:id="TAca84-d1e2000-Hd1e1830">Articulus 8</head>
+          <head xml:id="TAca84-d1e2000-Hd1e1832" type="question-title">Utrum temperantia sit maxima virtutum</head>
+          <p xml:id="TAca84-d1e2000-d1e1835">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="70" type="fixed=131"/>ARTICULUS OCTAVUS
+            <lb ed="#L" n="71"/>UTRUM TEMPERANTIA SIT MAXIMA VIRTUTUM
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1844">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="72"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="73"/>temperantia sit maxima virtutum. Dicit  
+            <lb ed="#L" n="74"/>enim Ambrosius, in I de Offic. , quod
+            <lb ed="#L" n="75"/>in temperantia maxime honesti cura, 
+            <lb ed="#L" n="76"/>decoris consideratio speciatur et quaeritur. Sed  
+            <lb ed="#L" n="77"/>virtus laudabilis est inquantum est honesta et 
+            de<lb break="no" ed="#L" n="78"/>cora. Ergo temperantia est maxima virtutum. 
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1864">
+            <lb ed="#L" n="79"/>2. PRAETEREA, maioris virtutis est operari id 
+            <lb ed="#L" n="80"/>quod est difficilius. Sed difficilius est refrenare  
+            <lb ed="#L" n="81"/>concupiscentias et delectationes tactus quam 
+            re<lb break="no" ed="#L" n="82"/>ctificare actiones exteriores: quorum primum  
+            <lb ed="#L" n="83"/>pertinet ad temperantiam, secundum ad 
+            iusti<lb break="no" ed="#L" n="84"/>tiam. Ergo temperantia est maior virtus quam 
+            <lb ed="#L" n="85"/>iustitia. 
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1883">
+            <lb ed="#L" n="86"/>3. PRAETEREA, quanto aliquid est communius,
+            <lb ed="#L" n="87"/>tanto magis necessarium videtur esse et melius. 
+            <lb ed="#L" n="88"/>Sed fortitudo est circa pericula mortis, quae 
+            ra<lb break="no" ed="#L" n="89"/>rius occurrunt ^ quam delectabilia tactus, quae  
+            <lb ed="#L" n="90"/>quotidie occurrunt: et sic usus temperantiae est  
+            <lb ed="#L" n="91"/>communior quam fortitudinis. Ergo temperantia 
+            <lb ed="#L" n="92"/>est nobilior virtus quam fortitudo. 
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1901">
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="93"/>SEp coNTRA EsT quod Philosophus dicit, in
+            <lb ed="#L" n="94"/>I Rhet. , quod maximae virtutes sunt quae alis  cap. xx, n. o.
+            <lb ed="#L" n="95"/>maxime sunt utiles: et propter hoc, fortes et iustos
+            <lb ed="#L" n="96"/>maxime honoramus.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1914">
+            <lb ed="#L" n="97"/>RESPONDEO DICENDUM quod, sicut Philosophus
+            <lb ed="#L" n="98"/>dicit, in I Ethic. , bonum multitudinis divinius
+            <lb ed="#L" n="99"/>est quam bonum unius. Et ideo quanto aliqua 
+            <lb ed="#L" n="100"/>virtus magis pertinet ad bonum multitudinis, tanto
+            <lb ed="#L" n="101"/>melior est. Iustitia autem et fortitudo magis 
+            per<lb break="no" ed="#L" n="102"/>tinent ad bonum multitudinis quam temperantia:
+            <lb ed="#L" n="103"/>quia iustitia consistit in communicationibus, quae
+            <lb ed="#L" n="104"/>sunt ad alterum; fortitudo autem in periculis
+            <lb ed="#L" n="105"/>bellorum, quae sustinentur pro salute communi;
+            <lb ed="#L" n="106"/>temperantia autem moderatur solum 
+            concupiscen<lb break="no" ed="#L" n="107"/>tias et delectationes eorum quae pertinent ad
+            <lb ed="#L" n="108"/>ipsum hominem. Unde manifestum est quod 
+            iu<lb break="no" ed="#L" n="109"/>stitia et fortitudo sunt excellentiores virtutes quam
+            <lb ed="#L" n="110"/>temperantia: quibus prudentia et virtutes 
+            theolo<lb break="no" ed="#L" n="111"/>gicae sunt potiores. 
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1949">
+            <lb ed="#L" n="112"/>AD PRIMUM ERGO DICENDUM quod honestas et
+            <lb ed="#L" n="113"/>decor maxime attribuuntur temperantiae, non pro-
+            <pb ed="#L" n="132"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>pter principalitatem proprii boni, sed propter 
+            tur<lb break="no" ed="#L" n="2"/>pitudinem contrarii mali, a quo retrahit: 
+            inquan<lb break="no" ed="#L" n="3"/>tum scilicet moderatur delectationes quae sunt
+            <lb ed="#L" n="4"/>nobis et brutis communes. :
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1969">
+            <lb ed="#L" n="5"/>AD SECUNDUM DICENDUM quod, cum virtus sit
+            <lb ed="#L" n="6"/>circa difficile et bonum , dignitas virtutis magis
+            <lb ed="#L" n="7"/>attenditur circa  rationem boni, in quo excedit
+            <lb ed="#L" n="8"/>iustitia, quam secundum rationem difficilis, in
+            <lb ed="#L" n="9"/>quo excedit temperantia.
+          </p>
+          <p xml:id="TAca84-d1e2000-d1e1982">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="10"/>AD TERTIUM DICENDUM quod illa communitas
+            <lb ed="#L" n="11"/>qua aliquid pertinet ad multitudinem hominum,
+            <lb ed="#L" n="12"/>magis facit ad excellentiam bonitatis quam illa
+            <lb ed="#L" n="13"/>quae consideratur secundum quod aliquid 
+            fre<lb break="no" ed="#L" n="14"/>quenter occurrit: in quarum prima excedit 
+            forti<lb break="no" ed="#L" n="15"/>tudo, in secunda temperantia. Unde simpliciter
+            <lb ed="#L" n="16"/>fortitudo est potior: licet quoad aliquid possit
+            <lb ed="#L" n="17"/>dici temperantia potior non solum fortitudine,
+            <lb ed="#L" n="18"/>sed etiam iustitia.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 150</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 150</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="182"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2047"><!-- p2p2-q150 -->
+        <head xml:id="TAca84-d1e2047-Hd1e101">Quaestio 150</head>
+        <head xml:id="TAca84-d1e2047-Hd1e103" type="question-title">De ebrietate</head>
+        <p xml:id="TAca84-d1e2047-d1e106">
+          <pb ed="#L" n="182"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=182"/>QUAESTIO CENTESIMAQUINQUAGESIMA
+          <lb ed="#L" n="2"/>DE EBRIETATE
+          <lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2047-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de ebrietate .
+          <lb ed="#L" n="5"/>Et circa hoc quaeruntur quatuor.
+          <lb ed="#L" n="6"/>Primo: utrum ebrietas sit peccatum.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="7"/>Secundo: utrum sit peccatum mortale.
+          <lb ed="#L" n="8"/>Tertio: utrum sit gravissimum peccatorum.
+          <lb ed="#L" n="9"/>Quarto: utrum excuset a peccato.
+        </p>
+        <div xml:id="TAca84-d1e2047-Dd1e139"><!-- p2p2-q150a1 -->
+          <head xml:id="TAca84-d1e2047-Hd1e142">Articulus 1</head>
+          <head xml:id="TAca84-d1e2047-Hd1e144" type="question-title">Utrum ebrietas sit peccatum</head>
+          <p xml:id="TAca84-d1e2047-d1e147">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="10" type="fixed=182"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="11"/>UTRUM EBRIETAS SIT PECCATUM
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e156">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="12"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="13"/>ebrietas non sit peccatum. Omne enim
+            <lb ed="#L" n="14"/>peccatum habet aliud peccatum sibi 
+            op<lb break="no" ed="#L" n="15"/>positum: sicut timiditati audacia, et 
+            pu<lb break="no" ed="#L" n="16"/>sillanimitati praesumptio opponitur. Sed ebrietati
+            <lb ed="#L" n="17"/>nullum peccatum opponitur. Ergo ebrietas non
+            <lb ed="#L" n="18"/>est peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e176">
+            <lb ed="#L" n="19"/>2. PRAETEREA, omne peccatum est voluntarium .
+            <lb ed="#L" n="20"/>Sed nullus vult esse ebrius: quia nullus vult 
+            pri<lb break="no" ed="#L" n="21"/>vari usu rationis. Ergo ebrietas non est peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e186">
+            <lb ed="#L" n="22"/>3. PRAETEREA, quicumque est alteri causa  
+            pec<lb break="no" ed="#L" n="23"/>candi, peccat. Si ergo ebrietas esset peccatum,
+            <lb ed="#L" n="24"/>sequeretur quod illi qui alios invitant ad potum
+            <lb ed="#L" n="25"/>quo inebriantur, peccarent. Quod videtur esse
+            <lb ed="#L" n="26"/>valde. durum.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e199">
+            <lb ed="#L" n="27"/>4. PRAETEREA, omnibus peccatis correctio 
+            de<lb break="no" ed="#L" n="28"/>betur. Sed ebriis non adhibetur correctio: dicit
+            <lb ed="#L" n="29"/>enim Gregorius  quod cum venia suo ingenio
+            <lb ed="#L" n="30"/>sunt relinquendi, ne deteriores fiant si a tali 
+            con<lb break="no" ed="#L" n="31"/>suetudine evellantur. Ergo ebrietas non est 
+            pec<lb break="no" ed="#L" n="32"/>catum.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e215">
+            <lb ed="#L" n="33"/>SED coNTRA EsT quod Apostolus dicit, Rom.
+            <lb ed="#L" n="34"/>xu : Non in comessationibus et ebrietatibus.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e222">
+            <lb ed="#L" n="35"/>REsPONDEO DICENDUM quod ebrietas dupliciter
+            <lb ed="#L" n="36"/>accipi potest. Uno modo, prout significat ipsum
+            <lb ed="#L" n="37"/>defectum hominis qui accidit ex multo vino 
+            po<lb break="no" ed="#L" n="38"/>tato, ex quo fit ut non sit compos rationis. Et
+            <lb ed="#L" n="39"/>secundum hoc, ebrietas non nominat culpam, sed
+            <lb ed="#L" n="40"/>defectum. poenalem consequentem ex culpa.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e238">
+            <lb ed="#L" n="41"/>Alio modo ebrietas potest nominare actum quo
+            <lb ed="#L" n="42"/>quis in hunc defectum incidit. Qui potest 
+            cau<lb break="no" ed="#L" n="43"/>sare ebrietatem dupliciter. Uno modo, ex nimia
+            <lb ed="#L" n="44"/>vini fortitudine, praeter opinionem bibentis. Et
+            <lb ed="#L" n="45"/>sic etiam ebrietas potest accidere sine peccato,
+            <lb ed="#L" n="46"/>praecipue si non ex negligentia hominis 
+            contin<lb break="no" ed="#L" n="47"/>gat: et sic creditur Noe inebriatus fuisse , ut le-
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="48"/>gitur. Gen. ix . - Alio modo, ex inordinata 
+            con<lb break="no" ed="#L" n="49"/>cupiscentia et usu vini. Et sic ebrietas ponitur
+            <lb ed="#L" n="50"/>esse peccatum. Et continetur sub gula sicut 
+            spe<lb break="no" ed="#L" n="51"/>cies sub genere: dividitur enim. gula in 
+            comes<lb break="no" ed="#L" n="52"/>sationem et ebrietatem, quae prohibet 
+            Aposto<lb break="no" ed="#L" n="53"/>lus in auctoritate inducta .
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e271">
+            <lb ed="#L" n="54"/>AD PRIMUM ERGO DICENDUM quod, sicut 
+            Philoso<lb break="no" ed="#L" n="55"/>phus dicit, in III Ethic. , insensibilitas, quae 
+            op<lb break="no" ed="#L" n="56"/>ponitur temperantiae, non multum contingit. Et
+            <lb ed="#L" n="57"/>ideo tam ipsa quam omnes eius species, quae
+            <lb ed="#L" n="58"/>opponuntur diversis speciebus intemperantiae 9,
+            <lb ed="#L" n="59"/>nomine carent. Unde et vitium quod opponitur
+            <lb ed="#L" n="60"/>ebrietati innominatum est. Et tamen si quis 
+            scien<lb break="no" ed="#L" n="61"/>ter in tantum a. vino abstineret ut naturam 
+            mul<lb break="no" ed="#L" n="62"/>tum gravaret, a culpa immunis non. esset.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e294">
+            <lb ed="#L" n="63"/>AD SECUNDUM DICENDUM quod obiectio illa 
+            pro<lb break="no" ed="#L" n="64"/>cedit de defectu consequente, qui. est 
+            involunta<lb break="no" ed="#L" n="65"/>rius. Sed immoderatus usus vini est. voluntarius,
+            <lb ed="#L" n="66"/>in quo consistit ratio peccati.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e305">
+            <lb ed="#L" n="67"/>AD TERTIUM DICENDUM quod, sicut ille qui 
+            ine<lb break="no" ed="#L" n="68"/>briatur excusatur a peccato si ignorat 
+            fortitudi<lb break="no" ed="#L" n="69"/>nem vini, ita etiam ille qui invitat aliquem ad
+            <lb ed="#L" n="70"/>bibendum excusatur a peccato si ignoret talem
+            <lb ed="#L" n="71"/>esse conditionem bibentis ut ex hoc potu 
+            inebrie<lb break="no" ed="#L" n="72"/>tur. Sed si ignorantia desit, neuter a peccato 
+            ex<lb break="no" ed="#L" n="73"/>cusatur.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e323">
+            <lb ed="#L" n="74"/>AD QUARTUM DICENDUM quod aliquando correctio
+            <lb ed="#L" n="75"/>peccatoris est intermittenda, ne fiat inde deterior,
+            <lb ed="#L" n="76"/>ut supra  dictum est. Unde Augustinus dicit, in
+            <lb ed="#L" n="77"/>epistola ad Aurelium Episcopum , de 
+            comes<lb break="no" ed="#L" n="78"/>sationibus et ebrietatibus loquens: JNom aspere,
+            <lb ed="#L" n="79"/>quantum aestimo, non dure, non imperiose  ista
+            <lb ed="#L" n="80"/>tolluntur: sed magis docendo quam iubendo, 
+            ma<lb break="no" ed="#L" n="81"/>gis monendo quam minando. Sic enim agendum
+            <lb ed="#L" n="82"/>est cum multitudine peccantium: severitas 
+            au<lb break="no" ed="#L" n="83"/>tem exercenda est in peccato paucorum.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2047-Dd1e349"><!-- p2p2-q150a2 -->
+          <head xml:id="TAca84-d1e2047-Hd1e352">Articulus 2</head>
+          <head xml:id="TAca84-d1e2047-Hd1e354" type="question-title">Utrum ebrietas sit peccatum mortale</head>
+          <p xml:id="TAca84-d1e2047-d1e357">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="23" type="fixed=184"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="24"/>UTRUM EBRIETAS SIT PECCATUM MORTALE
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e366">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="25"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="26"/>ebrietas non sit peccatum mortale. 
+            Au<lb break="no" ed="#L" n="27"/>gustinus enim, in sermone de 
+            Purgato<lb break="no" ed="#L" n="28"/>rio , dicit ebrietatem esse peccatum
+            <lb ed="#L" n="29"/>mortale, si sii assidua. Sed assiduitas importat
+            <lb ed="#L" n="30"/>circumstantiam quae non trahit in aliam speciem
+            <lb ed="#L" n="31"/>peccati, et sic non potest in infinitum aggravare,
+            <lb ed="#L" n="32"/>ut de veniali faciat mortale: sicut ex supra  
+            di<lb break="no" ed="#L" n="33"/>ctis patet. Ergo,si alias ebrietas non est 
+            pecca<lb break="no" ed="#L" n="34"/>tum mortale, nec hoc etiam modo erit peccatum
+            <lb ed="#L" n="35"/>mortale.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e395">
+            <lb ed="#L" n="36"/>2. PRAETEREA, Augustinus, in eodem sermone,
+            <lb ed="#L" n="37"/>dicit: Quoties aliquis in cibo aut potu plus 
+            acci<lb break="no" ed="#L" n="38"/>pit quam necesse est, ad minula peccata noverit
+            <lb ed="#L" n="39"/>perlinere. Peccata autem minuta dicuntur 
+            venia<lb break="no" ed="#L" n="40"/>lia. Ergo ebrietas, quae causatur ex immoderato
+            <lb ed="#L" n="41"/>potu, est peccatum veniale.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e412">
+            <lb ed="#L" n="42"/>3. PRAETEREA, nullum peccatum mortale est 
+            fa<lb break="no" ed="#L" n="43"/>ciendum propter medicinam. Sed aliqui superflue
+            <lb ed="#L" n="44"/>bibunt secundum consilium medicinae, ut postea
+            <lb ed="#L" n="45"/>per vomitum purgentur; et ex hoc superfluo potu
+            <lb ed="#L" n="46"/>sequitur ebrietas. Ergo ebrietas non est 
+            pecca<lb break="no" ed="#L" n="47"/>tum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e428">
+            <lb ed="#L" n="48"/>SED CONTRA EST quod in Canonibus 
+            Apostolo<lb break="no" ed="#L" n="49"/>rum  legitur: Episcopus aut presbyter aut 
+            dia<lb break="no" ed="#L" n="50"/>conus aleae aut ebrietati deserviens, aut desinat
+            <lb ed="#L" n="51"/>aut deponatur. Subdiaconus autem aut lector aut
+            <lb ed="#L" n="52"/>cantor similia faciens, aut desinat aut communione
+            <lb ed="#L" n="53"/>privetur. Similiter et laicus. Sed tales poenae non
+            <lb ed="#L" n="54"/>infliguntur nisi pro peccato mortali. Ergo 
+            ebrie<lb break="no" ed="#L" n="55"/>tas est peccatum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e448">
+            <lb ed="#L" n="56"/>RESPONDEO DICENDUM quod culpa ebrietatis, sicut
+            <lb ed="#L" n="57"/>dictum est , consistit in immoderato  usu et
+            <lb ed="#L" n="58"/>concupiscentia vini. Hoc autem contingit esse 
+            tri<lb break="no" ed="#L" n="59"/>pliciter. Uno modo, sic quod nesciat potum esse
+            <lb ed="#L" n="60"/>immoderatum et inebriare potentem. Et sic 
+            ebrie<lb break="no" ed="#L" n="61"/>tas potest accipi? sine peccato, ut dictum est . -
+            <lb ed="#L" n="62"/>Alio modo, sic quod aliquis percipiat potum esse
+            <lb ed="#L" n="63"/>immoderatum, non tamen aestimet potum esse '
+            <lb ed="#L" n="64"/>inebriare potentem. Et sic ebrietas potest esse
+            <lb ed="#L" n="65"/>cum peccato veniali. - Tertio modo, potest con-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="66"/>tingere quod aliquis bene advertat potum esse
+            <lb ed="#L" n="67"/>immoderatum et inebriantem, et tamen magis
+            <lb ed="#L" n="68"/>vult ebrietatem incurrere quam a potu abstinere,
+            <lb ed="#L" n="69"/>Et talis proprie dicitur ebrius: quia moralia 
+            re<lb break="no" ed="#L" n="70"/>cipiunt speciem non ab his quae per accidens
+            <lb ed="#L" n="71"/>eveniunt praeter intentionem, sed ab eo quod
+            <lb ed="#L" n="72"/>est per se intentum. Et sic ebrietas est 
+            pecca<lb break="no" ed="#L" n="73"/>tum mortale. Quia secundum hoc, homo volens
+            <lb ed="#L" n="74"/>et sciens privat se usu rationis, quo secundum
+            <lb ed="#L" n="75"/>virtutem operatur et peccata declinat: et sic 
+            pec<lb break="no" ed="#L" n="76"/>cat mortaliter, periculo peccandi se committens.
+            <lb ed="#L" n="77"/>Dicit enim Ambrosius, in libro de Patriarchis :
+            <lb ed="#L" n="78"/>Vitandam dicimus ebrietatem, per quam crimina 
+            <lb ed="#L" n="79"/>cavere non possumus: nam quae sobrii 
+            cave<lb break="no" ed="#L" n="80"/>mus, per ebrietatem ignorantes committimus.
+            <lb ed="#L" n="81"/>Unde ebrietas, per se loquendo, est peccatum
+            <lb ed="#L" n="82"/>mortale.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e511">
+            <lb ed="#L" n="83"/>AD PRIMUM ERGO DICENDUM quod assiduitas facit
+            <lb ed="#L" n="84"/>ebrietatem esse peccatum mortale, non propter
+            <lb ed="#L" n="85"/>solam iterationem actus, sed quia non potest esse
+            <lb ed="#L" n="86"/>quod homo assidue inebrietur quin sciens et 
+            vo<lb break="no" ed="#L" n="87"/>lens ebrietatem incurrat, dum multoties experitur
+            <lb ed="#L" n="88"/>fortitudinem vini, et suam habilitatem ad 
+            ebrie<lb break="no" ed="#L" n="89"/>tatem.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e529">
+            <lb ed="#L" n="90"/>AD SECUNDUM DICENDUM quod plus sumere in
+            <lb ed="#L" n="91"/>cibo vel potu quam necesse sit, pertinet ad vitium
+            <lb ed="#L" n="92"/>gulae, quae non semper est peccatum mortale.
+            <lb ed="#L" n="93"/>Sed plus sumere in potu scienter usque ad 
+            ebrie<lb break="no" ed="#L" n="94"/>tatem, hoc est peccatum mortale. Unde 
+            Augu<lb break="no" ed="#L" n="95"/>stinus dicit, in X Confess. : Ebrietas longe est
+            <lb ed="#L" n="96"/>a me, misereberis ne appropinquet  mihi: 
+            cra<lb break="no" ed="#L" n="97"/>pula autem nonnumquam subrepsit servo tuo.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e549">
+            <lb ed="#L" n="98"/>AD TERTIUM DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="99"/>cibus et potus est moderandus secundum quod
+            <lb ed="#L" n="100"/>competit corporis valetudini. Et ideo sicut 
+            quan<lb break="no" ed="#L" n="101"/>doque contingit ut cibus vel potus qui est 
+            mo<lb break="no" ed="#L" n="102"/>deratus sano, sit superfluus infirmo; ita etiam
+            <lb ed="#L" n="103"/>potest e converso contingere ut ille qui est 
+            su<lb break="no" ed="#L" n="104"/>perfluus sano, sit moderatus infirmo. Et hoc
+            <lb ed="#L" n="105"/>modo, cum aliquis multum comedit vel bibit 
+            se<lb break="no" ed="#L" n="106"/>cundum consilium medicinae ad vomitum pro-
+            <pb ed="#L" n="185"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>vocandum, non est reputandus superfluus cibus
+            <lb ed="#L" n="2"/>vel potus. Nec tamen requiritur ad vomitum
+            <lb ed="#L" n="3"/>provocandum quod sit potus inebrians: quia
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="4"/>etiam potus aquae tepidae vomitum causat. Et
+            <lb ed="#L" n="5"/>ideo propter hanc causam non excusaretur 
+            ali<lb break="no" ed="#L" n="6"/>quis ab ebrietate.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2047-Dd1e592"><!-- p2p2-q150a3 -->
+          <head xml:id="TAca84-d1e2047-Hd1e595">Articulus 3</head>
+          <head xml:id="TAca84-d1e2047-Hd1e597" type="question-title">Utrum ebrietas sit gravissimum peccatorum</head>
+          <p xml:id="TAca84-d1e2047-d1e600">
+            <pb ed="#L" n="188"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=188"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="2"/>UTRUM EBRIETAS SIT GRAVISSIMUM PECCATORUM
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e611">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>ebrietas sit gravissimum peccatorum.
+            <lb ed="#L" n="5"/>Dicit enim Chrysostomus  quod nihil
+            <lb ed="#L" n="6"/>ita est daemoni amicum  sicul ebrietas
+            <lb ed="#L" n="7"/>et lascivia, quae est mater omnium vitiorum. Ft
+            <lb ed="#L" n="8"/>Decretis dicitur, dist. XXXV : Ante omnia 
+            cle<lb break="no" ed="#L" n="9"/>ricis vitetur ebrietas, quae omnium vitiorum 
+            ra<lb break="no" ed="#L" n="10"/>dix et nutrix est.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e633">
+            <lb ed="#L" n="11"/>2. PRAETEREA, ex hoc dicitur aliquid esse 
+            pec<lb break="no" ed="#L" n="12"/>catum quod bonum rationis excludit. Sed hoc
+            <lb ed="#L" n="13"/>maxime facit ebrietas. Ergo ebrietas est 
+            maxi<lb break="no" ed="#L" n="14"/>mum peccatorum.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e645">
+            <lb ed="#L" n="15"/>3. PRaETEREA, magnitudo culpae ex 
+            magnitu<lb break="no" ed="#L" n="16"/>dine poenae ostenditur. Sed ebrietas videtur esse
+            <lb ed="#L" n="17"/>maxime punita: dicit enim Ambrosius  quod
+            <lb ed="#L" n="18"/>non esset in homine servitus, si non fuisset 
+            ebrie<lb break="no" ed="#L" n="19"/>tas. Ergo ebrietas est maximum peccatorum.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e658">
+            <lb ed="#L" n="20"/>Sgp coNTRA EST quod, secundum Gregorium ,
+            <lb ed="#L" n="21"/>vitia spiritualia sunt maiora quam carnalia. Sed
+            <lb ed="#L" n="22"/>ebrietas continetur inter vitia carnalia. Ergo non
+            <lb ed="#L" n="23"/>est maximum peccatorum.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e669">
+            <lb ed="#L" n="24"/>REsPONDEO DICENDUM quod ex hoc dicitur 
+            ali<lb break="no" ed="#L" n="25"/>quid esse malum, quod privat bonum. Unde quanto
+            <lb ed="#L" n="26"/>maius est bonum quod privatur per malum, tanto
+            <lb ed="#L" n="27"/>malum gravius est. Manifestum est autem quod
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="28"/>bonum divinum est maius quam bonum 
+            huma<lb break="no" ed="#L" n="29"/>num. Et ideo peccata quae sunt directe contra
+            <lb ed="#L" n="30"/>Deum, sunt graviora peccato ebrietatis, quod 
+            di<lb break="no" ed="#L" n="31"/>recte opponitur bono rationis humanae.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e691">
+            <lb ed="#L" n="32"/>AD PRIMUM ERGO DICENDUM quod ad. peccata 
+            <lb ed="#L" n="33"/>intemperantiae maxime homo habet pronitatem,
+            <lb ed="#L" n="34"/>propter hoc quod huiusmodi concupiscentiae et
+            <lb ed="#L" n="35"/>delectationes sunt nobis connaturales. Et 
+            secun<lb break="no" ed="#L" n="36"/>dum hoc, dicuntur huiusmodi peccata esse 
+            ma<lb break="no" ed="#L" n="37"/>xime amica diabolo: non quia sint aliis graviora,
+            <lb ed="#L" n="38"/>sed quia sunt apud homines frequentiora.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e709">
+            <lb ed="#L" n="39"/>AD SECUNDUM DICENDUM quod bonum rationis
+            <lb ed="#L" n="40"/>impeditur dupliciter: uno modo, per id quod est
+            <lb ed="#L" n="41"/>contrarium rationi; alio modo, per id quod 
+            au<lb break="no" ed="#L" n="42"/>fert usum rationis. Plus autem habet de ratione
+            <lb ed="#L" n="43"/>mali id quod contrariatur rationi, quam quod ad
+            <lb ed="#L" n="44"/>horam? usum rationis aufert: usus enim rationis
+            <lb ed="#L" n="45"/>potest esse et bonus et malus, qui tollitur per
+            <lb ed="#L" n="46"/>ebrietatem; sed bona virtutum, quae tolluntur per
+            <lb ed="#L" n="47"/>ea quae contrariantur rationi, sunt semper bona.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e731">
+            <lb ed="#L" n="48"/>AD TERTIUM DICENDUM quod servitus est 
+            conse<lb break="no" ed="#L" n="49"/>cuta ex ebrietate occasionaliter, inquantum Cham 
+            <lb ed="#L" n="50"/>maledictionem servitutis in sua posteritate 
+            acce<lb break="no" ed="#L" n="51"/>pit propter hoc quod irrisit patrem inebriatum .
+            <lb ed="#L" n="52"/>Non autem servitus fuit directe poena ebrietatis.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2047-Dd1e745"><!-- p2p2-q150a4 -->
+          <head xml:id="TAca84-d1e2047-Hd1e748">Articulus 4</head>
+          <head xml:id="TAca84-d1e2047-Hd1e750" type="question-title">Utrum ebrietas excuset a peccato</head>
+          <p xml:id="TAca84-d1e2047-d1e753">
+            <pb ed="#L" n="189"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=189"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="2"/>UTRUM EBRIETAS EXCUSET A PECCATO
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e764">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>ebrietas non excuset a peccato. Dicit
+            <lb ed="#L" n="5"/>enim Philosophus, in IlI Ehic. , quod
+            <lb ed="#L" n="6"/>ebrius meretur duplices maledictiones.
+            <lb ed="#L" n="7"/>Ergo ebrietas magis aggravat peccatum quam
+            <lb ed="#L" n="8"/>excuset.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e782">
+            <lb ed="#L" n="9"/>2. PRAETEREA, peccatum non excusatur per 
+            pec<lb break="no" ed="#L" n="10"/>catum, sed magis augetur. Ebrietas autem est
+            <lb ed="#L" n="11"/>peccatum. Ergo non excusat a peccato.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e792">
+            <lb ed="#L" n="12"/>3. PnaETEREA; Philosophus dicit, in VII Ethic.,
+            <lb ed="#L" n="13"/>quod sicut ratio hominis ligatur per ebrietatem, 
+            <lb ed="#L" n="14"/>ita etiam ligatur per concupiscentiam. Sed 
+            con<lb break="no" ed="#L" n="15"/>cupiscentia non excusat a peccato. Ergo etiam 
+            <lb ed="#L" n="16"/>neque ebrietas. 
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e805">
+            <lb ed="#L" n="17"/>SEp coNTRA EsT quod Lot excusatur ab 
+            ince<lb break="no" ed="#L" n="18"/>stu propter ebrietatem: ut dicit Augustinus, 
+            con<lb break="no" ed="#L" n="19"/>tra Faustum . 
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e814">
+            <lb ed="#L" n="20"/>RESPONDEO DICENDUM quod in ebrietate duo
+            <lb ed="#L" n="21"/>attenduntur, sicut dictum est : scilicet defectus 
+            <lb ed="#L" n="22"/>consequens, et actus praecedens. Ex parte autem
+            <lb ed="#L" n="23"/>defectus consequentis, in quo ligatur usus 
+            ratio<lb break="no" ed="#L" n="24"/>nis, ebrietas habet excusare peccatum , 
+            inquan<lb break="no" ed="#L" n="25"/>tum causat involuntarium per ignorantiam. - Sed
+            <lb ed="#L" n="26"/>ex parte actus praecedentis, videtur esse 
+            distin<lb break="no" ed="#L" n="27"/>guendum. Quia si ex actu illo praecedente 
+            sub<lb break="no" ed="#L" n="28"/>secuta est ebrietas sine peccato, tunc peccatum
+            <lb ed="#L" n="29"/>sequens totaliter excusatur a culpa: sicut forte
+            <lb ed="#L" n="30"/>accidit de Lot . Si autem actus praecedens fuit
+            <lb ed="#L" n="31"/>culpabilis, sic non totaliter aliquis excusatur a
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="32"/>peccato sequenti, quod scilicet redditur 
+            volunta<lb break="no" ed="#L" n="33"/>rium ex voluntate praecedentis actus: inquantum
+            <lb ed="#L" n="34"/>scilicet aliquis, dans operam rei illicitae, incidit
+            <lb ed="#L" n="35"/>in sequens peccatum. Diminuitur tamen 
+            pecca<lb break="no" ed="#L" n="36"/>tum sequens, sicut et diminuitur ratio voluntarii.
+            <lb ed="#L" n="37"/>Unde Augustinus dicit, contra Faustum , quod
+            <lb ed="#L" n="38"/>Lot culpandus est non quantum ille incestus, sed
+            <lb ed="#L" n="39"/>quantum ebrietas meruit.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e862">
+            <lb ed="#L" n="40"/>AD PRIMUM ERGO DICENDUM quod Philosophus:
+            <lb ed="#L" n="41"/>non dicit quod mereatur graviorem 
+            maledictio<lb break="no" ed="#L" n="42"/>nem ebrius: sed quod mereatur duplices 
+            maledi<lb break="no" ed="#L" n="43"/>ctiones, propter duplex peccatum. 
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e873">
+            <lb ed="#L" n="44"/>Vel potest dici quod loquitur secundum legem
+            <lb ed="#L" n="45"/>cuiusdam Pittaci , qui, ut dicitur in II Polit. 
+            <lb ed="#L" n="46"/>statuit quod ebrii, si percuterent, plus punirentur 
+            <lb ed="#L" n="47"/>quam sobrii, quia pluries iniuriantur. In quo, ut
+            <lb ed="#L" n="48"/>ibidem Aristoteles dicit, videtur magis respexisse
+            <lb ed="#L" n="49"/>ad utilitatem, ut scilicet cohiberentur iniuriae,
+            <lb ed="#L" n="50"/>quam ad veniam quam oportet habere de ebriis,
+            <lb ed="#L" n="51"/>propter hoc quod non sunt sui compotes.
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e893">
+            <lb ed="#L" n="52"/>AD SECUNDUM DICENDUM quod ebrietas habet 
+            ex<lb break="no" ed="#L" n="53"/>cusare peccatum non ex ea parte qua est 
+            pec<lb break="no" ed="#L" n="54"/>catum, sed ex parte defectus consequentis, ut 
+            di<lb break="no" ed="#L" n="55"/>ctum est .
+          </p>
+          <p xml:id="TAca84-d1e2047-d1e905">
+            <lb ed="#L" n="56"/>AD TERTIUM DICENDUM quod concupiscentia non
+            <lb ed="#L" n="57"/>totaliter ligat rationem , sicut ebrietas: nisi forte
+            <lb ed="#L" n="58"/>sit tanta quod faciat hominem insanire. Et tamen
+            <lb ed="#L" n="59"/>passio concupiscentiae diminuit peccatum: quia
+            <lb ed="#L" n="60"/>levius est ex infirmitate quam ex malitia peccare,
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

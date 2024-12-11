@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 187</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 187</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="506"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2238"><!-- p2p2-q187 -->
+        <head xml:id="TAca84-d1e2238-Hd1e101">Quaestio 187</head>
+        <head xml:id="TAca84-d1e2238-Hd1e103" type="question-title">De his quae competunt religiosis</head>
+        <p xml:id="TAca84-d1e2238-d1e106">
+          <pb ed="#L" n="506"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=506"/>QUAESTIO CENTESIMAOCTOGESIMASEPTIMA
+          <lb ed="#L" n="2"/>DE HIS QUAE COMPETUNT RELIGIOSIS
+          <lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2238-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de his quae 
+          com<lb break="no" ed="#L" n="5"/>petunt religiosis 
+        </p>
+        <p xml:id="TAca84-d1e2238-d1e128">
+          <lb ed="#L" n="6"/>Et circa hoc quaeruntur sex.
+          <lb ed="#L" n="7"/>Primo: utrum liceat eis docere, praedicare, et
+          <lb ed="#L" n="8"/>alia huiusmodi facere.
+          <lb ed="#L" n="9"/>Secundo: utrum liceat eis de negotiis 
+          saecula<lb break="no" ed="#L" n="10"/>ribus se intromittere.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="11"/>Tertio: utrum teneantur manibus. operari.
+          <lb ed="#L" n="12"/>Quarto: utrum liceat eis de eleemosynis 
+          vi<lb break="no" ed="#L" n="13"/>vere.
+          <lb ed="#L" n="14"/>Quinto: utrum liceat eis mendicare.
+          <lb ed="#L" n="15"/>Sexto: utrum liceat eis vestimenta ceteris 
+          vi<lb break="no" ed="#L" n="16"/>liora deferre.
+        </p>
+        <div xml:id="TAca84-d1e2238-Dd1e158"><!-- p2p2-q187a1 -->
+          <head xml:id="TAca84-d1e2238-Hd1e161">Articulus 1</head>
+          <head xml:id="TAca84-d1e2238-Hd1e163" type="question-title">Utrum religiosis liceat docere, praedicare, et alia huiusmodi facere</head>
+          <p xml:id="TAca84-d1e2238-d1e166">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="17" type="fixed=506"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="18"/>UTRUM RELIGIOSIS LICEAT DOCERE, PRAEDICARE, ET ALIA HUIUSMODI FACERE
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e175">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="19"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="20"/>religiosis non liceat docere, praedicare,
+            <lb ed="#L" n="21"/>et alia huiusmodi facere. Dicitur enim
+            <lb ed="#L" n="22"/>VII, qu. 1 , in quodam statuto 
+            Con<lb break="no" ed="#L" n="23"/>stantinopolitanae Synodi : Monachorum vita 
+            sub<lb break="no" ed="#L" n="24"/>iectionis habet verbum et discipulatus : non 
+            do<lb break="no" ed="#L" n="25"/>cendi, vel praesidendi, vel pascendi alios. 
+            Hierony<lb break="no" ed="#L" n="26"/>mus etiam dicit, ad Riparium et Desiderium :
+            <lb ed="#L" n="27"/>Monachus non doctoris, sed plangentis habet 
+            of<lb break="no" ed="#L" n="28"/>ficium. Leo etiam Papa  dicit , ut habetur XVI,
+            <lb ed="#L" n="29"/>qu. 1: Praeter Domini sacerdotes, nullus audeat
+            <lb ed="#L" n="30"/>praedicare, sive monachus sive laicus ille sit qui
+            <lb ed="#L" n="31"/>cuiuslibet scientiae nomine gloriatur. Sed non licet
+            <lb ed="#L" n="32"/>transgredi proprium officium et statutum 
+            Eccle<lb break="no" ed="#L" n="33"/>siae. Ergo videtur quod religiosis non liceat 
+            do<lb break="no" ed="#L" n="34"/>cere, praedicare, et alia huiusmodi facere.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e214">
+            <lb ed="#L" n="35"/>2. PRAETEREA, in statuto Nicaenae Synodi, quod
+            <lb ed="#L" n="36"/>ponitur XVI, qu. 1 , sic dicitur: Firmiter et 
+            in<lb break="no" ed="#L" n="37"/>dissolubiliter omnibus praecipimus, ut aliquis 
+            mo<lb break="no" ed="#L" n="38"/>nachus poenitentiam nemini tribuat, nisi invicem
+            <lb ed="#L" n="39"/>sibi, ut iustum est. Mortuum non sepeliat, nisi
+            <lb ed="#L" n="40"/>monachum secum in monasterio commorantem ,
+            <lb ed="#L" n="41"/>vel si fortuito quemcumque advenientium fratrum
+            <lb ed="#L" n="42"/>ibi mori contigerit, Sed sicut ista pertinent ad
+            <lb ed="#L" n="43"/>officium clericorum, ita etiam praedicare et 
+            do<lb break="no" ed="#L" n="44"/>cere. Ergo, cum alia sit causa monachi, et alia
+            <lb ed="#L" n="45"/>clerici, sicut Hieronymus dicit, ad Heliodorum ;
+            <lb ed="#L" n="46"/>videtur quod non liceat religiosis praedicare et
+            <lb ed="#L" n="47"/>docere, et alia huiusmodi facere.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e246">
+            <lb ed="#L" n="48"/>3. PRAETEREA, <ref xml:id="TAca84-d1e2238-Rd1e250">Gregorius dicit, in Regist.</ref> :
+            <lb ed="#L" n="49"/>Nemo potest ecclesiasticis obsequiis deservire, et
+            <lb ed="#L" n="50"/>in monastica ? regula ordinate persistere: et 
+            habe<lb break="no" ed="#L" n="51"/>tur <ref xml:id="TAca84-d1e2238-Rd1e259">XVI, qu. 1.</ref> Sed monachi tenentur in 
+            mona<lb break="no" ed="#L" n="52"/>stica regula ordinate persistere. Ergo videtur quod
+            <lb ed="#L" n="53"/>non possint ecclesiasticis obsequiis deservire.
+            <lb ed="#L" n="54"/>Docere autem et praedicare pertinent ad 
+            eccle<lb break="no" ed="#L" n="55"/>siastica obsequia. Ergo videtur quod non liceat 
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="56"/>eis praedicare aut docere, aut aliquid huiusmodi
+            <lb ed="#L" n="57"/>facere.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e277">
+            <lb ed="#L" n="58"/>SED CONTRA EST quod Gregorius dicit, et 
+            habe<lb break="no" ed="#L" n="59"/>tur causa et quaestione eadem : Ex auctoritate
+            <lb ed="#L" n="60"/>huius decreti, quod Apostolico moderamine et 
+            pie<lb break="no" ed="#L" n="61"/>latis officio a nobis est constitutum, sacerdotibus
+            <lb ed="#L" n="62"/>monachis, Apostolorum figuram tenentibus, liceat
+            <lb ed="#L" n="63"/>praedicare, baptizare, communionem dare, pro
+            <lb ed="#L" n="64"/>peccatoribus orare, poenitentiam imponere, atque
+            <lb ed="#L" n="65"/>peccata solvere.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e297">
+            <lb ed="#L" n="66"/>RESPONDEO DICENDUM quod aliquid dicitur non
+            <lb ed="#L" n="67"/>licere alicui dupliciter. Uno modo, quia habet
+            <lb ed="#L" n="68"/>in se quod contrariatur ei quod dicitur non 
+            li<lb break="no" ed="#L" n="69"/>cere: sicut nulli homini licet peccare, quia habet
+            <lb ed="#L" n="70"/>in se quilibet homo rationem et obligationem ad
+            <lb ed="#L" n="71"/>legem Dei, quibus contrariatur peccatum. Et hoc
+            <lb ed="#L" n="72"/>modo. dicitur alicui non licere praedicare vel
+            <lb ed="#L" n="73"/>docere, vel aliquid huiusmodi facere, quia habet
+            <lb ed="#L" n="74"/>in se aliquid quod his repugnat: vel ratione 
+            prae<lb break="no" ed="#L" n="75"/>cepti, sicut his qui sunt irregulares, ex statuto
+            <lb ed="#L" n="76"/>Ecclesiae, non licet ascendere ad sacros ordines;
+            <lb ed="#L" n="77"/>vel propter peccatum, secundum illud Psalmi :
+            <lb ed="#L" n="78"/>Peccatori autem dixit Deus: Quare tu enarras
+            <lb ed="#L" n="79"/>iustitias meas?
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e330">
+            <lb ed="#L" n="80"/>Hoc autem modo, non est illicitum religiosis
+            <lb ed="#L" n="81"/>praedicare, docere, et alia huiusmodi facere. Tum
+            <lb ed="#L" n="82"/>quia ex voto vel praecepto regulae non 
+            obligan<lb break="no" ed="#L" n="83"/>tur ad hoc quod ab his abstineant. - Tum etiam
+            <lb ed="#L" n="84"/>quia non redduntur ad haec minus idonei ex 
+            ali<lb break="no" ed="#L" n="85"/>quo peccato commisso : sed magis idonei, ex 
+            exer<lb break="no" ed="#L" n="86"/>citio sanctitatis quod assumpserunt.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e348">
+            <lb ed="#L" n="87"/>Stultum autem est dicere ut per hoc quod 
+            ali<lb break="no" ed="#L" n="88"/>quis in sanctitate promovetur, efficiatur minus
+            <lb ed="#L" n="89"/>idoneus ad spiritualia officia exercenda. Et ideo
+            <lb ed="#L" n="90"/>stulta est quorundam opinio dicentium quod ipse
+            <lb ed="#L" n="91"/>status religionis impedimentum affert talia 
+            exe<lb break="no" ed="#L" n="92"/>quendi. Quorum errorem Bonifacius Papa 
+            <pb ed="#L" n="507"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>rationibus supra dictis excludit, dicens, ut habetur 
+            <lb ed="#L" n="2"/>
+            <ref xml:id="TAca84-d1e2238-Rd1e371">XVI, qu. 1</ref> : Sunt nonnulli, nullo dogmate fulti ,
+            <lb ed="#L" n="3"/>audacissimo quidem zelo magis amaritudinis quam
+            <lb ed="#L" n="4"/>dilectionis inflammati, asserentes monachos, quia
+            <lb ed="#L" n="5"/>mundo mortui sunt et Deo vivunt, sacerdotalis
+            <lb ed="#L" n="6"/>officii potentia indignos. Sed omnino labuntur.
+            <lb ed="#L" n="7"/>Quod ostendit, primo quidem, quia non 
+            contra<lb break="no" ed="#L" n="8"/>riatur regulae: subdit enim: Neque enim beatus
+            <lb ed="#L" n="9"/>Benedictus, monachorum praeceptor almificus, 
+            hu<lb break="no" ed="#L" n="10"/>iuscemodi rei aliquo modo fuit interdictor. Et 
+            simi<lb break="no" ed="#L" n="11"/>liter nec in aliis regulis hoc prohibetur. - Secundo
+            <lb ed="#L" n="12"/>improbat praedictum errorem ex idoneitate 
+            mo<lb break="no" ed="#L" n="13"/>nachorum, cum in fine capituli subdit: Quanto
+            <lb ed="#L" n="14"/>quisque est excellentior, tanto et in illis, scilicet
+            <lb ed="#L" n="15"/>spiritualibus operibus, potentior.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e403">
+            <lb ed="#L" n="16"/>Alio modo dicitur aliquid non licere alicui, non
+            <lb ed="#L" n="17"/>propter contrarium quod habeat, sed propter hoc
+            <lb ed="#L" n="18"/>quod ei deficit unde illud possit: sicut diacono
+            <lb ed="#L" n="19"/>non licet missam celebrare, quia non habet 
+            or<lb break="no" ed="#L" n="20"/>dinem sacerdotalem ; et presbytero non licet 
+            sen<lb break="no" ed="#L" n="21"/>tentiam ferre, quia non habet episcopalem 
+            au<lb break="no" ed="#L" n="22"/>ctoritatem. In quibus tamen est distinguendum.
+            <lb ed="#L" n="23"/>Quia ea quae sunt ordinis, committi non possunt
+            <lb ed="#L" n="24"/>nisi ei qui ordinem habet : sicut diacono non
+            <lb ed="#L" n="25"/>potest committi quod celebret missam, nisi fiat
+            <lb ed="#L" n="26"/>sacerdos. Ea vero quae sunt iurisdictionis, 
+            com<lb break="no" ed="#L" n="27"/>mitti possunt eis qui non habent ordinariam 
+            iu<lb break="no" ed="#L" n="28"/>risdictionem: sicut prolatio sententiae committitur
+            <lb ed="#L" n="29"/>ab episcopo simplici sacerdoti.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e437">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="30"/>Et hoc modo dicitur non licere monachis et
+            <lb ed="#L" n="31"/>alis religiosis praedicare, docere, et alia 
+            huius<lb break="no" ed="#L" n="32"/>modi facere: quia status religionis non dat eis
+            <lb ed="#L" n="33"/>potestatem haec faciendi. Possunt tamen ista 
+            fa<lb break="no" ed="#L" n="34"/>cere si ordinem accipiant vel ordinariam 
+            iurisdi<lb break="no" ed="#L" n="35"/>ctionem: aut etiam si eis committantur ea quae
+            <lb ed="#L" n="36"/>sunt iurisdictionis.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e457">
+            <lb ed="#L" n="37"/>AD PRIMUM ERGO DICENDUM quod ex verbis illis
+            <lb ed="#L" n="38"/>habetur quod monachi, ex hoc quod sunt 
+            mo<lb break="no" ed="#L" n="39"/>nachi, non nanciscuntur potestatem talia faciendi:
+            <lb ed="#L" n="40"/>non autem quod ex hoc quod sunt monachi,
+            <lb ed="#L" n="41"/>habeant aliquid contrarium executioni talium
+            <lb ed="#L" n="42"/>actuum.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e473">
+            <lb ed="#L" n="43"/>AD SECUNDUM DICENDUM quod illud etiam 
+            sta<lb break="no" ed="#L" n="44"/>tutum Nicaeni Concilii praecipit ut monachi non
+            <lb ed="#L" n="45"/>usurpent sibi, ex hoc quod sunt monachi, 
+            pote<lb break="no" ed="#L" n="46"/>statem ? huiusmodi actus exercendi. Non autem
+            <lb ed="#L" n="47"/>prohibet quin ista possint eis committi.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e486">
+            <lb ed="#L" n="48"/>AD TERTIUM DICENDUM quod ista duo se non
+            <lb ed="#L" n="49"/>compatiuntur, quod aliquis ordinariam curam 
+            ec<lb break="no" ed="#L" n="50"/>clesiasticorum officiorum habeat, et monasticam
+            <lb ed="#L" n="51"/>regulam in monasterio servet. Per hoc tamen
+            <lb ed="#L" n="52"/>non excluditur quin monachi et alii religiosi 
+            pos<lb break="no" ed="#L" n="53"/>sint interdum circa ecclesiastica officia occupari
+            <lb ed="#L" n="54"/>ex commissione praelatorum qui ordinariam 
+            cu<lb break="no" ed="#L" n="55"/>ram habent: et praecipue illi quorum religiones
+            <lb ed="#L" n="56"/>ad hoc sunt specialiter institutae, ut <ref xml:id="TAca84-d1e2238-Rd1e507">infra</ref>  
+            di<lb break="no" ed="#L" n="57"/>cetur.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2238-Dd1e513"><!-- p2p2-q187a2 -->
+          <head xml:id="TAca84-d1e2238-Hd1e516">Articulus 2</head>
+          <head xml:id="TAca84-d1e2238-Hd1e518" type="question-title">Utrum religiosis liceat saecularia negotia tractare</head>
+          <p xml:id="TAca84-d1e2238-d1e521">
+            <pb ed="#L" n="508"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=508"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="2"/>UTRUM RELIGIOSIS LICEAT SAECULARIA NEGOTIA TRACTARE
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e532">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>religiosis non liceat saecularia negotia
+            <lb ed="#L" n="5"/>tractare. Dicitur enim in praedicto 
+            <lb ed="#L" n="6"/>decreto Bonifacii Papae quod beatus
+            <lb ed="#L" n="7"/>Besedictus eos saecularium negotiorum edixit
+            <lb ed="#L" n="8"/>expertes fore. Quod quidem Apostolicis 
+            documen<lb break="no" ed="#L" n="9"/>lis, et omnium sanctorum Patrum "institutis, non
+            <lb ed="#L" n="10"/>solum monachis, sed etiam canonicis omnibus 
+            im<lb break="no" ed="#L" n="11"/>peratur: secundum illud 1I ad 7?m. nu , Nemo
+            <lb ed="#L" n="12"/>militans Deo implicat se saecularibus negotiis.
+            <lb ed="#L" n="13"/>Sed omnibus religiosis imminet quod militent
+            <lb ed="#L" n="14"/>Deo. Ergo non licet eis saecularia negotia
+            <lb ed="#L" n="15"/>exercere.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e565">
+            <lb ed="#L" n="16"/>2. PRAETEREA, I ad Thessal. iv , dicit 
+            Aposto<lb break="no" ed="#L" n="17"/>lus: Operam detis ut quieti sitis, et ut negotium
+            <lb ed="#L" n="18"/>vestrum agalis: Glossa : Dimissis alienis: quod
+            <lb ed="#L" n="19"/>vobis utile est in emendationem vitae. Sed 
+            reli<lb break="no" ed="#L" n="20"/>giosi specialiter assumunt studium 
+            emendatio<lb break="no" ed="#L" n="21"/>nis vitae. Ergo non debent saecularia negotia
+            <lb ed="#L" n="22"/>exercere.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e584">
+            <lb ed="#L" n="23"/>3. PRAETEREA, super illud Matth. 1 , Ecce qui
+            <lb ed="#L" n="24"/>mollibus vestiuntur in domibus regum sunt, dicit
+            <lb ed="#L" n="25"/>Hieronymus : Ex hoc ostendit rigidam vitam et
+            <lb ed="#L" n="26"/>austeram praedicationem vitare debere aulas 
+            re<lb break="no" ed="#L" n="27"/>gum, et mollium 9? hominum palatia declinare. Sed
+            <lb ed="#L" n="28"/>necessitas saecularium negotiorum ingerit 
+            homi<lb break="no" ed="#L" n="29"/>nem ad frequentandum regum palatia. Ergo
+            <lb ed="#L" n="30"/>non licet religiosis aliqua negotia saecularia 
+            per<lb break="no" ed="#L" n="31"/>tractare.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e606">
+            <lb ed="#L" n="32"/>SEp coNTRA EsT quod Apostolus dicit, Rom.
+            <lb ed="#L" n="33"/>ult. : Commendo vobis Phoeben , sororem 
+            no<lb break="no" ed="#L" n="34"/>siram: et postea  subdit: Et assistatis ei in 
+            quo<lb break="no" ed="#L" n="35"/>cumque negolio vestri indiguerit.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e617">
+            <lb ed="#L" n="36"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="37"/>st, status religionis est ordinatus ad 
+            perfectio<lb break="no" ed="#L" n="38"/>nem caritatis consequendam. Ad quam quidem
+            <lb ed="#L" n="39"/>principaliter pertinet Dei dilectio, secundario 
+            au<lb break="no" ed="#L" n="40"/>tem dilectio proximi . Et ideo religiosi praecipue
+            <lb ed="#L" n="41"/>et propter se debent intendere ad hoc quod Deo
+            <lb ed="#L" n="42"/>vacent. Si autem necessitas proximis immineat,
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="43"/>eorum negotia ex caritate agere debent, 
+            secun<lb break="no" ed="#L" n="44"/>dum illud Galat. vi, Alter alterius onera 
+            por<lb break="no" ed="#L" n="45"/>late, et sic adimplebitis legem Christi: quia et in
+            <lb ed="#L" n="46"/>hoc ipso quod proximis serviunt propter Deum,
+            <lb ed="#L" n="47"/>dilectioni divinae obsequuntur. Unde dicitur Iac. 1:
+            <lb ed="#L" n="48"/>Religio munda et immaculata apud Deum et 
+            Pa<lb break="no" ed="#L" n="49"/>trem haec est, visitare pupillos et viduas in 
+            tri<lb break="no" ed="#L" n="50"/>bulatione eorum: Glossa : idest, succurrere eis
+            <lb ed="#L" n="51"/>qui carent praesidio in tempore necessitatis.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e656">
+            <lb ed="#L" n="52"/>Est ergo dicendum quod causa cupiditatis 
+            sae<lb break="no" ed="#L" n="53"/>cularia negotia gerere nec monachis nec clericis
+            <lb ed="#L" n="54"/>licet . Causa vero caritatis se negotiis 
+            saeculari<lb break="no" ed="#L" n="55"/>bus, cum debita moderatione, ingerere possunt ,
+            <lb ed="#L" n="56"/>secundum superioris licentiam, et ministrando
+            <lb ed="#L" n="57"/>et dirigendo. Unde dicitur in Decretis, dist.
+            <lb ed="#L" n="58"/>LXXXVIII : Decrevit sancta Synodus nullum
+            <lb ed="#L" n="59"/>deinceps clericum aut possessiones conducere, aut
+            <lb ed="#L" n="60"/>negotiis saecularibus se permiscere, nisi propter
+            <lb ed="#L" n="61"/>curam pupillorum aut orphanorum aut viduarum:
+            <lb ed="#L" n="62"/>aut si forte episcopus civitatis ecclesiasticarum 
+            re<lb break="no" ed="#L" n="63"/>rum sollicitudinem eum habere praecipiat. Eadem
+            <lb ed="#L" n="64"/>autem ratio est de religiosis et clericis: quia 
+            utris<lb break="no" ed="#L" n="65"/>que similiter negotia saecularia interdicuntur, ut
+            <lb ed="#L" n="66"/>dictum est.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e691">
+            <lb ed="#L" n="67"/>AD PRIMUM ERGO DICENDUM quod monachis 
+            in<lb break="no" ed="#L" n="68"/>terdicuntur tractare saecularia negotia propter
+            <lb ed="#L" n="69"/>cupiditatem: non autem propter caritatem.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e700">
+            <lb ed="#L" n="70"/>AD SECUNDUM DICENDUM quod non est curiositas,
+            <lb ed="#L" n="71"/>sed caritas, si propter necessitatem aliquis se 
+            ne<lb break="no" ed="#L" n="72"/>gotiis immisceat.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e710">
+            <lb ed="#L" n="73"/>AD TERTIUM DICENDUM quod frequentare palatia
+            <lb ed="#L" n="74"/>regum propter delicias vel gloriam vel 
+            cupidita<lb break="no" ed="#L" n="75"/>tem, non competit religiosis: sed ea adire 
+            pro<lb break="no" ed="#L" n="76"/>pter pias causas competit eis. Unde dicitur IV
+            <lb ed="#L" n="77"/>Reg.1v , quod Eliseus dixit ad mulierem: 
+            ANun<lb break="no" ed="#L" n="78"/>quid habes negotium, et vis ut loquar regi vel
+            <lb ed="#L" n="79"/>principi militiae? Similiter etiam convenit 
+            reli<lb break="no" ed="#L" n="80"/>giosis adire regum palatia ad eos arguendos et
+            <lb ed="#L" n="81"/>dirigendos: sicut Ioannes Baptista MISURPN, 
+            He<lb break="no" ed="#L" n="82"/>rodem, ut dicitur Matth. xiv .
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2238-Dd1e735"><!-- p2p2-q187a3 -->
+          <head xml:id="TAca84-d1e2238-Hd1e738">Articulus 3</head>
+          <head xml:id="TAca84-d1e2238-Hd1e740" type="question-title">Utrum religiosi manibus operari teneantur</head>
+          <p xml:id="TAca84-d1e2238-d1e743">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="79" type="fixed=509"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="80"/>UTRUM RELIGIOSI MANIBUS OPERARI TENEANTUR 
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e752">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="81"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="82"/>religiosi manibus operari teneantur. Non
+            <lb ed="#L" n="83"/>enim excusantur religiosi ab observantia
+            <lb ed="#L" n="84"/>praeceptorum. Sed operari manibus est
+            <lb ed="#L" n="85"/>in praecepto: secundum illud I ad 7hess. 1v :
+            <lb ed="#L" n="86"/>Operemini manibus vestris, sicut praecepimus 
+            vo<lb break="no" ed="#L" n="87"/>bis. Unde et Augustinus, in libro de Operibus 
+            Mo<lb break="no" ed="#L" n="88"/>nach., dicit: Ceterum quis ferat homines 
+            con<lb break="no" ed="#L" n="89"/>tumaces, idest religiosos non operantes, de 
+            qui<lb break="no" ed="#L" n="90"/>bus ibi loquitur, sa/uberrimis Apostoli monitis
+            <lb ed="#L" n="91"/>resistentes, non sicut infirmiores tolerari, sed sicut
+            <lb ed="#L" n="92"/>sanctiores  praedicari? Ergo videtur quod 
+            reli<lb break="no" ed="#L" n="93"/>giosi teneantur manibus operari.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e785">
+            <lb ed="#L" n="94"/>2. PnaETEREA, Il ad Thess. ni, super illud , S;
+            <lb ed="#L" n="95"/>quis non vult operari, nec manducet, dicit Glossa :
+            <lb ed="#L" n="96"/>Dicunt quidam de operibus spiritualibus hoc 
+            A<lb break="no" ed="#L" n="97"/>postolum praecepisse, non de opere corporali, in
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="98"/>quo agricolae vel opifices laborant; et infra: Sed
+            <lb ed="#L" n="99"/>superfluo conantur et sibi et ceteris caliginem 
+            ad<lb break="no" ed="#L" n="100"/>ducere, ut quod utiliter caritas monet, non solum
+            <lb ed="#L" n="101"/>facere nolint?, sed nec etiam intelligere; et infra:
+            <lb ed="#L" n="102"/>Vult servos Dei corporaliter operari unde vivant.
+            <lb ed="#L" n="103"/>Sed praecipue religiosi servi Dei nominantur,
+            <lb ed="#L" n="104"/>utpote se totaliter divino servitio mancipantes:
+            <lb ed="#L" n="105"/>sicut patet per Dionysium, vi cap. Eccles. Hier.
+            <lb ed="#L" n="106"/>Ergo videtur quod teneantur manibus operari.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e819">
+            <lb ed="#L" n="107"/>3. PRAETEREA, Augustinus dicit, in libro de
+            <lb ed="#L" n="108"/>Operibus Monach.: Quid agant qui operari 
+            cor<lb break="no" ed="#L" n="109"/>poraliter nolunt , scire desidero. Orationibus, 
+            in<lb break="no" ed="#L" n="110"/>quiunt, et psalmis, el lectionibus et verbo Dei. Sed
+            <lb ed="#L" n="111"/>quod per ista non excusentur, ostendit per 
+            sin<lb break="no" ed="#L" n="112"/>gula. Nam primo, de oratione dicit: Cifius 
+            ex<lb break="no" ed="#L" n="113"/>auditur una obedientis oratio quam decem millia
+            <lb ed="#L" n="114"/>contemptoris: illos contemptores intelligens et in-
+            <pb ed="#L" n="510"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>dignos exaudiri, qui manibus non operantur. 
+            Se<lb break="no" ed="#L" n="2"/>cundo, de divinis laudibus subdit: Cantica vero
+            <lb ed="#L" n="3"/>divina cantare etiam manibus operantes  facile
+            <lb ed="#L" n="4"/>possunt. Tertio, subiungit de lectione: Qui autem
+            <lb ed="#L" n="5"/>se dicunt vacare lectioni, nonne illic inveniunt
+            <lb ed="#L" n="6"/>quod praecipit Apostolus? Quae est ergo ista 
+            per<lb break="no" ed="#L" n="7"/>versitas, lectioni nolle obtemperare, dum vult ei 
+            <lb ed="#L" n="8"/>vacare? Quarto, subiungit de praedicatione: Si
+            <lb ed="#L" n="9"/>autem alicui sermo erogandus est, et ila occupat 
+            <lb ed="#L" n="10"/>ut manibus operari non vacet: nunquid hoc omnes
+            <lb ed="#L" n="11"/>in monasterio possunt? Quando ergo non omnes
+            <lb ed="#L" n="12"/>possunt, cur sub hoc obtentu omnes vacare volunt?
+            <lb ed="#L" n="13"/>Quanquam, si omnes possent, vicissitudine facere
+            <lb ed="#L" n="14"/>deberent: non solum ut ceteri necessariis operibus
+            <lb ed="#L" n="15"/>occuparentur, sed etiam quia sufficit ut multis
+            <lb ed="#L" n="16"/>audientibus unus loquatur. Ergo videtur quod
+            <lb ed="#L" n="17"/>religiosi non debent cessare ab opere manuali
+            <lb ed="#L" n="18"/>propter huiusmodi opera spiritualia quibus 
+            va<lb break="no" ed="#L" n="19"/>cant.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e884">
+            <lb ed="#L" n="20"/>PRAETEREA, Luc. xu, super illud , Vendite
+            <lb ed="#L" n="21"/>quae possidetis etc., dicit Glossa : Non tantum
+            <lb ed="#L" n="22"/>cibos vestros communicale pauperibus, sed etiam
+            <lb ed="#L" n="23"/>vendite possessiones vestras, ut, omnibus vestris
+            <lb ed="#L" n="24"/>semel pro Domino spretis, postea labore manuum
+            <lb ed="#L" n="25"/>operemini unde vivatis vel eleemosynam faciatis.
+            <lb ed="#L" n="26"/>Sed ad religiosos pertinet proprie omnia sua 
+            re<lb break="no" ed="#L" n="27"/>linquere. Ergo videtur quod etiam eorum sit de
+            <lb ed="#L" n="28"/>labore manuum suarum vivere et eleemosynas
+            <lb ed="#L" n="29"/>facere.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e908">
+            <lb ed="#L" n="30"/>5. PRAETEREA, religiosi praecipue videntur 
+            te<lb break="no" ed="#L" n="31"/>neri Apostolorum vitam imitari: quia statum 
+            per<lb break="no" ed="#L" n="32"/>fectionis profitentur. Sed Apostoli manibus 
+            pro<lb break="no" ed="#L" n="33"/>priis laborabant: secundum illud I ad Cor. iv :
+            <lb ed="#L" n="34"/>Laboramus operantes manibus nostris. Ergo 
+            vi<lb break="no" ed="#L" n="35"/>detur quod religiosi teneantur manibus operari.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e924">
+            <lb ed="#L" n="36"/>SED coNTRA, ad praecepta observanda quae
+            <lb ed="#L" n="37"/>communiter omnibus proponuntur, eodem modo
+            <lb ed="#L" n="38"/>tenentur religiosi et saeculares. Sed praeceptum
+            <lb ed="#L" n="39"/>de opere manuali communiter omnibus 
+            propo<lb break="no" ed="#L" n="40"/>nitur: ut patet II ad Thess. iii: Subtrahatis vos
+            <lb ed="#L" n="41"/>ab omni fratre ambulante inordinate, etc. (fratrem
+            <lb ed="#L" n="42"/>autem nominat quemlibet Christianum, sicut et
+            <lb ed="#L" n="43"/>I ad Cor. vu , Si quis frater habet uxorem 
+            in<lb break="no" ed="#L" n="44"/>fidelem, etc.); et ibidem  dicitur : Si quis non vult
+            <lb ed="#L" n="45"/>operari, nec manducet. Non ergo religiosi magis
+            <lb ed="#L" n="46"/>tenentur manibus operari quam saeculares.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e950">
+            <lb ed="#L" n="47"/>RESPONDEO DICENDUM quod labor manualis ad
+            <lb ed="#L" n="48"/>quatuor ordinatur. Primo quidem, et principaliter,
+            <lb ed="#L" n="49"/>ad victum quaerendum. Unde primo homini 
+            di<lb break="no" ed="#L" n="50"/>ctum est: in sudore vultus tui vesceris pane
+            <lb ed="#L" n="51"/>tuo. Et in Psalmo : Labores manuum tuarum
+            <lb ed="#L" n="52"/>quia manducabis, etc. - Secundo, ordinatur ad
+            <lb ed="#L" n="53"/>tollendum otium, ex quo multa mala oriuntur.
+            <lb ed="#L" n="54"/>Unde dicitur Eccli. xxxii : Mittes servum in 
+            ope<lb break="no" ed="#L" n="55"/>rationem, ne vacet: multam enim malitiam docuit
+            <lb ed="#L" n="56"/>oliositas. — Tertio, ordinatur ad concupiscentiae
+            <lb ed="#L" n="57"/>refrenationem, inquantum per hoc maceratur 
+            cor<lb break="no" ed="#L" n="58"/>pus. Unde II ad Cor. vi, dicitur: In laboribus,
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="59"/>in ieiuniis, in vigiliis, in castitate. - Quarto autem,
+            <lb ed="#L" n="60"/>ordinatur ad eleemosynas faciendas. Unde dicitur,
+            <lb ed="#L" n="61"/>ad Ephes. iv : Qui furabatur, iam non furetur :
+            <lb ed="#L" n="62"/>magis autem laboret", operando manibus suis quod
+            <lb ed="#L" n="63"/>bonum esi, ut habeat unde tribuat necessitatem
+            <lb ed="#L" n="64"/>patienti.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e994">
+            <lb ed="#L" n="65"/>Secundum ergo quod labor manualis ordinatur
+            <lb ed="#L" n="66"/>ad victum quaerendum, cadit sub necessitate 
+            prae<lb break="no" ed="#L" n="67"/>cepti prout est necessarium ad talem finem: quod
+            <lb ed="#L" n="68"/>enim ordinatur ad finem, a fine necessitatem
+            <lb ed="#L" n="69"/>habet; ut scilicet in tantum sit necessarium in
+            <lb ed="#L" n="70"/>quantum sine eo finis esse non potest. Et ideo
+            <lb ed="#L" n="71"/>qui non habet aliunde unde possit vivere, tenetur
+            <lb ed="#L" n="72"/>manibus operari, cuiuscumque sit conditionis. Et
+            <lb ed="#L" n="73"/>hoc significant verba Apostoli dicentis , Qui non
+            <lb ed="#L" n="74"/>vult operari, nec manducet: quasi diceret: Ea
+            <lb ed="#L" n="75"/>necessitate tenetur aliquis ad manibus operandum,
+            <lb ed="#L" n="76"/>qua tenetur ad manducandum. Unde si quis 
+            abs<lb break="no" ed="#L" n="77"/>que manducatione posset vitam transigere, non
+            <lb ed="#L" n="78"/>teneretur manibus operari. Et eadem ratio est
+            <lb ed="#L" n="79"/>de illis qui habent alias unde licite vivere 
+            pos<lb break="no" ed="#L" n="80"/>sint. Non enim intelligitur aliquis posse facere
+            <lb ed="#L" n="81"/>quod non licite facere potest. Unde et Apostolus
+            <lb ed="#L" n="82"/>non invenitur opus manuum praecepisse nisi ad
+            <lb ed="#L" n="83"/>excludendum peccatum eorum qui illicite victum
+            <lb ed="#L" n="84"/>acquirebant. Nam primo quidem praecepit 
+            Apo<lb break="no" ed="#L" n="85"/>stolus opus manuale ad evitandum furtum: ut
+            <lb ed="#L" n="86"/>patet ad Ephes. iv : Qui furabatur, iam non
+            <lb ed="#L" n="87"/>furetur: magis autem laboret operando manibus
+            <lb ed="#L" n="88"/>suis. Secundo, ad vitandum cupiditatem 
+            aliena<lb break="no" ed="#L" n="89"/>rum rerum: unde dicit, 1 ad 7hess. iv : 
+            Opere<lb break="no" ed="#L" n="90"/>mini  manibus vestris, sicut praecepimus vobis:
+            <lb ed="#L" n="91"/>ut honeste ambuletis ad illos qui foris sunt. Tertio,
+            <lb ed="#L" n="92"/>ad evitandum turpia negotia, ex quibus aliqui
+            <lb ed="#L" n="93"/>victum acquirunt: unde II ad 7hess. ur , dicit:
+            <lb ed="#L" n="94"/>Cum essemus apud vos, hoc denuntiabamus vobis,
+            <lb ed="#L" n="95"/>quoniam si quis non vult operari, non manducet.
+            <lb ed="#L" n="96"/>Audivimus enim quosdam inter vos ambulare
+            <lb ed="#L" n="97"/>inquiete, nihil operantes, sed curiose agentes: -
+            <lb ed="#L" n="98"/>Glossa : Qui foeda cura necessaria sibi 
+            provi<lb break="no" ed="#L" n="99"/>dent. His autem qui huiusmodi sunt, denuntiamus
+            <lb ed="#L" n="100"/>et obsecramus ut cum silentio operantes panem
+            <lb ed="#L" n="101"/>suum manducent. Unde Hieronymus dicit, super
+            <lb ed="#L" n="102"/>Epist. ad Galat. , quod Apostolus hoc dixit non
+            <lb ed="#L" n="103"/>lam officio docentis quam vitio gentis. - 
+            Scien<lb break="no" ed="#L" n="104"/>dum tamen quod sub opere manuali intelliguntur
+            <lb ed="#L" n="105"/>omnia humana officia ex quibus homines licite
+            <lb ed="#L" n="106"/>victum lucrantur, sive manibus, sive pedibus, sive
+            <lb ed="#L" n="107"/>lingua fiant: vigiles enim et cursores, et alia 
+            hu<lb break="no" ed="#L" n="108"/>iusmodi de suo labore viventes, intelliguntur de
+            <lb ed="#L" n="109"/>operibus manuum vivere. Quia enim manus est
+            <lb ed="#L" n="110"/>organum organorum , per opus manuum omnis
+            <lb ed="#L" n="111"/>operatio intelligitur de qua aliquis potest licite
+            <lb ed="#L" n="112"/>victum lucrari.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1102">
+            <lb ed="#L" n="113"/>Secundum autem quod opus manuale 
+            ordi<lb break="no" ed="#L" n="114"/>natur ad otium tollendum, vel ad corporis 
+            ma<lb break="no" ed="#L" n="115"/>cerationem , non cadit sub necessitate praecepti
+            <lb ed="#L" n="116"/>secundum se consideratum : quia multis aliis mo-
+            <pb ed="#L" n="511"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>dis potest vel caro macerari, vel etiam otium
+            <lb ed="#L" n="2"/>tolli; quam per opus manuale. Maceratur enim
+            <lb ed="#L" n="3"/>caro per ieiunia et vigilias. Et otium tollitur per
+            <lb ed="#L" n="4"/>meditationes sanctarum Scripturarum et laudes
+            <lb ed="#L" n="5"/>divinas: unde super illud Psalmi , Defecerunt
+            <lb ed="#L" n="6"/>oculi mei in eloquium tuum, dicit Glossa : Non
+            <lb ed="#L" n="7"/>est otiosus qui verbo Dei tantum studet: nec pluris
+            <lb ed="#L" n="8"/>est qui extra operatur quam qui studium 
+            cogno<lb break="no" ed="#L" n="9"/>scendae veritatis exercet. Et ideo propter has
+            <lb ed="#L" n="10"/>causas religiosi non tenentur ad opera manualia,
+            <lb ed="#L" n="11"/>sicut nec saeculares: nisi forte ad haec per 
+            sta<lb break="no" ed="#L" n="12"/>tuta sui ordinis obligentur; sicut Hieronymus
+            <lb ed="#L" n="13"/>dicit, in Epistola ad Rusticum Monachum : 
+            Ae<lb break="no" ed="#L" n="14"/>gyptiorum monasteria hunc tenent morem, ut
+            <lb ed="#L" n="15"/>nullum absque opere aut labore suscipiant: non
+            <lb ed="#L" n="16"/>tam propter victus necessitatem quam propter 
+            ani<lb break="no" ed="#L" n="17"/>mae salutem, ne vagentur perniciosis 
+            cogitatio<lb break="no" ed="#L" n="18"/>nibus.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1157">
+            <lb ed="#L" n="19"/>Inquantum vero opus manuale ordinatur ad
+            <lb ed="#L" n="20"/>eleemosynas faciendas, non cadit sub necessitate
+            <lb ed="#L" n="21"/>praecepti: nisi forte in aliquo casu in quo ex
+            <lb ed="#L" n="22"/>necessitate aliquis eleemosynas facere teneretur,
+            <lb ed="#L" n="23"/>et non posset alias habere unde pauperibus 
+            sub<lb break="no" ed="#L" n="24"/>veniret. In quo casu obligarentur similiter 
+            reli<lb break="no" ed="#L" n="25"/>giosi et saeculares ad opera manualia exequenda.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1175">
+            <lb ed="#L" n="26"/>AD PRIMUM ERGO DICENDUM quod illud 
+            praece<lb break="no" ed="#L" n="27"/>ptum quod ab Apostolo proponitur, est de iure
+            <lb ed="#L" n="28"/>naturali. Unde super illud II ad 77ess. ur , Ut
+            <lb ed="#L" n="29"/>subtrahatis vos ab omni fratre inordinate 
+            ambu<lb break="no" ed="#L" n="30"/>lante, dicit Glossa : aliter quam ordo naturae
+            <lb ed="#L" n="31"/>exigit: loquitur autem ibi de his qui ab opere
+            <lb ed="#L" n="32"/>manuali cessabant . Unde et natura manus 
+            ho<lb break="no" ed="#L" n="33"/>mini dedit loco armorum et tegumentorum, quae
+            <lb ed="#L" n="34"/>aliis animalibus tribuit: ut scilicet per manus haec
+            <lb ed="#L" n="35"/>et omnia ' necessaria conquirant. Ex quo patet
+            <lb ed="#L" n="36"/>quod communiter ad hoc praeceptum tenentur
+            <lb ed="#L" n="37"/>et religiosi et saeculares: sicut ad omnia alia legis
+            <lb ed="#L" n="38"/>naturalis praecepta.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1206">
+            <lb ed="#L" n="39"/>Non tamen peccant quicumque manibus non
+            <lb ed="#L" n="40"/>operantur. Quia ad illa praecepta legis naturae
+            <lb ed="#L" n="41"/>quae pertinent ad bonum multorum, non 
+            tenen<lb break="no" ed="#L" n="42"/>tur singuli, sed sufficit quod unus vacet huic 
+            of<lb break="no" ed="#L" n="43"/>ficio, alius alii: puta quod quidam sint opifices,
+            <lb ed="#L" n="44"/>quidam agricolae, quidam iudices, quidam 
+            do<lb break="no" ed="#L" n="45"/>ctores, et sic de aliis; secundum illud Apostoli,
+            <lb ed="#L" n="46"/>I ad Cor. xu : Si totum corpus oculus, ubi 
+            au<lb break="no" ed="#L" n="47"/>ditus? Et si totum auditus, ubi odoratus?
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1228">
+            <lb ed="#L" n="48"/>AD SECUNDUM DICENDUM quod glossa illa sumitur
+            <lb ed="#L" n="49"/>ab Augustino, in libro de Operibus Monach. , in
+            <lb ed="#L" n="50"/>quo loquitur contra monachos quosdam qui 
+            di<lb break="no" ed="#L" n="51"/>cebant non esse licitum servis Dei manibus 
+            ope<lb break="no" ed="#L" n="52"/>rari, propter hoc quod Dominus dicit, Matth. vr :
+            <lb ed="#L" n="53"/>INolite solliciti esse animae vestrae, quid 
+            mandu<lb break="no" ed="#L" n="54"/>celis. Nec tamen per haec verba inducitur 
+            ne<lb break="no" ed="#L" n="55"/>cessitas religiosis manibus operandi, si habent
+            <lb ed="#L" n="56"/>aliunde unde vivere possint. Quod patet per hoc
+            <lb ed="#L" n="57"/>quod subdit : Vult servos Dei corporaliter 
+            ope<lb break="no" ed="#L" n="58"/>rari unde vivant. Hoc autem non magis pertinet
+            <lb ed="#L" n="59"/>ad religiosos quam. ad saeculares. Quod patet
+            <lb ed="#L" n="60"/>ex duobus. Primo quidem, ex ipso modo 
+            lo<lb break="no" ed="#L" n="61"/>quendi quo Apostolus utitur, dicens: Subtrahatis 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="62"/>vos ab omni fratre ambulante inordinate. Fratres
+            <lb ed="#L" n="63"/>enim omnes Christianos vocat: nondum enim
+            <lb ed="#L" n="64"/>erant tunc temporis religiones institutae. — 
+            Se<lb break="no" ed="#L" n="65"/>cundo, quia religiosi non tenentur ad alia quam
+            <lb ed="#L" n="66"/>saeculares nisi propter regulae professionem. Et
+            <lb ed="#L" n="67"/>ideo, si in statutis regulae non contineatur 
+            ali<lb break="no" ed="#L" n="68"/>quid de opere manuali, non tenentur aliter ad
+            <lb ed="#L" n="69"/>operandum manibus religiosi quam saeculares.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1280">
+            <lb ed="#L" n="70"/>AD TERTIUM DICENDUM quod illis operibus 
+            spi<lb break="no" ed="#L" n="71"/>ritualibus quae ibi tangit Augustinus, potest 
+            ali<lb break="no" ed="#L" n="72"/>quis vacare dupliciter: uno modo, quasi 
+            deser<lb break="no" ed="#L" n="73"/>viens utilitati communi; alio modo, quasi 
+            insi<lb break="no" ed="#L" n="74"/>stens utilitati privatae. llli ergo qui praedictis
+            <lb ed="#L" n="75"/>spiritualibus operibus publice vacant, excusantur
+            <lb ed="#L" n="76"/>per huiusmodi opera spiritualia ab opere manuali,
+            <lb ed="#L" n="77"/>duplici ratione. Primo quidem, quia oportet eos
+            <lb ed="#L" n="78"/>totaliter esse occupatos circa huiusmodi opera. -
+            <lb ed="#L" n="79"/>Secundo, quia huiusmodi opera exercentibus 
+            de<lb break="no" ed="#L" n="80"/>betur subministratio victus ab his quorum utilitati
+            <lb ed="#L" n="81"/>deserviunt.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1310">
+            <lb ed="#L" n="82"/>Illi vero qui praedictis operibus non quasi
+            <lb ed="#L" n="83"/>publicis, sed quasi privatis vacant, nec oportet
+            <lb ed="#L" n="84"/>quod per huiusmodi opera a manualibus operibus
+            <lb ed="#L" n="85"/>abstrahantur: nec etiam fit eis debitum ut de
+            <lb ed="#L" n="86"/>stipendiis fidelium vivant. Et de talibus loquitur
+            <lb ed="#L" n="87"/>Augustinus. Quod enim dicit, Cantica divina 
+            de<lb break="no" ed="#L" n="88"/>cantare manibus operantes possunt, exemplo 
+            opi<lb break="no" ed="#L" n="89"/>ficum, qui fabulis linguas dant cum tamen 
+            ma<lb break="no" ed="#L" n="90"/>nus ab opere non recedant: manifestum est quod
+            <lb ed="#L" n="91"/>non potest intelligi de his qui horas canonicas
+            <lb ed="#L" n="92"/>in ecclesia decantant; sed intelligitur de his qui
+            <lb ed="#L" n="93"/>psalmos vel hymnos dicunt quasi privatas 
+            ora<lb break="no" ed="#L" n="94"/>tiones. - Similiter quod dicit de lectione et 
+            ora<lb break="no" ed="#L" n="95"/>tione, referendum est ad orationes et lectiones
+            <lb ed="#L" n="96"/>privatas, quas etiam laici interdum faciunt: non
+            <lb ed="#L" n="97"/>autem ad illos qui publicas orationes in ecclesia
+            <lb ed="#L" n="98"/>faciunt, vel etiam publicas lectiones in scholis
+            <lb ed="#L" n="99"/>legunt. Unde non dicit, Qui dicunt se vacare 
+            do<lb break="no" ed="#L" n="100"/>cirinae vel instructioni: sed, Qui dicunt se vacare
+            <lb ed="#L" n="101"/>lectioni. - Similiter autem de. praedicatione 
+            lo<lb break="no" ed="#L" n="102"/>quitur, non quae fit publice ad populum: sed
+            <lb ed="#L" n="103"/>quae specialiter fit ad unum vel paucos per
+            <lb ed="#L" n="104"/>modum privatae admonitionis. Unde signanter
+            <lb ed="#L" n="105"/>dicit, SS? alicui sermo erogandus est: nam, sicut
+            <lb ed="#L" n="106"/>Glossa  dicit, I ad Cor. u , sermo est qui 
+            pri<lb break="no" ed="#L" n="107"/>vatim fit, praedicatio quae fit in communi.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1369">
+            <lb ed="#L" n="108"/>AD QUARTUM DICENDUM quod illi qui omnia 
+            pro<lb break="no" ed="#L" n="109"/>pter Deum spernunt, tenentur manibus operari
+            <lb ed="#L" n="110"/>quando non habent alias unde vivant, vel unde
+            <lb ed="#L" n="111"/>eleemosynas faciant in casu in quo facere 
+            elee<lb break="no" ed="#L" n="112"/>mosynam cadit sub praecepto: non autem aliter,
+            <lb ed="#L" n="113"/>ut dictum est . Et secundum hoc loquitur glossa
+            <lb ed="#L" n="114"/>inducta.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1387">
+            <lb ed="#L" n="115"/>AD QUINTUM DICENDUM quod hoc quod Apostoli
+            <lb ed="#L" n="116"/>manibus laboraverunt, quandoque quidem fuit
+            <lb ed="#L" n="117"/>necessitatis, quandoque vero supererogationis.
+            <lb ed="#L" n="118"/>Necessitatis quidem, quando ab aliis victum 
+            in<lb break="no" ed="#L" n="119"/>venire non poterant: unde super illud I ad
+            <lb ed="#L" n="120"/>Cor. iv , Laboramus operantes manibus nostris,
+            <lb ed="#L" n="121"/>dicit Glossa : Quia nemo dat nobis. 
+            Superero<lb break="no" ed="#L" n="122"/>gationis autem, ut patet per id quod habetur <ref xml:id="TAca84-d1e2238-Rd1e1406">I ad
+              <pb ed="#L" n="512"/>
+              <cb ed="#L" n="a"/>
+              <lb ed="#L" n="1"/>Cor. IX</ref> , ubi dicit Apostolus quod nom usus est
+            <lb ed="#L" n="2"/>potestate quam habebat vivendi de Evangelio.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1418">
+            <lb ed="#L" n="3"/>Hac autem supererogatione utebatur 
+            Aposto<lb break="no" ed="#L" n="4"/>lus tribus de causis. Primo quidem, ut 
+            occasio<lb break="no" ed="#L" n="5"/>nem praedicandi auferret pseudoapostolis, qui
+            <lb ed="#L" n="6"/>propter sola temporalia praedicabant. Unde 
+            di<lb break="no" ed="#L" n="7"/>cit, <ref xml:id="TAca84-d1e2238-Rd1e1431">II ad Cor. x1</ref> : Quod autem facio, et 
+            fa<lb break="no" ed="#L" n="8"/>ciam, ut amputem eorum occasionem , etc. -
+            <lb ed="#L" n="9"/>Secundo, ad evitandum gravamen eorum quibus
+            <lb ed="#L" n="10"/>praedicabat. Unde dicit, <ref xml:id="TAca84-d1e2238-Rd1e1439">Il ad Cor. xu</ref>  : Quid
+            <lb ed="#L" n="11"/>minus habuistis prae ceteris ecclesiis, nisi quod
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="12"/>ego ipse non gravavi vos? — Tertio, ad dandum
+            <lb ed="#L" n="13"/>exemplum operandi otiosis. Unde <ref xml:id="TAca84-d1e2238-Rd1e1450">II ad Thess.</ref> in,
+            <lb ed="#L" n="14"/>dicit: Nocte et die operantes, ut formam daremus
+            <lb ed="#L" n="15"/>vobis ad imitandum nos. - Quod tamen Apostolus
+            <lb ed="#L" n="16"/>non faciebat in locis in quibus habebat 
+            faculta<lb break="no" ed="#L" n="17"/>tem quotidie praedicandi, sicut Athenis : ut 
+            Au<lb break="no" ed="#L" n="18"/>gustinus dicit, in libro de Operibus Monachorum .
+            <lb ed="#L" n="19"/>Non autem propter hoc religiosi tenentur 
+            Apo<lb break="no" ed="#L" n="20"/>stolum in hoc imitari: cum non teneantur ad
+            <lb ed="#L" n="21"/>omnes supererogationes. Unde nec alii apostoli
+            <lb ed="#L" n="22"/>manibus operabantur. 
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2238-Dd1e1474"><!-- p2p2-q187a4 -->
+          <head xml:id="TAca84-d1e2238-Hd1e1477">Articulus 4</head>
+          <head xml:id="TAca84-d1e2238-Hd1e1479" type="question-title">Utrum religiosis liceat de eleemosynis vivere</head>
+          <p xml:id="TAca84-d1e2238-d1e1482">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="9" type="fixed=513"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="10"/>UTRUM RELIGIOSIS LICEAT DE ELEEMOSYNIS VIVERE
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1491">
+            <lb ed="#L" n="11"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="12"/>religiosis non liceat de eleemosynis 
+            vi<lb break="no" ed="#L" n="13"/>vere. Apostolus enim, <ref xml:id="TAca84-d1e2238-Rd1e1499">I ad Tim. X</ref>
+            <lb ed="#L" n="14"/>praecipit ut viduae quae possunt aliunde
+            <lb ed="#L" n="15"/>sustentari, non vivant de eleemosynis ecclesiae,
+            <lb ed="#L" n="16"/>ut ecclesia sufficiat illis quae vere viduae sunt. Et
+            <lb ed="#L" n="17"/>Hieronymus dicit, ad Damasum Papam , quod
+            <lb ed="#L" n="18"/>qui bonis parentum et opibus sustentari possunt,
+            <lb ed="#L" n="19"/>si quod- pauperum est accipiunt, sacrilegium 
+            pro<lb break="no" ed="#L" n="20"/>fecto committunt, el per abusionem talium 
+            iu<lb break="no" ed="#L" n="21"/>dicium sibi manducant et bibunt. Sed religiosi
+            <lb ed="#L" n="22"/>possunt de labore manuum sustentari, si sint
+            <lb ed="#L" n="23"/>validi. Ergo videtur quod peccent eleemosynas
+            <lb ed="#L" n="24"/>pauperum comedendo.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1526">
+            <lb ed="#L" n="25"/>2. PRAETEREA, vivere de sumptibus fidelium est
+            <lb ed="#L" n="26"/>merces deputata praedicantibus Evangelium pro
+            <lb ed="#L" n="27"/>suo labore vel opere: secundum illud Matth. x :
+            <lb ed="#L" n="28"/>Dignus est operarius cibo suo. Sed praedicare
+            <lb ed="#L" n="29"/>Evangelium non pertinet ad religiósos, sed 
+            ma<lb break="no" ed="#L" n="30"/>xime ad praelatos, qui sunt pastores et doctores.
+            <lb ed="#L" n="31"/>Ergo religiosi non possunt licite vivere de 
+            elee<lb break="no" ed="#L" n="32"/>mosynis fidelium.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1547">
+            <lb ed="#L" n="33"/>3. PRAETEREA, religiosi sunt in statu perfectionis.
+            <lb ed="#L" n="34"/>Sed perfectius est dare eleemosynas quam 
+            acci<lb break="no" ed="#L" n="35"/>pere: dicitur enim Act. xx : Beatius est magis
+            <lb ed="#L" n="36"/>dare quam accipere. Ergo non debent de 
+            elee<lb break="no" ed="#L" n="37"/>mosynis vivere, sed magis ex operibus manuum
+            <lb ed="#L" n="38"/>suarum eleemosynas dare.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1563">
+            <lb ed="#L" n="39"/>4. PRAETEREA, ad religiosos pertinet 
+            impedi<lb break="no" ed="#L" n="40"/>menta virtutis et occasiones peccati vitare. Sed
+            <lb ed="#L" n="41"/>acceptio eleemosynarum praebet occasionem 
+            pec<lb break="no" ed="#L" n="42"/>cati, et impedit virtutis actum. Unde super illud II
+            <lb ed="#L" n="43"/>ad Thess. ult. , Ut nosmetipsos formam daremus
+            <lb ed="#L" n="44"/>vobis etc., dicit Glossa : Qui frequenter ad 
+            alie<lb break="no" ed="#L" n="45"/>nam mensam comedit otio deditus, aduletur 
+            ne<lb break="no" ed="#L" n="46"/>cesse est pascenti se. Dicitur etiam Exod. xxu :
+            <lb ed="#L" n="47"/>Ne accipias munera, quae excaecant prudentes
+            <lb ed="#L" n="48"/>et mutant verba iustorum. Et Prov. xxu  dicitur:
+            <lb ed="#L" n="49"/>Qui accipit mutuum, servus est faenerantis, quod
+            <lb ed="#L" n="50"/>est religioni contrarium: unde super illud Il ad
+            <lb ed="#L" n="51"/>Thess. ui , Ut nosmetipsos formam daremus etc.,
+            <lb ed="#L" n="52"/>dicit Glossa : Religio nostra ad libertatem 
+            ho<lb break="no" ed="#L" n="53"/>mines advocat. Ergo videtur quod religiosi non
+            <lb ed="#L" n="54"/>debeant de eleemosynis vivere.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1600">
+            <lb ed="#L" n="55"/>5. PRAETEREA, religiosi praecipue tenentur 
+            imi<lb break="no" ed="#L" n="56"/>tari Apostolorum perfectionem: unde Apostolus
+            <lb ed="#L" n="57"/>dicit, ad Philipp. m : Quicumque perfecti sumus,
+            <lb ed="#L" n="58"/>hoc sentiamus. Sed Apostolus nolebat vivere de
+            <lb ed="#L" n="59"/>sumptibus fidelium, ut occasionem auferret 
+            pseu<lb break="no" ed="#L" n="60"/>doapostolis, sicut ipse dicit, II ad Cor. xi : et ne
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="61"/>scandalum poneretur infirmis, ut patet I ad Cor.
+            <lb ed="#L" n="62"/>ix . Ergo videtur quod propter easdem causas
+            <lb ed="#L" n="63"/>religiosi debeant abstinere ne de eleemosynis 
+            vi<lb break="no" ed="#L" n="64"/>vant. Unde et Augustinus dicit, in libro de 
+            Ope<lb break="no" ed="#L" n="65"/>ribus Monach. : Amputetis occasionem turpium
+            <lb ed="#L" n="66"/>nundinarum , quibus existimalio vestra laeditur
+            <lb ed="#L" n="67"/>et infirmis offendiculum ponitur: et ostendite 
+            ho<lb break="no" ed="#L" n="68"/>minibus non vos in otio facilem victum, sed per
+            <lb ed="#L" n="69"/>angustam et arcam viam regnum Dei quaerere.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1637">
+            <lb ed="#L" n="70"/>SED CONTRA EST quod, sicut Gregorius dicit,
+            <lb ed="#L" n="71"/>in libro Dialog. , beatus Benedictus tribus annis,
+            <lb ed="#L" n="72"/>in specu permanens, de his quae a Romano
+            <lb ed="#L" n="73"/>monacho ministrabantur, refectus est, postquam
+            <lb ed="#L" n="74"/>domum parentesque reliquerat. Et tamen, validus
+            <lb ed="#L" n="75"/>corpore existens, non legitur de labore manuum
+            <lb ed="#L" n="76"/>victum quaesivisse. Ergo religiosi licite possunt
+            <lb ed="#L" n="77"/>de eleemosynis vivere.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1657">
+            <lb ed="#L" n="78"/>RESPONDEO DICENDUM quod unicuique licet 
+            vi<lb break="no" ed="#L" n="79"/>vere de eo quod suum est vel sibi debitum. Fit
+            <lb ed="#L" n="80"/>autem aliquid alicuius ex liberalitate  donantis.
+            <lb ed="#L" n="81"/>Et ideo religiosi et clerici quorum monasteriis
+            <lb ed="#L" n="82"/>vel ecclesiis, ex munificentia principum vel 
+            quo<lb break="no" ed="#L" n="83"/>rumcumque fidelium, sunt facultates collatae ex
+            <lb ed="#L" n="84"/>quibus sustententur, possunt de eis vivere licite,
+            <lb ed="#L" n="85"/>absque hoc quod manibus laborent. Et tamen
+            <lb ed="#L" n="86"/>certum est eos de eleemosynis vivere. Unde et
+            <lb ed="#L" n="87"/>similiter, si aliqua mobilia religiosis a fidelibus
+            <lb ed="#L" n="88"/>conferantur, possunt de eis licite vivere: stultum
+            <lb ed="#L" n="89"/>est enim dicere quod aliquis in eleemosynam
+            <lb ed="#L" n="90"/>possit accipere magnas possessiones, non autem
+            <lb ed="#L" n="91"/>panem vel parvam pecuniam. - Sed quia 
+            huius<lb break="no" ed="#L" n="92"/>modi beneficia religiosis videntur esse collata ad
+            <lb ed="#L" n="93"/>hoc quod liberius religiosis actibus insistere 
+            pos<lb break="no" ed="#L" n="94"/>sint, quorum cupiunt se fore participes qui 
+            tem<lb break="no" ed="#L" n="95"/>poralia subministrant, redderetur eis usus 
+            prae<lb break="no" ed="#L" n="96"/>dictorum donorum illicitus si ab actibus religiosis
+            <lb ed="#L" n="97"/>desisterent: quia sic, quantum est de se, 
+            defrau<lb break="no" ed="#L" n="98"/>darent intentionem eorum qui talia beneficia 
+            con<lb break="no" ed="#L" n="99"/>tulerunt.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1707">
+            <lb ed="#L" n="100"/>Debitum autem est aliquid alicui dupliciter.
+            <lb ed="#L" n="101"/>Uno modo, propter necessitatem, quae facit omnia
+            <lb ed="#L" n="102"/>communia P, ut Ambrosius  dicit , Et ideo, si 
+            re<lb break="no" ed="#L" n="103"/>ligiosi necessitatem patiantur, licite possunt de 
+            elee<lb break="no" ed="#L" n="104"/>mosynis vivere. Quae quidem necessitas potest
+            <lb ed="#L" n="105"/>esse , primo quidem, propter corporis 
+            infirmi<lb break="no" ed="#L" n="106"/>tatem, ex qua contingit quod non possint sibi
+            <lb ed="#L" n="107"/>labore manuum victum quaerere. - Secundo, si
+            <lb ed="#L" n="108"/>illud quod ex opere manuali conquirunt, eis ad
+            <lb ed="#L" n="109"/>victum non sufficiat. Unde Augustinus dicit, in
+            <lb ed="#L" n="110"/>libro de Operibus Monach. , quod. bona opera
+            <pb ed="#L" n="514"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>fidelium subsidio supplendorum necessariorum 
+            de<lb break="no" ed="#L" n="2"/>esse non debent illis? servis Dei qui manibus
+            <lb ed="#L" n="3"/>operantur, ut horae quibus ad expediendum 
+            ani<lb break="no" ed="#L" n="4"/>mum ila vacatur ut illa corporalia opera geri
+            <lb ed="#L" n="5"/>non possint, non opprimant egestate. — Tertio,
+            <lb ed="#L" n="6"/>propter pristinam conversationem eorum qui non
+            <lb ed="#L" n="7"/>consueverunt manibus laborare. Unde Augustinus
+            <lb ed="#L" n="8"/>dicit, in libro de Operibus Monach. , quod si
+            <lb ed="#L" n="9"/>habebant aliquid in saeculo quo facile sine 
+            opi<lb break="no" ed="#L" n="10"/>ficio sustentarent istam vitam, quod , conversi ad
+            <lb ed="#L" n="11"/>Deum, indigentibus dispertiti sunt; et. credenda
+            <lb ed="#L" n="12"/>est eorum infirmitas, el ferenda. Solent enim 
+            ta<lb break="no" ed="#L" n="13"/>les, languidius educati, laborem operum  
+            corpo<lb break="no" ed="#L" n="14"/>ralium sustinere non posse. -
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1769">
+            <lb ed="#L" n="15"/>Alio modo efficitur aliquid alicui debitum ex
+            <lb ed="#L" n="16"/>eo quod ipse exhibet, sive sit aliquid temporale
+            <lb ed="#L" n="17"/>sive spirituale: secundum illud I ad Cor. ix : Si
+            <lb ed="#L" n="18"/>nos vobis spiritualia seminavimus, non  magnum
+            <lb ed="#L" n="19"/>esl si carnalia vestra metamus. Et secundum hoc,
+            <lb ed="#L" n="20"/>quadrupliciter possunt religiosi de eleemosynis
+            <lb ed="#L" n="21"/>vivere quasi sibi debitis. Primo, si praedicent
+            <lb ed="#L" n="22"/>auctoritate praelatorum. - Secundo, si sint 
+            mi<lb break="no" ed="#L" n="23"/>nistri altaris. Quia, ut dicitur I ad Cor. 1x , qui
+            <lb ed="#L" n="24"/>altari deserviunt, cum altari participantur ; ita
+            <lb ed="#L" n="25"/>et Dominus ordinavit his qui Evangelium 
+            denun<lb break="no" ed="#L" n="26"/>tiant, de Evangelio vivere. Et Augustinus dicit,
+            <lb ed="#L" n="27"/>in libro de Operibus Monach. : Si evangelistae
+            <lb ed="#L" n="28"/>sunt, fateor, habent (potestatem vivendi de 
+            sum<lb break="no" ed="#L" n="29"/>ptibus fidelium): si ministri altaris, dispensatores 
+            <lb ed="#L" n="30"/>sacramentorum, bene sibi istam non arrogant, sed
+            <lb ed="#L" n="31"/>plane vindicant potestatem. Et hoc ideo, quia 
+            sa<lb break="no" ed="#L" n="32"/>cramentum  altaris, ubicumque agatur, commune
+            <lb ed="#L" n="33"/>est toti populo fidelium. - Tertio, si insistant '
+            <lb ed="#L" n="34"/>studio sacrae Scripturae ad communem utilitatem
+            <lb ed="#L" n="35"/>totius Ecclesiae. Unde Hieronymus dicit, contra
+            <lb ed="#L" n="36"/>Vigilantium : Haec in Iudaea  usque hodie 
+            per<lb break="no" ed="#L" n="37"/>severat consuetudo, non solum apud nos sed etiam
+            <lb ed="#L" n="38"/>apud Hebraeos, ut qui in lege Domini meditantur
+            <lb ed="#L" n="39"/>die ac nocte, et patrem non habent in terra nisi
+            <lb ed="#L" n="40"/>solum Deum, totius orbis foveantur ministeriis. -
+            <lb ed="#L" n="41"/>Quarto, si bona temporalia quae habebant 
+            mo<lb break="no" ed="#L" n="42"/>nasterio largiuntur, possunt de eleemosynis 
+            mo<lb break="no" ed="#L" n="43"/>nasterio factis vivere. Unde Augustinus dicit, in
+            <lb ed="#L" n="44"/>libro de Operibus Monach. , quod his qui, 
+            re<lb break="no" ed="#L" n="45"/>licia vel distributa sive ampla sive qualicumque
+            <lb ed="#L" n="46"/>opulentia, inter pauperes Christi pia et salubri
+            <lb ed="#L" n="47"/>humilitate numerari volunt, vicem sustentandae
+            <lb ed="#L" n="48"/>vilae eorum res ipsa communis et fraterna 
+            ca<lb break="no" ed="#L" n="49"/>rilas debet. Qui laudabiliter agunt si manibus
+            <lb ed="#L" n="50"/>operentur. Quod si nolint, quis audeat eos cogere?
+            <lb ed="#L" n="51"/>Nec est attendendum, ut ibidem subditur, in quibus
+            <lb ed="#L" n="52"/>monasteriis vel in quo loco indigentibus fratribus
+            <lb ed="#L" n="53"/>quisquis hoc quod habebal impenderit: omnium
+            <lb ed="#L" n="54"/>enim Christianorum una respublica est.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1858">
+            <lb ed="#L" n="55"/>Si vero aliqui sint religiosi qui absque 
+            neces<lb break="no" ed="#L" n="56"/>sitate et utilitate quam afferant, velint otiosi de
+            <lb ed="#L" n="57"/>eleemosynis quae dantur pauperibus vivere, hoc
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="58"/>est eis illicitum. Unde Augustinus dicit, in libro
+            <lb ed="#L" n="59"/>de Operibus Monach. : Plerumque ad 
+            professio<lb break="no" ed="#L" n="60"/>nem servitutis Dei ex conditione servili aliqui 
+            ve<lb break="no" ed="#L" n="61"/>niunt, et ex vita rusticana, et ex opificum 
+            exer<lb break="no" ed="#L" n="62"/>citatione et plebeio labore: de quibus non apparet.
+            <lb ed="#L" n="63"/>utrum ex proposito servitutis Dei venerint, an,
+            <lb ed="#L" n="64"/>vitam inopem et laboriosam fugientes, vacui pasci
+            <lb ed="#L" n="65"/>atque vestiri velint, et insuper honorari a quibus
+            <lb ed="#L" n="66"/>contemni conterique consueverunt. Tales ergo se,
+            <lb ed="#L" n="67"/>quominus operentur, de infirmitate corporis 
+            excu<lb break="no" ed="#L" n="68"/>sare non possunt: praeteritae quippe vitae 
+            con<lb break="no" ed="#L" n="69"/>suetudine convincuntur. Et postea  subdit: Si 
+            no<lb break="no" ed="#L" n="70"/>lunt operari, nec manducent. Neque propterea ad
+            <lb ed="#L" n="71"/>pietatem. divites humiliantur, ut pauperes ad 
+            su<lb break="no" ed="#L" n="72"/>perbiam  extollantur: nullo enim modo decet ut
+            <lb ed="#L" n="73"/>in ea vita ubi senatores fiunt laboriosi, fiant 
+            opi<lb break="no" ed="#L" n="74"/>fices otiosi; et quo veniunt, relictis deliciis suis,
+            <lb ed="#L" n="75"/>qui fuerunt praediorum domini, ibi sint rustici
+            <lb ed="#L" n="76"/>delicati.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1910">
+            <lb ed="#L" n="77"/>AD PRIMUM ERGO DICENDUM quod auctoritates illae
+            <lb ed="#L" n="78"/>sunt intelligendae tempore necessitatis, quando
+            <lb ed="#L" n="79"/>scilicet non posset aliter pauperibus subveniri.
+            <lb ed="#L" n="80"/>Tunc enim tenerentur non solum ab eleemosynis
+            <lb ed="#L" n="81"/>accipiendis desistere, sed etiam sua, si qua 
+            ha<lb break="no" ed="#L" n="82"/>berent, largiri ad pauperum sustentationem.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1926">
+            <lb ed="#L" n="83"/>AD SECUNDUM DICENDUM quod praelatis competit
+            <lb ed="#L" n="84"/>praedicatio ex officio: religiosis. autem potest
+            <lb ed="#L" n="85"/>competere ex commissione. Et ita, cum laborent
+            <lb ed="#L" n="86"/>in agro Dominico, possunt exinde vivere: 
+            se<lb break="no" ed="#L" n="87"/>cundum illud Il ad 7m. u : Laborantem 
+            agri<lb break="no" ed="#L" n="88"/>colam oportet primum de fructibus percipere; ubi
+            <lb ed="#L" n="89"/>dicit Glossa : scilicet praedicatorem, qui in agro
+            <lb ed="#L" n="90"/>Ecclesiae ligone verbi Dei excolit corda. 
+            audi<lb break="no" ed="#L" n="91"/>torum.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1948">
+            <lb ed="#L" n="92"/>Possunt etiam de eleemosynis ? vivere qui 
+            prae<lb break="no" ed="#L" n="93"/>dicatoribus ministrant. Unde super illud Rom.
+            <lb ed="#L" n="94"/>xv , Si spiritualium eorum participes facti sunt
+            <lb ed="#L" n="95"/>gentiles, debent et in carnalibus ministrare eis,
+            <lb ed="#L" n="96"/>dicit Glossa : scilicet Iudaeis, qui miserunt 
+            prae<lb break="no" ed="#L" n="97"/>dicatores ab Hierosolymis.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1964">
+            <lb ed="#L" n="98"/>Et tamen sunt etiam aliae causae ex quibus
+            <lb ed="#L" n="99"/>alicui debetur ut de sumptibus fidelium vivat, ut
+            <lb ed="#L" n="100"/>dictum est .
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1974">
+            <lb ed="#L" n="101"/>AD TERTIUM DICENDUM quod, ceteris paribus,
+            <lb ed="#L" n="102"/>dare est perfectius quam accipere. Et tamen dare
+            <lb ed="#L" n="103"/>vel relinquere omnia sua. pro Christo, et modica
+            <lb ed="#L" n="104"/>accipere ad sustentationem vitae, melius est quam
+            <lb ed="#L" n="105"/>dare particulariter aliqua pauperibus: ut ex supra 
+            <lb ed="#L" n="106"/>dictis patet.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e1990">
+            <lb ed="#L" n="107"/>AD QUARTUM DICENDUM quod accipere munera
+            <lb ed="#L" n="108"/>ad divitias augmentandas, vel accipere victum ab
+            <lb ed="#L" n="109"/>alio sibi non debitum absque utilitate et 
+            necessi<lb break="no" ed="#L" n="110"/>tate, praestat occasionem peccati. Quod non habet
+            <lb ed="#L" n="111"/>locum in religiosis, ut ex supra  dictis patet.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2003">
+            <lb ed="#L" n="112"/>AD QUINTUM DICENDUM quod, quando. apparet
+            <lb ed="#L" n="113"/>manifesta necessitas et utilitas propter quam aliqui
+            <lb ed="#L" n="114"/>religiosi de eleemosynis vivunt absque opere ma-
+            <pb ed="#L" n="515"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>nuali, non scandalizantur ex hoc infirmi, sed 
+            ma<lb break="no" ed="#L" n="2"/>litiosi, more Pharisaeorum: quorum scandalum 
+            <lb ed="#L" n="3"/>contemnendum Dominus docet, Matth. xv . Sed
+            <lb ed="#L" n="4"/>si non esset evidens necessitas et utilitas, posset
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="5"/>exinde generari scandalum infirmis: quod esset
+            <lb ed="#L" n="6"/>vitandum. Idem tamen scandalum imminere
+            <lb ed="#L" n="7"/>potest de his qui facultatibus communibus otiosi "
+            <lb ed="#L" n="8"/>utuntur.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2238-Dd1e2037"><!-- p2p2-q187a5 -->
+          <head xml:id="TAca84-d1e2238-Hd1e2040">Articulus 5</head>
+          <head xml:id="TAca84-d1e2238-Hd1e2042" type="question-title">Utrum religiosis liceat mendicare</head>
+          <p xml:id="TAca84-d1e2238-d1e2045">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="117" type="fixed=516"/>ARTICULUS QUINTUS
+            <lb ed="#L" n="118"/>UTRUM RELIGIOSIS LICEAT MENDICARE
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2054">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="119"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="120"/>religiosis non liceat mendicare. Dicit
+            <lb ed="#L" n="121"/>enim Augustinus, in libro de Operibus
+            <lb ed="#L" n="122"/>NMonach. : Tam multos hypocritas sub
+            <lb ed="#L" n="123"/>habitu monachorum usquequaque dispersit 
+            calli<lb break="no" ed="#L" n="124"/>dissimus hostis, circueuntes provincias: et postea
+            <lb ed="#L" n="125"/>subdit: Omnes petunt, omnes exigunt aut sumptus
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="126"/>lucrosae egestatis, aut simulatae pretium 
+            sancti<lb break="no" ed="#L" n="127"/>latis. Ergo videtur quod vita religiosorum 
+            men<lb break="no" ed="#L" n="128"/>dicantium sit reprobanda.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2083">
+            <lb ed="#L" n="129"/>2. PRAETEREA, I ad Thess. iv  dicitur: 
+            Opere<lb break="no" ed="#L" n="130"/>mini manibus vestris, sicut. praecepimus vobis: ut
+            <lb ed="#L" n="131"/>honeste ambuletis ad eos qui foris sunt, et nullius
+            <lb ed="#L" n="132"/>aliquid desideretis: ubi Glossa  dicit: Ideo opus
+            <pb ed="#L" n="517"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>est agendum, et non otiandum, quia honestum est,
+            <lb ed="#L" n="2"/>et quasi lux, ad infideles: et non desiderabitis
+            <lb ed="#L" n="3"/>rem alierius, nedum rogetis vel tollatis aliquid.
+            <lb ed="#L" n="4"/>Et II ad Thess. u, super illud , Si quis non vult
+            <lb ed="#L" n="5"/>operari etc., dicit : Vult servos Dei corporaliter
+            <lb ed="#L" n="6"/>operari unde  vivant, ut non compellantur 
+            ege<lb break="no" ed="#L" n="7"/>state necessaria petere. Sed hoc est mendicare.
+            <lb ed="#L" n="8"/>Ergo videtur quod illicitum sit, praetermisso opere
+            <lb ed="#L" n="9"/>manuali, mendicare.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2119">
+            <lb ed="#L" n="10"/>3. PRAETEREA, illud quod est in lege 
+            prohibi<lb break="no" ed="#L" n="11"/>tum et iustitiae contrarium, non competit 
+            reli<lb break="no" ed="#L" n="12"/>giosis. Sed mendicare est prohibitum in lege 
+            di<lb break="no" ed="#L" n="13"/>vina: dicitur enim Deut. xv : Omnino indigens
+            <lb ed="#L" n="14"/>et mendicus non erit inter vos; et in Psalmo :
+            <lb ed="#L" n="15"/>Non vidi iustum derelictum, nec semen eius 
+            quae<lb break="no" ed="#L" n="16"/>rens panem. Sed secundum  iura civilia punitur
+            <lb ed="#L" n="17"/>validus mendicans: ut habetur Codice, de Validis
+            <lb ed="#L" n="18"/>iun Mendicantibus . Ergo non competit religiosis
+            <lb ed="#L" n="19"/>mendicare.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2143">
+            <lb ed="#L" n="20"/>4. PRAETEREA, verecundia est de turpi , ut 
+            Da<lb break="no" ed="#L" n="21"/>mascenus dicit . Sed Ambrosius dicit, in libro
+            <lb ed="#L" n="22"/>de Offic. , quod verecundia petendi ingenuos
+            <lb ed="#L" n="23"/>prodit natales. Ergo mendicare est turpe. Non
+            <lb ed="#L" n="24"/>ergo religiosis competit.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2156">
+            <lb ed="#L" n="25"/>5. PRAETEREA, maxime de eleemosynis vivere
+            <lb ed="#L" n="26"/>competit praedicantibus Evangelium, secundum
+            <lb ed="#L" n="27"/>Domini statutum, ut supra  dictum est. Eis 
+            ta<lb break="no" ed="#L" n="28"/>men non competit mendicare: quia super illud
+            <lb ed="#L" n="29"/>II ad Tim. u , Laborantem agricolam etc., 
+            di<lb break="no" ed="#L" n="30"/>cit Glossa : Vult Apostolus quod evangelista
+            <lb ed="#L" n="31"/>intelligat quod necessaria sumere ab eis in 
+            qui<lb break="no" ed="#L" n="32"/>bus laborat, non est mendicilas, sed potestas.
+            <lb ed="#L" n="33"/>Ergo videtur quod religiosis non competat 
+            men<lb break="no" ed="#L" n="34"/>dicare.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2180">
+            <lb ed="#L" n="35"/>SED coNTRA EST quod religiosis competit vivere
+            <lb ed="#L" n="36"/>ad imitationem Christi. Sed Christus mendicavit:
+            <lb ed="#L" n="37"/>secundum illud Psalmi : Ego autem mendicus
+            <lb ed="#L" n="38"/>sum et pauper; ubi dicit Glossa : Hoc dicit
+            <lb ed="#L" n="39"/>Christus de se ex forma servi; et infra: 
+            Men<lb break="no" ed="#L" n="40"/>dicus est qui ab alio petit, et pauper est qui sibi
+            <lb ed="#L" n="41"/>non sufficit. Et in alio Psalmo : Ego egenus et
+            <lb ed="#L" n="42"/>pauper sum: ubi dicit Glossa : Ego sum 
+            ege<lb break="no" ed="#L" n="43"/>nus, idest petens; et pauper, idest insufficiens
+            <lb ed="#L" n="44"/>mihi, quia mundanas copias non habeo. Et 
+            Hie<lb break="no" ed="#L" n="45"/>ronymus dicit, in quadam epistola: Cave me,
+            <lb ed="#L" n="46"/>Domino tuo mendicante, scilicet Christo, alienas
+            <lb ed="#L" n="47"/>divitias congeras. Ergo conveniens est religiosis
+            <lb ed="#L" n="48"/>mendicare. it
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2213">
+            <lb ed="#L" n="49"/>RESPONDEO DICENDUM quod circa mendicitatem 
+            <lb ed="#L" n="50"/>duo possunt considerari. Unum quidem ex parte
+            <lb ed="#L" n="51"/>actus ipsius mendicationis, quae habet quandam
+            <lb ed="#L" n="52"/>abiectionem sibi coniunctam: illi enim videntur
+            <lb ed="#L" n="53"/>abiectissimi inter homines esse qui non solum
+            <lb ed="#L" n="54"/>sunt pauperes, sed in tantum sunt egentes quod
+            <lb ed="#L" n="55"/>necesse habent ab aliis victum acquirere. Et 
+            se<lb break="no" ed="#L" n="56"/>cundum hoc, causa humilitatis aliqui laudabiliter
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="57"/>mendicant: sicut et alia assumunt quae ad 
+            abie<lb break="no" ed="#L" n="58"/>ctionem quandam pertinent, quasi efficacissimam
+            <lb ed="#L" n="59"/>medicinam contra superbiam, quam vel in 
+            se<lb break="no" ed="#L" n="60"/>ipsis, vel etiam in aliis per exemplum exstinguere
+            <lb ed="#L" n="61"/>volunt. Sicut enim infirmitas quae est ex 
+            super<lb break="no" ed="#L" n="62"/>excessu caloris, efficacissime sanatur per ea quae
+            <lb ed="#L" n="63"/>in frigiditate excedunt; ita etiam pronitas ad 
+            su<lb break="no" ed="#L" n="64"/>perbiam efficacissime curatur per ea quae 
+            mul<lb break="no" ed="#L" n="65"/>tum abiecta videntur. Et ideo dicitur in Decretis,
+            <lb ed="#L" n="66"/>de Poenit., dist. 1l, cap. Si quis semel: Exercitia 
+            <lb ed="#L" n="67"/>humilitatis sunt, si quis se vilioribus officiis 
+            sub<lb break="no" ed="#L" n="68"/>dat, et ministeriis indignioribus tradat: ita namque
+            <lb ed="#L" n="69"/>arrogantiae et humanae gloriae vitium curari
+            <lb ed="#L" n="70"/>poterit. Unde Hieronymus, in Epistola ad 
+            Ocea<lb break="no" ed="#L" n="71"/>num, commendat Fabiolam de hoc quod optabat
+            <lb ed="#L" n="72"/>ul, suis divitiis pariter effusis pro Christo, stipes
+            <lb ed="#L" n="73"/>acciperet. Quod etiam beatus Alexius perfecit,
+            <lb ed="#L" n="74"/>qui, omnibus suis propter Christum dimissis, 
+            gau<lb break="no" ed="#L" n="75"/>debat se etiam a servis suis eleemosynas 
+            acce<lb break="no" ed="#L" n="76"/>pisse . Et de beato Arsenio legitur, in Vitis 
+            Pa<lb break="no" ed="#L" n="77"/>trum , quod gratias egit de hoc quod, 
+            necessi<lb break="no" ed="#L" n="78"/>tate cogente, oportuit eum eleemosynam petere.
+            <lb ed="#L" n="79"/>Unde et in poenitentiam pro gravibus culpis 
+            in<lb break="no" ed="#L" n="80"/>iungitur aliquibus ut peregrinentur mendicantes. -
+            <lb ed="#L" n="81"/>Sed quia humilitas, sicut et ceterae virtutes, 
+            abs<lb break="no" ed="#L" n="82"/>que discretione esse non debet, ita oportet "
+            <lb ed="#L" n="83"/>discrete mendicitatem ad humiliationem 
+            assu<lb break="no" ed="#L" n="84"/>mere, ut ex hoc homo notam cupiditatis non
+            <lb ed="#L" n="85"/>incurrat, vel cuiuscumque alterius indecentis.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2298">
+            <lb ed="#L" n="86"/>Alio modo potest considerari mendicitas ex
+            <lb ed="#L" n="87"/>parte eius quod quis mendicando acquirit. Et
+            <lb ed="#L" n="88"/>sic ad mendicandum potest homo ex duobus
+            <lb ed="#L" n="89"/>induci. Uno modo, ex cupiditate habendi divitias
+            <lb ed="#L" n="90"/>vel victum otiosum . Et talis mendicitas est 
+            il<lb break="no" ed="#L" n="91"/>licita. - Alio modo, ex necessitate vel utilitate.
+            <lb ed="#L" n="92"/>Ex necessitate quidem, sicut cum aliquis non
+            <lb ed="#L" n="93"/>potest aliunde habere unde vivat, nisi mendicet.
+            <lb ed="#L" n="94"/>Ex utilitate autem, sicut cum aliquis intendit ad
+            <lb ed="#L" n="95"/>aliquid utile perficiendum quod sine eleemosynis
+            <lb ed="#L" n="96"/>fidelium facere non potest: sicut petuntur 
+            elee<lb break="no" ed="#L" n="97"/>mosynae pro constructione ' pontis vel ecclesiae,
+            <lb ed="#L" n="98"/>vel quibuscumque aliis operibus quae vergunt
+            <lb ed="#L" n="99"/>in utilitatem communem ;: sicut scholares, ut 
+            pos<lb break="no" ed="#L" n="100"/>sint vacare studio sapientiae. Et hoc modo 
+            men<lb break="no" ed="#L" n="101"/>dicitas est licita, sicut saecularibus, ita et 
+            reli<lb break="no" ed="#L" n="102"/>giosis.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2338">
+            <lb ed="#L" n="103"/>AD PRIMUM ERGO DICENDUM quod Augustinus ibi
+            <lb ed="#L" n="104"/>loquitur expresse de his qui ex  cupiditate 
+            men<lb break="no" ed="#L" n="105"/>dicant.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2347">
+            <lb ed="#L" n="106"/>AD SECUNDUM DICENDUM quod prima glossa 
+            lo<lb break="no" ed="#L" n="107"/>quitur de petitione quae fit ex cupiditate: ut 
+            pa<lb break="no" ed="#L" n="108"/>tet ex verbis Apostoli. - Secunda autem glossa
+            <lb ed="#L" n="109"/>loquitur de illis qui? absque omni utilitate quam
+            <lb ed="#L" n="110"/>faciant, necessaria petunt ut otiosi vivant. Non
+            <lb ed="#L" n="111"/>autem otiose vivit qui qualitercumque utiliter
+            <lb ed="#L" n="112"/>vivit.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2365">
+            <pb ed="#L" n="518"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>AD TERTIUM DICENDUM quod ex illo praecepto
+            <lb ed="#L" n="2"/>legis divinae non prohibetur alicui mendicare:
+            <lb ed="#L" n="3"/>sed prohibetur divitibus ne tam tenaces sint ut -
+            <lb ed="#L" n="4"/>propter hoc aliqui egestate mendicare cogantur. -
+            <lb ed="#L" n="5"/>Lex autem civilis imponit poenam validis men- -
+            <lb ed="#L" n="6"/>dicantibus qui non propter utilitatem vel 
+            neces<lb break="no" ed="#L" n="7"/>sitatem mendicant.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2387">
+            <lb ed="#L" n="8"/>AD QUARTUM DICENDUM quod duplex est 
+            tur<lb break="no" ed="#L" n="9"/>pitudo: una inhonestatis; alia exterioris defectus,
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="10"/>sicut turpe est homini esse infirmum vel 
+            pau<lb break="no" ed="#L" n="11"/>perem. Et talem turpitudinem habet mendicitas.
+            <lb ed="#L" n="12"/>Unde non  pertinet ad culpam: sed ad 
+            humili<lb break="no" ed="#L" n="13"/>tatem pertinere potest, ut dictum est.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2405">
+            <lb ed="#L" n="14"/>AD QUINTUM DICENDUM quod praedicantibus ex
+            <lb ed="#L" n="15"/>debito debetur victus ab his quibus praedicant.
+            <lb ed="#L" n="16"/>Si tamen non quasi sibi debitum, sed quasi gratis
+            <lb ed="#L" n="17"/>dandum mendicando petere velint, ad maiorem
+            <lb ed="#L" n="18"/>utilitatem pertinet.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2238-Dd1e2419"><!-- p2p2-q187a6 -->
+          <head xml:id="TAca84-d1e2238-Hd1e2422">Articulus 6</head>
+          <head xml:id="TAca84-d1e2238-Hd1e2424" type="question-title">Utrum liceat religiosis vilioribus vestibus uti quam ceteris</head>
+          <p xml:id="TAca84-d1e2238-d1e2427">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="49" type="fixed=519"/>ARTICULUS SEXTUS
+            <lb ed="#L" n="50"/>UTRUM LICEAT RELIGIOSIS VILIORIBUS VESTIBUS UTI QUAM CETERIS
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2436">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="51"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="52"/>non liceat religiosis vilioribus. vestibus
+            <lb ed="#L" n="53"/>uti quam ceteris. Quia secundum 
+            <ref xml:id="TAca84-d1e2238-Rd1e2446">Apo<lb break="no" ed="#L" n="54"/>stolum, 1 ad Thess. ult.</ref> , ab omni 
+            spe<lb break="no" ed="#L" n="55"/>cie mala abstinere debemus. Sed vilitas vestium
+            <lb ed="#L" n="56"/>habet speciem mali. Dicit enim Dominus, Matth.
+            <lb ed="#L" n="57"/>vii : Attendite a falsis prophetis, qui veniunt ad
+            <lb ed="#L" n="58"/>vos in vestimentis ovium. Et super illud Apoc. vi ,
+            <lb ed="#L" n="59"/>Ecce equus pallidus etc., dicit Glossa : Videns
+            <lb ed="#L" n="60"/>diabolus nec per apertas tribulationes nec per
+            <lb ed="#L" n="61"/>aperlas haereses se posse proficere, praemittit
+            <lb ed="#L" n="62"/>falsos fratres, qui sub P habitu religionis obtinent 
+            <lb ed="#L" n="63"/>naturam nigri et rufi equi, pervertendo fidem.
+            <lb ed="#L" n="64"/>Ergo videtur quod religiosi non debeant vilibus
+            <lb ed="#L" n="65"/>vestibus uti.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2476">
+            <lb ed="#L" n="66"/>2. PRAETEREA, Hieronymus dicit, ad 
+            Nepotia<lb break="no" ed="#L" n="67"/>num : Vestes pullas, idest nigras, aeque vita ut
+            <lb ed="#L" n="68"/>candidas. Ornatus et sordes pari modo fugiendi 
+            <lb ed="#L" n="69"/>sunt: quia alterum delicias, alterum gloriam 
+            re<lb break="no" ed="#L" n="70"/>dolet. Ergo videtur quod, cum inanis gloria sit
+            <lb ed="#L" n="71"/>gravius peccatum quam deliciarum usus, quod
+            <lb ed="#L" n="72"/>religiosi, qui debent ad perfectiora  tendere,
+            <lb ed="#L" n="73"/>magis debent vitare vestes viles quam pretiosas.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2497">
+            <lb ed="#L" n="74"/>3. PRAETEREA, religiosi maxime intendere 
+            de<lb break="no" ed="#L" n="75"/>bent operibus poenitentiae. Sed in operibus 
+            poe<lb break="no" ed="#L" n="76"/>nitentiae non est utendum exterioribus signis 
+            tri<lb break="no" ed="#L" n="77"/>stitiae, sed magis signis laetitiae: dicit enini 
+            Do<lb break="no" ed="#L" n="78"/>minus, Matth. vi : Cum ieiunatis, nolite fieri,
+            <lb ed="#L" n="79"/>sicut hypocritae, iristes; et postea  subdit: Tw
+            <lb ed="#L" n="80"/>aulem cum ieiunas, unge caput tuum et faciem
+            <lb ed="#L" n="81"/>tuam lava. Quod exponens Augustinus, in libro
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="82"/>maxime animadverlendum est non in solo rerum
+            <lb ed="#L" n="83"/>corporearum nilore atque pompa, sed etiam in
+            <lb ed="#L" n="84"/>ipsis sordibus luctuosis esse posse iactantiam: et eo
+            <lb ed="#L" n="85"/>periculosiorem, quo sub nomine servitutis Dei 
+            de<lb break="no" ed="#L" n="86"/>cipit. Ergo videtur quod religiosi non debeant
+            <lb ed="#L" n="87"/>vilioribus vestibus indui.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2532">
+            <lb ed="#L" n="88"/>SED coNTRA EsT quod, Zeb. xi1, Apostolus dicit:
+            <lb ed="#L" n="89"/>Circuierunt in melotis, in pellibus caprinis: 
+            Glos<lb break="no" ed="#L" n="90"/>sa : ut Elias et alii. Et in <ref xml:id="TAca84-d1e2238-Rd1e2540">Decretis, XXI, qu. 1v</ref> ,
+            <lb ed="#L" n="91"/>dicitur: Si inventi fuerint deridentes eos qui 
+            vi<lb break="no" ed="#L" n="92"/>libus et religiosis vestibus amicti sunt, 
+            corrigan<lb break="no" ed="#L" n="93"/>tur. Priscis ? enim temporibus omnis sacratus vir
+            <lb ed="#L" n="94"/>| cum mediocri ac vili veste conversabatur.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2552">
+            <lb ed="#L" n="95"/>RESPONDEO DICENDUM quod, sicut <ref xml:id="TAca84-d1e2238-Rd1e2556">Augustinus
+              <lb ed="#L" n="96"/>dicit, in III de Doct. Christ.</ref> , in omnibus 
+            exte<lb break="no" ed="#L" n="97"/>rioribus rebus non usus rerum, sed libido utentis
+            <lb ed="#L" n="98"/>in culpa est. Ad quam discernendam, 
+            attenden<lb break="no" ed="#L" n="99"/>dum est quod habitus vilis vel incultus dupliciter
+            <lb ed="#L" n="100"/>| potest considerari. Uno modo, prout est signum
+            <lb ed="#L" n="101"/>quoddam dispositionis vel status humani: quia,
+            <lb ed="#L" n="102"/>-ut dicitur Eccli. xix , amictus hominis annuntiat
+            <lb ed="#L" n="103"/>deeo. Et secundum hoc, vilitas habitus est 
+            quan<lb break="no" ed="#L" n="104"/>doque signum tristitiae. Unde et homines in 
+            tri<lb break="no" ed="#L" n="105"/>stitia existentes solent vilioribus vestibus uti:
+            <lb ed="#L" n="106"/>Sicut e contrario in tempore solemnitatis et 
+            gau<lb break="no" ed="#L" n="107"/>dii utuntur cultioribus vestimentis. Unde et 
+            poe<lb break="no" ed="#L" n="108"/>nitentes vilibus vestibus induuntur: ut patet 
+            Io<lb break="no" ed="#L" n="109"/>nae m , de rege, qui zndutus est sacco; et lI
+            <lb ed="#L" n="110"/>Reg. xxi , de Achab , qui operuit cilicio carnem
+            <lb ed="#L" n="111"/>suam. — Quandoque vero est signum contemptus
+            <lb ed="#L" n="112"/>divitiarum et mundani fastus. Unde Hieronymus
+            <lb ed="#L" n="113"/>dicit, ad Rusticum Monachum : Sordes vestium
+            <pb ed="#L" n="520"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>candidae mentis indicia sunt: vilis tunica 
+            contem<lb break="no" ed="#L" n="2"/>pium saeculi probat. Ita dumtaxat ne animus 
+            tu<lb break="no" ed="#L" n="3"/>medt , ne habitus sermoque dissentiant. — Et
+            <lb ed="#L" n="4"/>secundum utrumque horum, competit religiosis
+            <lb ed="#L" n="5"/>vilitas vestium: quia religio est status 
+            poeniten<lb break="no" ed="#L" n="6"/>tiae et contemptus mundanae gloriae.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2616">
+            <lb ed="#L" n="7"/>Sed quod aliquis velit hoc aliis significare, con- -
+            <lb ed="#L" n="8"/>tingit propter tria. Uno modo, ad sui 
+            humilia<lb break="no" ed="#L" n="9"/>tionem: sicut enim ex splendore vestium animus
+            <lb ed="#L" n="10"/>hominis elevatur, ita ex humilitate vestium 
+            hu<lb break="no" ed="#L" n="11"/>miliatur. Unde de Achab ^, qui carnem suam
+            <lb ed="#L" n="12"/>cilicio induit, dixit Dominus ad Eliam: Nonne
+            <lb ed="#L" n="13"/>vidisti Achab humiliatum coram me, ut habetur
+            <lb ed="#L" n="14"/>III Reg. xxi. - Alio modo, propter exemplum
+            <lb ed="#L" n="15"/>aliorum, Unde. super illud Matth. ui , Habebat
+            <lb ed="#L" n="16"/>vestimentum de pilis camelorum etc., dicit Glossa:
+            <lb ed="#L" n="17"/>Qui poenitentiam praedicat, habitum poenitentiae
+            <lb ed="#L" n="18"/>praetendit. - "Tertio modo, propter inanem 
+            glo<lb break="no" ed="#L" n="19"/>riam: sicut Augustinus dicit  quod :n ipsis 
+            sor<lb break="no" ed="#L" n="20"/>dibus luctuosis potest esse iactantia. - Duobus
+            <lb ed="#L" n="21"/>ergo primis modis, laudabile est abiectis vestibus
+            <lb ed="#L" n="22"/>uti: tertio vero modo, est vitiosum.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2653">
+            <lb ed="#L" n="23"/>Alio autem modo potest considerari habitus vilis
+            <lb ed="#L" n="24"/>et incultus secundum quod procedit ex avaritia
+            <lb ed="#L" n="25"/>vel ex negligentia. Et sic etiam ad vitium pertinet.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2662">
+            <lb ed="#L" n="26"/>AD PRIMUM ERGO DICENDUM quod vilitas vestium
+            <lb ed="#L" n="27"/>de se non habet speciem mali: immo potius
+            <lb ed="#L" n="28"/>speciem boni, scilicet contemptus mundanae 
+            glo<lb break="no" ed="#L" n="29"/>riae. Et inde est quod mali sub vilitate vestium
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="30"/>suam malitiam occultant. Unde Augustinus dicit,
+            <lb ed="#L" n="31"/>in libro de Serm. Dom. in Monte , quod non
+            <lb ed="#L" n="32"/>ideo debent oves odisse vestimentum suum, quod
+            <lb ed="#L" n="33"/>plerumque illo se occultant lupi.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2685">
+            <lb ed="#L" n="34"/>AD SECUNDUM DICENDUM quod Hieronymus ibi
+            <lb ed="#L" n="35"/>loquitur de vestibus vilibus quae deferuntur 
+            pro<lb break="no" ed="#L" n="36"/>pter humanam gloriam.
+          </p>
+          <p xml:id="TAca84-d1e2238-d1e2694">
+            <lb ed="#L" n="37"/>AD TERTIUM DICENDUM quod, secundum 
+            doctri<lb break="no" ed="#L" n="38"/>nam Domini , in operibus sanctitatis nihil 
+            ho<lb break="no" ed="#L" n="39"/>mines facere debent propter apparentiam. Quod
+            <lb ed="#L" n="40"/>praecipue contingit quando aliquis aliquid novum
+            <lb ed="#L" n="41"/>facit. Unde Chrysostomus dicit, super Matth.:
+            <lb ed="#L" n="42"/>Orans nihil novum faciat quod aspiciant 
+            homi<lb break="no" ed="#L" n="43"/>nes, vel clamando, vel pectus percutiendo, vel
+            <lb ed="#L" n="44"/>manus expandendo: quia scilicet ex ipsa novitate
+            <lb ed="#L" n="45"/>homines reddunt intentos ad considerandum. Nec
+            <lb ed="#L" n="46"/>tamen omnis novitas intentos faciens homines
+            <lb ed="#L" n="47"/>ad considerandum, reprehensibilis est. Potest
+            <lb ed="#L" n="48"/>enim et bene et male fieri. Unde Augustinus
+            <lb ed="#L" n="49"/>dicit, in libro de Serm. Dom. in Monte , quod
+            <lb ed="#L" n="50"/>qui in professione Christianitatis inusitato 
+            squa<lb break="no" ed="#L" n="51"/>lore ac sordibus intentos in se oculos hominum
+            <lb ed="#L" n="52"/>facit, cum id voluntate faciat, non necessitate 
+            pa<lb break="no" ed="#L" n="53"/>liatur, ceteris eius operibus potest cognosci utrum
+            <lb ed="#L" n="54"/>hoc contemptu superflui cultus, an ambitione
+            <lb ed="#L" n="55"/>aliqua faciat. Maxime autem videntur hoc non
+            <lb ed="#L" n="56"/>ex ambitione facere religiosi, qui habitum vilem
+            <lb ed="#L" n="57"/>deferunt quasi signum suae professionis, qua 
+            con<lb break="no" ed="#L" n="58"/>temptum mundi profitentur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

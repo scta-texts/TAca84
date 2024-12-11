@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 170</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 170</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="363"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2150"><!-- p2p2-q170 -->
+        <head xml:id="TAca84-d1e2150-Hd1e101">Quaestio 170</head>
+        <head xml:id="TAca84-d1e2150-Hd1e103" type="question-title">De praeceptis temperantiae</head>
+        <p xml:id="TAca84-d1e2150-d1e106">
+          <pb ed="#L" n="363"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=363"/>QUAESTIO CENTESIMASEPTUAGESIMA
+          <lb ed="#L" n="2"/>DE PRAECEPTIS TEMPERANTIAE
+        </p>
+        <p xml:id="TAca84-d1e2150-d1e117">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="3"/>DEINDE considerandum est de praeceptis 
+          tem<lb break="no" ed="#L" n="4"/>perantiae.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="5"/>Et primo: de praeceptis ipsius temperantiae.
+          <lb ed="#L" n="6"/>Secundo: de praeceptis partium eius.
+        </p>
+        <div xml:id="TAca84-d1e2150-Dd1e133"><!-- p2p2-q170a1 -->
+          <head xml:id="TAca84-d1e2150-Hd1e136">Articulus 1</head>
+          <head xml:id="TAca84-d1e2150-Hd1e138" type="question-title">Utrum praecepta temperantiae convenienter in lege divina tradantur</head>
+          <p xml:id="TAca84-d1e2150-d1e141">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="7" type="fixed=363"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="8"/>UTRUM PRAECEPTA TEMPERANTIAE CONVENIENTER IN LEGE DIVINA TRADANTUR
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e150">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="9"/>AD PRIMUM SIC PROCEDITUR. Videtur quod  
+            <lb ed="#L" n="10"/>praecepta temperantiae inconvenienter 
+            <lb ed="#L" n="11"/>in lege divina tradantur. Fortitudo enim  
+            <lb ed="#L" n="12"/>est potior virtus quam temperantia, ut 
+            <lb ed="#L" n="13"/>supra  dictum est. Sed nullum praeceptum 
+            for<lb break="no" ed="#L" n="14"/>titudinis ponitur inter praecepta decalogi, quae 
+            <lb ed="#L" n="15"/>sunt potiora legis praecepta. Ergo 
+            inconvenien<lb break="no" ed="#L" n="16"/>ter inter praecepta decalogi ponitur prohibitio  
+            <lb ed="#L" n="17"/>adulterii; quod contrariatur temperantiae, ut ex 
+            <lb ed="#L" n="18"/>supra  dictis patet.
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e176">
+            <lb ed="#L" n="19"/>2. PRAETEREA, temperantia non solum est circa
+            <lb ed="#L" n="20"/>venerea, sed etiam circa delectationem ciborum 
+            <lb ed="#L" n="21"/>et potuum. Sed inter praecepta decalogi non 
+            pro<lb break="no" ed="#L" n="22"/>hibetur aliquod vitium. pertinens ad 
+            delectatio<lb break="no" ed="#L" n="23"/>nem ciborum et potuum: neque etiam pertinens  
+            <lb ed="#L" n="24"/>ad aliquam aliam speciem luxuriae. Ergo neque  
+            <lb ed="#L" n="25"/>etiam debet poni aliquod praeceptum prohibens 
+            <lb ed="#L" n="26"/>adulterium, quod pertinet ad delectationem 
+            ve<lb break="no" ed="#L" n="27"/>nereorum. 
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e199">
+            <lb ed="#L" n="28"/>3. PRAETEREA, principalius estin intentione 
+            le<lb break="no" ed="#L" n="29"/>gislatoris inducere ad virtutes quam vitia 
+            prohi<lb break="no" ed="#L" n="30"/>bere: ad hoc enim vitia prohibentur, ut virtutum  
+            <lb ed="#L" n="31"/>impedimenta tollantur. Sed praecepta decalogi  
+            <lb ed="#L" n="32"/>sunt principalia  in lege divina. Ergo inter 
+            <lb ed="#L" n="33"/>praecepta decalogi magis debuit poni praeceptum 
+            <lb ed="#L" n="34"/>aliquod affirmativum directe inducens ad virtutem 
+            <lb ed="#L" n="35"/>temperantiae, quam praeceptum negativum 
+            pro<lb break="no" ed="#L" n="36"/>hibens adulterium, quod ei directe opponitur. 
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e221">
+            <lb ed="#L" n="37"/>IN CONTRARIUM EST auctoritas Scripturae . 
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e226">
+            <lb ed="#L" n="38"/>RESPONDEO DICENDUM quod, sicut Apostolus 
+            di<lb break="no" ed="#L" n="39"/>cit, I ad Tim. 1, finis praecepti caritas est, ad  
+            <lb ed="#L" n="40"/>quam duobus praeceptis inducimur pertinentibus 
+            <lb ed="#L" n="41"/>ad dilectionem Dei et proximi . Et ideo illa 
+            prae<lb break="no" ed="#L" n="42"/>cepta in decalogo ponuntur quae directius ordi- 
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="43"/>nantur ad dilectionem Dei et proximi. Inter vitia
+            <lb ed="#L" n="44"/>autem temperantiae opposita, maxime dilectioni
+            <lb ed="#L" n="45"/>proximi videtur opponi adulterium, per quod 
+            ali<lb break="no" ed="#L" n="46"/>quis usurpat sibi rem alienam, abutendo scilicet
+            <lb ed="#L" n="47"/>uxore proximi. Et ideo inter praecepta decalogi
+            <lb ed="#L" n="48"/>praecipue prohibetur adulterium, non solum 
+            se<lb break="no" ed="#L" n="49"/>cundum quod opere exercetur, sed etiam 
+            se<lb break="no" ed="#L" n="50"/>candum quod corde concupiscitur.
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e259">
+            <lb ed="#L" n="51"/>AD PRIMUM ERGO DICENDUM quod. inter species
+            <lb ed="#L" n="52"/>vitiorum quae opponuntur fortitudini, nulla est
+            <lb ed="#L" n="53"/>quae ita directe contrarietur dilectioni proximi
+            <lb ed="#L" n="54"/>sicut adulterium, quod est species luxuriae, quae
+            <lb ed="#L" n="55"/>temperantiae contrariatur. - Et tamen vitium 
+            au<lb break="no" ed="#L" n="56"/>daciae, quod opponitur fortitudini, quandoque
+            <lb ed="#L" n="57"/>solet esse causa homicidii, quod inter praecepta
+            <lb ed="#L" n="58"/>decalogi prohibetur: dicitur enim ^ Eccli. vui :
+            <lb ed="#L" n="59"/>Cum audace non eas in vía: ne forie gravet
+            <lb ed="#L" n="60"/>maja sua in te.
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e283">
+            <lb ed="#L" n="61"/>AD SECUNDUM DICENDUM quod gula directe non
+            <lb ed="#L" n="62"/>opponitur dilectioni proximi, sicut. adulterium :
+            <lb ed="#L" n="63"/>neque etiam aliqua alia species luxuriae. Non
+            <lb ed="#L" n="64"/>enim tanta fit iniuria patri per stuprum virginis,
+            <lb ed="#L" n="65"/>quae non est eius connubio deputata, quanta fit
+            <lb ed="#L" n="66"/>iniuria viro per adulterium, cuius corporis 
+            po<lb break="no" ed="#L" n="67"/>testatem ipse habet, non uxor .
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e301">
+            <lb ed="#L" n="68"/>AD TERTIUM DICENDUM quod praecepta decalogi,
+            <lb ed="#L" n="69"/>ut supra  dictum est, sunt quaedam universalia
+            <lb ed="#L" n="70"/>divinae legis principia: unde oportet ea esse 
+            com<lb break="no" ed="#L" n="71"/>munia. Non potuerunt? autem aliqua praecepta E
+            <lb ed="#L" n="72"/>communia affirmativa de temperantia dari: quia
+            <lb ed="#L" n="73"/>usus eius variatur secundum diversa tempora,
+            <lb ed="#L" n="74"/>sicut Augustinus dicit, in libro de Bono Coniug.
+            <lb ed="#L" n="75"/>et secundum diversas hominum leges et 
+            consue<lb break="no" ed="#L" n="76"/>tudines.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2150-Dd1e325"><!-- p2p2-q170a2 -->
+          <head xml:id="TAca84-d1e2150-Hd1e328">Articulus 2</head>
+          <head xml:id="TAca84-d1e2150-Hd1e330" type="question-title">Utrum convenienter tradantur in divina lege praecepta de virtutibus annexis temperantiae</head>
+          <p xml:id="TAca84-d1e2150-d1e333">
+            <pb ed="#L" n="364"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=364"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="2"/>UTRUM CONVENIENTER TRADANTUR IN DIVINA LEGE PRAECEPTA
+            <lb ed="#L" n="3"/>DE VIRTUTIBUS ANNEXIS TEMPERANTIAE
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e346">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="4"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="5"/>inconvenienter tradantur in divina lege
+            <lb ed="#L" n="6"/>a praecepta de virtutibus annexis 
+            tempe<lb break="no" ed="#L" n="7"/>rantiae. Praecepta enim decalogi, ut
+            <lb ed="#L" n="8"/>dictum est , sunt quaedam universalia 
+            princi<lb break="no" ed="#L" n="9"/>pia totius: legis divinae. Sed superbia est initium
+            <lb ed="#L" n="10"/>omnis peccati, ut dicitur Eccli. x . Ergo inter
+            <lb ed="#L" n="11"/>praecepta decalogi debuit aliquod poni 
+            prohibi<lb break="no" ed="#L" n="12"/>tivum superbiae.
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e370">
+            <lb ed="#L" n="13"/>2. PRAETEREA, illa praecepta maxime debent
+            <lb ed="#L" n="14"/>in decalogo poni per quae homines maxime 
+            in<lb break="no" ed="#L" n="15"/>clinantur ad legis impletionem: quia ista videntur
+            <lb ed="#L" n="16"/>esse principalia. Sed. per humilitatem, per quam
+            <lb ed="#L" n="17"/>homo Deo subiicitur, maxime videtur homo 
+            dis<lb break="no" ed="#L" n="18"/>poni.ad observantiam divinae legis: unde: 
+            obe<lb break="no" ed="#L" n="19"/>dientia inter gradus humilitatis computatur, ut
+            <lb ed="#L" n="20"/>supra  habitum est. Et idem etiam videtur esse
+            <lb ed="#L" n="21"/>dicendum de mansuetudine, per quam fit ut homo
+            <lb ed="#L" n="22"/>divinae Scripturae non contradicat, ut Augustinus
+            <lb ed="#L" n="23"/>dicit, in II de Doct. Christ.  Ergo videtur quod
+            <lb ed="#L" n="24"/>de. humilitate. et: mansuetudine aliqua : praecepta
+            <lb ed="#L" n="25"/>in. decalogo' poni debuerunt.
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e402">
+            <lb ed="#L" n="26"/>3. PRAETEREA, dictum est  quod adulterium
+            <lb ed="#L" n="27"/>in decalogo prohibetur quia. contrariatur 
+            dile<lb break="no" ed="#L" n="28"/>ctioni proximi. Sed etiam inordinatio exteriorum
+            <lb ed="#L" n="29"/>motuum, quae contrariatur modestiae, dilectioni
+            <lb ed="#L" n="30"/>proximi: opponitur: unde Augustinus dicit, in
+            <lb ed="#L" n="31"/>Regula: :.- In omnibus motibus. vestris nihil fiat
+            <lb ed="#L" n="32"/>quod cuiusquam offendat aspectum. Ergo videtur
+            <lb ed="#L" n="33"/>quod etiam huiusmodi inordinatio debuit 
+            prohi<lb break="no" ed="#L" n="34"/>beri per:aliquod praeceptum decalogi.
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e424">
+            <lb ed="#L" n="35"/>IN CONTRARIUM. sufficit auctoritas Scripturae .
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e429">
+            <lb ed="#L" n="36"/>RESPONDEO DICENDUM quod virtutes temperan-
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="37"/>tiae annexae dupliciter considerari possunt: uno
+            <lb ed="#L" n="38"/>modo, secundum se; alio modo, secundum suos
+            <lb ed="#L" n="39"/>effectus. Secundum se quidem, non habent 
+            di<lb break="no" ed="#L" n="40"/>rectam habitudinem ad dilectionem Dei vel 
+            pro<lb break="no" ed="#L" n="41"/>ximi: sed magis respiciunt quandam 
+            moderatio<lb break="no" ed="#L" n="42"/>nem eorum quae ad ipsum hominem: pertin
+            <lb ed="#L" n="43"/>Quantum autem ad effectus suos, possunt 
+            respi<lb break="no" ed="#L" n="44"/>cere dilectionem Dei vel proximi. Et secundum
+            <lb ed="#L" n="45"/>hoc, aliqua praecepta in decalogo ponuntur 
+            per<lb break="no" ed="#L" n="46"/>tinentia ad: prohibendum: effectus vitiorum 
+            op<lb break="no" ed="#L" n="47"/>positorum temperantiae partibus: sicut ex ira,
+            <lb ed="#L" n="48"/>quae opponitur mansuetudini, procedit interdum
+            <lb ed="#L" n="49"/>aliquis ad. homicidium, quod in decalogo 
+            prohi<lb break="no" ed="#L" n="50"/>betur; vel ad. subtrahendum ^ debitum honorem
+            <lb ed="#L" n="51"/>parentibus. Quod etiam: potest. ex superbia. 
+            pro<lb break="no" ed="#L" n="52"/>venire: ex qua etiam multi transgrediuntar 
+            prae<lb break="no" ed="#L" n="53"/>cepta primae tabulae.
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e473">
+            <lb ed="#L" n="54"/>AD PRIMUM ERGO DICENDUM quod: 'superbia est
+            <lb ed="#L" n="55"/>initium peccati, sed latens in corde: 'cuius' etiam
+            <lb ed="#L" n="56"/>inordinatio non perpenditur. communiter ab 
+            omni<lb break="no" ed="#L" n="57"/>bus. Unde eius prohibitio non debuit poni inter
+            <lb ed="#L" n="58"/>praecepta decalogi, quae sunt Srt s me 
+            prin<lb break="no" ed="#L" n="59"/>cipia per se nota
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e489">
+            <lb ed="#L" n="60"/>AD SECUNDUM DICENDUM: quod: praecepta quae
+            <lb ed="#L" n="61"/>inducunt ad observantiam legis, praesupponunt
+            <lb ed="#L" n="62"/>jam legem. Unde non possunt esse prima legis
+            <lb ed="#L" n="63"/>praecepta, ut in decalogo ponantur.
+          </p>
+          <p xml:id="TAca84-d1e2150-d1e500">
+            <lb ed="#L" n="64"/>AD TERTIUM DICENDUM quod: inordinatio 
+            exterio<lb break="no" ed="#L" n="65"/>rum motuum non pertinet ad offensam: proximi
+            <lb ed="#L" n="66"/>secundum ipsam speciem actus; sicut; 
+            homici<lb break="no" ed="#L" n="67"/>dium, adulterium et furtum, quae in decalogo
+            <lb ed="#L" n="68"/>prohibentur: sed solum secundum quod sunt 
+            si<lb break="no" ed="#L" n="69"/>gna interioris inordinatoinis, ut supra dictum est
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

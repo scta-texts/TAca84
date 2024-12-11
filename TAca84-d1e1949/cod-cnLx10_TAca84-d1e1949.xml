@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 131</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 131</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="74"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e1949"><!-- p2p2-q131 -->
+        <head xml:id="TAca84-d1e1949-Hd1e101">Quaestio 131</head>
+        <head xml:id="TAca84-d1e1949-Hd1e103" type="question-title">De ambitione</head>
+        <p xml:id="TAca84-d1e1949-d1e106">
+          <pb ed="#L" n="74"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=74"/>QUAESTIO CENTESIMATRIGESIMAPRIMA
+          <lb ed="#L" n="2"/>DE AMBITIONE
+          <lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e1949-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de ambitione .
+          <lb ed="#L" n="5"/>circa hoc quaeruntur duo.
+          <lb ed="#L" n="6"/>Primo: utrum ambitio sit peccatum.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="7"/>Secundo: utrum opponatur magnanimitati per
+          <lb ed="#L" n="8"/>excessum.
+        </p>
+        <div xml:id="TAca84-d1e1949-Dd1e137"><!-- p2p2-q131a1 -->
+          <head xml:id="TAca84-d1e1949-Hd1e140">Articulus 1</head>
+          <head xml:id="TAca84-d1e1949-Hd1e142" type="question-title">Utrum ambitio sit peccatum</head>
+          <p xml:id="TAca84-d1e1949-d1e145">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="9" type="fixed=74"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="10"/>UTRUM AMBITIO SIT PECCATUM
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e154">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="11"/>AD PRIMUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="12"/>ambitio non sit peccatum. Importat 
+            <lb ed="#L" n="13"/>enim ambitio cupiditatem honoris. 
+            Ho<lb break="no" ed="#L" n="14"/>nor autem de se quoddam bonum est,
+            <lb ed="#L" n="15"/>et maximum inter exteriora bona: unde et illi 
+            <lb ed="#L" n="16"/>qui de honore non curant, vituperantur. Ergo
+            <lb ed="#L" n="17"/>ambitio non est peccatum, sed magis aliquid
+            <lb ed="#L" n="18"/>laudabile, secundum quod bonum laudabiliter 
+            ap<lb break="no" ed="#L" n="19"/>petitur.
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e178">
+            <lb ed="#L" n="20"/>2. PRAETEREA, quilibet absque vitio potest 
+            ap<lb break="no" ed="#L" n="21"/>petere id quod sibi debetur pro praemio. Sed
+            <lb ed="#L" n="22"/>honor est praemium virtutis, ut Philosophus dicit,
+            <lb ed="#L" n="23"/>in 1  et VIII  Ethic. Ergo ambitio honoris non
+            <lb ed="#L" n="24"/>est peccatum.
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e192">
+            <lb ed="#L" n="25"/>3. PRAETEREA, illud per quod homo 
+            provoca<lb break="no" ed="#L" n="26"/>tur ad bonum et revocatur a malo, non est 
+            pec<lb break="no" ed="#L" n="27"/>catum. Sed per honorem homines provocantur
+            <lb ed="#L" n="28"/>ad bona facienda et mala vitanda: sicut 
+            Philo<lb break="no" ed="#L" n="29"/>sophus dicit, in III Ethic. , quod fortissimi 
+            vi<lb break="no" ed="#L" n="30"/>dentur esse apud quos timidi sunt inhonorati, 
+            for<lb break="no" ed="#L" n="31"/>les autem honorati; et Tullius dicit, in libro de
+            <lb ed="#L" n="32"/>Tusculan. Quaest. , quod honor alit artes. Ergo
+            <lb ed="#L" n="33"/>ambitio non est peccatum.
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e214">
+            <lb ed="#L" n="34"/>SEp cowTRA EsT quod dicitur I ad Cor. xu ,
+            <lb ed="#L" n="35"/>quod caritas non est ambitiosa, non quaerit quae
+            <lb ed="#L" n="36"/>sua sunt. Nihil aut repugnat caritati nisi 
+            pecca<lb break="no" ed="#L" n="37"/>tum. Ergo ambitio est peccatum.
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e225">
+            <lb ed="#L" n="38"/>RESPONDEO DICENDUM quod, sicut supra  
+            di<lb break="no" ed="#L" n="39"/>ctum est, honor importat quandam reverentiam
+            <lb ed="#L" n="40"/>alicui exhibitam in testimonium excellentiae eius.
+            <lb ed="#L" n="41"/>Circa excellentiam autem hominis duo sunt 
+            atten<lb break="no" ed="#L" n="42"/>denda. Primo quidem, quod id secundum quod
+            <lb ed="#L" n="43"/>homo excellit, non habet homo a seipso, sed est
+            <lb ed="#L" n="44"/>quasi quiddam divinum in eo. Et ideo ex hoc
+            <lb ed="#L" n="45"/>non debetur principaliter sibi honor, sed Deo. -
+            <lb ed="#L" n="46"/>Secundo considerandum est quod id in quo homo
+            <lb ed="#L" n="47"/>excellit, datar homini a Deo ut ex eo aliis prosit.
+            <lb ed="#L" n="48"/>Unde intantum debet homini placere testimonium
+            <lb ed="#L" n="49"/>suae excellentiae quod ab aliis exhibetur, inquan-
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="50"/>tum ex hoc paratur sibi via ad hoc quod aliis
+            <lb ed="#L" n="51"/>prosit.
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e260">
+            <lb ed="#L" n="52"/>Tripliciter ergo  appetitum honoris contingit
+            <lb ed="#L" n="53"/>esse inordinatum. Uno modo, per hoc quod 
+            ali<lb break="no" ed="#L" n="54"/>quis appetit testimonium de excellentia quam non
+            <lb ed="#L" n="55"/>habet: quod est appetere. honorem supra suam
+            <lb ed="#L" n="56"/>proportionem. Alio modo, per hoc quod 
+            hono<lb break="no" ed="#L" n="57"/>rem sibi cupit  non referendo in Deum. Tertio
+            <lb ed="#L" n="58"/>modo, per hoc quod appetitus eius in ipso 
+            ho<lb break="no" ed="#L" n="59"/>nore quiescit, non referens honorem ad utilitatem
+            <lb ed="#L" n="60"/>aliorum. Ambitio autem importat inordinatum 
+            ap<lb break="no" ed="#L" n="61"/>petitum honoris. Unde manifestum est quod 
+            am<lb break="no" ed="#L" n="62"/>bitio semper est peccatum.
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e286">
+            <lb ed="#L" n="63"/>AD PRIMUM ERGO DICENDUM quod appetitus boni
+            <lb ed="#L" n="64"/>debet regulari secundum rationem: cuius 
+            regu<lb break="no" ed="#L" n="65"/>lam si transcendat, erit vitiosus. Et hoc modo
+            <lb ed="#L" n="66"/>vitiosum est quod aliquis honorem appetat non
+            <lb ed="#L" n="67"/>secundum ordinem rationis. Vituperantur autem
+            <lb ed="#L" n="68"/>qui non curant de honore secundum quod ratio 
+            <lb ed="#L" n="69"/>dictat, ut scilicet vitent ea quae sunt contraria
+            <lb ed="#L" n="70"/>honori. 
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e306">
+            <lb ed="#L" n="71"/>AD SECUNDUM DICENDUM quod honor non est
+            <lb ed="#L" n="72"/>praemium virtutis quoad ipsum virtuosum, ut
+            <lb ed="#L" n="73"/>scilicet hoc pro praemio expetere debeat: sed
+            <lb ed="#L" n="74"/>pro praemio expetit beatitudinem, quae est finis
+            <lb ed="#L" n="75"/>virtutis. Dicitur autem esse praemium virtutis ex
+            <lb ed="#L" n="76"/>parte aliorum, qui non habent aliquid maius quod
+            <lb ed="#L" n="77"/>virtuoso retribuant quam honorem , qui ex hoc
+            <lb ed="#L" n="78"/>ipso magnitudinem habet quod perhibet 
+            testimo<lb break="no" ed="#L" n="79"/>nium virtuti. Unde patet quod on est sufficiens
+            <lb ed="#L" n="80"/>praemium, ut dicitur in IV Ethic. 
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e331">
+            <lb ed="#L" n="81"/>AD TERTIUM DICENDUM quod sicut per appetitum
+            <lb ed="#L" n="82"/>honoris, quando debito modo appetitur, aliqui
+            <lb ed="#L" n="83"/>provocantur ad bonum et revocantur a malo;
+            <lb ed="#L" n="84"/>ita etiam, si inordinate appetatur, potest esse
+            <lb ed="#L" n="85"/>homini occasio multa mala faciendi, dum scilicet
+            <lb ed="#L" n="86"/>non? curat qualitercumque honorem consequi
+            <lb ed="#L" n="87"/>possit. Unde Sallustius dicit, in Catilinario , quod
+            <lb ed="#L" n="88"/>gloriam, honorem et imperium bonus et ignavus
+            <pb ed="#L" n="75"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>aeque sibi exoptat : sed ille, scilicet bonus,
+            <lb ed="#L" n="2"/>via nititur; huic, scilicet ignavo, quia bonae 
+            ar<lb break="no" ed="#L" n="3"/>tes desunt, dolis atque fallaciis contendit. — Et
+            <lb ed="#L" n="4"/>tamen illi qui solum propter honorem vel bona 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="5"/>faciunt vel mala vitant, non sunt virtuosi: ut
+            <lb ed="#L" n="6"/>patet per Philosophum, in III Efhic. , ubi dicit
+            <lb ed="#L" n="7"/>quod non sunt vere fortes qui propter honorem
+            <lb ed="#L" n="8"/>fortia faciunt.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1949-Dd1e377"><!-- p2p2-q131a2 -->
+          <head xml:id="TAca84-d1e1949-Hd1e380">Articulus 2</head>
+          <head xml:id="TAca84-d1e1949-Hd1e382" type="question-title">Utrum ambitio opponatur magnanimitati per excessum</head>
+          <p xml:id="TAca84-d1e1949-d1e385">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="59" type="fixed=76"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="60"/>UTRUM AMBITIO OPPONATUR MAGNANIMITATI PER EXCESSUM
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e394">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="61"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="62"/>ambitio non opponatur rhagnanimitati
+            <lb ed="#L" n="63"/>a per excessum. Uni enim medio non 
+            op<lb break="no" ed="#L" n="64"/>ponitur ex una parte nisi unum 
+            extre<lb break="no" ed="#L" n="65"/>mum. Sed magnanimitati per excessum opponitur
+            <lb ed="#L" n="66"/>praesumptio ut dictum est . Ergo non opponitur
+            <lb ed="#L" n="67"/>ei ambitio per excessum.
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e414">
+            <lb ed="#L" n="68"/>2. PRAETEREA, magnanimitas est circa honores.
+            <lb ed="#L" n="69"/>Sed ambitio videtur pertinere ad dignitates: 
+            di<lb break="no" ed="#L" n="70"/>citur enim II Machab. 1v , quod Jason ambiebat
+            <lb ed="#L" n="71"/>summum sacerdotium. Ergo ambitio non 
+            oppo<lb break="no" ed="#L" n="72"/>nitur magnanimitati.
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e428">
+            <lb ed="#L" n="73"/>3. PRAETEREA, ambitio videtur ad exteriorem
+            <lb ed="#L" n="74"/>apparatum pertinere: dicitur enim Act. xxv ,
+            <lb ed="#L" n="75"/>quod Agrippa et Berenice cum multa ambitione
+            <lb ed="#L" n="76"/>introierunt praetorium; et II Paralip. xvi , quod
+            <lb ed="#L" n="77"/>super corpus Asa mortui combusserunt aromata
+            <lb ed="#L" n="78"/>et unguenta ambitione nimia. Sed magnanimitas
+            <lb ed="#L" n="79"/>non est circa exteriorem apparatum. Ergo 
+            am<lb break="no" ed="#L" n="80"/>bitio non opponitur magnanimitati.
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e448">
+            <lb ed="#L" n="81"/>SEp coNTRA EsT quod Tullius dicit, in I de
+            <lb ed="#L" n="82"/>Offic. , quod sicut quisque magnitudine animi
+            <lb ed="#L" n="83"/>excellit, ita maxime vult princeps omnium solus
+            <lb ed="#L" n="84"/>esse. Sed hoc pertinet ad ambitionem. Ergo 
+            am<lb break="no" ed="#L" n="85"/>bitio pertinet ad excessum magnanimitatis.
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e461">
+            <lb ed="#L" n="86"/>REsPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="87"/>ambitio importat inordinatum appetitum honoris.
+            <lb ed="#L" n="88"/>Magnanimitas autem est circa honores, et utitur
+            <lb ed="#L" n="89"/>eis secundum quod oportet. Unde manifestum
+            <lb ed="#L" n="90"/>est quod ambitio opponitur magnanimitati sicut
+            <lb ed="#L" n="91"/>inordinatum ordinato.
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e477">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="92"/>AD PRIMUM ERGO DICENDUM quod magnanimitas
+            <lb ed="#L" n="93"/>ad duo respicit Ad unum quidem sicut ad 
+            fi<lb break="no" ed="#L" n="94"/>nem intentum: quod est aliquod magnum opus,
+            <lb ed="#L" n="95"/>quod magnanimus attentat secundum suam 
+            fa<lb break="no" ed="#L" n="96"/>cultatem. Et quantum ad hoc opponitur 
+            magna<lb break="no" ed="#L" n="97"/>nimitati per excessum praesumptio, quae  
+            at<lb break="no" ed="#L" n="98"/>tentat aliquod magnum opus supra suam 
+            facul<lb break="no" ed="#L" n="99"/>tatem. Ad aliud autem respicit magnanimitas
+            <lb ed="#L" n="100"/>sicut ad materiam qua debite utitur, scilicet ad
+            <lb ed="#L" n="101"/>honorem. Et quantum ad hoc opponitur 
+            magna<lb break="no" ed="#L" n="102"/>nimitati per excessum ambitio. Non est autem
+            <lb ed="#L" n="103"/>inconveniens secundum diversa esse plures 
+            ex<lb break="no" ed="#L" n="104"/>cessus unius medii.
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e510">
+            <lb ed="#L" n="105"/>AD SECUNDUM DICENDUM quod illis qui sunt in
+            <lb ed="#L" n="106"/>dignitate constituti, propter quandam 
+            excellen<lb break="no" ed="#L" n="107"/>tiam status, debetur honor. Et secundum hoc
+            <lb ed="#L" n="108"/>inordinatus appetitus dignitatum pertinet ad 
+            am<lb break="no" ed="#L" n="109"/>bitionem. Si quis enim inordinate appeteret 
+            di<lb break="no" ed="#L" n="110"/>gnitatem non ratione honoris, sed propter 
+            de<lb break="no" ed="#L" n="111"/>bitum dignitatis usum suam facultatem 
+            exceden<lb break="no" ed="#L" n="112"/>tem, non esset ambitiosus, sed magis 
+            praesum<lb break="no" ed="#L" n="113"/>ptuosus.
+          </p>
+          <p xml:id="TAca84-d1e1949-d1e532">
+            <lb ed="#L" n="114"/>AD TERTIUM DICENDUM quod ipsa solemnitas 
+            ex<lb break="no" ed="#L" n="115"/>terioris cultus ad quendam honorem pertinet:
+            <lb ed="#L" n="116"/>unde et talibus consuevit honor exhiberi. Quod
+            <lb ed="#L" n="117"/>significatur lac. u : .Si introierit in. conventum
+            <lb ed="#L" n="118"/>vestrum vir anulum habens aureum, in veste 
+            can<lb break="no" ed="#L" n="119"/>dida, et dixeritis ei: Tu sede hic bene ?, etc. Unde
+            <lb ed="#L" n="120"/>ambitio non est circa exteriorem cultum nisi 
+            se<lb break="no" ed="#L" n="121"/>cundum quod pertinet ad honorem.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

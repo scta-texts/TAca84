@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 182</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 182</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="440"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2212"><!-- p2p2-q182 -->
+        <head xml:id="TAca84-d1e2212-Hd1e101">Quaestio 182</head>
+        <head xml:id="TAca84-d1e2212-Hd1e103" type="question-title">De comparatione vitae activae ad contemplativam</head>
+        <p xml:id="TAca84-d1e2212-d1e106">
+          <pb ed="#L" n="440"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=440"/>QUAESTIO CENTESIMAOCTOGESIMASECUNDA
+          <lb ed="#L" n="2"/>DE COMPARATIONE VITAE ACTIVAE AD CONTEMPLATIVAM
+          <lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2212-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de comparatione
+          <lb ed="#L" n="5"/>vitae activae ad contemplativam .
+          <lb ed="#L" n="6"/>Et circa hoc quaeruntur quatuor.
+          <lb ed="#L" n="7"/>Primo: quae sit potior sive dignior.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="8"/>Secundo: quae sit maioris meriti.
+          <lb ed="#L" n="9"/>Tertio: utrum vita contemplativa impediatur
+          <lb ed="#L" n="10"/>per activam.
+          <lb ed="#L" n="11"/>Quarto: de ordine utriusque.
+        </p>
+        <div xml:id="TAca84-d1e2212-Dd1e143"><!-- p2p2-q182a1 -->
+          <head xml:id="TAca84-d1e2212-Hd1e146">Articulus 1</head>
+          <head xml:id="TAca84-d1e2212-Hd1e148" type="question-title">Utrum vita activa sit potior quam contemplativa</head>
+          <p xml:id="TAca84-d1e2212-d1e151">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="12" type="fixed=440"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="13"/>UTRUM VITA ACTIVA SIT POTIOR QUAM CONTEMPLATIVA
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e160">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="14"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="15"/>vita activa sit potior quam 
+            contempla<lb break="no" ed="#L" n="16"/>tiva. Quod enim est meliorum , videtur
+            <lb ed="#L" n="17"/>esse melius, ut Philosophus dicit, in III
+            <lb ed="#L" n="18"/>Topic.  Sed vita activa pertinet ad maiores, 
+            sci<lb break="no" ed="#L" n="19"/>licet ad praelatos, qui sunt in honore et 
+            pote<lb break="no" ed="#L" n="20"/>state constituti: unde Augustinus dicit, XIX de
+            <lb ed="#L" n="21"/>Civ. Dei , quod in actione non amandus est 
+            ho<lb break="no" ed="#L" n="22"/>nor in hac vita, sive potentia. Ergo videtur quod
+            <lb ed="#L" n="23"/>vita activa sit potior quam contemplativa.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e186">
+            <lb ed="#L" n="24"/>2. PRAETEREA, in omnibus habitibus et actibus
+            <lb ed="#L" n="25"/>praecipere pertinet ad potiorem: sicut militaris,
+            <lb ed="#L" n="26"/>tanquam potior, praecipit frenorum factrici . Sed
+            <lb ed="#L" n="27"/>ad vitam activam pertinet disponere et praecipere
+            <lb ed="#L" n="28"/>de contemplativa: ut patet per id quod dicitur
+            <lb ed="#L" n="29"/>Moysi, Exod. xix : Descende, et contestare  
+            po<lb break="no" ed="#L" n="30"/>pulum, ne forte velit transcendere propositos 
+            ter<lb break="no" ed="#L" n="31"/>minos ad videndum Deum. Ergo vita activa est
+            <lb ed="#L" n="32"/>potior quam contemplativa.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e209">
+            <lb ed="#L" n="33"/>3. PnRaETEREA, nullus debet abstrahi a maiori
+            <lb ed="#L" n="34"/>ut applicetur minoribus: Apostolus enim dicit, I
+            <lb ed="#L" n="35"/>ad Cor. xu : Aemulamini charismata meliora.
+            <lb ed="#L" n="36"/>Sed aliqui abstrahuntur a statu vitae 
+            contempla<lb break="no" ed="#L" n="37"/>tivae et occupantur circa vitam activam: ut patet
+            <lb ed="#L" n="38"/>de illis qui transferuntur ad statum praelationis.
+            <lb ed="#L" n="39"/>Ergo videtur quod vita activa sit potior quam
+            <lb ed="#L" n="40"/>contemplativa.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e229">
+            <lb ed="#L" n="41"/>SEp coNTRA EsT quod Dominus dicit, Luc. x :
+            <lb ed="#L" n="42"/>Maria optimam partem elegit, quae non 
+            aufere<lb break="no" ed="#L" n="43"/>tur ab ea. Per Mariam autem significatur vita
+            <lb ed="#L" n="44"/>contemplativa . Ergo contemplativa vita potior
+            <lb ed="#L" n="45"/>est quam activa.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e242">
+            <lb ed="#L" n="46"/>RESPONDEO DICENDUM quod nihil prohibet 
+            ali<lb break="no" ed="#L" n="47"/>quid secundum se esse excellentius quod tamen
+            <lb ed="#L" n="48"/>secundum aliquid ab alio superatur. Dicendum
+            <lb ed="#L" n="49"/>est ergo quod vita contemplativa simpliciter 
+            me<lb break="no" ed="#L" n="50"/>lior est quam activa . Quod Philosophus, in X
+            <lb ed="#L" n="51"/>Ethic. , probat octo rationibus. Quarum prima
+            <lb ed="#L" n="52"/>est, quia vita contemplativa convenit homini se-
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="53"/>cundum illud quod est optimum in ipso, scilicet
+            <lb ed="#L" n="54"/>secundum intellectum, et respectu propriorum
+            <lb ed="#L" n="55"/>obiectorum, scilicet intelligibilium: vita autem
+            <lb ed="#L" n="56"/>activa occupatur circa exteriora. Unde Rachel,
+            <lb ed="#L" n="57"/>per quam significatur vita contemplativa, 
+            inter<lb break="no" ed="#L" n="58"/>pretatur visum principium: vita autem activa 
+            si<lb break="no" ed="#L" n="59"/>gnificatur per Liam, quae erat lippis oculis , ut
+            <lb ed="#L" n="60"/>Gregorius dicit, VI Moral.  - Secundo, quia vita
+            <lb ed="#L" n="61"/>contemplativa potest esse magis continua, licet
+            <lb ed="#L" n="62"/>non quantum ad summum contemplationis 
+            gra<lb break="no" ed="#L" n="63"/>dum: sicut supra  dictum est. Unde et Maria, 
+            <lb ed="#L" n="64"/>per quam significatur vita contemplativa, 
+            describi<lb break="no" ed="#L" n="65"/>tur secus pedes Domini assidue sedens . — Tertio,
+            <lb ed="#L" n="66"/>quia maior est delectatio vitae contemplativae
+            <lb ed="#L" n="67"/>quam activae. Unde Augustinus dicit, in libro de
+            <lb ed="#L" n="68"/>Verbis Dom. , quod Martha turbabatur, Maria
+            <lb ed="#L" n="69"/>epulabatur. - Quarto, quia in vita contemplativa
+            <lb ed="#L" n="70"/>est homo magis sibi sufficiens: quia paucioribus
+            <lb ed="#L" n="71"/>ad eam indiget. Unde dicitur Luc. x : Martha,
+            <lb ed="#L" n="72"/>Martha, sollicita es et turbaris erga plurima. -
+            <lb ed="#L" n="73"/>Quinto, quia vita contemplativa magis propter se
+            <lb ed="#L" n="74"/>diligitur: vita autem activa ad aliud ordinatur.
+            <lb ed="#L" n="75"/>Unde in Psalmo  dicitur: Unam petii a Domino,
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="76"/>hanc requiram: ut inhabitem in domo Domini 
+            <lb ed="#L" n="77"/>omnibus diebus vitae meae, ut videam 
+            volunta<lb break="no" ed="#L" n="78"/>tem Domini. - Sexto, quia vita contemplativa
+            <lb ed="#L" n="79"/>consistit in quadam vacatione et quiete: 
+            secun<lb break="no" ed="#L" n="80"/>dum illud Psalmi : Vacate, et videte quoniam
+            <lb ed="#L" n="81"/>ego sum Deus. - Septimo, quia vita 
+            contempla<lb break="no" ed="#L" n="82"/>tiva est secundum divina: vita autem activa 
+            se<lb break="no" ed="#L" n="83"/>cundum humana. Unde Augustinus dicit, in libro
+            <lb ed="#L" n="84"/>de Verbis Dom.: « In principio erat Verbum »:
+            <lb ed="#L" n="85"/>ecce quod Maria audiebat. « Verbum caro factum
+            <lb ed="#L" n="86"/>est »: ecce cui Martha ministrabat. - Octavo, quia
+            <lb ed="#L" n="87"/>vita contemplativa est secundum id quod est 
+            ma<lb break="no" ed="#L" n="88"/>gis proprium homini, idest secundum intellectum:
+            <lb ed="#L" n="89"/>in operationibus autem vitae activae 
+            communi<lb break="no" ed="#L" n="90"/>cant etiam inferiores vires, quae sunt nobis et
+            <lb ed="#L" n="91"/>brutis communes. Unde in Psalmo , postquam
+            <pb ed="#L" n="441"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>dictum est, homines et iumenta salvabis, 
+            Domi<lb break="no" ed="#L" n="2"/>ne, subditur  id quod est hominibus speciale: Zn
+            <lb ed="#L" n="3"/>lumine tuo videbimus lumen. - Nonam rationem
+            <lb ed="#L" n="4"/>addit Dominus, Luc. x , cum dicit: Optimam 
+            par<lb break="no" ed="#L" n="5"/>tem elegit Maria, quae non auferetur ab ea. Quod
+            <lb ed="#L" n="6"/>exponens Augustinus, in libro de Verbis Dom. ,
+            <lb ed="#L" n="7"/>dicit: Non tu malam: sed illa meliorem. Audi
+            <lb ed="#L" n="8"/>unde meliorem: quia non auferetur ab ea. A te
+            <lb ed="#L" n="9"/>auferetur aliquando onus Y necessitatis: aeterna
+            <lb ed="#L" n="10"/>est dulcedo veritatis.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e375">
+            <lb ed="#L" n="11"/>Secundum quid tamen, et in casu, magis est
+            <lb ed="#L" n="12"/>eligenda vita activa, propter necessitatem 
+            prae<lb break="no" ed="#L" n="13"/>sentis vitae. Sicut etiam Philosophus dicit, in III
+            <lb ed="#L" n="14"/>Topic. , quod philosophari est melius quam 
+            di<lb break="no" ed="#L" n="15"/>lari, sed ditari melius est necessitatem patienti.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e388">
+            <lb ed="#L" n="16"/>AD PRIMUM ERGO DICENDUM quod ad praelatos
+            <lb ed="#L" n="17"/>non solum pertinet vita activa, sed etiam debent
+            <lb ed="#L" n="18"/>esse excellentes in vita contemplativa. Unde
+            <lb ed="#L" n="19"/>Gregorius dicit, n Pastorali : Sit rector actione
+            <lb ed="#L" n="20"/>praecipuus , prae cunctis in contemplatione 
+            sus<lb break="no" ed="#L" n="21"/>pensus.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e404">
+            <lb ed="#L" n="22"/>AD SECUNDUM DICENDUM quod vita contemplativa
+            <lb ed="#L" n="23"/>in quadam animi libertate consistit. Dicit enim
+            <lb ed="#L" n="24"/>Gregorius, super Ezech. , quod vita 
+            contempla<lb break="no" ed="#L" n="25"/>tiva ad quandam mentis libertatem transit, 
+            tempo<lb break="no" ed="#L" n="26"/>ralia non cogitans, sed aeterna. Et Boetius dicit,
+            <lb ed="#L" n="27"/>in V de Consolat. : <quote xml:id="TAca84-d1e2212-Qd1e419" source="http://scta.info/resource/hy7y6y-d1e83-d1e182@110-130">Humanas animas liberiores
+              <cb ed="#L" n="b"/>
+              <lb ed="#L" n="28"/>esse necesse est cum se in mentis divinae 
+              specu<lb break="no" ed="#L" n="29"/>latione conservant ?: minus vero, cum dilabuntur
+              <lb ed="#L" n="30"/>ad corpora</quote>. Unde patet quod vita activa non 
+            di<lb break="no" ed="#L" n="31"/>recte praecipit vitae contemplativae: sed, 
+            dispo<lb break="no" ed="#L" n="32"/>nendo ad vitam contemplativam, praecipit 
+            quae<lb break="no" ed="#L" n="33"/>dam opera vitae activae; in quo magis servit
+            <lb ed="#L" n="34"/>contemplativae vitae quam dominetur. Et hoc
+            <lb ed="#L" n="35"/>est quod Gregorius dicit, super Exech. , quod
+            <lb ed="#L" n="36"/>activa vita servitus, contemplativa autem libertas
+            <lb ed="#L" n="37"/>vocatur.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e447">
+            <lb ed="#L" n="38"/>AD TERTIUM DICENDUM quod ad opera vitae 
+            acti<lb break="no" ed="#L" n="39"/>vae interdum aliquis a contemplatione avocatur
+            <lb ed="#L" n="40"/>propter aliquam necessitatem praesentis vitae:
+            <lb ed="#L" n="41"/>non tamen hoc modo quod cogatur aliquis 
+            totali<lb break="no" ed="#L" n="42"/>ter contemplationem deserere. Unde <ref xml:id="TAca84-d1e2212-Rd1e460">Augustinus
+              <lb ed="#L" n="43"/>dicit, XIX de Civ. Dei</ref>: <quote xml:id="TAca84-d1e2212-Qd1e465" source="http://scta.info/resource/adcd-l19-d1e3149@292-337">Otium sanctum quaerit
+                <lb ed="#L" n="44"/>carilas veritatis: negotium iustum, scilicet vitae
+                <lb ed="#L" n="45"/>activae, suscipit necessitas caritatis. Quam 
+                sarci<lb break="no" ed="#L" n="46"/>nam si nullus imponit, percipiendae atque 
+                intuen<lb break="no" ed="#L" n="47"/>dae vacandum est veritati. Si autem imponitur,
+                <lb ed="#L" n="48"/>suscipienda est, propter caritatis necessitatem. Sed
+                <lb ed="#L" n="49"/>nec sic omnino veritatis delectatio deserenda est:
+                <lb ed="#L" n="50"/>ne subtrahatur illa suavitas, et opprimat ista 
+                ne<lb break="no" ed="#L" n="51"/>cessitas</quote>. Et sic patet quod, cum aliquis a 
+            con<lb break="no" ed="#L" n="52"/>templativa vita ad activam vocatur, non hoc fit
+            <lb ed="#L" n="53"/>per modum subtractionis, sed per modum 
+            ad<lb break="no" ed="#L" n="54"/>ditionis.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2212-Dd1e494"><!-- p2p2-q182a2 -->
+          <head xml:id="TAca84-d1e2212-Hd1e497">Articulus 2</head>
+          <head xml:id="TAca84-d1e2212-Hd1e499" type="question-title">Utrum vita activa sit maioris meriti quam contemplativa</head>
+          <p xml:id="TAca84-d1e2212-d1e502">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="52" type="fixed=442"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="53"/>UTRUM VITA ACTIVA SIT MAIORIS MERITI QUAM CONTEMPLATIVA
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e511">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="54"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="55"/>vita activa sit maioris meriti quam 
+            con<lb break="no" ed="#L" n="56"/>templativa. Meritum enim dicitur 
+            re<lb break="no" ed="#L" n="57"/>aspectu mercedis. Merces autem debetur
+            <lb ed="#L" n="58"/>labori: secundum illud I ad Cor. m : 
+            Unusquis<lb break="no" ed="#L" n="59"/>que propriam mercedem accipiet secundum suum
+            <lb ed="#L" n="60"/>laborem. Sed vitae activae attribuitur labor, 
+            con<lb break="no" ed="#L" n="61"/>templativae vero quies: dicit enim Gregorius, 
+            su<lb break="no" ed="#L" n="62"/>per Exech.: Omnis qui ad Deum convertitur ,
+            <lb ed="#L" n="63"/>prius necesse est ut desudet in labore, idest Liam
+            <lb ed="#L" n="64"/>accipiat, ut post ad videndum principium in 
+            Ra<lb break="no" ed="#L" n="65"/>chel amplexibus requiescat. Ergo vita activa est
+            <lb ed="#L" n="66"/>maioris meriti quam contemplativa.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e544">
+            <lb ed="#L" n="67"/>2. PRAETEREA, vita contemplativa est quaedam
+            <lb ed="#L" n="68"/>inchoatio futurae felicitatis. Unde super illud loan.
+            <lb ed="#L" n="69"/>ult. , Sic eum volo manere donec veniam, dicit
+            <lb ed="#L" n="70"/>Augustinus : Hoc apertius dici potest: Perfecta
+            <lb ed="#L" n="71"/>me sequatur actio, informata meae passionis 
+            exem<lb break="no" ed="#L" n="72"/>plo: inchoata vero contemplatio maneat donec 
+            ve<lb break="no" ed="#L" n="73"/>nio, perficienda cum venero. Et Gregorius dicit,
+            <lb ed="#L" n="74"/>super Exech., quod contemplativa vita hic 
+            in<lb break="no" ed="#L" n="75"/>cipitur, ut in caelesti patria perficiatur. Sed in illa
+            <lb ed="#L" n="76"/>futura vita non erit status merendi, sed recipiendi
+            <lb ed="#L" n="77"/>pro meritis. Ergo vita contemplativa minus 
+            vi<lb break="no" ed="#L" n="78"/>detur habere de ratione meriti quam vita activa:
+            <lb ed="#L" n="79"/>sed plus habet de ratione praemii.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e576">
+            <lb ed="#L" n="80"/>3. PRAETEREA, Gregorius dicit, super Ezech. ,
+            <lb ed="#L" n="81"/>quod nullum sacrificium est Deo magis acceptum
+            <lb ed="#L" n="82"/>quam zelus animarum. Sed per zelum 
+            anima<lb break="no" ed="#L" n="83"/>rum aliquis se convertit ad studia activae vitae.
+            <lb ed="#L" n="84"/>Ergo videtur quod vita contemplativa non sit
+            <lb ed="#L" n="85"/>maioris meriti quam activa.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e592">
+            <lb ed="#L" n="86"/>SED CONTRA EST quod Gregorius dicit, in VI
+            <lb ed="#L" n="87"/>Moral. : Magna sunt activae vitae merita: sed
+            <lb ed="#L" n="88"/>contemplativae potiora.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e601">
+            <lb ed="#L" n="89"/>RESPONDEO DICENDUM quod radix merendi est
+            <lb ed="#L" n="90"/>caritas , sicut supra  habitum est. Cum autem
+            <lb ed="#L" n="91"/>caritas consistat in dilectione Dei et proximi, sicut
+            <lb ed="#L" n="92"/>supra  habitum est, diligere Deum secundum se
+            <lb ed="#L" n="93"/>est magis meritorium quam diligere proximum,
+            <lb ed="#L" n="94"/>ut ex supra  dictis patet. Et ideo illud quod 
+            di<lb break="no" ed="#L" n="95"/>rectius pertinet ad dilectionem Dei, magis est
+            <lb ed="#L" n="96"/>meritorium ex suo genere quam id quod directe
+            <lb ed="#L" n="97"/>pertinet ad dilectionem proximi propter Deum.
+            <lb ed="#L" n="98"/>Vita autem contemplativa directe et immediate
+            <lb ed="#L" n="99"/>pertinet ad dilectionem Dei: dicit enim 
+            Augusti<lb break="no" ed="#L" n="100"/>nus, XIX de Civ. Dei, quod otium sanctum,
+            <lb ed="#L" n="101"/>scilicet contemplativae vitae, quaerit caritas 
+            ve<lb break="no" ed="#L" n="102"/>ritatis, scilicet divinae; cui potissime vita có
+            n<lb break="no" ed="#L" n="103"/>templativa insistit, sicut dictum est . Vita autem
+            <lb ed="#L" n="104"/>activa ordinatur directius ad dilectionem proximi:
+            <lb ed="#L" n="105"/>quia satagit circa frequens ministerium, ut 
+            di<lb break="no" ed="#L" n="106"/>citur Luc. x . Et ideo ex suo genere 
+            contempla<lb break="no" ed="#L" n="107"/>tiva vita est maioris meriti quam activa . Et
+            <lb ed="#L" n="108"/>hoc est quod Gregorius dicit, in III Homil.
+            <lb ed="#L" n="109"/>Exech.: Contemplativa est. maior merito quam
+            <lb ed="#L" n="110"/>activa: quia haec in usu praesentis operis 
+            labo<lb break="no" ed="#L" n="111"/>rat, in quo scilicet necesse est proximis 
+            subve<lb break="no" ed="#L" n="112"/>nire; zlla vero sapore intimo venturam iam 
+            re<lb break="no" ed="#L" n="113"/>quiem degustat, scilicet in contemplatione Dei.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e658">
+            <lb ed="#L" n="114"/>Potest tamen contingere quod aliquis in 
+            ope<lb break="no" ed="#L" n="115"/>ribus vitae activae plus meretur quam alius in
+            <lb ed="#L" n="116"/>operibus vitae contemplativae: puta si propter
+            <lb ed="#L" n="117"/>abundantiam divini amoris, ut eius voluntas 
+            im<lb break="no" ed="#L" n="118"/>pleatur propter ipsius gloriam, interdum sustinet
+            <lb ed="#L" n="119"/>a dulcedine divinae contemplationis ad tempus
+            <pb ed="#L" n="443"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>separari. Sicut Apostolus dicebat, Rom. ix :
+            <lb ed="#L" n="2"/>Optabam ego ipse anathema esse a. Christo pro
+            <lb ed="#L" n="3"/>fratribus meis: quod exponens Chrysostomus, in
+            <lb ed="#L" n="4"/>libro de Compunct. , dicit: Jia totam mentem
+            <lb ed="#L" n="5"/>eius demerserat amor Christi, ut etiam hoc quod
+            <lb ed="#L" n="6"/>ei prae celeris omnibus amabilius erat, esse cum
+            <lb ed="#L" n="7"/>Christo, rursus idipsum, quia ita placeret Christo,
+            <lb ed="#L" n="8"/>contemneret.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e695">
+            <lb ed="#L" n="9"/>AD PRIMUM ERGO DICENDUM quod labor exterior
+            <lb ed="#L" n="10"/>operatur ad augmentum praemii accidentalis: sed
+            <lb ed="#L" n="11"/>augmentum meriti respectu praemii essentialis
+            <lb ed="#L" n="12"/>consistit principaliter in caritate. Cuius quoddam
+            <lb ed="#L" n="13"/>signum est labor exterior toleratus propter 
+            Chri<lb break="no" ed="#L" n="14"/>stum: sed multo expressius eius signum est quod
+            <lb ed="#L" n="15"/>aliquis, praetermissis omnibus quae ad hanc 
+            vi<lb break="no" ed="#L" n="16"/>tam pertinent, soli divinae contemplationi vacare
+            <lb ed="#L" n="17"/>delectetur.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e717">
+            <lb ed="#L" n="18"/>AD SECUNDUM DICENDUM quod in statu felicitatis
+            <lb ed="#L" n="19"/>futurae homo pervenit ad perfectum: et ideo non
+            <lb ed="#L" n="20"/>relinquitur locus proficiendi per meritum . Si
+            <lb ed="#L" n="21"/>tamen relinqueretur, esset efficacius meritum, 
+            pro<lb break="no" ed="#L" n="22"/>pter caritatem maiorem. Sed contemplatio 
+            prae<lb break="no" ed="#L" n="23"/>sentis vitae cum quadam imperfectione est, et
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="24"/>adhuc habet quo proficiat. Et ideo non tollit 
+            ra<lb break="no" ed="#L" n="25"/>tionem merendi, sed augmentum meriti facit,
+            <lb ed="#L" n="26"/>propter maius exercitium caritatis divinae.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e742">
+            <lb ed="#L" n="27"/>AD TERTIUM DICENDUM quod sacrificium 
+            spiritua<lb break="no" ed="#L" n="28"/>liter Deo offertur cum aliquid ei exhibetur. Inter
+            <lb ed="#L" n="29"/>omnia autem bona hominis Deus maxime 
+            acce<lb break="no" ed="#L" n="30"/>ptat bonum humanae animae, ut hoc sibi in 
+            sa<lb break="no" ed="#L" n="31"/>crificium offeratur. Offerre autem debet aliquis
+            <lb ed="#L" n="32"/>Deo, primo quidem, animam suam, secundum
+            <lb ed="#L" n="33"/>illud Eccli. xxx , Miserere animae tuae placens
+            <lb ed="#L" n="34"/>Deo: secundo autem, animas aliorum, secundum
+            <lb ed="#L" n="35"/>illud Apoc. ult. , Qui audit, dicat, Veni. Quanto
+            <lb ed="#L" n="36"/>autem homo animam suam vel alterius 
+            propin<lb break="no" ed="#L" n="37"/>quius Deo coniungit, tanto sacrificium est Deo
+            <lb ed="#L" n="38"/>magis acceptum. Unde magis acceptum est Deo
+            <lb ed="#L" n="39"/>quod aliquis animam suam et aliorum applicet
+            <lb ed="#L" n="40"/>contemplationi, quam actioni. Per hoc ergo quod
+            <lb ed="#L" n="41"/>dicitur quod. nullum sacrificium est Deo magis
+            <lb ed="#L" n="42"/>acceptum quam zelus animarum, non praefertur
+            <lb ed="#L" n="43"/>meritum vitae activae merito vitae 
+            contempla<lb break="no" ed="#L" n="44"/>tivae: sed ostenditur magis esse meritorium si
+            <lb ed="#L" n="45"/>quis offerat Deo animam suam et aliorum, quam
+            <lb ed="#L" n="46"/>quaecumque alia exteriora dona.
+          </p>
+        </div>
+        <!-- no commentary -->
+        <div xml:id="TAca84-d1e2212-Dd1e791"><!-- p2p2-q182a3 -->
+          <head xml:id="TAca84-d1e2212-Hd1e794">Articulus 3</head>
+          <head xml:id="TAca84-d1e2212-Hd1e796" type="question-title">Utrum vita contemplativa impediatur per activam</head>
+          <p xml:id="TAca84-d1e2212-d1e799">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="47" type="fixed=443"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="48"/>UTRUM VITA CONTEMPLATIVA IMPEDIATUR PER ACTIVAM
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e808">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="49"/>AD TERTIUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="50"/>vita contemplativa impediatur per 
+            acti<lb break="no" ed="#L" n="51"/>vam. Ad vitam enim contemplativam
+            <lb ed="#L" n="52"/>necessaria est quaedam vacatio mentis:
+            <lb ed="#L" n="53"/>secundum illud Psalmi : Vacate, et videte 
+            quo<lb break="no" ed="#L" n="54"/>niam ego sum Deus. Sed vita activa habet 
+            in<lb break="no" ed="#L" n="55"/>uietudinem: secundum illud Luc. x : Martha,
+            <lb ed="#L" n="56"/>Martha, sollicita es et turbaris erga plurima. Ergo
+            <lb ed="#L" n="57"/>vita activa contemplativam impedit.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e832">
+            <lb ed="#L" n="58"/>2. PRAETEREA, ad vitam contemplativam 
+            re<lb break="no" ed="#L" n="59"/>quiritur claritas visionis. Sed vita activa impedit
+            <lb ed="#L" n="60"/>visionis claritatem: dicit enim Gregorius, super
+            <lb ed="#L" n="61"/>Exech., quod lippa est et fecunda, quia, dum 
+            oc<lb break="no" ed="#L" n="62"/>cupatur in opere, minus videt. Ergo vita activa
+            <lb ed="#L" n="63"/>impedit contemplativam.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e849">
+            <lb ed="#L" n="64"/>3. PRAETEREA, unum contrariorum impeditur
+            <lb ed="#L" n="65"/>per aliud. Sed vita activa et contemplativa 
+            vi<lb break="no" ed="#L" n="66"/>dentur contrarietatem habere ad invicem, quia
+            <lb ed="#L" n="67"/>vita activa occupatur circa plurima, vita autem
+            <lb ed="#L" n="68"/>contemplativa insistit ad contemplandum unum:
+            <lb ed="#L" n="69"/>unde et ex opposito dividuntur. Ergo videtur
+            <lb ed="#L" n="70"/>quod vita contemplativa impediatur per activam.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e867">
+            <lb ed="#L" n="71"/>SED CONTRA EST quod Gregorius dicit, in VI
+            <lb ed="#L" n="72"/>Moral.: Qui contemplationis arcem tenere 
+            de<lb break="no" ed="#L" n="73"/>siderant, prius se in campo per exercitium operis
+            <lb ed="#L" n="74"/>probent.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e878">
+            <lb ed="#L" n="75"/>RESPONDEO DICENDUM quod vita activa potest
+            <lb ed="#L" n="76"/>considerari quantum ad duo. Uno modo, 
+            quan<lb break="no" ed="#L" n="77"/>tum ad ipsum studium et exercitium exteriorum
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="78"/>actionum. Et sic manifestum est quod vita activa
+            <lb ed="#L" n="79"/>impedit contemplativam: inquantum impossibile
+            <lb ed="#L" n="80"/>est quod aliquis simul occupetur circa exteriores
+            <lb ed="#L" n="81"/>actiones, et divinae contemplationi vacet.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e898">
+            <lb ed="#L" n="82"/>Alio modo potest considerari vita activa 
+            quan<lb break="no" ed="#L" n="83"/>tum ad hoc quod interiores animae passiones
+            <lb ed="#L" n="84"/>componit et ordinat. Et quantum ad hoc, vita
+            <lb ed="#L" n="85"/>activa adiuvat ad contemplationem, quae 
+            impe<lb break="no" ed="#L" n="86"/>ditur per inordinationem interiorum passionum.
+            <lb ed="#L" n="87"/>Unde Gregorius dicit, in VI Moral. : Cum 
+            con<lb break="no" ed="#L" n="88"/>templationis arcem aliqui tenere desiderant, prius
+            <lb ed="#L" n="89"/>se in campo per exercitium operis probent: ut
+            <lb ed="#L" n="90"/>sollicite sciant si nulla iam mala proximis 
+            irro<lb break="no" ed="#L" n="91"/>gant, si irrogata a proximis aequanimiter 
+            por<lb break="no" ed="#L" n="92"/>tant, si obiectis bonis temporalibus nequaquam
+            <lb ed="#L" n="93"/>mens laetitia solvitur, si subtractis non nimio 
+            mae<lb break="no" ed="#L" n="94"/>rore  sauciantur. Ac deinde perpendant si, cum
+            <lb ed="#L" n="95"/>ad semetipsos introrsus redeunt, in eo quod 
+            spi<lb break="no" ed="#L" n="96"/>ritualia rimantur, nequaquam secum rerum 
+            cor<lb break="no" ed="#L" n="97"/>poralium umbras trahunt, vel fortasse tractas 
+            ma<lb break="no" ed="#L" n="98"/>nu discretionis abigunt. Ex hoc ergo exercitium
+            <lb ed="#L" n="99"/>vitae activae confert ad contemplativam, quod
+            <lb ed="#L" n="100"/>quietat interiores passiones, ex quibus 
+            phanta<lb break="no" ed="#L" n="101"/>smata proveniunt, per quae contemplatio 
+            impe<lb break="no" ed="#L" n="102"/>ditur.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e946">
+            <lb ed="#L" n="103"/>Et per hoc patet responsio ad obiecta. Nam
+            <lb ed="#L" n="104"/>rationes illae procedunt quantum ad ipsam 
+            occu<lb break="no" ed="#L" n="105"/>pationem exteriorum actuum: non autem 
+            quan<lb break="no" ed="#L" n="106"/>tum ad effectum, qui est moderatio passionum.
+          </p>
+        </div>
+        <!-- no commentary -->
+        <div xml:id="TAca84-d1e2212-Dd1e960"><!-- p2p2-q182a4 -->
+          <head xml:id="TAca84-d1e2212-Hd1e963">Articulus 4</head>
+          <head xml:id="TAca84-d1e2212-Hd1e965" type="question-title">Utrum vita activa sit prior quam contemplativa</head>
+          <p xml:id="TAca84-d1e2212-d1e968">
+            <pb ed="#L" n="444"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=444"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="2"/>UTRUM VITA ACTIVA SIT PRIOR QUAM CONTEMPLATIVA
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e979">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>vita activa non sit prior quam 
+            contem<lb break="no" ed="#L" n="5"/>plativa. Vita enim contemplativa 
+            dire<lb break="no" ed="#L" n="6"/>cte pertinet ad dilectionem Dei, vita 
+            au<lb break="no" ed="#L" n="7"/>tem activa ad dilectionem proximi, Sed dilectio
+            <lb ed="#L" n="8"/>Dei praecedit dilectionem proximi, inquantum
+            <lb ed="#L" n="9"/>proximus propter Deum diligitur. Ergo videtur
+            <lb ed="#L" n="10"/>quod etiam vita contemplativa sit prior quam
+            <lb ed="#L" n="11"/>activa.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e1003">
+            <lb ed="#L" n="12"/>2. PRAETEREA, Gregorius dicit, super Exech. :
+            <lb ed="#L" n="13"/>Sciendum est quod, sicut bonus ordo vivendi est
+            <lb ed="#L" n="14"/>ul ab activa in contemplativam tendatur, ita. 
+            ple<lb break="no" ed="#L" n="15"/>rumque utiliter a contemplativa animus ad 
+            acti<lb break="no" ed="#L" n="16"/>vam reflectitur. Non ergo simpliciter vita activa
+            <lb ed="#L" n="17"/>est prior quam contemplativa.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e1020">
+            <lb ed="#L" n="18"/>3. PRAETEREA, ea quae diversis competunt, non
+            <lb ed="#L" n="19"/>videntur ex necessitate ordinem habere. Sed vita
+            <lb ed="#L" n="20"/>activa et contemplativa diversis competunt: dicit
+            <lb ed="#L" n="21"/>enim Gregorius, in VI Moral. : Saepe qui 
+            con<lb break="no" ed="#L" n="22"/>templari Deum quieti  poterant, occupationibus
+            <lb ed="#L" n="23"/>pressi ceciderunt: et saepe qui occupati bene 
+            hu<lb break="no" ed="#L" n="24"/>manis usibus viverent, gladio suae quietis extincti
+            <lb ed="#L" n="25"/>sunt. Non ergo vita activa prior est quam 
+            con<lb break="no" ed="#L" n="26"/>templativa.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e1042">
+            <lb ed="#L" n="27"/>SED CONTRA EsT quod Gregorius dicit, in III
+            <lb ed="#L" n="28"/>Homil. Exech.: Activa vita prior est tempore quam
+            <lb ed="#L" n="29"/>contemplativa: quia ex bono opere tenditur ad 
+            con<lb break="no" ed="#L" n="30"/>templationem.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e1053">
+            <lb ed="#L" n="31"/>RESPONDEO DICENDUM quod aliquid dicitur esse
+            <lb ed="#L" n="32"/>prius dupliciter. Uno modo, secundum suam 
+            na<lb break="no" ed="#L" n="33"/>turam. Et hoc modo vita contemplativa est prior
+            <lb ed="#L" n="34"/>quam activa, inquantum prioribus et melioribus
+            <lb ed="#L" n="35"/>insistit. Unde et activam vitam movet et dirigit:
+            <lb ed="#L" n="36"/>ratio enim superior, quae contemplationi 
+            depu<lb break="no" ed="#L" n="37"/>tatur, comparatur ad inferiorem, quae deputatur
+            <lb ed="#L" n="38"/>actioni, sicut vir ad mulierem, quae est per virum
+            <lb ed="#L" n="39"/>regenda, ut Augustinus dicit, XII de Trin. 
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e1075">
+            <lb ed="#L" n="40"/>Alio modo est aliquid prius quoad nos: quod
+            <lb ed="#L" n="41"/>scilicet est prius in via generationis. Et hoc modo
+            <lb ed="#L" n="42"/>vita activa est prior quam contemplativa: quia
+            <lb ed="#L" n="43"/>disponit ad contemplativam, ut ex supra  dictis
+            <lb ed="#L" n="44"/>patet. Dispositio enim in via generationis 
+            praece<lb break="no" ed="#L" n="45"/>dit formam, quae simpliciter et secundum 
+            natu<lb break="no" ed="#L" n="46"/>ram est prior.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e1093">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="47"/>AD PRIMUM ERGO DICENDUM quod vita 
+            contem<lb break="no" ed="#L" n="48"/>plativa non ordinatur ad qualemcumque Dei 
+            di<lb break="no" ed="#L" n="49"/>lectionem, sed ad perfectam. Sed vita activa 
+            ne<lb break="no" ed="#L" n="50"/>cessaria est ad dilectionem proximi 
+            qualemcum<lb break="no" ed="#L" n="51"/>que. Unde Gregorius dicit, in III Homil. Ezech. :
+            <lb ed="#L" n="52"/>Sine contemplativa vita intrare possunt ad 
+            caele<lb break="no" ed="#L" n="53"/>stem patriam qui bona quae possunt, operari non
+            <lb ed="#L" n="54"/>negligunt: sine activa aulem inirare non possunt,
+            <lb ed="#L" n="55"/>si negligunt bona operari quae possunt. Ex quo
+            <lb ed="#L" n="56"/>etiam patet quod vita activa praecedit 
+            contem<lb break="no" ed="#L" n="57"/>plativam, sicut id quod est commune omnium,
+            <lb ed="#L" n="58"/>praecedit in via generationis id quod est proprium
+            <lb ed="#L" n="59"/>perfectorum.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e1126">
+            <lb ed="#L" n="60"/>AD SECUNDUM DICENDUM quod a vita activa 
+            pro<lb break="no" ed="#L" n="61"/>ceditur ad vitam contemplativam secundum 
+            or<lb break="no" ed="#L" n="62"/>dinem generationis: a vita autem contemplativa
+            <lb ed="#L" n="63"/>reditur ad vitam activam per viam directionis,
+            <lb ed="#L" n="64"/>ut scilicet vita activa per contemplationem 
+            di<lb break="no" ed="#L" n="65"/>rigatur. Sicut etiam per operationes acquiritur
+            <lb ed="#L" n="66"/>habitus, et per habitum acquisitum perfectius 
+            ali<lb break="no" ed="#L" n="67"/>quis operatur, ut dicitur in II Ethic. 
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e1147">
+            <lb ed="#L" n="68"/>AD TERTIUM DICENDUM quod illi qui sunt proni
+            <lb ed="#L" n="69"/>ad passiones propter eorum impetum ad 
+            agen<lb break="no" ed="#L" n="70"/>dum, sunt similiter  magis apti ad vitam activam Y
+            <lb ed="#L" n="71"/>propter spiritus inquietudinem. Unde dicit Gre- —
+            <lb ed="#L" n="72"/>gorius, in VI Moral. , quod nonnulli ita inquieti voc.ci.
+            <lb ed="#L" n="73"/>sunt utl, si vacationem laboris habuerint, gravius
+            <lb ed="#L" n="74"/>laborent: quia tanto deteriores cordis tumultus to- —
+            <lb ed="#L" n="75"/>lerant, quanto eis licentius ad cogitationes vacat ?. id
+            <lb ed="#L" n="76"/>- Quidam vero habent naturaliter animi puritatem
+            <lb ed="#L" n="77"/>et quietem, per quam ad contemplationem sunt
+            <lb ed="#L" n="78"/>apti: qui si totaliter actionibus deputentur, 
+            detri<lb break="no" ed="#L" n="79"/>mentum sustinebunt. Unde Gregorius dicit, in
+            <lb ed="#L" n="80"/>VI Moral. , quod quorundam hominum ita otio- wia.
+            <lb ed="#L" n="81"/>sae menles sunt ut, si eos labor occupationis 
+            ex<lb break="no" ed="#L" n="82"/>cipiat, in ipsa operationis inchoatione succumbant.
+          </p>
+          <p xml:id="TAca84-d1e2212-d1e1182">
+            <lb ed="#L" n="83"/>Sed, sicut ipse postea  subdit, saepe et pigras  tid; cp.
+            <lb ed="#L" n="84"/>mentes amor ad opus excitat; et inquietas in cOn- in vet: xxvn.
+            <lb ed="#L" n="85"/>templatione timor refrenat. Unde et illi qui sunt
+            <lb ed="#L" n="86"/>magis apti ad activam vitam, possunt per 
+            exer<lb break="no" ed="#L" n="87"/>citium activae ad contemplativam praeparari: et
+            <lb ed="#L" n="88"/>illi nibilominus qui sunt magis ad contemplativam
+            <lb ed="#L" n="89"/>apti, possunt exercitia vitae activae subire, ut per
+            <lb ed="#L" n="90"/>hoc ad contemplationem paratiores reddantur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

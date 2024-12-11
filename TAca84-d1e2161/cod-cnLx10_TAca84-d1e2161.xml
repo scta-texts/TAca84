@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 172</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 172</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="377"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2161"><!-- p2p2-q172 -->
+        <head xml:id="TAca84-d1e2161-Hd1e101">Quaestio 172</head>
+        <head type="question-title">De causa prophetiae</head>
+        <p xml:id="TAca84-d1e2161-d1e103">
+          <pb ed="#L" n="377"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=377"/>QUAESTIO CENTESIMASEPTUAGESIMASECUNDA
+          <lb ed="#L" n="2"/>DE CAUSA PROPHETIAE
+          <lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2161-d1e116">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de causa 
+          prophe<lb break="no" ed="#L" n="5"/>tiae.
+          <lb ed="#L" n="6"/>Et circa hoc quaeruntur sex.
+          <lb ed="#L" n="7"/>Primo: utrum prophetia sit naturalis.
+          <lb ed="#L" n="8"/>Secundo: utrum sit a Deo mediantibus angelis.
+          <lb ed="#L" n="9"/>Tertio: utrum ad prophetiam requiratur 
+          dis<lb break="no" ed="#L" n="10"/>positio naturalis.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="11"/>Quarto: utrum requiratur bonitas morum.
+          <lb ed="#L" n="12"/>Quinto: utrum sit aliqua prophetia a 
+          daemo<lb break="no" ed="#L" n="13"/>nibus.
+          <lb ed="#L" n="14"/>Sexto: utrum prophetae daemonum aliquando
+          <lb ed="#L" n="15"/>dicant verum.
+        </p>
+        <div xml:id="TAca84-d1e2161-Dd1e149"><!-- p2p2-q172a1 -->
+          <head xml:id="TAca84-d1e2161-Hd1e152">Articulus 1</head>
+          <head xml:id="TAca84-d1e2161-Hd1e154" type="question-title">Utrum prophetia possit esse naturalis</head>
+          <p xml:id="TAca84-d1e2161-d1e157">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="16" type="fixed=377"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="17"/>UTRUM PROPHETIA POSSIT ESSE NATURALIS
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e166">
+            <lb ed="#L" n="18"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="19"/>prophetia possit esse natgralis, Dicit
+            <lb ed="#L" n="20"/>enim Gregorius, in IV Dialog. , quod
+            <lb ed="#L" n="21"/>ipsa aliquando. animarum vis sua 
+            subti<lb break="no" ed="#L" n="22"/>litate aliquid praevidet. Et  Augustinus dicit, in
+            <lb ed="#L" n="23"/>XII super Gen. ad litt. , quod animae humanae,
+            <lb ed="#L" n="24"/>secundum quod a sensibus corporis abstrahitur,
+            <lb ed="#L" n="25"/>competit futura praevidere. Hoc autem pertinet
+            <lb ed="#L" n="26"/>ad prophetiam. Ergo anima naturaliter potest 
+            as<lb break="no" ed="#L" n="27"/>sequi prophetiam.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e190">
+            <lb ed="#L" n="28"/>2. PRAETEREA, cognitio animae humanae magis
+            <lb ed="#L" n="29"/>viget in vigilando. quam in dormiendo. Sed in
+            <lb ed="#L" n="30"/>dormiendo quidam naturaliter praevident 
+            quae<lb break="no" ed="#L" n="31"/>dam futura: ut patet per Philosophum, in libro de
+            <lb ed="#L" n="32"/>Somno et Vigil.  Ergo multo magis potest homo
+            <lb ed="#L" n="33"/>naturaliter futura praecognoscere.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e207">
+            <lb ed="#L" n="34"/>3. PRAETEREA, homo secundum suam naturam
+            <lb ed="#L" n="35"/>est perfectior animalibus brutis. Sed quaedam
+            <lb ed="#L" n="36"/>animalia bruta habent praecognitionem 
+            futuro<lb break="no" ed="#L" n="37"/>rum ad se pertinentium: sicut formicae 
+            praeco<lb break="no" ed="#L" n="38"/>gnoscunt pluvias futuras, quod patet ex hoc quod
+            <lb ed="#L" n="39"/>ante pluviam incipiunt grana in foramen 
+            repo<lb break="no" ed="#L" n="40"/>nere; et similiter etiam pisces praecognoscunt
+            <lb ed="#L" n="41"/>tempestates futuras, ut perpenditur ex eorum
+            <lb ed="#L" n="42"/>motu, dum loca tempestuosa declinant. Ergo
+            <lb ed="#L" n="43"/>multo magis homines naturaliter praecognoscere
+            <lb ed="#L" n="44"/>possunt futura ad se pertinentia, de quibus est
+            <lb ed="#L" n="45"/>prophetia. Est ergo prophetia a natura.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e236">
+            <lb ed="#L" n="46"/>4. PRaETEREA, Prov. xxix  dicitur: Cum 
+            pro<lb break="no" ed="#L" n="47"/>phetia defecerit, dissipabitur populus: et sic 
+            pa<lb break="no" ed="#L" n="48"/>tet quod prophetia necessaria est ad hominum
+            <lb ed="#L" n="49"/>conservationem. Sed natura P non deficit in 
+            ne<lb break="no" ed="#L" n="50"/>cessariis . Ergo videtur quod prophetia sit a
+            <lb ed="#L" n="51"/>natura.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e252">
+            <lb ed="#L" n="52"/>SED coNTRA EsT quod dicitur II Pet. 1 : Non
+            <lb ed="#L" n="53"/>enim voluntate humana allata est aliquando pro-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="54"/>phetia: sed Spiritu Sancto inspirante, locuti sunt
+            <lb ed="#L" n="55"/>sancii Dei homines. Ergo prophetia non est a
+            <lb ed="#L" n="56"/>natura, sed ex dono Spiritus Sancti.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e268">
+            <lb ed="#L" n="57"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="58"/>est, prophetica praecognitio potest esse de 
+            fu<lb break="no" ed="#L" n="59"/>turis dupliciter: uno modo, secundum quod sunt
+            <lb ed="#L" n="60"/>in seipsis; alio modo, secundum quod surít in
+            <lb ed="#L" n="61"/>suis causis. Praecognoscere autem futura 
+            secun<lb break="no" ed="#L" n="62"/>dum quod sunt in seipsis, est proprium divini
+            <lb ed="#L" n="63"/>intellectus, cuius aeternitati sunt omnia praesentia,
+            <lb ed="#L" n="64"/>ut in Primo  dictum est. Et ideo talis 
+            praeco<lb break="no" ed="#L" n="65"/>gnitio futarorum non potest esse a natura, sed
+            <lb ed="#L" n="66"/>solum ex revelatione divina.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e292">
+            <lb ed="#L" n="67"/>Futura vero in suis causis possunt praecognosci
+            <lb ed="#L" n="68"/>naturali cognitione etiam ab homine: sicut 
+            medi<lb break="no" ed="#L" n="69"/>cus praecognoscit sanitatem vel mortem futuram
+            <lb ed="#L" n="70"/>in aliquibus causis, quarum ordinem ad tales
+            <lb ed="#L" n="71"/>effectus experimento praecognoverunt!. Et talis
+            <lb ed="#L" n="72"/>praecognitio futurorum potest intelligi esse in
+            <lb ed="#L" n="73"/>homine a natura dupliciter. Uno modo, sic
+            <lb ed="#L" n="74"/>quod statim anima, ex eo quod in seipsa habet,
+            <lb ed="#L" n="75"/>possit futura praecognoscere. Et sic, sicut 
+            Augu<lb break="no" ed="#L" n="76"/>stinus dicit, XII super Gen. ad litt. , quidam 
+            vo<lb break="no" ed="#L" n="77"/>luerunt animam humanam habere quandam vim
+            <lb ed="#L" n="78"/>divinationis in seipsa. Et hoc videtur esse 
+            secun<lb break="no" ed="#L" n="79"/>dum opinionem Platonis, qui posuit quod 
+            ani<lb break="no" ed="#L" n="80"/>mae habent omnium rerum cognitionem per 
+            par<lb break="no" ed="#L" n="81"/>ticipationem idearum, sed ista cognitio 
+            obnubi<lb break="no" ed="#L" n="82"/>latur in eis per coniunctionem corporis: in 
+            qui<lb break="no" ed="#L" n="83"/>busdam tamen plus, in quibusdam vero minus,
+            <lb ed="#L" n="84"/>secundum corporis puritatem diversam. Et 
+            se<lb break="no" ed="#L" n="85"/>cundum hoc, posset dici quod homines habentes
+            <lb ed="#L" n="86"/>animas non multum obtenebratas ex corporum
+            <lb ed="#L" n="87"/>unione, possunt talia futura praecognoscere 
+            se<lb break="no" ed="#L" n="88"/>cundum propriam scientiam. - Contra hoc 
+            au<lb break="no" ed="#L" n="89"/>tem obiicit  Augustinus: Cur non semper potest,
+            <pb ed="#L" n="378"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>scilicet vim divinationis habere anima, cum 
+            sem<lb break="no" ed="#L" n="2"/>per velit?
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e353">
+            <lb ed="#L" n="3"/>Sed quia verius esse videtur quod anima ex 
+            <lb ed="#L" n="4"/>sensibilibus cognitionem acquirat, secundum 
+            sen<lb break="no" ed="#L" n="5"/>tentiam Aristotelis, ut in Primo  dictum est;
+            <lb ed="#L" n="6"/>ideo melius est dicendum alio modo, quod 
+            prae<lb break="no" ed="#L" n="7"/>cognitionem talium futurorum homines non 
+            ha<lb break="no" ed="#L" n="8"/>bent, sed acquirere possunt per viam 
+            experimenta<lb break="no" ed="#L" n="9"/>lem; i in qua iuvantur per naturalem dispositionem
+            <lb ed="#L" n="10"/>secundum quam  in homine invenitur perfectio
+            <lb ed="#L" n="11"/>virtutis imaginativae et claritas intelligentiae.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e376">
+            <lb ed="#L" n="12"/>Et tamen haec praecognitio futurorum differt
+            <lb ed="#L" n="13"/>a prima, quae habetur ex revelatione divina, 
+            du<lb break="no" ed="#L" n="14"/>plici Primo quidem, quia prima potest esse
+            <lb ed="#L" n="15"/>quorumcumque eventuum, et infallibiliter . Haec
+            <lb ed="#L" n="16"/>autem praecognitio quae naturaliter haberi potest,
+            <lb ed="#L" n="17"/>est circa quosdam effectus ad quos se potest
+            <lb ed="#L" n="18"/>extendere experientia humana. - Secundo, quia
+            <lb ed="#L" n="19"/>prima prophetia est secundum Zmmobilem 
+            veri<lb break="no" ed="#L" n="20"/>tatem : non autem secunda, sed potest ei subesse
+            <lb ed="#L" n="21"/>falsum.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e400">
+            <lb ed="#L" n="22"/>Prima autem praecognitio proprie pertinet ad
+            <lb ed="#L" n="23"/>prophetiam, non secunda: quia, sicut supra  
+            di<lb break="no" ed="#L" n="24"/>ctum est, prophetica cognitio est eorum quae 
+            <lb ed="#L" n="25"/>excedunt universaliter ^ humanam cognitionem. 
+            <lb ed="#L" n="26"/>Et ideo dicendum est quod prophetia simpliciter
+            <lb ed="#L" n="27"/>dicta non potest esse a natura, sed solum ex 
+            re<lb break="no" ed="#L" n="28"/>velatione divina.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e418">
+            <lb ed="#L" n="29"/>AD PRIMUM ERGO DICENDUM quod anima, quando
+            <lb ed="#L" n="30"/>abstrahitur a corporalibus, aptior redditur ad 
+            per<lb break="no" ed="#L" n="31"/>cipiendum influxum spiritualium substantiarum: et
+            <lb ed="#L" n="32"/>etiam ad percipiendum subtiles motus qui ex 
+            im<lb break="no" ed="#L" n="33"/>pressionibus causarum naturalium in imaginatione
+            <lb ed="#L" n="34"/>humana relinquuntur, a quibus percipiendis anima
+            <lb ed="#L" n="35"/>impeditur cum fuerit. circa sensibilia occupata. Et 
+            <lb ed="#L" n="36"/>ideo Gregorius dicit  quod anima, quando 
+            ap<lb break="no" ed="#L" n="37"/>propinquat ad. mortem , praecognoscit quaedam
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="38"/>futura. subtilitate suae naturae, prout scilicet 
+            per<lb break="no" ed="#L" n="39"/>cipit etiam modicas impressiones. - Aut etiam
+            <lb ed="#L" n="40"/>contem futura revelatione angelica. Non autem
+            <lb ed="#L" n="41"/>propria virtute. Quia, ut Augustinus dicit, XII 
+            su<lb break="no" ed="#L" n="42"/>per Gen. ad litt. , si hoc esset, tunc haberet 
+            quan<lb break="no" ed="#L" n="43"/>documque vellet, in sua potestate futura 
+            praeco<lb break="no" ed="#L" n="44"/>gnoscere: quod patet esse falsum.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e457">
+            <lb ed="#L" n="45"/>AD SECUNDUM DICENDUM quod praecognitio 
+            futu<lb break="no" ed="#L" n="46"/>rorum quae fit in somnis, est aut ex revelatione
+            <lb ed="#L" n="47"/>substantiarum spiritualium, aut ex causa 
+            corpo<lb break="no" ed="#L" n="48"/>rali, ut dictum est  cum de divinationibus 
+            age<lb break="no" ed="#L" n="49"/>retur. Utrumque autem melius potest fieri in 
+            dor<lb break="no" ed="#L" n="50"/>mientibus quam in vigilantibus: quia anima 
+            vigi<lb break="no" ed="#L" n="51"/>lantis est occupata circa exteriora sensibilia, unde
+            <lb ed="#L" n="52"/>minus potest percipere subtiles impressiones vel
+            <lb ed="#L" n="53"/>spiritualium substantiarum vel etiam causarum
+            <lb ed="#L" n="54"/>naturalium. Quantum tamen ad perfectionem 
+            iu<lb break="no" ed="#L" n="55"/>dicii, plus viget ratio in vigilando quam in 
+            dor<lb break="no" ed="#L" n="56"/>miendo.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e486">
+            <lb ed="#L" n="57"/>AD TERTIUM DICENDUM quod bruta etiam 
+            anima<lb break="no" ed="#L" n="58"/>lia non habent praecognitionem futurorum 
+            effe<lb break="no" ed="#L" n="59"/>ctuum ? nisi secundum quod ex suis causis 
+            prae<lb break="no" ed="#L" n="60"/>cognoscuntur, ex quibus eorum phantasiae 
+            mo<lb break="no" ed="#L" n="61"/>ventur. Et magis quam hominum: quia phantasiae
+            <lb ed="#L" n="62"/>hominum, maxime in vigilando, disponuntur 
+            ma<lb break="no" ed="#L" n="63"/>gis secundum rationem quam secundum 
+            impres<lb break="no" ed="#L" n="64"/>sionem naturalium causarum. Ratio autem facit
+            <lb ed="#L" n="65"/>in homine multo abundantius id quod in brutis
+            <lb ed="#L" n="66"/>facit impressio causarum naturalium. Et adhuc
+            <lb ed="#L" n="67"/>magis adiuvat hominem divina gratia prophetas '
+            <lb ed="#L" n="68"/>inspirans.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e515">
+            <lb ed="#L" n="69"/>AD QUARTUM DICENDUM quod lumen 
+            propheti<lb break="no" ed="#L" n="70"/>cum se extendit etiam ad directiones humanorum
+            <lb ed="#L" n="71"/>actuum. Et secundum hoc, prophetia necessaria
+            <lb ed="#L" n="72"/>est ad populi gubernationem. Et praecipue in 
+            or<lb break="no" ed="#L" n="73"/>dine ad cultum divinum, ad quem natura non
+            <lb ed="#L" n="74"/>sufficit, sed requiritur gratia. 
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2161-Dd1e532"><!-- p2p2-q172a2 -->
+          <head xml:id="TAca84-d1e2161-Hd1e535">Articulus 2</head>
+          <head xml:id="TAca84-d1e2161-Hd1e537" type="question-title">Utrum prophetica revelatio fiat per angelos</head>
+          <p xml:id="TAca84-d1e2161-d1e540">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="20" type="fixed=379"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="21"/>UTRUM PROPHETICA REVELATIO FIAT PER ANGELOS
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e549">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="22"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="23"/>prophetica revelatio non fiat per 
+            ange<lb break="no" ed="#L" n="24"/>los. Dicitur enim Sap. vii , quod 
+            Sa<lb break="no" ed="#L" n="25"/>pientia Dei n animas sanctas  se 
+            trans<lb break="no" ed="#L" n="26"/>fert, et amicos Dei et prophetas constituit. Sed
+            <lb ed="#L" n="27"/>amicos Dei constituit immediate. Ergo etiam 
+            pro<lb break="no" ed="#L" n="28"/>phetas facit immediate, non mediantibus angelis.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e569">
+            <lb ed="#L" n="29"/>2. PRAETEREA, prophetia ponitur inter gratias
+            <lb ed="#L" n="30"/>gratis datas. Sed gratiae gratis datae sunt a 
+            Spi<lb break="no" ed="#L" n="31"/>ritu Sancto: secundum illud : Divisiones 
+            gra<lb break="no" ed="#L" n="32"/>liarum sunt: idem autem Spiritus. Non ergo 
+            pro<lb break="no" ed="#L" n="33"/>phetica revelatio fit angelo mediante.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e583">
+            <lb ed="#L" n="34"/>3. PRaETEREA, Cassiodorus  dicit quod 
+            pro<lb break="no" ed="#L" n="35"/>phetia est divina revelatio. Si autem fieret per
+            <lb ed="#L" n="36"/>angelos, diceretur angelica revelatio. Non ergo
+            <lb ed="#L" n="37"/>prophetia fit per angelos.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e594">
+            <lb ed="#L" n="38"/>- Sg» cowrRA EsT quod Dionysius dicit, iv cap.
+            <lb ed="#L" n="39"/>Cael. Hier.: Divinas visiones gloriosi Patres 
+            no<lb break="no" ed="#L" n="40"/>stri adepti sunt per medias caelestes virtutes. 
+            Lo<lb break="no" ed="#L" n="41"/>quitur autem ibi de visionibus propheticis. Ergo
+            <lb ed="#L" n="42"/>revelatio prophetica fit angelis mediantibus.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e607">
+            <lb ed="#L" n="43"/>RESPONDEO DICENDUM quod, sicut Apostolus 
+            di<lb break="no" ed="#L" n="44"/>cit, Rom. xin , quae a Deo sunt, ordinata sunt.
+            <lb ed="#L" n="45"/>Habet autem hoc divinitatis ordo, sicut Dionysius
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="46"/>dicit , ut infima per media disponat. Angeli 
+            au<lb break="no" ed="#L" n="47"/>tem medii sunt inter Deum et homines, utpote
+            <lb ed="#L" n="48"/>plus participantes de perfectione divinae bonitatis
+            <lb ed="#L" n="49"/>quam homines. Et ideo illuminationes et 
+            revela<lb break="no" ed="#L" n="50"/>tiones divinae a Deo ad homines per angelos
+            <lb ed="#L" n="51"/>deferuntur. Prophetica autem cognitio fit 
+            secun<lb break="no" ed="#L" n="52"/>dum illuminationem et revelationem divinam.
+            <lb ed="#L" n="53"/>Unde manifestum est quod fiat per angelos.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e636">
+            <lb ed="#L" n="54"/>AD PRIMUM ERGO DICENDUM quod caritas, 
+            secun<lb break="no" ed="#L" n="55"/>dum quam fit homo amicus Dei, est perfectio
+            <lb ed="#L" n="56"/>voluntatis, in quam solus Deus imprimere 
+            pot<lb break="no" ed="#L" n="57"/>est . Sed prophetia est perfectio intellectus, in
+            <lb ed="#L" n="58"/>quem etiam angelus potest imprimere, ut in 
+            Pri<lb break="no" ed="#L" n="59"/>mo  dictum est. Et ideo non est similis ratio
+            <lb ed="#L" n="60"/>de utroque.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e654">
+            <lb ed="#L" n="61"/>AD SECUNDUM DICENDUM quod gratiae gratis datae
+            <lb ed="#L" n="62"/>attribuuntur Spiritui Sancto sicut primo principio :
+            <lb ed="#L" n="63"/>qui tamen operatur huiusmodi gratias in 
+            homi<lb break="no" ed="#L" n="64"/>nibus mediante ministerio angelorum.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e665">
+            <lb ed="#L" n="65"/>AD TERTIUM DICENDUM quod operatio instrumenti
+            <lb ed="#L" n="66"/>attribuitur principali agenti, in cuius virtute 
+            in<lb break="no" ed="#L" n="67"/>strumentum agit. Et quia minister est sicut 
+            in<lb break="no" ed="#L" n="68"/>strumentum, idcirco prophetica revelatio, quae
+            <lb ed="#L" n="69"/>fit ministerio angelorum, dicitur esse divina.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2161-Dd1e680"><!-- p2p2-q172a3 -->
+          <head xml:id="TAca84-d1e2161-Hd1e683">Articulus 3</head>
+          <head xml:id="TAca84-d1e2161-Hd1e685" type="question-title">Utrum ad prophetiam requiratur dispositio naturalis</head>
+          <p xml:id="TAca84-d1e2161-d1e688">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="15" type="fixed=380"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="16"/>UTRUM AD PROPHETIAM REQUIRATUR DISPOSITIO NATURALIS
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e697">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="17"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="18"/>ad prophetiam requiratur dispositio 
+            na<lb break="no" ed="#L" n="19"/>turalis. Prophetia enim recipitur in 
+            pro<lb break="no" ed="#L" n="20"/>pheta secundum dispositionem 
+            recipien<lb break="no" ed="#L" n="21"/>tis. Quia super illud Amos: , Dominus de Sion
+            <lb ed="#L" n="22"/>rugiet, dicit glossa  Hieronymi: Naturale est
+            <lb ed="#L" n="23"/>ut omnes qui volunt rem rei comparare, ex eis
+            <lb ed="#L" n="24"/>rebus sumant comparaliones quas sunt experti et
+            <lb ed="#L" n="25"/>in quibus  sunt nutriti: verbi gratia, nautae suos
+            <lb ed="#L" n="26"/>inimicos ventis, damnum naufragio comparant.
+            <lb ed="#L" n="27"/>Sic et Amos, qui fuit pastor pecorum, timorem
+            <lb ed="#L" n="28"/>Dei rugitui leonis assimilat. Sed quod recipitur
+            <lb ed="#L" n="29"/>in aliquo secundum modum recipientis, requirit
+            <lb ed="#L" n="30"/>naturalem dispositionem. Ergo prophetia requirit
+            <lb ed="#L" n="31"/>naturalem dispositionem.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e734">
+            <lb ed="#L" n="32"/>2. PRAETEREA, speculatio prophetiae est altior
+            <lb ed="#L" n="33"/>quam scientiae acquisitae. Sed indispositio 
+            na<lb break="no" ed="#L" n="34"/>turalis impedit speculationem scientiae 
+            acquisi<lb break="no" ed="#L" n="35"/>tae: multi enim, ex indispositione naturali, 
+            per<lb break="no" ed="#L" n="36"/>tingere non possunt ad scientiarum speculamina
+            <lb ed="#L" n="37"/>capienda , Multo ergo magis requiritur ad 
+            con<lb break="no" ed="#L" n="38"/>templationem propheticam.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e753">
+            <lb ed="#L" n="39"/>3. PRAETEREA, indispositio naturalis magis 
+            im<lb break="no" ed="#L" n="40"/>pedit aliquem quam impedimentum accidentale.
+            <lb ed="#L" n="41"/>Sed per aliquid accidentale superveniens 
+            impe<lb break="no" ed="#L" n="42"/>ditur speculatio prophetiae: dicit enim 
+            Hierony<lb break="no" ed="#L" n="43"/>mus, super Matth. , quod tempore illo quo 
+            con<lb break="no" ed="#L" n="44"/>iugales actus geruntur, praesentia Spiritus Sancti
+            <lb ed="#L" n="45"/>non dabitur: etiam si propheta esse videatur qui
+            <lb ed="#L" n="46"/>officio generationis obsequitur. Ergo multo magis
+            <lb ed="#L" n="47"/>indispositio naturalis impedit prophetiam. Et sic
+            <lb ed="#L" n="48"/>videtur quod bona dispositio naturalis ad 
+            pro<lb break="no" ed="#L" n="49"/>phetiam requiratur.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e779">
+            <lb ed="#L" n="50"/>SED cONTRA EsT quod Gregorius dicit, in 
+            Ho<lb break="no" ed="#L" n="51"/>milia Pentecostes : Zmplet, scilicet Spiritus 
+            San<lb break="no" ed="#L" n="52"/>ctus, cilharaedum puerum, et psalmistam facit:
+            <lb ed="#L" n="53"/>pastorem armentorum  sycomoros vellicantem, et
+            <lb ed="#L" n="54"/>prophetam facit. Non ergo requiritur aliqua 
+            prae<lb break="no" ed="#L" n="55"/>cedens dispositio ad prophetiam, sed dependet
+            <lb ed="#L" n="56"/>ex sola voluntate Spiritus Sancti, de quo dicitur,
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="57"/>I ad Cor. xu : Haec omnia operatur unus aique
+            <lb ed="#L" n="58"/>idem Spiritus, dividens singulis prout vult.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e803">
+            <lb ed="#L" n="59"/>RESPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="60"/>prophetia vere et simpliciter dicta est ex 
+            inspi<lb break="no" ed="#L" n="61"/>ratione divina: quae autem est ex causa 
+            natu<lb break="no" ed="#L" n="62"/>rali, non dicitur prophetia nisi secundum quid.
+            <lb ed="#L" n="63"/>Est autem considerandum quod, sicut Deus, quia
+            <lb ed="#L" n="64"/>est causa universalis in agendo, non praeexigit
+            <lb ed="#L" n="65"/>materiam, nec aliquam materiae dispositionem,
+            <lb ed="#L" n="66"/>in corporalibus effectibus, sed simul potest et
+            <lb ed="#L" n="67"/>materiam et dispositionem et formam inducere;
+            <lb ed="#L" n="68"/>ita etiam in effectibus spiritualibus non praeexigit
+            <lb ed="#L" n="69"/>aliquam dispositionem, sed potest simul cum 
+            ef<lb break="no" ed="#L" n="70"/>fectu spirituali inducere dispositionem 
+            convenien<lb break="no" ed="#L" n="71"/>tem, qualis requireretur  secundum ordinem 
+            na<lb break="no" ed="#L" n="72"/>turae. Et ulterius posset etiam simul per 
+            crea<lb break="no" ed="#L" n="73"/>tionem producere ipsum subiectum: ut scilicet
+            <lb ed="#L" n="74"/>animam in ipsa sui creatione disponeret ad 
+            pro<lb break="no" ed="#L" n="75"/>phetiam, et daret  ei gratiam prophetalem.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e842">
+            <lb ed="#L" n="76"/>AD PRIMUM ERGO DICENDUM quod indifferens est
+            <lb ed="#L" n="77"/>ad prophetiam quibuscumque similitudinibus res
+            <lb ed="#L" n="78"/>prophetica exprimatur. Et ideo hoc ex operatione
+            <lb ed="#L" n="79"/>divina non immutatur circa prophetam . 
+            Remo<lb break="no" ed="#L" n="80"/>vetur autem divina virtute, si quid prophetiae
+            <lb ed="#L" n="81"/>repugnat.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e858">
+            <lb ed="#L" n="82"/>AD SECUNDUM DICENDUM quod speculatio 
+            scien<lb break="no" ed="#L" n="83"/>tiae fit ex causa naturali. Natura autem non 
+            pot<lb break="no" ed="#L" n="84"/>est operari nisi dispositione praecedente in 
+            ma<lb break="no" ed="#L" n="85"/>teria. Quod non est dicendum de Deo, qui est
+            <lb ed="#L" n="86"/>prophetiae causa.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e871">
+            <lb ed="#L" n="87"/>AD TERTIUM DICENDUM quod aliqua naturalis 
+            in<lb break="no" ed="#L" n="88"/>dispositio, si non removeretur , impedire ms
+            <lb ed="#L" n="89"/>prophetalem revelationem: puta si aliquis esset
+            <lb ed="#L" n="90"/>totaliter sensu naturali destitutus. Sicut etiam 
+            im<lb break="no" ed="#L" n="91"/>peditur aliquis ab actu prophetandi per aliquam
+            <lb ed="#L" n="92"/>vehementem passionem vel irae vel 
+            concupiscen<lb break="no" ed="#L" n="93"/>tiae, qualis est in coitu, vel per quamcumque:
+            <lb ed="#L" n="94"/>aliam passionem. Sed talem indispositionem 
+            na<lb break="no" ed="#L" n="95"/>turalem removet virtus divina, quae est 
+            prophe<lb break="no" ed="#L" n="96"/>tiae causa.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2161-Dd1e896"><!-- p2p2-q172a4 -->
+          <head xml:id="TAca84-d1e2161-Hd1e899">Articulus 4</head>
+          <head xml:id="TAca84-d1e2161-Hd1e901" type="question-title">Utrum bonitas morum requiratur ad prophetiam</head>
+          <p xml:id="TAca84-d1e2161-d1e904">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="39" type="fixed=381"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="40"/>UTRUM BONITAS MORUM REQUIRATUR AD PROPHETIAM
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e913">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="41"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="42"/>bonitas morum requiratur ad 
+            prophe<lb break="no" ed="#L" n="43"/>tiam. Dicitur enim Sap. vii , quod 
+            Sa<lb break="no" ed="#L" n="44"/>pientia Dei per nationes  in animas
+            <lb ed="#L" n="45"/>sanctas se transfert, et amicos Dei et prophetas
+            <lb ed="#L" n="46"/>constituit. Sed sanctitas non potest esse sine 
+            bo<lb break="no" ed="#L" n="47"/>nitate morum et sine gratia gratum faciente. Ergo
+            <lb ed="#L" n="48"/>prophetia non potest esse sine bonitate morum
+            <lb ed="#L" n="49"/>et gratia gratum faciente.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e937">
+            <lb ed="#L" n="50"/>2. PRAETEREA, secreta non revelantur nisi 
+            ami<lb break="no" ed="#L" n="51"/>cis: secundum illud Ioan. xv : Vos autem dixi
+            <lb ed="#L" n="52"/>amicos: quia omnia quaecumque audivi a Patre
+            <lb ed="#L" n="53"/>meo, nola feci vobis. Sed prophetis Deus sua 
+            se<lb break="no" ed="#L" n="54"/>creia revelat, ut dicitur Amos m . Ergo videtur
+            <lb ed="#L" n="55"/>quod prophetae sint Dei amici. Quod non potest
+            <lb ed="#L" n="56"/>esse sine caritate. Ergo videtur quod prophetia
+            <lb ed="#L" n="57"/>non possit esse sine caritate, quae non est sine
+            <lb ed="#L" n="58"/>gratia gratum faciente.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e960">
+            <lb ed="#L" n="59"/>3. PnaErTEREA P, Matth. vir  dicitur: Aitendite a
+            <lb ed="#L" n="60"/>falsis prophetis, qui veniunt ad vos in vestimentis
+            <lb ed="#L" n="61"/>ovium, intrinsecus autem sunt lupi rapaces. Sed
+            <lb ed="#L" n="62"/>quicumque sunt sine gratia interius, videntur esse
+            <lb ed="#L" n="63"/>lupi rapaces. Ergo omnes sunt falsi prophetae.
+            <lb ed="#L" n="64"/>Nullus est ergo verus propheta nisi bonus per
+            <lb ed="#L" n="65"/>gratiam.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e978">
+            <lb ed="#L" n="66"/>4. PRAETEREA , Philosophus dicit, in libro de
+            <lb ed="#L" n="67"/>Somn. et Vigil. , quod, si divinatio somniorum
+            <lb ed="#L" n="68"/>est a Deo, inconveniens est eam. immittere 
+            qui<lb break="no" ed="#L" n="69"/>buslibel, et non optimis viris. Sed constat donum
+            <lb ed="#L" n="70"/>prophetiae esse a Deo. Ergo donum prophetiae
+            <lb ed="#L" n="71"/>non datur nisi optimis viris.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e994">
+            <lb ed="#L" n="72"/>SEp coNTRA EsT quod Matth. vii , his qui 
+            di<lb break="no" ed="#L" n="73"/>xerant, Domine nonne in nomine suo 
+            propheta<lb break="no" ed="#L" n="74"/>vimus? respondetur: Nunquam novi vos. Novit
+            <lb ed="#L" n="75"/>autem Dominus eos qui sunt eius, ut dicitur II
+            <lb ed="#L" n="76"/>ad Tim.. Ergo prophetia potest esse in his
+            <lb ed="#L" n="77"/>qui non sunt Dei per gratiam.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1010">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="78"/>RESPONDEO DICENDUM quod bonitas morum 
+            pot<lb break="no" ed="#L" n="79"/>est attendi secundum duo: uno quidem modo,
+            <lb ed="#L" n="80"/>secundum interiorem eius radicem, quae est 
+            gra<lb break="no" ed="#L" n="81"/>tia gratum faciens; alio autem modo, quantum
+            <lb ed="#L" n="82"/>ad interiores animae passiones et exteriores 
+            actio<lb break="no" ed="#L" n="83"/>nes. Gratia autem gratum faciens ad hoc 
+            prin<lb break="no" ed="#L" n="84"/>cipaliter datur ut anima hominis Deo per 
+            cari<lb break="no" ed="#L" n="85"/>tatem coniungatur: unde Augustinus dicit, in XV
+            <lb ed="#L" n="86"/>de Trin. : Nisi impertiatur cuique Spiritus 
+            San<lb break="no" ed="#L" n="87"/>ctus, ut eum Dei et proximi faciat amatorem, ille
+            <lb ed="#L" n="88"/>a sinistra non transfertur ad dexteram. Unde
+            <lb ed="#L" n="89"/>quidquid potest esse sine caritate, potest esse sine
+            <lb ed="#L" n="90"/>gratia gratum faciente, et per consequens sine
+            <lb ed="#L" n="91"/>bonitate morum. Prophetia autem potest esse sine
+            <lb ed="#L" n="92"/>caritate. Quod apparet ex duobus. Primo quidem,
+            <lb ed="#L" n="93"/>ex actu utriusque: nam prophetia pertinet ad 
+            in<lb break="no" ed="#L" n="94"/>tellectum, cuius actus praecedit actum voluntatis,
+            <lb ed="#L" n="95"/>quam perficit caritas. Unde Apostolus, I ad Cor.
+            <lb ed="#L" n="96"/>xii , prophetiam connumerat aliis ad intellectum
+            <lb ed="#L" n="97"/>pertinentibus quae possunt sine caritate haberi.
+            <lb ed="#L" n="98"/>Secundo, ex fine utriusque: datur enim 
+            prophe<lb break="no" ed="#L" n="99"/>tia ad utilitatem Ecclesiae, sicut et aliae gratiae
+            <lb ed="#L" n="100"/>gratis datae, secundum illud Apostoli, I ad Cor.
+            <lb ed="#L" n="101"/>xii , Unicuique datur manifestatio Spiritus ad
+            <lb ed="#L" n="102"/>utilitatem; non autetn ordinatur directe ad hoc
+            <lb ed="#L" n="103"/>quod affectus ipsius prophetae coniungatur Deo,
+            <lb ed="#L" n="104"/>ad quod ordinatur caritas. Et ideo prophetia 
+            pot<lb break="no" ed="#L" n="105"/>est esse sine bonitate morum, quantum ad 
+            pri<lb break="no" ed="#L" n="106"/>mam  radicem huius bonitatis.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1078">
+            <lb ed="#L" n="107"/>Si vero consideremus bonitatem morum 
+            se<lb break="no" ed="#L" n="108"/>cundum passiones animae et actiones exteriores,
+            <lb ed="#L" n="109"/>secundum hoc impeditur aliquis a prophetia per
+            <lb ed="#L" n="110"/>morum malitiam. Nam ad prophetiam requiritur
+            <lb ed="#L" n="111"/>maxima mentis elevatio ad spiritualium 
+            contem<lb break="no" ed="#L" n="112"/>plationem, quae quidem impeditur per 
+            vehe<lb break="no" ed="#L" n="113"/>mentiam passionum, et per inordinatam 
+            Ooccu<lb break="no" ed="#L" n="114"/>pationem rerum exteriorum. Unde et de filiis pro-
+            <pb ed="#L" n="382"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>phetarum legitur, IV. Reg. IV , quod. simul 
+            habi<lb break="no" ed="#L" n="2"/>tabant cum Eliseo: quasi solitariam vitam 
+            du<lb break="no" ed="#L" n="3"/>centes, ne mundanis occupationibus impedirentur
+            <lb ed="#L" n="4"/>a dono prophetiae.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1111">
+            <lb ed="#L" n="5"/>AD PRIMUM ERGO DICENDUM quod donum 
+            prophe<lb break="no" ed="#L" n="6"/>tiae aliquando datur homini et propter utilitatem
+            <lb ed="#L" n="7"/>aliorum, et propter propriae mentis 
+            illustratio<lb break="no" ed="#L" n="8"/>nem. Et hi sunt in quorum animas Sapientia 
+            di<lb break="no" ed="#L" n="9"/>vina per gratiam gratum facientem se transferens,
+            <lb ed="#L" n="10"/>amicos Dei et prophetas eos constituit. - Quidam
+            <lb ed="#L" n="11"/>vero consequuntur donum prophetiae solum ad
+            <lb ed="#L" n="12"/>utilitatem aliorum. Qui sunt quasi instrumenta
+            <lb ed="#L" n="13"/>divinae operationis. Unde Hieronymus dicit, 
+            su<lb break="no" ed="#L" n="14"/>per Matth. : Prophetare, vel virtutes facere et
+            <lb ed="#L" n="15"/>daemonia eücere, interdum non est eius. meriti
+            <lb ed="#L" n="16"/>qui operatur: sed vel invocatio nominis Christi 
+            <lb ed="#L" n="17"/>hoc agit; vel ob condemnationem eorum qui 
+            in<lb break="no" ed="#L" n="18"/>vocant, vel utilitatem eorum qui vident et audiunt,
+            <lb ed="#L" n="19"/>conceditur.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1147">
+            <lb ed="#L" n="20"/>AD SECUNDUM DICENDUM quod Gregorius, expo-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="21"/>nens illud , dicit: Dum audita superna caelestia
+            <lb ed="#L" n="22"/>amamus, amata iam novimus: quia amor ipse
+            <lb ed="#L" n="23"/>nolitia est. Omnia ergo eis nola fecerat: quia, a
+            <lb ed="#L" n="24"/>lerrenis desideriis immultali, amoris summi 
+            faci<lb break="no" ed="#L" n="25"/>bus ardebant. Et hoc modo non revelantur 
+            sem<lb break="no" ed="#L" n="26"/>per secreta divina prophetis.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1167">
+            <lb ed="#L" n="27"/>AD TERTIUM DICENDUM quod non? omnes mali
+            <lb ed="#L" n="28"/>sunt lupi rapaces, sed solum illi qui intendunt
+            <lb ed="#L" n="29"/>alüs nocere: dicit enim Chrysostomus, super
+            <lb ed="#L" n="30"/>Matth. , quod Catholici doctores, etsi fuerint 
+            pec<lb break="no" ed="#L" n="31"/>catores, servi quidem carnis dicuntur, non tamen Lea
+            <lb ed="#L" n="32"/>lupi rapaces: quia non habent propositum 
+            per<lb break="no" ed="#L" n="33"/>dere Christianos. Et quia prophetia ordinatur ad
+            <lb ed="#L" n="34"/>utilitatem aliorum, manifestum est tales esse 
+            fal<lb break="no" ed="#L" n="35"/>sos prophetas: quia ad hoc non mittuntur a Deo.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1189">
+            <lb ed="#L" n="36"/>AD QUARTUM DICENDUM quod dona divina non
+            <lb ed="#L" n="37"/>semper dantur optimis simpliciter, sed 
+            quando<lb break="no" ed="#L" n="38"/>que iliis qui sunt optimi quantum ad talis doni
+            <lb ed="#L" n="39"/>perceptionem. Et sic Deus donum prophetiae 
+            il<lb break="no" ed="#L" n="40"/>lis dat quibus optimum iudicat dare.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2161-Dd1e1203"><!-- p2p2-q172a5 -->
+          <head xml:id="TAca84-d1e2161-Hd1e1206">Articulus 5</head>
+          <head xml:id="TAca84-d1e2161-Hd1e1208" type="question-title">Utrum aliqua prophetia sit a daemonibus</head>
+          <p xml:id="TAca84-d1e2161-d1e1211">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="76" type="fixed=382"/>ARTICULUS QUINTUS
+            <lb ed="#L" n="77"/>UTRUM ALIQUA PROPHETIA SIT A DAEMONIBUS
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1220">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="78"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="79"/>nulla prophetia sit a daemonibus. 
+            Pro<lb break="no" ed="#L" n="80"/>phetia enim est divina revelatio, ut 
+            Cas<lb break="no" ed="#L" n="81"/>asiodorus  dicit. Sed illud quod fit a
+            <lb ed="#L" n="82"/>daemone, non est divinum. Ergo nulla prophetia
+            <lb ed="#L" n="83"/>potest esse a daemone.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1238">
+            <lb ed="#L" n="84"/>2. PRAETEREA, ad propheticam cognitionem 
+            re<lb break="no" ed="#L" n="85"/>quiritur aliqua illuminatio, ut supra  dictum est.
+            <lb ed="#L" n="86"/>Sed daemones non. illuminant intellectum  
+            hu<lb break="no" ed="#L" n="87"/>manum, ut supra dictum est in Primo . Ergo
+            <lb ed="#L" n="88"/>nulla prophetia potest esse a daemonibus,
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1252">
+            <lb ed="#L" n="89"/>3. PRAETEREA, non est efficax signum quod
+            <lb ed="#L" n="90"/>etiam ad contraria se habet. Sed. prophetia est
+            <lb ed="#L" n="91"/>signum confirmationis fidei: unde super illud
+            <lb ed="#L" n="92"/>Rom. xu , Sive prophetiam secundum rationem
+            <lb ed="#L" n="93"/>fidei, dicit "Glossa : Nola quod in numeratione
+            <lb ed="#L" n="94"/>gratiarum a prophetia incipit, quae est prima pro-
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="95"/>batio quod fides nostra sit rationabilis: quia 
+            cre<lb break="no" ed="#L" n="96"/>dentes, accepto Spiritu, prophetabant.. Non ergo
+            <lb ed="#L" n="97"/>prophetia a daemonibus dari potest.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1276">
+            <lb ed="#L" n="98"/>SED coNTRA EsT quod dicitur III Reg. xvii :
+            <lb ed="#L" n="99"/>Congrega ad me universum Israel in monte 
+            Car<lb break="no" ed="#L" n="100"/>meli, et prophetas Baal trecentos quinquaginta,
+            <lb ed="#L" n="101"/>prophetasque lucorum quadringentos, qui 
+            come<lb break="no" ed="#L" n="102"/>dunt de mensa Iezabel. Sed tales erant daemonum
+            <lb ed="#L" n="103"/>cultores. Ergo videtur quod etiam a daemonibus
+            <lb ed="#L" n="104"/>sit aliqua prophetia.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1294">
+            <lb ed="#L" n="105"/>RESPONDEO DICENDUM quod, sicut supra  
+            di<lb break="no" ed="#L" n="106"/>ctum est, prophetia importat cognitionem 
+            quan<lb break="no" ed="#L" n="107"/>dam procul existentem a cognitione humana. 
+            Ma<lb break="no" ed="#L" n="108"/>nifestum est autem quod intellectus superioris 
+            or<lb break="no" ed="#L" n="109"/>dinis aliqua cognoscere potest quae sunt remota
+            <lb ed="#L" n="110"/>a cognitione intellectus inferioris, Supra 
+            intelle<lb break="no" ed="#L" n="111"/>ctum autem humanum est non solum intellectus
+            <pb ed="#L" n="383"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>divinus, sed etiam intellectus angelorum bonorum
+            <lb ed="#L" n="2"/>et malorum, secundum naturae ordinem. Et ideo
+            <lb ed="#L" n="3"/>quaedam cognoscunt daemones, etiam sua 
+            na<lb break="no" ed="#L" n="4"/>turali cognitione, quae sunt remota ab hominum
+            <lb ed="#L" n="5"/>cognitione, quae possunt hominibus revelare.
+            <lb ed="#L" n="6"/>Simpliciter autem et maxime remota sunt quae
+            <lb ed="#L" n="7"/>solus Deus cognoscit. Et ideo prophetia 
+            pro<lb break="no" ed="#L" n="8"/>prie et simpliciter dicta fit solum per 
+            revelatio<lb break="no" ed="#L" n="9"/>nem divinam. Sed et ipsa revelatio facta per
+            <lb ed="#L" n="10"/>daemones, potest secundum quid dici prophetia.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1338">
+            <lb ed="#L" n="11"/>Unde illi quibus aliquid per daemones revelatur,
+            <lb ed="#L" n="12"/>non dicuntur in Scripturis prophetae simpliciter,
+            <lb ed="#L" n="13"/>sed cum aliqua additione, puta, prophetae falsi,
+            <lb ed="#L" n="14"/>vel, prophetae idolorum. Unde Augustinus, XII
+            <lb ed="#L" n="15"/>super Gen. ad litt. : Cum malus spiritus. arripit
+            <lb ed="#L" n="16"/>hominem in haec, scilicet visa, aut daemoniacos
+            <lb ed="#L" n="17"/>facit, aut arreptitios, aut falsos prophetas.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1356">
+            <lb ed="#L" n="18"/>AD PRIMUM ERGO DICENDUM quod Cassiodorus ibi
+            <lb ed="#L" n="19"/>definit prophetiam proprie et simpliciter dictam.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1363">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="20"/>AD SECUNDUM DICENDUM quod daemones ea
+            <lb ed="#L" n="21"/>quae sciunt hominibus manifestant, non 
+            qui<lb break="no" ed="#L" n="22"/>dem per illuminationem intellectus, sed per 
+            ali<lb break="no" ed="#L" n="23"/>quam imaginariam visionem, aut etiam 
+            sensibi<lb break="no" ed="#L" n="24"/>liter colloquendo. Et in hoc deficit haec 
+            prophe<lb break="no" ed="#L" n="25"/>tia a vera.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1382">
+            <lb ed="#L" n="26"/>AD TERTIUM DICENDUM quod aliquibus signis,
+            <lb ed="#L" n="27"/>etiam exterioribus, discerni potest prophetia 
+            dae<lb break="no" ed="#L" n="28"/>monum a prophetia divina. Unde dicit 
+            Chryso<lb break="no" ed="#L" n="29"/>stomus, super Matth. , quod quidam prophetant
+            <lb ed="#L" n="30"/>in spiritu diaboli, quales sunt divinatores: sed sic
+            <lb ed="#L" n="31"/>discernuntur, quoniam diabolus interdum falsa 
+            di<lb break="no" ed="#L" n="32"/>cit, Spiritus Sanctus nunquam. Unde dicitur Deut.
+            <lb ed="#L" n="33"/>xvii : Si tacita cogitatione responderis: Quomodo
+            <lb ed="#L" n="34"/>possum intelligere verbum quod non est locutus
+            <lb ed="#L" n="35"/>Dominus? hoc habebis signum : Quod in nomine
+            <lb ed="#L" n="36"/>Domini propheta ille praedixerit, et non. evenerit,
+            <lb ed="#L" n="37"/>hoc Dominus non est locutus.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2161-Dd1e1412"><!-- p2p2-q172a6 -->
+          <head xml:id="TAca84-d1e2161-Hd1e1415">Articulus 6</head>
+          <head xml:id="TAca84-d1e2161-Hd1e1417" type="question-title">Utrum prophetae daemonum aliquando vera praedicant</head>
+          <p xml:id="TAca84-d1e2161-d1e1420">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="53" type="fixed=383"/>ARTICULUS SEXTUS
+            <lb ed="#L" n="54"/>UTRUM PROPHETAE DAEMONUM ALIQUANDO VERA PRAEDICANT
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1429">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="55"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="56"/>prophetae daemonum nunquam vera
+            <lb ed="#L" n="57"/>praedicant. Dicit enim Ambrosius quod
+            <lb ed="#L" n="58"/>omne verum, a quocumque dicatur, a 
+            Spi<lb break="no" ed="#L" n="59"/>ritu Sancto est. Sed prophetae daemonum non
+            <lb ed="#L" n="60"/>loquuntur a Spiritu Sancto: quia non est 
+            conven<lb break="no" ed="#L" n="61"/>lio Christi ad Belial, ut dicitur II ad Cor. v1 .
+            <lb ed="#L" n="62"/>Ergo videtur quod tales nunquam vera 
+            prae<lb break="no" ed="#L" n="63"/>nuntiant. :
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1453">
+            <lb ed="#L" n="64"/>2. PRAETEREA, sicut veri prophetae inspirantur
+            <lb ed="#L" n="65"/>a Spiritu veritatis, ita prophetae daemonum 
+            in<lb break="no" ed="#L" n="66"/>spirantur a spiritu mendacii: secundum illud III
+            <lb ed="#L" n="67"/>Reg. ult. : Egrediar, et ero spiritus mendax in
+            <lb ed="#L" n="68"/>ore omnium prophetarum eius. Sed prophetae
+            <lb ed="#L" n="69"/>inspirati a Spiritu Sancto nunquam loquuntur 
+            fal<lb break="no" ed="#L" n="70"/>sum, ut supra  habitum est. Ergo prophetae 
+            dae<lb break="no" ed="#L" n="71"/>monum nunquam loquuntur verum.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1474">
+            <lb ed="#L" n="72"/>3. PRAETEREA, loan. vur  dicitur de diabolo
+            <lb ed="#L" n="73"/>quod, cum loquitur mendacium, ex proprüs 
+            lo<lb break="no" ed="#L" n="74"/>quilur: quia diabolus est mendax, et pater eius,
+            <lb ed="#L" n="75"/>idest mendacii. Sed inspirando prophetas suos
+            <lb ed="#L" n="76"/>diabolus non loquitur nisi ex propriis: non enim
+            <lb ed="#L" n="77"/>instituitur minister Dei ad veritatem enuntiandam,
+            <lb ed="#L" n="78"/>quia non est conventio lucis ad tenebras, ut 
+            di<lb break="no" ed="#L" n="79"/>citur II ad Cor. v1. Ergo prophetae daemonum
+            <lb ed="#L" n="80"/>nunquam vera praedicunt .
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1496">
+            <lb ed="#L" n="81"/>SED coNTRA EST quod, Num. xxii , dicit quae-
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="82"/>dam glossa  quod Balaam divinus erat: 
+            daemo<lb break="no" ed="#L" n="83"/>num scilicet ministerio, et arte magica, 
+            nonnun<lb break="no" ed="#L" n="84"/>quam futura praenoscebat. Sed ipse multa 
+            prae<lb break="no" ed="#L" n="85"/>nuntiavit vera: sicut est id quod habetur Num.
+            <lb ed="#L" n="86"/>xxiv : Orietur stella ex Iacob, et consurget virga
+            <lb ed="#L" n="87"/>de Israel. Ergo etiam prophetae daemonum 
+            prae<lb break="no" ed="#L" n="88"/>nuntiant vera. :
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1518">
+            <lb ed="#L" n="89"/>RESPONDEO DICENDUM quod sicut se habet 
+            bo<lb break="no" ed="#L" n="90"/>num in rebus, ita verum in cognitione. 
+            Impos<lb break="no" ed="#L" n="91"/>sibile est autem inveniri aliquid in rebus quod
+            <lb ed="#L" n="92"/>totaliter bono P privetur . Unde etiam impossibile
+            <lb ed="#L" n="93"/>est esse aliquam cognitionem quae totaliter sit
+            <lb ed="#L" n="94"/>falsa, absque admixtione alicuius veritatis. Unde
+            <lb ed="#L" n="95"/>et Beda dicit  quod nulla falsa est doctrina quae
+            <lb ed="#L" n="96"/>non aliquando aliqua vera falsis intermisceat. Unde
+            <lb ed="#L" n="97"/>et ipsa doctrina daemonum, qua suos prophetas
+            <lb ed="#L" n="98"/>instruunt, aliqua vera continet, per quae 
+            recepti<lb break="no" ed="#L" n="99"/>bilis redditur: sic enim intellectus ad falsum 
+            de<lb break="no" ed="#L" n="100"/>ducitur per apparentiam veritatis, sicut voluntas
+            <lb ed="#L" n="101"/>ad malum per apparentiam bonitatis. Unde et
+            <lb ed="#L" n="102"/>Chrysostomus dicit, super Matth. : Concessum
+            <lb ed="#L" n="103"/>est diabolo interdum vera dicere, ut mendacium
+            <lb ed="#L" n="104"/>suum rara veritate commendet. 
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1555">
+            <lb ed="#L" n="105"/>AD PRIMUM ERGO DICENDUM quod prophetae 
+            dae<lb break="no" ed="#L" n="106"/>monum non semper loquuntur ex demonum 
+            re<lb break="no" ed="#L" n="107"/>velatione, sed interdum ex inspiratione divina:
+            <lb ed="#L" n="108"/>sicut manifeste legitur de Balaam, cui dicitur Do-
+            <pb ed="#L" n="384"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>minus esse locutus, Num. xxi , licet esset 
+            pro<lb break="no" ed="#L" n="2"/>pheta daemonum. Quia Deus utitur etiam malis
+            <lb ed="#L" n="3"/>ad utilitatem bonorum. Unde et per prophetas
+            <lb ed="#L" n="4"/>daemonum aliqua vera praenuntiat: tum ut 
+            cre<lb break="no" ed="#L" n="5"/>dibilior fiat veritas, quae etiam ex adversariis 
+            te<lb break="no" ed="#L" n="6"/>stimonium habet; tum etiam quia, dum homines
+            <lb ed="#L" n="7"/>talibus  credunt, per eorum dicta magis ad 
+            ve<lb break="no" ed="#L" n="8"/>ritatem inducuntur. Unde etiam Sibyllae multa
+            <lb ed="#L" n="9"/>vera praedixerunt de Christo.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1590">
+            <lb ed="#L" n="10"/>Sed et quando prophetae daemonum a 
+            dae<lb break="no" ed="#L" n="11"/>monibus instruuntur, aliqua vera praedicunt ?:
+            <lb ed="#L" n="12"/>quandoque quidem virtute propriae naturae, 
+            cu<lb break="no" ed="#L" n="13"/>ius auctor est Spiritus Sanctus; quandoque etiam
+            <lb ed="#L" n="14"/>revelatione bonorum spirituum, ut patet per 
+            Au<lb break="no" ed="#L" n="15"/>gustinum, XII super Gen. ad litt.  Et sic etiam
+            <lb ed="#L" n="16"/>illud verum quod daemones enuntiant, a Spiritu
+            <lb ed="#L" n="17"/>Sancto est.
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1610">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="18"/>AD SECUNDUM DICENDUM quod verus propheta
+            <lb ed="#L" n="19"/>semper inspiratur a Spiritu veritatis, in quo nihil
+            <lb ed="#L" n="20"/>est falsitatis: et ideo nunquam dicit falsum. 
+            Pro<lb break="no" ed="#L" n="21"/>pheta autem falsitatis non semper instruitur a
+            <lb ed="#L" n="22"/>spiritu falsitatis, sed quandoque etiam inspiratur
+            <lb ed="#L" n="23"/>a Spiritu veritatis. Ipse etiam spiritus falsitatis
+            <lb ed="#L" n="24"/>quandoque enuntiat vera, quandoque falsa, ut 
+            di<lb break="no" ed="#L" n="25"/>ctum est .
+          </p>
+          <p xml:id="TAca84-d1e2161-d1e1633">
+            <lb ed="#L" n="26"/>AD TERTIUM DICENDUM quod propria daemonum
+            <lb ed="#L" n="27"/>esse dicuntur illa quae habent a seipsis, scilicet
+            <lb ed="#L" n="28"/>mendacia et peccata. Quae autem pertinent ad
+            <lb ed="#L" n="29"/>propriam naturam, non habent a seipsis, sed a
+            <lb ed="#L" n="30"/>Deo. Per virtutem autem propriae naturae 
+            quan<lb break="no" ed="#L" n="31"/>doque vera praenuntiant, ut dictum est . Utitur
+            <lb ed="#L" n="32"/>etiam eis Deus ad veritatis manifestationem per
+            <lb ed="#L" n="33"/>ipsos fiendam, dum divina mysteria eis per 
+            an<lb break="no" ed="#L" n="34"/>gelos revelantur, ut dictum est .
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

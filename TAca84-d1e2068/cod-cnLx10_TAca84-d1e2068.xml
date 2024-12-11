@@ -1,0 +1,1760 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 154</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 154</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="213"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2068"><!-- p2p2-q154 -->
+        <head xml:id="TAca84-d1e2068-Hd1e101">Quaestio 154</head>
+        <p xml:id="TAca84-d1e2068-d1e103">
+          <pb ed="#L" n="213"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=213"/>QUAESTIO CENTESIMAQUINQUAGESIMAQUARTA
+          <lb ed="#L" n="2"/>DE SPECIEBUS LUXURIAE:
+          <lb ed="#L" n="3"/>IN DUODECIM ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2068-d1e116">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de luxuriae 
+          par<lb break="no" ed="#L" n="5"/>tibus.
+          <lb ed="#L" n="6"/>Et circa hoc quaeruntur duodecim.
+          <lb ed="#L" n="7"/>Primo: de divisione partium luxuriae.
+          <lb ed="#L" n="8"/>Secundo: utrum fornicatio simplex sit 
+          pecca<lb break="no" ed="#L" n="9"/>tum mortale.
+          <lb ed="#L" n="10"/>Tertio: utrum sit maximum peccatorum.
+          <lb ed="#L" n="11"/>Quarto: utrum in tactibus et osculis et aliis
+          <lb ed="#L" n="12"/>huiusmodi illecebris consistat peccatum 
+          mor<lb break="no" ed="#L" n="13"/>tale.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="14"/>Quinto: utrum nocturna pollutio sit 
+          pecca<lb break="no" ed="#L" n="15"/>tum.
+          <lb ed="#L" n="16"/>Sexto: de stupro.
+          <lb ed="#L" n="17"/>Septimo: de raptu.
+          <lb ed="#L" n="18"/>Octavo: de adulterio.
+          <lb ed="#L" n="19"/>Nono: de incestu.
+          <lb ed="#L" n="20"/>Decimo: de sacrilegio.
+          <lb ed="#L" n="21"/>Undecimo: de peccato contra naturam.
+          <lb ed="#L" n="22"/>Duodecimo: de ordine gravitatis in praedictis
+          <lb ed="#L" n="23"/>speciebus.
+        </p>
+        <div xml:id="TAca84-d1e2068-Dd1e166"><!-- p2p2-q154a1 -->
+          <head xml:id="TAca84-d1e2068-Hd1e169">Articulus 1</head>
+          <head xml:id="TAca84-d1e2068-Hd1e171" type="question-title">Utrum convenienter assignentur sex species luxuriae</head>
+          <p xml:id="TAca84-d1e2068-d1e174">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="24" type="fixed=213"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="25"/>UTRUM CONVENIENTER ASSIGNENTUR SEX SPECIES LUXURIAE
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e183">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="26"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="27"/>inconvenienter assignentur sex species
+            <lb ed="#L" n="28"/>luxuriae, scilicet, fornicatio simplex, 
+            a<lb break="no" ed="#L" n="29"/>dulterium, incestus, stuprum , raptus et
+            <lb ed="#L" n="30"/>vitium  contra naturam. Diversitas enim 
+            ma<lb break="no" ed="#L" n="31"/>teriae non diversificat speciem. Sed praedicta 
+            di<lb break="no" ed="#L" n="32"/>visio sumitur secundum materiae diversitatem :
+            <lb ed="#L" n="33"/>prout scilicet aliquis commiscetur coniugatae, vel
+            <lb ed="#L" n="34"/>virgini, vel alterius conditionis mulieri. Ergo 
+            vi<lb break="no" ed="#L" n="35"/>detur quod per hoc species luxuriae non 
+            diver<lb break="no" ed="#L" n="36"/>sificentur.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e212">
+            <lb ed="#L" n="37"/>2. PRAETEREA, species vitii unius non videntur
+            <lb ed="#L" n="38"/>diversificari per ea quae pertinent ad aliud 
+            vi<lb break="no" ed="#L" n="39"/>tium. Sed adulterium non ? differt a simplici 
+            for<lb break="no" ed="#L" n="40"/>nicatione nisi in hoc quod aliquis accedit ad eam
+            <lb ed="#L" n="41"/>quae est alterius, et sic iniustitiam committit.
+            <lb ed="#L" n="42"/>Ergo videtur quod adulterium non debet poni
+            <lb ed="#L" n="43"/>species luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e231">
+            <lb ed="#L" n="44"/>3. PRAETEREA, sicut contingit quod aliquis 
+            com<lb break="no" ed="#L" n="45"/>miscetur mulieri quae est alteri viro per 
+            matri<lb break="no" ed="#L" n="46"/>monium obligata, ita etiam contingit quod aliquis
+            <lb ed="#L" n="47"/>commiscetur mulieri quae est obligata Deo per
+            <lb ed="#L" n="48"/>votum. Sicut ergo adulterium ponitur species 
+            lu<lb break="no" ed="#L" n="49"/>xuriae, ita et sacrilegium species luxuriae poni
+            <lb ed="#L" n="50"/>debet.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e249">
+            <lb ed="#L" n="51"/>4. PRAETEREA, ille qui est matrimonio iunctus
+            <lb ed="#L" n="52"/>non solum peccat si ad aliam mulierem accedat,
+            <lb ed="#L" n="53"/>sed etiam si sua coniuge inordinate utatur. Sed
+            <lb ed="#L" n="54"/>hoc peccatum sub luxuria continetur. Ergo 
+            de<lb break="no" ed="#L" n="55"/>beret inter species luxuriae computari.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e262">
+            <lb ed="#L" n="56"/>5. PRAETEREA, <ref xml:id="TAca84-d1e2068-Rd1e266">Apostolus, II ad Cor. xii</ref> , dicit:
+            <lb ed="#L" n="57"/>Ne iterum, cum venero, humiliet me Deus apud
+            <lb ed="#L" n="58"/>vos, et lugeam multos ex his qui ante 
+            peccave<lb break="no" ed="#L" n="59"/>runt, et non egerunt poenitentiam super 
+            immun<lb break="no" ed="#L" n="60"/>ditia et fornicatione et impudicitia quam gesserunt.
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="61"/>Ergo videtur quod etiam immunditia et 
+            impudi<lb break="no" ed="#L" n="62"/>citia debeant poni species luxuriae, sicut et 
+            for<lb break="no" ed="#L" n="63"/>nicatio.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e286">
+            <lb ed="#L" n="64"/>6. PRAETEREA, divisum non condividitur 
+            divi<lb break="no" ed="#L" n="65"/>dentibus. Sed luxuria condividitur praedictis: 
+            di<lb break="no" ed="#L" n="66"/>citur enim Galat. v: Manifesta sunt opera carnis:
+            <lb ed="#L" n="67"/>quae sunt fornicatio, immunditia, impudicitia, 
+            lu<lb break="no" ed="#L" n="68"/>xuria. Ergo videtur quod inconvenienter 
+            forni<lb break="no" ed="#L" n="69"/>catio ponatur species luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e302">
+            <lb ed="#L" n="70"/>SED CONTRA EsT quod praedicta divisio 
+            poni<lb break="no" ed="#L" n="71"/>tur in <ref xml:id="TAca84-d1e2068-Rd1e308">Decretis, XXXVI Caus., qu. 1.</ref>
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e311">
+            <lb ed="#L" n="72"/>RESPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="73"/>peccatum luxuriae consistit in hoc quod aliquis 
+            <lb ed="#L" n="74"/>non secundum rectam rationem delectatione 
+            ve<lb break="no" ed="#L" n="75"/>nerea utitur. Quod quidem contingit dupliciter:
+            <lb ed="#L" n="76"/>uno modo, secundum materiam in qua 
+            huius<lb break="no" ed="#L" n="77"/>modi delectationem quaerit; alio modo, 
+            secun<lb break="no" ed="#L" n="78"/>dum quod, materia debita existente, non 
+            obser<lb break="no" ed="#L" n="79"/>vantur aliae debitae conditiones. Et quia 
+            circum<lb break="no" ed="#L" n="80"/>stantia, inquantum huiusmodi, non dat speciem
+            <lb ed="#L" n="81"/>actui morali, sed eius species sumitur ab obiecto,
+            <lb ed="#L" n="82"/>quod est materia actus; ideo oportuit species 
+            lu<lb break="no" ed="#L" n="83"/>xuriae assignari ex parte materiae vel obiecti.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e341">
+            <lb ed="#L" n="84"/>Quae quidem potest non convenire rationi 
+            re<lb break="no" ed="#L" n="85"/>ctae dupliciter. Uno modo, quia habet 
+            repu<lb break="no" ed="#L" n="86"/>gnantiam ad finem venerei actus. Et sic, 
+            inquan<lb break="no" ed="#L" n="87"/>tum impeditur generatio prolis, est vitium contra
+            <lb ed="#L" n="88"/>naturam, quod est in omni actu venereo ex quo
+            <lb ed="#L" n="89"/>generatio sequi non potest. - Inquantum autem
+            <lb ed="#L" n="90"/>impeditur debita educatio et promotio prolis 
+            na<lb break="no" ed="#L" n="91"/>tae, est fornicatio simplex, quae est soluti cum
+            <lb ed="#L" n="92"/>soluta.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e363">
+            <lb ed="#L" n="93"/>Alio modo materia in qua exercetur actus
+            <lb ed="#L" n="94"/>venereus, potest esse non conveniens rationi 
+            re<lb break="no" ed="#L" n="95"/>ctae per comparationem ad alios homines. Et
+            <pb ed="#L" n="214"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>hoc dupliciter. Primo quidem, ex parte ipsius 
+            fe<lb break="no" ed="#L" n="2"/>minae cui aliquis commiscetur, quia ei debitus 
+            <lb ed="#L" n="3"/>honor non servatur. Et sic est incestus, qui 
+            con<lb break="no" ed="#L" n="4"/>sistit in abusu mulierum consanguinitate vel 
+            af<lb break="no" ed="#L" n="5"/>finitate iunctarum. - Secundo, ex parte eius in
+            <lb ed="#L" n="6"/>cuius potestate est femina. Quia si est in 
+            pote<lb break="no" ed="#L" n="7"/>state viri, est adulterium : si autem est in 
+            po<lb break="no" ed="#L" n="8"/>testate patris, est stuprum, si non inferatur 
+            vio<lb break="no" ed="#L" n="9"/>lentia; raptus autem, si inferatur.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e396">
+            <lb ed="#L" n="10"/>Diversificantur autem istae species magis ex
+            <lb ed="#L" n="11"/>parte feminae quam viri. Quia in actu venereo
+            <lb ed="#L" n="12"/>femina se habet sicut patiens et per modum 
+            ma<lb break="no" ed="#L" n="13"/>teriae, vir autem per modum agentis. Dictum est
+            <lb ed="#L" n="14"/>autem quod praedictae species secundum 
+            diffe<lb break="no" ed="#L" n="15"/>rentiam materiae assignantur.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e412">
+            <lb ed="#L" n="16"/>AD PRIMUM ERGO DICENDUM quod praedicta 
+            di<lb break="no" ed="#L" n="17"/>versitas materiae habet annexam diversitatem 
+            for<lb break="no" ed="#L" n="18"/>malem obiecti, quae accipitur secundum 
+            diver<lb break="no" ed="#L" n="19"/>sos modos repugnantiae ad rationem rectam, ut
+            <lb ed="#L" n="20"/>dictum est .
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e425">
+            <lb ed="#L" n="21"/>AD SECUNDUM DICENDUM quod nihil prohibet in
+            <lb ed="#L" n="22"/>eodem actu diversorum vitiorum . deformitates
+            <lb ed="#L" n="23"/>concurrere, ut supra  dictum est. Et hoc modo
+            <lb ed="#L" n="24"/>adulterium continetur sub luxuria et sub 
+            iniu<lb break="no" ed="#L" n="25"/>stitia . - Nec deformitas iniustitiae  omnino per
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="26"/>accidens se habet ad luxuriam. Ostenditur enim
+            <lb ed="#L" n="27"/>luxuria gravior quae in tantum concupiscentiam
+            <lb ed="#L" n="28"/>sequitur quod etiam in iniustitiam ducat.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e447">
+            <lb ed="#L" n="29"/>AD TERTIUM DICENDUM quod mulier vovens 
+            con<lb break="no" ed="#L" n="30"/>tinentiam quoddam spirituale matrimonium facit
+            <lb ed="#L" n="31"/>cum Deo. Et ideo sacrilegium quod committitur in
+            <lb ed="#L" n="32"/>violatione talis mulieris, est quoddam adulterium
+            <lb ed="#L" n="33"/>spirituale. Et similiter alii modi sacrilegii 
+            redu<lb break="no" ed="#L" n="34"/>cuntur ad alias species luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e464">
+            <lb ed="#L" n="35"/>AD QUARTUM DICENDUM quod peccatum 
+            coniu<lb break="no" ed="#L" n="36"/>gati cum sua uxore non est secundum  
+            indebi<lb break="no" ed="#L" n="37"/>tam materiam, sed secundum alias 
+            circumstan<lb break="no" ed="#L" n="38"/>tias. Quae non 'constitutint speciem Rios actus,
+            <lb ed="#L" n="39"/>ut dictum est .
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e477">
+            <lb ed="#L" n="40"/>AD QUINTUM DICENDUM quod, sicut dicit Dlbsss 
+            <lb ed="#L" n="41"/>ibidem, zmmunditia ponitur pro luxuria contra
+            <lb ed="#L" n="42"/>naturam. Impudicilia autem est quae fit cum
+            <lb ed="#L" n="43"/>liberis a viro: unde videtur ad stuprum 
+            perti<lb break="no" ed="#L" n="44"/>nere.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e490">
+            <lb ed="#L" n="45"/>Vel potest dici quod impudicilia pertinet ad
+            <lb ed="#L" n="46"/>quosdam actus circumstantes actum venereum,
+            <lb ed="#L" n="47"/>sicut sunt oscula, tactus et alia huiusmodi.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e499">
+            <lb ed="#L" n="48"/>AD SEXTUM DICENDUM quod luxuria sumitur 
+            ibi<lb break="no" ed="#L" n="49"/>dem pro quacumque superfluitate, ut Glossa  
+            ibi<lb break="no" ed="#L" n="50"/>dem dicit.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2068-Dd1e509"><!-- p2p2-q154a2 -->
+          <head xml:id="TAca84-d1e2068-Hd1e512">Articulus 2</head>
+          <head xml:id="TAca84-d1e2068-Hd1e514" type="question-title">Utrum fornicatio simplex sit peccatum mortale</head>
+          <p xml:id="TAca84-d1e2068-d1e517">
+            <pb ed="#L" n="218"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=218"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="2"/>UTRUM FORNICATIO SIMPLEX SIT PECCATUM MORTALE
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e528">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>fornicatio simplex non sit peccatum
+            <lb ed="#L" n="5"/>mortale. Ea enim quae simul 
+            connu<lb break="no" ed="#L" n="6"/>merantur...<!--possibly something missing here -->
+            <lb ed="#L" n="7"/>Sed fornicatio connumeratur quibusdam quae non
+            <lb ed="#L" n="8"/>sunt peccata mortalia: dicitur enim .4cf. xv :
+            <lb ed="#L" n="9"/>Abstineatis vos ab immolatis simulacrorum , et
+            <lb ed="#L" n="10"/>sanguine et suffocato, et fornicatione; illorum
+            <lb ed="#L" n="11"/>autem usus non est peccatum mortale, 
+            secun<lb break="no" ed="#L" n="12"/>dum illud 1 ad Tim. iv : Nihil reiiciendum quod
+            <lb ed="#L" n="13"/>cum gratiarum actione percipitur. Ergo fornicatio
+            <lb ed="#L" n="14"/>non est peccatum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e561">
+            <lb ed="#L" n="15"/>2. PRAETEREA, nullum peccatum mortale cadit
+            <lb ed="#L" n="16"/>sub praecepto divino. Sed Osee i  praecipitur 
+            <lb ed="#L" n="17"/>a Domino: Vade, sume tibi uxorem 
+            fornicatio<lb break="no" ed="#L" n="18"/>num, et fac filios fornicationum. Ergo fornicatio
+            <lb ed="#L" n="19"/>non est peccatum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e575">
+            <lb ed="#L" n="20"/>3. PRAETEREA, nullum peccatum mortale in
+            <lb ed="#L" n="21"/>Scriptura sacra absque reprehensione 
+            comme<lb break="no" ed="#L" n="22"/>moratur. Sed fornicatio simplex commemoratur
+            <lb ed="#L" n="23"/>in Scriptura in antiquis Patribus sine 
+            reprehen<lb break="no" ed="#L" n="24"/>sione: sicut legitur Gen. xvi  de Abraham quod
+            <lb ed="#L" n="25"/>accessit ad Agar, ancillam suam; et infra, xxx ,
+            <lb ed="#L" n="26"/>legitur de lacob quod accessit ad ancillas uxorum
+            <lb ed="#L" n="27"/>suarum Balam et^ Zelpham; et infra, xxxvii ,
+            <lb ed="#L" n="28"/>legitur quod ludas accessit ad Thamar, quam
+            <lb ed="#L" n="29"/>aestimavit meretricem. Ergo fornicatio simplex
+            <lb ed="#L" n="30"/>non est peccatum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e601">
+            <lb ed="#L" n="31"/>4. PRAETEREA, omne peccatum mortale 
+            con<lb break="no" ed="#L" n="32"/>trariatur caritati. Sed fornicatio simplex non 
+            con<lb break="no" ed="#L" n="33"/>trariatur caritati: neque quantum ad dilectionem
+            <lb ed="#L" n="34"/>Dei, quia non est directe peccatum contra Deum;
+            <lb ed="#L" n="35"/>nec etiam quantum ad dilectionem proximi, quia
+            <lb ed="#L" n="36"/>per hoc homo nulli homini facit iniuriam. Ergo
+            <lb ed="#L" n="37"/>fornicatio simplex non est peccatum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e619">
+            <lb ed="#L" n="38"/>5. PRAETEREA, omne peccatum mortale ducit
+            <lb ed="#L" n="39"/>in perditionem aeternam. Hoc autem non facit
+            <lb ed="#L" n="40"/>fornicatio simplex: quia super illud I ad 7m. iv ,
+            <lb ed="#L" n="41"/>Pietas ad omnia utilis est, dicit Glossa 
+            Ambro<lb break="no" ed="#L" n="42"/>sii : Omnis summa disciplinae Christianae in 
+            mi<lb break="no" ed="#L" n="43"/>sericordia et pietate est. Quam aliquis sequens, si
+            <lb ed="#L" n="44"/>lubricum carnis patitur, sine dubio vapulabit, sed
+            <lb ed="#L" n="45"/>non peribit, Ergo fornicatio simplex non est 
+            pec<lb break="no" ed="#L" n="46"/>catum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e641">
+            <lb ed="#L" n="47"/>6. PRAETEREA, sicut Augustinus dicit, in libro
+            <lb ed="#L" n="48"/>de Bon. Coniug. , quod est cibus ad salutem 
+            cor<lb break="no" ed="#L" n="49"/>poris, hoc est concubitus ad salutem generis. Sed
+            <lb ed="#L" n="50"/>non omnis inordinatus usus ciborum est 
+            pecca<lb break="no" ed="#L" n="51"/>tum mortale. Ergo nec omnis inordinatus 
+            concu<lb break="no" ed="#L" n="52"/>bitus. Quod maxime videtur de fornicatione 
+            sim<lb break="no" ed="#L" n="53"/>plici, quae minima est inter species enumeratas .
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e659">
+            <lb ed="#L" n="54"/>SED coNTRA EsT quod dicitur Tobiae iv : 
+            At<lb break="no" ed="#L" n="55"/>tende tibi ab omni fornicatione, et praeter uxorem
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="56"/>tuam, non patiaris crimen scire. Crimen autem
+            <lb ed="#L" n="57"/>importat peccatum mortale. Ergo fornicatio, et
+            <lb ed="#L" n="58"/>omnis concubitus qui est praeter uxorem, est
+            <lb ed="#L" n="59"/>peccatum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e677">
+            <lb ed="#L" n="60"/>2. PRAETEREA, nihil excludit a regno Dei nisi
+            <lb ed="#L" n="61"/>peccatum mortale. Fornicatio autem excludit: ut
+            <lb ed="#L" n="62"/>patet per Apostolum, Galat. v , ubi, praemissa
+            <lb ed="#L" n="63"/>fornicatione, et quibusdam aliis vitiis, subdit:
+            <lb ed="#L" n="64"/>Qui talia agunt, regnum Dei non possidebunt .
+            <lb ed="#L" n="65"/>Ergo fornicatio simplex est peccatum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e694">
+            <lb ed="#L" n="66"/>3. PRAETEREA, in Decretis dicitur?, XXII Caus.,
+            <lb ed="#L" n="67"/>qu. 1 : ANosse debent talem de periurio 
+            poeniten<lb break="no" ed="#L" n="68"/>tiam imponi debere qualem de adulterio et 
+            forni<lb break="no" ed="#L" n="69"/>catione, et de homicidio sponte commisso, ei de
+            <lb ed="#L" n="70"/>ceteris criminalibus vitiis. Ergo fornicatio simplex
+            <lb ed="#L" n="71"/>est peccatum criminale, sive mortale.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e710">
+            <lb ed="#L" n="72"/>RESPONDEO DICENDUM quod absque omni dubio
+            <lb ed="#L" n="73"/>tenendum est quod fornicatio simplex sit 
+            pecca<lb break="no" ed="#L" n="74"/>tum mortale: non obstante quod Deut. xxii, 
+            su<lb break="no" ed="#L" n="75"/>per illud, Non erit meretrix etc. , dicit Glossa:
+            <lb ed="#L" n="76"/>Ad eas prohibet accedere quarum est venialis 
+            tur<lb break="no" ed="#L" n="77"/>pitudo. Non enim debet dici venialis, sed 
+            vena<lb break="no" ed="#L" n="78"/>lis, quod est proprium meretricum. 
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e728">
+            <lb ed="#L" n="79"/>Ad huius autem evidentiam, considerandum
+            <lb ed="#L" n="80"/>est quod peccatum mortale est omne peccatum
+            <lb ed="#L" n="81"/>quod committitur directe contra vitam hominis.
+            <lb ed="#L" n="82"/>Fornicatio autem simplex importat 
+            inordinatio<lb break="no" ed="#L" n="83"/>nem quae vergit in nocumentum vitae eius qui
+            <lb ed="#L" n="84"/>est ex tali concubitu nasciturus. Videmus enim
+            <lb ed="#L" n="85"/>in omnibus animalibus in quibus ad educationem
+            <lb ed="#L" n="86"/>prolis requiritur cura maris et feminae, quod in
+            <lb ed="#L" n="87"/>eis non est vagus concubitus, sed maris ad certam
+            <lb ed="#L" n="88"/>feminam, unam vel plures: sicut patet in 
+            omni<lb break="no" ed="#L" n="89"/>bus avibus. Secus autem est in animalibus in
+            <lb ed="#L" n="90"/>quibus sola femina sufficit ad educationem fetus,
+            <lb ed="#L" n="91"/>in quibus est vagus concubitus: ut patet in 
+            ca<lb break="no" ed="#L" n="92"/>nibus et aliis huiusmodi animalibus. Manifestum
+            <lb ed="#L" n="93"/>est autem quod ad educationem hominis. non
+            <lb ed="#L" n="94"/>solum requiritur cura matris, a qua nutritur ,
+            <lb ed="#L" n="95"/>sed multo magis cura patris, a quo est 
+            instruen<lb break="no" ed="#L" n="96"/>dus et defendendus, et in bonis tam interioribus
+            <lb ed="#L" n="97"/>quam exterioribus promovendus. Et ideo contra
+            <lb ed="#L" n="98"/>naturam hominis est quod utatur vago concubitu,
+            <lb ed="#L" n="99"/>sed oportet quod sit maris ad determinatam 
+            fe<lb break="no" ed="#L" n="100"/>minam, cum qua permaneat, non per modicum
+            <lb ed="#L" n="101"/>tempus, sed diu, vel etiam per totam vitam. Et
+            <lb ed="#L" n="102"/>inde est quod naturaliter est maribus in specie
+            <lb ed="#L" n="103"/>humana sollicitudo de certitudine prolis, quia eis
+            <lb ed="#L" n="104"/>imminet educatio prolis. Haec autem certitudo
+            <lb ed="#L" n="105"/>tolleretur si esset vagus concubitus. - Haec autem
+            <lb ed="#L" n="106"/>determinatio certae feminae zatrimonium 
+            voca<lb break="no" ed="#L" n="107"/>tur. Et ideo dicitur esse de iure naturali . Sed
+            <lb ed="#L" n="108"/>quia concubitus ordinatur ad bonum commune
+            <pb ed="#L" n="219"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>totius humani generis; bona autem communia
+            <lb ed="#L" n="2"/>cadunt sub determinatione legis, ut supra  
+            ha<lb break="no" ed="#L" n="3"/>bitum est: consequens est quod ista coniunctio
+            <lb ed="#L" n="4"/>maris ad feminam, quae matrimonium dicitur,
+            <lb ed="#L" n="5"/>lege aliqua determinetur. Qualiter autem sit apud
+            <lb ed="#L" n="6"/>nos determinatum, in Tertia Parte huius operis
+            <lb ed="#L" n="7"/>agetur , cum de matrimonii sacramento 
+            tracta<lb break="no" ed="#L" n="8"/>bitur. - Unde, cum fornicatio sit concubitus 
+            va<lb break="no" ed="#L" n="9"/>gus, utpote praeter matrimonium existens, est
+            <lb ed="#L" n="10"/>contra bonum prolis educandae. Et ideo est 
+            pec<lb break="no" ed="#L" n="11"/>catum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e824">
+            <lb ed="#L" n="12"/>Nec obstat si aliquis fornicando aliquam 
+            co<lb break="no" ed="#L" n="13"/>gnoscens, sufficienter provideat proli de 
+            educa<lb break="no" ed="#L" n="14"/>tione. Quia id quod cadit sub legis 
+            determina<lb break="no" ed="#L" n="15"/>tione, iudicatur secundum id quod communiter
+            <lb ed="#L" n="16"/>accidit, et non secundum id quod in aliquo casu
+            <lb ed="#L" n="17"/>potest accidere .
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e840">
+            <lb ed="#L" n="18"/>AD PRIMUM ERGO DICENDUM quod fornicatio illis
+            <lb ed="#L" n="19"/>connumeratur, non quia habeat eandem rationem
+            <lb ed="#L" n="20"/>culpae cum aliis: sed quantum ad hoc, quod ex
+            <lb ed="#L" n="21"/>his quae ibi ponuntur similiter poterat dissidium
+            <lb ed="#L" n="22"/>generari inter Iudaeos et Gentiles, et eorum 
+            una<lb break="no" ed="#L" n="23"/>nimis consensus impediri. Quia apud Gentiles 
+            for<lb break="no" ed="#L" n="24"/>nicatio simplex non reputabatur illicita, propter
+            <lb ed="#L" n="25"/>corruptionem naturalis rationis: ludaei autem,
+            <lb ed="#L" n="26"/>ex lege divina instructi, eam illicitam reputabant.
+            <lb ed="#L" n="27"/>Alia vero quae ibi ponuntur, ludaei 
+            abomina<lb break="no" ed="#L" n="28"/>bantur propter consuetudinem legalis 
+            conversa<lb break="no" ed="#L" n="29"/>tionis. Unde Apostoli ea Gentilibus interdixerunt,
+            <lb ed="#L" n="30"/>non quasi secundum se illicita, sed quasi ludaeis
+            <lb ed="#L" n="31"/>abominabilia: ut etiam supra  dictum est.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e873">
+            <lb ed="#L" n="32"/>AD SECUNDUM DICENDUM quod fornicatio dicitur
+            <lb ed="#L" n="33"/>esse peccatum, inquantum est contra rationem
+            <lb ed="#L" n="34"/>rectam. Ratio autem hominis recta est secundum
+            <lb ed="#L" n="35"/>quod regulatur voluntate divina, quae est prima
+            <lb ed="#L" n="36"/>et summa regula. Et ideo quod homo facit ex
+            <lb ed="#L" n="37"/>voluntate Dei, eius praecepto obediens, non est
+            <lb ed="#L" n="38"/>contra rationem rectam, quamvis videatur esse
+            <lb ed="#L" n="39"/>contra communem ordinem rationis: sicut etiam
+            <lb ed="#L" n="40"/>non est contra naturam quod miraculose fit 
+            vir<lb break="no" ed="#L" n="41"/>tute divina, quamvis sit contra communem 
+            cur<lb break="no" ed="#L" n="42"/>sum naturae. Et ideo, sicut Abraham non 
+            pec<lb break="no" ed="#L" n="43"/>cavit filium innocentem volendo occidere , 
+            pro<lb break="no" ed="#L" n="44"/>pter hoc quod obedivit Deo , quamvis hoc,
+            <lb ed="#L" n="45"/>secundum se consideratum, sit communiter con-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="46"/>tra rectitudinem rationis humanae; ita etiam Osee
+            <lb ed="#L" n="47"/>non peccavit fornicando ex praecepto divino .
+            <lb ed="#L" n="48"/>Nec talis concubitus proprie fornicatio debet dici:
+            <lb ed="#L" n="49"/>quamvis fornicatio nominetur referendo ad 
+            cur<lb break="no" ed="#L" n="50"/>sum communem. Unde Augustinus dicit, Ill. 
+            Con<lb break="no" ed="#L" n="51"/>fess. : Cum Deus aliquid contra morem aut 
+            pa<lb break="no" ed="#L" n="52"/>ctum quorumlibet iubet, etsi nunquam ibi factum
+            <lb ed="#L" n="53"/>est, faciendum est. Et postea subdit: Sicut enim
+            <lb ed="#L" n="54"/>in potestatibus societatis humanae maior potestas
+            <lb ed="#L" n="55"/>minori ad obediendum praeponitur ^, iia Deus
+            <lb ed="#L" n="56"/>omnibus. 
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e933">
+            <lb ed="#L" n="57"/>AD TERTIUM DICENDUM quod Abraham et lacob
+            <lb ed="#L" n="58"/>ad ancillas accesserunt non quasi fornicario 
+            con<lb break="no" ed="#L" n="59"/>cubitu : ut infra patebit, cum de matrimonio
+            <lb ed="#L" n="60"/>agetur . - Iudam autem non est necessarium a
+            <lb ed="#L" n="61"/>peccato excusare, qui etiam auctor fuit 
+            venditio<lb break="no" ed="#L" n="62"/>nis Ioseph.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e949">
+            <lb ed="#L" n="63"/>AD QUARTUM DICENDUM quod fornicatio simplex
+            <lb ed="#L" n="64"/>contrariatur dilectioni proximi quantum ad hoc,
+            <lb ed="#L" n="65"/>quod repugnat bono prolis nasciturae, ut 
+            osten<lb break="no" ed="#L" n="66"/>sum est : dum scilicet dat operam generationi
+            <lb ed="#L" n="67"/>non secundum quod convenit proli nasciturae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e962">
+            <lb ed="#L" n="68"/>AD QUINTUM DICENDUM quod per opera pietatis
+            <lb ed="#L" n="69"/>ille qui lubricum carnis patitur liberatur a 
+            per<lb break="no" ed="#L" n="70"/>ditione aeterna, inquantum per huiusmodi opera
+            <lb ed="#L" n="71"/>disponitur ad hoc quod gratiam consequatur per
+            <lb ed="#L" n="72"/>quam poeniteat, et inquantum per huiusmodi
+            <lb ed="#L" n="73"/>opera satisfacit de lubrico carnis commisso. Non
+            <lb ed="#L" n="74"/>autem ita quod, si in lubrico carnis perseveret
+            <lb ed="#L" n="75"/>impoenitens usque ad mortem, per pietatis opera
+            <lb ed="#L" n="76"/>liberetur.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e984">
+            <lb ed="#L" n="77"/>AD SEXTUM DICENDUM quod ex uno concubitu
+            <lb ed="#L" n="78"/>potest unus homo generari. Et ideo inordinatio
+            <lb ed="#L" n="79"/>concubitus, quae impedit bonum prolis 
+            nascitu<lb break="no" ed="#L" n="80"/>rae, ex ipso genere actus est peccatum mortale:
+            <lb ed="#L" n="81"/>et non solum ex inordinatione concupiscentiae.
+            <lb ed="#L" n="82"/>Ex una autem comestione non impeditur bonum
+            <lb ed="#L" n="83"/>totius vitae unius hominis: et ideo actus gulae .
+            <lb ed="#L" n="84"/>ex suo genere non est peccatum mortale. Esset
+            <lb ed="#L" n="85"/>tamen si quis scienter cibum comederet qui totam
+            <lb ed="#L" n="86"/>conditionem vitae eius immutaret: sicut patet de
+            <lb ed="#L" n="87"/>Adam . - Nec tamen fornicatio est minimum
+            <lb ed="#L" n="88"/>peccatorum quae sub luxuria continentur. Minus
+            <lb ed="#L" n="89"/>enim est concubitus cum uxore qui fit ex 
+            li<lb break="no" ed="#L" n="90"/>bidine .
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2068-Dd1e1019"><!-- p2p2-q154a3 -->
+          <head xml:id="TAca84-d1e2068-Hd1e1022">Articulus 3</head>
+          <head xml:id="TAca84-d1e2068-Hd1e1024" type="question-title">Utrum fornicatio sit gravissimum peccatum</head>
+          <p xml:id="TAca84-d1e2068-d1e1027">
+            <lb ed="#L" n="59" type="fixed=223"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="60"/>UTRUM FORNICATIO SIT GRAVISSIMUM PECCATUM
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1034">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="61"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="62"/>fornicatio sit gravissimum peccatum.
+            <lb ed="#L" n="63"/>Tanto enim videtur peccatum gravius,
+            <lb ed="#L" n="64"/>quanto ex maiori libidine procedit. Sed
+            <lb ed="#L" n="65"/>maxima libido est in fornicatione: dicitur enim
+            <lb ed="#L" n="66"/>in Glossa , I ad Cor. vi , quod ardor libidinis
+            <lb ed="#L" n="67"/>in luxuria est maximus. Ergo videtur quod 
+            for<lb break="no" ed="#L" n="68"/>nicatio sit gravissimum peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1056">
+            <lb ed="#L" n="69"/>2. PRAETEREA, tanto aliquis gravius peccat,
+            <lb ed="#L" n="70"/>quanto in rem sibi magis coniunctam delinquit:
+            <lb ed="#L" n="71"/>sicut gravius peccat qui percutit patrem quam qui
+            <lb ed="#L" n="72"/>percutit extraneum. Sed sicut dicitur I Cor. vi ,
+            <lb ed="#L" n="73"/>qui fornicatur, in corpus suum peccat, quod est
+            <lb ed="#L" n="74"/>homini coniunctissimum. Ergo videtur quod 
+            for<lb break="no" ed="#L" n="75"/>nicatio sit gravissimum peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1075">
+            <lb ed="#L" n="76"/>3. PRAETEREA, quanto aliquod bonum est maius,
+            <lb ed="#L" n="77"/>tanto peccatum quod contra illud committitur 
+            vi<lb break="no" ed="#L" n="78"/>detur esse gravius. Sed peccatum fornicationis
+            <lb ed="#L" n="79"/>videtur esse contra bonum totius humani 
+            gene<lb break="no" ed="#L" n="80"/>ris, ut ex praedictis  patet. Est etiam contra
+            <lb ed="#L" n="81"/>Christum: secundum illud I ad Cor. v1: Tollens
+            <lb ed="#L" n="82"/>membra. Christi, faciam membra meretricis? Ergo
+            <lb ed="#L" n="83"/>fornicatio est gravissimum peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1095">
+            <lb ed="#L" n="84"/>SED cONTRA EsT quod Gregorius dicit  quod
+            <lb ed="#L" n="85"/>peccata carnalia sunt minoris culpae quam 
+            pec<lb break="no" ed="#L" n="86"/>cata spiritualia.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1104">
+            <lb ed="#L" n="87"/>RESPONDEO DICENDUM quod gravitas peccati 
+            ali<lb break="no" ed="#L" n="88"/>cuius attendi potest dupliciter: uno modo, 
+            se<lb break="no" ed="#L" n="89"/>cundum se; alio modo, secundum accidens. 
+            Se<lb break="no" ed="#L" n="90"/>cundum se quidem attenditur gravitas peccati ex
+            <lb ed="#L" n="91"/>ratione suae speciei, quae consideratur secun-
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="92"/>dum bonum cui peccatum opponitur. Fornicatio
+            <lb ed="#L" n="93"/>autem est contra bonum hominis nascituri. Et
+            <lb ed="#L" n="94"/>ideo est gravius peccatum secundum speciem
+            <lb ed="#L" n="95"/>suam peccatis quae sunt contra bona exteriora,
+            <lb ed="#L" n="96"/>sicut est furtum et alia huiusmodi: minus autem
+            <lb ed="#L" n="97"/>peccatis quae sunt directe contra Deum, et 
+            pec<lb break="no" ed="#L" n="98"/>cato quod est contra vitam hominis iam nai,
+            <lb ed="#L" n="99"/>sicut est homicidium.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1137">
+            <lb ed="#L" n="100"/>AD PRIMUM ERGO DICENDUM quod libido quae
+            <lb ed="#L" n="101"/>aggravat peccatum est quae consistit in 
+            inclina<lb break="no" ed="#L" n="102"/>tione voluntatis. Libido autem quae est in 
+            ap<lb break="no" ed="#L" n="103"/>petitu sensitivo diminuit peccatum: quia quanto
+            <lb ed="#L" n="104"/>aliquis ex maiori passione impulsus peccat, tanto
+            <lb ed="#L" n="105"/>levius est peccatum. Et hoc modo in fornicatione
+            <lb ed="#L" n="106"/>libido est maxima. Et inde est quod Augustinus
+            <lb ed="#L" n="107"/>dicit, in libro de Agone Christiano , quod inter
+            <lb ed="#L" n="108"/>omnia Christianorum certamina , duriora sunt
+            <lb ed="#L" n="109"/>praelia castitatis, ubi est quotidiana pugna, sed
+            <lb ed="#L" n="110"/>rara victoria. Et Isidorus dicit, in libro de 
+            Sum<lb break="no" ed="#L" n="111"/>mo Bono , quod magis per carnis luxuriam 
+            hu<lb break="no" ed="#L" n="112"/>manum genus subditur diabolo. quam per. aliquod
+            <lb ed="#L" n="113"/>aliud: quia scilicet difficilius est vincere 
+            vehe<lb break="no" ed="#L" n="114"/>mentiam huius passionis.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1172">
+            <lb ed="#L" n="115"/>AD SECUNDUM DICENDUM quod ille qui fornicatur
+            <lb ed="#L" n="116"/>dicitur peccare in corpus suum, non solum quia
+            <lb ed="#L" n="117"/>fornicationis delectatio consummatur in carne,
+            <lb ed="#L" n="118"/>quod etiam in gula accidit: sed etiam quia 
+            con<lb break="no" ed="#L" n="119"/>tra bonum proprii corporis agit qui fornicatur,
+            <lb ed="#L" n="120"/>inquantum scilicet indebite illud resolvit et 
+            inqui<lb break="no" ed="#L" n="121"/>nat, et alteri commiscet. Nec tamen propter hoc
+            <lb ed="#L" n="122"/>sequitur quod fornicatio sit peccatum gravissi-
+            <pb ed="#L" n="224"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>mum: quia ratio in homine praevalet corpori;
+            <lb ed="#L" n="2"/>unde, si sit peccatum magis repugnans rationi,
+            <lb ed="#L" n="3"/>gravius erit.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1203">
+            <lb ed="#L" n="4"/>AD TERTIUM DICENDUM quod peccatum 
+            fornica<lb break="no" ed="#L" n="5"/>tionis est contra bonum speciei humanae 
+            inquan<lb break="no" ed="#L" n="6"/>tum impedit generationem singularem unius 
+            ho<lb break="no" ed="#L" n="7"/>minis nascituri. Magis autem pertingit ad 
+            ratio<lb break="no" ed="#L" n="8"/>nem speciei qui actu iam participat speciem quam
+            <lb ed="#L" n="9"/>qui est potentia homo . Et secundum hoc etiam
+            <lb ed="#L" n="10"/>homicidium est gravius quam fornicatio et omnes
+            <lb ed="#L" n="11"/>luxuriae species, tanquam magis bono speciei hu-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="12"/>manae repugnans. - Bonum etiam divinum est
+            <lb ed="#L" n="13"/>maius bono speciei humanae. Et ideo etiam 
+            pec<lb break="no" ed="#L" n="14"/>cata quae sunt contra Deum, sunt maiora. - Nec
+            <lb ed="#L" n="15"/>fornicatio est directe peccatum in Deum, quasi
+            <lb ed="#L" n="16"/>fornicator Dei offensam intendat: sed ex 
+            conse<lb break="no" ed="#L" n="17"/>quenti, sicut et omnia peccata mortalia. Sicut enim
+            <lb ed="#L" n="18"/>membra corporis nostri sunt membra Christi, ita
+            <lb ed="#L" n="19"/>etiam et spiritus noster est unum cum Christo:
+            <lb ed="#L" n="20"/>secundum illud I ad Cor. vi : Qui adhaeret Deo,
+            <lb ed="#L" n="21"/>unus spiritus est. Unde etiam peccata. spiritualia
+            <lb ed="#L" n="22"/>sunt magis contra Christum quam fornicatio.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2068-Dd1e1250"><!-- p2p2-q154a4 -->
+          <head xml:id="TAca84-d1e2068-Hd1e1253">Articulus 4</head>
+          <head xml:id="TAca84-d1e2068-Hd1e1255" type="question-title">Utrum in tactibus et osculis consistat peccatum mortale</head>
+          <p xml:id="TAca84-d1e2068-d1e1258">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="23" type="fixed=225"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="24"/>UTRUM IN TACTIBUS ET OSCULIS CONSISTAT PECCATUM MORTALE
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1267">
+            <lb ed="#L" n="25"/>AD QUARTUM SIC PROCEDITUR, Videtur quod
+            <lb ed="#L" n="26"/>in tactibus et osculis non consistat 
+            pecca<lb break="no" ed="#L" n="27"/>tum mortale. Apostolus enim, ad Ephes.
+            <lb ed="#L" n="28"/>v, dicit: Fornicatio autem et omnis 
+            im<lb break="no" ed="#L" n="29"/>munditia, aut avaritia, ne nominetur in vobis : 
+            sic<lb break="no" ed="#L" n="30"/>ut decet sanctos. Subdit autem : aut turpitudo, -
+            <lb ed="#L" n="31"/>Glossa : « ut in osculis et amplexibus »; aut
+            <lb ed="#L" n="32"/>stultiloquium, « ut blanda verba »; aut 
+            scurrili<lb break="no" ed="#L" n="33"/>las, « quae a stultis curialitas dicitur, idest 
+            iocu<lb break="no" ed="#L" n="34"/>laritas ». Postea autem subdit : Hoc enim scitote,
+            <lb ed="#L" n="35"/>intelligentes, quod omnis fornicator aut. 
+            immun<lb break="no" ed="#L" n="36"/>dus aut avarus, quod est idolorum servitus, non
+            <lb ed="#L" n="37"/>habet haereditatem in regno Christi et Dei: ubi
+            <lb ed="#L" n="38"/>non replicat de turpitudine, sicut nec de 
+            stultilo<lb break="no" ed="#L" n="39"/>quio aut scurrilitate. Ergo ista non sunt peccata 
+            <lb ed="#L" n="40"/>mortalia.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1304">
+            <lb ed="#L" n="41"/>2. PRAETEREA, fornicatio dicitur esse peccatum
+            <lb ed="#L" n="42"/>mortale ex hoc quod per eam impeditur bonum
+            <lb ed="#L" n="43"/>prolis generandae et educandae . Sed ad hoc 
+            ni<lb break="no" ed="#L" n="44"/>hil operantur oscula et tactus, sive amplexus. 
+            <lb ed="#L" n="45"/>Ergo in his non contingit esse peccatum mortale. 
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1318">
+            <lb ed="#L" n="46"/>3. PRAETEREA, illa quae sunt secundum se 
+            pec<lb break="no" ed="#L" n="47"/>cata mortalia, nunquam possunt bene fieri. Sed 
+            <lb ed="#L" n="48"/>oscula et tactus et huiusmodi possunt 
+            quando<lb break="no" ed="#L" n="49"/>que fieri absque peccato. Ergo non sunt 
+            secun<lb break="no" ed="#L" n="50"/>dum se peccata mortalia.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1331">
+            <lb ed="#L" n="51"/>SEp coNTRA, minus est aspectus libidinosus 
+            <lb ed="#L" n="52"/>quam tactus, amplexus vel osculum. Sed aspectus
+            <lb ed="#L" n="53"/>libidinosus est peccatum mortale: secundum illud
+            <lb ed="#L" n="54"/>Matth. v : Qui viderit mulierem ad 
+            concupiscen<lb break="no" ed="#L" n="55"/>dum eam, iam moechatus est eam in corde suo.
+            <lb ed="#L" n="56"/>Ergo multo magis osculum libidinosum, et alia
+            <lb ed="#L" n="57"/>huiusmodi, sunt peccata mortalia.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1349">
+            <lb ed="#L" n="58"/>2. PRAETEREA, Cyprianus, ad Pomponium de
+            <lb ed="#L" n="59"/>Virginitate , dicit: Certe ipse concubitus, ipse 
+            am<lb break="no" ed="#L" n="60"/>plexus, ipsa confabulatio et osculatio, et. 
+            conia<lb break="no" ed="#L" n="61"/>centium duorum turpis et foeda dormitio, quantum
+            <lb ed="#L" n="62"/>dedecoris et criminis  confitentur! Ergo per prae-
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="63"/>dicta homo fit reus criminis, idest peccati 
+            mor<lb break="no" ed="#L" n="64"/>talis.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1369">
+            <lb ed="#L" n="65"/>RESPONDEO DICENDUM quod aliquid dicitur esse
+            <lb ed="#L" n="66"/>peccatum mortale dupliciter. Uno modo, 
+            secun<lb break="no" ed="#L" n="67"/>dum speciem suam. Et hoc modo osculum, 
+            am<lb break="no" ed="#L" n="68"/>plexus vel tactus, secundum suam rationem non
+            <lb ed="#L" n="69"/>nominant peccatum mortale. Possunt enim haec
+            <lb ed="#L" n="70"/>absque libidine fieri: vel propter consuetudinem
+            <lb ed="#L" n="71"/>patriae, vel propter aliquam necessitatem aut 
+            ra<lb break="no" ed="#L" n="72"/>tionabilem causam.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1389">
+            <lb ed="#L" n="73"/>Alio modo dicitur aliquid esse peccatum 
+            mor<lb break="no" ed="#L" n="74"/>tale ex sua causa: sicut ille qui dat 
+            eleemosy<lb break="no" ed="#L" n="75"/>nam ut aliquem inducat ad haeresim, mortaliter
+            <lb ed="#L" n="76"/>peccat propter intentionem corruptam. Dictum
+            <lb ed="#L" n="77"/>est autem supra  quod consensus in 
+            delectatio<lb break="no" ed="#L" n="78"/>nem peccati mortalis est peccatum mortale, et
+            <lb ed="#L" n="79"/>non solum consensus in actum. Et ideo, cum
+            <lb ed="#L" n="80"/>fornicatio sit peccatum mortale, et multo magis
+            <lb ed="#L" n="81"/>aliae luxuriae species, consequens est quod 
+            con<lb break="no" ed="#L" n="82"/>sensus in delectationem talis peccati sit peccatum
+            <lb ed="#L" n="83"/>mortale, et non solum consensus in actum. Et
+            <lb ed="#L" n="84"/>ideo, cum oscula et amplexus et huiusmodi 
+            pro<lb break="no" ed="#L" n="85"/>pter delectationem huiusmodi fiant, consequens
+            <lb ed="#L" n="86"/>est quod sint peccata mortalia. Et sic solum 
+            di<lb break="no" ed="#L" n="87"/>cuntur libidinosa. Unde huiusmodi, secundum
+            <lb ed="#L" n="88"/>quod libidinosa sunt, sunt peccata mortalia.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1426">
+            <lb ed="#L" n="89"/>AD PRIMUM ERGO DICENDUM quod Apostolus ideo
+            <lb ed="#L" n="90"/>non resumit illa tria, quia non habent rationem '
+            <lb ed="#L" n="91"/>peccati nisi secundum quod ordinantur ad 
+            prae<lb break="no" ed="#L" n="92"/>cedentia.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1438">
+            <lb ed="#L" n="93"/>AD SECUNDUM DICENDUM quod oscula et tactus,
+            <lb ed="#L" n="94"/>quamvis secundum se non impediant bonum 
+            pro<lb break="no" ed="#L" n="95"/>lis humanae, procedunt tamen ex libidine, quae
+            <lb ed="#L" n="96"/>est radix huius impedimenti. Et ex hoc habent
+            <lb ed="#L" n="97"/>rationem peccati mortalis.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1451">
+            <lb ed="#L" n="98"/>AD TERTIUM DICENDUM quod ratio illa concludit
+            <lb ed="#L" n="99"/>quod huiusmodi non sunt peccata secundum suam
+            <lb ed="#L" n="100"/>speciem.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2068-Dd1e1461"><!-- p2p2-q154a5 -->
+          <head xml:id="TAca84-d1e2068-Hd1e1464">Articulus 5</head>
+          <head xml:id="TAca84-d1e2068-Hd1e1466" type="question-title">Utrum nocturna pollutio sit peccatum</head>
+          <p xml:id="TAca84-d1e2068-d1e1469">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="17" type="fixed=229"/>ARTICULUS QUINTUS
+            <lb ed="#L" n="18"/>UTRUM NOCTURNA POLLUTIO SIT PECCATUM
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1478">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="19"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="20"/>nocturna pollutio sit  peccatum. 
+            Meri<lb break="no" ed="#L" n="21"/>tum enim et demeritum habent fieri
+            <lb ed="#L" n="22"/>circa idem. Sed dormiens potest 
+            me<lb break="no" ed="#L" n="23"/>reri: sicut patet de Salomone, qui dormiens a
+            <lb ed="#L" n="24"/>Domino donum sapientiae impetravit, ut. dicitur
+            <lb ed="#L" n="25"/>II Reg. i, et Il Paralip.1. Ergo in dormiendo
+            <lb ed="#L" n="26"/>potest aliquis demereri. Et ita videtur quod 
+            no<lb break="no" ed="#L" n="27"/>cturna pollutio sit peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1502">
+            <lb ed="#L" n="28"/>2. PRAETEREA, quicumque habet usum rationis,
+            <lb ed="#L" n="29"/>potest peccare. Sed in dormiendo aliquis habet
+            <lb ed="#L" n="30"/>usum rationis: quia frequenter aliquis in somnis ?
+            <lb ed="#L" n="31"/>ratiocinatur, et praeeligit unum alteri, consentiens
+            <lb ed="#L" n="32"/>vel dissentiens. Ergo in dormiendo potest aliquis
+            <lb ed="#L" n="33"/>peccare. Et ita propter somnum nocturna pollutio
+            <lb ed="#L" n="34"/>non impeditur quin sit peccatum: cum ex 
+            ge<lb break="no" ed="#L" n="35"/>nere actus sit peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1523">
+            <lb ed="#L" n="36"/>3. PRAETEREA, frustra increpatur et instruitur
+            <lb ed="#L" n="37"/>qui non potest vel agere ' secundum rationem
+            <lb ed="#L" n="38"/>vel contra rationem. Sed homo in somnis 
+            in<lb break="no" ed="#L" n="39"/>struitur a Deo et increpatur: secundum illud
+            <lb ed="#L" n="40"/>Iob xxxm : Per somnium ?, in visione nocturna,
+            <lb ed="#L" n="41"/>quando sopor solet occupare homines, tunc. aperit
+            <lb ed="#L" n="42"/>aures virorum, et erudiens eos instruit disciplina.
+            <lb ed="#L" n="43"/>Ergo in somnis potest aliquis agere secundum
+            <lb ed="#L" n="44"/>rationem vel contra rationem: quod est bene
+            <lb ed="#L" n="45"/>agere vel peccare. Et sic videtur quod pollutio
+            <lb ed="#L" n="46"/>nocturna sit peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1549">
+            <lb ed="#L" n="47"/>SED coNTRA EST quod Augustinus dicit, XII super
+            <lb ed="#L" n="48"/>Gen. ad litt. : Ipsa phantasia quae fit in 
+            cogita<lb break="no" ed="#L" n="49"/>tione sermocinantis, cum expressa fuerit in visione
+            <lb ed="#L" n="50"/>somniantis, ut inter illam et veram coniunctionem
+            <lb ed="#L" n="51"/>corporum non discernatur, coniinue movetur caro
+            <lb ed="#L" n="52"/>et sequitur quod eum motum. sequi solet: cum 
+            <lb ed="#L" n="53"/>hoc tam sine peccato fiat, quam sine peccato a
+            <lb ed="#L" n="54"/>vigilantibus dicitur quod, ut diceretur, sine dubio
+            <lb ed="#L" n="55"/>cogitatum est.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1571">
+            <lb ed="#L" n="56"/>RESPONDEO DICENDUM quod nocturna pollutio
+            <lb ed="#L" n="57"/>dupliciter potest considerari. Uno modo, 
+            secun<lb break="no" ed="#L" n="58"/>dum se. Et hoc modo non habet rationem 
+            pec<lb break="no" ed="#L" n="59"/>cati. Omne enim peccatum dependet ex iudicio
+            <lb ed="#L" n="60"/>rationis: quia etiam primus motus sensualitatis
+            <lb ed="#L" n="61"/>non habet quod sit peccatum nisi inquantum iu-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="62"/>dicio rationis reprimi potest . Et ideo, sublato
+            <lb ed="#L" n="63"/>iudicio rationis, tollitur ratio peccati. In 
+            dormien<lb break="no" ed="#L" n="64"/>do autem ratio non habet liberum iudicium: 
+            nul<lb break="no" ed="#L" n="65"/>lus enim est dormiens qui non intendat aliquibus
+            <lb ed="#L" n="66"/>similitudinibus phantasmatum velut rebus ipsis,
+            <lb ed="#L" n="67"/>ut patet ex his quae in Primo  dicta sunt. Et
+            <lb ed="#L" n="68"/>ideo id quod agit homo dormiens, qui non habet
+            <lb ed="#L" n="69"/>liberum iudicium rationis, non imputatur ei ad
+            <lb ed="#L" n="70"/>culpam: sicut nec illud quod agit furiosus aut
+            <lb ed="#L" n="71"/>amens.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1610">
+            <lb ed="#L" n="72"/>Alio modo potest considerari nocturna 
+            pollu<lb break="no" ed="#L" n="73"/>tio per comparationem ad suam causam. Quae
+            <lb ed="#L" n="74"/>potest esse triplex. Una quidem corporalis. Cum
+            <lb ed="#L" n="75"/>enim humor seminalis superabundat in corpore ;
+            <lb ed="#L" n="76"/>vel cum facta est humoris resolutio, vel per 
+            ni<lb break="no" ed="#L" n="77"/>miam calefactionem corporis, vel per 
+            quamcum<lb break="no" ed="#L" n="78"/>que aliam commotionem; somniat dormiens ea
+            <lb ed="#L" n="79"/>quae pertinent ad expulsionem huiusmodi 
+            humo<lb break="no" ed="#L" n="80"/>ris abundantis vel resoluti, sicut etiam accidit
+            <lb ed="#L" n="81"/>quando natura gravatur ex aliqua alia 
+            superflui<lb break="no" ed="#L" n="82"/>tate; ita quod quandoque formantur in 
+            imagina<lb break="no" ed="#L" n="83"/>tione phantasmata pertinentia ad emissionem 
+            ta<lb break="no" ed="#L" n="84"/>lium superfluitatum. Si igitur superabundantia
+            <lb ed="#L" n="85"/>talis humoris sit ex causa culpabili, puta cum est
+            <lb ed="#L" n="86"/>ex superfluitate cibi vel potus; tnc nocturna 
+            pol<lb break="no" ed="#L" n="87"/>lutio habet rationem culpae ex sua causa. Si 
+            au<lb break="no" ed="#L" n="88"/>tem superabundantia vel resolutio talis humoris
+            <lb ed="#L" n="89"/>non sit ex aliqua causa culpabili, tunc nocturna
+            <lb ed="#L" n="90"/>pollutio non est culpabilis, nec in se nec in
+            <lb ed="#L" n="91"/>causa sua.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1656">
+            <lb ed="#L" n="92"/>Alia vero causa nocturnae pollutionis potest
+            <lb ed="#L" n="93"/>esse animalis  interior: puta cum ex cogitatione
+            <lb ed="#L" n="94"/>praecedenti contingit aliquem dormientem pollui.
+            <lb ed="#L" n="95"/>Cogitatio autem quae in vigilia praecessit, 
+            quan<lb break="no" ed="#L" n="96"/>doque est pure speculativa, puta cum aliquis causa
+            <lb ed="#L" n="97"/>disputationis cogitat de peccatis carnalibus: 
+            quan<lb break="no" ed="#L" n="98"/>doque autem est cum aliqua affectione vel 
+            con<lb break="no" ed="#L" n="99"/>cupiscentiae vel horroris. Contingit autem magis ^
+            <lb ed="#L" n="100"/>pollutio nocturna ex cogitatione carnalium 
+            vitio<lb break="no" ed="#L" n="101"/>rum quae fuit ? cum concupiscentia talium 
+            dele<lb break="no" ed="#L" n="102"/>ctationum: quia ex hoc remanet quoddam 
+            ve<lb break="no" ed="#L" n="103"/>stigium et inclinatio in anima, ita quod dormiens
+            <lb ed="#L" n="104"/>facilius inducitur in sua imaginatione  ad assen-
+            <pb ed="#L" n="230"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>tiendum actibus ex quibus sequitur pollutio. 
+            Se<lb break="no" ed="#L" n="2"/>cundum hoc Philosophus dicit, in I Ethic. , quod
+            <lb ed="#L" n="3"/>inquantum paulatim. pertranseunt. quidam motus
+            <lb ed="#L" n="4"/>a vigilantibus ad dormientes, meliora fiunt 
+            phan<lb break="no" ed="#L" n="5"/>tasmata studiosorum quam quorumlibet: et 
+            Au<lb break="no" ed="#L" n="6"/>gustinus dicit, XII super Gen. ad litt., quod 
+            pro<lb break="no" ed="#L" n="7"/>pler bonam animae affectionem , quaedam eius
+            <lb ed="#L" n="8"/>merita etiam in somnis  clarent. Et sic patet quod
+            <lb ed="#L" n="9"/>nocturna pollutio habet rationem culpae ex parte
+            <lb ed="#L" n="10"/>suae causae. - Quandoque tamen contingit quod
+            <lb ed="#L" n="11"/>ex praecedenti cogitatione carnalium actuum etiam
+            <lb ed="#L" n="12"/>speculativa, vel si sit cum horrore, sequitur in
+            <lb ed="#L" n="13"/>somnis ? pollutio. Et tunc non habet rationem 
+            cul<lb break="no" ed="#L" n="14"/>pae, nec in se nec in sua causa.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1721">
+            <lb ed="#L" n="15"/>Tertia vero causa est spiritualis extrinseca:
+            <lb ed="#L" n="16"/>puta cum ex operatione daemonis commoventur
+            <lb ed="#L" n="17"/>phantasmata dormientis in ordine ad talem 
+            effe<lb break="no" ed="#L" n="18"/>ctum. Et hoc quidem quandoque est cum 
+            pec<lb break="no" ed="#L" n="19"/>cato praecedenti, scilicet negligentia praeparandi
+            <lb ed="#L" n="20"/>se contra daemonis illusiones: unde et in sero
+            <lb ed="#L" n="21"/>cantatur , Hostemque nostrum comprime , Ne
+            <lb ed="#L" n="22"/>polluantur corpora. - Quandoque vero est absque
+            <lb ed="#L" n="23"/>omni culpa hominis, ex sola nequitia daemonis:
+            <lb ed="#L" n="24"/>sicut in. Collationibus Patrum  legitur de 
+            quo<lb break="no" ed="#L" n="25"/>dam quod  semper in diebus festis pollutionem
+            <lb ed="#L" n="26"/>nocturnam patiebatur, hoc diabolo procurante,
+            <lb ed="#L" n="27"/>ut impediretur a sacra communione.
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="28"/>Sic igitur patet quod nocturna pollutio 
+            nun<lb break="no" ed="#L" n="29"/>quam est peccatum: quandoque tamen " est 
+            se<lb break="no" ed="#L" n="30"/>quela peccati praecedentis.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1761">
+            <lb ed="#L" n="31"/>AD PRIMUM ERGO DICENDUM quod Salomon non
+            <lb ed="#L" n="32"/>meruit in dormiendo sapientiam a Deo: sed fuit
+            <lb ed="#L" n="33"/>signum praecedentis desiderii, propter quod 
+            di<lb break="no" ed="#L" n="34"/>citur talis petitio Deo placuisse, ut Augustinus
+            <lb ed="#L" n="35"/>dicit, XII super Gen. ad litt. .
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1774">
+            <lb ed="#L" n="36"/>AD SECUNDUM DICENDUM quod, secundum quod
+            <lb ed="#L" n="37"/>vires sensitivae interiores magis vel minus 
+            op<lb break="no" ed="#L" n="38"/>primuntur a sommo, propter vaporis 
+            turbulen<lb break="no" ed="#L" n="39"/>tiam vel puritatem, secundum hoc usus rationis
+            <lb ed="#L" n="40"/>magis vel minus impeditur in dormiendo. Semper
+            <lb ed="#L" n="41"/>tamen quantum ad aliquid impeditur, ut non 
+            pos<lb break="no" ed="#L" n="42"/>sit omnino liberum iudicium habere, ut in Prima
+            <lb ed="#L" n="43"/>Parte  dictum est. Et ideo non imputatur ei ad
+            <lb ed="#L" n="44"/>culpam quod tunc agit. 3
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1796">
+            <lb ed="#L" n="45"/>AD TERTIUM DICENDUM quod apprehensio rationis
+            <lb ed="#L" n="46"/>non ita impeditur in  somno sicut eius iudicium,
+            <lb ed="#L" n="47"/>quod perficitur per conversionem ad sensibilia,
+            <lb ed="#L" n="48"/>quae sunt prima principia cognitionis  humanae.
+            <lb ed="#L" n="49"/>Et ideo nihil prohibet hominem secundum 
+            ra<lb break="no" ed="#L" n="50"/>tionem apprehendere aliquid de novo in 
+            dor<lb break="no" ed="#L" n="51"/>miendo: vel ex ipsis reliquiis praecedentium 
+            co<lb break="no" ed="#L" n="52"/>gitationum et phantasmatibus oblatis, vel etiam
+            <lb ed="#L" n="53"/>ex revelatione divina, aut immissione angeli boni
+            <lb ed="#L" n="54"/>vel mali.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2068-Dd1e1821"><!-- p2p2-q154a6 -->
+          <head xml:id="TAca84-d1e2068-Hd1e1824">Articulus 6</head>
+          <head xml:id="TAca84-d1e2068-Hd1e1826" type="question-title">Utrum stuprum debeat poni una species luxuriae</head>
+          <p xml:id="TAca84-d1e2068-d1e1829">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="29" type="fixed=231"/>ARTICULUS SEXTUS
+            <lb ed="#L" n="30"/>UTRUM STUPRUM DEBEAT PONI UNA SPECIES LUXURIAE
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1838">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="31"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="32"/>stuprum non debeat poni una species
+            <lb ed="#L" n="33"/>luxuriae. Stuprum enim importat 
+            illici<lb break="no" ed="#L" n="34"/>tam virginum deflorationem ; ut habetur
+            <lb ed="#L" n="35"/>in <ref xml:id="TAca84-d1e2068-Rd1e1853">Decretis, XXXVI Caus., qu. i.</ref>  Sed hoc potest
+            <lb ed="#L" n="36"/>esse soluti cum soluta, quod pertinet ad 
+            forni<lb break="no" ed="#L" n="37"/>cationem, Ergo stuprum non debet poni species
+            <lb ed="#L" n="38"/>luxuriae a fornicatione distincta.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1862">
+            <lb ed="#L" n="39"/>2. PRaETEREA, <ref xml:id="TAca84-d1e2068-Rd1e1866">Ambrosius dicit, in libro de
+              <lb ed="#L" n="40"/>Patriarchis</ref> : Nemo sibi blandiatur de legibus
+            <lb ed="#L" n="41"/>hominum : omne stuprum adulterium est. Sed 
+            spe<lb break="no" ed="#L" n="42"/>cierum ex opposito divisarum  una non 
+            conti<lb break="no" ed="#L" n="43"/>netur sub alia. Cum ergo adulterium ponatur
+            <lb ed="#L" n="44"/>species luxuriae, videtur quod stuprum species
+            <lb ed="#L" n="45"/>luxuriae poni non debet.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1884">
+            <lb ed="#L" n="46"/>3. PRAETEREA, inferre alicui iniuriam videtur
+            <lb ed="#L" n="47"/>magis ad iniustitiam quam ad luxuriam pertinere.
+            <lb ed="#L" n="48"/>Sed ille qui stuprum committit, iniuriam facit
+            <lb ed="#L" n="49"/>alteri, scilicet patri puellae quam corrumpit, qui
+            <lb ed="#L" n="50"/>potest ad animum suam iniuriam ? revocare , et
+            <lb ed="#L" n="51"/>agere actione iniuriarum contra stupratorem. Ergo
+            <lb ed="#L" n="52"/>stuprum non debet poni species luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1902">
+            <lb ed="#L" n="53"/>SED CONTRA EST quod stuprum proprie 
+            consi<lb break="no" ed="#L" n="54"/>stit in actu. venereo quo virgo defloratur. Cum
+            <lb ed="#L" n="55"/>igitur luxuria proprie sit circa venerea, videtur
+            <lb ed="#L" n="56"/>quod stuprum sit species luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1913">
+            <lb ed="#L" n="57"/>RESPONDEO DICENDUM quod ubi circa materiam
+            <lb ed="#L" n="58"/>alicuius vitii occurrit aliqua specialis deformitas,
+            <lb ed="#L" n="59"/>ibi debet poni determinata species illius vitii.
+            <lb ed="#L" n="60"/>Luxuria autem est peccatum circa venerea 
+            exi<lb break="no" ed="#L" n="61"/>stens, ut supra  dictum est. In virgine autem
+            <lb ed="#L" n="62"/>sub custodia patris existente quaedam deformitas
+            <lb ed="#L" n="63"/>specialis occurrit si corrumpatur. Tum ex parte
+            <lb ed="#L" n="64"/>puellae, quae, ex hoc quod violatur, nulla pactione
+            <lb ed="#L" n="65"/>coniugali praecedente, impeditur a legitimo 
+            ma<lb break="no" ed="#L" n="66"/>trimonio consequendo, et ponitur in via 
+            mere<lb break="no" ed="#L" n="67"/>tricandi, a quo retrahebatur ne signaculum 
+            vir<lb break="no" ed="#L" n="68"/>ginitatis amitteret. Tum etiam ex parte patris, qui
+            <lb ed="#L" n="69"/>de eius custodia sollicitudinem gerit: secundum
+            <lb ed="#L" n="70"/>illud Eccli. xyu : Super filiam luxuriosam 
+            con<lb break="no" ed="#L" n="71"/>firma custodiam, nequando faciat te in opprobrium
+            <lb ed="#L" n="72"/>venire inimicis. Et ideo manifestum est quod 
+            stu<lb break="no" ed="#L" n="73"/>prum, quod importat illicitam virginum 
+            deflora<lb break="no" ed="#L" n="74"/>tionem sub cura parentum existentium , est 
+            de<lb break="no" ed="#L" n="75"/>terminate  luxuriae species.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1957">
+            <lb ed="#L" n="76"/>AD PRIMUM ERGO DICENDUM quod, quamvis virgo
+            <lb ed="#L" n="77"/>sit soluta a vinculo matrimoniali non tamen
+            <lb ed="#L" n="78"/>est soluta a patria potestate. Habet etiam 
+            spe<lb break="no" ed="#L" n="79"/>ciale impedimentum fornicarii concubitus 
+            virgi<lb break="no" ed="#L" n="80"/>nitatis signum, quod non debet nisi per 
+            matri<lb break="no" ed="#L" n="81"/>monium auferri. Unde stuprum non est fornicatio
+            <lb ed="#L" n="82"/>simplex, sed concubitus qui fif cum meretricibus,
+            <lb ed="#L" n="83"/>idest mulieribus iam corruptis: ut patet per 
+            Glos<lb break="no" ed="#L" n="84"/>sam , Il ad Cor. xu, super illud , Qui non 
+            ege<lb break="no" ed="#L" n="85"/>runt poenitentiam super immunditia et 
+            fornica<lb break="no" ed="#L" n="86"/>tione etc.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e1983">
+            <lb ed="#L" n="87"/>AD SECUNDUM DICENDUM quod Ambrosius ibi 
+            ali<lb break="no" ed="#L" n="88"/>ter accipit stuprum, prout scilicet. communiter
+            <lb ed="#L" n="89"/>sumitur pro omni peccato luxuriae. Unde 
+            stu<lb break="no" ed="#L" n="90"/>prum ibi nominat concubitum viri coniugati cum
+            <lb ed="#L" n="91"/>quacumque alia muliere praeter uxorem. Quod
+            <lb ed="#L" n="92"/>patet ex hoc quod subdit: Nec viro licet quod
+            <lb ed="#L" n="93"/>mulieri non licet. Et hoc modo etiam accipitur
+            <lb ed="#L" n="94"/>Num. v , ubi dicitur: Si latet adulterium, et 
+            te<lb break="no" ed="#L" n="95"/>stibus argui non potest, quia non est inventa in
+            <lb ed="#L" n="96"/>stupro, etc.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2007">
+            <lb ed="#L" n="97"/>AD TERTIUM DICENDUM quod nihil prohibet unum
+            <lb ed="#L" n="98"/>peccatum ex adiunctione alterius deformius fieri.
+            <lb ed="#L" n="99"/>Fit autem deformius peccatum luxuriae ex 
+            pec<lb break="no" ed="#L" n="100"/>cato iniustitiae: quia videtur concupiscentia esse
+            <lb ed="#L" n="101"/>inordinatior quae a delectabili non abstinet ut 
+            in<lb break="no" ed="#L" n="102"/>iuriam vitet. Habet autem duplicem iniuriam 
+            an<lb break="no" ed="#L" n="103"/>nexam. Unam quidem ex parte virginis: quam
+            <lb ed="#L" n="104"/>etsi non vi corrumpat, tamen eam seducit; et
+            <lb ed="#L" n="105"/>sic tenetur ei satisfacere. Unde dicitur Exod. xxu:
+            <lb ed="#L" n="106"/>Si seduxerit quis virginem nondum desponsatam,
+            <lb ed="#L" n="107"/>dormieritque cum ea, dotabit eam, et habebit 
+            uxo<lb break="no" ed="#L" n="108"/>rem. Si autem. pater virginis dare noluerit, 
+            red<lb break="no" ed="#L" n="109"/>det pecuniam iuxta modum dotis quam virgines
+            <lb ed="#L" n="110"/>accipere consueverunt. — Aliam vero iniuriam facit
+            <lb ed="#L" n="111"/>patri puellae. Unde et ei secundum legem tenetur
+            <lb ed="#L" n="112"/>ad poenam. Dicitur enim Deut. xxu : Si inve-
+            <pb ed="#L" n="232"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>nerit vir puellam virginem, quae non habet 
+            spon<lb break="no" ed="#L" n="2"/>sum, et apprehendens concubuerit cum illa, et res
+            <lb ed="#L" n="3"/>ad iudicium venerit, dabit qui dormivit cum ea
+            <lb ed="#L" n="4"/>patri puellae  quinquaginta siclos argenti, et ha-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="5"/>bebit eam uxorem: et quia humiliavit illam, non
+            <lb ed="#L" n="6"/>poterit dimittere eam cunctis diebus vitae suae.
+            <lb ed="#L" n="7"/>Et hoc ideo, ne videatur ludibrium fecisse, ut
+            <lb ed="#L" n="8"/>Augustinus dicit ,
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2068-Dd1e2069"><!-- p2p2-q154a7 -->
+          <head xml:id="TAca84-d1e2068-Hd1e2072">Articulus 7</head>
+          <head xml:id="TAca84-d1e2068-Hd1e2074" type="question-title">Utrum raptus sit species luxuriae distincta a stupro</head>
+          <p xml:id="TAca84-d1e2068-d1e2077">
+            <pb ed="#L" n="234"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=234"/>ARTICULUS SEPTIMUS
+            <lb ed="#L" n="2"/>UTRUM RAPTUS SIT SPECIES LUXURIAE DISTINCTA A STUPRO
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2088">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>raptus non sit species luxuriae distincta
+            <lb ed="#L" n="5"/>a stupro. Dicit enim Isidorus, in libro
+            <lb ed="#L" n="6"/>Etymol. , quod stuprum, idest raptus ,
+            <lb ed="#L" n="7"/>proprie est illicitus coitus, a corrumpendo dictus:
+            <lb ed="#L" n="8"/>unde et qui raptu  potitur, stupro fruitur. Ergo
+            <lb ed="#L" n="9"/>videtur quod raptus non debeat poni species 
+            lu<lb break="no" ed="#L" n="10"/>xuriae distincta a stupro.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2110">
+            <lb ed="#L" n="11"/>2. PRAETEREA, raptus videtur quandam 
+            violen<lb break="no" ed="#L" n="12"/>tiam importare: dicitur enim in Decretis, XXXVI
+            <lb ed="#L" n="13"/>Caus., qu. 1, quod raptus committitur cum puella
+            <lb ed="#L" n="14"/>violenter a domo patris abducitur, ut, corrupta, in
+            <lb ed="#L" n="15"/>uxorem habeatur. Sed hoc quod violentia alicui
+            <lb ed="#L" n="16"/>inferatur, per accidens se habet ad luxuriam, quae
+            <lb ed="#L" n="17"/>per se respicit delectationem concubitus. Ergo
+            <lb ed="#L" n="18"/>videtur quod raptus non debeat poni 
+            determi<lb break="no" ed="#L" n="19"/>nata species luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2133">
+            <lb ed="#L" n="20"/>3. PRAETEREA, peccatum luxuriae per 
+            matri<lb break="no" ed="#L" n="21"/>monium cohibetur: dicitur enim I ad Cor. vii :
+            <lb ed="#L" n="22"/>Propier fornicationem , unusquisque suam 9 
+            ha<lb break="no" ed="#L" n="23"/>beat. Sed raptus impedit matrimonium sequens:
+            <lb ed="#L" n="24"/>dicitur enim in Concilio Meldensi : P/acuit ut hi
+            <lb ed="#L" n="25"/>qui rapiunt feminas, vel furantur vel seducunt,
+            <lb ed="#L" n="26"/>eas nullatenus habeant uxores, quamvis eas 
+            post<lb break="no" ed="#L" n="27"/>modum nuptialiter cum consensu parentum 
+            suo<lb break="no" ed="#L" n="28"/>rum susceperint. Ergo raptus non est 
+            determi<lb break="no" ed="#L" n="29"/>nata species luxuriae a stupro distincta '.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2157">
+            <lb ed="#L" n="30"/>4. PRAETEREA, aliquis potest cognoscere suam
+            <lb ed="#L" n="31"/>sponsam absque peccato luxuriae. Sed raptus
+            <lb ed="#L" n="32"/>potest committi si aliquis violenter sponsam suam
+            <lb ed="#L" n="33"/>auferat de domo parentum et eam carnaliter 
+            co<lb break="no" ed="#L" n="34"/>gnoscat. Ergo raptus non debet poni 
+            determi<lb break="no" ed="#L" n="35"/>nata species luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2173">
+            <lb ed="#L" n="36"/>SEp coNTRA EsT quod raptus est illicitus coitus,
+            <lb ed="#L" n="37"/>ut Isidorus dicit . Sed hoc pertinet ad peccatum
+            <lb ed="#L" n="38"/>luxuriae. Ergo raptus est species luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2182">
+            <lb ed="#L" n="39"/>RESPONDEO DICENDUM quod raptus, prout nunc
+            <lb ed="#L" n="40"/>de eo loquimur, est species luxuriae. Et 
+            quan<lb break="no" ed="#L" n="41"/>doque quidem in idem concurrit cum stupro;
+            <lb ed="#L" n="42"/>quandoque autem invenitur raptus sine stupro;
+            <lb ed="#L" n="43"/>quandoque vero stuprum sine raptu. Concurrunt
+            <lb ed="#L" n="44"/>quidem in idem, quando aliquis violentiam infert
+            <lb ed="#L" n="45"/>ad virginem illicite deflorandam. Quae quidem
+            <lb ed="#L" n="46"/>violentia quandoque ? infertur tam ipsi virgini
+            <lb ed="#L" n="47"/>quam patri: quandoque autem infertur patri, sed
+            <lb ed="#L" n="48"/>non virgini, puta cum ipsa consentit ut per 
+            vio<lb break="no" ed="#L" n="49"/>lentiam de domo patris abstrahatur. Differt etiam
+            <lb ed="#L" n="50"/>violentia raptus  alio modo: quia quandoque
+            <lb ed="#L" n="51"/>puella violenter abducitur a domo parentum et
+            <lb ed="#L" n="52"/>violenter corrumpitur; quandoque autem, etsi
+            <lb ed="#L" n="53"/>violenter abducatur, non tamen violenter cor-
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="54"/>rumpitur, sed de voluntate virginis, sive 
+            corrum<lb break="no" ed="#L" n="55"/>patur fornicario concubitu, sive matrimoniali.
+            <lb ed="#L" n="56"/>Qualitercumque enim violentia adsit, salvatur
+            <lb ed="#L" n="57"/>ratio raptus. - Invenitur autem raptus sine 
+            stu<lb break="no" ed="#L" n="58"/>pro: puta si aliquis rapiat viduam vel puellam
+            <lb ed="#L" n="59"/>corruptam. Unde Symmachus Papa dicit : 
+            Ra<lb break="no" ed="#L" n="60"/>ptores viduarum vel virginum , ob immanitatem
+            <lb ed="#L" n="61"/>facinoris tanti, detestamur. - Stuprum vero sine
+            <lb ed="#L" n="62"/>raptu invenitur, quando aliquis absque violentiae
+            <lb ed="#L" n="63"/>illatione virginem illicite deflorat.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2241">
+            <lb ed="#L" n="64"/>AD PRIMUM ERGO DICENDUM quod, quia raptus
+            <lb ed="#L" n="65"/>plerumque cum stupro in idem concurrit, ideo
+            <lb ed="#L" n="66"/>quandoque unum pro alio ponitur.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2250">
+            <lb ed="#L" n="67"/>AD SECUNDUM DICENDUM quod illatio violentiae
+            <lb ed="#L" n="68"/>videtur procedere ex magnitudine 
+            concupiscen<lb break="no" ed="#L" n="69"/>tiae, ex qua aliquis non refugit periculo se 
+            inii<lb break="no" ed="#L" n="70"/>cere  violentiae inferendae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2262">
+            <lb ed="#L" n="71"/>AD TERTIUM DICENDUM quod aliter est dicendum
+            <lb ed="#L" n="72"/>in ^ raptu puellarum quae sunt aliis desponsatae,
+            <lb ed="#L" n="73"/>et aliter de raptu illarum quae non sunt aliis 
+            de<lb break="no" ed="#L" n="74"/>sponsatae. lllae enim quae sunt aliis 
+            desponsa<lb break="no" ed="#L" n="75"/>tae, restituendae sunt sponsis, qui in eis ex ipsa
+            <lb ed="#L" n="76"/>desponsatione ius habent. lllae autem quae non
+            <lb ed="#L" n="77"/>sunt aliis desponsatae, restituendae sunt primo
+            <lb ed="#L" n="78"/>patriae potestati: et tunc, de voluntate parentum,
+            <lb ed="#L" n="79"/>licite possunt eas in uxores accipere. Si tamen
+            <lb ed="#L" n="80"/>aliter fiat, illicite matrimonium contrahitur: 
+            te<lb break="no" ed="#L" n="81"/>netur enim quicumque ? rem rapit, ad eius 
+            resti<lb break="no" ed="#L" n="82"/>tutionem. Nec tamen raptus dirimit matrimonium
+            <lb ed="#L" n="83"/>iam contractum, etsi impediat contrahendum.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2293">
+            <lb ed="#L" n="84"/>Quod autem dicitur in praedicto Concilio, 
+            di<lb break="no" ed="#L" n="85"/>ctum est in detestationem illius criminis, et est
+            <lb ed="#L" n="86"/>abrogatum '. Unde Hieronymus  contrarium 
+            di<lb break="no" ed="#L" n="87"/>cit. 7ria, inquit, legitima coniugia in Scripturis 
+            <lb ed="#L" n="88"/>leguntur. Primum est, virgo casta in virginitate
+            <lb ed="#L" n="89"/>viro daía legitime. Secundum est, virgo in 
+            civi<lb break="no" ed="#L" n="90"/>late deprehensa a viro et illi per vim copulata:
+            <lb ed="#L" n="91"/>si voluerit pater eius, dotabit eam iste vir 
+            quan<lb break="no" ed="#L" n="92"/>lum iudicaverit pater, et dabit pretium. pudicitiae
+            <lb ed="#L" n="93"/>eius. Tertium autem est, quando aufertur ei et
+            <lb ed="#L" n="94"/>alteri traditur de voluntate patris. - Vel potest
+            <lb ed="#L" n="95"/>intelligi de illis quae sunt aliis desponsatae: et
+            <lb ed="#L" n="96"/>maxime per verba de praesenti.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2324">
+            <lb ed="#L" n="97"/>AD QUARTUM DICENDUM quod sponsus ex ipsa
+            <lb ed="#L" n="98"/>desponsatione habet aliquod ius in sua sponsa.
+            <lb ed="#L" n="99"/>Et ideo, quamvis peccet violentiam inferendo,
+            <lb ed="#L" n="100"/>excusatur tamen a crimine raptus. Unde 
+            Gela<lb break="no" ed="#L" n="101"/>sius Papa dicit : Lex illa praeteritorum 
+            Princi<lb break="no" ed="#L" n="102"/>pum  ibi raptum dixit esse commissum, ubi puella
+            <lb ed="#L" n="103"/>de cuius nuptiis nihil actum fuerat, videbatur. 
+            ab<lb break="no" ed="#L" n="104"/>ducta.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2068-Dd1e2345"><!-- p2p2-q154a8 -->
+          <head xml:id="TAca84-d1e2068-Hd1e2348">Articulus 8</head>
+          <head xml:id="TAca84-d1e2068-Hd1e2350" type="question-title">Utrum adulterium sit determinata species luxuriae ab aliis distincta</head>
+          <p xml:id="TAca84-d1e2068-d1e2353">
+            <pb ed="#L" n="236"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=236"/>ARTICULUS OCTAVUS
+            <lb ed="#L" n="2"/>UTRUM ADULTERIUM SIT DETERMINATA SPECIES LUXURIAE AB ALIIS DISTINCTA
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2364">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>adulterium non sit determinata species
+            <lb ed="#L" n="5"/>luxuriae ab aliis distincta. Dicitur enim
+            <lb ed="#L" n="6"/>adulterium ex eo quod aliquis ad 
+            alte<lb break="no" ed="#L" n="7"/>ram accedit praeter suam, sicut dicit quaedam
+            <lb ed="#L" n="8"/>glossa super Exodum. Sed alia mulier praeter
+            <lb ed="#L" n="9"/>suam potest esse diversarum conditionum: 
+            sci<lb break="no" ed="#L" n="10"/>licet vel virgo in  potestate patris existens, vel
+            <lb ed="#L" n="11"/>meretrix, vel cuiuscumque alterius conditionis.
+            <lb ed="#L" n="12"/>Ergo videtur quod adulterium non sit species 
+            lu<lb break="no" ed="#L" n="13"/>xuriae ab aliis distincta.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2393">
+            <lb ed="#L" n="14"/>2. PRAETEREA, Hieronymus dicit  quod nihil
+            <lb ed="#L" n="15"/>interest ex qua causa quis insaniat. Unde Sixtus
+            <lb ed="#L" n="16"/>Pythagoricus: « Adulter », inquit, « est amator
+            <lb ed="#L" n="17"/>ardentior in suam uxorem ». Et pari ratione, in
+            <lb ed="#L" n="18"/>quamlibet aliam mulierem. Sed in omni luxuria
+            <lb ed="#L" n="19"/>est amor ardentior debito. Ergo adulterium 
+            in<lb break="no" ed="#L" n="20"/>venitur in omni luxuria. Non ergo debet poni
+            <lb ed="#L" n="21"/>luxuriae species.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2414">
+            <lb ed="#L" n="22"/>3. PRAETEREA, ubi est eadem ratio deformitatis,
+            <lb ed="#L" n="23"/>ibi non videtur esse alia species peccati. Sed in
+            <lb ed="#L" n="24"/>stupro et adulterio videtur esse eadem ratio 
+            de<lb break="no" ed="#L" n="25"/>formitatis: quia utrobique violatur mulier alienae
+            <lb ed="#L" n="26"/>potestati subiecta. Ergo adulterium non est 
+            de<lb break="no" ed="#L" n="27"/>terminata species luxuriae ab aliis distincta.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2430">
+            <lb ed="#L" n="28"/>SEp cowTRA EsT quod Leo Papa  dicit quod
+            <lb ed="#L" n="29"/>adulterium committitur cum, propriae libidinis 
+            in<lb break="no" ed="#L" n="30"/>stinctu vel alienae consensu, cum altero vel altera
+            <lb ed="#L" n="31"/>contra pactum coniugale concumbitur. Sed hoc
+            <lb ed="#L" n="32"/>importat specialem deformitatem luxuriae. Ergo
+            <lb ed="#L" n="33"/>adulterium est determinata species luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2446">
+            <lb ed="#L" n="34"/>RESPONDEO DICENDUM quod adulterium, sicut
+            <lb ed="#L" n="35"/>ipsum nomen sonat, est accessus ad alienum 
+            to<lb break="no" ed="#L" n="36"/>rum . In quo quidem dupliciter contra 
+            castita<lb break="no" ed="#L" n="37"/>tem et ? humanae generationis bonum aliquis
+            <lb ed="#L" n="38"/>delinquit: primo quidem, inquantum accedit ad
+            <lb ed="#L" n="39"/>mulierem non sibi matrimonio copulatam, quod
+            <lb ed="#L" n="40"/>requiritur ad bonum prolis propriae educandae;
+            <lb ed="#L" n="41"/>alio modo, quia accedit ad mulierem alteri per
+            <lb ed="#L" n="42"/>matrimonium copulatam, et sic impedit bonum
+            <lb ed="#L" n="43"/>prolis alienae. Eadem ratio est de muliere 
+            con<lb break="no" ed="#L" n="44"/>iugata quae per adulterium corrumpitur. Unde
+            <lb ed="#L" n="45"/>dicitur Eccli. xxui : Omnis mulier relinquens
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="46"/>virum suum, peccabit: primo enim, in lege 
+            Altis<lb break="no" ed="#L" n="47"/>simi incredibilis fuit, in qua scilicet praecipitur,
+            <lb ed="#L" n="48"/>« Non moechaberis »; et  secundo, virum suum
+            <lb ed="#L" n="49"/>derelinquit, in quo facit contra certitudinem prolis
+            <lb ed="#L" n="50"/>eius; fertio, in adulterio fornicata est, et ex alio
+            <lb ed="#L" n="51"/>viro filios statuit sibi, quod est contra bonum 
+            pro<lb break="no" ed="#L" n="52"/>priae prolis. Sed primum est commune in 
+            omni<lb break="no" ed="#L" n="53"/>bus peccatis mortalibus: alia vero duo specialiter
+            <lb ed="#L" n="54"/>pertinent ad deformitatem adulterii. Unde 
+            mani<lb break="no" ed="#L" n="55"/>festum est quod adulterium est determinata 
+            spe<lb break="no" ed="#L" n="56"/>cies luxuriae , utpote specialem deformitatem
+            <lb ed="#L" n="57"/>habens circa actus venereos.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2503">
+            <lb ed="#L" n="58"/>AD PRIMUM ERGO DICENDUM quod ille qui habet
+            <lb ed="#L" n="59"/>uxorem, si ad aliam accedit, peccatum eius 
+            po<lb break="no" ed="#L" n="60"/>test denominari vel ex parte sua, et sic semper
+            <lb ed="#L" n="61"/>est adulterium, quia contra fidem matrimonii agit:
+            <lb ed="#L" n="62"/>vel ex parte mulieris ad quam accedit. Et sic 
+            quan<lb break="no" ed="#L" n="63"/>doque est adulterium, puta cum coniugatus 
+            acce<lb break="no" ed="#L" n="64"/>dit ad uxorem alterius: quandoque autem habet
+            <lb ed="#L" n="65"/>rationem stupri, vel alicuius alterius, secundum 
+            di<lb break="no" ed="#L" n="66"/>versas conditiones mulierum ad quas accedit. 
+            Di<lb break="no" ed="#L" n="67"/>ctum est autem supra  quod species luxuriae 
+            acci<lb break="no" ed="#L" n="68"/>piuntur secundum diversas mulierum conditiones.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2529">
+            <lb ed="#L" n="69"/>AD SECUNDUM DICENDUM quod matrimonium 
+            spe<lb break="no" ed="#L" n="70"/>cialiter est ordinatum ad bonum humanae prolis;
+            <lb ed="#L" n="71"/>sicut dictum est . Adulterium autem specialiter
+            <lb ed="#L" n="72"/>matrimonio contrariatur: inquantum violat 
+            ma<lb break="no" ed="#L" n="73"/>trimonii fidem, quam quis coniugi debet. Et quia
+            <lb ed="#L" n="74"/>ille qui est ardentior amator uxoris, facit contra
+            <lb ed="#L" n="75"/>bonum matrimonii, inhoneste eo utens, licet 
+            fi<lb break="no" ed="#L" n="76"/>dem non violet; ideo aliqualiter potest adulter
+            <lb ed="#L" n="77"/>nominari; et magis quam ? ille qui est ardentior
+            <lb ed="#L" n="78"/>amator alterius mulieris .
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2553">
+            <lb ed="#L" n="79"/>AD TERTIUM DICENDUM quod uxor est in 
+            pote<lb break="no" ed="#L" n="80"/>state viri sicut ei matrimonio copulata: puella
+            <lb ed="#L" n="81"/>autem est sub potestate patris sicut per eum 
+            ma<lb break="no" ed="#L" n="82"/>trimonio copulanda. Et ideo alio modo contra
+            <lb ed="#L" n="83"/>bonum matrimonii est peccatum adulterii, et alio
+            <lb ed="#L" n="84"/>modo peccatum stupri. Et propter hoc ponuntur
+            <lb ed="#L" n="85"/>diversae luxuriae species.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2572">
+            <lb ed="#L" n="86"/>De aliis autem ad adulterium pertinentibus 
+            di<lb break="no" ed="#L" n="87"/>cetur in Tertia Parte, cum de matrimonio 
+            tra<lb break="no" ed="#L" n="88"/>ctabitur.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2068-Dd1e2583"><!-- p2p2-q154a9 -->
+          <head xml:id="TAca84-d1e2068-Hd1e2586">Articulus 9</head>
+          <head xml:id="TAca84-d1e2068-Hd1e2588" type="question-title">Utrum incestus sit species determinata luxuriae</head>
+          <p xml:id="TAca84-d1e2068-d1e2591">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="99" type="fixed=237"/>ARTICULUS NONUS
+            <lb ed="#L" n="100"/>UTRUM INCESTUS SIT SPECIES DETERMINATA LUXURIAE
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2600">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="101"/>AD NONUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="102"/>incestus non sit species determinata 
+            lu<lb break="no" ed="#L" n="103"/>xuriae. Incestus enim dicitur per 
+            pri<lb break="no" ed="#L" n="104"/>vationem castitatis. Sed castitati 
+            uni<lb break="no" ed="#L" n="105"/>versaliter opponitur luxuria. Ergo videtur quod
+            <lb ed="#L" n="106"/>incestus non sit species luxuriae, sed sit 
+            univer<lb break="no" ed="#L" n="107"/>saliter ipsa luxuria.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2620">
+            <lb ed="#L" n="108"/>2. PRAETEREA, in Decretis dicitur, XXXVI, qu.
+            <lb ed="#L" n="109"/>1 , quod incestus est. consanguinearum vel 
+            affi<lb break="no" ed="#L" n="110"/>nium abusus. Sed affinitas differt a. 
+            consanguini<lb break="no" ed="#L" n="111"/>tate. Ergo incestus non est una species luxuriae,
+            <lb ed="#L" n="112"/>sed plures.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2634">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="113"/>3. PRAETEREA, illud quod de se non importat
+            <lb ed="#L" n="114"/>aliquam deformitatem, non constituit aliquam
+            <lb ed="#L" n="115"/>determinatam speciem vitii. Sed accedere ad
+            <lb ed="#L" n="116"/>consanguineas vel affines non est secundum se
+            <lb ed="#L" n="117"/>deforme: alias, nullo tempore licuisset. Ergo 
+            in<lb break="no" ed="#L" n="118"/>cestus non est determinata species luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2652">
+            <lb ed="#L" n="119"/>SED coNTRA EsT quod species luxuriae 
+            distin<lb break="no" ed="#L" n="120"/>guuntur secundum conditiones mulierum quibus
+            <lb ed="#L" n="121"/>aliqui abutuntur. Sed incestu importatur specialis
+            <lb ed="#L" n="122"/>conditio mulierum: quia est abusus 
+            consangui<lb break="no" ed="#L" n="123"/>nearum vel affinium, ut dictum est . Ergo 
+            in<lb break="no" ed="#L" n="124"/>cestus est determinata species luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2668">
+            <pb ed="#L" n="238"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>RESPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="2"/>ibi necesse est inveniri determinatam speciem
+            <lb ed="#L" n="3"/>luxuriae, ubi invenitur aliquid repugnans debito
+            <lb ed="#L" n="4"/>usui venereorum. In usu autem 
+            consanguinea<lb break="no" ed="#L" n="5"/>rum vel affinium invenitur aliquid incongruum
+            <lb ed="#L" n="6"/>commixtioni venereae, triplici ratione. Primo 
+            qui<lb break="no" ed="#L" n="7"/>dem, quia naturaliter homo debet quandam 
+            ho<lb break="no" ed="#L" n="8"/>norificentiam parentibus, et " per consequens aliis
+            <lb ed="#L" n="9"/>consanguineis, qui ex eisdem parentibus de 
+            pro<lb break="no" ed="#L" n="10"/>pinquo originem trahunt: in tantum quod apud
+            <lb ed="#L" n="11"/>antiquos, ut Maximus Valerius refert , non erat
+            <lb ed="#L" n="12"/>fas filium simul cum patre balneari, ne scilicet
+            <lb ed="#L" n="13"/>se ? invicem nudos conspicerent. Manifestum est
+            <lb ed="#L" n="14"/>autem secundum praedicta  quod in actibus 
+            ve<lb break="no" ed="#L" n="15"/>nereis maxime consistit quaedam turpitudo 
+            ho<lb break="no" ed="#L" n="16"/>norificentiae contraria: unde de his homines 
+            ve<lb break="no" ed="#L" n="17"/>recundantur. Et ideo incongruum est quod 
+            com<lb break="no" ed="#L" n="18"/>mixtio  venerea fiat talium personarum ad 
+            invi<lb break="no" ed="#L" n="19"/>cem. Et haec causa videtur exprimi Levit. xvii ,
+            <lb ed="#L" n="20"/>ubi dicitur: Mater tua est: non revelabis 
+            turpi<lb break="no" ed="#L" n="21"/>tudinem eius. Et idem postea dicit  in aliis.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2720">
+            <lb ed="#L" n="22"/>Secunda ratio est quia personas sanguine 
+            con<lb break="no" ed="#L" n="23"/>iunctas necesse est ad invicem simul conversari.
+            <lb ed="#L" n="24"/>Unde si homines non arcerentur a commixtione
+            <lb ed="#L" n="25"/>venerea, nimia opportunitas daretur hominibus
+            <lb ed="#L" n="26"/>venereae commixtionis: et sic animi hominum
+            <lb ed="#L" n="27"/>nimis emollescerent per luxuriam. Et ideo in 
+            ve<lb break="no" ed="#L" n="28"/>teri lege illae personae specialiter videntur esse
+            <lb ed="#L" n="29"/>prohibitae quas necesse est simul commorari .
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2740">
+            <lb ed="#L" n="30"/>Tertia ratio est quia per hoc impediretur 
+            mul<lb break="no" ed="#L" n="31"/>tiplicatio amicorum: dum enim homo uxorem
+            <lb ed="#L" n="32"/>extraneam accipit, iunguntur sibi quadam 
+            spe<lb break="no" ed="#L" n="33"/>ciali amicitia omnes consanguinei uxoris, ac si
+            <lb ed="#L" n="34"/>essent consanguinei sui. Unde Augustinus dicit,
+            <lb ed="#L" n="35"/>XV de Civ. Dei : Habita est ratio rectissima 
+            ca<lb break="no" ed="#L" n="36"/>ritatis ut homines, quibus esset utilis atque 
+            hone<lb break="no" ed="#L" n="37"/>sta concordia, diversarum vicissitudinum ^ vinculis
+            <lb ed="#L" n="38"/>necterentur, nec unus in uno multas haberet, sed
+            <lb ed="#L" n="39"/>singulae spargerentur in singulos.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2764">
+            <lb ed="#L" n="40"/>Addit autem Aristoteles quartam rationem, in
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="41"/>II Politic. : quia cum naturaliter homo 
+            consan<lb break="no" ed="#L" n="42"/>guineam diligat, si adderetur amor qui est ex
+            <lb ed="#L" n="43"/>commixtione venerea, fieret nimius ardor 
+            amo<lb break="no" ed="#L" n="44"/>ris, et maximum libidinis incentivum ; quod 
+            ca<lb break="no" ed="#L" n="45"/>stitati repugnat.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2783">
+            <lb ed="#L" n="46"/>Unde manifestum est quod incestus est 
+            deter<lb break="no" ed="#L" n="47"/>minata luxuriae species.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2790">
+            <lb ed="#L" n="48"/>AD PRIMUM ERGO DICENDUM quod abusus 
+            coniun<lb break="no" ed="#L" n="49"/>ctarum personarum maxime induceret 
+            corrupte<lb break="no" ed="#L" n="50"/>lam castitatis: tum propter opportunitatem; tum
+            <lb ed="#L" n="51"/>etiam propter nimium ardorem amoris, ut 
+            di<lb break="no" ed="#L" n="52"/>ctum est . Et ideo antonomastice abusus talium
+            <lb ed="#L" n="53"/>personarum vocatur incestus.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2806">
+            <lb ed="#L" n="54"/>AD SECUNDUM DICENDUM quod persona affinis
+            <lb ed="#L" n="55"/>coniungitur alicui propter personam 
+            consangui<lb break="no" ed="#L" n="56"/>nitate coniunctam. Et ideo, quia unum est 
+            pro<lb break="no" ed="#L" n="57"/>pter alterum, eiusdem rationis inconvenientiam
+            <lb ed="#L" n="58"/>facit consanguinitas et affinitas. :
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2819">
+            <lb ed="#L" n="59"/>AD TERTIUM DICENDUM quod in  commixtione
+            <lb ed="#L" n="60"/>personarum coniunctarum aliquid est quod est
+            <lb ed="#L" n="61"/>secundum se indecens et repugnans naturali 
+            ra<lb break="no" ed="#L" n="62"/>tioni, sicut quod commixtio fiat inter parentes et
+            <lb ed="#L" n="63"/>filios, quorum est per se et immediata cognatio:
+            <lb ed="#L" n="64"/>nam filii naturaliter honorem debent parentibus.
+            <lb ed="#L" n="65"/>Unde Philosophus dicit, in IX de Animal. , quod
+            <lb ed="#L" n="66"/>quidam equus, quia deceptus fuit ut matri 
+            com<lb break="no" ed="#L" n="67"/>misceretur, seipsum praecipitavit, quasi prae 
+            hor<lb break="no" ed="#L" n="68"/>rore, eo quod etiam animalibus aliquibus inest
+            <lb ed="#L" n="69"/>naturalis reverentia ad parentes.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2845">
+            <lb ed="#L" n="70"/>Aliae vero personae quae non coniunguntur
+            <lb ed="#L" n="71"/>secundum seipsas, sed per ordinem ad parentes,
+            <lb ed="#L" n="72"/>non habent ita ex seipsis indecentiam: sed 
+            va<lb break="no" ed="#L" n="73"/>riatur circa hoc decentia vel indecentia 
+            secun<lb break="no" ed="#L" n="74"/>dum consuetudinem et legem humanam vel 
+            di<lb break="no" ed="#L" n="75"/>vinam. Quia, ut dictum est , usus venereorum,
+            <lb ed="#L" n="76"/>quia ordinatur ad bonum commune, subiacet
+            <lb ed="#L" n="77"/>legi. Et ideo, sicut Augustinus dicit, XV de Civ.
+            <lb ed="#L" n="78"/>Dei , commixtio  sororum et fratrum, quanto
+            <lb ed="#L" n="79"/>fuit antiquior, compellente necessitate, tanto 
+            post<lb break="no" ed="#L" n="80"/>ea facta est damnabilior, religione prohibente.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2068-Dd1e2872"><!-- p2p2-q154a10 -->
+          <head xml:id="TAca84-d1e2068-Hd1e2875">Articulus 10</head>
+          <head xml:id="TAca84-d1e2068-Hd1e2877" type="question-title">Utrum sacrilegium possit esse species luxuriae</head>
+          <p xml:id="TAca84-d1e2068-d1e2880">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="32" type="fixed=242"/>ARTICULUS DECIMUS
+            <lb ed="#L" n="33"/>UTRUM SACRILEGIUM POSSIT ESSE SPECIES LUXURIAE
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2889">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="34"/>AD DECIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="35"/>sacrilegium non possit esse species 
+            lu<lb break="no" ed="#L" n="36"/>xuriae. Eadem enim species non 
+            inve<lb break="no" ed="#L" n="37"/>nitur sub diversis generibus non 
+            sub<lb break="no" ed="#L" n="38"/>alternatim positis. Sed sacrilegium est species 
+            ir<lb break="no" ed="#L" n="39"/>religiositatis, ut supra  habitum est. Ergo 
+            sacri<lb break="no" ed="#L" n="40"/>legium non potest poni species luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2909">
+            <lb ed="#L" n="41"/>2. PRAETEREA, in <ref xml:id="TAca84-d1e2068-Rd1e2913">Decretis, XXXVI Caus., qu. 1</ref>,
+            <lb ed="#L" n="42"/>sacrilegium non ponitur inter alia quae 
+            ponun<lb break="no" ed="#L" n="43"/>tur species luxuriae. Ergo videtur quod non sit
+            <lb ed="#L" n="44"/>luxuriae species.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2923">
+            <lb ed="#L" n="45"/>3. PRAETEREA, sicut per luxuriam contingit 
+            ali<lb break="no" ed="#L" n="46"/>quid fieri contra aliquam rem sacram, ita etiam per
+            <lb ed="#L" n="47"/>alia vitiorum genera. Sed sacrilegium non ponitur
+            <lb ed="#L" n="48"/>species gulae, aut alterius alicuius huiusmodi 
+            <lb ed="#L" n="49"/>vitii. Ergo etiam non debet poni species luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2936">
+            <lb ed="#L" n="50"/>SEp coNTRA EsT quod Augustinus dicit, XV de
+            <lb ed="#L" n="51"/>Civ. Dei , quod sicut iniquum est aviditate 
+            pos<lb break="no" ed="#L" n="52"/>sidendi transgredi limitem agrorum, ita etiam 
+            ini<lb break="no" ed="#L" n="53"/>quum est libidine concumbendi subvertere 
+            limi<lb break="no" ed="#L" n="54"/>tem morum. Sed transgredi limitem agrorum in
+            <lb ed="#L" n="55"/>rebus sacris est peccatum sacrilegii. Ergo, pari
+            <lb ed="#L" n="56"/>ratione, subvertere limitem  morum libidine 
+            con<lb break="no" ed="#L" n="57"/>cumbendi in rebus sacris, facit sacrilegii vitium,
+            <lb ed="#L" n="58"/>Sed libido concumbendi pertinet ad luxuriam.
+            <lb ed="#L" n="59"/>Ergo sacrilegium est luxuriae species.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2960">
+            <lb ed="#L" n="60"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="61"/>est, actus unius virtutis vel vitii ordinatus ad 
+            fi<lb break="no" ed="#L" n="62"/>nem alterius, assumit speciem illius: sicut furtum
+            <lb ed="#L" n="63"/>quod propter adulterium committitur, transit in
+            <lb ed="#L" n="64"/>speciem adulterii. Manifestum est autem quod
+            <lb ed="#L" n="65"/>observatio castitatis secundum quod ordinatur ad
+            <lb ed="#L" n="66"/>cultum Dei, sit actus religionis: ut patet in illis
+            <lb ed="#L" n="67"/>qui! vovent et servant virginitatem, ut patet per
+            <lb ed="#L" n="68"/>Augustinum, in libro de Virginitate . Unde 
+            ma<lb break="no" ed="#L" n="69"/>nifestum est quod etiam luxuria, secundum quod
+            <lb ed="#L" n="70"/>violat aliquid ad divinum cultum pertinens, per-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="71"/>tinet ad speciem sacrilegii. Et secundum hoc,
+            <lb ed="#L" n="72"/>sacrilegium potest poni species luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e2993">
+            <lb ed="#L" n="73"/>ÀD PRIMUM ERGO DICENDUM quod luxuria 
+            secun<lb break="no" ed="#L" n="74"/>dum quod ordinatur ad. finem alterius vitii, 
+            effi<lb break="no" ed="#L" n="75"/>citur illius vitii species. Et sic aliqua luxuriae
+            <lb ed="#L" n="76"/>species potest etiam esse species irreligiositatis ,
+            <lb ed="#L" n="77"/>sicut cuiusdam superioris generis.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3006">
+            <lb ed="#L" n="78"/>AD SECUNDUM DICENDUM quod ibi enumerantur
+            <lb ed="#L" n="79"/>illa quae sunt species luxuriae secundum seipsa ?:
+            <lb ed="#L" n="80"/>sacrilegium autem est species luxuriae secundum
+            <lb ed="#L" n="81"/>quod ordinatur ad finem alterius vitii. Et potest
+            <lb ed="#L" n="82"/>concurrere cum diversis speciebus luxuriae. Si
+            <lb ed="#L" n="83"/>enim aliquis abutatur persona coniuncta sibi 
+            se<lb break="no" ed="#L" n="84"/>cundum spiritualem cognationem , committit 
+            sa<lb break="no" ed="#L" n="85"/>crilegium ad modum incestus. Si autem 
+            abuta<lb break="no" ed="#L" n="86"/>tur virgine Deo sacrata: inquantum est sponsa
+            <lb ed="#L" n="87"/>Christi, est sacrilegium per modum adulterii; 
+            in<lb break="no" ed="#L" n="88"/>quantum vero est sub spiritualis patris cura 
+            con<lb break="no" ed="#L" n="89"/>stituta, erit quoddam spirituale stuprum; et si
+            <lb ed="#L" n="90"/>violentia inferatur, erit spiritualis raptus, qui etiam
+            <lb ed="#L" n="91"/>secundum leges civiles gravius punitur quam alius
+            <lb ed="#L" n="92"/>raptus. Unde Iustinianus Imperator dicit : Si
+            <lb ed="#L" n="93"/>quis, non dicam rapere, sed attentare tantummodo,
+            <lb ed="#L" n="94"/>matrimonii iungendi causa, sacratissimas virgines
+            <lb ed="#L" n="95"/>ausus fuerit, capitali poena feriatur. É
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3048">
+            <lb ed="#L" n="96"/>AD TERTIUM DICENDUM quod sacrilegium 
+            com<lb break="no" ed="#L" n="97"/>mittitur in re sacrata. Res autem sacrata est vel
+            <lb ed="#L" n="98"/>persona sacrata quae concupiscitur ad 
+            concubi<lb break="no" ed="#L" n="99"/>tum: etsic pertinet ad luxuriam. Vel quae 
+            con<lb break="no" ed="#L" n="100"/>cupiscitur ad possidendum: et sic pertinet ad 
+            in<lb break="no" ed="#L" n="101"/>iustitiam . Potest etiam ad iram pertinere 
+            sacri<lb break="no" ed="#L" n="102"/>legium: puta si aliquis ex ira iniuriam inferat
+            <lb ed="#L" n="103"/>personae sacrae. Vel, si gulose cibum sacratum 
+            <lb ed="#L" n="104"/>assumat, sacrilegium committit. Specialius tamen
+            <lb ed="#L" n="105"/>sacrilegium attribuitur luxuriae, quae opponitur
+            <lb ed="#L" n="106"/>castitati, ad cuius observantiam aliquae personae
+            <lb ed="#L" n="107"/>specíaliter consecrantur.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2068-Dd1e3078"><!-- p2p2-q154a11 -->
+          <head xml:id="TAca84-d1e2068-Hd1e3081">Articulus 11</head>
+          <head xml:id="TAca84-d1e2068-Hd1e3083" type="question-title">Utrum vitium contra naturam sit species luxuriae</head>
+          <p xml:id="TAca84-d1e2068-d1e3086">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="110" type="fixed=243"/>ARTICULUS UNDECIMUS
+            <lb ed="#L" n="111"/>UTRUM VITIUM CONTRA NATURAM SIT SPECIES LUXURIAE
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3095">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="112"/>AD UNDECIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="113"/>vitium contra naturam non sit species
+            <lb ed="#L" n="114"/>luxuriae. Quia in praedicta  
+            enumera<lb break="no" ed="#L" n="115"/>tione specierum luxuriae nulla fit 
+            men<lb break="no" ed="#L" n="116"/>tio de vitio contra naturam. Ergo non est 
+            spe<lb break="no" ed="#L" n="117"/>cies luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3113">
+            <lb ed="#L" n="118"/>2. PRAETEREA, luxuria opponitur virtuti: et ita
+            <lb ed="#L" n="119"/>sub malitia continetur. Sed vitium contra natu-
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="120"/>ram non continetur sub malitia, sed sub 
+            bestia<lb break="no" ed="#L" n="121"/>litate: ut patet per Philosophum, in VII Ethic. 
+            <lb ed="#L" n="122"/>Ergo vitium contra naturam non est species 
+            lu<lb break="no" ed="#L" n="123"/>xuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3132">
+            <lb ed="#L" n="124"/>3. PRAETEREA, luxuria consistit circa actus ad
+            <lb ed="#L" n="125"/>generationem humanam ordinatos, ut ex supra 
+            <lb ed="#L" n="126"/>dictis patet. Sed vitium contra naturam 
+            consi<lb break="no" ed="#L" n="127"/>stit circa actus ex quibus non potest generatio
+            <pb ed="#L" n="244"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>sequi. Ergo vitium contra naturam non est 
+            spe<lb break="no" ed="#L" n="2"/>cies luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3152">
+            <lb ed="#L" n="3"/>SED cowrRA EsT quod, ll ad Cor. xu , 
+            connu<lb break="no" ed="#L" n="4"/>meratur aliis luxuriae speciebus, ubi dicitur: Non
+            <lb ed="#L" n="5"/>egerunt poenitentiam super immunditia et 
+            forni<lb break="no" ed="#L" n="6"/>catione et impudicitia: ubi dicit Glossa : 
+            Immun<lb break="no" ed="#L" n="7"/>ditia: idest, luxuria contra naturam.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3165">
+            <lb ed="#L" n="8"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="9"/>est, ibi est determinata luxuriae species ubi 
+            spe<lb break="no" ed="#L" n="10"/>cialis ratio deformitatis occurrit quae facit 
+            inde<lb break="no" ed="#L" n="11"/>centem ^ actum venereum. Quod quidem potest
+            <lb ed="#L" n="12"/>esse dupliciter. Uno quidem modo, quia 
+            repu<lb break="no" ed="#L" n="13"/>gnat rationi rectae: quod est commune in omni
+            <lb ed="#L" n="14"/>vitio luxuriae. Alio modo, quia etiam, super hoc,
+            <lb ed="#L" n="15"/>repugnat ipsi ordini naturali venerei actus qui
+            <lb ed="#L" n="16"/>convenit humanae speciei: quod dicitur vitium
+            <lb ed="#L" n="17"/>contra naturam. Quod quidem potest pluribus
+            <lb ed="#L" n="18"/>modis contingere. Uno quidem modo, si absque
+            <lb ed="#L" n="19"/>omni concubitu, causa delectationis venereae, 
+            pol<lb break="no" ed="#L" n="20"/>lutio procuretur: quod pertinet ad peccatum 
+            zm<lb break="no" ed="#L" n="21"/>munditiae, quam quidam ? mollitiem vocant. -
+            <lb ed="#L" n="22"/>Alio modo, si fiat per concubitum ad rem non
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="23"/>eiusdem speciei: quod vocatur bestialitas. - 'T'
+            er<lb break="no" ed="#L" n="24"/>tio modo, si fiat per concubitum ad non debitum
+            <lb ed="#L" n="25"/>sexum, puta masculi ad masculum vel feminae ad
+            <lb ed="#L" n="26"/>feminam, ut Apostolus dicit, ad Rom. 1: quod
+            <lb ed="#L" n="27"/>dicitur sodomiticum vitium. — Quarto, si non 
+            ser<lb break="no" ed="#L" n="28"/>vetur naturalis modus concumbendi: aut 
+            quan<lb break="no" ed="#L" n="29"/>tum ad instrumentum non debitum ; aut quantum
+            <lb ed="#L" n="30"/>ad alios monstruosos et bestiales concumbendi
+            <lb ed="#L" n="31"/>modos.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3222">
+            <lb ed="#L" n="32"/>AD PRIMUM ERGO DICENDUM quod ibi 
+            enumeran<lb break="no" ed="#L" n="33"/>tur species luxuriae quae non repugnant 
+            huma<lb break="no" ed="#L" n="34"/>nae naturae. Et ideo praetermittitur vitium 
+            con<lb break="no" ed="#L" n="35"/>tra naturam.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3233">
+            <lb ed="#L" n="36"/>AD SECUNDUM DICENDUM quod bestialitas differt
+            <lb ed="#L" n="37"/>a malitia, quae humanae virtuti opponitur, per
+            <lb ed="#L" n="38"/>quendam excessum circa eandem materiam .
+            <lb ed="#L" n="39"/>Et ideo ad idem genus reduci potest.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3244">
+            <lb ed="#L" n="40"/>AD TERTIUM DICENDUM quod luxuriosus non 
+            in<lb break="no" ed="#L" n="41"/>tendit generationem humanam, sed delectationem
+            <lb ed="#L" n="42"/>veneream: quam potest aliquis experiri sine 
+            acti<lb break="no" ed="#L" n="43"/>bus ex quibus sequitur humana generatio. Et
+            <lb ed="#L" n="44"/>hoc est quod quaeritur in vitio contra naturam.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2068-Dd1e3258"><!-- p2p2-q154a12 -->
+          <head xml:id="TAca84-d1e2068-Hd1e3261">Articulus 12</head>
+          <head xml:id="TAca84-d1e2068-Hd1e3263" type="question-title">Utrum vitium contra naturam sit maximum peccatum inter species luxuriae</head>
+          <p xml:id="TAca84-d1e2068-d1e3266">
+            <pb ed="#L" n="247"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=247"/>ARTICULUS DUODECIMUS
+            <lb ed="#L" n="2"/>UTRUM VITIUM CONTRA NATURAM SIT MAXIMUM PECCATUM INTER SPECIES LUXURIAE
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3277">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD DUODECIMUM SIC PROCEDITUR. Videtur
+            <lb ed="#L" n="4"/>quod vitium contra naturam non sit
+            <lb ed="#L" n="5"/>maximum peccatum inter species 
+            luxu<lb break="no" ed="#L" n="6"/>riae. Tanto enim aliquod peccatum est
+            <lb ed="#L" n="7"/>gravius, quanto magis contrariatur caritati. Sed
+            <lb ed="#L" n="8"/>magis videntur contrariari caritati proximi 
+            adul<lb break="no" ed="#L" n="9"/>terium et stuprum et raptus, quae vergunt in 
+            iniu<lb break="no" ed="#L" n="10"/>riam proximi, quam peccata contra naturam, per
+            <lb ed="#L" n="11"/>quae nullus alteri iniuriatur. Ergo peccatum 
+            con<lb break="no" ed="#L" n="12"/>tra naturam non est maximum inter species 
+            lu<lb break="no" ed="#L" n="13"/>xuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3306">
+            <lb ed="#L" n="14"/>2. PRAETEREA, illa peccata videntur esse 
+            gravis<lb break="no" ed="#L" n="15"/>sima quae contra Deum committuntur. Sed 
+            sa<lb break="no" ed="#L" n="16"/>crilegium directe committitur contra Deum: quia
+            <lb ed="#L" n="17"/>vergit in iniuriam divini cultus. Ergo sacrilegium
+            <lb ed="#L" n="18"/>est gravius peccatum quam vitium contra 
+            na<lb break="no" ed="#L" n="19"/>turam.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3323">
+            <lb ed="#L" n="20"/>3. PRAETEREA, tanto aliquod peccatum videtur
+            <lb ed="#L" n="21"/>esse gravius, quanto exercetur in personam quam
+            <lb ed="#L" n="22"/>magis diligere debemus. Sed secundum ordinem
+            <lb ed="#L" n="23"/>caritatis magis debemus diligere personas nobis
+            <lb ed="#L" n="24"/>coniunctas, quae polluuntur per incestum, quam
+            <lb ed="#L" n="25"/>personas extraneas, quae interdum  polluuntur
+            <lb ed="#L" n="26"/>per vitium contra naturam. Ergo incestus est 
+            gra<lb break="no" ed="#L" n="27"/>vius peccatum quam vitium contra naturam.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3343">
+            <lb ed="#L" n="28"/>4. PRAETEREA, si vitium contra naturam est 
+            gra<lb break="no" ed="#L" n="29"/>vissimum, videtur quod tanto est gravius quanto
+            <lb ed="#L" n="30"/>est magis contra naturam. Sed maxime videtur
+            <lb ed="#L" n="31"/>esse contra naturam peccatum immunditiae seu
+            <lb ed="#L" n="32"/>mollitiei: quia hoc maxime videtur esse 
+            secun<lb break="no" ed="#L" n="33"/>dum naturam, ut alterum sit agens et alterum
+            <lb ed="#L" n="34"/>patiens. Ergo, secundum hoc, immunditia esset
+            <lb ed="#L" n="35"/>gravissimum inter vitia contra naturam. Hoc 
+            au<lb break="no" ed="#L" n="36"/>tem. est falsum. Non ergo vitia contra naturam
+            <lb ed="#L" n="37"/>sunt gravissima inter peccata luxuriae.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3367">
+            <lb ed="#L" n="38"/>SEp cowTRA EsT quod Augustinus dicit, in 
+            li<lb break="no" ed="#L" n="39"/>bro de Adulterin. Coniugiis, quod omnium 
+            ho<lb break="no" ed="#L" n="40"/>rum, peccatorum ? scilicet quae ad luxuriam 
+            per<lb break="no" ed="#L" n="41"/>tinent, pessimum est quod contra naturam fit.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3378">
+            <lb ed="#L" n="42"/>RESPONDEO DICENDUM quod in quolibet genere
+            <lb ed="#L" n="43"/>pessima est principii corruptio, ex quo alia 
+            de<lb break="no" ed="#L" n="44"/>pendent. Principia autem rationis sunt ea quae
+            <lb ed="#L" n="45"/>sunt secundum naturam: nam ratio, 
+            praesuppo<lb break="no" ed="#L" n="46"/>sitis his quae sunt a natura determinata, disponit
+            <lb ed="#L" n="47"/>alia secundum quod convenit. Et hoc apparet
+            <lb ed="#L" n="48"/>tam in speculativis quam in operativis Y. Et ideo,
+            <lb ed="#L" n="49"/>sicut in speculativis error circa ea quorum 
+            co<lb break="no" ed="#L" n="50"/>gnitio est homini naturaliter indita, est 
+            gravissi<lb break="no" ed="#L" n="51"/>mus et turpissimus; ita in agendis agere contra
+            <lb ed="#L" n="52"/>ea quae sunt secundum naturam determinata,
+            <lb ed="#L" n="53"/>est gravissimum et turpissimum. Quia ergo in
+            <lb ed="#L" n="54"/>vitis quae sunt contra naturam transgreditur
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="55"/>homo id quod est secundum naturam 
+            determi<lb break="no" ed="#L" n="56"/>natum circa usum venereum, inde est quod in
+            <lb ed="#L" n="57"/>tali materia hoc peccatum «est gravissimum. -
+            <lb ed="#L" n="58"/>Post quod ? est incestus, qui, sicut dictum est ,
+            <lb ed="#L" n="59"/>est contra naturalem reverentiam quam personis
+            <lb ed="#L" n="60"/>coniunctis debemus.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3424">
+            <lb ed="#L" n="61"/>Per alias autem luxuriae species praeteritur
+            <lb ed="#L" n="62"/>solum id quod est secundum rationem rectam
+            <lb ed="#L" n="63"/>determinatum: ex praesuppositione tamen 
+            natu<lb break="no" ed="#L" n="64"/>ralium principiorum. Magis autem repugnat 
+            ra<lb break="no" ed="#L" n="65"/>tioni quod aliquis venereis utatur non solum 
+            con<lb break="no" ed="#L" n="66"/>tra id quod convenit proli generandae, sed etiam
+            <lb ed="#L" n="67"/>cum iniuria alterius. Et ideo fornicatio simplex,
+            <lb ed="#L" n="68"/>quae committitur sine iniuria alterius personae,
+            <lb ed="#L" n="69"/>est minima inter species luxuriae. - Maior autem
+            <lb ed="#L" n="70"/>iniuria est si quis abutatur muliere alterius 
+            po<lb break="no" ed="#L" n="71"/>testati subiecta ad usum generationis, quam ad
+            <lb ed="#L" n="72"/>solam custodiam. Et ideo adulterium est gravius
+            <lb ed="#L" n="73"/>quam. stuprum. - Et utrumque aggravatur per
+            <lb ed="#L" n="74"/>violentiam. Propter quod, raptus virginis est 
+            gra<lb break="no" ed="#L" n="75"/>vius quam stuprum: et raptus uxoris quam 
+            adul<lb break="no" ed="#L" n="76"/>terium. - Et haec etiam  omnia aggravantur 
+            se<lb break="no" ed="#L" n="77"/>cundum rationem sacrilegii, ut supra  dictum est.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3463">
+            <lb ed="#L" n="78"/>AD PRIMUM ERGO DICENDUM quod, sicut ordo 
+            ra<lb break="no" ed="#L" n="79"/>tionis rectae est ab homine, ita ordo naturae est
+            <lb ed="#L" n="80"/>ab ipso Deo. Et ideo in peccatis contra naturam,
+            <lb ed="#L" n="81"/>in quibus ipse ordo naturae violatur, fit iniuria
+            <lb ed="#L" n="82"/>ipsi Deo, Ordinatori naturae. Unde Augustinus
+            <lb ed="#L" n="83"/>dicit, IIl Confess. : Flagitia quae sunt contra 
+            na<lb break="no" ed="#L" n="84"/>turam, ubique ac  semper detestanda atque 
+            pu<lb break="no" ed="#L" n="85"/>nienda sunt, qualia Sodomitarum fuerunt: quae
+            <lb ed="#L" n="86"/>si omnes gentes facerent, eodem criminis realu
+            <lb ed="#L" n="87"/>divina lege tenerentur, quae non sic fecit. 
+            homi<lb break="no" ed="#L" n="88"/>nes ut se ill uterentur modo. Violatur quippe
+            <lb ed="#L" n="89"/>ipsa societas quae cum Deo nobis esse debet, cum
+            <lb ed="#L" n="90"/>eadem natura cuius ille Auctor est, libidinis 
+            per<lb break="no" ed="#L" n="91"/>versitate polluitur.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3497">
+            <lb ed="#L" n="92"/>AD SECUNDUM DICENDUM quod etiam vitia contra
+            <lb ed="#L" n="93"/>naturam sunt contra Deum, ut dictum est . Et
+            <lb ed="#L" n="94"/>tanto sunt graviora quam sacrilegii corruptela,
+            <lb ed="#L" n="95"/>quanto ordo naturae humanae inditus est prior
+            <lb ed="#L" n="96"/>et stabilior quam quilibet alius ordo superadditus.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3510">
+            <lb ed="#L" n="97"/>AD TERTIUM DICENDUM quod unicuique individuo
+            <lb ed="#L" n="98"/>magis est coniuncta natura speciei quam 
+            quod<lb break="no" ed="#L" n="99"/>cumque aliud individuum. Et ideo peccata quae
+            <lb ed="#L" n="100"/>fiunt ^ contra naturam speciei, sunt graviora.
+          </p>
+          <p xml:id="TAca84-d1e2068-d1e3521">
+            <lb ed="#L" n="101"/>AD QUARTUM DICENDUM quod gravitas in 
+            pec<lb break="no" ed="#L" n="102"/>cato magis attenditur ex abusu alicuius rei quam
+            <lb ed="#L" n="103"/>ex omissione debiti usus. Et ideo inter vitia 
+            con<lb break="no" ed="#L" n="104"/>tra? naturam infimum locum tenet peccatum 
+            im<lb break="no" ed="#L" n="105"/>munditiae, quod consistit in sola omissione 
+            con<lb break="no" ed="#L" n="106"/>cubitus ad alterum. - Gravissimum autem est
+            <pb ed="#L" n="248"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>peccatum bestialitatis, ubi  non servatur debita
+            <lb ed="#L" n="2"/>species. Unde super illud Gen. xxxvii , 
+            Accusa<lb break="no" ed="#L" n="3"/>vit fratres suos crimine pessimo, dicit Glossa :
+            <lb ed="#L" n="4"/>quod cum pecoribus miscebantur. - Post hoc 
+            au<lb break="no" ed="#L" n="5"/>tem est vitium sodomiticum, ubi non servatur 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="6"/>debitus sexus. - Post hoc autem est peccatum
+            <lb ed="#L" n="7"/>ex eo quod non servatur debitus modus 
+            concum<lb break="no" ed="#L" n="8"/>bendi. Magis autem si non sit debitum vas, quam
+            <lb ed="#L" n="9"/>si sit inordinatio secundum aliqua alia 
+            pertinen<lb break="no" ed="#L" n="10"/>tia ad modum concubitus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 184</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 184</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="450"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2223"><!-- p2p2-q184 -->
+        <head xml:id="TAca84-d1e2223-Hd1e101">Quaestio 184</head>
+        <head type="question-title">De statu perfectionis in communi</head>
+        <p xml:id="TAca84-d1e2223-d1e103">
+          <pb ed="#L" n="450"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=450"/>QUAESTIO CENTESIMAOCTOGESIMAQUARTA
+          <lb ed="#L" n="2"/>DE STATU PERFECTIONIS IN COMMUNI
+          <lb ed="#L" n="3"/>IN OCTO ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2223-d1e116">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de his quae 
+          perti<lb break="no" ed="#L" n="5"/>nent ad statum perfectionis , ad quem alii
+          <lb ed="#L" n="6"/>status ordinantur. Nam consideratio officiorum,
+          <lb ed="#L" n="7"/>quantum quidem ad alios actus, pertinet ad 
+          le<lb break="no" ed="#L" n="8"/>gispositores ; ; quantum autem ad sacra ministeria,
+          <lb ed="#L" n="9"/>pertinet ad considerationem ordinum, de quibus
+          <lb ed="#L" n="10"/>in Tertia Parte agetur .
+        </p>
+        <p xml:id="TAca84-d1e2223-d1e136">
+          <lb ed="#L" n="11"/>Circa statum. autem perfectorum triplex 
+          consi<lb break="no" ed="#L" n="12"/>deratio occurrit: primo quidem, de statu 
+          perfe<lb break="no" ed="#L" n="13"/>ctionis in communi; secundo, de his quae 
+          per<lb break="no" ed="#L" n="14"/>tinent ad perfectionem episcoporum ; tertio, de
+          <lb ed="#L" n="15"/>his quae pertinent ad perfectionem religiosorum.
+        </p>
+        <p xml:id="TAca84-d1e2223-d1e149">
+          <lb ed="#L" n="16"/>Circa primum quaeruntur octo.
+          <lb ed="#L" n="17"/>Primo: utrum perfectio attendatur secundum
+          <lb ed="#L" n="18"/>caritatem.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="19"/>Secundo: utrum aliquis possit esse perfectus
+          <lb ed="#L" n="20"/>in hac vita.
+          <lb ed="#L" n="21"/>Tertio: utrum perfectio huius vitae consistat
+          <lb ed="#L" n="22"/>principaliter in consiliis, vel in praeceptis.
+          <lb ed="#L" n="23"/>Quarto: utrum quicumque est perfectus, sit in
+          <lb ed="#L" n="24"/>statu perfectionis.
+          <lb ed="#L" n="25"/>Quinto: utrum praelati et religiosi specialiter
+          <lb ed="#L" n="26"/>sint in statu perfectionis.
+          <lb ed="#L" n="27"/>Sexto: utrum omnes praelati sint in statu 
+          per<lb break="no" ed="#L" n="28"/>fectionis.
+          <lb ed="#L" n="29"/>Septimo: quis status sit perfectior, utrum 
+          re<lb break="no" ed="#L" n="30"/>ligiosorum vel episcoporum.
+          <lb ed="#L" n="31"/>Octavo: de comparatione religiosorum ad 
+          ple<lb break="no" ed="#L" n="32"/>banos et archidiaconos.
+        </p>
+        <div xml:id="TAca84-d1e2223-Dd1e192"><!-- p2p2-q184a1 -->
+          <head xml:id="TAca84-d1e2223-Hd1e195">Articulus 1</head>
+          <head xml:id="TAca84-d1e2223-Hd1e197" type="question-title">Utrum perfectio christianae vitae attendatur specialiter secundum caritatem</head>
+          <p xml:id="TAca84-d1e2223-d1e200">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="33" type="fixed=450"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="34"/>UTRUM PERFECTIO CHRISTIANAE VITAE ATTENDATUR SPECIALITER SECUNDUM CARITATEM
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e209">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="35"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="36"/>perfectio Christianae vitae non 
+            atten<lb break="no" ed="#L" n="37"/>datur specialiter secundum caritatem.
+            <lb ed="#L" n="38"/>Dicit enim Apostolus, I ad Cor. xiv :
+            <lb ed="#L" n="39"/>Malitia autem parvuli estote, sensibus autem 
+            per<lb break="no" ed="#L" n="40"/>Sed caritas non pertinet ad sensum, sed
+            <lb ed="#L" n="41"/>magis ad affectum. Ergo videtur quod perfectio
+            <lb ed="#L" n="42"/>Christianae vitae non consistat principaliter in
+            <lb ed="#L" n="43"/>caritate.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e233">
+            <lb ed="#L" n="44"/>2. PRAETEREA, ad Ephes. ult.  dicitur: Accipite
+            <lb ed="#L" n="45"/>armaturam Dei, ut. possitis resistere in die malo,
+            <lb ed="#L" n="46"/>et in omnibus perfecti stare. De armatura autem
+            <lb ed="#L" n="47"/>Dei subiungit  dicens: Sfate succincti lumbos
+            <lb ed="#L" n="48"/>vestros in veritate, et induite loricam iustitiae, in
+            <lb ed="#L" n="49"/>omnibus sumentes scutum fidei. Ergo perfectio 
+            <lb ed="#L" n="50"/>Christianae vitae non solum attenditur secundum
+            <lb ed="#L" n="51"/>caritatem, sed etiam secundum alias virtutes.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e254">
+            <lb ed="#L" n="52"/>3. PRAETEREA, virtutes specificantur per actus:
+            <lb ed="#L" n="53"/>sicut et alii habitus. Sed Iac. 1 dicitur quod
+            <lb ed="#L" n="54"/>patientia opus perfectum habet. Ergo videtur quod 
+            <lb ed="#L" n="55"/>status perfectionis attendatur. magis secundum
+            <lb ed="#L" n="56"/>patientiam.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e267">
+            <lb ed="#L" n="57"/>SEp coNTRA EST quod dicitur ad Coloss. III:
+            <lb ed="#L" n="58"/>Super omnia, caritatem habete, quae est 
+            vincu<lb break="no" ed="#L" n="59"/>lum perfectionis: quia scilicet omnes alias 
+            virtu<lb break="no" ed="#L" n="60"/>tes quodammodo ligat in unitatem perfectam.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e278">
+            <lb ed="#L" n="61"/>RESPONDEO DICENDUM quod unumquodque 
+            di<lb break="no" ed="#L" n="62"/>citur esse perfectum inquantum attingit proprium
+            <lb ed="#L" n="63"/>finem, qui est ultima rei perfectio. Caritas au-
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="64"/>tem est quae unit nos Deo, qui est , ultimus finis 
+            <lb ed="#L" n="65"/>humanae mentis: quia qui manet in caritate, in
+            <lb ed="#L" n="66"/>Deo manet, et Deus in eo, ut dicitur I Ioan. iv .
+            <lb ed="#L" n="67"/>Et ideo secundum caritatem specialiter attenditur
+            <lb ed="#L" n="68"/>perfectio vitae Christianae.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e300">
+            <lb ed="#L" n="69"/>AD PRIMUM ERGO DICENDUM quod perfectio 
+            huma<lb break="no" ed="#L" n="70"/>norum sensuum praecipue in hoc videtur 
+            con<lb break="no" ed="#L" n="71"/>sistere ut in unitatem veritatis conveniant: 
+            se<lb break="no" ed="#L" n="72"/>cundum illud I ad Cor. 1: Sitis perfecti in eodem
+            <lb ed="#L" n="73"/>sensu el in eadem scientia. Hoc autem fit per
+            <lb ed="#L" n="74"/>caritatem , quae consensum in hominibus 
+            opera<lb break="no" ed="#L" n="75"/>tur. Et ideo etiam perfectio sensuum radicaliter
+            <lb ed="#L" n="76"/>in perfectione caritatis radicatur P.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e320">
+            <lb ed="#L" n="77"/>AD SECUNDUM DICENDUM quod dupliciter potest
+            <lb ed="#L" n="78"/>dici aliquis perfectus. Uno modo, simpliciter:
+            <lb ed="#L" n="79"/>quae quidem perfectio attenditur secundum id
+            <lb ed="#L" n="80"/>quod pertinet ad ipsam rei naturam; puta si 
+            di<lb break="no" ed="#L" n="81"/>catur animal perfectum quando nihil ei deficit
+            <lb ed="#L" n="82"/>ex dispositione membrorum, et aliis huiusmodi
+            <lb ed="#L" n="83"/>quae requiruntur ad vitam animalis. Alio modo
+            <lb ed="#L" n="84"/>dicitur aliquid perfectum secundum quid: quae
+            <lb ed="#L" n="85"/>quidem perfectio attenditur secundum aliquid 
+            ex<lb break="no" ed="#L" n="86"/>terius adiacens, puta in albedine vel nigredine,
+            <lb ed="#L" n="87"/>vel aliquo huiusmodi. Vita autem Christiana 
+            spe<lb break="no" ed="#L" n="88"/>cialiter in caritate consistit, per quam anima Deo
+            <lb ed="#L" n="89"/>coniungitur: unde dicitur 1 Ioan. iui : Qui non
+            <lb ed="#L" n="90"/>diligit, manet in morte. Et ideo secundum 
+            cari<lb break="no" ed="#L" n="91"/>tatem simpliciter attenditur perfectio Christianae
+            <lb ed="#L" n="92"/>vitae, sed secundum alias virtutes secundum quid.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e357">
+            <pb ed="#L" n="451"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>Et quia id quod est simpliciter est principium "
+            <lb ed="#L" n="2"/>et maximum respectu aliorum , inde est quod 
+            per<lb break="no" ed="#L" n="3"/>fectio caritatis est principium respectu perfectionis 
+            <lb ed="#L" n="4"/>quae attenditur secundum alias virtutes.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e374">
+            <lb ed="#L" n="5"/>AD TERTIUM DICENDUM quod patientia dicitur ha-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="6"/>bere opus perfectum in ordine ad caritatem: 
+            in<lb break="no" ed="#L" n="7"/>quantum scilicet ex abundantia caritatis provenit
+            <lb ed="#L" n="8"/>quod aliquis patienter toleret adversa, secundum
+            <lb ed="#L" n="9"/>illud Rom. vir : Quis nos separabit a caritate
+            <lb ed="#L" n="10"/>Dei? Tribulatio? an angustia? etc.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2223-Dd1e393"><!-- p2p2-q184a2 -->
+          <head xml:id="TAca84-d1e2223-Hd1e396">Articulus 2</head>
+          <head xml:id="TAca84-d1e2223-Hd1e398" type="question-title">Utrum aliquis in hac vita possit esse perfectus</head>
+          <p xml:id="TAca84-d1e2223-d1e401">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="40" type="fixed=451"/>ARTICULUS SECUNDUS 
+            <lb ed="#L" n="41"/>UTRUM ALIQUIS IN HAC VITA POSSIT ESSE PERFECTUS
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e410">
+            <lb ed="#L" n="42"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="43"/>nullus in hac vita possit esse perfectus.
+            <lb ed="#L" n="44"/>Dicit enim Apostolus, ad Cor. xu :
+            <lb ed="#L" n="45"/>Cum venerit quod perfectum est, 
+            evacua<lb break="no" ed="#L" n="46"/>bitur quod ex parte est. Sed in hac vita non 
+            eva<lb break="no" ed="#L" n="47"/>cuatur quod ex parte est: manet enim in hac vita
+            <lb ed="#L" n="48"/>fides et spes , quae sunt ex parte. Ergo nullus
+            <lb ed="#L" n="49"/>in hac vita est perfectus.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e430">
+            <lb ed="#L" n="50"/>2. PRAETEREA, perfectum est cui nihil deest,
+            <lb ed="#L" n="51"/>ut dicitur in lll Physic.  Sed nullus est in hac
+            <lb ed="#L" n="52"/>vita cui non desit aliquid: dicitur enim Iac. im :
+            <lb ed="#L" n="53"/>in multis offendimus omnes; et in Psalmo  
+            di<lb break="no" ed="#L" n="54"/>citur: imperfectum meum viderunt oculi tui. Ergo
+            <lb ed="#L" n="55"/>nullus. est in hac vita perfectus.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e447">
+            <lb ed="#L" n="56"/>3. PRAETEREA, perfectio vitae Christianae, sicut
+            <lb ed="#L" n="57"/>dictum est, attenditur secundum caritatem: quae
+            <lb ed="#L" n="58"/>sub: se comprehendit dilectionem Dei et proximi.
+            <lb ed="#L" n="59"/>Sed quantum ad dilectionem Dei, non potest 
+            ali<lb break="no" ed="#L" n="60"/>quis perfectam caritatem in hac vita habere: quia,
+            <lb ed="#L" n="61"/>ut Gregorius dicit, super Exech. , amoris ignis,
+            <lb ed="#L" n="62"/>qui hic ardere inchoat, cum ipsum quem amat
+            <lb ed="#L" n="63"/>viderit, in amorem ipsius amplius ignescit. Neque
+            <lb ed="#L" n="64"/>etiam quantum ad dilectionem proximi: quia non
+            <lb ed="#L" n="65"/>possumus in hac vita omnes proximos actualiter
+            <lb ed="#L" n="66"/>diligere, etsi habitualiter eos diligamus; dilectio
+            <lb ed="#L" n="67"/>autem habitualis imperfecta est. Ergo videtur
+            <lb ed="#L" n="68"/>quod nullus in hac vita possit esse perfectus.
+            <lb ed="#L" n="69"/>SED CONTRA EST quia lex divina non inducit ad
+            <lb ed="#L" n="70"/>impossibile. Inducit autem ad perfectionem: 
+            se<lb break="no" ed="#L" n="71"/>cundum illud Matth. v : Estote perfecti, sicut et
+            <lb ed="#L" n="72"/>Pater vester caelestis perfectus est. Ergo videtur
+            <lb ed="#L" n="73"/>quod aliquis in hac vita possit esse perfectus.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e489">
+            <lb ed="#L" n="74"/>RESPONDEO DICENDUM quod, sicut dictum est,
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="75"/>perfectio Christianae vitae in caritate consistit.
+            <lb ed="#L" n="76"/>Importat autem perfectio quandam 
+            universalita<lb break="no" ed="#L" n="77"/>tem: quia, ut dicitur in III Physic. , perfectum
+            <lb ed="#L" n="78"/>est cui nihil deest. Potest ergo triplex perfectio
+            <lb ed="#L" n="79"/>considerari. Una quidem absoluta: quae 
+            attendi<lb break="no" ed="#L" n="80"/>tur non solum secundum totalitatem ex parte 
+            di<lb break="no" ed="#L" n="81"/>ligentis, sed etiam ex parte diligibilis, prout 
+            sci<lb break="no" ed="#L" n="82"/>licet Deus tantum diligitur quantum diligibilis. est.
+            <lb ed="#L" n="83"/>Et talis perfectio non est possibilis alicui. 
+            crea<lb break="no" ed="#L" n="84"/>turae, sed competit soli Deo, in quo bonum 
+            in<lb break="no" ed="#L" n="85"/>tegraliter et essentialiter invenitur.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e520">
+            <lb ed="#L" n="86"/>Alia autem est perfectio quae attenditur 
+            se<lb break="no" ed="#L" n="87"/>cundum totalitatem absolutam ex parte diligentis:
+            <lb ed="#L" n="88"/>prout scilicet affectus secundum totum: suum 
+            pos<lb break="no" ed="#L" n="89"/>se semper actualiter tendit in Deum. Et talis 
+            per<lb break="no" ed="#L" n="90"/>fectio non est possibilis in via, sed erit in patria.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e533">
+            <lb ed="#L" n="91"/>Tertia autem -perfectio est quae neque 
+            atten<lb break="no" ed="#L" n="92"/>ditur secundum totalitatem ex parte diligibilis,
+            <lb ed="#L" n="93"/>neque secundum totalitatem ex parte diligentis
+            <lb ed="#L" n="94"/>quantum ad hoc quod semper actu feratur in
+            <lb ed="#L" n="95"/>Deum: sed quantum ad hoc quod excludantur
+            <lb ed="#L" n="96"/>ea quae repugnant motui dilectionis in Deum;
+            <lb ed="#L" n="97"/>sicut Augustinus dicit, in libro Octogintatrium
+            <lb ed="#L" n="98"/>Quaest. , quod venenum. caritatis est cupiditas,
+            <lb ed="#L" n="99"/>perfectio nulla cupiditas. Et talis perfectio potest
+            <lb ed="#L" n="100"/>in hac vita haberi. Et hoc dupliciter. Uno modo,
+            <lb ed="#L" n="101"/>inquantum ab affectu hominis excluditur omne
+            <lb ed="#L" n="102"/>illud quod caritati contrariatur, sicut est 
+            pecca<lb break="no" ed="#L" n="103"/>tum mortale. Et sine tali perfectione caritas esse
+            <lb ed="#L" n="104"/>non potest. Unde est de necessitate salutis. -
+            <lb ed="#L" n="105"/>Alio modo, inquantum ab affectu hominis 
+            ex<lb break="no" ed="#L" n="106"/>cluditur non solum illud quod est caritati 
+            con<lb break="no" ed="#L" n="107"/>trarium, sed etiam omne illud quod impedit ne
+            <pb ed="#L" n="452"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>affectus mentis totaliter dirigatur ad Deum. Sine
+            <lb ed="#L" n="2"/>qua perfectione caritas esse potest: puta in 
+            in<lb break="no" ed="#L" n="3"/>cipientibus et proficientibus.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e583">
+            <lb ed="#L" n="4"/>AD PRIMUM ERGO DICENDUM quod Apostolus ibi
+            <lb ed="#L" n="5"/>loquitur de perfectione patriae, quae non est in
+            <lb ed="#L" n="6"/>via possibilis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e592">
+            <lb ed="#L" n="7"/>AD SECUNDUM DICENDUM quod illi qui sunt in hac
+            <lb ed="#L" n="8"/>vita perfecti, in multis dicuntur offendere 
+            secun<lb break="no" ed="#L" n="9"/>dum  peccata venialia, quae consequuntur ex 
+            in<lb break="no" ed="#L" n="10"/>firmitate praesentis vitae. Et quantum ad hoc
+            <lb ed="#L" n="11"/>etiam habent aliquid imperfectum, per 
+            compa<lb break="no" ed="#L" n="12"/>rationem ad perfectionem patriae.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e609">
+            <lb ed="#L" n="13"/>AD TERTIUM DICENDUM quod. sicut modus ? 
+            prae<lb break="no" ed="#L" n="14"/>sentis vitae non patitur ut homo semper actu
+            <lb ed="#L" n="15"/>feratur in Deum, ita etiam non patitur quod
+            <lb ed="#L" n="16"/>actu  feratur in omnes proximos singillatim :
+            <lb ed="#L" n="17"/>sed sufficit quod. feratur communiter in omnes
+            <lb ed="#L" n="18"/>in universali, et? in singulos habitualiter et 
+            se<lb break="no" ed="#L" n="19"/>cundum animi praeparationem.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e627">
+            <lb ed="#L" n="20"/>Potest autem etiam circa dilectionem proximi
+            <lb ed="#L" n="21"/>duplex perfectio attendi, sicut et circa 
+            dilectio<lb break="no" ed="#L" n="22"/>nem Dei. Una quidem, sine qua caritas esse non
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="23"/>potest: ut scilicet homo nihil habeat in affectu
+            <lb ed="#L" n="24"/>quod sit contrarium dilectioni proximi.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e643">
+            <lb ed="#L" n="25"/>Alia autem, sine qua caritas inveniri potest:
+            <lb ed="#L" n="26"/>quae quidem attenditur tripliciter. Primo quidem,
+            <lb ed="#L" n="27"/>secundum extensionem dilectionis: ut scilicet 
+            ali<lb break="no" ed="#L" n="28"/>quis non solum diligat amicos et notos, sed etiam
+            <lb ed="#L" n="29"/>extraneos, et ulterius inimicos. Hoc enim, ut 
+            Au<lb break="no" ed="#L" n="30"/>gustinus dicit, in Enchirid. , est perfectorum 
+            fi<lb break="no" ed="#L" n="31"/>liorum Dei. - Secundo, secundum  intensionem :
+            <lb ed="#L" n="32"/>quae ostenditur ex his quae homo propter 
+            pro<lb break="no" ed="#L" n="33"/>ximum contemnit; ut scilicet homo non solum
+            <lb ed="#L" n="34"/>contemnat exteriora bona propter proximum, sed
+            <lb ed="#L" n="35"/>etiam afflictiones corporales, et ulterius mortem,
+            <lb ed="#L" n="36"/>secundum illud Ioan. xv : 7Maiorem dilectionem
+            <lb ed="#L" n="37"/>nemo habet quam ut animam suam ponat quis
+            <lb ed="#L" n="38"/>pro amicis suis. - Tertio, quantum ad effectum
+            <lb ed="#L" n="39"/>dilectionis: ut scilicet homo proximis  impendat
+            <lb ed="#L" n="40"/>non solum temporalia beneficia, sed etiam 
+            spi<lb break="no" ed="#L" n="41"/>ritualia, et ulterius seipsum, secundum illud 
+            Apo<lb break="no" ed="#L" n="42"/>stoli, Il ad Cor. xu : Ego autem libentissime 
+            im<lb break="no" ed="#L" n="43"/>pendam, et superimpendar ipse pro animabus
+            <lb ed="#L" n="44"/>vestris.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2223-Dd1e690"><!-- p2p2-q184a3 -->
+          <head xml:id="TAca84-d1e2223-Hd1e693">Articulus 3</head>
+          <head xml:id="TAca84-d1e2223-Hd1e695" type="question-title">Utrum perfectio viae consistat in praeceptis, an in consiliis</head>
+          <p xml:id="TAca84-d1e2223-d1e698">
+            <pb ed="#L" n="453"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=453"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="2"/>UTRUM PERFECTIO VIAE CONSISTAT IN PRAECEPTIS, AN IN CONSILIIS
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e709">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>perci viae  non consistit in 
+            prae<lb break="no" ed="#L" n="5"/>ceptis, sed in consiliis. Dicit enim 
+            Do<lb break="no" ed="#L" n="6"/>minus, Matth. xix : Si vis perfectus
+            <lb ed="#L" n="7"/>esse, vade et vende omnia quae habes et da 
+            pau<lb break="no" ed="#L" n="8"/>peribus, et veni, sequere me. Sed istud est 
+            con<lb break="no" ed="#L" n="9"/>silium. Ergo perfectio attenditur secundum 
+            con<lb break="no" ed="#L" n="10"/>silia, et non secundum praecepta.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e731">
+            <lb ed="#L" n="11"/>2. PRAETEREA, ad observantiam praeceptorum
+            <lb ed="#L" n="12"/>omnes tenentur: cum sint de necessitate salutis.
+            <lb ed="#L" n="13"/>Si ergo- perfectio Christianae vitae consistat in
+            <lb ed="#L" n="14"/>praeceptis, sequitur quod perfectio sit de 
+            neces<lb break="no" ed="#L" n="15"/>sitate salutis ?, et quod omnes ad eam teneantur.
+            <lb ed="#L" n="16"/>Quod patet esse falsum.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e748">
+            <lb ed="#L" n="17"/>3. PRAETEREA, perfectio Christianae vitae 
+            at<lb break="no" ed="#L" n="18"/>tenditur secundum caritatem, ut dictum est .
+            <lb ed="#L" n="19"/>Sed perfectio caritatis non videtur consistere in
+            <lb ed="#L" n="20"/>observantia praeceptorum: quia perfectionem 
+            ca<lb break="no" ed="#L" n="21"/>ritatis praecedit et augmentum et inchoatio ipsius,
+            <lb ed="#L" n="22"/>ut patet per Augustinum, super Canonicam Ioan.;
+            <lb ed="#L" n="23"/>non autem potest caritas inchoari ante 
+            observa<lb break="no" ed="#L" n="24"/>tionem praeceptorum, quia, ut dicitur Ioan. xiv :
+            <lb ed="#L" n="25"/>Si quis diligit me, sermonem meum servabit. Ergo
+            <lb ed="#L" n="26"/>perfectio vitae non attenditur secundum 
+            praece<lb break="no" ed="#L" n="27"/>pta, sed secundum consilia.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e774">
+            <lb ed="#L" n="28"/>SED coNTRA EST quod dicitur Deut. vi: Diliges
+            <lb ed="#L" n="29"/>Dominum Deum tuum ex toto corde tuo. Et 
+            Le<lb break="no" ed="#L" n="30"/>vit. xix  dicitur: Diliges proximum tuum sicut
+            <lb ed="#L" n="31"/>leipsum. Haec autem sunt duo praecepta de 
+            qui<lb break="no" ed="#L" n="32"/>bus Dominus dicit, Matth. xxu : Zn his duobus
+            <lb ed="#L" n="33"/>praeceptis pendet Lex et Prophetae. Perfectio 
+            au<lb break="no" ed="#L" n="34"/>tem caritatis, secundum quam dicitur vita 
+            Chri<lb break="no" ed="#L" n="35"/>stiana esse perfecta, attenditur secundum hoc
+            <lb ed="#L" n="36"/>quod Deum ex toto corde diligamus et proximum
+            <lb ed="#L" n="37"/>sicut nos ipsos. Ergo videtur quod perfectio 
+            con<lb break="no" ed="#L" n="38"/>sistat in observantia praeceptorum.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e800">
+            <lb ed="#L" n="39"/>RESPONDEO DICENDUM quod perfectio dicitur in
+            <lb ed="#L" n="40"/>aliquo consistere dupliciter: uno modo, per se
+            <lb ed="#L" n="41"/>et essentialiter; alio modo, secundario et 
+            acci<lb break="no" ed="#L" n="42"/>dentaliter. Per se quidem et essentialiter consistit
+            <lb ed="#L" n="43"/>perfectio Christianae vitae in caritate: 
+            principali<lb break="no" ed="#L" n="44"/>ter quidem secundum dilectionem Dei, 
+            secun<lb break="no" ed="#L" n="45"/>dario autem secundum dilectionem proximi, de
+            <lb ed="#L" n="46"/>quibus dantur praecepta principalia divinae legis,
+            <lb ed="#L" n="47"/>ut dictum est . Non autem dilectio Dei et 
+            pro<lb break="no" ed="#L" n="48"/>ximi cadit sub praecepto secundum aliquam 
+            men<lb break="no" ed="#L" n="49"/>suram, ita quod id quod est plus sub consilio
+            <lb ed="#L" n="50"/>remaneat: ut patet ex ipsa forma praecepti, quae
+            <lb ed="#L" n="51"/>perfectionem demonstrat, ut cum dicitur, Diliges
+            <lb ed="#L" n="52"/>Dominum Deum tuum ex toto corde tuo, —- totum
+            <lb ed="#L" n="53"/>enim et perfectum idem sunt, secundum Philoso-
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="54"/>phum, in 1I Physic. ; et cum dicitur, Diliges 
+            pro<lb break="no" ed="#L" n="55"/>ximum tuum sicut teipsum, unusquisque enim 
+            se<lb break="no" ed="#L" n="56"/>ipsum maxime diligit. Et hoc ideo est quia inis
+            <lb ed="#L" n="57"/>praecepli caritas est, ut Apostolus dicit, 1 ad
+            <lb ed="#L" n="58"/>Tim. 1: in fine autem non adhibetur aliqua
+            <lb ed="#L" n="59"/>mensura, sed solum in his quae sunt ad finem,
+            <lb ed="#L" n="60"/>ut Philosophus dicit, in I Polit. ; sicut medicus
+            <lb ed="#L" n="61"/>non adhibet mensuram quantum sanet, sed quanta
+            <lb ed="#L" n="62"/>medicina vel diaeta utatur ad sanandum. Et sic
+            <lb ed="#L" n="63"/>patet quod perfectio essentialiter consistit in 
+            prae<lb break="no" ed="#L" n="64"/>ceptis. Unde Augustinus dicit, in libro de 
+            Perfe<lb break="no" ed="#L" n="65"/>ctione Iustitiae : Cur ergo non praeciperetur 
+            ho<lb break="no" ed="#L" n="66"/>mini isía perfectio, quamvis eam in hac vita nemo
+            <lb ed="#L" n="67"/>habeat?
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e868">
+            <lb ed="#L" n="68"/>Secundario autem et instrumentaliter perfectio
+            <lb ed="#L" n="69"/>consistit in consilis. Quae omnia, sicut et 
+            prae<lb break="no" ed="#L" n="70"/>cepta, ordinantur ad caritatem: sed aliter et aliter.
+            <lb ed="#L" n="71"/>Nam praecepta alia  ordinantur ad removendum
+            <lb ed="#L" n="72"/>ea quae sunt caritati contraria, cum quibus 
+            sci<lb break="no" ed="#L" n="73"/>licet caritas esse non potest: consilia autem 
+            or<lb break="no" ed="#L" n="74"/>dinantur ad removendum impedimenta actus 
+            ca<lb break="no" ed="#L" n="75"/>ritatis, quae tamen caritati non contrariantur, sicut
+            <lb ed="#L" n="76"/>est matrimonium, occupatio negotiorum 
+            saecula<lb break="no" ed="#L" n="77"/>rium, et alia huiusmodi. Unde Augustinus dicit,
+            <lb ed="#L" n="78"/>in Enchirid. : Quaecumque mandat Deus, ex
+            <lb ed="#L" n="79"/>quibus unum est, Non moechaberis; et 
+            quaecum<lb break="no" ed="#L" n="80"/>que non iubentur, sed speciali consilio monentur,
+            <lb ed="#L" n="81"/>ex quibus unum est, Bonum est homini mulierem
+            <lb ed="#L" n="82"/>non tangere: tunc recte fiunt cum referuntur ad
+            <lb ed="#L" n="83"/>diligendum Deum et proximum propter Deum, et
+            <lb ed="#L" n="84"/>in hoc saeculo et in futuro. Et inde est quod in
+            <lb ed="#L" n="85"/>Collationibus Patrum  dicit Abbas Moyses: 
+            Zeiu<lb break="no" ed="#L" n="86"/>nia, vigiliae, meditatio Scripturarum, nuditas ac
+            <lb ed="#L" n="87"/>privatio omnium facultatum, non perfectio, sed 
+            per<lb break="no" ed="#L" n="88"/>fectionis instrumenta sunt: quia non in ipsis 
+            consi<lb break="no" ed="#L" n="89"/>stit disciplinae illius finis, sed per illa pervenitur ad
+            <lb ed="#L" n="90"/>finem. Et supra  praemisit quod ad perfectionem
+            <lb ed="#L" n="91"/>caritatis istis gradibus conscendere ? nitimur.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e923">
+            <lb ed="#L" n="92"/>AD PRIMUM ERGO DICENDUM quod in illis verbis
+            <lb ed="#L" n="93"/>Domini aliquid ponitur quasi via ad 
+            perfectio<lb break="no" ed="#L" n="94"/>nem, hoc scilicet quod dicitur, Vade et vende
+            <lb ed="#L" n="95"/>omnia quae habes et da pauperibus: aliud autem
+            <lb ed="#L" n="96"/>subditur in quo perfectio consistit, scilicet quod
+            <lb ed="#L" n="97"/>dicit, e? sequere me. Unde Hieronymus dicit, 
+            su<lb break="no" ed="#L" n="98"/>per Matth. , quod quía non sufficit tantum  
+            re<lb break="no" ed="#L" n="99"/>linquere, Petrus  iungit quod perfectum est, idest,
+            <lb ed="#L" n="100"/>Seculi sumus te. Ambrosius autem, super illud
+            <lb ed="#L" n="101"/>Luc. v, Sequere me, dicit: Sequi iubet non
+            <lb ed="#L" n="102"/>corporis gressu, sed mentis affectu, quod fit per
+            <lb ed="#L" n="103"/>caritatem. Et ideo ex ipso modo loquendi 
+            appa<lb break="no" ed="#L" n="104"/>ret quod consilia sunt quaedam instrumenta per-
+            <pb ed="#L" n="454"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>veniendi ad perfectionem, dum dicitur, Si vis
+            <lb ed="#L" n="2"/>perfectus esse, vade et vende etc.: quasi dicat:
+            <lb ed="#L" n="3"/>Hoc faciendo ad hunc finem pervenies.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e965">
+            <lb ed="#L" n="4"/>AD SECUNDUM DICENDUM quod, sicut Augustinus
+            <lb ed="#L" n="5"/>dicit, in libro de Perfect. lustit. , perfectio 
+            ca<lb break="no" ed="#L" n="6"/>ritatis homini in hac vita praecipitur, quia recte
+            <lb ed="#L" n="7"/>non curritur si quo currendum est nesciatur. 
+            Quo<lb break="no" ed="#L" n="8"/>modo autem sciretur, si nullis praeceptis 
+            ostende<lb break="no" ed="#L" n="9"/>retur? Cum autem id quod cadit sub praecepto
+            <lb ed="#L" n="10"/>diversimode possit impleri, non efficitur 
+            trans<lb break="no" ed="#L" n="11"/>gressor praecepti aliquis ex hoc quod non optimo 
+            <lb ed="#L" n="12"/>modo implet: sed sufficit quod quocumque modo -
+            <lb ed="#L" n="13"/>impleat illud. Perfectio autem divinae dilectionis
+            <lb ed="#L" n="14"/>universaliter quidem cadit sub praecepto, ita quod
+            <lb ed="#L" n="15"/>etiam perfectio patriae non excluditur ab illo 
+            prae<lb break="no" ed="#L" n="16"/>cepto, ut Augustinus dicit : sed transgressionem
+            <lb ed="#L" n="17"/>praecepti evadit qui quocumque modo 
+            perfectio<lb break="no" ed="#L" n="18"/>nem divinae dilectionis attingit. Est aut infimus
+            <lb ed="#L" n="19"/>divinae dilectionis gradus ut nihil supra eum, aut
+            <lb ed="#L" n="20"/>contra eum, aut aequaliter ei diligatur: a quo
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="21"/>gradu perfectionis qui deficit, nullo modo implet
+            <lb ed="#L" n="22"/>praeceptum. Est autem aliquis  gradus perfectae
+            <lb ed="#L" n="23"/>dilectionis qui non potest impleri in via, ut 
+            di<lb break="no" ed="#L" n="24"/>ctum est: a quo qui deficit, manifestum est
+            <lb ed="#L" n="25"/>quod non est transgressor praecepti. Et similiter
+            <lb ed="#L" n="26"/>non est transgressor praecepti qui non attingit
+            <lb ed="#L" n="27"/>ad medios perfectionis gradus, dummodo attingat
+            <lb ed="#L" n="28"/>ad infimum.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1025">
+            <lb ed="#L" n="29"/>AD TERTIUM DICENDUM quod, sicut homo habet
+            <lb ed="#L" n="30"/>quandam perfectionem suae naturae statim cum
+            <lb ed="#L" n="31"/>nascitur, quae pertinet ad rationem speciei, est
+            <lb ed="#L" n="32"/>autem alia perfectio ad quam per augmentum
+            <lb ed="#L" n="33"/>adducitur: ita etiam est quaedam perfectio 
+            ca<lb break="no" ed="#L" n="34"/>ritatis pertinens ad ipsam speciem caritatis, ut
+            <lb ed="#L" n="35"/>Scilicet Deus super omnia diligatur et nihil contra
+            <lb ed="#L" n="36"/>eum ametur; est autem alia perfectio caritatis,
+            <lb ed="#L" n="37"/>etiam in hac vita, ad quam aliquis per aliquod
+            <lb ed="#L" n="38"/>spirituale augmentum pervenit ^, ut puta cum
+            <lb ed="#L" n="39"/>homo etiam a rebus licitis abstinet, ut liberius
+            <lb ed="#L" n="40"/>divinis obsequiis vacet.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2223-Dd1e1055"><!-- p2p2-q184a4 -->
+          <head xml:id="TAca84-d1e2223-Hd1e1058">Articulus 4</head>
+          <head xml:id="TAca84-d1e2223-Hd1e1060" type="question-title">Utrum quicumque est perfectus, sit in statu perfectionis</head>
+          <p xml:id="TAca84-d1e2223-d1e1063">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="13" type="fixed=455"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="14"/>UTRUM QUICUMQUE EST PERFECTUS, SIT IN STATU PERFECTIONIS
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1072">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="15"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="16"/>quicumque est perfectus, sit in statu
+            <lb ed="#L" n="17"/>perfectionis. Sicut enim per 
+            augmen<lb break="no" ed="#L" n="18"/>tum corporale pervenitur ad 
+            perfectio<lb break="no" ed="#L" n="19"/>nem corporalem, ita per augmentum spirituale
+            <lb ed="#L" n="20"/>pervenitur ad perfectionem spiritualem, ut 
+            di<lb break="no" ed="#L" n="21"/>ctum-est . Sed post augmentum corporale 
+            ali<lb break="no" ed="#L" n="22"/>quis dicitur esse in statu perfectae aetatis. Ergo
+            <lb ed="#L" n="23"/>etiam videtur quod post augmentum spirituale,
+            <lb ed="#L" n="24"/>cum quis iam adeptus est perfectionem, sit in
+            <lb ed="#L" n="25"/>statu perfectionis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1101">
+            <lb ed="#L" n="26"/>2. PRAETEREA, eadem ratione qua aliquid 
+            mo<lb break="no" ed="#L" n="27"/>vetur de contrario in contrarium, movetur etiam
+            <lb ed="#L" n="28"/>aliquid de minori ad maius, ut dicitur in V 
+            Phy<lb break="no" ed="#L" n="29"/>sic,  Sed quando aliquis transmutatur de 
+            pec<lb break="no" ed="#L" n="30"/>cato ad gratiam, dicitur mutare statum, prout
+            <lb ed="#L" n="31"/>distinguitur status culpae et status gratiae. Ergo
+            <lb ed="#L" n="32"/>videtur quod, pari ratione, cum aliquis proficit
+            <lb ed="#L" n="33"/>de minori gratia ad maiorem quousque 
+            perve<lb break="no" ed="#L" n="34"/>niat ad perfectum, quod adipiscatur perfectionis
+            <lb ed="#L" n="35"/>statum.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1126">
+            <lb ed="#L" n="36"/>3. PRAETEREA, statum adipiscitur aliquis ex hoc
+            <lb ed="#L" n="37"/>quod a servitute liberatur. Sed per caritatem 
+            ali<lb break="no" ed="#L" n="38"/>quis liberatur a servitute peccati: quia universa
+            <lb ed="#L" n="39"/>delicta operit caritas, ut dicitur Prov. x . Sed 
+            per<lb break="no" ed="#L" n="40"/>fectus dicitur aliquis secundum caritatem, ut 
+            di<lb break="no" ed="#L" n="41"/>ctum est . Ergo videtur quod quicumque 
+            ha<lb break="no" ed="#L" n="42"/>beat perfectionem , ex hoc ipso habeat 
+            perfe<lb break="no" ed="#L" n="43"/>ctionis statum.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1146">
+            <lb ed="#L" n="44"/>SED CONTRA EST quod aliqui sunt in statu 
+            per<lb break="no" ed="#L" n="45"/>fectionis qui omnino caritate et gratia carent:
+            <lb ed="#L" n="46"/>sicut mali episcopi aut mali religiosi. Ergo 
+            vi<lb break="no" ed="#L" n="47"/>detur quod e contrario aliqui habent 
+            perfectio<lb break="no" ed="#L" n="48"/>nem vitae qui tamen non habent perfectionis
+            <lb ed="#L" n="49"/>statum.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1162">
+            <lb ed="#L" n="50"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="51"/>est, status proprie pertinet ad conditionem 
+            liber<lb break="no" ed="#L" n="52"/>tatis vel servitutis. Spiritualis autem libertas aut
+            <lb ed="#L" n="53"/>servitus potest in homine attendi dupliciter: uno
+            <lb ed="#L" n="54"/>modo, secundum id quod interius agitur; alio
+            <lb ed="#L" n="55"/>modo, secundum id quod agitur exterius. Et
+            <lb ed="#L" n="56"/>quia, ut dicitur 1 Reg. xvi , homines vident ea
+            <lb ed="#L" n="57"/>quae parent, sed Deus intuetur cor, inde est quod
+            <lb ed="#L" n="58"/>secundum interiorem hominis dispositionem 
+            ac<lb break="no" ed="#L" n="59"/>cipitur conditio spiritualis status in homine per
+            <lb ed="#L" n="60"/>comparationem ad iudicium divinum: secundum
+            <lb ed="#L" n="61"/>autem ea quae exterius aguntur, accipitur spiri-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="62"/>tualis status in homine per comparationem ad
+            <lb ed="#L" n="63"/>Ecclesiam. Et sic nunc de statibus loquimur:
+            <lb ed="#L" n="64"/>prout scilicet ex diversitate statuum quaedam 
+            Ec<lb break="no" ed="#L" n="65"/>clesiae pulchritudo consurgit .
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1201">
+            <lb ed="#L" n="66"/>Est autem considerandum quod, quantum ad
+            <lb ed="#L" n="67"/>homines, ad hoc quod aliquis adipiscatur statum
+            <lb ed="#L" n="68"/>libertatis vel servitutis, requiritur, primo quidem,
+            <lb ed="#L" n="69"/>aliqua obligatio vel absolutio. Non enim ex hoc
+            <lb ed="#L" n="70"/>quod aliquis servit alicui, efficitur servus: quia
+            <lb ed="#L" n="71"/>etiam liberi serviunt, secundum illud Galat. v :
+            <lb ed="#L" n="72"/>Per caritatem spiritus servite invicem. Neque etiam
+            <lb ed="#L" n="73"/>ex hoc quod aliquis desinit servire, efficitur? liber:
+            <lb ed="#L" n="74"/>sicut patet de servis fugitivis. Sed ille proprie est
+            <lb ed="#L" n="75"/>servus qui obligatur ad serviendum: et ille est
+            <lb ed="#L" n="76"/>liber qui a servitute absolvitur. - Secundo 
+            re<lb break="no" ed="#L" n="77"/>quiritur quod obligatio praedicta cum aliqua 
+            so<lb break="no" ed="#L" n="78"/>lemnitate fiat: sicut et ceteris ? quae inter 
+            ho<lb break="no" ed="#L" n="79"/>mines obtinent perpetuam firmitatem, quaedam
+            <lb ed="#L" n="80"/>solemnitas adhibetur.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1236">
+            <lb ed="#L" n="81"/>Sic igitur et in statu perfectionis proprie 
+            di<lb break="no" ed="#L" n="82"/>citur esse aliquis, non ex hoc quod habet actum
+            <lb ed="#L" n="83"/>dilectionis perfectae, sed ex hoc quod obligat se
+            <lb ed="#L" n="84"/>perpetuo, cum aliqua solemnitate, ad ea quae
+            <lb ed="#L" n="85"/>sunt perfectionis. Contingit etiam quod aliqui se
+            <lb ed="#L" n="86"/>obligant qui non servant, et aliqui implent ad
+            <lb ed="#L" n="87"/>quod non se obligaverunt: ut patet Matth. xxi 
+            <lb ed="#L" n="88"/>de duobus filiis, quorum unus patri dicenti, 
+            Ope<lb break="no" ed="#L" n="89"/>rare in vinea, respondit Nolo: postea abiit; alter
+            <lb ed="#L" n="90"/>autem respondens ait, Eo: et non ivit. Et ideo
+            <lb ed="#L" n="91"/>nihil prohibet aliquos esse perfectos qui non sunt
+            <lb ed="#L" n="92"/>in statu perfectionis: et aliquos esse in statu 
+            per<lb break="no" ed="#L" n="93"/>fectionis qui non sunt perfecti.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1267">
+            <lb ed="#L" n="94"/>AD PRIMUM ERGO DICENDUM quod per augmentum
+            <lb ed="#L" n="95"/>corporale aliquis proficit in his quae pertinent
+            <lb ed="#L" n="96"/>ad naturam, et ideo adipiscitur naturae statum:
+            <lb ed="#L" n="97"/>praesertim quia quod est secundum naturam,
+            <lb ed="#L" n="98"/>quodammodo zmmutabile. est , inquantum 
+            na<lb break="no" ed="#L" n="99"/>tura determinatur. ad unum. Et similiter per
+            <lb ed="#L" n="100"/>augmentum spirituale interius aliquis adipiscitur
+            <lb ed="#L" n="101"/>perfectionis statum quantum ad. divinum 
+            iudi<lb break="no" ed="#L" n="102"/>cium. Sed quantum ad distinctiones 
+            ecclesiasti<lb break="no" ed="#L" n="103"/>corum statuum, non adipiscitur aliquis. statum
+            <lb ed="#L" n="104"/>perfectionis nisi per augmentum in his quae 
+            ex<lb break="no" ed="#L" n="105"/>terius aguntur.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1297">
+            <lb ed="#L" n="106"/>AD SECUNDUM DICENDUM quod illa etiam ratio
+            <lb ed="#L" n="107"/>procedit quantum ad interiorem statum. Et 
+            ta<lb break="no" ed="#L" n="108"/>men, cum aliquis transit de peccato ad gratiam,
+            <pb ed="#L" n="456"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>transit de servitute ad libertatem: quod non 
+            con<lb break="no" ed="#L" n="2"/>tingit per simplicem profectum gratiae, nisi cum
+            <lb ed="#L" n="3"/>aliquis se obligat ad ea quae sunt gratiae.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1317">
+            <lb ed="#L" n="4"/>AD TERTIUM DICENDUM quod illa etiam ratio pro-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="5"/>cedit quantum ad interiorem statum. Et tamen, 
+            <lb ed="#L" n="6"/>licet caritas variet conditionem spiritualis 
+            servi<lb break="no" ed="#L" n="7"/>tutis et libertatis, hoc tamen non facit caritatis 
+            <lb ed="#L" n="8"/>augmentum.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2223-Dd1e1334"><!-- p2p2-q184a5 -->
+          <head xml:id="TAca84-d1e2223-Hd1e1337">Articulus 5</head>
+          <head xml:id="TAca84-d1e2223-Hd1e1339" type="question-title">Utrum praelati et religiosi sint in statu perfectionis</head>
+          <p xml:id="TAca84-d1e2223-d1e1342">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="40" type="fixed=456"/>ARTICULUS QUINTUS
+            <lb ed="#L" n="41"/>UTRUM PRAELATI ET RELIGIOSI SINT IN STATU PERFECTIONIS
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1351">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="42"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="43"/>praelati et religiosi non sint in statu 
+            per<lb break="no" ed="#L" n="44"/>fectionis. Status enim perfectionis 
+            dis<lb break="no" ed="#L" n="45"/>tinguitur contra statum incipientium et
+            <lb ed="#L" n="46"/>proficientium , Sed non sunt aliqua genera 
+            ho<lb break="no" ed="#L" n="47"/>minum deputata specialiter statui proficientium
+            <lb ed="#L" n="48"/>vel incipientium. Ergo videtur quod nec etiam
+            <lb ed="#L" n="49"/>debeant esse aliqua genera hominum deputata 
+            sta<lb break="no" ed="#L" n="50"/>tui perfectionis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1375">
+            <lb ed="#L" n="51"/>2. PRAETEREA, status exterior debet interiori 
+            sta<lb break="no" ed="#L" n="52"/>tui respondere: alioquin incurritur mendacium,
+            <lb ed="#L" n="53"/>quod non solum est in falsis verbis, sed etiam in
+            <lb ed="#L" n="54"/>simulatis operibus, ut Ambrosius dicit, in 
+            quo<lb break="no" ed="#L" n="55"/>dam Sermone . Sed multi sunt praelati vel 
+            re<lb break="no" ed="#L" n="56"/>ligiosi qui non habent interiorem perfectionem
+            <lb ed="#L" n="57"/>caritatis. Si ergo omnes religiosi et praelati sunt
+            <lb ed="#L" n="58"/>in statu perfectionis, sequeretur quod quicumque
+            <lb ed="#L" n="59"/>eorum non sunt  perfecti, sint in peccato 
+            mor<lb break="no" ed="#L" n="60"/>tali, tanquam simulatores et mendaces.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1400">
+            <lb ed="#L" n="61"/>3. PRAETEREA, perfectio secundum caritatem
+            <lb ed="#L" n="62"/>attenditur, ut supra  habitum est. Sed 
+            perfectis<lb break="no" ed="#L" n="63"/>sima caritas videtur esse in martyribus: 
+            secun<lb break="no" ed="#L" n="64"/>dum illud Ioan. xv : Maiorem dilectionem nemo
+            <lb ed="#L" n="65"/>habet quam ut animam suam ponat quis pro 
+            ami<lb break="no" ed="#L" n="66"/>cis suis. Et super illud Heb. xu , Nondum enim
+            <lb ed="#L" n="67"/>usque ad sanguinem etc., dicit Glossa : 
+            Perfe<lb break="no" ed="#L" n="68"/>clior in hac vita dilectio nulla est ea ad quam
+            <lb ed="#L" n="69"/>sancti martyres pervenerunt, qui contra 
+            pecca<lb break="no" ed="#L" n="70"/>tum usque ad sanguinem certaverunt. Ergo 
+            vi<lb break="no" ed="#L" n="71"/>detur quod magis debeat attribui perfectionis 
+            sta<lb break="no" ed="#L" n="72"/>tus martyribus quam religiosis et episcopis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1429">
+            <lb ed="#L" n="73"/>SED cowTRA EsT quod Dionysius, in v cap.
+            <lb ed="#L" n="74"/>Eccles. Hier., attribuit perfectionem episcopis ?
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="75"/>tanquam perfectoribus. Et in vi cap. eiusdem 
+            li<lb break="no" ed="#L" n="76"/>bri, attribuit perfectionem religiosis, quos vocat
+            <lb ed="#L" n="77"/>monachos vel therapeutas , idest, Deo famulantes,
+            <lb ed="#L" n="78"/>tanquam perfectis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1447">
+            <lb ed="#L" n="79"/>RESPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="80"/>ad statum perfectionis requiritur obligatio 
+            per<lb break="no" ed="#L" n="81"/>petua ad ea quae sunt perfectionis, cum aliqua
+            <lb ed="#L" n="82"/>solemnitate. Utrumque autem horum competit et
+            <lb ed="#L" n="83"/>religiosis et episcopis. Religiosi enim voto se 
+            ad<lb break="no" ed="#L" n="84"/>stringunt ad hoc quod a rebus saecularibus 
+            abs<lb break="no" ed="#L" n="85"/>tineant quibus licite uti poterant, ad hoc quod
+            <lb ed="#L" n="86"/>liberius Deo vacent: in quo consistit perfectio
+            <lb ed="#L" n="87"/>praesentis vitae. Unde Dionysius dicit, vi cap.
+            <lb ed="#L" n="88"/>Eccles. Hier., de religiosis loquens: Alii quidem
+            <lb ed="#L" n="89"/>therapeutas, idest famulos, ex Dei? puro servitio et
+            <lb ed="#L" n="90"/>famulatu: alii vero monachos ipsos nominant, ex
+            <lb ed="#L" n="91"/>indivisibili et singulari vita uniente ipsos, 
+            indivi<lb break="no" ed="#L" n="92"/>sibilium sanctis convolutionibus, idest 
+            contempla<lb break="no" ed="#L" n="93"/>tionibus, ad deiformem unitatem et amabilem Deo
+            <lb ed="#L" n="94"/>perfectionem. Horum etiam obligatio fit cum 
+            qua<lb break="no" ed="#L" n="95"/>dam solemnitate professionis et benedictionis.
+            <lb ed="#L" n="96"/>Unde et ibidem subdit Dionysius: Propter quod,
+            <lb ed="#L" n="97"/>perfectam ipsis donans gratiam, sancta legislatio
+            <lb ed="#L" n="98"/>quadam ipsos dignata est sanctificativa invocatione.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1493">
+            <lb ed="#L" n="99"/>Similiter etiam et episcopi obligant se ad ea
+            <lb ed="#L" n="100"/>quae sunt perfectionis, pastorale assumentes 
+            of<lb break="no" ed="#L" n="101"/>ficium, ad quod pertinet ut animam suam ponat
+            <lb ed="#L" n="102"/>pastor pro ovibus suis, sicut dicitur Ioan. x . Unde
+            <lb ed="#L" n="103"/>Apostolus dicit, I ad Zim. ult. : Confessus es
+            <lb ed="#L" n="104"/>bonam confessionem coram multis testibus, idest
+            <lb ed="#L" n="105"/>in tua ordinatione, ut Glossa  ibidem dicit. 
+            Ad<lb break="no" ed="#L" n="106"/>hibetur etiam quaedam solemnitas consecrationis
+            <lb ed="#L" n="107"/>simul cum professione praedicta: secundum il-
+            <pb ed="#L" n="457"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>lud II ad. Zim. 1, Resuscites gratiam Dei quae 
+            <lb ed="#L" n="2"/>est in te per impositionem manuum mearum, quod , 
+            <lb ed="#L" n="3"/>Glossa  exponit de gratia episcopali. Et 
+            Diony<lb break="no" ed="#L" n="4"/>sius dicit, v cap. Eccles. Hier., quod summus 
+            sa<lb break="no" ed="#L" n="5"/>cerdos, idest episcopus, in sua ordinatione habet 
+            <lb ed="#L" n="6"/>eloquiorum super caput sanctissimam  
+            superposi<lb break="no" ed="#L" n="7"/>tionem , ut significetur quod ipse est 
+            participati<lb break="no" ed="#L" n="8"/>vus  integre totius hierarchiae virtutis, et quod 
+            <lb ed="#L" n="9"/>ipse non solum sit illuminativus omnium quae 
+            <lb ed="#L" n="10"/>pertinen ^ ad sanctas locutiones et actiones, sed 
+            <lb ed="#L" n="11"/>quod etiam haec alüs tradat.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1543">
+            <lb ed="#L" n="12"/>AD PRIMUM ERGO DICENDUM quod inchoatio et 
+            <lb ed="#L" n="13"/>augmentum non quaeritur propter se, sed 
+            pro<lb break="no" ed="#L" n="14"/>pter perfectionem. Et ideo ad solum perfectionis 
+            <lb ed="#L" n="15"/>statum aliqui homines:cum quadam obligatione 
+            <lb ed="#L" n="16"/>et solemnitate assumuntur.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1556">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="17"/>AD SECUNDUM DICENDUM quod homines statum
+            <lb ed="#L" n="18"/>perfectionis assumunt, non quasi profitentes se
+            <lb ed="#L" n="19"/>esse perfectos, sed quasi profitentes se ad 
+            per<lb break="no" ed="#L" n="20"/>fectionem tendere. Unde et Apostolus dicit, ad
+            <lb ed="#L" n="21"/>Philipp. u1: Non quod iam comprehenderim, aut
+            <lb ed="#L" n="22"/>perfectus sim: sequor? autem, si quo modo 
+            compre<lb break="no" ed="#L" n="23"/>hendam. Et postea  subdit: Quicumque ergo 
+            per<lb break="no" ed="#L" n="24"/>fecti sumus, hoc sentiamus. Unde non committit
+            <lb ed="#L" n="25"/>aliquis mendacium vel simulationem ex hoc quod
+            <lb ed="#L" n="26"/>non est perfectus qui statum perfectionis 
+            assu<lb break="no" ed="#L" n="27"/>mit: sed ex eo quod ab intentione perfectionis
+            <lb ed="#L" n="28"/>animum revocat.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1588">
+            <lb ed="#L" n="29"/>AD TERTIUM DICENDUM quod martyrium in actu
+            <lb ed="#L" n="30"/>perfectissimo caritatis consistit. Actus autem 
+            per<lb break="no" ed="#L" n="31"/>fectionis non sufficit ad statum faciendum, ut 
+            di<lb break="no" ed="#L" n="32"/>ctum est.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2223-Dd1e1600"><!-- p2p2-q184a6 -->
+          <head xml:id="TAca84-d1e2223-Hd1e1603">Articulus 6</head>
+          <head xml:id="TAca84-d1e2223-Hd1e1605" type="question-title">Utrum omnes praelati ecclesiastici sint in statu perfectionis</head>
+          <p xml:id="TAca84-d1e2223-d1e1608">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="96" type="fixed=457"/>ARTICULUS SEXTUS
+            <lb ed="#L" n="97"/>UTRUM OMNES PRAELATI ECCLESIASTICI SINT IN STATU PERFECTIONIS
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1617">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="98"/>AD SEXTUM sIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="99"/>omnes praelati ecclesiastici sint in statu  
+            <lb ed="#L" n="100"/>df TAXA perfectionis. Dicit enim Hieronymus, 
+            su<lb break="no" ed="#L" n="101"/>per Epist. ad Tit. : Olim idem 
+            presby<lb break="no" ed="#L" n="102"/>ter qui et episcopus: et postea subdit: Sicut ergo 
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="103"/>presbyteri sciunt se Ecclesiae consuetudine ei qui
+            <lb ed="#L" n="104"/>sibi praepositus fuerit, esse subiectos; ita episcopi
+            <lb ed="#L" n="105"/>noverint se magis consuetudine quam 
+            dispensa<lb break="no" ed="#L" n="106"/>tionis. Dominicae veritate  presbyteris esse 
+            ma<lb break="no" ed="#L" n="107"/>iores, et in. communi debere Ecclesiam regere.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1646">
+            <pb ed="#L" n="458"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>Sed episcopi sunt in statu perfectionis. Ergo et 
+            <lb ed="#L" n="2"/>presbyteri habentes curam animarum.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1658">
+            <lb ed="#L" n="3"/>2. PRAETEREA, sicut episcopi suscipiunt curam
+            <lb ed="#L" n="4"/>animarum cum consecratione , ita etiam et 
+            pre<lb break="no" ed="#L" n="5"/>sbyteri curati: et etiam archidiaconi, de quibus,
+            <lb ed="#L" n="6"/>super illud .4c£. vi , Considerate, fratres, viros
+            <lb ed="#L" n="7"/>boni lestimonii septem etc., dicit Glossa : Hic
+            <lb ed="#L" n="8"/>decernebant Apostoli per Ecclesiam constitui 
+            se<lb break="no" ed="#L" n="9"/>piem diacones 8, qui essent sublimioris gradus,
+            <lb ed="#L" n="10"/>et quasi columnae proximi circa aram. Ergo 
+            vi<lb break="no" ed="#L" n="11"/>detur quod ipsi etiam sint in statu perfectionis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1680">
+            <lb ed="#L" n="12"/>3. PRAETEREA, sicut episcopi obligantur ad hoc
+            <lb ed="#L" n="13"/>quod animam suam ponant pro ovibus suis , ita
+            <lb ed="#L" n="14"/>et presbyteri curati et archidiaconi. Sed hoc 
+            per<lb break="no" ed="#L" n="15"/>tinet ad perfectionem caritatis, ut dictum est .
+            <lb ed="#L" n="16"/>Ergo videtur quod etiam presbyteri curati et 
+            ar<lb break="no" ed="#L" n="17"/>chidiaconi sint in statu perfectionis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1696">
+            <lb ed="#L" n="18"/>SED cONTRA EST quod dicit Dionysius, v cap.
+            <lb ed="#L" n="19"/>Eccles. Hier.: Pontificum quidem ordo 
+            consum<lb break="no" ed="#L" n="20"/>malivus est et perfectivus; sacerdotum autem 
+            il<lb break="no" ed="#L" n="21"/>luminativus et lucidativus Y; ministrantium vero
+            <lb ed="#L" n="22"/>purgativus et discretivus. Ex quo patet quod 
+            per<lb break="no" ed="#L" n="23"/>fectio solis episcopis attribuitur.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1712">
+            <lb ed="#L" n="24"/>RESPONDEO DICENDUM quod in presbyteris et 
+            dia<lb break="no" ed="#L" n="25"/>conibus habentibus curam animarum, duo 
+            pos<lb break="no" ed="#L" n="26"/>sunt considerari: scilicet ordo, et cura. Ordo
+            <lb ed="#L" n="27"/>autem ipse ordinatur ad quendam actum in 
+            divi<lb break="no" ed="#L" n="28"/>nis officiis: unde supra  dictum est quod 
+            distin<lb break="no" ed="#L" n="29"/>ctio ordinum sub distinctione officiorum 
+            contine<lb break="no" ed="#L" n="30"/>tur. Unde per hoc quod aliqui accipiunt sacrum
+            <lb ed="#L" n="31"/>ordinem, accipiunt potestatem quosdam sacros
+            <lb ed="#L" n="32"/>actus perficiendi: non autem obligantur ex hoc
+            <lb ed="#L" n="33"/>ipso ad ea quae sunt perfectionis, nisi quatenus,
+            <lb ed="#L" n="34"/>apud Occidentalem Ecclesiam, in susceptione 
+            sa<lb break="no" ed="#L" n="35"/>cri ordinis emittitur continentiae votum , quod
+            <lb ed="#L" n="36"/>est unum eorum quae ad perfectionem pertinent,
+            <lb ed="#L" n="37"/>ut infra  dicetur. Unde patet quod ex hoc quod
+            <lb ed="#L" n="38"/>aliquis accipit sacrum ordinem, non ponitur 
+            sim<lb break="no" ed="#L" n="39"/>pliciter in statu perfectionis: quamvis interior
+            <lb ed="#L" n="40"/>perfectio ad hoc requiratur quod aliquis digne
+            <lb ed="#L" n="41"/>huiusmodi actus exerceat.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1754">
+            <lb ed="#L" n="42"/>Similiter etiam nec ex parte curae quam 
+            su<lb break="no" ed="#L" n="43"/>scipiunt, ponuntur in statu perfectionis. Non enim
+            <lb ed="#L" n="44"/>obligantur ex hoc ipso vinculo perpetui voti ad
+            <lb ed="#L" n="45"/>hoc quod curam animarum retineant, sed 
+            pos<lb break="no" ed="#L" n="46"/>sunt eam deserere: vel transeundo ad religionem,
+            <lb ed="#L" n="47"/>etiam absque licentia episcopi, ut habetur in 
+            De<lb break="no" ed="#L" n="48"/>cretis, XIX Caus., qu. i11 ; - et etiam, cum 
+            li<lb break="no" ed="#L" n="49"/>centia episcopi, potest aliquis ? archidiaconatum
+            <lb ed="#L" n="50"/>vel parochiam dimittere et simplicem 
+            praeben<lb break="no" ed="#L" n="51"/>dam accipere sine cura. Quod nullo modo 
+            lice<lb break="no" ed="#L" n="52"/>ret si esset in statu perfectionis: nemo enim 
+            7ilt<lb break="no" ed="#L" n="53"/>lens manum ad aratrum et aspiciens retro, aptus
+            <lb ed="#L" n="54"/>est regno Dei, ut dicitur Luc. ix . Episcopi 
+            au<lb break="no" ed="#L" n="55"/>tem, quia sunt in statu perfectionis, non nisi
+            <lb ed="#L" n="56"/>auctoritate Summi Pontificis, ad quem etiam 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="57"/>pertinet in votis perpetuis dispensare, possunt
+            <lb ed="#L" n="58"/>episcopalem curam deserere, et ex certis causis,
+            <lb ed="#L" n="59"/>ut infra  dicetur.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1798">
+            <lb ed="#L" n="60"/>Unde manifestum est quod non omnes 
+            prae<lb break="no" ed="#L" n="61"/>lati sunt in statu perfectionis, sed soli episcopi.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1806">
+            <lb ed="#L" n="62"/>AD PRIMUM ERGO DICENDUM quod de presbytero
+            <lb ed="#L" n="63"/>et episcopo dupliciter loqui possumus. Uno modo,
+            <lb ed="#L" n="64"/>quantum ad nomen. Et sic olim non 
+            distingue<lb break="no" ed="#L" n="65"/>bantur episcopi et presbyteri. Nam episcopi 
+            di<lb break="no" ed="#L" n="66"/>cuntur ex eo quod superintendunt, sicut 
+            Augu<lb break="no" ed="#L" n="67"/>stinus dicit, XIX de Civ. Dei : presbyteri autem
+            <lb ed="#L" n="68"/>in graeco dicuntur quasi seniores. Unde et 
+            Apo<lb break="no" ed="#L" n="69"/>stolus communiter. utitur nomine presbyterorum
+            <lb ed="#L" n="70"/>quantum ad utrosque, cum dicit, l ad 7im. v :
+            <lb ed="#L" n="71"/>Qui bene praesunt presbyteri, duplici honore digni
+            <lb ed="#L" n="72"/>habeantur. Et similiter etiam nomine epí
+            scopo<lb break="no" ed="#L" n="73"/>rum: unde dicit, Act. xx , presbyteris Ecclesiae
+            <lb ed="#L" n="74"/>Ephesinae loquens: Attendite vobis et universo
+            <lb ed="#L" n="75"/>gregi, in quo vos Spiritus Sanctus posuit 
+            episco<lb break="no" ed="#L" n="76"/>pos regere Ecclesiam Dei.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1841">
+            <lb ed="#L" n="77"/>Sed secundum rem, semper inter eos fuit 
+            dis<lb break="no" ed="#L" n="78"/>tinctio, etiam tempore Apostolorum: ut patet
+            <lb ed="#L" n="79"/>per Dionysium, v cap. Eccles. Hier. Et Luc. x,
+            <lb ed="#L" n="80"/>super illud , Pos? haec autem designavit 
+            Domi<lb break="no" ed="#L" n="81"/>nus etc., dicit Glossa : Sicut in Apostolis forma
+            <lb ed="#L" n="82"/>est episcoporum, sic in septuagintaduobus 
+            disci<lb break="no" ed="#L" n="83"/>pulis forma est presbyterorum secundi ordinis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1859">
+            <lb ed="#L" n="84"/>Postmodum tamen, ad schisma vitandum, 
+            ne<lb break="no" ed="#L" n="85"/>cessarium fuit ut etiam nomina distinguerentur :
+            <lb ed="#L" n="86"/>ut scilicet maiores dicerentur episcopi. Minores
+            <lb ed="#L" n="87"/>autem dicuntur  presbyteri.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1870">
+            <lb ed="#L" n="88"/>Dicere autem presbyteros non differre ab 
+            epi<lb break="no" ed="#L" n="89"/>scopis, inter dogmata haeretica numerat 
+            Augu<lb break="no" ed="#L" n="90"/>stinus, in libro de .Haeres. , ubi dicit quod
+            <lb ed="#L" n="91"/>Aeriani  dicebant presbyterum ab episcopo nulla
+            <lb ed="#L" n="92"/>differentia debere discerni.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1883">
+            <lb ed="#L" n="93"/>AD SECUNDUM DICENDUM quod episcopi 
+            principa<lb break="no" ed="#L" n="94"/>liter habent curam omnium  suae dioecesis: 
+            pre<lb break="no" ed="#L" n="95"/>sbyteri autem curati et archidiaconi habent 
+            ali<lb break="no" ed="#L" n="96"/>quas subministrationes sub episcopis. Unde super
+            <lb ed="#L" n="97"/>illud I ad. Cor. xu , Alii opitulationes, alii 
+            guber<lb break="no" ed="#L" n="98"/>nationes, dicit Glossa : « Opitulationes », idest, eos
+            <lb ed="#L" n="99"/>qui maioribus ferunt opem , ut Titus Apostolo, vel
+            <lb ed="#L" n="100"/>archidiaconi episcopis. « Gubernationes », scilicet
+            <lb ed="#L" n="101"/>minorum personarum praelationes, ut presbyteri
+            <lb ed="#L" n="102"/>sunt, qui plebi documento sunt. Et Dionysius
+            <lb ed="#L" n="103"/>dicit, v cap. Eccles. Hier., quod sicut 
+            univer<lb break="no" ed="#L" n="104"/>sam  hierarchiam videmus in Iesu terminatam, ita
+            <lb ed="#L" n="105"/>unamquamque in proprio divino hierarcha, idest
+            <lb ed="#L" n="106"/>episcopo. Et XVI, qu. 1 , dicitur: Omnibus 
+            pres<lb break="no" ed="#L" n="107"/>byteris et ^ diaconibus attendendum est ut nihil
+            <lb ed="#L" n="108"/>absque proprii episcopi licentia agant. Ex quo 
+            pa<lb break="no" ed="#L" n="109"/>tet quod ita se habent ad episcopum sicut ballivi
+            <lb ed="#L" n="110"/>vel praepositi ad regem. Et propter hoc, sicut
+            <lb ed="#L" n="111"/>in  mundanis potestatibus solus rex solemnem
+            <lb ed="#L" n="112"/>benedictionem accipit, alii vero per simplicem
+            <pb ed="#L" n="459"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>commissionem instituuntur; ita etiam in Ecclesia
+            <lb ed="#L" n="2"/>cura episcopalis cum solemnitate consecrationis
+            <lb ed="#L" n="3"/>committitur, cura autem archidiaconatus vel 
+            ple<lb break="no" ed="#L" n="4"/>banatus cum simplici iniunctione. - 
+            Consecran<lb break="no" ed="#L" n="5"/>tur tamen in susceptione ordinis, etiam  
+            ante<lb break="no" ed="#L" n="6"/>quam curam habeant.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1946">
+            <lb ed="#L" n="7"/>AD TERTIUM DICENDUM quod sicut plebani et
+            <lb ed="#L" n="8"/>archidiaconi non habent principaliter curam, sed
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="9"/>administrationem quandam secundum quod eis
+            <lb ed="#L" n="10"/>ab episcopo committitur; ita etiam ad eos non
+            <lb ed="#L" n="11"/>pertinet principaliter pastorale officium, nec 
+            obli<lb break="no" ed="#L" n="12"/>gatio ponendi animam pro ovibus, sed inquantum
+            <lb ed="#L" n="13"/>participant de cura. Unde magis habent quoddam
+            <lb ed="#L" n="14"/>officium ad perfectionem pertinens ^, quam 
+            ob<lb break="no" ed="#L" n="15"/>tineant perfectionis statum.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2223-Dd1e1972"><!-- p2p2-q184a7 -->
+          <head xml:id="TAca84-d1e2223-Hd1e1975">Articulus 7</head>
+          <head xml:id="TAca84-d1e2223-Hd1e1977" type="question-title">Utrum status religiosorum sit perfectior quam status praelatorum</head>
+          <p xml:id="TAca84-d1e2223-d1e1980">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="105" type="fixed=460"/>ARTICULUS SEPTIMUS
+            <lb ed="#L" n="106"/>UTRUM STATUS RELIGIOSORUM SIT PERFECTIOR QUAM STATUS PRAELATORUM
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e1989">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="107"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="108"/>status religiosorum sit perfectior quam
+            <lb ed="#L" n="109"/>status praelatorum. Dominus enim 
+            di<lb break="no" ed="#L" n="110"/>«Ncit, Matth. xix : .Si vis perfectus esse,
+            <lb ed="#L" n="111"/>vade et vende omnia quae habes et da pauperibus:
+            <lb ed="#L" n="112"/>quod faciunt religiosi. Non autem ad hoc 
+            tenen<lb break="no" ed="#L" n="113"/>tur episcopi: dicitur enim XII, qu. 1 : Episcopi
+            <lb ed="#L" n="114"/>de rebus propriis vel acquisitis, vel quidquid de
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="115"/>proprio habent, heredibus suis derelinquant. Ergo
+            <lb ed="#L" n="116"/>religiosi sunt in perfectiori statu quam episcopi.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2018">
+            <lb ed="#L" n="117"/>2. PRAETEREA, perfectio principalius consistit in
+            <lb ed="#L" n="118"/>dilectione Dei quam in dilectione proximi. Sed
+            <lb ed="#L" n="119"/>status religiosorum directe ordinatur ad 
+            dilectio<lb break="no" ed="#L" n="120"/>nem Dei: unde et ex Dei servitio et famulatu
+            <lb ed="#L" n="121"/>nominantur , ut Dionysius dicit, vi cap. Eccles.
+            <lb ed="#L" n="122"/>Hier. Status autem episcoporum videtur ordinari
+            <pb ed="#L" n="461"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>ad dilectionem proximi, cuius curae 
+            superinten<lb break="no" ed="#L" n="2"/>dunt: unde et nominantur, ut patet per 
+            <ref xml:id="TAca84-d1e2223-Rd1e2041">Augu<lb break="no" ed="#L" n="3"/>stinum, XIX de Civ. Dei.</ref> Ergo videtur quod
+            <lb ed="#L" n="4"/>status religiosorum sit perfectior quam status 
+            epi<lb break="no" ed="#L" n="5"/>scoporum.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2053">
+            <lb ed="#L" n="6"/>3. PRAETEREA, status religiosorum ordinatur ad
+            <lb ed="#L" n="7"/>vitam contemplativam, quae potior est quam vita
+            <lb ed="#L" n="8"/>activa, ad quam ordinatur ? status Sgisbponims
+            <lb ed="#L" n="9"/>dicit enim. Gregorius, in Pastoral. , quod per
+            <lb ed="#L" n="10"/>activam vilam prodesse proximis cupiens Isaias
+            <lb ed="#L" n="11"/>officium praedicationis appetit: per 
+            contempla<lb break="no" ed="#L" n="12"/>tionem  vero Ieremias, amori Conditoris sedulo
+            <lb ed="#L" n="13"/>inhaerere desiderans, ne mitti ad praedicandum
+            <lb ed="#L" n="14"/>debeat, contradicit. Ergo videtur quod status 
+            reli<lb break="no" ed="#L" n="15"/>giosorum sit perfectior quam status episcoporum.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2077">
+            <lb ed="#L" n="16"/>SED cowTRA, nulli licet a maiori statu ad 
+            mi<lb break="no" ed="#L" n="17"/>norem transire: hoc enim esset retro aspicere .
+            <lb ed="#L" n="18"/>Sed potest aliquis a statu religionis transire ad
+            <lb ed="#L" n="19"/>statum episcopalem: dicitur enim XVIII, qu. 1
+            <lb ed="#L" n="20"/>quod sacra ordinatio de monacho episcopum 
+            fa<lb break="no" ed="#L" n="21"/>cit. Ergo status episcoporum est perfectior quam
+            <lb ed="#L" n="22"/>religiosorum.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2095">
+            <lb ed="#L" n="23"/>RESPONDEO DICENDUM quod, sicut <ref xml:id="TAca84-d1e2223-Rd1e2099">Augustinus 
+              di<lb break="no" ed="#L" n="24"/>cit, XII super Gen. ad litt.</ref> , semper agens 
+            prae<lb break="no" ed="#L" n="25"/>stantius est patiente. In genere autem perfectionis,
+            <lb ed="#L" n="26"/>episcopi, secundum Dionysium , se habent ut 
+            per<lb break="no" ed="#L" n="27"/>- fectores, religiosi autem ut perfecti: quorum unum
+            <lb ed="#L" n="28"/>pertinet ad actionem, alterum autem ad 
+            passio<lb break="no" ed="#L" n="29"/>nem. Unde manifestum est quod status 
+            perfectio<lb break="no" ed="#L" n="30"/>nis potius est in episcopis quam in religiosis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2118">
+            <lb ed="#L" n="31"/>AD PRIMUM ERGO DICENDUM quod abrenuntiatio
+            <lb ed="#L" n="32"/>propriarum facultatum dupliciter considerari 
+            pot<lb break="no" ed="#L" n="33"/>est. Uno modo, secundum quod est in actu. Et
+            <lb ed="#L" n="34"/>sic in ea non consistit essentialiter perfectio, sed
+            <lb ed="#L" n="35"/>est quoddam perfectionis instrumentum, sicut 
+            su<lb break="no" ed="#L" n="36"/>pra  dictum est. Et ideo nihil prohibet statum
+            <lb ed="#L" n="37"/>perfectionis esse sine abrenuntiatione propriorum.
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="38"/>Sic etiam dicendum est de aliis exterioribus 
+            ob<lb break="no" ed="#L" n="39"/>servantiis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2142">
+            <lb ed="#L" n="40"/>Alio modo potest considerari secundum 
+            prae<lb break="no" ed="#L" n="41"/>parationem animi: ut scilicet homo sit paratus,
+            <lb ed="#L" n="42"/>si opus fuerit, omnia dimittere vel distribuere.
+            <lb ed="#L" n="43"/>Et hoc pertinet directe ad perfectionem. Unde
+            <lb ed="#L" n="44"/>Augustinus dicit, in libro de Quaest. Evang. :
+            <lb ed="#L" n="45"/>Ostendit Dominus filios sapientiae intelligere non
+            <lb ed="#L" n="46"/>in abstinendo nec in manducando esse iustitiam:
+            <lb ed="#L" n="47"/>sed in aequanimitate tolerandi inopiam. Unde et
+            <lb ed="#L" n="48"/>Apostolus dicit: Scio abundare el penuriam pati.
+            <lb ed="#L" n="49"/>Ad hoc autem maxime tenentur episcopi, quod
+            <lb ed="#L" n="50"/>omnia sua pro honore Dei et salute sui gregis
+            <lb ed="#L" n="51"/>contemnant, cum opus fuerit, vel pauperibus sui
+            <lb ed="#L" n="52"/>gregis largiendo, vel rapinam bonorum suorum
+            <lb ed="#L" n="53"/>cum gaudio sustinendo .
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2175">
+            <lb ed="#L" n="54"/>AD SECUNDUM DICENDUM quod hoc ipsum quod
+            <lb ed="#L" n="55"/>episcopi intendunt his quae pertinent ad 
+            proxi<lb break="no" ed="#L" n="56"/>morum dilectionem, provenit ex abundantia 
+            di<lb break="no" ed="#L" n="57"/>lectionis divinae. Unde Dominus primo a Petro
+            <lb ed="#L" n="58"/>quaesivit an eum diligeret, et postea ei gregis
+            <lb ed="#L" n="59"/>curam commisit . Et Gregorius dicit, in 
+            Pasto<lb break="no" ed="#L" n="60"/>ral.: Si dilectionis est testimonium cura 
+            pasto<lb break="no" ed="#L" n="61"/>ris , quisquis, virtutibus pollens, gregem Dei 
+            re<lb break="no" ed="#L" n="62"/>nuit pascere, Pastorem Summum convincitur non
+            <lb ed="#L" n="63"/>amare. Hoc autem est maioris dilectionis signum,
+            <lb ed="#L" n="64"/>ut homo propter amicum etiam alii serviat, quam
+            <lb ed="#L" n="65"/>etiam si soli amico velit servire.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2205">
+            <lb ed="#L" n="66"/>Ap TERTIUM DICENDUM quod, sicut Gregorius 
+            di<lb break="no" ed="#L" n="67"/>cit, in Pastoral. : Sit praesul actione praecipuus,
+            <lb ed="#L" n="68"/>prae cunctis contemplatione suspensus: quia ad
+            <lb ed="#L" n="69"/>ipsos pertinet non solum propter seipsos, sed
+            <lb ed="#L" n="70"/>etiam propter instructionem aliorum contemplari.
+            <lb ed="#L" n="71"/>Unde Gregorius dicit, super Exech., quod de
+            <lb ed="#L" n="72"/>perfectis viris post. contemplationem suam  
+            rede<lb break="no" ed="#L" n="73"/>unlibus dicitur: Memoriam suavitatis tuae 
+            eru<lb break="no" ed="#L" n="74"/>ctabunt.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2223-Dd1e2228"><!-- p2p2-q184a8 -->
+          <head xml:id="TAca84-d1e2223-Hd1e2231">Articulus 8</head>
+          <head xml:id="TAca84-d1e2223-Hd1e2233" type="question-title">Utrum presbyteri curati et archidiaconi sint maioris perfectionis quam religiosi</head>
+          <p xml:id="TAca84-d1e2223-d1e2236">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="96" type="fixed=461"/>ARTICULUS OCTAVUS
+            <lb ed="#L" n="97"/>UTRUM PRESBYTERI CURATI ET ARCHIDIACONI SINT MAIORIS PERFECTIONIS QUAM RELIGIOSI
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2245">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="98"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="99"/>etiam presbyteri curati et archidiaconi
+            <lb ed="#L" n="100"/>sint maioris perfectionis quam religiosi.
+            <lb ed="#L" n="101"/>dicit enim Chrysostomus, in suo Dia-
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="102"/>logo : Si talem mihi aliquem adducas monachum
+            <lb ed="#L" n="103"/>qualis, ut secundum exaggerationem dicam, Elias
+            <lb ed="#L" n="104"/>fuit: non tamen illi comparandus est qui, traditus
+            <lb ed="#L" n="105"/>populis et multorum peccata ferre compulsus, im-
+            <pb ed="#L" n="462"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>mobilis perseverat et fortis. Et parum post  dicit:
+            <lb ed="#L" n="2"/>Si quis mihi proponeret optionem ubi mallem 
+            pla<lb break="no" ed="#L" n="3"/>cere, in officio sacerdotali an in solitudine 
+            mo<lb break="no" ed="#L" n="4"/>nachorum: sine comparatione eligerem illud quod
+            <lb ed="#L" n="5"/>prius dixi. Et in eodem libro  dicit: S; quis bene
+            <lb ed="#L" n="6"/>administrato sacerdotio illius propositi, scilicet 
+            mo<lb break="no" ed="#L" n="7"/>nachalis, sudores conferat, tantum eos distare 
+            re<lb break="no" ed="#L" n="8"/>periet quantum inter privatum distat et regem.
+            <lb ed="#L" n="9"/>Ergo videtur quod sacerdotes habentes curam
+            <lb ed="#L" n="10"/>animarum sint perfectiores religiosis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2295">
+            <lb ed="#L" n="11"/>2. PRAETEREA, Augustinus dicit, in epistola ad
+            <lb ed="#L" n="12"/>Valerium :  Cogitet religiosa prudentia tua nihil
+            <lb ed="#L" n="13"/>esse in hac vita, maxime hoc tempore, difficilius,
+            <lb ed="#L" n="14"/>laboriosius, periculosius episcopi aut presbyteri aut
+            <lb ed="#L" n="15"/>diaconi officio: sed apud Deum nihil beatius, si
+            <lb ed="#L" n="16"/>eo modo militetur quo noster Imperator iubet.
+            <lb ed="#L" n="17"/>Non ergo religiosi sunt perfectiores presbyteris
+            <lb ed="#L" n="18"/>aut diaconibus.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2316">
+            <lb ed="#L" n="19"/>3. PRAETEREA, Augustinus dicit, ad Aurelium :
+            <lb ed="#L" n="20"/>Nimis dolendum est, si ad tam ruinosam 
+            super<lb break="no" ed="#L" n="21"/>biam monachos subrigimus, et tam gravi 
+            contu<lb break="no" ed="#L" n="22"/>melia clericos dignos putamus, ut scilicet dicatur
+            <lb ed="#L" n="23"/>quod « malus monachus bonus clericus est » : cum
+            <lb ed="#L" n="24"/>aliquando bonus etiam monachus vix bonum 
+            cle<lb break="no" ed="#L" n="25"/>ricum faciat. Et paulo ante praemittit, non esse
+            <lb ed="#L" n="26"/>viam dandam servis Dei, idest monachis, ut se
+            <lb ed="#L" n="27"/>facilius putent. eligi ad aliquid melius, scilicet 
+            cle<lb break="no" ed="#L" n="28"/>ricatum, s facti fuerint deteriores, scilicet abiecto
+            <lb ed="#L" n="29"/>monachatu. Ergo videtur quod illi qui sunt in
+            <lb ed="#L" n="30"/>statu clericali, sint perfectiores religiosis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2345">
+            <lb ed="#L" n="31"/>4. PRAETEREA, non licet de statu maiori ad 
+            mi<lb break="no" ed="#L" n="32"/>norem transire. Sed de statu monastico transire
+            <lb ed="#L" n="33"/>licet ad officium presbyteri curam habentis: ut
+            <lb ed="#L" n="34"/>patet XVI, qu. 1, ex decreto Gelasii Papae, qui
+            <lb ed="#L" n="35"/>dicit: Si quis monachus fuerit qui, venerabilis
+            <lb ed="#L" n="36"/>vitae merito, sacerdotio dignus praevideatur; et
+            <lb ed="#L" n="37"/>abbas sub cuius imperio Regi Christo militat, 
+            il<lb break="no" ed="#L" n="38"/>lum fieri presbyterum petierit: ab episcopo debet
+            <lb ed="#L" n="39"/>eligi, et in loco quo iudicaverit ordinari. Et 
+            Hie<lb break="no" ed="#L" n="40"/>ronymus dicit, ad Rusticum Monachum : Sic
+            <lb ed="#L" n="41"/>vive in monasterio ut clericus esse merearis. Ergo
+            <lb ed="#L" n="42"/>presbyteri curati et archidiaconi sunt perfectiores
+            <lb ed="#L" n="43"/>religiosis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2376">
+            <lb ed="#L" n="44"/>5. PRAETEREA, episcopi sunt in statu perfectiori
+            <lb ed="#L" n="45"/>quam religiosi, ut ex supra  dictis patet. Sed
+            <lb ed="#L" n="46"/>presbyteri curati et archidiaconi, ex eo quod 
+            ha<lb break="no" ed="#L" n="47"/>bent curam animarum, similiores sunt episcopis
+            <lb ed="#L" n="48"/>quam religiosi. Ergo sunt maioris perfectionis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2389">
+            <lb ed="#L" n="49"/>6. PRAETEREA, viríus consistit circa difficile et
+            <lb ed="#L" n="50"/>bonum, ut dicitur in II Ethic.  Sed difficilius est
+            <lb ed="#L" n="51"/>quod aliquis bene vivat in officio presbyteri 
+            cu<lb break="no" ed="#L" n="52"/>rati vel archidiaconi quam in statu religionis.
+            <lb ed="#L" n="53"/>Ergo presbyteri curati vel archidiaconi sunt 
+            per<lb break="no" ed="#L" n="54"/>fectioris virtutis quam religiosi.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2405">
+            <lb ed="#L" n="55"/>SED coNTRA EST quod dicitur XIX, qu. r1, cap.
+            <lb ed="#L" n="56"/>Duae: Si quis in ecclesia sua sub episcopo 
+            po<lb break="no" ed="#L" n="57"/>pulum retinet et saeculariter vivit, si, afflatus 
+            Spi<lb break="no" ed="#L" n="58"/>ritu Sancto, in aliquo monasterio vel regulari 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="59"/>canonica salvari se voluerit: quia lege privata
+            <lb ed="#L" n="60"/>ducitur, nulla ratio exigit ut publica 
+            constringa<lb break="no" ed="#L" n="61"/>tur. Sed non ducitur aliquis a lege Spiritus Sancti,
+            <lb ed="#L" n="62"/>quae ibi dicitur /ex privata, nisi in aliquid 
+            per<lb break="no" ed="#L" n="63"/>fectius. Ergo videtur quod religiosi sint 
+            perfe<lb break="no" ed="#L" n="64"/>ctiores quam archidiaconi vel presbyteri curati.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2431">
+            <lb ed="#L" n="65"/>RESPONDEO DICENDUM quod comparatio 
+            super<lb break="no" ed="#L" n="66"/>eminentiae non habet locum inter aliquos ex ea
+            <lb ed="#L" n="67"/>parte in qua conveniunt, sed ex ea parte in qua
+            <lb ed="#L" n="68"/>differunt. In presbyteris autem curatis et 
+            archi<lb break="no" ed="#L" n="69"/>diaconis tria est considerare: scilicet statum, 
+            or<lb break="no" ed="#L" n="70"/>dinem et officium. Ad statum pertinet quod 
+            sae<lb break="no" ed="#L" n="71"/>culares sunt; ad ordinem, quod sunt sacerdotes
+            <lb ed="#L" n="72"/>vel diaconi; ad officium, quod curam animarum
+            <lb ed="#L" n="73"/>habent sibi commissam.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2454">
+            <lb ed="#L" n="74"/>Si igitur ex alia parte ponamus statu ? 
+            religio<lb break="no" ed="#L" n="75"/>sum, ordine diaconum vel sacerdotem, officio
+            <lb ed="#L" n="76"/>curam animarum habentem, sicut plerique 
+            mo<lb break="no" ed="#L" n="77"/>nachi et canonici regulares habent: in primo 
+            qui<lb break="no" ed="#L" n="78"/>dem excellit, in aliis autem par erit. - Si autem
+            <lb ed="#L" n="79"/>differat secundus a primo statu et officio, 
+            con<lb break="no" ed="#L" n="80"/>veniat autem ordine, sicut sunt religiosi 
+            sacer<lb break="no" ed="#L" n="81"/>dotes et diaconi curam animarum non habentes :
+            <lb ed="#L" n="82"/>manifestum est quod secundus primo erit statu
+            <lb ed="#L" n="83"/>quidem excellentior, officio autem minor, ordine
+            <lb ed="#L" n="84"/>vero aequalis. - Est ergo considerandum quae
+            <lb ed="#L" n="85"/>praeeminentia potior sit: utrum status, vel officii.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2483">
+            <lb ed="#L" n="86"/>Circa quod duo attendenda videntur: scilicet
+            <lb ed="#L" n="87"/>bonitas et difficultas. Si ergo fiat comparatio 
+            se<lb break="no" ed="#L" n="88"/>cundum bonitatem, sic praefertur status 
+            religio<lb break="no" ed="#L" n="89"/>nis officio presbyteri curati vel archidiaconi: quia 
+            <lb ed="#L" n="90"/>religiosus totam vitam suam obligat ad 
+            perfectio<lb break="no" ed="#L" n="91"/>nis studium; presbyter autem curatus vel 
+            archi<lb break="no" ed="#L" n="92"/>diaconus non obligat totam vitam suam ad 
+            cu<lb break="no" ed="#L" n="93"/>ram animarum, sicut episcopus; nec etiam ei
+            <lb ed="#L" n="94"/>competit principalem curam subditorum habere,
+            <lb ed="#L" n="95"/>sicut episcopis; sed quaedam particularia circa
+            <lb ed="#L" n="96"/>curam animarum eorum officio committuntur,
+            <lb ed="#L" n="97"/>ut ex dictis  patet. Et ideo comparatio status
+            <lb ed="#L" n="98"/>religionis ad eorum officium est sicut universalis
+            <lb ed="#L" n="99"/>ad particulare: et sicut holocausti ad sacrificium,
+            <lb ed="#L" n="100"/>quod est minus holocausto, ut patet per Grego
+            <lb ed="#L" n="101"/>rium, super Exech. Unde et XIX, qu. 1; 
+            di<lb break="no" ed="#L" n="102"/>citur: Clericis qui monachorum propositum 
+            ap<lb break="no" ed="#L" n="103"/>petunt, quia meliorem vitam sequi cupiunt, liberos
+            <lb ed="#L" n="104"/>eis ab episcopo in monasteriis oportet largiri 
+            in<lb break="no" ed="#L" n="105"/>gressus. - Sed haec comparatio intelligenda est
+            <lb ed="#L" n="106"/>secundum genus operis. Nam secundum 
+            carita<lb break="no" ed="#L" n="107"/>tem operantis, contingit quandoque quod opus
+            <lb ed="#L" n="108"/>ex genere suo minus existens, magis est 
+            meri<lb break="no" ed="#L" n="109"/>torium, si  ex maiori caritate fiat.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2538">
+            <lb ed="#L" n="110"/>Si vero attendatur difficultas bene conversandi
+            <lb ed="#L" n="111"/>in religione, et in officio habentis curam 
+            anima<lb break="no" ed="#L" n="112"/>rum, sic difficilius est bene conversari cum cura
+            <lb ed="#L" n="113"/>animarum, propter exteriora pericula: quamvis
+            <lb ed="#L" n="114"/>conversatio religionis sit difficilior quantum ad
+            <lb ed="#L" n="115"/>ipsum genus operis, propter arctitudinem ? 
+            ob<lb break="no" ed="#L" n="116"/>servantiae regularis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2556">
+            <pb ed="#L" n="463"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>Si vero religiosus etiam ordine careat, sicut
+            <lb ed="#L" n="2"/>patet de conversis religionum, sic manifestum est
+            <lb ed="#L" n="3"/>excellere praeeminentiam ordinis quantum ad 
+            di<lb break="no" ed="#L" n="4"/>gnitatem: quia per sacrum ordinem aliquis 
+            de<lb break="no" ed="#L" n="5"/>putatur ad dignissima ministeria, quibus ipsi 
+            Chri<lb break="no" ed="#L" n="6"/>sto servitur in sacramento Altaris, ad quod 
+            re<lb break="no" ed="#L" n="7"/>quiritur maior sanctitas interior quam requirat
+            <lb ed="#L" n="8"/>etiam religionis status; quia, sicut Dionysius 
+            di<lb break="no" ed="#L" n="9"/>cit, vi cap. Eccles. Hier., monasticus ordo debet
+            <lb ed="#L" n="10"/>sequi sacerdotales ordines, et ad eorum 
+            imiltatio<lb break="no" ed="#L" n="11"/>nem in divina ascendere. Unde gravius peccat,
+            <lb ed="#L" n="12"/>ceteris paribus, clericus in sacris ordinibus 
+            con<lb break="no" ed="#L" n="13"/>stitutus, si aliquid contrarium sanctitati agat, quam
+            <lb ed="#L" n="14"/>aliquis religiosus qui non habet ordinem sacrum:
+            <lb ed="#L" n="15"/>quamvis laicus religiosus teneatur ad observantias
+            <lb ed="#L" n="16"/>regulares, ad quas illi qui sunt in sacris ordinibus
+            <lb ed="#L" n="17"/>non tenentur.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2600">
+            <lb ed="#L" n="18"/>AD PRIMUM ERGO DICENDUM quod ad illas 
+            aucto<lb break="no" ed="#L" n="19"/>ritates Chrysostomi breviter responderi posset
+            <lb ed="#L" n="20"/>quod non loquitur de sacerdote curato minoris
+            <lb ed="#L" n="21"/>ordinis, sed de episcopo, qui dicitur summus 
+            sa<lb break="no" ed="#L" n="22"/>cerdos. Et hoc convenit intentioni illius libri, in
+            <lb ed="#L" n="23"/>quo consolatur se et Basilium de hoc quod erant
+            <lb ed="#L" n="24"/>in episcopos electi.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2618">
+            <lb ed="#L" n="25"/>Sed hoc praetermisso, dicendum est quod 
+            lo<lb break="no" ed="#L" n="26"/>quitur quantum ad difficultatem. Praemittit enim :
+            <lb ed="#L" n="27"/>Cum fuerit gubernator in mediis fluctibus et de
+            <lb ed="#L" n="28"/>tempestate navem liberare potuerit, tunc merito
+            <lb ed="#L" n="29"/>testimonium perfecti gubernatoris ab omnibus 
+            pro<lb break="no" ed="#L" n="30"/>meretur. Et post concludit quod supra  positum
+            <lb ed="#L" n="31"/>est de monacho, qui non est comparandus illi
+            <lb ed="#L" n="32"/>qui, traditus populis, immobilis perseverat: et 
+            su<lb break="no" ed="#L" n="33"/>bdit causam: quia sicut in tranquillitate, ita in
+            <lb ed="#L" n="34"/>lempestate gubernavit seipsum. Ex quo nihil aliud
+            <lb ed="#L" n="35"/>ostendi potest nisi quod periculosior est status
+            <lb ed="#L" n="36"/>habentis curam animarum quam monachi: in
+            <lb ed="#L" n="37"/>maiori autem periculo innocentem se servare est
+            <lb ed="#L" n="38"/>maioris virtutis indicium. Sed hoc etiam ad 
+            ma<lb break="no" ed="#L" n="39"/>gnitudinem virtutis pertinet, quod aliquis vitet 
+            pe<lb break="no" ed="#L" n="40"/>ricula religionem intrando. Unde non dicit quod
+            <lb ed="#L" n="41"/>mallet esse in officio sacerdotali quam in 
+            solitu<lb break="no" ed="#L" n="42"/>dine monachorum: sed quod mallet placere in
+            <lb ed="#L" n="43"/>hoc quam in illo, quia hoc est maioris virtutis
+            <lb ed="#L" n="44"/>argumentum.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2665">
+            <lb ed="#L" n="45"/>AD SECUNDUM DICENDUM quod etiam illa 
+            aucto<lb break="no" ed="#L" n="46"/>ritas Augustini manifeste loquitur quantum ad 
+            dif<lb break="no" ed="#L" n="47"/>ficultatem, quae ostendit magnitudinem virtutis
+            <lb ed="#L" n="48"/>in his qui bene conversantur, sicut dictum est .
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2676">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="49"/>AD TERTIUM DICENDUM quod Augustinus ibi 
+            com<lb break="no" ed="#L" n="50"/>parat monachos clericis quantum ad distantiam
+            <lb ed="#L" n="51"/>ordinis: non quantum ad distantiam religionis et
+            <lb ed="#L" n="52"/>saecularis vitae.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2689">
+            <lb ed="#L" n="53"/>AD QUARTUM DICENDUM quod illi qui a statu 
+            re<lb break="no" ed="#L" n="54"/>ligionis assumuntur ad curam animarum, cum
+            <lb ed="#L" n="55"/>prius essent in sacris ordinibus constituti, 
+            asse<lb break="no" ed="#L" n="56"/>quuntur aliquid quod prius non habebant, 
+            sci<lb break="no" ed="#L" n="57"/>licet officium curae: non autem deponunt quod
+            <lb ed="#L" n="58"/>prius habebant, scilicet religionis statum ; dicitur
+            <lb ed="#L" n="59"/>enim in Decretis, XVI Causa, qu. 1 : De 
+            mona<lb break="no" ed="#L" n="60"/>chis qui, diu morantes in monasteriis, si postea
+            <lb ed="#L" n="61"/>ad clericatus ordines pervenerint, statuimus non
+            <lb ed="#L" n="62"/>debere eos a priori proposito discedere. Sed 
+            pre<lb break="no" ed="#L" n="63"/>sbyteri curati vel archidiaconi, quando 
+            religio<lb break="no" ed="#L" n="64"/>nem ingrediuntur, curam deponunt ut 
+            adipiscan<lb break="no" ed="#L" n="65"/>tur perfectionem status . Unde ex hoc ipso 
+            ex<lb break="no" ed="#L" n="66"/>cellentia ex parte religionis ostenditur.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2722">
+            <lb ed="#L" n="67"/>In hoc autem quod religiosi laici assumuntur
+            <lb ed="#L" n="68"/>ad clericatum et sacros ordines, manifeste 
+            pro<lb break="no" ed="#L" n="69"/>moventur ad melius, sicut supra  dictum est.
+            <lb ed="#L" n="70"/>Et hoc ostenditur ex ipso modo loquendi, cum
+            <lb ed="#L" n="71"/>Hieronymus dicit: Sic in monasterio vive ut 
+            cle<lb break="no" ed="#L" n="72"/>ricus esse merearis.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2738">
+            <lb ed="#L" n="73"/>AD QUINTUM DICENDUM quod presbyteri curati
+            <lb ed="#L" n="74"/>et archidiaconi sunt similiores episcopis quam 
+            re<lb break="no" ed="#L" n="75"/>ligiosi quantum ad aliquid: scilicet quantum ad
+            <lb ed="#L" n="76"/>curam animarum, quam secundario habent. Sed
+            <lb ed="#L" n="77"/>quantum ad.perpetuam obligationem, quae 
+            re<lb break="no" ed="#L" n="78"/>quiritur ad statum perfectionis, similiores sunt
+            <lb ed="#L" n="79"/>episcopo religiosi, ut ex supra  dictis patet.
+          </p>
+          <p xml:id="TAca84-d1e2223-d1e2756">
+            <lb ed="#L" n="80"/>AD SEXTUM DICENDUM quod difficultas quae est
+            <lb ed="#L" n="81"/>ex arduitate operis, addit ad perfectionem 
+            vir<lb break="no" ed="#L" n="82"/>tutis. Difficultas autem quae provenit ex 
+            exte<lb break="no" ed="#L" n="83"/>rioribus impedimentis, quandoque quidem 
+            dimi<lb break="no" ed="#L" n="84"/>nuit perfectionem virtutis: puta cum aliquis non
+            <lb ed="#L" n="85"/>tantum virtutem amat ut impedimenta virtutis
+            <lb ed="#L" n="86"/>declinare velit, secundum illud Apostoli, I ad
+            <lb ed="#L" n="87"/>Cor. ix , Omnis qui in agone contendit, ab 
+            omni<lb break="no" ed="#L" n="88"/>bus se abstinet. Quandoque vero est signum 
+            per<lb break="no" ed="#L" n="89"/>fectionis ^ virtutis: puta cum alicui ex inopinato
+            <lb ed="#L" n="90"/>vel ex necessaria causa impedimenta virtutis 
+            oc<lb break="no" ed="#L" n="91"/>currunt, propter quae tamen a virtute non 
+            de<lb break="no" ed="#L" n="92"/>clinat. In statu autem religionis est maior 
+            diffi<lb break="no" ed="#L" n="93"/>cultas ex arduitate operum: sed in his qui in
+            <lb ed="#L" n="94"/>saeculo vivunt qualitercumque, est maior 
+            diffi<lb break="no" ed="#L" n="95"/>cultas ex impedimentis virtutis, quae religiosi 
+            <lb ed="#L" n="96"/>provide vitaverunt.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

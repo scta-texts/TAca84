@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 175</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 175</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="402"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2176"><!-- p2p2-q175 -->
+        <head xml:id="TAca84-d1e2176-Hd1e101">Quaestio 175</head>
+        <head type="question-title">De raptu</head>
+        <p xml:id="TAca84-d1e2176-d1e103">
+          <pb ed="#L" n="402"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=402"/>QUAESTIO CENTESIMASEPTUAGESIMAQUINTA
+          <lb ed="#L" n="2"/>DE RAPTU
+          <lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2176-d1e116">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de raptu .
+          <lb ed="#L" n="5"/>Et circa hoc quaeruntur sex.
+          <lb ed="#L" n="6"/>Primo: utrum anima hominis rapiatur ad 
+          di<lb break="no" ed="#L" n="7"/>vina. 
+          <lb ed="#L" n="8"/>Secundo: utrum raptus pertineat ad vim 
+          co<lb break="no" ed="#L" n="9"/>gnoscitivam vel appetitivam. 
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="10"/>Tertio: utrum Paulus in raptu viderit Dei 
+          es<lb break="no" ed="#L" n="11"/>sentiam.
+          <lb ed="#L" n="12"/>Quarto: utrum fuerit alienatus a sensibus.
+          <lb ed="#L" n="13"/>Quinto: utrum totaliter fuerit anima a corpore
+          <lb ed="#L" n="14"/>separata in statu illo.
+          <lb ed="#L" n="15"/>Sexto: quid circa hoc scivit, et quid ignoravit.
+        </p>
+        <div xml:id="TAca84-d1e2176-Dd1e149"><!-- p2p2-q175a1 -->
+          <head xml:id="TAca84-d1e2176-Hd1e152">Articulus 1</head>
+          <head xml:id="TAca84-d1e2176-Hd1e154" type="question-title">Utrum anima hominis rapiatur ad divina</head>
+          <p xml:id="TAca84-d1e2176-d1e157">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="16" type="fixed=402"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="17"/>UTRUM ANIMA HOMINIS RAPIATUR AD DIVINA
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e166">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="18"/>AD PRIMUM SIC PROCEDITUR , Videtur quod
+            <lb ed="#L" n="19"/>anima hominis non rapiatur ad divina.
+            <lb ed="#L" n="20"/>Definitur enim a quibusdam raptus: Ab
+            <lb ed="#L" n="21"/>eo quod est secundum maturam, in id
+            <lb ed="#L" n="22"/>quod est supra naturam, vi superioris naturae
+            <lb ed="#L" n="23"/>elevatio. Est autem secundum naturam hominis
+            <lb ed="#L" n="24"/>ut ad divina elevetur: dicit enim Augustinus, in
+            <lb ed="#L" n="25"/>I Confess. : <quote xml:id="TAca84-d1e2176-Qd1e187">Fecisti nos, Domine, ad te: et 
+              inquie<lb break="no" ed="#L" n="26"/>tum est cor nostrum donec requiescat in te</quote>. Non
+            <lb ed="#L" n="27"/>ergo hominis anima rapitur ad divina.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e195">
+            <lb ed="#L" n="28"/>2. PRAETEREA , Dionysius dicit, vi cap. de Dir.
+            <lb ed="#L" n="29"/>Nom. , quod iustitia Dei in hoc attenditur, quod
+            <lb ed="#L" n="30"/>omnibus rebus distribuit secundum suum modum
+            <lb ed="#L" n="31"/>et dignitatem. Sed quod aliquis  elevetur supra
+            <lb ed="#L" n="32"/>id quod est secundum naturam, non pertinet ad
+            <lb ed="#L" n="33"/>modum hominis vel dignitatem. Ergo videtur
+            <lb ed="#L" n="34"/>quod non rapiatur mens hominis a Deo in 
+            di<lb break="no" ed="#L" n="35"/>vina.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e216">
+            <lb ed="#L" n="36"/>3. PRAETEREA, raptus quandam violentiam 
+            im<lb break="no" ed="#L" n="37"/>portat. Sed Deus non regit nos per violentiam
+            <lb ed="#L" n="38"/>et coacte, ut Damascenus dicit . Non ergo mens
+            <lb ed="#L" n="39"/>hominis rapitur ad divina.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e227">
+            <lb ed="#L" n="40"/>SED CONTRA EST quod, ll ad Cor. xu , dicit
+            <lb ed="#L" n="41"/>Apostolus: Scio hominem in Christo raptum 
+            us<lb break="no" ed="#L" n="42"/>que ad tertium caelum: ubi dicit Glossa : 
+            ra<lb break="no" ed="#L" n="43"/>pium, idest, contra naturam elevatum.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e238">
+            <lb ed="#L" n="44"/>RESPONDEO DICENDUM quod raptus violentiam
+            <lb ed="#L" n="45"/>quandam importat, ut dictum est . Violentum
+            <lb ed="#L" n="46"/>autem dicitur, cuius principium est extra, nil
+            <lb ed="#L" n="47"/>conferente eo qui? vim patitur: ut dicitur in III
+            <lb ed="#L" n="48"/>Ethic.  Confert autem unumquodque ad id in
+            <lb ed="#L" n="49"/>quod tendit secundum propriam inclinationem ,
+            <lb ed="#L" n="50"/>vel voluntariam vel naturalem. Et ideo oportet
+            <lb ed="#L" n="51"/>quod ille qui rapitur ab aliquo exteriori, rapiatur
+            <lb ed="#L" n="52"/>in aliquid quod est diversum ab eo in quod eius
+            <lb ed="#L" n="53"/>inclinatio tendit. Quae quidem diversitas potest
+            <lb ed="#L" n="54"/>attendi dupliciter. Uno quidem modo, quantum
+            <lb ed="#L" n="55"/>ad finem inclinationis: puta si lapis, qui natu-
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="56"/>raliter inclinatur ad hoc quod feratur deorsum,
+            <lb ed="#L" n="57"/>proiiciatur sursum. Alio modo, quantum ad 
+            mo<lb break="no" ed="#L" n="58"/>dum tendendi: puta si lapis velocius 
+            proiiciatur<lb break="no" ed="#L" n="59"/>deorsum quam sit motus eius naturalis.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e277">
+            <lb ed="#L" n="60"/>Sic igitur et anima hominis dicitur rapi in id
+            <lb ed="#L" n="61"/>quod est praeter naturam, uno modo, quantum ad
+            <lb ed="#L" n="62"/>terminum raptus: puta quando rapitur ad poenas,
+            <lb ed="#L" n="63"/>secundum illud Psalmi : Ne quando rapiat, et 
+            <lb ed="#L" n="64"/>non sit qui eripiat. - Alio modo, quantum ad 
+            mo<lb break="no" ed="#L" n="65"/>dum homini connaturalem, qui est ut per 
+            sen<lb break="no" ed="#L" n="66"/>sibilia intelligat veritatem. Et ideo, quando 
+            abs<lb break="no" ed="#L" n="67"/>trahitur a sensibilium apprehensione, dicitur rapi,
+            <lb ed="#L" n="68"/>etiam si elevetur ad ea ad quae naturaliter 
+            or<lb break="no" ed="#L" n="69"/>dinatur: dum tamen hoc non fiat ex propria 
+            in<lb break="no" ed="#L" n="70"/>tentione; sicut accidit in somno, qui est 
+            secun<lb break="no" ed="#L" n="71"/>dum naturam, unde non potest proprie raptus
+            <lb ed="#L" n="72"/>dici.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e308">
+            <lb ed="#L" n="73"/>Huiusmodi autem abstractio, ad quaecumque
+            <lb ed="#L" n="74"/>fiat, potest ex triplici causa contingere. Uno modo,
+            <lb ed="#L" n="75"/>ex causa corporali: sicut patet Y in his qui pro- Y
+            <lb ed="#L" n="76"/>pter aliquam infirmitatem alienationem 
+            patiun<lb break="no" ed="#L" n="77"/>tur. - Secundo modo, ex virtute daemonum:
+            <lb ed="#L" n="78"/>sicut patet in arreptitiis. - Tertio, ex virtute 
+            di<lb break="no" ed="#L" n="79"/>vina. Et sic loquimur nunc de raptu: prout sci- —
+            <lb ed="#L" n="80"/>licet aliquis spiritu divino elevatur ad aliqua 
+            su<lb break="no" ed="#L" n="81"/>pernaturalia, cum abstractione a sensibus ; 
+            secun<lb break="no" ed="#L" n="82"/>dum illud Ezech. vir : Spiritus? elevavit me in- "Ven.
+            <lb ed="#L" n="83"/>ler terram et caelum , et adduxit me in 
+            Ierusa<lb break="no" ed="#L" n="84"/>lem, in visionibus Dei. :
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e337">
+            <lb ed="#L" n="85"/>Sciendum tamen quod rapi quandoque dicitur
+            <lb ed="#L" n="86"/>aliquis non solum propter alienationem a 
+            sensi<lb break="no" ed="#L" n="87"/>bus, sed etiam propter alienationem ab his 
+            qui<lb break="no" ed="#L" n="88"/>bus intendebat, sicut cum aliquis patitur 
+            evaga<lb break="no" ed="#L" n="89"/>tionem mentis praeter propositum. Sed hoc non
+            <lb ed="#L" n="90"/>ita proprie dicitur.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e354">
+            <lb ed="#L" n="91"/>AD PRIMUM ERGO DICENDUM quod naturale est
+            <lb ed="#L" n="92"/>homini ut in divina tendat per sensibilium 
+            ap<lb break="no" ed="#L" n="93"/>prehensionem: secundum illud Rom. 1 : Invisi- 
+            <pb ed="#L" n="403"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>bilia Dei per ea quae facta sunt  conspiciuntur.
+            <lb ed="#L" n="2"/>Sed iste modus quod aliquis elevetur ad divina
+            <lb ed="#L" n="3"/>cum abstractione a sensibus, non est homini 
+            na<lb break="no" ed="#L" n="4"/>turalis.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e376">
+            <lb ed="#L" n="5"/>AD SECUNDUM DICENDUM quod ad modum et 
+            di<lb break="no" ed="#L" n="6"/>gnitatem hominis pertinet quod ad divina 
+            eleve<lb break="no" ed="#L" n="7"/>tur, ex hoc ipso quod /omo factus est ad 
+            ima<lb break="no" ed="#L" n="8"/>ginem Dei . Et quia bonum divinum in 
+            infini<lb break="no" ed="#L" n="9"/>tum excedit humanam facultatem, indiget homo
+            <lb ed="#L" n="10"/>ut supernaturaliter ad illud bonum capessendum
+            <lb ed="#L" n="11"/>adiuvetur: quod fit per quodcumque beneficium
+            <lb ed="#L" n="12"/>gratiae. Unde quod sic elevetur mens a Deo per
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="13"/>raptum, non est contra naturam, sed supra 
+            fa<lb break="no" ed="#L" n="14"/>cultatem naturae.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e402">
+            <lb ed="#L" n="15"/>AD TERTIUM DICENDUM quod verbum 
+            Dama<lb break="no" ed="#L" n="16"/>sceni est intelligendum quantum ad ea quae sunt
+            <lb ed="#L" n="17"/>per hominem facienda. Quantum vero ad ea
+            <lb ed="#L" n="18"/>quae excedunt liberi arbitrii facultatem, necesse
+            <lb ed="#L" n="19"/>est quod homo quadam fortiori operatione 
+            ele<lb break="no" ed="#L" n="20"/>vetur. Quae quidem quantum ad aliquid potest
+            <lb ed="#L" n="21"/>dici coactio, si scilicet attendatur modus 
+            opera<lb break="no" ed="#L" n="22"/>tionis: non autem si attendatur terminus 
+            opera<lb break="no" ed="#L" n="23"/>tionis, in quem natura hominis et eius intentio
+            <lb ed="#L" n="24"/>ordinatur.
+          </p>
+        </div>
+        <!-- no commentary -->
+        <div xml:id="TAca84-d1e2176-Dd1e430"><!-- p2p2-q175a2 -->
+          <head xml:id="TAca84-d1e2176-Hd1e433">Articulus 2</head>
+          <head xml:id="TAca84-d1e2176-Hd1e435" type="question-title">Utrum raptus magis pertineat ad vim appetitivam quam ad vim cognoscitivam</head>
+          <p xml:id="TAca84-d1e2176-d1e438">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="25" type="fixed=403"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="26"/>UTRUM RAPTUS MAGIS PERTINEAT AD VIM APPETITIVAM QUAM AD VIM COGNOSCITIVAM
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e447">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="27"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="28"/>raptus magis pertineat ad vim 
+            appetiti<lb break="no" ed="#L" n="29"/>vam quam ad cognoscitivam. Dicit enim
+            <lb ed="#L" n="30"/>Dionysius, iv cap. de Div. Nom. : Est
+            <lb ed="#L" n="31"/>autem extasim faciens divinus amor. Sed amor
+            <lb ed="#L" n="32"/>pertinet ad vim appetitivam. Ergo et extasis sive
+            <lb ed="#L" n="33"/>raptus.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e467">
+            <lb ed="#L" n="34"/>2. PRAETEREA, Gregorius dicit, in II Dialog. 
+            <lb ed="#L" n="35"/>quod ille qui porcos pavit, vagatione mentis et
+            <lb ed="#L" n="36"/>immunditiae sub semetipso cecidit: Petrus vero,
+            <lb ed="#L" n="37"/>quem angelus solvit eiusque mentem in extasi
+            <lb ed="#L" n="38"/>rapuit, extra  se quidem, sed supra semetipsum
+            <lb ed="#L" n="39"/>fuit. Sed ille filius prodigus per affectum in 
+            in<lb break="no" ed="#L" n="40"/>feriora dilapsus est. Ergo etiam et illi qui 
+            ra<lb break="no" ed="#L" n="41"/>piuntur in superiora, per affectum hoc patiuntur.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e488">
+            <lb ed="#L" n="42"/>3. PRAETEREA, super illud Psalmi , In te, 
+            Do<lb break="no" ed="#L" n="43"/>mine, speravi, non confundar in aeternum, dicit
+            <lb ed="#L" n="44"/>Glossa , in expositione tituli: Ex/asis graece,
+            <lb ed="#L" n="45"/>latine dicitur excessus mentis: qui fit duobus 
+            mo<lb break="no" ed="#L" n="46"/>dis, vel pavore terrenorum, vel mente rapía ad
+            <lb ed="#L" n="47"/>superna el inferiorum oblita. Sed pavor 
+            terreno<lb break="no" ed="#L" n="48"/>rum ad affectum pertinet. Ergo etiam raptus
+            <lb ed="#L" n="49"/>mentis ad superna, qui ex opposito ponitur, 
+            per<lb break="no" ed="#L" n="50"/>tinet ad affectum.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e510">
+            <lb ed="#L" n="51"/>SED coNTRA EsT quod super illud Psalmi , Ego
+            <lb ed="#L" n="52"/>dixi in excessu meo, Omnis homo mendax, dicit
+            <lb ed="#L" n="53"/>Glossa : Dicitur hic extasis, cum mens non 
+            pa<lb break="no" ed="#L" n="54"/>vore alienatur, sed aliqua inspiratione revelationis
+            <lb ed="#L" n="55"/>sursum assumitur. Sed revelatio pertinet ad vim
+            <lb ed="#L" n="56"/>intellectivam. Ergo extasis? sive raptus.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e526">
+            <lb ed="#L" n="57"/>RzsPoNpEO picENDUM quod de raptu dupliciter
+            <lb ed="#L" n="58"/>loqui possumus. Uno modo, quantum ad id in
+            <lb ed="#L" n="59"/>quod aliquis rapitur. Et sic, proprie loquendo,
+            <lb ed="#L" n="60"/>raptus non potest pertinere ad vim appetitivam,
+            <lb ed="#L" n="61"/>sed solum ad cognoscitivam. Dictum est enim 
+            <lb ed="#L" n="62"/>quod raptus est praeter propriam inclinationem
+            <lb ed="#L" n="63"/>eius quod rapitur. Ipse autem motus appetitivae
+            <lb ed="#L" n="64"/>virtutis est quaedam inclinatio in bonum appeti-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="65"/>bile. Unde, proprie loquendo, ex hoc quod homo
+            <lb ed="#L" n="66"/>appetit aliquid, non rapitur, sed per se movetur.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e552">
+            <lb ed="#L" n="67"/>Alio modo potest considerari raptus quantum
+            <lb ed="#L" n="68"/>ad suam causam. Et sic potest habere causam
+            <lb ed="#L" n="69"/>ex parte appetitivae virtutis. Ex hoc enim ipso
+            <lb ed="#L" n="70"/>quod appetitus ad aliquid vehementer afficitur,
+            <lb ed="#L" n="71"/>potest contingere quod ex violentia affectus homo
+            <lb ed="#L" n="72"/>ab omnibus aliis alienetur.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e568">
+            <lb ed="#L" n="73"/>Habet etiam effectum in appetitiva virtute:
+            <lb ed="#L" n="74"/>cum scilicet aliquis delectatur in his ad quae
+            <lb ed="#L" n="75"/>rapitur. Unde et Apostolus dixit  se raptum, non
+            <lb ed="#L" n="76"/>solum ad íertium caelum, quod pertinet ad 
+            con<lb break="no" ed="#L" n="77"/>templationem intellectus: sed etiam zn Paradisum,
+            <lb ed="#L" n="78"/>quod pertinet ad affectum.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e584">
+            <lb ed="#L" n="79"/>AD PRIMUM ERGO DICENDUM quod raptus addit
+            <lb ed="#L" n="80"/>aliquid supra extasim. Nam extasis importat 
+            sim<lb break="no" ed="#L" n="81"/>pliciter excessum a seipso, secundum quem 
+            sci<lb break="no" ed="#L" n="82"/>licet aliquis extra suam ordinationem ponitur:
+            <lb ed="#L" n="83"/>sed raptus supra hoc addit violentiam  
+            quan<lb break="no" ed="#L" n="84"/>dam. Potest igitur extasis ad vim appetitivam
+            <lb ed="#L" n="85"/>pertinere: puta cum alicuius  appetitus tendit in
+            <lb ed="#L" n="86"/>ea quae extra ipsum sunt. Et secundum hoc
+            <lb ed="#L" n="87"/>Dionysius dicit quod divinus amor facit extasim:
+            <lb ed="#L" n="88"/>inquantum scilicet facit appetitum hominis 
+            ten<lb break="no" ed="#L" n="89"/>dere in res amatas. Unde postea subdit  quod
+            <lb ed="#L" n="90"/>etiam ipse Deus, qui est omnium causa, per 
+            abun<lb break="no" ed="#L" n="91"/>dantiam amativae ? bonitatis extra seipsum fit
+            <lb ed="#L" n="92"/>per providentiam ad omnia existentia. - Quamvis
+            <lb ed="#L" n="93"/>etiam si expresse hoc diceretur de raptu, non
+            <lb ed="#L" n="94"/>designaretur nisi quod amor esset causa raptus.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e622">
+            <lb ed="#L" n="95"/>AD SECUNDUM DICENDUM quod in homine est 
+            du<lb break="no" ed="#L" n="96"/>plex appetitus: scilicet intellectivus , qui dicitur
+            <lb ed="#L" n="97"/>voluntas; et sensitivus, qui dicitur sensualitas. Est
+            <lb ed="#L" n="98"/>autem proprium homini ut appetitus inferior 
+            sub<lb break="no" ed="#L" n="99"/>datur appetitui superiori, et superior moveat 
+            in<lb break="no" ed="#L" n="100"/>feriorem. Dupliciter ergo homo secundum 
+            appe<lb break="no" ed="#L" n="101"/>titum potest fieri extra seipsum. Uno modo,
+            <lb ed="#L" n="102"/>quando appetitus intellectivus totaliter in divina
+            <pb ed="#L" n="404"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>tehdit, praetermissis his in quae inclinat appetitus
+            <lb ed="#L" n="2"/>sensitivus. Et sic dicit Dionysius, iv cap. de Div.
+            <lb ed="#L" n="3"/>Nom., quod Paulus ex virtute divini amoris
+            <lb ed="#L" n="4"/>extasim faciente, dixit: Vivo ego, iam non ego,
+            <lb ed="#L" n="5"/>vivit vero in me Christus.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e657">
+            <lb ed="#L" n="6"/>Alio modo, quando, praetermisso appetitu 
+            su<lb break="no" ed="#L" n="7"/>periori;, homo totaliter fertur in ea quae 
+            perti<lb break="no" ed="#L" n="8"/>nent ad appetitum inferiorem. Et sic lle qui
+            <lb ed="#L" n="9"/>porcos pavit, sub semetipso cecidit. Et iste 
+            ex<lb break="no" ed="#L" n="10"/>cessus vel extasis plus appropinquat ad rationem
+            <lb ed="#L" n="11"/>raptus quam primus: quia scilicet appetitus 
+            su<lb break="no" ed="#L" n="12"/>perior est magis homini proprius; unde, quando
+            <lb ed="#L" n="13"/>homo ex violentia appetitus inferioris abstrahitur
+            <lb ed="#L" n="14"/>a motu appetitus superioris, magis abstrahitur ab
+            <lb ed="#L" n="15"/>eo quod est sibi proprium. Quia tamen non est
+            <lb ed="#L" n="16"/>ibi violentia, quia  voluntas potest resistere pas-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="17"/>sioni , deficit a vera ratione raptus: nisi forte  
+            <lb ed="#L" n="18"/>tam vehemens sit passio quod usum rationis 
+            to<lb break="no" ed="#L" n="19"/>taliter tollat, sicut contingit in his qui propter
+            <lb ed="#L" n="20"/>vehementiam irae vel amoris insaniunt.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e694">
+            <lb ed="#L" n="21"/>Considerandum tamen quod uterque excessus
+            <lb ed="#L" n="22"/>secundum appetitum existens, potest causare 
+            ex<lb break="no" ed="#L" n="23"/>cessum cognoscitivae virtutis: vel quia mens ad
+            <lb ed="#L" n="24"/>quaedam intelligibilia rapiatur alienata a sensibus;
+            <lb ed="#L" n="25"/>vel quia rapiatur ad aliquam imaginariam 
+            visio<lb break="no" ed="#L" n="26"/>nem seu phantasticam apparitionem.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e710">
+            <lb ed="#L" n="27"/>AD TERTIUM DICENDUM quod, sicut amor est
+            <lb ed="#L" n="28"/>motus appetitus respectu boni, ita timor motus
+            <lb ed="#L" n="29"/>appetitus respectu mali. Unde eadem ratione ex
+            <lb ed="#L" n="30"/>utroque potest causari excessus mentis: 
+            praeser<lb break="no" ed="#L" n="31"/>tim cum timor ex amore causetur, sicut 
+            Augu<lb break="no" ed="#L" n="32"/>stinus dicit, XIV de Civ. Dei .
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2176-Dd1e727"><!-- p2p2-q175a3 -->
+          <head xml:id="TAca84-d1e2176-Hd1e730">Articulus 3</head>
+          <head xml:id="TAca84-d1e2176-Hd1e732" type="question-title">Utrum paulus in raptu viderit dei essentiam</head>
+          <p xml:id="TAca84-d1e2176-d1e735">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="71" type="fixed=404"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="72"/>UTRUM PAULUS IN RAPTU VIDERIT DEI ESSENTIAM
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e744">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="73"/>AD TERTIUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="74"/>Paulus in raptu non viderit Dei 
+            es<lb break="no" ed="#L" n="75"/>sentiam. Sicut enim de Paulo legitur 
+            <lb ed="#L" n="76"/>quod est raptus usque ad tertium 
+            cae<lb break="no" ed="#L" n="77"/>lum, ita et de Petro legitur, Act. x , quod 
+            ce<lb break="no" ed="#L" n="78"/>cidit super eum mentis excessus. Sed Petrus in
+            <lb ed="#L" n="79"/>suo excessu non vidit Dei essentiam, sed 
+            quan<lb break="no" ed="#L" n="80"/>dam imaginariam visionem . Ergo videtur quod
+            <lb ed="#L" n="81"/>nec Paulus Dei essentiam viderit.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e768">
+            <lb ed="#L" n="82"/>2. PRAETEREA, visio Dei facit hominem 
+            bea<lb break="no" ed="#L" n="83"/>tum. Sed Paulus in illo raptu non fuit beatus:
+            <lb ed="#L" n="84"/>alioquin nunquam ad. vitae huius miseriam 
+            redi<lb break="no" ed="#L" n="85"/>isset, sed corpus eius fuisset per redundantiam
+            <lb ed="#L" n="86"/>ab anima glorificatum, sicut erit in sanctis post
+            <lb ed="#L" n="87"/>resurrectionem ; quod patet esse falsum. Ergo
+            <lb ed="#L" n="88"/>Paulus in raptu non vidit Dei essentiam.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e787">
+            <lb ed="#L" n="89"/>3. PRAETEREA, fides et spes esse non possunt
+            <lb ed="#L" n="90"/>simul cum visione divinae essentiae: ut habetur
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="91"/>I ad Cor. xiu . Sed Paulus in statu illo habuit
+            <lb ed="#L" n="92"/>fidem et spem. Ergo non vidit Dei essentiam.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e800">
+            <lb ed="#L" n="93"/>4. PRAETEREA, sicut Augustinus dicit, XII super
+            <lb ed="#L" n="94"/>Gen. ad litt. , secundum visionem imaginariam
+            <lb ed="#L" n="95"/>quaedam similitudines corporum videntur. Sed
+            <lb ed="#L" n="96"/>Paulus videtur in raptu quasdam similitudines
+            <lb ed="#L" n="97"/>vidisse, puta tertii caeli et Paradisi: ut habetur
+            <lb ed="#L" n="98"/>II ad Cor. xi . Ergo videtur esse raptus ad 
+            ima<lb break="no" ed="#L" n="99"/>ginariam visionem, magis quam ad visionem 
+            di<lb break="no" ed="#L" n="100"/>vinae essentiae.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e820">
+            <lb ed="#L" n="101"/>SED coNTRA EsT quod Augustinus determinat,
+            <lb ed="#L" n="102"/>in libro de Videndo Deum ad Paulinam , quod
+            <lb ed="#L" n="103"/>ipsa Dei substantia a quibusdam videri potuit in
+            <lb ed="#L" n="104"/>hac vita positis: sicut a Moyse, et Paulo, qui
+            <lb ed="#L" n="105"/>raptus audivit ineffabilia verba, quae non licet
+            <lb ed="#L" n="106"/>homini loqui.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e836">
+            <lb ed="#L" n="107"/>RESPONDEO DICENDUM quod quidam dixerunt
+            <lb ed="#L" n="108"/>Paulum in raptu non vidisse ipsam Dei essen-
+            <pb ed="#L" n="405"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>tiam, sed quandam refulgentiam claritatis ipsius.
+            <lb ed="#L" n="2"/>Sed contrarium manifeste Augustinus determinat,
+            <lb ed="#L" n="3"/>non solum in libro de Videndo Deum , sed etiam
+            <lb ed="#L" n="4"/>XII super Gen. ad litt. : et habetur in Glossa , II
+            <lb ed="#L" n="5"/>ad Cor. xi . Et hoc etiam ipsa verba Apostoli 
+            de<lb break="no" ed="#L" n="6"/>signant. Dicit enim  se audisse ineffabilia verba,
+            <lb ed="#L" n="7"/>quae non licel homini loqui: huiusmodi autem
+            <lb ed="#L" n="8"/>videntur ea quae pertinent ad visionem 
+            beato<lb break="no" ed="#L" n="9"/>rum, quae excedit statum viae , secundum illud
+            <lb ed="#L" n="10"/>Isaiae Lxiv : Oculus non vidit, Deus, absque te,
+            <lb ed="#L" n="11"/>quae praeparasti diligentibus te. Et ideo 
+            conve<lb break="no" ed="#L" n="12"/>nientius dicitur quod Deum per essentiam vidit.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e873">
+            <lb ed="#L" n="13"/>AD PRIMUM ERGO DICENDUM quod mens humana
+            <lb ed="#L" n="14"/>divinitus rapitur ad contemplandam veritatem
+            <lb ed="#L" n="15"/>divinam, tripliciter. Uno modo, ut contempletur
+            <lb ed="#L" n="16"/>eam per similitudines quasdam imaginarias. Et
+            <lb ed="#L" n="17"/>talis fuit excessus mentis qui cecidit supra 
+            Pe<lb break="no" ed="#L" n="18"/>trum. -- Alio modo, ut contempletur veritatem
+            <lb ed="#L" n="19"/>divinam per intelligibiles effectus: sicut fuit 
+            ex<lb break="no" ed="#L" n="20"/>cessus David dicentis : Ego dixi in excessu meo:
+            <lb ed="#L" n="21"/>Omnis homo mendax. — Tertio, ut contempletur
+            <lb ed="#L" n="22"/>eam in sua essentia, Et talis fuit raptus Pauli:
+            <lb ed="#L" n="23"/>et etiam Moysi. Et satis congruenter: nam sicut
+            <lb ed="#L" n="24"/>Moyses fuit primus Doctor Iudaeorum, ita Paulus
+            <lb ed="#L" n="25"/>fuit primus Doctor Gentium .
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e904">
+            <lb ed="#L" n="26"/>AD SECUNDUM DICENDUM quod divina essentia 
+            vi<lb break="no" ed="#L" n="27"/>deri ab intellectu creato non potest nisi per 
+            lu<lb break="no" ed="#L" n="28"/>men gloriae , de quo dicitur in Psalmo : In
+            <lb ed="#L" n="29"/>lumine tuo videbimus lumen. Quod tamen 
+            dupli<lb break="no" ed="#L" n="30"/>citer participari potest. Uno modo, per modum
+            <lb ed="#L" n="31"/>formae immanentis: et sic beatos facit sanctos
+            <lb ed="#L" n="32"/>in patria. Alio modo, per modum cuiusdam 
+            pas<lb break="no" ed="#L" n="33"/>sionis transeuntis: sicut dictum est  de lumine
+            <lb ed="#L" n="34"/>prophetiae. Et hoc modo lumen illud fuit in
+            <lb ed="#L" n="35"/>Paulo, quando raptus fuit . Et ideo ex tali 
+            vi<lb break="no" ed="#L" n="36"/>sione non fuit simpliciter beatus, ut fieret 
+            re<lb break="no" ed="#L" n="37"/>dundantia ad corpus: sed solum secundum quid.
+            <lb ed="#L" n="38"/>Et ideo talis raptus aliquo modo ad prophetiam
+            <lb ed="#L" n="39"/>pertinet.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e938">
+            <lb ed="#L" n="40"/>AD TERTIUM DICENDUM quod quia Paulus in
+            <lb ed="#L" n="41"/>raptu non fuit beatus habitualiter, sed solum 
+            ha<lb break="no" ed="#L" n="42"/>buit actum beatorum; consequens est ut simul
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="43"/>tunc in eo non fuerit actus fidei, fuit tamen in
+            <lb ed="#L" n="44"/>eo simul fidei habitus.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e954">
+            <lb ed="#L" n="45"/>AD QUARTUM DICENDUM quod nomine fertii caeli
+            <lb ed="#L" n="46"/>potest uno modo intelligi aliquid corporeum . Et
+            <lb ed="#L" n="47"/>sic tertium caelum est  caelum empyreum: quod
+            <lb ed="#L" n="48"/>dicitur fertíium respectu caeli aerei et caeli 
+            side<lb break="no" ed="#L" n="49"/>rei; vel potius respectu caeli siderei et respectu
+            <lb ed="#L" n="50"/>caeli aquei sive crystallini. Et dicitur raptus ad
+            <lb ed="#L" n="51"/>tertium. caelum, non quia raptus sit ad 
+            viden<lb break="no" ed="#L" n="52"/>dum similitudinem alicuius rei corporeae: sed
+            <lb ed="#L" n="53"/>propter hoc quod locus ille est contemplationis
+            <lb ed="#L" n="54"/>beatorum. Unde Glossa  dicit, lI ad Cor. xu ,
+            <lb ed="#L" n="55"/>quod /ertium ? est spirituale caelum , ubi angeli
+            <lb ed="#L" n="56"/>et sancíae animae fruuntur Dei contemplatione,
+            <lb ed="#L" n="57"/>Ad quod cum dicit se raptum , significat quod
+            <lb ed="#L" n="58"/>Deus ostendit ei vilam in qua videndus est in
+            <lb ed="#L" n="59"/>aeternum.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e989">
+            <lb ed="#L" n="60"/>Alio modo per tertium caelum potest intelligi
+            <lb ed="#L" n="61"/>aliqua visio supermundana . Quae potest dici 
+            ter<lb break="no" ed="#L" n="62"/>tium caelum triplici ratione. Uno modo, 
+            secun<lb break="no" ed="#L" n="63"/>dum. ordinem potentiarum cognoscitivarum:; ut
+            <lb ed="#L" n="64"/>primum caelum dicatur visio supermundana 
+            cor<lb break="no" ed="#L" n="65"/>poralis, quae fit per sensum, sicut visa est manus
+            <lb ed="#L" n="66"/>scribentis in pariete, Dan. v ; secundum autem
+            <lb ed="#L" n="67"/>caelum sit visio imaginaria, puta quam vidit
+            <lb ed="#L" n="68"/>Isaias , et Ioannes in Apocalypsi ; tertium vero
+            <lb ed="#L" n="69"/>caelum dicatur visio intellectualis, ut Augustinus
+            <lb ed="#L" n="70"/>exponit, XII super Gen. ad litt. . — Secundo
+            <lb ed="#L" n="71"/>modo potest dici tertium caelum secundum 
+            ordi<lb break="no" ed="#L" n="72"/>nem cognoscibilium : ut primum caelum dicatur
+            <lb ed="#L" n="73"/>cognitio caelestium corporum; secundum, cognitio
+            <lb ed="#L" n="74"/>caelestium spirituum ; tertium, cognitio ipsius Dei.-
+            <lb ed="#L" n="75"/>Tertio potest dici tertium caelum contemplatio
+            <lb ed="#L" n="76"/>Dei secundum ' gradus cognitionis qua Deus 
+            vi<lb break="no" ed="#L" n="77"/>detur: quorum primus pertinet ad angelos 
+            infi<lb break="no" ed="#L" n="78"/>mae hierarchiae, secundus ad. angelos mediae,
+            <lb ed="#L" n="79"/>tertius ad angelos supremae, ut dicit Glossa ,
+            <lb ed="#L" n="80"/>II ad Cor. xii 
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1037">
+            <lb ed="#L" n="81"/>Et quia visio Dei non potest esse sine 
+            delecta<lb break="no" ed="#L" n="82"/>tione, propterea non solum se dicit raptum ad 
+            ter<lb break="no" ed="#L" n="83"/>lium caelum, ratione contemplationis: sed etiam
+            <lb ed="#L" n="84"/>in Paradisum, ratione delectationis consequentis.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2176-Dd1e1049"><!-- p2p2-q175a4 -->
+          <head xml:id="TAca84-d1e2176-Hd1e1052">Articulus 4</head>
+          <head xml:id="TAca84-d1e2176-Hd1e1054" type="question-title">Utrum paulus in raptu fuerit alienatus a sensibus</head>
+          <p xml:id="TAca84-d1e2176-d1e1057">
+            <pb ed="#L" n="406"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=406"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="2"/>UTRUM PAULUS IN RAPTU FUERIT ALIENATUS A SENSIBUS
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1068">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>Paulus in raptu non fuerit alienatus a
+            <lb ed="#L" n="5"/>sensibus. Dicit enim Augustinus, XII
+            <lb ed="#L" n="6"/>Nuper Gen. ad litt. : Cur non 
+            creda<lb break="no" ed="#L" n="7"/>mus  quod tanto Apostolo, Doctori Gentium, 
+            ra<lb break="no" ed="#L" n="8"/>plo usque ad ipsam excellentissimam visionem,
+            <lb ed="#L" n="9"/>voluerit Deus demonstrare vitam in qua, post
+            <lb ed="#L" n="10"/>hanc vitam, vivendum est in aeternum? Sed in
+            <lb ed="#L" n="11"/>illa vita futura sancti, post resurrectionem, 
+            vide<lb break="no" ed="#L" n="12"/>bunt Dei essentiam absque hoc quod fiat 
+            abs<lb break="no" ed="#L" n="13"/>tractio a sensibus corporis 5. Ergo nec in Paulo
+            <lb ed="#L" n="14"/>fuit huiusmodi abstractio facta.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1099">
+            <lb ed="#L" n="15"/>2. PRAETEREA, Christus vere viator fuit, et 
+            con<lb break="no" ed="#L" n="16"/>tinue visione divinae essentiae fruebatur, nec 
+            ta<lb break="no" ed="#L" n="17"/>men fiebat abstractio a sensibus. Ergo nec fuit
+            <lb ed="#L" n="18"/>necessarium quod in Paulo fieret abstractio a
+            <lb ed="#L" n="19"/>sensibus, ad hoc quod Dei essentiam videret.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1113">
+            <lb ed="#L" n="20"/>3. PRAETEREA, Paulus, postquam Deum per
+            <lb ed="#L" n="21"/>essentiam viderat , memor fuit illorum quae in
+            <lb ed="#L" n="22"/>illa visione conspexerat: unde dicebat, II ad Cor.
+            <lb ed="#L" n="23"/>xit : Audivit ? arcana verba, quae non licet 
+            ho<lb break="no" ed="#L" n="24"/>mini loqui. Sed memoria ad partem sensitivam
+            <lb ed="#L" n="25"/>pertinet: ut patet per Philosophum, in libro de
+            <lb ed="#L" n="26"/>Mem. et Remin. Ergo videtur quod et 
+            Pau<lb break="no" ed="#L" n="27"/>lus, videndo Dei essentiam, non fuit alienatus a
+            <lb ed="#L" n="28"/>sensibus.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1135">
+            <lb ed="#L" n="29"/>SED coNTRA EsT quod Augustinus dicit, XII
+            <lb ed="#L" n="30"/>super Gen. ad litt. : Nisi ab hac vita quisque
+            <lb ed="#L" n="31"/>quodammodo moriatur, sive omnino exiens de
+            <lb ed="#L" n="32"/>corpore, sive aversus et alienatus a corporeis 
+            <lb ed="#L" n="33"/>sensibus, in illam non subvehitur visionem.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1148">
+            <lb ed="#L" n="34"/>RESPONDEO DICENDUM quod divina essentia non
+            <lb ed="#L" n="35"/>potest ab homine videri per aliam vim 
+            cogno<lb break="no" ed="#L" n="36"/>scitivam quam per intellectum. Intellectus autem
+            <lb ed="#L" n="37"/>humanus non convertitur ad sensibilia  nisi 
+            me<lb break="no" ed="#L" n="38"/>diantibus phantasmatibus , per quae species 
+            in<lb break="no" ed="#L" n="39"/>telligibiles a sensibilibus accipit, et in quibus 
+            con<lb break="no" ed="#L" n="40"/>siderans de sensibilibus iudicat et ea disponit.
+            <lb ed="#L" n="41"/>Et ideo in omni operatione qua intellectus 
+            no<lb break="no" ed="#L" n="42"/>ster abstrahitur a phantasmatibus, necesse est
+            <lb ed="#L" n="43"/>quod abstrahatur a sensibus. Intellectus. autem
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="44"/>hominis, in statu viae, necesse est quod a 
+            phan<lb break="no" ed="#L" n="45"/>tasmatibus abstrahatur, si videat Dei essentiam.
+            <lb ed="#L" n="46"/>Non enim per aliquod phantasma potest Dei
+            <lb ed="#L" n="47"/>essentia videri; quinimmo nec per aliquam 
+            spe<lb break="no" ed="#L" n="48"/>ciem intelligibilem creatam : quia essentia Dei
+            <lb ed="#L" n="49"/>in infinitum excedit non solum omnia corpora,
+            <lb ed="#L" n="50"/>quorum sunt phantasmata, sed etiam omnem
+            <lb ed="#L" n="51"/>intelligibilem creaturam. Oportet autem, cum 
+            in<lb break="no" ed="#L" n="52"/>tellectus hominis elevatur ad altissimam Dei 
+            essen<lb break="no" ed="#L" n="53"/>tiae visionem, ut tota mentis intentio illuc 
+            advoce<lb break="no" ed="#L" n="54"/>tur: ita scilicet quod nihil intelligat aliud ex 
+            phan<lb break="no" ed="#L" n="55"/>tasmatibus, sed totaliter feratur in Deum. Unde
+            <lb ed="#L" n="56"/>impossibile est quod homo in statu viae videat
+            <lb ed="#L" n="57"/>Deum per essentiam sine abstractione a sensibus .
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1205">
+            <lb ed="#L" n="58"/>AD PRIMUM ERGO DICENDUM quod, sicut dictum
+            <lb ed="#L" n="59"/>est , post resurrectionem in beatis Dei 
+            essen<lb break="no" ed="#L" n="60"/>tiam videntibus fiet redundantia ab intellectu ad
+            <lb ed="#L" n="61"/>inferiores vires, et usque ad corpus. Unde, 
+            se<lb break="no" ed="#L" n="62"/>cundum ipsam regulam divinae visionis, anima
+            <lb ed="#L" n="63"/>intendet et ^ phantasmatibus et sensibilibus. Talis
+            <lb ed="#L" n="64"/>autem redundantia non fit in his qui rapiuntur,
+            <lb ed="#L" n="65"/>sicut dictum est . Et ideo non est similis ratio.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1225">
+            <lb ed="#L" n="66"/>AD SECUNDUM DICENDUM quod intellectus animae
+            <lb ed="#L" n="67"/>Christi erat glorificatus per habituale lumen 
+            glo<lb break="no" ed="#L" n="68"/>riae, quo divinam essentiam videbat multo 
+            am<lb break="no" ed="#L" n="69"/>plius quam aliquis angelus vel homo. Erat 
+            au<lb break="no" ed="#L" n="70"/>tem viator propter corporis passibilitatem, 
+            secun<lb break="no" ed="#L" n="71"/>dum quam paulo minus ab angelis minorabatur,
+            <lb ed="#L" n="72"/>ut dicitur ad Heb. 1 , dispensative, et non 
+            pro<lb break="no" ed="#L" n="73"/>pter aliquem defectum ex parte intellectus. Unde
+            <lb ed="#L" n="74"/>non est similis ratio de eo et de aliis 
+            viato<lb break="no" ed="#L" n="75"/>ribus.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1249">
+            <lb ed="#L" n="76"/>Ap TERTIUM DICENDUM quod Paulus, postquam
+            <lb ed="#L" n="77"/>cessavit videre Deum per " essentiam, memor
+            <lb ed="#L" n="78"/>fuit illorum quae in illa visione cognoverat, per
+            <lb ed="#L" n="79"/>aliquas species intelligibiles habitualiter ex hoc in
+            <lb ed="#L" n="80"/>eius intellectu relictas, sicut etiam, abeunte 
+            sen<lb break="no" ed="#L" n="81"/>sibili, remanent aliquae impressiones in anima:
+            <lb ed="#L" n="82"/>quas postea convertens ' ad phantasmata, 
+            me<lb break="no" ed="#L" n="83"/>morabatur. Unde nec totam illam cognitionem aut
+            <lb ed="#L" n="84"/>cogitare poterat, aut verbis exprimere.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2176-Dd1e1272"><!-- p2p2-q175a5 -->
+          <head xml:id="TAca84-d1e2176-Hd1e1275">Articulus 5</head>
+          <head xml:id="TAca84-d1e2176-Hd1e1277" type="question-title">Utrum anima pauli in statu illo fuerit totaliter a corpore separata</head>
+          <p xml:id="TAca84-d1e2176-d1e1280">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="13" type="fixed=407"/>ARTICULUS QUINTUS
+            <lb ed="#L" n="14"/>UTRUM ANIMA PAULI IN STATU ILLO FUERIT TOTALITER A CORPORE SEPARATA
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1289">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="15"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="16"/>anima Pauli in statu illo fuerit totaliter
+            <lb ed="#L" n="17"/>a corpore separata. Dicit enim 
+            Aposto<lb break="no" ed="#L" n="18"/>lus, II ad Cor. v : Quandiu sumus in
+            <lb ed="#L" n="19"/>corpore, peregrinamur a Domino: per fidem enim
+            <lb ed="#L" n="20"/>ambulamus, et non per speciem. Sed Paulus in
+            <lb ed="#L" n="21"/>statu illo non peregrinabatur a Domino: quia 
+            vi<lb break="no" ed="#L" n="22"/>debat Deum per speciem, ut dictum est . Ergo
+            <lb ed="#L" n="23"/>non erat in corpore.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1313">
+            <lb ed="#L" n="24"/>2. PRAETEREA, potentia animae non potest 
+            ele<lb break="no" ed="#L" n="25"/>vari supra eius essentiam, in qua radicatur . Sed
+            <lb ed="#L" n="26"/>intellectus, qui est potentia animae, in raptu fuit
+            <lb ed="#L" n="27"/>a corporalibus abstractus per elevationem ad 
+            di<lb break="no" ed="#L" n="28"/>vinam contemplationem. Ergo multo magis 
+            es<lb break="no" ed="#L" n="29"/>sentia animae fuit separata a corpore.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1330">
+            <lb ed="#L" n="30"/>3. PRAETEREA, vires animae vegetabilis sunt
+            <lb ed="#L" n="31"/>magis materiales quam vires animae sensitivae.
+            <lb ed="#L" n="32"/>Sed oportebat intellectum abstrahi a viribus 
+            ani<lb break="no" ed="#L" n="33"/>mae sensitivae, ut dictum est , ad hoc quod
+            <lb ed="#L" n="34"/>rapiatur ad videndum divinam essentiam. Ergo
+            <lb ed="#L" n="35"/>multo magis oportebat quod abstraheretur a 
+            vi<lb break="no" ed="#L" n="36"/>ribus animae vegetabilis. Quarum operatione 
+            ces<lb break="no" ed="#L" n="37"/>sante, iam nullo modo anima remanet corpori
+            <lb ed="#L" n="38"/>coniuncta. Ergo videtur quod oportuit in raptu
+            <lb ed="#L" n="39"/>Pauli animam totaliter a corpore esse separatam.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1354">
+            <lb ed="#L" n="40"/>SEp coNTRA EsT quod Augustinus dicit, in 
+            Epi<lb break="no" ed="#L" n="41"/>stola ad Paulinam de Videndo Deum: Non est
+            <lb ed="#L" n="42"/>incredibile, sic 5 quibusdam sanctis nondum ita
+            <lb ed="#L" n="43"/>defunctis ut sepelienda eorum cadavera 
+            remane<lb break="no" ed="#L" n="44"/>rent, istam excellentiam revelationis fuisse 
+            conces<lb break="no" ed="#L" n="45"/>sam, ut scilicet viderent Deum per essentiam.
+            <lb ed="#L" n="46"/>Non igitur fuit necessarium ut in raptu Pauli
+            <lb ed="#L" n="47"/>anima eius totaliter separaretur a corpore.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1374">
+            <lb ed="#L" n="48"/>RESPONDEO DICENDUM quod, sicut supra  
+            di<lb break="no" ed="#L" n="49"/>ctum est", in raptu de quo nunc loquimur, 
+            vir<lb break="no" ed="#L" n="50"/>tute divina elevatur homo ab eo quod est secun-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="51"/>dum naturam in id quod est supra naturam. Et
+            <lb ed="#L" n="52"/>ideo duo considerare oportet: primo quidem,
+            <lb ed="#L" n="53"/>quid sit homini ? secundum naturam; secundo,
+            <lb ed="#L" n="54"/>quid divina virtute sit in homine fiendum supra
+            <lb ed="#L" n="55"/>naturam. Ex hoc autem quod anima corpori 
+            uni<lb break="no" ed="#L" n="56"/>tur tanquam naturalis forma ipsius, convenit 
+            ani<lb break="no" ed="#L" n="57"/>mae naturalis habitudo ad hoc quod per 
+            conver<lb break="no" ed="#L" n="58"/>sionem ad phantasmata intelligat. Quod ab ea
+            <lb ed="#L" n="59"/>non aufertur divina virtute in raptu: quia non
+            <lb ed="#L" n="60"/>mutatur status eius, ut dictum est . Manente
+            <lb ed="#L" n="61"/>autem hoc statu, aufertur ab anima actualis 
+            con<lb break="no" ed="#L" n="62"/>versio ad phantasmata et sensibilia, ne 
+            impedia<lb break="no" ed="#L" n="63"/>tur eius elevatio in id quod excedit omnia 
+            phan<lb break="no" ed="#L" n="64"/>tasmata, ut dictum est . Et ideo in raptu non
+            <lb ed="#L" n="65"/>fuit necessarium quod anima sic separaretur a
+            <lb ed="#L" n="66"/>corpore ut ei non uniretur quasi forma: fuit
+            <lb ed="#L" n="67"/>autem necessarium intellectum eius abstrahi a
+            <lb ed="#L" n="68"/>phantasmatibus et sensibilium perceptione .
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1424">
+            <lb ed="#L" n="69"/>AD PRIMUM ERGO DICENDUM quod Paulus in raptu
+            <lb ed="#L" n="70"/>illo peregrinabatur a Domino quantum ad 
+            sta<lb break="no" ed="#L" n="71"/>tum, quia adhuc erat in statu viatoris: non 
+            au<lb break="no" ed="#L" n="72"/>tem quoad actum, quo videbat Deum per 
+            spe<lb break="no" ed="#L" n="73"/>ciem, ut ex supra  dictis patet.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1437">
+            <lb ed="#L" n="74"/>AD SECUNDUM DICENDUM quod potentia animae
+            <lb ed="#L" n="75"/>virtute naturali non elevatur supra modum 
+            conve<lb break="no" ed="#L" n="76"/>nientem essentiae eius. Virtute tamen divina 
+            pot<lb break="no" ed="#L" n="77"/>est in aliquid altius elevari: sicut corpus per 
+            vio<lb break="no" ed="#L" n="78"/>lentiam fortioris virtutis elevatur supra locum 
+            con<lb break="no" ed="#L" n="79"/>venientem sibi secundum speciem suae naturae.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1453">
+            <lb ed="#L" n="80"/>Ap TERTIUM DICENDUM quod vires animae 
+            vege<lb break="no" ed="#L" n="81"/>tabilis non operantur ex intentione animae, sicut
+            <lb ed="#L" n="82"/>vires sensitivae, sed per modum naturae. Et ideo
+            <lb ed="#L" n="83"/>non requiritur ad raptum abstractio ab eis, sicut
+            <lb ed="#L" n="84"/>a potentiis sensitivis, per quarum operationes 
+            mi<lb break="no" ed="#L" n="85"/>nueretur intentio animae circa intellectivam 
+            co<lb break="no" ed="#L" n="86"/>gnitionem.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2176-Dd1e1472"><!-- p2p2-q175a6 -->
+          <head xml:id="TAca84-d1e2176-Hd1e1475">Articulus 6</head>
+          <head xml:id="TAca84-d1e2176-Hd1e1477" type="question-title">Utrum paulus ignoraverit an eius anima fuerit a corpore separata</head>
+          <p xml:id="TAca84-d1e2176-d1e1480">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="8" type="fixed=408"/>ARTICULUS SEXTUS
+            <lb ed="#L" n="9"/>UTRUM PAULUS IGNORAVERIT AN EIUS ANIMA FUERIT A CORPORE SEPARATA
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1489">
+            <lb ed="#L" n="10"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="11"/>Paulus non ignoraverit an eius anima
+            <lb ed="#L" n="12"/>fuerit a. corpore separata. Dicit enim
+            <lb ed="#L" n="13"/>ipse, II ad Cor. xui : Scio hominem in
+            <lb ed="#L" n="14"/>Christo rapium usque ad tertium caelum. Sed
+            <lb ed="#L" n="15"/>homo nominat compositum ex anima et corpore:
+            <lb ed="#L" n="16"/>raplus etiam differt a morte. Videtur ergo quod
+            <lb ed="#L" n="17"/>ipse sciverit animam non fuisse per mortem a
+            <lb ed="#L" n="18"/>corpore separatam: praesertim quia hoc 
+            commu<lb break="no" ed="#L" n="19"/>niter a Doctoribus ponitur.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1513">
+            <lb ed="#L" n="20"/>2. PRAETEREA, ex eisdem  Apostoli verbis 
+            pa<lb break="no" ed="#L" n="21"/>tet quod ipse scivit quo raptus fuerit: quia :m
+            <lb ed="#L" n="22"/>tertium. caelum. Sed ex hoc sequitur quod scivit
+            <lb ed="#L" n="23"/>utrum fuerit in corpore vel non. Quia si scivit
+            <lb ed="#L" n="24"/>tertium caelum. esse aliquid corporeum, 
+            conse<lb break="no" ed="#L" n="25"/>quens est quod sciverit animam suam non esse
+            <lb ed="#L" n="26"/>a corpore separatam: quia visio rei corporeae
+            <lb ed="#L" n="27"/>non potest fieri nisi per corpus. Ergo videtur
+            <lb ed="#L" n="28"/>quod non ignoraverit an anima fuerit a corpore
+            <lb ed="#L" n="29"/>separata.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1538">
+            <lb ed="#L" n="30"/>3. PRAETEREA, sicut Augustinus dicit, XII super
+            <lb ed="#L" n="31"/>Gen. ad litt., ipse in raptu vidit illa visione Deum
+            <lb ed="#L" n="32"/>qua vident sancti in patria. Sed sancti, ex hoc
+            <lb ed="#L" n="33"/>ipso quod vident Deum, sciunt an animae 
+            eo<lb break="no" ed="#L" n="34"/>rum sint a corporibus separatae. Ergo et Paulus
+            <lb ed="#L" n="35"/>hoc scivit.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1554">
+            <lb ed="#L" n="36"/>SEp coNTRA EST quod dicitur III ad Cor. xii :
+            <lb ed="#L" n="37"/>Sive in corpore sive exira corpus, nescio: Deus
+            <lb ed="#L" n="38"/>scit.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1563">
+            <lb ed="#L" n="39"/>RESPONDEO DICENDUM quod huius quaestionis
+            <lb ed="#L" n="40"/>veritatem accipere oportet ex ipsis Apostoli 
+            ver<lb break="no" ed="#L" n="41"/>bis: quibus dicit se aliquid scire, scilicet se 
+            ra<lb break="no" ed="#L" n="42"/>plum esse usque ad tertium caelum; et aliquid
+            <lb ed="#L" n="43"/>nescire, scilicet utrum in corpore aul extra 
+            cor<lb break="no" ed="#L" n="44"/>pus. Quod quidem potest dupliciter intelligi. Uno
+            <lb ed="#L" n="45"/>modo, ut hoc quod dicitur, sive in corpore sive
+            <lb ed="#L" n="46"/>extra corpus, non referatur ad ipsum esse 
+            ho<lb break="no" ed="#L" n="47"/>minis rapti, quasi ignoraverit an anima eius esset
+            <lb ed="#L" n="48"/>in corpore vel non: sed ad modum. raptus, ut
+            <lb ed="#L" n="49"/>scilicet  ignoraverit an corpus eius fuerit simul
+            <lb ed="#L" n="50"/>raptum cum anima in tertium caelum, vel non,
+            <lb ed="#L" n="51"/>sed solum anima, sicut Ezech. vir  dicitur quod
+            <lb ed="#L" n="52"/>adductus est in visionibus Dei in lerusalem. Et
+            <lb ed="#L" n="53"/>hunc intellectum fuisse cuiusdam Iudaei,
+            <lb ed="#L" n="54"/>mit Hieronymus, in Prologo super Danielem,
+            <lb ed="#L" n="55"/>ubi dicit: Denique et Apostolum nostrum, scilicet
+            <lb ed="#L" n="56"/>dicebat Iudaeus, non fuisse ausum affirmare se
+            <lb ed="#L" n="57"/>in corpore raplum, sed dixisse: Sive in corpore
+            <lb ed="#L" n="58"/>sive extra corpus, nescio.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1609">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="59"/>Sed hunc sensum improbat Augustinus, XII
+            <lb ed="#L" n="60"/>super Gen. ad litt. , per hoc quod Apostolus
+            <lb ed="#L" n="61"/>dicit se scivisse se esse raptum usque in tertium
+            <lb ed="#L" n="62"/>caelum. Sciebat ergo verum esse tertium 
+            cae<lb break="no" ed="#L" n="63"/>lum illud in. quod raptus fuit, et non 
+            similitudi<lb break="no" ed="#L" n="64"/>nem imaginariam tertii caeli: alioquin, si tertium
+            <lb ed="#L" n="65"/>caelum nominavit  phantasma tertii caeli, pari
+            <lb ed="#L" n="66"/>ratione dicere potuit se in corpore raptum, 
+            no<lb break="no" ed="#L" n="67"/>minans corpus proprii corporis phantasma, quale
+            <lb ed="#L" n="68"/>apparet in somniis, Si autem sciebat esse vere '
+            <lb ed="#L" n="69"/>tertium caelum, sciebat ergo utrum esset aliquid
+            <lb ed="#L" n="70"/>spirituale et incorporeum, et sic non poterat 
+            cor<lb break="no" ed="#L" n="71"/>pus eius illuc. rapi: aut esset aliquid corporeum,
+            <lb ed="#L" n="72"/>et sic anima non posset illuc sine corpore rapi,
+            <lb ed="#L" n="73"/>nisi separaretur a corpore.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1646">
+            <lb ed="#L" n="74"/>Et ideo oportet secundum alium sensum 
+            in<lb break="no" ed="#L" n="75"/>telligere: ut scilicet Apostolus sciverit quod fuit.
+            <lb ed="#L" n="76"/>raptus secundum animam et non secundum 
+            cor<lb break="no" ed="#L" n="77"/>pus; nesciverit tamen qualiter se haberet anima ad.
+            <lb ed="#L" n="78"/>corpus, utrum scilicet fuerit sine corpore vel non.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1659">
+            <lb ed="#L" n="79"/>Sed circa hoc diversimode aliqui loquuntur.
+            <lb ed="#L" n="80"/>Quidam enim dicunt quod Apostolus scivit quod
+            <lb ed="#L" n="81"/>anima sua erat corpori unita ut forma: sed 
+            ne<lb break="no" ed="#L" n="82"/>scivit utrum esset passus alienationem a sensibus;
+            <lb ed="#L" n="83"/>vel etiam utrum esset facta abstractio ab operibus.
+            <lb ed="#L" n="84"/>animae vegetabilis. - Sed quod fuerit facta 
+            abs<lb break="no" ed="#L" n="85"/>tractio a sensibus, hoc non potuit ignorare, ex
+            <lb ed="#L" n="86"/>quo scivit se raptum. Quod autem fuerit facta.
+            <lb ed="#L" n="87"/>abstractio ab operibus animae vegetabilis, non
+            <lb ed="#L" n="88"/>erat tantum aliquid ut de hoc oporteret tam 
+            sol<lb break="no" ed="#L" n="89"/>licitam fieri mentionem. Unde relinquitur quod
+            <lb ed="#L" n="90"/>nescivit Apostolus utrum anima eius fuerit 
+            con<lb break="no" ed="#L" n="91"/>iuncta corpori ut forma, vel a corpore separata
+            <lb ed="#L" n="92"/>per mortem.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1693">
+            <lb ed="#L" n="93"/>Quidam autem, hoc concedentes, dicunt quod
+            <lb ed="#L" n="94"/>Apostolus tunc non perpendit quando rapiebatur,
+            <lb ed="#L" n="95"/>quia tota eius intentio. conversa erat in Deum:
+            <lb ed="#L" n="96"/>sed postmodum percepit, considerans ea quae
+            <lb ed="#L" n="97"/>viderat, - Sed hoc etiam contrariatur verbis 
+            Apo<lb break="no" ed="#L" n="98"/>stoli, qui distinguit in verbis suis praeteritum a
+            <lb ed="#L" n="99"/>futuro. Dicit enim in praesenti se scire quod fuit
+            <lb ed="#L" n="100"/>raptus ante annos quatuordecim: et se in 
+            prae<lb break="no" ed="#L" n="101"/>senti nescire utrum in corpore fuerit vel extra
+            <lb ed="#L" n="102"/>corpus.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1717">
+            <lb ed="#L" n="103"/>Et ideo dicendum est quod et prius et postea
+            <lb ed="#L" n="104"/>nescivit utrum eius anima fuerit a corpore 
+            se<lb break="no" ed="#L" n="105"/>parata. Unde Augustinus dicit, XII super Gen,
+            <lb ed="#L" n="106"/>ad litt. , post longam inquisitionem concludens :
+            <lb ed="#L" n="107"/>Restat ergo fortasse ut hoc ipsum eum ignorasse
+            <pb ed="#L" n="409"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>intelligamus: utrum, quando in tertium caelum
+            <lb ed="#L" n="2"/>raptus est, in corpore fuerit anima, quomodo est
+            <lb ed="#L" n="3"/>anima in corpore cum corpus vivere dicitur, sive
+            <lb ed="#L" n="4"/>vigilantis sive dormientis sive in extasi a sensibus
+            <lb ed="#L" n="5"/>corporis alienati; an omnino de corpore exierit,
+            <lb ed="#L" n="6"/>ut mortuum corpus iaceret.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1748">
+            <lb ed="#L" n="7"/>AD PRIMUM ERGO DICENDUM quod per 
+            synecdo<lb break="no" ed="#L" n="8"/>chen quandoque pars hominis homo 
+            nomina<lb break="no" ed="#L" n="9"/>jur: et praecipue anima, quae est pars hominis
+            <lb ed="#L" n="10"/>eminentior. Quamvis etiam possit intelligi eum
+            <lb ed="#L" n="11"/>quem raptum dicit, non tunc fuisse hominem
+            <lb ed="#L" n="12"/>quando raptus fuit, sed post annos quatuordecim :
+            <lb ed="#L" n="13"/>unde dicit, Scio hominem; non dicit, Scio raptum
+            <lb ed="#L" n="14"/>hominem. - Nihil etiam prohiberet mortem 
+            di<lb break="no" ed="#L" n="15"/>vinitus procuratam raptum dici. Et sicut  
+            Au<lb break="no" ed="#L" n="16"/>gustinus dicit, XII super Gen. ad litt. , dubitante
+            <lb ed="#L" n="17"/>inde Apostolo, quis nostrum inde certus esse potuit?
+            <lb ed="#L" n="18"/>Unde qui super hoc loquuntur, magis 
+            coniectura<lb break="no" ed="#L" n="19"/>liter quam per certitudinem loquuntur.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1779">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="20"/>AD SECUNDUM DICENDUM quod Apostolus scivit
+            <lb ed="#L" n="21"/>vel illud caelum esse quid incorporeum ', vel
+            <lb ed="#L" n="22"/>aliquid incorporeum a se visum in illo caelo:
+            <lb ed="#L" n="23"/>tamen hoc poterat  fieri per intellectum eius,
+            <lb ed="#L" n="24"/>etiam si anima eius non esset a corpore 
+            se<lb break="no" ed="#L" n="25"/>parata.
+          </p>
+          <p xml:id="TAca84-d1e2176-d1e1797">
+            <lb ed="#L" n="26"/>AD TERTIUM DICENDUM quod visio Pauli in 
+            ra<lb break="no" ed="#L" n="27"/>ptu quantum ad aliquid fuit similis visioni 
+            bea<lb break="no" ed="#L" n="28"/>torum, scilicet quantum ad id quod videbatur:
+            <lb ed="#L" n="29"/>et quantum ad aliquid dissimilis, scilicet 
+            quan<lb break="no" ed="#L" n="30"/>tum ad modum videndi, quia non ita perfecte
+            <lb ed="#L" n="31"/>vidit sicut sancti qui sunt in patria. Unde 
+            Au<lb break="no" ed="#L" n="32"/>gustinus dicit, XII super Gen. ad litt. : Apostolo
+            <lb ed="#L" n="33"/>arrepto a carnis sensibus in tertium caelum, hoc
+            <lb ed="#L" n="34"/>defuit ad plenam perfectamque cognitionem rerum
+            <lb ed="#L" n="35"/>quae angelis inest, quod sive in corpore sive extra
+            <lb ed="#L" n="36"/>corpus esset, nesciebat. Hoc itaque non deerit?
+            <lb ed="#L" n="37"/>cum, receptis corporibus in resurrectione 
+            mortuo<lb break="no" ed="#L" n="38"/>rum, cum corruptibile hoc induerit incorruptionem.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

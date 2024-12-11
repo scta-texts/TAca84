@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 163</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 163</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="328"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2114"><!-- p2p2-q163 -->
+        <head xml:id="TAca84-d1e2114-Hd1e101">Quaestio 163</head>
+        <head xml:id="TAca84-d1e2114-Hd1e103" type="question-title">De peccato primi hominis</head>
+        <p xml:id="TAca84-d1e2114-d1e106">
+          <pb ed="#L" n="328"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=328"/>QUAESTIO CENTESIMASEXAGESIMATERTIA
+          <lb ed="#L" n="2"/>DE PECCATO PRIMI HOMINIS
+          <lb ed="#L" n="3"/>IN QUATUOR ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2114-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de peccato primi 
+          <lb ed="#L" n="5"/>hominis, quod fuit per superbiam . Et 
+          pri<lb break="no" ed="#L" n="6"/>mo, de peccato eius; secundo, de poena 
+          pec<lb break="no" ed="#L" n="7"/>cati p tertio, de tentatione qua inductus est ad
+          <lb ed="#L" n="8"/>peccandum.
+        </p>
+        <p xml:id="TAca84-d1e2114-d1e135">
+          <lb ed="#L" n="9"/>Circa primum quaeruntur quatuor.
+          <lb ed="#L" n="10"/>Primo: utrum primum peccatum hominis fuerit
+          <lb ed="#L" n="11"/>superbia.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="12"/>Secundo: quid primus homo peccando 
+          appe<lb break="no" ed="#L" n="13"/>tierit.
+          <lb ed="#L" n="14"/>Tertio: utrum eius peccatum fuerit gravius
+          <lb ed="#L" n="15"/>omnibus aliis peccatis.
+          <lb ed="#L" n="16"/>Quarto: quis plus peccaverit, utrum vir vel
+          <lb ed="#L" n="17"/>mulier.
+        </p>
+        <div xml:id="TAca84-d1e2114-Dd1e160"><!-- p2p2-q163a1 -->
+          <head xml:id="TAca84-d1e2114-Hd1e163">Articulus 1</head>
+          <head xml:id="TAca84-d1e2114-Hd1e165" type="question-title">Utrum superbia fuerit primi hominis peccatum</head>
+          <p xml:id="TAca84-d1e2114-d1e168">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="18" type="fixed=328"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="19"/>UTRUM SUPERBIA FUERIT PRIMI HOMINIS PECCATUM
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e177">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="20"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="21"/>superbia non fuerit primi hominis 
+            pec<lb break="no" ed="#L" n="22"/>catum. Dicit enim Apostolus, Rom. v ,
+            <lb ed="#L" n="23"/>quod per inobedientiam unius hominis
+            <lb ed="#L" n="24"/>peccatores constituti sunt multi, Sed primi 
+            ho<lb break="no" ed="#L" n="25"/>minis peccatum est ex quo omnes peccatores
+            <lb ed="#L" n="26"/>constituti sunt originali peccato. Ergo 
+            inobe<lb break="no" ed="#L" n="27"/>dientia fuit primi hominis peccatum, et non 
+            su<lb break="no" ed="#L" n="28"/>perbia.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e201">
+            <lb ed="#L" n="29"/>2. PRAETEREA, Ambrosius dicit, super Luc.
+            <lb ed="#L" n="30"/>quod eo ordine diabolus Christum tentavit quo
+            <lb ed="#L" n="31"/>primum. hominem deiecit. Sed Christus primo
+            <lb ed="#L" n="32"/>tentatus est de gula, ut patet Matth. iv , cum
+            <lb ed="#L" n="33"/>ei dictum est: Si Filius Dei es, dic ut lapides isti
+            <lb ed="#L" n="34"/>panes fiant. Ergo primum peccatum primi 
+            ho<lb break="no" ed="#L" n="35"/>minis non fuit superbia, sed gula.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e220">
+            <lb ed="#L" n="36"/>3. PRAETEREA, homo diabolo suggerente 
+            pec<lb break="no" ed="#L" n="37"/>cavit. Sed diabolus tentans hominem scientiam
+            <lb ed="#L" n="38"/>repromisit: ut patet Ger. m . Ergo prima 
+            inor<lb break="no" ed="#L" n="39"/>dinatio hominis fuit per appetitum scientiae: quod
+            <lb ed="#L" n="40"/>pertinet ad curiositatem. Ergo curiositas fuit 
+            pec<lb break="no" ed="#L" n="41"/>catum primum, et non superbia.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e236">
+            <lb ed="#L" n="42"/>4. PRAETEREA, super illud I ad Tim.u, 
+            Mu<lb break="no" ed="#L" n="43"/>lier seducta in praevaricatione fuit, dicit Glossa :
+            <lb ed="#L" n="44"/>Hanc seductionem. proprie appellavit Apostolus,
+            <lb ed="#L" n="45"/>per quam id quod suadebatur, cum falsum esset,
+            <lb ed="#L" n="46"/>verum putatum est: scilicet quod Deus lignum illud
+            <lb ed="#L" n="47"/>ideo tangere prohibuerit, quod sciebat eos, si 
+            te<lb break="no" ed="#L" n="48"/>tigissent, velut deos futuros; tanquam eis 
+            divini<lb break="no" ed="#L" n="49"/>latem invideret qui eos homines fecerat, Sed hoc
+            <lb ed="#L" n="50"/>credere pertinet ad infidelitatem. Ergo primum
+            <lb ed="#L" n="51"/>peccatum hominis fuit infidelitas, et non superbia.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e260">
+            <lb ed="#L" n="52"/>SED CONTRA EST quod dicitar Eccli. x : 
+            Ini<lb break="no" ed="#L" n="53"/>lium omnis peccati superbia. Sed peccatum primi
+            <lb ed="#L" n="54"/>hominis est initium omnis peccati: secundum il-
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="55"/>lud Rom. v: Per unum hominem peccatum in  
+            <lb ed="#L" n="56"/>hunc mundum intravit. Ergo primum peccatum
+            <lb ed="#L" n="57"/>hominis fuit superbia.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e278">
+            <lb ed="#L" n="58"/>RESPONDEO DICENDUM quod ad unum peccatum
+            <lb ed="#L" n="59"/>multi motus concurrere possunt: inter quos ille
+            <lb ed="#L" n="60"/>habet rationem primi peccati in quo primo  
+            in<lb break="no" ed="#L" n="61"/>ordinatio invenitur. Manifestum est autem quod
+            <lb ed="#L" n="62"/>primo invenitur inordinatio in motu interiori 
+            ani<lb break="no" ed="#L" n="63"/>mae quam in actu exteriori COTpOnm quia, ut
+            <lb ed="#L" n="64"/>Augustinus dicit, in 1 de Civ. Dei , non amittitur 
+            <lb ed="#L" n="65"/>corporis sanctitas manente animae sanctitate, Inter
+            <lb ed="#L" n="66"/>motus autem interiores, prius movetur appetitus
+            <lb ed="#L" n="67"/>in finem quam in id quod quaeritur propter 
+            fi<lb break="no" ed="#L" n="68"/>nem. Et ideo ibi fuit primum peccatum hominis
+            <lb ed="#L" n="69"/>ubi potuit esse primus appetitus inordinati finis,
+            <lb ed="#L" n="70"/>Sic autem homo erat in statu innocentiae 
+            insti<lb break="no" ed="#L" n="71"/>tutus ut nulla esset rebellio carnis ad spiritum.
+            <lb ed="#L" n="72"/>Unde non potuit esse prima inordinatio appetitus
+            <lb ed="#L" n="73"/>humani ex hoc quod appetierit aliquod sensibile
+            <lb ed="#L" n="74"/>bonum, in quod carnis concupiscentia tendit 
+            prae<lb break="no" ed="#L" n="75"/>ter ordinem rationis. Relinquitur igitur quod prima
+            <lb ed="#L" n="76"/>inordinatio appetitus humani fuit ex hoc quod 
+            ali<lb break="no" ed="#L" n="77"/>quod bonum spirituale inordinate appetiit. Non
+            <lb ed="#L" n="78"/>autem inordinate appetivisset, appetendo illud 
+            se<lb break="no" ed="#L" n="79"/>cundum suam mensuram ex divina regula. 
+            prae<lb break="no" ed="#L" n="80"/>stitutam. Unde relinquitur quod primum peccatum
+            <lb ed="#L" n="81"/>eius fuit in hoc quod appetiit quoddam spirituale
+            <lb ed="#L" n="82"/>bonum supra suam mensuram. Quod pertinet ad
+            <lb ed="#L" n="83"/>superbiam. Unde manifestum est quod primum
+            <lb ed="#L" n="84"/>peccatum hominis fuit superbia.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e339">
+            <lb ed="#L" n="85"/>AD PRIMUM ERGO DICENDUM quod hoc quod homo
+            <lb ed="#L" n="86"/>divino praecepto non obediret , non fuit propter
+            <lb ed="#L" n="87"/>se ab eo volitum: quia hoc non posset. contin
+            <lb ed="#L" n="88"/>gere nisi praesupposita inordinatione voluntatis.
+            <lb ed="#L" n="89"/>Relinquitur ergo quod voluerit propter aliquid
+            <pb ed="#L" n="329"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>aliud. Primum autem quod inordinate voluit fuit
+            <lb ed="#L" n="2"/>propria excellentia. Et ideo inobedientia in eo
+            <lb ed="#L" n="3"/>causata fuit ex superbia. Et hoc est quod 
+            Au<lb break="no" ed="#L" n="4"/>gustinus dicit, ad Orosium , quod homo elatus
+            <lb ed="#L" n="5"/>superbia, suasioni serpentis obediens, praecepta
+            <lb ed="#L" n="6"/>Dei contempsit.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e370">
+            <lb ed="#L" n="7"/>AD SECUNDUM DICENDUM quod in peccato 
+            primo<lb break="no" ed="#L" n="8"/>rum parentum etiam gula locum habuit: dicitur
+            <lb ed="#L" n="9"/>enim Gen. ur : Vidit mulier quod lignum esset
+            <lb ed="#L" n="10"/>bonum ad vescendum, et pulchrum oculis, 
+            aspe<lb break="no" ed="#L" n="11"/>ctuque delectabile: et tulit de fructu eius, et 
+            co<lb break="no" ed="#L" n="12"/>medit. Non tamen ipsa bonitas et pulchritudo
+            <lb ed="#L" n="13"/>cibi fuit primum motivum ad peccandum: sed
+            <lb ed="#L" n="14"/>potius suasio serpentis, qui dixit: Aperientur
+            <lb ed="#L" n="15"/>oculi vestri, et eritis sicut dii; quod appetendo, 
+            su<lb break="no" ed="#L" n="16"/>perbiam mulier incurrit. Et ideo peccatum gulae
+            <lb ed="#L" n="17"/>derivatum est ex peccato superbiae.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e397">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="18"/>AD TERTIUM DICENDUM quod appetitus scientiae
+            <lb ed="#L" n="19"/>causatus fuit in primis parentibus ex inordinato
+            <lb ed="#L" n="20"/>appetitu excellentiae. Unde et in verbis serpentis
+            <lb ed="#L" n="21"/>praemittitur : Eritis sicut dii; et postea 
+            subdi<lb break="no" ed="#L" n="22"/>tur: scientes bonum et malum.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e413">
+            <lb ed="#L" n="23"/>AD QUARTUM DICENDUM quod, sicut Augustinus
+            <lb ed="#L" n="24"/>dicit, XI super Gen. ad litt. , verbis serpentis
+            <lb ed="#L" n="25"/>mulier non crederet a bona atque utili re 
+            divi<lb break="no" ed="#L" n="26"/>nitus se fuisse prohibitos, nisi iam; inesset. menti
+            <lb ed="#L" n="27"/>amor ille propriae potestatis, et quaedam de se
+            <lb ed="#L" n="28"/>superba ? praesumptio. Quod non est sic 
+            intelli<lb break="no" ed="#L" n="29"/>gendum quasi superbia praecesserit suasionem
+            <lb ed="#L" n="30"/>serpentis: sed quia statim post suasionem 
+            ser<lb break="no" ed="#L" n="31"/>pentis, invasit mentem eius elatio, ex qua 
+            con<lb break="no" ed="#L" n="32"/>secutum est ut crederet verum esse quod 
+            dae<lb break="no" ed="#L" n="33"/>mon dicebat.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2114-Dd1e440"><!-- p2p2-q163a2 -->
+          <head xml:id="TAca84-d1e2114-Hd1e443">Articulus 2</head>
+          <head xml:id="TAca84-d1e2114-Hd1e445" type="question-title">Utrum superbia primi hominis fuerit in hoc quod appetierit divinam similitudinem</head>
+          <p xml:id="TAca84-d1e2114-d1e448">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="59" type="fixed=329"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="60"/>UTRUM SUPERBIA PRIMI HOMINIS FUERIT IN HOC QUOD APPETIERIT DIVINAM SIMILITUDINEM
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e457">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="61"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="62"/>superbia primi hominis non fuerit in
+            <lb ed="#L" n="63"/>|hoc quod appetierit divinam 
+            similitu<lb break="no" ed="#L" n="64"/>dinem. Nullus enim peccat appetendo
+            <lb ed="#L" n="65"/>id quod sibi competit secundum suam naturam.
+            <lb ed="#L" n="66"/>Sed similitudo Dei competit homini secundum
+            <lb ed="#L" n="67"/>suam naturam: dicitur enim Gen. 1: Faciamus
+            <lb ed="#L" n="68"/>hominem ad imaginem et similitudinem nostram.
+            <lb ed="#L" n="69"/>Ergo non peccavit divinam similitudinem 
+            appe<lb break="no" ed="#L" n="70"/>tendo.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e483">
+            <lb ed="#L" n="71"/>2. PRAETEREA, in hoc videtur primus homo
+            <lb ed="#L" n="72"/>divinam similitudinem appetiisse, ut scientia boni
+            <lb ed="#L" n="73"/>et mali potiretur: hoc enim ei a serpente 
+            sug<lb break="no" ed="#L" n="74"/>gerebatur : Eritis sicut dii, scientes bonum et
+            <lb ed="#L" n="75"/>malum. Sed appetitus scientiae est homini 
+            na<lb break="no" ed="#L" n="76"/>turalis: secundum illud Philosophi, in principio
+            <lb ed="#L" n="77"/>Metaphys: Omnes homines natura. scire 
+            desi<lb break="no" ed="#L" n="78"/>derant. Ergo non peccavit appetendo divinam
+            <lb ed="#L" n="79"/>similitudinem. 
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e506">
+            <lb ed="#L" n="80"/>3. PRAETEREA, nullus sapiens eligit id quod est
+            <lb ed="#L" n="81"/>impossibile. Primus autem homo sapientia prae-
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="82"/>ditus erat: secundum illud Eccl. xvu : 
+            Disci<lb break="no" ed="#L" n="83"/>plina intellectus replevit illos. Cum ergo omne
+            <lb ed="#L" n="84"/>peccatum consistat in appetitu deliberato, qui est
+            <lb ed="#L" n="85"/>electio, videtur quod primus homo non 
+            pecca<lb break="no" ed="#L" n="86"/>verit appetendo aliquid impossibile. Sed 
+            impos<lb break="no" ed="#L" n="87"/>sibile est esse hominem similem Deo: secundum
+            <lb ed="#L" n="88"/>illud Exodi xv : Quis similis tui in fortibus, 
+            Do<lb break="no" ed="#L" n="89"/>mine? Ergo primus homo non peccavit 
+            appe<lb break="no" ed="#L" n="90"/>tendo divinam similitudinem.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e535">
+            <lb ed="#L" n="91"/>SED coNTRA EsT quod super illud Psalmi 
+            <lb ed="#L" n="92"/>Quae non rapui, tunc exsolvebam, dicit 
+            Augusti<lb break="no" ed="#L" n="93"/>nus : Adam et Eva rapere voluerunt divinitatem,
+            <lb ed="#L" n="94"/>et perdiderunt felicitatem.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e546">
+            <lb ed="#L" n="95"/>REsPONDEO DicENDUM quod duplex est 
+            simili<lb break="no" ed="#L" n="96"/>tudo. Una omnimodae aequiparantiae . Et hanc
+            <lb ed="#L" n="97"/>similitudinem ad Deum ? primi parentes non 
+            ap<lb break="no" ed="#L" n="98"/>petierunt: quia talis similitudo ad Deum non cadit
+            <lb ed="#L" n="99"/>in apprehensione, praecipue sapientis. — Alia 
+            au<lb break="no" ed="#L" n="100"/>tem est similitudo imitationis, qualis possibilis est
+            <lb ed="#L" n="101"/>creaturae ad Deum: inquantum videlicet 
+            partici<lb break="no" ed="#L" n="102"/>pat aliquid de similitudine ipsius secundum suum
+            <pb ed="#L" n="330"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>modum. Unde <ref xml:id="TAca84-d1e2114-Rd1e572">Dionysius dicit, in IX cap. de 
+              <lb ed="#L" n="2"/>Div. Nom.</ref> : Eadem similia sunt Deo, et 
+            dissi<lb break="no" ed="#L" n="3"/>milia: hoc quidem secundum contingentem 
+            imita<lb break="no" ed="#L" n="4"/>lionem; hoc autem secundum quod causata minus
+            <lb ed="#L" n="5"/>habent a causa. Quodlibet autem bonum in 
+            crea<lb break="no" ed="#L" n="6"/>tura existens est quaedam participata similitudo 
+            <lb ed="#L" n="7"/>primi boni. Et ideo ex hoc ipso quod homo 
+            ap<lb break="no" ed="#L" n="8"/>petiit aliquod spirituale bonum supra suam 
+            men<lb break="no" ed="#L" n="9"/>suram, ut dictum est , consequens est quod 
+            ap<lb break="no" ed="#L" n="10"/>petierit divinam similitudinem inordinate.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e595">
+            <lb ed="#L" n="11"/>Considerandum tamen est quod appetitus 
+            pro<lb break="no" ed="#L" n="12"/>prie est rei non habitae. Bonum autem spirituale :
+            <lb ed="#L" n="13"/>secundum quod creatura rationalis participat 
+            divi<lb break="no" ed="#L" n="14"/>nam similitudinem, potest secundum tria attendi. 
+            <lb ed="#L" n="15"/>Primo quidem, secundum ipsum esse naturae. Et
+            <lb ed="#L" n="16"/>talis similitudo ab ipso creationis principio fuit
+            <lb ed="#L" n="17"/>impressa et homini, de quo dicitur, Gen. 1, quod
+            <lb ed="#L" n="18"/>fecit Deus hominem ad imaginem et similitudinem
+            <lb ed="#L" n="19"/>suam; et angelo, de quo dicitur, Exech. xxvm :
+            <lb ed="#L" n="20"/>Tu signaculum similitudinis. - Secundo vero,
+            <lb ed="#L" n="21"/>quantum ad cognitionem. Et hanc etiam 
+            simili<lb break="no" ed="#L" n="22"/>tudinem in sui creatione angelus accepit: unde
+            <lb ed="#L" n="23"/>in praemissis verbis, cum dictum esset, Zu 
+            si<lb break="no" ed="#L" n="24"/>gnaculum similitudinis, statim subditur: plenus
+            <lb ed="#L" n="25"/>sapientia. Sed primus homo in sua creatione
+            <lb ed="#L" n="26"/>istam similitudinem nondum actu adeptus erat,
+            <lb ed="#L" n="27"/>sed solum in potentia. Tertio, quantum ad
+            <lb ed="#L" n="28"/>potestatem operandi. Et hanc similitudinem non-,
+            <lb ed="#L" n="29"/>dum erant in actu assecuti neque angelus neque 
+            <lb ed="#L" n="30"/>homo in ipso creationis principio: quia utrique 
+            <lb ed="#L" n="31"/>restabat aliquid agendum quo ad beatitudinem
+            <lb ed="#L" n="32"/>perveniret.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e645">
+            <lb ed="#L" n="33"/>Et ideo cum uterque, scilicet diabolus et 
+            pri<lb break="no" ed="#L" n="34"/>mus homo, inordinate divinam similitudinem 
+            ap<lb break="no" ed="#L" n="35"/>petierint, neuter eorum peccavit appetendo simi- 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="36"/>litudinem naturae. Sed primus homo peccavit
+            <lb ed="#L" n="37"/>principaliter appetendo similitudinem. Dei 
+            quan<lb break="no" ed="#L" n="38"/>tum ad scientiam boni et mali, sicut serpens ei
+            <lb ed="#L" n="39"/>suggessit: ut scilicet per virtutem propriae naturae
+            <lb ed="#L" n="40"/>determinaret sibi quid esset bonum et quid 
+            ma<lb break="no" ed="#L" n="41"/>lum ad agendum; vel etiam ut per seipsum 
+            prae<lb break="no" ed="#L" n="42"/>cognosceret quid sibi boni vel mali esset 
+            futu<lb break="no" ed="#L" n="43"/>rum. Et secundario peccavit appetendo 
+            similitu<lb break="no" ed="#L" n="44"/>dinem Dei quantum ad propriam potestatem
+            <lb ed="#L" n="45"/>operandi, ut scilicet virtute. propriae naturae
+            <lb ed="#L" n="46"/>operaretur ad beatitudinem consequendam: unde
+            <lb ed="#L" n="47"/>Augustinus dicit, XI super Gen. ad litt.
+            <lb ed="#L" n="48"/>menti mulieris inhaesit amor propriae potestatis. -
+            <lb ed="#L" n="49"/>Sed diabolus peccavit appetendo similitudinem
+            <lb ed="#L" n="50"/>Dei quantum ad potestatem: unde. Augustinus
+            <lb ed="#L" n="51"/>dicit, in libro de Vera Relig. , quod magis voluit
+            <lb ed="#L" n="52"/>sua potentia frui quam Dei. - Veruntamen 
+            quan<lb break="no" ed="#L" n="53"/>tum ad aliquid uterque Deo aequiparari appetit:
+            <lb ed="#L" n="54"/>inquantum scilicet  uterque sibi inniti voluit,
+            <lb ed="#L" n="55"/>contempto divinae regulae ordine.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e700">
+            <lb ed="#L" n="56"/>AD PRIMUM ERGO DICENDUM quod ratio illa 
+            pro<lb break="no" ed="#L" n="57"/>cedit de similitudine naturae: ex cuius Rppefim,
+            <lb ed="#L" n="58"/>homo non peccavit, ut dictum est .
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e710">
+            <lb ed="#L" n="59"/>AD SECUNDUM DICENDUM quod appetere similius
+            <lb ed="#L" n="60"/>dinem Dei absolute quantum ad scientiam, non
+            <lb ed="#L" n="61"/>est peccatum. Sed appetere huiusmodi 
+            similitu<lb break="no" ed="#L" n="62"/>dinem  inordinate, idest supra suam mensuram,
+            <lb ed="#L" n="63"/>peccatum est. Unde super illud. Psalmi , Deus
+            <lb ed="#L" n="64"/>quis similis erit tibi, dicit Augustinus: Qui per
+            <lb ed="#L" n="65"/>se vult esse Deus, perverse vult esse similis Deo:
+            <lb ed="#L" n="66"/>ut diabolus, qui noluit sub eo esse; et homo, qui
+            <lb ed="#L" n="67"/>ut servus noluit tenere praecepta .
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e732">
+            <lb ed="#L" n="68"/>AD TERTIUM DICENDUM quod ratio illa procedit
+            <lb ed="#L" n="69"/>de similitudine aequiparantiae.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2114-Dd1e740"><!-- p2p2-q163a3 -->
+          <head xml:id="TAca84-d1e2114-Hd1e743">Articulus 3</head>
+          <head xml:id="TAca84-d1e2114-Hd1e745" type="question-title">Utrum peccatum primorum parentum fuerit ceteris gravius</head>
+          <p xml:id="TAca84-d1e2114-d1e748">
+            <pb ed="#L" n="331"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=331"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="2"/>UTRUM PECCATUM PRIMORUM PARENTUM FUERIT CETERIS GRAVIUS
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e759">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD TERTIUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="4"/>peccatum primorum parentum fuerit 
+            <lb ed="#L" n="5"/>ceteris gravius. Dicit enim <ref xml:id="TAca84-d1e2114-Rd1e769">Augustinus, 
+              <lb ed="#L" n="6"/>XIV de Civ. Dei</ref>: Magna fuit in 
+            pec<lb break="no" ed="#L" n="7"/>cando iniquitas, ubi tanta fuit in non peccando  
+            <lb ed="#L" n="8"/>facilitas. Sed primi parentes maximam habuerunt  
+            <lb ed="#L" n="9"/>facilitatem ad non peccandum: quia nihil 
+            habe<lb break="no" ed="#L" n="10"/>bant intrinsecus quod eos ad peccandum 
+            impel<lb break="no" ed="#L" n="11"/>leret. Ergo peccatum primorum parentum fuit 
+            <lb ed="#L" n="12"/>ceteris gravius. 
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e788">
+            <lb ed="#L" n="13"/>2. PRAETEREA, poena proportionatur culpae.  
+            <lb ed="#L" n="14"/>Sed peccatum primorum parentum gravissime 
+            <lb ed="#L" n="15"/>est punitum: quia ex ipso  mors introivit in  
+            <lb ed="#L" n="16"/>hunc mundum, ut Apostolus dicit, Rom. v . Ergo  
+            <lb ed="#L" n="17"/>peccatum illud fuit gravius aliis peccatis. 
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e802">
+            <lb ed="#L" n="18"/>3. PRAETEREA, primum in quolibet genere 
+            vi<lb break="no" ed="#L" n="19"/>detur esse maximum, ut dicitur in II Metaphys.  
+            <lb ed="#L" n="20"/>Sed peccatum primorum parentum fuit primum 
+            <lb ed="#L" n="21"/>inter alia peccata hominum. Ergo fuit maximum.  
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e813">
+            <lb ed="#L" n="22"/>SED coNTRA EST quod Origenes dicit: Non 
+            ar<lb break="no" ed="#L" n="23"/>bitror quod aliquis ex his qui in summo 
+            perfe<lb break="no" ed="#L" n="24"/>ctoque constiterunt gradu, ad subitum evacuetur  
+            <lb ed="#L" n="25"/>ac decidat: sed paulatim et per partes defluere 
+            <lb ed="#L" n="26"/>eum necesse est. Sed primi parentes in summo 
+            <lb ed="#L" n="27"/>perfectoque gradu consistebant. Non ergo eorum  
+            <lb ed="#L" n="28"/>primum peccatum fuit maximum omnium 
+            pec<lb break="no" ed="#L" n="29"/>catorum. humana.
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="30"/>poris. Prima autem gravitas essentialior est 
+            pec<lb break="no" ed="#L" n="31"/>cato, et principalior. Unde secundum eam magis
+            <lb ed="#L" n="32"/>peccatum dicitur grave quam secundum aliam.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e842">
+            <lb ed="#L" n="33"/>Dicendum est igitur quod peccatum primi 
+            ho<lb break="no" ed="#L" n="34"/>minis non fuit gravius omnibus aliis peccatis 
+            hu<lb break="no" ed="#L" n="35"/>manis secundum speciem peccati. Etsi enim 
+            su<lb break="no" ed="#L" n="36"/>perbia secundum suum genus habeat quandam
+            <lb ed="#L" n="37"/>excellentiam inter alia peccata, maior tamen est
+            <lb ed="#L" n="38"/>superbia qua quis Deum negat vel blasphemat,
+            <lb ed="#L" n="39"/>quam superbia qua quis inordinate divinam 
+            si<lb break="no" ed="#L" n="40"/>militudinem appetit, qualis fuit superbia 
+            primo<lb break="no" ed="#L" n="41"/>rum parentum, ut dictum est . Sed secundum
+            <lb ed="#L" n="42"/>conditionem personarum peccantium, peccatum
+            <lb ed="#L" n="43"/>illud habuit maximam gravitatem, propter 
+            per<lb break="no" ed="#L" n="44"/>fectionem status ipsorum. Et ideo dicendum est
+            <lb ed="#L" n="45"/>quod illud peccatum fuit quidem secundum quid
+            <lb ed="#L" n="46"/>gravissimum, sed non simpliciter.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e875">
+            <lb ed="#L" n="47"/>AD PRIMUM ERGO DICENDUM quod ratio illa 
+            pro<lb break="no" ed="#L" n="48"/>cedit de gravitate peccati ex circumstantia 
+            pec<lb break="no" ed="#L" n="49"/>cantis.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e884">
+            <lb ed="#L" n="50"/>AD SECUNDUM DICENDUM quod magnitudo 
+            poe<lb break="no" ed="#L" n="51"/>nae quae consecuta est ad illud primum 
+            pecca<lb break="no" ed="#L" n="52"/>tum, non correspondet ei secundum quantitatem
+            <lb ed="#L" n="53"/>propriae speciei, sed inquantum fuit primum:
+            <lb ed="#L" n="54"/>quia ex hoc interrupta est innocentia primi 
+            sta<lb break="no" ed="#L" n="55"/>tus, qua subtracta, deordinata est tota natura
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e900">
+            <lb ed="#L" n="56"/>REPONDEO DICENDUM quod duplex gravitas in 
+            <lb ed="#L" n="57"/>peccato attendi potest. Una quidem, ex ipsa 
+            spe<lb break="no" ed="#L" n="58"/>cie peccati: sicut dicimus adulterium esse gravius  
+            <lb ed="#L" n="59"/>peccatum simplici fornicatione. Alia autem est  
+            <lb ed="#L" n="60"/>gravitas peccati quae attenditur secundum 
+            ali<lb break="no" ed="#L" n="61"/>quam circumstantiam loci, vel personae, aut tem- 
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e917">
+            <lb ed="#L" n="62"/>AD TERTIUM DICENDUM quod in his quae sunt
+            <lb ed="#L" n="63"/>per se ordinata, oportet id quod est primum esse
+            <lb ed="#L" n="64"/>maximum. Talis autem ordo non attenditur in
+            <lb ed="#L" n="65"/>peccatis, sed unum per accidens sequitur post
+            <lb ed="#L" n="66"/>aliud. Unde non sequitur quod primum peccatum
+            <lb ed="#L" n="67"/>sit maximum.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2114-Dd1e934"><!-- p2p2-q163a4 -->
+          <head xml:id="TAca84-d1e2114-Hd1e937">Articulus 4</head>
+          <head xml:id="TAca84-d1e2114-Hd1e939" type="question-title">Utrum peccatum adae fuerit gravius quam peccatum evae</head>
+          <p xml:id="TAca84-d1e2114-d1e942">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="78" type="fixed=331"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="79"/>UTRUM PECCATUM ADAE FUERIT GRAVIUS QUAM PECCATUM EVAE
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e951">
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="80"/>AD QUARTUM SIC PROCEDITUR. Videtur quod  
+            <lb ed="#L" n="81"/>peccatum Adae fuit gravius quam 
+            pec<lb break="no" ed="#L" n="82"/>catum Evae. Dicitur enim I ad Tim. u,  
+            <lb ed="#L" n="83"/>quod Adam non est seductus, mulier 
+            <lb ed="#L" n="84"/>pora port in praevaricatione fuit: et sic 
+            vi<lb break="no" ed="#L" n="85"/>detur quod peccatum mulieris fuerit ex 
+            ignoran<lb break="no" ed="#L" n="86"/>tia, peccatum autem viri ex certa scientia. Sed  
+            <cb ed="#L" n="i"/>
+            <lb ed="#L" n="87"/>huiusmodi peccatum est gravius: secundum illud
+            <lb ed="#L" n="88"/>Luc. xu : Ille servus qui cognovit. voluntatem
+            <lb ed="#L" n="89"/>domini sui et non fecit secundum voluntatem eius,
+            <lb ed="#L" n="90"/>vapulabit multis: qui autem non cognovit et fecit
+            <lb ed="#L" n="91"/>digna plagis, vapulabit paucis. Ergo Adam 
+            gra<lb break="no" ed="#L" n="92"/>vius peccavit quam Eva.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e986">
+            <lb ed="#L" n="93"/>2. PRAETEREA, Augustinus dicit, in libro de De-
+            <pb ed="#L" n="332"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>cem Chordis : Si caput est vir, melius debet 
+            vi<lb break="no" ed="#L" n="2"/>vere, et praecedere in omnibus bonis factis 
+            uxo<lb break="no" ed="#L" n="3"/>rem  suam, ut illa imitetur virum. Sed ille qui
+            <lb ed="#L" n="4"/>melius debet facere, si peccet, gravius peccat.
+            <lb ed="#L" n="5"/>Ergo Adam gravius peccavit quam Eva.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e1007">
+            <lb ed="#L" n="6"/>3. PRAETEREA, peccatum in Spiritum Sanctum
+            <lb ed="#L" n="7"/>videtur esse gravissimum. Sed Adam videtur in
+            <lb ed="#L" n="8"/>Spiritum Sanctum peccasse: quia peccavit 
+            cogi<lb break="no" ed="#L" n="9"/>tans de divina misericordia, quod pertinet ad
+            <lb ed="#L" n="10"/>peccatum praesumptionis. Ergo videtur quod
+            <lb ed="#L" n="11"/>Adam gravius peccavit quam Eva.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e1023">
+            <lb ed="#L" n="12"/>SED coNTRA EsT quod poena respondet culpae.
+            <lb ed="#L" n="13"/>Sed mulier gravius est punita quam vir: ut patet
+            <lb ed="#L" n="14"/>Gen. i1. Ergo gravius peccavit quam vir.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e1032">
+            <lb ed="#L" n="15"/>RESPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="16"/>gravitas peccati principalius attenditur secundum ?
+            <lb ed="#L" n="17"/>peccati speciem quam secundum personae 
+            cir<lb break="no" ed="#L" n="18"/>cumstantiam. Dicendum est ergo quod, si 
+            con<lb break="no" ed="#L" n="19"/>sideremus conditionem personae utriusque, scilicet
+            <lb ed="#L" n="20"/>mulieris et viri peccatum viri est gravius: quia
+            <lb ed="#L" n="21"/>erat perfectior muliere.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e1050">
+            <lb ed="#L" n="22"/>Sed quantum. ad ipsum genus peccati, 
+            utri<lb break="no" ed="#L" n="23"/>usque peccatum aequale dicitur: quia utriusque
+            <lb ed="#L" n="24"/>peccatum fuit superbia. JUnde Augustinus dicit,
+            <lb ed="#L" n="25"/>XI super Gen. ad litt. , quod mulier 
+            excusa<lb break="no" ed="#L" n="26"/>vit peccatum suum 4n impari sexu, sed pari
+            <lb ed="#L" n="27"/>fastu.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e1066">
+            <lb ed="#L" n="28"/>Sed quantum ad speciem superbiae, gravius
+            <lb ed="#L" n="29"/>peccavit mulier, triplici ratione. Primo quidem,
+            <lb ed="#L" n="30"/>quia maior elatio fuit mulieris quam viri. Mulier
+            <lb ed="#L" n="31"/>enim credidit verum esse quod serpens suasit,
+            <lb ed="#L" n="32"/>scilicet quod Deus prohibuit ligni esum ne ad
+            <lb ed="#L" n="33"/>eius similitudinem pervenirent : et ita, dum per
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="34"/>esum ligni vetiti Dei similitudinem consequi 
+            vo<lb break="no" ed="#L" n="35"/>luit, superbia eius ad hoc se erexit quod contra
+            <lb ed="#L" n="36"/>Dei voluntatem aliquid voluit obtinere. Sed vir
+            <lb ed="#L" n="37"/>non credidit hoc esse verum. Unde non voluit
+            <lb ed="#L" n="38"/>consequi divinam similitudinem contra Dei 
+            vo<lb break="no" ed="#L" n="39"/>luntatem: sed in hoc superbivit, quod voluit eam
+            <lb ed="#L" n="40"/>consequi per seipsum. - Secundo, quia mulier
+            <lb ed="#L" n="41"/>non solum ipsa peccavit, sed etiam viro 
+            pecca<lb break="no" ed="#L" n="42"/>tum suggessit . Unde peccavit et in Deum et in
+            <lb ed="#L" n="43"/>proximum. - Tertio, in hoc quod peccatum viri
+            <lb ed="#L" n="44"/>diminutum est ex hoc quod in peccatum 
+            con<lb break="no" ed="#L" n="45"/>sensit amicabili quadam benevolentia , qua 
+            ple<lb break="no" ed="#L" n="46"/>rumque fit ut Pate: Deus ne homo ex amico
+            <lb ed="#L" n="47"/>fiat inimicus: quod eum facere non debuisse 
+            di<lb break="no" ed="#L" n="48"/>vinae sententiae exitus indicavit, ut Augustinus
+            <lb ed="#L" n="49"/>dicit, XI sup. Gen. ad litteram . - Et sic patet
+            <lb ed="#L" n="50"/>quod peccatum mulieris fuit gravius quam 
+            pec<lb break="no" ed="#L" n="51"/>catum viri.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e1123">
+            <lb ed="#L" n="52"/>AD PRIMUM ERGO DICENDUM quod illa seductio
+            <lb ed="#L" n="53"/>mulieris ex praecedenti elevatione subsecuta est.
+            <lb ed="#L" n="54"/>Et ideo talis ignorantia non excusat, sed aggravat
+            <lb ed="#L" n="55"/>peccatum: inquantum scilicet ignorando in 
+            ma<lb break="no" ed="#L" n="56"/>iorem elationem erecta est.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e1137">
+            <lb ed="#L" n="57"/>AD SECUNDUM DICENDUM quod ratio illa procedit
+            <lb ed="#L" n="58"/>ex circumstantia conditionis personae: ex qua
+            <lb ed="#L" n="59"/>peccatum viri fuit gravius secundum quid.
+          </p>
+          <p xml:id="TAca84-d1e2114-d1e1146">
+            <lb ed="#L" n="60"/>AD TERTIUM DICENDUM quod vir non cogitavit
+            <lb ed="#L" n="61"/>de divina misericordia usque ad contemptum 
+            di<lb break="no" ed="#L" n="62"/>vinae iustitiae, quod facit peccatum in Spiritum
+            <lb ed="#L" n="63"/>Sanctum: sed quia, ut <ref xml:id="TAca84-d1e2114-Rd1e1156">Augustinus dicit, XI super
+              <lb ed="#L" n="64"/>Gen. ad litt.</ref>, inexpertus divinae severitatis, 
+            cre<lb break="no" ed="#L" n="65"/>didit illud peccatum esse veniale, id est de facili
+            <lb ed="#L" n="66"/>remissibile.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

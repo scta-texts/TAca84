@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 174</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 174</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="392"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2171"><!-- p2p2-q174 -->
+        <head xml:id="TAca84-d1e2171-Hd1e101">Quaestio 174</head>
+        <head type="question-title">De divisione prophetiae</head>
+        <p xml:id="TAca84-d1e2171-d1e103">
+          <pb ed="#L" n="392"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=392"/>QUAESTIO CENTESIMASEPTUAGESIMAQUARTA
+          <lb ed="#L" n="2"/>DE DIVISIONE PROPHETIAE
+          <lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2171-d1e116">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de divisione 
+          pro<lb break="no" ed="#L" n="5"/>phetiae.
+          <lb ed="#L" n="6"/>Et circa hoc quaeruntur sex.
+          <lb ed="#L" n="7"/>Primo: de divisione prophetiae in suas 
+          spe<lb break="no" ed="#L" n="8"/>cies.
+          <lb ed="#L" n="9"/>Secundo: utrum sit altior prophetia quae est
+          <lb ed="#L" n="10"/>sine imaginaria visione.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="11"/>Tertio: de diversitate graduum prophetiae.
+          <lb ed="#L" n="12"/>Quarto: utrum Moyses fuit eximius  
+          prophe<lb break="no" ed="#L" n="13"/>tarum.
+          <lb ed="#L" n="14"/>Quinto: utrum aliquis comprehensor possit esse
+          <lb ed="#L" n="15"/>propheta.
+          <lb ed="#L" n="16"/>Sexto: utrum prophetia creverit per temporis
+          <lb ed="#L" n="17"/>processum.
+        </p>
+        <div xml:id="TAca84-d1e2171-Dd1e153"><!-- p2p2-q174a1 -->
+          <head xml:id="TAca84-d1e2171-Hd1e156">Articulus 1</head>
+          <head xml:id="TAca84-d1e2171-Hd1e158" type="question-title">Utrum convenienter dividatur prophetia in prophetiam praedestinationis,
+            praescientiae, et comminationis</head>
+          <p xml:id="TAca84-d1e2171-d1e161">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="18" type="fixed=392"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="19"/>UTRUM CONVENIENTER DIVIDATUR PROPHETIA IN PROPHETIAM PRAEDESTINATIONIS,
+            <lb ed="#L" n="20"/>PRAESCIENTIAE, ET COMMINATIONIS
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e172">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="21"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="22"/>inconvenienter dividatur prophetia in
+            <lb ed="#L" n="23"/>Glossa  super Matth. 1, Ecce virgo
+            <lb ed="#L" n="24"/>xin utero habebit, ubi dicitur quod 
+            pro<lb break="no" ed="#L" n="25"/>phetia alia est ex praedestinatione Dei, quam 
+            ne<lb break="no" ed="#L" n="26"/>cesse est omnibus modis evenire, ut sine nostro
+            <lb ed="#L" n="27"/>impleatur arbitrio, ut haec de qua hic agitur; alia
+            <lb ed="#L" n="28"/>est ex praescientia Dei, cui nostrum. admiscetur
+            <lb ed="#L" n="29"/>arbitrium; alia est quae comminatio dicitur, quae
+            <lb ed="#L" n="30"/>fit ob signum divinae animadversionis. lllud enim
+            <lb ed="#L" n="31"/>quod consequitur omnem prophetiam, non debet
+            <lb ed="#L" n="32"/>poni ut membrum dividens prophetiam. Sed
+            <lb ed="#L" n="33"/>omnis prophetia est secundum praescientiam 
+            di<lb break="no" ed="#L" n="34"/>vinam: quia prophetae legunt in libro 
+            praescien<lb break="no" ed="#L" n="35"/>tiae, ut dicit Glossa , Isaiae xxxvii . Ergo 
+            vi<lb break="no" ed="#L" n="36"/>detur quod non debeat poni una species 
+            prophe<lb break="no" ed="#L" n="37"/>tiae quae est secundum praescientiam.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e214">
+            <lb ed="#L" n="38"/>2. PRAETEREA, sicuti aliquid prophetatur 
+            se<lb break="no" ed="#L" n="39"/>cundum comminationem, ita etiam secundum
+            <lb ed="#L" n="40"/>promissionem: et utraque variatur. Dicitur enim
+            <lb ed="#L" n="41"/>Ierem. xvin : Repente loquar adversum gentem
+            <lb ed="#L" n="42"/>et adversum regnum, ut eradicem et destruam et
+            <lb ed="#L" n="43"/>disperdam illud: si poenitentiam egerit gens illa
+            <lb ed="#L" n="44"/>a malo suo, agam et ego poenitentiam: et hoc
+            <lb ed="#L" n="45"/>pertinet ad prophetiam comminationis. Et 
+            post<lb break="no" ed="#L" n="46"/>ea subdit de prophetia promissionis: Subito 
+            lo<lb break="no" ed="#L" n="47"/>quar de gente el de regno, ut aedificem et 
+            plan<lb break="no" ed="#L" n="48"/>tem illud: si fecerit malum in oculis meis, 
+            poeni<lb break="no" ed="#L" n="49"/>tentiam agam super bono quod locutus sum ut
+            <lb ed="#L" n="50"/>facerem ei. Ergo, sicut ponitur prophetia 
+            com<lb break="no" ed="#L" n="51"/>minationis, ita debet poni prophetia promüssionis.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e248">
+            <lb ed="#L" n="52"/>3. PRAETEREA, Isidorus dicit, in libro Etymol. :
+            <lb ed="#L" n="53"/>Prophetiae genera sunt seplem. Primum genus,
+            <lb ed="#L" n="54"/>exiasis, quod est mentis excessus: sicut vidit 
+            Pe<lb break="no" ed="#L" n="55"/>trus vas submissum de caelo cum variis 
+            anima<lb break="no" ed="#L" n="56"/>libus. Secundum genus, visio: sicut apud Isaiam
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="57"/>dicentem, « Vidi Dominum sedentem, etc. » 
+            Ter<lb break="no" ed="#L" n="58"/>tium genus est somnium: sicut Iacob scalam 
+            dor<lb break="no" ed="#L" n="59"/>miens vidit. Quartum genus est per nubem: sicut
+            <lb ed="#L" n="60"/>ad Moysen loquitur 8 Deus. Quintum genus, vox
+            <lb ed="#L" n="61"/>de caelo: sicut ad Abraham sonuit dicens, « Ne
+            <lb ed="#L" n="62"/>millas manum in puerum ». Sextum genus, 
+            ac<lb break="no" ed="#L" n="63"/>cepta parabola: sicut apud Balaam. Septimum
+            <lb ed="#L" n="64"/>genus, repletio Spiritus. Sancti: sicut pene apud
+            <lb ed="#L" n="65"/>omnes prophetas. Ponit etiam  tria genera 
+            vi<lb break="no" ed="#L" n="66"/>sionum: unum, secundum oculos corporis; 
+            alte<lb break="no" ed="#L" n="67"/>rum, secundum spiritum. imaginarium; tertium,
+            <lb ed="#L" n="68"/>per intuitum mentis. Sed haec non exprimuntur
+            <lb ed="#L" n="69"/>in prius  dicta divisione. Ergo est insufficiens.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e292">
+            <lb ed="#L" n="70"/>SED CONTRA EST auctoritas Hieronymi, cuius 
+            di<lb break="no" ed="#L" n="71"/>citur esse glossa .
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e299">
+            <lb ed="#L" n="72"/>RESPONDEO DICENDUM quod species habituum et
+            <lb ed="#L" n="73"/>actuum in moralibus distinguuntur secundum 
+            ob<lb break="no" ed="#L" n="74"/>iecta. Obiectum autem prophetiae est id quod est
+            <lb ed="#L" n="75"/>in cognitione divina supra humanam facultatem
+            <lb ed="#L" n="76"/>existens. Et ideo secundum horum differentiam
+            <lb ed="#L" n="77"/>distinguitur prophetia in diversas species, 
+            secun<lb break="no" ed="#L" n="78"/>dum prius  dictam divisionem. Dictum est 
+            au<lb break="no" ed="#L" n="79"/>tem supra  quod futurum est in divina cogni- :
+            <lb ed="#L" n="80"/>tione dupliciter. Uno modo, prout est in sua causa.
+            <lb ed="#L" n="81"/>Et sic accipitur prophetia comminationis: quae
+            <lb ed="#L" n="82"/>non semper impletur, sed per eam  
+            praenuntia<lb break="no" ed="#L" n="83"/>tur ordo causae ad effectus, qui quandoque, aliis
+            <lb ed="#L" n="84"/>supervenientibus, impeditur. - Alio modo, 
+            prae<lb break="no" ed="#L" n="85"/>cognoscit Deus aliqua in seipsis. Vel ut fienda
+            <lb ed="#L" n="86"/>ab ipso. Et horum est prophetia praedestinationis :
+            <lb ed="#L" n="87"/>quia, secundum Damascenum , Deus 
+            praedesti<lb break="no" ed="#L" n="88"/>nat ea quae non sunt in nobis. - Vel ut fienda per
+            <lb ed="#L" n="89"/>liberum arbitrium hominis. Et sic est prophetia
+            <lb ed="#L" n="90"/>praescientiae. Quae potest esse bonorum et 
+            ma<lb break="no" ed="#L" n="91"/>lorum: quod non contingit de prophetia 
+            prae<lb break="no" ed="#L" n="92"/>destinationis, quae est bonorum tantum.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e347">
+            <pb ed="#L" n="393"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>Et quia praedestinatio sub praescientia 
+            com<lb break="no" ed="#L" n="2"/>prehenditur, ideo in Glossa , in principio 
+            Psal<lb break="no" ed="#L" n="3"/>terii; ponitur tantum duplex prophetiae species:
+            <lb ed="#L" n="4"/>scilicet secundum praescientiam, et secundum 
+            com<lb break="no" ed="#L" n="5"/>minationem.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e365">
+            <lb ed="#L" n="6"/>AD PRIMUM ERGO DICENDUM quod praescientia
+            <lb ed="#L" n="7"/>proprie dicitur praecognitio futurorum eventuum
+            <lb ed="#L" n="8"/>prout in seipsis sunt: et secundum hoc ponitur
+            <lb ed="#L" n="9"/>species prophetiae. Prout autem dicitur respectu
+            <lb ed="#L" n="10"/>futurorum eventuum sive secundum quod in 
+            se<lb break="no" ed="#L" n="11"/>ipsis sunt sive secundum quod sunt in causis
+            <lb ed="#L" n="12"/>suis, communiter se habet ad omnem speciem
+            <lb ed="#L" n="13"/>prophetiae.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e385">
+            <lb ed="#L" n="14"/>AD SECUNDUM DICENDUM quod prophetia 
+            promis<lb break="no" ed="#L" n="15"/>sionis comprehenditur sub prophetia 
+            commina<lb break="no" ed="#L" n="16"/>lionis: quia eadem ratio est veritatis in utraque.
+            <lb ed="#L" n="17"/>Denominatur tamen magis a comminatione, quia
+            <lb ed="#L" n="18"/>Deus pronior est ad relaxandum poenam quam
+            <lb ed="#L" n="19"/>ad subtrahendum promissa beneficia.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e402">
+            <lb ed="#L" n="20"/>AD TERTIUM DICENDUM quod Isidorus distinguit
+            <lb ed="#L" n="21"/>prophetiam secundum modum prophetandi. Qui
+            <lb ed="#L" n="22"/>quidem potest distingui vel secundum potentias
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="23"/>cognoscitivas in homine, quae sunt sensus, 
+            ima<lb break="no" ed="#L" n="24"/>ginatio et intellectus. Et sic sumitur triplex visio,
+            <lb ed="#L" n="25"/>quam ponit tam ipse quam Augustinus, XII 
+            su<lb break="no" ed="#L" n="26"/>per Gen. ad litt. 
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e422">
+            <lb ed="#L" n="27"/>Vel potest sumi secundum differentiam 
+            pro<lb break="no" ed="#L" n="28"/>phetici influxus. Qui quidem, quantum ad 
+            illu<lb break="no" ed="#L" n="29"/>strationem intellectus, significatur per repletionem
+            <lb ed="#L" n="30"/>Spiritus Sancti, quam septimo loco ponit. -.
+            Quan<lb break="no" ed="#L" n="31"/>tum vero ad impressionem formarum 
+            imagina<lb break="no" ed="#L" n="32"/>bilium, ponit tria: scilicet somnium, quod ponit
+            <lb ed="#L" n="33"/>tertio loco; et visionem, quae fit in vigilando 
+            re<lb break="no" ed="#L" n="34"/>spectu quorumcumque communium, quam ponit
+            <lb ed="#L" n="35"/>in secundo loco; et exíiasim, quae fit per 
+            ele<lb break="no" ed="#L" n="36"/>vationem mentis in aliqua altiora, quam ponit
+            <lb ed="#L" n="37"/>primo loco. - Quantum vero ad sensibilia signa,
+            <lb ed="#L" n="38"/>ponit tria. Quia sensibile signum aut est aliqua
+            <lb ed="#L" n="39"/>res corporea exterius apparens visui: sicut nubes,
+            <lb ed="#L" n="40"/>quam ponit quarto loco. Aut est vox exterius
+            <lb ed="#L" n="41"/>formata ad auditum hominis delata: quam ponit
+            <lb ed="#L" n="42"/>quinto loco. Aut est vox per hominem formata
+            <lb ed="#L" n="43"/>cum similitudine alicuius rei: quod pertinet ad
+            <lb ed="#L" n="44"/>parabolam, quam ponit sexto loco.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2171-Dd1e465"><!-- p2p2-q174a2 -->
+          <head xml:id="TAca84-d1e2171-Hd1e468">Articulus 2</head>
+          <head xml:id="TAca84-d1e2171-Hd1e470" type="question-title">Utrum excellentior sit prophetia quae habet visionem intellectualem et imaginariam, quam ea quae habet visionem intellectualem tantum</head>
+          <p xml:id="TAca84-d1e2171-d1e473">
+            <pb ed="#L" n="394"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=394"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="2"/>UTRUM EXCELLENTIOR SIT PROPHETIA QUAE HABET VISIONEM INTELLECTUALEM
+            <lb ed="#L" n="3"/>ET IMAGINARIAM, QUAM EA QUAE HABET VISIONEM INTELLECTUALEM TANTUM
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e486">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="4"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="5"/>excellentior sit prophetia quae habet 
+            vi<lb break="no" ed="#L" n="6"/>j//szAXA sionem intellectualem et imaginariam,
+            <lb ed="#L" n="7"/>SA quam ea quae habet visionem 
+            intelle<lb break="no" ed="#L" n="8"/>ctualem tantum. Dicit enim Augustinus, XII 
+            su<lb break="no" ed="#L" n="9"/>per Gen. ad litt. , et habetur in Glossa , I ad
+            <lb ed="#L" n="10"/>Cor. xiv, super illud  , Spiritus autem loquitur
+            <lb ed="#L" n="11"/>mysteria: Minus est propheta qui rerum 
+            significa<lb break="no" ed="#L" n="12"/>tarum solo spiritu videt imagines; et magis est
+            <lb ed="#L" n="13"/>propheta qui solo earum intellectu est praeditus;
+            <lb ed="#L" n="14"/>sed maxime propheta est qui in utroque praecellit.
+            <lb ed="#L" n="15"/>Hoc autem pertinet ad prophetam qui simul habet
+            <lb ed="#L" n="16"/>intellectualem et imaginariam visionem. Ergo 
+            hu<lb break="no" ed="#L" n="17"/>iusmodi prophetia est altior.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e521">
+            <lb ed="#L" n="18"/>2. PRAETEREA, quanto virtus alicuius rei est
+            <lb ed="#L" n="19"/>maior, tanto ad magis distantia se extendit. Sed
+            <lb ed="#L" n="20"/>lumen propheticum principaliter ad mentem 
+            per<lb break="no" ed="#L" n="21"/>tinet, ut ex dictis  patet. Ergo perfectior videtur
+            <lb ed="#L" n="22"/>esse prophetia quae derivatur usque ad 
+            imagina<lb break="no" ed="#L" n="23"/>tionem, quam illa quae existit in solo intellectu.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e538">
+            <lb ed="#L" n="24"/>3. PRaETEREA, Hieronymus, in Prologo libri
+            <lb ed="#L" n="25"/>Regum, distinguit Prophetas contra 
+            Hagiogra<lb break="no" ed="#L" n="26"/>phos . Omnes autem illi quos prophetas 
+            nomi<lb break="no" ed="#L" n="27"/>nat, puta Isaias, Ieremias et alii huiusmodi, simul
+            <lb ed="#L" n="28"/>cum intellectuali visione imaginariam habuerunt:
+            <lb ed="#L" n="29"/>non autem ili qui dicuntur hagiographi P, sicut
+            <lb ed="#L" n="30"/>ex inspiratione Spiritus Sancti scribentes, sicut
+            <lb ed="#L" n="31"/>lob, David, Salomon et huiusmodi. Ergo videtur
+            <lb ed="#L" n="32"/>quod magis proprie dicuntur prophetae illi qui
+            <lb ed="#L" n="33"/>habent simul visionem imaginariam cum. 
+            intelle<lb break="no" ed="#L" n="34"/>ctuali, quam illi qui habent intellectualem tantum.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e564">
+            <lb ed="#L" n="35"/>4. PRAETEREA, Dionysius dicit, 1 cap. Cael. Hier.,
+            <lb ed="#L" n="36"/>quod zmpossibile est nobis superlucere divinum 
+            ra<lb break="no" ed="#L" n="37"/>dium, nisi varietate sacrorum velaminum 
+            circum<lb break="no" ed="#L" n="38"/>velatum. Sed prophetica revelatio fit per 
+            immis<lb break="no" ed="#L" n="39"/>sionem divini radii. Ergo videtur quod non possit
+            <lb ed="#L" n="40"/>esse absque phantasmatum velaminibus.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e580">
+            <lb ed="#L" n="41"/>SED coNTRA EST quod Glossa  dicit, in 
+            prin<lb break="no" ed="#L" n="42"/>cipio Psalterii, quod 7/le modus prophetiae ceteris
+            <lb ed="#L" n="43"/>est dignior, quando scilicet ex sola Spiritus Sancti
+            <lb ed="#L" n="44"/>inspiratione, remoto omni exteriori adminiculo 
+            fa<lb break="no" ed="#L" n="45"/>cli vel dicti vel visionis vel' somnii, prophetatur.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e593">
+            <lb ed="#L" n="46"/>RESPONDEO DICENDUM quod dignitas eorum quae
+            <lb ed="#L" n="47"/>sunt ad finem, praecipue consideratur ex fine.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e600">
+            <lb ed="#L" n="48"/>Finis autem prophetiae est manifestatio alicuius
+            <lb ed="#L" n="49"/>veritatis supra hominem existentis. Unde quanto
+            <lb ed="#L" n="50"/>huiusmodi manifestatio est potior, tanto 
+            prophe<lb break="no" ed="#L" n="51"/>tia est dignior. Manifestum est autem quod 
+            ma<lb break="no" ed="#L" n="52"/>nifestatio veritatis divinae quae fit secundum 
+            nu<lb break="no" ed="#L" n="53"/>dam contemplationem ipsius veritatis, potior est
+            <lb ed="#L" n="54"/>quam illa quae fit sub similitudine corporalium
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="55"/>rerum: magis enim appropinquat ad visionem
+            <lb ed="#L" n="56"/>patriae, secundum quam in essentia Dei veritas
+            <lb ed="#L" n="57"/>conspicitur. Et inde est quod prophetia per quam
+            <lb ed="#L" n="58"/>aliqua supernaturalis veritas conspicitur. nude 
+            <lb ed="#L" n="59"/>secundum intellectualem veritatem , est dignior
+            <lb ed="#L" n="60"/>quam illa in qua veritas supernaturalis 
+            manife<lb break="no" ed="#L" n="61"/>statur per similitudinem corporalium rerum. 
+            se<lb break="no" ed="#L" n="62"/>cundum imaginariam visionem.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e637">
+            <lb ed="#L" n="63"/>Et ex hoc etiam ostenditur mens prophetae 
+            su<lb break="no" ed="#L" n="64"/>blimior: sicut in doctrina humana auditor osten-.
+            <lb ed="#L" n="65"/>ditur esse melioris intellectus qui veritatem 
+            intel<lb break="no" ed="#L" n="66"/>ligibilem a magistro nude prolatam capere potest,
+            <lb ed="#L" n="67"/>quam ille qui indiget sensibilibus exemplis ad hoc
+            <lb ed="#L" n="68"/>manuduci. Unde in commendationem prophetiae.
+            <lb ed="#L" n="69"/>David dicitur, II. Reg. xxui : Mihi locutus est 
+            <lb ed="#L" n="70"/>Fortis Israel; 'et postea  subdit: Sicut lux 
+            auro<lb break="no" ed="#L" n="71"/>rae, oriente sole, mane absque nubibus rutilat.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e660">
+            <lb ed="#L" n="72"/>AD PRIMUM ERGO DICENDUM quod quando aliqua
+            <lb ed="#L" n="73"/>supernaturalis veritas revelanda est per 
+            similitu<lb break="no" ed="#L" n="74"/>dines corporales, tunc magis est propheta qui
+            <lb ed="#L" n="75"/>utrumque habet, scilicet lumen intellectuale e
+            <lb ed="#L" n="76"/>imaginariam visionem, quam ille qui habet 
+            alte<lb break="no" ed="#L" n="77"/>rum tantum: quia perfectior est prophetia. Et
+            <lb ed="#L" n="78"/>quantum ad hoc loquitur Augustinus. Sed illa
+            <lb ed="#L" n="79"/>prophetia in qua revelatur nude intelligibilis. 
+            ve<lb break="no" ed="#L" n="80"/>ritas, est omnibus potior.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e682">
+            <lb ed="#L" n="81"/>AD SECUNDUM DICENDUM quod aliud est iudicium
+            <lb ed="#L" n="82"/>de his quae propter se quaeruntur: et de his quae
+            <lb ed="#L" n="83"/>quaeruntur propter aliud. In his enim. quae. 
+            pro<lb break="no" ed="#L" n="84"/>pter se quaeruntur, quanto virtus agentis ad plura.
+            <lb ed="#L" n="85"/>et remotiora se extendit, tanto potior est: sicut
+            <lb ed="#L" n="86"/>medicus reputatur melior qui potest plures, et
+            <lb ed="#L" n="87"/>magis a sanitate distantes sanare. In his autem
+            <lb ed="#L" n="88"/>quae non quaeruntur nisi propter aliud, quanto.
+            <lb ed="#L" n="89"/>agens potest ex paucioribus et propinquioribus ad.
+            <lb ed="#L" n="90"/>suum intentum pervenire, tanto videtur esse 
+            ma<lb break="no" ed="#L" n="91"/>ioris virtutis: sicut magis laudatur medicus qui
+            <lb ed="#L" n="92"/>per pauciora et leviora ? potest sanare infirmum.
+            <lb ed="#L" n="93"/>Visio autem imaginaria in cognitione prophetica.
+            <lb ed="#L" n="94"/>non requiritur propter se, sed propter 
+            manife<lb break="no" ed="#L" n="95"/>stationem intelligibilis veritatis. Et ideo tanto 
+            po<lb break="no" ed="#L" n="96"/>tior est prophetia, quanto minus ea indiget. -
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e719">
+            <lb ed="#L" n="97"/>AD TERTIUM DICENDUM quod nihil prohibet aliquid
+            <lb ed="#L" n="98"/>esse simpliciter melius, ' quod tamen minus 
+            pro<lb break="no" ed="#L" n="99"/>prie recipit alicuius praedicationem: sicut. 
+            cogni<lb break="no" ed="#L" n="100"/>tio patriae est nobilior quam cognitio. viae, quae
+            <lb ed="#L" n="101"/>tamen magis proprie dicitur fides, eo quod 
+            no<lb break="no" ed="#L" n="102"/>men fidei importat imperfectionem cognitionis. 
+            Si<lb break="no" ed="#L" n="103"/>militer autem prophetia importat quandam 
+            obscu<lb break="no" ed="#L" n="104"/>ritatem et remotionem ab intelligibili veritate. Et
+            <lb ed="#L" n="105"/>ideo magis proprie dicuntur prophetae qui vi-
+            <pb ed="#L" n="395"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>dent per imaginariam visionem, quamvis illa 
+            pro<lb break="no" ed="#L" n="2"/>phetia sit nobilior quae est per intellectualem 
+            vi<lb break="no" ed="#L" n="3"/>sionem: dum tamen sit eadem veritas utrobique
+            <lb ed="#L" n="4"/>revelata. Si vero lumen intellectuale alicui 
+            divi<lb break="no" ed="#L" n="5"/>nitus infundatur non ad cognoscendum aliqua
+            <lb ed="#L" n="6"/>supernaturalia, sed ad iudicandum secundum 
+            cer<lb break="no" ed="#L" n="7"/>titudinem veritatis divinae ea quae humana 
+            ra<lb break="no" ed="#L" n="8"/>tione cognosci possunt; sic talis prophetia 
+            intel<lb break="no" ed="#L" n="9"/>lectualis est infra illam quae est cum imaginaria
+            <lb ed="#L" n="10"/>visione ducente in supernaturalem veritatem; 
+            cu<lb break="no" ed="#L" n="11"/>iusmodi prophetiam habuerunt omnes illi qui 
+            nu<lb break="no" ed="#L" n="12"/>merantur in ordine Prophetarum. Qui etiam ex
+            <lb ed="#L" n="13"/>hoc specialiter dicuntur prophetae, quia 
+            prophe<lb break="no" ed="#L" n="14"/>tico officio fungebantur: unde et ex persona: 
+            Do<lb break="no" ed="#L" n="15"/>mini loquebantur, dicentes ad populum, Haec
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="16"/>dicit Dominus; quod non faciebant illi qui 
+            ha<lb break="no" ed="#L" n="17"/>giographa  conscripserunt , quorum plures 
+            lo<lb break="no" ed="#L" n="18"/>quebantur frequentius de his quae humana 
+            ra<lb break="no" ed="#L" n="19"/>tione cognosci possunt, non quasi ex persona
+            <lb ed="#L" n="20"/>Dei, sed ex persona propria, cum adiutorio 
+            ta<lb break="no" ed="#L" n="21"/>men divini luminis.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e793">
+            <lb ed="#L" n="22"/>AD QUARTUM DICENDUM quod illustratio divini
+            <lb ed="#L" n="23"/>radii in vita praesenti non fit sine velaminibus
+            <lb ed="#L" n="24"/>phantasmatum. qualiumcumque : quia. 
+            connatu<lb break="no" ed="#L" n="25"/>rale est homini, secundum statum praesentis vitae,
+            <lb ed="#L" n="26"/>ut non intelligat sine phantasmate . Quandoque
+            <lb ed="#L" n="27"/>tamen sufficiunt phantasmata quae communi 
+            mo<lb break="no" ed="#L" n="28"/>do a sensibus abstrahuntur, nec exigitur aliqua 
+            vi<lb break="no" ed="#L" n="29"/>sio imaginaria divinitus procurata. Et sic dicitur
+            <lb ed="#L" n="30"/>revelatio prophetica fieri sine imaginaria visione.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2171-Dd1e817"><!-- p2p2-q174a3 -->
+          <head xml:id="TAca84-d1e2171-Hd1e820">Articulus 3</head>
+          <head xml:id="TAca84-d1e2171-Hd1e822" type="question-title">Utrum gradus prophetiae possint distingui secundum, visionem imaginariam</head>
+          <p xml:id="TAca84-d1e2171-d1e825">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="68" type="fixed=395"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="69"/>UTRUM GRADUS PROPHETIAE POSSINT DISTINGUI SECUNDUM, VISIONEM IMAGINARIAM
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e834">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="70"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="71"/>gradus prophetiae non possint distingui
+            <lb ed="#L" n="72"/>secundum visionem imaginariam. 
+            Gra<lb break="no" ed="#L" n="73"/>dus enim alicuius rei non attenditur 
+            se<lb break="no" ed="#L" n="74"/>cundum id quod est propter aliud, sed 
+            secun<lb break="no" ed="#L" n="75"/>dum id quod est propter se. In prophetia autem
+            <lb ed="#L" n="76"/>propter se quaeritur visio intellectualis, propter:
+            <lb ed="#L" n="77"/>aliud autem visio imaginaria, ut supra  dictum
+            <lb ed="#L" n="78"/>est. Ergo videtur quod gradus prophetiae non
+            <lb ed="#L" n="79"/>distinguantur secundum imaginariam. visionem,
+            <lb ed="#L" n="80"/>sed solum secundum intellectualem.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e863">
+            <lb ed="#L" n="81"/>2. PRAETEREA, unius prophetae videtur esse
+            <lb ed="#L" n="82"/>unus gradus prophetiae. Sed uni prophetae fit
+            <lb ed="#L" n="83"/>revelatio secundum diversas imaginarias visiones.
+            <lb ed="#L" n="84"/>Ergo diversitas imaginariae visionis non 
+            diver<lb break="no" ed="#L" n="85"/>sificat gradus prophetiae.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e877">
+            <lb ed="#L" n="86"/>3. PRAETEREA, secundum Glossam , in 
+            prin<lb break="no" ed="#L" n="87"/>cipio Psalterii, prophetia consistit in dictis et factis,
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="88"/>somnio et visione. Non ergo debet  prophetiae
+            <lb ed="#L" n="89"/>gradus magis distingui secundum  imaginariam
+            <lb ed="#L" n="90"/>visionem, ad quam pertinet visio et somnium,
+            <lb ed="#L" n="91"/>quam secundum dicta et facta.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e895">
+            <lb ed="#L" n="92"/>SED coNTRA EST quod medium diversificat 
+            gra<lb break="no" ed="#L" n="93"/>dus cognitionis: sicut scientia propier quid est
+            <lb ed="#L" n="94"/>altior, eo quod est per nobilius medium, quam
+            <lb ed="#L" n="95"/>scientia quia P, vel etiam quam opinio. Sed visio
+            <lb ed="#L" n="96"/>imaginaria in cognitione prophetica est sicut 
+            quod<lb break="no" ed="#L" n="97"/>dam medium. Ergo gradus prophetiae distingui
+            <lb ed="#L" n="98"/>debent secundum. imaginariam visionem.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e913">
+            <lb ed="#L" n="99"/>RESPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="100"/>prophetia in qua per lumen intelligibile revelatur
+            <lb ed="#L" n="101"/>aliqua supernaturalis veritas per imaginariam 
+            vi<lb break="no" ed="#L" n="102"/>sionem, medium gradum tenet inter illam 
+            pro<lb break="no" ed="#L" n="103"/>phetiam in qua revelatur supernaturalis veritas
+            <lb ed="#L" n="104"/>absque imaginaria visione, et illam in qua per
+            <lb ed="#L" n="105"/>lumen intelligibile absque imaginaria visione di-
+            <pb ed="#L" n="396"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>rigitur homo ad ea  cognoscenda vel agenda
+            <lb ed="#L" n="2"/>quae pertinent ad humanam conversationem.
+            <lb ed="#L" n="3"/>Magis autem est proprium prophetiae cognitio
+            <lb ed="#L" n="4"/>quam operatio. Et ideo infimus gradus 
+            prophe<lb break="no" ed="#L" n="5"/>tiae est cum aliquis ex interiori instinctu movetur
+            <lb ed="#L" n="6"/>ad aliqua exterius facienda: sicut de Samsone
+            <lb ed="#L" n="7"/>dicitur, Zudic. xv , quod irruit Spiritus Domini
+            <lb ed="#L" n="8"/>in eum: et sicul solent ad ardorem ? ignis ligna
+            <lb ed="#L" n="9"/>consumi, ila et vincula quibus ligatus erat, 
+            dis<lb break="no" ed="#L" n="10"/>sipata sunt et soluta. — Secundus autem. gradus
+            <lb ed="#L" n="11"/>prophetiae est cum aliquis ex interiori lumine
+            <lb ed="#L" n="12"/>illustratur ad cognoscendum aliqua quae tamen
+            <lb ed="#L" n="13"/>non excedunt limites naturalis cognitionis: sicut
+            <lb ed="#L" n="14"/>dicitur de Salomone, III Reg. iv , quod /ocutus
+            <lb ed="#L" n="15"/>est parabolas, et disputavit super lignis, a cedro
+            <lb ed="#L" n="16"/>quae est in Libano usque ad hyssopum quae 
+            egre<lb break="no" ed="#L" n="17"/>ditur de pariete, et disseruit de iumentis et 
+            volu<lb break="no" ed="#L" n="18"/>cribus et reptilibus et piscibus. Et hoc totum fuit
+            <lb ed="#L" n="19"/>ex divina inspiratione: nam praemittitur : Dedit
+            <lb ed="#L" n="20"/>Deus sapientiam Salomoni, et prudentiam multam
+            <lb ed="#L" n="21"/>nimis. - Hi tamen duo gradus sunt infra 
+            pro<lb break="no" ed="#L" n="22"/>phetiam proprie dictam: quia non attingunt. ad
+            <lb ed="#L" n="23"/>supernaturalem veritatem.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e985">
+            <lb ed="#L" n="24"/>Illa autem prophetia in qua manifestatur 
+            su<lb break="no" ed="#L" n="25"/>pernaturalis veritas per imaginariam visionem,
+            <lb ed="#L" n="26"/>diversificatur primo, secundum differentiam 
+            so<lb break="no" ed="#L" n="27"/>mnii, quod fit in dormiendo; et visionis, quae
+            <lb ed="#L" n="28"/>fit in vigilando. Quae pertinet ad altiorem 
+            gra<lb break="no" ed="#L" n="29"/>dum prophetiae: quia maior vis prophetici 
+            lu<lb break="no" ed="#L" n="30"/>minis esse videtur quae animam occupatam 
+            <lb ed="#L" n="31"/>circa sensibilia in vigilando abstrahit ad 
+            superna<lb break="no" ed="#L" n="32"/>turalia, quam illa quae animam hominis 
+            abstra<lb break="no" ed="#L" n="33"/>ctam a sensibilibus invenit in dormiendo. - 
+            Se<lb break="no" ed="#L" n="34"/>cundo autem diversificantur gradus prophetiae
+            <lb ed="#L" n="35"/>quantum ad expressionem signorum 
+            imaginabi<lb break="no" ed="#L" n="36"/>lium quibus veritas intelligibilis exprimitur. Et
+            <lb ed="#L" n="37"/>quia signa maxime expressa intelligibilis veritatis
+            <lb ed="#L" n="38"/>sunt verba, ideo altior gradus prophetiae videtur
+            <lb ed="#L" n="39"/>quando propheta audit verba exprimentia 
+            intel<lb break="no" ed="#L" n="40"/>ligibilem veritatem, sive in vigilando sive in 
+            dor<lb break="no" ed="#L" n="41"/>miendo, quam quando videt aliquas res 
+            signifi<lb break="no" ed="#L" n="42"/>cativas veritatis, sicut septem spicae plenae 
+            signi<lb break="no" ed="#L" n="43"/>ficant septem annos ubertatis . In quibus etiam
+            <lb ed="#L" n="44"/>signis tanto videtur prophetia esse altior, quanto
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="45"/>signa sunt magis expressa: sicut quod  Ieremias
+            <lb ed="#L" n="46"/>vidit incendium civitatis sub similitudine o//ae
+            <lb ed="#L" n="47"/>succensae, sicut dicitur lerem. 1 . - Tertio autem
+            <lb ed="#L" n="48"/>ostenditur esse altior gradus prophetiae quando
+            <lb ed="#L" n="49"/>propheta non solum videt signa verborum vel
+            <lb ed="#L" n="50"/>factorum, sed etiam videt, in vigilando vel in
+            <lb ed="#L" n="51"/>dormiendo, aliquem sibi colloquentem aut aliquid
+            <lb ed="#L" n="52"/>demonstrantem: quia per hoc ostenditur quod
+            <lb ed="#L" n="53"/>mens prophetae magis appropinquat ad causam
+            <lb ed="#L" n="54"/>revelantem. - Quarto autem potest attendi 
+            alti<lb break="no" ed="#L" n="55"/>tudo gradus prophetalis ex conditione eius qui
+            <lb ed="#L" n="56"/>videtur. Nam altior gradus prophetiae est si ille
+            <lb ed="#L" n="57"/>qui loquitur vel demonstrat, videatur, in vigilando
+            <lb ed="#L" n="58"/>vel dormiendo, in specie angeli, quam si videatur
+            <lb ed="#L" n="59"/>in specie hominis. Et adhuc altior si videatur,
+            <lb ed="#L" n="60"/>in dormiendo vel vigilando, in specie Dei: 
+            secun<lb break="no" ed="#L" n="61"/>dum illud Isaiae vi : Vidi Dominum. sedentem.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1072">
+            <lb ed="#L" n="62"/>Super omnes autem hos gradus est tertium.
+            <lb ed="#L" n="63"/>genus prophetiae, jn quo intelligibilis veritas et
+            <lb ed="#L" n="64"/>supernaturalis absque imaginaria visione 
+            osten<lb break="no" ed="#L" n="65"/>ditur. Quae tamen excedit rationem prophetiae
+            <lb ed="#L" n="66"/>proprie dictae, ut dictum est . Et ideo 
+            conse<lb break="no" ed="#L" n="67"/>quens est quod gradus prophetiae proprie dictae
+            <lb ed="#L" n="68"/>distinguantur secundum imaginariam visionem.
+            <lb ed="#L" n="69"/>AD PRIMUM ERGO DICENDUM quod discretio 
+            lumi<lb break="no" ed="#L" n="70"/>nis intelligibilis non potest a nobis cognosci nisi 
+            se<lb break="no" ed="#L" n="71"/>cundum quod iudicatur per aliqua signa 
+            imagina<lb break="no" ed="#L" n="72"/>ria vel sensibilia. Et ideo ex diversitate 
+            imaginato<lb break="no" ed="#L" n="73"/>rum perpenditur diversitas intellectualis luminis.
+            <lb ed="#L" n="74"/>AD SECUNDUM DICENDUM quod, sicut supra  
+            di<lb break="no" ed="#L" n="75"/>ctum est, prophetia non est per modum habitus
+            <lb ed="#L" n="76"/>immanentis, sed magis per modum passionis
+            <lb ed="#L" n="77"/>transeuntis. Unde non est inconveniens quod uni
+            <lb ed="#L" n="78"/>et eidem prophetae fiat revelatio prophetica 
+            di<lb break="no" ed="#L" n="79"/>versis vicibus secundum diversos gradus.
+            <lb ed="#L" n="80"/>—KADb TERTIUM DICENDUM quod dicta et facta de
+            <lb ed="#L" n="81"/>quibus ibi fit mentio, non pertinent ad 
+            revela<lb break="no" ed="#L" n="82"/>tionem prophetiae, sed ad denuntiationem: quae
+            <lb ed="#L" n="83"/>fit secundum dispositionem eorum quibus 
+            de<lb break="no" ed="#L" n="84"/>nuntiatur id quod prophetae revelatum est; et
+            <lb ed="#L" n="85"/>hoc fit quandoque per dicta, quandoque per 
+            fa<lb break="no" ed="#L" n="86"/>cta. Denuntiatio autem et operatio miraculorum
+            <lb ed="#L" n="87"/>consequenter se habent ad prophetiam, ut supra 
+            <lb ed="#L" n="88"/>dictum est.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2171-Dd1e1134"><!-- p2p2-q174a4 -->
+          <head xml:id="TAca84-d1e2171-Hd1e1137">Articulus 4</head>
+          <head xml:id="TAca84-d1e2171-Hd1e1139" type="question-title">Utrum moyses fuerit excellentior omnibus prophetis</head>
+          <p xml:id="TAca84-d1e2171-d1e1142">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="9" type="fixed=397"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="10"/>UTRUM MOYSES FUERIT EXCELLENTIOR OMNIBUS PROPHETIS
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1151">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="11"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1158">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="12"/>Moyses non fuerit excellentior omnibus
+            <lb ed="#L" n="13"/>Prophetis Dicit enim Glossa , in 
+            prin<lb break="no" ed="#L" n="14"/>cipio Psalterii, quod David dicitur 
+            Pro<lb break="no" ed="#L" n="15"/>pheta per excellentiam. Non ergo Moyses fuit 
+            ex<lb break="no" ed="#L" n="16"/>cellentissimus omnium.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1175">
+            <lb ed="#L" n="17"/>2. PRAETEREA, maiora miracula facta sunt per
+            <lb ed="#L" n="18"/>Iosue, qui fecit stare solem et lunam, ut habetur
+            <lb ed="#L" n="19"/>Josue x , et per Isaiam, qui fecit retrocedere
+            <lb ed="#L" n="20"/>solem, ut habetur Isaiae xxxvi , quam per 
+            Moy<lb break="no" ed="#L" n="21"/>sen, qui divisit mare rubrum . Similiter etiam
+            <lb ed="#L" n="22"/>per Eliam, de quo dicitur, Eccli. xvm : Quis
+            <lb ed="#L" n="23"/>poterit tibi similiter gloriari, qui sustulisti 
+            mor<lb break="no" ed="#L" n="24"/>tuum ab inferis? Non ergo Moyses fuit 
+            excellen<lb break="no" ed="#L" n="25"/>tissimus prophetarum.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1197">
+            <lb ed="#L" n="26"/>3. PRaETEREA, Matth. xi  dicitur quod nter
+            <lb ed="#L" n="27"/>natos mulierum non surrexit maior loanne 
+            Ba<lb break="no" ed="#L" n="28"/>ptista. Non ergo Moyses fuit excellentior omnibus
+            <lb ed="#L" n="29"/>Prophetis.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1208">
+            <lb ed="#L" n="30"/>SED coNTRA EST quod dicitur Deut. ult. : Non
+            <lb ed="#L" n="31"/>surrexit propheta ultra in Israel sicut Moyses.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1215">
+            <lb ed="#L" n="32"/>RzsPONDEO DpicENDUM quod, licet quantum ad
+            <lb ed="#L" n="33"/>aliquid aliquis alius Prophetarum fuerit maior
+            <lb ed="#L" n="34"/>Moyse, simpliciter tamen Moyses fuit omnibus 
+            <lb ed="#L" n="35"/>maior. In prophetia enim, sicut ex praedictis 
+            <lb ed="#L" n="36"/>patet, consideratur et cognitio ?, tam secundum
+            <lb ed="#L" n="37"/>visionem intellectualem quam secundum 
+            visio<lb break="no" ed="#L" n="38"/>nem imaginariam; et denuntiatio; et confirmatio
+            <lb ed="#L" n="39"/>per miracula. Moyses ergo fuit aliis excellentior,
+            <lb ed="#L" n="40"/>primo quidem, quantum ad visionem 
+            intellectua<lb break="no" ed="#L" n="41"/>lem: eo quod vidit ipsam Dei essentiam, sicut
+            <lb ed="#L" n="42"/>Paulus in raptu ; sicut Augustinus dicit, XII 
+            su<lb break="no" ed="#L" n="43"/>per Gen. ad litt.  Unde dicitur, Num. xn , quod
+            <lb ed="#L" n="44"/>palam, non per aenigmata Deum videt .
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1246">
+            <lb ed="#L" n="45"/>Secundo, quantum ad imaginariam visionem:
+            <lb ed="#L" n="46"/>quam quasi ad nutum habebat, non solum au-
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="47"/>diens verba, sed etiam videns loquentem, etiam ?
+            <lb ed="#L" n="48"/>in specie Dei, non solum in dormiendo, sed etiam
+            <lb ed="#L" n="49"/>in vigilando. Unde dicitur Exod.  xxxi , quod
+            <lb ed="#L" n="50"/>loquebatur ei Dominus facie ad faciem, sicut homo
+            <lb ed="#L" n="51"/>solet loqui cum amico suo.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1266">
+            <lb ed="#L" n="52"/>Tertio, quantum ad denuntiationem: quia 
+            lo<lb break="no" ed="#L" n="53"/>quebatur toti populo fidelium ex persona Dei
+            <lb ed="#L" n="54"/>quasi de novo legem proponens; alii vero 
+            Pro<lb break="no" ed="#L" n="55"/>phetae loquebantur ad populum in persona Dei
+            <lb ed="#L" n="56"/>quasi inducentes ad observantiam legis Moysi,
+            <lb ed="#L" n="57"/>secundum illud Malach. iv : Mementote legis
+            <lb ed="#L" n="58"/>Moysi, servi mei.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1285">
+            <lb ed="#L" n="59"/>Quarto, quantum ad operationem 
+            miraculo<lb break="no" ed="#L" n="60"/>rum: quae fecit toti uni  populo infidelium. Unde
+            <lb ed="#L" n="61"/>dicitur Deut. ult. : Non surrexit ultra propheta
+            <lb ed="#L" n="62"/>in Israel sicut Moyses, quem nosset Dominus facie
+            <lb ed="#L" n="63"/>ad faciem, in omnibus signis atque portentis quae
+            <lb ed="#L" n="64"/>per eum misil ut faceret in terra Aegypti, Pharaoni
+            <lb ed="#L" n="65"/>et omnibus servis eius, universaeque terrae illius.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1303">
+            <lb ed="#L" n="66"/>AD PRIMUM ERGO DICENDUM quod prophetia 
+            Da<lb break="no" ed="#L" n="67"/>vid ex propinquo attingit visionem Moysi 
+            quan<lb break="no" ed="#L" n="68"/>tum ad visionem intellectualem: quia uterque 
+            ac<lb break="no" ed="#L" n="69"/>cepit revelationem intelligibilis et supernaturalis
+            <lb ed="#L" n="70"/>veritatis absque imaginaria visione . Visio tamen
+            <lb ed="#L" n="71"/>Moysi fuit excellentior quantum ad cognitionem
+            <lb ed="#L" n="72"/>divinitatis: sed David plenius cognovit et 
+            expres<lb break="no" ed="#L" n="73"/>sit mysteria incarnationis Christi.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1323">
+            <lb ed="#L" n="74"/>AD SECUNDUM DICENDUM quod illa signa illorum
+            <lb ed="#L" n="75"/>Prophetarum fuerunt maiora secundum 
+            substan<lb break="no" ed="#L" n="76"/>tiam facti: sed tamen miracula Moysi fuerunt
+            <lb ed="#L" n="77"/>maiora secundum modum faciendi, quia sunt facta
+            <lb ed="#L" n="78"/>toti populo.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1336">
+            <lb ed="#L" n="79"/>AD TERTIUM DICENDUM quod loannes pertinet ad
+            <lb ed="#L" n="80"/>novum Testamentum, cuius ministri praeferuntur
+            <lb ed="#L" n="81"/>etiam ipsi Moysi, quasi magis revelate 
+            speculan<lb break="no" ed="#L" n="82"/>les: ut habetur II ad Cor. ui .
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2171-Dd1e1348"><!-- p2p2-q174a5 -->
+          <head xml:id="TAca84-d1e2171-Hd1e1351">Articulus 5</head>
+          <head xml:id="TAca84-d1e2171-Hd1e1353" type="question-title">Utrum etiam aliquis gradus prophetiae sit in beatis</head>
+          <p xml:id="TAca84-d1e2171-d1e1356">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="47" type="fixed=398"/>ARTICULUS QUINTUS
+            <lb ed="#L" n="48"/>UTRUM ETIAM ALIQUIS GRADUS PROPHETIAE SIT IN BEATIS
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1365">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="49"/>AD QUINTUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="50"/>etiam aliquis gradus prophetiae est in 
+            <lb ed="#L" n="51"/>beatis. Moyses enim, ut dictum est 
+            <lb ed="#L" n="52"/>vidit divinam. essentiam. Qui tamen 
+            <lb ed="#L" n="53"/>propheta dicitur . Ergo, pari ratione, beati 
+            pos<lb break="no" ed="#L" n="54"/>sunt dici prophetae.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1383">
+            <lb ed="#L" n="55"/>2. PRAETEREA, prophetia est. divina revelatio .
+            <lb ed="#L" n="56"/>Sed divinae revelationes fiunt etiam angelis 
+            bea<lb break="no" ed="#L" n="57"/>tis. Ergo etiam angeli beati possunt dici 
+            pro<lb break="no" ed="#L" n="58"/>phetae.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1395">
+            <lb ed="#L" n="59"/>3. PRAETEREA, Christus ab instanti conceptionis
+            <lb ed="#L" n="60"/>fuit comprehensor. Et tamen ipse prophetam se
+            <lb ed="#L" n="61"/>nominat, Matth. xur , ubi dicit: JNon est 
+            pro<lb break="no" ed="#L" n="62"/>pheia sine honore nisi in patria. sua. Ergo etiam
+            <lb ed="#L" n="63"/>comprehensores et beati possunt dici prophetae.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1408">
+            <lb ed="#L" n="64"/>4. PRAETEREA, de Samuele dicitur, Eccli. xivi:
+            <lb ed="#L" n="65"/>Exaltavit vocem eius de terra in prophetia, delere
+            <lb ed="#L" n="66"/>impietatem. gentis. Ergo, eadem ratione, alii sancti
+            <lb ed="#L" n="67"/>post mortem possunt dici. prophetae.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1419">
+            <lb ed="#L" n="68"/>SED coNTRA EsT quod II Zet. 1 , sermo 
+            prophe<lb break="no" ed="#L" n="69"/>licus comparatur lucernae lucenti in caliginoso
+            <lb ed="#L" n="70"/>loco. Sed in beatis nulla est caligo. Ergo non
+            <lb ed="#L" n="71"/>possunt dici prophetae.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1430">
+            <lb ed="#L" n="72"/>RESPONDEO DICENDUM quod prophetia importat
+            <lb ed="#L" n="73"/>visionem quandam alicuius supernaturalis 
+            veri<lb break="no" ed="#L" n="74"/>tatis ut procul existentis. Quod quidem contingit
+            <lb ed="#L" n="75"/>esse dupliciter. Uno modo, ex parte ipsius 
+            co<lb break="no" ed="#L" n="76"/>gnitionis: quia videlicet  veritas supernaturalis
+            <lb ed="#L" n="77"/>non cognoscitur in seipsa, sed in aliquibus suis
+            <lb ed="#L" n="78"/>effectibus. Et adhuc erit magis procul si hoc fit
+            <lb ed="#L" n="79"/>per figuras corporalium rerum, quam per 
+            intel<lb break="no" ed="#L" n="80"/>ligibiles effectus. Et talis maxime est visio pro-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="81"/>phetica quae fit per. similitudines ?. corporalium
+            <lb ed="#L" n="82"/>rerum. Alio modo visio est procul ex parte ipsius
+            <lb ed="#L" n="83"/>videntis, qui scilicet non est totaliter in ultimam
+            <lb ed="#L" n="84"/>perfectionem  adductus: secundum illud Il ad
+            <lb ed="#L" n="85"/>Cor. v : Quandiu in corpore sumus, 
+            peregri<lb break="no" ed="#L" n="86"/>namur a Domino. Neutro autem modo beati sunt
+            <lb ed="#L" n="87"/>procul. Unde non possunt dici prophetae. 
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1469">
+            <lb ed="#L" n="88"/>AD PRIMUM ERGO DICENDUM quod visio illa Moysi
+            <lb ed="#L" n="89"/>fuit raptim, per modum. passionis, non autem
+            <lb ed="#L" n="90"/>permanens, per modum beatitudinis. Unde 
+            ad<lb break="no" ed="#L" n="91"/>huc videns erat procul. Propter hoc, non totaliter
+            <lb ed="#L" n="92"/>talis visio amittit rationem prophetiae.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1482">
+            <lb ed="#L" n="93"/>AD SECUNDUM DICENDUM quod angelis fit 
+            revela<lb break="no" ed="#L" n="94"/>tio divina non. sicut procul existentibus, sed sicut
+            <lb ed="#L" n="95"/>iam  totaliter Deo coniunctis. Unde talis 
+            reve<lb break="no" ed="#L" n="96"/>latio non habet rationem prophetiae.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1494">
+            <lb ed="#L" n="97"/>AD TERTIUM DICENDUM quod Christus simul erat
+            <lb ed="#L" n="98"/>comprehensor et viator. Inquantum. ergo erat
+            <lb ed="#L" n="99"/>comprehensor, non competit sibi ratio 
+            prophe<lb break="no" ed="#L" n="100"/>tiae: sed solum inquantum erat viator. 
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1505">
+            <lb ed="#L" n="101"/>AD QUARTUM DICENDUM quod etiam Samuel 
+            non<lb break="no" ed="#L" n="102"/>dum pervenerat ad statum beatitudinis. Unde et, si
+            <lb ed="#L" n="103"/>voluntate Dei ipsa anima Samuelis Sauli 
+            even<lb break="no" ed="#L" n="104"/>tum belli praenuntiavit , Deo sibi hoc revelante,
+            <lb ed="#L" n="105"/>pertinet ad rationem prophetiae. Non est autem
+            <lb ed="#L" n="106"/>eadem ratio: de sanctis qui sunt modo in patria.
+            <lb ed="#L" n="107"/>- Nec obstat quod arte daemonum hoc dicitur
+            <lb ed="#L" n="108"/>factum. Quia etsi daemones animam. alicuius
+            <lb ed="#L" n="109"/>sancti evocare non possunt, neque cogere ? ad
+            <lb ed="#L" n="110"/>aliquid agendum; potest tamen hoc fieri divina
+            <lb ed="#L" n="111"/>virtute ut, dum daemon consulitur, ipse Deus
+            <lb ed="#L" n="112"/>per suum nuntium veritatem enuntiat : sicut
+            <pb ed="#L" n="399"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>per Eliam veritatem respondit nuntiis regis qui
+            <lb ed="#L" n="2"/>mittebantur ad consulendum Deum Accaron, ut 
+            <lb ed="#L" n="3"/>habetur IV Reg. 1 .
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1544">
+            <lb ed="#L" n="4"/>Quamvis etiam dici possit quod non fuerit ani-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="5"/>ma Samuelis, sed daemon ex persona eius 
+            lo<lb break="no" ed="#L" n="6"/>quens: quem Sapiens Samuelem nominat, et eius
+            <lb ed="#L" n="7"/>praenuntiationem prophetiam , secundum 
+            opinio<lb break="no" ed="#L" n="8"/>nem Saulis et adstantium, qui ita opinabantur.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2171-Dd1e1561"><!-- p2p2-q174a6 -->
+          <head xml:id="TAca84-d1e2171-Hd1e1564">Articulus 6</head>
+          <head xml:id="TAca84-d1e2171-Hd1e1566" type="question-title">Utrum gradus prophetiae varientur secundum temporis processum</head>
+          <p xml:id="TAca84-d1e2171-d1e1569">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="19" type="fixed=399"/>ARTICULUS SEXTUS
+            <lb ed="#L" n="20"/>UTRUM GRADUS PROPHETIAE VARIENTUR SECUNDUM TEMPORIS PROCESSUM
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1578">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="21"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="22"/>gradus prophetiae varientur secundum
+            <lb ed="#L" n="23"/>temporis processum. Prophetia enim
+            <lb ed="#L" n="24"/>ordinatur ad cognitionem divinorum,
+            <lb ed="#L" n="25"/>ut ex dictis  patet. Sed sicut Gregorius dicit d
+            <lb ed="#L" n="26"/>per successiones temporum crevit divinae 
+            cogni<lb break="no" ed="#L" n="27"/>tioonis augmentum. Ergo et gradus prophetiae 
+            se<lb break="no" ed="#L" n="28"/>cundum processum temporum debent distingui.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1600">
+            <lb ed="#L" n="29"/>2. PRAETEREA, revelatio prophetica fit per 
+            mo<lb break="no" ed="#L" n="30"/>dum divinae allocutionis ad hominem: a 
+            pro<lb break="no" ed="#L" n="31"/>phetis autem ea quae sunt eis revelata 
+            denun<lb break="no" ed="#L" n="32"/>tiantur et verbo et scripto. Dicitur autem ^ I
+            <lb ed="#L" n="33"/>Reg.11, quod ante Samuelem, sermo Domini
+            <lb ed="#L" n="34"/>erat pretiosus, idest rarus: qui tamen postea ad
+            <lb ed="#L" n="35"/>multos factus est. Similiter etiam non 
+            inveniun<lb break="no" ed="#L" n="36"/>tur libri Prophetarum esse conscripti ante 
+            tem<lb break="no" ed="#L" n="37"/>pus Isaiae, cui dictum est: Sume tibi librum 
+            gran<lb break="no" ed="#L" n="38"/>dem, et scribe in eo stylo hominis, ut patet Isaiae
+            <lb ed="#L" n="39"/>vii: post quod tempus plures Prophetae suas
+            <lb ed="#L" n="40"/>prophetias conscripserunt. Ergo videtur quod 
+            se<lb break="no" ed="#L" n="41"/>cundum processum temporum profecerit 
+            prophe<lb break="no" ed="#L" n="42"/>tiae gradus.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1634">
+            <lb ed="#L" n="43"/>3. PRAETEREA, Dominus dicit, Matth. xi : Lex
+            <lb ed="#L" n="44"/>et. Prophetae usque ad Ioannem prophetaverunt.
+            <lb ed="#L" n="45"/>Postmodum autem. fuit donum prophetiae in 
+            di<lb break="no" ed="#L" n="46"/>scipulis Christi multo excellentius quam fuerit in
+            <lb ed="#L" n="47"/>antiquis prophetis: secundum illud Ephes. ui :
+            <lb ed="#L" n="48"/>Aliis generationibus non est agnitum filiis 
+            homi<lb break="no" ed="#L" n="49"/>num, scilicet mysterium Christi, sicut nunc. 
+            reve<lb break="no" ed="#L" n="50"/>latum. est sanctis Apostolis. eius et prophetis in
+            <lb ed="#L" n="51"/>Spiritu. Ergo videtur quod secundum processum
+            <lb ed="#L" n="52"/>temporis creverit prophetiae gradus.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1658">
+            <lb ed="#L" n="53"/>SED coNTRA EsT quia Moyses fuit 
+            excellentis<lb break="no" ed="#L" n="54"/>-simus prophetarum, ut dictum est , qui tamen
+            <lb ed="#L" n="55"/>alios prophetas. praecessit. Ergo gradus 
+            prophe<lb break="no" ed="#L" n="56"/>tiae non profecit secundum temporis processum.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1669">
+            <lb ed="#L" n="57"/>RESPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="58"/>prophetia ordinatur ad cognitionem divinae 
+            ve<lb break="no" ed="#L" n="59"/>ritatis: per cuius Beepianonem non solum. in
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="60"/>fide instruimur, sed etiam in nostris operibus
+            <lb ed="#L" n="61"/>gubernamur, secundum illud Psalmi : Ermitte 
+            lu<lb break="no" ed="#L" n="62"/>cem tuam et verilatem tuam: ipsa me deduxerunt.
+            <lb ed="#L" n="63"/>Fides autem nostra in duobus principaliter 
+            con<lb break="no" ed="#L" n="64"/>sistit: primo quidem, in vera Dei cognitione, 
+            se<lb break="no" ed="#L" n="65"/>cundum illud Zeb. xi : Accedentem ad Deum
+            <lb ed="#L" n="66"/>oportet credere quia est; secundo, in mysterio
+            <lb ed="#L" n="67"/>incarnationis Christi, secundum illud Ioan. xiv :
+            <lb ed="#L" n="68"/>Creditis in Deum: et in me credite. Si ergo de
+            <lb ed="#L" n="69"/>prophetia loquamur inquantum ordinatur ad 
+            fi<lb break="no" ed="#L" n="70"/>dem deitatis, sic quidem crevit secundum tres
+            <lb ed="#L" n="71"/>temporum distinctiones: scilicet ante legem, sub
+            <lb ed="#L" n="72"/>lege, et sub gratia. Nam ante legem, Abraham
+            <lb ed="#L" n="73"/>et alii Patres prophetice sunt instructi de his quae
+            <lb ed="#L" n="74"/>pertinent ad fidem deitatis. Unde et prophetae
+            <lb ed="#L" n="75"/>nominantur: secundum illud Psalmi : Zn 
+            pro<lb break="no" ed="#L" n="76"/>phetis meis nolite malignari, quod specialiter 9 
+            di<lb break="no" ed="#L" n="77"/>citur propter Abraham et Isaac . - Sub lege 
+            au<lb break="no" ed="#L" n="78"/>tem, facta est revelatio prophetica de his quae
+            <lb ed="#L" n="79"/>pertinent ad fidem deitatis excellentius .quam
+            <lb ed="#L" n="80"/>ante: quia iam. oportebat circa hoc instrui . non
+            <lb ed="#L" n="81"/>solum speciales personas aut quasdam familias,
+            <lb ed="#L" n="82"/>sed totum populum. Unde Dominus dicit Moysi,
+            <lb ed="#L" n="83"/>Exod. vi: Ego Dominus, qui apparui Abraham,
+            <lb ed="#L" n="84"/>Isaac. et lacob in Deo omnipotente, et nomen
+            <lb ed="#L" n="85"/>meum Adonai non indicavi eis: quia scilicet 
+            prae<lb break="no" ed="#L" n="86"/>cedentes Patres fuerunt instructi in communi ?
+            <lb ed="#L" n="87"/>de omnipotentia unius Dei, sed Moyses. postea
+            <lb ed="#L" n="88"/>plenius fuit instructus de simplicitate. divinae 
+            es<lb break="no" ed="#L" n="89"/>sentiae, cum dictum est ei, Exod. n : Ego sum
+            <lb ed="#L" n="90"/>qui sum; quod quidem nomen significatur a 
+            Iu<lb break="no" ed="#L" n="91"/>daeis per hoc nomen .Adonai, propter 
+            venera<lb break="no" ed="#L" n="92"/>tionem illius. ineffabilis. nominis. -. Postmodum
+            <lb ed="#L" n="93"/>vero, tempore gratiae, ab ipso Filio Dei revelatum
+            <lb ed="#L" n="94"/>est mysterium Trinitatis: secundum illud. Matth.
+            <lb ed="#L" n="95"/>ult. : Euntes, docete omnes gentes, baptizantes
+            <lb ed="#L" n="96"/>eos in nomine Patris et Filii et Spiritus Sancti .
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1760">
+            <lb ed="#L" n="97"/>In singulis tamen statibus prima revelatio 
+            ex<lb break="no" ed="#L" n="98"/>cellentior fuit. Prima autem revelatio ante legem
+            <pb ed="#L" n="400"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>facta est Abrahae, cuius tempore coeperunt 
+            ho<lb break="no" ed="#L" n="2"/>mines a fide unius Dei deviare, ad idololatriam 
+            <lb ed="#L" n="3"/>declinando: ante autem non erat necessaria talis 
+            <lb ed="#L" n="4"/>revelatio, omnibus in cultu unius Dei 
+            persisten<lb break="no" ed="#L" n="5"/>tibus. Isaac vero facta est inferior revelatio, quasi 
+            <lb ed="#L" n="6"/>fundata super revelatione facta Abrahae: unde 
+            <lb ed="#L" n="7"/>dictum est ei, Gen. xxvi : Ego sum Deus patris 
+            <lb ed="#L" n="8"/>tui Abraham. Et similiter ad lacob dictum, Gen. 
+            <lb ed="#L" n="9"/>xxvur: Ego sum Deus Abraham, patris tui, et 
+            <lb ed="#L" n="10"/>Deus Isaac. - Similiter etiam in statu legis, prima 
+            <lb ed="#L" n="11"/>revelatio facta Moysi fuit excellentior: supra quam 
+            <lb ed="#L" n="12"/>fundatur omnis alia Prophetarum revelatio. - Ita 
+            <lb ed="#L" n="13"/>etiam in tempore gratiae, super revelatione facta
+            <lb ed="#L" n="14"/>Apostolis de fide unitatis et trinitatis. fundatur
+            <lb ed="#L" n="15"/>tota fides Ecclesiae: secundum illud Matth. xvi:
+            <lb ed="#L" n="16"/>Super hanc petram, scilicet confessionis tuae, 
+            ae<lb break="no" ed="#L" n="17"/>dificabo Ecclesiam meam.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1808">
+            <lb ed="#L" n="18"/>Quantum vero ad fidem incarnationis Christi, 
+            <lb ed="#L" n="19"/>manifestum est quod quanto fuerunt Christo 
+            pro<lb break="no" ed="#L" n="20"/>pinquiores, sive ante sive post, ut plurimum, 
+            ple<lb break="no" ed="#L" n="21"/>nius de hoc instructi fuerunt. Post tamen plenius 
+            <lb ed="#L" n="22"/>quam ante: ut Apostolus dicit, ad Ephes. i .
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1821">
+            <lb ed="#L" n="23"/>Quantum vero ad directionem humanorum :
+            <lb ed="#L" n="24"/>actuum, prophetica revelatio diversificata est,
+            <lb ed="#L" n="25"/>non secundum temporis processum, sed 
+            secun<lb break="no" ed="#L" n="26"/>dum conditionem negotiorum: quia, ut dicitur 
+            <lb ed="#L" n="27"/>Prov. xxix , cum defecerit prophetia, dissipabitur 
+            <lb ed="#L" n="28"/>populus. Et ideo quolibet tempore instructi sunt 
+            <lb ed="#L" n="29"/>homines divinitus de agendis, secundum quod
+            <lb ed="#L" n="30"/>erat expediens ad salutem electorum.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1842">
+            <lb ed="#L" n="31"/>AD PRIMUM ERGO DICENDUM quod dictum 
+            Grego<lb break="no" ed="#L" n="32"/>ri est intelligendum de tempore ante Christi 
+            in<lb break="no" ed="#L" n="33"/>carnationem, quantum ad cognitionem huius 
+            my<lb break="no" ed="#L" n="34"/>sterii.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1853">
+            <lb ed="#L" n="35"/>AD SECUNDUM DICENDUM quod, sicut Augustinus
+            <lb ed="#L" n="36"/>dicit, XVIII de Civ. Dei , quemadmodum regni 
+            <lb ed="#L" n="37"/>Assyriorum primo ltempore extitit Abraham, cui
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="38"/>promissiones apertissimae fierent; ita in 
+            occiden<lb break="no" ed="#L" n="39"/>talis Babylonis, idest Romanae urbis, exordio,
+            <lb ed="#L" n="40"/>qua imperante fuerat Christus venturus, in quo
+            <lb ed="#L" n="41"/>implerentur illa promissa, oracula Prophetarum ,
+            <lb ed="#L" n="42"/>non solum loquentium verum etiam scribentium,
+            <lb ed="#L" n="43"/>in tantae rei futurae testimonium , solverentur ,
+            <lb ed="#L" n="44"/>scilicet promissiones Abrahae factae. Cum enim
+            <lb ed="#L" n="45"/>prophetae nunquam ^ fere defuissent populo Israel
+            <lb ed="#L" n="46"/>ex quo ibi reges esse coeperunt, in usum 
+            tantum<lb break="no" ed="#L" n="47"/>modo eorum fuere, non gentium. Quando autem
+            <lb ed="#L" n="48"/>Scriptura manifestius prophetica condebatur, quae
+            <lb ed="#L" n="49"/>gentibus quandoque prodesset, tunc condebatur
+            <lb ed="#L" n="50"/>haec civitas, scilicet Romana, quae gentibus 
+            im<lb break="no" ed="#L" n="51"/>peraret. Ideo autem maxime tempore Regum
+            <lb ed="#L" n="52"/>oportuit prophetas in illo populo abundare, quia
+            <lb ed="#L" n="53"/>tunc populus non opprimebatur ab alienigenis, sed
+            <lb ed="#L" n="54"/>proprium regem habebat: et ideo oportebat per
+            <lb ed="#L" n="55"/>prophetas eum instrui de agendis, quasi 
+            liber<lb break="no" ed="#L" n="56"/>tatem habentem.
+          </p>
+          <p xml:id="TAca84-d1e2171-d1e1905">
+            <lb ed="#L" n="57"/>AD TERTIUM DICENDUM quod prophetae 
+            prae<lb break="no" ed="#L" n="58"/>nuntiantes Christi adventum non potuerunt 
+            du<lb break="no" ed="#L" n="59"/>rare nisi usque ad Ioannem, qui praesentialiter
+            <lb ed="#L" n="60"/>Christum digito demonstravit . Et tamen, ut 
+            Hie<lb break="no" ed="#L" n="61"/>ronymus ibidem  dicit, non hoc dicitur ut post
+            <lb ed="#L" n="62"/>Ioannem excludat prophetas: legimus enim in
+            <lb ed="#L" n="63"/>Actibus. Apostolorum et Agabum. prophetasse, et
+            <lb ed="#L" n="64"/>quatuor virgines filias Philippi. loannes etiam 
+            li<lb break="no" ed="#L" n="65"/>brum propheticum conscripsit de fine Ecclesiae.
+            <lb ed="#L" n="66"/>Et singulis temporibus non defuerunt aliqui 
+            pro<lb break="no" ed="#L" n="67"/>phetiae ? spiritum habentes, non quidem ad 
+            no<lb break="no" ed="#L" n="68"/>vam doctrinam fidei depromendam, sed ad 
+            hu<lb break="no" ed="#L" n="69"/>manorum actuum directionem: sicut Augustinus
+            <lb ed="#L" n="70"/>refert, V de Civ. Dei , quod Theodosius 
+            Augu<lb break="no" ed="#L" n="71"/>stus ad Joannem in Aegypti eremo constitutum,
+            <lb ed="#L" n="72"/>quem prophetandi spiritu praeditum fama 
+            crebre<lb break="no" ed="#L" n="73"/>scente didicerat, misit, et ab eo nuntium victoriae
+            <lb ed="#L" n="74"/>certissimum. accepit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

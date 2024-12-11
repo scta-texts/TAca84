@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 124</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 124</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="27"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e1913"><!-- p2p2-q124 -->
+        <head xml:id="TAca84-d1e1913-Hd1e101">Quaestio 124</head>
+        <head xml:id="TAca84-d1e1913-Hd1e103" type="question-title">De martyrio</head>
+        <p xml:id="TAca84-d1e1913-d1e106">
+          <pb ed="#L" n="27"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=27"/>QUAESTIO CENTESIMAVIGESIMAQUARTA
+          <lb ed="#L" n="2"/>DE MARTYRIO
+          <lb ed="#L" n="3"/>IN QUINQUE ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e1913-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de martyrio .
+          <lb ed="#L" n="5"/>Et circa hoc quaeruntur quinque.
+          <lb ed="#L" n="6"/>Primo: utrum martyrium sit actus virtutis.
+          <lb ed="#L" n="7"/>Secundo: cuius virtutis sit actus.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="8"/>Tertio: de perfectione huius actus.
+          <lb ed="#L" n="9"/>Quarto: de poena martyrii.
+          <lb ed="#L" n="10"/>Quinto: de causa.
+        </p>
+        <div xml:id="TAca84-d1e1913-Dd1e141"><!-- p2p2-q124a1 -->
+          <head xml:id="TAca84-d1e1913-Hd1e144">Articulus 1</head>
+          <head xml:id="TAca84-d1e1913-Hd1e146" type="question-title">Utrum martyrium sit actus virtutis</head>
+          <p xml:id="TAca84-d1e1913-d1e149">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="11" type="fixed=27"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="12"/>UTRUM MARTYRIUM SIT ACTUS VIRTUTIS
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e158">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="13"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="14"/>martyrium non sit actus virtutis. Omnis
+            <lb ed="#L" n="15"/>enim actus virtutis est voluntarius. Sed
+            <lb ed="#L" n="16"/>martyrium quandoque non est 
+            volun<lb break="no" ed="#L" n="17"/>tarium: ut patet de Innocentibus pro Christo 
+            oc<lb break="no" ed="#L" n="18"/>cisis, de quibus dicit Hilarius, super Matth.  ,
+            <lb ed="#L" n="19"/>quod in aeternitatis profectum per martyrii 
+            glo<lb break="no" ed="#L" n="20"/>riam efferebantur . Ergo martyrium non est
+            <lb ed="#L" n="21"/>actus virtutis.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e182">
+            <lb ed="#L" n="22"/>2. PRAETEREA, nullum illicitum est actus 
+            vir<lb break="no" ed="#L" n="23"/>tutis. Sed occidere seipsum est illicitum, ut 
+            su<lb break="no" ed="#L" n="24"/>pra  habitum est. Per quod tamen martyrium 
+            <lb ed="#L" n="25"/>consummatur: dicit enim <ref xml:id="TAca84-d1e1913-Rd1e192">Augustinus, in I de Civ.
+              <lb ed="#L" n="26"/>Dei</ref>, quod quaedam sanctae feminae, tempore
+            <lb ed="#L" n="27"/>persecutionis, ut insectatores suae pudicitiae 
+            devi<lb break="no" ed="#L" n="28"/>larent, se in fluvium deiecerunt, eoque modo 
+            de<lb break="no" ed="#L" n="29"/>functae sunt; earumque martyria in Catholica
+            <lb ed="#L" n="30"/>Ecclesia veneratione celeberrima frequentantur.
+            <lb ed="#L" n="31"/>Non ergo martyrium est actus virtutis.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e210">
+            <lb ed="#L" n="32"/>3. PRAETEREA, laudabile est quod aliquis sponte
+            <lb ed="#L" n="33"/>se offerat ad exequendum actum virtutis. Sed
+            <lb ed="#L" n="34"/>non est laudabile quod aliquis martyrio se 
+            in<lb break="no" ed="#L" n="35"/>gerat, sed magis videtur esse praesumptuosum
+            <lb ed="#L" n="36"/>et periculosum. Non ergo martyrium est actus
+            <lb ed="#L" n="37"/>virtutis.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e226">
+            <lb ed="#L" n="38"/>SED coNTRA EST quod praemium beatitudinis
+            <lb ed="#L" n="39"/>non debetur nisi actui virtutis. Debetur autem
+            <lb ed="#L" n="40"/>martyrio: secundum illud Matth. v : Beati qui
+            <lb ed="#L" n="41"/>persecutionem patiuntur propter iustitiam: 
+            quo<lb break="no" ed="#L" n="42"/>niam ipsorum est regnum caelorum. Ergo 
+            mar<lb break="no" ed="#L" n="43"/>tyrium est actus virtutis.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e242">
+            <lb ed="#L" n="44"/>RESPONDEO DICENDUM quod, sicut dictum est
+            <lb ed="#L" n="45"/>ad virtutem pertinet quod aliquis in bono 
+            ratio<lb break="no" ed="#L" n="46"/>nis conservetur. Consistit autem bonum rationis
+            <lb ed="#L" n="47"/>in veritate, sicut in proprio obiecto; et in 
+            iusti<lb break="no" ed="#L" n="48"/>tia, sicut in proprio effectu, sicut ex supra  
+            di<lb break="no" ed="#L" n="49"/>ctis patet. Pertinet autem ad rationem martyrii
+            <lb ed="#L" n="50"/>ut aliquis. firmiter stet in veritate et iustitia 
+            con<lb break="no" ed="#L" n="51"/>tra persequentium impetus. Unde manifestum est
+            <lb ed="#L" n="52"/>quod martyrium est actus virtutis.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e264">
+            <lb ed="#L" n="53"/>AD PRIMUM ERGO DICENDUM quod quidam  
+            dixe<lb break="no" ed="#L" n="54"/>runt quod in ? Innocentibus acceleratus est 
+            mi<lb break="no" ed="#L" n="55"/>raculose usus liberi arbitrii, ita quod etiam 
+            vo<lb break="no" ed="#L" n="56"/>luntarie martyrium passi sunt. - Sed quia hoc
+            <lb ed="#L" n="57"/>per auctoritatem Scripturae non comprobatur,
+            <lb ed="#L" n="58"/>ideo melius dicendum est quod martyrii gloriam,
+            <lb ed="#L" n="59"/>quam in aliis propria voluntas meretur, illi 
+            par<lb break="no" ed="#L" n="60"/>vuli occisi per Dei gratiam sunt assecuti. Nam
+            <lb ed="#L" n="61"/>effusio sanguinis propter Christum vicem gerit
+            <lb ed="#L" n="62"/>baptismi. Unde sicut pueris baptizatis per 
+            gra<lb break="no" ed="#L" n="63"/>tiam baptismalem meritum Christi operatur ad
+            <lb ed="#L" n="64"/>gloriam obtinendam, ita in occisis propter 
+            Chri<lb break="no" ed="#L" n="65"/>stum meritum martyrii  Christi operatur ad 
+            pal<lb break="no" ed="#L" n="66"/>mam martyrii consequendam. Unde Augustinus
+            <lb ed="#L" n="67"/>dicit, in quodam sermone de Epiphania , quasi
+            <lb ed="#L" n="68"/>eos alloquens: J/lle de vestra corona dubitabit in
+            <lb ed="#L" n="69"/>passione pro Christo, qui etiam parvulis 
+            bapti<lb break="no" ed="#L" n="70"/>smum prodesse non aestimat Christi. Non 
+            habe<lb break="no" ed="#L" n="71"/>batis aetatem qua in passurum Christum 
+            crede<lb break="no" ed="#L" n="72"/>retis: sed habebatis carnem in qua pro Christo
+            <lb ed="#L" n="73"/>passuro passionem sustineretis.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e312">
+            <lb ed="#L" n="74"/>AD SECUNDUM DICENDUM quod, sicut ? Augustinus
+            <lb ed="#L" n="75"/>ibidem  dicit, esset possibile quod aliquibus fide
+            <lb ed="#L" n="76"/>dignis testificationibus divina persuasit auctoritas
+            <lb ed="#L" n="77"/>Ecclesiae ut dictarum Sanctarum memoriam 
+            ho<lb break="no" ed="#L" n="78"/>noraret.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e325">
+            <lb ed="#L" n="79"/>AD TERTIUM DICENDUM quod praecepta legis 
+            dan<lb break="no" ed="#L" n="80"/>tur de actibus virtutis . Dictum autem est 
+            su<lb break="no" ed="#L" n="81"/>pra  quaedam praecepta legis divinae tradita
+            <lb ed="#L" n="82"/>esse secundum praeparationem animi, ut scilicet
+            <lb ed="#L" n="83"/>homo sit paratus hoc vel illud faciendi  cum
+            <lb ed="#L" n="84"/>fuerit opportunum. lta etiam et aliqua pertinent
+            <lb ed="#L" n="85"/>ad actum virtutis secundum animi 
+            praeparatio<lb break="no" ed="#L" n="86"/>nem, ut scilicet, superveniente tali casu, homo
+            <lb ed="#L" n="87"/>secundum rationem agat. Et hoc praecipue 
+            vi<lb break="no" ed="#L" n="88"/>detur observandum in martyrio, quod consistit
+            <lb ed="#L" n="89"/>in debita sustinentia passionum iniuste 
+            inflicta<lb break="no" ed="#L" n="90"/>rum: non autem debet-homo occasionem dare
+            <lb ed="#L" n="91"/>alteri iniuste agendi, sed si alius iniuste egerit,
+            <lb ed="#L" n="92"/>ipse debet moderate tolerare.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1913-Dd1e360"><!-- p2p2-q124a2 -->
+          <head xml:id="TAca84-d1e1913-Hd1e363">Articulus 2</head>
+          <head xml:id="TAca84-d1e1913-Hd1e365" type="question-title">Utrum martyrium sit actus fortitudinis</head>
+          <p xml:id="TAca84-d1e1913-d1e368">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="112" type="fixed=28"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="113"/>UTRUM MARTYRIUM SIT ACTUS FORTITUDINIS
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e377">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="114"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="115"/>martyrium non sit actus fortitudinis. 
+            Di<lb break="no" ed="#L" n="116"/>aXA citur enim martyr in graeco quasi festis.
+            <lb ed="#L" n="117"/>Ny Testimonium autem redditur fidei 
+            Chri<lb break="no" ed="#L" n="118"/>sti: secundum illud Act. 1 : Eritis mihi testes in
+            <lb ed="#L" n="119"/>lerusalem, etc. Et Maximus  dicit, in quodam
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="120"/>sermone : Mater martyrii fies Catholica est, in
+            <lb ed="#L" n="121"/>qua illustres athletae suo sanguine subscripserunt.
+            <lb ed="#L" n="122"/>Ergo martyrium est potius actus fidei quam for-
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e403">
+            <lb ed="#L" n="123"/>2. PRAETEREA, actus laudabilis ad illam 
+            virtu<lb break="no" ed="#L" n="124"/>praecipue pertinet. quae ad ipsum.  inclinat,
+            <pb ed="#L" n="29"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>et quae ab ipso manifestatur, et sine qua ipse
+            <lb ed="#L" n="2"/>non valet. Sed ad martyrium praecipue inclinat
+            <lb ed="#L" n="3"/>caritas: unde in quodam sermone Maximi  
+            di<lb break="no" ed="#L" n="4"/>citur: Caritas Christi in Martyribus suis vicit 9.
+            <lb ed="#L" n="5"/>Maxime etiam caritas per actum martyrii 
+            mani<lb break="no" ed="#L" n="6"/>festatur: secundum illud Ioan. xv : Maiorem 
+            di<lb break="no" ed="#L" n="7"/>lectionem  nemo habet quam ut animam suam 
+            po<lb break="no" ed="#L" n="8"/>nat quis pro amicis suis. Sine caritate etiam 
+            mar<lb break="no" ed="#L" n="9"/>tyrium nihil valet: secundum illud I ad Cor. xui :
+            <lb ed="#L" n="10"/>Si tradidero corpus meum ita ut ardeam , 
+            cari<lb break="no" ed="#L" n="11"/>latem autem non habuero, nihil mihi prodest.
+            <lb ed="#L" n="12"/>Ergo martyrium magis est actus caritatis quam
+            <lb ed="#L" n="13"/>fortitudinis.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e443">
+            <lb ed="#L" n="14"/>3. PRAETEREA, Augustinus dicit, in quodam 
+            ser<lb break="no" ed="#L" n="15"/>mone de sancto Cypriano : Facile est 
+            marty<lb break="no" ed="#L" n="16"/>rem celebrando venerari: magnum vero fidem
+            <lb ed="#L" n="17"/>eius et patientiam imitari. Sed in unoquoque actu
+            <lb ed="#L" n="18"/>virtutis praecipue laudabilis redditur ? virtus cuius
+            <lb ed="#L" n="19"/>est actus. Ergo martyrium magis est actus 
+            pa<lb break="no" ed="#L" n="20"/>tientiae quam fortitudinis.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e461">
+            <lb ed="#L" n="21"/>SEP coNTRA EsT quod Cyprianus dicit, in 
+            epi<lb break="no" ed="#L" n="22"/>stola ad Martyres et Confessores : O beati 
+            mar<lb break="no" ed="#L" n="23"/>tyres, quibus vos laudibus praedicem? .O milites
+            <lb ed="#L" n="24"/>vocis explicem? Quilibet autem laudatur de 
+            vir<lb break="no" ed="#L" n="25"/>actus fortitudinis.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e474">
+            <lb ed="#L" n="26"/>REsPONDEO DICENDUM quod, sicut ex supra 
+            <lb ed="#L" n="27"/>dictis patet, ad fortitudinem pertinet ut 
+            confir<lb break="no" ed="#L" n="28"/>met hominem in bono virtutis contra pericula, 
+            <lb ed="#L" n="29"/>et praecipue contra pericula mortis, et maxime 
+            <lb ed="#L" n="30"/>eius quae est in bellow. Manifestum est autem 
+            <lb ed="#L" n="31"/>quod in martyrio homo firmiter confirmatur in 
+            <lb ed="#L" n="32"/>bono virtutis dum fidem et iustitiam non deserit 
+            <lb ed="#L" n="33"/>propter imminentia pericula mortis, quae etiam 
+            <lb ed="#L" n="34"/>in quodam certamine particulari a persecutoribus 
+            <lb ed="#L" n="35"/>imminent. Unde Cyprianus dicit, in quodam ser-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="36"/>mone : Vidit admirans praesentium multitudo
+            <lb ed="#L" n="37"/>caeleste certamen, et in praelio stetisse servos
+            <lb ed="#L" n="38"/>Christi voce libera, mente incorrupta, virtute 
+            di<lb break="no" ed="#L" n="39"/>vina. Unde manifestum est quod martyrium est
+            <lb ed="#L" n="40"/>fortitudinis actus. Et propter, hoc de martyribus
+            <lb ed="#L" n="41"/>legit Ecclesia: Fortes facti sunt in bello 
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e513">
+            <lb ed="#L" n="42"/>AD PRIMUM ERGO DICENDUM quod in actu 
+            forti<lb break="no" ed="#L" n="43"/>tudinis duo sunt consideranda. Quorum unum
+            <lb ed="#L" n="44"/>est bonum in quo fortis firmatur: et hoc est 
+            for<lb break="no" ed="#L" n="45"/>titudinis finis. Aliud est ipsa firmitas, qua quis
+            <lb ed="#L" n="46"/>non cedit contrariis prohibentibus ab illo bono: et
+            <lb ed="#L" n="47"/>in hoc consistit essentia fortitudinis. Sicut autem
+            <lb ed="#L" n="48"/>fortitudo civilis firmat animum hominis in iustitia
+            <lb ed="#L" n="49"/>humana, propter cuius conservationem mortis 
+            pe<lb break="no" ed="#L" n="50"/>ricula sustinet; ita etiam fortitudo gratuita firmat
+            <lb ed="#L" n="51"/>animum hominis in bono 7ustitiae Dei, quae est
+            <lb ed="#L" n="52"/>per fidem lesu Christi, ut dicitur Rom. m . Et
+            <lb ed="#L" n="53"/>sic martyrium comparatur ad fidem sicut ad
+            <lb ed="#L" n="54"/>finem in quo aliquis firmatur : ad fortitudinem
+            <lb ed="#L" n="55"/>autem sicut ad habitum elicientem.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e546">
+            <lb ed="#L" n="56"/>AD SECUNDUM DICENDUM quod ad actum martyrii
+            <lb ed="#L" n="57"/>inclinat quidem caritas sicut primum et 
+            princi<lb break="no" ed="#L" n="58"/>pale motivum, per modum virtutis imperantis:
+            <lb ed="#L" n="59"/>fortitudo autem sicut motivum proprium, per
+            <lb ed="#L" n="60"/>modum virtutis elicientis. Et inde etiam est quod
+            <lb ed="#L" n="61"/>tute cuius actum exercet. Ergo martyrium est 
+            <lb ed="#L" n="62"/>martyrium est actus caritatis ut imperantis, 
+            for<lb break="no" ed="#L" n="63"/>titudinis autem ut elicientis. Et inde est quod
+            <lb ed="#L" n="64"/>met hominem in bono virtutis contra  pericula, 
+            <lb ed="#L" n="65"/>et praecipue contra pericula mortis, et maxime
+            <lb ed="#L" n="66"/>eius quae est in bello. Manifestum est autem
+            <lb ed="#L" n="67"/>quod in martyrio homo firmiter confirmatur in
+            <lb ed="#L" n="68"/>bono virtutis, dum fidem et iustitiam non deserit
+            <lb ed="#L" n="69"/>propter imminentia pericula mortis, quae etiam -
+            <lb ed="#L" n="70"/>in quodam certamine particulari a persecutoribus
+            <lb ed="#L" n="71"/>imminent. Unde Cyprianus dicit, in quodam 
+            ser<lb break="no" ed="#L" n="72"/>utramque virtutem manifestat. Quod autem sit
+            <lb ed="#L" n="73"/>meritorium, habet ex caritate: sicut et quilibet
+            <lb ed="#L" n="74"/>virtutis actus . Et ideo sine caritate non valet.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e590">
+            <lb ed="#L" n="75"/>AD TERTIUM DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="76"/>principalior actus fortitudinis est sustinere, ad
+            <lb ed="#L" n="77"/>quem pertinet martyrium; non autem ad 
+            secun<lb break="no" ed="#L" n="78"/>darium actum eius, qui est aggredi. Et quia 
+            pa<lb break="no" ed="#L" n="79"/>tientia deservit fortitudini ex parte actus 
+            princi<lb break="no" ed="#L" n="80"/>palis, qui est sustinere, inde est etiam quod 
+            con<lb break="no" ed="#L" n="81"/>comitanter in martyribus patientia commendatur.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1913-Dd1e609"><!-- p2p2-q124a3 -->
+          <head xml:id="TAca84-d1e1913-Hd1e612">Articulus 3</head>
+          <head xml:id="TAca84-d1e1913-Hd1e614" type="question-title">Utrum martyrium sit actus maximae perfectionis</head>
+          <p xml:id="TAca84-d1e1913-d1e617">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="48" type="fixed=33"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="49"/>UTRUM MARTYRIUM SIT ACTUS MAXIMAE PERFECTIONIS
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e626">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="50"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="51"/>martyrium non sit actus maximae 
+            per<lb break="no" ed="#L" n="52"/>fectionis. Illud enim ad perfectionem
+            <lb ed="#L" n="53"/>avitae  videtur pertinere quod cadit sub
+            <lb ed="#L" n="54"/>consilio, non sub praecepto, quia scilicet non 
+            <lb ed="#L" n="55"/>est de necessitate salutis. Sed martyrium 
+            vide<lb break="no" ed="#L" n="56"/>tur esse de necessitate salutis: dicit enim 
+            Apo<lb break="no" ed="#L" n="57"/>stolus, Rom. x: Corde creditur ad iustitiam ,
+            <lb ed="#L" n="58"/>ore autem fit confessio ad salutem; et I Ioann. ui 
+            <lb ed="#L" n="59"/>dicitur quod nos debemus pro fratribus animam
+            <lb ed="#L" n="60"/>ponere. Ergo martyrium non pertinet ad 
+            perfe<lb break="no" ed="#L" n="61"/>ctionem.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e657">
+            <lb ed="#L" n="62"/>2. PRAETEREA, ad maiorem perfectionem 
+            per<lb break="no" ed="#L" n="63"/>tinere videtur quod aliquis det Deo animam,
+            <lb ed="#L" n="64"/>quod fit per obedientiam, quam quod det Deo
+            <lb ed="#L" n="65"/>proprium corpus, quod fit per martyrium: unde
+            <lb ed="#L" n="66"/>Gregorius dicit, ult. Moral. , quod obedientia
+            <lb ed="#L" n="67"/>cunctis viclimis "praefertur. Ergo martyrium non
+            <lb ed="#L" n="68"/>est actus maximae perfectionis.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e676">
+            <lb ed="#L" n="69"/>3. PnRaETEREA, melius esse videtur aliis 
+            pro<lb break="no" ed="#L" n="70"/>desse quam seipsum in bono conservare: quia
+            <lb ed="#L" n="71"/>bonum gentis melius est quam bonum unius 
+            ho<lb break="no" ed="#L" n="72"/>minis, secundum <ref xml:id="TAca84-d1e1913-Rd1e686">Philosophum, in I Efhic.</ref>  Sed
+            <lb ed="#L" n="73"/>ille qui martyrium sustinet, sibi soli prodest: ille
+            <lb ed="#L" n="74"/>autem qui docet, proficit multis. Ergo actus 
+            do<lb break="no" ed="#L" n="75"/>cendi et gubernandi subditos est perfectior quam
+            <lb ed="#L" n="76"/>actus martyrii.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e698">
+            <lb ed="#L" n="77"/>SEp coNTRA EsT quod Augustinus, in libro de
+            <lb ed="#L" n="78"/>Sancta Virginit. , praefert martyrium virginitati,
+            <lb ed="#L" n="79"/>quae ad perfectionem pertinet. Ergo videtur 
+            mar<lb break="no" ed="#L" n="80"/>tyrium maxime ad perfectionem pertinere.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e709">
+            <lb ed="#L" n="81"/>RESPONDEO DICENDUM quod de aliquo actu 
+            vir<lb break="no" ed="#L" n="82"/>tutis dupliciter loqui possumus. Uno modo, se- 
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="83"/>cundum speciem ipsius actus, prout comparatur 
+            <lb ed="#L" n="84"/>ad virtutem proxime elicientem ipsum. Et sic non
+            <lb ed="#L" n="85"/>potest esse quod martyrium, quod consistit in 
+            de<lb break="no" ed="#L" n="86"/>bita tolerantia mortis, sit perfectissimus inter 
+            virtu<lb break="no" ed="#L" n="87"/>tis actus. Quia tolerare mortem non est laudabile
+            <lb ed="#L" n="88"/>secundum se, sed solum secundum quod 
+            ordina<lb break="no" ed="#L" n="89"/>tur ad aliquod bonum quod consistit in actu 
+            vir<lb break="no" ed="#L" n="90"/>tutis, puta ad fidem et dilectionem Dei. Unde ille
+            <lb ed="#L" n="91"/>actus virtutis, cum sit finis, melior est.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e738">
+            <lb ed="#L" n="92"/>Alio modo potest considerari actus virtutis 
+            se<lb break="no" ed="#L" n="93"/>cundum quod comparatur ad primum motivum,
+            <lb ed="#L" n="94"/>quod est amor caritatis. Et ex hac parte 
+            prae<lb break="no" ed="#L" n="95"/>cipue aliquis actus habet quod ad perfectionem
+            <lb ed="#L" n="96"/>vitae pertineat: quia, ut Apostolus dicit, Coloss.
+            <lb ed="#L" n="97"/>III, caritas est vinculum perfectionis. Martyrium
+            <lb ed="#L" n="98"/>autem, inter omnes actus virtuosos, maxime 
+            de<lb break="no" ed="#L" n="99"/>monstrat perfectionem caritatis. Quia tanto magis
+            <lb ed="#L" n="100"/>ostenditur aliquis aliquam rem amare, quanto pro
+            <lb ed="#L" n="101"/>ea rem magis amatam contemnit, et rem magis
+            <lb ed="#L" n="102"/>odiosam eligit pati. Manifestum est autem quod
+            <lb ed="#L" n="103"/>inter omnia alia bona praesentis vitae, maxime
+            <lb ed="#L" n="104"/>amat homo ipsam vitam, et e contrario maxime
+            <lb ed="#L" n="105"/>odit ipsam mortem: et praecipue cum doloribus
+            <lb ed="#L" n="106"/>corporalium tormentorum, quorum metu etiam
+            <lb ed="#L" n="107"/>bruta animalia a maximis voluptatibus 
+            absterren<lb break="no" ed="#L" n="108"/>tur , ut Augustinus dicit, in libro Octoginta trium
+            <lb ed="#L" n="109"/>Quaest. Et secundum hoc patet quod 
+            marty<lb break="no" ed="#L" n="110"/>rium inter ceteros actus humanos est perfectior
+            <lb ed="#L" n="111"/>secundum suum genus, quasi maximae caritatis
+            <lb ed="#L" n="112"/>signum: secundum illud loan. xv : Maiorem
+            <lb ed="#L" n="113"/>caritatem nemo habet quam ut animam suam 
+            po<lb break="no" ed="#L" n="114"/>nat quis pro amicis suis.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e790">
+            <lb ed="#L" n="115"/>AD PRIMUM ERGO DICENDUM quod nullus est actus
+            <pb ed="#L" n="34"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>perfectionis sub consilio cadens qui in aliquo
+            <lb ed="#L" n="2"/>eventu non cadat sub praecepto, quasi de 
+            ne<lb break="no" ed="#L" n="3"/>cessitate salutis existens: sicut Augustinus dicit, in
+            <lb ed="#L" n="4"/>libro de Adulterinis Coniugiis , quod aliquis 
+            inci<lb break="no" ed="#L" n="5"/>dit in. necessitatem continentiae servandae 
+            pro<lb break="no" ed="#L" n="6"/>pter absentiam vel infirmitatem uxoris. Et ideo
+            <lb ed="#L" n="7"/>non est contra perfectionem martyrii si in aliquo
+            <lb ed="#L" n="8"/>casu sit de necessitate salutis. Est enim aliquis 
+            <lb ed="#L" n="9"/>casus in quo martyrium perferre non est de 
+            neces<lb break="no" ed="#L" n="10"/>sitate salutis: puta cum ex zelo fidei et caritate 
+            <lb ed="#L" n="11"/>virtutum: sicut nec fortitudo est excellentior inter
+            <lb ed="#L" n="12"/>fraterna multoties leguntur sancti martyres sponte
+            <lb ed="#L" n="13"/>se obtulisse martyrio. — Illa autem praecepta sunt
+            <lb ed="#L" n="14"/>intelligenda secundum praeparationem animi.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e829">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="15"/>AD SECUNDUM DICENDUM quod martyrium 
+            com<lb break="no" ed="#L" n="16"/>plectitur id quod summum in obedientia esse
+            <lb ed="#L" n="17"/>potest ?, ut scilicet aliquis sit obediens usque ad
+            <lb ed="#L" n="18"/>mortem: sicut de Christo legitur, Philipp. u ,
+            <lb ed="#L" n="19"/>quod factus est obediens usque ad mortem. Unde
+            <lb ed="#L" n="20"/>patet quod martyrium secundum se est perfectius
+            <lb ed="#L" n="21"/>quam obedientia absolute dicta.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e850">
+            <lb ed="#L" n="22"/>AD TERTIUM DICENDUM quod ratio illa procedit
+            <lb ed="#L" n="23"/>de martyrio secundum propriam speciem actus,
+            <lb ed="#L" n="24"/>ex qua non habet excellentiam inter omnes actus
+            <lb ed="#L" n="25"/>omnes virtutes.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1913-Dd1e862"><!-- p2p2-q124a4 -->
+          <head xml:id="TAca84-d1e1913-Hd1e865">Articulus 4</head>
+          <head xml:id="TAca84-d1e1913-Hd1e867" type="question-title">Utrum mors sit de ratione martyrii</head>
+          <p xml:id="TAca84-d1e1913-d1e870">
+            <pb ed="#L" n="36"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=36"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="2"/>UTRUM MORS SIT DE RATIONE MARTYRII
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e881">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD QUARTUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="4"/>mors non sit de ratione martyrii. Dicit 
+            <lb ed="#L" n="5"/>enim Hieronymus, in sermone de 
+            As<lb break="no" ed="#L" n="6"/>sumptione : Recte dixerim quod Dei
+            <lb ed="#L" n="7"/>Genitrix Virgo et Martyr fuit, quamvis in pace 
+            vi<lb break="no" ed="#L" n="8"/>tam finierit . Et Gregorius dicit : Quamvis 
+            oc<lb break="no" ed="#L" n="9"/>casio P persecutionis desit, habet tamen pax suum
+            <lb ed="#L" n="10"/>marlyrium: quia etsi carnis colla ferro non 
+            sub<lb break="no" ed="#L" n="11"/>ücimus, spirituali tamen gladio carnalia desideria
+            <lb ed="#L" n="12"/>in mente trucidamus. Ergo absque passione 
+            mor<lb break="no" ed="#L" n="13"/>tis potest esse martyrium.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e910">
+            <lb ed="#L" n="14"/>2. PRAETEREA, pro integritate carnis servanda
+            <lb ed="#L" n="15"/>aliquae mulieres leguntur laudabiliter vitam suam
+            <lb ed="#L" n="16"/>contempsisse : et ita videtur quod corporalis 
+            in<lb break="no" ed="#L" n="17"/>tegritas castitatis praeferatur vitae corporali. Sed
+            <lb ed="#L" n="18"/>quandoque ipsa integritas carnis aufertur, vel 
+            au<lb break="no" ed="#L" n="19"/>ferri intentatur, pro confessione fidei Christianae:
+            <lb ed="#L" n="20"/>ut patet de Agnete et Lucia. Ergo videtur quod
+            <lb ed="#L" n="21"/>martyrium magis debeat dici si aliqua mulier pro
+            <lb ed="#L" n="22"/>fide Christi integritatem carnis perdat, quam . si
+            <lb ed="#L" n="23"/>etiam vitam perderet corporalem. Unde et Lucia
+            <lb ed="#L" n="24"/>dixit: S; me invitam feceris violari, castitas mihi
+            <lb ed="#L" n="25"/>duplicabitur ad coronam .
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e940">
+            <lb ed="#L" n="26"/>3. PRAETEREA, martyrium est fortitudinis actus.
+            <lb ed="#L" n="27"/>Ad fortitudinem autem pertinet non solum 
+            mor<lb break="no" ed="#L" n="28"/>tem non formidare, sed nec alias adversitates:
+            <lb ed="#L" n="29"/>ut Augustinus dicit, in VI Musicae . Sed multae
+            <lb ed="#L" n="30"/>sunt aliae adversitates praeter mortem, quas 
+            ali<lb break="no" ed="#L" n="31"/>qui possunt sustinere pro fide Christi: sicut  
+            car<lb break="no" ed="#L" n="32"/>cerem, exilium, rapinam bonorum, ut patet ad
+            <lb ed="#L" n="33"/>Heb. x . Unde et sancti Marcelli Papae 
+            marty<lb break="no" ed="#L" n="34"/>rium celebratur, qui tamen fuit in carcere 
+            mor<lb break="no" ed="#L" n="35"/>tuus , Ergo non est de necessitate martyrii quod
+            <lb ed="#L" n="36"/>aliquis sustineat poenam mortis.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e966">
+            <lb ed="#L" n="37"/>4. PRAETEREA, martyrium est actus meritorius,
+            <lb ed="#L" n="38"/>ut dictum est . Sed actus meritorius non potest
+            <lb ed="#L" n="39"/>esse post mortem. Ergo ante mortem. Et ita mors
+            <lb ed="#L" n="40"/>non est de ratione martyrii.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e977">
+            <lb ed="#L" n="41"/>SEp coNTRA EsT quod Maximus dicit, in 
+            quo<lb break="no" ed="#L" n="42"/>dam sermone , de martyre, quod vincit pro fide
+            <lb ed="#L" n="43"/>moriendo qui vinceretur sine fide vivendo.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e986">
+            <lb ed="#L" n="44"/>RESPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="45"/>martyr dicitur quasi testis fidei Christianae, per
+            <lb ed="#L" n="46"/>quam nobis visibilia pro invisibilibus contemnenda
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="47"/>proponuntur, ut dicitur <ref xml:id="TAca84-d1e1913-Rd1e999">Heb. XI</ref> . Ad martyrium  
+            <lb ed="#L" n="48"/>ergo pertinet ut homo testificetur fidem, se opere
+            <lb ed="#L" n="49"/>ostendens cuncta praesentia contemnere, ut ad
+            <lb ed="#L" n="50"/>futura et ad invisibilia bona perveniat. Quandiu
+            <lb ed="#L" n="51"/>autem homini remanet vita corporalis, nondum
+            <lb ed="#L" n="52"/>opere se ostendit temporalia ? cuncta despicere:
+            <lb ed="#L" n="53"/>consueverunt enim homines et consanguineos et
+            <lb ed="#L" n="54"/>omnia bona possessa contemnere, et etiam 
+            do<lb break="no" ed="#L" n="55"/>lores corporis pati, ut vitam conservent. Unde
+            <lb ed="#L" n="56"/>et Satan contra Iob induxit : Pellem pro pelle:
+            <lb ed="#L" n="57"/>et cuncta quae habet homo, dabit pro anima sua,
+            <lb ed="#L" n="58"/>idest pro vita corporali. Et ideo ad perfectam
+            <lb ed="#L" n="59"/>rationem martyrii requiritur quod aliquis mortem
+            <lb ed="#L" n="60"/>sustineat propter Christum.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e1030">
+            <lb ed="#L" n="61"/>AD PRIMUM ERGO DICENDUM quod illae 
+            auctori<lb break="no" ed="#L" n="62"/>tates, et si quae similes inveniuntur, loquuntur
+            <lb ed="#L" n="63"/>de martyrio per quandam similitudinem.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e1039">
+            <lb ed="#L" n="64"/>AD SECUNDUM DICENDUM quod in muliere quae
+            <lb ed="#L" n="65"/>integritatem carnis perdit, vel ad perdendum eam
+            <lb ed="#L" n="66"/>damnatur, occasione fidei Christianae, non est
+            <lb ed="#L" n="67"/>apud homines manifestum utrum hoc mulier 
+            pa<lb break="no" ed="#L" n="68"/>tiatur propter amorem fidei Christianae, vel 
+            ma<lb break="no" ed="#L" n="69"/>gis pro contemptu castitatis. Et ideo apud 
+            homi<lb break="no" ed="#L" n="70"/>nes non redditur per hoc testimonium sufficiens.
+            <lb ed="#L" n="71"/>Unde hoc non proprie habet rationem martyrii.
+            <lb ed="#L" n="72"/>Sed apud Deum, qui corda scrutatur  , potest
+            <lb ed="#L" n="73"/>hoc ad praemium deputari, sicut Lucia dixit.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e1064">
+            <lb ed="#L" n="74"/>AD TERTIUM DICENDUM quod, sicut supra  di- ver.
+            <lb ed="#L" n="75"/>ctum est, fortitudo principaliter consistit circa 
+            pe<lb break="no" ed="#L" n="76"/>ricula mortis, circa alia autem consequenter. Et
+            <lb ed="#L" n="77"/>ideo nec martyrium proprie dicitur pro sola 
+            to<lb break="no" ed="#L" n="78"/>lerantia carceris vel exilii vel rapinae divitiarum:
+            <lb ed="#L" n="79"/>nisi forte secundum quod ex his sequitur mors.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e1080">
+            <lb ed="#L" n="80"/>AD QUARTUM DICENDUM quod meritum martyrii
+            <lb ed="#L" n="81"/>non est post mortem, sed in ipsa voluntaria 
+            sus<lb break="no" ed="#L" n="82"/>tinentia mortis: prout scilicet aliquis voluntarie
+            <lb ed="#L" n="83"/>patitur inflictionem mortis. Contingit tamen 
+            quan<lb break="no" ed="#L" n="84"/>doque quod aliquis post mortalia vülnera 
+            susce<lb break="no" ed="#L" n="85"/>pta pro Christo, vel quascumque alias 
+            tribula<lb break="no" ed="#L" n="86"/>tiones continuatas usque ad mortem, quas a 
+            per<lb break="no" ed="#L" n="87"/>secutoribus patitur pro fide Christi, diu aliquis 
+            <lb ed="#L" n="88"/>vivat. In quo statu actus martyrii meritorius est:
+            <lb ed="#L" n="89"/>et etiam ipso eodem tempore quo huiusmodi 
+            af<lb break="no" ed="#L" n="90"/>flictiones patitur.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1913-Dd1e1107"><!-- p2p2-q124a5 -->
+          <head xml:id="TAca84-d1e1913-Hd1e1110">Articulus 5</head>
+          <head xml:id="TAca84-d1e1913-Hd1e1112" type="question-title">Utrum sola fides sit causa martyrii</head>
+          <p xml:id="TAca84-d1e1913-d1e1115">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="29" type="fixed=40"/>ARTICULUS QUINTUS
+            <lb ed="#L" n="30"/>UTRUM SOLA FIDES SIT CAUSA MARTYRII
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e1124">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="31"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="32"/>sola fides sit causa martyrii. Dicitur
+            <lb ed="#L" n="33"/>enim 1 Pet. iv : Nemo vestrum patiatur
+            <lb ed="#L" n="34"/>quasi homicida aut fur, aut aliquid 
+            hu<lb break="no" ed="#L" n="35"/>iusmodi: s autem ut Christianus, non erubescat,
+            <lb ed="#L" n="36"/>glorificet autem Deum in isto  nomine. Sed ex
+            <lb ed="#L" n="37"/>hoc dicitur aliquis Christianus quod tenet fidem
+            <lb ed="#L" n="38"/>Christi. Ergo sola fides Christi dat patientibus
+            <lb ed="#L" n="39"/>martyrii gloriam.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e1148">
+            <lb ed="#L" n="40"/>2. PRAETEREA, 7"ariyr dicitur quasi festis. 
+            Te<lb break="no" ed="#L" n="41"/>stimonium autem non redditur nisi veritati. Non
+            <lb ed="#L" n="42"/>autem aliquis dicitur martyr ex testimonio 
+            cu<lb break="no" ed="#L" n="43"/>iuslibet veritatis, sed solum ex testimonio 
+            veri<lb break="no" ed="#L" n="44"/>tatis divinae. Alioquin, si quis moreretur pro 
+            con<lb break="no" ed="#L" n="45"/>fessione veritatis geometriae 5, vel alterius 
+            scien<lb break="no" ed="#L" n="46"/>tiae speculativae, esset martyr: quod videtur
+            <lb ed="#L" n="47"/>ridiculum . Ergo sola fides est martyrii causa.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e1169">
+            <lb ed="#L" n="48"/>3. PRAETEREA, inter alia virtutum opera illa
+            <lb ed="#L" n="49"/>videntur esse potiora quae ordinantur ad bonum
+            <lb ed="#L" n="50"/>commune: quia bonum gentis melius est quam
+            <lb ed="#L" n="51"/>bonum unius hominis, secundum Philosophum,
+            <lb ed="#L" n="52"/>in I Ethic.  Si ergo aliquod aliud bonum esset
+            <lb ed="#L" n="53"/>causa martyrii, maxime videretur quod illi. 
+            mar<lb break="no" ed="#L" n="54"/>tyres essent qui pro defensione reipublicae 
+            mo<lb break="no" ed="#L" n="55"/>runtur. Quod Ecclesiae observatio non habet:
+            <lb ed="#L" n="56"/>non enim militum qui in bello iusto moriuntur
+            <lb ed="#L" n="57"/>martyria celebrantur. Ergo sola fides videtur esse
+            <lb ed="#L" n="58"/>martyrii causa.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e1195">
+            <lb ed="#L" n="59"/>SEp cowNTRA EsT quod dicitur Matth. v : Beati
+            <lb ed="#L" n="60"/>qui persecutionem patiuntur propter iustitiam : quod
+            <lb ed="#L" n="61"/>pertinet ad. martyrium, ut Glossa  ibidem dicit.
+            <lb ed="#L" n="62"/>Ad iustitiam autem pertinet non solum fides,
+            <lb ed="#L" n="63"/>sed etiam aliae virtutes. Ergo etiam aliae 
+            virtu<lb break="no" ed="#L" n="64"/>tes possunt esse martyrii causa.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e1211">
+            <lb ed="#L" n="65"/>RESPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="66"/>martyres dicuntur quasi /estes: quia scilicet 
+            cor<lb break="no" ed="#L" n="67"/>poralibus suis passionibus usque ad mortem 
+            te<lb break="no" ed="#L" n="68"/>stimonium perhibent veritati, non cuicumque, sed
+            <lb ed="#L" n="69"/>veritati quae secundum pietatem est , quae per
+            <lb ed="#L" n="70"/>Christum nobis innotuit; unde et martyres Chri-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="71"/>sti dicuntur, quasi testes ipsius. Huiusmodi autem
+            <lb ed="#L" n="72"/>est veritas fidei, Et ideo cuiuslibet martyrii causa
+            <lb ed="#L" n="73"/>est fidei veritas. - Sed ad fidei veritatem non 
+            so<lb break="no" ed="#L" n="74"/>lum pertinet ipsa credulitas cordis, sed etiam
+            <lb ed="#L" n="75"/>exterior protestatio. Quae quidem fit non solum
+            <lb ed="#L" n="76"/>per verba quibus aliquis confitetur fidem, sed
+            <lb ed="#L" n="77"/>etiam per facta quibus aliquis fidem se habere
+            <lb ed="#L" n="78"/>ostendit: secundum illud lac. i1 : Ego ostendam
+            <lb ed="#L" n="79"/>libi ex operibus fidem meam. Unde et de 
+            qui<lb break="no" ed="#L" n="80"/>busdam dicitur 7i. :1: Confitentur ? se nosse
+            <lb ed="#L" n="81"/>Deum, factis autem. negant. Et ideo omnium 
+            vir<lb break="no" ed="#L" n="82"/>tutum opera, secundum quod referuntur in Deum,
+            <lb ed="#L" n="83"/>sunt quaedam protestationes fidei, per quam 
+            no<lb break="no" ed="#L" n="84"/>bis innotescit quod Deus huiusmodi opera a nobis
+            <lb ed="#L" n="85"/>requirit, et nos pro eis remunerat. Et secundum
+            <lb ed="#L" n="86"/>hoc possunt esse martyrii causa. Unde et beati
+            <lb ed="#L" n="87"/>loannis Baptistae martyrium in Ecclesia 
+            cele<lb break="no" ed="#L" n="88"/>bratur, qui non pro neganda fide, sed pro 
+            re<lb break="no" ed="#L" n="89"/>prehensione adulterii  mortem sustinuit ,
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e1270">
+            <lb ed="#L" n="90"/>AD PRIMUM ERGO DICENDUM quod Christianus 
+            di<lb break="no" ed="#L" n="91"/>citur qui Christi est. Dicitur autem aliquis esse
+            <lb ed="#L" n="92"/>Christi non solum ex eo quod habet fidem 
+            Chri<lb break="no" ed="#L" n="93"/>sti, sed etiam ex eo quod Spiritu Christi ad opera
+            <lb ed="#L" n="94"/>virtuosa procedit, secundum illud Rom. vir :
+            <lb ed="#L" n="95"/>Si quis Spiritum Christi non habet, hic non est
+            <lb ed="#L" n="96"/>eius; et etiam ex hoc quod, ad imitationem 
+            Chri<lb break="no" ed="#L" n="97"/>sti, peccatis moritur, secundum illud Gaj/at. v :
+            <lb ed="#L" n="98"/>Qui Christi sunt, carnem suam crucifixerunt, cum
+            <lb ed="#L" n="99"/>vitiis et concupiscentiis, Et ideo ut Christianus
+            <lb ed="#L" n="100"/>patitur non solum qui patitur pro fidei 
+            confes<lb break="no" ed="#L" n="101"/>sione quae fit per verba, sed etiam quicumque
+            <lb ed="#L" n="102"/>patitur pro quocumque bono opere  faciendo,
+            <lb ed="#L" n="103"/>vel pro quocumque peccato vitando, propter
+            <lb ed="#L" n="104"/>Christum: quia totum hoc pertinet ad fidei 
+            pro<lb break="no" ed="#L" n="105"/>testationem.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e1307">
+            <lb ed="#L" n="106"/>Ab SECUNDUM DICENDUM quod veritas aliarum
+            <lb ed="#L" n="107"/>scientiarum non pertinet ad cultum divinitatis.
+            <lb ed="#L" n="108"/>Et ideo non dicitur esse  secundum pietatem .
+            <lb ed="#L" n="109"/>Unde nec eius confessio potest esse directe 
+            marty<lb break="no" ed="#L" n="110"/>rii causa. - Sed quia omne mendacium peccatum
+            <pb ed="#L" n="41"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>est, ut supra  habitum est, vitatio mendacii, 
+            con<lb break="no" ed="#L" n="2"/>tra quamcumque veritatem sit, inquantum 
+            men<lb break="no" ed="#L" n="3"/>dacium est peccatum "^ divinae legi contrarium,
+            <lb ed="#L" n="4"/>potest esse martyrii causa.
+          </p>
+          <p xml:id="TAca84-d1e1913-d1e1333">
+            <lb ed="#L" n="5"/>AD TERTIUM. DICENDUM quod bonum reipublicae
+            <lb ed="#L" n="6"/>est praecipuum inter bona humana. Sed bonum
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="7"/>divinum, quod est propria causa martyrii, est 
+            po<lb break="no" ed="#L" n="8"/>tius quam humanum. - Quia tamen bonum 
+            hu<lb break="no" ed="#L" n="9"/>manum potest effici divinum, ut si referatur in
+            <lb ed="#L" n="10"/>Deum; potest esse quodcumque bonum 
+            huma<lb break="no" ed="#L" n="11"/>num martyrii. causa. secundum quod in Deum
+            <lb ed="#L" n="12"/>refertur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

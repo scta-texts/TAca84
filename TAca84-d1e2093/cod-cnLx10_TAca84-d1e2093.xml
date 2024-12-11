@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 159</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 159</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="285"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2093"><!-- p2p2-q159 -->
+        <head xml:id="TAca84-d1e2093-Hd1e101">Quaestio 159</head>
+        <head xml:id="TAca84-d1e2093-Hd1e103" type="question-title">De crudelitate</head>
+        <p xml:id="TAca84-d1e2093-d1e106">
+          <pb ed="#L" n="285"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=285"/>QUAESTIO CENTESIMAQUINQUAGESIMANONA
+          <lb ed="#L" n="2"/>DE CRUDELITATE
+          <lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2093-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de crudelitate .
+          <lb ed="#L" n="5"/>Et circa hoc quaeruntur duo.
+          <lb ed="#L" n="6"/>Primo: utrum crudelitas opponatur clementiae.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="7"/>Secundo: de comparatione eius ad saevitiam
+          <lb ed="#L" n="8"/>vel feritatem.
+        </p>
+        <div xml:id="TAca84-d1e2093-Dd1e137"><!-- p2p2-q159a1 -->
+          <head xml:id="TAca84-d1e2093-Hd1e140">Articulus 1</head>
+          <head xml:id="TAca84-d1e2093-Hd1e142" type="question-title">Utrum crudelitas opponatur clementiae</head>
+          <p xml:id="TAca84-d1e2093-d1e145">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="9" type="fixed=285"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="10"/>UTRUM CRUDELITAS OPPONATUR CLEMENTIAE
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e154">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="11"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="12"/>crudelitas non opponatur clementiae.
+            <lb ed="#L" n="13"/>Dicit enim Seneca, in II de Clement. ,
+            <lb ed="#L" n="14"/>quod illi vocantur crudeles qui 
+            exce<lb break="no" ed="#L" n="15"/>dunt modum in puniendo: quod. contrariatur 
+            iu<lb break="no" ed="#L" n="16"/>stitiae. Clementia autem non ponitur pars 
+            iusti<lb break="no" ed="#L" n="17"/>tiae, sed temperantiae. Ergo crudelitas non 
+            vi<lb break="no" ed="#L" n="18"/>detur opponi clementiae.
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e176">
+            <lb ed="#L" n="19"/>2. PRAETEREA, lerem. vi  dicitur: Crudelis est,
+            <lb ed="#L" n="20"/>et non miserebitur: et sic videtur quod 
+            crudeli<lb break="no" ed="#L" n="21"/>tas opponatur misericordiae. Sed misericordia
+            <lb ed="#L" n="22"/>non est idem clementiae, ut supra  dictum est.
+            <lb ed="#L" n="23"/>Ergo crudelitas non opponitur clementiae.
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e190">
+            <lb ed="#L" n="24"/>3. PRAETEREA, clementia consideratur circa 
+            in<lb break="no" ed="#L" n="25"/>flictionem poenarum, ut dictum est . Sed 
+            cru<lb break="no" ed="#L" n="26"/>delitas consideratur etiam in subtractione 
+            bene<lb break="no" ed="#L" n="27"/>ficiorum: secundum illud Proverb. x1 : Qui 
+            cru<lb break="no" ed="#L" n="28"/>delis est, propinquos abiicit. Ergo crudelitas non
+            <lb ed="#L" n="29"/>opponitur clementiae.
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e206">
+            <lb ed="#L" n="30"/>SED coNTRA EsT quod dicit Seneca, in Il de
+            <lb ed="#L" n="31"/>Clement. , quod opponitur clementiae crudelitas,
+            <lb ed="#L" n="32"/>quae nihil aliud est quam atrocitas animi in 
+            exi<lb break="no" ed="#L" n="33"/>gendis poenis.
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e217">
+            <lb ed="#L" n="34"/>RESPONDEO DICENDUM quod nomen crudelitatis
+            <lb ed="#L" n="35"/>a cruditate  sumptum esse videtur. Sicut autem
+            <lb ed="#L" n="36"/>ea quae sunt decocta P et digesta, solent habere
+            <lb ed="#L" n="37"/>suavem et dulcem saporem; ita illa quae sunt
+            <lb ed="#L" n="38"/>cruda, habent horribilem et asperum saporem.
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e230">
+            <lb ed="#L" n="39"/>Dictum est autem supra  quod clementia 
+            im<lb break="no" ed="#L" n="40"/>portat quandam animi lenitatem sive dulcedinem,
+            <lb ed="#L" n="41"/>per quam aliquis est diminutivus poenarum. Unde
+            <lb ed="#L" n="42"/>directe crudelitas clementiae opponitur.
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e241">
+            <lb ed="#L" n="43"/>AD PRIMUM ERGO DICENDUM quod, sicut 
+            diminu<lb break="no" ed="#L" n="44"/>tio poenarum quae est secundum rationem, 
+            per<lb break="no" ed="#L" n="45"/>tinet ad epieikeiam, sed ipsa dulcedo affectus ex
+            <lb ed="#L" n="46"/>qua homo ad hoc inclinatur, pertinet ad 
+            clemen<lb break="no" ed="#L" n="47"/>tiam; ita etiam superexcessus poenarum, 
+            quan<lb break="no" ed="#L" n="48"/>tum ad id quod exterius agitur, pertinet ad 
+            in<lb break="no" ed="#L" n="49"/>iustitiam; sed quantum ad austeritatem animi
+            <lb ed="#L" n="50"/>per quam aliquis fit promptus ad poenas 
+            augen<lb break="no" ed="#L" n="51"/>das, pertinet ad crudelitatem.
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e263">
+            <lb ed="#L" n="52"/>AD SECUNDUM DICENDUM quod misericordia et
+            <lb ed="#L" n="53"/>clementia conveniunt in hoc quod utraque 
+            refu<lb break="no" ed="#L" n="54"/>git et abhorret miseriam alienam: aliter tamen
+            <lb ed="#L" n="55"/>et aliter. Nam ad misericordiam pertinet 
+            mise<lb break="no" ed="#L" n="56"/>riae subvenire per beneficii collationem: ad 
+            cle<lb break="no" ed="#L" n="57"/>mentiam autem pertinet miseriam diminuere per
+            <lb ed="#L" n="58"/>subtractionem poenarum. Et quia crudelitas 
+            su<lb break="no" ed="#L" n="59"/>perabundantiam in exigendis poenis importat, 
+            di<lb break="no" ed="#L" n="60"/>rectius opponitur clementiae quam misericordiae.
+            <lb ed="#L" n="61"/>Tamen, propter similitudinem harum virtutum, 
+            ac<lb break="no" ed="#L" n="62"/>cipitur quandoque crudelitas pro immisericordia.
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e290">
+            <lb ed="#L" n="63"/>AD TERTIUM DICENDUM quod crudelitas ibi 
+            acci<lb break="no" ed="#L" n="64"/>pitur pro immisericordia, ad quam pertinet 
+            bene<lb break="no" ed="#L" n="65"/>fida non largiri. - Quamvis etiam dici possit
+            <lb ed="#L" n="66"/>quod ipsa beneficii subtractio quaedam poena est.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2093-Dd1e303"><!-- p2p2-q159a2 -->
+          <head xml:id="TAca84-d1e2093-Hd1e306">Articulus 2</head>
+          <head xml:id="TAca84-d1e2093-Hd1e308" type="question-title">Utrum crudelitas a saevitia sive feritate differat</head>
+          <p xml:id="TAca84-d1e2093-d1e311">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="89" type="fixed=286"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="90"/>UTRUM CRUDELITAS A SAEVITIA SIVE FERITATE DIFFERAT
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e320">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="91"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="92"/>crudelitas a saevitia sive feritate non
+            <lb ed="#L" n="93"/>differat. Uni enim virtuti, ex una parte,
+            <lb ed="#L" n="94"/>2Nyunum vitium videtur esse oppositum.
+            <lb ed="#L" n="95"/>Sed clementiae per superabundantiam opponitur
+            <lb ed="#L" n="96"/>et crudelitas et saevitia. Ergo videtur quod 
+            sae<lb break="no" ed="#L" n="97"/>vitia et crudelitas sint idem.
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e340">
+            <lb ed="#L" n="98"/>2. PRAETEREA, Isidorus dicit, in libro Etymol. ,
+            <lb ed="#L" n="99"/>quod severus dicitur quasi saevus et verus, quia
+            <lb ed="#L" n="100"/>sine pietate tenet iustitiam: et sic saevitia 
+            vide<lb break="no" ed="#L" n="101"/>tur excludere remissionem poenarum in iudiciis,
+            <lb ed="#L" n="102"/>quod pertinet ad pietatem. Hoc autem  dictum
+            <lb ed="#L" n="103"/>est  ad crudelitatem pertinere. Ergo crudelitas
+            <lb ed="#L" n="104"/>est idem quod saevitia.
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e359">
+            <lb ed="#L" n="105"/>3. PRAETEREA, sicut virtuti opponitur aliquod
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="106"/>vitium in excessu, ita etiam et in defectu: quod
+            <lb ed="#L" n="107"/>quidem contrariatur et virtuti, quae est in medio,
+            <lb ed="#L" n="108"/>et vitio quod est in excessu. Sed idem vitium
+            <lb ed="#L" n="109"/>ad defectum pertinens opponitur et crudelitati et
+            <lb ed="#L" n="110"/>saevitiae, videlicet remissio vel dissolutio: dicit
+            <lb ed="#L" n="111"/>enim Gregorius, XX Moral. : Sit amor, sed non
+            <lb ed="#L" n="112"/>emolliens: sit rigor, sed non exasperans. Sit 
+            xe<lb break="no" ed="#L" n="113"/>lus, sed non immoderate saeviens: sit pietas, sed
+            <lb ed="#L" n="114"/>non plus quam expediat parcens. Ergo saevitia
+            <lb ed="#L" n="115"/>est idem crudelitati,
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e388">
+            <lb ed="#L" n="116"/>SEp coNTRA EsT quod Seneca dicit, in II de 
+            Cle<lb break="no" ed="#L" n="117"/>ment. , quod ille qui non laesus , nec peccatori
+            <lb ed="#L" n="118"/>irascitur, non dicitur crudelis, sed ferus sive saevus.
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e397">
+            <lb ed="#L" n="119"/>RESPONDEO DICENDUM quod nomen saevitiae et
+            <lb ed="#L" n="120"/>feritatis a similitudine ferarum accipitur, quae
+            <pb ed="#L" n="287"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>etiam saevae dicuntur. Huiusmodi enim animalia
+            <lb ed="#L" n="2"/>nocent hominibus ut ex eorum corporibus 
+            pa<lb break="no" ed="#L" n="3"/>scantur: non ex aliqua iustitiae causa, cuius 
+            con<lb break="no" ed="#L" n="4"/>sideratio pertinet ad solam rationem. Et ideo,
+            <lb ed="#L" n="5"/>proprie loquendo, feritas vel saevitia dicitur 
+            se<lb break="no" ed="#L" n="6"/>cundum quam aliquis in poenis. inferendis. non
+            <lb ed="#L" n="7"/>considerat aliquam culpam eius qui punitur, sed
+            <lb ed="#L" n="8"/>solum hoc quod delectatur in hominum cruciatu.
+            <lb ed="#L" n="9"/>Et sic patet quod continetur sub bestialitate: nam
+            <lb ed="#L" n="10"/>talis delectatio non est humana, sed bestialis, 
+            pro<lb break="no" ed="#L" n="11"/>veniens vel  ex mala consuetudine vel ex 
+            cor<lb break="no" ed="#L" n="12"/>ruptione naturae, sicut et aliae huiusmodi 
+            bestia<lb break="no" ed="#L" n="13"/>les affectiones. Sed crudelitas attendit ? culpam
+            <lb ed="#L" n="14"/>in eo qui punitur, sed excedit modum in 
+            pu<lb break="no" ed="#L" n="15"/>niendo. Et ideo crudelitas differt a saevitia sive
+            <lb ed="#L" n="16"/>feritate sicut malitia humana a bestialitate, ut
+            <lb ed="#L" n="17"/>dicitur in VII. Ethic. 
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e445">
+            <lb ed="#L" n="18"/>AD PRIMUM ERGO DICENDUM quod clementia est
+            <lb ed="#L" n="19"/>virtus hümana: unde directe sibi opponitur cru-
+            <lb ed="#L" n="20"/>delitas, quae est malitia humana. Sed saevitia vel
+            <lb ed="#L" n="21"/>feritas continetur sub bestialitate. Unde non 
+            di<lb break="no" ed="#L" n="22"/>recte opponitur clementiae, sed superexcellentiori
+            <lb ed="#L" n="23"/>virtuti, quam Philosophus  vocat heroicam vel
+            <lb ed="#L" n="24"/>divinam , quae secundum nos videtur pertinere
+            <lb ed="#L" n="25"/>ad dona Spiritus Sancti. Unde potest dici quod
+            <lb ed="#L" n="26"/>saevitia directe opponitur dono pietatis.
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e467">
+            <lb ed="#L" n="27"/>AD SECUNDUM DICENDUM quod severus non 
+            di<lb break="no" ed="#L" n="28"/>citur simpliciter saevus, quia hoc sonat in vitium:
+            <lb ed="#L" n="29"/>sed dicitur saevus circa veritatem , propter 
+            ali<lb break="no" ed="#L" n="30"/>quam similitudinem saevitiae, quae non est 
+            di<lb break="no" ed="#L" n="31"/>minutiva poenarum.
+          </p>
+          <p xml:id="TAca84-d1e2093-d1e480">
+            <lb ed="#L" n="32"/>AD TERTIUM DICENDUM quod remissio in puniendo
+            <lb ed="#L" n="33"/>non est vitium nisi inquantum praetermittitur ordo
+            <lb ed="#L" n="34"/>iustitiae, quo aliquis debet ^ puniri propter 
+            cul<lb break="no" ed="#L" n="35"/>pam, quam excedit crudelitas. Saevitia autem 
+            pe<lb break="no" ed="#L" n="36"/>nitus hunc ordinem non attendit. Unde remissio
+            <lb ed="#L" n="37"/>punitionis directe opponitur crudelitati, non 
+            au<lb break="no" ed="#L" n="38"/>tem saevitiae.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 127</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 127</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="49"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e1928"><!-- p2p2-q127 -->
+        <head xml:id="TAca84-d1e1928-Hd1e101">Quaestio 127</head>
+        <head xml:id="TAca84-d1e1928-Hd1e103" type="question-title">De audacta</head>
+        <p xml:id="TAca84-d1e1928-d1e106">
+          <pb ed="#L" n="49"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=49"/>QUAESTIO CENTESIMAVIGESIMASEPTIMA
+          <lb ed="#L" n="2"/>DE AUDACTA
+          <lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e1928-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de audacia .
+          <lb ed="#L" n="5"/>Et circa hoc quaeruntur duo.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="6"/>Primo: utrum audacia sit peccatum.
+          <lb ed="#L" n="7"/>Secundo: utrum opponatur fortitudini.
+        </p>
+        <div xml:id="TAca84-d1e1928-Dd1e135"><!-- p2p2-q127a1 -->
+          <head xml:id="TAca84-d1e1928-Hd1e138">Articulus 1</head>
+          <head xml:id="TAca84-d1e1928-Hd1e140" type="question-title">Utrum audacia sit peccatum</head>
+          <p xml:id="TAca84-d1e1928-d1e143">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="8" type="fixed=49"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="9"/>UTRUM AUDACIA SIT PECCATUM
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e152">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="10"/>AD PRIMUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="11"/>audacia non sit peccatum. Dicitur enim 
+            <lb ed="#L" n="12"/>Iob xxxix, de equo, per quem 
+            signi<lb break="no" ed="#L" n="13"/>ficatur bonus praedicator, secundum 
+            <lb ed="#L" n="14"/>cessa. in Moral., quod audacter in 
+            occur<lb break="no" ed="#L" n="15"/>sum pergit armatis. Sed nullum vitium cedit in
+            <lb ed="#L" n="16"/>commendationem alicuius. Ergo esse audacem 
+            <lb ed="#L" n="17"/>non est peccatum. 
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e174">
+            <lb ed="#L" n="18"/>2. PRAETEREA, sicut Philosophus dicit, in VI 
+            <lb ed="#L" n="19"/>Ethic., oportet consiliari quidem tarde, operari 
+            <lb ed="#L" n="20"/>autem velociter consiliata. Sed ad hanc 
+            velocita<lb break="no" ed="#L" n="21"/>tem operandi iuvat audacia. Ergo audacia non
+            <lb ed="#L" n="22"/>est peccatum, sed magis aliquid laudabile.
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e188">
+            <lb ed="#L" n="23"/>3. PRAETEREA, audacia est quaedam passio
+            <lb ed="#L" n="24"/>quae causatur a spe, ut supra  habitum est, cum
+            <lb ed="#L" n="25"/>de passionibus ageretur. Sed spes non ponitur
+            <lb ed="#L" n="26"/>peccatum, sed magis virtus. Ergo nec audacia
+            <lb ed="#L" n="27"/>debet poni peccatum.
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e201">
+            <lb ed="#L" n="28"/>SED CONTRA EST quod dicitur Eccl. vm : 
+            <lb ed="#L" n="29"/>Cum audace non eas in via: ne forte gravet
+            <lb ed="#L" n="30"/>mala sua in te. Nullius autem societas est 
+            decli<lb break="no" ed="#L" n="31"/>nanda nisi propter peccatum. Ergo audacia est
+            <lb ed="#L" n="32"/>peccatum.
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e214">
+            <lb ed="#L" n="33"/>RESPONDEO DICENDUM quod audacia, sicut supra 
+            <lb ed="#L" n="34"/>dictum est, est passio quaedam. Passio autem
+            <lb ed="#L" n="35"/>quandoque quidem est moderata secundum 
+            ratio<lb break="no" ed="#L" n="36"/>nem: quandoque autem caret modo rationis , vel
+            <lb ed="#L" n="37"/>per excessum vel per defectum; et secundum
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="38"/>hoc est passio vitiosa. Sumuntur autem 
+            quando<lb break="no" ed="#L" n="39"/>que nomina passionum a superabundanti: sicut
+            <lb ed="#L" n="40"/>ira dicitur non quaecumque, sed superabundans,
+            <lb ed="#L" n="41"/>prout scilicet est vitiosa. Et hoc etiam modo 
+            au<lb break="no" ed="#L" n="42"/>dacia, per superabundantiam dicta, ponitur esse
+            <lb ed="#L" n="43"/>peccatum.
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e243">
+            <lb ed="#L" n="44"/>AD PRIMUM ERGO DICENDUM quod audacia ibi 
+            su<lb break="no" ed="#L" n="45"/>mitur secundum quod est moderata ratione. Sic
+            <lb ed="#L" n="46"/>enim pertinet ad virtutem fortitudinis.
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e252">
+            <lb ed="#L" n="47"/>AD SECUNDUM DICENDUM quod operatio festina
+            <lb ed="#L" n="48"/>commendabilis est post consilium, quod est actus
+            <lb ed="#L" n="49"/>rationis. Sed si quis ante consilium vellet festine
+            <lb ed="#L" n="50"/>agere, non esset hoc laudabile, sed? vitiosum:
+            <lb ed="#L" n="51"/>esset enim quaedam praecipitatio actionis, quod
+            <lb ed="#L" n="52"/>est vitium prudentiae oppositum, ut supra  
+            di<lb break="no" ed="#L" n="53"/>ctum est. Et ideo audacia, quae operatur ad 
+            ve<lb break="no" ed="#L" n="54"/>locitatem operandi, intantum laudabilis est 
+            in<lb break="no" ed="#L" n="55"/>quantum a ratione ordinatur.
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e274">
+            <lb ed="#L" n="56"/>AD TERTIUM DICENDUM quod quaedam vitia 
+            in<lb break="no" ed="#L" n="57"/>nominata sunt, et similiter quaedam virtutes: ut
+            <lb ed="#L" n="58"/>patet per Philosophum, in IV Ethic. Et ideo
+            <lb ed="#L" n="59"/>oportuit quibusdam passionibus uti nomine 
+            vir<lb break="no" ed="#L" n="60"/>tutum et vitiorum. Praecipue autem illis 
+            passio<lb break="no" ed="#L" n="61"/>nibus utimur ad vitia designanda quarum ! 
+            ob<lb break="no" ed="#L" n="62"/>iectum est malum: sicut patet de odio, timore
+            <lb ed="#L" n="63"/>et ira, et etiam audacia. Spes autem et amor 
+            ha<lb break="no" ed="#L" n="64"/>bent bonum pro obiecto. Et ideo magis eis 
+            uti<lb break="no" ed="#L" n="65"/>mur ad designanda nomina virtutum.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1928-Dd1e300"><!-- p2p2-q127a2 -->
+          <head xml:id="TAca84-d1e1928-Hd1e303">Articulus 2</head>
+          <head xml:id="TAca84-d1e1928-Hd1e305" type="question-title">Utrum audacia opponatur fortitudini</head>
+          <p xml:id="TAca84-d1e1928-d1e308">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="66" type="fixed=49"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="67"/>UTRUM AUDACIA OPPONATUR FORTITUDINI
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e317">
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="68"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="69"/>audacia non opponatur fortitudini. 
+            Su<lb break="no" ed="#L" n="70"/>perfluitas enim audaciae videtur ex 
+            ani<lb break="no" ed="#L" n="71"/>mi praesumptione procedere. Sed 
+            prae<lb break="no" ed="#L" n="72"/>sumptio pertinet ad superbiam, quae opponitur 
+            <lb ed="#L" n="73"/>humilitati; Ergo audacia magis opponitur 
+            humi<lb break="no" ed="#L" n="74"/>litati quam fortitudini.
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e337">
+            <lb ed="#L" n="75"/>2. PRAETEREA, audacia non videtur esse 
+            vitu<lb break="no" ed="#L" n="76"/>perabilis nisi inquantum ex ea provenit vel 
+            no<lb break="no" ed="#L" n="77"/>cumentum- aliquod ipsi audaci, qui se periculis 
+            <lb ed="#L" n="78"/>inordinate ingerit; vel etiam aliis, quos per 
+            au<lb break="no" ed="#L" n="79"/>daciam aggreditur vel in pericula praecipitat. Sed
+            <lb ed="#L" n="80"/>hoc videtur ad iniustitiam pertinere. Ergo 
+            auda<lb break="no" ed="#L" n="81"/>cia, secundum quod est peccatum, non opponitur
+            <lb ed="#L" n="82"/>fortitudini, sed iustitiae.
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e358">
+            <lb ed="#L" n="83"/>3. PnaETEREA, fortitudo est et circa timores et
+            <lb ed="#L" n="84"/>circa audacias, ut supra  habitum est. Sed quia 'Qv exu, art
+            <lb ed="#L" n="85"/>timiditas opponitur fortitudini secundum exces- :
+            <lb ed="#L" n="86"/>sum timoris, habet aliud vitium oppositum 
+            timi<lb break="no" ed="#L" n="87"/>ditati secundum defectum timoris. Si ergo audacia
+            <pb ed="#L" n="50"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>opponatur fortitudini propter excessum audaciae,
+            <lb ed="#L" n="2"/>pari ratione opponetur ei aliquod vitium propter
+            <lb ed="#L" n="3"/>audaciae defectum. Sed hoc non invenitur. Ergo
+            <lb ed="#L" n="4"/>nec audacia debet poni vitium oppositum 
+            forti<lb break="no" ed="#L" n="5"/>tudini.
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e387">
+            <lb ed="#L" n="6"/>SEp coNTRA EsT quod Philosophus, in II et
+            <lb ed="#L" n="7"/>III  Ethic., ponit audaciam fortitudini 
+            oppo<lb break="no" ed="#L" n="8"/>sitam. -
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e396">
+            <lb ed="#L" n="9"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="10"/>est, ad virtutem moralem pertinet modum 
+            ratio<lb break="no" ed="#L" n="11"/>nis observare? in materia circa quam est. Et ideo
+            <lb ed="#L" n="12"/>omne vitium quod importat immoderantiam circa
+            <lb ed="#L" n="13"/>materiam alicuius virtutis moralis, opponitur illi
+            <lb ed="#L" n="14"/>virtuti morali sicut immoderatum moderato. 
+            Au<lb break="no" ed="#L" n="15"/>dacia autem, secundum quod sonat in vitium,
+            <lb ed="#L" n="16"/>importat excessum passionis quae? audacia 
+            dici<lb break="no" ed="#L" n="17"/>tur. Unde manifestum est quod opponitur virtuti
+            <lb ed="#L" n="18"/>fortitudinis , quae est circa timores et audacias,
+            <lb ed="#L" n="19"/>ut supra  dictum est.
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e422">
+            <lb ed="#L" n="20"/>AD PRIMUM ERGO DICENDUM quod oppositio vitii
+            <lb ed="#L" n="21"/>ad virtutem non attenditur principaliter secundum
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="22"/>causam vitii, sed secundum ipsam vitii speciem.
+            <lb ed="#L" n="23"/>Et ideo non oportet quod audacia opponatur 
+            ei<lb break="no" ed="#L" n="24"/>dem virtuti cui opponitur praesumptio, quae est
+            <lb ed="#L" n="25"/>causa ipsius.
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e440">
+            <lb ed="#L" n="26"/>AD SECUNDUM DICENDUM quod sicut directa 
+            op<lb break="no" ed="#L" n="27"/>positio vitii non attenditur circa eius causam, ita
+            <lb ed="#L" n="28"/>etiam non attenditur secundum eius effectum.
+            <lb ed="#L" n="29"/>Nocumentum autem quod provenit ex audacia
+            <lb ed="#L" n="30"/>est effectus ipsius. Unde nec etiam secundum
+            <lb ed="#L" n="31"/>hoc attenditur oppositio audaciae.
+          </p>
+          <p xml:id="TAca84-d1e1928-d1e456">
+            <lb ed="#L" n="32"/>AD TERTIUM DICENDUM quod motus audaciae
+            <lb ed="#L" n="33"/>consistit in invadendo id quod est homini 
+            contra<lb break="no" ed="#L" n="34"/>rium : ad quod natura inclinat, nisi inquantum 
+            ta<lb break="no" ed="#L" n="35"/>lis inclinatio impeditur per timorem patiendi 
+            no<lb break="no" ed="#L" n="36"/>cumentum ab eo. Et ideo vitium quod excedit
+            <lb ed="#L" n="37"/>in audacia non habet contrarium defectum nisi
+            <lb ed="#L" n="38"/>timiditatem tantum. - Sed audacia non semper
+            <lb ed="#L" n="39"/>concomitatur tantum defectum timiditatis. Quia
+            <lb ed="#L" n="40"/>sicut Philosophus dicit, in Ill Efhic., audaces
+            <lb ed="#L" n="41"/>sunt praevolantes et volentes ante pericula, sed
+            <lb ed="#L" n="42"/>in ipsis discedunt, scilicet prae timore.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

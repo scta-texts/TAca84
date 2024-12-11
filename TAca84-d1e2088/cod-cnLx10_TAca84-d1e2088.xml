@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 158</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 158</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="272"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2088"><!-- p2p2-q158 -->
+        <head xml:id="TAca84-d1e2088-Hd1e101">Quaestio 158</head>
+        <head xml:id="TAca84-d1e2088-Hd1e103" type="question-title">De iracundia</head>
+        <p xml:id="TAca84-d1e2088-d1e106">
+          <pb ed="#L" n="272"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=272"/>QUAESTIO CENTESIMAQUINQUAGESIMAOCTAVA
+          <lb ed="#L" n="2"/>DE IRACUNDIA
+          <lb ed="#L" n="3"/>IN OCTO ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2088-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de vitiis oppositis .
+          <lb ed="#L" n="5"/>Et primo, de iracundia, quae oppotisiar 
+          man<lb break="no" ed="#L" n="6"/>suetudini; secundo, de crudelitate , quae 
+          oppo<lb break="no" ed="#L" n="7"/>nitur clementiae.
+        </p>
+        <p xml:id="TAca84-d1e2088-d1e132">
+          <lb ed="#L" n="8"/>Circa iracundiam quaeruntur octo.
+          <lb ed="#L" n="9"/>Primo: utrum irasci possit aliquando esse 
+          li<lb break="no" ed="#L" n="10"/>citum.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="11"/>Secundo: utrum ira sit peccatum.
+          <lb ed="#L" n="12"/>Tertio: utrum sit peccatum mortale.
+          <lb ed="#L" n="13"/>Quarto: utrum sit gravissimum peccatorum.
+          <lb ed="#L" n="14"/>Quinto: de speciebus irae.
+          <lb ed="#L" n="15"/>Sexto: utrum ira sit vitium capitale.
+          <lb ed="#L" n="16"/>Septimo: quae sint filiae eius.
+          <lb ed="#L" n="17"/>Octavo: utrum habeat vitium oppositum.
+        </p>
+        <div xml:id="TAca84-d1e2088-Dd1e159"><!-- p2p2-q158a1 -->
+          <head xml:id="TAca84-d1e2088-Hd1e162">Articulus 1</head>
+          <head xml:id="TAca84-d1e2088-Hd1e164" type="question-title">Utrum irasci possit esse licitum</head>
+          <p xml:id="TAca84-d1e2088-d1e167">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="18" type="fixed=272"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="19"/>UTRUM IRASCI POSSIT ESSE LICITUM
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e176">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="20"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="21"/>irasci non possit esse licitum. 
+            Hierony<lb break="no" ed="#L" n="22"/>mus enim, exponens illud Matth. v ,
+            <lb ed="#L" n="23"/>Qui irascitur fratri suo etc., dicit: In
+            <lb ed="#L" n="24"/>quibusdam codicibus additur, « sine causa »: 
+            ce<lb break="no" ed="#L" n="25"/>terum in veris definita sententia est, et ira penitus
+            <lb ed="#L" n="26"/>tollitur. Ergo irasci nullo modo est licitum.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e196">
+            <lb ed="#L" n="27"/>2. PRAETEREA, secundum Dionysium, iv cap.
+            <lb ed="#L" n="28"/>de Div. Nom., malum. animae est sine ratione
+            <lb ed="#L" n="29"/>esse. Sed ira semper est sine ratione. Dicit enim
+            <lb ed="#L" n="30"/>Philosophus, in VII Ethic. , quod ira non 
+            per<lb break="no" ed="#L" n="31"/>fecte audit rationem. Et Gregorius dicit, V 
+            Mo<lb break="no" ed="#L" n="32"/>ral. , quod cum tranquillitatem mentis ira 
+            diver<lb break="no" ed="#L" n="33"/>berat, dilaniatam quodammodo scissamque 
+            per<lb break="no" ed="#L" n="34"/>turbat. Et Cassianus dicit, in libro de Institutis
+            <lb ed="#L" n="35"/>Coenobiorum  : Qualibet ex causa iracundiae 
+            mo<lb break="no" ed="#L" n="36"/>tus effervens, excaecat oculum cordis. Ergo irasci
+            <lb ed="#L" n="37"/>semper est malum.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e223">
+            <lb ed="#L" n="38"/>3. PRAETEREA, ira est appetitus vindictae , ut
+            <lb ed="#L" n="39"/>dicit Glossa  super Levit. xix , Non oderis 
+            fra<lb break="no" ed="#L" n="40"/>trem tuum in corde tuo. Sed appetere ultionem
+            <lb ed="#L" n="41"/>non videtur esse licitum, sed hoc Deo est 
+            reser<lb break="no" ed="#L" n="42"/>vandum: secundum illud Deut. xxxu : Mea est
+            <lb ed="#L" n="43"/>ultio. Ergo videtur quod irasci semper sit malum.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e239">
+            <lb ed="#L" n="44"/>4. PRAETEREA, omne illud quod abducit nos a
+            <lb ed="#L" n="45"/>divina similitudine, est malum. Sed irasci semper
+            <lb ed="#L" n="46"/>abducit nos a divina similitudine: quia Deus cum
+            <lb ed="#L" n="47"/>tranquillitate iudicat, ut habetur Sap. xu . Ergo
+            <lb ed="#L" n="48"/>irasci semper est malum.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e252">
+            <lb ed="#L" n="49"/>SED CONTRA EsT quod Chrysostomus dicit, 
+            su<lb break="no" ed="#L" n="50"/>per Matth. : Qui sine causa irascitur, reus erit:
+            <lb ed="#L" n="51"/>qui vero cum causa, non erit reus. Nam si ira
+            <lb ed="#L" n="52"/>non fuerit, nec doctrina proficit, nec iudicia stant,
+            <lb ed="#L" n="53"/>nec crimina compescuntur. Ergo irasci non 
+            sem<lb break="no" ed="#L" n="54"/>per est malum.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e268">
+            <lb ed="#L" n="55"/>RESPONDEO DICENDUM quod ira, proprie 
+            loquen<lb break="no" ed="#L" n="56"/>do, est passio quaedam appetitus sensitivi, a qua
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="57"/>vis irascibilis denominatur: ut supra  habitum
+            <lb ed="#L" n="58"/>est, cum de passionibus ageretur. Est autem hoc
+            <lb ed="#L" n="59"/>considerandum circa passiones animae, quod 
+            du<lb break="no" ed="#L" n="60"/>pliciter in eis potest malum inveniri. Uno modo,
+            <lb ed="#L" n="61"/>ex ipsa specie passionis. Quae quidem 
+            conside<lb break="no" ed="#L" n="62"/>ratur secundum obiectum passionis. Sicut invidia
+            <lb ed="#L" n="63"/>secundum suam speciem importat quoddam 
+            ma<lb break="no" ed="#L" n="64"/>lum: est enim tristitia de bono aliorum, quod 
+            se<lb break="no" ed="#L" n="65"/>cundum se rationi repugnat. Et ideo invidia, mox
+            <lb ed="#L" n="66"/>nominata, sonat aliquid mali: ut Philosophus 
+            di<lb break="no" ed="#L" n="67"/>cit, in II Ethic.  Hoc autem non convenit irae,
+            <lb ed="#L" n="68"/>quae est appetitus vindictae: potest enim 
+            vindi<lb break="no" ed="#L" n="69"/>cta et bene et male appeti.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e305">
+            <lb ed="#L" n="70"/>Alio modo invenitur malum in aliqua passione
+            <lb ed="#L" n="71"/>secundum quantitatem ipsius, idest secundum 
+            su<lb break="no" ed="#L" n="72"/>perabundantiam vel defectum ipsius. Et sic potest
+            <lb ed="#L" n="73"/>malum in ira inveniri: quando scilicet aliquis 
+            ira<lb break="no" ed="#L" n="74"/>scitur plus vel minus, praeter rationem rectam.
+            <lb ed="#L" n="75"/>Si autem aliquis irascatur secundum rationem
+            <lb ed="#L" n="76"/>rectam, tunc irasci est laudabile.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e323">
+            <lb ed="#L" n="77"/>AD PRIMUM ERGO DICENDUM quod Stoici iram et
+            <lb ed="#L" n="78"/>omnes alias passiones nominabant affectus 
+            quos<lb break="no" ed="#L" n="79"/>dam praeter ordinem rationis existentes, et 
+            se<lb break="no" ed="#L" n="80"/>cundum hoc, ponebant iram et omnes alias 
+            pas<lb break="no" ed="#L" n="81"/>siones esse malas: ut supra  dictum est, cum
+            <lb ed="#L" n="82"/>de passionibus ageretur. Et secundum hoc ? 
+            ac<lb break="no" ed="#L" n="83"/>cipit iram Hieronymus: loquitur enim de ira qua
+            <lb ed="#L" n="84"/>quis irascitur contra proximum quasi malum eius
+            <lb ed="#L" n="85"/>intendens. - Sed secundum Peripateticos, quorum
+            <lb ed="#L" n="86"/>sententiam magis approbat Augustinus, in IX de
+            <lb ed="#L" n="87"/>Civ. Dei, ira et aliae passiones animae dicuntur
+            <lb ed="#L" n="88"/>motus appetitus sensitivi, sive sint moderatae 
+            se<lb break="no" ed="#L" n="89"/>cundum rationem sive non. Et secundum hoc,
+            <lb ed="#L" n="90"/>ira non semper est mala.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e357">
+            <lb ed="#L" n="91"/>AD SECUNDUM DICENDUM quod ira dupliciter se
+            <lb ed="#L" n="92"/>potest habere ad rationem. Uno quidem modo,
+            <lb ed="#L" n="93"/>antecedenter. Et sic trahit rationem a sua recti-
+            <pb ed="#L" n="273"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>tudine: unde habet rationem mali. Alio modo,
+            <lb ed="#L" n="2"/>consequenter: prout scilicet appetitus sensitivus
+            <lb ed="#L" n="3"/>movetur contra vitia secundum ordinem rationis.
+            <lb ed="#L" n="4"/>Et haec ira est bona: quae dicitur ira per zelum.
+            <lb ed="#L" n="5"/>Unde Gregorius dicit, in V Moral. : Curandum
+            <lb ed="#L" n="6"/>summopere est ne ira, quae ut instrumentum 
+            vir<lb break="no" ed="#L" n="7"/>lutis assumitur, menti dominetur: ne quasi domina
+            <lb ed="#L" n="8"/>praeeat, sed velut ancilla ad obsequium parata, a
+            <lb ed="#L" n="9"/>rationis tergo nunquam recedat. Haec autem ira,
+            <lb ed="#L" n="10"/>etsi in ipsa executione actus iudicium rationis
+            <lb ed="#L" n="11"/>aliqualiter impediat, non tamen rectitudinem 
+            ra<lb break="no" ed="#L" n="12"/>tionis tollit. Unde Gregorius, ibidem, dicit quod
+            <lb ed="#L" n="13"/>ira per zelum turbat rationis oculum: sed ira per
+            <lb ed="#L" n="14"/>vitium. excaecat. Non autem est contra rationem
+            <lb ed="#L" n="15"/>virtutis ut intermittatur deliberatio rationis in 
+            exe<lb break="no" ed="#L" n="16"/>cutione eius quod est a ratione deliberatum. Quia
+            <lb ed="#L" n="17"/>etiam ars impediretur in suo actu si, dum debet
+            <lb ed="#L" n="18"/>agere, deliberaret de agendis.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e409">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="19"/>AD TERTIUM DICENDUM quod appetere vindictam
+            <lb ed="#L" n="20"/>propter malum eius qui puniendus est, illicitum
+            <lb ed="#L" n="21"/>est. Sed appetere vindictam propter vitiorum
+            <lb ed="#L" n="22"/>correctionem et bonum iustitiae conservandum,
+            <lb ed="#L" n="23"/>laudabile est. Et in hoc potest tendere appetitus
+            <lb ed="#L" n="24"/>sensitivus inquantum. movetur a ratione. Et dum
+            <lb ed="#L" n="25"/>vindicta secundum ordinem iudicii fit, a Deo fit,
+            <lb ed="#L" n="26"/>cuius minister est potestas puniens, ut dicitur
+            <lb ed="#L" n="27"/>Rom. xui .,
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e433">
+            <lb ed="#L" n="28"/>AD QUARTUM DICENDUM quod Deo assimilari 
+            pos<lb break="no" ed="#L" n="29"/>sumus et debemus in appetitu boni: sed in modo
+            <lb ed="#L" n="30"/>appetendi ei omnino assimilari non possumus;
+            <lb ed="#L" n="31"/>quia in Deo non est appetitus sensitivus, sicut
+            <lb ed="#L" n="32"/>in nobis, cuius motus debet rationi deservire.
+            <lb ed="#L" n="33"/>Unde Gregorius dicit, in V Moral., quod tunc
+            <lb ed="#L" n="34"/>robustius ratio contra vitia erigitur, cum ira 
+            sub<lb break="no" ed="#L" n="35"/>dita rationi famulatur.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2088-Dd1e454"><!-- p2p2-q158a2 -->
+          <head xml:id="TAca84-d1e2088-Hd1e457">Articulus 2</head>
+          <head xml:id="TAca84-d1e2088-Hd1e459" type="question-title">Utrum ira sit peccatum</head>
+          <p xml:id="TAca84-d1e2088-d1e462">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="57" type="fixed=273"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="58"/>UTRUM IRA SIT PECCATUM
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e471">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="59"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="60"/>ira non sit peccatum. Peccando enim
+            <lb ed="#L" n="61"/>demeremur. Sed passionibus non 
+            deme<lb break="no" ed="#L" n="62"/>remur, sicut. neque vituperamur, ut 
+            di<lb break="no" ed="#L" n="63"/>citur in I Ethic.  Ergo nulla passio est 
+            pecca<lb break="no" ed="#L" n="64"/>tum. lra autem est passio: ut supra  habitum
+            <lb ed="#L" n="65"/>est, cum de passionibus ageretur. Ergo ira non
+            <lb ed="#L" n="66"/>est peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e493">
+            <lb ed="#L" n="67"/>PRAETEREA, in omni peccato est conversio
+            <lb ed="#L" n="68"/>ad aliquod commutabile bonum. Sed per iram
+            <lb ed="#L" n="69"/>non convertitur aliquis ad aliquod bonum 
+            com<lb break="no" ed="#L" n="70"/>mutabile, sed in malum alicuius. Ergo ira non
+            <lb ed="#L" n="71"/>est peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e507">
+            <lb ed="#L" n="72"/>3. PRAETEREA, nullus peccat in eo quod vitare
+            <lb ed="#L" n="73"/>non potest, ut Augustinus dicit . Sed iram homo
+            <lb ed="#L" n="74"/>vitare non potest: quia super illud Psalmi , 
+            Z7ra<lb break="no" ed="#L" n="75"/>scimini et nolite peccare, dicit Glossa  quod 
+            mo<lb break="no" ed="#L" n="76"/>tus irae non est in apnd nostra. Philosophus
+            <lb ed="#L" n="77"/>etiam dicit, in VII Ethic. , quod iratus cum 
+            tri<lb break="no" ed="#L" n="78"/>stitia operatur : tristitia autem est contraria 
+            vo<lb break="no" ed="#L" n="79"/>luntati. Ergo ira non est peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e527">
+            <lb ed="#L" n="80"/>4. PRAETEREA, peccatum est conira naturam,
+            <lb ed="#L" n="81"/>ut Damascenus dicit, in II libro . Sed irasci non
+            <lb ed="#L" n="82"/>est contra naturam hominis: cum sit actus natu-
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="83"/>ralis potentiae quae est irascibilis. Unde et 
+            Hie<lb break="no" ed="#L" n="84"/>ronymus dicit, in quadam epistola , quod irasci :
+            <lb ed="#L" n="85"/>est hominis. Ergo ira  non est peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e545">
+            <lb ed="#L" n="86"/>SED coNTRA EsT quod Apostolus dicit, ad Ephes.
+            <lb ed="#L" n="87"/>Iv : Omnis indignatio et ira tollatur a vobis.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e552">
+            <lb ed="#L" n="88"/>RESPONDEO DICENDUM quod ira, sicut dictum
+            <lb ed="#L" n="89"/>est , proprie nominat quandam passionem. 
+            Pas<lb break="no" ed="#L" n="90"/>Sio autem appetitus sensitivi intantum est bona
+            <lb ed="#L" n="91"/>inquantum ratione regulatur: si autem ordinem
+            <lb ed="#L" n="92"/>rationis excludat, est mala. Ordo autem rationis
+            <lb ed="#L" n="93"/>in ira potest attendi quantum ad duo. Primo 
+            qui<lb break="no" ed="#L" n="94"/>dem, quantum ad appetibile in quod tendit, quod
+            <lb ed="#L" n="95"/>est vindicta. Unde si aliquis appetat quod 
+            secun<lb break="no" ed="#L" n="96"/>dum ordinem rationis fiat vindicta, est laudabilis
+            <lb ed="#L" n="97"/>irae appetitus, et vocatur ira per zelum . - Si autem
+            <lb ed="#L" n="98"/>aliquis appetat quod fiat vindicta qualitercumque
+            <lb ed="#L" n="99"/>contra ordinem rationis; puta si appetat puniri
+            <lb ed="#L" n="100"/>eum qui non meruit, vel ultra quam meruit, vel
+            <lb ed="#L" n="101"/>etiam non secundum legitimum ordinem, vel non
+            <lb ed="#L" n="102"/>propter debitum finem, qui est conservatio 
+            iu<lb break="no" ed="#L" n="103"/>stitiae et correctio culpae: erit appetitus irae 
+            vi<lb break="no" ed="#L" n="104"/>tiosus. Et nominatur ira per vitium .
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e591">
+            <lb ed="#L" n="105"/>Alio modo attenditur ordo rationis circa iram
+            <lb ed="#L" n="106"/>quantum ad modum irascendi: ut scilicet motus
+            <pb ed="#L" n="274"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>irae non immoderate fervescat, nec interius nec
+            <lb ed="#L" n="2"/>exterius. Quod quidem si praetermittatur, non
+            <lb ed="#L" n="3"/>erit ira absque peccato, etiam si aliquis appetat
+            <lb ed="#L" n="4"/>iustam vindictam.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e611">
+            <lb ed="#L" n="5"/>AD PRIMUM ERGO DICENDUM quod, quia passio
+            <lb ed="#L" n="6"/>potest esse regulata ratione vel non regulata, ideo
+            <lb ed="#L" n="7"/>secundum passionem absolute consideratam non
+            <lb ed="#L" n="8"/>importatur ratio meriti vel demeriti, seu laudis
+            <lb ed="#L" n="9"/>vel vituperii. Secundum tamen quod. est regulata
+            <lb ed="#L" n="10"/>ratione, potest habere rationem meritorii et 
+            lau<lb break="no" ed="#L" n="11"/>dabilis: et e contrario, secundum quod non est
+            <lb ed="#L" n="12"/>regulata ratione, potest habere rationem demeriti
+            <lb ed="#L" n="13"/>et vituperabilis. Unde et Philosophus ibidem dicit
+            <lb ed="#L" n="14"/>quod /audatur vel vituperatur qui aliqualiter. 
+            ira<lb break="no" ed="#L" n="15"/>scitur.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e638">
+            <lb ed="#L" n="16"/>AD SECUNDUM DICENDUM quod iratus non appetit
+            <lb ed="#L" n="17"/>malum alterius propter se, sed propter vindictam,
+            <lb ed="#L" n="18"/>in quam convertitur appetitus eius sicut in 
+            quod<lb break="no" ed="#L" n="19"/>dam commutabile ? bonum.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e649">
+            <lb ed="#L" n="20"/>AD TERTIUM DICENDUM quod homo est dominus
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="21"/>suorum. actuum per arbitrium rationis. Et ideo
+            <lb ed="#L" n="22"/>motus qui praeveniunt iudicium  rationis, non
+            <lb ed="#L" n="23"/>sunt in potestate hominis in generali, ut 
+            scili<lb break="no" ed="#L" n="24"/>cet nullus eorum insurgat: quamvis ratio possit
+            <lb ed="#L" n="25"/>quemlibet singulariter impedire ne insurgat. Et
+            <lb ed="#L" n="26"/>secundum hoc dicitur quod motus irae non est
+            <lb ed="#L" n="27"/>in potestate hominis: ita scilicet quod nullus 
+            in<lb break="no" ed="#L" n="28"/>surgat. Quia tamen aliqualiter est in hominis 
+            po<lb break="no" ed="#L" n="29"/>testate, non totaliter perdit rationem peccati, si
+            <lb ed="#L" n="30"/>sit inordinatus. - Quod autem Philosophus dicit,
+            <lb ed="#L" n="31"/>iratum cum tristitia operari, non est sic 
+            intelli<lb break="no" ed="#L" n="32"/>gendum quasi tristetur de eo quod irascitur: sed
+            <lb ed="#L" n="33"/>quia tristatur de iniuria quam aestimat sibi 
+            il<lb break="no" ed="#L" n="34"/>latam, et ex hac tristitia movetur ad appetendum
+            <lb ed="#L" n="35"/>vindictam.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e688">
+            <lb ed="#L" n="36"/>AD QUARTUM DICENDUM quod irascibilis in 
+            ho<lb break="no" ed="#L" n="37"/>mine naturaliter subiicitur rationi. Et ideo actus
+            <lb ed="#L" n="38"/>eius intantum est homini naturalis inquantum est
+            <lb ed="#L" n="39"/>secundum rationem: inquantum vero est praeter
+            <lb ed="#L" n="40"/>ordinem rationis, est contra hominis naturam.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2088-Dd1e702"><!-- p2p2-q158a3 -->
+          <head xml:id="TAca84-d1e2088-Hd1e705">Articulus 3</head>
+          <head xml:id="TAca84-d1e2088-Hd1e707" type="question-title">Utrum omnis ira sit peccatum mortale</head>
+          <p xml:id="TAca84-d1e2088-d1e710">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="50" type="fixed=274"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="51"/>UTRUM OMNIS IRA SIT PECCATUM MORTALE
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e719">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="52"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="53"/>omnis ira sit peccatum mortale. Dicitur
+            <lb ed="#L" n="54"/>enim Iob v : Virum stultum interficit
+            <lb ed="#L" n="55"/>Nairacundia: et loquitur de interfectione
+            <lb ed="#L" n="56"/>spirituali, a qua peccatum mortale denominatur.
+            <lb ed="#L" n="57"/>Ergo ira est peccatum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e737">
+            <lb ed="#L" n="58"/>2. PRAETEREA, nihil meretur damnationem. 
+            ae<lb break="no" ed="#L" n="59"/>ternam nisi peccatum mortale. Sed ira meretur
+            <lb ed="#L" n="60"/>damnationem aeternam: dicit enim Dominus,
+            <lb ed="#L" n="61"/>Matth. v : Omnis qui irascitur fratri. suo, reus
+            <lb ed="#L" n="62"/>erit iudicio ; ubi dicit Glossa  quod per illa tria,
+            <lb ed="#L" n="63"/>quae ibi tanguntur, scilicet, iudicium, concilium et
+            <lb ed="#L" n="64"/>gehennam, diversae mansiones in aeterna 
+            da<lb break="no" ed="#L" n="65"/>mnaltione , pro modo peccati , singulariter. 
+            expri<lb break="no" ed="#L" n="66"/>muntur. Ergo ira est peccatum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e760">
+            <lb ed="#L" n="67"/>3. PRAETEREA, quidquid contrariatur caritati
+            <lb ed="#L" n="68"/>est peccatum. mortale. Sed ira de se contrariatur
+            <lb ed="#L" n="69"/>caritati: ut patet per Hieronymum , super illud
+            <lb ed="#L" n="70"/>Matth. v , Qui irascitur fratri suo etc., ubi. dicit
+            <lb ed="#L" n="71"/>quod hoc est contra proximi: dilectionem. Ergo
+            <lb ed="#L" n="72"/>ira est peccatum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e776">
+            <lb ed="#L" n="73"/>SEp CONTRA EST quod super illud Psalmi , 
+            Zra<lb break="no" ed="#L" n="74"/>scimini et nolite peccare, dicit Glossa : Venialis
+            <lb ed="#L" n="75"/>est ira quae non perducitur, ad. effectum.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e785">
+            <lb ed="#L" n="76"/>RESPONDEO DICENDUM quod motus irae potest
+            <lb ed="#L" n="77"/>esse inordinatus et peccatum dupliciter, sicut 
+            di<lb break="no" ed="#L" n="78"/>ctum est . Uno modo, ex parte appetibilis: 
+            ut<lb break="no" ed="#L" n="79"/>pote cum aliquis appetit iniustam vindictam. Et
+            <lb ed="#L" n="80"/>sic ex genere suo ira est peccatum mortale: quia
+            <lb ed="#L" n="81"/>contrariatur caritati et iustitiae. Potest tamen 
+            con<lb break="no" ed="#L" n="82"/>tingere quod talis appetitus sit peccatum veniale
+            <lb ed="#L" n="83"/>propter imperfectionem actus. Quae quidem 
+            im<lb break="no" ed="#L" n="84"/>perfectio attenditur vel ex parte appetentis, puta
+            <lb ed="#L" n="85"/>cum motus irae praevenit iudicium rationis: vel
+            <lb ed="#L" n="86"/>etiam ex parte appetibilis, puta cum aliquis 
+            ap<lb break="no" ed="#L" n="87"/>petit in aliquo modico se vindicare, quod quasi
+            <lb ed="#L" n="88"/>nihil est reputandum, ita quod etiam si actu 
+            in<lb break="no" ed="#L" n="89"/>feratur, non esset peccatum mortale; puta si 
+            ali<lb break="no" ed="#L" n="90"/>quis parum trahat aliquem puerum per capillos,
+            <lb ed="#L" n="91"/>vel aliquid huiusmodi.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e822">
+            <lb ed="#L" n="92"/>Alio modo potest esse motus irae inordinatus
+            <lb ed="#L" n="93"/>quantum ad modum. irascendi:. utpote si nimis
+            <lb ed="#L" n="94"/>ardenter irascatur interius, vel.si nimis exterius
+            <lb ed="#L" n="95"/>manifestet signa irae. Et sic ira secundum se non
+            <lb ed="#L" n="96"/>habet ex suo genere rationem peccati mortalis.
+            <lb ed="#L" n="97"/>Potest tamen contingere quod sit peccatum 
+            mor<lb break="no" ed="#L" n="98"/>tale: puta si ex vehementia irae aliquis excidat
+            <lb ed="#L" n="99"/>a dilectione Dei et proximi.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e842">
+            <pb ed="#L" n="275"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>AD PRIMUM ERGO DICENDUM quod ex illa 
+            aucto<lb break="no" ed="#L" n="2"/>ritate non habetur quod omnis ira sit peccatum
+            <lb ed="#L" n="3"/>mortale, sed quod stulti per iracundiam 
+            spiritua<lb break="no" ed="#L" n="4"/>liter occiduntur: inquantum scilicet, non 
+            refre<lb break="no" ed="#L" n="5"/>nando per rationem motum irae, dilabuntur in
+            <lb ed="#L" n="6"/>aliqua peccata mortalia, puta in blasphemiam
+            <lb ed="#L" n="7"/>Dei vel in iniuriam proximi.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e864">
+            <lb ed="#L" n="8"/>AD SECUNDUM DICENDUM quod Dominus verbum
+            <lb ed="#L" n="9"/>illud dixit de ira, quasi superaddens ad illud ver-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="10"/>bum legis , Qui occiderit, reus erit iudicio. Unde
+            <lb ed="#L" n="11"/>loquitur ibi Dominus de motu irae quo quis 
+            ap<lb break="no" ed="#L" n="12"/>petit proximi occisionem, aut quamcumque 
+            gra<lb break="no" ed="#L" n="13"/>vem laesionem: cui appetitui si consensus 
+            ra<lb break="no" ed="#L" n="14"/>tionis superveniat, absque dubio erit peccatum
+            <lb ed="#L" n="15"/>mortale.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e887">
+            <lb ed="#L" n="16"/>AD TERTIOM DICENDUM quod in illo casu in quo
+            <lb ed="#L" n="17"/>ira contrariatur caritati, est peccatum mortale:
+            <lb ed="#L" n="18"/>sed hoc non semper accidit, ut ex dictis  patet.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2088-Dd1e897"><!-- p2p2-q158a4 -->
+          <head xml:id="TAca84-d1e2088-Hd1e900">Articulus 4</head>
+          <head xml:id="TAca84-d1e2088-Hd1e902" type="question-title">Utrum ira sit gravissimum peccatum</head>
+          <p xml:id="TAca84-d1e2088-d1e905">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="41" type="fixed=276"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="42"/>UTRUM IRA SIT GRAVISSIMUM PECCATUM
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e914">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="43"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="44"/>ira sit gravissimum peccatum. Dicit enim
+            <lb ed="#L" n="45"/>Chrysostomus  quod mihil est turpius
+            <lb ed="#L" n="46"/>visu furentis, et nihil deformius severo
+            <lb ed="#L" n="47"/>visu: et multo magis, anima. Ergo ira est 
+            gra<lb break="no" ed="#L" n="48"/>vissimum peccatum,
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e932">
+            <lb ed="#L" n="49"/>2. PRaETEREA, quanto aliquod peccatum est
+            <lb ed="#L" n="50"/>magis nocivum, tanto videtur esse peius: quia
+            <lb ed="#L" n="51"/>sicut Augustinus dicit, in Enchirid. , malum 
+            di<lb break="no" ed="#L" n="52"/>citur aliquid quod  nocet. lra autem maxime
+            <lb ed="#L" n="53"/>nocet: quia aufert homini rationem, per quam
+            <lb ed="#L" n="54"/>est dominus sui ipsius; dicit enim Chrysostomus 
+            <lb ed="#L" n="55"/>quod irae et insaniae nihil est medium, sed ira
+            <lb ed="#L" n="56"/>lemporaneus est. quidam daemon, magis autem
+            <lb ed="#L" n="57"/>et daemonium habente difficilius 5. Ergo ira est
+            <lb ed="#L" n="58"/>gravissimum peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e957">
+            <lb ed="#L" n="59"/>3. PRAETEREA, interiores motus diiudicantur 
+            se<lb break="no" ed="#L" n="60"/>cundum exteriores effectus. Sed effectus irae est
+            <lb ed="#L" n="61"/>homicidium, quod est gravissimum peccatum.
+            <lb ed="#L" n="62"/>Ergo ira est gravissimum peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e968">
+            <lb ed="#L" n="63"/>SED. cONTRA EST quod ira comparatur ad odium
+            <lb ed="#L" n="64"/>sicut festuca ad trabem: dicit enim Augustinus,
+            <lb ed="#L" n="65"/>in Regula : Ne ira crescat in odium, et. trabem
+            <lb ed="#L" n="66"/>faciat de festuca. Non ergo ira est gravissimum
+            <lb ed="#L" n="67"/>peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e981">
+            <lb ed="#L" n="68"/>RESPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="69"/>inordinatio irae secundum duo attenditur : scilicet
+            <lb ed="#L" n="70"/>secundum indebitum appetibile, et secundum 
+            in<lb break="no" ed="#L" n="71"/>debitum modum irascendi. Quantum igitur ad
+            <lb ed="#L" n="72"/>appetibile quod iratus appetit, videtur esse ira
+            <lb ed="#L" n="73"/>minimum peccatorum. Appetit enim ira malum
+            <lb ed="#L" n="74"/>poenae alicuius sub ratione boni quod est 
+            vin<lb break="no" ed="#L" n="75"/>dicta. Et ideo ex parte mali quod appetit, 
+            con<lb break="no" ed="#L" n="76"/>venit peccatum irae cum illis peccatis quae 
+            ap<lb break="no" ed="#L" n="77"/>petunt malum proximi, puta cum invidia et odio:
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="78"/>sed odium appetit absolute malum alicuius, 
+            in<lb break="no" ed="#L" n="79"/>quantum huiusmodi; invidus autem appetit 
+            ma<lb break="no" ed="#L" n="80"/>lum alterius propter appetitum propriae gloriae;
+            <lb ed="#L" n="81"/>sed iratus appetit malum alterius sub ratione 
+            iu<lb break="no" ed="#L" n="82"/>stae vindictae. Ex quo patet quod odium est 
+            gra<lb break="no" ed="#L" n="83"/>vius quam invidia, et invidia quam ira: quia 
+            pe<lb break="no" ed="#L" n="84"/>ius est appetere malum sub ratione mali quam
+            <lb ed="#L" n="85"/>sub ratione boni; et peius est appetere malum
+            <lb ed="#L" n="86"/>sub ratione boni exterioris, quod est honor vel
+            <lb ed="#L" n="87"/>gloria, quam sub ratione rectitudinis iustitiae.
+            <lb ed="#L" n="88"/>Sed ex parte boni sub cuius ratione appetit
+            <lb ed="#L" n="89"/>iratus malum, convenit ira cum peccato 
+            concupi<lb break="no" ed="#L" n="90"/>scentiae, quod tendit in aliquod bonum. Et 
+            quan<lb break="no" ed="#L" n="91"/>tum ad hoc etiam, absolute loquendo, peccatum
+            <lb ed="#L" n="92"/>irae videtur esse minus quam concupiscentiae :
+            <lb ed="#L" n="93"/>quanto melius est bonum iustitiae, quod appetit
+            <lb ed="#L" n="94"/>iratus, quam bonum delectabile vel utile, quod
+            <lb ed="#L" n="95"/>appetit concupiscens. Unde Philosophus dicit, in
+            <lb ed="#L" n="96"/>VII Ethic. , quod incontinens concupiscentiae es
+            <lb ed="#L" n="97"/>turpior quam incontinens irae.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1051">
+            <lb ed="#L" n="98"/>Sed quantum ad inordinationem  quae est 
+            se<lb break="no" ed="#L" n="99"/>cundum modum irascendi, ira habet quandam
+            <lb ed="#L" n="100"/>excellentiam, propter vehementiam et velocitatem
+            <lb ed="#L" n="101"/>sui motus: secundum illud Proverb. xxvi : Ira
+            <lb ed="#L" n="102"/>non habet misericordiam, nec erumpens furor: el
+            <lb ed="#L" n="103"/>impetum concitati spiritus ferre quis poterit? Unde
+            <lb ed="#L" n="104"/>Gregorius dicit, in V Moral. : Irae suae stimulis
+            <lb ed="#L" n="105"/>accensum cor palpitat, corpus tremit, lingua se
+            <lb ed="#L" n="106"/>praepedit, facies ignescit, exasperantur oculi, et
+            <lb ed="#L" n="107"/>nequaquam recognoscuntur noti: ore quidem 
+            cla<lb break="no" ed="#L" n="108"/>morem format, sed sensus quid loquitur, ignorat.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1077">
+            <lb ed="#L" n="109"/>AD PRIMUM ERGO DICENDUM quod Chrysostomus
+            <lb ed="#L" n="110"/>loquitur de turpitudine quantum ad gestus 
+            exte<lb break="no" ed="#L" n="111"/>riores, qui proveniunt ex impetu irae.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1086">
+            <lb ed="#L" n="112"/>AD SECUNDUM DICENDUM quod ratio illa procedit
+            <pb ed="#L" n="277"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>secundum inordinatum motum irae, qui provenit
+            <lb ed="#L" n="2"/>ex eius impetu, ut dictum est .
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1100">
+            <lb ed="#L" n="3"/>AD TERTIUM DICENDUM quod homicidium non
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="4"/>minus provenit ex odio vel invidia quam ex ira.
+            <lb ed="#L" n="5"/>Ira tamen levior est, inquantum attendit rationem
+            <lb ed="#L" n="6"/>iustitiae, ut dictum est.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2088-Dd1e1114"><!-- p2p2-q158a5 -->
+          <head xml:id="TAca84-d1e2088-Hd1e1117">Articulus 5</head>
+          <head xml:id="TAca84-d1e2088-Hd1e1119" type="question-title">Utrum species iracundiae convenienter determinentur a philosopho</head>
+          <p xml:id="TAca84-d1e2088-d1e1122">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="22" type="fixed=279"/>ARTICULUS QUINTUS
+            <lb ed="#L" n="23"/>UTRUM SPECIES IRACUNDIAE CONVENIENTER DETERMINENTUR A PHILOSOPHO
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1131">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="24"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="25"/>inconvenienter determinentur species
+            <lb ed="#L" n="26"/>iracundiae a Philosopho, in IV Ethic. 
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1142">
+            <lb ed="#L" n="27"/>ubi dicit quod iracundorum quidam
+            <lb ed="#L" n="28"/>sunt acuti, quidam amari, quidam di ifficiles sive
+            <lb ed="#L" n="29"/>graves. Quia secundum ipsum , amari dicuntur
+            <lb ed="#L" n="30"/>quorum ira difficile solvitur et multo lempore 
+            ma<lb break="no" ed="#L" n="31"/>net. Sed hoc videtur pertinere ad circumstantiam
+            <lb ed="#L" n="32"/>temporis. Ergo videtur quod etiam secundum alias
+            <lb ed="#L" n="33"/>circumstantias possunt accipi aliae species irae
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1161">
+            <lb ed="#L" n="34"/>2. PRAETEREA, difficiles, sive graves, dicit  esse
+            <lb ed="#L" n="35"/>quorum ira non commutlatur sine cruciatu vel
+            <lb ed="#L" n="36"/>punitione. Sed hoc etiam pertinet ad 
+            insolubili<lb break="no" ed="#L" n="37"/>tatem irae. Ergo videtur quod idem sint 4/
+            ffici<lb break="no" ed="#L" n="38"/>les et amari.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1174">
+            <lb ed="#L" n="39"/>3. PRAETEREA, Dominus, Matth. v , ponit tres
+            <lb ed="#L" n="40"/>gradus irae, cum dicit, Qui irascitur fratri suo;
+            <lb ed="#L" n="41"/>et, qui dixerit fratri suo, Raca; et, qui dixerit
+            <lb ed="#L" n="42"/>fratri suo, Fatue. Qui quidem gradus ad 
+            praedi<lb break="no" ed="#L" n="43"/>ctas species non referuntur. Ergo videtur quod
+            <lb ed="#L" n="44"/>praedicta divisio irae non sit conveniens.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1190">
+            <lb ed="#L" n="45"/>SEp cowTRA EsT quod Gregorius Nyssenus 
+            di<lb break="no" ed="#L" n="46"/>cit  quod /res sunt irascibilitatis species: scilicet
+            <lb ed="#L" n="47"/>ira quae vocatur fellea; et mania , quae dicitur
+            <lb ed="#L" n="48"/>insania; et furor. Quae tria videntur esse eadem
+            <lb ed="#L" n="49"/>tribus praemissis: nam iram felleam dicit esse
+            <lb ed="#L" n="50"/>quae principium et motum habet, quod 
+            Philoso<lb break="no" ed="#L" n="51"/>phus  attribuit acutis; maniam ? vero dicit esse
+            <lb ed="#L" n="52"/>iram quae permanet et in vetustatem devenit, quod
+            <lb ed="#L" n="53"/>Philosophus  attribuit. amaris; furorem autem
+            <lb ed="#L" n="54"/>dicit esse iram quae observat tempus in 
+            suppli<lb break="no" ed="#L" n="55"/>cium, quod Philosophus  attribuit difficilibus. Et
+            <lb ed="#L" n="56"/>eandem etiam divisionem ponit Damascenus, in
+            <lb ed="#L" n="57"/>II libro . Ergo praedicta Philosophi distinctio
+            <lb ed="#L" n="58"/>est conveniens.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1223">
+            <lb ed="#L" n="59"/>RESPONDEO DICENDUM quod praedicta distinctio
+            <lb ed="#L" n="60"/>potest referri vel ad. passionem irae, vel etiam
+            <lb ed="#L" n="61"/>ad ipsum peccatum irae. Quomodo autem 
+            refe<lb break="no" ed="#L" n="62"/>ratur ad passionem irae, supra  habitum est,
+            <lb ed="#L" n="63"/>cum de passione irae ageretur. Et sic praecipue
+            <lb ed="#L" n="64"/>videtur poni a Gregorio Nysseno et Damasceno ".
+            <lb ed="#L" n="65"/>Nunc autem oportet accipere distinctionem ha-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="66"/>rum specierum secundum quod pertinent ad 
+            pec<lb break="no" ed="#L" n="67"/>catum irae, prout ponitur a Philosopho.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1247">
+            <lb ed="#L" n="68"/>Potest enim inordinatio irae ex duobus 
+            at<lb break="no" ed="#L" n="69"/>tendi. Primo quidem, ex ipsa irae origine. Et hoc
+            <lb ed="#L" n="70"/>pertinet ad acutos, qui nimis cito irascuntur, et
+            <lb ed="#L" n="71"/>ex qualibet levi causa. - Alio modo, ex ipsa irae
+            <lb ed="#L" n="72"/>duratione, eo scilicet quod ira nimis perseverat.
+            <lb ed="#L" n="73"/>Quod quidem potest esse dupliciter. Uno modo,
+            <lb ed="#L" n="74"/>quia causa irae, scilicet iniuria illata, nimis manet
+            <lb ed="#L" n="75"/>in memoria hominis: unde ex hoc homo 
+            diuti<lb break="no" ed="#L" n="76"/>nam tristitiam concipit; et ideo sunt sibi ipsis
+            <lb ed="#L" n="77"/>graves et amari.- Alio modo contingit ex parte
+            <lb ed="#L" n="78"/>ipsius vindictae, quam aliquis obstinato appetitu
+            <lb ed="#L" n="79"/>quaerit. Et hoc pertinet ad difficiles sive graves,
+            <lb ed="#L" n="80"/>qui non dimittunt iram quousque puniant.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1278">
+            <lb ed="#L" n="81"/>AD PRIMUM ERGO DICENDUM quod in speciebus
+            <lb ed="#L" n="82"/>praedictis non principaliter consideratur tempus:
+            <lb ed="#L" n="83"/>sed facilitas hominis ad iram, vel firmitas in ira.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1288">
+            <lb ed="#L" n="84"/>AD SECUNDUM DICENDUM quod utrique, scilicet
+            <lb ed="#L" n="85"/>amari et difficiles, habeht iram diuturnam, sed
+            <lb ed="#L" n="86"/>propter aliam. causam. Nam armari habent iram
+            <lb ed="#L" n="87"/>permanentem propter permanentiam tristitiae ,
+            <lb ed="#L" n="88"/>quam interius  tenent clausam: et quia non
+            <lb ed="#L" n="89"/>prorumpunt ad exteriora iracundiae signa, non
+            <lb ed="#L" n="90"/>possunt persuaderi ab aliis; nec ex seipsis 
+            rece<lb break="no" ed="#L" n="91"/>dunt ab ira, nisi prout diuturnitate temporis 
+            tri<lb break="no" ed="#L" n="92"/>stitia aboletur, et sic deficit ira. - Sed in 
+            diffici<lb break="no" ed="#L" n="93"/>libus est ira diuturna propter vehemens 
+            deside<lb break="no" ed="#L" n="94"/>rium vindictae. Et ideo tempore non digeritur ,
+            <lb ed="#L" n="95"/>sed per solam punitionem quiescit.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1317">
+            <lb ed="#L" n="96"/>AD TERTIUM DICENDUM quod gradus irae quos
+            <lb ed="#L" n="97"/>Dominus ponit, non pertinent ad diversas irae
+            <lb ed="#L" n="98"/>species, sed accipiuntur secundum processum 
+            hu<lb break="no" ed="#L" n="99"/>mani actus. In quibus primo aliquid in corde
+            <lb ed="#L" n="100"/>concipitur. Et quantum ad hoc dicit: Qui 
+            irasci<lb break="no" ed="#L" n="101"/>tur fratri suo. - Secundum autem est cum per
+            <lb ed="#L" n="102"/>aliqua signa exteriora manifestatur exterius, etiam
+            <lb ed="#L" n="103"/>antequam prorumpat in effectum. Et quantum ad
+            <lb ed="#L" n="104"/>hoc dicit: Qui dixerit fratri suo, Raca, quod est
+            <lb ed="#L" n="105"/>interiectio irascentis. - Tertius gradus est quando
+            <lb ed="#L" n="106"/>peccatum interius conceptum ad effectum 
+            perdu<lb break="no" ed="#L" n="107"/>citur. Est autem effectus irae nocumentum alte-
+            <pb ed="#L" n="280"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>rius sub ratione vindictae. Minimum autem 
+            no<lb break="no" ed="#L" n="2"/>cumentorum est quod fit solo verbo. Et ideo
+            <lb ed="#L" n="3"/>quantum ad hoc dicit: Qui dixerit fratri suo,
+            <lb ed="#L" n="4"/>Fatue. ;
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1359">
+            <lb ed="#L" n="5"/>Et sic patet quod secundum addit supra 
+            pri<lb break="no" ed="#L" n="6"/>mum, et tertium supra utrumque. Unde si 
+            pri<lb break="no" ed="#L" n="7"/>mum est peccatum mortale, in casu in quo 
+            Do<lb break="no" ed="#L" n="8"/>minus loquitur, sicut dictum est , multo magis
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="9"/>alia. Et ideo singulis eorum ponuntur 
+            correspon<lb break="no" ed="#L" n="10"/>dentia aliqua pertinentia ad condemnationem.
+            <lb ed="#L" n="11"/>Sed in primo ponitur iudicium, quod minus est:
+            <lb ed="#L" n="12"/>quia, ut Augustinus dicit , in iudicio adhuc 
+            de<lb break="no" ed="#L" n="13"/>fensionis locus datur. In secundo vero ponit 
+            con<lb break="no" ed="#L" n="14"/>cilium ^: in quo iudices inter se conferunt quo
+            <lb ed="#L" n="15"/>supplicio damnari oporteat. In tertio ponit 
+            ge<lb break="no" ed="#L" n="16"/>hennam ignis: quae est certa damnatio.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2088-Dd1e1391"><!-- p2p2-q158a6 -->
+          <head xml:id="TAca84-d1e2088-Hd1e1394">Articulus 6</head>
+          <head xml:id="TAca84-d1e2088-Hd1e1396" type="question-title">Utrum ira debeat poni inter vitia capitalia</head>
+          <p xml:id="TAca84-d1e2088-d1e1399">
+            <pb ed="#L" n="281"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=281"/>ARTICULUS SEXTUS
+            <lb ed="#L" n="2"/>UTRUM IRA DEBEAT PONI INTER VITIA CAPITALIA
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1410">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>ed ira non debeat poni inter vitia 
+            capita<lb break="no" ed="#L" n="5"/>lia. Ira enim ex tristitia nascitur, Sed
+            <lb ed="#L" n="6"/>tristitia est vitium capitale, quod 
+            dici<lb break="no" ed="#L" n="7"/>tur acedia. Ergo ira non debet poni vitium 
+            ca<lb break="no" ed="#L" n="8"/>pitale.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1428">
+            <lb ed="#L" n="9"/>2. PRAETEREA, odium est gravius peccatum
+            <lb ed="#L" n="10"/>quam ira. Ergo magis debet poni vitium 
+            capi<lb break="no" ed="#L" n="11"/>tale quam ira.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1438">
+            <lb ed="#L" n="12"/>3. PRAETEREA, super illud Proverb. xxix , Vir
+            <lb ed="#L" n="13"/>iracundus provocat rixas, dicit Glossa : Janua
+            <lb ed="#L" n="14"/>est omnium vitiorum iracundia: qua clausa, 
+            vir<lb break="no" ed="#L" n="15"/>tutibus intrinsecus dabitur quies; aperta, ad omne
+            <lb ed="#L" n="16"/>facinus armabitur animus. Nullum autem vitium
+            <lb ed="#L" n="17"/>capitale est principium omnium peccatorum, sed
+            <lb ed="#L" n="18"/>quorundam determinate. Ergo ira non debet
+            <lb ed="#L" n="19"/>poni inter vitia capitalia.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1458">
+            <lb ed="#L" n="20"/>SED coNTRA EsT quod Gregorius, XXXI 
+            AMo<lb break="no" ed="#L" n="21"/>ponit iram inter vitia capitalia.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1465">
+            <lb ed="#L" n="22"/>RESPONDEO DICENDUM quod, sicut ex praemissis 
+            <lb ed="#L" n="23"/>patet, vitium capitale dicitur ex quo multa vitia
+            <lb ed="#L" n="24"/>oriuntur . Habet autem hoc ira, quod ex ea
+            <lb ed="#L" n="25"/>multa vitia oriri possint, duplici ratione. Primo,
+            <lb ed="#L" n="26"/>ex parte sui obiecti, quod multum habet de ra-
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="27"/>tione appetibilitatis: inquantum scilicet vindicta
+            <lb ed="#L" n="28"/>appetitur sub ratione iusti et honesti, quod ^ sua
+            <lb ed="#L" n="29"/>dignitate allicit, ut supra  habitum est. Alio
+            <lb ed="#L" n="30"/>modo, ex suo impetu, quo mentem praecipitat
+            <lb ed="#L" n="31"/>ad inordinata quaecumque agenda. Unde 
+            mani<lb break="no" ed="#L" n="32"/>festum est quod ira est vitium capitale.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1494">
+            <lb ed="#L" n="33"/>AD PRIMUM ERGO DICENDUM quod illa tristitia ex
+            <lb ed="#L" n="34"/>qua oritur ira, ut plurimum, non est acediae 
+            vi<lb break="no" ed="#L" n="35"/>tium, sed passio tristitiae, quae consequitur ex
+            <lb ed="#L" n="36"/>iniuria illata.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1505">
+            <lb ed="#L" n="37"/>AD SECUNDUM DICENDUM quod, sicut ex supra 
+            <lb ed="#L" n="38"/>dictis patet, ad rationem vitii capitalis pertinet
+            <lb ed="#L" n="39"/>quod habeat finem multum appetibilem, ut sic
+            <lb ed="#L" n="40"/>propter appetitum eius multa peccata 
+            commit<lb break="no" ed="#L" n="41"/>tantur. lra autem, quae appetit malum sub 
+            ra<lb break="no" ed="#L" n="42"/>tione boni, habet finem magis appetibilem quam
+            <lb ed="#L" n="43"/>odium, quod appetit malum sub ratione mali.
+            <lb ed="#L" n="44"/>Et ideo magis est vitium capitale ira quam odium.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1525">
+            <lb ed="#L" n="45"/>AD TERTIUM DICENDUM quod ira dicitur esse ianua
+            <lb ed="#L" n="46"/>vitiorum per accidens, scilicet removendo 
+            prohi<lb break="no" ed="#L" n="47"/>bens, idest impediendo iudicium rationis, per quod
+            <lb ed="#L" n="48"/>homo retrahitur a malis. Directe autem et per
+            <lb ed="#L" n="49"/>se est causa aliquorum specialium peccatorum,
+            <lb ed="#L" n="50"/>quae dicuntur filiae eius.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2088-Dd1e1543"><!-- p2p2-q158a7 -->
+          <head xml:id="TAca84-d1e2088-Hd1e1546">Articulus 7</head>
+          <head xml:id="TAca84-d1e2088-Hd1e1548" type="question-title">Utrum convenienter assignentur sex filiae irae</head>
+          <p xml:id="TAca84-d1e2088-d1e1551">
+            <pb ed="#L" n="282"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=282"/>ARTICULUS SEPTIMUS
+            <lb ed="#L" n="2"/>UTRUM CONVENIENTER ASSIGNENTUR SEX FILIAE IRAE
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1562">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>inconvenienter assignentur sex filiae irae,
+            <lb ed="#L" n="5"/>quae sunt rzxad, tumor mentis, 
+            contume<lb break="no" ed="#L" n="6"/>lia, clamor, indignatio, blasphemia. 
+            Blas<lb break="no" ed="#L" n="7"/>phemia enim ponitur ab Isidoro  filia 
+            super<lb break="no" ed="#L" n="8"/>biae. Non ergo debet poni filia irae. 
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1580">
+            <lb ed="#L" n="9"/>2. PRAETEREA, odium nascitur ex ira: ut 
+            Au<lb break="no" ed="#L" n="10"/>gustinus dicit, in Regula . Ergo deberet 
+            nume<lb break="no" ed="#L" n="11"/>rari inter filias irae.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1590">
+            <lb ed="#L" n="12"/>3. PRAETEREA, tumor mentis videtur idem esse
+            <lb ed="#L" n="13"/>quod superbia. Superbia autem non est filia 
+            ali<lb break="no" ed="#L" n="14"/>culus vitii, sed mater omnium vitiorum, ut 
+            Gre<lb break="no" ed="#L" n="15"/>gorius dicit, XXXI Moral.  Ergo tumor mentis
+            <lb ed="#L" n="16"/>non debet numerari inter filias irae.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1603">
+            <lb ed="#L" n="17"/>SED CONTRA EST quod Gregorius, XXXI Moral.,
+            <lb ed="#L" n="18"/>assignat has filias irae.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1610">
+            <lb ed="#L" n="19"/>RESPONDEO DICENDUM quod ira potest tripliciter
+            <lb ed="#L" n="20"/>considerari. Uno modo, secundum quod est in
+            <lb ed="#L" n="21"/>corde. Et sic ex ira nascuntur duo vitia. Unum
+            <lb ed="#L" n="22"/>quidem ex parte eius contra quem homo 
+            irasci<lb break="no" ed="#L" n="23"/>tur, quem reputat indignum ut sibi tale quid 
+            fe<lb break="no" ed="#L" n="24"/>cerit. Et sic ponitur indignatio. - Aliud autem
+            <lb ed="#L" n="25"/>vitium est ex parte sui ipsius: inquantum  
+            scili<lb break="no" ed="#L" n="26"/>cet excogitat diversas vias vindictae, et talibus
+            <lb ed="#L" n="27"/>cogitationibus animum suum replet, secundum
+            <lb ed="#L" n="28"/>illud Iob xv : Nunquid sapiens implebit ardore
+            <lb ed="#L" n="29"/>stomachum suum. Et sic ponitur tumor mentis. 
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1636">
+            <lb ed="#L" n="30"/>Alio modo consideratur ira secundum quod
+            <lb ed="#L" n="31"/>est in ore. Et sic ex ira duplex inordinatio 
+            pro<lb break="no" ed="#L" n="32"/>cedit. Una quidem secundum hoc quod homo
+            <lb ed="#L" n="33"/>in modo loquendi iram suam demonstrat: sicut
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="34"/>dictum est  de eo qui dicit fratri suo, Raca. Et 
+            <lb ed="#L" n="35"/>sic ponitur clamor: per quem intelligitur inordinata
+            <lb ed="#L" n="36"/>et confusa locutio. - Alia autem est inordinatio
+            <lb ed="#L" n="37"/>secundum quod aliquis prorumpit in verba 
+            iniu<lb break="no" ed="#L" n="38"/>riosa. Quae quidem si sint contra Deum, erit 
+            blas<lb break="no" ed="#L" n="39"/>phemia; si autem contra proximum, contumelia.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1662">
+            <lb ed="#L" n="40"/>Tertio modo consideratur ira secundum quod
+            <lb ed="#L" n="41"/>procedit usque ad factum. Et sic ex ira oriuntur
+            <lb ed="#L" n="42"/>rixae: per quas intelliguntur omnia nocumenta
+            <lb ed="#L" n="43"/>quae facto proximis inferuntur ex ira.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1673">
+            <lb ed="#L" n="44"/>AD PRIMUM ERGO DICENDUM quod blasphemia in
+            <lb ed="#L" n="45"/>quam aliquis prorumpit deliberata mente, 
+            proce<lb break="no" ed="#L" n="46"/>dit ex superbia hominis contra Deum se 
+            erigen<lb break="no" ed="#L" n="47"/>tis: quia, ut dicitur Eccli. x , initium superbiae 
+            <lb ed="#L" n="48"/>hominis apostatare a Deo; idest, recedere a 
+            ve<lb break="no" ed="#L" n="49"/>neratione eius est prima superbiae pars, et ex
+            <lb ed="#L" n="50"/>hoc oritur. blasphemia. Sed blasphemia in quam
+            <lb ed="#L" n="51"/>aliquis prorumpit ex commotione animi, 
+            proce<lb break="no" ed="#L" n="52"/>dit ex ira.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1696">
+            <lb ed="#L" n="53"/>AD SECUNDUM DICENDUM quod odium, etsi 
+            ali<lb break="no" ed="#L" n="54"/>quando nascatur ex ira, tamen habet aliquam
+            <lb ed="#L" n="55"/>priorem causam ex qua directius oritur, scilicet
+            <lb ed="#L" n="56"/>tristitiam: sicut e contrario amor nascitur ex 
+            de<lb break="no" ed="#L" n="57"/>lectatione . Ex tristitia autem illata quandoque in
+            <lb ed="#L" n="58"/>iram, quandoque in odium aliquis movetur. Unde
+            <lb ed="#L" n="59"/>convenientius fuit quod odium poneretur oriri
+            <lb ed="#L" n="60"/>ex acedia quam ex ira.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1716">
+            <lb ed="#L" n="61"/>AD TERTIUM DICENDUM quod tumor mentis non
+            <lb ed="#L" n="62"/>accipitur hic pro superbia: sed pro quodam 
+            co<lb break="no" ed="#L" n="63"/>natu sive audacia hominis intentantis vindictam.
+            <lb ed="#L" n="64"/>Audacia autem est vitium fortitudini oppositum.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2088-Dd1e1728"><!-- p2p2-q158a8 -->
+          <head xml:id="TAca84-d1e2088-Hd1e1731">Articulus 8</head>
+          <head xml:id="TAca84-d1e2088-Hd1e1733" type="question-title">Utrum sit aliquod vitium oppositum iracundiae, proveniens ex defectu irae</head>
+          <p xml:id="TAca84-d1e2088-d1e1736">
+            <lb ed="#L" n="19" type="fixed=284"/>ARTICULUS OCTAVUS
+            <lb ed="#L" n="20"/>UTRUM SIT ALIQUOD VITIUM OPPOSITUM IRACUNDIAE, PROVENIENS EX DEFECTU IRAE
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1743">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="21"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="22"/>non sit aliquod vitium oppositum 
+            ira<lb break="no" ed="#L" n="23"/>cundiae, proveniens ex defectu irae. 
+            Ni<lb break="no" ed="#L" n="24"/>hil enim est vitiosum per quod homo
+            <lb ed="#L" n="25"/>Deo similatur. Sed per hoc quod homo omnino
+            <lb ed="#L" n="26"/>est sine ira, similatur Deo, qui cum tranquillitate
+            <lb ed="#L" n="27"/>iudicat . Ergo non videtur quod sit vitiosum
+            <lb ed="#L" n="28"/>omnino ira carere.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1765">
+            <lb ed="#L" n="29"/>2. PRAETEREA, defectus eius quod ad nihil est
+            <lb ed="#L" n="30"/>utile, non est vitiosus. Sed motus irae ad nihil
+            <lb ed="#L" n="31"/>est utilis: ut probat Seneca in libro quem fecit
+            <lb ed="#L" n="32"/>de Ira . Ergo videtur quod defectus irae non
+            <lb ed="#L" n="33"/>sit vitiosus.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1779">
+            <lb ed="#L" n="34"/>3. PRAETEREA, malum hominis, secundum 
+            Dio<lb break="no" ed="#L" n="35"/>nysium , est praeter rationem esse. Sed, 
+            subtra<lb break="no" ed="#L" n="36"/>cto omni motu irae, adhuc remanet integrum 
+            iu<lb break="no" ed="#L" n="37"/>dicium rationis. Ergo nullus defectus irae vitium
+            <lb ed="#L" n="38"/>causat.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1792">
+            <lb ed="#L" n="39"/>SED coNTRA EST quod Chrysostomus dicit, 
+            su<lb break="no" ed="#L" n="40"/>per Matth.: Qui cum causa non  irascitur,
+            <lb ed="#L" n="41"/>peccat. Patientia enim irrationabilis vitia seminat,
+            <lb ed="#L" n="42"/>negligentiam nutrit, et non solum malos, sed etiam
+            <lb ed="#L" n="43"/>bonos invitat ad malum.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1805">
+            <lb ed="#L" n="44"/>RESPONDEO DICENDUM quod ira dupliciter potest
+            <lb ed="#L" n="45"/>intelligi. Uno modo, simplex motus voluntatis quo
+            <lb ed="#L" n="46"/>aliquis non ex passione, sed ex iudicio rationis
+            <lb ed="#L" n="47"/>poenam infligit. Et sic defectus irae absque 
+            du<lb break="no" ed="#L" n="48"/>bio est peccatum. Et hoc modo ira accipitur in
+            <lb ed="#L" n="49"/>verbis Chrysostomi, qui dicit ibidem: Jracundia
+            <lb ed="#L" n="50"/>quae cum causa esi, non est iracundia, sed 
+            iu<lb break="no" ed="#L" n="51"/>dicium. Iracundia enim proprie intelligitur 
+            com<lb break="no" ed="#L" n="52"/>motio passionis: qui aulem cum causa irascitur,
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="53"/>ira illius non est ex passione. Ideo iudicare 
+            di<lb break="no" ed="#L" n="54"/>citur, non irasci.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1834">
+            <lb ed="#L" n="55"/>Alio modo accipitur ira pro motu appetitus
+            <lb ed="#L" n="56"/>sensitivi, qui est cum passione et transmutatione
+            <lb ed="#L" n="57"/>corporali. Et hic quidem motus ex necessitate
+            <lb ed="#L" n="58"/>consequitur in homine ad simplicem motum 
+            vo<lb break="no" ed="#L" n="59"/>luntatis: quia naturaliter appetitus inferior 
+            sequi<lb break="no" ed="#L" n="60"/>tur motum appetitus superioris, nisi aliquid 
+            repu<lb break="no" ed="#L" n="61"/>gnet. Et ideo non potest totaliter deficere motus
+            <lb ed="#L" n="62"/>irae in appetitu sensitivo, nisi per subtractionem
+            <lb ed="#L" n="63"/>vel debilitatem voluntarii motus. Et ideo ex 
+            con<lb break="no" ed="#L" n="64"/>sequenti etiam defectus passionis irae vitiosus
+            <lb ed="#L" n="65"/>est: sicut et defectus voluntarii motus ad 
+            punien<lb break="no" ed="#L" n="66"/>dum secundum iudicium rationis.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1863">
+            <lb ed="#L" n="67"/>AD PRIMUM ERGO DICENDUM quod ille qui totaliter
+            <lb ed="#L" n="68"/>non irascitur cum debet irasci, imitatur quidem
+            <lb ed="#L" n="69"/>Deum quantum ad carentiam passionis: non
+            <lb ed="#L" n="70"/>autem quantum ad hoc quod Deus ex iudicio
+            <lb ed="#L" n="71"/>punit.
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1876">
+            <lb ed="#L" n="72"/>AD SECUNDUM DICENDUM quod passio irae utilis
+            <lb ed="#L" n="73"/>est, sicut et omnes alii motus appetitus sensitivi,
+            <lb ed="#L" n="74"/>ad hoc quod homo promptius exequatur id quod
+            <lb ed="#L" n="75"/>ratio dictat. Alioquin, frustra esset in homine 
+            ap<lb break="no" ed="#L" n="76"/>petitus sensitivus: cum tamen natura nihil faciat
+            <lb ed="#L" n="77"/>frustra .
+          </p>
+          <p xml:id="TAca84-d1e2088-d1e1893">
+            <lb ed="#L" n="78"/>AD TERTIUM DICENDUM quod in eo qui ordinate
+            <lb ed="#L" n="79"/>agit, iudicium rationis non solum est causa 
+            sim<lb break="no" ed="#L" n="80"/>plicis motus voluntatis, sed etiam passionis 
+            ap<lb break="no" ed="#L" n="81"/>petitus sensitivi, ut dictum est . Et ideo, sicut
+            <lb ed="#L" n="82"/>remotio effectus est signum remotionis causae,
+            <lb ed="#L" n="83"/>ita etiam remotio irae est signum remotionis 
+            iu<lb break="no" ed="#L" n="84"/>dicii rationis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

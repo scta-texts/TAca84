@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 178</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 178</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="417"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2192"><!-- p2p2-q178 -->
+        <head xml:id="TAca84-d1e2192-Hd1e101">Quaestio 178</head>
+        <head xml:id="TAca84-d1e2192-Hd1e103" type="question-title">De gratia miraculorum</head>
+        <p xml:id="TAca84-d1e2192-d1e106">
+          <pb ed="#L" n="417"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=417"/>QUAESTIO CENTESIMASEPTUAGESIMAOCTAVA
+          <lb ed="#L" n="2"/>DE GRATIA MIRACULORUM
+          <lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2192-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de gratia 
+          miracu<lb break="no" ed="#L" n="5"/>lorum.
+          <lb ed="#L" n="6"/>Et circa hoc quaeruntur duo.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="7"/>Primo: utrum sit aliqua gratia gratis data 
+          fa<lb break="no" ed="#L" n="8"/>ciendi miracula.
+          <lb ed="#L" n="9"/>Secundo: quibus conveniat.
+        </p>
+        <div xml:id="TAca84-d1e2192-Dd1e139"><!-- p2p2-q178a1 -->
+          <head xml:id="TAca84-d1e2192-Hd1e142">Articulus 1</head>
+          <head xml:id="TAca84-d1e2192-Hd1e144" type="question-title">Utrum aliqua gratia gratis data ordinetur ad miracula facienda</head>
+          <p xml:id="TAca84-d1e2192-d1e147">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="10" type="fixed=417"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="11"/>UTRUM ALIQUA GRATIA GRATIS DATA ORDINETUR AD MIRACULA FACIENDA
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e156">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="12"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="13"/>nulla gratia gratis data ordinetur ad
+            <lb ed="#L" n="14"/>miracula facienda. Omnis enim gratia
+            <lb ed="#L" n="15"/>ponit aliquid in eo cui datur. Sed 
+            ope<lb break="no" ed="#L" n="16"/>ratio miraculorum non ponit aliquid in anima
+            <lb ed="#L" n="17"/>hominis cui datur: quia etiam ad tactum corporis
+            <lb ed="#L" n="18"/>mortui miracula fiunt; sicut legitur IV Reg. xui ,
+            <lb ed="#L" n="19"/>quod quidam proiecerunt cadaver in sepulcro
+            <lb ed="#L" n="20"/>Elisei, quod cum tetigisset ossa Elisei, revixit
+            <lb ed="#L" n="21"/>homo' et stetit  super pedes suos. Ergo operatio
+            <lb ed="#L" n="22"/>miraculorum non pertinet ad gratiam gratis datam.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e185">
+            <lb ed="#L" n="23"/>2. PRAETEREA, gratiae gratis datae sunt a 
+            Spi<lb break="no" ed="#L" n="24"/>ritu Sancto: secundum illud I ad Cor. xit : 
+            Di<lb break="no" ed="#L" n="25"/>visiones gratiarum sunt: idem autem Spiritus. Sed
+            <lb ed="#L" n="26"/>operatio miraculorum fit etiam a spiritu 
+            immun<lb break="no" ed="#L" n="27"/>do: secundum illud Matth. xxiv : Surgent? 
+            pseu<lb break="no" ed="#L" n="28"/>dochristi et. pseudoprophetae, et dabunt signa et
+            <lb ed="#L" n="29"/>prodigia magna. Ergo videtur quod operatio 
+            mi<lb break="no" ed="#L" n="30"/>raculorum non pertineat ad gratiam gratis datam.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e206">
+            <lb ed="#L" n="31"/>3. PRAETEREA, miracula distinguuntur per s727,
+            <lb ed="#L" n="32"/>et prodigia sive portenta, et per virtutes . 
+            Incon<lb break="no" ed="#L" n="33"/>venienter ergo ponitur operatio virtutum potius
+            <lb ed="#L" n="34"/>gratia gratis data quam operaíio prodigiorum sive
+            <lb ed="#L" n="35"/>signorum.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e219">
+            <lb ed="#L" n="36"/>4. PRAETEREA, miraculosa reparatio sanitatis
+            <lb ed="#L" n="37"/>per divinam virtutem fit. Ergo non debet 
+            distin<lb break="no" ed="#L" n="38"/>gui gratia sanitatum ab operatione virtutum.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e228">
+            <lb ed="#L" n="39"/>5. PRAETEREA, operatio miraculorum 
+            consequi<lb break="no" ed="#L" n="40"/>tur fidem: vel facientis, secundum illud I ad
+            <lb ed="#L" n="41"/>Cor. xiu , Si habuero omnem fidem, ita ut montes
+            <lb ed="#L" n="42"/>iransferam ; sive etiam aliorum, propter quos
+            <lb ed="#L" n="43"/>miracula fiunt, unde dicitur Matth. xui : Et non
+            <lb ed="#L" n="44"/>fecit ibi virtutes multas, propter incredulitatem 
+            il<lb break="no" ed="#L" n="45"/>lorum. Si ergo fides ponitur gratia gratis data,
+            <lb ed="#L" n="46"/>superfluum est praeter hoc ponere aliam gratiam
+            <lb ed="#L" n="47"/>gratis datam operationem signorum.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e250">
+            <lb ed="#L" n="48"/>SED CONTRA EST quod Apostolus, I ad Cor. xu ,
+            <lb ed="#L" n="49"/>inter alias gratias gratis datas, dicit: .4/i datur
+            <lb ed="#L" n="50"/>gralia sanitatum, alii operatio virtutum.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e259">
+            <lb ed="#L" n="51"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="52"/>est, Spiritus Sanctus sufficienter providet 
+            Eccle<lb break="no" ed="#L" n="53"/>siae in his quae sunt utilia ad salutem, ad quod
+            <lb ed="#L" n="54"/>ordinantur gratiae gratis datae. Sicut autem 
+            opor<lb break="no" ed="#L" n="55"/>tet quod notitia quam quis divinitus accipit , in
+            <lb ed="#L" n="56"/>notitiam aliorum deducatur per donum 
+            lingua<lb break="no" ed="#L" n="57"/>rum et per gratiam sermonis; ita necesse est
+            <lb ed="#L" n="58"/>quod sermo prolatus confirmetur, ad hoc quod
+            <lb ed="#L" n="59"/>credibilis fiat. Hoc autem fit per operationem
+            <lb ed="#L" n="60"/>miraculorum: secundum illud Marci ult. : Et
+            <lb ed="#L" n="61"/>sermonem  confirmante  sequentibus signis. Et
+            <lb ed="#L" n="62"/>hoc rationabiliter. Naturale enim est homini ut
+            <lb ed="#L" n="63"/>veritatem intelligibilem per sensibiles effectus 
+            de<lb break="no" ed="#L" n="64"/>prehendat. Unde sicut ductu naturalis rationis
+            <lb ed="#L" n="65"/>homo pervenire potest in aliquam Dei notitiam
+            <lb ed="#L" n="66"/>per effectus naturales, ita per aliquos 
+            supernatu<lb break="no" ed="#L" n="67"/>rales effectus, qui miracula dicuntur, in aliquam
+            <lb ed="#L" n="68"/>supernaturalem cognitionem credendorum homo
+            <lb ed="#L" n="69"/>adducitur. Et ideo operatio miraculorum pertinet
+            <lb ed="#L" n="70"/>ad gratiam gratis datam .
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e307">
+            <lb ed="#L" n="71"/>AD PRIMUM ERGO DICENDUM quod, sicut 
+            prophe<lb break="no" ed="#L" n="72"/>tia se extendit ad omnia quae supernaturaliter
+            <lb ed="#L" n="73"/>cognosci possunt, ita operatio virtutum se 
+            exten<lb break="no" ed="#L" n="74"/>dit ad omnia quae supernaturaliter fieri possunt.
+            <lb ed="#L" n="75"/>Quorum quidem causa est divina omnipotentia,
+            <lb ed="#L" n="76"/>quae nulli creaturae communicari potest . Et
+            <lb ed="#L" n="77"/>ideo impossibile est quod principium operandi
+            <lb ed="#L" n="78"/>miracula sit aliqua qualitas habitualiter manens
+            <lb ed="#L" n="79"/>in anima.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e330">
+            <lb ed="#L" n="80"/>Sed tamen hoc potest contingere, quod sicut
+            <lb ed="#L" n="81"/>mens prophetae movetur ex inspiratione divina
+            <lb ed="#L" n="82"/>ad aliquid supernaturaliter cognoscendum, ita
+            <lb ed="#L" n="83"/>etiam mens miracula facientis moveatur ad 
+            fa<lb break="no" ed="#L" n="84"/>ciendum aliquid ad quod sequitur effectus 
+            mi<lb break="no" ed="#L" n="85"/>raculi, quod Deus sua virtute facit. Quod 
+            quan<lb break="no" ed="#L" n="86"/>doque quidem fit praecedente oratione, sicut cum -
+            <lb ed="#L" n="87"/>Petrus Tabitham mortuam suscitavit, ut habetur
+            <lb ed="#L" n="88"/>Act. ix : quandoque etiam non praecedente 
+            ma<lb break="no" ed="#L" n="89"/>nifesta oratione, sed Deo ad nutum hominis 
+            ope<lb break="no" ed="#L" n="90"/>rante, sicut Petrus Ananiam et Saphiram 
+            men<lb break="no" ed="#L" n="91"/>tientes morti increpando tradidit, ut dicitur Act. v .
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e359">
+            <pb ed="#L" n="418"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>Unde Gregorius dicit, in II Dialog.
+            <lb ed="#L" n="2"/>aliquando ex potestate, aliquando  exhibent 
+            mi<lb break="no" ed="#L" n="3"/>racula ex postulatione. Utrolibet tamen modo 
+            <lb ed="#L" n="4"/>Deus principaliter operatur, qui utitur 
+            instrumen<lb break="no" ed="#L" n="5"/>taliter vel interiori motu hominis, vel eius 
+            locu<lb break="no" ed="#L" n="6"/>tione, vel etiam aliquo exteriori actu, seu etiam
+            <lb ed="#L" n="7"/>aliquo contactu corporali corporis, etiam mortui .
+            <lb ed="#L" n="8"/>Unde Iosue x , cum Iosue dixisset, quasi ex 
+            po<lb break="no" ed="#L" n="9"/>testate, Sol, contra Gabaon non movearis, 
+            sub<lb break="no" ed="#L" n="10"/>ditur postea : Non fuit antea et post tam longa
+            <lb ed="#L" n="11"/>dies, obediente Deo voci hominis.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e390">
+            <lb ed="#L" n="12"/>AD SECUNDUM DICENDUM quod ibi loquitur 
+            Do<lb break="no" ed="#L" n="13"/>minus de miraculis quae fienda sunt tempore
+            <lb ed="#L" n="14"/>Antichristi: de quibus Apostolus dicit, lI ad
+            <lb ed="#L" n="15"/>Thessal. wu , quod adventus Antichristi erit 
+            secun<lb break="no" ed="#L" n="16"/>dum operationem. Satanae, in omni virtule et
+            <lb ed="#L" n="17"/>signis et prodigiis mendacibus. Et sicut 
+            Augusti<lb break="no" ed="#L" n="18"/>nus dicit, XX de Civ. Dei , ambigi  solet utrum 
+            <lb ed="#L" n="19"/>propterea dicia sint signa et prodigia mendacii,
+            <lb ed="#L" n="20"/>quoniam mortales sensus per phantasmata 
+            dece<lb break="no" ed="#L" n="21"/>pturus est, ut quod non facit, facere videatur: an
+            <lb ed="#L" n="22"/>quia illa, etiam si erunt vera prodigia, ad 
+            men<lb break="no" ed="#L" n="23"/>dacium perirahent. Vera autem dicuntur, quia
+            <lb ed="#L" n="24"/>ipsae res verae erunt: sicut magi Pharaonis 
+            fe<lb break="no" ed="#L" n="25"/>cerunt veras ranas et veros serpentes . Non
+            <lb ed="#L" n="26"/>autem habebunt veram rationem: miraculi: quia
+            <lb ed="#L" n="27"/>fient virtute naturalium causarum, sicut in Prima
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="28"/>Parte  dictum est. Sed operatio miraculorum
+            <lb ed="#L" n="29"/>quae attribuitur gratiae gratis datae, fit virtute
+            <lb ed="#L" n="30"/>divina, ad hominum utilitatem.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e436">
+            <lb ed="#L" n="31"/>AD TERTIUM DICENDUM quod in rdirgtulis duo
+            <lb ed="#L" n="32"/>possunt attendi. Unum quidem est id quod fit:
+            <lb ed="#L" n="33"/>quod. quidem est aliquid excedens facultatem
+            <lb ed="#L" n="34"/>naturae. Et secundum hoc, miracula dicuntur
+            <lb ed="#L" n="35"/>virtutes. - Aliud est id propter quod miracula
+            <lb ed="#L" n="36"/>fiunt: scilicet ad manifestandum aliquid 
+            super<lb break="no" ed="#L" n="37"/>naturale. Et secundum hoc, communiter 
+            dicun<lb break="no" ed="#L" n="38"/>tur signa: propter excellentiam autem, 
+            dicun<lb break="no" ed="#L" n="39"/>tur portenta vel prodigia, quasi procul aliquid 
+            <lb ed="#L" n="40"/>ostendentia.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e460">
+            <lb ed="#L" n="41"/>AD QUARTUM DICENDUM quod gratia sanitatum
+            <lb ed="#L" n="42"/>commemoratur seorsum, quia per eam confertur
+            <lb ed="#L" n="43"/>homini aliquod beneficium, scilicet corporalis 
+            sa<lb break="no" ed="#L" n="44"/>nitatis, praeter beneficium commune quod 
+            exhi<lb break="no" ed="#L" n="45"/>betur in omnibus miraculis, ut scilicet homines
+            <lb ed="#L" n="46"/>adducantur  in Dei notitiam. .
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e476">
+            <lb ed="#L" n="47"/>AD QUINTUM DICENDUM quod operatio 
+            miraculo<lb break="no" ed="#L" n="48"/>rum attribuitur fidei propter duo. Primo quidem,
+            <lb ed="#L" n="49"/>quia ordinatur ad fidei confirmationem. Secundo,
+            <lb ed="#L" n="50"/>quia procedit ex Dei omnipotentia, cui fides 
+            in<lb break="no" ed="#L" n="51"/>nititur. Et tamen, sicut praeter gratiam fidei ne-.
+            <lb ed="#L" n="52"/>cessaria est gratia sermonis ad fidei 
+            instructio<lb break="no" ed="#L" n="53"/>nem, ita etiam necessaria est operatio 
+            miraculo<lb break="no" ed="#L" n="54"/>rum ad fidei confirmationem.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2192-Dd1e498"><!-- p2p2-q178a2 -->
+          <head xml:id="TAca84-d1e2192-Hd1e501">Articulus 2</head>
+          <head xml:id="TAca84-d1e2192-Hd1e503" type="question-title">Utrum mali possint miracula facere</head>
+          <p xml:id="TAca84-d1e2192-d1e506">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="9" type="fixed=419"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="10"/>UTRUM MALI POSSINT MIRACULA FACERE
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e515">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="11"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="12"/>mali non possint facere miracula. 
+            Mi<lb break="no" ed="#L" n="13"/>fe racula enim perpetrantur  per 
+            oratio<lb break="no" ed="#L" n="14"/>AS nem, sicut dictum est . Sed oratio
+            <lb ed="#L" n="15"/>peccatoris non est exaudibilis: secundum illud
+            <lb ed="#L" n="16"/>Ioan. ix : Scimus quia peccatores Deus non 
+            au<lb break="no" ed="#L" n="17"/>dit. Et Prov. xxvii . dicitur: Qui declinat aurem
+            <lb ed="#L" n="18"/>suam ne audiat legem, oratio sua erit 
+            execra<lb break="no" ed="#L" n="19"/>bilis. Ergo videtur quod mali miracula facere non
+            <lb ed="#L" n="20"/>possint.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e541">
+            <lb ed="#L" n="21"/>3. PRAETEREA, miracula attribuuntur fidei: 
+            se<lb break="no" ed="#L" n="22"/>cundum illud Matth. xvi : Si habueritis fidem
+            <lb ed="#L" n="23"/>sicut. granum sinapis, dicetis monti huic, Transi
+            <lb ed="#L" n="24"/>hinc, et transibit . Fides autem sine operibus 
+            mor<lb break="no" ed="#L" n="25"/>tua est, ut dicitur lac. n : et sic non videtur
+            <lb ed="#L" n="26"/>quod habeat propriam operationem. Ergo 
+            vide<lb break="no" ed="#L" n="27"/>tur quod mali, qui non sunt bonorum operum,
+            <lb ed="#L" n="28"/>miracula facere non possunt.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e562">
+            <lb ed="#L" n="29"/>3. PnaETEREA, miracula sunt quaedam divina
+            <lb ed="#L" n="30"/>testimonia: secundum illud Heb. it : Contestante
+            <lb ed="#L" n="31"/>Deo signis et portentis et variis virtutibus. Unde
+            <lb ed="#L" n="32"/>et in Ecclesia aliqui canonizantur per testimonia
+            <lb ed="#L" n="33"/>miraculorum. Sed Deus non potest esse testis
+            <lb ed="#L" n="34"/>falsitatis. Ergo videtur quod mali homines non
+            <lb ed="#L" n="35"/>possint miracula facere.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e580">
+            <lb ed="#L" n="36"/>4. PRAETEREA, boni sunt Deo coniunctiores
+            <lb ed="#L" n="37"/>quam mali. Sed non omnes boni faciunt 
+            mira<lb break="no" ed="#L" n="38"/>cula. Ergo multo minus mali faciunt.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e589">
+            <lb ed="#L" n="39"/>SEp cowNTRA EST quod Apostolus dicit, I ad
+            <lb ed="#L" n="40"/>Cor. xiu : Si habuero omnem fidem, ita ut 
+            mon<lb break="no" ed="#L" n="41"/>les transferam , caritatem autem non habuero,
+            <lb ed="#L" n="42"/>nihil sum. Sed quicumque non habet caritatem, .
+            <lb ed="#L" n="43"/>est malus: quia Aoc solum donum Spiritus 
+            San<lb break="no" ed="#L" n="44"/>cti est quod dividit inter filios Regni et filios 
+            per<lb break="no" ed="#L" n="45"/>ditionis, ut Augustinus dicit, XV de 7rin.  Ergo
+            <lb ed="#L" n="46"/>videtur quod etiam mali possunt miracula facere.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e609">
+            <lb ed="#L" n="47"/>RESPONDEO DICENDUM quod miraculorum aliqua
+            <lb ed="#L" n="48"/>quidem non sunt vera, sed phantastica facta, 
+            qui<lb break="no" ed="#L" n="49"/>bus scilicet ludificatur homo, ut videatur ei 
+            ali<lb break="no" ed="#L" n="50"/>quid quod non est. Quaedam vero sunt vera
+            <lb ed="#L" n="51"/>facta, sed non vere habent rationem miraculi,
+            <lb ed="#L" n="52"/>quae fiunt virtute aliquarum naturalium 
+            causa<lb break="no" ed="#L" n="53"/>rum. Et haec duo possunt fieri per daemones,
+            <lb ed="#L" n="54"/>ut supra  dictum est.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e629">
+            <lb ed="#L" n="55"/>Sed vera miracula non possunt fieri nisi 
+            vir<lb break="no" ed="#L" n="56"/>tute divina: operatur enim ea Deus ad hominum
+            <lb ed="#L" n="57"/>utilitatem. Et hoc dupliciter: uno quidem modo,
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="58"/>ad veritatis praedicatae confirmationem ; alio
+            <lb ed="#L" n="59"/>modo, ad demonstrationem sanctitatis alicuius
+            <lb ed="#L" n="60"/>quem ? Deus vult hominibus proponere in 
+            exem<lb break="no" ed="#L" n="61"/>plum virtutis. Primo autem modo, miracula 
+            pos<lb break="no" ed="#L" n="62"/>sunt fieri per quemcumque qui veram fidem
+            <lb ed="#L" n="63"/>praedicat et nomen Christi invocat: quod etiam
+            <lb ed="#L" n="64"/>interdum per malos fit. Et secundum hunc 
+            mo<lb break="no" ed="#L" n="65"/>dum, etiam mali possunt miracula facere. Unde
+            <lb ed="#L" n="66"/>super illud Matth. vii , Nonne in nomine iuo
+            <lb ed="#L" n="67"/>prophetavimus etc., dicit Hieronymus : 
+            Propheta<lb break="no" ed="#L" n="68"/>re, vel virtutes facere et daemonia eücere, 
+            inter<lb break="no" ed="#L" n="69"/>dum non est eius merili qui operatur: sed 
+            invo<lb break="no" ed="#L" n="70"/>catio nominis Christi hoc agit, ut homines Deum
+            <lb ed="#L" n="71"/>honorent, ad cuius invocationem fiunt tanta 
+            mi<lb break="no" ed="#L" n="72"/>racula.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e673">
+            <lb ed="#L" n="73"/>Secundo autem modo, non fiunt miracula nisi
+            <lb ed="#L" n="74"/>a sanctis: ad quorum sanctitatem 
+            demonstran<lb break="no" ed="#L" n="75"/>dam  miracula fiunt vel in vita eorum vel etiam
+            <lb ed="#L" n="76"/>post mortem, sive per eos sive per alios. 
+            Le<lb break="no" ed="#L" n="77"/>gitur enim ct. xix , quod Deus faciebat virtutes
+            <lb ed="#L" n="78"/>per manus Pauli: et etiam desuper languidos 
+            de<lb break="no" ed="#L" n="79"/>ferebantur a corpore eius sudaria, et recedebant
+            <lb ed="#L" n="80"/>ab eis languores. Et sic etiam nihil prohibet per
+            <lb ed="#L" n="81"/>aliquem peccatorem miracula fieri ad 
+            invocatio<lb break="no" ed="#L" n="82"/>nem alicuius Sancti. Quae tamen miracula non
+            <lb ed="#L" n="83"/>dicitur ille facere: sed ille ad cuius sanctitatem
+            <lb ed="#L" n="84"/>demonstrandam  haec fierent.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e703">
+            <lb ed="#L" n="85"/>AD PRIMUM ERGO DICENDUM quod, sicut supra 
+            <lb ed="#L" n="86"/>dictum est, cum de oratione ageretur, oratio in
+            <lb ed="#L" n="87"/>impetrando non innititur merito, sed divinae 
+            mi<lb break="no" ed="#L" n="88"/>sericordiae, quae etiam ad malos se extendit. Et
+            <lb ed="#L" n="89"/>ideo etiam quandoque peccatorum oratio a Deo
+            <lb ed="#L" n="90"/>exauditur. Unde Augustinus dicit, super Joan. ,
+            <lb ed="#L" n="91"/>quod illud verbum caecus locutus est quasi 
+            ad<lb break="no" ed="#L" n="92"/>huc inunctus, idest nondum perfecte illuminatus:
+            <lb ed="#L" n="93"/>nam peccatores exaudit Deus. - Quod autem 
+            di<lb break="no" ed="#L" n="94"/>citur quod oratio non audientis ^ legem est 
+            exe<lb break="no" ed="#L" n="95"/>crabilis, intelligendum est quantum est ex merito
+            <lb ed="#L" n="96"/>peccatoris. Sed interdum impetrat ex misericordia
+            <lb ed="#L" n="97"/>Dei: vel propter salutem eius qui orat, sicut 
+            au<lb break="no" ed="#L" n="98"/>ditus est publicanus, ut dicitur Luc. xvin ; vel
+            <lb ed="#L" n="99"/>etiam propter salutem aliorum et gloriam Dei.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e738">
+            <lb ed="#L" n="100"/>AD SECUNDUM DICENDUM quod fides sine operibus
+            <lb ed="#L" n="101"/>dicitur esse rhortua quantum ad ipsum 
+            creden<lb break="no" ed="#L" n="102"/>tem, qui per eam non vivit vita gratiae. Nihil
+            <lb ed="#L" n="103"/>autem prohibet quod res viva operetur per 
+            in<lb break="no" ed="#L" n="104"/>strumentum mortuum: sicut homo operatur per
+            <pb ed="#L" n="420"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>baculum. Et hoc modo Deus operatur per fidem
+            <lb ed="#L" n="2"/>hominis peccatoris instrumentaliter.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e760">
+            <lb ed="#L" n="3"/>AD TERTIUM DICENDUM quod miracula semper
+            <lb ed="#L" n="4"/>sunt vera testimonia eius ad quod inducuntur.
+            <lb ed="#L" n="5"/>Unde a malis qui falsam doctrinam enuntiant,
+            <lb ed="#L" n="6"/>nunquam fiunt vera miracula ad confirmationem
+            <lb ed="#L" n="7"/>suae doctrinae: quamvis quandoque fieri possint
+            <lb ed="#L" n="8"/>ad commendationem nominis Christi, quod 
+            in<lb break="no" ed="#L" n="9"/>vocant, et virtute sacramentorum quae exhibent.
+            <lb ed="#L" n="10"/>Ab his autem qui veram doctrinam enuntiant,
+            <lb ed="#L" n="11"/>fiunt quandoque vera miracula ad 
+            confirmatio<lb break="no" ed="#L" n="12"/>nem doctrinae, non autem ad testificationem
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="13"/>sanctitatis. Unde Augustinus dicit, in libro 
+            Octo<lb break="no" ed="#L" n="14"/>ginta trium Quaest. : Aliter magi faciunt 
+            mi<lb break="no" ed="#L" n="15"/>racula, aliter boni Christiani, aliter mali: magi
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e793">
+            <lb ed="#L" n="16"/>per privatos contractus cum daemonibus, boni
+            <lb ed="#L" n="17"/>Christiani per publicam iustitiam, mali Christiani
+            <lb ed="#L" n="18"/>per signa publicae iustitiae.
+          </p>
+          <p xml:id="TAca84-d1e2192-d1e802">
+            <lb ed="#L" n="19"/>AD QUARTUM DICENDUM quod 5, sicut Augustinus 9
+            <lb ed="#L" n="20"/>ibidem  dicit, ideo non omnibus sanctis ista 
+            attri<lb break="no" ed="#L" n="21"/>buuntur, ne perniciosissimo errore decipiantur 
+            in<lb break="no" ed="#L" n="22"/>firmi, aestimantes in talibus factis esse maiora t
+            <lb ed="#L" n="23"/>dona quam in operibus iustitiae, quibus vita 
+            ae<lb break="no" ed="#L" n="24"/>terna comparatur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

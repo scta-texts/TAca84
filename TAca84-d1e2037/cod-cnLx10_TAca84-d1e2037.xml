@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 148</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 148</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="167"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2037"><!-- p2p2-q148 -->
+        <head xml:id="TAca84-d1e2037-Hd1e101">Quaestio 148</head>
+        <head xml:id="TAca84-d1e2037-Hd1e103" type="question-title">De gula</head>
+        <p xml:id="TAca84-d1e2037-d1e106">
+          <pb ed="#L" n="167"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=167"/>QUAESTIO CENTESIMAQUADRAGESIMAOCTAVA
+          <lb ed="#L" n="2"/>DE GULA
+          <lb ed="#L" n="3"/>IN SEX ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2037-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>Et circa hoc quaeruntur sex.
+          <lb ed="#L" n="5"/>Primo: utrum gula sit peccatum.
+          <lb ed="#L" n="6"/>Secundo: utrum sit peccatum mortale.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="7"/>Tertio: utrum sit maximum peccatorum.
+          <lb ed="#L" n="8"/>Quarto: de speciebus eius.
+          <lb ed="#L" n="9"/>Quinto: utrum sit vitium capitale.
+          <lb ed="#L" n="10"/>Sexto: de filiabus eius.
+        </p>
+        <div xml:id="TAca84-d1e2037-Dd1e141"><!-- p2p2-q148a1 -->
+          <head xml:id="TAca84-d1e2037-Hd1e144">Articulus 1</head>
+          <head xml:id="TAca84-d1e2037-Hd1e146" type="question-title">Utrum gula sit peccatum</head>
+          <p xml:id="TAca84-d1e2037-d1e149">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="11" type="fixed=167"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="12"/>UTRUM GULA SIT PECCATUM
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e158">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="13"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="14"/>gula non sit peccatum. Dicit enim 
+            Do<lb break="no" ed="#L" n="15"/>minus. Matth. XV Quod intrat in os,
+            <lb ed="#L" n="16"/>non coinquinat hominem. Sed gula est
+            <lb ed="#L" n="17"/>circa cibos, qui intrant in hominem. Cum ergo
+            <lb ed="#L" n="18"/>omne peccatum coinquinet hominem, videtur
+            <lb ed="#L" n="19"/>quod gula non sit peccatum,
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e178">
+            <lb ed="#L" n="20"/>2. PRAETEREA, mullus peccat in eo quod vitare
+            <lb ed="#L" n="21"/>non potest . Sed gula consistit in immoderantia
+            <lb ed="#L" n="22"/>cibi; quam non potest homo vitare: dicit enim
+            <lb ed="#L" n="23"/>Gregorius, XXX Moral. : Quia per esum 
+            volu<lb break="no" ed="#L" n="24"/>plas necessitati miscetur, quid necessitas petat , et
+            <lb ed="#L" n="25"/>quid voluptas suppetat, ignoratur; et Augustinus
+            <lb ed="#L" n="26"/>dicit, X Confess. : <quote xml:id="TAca84-d1e2037-Qd1e195">Quis est, Domine, qui 
+              aliquan<lb break="no" ed="#L" n="27"/>tulum? extra metas necessitatis cibum non sumit?</quote>
+            <lb ed="#L" n="28"/>Ergo gula non est peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e204">
+            <lb ed="#L" n="29"/>3. PRAETEREA, in quolibet genere peccati 
+            pri<lb break="no" ed="#L" n="30"/>mus motus est peccatum. Sed primus motus 
+            su<lb break="no" ed="#L" n="31"/>mendi cibum non est peccatum: alioquin fames
+            <lb ed="#L" n="32"/>et sitis essent peccata. Ergo gula non est 
+            pec<lb break="no" ed="#L" n="33"/>catum.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e217">
+            <lb ed="#L" n="34"/>SED coNTRA EsT quod Gregorius dicit, XXX 
+            Ao<lb break="no" ed="#L" n="35"/>ral. , quod ad conflictum spiritualis agonis non
+            <lb ed="#L" n="36"/>assurgitur , si non prius intra nosmetipsos hostis
+            <lb ed="#L" n="37"/>positus, gulae videlicet appetitus, edomatur. Sed
+            <lb ed="#L" n="38"/>interior hostis hominis est peccatum. Ergo gula
+            <lb ed="#L" n="39"/>est peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e233">
+            <lb ed="#L" n="40"/>REsPONDEO DICENDUM quod gula non nominat
+            <lb ed="#L" n="41"/>quemlibet appetitum edendi et bibendi, sed 
+            inor<lb break="no" ed="#L" n="42"/>dinatum. Dicitur autem appetitus inordinatus ex
+            <lb ed="#L" n="43"/>eo quod recedit ab ordine rationis, in quo bonum
+            <lb ed="#L" n="44"/>virtutis moralis consistit. Ex hoc autem. dicitur
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="45"/>aliquid esse peccatum quod virtuti contrariatur.
+            <lb ed="#L" n="46"/>Unde manifestum est quod gula est peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e253">
+            <lb ed="#L" n="47"/>AD PRIMUM ERGO DICENDUM quod id quod intrat
+            <lb ed="#L" n="48"/>in hominem per modum cibi, secundum suam
+            <lb ed="#L" n="49"/>substantiam et naturam, non coinquinat 
+            homi<lb break="no" ed="#L" n="50"/>nem spiritualiter: sed ludaei, contra quos 
+            Do<lb break="no" ed="#L" n="51"/>minus loquitur, et Manichaei opinabantur quod
+            <lb ed="#L" n="52"/>aliqui cibi immundos facerent, non propter 
+            figu<lb break="no" ed="#L" n="53"/>ram, sed secundum  propriam naturam. 
+            Inor<lb break="no" ed="#L" n="54"/>dinata tamen  ciborum concupiscentia hominem
+            <lb ed="#L" n="55"/>spiritualiter coinquinat.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e275">
+            <lb ed="#L" n="56"/>AD SECUNDUM DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="57"/>vitium gulae non consistit in substantia cibi, sed
+            <lb ed="#L" n="58"/>in concupiscentia non regulata ratione. Et deo
+            <lb ed="#L" n="59"/>si aliquis excedat in quantitate cibi non propter
+            <lb ed="#L" n="60"/>cibi concupiscentiam , sed aestimans id sibi 
+            ne<lb break="no" ed="#L" n="61"/>cessarium esse, non pertinet hoc ad gulam, sed
+            <lb ed="#L" n="62"/>ad aliquam imperitiam. Sed hoc solum pertinet
+            <lb ed="#L" n="63"/>ad gulam, quod aliquis, propter concupiscentiam
+            <lb ed="#L" n="64"/>cibi delectabilis, scienter excedat mensuram in
+            <lb ed="#L" n="65"/>edendo.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e299">
+            <lb ed="#L" n="66"/>AD TERTIUM DICENDUM quod duplex est 
+            appe<lb break="no" ed="#L" n="67"/>titus. Unus quidem naturalis, qui pertinet ad vires
+            <lb ed="#L" n="68"/>animae vegetabilis: in quibus non potest esse
+            <lb ed="#L" n="69"/>virtus et vitium, eo quod non possunt subiici
+            <lb ed="#L" n="70"/>rationi. Unde et vis appetitiva dividitur contra 
+            re<lb break="no" ed="#L" n="71"/>tentivam, digestivam, expulsivam ". Et ad talem
+            <lb ed="#L" n="72"/>appetitum pertinet esuries et sitis. - Est autem
+            <lb ed="#L" n="73"/>et alius appetitus sensitivus, in cuius 
+            concupi<lb break="no" ed="#L" n="74"/>scentia vitium gulae consistit. Unde primus motus
+            <lb ed="#L" n="75"/>gulae importat inordinationem in appetitu 
+            sensi<lb break="no" ed="#L" n="76"/>tivo: quae  non est sine peccato.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2037-Dd1e327"><!-- p2p2-q148a2 -->
+          <head xml:id="TAca84-d1e2037-Hd1e330">Articulus 2</head>
+          <head xml:id="TAca84-d1e2037-Hd1e332" type="question-title">Utrum gula sit peccatum mortale</head>
+          <p xml:id="TAca84-d1e2037-d1e335">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="30" type="fixed=168"/>ARTICULUS SECUNDUS.
+            <lb ed="#L" n="31"/>UTRUM GULA SIT PECCATUM MORTALE
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e344">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="32"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="33"/>gula non sit peccatum mortale. Omne 
+            <lb ed="#L" n="34"/>enim peccatum mortale contrariatur 
+            ali<lb break="no" ed="#L" n="35"/>cui praecepto decalogi. Quod de gula 
+            <lb ed="#L" n="36"/>non videtur. Ergo gula non est peccatum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e360">
+            <lb ed="#L" n="37"/>2. PRAETEREA, omne peccatum mortale 
+            contra<lb break="no" ed="#L" n="38"/>riatur caritati, ut ex supra  dictis patet. Sed gula
+            <lb ed="#L" n="39"/>non opponitur caritati: neque quantum ad 
+            dile<lb break="no" ed="#L" n="40"/>ctionem Dei, neque quantum ad dilectionem 
+            pro<lb break="no" ed="#L" n="41"/>ximi. Ergo gula nunquam  est peccatum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e374">
+            <lb ed="#L" n="42"/>3. PRAETEREA, Augustinus dicit, in sermone
+            <lb ed="#L" n="43"/>de Purgatorio : Quoties aliquis in cibo aut potu
+            <lb ed="#L" n="44"/>plus accipit quam necesse est, ad minuta peccata
+            <lb ed="#L" n="45"/>noverit pertinere. Sed hoc pertinet ad gulam. Ergo
+            <lb ed="#L" n="46"/>gula computatur inter minuta, idest inter venialia
+            <lb ed="#L" n="47"/>peccata.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e390">
+            <lb ed="#L" n="48"/>SED coNTRA EST  quod Gregorius dicit, in XXX
+            <lb ed="#L" n="49"/>Moral. : Dominante gulae vitio, omne quod 
+            ho<lb break="no" ed="#L" n="50"/>mines fortiter egerunt, perdunt: et dum venter non
+            <lb ed="#L" n="51"/>restringitur, simul cunctae virtutes obruuntur. Sed
+            <lb ed="#L" n="52"/>virtus non tollitur nisi per peccatum mortale. Ergo
+            <lb ed="#L" n="53"/>gula est peccatum mortale.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e406">
+            <lb ed="#L" n="54"/>RESPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="55"/>vitium gulae proprie consistit in concupiscentia
+            <lb ed="#L" n="56"/>inordinata. Ordo autem rationis concupiscentiam
+            <lb ed="#L" n="57"/>ordinantis dupliciter tolli potest. Uno modo, 
+            quan<lb break="no" ed="#L" n="58"/>tum ad ea quae sunt ad finem: prout scilicet
+            <lb ed="#L" n="59"/>non sunt ita commensurata ut sint proportionata
+            <lb ed="#L" n="60"/>fini. Alio modo, quantum ad ipsum finem: prout
+            <lb ed="#L" n="61"/>scilicet concupiscentia hominem avertit a fine
+            <lb ed="#L" n="62"/>debito. Si ergo inordinatio concupiscentiae 
+            acci<lb break="no" ed="#L" n="63"/>piatur in gula secundum aversionem a fine 
+            ul<lb break="no" ed="#L" n="64"/>timo, sic gula erit peccatum mortale. Quod qui-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="65"/>dem contingit quando delectationi gulae inhaeret
+            <lb ed="#L" n="66"/>homo tanquam fini propter quem Deum 
+            conte<lb break="no" ed="#L" n="67"/>mnit, paratus scilicet contra praecepta Dei agere
+            <lb ed="#L" n="68"/>ut delectationes huiusmodi assequatur. - Si vero
+            <lb ed="#L" n="69"/>in vitio gulae intelligatur inordinatio 
+            concupiscen<lb break="no" ed="#L" n="70"/>tiae tantum secundum ea quae sunt ad finem,
+            <lb ed="#L" n="71"/>utpote quia nimis concupiscit delectationes 
+            cibo<lb break="no" ed="#L" n="72"/>rum, non tamen ita quod propter hoc aliquid
+            <lb ed="#L" n="73"/>faceret contra legem Dei, est peccatum veniale.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e454">
+            <lb ed="#L" n="74"/>AD PRIMUM ERGO DICENDUM quod vitium gulae
+            <lb ed="#L" n="75"/>habet quod sit peccatum mortale inquantum 
+            aver<lb break="no" ed="#L" n="76"/>tit a fine ultimo. Et secundum hoc, per quanda
+            <lb ed="#L" n="77"/>reductionem, opponitur praecepto de 
+            sanctifica<lb break="no" ed="#L" n="78"/>tione sabbati, in quo praecipitur quies in fine
+            <lb ed="#L" n="79"/>ultimo. Non enim omnia peccata mortalia 
+            dire<lb break="no" ed="#L" n="80"/>cte contrariantur praeceptis decalogi , sed solum
+            <lb ed="#L" n="81"/>illa quae iniustitiam continent: quia praecepta
+            <lb ed="#L" n="82"/>decalogi specialiter pertinent ad iustitiam et 
+            par<lb break="no" ed="#L" n="83"/>tes eius, ut supra  habitum est.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e478">
+            <lb ed="#L" n="84"/>AD SECUNDUM DICENDUM quod, inquantum 
+            aver<lb break="no" ed="#L" n="85"/>tit a fine ultimo, contrariatur gula dilectioni Dei,
+            <lb ed="#L" n="86"/>qui est super omnia sicut finis ultimus 
+            diligen<lb break="no" ed="#L" n="87"/>dus. Et secundum hoc solum gula est peccatum
+            <lb ed="#L" n="88"/>mortale.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e491">
+            <lb ed="#L" n="89"/>Ab TERTIUM DICENDUM quod illud verbum 
+            Au<lb break="no" ed="#L" n="90"/>gustini intelligitur de gula prout importat 
+            inordi<lb break="no" ed="#L" n="91"/>nationem concupiscentiae solum circa ea quae
+            <lb ed="#L" n="92"/>sunt ad finem.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e503">
+            <lb ed="#L" n="93"/>AD QUARTUM  DICENDUM quod gula dicitur 
+            virtu<lb break="no" ed="#L" n="94"/>tes auferre non tam propter se, quam etiam 
+            pro<lb break="no" ed="#L" n="95"/>pter vitia quae ex ea oriuntur. Dicit enim 
+            Gre<lb break="no" ed="#L" n="96"/>gorius, in Pastorali : Dum venter ingluvie ? 
+            ten<lb break="no" ed="#L" n="97"/>ditur, virtutes animae per luxuriam destruuntur.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2037-Dd1e517"><!-- p2p2-q148a3 -->
+          <head xml:id="TAca84-d1e2037-Hd1e520">Articulus 3</head>
+          <head xml:id="TAca84-d1e2037-Hd1e522" type="question-title">Utrum gula sit maximum peccatorum</head>
+          <p xml:id="TAca84-d1e2037-d1e525">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="75" type="fixed=170"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="76"/>UTRUM GULA SIT MAXIMUM PECCATORUM
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e534">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="77"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="78"/>gula sit maximum peccatorum. 
+            Magni<lb break="no" ed="#L" n="79"/>tudo enim peccati ex magnitudine 
+            poe<lb break="no" ed="#L" n="80"/>nae consideratur. Sed peccatum gulae
+            <lb ed="#L" n="81"/>est gravissime punitum: dicit enim 
+            Chrysosto<lb break="no" ed="#L" n="82"/>mus : Adam incontinentia ventris expulit a 
+            Pa<lb break="no" ed="#L" n="83"/>radiso; diluvium quod fuit tempore Noe, ipsa 
+            fe<lb break="no" ed="#L" n="84"/>cit ; secundum illud Ezech. xvi : aec fuit 
+            ini<lb break="no" ed="#L" n="85"/>quitas Sodomae, sororis tuae, saturitas panis, etc.
+            <lb ed="#L" n="86"/>Ergo peccatum gulae est maximum P.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e560">
+            <lb ed="#L" n="87"/>2. PRAETEREA, causa in quolibet genere est 
+            po<lb break="no" ed="#L" n="88"/>tior. Sed gula videtur esse causa aliorum 
+            pecca<lb break="no" ed="#L" n="89"/>torum: quia super illud Psalmi , Qui percussit
+            <lb ed="#L" n="90"/>Aegyptum cum primogenitis eorum, dicit Glossa :
+            <lb ed="#L" n="91"/>Luxuria, concupiscentia , superbia sunt ea quae
+            <lb ed="#L" n="92"/>venter generat. Ergo gula est gravissimum 
+            pec<lb break="no" ed="#L" n="93"/>catorum.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e579">
+            <lb ed="#L" n="94"/>3. PRAETEREA, post Deum, homo debet seipsum
+            <lb ed="#L" n="95"/>maxime diligere, ut supra  habitum est. Sed per
+            <lb ed="#L" n="96"/>vitium gulae homo infert sibi ipsi nocumentum:
+            <lb ed="#L" n="97"/>dicitur enim Eccli. xxxvu : Propter crapulam
+            <lb ed="#L" n="98"/>multi obierunt. Ergo gula est maximum 
+            peccato<lb break="no" ed="#L" n="99"/>rum: ad minus praeter peccata quae sunt 
+            con<lb break="no" ed="#L" n="100"/>tra Deum.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e597">
+            <lb ed="#L" n="101"/>SED CONTRA EST quod vitia carnalia, inter quae
+            <lb ed="#L" n="102"/>computatur gula, secundum Gregorium , sunt
+            <lb ed="#L" n="103"/>minoris culpae.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e606">
+            <lb ed="#L" n="104"/>RESPONDEO DICENDUM quod gravitas alicuius 
+            pec<lb break="no" ed="#L" n="105"/>cati potest considerari tripliciter. Primo quidem,
+            <lb ed="#L" n="106"/>et principaliter, secundum materiam in qua 
+            pec<lb break="no" ed="#L" n="107"/>catur. Et secundum hoc, peccata quae sunt circa
+            <lb ed="#L" n="108"/>res divinas sunt maxima. Unde secundum hoc,
+            <lb ed="#L" n="109"/>vitium gulae non erit maximum: est enim circa
+            <lb ed="#L" n="110"/>ea quae ad sustentationem corporis spectant. -
+            <lb ed="#L" n="111"/>Secundo autem, ex parte peccantis. Et 
+            secun<lb break="no" ed="#L" n="112"/>dum hoc, peccatum gulae magis alleviatur quam
+            <lb ed="#L" n="113"/>aggravatur. Tum propter necessitatem. 
+            sumptio<lb break="no" ed="#L" n="114"/>nis ciborum. Tum. etiam propter difficultatem
+            <lb ed="#L" n="115"/>discernendi et moderandi id quod in talibus 
+            con<lb break="no" ed="#L" n="116"/>venit. - Tertio vero modo, ex parte. effectus 
+            con<lb break="no" ed="#L" n="117"/>sequentis. Et secundum hoc, vitium gulae habet
+            <lb ed="#L" n="118"/>quandam magnitudinem, inquantum ex ea 
+            occa<lb break="no" ed="#L" n="119"/>sionantur diversa peccata.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e643">
+            <lb ed="#L" n="120"/>AD PRIMUM ERGO DICENDUM quod illae poenae
+            <lb ed="#L" n="121"/>magis referuntur ad vitia quae sunt consecuta
+            <lb ed="#L" n="122"/>ex gula, vel ad gulae radicem, quam ad ipsam
+            <lb ed="#L" n="123"/>gulam. Nam primus homo expulsus est de  
+            pa<lb break="no" ed="#L" n="124"/>radiso propter superbiam, ex qua processit ad
+            <pb ed="#L" n="171"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>actum gulae. Diluvium autem et poena 
+            Sodo<lb break="no" ed="#L" n="2"/>morum sunt inducta propter peccata luxuriae
+            <lb ed="#L" n="3"/>praecedentia, ex gula occasionata.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e667">
+            <lb ed="#L" n="4"/>AD SECUNDUM DICENDUM quod ratio illa procedit
+            <lb ed="#L" n="5"/>ex parte peccatorum quae ex gula oriuntur. Non
+            <lb ed="#L" n="6"/>autem oportet quod causa sit potior, nisi in causis
+            <lb ed="#L" n="7"/>per se. Gula autem non est causa illorüm vitiorum
+            <lb ed="#L" n="8"/>per se, sed quasi per accidens et per occasionem.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e680">
+            <lb ed="#L" n="9"/>AD TERTIUM DICENDUM quod gulosus non 
+            in<lb break="no" ed="#L" n="10"/>tendit suo corpori nocumentum inferre, sed in
+            <lb ed="#L" n="11"/>cibo delectari: si autem nocumentum corporis
+            <lb ed="#L" n="12"/>sequatur, hoc est per accidens. Unde. hoc non
+            <lb ed="#L" n="13"/>directe pertinet ad gravitatem gulae. Cuius 
+            ta<lb break="no" ed="#L" n="14"/>men culpa àggravatur si quis corporale 
+            detri<lb break="no" ed="#L" n="15"/>mentum incurrat propter immoderatam cibi 
+            sum<lb break="no" ed="#L" n="16"/>ptionem.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2037-Dd1e701"><!-- p2p2-q148a4 -->
+          <head xml:id="TAca84-d1e2037-Hd1e704">Articulus 4</head>
+          <head xml:id="TAca84-d1e2037-Hd1e706" type="question-title">Utrum convenienter species gulae distinguantur</head>
+          <p xml:id="TAca84-d1e2037-d1e709">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="88" type="fixed=171"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="89"/>UTRUM CONVENIENTER SPECIES GULAE DISTINGUANTUR
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e718">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="90"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="91"/>inconvenienter species gulae 
+            distinguan<lb break="no" ed="#L" n="92"/>tur a Gregorio, qui, XXX JMoral., dicit:
+            <lb ed="#L" n="93"/>Quinque modis nos gulae vitium tentat :
+            <lb ed="#L" n="94"/>aliquando namque indigentiae tempora praevenit ;
+            <lb ed="#L" n="95"/>aliquando lautiores cibos quaerit; aliquando quae
+            <lb ed="#L" n="96"/>sumenda sunt praeparari accuratius appetit; 
+            ali<lb break="no" ed="#L" n="97"/>quando in ipsa quantitate sumendi mensuram 
+            re<lb break="no" ed="#L" n="98"/>fectionis excedit; aliquando ipso aestu immensi
+            <lb ed="#L" n="99"/>desiderii aliquis peccat. Et continentur in hoc
+            <lb ed="#L" n="100"/>versu: Praepropere, laute, nimis, ardenter, 
+            stu<lb break="no" ed="#L" n="101"/>diose. - Praedicta enim diversificantur secundum
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="102"/>diversas circumstantias. Sed circumstantiae, cum
+            <lb ed="#L" n="103"/>sint accidentia actuum, non diversificant speciem.
+            <lb ed="#L" n="104"/>Ergo secundum praedicta non diversificantur 
+            spe<lb break="no" ed="#L" n="105"/>cies gulae.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e760">
+            <lb ed="#L" n="106"/>2. PRAETEREA, sicut tempus est quaedam 
+            cir<lb break="no" ed="#L" n="107"/>cumstantia, ita et locus. Si ergo secundum 
+            tem<lb break="no" ed="#L" n="108"/>pus una species gulae accipitur, videtur quod,
+            <lb ed="#L" n="109"/>pari ratione, secundum locum et alias 
+            circum<lb break="no" ed="#L" n="110"/>stantias.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e774">
+            <lb ed="#L" n="111"/>3. PRAETEREA, sicut temperantia observat 
+            de<lb break="no" ed="#L" n="112"/>bitas circumstantias, ita etiam et aliae virtutes
+            <lb ed="#L" n="113"/>morales. Sed in vitiis quae opponuntur aliis vir-
+            <pb ed="#L" n="172"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>tutibus moralibus non distinguuntur  species 
+            se<lb break="no" ed="#L" n="2"/>cundum diversas circumstantias. Ergo nec in gula.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e792">
+            <lb ed="#L" n="3"/>SED cowTRA EsT verbum Gregorii inductum .
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e797">
+            <lb ed="#L" n="4"/>REsPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="5"/>gula importat inordinatam concupiscentiam  
+            e<lb break="no" ed="#L" n="6"/>dendi. In. esu autem duo considerantur: scilicet
+            <lb ed="#L" n="7"/>ipse cibus qui comeditur, et eius comestio. 
+            Pot<lb break="no" ed="#L" n="8"/>est ergo inordinatio concupiscentiae attendi 
+            du<lb break="no" ed="#L" n="9"/>pliciter. Uno quidem modo, quantum ad ipsum 
+            <lb ed="#L" n="10"/>cibum qui sumitur. Et sic, quantum ad 
+            substan<lb break="no" ed="#L" n="11"/>patientiam morae; et idem patet in aliis.
+            <lb ed="#L" n="12"/>tiam vel speciem cibi 5, quaerit aliquis cibos /
+            au<lb break="no" ed="#L" n="13"/>tos, idest pretiosos; quantum ad qualitatem, 
+            quae<lb break="no" ed="#L" n="14"/>rit cibos nimis accurate praeparatos, quod est
+            <lb ed="#L" n="15"/>studiose; quantum autem ad quantitatem, excedit
+            <lb ed="#L" n="16"/>in nimis edendo. - Alio vero modo attenditur ?
+            <lb ed="#L" n="17"/>inordinatio concupiscentiae quantum ad ipsam
+            <lb ed="#L" n="18"/>sumptionem cibi: vel quia praevenit tempus 
+            de<lb break="no" ed="#L" n="19"/>bitum comedendi, quod est praepropere; vel quia
+            <lb ed="#L" n="20"/>non servat modum debitum in edendo, quod
+            <lb ed="#L" n="21"/>est ardenter. — Isidorus vero comprehendit pri-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="22"/>mum et secundum sub uno, dicens  quod 
+            gu<lb break="no" ed="#L" n="23"/>losus excedit in cibo secundum quid, quantum,
+            <lb ed="#L" n="24"/>quomodo et quando.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e847">
+            <lb ed="#L" n="25"/>AD PRIMUM ERGO DICENDUM quod corruptio 
+            di<lb break="no" ed="#L" n="26"/>versarum circumstantiarum facit diversas species
+            <lb ed="#L" n="27"/>gulae propter diversa motiva, ex quibus 
+            mora<lb break="no" ed="#L" n="28"/>lium species diversificantur. In eo enim qui 
+            <lb ed="#L" n="29"/>quaerit lautos cibos, excitatur concupiscentia "ex
+            <lb ed="#L" n="30"/>ipsa specie cibi; in eo vero qui praeoccupat
+            <lb ed="#L" n="31"/>tempus, deordinatur concupiscentia propter im-
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e865">
+            <lb ed="#L" n="32"/>AD SECUNDUM DICENDUM quod in loco et in aliis
+            <lb ed="#L" n="33"/>circumstantiis non invenitur aliud differens 
+            mo<lb break="no" ed="#L" n="34"/>tivum pertinens ad usum cibi, quod faciat aliam
+            <lb ed="#L" n="35"/>speciem gulae.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e876">
+            <lb ed="#L" n="36"/>AD TERTIUM DICENDUM quod in quibuscumque
+            <lb ed="#L" n="37"/>aliis vitiis diversae circumstantiae habent diversa
+            <lb ed="#L" n="38"/>motiva, oportet accipi diversas species vitiorum :
+            <lb ed="#L" n="39"/>secundum diversas circumstantias. Sed hoc non
+            <lb ed="#L" n="40"/>contingit in omnibus, ut dictum est .
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2037-Dd1e890"><!-- p2p2-q148a5 -->
+          <head xml:id="TAca84-d1e2037-Hd1e893">Articulus 5</head>
+          <head xml:id="TAca84-d1e2037-Hd1e895" type="question-title">Utrum gula sit vitium capitale</head>
+          <p xml:id="TAca84-d1e2037-d1e898">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="55" type="fixed=174"/>ARTICULUS QUINTUS
+            <lb ed="#L" n="56"/>UTRUM GULA SIT VITIUM CAPITALE
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e907">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="57"/>AD QUINTUM SIC PROCEDITUR . Videtur quod
+            <lb ed="#L" n="58"/>gula non sit vitium capitale. Vitia enim
+            <lb ed="#L" n="59"/>capitalia dicuntur ex quibus alia 
+            oriun<lb break="no" ed="#L" n="60"/>tur secundum rationem causae finalis.
+            <lb ed="#L" n="61"/>Sed cibus, circa quem est gula, non habet 
+            ra<lb break="no" ed="#L" n="62"/>tionem finis: non enim propter se quaeritur, sed
+            <lb ed="#L" n="63"/>propter corporis nutritionem. Ergo gula non est
+            <lb ed="#L" n="64"/>vitium capitale.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e929">
+            <lb ed="#L" n="65"/>2. PRAETEREA, vitium capitale aliquam  
+            prin<lb break="no" ed="#L" n="66"/>cipalitatem habere videtur in ratione peccati. Sed
+            <lb ed="#L" n="67"/>hoc non competit gulae, quae ? videtur esse 
+            se<lb break="no" ed="#L" n="68"/>cundum suum genus minimum peccatorum, 
+            ut<lb break="no" ed="#L" n="69"/>pote  plus appropinquans ad id quod est 
+            se<lb break="no" ed="#L" n="70"/>cundum naturam. Ergo gula non videtur esse
+            <lb ed="#L" n="71"/>vitium capitale.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e948">
+            <lb ed="#L" n="72"/>3. PRAETEREA, peccatum contingit ex hoc quod
+            <lb ed="#L" n="73"/>aliquis recedit a bono honesto propter aliquid
+            <lb ed="#L" n="74"/>utile praesenti vitae, vel delectabile sensui. Sed
+            <lb ed="#L" n="75"/>circa bona quae habent rationem utilis, ponitur
+            <lb ed="#L" n="76"/>unum tantum vitium capitale, scilicet avaritia.
+            <lb ed="#L" n="77"/>Ergo et circa delectationes videtur esse 
+            ponen<lb break="no" ed="#L" n="78"/>dum unum tantum vitium capitale. Ponitur autem
+            <lb ed="#L" n="79"/>luxuria: quae est maius vitium quam gula, et circa
+            <lb ed="#L" n="80"/>maiores delectationes. Ergo gula non est vitium
+            <lb ed="#L" n="81"/>capitale.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e972">
+            <lb ed="#L" n="82"/>SED CONTRA EsT quod Gregorius, XXXI Moral.,
+            <lb ed="#L" n="83"/>computat gulam inter vitia capitalia.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e979">
+            <lb ed="#L" n="84"/>REsPONDEO DICENDUM quod, sicut supra  dictum
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="85"/>est, vitium capitale dicitur ex quo alia vitia 
+            oriun<lb break="no" ed="#L" n="86"/>tur secundum rationem causae finalis: inquantum
+            <lb ed="#L" n="87"/>scilicet habet finem multum appetibilem , unde
+            <lb ed="#L" n="88"/>ex eius appetitu homines provocantur 
+            multipli<lb break="no" ed="#L" n="89"/>citer ad peccandum . Ex hoc autem aliquis finis
+            <lb ed="#L" n="90"/>redditur multum appetibilis quod habet aliquam
+            <lb ed="#L" n="91"/>de conditionibus felicitatis, quae est naturaliter
+            <lb ed="#L" n="92"/>appetibilis. Pertinet autem ad rationem felicitatis
+            <lb ed="#L" n="93"/>delectatio: ut patet in 1  et X Ethic.  Et ideo
+            <lb ed="#L" n="94"/>vitium gulae, quod est circa delectationes tactus,
+            <lb ed="#L" n="95"/>quae sunt praecipuae inter alias, convenienter
+            <lb ed="#L" n="96"/>ponitur inter vitia capitalia.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e1012">
+            <lb ed="#L" n="97"/>AD PRIMUM ERGO DICENDUM quod ipse cibus 
+            or<lb break="no" ed="#L" n="98"/>dinatur quidem ad aliquid sicut ad finem: sed
+            <lb ed="#L" n="99"/>quia ille finis, scilicet conservatio vitae, est 
+            ma<lb break="no" ed="#L" n="100"/>xime appetibilis, quae sine cibo conservari non
+            <lb ed="#L" n="101"/>potest, inde etiam est quod ipse cibus est 
+            ma<lb break="no" ed="#L" n="102"/>xime appetibilis; et ad hoc fere totus labor 
+            hu<lb break="no" ed="#L" n="103"/>manae vitae ordinatur, secundum illud Eccle. vi :
+            <lb ed="#L" n="104"/>Omnis labor hominis in ore eius. - Et tamen
+            <lb ed="#L" n="105"/>gula magis videtur esse circa delectationes cibi
+            <lb ed="#L" n="106"/>quam circa cibos. Propter quod, ut Augustinus
+            <lb ed="#L" n="107"/>dicit, in libro de Vera Relig. , quibus vilis ? est
+            <lb ed="#L" n="108"/>corporis salus, malunt vesci, in quo scilicet est
+            <lb ed="#L" n="109"/>delectatio, quam saturari: cum omnis finis illius
+            <lb ed="#L" n="110"/>voluptatis sit non sitire atque esurire.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e1045">
+            <lb ed="#L" n="111"/>AD SECUNDUM DICENDUM quod finis in peccato
+            <lb ed="#L" n="112"/>accipitur ex parte conversionis, sed gravitas pec-
+            <pb ed="#L" n="175"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>cati accipitur ex parte aversionis. Et ideo non
+            <lb ed="#L" n="2"/>oportet vitium . capitale, quod habet finem 
+            ma<lb break="no" ed="#L" n="3"/>xime appetibilem, habere magnam gravitatem.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e1063">
+            <lb ed="#L" n="4"/>AD TERTIUM DICENDUM quod delectabile est 
+            ap<lb break="no" ed="#L" n="5"/>petibile secundum se. Et ideo secundum eius
+            <lb ed="#L" n="6"/>diversitatem ponuntur duo vitia. capitalia, scilicet
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="7"/>gula et luxuria. - Utile autem non habet ex  se
+            <lb ed="#L" n="8"/>rationem  appetibilis, sed secundum quod ad
+            <lb ed="#L" n="9"/>aliud ordinatur. Et ideo in omnibus utilibus 
+            vi<lb break="no" ed="#L" n="10"/>detur esse una ratio appetibilitatis. Et propter
+            <lb ed="#L" n="11"/>hoc circa huiusmodi non ponitur nisi unum 
+            vi<lb break="no" ed="#L" n="12"/>tium capitale.
+          </p>
+        </div>
+        <!-- no commentary -->
+        <div xml:id="TAca84-d1e2037-Dd1e1090"><!-- p2p2-q148a6 -->
+          <head xml:id="TAca84-d1e2037-Hd1e1093">Articulus 6</head>
+          <head xml:id="TAca84-d1e2037-Hd1e1095" type="question-title">&gt;utrum convenienter assignentur gulae quinque filiae</head>
+          <p xml:id="TAca84-d1e2037-d1e1098">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="13" type="fixed=175"/>ARTICULUS SEXTUS
+            <lb ed="#L" n="14"/>UTRUM CONVENIENTER ASSIGNENTUR GULAE QUINQUE FILIAE
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e1107">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="15"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="16"/>inconvenienter assignentur gulae 
+            quin<lb break="no" ed="#L" n="17"/>que filiae: scilicet znepía laetitia, 
+            scur<lb break="no" ed="#L" n="18"/>rilitas, immunditia, muitiloguium, 
+            hebe<lb break="no" ed="#L" n="19"/>dudo mentis circa intelligentiam. inepta enim
+            <lb ed="#L" n="20"/>laetitia consequitur omne peccatum: secundum
+            <lb ed="#L" n="21"/>illud Prov. u : Qui laetantur cum male fecerint,
+            <lb ed="#L" n="22"/>et exultant in rebus pessimis. Similiter etiam 
+            he<lb break="no" ed="#L" n="23"/>betudo mentis invenitur in omni peccato: 
+            se<lb break="no" ed="#L" n="24"/>cundum illud Prov. xiv : Errant qui operantur
+            <lb ed="#L" n="25"/>malum. Ergo inconvenienter ponuntur filiae gulae.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e1136">
+            <lb ed="#L" n="26"/>2. PRAETEREA, immunditia, quae maxime 
+            con<lb break="no" ed="#L" n="27"/>sequitur gulam, videtur ad vomitum pertinere:
+            <lb ed="#L" n="28"/>secundum illud Isaiae xxvur : Omnes mensae
+            <lb ed="#L" n="29"/>repletae sunt vomitu sordium . Sed hoc non 
+            vi<lb break="no" ed="#L" n="30"/>detur esse peccatum, sed poena ?: vel etiam 
+            ali<lb break="no" ed="#L" n="31"/>quid utile sub consilio cadens, secundum illud
+            <lb ed="#L" n="32"/>Eccli. xxxi : Si coactus fueris in edendo multum,
+            <lb ed="#L" n="33"/>surge e medio et vome, et refrigerabit te. Ergo
+            <lb ed="#L" n="34"/>non debet poni inter filias gulae.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e1159">
+            <lb ed="#L" n="35"/>3. PRAETEREA, Isidorus  ponit scurrilitatem 
+            fi<lb break="no" ed="#L" n="36"/>liam luxuriae. Non ergo debet poni inter filias
+            <lb ed="#L" n="37"/>gulae.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e1168">
+            <lb ed="#L" n="38"/>SED coNTRA EST quod Gregorius, XXXI Moral. ,
+            <lb ed="#L" n="39"/>has filias gulae assignat."
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e1175">
+            <lb ed="#L" n="40"/>REsPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="41"/>gula proprie consistit circa immoderatam 
+            delecta<lb break="no" ed="#L" n="42"/>tionem quae est in cibis et potibus. Et ideo illa ?
+            <lb ed="#L" n="43"/>vitia inter filias gulae computantur quae ex 
+            im<lb break="no" ed="#L" n="44"/>moderata delectatione cibi et potus consequuntur.
+            <lb ed="#L" n="45"/>Quae quidem possunt accipi vel ex parte animae,
+            <lb ed="#L" n="46"/>vel ex parte corporis. Ex parte autem animae,
+            <lb ed="#L" n="47"/>quadrupliciter. Primo: quidem, quantum ad 
+            ra<lb break="no" ed="#L" n="48"/>tionem, cuius acies hebetatur ex immoderantia 
+            <lb ed="#L" n="49"/>cibi et potus. Et quantum ad hoc, ponitur filia
+            <lb ed="#L" n="50"/>gulae hebetudo sensus circa intelligentiam, propter
+            <lb ed="#L" n="51"/>fumositates ciborum perturbantes caput. Sicut et
+            <lb ed="#L" n="52"/>e contrario abstinentia confert ad sapientiae 
+            per<lb break="no" ed="#L" n="53"/>ceptionem : secundum illud Eccle. u: Cogitavi in
+            <lb ed="#L" n="54"/>corde meo abstrahere a vino carnem meam, ut
+            <lb ed="#L" n="55"/>animum meum transferrem ad sapientiam. - 
+            Se<lb break="no" ed="#L" n="56"/>cundo, quantum ad appetitum, qui multipliciter
+            <lb ed="#L" n="57"/>deordinatur per immoderantiam cibi et potus,
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="58"/>quasi sopito gubernaculo rationis. Et quantum
+            <lb ed="#L" n="59"/>ad hoc, ponitur inepía laetitia: quia omnes aliae
+            <lb ed="#L" n="60"/>inordinatae passiones ad laetitiam et tristitiam
+            <lb ed="#L" n="61"/>ordinantur, ut dicitur in I1 E/hic.  Et hoc est
+            <lb ed="#L" n="62"/>quod dicitur III Esdrae uj , quod vinum omnem
+            <lb ed="#L" n="63"/>mentem convertit in securitatem et iucunditatem. -
+            <lb ed="#L" n="64"/>Tertio, quantum ad inordinatum verbum. Et sic
+            <lb ed="#L" n="65"/>ponitur multiloguium: quia, ut Gregorius dicit, in
+            <lb ed="#L" n="66"/>Pastorali , nisi gulae deditos immoderata 
+            loqua<lb break="no" ed="#L" n="67"/>citas raperet, dives ille qui epulatus quotidie 
+            splen<lb break="no" ed="#L" n="68"/>dide dicitur, in lingua gravius non arderet. -
+            <lb ed="#L" n="69"/>Quarto, quantum ad inordinatum actum. Et sic
+            <lb ed="#L" n="70"/>ponitur scurrilitas, idest iocularitas quaedam 
+            pro<lb break="no" ed="#L" n="71"/>veniens ex defectu rationis, quae, sicut non 
+            po<lb break="no" ed="#L" n="72"/>test cohibere verba; ita non potest cohibere 
+            exte<lb break="no" ed="#L" n="73"/>riores gestus. Unde Ephes. v, super illud , Aut
+            <lb ed="#L" n="74"/>stultiloquium aut scurrilitas, dicit Glossa : Quae 
+            <lb ed="#L" n="75"/>a stultis curialitas dicitur, idest iocularitas, quae
+            <lb ed="#L" n="76"/>risum movere solet. - Quamvis possit utrumque
+            <lb ed="#L" n="77"/>horum referri ad verba. In quibus contingit 
+            pec<lb break="no" ed="#L" n="78"/>care vel ratione superfluitatis, quod pertinet ad
+            <lb ed="#L" n="79"/>multiloquium : vel ratione inhonestatis, quod 
+            per<lb break="no" ed="#L" n="80"/>tinet ad scurrilitatem.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e1269">
+            <lb ed="#L" n="81"/>Ex parte autem corporis, ponitur immunditia.
+            <lb ed="#L" n="82"/>Quae potest attendi sive secundum inordinatam
+            <lb ed="#L" n="83"/>emissionem quarumcumque superfluitatum: vel
+            <lb ed="#L" n="84"/>specialiter quantum ad emissionem seminis. Unde
+            <lb ed="#L" n="85"/>super illud Ephes. v , Fornicatio autem et omnis ^
+            <lb ed="#L" n="86"/>immunditia etc., dicit Glossa : Zdest incontinentia
+            <lb ed="#L" n="87"/>pertinens ad libidinem quocumque modo.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e1287">
+            <lb ed="#L" n="88"/>AD PRIMUM ERGO DICENDUM quod laetitia quae est
+            <lb ed="#L" n="89"/>de actu peccati vel fine, consequitur omne 
+            pec<lb break="no" ed="#L" n="90"/>catum, maxime quod procedit ex habitu. Sed
+            <lb ed="#L" n="91"/>laetitia vaga incomposita, quae hic dicitur inepta,
+            <lb ed="#L" n="92"/>praecipue oritur ex immoderata sumptione cibi
+            <lb ed="#L" n="93"/>vel potus.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e1303">
+            <lb ed="#L" n="94"/>Similiter etiam dicendum quod hebetudo 
+            sen<lb break="no" ed="#L" n="95"/>sus quantum ad eligibilia communiter invenitur
+            <lb ed="#L" n="96"/>in omni peccato. Sed hebetudo sensus circa 
+            spe<lb break="no" ed="#L" n="97"/>culabilia maxime procedit ex gula, ratione iam
+            <lb ed="#L" n="98"/>dicta .
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e1317">
+            <lb ed="#L" n="99"/>AD SECUNDUM DICENDUM quod, licet utilis sit 
+            vo<lb break="no" ed="#L" n="100"/>mitus post superfluam comestionem, tamen vitio-
+            <pb ed="#L" n="176"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>sum est quod aliquis huic necessitati se subdat
+            <lb ed="#L" n="2"/>per immoderantiam cibi vel potus. - Potest 
+            ta<lb break="no" ed="#L" n="3"/>men absque culpa vomitus procurari ex consilio
+            <lb ed="#L" n="4"/>medicinae in remedium alicuius languoris.
+          </p>
+          <p xml:id="TAca84-d1e2037-d1e1337">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="5"/>AD TERTIUM DICENDUM quod scurrilitas procedit
+            <lb ed="#L" n="6"/>quidem ex actu gulae: non autem ex actu 
+            luxu<lb break="no" ed="#L" n="7"/>riae, sed ex eius voluntate. Et ideo ad utrumque
+            <lb ed="#L" n="8"/>vitium potest pertinere.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

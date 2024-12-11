@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 128</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 128</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="51"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e1933"><!-- p2p2-q128 -->
+        <head xml:id="TAca84-d1e1933-Hd1e101">Quaestio 128</head>
+        <head xml:id="TAca84-d1e1933-Hd1e103" type="question-title">De partibus fortitudinis</head>
+        <p xml:id="TAca84-d1e1933-d1e106">
+          <pb ed="#L" n="51"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=51"/>QUAESTIO CENTESIMAVIGESIMAOCTAVA
+          <lb ed="#L" n="2"/>DE PARTIBUS FORTITUDINIS
+        </p>
+        <p xml:id="TAca84-d1e1933-d1e117">
+          <lb ed="#L" n="3"/>DEINDE considerandum est de partibus 
+          forti<lb break="no" ed="#L" n="4"/>tudinis . Et primo considerandum est quae
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="5"/>sint fortitudinis partes; secundo, de singulis 
+          par<lb break="no" ed="#L" n="6"/>tibus est agendum.
+        </p>
+        <div xml:id="TAca84-d1e1933-Dd1e130"><!-- p2p2-q128a1 -->
+          <head xml:id="TAca84-d1e1933-Hd1e133">Articulus 1</head>
+          <head xml:id="TAca84-d1e1933-Hd1e135" type="question-title">Utrum convenienter partes fortitudinis enumerentur</head>
+          <p xml:id="TAca84-d1e1933-d1e138">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="7" type="fixed=51"/>ARTICULUS UNICUS
+            <lb ed="#L" n="8"/>UTRUM CONVENIENTER PARTES FORTITUDINIS ENUMERENTUR
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e147">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="9"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="10"/>inconvenienter partes fortitudinis 
+            enu<lb break="no" ed="#L" n="11"/>merentur. Tullius enim, in sua 
+            Reto<lb break="no" ed="#L" n="12"/>rica , ponit fortitudinis quatuor partes:
+            <lb ed="#L" n="13"/>scilicet magnificentiam , fiduciam, patientiam et
+            <lb ed="#L" n="14"/>perseverantiam. Et videtur quod inconvenienter.
+            <lb ed="#L" n="15"/>Magnificentia enim videtur ad liberalitatem 
+            per<lb break="no" ed="#L" n="16"/>tinere: quia utraque est circa pecunias, et necesse
+            <lb ed="#L" n="17"/>est magnificum liberalem esse, ut Philosophus dicit, 
+            <lb ed="#L" n="18"/>in IV Ethic.  Sed liberalitas est pars iustitiae, ut
+            <lb ed="#L" n="19"/>supra  habitum est. Ergo magnificentia non 
+            de<lb break="no" ed="#L" n="20"/>bet poni pars fortitudinis.
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e178">
+            <lb ed="#L" n="21"/>2. PRAETEREA, fiducia nihil aliud esse videtur
+            <lb ed="#L" n="22"/>quam spes. Sed spes non videtur ad fortitudinem
+            <lb ed="#L" n="23"/>pertinere, sed ponitur per se virtus. Ergo fiducia
+            <lb ed="#L" n="24"/>non debet poni pars fortitudinis.
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e190">
+            <lb ed="#L" n="25"/>3. PRAETEREA, fortitudo facit hominem bene se
+            <lb ed="#L" n="26"/>habere circa pericula. Sed magnificentia et fiducia
+            <lb ed="#L" n="27"/>non important in sui ratione aliquam 
+            habitudi<lb break="no" ed="#L" n="28"/>nem ad pericula. Ergo non ponuntur 
+            convenien<lb break="no" ed="#L" n="29"/>ter partes fortitudinis.
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e203">
+            <lb ed="#L" n="30"/>4. PRAETEREA, patientia, secundum Tullium ,
+            <lb ed="#L" n="31"/>importat difficilium perpessionem: quod etiam 
+            <lb ed="#L" n="32"/>ipse  attribuit fortitudini. Ergo patientia est idem
+            <lb ed="#L" n="33"/>fortitudini, et non est pars eius.
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e214">
+            <lb ed="#L" n="34"/>5. PRAETEREA, illud quod requiritur in qualibet
+            <lb ed="#L" n="35"/>virtute, non debet poni pars alicuius specialis 
+            vir<lb break="no" ed="#L" n="36"/>tutis. Sed perseverantia requiritur in qualibet 
+            vir<lb break="no" ed="#L" n="37"/>tute: dicitur enim Matth. xxiv : Qui 
+            persevera<lb break="no" ed="#L" n="38"/>verit usque in finem, hic salvus erit. Ergo 
+            perse<lb break="no" ed="#L" n="39"/>verantia non debet poni pars fortitudinis.
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e230">
+            <lb ed="#L" n="40"/>6. PRAETEREA, Macrobius  ponit septem partes
+            <lb ed="#L" n="41"/>fortitudinis: scilicet. magnanimitatem , fiduciam ,
+            <lb ed="#L" n="42"/>securitatem, magnificentiam, constantiam, 
+            toleran<lb break="no" ed="#L" n="43"/>liam, firmitatem. Andronicus  etiam ponit 
+            se<lb break="no" ed="#L" n="44"/>ptem virtutes annexas fortitudini, quae sunt 
+            eu<lb break="no" ed="#L" n="45"/>psychia 8, lema, magnanimitas, virilitas, 
+            perseve<lb break="no" ed="#L" n="46"/>rantia, magnificentia, andragathia. Ergo videtur
+            <lb ed="#L" n="47"/>quod insufficienter Tullius partes fortitudinis 
+            enu<lb break="no" ed="#L" n="48"/>meraverat .
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e252">
+            <lb ed="#L" n="49"/>7. PRAETEREA, Aristoteles, in III Ethic. , ponit
+            <lb ed="#L" n="50"/>quinque modos fortitudinis. Quorum prima est 
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="51"/>politica, quae fortiter operatur propter timorem
+            <lb ed="#L" n="52"/>exhonorationis vel poenae; secunda militaris,
+            <lb ed="#L" n="53"/>quae fortiter operatur propter artem et 
+            expe<lb break="no" ed="#L" n="54"/>rientiam rei bellicae; tertia est fortitudo quae
+            <lb ed="#L" n="55"/>fortiter operatur ex passione, praecipue irae;
+            <lb ed="#L" n="56"/>quarta est fortitudo quae fortiter operatur 
+            pro<lb break="no" ed="#L" n="57"/>pter consuetudinem victoriae; quinta autem est
+            <lb ed="#L" n="58"/>quae fortiter operatur propter ignorantiam 
+            peri<lb break="no" ed="#L" n="59"/>culorum. Has autem fortitudines nulla 
+            praedicta<lb break="no" ed="#L" n="60"/>rum divisionum  continet. Ergo praedictae 
+            enu<lb break="no" ed="#L" n="61"/>merationes partium fortitudinis videntur esse 
+            in<lb break="no" ed="#L" n="62"/>convenientes.
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e287">
+            <lb ed="#L" n="63"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="64"/>est, alicuius virtutis possunt esse triplices partes,
+            <lb ed="#L" n="65"/>scilicet subiectivae, integrales et potentiales. 
+            For<lb break="no" ed="#L" n="66"/>titudini autem, secundum quod est specialis 
+            vir<lb break="no" ed="#L" n="67"/>tus, non possunt assignari partes subiectivae: eo
+            <lb ed="#L" n="68"/>quod non dividitur in multas virtutes specie 
+            dif<lb break="no" ed="#L" n="69"/>ferentes, quia est circa materiam valde specialem.
+            <lb ed="#L" n="70"/>Assignantur autem ei partes quasi integrales, et
+            <lb ed="#L" n="71"/>potentiales: integrales quidem secundum ea quae
+            <lb ed="#L" n="72"/>| oportet concurrere ad actum fortitudinis; 
+            poten<lb break="no" ed="#L" n="73"/>tiales autem secundum quod ea quae fortitudo
+            <lb ed="#L" n="74"/>observat circa difficillima, scilicet circa pericula
+            <lb ed="#L" n="75"/>mortis, aliquae aliae virtutes observant circa 
+            quas<lb break="no" ed="#L" n="76"/>dam alias materias minus difficiles; quae quidem
+            <lb ed="#L" n="77"/>virtutes adiunguntur fortitudini sicut secundariae
+            <lb ed="#L" n="78"/>principali.
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e325">
+            <lb ed="#L" n="79"/>Est autem, sicut supra  dictum est, duplex
+            <lb ed="#L" n="80"/>fortitudinis actus: scilicet aggredi, et sustinere. Ad
+            <lb ed="#L" n="81"/>actum autem aggrediendi duo requiruntur. 
+            Quo<lb break="no" ed="#L" n="82"/>rum primum pertinet ad animi praeparationem:
+            <lb ed="#L" n="83"/>ut scilicet aliquis promptum animum habeat ad
+            <lb ed="#L" n="84"/>aggrediendum. Et quantum ad hoc ponit Tullius
+            <lb ed="#L" n="85"/>fiduciam. Unde dicit  quod fiducia est per quam
+            <lb ed="#L" n="86"/>magnis et honestis rebus multum ipse animus in
+            <lb ed="#L" n="87"/>se fiduciae cum spe collocavit. - Secundum 
+            au<lb break="no" ed="#L" n="88"/>tem pertinet ad. operis executionem: ne scilicet
+            <lb ed="#L" n="89"/>aliquis deficiat in executione illorum quae 
+            fidu<lb break="no" ed="#L" n="90"/>cialiter inchoavit. Et quantum ad hoc ponit 
+            Tul<lb break="no" ed="#L" n="91"/>lius magnificentiam. Unde dicit  quod. 
+            magnifi<lb break="no" ed="#L" n="92"/>centia est rerum magnarum et excelsarum cum
+            <pb ed="#L" n="52"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>animi ampla quadam et splendida propositione 
+            co<lb break="no" ed="#L" n="2"/>gitatio atque administratio, idest executio, ut 
+            sci<lb break="no" ed="#L" n="3"/>licet amplo proposito administratio non desit. 
+            <lb ed="#L" n="4"/>Haec ergo duo, si coarctentur ad propriam 
+            mate<lb break="no" ed="#L" n="5"/>riam fortitudinis, scilicet ad pericula mortis, erunt
+            <lb ed="#L" n="6"/>quasi partes integrales ipsius, sine quibus 
+            forti<lb break="no" ed="#L" n="7"/>tudo esse non potest. Si autem referantur ad 
+            ali<lb break="no" ed="#L" n="8"/>quas alias materias in quibus est minus 
+            diffi<lb break="no" ed="#L" n="9"/>cultatis, erunt virtutes distinctae a fortitudine 
+            se<lb break="no" ed="#L" n="10"/>cundum speciem, tamen adiungentur ei sicut
+            <lb ed="#L" n="11"/>secundarium principali: sicut magnificentia a 
+            Phi<lb break="no" ed="#L" n="12"/>losopho, in IV Efhic., ponitur circa magnos 
+            sum<lb break="no" ed="#L" n="13"/>ptus; magnanimitas autem, quae videtur idem
+            <lb ed="#L" n="14"/>esse fiduciae, circa magnos honores .
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e393">
+            <lb ed="#L" n="15"/>Ad alium autem actum fortitudinis, qui est 
+            sus<lb break="no" ed="#L" n="16"/>tinere, duo requiruntur. Quorum primum est ne
+            <lb ed="#L" n="17"/>difficultate imminentium malorum animus 
+            fran<lb break="no" ed="#L" n="18"/>gatur per tristitiam, et decidat a sua magnitudine.
+            <lb ed="#L" n="19"/>Et quantum ad hoc ponit patientiam. Unde dicit 
+            <lb ed="#L" n="20"/>quod patientia est honestatis aut ulililatis causa
+            <lb ed="#L" n="21"/>rerum arduarum ac difficilium voluntaria ac 
+            diu<lb break="no" ed="#L" n="22"/>lurna perpessio. - Aliud autem est ut ex diuturna
+            <lb ed="#L" n="23"/>difficilium passione homo non fatigetur usque ad
+            <lb ed="#L" n="24"/>hoc quod desistat: secundum illud Heb. xu: Non
+            <lb ed="#L" n="25"/>fatigemini, animis vestris deficientes. Et quantum
+            <lb ed="#L" n="26"/>ad hoc ponit perseverantiam. Unde dicit  quod
+            <lb ed="#L" n="27"/>perseverantia est in ratione bene considerata 
+            sta<lb break="no" ed="#L" n="28"/>bilis et. perpetua permansio. - Haec etiam duo,
+            <lb ed="#L" n="29"/>si coarctentur ad propriam materiam fortitudinis,
+            <lb ed="#L" n="30"/>erunt partes quasi integrales ipsius. Si autem ad
+            <lb ed="#L" n="31"/>quascumque materias difficiles referantur, erunt
+            <lb ed="#L" n="32"/>virtutes a fortitudine distinctae, et tamen ei 
+            ad<lb break="no" ed="#L" n="33"/>iungentur sicut secundariae principali.
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e437">
+            <lb ed="#L" n="34"/>AD PRIMUM ERGO DICENDUM quod magnificentia
+            <lb ed="#L" n="35"/>circa materiam liberalitatis addit quandam 
+            ma<lb break="no" ed="#L" n="36"/>gnitudinem, quae pertinet ad rationem ardui, quod
+            <lb ed="#L" n="37"/>est obiectum irascibilis, quam principaliter 
+            per<lb break="no" ed="#L" n="38"/>ficit fortitudo. Et ex hac parte pertinet ad 
+            forti<lb break="no" ed="#L" n="39"/>tudinem.
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e453">
+            <lb ed="#L" n="40"/>AD SECUNDUM DICENDUM quod spes qua quis de
+            <lb ed="#L" n="41"/>Deo confidit, ponitur virtus theologica, ut supra
+            <lb ed="#L" n="42"/>habitum est. Sed per fiduciam quae nunc 
+            poni<lb break="no" ed="#L" n="43"/>tur fortitudinis pars, homo habet spem in seipso:
+            <lb ed="#L" n="44"/>tamen sub Deo.
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e466">
+            <lb ed="#L" n="45"/>AD TERTIUM DICENDUM quod quascumque 
+            ma<lb break="no" ed="#L" n="46"/>gnas res aggredi videtur esse periculosum, quia
+            <lb ed="#L" n="47"/>in his deficere est valde nocivum. Unde etiam
+            <lb ed="#L" n="48"/>si magnificentia et fiducia circa quaecumque alia
+            <lb ed="#L" n="49"/>magna operanda vel aggredienda ponantur, 
+            ha<lb break="no" ed="#L" n="50"/>bent quandam affinitatem cum fortitudine, ratione
+            <lb ed="#L" n="51"/>periculi imminentis.
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e484">
+            <lb ed="#L" n="52"/>AD QUARTUM DICENDUM quod patientia non 
+            so<lb break="no" ed="#L" n="53"/>lum perpetitur^ pericula mortis, circa quae est
+            <lb ed="#L" n="54"/>fortitudo, absque superabundanti tristitia, sed
+            <lb ed="#L" n="55"/>etiam quaecumque alia difficilia seu periculosa.
+            <lb ed="#L" n="56"/>Et secundum hoc ponitur virtus adiuncta 
+            forti<lb break="no" ed="#L" n="57"/>tudini. - Inquantum autem est circa pericula 
+            mor<lb break="no" ed="#L" n="58"/>tis, est pars integralis ipsius.
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e503">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="59"/>AD QUINTUM DICENDUM quod perseverantia 
+            se<lb break="no" ed="#L" n="60"/>cundum quod dicit continuitatem boni operis 
+            us<lb break="no" ed="#L" n="61"/>que in finem, circumstantia omnis virtutis esse
+            <lb ed="#L" n="62"/>potest. Ponitur autem pars fortitudinis secundum
+            <lb ed="#L" n="63"/>quod dictum est .
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e519">
+            <lb ed="#L" n="64"/>AD SEXTUM DICENDUM quod Macrobius ponit
+            <lb ed="#L" n="65"/>quatuor praedicta a Tullio posita, scilicet 
+            fidu<lb break="no" ed="#L" n="66"/>ciam, magnificentiam, tolerantiam, quam ponit
+            <lb ed="#L" n="67"/>loco patientiae, et firmitatem, quam ponit loco
+            <lb ed="#L" n="68"/>perseverantiae. Superaddit autem tria. Quorum
+            <lb ed="#L" n="69"/>duo, scilicet magnanimitas et securitas, a Tullio
+            <lb ed="#L" n="70"/>sub fiducia comprehenduntur: sed Macrobius
+            <lb ed="#L" n="71"/>magis per specialia distinguit. Nam fiducia 
+            im<lb break="no" ed="#L" n="72"/>portat spem hominis ad magna. Spes autem 
+            cu<lb break="no" ed="#L" n="73"/>iuslibet rei praesupponit appetitum in magna 
+            pro<lb break="no" ed="#L" n="74"/>tensum per desiderium, quod pertinet ad 
+            magna<lb break="no" ed="#L" n="75"/>nimilatem: dictum est enim supra  quod spes
+            <lb ed="#L" n="76"/>praesupponit amorem et desiderium rei speratae.
+            <lb ed="#L" n="77"/>Vel melius potest dici quod fiducia pertinet ad
+            <lb ed="#L" n="78"/>spei? certitudinem; magnanimitas autem ad 
+            ma<lb break="no" ed="#L" n="79"/>gnitudinem rei speratae. — Spes autem firma esse
+            <lb ed="#L" n="80"/>non potest nisi amoveatur contrarium: 
+            quando<lb break="no" ed="#L" n="81"/>que enim aliquis, quantum ex seipso est, 
+            spera<lb break="no" ed="#L" n="82"/>ret  aliquid, sed spes tollitur propter 
+            impedimen<lb break="no" ed="#L" n="83"/>tum timoris; timor enim quodammodo spei 
+            con<lb break="no" ed="#L" n="84"/>trariatur, ut supra  habitum est. Et ideo 
+            Macro<lb break="no" ed="#L" n="85"/>bius addit securitatem, quae excludit timorem. -
+            <lb ed="#L" n="86"/>Tertium autem addit, scilicet constantiam, quae
+            <lb ed="#L" n="87"/>sub magnificentia comprehendi potest : 
+            opor<lb break="no" ed="#L" n="88"/>tet enim in his quae magnifice aliquis facit, 
+            con<lb break="no" ed="#L" n="89"/>stantem animum habere. Et ideo Tullius ad 
+            ma<lb break="no" ed="#L" n="90"/>gnificentiam pertinere dicit non. solum admü
+            ini<lb break="no" ed="#L" n="91"/>sirationem rerum magnarum , sed etiam animi
+            <lb ed="#L" n="92"/>amplam excogitationem ipsarum. Potest etiam
+            <lb ed="#L" n="93"/>constantia ad perseverantiam pertinere: ut 
+            per<lb break="no" ed="#L" n="94"/>severans dicatur aliquis ex eo quod non desistit
+            <lb ed="#L" n="95"/>propter diuturnitatem ; cozistans autem ex eo quod
+            <lb ed="#L" n="96"/>non desistit propter quaecumque alia repugnantia.
+            <lb ed="#L" n="97"/>llla etiam quae Andronicus ponit ad eadem
+            <lb ed="#L" n="98"/>pertinere videntur. Ponit enim perseverantiam et
+            <lb ed="#L" n="99"/>magnificentiam cum "Tullio et Macrobio; 
+            ma<lb break="no" ed="#L" n="100"/>gnanimitatem autem cum Macrobio. - Lema 
+            au<lb break="no" ed="#L" n="101"/>tem est idem quod patientia vel tolerantia: dicit
+            <lb ed="#L" n="102"/>enim  quod /ema est habitus promptus? tribuens
+            <lb ed="#L" n="103"/>ad conari qualia oportet, et sustinere quae ratio
+            <lb ed="#L" n="104"/>dicit. - Eupsychia autem, idest ^ bona animositas,
+            <lb ed="#L" n="105"/>idem videtur esse quod securitas: dicit enim  quod
+            <lb ed="#L" n="106"/>est robur animae ad perficiendum opera ipsius. -
+            <lb ed="#L" n="107"/>Virilitas autem idem esse videtur quod jiducia:
+            <lb ed="#L" n="108"/>dicit enim  quod »irilitas est habitus per se 
+            suffi<lb break="no" ed="#L" n="109"/>ciens tributus in his quae" secundum virtutem.
+            <lb ed="#L" n="110"/>Magnificentiae autem addit andragathiam, quasi
+            <lb ed="#L" n="111"/>virilem bonitatem, quae apud nos strenuitas potest
+            <lb ed="#L" n="112"/>dici. Ad magnificentiam enim  pertinet non 
+            so<lb break="no" ed="#L" n="113"/>lum quod homo consistat in executione 
+            magno<lb break="no" ed="#L" n="114"/>rum operum, quod pertinet ad constantiam :. sed
+            <lb ed="#L" n="115"/>etiam cum quadam virili prudentia et sollicitudine
+            <lb ed="#L" n="116"/>ea exequatur, quod pertinet ad andragathiam sive
+            <pb ed="#L" n="53"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>strenuitatem. Unde dicit  quod andragathia est
+            <lb ed="#L" n="2"/>viri virtus adinventiva communicabilium operum.
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e645">
+            <lb ed="#L" n="3"/>Et sic patet quod omnes huiusmodi partes ad 
+            <lb ed="#L" n="4"/>quatuor principales reducuntur quas Tullius ponit.
+          </p>
+          <p xml:id="TAca84-d1e1933-d1e652">
+            <lb ed="#L" n="5"/>AD SEPTIMUM DICENDUM. quod illa quinque quae
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="6"/>ponit Aristoteles, deficiunt a vera ratione virtutis :
+            <lb ed="#L" n="7"/>quia etsi conveniant in actu fortitudinis, differunt
+            <lb ed="#L" n="8"/>tamen in motivo, ut supra  habitum est. Et ideo
+            <lb ed="#L" n="9"/>non ponuntur partes fortitudinis, sed quidam 
+            for<lb break="no" ed="#L" n="10"/>titudinis modi.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

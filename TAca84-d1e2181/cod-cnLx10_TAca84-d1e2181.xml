@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 176</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 176</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="410"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2181"><!-- p2p2-q176 -->
+        <head xml:id="TAca84-d1e2181-Hd1e101">Quaestio 176</head>
+        <head xml:id="TAca84-d1e2181-Hd1e103" type="question-title">De gratia linguarum</head>
+        <p xml:id="TAca84-d1e2181-d1e106">
+          <pb ed="#L" n="410"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=410"/>QUAESTIO CENTESIMASEPTUAGESIMASEXTA
+          <lb ed="#L" n="2"/>DE GRATIA LINGUARUM
+          <lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2181-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de gratiis gratis datis
+          <lb ed="#L" n="5"/>quae pertinent ad locutionem , Et primo,
+          <lb ed="#L" n="6"/>de gratia linguarum; secundo, de gratia 
+          sermo<lb break="no" ed="#L" n="7"/>nis sapientiae seu. scientiae. .
+          <lb ed="#L" n="8"/>Circa primum. quaeruntur duo.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="9"/>Primo: utrum. per gratiam linguarum homo
+          <lb ed="#L" n="10"/>adipisceretur  scientiam. omnium . 
+          lingua<lb break="no" ed="#L" n="11"/>rum.
+          <lb ed="#L" n="12"/>Secundo: de comparatione huius doni ad 
+          gra<lb break="no" ed="#L" n="13"/>tiam. prophetiae.
+        </p>
+        <div xml:id="TAca84-d1e2181-Dd1e148"><!-- p2p2-q176a1 -->
+          <head xml:id="TAca84-d1e2181-Hd1e151">Articulus 1</head>
+          <head xml:id="TAca84-d1e2181-Hd1e153" type="question-title">
+            utrum illi qui consequebantur donum linguarum, loquebantur omnibus linguis
+          </head>
+          <p xml:id="TAca84-d1e2181-d1e156">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="14" type="fixed=410"/>ARTICULUS PRIMUS 
+            <lb ed="#L" n="15"/>UTRUM ILLI QUI CONSEQUEBANTUR DONUM LINGUARUM, LOQUEBANTUR OMNIBUS LINGUIS
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e165">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="16"/>AD PRIMUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="17"/>illi qui consequebantur donum 
+            lingua<lb break="no" ed="#L" n="18"/>rum, non loquebantur omnibus linguis.
+            <lb ed="#L" n="19"/>Illud enim quod divina virtute aliquibus
+            <lb ed="#L" n="20"/>conceditur, optimum est in suo genere: sicut 
+            Do<lb break="no" ed="#L" n="21"/>minus aquam convertit in vinum bonum, sicut
+            <lb ed="#L" n="22"/>dicitur. Ioan. 1 . Sed illi qui habuerunt donum
+            <lb ed="#L" n="23"/>linguarum, melius loquebantur in propria lingua:
+            <lb ed="#L" n="24"/>dicit enim Glossa , ad Heb. 1, non esse 
+            mi<lb break="no" ed="#L" n="25"/>randum. quod Epistola ad Hebraeos maiore 
+            re<lb break="no" ed="#L" n="26"/>lucet facundia quam aliae: cum naturale sit 
+            uni<lb break="no" ed="#L" n="27"/>cuique plus in sua quam in aliena lingua valere.
+            <lb ed="#L" n="28"/>Ceteras enim Epistolas Apostolus peregrino, idest
+            <lb ed="#L" n="29"/>graeco sermone composuit: hanc autem scripsit 
+            <lb ed="#L" n="30"/>hebraica lingua. Non ergo per gratiam gratis
+            <lb ed="#L" n="31"/>datam Apostoli acceperunt scientiam omnium 
+            lin<lb break="no" ed="#L" n="32"/>guarum.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e207">
+            <lb ed="#L" n="33"/>2. PRAETEREA, natura non facit per multa quod -
+            <lb ed="#L" n="34"/>potest fieri per unum: et multo minus Deus, qui
+            <lb ed="#L" n="35"/>ordinatius quam natura operatur. Sed poterat 
+            <lb ed="#L" n="36"/>Deus facere quod, unam linguam loquentes, eius
+            <lb ed="#L" n="37"/>discipuli ab omnibus intelligerentur: unde super
+            <lb ed="#L" n="38"/>illud Act. n , Audiebat unusquisque linguam suam?
+            <lb ed="#L" n="39"/>illos loquentes, dicit Glossa: Quia linguis omnibus
+            <lb ed="#L" n="40"/>loquebantur: vel sua, idest hebraica lingua 
+            lo<lb break="no" ed="#L" n="41"/>quentes, ab omnibus intelligebantur, ac si propriis
+            <lb ed="#L" n="42"/>singulorum loquerentur. Ergo videtur quod non
+            <lb ed="#L" n="43"/>habuerunt scientiam loquendi omnibus linguis.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e234">
+            <lb ed="#L" n="44"/>3. PRAETEREA, omnes gratiae derivantur a 
+            Chri<lb break="no" ed="#L" n="45"/>sto in corpus eius, quod est Ecclesia : secundum
+            <lb ed="#L" n="46"/>illud Ioan. 1 : De plenitudine eius omnes 
+            acce<lb break="no" ed="#L" n="47"/>pimus. Sed Christus non legitur fuisse locutus
+            <lb ed="#L" n="48"/>nisi una lingua. Nec etiam nunc fideles singuli
+            <lb ed="#L" n="49"/>nisi una lingua loquuntur. Ergo videtur quod
+            <lb ed="#L" n="50"/>discipuli Christi non acceperunt ad hoc gratiam,
+            <lb ed="#L" n="51"/>ut omnibus linguis loquerentur.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e254">
+            <lb ed="#L" n="52"/>SED coNTRA EST quod dicitur Act. u , quod 
+            <lb ed="#L" n="53"/>repleti sunt omnes Spiritu Sancto, et coeperunt
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="54"/>loqui variis linguis, prout Spiritus Sanctus. dabat
+            <lb ed="#L" n="55"/>eloqui illis: ubi dicit. glossa  Gregorii quod Spi-. o
+            <lb ed="#L" n="56"/>ritus Sanctus super discipulos in igneis linguis 
+            ap<lb break="no" ed="#L" n="57"/>paruit, et eis omnium linguarum scientiam dedit.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e272">
+            <lb ed="#L" n="58"/>RESPONDEO DICENDUM quod primi discipuli 
+            Chri<lb break="no" ed="#L" n="59"/>sti ad hoc fuerunt ab ipso electi ut, per 
+            univer<lb break="no" ed="#L" n="60"/>sum orbem discurrentes, fidem eius ubique 
+            prae<lb break="no" ed="#L" n="61"/>dicarent: secundum illud Matth. ult. Euntes,
+            <lb ed="#L" n="62"/>docete omnes gentes. Non autem erat conveniens
+            <lb ed="#L" n="63"/>ut qui mittebantur ad alios instruendos, 
+            indige<lb break="no" ed="#L" n="64"/>rent ab aliis instrui qualiter aliis '. loquerentur
+            <lb ed="#L" n="65"/>vel qualiter quae alii loquebantur intelligerent.
+            <lb ed="#L" n="66"/>Praesertim quia isti qui mittebantur erant unius
+            <lb ed="#L" n="67"/>gentis, scilicet Iudaeae: secundum illud Isaiae
+            <lb ed="#L" n="68"/>xxvi : Qui egredientur impetu a Iacob, 
+            imple<lb break="no" ed="#L" n="69"/>bunt faciem orbis semine. lli etiam qui 
+            mitte<lb break="no" ed="#L" n="70"/>bantur pauperes et impotentes erant, nec de 
+            fa<lb break="no" ed="#L" n="71"/>cili a principio reperissent qui eorum verba aliis
+            <lb ed="#L" n="72"/>fideliter interpretarentur, vel verba aliorum eis
+            <lb ed="#L" n="73"/>exponerent: maxime quia ad infideles 
+            mitteban<lb break="no" ed="#L" n="74"/>tur. Et ideo necessarium fuit ut super hoc eis
+            <lb ed="#L" n="75"/>divinitus provideretur per donum linguarum: ut
+            <lb ed="#L" n="76"/>sicut, gentibus ad idololatriam declinantibus, 
+            in<lb break="no" ed="#L" n="77"/>troducta est diversitas linguarum, sicut dicitur
+            <lb ed="#L" n="78"/>Gen. x1i; ita etiam, quando erant gentes ad 
+            cul<lb break="no" ed="#L" n="79"/>tum unius Dei revocandae, contra huiusmodi
+            <lb ed="#L" n="80"/>diversitatem remedium adhiberetur per donum
+            <lb ed="#L" n="81"/>linguarum.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e327">
+            <lb ed="#L" n="82"/>AD PRIMUM ERGO DICENDUM quod; sicut dicitur
+            <lb ed="#L" n="83"/>1 ad Cor. xu , manifestatio Spiritus datur ad 
+            uti<lb break="no" ed="#L" n="84"/>litatem. Et ideo sufficienter et Paulus et alii 
+            Apo<lb break="no" ed="#L" n="85"/>stoli fuerunt instructi divinitus in linguis omnium
+            <lb ed="#L" n="86"/>gentium, quantum requirebatur ad fidei 
+            doctri<lb break="no" ed="#L" n="87"/>nam. Sed quantum ad quaedam quae 
+            superad<lb break="no" ed="#L" n="88"/>duntur humana arte ad ornatum et elegantiam
+            <lb ed="#L" n="89"/>locutionis, Apostolus instructus erat in propria
+            <lb ed="#L" n="90"/>lingua, non autem in aliena. Sicut etiam et in
+            <lb ed="#L" n="91"/>sapientia et scientia fuerunt sufficienter instructi
+            <pb ed="#L" n="411"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>quantum requirebat doctrina fidei: non autem
+            <lb ed="#L" n="2"/>quantum ad omnia quae per scientiam 
+            acquisi<lb break="no" ed="#L" n="3"/>tam cognoscuntur, puta de conclusionibus 
+            arithme<lb break="no" ed="#L" n="4"/>ticae vel geometriae.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e364">
+            <lb ed="#L" n="5"/>AD SECUNDUM DICENDUM quod, quamvis 
+            utrum<lb break="no" ed="#L" n="6"/>que fieri potuisset, scilicet quod per unam 
+            lin<lb break="no" ed="#L" n="7"/>guam loquentes ab omnibus intelligerentur, aut
+            <lb ed="#L" n="8"/>quod omnibus loquerentur; tamen 
+            convenien<lb break="no" ed="#L" n="9"/>tius fuit quod ipsi omnibus linguis loquerentur:
+            <lb ed="#L" n="10"/>quia hoc pertinebat ad perfectionem scientiae
+            <lb ed="#L" n="11"/>ipsorum, per quam non solum loqui, sed 
+            intel<lb break="no" ed="#L" n="12"/>ligere poterant quae ab aliis dicebantur. Si 
+            au<lb break="no" ed="#L" n="13"/>tem omnes unam eorum linguam intellexissent,
+            <lb ed="#L" n="14"/>hoc vel fuisset per scientiam illorum qui eos 
+            lo<lb break="no" ed="#L" n="15"/>quentes intelligerent: vel fuisset quasi quaedam 
+            <lb ed="#L" n="16"/>illusio, dum aliorum verba aliter ad aliorum 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="17"/>aures perferrentur quam ipsi ea proferrent. Et ideo
+            <lb ed="#L" n="18"/>Glossa  dicit, Act. i , quod maiori miraculo
+            <lb ed="#L" n="19"/>factum est quod ipsi omnium linguarum 
+            generi<lb break="no" ed="#L" n="20"/>bus loquerentur. Et Paulus dicit, I ad Cor. xiv :
+            <lb ed="#L" n="21"/>Gratias Deo, quod omnium vestrum lingua loquor.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e406">
+            <lb ed="#L" n="22"/>AD TERTIUM DICENDUM quod Christus in propria
+            <lb ed="#L" n="23"/>persona uni soli genti praedicaturus erat, scilicet
+            <lb ed="#L" n="24"/>Iudaeis. Et ideo, quamvis ipse absque dubio 
+            per<lb break="no" ed="#L" n="25"/>fectissime haberet scientiam omnium linguarum,
+            <lb ed="#L" n="26"/>non tamen oportuit quod omnibus linguis 
+            loque<lb break="no" ed="#L" n="27"/>retur.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e423">
+            <lb ed="#L" n="28"/>Ideo autem, ut Augustinus dicit, super Toan.
+            <lb ed="#L" n="29"/>cum et modo Spiritus Sanctus accipiatur nemo
+            <lb ed="#L" n="30"/>loquitur linguis omnium gentium, quia ^ iam ipsa
+            <lb ed="#L" n="31"/>Ecclesia linguis omnium gentium loquitur, in qua
+            <lb ed="#L" n="32"/>qui non est, non accipit Spiritum Sanctum.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2181-Dd1e438"><!-- p2p2-q176a2 -->
+          <head xml:id="TAca84-d1e2181-Hd1e441">Articulus 2</head>
+          <head xml:id="TAca84-d1e2181-Hd1e443" type="question-title">Utrum donum linguarum sit excellentius quam gratia prophetiae</head>
+          <p xml:id="TAca84-d1e2181-d1e446">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="81" type="fixed=411"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="82"/>UTRUM DONUM LINGUARUM SIT EXCELLENTIUS QUAM GRATIA PROPHETIAE
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e455">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="83"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="84"/>donum linguarum sit excellentius quam
+            <lb ed="#L" n="85"/>gratia prophetiae, Quae enim sunt 
+            me<lb break="no" ed="#L" n="86"/>V re Nlioribus propria, videntur esse meliora :
+            <lb ed="#L" n="87"/>secundum Philosophum, in III Zopic.  Sed 
+            do<lb break="no" ed="#L" n="88"/>num linguarum est proprium novi Testamenti:
+            <lb ed="#L" n="89"/>; unde cantatur in Sequentia Pentecostes : 7pse
+            <lb ed="#L" n="90"/>hodie Apostolos. Christi donans munere insolito 
+            <lb ed="#L" n="91"/>et cunctis inaudito saeculis. Prophetia autem 
+            ma<lb break="no" ed="#L" n="92"/>gis competit veteri Testamento: secundum illud
+            <cb ed="#L" n="h"/>
+            <lb ed="#L" n="93"/>Heb. i: Multifariam multisque modis olim Deus
+            <lb ed="#L" n="94"/>loquens Patribus in Prophetis. Exgo videtur quod
+            <lb ed="#L" n="95"/>donum linguarum sit excellentius quam donum
+            <lb ed="#L" n="96"/>prophetiae.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e492">
+            <lb ed="#L" n="97"/>2. PRaETEREA, illud per quod ordinamur ad
+            <lb ed="#L" n="98"/>Deum, videtur excellentius esse eo. per quod 
+            or<lb break="no" ed="#L" n="99"/>dinamur ad homines. Sed per donum linguarum
+            <lb ed="#L" n="100"/>homo ordinatur ad Deum, per prophetiam 
+            au<lb break="no" ed="#L" n="101"/>tem ad homines: dicitur enim I ad Cor. xiv :
+            <lb ed="#L" n="102"/>Qui loquitur lingua, non hominibus loquitur, sed
+            <pb ed="#L" n="412"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>Deo: qui autem. prophetat, hominibus loquitur ad
+            <lb ed="#L" n="2"/>aedificationem. Ergo videtur quod donum 
+            lingua<lb break="no" ed="#L" n="3"/>rum sit excellentius quam donum prophetiae.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e519">
+            <lb ed="#L" n="4"/>3. PRAETEREA, donum linguarum habitualiter
+            <lb ed="#L" n="5"/>permanet in habente ipsum, et habet homo in
+            <lb ed="#L" n="6"/>potestate u£i eo cum voluerit : unde dicitur I ad
+            <lb ed="#L" n="7"/>Cor. xiv : Gratias ago Deo meo quod omnium
+            <lb ed="#L" n="8"/>vestrum lingua loquor.. Non autem sic est de
+            <lb ed="#L" n="9"/>dono prophetiae, ut supra  dictum est. Ergo
+            <lb ed="#L" n="10"/>donum linguarum videtur esse excellentius quam
+            <lb ed="#L" n="11"/>donum prophetiae.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e539">
+            <lb ed="#L" n="12"/>4. PRAETEREA, interpretatio sermonum videtur
+            <lb ed="#L" n="13"/>contineri sub prophetia: quia Scripturae eodem
+            <lb ed="#L" n="14"/>Spiritu exponuntur quo sunt editae. Sed 
+            inter<lb break="no" ed="#L" n="15"/>pretatio sermonum, 1 ad Cor. xii , ponitur post
+            <lb ed="#L" n="16"/>genera linguarum. Ergo. videtur quod donum
+            <lb ed="#L" n="17"/>linguarum sit excellentius quam donum 
+            prophe<lb break="no" ed="#L" n="18"/>tiae, maxime quantum ad aliquam eius partem.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e557">
+            <lb ed="#L" n="19"/>SED coNTRA EsT quod Apostolus dicit, I ad
+            <lb ed="#L" n="20"/>Cor. xiv : Maior est qui .prophetat quam qui
+            <lb ed="#L" n="21"/>loquitur linguis.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e566">
+            <lb ed="#L" n="22"/>RESPONDEO DICENDUM quod donum prophetiae
+            <lb ed="#L" n="23"/>excedit donum linguarum tripliciter. Primo 
+            qui<lb break="no" ed="#L" n="24"/>dem, quia donum linguarum refertur ad diversas
+            <lb ed="#L" n="25"/>voces proferendas, quae sunt signa alicuius 
+            in<lb break="no" ed="#L" n="26"/>telligibilis veritatis: cuius etiam signa sunt 
+            quae<lb break="no" ed="#L" n="27"/>dam ipsa phantasmata quae secundum 
+            imagina<lb break="no" ed="#L" n="28"/>riam visionem apparent; unde et Augustinus,
+            <lb ed="#L" n="29"/>XII super Gen. ad litt. , comparat donum 
+            lin<lb break="no" ed="#L" n="30"/>guarum visioni imaginariae. Dictum est autem
+            <lb ed="#L" n="31"/>supra  quod donum prophetiae consistit in ipsa
+            <lb ed="#L" n="32"/>illuminatione mentis ad cognoscendum 
+            intelligi<lb break="no" ed="#L" n="33"/>bilem veritatem. Unde sicut prophetica illuminatio
+            <lb ed="#L" n="34"/>excellentior est quam imaginaria visio, ut supra 
+            <lb ed="#L" n="35"/>habitum est; ita etiam excellentior est prophetia
+            <lb ed="#L" n="36"/>quam donum linguarum secundum se 
+            conside<lb break="no" ed="#L" n="37"/>ratum.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e603">
+            <lb ed="#L" n="38"/>Secundo, quia donum prophetiae pertinet ad
+            <lb ed="#L" n="39"/>rerum notitiam: quae est nobilior quam notitia
+            <lb ed="#L" n="40"/>vocum, ad quam pertinet donum linguarum.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e612">
+            <lb ed="#L" n="41"/>Tertio, quia donum prophetiae est utilius. Et
+            <lb ed="#L" n="42"/>hoc quidem probat Apostolus, I ad Cor. xiv, 
+            tri<lb break="no" ed="#L" n="43"/>pliciter. Primo quidem , quia prophetia est 
+            uti<lb break="no" ed="#L" n="44"/>lior ad aedificationem Ecclesiae: ad quam qui
+            <lb ed="#L" n="45"/>loquitur linguis nihil prodest, nisi expositio 
+            subse<lb break="no" ed="#L" n="46"/>quatur. - Secundo , quantum ad ipsum 
+            loquen<lb break="no" ed="#L" n="47"/>tem: qui si acciperet ut loqueretur diversis 
+            lin<lb break="no" ed="#L" n="48"/>guis sine hoc quod intelligeret (quod pertinet ad
+            <lb ed="#L" n="49"/>propheticum donum), mens eius non 
+            aedificare<lb break="no" ed="#L" n="50"/>tur. - Tertio , quantum ad infideles, propter quos
+            <lb ed="#L" n="51"/>praecipue videtur esse datum donum linguarum:
+            <lb ed="#L" n="52"/>qui quidem forte eos qui loquerentur linguis 
+            re<lb break="no" ed="#L" n="53"/>putarent P insanos; sicut et Iudaei reputaverunt
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="54"/>ebrios Apostolos linguis loquentes, ut. dicitur
+            <lb ed="#L" n="55"/>Act. u . Per prophetias ! autem infidelis 
+            convin<lb break="no" ed="#L" n="56"/>ceretur, manifestatis absconditis cordis eius.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e652">
+            <lb ed="#L" n="57"/>AD PRIMUM ERGO DICENDUM quod, sicut supra 
+            <lb ed="#L" n="58"/>dictum est, ad excellentiam prophetiae pertinet
+            <lb ed="#L" n="59"/>quod aliquis non solum illuminetur intelligibili
+            <lb ed="#L" n="60"/>lumine, sed etiam percipiat ? imaginariam 
+            visio<lb break="no" ed="#L" n="61"/>nem. lta etiam ad perfectionem operationis 
+            Spi<lb break="no" ed="#L" n="62"/>ritus Sancti pertinet quod non solum impleat
+            <lb ed="#L" n="63"/>mentem lumine prophetico et phantasiam 
+            ima<lb break="no" ed="#L" n="64"/>ginaria visione, sicut erat in veteri Testamento:
+            <lb ed="#L" n="65"/>sed etiam exterius linguam erudiat ad varia signa
+            <lb ed="#L" n="66"/>locutionum proferenda. Quod totum fit in novo
+            <lb ed="#L" n="67"/>Testamento: secundum illud I ad Cor. xiv : 
+            Unus<lb break="no" ed="#L" n="68"/>quisque vestrum psalmum habet, doctrinam habet,
+            <lb ed="#L" n="69"/>linguam habet, apocalypsim , idest propheticam
+            <lb ed="#L" n="70"/>revelationem, habet.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e685">
+            <lb ed="#L" n="71"/>AD SECUNDUM DICENDUM quod per donum 
+            pro<lb break="no" ed="#L" n="72"/>phetiae homo ordinatur ad Deum secundum
+            <lb ed="#L" n="73"/>mentem: quod est nobilius quam ordinari ad
+            <lb ed="#L" n="74"/>eum secundum linguam. Dicitur autem quod ille
+            <lb ed="#L" n="75"/>qui loquitur lingua non loquitur hominibus, idest,
+            <lb ed="#L" n="76"/>ad intellectum hominum vel utilitatem eorum:
+            <lb ed="#L" n="77"/>sed ad intellectum solius Dei et ad laudem eius.
+            <lb ed="#L" n="78"/>Sed per prophetiam ordinatur aliquis et ad Deum
+            <lb ed="#L" n="79"/>et ad proximum. Unde est perfectius donum.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e707">
+            <lb ed="#L" n="80"/>AD TERTIUM DICENDUM quod revelatio 
+            prophe<lb break="no" ed="#L" n="81"/>tica se extendit ad omnia supernaturalia 
+            cogno<lb break="no" ed="#L" n="82"/>scenda. Unde ex eius perfectione contingit quod
+            <lb ed="#L" n="83"/>in statu imperfectionis huius vitae non potest
+            <lb ed="#L" n="84"/>haberi perfecte per modum habitus, sed 
+            imper<lb break="no" ed="#L" n="85"/>fecte per modum passionis cuiusdam. Sed donum
+            <lb ed="#L" n="86"/>linguarum se extendit ad cognitionem quandam
+            <lb ed="#L" n="87"/>particularem , scilicet vocum humanarum. Et
+            <lb ed="#L" n="88"/>ideo non repugnat imperfectioni huius vitae quod
+            <lb ed="#L" n="89"/>perfecte et habitualiter habeatur.
+          </p>
+          <p xml:id="TAca84-d1e2181-d1e731">
+            <lb ed="#L" n="90"/>AD QUARTUM DICENDUM quod interpretatio 
+            sermo<lb break="no" ed="#L" n="91"/>num potest reduci ad donum prophetiae: 
+            inquan<lb break="no" ed="#L" n="92"/>tum scilicet mens illuminatur ad intelligendum
+            <lb ed="#L" n="93"/>et exponendum quaecumque sunt in sermonibus
+            <lb ed="#L" n="94"/>obscura, sive propter difficultatem rerum 
+            signi<lb break="no" ed="#L" n="95"/>ficatarum, sive etiam propter ipsas voces ignotas
+            <lb ed="#L" n="96"/>quae proferuntur, sive etiam propter similitudines
+            <lb ed="#L" n="97"/>rerum adhibitas; secundum illud Dan. v : 
+            Au<lb break="no" ed="#L" n="98"/>divi de te quod possis obscura interpretari et 
+            li<lb break="no" ed="#L" n="99"/>gata dissolvere. Unde interpretatio sermonum est
+            <lb ed="#L" n="100"/>potior quam donum linguarum: ut patet per id
+            <lb ed="#L" n="101"/>quod Apostolus dicit, I ad Cor. xiv : .Mator est
+            <lb ed="#L" n="102"/>qui prophetat quam qui loquitur linguis, nisi forte
+            <lb ed="#L" n="103"/>interpretetur, Postponitur autem interpretatio 
+            ser<lb break="no" ed="#L" n="104"/>monum dono linguarum, quia etiam ad 
+            interpre<lb break="no" ed="#L" n="105"/>tandum diversa linguarum genera interpretatio
+            <lb ed="#L" n="106"/>sermonum se extendit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

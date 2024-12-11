@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 123</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 123</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="3"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e1907"><!-- p2p2-q123 -->
+        <head xml:id="TAca84-d1e1907-Hd1e101">Quaestio 123</head>
+        <head xml:id="TAca84-d1e1907-Hd1e103" type="question-title">De fortitudine</head>
+        <p xml:id="TAca84-d1e1907-d1e106">
+          <pb ed="#L" n="3"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=3"/>SECUNDA SECUNDAE
+          <lb ed="#L" n="2"/>SUMMAE THEOLOGIAE
+          <lb ed="#L" n="3"/>ANGELICI DOCTORIS
+          <lb ed="#L" n="4"/>SANCTI THOMAE AQUINATIS
+          <lb ed="#L" n="5"/>ORDINIS PRAEDICATORUM
+          <lb ed="#L" n="6"/>CUM COMMENTARIIS
+          <lb ed="#L" n="7"/>THOMAE DE VIO CAIETANI
+          <lb ed="#L" n="8"/>EIUSDEM ORDINIS
+          <lb ed="#L" n="9"/>S. R. E. CARDINALIS
+        </p>
+        <p xml:id="TAca84-d1e1907-d1e132">
+          <lb ed="#L" n="10"/>QUAESTIO CENTESIMAVIGESIMATERTIA
+          <lb ed="#L" n="11"/>DE FORTITUDINE
+          <lb ed="#L" n="12"/>IN  DUODECIM ARTÍCULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e1907-d1e141">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="13"/>CONSEQUENTER pungit post iustitiam, considerandum
+          <lb ed="#L" n="14"/>est de fortitudine. Et primo, de ipsa 
+          vir<lb break="no" ed="#L" n="15"/>tute fortitudinis; secundo, de peribus eius; 
+          ter<lb break="no" ed="#L" n="16"/>cam. tio, de dono ei correspondente; quarto, de 
+          prae<lb break="no" ed="#L" n="17"/>ceptis ad ipsam pertinentibus.
+        </p>
+        <p xml:id="TAca84-d1e1907-d1e158">
+          <lb ed="#L" n="18"/>Circa fortitudinem autem consideranda sunt
+          <lb ed="#L" n="19"/>tria: primo quidem, de ipsa fortitudine; secundo,
+          <lb ed="#L" n="20"/>de actu praecipuo eius, scilicet de martyrio ;
+          <lb ed="#L" n="21"/>tertio, de vitiis oppositis 
+        </p>
+        <p xml:id="TAca84-d1e1907-d1e169">
+          <lb ed="#L" n="22"/>Circa primum quaeruntur duodecim.
+          <lb ed="#L" n="23"/>Primo: utrum fortitudo sit virtus.
+          <lb ed="#L" n="24"/>Secundo: utrum sit virtus specialis.
+          <lb ed="#L" n="25"/>Tertio: utrum sit  circa timores et audacias.
+          <lb ed="#L" n="26"/>Quarto: utrum sit solum circa timorem mortis.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="27"/>Quinto: utrum sit solum in rebus bellicis.
+          <lb ed="#L" n="28"/>Sexto: utrum sustinere sit praecipuus actus
+          <lb ed="#L" n="29"/>eius.
+          <lb ed="#L" n="30"/>Septimo: utrum operetur propter proprium
+          <lb ed="#L" n="31"/>bonum.
+          <lb ed="#L" n="32"/>Octavo: utrum habeat delectationem in suo
+          <lb ed="#L" n="33"/>actu.
+          <lb ed="#L" n="34"/>Nono: utrum fortitudo maxime consistat in
+          <lb ed="#L" n="35"/>repentinis.
+          <lb ed="#L" n="36"/>Decimo: utrum utatur ira in sua operatione.
+          <lb ed="#L" n="37"/>Undecimo: utrum sit virtus cardinalis.
+          <lb ed="#L" n="38"/>Duodecimo: de comparatione eius ad alias
+          <lb ed="#L" n="39"/>virtutes cardinales.
+        </p>
+        <div xml:id="TAca84-d1e1907-Dd1e213"><!-- p2p2-q123a1 -->
+          <head xml:id="TAca84-d1e1907-Hd1e216">Articulus 1</head>
+          <head xml:id="TAca84-d1e1907-Hd1e218" type="question-title">Utrum fortitudo sit virtus</head>
+          <p xml:id="TAca84-d1e1907-d1e221">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="40" type="fixed=3"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="41"/>UTRUM FORTITUDO SIT VIRTUS
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e230">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="42"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="43"/>fortitudo non sit virtus. Dicit enim 
+            Apo<lb break="no" ed="#L" n="44"/>stolus, II ad Cor. XII: <quote xml:id="TAca84-d1e1907-Qd1e240">Virtus in 
+              infir<lb break="no" ed="#L" n="45"/>mnitate perficitur</quote>. Sed fortitudo 
+            infirmi<lb break="no" ed="#L" n="46"/>tati opponitur. Ergo fortitudo non est virtus.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e249">
+            <lb ed="#L" n="47"/>2. PRAETEREA, si est virtus, aut est theologica,
+            <lb ed="#L" n="48"/>aut intellectualis, aut moralis. Sed fortitido neque -
+            <lb ed="#L" n="49"/>continetur inter virtutes theologicas, neque inter
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="50"/>intellectuales, ut ex supra  dictis patet. Neque
+            <lb ed="#L" n="51"/>etiam videtur esse virtus moralis. Quia, ut 
+            Phi<lb break="no" ed="#L" n="52"/>losophus dicit, in III Efhic. , videntur aliqui esse
+            <lb ed="#L" n="53"/>fortes propter ignorantiam, aut etiam propter 
+            ex<lb break="no" ed="#L" n="54"/>perientiam, sicut milites, quae ? magis pertinent
+            <lb ed="#L" n="55"/>ad artem quam ad virtutem moralem: quidam
+            <lb ed="#L" n="56"/>etiam dicuntur esse fortes propter aliquas 
+            pas<lb break="no" ed="#L" n="57"/>siones, puta propter timorem comminationum vel
+            <pb ed="#L" n="4"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>dehonorationis, aut etiam propter tristitiam vel
+            <lb ed="#L" n="2"/>iram, seu spem; virtus autem moralis non 
+            ope<lb break="no" ed="#L" n="3"/>ratur ex passione, sed ex electione, ut supra 
+            <lb ed="#L" n="4"/>habitum. est. Ergo fortitudo non est virtus.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e292">
+            <lb ed="#L" n="5"/>3. PRAETEREA, vittus humana maxime 
+            consi<lb break="no" ed="#L" n="6"/>stit in anima: est enim bona qualitas mentis, ut
+            <lb ed="#L" n="7"/>supra  iam dictum est. Sed fortitudo videtur
+            <lb ed="#L" n="8"/>consistere in corpore: vel saltem corporis 
+            com<lb break="no" ed="#L" n="9"/>plexionem sequi . Ergo videtur quod fortitudo
+            <lb ed="#L" n="10"/>non sit virtus.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e308">
+            <lb ed="#L" n="11"/>SED cowTRA EsT quod Augustinus, in libro de
+            <lb ed="#L" n="12"/>Moribus Eccle. , fortitudinem inter virtutes 
+            nu<lb break="no" ed="#L" n="13"/>merat.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e317">
+            <lb ed="#L" n="14"/>RESPONDEO DICENDUM quod, secundum 
+            Philoso<lb break="no" ed="#L" n="15"/>phum, in Il Ethic. , virtus est quae bonum facit
+            <lb ed="#L" n="16"/>habentem, et opus eius bonum reddit: unde virtus
+            <lb ed="#L" n="17"/>hominis, de qua loquimur, est quae bonum facit
+            <lb ed="#L" n="18"/>hominem, et opus eius bonum reddit. Bonum 
+            au<lb break="no" ed="#L" n="19"/>tem hominis est secundum rationem esse, 
+            secun<lb break="no" ed="#L" n="20"/>dum Dionysium, iv cap. de Div. Nom.  Et ideo 
+            <lb ed="#L" n="21"/>ad virtutem humanam pertinet ut faciat hominem ?
+            <lb ed="#L" n="22"/>et opus eius secundum rationem esse. - Quod
+            <lb ed="#L" n="23"/>quidem tripliciter contingit. Uno modo, 
+            secun<lb break="no" ed="#L" n="24"/>dum quod ipsa ratio rectificatur: quod fit per
+            <lb ed="#L" n="25"/>virtutes intellectuales. Alio modo, secundum quod
+            <lb ed="#L" n="26"/>ipsa rectitudo rationis in rebus humanis 
+            institui<lb break="no" ed="#L" n="27"/>tur: quod pertinet ad iustitiam. Tertio, secundum 
+            <lb ed="#L" n="28"/>quod tolluntur impedimenta huius rectitudinis in
+            <lb ed="#L" n="29"/>rebus humanis ponendae. - Dupliciter autem 
+            im<lb break="no" ed="#L" n="30"/>peditur voluntas humana ne rectitudinem 
+            ratio<lb break="no" ed="#L" n="31"/>ab aliquo delectabili ad aliud  quam rectitudo
+            <lb ed="#L" n="32"/>rationis requirat: et hoc impedimentum tollit 
+            vir<lb break="no" ed="#L" n="33"/>tus temperantiae. Alio modo, per hoc quód 
+            vo<lb break="no" ed="#L" n="34"/>luntatem repellit ab eo quod est secundum 
+            ra<lb break="no" ed="#L" n="35"/>tionem, propter aliquid difficile quod incumbit.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e367">
+            <lb ed="#L" n="36"/>Et ad hoc impedimentum tollendum requiritur 
+            <lb ed="#L" n="37"/>fortitudo mentis, qua scilicet huiusmodi 
+            difficul<lb break="no" ed="#L" n="38"/>tatibus resistat: sicut et homo per fortitudinem
+            <lb ed="#L" n="39"/>corporalem impedimerta corporalia superat et
+            <lb ed="#L" n="40"/>repellit. Unde manifestum est quod fortitudo est
+            <lb ed="#L" n="41"/>virtus, inquantum facit hominem secundum 
+            ra<lb break="no" ed="#L" n="42"/>tionem esse.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e385">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="43"/>AD PRIMUM ERGO DICENDUM quod virtus animae
+            <lb ed="#L" n="44"/>non perficitur in infirmitate animae, sed in 
+            in<lb break="no" ed="#L" n="45"/>firmitate carnis, de qua Apostolus loquebatur.
+            <lb ed="#L" n="46"/>Hoc autem ad fortitudinem mentis pertinet, quod
+            <lb ed="#L" n="47"/>infirmitatem carnis fortiter ferat; quod pertinet
+            <lb ed="#L" n="48"/>ad virtutem patientiae vel fortitudinis. Et quod
+            <lb ed="#L" n="49"/>homo propriam infirmitatem recognoscat, 
+            perti<lb break="no" ed="#L" n="50"/>net  ad perfectionem quae dicitur humilitas.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e407">
+            <lb ed="#L" n="51"/>AD SECUNDUM DICENDUM quod exteriorem virtutis
+            <lb ed="#L" n="52"/>actum quandoque aliqui efficiunt non habentes
+            <lb ed="#L" n="53"/>virtutem, ex aliqua alia causa. quam ex virtute.
+            <lb ed="#L" n="54"/>Et ideo Philosophus, in III Efhic. , ponit quinque
+            <lb ed="#L" n="55"/>modos eorum qui similitudinarie dicuntur fortes,
+            <lb ed="#L" n="56"/>quasi exercentes actum fortitudinis praeter 
+            vir<lb break="no" ed="#L" n="57"/>tutem. Quod quidem contingit tripliciter. Primo
+            <lb ed="#L" n="58"/>quidem, quia feruntur in id quod est difficile ac
+            <lb ed="#L" n="59"/>si non esset difficile. Quod in tres modos 
+            divi<lb break="no" ed="#L" n="60"/>ditur. Quandoque enim hoc accidit propter 
+            igno<lb break="no" ed="#L" n="61"/>rantiam: quia scilicet homo non percipit 
+            magni<lb break="no" ed="#L" n="62"/>tudinem periculi. Quandoque autem hoc accidit
+            <lb ed="#L" n="63"/>propter hoc quod homo est bonae spei ad 
+            pe<lb break="no" ed="#L" n="64"/>ricula vincenda: puta cum expertus est se saepe
+            <lb ed="#L" n="65"/>pericula evasisse. Quandoque autem hoc accidit :
+            <lb ed="#L" n="66"/>propter scientiam et artem quandam: sicut 
+            con<lb break="no" ed="#L" n="67"/>tingit in militibus, qui propter peritiam armorum
+            <lb ed="#L" n="68"/>et exercitium non reputant gravia pericula belli,
+            <lb ed="#L" n="69"/>aestimantes se per suam artem posse contra ea
+            <lb ed="#L" n="70"/>defendi; sicut Vegetius dicit, in libro De Re 
+            Mi<lb break="no" ed="#L" n="71"/>litari : Nemo facere metuit quod se bene 
+            didi<lb break="no" ed="#L" n="72"/>cisse confidit. - Alio modo agit aliquis actum 
+            for<lb break="no" ed="#L" n="73"/>nis sequatur. Uno modo, per hoc quod attrahitur
+            <lb ed="#L" n="74"/>titudinis sine virtute, propter impulsum 
+            passio<lb break="no" ed="#L" n="75"/>nis: vel tristitiae, quam vult repellere; vel etiam
+            <lb ed="#L" n="76"/>irae. - Tertio modo, propter electionem, non qui
+            <lb ed="#L" n="77"/>dem finis debiti, sed alicuius temporalis commodi
+            <lb ed="#L" n="78"/>acquirendi, puta honoris, voluptatis vel lucri; vel
+            <lb ed="#L" n="79"/>alicuius incommodi vitandi, puta vituperii, affi
+            <lb ed="#L" n="80"/>ctionis vel damni.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e476">
+            <lb ed="#L" n="81"/>AD TERTIUM DICENDUM quod ad similitudinem
+            <lb ed="#L" n="82"/>corporalis fortitudinis dicitur fortitudo animae,
+            <lb ed="#L" n="83"/>quae ponitur virtus, ut dictum est . Nec tamen
+            <lb ed="#L" n="84"/>est contra rationem virtutis quod ex naturali 
+            com<lb break="no" ed="#L" n="85"/>plexione aliquis habeat naturalem inclinationem
+            <lb ed="#L" n="86"/>ad virtutem, ut supra  dictum est.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1907-Dd1e493"><!-- p2p2-q123a2 -->
+          <head xml:id="TAca84-d1e1907-Hd1e496">Articulus 2</head>
+          <head xml:id="TAca84-d1e1907-Hd1e498" type="question-title">Utrum fortitudo sit specialis virtus</head>
+          <p xml:id="TAca84-d1e1907-d1e501">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="107" type="fixed=6"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="108"/>UTRUM FORTITUDO SIT SPECIALIS VIRTUS
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e510">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="109"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="110"/>fortitudo non sit specialis virtus. 
+            Dici<lb break="no" ed="#L" n="111"/>tur enim Sap. vii , quod sapientia 
+            so<lb break="no" ed="#L" n="112"/>brietatem et prudentiam docet, iustitiam
+            <lb ed="#L" n="113"/>et virtutem: et ponitur ibi virtus pro fortitudine.
+            <lb ed="#L" n="114"/>Cum ergo nomen virtutis sit commune omnibus
+            <lb ed="#L" n="115"/>virtutibus, videtur quod fortitudo sit generalis
+            <lb ed="#L" n="116"/>virtus.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e532">
+            <lb ed="#L" n="117"/>2. PRAETEREA, Ambrosius dicit, in 1 de Offic. :
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="118"/>Non mediocris animi est fortitudo, quae sola 
+            de<lb break="no" ed="#L" n="119"/>fendit ornamenta virtutum omnium, et iudicia 
+            cu<lb break="no" ed="#L" n="120"/>stodit; et quae inexpiabili  praelio adversus omnia
+            <lb ed="#L" n="121"/>vitia decertat. Invicla ad labores, fortis ad pericula,
+            <lb ed="#L" n="122"/>rigidior adversus voluptates, avaritiam fugat 
+            tan<lb break="no" ed="#L" n="123"/>quam labem quandam quae virtutem  effeminet.
+            <lb ed="#L" n="124"/>Et idem postea subdit de aliis vitiis. Hoc autem
+            <lb ed="#L" n="125"/>non potest convenire alicui speciali virtuti. Ergo
+            <lb ed="#L" n="126"/>fortitudo non est specialis virtus.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e559">
+            <pb ed="#L" n="7"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>3. PRAETEREA, nomen fortitudinis a firmitate
+            <lb ed="#L" n="2"/>sumptum esse videtur. Sed firmiter se habere
+            <lb ed="#L" n="3"/>pertinet ad omnem virtutem, ut dicitur in II
+            <lb ed="#L" n="4"/>Ethic.  Ergo fortitudo est generalis virtus.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e575">
+            <lb ed="#L" n="5"/>SED coNTRA EST quod in XXII Moral. , 
+            Gre<lb break="no" ed="#L" n="6"/>gorius connumerat eam aliis virtutibus.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e582">
+            <lb ed="#L" n="7"/>RESPONDEO DICENDUM quod, sicut supra  
+            di<lb break="no" ed="#L" n="8"/>ctum est, nomen fortitudinis dupliciter accipi 
+            po<lb break="no" ed="#L" n="9"/>test. Uno modo, secundum quod absolute 
+            im<lb break="no" ed="#L" n="10"/>portat quandam animi firmitatem. Et secundum
+            <lb ed="#L" n="11"/>hoc est generalis virtus, vel potius conditio 
+            cu<lb break="no" ed="#L" n="12"/>iuslibet virtutis: quia sicut Philosophus dicit, in
+            <lb ed="#L" n="13"/>IL Ethic. , ad virtutem requiritur firmiter et 
+            im<lb break="no" ed="#L" n="14"/>mobiliter operari. - Alio modo potest accipi 
+            for<lb break="no" ed="#L" n="15"/>titudo secundum quod importat firmitatem animi
+            <lb ed="#L" n="16"/>in sustinendis et repellendis his in quibus maxime
+            <lb ed="#L" n="17"/>difficile est firmitatem habere, scilicet in 
+            aliqui<lb break="no" ed="#L" n="18"/>bus periculis gravibus. Unde Tullius dicit, in sua
+            <lb ed="#L" n="19"/>Rhetorica , quod fortitudo est considerata 
+            peri<lb break="no" ed="#L" n="20"/>culorum susceptio et laborum perpassio. Et sic
+            <lb ed="#L" n="21"/>fortitudo ponitur specialis virtus, utpote materiam
+            <lb ed="#L" n="22"/>determinatam habens.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e619">
+            <lb ed="#L" n="23"/>AD PRIMUM ERGO DICENDUM quod secundum 
+            Phi<lb break="no" ed="#L" n="24"/>losophum, in I de Caelo , nomen virtutis refertur 
+            <lb ed="#L" n="25"/>ad ultimum potentiae. Dicitur autem uno modo
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="26"/>potentia naturalis secundum quam aliquis potest
+            <lb ed="#L" n="27"/>resistere corrumpentibus, alio modo secundum
+            <lb ed="#L" n="28"/>quod est principium agendi: ut patet in V 
+            Me<lb break="no" ed="#L" n="29"/>taphys.  Et ideo, quia haec acceptio est 
+            com<lb break="no" ed="#L" n="30"/>munior, nomen virtutis secundum quod importat
+            <lb ed="#L" n="31"/>ultimum talis potentiae, est commune: nam 
+            vir<lb break="no" ed="#L" n="32"/>tus communiter sumpta nihil est aliud quam 
+            ZAa<lb break="no" ed="#L" n="33"/>bitus quo quis potest bene operari . Secundum
+            <lb ed="#L" n="34"/>autem quod importat ultimum potentiae primo
+            <lb ed="#L" n="35"/>modo dictae, qui quidem est modus magis 
+            spe<lb break="no" ed="#L" n="36"/>cialis, attribuitur speciali virtuti, scilicet 
+            fortitu<lb break="no" ed="#L" n="37"/>dini, ad quam pertinet firmiter stare contra 
+            quae<lb break="no" ed="#L" n="38"/>cumque impugnantia.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e658">
+            <lb ed="#L" n="39"/>AD SECUNDUM DICENDUM quod Ambrosius accipit
+            <lb ed="#L" n="40"/>fortitadinem large, secundum quod importat animi
+            <lb ed="#L" n="41"/>firmitatem respectu quorumcumque 
+            impugnan<lb break="no" ed="#L" n="42"/>tium. - Et tamen etiam secundum quod est 
+            spe<lb break="no" ed="#L" n="43"/>cialis virtus habens determinatam materiam, 
+            coad<lb break="no" ed="#L" n="44"/>iuvat ad resistendum impugnationibus omnium
+            <lb ed="#L" n="45"/>eulorum susceptio et laborum perpessio. Et sic 
+            <lb ed="#L" n="46"/>vitiorum. Qui enim potest firmiter stare in his
+            <lb ed="#L" n="47"/>quae sunt difficillima ad sustinendum, consequens
+            <lb ed="#L" n="48"/>est quod sit idoneus ad resistendum aliis quae
+            <lb ed="#L" n="49"/>sunt minus difficilia.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e684">
+            <lb ed="#L" n="50"/>AD TERTIUM DICENDUM quod obiectio illa 
+            proce<lb break="no" ed="#L" n="51"/>dit de fortitudine primo modo dicta
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1907-Dd1e692"><!-- p2p2-q123a3 -->
+          <head xml:id="TAca84-d1e1907-Hd1e695">Articulus 3</head>
+          <head xml:id="TAca84-d1e1907-Hd1e697" type="question-title">Utrum fortitudo sit circa timores et audacias</head>
+          <p xml:id="TAca84-d1e1907-d1e700">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="52" type="fixed=7"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="53"/>UTRUM FORTITUDO SIT CIRCA TIMORES ET AUDACIAS
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e709">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="54"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="55"/>fortitudo non sit circa timores et 
+            auda<lb break="no" ed="#L" n="56"/>cias. Dicit enim Gregorius, VII Moral. :
+            <lb ed="#L" n="57"/>Iustorum fortitudo esi carnem vincere,
+            <lb ed="#L" n="58"/>propriis voluptatibus contraire, delectationem vitae
+            <lb ed="#L" n="59"/>recessum quendam a malo difficultatem habente:
+            <lb ed="#L" n="60"/>praesentis extinguere. Ergo fortitudo magis vi
+            <lb ed="#L" n="61"/>detur esse circa delectationes quam circa timores 
+            <lb ed="#L" n="62"/>et audacias.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e733">
+            <lb ed="#L" n="63"/>2. PRAETEREA, Tullius dicit, in sua Rhetorica ,
+            <lb ed="#L" n="64"/>quod ad fortitudinem pertinet susceptio 
+            periculo<lb break="no" ed="#L" n="65"/>rum et perpessio laborum. Sed hoc non videtur
+            <lb ed="#L" n="66"/>pertinere ad passionem timoris vel audaciae, sed
+            <lb ed="#L" n="67"/>magis ad actiones hominis laboriosas, vel ad 
+            ex<lb break="no" ed="#L" n="68"/>teriores res periculosas. Ergo fortitudo non est
+            <lb ed="#L" n="69"/>circa timores et audacias.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e752">
+            <lb ed="#L" n="70"/>3. PRAETEREA, timori non solum opponitur 
+            au<lb break="no" ed="#L" n="71"/>dacia, sed etiam spes: ut supra  habitum est,
+            <lb ed="#L" n="72"/>cum de passionibus ageretur. Ergo fortitudo non
+            <lb ed="#L" n="73"/>magis debet esse circa audaciam quam circa
+            <lb ed="#L" n="74"/>spem.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e765">
+            <lb ed="#L" n="75"/>SED cONTRA EsT quod Philosophus dicit, in II 
+            <lb ed="#L" n="76"/>et in III  Ezhic., quod fortitudo est circa 
+            timo<lb break="no" ed="#L" n="77"/>rem et audaciam.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e774">
+            <lb ed="#L" n="78"/>RESPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="79"/>ad  virtutem fortitudinis pertinet removere 
+            im<lb break="no" ed="#L" n="80"/>pedimentum quo retrahitur voluntas a sequela
+            <lb ed="#L" n="81"/>rationis. Quod autem aliquis retrahatur ab aliquo
+            <lb ed="#L" n="82"/>difficili, pertinet ad rationem timoris, qui importat 
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="83"/>recessum quendam a malo difficultatem habente:
+            <lb ed="#L" n="84"/>ut supra habitum est, cum de passionibus 
+            age<lb break="no" ed="#L" n="85"/>retur. Et ideo fortitudo principaliter est circa 
+            ti<lb break="no" ed="#L" n="86"/>mores rerum difficilium, quae retrahere possunt
+            <lb ed="#L" n="87"/>voluntatem a sequela rationis. - Oportet autem
+            <lb ed="#L" n="88"/>huiusmodi rerum difficilium impulsum non 
+            so<lb break="no" ed="#L" n="89"/>lum firmiter tolerare cohibendo timorem, sed
+            <lb ed="#L" n="90"/>etiam moderate aggredi: quando scilicet oportet
+            <lb ed="#L" n="91"/>ea exterminare, ad securitatem in posterum 
+            ha<lb break="no" ed="#L" n="92"/>bendam. Quod videtur pertinere ad rationem 
+            au<lb break="no" ed="#L" n="93"/>daciae. Et ideo fortitudo est circa timores et 
+            au<lb break="no" ed="#L" n="94"/>dacias, quasi cohibitiva timorum, et moderativa
+            <lb ed="#L" n="95"/>audaciarum .
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e818">
+            <lb ed="#L" n="96"/>AD PRIMUM ERGO DICENDUM quod Gregorius ibi
+            <lb ed="#L" n="97"/>loquitur de fortitudine iustorum secundum quod
+            <lb ed="#L" n="98"/>communiter se habet ad omnem virtutem. Unde
+            <lb ed="#L" n="99"/>praemittit quaedam pertinentia ad temperantiam,
+            <lb ed="#L" n="100"/>ut dictum est : et subdit de his quae pertinent
+            <lb ed="#L" n="101"/>proprie ad fortitudinem secundum quod est 
+            spe<lb break="no" ed="#L" n="102"/>cialis virtus, dicens: huius mundi ? aspera pro
+            <lb ed="#L" n="103"/>aeternis praemiis amare.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e838">
+            <lb ed="#L" n="104"/>AD SECUNDUM DICENDUM quod res periculosae et
+            <lb ed="#L" n="105"/>actus laboriosi non retrahunt voluntatem a via
+            <lb ed="#L" n="106"/>rationis nisi inquantum timentur. Et ideo oportet
+            <lb ed="#L" n="107"/>quod fortitudo sit immediate circa timores et 
+            au<lb break="no" ed="#L" n="108"/>dacias: mediate autem circa pericula et labores,
+            <lb ed="#L" n="109"/>sicut circa  obiecta praedictarum passionum.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e854">
+            <lb ed="#L" n="110"/>AD TERTIUM DICENDUM quod spes opponitur ti-
+            <pb ed="#L" n="8"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>mori ex parte obiecti: quia spes est de bono, 
+            <lb ed="#L" n="2"/>timor de malo. Audacia autem est circa idem
+            <lb ed="#L" n="3"/>obiectum, et opponitur timori secundum 
+            acces<lb break="no" ed="#L" n="4"/>sum et recessum, ut supra  dictum est. Et quia
+            <lb ed="#L" n="5"/>fortitudo proprie respicit temporalia mala retra-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="6"/>hentia a virtute, ut patet per definitionem Tullii:
+            <lb ed="#L" n="7"/>inde est quod fortitudo proprie est circa 
+            timo<lb break="no" ed="#L" n="8"/>rem et audaciam: non autem circa spem, nisi 
+            in<lb break="no" ed="#L" n="9"/>quantum connectitur audaciae, ut supra  
+            habi<lb break="no" ed="#L" n="10"/>tum est.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1907-Dd1e888"><!-- p2p2-q123a4 -->
+          <head xml:id="TAca84-d1e1907-Hd1e891">Articulus 4</head>
+          <head xml:id="TAca84-d1e1907-Hd1e893" type="question-title">Utrum fortitudo solum sit circa pericula mortis</head>
+          <p xml:id="TAca84-d1e1907-d1e896">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="69" type="fixed=10"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="70"/>UTRUM FORTITUDO SOLUM SIT CIRCA PERICULA MORTIS
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e905">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="71"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="72"/>fortitudo non solum sit circa pericula 
+            <lb ed="#L" n="73"/>mortis. Dicit enim Augustinus, in libro 
+            <lb ed="#L" n="74"/>de Moribus Eccle. , quod fortitudo est 
+            <lb ed="#L" n="75"/>amor facile tolerans omnia propler id quod 
+            ama<lb break="no" ed="#L" n="76"/>lur. Et in VI Musicae  dicit quod fortitudo 
+            <lb ed="#L" n="77"/>est affectio quae nullas adversitates mortemve 
+            for<lb break="no" ed="#L" n="78"/>midat. Ergo fortitudo non est solum circa 
+            pe<lb break="no" ed="#L" n="79"/>ricula mortis, sed circa omnia alia adversa. 
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e929">
+            <lb ed="#L" n="80"/>2. PRAETEREA, Oportet omnes passiones animae 
+            <lb ed="#L" n="81"/>per aliquam virtutem ad medium reduci. Sed non 
+            <lb ed="#L" n="82"/>est dare aliquam aliam virtutem reducentem ad 
+            <lb ed="#L" n="83"/>medium alios timores. Ergo fortitudo non solum . 
+            <lb ed="#L" n="84"/>est circa timores mortis, sed etiam circa alios 
+            <lb ed="#L" n="85"/>timores.  
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e946">
+            <lb ed="#L" n="86"/>3. PRAETEREA, nulla virtus est in extremis. Sed  
+            <lb ed="#L" n="87"/>timor mortis est in extremo ?: quia est maximus 
+            <lb ed="#L" n="88"/>timorum, ut dicitur in III E£hic.  Ergo virtus 
+            <lb ed="#L" n="89"/>fortitudinis non est circa timores mortis. 
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e957">
+            <lb ed="#L" n="90"/>SED coNTRA EsT quod Andronicus dicit , quod 
+            <lb ed="#L" n="91"/>fortitudo est virtus irascibilis non facile 
+            obstupe<lb break="no" ed="#L" n="92"/>scibilis a timoribus qui sunt circa mortem. 
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e966">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="93"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="94"/>est, ad virtutem fortitudinis pertinet ut 
+            volunta<lb break="no" ed="#L" n="95"/>tem hominis tueatur ne retrahatur a bono 
+            ratio<lb break="no" ed="#L" n="96"/>nis propter timorem mali corporalis. Oportet 
+            au<lb break="no" ed="#L" n="97"/>tem bonum rationis firmiter tenere contra 
+            quod<lb break="no" ed="#L" n="98"/>cumque malum: quia nullum bonum corporale
+            <lb ed="#L" n="99"/>aequivalet bono rationis. Et ideo oportet quod
+            <lb ed="#L" n="100"/>fortitudo animi dicatur quae firmiter retinet 
+            vo<lb break="no" ed="#L" n="101"/>luntatem hominis in bono rationis contra maxima
+            <lb ed="#L" n="102"/>mala: quia qui stat firmus contra maiora, 
+            con<lb break="no" ed="#L" n="103"/>sequens est quod stet firmus contra minora, sed
+            <lb ed="#L" n="104"/>non convertitur; et hoc etiam ad rationem 
+            vir<lb break="no" ed="#L" n="105"/>tutis pertinet, ut respiciat ultimum. Maxime autem
+            <lb ed="#L" n="106"/>terribile inter omnia corporalia mala est mors,
+            <lb ed="#L" n="107"/>quae tollit omnia corporalia bona: unde 
+            Augu<lb break="no" ed="#L" n="108"/>stinus dicit, in libro de Moribus Eccle. , quod
+            <lb ed="#L" n="109"/>vinculum corporis, ne concutiatur atque vexetur,
+            <lb ed="#L" n="110"/>laboris et doloris  ; ne auferatur autem atque 
+            pe<lb break="no" ed="#L" n="111"/>rimatur , mortis terrore animam quatit. Et ideo
+            <lb ed="#L" n="112"/>virtus fortitudinis est circa timores periculorum
+            <lb ed="#L" n="113"/>mortis.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1016">
+            <lb ed="#L" n="114"/>AD PRIMUM ERGO DICENDUM quod fortitudo bene
+            <pb ed="#L" n="11"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>se habet in omnibus adversis tolerandis. Non 
+            ta<lb break="no" ed="#L" n="2"/>men ex toleratione quorumlibet ? adversorum 
+            re<lb break="no" ed="#L" n="3"/>putatur homo simpliciter fortis, sed solum ex hoc
+            <lb ed="#L" n="4"/>quod bene tolerat etiam maxima mala. Ex aliis
+            <lb ed="#L" n="5"/>autem dicitur aliquis fortis secundum quid. 
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1036">
+            <lb ed="#L" n="6"/>AD SECUNDUM DICENDUM quod quia timor ex
+            <lb ed="#L" n="7"/>amore nascitur, quaecumque virtus moderatur
+            <lb ed="#L" n="8"/>amorem aliquorum bonorum, consequens est ut
+            <lb ed="#L" n="9"/>moderetur timorem contrariorum malorum. 
+            Sic<lb break="no" ed="#L" n="10"/>ut liberalitas, quae moderatur amorem pecunia-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="11"/>rum, per consequens etiam moderatur timorem
+            <lb ed="#L" n="12"/>amissionis earum. Et idem apparet in temperantia
+            <lb ed="#L" n="13"/>et in aliis virtutibus. Sed amare propriam vitam
+            <lb ed="#L" n="14"/>est naturale. Et ideo oportuit esse specialem 
+            vir<lb break="no" ed="#L" n="15"/>tutem quae moderaretur  timores mortis.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1062">
+            <lb ed="#L" n="16"/>AD TERTIUM DICENDUM quod extremum in 
+            vir<lb break="no" ed="#L" n="17"/>tutibus attenditur secundum excessum rationis
+            <lb ed="#L" n="18"/>rectae. Et ideo si aliquis maxima pericula 
+            sub<lb break="no" ed="#L" n="19"/>eat secundum rationem , non est virtuti 
+            contra<lb break="no" ed="#L" n="20"/>rium.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1907-Dd1e1077"><!-- p2p2-q123a5 -->
+          <head xml:id="TAca84-d1e1907-Hd1e1080">Articulus 5</head>
+          <head xml:id="TAca84-d1e1907-Hd1e1082" type="question-title">Utrum fortitudo proprie consistat circa pericula mortis quae sunt in bello</head>
+          <p xml:id="TAca84-d1e1907-d1e1085">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="54" type="fixed=11"/>ARTICULUS QUINTUS
+            <lb ed="#L" n="55"/>UTRUM FORTITUDO PROPRIE CONSISTAT CIRCA PERICULA MORTIS QUAE SUNT IN BELLO
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1094">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="56"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="57"/>fortitudo non consistat proprie circa
+            <lb ed="#L" n="58"/>a pericula mortis quae sunt in bello. 
+            Mar<lb break="no" ed="#L" n="59"/>tyres enim praecipue de fortitudine
+            <lb ed="#L" n="60"/>commendantur. Sed martyres non 
+            commendan<lb break="no" ed="#L" n="61"/>tur de rebus bellicis. Ergo fortitudo non proprie
+            <lb ed="#L" n="62"/>consistit circa pericula mortis quae sunt in 
+            bel<lb break="no" ed="#L" n="63"/>licis .
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1116">
+            <lb ed="#L" n="64"/>2. PRAETEREA, Ambrosius dicit, in I de Offic. ,
+            <lb ed="#L" n="65"/>quod fortitudo dividitur in res bellicas et 
+            dome<lb break="no" ed="#L" n="66"/>sticas. Tullius etiam dicit, in I de Offic. , quod
+            <lb ed="#L" n="67"/>cum plerique arbitrentur res bellicas maiores esse
+            <lb ed="#L" n="68"/>quam urbanas, minuenda est haec opinio: sed si
+            <lb ed="#L" n="69"/>vere volumus iudicare, multae res extiterunt 
+            ur<lb break="no" ed="#L" n="70"/>banae maiores clarioresque quam bellicae. Sed
+            <lb ed="#L" n="71"/>circa maiora maior fortitudo consistit. Ergo non
+            <lb ed="#L" n="72"/>proprie consistit fortitudo circa mortem quae est
+            <lb ed="#L" n="73"/>in bello.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1141">
+            <lb ed="#L" n="74"/>3. PRAETEREA, bella ordinantur ad pacem 
+            tem<lb break="no" ed="#L" n="75"/>poralem reipublicae conservandam: dicit enim
+            <lb ed="#L" n="76"/>Augustinus, XIX de Civ. Dei , quod intentione
+            <lb ed="#L" n="77"/>pacis bella aguntur 9. Sed pro pace temporali
+            <lb ed="#L" n="78"/>reipublicae non videtur quod aliquis debeat se
+            <lb ed="#L" n="79"/>periculo mortis exponere: cum talis pax sit mul-
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="80"/>tarum lasciviarum occasio. Ergo videtur quod
+            <lb ed="#L" n="81"/>virtus fortitudinis non consistat circa mortis 
+            bel<lb break="no" ed="#L" n="82"/>licae pericula.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1165">
+            <lb ed="#L" n="83"/>SED coNTRA EsT quod Philosophus dicit, in III
+            <lb ed="#L" n="84"/>Ethic. , quod maxime est fortitudo circa 
+            mor<lb break="no" ed="#L" n="85"/>tem quae est in bello.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1174">
+            <lb ed="#L" n="86"/>RESPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="87"/>fortitudo confirmat animum hominis contra 
+            ma<lb break="no" ed="#L" n="88"/>xima pericula, quae sunt pericula mortis. Sed
+            <lb ed="#L" n="89"/>quia fortitudo virtus est, ad cuius rationem 
+            per<lb break="no" ed="#L" n="90"/>tinet quod semper tendat in bonum, consequens
+            <lb ed="#L" n="91"/>est ut homo pericula mortis non refugiat propter
+            <lb ed="#L" n="92"/>aliquod bonum prosequendum . Pericula autem
+            <lb ed="#L" n="93"/>mortis quae est? ex aegritudine, vel ex 
+            tempe<lb break="no" ed="#L" n="94"/>state maris, vel ex incursu latronum, vel si qua
+            <lb ed="#L" n="95"/>alia sunt huiusmodi, non videntur directe alicui
+            <lb ed="#L" n="96"/>imminere ex hoc quod prosequatur aliquod 
+            bo<lb break="no" ed="#L" n="97"/>num. Sed pericula mortis quae est in bellicis
+            <lb ed="#L" n="98"/>directe imminent homini propter aliquod bonum:
+            <lb ed="#L" n="99"/>inquantum scilicet defendit bonum commune per
+            <lb ed="#L" n="100"/>iustum bellum. - Potest autem aliquod esse iustum
+            <lb ed="#L" n="101"/>bellum dupliciter. Uno modo, generale: sicut cum
+            <lb ed="#L" n="102"/>aliqui decertant in acie. Alio modo, particulare:
+            <lb ed="#L" n="103"/>puta cum aliquis iudex, vel etiam privata per-
+            <pb ed="#L" n="12"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>sona, non recedit a iusto iudicio timore gladii 
+            <lb ed="#L" n="2"/>imminentis vel cuiuscumque periculi, etiam si sit 
+            <lb ed="#L" n="3"/>mortiferum. Pertinet ergo  ad fortitudinem 
+            firmi<lb break="no" ed="#L" n="4"/>tatem animi praebere contra pericula mortis non
+            <lb ed="#L" n="5"/>solum quae imminent in bello communi, sed etiam
+            <lb ed="#L" n="6"/>quae imminent in particulari impugnatione, quae
+            <lb ed="#L" n="7"/>communi nomine bellum dici potest. Et secundum
+            <lb ed="#L" n="8"/>hoc, concedendum est quod fortitudo proprie est
+            <lb ed="#L" n="9"/>circa pericula mortis quae est in bello.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1239">
+            <lb ed="#L" n="10"/>Sed et circa pericula cuiuscumque alterius
+            <lb ed="#L" n="11"/>mortis fortis bene se habet: praesertim quia
+            <lb ed="#L" n="12"/>et cuiuslibet mortis homo potest periculum 
+            sub<lb break="no" ed="#L" n="13"/>ire propter virtutem ; puta cum aliquis non 
+            re<lb break="no" ed="#L" n="14"/>fugit amico infirmanti obsequi propter timorem
+            <lb ed="#L" n="15"/>mortiferae infectionis; vel cum non refugit 
+            iti<lb break="no" ed="#L" n="16"/>nerari ad aliquod pium negotium prosequendum
+            <lb ed="#L" n="17"/>propter timorem naufragii vel latronum.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1259">
+            <lb ed="#L" n="18"/>AD PRIMUM ERGO DICENDUM quod martyres 
+            susti<lb break="no" ed="#L" n="19"/>nent personales impugnationes propter summum . 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="20"/>bonum, quod est Deus. Ideo eorum fortitudo
+            <lb ed="#L" n="21"/>praecipue commendatur. Nec est extra genus
+            <lb ed="#L" n="22"/>fortitudinis quae est circa bellica. Unde dicuntur
+            <lb ed="#L" n="23"/>fortes facti in bello .
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1277">
+            <lb ed="#L" n="24"/>AD SECUNDUM DICENDUM quod res domesticae
+            <lb ed="#L" n="25"/>vel urbanae distinguuntur contra res bellicas,
+            <lb ed="#L" n="26"/>quae scilicet pertinent ad bella communia. In
+            <lb ed="#L" n="27"/>ipsis tamen rebus domesticis vel urbanis 
+            pos<lb break="no" ed="#L" n="28"/>sunt imminere pericula mortis ex 
+            impugnationi<lb break="no" ed="#L" n="29"/>bus quibusdam, quae sunt quaedam particularia
+            <lb ed="#L" n="30"/>bella. Et ita etiam circa huiusmodi potest esse
+            <lb ed="#L" n="31"/>proprie dicta fortitudo.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1298">
+            <lb ed="#L" n="32"/>AD TERTIUM DICENDUM quod pax reipublicae est
+            <lb ed="#L" n="33"/>secundum se bona, nec redditur mala ex hoc
+            <lb ed="#L" n="34"/>quod aliqui male ea utuntur. Nam et multi alii
+            <lb ed="#L" n="35"/>sunt qui bene ea utuntur: et multo peiora mala
+            <lb ed="#L" n="36"/>per eam prohibentur, scilicet homicidia, 
+            sacrile<lb break="no" ed="#L" n="37"/>gia, quam ex ea occasionentur, quae praecipue
+            <lb ed="#L" n="38"/>pertinent ad vitia carnis.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1907-Dd1e1317"><!-- p2p2-q123a6 -->
+          <head xml:id="TAca84-d1e1907-Hd1e1320">Articulus 6</head>
+          <head xml:id="TAca84-d1e1907-Hd1e1322" type="question-title">Utrum sustinere sit principalis actus fortitudinis</head>
+          <p xml:id="TAca84-d1e1907-d1e1325">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="63" type="fixed=15"/>ARTICULUS SEXTUS
+            <lb ed="#L" n="64"/>UTRUM SUSTINERE SIT PRINCIPALIS ACTUS FORTITUDINIS
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1334">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="65"/>AD SEXTUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="66"/>a sustinere non sit principalis actus 
+            for<lb break="no" ed="#L" n="67"/>titudinis. Virtus enim est circa di pen
+            <lb ed="#L" n="68"/>Ne! bonum, ut dicitur in I1 Ethic.  Sed
+            <lb ed="#L" n="69"/>difficilius est aggredi quam sustinere. Ergo 
+            sus<lb break="no" ed="#L" n="70"/>tinere non est praecipuus fortitudinis actus.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1352">
+            <lb ed="#L" n="71"/>2. PRAETEREA, maioris potentiae esse videtur
+            <lb ed="#L" n="72"/>quod aliquid possit in aliud agere quam quod
+            <lb ed="#L" n="73"/>ipsum ab alio non immutetur. Sed aggredi est
+            <lb ed="#L" n="74"/>in aliud agere, sustinere autem est immobile 
+            per<lb break="no" ed="#L" n="75"/>severare, Cum ergo fortitudo perfectionem 
+            po<lb break="no" ed="#L" n="76"/>tentiae nominet, videtur quod magis ad 
+            fortitu<lb break="no" ed="#L" n="77"/>dinem pertineat. aggredi quam sustinere.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1371">
+            <lb ed="#L" n="78"/>3. PRAETEREA, magis distat ab uno 
+            contrario<lb break="no" ed="#L" n="79"/>rum aliud contrarium quam simplex eius negatio.
+            <lb ed="#L" n="80"/>Sed ille qui sustinet hoc solum habet quod non
+            <lb ed="#L" n="81"/>timet: ille autem qui aggreditur contrarie 
+            mo<lb break="no" ed="#L" n="82"/>vetur timenti, quia insequitur. Ergo videtur quod,
+            <lb ed="#L" n="83"/>cum fortitudo maxime retrahat animum a timore,
+            <lb ed="#L" n="84"/>quod magis pertineat ad eam aggredi quam 
+            sus<lb break="no" ed="#L" n="85"/>tinere.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1391">
+            <lb ed="#L" n="86"/>SED CONTRA EST quod Philosophus dicit, in III
+            <lb ed="#L" n="87"/>Ethic., quod in sustinendo tristia maxime 
+            ali<lb break="no" ed="#L" n="88"/>qui fortes dicuntur.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1400">
+            <lb ed="#L" n="89"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="90"/>est, et, <ref xml:id="TAca84-d1e1907-Rd1e1406">Philosophus dicit, in III Ethic.</ref>, fortitudo
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="91"/>magis est circa timores reprimendos quam circa
+            <lb ed="#L" n="92"/>audacias moderandas. Difficilius enim est 
+            timo<lb break="no" ed="#L" n="93"/>rem reprimere quam audaciam moderari: eo
+            <lb ed="#L" n="94"/>quod ipsum periculum, quod est obiectum 
+            au<lb break="no" ed="#L" n="95"/>daciae et timoris, de se confert aliquid ad 
+            re<lb break="no" ed="#L" n="96"/>pressionem audaciae, sed operatur ad 
+            augmen<lb break="no" ed="#L" n="97"/>tum timoris. Aggredi autem pertinet ad 
+            fortitu<lb break="no" ed="#L" n="98"/>dinem secundum quod moderatur audaciam: sed
+            <lb ed="#L" n="99"/>sustinere sequitur repressionem timoris. Et ideo
+            <lb ed="#L" n="100"/>principalior actus est fortitudinis  sustinere, idest
+            <lb ed="#L" n="101"/>immobiliter sistere in periculis, quam aggredi.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1435">
+            <lb ed="#L" n="102"/>AD PRIMUM ERGO DICENDUM quod sustinere est
+            <lb ed="#L" n="103"/>difficilius quam aggredi, triplici ratione. Primo
+            <lb ed="#L" n="104"/>quidem, quia sustinere videtur aliquis ab aliquo
+            <lb ed="#L" n="105"/>fortiori invadente: qui autem aggreditur invadit
+            <lb ed="#L" n="106"/>per modum fortioris. Difficilius autem est 
+            pugna<lb break="no" ed="#L" n="107"/>re cum fórtiori quam cum debiliori. - Secundo,
+            <lb ed="#L" n="108"/>quia ille qui sustinet iam sentit pericula 
+            immi<lb break="no" ed="#L" n="109"/>nentia: ille autem qui aggreditur habet ea ut 
+            fu<lb break="no" ed="#L" n="110"/>tura. Difficilius autem est non moveri à 
+            prae<lb break="no" ed="#L" n="111"/>sentibus quam a futuris. - Tertio, quia sustinere
+            <lb ed="#L" n="112"/>importat diuturnitatem temporis: sed aggredi 
+            po<lb break="no" ed="#L" n="113"/>test aliquis ex subito motu. Difficilius autem est ?
+            <lb ed="#L" n="114"/>diu manere immobilem quam subito motu 
+            mo<lb break="no" ed="#L" n="115"/>veri ad aliquid arduum. Unde Philosophus dicit,
+            <lb ed="#L" n="116"/>in III Ethic. , quod quidam sunt praevolantes
+            <pb ed="#L" n="16"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>ante pericula, in ipsis autem discedunt: fortes
+            <lb ed="#L" n="2"/>autem e contrario se habent.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1479">
+            <lb ed="#L" n="3"/>AD SECUNDUM DICENDUM quod sustinere 
+            impor<lb break="no" ed="#L" n="4"/>tat quidem passionem corporis, sed actum 
+            ani<lb break="no" ed="#L" n="5"/>mae fortissime inhaerentis bono, ex quo sequitur
+            <lb ed="#L" n="6"/>quod non cedat passioni corporali iam imminenti.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1490">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="7"/>Virtus autem magis attenditur circa animam quam
+            <lb ed="#L" n="8"/>circa corpus.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1500">
+            <lb ed="#L" n="9"/>AD TERTIUM DICENDUM quod ille qui sustinet non -
+            <lb ed="#L" n="10"/>timet, praesente iam causa timoris: quam non
+            <lb ed="#L" n="11"/>habet praesentem ille qui aggreditur.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1907-Dd1e1510"><!-- p2p2-q123a7 -->
+          <head xml:id="TAca84-d1e1907-Hd1e1513">Articulus 7</head>
+          <head xml:id="TAca84-d1e1907-Hd1e1515" type="question-title">Utrum fortis operetur propter bonum proprii habitus</head>
+          <p xml:id="TAca84-d1e1907-d1e1518">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="55" type="fixed=16"/>ARTICULUS SEPTIMUS
+            <lb ed="#L" n="56"/>UTRUM FORTIS OPERETUR PROPTER BONUM PROPRII HABITUS
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1527">
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="57"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="58"/>fortis non operetur propter bonum 
+            pro<lb break="no" ed="#L" n="59"/>sterior in executione. Sed actus fortitudinis in
+            <lb ed="#L" n="60"/>executione est posterior quam ipse fortitudinis
+            <lb ed="#L" n="61"/>habitus. Non ergo potest esse quod fortis agat
+            <lb ed="#L" n="62"/>propter bonum proprii habitus.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1545">
+            <lb ed="#L" n="63"/>2. PRAETEREA, Augustinus dicit, XIII de Zrin.  :
+            <lb ed="#L" n="64"/>Virtutes, quas propter solam bealitudinem  
+            ama<lb break="no" ed="#L" n="65"/>mus, sic persuadere quidam nobis audent, scilicet
+            <lb ed="#L" n="66"/>dicendo eas propter se appetendas, ut ipsam 
+            bea<lb break="no" ed="#L" n="67"/>litudinem non amemus. Quod si faciunt, etiam
+            <lb ed="#L" n="68"/>ipsas ulique amare desistemus, quando illam 
+            pro<lb break="no" ed="#L" n="69"/>pter quam solam istas amavimus, non amamus.
+            <lb ed="#L" n="70"/>Sed fortitudo est virtus quaedam. Ergo actus 
+            for<lb break="no" ed="#L" n="71"/>titudinis non est ad ipsam fortitudinem, sed ad
+            <lb ed="#L" n="72"/>beatitudinem referendus.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1570">
+            <lb ed="#L" n="73"/>3. PRAETEREA, Augustinus dicit, in libro de 
+            Mo<lb break="no" ed="#L" n="74"/>ribus Eccle. , quod fortitudo est amor omnia
+            <lb ed="#L" n="75"/>propler Deum facile perferens. Deus autem non
+            <lb ed="#L" n="76"/>est ipse habitus fortitudinis, sed aliquid melius:
+            <lb ed="#L" n="77"/>sicut oportet finem esse meliorem his quae sunt
+            <lb ed="#L" n="78"/>ad finem. Non ergo fortis agit propter bonum
+            <lb ed="#L" n="79"/>proprii habitus.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1588">
+            <cb ed="#L" n="g"/>
+            <lb ed="#L" n="80"/>SED CONTRA EST quod Philosophus dicit, in III
+            <lb ed="#L" n="81"/>Ethic. , quod forti fortitudo est. bonum: . talis
+            <lb ed="#L" n="82"/>aulem et finis.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1599">
+            <lb ed="#L" n="83"/>RESPONDEO DICENDUM quod duplex est finis: 
+            sci<lb break="no" ed="#L" n="84"/>licet proximus, et ultimus. Finis autem proximus
+            <lb ed="#L" n="85"/>uniuscuiusque agentis est ut similitudinem suae
+            <lb ed="#L" n="86"/>formae in alterum inducat: sicut finis ignis 
+            ca<lb break="no" ed="#L" n="87"/>lefacientis est ut inducat. similitudinem sui caloris
+            <lb ed="#L" n="88"/>in patiente, et finis aedificatoris est ut inducat
+            <lb ed="#L" n="89"/>similitudinem. suae artis in materia. 
+            Quodcum<lb break="no" ed="#L" n="90"/>que autem bonum ex hoc sequitur, si sit 
+            inten<lb break="no" ed="#L" n="91"/>tum, potest dici finis remotus agentis. Sicut 
+            au<lb break="no" ed="#L" n="92"/>tem in factibilibus materia exterior disponitur per
+            <lb ed="#L" n="93"/>artem, ita etiam in agibilibus per prudentiam
+            <lb ed="#L" n="94"/>disponuntur actus humani. Sic ergo dicendum
+            <lb ed="#L" n="95"/>est quod fortis sicut finem proximum  intendit
+            <lb ed="#L" n="96"/>ut similitudinem sui habitus exprimat in actu:
+            <lb ed="#L" n="97"/>intendit enim agere secundum convenientiam sui
+            <lb ed="#L" n="98"/>habitus. Finis autem remotus. est beatitudo, vel
+            <lb ed="#L" n="99"/>Deus. '
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1638">
+            <lb ed="#L" n="100"/>Et per hoc patet responsio ad obiecta. Nam
+            <lb ed="#L" n="101"/>prima ratio procedebat ac si ipsa essentia 
+            habi<lb break="no" ed="#L" n="102"/>tus esset finis, non autem similitudo eius in actu,
+            <lb ed="#L" n="103"/>ut dictum est. - Alia vero duo procedunt de
+            <lb ed="#L" n="104"/>fine ultimo.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1907-Dd1e1652"><!-- p2p2-q123a8 -->
+          <head xml:id="TAca84-d1e1907-Hd1e1655">Articulus 8</head>
+          <head xml:id="TAca84-d1e1907-Hd1e1657" type="question-title">Utrum fortis delectetur in suo actu</head>
+          <p xml:id="TAca84-d1e1907-d1e1660">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="11" type="fixed=19"/>ARTICULUS OCTAVUS
+            <lb ed="#L" n="12"/>UTRUM FORTIS DELECTETUR IN SUO ACTU
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1669">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="13"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="14"/>fortis delectetur in suo actu. Delectatio
+            <lb ed="#L" n="15"/>enim est operatio connaturalis habitus
+            <lb ed="#L" n="16"/>non impedita, ut dicitur in X Ethic. 
+            <lb ed="#L" n="17"/>Sed operatio fortis procedit ex habitu, qui agit
+            <lb ed="#L" n="18"/>in modum naturae. Ergo fortis habet 
+            delectatio<lb break="no" ed="#L" n="19"/>nem in suo actu.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1689">
+            <lb ed="#L" n="20"/>2. PnaETEREA, Gaiat. v, super illud , Fructus
+            <lb ed="#L" n="21"/>autem Spiritus caritas, gaudium, pax, dicit 
+            Am<lb break="no" ed="#L" n="22"/>brosius quod opera virtutum dicuntur fructus quia
+            <lb ed="#L" n="23"/>mentem hominis sancta el sincera delectatione 
+            re<lb break="no" ed="#L" n="24"/>fíciunt. Sed fortis agit opera virtutis. Ergo habet
+            <lb ed="#L" n="25"/>delectationem in suo actu.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1706">
+            <lb ed="#L" n="26"/>3. PRAETEREA, debilius vincitur a fortiori. Sed 
+            <lb ed="#L" n="27"/>fortis plus amat bonum virtutis quam proprium 
+            <lb ed="#L" n="28"/>corpus, quod periculis mortis exponit. Ergo 
+            de<lb break="no" ed="#L" n="29"/>lectatio de bono virtutis evacuat dolorem 
+            corpo<lb break="no" ed="#L" n="30"/>cumque ad eam pertinentibus. Et ideo 
+            Philoso<lb break="no" ed="#L" n="31"/>ralem. Et ita delectabiliter omnino operatur.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1722">
+            <lb ed="#L" n="32"/>SED coNTRA EsT quod Philosophus dicit, in III 
+            <lb ed="#L" n="33"/>Ethic. , quod fortis in suo actu nihil delectabile 
+            <lb ed="#L" n="34"/>videtur habere.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1731">
+            <lb ed="#L" n="35"/>RESPONDEO DICENDUM quod, sicut supra  
+            di<lb break="no" ed="#L" n="36"/>ctum est, cum de passionibus ageretur, duplex
+            <lb ed="#L" n="37"/>est delectatio: una quidem corporalis, quae 
+            con<lb break="no" ed="#L" n="38"/>sequitur tactum corporalem; alia autem animalis,
+            <lb ed="#L" n="39"/>quae consequitur apprehensionem animae. Et
+            <lb ed="#L" n="40"/>haec proprie consequitur opera virtutum: quia
+            <lb ed="#L" n="41"/>in eis consideratur bonum rationis. Principalis
+            <lb ed="#L" n="42"/>'vero actus fortitudinis est sustinere aliqua tristia
+            <lb ed="#L" n="43"/>- secundum apprehensionem animae, puta quod
+            <lb ed="#L" n="44"/>homo amittit corporalem vitam (quam virtuosus
+            <lb ed="#L" n="45"/>amat, non solum inquantum est quoddam 
+            bo<lb break="no" ed="#L" n="46"/>num naturale, sed etiam inquantum est 
+            neces<lb break="no" ed="#L" n="47"/>saria ad opera virtutum) et quae ad eam 
+            per<lb break="no" ed="#L" n="48"/>tinent: et iterum sustinere aliqua dolorosa 
+            se<lb break="no" ed="#L" n="49"/>cundum tactum corporis, puta vulnera et flagella.
+            <lb ed="#L" n="50"/>Et ideo fortis ex una parte habet unde 
+            delecte<lb break="no" ed="#L" n="51"/>tur, scilicet secundum delectationem animalem,
+            <lb ed="#L" n="52"/>scilicet de ipso actu virtutis et de fine eius: ex
+            <lb ed="#L" n="53"/>alia vero parte habet unde doleat, et animaliter,
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="54"/>dum considerat amissionem propriae vitae, et
+            <lb ed="#L" n="55"/>corporaliter. Unde, ut legitur Il Machab. vi ,
+            <lb ed="#L" n="56"/>Eleazarus dixit: Diros corporis sustineo dolores:
+            <lb ed="#L" n="57"/>secundum animam vero, propler timorem tuum,
+            <lb ed="#L" n="58"/>libenter haec patior.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1788">
+            <lb ed="#L" n="59"/>Sensibilis autem dolor corporis facit non 
+            sen<lb break="no" ed="#L" n="60"/>tin animalem delectationem virtutis: nisi forte
+            <lb ed="#L" n="61"/>propter superabundantem  Dei gratiam, quae
+            <lb ed="#L" n="62"/>fortius elevat animam ad divina, in quibus 
+            de<lb break="no" ed="#L" n="63"/>lectatur, quam a corporalibus poenis afficiatur;
+            <lb ed="#L" n="64"/>sicut beatus Tiburtius, cum super carbones 
+            in<lb break="no" ed="#L" n="65"/>censos nudis plantis incederet, dixit quod 
+            vide<lb break="no" ed="#L" n="66"/>batur sibi super roseos flores ambulare . Facit :
+            <lb ed="#L" n="67"/>tamen virtus fortitudinis ut ratio non absorbeatur
+            <lb ed="#L" n="68"/>a corporalibus doloribus. Tristitiam autem 
+            anima<lb break="no" ed="#L" n="69"/>lem superat delectatio virtutis: inquantum homo
+            <lb ed="#L" n="70"/>praefert bonum virtutis corporali vitae et 
+            quibus<lb break="no" ed="#L" n="71"/>cumque ad eam pertinentibus. Et ideo 
+            Philoso<lb break="no" ed="#L" n="72"/>phus dicit, in III Ethic. , quod a forti non 
+            requi<lb break="no" ed="#L" n="73"/>ritur ut delectetur, quasi delectationem sentiens,
+            <lb ed="#L" n="74"/>sed sufficit quod non tristetur.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1825">
+            <lb ed="#L" n="75"/>AD PRIMUM ERGO DICENDUM quod vehementia
+            <lb ed="#L" n="76"/>actus vel passionis unius potentiae impedit aliam
+            <lb ed="#L" n="77"/>potentiam in suo actu. Et ideo per dolorem 
+            sen<lb break="no" ed="#L" n="78"/>sus impeditur mens fortis ne in propria 
+            opera<lb break="no" ed="#L" n="79"/>tione delectationem sentiat.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1838">
+            <lb ed="#L" n="80"/>AD SECUNDUM DICENDUM quod Qgpera virtutum
+            <lb ed="#L" n="81"/>sunt delectabilia praecipue propter finem: 
+            pos<lb break="no" ed="#L" n="82"/>sunt autem ex sui natura esse tristia. Et 
+            prae<lb break="no" ed="#L" n="83"/>cipue hoc contingit in fortitudine. Unde 
+            Philoso<lb break="no" ed="#L" n="84"/>phus dicit, in III .Ezhic. , quod non in omnibus
+            <lb ed="#L" n="85"/>virtutibus operari delectabiliter existit, praeter 
+            in<lb break="no" ed="#L" n="86"/>quantum finem attingit.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1857">
+            <lb ed="#L" n="87"/>AD TERTIUM DICENDUM quod tristitia animalis 
+            vin<lb break="no" ed="#L" n="88"/>citur in forti a delectatione virtutis. Sed quia
+            <lb ed="#L" n="89"/>dolor corporalis est sensibilior, et apprehensio
+            <lb ed="#L" n="90"/>sensitiva magis est homini in manifesto, inde
+            <lb ed="#L" n="91"/>est quod a magnitudine corporalis doloris quasi ?
+            <lb ed="#L" n="92"/>evanescit  delectatio spiritualis, quae est de fine
+            <lb ed="#L" n="93"/>virtutis.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1907-Dd1e1876"><!-- p2p2-q123a9 -->
+          <head xml:id="TAca84-d1e1907-Hd1e1879">Articulus 9</head>
+          <head xml:id="TAca84-d1e1907-Hd1e1881" type="question-title">Utrum fortitudo maxime consistat in repentinis</head>
+          <p xml:id="TAca84-d1e1907-d1e1884">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="17" type="fixed=20"/>ARTICULUS NONUS
+            <lb ed="#L" n="18"/>UTRUM FORTITUDO MAXIME CONSISTAT IN REPENTINIS
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1893">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="19"/>AD NONUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="20"/>fortitudo non maxime consistat in 
+            re<lb break="no" ed="#L" n="21"/>pentinis. Illud enim  videtur esse in
+            <lb ed="#L" n="22"/>repentinis quod ex inopinato provenit.
+            <lb ed="#L" n="23"/>Sed Tullius dicit, in sua Rhetorica , quod 
+            for<lb break="no" ed="#L" n="24"/>titudo est considerata periculorum susceptio et 
+            la<lb break="no" ed="#L" n="25"/>borum perpessio. Ergo fortitudo non consistit 
+            ma<lb break="no" ed="#L" n="26"/>xime in repentinis.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1915">
+            <lb ed="#L" n="27"/>2. PRAETEREA, Ambrosius dicit, in I de Offic. 
+            <lb ed="#L" n="28"/>Fortis viri est non dissimulare cum aliquid 
+            im<lb break="no" ed="#L" n="29"/>mineat, sed praetendere, et lanquam de specula
+            <lb ed="#L" n="30"/>quadam menlis obviare cogitatione provida rebus
+            <lb ed="#L" n="31"/>futuris, ne forte dicat postea: Ideo ista ? incidi,
+            <lb ed="#L" n="32"/>quia non arbitrabar posse evenire. Sed ubi est
+            <lb ed="#L" n="33"/>aliquid repentinum, ibi non potest provideri in
+            <lb ed="#L" n="34"/>futuro. Ergo operatio fortitudinis non est circa
+            <lb ed="#L" n="35"/>repentina.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1938">
+            <lb ed="#L" n="36"/>3. PRAETEREA, Philosophus dicit, in III Ethic. 
+            <lb ed="#L" n="37"/>quod fortis est bonae spei. Sed spes expectat 
+            ali<lb break="no" ed="#L" n="38"/>quid in futurum: quod repugnat repentino. Ergo
+            <lb ed="#L" n="39"/>operatio fortitudinis non consistit circa repentina.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1949">
+            <lb ed="#L" n="40"/>SEp coNTRA EsT quod Philosophus dicit, in III
+            <lb ed="#L" n="41"/>Ethic. , quod fortitudo maxime est circa 
+            quae<lb break="no" ed="#L" n="42"/>cumque mortem inferunt, repentina existentia.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1958">
+            <lb ed="#L" n="43"/>RESPONDEO DICENDUM quod in operatione for-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="44"/>titudinis duo sunt consideranda. Unum quidem,
+            <lb ed="#L" n="45"/>quantum ad electionem ipsius. Et sic fortitudo
+            <lb ed="#L" n="46"/>non est circa repentina. Eligit enim fortis 
+            prae<lb break="no" ed="#L" n="47"/>meditari pericula quae possunt imminere, ut eis
+            <lb ed="#L" n="48"/>resistere possit, aut facilius ea ferre: quia, ut 
+            Gre<lb break="no" ed="#L" n="49"/>gorius dicit, in quadam homilia , iacula quae :
+            <lb ed="#L" n="50"/>praevidentur minus feriunt: et nos mala mundi
+            <lb ed="#L" n="51"/>facilius ferimus, si contra ea clipeo praescientiae
+            <lb ed="#L" n="52"/>praemunimur.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e1984">
+            <lb ed="#L" n="53"/>Aliud vero est considerandum in operatione '
+            <lb ed="#L" n="54"/>fortitudinis quantum ad manifestationem virtuosi
+            <lb ed="#L" n="55"/>habitus. Et sic fortitudo maxime est circa 
+            repen<lb break="no" ed="#L" n="56"/>tina: quia secundum Philosophum, in IIl Ethic. ,
+            <lb ed="#L" n="57"/>in repentinis periculis maxime manifestatur 
+            for<lb break="no" ed="#L" n="58"/>titudinis habitus. Habitus enim agit in modum
+            <lb ed="#L" n="59"/>naturae. Unde quod aliquis absque 
+            praemedita<lb break="no" ed="#L" n="60"/>tione faciat ea quae sunt virtutis, cum necessitas
+            <lb ed="#L" n="61"/>imminet propter repentina pericula, hoc maxime
+            <lb ed="#L" n="62"/>manifestat quod sit fortitudo habitualiter ? in 
+            ani<lb break="no" ed="#L" n="63"/>ma confirmata. Potest autem aliquis etiam qui
+            <lb ed="#L" n="64"/>habitu fortitudinis caret, ex diuturna 
+            praemedi<lb break="no" ed="#L" n="65"/>tatione animum suum contra pericula praeparare.
+            <lb ed="#L" n="66"/>Qua praeparatione etiam fortis utitur, cum 
+            tem<lb break="no" ed="#L" n="67"/>pus adest.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2019">
+            <lb ed="#L" n="68"/>Et per hoc patet responsio ab obiecta.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1907-Dd1e2025"><!-- p2p2-q123a10 -->
+          <head xml:id="TAca84-d1e1907-Hd1e2028">Articulus 10</head>
+          <head xml:id="TAca84-d1e1907-Hd1e2030" type="question-title">Utrum fortis utatur ira in suo actu</head>
+          <p xml:id="TAca84-d1e1907-d1e2033">
+            <pb ed="#L" n="21"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=21"/>ARTICULUS DECIMUS
+            <lb ed="#L" n="2"/>UTRUM FORTIS UTATUR IRA IN SUO ACTU
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2044">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AB DECIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>fortis non utatur ira in suo actu. Nullus
+            <lb ed="#L" n="5"/>enim debet assumere quasi 
+            instrumen<lb break="no" ed="#L" n="6"/>tum suae actionis illud quo non potest
+            <lb ed="#L" n="7"/>uti pro suo arbitrio. Sed homo non potest uti
+            <lb ed="#L" n="8"/>ira pro suo arbitrio, ut scilicet possit eam 
+            assu<lb break="no" ed="#L" n="9"/>mere cum velit et deponere cum velit: ut enim
+            <lb ed="#L" n="10"/>Philosophus dicit, in libro de Memoria , quando
+            <lb ed="#L" n="11"/>passio corporalis mota est, non statim quiescit
+            <lb ed="#L" n="12"/>ut homo vult. Ergo fortis non debet assumere
+            <lb ed="#L" n="13"/>iram ad suam operationem.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2073">
+            <lb ed="#L" n="14"/>2. PRAETEREA, ille qui per seipsum sufficit ad
+            <lb ed="#L" n="15"/>non debet in auxilium sui
+            <lb ed="#L" n="16"/>assumere illud quod est infirmius et 
+            imperfe<lb break="no" ed="#L" n="17"/>ctius. Sed ratio per seipsam sufficit ad opus 
+            for<lb break="no" ed="#L" n="18"/>titudinis exequendum, in quo iracundia deficit.
+            <lb ed="#L" n="19"/>Unde Seneca dicit, in libro de Zra : Non ad
+            <lb ed="#L" n="20"/>providendum tantum, sed ad res gerendas satis
+            <lb ed="#L" n="21"/>est per se ipsa ratio. Et quid stultius est quam
+            <lb ed="#L" n="22"/>hanc ab iracundia petere praesidium , rem  
+            sta<lb break="no" ed="#L" n="23"/>bilem ab incerta, fidelem ab infida, sanam ab
+            <lb ed="#L" n="24"/>aegra? Ergo fortitudo non debet iram assumere.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2100">
+            <lb ed="#L" n="25"/>3. PRAETEREA, sicut propter iram aliqui 
+            ve<lb break="no" ed="#L" n="26"/>hementius opera fortitudinis exequuntur, ita etiam
+            <lb ed="#L" n="27"/>et propter tristitiam vel concupiscentiam: unde
+            <lb ed="#L" n="28"/>Philosophus dicit, in III Ethic. , quod ferae 
+            pro<lb break="no" ed="#L" n="29"/>pter «tristitiam seu dolorem incitantur ad pericula,
+            <lb ed="#L" n="30"/>el. adulteri propter concupiscentiam multa audacia
+            <lb ed="#L" n="31"/>operantur. Sed fortitudo non assumit ad suum
+            <lb ed="#L" n="32"/>actum neque tristitiam neque concupiscentiam.
+            <lb ed="#L" n="33"/>Ergo, pari ratione, non debet assumere iram.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2122">
+            <lb ed="#L" n="34"/>SED CONTRA EsT quod Pilosophus dicit, in III
+            <lb ed="#L" n="35"/>Ethic. , quod furor cooperatur fortibus.
+            <lb ed="#L" n="36"/>RESPONDEO DICENDUM. quod de ira et ceteris
+            <lb ed="#L" n="37"/>animae passionibus, sicut supra  dictum est, 
+            ali<lb break="no" ed="#L" n="38"/>ter sunt locuti Peripatetici, et aliter Stoici. Stoici
+            <lb ed="#L" n="39"/>enim et iram et omnes alias animae passiones
+            <lb ed="#L" n="40"/>ab animo sapientis, sive virtuosi, excludebant.
+            <lb ed="#L" n="41"/>Peripatetici vero, quorum princeps fuit 
+            Aristote<lb break="no" ed="#L" n="42"/>les, iram et alias animae passiones attribuebant
+            <lb ed="#L" n="43"/>virtuosis, sed moderatas ratione. Et forte 
+            quan<lb break="no" ed="#L" n="44"/>tum ad rem non differebant, sed solum quantum
+            <lb ed="#L" n="45"/>ad modum loquendi. Nam Peripatetici omnes
+            <lb ed="#L" n="46"/>motus appetitus sensitivi, qualitercumque se 
+            ha<lb break="no" ed="#L" n="47"/>bentes, passiones animae nominabant, ut supra 
+            <lb ed="#L" n="48"/>habitum est: et quia appetitus sensitivus move-
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="49"/>tur per imperium rationis ad hoc quod 
+            coope<lb break="no" ed="#L" n="50"/>retur ^ ad promptius agendum, idcirco ponebant
+            <lb ed="#L" n="51"/>et iram et alias passiones animae assumendas
+            <lb ed="#L" n="52"/>esse a P virtuosis, moderatas secundum imperium
+            <lb ed="#L" n="53"/>rationis. Stoici vero vocabant passiones animae
+            <lb ed="#L" n="54"/>immoderatos quosdam affectus appetitus 
+            sensi<lb break="no" ed="#L" n="55"/>tivi (unde nominabant eos  aegritudines vel 
+            mor<lb break="no" ed="#L" n="56"/>bos): et ideo penitus eos a virtute separabant.  —
+            <lb ed="#L" n="57"/>Sic ergo iram moderatam assumit fortis ad suum
+            <lb ed="#L" n="58"/>actum, non autem iram immoderatam.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2181">
+            <lb ed="#L" n="59"/>AD PRIMUM ERGO DICENDUM quod ira moderata
+            <lb ed="#L" n="60"/>secundum rationem subiicitur imperio rationis.
+            <lb ed="#L" n="61"/>Unde consequens est ut homo ea utatur pro suo
+            <lb ed="#L" n="62"/>arbitrio: non autem si esset immoderata.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2192">
+            <lb ed="#L" n="63"/>AD SECUNDUM DICENDUM quod ratio non assumit
+            <lb ed="#L" n="64"/>iram ad sui? actum quasi auxilium ab ea 
+            ac<lb break="no" ed="#L" n="65"/>cipiens: sed quia utitur appetitu sensitivo ut 
+            in<lb break="no" ed="#L" n="66"/>strumento, sicut et membris corporis. Nec est 
+            in<lb break="no" ed="#L" n="67"/>conveniens si instrumentum sit imperfectius 
+            prin<lb break="no" ed="#L" n="68"/>cipali agente: ut martellus fabro. - Seneca autem
+            <lb ed="#L" n="69"/>sectator fuit Stoicorum, et directe contra 
+            Aristo<lb break="no" ed="#L" n="70"/>telem verba praemissa proponit.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2212">
+            <lb ed="#L" n="71"/>AD TERTIUM DICENDUM quod, cum fortitudo, sicut
+            <lb ed="#L" n="72"/>dictum est , habeat duos actus, scilicet 
+            susti<lb break="no" ed="#L" n="73"/>nere et aggredi, non assumit iram ad actum 
+            sus<lb break="no" ed="#L" n="74"/>tinendi, quia hunc actum sola ratio per se facit:
+            <lb ed="#L" n="75"/>sed ad actum aggrediendi. Ad quem magis 
+            as<lb break="no" ed="#L" n="76"/>sumit iram quam alias passiones, quia ad iram
+            <lb ed="#L" n="77"/>pertinet insilire in rem contristantem, et sic 
+            dire<lb break="no" ed="#L" n="78"/>cte cooperatur fortitudini in aggrediendo. 
+            Tristi<lb break="no" ed="#L" n="79"/>tia autem, secundum propriam rationem, 
+            succum<lb break="no" ed="#L" n="80"/>bit nocivo: sed per accidens coadiuvat ad 
+            aggre<lb break="no" ed="#L" n="81"/>diendum; vel inquantum tristitia est causa irae,
+            <lb ed="#L" n="82"/>ut supra  dictum est; vel inquantum aliquis 
+            pe<lb break="no" ed="#L" n="83"/>riculo se exponit ut tristitiam fugiat. Similiter
+            <lb ed="#L" n="84"/>etiam concupiscentia, secundum propriam 
+            ratio<lb break="no" ed="#L" n="85"/>nem, tendit in bonum delectabile, cui per se 
+            re<lb break="no" ed="#L" n="86"/>pugnat aggressio periculorum: sed per accidens
+            <lb ed="#L" n="87"/>quandoque coadiuvat ad aggrediendum, 
+            inquan<lb break="no" ed="#L" n="88"/>tum scilicet aliquis potius vult pericula  incidere
+            <lb ed="#L" n="89"/>quam delectabili carere. Et ideo Philosophus 
+            di<lb break="no" ed="#L" n="90"/>cit, in III Ethic. , quod inter fortitudines quae
+            <lb ed="#L" n="91"/>sunt ex passione, naturalissima esse videtur quae
+            <lb ed="#L" n="92"/>est per iram: et accipiens electionem et cuius 
+            gra<lb break="no" ed="#L" n="93"/>tia (scilicet debitum finem), fortitudo (scilicet,
+            <lb ed="#L" n="94"/>fuit vera) .
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1907-Dd1e2269"><!-- p2p2-q123a11 -->
+          <head xml:id="TAca84-d1e1907-Hd1e2272">Articulus 11</head>
+          <head xml:id="TAca84-d1e1907-Hd1e2274" type="question-title">Utrum fortitudo sit virtus cardinalis</head>
+          <p xml:id="TAca84-d1e1907-d1e2277">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="73" type="fixed=23"/>ARTICULUS UNDECIMUS
+            <lb ed="#L" n="74"/>UTRUM FORTITUDO SIT VIRTUS CARDINALIS
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2286">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="75"/>AD Undecimum sic proceditur. Videtur 
+            <lb ed="#L" n="76"/>quod fortitudo non sit virtus cardinalis
+            <lb ed="#L" n="77"/>Ira enim, ut dictum Aper maximam
+            <lb ed="#L" n="78"/>affinitatem habet ad fortitudinem. Sed
+            <lb ed="#L" n="79"/>ira non ponitur passio principalis: nec etiam 
+            au<lb break="no" ed="#L" n="80"/>dacia, quae ad fortitudinem pertinet. Ergo nec
+            <lb ed="#L" n="81"/>fortitudo debet poni virtus cardinalis.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2306">
+            <lb ed="#L" n="82"/>2. PRAETEREA, virtus ordinatur ad bonum. Sed
+            <lb ed="#L" n="83"/>fortitudo. non directe ordinatur ad bonum, sed
+            <lb ed="#L" n="84"/>magis ad malum, scilicet ad sustinendum pericula
+            <lb ed="#L" n="85"/>et labores, ut Tullius dicit . Ergo fortitudo non
+            <lb ed="#L" n="86"/>est virtus cardinalis.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2320">
+            <lb ed="#L" n="87"/>3. PRAETEREA, virtus cardinalis est circa ea in
+            <lb ed="#L" n="88"/>quibus praecipue versatur vita humana: sicut
+            <lb ed="#L" n="89"/>ostium in cardine vertitur. Sed fortitudo est circa
+            <lb ed="#L" n="90"/>pericula mortis, quae raro occurrunt in vita 
+            hu<lb break="no" ed="#L" n="91"/>mana. Ergo fortitudo non debet poni virtus 
+            car<lb break="no" ed="#L" n="92"/>dinalis sive principalis.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2336">
+            <lb ed="#L" n="93"/>SED CONTRA EST quod Gsagottidi XXII Moral. ,
+            <lb ed="#L" n="94"/>et Ambrosius, super Luc. , et Augustinus, in
+            <lb ed="#L" n="95"/>libro de Moribus Eccle. , numerant fortitudinem
+            <lb ed="#L" n="96"/>inter quatuor virtutes cardinales seu principales.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2347">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="97"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="98"/>est, virtutes cardinales seu principales dicuntur
+            <lb ed="#L" n="99"/>quae praecipue sibi vindicant id quod pertinet
+            <lb ed="#L" n="100"/>communiter ad virtutes. Inter alias autem 
+            commu<lb break="no" ed="#L" n="101"/>nes virtutis conditiones, una ponitur firmiter 
+            ope<lb break="no" ed="#L" n="102"/>rari, ut patet in II E/hic.  Laudem autem 
+            firmi<lb break="no" ed="#L" n="103"/>tatis potissime sibi vindicat fortitudo. Tanto enim
+            <lb ed="#L" n="104"/>magis laudatur qui firmiter stat, quanto  habet
+            <lb ed="#L" n="105"/>gravius impellens ad cadendum vel 
+            retroceden<lb break="no" ed="#L" n="106"/>dum. Impellit autem hominem ad discedendum ?
+            <lb ed="#L" n="107"/>ab eo quod est secundum rationem et bonum
+            <lb ed="#L" n="108"/>delectans et malum affligens, sed gravius impellit
+            <lb ed="#L" n="109"/>dolor corporis quam voluptas: dicit enim 
+            Au<lb break="no" ed="#L" n="110"/>gustinus, in libro Octoginta trium Quaest. : Nemo
+            <lb ed="#L" n="111"/>est qui non magis dolorem fugiat quam affectat Y
+            <lb ed="#L" n="112"/>voluptatem: quandoquidem videmus et 
+            immanis<lb break="no" ed="#L" n="113"/>simas bestias a maximis voluptatibus exterreri 
+            do<lb break="no" ed="#L" n="114"/>lorum metu. Et inter dolores animi et pericula
+            <lb ed="#L" n="115"/>maxime timentur ea quae ducunt ad mortem,
+            <lb ed="#L" n="116"/>contra quae firmiter stat fortis. Unde fortitudo
+            <lb ed="#L" n="117"/>est virtus cardinalis.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2397">
+            <lb ed="#L" n="118"/>AD PRIMUM ERGO DICENDUM quod audacia et ira
+            <pb ed="#L" n="24"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>non cooperantur fortitudini ad actum eius qui
+            <lb ed="#L" n="2"/>est sustinere, in quo praecipue commendatur 
+            fir<lb break="no" ed="#L" n="3"/>mitas eius. Per hunc enim ? actum fortis cohibet
+            <lb ed="#L" n="4"/>timorem, qui est passio principalis, ut supra 
+            <lb ed="#L" n="5"/>habitum est.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2417">
+            <lb ed="#L" n="6"/>AD SECUNDUM DICENDUM quod virtus ordinatur
+            <lb ed="#L" n="7"/>ad bonum rationis, quod conservari oportet 
+            con<lb break="no" ed="#L" n="8"/>tra impulsus malorum. Fortitudo autem 
+            ordina<lb break="no" ed="#L" n="9"/>tur ad mala corporalia sicut ad contraria, quibus
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="10"/>resistit: ad bonüm autem rationis sicut ad finem,
+            <lb ed="#L" n="11"/>quem intendit conservare.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2435">
+            <lb ed="#L" n="12"/>AD TERTIUM DICENDUM quod quamvis pericula
+            <lb ed="#L" n="13"/>mortis raro immineant, tamen occasiones horum
+            <lb ed="#L" n="14"/>periculorum frequenter occurrunt: dum scilicet
+            <lb ed="#L" n="15"/>homini adversarii mortales suscitantur propter
+            <lb ed="#L" n="16"/>iustitiam quam sequitur, et propter alia bona
+            <lb ed="#L" n="17"/>quae facit.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1907-Dd1e2452"><!-- p2p2-q123a12 -->
+          <head xml:id="TAca84-d1e1907-Hd1e2455">Articulus 12</head>
+          <head xml:id="TAca84-d1e1907-Hd1e2457" type="question-title">Utrum fortitudo praecellat inter omnes virtutes</head>
+          <p xml:id="TAca84-d1e1907-d1e2460">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="59" type="fixed=25"/>ARTICULUS DUODECIMUS
+            <lb ed="#L" n="60"/>UTRUM FORTITUDO PRAECELLAT INTER OMNES VIRTUTES
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2469">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="61"/>AD DUODECIMUM SIC PROCEDITUR. Videtur
+            <lb ed="#L" n="62"/>quod fortitudo praecellat inter omnes
+            <lb ed="#L" n="63"/>virtutes. Dicit enim Ambrosius, in I de 
+            <lb ed="#L" n="64"/>Offic.: Est fortitudo velut ceteris 
+            ex<lb break="no" ed="#L" n="65"/>celsior.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2485">
+            <lb ed="#L" n="66"/>2. PRAETEREA, virtus est circa difficile et 
+            bo<lb break="no" ed="#L" n="67"/>num . Sed fortitudo est circa difficillima. Ergo 
+            <lb ed="#L" n="68"/>est maxima virtutum.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2495">
+            <lb ed="#L" n="69"/>3. PRAETEREA, dignior est persona hominis
+            <lb ed="#L" n="70"/>quam res eius. Sed fortitudo est circa personam
+            <lb ed="#L" n="71"/>hominis, quam aliquis periculo mortis exponit
+            <lb ed="#L" n="72"/>propter bonum virtutis: iustitia autem et aliae
+            <lb ed="#L" n="73"/>virtutes morales sunt circa alias res exteriores.
+            <lb ed="#L" n="74"/>Ergo fortitudo est praecipua inter virtutes 
+            mo<lb break="no" ed="#L" n="75"/>rales.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2513">
+            <lb ed="#L" n="76"/>SED CONTRA EST quod <ref xml:id="TAca84-d1e1907-Rd1e2517">Tullius dicit, in I de
+              <lb ed="#L" n="77"/>Offic.</ref> : In iustitia virtutis splendor est maximus,
+            <lb ed="#L" n="78"/>ex qua viri boni nominantur.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2525">
+            <lb ed="#L" n="79"/>2. PRAETEREA, <ref xml:id="TAca84-d1e1907-Rd1e2529">Philosophus dicit, in I Rhet.</ref> :
+            <lb ed="#L" n="80"/>Necesse est maximas esse virtutes quae maxime
+            <lb ed="#L" n="81"/>aliis utiles sunt. Sed liberalitas videtur magis utilis
+            <lb ed="#L" n="82"/>quam fortitudo. Ergo est maior virtus.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2538">
+            <lb ed="#L" n="83"/>RESPONDEO DICENDUM quod, sicut <ref xml:id="TAca84-d1e1907-Rd1e2542">Augustinus
+              <lb ed="#L" n="84"/>dicit, in VI de Trin.</ref>, <quote xml:id="TAca84-d1e1907-Qd1e2547">in his quae non mole magna
+                <lb ed="#L" n="85"/>sunt, idem est esse maius quod melius</quote>. Unde tanto
+            <lb ed="#L" n="86"/>aliqua virtus maior est quanto melior est. 
+            Bo<lb break="no" ed="#L" n="87"/>num autem rationis est hominis bonum, 
+            secun<lb break="no" ed="#L" n="88"/>dum Dionysium, iv cap. de Div. Nom.  Hoc
+            <lb ed="#L" n="89"/>autem bonum essentialiter quidem habet 
+            pruden<lb break="no" ed="#L" n="90"/>tia, quae est perfectio rationis. Iustitia autem est
+            <lb ed="#L" n="91"/>huius boni factiva: inquantum scilicet ad ipsam
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="92"/>pertinet ordinem rationis ponere in omnibus 
+            re<lb break="no" ed="#L" n="93"/>bus humanis. Aliae autem virtutes sunt 
+            conser<lb break="no" ed="#L" n="94"/>vativae huius boni: inquantum scilicet 
+            mode<lb break="no" ed="#L" n="95"/>rantur passiones, ne abducant hominem a bono
+            <lb ed="#L" n="96"/>rationis. Et in ordine harum fortitudo tenet 
+            lo<lb break="no" ed="#L" n="97"/>cum praecipuum: quia timor periculorum mortis
+            <lb ed="#L" n="98"/>maxime est efficax ad hoc quod hominem faciat
+            <lb ed="#L" n="99"/>recedere a bono rationis. Post quam ordinatur
+            <lb ed="#L" n="100"/>temperantia: quia etiam delectationes tactus 
+            ma<lb break="no" ed="#L" n="101"/>xime inter cetera impediunt bonum rationis. - Id
+            <lb ed="#L" n="102"/>autem quod essentialiter dicitur, potius est eo
+            <lb ed="#L" n="103"/>quod dicitur effective: et hoc etiam potius est
+            <lb ed="#L" n="104"/>eo quod dicitur conservative, secundum 
+            remo<lb break="no" ed="#L" n="105"/>tionem impedimenti. Unde inter virtutes 
+            cardi<lb break="no" ed="#L" n="106"/>nales prudentia est potior; secunda, iustitia; 
+            ter<lb break="no" ed="#L" n="107"/>tia, fortitudo; quarta, temperantia. Et post has,
+            <lb ed="#L" n="108"/>ceterae virtutes.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2605">
+            <lb ed="#L" n="109"/>AD PRIMUM ERGO DICENDUM quod Ambrosius 
+            for<lb break="no" ed="#L" n="110"/>titudinem aliis virtutibus praefert secundum 
+            quan<lb break="no" ed="#L" n="111"/>dam generalem utilitatem : prout scilicet et in 
+            re<lb break="no" ed="#L" n="112"/>bus bellicis et in rebus civilibus seu domesticis
+            <lb ed="#L" n="113"/>utilis est. Unde ipse ibidem praemittit: Nunc de
+            <lb ed="#L" n="114"/>fortitudine tractemus: quae, velut excelsior ceteris,
+            <lb ed="#L" n="115"/>dividitur in res bellicas et domesticas.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2623">
+            <lb ed="#L" n="116"/>AD SECUNDUM DICENDUM quod ratio virtutis magis
+            <lb ed="#L" n="117"/>consistit in bono quam in difficili. Unde magis
+            <lb ed="#L" n="118"/>est mensuranda magnitudo virtutis secundum 
+            ra<lb break="no" ed="#L" n="119"/>tionem boni quam secundum rationem difficilis.
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2635">
+            <lb ed="#L" n="120"/>AD TERTIUM DICENDUM quod homo non exponit
+            <lb ed="#L" n="121"/>personam suam mortis periculis nisi propter 
+            iu<lb break="no" ed="#L" n="122"/>stitiam conservandam. Et ideo laus fortitudinis
+            <pb ed="#L" n="26"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>dependet quodammodo ex iustitia. Unde dicit 
+            <lb ed="#L" n="2"/>Ambrosius, in I de Offic. , quod <quote xml:id="TAca84-d1e1907-Qd1e2652">fortitudo sine 
+              <lb ed="#L" n="3"/>iustitia iniquitatis est materia: quo enim validior  
+              <lb ed="#L" n="4"/>est, eo promptior ut inferiorem opprimat.</quote>
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2660">
+            <lb ed="#L" n="5"/>QUARTUM concedimus. 
+          </p>
+          <p xml:id="TAca84-d1e1907-d1e2665">
+            <lb ed="#L" n="6"/>AD QUINTUM  DICENDUM quod liberalitas utilis 
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="7"/>est in quibusdam particularibus beneficiis. Sed
+            <lb ed="#L" n="8"/>fortitudo habet utilitatem generalem ad 
+            conser<lb break="no" ed="#L" n="9"/>vandum totum iustitiae ordinem. Et ideo 
+            Philo<lb break="no" ed="#L" n="10"/>sophus dicit, in I Rhet. , quod iusti et fortes  
+            <lb ed="#L" n="11"/>maxime amantur, quia sunt maxime utiles et in  
+            <lb ed="#L" n="12"/>bello et in pace.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

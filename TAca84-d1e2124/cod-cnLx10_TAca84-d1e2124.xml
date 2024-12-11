@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 165</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 165</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="339"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2124"><!-- p2p2-q165 -->
+        <head xml:id="TAca84-d1e2124-Hd1e101">Quaestio 165</head>
+        <head xml:id="TAca84-d1e2124-Hd1e103" type="question-title">De tentatione primorum parentum</head>
+        <p xml:id="TAca84-d1e2124-d1e106">
+          <pb ed="#L" n="339"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=339"/>QUAESTIO CENTESIMASEXAGESIMAQUINTA
+          <lb ed="#L" n="2"/>DE TENTATIONE PRIMORUM PARENTUM
+          <lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2124-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de tentatione 
+          pri<lb break="no" ed="#L" n="5"/>morum parentum.
+        </p>
+        <p xml:id="TAca84-d1e2124-d1e128">
+          <lb ed="#L" n="6"/>Circa quam quaeruntur duo.
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="7"/>Primo: utrum fuerit conveniens quod homo
+          <lb ed="#L" n="8"/>a diabolo tentaretur.
+          <lb ed="#L" n="9"/>Secundo: de modo et ordine illius tentationis.
+        </p>
+        <div xml:id="TAca84-d1e2124-Dd1e142"><!-- p2p2-q165a1 -->
+          <head xml:id="TAca84-d1e2124-Hd1e145">Articulus 1</head>
+          <head xml:id="TAca84-d1e2124-Hd1e147" type="question-title">Utrum fuerit conveniens ut homo a diabolo tentaretur</head>
+          <p xml:id="TAca84-d1e2124-d1e150">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="10" type="fixed=339"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="11"/>UTRUM FUERIT CONVENIENS UT HOMO A DIABOLO TENTARETUR
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e159">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="12"/>AD PRIMUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="13"/>non fuerit conveniens ut homo a 
+            dia<lb break="no" ed="#L" n="14"/>bolo tentaretur. Eadem enim poena 
+            fi<lb break="no" ed="#L" n="15"/>alis debetur peccato angeli et peccato
+            <lb ed="#L" n="16"/>hominis: secundum illud Matth. xxv : 7te, 
+            ma<lb break="no" ed="#L" n="17"/>ledicti, in ignem. aeternum, qui paratus est diabolo
+            <lb ed="#L" n="18"/>et angelis eius. Sed primum peccatum ^ angeli
+            <lb ed="#L" n="19"/>non fuit ex aliqua tentatione exteriori. Ergo nec
+            <lb ed="#L" n="20"/>primum peccatum hominis debuit esse ex aliqua
+            <lb ed="#L" n="21"/>tentatione exteriori.
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e185">
+            <lb ed="#L" n="22"/>2. PRAETEREA, Deus, praescius futurorum, 
+            scie<lb break="no" ed="#L" n="23"/>bat quod homo per tentationem daemonis in
+            <lb ed="#L" n="24"/>peccatum deiiceretur: et sic bene sciebat quod
+            <lb ed="#L" n="25"/>non expediebat ei quod tentaretur. Ergo 
+            vide<lb break="no" ed="#L" n="26"/>tur quod non fuerit conveniens quod permitteret
+            <lb ed="#L" n="27"/>eum tentari.
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e202">
+            <lb ed="#L" n="28"/>3. PRAETEREA, quod aliquis impugnatorem 
+            ha<lb break="no" ed="#L" n="29"/>beat, ad poenam pertinere videtur: sicut et e
+            <lb ed="#L" n="30"/>contrario ad praemium pertinere videtur quod
+            <lb ed="#L" n="31"/>impugnatio subtrahatur, secundum illud Prov.xvi:
+            <lb ed="#L" n="32"/>Cum placuerint Domino viae hominis, inimicos
+            <lb ed="#L" n="33"/>quoque eius convertet ad pacem. Sed poena non
+            <lb ed="#L" n="34"/>debet praecedere culpam. Ergo inconveniens fuit
+            <lb ed="#L" n="35"/>quod homo ante peccatum tentaretur.
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e222">
+            <lb ed="#L" n="36"/>SEp coNTRA EST quod dicitur Eccli. xxxiv : Qui
+            <lb ed="#L" n="37"/>non est tentatus, qualia scit?
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e229">
+            <lb ed="#L" n="38"/>RESPONDEO DICENDUM quod divina sapientia 
+            dis<lb break="no" ed="#L" n="39"/>ponit omnia suaviter, ut dicitur Sap. vin : 
+            in<lb break="no" ed="#L" n="40"/>quantum scilicet sua providentia singulis attribuit
+            <lb ed="#L" n="41"/>quae eis competunt secundum suam naturam;
+            <lb ed="#L" n="42"/>quia, ut Dionysius dicit, iv cap. de Div. Nom. ,
+            <lb ed="#L" n="43"/>providentiae non est naturam corrumpere, sed
+            <lb ed="#L" n="44"/>salvare. Hoc autem pertinet ad conditionem 
+            hu<lb break="no" ed="#L" n="45"/>manae naturae, ut ab aliis creaturis iuvari vel
+            <lb ed="#L" n="46"/>impediri possit. Unde conveniens fuit ut Deus
+            <lb ed="#L" n="47"/>hominem in statu innocentiae et tentari permit-
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="48"/>teret per malos angelos, et iuvari eum faceret
+            <lb ed="#L" n="49"/>per bonos. Ex speciali autem ? beneficio gratiae 
+            <lb ed="#L" n="50"/>hoc erat ei collatum, ut nulla creatura exterior
+            <lb ed="#L" n="51"/>ei posset nocere contra propriam voluntatem,
+            <lb ed="#L" n="52"/>per quam etiam tentationi daemonis resistere
+            <lb ed="#L" n="53"/>poterat.
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e268">
+            <lb ed="#L" n="54"/>AD PRIMUM ERGO DICENDUM quod supra naturam.
+            <lb ed="#L" n="55"/>humanam est aliqua natura in qua potest 
+            ma<lb break="no" ed="#L" n="56"/>lum culpae inveniri: non autem supra naturam
+            <lb ed="#L" n="57"/>angelicam. Tentare autem inducendo ad malum,
+            <lb ed="#L" n="58"/>non est nisi iam depravati per culpam. Et ideo
+            <lb ed="#L" n="59"/>conveniens fuit ut homo per angelum malum
+            <lb ed="#L" n="60"/>tentaretur ad peccandum: sicut etiam, secundum
+            <lb ed="#L" n="61"/>naturae ordinem, per angelum bonum 
+            promo<lb break="no" ed="#L" n="62"/>vetur ad perfectionem. Angelus autem a suo 
+            su<lb break="no" ed="#L" n="63"/>periori, scilicet a Deo, in bono perfici potuit, non
+            <lb ed="#L" n="64"/>autem ad peccandum induci: quia, sicut dicitur
+            <lb ed="#L" n="65"/>Iac. 1 , Deus intentator malorum est.
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e297">
+            <lb ed="#L" n="66"/>AD SECUNDUM DICENDUM quod, sicut Deus sciebat
+            <lb ed="#L" n="67"/>quod homo per tentationem in peccatum esset
+            <lb ed="#L" n="68"/>deiiciendus, ita etiam sciebat quod per liberum
+            <lb ed="#L" n="69"/>arbitrium resistere poterat tentatori. Hoc autem
+            <lb ed="#L" n="70"/>requirebat conditio naturae ipsius, ut propriae 
+            vo<lb break="no" ed="#L" n="71"/>luntati relinqueretur: secundum illud Eccli. xv : 
+            <lb ed="#L" n="72"/>Deus reliquit hominem in manu consilii sui. Unde
+            <lb ed="#L" n="73"/>Augustinus dicit, XI super Gen. ad litt. : Non '
+            <lb ed="#L" n="74"/>mihi videtur magnae laudis futurum fuisse 
+            ho<lb break="no" ed="#L" n="75"/>minem, si propterea posset bene vivere quia nemo
+            <lb ed="#L" n="76"/>male vivere suaderet: cum et ! in natura posse,
+            <lb ed="#L" n="77"/>et in potestate haberet velle non consentire 
+            sua<lb break="no" ed="#L" n="78"/>denti.
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e328">
+            <lb ed="#L" n="79"/>AD TERTIUM DICENDUM quod impugnatio cui cum
+            <lb ed="#L" n="80"/>difficultate resistitur, poenalis est. Sed homo in
+            <lb ed="#L" n="81"/>statu innocentiae poterat absque omni difficultate
+            <lb ed="#L" n="82"/>tentationi resistere. Et ideo impugnatio tentatoris
+            <lb ed="#L" n="83"/>poenalis ei non fuit.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2124-Dd1e342"><!-- p2p2-q165a2 -->
+          <head xml:id="TAca84-d1e2124-Hd1e345">Articulus 2</head>
+          <head xml:id="TAca84-d1e2124-Hd1e347" type="question-title">Utrum fuerit conveniens modus et ordo primae tentationis</head>
+          <p xml:id="TAca84-d1e2124-d1e350">
+            <pb ed="#L" n="340"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=340"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="2"/>UTRUM FUERIT CONVENIENS MODUS ET ORDO PRIMAE TENTATIONIS
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e361">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>non fuerit conveniens modus et ordo
+            <lb ed="#L" n="5"/>primae tentationis . Sicut enim ordine
+            <lb ed="#L" n="6"/>naturae angelus erat superior homine, 
+            <lb ed="#L" n="7"/>ita et vir erat perfectior muliere. Sed peccatum
+            <lb ed="#L" n="8"/>pervenit ab angelo ad hominem. Ergo, pari 
+            <lb ed="#L" n="9"/>ratione, debuit pervenire a viro in mulierem, ut
+            <lb ed="#L" n="10"/>scilicet mulier per virum tentaretur: et non e
+            <lb ed="#L" n="11"/>converso.
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e385">
+            <lb ed="#L" n="12"/>2. PRAETEREA, tentatio primorum parentum fuit
+            <lb ed="#L" n="13"/>per suggestionem. Potest autem diabolus 
+            sugge<lb break="no" ed="#L" n="14"/>rere homini etiam absque aliqua exteriori 
+            sensi<lb break="no" ed="#L" n="15"/>bili creatura. Cum ergo primi parentes essent
+            <lb ed="#L" n="16"/>spirituali mente praediti, minus sensibilibus quam
+            <lb ed="#L" n="17"/>intelligibilibus inhaerentes, convenientius fuisset
+            <lb ed="#L" n="18"/>quod. solum spirituali tentatione homo tentaretur
+            <lb ed="#L" n="19"/>quam exteriori.
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e406">
+            <lb ed="#L" n="20"/>3. PRAETEREA, non potest convenienter aliquis
+            <lb ed="#L" n="21"/>malum suggerere nisi per aliquid quod appareat P
+            <lb ed="#L" n="22"/>bonum. Sed multa alia animalia habent maiorem
+            <lb ed="#L" n="23"/>apparentiam boni quam serpens. Non ergo 
+            con<lb break="no" ed="#L" n="24"/>venienter tentatus fuit homo a diabolo per 
+            ser<lb break="no" ed="#L" n="25"/>pentem.
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e422">
+            <lb ed="#L" n="26"/>4. PRAETEREA, serpens est animal irrationale.
+            <lb ed="#L" n="27"/>Sed animali irrationali non competit sapientia nec
+            <lb ed="#L" n="28"/>locutio, nec poena. Ergo inconvenienter inducitur 
+            <lb ed="#L" n="29"/>serpens esse callidior cunctis animalibus: vel, 
+            <lb ed="#L" n="30"/>prudentissimus omnium bestiarum , secundum 
+            a<lb break="no" ed="#L" n="31"/>liam translationem . Inconvenienter etiam 
+            indu<lb break="no" ed="#L" n="32"/>citur fuisse mulieri locutus, et a Deo punitus.
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e440">
+            <lb ed="#L" n="33"/>SED coNTRA EST quod id quod est primum
+            <lb ed="#L" n="34"/>in aliquo genere, debet esse proportionatum his
+            <lb ed="#L" n="35"/>quae in eodem genere consequuntur. Sed in 
+            quo<lb break="no" ed="#L" n="36"/>libet peccato  invenitur ordo primae tentationis :
+            <lb ed="#L" n="37"/>inquantum videlicet praecedit in sensualitate, quae
+            <lb ed="#L" n="38"/>per serpentem significatur, peccati 
+            concupiscen<lb break="no" ed="#L" n="39"/>tia; in ratione inferiori, quae significatur per 
+            mu<lb break="no" ed="#L" n="40"/>lierem, delectatio; in ratione superiori, quae 
+            si<lb break="no" ed="#L" n="41"/>gnificatur per virum, consensus peccati; ut 
+            Au<lb break="no" ed="#L" n="42"/>gustinus dicit, XII de Trin.  Ergo congruus fuit
+            <lb ed="#L" n="43"/>ordo primae tentationis.
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e466">
+            <lb ed="#L" n="44"/>RESPONDEO DICENDUM quod homo compositus
+            <lb ed="#L" n="45"/>est ex duplici natura, intellectiva. scilicet et 
+            sen<lb break="no" ed="#L" n="46"/>sitiva, Et ideo diabolus. in. tentatione .hominis
+            <lb ed="#L" n="47"/>usus est incitamento ad. peccandum. dupliciter.
+            <lb ed="#L" n="48"/>Uno quidem. modo, ex parte intellectus: 
+            inquan<lb break="no" ed="#L" n="49"/>tum promisit divinitatis similitudinem per scientiae
+            <lb ed="#L" n="50"/>adeptionem, quam homo naturaliter desiderat.
+            <lb ed="#L" n="51"/>Alio modo, ex parte sensus. Et sic usus est his
+            <lb ed="#L" n="52"/>sensibilibus rebus quae maximam habent 
+            affini<lb break="no" ed="#L" n="53"/>tatem ad hominem: partim quidem in eadem
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="54"/>specie, tentans virum per mulierem; partim vero
+            <lb ed="#L" n="55"/>in eodem genere, tentans mulierem per 
+            serpen<lb break="no" ed="#L" n="56"/>tem; partim vero ex genere propinquo, 
+            propo<lb break="no" ed="#L" n="57"/>nens pomum ligni vetiti ad edendum.
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e501">
+            <lb ed="#L" n="58"/>AD PRIMUM ERGO DICENDUM quod in actu 
+            tenta<lb break="no" ed="#L" n="59"/>tionis diabolus erat sicut principale agens, sed
+            <lb ed="#L" n="60"/>mulier assumebatur quasi instrumentum 
+            tentatio<lb break="no" ed="#L" n="61"/>nis ad deiiciendum? virum. Tum quia mulier erat
+            <lb ed="#L" n="62"/>infirmior viro: unde magis seduci poterat. Tum
+            <lb ed="#L" n="63"/>etiam, propter coniunctionem eius ad virum, 
+            ma<lb break="no" ed="#L" n="64"/>xime per eam diabolus poterat virum seducere.
+            <lb ed="#L" n="65"/>Non autem  est eadem ratio. principalis agentis
+            <lb ed="#L" n="66"/>et instrumenti. Nam principale agens oportet esse
+            <lb ed="#L" n="67"/>potius: quod non requiritur in agente 
+            instru<lb break="no" ed="#L" n="68"/>mentali. n
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e527">
+            <lb ed="#L" n="69"/>AD SECUNDUM DICENDUM quod suggestio qua 
+            spi<lb break="no" ed="#L" n="70"/>ritualiter diabolus aliquid homini suggerit, ostendit
+            <lb ed="#L" n="71"/>diabolus. plus habere potestatis in homine quam
+            <lb ed="#L" n="72"/>suggestio exterior: quia per suggestionem 
+            inte<lb break="no" ed="#L" n="73"/>riorem immutatur a diabolo saltem hominis 
+            phan<lb break="no" ed="#L" n="74"/>tasia, sed per suggestionem exteriorem immutatur
+            <lb ed="#L" n="75"/>sola exterior creatura. Diabolus autem  minimum
+            <lb ed="#L" n="76"/>potestatis habebat in homine ante peccatum. Et
+            <lb ed="#L" n="77"/>ideo non potuit eum interiori suggestione, sed
+            <lb ed="#L" n="78"/>solum exteriori tentare.
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e552">
+            <lb ed="#L" n="79"/>AD TERTIUM DICENDUM. quod sicut Augustinus
+            <lb ed="#L" n="80"/>dicit, XI super Gen. ad litt. , non debemus 
+            opi<lb break="no" ed="#L" n="81"/>nari quod serpentem sibi, per quem tentaret, 
+            dia<lb break="no" ed="#L" n="82"/>bolus eligeret. Sed, cum esset in illo decipiendi 
+            cu<lb break="no" ed="#L" n="83"/>piditas, non nisi per illud animal potuit per quod
+            <lb ed="#L" n="84"/>posse permissus est.
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e568">
+            <lb ed="#L" n="85"/>AD QUARTUM DICENDUM quod, sicut Augustinus
+            <lb ed="#L" n="86"/>dicit, XI super Gen. ad lilt. , serpens dictus est
+            <lb ed="#L" n="87"/>astutus , vel callidus, sive prudens, propter. 
+            astu<lb break="no" ed="#L" n="88"/>tiam diaboli, quae  in illo agebat dolum: sicut
+            <lb ed="#L" n="89"/>dicitur prudens vel astuta lingua. quam. prudens
+            <lb ed="#L" n="90"/>vel astutus movet ad aliquid prudenter vel astute
+            <lb ed="#L" n="91"/>suadendum. Neque  etiam. serpens verborum 
+            so<lb break="no" ed="#L" n="92"/>nos inlelligebat qui ex illo fiebant, ad mulierem:
+            <lb ed="#L" n="93"/>neque enim conversa credenda est anima eius in
+            <lb ed="#L" n="94"/>naturam ralionalem. Quandoquidem nec ipsi 
+            ho<lb break="no" ed="#L" n="95"/>mines, quorum rationalis natura est, cum daemon
+            <lb ed="#L" n="96"/>in eis loquitur, sciunt quid loquantur. Sic  ergo
+            <lb ed="#L" n="97"/>locutus est serpens homini sicut asina. in qua 
+            se<lb break="no" ed="#L" n="98"/>debat. Balaam , locuta. est. homini: nisi. quod 
+            il<lb break="no" ed="#L" n="99"/>lud fuit opus diabolicum, hoc angelicum. Unde 
+            <lb ed="#L" n="100"/>serpens non est interrogatus cur hoc fecerit: quia
+            <lb ed="#L" n="101"/>non in sua natura ipse id fecerat, sed diabolus
+            <lb ed="#L" n="102"/>in illo, qui iam. ex. peccato suo. igni. destinatus
+            <lb ed="#L" n="103"/>fuerat sempiterno. Quod autem serpenti dicitur,
+            <lb ed="#L" n="104"/>ad eum qui per serpentem operatus est, refertur.
+          </p>
+          <p xml:id="TAca84-d1e2124-d1e614">
+            <pb ed="#L" n="341"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>Et sicut Augustinus dicit, in libro super Gen.
+            <lb ed="#L" n="2"/>contra. Manichaeos , nunc quidem eius poena,
+            <lb ed="#L" n="3"/>idest diaboli, dicitur qua nobis cavendus est: non
+            <lb ed="#L" n="4"/>ea quae ultimo iudicio reservatur. Per hoc enim
+            <lb ed="#L" n="5"/>quod ei dicitur, « Maledictus es inter omnia 
+            ani<lb break="no" ed="#L" n="6"/>mantia et bestias terrae », pecora illi 
+            praeponun<lb break="no" ed="#L" n="7"/>tur, non in potestate, sed in conservatione ^? 
+            na<lb break="no" ed="#L" n="8"/>turae suae: quia pecora non amiserunt 
+            beatitu<lb break="no" ed="#L" n="9"/>dinem aliquam caelestem, quam nunquam 
+            habue<lb break="no" ed="#L" n="10"/>runt, sed in sua natura quam acceperunt, 
+            per<lb break="no" ed="#L" n="11"/>agunt vitam. - Dicitur etiam ei: « Pectore et.
+            <lb ed="#L" n="12"/>ventre repes », secundum aliam litteram . Ubi 
+            no<lb break="no" ed="#L" n="13"/>mine pectoris significatur superbia, quia ibi 
+            do<lb break="no" ed="#L" n="14"/>minatur impetus animae: nomine autem ventris 
+            <lb ed="#L" n="15"/>significatur carnale desiderium, quia haec pars
+            <lb ed="#L" n="16"/>mollior sentitur in corpore. His autem rebus 
+            ser<lb break="no" ed="#L" n="17"/>pit ad eos quos vult decipere. - Quod autem di-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="18"/>citur: « Terram comedes cunctis diebus vitae
+            <lb ed="#L" n="19"/>tuae », duobus modis intelligi potest. Vel: Ad te
+            <lb ed="#L" n="20"/>pertinebunt quos terrena cupiditate deceperis, idest
+            <lb ed="#L" n="21"/>peccatores, qui terrae nomine significantur. Vel
+            <lb ed="#L" n="22"/>tertium genus tentationis ^ his verbis figuratur ,
+            <lb ed="#L" n="23"/>quod est curiositas: terram enim qui manducat ,
+            <lb ed="#L" n="24"/>profunda et tenebrosa penetrat. - Per hoc autem
+            <lb ed="#L" n="25"/>quod inimicitiae ponuntur inter ipsum et 
+            mulie<lb break="no" ed="#L" n="26"/>rem, ostenditur non posse nos a diabolo tentari
+            <lb ed="#L" n="27"/>nisi per illam animalem partem quae quasi 
+            mu<lb break="no" ed="#L" n="28"/>lieris imaginem in homine ostendit . Semen 
+            au<lb break="no" ed="#L" n="29"/>lem diaboli est perversa suggestio: semen 
+            mu<lb break="no" ed="#L" n="30"/>lieris, fructus boni operis, quod perversae 
+            sugge<lb break="no" ed="#L" n="31"/>stioni resistit. Et ideo observat  serpens plantam
+            <lb ed="#L" n="32"/>mulieris, ut, si quando in illicita illabitur ^, 
+            dele<lb break="no" ed="#L" n="33"/>ciatio illam capiat: et illa observat caput eius,
+            <lb ed="#L" n="34"/>ut eum in ipso initio malae suasionis excludat.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

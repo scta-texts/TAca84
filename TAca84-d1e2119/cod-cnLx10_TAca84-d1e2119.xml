@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 164</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 164</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="334"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2119"><!-- p2p2-q164 -->
+        <head xml:id="TAca84-d1e2119-Hd1e101">Quaestio 164</head>
+        <head xml:id="TAca84-d1e2119-Hd1e103" type="question-title">De poena primi peccati</head>
+        <p xml:id="TAca84-d1e2119-d1e106">
+          <pb ed="#L" n="334"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=334"/>QUAESTIO CENTESIMASEXAGESIMAQUARTA
+          <lb ed="#L" n="2"/>DE POENA PRIMI PECCATI
+          <lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2119-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de poena primi 
+          <lb ed="#L" n="5"/>peccati . 
+          <lb ed="#L" n="6"/>Et circa hoc quaeruntur duo. 
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="7"/>Primo: de morte, quae est poena communis. ei
+          <lb ed="#L" n="8"/>Secundo: de aliis particularibus poenis quae
+          <lb ed="#L" n="9"/>in Genesi assignantur.
+        </p>
+        <div xml:id="TAca84-d1e2119-Dd1e139"><!-- p2p2-q164a1 -->
+          <head xml:id="TAca84-d1e2119-Hd1e142">Articulus 1</head>
+          <head xml:id="TAca84-d1e2119-Hd1e144" type="question-title">Utrum mors sit poena peccati primorum parentum</head>
+          <p xml:id="TAca84-d1e2119-d1e147">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="10" type="fixed=334"/>ARTICULUS PRIMUS  
+            <lb ed="#L" n="11"/>UTRUM MORS SIT POENA PECCATI PRIMORUM PARENTUM
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e156">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="12"/>AD PRIMUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="13"/>mors non sit poena peccati primorum  
+            <lb ed="#L" n="14"/>parentum. Illud enim quod est homini  
+            <lb ed="#L" n="15"/>naturale, non potest dici poena peccati:  
+            <lb ed="#L" n="16"/>quia peccatum non perficit naturam, sed vitiat. 
+            <lb ed="#L" n="17"/>Mors autem est homini naturalis: quod patet ex 
+            <lb ed="#L" n="18"/>hoc quod corpus eius ex contrariis componitur; 
+            <lb ed="#L" n="19"/>et ex hoc etiam quod rmoríale ponitur in 
+            defi<lb break="no" ed="#L" n="20"/>nitione hominis . Ergo mors non est poena 
+            pec<lb break="no" ed="#L" n="21"/>cati primorum parentum. 
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e182">
+            <lb ed="#L" n="22"/>2. PRAETEREA, mors et alii corporales defectus 
+            <lb ed="#L" n="23"/>similiter inveniuntur in homine sicut et in aliis 
+            <lb ed="#L" n="24"/>animalibus: secundum illud Eccle. ut : Unus 
+            in<lb break="no" ed="#L" n="25"/>teritus est hominis et iumentorum, et aequa 
+            utrius<lb break="no" ed="#L" n="26"/>que conditio. Sed in animalibus brutis mors non 
+            <lb ed="#L" n="27"/>est poena peccati. Ergo etiam neque in 
+            homi<lb break="no" ed="#L" n="28"/>nibus. 
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e201">
+            <lb ed="#L" n="29"/>3. PRAETEREA, peccatum primorum parentum 
+            <lb ed="#L" n="30"/>fuit specialium personarum. Sed mors 
+            consequi<lb break="no" ed="#L" n="31"/>tur totam humanam naturam. Ergo non videtur 
+            <lb ed="#L" n="32"/>esse poena peccati primorum parentum.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e212">
+            <lb ed="#L" n="33"/>4. PRAETEREA, omnes aequaliter derivantur a 
+            <lb ed="#L" n="34"/>primis parentibus. Si igitur mors esset poena  
+            <lb ed="#L" n="35"/>peccati primorum parentum, sequeretur quod 
+            <lb ed="#L" n="36"/>omnes homines aequaliter mortem paterentur. 
+            <lb ed="#L" n="37"/>Quod patet esse falsum: quia quidam citius aliis,  
+            <lb ed="#L" n="38"/>et gravius moriuntur. Ergo mors non est poena  
+            <lb ed="#L" n="39"/>primi peccati. 
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e230">
+            <lb ed="#L" n="40"/>5. PRAETEREA, malum poenae est a Deo, ut 
+            <lb ed="#L" n="41"/>supra  habitum est. Sed mors non videtur esse  
+            <lb ed="#L" n="42"/>a Deo: dicitur enim Sap. 1, quod Deus 
+            mor<lb break="no" ed="#L" n="43"/>lem non fecit. Ergo mors non est poena primi  
+            <lb ed="#L" n="44"/>peccati. 
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e243">
+            <lb ed="#L" n="45"/>6. PRAETEREA, poenae non videntur esse 
+            me<lb break="no" ed="#L" n="46"/>ritoriae: iam meritum continetur sub bono, poena 
+            <lb ed="#L" n="47"/>autem sub malo. Sed mors quandoque est 
+            me<lb break="no" ed="#L" n="48"/>ritoria: sicut patet de morte martyrum. Ergo 
+            vi<lb break="no" ed="#L" n="49"/>detur quod mors non sit poena. 
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e256">
+            <lb ed="#L" n="50"/>7. PRAETEREA, poena videtur esse afflictiva. Sed  
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="51"/>mors non potest esse afflictiva, ut videtur: quia
+            <lb ed="#L" n="52"/>quando mors  est, homo non sentit; quando a
+            <lb ed="#L" n="53"/>autem non est, sentiri non potest. Ergo mors
+            <lb ed="#L" n="54"/>non est poena peccati.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e272">
+            <lb ed="#L" n="55"/>8. PRAETEREA, si mors esset poena peccati, 
+            sta<lb break="no" ed="#L" n="56"/>tim fuisset ad peccatum consecuta. Sed hoc non
+            <lb ed="#L" n="57"/>est verum: nam primi parentes post peccatum
+            <lb ed="#L" n="58"/>diu vixerunt, ut patet Gen. iv . Ergo mors non 
+            <lb ed="#L" n="59"/>videtur esse poena peccati.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e286">
+            <lb ed="#L" n="60"/>SED CONTRA EST quod Apostolus dicit, Rom. v:  Vers v
+            <lb ed="#L" n="61"/>Per unum hominem peccatum in hunc mundum
+            <lb ed="#L" n="62"/>intravit, et per peccatum mors.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e295">
+            <lb ed="#L" n="63"/>RESPONDEO DICENDUM quod, si aliquis propter
+            <lb ed="#L" n="64"/>culpam suam privetur aliquo beneficio sibi dato,
+            <lb ed="#L" n="65"/>carentia illius beneficii est poena culpae illius.
+            <lb ed="#L" n="66"/>Sicut autem in Primo  dictum est, homini in  
+            <lb ed="#L" n="67"/>prima sui institutione hoc beneficium fuit 
+            colla<lb break="no" ed="#L" n="68"/>tum divinitus, ut quandiu mens eius esset Deo
+            <lb ed="#L" n="69"/>subiecta, inferiores vires animae subiicerentur 
+            ra<lb break="no" ed="#L" n="70"/>tionali menti, et corpus animae subiiceretur. Sed
+            <lb ed="#L" n="71"/>quia mens hominis per peccatum a divina 
+            sub<lb break="no" ed="#L" n="72"/>iectione recessit, consecutum est ut nec 
+            infe<lb break="no" ed="#L" n="73"/>riores vires totaliter rationi subiicerentur, unde
+            <lb ed="#L" n="74"/>tanta  est rebellio carnalis appetitus ad rationem; 
+            <lb ed="#L" n="75"/>nec etiam corpus totaliter subiiceretur animae,
+            <lb ed="#L" n="76"/>unde consequitur mors, et alii corporales defectus.
+            <lb ed="#L" n="77"/>Vita enim et incolumitas corporis consistit in hoc
+            <lb ed="#L" n="78"/>quod subiiciatur animae, sicut perfectibile suae
+            <lb ed="#L" n="79"/>perfectioni: unde, per oppositum, mors et 
+            aegri<lb break="no" ed="#L" n="80"/>tudo, et quilibet corporalis defectus, pertinet ad
+            <lb ed="#L" n="81"/>defectum subiectionis corporis ad animam. Unde
+            <lb ed="#L" n="82"/>patet quod, sicut rebellio carnalis appetitus ad
+            <lb ed="#L" n="83"/>spiritum est poena peccati primorum parentum,
+            <lb ed="#L" n="84"/>ita etiam et mors et omnes corporales defectus.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e345">
+            <lb ed="#L" n="85"/>AD PRIMUM ERGO DICENDUM quod naturale dicitur
+            <lb ed="#L" n="86"/>quod ex principiis naturae causatur. Naturae 
+            au<lb break="no" ed="#L" n="87"/>tem per se principia sunt forma et materia. 
+            For<lb break="no" ed="#L" n="88"/>ma autem hominis est anima rationalis, quae de
+            <lb ed="#L" n="89"/>se est immortalis. Et ideo mors non est natu-
+            <pb ed="#L" n="335"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>ralis homini ex parte suae formae. Materia 
+            au<lb break="no" ed="#L" n="2"/>tem hominis est corpus tale quod est ex 
+            con<lb break="no" ed="#L" n="3"/>trariis compositum: ad quod sequitur ex 
+            neces<lb break="no" ed="#L" n="4"/>sitate corruptibilitas. Et quantum ad hoc, mors
+            <lb ed="#L" n="5"/>est homini naturalis. Haec tamen  conditio in
+            <lb ed="#L" n="6"/>materia humani corporis est consequens ex 
+            ne<lb break="no" ed="#L" n="7"/>cessitate materiae: quia oportebat corpus 
+            huma<lb break="no" ed="#L" n="8"/>num esse organum tactus, et per consequens
+            <lb ed="#L" n="9"/>medium inter tangibilia; et hoc non poterat esse
+            <lb ed="#L" n="10"/>nisi esset ex contrariis compositum, ut patet per
+            <lb ed="#L" n="11"/>Philosophum, in II de Anima . Non autem est
+            <lb ed="#L" n="12"/>conditio secundum quam materia adaptetur 
+            for<lb break="no" ed="#L" n="13"/>mae: quia, si esset possibile, cum forma sit 
+            in<lb break="no" ed="#L" n="14"/>corruptibilis, potius oporteret materiam 
+            incorru<lb break="no" ed="#L" n="15"/>ptibilem esse. Sicut quod serra sit ferrea, 
+            com<lb break="no" ed="#L" n="16"/>petit formae et actioni ipsius, ut per duritiem
+            <lb ed="#L" n="17"/>sit apta ad secandum: sed quod sit potens 
+            ru<lb break="no" ed="#L" n="18"/>biginem contrahere, consequitur ex necessitate
+            <lb ed="#L" n="19"/>talis materiae, et non secundum electionem 
+            agen<lb break="no" ed="#L" n="20"/>tis; nam si artifex posset, faceret ex ferro 
+            ser<lb break="no" ed="#L" n="21"/>ram quae rubiginem non posset contrahere. Deus
+            <lb ed="#L" n="22"/>autem, qui est conditor hominis, omnipotens est.
+            <lb ed="#L" n="23"/>Unde ademit suo beneficio ab homine primitus
+            <lb ed="#L" n="24"/>instituto necessitatem moriendi ex tali materia
+            <lb ed="#L" n="25"/>consequentem. Quod tamen beneficium 
+            subtra<lb break="no" ed="#L" n="26"/>ctum est per peccatum primorum parentum. Et
+            <lb ed="#L" n="27"/>sic mors et est naturalis, propter conditionem
+            <lb ed="#L" n="28"/>materiae: et est poenalis, propter amissionem
+            <lb ed="#L" n="29"/>divini beneficii praeservantis a morte.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e426">
+            <lb ed="#L" n="30"/>AD SECUNDUM DICENDUM quod similitudo illa 
+            ho<lb break="no" ed="#L" n="31"/>minis ad alia animalia attenditur quantum ad
+            <lb ed="#L" n="32"/>conditionem materiae, idest quantum ad corpus
+            <lb ed="#L" n="33"/>ex contrariis compositum: non autem quantum
+            <lb ed="#L" n="34"/>ad formam. Nam anima hominis est immortalis:
+            <lb ed="#L" n="35"/>brutorum vero animalium animae sunt mortales.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e442">
+            <lb ed="#L" n="36"/>AD TERTIUM DICENDUM quod primi parentes 
+            fue<lb break="no" ed="#L" n="37"/>runt instituti a Deo non solum sicut quaedam
+            <lb ed="#L" n="38"/>personae singulares, sed sicut quaedam principia
+            <lb ed="#L" n="39"/>totius humanae naturae ab eis in posteros 
+            deri<lb break="no" ed="#L" n="40"/>vandae simul cum beneficio divino praeservante
+            <lb ed="#L" n="41"/>a morte. Et ideo per eorum peccatum tota 
+            hu<lb break="no" ed="#L" n="42"/>mana natura in posteris tali beneficio destituta,
+            <lb ed="#L" n="43"/>mortem incurrit.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e462">
+            <lb ed="#L" n="44"/>AD QUARTUM DICENDUM quod aliquis defectus
+            <lb ed="#L" n="45"/>ex peccato consequitur dupliciter. Uno modo, per
+            <lb ed="#L" n="46"/>modum poenae taxatae a iudice. Et talis defectus
+            <lb ed="#L" n="47"/>aequalis. debet esse in his ad quos aequaliter
+            <lb ed="#L" n="48"/>pertinet peccatum. - Alius autem defectus est
+            <lb ed="#L" n="49"/>qui ex huiusmodi poena per accidens 
+            consequi<lb break="no" ed="#L" n="50"/>tur: sicut quod aliquis pro sua culpa excaecatus,
+            <lb ed="#L" n="51"/>cadat in via. Et talis defectus culpae non 
+            pro<lb break="no" ed="#L" n="52"/>portionatur: nec ab homine iudice pensatur, qui
+            <lb ed="#L" n="53"/>non potest fortuitos eventus praecognoscere.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e487">
+            <lb ed="#L" n="54"/>Sic igitur poena taxata pro primo peccato, 
+            pro<lb break="no" ed="#L" n="55"/>portionaliter ei respondens, fuit subtractio divini
+            <lb ed="#L" n="56"/>beneficii quo rectitudo et integritas humanae 
+            na<lb break="no" ed="#L" n="57"/>turae conservabatur. Defectus autem 
+            consequen<lb break="no" ed="#L" n="58"/>tes subtractionem huius beneficii, sunt mors et
+            <lb ed="#L" n="59"/>aliae poenalitates praesentis vitae, Et ideo non
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="60"/>oportet huiusmodi poenas aequales esse in his
+            <lb ed="#L" n="61"/>ad quos aequaliter pertinet primum peccatum.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e509">
+            <lb ed="#L" n="62"/>Verum quia Deus praescius est omnium 
+            futu<lb break="no" ed="#L" n="63"/>rorum eventuum, ex dispensatione divinae  
+            pro<lb break="no" ed="#L" n="64"/>videntiae huiusmodi poenalitates diversimode in
+            <lb ed="#L" n="65"/>diversis inveniuntur: non quidem propter aliqua
+            <lb ed="#L" n="66"/>merita praecedentia hanc vitam, ut Origenes 
+            po<lb break="no" ed="#L" n="67"/>suit  (hoc enim est contra id quod dicitur Rom.
+            <lb ed="#L" n="68"/>ix : Cum nondum aliquid boni aut mali egissent;
+            <lb ed="#L" n="69"/>est etiam contra hoc quod in Primo  ostensum
+            <lb ed="#L" n="70"/>est, quod anima non est creata ante corpus);
+            <lb ed="#L" n="71"/>sed vel in poenam paternorum peccatorum, 
+            in<lb break="no" ed="#L" n="72"/>quantum filius est quaedam res patris, unde 
+            fre<lb break="no" ed="#L" n="73"/>quenter parentes puniuntur in prole; vel etiam
+            <lb ed="#L" n="74"/>propter remedium salutis eius qui huiusmodi 
+            poe<lb break="no" ed="#L" n="75"/>nalitatibus subditur, ut scilicet per hoc a peccatis
+            <lb ed="#L" n="76"/>arceatur, vel etiam de virtutibus non superbiat,
+            <lb ed="#L" n="77"/>et per patientiam coronetur.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e546">
+            <lb ed="#L" n="78"/>AD QUINTUM DICENDUM quod mors dupliciter 
+            pot<lb break="no" ed="#L" n="79"/>est considerari. Uno modo, secundum quod est
+            <lb ed="#L" n="80"/>quoddam malum humanae naturae. Et sic non
+            <lb ed="#L" n="81"/>est ex Deo, sed est defectus quidam incidens ex
+            <lb ed="#L" n="82"/>culpa humana. - Alio modo potest considerari
+            <lb ed="#L" n="83"/>secundum quod habet quandam rationem boni,
+            <lb ed="#L" n="84"/>prout scilicet est quaedam iusta poena. Et sic est
+            <lb ed="#L" n="85"/>a Deo. Unde Augustinus dicit, in libro 
+            Aetra<lb break="no" ed="#L" n="86"/>ctat., quod Deus non est auctor mortis, nisi
+            <lb ed="#L" n="87"/>inquantum est ? poena.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e570">
+            <lb ed="#L" n="88"/>AD SEXTUM DICENDUM quod, sicut Augustinus 
+            di<lb break="no" ed="#L" n="89"/>cit, XIII de Civ. Dei , quemadmodam iniusti male
+            <lb ed="#L" n="90"/>utuntur non lantum malis, verum etiam bonis;
+            <lb ed="#L" n="91"/>ita iusti bene utuntur non tantum bonis, sed etiam
+            <lb ed="#L" n="92"/>malis. Hinc fit ut et mali male lege utantur,
+            <lb ed="#L" n="93"/>quamvis sit lex bonum: et boni bene moriantur,
+            <lb ed="#L" n="94"/>quamvis sit mors malum. Inquantum igitur sancti
+            <lb ed="#L" n="95"/>bene morte utuntur, fit eis mors ? meritoria.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e590">
+            <lb ed="#L" n="96"/>AD SEPTIMUM DICENDUM quod mors dupliciter
+            <lb ed="#L" n="97"/>accipi potest. Uno modo, pro ipsa privatione
+            <lb ed="#L" n="98"/>vitae. Et sic mors sentiri non potest: cum sit
+            <lb ed="#L" n="99"/>privatio sensus et vitae. Et sic non est poena
+            <lb ed="#L" n="100"/>sensus, sed poena damni.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e603">
+            <lb ed="#L" n="101"/>Alio modo, secundum quod nominat ipsam
+            <lb ed="#L" n="102"/>corruptionem quae terminatur ad privationem
+            <lb ed="#L" n="103"/>praedictam. De corruptione autem, sicut et de
+            <lb ed="#L" n="104"/>generatione, dupliciter loqui possumus. Uno 
+            mo<lb break="no" ed="#L" n="105"/>do, secundum quod est terminus alterationis. Et
+            <lb ed="#L" n="106"/>sic in ipso instanti in quo primo privatur vita,
+            <lb ed="#L" n="107"/>dicitur inesse mors. Et secundum hoc etiam,
+            <lb ed="#L" n="108"/>mors non est poena sensus. - Alio modo 
+            cor<lb break="no" ed="#L" n="109"/>ruptio potest accipi cum alteratione praecedente:
+            <lb ed="#L" n="110"/>prout dicitur aliquis mori dum movetur in 
+            mor<lb break="no" ed="#L" n="111"/>tem; sicut dicitur aliquid generari dum movetur
+            <lb ed="#L" n="112"/>in generatum esse. Et sic mors potest esse 
+            af<lb break="no" ed="#L" n="113"/>flictiva.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e635">
+            <lb ed="#L" n="114"/>AD OCTAVUM DICENDUM quod, sicut Augustinus
+            <lb ed="#L" n="115"/>dicit, super Gen. ad litt. , quamvis annos multos
+            <lb ed="#L" n="116"/>primi parentes postea vixerint, illo tamen die
+            <lb ed="#L" n="117"/>mori coeperunt quo mortis legem, qua in senium
+            <lb ed="#L" n="118"/>vetrerascerent, acceperunt.
+          </p>
+        </div>
+        <!-- no commentary -->
+        <div xml:id="TAca84-d1e2119-Dd1e652"><!-- p2p2-q164a2 -->
+          <head xml:id="TAca84-d1e2119-Hd1e655">Articulus 2</head>
+          <head xml:id="TAca84-d1e2119-Hd1e657" type="question-title">Utrum convenienter particulares poenae primorum parentum determinentur in scriptura</head>
+          <p xml:id="TAca84-d1e2119-d1e660">
+            <pb ed="#L" n="336"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=336"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="2"/>UTRUM CONVENIENTER PARTICULARES POENAE PRIMORUM PARENTUM
+            <lb ed="#L" n="3"/>DETERMINENTUR IN SCRIPTURA
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e673">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="4"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="5"/>inconvenienter particulares poenae 
+            pri<lb break="no" ed="#L" n="6"/>morum parentum determinentur in 
+            Scri<lb break="no" ed="#L" n="7"/>ptura  Non enim debet assignari ut
+            <lb ed="#L" n="8"/>poena peccati id quod etiam sine peccato esset.
+            <lb ed="#L" n="9"/>Sed dolor in pariendo esset, ut videtur, etiam
+            <lb ed="#L" n="10"/>sine peccato: hoc enim requirit dispositio 
+            femi<lb break="no" ed="#L" n="11"/>nei sexus, ut proles nasci non possit sine dolore
+            <lb ed="#L" n="12"/>parientis. Similiter etiam subiectio mulieris ad
+            <lb ed="#L" n="13"/>virum consequitur perfectionem virilis sexus et
+            <lb ed="#L" n="14"/>imperfectionem muliebris. Germinatio etiam 
+            spi<lb break="no" ed="#L" n="15"/>narum et tribulorum ad naturam terrae pertinet,
+            <lb ed="#L" n="16"/>quae fuisset etiam sine peccato. Non ergo 
+            hu<lb break="no" ed="#L" n="17"/>iusmodi sunt convenientes poenae primi peccati.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e708">
+            <lb ed="#L" n="18"/>2. PRAETEREA, illud quod pertinet ad dignitatem
+            <lb ed="#L" n="19"/>alicuius, non videtur ad poenam eius pertinere.
+            <lb ed="#L" n="20"/>Sed multiplicatio conceptus pertinet ad dignitatem
+            <lb ed="#L" n="21"/>mulieris. Ergo non debet poni quasi mulieris
+            <lb ed="#L" n="22"/>poena.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e722">
+            <lb ed="#L" n="23"/>3. PRAETEREA, poena peccati primorum 
+            paren<lb break="no" ed="#L" n="24"/>tum ad omnes derivatur: sicut de morte dictum
+            <lb ed="#L" n="25"/>est . Sed non omnium mulierum multiplicantur
+            <lb ed="#L" n="26"/>conceptus, nec omnes viri in sudore vultus sui
+            <lb ed="#L" n="27"/>pane vescuntur. Non ergo ista  sunt 
+            convenien<lb break="no" ed="#L" n="28"/>tes poenae primi peccati.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e738">
+            <lb ed="#L" n="29"/>4. PRAETEREA, locus Paradisi propter hominem
+            <lb ed="#L" n="30"/>factus erat . Sed nihil debet esse frustra in 
+            re<lb break="no" ed="#L" n="31"/>rum ordine. Ergo videtur quod non fuerit 
+            con<lb break="no" ed="#L" n="32"/>veniens hominis poena quod a Paradiso 
+            exclu<lb break="no" ed="#L" n="33"/>deretur.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e751">
+            <lb ed="#L" n="34"/>5. PRAETEREA, locus ille Paradisi terrestris de
+            <lb ed="#L" n="35"/>se dicitur esse inaccessibilis . Frustra ergo 
+            ap<lb break="no" ed="#L" n="36"/>posita sunt alia impedimenta, ne homo illuc 
+            re<lb break="no" ed="#L" n="37"/>verteretur: scilicet Cherubin et gladius flammeus
+            <lb ed="#L" n="38"/>atque versatilis.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e764">
+            <lb ed="#L" n="39"/>6. PRAETEREA, homo post peccatum statim 
+            ne<lb break="no" ed="#L" n="40"/>cessitati mortis fuit addictus: et ita beneficio ligni
+            <lb ed="#L" n="41"/>vitae non poterat ad immortalitatem reparari.
+            <lb ed="#L" n="42"/>Frustra ergo ei esus ligni vitae interdicitur, cum
+            <lb ed="#L" n="43"/>dicitur Gen. ui : Videte ?, ne forte sumat de ligno
+            <lb ed="#L" n="44"/>vitae, et vivat in aeternum.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e780">
+            <lb ed="#L" n="45"/>7. PRAETEREA, insultare misero videtur 
+            mise<lb break="no" ed="#L" n="46"/>ricordiae et clementiae repugnare, quae maxime
+            <lb ed="#L" n="47"/>in Scriptura Deo attribuitur, secundum illud
+            <lb ed="#L" n="48"/>Psalmi : AMiserationes eius super omnia opera
+            <lb ed="#L" n="49"/>eius. Ergo inconvenienter ponitur Dominum 
+            in<lb break="no" ed="#L" n="50"/>sultasse primis parentibus per peccatum iam in
+            <lb ed="#L" n="51"/>miseriam deductis, ubi dicitur: Ecce, Adam
+            <lb ed="#L" n="52"/>quasi unus ex nobis factus est, sciens bonum et
+            <lb ed="#L" n="53"/>malum.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e802">
+            <lb ed="#L" n="54"/>8. PRAETEREA, vestitus ad necessitatem hominis
+            <lb ed="#L" n="55"/>pertinet, sicut et cibus: secundum illud I ad 7zm.
+            <lb ed="#L" n="56"/>ult.: Habentes alimenia et quibus tegamur, his
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="57"/>contenti sumus. Ergo, sicut cibus Bonis 
+            paren<lb break="no" ed="#L" n="58"/>tibus fuit attributus ante peccatum , ita etiam et
+            <lb ed="#L" n="59"/>vestitus attribui debuit. Inconvenienter ergo post
+            <lb ed="#L" n="60"/>peccatum dicitur eis Deus /unicas pelliceas 
+            fe<lb break="no" ed="#L" n="61"/>cisse.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e825">
+            <lb ed="#L" n="62"/>9. PRAETEREA, poena quae peccato alicui 
+            adhi<lb break="no" ed="#L" n="63"/>betur, debet plus habere in malo quam 
+            emolu<lb break="no" ed="#L" n="64"/>mentum quod quis ex peccato consequitur: 
+            alio<lb break="no" ed="#L" n="65"/>quin, per poenam non deterreretur aliquis a 
+            pec<lb break="no" ed="#L" n="66"/>cato. Sed primi parentes ex peccato consecuti
+            <lb ed="#L" n="67"/>sunt quod eorum oculi aperirentur, ut dicitur
+            <lb ed="#L" n="68"/>Gen.11. Hoc autem praeponderat in bono 
+            omni<lb break="no" ed="#L" n="69"/>bus malis poenalibus quae ponuntur ex peccato
+            <lb ed="#L" n="70"/>consecuta. [nconvenienter igitur describuntur 
+            poe<lb break="no" ed="#L" n="71"/>nae peccatum primorum parentum consequentes,
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e849">
+            <lb ed="#L" n="72"/>IN CONTRARIUM EST quod huiusmodi poenae sunt
+            <lb ed="#L" n="73"/>divinitus taxatae : qui omnia facit in numero,
+            <lb ed="#L" n="74"/>pondere et mensura, ut dicitur Sap. xi .
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e858">
+            <lb ed="#L" n="75"/>RESPONDEO DICENDUM quod, sicut dictum est ,
+            <lb ed="#L" n="76"/>primi parentes propter.suum peccatum privati
+            <lb ed="#L" n="77"/>sunt beneficio divino quo humanae naturae 
+            in<lb break="no" ed="#L" n="78"/>tegritas in eis conservabatur, per cuius 
+            subtra<lb break="no" ed="#L" n="79"/>ctionem humana natura in defectus poenales 
+            inci<lb break="no" ed="#L" n="80"/>dit. Et ideo dupliciter puniti fuerunt. Primo 
+            qui<lb break="no" ed="#L" n="81"/>dem, quantum ad hoc quod subtractum fuit eis
+            <lb ed="#L" n="82"/>id quod integritatis statui competebat, scilicet 
+            lo<lb break="no" ed="#L" n="83"/>cus terrestris Paradisi: quod significatur Gen. im ,
+            <lb ed="#L" n="84"/>cum dicitur: Et emisit eum Deus de Paradiso 
+            vo<lb break="no" ed="#L" n="85"/>luptatis. Et quia ad illum statum primae inno-.
+            <lb ed="#L" n="86"/>centiae per seipsum redire non poterat, 
+            conve<lb break="no" ed="#L" n="87"/>nienter apposita sunt impedimenta ne rediret
+            <lb ed="#L" n="88"/>ad ea quae primo statui competebant: scilicet. a
+            <lb ed="#L" n="89"/>cibo, ne sumeret de ligno vitae; et a loco: 
+            Col<lb break="no" ed="#L" n="90"/>locavit? Deus ante Paradisum Cherubin et 
+            flam<lb break="no" ed="#L" n="91"/>meum gladium.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e897">
+            <lb ed="#L" n="92"/>Secundo autem puniti fuerunt quantum ad hoc
+            <lb ed="#L" n="93"/>quod attributa sunt eis ea quae naturae 
+            conve<lb break="no" ed="#L" n="94"/>niunt tali beneficio destitutae. Et hoc quidem et
+            <lb ed="#L" n="95"/>quantum ad corpus, et quantum ad animam.
+            <lb ed="#L" n="96"/>Quantum quidem ad corpus, ad quod pertinet
+            <lb ed="#L" n="97"/>differentia sexus, alia poena attributa est mulieri,
+            <lb ed="#L" n="98"/>alia viro. Mulieri quidem attributa est poena 
+            se<lb break="no" ed="#L" n="99"/>cundum duo propter quae viro coniungitur: quae
+            <lb ed="#L" n="100"/>sunt generatio prolis, et communicatio operum
+            <lb ed="#L" n="101"/>pertinentium ad domesticam conversationem.
+            <lb ed="#L" n="102"/>Quantum autem ad generationem prolis, punita
+            <lb ed="#L" n="103"/>fuit dupliciter. Primo quidem, quantum ad taedia
+            <lb ed="#L" n="104"/>quae sustinet portando prolem conceptam: et
+            <lb ed="#L" n="105"/>hoc significatur cum dicitur: AMultiplicabo 
+            aeru<lb break="no" ed="#L" n="106"/>mnas tuas et conceptus tuos. Et quantum ad 
+            do<lb break="no" ed="#L" n="107"/>lorem quem patitur in pariendo: et quantum ad
+            <lb ed="#L" n="108"/>hoc dicitur: Zn dolore paries. Quantum vero
+            <lb ed="#L" n="109"/>ad domesticam conversationem, punitur secun-
+            <pb ed="#L" n="337"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>dum hoc quod subiicitur dominationi viri, per 
+            <lb ed="#L" n="2"/>hoc quod dicitur: Sub viri potestate eris. — Sicut 
+            <lb ed="#L" n="3"/>autem ad mulierem pertinet ut subdatur viro in 
+            <lb ed="#L" n="4"/>his quae ad domesticam conversationem 
+            perti<lb break="no" ed="#L" n="5"/>nent, ita ad virum pertinet quod necessaria vitae 
+            <lb ed="#L" n="6"/>procuret. Et circa hoc punitur tripliciter. Primo
+            <lb ed="#L" n="7"/>quidem, per terrae sterilitatem, cum dicitur: 
+            <lb ed="#L" n="8"/>Maledicta terra in opere tuo. Secundo, per 
+            la<lb break="no" ed="#L" n="9"/>boris anxietatem, sine qua fructus terrae non 
+            <lb ed="#L" n="10"/>percipit: unde dicitur: In labore comedes de ea
+            <lb ed="#L" n="11"/>impedimenta quae proveniunt terram colentibus:
+            <lb ed="#L" n="12"/>unde dicitur: Spinas et tribulos germinabit tibi.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e969">
+            <lb ed="#L" n="13"/>Similiter etiam ex parte animae triplex eorum
+            <lb ed="#L" n="14"/>poena describitur. Primo quidem, quantum ad 
+            <lb ed="#L" n="15"/>confusionem quam passi sunt de rebellione 
+            car<lb break="no" ed="#L" n="16"/>nis ad spiritum: unde dicitur : Aperti sunt oculi
+            <lb ed="#L" n="17"/>amborum, et cognoverunt se esse nudos. — 
+            Se<lb break="no" ed="#L" n="18"/>cundo, quantum ad increpationem propriae 
+            cul<lb break="no" ed="#L" n="19"/>pae: per hoc quod dicitur: Ecce, Adam factus
+            <lb ed="#L" n="20"/>est quasi unus ex nobis. - Tertio, quantum ad
+            <lb ed="#L" n="21"/>commemorationem futurae mortis: secundum
+            <lb ed="#L" n="22"/>quod ei dictum est: Pulvis es, et in pulverem
+            <lb ed="#L" n="23"/>reverteris. Ad quod etiam pertinet quod Deus
+            <lb ed="#L" n="24"/>fecit eis tunicas pelliceas, in signum mortalitatis 
+            <lb ed="#L" n="25"/>eorum.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e1000">
+            <lb ed="#L" n="26"/>AD PRIMUM ERGO DICENDUM quod in statu 
+            inno<lb break="no" ed="#L" n="27"/>centiae fuisset partus absque dolore. Dicit enim 
+            <lb ed="#L" n="28"/>Augustinus, XIV de Civ. Dei : Sic ad 
+            parien<lb break="no" ed="#L" n="29"/>dum non doloris gemitus, sed maturitatis impulsus 
+            <lb ed="#L" n="30"/>feminea viscera relaxaret, sicut ad concipiendum
+            <lb ed="#L" n="31"/>non libidinis appetitus, sed voluntarius usus 
+            natu<lb break="no" ed="#L" n="32"/>ram utramque coniungeret.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e1019">
+            <lb ed="#L" n="33"/>Subiectio autem mulieris ad virum intelligenda
+            <lb ed="#L" n="34"/>est in poenam mulieris esse inducta, non 
+            quan<lb break="no" ed="#L" n="35"/>tum ad regimen, quia etiam ante peccatum vir
+            <lb ed="#L" n="36"/>caput mulieris  fuisset et eius gubernator 
+            exi<lb break="no" ed="#L" n="37"/>steret : sed prout mulier, contra propriam 
+            vo<lb break="no" ed="#L" n="38"/>luntatem, necesse ^ habet viri voluntati parere. 
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e1035">
+            <lb ed="#L" n="39"/>Spinas autem et tribulos terra germinasset, si
+            <lb ed="#L" n="40"/>homo non peccasset, in cibum animalium, non
+            <lb ed="#L" n="41"/>autem in hominis poenam: quia scilicet per 
+            eo<lb break="no" ed="#L" n="42"/>rum exortum nullus labor aut punctio  homini
+            <lb ed="#L" n="43"/>operanti in terra accideret, ut Augustinus dicit,
+            <lb ed="#L" n="44"/>super Gen. ad litt.  Quamvis Alcuinus dicat 
+            <lb ed="#L" n="45"/>quod ante peccatum terra omnino spinas et 
+            tri<lb break="no" ed="#L" n="46"/>bulos non germinasset. Sed primum melius est.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e1055">
+            <lb ed="#L" n="47"/>AD SECUNDUM DICENDUM quod multitudo 
+            conce<lb break="no" ed="#L" n="48"/>ptuum inducitur in poenam mulieris, non 
+            pro<lb break="no" ed="#L" n="49"/>pter ipsam procreationem prolis, quae etiam ante
+            <lb ed="#L" n="50"/>peccatum fuisset: sed propter multitudinem 
+            affli<lb break="no" ed="#L" n="51"/>ctionum, quae  mulier patitur ex hoc quod 
+            por<lb break="no" ed="#L" n="52"/>tat fetum conceptum. Unde signanter 
+            coniun<lb break="no" ed="#L" n="53"/>gitur: Multiplicabo aerumas tuas et conceptus
+            <lb ed="#L" n="54"/>tuos.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e1075">
+            <lb ed="#L" n="55"/>AD TERTIUM DICENDUM quod illae poenae 
+            ali<lb break="no" ed="#L" n="56"/>qualiter ad omnes pertinent. Quaecumque enim
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="57"/>mulier concipit, necesse est quod aerumnas 
+            pa<lb break="no" ed="#L" n="58"/>tiatur et cum dolore pariat: praeter Beatam 
+            Vir<lb break="no" ed="#L" n="59"/>ginem, quae sine corruptione concepit et sine 
+            do<lb break="no" ed="#L" n="60"/>lore peperit , quia eius conceptio  non fuit 
+            se<lb break="no" ed="#L" n="61"/>cundum legem naturae a primis parentibus 
+            de<lb break="no" ed="#L" n="62"/>rivata. Si autem aliqua non concipit neque parit,
+            <lb ed="#L" n="63"/>patitur sterilitatis defectum: qui praeponderat
+            <lb ed="#L" n="64"/>poenis praedictis.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e1101">
+            <lb ed="#L" n="65"/>Similiter etiam oportet ut quicumque terram
+            <lb ed="#L" n="66"/>operatur, in sudore vultus comedat panem. Et
+            <lb ed="#L" n="67"/>cunctis diebus vilae tuae. Tertio, quantum ad 
+            <lb ed="#L" n="68"/>qui ipsi per se agriculturam non exercent, in
+            <lb ed="#L" n="69"/>aliis laboribus occupantur, homo enim nascitur
+            <lb ed="#L" n="70"/>ad laborem, ut dicitur Job v : et sic panem ab
+            <lb ed="#L" n="71"/>alis in sudore vultus elaboratum manducant.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e1119">
+            <lb ed="#L" n="72"/>AD QUARTUM DICENDUM quod locus ille 
+            Para<lb break="no" ed="#L" n="73"/>disi terrestris, quamvis non serviat homini ad
+            <lb ed="#L" n="74"/>usum, servit tamen ei ad documentum: dum 
+            co<lb break="no" ed="#L" n="75"/>gnoscit propter peccatum se tali loco fuisse 
+            pri<lb break="no" ed="#L" n="76"/>vatum; et dum per ea quae corporaliter in illo
+            <lb ed="#L" n="77"/>Paradiso sunt , instruuntur  de his quae 
+            perti<lb break="no" ed="#L" n="78"/>nent ad Paradisum caelestem, quo aditus homini
+            <lb ed="#L" n="79"/>praeparatur per Christum.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e1140">
+            <lb ed="#L" n="80"/>AD QUINTUM DICENDUM quod, salvis spiritualis
+            <lb ed="#L" n="81"/>sensus mysteriis, locus ille praecipue videtur esse
+            <lb ed="#L" n="82"/>inaccessibilis propter vehementiam aestus in locis
+            <lb ed="#L" n="83"/>intermediis ex propinquitate solis. Et hoc 
+            signi<lb break="no" ed="#L" n="84"/>ficatur per flammeum gladium: qui versatilis 
+            di<lb break="no" ed="#L" n="85"/>citur, propter proprietatem motus circularis 
+            hu<lb break="no" ed="#L" n="86"/>iusmodi aestum causantis. Et quia motus 
+            corpo<lb break="no" ed="#L" n="87"/>ralis creaturae disponitur ministerio angelorum,
+            <lb ed="#L" n="88"/>ut patet per Augustinum, III de Z7rin. ; 
+            conve<lb break="no" ed="#L" n="89"/>nienter etiam simul cum gladio versatili Cherubin
+            <lb ed="#L" n="90"/>adiungitur, ad custodiendam viam ligni vitae.
+            <lb ed="#L" n="91"/>Unde Augustinus dicit, XI super Gen. ad litt. :
+            <lb ed="#L" n="92"/>Hoc per caelestes potestates etiam in Paradiso
+            <lb ed="#L" n="93"/>visibili factum esse credendum est, ut per 
+            ange<lb break="no" ed="#L" n="94"/>licum ministerium esset ilic quaedam ignea 
+            cu<lb break="no" ed="#L" n="95"/>stodia.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e1177">
+            <lb ed="#L" n="96"/>AD SEXTUM DICENDUM quod homo, si post 
+            pec<lb break="no" ed="#L" n="97"/>catum de ligno vitae comedisset, non propter
+            <lb ed="#L" n="98"/>hoc immortalitatem recuperasset, sed beneficio
+            <lb ed="#L" n="99"/>illius cibi potuisset vitam magis prolongare. Unde
+            <lb ed="#L" n="100"/>quod dicitur, e? vivat in aeternum, sumitur ibi
+            <lb ed="#L" n="101"/>aeternum pro diuturno. Hoc autem non 
+            expe<lb break="no" ed="#L" n="102"/>diebat homini, ut in miseria huius vitae diutius
+            <lb ed="#L" n="103"/>permaneret.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e1197">
+            <lb ed="#L" n="104"/>AD SEPTIMUM DICENDUM quod, sicut Augustinus
+            <lb ed="#L" n="105"/>dicit, XI super Gen. ad litt. , verba Dei non tam
+            <lb ed="#L" n="106"/>sunt primis parentibus insultantis, quam ceteros,
+            <lb ed="#L" n="107"/>ne ita superbiant, delerrentis, propter quos ista
+            <lb ed="#L" n="108"/>conscripta sunt: quia scilicet non solum Adam non
+            <lb ed="#L" n="109"/>fuit factus qualis fieri voluit, sed nec illud quod
+            <lb ed="#L" n="110"/>factus fuerat, conservavit.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e1215">
+            <lb ed="#L" n="111"/>AD OCTAVUM DICENDUM quod vestitus necessarius
+            <lb ed="#L" n="112"/>est homini secundum statum praesentis miseriae,
+            <lb ed="#L" n="113"/>propter duo: primo quidem, propter defectum
+            <lb ed="#L" n="114"/>ab exterioribus nocumentis, puta intemperie 
+            <pb ed="#L" n="338"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>caloris et frigoris; secundo, ad tegumentum 
+            igno<lb break="no" ed="#L" n="2"/>miniae, ne turpitudo membrorum appareat in 
+            <lb ed="#L" n="3"/>quibus praecipue manifestatur rebellio carnis ad 
+            <lb ed="#L" n="4"/>spiritum. Haec autem duo in primo statu non 
+            <lb ed="#L" n="5"/>erant. Quia in statu illo corpus hominis non 
+            po<lb break="no" ed="#L" n="6"/>terat per aliquid extrinsecum laedi, ut in Primo 
+            <lb ed="#L" n="7"/>dictum est. Nec etiam erat in statu illo aliqua 
+            tur<lb break="no" ed="#L" n="8"/>pitudo in corpore hominis quae confusionem 
+            in<lb break="no" ed="#L" n="9"/>duceret: unde dicitur Genesi : Erat autem 
+            uter<lb break="no" ed="#L" n="10"/>que nudus, Adam scilicet et uxor eius, et non
+            <lb ed="#L" n="11"/>erubescebant. - Alia autem ratio est de cibo, qui
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="12"/>est necessarius ad fomentum caloris naturalis et
+            <lb ed="#L" n="13"/>ad corporis augmentum.
+          </p>
+          <p xml:id="TAca84-d1e2119-d1e1261">
+            <lb ed="#L" n="14"/>AD NONUM DICENDUM quod, sicut Augustinus 
+            di<lb break="no" ed="#L" n="15"/>cit, XI super Gen. ad litt. , non est credendum
+            <lb ed="#L" n="16"/>quod primi parentes essent producti clausis oculis:
+            <lb ed="#L" n="17"/>praecipue cum de muliere dicatur quod « vidit 
+            li<lb break="no" ed="#L" n="18"/>gnum, quod esset. pulchrum et bonum ad 
+            vescen<lb break="no" ed="#L" n="19"/>dum ». Aperti ergo sunt oculi amborum ad aliquid
+            <lb ed="#L" n="20"/>intuendum et. cogitandum quod antea nunquam
+            <lb ed="#L" n="21"/>adverterant: scilicet ad invicem concupiscendum,
+            <lb ed="#L" n="22"/>quod ante non fuerat.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

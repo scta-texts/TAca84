@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 138</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 138</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="114"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e1985"><!-- p2p2-q138 -->
+        <head xml:id="TAca84-d1e1985-Hd1e101">Quaestio 138</head>
+        <head xml:id="TAca84-d1e1985-Hd1e103" type="question-title">De vitiis oppositis perseverantiae</head>
+        <p xml:id="TAca84-d1e1985-d1e106">
+          <pb ed="#L" n="114"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=114"/>QUAESTIO CENTESIMATRIGESIMAOCTAVA
+          <lb ed="#L" n="2"/>DE VITIIS OPPOSITIS PERSEVERANTIAE
+          <lb ed="#L" n="3"/>IN DUOS ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e1985-d1e119">
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="4"/>DEINDE considerandum est de vitiis oppositis 
+          <lb ed="#L" n="5"/>perseverantiae .
+        </p>
+        <p xml:id="TAca84-d1e1985-d1e128">
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="6"/>Et circa hoc quaeruntur duo.
+          <lb ed="#L" n="7"/>Primo: de mollitie.
+          <lb ed="#L" n="8"/>Secundo: de pertinacia.
+        </p>
+        <div xml:id="TAca84-d1e1985-Dd1e140"><!-- p2p2-q138a1 -->
+          <head xml:id="TAca84-d1e1985-Hd1e143">Articulus 1</head>
+          <head xml:id="TAca84-d1e1985-Hd1e145" type="question-title">Utrum mollities opponatur perseverantiae</head>
+          <p xml:id="TAca84-d1e1985-d1e148">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="9" type="fixed=114"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="10"/>UTRUM MOLLITIES OPPONATUR PERSEVERANTIAE
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e157">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="11"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="12"/>mollities non opponatur perseverantiae.
+            <lb ed="#L" n="13"/>Quia super illud I ad Cor. vi , Neque
+            <lb ed="#L" n="14"/>adulteri neque molles neque 
+            masculo<lb break="no" ed="#L" n="15"/>rum concubitores, Glossa  exponit molles, idest
+            <lb ed="#L" n="16"/>pathici, hoc. est muliebria patientes. Sed hoc 
+            op<lb break="no" ed="#L" n="17"/>ponitur castitati. Ergo mollities non est vitium
+            <lb ed="#L" n="18"/>oppositum perseverantiae.
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e179">
+            <lb ed="#L" n="19"/>2. PRAETEREA, Philosophus dicit, in VII Ethic. ,
+            <lb ed="#L" n="20"/>quod delicia mollities quaedam est. Sed esse 
+            de<lb break="no" ed="#L" n="21"/>liciosum videtur pertinere ad intemperantiam.
+            <lb ed="#L" n="22"/>Ergo mollities non opponitur perseverantiae, sed
+            <lb ed="#L" n="23"/>magis temperantiae.
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e193">
+            <lb ed="#L" n="24"/>3. PRAETEREA, Philosophus, ibidem , dicit quod
+            <lb ed="#L" n="25"/>lusivus est mollis. Sed esse immoderate lusivum
+            <lb ed="#L" n="26"/>opponitur eutrapeliae , quae est virtus circa 
+            de<lb break="no" ed="#L" n="27"/>lectationes ludorum, ut dicitur in IV Ethic.  Ergo
+            <lb ed="#L" n="28"/>mollities non opponitur perseverantiae.
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e206">
+            <lb ed="#L" n="29"/>SEp coNTRA EsT quod Philosophus dicit, in VII 
+            <lb ed="#L" n="30"/>Ethic. , quod molli opponitur perseverativus. 
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e213">
+            <lb ed="#L" n="31"/>RESPONDEO DICENDUM quod, sicut supra  dictum 
+            <lb ed="#L" n="32"/>est, laus perseverantiae in hoc consistit quod 
+            ali<lb break="no" ed="#L" n="33"/>quis non recedit a bono propter diuturnam 
+            tole<lb break="no" ed="#L" n="34"/>rantiam difficilium et laboriosorum . Cui directe
+            <lb ed="#L" n="35"/>opponi videtur quod aliquis de facili recedat a
+            <lb ed="#L" n="36"/>bono propter aliqua difficilia, quae sustinere non
+            <lb ed="#L" n="37"/>potest. Et hoc pertinet ad rationem mollitiei:
+            <lb ed="#L" n="38"/>nam molle dicitur quod facile cedit tangenti.
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e233">
+            <lb ed="#L" n="39"/>Non autem iudicatur aliquid molle ex hoc quod
+            <lb ed="#L" n="40"/>cedit fortiter impellenti: nam et parietes cedunt
+            <lb ed="#L" n="41"/>machinae percutienti. Et ideo non reputatur 
+            ali<lb break="no" ed="#L" n="42"/>quis mollis si cedat aliquibus valde graviter im- -
+            <lb ed="#L" n="43"/>sop ws pellentibus: unde Philosophus dicit, in VII Ethic.,
+            <lb ed="#L" n="44"/>quod si quis a fortibus et superexcellentibus 
+            de<lb break="no" ed="#L" n="45"/>lectationibus vincitur vel tristitiis, non est 
+            admi<lb break="no" ed="#L" n="46"/>rabile, sed condonabile, si contra. tendat.
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e253">
+            <lb ed="#L" n="47"/>Manifestum est autem quod gravius impellit
+            <lb ed="#L" n="48"/>metus periculorum quam cupiditas delectationum:
+            <lb ed="#L" n="49"/>unde Tullius dicit, in I de Offic. : Non est 
+            con<lb break="no" ed="#L" n="50"/>sentaneum qui metu non frangatur, eum frangi cu-
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="51"/>piditate; nec qui invictum se a labore praestiterit,
+            <lb ed="#L" n="52"/>vinci a voluptate. Ipsa etiam voluptas fortius 
+            mo<lb break="no" ed="#L" n="53"/>vet attrahendo quam tristitia de carentia 
+            volu<lb break="no" ed="#L" n="54"/>ptatis retrahendo: quia carentia voluptatis est
+            <lb ed="#L" n="55"/>purus defectus. Et ideo secundum Philosophum,
+            <lb ed="#L" n="56"/>proprie mollis dicitur qui recedit a bono propter
+            <lb ed="#L" n="57"/>tristitias- causatas ex defectu delectationum, quasi
+            <lb ed="#L" n="58"/>cedens debili moventi.
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e284">
+            <lb ed="#L" n="59"/>AD PRIMUM ERGO DICENDUM quod praedicta 
+            mol<lb break="no" ed="#L" n="60"/>lities causatur dupliciter. Uno modo, ex 
+            consue<lb break="no" ed="#L" n="61"/>tudine: cum enim aliquis consuetus est 
+            volupta<lb break="no" ed="#L" n="62"/>tibus frui, difficilius potest earum absentiam 
+            sus<lb break="no" ed="#L" n="63"/>tinere. Alio modo, ex naturali dispositione: quia
+            <lb ed="#L" n="64"/>videlicet habent animum minus constantem,
+            <lb ed="#L" n="65"/>propter fragilitatem complexionis. Et hoc modo
+            <lb ed="#L" n="66"/>comparantur feminae ad masculos, ut 
+            Philoso<lb break="no" ed="#L" n="67"/>phus dicit, in. VII Ethic.  Et ideo illi qui 
+            mu<lb break="no" ed="#L" n="68"/>liebria patiuntur molles dicuntur, quasi 
+            mulie<lb break="no" ed="#L" n="69"/>bres  effecti.
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e311">
+            <lb ed="#L" n="70"/>AD SECUNDUM DICENDUM quod voluptati corporali
+            <lb ed="#L" n="71"/>opponitur labor: et ideo res laboriosae tantum
+            <lb ed="#L" n="72"/>impediunt voluptates. Deliciosi autem dicuntur
+            <lb ed="#L" n="73"/>qui non possunt sustinere aliquos labores, nec
+            <lb ed="#L" n="74"/>aliquid quod voluptatem diminuat: unde dicitur
+            <lb ed="#L" n="75"/>Deut. xxvin : Tenera mulier et delicata, quae
+            <lb ed="#L" n="76"/>super lerram ingredi non valebat, nec pedis 
+            ve<lb break="no" ed="#L" n="77"/>stigium figere, propter mollitiem. Et ideo delicia
+            <lb ed="#L" n="78"/>quaedam mollities est. Sed mollities proprie 
+            re<lb break="no" ed="#L" n="79"/>spicit defectum  delectationum: deliciae autem
+            <lb ed="#L" n="80"/>causam impeditivam delectationis, puta laborem
+            <lb ed="#L" n="81"/>vel aliquid huiusmodi.
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e340">
+            <lb ed="#L" n="82"/>AD TERTIUM DICENDUM quod in ludo duo est
+            <lb ed="#L" n="83"/>considerare. Uno quidem modo, delectationem:
+            <lb ed="#L" n="84"/>et sic inordinate lusivus opponitur eutrapeliae.
+            <lb ed="#L" n="85"/>Alio modo in ludo consideratur quaedam 
+            remis<lb break="no" ed="#L" n="86"/>sio sive quies, quae opponitur labori. Et ideo
+            <lb ed="#L" n="87"/>sicut non posse sustinere laboriosa pertinet ad
+            <lb ed="#L" n="88"/>mollitiem, ita etiam nimis appetere remissionem
+            <lb ed="#L" n="89"/>ludi, vel quamcumque aliam quietem.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e1985-Dd1e361"><!-- p2p2-q138a2 -->
+          <head xml:id="TAca84-d1e1985-Hd1e364">Articulus 2</head>
+          <head xml:id="TAca84-d1e1985-Hd1e366" type="question-title">Utrum pertinacia opponatur perseverantiae</head>
+          <p xml:id="TAca84-d1e1985-d1e369">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="122" type="fixed=115"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="123"/>UTRUM PERTINACIA OPPONATUR PERSEVERANTIAE
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e378">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="124"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod 
+            <lb ed="#L" n="125"/>pertinacia non opponatur 
+            perseveran<lb break="no" ed="#L" n="126"/>tiae. Dicit enim Gregorius, XXXI Mo- .
+            <lb ed="#L" n="127"/>ral., quod pertinacia oritur ex inani
+            <cb ed="#L" n="f"/>
+            <lb ed="#L" n="128"/>gloria. Sed inanis gloria non opponitur 
+            perseve<lb break="no" ed="#L" n="129"/>rantiae, sed magis magnanimitati, ut supra  
+            di<lb break="no" ed="#L" n="130"/>ctum est. Ergo pertinacia non opponitur 
+            perse<lb break="no" ed="#L" n="131"/>verantiae.
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e402">
+            <pb ed="#L" n="116"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>2. PRAETEREA, si opponitur perseverantiae, aut
+            <lb ed="#L" n="2"/>opponitur ei per excessum, aut per defectum.
+            <lb ed="#L" n="3"/>Sed non opponitur ei per excessum: quia etiam
+            <lb ed="#L" n="4"/>pertinax cedit alicui delectationi et tristitiae; quia,
+            <lb ed="#L" n="5"/>- ut dicit Philosophus, in VII Ethic. , gaudent 
+            vin<lb break="no" ed="#L" n="6"/>centes, et tristantur si sententiae eorum infirmae
+            <lb ed="#L" n="7"/>appareant. Si autem per defectum, erit idem quod
+            <lb ed="#L" n="8"/>mollities: quod patet esse falsum. Nullo ergo
+            <lb ed="#L" n="9"/>modo pertinacia opponitur perseverantiae.
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e429">
+            <lb ed="#L" n="10"/>3. PRAETEREA, sicut perseverans persistit in
+            <lb ed="#L" n="11"/>bono contra tristitias, ita continens et temperatus
+            <lb ed="#L" n="12"/>contra delectationes, et fortis contra timores, et
+            <lb ed="#L" n="13"/>mansuetus contra iras. Sed pertinax dicitur 
+            ali<lb break="no" ed="#L" n="14"/>quis ex eo quod nimis in aliquo persistit. Ergo
+            <lb ed="#L" n="15"/>pertinacia non magis opponitur perseverantiae
+            <lb ed="#L" n="16"/>quam aliis virtutibus.
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e447">
+            <lb ed="#L" n="17"/>SED coNTRA EsT quod Tullius dicit, in sua 
+            RAe<lb break="no" ed="#L" n="18"/>lorica , quod ita se habet pertinacia ad 
+            perse<lb break="no" ed="#L" n="19"/>verantiam sicut superstitio ad religionem. Sed
+            <lb ed="#L" n="20"/>superstitio opponitur religioni, ut supra  dictum
+            <lb ed="#L" n="21"/>est. Ergo et pertinacia perseverantiae.
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e460">
+            <lb ed="#L" n="22"/>RESPONDEO DICENDUM quod, sicut Isidorus dicit,
+            <lb ed="#L" n="23"/>in libro Etymol. , pertinax dicitur aliquis qui
+            <lb ed="#L" n="24"/>est impudenter lenens , quasi omnia tenax. Et
+            <lb ed="#L" n="25"/>hic idem dicitur pervicax : eo quod in 
+            propo<lb break="no" ed="#L" n="26"/>sito suo ad vicloriam perseverat: antiqui enim
+            <lb ed="#L" n="27"/>dicebant viciam quam nos victoriam. Et hos 
+            Phi<lb break="no" ed="#L" n="28"/>losophus vocat, in VII Ethic. ischyrognommones
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="29"/>idest fortis sententiae, vel idiognomones, idest 
+            pro<lb break="no" ed="#L" n="30"/>priae sententiae: quia scilicet perseverant in 
+            pro<lb break="no" ed="#L" n="31"/>pria sententia plus quam oportet; mollis autem
+            <lb ed="#L" n="32"/>minus quam oportet; perseverans autem 
+            secun<lb break="no" ed="#L" n="33"/>dum quod oportet. Unde patet quod 
+            perseve<lb break="no" ed="#L" n="34"/>rantia laudatur sicut in medio existens; pertinax
+            <lb ed="#L" n="35"/>autem vituperatur sicut  secundum excessum
+            <lb ed="#L" n="36"/>medii; mollis autem secundum defectum.
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e497">
+            <lb ed="#L" n="37"/>AD PRIMUM ERGO DICENDUM quod. ideo aliquis 
+            ni<lb break="no" ed="#L" n="38"/>mis persistit in propria sententia, quia per hoc
+            <lb ed="#L" n="39"/>vult suam excellentiam manifestare. Et ideo 
+            ori<lb break="no" ed="#L" n="40"/>tur ex inani gloria sicut ex causa. Dictum est
+            <lb ed="#L" n="41"/>autem supra  quod oppositio vitiorum ad vir- '
+            <lb ed="#L" n="42"/>tutes non attenditur secundum causam, sed 
+            se<lb break="no" ed="#L" n="43"/>cundum propriam speciem.
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e515">
+            <lb ed="#L" n="44"/>AD SECUNDUM DICENDUM quod pertinax excedit
+            <lb ed="#L" n="45"/>quidem in hoc quod inordinate persistit in aliquo
+            <lb ed="#L" n="46"/>contra multas difficultates: habet tamen aliquam
+            <lb ed="#L" n="47"/>delectationem in fine, sicut et fortis et etiam
+            <lb ed="#L" n="48"/>perseverans. Quia tamen illa delectatio est vitiosa,
+            <lb ed="#L" n="49"/>ex hoc quod nimis eam appetit et contrariam
+            <lb ed="#L" n="50"/>tristitiam fugit, assimilatur incontinenti vel molli.
+          </p>
+          <p xml:id="TAca84-d1e1985-d1e533">
+            <lb ed="#L" n="51"/>AD TERTIUM DICENDUM quod aliae virtutes, etsi
+            <lb ed="#L" n="52"/>persistant contra impetus passionum, non tamen
+            <lb ed="#L" n="53"/>proprie laus earum est ex persistendo, sicut laus
+            <lb ed="#L" n="54"/>perseverantiae. Laus vero continentiae magis 
+            vi<lb break="no" ed="#L" n="55"/>detur ex vincendo delectationes. Et ideo 
+            perti<lb break="no" ed="#L" n="56"/>nacia directe opponitur perseverantiae.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

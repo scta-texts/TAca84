@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 189</title>
+        <author ref="#Aquinas">Thomas Aquinas</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 189</title>
+          <date when="2024-12-11">December 11, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLx10">Rome, 1899, Vol. 10</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-12-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="536"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="TAca84-d1e2248"><!-- p2p2-q189 -->
+        <head xml:id="TAca84-d1e2248-Hd1e101">Quaestio 189</head>
+        <head xml:id="TAca84-d1e2248-Hd1e103" type="question-title">De ingressu religionis</head>
+        <p xml:id="TAca84-d1e2248-d1e106">
+          <pb ed="#L" n="536"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1" type="fixed=536"/>QUAESTIO CENTESIMAOCTOGESIMANONA
+          <lb ed="#L" n="2"/>DE INGRESSU RELIGIONIS
+          <lb ed="#L" n="3"/>IN DECEM ARTICULOS DIVISA
+        </p>
+        <p xml:id="TAca84-d1e2248-d1e119">
+          <lb ed="#L" n="4"/>DEINDE considerandum est de ingressu 
+          reli<lb break="no" ed="#L" n="5"/>gionis.
+        </p>
+        <p xml:id="TAca84-d1e2248-d1e126">
+          <lb ed="#L" n="6"/>Et circa hoc quaeruntur decem. 
+          <lb ed="#L" n="7"/>Primo: utrum illi qui non sunt exercitati in 
+          <lb ed="#L" n="8"/>observantia praeceptorum, debeant 
+          religio<lb break="no" ed="#L" n="9"/>nem ingredi.
+          <lb ed="#L" n="10"/>Secundo: utrum liceat aliquos voto obligare 
+          <lb ed="#L" n="11"/>ad religionis ingressum.
+          <lb ed="#L" n="12"/>Tertio: utrum illi qui voto obligantur ad 
+          re<lb break="no" ed="#L" n="13"/>ligionis ingressum, teneantur votum implere.
+          <lb ed="#L" n="14"/>Quarto: utrum illi qui vovent religionem 
+          in<lb break="no" ed="#L" n="15"/>trare, teneantur ibi perpetuo remanere,
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="16"/>Quinto: utrum pueri sint recipiendi in 
+          reli<lb break="no" ed="#L" n="17"/>gione.
+          <lb ed="#L" n="18"/>Sexto: utrum propter parentum obsequium
+          <lb ed="#L" n="19"/>aliqui debeant retrahi a religionis ingressu.
+          <lb ed="#L" n="20"/>Septimo: utrum presbyteri curati vel 
+          archidia<lb break="no" ed="#L" n="21"/>coni possint ad religionem transire.
+          <lb ed="#L" n="22"/>Octavo: utrum de una religione possit aliquis
+          <lb ed="#L" n="23"/>transire ad aliam.
+          <lb ed="#L" n="24"/>Nono: utrum aliquis debeat alios inducere ad  
+          <lb ed="#L" n="25"/>religionis ingressum.
+          <lb ed="#L" n="26"/>Decimo: utrum requiratur magna deliberatio
+          <lb ed="#L" n="27"/>cum consanguineis et amicis ad religionis
+          <lb ed="#L" n="28"/>ingressum.
+        </p>
+        <div xml:id="TAca84-d1e2248-Dd1e182"><!-- p2p2-q189a1 -->
+          <head xml:id="TAca84-d1e2248-Hd1e185">Articulus 1</head>
+          <head xml:id="TAca84-d1e2248-Hd1e187" type="question-title">Utrum non debeant religionem ingredi nisi qui sunt in praeceptis exercitati</head>
+          <p xml:id="TAca84-d1e2248-d1e190">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="29" type="fixed=536"/>ARTICULUS PRIMUS
+            <lb ed="#L" n="30"/>UTRUM NON DEBEANT RELIGIONEM INGREDI NISI QUI SUNT IN PRAECEPTIS EXERCITATI
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e199">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="31"/>AD PRIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="32"/>non debeant religionem ingredi nisi qui
+            <lb ed="#L" n="33"/>sunt in praeceptis exercitati. Dominus
+            <lb ed="#L" n="34"/>enim consilium perfectionis dedit 
+            ado<lb break="no" ed="#L" n="35"/>lescenti qui dixerat se praecepta a iuventute 
+            ser<lb break="no" ed="#L" n="36"/>vasse. Sed a Christo sumpsit initium omnis
+            <lb ed="#L" n="37"/>religio. Ergo videtur quod non sunt ad 
+            religio<lb break="no" ed="#L" n="38"/>nem admittendi nisi qui sunt in praeceptis 
+            exer<lb break="no" ed="#L" n="39"/>citati.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e223">
+            <lb ed="#L" n="40"/>2. PRAETEREA, Gregorius dicit, super Exech. :
+            <lb ed="#L" n="41"/>Nemo repente fit summus: sed in bona 
+            conver<lb break="no" ed="#L" n="42"/>satione a minimis quis inchoat, ut ad magna 
+            per<lb break="no" ed="#L" n="43"/>veniat. Sed magna sunt consilia, quae pertinent
+            <lb ed="#L" n="44"/>ad perfectionem vitae: minora autem sunt 
+            prae<lb break="no" ed="#L" n="45"/>cepta, quae pertinent ad communem iustitiam.
+            <lb ed="#L" n="46"/>Ergo videtur quod non debent aliqui, ad 
+            obser<lb break="no" ed="#L" n="47"/>vantiam consiliorum, religionem intrare, nisi prius
+            <lb ed="#L" n="48"/>fuerint in praeceptis exercitati.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e246">
+            <lb ed="#L" n="49"/>3. PRAETEREA, sicut sacri ordines habent 
+            quan<lb break="no" ed="#L" n="50"/>dam excellentiam in Ecclesia, ita et status 
+            reli<lb break="no" ed="#L" n="51"/>gionis. Sed sicut Gregorius scribit Siagrio  
+            Epi<lb break="no" ed="#L" n="52"/>scopo  et habetur in Decretis, dist. XLVIII :
+            <lb ed="#L" n="53"/>Ordinate ad ordines accedendum est: nam casum
+            <lb ed="#L" n="54"/>phytus. appetit qui ad summi loci fastigia, postpositis 
+            gra<lb break="no" ed="#L" n="55"/>dibus, per abrupta quaerit ascensum. Scimus 
+            <lb ed="#L" n="56"/>enim quod aedificati parietes non prius tignorum
+            <lb ed="#L" n="57"/>pondus accipiunt, nisi a novitatis suae humore
+            <lb ed="#L" n="58"/>siccentur : ne, si ante pondera quam solidentur 
+            ac<lb break="no" ed="#L" n="59"/>cipiant, cunctam simul fabricam deponant. Ergo
+            <lb ed="#L" n="60"/>videtur quod non debent aliqui ad religionem
+            <lb ed="#L" n="61"/>transire nisi in praeceptis exercitati.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e277">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="62"/>4. PRAETEREA, super illud Psalmi , Sicut 
+            abia<lb break="no" ed="#L" n="63"/>clatus super matre sua, dicit Glossa : Zn utero
+            <lb ed="#L" n="64"/>matris Ecclesiae primo concipimur, dum fidei 
+            ru<lb break="no" ed="#L" n="65"/>dimentis instruimur ; deinde in lucem edimur, dum
+            <lb ed="#L" n="66"/>per baptismum regeneramur; deinde quasi 
+            ma<lb break="no" ed="#L" n="67"/>nibus Ecclesiae portamur et lacte nutrimur, cum
+            <lb ed="#L" n="68"/>post baptismum bonis operibus informamur et
+            <lb ed="#L" n="69"/>lacte spiritualis. doctrinae. nutrimur, proficiendo
+            <lb ed="#L" n="70"/>donec, iam grandiusculi, a lacte matris 
+            acceda<lb break="no" ed="#L" n="71"/>mus ad mensam patris; idest, a simplici doctrina,
+            <lb ed="#L" n="72"/>ubi praedicatur Verbum caro factum?, accedamus
+            <lb ed="#L" n="73"/>ad Verbum Patris in principio apud Deum. Et
+            <lb ed="#L" n="74"/>postea subdit quod muper baptizati in Sabbato
+            <lb ed="#L" n="75"/>Sancto, quasi manibus Ecclesiae gestantur et lacte
+            <lb ed="#L" n="76"/>nutriuntur usque ad Pentecosten, quo. tempore
+            <lb ed="#L" n="77"/>nulla difficilia indicuntur, non ieiunatur, non 
+            me<lb break="no" ed="#L" n="78"/>dia nocte surgitur: postea, Spiritu Paraclito 
+            con<lb break="no" ed="#L" n="79"/>firmati, quasi ablactati, incipiunt ieiunare et alia
+            <lb ed="#L" n="80"/>difficilia servare. Multi vero hunc ordinem 
+            per<lb break="no" ed="#L" n="81"/>vertunt, ut haeretici et schismatici, se ante tempus
+            <lb ed="#L" n="82"/>a lacte separantes: unde exstinguuntur. Sed hunc
+            <lb ed="#L" n="83"/>ordinem pervertere videntur illi qui religionem
+            <lb ed="#L" n="84"/>intrant, vel alios ad intrandum inducunt, 
+            ante<lb break="no" ed="#L" n="85"/>quam sint in faciliori observantia praeceptorum
+            <lb ed="#L" n="86"/>exercitati. Ergo videtur quod sint haeretici vel
+            <lb ed="#L" n="87"/>schismatici.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e338">
+            <lb ed="#L" n="88"/>5. PRAETEREA, a prioribus ad posteriora est
+            <lb ed="#L" n="89"/>transeundum. Sed praecepta sunt priora consiliis,
+            <lb ed="#L" n="90"/>quia sunt communiora, utpote a quibus non 
+            con<lb break="no" ed="#L" n="91"/>vertitur consequentia essendi  : quicumque enim
+            <lb ed="#L" n="92"/>servat consilia, servat praecepta, sed non con-
+            <pb ed="#L" n="537"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>vertitur. Congruus autem ordo est ut a prioribus
+            <lb ed="#L" n="2"/>ad posteriora transeatur. Ergo non debet aliquis
+            <lb ed="#L" n="3"/>transire ad observantiam consiliorum in religione;
+            <lb ed="#L" n="4"/>nisi prius sit exercitatus in praeceptis.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e364">
+            <lb ed="#L" n="5"/>SED coNTRA EsT quod Dominus Matthaeum
+            <lb ed="#L" n="6"/>publicanum, qui in observantia praeceptorum 
+            <lb ed="#L" n="7"/>exercitatus non erat, advocavit ad consiliorum
+            <lb ed="#L" n="8"/>observantiam: dicitur enim Luc. v , quod, 
+            re<lb break="no" ed="#L" n="9"/>lictis omnibus, secutus est eum. Ergo non est
+            <lb ed="#L" n="10"/>necessarium quod ante aliquis exerceatur in 
+            ob<lb break="no" ed="#L" n="11"/>servantia praeceptorum quam transeat ad 
+            per<lb break="no" ed="#L" n="12"/>fectionem consiliorum.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e384">
+            <lb ed="#L" n="13"/>RESPONDEO DICENDUM quod, sicut ex supra 
+            <lb ed="#L" n="14"/>dictis patet, status religionis est quoddam 
+            spiri<lb break="no" ed="#L" n="15"/>tuale exercitium ad consequendum perfectionem
+            <lb ed="#L" n="16"/>caritatis: quod quidem fit inquantum per 
+            reli<lb break="no" ed="#L" n="17"/>gionis observantias auferuntur impedimenta 
+            per<lb break="no" ed="#L" n="18"/>fectae caritatis. Haec autem sunt quae implicant
+            <lb ed="#L" n="19"/>affectum hominis ad terrena. Per hoc autem quod
+            <lb ed="#L" n="20"/>affectus hominis implicatur ad terrena, non solum
+            <lb ed="#L" n="21"/>impeditur perfectio caritatis, sed interdum etiam
+            <lb ed="#L" n="22"/>ipsa caritas perditur, dum per inordinatam 
+            con<lb break="no" ed="#L" n="23"/>versionem ad bona temporalia homo avertitur
+            <lb ed="#L" n="24"/>ab incommutabili bono mortaliter peccando. Unde
+            <lb ed="#L" n="25"/>patet quod religionis observantiae, sicut tollunt
+            <lb ed="#L" n="26"/>impedimenta perfectae caritatis, ita etiam tollunt
+            <lb ed="#L" n="27"/>occasiones peccandi: sicut patet quod per. 
+            ieiu<lb break="no" ed="#L" n="28"/>nium et vigilias et obedientiam, et alia 
+            huius<lb break="no" ed="#L" n="29"/>modi, retrahitur homo a peccatis gulae et 
+            luxu<lb break="no" ed="#L" n="30"/>riae, et a quibuscumque aliis peccatis. Et ideo
+            <lb ed="#L" n="31"/>ingredi religionem non solum expedit his qui sunt
+            <lb ed="#L" n="32"/>exercitati in praeceptis, ut ad maiorem 
+            perfectio<lb break="no" ed="#L" n="33"/>nem perveniant: sed etiam his qui non sunt
+            <lb ed="#L" n="34"/>exercitati, ut facilius peccata vitent et 
+            perfectio<lb break="no" ed="#L" n="35"/>nem assequantur.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e436">
+            <lb ed="#L" n="36"/>AD PRIMUM ERGO DICENDUM quod Hieronymus
+            <lb ed="#L" n="37"/>dicit, super Matth. : Mentitus. est. adolescens
+            <lb ed="#L" n="38"/>dicens, « Haec omnia servavi a iuventute mea ».
+            <lb ed="#L" n="39"/>Si enim quod positum est in mandatis, « Diliges
+            <lb ed="#L" n="40"/>proximum tuum sicut teipsum », opere complessel,
+            <lb ed="#L" n="41"/>quomodo postea, audiens, « Vade et vende omnia
+            <lb ed="#L" n="42"/>quae habes et da pauperibus », tristis recessit?
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e455">
+            <lb ed="#L" n="43"/>Sed intelligendum est eum mentitum esse 
+            quan<lb break="no" ed="#L" n="44"/>tum ad perfectam observantiam huius praecepti.
+            <lb ed="#L" n="45"/>Unde Origenes, super Matth., dicit quod scriptum
+            <lb ed="#L" n="46"/>est in Evangelio secundum Hebraeos, quod cum
+            <lb ed="#L" n="47"/>Dominus dixisset ei, « Vade et vende omnia 
+            quae<lb break="no" ed="#L" n="48"/>habes », coepit dives scalpere caput suum. Et dixit
+            <lb ed="#L" n="49"/>ad eum Dominus: « Quomodo dicis, Feci legem et
+            <lb ed="#L" n="50"/>Prophetas? Est? in lege, Diliges proximum tuum
+            <lb ed="#L" n="51"/>sicut teipsum: et ecce, multi fratres tui, filii 
+            Abra<lb break="no" ed="#L" n="52"/>hae, amicti sunt stercore, morientes prae  fame;
+            <lb ed="#L" n="53"/>et domus tua plena est multis bonis, et non 
+            egre<lb break="no" ed="#L" n="54"/>ditur aliquid omnino ex ea ad eos ». Itaque 
+            Do<lb break="no" ed="#L" n="55"/>minus, redarguens eum, dicit: « Si vis perfectus
+            <lb ed="#L" n="56"/>esse », etc. Impossibile est enim. implere 
+            manda<lb break="no" ed="#L" n="57"/>tum quod dicit, « Diliges proximum tuum sicut 
+            te<lb break="no" ed="#L" n="58"/>ipsum », et esse divitem: et maxime, tantas 
+            posses<lb break="no" ed="#L" n="59"/>siones habere. — Quod est intelligendum de perfecta
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="60"/>impletione huius praecepti. Imperfecte autem et
+            <lb ed="#L" n="61"/>communi modo verum est eum observasse 
+            prae<lb break="no" ed="#L" n="62"/>cepta. Perfectio enim principaliter in observantia
+            <lb ed="#L" n="63"/>praeceptorum caritatis consistit, ut supra  
+            habi<lb break="no" ed="#L" n="64"/>tum est.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e507">
+            <lb ed="#L" n="65"/>Ut ergo Dominus ostenderet perfectionem 
+            con<lb break="no" ed="#L" n="66"/>siliorum utilem esse et innocentibus et 
+            peccatori<lb break="no" ed="#L" n="67"/>bus, non solum vocavit adolescentem innocentem,
+            <lb ed="#L" n="68"/>sed etiam Matthaeum peccatorem . Et tamen
+            <lb ed="#L" n="69"/>Matthaeus secutus est vocantem, non autem 
+            ado<lb break="no" ed="#L" n="70"/>lescens : quia facilius convertuntur ad religionem
+            <lb ed="#L" n="71"/>peccatores quam illii qui de sua innocentia 
+            prae<lb break="no" ed="#L" n="72"/>sumunt, quibus dicit Dominus, Matth. xxi : 
+            Pubii<lb break="no" ed="#L" n="73"/>cani et meretrices praecedunt vos in regnum Dei.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e529">
+            <lb ed="#L" n="74"/>AD SECUNDUM DICENDUM quod summum et 
+            in<lb break="no" ed="#L" n="75"/>fimum tripliciter accipi potest . Uno modo, in
+            <lb ed="#L" n="76"/>eodem statu et in eodem homine. Et sic 
+            mani<lb break="no" ed="#L" n="77"/>festum est quod nemo repente fit summus: quia
+            <lb ed="#L" n="78"/>unusquisque recte vivens toto tempore vitae suae
+            <lb ed="#L" n="79"/>proficit, ut ad summum perveniat. - Alio modo,
+            <lb ed="#L" n="80"/>per comparationem ad diversos status. Et sic
+            <lb ed="#L" n="81"/>non oportet ut quicumque vult ad superiorem
+            <lb ed="#L" n="82"/>statum pervenire, a minori incipiat: sicut non
+            <lb ed="#L" n="83"/>oportet ut qui vult esse clericus, prius in laicali
+            <lb ed="#L" n="84"/>vita exerceatur. - Tertio modo, quantum ad 
+            di<lb break="no" ed="#L" n="85"/>versas personas. Et sic manifestum est quod unus
+            <lb ed="#L" n="86"/>statim incipit, non solum ab altiori statu, sed
+            <lb ed="#L" n="87"/>etiam ab altiori gradu sanctitatis quam sit 
+            sum<lb break="no" ed="#L" n="88"/>mum ad quod alius pervenit per totam vitam
+            <lb ed="#L" n="89"/>suam. Unde Gregorius dicit, in Il Dialog. :
+            <lb ed="#L" n="90"/>Omnes cognoscant, Benedictus puer 
+            conversatio<lb break="no" ed="#L" n="91"/>nis gratiam a quanta perfeclione coepisset.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e571">
+            <lb ed="#L" n="92"/>AD TERTIUM DICENDUM quod, sicut supra dictum
+            <lb ed="#L" n="93"/>est, sacri ordines praeexigunt sanctitatem: sed
+            <lb ed="#L" n="94"/>status religionis est exercitium quoddam ad 
+            san<lb break="no" ed="#L" n="95"/>ctitatem assequendam . Unde pondus ordinum
+            <lb ed="#L" n="96"/>imponendum est parietibus iam per sanctitatem
+            <lb ed="#L" n="97"/>desiccatis: sed pondus religionis desiccat parietes,
+            <lb ed="#L" n="98"/>idest homines, ab humore vitiorum.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e589">
+            <lb ed="#L" n="99"/>AD QUARTUM DICENDUM quod, sicut manifeste
+            <lb ed="#L" n="100"/>ex verbis ilius glossae apparet, principaliter 
+            lo<lb break="no" ed="#L" n="101"/>quitur de ordine doctrinae, prout transeundum
+            <lb ed="#L" n="102"/>est a facilioribus ad difficiliora. Unde quod dicit
+            <lb ed="#L" n="103"/>haereticos et schismaticos hunc ordinem 
+            perver<lb break="no" ed="#L" n="104"/>tere, manifestum est ex sequentibus ad ordinem
+            <lb ed="#L" n="105"/>doctrinae pertinere. Sequitur enim : Hic vero se
+            <lb ed="#L" n="106"/>servasse, scilicet praedictum ordinem, dicit, 
+            con<lb break="no" ed="#L" n="107"/>stringens se maledicto, sic, quasi: « Non modo in
+            <lb ed="#L" n="108"/>alis fui humilis, sed etiam in scientia. Quia 
+            hu<lb break="no" ed="#L" n="109"/>militer sentiebam: prius nutritus lacte, quod est
+            <lb ed="#L" n="110"/>Verbum caro factum , ut sic crescerem ad panem
+            <lb ed="#L" n="111"/>angelorum, idest ad Verbum quod est in. principio
+            <lb ed="#L" n="112"/>apud Deum ».
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e622">
+            <lb ed="#L" n="113"/>Exemplum autem quod in medio interponitur,
+            <lb ed="#L" n="114"/>quod noviter baptizatis non indicitur ieiunium
+            <lb ed="#L" n="115"/>usque ad Pentecosten, ostendit quod non sunt
+            <lb ed="#L" n="116"/>ex necessitate ad difficilia cogendi antequam per
+            <lb ed="#L" n="117"/>Spiritum Sanctum interius ad hoc instigentur ut
+            <lb ed="#L" n="118"/>difficilia propria voluntate assumant. Unde et
+            <pb ed="#L" n="538"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>post Pentecosten, post receptionem Spiritus 
+            San<lb break="no" ed="#L" n="2"/>cti, ieiunium «celebrat Ecclesia. Spiritus autem
+            <lb ed="#L" n="3"/>Sanctus, sicut Ambrosius dicit, super Luc., non
+            <lb ed="#L" n="4"/>arcetur aetalibus, non finitur morle, non 
+            exclu<lb break="no" ed="#L" n="5"/>ditur alvo. Et Gregorius dicit, in Homilia 
+            Pente<lb break="no" ed="#L" n="6"/>costes : Implet citharaedum puerum, et 
+            psalmi<lb break="no" ed="#L" n="7"/>siam facit: implet puerum abstinentem , et. 
+            iudi<lb break="no" ed="#L" n="8"/>cem senum facit. Et postea subdit: Nulla ad 
+            di<lb break="no" ed="#L" n="9"/>scendum mora agitur : omne quod voluerit, mox 
+            <lb ed="#L" n="10"/>ui tetigerit mentem, docet. Et sicut dicitur Eccle. 
+            <lb ed="#L" n="11"/>vii, non est in hominis dilione prohibere 
+            Spiri<lb break="no" ed="#L" n="12"/>tum. Et Apostolus, I ad Thess. v , monet: 
+            Spiri<lb break="no" ed="#L" n="13"/>tum. nolite extinguere. Et .Act. vin , contra 
+            quos<lb break="no" ed="#L" n="14"/>dam dicitur: Vos semper Spiritui Sancto restitistis. 
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e673">
+            <lb ed="#L" n="15"/>AD QUINTUM DICENDUM quod praeceptorum 
+            quae<lb break="no" ed="#L" n="16"/>dam sunt principalia, quae sunt fines et 
+            prae<lb break="no" ed="#L" n="17"/>ceptorum et consiliorum: scilicet praecepta 
+            cari<lb break="no" ed="#L" n="18"/>tatis: Ad quae consilia ordinantur, non ita quod
+            <lb ed="#L" n="19"/>sine consiliis servari non possint, sed ut per
+            <lb ed="#L" n="20"/>consilia perfectius observentur. Alia vero sunt
+            <lb ed="#L" n="21"/>praecepta secundaria, quae ordinantur ad 
+            prae<lb break="no" ed="#L" n="22"/>cepta caritatis ut sine quibus caritatis praecepta
+            <lb ed="#L" n="23"/>observari non possunt omnino.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e695">
+            <lb ed="#L" n="24"/>Sic igitur perfecta observantia praeceptorum
+            <lb ed="#L" n="25"/>caritatis. praecedit intentione consilia, sed inter-
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="26"/>dum tempore sequitur. Hic est enim ordo finis
+            <lb ed="#L" n="27"/>respectu eorum quae sunt ad finem. — 
+            Obser<lb break="no" ed="#L" n="28"/>vantia vero praeceptorum caritatis. secundum
+            <lb ed="#L" n="29"/>communem modum, et similiter alia praecepta,
+            <lb ed="#L" n="30"/>comparantur ad consilia sicut commune ad 
+            pro<lb break="no" ed="#L" n="31"/>prium: quia observantia praeceptorum potest esse
+            <lb ed="#L" n="32"/>sine consiliis, sed non convertitur. Sic ergo 
+            ob<lb break="no" ed="#L" n="33"/>servantia praeceptorum communiter sumpta, 
+            prae<lb break="no" ed="#L" n="34"/>cedit naturae ordine consilia: non tamen oportet
+            <lb ed="#L" n="35"/>quod tempore, quia non est aliquid prius in 
+            ge<lb break="no" ed="#L" n="36"/>nere quam sit in aliqua specierum. - 
+            Observan<lb break="no" ed="#L" n="37"/>tia vero praeceptorum sine consiliis ordinatur ad
+            <lb ed="#L" n="38"/>observantiam praeceptorum cum consiliis sicut ^
+            <lb ed="#L" n="39"/>species imperfecta. ad. perfectam, sicut animal ^ ^
+            <lb ed="#L" n="40"/>irrationale ad rationale. Perfectum autem est 
+            na<lb break="no" ed="#L" n="41"/>turaliter prius imperfecto: natura enim, ut 
+            Boe<lb break="no" ed="#L" n="42"/>tius dicit , a perfectis sumit initium. Nec tamen 
+            <lb ed="#L" n="43"/>oportet quod prius observentur praecepta sine 
+            <lb ed="#L" n="44"/>consiliis, et postea cum consiliis: sicut non 
+            opor<lb break="no" ed="#L" n="45"/>tet quod aliquis prius sit asinus quam sit homo, vel
+            <lb ed="#L" n="46"/>quod prius sit coniugatus quam sit virgo. Et 
+            simi<lb break="no" ed="#L" n="47"/>liter non oportet quod aliquis prius servet 
+            praece<lb break="no" ed="#L" n="48"/>pta in saeculo quam transeat ad religionem: 
+            prae<lb break="no" ed="#L" n="49"/>sertim quia. conversatio saecularis non disponit
+            <lb ed="#L" n="50"/>ad perfectionem religionis, sed magis impedit.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2248-Dd1e759"><!-- p2p2-q189a2 -->
+          <head xml:id="TAca84-d1e2248-Hd1e762">Articulus 2</head>
+          <head xml:id="TAca84-d1e2248-Hd1e764" type="question-title">Utrum debeant aliqui voto obligari ad religionis ingressum</head>
+          <p xml:id="TAca84-d1e2248-d1e767">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="23" type="fixed=539"/>ARTICULUS SECUNDUS
+            <lb ed="#L" n="24"/>UTRUM DEBEANT ALIQUI VOTO OBLIGARI AD RELIGIONIS INGRESSUM
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e776">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="25"/>AD SECUNDUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="26"/>non debeant aliqui voto obligari ad 
+            re<lb break="no" ed="#L" n="27"/>ligionis ingressum. Per professionem
+            <lb ed="#L" n="28"/>enim aliquis voto religioni  
+            adstringi<lb break="no" ed="#L" n="29"/>tur. Sed ante professionem conceditur annus 
+            pro<lb break="no" ed="#L" n="30"/>bationis, secundum regulam beati Benedicti , et
+            <lb ed="#L" n="31"/>secundum statutum Innocentii IV : qui  etiam
+            <lb ed="#L" n="32"/>prohibuit, ante annum probationis completum, eos 
+            <lb ed="#L" n="33"/>per professionem religioni adstringi. Ergo videtur
+            <lb ed="#L" n="34"/>debeant voto ad religionem obligari.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e802">
+            <lb ed="#L" n="35"/>2. PRAETEREA, Gregorius dicit, in Registro, et 
+            <lb ed="#L" n="36"/>habetur in <ref xml:id="TAca84-d1e2248-Rd1e808">Decretis, dist. XLV</ref>, quod Iudaei, 
+            <lb ed="#L" n="37"/>non vi, sed libera voluntate ut convertantur 
+            sua<lb break="no" ed="#L" n="38"/>dendi sunt. Sed implere id quod vovetur, 
+            ne<lb break="no" ed="#L" n="39"/>cessitatis est . Ergo non sunt aliqui obligandi ad -
+            <lb ed="#L" n="40"/>non fit monachus vel religiosus, sed solum 
+            ob<lb break="no" ed="#L" n="41"/>religionis ingressum.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e823">
+            <lb ed="#L" n="42"/>3. PRAETEREA, nullus debet alteri praebere 
+            occa<lb break="no" ed="#L" n="43"/>quod multo minus adhuc in saeculo existentes
+            <lb ed="#L" n="44"/>sionem ruinae: unde Exod. xxi dicitur: Si quis
+            <lb ed="#L" n="45"/>aperuerit cisternam, cecideritque bos vel asinus in 
+            <lb ed="#L" n="46"/>eam dominus cisternae reddet pretium 
+            iumen<lb break="no" ed="#L" n="47"/>torum. Sed ex hoc quod aliqui obligantur ad 
+            re<lb break="no" ed="#L" n="48"/>ligionem per votum, frequenter aliqui ruunt in
+            <lb ed="#L" n="49"/>desperationem et in diversa peccata. Ergo videtur
+            <lb ed="#L" n="50"/>quod non sint aliqui ad religionis ingressum voto
+            <lb ed="#L" n="51"/>obligandi.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e847">
+            <lb ed="#L" n="52"/>SEp coNTRA EsT quod in Psalmo  dicitur: 
+            Vo<lb break="no" ed="#L" n="53"/>vele, et reddite Domino Deo vestro: ubi dicit
+            <lb ed="#L" n="54"/>Glossa  quod quaedam sunt vota propria 
+            sin<lb break="no" ed="#L" n="55"/>gulorum, ut castitas, virginitas et huiusmodi: ad
+            <lb ed="#L" n="56"/>haec ergo vorenda nos invitat. Sed Scriptura
+            <lb ed="#L" n="57"/>sacra? non invitat nisi ad id quod est melius. Ergo
+            <lb ed="#L" n="58"/>melius est quod aliquis voto se obliget ad 
+            reli<lb break="no" ed="#L" n="59"/>gionis ingressum. :
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e867">
+            <lb ed="#L" n="60"/>RESPONDEO DICENDUM quod, sicut supra  
+            di<lb break="no" ed="#L" n="61"/>ctum est, cum de voto ageretur, unum et idem
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="62"/>opus ex voto factum est laudabilius quam si sine
+            <lb ed="#L" n="63"/>voto fiat. Tum quia vovere est actus religionis,
+            <lb ed="#L" n="64"/>quae habet quandam excellentiam inter virtutes.
+            <lb ed="#L" n="65"/>Tum quia per votum firmatur voluntas hominis
+            <lb ed="#L" n="66"/>ad bonum faciendum: et sicut peccatum est 
+            gra<lb break="no" ed="#L" n="67"/>vius ex hoc quod procedit ex voluntate obstinata
+            <lb ed="#L" n="68"/>in malum, ita bonum opus est laudabilius ex
+            <lb ed="#L" n="69"/>hoc quod procedit ex voluntate confirmata in
+            <lb ed="#L" n="70"/>bonum per votum. Et ideo obligari voto ad 
+            re<lb break="no" ed="#L" n="71"/>ligionis ingressum est secundum se laudabile.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e898">
+            <lb ed="#L" n="72"/>AD PRIMUM ERGO DICENDUM quod duplex est 
+            re<lb break="no" ed="#L" n="73"/>ligionis votum. Unum solemne, quod hominem
+            <lb ed="#L" n="74"/>facit monachum vel alterius religionis fratrem:
+            <lb ed="#L" n="75"/>quod vocatur professio. Et tale votum debet 
+            prae<lb break="no" ed="#L" n="76"/>cedere annus probationis, ut probat obiectio. -
+            <lb ed="#L" n="77"/>Aliud autem est votum simplex, ex quo aliquis
+            <lb ed="#L" n="78"/>ligatus ad religionis ingressum. Et ante tale 
+            vo<lb break="no" ed="#L" n="79"/>tum non oportet praecedere probationis annum.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e918">
+            <lb ed="#L" n="80"/>AD SECUNDUM DICENDUM quod auctoritas illa 
+            Gre<lb break="no" ed="#L" n="81"/>gorii intelligitur de violentia absoluta. Necessitas
+            <lb ed="#L" n="82"/>autem quae ex obligatione voti requiritur, non
+            <lb ed="#L" n="83"/>est necessitas absoluta, sed necessitas ex fine:
+            <lb ed="#L" n="84"/>quia scilicet, post votum, non potest aliquis 
+            fi<lb break="no" ed="#L" n="85"/>nem salutis consequi nisi impleat votum. Talis
+            <lb ed="#L" n="86"/>autem necessitas non est vitanda: quinimmo, ut
+            <lb ed="#L" n="87"/>Augustinus dicit, ad Armentarium et Paulinam ,
+            <lb ed="#L" n="88"/>felix est necessitas quae ad meliora transmiltit,
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e940">
+            <lb ed="#L" n="89"/>AD TERTIUM DICENDUM quod vovere religionis
+            <lb ed="#L" n="90"/>ingressum est quaedam confirmatio voluntatis ad
+            <lb ed="#L" n="91"/>meliora. Et ideo, quantum est de se, non dat
+            <lb ed="#L" n="92"/>homini occasionem ruinae, sed magis subtrahit.
+            <lb ed="#L" n="93"/>Sed si aliquis voti transgressor gravius ruat, hoc
+            <lb ed="#L" n="94"/>non derogat bonitati voti: sicut nec derogat 
+            bo<lb break="no" ed="#L" n="95"/>nitati baptismi quod aliqui post baptismum 
+            gra<lb break="no" ed="#L" n="96"/>vius peccant.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2248-Dd1e961"><!-- p2p2-q189a3 -->
+          <head xml:id="TAca84-d1e2248-Hd1e964">Articulus 3</head>
+          <head xml:id="TAca84-d1e2248-Hd1e966" type="question-title">Utrum ille qui obligatus est voto ad religionis ingressum, teneatur intrare</head>
+          <p xml:id="TAca84-d1e2248-d1e969">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="11" type="fixed=540"/>ARTICULUS TERTIUS
+            <lb ed="#L" n="12"/>UTRUM ILLE QUI OBLIGATUS EST VOTO AD RELIGIONIS INGRESSUM, TENEATUR INTRARE
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e978">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="13"/>AD TERTIUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="14"/>ille qui obligatus est voto ad religionis
+            <lb ed="#L" n="15"/>ingressum, non teneatur intrare. Dicitur
+            <lb ed="#L" n="16"/>enim in <ref xml:id="TAca84-d1e2248-Rd1e991">Decretis, XVII, qu. 1</ref> : 
+            Con<lb break="no" ed="#L" n="17"/>saldus presbyter, quondam infirmitatis passione
+            <lb ed="#L" n="18"/>pressus, monachum se fieri promisit, non tamen
+            <lb ed="#L" n="19"/>monasterio aut abbati se tradidit, nec 
+            promissio<lb break="no" ed="#L" n="20"/>nem scripsit, sed beneficium ecclesiae in manu
+            <lb ed="#L" n="21"/>advocati refutavit: ac postquam convaluit, 
+            mo<lb break="no" ed="#L" n="22"/>nachum se negavit fieri. Et postea subdit: 
+            Zudi<lb break="no" ed="#L" n="23"/>camus ut praefatus presbyter beneficium et 
+            al<lb break="no" ed="#L" n="24"/>laria recipiat et quiete retineat. Hoc autem non
+            <lb ed="#L" n="25"/>esset, si teneretur religionem intrare. Ergo 
+            vi<lb break="no" ed="#L" n="26"/>detur quod non teneatur aliquis implere votum
+            <lb ed="#L" n="27"/>quo se ad religionis ingressum obligavit.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1017">
+            <lb ed="#L" n="28"/>2. PRAETEREA, nullus tenetur facere id quod
+            <lb ed="#L" n="29"/>non est in sua potestate. Sed quod aliquis 
+            reli<lb break="no" ed="#L" n="30"/>gionem ingrediatur, non est in potestate ipsius,
+            <lb ed="#L" n="31"/>sed requiritur ad hoc assensus eorum ad quos
+            <lb ed="#L" n="32"/>debet transire. Ergo videtur quod non teneatur
+            <lb ed="#L" n="33"/>aliquis implere votum quo se ad religionis 
+            in<lb break="no" ed="#L" n="34"/>gressum obligavit.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1036">
+            <lb ed="#L" n="35"/>3. PRAETEREA, per votum minus utile non 
+            pot<lb break="no" ed="#L" n="36"/>est derogari voto magis utili. Sed per 
+            impletio<lb break="no" ed="#L" n="37"/>nem voti religionis impediri posset  impletio
+            <lb ed="#L" n="38"/>voti Crucis in subsidium Terrae Sanctae: quod
+            <lb ed="#L" n="39"/>videtur esse utilius, quia per hoc votum 
+            conse<lb break="no" ed="#L" n="40"/>quitur homo remissionem peccatorum . Ergo
+            <lb ed="#L" n="41"/>videtur quod votum quo quis se obligavit ad
+            <lb ed="#L" n="42"/>religionis ingressum, non sit ex necessitate 
+            im<lb break="no" ed="#L" n="43"/>plendum.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1058">
+            <lb ed="#L" n="44"/>SED CONTRA EST quod dicitur Eccle. v : Si quid
+            <lb ed="#L" n="45"/>voristi Deo, ne moreris reddere: displicet enim
+            <lb ed="#L" n="46"/>Deo infidelis et stulla promissio. Et super illud
+            <lb ed="#L" n="47"/>Psalmi , Vovele et reddite Domino Deo vestro,
+            <lb ed="#L" n="48"/>dicit Glossa : Vovere voluntati consulitur: sed
+            <lb ed="#L" n="49"/>post voli promissionem , redditio necessario 
+            exi<lb break="no" ed="#L" n="50"/>gitur.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1076">
+            <lb ed="#L" n="51"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="52"/>est, cum de voto ageretur, votum est promissio
+            <lb ed="#L" n="53"/>Deo facta de his quae ad Deum pertinent. Ut
+            <lb ed="#L" n="54"/>autem Gregorius 5 dicit, in Epistola ad 
+            Bonifa<lb break="no" ed="#L" n="55"/>cium , si inter homines solent bonae fidei 
+            con<lb break="no" ed="#L" n="56"/>tractus nulla ratione dissolvi, quanto magis ista
+            <lb ed="#L" n="57"/>pollicitatio quam cum Deo pepigit, solvi sine 
+            vin<lb break="no" ed="#L" n="58"/>dicta non poterit! Et ideo ad implendum id quod
+            <lb ed="#L" n="59"/>homo vovit, ex necessitate tenetur, dummodo
+            <lb ed="#L" n="60"/>sit aliquid quod ad Deum pertineat. Manifestum
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="61"/>est autem quod ingressus religionis maxime ad
+            <lb ed="#L" n="62"/>Deum pertinet: quia per hoc homo totaliter se
+            <lb ed="#L" n="63"/>mancipat divinis obsequiis, ut ex supra  dictis
+            <lb ed="#L" n="64"/>patet. Unde relinquitur quod ille qui se obligat
+            <lb ed="#L" n="65"/>ad religionis ingressum, teneatur religionem 
+            in<lb break="no" ed="#L" n="66"/>gredi, secundum quod se voto obligare intendit:
+            <lb ed="#L" n="67"/>ita scilicet quod, si intendit se absolute obligare,
+            <lb ed="#L" n="68"/>tenetur quam citius poterit ingredi, legitimo 
+            im<lb break="no" ed="#L" n="69"/>pedimento cessante; si autem ad certum tempus,
+            <lb ed="#L" n="70"/>vel sub certa conditione, tenetur religionem 
+            in<lb break="no" ed="#L" n="71"/>gredi tempore adveniente, vel conditione 
+            exi<lb break="no" ed="#L" n="72"/>stente.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1128">
+            <lb ed="#L" n="73"/>AD PRIMUM ERGO DICENDUM quod ille presbyter
+            <lb ed="#L" n="74"/>non fecerat votum solemne, sed simplex. Unde
+            <lb ed="#L" n="75"/>non erat monachus effectus, ut cogi deberet de
+            <lb ed="#L" n="76"/>iure in monasterio remanere et ecclesiam 
+            dimit<lb break="no" ed="#L" n="77"/>tere. Tamen in foro conscientiae esset sibi 
+            con<lb break="no" ed="#L" n="78"/>sulendum quod, omnibus dimissis, religionem
+            <lb ed="#L" n="79"/>| intraret. Unde Extra, de Voto et Voti redempt.,
+            <lb ed="#L" n="80"/>cap. Per tuas, consulitur episcopo 
+            Gratianopoli<lb break="no" ed="#L" n="81"/>tano Y, qui post votum religionis episcopatum
+            <lb ed="#L" n="82"/>assumpserat, voto non impleto, ut, s; suam 
+            sa<lb break="no" ed="#L" n="83"/>nare desideraret conscientiam , regimen ecclesiae
+            <lb ed="#L" n="84"/>resignaret, et redderet Altissimo vota sua.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1157">
+            <lb ed="#L" n="85"/>AD SECUNDUM DICENDUM quod, sicut supra  
+            di<lb break="no" ed="#L" n="86"/>ctum est, cum de voto ageretur, ille qui se voto
+            <lb ed="#L" n="87"/>obligavit ad certae religionis ingressum, tenetur
+            <lb ed="#L" n="88"/>facere quantum in se est ut in illa religione 
+            re<lb break="no" ed="#L" n="89"/>cipiatur. Et si quidem intendit se simpliciter ad
+            <lb ed="#L" n="90"/>religionem obligare, si non recipitur in una 
+            re<lb break="no" ed="#L" n="91"/>ligione, tenetur ire ad aliam. Si vero intendit se
+            <lb ed="#L" n="92"/>obligare specialiter ad unam solum, non tenetur
+            <lb ed="#L" n="93"/>nisi secundum modum suae obligationis.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1179">
+            <lb ed="#L" n="94"/>AD TERTIUM DICENDUM quod votum religionis,
+            <lb ed="#L" n="95"/>cum sit perpetuum, est maius quam votum 
+            pe<lb break="no" ed="#L" n="96"/>regrinationis Terrae Sanctae, quod est 
+            tempo<lb break="no" ed="#L" n="97"/>rale. Et sicut Alexander III ietb et habetur Extra,
+            <lb ed="#L" n="98"/>de Voto et Voti redempt. , reus fracti voti 
+            ali<lb break="no" ed="#L" n="99"/>quatenus non habetur qui temporale obsequium
+            <lb ed="#L" n="100"/>in perpetuam noscitur religionis observantiam
+            <lb ed="#L" n="101"/>commutare.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1200">
+            <lb ed="#L" n="102"/>Rationabiliter autem dici potest quod etiam
+            <lb ed="#L" n="103"/>per ingressum religionis aliquis consequatur 
+            re<lb break="no" ed="#L" n="104"/>missionem omnium peccatorum. Si enim aliquibus
+            <lb ed="#L" n="105"/>eleemosynis factis homo potest statim satisfacere
+            <lb ed="#L" n="106"/>de peccatis suis, secundum illud Dan. iv , 
+            Pec<lb break="no" ed="#L" n="107"/>cata tua eleemosynis redime; multo magis in
+            <lb ed="#L" n="108"/>tisfactionem pro omnibus peccatis sufficit quod
+            <pb ed="#L" n="541"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>aliquis se totaliter divinis obsequiis mancipet per
+            <lb ed="#L" n="2"/>religionis ingressum, quàe excedit omne genus
+            <lb ed="#L" n="3"/>satisfactionis, etiam publicae poenitentiae, ut 
+            ha<lb break="no" ed="#L" n="4"/>betur in <ref xml:id="TAca84-d1e2248-Rd1e1230">Decretis, XXXIII caus., qu. ii, cap. 
+              Ad<lb break="no" ed="#L" n="5"/>monere</ref>; sicut etiam holocaustum excedit sacri-
+            <lb ed="#L" n="6"/>ficium, ut Gregorius dicit, super Ezech. Unde
+            <lb ed="#L" n="7"/>in Vitis Patrum legitur quod eandem gratiam
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="8"/>consequuntur religionem ingredientes quam 
+            con<lb break="no" ed="#L" n="9"/>sequuntur baptizati.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1247">
+            <lb ed="#L" n="10"/>Si tamen non absolverentur per hoc ab omni
+            <lb ed="#L" n="11"/>reatu poenae, nihilominus ingressus religionis 
+            uti<lb break="no" ed="#L" n="12"/>lior est quam peregrinatio Terrae Sanctae 
+            quan<lb break="no" ed="#L" n="13"/>tum ad promotionem in bonum: quae 
+            praepon<lb break="no" ed="#L" n="14"/>derat absolutioni a poena.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2248-Dd1e1261"><!-- p2p2-q189a4 -->
+          <head xml:id="TAca84-d1e2248-Hd1e1264">Articulus 4</head>
+          <head xml:id="TAca84-d1e2248-Hd1e1266" type="question-title">Utrum ille qui vovet religionem ingredi, teneatur perpetuo in religione permanere</head>
+          <p xml:id="TAca84-d1e2248-d1e1269">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="25" type="fixed=543"/>ARTICULUS QUARTUS
+            <lb ed="#L" n="26"/>UTRUM ILLE QUI VOVET RELIGIONEM INGREDI, TENEATUR PERPETUO IN RELIGIONE PERMANERE
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1278">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="27"/>AD QUARTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="28"/>ille qui vovet religionem ingredi, 
+            tenea<lb break="no" ed="#L" n="29"/>tur perpetuo in religione permanere.
+            <lb ed="#L" n="30"/>Melius est enim religionem non ingredi
+            <lb ed="#L" n="31"/>quam post ingressum. exire: secundum illud II
+            <lb ed="#L" n="32"/>Pet. ii: Melius erat illis veritatem non 
+            cogno<lb break="no" ed="#L" n="33"/>scere quam post agnitam relroire. Et Luc. ix 
+            <lb ed="#L" n="34"/>dicitur: Nemo mittens manum ad aratrum et
+            <lb ed="#L" n="35"/>aspiciens retro, aptus est regno Dei. Sed ille qui
+            <lb ed="#L" n="36"/>voto. se obligavit ad religionis ingressum, tenetur
+            <lb ed="#L" n="37"/>ingredi, ut dictum est . Ergo etiam tenetur 
+            per<lb break="no" ed="#L" n="38"/>petuo remanere.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1309">
+            <lb ed="#L" n="39"/>2. PRAETEREA, quilibet debet vitare id ex quo
+            <lb ed="#L" n="40"/>scandalum sequitur et aliis. datur malum 
+            exem<lb break="no" ed="#L" n="41"/>plum. Sed ex hoc quod aliquis, post religionis
+            <lb ed="#L" n="42"/>ingressum, egreditur et ad saeculum redit, malum
+            <lb ed="#L" n="43"/>exemplum et scandalum aliis generatur, qui 
+            re<lb break="no" ed="#L" n="44"/>trahuntur ab ingressu et provocantur ad exitum,
+            <lb ed="#L" n="45"/>Ergo videtur quod ille. qui ingreditur religionem
+            <lb ed="#L" n="46"/>ut votum impleat quod prius fecit, teneatur. ibi
+            <lb ed="#L" n="47"/>perpetuo remanere.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1332">
+            <lb ed="#L" n="48"/>3. PRAETEREA, votum religionis reputatur votum
+            <lb ed="#L" n="49"/>perpetuum, et ideo temporalibus votis praefertur,
+            <lb ed="#L" n="50"/>ut dictum est . Hoc autem non esset, si aliquis,
+            <lb ed="#L" n="51"/>voto religionis emisso , ingrederetur cum 
+            pro<lb break="no" ed="#L" n="52"/>posito. exeundi. Videtur ergo quod ille qui vovet
+            <lb ed="#L" n="53"/>religionis ingressum, teneatur in religione etiam
+            <lb ed="#L" n="54"/>perpetuo remanere.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1350">
+            <lb ed="#L" n="55"/>SED CONTRA EST, quia votum professionis, 
+            pro<lb break="no" ed="#L" n="56"/>pter hoc quod obligat hominem ad hoc quod
+            <lb ed="#L" n="57"/>perpetuo in religione remaneat, praeexigit annum
+            <lb ed="#L" n="58"/>probationis : qui non praeexigitur ad votum 
+            sim<lb break="no" ed="#L" n="59"/>plex quo aliquis se obligat ad religionis 
+            ingres<lb break="no" ed="#L" n="60"/>sum. Ergo videtur quod ille qui vovet 
+            religio<lb break="no" ed="#L" n="61"/>nem intrare, propter hoc non teneatur ibi 
+            per<lb break="no" ed="#L" n="62"/>petuo remanere.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1370">
+            <lb ed="#L" n="63"/>RESPONDEO DICENDUM quod obligatio voti ex
+            <lb ed="#L" n="64"/>voluntate procedit: nam »overe voluntatis est,
+            <lb ed="#L" n="65"/>ut Augustinus dicit . In tantum ergo fertur ob-
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="66"/>ligaio voti in quantum se extendit voluntas et
+            <lb ed="#L" n="67"/>intentio. voventis. Si igitur vovens intendit se
+            <lb ed="#L" n="68"/>obligare non solum ad ingressum religionis, sed
+            <lb ed="#L" n="69"/>ad perpetuo remanendum, tenetur perpetuo 
+            re<lb break="no" ed="#L" n="70"/>manere. -.Si-autem intendit se obligare ad 
+            in<lb break="no" ed="#L" n="71"/>gressum religionis causa experiendi, cum 
+            liber<lb break="no" ed="#L" n="72"/>tate remanendi vel non remanendi: manifestum
+            <lb ed="#L" n="73"/>est quod remanere non tenetur. - Si vero in
+            <lb ed="#L" n="74"/>vovendo simpliciter de ingressu religionis 
+            cogi<lb break="no" ed="#L" n="75"/>tavit, absque hoc quod cogitaret de libertate exitus
+            <lb ed="#L" n="76"/>vel- de perpetuitate remanendi: videtur obligari
+            <lb ed="#L" n="77"/>ad ingressum secundum formam iuris communis,
+            <lb ed="#L" n="78"/>quae est ut ingredientibus detur probationis 
+            an<lb break="no" ed="#L" n="79"/>nus . Unde non tenetur perpetuo in religione
+            <lb ed="#L" n="80"/>remanere.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1414">
+            <lb ed="#L" n="81"/>AD PRIMUM ERGO DICENDUM quod melius est 
+            in<lb break="no" ed="#L" n="82"/>trare religionem animo probandi, quam penitus
+            <lb ed="#L" n="83"/>non intrare: quia per hoc disponitur ad 
+            perpe<lb break="no" ed="#L" n="84"/>tuo remanendum. Nec tamen intelligitur aliquis
+            <lb ed="#L" n="85"/>retro ire vel aspicere, nisi quando praetermittit
+            <lb ed="#L" n="86"/>id ad quod se obligavit. Alioquin quicumque
+            <lb ed="#L" n="87"/>per aliquod tempus facit aliquod bonum opus, si
+            <lb ed="#L" n="88"/>non semper id faciat, esset ineptus regno Dei:
+            <lb ed="#L" n="89"/>quod patet esse falsum.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1436">
+            <lb ed="#L" n="90"/>AD SECUNDUM DICENDUM quod ille qui 
+            religio<lb break="no" ed="#L" n="91"/>nem ingreditur, si exeat, praesertim ex aliqua
+            <lb ed="#L" n="92"/>rationabili causa, non generat scandalum nec dat
+            <lb ed="#L" n="93"/>malum exemplum. Et si alius scandalizatur, erit
+            <lb ed="#L" n="94"/>scandalum passivum ex parte eius, non autem
+            <lb ed="#L" n="95"/>scandalum activum ex parte exeuntis: quia fecit
+            <lb ed="#L" n="96"/>quod licitum erat ei facere, et quod expediebat
+            <lb ed="#L" n="97"/>propter rationabilem causam, puta infirmitatem
+            <lb ed="#L" n="98"/>aut debilitatem aut aliquid huiusmodi.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1458">
+            <lb ed="#L" n="99"/>AD TERTIUM DICENDUM quod ille qui intrat ut
+            <lb ed="#L" n="100"/>statim exeat, non videtur satisfacere voto suo:
+            <lb ed="#L" n="101"/>quia ipse in vovendo hoc non intendit. Et ideo
+            <lb ed="#L" n="102"/>tenetur mutare propositum, ut saltem velit 
+            ex<lb break="no" ed="#L" n="103"/>periri an ei expediat in religione remanere. Non
+            <lb ed="#L" n="104"/>autem tenetur ad perpetuo remanendum.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2248-Dd1e1475"><!-- p2p2-q189a5 -->
+          <head xml:id="TAca84-d1e2248-Hd1e1478">Articulus 5</head>
+          <head xml:id="TAca84-d1e2248-Hd1e1480" type="question-title">Utrum pueri sint recipiendi in religione</head>
+          <p xml:id="TAca84-d1e2248-d1e1483">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="21" type="fixed=545"/>ARTICULUS QUINTUS
+            <lb ed="#L" n="22"/>UTRUM PUERI SINT RECIPIENDI IN RELIGIONE
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1492">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="23"/>AD QUINTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="24"/>pueri non sint recipiendi in religione.
+            <lb ed="#L" n="25"/>Quia Extra, de Regularibus et 
+            irans<lb break="no" ed="#L" n="26"/>eunt. ad Relig. , dicitur: Nullus 
+            ton<lb break="no" ed="#L" n="27"/>deatur, nisi legitima aetate et spontanea voluntate.
+            <lb ed="#L" n="28"/>Sed pueri non videntur habere legitimani 
+            aeta<lb break="no" ed="#L" n="29"/>tem nec spontaneam voluntatem: quia non 
+            ha<lb break="no" ed="#L" n="30"/>bent perfecte usum rationis. Ergo videtur quod
+            <lb ed="#L" n="31"/>non sint in religione recipiendi.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1516">
+            <lb ed="#L" n="32"/>2. PRAETEREA, status religionis videtur esse
+            <lb ed="#L" n="33"/>status poenitentiae: unde et religio dicitur a 
+            re<lb break="no" ed="#L" n="34"/>ligando vel reeligendo, ut <ref xml:id="TAca84-d1e2248-Rd1e1524">Augustinus dicit,
+              <lb ed="#L" n="35"/>X de Civ. Dei</ref>. Sed pueris non convenit 
+            poe<lb break="no" ed="#L" n="36"/>nitentia. Ergo videtur quod non debeant 
+            religio<lb break="no" ed="#L" n="37"/>nem intrare.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1536">
+            <lb ed="#L" n="38"/>3. PRAETEREA, sicut aliquis obligatur iuramento,
+            <lb ed="#L" n="39"/>ita et voto. Sed pueri, ante annos quatuordecim,
+            <lb ed="#L" n="40"/>non debent obligari iuramento: ut habetur in
+            <lb ed="#L" n="41"/>Decretis, XXII caus., qu. v, cap. Pueri, et cap.
+            <lb ed="#L" n="42"/>Honestum. Ergo videtur quod nec etiam sint
+            <lb ed="#L" n="43"/>voto obligandi.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1552">
+            <lb ed="#L" n="44"/>4. PRAETEREA, illicitum videtur esse obligare
+            <lb ed="#L" n="45"/>aliquem tali obligatione quae posset iuste irritari.
+            <lb ed="#L" n="46"/>Sed si aliqui impuberes obligant se religioni,
+            <lb ed="#L" n="47"/>possunt retrahi a parentibus vel tutoribus: 
+            dici<lb break="no" ed="#L" n="48"/>tur enim in <ref xml:id="TAca84-d1e2248-Rd1e1565">Decretis, XX caus., qu. n</ref>, quod
+            <lb ed="#L" n="49"/>puella si ante duodecim aetatis annos sponte sua
+            <lb ed="#L" n="50"/>sacrum, velamen. assumpserit, possunt statim. 
+            pa<lb break="no" ed="#L" n="51"/>rentes eius vel tutores id factum irritum facere,
+            <lb ed="#L" n="52"/>si voluerint. lllicitum est ergo pueros, praesertim
+            <lb ed="#L" n="53"/>ante pubertatis annos, ad religionem recipere vel
+            <lb ed="#L" n="54"/>obligare.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1581">
+            <lb ed="#L" n="55"/>SEp coNTRA EsT quod Dominus, <ref xml:id="TAca84-d1e2248-Rd1e1585">Matth. xix</ref>,
+            <lb ed="#L" n="56"/>dicit: Sinite parvulos, et nolite eos prohibere 
+            ve<lb break="no" ed="#L" n="57"/>nire ad me. Quod exponens Origenes, super
+            <lb ed="#L" n="58"/>Matth. , dicit quod discipuli Iesu, priusquam 
+            di<lb break="no" ed="#L" n="59"/>scant rationem iustitiae, reprehendunt eos qui 
+            pue<lb break="no" ed="#L" n="60"/>ros et infantes offerunt Christo: Dominus autem
+            <lb ed="#L" n="61"/>exhortatur discipulos suos condescendere 
+            utilitati<lb break="no" ed="#L" n="62"/>bus puerorum. Hoc ergo aitendere debemus, ne,
+            <lb ed="#L" n="63"/>aestimatione sapientiae excellentioris, 
+            contemna<lb break="no" ed="#L" n="64"/>mus, quasi magni, pusillos Ecclesiae, prohibentes
+            <lb ed="#L" n="65"/>pueros venire ad lesum.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1610">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="66"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="67"/>est, duplex est religionis votum. Unum simplex,
+            <lb ed="#L" n="68"/>quod consistit in sola promissione Deo facta, quae
+            <lb ed="#L" n="69"/>ex interiori mentis deliberatione procedit. Et hoc
+            <lb ed="#L" n="70"/>votum habet efficaciam ex iure divino. Quae ?
+            <lb ed="#L" n="71"/>tamen dupliciter tolii potest. Uno modo; per
+            <lb ed="#L" n="72"/>defectum deliberationis: ut patet in furiosis, 
+            quo<lb break="no" ed="#L" n="73"/>rum vota non sunt obligatoria, ut habetur Extra,
+            <lb ed="#L" n="74"/>de Regularibus et transeunt. ad Relig., cap. Sicut
+            <lb ed="#L" n="75"/>lenor. Et eadem est ratio de pueris qui 
+            non<lb break="no" ed="#L" n="76"/>dum habent debitum usum rationis, per quem
+            <lb ed="#L" n="77"/>sunt  doli capaces: quem quidem pueri habent,
+            <lb ed="#L" n="78"/>ut frequentius, circa quartumdecimum annum,
+            <lb ed="#L" n="79"/>puellae vero. circa duodecimum, qui. dicuntur
+            <lb ed="#L" n="80"/>anni pubertatis. In quibusdam tamen anticipatur,
+            <lb ed="#L" n="81"/>et in quibusdam tardatur, secundum diversam
+            <lb ed="#L" n="82"/>dispositionem naturae. - Alio modo impeditur
+            <lb ed="#L" n="83"/>efficacia simplicis voti, si aliquis Deo- voveat
+            <lb ed="#L" n="84"/>quod ? non est propriae potestatis: puta si servus,
+            <lb ed="#L" n="85"/>etiam usum rationis habens, voveat se religionem
+            <lb ed="#L" n="86"/>intrare, aut etiam ordinetur, ignorante domino ;
+            <lb ed="#L" n="87"/>potest enim hoc dominus revocare, ut habetur
+            <lb ed="#L" n="88"/>in <ref xml:id="TAca84-d1e2248-Rd1e1664">Decretis, dist. LIV, cap. Si servus</ref>. Et quia
+            <lb ed="#L" n="89"/>puer vel puella, infra pubertatis annos, 
+            natura<lb break="no" ed="#L" n="90"/>liter sunt in potestate patris quantum ad 
+            dispo<lb break="no" ed="#L" n="91"/>sitionem suae vitae, poterit pater votum eorum
+            <lb ed="#L" n="92"/>revocare vel acceptare, si sibi placuerit; ut 
+            ex<lb break="no" ed="#L" n="93"/>presse dicitur de muliere, Num. xxx .
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1678">
+            <lb ed="#L" n="94"/>Sic igitur si puer, ante annos pubertatis, 
+            sim<lb break="no" ed="#L" n="95"/>plex votum emittat, antequam habeat plenum
+            <lb ed="#L" n="96"/>usum rationis, non obligatur ex voto. - Si autem
+            <lb ed="#L" n="97"/>habeat usum rationis ante annos pubertatis, 
+            ob<lb break="no" ed="#L" n="98"/>ligatur quidem quantum in se est, ex suo voto:
+            <lb ed="#L" n="99"/>tamen potest obligatio removeri per auctoritatem
+            <lb ed="#L" n="100"/>patris, in cuius potestate adhuc existit; quia 
+            or<lb break="no" ed="#L" n="101"/>dinatio legis, qua unus homo subditur alteri, 
+            re<lb break="no" ed="#L" n="102"/>spicit id quod in pluribus accidit. - Si vero annos
+            <lb ed="#L" n="103"/>pubertatis excedat, non potest revocari auctoritate
+            <lb ed="#L" n="104"/>parentum; si tamen nondum haberet plenum
+            <lb ed="#L" n="105"/>usum rationis, non obligaretur quoad Deum.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1707">
+            <lb ed="#L" n="106"/>Aliud autem est votum solemne, quod facit
+            <lb ed="#L" n="107"/>monachum vel religiosum. Quod quidem subditur
+            <lb ed="#L" n="108"/>ordinationi Ecclesiae, propter solemnitatem quam
+            <pb ed="#L" n="546"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>habet annexam. Et quia Ecclesia respicit id quod
+            <lb ed="#L" n="2"/>in pluribus est, professio ante tempus pubertatis
+            <lb ed="#L" n="3"/>facta, quantumcunque aliquis habeat usum 
+            ra<lb break="no" ed="#L" n="4"/>tionis plenum, ut  sit doli capax, non habet suum
+            <lb ed="#L" n="5"/>effectum, ut faciat profitentem esse iam 
+            reli<lb break="no" ed="#L" n="6"/>giosum .
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1734">
+            <lb ed="#L" n="7"/>Et tamen, licet ante annos pubertatis profiteri
+            <lb ed="#L" n="8"/>non possint, possunt tamen, cum voluntate 
+            pa<lb break="no" ed="#L" n="9"/>rentum, in religione recipi ut nutriantur ibidem:
+            <lb ed="#L" n="10"/>sicut de Ioanne Baptista legitur, Luc. 1 , quod
+            <lb ed="#L" n="11"/>puer crescebat, et confortabatur spiritu, et erat
+            <lb ed="#L" n="12"/>in desertis. Unde, sicut Gregorius dicit, in II 
+            Dia<lb break="no" ed="#L" n="13"/>log. , beato Benedicto Romani nobiles suos filios
+            <lb ed="#L" n="14"/>omnipotenti Deo nutriendos dare coeperunt. Quod
+            <lb ed="#L" n="15"/>est valde expediens: secundum illud ZLren. in :
+            <lb ed="#L" n="16"/>Bonum est viro cum portaverit iugum ab 
+            ado<lb break="no" ed="#L" n="17"/>lescentia sua. Unde ex communi consuetudine
+            <lb ed="#L" n="18"/>pueri applicantur illis officiis vel artibus in quibus
+            <lb ed="#L" n="19"/>sunt vitam acturi.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1765">
+            <lb ed="#L" n="20"/>AD PRIMUM ERGO DICENDUM quod legitima aetas
+            <lb ed="#L" n="21"/>ad hoc quod aliquis tondeatur cum voto solemni
+            <lb ed="#L" n="22"/>religionis, est tempus pubertatis, in quo homo
+            <lb ed="#L" n="23"/>potest uti spontanea voluntate. Sed ante annos
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="24"/>pubertatis potest esse legitima aetas ad hoc quod
+            <lb ed="#L" n="25"/>aliquis tondeatur in religione nutriendus.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1783">
+            <lb ed="#L" n="26"/>AD SECUNDUM DICENDUM quod religionis status
+            <lb ed="#L" n="27"/>principaliter ordinatur ad perfectionem . 
+            conse<lb break="no" ed="#L" n="28"/>quendam, ut supra  habitum est. Et secundum
+            <lb ed="#L" n="29"/>hoc, convenit pueris, qui de facili imbuuntur , Ex
+            <lb ed="#L" n="30"/>consequenti autem dicitur esse status poenitentiae,
+            <lb ed="#L" n="31"/>inquantum per observantiam religionis 
+            peccato<lb break="no" ed="#L" n="32"/>rum occasiones tolluntur, ut supra  dictum est.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1801">
+            <lb ed="#L" n="33"/>AD TERTIUM DICENDUM quod pueri, sicut non
+            <lb ed="#L" n="34"/>coguntur ad iurandum, ut canon dicit, ita non
+            <lb ed="#L" n="35"/>coguntur ad vovendum. Si tamen voto vel 
+            iu<lb break="no" ed="#L" n="36"/>ramento se adstrinxerint ad aliquid faciendum,
+            <lb ed="#L" n="37"/>obligantur quoad Deum, si habeant usum 
+            ratio<lb break="no" ed="#L" n="38"/>nis: licet non obligentur quoad Ecclesiam ante
+            <lb ed="#L" n="39"/>quatuordecim annos.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1819">
+            <lb ed="#L" n="40"/>AD QUARTUM DICENDUM quod Num. xxx non 
+            re<lb break="no" ed="#L" n="41"/>prehenditur mulier in puellari aetate constituta,
+            <lb ed="#L" n="42"/>si voveat absque consensu parentum: potest 
+            ta<lb break="no" ed="#L" n="43"/>men revocari a parentibus. Ex quo patet quod
+            <lb ed="#L" n="44"/>non peccat vovendo: sed intelligitur se voto 
+            ob<lb break="no" ed="#L" n="45"/>ligare quantum in se est, absque praeiudicio 
+            au<lb break="no" ed="#L" n="46"/>ctoritatis paternae.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2248-Dd1e1838"><!-- p2p2-q189a6 -->
+          <head xml:id="TAca84-d1e2248-Hd1e1841">Articulus 6</head>
+          <head xml:id="TAca84-d1e2248-Hd1e1843" type="question-title">Utrum propter obsequium parentum debeant aliqui retrahi ab ingressu religionis</head>
+          <p xml:id="TAca84-d1e2248-d1e1846">
+            <pb ed="#L" n="547"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=547"/>ARTICULUS SEXTUS
+            <lb ed="#L" n="2"/>UTRUM PROPTER OBSEQUIUM PARENTUM DEBEANT ALIQUI RETRAHI AB INGRESSU RELIGIONIS
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1857">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD SEXTUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>propter obsequium parentum debeant
+            <lb ed="#L" n="5"/>aliqui retrahi ab ingressu religionis. Non
+            <lb ed="#L" n="6"/>enim licet praetermittere id quod est
+            <lb ed="#L" n="7"/>necessitatis, ut fiat id quod est  liberum 
+            volun<lb break="no" ed="#L" n="8"/>tati. Sed obsequi parentibus cadit sub necessitate
+            <lb ed="#L" n="9"/>praecepti quod datur de honoratione parentum,
+            <lb ed="#L" n="10"/>Exod. xx : unde et Apostolus dicit, I ad Tim. v:
+            <lb ed="#L" n="11"/>Si qua vidua filios aut nepotes habet, discat 
+            pri<lb break="no" ed="#L" n="12"/>mum domum suam regere, et mutuam vicem 
+            red<lb break="no" ed="#L" n="13"/>dere parentibus. lngredi autem religionem est
+            <lb ed="#L" n="14"/>liberum voluntati. Ergo videtur quod non debeat
+            <lb ed="#L" n="15"/>aliquis praetermittere parentum obsequium 
+            pro<lb break="no" ed="#L" n="16"/>pter religionis ingressum.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1892">
+            <lb ed="#L" n="17"/>2. PRAETEREA, maior videtur esse subiectio
+            <lb ed="#L" n="18"/>filii ad parentes quam servi ad dominum: quia
+            <lb ed="#L" n="19"/>filiatio est naturalis; servitus autem ex 
+            maledi<lb break="no" ed="#L" n="20"/>ctione peccati, ut patet Gen. ix . Sed servus non
+            <lb ed="#L" n="21"/>potest praetermittere obsequium domini sui ut
+            <lb ed="#L" n="22"/>religionem ingrediatur aut sacrum ordinem 
+            assu<lb break="no" ed="#L" n="23"/>mat: sicut habetur in Decretis, dist. LIV, Si 
+            ser<lb break="no" ed="#L" n="24"/>vus. Ergo multo minus filius potest obsequium
+            <lb ed="#L" n="25"/>patris praetermittere ut ingrediatur religionem.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1915">
+            <lb ed="#L" n="26"/>3. PRAETEREA, maiori debito obligatur aliquis
+            <lb ed="#L" n="27"/>parentibus quam his quibus debet pecuniam. Sed
+            <lb ed="#L" n="28"/>illi qui debent pecuniam aliquibus, non possunt
+            <lb ed="#L" n="29"/>religionem ingredi: dicit enim Gregorius, in .
+            Re<lb break="no" ed="#L" n="30"/>gist., et habetur in Decretis, dist. LIII , quod
+            <lb ed="#L" n="31"/>si hi qui sunt rationibus publicis obligati, 
+            quan<lb break="no" ed="#L" n="32"/>doque monasterium petunt, nullo modo 
+            susci<lb break="no" ed="#L" n="33"/>piendi sunt, nisi prius a negotiis publicis fuerint
+            <lb ed="#L" n="34"/>absoluti. Ergo videtur quod multo minus filii
+            <lb ed="#L" n="35"/>possunt religionem ingredi, praetermisso paterno
+            <lb ed="#L" n="36"/>obsequio.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1941">
+            <lb ed="#L" n="37"/>SED CONTRA EST quod Matth. iv  dicitur quod
+            <lb ed="#L" n="38"/>Iacobus et Ioannes, relictis retibus et patre, 
+            se<lb break="no" ed="#L" n="39"/>cuti sunt Dominum. Ex quo, ut Hilarius dicit ,
+            <lb ed="#L" n="40"/>docemur, Christum  secuturi, et saecularis vitae
+            <lb ed="#L" n="41"/>sollicitudine et paternae domus consuetudine non
+            <lb ed="#L" n="42"/>teneri.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1957">
+            <lb ed="#L" n="43"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="44"/>est, cum de pietate ageretur, parentes habent
+            <lb ed="#L" n="45"/>rationem principii, inquantum huiusmodi: et ideo
+            <lb ed="#L" n="46"/>per se eis convenit ut filiorum curam habeant.
+            <lb ed="#L" n="47"/>Et propter hoc, non liceret alicui filios habenti
+            <lb ed="#L" n="48"/>religionem ingredi, omnino praetermissa cura 
+            fi<lb break="no" ed="#L" n="49"/>liorum, idest, non proviso qualiter educari 
+            pos<lb break="no" ed="#L" n="50"/>sint : dicitur enim I ad Tim. v , quod si quis
+            <lb ed="#L" n="51"/>suorum curam non habet, fidem negavit, et est
+            <lb ed="#L" n="52"/>infideli deterior. Per accidens tamen parentibus
+            <lb ed="#L" n="53"/>convenit ut a filiis adiuventur: inquantum 
+            scili<lb break="no" ed="#L" n="54"/>cet sunt in necessitate aliqua constituti,
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e1986">
+            <lb ed="#L" n="55"/>Et ideo dicendum est quod, parentibus in
+            <lb ed="#L" n="56"/>necessitate existentibus ita quod eis commode
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="57"/>aliter quam per obsequium filiorum subveniri
+            <lb ed="#L" n="58"/>non possit, non licet filiis, praetermisso parentum
+            <lb ed="#L" n="59"/>obsequio, religionem intrare. Si vero non sint in
+            <lb ed="#L" n="60"/>tali necessitate ut filiorum obsequio multum 
+            in<lb break="no" ed="#L" n="61"/>digeant, possunt, praetermisso parentum 
+            obse<lb break="no" ed="#L" n="62"/>quio, filii religionem intrare, etiam contra 
+            prae<lb break="no" ed="#L" n="63"/>ceptum parentum: quia post annos pubertatis,
+            <lb ed="#L" n="64"/>quilibet ingenuus libertatem habet quantum ad
+            <lb ed="#L" n="65"/>ea quae pertinent ad dispositionem sui status,
+            <lb ed="#L" n="66"/>praesertim in his quae sunt divini obsequii; et
+            <lb ed="#L" n="67"/>magis est obtemperandum Patri spirituum, ut 
+            vi<lb break="no" ed="#L" n="68"/>vamus, quam parentibus carnis, ut Apostolus,
+            <lb ed="#L" n="69"/>Heb. xu , dicit. Unde Dominus, ut legitar Matth.
+            <lb ed="#L" n="70"/>vur et Luc. ix , reprehendit discipulum qui
+            <lb ed="#L" n="71"/>nolebat eum statim sequi intuitu paternae 
+            sepul<lb break="no" ed="#L" n="72"/>turae: erant enim alii per quos illud opus impleri
+            <lb ed="#L" n="73"/>poterat, ut Chrysostomus dicit .
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2032">
+            <lb ed="#L" n="74"/>AD PRIMUM ERGO DICENDUM quod praeceptum de
+            <lb ed="#L" n="75"/>honoratione parentum non solum se extendit ad
+            <lb ed="#L" n="76"/>corporalia obsequia, sed etiam ad spiritualia, et
+            <lb ed="#L" n="77"/>ad reverentiam exhibendam. Et ideo etiam illi
+            <lb ed="#L" n="78"/>qui sunt in religione implere possunt praeceptum
+            <lb ed="#L" n="79"/>de honoratione parentum, pro eis orando, et eis
+            <lb ed="#L" n="80"/>reverentiam et auxilium impendendo, secundum
+            <lb ed="#L" n="81"/>quod religiosos decet. Quia etiam illi qui in 
+            sae<lb break="no" ed="#L" n="82"/>culo vivunt, diversimode parentes honorant, 
+            se<lb break="no" ed="#L" n="83"/>cundum eorum conditionem.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2056">
+            <lb ed="#L" n="84"/>AD SECUNDUM DICENDUM quod, quia servitus est
+            <lb ed="#L" n="85"/>in poenam peccati inducta, ideo per servitutem
+            <lb ed="#L" n="86"/>aliquid adimitur homini quod alias ei competeret,
+            <lb ed="#L" n="87"/>ne scilicet libere de sua persona possit. 
+            dispo<lb break="no" ed="#L" n="88"/>nere: servus enim id quod est, domini est . Sed
+            <lb ed="#L" n="89"/>filius non patitur detrimentum ex hoc quod 
+            sub<lb break="no" ed="#L" n="90"/>iectus est patri, quin possit de sua persona 
+            li<lb break="no" ed="#L" n="91"/>bere disponere transferendo se ad obsequium
+            <lb ed="#L" n="92"/>Dei: quod maxime pertinet ad hominis bonum.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2079">
+            <lb ed="#L" n="93"/>AD TERTIUM DICENDUM quod ille qui est 
+            obli<lb break="no" ed="#L" n="94"/>gatus ad aliquid certum, non potest illud licite
+            <lb ed="#L" n="95"/>praetermittere, facultate exstante ?. Et ideo si 
+            ali<lb break="no" ed="#L" n="96"/>quis sit obligatus ut alicui rationem ponat, vel
+            <lb ed="#L" n="97"/>ut certum debitum reddat, non potest hoc licite
+            <lb ed="#L" n="98"/>praetermittere ut religionem ingrediatur. Si tamen
+            <lb ed="#L" n="99"/>debeat aliquam pecuniam et non habeat unde
+            <lb ed="#L" n="100"/>reddat, tenetur facere quod potest: ut scilicet
+            <lb ed="#L" n="101"/>cedat bonis suis creditori. Propter pecuniam 
+            au<lb break="no" ed="#L" n="102"/>tem persona liberi hominis, secunduin iura 
+            ci<lb break="no" ed="#L" n="103"/>vilia , non obligatur, sed solum res: quia 
+            per<lb break="no" ed="#L" n="104"/>sona liberi hominis superat omnem aestimationem
+            <lb ed="#L" n="105"/>pecuniae . Unde potest licite, exhibitis rebus suis,
+            <lb ed="#L" n="106"/>religionem intrare, nec tenetur in saeculo 
+            rema<lb break="no" ed="#L" n="107"/>nere ut procuret unde debitum reddat. - Filius
+            <lb ed="#L" n="108"/>autem non tenetur ad aliquod speciale debitum
+            <lb ed="#L" n="109"/>patri: nisi forte in casu necessitatis, ut dictum
+            <lb ed="#L" n="110"/>est.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2248-Dd1e2123"><!-- p2p2-q189a7 -->
+          <head xml:id="TAca84-d1e2248-Hd1e2126">Articulus 7</head>
+          <head xml:id="TAca84-d1e2248-Hd1e2128" type="question-title">Utrum presbyteri curati possint licite religionem ingredi</head>
+          <p xml:id="TAca84-d1e2248-d1e2131">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="15" type="fixed=548"/>ARTICULUS SEPTIMUS
+            <lb ed="#L" n="16"/>UTRUM PRESBYTERI CURATI POSSINT LICITE RELIGIONEM INGREDI
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2140">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="17"/>AD SEPTIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="18"/>presbyteri curati non possunt licite 
+            re<lb break="no" ed="#L" n="19"/>ligionem ingredi. Dicit enim Gregorius,
+            <lb ed="#L" n="20"/>Pastoral. , quod ille qui curam 
+            ani<lb break="no" ed="#L" n="21"/>marum suscipit, Zerribiliter admonetur cum 
+            dici<lb break="no" ed="#L" n="22"/>iur: Fili mi, si spoponderis pro amico tuo, 
+            de<lb break="no" ed="#L" n="23"/>fixisti apud extraneum manum  tuam. Et subdit:
+            <lb ed="#L" n="24"/>Spondere namque pro amico est animam alienam
+            <lb ed="#L" n="25"/>in periculo suae conversationis accipere. Sed ille
+            <lb ed="#L" n="26"/>qui obligatur homini pro aliquo debito, non 
+            pot<lb break="no" ed="#L" n="27"/>est intrare religionem nisi solvat id quod debet,
+            <lb ed="#L" n="28"/>si possit . Cum ergo sacerdos possit curam 
+            ani<lb break="no" ed="#L" n="29"/>8 marum agere, ad quam se obligavit in periculo ?
+            <lb ed="#L" n="30"/>animae suae, videtur quod non liceat ei, 
+            prae<lb break="no" ed="#L" n="31"/>termissa cura animarum, religionem intrare.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2177">
+            <lb ed="#L" n="32"/>2. PRAETEREA, quod uni licet, pari ratione 
+            omni<lb break="no" ed="#L" n="33"/>bus similibus licet. Sed si omnes presbyteri 
+            ha<lb break="no" ed="#L" n="34"/>bentes curam animarum religionem intrarent, 
+            re<lb break="no" ed="#L" n="35"/>manerent plebes absque cura pastorum: quod
+            <lb ed="#L" n="36"/>esset inconveniens. Ergo videtur quod presbyteri
+            <lb ed="#L" n="37"/>curati non possint licite religionem intrare.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2194">
+            <lb ed="#L" n="38"/>3. PRAETEREA, inter actus ad quos religiones
+            <lb ed="#L" n="39"/>ordinantur, praecipui sunt illi quibus aliquis 
+            con<lb break="no" ed="#L" n="40"/>templata aliis tradit. Huiusmodi autem  actus
+            <lb ed="#L" n="41"/>competunt presbyteris curatis et archidiaconis,
+            <lb ed="#L" n="42"/>quibus ex officio competit praedicare et 
+            confes<lb break="no" ed="#L" n="43"/>siones audire. Ergo videtur quod non liceat 
+            pre<lb break="no" ed="#L" n="44"/>sbytero curato vel archidiacono. transire ad 
+            re<lb break="no" ed="#L" n="45"/>ligionem.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2214">
+            <lb ed="#L" n="46"/>SEp coNTRA EsT quod in Decretis, XIX caus.,
+            <lb ed="#L" n="47"/>qu. ii, cap. Duae sunt leges, dicitur: Si quis 
+            cle<lb break="no" ed="#L" n="48"/>ricorum in ecclesia sua sub episcopo populum 
+            re<lb break="no" ed="#L" n="49"/>tinet et saeculariter vivit, si, afflatus Spiritu 
+            San<lb break="no" ed="#L" n="50"/>cto, in aliquo monasterio vel regulari canonica
+            <lb ed="#L" n="51"/>salvari se voluerit, etiam episcopo suo 
+            contradi<lb break="no" ed="#L" n="52"/>dente, eat liber, nostra auctoritate.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2232">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="53"/>RESPONDEO DICENDUM quod, sicut supra  dictum
+            <lb ed="#L" n="54"/>est, obligatio voti perpetui praefertur omni alii
+            <lb ed="#L" n="55"/>obligationi. Obligari autem voto perpetuo et 
+            so<lb break="no" ed="#L" n="56"/>lemni ad vacandum divinis obsequiis, competit
+            <lb ed="#L" n="57"/>proprie episcopis et religiosis . Presbyteri autem
+            <lb ed="#L" n="58"/>curati et archidiaconi non obligantur voto 
+            per<lb break="no" ed="#L" n="59"/>petuo et solemni ad curam animarum 
+            retinen<lb break="no" ed="#L" n="60"/>dam, sicut ad hoc obligantur episcopi. Unde 
+            epi<lb break="no" ed="#L" n="61"/>scopi praesulatum non possunt deserere 
+            quacum<lb break="no" ed="#L" n="62"/>que occasione, absque auctoritate Romani 
+            Ponti<lb break="no" ed="#L" n="63"/>ficis, ut habetur Extra, de Regularibus et 
+            trans<lb break="no" ed="#L" n="64"/>euntib. ad Relig., cap. Licet.: archidiaconi autem
+            <lb ed="#L" n="65"/>et presbyteri curati possunt libere abrenuntiare
+            <lb ed="#L" n="66"/>episcopo curam eis commissam, absque speciali
+            <lb ed="#L" n="67"/>licentia Papae, qui solus potest in votis perpetuis
+            <lb ed="#L" n="68"/>dispensare. Unde manifestum est quod 
+            archidia<lb break="no" ed="#L" n="69"/>conis et presbyteris curatis licet ad religionem
+            <lb ed="#L" n="70"/>transire. "
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2276">
+            <lb ed="#L" n="71"/>AD PRIMUM ERGO DICENDUM quod presbyteri 
+            cu<lb break="no" ed="#L" n="72"/>rati et archidiaconi obligaverunt se ad curam
+            <lb ed="#L" n="73"/>agendam subditorum quandiu retinent 
+            archidia<lb break="no" ed="#L" n="74"/>conatum vel parochiam. Non autem obligaverunt
+            <lb ed="#L" n="75"/>se ad hoc quod perpetuo archidiaconatum vel
+            <lb ed="#L" n="76"/>parochiam teneant.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2292">
+            <lb ed="#L" n="77"/>AD SECUNDUM DICENDUM quod, sicut Hieronymus
+            <lb ed="#L" n="78"/>dicit, contra Vigilantium : Quamvis a te linguae
+            <lb ed="#L" n="79"/>vipereae morsus saevissimos patiantur, scilicet 
+            re<lb break="no" ed="#L" n="80"/>ligiosi, quibus argumentaris, et dicis: Si omnes
+            <lb ed="#L" n="81"/>se clauserint et fuerint in solitudine, quis celebrabit
+            <lb ed="#L" n="82"/>ecclesias? Quis saeculares homines lucrifaciet?
+            <lb ed="#L" n="83"/>Quis peccantes ad virtutes. poterit exhortari? Hoc
+            <lb ed="#L" n="84"/>enim modo, si omnes tecum fatui sint, sapiens
+            <lb ed="#L" n="85"/>esse quis poterit? Et virginitas non erit 
+            appro<lb break="no" ed="#L" n="86"/>banda: si enim virgines omnes fuerint et nuptiae
+            <lb ed="#L" n="87"/>non erunt , interibit genus humanum. Rara est
+            <lb ed="#L" n="88"/>virtus, nec a pluribus appetitur. Patet ergo quod.
+            <lb ed="#L" n="89"/>hic timor stultus est: puta, sicut si aliquis timeret
+            <lb ed="#L" n="90"/>haurire aquam, ne flumen deficeret .
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2248-Dd1e2326"><!-- p2p2-q189a8 -->
+          <head xml:id="TAca84-d1e2248-Hd1e2329">Articulus 8</head>
+          <head xml:id="TAca84-d1e2248-Hd1e2331" type="question-title">Utrum liceat de una religione transire ad aliam</head>
+          <p xml:id="TAca84-d1e2248-d1e2334">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="19" type="fixed=549"/>ARTICULUS OCTAVUS
+            <lb ed="#L" n="20"/>UTRUM LICEAT DE UNA RELIGIONE TRANSIRE AD ALIAM
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2343">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="21"/>AD OCTAVUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="22"/>non liceat de una religione transire ad
+            <lb ed="#L" n="23"/>aliam, etiam arctiorem. Dicit enim 
+            Apo<lb break="no" ed="#L" n="24"/>stolus, Heb. x : Neque deserentes 
+            col<lb break="no" ed="#L" n="25"/>lectionem nostram, sicut est consuetudinis 
+            quibus<lb break="no" ed="#L" n="26"/>dam: Glossa : Qui scilicet vel timore 
+            persecutio<lb break="no" ed="#L" n="27"/>nis cedunt, vel propria praesumptione a 
+            peccato<lb break="no" ed="#L" n="28"/>ribus vel imperfectis, ut iusti videantur, recedunt.
+            <lb ed="#L" n="29"/>Sed hoc videntur facere qui de una religione
+            <lb ed="#L" n="30"/>transeunt ad aliam perfectiorem. Ergo videtur
+            <lb ed="#L" n="31"/>hoc esse illicitum.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2372">
+            <lb ed="#L" n="32"/>2. PRAETEREA, professio monachorum est 
+            ar<lb break="no" ed="#L" n="33"/>ctior quam professio regularium canonicorum:
+            <lb ed="#L" n="34"/>ut habetur Extra, de Statu Monach. et Canonic.
+            <lb ed="#L" n="35"/>Regul. cap. Quod Dei timorem. Sed non licet 
+            ali<lb break="no" ed="#L" n="36"/>cui transire de statu canonicorum regularium ad
+            <lb ed="#L" n="37"/>statuam monachorum: dicitur enim in Decretis,
+            <lb ed="#L" n="38"/>XIX caus., qu. ur : Mandamus, et universaliter
+            <lb ed="#L" n="39"/>interdicimus, ne quis canonicus regulariter ^ 
+            pro<lb break="no" ed="#L" n="40"/>fessus, nisi, quod absit, publice lapsus fuerit,
+            <lb ed="#L" n="41"/>monachus efficiatur. Ergo videtur quod non 
+            li<lb break="no" ed="#L" n="42"/>ceat alicui transire de una religione ad aliam 
+            ma<lb break="no" ed="#L" n="43"/>iorem.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2402">
+            <lb ed="#L" n="44"/>3. PRAETEREA, tandiu aliquis obligatur ad 
+            im<lb break="no" ed="#L" n="45"/>plendum quod vovit, quandiu potest licite illud
+            <lb ed="#L" n="46"/>implere: sicut, si aliquis vovit continentiam 
+            ser<lb break="no" ed="#L" n="47"/>vare, etiam post contractum matrimonium per
+            <lb ed="#L" n="48"/>verba de praesenti, ante carnalem copulam, 
+            te<lb break="no" ed="#L" n="49"/>netur implere votum, quia hoc potest facere 
+            re<lb break="no" ed="#L" n="50"/>ligionem intrando. Si ergo aliquis licite potest de
+            <lb ed="#L" n="51"/>una religione transire ad aliam, tenebitur hoc
+            <lb ed="#L" n="52"/>facere, si ante hoc voverit existens in saeculo.
+            <lb ed="#L" n="53"/>Quod videtur esse inconveniens: quia ex hoc
+            <lb ed="#L" n="54"/>plerumque scandalum generari posset. Ergo non
+            <lb ed="#L" n="55"/>potest aliquis religiosus de una religione transire
+            <lb ed="#L" n="56"/>ad aliam arctiorem.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2433">
+            <lb ed="#L" n="57"/>SED coNTRA EsT quod dicitur in Decretis, XX
+            <lb ed="#L" n="58"/>caus., qu. iv : Virgines sacrae si, pro lucro 
+            ani<lb break="no" ed="#L" n="59"/>mae suae, propter districtiorem vitam, ad aliud
+            <lb ed="#L" n="60"/>monasterium pergere disposuerunt, ibique 
+            com<lb break="no" ed="#L" n="61"/>manere decreverunt, Synodus concedit. Et eadem
+            <lb ed="#L" n="62"/>ratio videtur esse de quibuscumque religiosis.
+            <lb ed="#L" n="63"/>Ergo potest aliquis licite transire de una religione
+            <lb ed="#L" n="64"/>ad aliam.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2453">
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="65"/>REsPONDEO DICENDUM quod transire de religione
+            <lb ed="#L" n="66"/>ad religionem, nisi propter magnam utilitatem
+            <lb ed="#L" n="67"/>vel necessitateri, non est laudabile, Tum quia
+            <lb ed="#L" n="68"/>ex hoc plerumque scandalizantur illi qui 
+            relin<lb break="no" ed="#L" n="69"/>quuntur. - Tum etiam quia facilius proficit aliquis
+            <lb ed="#L" n="70"/>in religione quam consuevit, quam in illa quam
+            <lb ed="#L" n="71"/>non consuevit, ceteris paribus. Unde in 
+            Collatio<lb break="no" ed="#L" n="72"/>nibus Patrum  Abbas Nesteros ? dicit: Unicuique
+            <lb ed="#L" n="73"/>ulile est ut. secundum propositum quod elegit,
+            <lb ed="#L" n="74"/>summo studio ac diligentia ad operis arrepti 
+            per<lb break="no" ed="#L" n="75"/>fectionem pervenire festinet, et nequaquam a sua,
+            <lb ed="#L" n="76"/>quam semel elegit, professione discedat. Et 
+            po<lb break="no" ed="#L" n="77"/>stea , rationem assignans, subdit: Zmpossibile
+            <lb ed="#L" n="78"/>namque est unum eumdemque hominem simul 
+            uni<lb break="no" ed="#L" n="79"/>versis fulciri virtutibus. Quas si quis voluerit pariter
+            <lb ed="#L" n="80"/>allentare, in id incidere eum necesse est ut, dum
+            <lb ed="#L" n="81"/>omnem sequitur, nullam integre consequatur. 
+            Di<lb break="no" ed="#L" n="82"/>versae enim religiones praeeminent secundum
+            <lb ed="#L" n="83"/>diversa virtutum opera.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2499">
+            <lb ed="#L" n="84"/>Potest tamen aliquis laudabiliter de una 
+            reli<lb break="no" ed="#L" n="85"/>gione transire ad aliam, triplici ex causa. Primo
+            <lb ed="#L" n="86"/>quidem, zelo perfectioris religionis. Quae quidem
+            <lb ed="#L" n="87"/>excellentia, ut supra  dictum est, non attenditur
+            <lb ed="#L" n="88"/>secundum solam arctitudinem : sed principaliter
+            <lb ed="#L" n="89"/>secundum id ad quod religio ordinatur; 
+            secun<lb break="no" ed="#L" n="90"/>dario vero secundum discretionem 
+            observantia<lb break="no" ed="#L" n="91"/>rum debito fini proportionatarum. - Secundo,
+            <lb ed="#L" n="92"/>propter declinationem religionis a debita 
+            perfe<lb break="no" ed="#L" n="93"/>ctione. Puta, si in aliqua religione altiori ? 
+            inci<lb break="no" ed="#L" n="94"/>piant religiosi remissius vivere, laudabiliter transit
+            <lb ed="#L" n="95"/>aliquis ad religionem etiam minorem, si melius
+            <lb ed="#L" n="96"/>observetur: sicut in Collationibus Patrum  dicit
+            <lb ed="#L" n="97"/>Abbas loannes de seipso quod a vita solitaria,
+            <lb ed="#L" n="98"/>in qua professus  fuerat, transiit ad minorem,
+            <lb ed="#L" n="99"/>scilicet eorum qui vivunt in societate, propter
+            <lb ed="#L" n="100"/>hoc quod vita eremitica coeperat declinare et
+            <lb ed="#L" n="101"/>laxius observari. - Tertio, propter infirmitatem
+            <lb ed="#L" n="102"/>vel debilitatem, ex qua interdum provenit quod
+            <lb ed="#L" n="103"/>non potest aliquis arctioris religionis statuta 
+            ser<lb break="no" ed="#L" n="104"/>vare, posset autem observare statuta religionis
+            <lb ed="#L" n="105"/>laxioris.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2549">
+            <lb ed="#L" n="106"/>Sed in his tribus casibus est  differentia. Nam
+            <lb ed="#L" n="107"/>in primo casu, debet quidem, propter 
+            humilita<lb break="no" ed="#L" n="108"/>tem, licentiam petere: quae tamen ei negari non
+            <pb ed="#L" n="550"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>potest, dummodo constet illam religionem esse
+            <lb ed="#L" n="2"/>altiorem ^; si vero de hoc probabiliter dubitetur,
+            <lb ed="#L" n="3"/>est in hoc superioris iudicium requirendum; ut
+            <lb ed="#L" n="4"/>habetur Extra, de Regular. et transeunt. ad 
+            Re<lb break="no" ed="#L" n="5"/>lig., cap. Licet. - Similiter requiritur superioris
+            <lb ed="#L" n="6"/>iudicium in secundo casu. - In tertio vero casu
+            <lb ed="#L" n="7"/>est etiam  dispensatio necessaria.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2578">
+            <lb ed="#L" n="8"/>AD PRIMUM ERGO DICENDUM quod illi qui ad 
+            al<lb break="no" ed="#L" n="9"/>tiorem religionem transeunt, non faciunt hoc
+            <lb ed="#L" n="10"/>praesumptuose, ut iusti videantur: sed devote, ut
+            <lb ed="#L" n="11"/>iustiores fiant.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2590">
+            <lb ed="#L" n="12"/>AD SECUNDUM DICENDUM quod utraque religio ,
+            <lb ed="#L" n="13"/>scilicet monachorum et canonicorum regularium,
+            <lb ed="#L" n="14"/>ordinatur ad opera vitae contemplativae. Inter
+            <lb ed="#L" n="15"/>quae praecipua sunt ea quae aguntur in divinis
+            <lb ed="#L" n="16"/>mysteriis, ad quae ordinatur directe ordo 
+            cano<lb break="no" ed="#L" n="17"/>nicorum regularium, quibus per se competit ut
+            <lb ed="#L" n="18"/>sint clerici religiosi. Sed ad religionem 
+            monacho<lb break="no" ed="#L" n="19"/>rum non per se competit quod sint clerici: ut
+            <lb ed="#L" n="20"/>habetur in <ref xml:id="TAca84-d1e2248-Rd1e2611">Decretis, XVI, qu. 1</ref> . Et ideo, quamvis
+            <lb ed="#L" n="21"/>ordo monachorum sit arctioris observantiae, si
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="22"/>monachi essent laici, liceret transire ab ordine
+            <lb ed="#L" n="23"/>monachorum ad ordinem canonicorum 
+            regula<lb break="no" ed="#L" n="24"/>rium, secundum illud Hieronymi, ad Rusticum
+            <lb ed="#L" n="25"/>Monachum , Sic vive in monasterio ut clericus
+            <lb ed="#L" n="26"/>esse merearis: non autem e converso , ut habetur
+            <lb ed="#L" n="27"/>in <ref xml:id="TAca84-d1e2248-Rd1e2631">Decretis, XIX caus., qu. i</ref> in decreto inducto .
+            <lb ed="#L" n="28"/>Sed si monachi sint clerici sacris mysteriis 
+            ob<lb break="no" ed="#L" n="29"/>sequentes, habent id quod est canonicorum 
+            re<lb break="no" ed="#L" n="30"/>gularium cum maiori arctitudine. Et ideo transire
+            <lb ed="#L" n="31"/>licitum erit de ordine canonicorum regularium
+            <lb ed="#L" n="32"/>ad ordinem monachorum, petita tamen superioris
+            <lb ed="#L" n="33"/>licentia: ut dicitur <ref xml:id="TAca84-d1e2248-Rd1e2646">XIX, qu. ut, cap. Statuimus</ref>.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2649">
+            <lb ed="#L" n="34"/>AD TERTIUM DICENDUM quod votum solemne
+            <lb ed="#L" n="35"/>quo quis obligatur minori religioni, est fortius
+            <lb ed="#L" n="36"/>quam votum simplex quo quis adstringitur maiori
+            <lb ed="#L" n="37"/>religioni: post votum enim simplex, si 
+            contra<lb break="no" ed="#L" n="38"/>heret aliquis matrimonium, non dirimeretur, sicut
+            <lb ed="#L" n="39"/>post votum solemne. Et ideo ille qui iam 
+            pro<lb break="no" ed="#L" n="40"/>fessus est in minori religione, non tenetur 
+            im<lb break="no" ed="#L" n="41"/>plere votum simplex quod emisit de intrando
+            <lb ed="#L" n="42"/>maiorem religionem.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2248-Dd1e2672"><!-- p2p2-q189a9 -->
+          <head xml:id="TAca84-d1e2248-Hd1e2675">Articulus 9</head>
+          <head xml:id="TAca84-d1e2248-Hd1e2677" type="question-title">Utrum aliquis debeat alios inducere ad religionem intrandum</head>
+          <p xml:id="TAca84-d1e2248-d1e2680">
+            <pb ed="#L" n="551"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1" type="fixed=551"/>ARTICULUS NONUS
+            <lb ed="#L" n="2"/>UTRUM ALIQUIS DEBEAT ALIOS INDUCERE AD RELIGIONEM INTRANDUM
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2691">
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="3"/>AD NONUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="4"/>nullus debeat alios inducere ad 
+            religio<lb break="no" ed="#L" n="5"/>nem intrandum. Mandat enim beatus
+            <lb ed="#L" n="6"/>Benedictus, in Regula sua , quod 
+            ve<lb break="no" ed="#L" n="7"/>nientibus ad religionem non sit facilis 
+            praeben<lb break="no" ed="#L" n="8"/>dus ingressus: sed probandum est an spiritus a
+            <lb ed="#L" n="9"/>Deo sint. Et hoc etiam docet <ref xml:id="TAca84-d1e2248-Rd1e2710">Cassianus, in IV lib.
+              <lb ed="#L" n="10"/>de Institutis Coenob.</ref>  Multo ergo minus. licet
+            <lb ed="#L" n="11"/>aliquem ad religionem inducere.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2718">
+            <lb ed="#L" n="12"/>2. PRAETEREA, <ref xml:id="TAca84-d1e2248-Rd1e2722">Matth. xxii</ref> , Dominus dicit: Vae
+            <lb ed="#L" n="13"/>vobis! qui circuitis mare et aridam ut faciatis
+            <lb ed="#L" n="14"/>unum proselytum, et, cum factus fuerit, facitis
+            <lb ed="#L" n="15"/>eum filium gehennae duplo quam vos. Sed hoc
+            <lb ed="#L" n="16"/>videntur facere qui homines ad religionem 
+            indu<lb break="no" ed="#L" n="17"/>cunt. Ergo videtur hoc esse vituperabile.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2737">
+            <lb ed="#L" n="18"/>3. PRAETEREA, nullus debet inducere aliquem
+            <lb ed="#L" n="19"/>ad id quod pertinet ad eius detrimentum. Sed
+            <lb ed="#L" n="20"/>ille qui inducit aliquem ad religionem, 
+            quando<lb break="no" ed="#L" n="21"/>que ex hoc incurrit detrimentum: quia 
+            quando<lb break="no" ed="#L" n="22"/>que sunt obligati ad maiorem religionem. Ergo
+            <lb ed="#L" n="23"/>videtur quod non sit laudabile inducere aliquos
+            <lb ed="#L" n="24"/>ad religionem.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2755">
+            <lb ed="#L" n="25"/>SED CONTRA EST quod dicitur Exod. xxvi : 
+            Cor<lb break="no" ed="#L" n="26"/>tina cortinam trahat. Debet ergo unus homo alium
+            <lb ed="#L" n="27"/>trahere ad Dei obsequium.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2764">
+            <lb ed="#L" n="28"/>RESPONDEO DICENDUM quod inducentes alios ad
+            <lb ed="#L" n="29"/>religionem non solum non peccant, sed magnum
+            <lb ed="#L" n="30"/>praemium merentur: dicitur enim lac. ult. : Qui
+            <lb ed="#L" n="31"/>converti fecerit peccatorem ab errore viae suae,
+            <lb ed="#L" n="32"/>liberat  animam eius a morte, et operit 
+            multi<lb break="no" ed="#L" n="33"/>tudinem peccatorum ; et Dan. xit  dicitur: Qui
+            <lb ed="#L" n="34"/>ad iustitiam erudiunt plurimos, quasi stellae in
+            <lb ed="#L" n="35"/>perpetuas aeternitates.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2784">
+            <lb ed="#L" n="36"/>Posset tamen contingere circa huiusmodi 
+            in<lb break="no" ed="#L" n="37"/>ductionem triplex inordinatio. Primo quidem, si
+            <lb ed="#L" n="38"/>violenter aliquis alium ad religionem cogeret:
+            <lb ed="#L" n="39"/>quod prohibetur in Decretis, XX, qu. ni . - 
+            Se<lb break="no" ed="#L" n="40"/>cundo, si aliquis simoniace alium ad religionem
+            <lb ed="#L" n="41"/>trahat, muneribus datis: ut prohibetur in 
+            Decre<lb break="no" ed="#L" n="42"/>tis  , qu. i, cap. Quam pio. Nec tamen ad hoc
+            <lb ed="#L" n="43"/>pertinet si aliquis alicui pauperi necessaria 
+            mini<lb break="no" ed="#L" n="44"/>stret in saeculo, nutriens eum ad religionem: vel
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="45"/>si, sine pacto, aliqua munuscula tribuat ad 
+            fa<lb break="no" ed="#L" n="46"/>miliaritatem captandam. - Tertio, si mendaciis
+            <lb ed="#L" n="47"/>eum alliciat. Imminet enim sic inducto 
+            pericu<lb break="no" ed="#L" n="48"/>lum ne, cum se deceptum invenerit, retrocedat ;
+            <lb ed="#L" n="49"/>et sic fiant novissima hominis illius peiora 
+            prio<lb break="no" ed="#L" n="50"/>ribus, ut dicitur Matth. XII.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2821">
+            <lb ed="#L" n="51"/>ÀD PRIMUM ERGO DICENDUM quod illis qui ad
+            <lb ed="#L" n="52"/>religionem inducuntur, nihilominus reservatur 
+            pro<lb break="no" ed="#L" n="53"/>bationis tempus, in quo difficultates religionis 
+            ex<lb break="no" ed="#L" n="54"/>periuntur. Et sic non facilis aditus eis datur ad
+            <lb ed="#L" n="55"/>religionis ingressum.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2834">
+            <lb ed="#L" n="56"/>AD SECUNDUM DICENDUM quod, secundum 
+            Hila<lb break="no" ed="#L" n="57"/>rium , verbum illud Domini praenuntiativum
+            <lb ed="#L" n="58"/>fuit perversi studii Iudaeorum quo, post Christi
+            <lb ed="#L" n="59"/>praedicationem, gentiles vel etiam Christianos ad
+            <lb ed="#L" n="60"/>Iudaicum ritum trahendo, faciunt dupliciter 
+            ge<lb break="no" ed="#L" n="61"/>hennae filios: quia scilicet et peccata pristina quae
+            <lb ed="#L" n="62"/>commiserunt, eis in Iudaismo non dimittuntur, et
+            <lb ed="#L" n="63"/>nihilominus incurrunt ludaicae perfidiae reatum.
+            <lb ed="#L" n="64"/>Et secundum hoc, non facit ad propositum.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2857">
+            <lb ed="#L" n="65"/>Secundum Hieronymum autem , hoc 
+            refer<lb break="no" ed="#L" n="66"/>tur ad ludaeos etiam pro statu illo in quo 
+            le<lb break="no" ed="#L" n="67"/>galia observari licebat: quantum ad hoc quod ille
+            <lb ed="#L" n="68"/>qui ab eis ad Iudaismum convertebatur, dum 
+            es<lb break="no" ed="#L" n="69"/>set gentilis, simpliciter errabat; videns autem 
+            ma<lb break="no" ed="#L" n="70"/>gistrorum vilia, revertitur ad vomitum suum, et,
+            <lb ed="#L" n="71"/>gentilis factus, quasi praevaricator, maiori poena
+            <lb ed="#L" n="72"/>fit dignus. Ex quo patet quod trahere alios ad
+            <lb ed="#L" n="73"/>cultum Dei, vel ad religionem, non vituperatur :
+            <lb ed="#L" n="74"/>sed hoc solum quod aliquis ei quem convertit 
+            <lb ed="#L" n="75"/>det malum exemplum, unde peior efficiatur.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2883">
+            <lb ed="#L" n="76"/>AD TERTIUM DICENDUM quod in maiori includitur
+            <lb ed="#L" n="77"/>minus. Et ideo ille qui est obligatus voto vel
+            <lb ed="#L" n="78"/>iuramento ad ingressum minoris religionis, potest
+            <lb ed="#L" n="79"/>licite induci ad hoc quod ad maiorem religionem
+            <lb ed="#L" n="80"/>transeat: nisi sit aliquid speciale quod impediat,
+            <lb ed="#L" n="81"/>puta infirmitas, vel spes maioris profectus in 
+            mi<lb break="no" ed="#L" n="82"/>nori religione. Ille vero qui est obligatus ^ voto
+            <lb ed="#L" n="83"/>vel iuramento ad ingressum maioris religionis,
+            <lb ed="#L" n="84"/>non potest licite induci ad minorem religionem:
+            <lb ed="#L" n="85"/>nisi ex aliqua speciali causa evidenti, et hoc cum
+            <lb ed="#L" n="86"/>dispensatione superioris.
+          </p>
+        </div>
+        <div xml:id="TAca84-d1e2248-Dd1e2910"><!-- p2p2-q189a10 -->
+          <head xml:id="TAca84-d1e2248-Hd1e2913">Articulus 10</head>
+          <head xml:id="TAca84-d1e2248-Hd1e2915" type="question-title">
+            utrum sit laudabile quod aliquis religionem ingrediatur absque multorum consilio,
+            et diuturna deliberatione praecedente
+          </head>
+          <p xml:id="TAca84-d1e2248-d1e2918">
+            <cb ed="#L" n="c"/>
+            <lb ed="#L" n="31" type="fixed=552"/>ARTICULUS DECIMUS
+            <lb ed="#L" n="32"/>UTRUM SIT LAUDABILE QUOD ALIQUIS RELIGIONEM INGREDIATUR ABSQUE MULTORUM CONSILIO,
+            <lb ed="#L" n="33"/>ET DIUTURNA DELIBERATIONE PRAECEDENTE
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2929">
+            <cb ed="#L" n="d"/>
+            <lb ed="#L" n="34"/>AD DECIMUM SIC PROCEDITUR. Videtur quod
+            <lb ed="#L" n="35"/>non sit laudabile quod aliquis 
+            religio<lb break="no" ed="#L" n="36"/>nem ingrediatur absque multorum 
+            con<lb break="no" ed="#L" n="37"/>silio, et diuturna deliberatione 
+            praece<lb break="no" ed="#L" n="38"/>dente. Dicitur enim I Ioan. iv : Nolite credere
+            <lb ed="#L" n="39"/>omni spiritui: sed probate spiritus, si ex Deo sunt.
+            <lb ed="#L" n="40"/>Sed quandoque propositum religionis intrandae
+            <lb ed="#L" n="41"/>non est ex Deo: cum frequenter per exitum 
+            re<lb break="no" ed="#L" n="42"/>ligionis dissolvatur; dicitur autem  .Ac£. v : .Si
+            <lb ed="#L" n="43"/>est ex Deo consilium hoc aut opus 9, non 
+            poteri<lb break="no" ed="#L" n="44"/>lis dissolvere illud. Ergo videtur quod, magna
+            <lb ed="#L" n="45"/>examinatione praecedente, debeant aliqui 
+            religio<lb break="no" ed="#L" n="46"/>nem intrare.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2962">
+            <lb ed="#L" n="47"/>2. PRAETEREA, Prov. xxv  dicitur: Causam
+            <lb ed="#L" n="48"/>iuam tracta cum amico tuo. Sed maxime videtur
+            <lb ed="#L" n="49"/>hominis esse causa quae pertinet ad mutationem
+            <lb ed="#L" n="50"/>status. Ergo videtur quod non debeat aliquis
+            <lb ed="#L" n="51"/>religionem intrare, nisi prius cum amicis suis
+            <lb ed="#L" n="52"/>tractet.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e2979">
+            <lb ed="#L" n="53"/>3. PmaETEREA, Dominus, Luc. xiv , inducit
+            <lb ed="#L" n="54"/>similitudinem de homine qui vult turrim 
+            aedifi<lb break="no" ed="#L" n="55"/>care, quod prius sedens computat sumptus qui
+            <lb ed="#L" n="56"/>sunt ei necessarii, si habeat ad perficiendum: ne
+            <lb ed="#L" n="57"/>insultetur ei: Quia hic homo incoepit aedificare,
+            <lb ed="#L" n="58"/>et non poluit consummare. Sumptus autem ad
+            <lb ed="#L" n="59"/>turrim aedificandam, ut Augustinus dicit, in 
+            Epi<lb break="no" ed="#L" n="60"/>stola ad Laetum , nihil est aliud quam ut 
+            re<lb break="no" ed="#L" n="61"/>nuntiel unusquisque omnibus quae sunt eius, 
+            Con<lb break="no" ed="#L" n="62"/>tingit autem quandoque quod. hoc multi non
+            <lb ed="#L" n="63"/>possunt, et similiter alias religionis observantias
+            <lb ed="#L" n="64"/>portare: in cuius figura, I Reg. xvii  dicitur quod
+            <lb ed="#L" n="65"/>David non poterat incedere cum armis Saulis ,
+            <lb ed="#L" n="66"/>quia non habebat usum, Ergo videtur quod non
+            <lb ed="#L" n="67"/>debeat aliquis religionem intrare, nisi diuturna
+            <lb ed="#L" n="68"/>deliberatione praemissa, et mwltoram consilio
+            <lb ed="#L" n="69"/>habito.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e3018">
+            <lb ed="#L" n="70"/>SED CONTRA EsT quod dicitur Matth. iv , quod
+            <cb ed="#L" n="e"/>
+            <lb ed="#L" n="71"/>ad vocationem Domini, Petrus et Andreas, 
+            con<lb break="no" ed="#L" n="72"/>tinuo, relictis retibus, secuti sunt eum. Ubi 
+            Chry<lb break="no" ed="#L" n="73"/>sostomus dicit, super Matth. : Talem 
+            obedien<lb break="no" ed="#L" n="74"/>tiam Christus quaerit a nobis ut neque instanti
+            <lb ed="#L" n="75"/>tempore remoremur . :
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e3036">
+            <lb ed="#L" n="76"/>RESPONDEO DICENDUM quod diuturna deliberatio
+            <lb ed="#L" n="77"/>et multorum consilia requiruntur in magnis et ?
+            <lb ed="#L" n="78"/>dubiis, ut Philosophus dicit, in III JEfhic. : in
+            <lb ed="#L" n="79"/>his autem quae sunt certa et determinata, non
+            <lb ed="#L" n="80"/>requiritur consilium. Circa ingressum autem 
+            re<lb break="no" ed="#L" n="81"/>ligionis tria possunt considerari. Primo quidem,
+            <lb ed="#L" n="82"/>ipse religionis ingressus secundum se. Et sic.
+            cer<lb break="no" ed="#L" n="83"/>tum est quod ingressus religionis est melius 
+            bo<lb break="no" ed="#L" n="84"/>num: et qui de hoc dubitat, quantum est in se,
+            <lb ed="#L" n="85"/>derogat Christo, qui hoc consilium dedit. Unde
+            <lb ed="#L" n="86"/>Augustinus dicit, in libro de Verb. Dom. : 
+            Vo<lb break="no" ed="#L" n="87"/>cat te Oriens, idest Christus, et. tu. attendis. 
+            occi<lb break="no" ed="#L" n="88"/>dentem, idest ad hominem mortalem et errare
+            <lb ed="#L" n="89"/>potentem.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e3069">
+            <lb ed="#L" n="90"/>Alio modo potest considerari religionis 
+            ingres<lb break="no" ed="#L" n="91"/>sus per comparationem ad vires eius qui est 
+            re<lb break="no" ed="#L" n="92"/>ligionem ingressurus. Et sic etiam non est locus
+            <lb ed="#L" n="93"/>dubitationis de ingressu religionis: quia illi qui
+            <lb ed="#L" n="94"/>religionem ingrediuntur, non confidunt sua virtute .
+            <lb ed="#L" n="95"/>se posse subsistere, sed auxilio virtutis divinae;
+            <lb ed="#L" n="96"/>secundum illud Isaiae xL : Qui sperant in 
+            Do<lb break="no" ed="#L" n="97"/>mino, mutabunt fortitudinem: assument 
+            <lb ed="#L" n="98"/>sicut aquilae, current et non laborabunt , 
+            ambu<lb break="no" ed="#L" n="99"/>labunt et non deficient. - Si tamen sit aliquod 
+            spe<lb break="no" ed="#L" n="100"/>ciale impedimentum, puta infirmitas corporalis
+            <lb ed="#L" n="101"/>vel onera debitorum, vel aliqua huiusmodi, in
+            <lb ed="#L" n="102"/>his requiritur deliberatio, et consilium cum his
+            <lb ed="#L" n="103"/>de quibus speratur quod. prosint et non 
+            impe<lb break="no" ed="#L" n="104"/>diant. Unde dicitur Eccli. xxxvii : Cum viro 
+            ir<lb break="no" ed="#L" n="105"/>religioso tracta de sanctitate, et cum iniusto de
+            <lb ed="#L" n="106"/>iustitia: quasi dicat, Non. Unde sequitur : Non
+            <lb ed="#L" n="107"/>attendas his in omni consilio: sed cum viro san-
+            <pb ed="#L" n="553"/>
+            <cb ed="#L" n="a"/>
+            <lb ed="#L" n="1"/>cto assiduus esto. In quibus tamen non est 
+            diu<lb break="no" ed="#L" n="2"/>turna deliberatio habenda. Unde Hieronymus 
+            <lb ed="#L" n="3"/>dicit, in Epistola ad Paulinum : Festina, quaeso,
+            <lb ed="#L" n="4"/>le: et haerenti  in salo naviculae funem magis
+            <lb ed="#L" n="5"/>praecide quam solve.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e3126">
+            <lb ed="#L" n="6"/>Tertio autem potest considerari modus 
+            reli<lb break="no" ed="#L" n="7"/>gionem intrandi, et quam religionem aliquis 
+            in<lb break="no" ed="#L" n="8"/>gredi debeat. Et de talibus potest etiam haberi
+            <lb ed="#L" n="9"/>consilium cum his qui non impediant.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e3137">
+            <lb ed="#L" n="10"/>AD PRIMUM ERGO DICENDUM quod, cum dicitur,
+            <lb ed="#L" n="11"/>Probate spiritus si ex Deo sunt, locum habet 
+            <lb ed="#L" n="12"/>in his quae dubia sunt utrum spiritus Dei sit 
+            <lb ed="#L" n="13"/>Sicut dubium potest esse his qui iam sunt in re- -
+            <lb ed="#L" n="14"/>ligione, utrum ille qui religioni se offert, Spiritu
+            <lb ed="#L" n="15"/>Dei ducatur, an simulate accedat: et ideo debent
+            <lb ed="#L" n="16"/>accedentem probare, utrum divino spiritu 
+            movea<lb break="no" ed="#L" n="17"/>tur. Sed illi qui ad religionem accedit, non potest
+            <lb ed="#L" n="18"/>esse dubium an propositum de ingressu religionis
+            <lb ed="#L" n="19"/>in corde eius exortum sit a Spiritu Dei, cuius est
+            <lb ed="#L" n="20"/>ducere hominem in terram rectam .
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e3164">
+            <lb ed="#L" n="21"/>Nec propter hoc ostenditur non esse ex Deo,
+            <lb ed="#L" n="22"/>quod aliqui retrocedunt. Non enim omne quod
+            <lb ed="#L" n="23"/>est a Deo, est incorruptibile: alioquin, creaturae 
+            <lb ed="#L" n="24"/>corruptibiles non essent ex Deo, ut Manichaei
+            <lb ed="#L" n="25"/>dicunt ; neque etiam aliqui qui habent a Deo
+            <lb ed="#L" n="26"/>gratiam, possent illam amittere, quod etiam est
+            <lb ed="#L" n="27"/>haereticum. Sed consilium Dei est indissolubile, 
+            <lb ed="#L" n="28"/>quo etiam corruptibilia et mutabilia facit: 
+            secun<lb break="no" ed="#L" n="29"/>dum illud Isaiae xtvi : Consilium meum stabit,
+            <lb ed="#L" n="30"/>et omnis voluntas mea fiet. Et ideo propositum
+            <lb ed="#L" n="31"/>de ingressu religionis non indiget probatione utrum
+            <lb ed="#L" n="32"/>sit a Deo: quia certa discussione non egent", ut
+            <lb ed="#L" n="33"/>dicit Glossa , super illud I ad 7Aess. ult. ,
+            <lb ed="#L" n="34"/>Omnia probate.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e3197">
+            <lb ed="#L" n="35"/>AD SECUNDUM DICENDUM quod, sicut caro 
+            con<lb break="no" ed="#L" n="36"/>cupiscit adversus spiritum, ut dicitur Galat. v ;
+            <lb ed="#L" n="37"/>ita etiam frequenter amici carnales adversantur
+            <lb ed="#L" n="38"/>profectui spirituali: secundum illud Mich. vir :
+            <lb ed="#L" n="39"/>Inimici hominis domestici eius. Unde Cyrillus ,
+            <lb ed="#L" n="40"/>exponens illud Luc. ix , Permitte me renuntiare
+            <lb ed="#L" n="41"/>his qui domi sunt, dicit: Quaerere renuntiare his
+            <lb ed="#L" n="42"/>qui domi sunt, ostendit quod utcumque ' divisus
+            <lb ed="#L" n="43"/>sit: nam communicare proximis, et consulere 
+            no<lb break="no" ed="#L" n="44"/>lentes aequa sapere, indicat adhuc utcumque 
+            lan<lb break="no" ed="#L" n="45"/>guentem et recedentem. Propter quod, audit a
+            <lb ed="#L" n="46"/>Domino : « Nemo, cum posuerit manum ad 
+            ara<lb break="no" ed="#L" n="47"/>irum et aspexerit retro, habilis est ad regnum
+            <lb ed="#L" n="48"/>Dei ». Aspicit enim retro qui dilationem quaerit
+            <cb ed="#L" n="b"/>
+            <lb ed="#L" n="49"/>occasione redeundi domum et cum propinquis
+            <lb ed="#L" n="50"/>conferendi.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e3236">
+            <lb ed="#L" n="51"/>AD TERTIUM DICENDUM quod per aedificationem
+            <lb ed="#L" n="52"/>turris significatur perfectio Christianae vitae. 
+            Ab<lb break="no" ed="#L" n="53"/>renuntiatio autem propriorum est sümptus ad
+            <lb ed="#L" n="54"/>aedificandam turrim. Nüllus autem dubitat vel
+            <lb ed="#L" n="55"/>deliberat an velit habere sumptus, vel an possit
+            <lb ed="#L" n="56"/>turrim aedificare si sumptus habeat: sed hoc sub
+            <lb ed="#L" n="57"/>deliberatione ponitur, an aliquis sumptus habeat.
+            <lb ed="#L" n="58"/>Similiter sub deliberatione cadere nón oportet
+            <lb ed="#L" n="59"/>utrum aliquis debeat abrenuntiare omnibus quae
+            <lb ed="#L" n="60"/>possidet: vel si, hoc faciendo, ad perfectionem
+            <lb ed="#L" n="61"/>pervenire possit. Sed hoc cadit sub deliberatione,
+            <lb ed="#L" n="62"/>utrum hoc quod facit, sit abrenuntiare omnibus
+            <lb ed="#L" n="63"/>quae possidet: quia nisi abrenuntiaverit, quod est
+            <lb ed="#L" n="64"/>sumptus habere, non potest, ut ibidem subditur,
+            <lb ed="#L" n="65"/>Christi esse discipulus, quod est turrim aedificare.
+          </p>
+          <p xml:id="TAca84-d1e2248-d1e3271">
+            <lb ed="#L" n="66"/>Timor autem eorum qui trepidant an per 
+            re<lb break="no" ed="#L" n="67"/>ligionis ingressum possint ad perfectionem 
+            per<lb break="no" ed="#L" n="68"/>venire, est irrationabilis; et  multorum exemplo
+            <lb ed="#L" n="69"/>convincitur. Unde Augustinus dicit, VIII Confess. :
+            <lb ed="#L" n="70"/>Aperiebatur ab ea parte qua intenderam ? faciem,
+            <lb ed="#L" n="71"/>et quo transire trepidabam, casta dignitas 
+            conti<lb break="no" ed="#L" n="72"/>nentiae, honeste blandiens ut venirem neque 
+            du<lb break="no" ed="#L" n="73"/>bitarem, et extendens ad me suscipiendum et 
+            am<lb break="no" ed="#L" n="74"/>plectendum pias manus plenas gregibus bonorum
+            <lb ed="#L" n="75"/>exemplorum. Ibi tot pueri et puellae; ibi iuventus
+            <lb ed="#L" n="76"/>multa et omnis aetas, et graves viduae et virgines
+            <lb ed="#L" n="77"/>anus. Irridebat me irrisione exhortatoria, quasi 
+            di<lb break="no" ed="#L" n="78"/>ceret: Tu non poteris quod isti et istae? An isti et
+            <lb ed="#L" n="79"/>istae in semetipsis possunt, et non in Domino Deo
+            <lb ed="#L" n="80"/>suo? Quid in te stas: et non stas? Proiice le in
+            <lb ed="#L" n="81"/>eum. Noli metuere: non se subtrahet, ut cadas.
+            <lb ed="#L" n="82"/>Proüce te securus, et excipiet le et sanabit te.
+            <lb ed="#L" n="83"/>Exemplum autem illud quod inducitur de 
+            Da<lb break="no" ed="#L" n="84"/>vid, non facit ad propositum. Quia arma Saulis,
+            <lb ed="#L" n="85"/>sicut Glossa  dicit, sunt /egis sacramenta, 
+            tan<lb break="no" ed="#L" n="86"/>quam onerantia. Religio autem est suave iugum
+            <lb ed="#L" n="87"/>Christi : quia, ut Gregorius dicit, in IV Moral. :
+            <lb ed="#L" n="88"/>Quid grave mentis nostrae cervicibus imponit qui
+            <lb ed="#L" n="89"/>vitare omne desiderium quod perturbat praecipit,
+            <lb ed="#L" n="90"/>qui declinari laboriosa mundi huius itinera monet?
+            <lb ed="#L" n="91"/>Quod quidem suave iugum super se tollentibus
+            <lb ed="#L" n="92"/>re
+            <lb ed="#L" n="93"/>fectionem divinae fruitionis repromittit, et 
+            sem<lb break="no" ed="#L" n="94"/>piternam requiem animarum . AD QUAM NOS 
+            PER<lb break="no" ed="#L" n="95"/>DUCAT IPSE QUI PROMISIT, Iesus Cunisrus, DowiNus
+            <lb ed="#L" n="96"/>NOSTER, QUI EST SUPER OMNIA DEUS BENEDICTUS IN
+            <lb ed="#L" n="97"/>SAECULA. AMEN.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
