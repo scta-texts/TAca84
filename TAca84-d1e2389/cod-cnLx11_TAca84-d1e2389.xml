@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 26</title>
+            <author ref="#Aquinas">Thomas Aquinas</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 26</title>
+               <date when="2025-06-09">June 09, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLx11">Rome, 1903, v. 11</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-06-09" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="NaN"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="TAca84-d1e2389"><!-- p3-q26 -->
+            <head xml:id="TAca84-d1e2389-Hd1e97">Quaestio 26</head>
+            <div xml:id="TAca84-d1e2389-Dd1e99">
+               <head xml:id="TAca84-d1e2389-Hd1e101">Prooemium</head>
+               <p xml:id="TAca84-d1e2389-d1e103"> Deinde considerandum est de hoc quod Christus dicitur mediator Dei et hominum. Et circa hoc quaeruntur duo. Primo, utrum esse mediatorem Dei et hominum sit proprium Christo. Secundo, utrum hoc conveniat ei secundum humanam naturam.</p>
+            </div>
+            <div xml:id="TAca84-d1e2389-Dd1e106">
+               <head xml:id="TAca84-d1e2389-Hd1e108">Articulus 1</head>
+               <p xml:id="TAca84-d1e2389-d1e110"> Ad primum sic proceditur. Videtur quod esse mediatorem Dei et hominum non sit proprium Christo. Sacerdos enim et propheta videtur esse mediator inter Deum et homines, secundum illud Deut. V, <quote xml:id="TAca84-d1e2389-Qd1e112">ego illo tempore sequester et medius fui inter vos et Deum</quote>. Sed esse prophetam et sacerdotem non est proprium Christo. Ergo nec etiam esse mediatorem.</p>
+               <p xml:id="TAca84-d1e2389-d1e115"> Praeterea, illud quod convenit Angelis bonis et malis, non potest dici esse proprium Christo. Sed esse medium inter Deum et homines convenit Angelis bonis, ut dicit Dionysius, IV cap. de Div. Nom. Convenit etiam Angelis malis, idest Daemonibus, habent enim quaedam communia cum Deo, scilicet immortalitatem; quaedam autem habent communia cum hominibus, scilicet quod sunt animo passivi, et per consequens miseri; ut patet per Augustinum, in Lib. IX de Civ. Dei. Ergo esse mediatorem Dei et hominum non est proprium Christo.</p>
+               <p xml:id="TAca84-d1e2389-d1e117"> Praeterea, ad officium mediatoris pertinet interpellare ad unum eorum inter quos est mediator, pro altero. Sed spiritus sanctus, sicut dicitur Rom. VIII, <quote xml:id="TAca84-d1e2389-Qd1e119">interpellat pro nobis ad Deum gemitibus inenarrabilibus</quote>. Ergo spiritus sanctus est mediator inter Deum et homines. Ergo non est proprium Christo.</p>
+               <p xml:id="TAca84-d1e2389-d1e122"> Sed contra est quod dicitur I Tim. II, <quote xml:id="TAca84-d1e2389-Qd1e124">unus est mediator Dei et hominum, homo Christus Iesus</quote>.</p>
+               <p xml:id="TAca84-d1e2389-d1e128"> Respondeo dicendum quod mediatoris officium proprie est coniungere eos inter quos est mediator, nam extrema uniuntur in medio. Unire autem homines Deo perfective quidem convenit Christo, per quem homines reconciliantur Deo, secundum illud II Cor. V, <quote xml:id="TAca84-d1e2389-Qd1e130">Deus erat in Christo mundum reconcilians sibi</quote>. Et ideo solus Christus est perfectus Dei et hominum mediator, inquantum per suam mortem humanum genus Deo reconciliavit. Unde, cum apostolus dixisset, <quote xml:id="TAca84-d1e2389-Qd1e132">mediator Dei et hominum homo Christus Iesus</quote>, subiunxit, <quote xml:id="TAca84-d1e2389-Qd1e134">qui dedit semetipsum redemptionem pro omnibus</quote>. Nihil tamen prohibet aliquos alios secundum quid dici mediatores inter Deum et hominem, prout scilicet cooperantur ad unionem hominum cum Deo dispositive vel ministerialiter.</p>
+               <p xml:id="TAca84-d1e2389-d1e137"> Ad primum ergo dicendum quod prophetae et sacerdotes veteris legis dicti sunt mediatores inter Deum et homines dispositive et ministerialiter, inquantum scilicet praenuntiabant et praefigurabant verum et perfectum Dei et hominum mediatorem. Sacerdotes vero novae legis possunt dici mediatores Dei et hominum inquantum sunt ministri veri mediatoris, vice ipsius salutaria sacramenta hominibus exhibentes.</p>
+               <p xml:id="TAca84-d1e2389-d1e139"> Ad secundum dicendum quod Angeli boni, ut Augustinus dicit, in IX de Civ. Dei, non recte possunt dici mediatores inter Deum et homines. <quote xml:id="TAca84-d1e2389-Qd1e141">Cum enim utrumque habeant cum Deo, et beatitudinem et immortalitatem, nihil autem horum cum hominibus miseris et mortalibus, quomodo non potius remoti sunt ab hominibus, Deoque coniuncti, quam inter utrosque medii constituti?</quote> Dionysius tamen dicit eos esse medios, quia, secundum gradum naturae, sunt infra Deum et supra homines constituti. Et mediatoris officium exercent, non quidem principaliter et perfective, sed ministerialiter et dispositive, unde Matth. IV dicitur quod accesserunt Angeli et ministrabant ei, scilicet Christo. Daemones autem habent quidem cum Deo immortalitatem, cum hominibus vero miseriam. <quote xml:id="TAca84-d1e2389-Qd1e143">Ad hoc ergo se interponit medius Daemon immortalis et miser, ut ad immortalitatem beatam transire non sinat</quote>, sed perducat ad miseriam immortalem. Unde est sicut <quote xml:id="TAca84-d1e2389-Qd1e145">malus medius, qui separat amicos</quote>. Christus autem habuit cum Deo communem beatitudinem, cum hominibus autem mortalitatem. Et ideo <quote xml:id="TAca84-d1e2389-Qd1e147">ad hoc se interposuit medium ut, mortalitate transacta, ex mortuis faceret immortales, quod in se resurgendo monstravit; et ex miseris beatos efficeret, unde nunquam ipse discessit</quote>. Et ideo ipse est bonus mediator, qui reconciliat inimicos.</p>
+               <p xml:id="TAca84-d1e2389-d1e150"> Ad tertium dicendum quod spiritus sanctus, cum sit per omnia Deo aequalis, non potest dici medius vel mediator inter Deum et homines, sed solus Christus, qui, licet secundum divinitatem aequalis sit patri, tamen secundum humanitatem minor est patre, ut dictum est. Unde, super illud Galat. III, <quote xml:id="TAca84-d1e2389-Qd1e152">Christus est mediator</quote>, dicit Glossa, <quote xml:id="TAca84-d1e2389-Qd1e154">non pater vel spiritus sanctus</quote>. Dicitur autem spiritus sanctus interpellare pro nobis, quia ipse interpellare nos facit.</p>
+            </div>
+            <div xml:id="TAca84-d1e2389-Dd1e158">
+               <head xml:id="TAca84-d1e2389-Hd1e160">Articulus 2</head>
+               <p xml:id="TAca84-d1e2389-d1e162"> Ad secundum sic proceditur. Videtur quod Christus non sit mediator Dei et hominum secundum quod homo. Dicit enim Augustinus, in libro contra Felicianum, <quote xml:id="TAca84-d1e2389-Qd1e164">una est Christi persona, ne sit non unus Christus, non una substantia; ne, mediatoris dispensatione submota, aut Dei tantum aut hominis dicatur filius</quote>. Sed non est Dei et hominis filius secundum quod homo, sed simul secundum quod Deus et homo. Ergo neque dicendum est quod sit mediator Dei et hominum solum secundum quod homo.</p>
+               <p xml:id="TAca84-d1e2389-d1e167"> Praeterea, sicut Christus, inquantum est Deus, convenit cum patre et spiritu sancto, ita, inquantum est homo, convenit cum hominibus. Sed propter hoc quod, inquantum est Deus, convenit cum patre et spiritu sancto, non potest dici mediator inquantum est Deus, quia super illud I Tim. II, <quote xml:id="TAca84-d1e2389-Qd1e169">mediator Dei et hominum</quote>, dicit Glossa, <quote xml:id="TAca84-d1e2389-Qd1e171">inquantum est verbum, non medius est, quia aequalis est Deo, et Deus apud Deum, et simul unus Deus</quote>. Ergo nec etiam inquantum homo, potest dici mediator, propter convenientiam quam cum hominibus habet.</p>
+               <p xml:id="TAca84-d1e2389-d1e174"> Praeterea, Christus dicitur mediator inquantum reconciliavit nos Deo, quod quidem fecit auferendo peccatum, quod nos separabat a Deo. Sed auferre peccatum convenit Christo non inquantum est homo, sed inquantum est Deus. Ergo Christus, inquantum est homo, non est mediator, sed inquantum est Deus.</p>
+               <p xml:id="TAca84-d1e2389-d1e176"> Sed contra est quod Augustinus dicit, in Lib. IX, de Civ. Dei, <quote xml:id="TAca84-d1e2389-Qd1e178">non ob hoc est mediator Christus, quia est verbum. Maxime quippe immortale et maxime beatum verbum longe a mortalibus miseris. Sed mediator est secundum quod homo</quote>.</p>
+               <p xml:id="TAca84-d1e2389-d1e182"> Respondeo dicendum quod in mediatore duo possumus considerare, primo quidem, rationem medii; secundo, officium coniungendi. Est autem de ratione medii quod distet ab utroque extremorum, coniungit autem mediator per hoc quod ea quae unius sunt, defert ad alterum. Neutrum autem horum potest convenire Christo secundum quod Deus, sed solum secundum quod homo. Nam secundum quod Deus, non differt a patre et spiritu sancto in natura et potestate dominii, nec etiam pater et spiritus sanctus aliquid habent quod non sit filii, ut sic possit id quod est patris vel spiritus sancti, quasi quod est aliorum, ad alios deferre. Sed utrumque convenit ei inquantum est homo. Quia, secundum quod est homo, distat et a Deo in natura, et ab hominibus in dignitate et gratiae et gloriae. Inquantum etiam est homo, competit ei coniungere homines Deo, praecepta et dona hominibus exhibendo, et pro hominibus ad Deum satisfaciendo et interpellando. Et ideo verissime dicitur mediator secundum quod homo.</p>
+               <p xml:id="TAca84-d1e2389-d1e184"> Ad primum ergo dicendum quod, si subtrahatur divina natura a Christo, subtrahitur per consequens ab eo singularis plenitudo gratiarum, quae convenit ei inquantum est unigenitus a patre, ut dicitur Ioan. I. Ex qua quidem plenitudine habet ut sit super omnes homines constitutus, et propinquius ad Deum accedens.</p>
+               <p xml:id="TAca84-d1e2389-d1e186"> Ad secundum dicendum quod Christus, secundum quod Deus, est per omnia aequalis patri. Sed etiam in humana natura excedit alios homines. Et ideo, secundum quod homo, potest esse mediator, non autem secundum quod Deus.</p>
+               <p xml:id="TAca84-d1e2389-d1e188"> Ad tertium dicendum quod, licet auctoritative peccatum auferre conveniat Christo secundum quod est Deus, tamen satisfacere pro peccato humani generis convenit ei secundum quod homo. Et secundum hoc dicitur Dei et hominum mediator.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
